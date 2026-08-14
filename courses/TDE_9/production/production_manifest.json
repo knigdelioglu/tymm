@@ -1,0 +1,219 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_9",
+  "grade": 9,
+  "course_title": "Türk Dili ve Edebiyatı",
+  "academic_year": null,
+  "manifest_date": "2026-08-14",
+  "manifest_scope": "Otomatik Materyal Üretim Kuyruğu (Yalnızca REQUIRED Kaynaklar)",
+  "summary_metrics": {
+    "total_materials_in_queue": 7,
+    "theme_distribution": {
+      "TEMA_01": 0,
+      "TEMA_02": 2,
+      "TEMA_03": 2,
+      "TEMA_04": 3
+    },
+    "initial_generation_status": "READY_TO_GENERATE"
+  },
+  "production_queue": [
+    {
+      "material_id": "MAT_T2_KONUSMA_RUBRIC",
+      "resource_plan_ids": [
+        "RES_T2_08"
+      ],
+      "theme_ids": [
+        "TEMA_02"
+      ],
+      "block_ids": [
+        "BLOCK_T2_02_KONUSMA"
+      ],
+      "targeted_outcomes": [
+        "TDE3.4"
+      ],
+      "official_requirement_verbatim": "Öğretmen değerlendirmesi dereceli puanlama anahtarı ile gerçekleştirilir. Puanlama anahtarında ses ve diksiyon, akıcılık, beden dili, içeriğin kurgusallığı, zaman yönetimi, Türkçenin doğru kullanımı, etkileyicilik vb. ölçütler yer alır.",
+      "source_locators": {
+        "curriculum": "s. 74, 78 (TDE3.4)",
+        "textbook": "s. 129 (FORM_IN_T2_KONUSMA_CRITERIA), s. 312 (FORM_BOB_11_GENEL_GOZLEM)"
+      },
+      "exact_remaining_gap": "Ders kitabında s. 129'daki FORM_IN_T2_KONUSMA_CRITERIA yalnızca düzey betimleyicisi olmayan bir ölçüt tablosudur (assessment_criteria_table). Programın s. 74 ve 78'de açıkça şart koştuğu öğretmen dereceli puanlama anahtarı (rubrik) kitapta mevcut değildir.",
+      "production_decision": "GENERATE_ASSESSMENT_SUPPORT",
+      "priority": "REQUIRED",
+      "selected_implementation": "analytic_rubric",
+      "textbook_relationship": "TEACHER_ASSESSMENT_SUPPORT",
+      "derived_from": "knowledge/TDE_9/themes/tema_02/resource_plan.json:RES_T2_08",
+      "teacher_review_required": false,
+      "generation_status": "READY_TO_GENERATE"
+    },
+    {
+      "material_id": "MAT_T2_YAZMA_RUBRIC",
+      "resource_plan_ids": [
+        "RES_T2_12"
+      ],
+      "theme_ids": [
+        "TEMA_02"
+      ],
+      "block_ids": [
+        "BLOCK_T2_04_YAZMA"
+      ],
+      "targeted_outcomes": [
+        "TDE4.4"
+      ],
+      "official_requirement_verbatim": "Performans görevi; tema, ana duygu, ritim ve ahenk ögeleri, söz varlığının bağlama uygun kullanımı vb. ölçütlerin yer aldığı bir puanlama anahtarı ile puanlanır. Öğretmen değerlendirmesi dereceli puanlama anahtarı ile gerçekleştirilir.",
+      "source_locators": {
+        "curriculum": "s. 74, 79 (TDE4.4)",
+        "textbook": "s. 141 (FORM_IN_T2_YAZMA_CRITERIA), s. 304 (FORM_BOB_03_T2_YAZMA_OZ)"
+      },
+      "exact_remaining_gap": "Ders kitabında s. 141'deki FORM_IN_T2_YAZMA_CRITERIA yalnızca bir ölçüt tablosudur; s. 304 ve s. 310'da öz ve akran formları mevcuttur ancak öğretmenin şiir yazma ürününü puanlayacağı dereceli puanlama anahtarı (rubrik) yoktur.",
+      "production_decision": "GENERATE_ASSESSMENT_SUPPORT",
+      "priority": "REQUIRED",
+      "selected_implementation": "analytic_rubric",
+      "textbook_relationship": "TEACHER_ASSESSMENT_SUPPORT",
+      "derived_from": "knowledge/TDE_9/themes/tema_02/resource_plan.json:RES_T2_12",
+      "teacher_review_required": false,
+      "generation_status": "READY_TO_GENERATE"
+    },
+    {
+      "material_id": "MAT_T3_KONUSMA_RUBRIC",
+      "resource_plan_ids": [
+        "RES_T3_05_KONUSMA_RUBRIC"
+      ],
+      "theme_ids": [
+        "TEMA_03"
+      ],
+      "block_ids": [
+        "BLOCK_T3_02_KONUSMA"
+      ],
+      "targeted_outcomes": [
+        "TDE3.4"
+      ],
+      "official_requirement_verbatim": "Sunumlar, dereceli puanlama anahtarı ile puanlanır. Puanlama içerik, anlatım, organizasyon ve iletişim vb. ölçütler bağlamında değerlendirilir.",
+      "source_locators": {
+        "curriculum": "s. 82, 86 (TDE3.4)",
+        "textbook": "s. 195 (FORM_IN_T3_KONUSMA_CRITERIA), s. 307 (FORM_BOB_06_T3_KONUSMA_OZ)"
+      },
+      "exact_remaining_gap": "Ders kitabındaki FORM_IN_T3_KONUSMA_CRITERIA (s. 195) yalnızca bir ölçüt tablosudur; performans düzeyleri ve rubrik hücre betimleyicileri bulunmamaktadır.",
+      "production_decision": "GENERATE_ASSESSMENT_SUPPORT",
+      "priority": "REQUIRED",
+      "selected_implementation": "analytic_rubric",
+      "textbook_relationship": "TEACHER_ASSESSMENT_SUPPORT",
+      "derived_from": "knowledge/TDE_9/themes/tema_03/resource_plan.json:RES_T3_05_KONUSMA_RUBRIC",
+      "teacher_review_required": false,
+      "generation_status": "READY_TO_GENERATE"
+    },
+    {
+      "material_id": "MAT_T3_YAZMA_RUBRIC",
+      "resource_plan_ids": [
+        "RES_T3_06_YAZMA_RUBRIC"
+      ],
+      "theme_ids": [
+        "TEMA_03"
+      ],
+      "block_ids": [
+        "BLOCK_T3_04_YAZMA"
+      ],
+      "targeted_outcomes": [
+        "TDE4.4"
+      ],
+      "official_requirement_verbatim": "Öğrencinin yazılı ürünleri dereceli puanlama anahtarı ile puanlanır... Puanlama anahtarında anlam, dilin ve görsel ögelerin kullanımı, özgünlük, tutarlılık, doğruluk, yazım ve noktalama gibi ölçütler yer alabilir.",
+      "source_locators": {
+        "curriculum": "s. 82, 88 (TDE4.4)",
+        "textbook": "s. 205 (FORM_IN_T3_YAZMA_CRITERIA), s. 306 (FORM_BOB_05_T3_YAZMA_OZ)"
+      },
+      "exact_remaining_gap": "Ders kitabındaki FORM_IN_T3_YAZMA_CRITERIA (s. 205) bir ölçüt tablosudur; infografik metin tasarım ve yazımını derecelendiren analitik rubrik yapısı mevcut değildir.",
+      "production_decision": "GENERATE_ASSESSMENT_SUPPORT",
+      "priority": "REQUIRED",
+      "selected_implementation": "analytic_rubric",
+      "textbook_relationship": "TEACHER_ASSESSMENT_SUPPORT",
+      "derived_from": "knowledge/TDE_9/themes/tema_03/resource_plan.json:RES_T3_06_YAZMA_RUBRIC",
+      "teacher_review_required": false,
+      "generation_status": "READY_TO_GENERATE"
+    },
+    {
+      "material_id": "MAT_T4_KONUSMA_RUBRIC",
+      "resource_plan_ids": [
+        "RES_T4_SHARED_KONUSMA_RUBRIC"
+      ],
+      "theme_ids": [
+        "TEMA_04"
+      ],
+      "block_ids": [
+        "BLOCK_T4_02_KONUSMA"
+      ],
+      "targeted_outcomes": [
+        "TDE3.2",
+        "TDE3.3"
+      ],
+      "official_requirement_verbatim": "Sunum performansı, dereceli puanlama anahtarı ile puanlanır. Puanlama anahtarında içeriğe uygunluk, özgünlük, sunum becerisi, görsel ögeleri kullanma, zaman ve mekân kullanımı, beden dili ile jest ve mimik kullanımı gibi ölçütler yer alır.",
+      "source_locators": {
+        "curriculum": "s. 90, 95 (TDE3.2, TDE3.3)",
+        "textbook": "s. 279 (FORM_IN_T4_KONUSMA_CRITERIA), s. 309 (FORM_BOB_08_T4_KONUSMA_OZ)"
+      },
+      "exact_remaining_gap": "Ders kitabında s. 279'da yer alan FORM_IN_T4_KONUSMA_CRITERIA yalnızca bir ölçüt tablosudur; performans düzeyleri ve puanlama baremi içermemektedir.",
+      "production_decision": "GENERATE_ASSESSMENT_SUPPORT",
+      "priority": "REQUIRED",
+      "selected_implementation": "analytic_rubric",
+      "textbook_relationship": "TEACHER_ASSESSMENT_SUPPORT",
+      "derived_from": "knowledge/TDE_9/themes/tema_04/resource_plan.json:RES_T4_SHARED_KONUSMA_RUBRIC",
+      "teacher_review_required": false,
+      "generation_status": "READY_TO_GENERATE"
+    },
+    {
+      "material_id": "MAT_T4_YAZMA_KONTROL_LISTESI",
+      "resource_plan_ids": [
+        "RES_T4_YAZMA_SUREC_KONTROL_LISTESI"
+      ],
+      "theme_ids": [
+        "TEMA_04"
+      ],
+      "block_ids": [
+        "BLOCK_T4_04_YAZMA"
+      ],
+      "targeted_outcomes": [
+        "TDE4.1"
+      ],
+      "official_requirement_verbatim": "Yazma sürecinin tüm aşamalarının başarılı bir şekilde uygulanabilmesi için kontrol listesi hazırlanır.",
+      "source_locators": {
+        "curriculum": "s. 91, 96 (TDE4.1)",
+        "textbook": "s. 292-294 (T4_SEC_05_YAZMA_ATOLYESI)"
+      },
+      "exact_remaining_gap": "Program TDE4.1'de açıkça 'Yazma sürecinin tüm aşamalarının başarılı bir şekilde uygulanabilmesi için kontrol listesi hazırlanır' hükmünü koymuştur. Kitapta okuma kontrol noktaları varken yazma sürecine ait ikili (Var/Yok - Evet/Hayır) kontrol listesi bulunmamaktadır.",
+      "production_decision": "GENERATE_ASSESSMENT_SUPPORT",
+      "priority": "REQUIRED",
+      "selected_implementation": "checklist",
+      "textbook_relationship": "FILLS_PROGRAM_GAP",
+      "derived_from": "knowledge/TDE_9/themes/tema_04/resource_plan.json:RES_T4_YAZMA_SUREC_KONTROL_LISTESI",
+      "teacher_review_required": false,
+      "generation_status": "READY_TO_GENERATE"
+    },
+    {
+      "material_id": "MAT_T4_YAZMA_RUBRIC",
+      "resource_plan_ids": [
+        "RES_T4_SHARED_YAZMA_RUBRIC"
+      ],
+      "theme_ids": [
+        "TEMA_04"
+      ],
+      "block_ids": [
+        "BLOCK_T4_04_YAZMA"
+      ],
+      "targeted_outcomes": [
+        "TDE4.2",
+        "TDE4.3"
+      ],
+      "official_requirement_verbatim": "Değerlendirmede dereceli puanlama anahtarı kullanılır. Puanlama anahtarında yazılı anlatımlar; bağlama uygunluk, dil ve anlatım özelliği, etkileyicilik, gerçeklik, tutarlılık, özgünlük gibi ölçütler bağlamında değerlendirilir.",
+      "source_locators": {
+        "curriculum": "s. 91, 96 (TDE4.2, TDE4.3)",
+        "textbook": "s. 294 (FORM_IN_T4_YAZMA_CRITERIA), s. 308 (FORM_BOB_07_T4_YAZMA_OZ)"
+      },
+      "exact_remaining_gap": "Ders kitabında s. 294'te yer alan FORM_IN_T4_YAZMA_CRITERIA yalnızca bir ölçüt tablosudur; performans düzeyleri ve puanlama baremi içermez.",
+      "production_decision": "GENERATE_ASSESSMENT_SUPPORT",
+      "priority": "REQUIRED",
+      "selected_implementation": "analytic_rubric",
+      "textbook_relationship": "TEACHER_ASSESSMENT_SUPPORT",
+      "derived_from": "knowledge/TDE_9/themes/tema_04/resource_plan.json:RES_T4_SHARED_YAZMA_RUBRIC",
+      "teacher_review_required": false,
+      "generation_status": "READY_TO_GENERATE"
+    }
+  ]
+}

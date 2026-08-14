@@ -1,0 +1,307 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_9",
+  "grade": 9,
+  "theme_id": "TEMA_01",
+  "theme_no": 1,
+  "theme_title": "1. TEMA: SÖZÜN İNCELİĞİ",
+  "summary": {
+    "total_outcomes_analyzed": 12,
+    "covered_count": 12,
+    "partially_covered_count": 0,
+    "not_covered_count": 0,
+    "gaps_identified_count": 0,
+    "reuse_textbook_count": 12,
+    "teacher_guide_needed_count": 0,
+    "production_required_count": 0,
+    "alignment_status": "PASS"
+  },
+  "evaluations": [
+    {
+      "outcome_code": "TDE1.1",
+      "outcome_id": "TDE9_T1_D1",
+      "skill_category": "Metin Tahlili (Anlama) - Dinleme/İzleme",
+      "stage_a_instructional_requirement": {
+        "learning_experience_needed": "Öğrencinin mülakat metnini dinlemeden/izlemeden önce hazırlık yapması, amaç ve yöntem belirlemesi, izleme esnasında not alarak süreci yönetmesi.",
+        "student_action_needed": "İzleme öncesi hazırlık sorularını yanıtlama, karekod videoyu izleme ve yapılandırılmış not alma.",
+        "expected_student_evidence": "İzleme öncesi hazırlık cevapları ve süreç notları.",
+        "required_resource_function": "learning_input_or_representation"
+      },
+      "stage_b_resource_gap": {
+        "textbook_locator": "s. 57-58 (T1_ACT_11_DINLEME_ONCESI_VE_SIRASI)",
+        "textbook_provided_action_and_evidence": "Ders kitabı s. 57'de izleme öncesi hazırlık ve amaç belirleme yönergeleri, s. 58'de Selim İleri mülakatı video karekodu ve not alma alanı sunulmuştur.",
+        "textbook_assessment_instruments": [
+          "Etkinlik içi süreç kontrol basamakları (s. 57-58)"
+        ],
+        "coverage_status": "COVERED",
+        "remaining_gap": "NONE",
+        "production_decision": "REUSE_TEXTBOOK",
+        "priority": "NOT_NEEDED",
+        "justification": "Ders kitabındaki etkinlik, video karekod girdisi ve not alma iskeleleri öğrenci eylemini ve kanıtını eksiksiz sağlamaktadır; yeni materyal ihtiyacı yoktur."
+      }
+    },
+    {
+      "outcome_code": "TDE1.2",
+      "outcome_id": "TDE9_T1_D2",
+      "skill_category": "Metin Tahlili (Anlama) - Dinleme/İzleme",
+      "stage_a_instructional_requirement": {
+        "learning_experience_needed": "Dinlenen/izlenen mülakat metninden hareketle çıkarımlar yapma, yazar amacını ve öznel/nesnel yargıları saptama, şiir ile mülakat metnini edebî dil ve günlük dil bağlamında karşılaştırma.",
+        "student_action_needed": "Mülakat tahlil sorularını yanıtlama ve Edebî Dil / Günlük Dil Karşılaştırma Tablosunu doldurma.",
+        "expected_student_evidence": "Tahlil yanıtları ve doldurulmuş karşılaştırma tablosu.",
+        "required_resource_function": "guided_practice"
+      },
+      "stage_b_resource_gap": {
+        "textbook_locator": "s. 59-62 (T1_ACT_11, T1_ACT_12)",
+        "textbook_provided_action_and_evidence": "Ders kitabı s. 59-62'de mülakat anlama ve çözümleme soruları, öznel/nesnel tespiti ve s. 61-62'de ayrıntılı Karşılaştırma Tablosu yer almaktadır.",
+        "textbook_assessment_instruments": [
+          "Karşılaştırma Tablosu ve Tahlil Soruları (s. 59-62)"
+        ],
+        "coverage_status": "COVERED",
+        "remaining_gap": "NONE",
+        "production_decision": "REUSE_TEXTBOOK",
+        "priority": "NOT_NEEDED",
+        "justification": "TDE1.2'ye ait 4 süreç bileşeni ve programın istediği karşılaştırma tablosu ders kitabında eksiksiz yapılandırılmıştır."
+      }
+    },
+    {
+      "outcome_code": "TDE2.1",
+      "outcome_id": "TDE9_T1_O1",
+      "skill_category": "Metin Tahlili (Anlama) - Okuma",
+      "stage_a_instructional_requirement": {
+        "learning_experience_needed": "Şiir ve deneme metinlerine hazırlık yapma, başlık ve görsellerden içeriği tahmin etme, şiiri ses kaydından dinleme ve vurgu/tonlamaya dikkat ederek sesli okuma.",
+        "student_action_needed": "Tahmin sorularını cevaplama, karekod ses kaydını takip etme, metin üzerinde işaretleme yapma ve sesli okuma.",
+        "expected_student_evidence": "Okuma öncesi tahminler, metin üzeri notlar ve sesli okuma performansı.",
+        "required_resource_function": "learning_input_or_representation"
+      },
+      "stage_b_resource_gap": {
+        "textbook_locator": "s. 16-17 (T1_ACT_01, T1_ACT_02), s. 39-40 (T1_ACT_07)",
+        "textbook_provided_action_and_evidence": "Ders kitabı s. 16'da San'at şiirine hazırlık ve ses kaydı karekodu, s. 17'de şiir metni ve okuma sırası yönergeleri, s. 39'da deneme hazırlık basamakları yer almaktadır.",
+        "textbook_assessment_instruments": [
+          "Okuma Öncesi ve Sırası Etkinlik Basamakları (s. 16-17, 39)"
+        ],
+        "coverage_status": "COVERED",
+        "remaining_gap": "NONE",
+        "production_decision": "REUSE_TEXTBOOK",
+        "priority": "NOT_NEEDED",
+        "justification": "Okuma öncesi ve okuma sırası hazırlık ve dinleme/seslendirme yaşantıları kitap tarafından tam olarak sağlanmaktadır."
+      }
+    },
+    {
+      "outcome_code": "TDE2.2",
+      "outcome_id": "TDE9_T1_O2",
+      "skill_category": "Metin Tahlili (Anlama) - Okuma",
+      "stage_a_instructional_requirement": {
+        "learning_experience_needed": "Şiir ve deneme metinlerinde açık/örtük iletileri tespit etme, zihin haritası oluşturma, edebiyatın güzel sanatlar ve diğer disiplinlerle ilişkisini tahlil etme, estetik/imge/sembol kavramlarını ve söz sanatlarını açıklama, ses bilgisi kurallarını uygulama.",
+        "student_action_needed": "Zihin haritası çıkarma, disiplinler arası matrisi çözme, anlama sorularını yanıtlama, ses bilgisi tablosunu doldurma ve Kontrol Noktasında öz değerlendirme yapma.",
+        "expected_student_evidence": "Zihin haritası, disiplinler matrisi, ses bilgisi uygulama tablosu, Kontrol Noktası işaretlemeleri.",
+        "required_resource_function": "guided_practice"
+      },
+      "stage_b_resource_gap": {
+        "textbook_locator": "s. 18-37 (T1_ACT_03, T1_ACT_04, T1_ACT_05, T1_ACT_06), s. 42-50 (T1_ACT_08)",
+        "textbook_provided_action_and_evidence": "Ders kitabı s. 18-20'de açık/örtük ileti ve zihin haritası; s. 21-26'da güzel sanatlar ve disiplinler arası ilişki matrisi; s. 27-36'da Türkçenin ses bilgisi çalışmaları; s. 37'de Kontrol Noktası; s. 42-50'de deneme metin tahlili ve düşünceyi geliştirme yolları sunulmuştur.",
+        "textbook_assessment_instruments": [
+          "Kontrol Noktası Kontrol Listesi (s. 37)",
+          "Metin Tahlil ve Uygulama Tabloları (s. 18-36, 42-50)"
+        ],
+        "coverage_status": "COVERED",
+        "remaining_gap": "NONE",
+        "production_decision": "REUSE_TEXTBOOK",
+        "priority": "NOT_NEEDED",
+        "justification": "TDE2.2'ye ait 5 süreç bileşeninin (TDE2.2.1-TDE2.2.5) tamamı zengin metin tahlili, zihin haritası ve dil bilgisi etkinlikleriyle kitapta eksiksiz karşılanmıştır."
+      }
+    },
+    {
+      "outcome_code": "TDE3.1",
+      "outcome_id": "TDE9_T1_K1",
+      "skill_category": "Edebiyat Atölyesi (Anlatma) - Konuşma",
+      "stage_a_instructional_requirement": {
+        "learning_experience_needed": "Deneme metinlerinden hareketle altı kişilik gruplarda Altı Şapkalı Düşünme Tekniği ile konuşma görevini planlama, iş birliği yapma, süreyi yönetme ve akıcı bir sunum yapma.",
+        "student_action_needed": "Grup içinde şapka rolü seçme, konuşma içeriğini planlama ve sınıf önünde akıcı bir şekilde sunma.",
+        "expected_student_evidence": "Grup sözlü sunum performansı ve konuşma planı.",
+        "required_resource_function": "student_production_task"
+      },
+      "stage_b_resource_gap": {
+        "textbook_locator": "s. 63-66 (T1_ACT_13, T1_ACT_14)",
+        "textbook_provided_action_and_evidence": "Ders kitabı s. 63-65'te Altı Şapka Tekniği ile grup konuşması yönergeleri, rol dağılımı ve sunum hazırlığı; s. 65'te ölçüt tablosu; s. 66 ve s. 303, 310, 312'de çoklu değerlendirme formları yer almaktadır.",
+        "textbook_assessment_instruments": [
+          "FORM_IN_T1_KONUSMA_CRITERIA (s. 65, assessment_criteria_table)",
+          "FORM_BOB_02_T1_KONUSMA_OZ (s. 303, self_assessment_form)",
+          "FORM_BOB_09_T1_T2_AKRAN (s. 310, peer_assessment_form)",
+          "FORM_BOB_11_GENEL_GOZLEM (s. 312, teacher_evaluation_form)"
+        ],
+        "coverage_status": "COVERED",
+        "remaining_gap": "NONE",
+        "production_decision": "REUSE_TEXTBOOK",
+        "priority": "NOT_NEEDED",
+        "justification": "Konuşma atölyesinde Altı Şapka Tekniği uygulaması ve kitap sonundaki çoklu değerlendirme araçları tam uyum içindedir."
+      }
+    },
+    {
+      "outcome_code": "TDE3.2",
+      "outcome_id": "TDE9_T1_K2",
+      "skill_category": "Edebiyat Atölyesi (Anlatma) - Konuşma",
+      "stage_a_instructional_requirement": {
+        "learning_experience_needed": "Deneme metninden hareketle şapka rolüne uygun argümanlar, kanıtlar, slogan ve özet kararlar üreterek ikna edici konuşma içeriği oluşturma.",
+        "student_action_needed": "Şapka renginin işlevine uygun konuşma taslağı hazırlama, slogan üretme ve argümanları yapılandırma.",
+        "expected_student_evidence": "Şapka rolüyle uyumlu konuşma içeriği notları ve slogan.",
+        "required_resource_function": "student_production_task"
+      },
+      "stage_b_resource_gap": {
+        "textbook_locator": "s. 63-65 (T1_ACT_13)",
+        "textbook_provided_action_and_evidence": "Ders kitabı s. 63-65'te şapka renklerinin anlamsal işlevleri (sarı, beyaz, siyah, kırmızı, yeşil, mavi) ve içerik üretim basamakları ayrıntılı olarak verilmiştir.",
+        "textbook_assessment_instruments": [
+          "FORM_IN_T1_KONUSMA_CRITERIA (s. 65, assessment_criteria_table)"
+        ],
+        "coverage_status": "COVERED",
+        "remaining_gap": "NONE",
+        "production_decision": "REUSE_TEXTBOOK",
+        "priority": "NOT_NEEDED",
+        "justification": "Düşünsel süreçleri kontrol etme ve ikna edici içerik oluşturma basamakları kitapta eksiksiz mevcuttur."
+      }
+    },
+    {
+      "outcome_code": "TDE3.3",
+      "outcome_id": "TDE9_T1_K3",
+      "skill_category": "Edebiyat Atölyesi (Anlatma) - Konuşma",
+      "stage_a_instructional_requirement": {
+        "learning_experience_needed": "Sözlü sunum esnasında ses tonu, diksiyon, telaffuz, vurgu, tonlama, beden dili, jest ve mimikleri kuralına uygun ve ikna edici biçimde kullanma.",
+        "student_action_needed": "Konuşma kurallarına ve beden dili yönergelerine uyarak sınıf önünde sunum yapma.",
+        "expected_student_evidence": "Canlı sunum performansı ve kural uygulama gözlemleri.",
+        "required_resource_function": "student_production_task"
+      },
+      "stage_b_resource_gap": {
+        "textbook_locator": "s. 63-66 (T1_ACT_13, T1_ACT_14)",
+        "textbook_provided_action_and_evidence": "Ders kitabı s. 65'teki ölçüt tablosunda ve s. 303/312 formlarında ses tonu, vurgu, tonlama, beden dili ve zaman yönetimi ölçütleri yer almaktadır.",
+        "textbook_assessment_instruments": [
+          "FORM_IN_T1_KONUSMA_CRITERIA (s. 65)",
+          "FORM_BOB_02_T1_KONUSMA_OZ (s. 303)",
+          "FORM_BOB_11_GENEL_GOZLEM (s. 312)"
+        ],
+        "coverage_status": "COVERED",
+        "remaining_gap": "NONE",
+        "production_decision": "REUSE_TEXTBOOK",
+        "priority": "NOT_NEEDED",
+        "justification": "Konuşma kural ve performans ölçütleri ders kitabındaki formlar ve yönergelerle tam olarak karşılanmaktadır."
+      }
+    },
+    {
+      "outcome_code": "TDE3.4",
+      "outcome_id": "TDE9_T1_K4",
+      "skill_category": "Edebiyat Atölyesi (Anlatma) - Konuşma",
+      "stage_a_instructional_requirement": {
+        "learning_experience_needed": "Sunum sonrasında öz değerlendirme ve akran değerlendirmesi formlarını doldurarak söyleyiş inceliğinin konuşmaya etkisini yansıtma ve geri bildirim alma.",
+        "student_action_needed": "Öz değerlendirme formundaki yansıtma sorularını ve akran formunu doldurarak çıkarımlarda bulunma.",
+        "expected_student_evidence": "Doldurulmuş FORM_BOB_02 ve FORM_BOB_09 formları.",
+        "required_resource_function": "feedback_support"
+      },
+      "stage_b_resource_gap": {
+        "textbook_locator": "s. 66 (T1_ACT_14)",
+        "textbook_provided_action_and_evidence": "Ders kitabı s. 66'da doğrudan s. 303 Öz Değerlendirme, s. 310 Akran Değerlendirme ve s. 312 Gözlem Formuna açık atıf yapılarak yansıtma süreci işletilmektedir.",
+        "textbook_assessment_instruments": [
+          "FORM_BOB_02_T1_KONUSMA_OZ (s. 303, self_assessment_form)",
+          "FORM_BOB_09_T1_T2_AKRAN (s. 310, peer_assessment_form)",
+          "FORM_BOB_11_GENEL_GOZLEM (s. 312, teacher_evaluation_form)"
+        ],
+        "coverage_status": "COVERED",
+        "remaining_gap": "NONE",
+        "production_decision": "REUSE_TEXTBOOK",
+        "priority": "NOT_NEEDED",
+        "justification": "Öğrenci yansıtma eylemi ve değerlendirme formları kitapta eksiksiz bulunmaktadır."
+      }
+    },
+    {
+      "outcome_code": "TDE4.1",
+      "outcome_id": "TDE9_T1_Y1",
+      "skill_category": "Edebiyat Atölyesi (Anlatma) - Yazma",
+      "stage_a_instructional_requirement": {
+        "learning_experience_needed": "Okunan şiirden hareketle betimleyici bir paragraf yazma sürecini (hazırlık, planlama, taslak oluşturma, gözden geçirme, düzeltme ve paylaşma) aşamalı olarak yönetme.",
+        "student_action_needed": "Şiirin şekil ve duygu unsurlarını inceleme, betimleme planı yapma ve ilk taslağı yazma.",
+        "expected_student_evidence": "Yazma planı ve betimleyici paragraf taslağı.",
+        "required_resource_function": "student_production_task"
+      },
+      "stage_b_resource_gap": {
+        "textbook_locator": "s. 51-54 (T1_ACT_09_YAZMA_SIRASI)",
+        "textbook_provided_action_and_evidence": "Ders kitabı s. 51-54'te 'Duygularımı Betimliyorum' atölyesinde hazırlık, planlama, metin oluşturma basamakları ve s. 54'te ölçüt tablosu yer almaktadır.",
+        "textbook_assessment_instruments": [
+          "FORM_IN_T1_YAZMA_CRITERIA (s. 54, assessment_criteria_table)"
+        ],
+        "coverage_status": "COVERED",
+        "remaining_gap": "NONE",
+        "production_decision": "REUSE_TEXTBOOK",
+        "priority": "NOT_NEEDED",
+        "justification": "Paragraf düzeyinde yazma sürecini yönetme yönergeleri ve iskeleleri kitapta eksiksiz sunulmuştur."
+      }
+    },
+    {
+      "outcome_code": "TDE4.2",
+      "outcome_id": "TDE9_T1_Y2",
+      "skill_category": "Edebiyat Atölyesi (Anlatma) - Yazma",
+      "stage_a_instructional_requirement": {
+        "learning_experience_needed": "Şiirdeki ana duyguyu koruyarak imge, sembol ve edebî söyleyişe uygun söz varlığını kullanarak özgün bir betimleyici paragraf içeriği üretme.",
+        "student_action_needed": "Şiirin duygusuna uygun kelimeler ve tasvirler seçerek özgün betimleyici paragraf oluşturma.",
+        "expected_student_evidence": "Zengin söz varlığı ve betimleme unsurları içeren paragraf metni.",
+        "required_resource_function": "student_production_task"
+      },
+      "stage_b_resource_gap": {
+        "textbook_locator": "s. 51-54 (T1_ACT_09)",
+        "textbook_provided_action_and_evidence": "Ders kitabı s. 52-54'te imgesel söz varlığı kullanımı ve betimleme yönergeleri ile s. 54'te söz varlığı ve özgünlük ölçütleri yer almaktadır.",
+        "textbook_assessment_instruments": [
+          "FORM_IN_T1_YAZMA_CRITERIA (s. 54, assessment_criteria_table)"
+        ],
+        "coverage_status": "COVERED",
+        "remaining_gap": "NONE",
+        "production_decision": "REUSE_TEXTBOOK",
+        "priority": "NOT_NEEDED",
+        "justification": "Söz varlığı ve içerik üretme yönergeleri ders kitabında açıkça yapılandırılmıştır."
+      }
+    },
+    {
+      "outcome_code": "TDE4.3",
+      "outcome_id": "TDE9_T1_Y3",
+      "skill_category": "Edebiyat Atölyesi (Anlatma) - Yazma",
+      "stage_a_instructional_requirement": {
+        "learning_experience_needed": "Yazdığı betimleyici paragrafta Türkçenin yazım ve noktalama kurallarını doğru uygulama, ses olaylarına dikkat etme ve anlatım akıcılığını sağlama.",
+        "student_action_needed": "Taslak metni yazım ve noktalama kurallarına göre denetleme ve düzeltme.",
+        "expected_student_evidence": "Yazım ve noktalama yönünden tashih edilmiş kurallı nihai metin.",
+        "required_resource_function": "guided_practice"
+      },
+      "stage_b_resource_gap": {
+        "textbook_locator": "s. 53-54 (T1_ACT_09)",
+        "textbook_provided_action_and_evidence": "Ders kitabı s. 53-54'te kontrol/düzeltme basamakları ve s. 54'te yazım-noktalama ölçütleri açıkça bulunmaktadır.",
+        "textbook_assessment_instruments": [
+          "FORM_IN_T1_YAZMA_CRITERIA (s. 54, assessment_criteria_table)"
+        ],
+        "coverage_status": "COVERED",
+        "remaining_gap": "NONE",
+        "production_decision": "REUSE_TEXTBOOK",
+        "priority": "NOT_NEEDED",
+        "justification": "Kural uygulama basamakları ve yazım denetimi yönergeleri kitapta tamdır."
+      }
+    },
+    {
+      "outcome_code": "TDE4.4",
+      "outcome_id": "TDE9_T1_Y4",
+      "skill_category": "Edebiyat Atölyesi (Anlatma) - Yazma",
+      "stage_a_instructional_requirement": {
+        "learning_experience_needed": "Yazılan paragrafı sınıfta paylaşma; öz değerlendirme, akran ve öğretmen değerlendirmeleri yoluyla geri bildirim alma ve ürünü revize ederek son şeklini verme.",
+        "student_action_needed": "Paragrafı sunma, s. 302 Öz Değerlendirme Formunu ve s. 310 Akran Formunu doldurma, geri bildirimlere göre metni revize etme.",
+        "expected_student_evidence": "Doldurulmuş FORM_BOB_01, FORM_BOB_09 formları ve revize edilmiş nihai paragraf.",
+        "required_resource_function": "feedback_support"
+      },
+      "stage_b_resource_gap": {
+        "textbook_locator": "s. 55 (T1_ACT_10_YAZMA_SONRASI)",
+        "textbook_provided_action_and_evidence": "Ders kitabı s. 55'te paylaşım yönergesi, s. 302 Öz Değerlendirme Formuna, s. 310 Akran Formuna ve s. 312 Gözlem Formuna doğrudan atıf yer almaktadır.",
+        "textbook_assessment_instruments": [
+          "FORM_BOB_01_T1_YAZMA_OZ (s. 302, self_assessment_form)",
+          "FORM_BOB_09_T1_T2_AKRAN (s. 310, peer_assessment_form)",
+          "FORM_BOB_11_GENEL_GOZLEM (s. 312, teacher_evaluation_form)"
+        ],
+        "coverage_status": "COVERED",
+        "remaining_gap": "NONE",
+        "production_decision": "REUSE_TEXTBOOK",
+        "priority": "NOT_NEEDED",
+        "justification": "Yansıtma, form değerlendirmesi ve geri bildirimle metni nihai hale getirme süreci kitapta eksiksiz sağlanmaktadır."
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_9",
+  "grade": 9,
+  "course_title": "Türk Dili ve Edebiyatı",
+  "last_validated": "2026-08-14T10:00:00Z",
+  "overall_status": "VERIFIED",
+  "scope": {
+    "analysis_target": "9. Sınıf Türk Dili ve Edebiyatı Öğretim Programı ve Ders Kitabı",
+    "included_grades": [
+      9
+    ],
+    "excluded_grades": [
+      "Hazırlık",
+      10,
+      11,
+      12
+    ],
+    "curriculum_scope": "9. Sınıf (Temalar 1-4, s. 65-97; Genel Yapı ve Ders Saati Tabloları s. 28-29)",
+    "textbook_scope": "9. Sınıf Ders Kitabı (Giriş s. 9-11, Temalar 1-4 s. 12-301, Formlar s. 302-312, Kaynakça ve Ekler s. 313-317)",
+    "total_themes": 4,
+    "curriculum_mapped": true,
+    "textbook_mapped": true,
+    "forms_indexed": true,
+    "alignment_performed": false,
+    "gap_analysis_performed": false,
+    "materials_generated": false
+  },
+  "sources": [
+    {
+      "source_id": "curriculum_tde9_2024",
+      "source_type": "official_curriculum",
+      "filename": "öğretim programı.pdf",
+      "file_path": "öğretim programı.pdf",
+      "title": "Türkiye Yüzyılı Maarif Modeli Türk Dili ve Edebiyatı Dersi Öğretim Programı (Hazırlık, 9, 10, 11 ve 12. Sınıflar)",
+      "course": "Türk Dili ve Edebiyatı",
+      "grade": 9,
+      "institution_or_publisher": "T.C. Millî Eğitim Bakanlığı (MEB) / Talim ve Terbiye Kurulu Başkanlığı (TTKB)",
+      "edition_or_year": "2024",
+      "ttkb_or_isbn": "Talim ve Terbiye Kurulu Başkanlığı Onaylı (2024)",
+      "file_hash_sha256": "6d3a3cb7bac8cd91aa7582946abff81e79e7c7a517dbf336aae391252b6d2a47",
+      "size_bytes": 3900357,
+      "pdf_page_count": 209,
+      "printed_page_information": "9. Sınıf kapsamı: s. 65-97 (Temalar 1-4); Genel Yapı ve Ders Saati Tabloları: s. 28-29",
+      "extraction_method": "verbatim_pdf_extraction",
+      "authority_rank": 1,
+      "verification_status": "VERIFIED"
+    },
+    {
+      "source_id": "textbook_tde9_meb",
+      "source_type": "official_textbook",
+      "filename": "9edb.pdf",
+      "file_path": "9edb.pdf",
+      "title": "Ortaöğretim Türk Dili ve Edebiyatı 9. Sınıf Ders Kitabı",
+      "course": "Türk Dili ve Edebiyatı",
+      "grade": 9,
+      "institution_or_publisher": "Millî Eğitim Bakanlığı Yayınları (Yayın No: 9624, Ders Kitapları Dizisi: 2045) / Devlet Kitapları",
+      "edition_or_year": "2024",
+      "ttkb_or_isbn": "ISBN 978-975-11-8032-2; TTKB 17.07.2024 tarih ve 110460855 sayılı karar",
+      "file_hash_sha256": "ea982e49bec1260f578cbb0f88fb677276a87dd45d42be04eb376c01c63e0c7f",
+      "size_bytes": 45521256,
+      "pdf_page_count": 318,
+      "printed_page_information": "Printed pages: 1-318 (Kitap Tanıtımı: s. 9-11 [PDF 10-12], 1. Tema: s. 12-71 [PDF 13-72], 2. Tema: s. 72-143 [PDF 73-144], 3. Tema: s. 144-219 [PDF 145-220], 4. Tema: s. 220-301 [PDF 221-302], Değerlendirme Formları: s. 302-312 [PDF 303-313], Kaynakça ve Ekler: s. 313-317 [PDF 314-318])",
+      "extraction_method": "structured_pdf_extraction",
+      "authority_rank": 2,
+      "verification_status": "VERIFIED"
+    }
+  ]
+}

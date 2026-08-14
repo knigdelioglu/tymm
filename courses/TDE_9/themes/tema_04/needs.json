@@ -1,0 +1,493 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_9",
+  "grade": 9,
+  "theme_id": "TEMA_04",
+  "theme_no": 4,
+  "theme_title": "4. TEMA: DİLİN ZENGİNLİĞİ",
+  "domain_or_subject_profile": "Türk Dili ve Edebiyatı (TDE) / Dil Becerileri ve Metin Tahlili",
+  "needs": [
+    {
+      "need_id": "NEED_T4_D1",
+      "targeted_learning_outcomes": [
+        "TDE1.1"
+      ],
+      "targeted_process_components": [],
+      "domain_or_subject_profile": "TDE / Metin Tahlili (Dinleme/İzleme)",
+      "conceptual_prerequisites": "Otobiyografi kavramı, belgesel türünün temel özellikleri, dinleme/izleme stratejileri.",
+      "procedural_or_skill_prerequisites": "İzleme öncesinde amaç belirleme, izleme sırasında not alma, gözlem ölçütlerini takip etme.",
+      "expected_student_actions": "Âşık Veysel belgeselini izlemeden önce amaç belirleme, hazırlık sorularını yanıtlama, izleme sırasında yapılandırılmış notlar alma ve dinleme/izleme sürecini gözlem formu ile yönetme.",
+      "expected_student_evidence": "İzleme öncesi hazırlık cevapları, süreç notları ve s. 283'teki doldurulmuş Gözlem Formu (FORM_IN_T4_DINLEME_GOZLEM).",
+      "likely_misconceptions": "Dinleme/izlemenin pasif bir süreç olduğu ve sadece genel fikir edinmek için yapıldığı yanılgısı.",
+      "cognitive_demand": "Uygulama ve Süreç Yönetimi",
+      "interaction_need": "Bireysel izleme ve ardından sınıf içi paylaşım.",
+      "representation_need": "Görsel-işitsel belgesel kaydı ve yapılandırılmış gözlem çizelgesi.",
+      "practice_need": "İzleme esnasında eş zamanlı not alma ve ölçüt odaklı odaklanma.",
+      "feedback_need": "Öğretmen rehberliği ve gözlem formu üzerinden süreç geri bildirimi.",
+      "assessment_need": "Dinleme/izleme gözlem formu (observation_form).",
+      "differentiation_need": "Gerektiğinde video altyazısı, duraklatmalı izleme veya ek süre desteği.",
+      "enrichment_opportunity": "Âşık Veysel'in farklı şiirleri veya icraları üzerinden karşılaştırmalı dinleme.",
+      "accessibility_need": "Video altyazısı ve net ses kaydı.",
+      "safety_need": "N/A",
+      "external_content_need": "N/A",
+      "rationale": "Öğretim programı dinleme/izleme sürecinin yönetilebilmesi için gözlem formlarının oluşturulmasını öngörür (s. 90, 95-96).",
+      "provenance": {
+        "curriculum_locator": "s. 90, 95-96",
+        "official_statement_verbatim": "TDE1.1. “Dilin Zenginliği” temasında ele alınan metinlerde dinlemeyi/izlemeyi yönetebilme",
+        "origin": "official_curriculum"
+      }
+    },
+    {
+      "need_id": "NEED_T4_D2",
+      "targeted_learning_outcomes": [
+        "TDE1.2"
+      ],
+      "targeted_process_components": [],
+      "domain_or_subject_profile": "TDE / Metin Tahlili (Dinleme/İzleme)",
+      "conceptual_prerequisites": "Öğretici metinlerin genel nitelikleri, otobiyografi türü, söz varlığı ve üslup kavramları.",
+      "procedural_or_skill_prerequisites": "Bilinmeyen kelimelerin anlamını bağlamdan çıkarma, metin türlerini karşılaştırma, söz varlığı unsurlarını sınıflandırma.",
+      "expected_student_actions": "İzlenen belgeselden hareketle otobiyografi türünün özelliklerini belirleme, anlamı bilinmeyen kelimeleri bağlamdan tahmin etme, önceki temalarda tahlil edilen öğretici metinlerle karşılaştırma ve üslubu oluşturan söz varlığını işlevine göre sınıflandırma.",
+      "expected_student_evidence": "Bağlamsal kelime tahminleri, otobiyografi türü çıkarımları, karşılaştırma notları ve metin tahlil sorularının yazılı yanıtları.",
+      "likely_misconceptions": "Otobiyografinin yalnızca kuru bir kronolojik olay aktarımı olduğu ve yazarın üslubunu yansıtmadığı yanılgısı.",
+      "cognitive_demand": "Anlam Oluşturma ve Karşılaştırmalı Analiz",
+      "interaction_need": "Bireysel anlamlandırma ve ikili/grup karşılaştırma tartışmaları.",
+      "representation_need": "Karşılaştırma tabloları, bilgi kartları ve söz varlığı sınıflandırma şemaları.",
+      "practice_need": "Belgeselden seçilen söz varlığı unsurlarını işlevlerine göre eşleştirme pratiği.",
+      "feedback_need": "Öğretmen dönütü ve sınıf içi ortak kavram haritası doğrulaması.",
+      "assessment_need": "Açık uçlu anlama soruları ve tahlil tabloları.",
+      "differentiation_need": "Söz varlığı ipucu kartları ve yapılandırılmış kelime listesi desteği.",
+      "enrichment_opportunity": "Farklı edebiyatçıların otobiyografilerindeki üslup özelliklerinin incelenmesi.",
+      "accessibility_need": "Okunabilir tipografi ve net tahlil tabloları.",
+      "safety_need": "N/A",
+      "external_content_need": "N/A",
+      "rationale": "Öğretim programı dinlenen/izlenen otobiyografi üzerinden tür özellikleri, söz varlığı ve üslup çıkarımı yapılmasını hedefler (s. 90, 95-96).",
+      "provenance": {
+        "curriculum_locator": "s. 90, 95-96",
+        "official_statement_verbatim": "TDE1.2. “Dilin Zenginliği” temasında ele alınan metinlerde anlam oluşturabilme",
+        "origin": "official_curriculum"
+      }
+    },
+    {
+      "need_id": "NEED_T4_D3",
+      "targeted_learning_outcomes": [
+        "TDE1.3"
+      ],
+      "targeted_process_components": [],
+      "domain_or_subject_profile": "TDE / Metin Tahlili (Dinleme/İzleme)",
+      "conceptual_prerequisites": "Anlatım biçimleri (öyküleme, açıklama vb.), belgesel yöntem ve teknikleri, üslup-anlatım ilişkisi.",
+      "procedural_or_skill_prerequisites": "Metindeki anlatım yöntemlerini tespit etme, yöntemler ile üslup arasında neden-sonuç bağı kurma.",
+      "expected_student_actions": "Otobiyografi belgeselinde kullanılan anlatım biçimlerini, belgesel tekniklerini ve üslup özelliklerini açık uçlu sorularla çözümleme; anlatım biçimleri ve teknikler ile metnin üslubu arasındaki etkileşimi ortaya koyma.",
+      "expected_student_evidence": "Ders kitabı s. 283-291'deki açık uçlu metin tahlil sorularının yazılı yanıtları ve çözümleme tablosu verileri.",
+      "likely_misconceptions": "Anlatım biçimlerinin metnin üslubundan bağımsız mekanik kalıplar olduğu yanılgısı.",
+      "cognitive_demand": "Çözümleme (Analiz)",
+      "interaction_need": "Bireysel analiz ve sınıf içi çözümleme müzakeresi.",
+      "representation_need": "Neden-sonuç çözümleme tabloları ve açık uçlu tahlil soruları.",
+      "practice_need": "Anlatım biçimi ile üslup etkileşimini gerekçelendirme alıştırmaları.",
+      "feedback_need": "Öğretmen modellemesi ve yanıt anahtarı temelli dönüt.",
+      "assessment_need": "Açık uçlu tahlil soruları ve çalışma kâğıdı / tahlil etkinliği.",
+      "differentiation_need": "Yönlendirici soru iskeleleri ve örnek çözümleme modelleri.",
+      "enrichment_opportunity": "Belgesel kurgu tekniklerinin edebî anlatım teknikleriyle disiplinler arası karşılaştırılması.",
+      "accessibility_need": "Yeterli yazma alanı ve net yönergeler.",
+      "safety_need": "N/A",
+      "external_content_need": "N/A",
+      "rationale": "Öğretim programı anlatım biçimleri ve teknikler ile metnin üslubu arasında neden-sonuç ilişkisi kurularak çözümleme yapılmasını ister (s. 90, 96).",
+      "provenance": {
+        "curriculum_locator": "s. 90, 96",
+        "official_statement_verbatim": "TDE1.3. “Dilin Zenginliği” temasında ele alınan metinleri çözümleyebilme",
+        "origin": "official_curriculum"
+      }
+    },
+    {
+      "need_id": "NEED_T4_D4",
+      "targeted_learning_outcomes": [
+        "TDE1.4"
+      ],
+      "targeted_process_components": [],
+      "domain_or_subject_profile": "TDE / Metin Tahlili (Dinleme/İzleme)",
+      "conceptual_prerequisites": "Eleştirel bakış açısı, öz değerlendirme kavramı, yansıtma ve metin bağlamı.",
+      "procedural_or_skill_prerequisites": "Metne yönelik gerekçeli eleştiri üretme, metin bağlamına uygun soru tasarlama, öz değerlendirme formunu doldurma.",
+      "expected_student_actions": "Dinlenen/izlenen otobiyografideki sorulara ve üsluba yönelik eleştirel değerlendirmelerde bulunma, metnin bağlamına uygun sorular ekleyip kendi yorumlarıyla yanıtlama ve süreci s. 283'teki form ile s. 301'deki öğrenme günlüğü üzerinden yansıtma.",
+      "expected_student_evidence": "Gerekçelendirilmiş eleştirel değerlendirme cevapları, s. 283'teki Gözlem Formu (FORM_IN_T4_DINLEME_GOZLEM) ve s. 301'deki Öğrenme Günlüğü (FORM_IN_T4_OGRENME_GUNLUGU) kayıtları.",
+      "likely_misconceptions": "Öz değerlendirmenin sadece not almak veya şekli bir anket doldurmak olduğu düşüncesi.",
+      "cognitive_demand": "Değerlendirme ve Üstbilişsel Yansıtma",
+      "interaction_need": "Bireysel yansıtma ve eleştirel görüş paylaşımı.",
+      "representation_need": "Öz değerlendirme formları, öğrenme günlüğü ve açık uçlu yorum alanları.",
+      "practice_need": "Kendi dinleme/izleme stratejilerini ve öğrenme sürecini sorgulama pratiği.",
+      "feedback_need": "Öğretmenden yansıtma kalitesine dair rehberlik.",
+      "assessment_need": "Öz değerlendirme formu (self_assessment / observation_form) ve öğrenme günlüğü (learning_journal).",
+      "differentiation_need": "Yansıtma başlatıcı cümle kökleri (Ör: 'Bu belgeselde en çok dikkatimi çeken...').",
+      "enrichment_opportunity": "Metnin belgesel dili ve üslubu üzerine eleştirel bir kısa deneme yazımı.",
+      "accessibility_need": "Açık ve yapılandırılmış form şablonu.",
+      "safety_need": "N/A",
+      "external_content_need": "N/A",
+      "rationale": "Öğretim programı dinleme/izleme etkinliğinin öz değerlendirme formu ile değerlendirilmesini ve eleştirel yansıtma yapılmasını öngörür (s. 90, 96).",
+      "provenance": {
+        "curriculum_locator": "s. 90, 96",
+        "official_statement_verbatim": "TDE1.4. “Dilin Zenginliği” temasında ele alınan metinlere yönelik değerlendirmelerini yansıtabilme",
+        "origin": "official_curriculum"
+      }
+    },
+    {
+      "need_id": "NEED_T4_O1",
+      "targeted_learning_outcomes": [
+        "TDE2.1"
+      ],
+      "targeted_process_components": [],
+      "domain_or_subject_profile": "TDE / Metin Tahlili (Okuma)",
+      "conceptual_prerequisites": "Roman ve eleştiri türlerinin genel özellikleri, okuma stratejileri, üslup farkındalığı.",
+      "procedural_or_skill_prerequisites": "Okuma öncesi hazırlık yapma, okuma amacını belirleme, okuma esnasında not alma, kontrol listesiyle süreci izleme.",
+      "expected_student_actions": "Roman (Çalıkuşu) ve eleştiri (Parasız Yatılı Üzerine) metinlerini okumadan önce amaç ve yöntem belirleme, metinlerin üslup özelliklerini fark ederek okuma sürecini yönetme, kontrol listesini işaretleme.",
+      "expected_student_evidence": "Okuma öncesi hazırlık cevapları, okuma esnasında alınan metin tahlil notları ve s. 257 ile s. 276'daki Kontrol Noktası kontrol listesi çıktıları.",
+      "likely_misconceptions": "Okumanın tek bir sabit hız ve yöntemle yapılması gerektiği, amaca göre strateji değiştirilmeyeceği yanılgısı.",
+      "cognitive_demand": "Uygulama ve Üstbilişsel Süreç Yönetimi",
+      "interaction_need": "Bireysel okuma ve sınıf içi okuma öncesi/sırası rehberliği.",
+      "representation_need": "Metin sayfaları, okuma öncesi yönergeler ve kontrol listeleri (checklists).",
+      "practice_need": "Farklı türdeki metinlerde (roman, tiyatro, eleştiri) amaca uygun okuma stratejilerini işletme.",
+      "feedback_need": "Kontrol listesi işaretlemeleri üzerinden öğretmen kontrolü.",
+      "assessment_need": "Kontrol listesi (checklist) ve açık uçlu hazırlık soruları.",
+      "differentiation_need": "Gerektiğinde sesli okuma desteği, sözlük desteği veya bölümlere ayrılmış okuma planı.",
+      "enrichment_opportunity": "Cumhuriyet dönemi diğer romancılarının açılış bölümlerinin incelenmesi.",
+      "accessibility_need": "Okunaklı punto, net satır aralıkları ve dipnot sözlükleri.",
+      "safety_need": "N/A",
+      "external_content_need": "N/A",
+      "rationale": "Öğretim programı metinlerde okuma sürecinin yönetilmesi ve kontrol listesi tutulmasını şart koşar (s. 90, 92).",
+      "provenance": {
+        "curriculum_locator": "s. 90, 92",
+        "official_statement_verbatim": "TDE2.1. “Dilin Zenginliği” temasında ele alınan metinlerde okumayı yönetebilme",
+        "origin": "official_curriculum"
+      }
+    },
+    {
+      "need_id": "NEED_T4_O2",
+      "targeted_learning_outcomes": [
+        "TDE2.2"
+      ],
+      "targeted_process_components": [],
+      "domain_or_subject_profile": "TDE / Metin Tahlili (Okuma)",
+      "conceptual_prerequisites": "Roman türü, dramatik metin/tiyatro türü, eleştiri türü, söz varlığı, edebî üslup.",
+      "procedural_or_skill_prerequisites": "Bağlamdan kelime anlamı çıkarma, türler arası karşılaştırma yapma, söz varlığı unsurlarını işlevine göre tasnif etme.",
+      "expected_student_actions": "Bilinmeyen kelimelerin anlamını bağlamdan tahmin etme, roman (Çalıkuşu) ile tiyatro ara metninin (Yunus Emre) üslup özelliklerini karşılaştırma, üslubu oluşturan söz varlığını işlevine göre sınıflandırma ve metinler arası anlam oluşturma.",
+      "expected_student_evidence": "Ders kitabı s. 249-256'daki karşılaştırma matrisi, söz varlığı ve üslup tahlili çözümleri, s. 269-275'teki eleştiri metni anlama ve anlamlandırma sorularının yazılı yanıtları.",
+      "likely_misconceptions": "Tiyatro metnindeki dil ile roman dilinin tamamen aynı işlev ve anlatımla kurulduğu yanılgısı.",
+      "cognitive_demand": "Anlam Oluşturma ve Karşılaştırma",
+      "interaction_need": "Okuma çemberi / edebiyat halkası grup etkileşimi ve beyin fırtınası.",
+      "representation_need": "T diyagramı, karşılaştırma matrisleri ve söz varlığı tabloları.",
+      "practice_need": "Farklı türlerdeki metinlerin dil ve üslup özelliklerini karşılaştırmalı olarak eşleştirme.",
+      "feedback_need": "Grup tartışmaları esnasında öğretmen yönlendirmesi ve biçimlendirici geri bildirim.",
+      "assessment_need": "Karşılaştırma matrisi ve tahlil çalışma kâğıdı.",
+      "differentiation_need": "Karşılaştırma ölçütlerini içeren kılavuz şablonlar.",
+      "enrichment_opportunity": "Aynı temanın tiyatro ve roman uyarlamalarındaki dil farklarının araştırılması.",
+      "accessibility_need": "Yapılandırılmış karşılaştırma tabloları.",
+      "safety_need": "N/A",
+      "external_content_need": "N/A",
+      "rationale": "Öğretim programı roman, tiyatro ara metni ve eleştiri üzerinden karşılaştırma, T diyagramı ve anlam oluşturma etkinlikleri öngörür (s. 90, 92-93).",
+      "provenance": {
+        "curriculum_locator": "s. 90, 92-93",
+        "official_statement_verbatim": "TDE2.2. “Dilin Zenginliği” temasında ele alınan metinlerde anlam oluşturabilme",
+        "origin": "official_curriculum"
+      }
+    },
+    {
+      "need_id": "NEED_T4_O3",
+      "targeted_learning_outcomes": [
+        "TDE2.3"
+      ],
+      "targeted_process_components": [],
+      "domain_or_subject_profile": "TDE / Metin Tahlili (Okuma)",
+      "conceptual_prerequisites": "Romanın yapı unsurları (olay, kişi, mekân, zaman, çatışma), eleştiri ölçütleri, şekil bilgisi (ekler, kökler, gövdeler).",
+      "procedural_or_skill_prerequisites": "Yapı unsurlarını metinden tespit etme, yapı unsurları ile üslup ve dönem zihniyeti arasındaki ilişkiyi kurma, kelimelerin şekil bilgisi tahlilini yapma.",
+      "expected_student_actions": "Romanın yapı unsurlarını (olay, kişi kadrosu, mekân, zaman, çatışma) belirleme; yapı unsurları ile yazarın üslup seçimi ve dönemin zihniyeti arasındaki ilişkiyi açık uçlu sorularla çözümleme; metinden seçilen kelimelerin şekil bilgisi özelliklerini inceleme.",
+      "expected_student_evidence": "Ders kitabı s. 249-256 ve s. 269-275'teki yapı unsurları çözümleme tabloları, açık uçlu tahlil sorularının yazılı yanıtları ve dil bilgisi / şekil bilgisi etkinlik çözümleri.",
+      "likely_misconceptions": "Şekil bilgisinin metnin anlamından ve üslubundan kopuk soyut bir kural kümesi olduğu yanılgısı.",
+      "cognitive_demand": "Çözümleme ve Analitik Değerlendirme",
+      "interaction_need": "Öğrenme merkezleri / istasyon çalışması veya grupla yapı analizi.",
+      "representation_need": "Yapı unsurları analiz tabloları ve şekil bilgisi şemaları.",
+      "practice_need": "Metin üzerinden ek-kök ayrımı ve üslup ilişkisi kurma çalışmaları.",
+      "feedback_need": "Öğretmen tahlil dönütü ve açık uçlu sorulara model cevap analizleri.",
+      "assessment_need": "Açık uçlu tahlil soruları ve dil bilgisi analiz setleri.",
+      "differentiation_need": "Şekil bilgisi formül kartları ve yapı unsuru tanımlama iskeleleri.",
+      "enrichment_opportunity": "Dönemin sosyal tarihi ile romandaki mekân-insan ilişkisinin derinlemesine incelenmesi.",
+      "accessibility_need": "Ayrıştırılmış morfolojik analiz gösterimleri.",
+      "safety_need": "N/A",
+      "external_content_need": "N/A",
+      "rationale": "Öğretim programı roman yapı unsurlarının, üslubun ve şekil bilgisinin açık uçlu sorularla çözümlenmesini ister (s. 90, 93).",
+      "provenance": {
+        "curriculum_locator": "s. 90, 93",
+        "official_statement_verbatim": "TDE2.3. “Dilin Zenginliği” temasında ele alınan metinleri çözümleyebilme",
+        "origin": "official_curriculum"
+      }
+    },
+    {
+      "need_id": "NEED_T4_O4",
+      "targeted_learning_outcomes": [
+        "TDE2.4"
+      ],
+      "targeted_process_components": [],
+      "domain_or_subject_profile": "TDE / Metin Tahlili (Okuma)",
+      "conceptual_prerequisites": "Karakter tahlili, diyalog yazımı, akran değerlendirme ilkeleri, öğrenme günlüğü tutma.",
+      "procedural_or_skill_prerequisites": "Romandaki karakterlerin üslubuna uygun özgün diyalog kurgulama, akran ürününü ölçütlerle değerlendirme, öğrenme günlüğüne yansıtma yazma.",
+      "expected_student_actions": "Okunan romandan seçilen karakterlerle özgün diyalog/yorum metni oluşturma, romandaki kişilerin kişilik ve üslup özelliklerine uygunluğunu akran değerlendirme formu ile değerlendirme ve öğrenme sürecini öğrenme günlüğüne kaydetme.",
+      "expected_student_evidence": "Özgün karakter diyaloğu/yorumu yazılı ürünü, s. 311'deki Akran Değerlendirme Formu (FORM_BOB_10_T3_T4_AKRAN) ve s. 301'deki Öğrenme Günlüğü (FORM_IN_T4_OGRENME_GUNLUGU).",
+      "likely_misconceptions": "Diyalog yazımında karakterlerin kendi dönem ve kişilik üsluplarının göz ardı edilebileceği düşüncesi.",
+      "cognitive_demand": "Yaratıcı Yeniden Üretim ve Yansıtma",
+      "interaction_need": "Eşli diyalog yazımı ve akranlar arası form değişimi.",
+      "representation_need": "Akran değerlendirme formları ve öğrenme günlüğü yansıtma sayfaları.",
+      "practice_need": "Karakter sesini yansıtan yaratıcı yazma ve nesnel akran değerlendirme pratiği.",
+      "feedback_need": "Akrandan nitel geri bildirim ve öğretmenden süreç değerlendirmesi.",
+      "assessment_need": "Akran değerlendirme formu (peer_assessment_form) ve öğrenme günlüğü (learning_journal).",
+      "differentiation_need": "Diyalog yazımı için rol kartları ve örnek durum senaryoları.",
+      "enrichment_opportunity": "Oluşturulan diyalogların sınıf içinde canlandırılması (kısa drama).",
+      "accessibility_need": "Net yapılandırılmış açık uçlu akran geri bildirim alanları.",
+      "safety_need": "N/A",
+      "external_content_need": "N/A",
+      "rationale": "Öğretim programı romandan hareketle özgün diyalog oluşturulmasını, akran değerlendirme formu kullanılmasını ve öğrenme günlüğü tutulmasını öngörür (s. 90, 93).",
+      "provenance": {
+        "curriculum_locator": "s. 90, 93",
+        "official_statement_verbatim": "TDE2.4. “Dilin Zenginliği” temasında ele alınan metinlere yönelik değerlendirmelerini yansıtabilme",
+        "origin": "official_curriculum"
+      }
+    },
+    {
+      "need_id": "NEED_T4_K1",
+      "targeted_learning_outcomes": [
+        "TDE3.1"
+      ],
+      "targeted_process_components": [],
+      "domain_or_subject_profile": "TDE / Edebiyat Atölyesi (Konuşma)",
+      "conceptual_prerequisites": "Hazırlıklı konuşma aşamaları, sosyal medya dili özellikleri, edebî dil özellikleri, sunum stratejileri.",
+      "procedural_or_skill_prerequisites": "Grup içi görev dağılımı yapma, sunum planı oluşturma, zaman ve mekân yönetimini sağlama, nezaket kurallarına uyma.",
+      "expected_student_actions": "Sosyal medya dili ile edebî dilin özelliklerini karşılaştıran sunum performans görevi için grup çalışması yapma, konuşma amacını, hedef kitleyi ve stratejisini belirleyip sınıf içi sözlü sunum sürecini yönetme.",
+      "expected_student_evidence": "Hazırlıklı sunum planı, sunum hazırlık aşamaları ve sınıf ortamında icra edilen etkileşimli sözlü sunum performansı.",
+      "likely_misconceptions": "Sunum yapmanın slayttaki yazıları aynen okumaktan ibaret olduğu düşüncesi.",
+      "cognitive_demand": "Performans Yönetimi ve Sözlü İletişim",
+      "interaction_need": "Grup içi iş birliği, konuşmacı-dinleyici etkileşimi.",
+      "representation_need": "Sunum planı şablonu, değerlendirme ölçüt tablosu ve sunum yönergeleri.",
+      "practice_need": "Sınıf önünde hazırlıklı sözlü sunum provası ve icrası.",
+      "feedback_need": "Öğretmen gözlemi, öz değerlendirme ve akran geri bildirimi.",
+      "assessment_need": "Değerlendirme ölçüt tablosu (assessment_criteria_table), öz değerlendirme formu ve öğretmen gözlem formu.",
+      "differentiation_need": "Sunum süresi uyarlaması, konuşmacı rolü paylaşımı veya dijital sunum desteği.",
+      "enrichment_opportunity": "Sunumun podcast veya video kaydı olarak dijital portfolyoya dönüştürülmesi.",
+      "accessibility_need": "Topluluk önünde konuşma kaygısı olan öğrencilere destekleyici ortam.",
+      "safety_need": "Dijital ortamlarda telif ve etik kurallara uyum.",
+      "external_content_need": "N/A",
+      "rationale": "Öğretim programı sosyal medya dili ile edebî dili karşılaştıran hazırlıklı bir sunum performans görevi ve süreç yönetimi ister (s. 90, 94).",
+      "provenance": {
+        "curriculum_locator": "s. 90, 94",
+        "official_statement_verbatim": "TDE3.1. Dilin zenginliğini kullandığı akıcı bir konuşma sürecini yönetebilme",
+        "origin": "official_curriculum"
+      }
+    },
+    {
+      "need_id": "NEED_T4_K2",
+      "targeted_learning_outcomes": [
+        "TDE3.2",
+        "TDE3.3"
+      ],
+      "targeted_process_components": [],
+      "domain_or_subject_profile": "TDE / Edebiyat Atölyesi (Konuşma)",
+      "conceptual_prerequisites": "Sosyal medya jargonu/kısaltmaları, Türkçenin zengin söz varlığı, düşünceyi geliştirme yolları, görsel tasarım ilkeleri, diksiyon ve dil kuralları.",
+      "procedural_or_skill_prerequisites": "Karşılaştırmalı veri toplama, verileri sınıflandırma, konuşma metni ve görsel/işitsel materyal hazırlama, kurallı sunum yapma.",
+      "expected_student_actions": "Sosyal medya dili ile edebî dilin özelliklerini karşılaştıran içeriği planlama; verileri konuşma planına uygun şekilde sınıflandırma; görsel/işitsel materyallerle destekleyip dil kurallarına uygun icra etme.",
+      "expected_student_evidence": "Karşılaştırmalı konuşma metni taslağı, sunum slaytları/görselleri ve dereceli puanlama anahtarı ile puanlanmış sözlü sunum performansı.",
+      "likely_misconceptions": "Sosyal medya dilinin hiçbir kuralı olmayan önemsiz bir kullanım olduğu veya dereceli puanlamanın yalnızca tek bir genel nota dayandığı yanılgısı.",
+      "cognitive_demand": "İçerik Tasarımı ve Kurallı Sunum İcrası",
+      "interaction_need": "Grup içi içerik müzakeresi ve dinleyiciyle etkileşim.",
+      "representation_need": "Karşılaştırmalı slaytlar, görsel grafikler ve dereceli puanlama anahtarı (rubric).",
+      "practice_need": "Verileri sınıflandırma, kurallı konuşma ve dereceli ölçütlerle prova yapma.",
+      "feedback_need": "Dereceli puanlama anahtarı üzerinden somut düzey geri bildirimi.",
+      "assessment_need": "Dereceli puanlama anahtarı (rubric / rating scale with criteria levels).",
+      "differentiation_need": "Karşılaştırma kategorileri için hazır kavram listeleri ve konuşma kartları.",
+      "enrichment_opportunity": "Sosyal medyadaki dil kirlenmesi ve çözüm önerileri üzerine infografik/podcast tasarımı.",
+      "accessibility_need": "Görsel materyallerde yüksek kontrast ve net yazı tipi.",
+      "safety_need": "Telif hakkı olan görsellerin kullanımında kaynak gösterme bilinci.",
+      "external_content_need": "N/A",
+      "rationale": "Öğretim programı sunum performansının açıkça 'dereceli puanlama anahtarı' ile puanlanmasını zorunlu kılar (s. 90, 94).",
+      "provenance": {
+        "curriculum_locator": "s. 90, 94",
+        "official_statement_verbatim": "TDE3.2. Konusunu dilin zenginliğinden yararlanarak oluşturduğu konuşma içeriğini oluşturabilme & TDE3.3. Konusunu dilin zenginliğinden yararlanarak oluşturduğu konuşmasında kural uygulayabilme",
+        "origin": "official_curriculum"
+      }
+    },
+    {
+      "need_id": "NEED_T4_K3",
+      "targeted_learning_outcomes": [
+        "TDE3.3"
+      ],
+      "targeted_process_components": [],
+      "domain_or_subject_profile": "TDE / Edebiyat Atölyesi (Konuşma)",
+      "conceptual_prerequisites": "Diksiyon, tonlama, vurgu, telaffuz kuralları, beden dili ve jest-mimik uyumu.",
+      "procedural_or_skill_prerequisites": "Konuşmada doğru dil bilgisi ve ek kullanımını sağlama, ses tonunu ve beden dilini amaca göre ayarlama.",
+      "expected_student_actions": "Konuşma esnasında uygun söz varlığı kullanma, dil yapılarında eklerin ve bağlaşıklık ögelerinin kurallarına uyma, düşünceyi geliştirme yollarından yararlanma ve beden dili ile jest-mimikleri kurallara uygun biçimde sergileme.",
+      "expected_student_evidence": "Diksiyon, telaffuz, tonlama, bağlaşıklık ve dil kurallarına uygun olarak icra edilen ve dereceli puanlama anahtarı ile puanlanan sözlü sunum performansı.",
+      "likely_misconceptions": "Konuşma kurallarının sadece ses şiddetinden ibaret olduğu düşüncesi.",
+      "cognitive_demand": "Kural Uygulama ve İletişim İcrası",
+      "interaction_need": "Dinleyici kitlesiyle göz teması ve beden dili etkileşimi.",
+      "representation_need": "Dereceli puanlama anahtarındaki kural uygulama göstergeleri.",
+      "practice_need": "Vurgu, tonlama ve akıcı anlatım egzersizleri.",
+      "feedback_need": "Dereceli puanlama anahtarı üzerinden öğretmen dönütü.",
+      "assessment_need": "Dereceli puanlama anahtarı (TDE3.2 ile paylaşımlı).",
+      "differentiation_need": "Konuşma kartları desteği ve süre esnekliği.",
+      "enrichment_opportunity": "Topluluk önünde etkili hitabet tekniklerinin incelenmesi.",
+      "accessibility_need": "Konuşma güçlüğü olan öğrenciler için uygun ortam uyarlamaları.",
+      "safety_need": "N/A",
+      "external_content_need": "N/A",
+      "rationale": "Öğretim programı konuşmada kural uygulamanın dereceli puanlama anahtarı ile değerlendirilmesini öngörür (s. 90, 94).",
+      "provenance": {
+        "curriculum_locator": "s. 90, 94",
+        "official_statement_verbatim": "TDE3.3. Konusunu dilin zenginliğinden yararlanarak oluşturduğu konuşmasında kural uygulayabilme",
+        "origin": "official_curriculum"
+      }
+    },
+    {
+      "need_id": "NEED_T4_K4",
+      "targeted_learning_outcomes": [
+        "TDE3.4"
+      ],
+      "targeted_process_components": [],
+      "domain_or_subject_profile": "TDE / Edebiyat Atölyesi (Konuşma)",
+      "conceptual_prerequisites": "Öz değerlendirme, akran değerlendirme, dürüstlük ve hakkaniyet değerleri, konuşmacı kimliği.",
+      "procedural_or_skill_prerequisites": "Form üzerindeki ölçütlere göre kendi ve akran performansını puanlama, güçlü ve zayıf yönleri gerekçelendirme.",
+      "expected_student_actions": "Sunum sürecini hakkaniyetli ve dürüst bir tutumla değerlendirme; s. 309'daki Öz Değerlendirme Formunu, s. 311'deki Akran Değerlendirme Formunu doldurma; fiziksel, dilsel, duyuşsal ve zihinsel etkenleri gözden geçirerek yansıtma yapma.",
+      "expected_student_evidence": "Doldurulmuş s. 309 Öz Değerlendirme Formu (FORM_BOB_08_T4_KONUSMA_OZ), s. 311 Akran Değerlendirme Formu (FORM_BOB_10_T3_T4_AKRAN), s. 312 Öğretmen Gözlem Formu (FORM_BOB_11_GENEL_GOZLEM) ve yansıtma notları.",
+      "likely_misconceptions": "Akran değerlendirmesinde arkadaşlık ilişkilerine göre yanlı puan verme eğilimi.",
+      "cognitive_demand": "Değerlendirme ve Üstbilişsel Yansıtma",
+      "interaction_need": "Akranlar arası yapıcı geri bildirim alışverişi.",
+      "representation_need": "Derecelendirilmiş öz değerlendirme formu, nitel akran değerlendirme formu.",
+      "practice_need": "Hakkaniyetli ve dürüst ölçüt temelli değerlendirme yapma pratiği.",
+      "feedback_need": "Öğretmenin değerlendirme tutarlılığına dair rehberliği.",
+      "assessment_need": "Öz değerlendirme formu (self_assessment_form), akran değerlendirme formu (peer_assessment_form), öğretmen gözlem formu (teacher_evaluation_form).",
+      "differentiation_need": "Form sorularının sadeleştirilmiş açıklamaları.",
+      "enrichment_opportunity": "Gelecek konuşma görevleri için kişisel gelişim hedefleri belirleme planı.",
+      "accessibility_need": "Açık uçlu alanlarda yeterli yazma boşluğu.",
+      "safety_need": "N/A",
+      "external_content_need": "N/A",
+      "rationale": "Öğretim programı konuşma sürecinin öz değerlendirme ve akran değerlendirme formlarıyla hakkaniyet ve dürüstlükle değerlendirilmesini öngörür (s. 90, 94-95).",
+      "provenance": {
+        "curriculum_locator": "s. 90, 94-95",
+        "official_statement_verbatim": "TDE3.4. Kullandığı dil özelliklerinin konuşmasına etkisine yönelik değerlendirmelerini yansıtabilme",
+        "origin": "official_curriculum"
+      }
+    },
+    {
+      "need_id": "NEED_T4_Y1",
+      "targeted_learning_outcomes": [
+        "TDE4.1"
+      ],
+      "targeted_process_components": [],
+      "domain_or_subject_profile": "TDE / Edebiyat Atölyesi (Yazma)",
+      "conceptual_prerequisites": "Yazma süreci basamakları (hazırlık, planlama, taslak, öz düzenleme, paylaşım), kontrol listesi kavramı.",
+      "procedural_or_skill_prerequisites": "Beyin fırtınası yapma, yazma amacını ve stratejisini belirleme, yazma aşamalarını kontrol listesi ile adım adım takip etme.",
+      "expected_student_actions": "Otobiyografi yazma performans görevi doğrultusunda beyin fırtınası yapma, amaç ve yöntem belirleme, yazma sürecini kontrol listesi üzerinden yönetme ve öz düzenleme yapma.",
+      "expected_student_evidence": "Otobiyografi hazırlık notları, yazma planı, taslak hazırlık süreci ve doldurulmuş yazma süreci kontrol listesi.",
+      "likely_misconceptions": "Yazma sürecinin kontrol listesi olmadan zihinden plansızca yürütülebileceği yanılgısı.",
+      "cognitive_demand": "Süreç Yönetimi ve Öz Düzenleme",
+      "interaction_need": "Bireysel planlama ve sınıf içi beyin fırtınası.",
+      "representation_need": "Yazma süreci kontrol listesi (checklist) ve planlama yönergeleri.",
+      "practice_need": "Otobiyografi yazma aşamalarını kontrol listesiyle adım adım denetleme.",
+      "feedback_need": "Kontrol listesi işaretlemeleri üzerinden öğretmen dönütü.",
+      "assessment_need": "Yazma süreci kontrol listesi (checklist).",
+      "differentiation_need": "Görsel zaman çizgisi ve yapılandırılmış aşama kontrol kartları.",
+      "enrichment_opportunity": "Otobiyografik yazıyı film şeridi / storyboard formatında tasarlama.",
+      "accessibility_need": "Adım adım ayrılmış yazma basamakları ve açık işaretleme alanları.",
+      "safety_need": "Kişisel bilgilerin gizliliği ve mahremiyete dikkat edilmesi.",
+      "external_content_need": "N/A",
+      "rationale": "Öğretim programı yazma sürecinin tüm aşamalarının başarılı bir şekilde uygulanabilmesi için kontrol listesi hazırlanmasını şart koşar (s. 90, 96-97).",
+      "provenance": {
+        "curriculum_locator": "s. 90, 96-97",
+        "official_statement_verbatim": "TDE4.1. Öz yaşam öyküsünü oluşturabilmek için bir yazılı anlatım sürecini yönetebilme",
+        "origin": "official_curriculum"
+      }
+    },
+    {
+      "need_id": "NEED_T4_Y2",
+      "targeted_learning_outcomes": [
+        "TDE4.2",
+        "TDE4.3"
+      ],
+      "targeted_process_components": [],
+      "domain_or_subject_profile": "TDE / Edebiyat Atölyesi (Yazma)",
+      "conceptual_prerequisites": "Öz yaşam öyküsü içeriği, yazar üslubu, bağlama uygunluk, özgünlük, etkileyicilik, bağdaşıklık, imla-noktalama ve dereceli puanlama ilkeleri.",
+      "procedural_or_skill_prerequisites": "Kendi yaşam deneyimlerini estetik bakış açısıyla kurgulama, görsel unsurlarla zenginleştirme, imla ve anlatım bozukluklarını düzeltme.",
+      "expected_student_actions": "Öz yaşam öyküsünü kendi üslubunu yansıtacak biçimde yazma; bağlama uygunluk, etkileyicilik, tutarlılık, özgünlük ve dil kurallarına uyarak metni yapılandırma; görsel ögelerle zenginleştirme.",
+      "expected_student_evidence": "Öğrencinin kaleme aldığı özgün otobiyografi metni ve dereceli puanlama anahtarı ile puanlanan yazılı ürün kanıtı.",
+      "likely_misconceptions": "Otobiyografide edebi üslup ve kural uygulamanın dereceli puanlama olmadan nesnel değerlendirilebileceği yanılgısı.",
+      "cognitive_demand": "Yaratıcı Yazma, Kural Uygulama ve İçerik Tasarımı",
+      "interaction_need": "Bireysel yazma ve metin üzeri eşli redaksiyon incelemesi.",
+      "representation_need": "Otobiyografi taslak metni, görsel arşivler ve dereceli puanlama anahtarı (rubric).",
+      "practice_need": "Kendi üslup özelliklerini yansıtan paragraflar oluşturma ve kurallı düzeltme yapma.",
+      "feedback_need": "Dereceli puanlama anahtarı üzerinden öğretmen ve akran dönütü.",
+      "assessment_need": "Dereceli puanlama anahtarı (rubric / scoring criteria with levels).",
+      "differentiation_need": "Görsel kolaj veya fotoğraf destekli otobiyografi anlatımı seçeneği.",
+      "enrichment_opportunity": "Otobiyografiyi dijital bir e-kitap veya animasyonlu film şeridi hâline getirme.",
+      "accessibility_need": "Fiziksel veya dijital yazma ortamı esnekliği.",
+      "safety_need": "Kişisel fotoğrafların paylaşımında veli/öğrenci gizlilik sınırlarına uyum.",
+      "external_content_need": "N/A",
+      "rationale": "Öğretim programı yazılı anlatımın bağlama uygunluk, etkileyicilik, özgünlük ve kural uygulama ölçütlerinde 'dereceli puanlama anahtarı' ile değerlendirilmesini zorunlu kılar (s. 90, 96-97).",
+      "provenance": {
+        "curriculum_locator": "s. 90, 96-97",
+        "official_statement_verbatim": "TDE4.2. Öz yaşam öyküsünü aktarmak için kendi üslup özelliklerini yansıtan bir yazılı anlatım içeriği oluşturabilme & TDE4.3. Öz yaşam öyküsünü aktarmak için kendi üslup özelliklerini yansıtan yazısında kural uygulayabilme",
+        "origin": "official_curriculum"
+      }
+    },
+    {
+      "need_id": "NEED_T4_Y3",
+      "targeted_learning_outcomes": [
+        "TDE4.3"
+      ],
+      "targeted_process_components": [],
+      "domain_or_subject_profile": "TDE / Edebiyat Atölyesi (Yazma)",
+      "conceptual_prerequisites": "İmla kuralları, noktalama işaretleri, bağdaşıklık ve bağlaşıklık ögeleri, anlatım bozuklukları.",
+      "procedural_or_skill_prerequisites": "Taslak metni dil kuralları açısından denetleme, anlatım bozukluklarını tespit edip düzeltme.",
+      "expected_student_actions": "Otobiyografi metninde uygun söz varlığı seçme, bağdaşıklık ögelerine uyma, imla ve noktalama kurallarını uygulama, anlatım bozukluklarını tespit edip düzeltme.",
+      "expected_student_evidence": "Yazım, noktalama, bağdaşıklık ve dil kurallarına uygun olarak düzeltilmiş ve dereceli puanlama anahtarı ile puanlanmış otobiyografi metni.",
+      "likely_misconceptions": "Taslak yazıldıktan sonra düzeltme (redaksiyon) adımının gereksiz görülmesi.",
+      "cognitive_demand": "Kural Uygulama ve Düzeltme (Redaksiyon)",
+      "interaction_need": "Bireysel düzeltme ve eşli redaksiyon kontrolü.",
+      "representation_need": "Yazım kılavuzu, noktalama tablosu ve dereceli puanlama anahtarı.",
+      "practice_need": "Metindeki anlatım pürüzlerini ve imla hatalarını ayıklama pratiği.",
+      "feedback_need": "Dereceli puanlama anahtarı üzerinden somut dil bilgisi ve imla düzeltme dönütleri.",
+      "assessment_need": "Dereceli puanlama anahtarı (TDE4.2 ile paylaşımlı).",
+      "differentiation_need": "Kontrol listesi şeklinde hazırlanmış imla ve noktalama kontrol kartları.",
+      "enrichment_opportunity": "Metindeki bağdaşıklık ve örtük iletilerin stilistik tahlili.",
+      "accessibility_need": "Açık ve anlaşılır düzeltme simgeleri.",
+      "safety_need": "N/A",
+      "external_content_need": "N/A",
+      "rationale": "Öğretim programı otobiyografi yazısında kural uygulamanın dereceli puanlama anahtarı ile değerlendirilmesini şart koşar (s. 90, 96-97).",
+      "provenance": {
+        "curriculum_locator": "s. 90, 96-97",
+        "official_statement_verbatim": "TDE4.3. Öz yaşam öyküsünü aktarmak için kendi üslup özelliklerini yansıtan yazısında kural uygulayabilme",
+        "origin": "official_curriculum"
+      }
+    },
+    {
+      "need_id": "NEED_T4_Y4",
+      "targeted_learning_outcomes": [
+        "TDE4.4"
+      ],
+      "targeted_process_components": [],
+      "domain_or_subject_profile": "TDE / Edebiyat Atölyesi (Yazma)",
+      "conceptual_prerequisites": "Öz değerlendirme, akran değerlendirme, yazma ürünü paylaşım ortamları, yazma yansıtmaları.",
+      "procedural_or_skill_prerequisites": "Öz değerlendirme ve akran değerlendirme formlarını doldurma, karşılaşılan zorlukları listeleme, metni panoda veya okul dergisinde paylaşma.",
+      "expected_student_actions": "Yazılan otobiyografiyi s. 308'deki Öz Değerlendirme Formu ve s. 311'deki Akran Değerlendirme Formu ile değerlendirme; süreçte karşılaşılan zorlukları gözden geçirip yansıtma yapma ve metni okul panosu / gazete / güvenilir ortamda paylaşma.",
+      "expected_student_evidence": "Doldurulmuş s. 308 Öz Değerlendirme Formu (FORM_BOB_07_T4_YAZMA_OZ), s. 311 Akran Değerlendirme Formu (FORM_BOB_10_T3_T4_AKRAN), s. 312 Öğretmen Gözlem Formu (FORM_BOB_11_GENEL_GOZLEM) ve paylaşılan nihai otobiyografi metni.",
+      "likely_misconceptions": "Yazma ürününün sadece öğretmen tarafından okunup notlanacak özel bir evrak olduğu düşüncesi.",
+      "cognitive_demand": "Değerlendirme, Yansıtma ve Paylaşım",
+      "interaction_need": "Akran form değişimi, sınıf panosu sergilemesi.",
+      "representation_need": "Öz değerlendirme formu, akran formu ve ürün sergileme alanı.",
+      "practice_need": "Kendi yazma becerisini değerlendirme ve geliştirilecek yönleri listeleme.",
+      "feedback_need": "Akrandan nitel öneriler, öğretmenden onay ve tebrik.",
+      "assessment_need": "Öz değerlendirme formu (self_assessment_form), akran değerlendirme formu (peer_assessment_form), öğretmen değerlendirme formu (teacher_evaluation_form).",
+      "differentiation_need": "Paylaşım ortamı seçenekleri (pano, dijital pano, sınıf içi okuma).",
+      "enrichment_opportunity": "Yıl boyu üretilen yazılardan oluşan bir 9. sınıf edebiyat antolojisi / e-dergi derlenmesi.",
+      "accessibility_need": "Paylaşım tercihlerinde öğrenci hassasiyetlerine saygı.",
+      "safety_need": "Açık ağ paylaşımlarında kişisel veri ve görsel izinlerinin gözetilmesi.",
+      "external_content_need": "N/A",
+      "rationale": "Öğretim programı yazma ürünlerine yönelik öz/akran değerlendirmesi yapılmasını, zorlukların listelenmesini ve ürünlerin paylaşılmasını şart koşar (s. 90, 97).",
+      "provenance": {
+        "curriculum_locator": "s. 90, 97",
+        "official_statement_verbatim": "TDE4.4. Yazısına yönelik değerlendirmelerini üslup ve diğer yazma unsurları bağlamında yansıtabilme",
+        "origin": "official_curriculum"
+      }
+    }
+  ]
+}

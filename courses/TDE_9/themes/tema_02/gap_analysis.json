@@ -1,0 +1,358 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_9",
+  "theme_id": "TEMA_02",
+  "theme_no": 2,
+  "theme_title": "2. TEMA: ANLAM ARAYIŞI",
+  "total_outcomes_analyzed": 12,
+  "summary_metrics": {
+    "covered_count": 10,
+    "partially_covered_count": 2,
+    "not_covered_count": 0,
+    "required_resources_count": 2,
+    "recommended_resources_count": 3,
+    "optional_resources_count": 2,
+    "reuse_textbook_count": 9,
+    "reuse_with_teacher_guide_count": 1,
+    "generate_assessment_support_count": 2,
+    "map_conflict_count": 0,
+    "unresolved_count": 0
+  },
+  "gap_records": [
+    {
+      "gap_id": "GAP_T2_D1",
+      "need_id": "NEED_T2_D1",
+      "outcome_code": "TDE1.1",
+      "outcome_verbatim": "TDE1.1. “Anlam Arayışı” temasında ele alınan metinlerde dinlemeyi/izlemeyi yönetebilme",
+      "textbook_activity_ids": [
+        "T2_ACT_10_DINLEME_ONCESI_VE_SIRASI"
+      ],
+      "textbook_form_ids": [],
+      "textbook_locators": [
+        "s. 131-132 (PDF: 132-133)"
+      ],
+      "observed_textbook_structure": "Kitapta dinleme öncesi hazırlık yönergeleri, şairin sesinden Mihriban şiirini dinleme ve dinleme sırası metin tamamlama etkinliği bulunmaktadır. Süreç doğrudan etkinlik yönergeleriyle yönetilmektedir.",
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "Yok - Öğrenci hazırlık ve dinleme süreci kitap tarafından sağlanmaktadır. Öğretmen için estetik dinleme stratejileri rehberlikle desteklenebilir.",
+      "why_existing_resources_are_insufficient": "N/A - Ders kitabı öğrenci eylemini ve kanıtını karşılamaktadır.",
+      "production_decision": "REUSE_WITH_TEACHER_GUIDE",
+      "priority": "RECOMMENDED",
+      "provenance": {
+        "program_locator": "öğretim programı.pdf, s. 74, 78",
+        "program_requirement_verbatim": "Dinleme/izleme kuralları hatırlatılır ve süreçte buna uygun davranmaları istenir. Söz konusu kurallara ilişkin bir kontrol listesi hazırlanır.",
+        "textbook_locator": "9edb.pdf, s. 131-132 (PDF: 132-133)"
+      }
+    },
+    {
+      "gap_id": "GAP_T2_D2",
+      "need_id": "NEED_T2_D2",
+      "outcome_code": "TDE1.2",
+      "outcome_verbatim": "TDE1.2. “Anlam Arayışı” temasında ele alınan metinlerde anlam oluşturabilme",
+      "textbook_activity_ids": [
+        "T2_ACT_10_DINLEME_ONCESI_VE_SIRASI",
+        "T2_ACT_11_DINLEME_SONRASI_TAHLIL"
+      ],
+      "textbook_form_ids": [],
+      "textbook_locators": [
+        "s. 131-138 (PDF: 132-139)"
+      ],
+      "observed_textbook_structure": "Dinleme sonrası açık uçlu tahlil soruları, ana duygu tespiti, söz varlığı ve ahenk çalışmaları, şiir tamamlama/yaratıcı dize ekleme etkinlikleri s. 133-138 arasında eksiksiz yer almaktadır.",
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "Yok - Ders kitabı tahlil, anlama, ahenk ve dize tamamlama eylemlerini eksiksiz sunmaktadır.",
+      "why_existing_resources_are_insufficient": "N/A - Kitap materyalleri öğrenci kanıtı için tam ve yeterlidir.",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "program_locator": "öğretim programı.pdf, s. 74, 75, 78",
+        "program_requirement_verbatim": "Açık uçlu sorularla metnin içeriğinin daha çok duygulara mı yoksa düşüncelere mi yönelik olduğu karşılaştırılır... çıkış kartı ile şiiri diğerlerinden ayıran üç temel özelliği belirlemeleri istenir.",
+        "textbook_locator": "9edb.pdf, s. 131-138 (PDF: 132-139)"
+      }
+    },
+    {
+      "gap_id": "GAP_T2_O1",
+      "need_id": "NEED_T2_O1",
+      "outcome_code": "TDE2.1",
+      "outcome_verbatim": "TDE2.1. “Anlam Arayışı” temasında ele alınan metinlerde okumayı yönetebilme",
+      "textbook_activity_ids": [
+        "T2_ACT_01_OKUMA_ONCESI_HIKAYE",
+        "T2_ACT_05_OKUMA_ONCESI_ANI"
+      ],
+      "textbook_form_ids": [],
+      "textbook_locators": [
+        "s. 76, 99 (PDF: 77, 100)"
+      ],
+      "observed_textbook_structure": "Hikâye öncesinde s. 76'da görsel ve başlıktan hareketle tahmin ve hazırlık soruları; anı öncesinde s. 99'da tür hazırlığı ve millî hafıza üzerine yönlendirici okuma öncesi soruları bulunmaktadır.",
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "Yok - Okuma öncesi hazırlık ve tahmin adımları ders kitabında yapılandırılmıştır.",
+      "why_existing_resources_are_insufficient": "N/A - Ders kitabı yeterlidir.",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "program_locator": "öğretim programı.pdf, s. 74, 75, 76",
+        "program_requirement_verbatim": "Okumaya başlamadan önce okumaya yönelik hazırlık yapılması, metnin başlığı ve görselinden yola çıkılarak metinle ilgili tahminde bulunulması, metnin yazılış amacının tahmin edilmesi gibi etkinlikler gerçekleştirilerek veya kısa cevaplı sorular sorularak okumayı yönetme süreci işlenir... Bu aşamada öğretmen, öğrencileri kısa cevaplı sorularla değerlendirir.",
+        "textbook_locator": "9edb.pdf, s. 76, 99 (PDF: 77, 100)"
+      }
+    },
+    {
+      "gap_id": "GAP_T2_O2",
+      "need_id": "NEED_T2_O2",
+      "outcome_code": "TDE2.2",
+      "outcome_verbatim": "TDE2.2. “Anlam Arayışı” temasında ele alınan metinlerde anlam oluşturabilme",
+      "textbook_activity_ids": [
+        "T2_ACT_02_OKUMA_SIRASI_HIKAYE",
+        "T2_ACT_03_OKUMA_SONRASI_HIKAYE_TAHLIL",
+        "T2_ACT_04_KONTROL_NOKTASI_HIKAYE",
+        "T2_ACT_06_OKUMA_SONRASI_ANI_TAHLIL",
+        "T2_ACT_07_KONTROL_NOKTASI_ANI"
+      ],
+      "textbook_form_ids": [],
+      "textbook_locators": [
+        "s. 77-98, 100-124 (PDF: 78-99, 101-125)"
+      ],
+      "observed_textbook_structure": "Tarık Buğra'nın 'Bir Kavak ve İnsanlar' hikâyesi (s. 77-80), hikâye tahlili (s. 81-97), hikâye kontrol noktası (s. 98); Halide Nusret Zorlutuna'nın 'Nihayet Beklediğimiz Büyük Gün' anısı (s. 100-101), anı tahlili (s. 102-123), anı kontrol noktası (s. 124) ve kapsamlı ses bilgisi çalışmaları mevcuttur.",
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "Yok - Metin tahlilleri, tür karşılaştırmaları, hikâye haritalama ve dil bilgisi kazanımları ders kitabında eksiksiz bulunmaktadır.",
+      "why_existing_resources_are_insufficient": "N/A - Mevcut ders kitabı kaynakları tam ve yeterlidir.",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "program_locator": "öğretim programı.pdf, s. 74, 75, 76-77",
+        "program_requirement_verbatim": "kısa cevaplı ve açık uçlu sorular, hikâye haritası, karşılaştırma tablosu, öğrenme duvarı, öğrenme günlüğü.",
+        "textbook_locator": "9edb.pdf, s. 77-98, 100-124 (PDF: 78-99, 101-125)"
+      }
+    },
+    {
+      "gap_id": "GAP_T2_K1",
+      "need_id": "NEED_T2_K1",
+      "outcome_code": "TDE3.1",
+      "outcome_verbatim": "TDE3.1. Konusunu ana düşünce etrafında detaylandırdığı akıcı bir konuşma sürecini yönetebilme",
+      "textbook_activity_ids": [
+        "T2_ACT_08_KONUSMA_SIRASI"
+      ],
+      "textbook_form_ids": [
+        "FORM_IN_T2_KONUSMA_CRITERIA"
+      ],
+      "textbook_locators": [
+        "s. 125-128 (PDF: 126-129)"
+      ],
+      "observed_textbook_structure": "Karakter seçimi, konuşma amacı belirleme, strateji oluşturma ve hazırlık adımları s. 125-128'de adım adım yönergelerle verilmiştir.",
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "Yok - Öğrencinin konuşma sürecini yönetmesine ilişkin basamaklar ve yönergeler kitapta mevcuttur.",
+      "why_existing_resources_are_insufficient": "N/A - Ders kitabı etkinlikleri yeterlidir.",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "program_locator": "öğretim programı.pdf, s. 74, 75, 77",
+        "program_requirement_verbatim": "Öğrencilere okuduğu hikâyeden seçtiği karaktere kendi yorumunu katarak bir sunum yapabilmelerine yönelik performans görevi verilir.",
+        "textbook_locator": "9edb.pdf, s. 125-128 (PDF: 126-129)"
+      }
+    },
+    {
+      "gap_id": "GAP_T2_K2",
+      "need_id": "NEED_T2_K2",
+      "outcome_code": "TDE3.2",
+      "outcome_verbatim": "TDE3.2. Konusunu ana düşünce etrafında detaylandırdığı konuşma içeriğini oluşturabilme",
+      "textbook_activity_ids": [
+        "T2_ACT_08_KONUSMA_SIRASI"
+      ],
+      "textbook_form_ids": [
+        "FORM_IN_T2_KONUSMA_CRITERIA"
+      ],
+      "textbook_locators": [
+        "s. 125-128 (PDF: 126-129)"
+      ],
+      "observed_textbook_structure": "Seçilen karakteri özdeşleştirme, benzerlik/farklılıkları belirleme, yeniden kurgulama ve karaktere ait görsel tasarım hazırlama yönergeleri s. 126-128'de mevcuttur.",
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "Yok - Karakter kurgusu ve görsel içerik üretme adımları kitapta yapılandırılmıştır.",
+      "why_existing_resources_are_insufficient": "N/A - Ders kitabı yeterlidir.",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "program_locator": "öğretim programı.pdf, s. 74, 75, 77-78",
+        "program_requirement_verbatim": "Performans görevi dereceli puanlama anahtarı ile puanlanır.",
+        "textbook_locator": "9edb.pdf, s. 125-128 (PDF: 126-129)"
+      }
+    },
+    {
+      "gap_id": "GAP_T2_K3",
+      "need_id": "NEED_T2_K3",
+      "outcome_code": "TDE3.3",
+      "outcome_verbatim": "TDE3.3. Konusunu ana fikir etrafında detaylandırdığı konuşmasında kural uygulayabilme",
+      "textbook_activity_ids": [
+        "T2_ACT_08_KONUSMA_SIRASI"
+      ],
+      "textbook_form_ids": [
+        "FORM_IN_T2_KONUSMA_CRITERIA"
+      ],
+      "textbook_locators": [
+        "s. 128-129 (PDF: 129-130)"
+      ],
+      "observed_textbook_structure": "Sunum kuralları, diksiyon, ses tonu, beden dili, jest-mimik ve süre kontrolü yönergeleri s. 128-129'da yer almaktadır.",
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "Yok - Canlı sözlü sunum yönergeleri ve kural uygulama basamakları kitapta mevcuttur.",
+      "why_existing_resources_are_insufficient": "N/A - Ders kitabı yeterlidir.",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "program_locator": "öğretim programı.pdf, s. 74, 75, 78",
+        "program_requirement_verbatim": "Öğretmen değerlendirmesi dereceli puanlama anahtarı ile gerçekleştirilir. Puanlama anahtarında ses ve diksiyon, akıcılık, beden dili, içeriğin kurgusallığı, zaman yönetimi, Türkçenin doğru kullanımı, etkileyicilik vb. ölçütler yer alır.",
+        "textbook_locator": "9edb.pdf, s. 128-129 (PDF: 129-130)"
+      }
+    },
+    {
+      "gap_id": "GAP_T2_K4",
+      "need_id": "NEED_T2_K4",
+      "outcome_code": "TDE3.4",
+      "outcome_verbatim": "TDE3.4. Konuşmasının içeriğinde kullandığı unsurların konuşmasına olan etkisini yansıtabilme",
+      "textbook_activity_ids": [
+        "T2_ACT_08_KONUSMA_SIRASI",
+        "T2_ACT_09_KONUSMA_SONRASI"
+      ],
+      "textbook_form_ids": [
+        "FORM_IN_T2_KONUSMA_CRITERIA",
+        "FORM_BOB_04_T2_KONUSMA_OZ",
+        "FORM_BOB_09_T1_T2_AKRAN",
+        "FORM_BOB_11_GENEL_GOZLEM"
+      ],
+      "textbook_locators": [
+        "s. 129, 130, 305, 310, 312 (PDF: 130, 131, 306, 311, 313)"
+      ],
+      "observed_textbook_structure": "Kitapta s. 130'da konuşma sonrası form yönlendirmeleri yer almaktadır: s. 305'te FORM_BOB_04_T2_KONUSMA_OZ (self_assessment_form / 3'lü ölçek ve yansıtma soruları), s. 310'da FORM_BOB_09_T1_T2_AKRAN (peer_assessment_form / nitel açık uçlu alanlar), s. 129'da FORM_IN_T2_KONUSMA_CRITERIA (assessment_criteria_table) ve s. 312'de FORM_BOB_11_GENEL_GOZLEM (teacher_evaluation_form / gözlem matrisi) mevcuttur.",
+      "primary_coverage": "PARTIALLY_COVERED",
+      "need_tags": [
+        "NEEDS_ASSESSMENT_SUPPORT"
+      ],
+      "remaining_gap": "Program TDE3.4 çıktısı ve değerlendirme yönergeleri gereği öğretmenin 'ses ve diksiyon, akıcılık, beden dili, içeriğin kurgusallığı, zaman yönetimi, Türkçenin doğru kullanımı, etkileyicilik' ölçütlerini açık performans düzeyi betimleyicileriyle puanlamasını (dereceli puanlama anahtarı / analytic_rubric) şart koşmaktadır. Kitaptaki FORM_IN_T2_KONUSMA_CRITERIA yalnızca bir ölçüt tablosudur (assessment_criteria_table; düzey betimleyicileri ve puan skalası yoktur); s. 312'deki FORM_BOB_11_GENEL_GOZLEM ise genel bir gözlem formudur ve konuşma çıktısının analitik düzey betimleyicilerini sağlamaz.",
+      "why_existing_resources_are_insufficient": "Kitapta öz değerlendirme ve akran değerlendirme formları tam olmasına karşın, programın resmî olarak talep ettiği öğretmen analitik dereceli puanlama anahtarı (analytic rubric) yapısal olarak eksiktir. Ölçüt tablosu ve genel gözlem formu, analitik düzey betimleyicisi ihtiyacını karşılamamaktadır.",
+      "production_decision": "GENERATE_ASSESSMENT_SUPPORT",
+      "priority": "REQUIRED",
+      "provenance": {
+        "program_locator": "öğretim programı.pdf, s. 74, 75, 78",
+        "program_requirement_verbatim": "Sürecin değerlendirilmesinde açık uçlu sorulardan yararlanılır. Sunumdan sonra öğrenciler öncelikle akran değerlendirmesi ile kendi grup süreçlerini değerlendirir. Arkadaşlarından gelen görüşleri dikkate alarak öz değerlendirme yapar (SDB1.2); böylece konuşma sürecindeki hatalarını fark eder ve sonraki sunumları için bunları telafi etmeye yönelir (SDB2.1). Öğretmen değerlendirmesi dereceli puanlama anahtarı ile gerçekleştirilir. Puanlama anahtarında ses ve diksiyon, akıcılık, beden dili, içeriğin kurgusallığı, zaman yönetimi, Türkçenin doğru kullanımı, etkileyicilik vb. ölçütler yer alır. Öğretmen değerlendirme yaptıktan sonra öğrencilere süreç ile ilgili geri bildirim verir.",
+        "textbook_locator": "9edb.pdf, s. 129, 130, 305, 310, 312 (PDF: 130, 131, 306, 311, 313)"
+      }
+    },
+    {
+      "gap_id": "GAP_T2_Y1",
+      "need_id": "NEED_T2_Y1",
+      "outcome_code": "TDE4.1",
+      "outcome_verbatim": "TDE4.1. Konu zenginliği ve çeşitliliğini sağlayan edebî metinlerde yazma sürecini yönetebilme",
+      "textbook_activity_ids": [
+        "T2_ACT_12_YAZMA_SIRASI"
+      ],
+      "textbook_form_ids": [
+        "FORM_IN_T2_YAZMA_CRITERIA"
+      ],
+      "textbook_locators": [
+        "s. 139-140 (PDF: 140-141)"
+      ],
+      "observed_textbook_structure": "Dinlenen Mihriban şiirinin temasından hareketle yeni şiir yazma hazırlığı, tema/duygu seçimi ve planlama basamakları s. 139-140'ta yer almaktadır.",
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "Yok - Yazma sürecini başlatma ve yönetme yönergeleri kitapta eksiksiz mevcuttur.",
+      "why_existing_resources_are_insufficient": "N/A - Ders kitabı yeterlidir.",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "program_locator": "öğretim programı.pdf, s. 74, 75, 78",
+        "program_requirement_verbatim": "Öğrencilere dinledikleri/izledikleri şiirin temasına uygun bir şiir oluşturabilmelerine yönelik performans görevi verilir.",
+        "textbook_locator": "9edb.pdf, s. 139-140 (PDF: 140-141)"
+      }
+    },
+    {
+      "gap_id": "GAP_T2_Y2",
+      "need_id": "NEED_T2_Y2",
+      "outcome_code": "TDE4.2",
+      "outcome_verbatim": "TDE4.2. Yazısını zenginleştirecek içerik oluşturabilme",
+      "textbook_activity_ids": [
+        "T2_ACT_12_YAZMA_SIRASI"
+      ],
+      "textbook_form_ids": [
+        "FORM_IN_T2_YAZMA_CRITERIA"
+      ],
+      "textbook_locators": [
+        "s. 140-141 (PDF: 141-142)"
+      ],
+      "observed_textbook_structure": "Ana duygu belirleme, söz varlığını seçme, ahenk ve imge tasarımı ile şiir taslağı oluşturma adımları s. 140-141'de verilmiştir.",
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "Yok - Şiir içeriği oluşturma basamakları ve taslak hazırlığı kitapta tam olarak karşılanmaktadır.",
+      "why_existing_resources_are_insufficient": "N/A - Ders kitabı yeterlidir.",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "program_locator": "öğretim programı.pdf, s. 74, 75, 78-79",
+        "program_requirement_verbatim": "Performans görevi; tema, ana duygu, ritim ve ahenk ögeleri, söz varlığının bağlama uygun kullanımı vb. ölçütlerin yer aldığı bir puanlama anahtarı ile puanlanır.",
+        "textbook_locator": "9edb.pdf, s. 140-141 (PDF: 141-142)"
+      }
+    },
+    {
+      "gap_id": "GAP_T2_Y3",
+      "need_id": "NEED_T2_Y3",
+      "outcome_code": "TDE4.3",
+      "outcome_verbatim": "TDE4.3. Konu zenginliği ve çeşitliliğini sağlayan yazısında kural uygulayabilme",
+      "textbook_activity_ids": [
+        "T2_ACT_12_YAZMA_SIRASI",
+        "T2_ACT_13_YAZMA_SONRASI"
+      ],
+      "textbook_form_ids": [
+        "FORM_IN_T2_YAZMA_CRITERIA"
+      ],
+      "textbook_locators": [
+        "s. 141-142 (PDF: 142-143)"
+      ],
+      "observed_textbook_structure": "Yazım, noktalama ve biçim kurallarının uygulanması, şiir için görsel ve müzik seçimi ve sınıf içi paylaşım yönergeleri s. 141-142'de yer almaktadır.",
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "Yok - Dil kurallarını uygulama ve estetik sunum paylaşımı kitapta mevcuttur.",
+      "why_existing_resources_are_insufficient": "N/A - Ders kitabı yeterlidir.",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "program_locator": "öğretim programı.pdf, s. 74, 75, 79",
+        "program_requirement_verbatim": "Öğretmen değerlendirmesi dereceli puanlama anahtarı ile gerçekleştirilir.",
+        "textbook_locator": "9edb.pdf, s. 141-142 (PDF: 142-143)"
+      }
+    },
+    {
+      "gap_id": "GAP_T2_Y4",
+      "need_id": "NEED_T2_Y4",
+      "outcome_code": "TDE4.4",
+      "outcome_verbatim": "TDE4.4. Yazısına yönelik değerlendirmelerini konu ve diğer yazma unsurları bağlamında yansıtabilme",
+      "textbook_activity_ids": [
+        "T2_ACT_12_YAZMA_SIRASI",
+        "T2_ACT_13_YAZMA_SONRASI"
+      ],
+      "textbook_form_ids": [
+        "FORM_IN_T2_YAZMA_CRITERIA",
+        "FORM_BOB_03_T2_YAZMA_OZ",
+        "FORM_BOB_09_T1_T2_AKRAN",
+        "FORM_BOB_11_GENEL_GOZLEM"
+      ],
+      "textbook_locators": [
+        "s. 141, 142, 304, 310, 312 (PDF: 142, 143, 305, 311, 313)"
+      ],
+      "observed_textbook_structure": "Kitapta s. 141'de FORM_IN_T2_YAZMA_CRITERIA (assessment_criteria_table), s. 142'de yönlendirme ile s. 304'te FORM_BOB_03_T2_YAZMA_OZ (self_assessment_form), s. 310'da FORM_BOB_09_T1_T2_AKRAN (peer_assessment_form) ve s. 312'de FORM_BOB_11_GENEL_GOZLEM (teacher_evaluation_form) bulunmaktadır.",
+      "primary_coverage": "PARTIALLY_COVERED",
+      "need_tags": [
+        "NEEDS_ASSESSMENT_SUPPORT"
+      ],
+      "remaining_gap": "Ders kitabında öğrencinin öz değerlendirmesi (s. 304, FORM_BOB_03_T2_YAZMA_OZ), akran değerlendirmesi (s. 310, FORM_BOB_09_T1_T2_AKRAN), değerlendirme ölçütleri listesi (s. 141, FORM_IN_T2_YAZMA_CRITERIA) ve dönütler sonrası şiirini düzenleme/son şeklini verme süreci (s. 142, T2_ACT_13_YAZMA_SONRASI) mevcuttur. Kalan tek yapısal boşluk: Programın TDE4.4 çıktısında şart koştuğu 'Öğretmen değerlendirmesi dereceli puanlama anahtarı ile gerçekleştirilir' hükmünü karşılayacak; tema, ana duygu, ritim/ahenk, söz varlığı ve yazım-noktalama ölçütlerinde performans düzeyleri ve ayırt edici düzey betimleyicileri içeren Analitik Dereceli Puanlama Anahtarı (analytic_rubric) kitapta yapısal olarak bulunmamaktadır (s. 141'deki tablo yalnızca bir assessment_criteria_table'dır; s. 312'deki form ise genel gözlem formudur).",
+      "why_existing_resources_are_insufficient": "Kitapta öz değerlendirme, akran değerlendirmesi, ölçüt listesi ve revizyon yönlendirmesi mevcut olmasına rağmen, FORM_IN_T2_YAZMA_CRITERIA yapısal olarak bir ölçüt tablosudur (assessment_criteria_table; performans düzeyi ve düzey betimleyicileri içermez). FORM_BOB_11_GENEL_GOZLEM ise genel bir gözlem formudur ve şiir yazma çıktısına özgü analitik rubrik matrisini sağlamaz. Dolayısıyla programın talep ettiği öğretmen analitik dereceli puanlama anahtarı yapısal olarak eksiktir.",
+      "production_decision": "GENERATE_ASSESSMENT_SUPPORT",
+      "priority": "REQUIRED",
+      "provenance": {
+        "program_locator": "öğretim programı.pdf, s. 74, 75, 79",
+        "program_requirement_verbatim": "Öğretmen değerlendirmesi dereceli puanlama anahtarı ile gerçekleştirilir. Puanlama anahtarında tema, ana duygu, ritim ve ahenk ögeleri, söz varlığının bağlama uygun kullanılması vb. ölçütler yer alır. Öğrenciler bu sonuçlardan hareketle şiirlerine son şeklini verirler.",
+        "textbook_locator": "9edb.pdf, s. 141, 142, 304, 310, 312 (PDF: 142, 143, 305, 311, 313)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1755 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_9",
+  "grade": 9,
+  "course_title": "Türk Dili ve Edebiyatı",
+  "academic_year": null,
+  "summary": {
+    "total_unique_resources": 50,
+    "required_count": 7,
+    "recommended_count": 4,
+    "optional_count": 3,
+    "not_needed_count": 36,
+    "production_decisions": {
+      "GENERATE_ASSESSMENT_SUPPORT": 8,
+      "REUSE_TEXTBOOK": 36,
+      "REUSE_WITH_TEACHER_GUIDE": 1,
+      "GENERATE_DIFFERENTIATION": 1,
+      "GENERATE_ENRICHMENT": 4
+    }
+  },
+  "resources": [
+    {
+      "resource_id": "RES_T2_08",
+      "resource_plan_ids": [
+        "RES_T2_08"
+      ],
+      "themes": [
+        "TEMA_02"
+      ],
+      "targeted_outcomes": [
+        "TDE3.4"
+      ],
+      "priority": "REQUIRED",
+      "production_decision": "GENERATE_ASSESSMENT_SUPPORT",
+      "resource_type": "assessment_support",
+      "purpose": "2. Tema Edebiyat Atölyesi (Konuşma / Şiir Dinletisi ve Sunum) için ses-diksiyon, akıcılık, beden dili, içerik kurgusu, zaman yönetimi, Türkçe kullanımı ve etkileyicilik ölçütlerini derecelendiren Analitik Dereceli Puanlama Anahtarı sağlamak.",
+      "exact_remaining_gap": "Ders kitabında s. 129'da yer alan FORM_IN_T2_KONUSMA_CRITERIA yalnızca düzey betimleyicisi olmayan bir ölçüt tablosudur (assessment_criteria_table). Programın s. 74 ve 78'de açıkça şart koştuğu öğretmen dereceli puanlama anahtarı (rubrik) kitapta mevcut değildir.",
+      "official_requirement_verbatim": "Öğretmen değerlendirmesi dereceli puanlama anahtarı ile gerçekleştirilir. Puanlama anahtarında ses ve diksiyon, akıcılık, beden dili, içeriğin kurgusallığı, zaman yönetimi, Türkçenin doğru kullanımı, etkileyicilik vb. ölçütler yer alır.",
+      "source_locators": {
+        "curriculum": "s. 74, 78 (TDE3.4)",
+        "textbook": "s. 129 (FORM_IN_T2_KONUSMA_CRITERIA), s. 312 (FORM_BOB_11_GENEL_GOZLEM)"
+      },
+      "textbook_relationship": "TEACHER_ASSESSMENT_SUPPORT",
+      "reusable_core": "Analitik rubrik 4 düzeyli barem matrisi, genel sunum ve konuşma mekaniği ölçütleri",
+      "theme_specific_fields": "Şiir dinletisi / ses kaydı tahliline dayalı konuşma içeriği, edebî söyleyiş ve tonlama vurgusu",
+      "can_share_structure": true,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T2_ACT_08_KONUSMA_SIRASI",
+        "T2_ACT_09_KONUSMA_SONRASI"
+      ],
+      "expected_student_evidence": "Öğrencinin şiir dinletisi / hazırlıklı konuşma sunumu performansı.",
+      "rationale": "Öğretmenin öğrenci konuşma sunumlarını nesnel, kriter bazlı ve düzey betimleyicili olarak puanlayabilmesi için zorunludur.",
+      "necessity_test": "Üretilmezse programın s. 74 ve 78'deki 'Öğretmen değerlendirmesi dereceli puanlama anahtarı ile gerçekleştirilir' açık şartı ve konuşma becerisinin somut performans düzeyleriyle ölçülmesi karşılanamaz.",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T2_12",
+      "resource_plan_ids": [
+        "RES_T2_12"
+      ],
+      "themes": [
+        "TEMA_02"
+      ],
+      "targeted_outcomes": [
+        "TDE4.4"
+      ],
+      "priority": "REQUIRED",
+      "production_decision": "GENERATE_ASSESSMENT_SUPPORT",
+      "resource_type": "assessment_support",
+      "purpose": "2. Tema Edebiyat Atölyesi (Yazma / Şiir Yazma) için tema, ana duygu, ritim ve ahenk ögeleri, söz varlığının bağlama uygun kullanımı ve dil kuralları ölçütlerini derecelendiren Analitik Dereceli Puanlama Anahtarı sağlamak.",
+      "exact_remaining_gap": "Ders kitabında s. 141'deki FORM_IN_T2_YAZMA_CRITERIA yalnızca bir ölçüt tablosudur; s. 304 ve s. 310'da öz ve akran formları mevcuttur ancak öğretmenin şiir yazma ürününü puanlayacağı dereceli puanlama anahtarı (rubrik) yoktur.",
+      "official_requirement_verbatim": "Performans görevi; tema, ana duygu, ritim ve ahenk ögeleri, söz varlığının bağlama uygun kullanımı vb. ölçütlerin yer aldığı bir puanlama anahtarı ile puanlanır. Öğretmen değerlendirmesi dereceli puanlama anahtarı ile gerçekleştirilir.",
+      "source_locators": {
+        "curriculum": "s. 74, 79 (TDE4.4)",
+        "textbook": "s. 141 (FORM_IN_T2_YAZMA_CRITERIA), s. 304 (FORM_BOB_03_T2_YAZMA_OZ)"
+      },
+      "textbook_relationship": "TEACHER_ASSESSMENT_SUPPORT",
+      "reusable_core": "Analitik rubrik 4 düzeyli barem matrisi, imla-noktalama ve dil kuralları ölçütleri",
+      "theme_specific_fields": "Şiir türüne özgü ritim, ahenk, imge, ana duygu ve çağrışım zenginliği ölçütleri",
+      "can_share_structure": true,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T2_ACT_12_YAZMA_SIRASI",
+        "T2_ACT_13_YAZMA_SONRASI"
+      ],
+      "expected_student_evidence": "Öğrencinin yazdığı özgün şiir metni ve revizyon taslağı.",
+      "rationale": "Öğretmenin öğrencinin şiir yazma performansını çok boyutlu olarak derecelendirmesi için gereklidir.",
+      "necessity_test": "Üretilmezse programın s. 74 ve 79'daki 'Öğretmen değerlendirmesi dereceli puanlama anahtarı ile gerçekleştirilir' hükmü karşılanamaz kalır.",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T3_05_KONUSMA_RUBRIC",
+      "resource_plan_ids": [
+        "RES_T3_05_KONUSMA_RUBRIC"
+      ],
+      "themes": [
+        "TEMA_03"
+      ],
+      "targeted_outcomes": [
+        "TDE3.4"
+      ],
+      "priority": "REQUIRED",
+      "production_decision": "GENERATE_ASSESSMENT_SUPPORT",
+      "resource_type": "assessment_support",
+      "purpose": "3. Tema Edebiyat Atölyesi (Konuşma / Kültür, Dil ve Gelenek Sunumu) için içerik, anlatım, organizasyon, iletişim ve beden dili boyutlarını derecelendiren Analitik Dereceli Puanlama Anahtarı sağlamak.",
+      "exact_remaining_gap": "Ders kitabındaki FORM_IN_T3_KONUSMA_CRITERIA (s. 195) yalnızca bir ölçüt tablosudur; performans düzeyleri ve rubrik hücre betimleyicileri bulunmamaktadır.",
+      "official_requirement_verbatim": "Sunumlar, dereceli puanlama anahtarı ile puanlanır. Puanlama içerik, anlatım, organizasyon ve iletişim vb. ölçütler bağlamında değerlendirilir.",
+      "source_locators": {
+        "curriculum": "s. 82, 86 (TDE3.4)",
+        "textbook": "s. 195 (FORM_IN_T3_KONUSMA_CRITERIA), s. 307 (FORM_BOB_06_T3_KONUSMA_OZ)"
+      },
+      "textbook_relationship": "TEACHER_ASSESSMENT_SUPPORT",
+      "reusable_core": "Analitik rubrik 4 düzeyli barem matrisi, iletişim ve sunum organizasyonu boyutları",
+      "theme_specific_fields": "Kültürel miras, gelenek ve dil unsurlarını aktarma ve tahlil etme ölçütleri",
+      "can_share_structure": true,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T3_ACT_08_KONUSMA_SIRASI",
+        "T3_ACT_09_KONUSMA_SONRASI"
+      ],
+      "expected_student_evidence": "Öğrencinin kültür ve dil temalı hazırlıklı sözlü sunumu.",
+      "rationale": "Öğrenci sunumlarının programın belirlediği içerik, anlatım, organizasyon ve iletişim boyutlarında nesnel ölçülmesi için zorunludur.",
+      "necessity_test": "Üretilmezse programın s. 82 ve 86'daki 'Sunumlar, dereceli puanlama anahtarı ile puanlanır' zorunluluğu karşılanamaz.",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T3_06_YAZMA_RUBRIC",
+      "resource_plan_ids": [
+        "RES_T3_06_YAZMA_RUBRIC"
+      ],
+      "themes": [
+        "TEMA_03"
+      ],
+      "targeted_outcomes": [
+        "TDE4.4"
+      ],
+      "priority": "REQUIRED",
+      "production_decision": "GENERATE_ASSESSMENT_SUPPORT",
+      "resource_type": "assessment_support",
+      "purpose": "3. Tema Edebiyat Atölyesi (Yazma / İnfografik Metin Yazma) için anlam, dil ve görsel ögelerin kullanımı, özgünlük, tutarlılık, doğruluk, yazım ve noktalama boyutlarını derecelendiren Analitik Dereceli Puanlama Anahtarı sağlamak.",
+      "exact_remaining_gap": "Ders kitabındaki FORM_IN_T3_YAZMA_CRITERIA (s. 205) bir ölçüt tablosudur; infografik metin tasarım ve yazımını derecelendiren analitik rubrik yapısı mevcut değildir.",
+      "official_requirement_verbatim": "Öğrencinin yazılı ürünleri dereceli puanlama anahtarı ile puanlanır... Puanlama anahtarında anlam, dilin ve görsel ögelerin kullanımı, özgünlük, tutarlılık, doğruluk, yazım ve noktalama gibi ölçütler yer alabilir.",
+      "source_locators": {
+        "curriculum": "s. 82, 88 (TDE4.4)",
+        "textbook": "s. 205 (FORM_IN_T3_YAZMA_CRITERIA), s. 306 (FORM_BOB_05_T3_YAZMA_OZ)"
+      },
+      "textbook_relationship": "TEACHER_ASSESSMENT_SUPPORT",
+      "reusable_core": "Analitik rubrik 4 düzeyli barem matrisi, yazım-noktalama ve tutarlılık ölçütleri",
+      "theme_specific_fields": "İnfografik görsel-metin uyumu, grafik düzen, veri aktarımı ve çok modlu metin dengesi",
+      "can_share_structure": true,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T3_ACT_12_YAZMA_SIRASI",
+        "T3_ACT_13_YAZMA_SONRASI"
+      ],
+      "expected_student_evidence": "Öğrencinin hazırladığı infografik metin ürünü ve revizyon taslağı.",
+      "rationale": "Çok modlu (görsel + metin) infografik yazma ürününün çok boyutlu kriterlerle değerlendirilmesi için gereklidir.",
+      "necessity_test": "Üretilmezse programın s. 82 ve 88'deki 'Öğrencinin yazılı ürünleri dereceli puanlama anahtarı ile puanlanır' şartı karşılanamaz.",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T4_SHARED_KONUSMA_RUBRIC",
+      "resource_plan_ids": [
+        "RES_T4_SHARED_KONUSMA_RUBRIC"
+      ],
+      "themes": [
+        "TEMA_04"
+      ],
+      "targeted_outcomes": [
+        "TDE3.2",
+        "TDE3.3"
+      ],
+      "priority": "REQUIRED",
+      "production_decision": "GENERATE_ASSESSMENT_SUPPORT",
+      "resource_type": "assessment_support",
+      "purpose": "4. Tema Edebiyat Atölyesi (Konuşma / Sosyal Medya Dili ve Edebî Dil Sunumu) için içeriğe uygunluk, özgünlük, sunum becerisi, görsel ögeleri kullanma, zaman ve mekân kullanımı, beden dili ve jest-mimik boyutlarını derecelendiren Analitik Dereceli Puanlama Anahtarı sağlamak.",
+      "exact_remaining_gap": "Ders kitabında s. 279'da yer alan FORM_IN_T4_KONUSMA_CRITERIA yalnızca bir ölçüt tablosudur; performans düzeyleri ve puanlama baremi içermemektedir.",
+      "official_requirement_verbatim": "Sunum performansı, dereceli puanlama anahtarı ile puanlanır. Puanlama anahtarında içeriğe uygunluk, özgünlük, sunum becerisi, görsel ögeleri kullanma, zaman ve mekân kullanımı, beden dili ile jest ve mimik kullanımı gibi ölçütler yer alır.",
+      "source_locators": {
+        "curriculum": "s. 90, 95 (TDE3.2, TDE3.3)",
+        "textbook": "s. 279 (FORM_IN_T4_KONUSMA_CRITERIA), s. 309 (FORM_BOB_08_T4_KONUSMA_OZ)"
+      },
+      "textbook_relationship": "TEACHER_ASSESSMENT_SUPPORT",
+      "reusable_core": "Analitik rubrik 4 düzeyli barem matrisi, sunum becerisi ve beden dili ölçütleri",
+      "theme_specific_fields": "Sosyal medya dili ile edebî dilin özelliklerini karşılaştırma, dijital dil eleştirisi ve dil bilinci",
+      "can_share_structure": true,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T4_ACT_08_KONUSMA_SIRASI",
+        "T4_ACT_09_KONUSMA_SONRASI"
+      ],
+      "expected_student_evidence": "Öğrencinin sosyal medya dili ve edebî dil karşılaştırmalı sözlü sunum performansı.",
+      "rationale": "Öğrencinin sunum performansını programın belirttiği 7 temel ölçütte derecelendirmek için gereklidir.",
+      "necessity_test": "Üretilmezse programın s. 90 ve 95'teki 'Sunum performansı, dereceli puanlama anahtarı ile puanlanır' gereksinimi karşılanamaz.",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T4_YAZMA_SUREC_KONTROL_LISTESI",
+      "resource_plan_ids": [
+        "RES_T4_YAZMA_SUREC_KONTROL_LISTESI"
+      ],
+      "themes": [
+        "TEMA_04"
+      ],
+      "targeted_outcomes": [
+        "TDE4.1"
+      ],
+      "priority": "REQUIRED",
+      "production_decision": "GENERATE_ASSESSMENT_SUPPORT",
+      "resource_type": "assessment_support",
+      "purpose": "4. Tema Edebiyat Atölyesi (Yazma / Otobiyografi Yazma) sürecinin tüm aşamalarının (hazırlık, amaç belirleme, planlama, taslak oluşturma, öz düzenleme ve düzeltme) adım adım izlenmesi ve yönetilmesi için Yazma Süreci Kontrol Listesi sağlamak.",
+      "exact_remaining_gap": "Program TDE4.1'de açıkça 'Yazma sürecinin tüm aşamalarının başarılı bir şekilde uygulanabilmesi için kontrol listesi hazırlanır' hükmünü koymuştur. Kitapta okuma kontrol noktaları varken yazma sürecine ait ikili (Var/Yok - Evet/Hayır) kontrol listesi bulunmamaktadır.",
+      "official_requirement_verbatim": "Yazma sürecinin tüm aşamalarının başarılı bir şekilde uygulanabilmesi için kontrol listesi hazırlanır.",
+      "source_locators": {
+        "curriculum": "s. 91, 96 (TDE4.1)",
+        "textbook": "s. 292-294 (T4_SEC_05_YAZMA_ATOLYESI)"
+      },
+      "textbook_relationship": "FILLS_PROGRAM_GAP",
+      "reusable_core": "Süreç kontrol listesi formatı (ikili işaretleme, aşamalı süreç takibi)",
+      "theme_specific_fields": "Otobiyografi yazma aşamaları: kronoloji belirleme, tanık/belge seçimi, içtenlik ve bakış açısı planlama",
+      "can_share_structure": true,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T4_ACT_12_YAZMA_SIRASI"
+      ],
+      "expected_student_evidence": "Öğrencinin yazma sürecinde adım adım işaretlediği kontrol listesi ve taslak gelişim kaydı.",
+      "rationale": "Öğrencinin otobiyografi yazımında bilişsel süreç adımlarını öz düzenlemeyle tamamlaması için zorunludur.",
+      "necessity_test": "Üretilmezse programın s. 91 ve 96'daki 'Yazma sürecinin tüm aşamalarının başarılı bir şekilde uygulanabilmesi için kontrol listesi hazırlanır' resmî hükmü karşılanmamış kalır.",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T4_SHARED_YAZMA_RUBRIC",
+      "resource_plan_ids": [
+        "RES_T4_SHARED_YAZMA_RUBRIC"
+      ],
+      "themes": [
+        "TEMA_04"
+      ],
+      "targeted_outcomes": [
+        "TDE4.2",
+        "TDE4.3"
+      ],
+      "priority": "REQUIRED",
+      "production_decision": "GENERATE_ASSESSMENT_SUPPORT",
+      "resource_type": "assessment_support",
+      "purpose": "4. Tema Edebiyat Atölyesi (Yazma / Otobiyografi Yazma) için bağlama uygunluk, dil ve anlatım özelliği, etkileyicilik, gerçeklik, tutarlılık, özgünlük, bağdaşıklık, imla-noktalama ölçütlerini derecelendiren Analitik Dereceli Puanlama Anahtarı sağlamak.",
+      "exact_remaining_gap": "Ders kitabında s. 294'te yer alan FORM_IN_T4_YAZMA_CRITERIA yalnızca bir ölçüt tablosudur; performans düzeyleri ve puanlama baremi içermez.",
+      "official_requirement_verbatim": "Değerlendirmede dereceli puanlama anahtarı kullanılır. Puanlama anahtarında yazılı anlatımlar; bağlama uygunluk, dil ve anlatım özelliği, etkileyicilik, gerçeklik, tutarlılık, özgünlük gibi ölçütler bağlamında değerlendirilir.",
+      "source_locators": {
+        "curriculum": "s. 91, 96 (TDE4.2, TDE4.3)",
+        "textbook": "s. 294 (FORM_IN_T4_YAZMA_CRITERIA), s. 308 (FORM_BOB_07_T4_YAZMA_OZ)"
+      },
+      "textbook_relationship": "TEACHER_ASSESSMENT_SUPPORT",
+      "reusable_core": "Analitik rubrik 4 düzeyli barem matrisi, dil ve anlatım kuralları ölçütleri",
+      "theme_specific_fields": "Otobiyografide gerçeklik, içtenlik, öznel bakış açısı ve etkileyicilik ölçütleri",
+      "can_share_structure": true,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T4_ACT_12_YAZMA_SIRASI",
+        "T4_ACT_13_YAZMA_SONRASI"
+      ],
+      "expected_student_evidence": "Öğrencinin kaleme aldığı tamamlanmış otobiyografi metni.",
+      "rationale": "Öğretmenin öğrencinin otobiyografi ürününü nesnel ve düzey betimleyicileriyle puanlaması için zorunludur.",
+      "necessity_test": "Üretilmezse programın s. 91 ve 96'daki 'Değerlendirmede dereceli puanlama anahtarı kullanılır' şartı karşılanamaz.",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T2_01",
+      "resource_plan_ids": [
+        "RES_T2_01"
+      ],
+      "themes": [
+        "TEMA_02"
+      ],
+      "targeted_outcomes": [
+        "TDE1.1"
+      ],
+      "priority": "RECOMMENDED",
+      "production_decision": "REUSE_WITH_TEACHER_GUIDE",
+      "resource_type": "teacher_implementation_support",
+      "purpose": "Mihriban / Karakoç şiiri ses kaydı dinleme/izleme sürecinde öğretmene rehberlik edecek dinleme yönergesi ve süreç takip notu.",
+      "exact_remaining_gap": "Kitap etkinliği mevcuttur; ancak ses kaydı dinleme stratejilerinin yönetimi için öğretmen uygulama rehberi öğrenme kalitesini artırır.",
+      "official_requirement_verbatim": "Öğrencilerin seçim yapmaları ve dinleme/izleme sürecinde ilişkiyi sürdürme düzeyleri belirlenebilir.",
+      "source_locators": {
+        "curriculum": "s. 73",
+        "textbook": "s. 131-133"
+      },
+      "textbook_relationship": "ADAPTS_EXISTING_ACTIVITY",
+      "reusable_core": "Dinleme izleme öğretmen notu formatı",
+      "theme_specific_fields": "Abdurrahim Karakoç ve Mihriban şiiri ses kaydı yönergesi",
+      "can_share_structure": true,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T2_ACT_10_DINLEME_ONCESI_VE_SIRASI"
+      ],
+      "expected_student_evidence": "Dinleme sırası notları.",
+      "rationale": "Öğretmenin dinleme etkinliğini daha etkili yönetmesini sağlar.",
+      "necessity_test": "N/A (RECOMMENDED)",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T2_13",
+      "resource_plan_ids": [
+        "RES_T2_13"
+      ],
+      "themes": [
+        "TEMA_02"
+      ],
+      "targeted_outcomes": [
+        "TDE2.2",
+        "TDE4.2"
+      ],
+      "priority": "RECOMMENDED",
+      "production_decision": "GENERATE_DIFFERENTIATION",
+      "resource_type": "differentiation_support",
+      "purpose": "Şiir ve hikâye tahlilinde zorlanan öğrenciler için kavram iskeleleri ve söz varlığı eşleştirme kartları.",
+      "exact_remaining_gap": "Ders kitabındaki standart etkinlikleri destekleyici görsel/kavramsal iskele desteği.",
+      "official_requirement_verbatim": "Farklılaştırma: Destekleme ve zenginleştirme etkinlikleri.",
+      "source_locators": {
+        "curriculum": "s. 79",
+        "textbook": "s. 80-98"
+      },
+      "textbook_relationship": "COMPLEMENTS_TEXTBOOK",
+      "reusable_core": "Farklılaştırma iskele şablonu",
+      "theme_specific_fields": "Tarık Buğra ve Halide Nusret metinlerindeki anahtar kavramlar",
+      "can_share_structure": true,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T2_ACT_03_OKUMA_SONRASI_HIKAYE_TAHLIL"
+      ],
+      "expected_student_evidence": "Doldurulmuş kavram eşleştirme kartları.",
+      "rationale": "Öğrenme güçlüğü çeken öğrencilere içerik ve süreç desteği sunar.",
+      "necessity_test": "N/A (RECOMMENDED)",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T2_14",
+      "resource_plan_ids": [
+        "RES_T2_14"
+      ],
+      "themes": [
+        "TEMA_02"
+      ],
+      "targeted_outcomes": [
+        "TDE2.2",
+        "TDE4.2"
+      ],
+      "priority": "RECOMMENDED",
+      "production_decision": "GENERATE_ENRICHMENT",
+      "resource_type": "enrichment",
+      "purpose": "İleri düzey öğrenciler için Tarık Buğra ve Halide Nusret Zorlutuna'nın metinlerini dönem zihniyeti açısından karşılaştıran derinlemesine tahlil matrisi.",
+      "exact_remaining_gap": "Program s. 79'daki zenginleştirme hedeflerini somutlaştıran karşılaştırmalı okuma matrisi.",
+      "official_requirement_verbatim": "Farklılaştırma: Zenginleştirme.",
+      "source_locators": {
+        "curriculum": "s. 79",
+        "textbook": "s. 90-110"
+      },
+      "textbook_relationship": "COMPLEMENTS_TEXTBOOK",
+      "reusable_core": "Zenginleştirme tahlil matrisi",
+      "theme_specific_fields": "Bir Kavak ve İnsanlar ile Bir Devrin Romanı zihniyet karşılaştırması",
+      "can_share_structure": true,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T2_ACT_06_OKUMA_SONRASI_ANI_TAHLIL"
+      ],
+      "expected_student_evidence": "Karşılaştırmalı tahlil raporu.",
+      "rationale": "İleri düzey öğrencilerin eleştirel düşünme becerilerini geliştirir.",
+      "necessity_test": "N/A (RECOMMENDED)",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T4_REC_EXIT_TICKET",
+      "resource_plan_ids": [
+        "RES_T4_REC_EXIT_TICKET"
+      ],
+      "themes": [
+        "TEMA_04"
+      ],
+      "targeted_outcomes": [
+        "TDE2.2",
+        "TDE1.2"
+      ],
+      "priority": "RECOMMENDED",
+      "production_decision": "GENERATE_ASSESSMENT_SUPPORT",
+      "resource_type": "assessment_support",
+      "purpose": "Tema sonunda öğrencilerin edebî dil ile günlük dil arasındaki farka odaklanarak okunan metinlerde dilin nasıl kullanıldığıyla ilgili çıkarımda bulunmalarını sağlayan çıkış kartı.",
+      "exact_remaining_gap": "Program s. 97'de önerilen çıkış kartı formatı kitapta yer almamaktadır.",
+      "official_requirement_verbatim": "Öğrencilerden çıkış kartı doldurmaları istenebilir.",
+      "source_locators": {
+        "curriculum": "s. 97",
+        "textbook": "s. 296-301"
+      },
+      "textbook_relationship": "COMPLEMENTS_TEXTBOOK",
+      "reusable_core": "Çıkış kartı şablonu (3-2-1 yansıtma)",
+      "theme_specific_fields": "Edebî dil ve günlük dil ayrımı, üslup yansıtmaları",
+      "can_share_structure": true,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T4_ACT_03_OKUMA_SONRASI_ROMAN_KARSILASTIRMA"
+      ],
+      "expected_student_evidence": "Doldurulmuş çıkış kartı.",
+      "rationale": "Öğrenme sürecinin hızlı biçimlendirici değerlendirmesini sağlar.",
+      "necessity_test": "N/A (RECOMMENDED)",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T2_15",
+      "resource_plan_ids": [
+        "RES_T2_15"
+      ],
+      "themes": [
+        "TEMA_02"
+      ],
+      "targeted_outcomes": [
+        "TDE1.2",
+        "TDE4.2"
+      ],
+      "priority": "OPTIONAL",
+      "production_decision": "GENERATE_ENRICHMENT",
+      "resource_type": "enrichment",
+      "purpose": "Ses kaydından hareketle dijital ses manzarası (soundscape) / podcast kurgulama yaratıcı görevi.",
+      "exact_remaining_gap": "Seçmeli zenginleştirme etkinliği.",
+      "official_requirement_verbatim": "Zenginleştirme: Dijital içerik ve çoklu ortam üretimi.",
+      "source_locators": {
+        "curriculum": "s. 79",
+        "textbook": "s. 131-138"
+      },
+      "textbook_relationship": "COMPLEMENTS_TEXTBOOK",
+      "reusable_core": "Dijital medya görev şablonu",
+      "theme_specific_fields": "Şiir ses kaydı podcast tasarımı",
+      "can_share_structure": true,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T2_ACT_11_DINLEME_SONRASI_TAHLIL"
+      ],
+      "expected_student_evidence": "Dijital ses kurgu taslağı.",
+      "rationale": "Dijital becerileri ve edebî üreticiliği destekler.",
+      "necessity_test": "N/A (OPTIONAL)",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T2_16",
+      "resource_plan_ids": [
+        "RES_T2_16"
+      ],
+      "themes": [
+        "TEMA_02"
+      ],
+      "targeted_outcomes": [
+        "TDE2.2",
+        "TDE4.3"
+      ],
+      "priority": "OPTIONAL",
+      "production_decision": "GENERATE_ENRICHMENT",
+      "resource_type": "enrichment",
+      "purpose": "Hikâye ve anı türlerinin sınırlarını araştıran yaratıcı metinlerarası yazma atölyesi.",
+      "exact_remaining_gap": "Seçmeli ileri düzey yazma görevi.",
+      "official_requirement_verbatim": "Zenginleştirme: Metinlerarasılık ve yaratıcı yazma.",
+      "source_locators": {
+        "curriculum": "s. 79",
+        "textbook": "s. 139-142"
+      },
+      "textbook_relationship": "COMPLEMENTS_TEXTBOOK",
+      "reusable_core": "Yaratıcı yazma yönergesi",
+      "theme_specific_fields": "Olay hikâyesi ile anı metnini harmanlama",
+      "can_share_structure": true,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T2_ACT_12_YAZMA_SIRASI"
+      ],
+      "expected_student_evidence": "Hibrit edebî metin taslağı.",
+      "rationale": "Öğrencilerin türler arası geçiş becerisini geliştirir.",
+      "necessity_test": "N/A (OPTIONAL)",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T4_OPT_ENRICHMENT",
+      "resource_plan_ids": [
+        "RES_T4_OPT_ENRICHMENT"
+      ],
+      "themes": [
+        "TEMA_04"
+      ],
+      "targeted_outcomes": [
+        "TDE4.2",
+        "TDE2.3"
+      ],
+      "priority": "OPTIONAL",
+      "production_decision": "GENERATE_ENRICHMENT",
+      "resource_type": "enrichment",
+      "purpose": "Öğrencilerin tahlil edilen romanın kurgusundan hareketle yeni bir olay örgüsü oluşturması veya kendi otobiyografilerini dijital film şeridi / storyboard formatında zenginleştirmesi görevi.",
+      "exact_remaining_gap": "Program s. 97'deki zenginleştirme önerisi doğrultusunda alternatif yaratıcı üretim olanağı.",
+      "official_requirement_verbatim": "Zenginleştirme: Görsel ve dijital hikâyeleştirme.",
+      "source_locators": {
+        "curriculum": "s. 97",
+        "textbook": "s. 292-295"
+      },
+      "textbook_relationship": "COMPLEMENTS_TEXTBOOK",
+      "reusable_core": "Storyboard tasarım şablonu",
+      "theme_specific_fields": "Çalıkuşu roman sahnesi veya otobiyografik storyboard",
+      "can_share_structure": true,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T4_ACT_12_YAZMA_SIRASI"
+      ],
+      "expected_student_evidence": "Dijital film şeridi / storyboard çizim ve metin taslağı.",
+      "rationale": "İleri düzey öğrenciler için görsel-edebî sentez sağlar.",
+      "necessity_test": "N/A (OPTIONAL)",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "PLAN_T1_01",
+      "resource_plan_ids": [
+        "PLAN_T1_01"
+      ],
+      "themes": [
+        "TEMA_01"
+      ],
+      "targeted_outcomes": [
+        "TDE1.1"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "learning_input_or_representation",
+      "purpose": "Mülakat videosu izleme ve not alma.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 65",
+        "textbook": "s. 57-58"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap etkinliği",
+      "theme_specific_fields": "Mülakat",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T1_ACT_11_DINLEME_ONCESI_VE_SIRASI"
+      ],
+      "expected_student_evidence": "İzleme notları",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "PLAN_T1_02",
+      "resource_plan_ids": [
+        "PLAN_T1_02"
+      ],
+      "themes": [
+        "TEMA_01"
+      ],
+      "targeted_outcomes": [
+        "TDE1.2"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "guided_practice",
+      "purpose": "Mülakat tahlili ve karşılaştırma tablosu.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 65",
+        "textbook": "s. 59-62"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap etkinliği",
+      "theme_specific_fields": "Karşılaştırma tablosu",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T1_ACT_12_DINLEME_SONRASI_KARSILASTIRMA"
+      ],
+      "expected_student_evidence": "Tahlil yanıtları",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "PLAN_T1_03",
+      "resource_plan_ids": [
+        "PLAN_T1_03"
+      ],
+      "themes": [
+        "TEMA_01"
+      ],
+      "targeted_outcomes": [
+        "TDE2.1"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "learning_input_or_representation",
+      "purpose": "Şiir ve deneme okuma hazırlığı.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 66",
+        "textbook": "s. 16-17, 39-40"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap etkinliği",
+      "theme_specific_fields": "San'at şiiri, Picasso denemesi",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T1_ACT_01_OKUMA_ONCESI_SIIR",
+        "T1_ACT_07_OKUMA_ONCESI_DENEME"
+      ],
+      "expected_student_evidence": "Hazırlık notları",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "PLAN_T1_04",
+      "resource_plan_ids": [
+        "PLAN_T1_04"
+      ],
+      "themes": [
+        "TEMA_01"
+      ],
+      "targeted_outcomes": [
+        "TDE2.2"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "guided_practice",
+      "purpose": "Şiir ve deneme anlama, çözümleme, ses bilgisi.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 66",
+        "textbook": "s. 18-37, 42-50"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap etkinliği",
+      "theme_specific_fields": "Zihin haritası, tahlil soruları",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T1_ACT_03_OKUMA_SONRASI_SIIR_ANLAMA",
+        "T1_ACT_08_OKUMA_SONRASI_DENEME_TAHLIL"
+      ],
+      "expected_student_evidence": "Tahlil tabloları",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "PLAN_T1_05",
+      "resource_plan_ids": [
+        "PLAN_T1_05"
+      ],
+      "themes": [
+        "TEMA_01"
+      ],
+      "targeted_outcomes": [
+        "TDE3.1"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "student_production_task",
+      "purpose": "Altı şapka konuşma görevi hazırlığı.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 67",
+        "textbook": "s. 63-65"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap etkinliği",
+      "theme_specific_fields": "Altı şapka tekniği",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T1_ACT_13_KONUSMA_SIRASI"
+      ],
+      "expected_student_evidence": "Konuşma planı",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "PLAN_T1_06",
+      "resource_plan_ids": [
+        "PLAN_T1_06"
+      ],
+      "themes": [
+        "TEMA_01"
+      ],
+      "targeted_outcomes": [
+        "TDE3.2"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "student_production_task",
+      "purpose": "Konuşma içeriği oluşturma.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 67",
+        "textbook": "s. 63-65"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap etkinliği",
+      "theme_specific_fields": "Rol bazlı içerik",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T1_ACT_13_KONUSMA_SIRASI"
+      ],
+      "expected_student_evidence": "Konuşma notları",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "PLAN_T1_07",
+      "resource_plan_ids": [
+        "PLAN_T1_07"
+      ],
+      "themes": [
+        "TEMA_01"
+      ],
+      "targeted_outcomes": [
+        "TDE3.3"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "student_production_task",
+      "purpose": "Konuşma sunumunu gerçekleştirme.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 67",
+        "textbook": "s. 63-66"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap etkinliği",
+      "theme_specific_fields": "Sözlü sunum",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T1_ACT_13_KONUSMA_SIRASI"
+      ],
+      "expected_student_evidence": "Sunum performansı",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "PLAN_T1_08",
+      "resource_plan_ids": [
+        "PLAN_T1_08"
+      ],
+      "themes": [
+        "TEMA_01"
+      ],
+      "targeted_outcomes": [
+        "TDE3.4"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "feedback_support",
+      "purpose": "Konuşma öz/akran değerlendirmesi.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 67",
+        "textbook": "s. 66, 303, 310, 312"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap formları",
+      "theme_specific_fields": "FORM_BOB_02, FORM_BOB_09",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T1_ACT_14_KONUSMA_SONRASI"
+      ],
+      "expected_student_evidence": "Doldurulmuş formlar",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "PLAN_T1_09",
+      "resource_plan_ids": [
+        "PLAN_T1_09"
+      ],
+      "themes": [
+        "TEMA_01"
+      ],
+      "targeted_outcomes": [
+        "TDE4.1"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "student_production_task",
+      "purpose": "Betimleyici paragraf yazma hazırlığı.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 68",
+        "textbook": "s. 51-54"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap etkinliği",
+      "theme_specific_fields": "Paragraf planı",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T1_ACT_09_YAZMA_SIRASI"
+      ],
+      "expected_student_evidence": "Yazma planı",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "PLAN_T1_10",
+      "resource_plan_ids": [
+        "PLAN_T1_10"
+      ],
+      "themes": [
+        "TEMA_01"
+      ],
+      "targeted_outcomes": [
+        "TDE4.2"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "student_production_task",
+      "purpose": "Betimleyici paragraf taslağı oluşturma.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 68",
+        "textbook": "s. 52-54"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap etkinliği",
+      "theme_specific_fields": "Betimleme metni",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T1_ACT_09_YAZMA_SIRASI"
+      ],
+      "expected_student_evidence": "Paragraf metni",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "PLAN_T1_11",
+      "resource_plan_ids": [
+        "PLAN_T1_11"
+      ],
+      "themes": [
+        "TEMA_01"
+      ],
+      "targeted_outcomes": [
+        "TDE4.3"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "guided_practice",
+      "purpose": "Paragraf metnini düzeltme ve kuralları uygulama.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 68",
+        "textbook": "s. 53-54"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap etkinliği",
+      "theme_specific_fields": "İmla noktalama düzeltmesi",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T1_ACT_09_YAZMA_SIRASI"
+      ],
+      "expected_student_evidence": "Düzeltilmiş metin",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "PLAN_T1_12",
+      "resource_plan_ids": [
+        "PLAN_T1_12"
+      ],
+      "themes": [
+        "TEMA_01"
+      ],
+      "targeted_outcomes": [
+        "TDE4.4"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "feedback_support",
+      "purpose": "Yazma öz/akran değerlendirmesi ve paylaşım.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 68",
+        "textbook": "s. 55, 302, 310, 312"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap formları",
+      "theme_specific_fields": "FORM_BOB_01, FORM_BOB_09",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T1_ACT_10_YAZMA_SONRASI"
+      ],
+      "expected_student_evidence": "Doldurulmuş formlar ve son ürün",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T2_02",
+      "resource_plan_ids": [
+        "RES_T2_02"
+      ],
+      "themes": [
+        "TEMA_02"
+      ],
+      "targeted_outcomes": [
+        "TDE1.2"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "guided_practice",
+      "purpose": "Şiir ses kaydı tahlili.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 73",
+        "textbook": "s. 134-138"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap etkinliği",
+      "theme_specific_fields": "Mihriban şiir tahlili",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T2_ACT_11_DINLEME_SONRASI_TAHLIL"
+      ],
+      "expected_student_evidence": "Tahlil yanıtları",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T2_03",
+      "resource_plan_ids": [
+        "RES_T2_03"
+      ],
+      "themes": [
+        "TEMA_02"
+      ],
+      "targeted_outcomes": [
+        "TDE2.1"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "learning_input_or_representation",
+      "purpose": "Hikâye ve anı okuma hazırlığı.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 73",
+        "textbook": "s. 75-76, 99-100"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap etkinliği",
+      "theme_specific_fields": "Tarık Buğra, Halide Nusret hazırlık",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T2_ACT_01_OKUMA_ONCESI_HIKAYE",
+        "T2_ACT_05_OKUMA_ONCESI_ANI"
+      ],
+      "expected_student_evidence": "Hazırlık notları",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T2_04",
+      "resource_plan_ids": [
+        "RES_T2_04"
+      ],
+      "themes": [
+        "TEMA_02"
+      ],
+      "targeted_outcomes": [
+        "TDE2.2"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "guided_practice",
+      "purpose": "Hikâye ve anı anlama, çözümleme, dil bilgisi.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 73",
+        "textbook": "s. 80-98, 104-124"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap etkinliği",
+      "theme_specific_fields": "Metin tahlili soruları",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T2_ACT_03_OKUMA_SONRASI_HIKAYE_TAHLIL",
+        "T2_ACT_06_OKUMA_SONRASI_ANI_TAHLIL"
+      ],
+      "expected_student_evidence": "Tahlil soruları cevapları",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T2_05",
+      "resource_plan_ids": [
+        "RES_T2_05"
+      ],
+      "themes": [
+        "TEMA_02"
+      ],
+      "targeted_outcomes": [
+        "TDE3.1"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "student_production_task",
+      "purpose": "Konuşma görevi hazırlığı ve planlama.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 74",
+        "textbook": "s. 125-128"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap etkinliği",
+      "theme_specific_fields": "Şiir dinletisi planı",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T2_ACT_08_KONUSMA_SIRASI"
+      ],
+      "expected_student_evidence": "Konuşma taslağı",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T2_06",
+      "resource_plan_ids": [
+        "RES_T2_06"
+      ],
+      "themes": [
+        "TEMA_02"
+      ],
+      "targeted_outcomes": [
+        "TDE3.2"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "student_production_task",
+      "purpose": "Konuşma içeriği oluşturma.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 74",
+        "textbook": "s. 126-128"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap etkinliği",
+      "theme_specific_fields": "Şiir sunum içeriği",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T2_ACT_08_KONUSMA_SIRASI"
+      ],
+      "expected_student_evidence": "Sunum notları",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T2_07",
+      "resource_plan_ids": [
+        "RES_T2_07"
+      ],
+      "themes": [
+        "TEMA_02"
+      ],
+      "targeted_outcomes": [
+        "TDE3.3"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "student_production_task",
+      "purpose": "Konuşma sunumunu gerçekleştirme.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 74",
+        "textbook": "s. 128-130"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap etkinliği",
+      "theme_specific_fields": "Sözlü performans",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T2_ACT_08_KONUSMA_SIRASI"
+      ],
+      "expected_student_evidence": "Sunum performansı",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T2_09",
+      "resource_plan_ids": [
+        "RES_T2_09"
+      ],
+      "themes": [
+        "TEMA_02"
+      ],
+      "targeted_outcomes": [
+        "TDE4.1"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "student_production_task",
+      "purpose": "Şiir yazma hazırlığı ve planlama.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 74",
+        "textbook": "s. 139-140"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap etkinliği",
+      "theme_specific_fields": "Şiir yazma hazırlığı",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T2_ACT_12_YAZMA_SIRASI"
+      ],
+      "expected_student_evidence": "Şiir planı",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T2_10",
+      "resource_plan_ids": [
+        "RES_T2_10"
+      ],
+      "themes": [
+        "TEMA_02"
+      ],
+      "targeted_outcomes": [
+        "TDE4.2"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "student_production_task",
+      "purpose": "Şiir taslağı oluşturma.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 74",
+        "textbook": "s. 140-141"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap etkinliği",
+      "theme_specific_fields": "Şiir taslağı",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T2_ACT_12_YAZMA_SIRASI"
+      ],
+      "expected_student_evidence": "Şiir metni",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T2_11",
+      "resource_plan_ids": [
+        "RES_T2_11"
+      ],
+      "themes": [
+        "TEMA_02"
+      ],
+      "targeted_outcomes": [
+        "TDE4.3"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "student_production_task",
+      "purpose": "Şiirde dil kurallarını uygulama ve ahenk kontrolü.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 74",
+        "textbook": "s. 141-142"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap etkinliği",
+      "theme_specific_fields": "Şiir düzeltme",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T2_ACT_12_YAZMA_SIRASI"
+      ],
+      "expected_student_evidence": "Düzeltilmiş şiir",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T3_01_DINLEME_IZLEME",
+      "resource_plan_ids": [
+        "RES_T3_01_DINLEME_IZLEME"
+      ],
+      "themes": [
+        "TEMA_03"
+      ],
+      "targeted_outcomes": [
+        "TDE1.1",
+        "TDE1.2",
+        "TDE1.3"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "learning_input_or_representation",
+      "purpose": "Nevruz belgeseli izleme, not alma ve tahlil.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 80-81",
+        "textbook": "s. 198-202"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap etkinliği",
+      "theme_specific_fields": "Nevruz belgeseli",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T3_ACT_10_DINLEME_ONCESI_VE_SIRASI",
+        "T3_ACT_11_DINLEME_SONRASI_TAHLIL"
+      ],
+      "expected_student_evidence": "Belgesel tahlil yanıtları",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T3_02_OKUMA_METINLERI_VE_TAHLIL",
+      "resource_plan_ids": [
+        "RES_T3_02_OKUMA_METINLERI_VE_TAHLIL"
+      ],
+      "themes": [
+        "TEMA_03"
+      ],
+      "targeted_outcomes": [
+        "TDE2.1",
+        "TDE2.2",
+        "TDE2.3"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "learning_input_or_representation",
+      "purpose": "Hikâye ve gezi yazısı okuma, anlama ve yapı analizi.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 81-82",
+        "textbook": "s. 153-193"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap etkinliği",
+      "theme_specific_fields": "Eskici, Bizim Akdeniz'den",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T3_ACT_01_OKUMA_ONCESI_HIKAYE",
+        "T3_ACT_03_OKUMA_SONRASI_HIKAYE_TAHLIL",
+        "T3_ACT_06_OKUMA_SONRASI_GEZI_TAHLIL"
+      ],
+      "expected_student_evidence": "Okuma tahlil soruları yanıtları",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T3_03_KONUSMA_ATOLYESI",
+      "resource_plan_ids": [
+        "RES_T3_03_KONUSMA_ATOLYESI"
+      ],
+      "themes": [
+        "TEMA_03"
+      ],
+      "targeted_outcomes": [
+        "TDE3.1",
+        "TDE3.2",
+        "TDE3.3"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "student_production_task",
+      "purpose": "Kültür ve gelenek üzerine sunum görevi hazırlığı ve icrası.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 82",
+        "textbook": "s. 193-197"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap etkinliği",
+      "theme_specific_fields": "Kültür sunumu hazırlığı",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T3_ACT_08_KONUSMA_SIRASI"
+      ],
+      "expected_student_evidence": "Sunum taslağı ve icrası",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T3_04_YAZMA_ATOLYESI",
+      "resource_plan_ids": [
+        "RES_T3_04_YAZMA_ATOLYESI"
+      ],
+      "themes": [
+        "TEMA_03"
+      ],
+      "targeted_outcomes": [
+        "TDE4.1",
+        "TDE4.2",
+        "TDE4.3"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "student_production_task",
+      "purpose": "İnfografik metin hazırlığı, görsel seçimi ve taslak oluşturma.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 82",
+        "textbook": "s. 203-206"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap etkinliği",
+      "theme_specific_fields": "İnfografik metin taslağı",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T3_ACT_12_YAZMA_SIRASI"
+      ],
+      "expected_student_evidence": "İnfografik taslak çalışması",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T4_D1",
+      "resource_plan_ids": [
+        "RES_T4_D1"
+      ],
+      "themes": [
+        "TEMA_04"
+      ],
+      "targeted_outcomes": [
+        "TDE1.1"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "learning_input_or_representation",
+      "purpose": "Âşık Veysel belgeseli izleme hazırlığı ve not alma.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 89",
+        "textbook": "s. 281-283"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap etkinliği",
+      "theme_specific_fields": "Âşık Veysel belgeseli",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T4_ACT_10_DINLEME_ONCESI_VE_SIRASI"
+      ],
+      "expected_student_evidence": "İzleme notları ve form",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T4_D2",
+      "resource_plan_ids": [
+        "RES_T4_D2"
+      ],
+      "themes": [
+        "TEMA_04"
+      ],
+      "targeted_outcomes": [
+        "TDE1.2"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "guided_practice",
+      "purpose": "Otobiyografiden hareketle tür özellikleri ve anlam çıkarma.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 89",
+        "textbook": "s. 283-291"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap etkinliği",
+      "theme_specific_fields": "Belgesel tahlil soruları",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T4_ACT_11_DINLEME_SONRASI_TAHLIL"
+      ],
+      "expected_student_evidence": "Tahlil yanıtları",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T4_D3",
+      "resource_plan_ids": [
+        "RES_T4_D3"
+      ],
+      "themes": [
+        "TEMA_04"
+      ],
+      "targeted_outcomes": [
+        "TDE1.3"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "guided_practice",
+      "purpose": "Anlatım biçimleri ve teknikleri çözümleme.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 89",
+        "textbook": "s. 283-291"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap etkinliği",
+      "theme_specific_fields": "Üslup analizi",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T4_ACT_11_DINLEME_SONRASI_TAHLIL"
+      ],
+      "expected_student_evidence": "Çözümleme tablosu",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T4_D4",
+      "resource_plan_ids": [
+        "RES_T4_D4"
+      ],
+      "themes": [
+        "TEMA_04"
+      ],
+      "targeted_outcomes": [
+        "TDE1.4"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "feedback_support",
+      "purpose": "Dinleme/izleme sürecini öz değerlendirme ile yansıtma.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 89",
+        "textbook": "s. 283, 301"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap formu",
+      "theme_specific_fields": "Gözlem formu ve günlük",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T4_ACT_11_DINLEME_SONRASI_TAHLIL"
+      ],
+      "expected_student_evidence": "Doldurulmuş gözlem formu",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T4_O1",
+      "resource_plan_ids": [
+        "RES_T4_O1"
+      ],
+      "themes": [
+        "TEMA_04"
+      ],
+      "targeted_outcomes": [
+        "TDE2.1"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "learning_input_or_representation",
+      "purpose": "Roman ve eleştiri okuma hazırlığı ve kontrol listesi.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 89-90",
+        "textbook": "s. 226-227, 258-259"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap etkinliği",
+      "theme_specific_fields": "Çalıkuşu, Mehmet Kaplan metinleri",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T4_ACT_01_OKUMA_ONCESI_ROMAN",
+        "T4_ACT_05_OKUMA_ONCESI_ELESTIRI"
+      ],
+      "expected_student_evidence": "Okuma hazırlık notları",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T4_O2",
+      "resource_plan_ids": [
+        "RES_T4_O2"
+      ],
+      "themes": [
+        "TEMA_04"
+      ],
+      "targeted_outcomes": [
+        "TDE2.2"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "guided_practice",
+      "purpose": "Roman ve eleştiri anlama, söz varlığı ve üslup karşılaştırması.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 90",
+        "textbook": "s. 249-256, 269-275"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap etkinliği",
+      "theme_specific_fields": "Karşılaştırmalı metin incelemesi",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T4_ACT_03_OKUMA_SONRASI_ROMAN_KARSILASTIRMA",
+        "T4_ACT_06_OKUMA_SONRASI_ELESTIRI_TAHLIL"
+      ],
+      "expected_student_evidence": "Tahlil yanıtları",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T4_O3",
+      "resource_plan_ids": [
+        "RES_T4_O3"
+      ],
+      "themes": [
+        "TEMA_04"
+      ],
+      "targeted_outcomes": [
+        "TDE2.3"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "guided_practice",
+      "purpose": "Roman yapı unsurlarını ve eleştiri özelliklerini çözümleme.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 90",
+        "textbook": "s. 249-257, 269-276"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap etkinliği",
+      "theme_specific_fields": "Roman yapı unsurları",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T4_ACT_03_OKUMA_SONRASI_ROMAN_KARSILASTIRMA",
+        "T4_ACT_06_OKUMA_SONRASI_ELESTIRI_TAHLIL"
+      ],
+      "expected_student_evidence": "Çözümleme tablosu",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T4_O4",
+      "resource_plan_ids": [
+        "RES_T4_O4"
+      ],
+      "themes": [
+        "TEMA_04"
+      ],
+      "targeted_outcomes": [
+        "TDE2.4"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "feedback_support",
+      "purpose": "Özgün diyalog yazma, akran değerlendirme ve öğrenme günlüğü.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 90",
+        "textbook": "s. 256, 301, 311"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap formları",
+      "theme_specific_fields": "Diyalog ve form doldurma",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T4_ACT_03_OKUMA_SONRASI_ROMAN_KARSILASTIRMA"
+      ],
+      "expected_student_evidence": "Diyalog metni ve formlar",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T4_K1",
+      "resource_plan_ids": [
+        "RES_T4_K1"
+      ],
+      "themes": [
+        "TEMA_04"
+      ],
+      "targeted_outcomes": [
+        "TDE3.1"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "student_production_task",
+      "purpose": "Sosyal medya dili ile edebî dil karşılaştırma sunumu hazırlığı.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 90",
+        "textbook": "s. 277-279"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap etkinliği",
+      "theme_specific_fields": "Sunum hazırlık basamakları",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T4_ACT_08_KONUSMA_SIRASI"
+      ],
+      "expected_student_evidence": "Sunum planı",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T4_K4",
+      "resource_plan_ids": [
+        "RES_T4_K4"
+      ],
+      "themes": [
+        "TEMA_04"
+      ],
+      "targeted_outcomes": [
+        "TDE3.4"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "feedback_support",
+      "purpose": "Sunum sürecini öz/akran formları ile değerlendirme.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 90",
+        "textbook": "s. 280, 309, 311, 312"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap formları",
+      "theme_specific_fields": "FORM_BOB_08, FORM_BOB_10",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T4_ACT_09_KONUSMA_SONRASI"
+      ],
+      "expected_student_evidence": "Doldurulmuş öz/akran formları",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    },
+    {
+      "resource_id": "RES_T4_Y4",
+      "resource_plan_ids": [
+        "RES_T4_Y4"
+      ],
+      "themes": [
+        "TEMA_04"
+      ],
+      "targeted_outcomes": [
+        "TDE4.4"
+      ],
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "resource_type": "feedback_support",
+      "purpose": "Otobiyografi öz/akran değerlendirmesi ve paylaşım.",
+      "exact_remaining_gap": "NONE",
+      "official_requirement_verbatim": "N/A",
+      "source_locators": {
+        "curriculum": "s. 91",
+        "textbook": "s. 295, 308, 311, 312"
+      },
+      "textbook_relationship": "REUSE_TEXTBOOK",
+      "reusable_core": "Kitap formları",
+      "theme_specific_fields": "FORM_BOB_07, FORM_BOB_10",
+      "can_share_structure": false,
+      "can_share_content": false,
+      "dependency_ids": [
+        "T4_ACT_13_YAZMA_SONRASI"
+      ],
+      "expected_student_evidence": "Doldurulmuş formlar ve son metin",
+      "rationale": "Kitapta yeterli.",
+      "necessity_test": "N/A",
+      "teacher_review_required": false
+    }
+  ]
+}

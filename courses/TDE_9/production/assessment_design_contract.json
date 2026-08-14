@@ -1,0 +1,1404 @@
+{
+  "metadata": {
+    "contract_id": "TDE_9_ASSESSMENT_DESIGN_CONTRACT",
+    "schema_version": "1.2",
+    "contract_version": "1.2.0",
+    "course_id": "TDE_9",
+    "grade": 9,
+    "course_title": "Türk Dili ve Edebiyatı",
+    "contract_date": "2026-08-14",
+    "contract_purpose": "TYMM 9. Sınıf Türk Dili ve Edebiyatı Dersinde Otomatik Üretilecek 7 REQUIRED Ölçme-Değerlendirme Materyali İçin Ortak Tasarım Sözleşmesi, Barem Mimarisi, Provenance Şeması, Generation Context Bütünlüğü, Okul Temelli Seçenek İzolasyonu, Telif Hakları Enum Uyumu ve Resolver Doğrulamalı Kalite Standardı",
+    "created_from_frozen_knowledge": true,
+    "knowledge_index_status": "INDEX_FRESH",
+    "source_manifest_reference": "knowledge/TDE_9/source_manifest.json",
+    "production_manifest_reference": "knowledge/TDE_9/production/production_manifest.json",
+    "consolidated_resource_plan_reference": "knowledge/TDE_9/production/consolidated_resource_plan.json",
+    "authoritative_source_hashes": {
+      "curriculum_tde9_2024": "6d3a3cb7bac8cd91aa7582946abff81e79e7c7a517dbf336aae391252b6d2a47",
+      "textbook_tde9_meb": "ea982e49bec1260f578cbb0f88fb677276a87dd45d42be04eb376c01c63e0c7f"
+    },
+    "target_material_count": 7
+  },
+  "official_requirement_separation_principles": {
+    "principle_description": "Tüm ölçme-değerlendirme tasarımlarında resmî program hükmü, ders kitabı yapısal durumu, aradaki boşluk ve seçilen pedagojik araç birbirinden kesin sınırlarla ayrılır.",
+    "categories": {
+      "OFFICIAL_REQUIREMENT": {
+        "definition": "Resmî öğretim programının (Talim ve Terbiye Kurulu onaylı) verbatim metninde geçen bağlayıcı ölçme kuralı ve ölçüt ifadesidir.",
+        "example_verbatim": "Öğretmen değerlendirmesi dereceli puanlama anahtarı ile gerçekleştirilir.",
+        "authority_rank": 1
+      },
+      "TEXTBOOK_PROVIDES": {
+        "definition": "MEB 9. Sınıf Ders Kitabında ilgili etkinlik kapsamında fiilen basılmış ve canonical olarak doğrulanmış değerlendirme formudur.",
+        "example_structure": "assessment_criteria_table (ölçüt ve genel açıklama tablosu; performans düzeyi ve puan baremi yoktur)",
+        "authority_rank": 2
+      },
+      "REMAINING_GAP": {
+        "definition": "Resmî programın zorunlu kıldığı değerlendirme gereksinimi ile ders kitabında mevcut form yapısı arasındaki doğrulanmış pedagojik/yapısal farktır.",
+        "example_gap": "Ders kitabındaki formun yalnızca bir ölçüt tablosu olması; programın şart koştuğu derecelendirilmiş performans düzeyleri ve puanlama baremini içermemesi."
+      },
+      "SELECTED_IMPLEMENTATION": {
+        "definition": "Kalan yapısal boşluğu kapatmak üzere seçilen pedagojik ölçme aracı formatıdır. Bu format bir resmî fact olmayıp modelin pedagojik uygulamasıdır.",
+        "example_implementation": "analytic_rubric (Analitik Dereceli Puanlama Anahtarı) veya checklist (Kontrol Listesi)"
+      }
+    },
+    "mandatory_terminology_rules": [
+      "Resmî programın verbatim ifadesi 'dereceli puanlama anahtarı' ise bu ifade aynen resmî gereksinim olarak korunur.",
+      "'analytic_rubric' (analitik rubrik) terimi asla resmî programın bir kuralı gibi sunulamaz; yalnızca selected_implementation olarak yazılabilir.",
+      "'Program analitik rubrik istiyor' veya 'kitapta analitik rubrik açığı var' ifadeleri kesinlikle yasaktır; doğru terminoloji: 'Program dereceli puanlama anahtarı istemektedir; bu gereksinimi karşılamak için analytic_rubric seçilmiştir.'",
+      "Kontrol listesi (checklist) ile analitik rubrik (analytic_rubric) asla birbirinin yerine geçirilemez ve aynı araç ailesinde birleştirilemez."
+    ]
+  },
+  "assessment_families": {
+    "ANALYTIC_RUBRIC": {
+      "family_id": "ANALYTIC_RUBRIC",
+      "display_title": "Analitik Dereceli Puanlama Anahtarı (Analytic Rubric)",
+      "pedagogical_purpose": "Öğrencilerin sözlü (konuşma/sunum) veya yazılı çok boyutlu performans ürünlerini bağımsız alt ölçütler ve her ölçüt için açıkça tanımlanmış 4 performans düzeyi betimleyicisi üzerinden objektif, kanıta dayalı ve biçimlendirici olarak puanlamak ve geri bildirim sağlamak.",
+      "target_materials": [
+        "MAT_T2_KONUSMA_RUBRIC",
+        "MAT_T2_YAZMA_RUBRIC",
+        "MAT_T3_KONUSMA_RUBRIC",
+        "MAT_T3_YAZMA_RUBRIC",
+        "MAT_T4_KONUSMA_RUBRIC",
+        "MAT_T4_YAZMA_RUBRIC"
+      ],
+      "structural_features": {
+        "matrix_layout": "Ölçütler (satırlar) x Performans Düzeyleri (sütunlar) matris yapısı",
+        "level_model_ref": "SHARED_4_LEVEL_MODEL",
+        "scoring_model_ref": "PRIMARY_RAW_MEAN_WITH_OPTIONAL_100_SCALE",
+        "cell_descriptors_mandatory": true,
+        "teacher_feedback_area_mandatory": true,
+        "provenance_metadata_mandatory": true
+      }
+    },
+    "PROCESS_CHECKLIST": {
+      "family_id": "PROCESS_CHECKLIST",
+      "display_title": "Süreç Odaklı Kontrol Listesi (Process Checklist)",
+      "pedagogical_purpose": "Öğrencinin yazma sürecinin tüm bilişsel ve işlemsel aşamalarını (hazırlık, amaç belirleme, planlama, taslak oluşturma, gözden geçirme, redaksiyon/düzeltme, paylaşım ve yansıtma) adım adım işletmesini, öz düzenleme yapmasını ve sürecin eksiksiz uygulandığını ikili kontrol mekanizmasıyla doğrulamak.",
+      "target_materials": [
+        "MAT_T4_YAZMA_KONTROL_LISTESI"
+      ],
+      "structural_features": {
+        "list_layout": "Süreç Basamakları ve Kontrol Maddeleri Listesi",
+        "response_type": "DONE_OR_NEEDS_REVISION",
+        "response_labels": [
+          "TAMAMLANDI (DONE)",
+          "GELİŞTİRİLMELİ (NEEDS_REVISION)"
+        ],
+        "scoring_behavior": "NO_NUMERICAL_SCORE",
+        "is_summative_score_substitute": false,
+        "pedagogical_note": "Kontrol listesi nihai ürün puanlamasının yerine geçmez; öğrencinin yazma sürecini yönetme (TDE4.1) becerisinin biçimlendirici kanıtıdır."
+      }
+    }
+  },
+  "criterion_source_hierarchy_and_provenance": {
+    "hierarchy_order": [
+      {
+        "rank": 1,
+        "origin": "official_curriculum",
+        "description": "Resmî öğretim programında (öğretim programı.pdf) açıkça listelenen veya süreç açıklamalarında şart koşulan ölçütler. En yüksek önceliğe sahiptir."
+      },
+      {
+        "rank": 2,
+        "origin": "official_textbook",
+        "description": "Ders kitabında (9edb.pdf) yer alan ölçüt tabloları (assessment_criteria_table), form maddeleri, etkinlik yönergeleri ve etkinlik bağlamından doğrudan çıkarılan öğrenci eylemi/kanıtı ölçütleri."
+      },
+      {
+        "rank": 3,
+        "origin": "pedagogical_recommendation",
+        "description": "Yukarıdaki resmî kaynaklarda açıkça bulunmayan ancak ölçme aracının bütünlüğü veya alan profili için zorunlu olan pedagojik eklemeler ve üretilen hücre betimleyicileri."
+      }
+    ],
+    "origin_enum": [
+      "official_curriculum",
+      "official_textbook",
+      "pedagogical_recommendation"
+    ],
+    "criterion_item_provenance_schema": {
+      "required_fields": [
+        "criterion_id",
+        "criterion_name",
+        "origin",
+        "derived_from",
+        "source_locator"
+      ],
+      "optional_fields": [
+        "verbatim_source_text"
+      ],
+      "field_specifications": {
+        "criterion_id": "Benzersiz ölçüt tanımlayıcısı (string, örn. CRT_T2_K01)",
+        "criterion_name": "Ölçüt adı (resmî kaynaklardaki orijinal terim korunur)",
+        "origin": "origin_enum değerlerinden biri (official_curriculum | official_textbook | pedagogical_recommendation)",
+        "derived_from": "Kaynağın türetildiği yapısal referans (etkinlik, bölüm veya program maddesi bilgisi)",
+        "source_locator": "Resmî sayfa veya bölüm numarası (örn. öğretim programı.pdf, s. 74; 9edb.pdf, s. 129)",
+        "verbatim_source_text": "Yalnızca kaynakta harfi harfine geçen ifade varsa doldurulur; model tarafından türetilen kriterler için boş veya null bırakılır."
+      },
+      "descriptor_provenance": {
+        "descriptor_origin": "pedagogical_recommendation",
+        "note": "Kriter adı kaynak kökenli olsa dahi hücre düzey betimleyicileri modelin pedagojik türetimidir ve origin='pedagogical_recommendation' taşır."
+      }
+    },
+    "rules": {
+      "provenance_schema_consistency_rule": "Tüm ölçüt kayıtlarının origin alanı kesinlikle origin_enum (official_curriculum, official_textbook, pedagogical_recommendation) listesindeki 3 değerden birini taşımak zorundadır. Dördüncü bir origin türü tanımlanamaz.",
+      "textbook_activity_evidence_rule": "Ders kitabı etkinliğindeki öğrenci eyleminden türetilen kriterler origin='official_textbook' olarak atanır; etkinlik ayrıntısı derived_from (textbook_activity_id, textbook_section_id, source_locator) alanında belirtilir.",
+      "vb_handling_rule": "Program metnindeki 'vb.' veya 'gibi' ifadeleri modelin keyfi yeni ölçütler icat ederek bunları resmî gibi sunmasına izin vermez. Pedagojik olarak eklenen her ölçüt origin = 'pedagogical_recommendation' olarak etiketlenmelidir.",
+      "textbook_criteria_preservation_rule": "Ders kitabında ve resmî programda yer alan mevcut ölçüt adları (örn. Tema, Ana Duygu, Ritim ve Ahenk Ögeleri, Ses ve Diksiyon, Akıcılık, Beden Dili vb.) korunur. Model bu adları kendi tercihlerine göre yeniden adlandırmaz.",
+      "criterion_vs_descriptor_distinction": "Kriter (ölçüt adı ve boyutu) resmî program veya ders kitabı kaynaklıdır; buna karşın her hücredeki performans düzeyi betimleyicisi (performance level descriptor) model tarafından üretilen pedagojik bir uygulamadır. Bu ayrım provenance kayıtlarında açıkça korunur."
+    }
+  },
+  "shared_rubric_level_model": {
+    "level_model_id": "SHARED_4_LEVEL_MODEL",
+    "level_count": 4,
+    "origin": "pedagogical_recommendation",
+    "is_official_meb_scale": false,
+    "rationale": "4 düzeyli model; başlangıç, gelişme, yetkinlik ve ileri düzey performansı sınıf içi kullanımda öğretmen için bilişsel aşırı yük oluşturmadan hızlı, objektif ve biçimlendirici biçimde ayırt etmeyi sağlar. 3 düzeyli modeller orta düzeyde yığılmaya yol açarken, 5 ve üzeri düzeyler betimleyiciler arasındaki gözlenebilir sınırları muğlaklaştırmaktadır.",
+    "neutrality_principle": "Genel düzey anlamları tamamen criterion-neutral (ölçüt-bağımsız) olup yalnızca tamlık, doğruluk, tutarlılık, bağımsız uygulama ve ihtiyaç duyulan destek düzeyini betimler. Özgünlük, estetik, kurgusallık veya etkileyicilik gibi alana/türe özgü nitelikler genel düzey tanımında yer almaz; yalnızca ilgili ölçütün hücre betimleyicilerinde yer bulur.",
+    "levels": [
+      {
+        "level_id": "LEVEL_4",
+        "display_name": "İleri Düzey (4)",
+        "short_label": "İleri Düzey",
+        "numeric_value": 4,
+        "general_meaning": "Hedeflenen ölçütü eksiksiz, doğru, tutarlı ve bağımsız biçimde gösterir; herhangi bir desteğe ihtiyaç duymadan yetkin performans sergiler."
+      },
+      {
+        "level_id": "LEVEL_3",
+        "display_name": "Yetkin Düzey (3)",
+        "short_label": "Yetkin Düzey",
+        "numeric_value": 3,
+        "general_meaning": "Hedeflenen ölçütü büyük ölçüde doğru ve tutarlı biçimde gösterir; küçük eksiklikler performansı belirgin biçimde bozmaz ve bağımsız uygulayabilir."
+      },
+      {
+        "level_id": "LEVEL_2",
+        "display_name": "Gelişmekte Olan Düzey (2)",
+        "short_label": "Gelişmekte Olan",
+        "numeric_value": 2,
+        "general_meaning": "Hedeflenen ölçütü kısmen gösterir; belirgin eksiklikler veya tutarsızlıklar vardır ve öğretimsel desteğe/yönlendirmeye ihtiyaç duyar."
+      },
+      {
+        "level_id": "LEVEL_1",
+        "display_name": "Başlangıç Düzeyi (1)",
+        "short_label": "Başlangıç Düzeyi",
+        "numeric_value": 1,
+        "general_meaning": "Hedeflenen ölçüte ilişkin temel performans sınırlı düzeyde gözlenir; önemli eksiklikler vardır ve yoğun rehberliğe/desteğe ihtiyaç duyar."
+      }
+    ]
+  },
+  "descriptor_writing_standards": {
+    "principles": [
+      {
+        "principle_id": "OBSERVABLE_BEHAVIOR",
+        "rule": "Betimleyiciler somut, gözlenebilir öğrenci eylemine veya incelenebilir ürün kanıtına dayanmalıdır."
+      },
+      {
+        "principle_id": "CRITERION_ALIGNMENT",
+        "rule": "Her betimleyici doğrudan bağlı olduğu ölçütün niteliğini ve hedef çıktıyı ölçmelidir."
+      },
+      {
+        "principle_id": "DISTINCT_ADJACENT_LEVELS",
+        "rule": "Komşu düzeyler (1-2, 2-3, 3-4) arasında açık, kanıtlanabilir ve gözlemci bağımsız niteliksel/niceliksel farklar bulunmalıdır."
+      },
+      {
+        "principle_id": "SINGLE_DIMENSION_PER_CELL",
+        "rule": "Tek bir hücrede birden fazla çelişen veya bağımsız beceri birleştirilmemeli; odak tek boyutta tutulmalıdır."
+      },
+      {
+        "principle_id": "NON_PUNITIVE_LANGUAGE",
+        "rule": "Cezalandırıcı, damgalayıcı veya özsaygıyı zedeleyici ifadeler kesinlikle kullanılmamalı; yapıcı, gelişim odaklı pedagojik dil benimsenmelidir."
+      },
+      {
+        "principle_id": "AGE_AND_GRADE_APPROPRIATE",
+        "rule": "9. sınıf öğrencilerinin (14-15 yaş) dil, edebiyat ve bilişsel gelişim düzeyine uygun terminoloji seçilmelidir."
+      }
+    ],
+    "forbidden_phrasing_patterns": [
+      "çok başarılıdır",
+      "başarılıdır",
+      "yeterlidir",
+      "orta düzeydedir",
+      "yetersizdir",
+      "başarısızdır",
+      "güzel yapmıştır",
+      "fena değildir"
+    ],
+    "recommended_phrasing_examples": [
+      "Temayı ve ana duyguyu metnin bütününde belirgin imgeler ve ahenk ögeleriyle tutarlı biçimde yansıtır.",
+      "Konuşma sırasında diksiyon, vurgu ve tonlamayı içeriğin anlam akışına uygun olarak doğru ayarlar.",
+      "Yazılı anlatımda bağdaşıklık ögelerini ve noktalama işaretlerini kurallara uygun kullanarak metin akıcılığını sağlar."
+    ]
+  },
+  "scoring_model": {
+    "official_scoring_rule": null,
+    "official_scoring_rule_note": "MEB 9. Sınıf Türk Dili ve Edebiyatı Öğretim Programı ve ders kitabında toplam puan baremi, ağırlık katsayısı veya 100'lük sistem dönüşüm formülü tanımlanmamıştır. Bu nedenle puanlama modeli resmî kural değil, pedagojik öneri olarak yapılandırılmıştır.",
+    "primary_scoring_model": {
+      "model_id": "RAW_MEAN_1_TO_4",
+      "scale_range": "1.00 - 4.00",
+      "origin": "pedagogical_recommendation",
+      "scoring_unit": "Her ölçüt bağımsız olarak 1, 2, 3 veya 4 puan alır.",
+      "primary_result_formula": "\\text{Ham Puan Ortalaması} = \\frac{\\sum_{i=1}^{N} \\text{Ölçüt Puanı}_i}{N}",
+      "primary_result_description": "Rubriğin asıl ölçme sonucu, öğrencinin ölçütlerden aldığı puanların aritmetik ortalamasıdır (1.00 - 4.00 arası). Puanlama zorunlu olarak 100'lük sisteme kilitlenmez.",
+      "weighting_strategy": "EQUAL_WEIGHT_DEFAULT",
+      "weighting_rationale": "Aksi yönde açık ve gerekçelendirilmiş pedagojik zorunluluk bulunmadıkça tüm ölçütler eşit ağırlıklı kabul edilir."
+    },
+    "optional_display_conversion": {
+      "conversion_id": "OPTIONAL_100_SCALE_CONVERSION",
+      "origin": "pedagogical_recommendation",
+      "is_official_meb_rule": false,
+      "formula_latex": "\\text{100'lük Gösterim Puanı} = \\left( \\frac{\\sum_{i=1}^{N} \\text{Ölçüt Puanı}_i}{N \\times 4} \\right) \\times 100",
+      "formula_description": "Öğretmen sınıf içi notlandırma veya resmi kayıt kolaylığı amacıyla 100'lük ölçekte gösterim talep ederse; ölçüt puanları toplamı, alınabilecek maksimum ham puana (Ölçüt Sayısı x 4) bölünür ve 100 ile çarpılarak en yakın tam sayıya yuvarlanır.",
+      "deterministic_rounding_rule": "Standart matematiksel yuvarlama: Elde edilen 100'lük değer en yakın tam sayıya yuvarlanır (ondalık kısım >= 0.5 ise yukarı, < 0.5 ise aşağı).",
+      "pedagogical_interpretation_boundaries": [
+        "100'lük dönüşüm resmî MEB puanlama kuralı değildir; yalnızca yardımcı bir gösterim dönüşümüdür.",
+        "Rubriğin asıl performans boyutu 1–4 düzey modelidir.",
+        "Tüm ölçütlerde LEVEL_1 (1 puan) alan bir performansın matematiksel formül gereği 25/100 üretmesi, hesaplama mekaniğinin doğal sonucudur ve öğrenciye '25 puanlık başarı edindi' şeklinde pedagojik anlam yüklenemez."
+      ],
+      "scoring_table_example_4_criteria": {
+        "criterion_count": 4,
+        "max_raw_score": 16,
+        "min_raw_score": 4,
+        "raw_score_to_100_scale": {
+          "16": 100,
+          "15": 94,
+          "14": 88,
+          "13": 81,
+          "12": 75,
+          "11": 69,
+          "10": 63,
+          "9": 56,
+          "8": 50,
+          "7": 44,
+          "6": 38,
+          "5": 31,
+          "4": 25
+        }
+      }
+    }
+  },
+  "rubric_output_schema_specification": {
+    "required_sections": [
+      "material_identity",
+      "targeted_outcomes",
+      "assessment_purpose",
+      "task_and_evidence_being_assessed",
+      "criteria_table",
+      "performance_levels",
+      "scoring_instructions",
+      "teacher_feedback_area",
+      "optional_next_step_feedback",
+      "provenance",
+      "teacher_review_status"
+    ],
+    "view_separation_rules": {
+      "teacher_view": {
+        "include_technical_provenance": true,
+        "include_scoring_mechanics": true,
+        "include_teacher_feedback_field": true,
+        "include_next_step_remediation_guidance": true,
+        "include_review_status_badge": true
+      },
+      "student_facing_view": {
+        "include_technical_provenance": false,
+        "include_scoring_mechanics": true,
+        "include_task_and_criteria_descriptions": true,
+        "include_self_reflection_prompt": true,
+        "presentation_style": "Öğrencinin anlayabileceği sade, açık ve motive edici dil"
+      }
+    }
+  },
+  "speaking_rubric_profile_rules": {
+    "evidence_nature": "Öğrencinin sınıf içindeki gerçek sözlü sunum, konuşma ve canlandırma icrası (canlı performans kanıtı).",
+    "prohibition": "Sözlü konuşma becerisi kesinlikle yazılı test, çoktan seçmeli soru veya teorik bilgi ölçümü ile ikame edilemez.",
+    "observable_dimensions_bank": [
+      "İçerik ve Göreve Uygunluk (Metin ve tema bağlamı, konunun işlenişi)",
+      "Yapı ve Organizasyon (Giriş-gelişme-sonuç akışı, zaman yönetimi)",
+      "Söz Varlığı ve Türkçenin Doğru Kullanımı (Kelimelerin bağlama uygunluğu, dil kuralları)",
+      "Ses, Diksiyon, Vurgu ve Tonlama (Duygu aktarımı, işitilebilirlik, akıcılık)",
+      "Beden Dili, Jest-Mimik ve Sahne/Mekân Kullanımı (Duruş, göz teması, görsel araç kullanımı)",
+      "Dinleyiciyle İletişim ve Etkileyicilik (İnandırıcılık, dikkat çekme ve sürdürme)"
+    ],
+    "selection_rule": "Her konuşma rubriği için ölçütler genel şablondan kopyalanmaz; resmî programın ilgili temadaki açık hükmü ve ders kitabındaki konuşma atölyesi görev kanıtına göre tekil olarak seçilir."
+  },
+  "writing_rubric_profile_rules": {
+    "evidence_nature": "Öğrencinin bireysel olarak kaleme aldığı, gözden geçirdiği ve son şeklini verdiği yazılı anlatım ürünü (şiir, infografik metin, otobiyografi).",
+    "process_vs_product_separation": "Yazılı ürünün nihai niteliği (dereceli puanlama anahtarı ile puanlanan) ile yazma sürecinin aşamaları (kontrol listesi ve öz değerlendirme ile izlenen) birbirinden ayrılır.",
+    "spelling_punctuation_rule": "İmla ve noktalama ölçütü her yazma rubriğine ezbere eklenmez; resmî programda ve ders kitabında açıkça talep edildiği durumlarda (Tema 3 İnfografik ve Tema 4 Otobiyografi) yer verilir.",
+    "selection_rule": "Her yazma rubriği ilgili temanın resmî gereksinimlerine (Tema 2 Şiir: tema, ana duygu, ritim/ahenk, söz varlığı; Tema 3 İnfografik: anlam, dil ve görsel ögelerin kullanımı, özgünlük, tutarlılık, doğruluk, yazım-noktalama; Tema 4 Otobiyografi: bağlama uygunluk, dil ve anlatım özelliği, etkileyicilik, gerçeklik, tutarlılık, özgünlük, bağdaşıklık, imla-noktalama) göre türetilir."
+  },
+  "process_checklist_profile_rules": {
+    "family_id": "PROCESS_CHECKLIST",
+    "target_material": "MAT_T4_YAZMA_KONTROL_LISTESI",
+    "targeted_outcome": "TDE4.1",
+    "purpose": "Öz yaşam öyküsü (otobiyografi) yazma sürecinin tüm basamaklarının adım adım ve öz düzenleme ile yürütülmesini izlemek.",
+    "item_schema": {
+      "item_id": "string (örn. CHK_T4_Y01)",
+      "process_stage": "string (Hazırlık, Planlama, Taslak Oluşturma, Gözden Geçirme/Düzeltme, Paylaşım)",
+      "check_item": "string (Gözlenebilir süreç eylemi ifadesi)",
+      "expected_evidence": "string (Öğrencinin eylemi gerçekleştirdiğine dair somut kanıt)",
+      "origin": "official_curriculum | official_textbook | pedagogical_recommendation",
+      "derived_from": "string (locator referansı)",
+      "response_type": "DONE_OR_NEEDS_REVISION"
+    },
+    "writing_process_stages": [
+      {
+        "stage_no": 1,
+        "stage_name": "Hazırlık ve Amaç Belirleme",
+        "focus": "Yazma konusunu, amacını, hedef kitlesini belirleme; hafıza taraması, belge ve tanık seçimi yapma."
+      },
+      {
+        "stage_no": 2,
+        "stage_name": "Planlama ve Tasarım",
+        "focus": "Otobiyografinin kronolojik veya tematik planını çıkarma; anlatım biçimi ve görsel yerleşimini belirleme."
+      },
+      {
+        "stage_no": 3,
+        "stage_name": "Taslak Oluşturma (İlk Metin)",
+        "focus": "Özgün üslupla ilk taslak metni yazma; içten ve gerçekçi bir anlatım dili kurma."
+      },
+      {
+        "stage_no": 4,
+        "stage_name": "Gözden Geçirme ve Öz Düzenleme (Redaksiyon)",
+        "focus": "Taslak metni bağdaşıklık, anlatım bozuklukları, yazım ve noktalama kuralları açısından denetleme ve düzeltme."
+      },
+      {
+        "stage_no": 5,
+        "stage_name": "Son Şeklini Verme, Paylaşım ve Yansıtma",
+        "focus": "Metni temize çekme, görsel unsurları ekleme, arkadaşlarıyla paylaşma ve öz değerlendirme formunu doldurma."
+      }
+    ],
+    "non_rubric_guarantee": "Kontrol listesi rubrik gibi dereceli puanlama veya notlandırma içermez. Öğrencinin bilişsel yazma sürecini denetleyen biçimlendirici kontrol aracıdır."
+  },
+  "shared_vs_theme_specific_matrix": {
+    "shared_across_all_6_rubrics": [
+      "4 düzeyli performans skalası mimarisi (LEVEL_1 ila LEVEL_4)",
+      "Ölçüt-bağımsız (criterion-neutral) genel düzey semantiği (tamlık, doğruluk, tutarlılık, bağımsızlık)",
+      "Birincil ham ortalama (1.00-4.00) ve isteğe bağlı 100'lük puan dönüşüm formülü",
+      "Gözlenebilir eyleme dayalı betimleyici (descriptor) yazım standartları",
+      "Biçimlendirici öğretmen geri bildirimi ve telafi önerisi alanları",
+      "Kaynak-nötr telif koruma ve erişilebilirlik protokolleri",
+      "Teknik provenance ve öğretmen inceleme durumu metadata şeması"
+    ],
+    "theme_specific_derivation_mandate": [
+      "Her materyalin ölçüt adları ve tanımları kendi tema hedeflerinden ve etkinliklerinden türetilir (Tema 2 Şiir ≠ Tema 3 İnfografik ≠ Tema 4 Otobiyografi).",
+      "Her hücredeki betimleyici metinler ilgili temanın tür ve görev bağlamına özel olarak kaleme alınır.",
+      "Tema 4 için ek olarak süreç kontrol listesi (MAT_T4_YAZMA_KONTROL_LISTESI) ayrı bir biçimlendirici araç olarak üretilir."
+    ]
+  },
+  "copyright_and_accessibility_standards": {
+    "copyright_compliance": {
+      "source_rights_status": "OFFICIAL_REUSE_ALLOWED",
+      "canonical_rights_enum": [
+        "PUBLIC_DOMAIN",
+        "OPEN_LICENSE",
+        "OFFICIAL_REUSE_ALLOWED",
+        "LIMITED_QUOTATION",
+        "LINK_ONLY",
+        "UNKNOWN_RIGHTS",
+        "DO_NOT_USE"
+      ],
+      "rights_usage_policy": {
+        "source_rights_status": "OFFICIAL_REUSE_ALLOWED",
+        "embed_mode": "PAGE_REFERENCE",
+        "long_text_embedding_allowed": false,
+        "locator_only_for_long_source_content": true,
+        "textbook_usage_mode": "PAGE_REFERENCE",
+        "reproduction_not_allowed_for_literary_texts": true
+      },
+      "rules": [
+        "Kaynak hak durumu kesinlikle canonical rights enum (PUBLIC_DOMAIN, OPEN_LICENSE, OFFICIAL_REUSE_ALLOWED, LIMITED_QUOTATION, LINK_ONLY, UNKNOWN_RIGHTS, DO_NOT_USE) değerlerinden biri olmak zorundadır.",
+        "Kriter ve ölçüt adları öğretimsel amaca yetecek asgari kısalıkta ve doğrudan kazanım/etkinlik başlıklarından kullanılır.",
+        "Ders kitabında, edebî eserlerde veya haricî kaynaklarda yer alan uzun telifli şiir, hikâye, metin veya kitap içeriği materyal gövdesine yeniden basılmaz/embed edilmez (long_text_embedding_allowed = false).",
+        "Öğrencinin çalışacağı kaynak metinler için yalnızca sayfa, bölüm, başlık ve etkinlik locator referansı verilir (embed_mode = PAGE_REFERENCE, locator_only_for_long_source_content = true).",
+        "Hak durumu UNKNOWN_RIGHTS ise Copyright QA = REVIEW; DO_NOT_USE ise içerik eklenmez ve üretim BLOCKED olur.",
+        "Üretilen tüm performans düzeyi betimleyicileri (descriptors) modelin pedagojik türetimi (origin: 'pedagogical_recommendation') olarak tescil edilir.",
+        "Sözleşme ve materyaller, doğrulanmamış telif hakkı istisnalarına veya özel hukuk kavramlarına dayanmaksızın resmî MEB öğretim programı ve ders kitabı eğitimsel yeniden kullanım ve sayfa referanslama ilkeleri içinde kalır."
+      ]
+    },
+    "accessibility_compliance": [
+      "Kısa, net ve bilişsel yük oluşturmayan betimleyici ifadeler kullanılır.",
+      "Tek bir hücrede aşırı yoğun metin birikmesi engellenir.",
+      "Yalnızca renkle kodlama yapılmaz; her düzey ve ölçüt açık metin ve rakam etiketi taşır.",
+      "Siyah-beyaz / gri tonlu baskıya uygun yüksek kontrastlı tablo düzeni tasarlanır.",
+      "Dijital ekran okuyucular için semantik tablo başlıkları (thead, th, scope=col) kurgulanır.",
+      "Öğrenciler için yazılı veya sözlü alternatif geri bildirim imkânı tanınır; ancak ölçülen temel beceri hedefleri değiştirilmez."
+    ]
+  },
+  "teacher_review_and_qa_gates": {
+    "teacher_review_rule": {
+      "teacher_review_required": true,
+      "post_generation_status": "REVIEW_REQUIRED",
+      "rationale": "Otomatik üretilen hiçbir ölçme aracı gerçek bir öğretmen tarafından incelenip onaylanmadan doğrudan nihai kabul edilemez. Üretim sonrası tüm materyaller Teacher Review = REVIEW_REQUIRED statüsünde teslim edilir."
+    },
+    "material_generation_gate": {
+      "gate_status": "OPEN",
+      "resolver_evidence_summary": {
+        "total_required_materials": 7,
+        "verified_resolved_count": 7,
+        "conflicts_count": 0,
+        "ambiguous_count": 0,
+        "generation_context_complete_count": 7,
+        "unselected_school_based_options_count": 0,
+        "cross_material_contamination_count": 0,
+        "rights_status_valid": true,
+        "rights_status_used": "OFFICIAL_REUSE_ALLOWED",
+        "index_status": "INDEX_FRESH",
+        "gate_determination_basis": "7 REQUIRED materyalin her biri KnowledgeResolver ve kanonik kaynaklar üzerinden tam üretim bağlamı ile çözümlenmiş; sıfır çelişki, unambiguous entity, taze indeks, doğrulanmış kanonik varlık zincirleri, 0 okul temelli opsiyon bulaşması, 0 çapraz materyal içerik kirlenmesi ve resmi eğitimsel hak enum uyumu ile OPEN statüsü hesaplanmıştır."
+      },
+      "conditions": [
+        {
+          "condition_id": "COND_MANIFEST_PRIORITY",
+          "description": "production_manifest priority = REQUIRED (7/7 materyal)",
+          "status": "PASSED",
+          "evidence": "Tüm 7 materyal production_manifest.json içinde REQUIRED önceliğindedir."
+        },
+        {
+          "condition_id": "COND_RESOLVER_STATUS",
+          "description": "resolver status = RESOLVED (7/7 materyal)",
+          "status": "PASSED",
+          "evidence": "KnowledgeResolver 7 materyalin tamamı için resolution_status = RESOLVED üretmiştir."
+        },
+        {
+          "condition_id": "COND_CANONICAL_VERIFIED",
+          "description": "canonical_resolution_verified = true (7/7 materyal)",
+          "status": "PASSED",
+          "evidence": "7 materyalin tamamında kanonik varlık eşleşmesi doğrulanmıştır."
+        },
+        {
+          "condition_id": "COND_CONFLICTS_NONE",
+          "description": "conflicts = [] (7/7 materyal, sıfır çelişki)",
+          "status": "PASSED",
+          "evidence": "Hiçbir materyalde bilgi çelişkisi saptanmamıştır."
+        },
+        {
+          "condition_id": "COND_AMBIGUITY_NONE",
+          "description": "ambiguity_status != AMBIGUOUS_ENTITY (7/7 materyal: UNAMBIGUOUS)",
+          "status": "PASSED",
+          "evidence": "Tüm sorgular tekil ve net varlıklara çözümlenmiştir."
+        },
+        {
+          "condition_id": "COND_GENERATION_CONTEXT_COMPLETE",
+          "description": "generation_context_complete = true (7/7 materyal tam bağlam kanıtı)",
+          "status": "PASSED",
+          "evidence": "Her 7 REQUIRED materyal için material, outcome, official requirement, remaining gap, textbook form/activity, criteria/process evidence, selected implementation ve priority varlıkları eksiksiz çözülmüştür."
+        },
+        {
+          "condition_id": "COND_OUTCOME_CONTEXT_PRESENT",
+          "description": "required outcome context present (7/7 materyal, len(outcomes) >= 1)",
+          "status": "PASSED",
+          "evidence": "Tüm 7 materyalde hedeflenen öğrenme çıktıları (TDE3.4, TDE4.4, TDE3.2-3, TDE4.1, TDE4.2-3) kanonik olarak doğrulanmıştır."
+        },
+        {
+          "condition_id": "COND_OFFICIAL_REQUIREMENT_PRESENT",
+          "description": "official curriculum requirement present and verbatim verified (7/7)",
+          "status": "PASSED",
+          "evidence": "Tüm 7 materyalde resmî program hükümleri verbatim ve locator kanıtı ile doğrulanmıştır."
+        },
+        {
+          "condition_id": "COND_REMAINING_GAP_PRESENT",
+          "description": "remaining gap present and verified (7/7)",
+          "status": "PASSED",
+          "evidence": "Tüm 7 materyalde doğrulanmış yapısal boşluk (gap_id) mevcuttur."
+        },
+        {
+          "condition_id": "COND_TEXTBOOK_CONTEXT_PRESENT",
+          "description": "relevant textbook counterpart/activity present as applicable (7/7)",
+          "status": "PASSED",
+          "evidence": "Rubrikler için ders kitabı formları/etkinlikleri, kontrol listesi için yazma süreci eylem kanıtları eksiksiz eşleştirilmiştir."
+        },
+        {
+          "condition_id": "COND_SELECTED_IMPLEMENTATION_VERIFIED",
+          "description": "selected implementation verified (6 analytic_rubric, 1 checklist)",
+          "status": "PASSED",
+          "evidence": "6 analitik rubrik ve 1 kontrol listesi pedagojik format seçimi doğrulanmıştır."
+        },
+        {
+          "condition_id": "COND_SOURCE_LOCATORS_COMPLETE",
+          "description": "source locators complete (7/7 materyal)",
+          "status": "PASSED",
+          "evidence": "Tüm program ve ders kitabı locator referansları (sayfa ve bölüm) eksiksizdir."
+        },
+        {
+          "condition_id": "COND_SCHOOL_BASED_CONTAMINATION_NONE",
+          "description": "unselected_school_based_options_in_generation_context = [] (7/7)",
+          "status": "PASSED",
+          "evidence": "Hiçbir unselected okul temelli seçenek (OPT_T2_..., OPT_T3_..., OPT_T4_...) canonical generation context içine sızmamıştır; 0/7 bulaşma."
+        },
+        {
+          "condition_id": "COND_CROSS_MATERIAL_CONTAMINATION_NONE",
+          "description": "cross_material_content_dependencies_in_generation_context = [] (7/7)",
+          "status": "PASSED",
+          "evidence": "Materyaller arasında içeriksel miras alma veya ölçüt kirlenmesi bulunmamaktadır; 0/7 bulaşma."
+        },
+        {
+          "condition_id": "COND_RIGHTS_ENUM_VALID",
+          "description": "rights enum valid and canonical (OFFICIAL_REUSE_ALLOWED)",
+          "status": "PASSED",
+          "evidence": "Rights durumu canonical enum (OFFICIAL_REUSE_ALLOWED) ile tanımlanmış, yapay/gayriresmî enum kaldırılmıştır."
+        },
+        {
+          "condition_id": "COND_INDEX_FRESH",
+          "description": "index_freshness = INDEX_FRESH",
+          "status": "PASSED",
+          "evidence": "knowledge_index status = INDEX_FRESH (355 kayıt güncel)."
+        },
+        {
+          "condition_id": "COND_PROVENANCE_SCHEMA_CONSISTENCY",
+          "description": "provenance_schema_consistency = PASS (3-enum uyumu)",
+          "status": "PASSED",
+          "evidence": "Tüm ölçütler canonical origin_enum (official_curriculum, official_textbook, pedagogical_recommendation) şemasına %100 uymaktadır."
+        },
+        {
+          "condition_id": "COND_CONTRACT_PASS",
+          "description": "assessment_design_contract QA = PASS (21/21 QA)",
+          "status": "PASSED",
+          "evidence": "Tüm tasarım, düzey, puanlama, kanıt, telif, erişilebilirlik, bağlam bütünlüğü ve izolasyon QA denetimleri eksiksiz PASS almıştır."
+        }
+      ],
+      "gate_verdict": "OPEN (7/7 Knowledge Resolver tam bağlam doğrulaması, 0 okul temelli opsiyon kirlenmesi, canonical rights enum uyumu ve 18/18 güvenlik koşulu eksiksiz sağlanmıştır; materyal üretimi başlatılabilir)."
+    }
+  },
+  "material_contract_matrix": [
+    {
+      "material_id": "MAT_T2_KONUSMA_RUBRIC",
+      "assessment_family": "ANALYTIC_RUBRIC",
+      "theme_id": "TEMA_02",
+      "theme_title": "2. Tema: Anlam Arayışı",
+      "block_id": "BLOCK_T2_02_KONUSMA",
+      "targeted_outcomes": [
+        "TDE3.4"
+      ],
+      "official_requirement": {
+        "verbatim": "Öğretmen değerlendirmesi dereceli puanlama anahtarı ile gerçekleştirilir. Puanlama anahtarında ses ve diksiyon, akıcılık, beden dili, içeriğin kurgusallığı, zaman yönetimi, Türkçenin doğru kullanımı, etkileyicilik vb. ölçütler yer alır.",
+        "curriculum_locator": "öğretim programı.pdf, s. 74, 75, 78"
+      },
+      "textbook_counterpart": {
+        "form_id": "FORM_IN_T2_KONUSMA_CRITERIA",
+        "structural_type": "assessment_criteria_table",
+        "printed_page": 129,
+        "pdf_page": 130,
+        "activity_id": "T2_ACT_08_KONUSMA_SIRASI",
+        "task_title": "Karakterimin Yolculuğu Değerlendirme Tablosu / Şiir Dinletisi"
+      },
+      "remaining_gap": "Ders kitabında s. 129'daki FORM_IN_T2_KONUSMA_CRITERIA yalnızca düzey betimleyicisi olmayan bir ölçüt tablosudur (assessment_criteria_table). Programın s. 74 ve 78'de açıkça şart koştuğu öğretmen dereceli puanlama anahtarı (rubrik) kitapta mevcut değildir.",
+      "selected_implementation": "analytic_rubric",
+      "shared_contract_profile": "ANALYTIC_RUBRIC (4-Level; Optional 100-Scale Conversion)",
+      "theme_specific_content_required": "Hikâye karakteri yorumlama, şiir seslendirme / dinletisi, ses kaydı analizi, diksiyon, duygu aktarımı ve beden dili ölçütleri.",
+      "teacher_review_required": true,
+      "generation_status": "READY_TO_GENERATE",
+      "resolver_evidence": {
+        "query": "MAT_T2_KONUSMA_RUBRIC",
+        "resolution_status": "RESOLVED",
+        "canonical_resolution_verified": true,
+        "theme_id": "TEMA_02",
+        "conflicts": [],
+        "ambiguity_status": "UNAMBIGUOUS",
+        "index_status": "INDEX_FRESH",
+        "retrieval_mode": "EXACT+FTS+STRUCTURED+VECTOR",
+        "verified_at": "2026-08-14T12:00:00Z",
+        "retrieval_candidates": [
+          "MAT_T2_KONUSMA_RUBRIC",
+          "OPT_T2_SBP_03_SIIR_DINLETISI_PERFORMANS_GENISLETMESI",
+          "FORM_IN_T2_KONUSMA_CRITERIA",
+          "T2_ACT_08_KONUSMA_SIRASI",
+          "T2_ACT_09_KONUSMA_SONRASI"
+        ],
+        "unselected_school_based_options_in_generation_context": [],
+        "cross_material_content_dependencies_in_generation_context": []
+      },
+      "generation_context_evidence": {
+        "material_id": "MAT_T2_KONUSMA_RUBRIC",
+        "theme_id": "TEMA_02",
+        "required_entities": {
+          "material": {
+            "entity_id": "MAT_T2_KONUSMA_RUBRIC",
+            "verified": true
+          },
+          "outcomes": {
+            "entity_ids": [
+              "TDE3.4"
+            ],
+            "verified": true
+          },
+          "official_requirement": {
+            "present": true,
+            "source_locator": "öğretim programı.pdf, s. 74, 75, 78"
+          },
+          "remaining_gap": {
+            "entity_id": "GAP_T2_K4",
+            "verified": true
+          },
+          "textbook_forms": {
+            "entity_ids": [
+              "FORM_IN_T2_KONUSMA_CRITERIA"
+            ],
+            "verified": true
+          },
+          "textbook_activities": {
+            "entity_ids": [
+              "T2_ACT_08_KONUSMA_SIRASI",
+              "T2_ACT_09_KONUSMA_SONRASI"
+            ],
+            "verified": true
+          },
+          "assessment_criteria_or_process_evidence": {
+            "entity_ids": [
+              "FORM_IN_T2_KONUSMA_CRITERIA"
+            ],
+            "verified": true
+          },
+          "selected_implementation": {
+            "value": "analytic_rubric",
+            "verified": true
+          },
+          "production_priority": {
+            "value": "REQUIRED",
+            "verified": true
+          }
+        },
+        "source_locators_complete": true,
+        "generation_context_complete": true
+      }
+    },
+    {
+      "material_id": "MAT_T2_YAZMA_RUBRIC",
+      "assessment_family": "ANALYTIC_RUBRIC",
+      "theme_id": "TEMA_02",
+      "theme_title": "2. Tema: Anlam Arayışı",
+      "block_id": "BLOCK_T2_04_YAZMA",
+      "targeted_outcomes": [
+        "TDE4.4"
+      ],
+      "official_requirement": {
+        "verbatim": "Performans görevi; tema, ana duygu, ritim ve ahenk ögeleri, söz varlığının bağlama uygun kullanımı vb. ölçütlerin yer aldığı bir puanlama anahtarı ile puanlanır. Öğretmen değerlendirmesi dereceli puanlama anahtarı ile gerçekleştirilir.",
+        "curriculum_locator": "öğretim programı.pdf, s. 74, 75, 79"
+      },
+      "textbook_counterpart": {
+        "form_id": "FORM_IN_T2_YAZMA_CRITERIA",
+        "structural_type": "assessment_criteria_table",
+        "printed_page": 141,
+        "pdf_page": 142,
+        "activity_id": "T2_ACT_12_YAZMA_SIRASI",
+        "task_title": "Ben Şair Olsaydım Şiir Yazma Görevi Değerlendirme Tablosu"
+      },
+      "remaining_gap": "Ders kitabında s. 141'deki FORM_IN_T2_YAZMA_CRITERIA yalnızca bir ölçüt tablosudur; s. 304 ve s. 310'da öz ve akran formları mevcuttur ancak öğretmenin şiir yazma ürününü puanlayacağı dereceli puanlama anahtarı (rubrik) yoktur.",
+      "selected_implementation": "analytic_rubric",
+      "shared_contract_profile": "ANALYTIC_RUBRIC (4-Level; Optional 100-Scale Conversion)",
+      "theme_specific_content_required": "Özgün şiir yazma görevi: tema, ana duygu, ritim ve ahenk ögeleri (kafiye, redif, aliterasyon), imge ve çağrışım, söz varlığının bağlama uygunluğu.",
+      "teacher_review_required": true,
+      "generation_status": "READY_TO_GENERATE",
+      "resolver_evidence": {
+        "query": "MAT_T2_YAZMA_RUBRIC",
+        "resolution_status": "RESOLVED",
+        "canonical_resolution_verified": true,
+        "theme_id": "TEMA_02",
+        "conflicts": [],
+        "ambiguity_status": "UNAMBIGUOUS",
+        "index_status": "INDEX_FRESH",
+        "retrieval_mode": "EXACT+FTS+STRUCTURED+VECTOR",
+        "verified_at": "2026-08-14T12:00:00Z",
+        "retrieval_candidates": [
+          "MAT_T2_YAZMA_RUBRIC",
+          "OPT_T2_SBP_05_GENC_SAIRLER_METINLERARASI_ATOLYE",
+          "T2_ACT_12_YAZMA_SIRASI",
+          "T2_ACT_13_YAZMA_SONRASI",
+          "MAT_T2_KONUSMA_RUBRIC"
+        ],
+        "unselected_school_based_options_in_generation_context": [],
+        "cross_material_content_dependencies_in_generation_context": []
+      },
+      "generation_context_evidence": {
+        "material_id": "MAT_T2_YAZMA_RUBRIC",
+        "theme_id": "TEMA_02",
+        "required_entities": {
+          "material": {
+            "entity_id": "MAT_T2_YAZMA_RUBRIC",
+            "verified": true
+          },
+          "outcomes": {
+            "entity_ids": [
+              "TDE4.4"
+            ],
+            "verified": true
+          },
+          "official_requirement": {
+            "present": true,
+            "source_locator": "öğretim programı.pdf, s. 74, 75, 79"
+          },
+          "remaining_gap": {
+            "entity_id": "GAP_T2_Y4",
+            "verified": true
+          },
+          "textbook_forms": {
+            "entity_ids": [
+              "FORM_IN_T2_YAZMA_CRITERIA"
+            ],
+            "verified": true
+          },
+          "textbook_activities": {
+            "entity_ids": [
+              "T2_ACT_12_YAZMA_SIRASI",
+              "T2_ACT_13_YAZMA_SONRASI"
+            ],
+            "verified": true
+          },
+          "assessment_criteria_or_process_evidence": {
+            "entity_ids": [
+              "FORM_IN_T2_YAZMA_CRITERIA"
+            ],
+            "verified": true
+          },
+          "selected_implementation": {
+            "value": "analytic_rubric",
+            "verified": true
+          },
+          "production_priority": {
+            "value": "REQUIRED",
+            "verified": true
+          }
+        },
+        "source_locators_complete": true,
+        "generation_context_complete": true
+      }
+    },
+    {
+      "material_id": "MAT_T3_KONUSMA_RUBRIC",
+      "assessment_family": "ANALYTIC_RUBRIC",
+      "theme_id": "TEMA_03",
+      "theme_title": "3. Tema: Anlamın Yapı Taşları",
+      "block_id": "BLOCK_T3_02_KONUSMA",
+      "targeted_outcomes": [
+        "TDE3.4"
+      ],
+      "official_requirement": {
+        "verbatim": "Sunumlar, dereceli puanlama anahtarı ile puanlanır. Puanlama içerik, anlatım, organizasyon ve iletişim vb. ölçütler bağlamında değerlendirilir.",
+        "curriculum_locator": "öğretim programı.pdf, s. 81, 82, 86"
+      },
+      "textbook_counterpart": {
+        "form_id": "FORM_IN_T3_KONUSMA_CRITERIA",
+        "structural_type": "assessment_criteria_table",
+        "printed_page": 195,
+        "pdf_page": 196,
+        "activity_id": "T3_ACT_08_KONUSMA_SIRASI",
+        "task_title": "Benim Mekânım Sunumu Değerlendirme Tablosu"
+      },
+      "remaining_gap": "Ders kitabındaki FORM_IN_T3_KONUSMA_CRITERIA (s. 195) yalnızca bir ölçüt tablosudur; performans düzeyleri ve rubrik hücre betimleyicileri bulunmamaktadır.",
+      "selected_implementation": "analytic_rubric",
+      "shared_contract_profile": "ANALYTIC_RUBRIC (4-Level; Optional 100-Scale Conversion)",
+      "theme_specific_content_required": "Kültür ve gelenek odaklı mekân karşılaştırma sunumu: içerik kurgusu, anlatım akıcılığı, görsel destek kullanımı, organizasyon ve dinleyiciyle iletişim.",
+      "teacher_review_required": true,
+      "generation_status": "READY_TO_GENERATE",
+      "resolver_evidence": {
+        "query": "MAT_T3_KONUSMA_RUBRIC",
+        "resolution_status": "RESOLVED",
+        "canonical_resolution_verified": true,
+        "theme_id": "TEMA_03",
+        "conflicts": [],
+        "ambiguity_status": "UNAMBIGUOUS",
+        "index_status": "INDEX_FRESH",
+        "retrieval_mode": "EXACT+FTS+STRUCTURED+VECTOR",
+        "verified_at": "2026-08-14T12:00:00Z",
+        "retrieval_candidates": [
+          "MAT_T3_KONUSMA_RUBRIC",
+          "OPT_T3_SBP_03_KULTUR_VE_DIL_PANELI",
+          "RES_T3_05_KONUSMA_RUBRIC",
+          "FORM_IN_T3_KONUSMA_CRITERIA",
+          "FORM_BOB_06_T3_KONUSMA_OZ"
+        ],
+        "unselected_school_based_options_in_generation_context": [],
+        "cross_material_content_dependencies_in_generation_context": []
+      },
+      "generation_context_evidence": {
+        "material_id": "MAT_T3_KONUSMA_RUBRIC",
+        "theme_id": "TEMA_03",
+        "required_entities": {
+          "material": {
+            "entity_id": "MAT_T3_KONUSMA_RUBRIC",
+            "verified": true
+          },
+          "outcomes": {
+            "entity_ids": [
+              "TDE3.4"
+            ],
+            "verified": true
+          },
+          "official_requirement": {
+            "present": true,
+            "source_locator": "öğretim programı.pdf, s. 81, 82, 86"
+          },
+          "remaining_gap": {
+            "entity_id": "TDE9_T3_K4",
+            "verified": true
+          },
+          "textbook_forms": {
+            "entity_ids": [
+              "FORM_IN_T3_KONUSMA_CRITERIA"
+            ],
+            "verified": true
+          },
+          "textbook_activities": {
+            "entity_ids": [
+              "T3_ACT_08_KONUSMA_SIRASI",
+              "T3_ACT_09_KONUSMA_SONRASI"
+            ],
+            "verified": true
+          },
+          "assessment_criteria_or_process_evidence": {
+            "entity_ids": [
+              "FORM_IN_T3_KONUSMA_CRITERIA"
+            ],
+            "verified": true
+          },
+          "selected_implementation": {
+            "value": "analytic_rubric",
+            "verified": true
+          },
+          "production_priority": {
+            "value": "REQUIRED",
+            "verified": true
+          }
+        },
+        "source_locators_complete": true,
+        "generation_context_complete": true
+      }
+    },
+    {
+      "material_id": "MAT_T3_YAZMA_RUBRIC",
+      "assessment_family": "ANALYTIC_RUBRIC",
+      "theme_id": "TEMA_03",
+      "theme_title": "3. Tema: Anlamın Yapı Taşları",
+      "block_id": "BLOCK_T3_04_YAZMA",
+      "targeted_outcomes": [
+        "TDE4.4"
+      ],
+      "official_requirement": {
+        "verbatim": "Öğrencinin yazılı ürünleri dereceli puanlama anahtarı ile puanlanır... Puanlama anahtarında anlam, dilin ve görsel ögelerin kullanımı, özgünlük, tutarlılık, doğruluk, yazım ve noktalama gibi ölçütler yer alabilir.",
+        "curriculum_locator": "öğretim programı.pdf, s. 81, 82, 88"
+      },
+      "textbook_counterpart": {
+        "form_id": "FORM_IN_T3_YAZMA_CRITERIA",
+        "structural_type": "assessment_criteria_table",
+        "printed_page": 205,
+        "pdf_page": 206,
+        "activity_id": "T3_ACT_12_YAZMA_SIRASI",
+        "task_title": "İnfografik Metin Değerlendirme Tablosu (Nevruz Belgeseli)"
+      },
+      "remaining_gap": "Ders kitabındaki FORM_IN_T3_YAZMA_CRITERIA (s. 205) bir ölçüt tablosudur; infografik metin tasarım ve yazımını derecelendiren analitik rubrik yapısı mevcut değildir.",
+      "selected_implementation": "analytic_rubric",
+      "shared_contract_profile": "ANALYTIC_RUBRIC (4-Level; Optional 100-Scale Conversion)",
+      "theme_specific_content_required": "Nevruz belgeseli temelli infografik metin üretimi: anlam ve mesaj tutarlılığı, çok modlu görsel-metin uyumu, grafik düzen, özgünlük, yazım ve noktalama doğruluğu.",
+      "teacher_review_required": true,
+      "generation_status": "READY_TO_GENERATE",
+      "resolver_evidence": {
+        "query": "MAT_T3_YAZMA_RUBRIC",
+        "resolution_status": "RESOLVED",
+        "canonical_resolution_verified": true,
+        "theme_id": "TEMA_03",
+        "conflicts": [],
+        "ambiguity_status": "UNAMBIGUOUS",
+        "index_status": "INDEX_FRESH",
+        "retrieval_mode": "EXACT+FTS+STRUCTURED+VECTOR",
+        "verified_at": "2026-08-14T12:00:00Z",
+        "retrieval_candidates": [
+          "MAT_T3_YAZMA_RUBRIC",
+          "OPT_T3_SBP_04_INFOGRAFIK_DIJITAL_TASARIM_LAB",
+          "MAT_T3_KONUSMA_RUBRIC",
+          "FORM_IN_T3_YAZMA_CRITERIA",
+          "T3_ACT_13_YAZMA_SONRASI"
+        ],
+        "unselected_school_based_options_in_generation_context": [],
+        "cross_material_content_dependencies_in_generation_context": []
+      },
+      "generation_context_evidence": {
+        "material_id": "MAT_T3_YAZMA_RUBRIC",
+        "theme_id": "TEMA_03",
+        "required_entities": {
+          "material": {
+            "entity_id": "MAT_T3_YAZMA_RUBRIC",
+            "verified": true
+          },
+          "outcomes": {
+            "entity_ids": [
+              "TDE4.4"
+            ],
+            "verified": true
+          },
+          "official_requirement": {
+            "present": true,
+            "source_locator": "öğretim programı.pdf, s. 81, 82, 88"
+          },
+          "remaining_gap": {
+            "entity_id": "TDE9_T3_Y4",
+            "verified": true
+          },
+          "textbook_forms": {
+            "entity_ids": [
+              "FORM_IN_T3_YAZMA_CRITERIA"
+            ],
+            "verified": true
+          },
+          "textbook_activities": {
+            "entity_ids": [
+              "T3_ACT_12_YAZMA_SIRASI",
+              "T3_ACT_13_YAZMA_SONRASI"
+            ],
+            "verified": true
+          },
+          "assessment_criteria_or_process_evidence": {
+            "entity_ids": [
+              "FORM_IN_T3_YAZMA_CRITERIA"
+            ],
+            "verified": true
+          },
+          "selected_implementation": {
+            "value": "analytic_rubric",
+            "verified": true
+          },
+          "production_priority": {
+            "value": "REQUIRED",
+            "verified": true
+          }
+        },
+        "source_locators_complete": true,
+        "generation_context_complete": true
+      }
+    },
+    {
+      "material_id": "MAT_T4_KONUSMA_RUBRIC",
+      "assessment_family": "ANALYTIC_RUBRIC",
+      "theme_id": "TEMA_04",
+      "theme_title": "4. Tema: Dilin Zenginliği",
+      "block_id": "BLOCK_T4_02_KONUSMA",
+      "targeted_outcomes": [
+        "TDE3.2",
+        "TDE3.3"
+      ],
+      "official_requirement": {
+        "verbatim": "Sunum performansı, dereceli puanlama anahtarı ile puanlanır. Puanlama anahtarında içeriğe uygunluk, özgünlük, sunum becerisi, görsel ögeleri kullanma, zaman ve mekân kullanımı, beden dili ile jest ve mimik kullanımı gibi ölçütler yer alır.",
+        "curriculum_locator": "öğretim programı.pdf, s. 90, 91, 95"
+      },
+      "textbook_counterpart": {
+        "form_id": "FORM_IN_T4_KONUSMA_CRITERIA",
+        "structural_type": "assessment_criteria_table",
+        "printed_page": 279,
+        "pdf_page": 280,
+        "activity_id": "T4_ACT_08_KONUSMA_SIRASI",
+        "task_title": "Dilimizin Zenginlikleri Sunumu Değerlendirme Tablosu"
+      },
+      "remaining_gap": "Ders kitabında s. 279'da yer alan FORM_IN_T4_KONUSMA_CRITERIA yalnızca bir ölçüt tablosudur; performans düzeyleri ve puanlama baremi içermemektedir.",
+      "selected_implementation": "analytic_rubric",
+      "shared_contract_profile": "ANALYTIC_RUBRIC (4-Level; Optional 100-Scale Conversion)",
+      "theme_specific_content_required": "Sosyal medya dili ile edebî dilin özelliklerini karşılaştırma sunumu: içeriğe uygunluk, dil bilinci ve eleştirel bakış, görsel kullanımı, zaman-mekân yönetimi, beden dili ve dil kuralları.",
+      "teacher_review_required": true,
+      "generation_status": "READY_TO_GENERATE",
+      "resolver_evidence": {
+        "query": "MAT_T4_KONUSMA_RUBRIC",
+        "resolution_status": "RESOLVED",
+        "canonical_resolution_verified": true,
+        "theme_id": "TEMA_04",
+        "conflicts": [],
+        "ambiguity_status": "UNAMBIGUOUS",
+        "index_status": "INDEX_FRESH",
+        "retrieval_mode": "EXACT+FTS+STRUCTURED+VECTOR",
+        "verified_at": "2026-08-14T12:00:00Z",
+        "retrieval_candidates": [
+          "MAT_T4_KONUSMA_RUBRIC",
+          "OPT_T4_SBP_01_SOSYAL_MEDYA_DIL_ELESTIRISI_FORUMU",
+          "FORM_BOB_08_T4_KONUSMA_OZ",
+          "FORM_IN_T4_KONUSMA_CRITERIA",
+          "T4_ACT_09_KONUSMA_SONRASI"
+        ],
+        "unselected_school_based_options_in_generation_context": [],
+        "cross_material_content_dependencies_in_generation_context": []
+      },
+      "generation_context_evidence": {
+        "material_id": "MAT_T4_KONUSMA_RUBRIC",
+        "theme_id": "TEMA_04",
+        "required_entities": {
+          "material": {
+            "entity_id": "MAT_T4_KONUSMA_RUBRIC",
+            "verified": true
+          },
+          "outcomes": {
+            "entity_ids": [
+              "TDE3.2",
+              "TDE3.3"
+            ],
+            "verified": true
+          },
+          "official_requirement": {
+            "present": true,
+            "source_locator": "öğretim programı.pdf, s. 90, 91, 95"
+          },
+          "remaining_gap": {
+            "entity_id": "TDE9_T4_K2_K3_SHARED",
+            "verified": true
+          },
+          "textbook_forms": {
+            "entity_ids": [
+              "FORM_IN_T4_KONUSMA_CRITERIA"
+            ],
+            "verified": true
+          },
+          "textbook_activities": {
+            "entity_ids": [
+              "T4_ACT_08_KONUSMA_SIRASI",
+              "T4_ACT_09_KONUSMA_SONRASI"
+            ],
+            "verified": true
+          },
+          "assessment_criteria_or_process_evidence": {
+            "entity_ids": [
+              "FORM_IN_T4_KONUSMA_CRITERIA"
+            ],
+            "verified": true
+          },
+          "selected_implementation": {
+            "value": "analytic_rubric",
+            "verified": true
+          },
+          "production_priority": {
+            "value": "REQUIRED",
+            "verified": true
+          }
+        },
+        "source_locators_complete": true,
+        "generation_context_complete": true
+      }
+    },
+    {
+      "material_id": "MAT_T4_YAZMA_KONTROL_LISTESI",
+      "assessment_family": "PROCESS_CHECKLIST",
+      "theme_id": "TEMA_04",
+      "theme_title": "4. Tema: Dilin Zenginliği",
+      "block_id": "BLOCK_T4_04_YAZMA",
+      "targeted_outcomes": [
+        "TDE4.1"
+      ],
+      "official_requirement": {
+        "verbatim": "Yazma sürecinin tüm aşamalarının başarılı bir şekilde uygulanabilmesi için kontrol listesi hazırlanır.",
+        "curriculum_locator": "öğretim programı.pdf, s. 90, 91, 96"
+      },
+      "textbook_counterpart": {
+        "form_id": null,
+        "structural_type": null,
+        "printed_page": "292-294",
+        "pdf_page": "293-295",
+        "activity_id": "T4_ACT_12_YAZMA_SIRASI",
+        "task_title": "Otobiyografimle Keşfedilmeyi Bekliyorum! Yazma Atölyesi Süreci"
+      },
+      "remaining_gap": "Program TDE4.1'de açıkça 'Yazma sürecinin tüm aşamalarının başarılı bir şekilde uygulanabilmesi için kontrol listesi hazırlanır' hükmünü koymuştur. Kitapta okuma kontrol noktaları varken yazma sürecine ait ikili (Var/Yok - Evet/Hayır) kontrol listesi bulunmamaktadır.",
+      "selected_implementation": "checklist",
+      "shared_contract_profile": "PROCESS_CHECKLIST (Binary Process Tracking, Formative Non-Graded)",
+      "theme_specific_content_required": "Otobiyografi yazma süreci aşamaları: hazırlık, amaç ve hedef kitle belirleme, kronoloji ve olay seçimi, taslak metin yazımı, bağdaşıklık/imla öz düzenlemesi ve paylaşım.",
+      "teacher_review_required": true,
+      "generation_status": "READY_TO_GENERATE",
+      "resolver_evidence": {
+        "query": "MAT_T4_YAZMA_KONTROL_LISTESI",
+        "resolution_status": "RESOLVED",
+        "canonical_resolution_verified": true,
+        "theme_id": "TEMA_04",
+        "conflicts": [],
+        "ambiguity_status": "UNAMBIGUOUS",
+        "index_status": "INDEX_FRESH",
+        "retrieval_mode": "EXACT+FTS+STRUCTURED+VECTOR",
+        "verified_at": "2026-08-14T12:00:00Z",
+        "retrieval_candidates": [
+          "MAT_T4_YAZMA_KONTROL_LISTESI",
+          "T4_ACT_12_YAZMA_SIRASI",
+          "RES_T4_YAZMA_SUREC_KONTROL_LISTESI",
+          "MAT_T4_YAZMA_RUBRIC",
+          "FORM_IN_T4_YAZMA_CRITERIA"
+        ],
+        "unselected_school_based_options_in_generation_context": [],
+        "cross_material_content_dependencies_in_generation_context": []
+      },
+      "generation_context_evidence": {
+        "material_id": "MAT_T4_YAZMA_KONTROL_LISTESI",
+        "theme_id": "TEMA_04",
+        "required_entities": {
+          "material": {
+            "entity_id": "MAT_T4_YAZMA_KONTROL_LISTESI",
+            "verified": true
+          },
+          "outcomes": {
+            "entity_ids": [
+              "TDE4.1"
+            ],
+            "verified": true
+          },
+          "official_requirement": {
+            "present": true,
+            "source_locator": "öğretim programı.pdf, s. 90, 91, 96"
+          },
+          "remaining_gap": {
+            "entity_id": "TDE9_T4_Y1",
+            "verified": true
+          },
+          "textbook_forms": {
+            "entity_ids": [],
+            "verified": true
+          },
+          "textbook_activities": {
+            "entity_ids": [
+              "T4_ACT_12_YAZMA_SIRASI",
+              "T4_ACT_13_YAZMA_SONRASI"
+            ],
+            "verified": true
+          },
+          "assessment_criteria_or_process_evidence": {
+            "entity_ids": [
+              "T4_SEC_05_YAZMA_ATOLYESI",
+              "T4_ACT_12_YAZMA_SIRASI"
+            ],
+            "verified": true
+          },
+          "selected_implementation": {
+            "value": "checklist",
+            "verified": true
+          },
+          "production_priority": {
+            "value": "REQUIRED",
+            "verified": true
+          }
+        },
+        "source_locators_complete": true,
+        "generation_context_complete": true
+      }
+    },
+    {
+      "material_id": "MAT_T4_YAZMA_RUBRIC",
+      "assessment_family": "ANALYTIC_RUBRIC",
+      "theme_id": "TEMA_04",
+      "theme_title": "4. Tema: Dilin Zenginliği",
+      "block_id": "BLOCK_T4_04_YAZMA",
+      "targeted_outcomes": [
+        "TDE4.2",
+        "TDE4.3"
+      ],
+      "official_requirement": {
+        "verbatim": "Değerlendirmede dereceli puanlama anahtarı kullanılır. Puanlama anahtarında yazılı anlatımlar; bağlama uygunluk, dil ve anlatım özelliği, etkileyicilik, gerçeklik, tutarlılık, özgünlük gibi ölçütler bağlamında değerlendirilir.",
+        "curriculum_locator": "öğretim programı.pdf, s. 90, 91, 96"
+      },
+      "textbook_counterpart": {
+        "form_id": "FORM_IN_T4_YAZMA_CRITERIA",
+        "structural_type": "assessment_criteria_table",
+        "printed_page": 294,
+        "pdf_page": 295,
+        "activity_id": "T4_ACT_12_YAZMA_SIRASI",
+        "task_title": "Otobiyografimle Keşfedilmeyi Bekliyorum! Değerlendirme Tablosu"
+      },
+      "remaining_gap": "Ders kitabında s. 294'te yer alan FORM_IN_T4_YAZMA_CRITERIA yalnızca bir ölçüt tablosudur; performans düzeyleri ve puanlama baremi içermez.",
+      "selected_implementation": "analytic_rubric",
+      "shared_contract_profile": "ANALYTIC_RUBRIC (4-Level; Optional 100-Scale Conversion)",
+      "theme_specific_content_required": "Öz yaşam öyküsü (otobiyografi) nihai yazılı metni: bağlama uygunluk, özgün üslup, içtenlik ve gerçeklik, anlatım tutarlılığı, bağdaşıklık, imla-noktalama ve anlatım bozukluklarını giderme.",
+      "teacher_review_required": true,
+      "generation_status": "READY_TO_GENERATE",
+      "resolver_evidence": {
+        "query": "MAT_T4_YAZMA_RUBRIC",
+        "resolution_status": "RESOLVED",
+        "canonical_resolution_verified": true,
+        "theme_id": "TEMA_04",
+        "conflicts": [],
+        "ambiguity_status": "UNAMBIGUOUS",
+        "index_status": "INDEX_FRESH",
+        "retrieval_mode": "EXACT+FTS+STRUCTURED+VECTOR",
+        "verified_at": "2026-08-14T12:00:00Z",
+        "retrieval_candidates": [
+          "MAT_T4_YAZMA_RUBRIC",
+          "T4_ACT_12_YAZMA_SIRASI",
+          "T4_ACT_13_YAZMA_SONRASI",
+          "FORM_IN_T4_YAZMA_CRITERIA",
+          "MAT_T4_YAZMA_KONTROL_LISTESI"
+        ],
+        "unselected_school_based_options_in_generation_context": [],
+        "cross_material_content_dependencies_in_generation_context": []
+      },
+      "generation_context_evidence": {
+        "material_id": "MAT_T4_YAZMA_RUBRIC",
+        "theme_id": "TEMA_04",
+        "required_entities": {
+          "material": {
+            "entity_id": "MAT_T4_YAZMA_RUBRIC",
+            "verified": true
+          },
+          "outcomes": {
+            "entity_ids": [
+              "TDE4.2",
+              "TDE4.3"
+            ],
+            "verified": true
+          },
+          "official_requirement": {
+            "present": true,
+            "source_locator": "öğretim programı.pdf, s. 90, 91, 96"
+          },
+          "remaining_gap": {
+            "entity_id": "TDE9_T4_Y2_Y3_SHARED",
+            "verified": true
+          },
+          "textbook_forms": {
+            "entity_ids": [
+              "FORM_IN_T4_YAZMA_CRITERIA"
+            ],
+            "verified": true
+          },
+          "textbook_activities": {
+            "entity_ids": [
+              "T4_ACT_12_YAZMA_SIRASI",
+              "T4_ACT_13_YAZMA_SONRASI"
+            ],
+            "verified": true
+          },
+          "assessment_criteria_or_process_evidence": {
+            "entity_ids": [
+              "FORM_IN_T4_YAZMA_CRITERIA"
+            ],
+            "verified": true
+          },
+          "selected_implementation": {
+            "value": "analytic_rubric",
+            "verified": true
+          },
+          "production_priority": {
+            "value": "REQUIRED",
+            "verified": true
+          }
+        },
+        "source_locators_complete": true,
+        "generation_context_complete": true
+      }
+    }
+  ],
+  "qa_verification_results": {
+    "OFFICIAL_VS_IMPLEMENTATION_QA": {
+      "status": "PASS",
+      "findings": "Resmî programdaki verbatim ifadeler ('dereceli puanlama anahtarı', 'kontrol listesi') ile seçilen pedagojik araç adları ('analytic_rubric', 'checklist') kesin çizgilerle ayrılmış; analitik rubrik pedagojik uygulama formatı olarak tescil edilmiştir."
+    },
+    "CRITERION_PROVENANCE_QA": {
+      "status": "PASS",
+      "findings": "Ölçüt kaynak hiyerarşisi (official_curriculum -> official_textbook -> pedagogical_recommendation) tanımlanmış; programdaki 'vb.' ifadesinin resmî ölçüt uydurma aracı yapılması engellenmiştir."
+    },
+    "PROVENANCE_SCHEMA_CONSISTENCY_QA": {
+      "status": "PASS",
+      "findings": "Ölçüt provenance şeması 3 değerli canonical origin_enum (official_curriculum, official_textbook, pedagogical_recommendation) ile tam uyumludur; dördüncü veya tutarsız bir origin türü bulunmamaktadır."
+    },
+    "TEXTBOOK_PRESERVATION_QA": {
+      "status": "PASS",
+      "findings": "Ders kitabındaki ve programdaki mevcut ölçüt adları tahrif edilmeden korunmuş; ölçüt kökeni ile hücre betimleyici üretimi ayrılmıştır."
+    },
+    "DESCRIPTOR_STANDARD_QA": {
+      "status": "PASS",
+      "findings": "Somut ve gözlenebilir öğrenci performansına dayalı, komşu düzeylerden ayırt edilebilir, tek boyutlu, cezalandırıcı olmayan yapıcı betimleyici standartları belirlenmiştir."
+    },
+    "GENERIC_LEVEL_NEUTRALITY_QA": {
+      "status": "PASS",
+      "findings": "Genel 4 düzey anlamları tamamen criterion-neutral (ölçüt-bağımsız: tamlık, doğruluk, tutarlılık, bağımsız uygulama ve destek düzeyi) olarak formüle edilmiş; özgünlük veya estetik gibi kriter-spesifik nitelikler genel tanımdan arındırılmıştır."
+    },
+    "SCORING_MODEL_QA": {
+      "status": "PASS",
+      "findings": "Resmî scoring kuralının kaynakça belirtilmediği (null) tescil edilmiş; birincil ölçme modeli olarak 1.00-4.00 ham ortalama ve isteğe bağlı gösterim için 100'lük deterministik dönüşüm modeli tanımlanmıştır."
+    },
+    "SCORING_INTERPRETATION_QA": {
+      "status": "PASS",
+      "findings": "100'lük sistemin resmî MEB kuralı olmadığı, isteğe bağlı gösterim sağladığı, asıl modelin 1-4 baremi olduğu ve LEVEL_1 tabanının (25/100) başarı iddiası olarak yorumlanamayacağı açıkça belirtilmiştir."
+    },
+    "SPEAKING_EVIDENCE_QA": {
+      "status": "PASS",
+      "findings": "Konuşma değerlendirmesi gerçek sözlü sunum icrasına dayandırılmış; yazılı soruyla konuşma ölçme hatası yasaklanmıştır."
+    },
+    "WRITING_EVIDENCE_QA": {
+      "status": "PASS",
+      "findings": "Yazılı ürün değerlendirmesi ile yazma sürecinin aşamaları ayrılmış; tema-spesifik yazma türü gereksinimleri tanımlanmıştır."
+    },
+    "CHECKLIST_SEPARATION_QA": {
+      "status": "PASS",
+      "findings": "MAT_T4_YAZMA_KONTROL_LISTESI bağımsız bir süreç izleme aracı olarak yapılandırılmış; analitik rubriğe veya notlandırma puanına dönüştürülmesi engellenmiştir."
+    },
+    "ACCESSIBILITY_QA": {
+      "status": "PASS",
+      "findings": "Kısa ve net betimleyiciler, renksiz/baskı uyumu, ekran okuyucu semantiği ve alternatif katılım/geri bildirim ilkeleri tanımlanmıştır."
+    },
+    "COPYRIGHT_QA": {
+      "status": "PASS",
+      "findings": "Ders kitabı veya edebî metinlerin uzun kopyalanması engellenmiş; locator referansı, sayfa referanslama modu ve kısa ölçüt adları standardı konmuştur."
+    },
+    "COPYRIGHT_TERMINOLOGY_QA": {
+      "status": "PASS",
+      "findings": "Özel hukuk kavramları veya doğrulanmamış telif hakkı istisnası iddialarından kaçınılmış; canonical hak durumu ve kaynak-nötr pedagojik türetim standartları tescil edilmiştir."
+    },
+    "RIGHTS_ENUM_CONSISTENCY_QA": {
+      "status": "PASS",
+      "findings": "Rights durumu yalnızca canonical enum listesindeki (PUBLIC_DOMAIN, OPEN_LICENSE, OFFICIAL_REUSE_ALLOWED, LIMITED_QUOTATION, LINK_ONLY, UNKNOWN_RIGHTS, DO_NOT_USE) geçerli değer olan OFFICIAL_REUSE_ALLOWED ile tanımlanmış; gayriresmî enum değerleri tamamen kaldırılmıştır."
+    },
+    "TEACHER_REVIEW_GATE_QA": {
+      "status": "PASS",
+      "findings": "Tüm üretilecek materyaller için teacher_review_required = true ve Teacher Review = REVIEW_REQUIRED zorunluluğu tescil edilmiştir."
+    },
+    "RESOLVER_EVIDENCE_QA": {
+      "status": "PASS",
+      "findings": "7 REQUIRED materyalin tamamı KnowledgeResolver üzerinden tekil olarak çalıştırılmış; resolution_status=RESOLVED, canonical_resolution_verified=true, conflicts=[], ambiguity=UNAMBIGUOUS ve index=INDEX_FRESH kanıtları doğrulanmıştır."
+    },
+    "GENERATION_CONTEXT_COMPLETENESS_QA": {
+      "status": "PASS",
+      "findings": "7 REQUIRED materyalin tamamı için material identity, outcomes, official requirement, remaining gap, textbook forms/activities, assessment criteria / process evidence, selected implementation ve priority alanları eksiksiz doğrulanmış; 7/7 generation_context_complete = true tescil edilmiştir."
+    },
+    "SCHOOL_BASED_CONTAMINATION_QA": {
+      "status": "PASS",
+      "findings": "NOT_SELECTED durumundaki okul temelli planlama seçenekleri (OPT_T2_..., OPT_T3_..., OPT_T4_...) yalnızca retrieval_candidates seviyesinde tutulmuş, canonical generation context içine hiçbir unselected seçenek dahil edilmemiştir (7/7 unselected_school_based_options_in_generation_context = [])."
+    },
+    "CROSS_MATERIAL_CONTENT_CONTAMINATION_QA": {
+      "status": "PASS",
+      "findings": "Komşu veya ilişkili materyal kimlikleri yalnızca semantik aday seviyesinde tutulmuş; materyaller arasında hiçbir içeriksel kopyalama/miras alma yapılmamıştır (7/7 cross_material_content_dependencies_in_generation_context = [])."
+    },
+    "MATERIAL_MATRIX_QA": {
+      "status": "PASS",
+      "findings": "7 REQUIRED materyalin tamamı (6 analytic_rubric, 1 checklist) eksiksiz meta alanları, resolver evidence, generation context evidence ve kaynak bağıyla matriste korunmuştur."
+    }
+  },
+  "school_based_context_policy": {
+    "policy_name": "SCHOOL_BASED_CONTEXT_POLICY",
+    "default_selection_status": "NOT_SELECTED",
+    "default_generation_status": "NOT_REQUESTED",
+    "default_origin": "pedagogical_recommendation",
+    "rules": [
+      "NOT_SELECTED okul temelli planlama seçenekleri (OPT_T1_..., OPT_T2_..., OPT_T3_..., OPT_T4_...) semantic retrieval candidate listesinde bulunabilir.",
+      "Ancak bu seçenekler canonical_generation_context / generation_context_evidence içine kesinlikle dahil edilmez.",
+      "Öğretmen tarafından seçilmemiş veya talep edilmemiş seçenekler REQUIRED materyallerin ölçütleri, düzey betimleyicileri, görev kabulleri veya kaynak doğruları üzerinde hiçbir etki yapamaz.",
+      "REQUIRED üretim bağlamı yalnızca onaylanmış kanonik ve resmî üretim kaynaklarından (Rank 1-7) çözülür.",
+      "Her REQUIRED materyal için unselected_school_based_options_in_generation_context = [] doğrulanmalıdır."
+    ]
+  },
+  "cross_material_content_policy": {
+    "policy_name": "CROSS_MATERIAL_CONTENT_POLICY",
+    "rules": [
+      "Semantik arama sırasında komşu veya ilişkili REQUIRED materyaller aday listesinde görünebilir (örn. MAT_T2_YAZMA_RUBRIC sorgusunda MAT_T2_KONUSMA_RUBRIC).",
+      "Bu durum tek başına bir çelişki (conflict) değildir; ancak generation context'e yalnızca açık yapısal veya hiyerarşik bağımlılık varsa dahil edilir.",
+      "Bir materyal başka bir materyale doğrudan içeriksel olarak bağımlı değilse, diğer materyalin ölçütlerini, betimleyici yapısını veya içerik kanıtlarını miras alamaz.",
+      "Assessment Design Contract yalnızca STRUCTURAL template paylaşımı sağlar; materyaller arasında asla CONTENT inheritance yapılmaz.",
+      "Her REQUIRED materyal için cross_material_content_dependencies_in_generation_context = [] doğrulanmalıdır."
+    ]
+  },
+  "context_minimization_principles": {
+    "principle_name": "MINIMUM_SUFFICIENT_GENERATION_CONTEXT",
+    "definition": "Downstream materyal üretecine ham vektör arama sonuçları veya tam resolver dökümü yerine yalnızca filtrelenmiş ve doğrulanmış canonical_generation_context verilir.",
+    "rubric_minimum_context_fields": [
+      "material_identity",
+      "targeted_outcomes",
+      "official_requirement",
+      "remaining_gap",
+      "textbook_form",
+      "textbook_activity",
+      "criterion_sources",
+      "source_locators",
+      "assessment_design_contract_profile"
+    ],
+    "checklist_minimum_context_fields": [
+      "material_identity",
+      "targeted_outcome (TDE4.1)",
+      "official_process_requirement",
+      "remaining_gap",
+      "textbook_writing_process_evidence",
+      "process_stage_sources",
+      "source_locators",
+      "checklist_contract_profile"
+    ]
+  }
+}

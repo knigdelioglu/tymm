@@ -1,0 +1,4 @@
+interface:
+  display_name: "TYMM Material Planner"
+  short_description: "TYMM uyumlu ders kaynakları ve materyalleri"
+  default_prompt: "Use $tymm-material-planner to plan and create classroom resources from the provided official curriculum and textbook."

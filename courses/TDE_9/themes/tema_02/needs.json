@@ -1,0 +1,372 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_9",
+  "theme_id": "TEMA_02",
+  "theme_no": 2,
+  "theme_title": "2. TEMA: ANLAM ARAYIŞI",
+  "source_manifest_fingerprint": "VERIFIED",
+  "curriculum_source_locator": "öğretim programı.pdf, s. 73-79",
+  "textbook_source_locator": "9edb.pdf, s. 72-143 (PDF: 73-144)",
+  "total_needs_indexed": 12,
+  "instructional_needs": [
+    {
+      "need_id": "NEED_T2_D1",
+      "targeted_learning_outcomes": [
+        "TDE1.1"
+      ],
+      "outcome_verbatim": "TDE1.1. “Anlam Arayışı” temasında ele alınan metinlerde dinlemeyi/izlemeyi yönetebilme",
+      "targeted_process_components": [],
+      "domain_or_subject_profile": "TDE / Türkçe",
+      "conceptual_prerequisites": "Dinleme türleri (özellikle estetik dinleme), dinleme kuralları, ses tonu ve vurgu kavramları.",
+      "procedural_or_skill_prerequisites": "Dinleme öncesinde hazırlık yapma, dinleme amacını ve stratejisini belirleme, dinleme sürecinde dikkatini sürdürme.",
+      "expected_student_actions": "Öğretmen yönlendirmesiyle şairin sesinden seslendirilmiş bir şiiri estetik dinleme stratejisiyle dinlemeye hazırlanma, dinleme kurallarını gözden geçirme ve süreci yönetme.",
+      "expected_student_evidence": "Dinleme öncesi hazırlık notları, dinleme kurallarına uyum ve dinleme sırası süreci.",
+      "likely_misconceptions": "Dinlemenin yalnızca pasif bir işitme eylemi olduğu; şiir dinlerken strateji veya hazırlık gerekmediği varsayımı.",
+      "cognitive_demand": "Uygulama / Süreç Yönetimi",
+      "interaction_need": "Bireysel dinleme hazırlığı ve sınıf içi ortak dinleme süreci.",
+      "representation_need": "İşitsel girdi (ses kaydı) ve metin yönergeleri.",
+      "practice_need": "Şiir dinleme öncesinde amaç belirleme ve dinleme sürecini yönetme pratiği.",
+      "feedback_need": "Öğretmenin dinleme kurallarına ve stratejisine yönelik anlık sözlü geri bildirimi.",
+      "assessment_need": "Dinleme kurallarına ilişkin kontrol listesi / süreç gözlemi.",
+      "differentiation_need": "İşitme güçlüğü yaşayan veya odaklanma desteği gereken öğrenciler için metin takibi ve kulaklık desteği.",
+      "enrichment_opportunity": "Farklı şairlerin kendi sesinden şiir kayıtlarını araştırma ve karşılaştırma.",
+      "accessibility_need": "Ses kaydı için yazılı metin desteği (şairin ses kaydı metni basılı s. 132'de mevcuttur).",
+      "safety_need": "N/A",
+      "external_content_need": "N/A",
+      "rationale": "Program s. 74 ve 78'de öğrencilerin estetik dinleme stratejileri belirleyerek dinleme sürecini yönetmelerini ve kurallara uygun davranmalarını öngörmektedir.",
+      "provenance": {
+        "program_locator": "öğretim programı.pdf, s. 74, 78",
+        "textbook_locator": "9edb.pdf, s. 131-132 (PDF: 132-133)"
+      }
+    },
+    {
+      "need_id": "NEED_T2_D2",
+      "targeted_learning_outcomes": [
+        "TDE1.2"
+      ],
+      "outcome_verbatim": "TDE1.2. “Anlam Arayışı” temasında ele alınan metinlerde anlam oluşturabilme",
+      "targeted_process_components": [],
+      "domain_or_subject_profile": "TDE / Türkçe",
+      "conceptual_prerequisites": "Tema, ana duygu, ahenk unsurları (ritim, kafiye, redif), söz varlığı, açık ve örtük ileti, şiir türleri (lirik vb.).",
+      "procedural_or_skill_prerequisites": "Dinlenen metinden hareketle anlam çıkarma, ahenk unsurlarını ve şairin duygusunu çözümleme, dinlenen şiiri kendi dizeleriyle tamamlama.",
+      "expected_student_actions": "Dinlenen şiirin ana duygusunu, ritim ve ahenk ögelerini, söz varlığını tahlil etme; şiirin türünü belirleme; açık ve örtük iletileri yorumlama; bir bölümü verilen şiire kendi dizelerini ekleyerek devam etme.",
+      "expected_student_evidence": "Dinleme tahlili soru cevapları, söz varlığı ve ahenk inceleme notları, metin tamamlama ürünleri.",
+      "likely_misconceptions": "Şiirin anlamının tek ve değişmez olduğu; ahenk unsurlarının anlama katkı sağlamadığı sanısı.",
+      "cognitive_demand": "Çözümleme / Değerlendirme / Yaratıcı Tamamlama",
+      "interaction_need": "Bireysel çözümleme ve sınıf içi paylaşım/tartışma.",
+      "representation_need": "İşitsel ses kaydı, şiir metni, tahlil soruları ve etkinlik tabloları.",
+      "practice_need": "Dinleme sonrası metin tahlili sorularını yanıtlama ve şiir tamamlama alıştırması.",
+      "feedback_need": "Öğretmen ve akran geri bildirimi ile tahlil sonuçlarının derinleştirilmesi.",
+      "assessment_need": "Açık uçlu sorular, tahlil tablosu ve çıkış kartı (3 temel özellik).",
+      "differentiation_need": "Destekleme: Dize tamamlama için kelime havuzu ve kafiye ipuçları sağlama.",
+      "enrichment_opportunity": "Zenginleştirme: Dinlenen şiirin bestelenmiş versiyonlarını dinleyerek müzikal ahenk ile edebî ahenk ilişkisini inceleme.",
+      "accessibility_need": "Metin okunabilirliği, kontrast ve ses kaydı kalitesi.",
+      "safety_need": "N/A",
+      "external_content_need": "N/A",
+      "rationale": "Program s. 74, 75 ve 78'de dinlenen şiir üzerinden anlam oluşturma, ahenk unsurlarını belirleme ve yaratıcı dize tamamlama eylemlerini talep etmektedir.",
+      "provenance": {
+        "program_locator": "öğretim programı.pdf, s. 74, 75, 78",
+        "textbook_locator": "9edb.pdf, s. 133-138 (PDF: 134-139)"
+      }
+    },
+    {
+      "need_id": "NEED_T2_O1",
+      "targeted_learning_outcomes": [
+        "TDE2.1"
+      ],
+      "outcome_verbatim": "TDE2.1. “Anlam Arayışı” temasında ele alınan metinlerde okumayı yönetebilme",
+      "targeted_process_components": [],
+      "domain_or_subject_profile": "TDE / Türkçe",
+      "conceptual_prerequisites": "Metin türleri (hikâye, anı), okuma stratejileri, metin başlığı, görsel ve kurgu ilişkisi.",
+      "procedural_or_skill_prerequisites": "Okuma öncesinde başlık ve görsellerden tahmin yapma, okuma amacını belirleme, uygun okuma yöntemini seçme.",
+      "expected_student_actions": "Hikâye ve anı metinlerini okumadan önce başlık ve görsellerden yola çıkarak içeriğe yönelik tahminlerde bulunma, okuma amacını ve stratejisini belirleme.",
+      "expected_student_evidence": "Okuma öncesi hazırlık sorularının cevapları, tahmin notları.",
+      "likely_misconceptions": "Okumanın yalnızca harfleri seslendirmek olduğu; okuma öncesi hazırlık ve tahminin gereksiz olduğu yanılgısı.",
+      "cognitive_demand": "Anlama / Tahmin / Süreç Yönetimi",
+      "interaction_need": "Bireysel hazırlık ve sınıf içi beyin fırtınası.",
+      "representation_need": "Metin başlıkları, görseller ve hazırlık soruları.",
+      "practice_need": "Farklı türdeki (hikâye ve anı) metinler için okuma stratejisi belirleme.",
+      "feedback_need": "Öğretmenin kısa cevaplı sorularla tahminleri ve hazırlığı değerlendirmesi.",
+      "assessment_need": "Kısa cevaplı sorular ve hazırlık notları.",
+      "differentiation_need": "Görsel okuma ipuçları ve yönlendirici sorularla hazırlık desteği.",
+      "enrichment_opportunity": "Metinlerin yazıldığı döneme ait tarihî ve kültürel bağlamı araştırma.",
+      "accessibility_need": "Görseller için betimleyici bağlam ve okunabilir yazı tipi.",
+      "safety_need": "N/A",
+      "external_content_need": "N/A",
+      "rationale": "Program s. 74, 75 ve 76'da okuma sürecinin bilinçli biçimde yönetilmesini, hazırlık ve strateji seçiminin kısa cevaplı sorularla izlenmesini beklemektedir.",
+      "provenance": {
+        "program_locator": "öğretim programı.pdf, s. 74, 75, 76",
+        "textbook_locator": "9edb.pdf, s. 76, 99 (PDF: 77, 100)"
+      }
+    },
+    {
+      "need_id": "NEED_T2_O2",
+      "targeted_learning_outcomes": [
+        "TDE2.2"
+      ],
+      "outcome_verbatim": "TDE2.2. “Anlam Arayışı” temasında ele alınan metinlerde anlam oluşturabilme",
+      "targeted_process_components": [],
+      "domain_or_subject_profile": "TDE / Türkçe",
+      "conceptual_prerequisites": "Hikâye ve anı tür özellikleri, tema, konu, ana düşünce, yardımcı düşünce, olay örgüsü, anlatıcı, bakış açısı, çatışma, kurgusal ve tarihî gerçeklik, Türkçenin ses bilgisi.",
+      "procedural_or_skill_prerequisites": "Metin tahlili yapma, hikâye haritası çıkarma, hikâye ve anıyı karşılaştırma, yazar-metin ilişkisini kurma, ses olaylarını tespit etme, metne yönelik eleştiri ve beğeni gerekçelendirme.",
+      "expected_student_actions": "Okunan hikâye ('Bir Kavak ve İnsanlar') ve anı ('Nihayet Beklediğimiz Büyük Gün') metinlerinin yapı, içerik ve dil unsurlarını tahlil etme; hikâye haritası çıkarma; kurgusal ve gerçek olayları ayırt etme; karşılaştırma tablosu doldurma; metinlerdeki ses olaylarını inceleme; öğrenme günlüğü/duvarı ile çıkarımlarını paylaşma.",
+      "expected_student_evidence": "Doldurulmuş hikâye haritaları, metin tahlil soruları cevapları, karşılaştırma tabloları, kontrol noktası işaretlemeleri, ses bilgisi çalışmaları.",
+      "likely_misconceptions": "Özet çıkarmanın metin tahlili ile aynı olduğu; anı ile hikâyenin gerçeklik boyutunun farksız olduğu; ses bilgisinin metin anlamından bağımsız ezber kural olduğu sanısı.",
+      "cognitive_demand": "Çözümleme / Karşılaştırma / Değerlendirme",
+      "interaction_need": "Küçük grup çalışmaları, grupça hikâye haritası birleştirme, sınıf içi karşılaştırma tartışması.",
+      "representation_need": "Metinler, hikâye haritası şablonu, karşılaştırma matrisleri, dil bilgisi tabloları.",
+      "practice_need": "Yoğun metin tahlili, yapı unsurlarını haritalama ve türler arası karşılaştırma alıştırmaları.",
+      "feedback_need": "Öğretmen tahlil dönütleri, akran grup paylaşımları ve kontrol noktası öz değerlendirmesi.",
+      "assessment_need": "Kısa cevaplı ve açık uçlu sorular, hikâye haritası, karşılaştırma tablosu, kontrol noktası testleri, öğrenme günlüğü.",
+      "differentiation_need": "Destekleme: Fotoğraftan hareketle anı yazma ve yapılandırılmış hikâye şablonu; Zenginleştirme: Aynı temayı işleyen farklı türdeki eserleri karşılaştırma ve antoloji oluşturma.",
+      "accessibility_need": "Okunaklı metin düzeni, net tablo başlıkları.",
+      "safety_need": "N/A",
+      "external_content_need": "N/A",
+      "rationale": "Program s. 74, 75, 76-77'de hikâye ve anı metinleri üzerinden derinlemesine tahlil, tür karşılaştırması ve dil incelemesini zorunlu kılmaktadır.",
+      "provenance": {
+        "program_locator": "öğretim programı.pdf, s. 74, 75, 76-77",
+        "textbook_locator": "9edb.pdf, s. 77-98, 100-124 (PDF: 78-99, 101-125)"
+      }
+    },
+    {
+      "need_id": "NEED_T2_K1",
+      "targeted_learning_outcomes": [
+        "TDE3.1"
+      ],
+      "outcome_verbatim": "TDE3.1. Konusunu ana düşünce etrafında detaylandırdığı akıcı bir konuşma sürecini yönetebilme",
+      "targeted_process_components": [],
+      "domain_or_subject_profile": "TDE / Türkçe",
+      "conceptual_prerequisites": "Karakter kavramı, konuşma amaçları, hazırlıklı konuşma basamakları, konuşma stratejileri.",
+      "procedural_or_skill_prerequisites": "Hikâyeden karakter seçme, konuşma amacını ve stratejisini belirleme, zamanı ve sunum adımlarını planlama.",
+      "expected_student_actions": "İncelenen hikâye metninden bir karakter seçme, bu karakterle ilgili konuşma amacını ve stratejisini belirleyerek hazırlık sürecini başlatma.",
+      "expected_student_evidence": "Karakter seçimi notları, konuşma amacı ve stratejisi planı.",
+      "likely_misconceptions": "Konuşmanın hazırlıksız ve plansız yapılabileceği; karakter tanıtımının yalnızca metindeki cümleleri okumaktan ibaret olduğu yanılgısı.",
+      "cognitive_demand": "Uygulama / Planlama / Karar Verme",
+      "interaction_need": "Bireysel planlama ve öğretmen rehberliği.",
+      "representation_need": "Konuşma hazırlık kılavuzu ve etkinlik yönergeleri.",
+      "practice_need": "Konuşma amacını ve stratejisini yapılandırma.",
+      "feedback_need": "Öğretmenin amaç ve strateji seçimine ilişkin ön rehberliği.",
+      "assessment_need": "Süreç planı ve hazırlık basamakları kontrolü.",
+      "differentiation_need": "Karakter seçiminde ve konuşma amacı belirlemede yönlendirici soru desteği.",
+      "enrichment_opportunity": "Karakterin psikolojik ve toplumsal arka planını araştırma.",
+      "accessibility_need": "Yönergelerin net ve adımlı sunulması.",
+      "safety_need": "N/A",
+      "external_content_need": "N/A",
+      "rationale": "Program s. 74, 75 ve 77'de konuşma sürecinin hedefe uygun biçimde yönetilmesini ve strateji belirlenmesini gerektirmektedir.",
+      "provenance": {
+        "program_locator": "öğretim programı.pdf, s. 74, 75, 77",
+        "textbook_locator": "9edb.pdf, s. 125-128 (PDF: 126-129)"
+      }
+    },
+    {
+      "need_id": "NEED_T2_K2",
+      "targeted_learning_outcomes": [
+        "TDE3.2"
+      ],
+      "outcome_verbatim": "TDE3.2. Konusunu ana düşünce etrafında detaylandırdığı konuşma içeriğini oluşturabilme",
+      "targeted_process_components": [],
+      "domain_or_subject_profile": "TDE / Türkçe",
+      "conceptual_prerequisites": "Karakter tahlili, örtüştürme/özdeşleştirme, sınıflandırma (iyi-kötü, durağan-devingen), kurgu oluşturma, görsel tasarım.",
+      "procedural_or_skill_prerequisites": "Karakteri gerçek ya da kurgusal başka kişilerle karşılaştırma, benzerlik/farklılıkları belirleme, estetik kurgu tasarlama, sunum için görsel/karikatür hazırlama.",
+      "expected_student_actions": "Seçilen karakteri kendi yaşamından veya sinema/tiyatrodan bir kişiyle örtüştürme; benzerlik ve farklılıkları sınıflandırma; estetik bir bakış açısıyla karakteri yeniden kurgulama; sunumu zenginleştirecek görsel hazırlama.",
+      "expected_student_evidence": "Karakter kurgusu metni/taslağı, karakter sınıflandırma şeması, sunum görseli/çizimi.",
+      "likely_misconceptions": "Kurgusal karakter ile gerçek kişinin birebir aynı olması gerektiği; sunum içeriğinin ana düşünceden kopuk anekdotlar içerebileceği yanılgısı.",
+      "cognitive_demand": "Yaratma / Sentezleme / Kurgulama",
+      "interaction_need": "Bireysel kurgulama ve aynı karakteri seçen akranlarla fikir alışverişi.",
+      "representation_need": "Görsel çizim/karikatür, kurgu planı tablosu.",
+      "practice_need": "Karakter yeniden kurgulama ve sunum taslağı oluşturma pratiği.",
+      "feedback_need": "İçeriğin tutarlılığına ve ana düşünceyle bağına yönelik akran/öğretmen ön dönütü.",
+      "assessment_need": "Performans görevi içerik taslağı değerlendirmesi.",
+      "differentiation_need": "Karakter kurgusunda karşılaştırma matrisi ve görsel şablon desteği.",
+      "enrichment_opportunity": "Karakter sunumu için dijital animasyon veya çok modlu sunum hazırlama.",
+      "accessibility_need": "Görsel hazırlayamayan öğrenciler için sözlü betimleme alternatifi.",
+      "safety_need": "N/A",
+      "external_content_need": "N/A",
+      "rationale": "Program s. 74, 75 ve 77-78'de karakterin yeniden kurgulanmasını, sınıflandırılmasını ve görselle desteklenerek içerik üretilmesini açıkça talep etmektedir.",
+      "provenance": {
+        "program_locator": "öğretim programı.pdf, s. 74, 75, 77-78",
+        "textbook_locator": "9edb.pdf, s. 125-128 (PDF: 126-129)"
+      }
+    },
+    {
+      "need_id": "NEED_T2_K3",
+      "targeted_learning_outcomes": [
+        "TDE3.3"
+      ],
+      "outcome_verbatim": "TDE3.3. Konusunu ana fikir etrafında detaylandırdığı konuşmasında kural uygulayabilme",
+      "targeted_process_components": [],
+      "domain_or_subject_profile": "TDE / Türkçe",
+      "conceptual_prerequisites": "Sözlü anlatım kuralları, ses ve diksiyon, vurgu-tonlama, beden dili, jest-mimik, zaman yönetimi, bağlama uygun söz varlığı, açık ve örtük ileti.",
+      "procedural_or_skill_prerequisites": "Topluluk önünde konuşma kurallarını uygulama, süreyi etkili kullanma, beden dilini ve ses tonunu konuşmaya uyarlama, dinleyicilerle etkileşim kurma.",
+      "expected_student_actions": "Hazırladığı karakter sunumunu sınıfta sözlü olarak sergileme; sesini, beden dilini, söz varlığını ve süresini kurallara uygun biçimde kullanma.",
+      "expected_student_evidence": "Sözlü sunum performansı (sınıf içi canlı konuşma).",
+      "likely_misconceptions": "Ezberden hızlı okumanın iyi konuşma olduğu; beden dili ve göz temasının ikincil olduğu sanısı.",
+      "cognitive_demand": "Uygulama / Performans Sergileme",
+      "interaction_need": "Grup içi sunum, sınıf önünde performans ve dinleyici etkileşimi.",
+      "representation_need": "Sözlü sunum, görsel destek ve hitabet.",
+      "practice_need": "Canlı konuşma performansı sergileme pratiği.",
+      "feedback_need": "Sunum sırasındaki konuşma kurallarına ilişkin anlık ve süreç sonu dönütler.",
+      "assessment_need": "Konuşma değerlendirme ölçütleri ve performans gözlemi.",
+      "differentiation_need": "Konuşma kaygısı yaşayan öğrenciler için küçük grup önünde sunum veya ses kaydı ile aşamalı geçiş.",
+      "enrichment_opportunity": "Hitabet tekniklerini ve etkili sunum yöntemlerini derinlemesine inceleme.",
+      "accessibility_need": "Konuşma güçlüğü olan öğrenciler için alternatif sunum kanalları.",
+      "safety_need": "N/A (Sınıf ortamı, kayıt alınacaksa veli/öğrenci mahremiyeti gözetilmelidir).",
+      "external_content_need": "N/A",
+      "rationale": "Program s. 74, 75 ve 78'de konuşma kurallarının canlı performansla uygulanmasını zorunlu kılmaktadır.",
+      "provenance": {
+        "program_locator": "öğretim programı.pdf, s. 74, 75, 78",
+        "textbook_locator": "9edb.pdf, s. 128-129 (PDF: 129-130)"
+      }
+    },
+    {
+      "need_id": "NEED_T2_K4",
+      "targeted_learning_outcomes": [
+        "TDE3.4"
+      ],
+      "outcome_verbatim": "TDE3.4. Konuşmasının içeriğinde kullandığı unsurların konuşmasına olan etkisini yansıtabilme",
+      "targeted_process_components": [],
+      "domain_or_subject_profile": "TDE / Türkçe",
+      "conceptual_prerequisites": "Öz değerlendirme, akran değerlendirmesi, performans düzeyleri, geri bildirim, konuşma kusurları ve telafi stratejileri.",
+      "procedural_or_skill_prerequisites": "Kendi konuşmasını ve akranlarının sunumunu ölçütlere göre değerlendirme, eleştirileri kabullenme, eksiklikleri tespit edip geleceğe dönük yansıtma yapma.",
+      "expected_student_actions": "Sunum sonrasında akranlarının konuşmasını değerlendirme; akranlarından gelen geri bildirimleri dikkate alarak öz değerlendirme formunu doldurma; güçlü ve zayıf yönlerini yansıtarak telafi hedefleri belirleme.",
+      "expected_student_evidence": "Doldurulmuş öz değerlendirme formu, doldurulmuş akran değerlendirme formu, yansıtma notları ve öğretmenin dereceli puanlama anahtarı çıktısı.",
+      "likely_misconceptions": "Değerlendirmenin sadece not verme amaçlı olduğu; akran değerlendirmesinin kişisel beğeniye dayandığı; öz değerlendirmede hataları gizlemenin başarı getirdiği sanısı.",
+      "cognitive_demand": "Değerlendirme / Üstbilişsel Yansıtma",
+      "interaction_need": "Akranlar arası karşılıklı geri bildirim ve öğretmen-öğrenci değerlendirme diyaloğu.",
+      "representation_need": "Öz değerlendirme formu, akran değerlendirme formu, analitik dereceli puanlama anahtarı ve yansıtma soruları.",
+      "practice_need": "Kriter temelli akran değerlendirmesi ve üstbilişsel öz değerlendirme pratiği.",
+      "feedback_need": "Öğretmenden analitik dereceli puanlama anahtarı düzey betimleyicileriyle somut, kriter bazlı geri bildirim alma.",
+      "assessment_need": "Öğretmen için Analitik Dereceli Puanlama Anahtarı (Analytic Rubric), Öğrenci Öz Değerlendirme Formu, Akran Değerlendirme Formu.",
+      "differentiation_need": "Yansıtma sorularını yapılandırılmış cümle başlangıçlarıyla destekleme.",
+      "enrichment_opportunity": "Konuşma gelişim portfolyosu oluşturarak tema boyunca sözlü beceri gelişimini grafiklendirme.",
+      "accessibility_need": "Formların anlaşılır, açık ve doldurulabilir formatta olması.",
+      "safety_need": "N/A",
+      "external_content_need": "N/A",
+      "rationale": "Program s. 74, 75 ve 78'de konuşma sonrası akran değerlendirmesi, öz değerlendirme ve öğretmenin dereceli puanlama anahtarı (ses ve diksiyon, akıcılık, beden dili, içerik kurgusu, zaman yönetimi, Türkçe kullanımı, etkileyicilik ölçütleriyle) ile değerlendirme ve geri bildirim sürecini zorunlu kılmaktadır.",
+      "provenance": {
+        "program_locator": "öğretim programı.pdf, s. 74, 75, 78",
+        "textbook_locator": "9edb.pdf, s. 129, 130, 305, 310, 312 (PDF: 130, 131, 306, 311, 313)"
+      }
+    },
+    {
+      "need_id": "NEED_T2_Y1",
+      "targeted_learning_outcomes": [
+        "TDE4.1"
+      ],
+      "outcome_verbatim": "TDE4.1. Konu zenginliği ve çeşitliliğini sağlayan edebî metinlerde yazma sürecini yönetebilme",
+      "targeted_process_components": [],
+      "domain_or_subject_profile": "TDE / Türkçe",
+      "conceptual_prerequisites": "Şiir yazma aşamaları (hazırlık, planlama, taslak oluşturma, gözden geçirme, düzeltme/paylaşma), yazma stratejileri.",
+      "procedural_or_skill_prerequisites": "Dinlenen şiirin temasından hareketle yazma amacını belirleme, yeni metin oluşturma stratejisi seçme, yazma sürecini aşamalandırma.",
+      "expected_student_actions": "Dinlenen/izlenen şiirin temasına uygun özgün bir şiir yazmak üzere yazma sürecini başlatma; tema ve duygu belirleyerek hazırlık ve planlama adımlarını yönetme.",
+      "expected_student_evidence": "Şiir yazma hazırlık notları, seçilen tema ve duygu gerekçesi, yazma planı taslağı.",
+      "likely_misconceptions": "Şiir yazmanın yalnızca ilhama dayandığı, hiçbir hazırlık ve planlama süreci gerektirmediği yanılgısı.",
+      "cognitive_demand": "Uygulama / Süreç Yönetimi",
+      "interaction_need": "Bireysel hazırlık ve eşli grup (ikili grup) planlaması.",
+      "representation_need": "Yazma aşamaları kılavuzu ve hazırlık yönergeleri.",
+      "practice_need": "Şiir yazma sürecini adım adım planlama ve yönetme pratiği.",
+      "feedback_need": "Öğretmenin tema ve duygu seçimi planına yönelik onay ve rehberliği.",
+      "assessment_need": "Yazma hazırlık planı ve süreç kontrolü.",
+      "differentiation_need": "Tema ve duygu belirlemede görsel uyarıcılar ve kavram listeleri ile yönlendirme.",
+      "enrichment_opportunity": "Farklı nazım biçimleri ve serbest tarz üzerine ön araştırma yapma.",
+      "accessibility_need": "Açık ve adım adım yapılandırılmış yazma yönergeleri.",
+      "safety_need": "N/A",
+      "external_content_need": "N/A",
+      "rationale": "Program s. 74, 75 ve 78'de dinlenen şiirin temasından hareketle yeni bir metin oluşturma sürecinin yönetilmesini istemektedir.",
+      "provenance": {
+        "program_locator": "öğretim programı.pdf, s. 74, 75, 78",
+        "textbook_locator": "9edb.pdf, s. 139-140 (PDF: 140-141)"
+      }
+    },
+    {
+      "need_id": "NEED_T2_Y2",
+      "targeted_learning_outcomes": [
+        "TDE4.2"
+      ],
+      "outcome_verbatim": "TDE4.2. Yazısını zenginleştirecek içerik oluşturabilme",
+      "targeted_process_components": [],
+      "domain_or_subject_profile": "TDE / Türkçe",
+      "conceptual_prerequisites": "İmge, çağrışım, sembol, mecaz, ahenk ögeleri (ritim, aliterasyon, asonans, kafiye), söz varlığı, ana duygu.",
+      "procedural_or_skill_prerequisites": "Belirlenen ana duyguyu yansıtacak sözcükleri seçme, imgeler ve özgün benzetmeler tasarlama, ahenkli dizeler kurarak şiir taslağını oluşturma.",
+      "expected_student_actions": "Seçilen duygu ve temayı yansıtacak bağlama uygun söz varlığını belirleme; ritim ve ahenk ögelerini kullanarak özgün dizeler üretme; şiir taslağını yazma.",
+      "expected_student_evidence": "Öğrenci tarafından yazılmış özgün şiir taslağı.",
+      "likely_misconceptions": "Şiirde içerik zenginliğinin yabancı veya anlaşılmaz sözcükler kullanmakla sağlanacağı; kafiye uydurmanın anlam bütünlüğünden önemli olduğu sanısı.",
+      "cognitive_demand": "Yaratma / Tasarım / Sanatsal Üretim",
+      "interaction_need": "Bireysel şiir yazımı ve eşli grup paylaşımı.",
+      "representation_need": "Şiir taslak kâğıdı, söz varlığı havuzu, imge oluşturma yönergeleri.",
+      "practice_need": "Özgün imge kurma, ahenk oluşturma ve dize yazma pratiği.",
+      "feedback_need": "Taslak aşamasında imge ve ahenk uyumuna yönelik akran/öğretmen biçimlendirici geri bildirimi.",
+      "assessment_need": "Performans görevi ürün taslağı değerlendirmesi.",
+      "differentiation_need": "Destekleme: Duygu ve imge çağrıştıran kelime kartları, ritim/dize başlangıç kalıpları sağlama.",
+      "enrichment_opportunity": "Şiiri tematik olarak genişletme, çok bentli yapı kurma veya şarkı sözüne uyarlama.",
+      "accessibility_need": "Yeterli yazma alanı ve dijital yazım araçları desteği.",
+      "safety_need": "N/A",
+      "external_content_need": "N/A",
+      "rationale": "Program s. 74, 75 ve 78-79'da tema, ana duygu, ritim/ahenk ve söz varlığı ögelerini barındıran özgün şiir içeriği oluşturulmasını beklemektedir.",
+      "provenance": {
+        "program_locator": "öğretim programı.pdf, s. 74, 75, 78-79",
+        "textbook_locator": "9edb.pdf, s. 140-141 (PDF: 141-142)"
+      }
+    },
+    {
+      "need_id": "NEED_T2_Y3",
+      "targeted_learning_outcomes": [
+        "TDE4.3"
+      ],
+      "outcome_verbatim": "TDE4.3. Konu zenginliği ve çeşitliliğini sağlayan yazısında kural uygulayabilme",
+      "targeted_process_components": [],
+      "domain_or_subject_profile": "TDE / Türkçe",
+      "conceptual_prerequisites": "Yazım ve noktalama kuralları, Türkçenin ses ve yapı kuralları, dize ve bent düzeni, büyük harf ve satır düzeni, çok modlu sunum (görsel/müzik seçimi).",
+      "procedural_or_skill_prerequisites": "Yazım ve noktalama kurallarını şiir biçimine doğru uygulama; şiirdeki ana duyguyu yansıtan görsel ve müzik seçerek nezaket kuralları içinde sunma/paylaşma.",
+      "expected_student_actions": "Yazdığı şiirde yazım ve noktalama kurallarını titizlikle uygulama; şiire uygun görsel ve müzik belirleyerek sınıfta sırayla sunma ve panoda/dijital ortamda paylaşma.",
+      "expected_student_evidence": "Yazım-noktalama kurallarına uygun temiz şiir metni, seçilen görsel/müzik ile bütünleşmiş sunum ve paylaşım kanıtı.",
+      "likely_misconceptions": "Şiirde noktalama ve yazım kurallarının önemsiz olduğu; her türlü kural hatasının 'şair serbestliği' sayılabileceği yanılgısı.",
+      "cognitive_demand": "Uygulama / Kural Uyumu / Paylaşım",
+      "interaction_need": "Sınıf içi sunum, nezaket kurallarına uygun dinleme ve paylaşım.",
+      "representation_need": "Yazılı şiir metni, görsel afiş/çizim, fon müziği.",
+      "practice_need": "Metin düzeltme, imla kontrolü ve çok modlu sunum pratiği.",
+      "feedback_need": "Yazım, noktalama ve estetik sunuma ilişkin akran ve öğretmen kontrolü.",
+      "assessment_need": "Yazım-noktalama kontrolü, estetik sunum ölçütleri.",
+      "differentiation_need": "Yazım kılavuzu desteği ve dijital yazım denetimi kullanımı.",
+      "enrichment_opportunity": "Şiirleri sınıf panosu, okul bülteni veya dijital sınıf antolojisinde sergileme.",
+      "accessibility_need": "Görsel ve müzik seçiminde alternatif seçenekler sunulması.",
+      "safety_need": "N/A (Dijital paylaşımda kişisel veri/mahremiyet kurallarına uyulmalıdır).",
+      "external_content_need": "N/A",
+      "rationale": "Program s. 74, 75 ve 79'da dil kurallarının uygulanmasını, şiire uygun görsel/müzik belirlenmesini ve nezaket kuralları içinde sunulmasını öngörmektedir.",
+      "provenance": {
+        "program_locator": "öğretim programı.pdf, s. 74, 75, 79",
+        "textbook_locator": "9edb.pdf, s. 141-142 (PDF: 142-143)"
+      }
+    },
+    {
+      "need_id": "NEED_T2_Y4",
+      "targeted_learning_outcomes": [
+        "TDE4.4"
+      ],
+      "outcome_verbatim": "TDE4.4. Yazısına yönelik değerlendirmelerini konu ve diğer yazma unsurları bağlamında yansıtabilme",
+      "targeted_process_components": [],
+      "domain_or_subject_profile": "TDE / Türkçe",
+      "conceptual_prerequisites": "Öz değerlendirme, akran geri bildirimi, analitik dereceli puanlama anahtarı (analytic rubric), performans düzeyleri ve betimleyicileri, metin revizyonu (düzeltme ve geliştirme).",
+      "procedural_or_skill_prerequisites": "Öz değerlendirme formunu doldurma, akran değerlendirme dönütlerini inceleme, öğretmenin analitik rubrik sonuçlarına göre şiirini yeniden gözden geçirip revize ederek son şeklini verme.",
+      "expected_student_actions": "Yazdığı şiire ilişkin öz değerlendirme yapma; akranının şiirini ölçütlere göre değerlendirip yapıcı geri bildirim verme; öğretmen değerlendirmesi sonuçlarından ve geri bildirimlerden hareketle şiirini revize ederek nihai metni üretme.",
+      "expected_student_evidence": "Doldurulmuş öz değerlendirme formu, doldurulmuş akran değerlendirme formu, öğretmenin analitik dereceli puanlama anahtarı çıktısı, revize edilmiş ve son şekli verilmiş nihai şiir ürünü.",
+      "likely_misconceptions": "İlk yazılan taslağın nihai ürün olduğu; değerlendirmenin yalnızca puanlama olduğu ve revizyon gerektirmediği yanılgısı.",
+      "cognitive_demand": "Değerlendirme / Revizyon / Üstbilişsel Düzenleme",
+      "interaction_need": "Akranlar arası karşılıklı yapıcı geri bildirim ve öğretmen dönütü ile bireysel revizyon.",
+      "representation_need": "Öz değerlendirme formu, akran değerlendirme formu, analitik dereceli puanlama anahtarı ve revizyon takip tablosu.",
+      "practice_need": "Kriter bazlı geri bildirim alma/verme ve geri bildirim doğrultusunda şiiri revize etme pratiği.",
+      "feedback_need": "Öğretmenden tema, ana duygu, ritim/ahenk, söz varlığı ve dil kuralları boyutlarında açık düzey betimleyicilerine dayalı analitik geri bildirim.",
+      "assessment_need": "Öğretmen için Analitik Dereceli Puanlama Anahtarı (Analytic Rubric), Öğrenci Öz Değerlendirme Formu, Akran Değerlendirme Formu, Revizyon Takip Kanıtı.",
+      "differentiation_need": "Revizyon adımlarını kolaylaştırmak için aşamalı düzeltme kontrol listesi.",
+      "enrichment_opportunity": "Gelişim dosyasında ilk taslak ile revize edilmiş son metni karşılaştıran yansıtma yazısı yazma.",
+      "accessibility_need": "Geri bildirim alanlarının ve değerlendirme formlarının açık ve erişilebilir olması.",
+      "safety_need": "N/A",
+      "external_content_need": "N/A",
+      "rationale": "Program s. 74, 75 ve 79'da yazma sürecinin dereceli puanlama anahtarı (tema, ana duygu, ritim/ahenk, söz varlığı ölçütleriyle) ile değerlendirilmesini ve öğrencilerin bu sonuçlardan hareketle şiirlerine son şeklini vermelerini (revizyon) açıkça şart koşmaktadır.",
+      "provenance": {
+        "program_locator": "öğretim programı.pdf, s. 74, 75, 79",
+        "textbook_locator": "9edb.pdf, s. 141, 142, 304, 310, 312 (PDF: 142, 143, 305, 311, 313)"
+      }
+    }
+  ]
+}

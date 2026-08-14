@@ -1,0 +1,1510 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_9",
+  "grade": 9,
+  "course_title": "Türk Dili ve Edebiyatı",
+  "academic_year": null,
+  "annual_hours": {
+    "official_total": 180,
+    "structured_program": 172,
+    "school_based_planning": 8
+  },
+  "theme_policy": {
+    "official_theme_hours": 45,
+    "structured_program_hours": 43,
+    "school_based_planning_hours": 2,
+    "max_selected_hours_per_theme": 2,
+    "selection_rule": "Öğretmen her tema için ya tek bir 2 saatlik seçeneği ya da iki adet 1 saatlik seçeneği seçebilir (Tema başına toplam seçim <= 2 saat)."
+  },
+  "privacy_policy": {
+    "policy_basis": [
+      "privacy_and_data_minimization",
+      "voluntary_participation",
+      "no_sensitive_personal_data",
+      "no_mandatory_audio_video_recording",
+      "no_mandatory_public_sharing",
+      "safe_alternative_task"
+    ],
+    "official_legal_verification_status": "NOT_VERIFIED",
+    "general_rules": [
+      "Tüm mülakat, sözlü tarih ve yerel şahsiyet incelemelerinde katılımcı/veli gönüllü rızası esastır.",
+      "Özel hayatın gizliliğini ihlal edebilecek veya hassas nitelikte kişisel veri toplanmaz.",
+      "Ses veya video kaydı almak kesinlikle zorunlu tutulamaz; öğrencinin yazılı not alması yeterlidir.",
+      "Elde edilen ürünlerin internette, sosyal medyada veya okul dışı kamusal alanlarda paylaşımı zorunlu tutulamaz.",
+      "Saha çalışması veya mülakat yapamayan öğrencilere öğretmen tarafından arşiv/kamusal kaynaklı veya kurgusal alternatif metin ve görev sağlanır."
+    ]
+  },
+  "themes": [
+    {
+      "theme_id": "TEMA_01",
+      "theme_no": 1,
+      "theme_title": "1. TEMA: SÖZÜN İNCELİĞİ",
+      "structured_program_hours": 43,
+      "school_based_planning_hours": 2,
+      "options": [
+        {
+          "option_id": "OPT_T1_SBP_01_SES_BILGISI_KLINIK",
+          "theme_id": "TEMA_01",
+          "theme_title": "1. TEMA: SÖZÜN İNCELİĞİ",
+          "title": "Ses Bilgisi ve Edebî Telaffuz Güçlendirme Kliniği",
+          "category": "REMEDIATION",
+          "duration_hours": 1,
+          "origin": "pedagogical_recommendation",
+          "derived_from": {
+            "curriculum_locators": [
+              "s. 67",
+              "s. 72"
+            ],
+            "curriculum_outcomes": [
+              "TDE2.2",
+              "TDE4.3"
+            ],
+            "textbook_locators": [
+              "s. 27-36",
+              "s. 72"
+            ],
+            "textbook_section_ids": [
+              "T1_SEC_01_OKUMA_SIIR"
+            ],
+            "textbook_activity_ids": [
+              "T1_ACT_05_DIL_BILGISI_SES_BILGISI"
+            ],
+            "textbook_form_ids": [
+              "FORM_IN_T1_OGRENME_GUNLUGU"
+            ]
+          },
+          "rationale": "Şiir ve deneme tahlili sürecinde Türkçenin ses olaylarını (ünlü düşmesi, benzeşme, yumuşama, daralma) kavramakta ve metin seslendirmede güçlük yaşayan öğrencilere yönelik hedefli pekiştirme ve telafi çalışması sunmak.",
+          "linked_outcomes": [
+            "TDE2.2",
+            "TDE4.3"
+          ],
+          "linked_textbook_section_ids": [
+            "T1_SEC_01_OKUMA_SIIR"
+          ],
+          "linked_textbook_activity_ids": [
+            "T1_ACT_05_DIL_BILGISI_SES_BILGISI"
+          ],
+          "linked_textbook_form_ids": [
+            "FORM_IN_T1_OGRENME_GUNLUGU"
+          ],
+          "expected_student_action": "San'at şiiri ve Picasso'nun Hatları denemesinden seçilen örnek dizeler/cümleler üzerinde ses olaylarını uygulamalı olarak tespit etme ve telaffuz alıştırmaları yapma.",
+          "expected_student_evidence": "Doldurulmuş ses bilgisi analiz çalışma kâğıdı ve sesli okuma performansı.",
+          "pedagogical_function": "Biçimlendirici telafi ve fonetik farkındalık oluşturma.",
+          "textbook_relationship": "SUPPORTS_REMEDIATION",
+          "possible_material_support": [
+            "student_worksheet",
+            "teacher_guide"
+          ],
+          "differentiation_notes": "Görsel ses olayı şemaları ve renkli hece kartları ile destekleme sağlanır.",
+          "accessibility_notes": "Büyük punto metinler ve işitsel telaffuz destekleri sunulur.",
+          "privacy_safeguards": {
+            "voluntary_consent_required": false,
+            "no_sensitive_personal_data": true,
+            "audio_video_recording_mandatory": false,
+            "public_sharing_mandatory": false,
+            "alternative_provided": "Sınıf içi standart çalışma kâğıdı desteği sağlanır.",
+            "safeguard_notes": "Kişisel veri veya dış kaynaklı kayıt içermez; sınıf ortamında güvenli telafi etkinliğidir."
+          },
+          "teacher_choice_required": true,
+          "selection_status": "NOT_SELECTED",
+          "generation_status": "NOT_REQUESTED",
+          "source_basis": "Ders kitabı s. 27-36 ses bilgisi tablosu ve s. 72 destekleme ilkeleri (model tarafından kaynaklardan türetilen pedagojik öneri).",
+          "required_existing_material_ids": []
+        },
+        {
+          "option_id": "OPT_T1_SBP_02_YEREL_SOZ_VARLIGI_ATOLYESI",
+          "theme_id": "TEMA_01",
+          "theme_title": "1. TEMA: SÖZÜN İNCELİĞİ",
+          "title": "Yerel Söz Varlığı ve Edebî İfade İnceleme Çalışması",
+          "category": "LOCAL_CONTEXT",
+          "duration_hours": 1,
+          "origin": "pedagogical_recommendation",
+          "derived_from": {
+            "curriculum_locators": [
+              "s. 68",
+              "s. 72"
+            ],
+            "curriculum_outcomes": [
+              "TDE1.2",
+              "TDE2.2"
+            ],
+            "textbook_locators": [
+              "s. 61-62"
+            ],
+            "textbook_section_ids": [
+              "T1_SEC_04_DINLEME_IZLEME"
+            ],
+            "textbook_activity_ids": [
+              "T1_ACT_12_DINLEME_SONRASI_KARSILASTIRMA"
+            ],
+            "textbook_form_ids": []
+          },
+          "rationale": "Öğrencilerin okulun bulunduğu yerel çevrede yaşayan deyimleri, atasözlerini ve söz varlığını edebî dil ile günlük dil arasındaki incelikler bağlamında derleyip tahlil etmesini sağlamak.",
+          "linked_outcomes": [
+            "TDE1.2",
+            "TDE2.2"
+          ],
+          "linked_textbook_section_ids": [
+            "T1_SEC_04_DINLEME_IZLEME"
+          ],
+          "linked_textbook_activity_ids": [
+            "T1_ACT_12_DINLEME_SONRASI_KARSILASTIRMA"
+          ],
+          "linked_textbook_form_ids": [],
+          "expected_student_action": "Öğretmenin belirleyeceği yerel sözlü kültür unsurlarını veya yöresel söz varlığı örneklerini derleyerek ders kitabındaki Edebî Dil / Günlük Dil Karşılaştırma Tablosuna yerel örnekler ekleme.",
+          "expected_student_evidence": "Yerelleştirilmiş Edebî Dil ve Günlük Dil Karşılaştırma Matrisi.",
+          "pedagogical_function": "Kültürel bağ kurma ve söz varlığı bilincini yerel bağlamla genişletme.",
+          "textbook_relationship": "LOCALIZES_TEXTBOOK",
+          "possible_material_support": [
+            "student_worksheet"
+          ],
+          "differentiation_notes": "Öğrencilerin aile ve çevrelerinden derledikleri yerel söz varlığı unsurları grupça tartışılır.",
+          "accessibility_notes": "Sözlü paylaşım ve dijital ses kaydı alma seçenekleri sunulur.",
+          "privacy_safeguards": {
+            "voluntary_consent_required": true,
+            "no_sensitive_personal_data": true,
+            "audio_video_recording_mandatory": false,
+            "public_sharing_mandatory": false,
+            "alternative_provided": "Yerel söz varlığı derleyemeyen öğrencilere öğretmen tarafından sağlanan güvenilir ve kamuya açık ağız/söz varlığı kaynağı veya hazır anonim derleme kartları sağlanır.",
+            "safeguard_notes": "Yerel söz varlığı derlemesinde şahıslara ait özel/hassas bilgi kaydedilmez; ses kaydı zorunlu değildir; paylaşımlar sınıf içiyle sınırlıdır."
+          },
+          "teacher_choice_required": true,
+          "selection_status": "NOT_SELECTED",
+          "generation_status": "NOT_REQUESTED",
+          "source_basis": "Ders kitabı s. 61-62 karşılaştırma tablosu ve program s. 68 köprü kurma ilkeleri (model tarafından kaynaklardan türetilen pedagojik öneri).",
+          "required_existing_material_ids": []
+        },
+        {
+          "option_id": "OPT_T1_SBP_03_DISIPLINLERARASI_SANAT_SERGISI",
+          "theme_id": "TEMA_01",
+          "theme_title": "1. TEMA: SÖZÜN İNCELİĞİ",
+          "title": "Edebiyat ve Güzel Sanatlar Disiplinlerarası İfade Atölyesi",
+          "category": "CREATIVE_PRODUCTION",
+          "duration_hours": 2,
+          "origin": "pedagogical_recommendation",
+          "derived_from": {
+            "curriculum_locators": [
+              "s. 67",
+              "s. 72"
+            ],
+            "curriculum_outcomes": [
+              "TDE2.2",
+              "TDE4.2"
+            ],
+            "textbook_locators": [
+              "s. 21-26"
+            ],
+            "textbook_section_ids": [
+              "T1_SEC_01_OKUMA_SIIR",
+              "T1_SEC_02_OKUMA_DENEME"
+            ],
+            "textbook_activity_ids": [
+              "T1_ACT_04_GUZEL_SANATLAR_DISIPLINLER"
+            ],
+            "textbook_form_ids": []
+          },
+          "rationale": "Faruk Nafiz'in San'at şiiri ve Rasim Özdenören'in Picasso denemesindeki edebiyat-resim-müzik etkileşimini derinleştirerek öğrencilerin seçtikleri bir edebî dizeyi görsel sanat veya müzikal ritimle yeniden ifade etmesini sağlamak.",
+          "linked_outcomes": [
+            "TDE2.2",
+            "TDE4.2"
+          ],
+          "linked_textbook_section_ids": [
+            "T1_SEC_01_OKUMA_SIIR",
+            "T1_SEC_02_OKUMA_DENEME"
+          ],
+          "linked_textbook_activity_ids": [
+            "T1_ACT_04_GUZEL_SANATLAR_DISIPLINLER"
+          ],
+          "linked_textbook_form_ids": [],
+          "expected_student_action": "Seçilen şiir dizelerini görsel sanat (resim/çizim/ebru) veya fon müziği eşliğinde yorumlayarak disiplinlerarası bir sınıf sergisi/panosu oluşturma.",
+          "expected_student_evidence": "Dize-Görsel/Müzik Eşleştirme Kartı ve disiplinlerarası yaratıcı ürün.",
+          "pedagogical_function": "Estetik duyarlılık ve çok modlu yaratıcı üreticilik.",
+          "textbook_relationship": "EXTENDS_TEXTBOOK",
+          "possible_material_support": [
+            "activity_sheet",
+            "teacher_guide"
+          ],
+          "differentiation_notes": "Görsel çizim yapamayan öğrenciler dijital kolaj veya müzikal ritim seçebilir.",
+          "accessibility_notes": "Dokunsal materyaller ve görsel tasvir alternatifleri sağlanır.",
+          "privacy_safeguards": {
+            "voluntary_consent_required": false,
+            "no_sensitive_personal_data": true,
+            "audio_video_recording_mandatory": false,
+            "public_sharing_mandatory": false,
+            "alternative_provided": "Öğretmen tarafından hazır görsel/müzik eşleştirme kartları sunulur.",
+            "safeguard_notes": "Sınıf panosu çalışmaları öğrenci isteğine bağlıdır; dış platformlarda yayınlanmaz."
+          },
+          "teacher_choice_required": true,
+          "selection_status": "NOT_SELECTED",
+          "generation_status": "NOT_REQUESTED",
+          "source_basis": "Ders kitabı s. 21-26 disiplinlerarası matris ve program s. 72 zenginleştirme önerisi (model tarafından kaynaklardan türetilen pedagojik öneri).",
+          "required_existing_material_ids": []
+        },
+        {
+          "option_id": "OPT_T1_SBP_04_ALTI_SAPKA_DERINLESTIRME",
+          "theme_id": "TEMA_01",
+          "theme_title": "1. TEMA: SÖZÜN İNCELİĞİ",
+          "title": "Altı Şapka Eleştirel Münazara ve İkna Genişletmesi",
+          "category": "PERFORMANCE_EXTENSION",
+          "duration_hours": 2,
+          "origin": "pedagogical_recommendation",
+          "derived_from": {
+            "curriculum_locators": [
+              "s. 70",
+              "s. 71"
+            ],
+            "curriculum_outcomes": [
+              "TDE3.1",
+              "TDE3.2",
+              "TDE3.3",
+              "TDE3.4"
+            ],
+            "textbook_locators": [
+              "s. 63-66"
+            ],
+            "textbook_section_ids": [
+              "T1_SEC_05_KONUSMA_ATOLYESI"
+            ],
+            "textbook_activity_ids": [
+              "T1_ACT_13_KONUSMA_SIRASI",
+              "T1_ACT_14_KONUSMA_SONRASI"
+            ],
+            "textbook_form_ids": [
+              "FORM_IN_T1_KONUSMA_CRITERIA",
+              "FORM_BOB_02_T1_KONUSMA_OZ",
+              "FORM_BOB_09_T1_T2_AKRAN"
+            ]
+          },
+          "rationale": "Edebiyat Atölyesi konuşma etkinliğindeki Altı Şapkalı Düşünme Tekniğini, sanatın evrenselliği ve değişen doğası konularında sınıf içi derinlemesine müzakere ve grup içi ikna süreçleriyle zenginleştirmek.",
+          "linked_outcomes": [
+            "TDE3.1",
+            "TDE3.2",
+            "TDE3.3",
+            "TDE3.4"
+          ],
+          "linked_textbook_section_ids": [
+            "T1_SEC_05_KONUSMA_ATOLYESI"
+          ],
+          "linked_textbook_activity_ids": [
+            "T1_ACT_13_KONUSMA_SIRASI",
+            "T1_ACT_14_KONUSMA_SONRASI"
+          ],
+          "linked_textbook_form_ids": [
+            "FORM_IN_T1_KONUSMA_CRITERIA",
+            "FORM_BOB_02_T1_KONUSMA_OZ",
+            "FORM_BOB_09_T1_T2_AKRAN"
+          ],
+          "expected_student_action": "Altı şapka renklerinin temsil ettiği zıt argümanları (sarı-siyah, beyaz-kırmızı) karşı karşıya getirerek ikna edici sözlü savunma ve sentez (mavi şapka) üretme.",
+          "expected_student_evidence": "Grup müzakere kayıtları, sentez kararları ve akran değerlendirme formları.",
+          "pedagogical_function": "Eleştirel düşünme, üstbilişsel kontrol ve sözlü argümantasyon becerisini derinleştirme.",
+          "textbook_relationship": "DEEPENS_TEXTBOOK",
+          "possible_material_support": [
+            "teacher_guide"
+          ],
+          "differentiation_notes": "Öğrencilere rol dağılımında destekleyici argüman iskeleleri sunulabilir.",
+          "accessibility_notes": "Süre esnekliği ve yazılı ön hazırlık imkânı sağlanır.",
+          "privacy_safeguards": {
+            "voluntary_consent_required": false,
+            "no_sensitive_personal_data": true,
+            "audio_video_recording_mandatory": false,
+            "public_sharing_mandatory": false,
+            "alternative_provided": "Yazılı argüman sunumu alternatifi verilir.",
+            "safeguard_notes": "Sınıf içi sözlü müzakere sürecidir; kayıt alınmaz."
+          },
+          "teacher_choice_required": true,
+          "selection_status": "NOT_SELECTED",
+          "generation_status": "NOT_REQUESTED",
+          "source_basis": "Ders kitabı s. 63-66 atölye yönergeleri ve program s. 71 konuşma süreci (model tarafından kaynaklardan türetilen pedagojik öneri).",
+          "required_existing_material_ids": []
+        },
+        {
+          "option_id": "OPT_T1_SBP_05_TEMA_YANSITMA_VE_PORTFOLYO",
+          "theme_id": "TEMA_01",
+          "theme_title": "1. TEMA: SÖZÜN İNCELİĞİ",
+          "title": "Tema Öğrenme Günlüğü ve Betimleme Portfolyosu İncelemesi",
+          "category": "REFLECTION_AND_PORTFOLIO",
+          "duration_hours": 1,
+          "origin": "pedagogical_recommendation",
+          "derived_from": {
+            "curriculum_locators": [
+              "s. 68",
+              "s. 71"
+            ],
+            "curriculum_outcomes": [
+              "TDE4.4",
+              "TDE2.2"
+            ],
+            "textbook_locators": [
+              "s. 55",
+              "s. 71",
+              "s. 302",
+              "s. 303"
+            ],
+            "textbook_section_ids": [
+              "T1_SEC_03_YAZMA_ATOLYESI",
+              "T1_SEC_06_TEMA_SONU_DEGERLENDIRME"
+            ],
+            "textbook_activity_ids": [
+              "T1_ACT_10_YAZMA_SONRASI",
+              "T1_ACT_16_OGRENME_GUNLUGU"
+            ],
+            "textbook_form_ids": [
+              "FORM_BOB_01_T1_YAZMA_OZ",
+              "FORM_IN_T1_OGRENME_GUNLUGU"
+            ]
+          },
+          "rationale": "Öğrencilerin tema boyunca yazdıkları betimleyici paragrafları (s. 55) ve öğrenme günlüğü çıkarımlarını (s. 71) gözden geçirerek bireysel gelişimlerini ve yazma stratejilerini yansıtmasını sağlamak.",
+          "linked_outcomes": [
+            "TDE4.4",
+            "TDE2.2"
+          ],
+          "linked_textbook_section_ids": [
+            "T1_SEC_03_YAZMA_ATOLYESI",
+            "T1_SEC_06_TEMA_SONU_DEGERLENDIRME"
+          ],
+          "linked_textbook_activity_ids": [
+            "T1_ACT_10_YAZMA_SONRASI",
+            "T1_ACT_16_OGRENME_GUNLUGU"
+          ],
+          "linked_textbook_form_ids": [
+            "FORM_BOB_01_T1_YAZMA_OZ",
+            "FORM_IN_T1_OGRENME_GUNLUGU"
+          ],
+          "expected_student_action": "Yazma taslaklarını ve öz değerlendirme formlarını inceleyerek 'Hangi söz varlığı unsurlarını kazandım?', 'Betimleme yaparken nerelerde zorlandım?' soruları etrafında portfolyo yansıtma metni yazma.",
+          "expected_student_evidence": "Tamamlanmış Tema 1 Bireysel Gelişim ve Yansıtma Raporu.",
+          "pedagogical_function": "Öz düzenleme, üstbilişsel yansıtma ve portfolyo konsolidasyonu.",
+          "textbook_relationship": "REUSES_TEXTBOOK",
+          "possible_material_support": [
+            "portfolio_guide"
+          ],
+          "differentiation_notes": "Yansıtma soruları basamaklandırılarak yönlendirici ipuçları verilir.",
+          "accessibility_notes": "Sesli yanıt kaydı veya dijital metin formatı desteklenir.",
+          "privacy_safeguards": {
+            "voluntary_consent_required": false,
+            "no_sensitive_personal_data": true,
+            "audio_video_recording_mandatory": false,
+            "public_sharing_mandatory": false,
+            "alternative_provided": "Yapılandırılmış kısa kontrol listesi sunulur.",
+            "safeguard_notes": "Öğrencinin kişisel yansıtma notları gizlidir; öğretmenin pedagojik geri bildirimi dışında üçüncü şahıslarla paylaşılmaz."
+          },
+          "teacher_choice_required": true,
+          "selection_status": "NOT_SELECTED",
+          "generation_status": "NOT_REQUESTED",
+          "source_basis": "Ders kitabı s. 71 öğrenme günlüğü ve program s. 68 tema sonu yansıtma ilkeleri (model tarafından kaynaklardan türetilen pedagojik öneri).",
+          "required_existing_material_ids": []
+        }
+      ]
+    },
+    {
+      "theme_id": "TEMA_02",
+      "theme_no": 2,
+      "theme_title": "2. TEMA: ANLAM ARAYIŞI",
+      "structured_program_hours": 43,
+      "school_based_planning_hours": 2,
+      "options": [
+        {
+          "option_id": "OPT_T2_SBP_01_HIKAYE_ANI_KARSILASTIRMA_DERINLESTIRME",
+          "theme_id": "TEMA_02",
+          "theme_title": "2. TEMA: ANLAM ARAYIŞI",
+          "title": "Olay Hikâyesi ve Anı Türlerinde Anlatıcı ve Bakış Açısı Atölyesi",
+          "category": "CONSOLIDATION",
+          "duration_hours": 1,
+          "origin": "pedagogical_recommendation",
+          "derived_from": {
+            "curriculum_locators": [
+              "s. 73-75",
+              "s. 79"
+            ],
+            "curriculum_outcomes": [
+              "TDE2.1",
+              "TDE2.2"
+            ],
+            "textbook_locators": [
+              "s. 75-124"
+            ],
+            "textbook_section_ids": [
+              "T2_SEC_01_OKUMA_HIKAYE",
+              "T2_SEC_02_OKUMA_ANI"
+            ],
+            "textbook_activity_ids": [
+              "T2_ACT_03_OKUMA_SONRASI_HIKAYE_TAHLIL",
+              "T2_ACT_06_OKUMA_SONRASI_ANI_TAHLIL"
+            ],
+            "textbook_form_ids": []
+          },
+          "rationale": "Tarık Buğra'nın Bir Kavak ve İnsanlar hikâyesi ile Halide Nusret'in Bir Devrin Romanı anı metninde kullanılan anlatıcı tutumu, kurgusal gerçeklik ve tarihsel tanıklık arasındaki farkları pekiştirmek.",
+          "linked_outcomes": [
+            "TDE2.1",
+            "TDE2.2"
+          ],
+          "linked_textbook_section_ids": [
+            "T2_SEC_01_OKUMA_HIKAYE",
+            "T2_SEC_02_OKUMA_ANI"
+          ],
+          "linked_textbook_activity_ids": [
+            "T2_ACT_03_OKUMA_SONRASI_HIKAYE_TAHLIL",
+            "T2_ACT_06_OKUMA_SONRASI_ANI_TAHLIL"
+          ],
+          "linked_textbook_form_ids": [],
+          "expected_student_action": "Hikâye ve anı metinlerinden seçilen pasajlarda hâkim, kahraman ve gözlemci anlatıcı özelliklerini karşılaştırmalı matriste çözümleme.",
+          "expected_student_evidence": "Doldurulmuş Türler Arası Bakış Açısı ve Anlatıcı Çözümleme Matrisi.",
+          "pedagogical_function": "Metin tahlili becerilerini pekiştirme ve kavramsal netlik sağlama.",
+          "textbook_relationship": "DEEPENS_TEXTBOOK",
+          "possible_material_support": [
+            "student_worksheet"
+          ],
+          "differentiation_notes": "Anlatıcı türleri renk kodlu şemalarla özetlenir.",
+          "accessibility_notes": "Büyük punto matris formatı sunulur.",
+          "privacy_safeguards": {
+            "voluntary_consent_required": false,
+            "no_sensitive_personal_data": true,
+            "audio_video_recording_mandatory": false,
+            "public_sharing_mandatory": false,
+            "alternative_provided": "Ders kitabı metinleri üzerinden hazır matris sağlanır.",
+            "safeguard_notes": "Sınıf ortamında edebî metin tahlilidir; kişisel veri içermez."
+          },
+          "teacher_choice_required": true,
+          "selection_status": "NOT_SELECTED",
+          "generation_status": "NOT_REQUESTED",
+          "source_basis": "Ders kitabı s. 75-124 hikâye ve anı tahlil yönergeleri (model tarafından kaynaklardan türetilen pedagojik öneri).",
+          "required_existing_material_ids": []
+        },
+        {
+          "option_id": "OPT_T2_SBP_02_YEREL_SOZLU_TARIH_ANI_DERLEMESI",
+          "theme_id": "TEMA_02",
+          "theme_title": "2. TEMA: ANLAM ARAYIŞI",
+          "title": "Yerel Hafıza ve Tanıklık: Sözlü Tarih ve Anı Derleme Çalışması",
+          "category": "LOCAL_CONTEXT",
+          "duration_hours": 2,
+          "origin": "pedagogical_recommendation",
+          "derived_from": {
+            "curriculum_locators": [
+              "s. 74",
+              "s. 79"
+            ],
+            "curriculum_outcomes": [
+              "TDE2.2",
+              "TDE4.2"
+            ],
+            "textbook_locators": [
+              "s. 111-124"
+            ],
+            "textbook_section_ids": [
+              "T2_SEC_02_OKUMA_ANI"
+            ],
+            "textbook_activity_ids": [
+              "T2_ACT_06_OKUMA_SONRASI_ANI_TAHLIL"
+            ],
+            "textbook_form_ids": []
+          },
+          "rationale": "Halide Nusret'in anı metnindeki tarihsel atmosferden hareketle öğrencilerin kendi yerel çevrelerindeki bir büyüğüyle kısa bir sözlü tarih mülakatı yaparak geçmişe ait bir tanıklığı anı formatında metne dökmesi.",
+          "linked_outcomes": [
+            "TDE2.2",
+            "TDE4.2"
+          ],
+          "linked_textbook_section_ids": [
+            "T2_SEC_02_OKUMA_ANI"
+          ],
+          "linked_textbook_activity_ids": [
+            "T2_ACT_06_OKUMA_SONRASI_ANI_TAHLIL"
+          ],
+          "linked_textbook_form_ids": [],
+          "expected_student_action": "Öğretmenin belirleyeceği yerel çerçevede bir tanıkla kısa mülakat yapma, notları anı türünün anlatım özelliklerine göre kurgulayarak 1-2 sayfalık tanıklık metni oluşturma.",
+          "expected_student_evidence": "Öğrencinin kaleme aldığı Yerel Tanıklık ve Anı Metni.",
+          "pedagogical_function": "Yerel bağlamla edebî tür bağı kurma, sözlü kültür aktarımı.",
+          "textbook_relationship": "LOCALIZES_TEXTBOOK",
+          "possible_material_support": [
+            "interview_guide",
+            "student_worksheet"
+          ],
+          "differentiation_notes": "Mülakat soruları hazır şablon olarak verilebilir.",
+          "accessibility_notes": "Ses kaydı alma ve sözlü aktarım alternatifi sağlanır.",
+          "privacy_safeguards": {
+            "voluntary_consent_required": true,
+            "no_sensitive_personal_data": true,
+            "audio_video_recording_mandatory": false,
+            "public_sharing_mandatory": false,
+            "alternative_provided": "Mülakat yapamayan veya yapmak istemeyen öğrencilere öğretmen tarafından arşiv kaynaklı yerel hatırat metni veya kurgusal anı senaryosu sağlanır.",
+            "safeguard_notes": "Katılımcıdan/veliden bilgilendirilmiş onam alınır; özel hayata ve hassas geçmişe dair sorular sorulmaz; ses/görüntü kaydı zorunlu değildir, yazılı not yeterlidir; metinler okul dışında kamusal olarak paylaşılamaz."
+          },
+          "teacher_choice_required": true,
+          "selection_status": "NOT_SELECTED",
+          "generation_status": "NOT_REQUESTED",
+          "source_basis": "Ders kitabı s. 111-124 anı metni tahlili ve program s. 79 zenginleştirme ilkeleri (model tarafından kaynaklardan türetilen pedagojik öneri).",
+          "required_existing_material_ids": []
+        },
+        {
+          "option_id": "OPT_T2_SBP_03_SIIR_DINLETISI_PERFORMANS_GENISLETMESI",
+          "theme_id": "TEMA_02",
+          "theme_title": "2. TEMA: ANLAM ARAYIŞI",
+          "title": "Şiir Dinletisi ve Diksiyon Sahne Uygulaması",
+          "category": "PERFORMANCE_EXTENSION",
+          "duration_hours": 2,
+          "origin": "pedagogical_recommendation",
+          "derived_from": {
+            "curriculum_locators": [
+              "s. 77",
+              "s. 79"
+            ],
+            "curriculum_outcomes": [
+              "TDE3.1",
+              "TDE3.2",
+              "TDE3.3",
+              "TDE3.4"
+            ],
+            "textbook_locators": [
+              "s. 125-130"
+            ],
+            "textbook_section_ids": [
+              "T2_SEC_03_KONUSMA_ATOLYESI"
+            ],
+            "textbook_activity_ids": [
+              "T2_ACT_08_KONUSMA_SIRASI",
+              "T2_ACT_09_KONUSMA_SONRASI"
+            ],
+            "textbook_form_ids": [
+              "FORM_IN_T2_KONUSMA_CRITERIA",
+              "FORM_BOB_04_T2_KONUSMA_OZ",
+              "FORM_BOB_09_T1_T2_AKRAN"
+            ]
+          },
+          "rationale": "Abdurrahim Karakoç'un Mihriban ses kaydı incelemesinden hareketle öğrencilerin hazırladıkları şiir dinletisini canlı sınıf veya okul sahnesinde icra etmesi ve analitik rubrik ile değerlendirilmesi.",
+          "linked_outcomes": [
+            "TDE3.1",
+            "TDE3.2",
+            "TDE3.3",
+            "TDE3.4"
+          ],
+          "linked_textbook_section_ids": [
+            "T2_SEC_03_KONUSMA_ATOLYESI"
+          ],
+          "linked_textbook_activity_ids": [
+            "T2_ACT_08_KONUSMA_SIRASI",
+            "T2_ACT_09_KONUSMA_SONRASI"
+          ],
+          "linked_textbook_form_ids": [
+            "FORM_IN_T2_KONUSMA_CRITERIA",
+            "FORM_BOB_04_T2_KONUSMA_OZ",
+            "FORM_BOB_09_T1_T2_AKRAN"
+          ],
+          "expected_student_action": "Şiir seslendirme tekniklerine (vurgu, tonlama, durak, beden dili) dikkat ederek canlı performans sergileme; MAT_T2_KONUSMA_RUBRIC üzerinden öğretmenden geri bildirim alma.",
+          "expected_student_evidence": "Canlı şiir dinletisi performansı ve doldurulmuş Analitik Konuşma Rubriği kayıtları.",
+          "pedagogical_function": "Sözlü iletişim özgüveni, sahne deneyimi ve estetik icra yetkinliği.",
+          "textbook_relationship": "EXTENDS_TEXTBOOK",
+          "possible_material_support": [
+            "teacher_guide"
+          ],
+          "differentiation_notes": "Sahne kaygısı olan öğrenciler ikili grup sunumu veya arka plan ses tasarımı rolü alabilir.",
+          "accessibility_notes": "Gerektiğinde mikrofon desteği ve oturarak sunum imkânı verilir.",
+          "privacy_safeguards": {
+            "voluntary_consent_required": false,
+            "no_sensitive_personal_data": true,
+            "audio_video_recording_mandatory": false,
+            "public_sharing_mandatory": false,
+            "alternative_provided": "İkili okuma veya küçük grup içi performans seçeneği sunulur.",
+            "safeguard_notes": "Performansların video kaydı zorunlu değildir; yalnızca sınıf içi icradır."
+          },
+          "teacher_choice_required": true,
+          "selection_status": "NOT_SELECTED",
+          "generation_status": "NOT_REQUESTED",
+          "source_basis": "Ders kitabı s. 125-130 konuşma atölyesi ve MAT_T2_KONUSMA_RUBRIC desteği (model tarafından kaynaklardan türetilen pedagojik öneri).",
+          "required_existing_material_ids": [
+            "MAT_T2_KONUSMA_RUBRIC"
+          ]
+        },
+        {
+          "option_id": "OPT_T2_SBP_04_AHENK_VE_VEZIN_DESTEK_KLINIGI",
+          "theme_id": "TEMA_02",
+          "theme_title": "2. TEMA: ANLAM ARAYIŞI",
+          "title": "Şiirde Ritim, Ölçü ve Ahenk Ögeleri Güçlendirme Kliniği",
+          "category": "REMEDIATION",
+          "duration_hours": 1,
+          "origin": "pedagogical_recommendation",
+          "derived_from": {
+            "curriculum_locators": [
+              "s. 74",
+              "s. 79"
+            ],
+            "curriculum_outcomes": [
+              "TDE1.2",
+              "TDE4.3"
+            ],
+            "textbook_locators": [
+              "s. 136-140"
+            ],
+            "textbook_section_ids": [
+              "T2_SEC_04_DINLEME_IZLEME",
+              "T2_SEC_05_YAZMA_ATOLYESI"
+            ],
+            "textbook_activity_ids": [
+              "T2_ACT_11_DINLEME_SONRASI_TAHLIL",
+              "T2_ACT_12_YAZMA_SIRASI"
+            ],
+            "textbook_form_ids": []
+          },
+          "rationale": "Şiir yazma atölyesinde ve ses kaydı tahlilinde uyak, redif, aliterasyon, asonans ve dize ritmi yapılandırmakta zorlanan öğrencilere hedefli destek sunmak.",
+          "linked_outcomes": [
+            "TDE1.2",
+            "TDE4.3"
+          ],
+          "linked_textbook_section_ids": [
+            "T2_SEC_04_DINLEME_IZLEME",
+            "T2_SEC_05_YAZMA_ATOLYESI"
+          ],
+          "linked_textbook_activity_ids": [
+            "T2_ACT_11_DINLEME_SONRASI_TAHLIL",
+            "T2_ACT_12_YAZMA_SIRASI"
+          ],
+          "linked_textbook_form_ids": [],
+          "expected_student_action": "Örnek dizeler üzerinde hece sayısı, durak yerleri ve kafiye düzenlerini adım adım işaretleyerek kendi yazdığı şiir taslağındaki ritim aksaklıklarını giderme.",
+          "expected_student_evidence": "Düzeltilmiş ahenk çalışma kâğıdı ve ritmi onarılmış şiir taslağı.",
+          "pedagogical_function": "Biçimlendirici telafi ve şiir mekaniği desteği.",
+          "textbook_relationship": "SUPPORTS_REMEDIATION",
+          "possible_material_support": [
+            "student_worksheet"
+          ],
+          "differentiation_notes": "Uyak şemaları (düz, çapraz, sarma) renkli görsel şablonlarla verilir.",
+          "accessibility_notes": "İşitsel ritim tekrarları ve metin büyüteç desteği sağlanır.",
+          "privacy_safeguards": {
+            "voluntary_consent_required": false,
+            "no_sensitive_personal_data": true,
+            "audio_video_recording_mandatory": false,
+            "public_sharing_mandatory": false,
+            "alternative_provided": "Hazır ahenk analiz kartları sunulur.",
+            "safeguard_notes": "Kişisel veri içermez; güvenli sınıf içi alıştırmadır."
+          },
+          "teacher_choice_required": true,
+          "selection_status": "NOT_SELECTED",
+          "generation_status": "NOT_REQUESTED",
+          "source_basis": "Ders kitabı s. 136-138 ahenk tablosu ve s. 140 şiir yazma yönergeleri (model tarafından kaynaklardan türetilen pedagojik öneri).",
+          "required_existing_material_ids": []
+        },
+        {
+          "option_id": "OPT_T2_SBP_05_GENC_SAIRLER_METINLERARASI_ATOLYE",
+          "theme_id": "TEMA_02",
+          "theme_title": "2. TEMA: ANLAM ARAYIŞI",
+          "title": "Genç Şairler Kulübü: İmgelerarası Şiir Yazma ve Redaksiyon",
+          "category": "CREATIVE_PRODUCTION",
+          "duration_hours": 2,
+          "origin": "pedagogical_recommendation",
+          "derived_from": {
+            "curriculum_locators": [
+              "s. 78",
+              "s. 79"
+            ],
+            "curriculum_outcomes": [
+              "TDE4.1",
+              "TDE4.2",
+              "TDE4.3",
+              "TDE4.4"
+            ],
+            "textbook_locators": [
+              "s. 139-142"
+            ],
+            "textbook_section_ids": [
+              "T2_SEC_05_YAZMA_ATOLYESI"
+            ],
+            "textbook_activity_ids": [
+              "T2_ACT_12_YAZMA_SIRASI",
+              "T2_ACT_13_YAZMA_SONRASI"
+            ],
+            "textbook_form_ids": [
+              "FORM_IN_T2_YAZMA_CRITERIA",
+              "FORM_BOB_03_T2_YAZMA_OZ",
+              "FORM_BOB_09_T1_T2_AKRAN"
+            ]
+          },
+          "rationale": "Öğrencilerin yazdıkları özgün şiirleri MAT_T2_YAZMA_RUBRIC ölçütleri, imge derinliği ve çağrışım zenginliği doğrultusunda revize ederek sınıf şiir antolojisi veya duvar gazetesi oluşturması.",
+          "linked_outcomes": [
+            "TDE4.1",
+            "TDE4.2",
+            "TDE4.3",
+            "TDE4.4"
+          ],
+          "linked_textbook_section_ids": [
+            "T2_SEC_05_YAZMA_ATOLYESI"
+          ],
+          "linked_textbook_activity_ids": [
+            "T2_ACT_12_YAZMA_SIRASI",
+            "T2_ACT_13_YAZMA_SONRASI"
+          ],
+          "linked_textbook_form_ids": [
+            "FORM_IN_T2_YAZMA_CRITERIA",
+            "FORM_BOB_03_T2_YAZMA_OZ",
+            "FORM_BOB_09_T1_T2_AKRAN"
+          ],
+          "expected_student_action": "Şiir taslağını akran geri bildirimleriyle yeniden işleme, başlık-imge uyumunu denetleme ve sınıf şiir seçkisi için nihai nüshayı hazırlama.",
+          "expected_student_evidence": "Nihai şiir nüshası ve MAT_T2_YAZMA_RUBRIC değerlendirme puan kaydı.",
+          "pedagogical_function": "Yaratıcı yazma yetkinliği ve edebî ürün tamamlama bilinci.",
+          "textbook_relationship": "SUPPORTS_ENRICHMENT",
+          "possible_material_support": [
+            "workshop_guide"
+          ],
+          "differentiation_notes": "İleri düzey öğrencilere serbest nazım veya hece vezniyle alternatif kıta denemeleri önerilir.",
+          "accessibility_notes": "Dijital klavye ve sesli yazım araçları serbest bırakılır.",
+          "privacy_safeguards": {
+            "voluntary_consent_required": false,
+            "no_sensitive_personal_data": true,
+            "audio_video_recording_mandatory": false,
+            "public_sharing_mandatory": false,
+            "alternative_provided": "Bireysel kapalı dosya teslim seçeneği sunulur.",
+            "safeguard_notes": "Öğrencinin şiirini sınıf panosunda sergilemesi isteğe bağlıdır; takma isim (mahlas) kullanımı serbesttir."
+          },
+          "teacher_choice_required": true,
+          "selection_status": "NOT_SELECTED",
+          "generation_status": "NOT_REQUESTED",
+          "source_basis": "Ders kitabı s. 139-142 yazma atölyesi ve MAT_T2_YAZMA_RUBRIC desteği (model tarafından kaynaklardan türetilen pedagojik öneri).",
+          "required_existing_material_ids": [
+            "MAT_T2_YAZMA_RUBRIC"
+          ]
+        }
+      ]
+    },
+    {
+      "theme_id": "TEMA_03",
+      "theme_no": 3,
+      "theme_title": "3. TEMA: ANLAMIN YAPI TAŞLARI",
+      "structured_program_hours": 43,
+      "school_based_planning_hours": 2,
+      "options": [
+        {
+          "option_id": "OPT_T3_SBP_01_YEREL_KULTUREL_RITUEL_DERLEMESI",
+          "theme_id": "TEMA_03",
+          "theme_title": "3. TEMA: ANLAMIN YAPI TAŞLARI",
+          "title": "Yerel Kültürel Miras ve Yaşayan Gelenekler Saha İncelemesi",
+          "category": "LOCAL_CONTEXT",
+          "duration_hours": 2,
+          "origin": "pedagogical_recommendation",
+          "derived_from": {
+            "curriculum_locators": [
+              "s. 81",
+              "s. 86",
+              "s. 88"
+            ],
+            "curriculum_outcomes": [
+              "TDE1.2",
+              "TDE3.2",
+              "TDE3.3"
+            ],
+            "textbook_locators": [
+              "s. 198-202"
+            ],
+            "textbook_section_ids": [
+              "T3_SEC_03_KONUSMA_ATOLYESI",
+              "T3_SEC_04_DINLEME_IZLEME"
+            ],
+            "textbook_activity_ids": [
+              "T3_ACT_08_KONUSMA_SIRASI",
+              "T3_ACT_11_DINLEME_SONRASI_TAHLIL"
+            ],
+            "textbook_form_ids": []
+          },
+          "rationale": "Nevruz belgeseli ve Eskici metnindeki kültürel aidiyet izleklerinden hareketle öğrencilerin kendi yörelerine özgü bir bayram, şenlik, zanaat veya mevsimlik geleneği araştırıp sunuma dönüştürmesini sağlamak.",
+          "linked_outcomes": [
+            "TDE1.2",
+            "TDE3.2",
+            "TDE3.3"
+          ],
+          "linked_textbook_section_ids": [
+            "T3_SEC_03_KONUSMA_ATOLYESI",
+            "T3_SEC_04_DINLEME_IZLEME"
+          ],
+          "linked_textbook_activity_ids": [
+            "T3_ACT_08_KONUSMA_SIRASI",
+            "T3_ACT_11_DINLEME_SONRASI_TAHLIL"
+          ],
+          "linked_textbook_form_ids": [],
+          "expected_student_action": "Öğretmenin belirleyeceği yerel kültürel unsur veya gelenek hakkında aile/çevre kaynaklarından bilgi toplama, görsel doküman derleme ve kısa bir tanıtım sunumu hazırlama.",
+          "expected_student_evidence": "Yerel Kültürel Bellek Tanıtım Kartı ve sözlü sunum özeti.",
+          "pedagogical_function": "Kültürel süreklilik bilinci ve yerel değerleri edebî tahlille bütünleştirme.",
+          "textbook_relationship": "LOCALIZES_TEXTBOOK",
+          "possible_material_support": [
+            "field_research_template"
+          ],
+          "differentiation_notes": "Sözlü kültür unsurları fotoğraf veya nesne getirilerek desteklenebilir.",
+          "accessibility_notes": "Görsel sunum yerine sesli anlatım veya yazılı özet kabul edilir.",
+          "privacy_safeguards": {
+            "voluntary_consent_required": true,
+            "no_sensitive_personal_data": true,
+            "audio_video_recording_mandatory": false,
+            "public_sharing_mandatory": false,
+            "alternative_provided": "Saha araştırması yapamayan öğrencilere öğretmen tarafından seçilen güvenilir ve kamuya açık kültürel miras kaynağı veya hazır gelenek kartı sağlanır.",
+            "safeguard_notes": "Gelenek aktarıcılarından bilgilendirilmiş rıza alınır; kişisel/hassas aile bilgileri toplanmaz; ses/görüntü kaydı zorunlu değildir; sınıf dışı yayın yapılmaz."
+          },
+          "teacher_choice_required": true,
+          "selection_status": "NOT_SELECTED",
+          "generation_status": "NOT_REQUESTED",
+          "source_basis": "Ders kitabı s. 198-202 Nevruz tahlili ve program s. 86 yerel bağlam hedefleri (model tarafından kaynaklardan türetilen pedagojik öneri).",
+          "required_existing_material_ids": []
+        },
+        {
+          "option_id": "OPT_T3_SBP_02_MEKAN_TASVIRI_YAZMA_KLINIGI",
+          "theme_id": "TEMA_03",
+          "theme_title": "3. TEMA: ANLAMIN YAPI TAŞLARI",
+          "title": "Gezi Yazısı ve Mekân Tasvirinde Niteleyici Söz Varlığı Kliniği",
+          "category": "REMEDIATION",
+          "duration_hours": 1,
+          "origin": "pedagogical_recommendation",
+          "derived_from": {
+            "curriculum_locators": [
+              "s. 82",
+              "s. 87"
+            ],
+            "curriculum_outcomes": [
+              "TDE2.2",
+              "TDE4.2"
+            ],
+            "textbook_locators": [
+              "s. 182-194",
+              "s. 204"
+            ],
+            "textbook_section_ids": [
+              "T3_SEC_02_OKUMA_GEZI_YAZISI",
+              "T3_SEC_05_YAZMA_ATOLYESI"
+            ],
+            "textbook_activity_ids": [
+              "T3_ACT_06_OKUMA_SONRASI_GEZI_TAHLIL",
+              "T3_ACT_12_YAZMA_SIRASI"
+            ],
+            "textbook_form_ids": []
+          },
+          "rationale": "Falih Rıfkı Atay'ın Bizim Akdeniz'den metnindeki gözleme dayalı tasvir tekniklerini çözümlemekte ve infografik metin yazımında niteleyici sözcük seçmekte zorlanan öğrencilere destek çalışması sağlamak.",
+          "linked_outcomes": [
+            "TDE2.2",
+            "TDE4.2"
+          ],
+          "linked_textbook_section_ids": [
+            "T3_SEC_02_OKUMA_GEZI_YAZISI",
+            "T3_SEC_05_YAZMA_ATOLYESI"
+          ],
+          "linked_textbook_activity_ids": [
+            "T3_ACT_06_OKUMA_SONRASI_GEZI_TAHLIL",
+            "T3_ACT_12_YAZMA_SIRASI"
+          ],
+          "linked_textbook_form_ids": [],
+          "expected_student_action": "Metinden hareketle duyulara hitap eden kelimeleri (görme, işitme, tatma) ayıklama ve boşluk doldurmalı mekân tasviri cümleleri kurma.",
+          "expected_student_evidence": "Nitelikli Tasvir Cümleleri Alıştırma Kâğıdı.",
+          "pedagogical_function": "Söz varlığı zenginleştirme ve tasvir becerisini onarma.",
+          "textbook_relationship": "SUPPORTS_REMEDIATION",
+          "possible_material_support": [
+            "student_worksheet"
+          ],
+          "differentiation_notes": "Mekân fotoğrafları üzerinden eşleştirme kartları verilir.",
+          "accessibility_notes": "Yazı büyüklüğü ayarlanabilir ve dijital ekran uyumlu kâğıtlar sunulur.",
+          "privacy_safeguards": {
+            "voluntary_consent_required": false,
+            "no_sensitive_personal_data": true,
+            "audio_video_recording_mandatory": false,
+            "public_sharing_mandatory": false,
+            "alternative_provided": "Mekân tasviri sözlük desteği sağlanır.",
+            "safeguard_notes": "Kişisel veri içermez; güvenli sınıf içi alıştırmadır."
+          },
+          "teacher_choice_required": true,
+          "selection_status": "NOT_SELECTED",
+          "generation_status": "NOT_REQUESTED",
+          "source_basis": "Ders kitabı s. 182-194 gezi yazısı tahlili ve s. 204 yazma basamakları (model tarafından kaynaklardan türetilen pedagojik öneri).",
+          "required_existing_material_ids": []
+        },
+        {
+          "option_id": "OPT_T3_SBP_03_KULTUR_VE_DIL_PANELI",
+          "theme_id": "TEMA_03",
+          "theme_title": "3. TEMA: ANLAMIN YAPI TAŞLARI",
+          "title": "Anadil, Kültür ve Gurbet Temalı Panel Sunumu",
+          "category": "PERFORMANCE_EXTENSION",
+          "duration_hours": 2,
+          "origin": "pedagogical_recommendation",
+          "derived_from": {
+            "curriculum_locators": [
+              "s. 85",
+              "s. 87"
+            ],
+            "curriculum_outcomes": [
+              "TDE3.1",
+              "TDE3.2",
+              "TDE3.3",
+              "TDE3.4"
+            ],
+            "textbook_locators": [
+              "s. 195-197"
+            ],
+            "textbook_section_ids": [
+              "T3_SEC_01_OKUMA_HIKAYE",
+              "T3_SEC_03_KONUSMA_ATOLYESI"
+            ],
+            "textbook_activity_ids": [
+              "T3_ACT_03_OKUMA_SONRASI_HIKAYE_TAHLIL",
+              "T3_ACT_08_KONUSMA_SIRASI"
+            ],
+            "textbook_form_ids": [
+              "FORM_IN_T3_KONUSMA_CRITERIA",
+              "FORM_BOB_06_T3_KONUSMA_OZ",
+              "FORM_BOB_10_T3_T4_AKRAN"
+            ]
+          },
+          "rationale": "Refik Halit Karay'ın Eskici hikâyesindeki dil-vatan bağı ile Falih Rıfkı'nın Akdeniz anlatısındaki kültürel gözlemlerden hareketle sınıf içi yapılandırılmış bir panel oturumu düzenlemek ve MAT_T3_KONUSMA_RUBRIC ile değerlendirmek.",
+          "linked_outcomes": [
+            "TDE3.1",
+            "TDE3.2",
+            "TDE3.3",
+            "TDE3.4"
+          ],
+          "linked_textbook_section_ids": [
+            "T3_SEC_01_OKUMA_HIKAYE",
+            "T3_SEC_03_KONUSMA_ATOLYESI"
+          ],
+          "linked_textbook_activity_ids": [
+            "T3_ACT_03_OKUMA_SONRASI_HIKAYE_TAHLIL",
+            "T3_ACT_08_KONUSMA_SIRASI"
+          ],
+          "linked_textbook_form_ids": [
+            "FORM_IN_T3_KONUSMA_CRITERIA",
+            "FORM_BOB_06_T3_KONUSMA_OZ",
+            "FORM_BOB_10_T3_T4_AKRAN"
+          ],
+          "expected_student_action": "Öğrencilerin 4'erli panel grupları halinde başkan ve konuşmacı rolleriyle sunumlarını icra etmesi, izleyicilerden gelen soruları yanıtlaması.",
+          "expected_student_evidence": "Panel konuşma metinleri ve doldurulmuş MAT_T3_KONUSMA_RUBRIC puan formları.",
+          "pedagogical_function": "Akademik tartışma kültürü, dinleyici etkileşimi ve topluluk önünde sunum yetkinliği.",
+          "textbook_relationship": "EXTENDS_TEXTBOOK",
+          "possible_material_support": [
+            "panel_guide"
+          ],
+          "differentiation_notes": "Panelistlere konuşma süresi ve slayt şablonları rehberlikle sağlanır.",
+          "accessibility_notes": "Görsel slaytlarda yüksek kontrast ve okunabilir yazı tipleri kullanılır.",
+          "privacy_safeguards": {
+            "voluntary_consent_required": false,
+            "no_sensitive_personal_data": true,
+            "audio_video_recording_mandatory": false,
+            "public_sharing_mandatory": false,
+            "alternative_provided": "Panelde moderatörlük, özet çıkarma veya yazılı bildiri sunma rolü sağlanır.",
+            "safeguard_notes": "Sınıf içi akademik tartışmadır; kayıt alma zorunluluğu yoktur."
+          },
+          "teacher_choice_required": true,
+          "selection_status": "NOT_SELECTED",
+          "generation_status": "NOT_REQUESTED",
+          "source_basis": "Ders kitabı s. 195-197 konuşma atölyesi ve MAT_T3_KONUSMA_RUBRIC desteği (model tarafından kaynaklardan türetilen pedagojik öneri).",
+          "required_existing_material_ids": [
+            "MAT_T3_KONUSMA_RUBRIC"
+          ]
+        },
+        {
+          "option_id": "OPT_T3_SBP_04_INFOGRAFIK_DIJITAL_TASARIM_LAB",
+          "theme_id": "TEMA_03",
+          "theme_title": "3. TEMA: ANLAMIN YAPI TAŞLARI",
+          "title": "Kültürel Miras İnfografik Tasarım ve Görsel Düzenleme Laboratuvarı",
+          "category": "CREATIVE_PRODUCTION",
+          "duration_hours": 2,
+          "origin": "pedagogical_recommendation",
+          "derived_from": {
+            "curriculum_locators": [
+              "s. 86",
+              "s. 88"
+            ],
+            "curriculum_outcomes": [
+              "TDE4.1",
+              "TDE4.2",
+              "TDE4.3",
+              "TDE4.4"
+            ],
+            "textbook_locators": [
+              "s. 203-206"
+            ],
+            "textbook_section_ids": [
+              "T3_SEC_05_YAZMA_ATOLYESI"
+            ],
+            "textbook_activity_ids": [
+              "T3_ACT_12_YAZMA_SIRASI",
+              "T3_ACT_13_YAZMA_SONRASI"
+            ],
+            "textbook_form_ids": [
+              "FORM_IN_T3_YAZMA_CRITERIA",
+              "FORM_BOB_05_T3_YAZMA_OZ",
+              "FORM_BOB_10_T3_T4_AKRAN"
+            ]
+          },
+          "rationale": "Öğrencilerin hazırladıkları kültürel infografik metin taslaklarını grafik hiyerarşi, görsel-metin dengesi ve tipografi yönünden zenginleştirip poster/dijital infografik ürünü haline getirmesini sağlamak.",
+          "linked_outcomes": [
+            "TDE4.1",
+            "TDE4.2",
+            "TDE4.3",
+            "TDE4.4"
+          ],
+          "linked_textbook_section_ids": [
+            "T3_SEC_05_YAZMA_ATOLYESI"
+          ],
+          "linked_textbook_activity_ids": [
+            "T3_ACT_12_YAZMA_SIRASI",
+            "T3_ACT_13_YAZMA_SONRASI"
+          ],
+          "linked_textbook_form_ids": [
+            "FORM_IN_T3_YAZMA_CRITERIA",
+            "FORM_BOB_05_T3_YAZMA_OZ",
+            "FORM_BOB_10_T3_T4_AKRAN"
+          ],
+          "expected_student_action": "İnfografik metin taslağındaki başlık, ara metin, sembol ve grafik ögelerini düzenleyerek nihai görsel metni üretme; MAT_T3_YAZMA_RUBRIC ile değerlendirilme.",
+          "expected_student_evidence": "Tamamlanmış Kültürel İnfografik Afiş/Sayfa Ürünü ve analitik rubrik puan kaydı.",
+          "pedagogical_function": "Çok modlu metin üretimi, görsel okuryazarlık ve tasarım bilinci.",
+          "textbook_relationship": "SUPPORTS_ENRICHMENT",
+          "possible_material_support": [
+            "design_rubric_guide"
+          ],
+          "differentiation_notes": "Dijital araç kullanamayan öğrenciler için milimetrik kâğıt üzerinde el çizimi şablonları sunulur.",
+          "accessibility_notes": "Renk körlüğü dostu paletler ve net simgeler kullanılır.",
+          "privacy_safeguards": {
+            "voluntary_consent_required": false,
+            "no_sensitive_personal_data": true,
+            "audio_video_recording_mandatory": false,
+            "public_sharing_mandatory": false,
+            "alternative_provided": "El çizimi veya şablon üzerinden afiş hazırlama alternatifi sunulur.",
+            "safeguard_notes": "Öğrencilerden üçüncü taraf yazılım üyeliği veya kişisel veri girişi istenmez; offline araçlar teşvik edilir."
+          },
+          "teacher_choice_required": true,
+          "selection_status": "NOT_SELECTED",
+          "generation_status": "NOT_REQUESTED",
+          "source_basis": "Ders kitabı s. 203-206 infografik yazma atölyesi ve MAT_T3_YAZMA_RUBRIC desteği (model tarafından kaynaklardan türetilen pedagojik öneri).",
+          "required_existing_material_ids": [
+            "MAT_T3_YAZMA_RUBRIC"
+          ]
+        },
+        {
+          "option_id": "OPT_T3_SBP_05_TEMA_KAVRAM_HARITASI_KONSOLIDASYONU",
+          "theme_id": "TEMA_03",
+          "theme_title": "3. TEMA: ANLAMIN YAPI TAŞLARI",
+          "title": "Dil-Mekân-Kültür Kavramsal Ağı Pekiştirme Çalışması",
+          "category": "CONSOLIDATION",
+          "duration_hours": 1,
+          "origin": "pedagogical_recommendation",
+          "derived_from": {
+            "curriculum_locators": [
+              "s. 80-84"
+            ],
+            "curriculum_outcomes": [
+              "TDE2.2",
+              "TDE2.3"
+            ],
+            "textbook_locators": [
+              "s. 153-202"
+            ],
+            "textbook_section_ids": [
+              "T3_SEC_01_OKUMA_HIKAYE",
+              "T3_SEC_02_OKUMA_GEZI_YAZISI",
+              "T3_SEC_04_DINLEME_IZLEME"
+            ],
+            "textbook_activity_ids": [
+              "T3_ACT_03_OKUMA_SONRASI_HIKAYE_TAHLIL",
+              "T3_ACT_06_OKUMA_SONRASI_GEZI_TAHLIL"
+            ],
+            "textbook_form_ids": []
+          },
+          "rationale": "Tema boyunca işlenen hikâye, gezi yazısı ve belgesel metinlerindeki anahtar kavramları (kültür, dil, mekân, bellek, gelenek) bütüncül bir kavram haritasında birleştirmek.",
+          "linked_outcomes": [
+            "TDE2.2",
+            "TDE2.3"
+          ],
+          "linked_textbook_section_ids": [
+            "T3_SEC_01_OKUMA_HIKAYE",
+            "T3_SEC_02_OKUMA_GEZI_YAZISI",
+            "T3_SEC_04_DINLEME_IZLEME"
+          ],
+          "linked_textbook_activity_ids": [
+            "T3_ACT_03_OKUMA_SONRASI_HIKAYE_TAHLIL",
+            "T3_ACT_06_OKUMA_SONRASI_GEZI_TAHLIL"
+          ],
+          "linked_textbook_form_ids": [],
+          "expected_student_action": "Eskici, Bizim Akdeniz'den ve Nevruz metinlerindeki ortak izlekleri ilişkisel oklar ve açıklamalarla zihin haritasına dönüştürme.",
+          "expected_student_evidence": "Tamamlanmış Dil ve Kültür Kavram Haritası.",
+          "pedagogical_function": "Kavramsal sentez ve bütüncül metinlerarası anlama.",
+          "textbook_relationship": "DEEPENS_TEXTBOOK",
+          "possible_material_support": [
+            "concept_map_template"
+          ],
+          "differentiation_notes": "Kavram düğümleri önceden doldurulmuş iskele şablonlar sunulabilir.",
+          "accessibility_notes": "Net hiyerarşi ve dokunsal bağlantı çizgileri içeren diyagramlar kullanılır.",
+          "privacy_safeguards": {
+            "voluntary_consent_required": false,
+            "no_sensitive_personal_data": true,
+            "audio_video_recording_mandatory": false,
+            "public_sharing_mandatory": false,
+            "alternative_provided": "Ders kitabı metinleri üzerinden kavram şeması sağlanır.",
+            "safeguard_notes": "Kişisel veri içermez; güvenli sınıf içi kavram çalışmasıdır."
+          },
+          "teacher_choice_required": true,
+          "selection_status": "NOT_SELECTED",
+          "generation_status": "NOT_REQUESTED",
+          "source_basis": "Ders kitabı s. 153-202 tahlil basamakları ve program s. 80-88 tema çerçevesi (model tarafından kaynaklardan türetilen pedagojik öneri).",
+          "required_existing_material_ids": []
+        }
+      ]
+    },
+    {
+      "theme_id": "TEMA_04",
+      "theme_no": 4,
+      "theme_title": "4. TEMA: DİLİN ZENGİNLİĞİ",
+      "structured_program_hours": 43,
+      "school_based_planning_hours": 2,
+      "options": [
+        {
+          "option_id": "OPT_T4_SBP_01_SOSYAL_MEDYA_DIL_ELESTIRISI_FORUMU",
+          "theme_id": "TEMA_04",
+          "theme_title": "4. TEMA: DİLİN ZENGİNLİĞİ",
+          "title": "Dijital Çağda Türkçe: Sosyal Medya Dili Eleştirel Forumu",
+          "category": "PERFORMANCE_EXTENSION",
+          "duration_hours": 2,
+          "origin": "pedagogical_recommendation",
+          "derived_from": {
+            "curriculum_locators": [
+              "s. 91",
+              "s. 94",
+              "s. 97"
+            ],
+            "curriculum_outcomes": [
+              "TDE3.1",
+              "TDE3.2",
+              "TDE3.3",
+              "TDE3.4"
+            ],
+            "textbook_locators": [
+              "s. 277-280"
+            ],
+            "textbook_section_ids": [
+              "T4_SEC_03_KONUSMA_ATOLYESI"
+            ],
+            "textbook_activity_ids": [
+              "T4_ACT_08_KONUSMA_SIRASI",
+              "T4_ACT_09_KONUSMA_SONRASI"
+            ],
+            "textbook_form_ids": [
+              "FORM_IN_T4_KONUSMA_CRITERIA",
+              "FORM_BOB_08_T4_KONUSMA_OZ",
+              "FORM_BOB_10_T3_T4_AKRAN"
+            ]
+          },
+          "rationale": "Öğrencilerin konuşma atölyesinde hazırladıkları sosyal medya dili ile edebî dil karşılaştırmasını sınıf içi interaktif bir foruma taşıyarak dijital iletişimde dil bilinci ve Türkçenin korunması üzerine tartışma yürütmesi.",
+          "linked_outcomes": [
+            "TDE3.1",
+            "TDE3.2",
+            "TDE3.3",
+            "TDE3.4"
+          ],
+          "linked_textbook_section_ids": [
+            "T4_SEC_03_KONUSMA_ATOLYESI"
+          ],
+          "linked_textbook_activity_ids": [
+            "T4_ACT_08_KONUSMA_SIRASI",
+            "T4_ACT_09_KONUSMA_SONRASI"
+          ],
+          "linked_textbook_form_ids": [
+            "FORM_IN_T4_KONUSMA_CRITERIA",
+            "FORM_BOB_08_T4_KONUSMA_OZ",
+            "FORM_BOB_10_T3_T4_AKRAN"
+          ],
+          "expected_student_action": "Sosyal medya platformlarındaki kısaltma, yabancı kelime istilası ve bozulmalara somut edebî alternatifler önererek etkileşimli sözlü sunum yapma; MAT_T4_KONUSMA_RUBRIC ile değerlendirilme.",
+          "expected_student_evidence": "Forum sunum notları, öneri manifestosu ve doldurulmuş MAT_T4_KONUSMA_RUBRIC kayıtları.",
+          "pedagogical_function": "Dil bilinci, eleştirel medya okuryazarlığı ve sözlü tartışma yetkinliği.",
+          "textbook_relationship": "EXTENDS_TEXTBOOK",
+          "possible_material_support": [
+            "forum_moderation_guide"
+          ],
+          "differentiation_notes": "Dijital örnekler önceden basılı ekran kartları olarak verilebilir.",
+          "accessibility_notes": "Yazılı forum tahtası ve sözlü katılım dengeli yürütülür.",
+          "privacy_safeguards": {
+            "voluntary_consent_required": false,
+            "no_sensitive_personal_data": true,
+            "audio_video_recording_mandatory": false,
+            "public_sharing_mandatory": false,
+            "alternative_provided": "Öğrencilerin kendi hesapları yerine öğretmen tarafından anonimleştirilmiş/kamuya açık sosyal medya dil örnekleri üzerinde çalışma sağlanır.",
+            "safeguard_notes": "Öğrencilerin kişisel sosyal medya profilleri veya özel mesajlaşmaları incelenemez; yalnızca kamuya açık genel dil kullanım örnekleri pedagojik materyal olarak kullanılır."
+          },
+          "teacher_choice_required": true,
+          "selection_status": "NOT_SELECTED",
+          "generation_status": "NOT_REQUESTED",
+          "source_basis": "Ders kitabı s. 277-280 konuşma atölyesi ve MAT_T4_KONUSMA_RUBRIC desteği (model tarafından kaynaklardan türetilen pedagojik öneri).",
+          "required_existing_material_ids": [
+            "MAT_T4_KONUSMA_RUBRIC"
+          ]
+        },
+        {
+          "option_id": "OPT_T4_SBP_02_YEREL_EDINILMIS_KULTUREL_DEGER_PORTRESI",
+          "theme_id": "TEMA_04",
+          "theme_title": "4. TEMA: DİLİN ZENGİNLİĞİ",
+          "title": "Yerel Bir Sanatçı veya Kültür İnsanının Otobiyografik Portresi",
+          "category": "LOCAL_CONTEXT",
+          "duration_hours": 2,
+          "origin": "pedagogical_recommendation",
+          "derived_from": {
+            "curriculum_locators": [
+              "s. 90",
+              "s. 95",
+              "s. 97"
+            ],
+            "curriculum_outcomes": [
+              "TDE1.2",
+              "TDE4.2",
+              "TDE4.3"
+            ],
+            "textbook_locators": [
+              "s. 281-295"
+            ],
+            "textbook_section_ids": [
+              "T4_SEC_04_DINLEME_IZLEME",
+              "T4_SEC_05_YAZMA_ATOLYESI"
+            ],
+            "textbook_activity_ids": [
+              "T4_ACT_10_DINLEME_ONCESI_VE_SIRASI",
+              "T4_ACT_12_YAZMA_SIRASI"
+            ],
+            "textbook_form_ids": [
+              "FORM_IN_T4_DINLEME_GOZLEM"
+            ]
+          },
+          "rationale": "Âşık Veysel belgeseli incelemesinden hareketle öğrencilerin kendi yerel çevrelerinde tanınan bir halk ozanı, yazar veya kültür insanının yaşam öyküsünü araştırıp birinci tekil kişi ağzından otobiyografik portre metni kurgulaması.",
+          "linked_outcomes": [
+            "TDE1.2",
+            "TDE4.2",
+            "TDE4.3"
+          ],
+          "linked_textbook_section_ids": [
+            "T4_SEC_04_DINLEME_IZLEME",
+            "T4_SEC_05_YAZMA_ATOLYESI"
+          ],
+          "linked_textbook_activity_ids": [
+            "T4_ACT_10_DINLEME_ONCESI_VE_SIRASI",
+            "T4_ACT_12_YAZMA_SIRASI"
+          ],
+          "linked_textbook_form_ids": [
+            "FORM_IN_T4_DINLEME_GOZLEM"
+          ],
+          "expected_student_action": "Öğretmenin belirleyeceği yerel şahsiyet hakkında biyografik bilgi toplama, kişinin ağzından içten bir dille kurgulanmış 1-2 sayfalık portre/otobiyografi metni yazma.",
+          "expected_student_evidence": "Öğrencinin kaleme aldığı Yerel Kültür İnsanı Otobiyografik Portresi.",
+          "pedagogical_function": "Yerel hafıza ile empati kurma ve otobiyografik yazma becerisini yerelleştirme.",
+          "textbook_relationship": "LOCALIZES_TEXTBOOK",
+          "possible_material_support": [
+            "interview_template",
+            "student_worksheet"
+          ],
+          "differentiation_notes": "Bilgi toplama için soru yönlendiricileri ve biyografik zaman çizelgesi verilir.",
+          "accessibility_notes": "Sesli portre anlatımı veya görsel poster seçeneği sağlanır.",
+          "privacy_safeguards": {
+            "voluntary_consent_required": true,
+            "no_sensitive_personal_data": true,
+            "audio_video_recording_mandatory": false,
+            "public_sharing_mandatory": false,
+            "alternative_provided": "Yerel şahsiyetle görüşme yapamayan öğrencilere öğretmen tarafından kamuya mal olmuş tarihî/edebî şahsiyetlerin açık kaynak biyografileri veya kurgusal portre kartları sağlanır.",
+            "safeguard_notes": "Yaşayan yerel şahsiyetlerle mülakatta gönüllü rıza şarttır; özel yaşamın gizliliği korunur; ses/video kaydı zorunlu tutulmaz, yazılı not yeterlidir; metinler sınıf dışı kamusal mecralarda veli/katılımcı onayı olmaksızın yayınlanamaz."
+          },
+          "teacher_choice_required": true,
+          "selection_status": "NOT_SELECTED",
+          "generation_status": "NOT_REQUESTED",
+          "source_basis": "Ders kitabı s. 281-295 belgesel ve otobiyografi tahlil yönergeleri (model tarafından kaynaklardan türetilen pedagojik öneri).",
+          "required_existing_material_ids": []
+        },
+        {
+          "option_id": "OPT_T4_SBP_03_BAGLASIKLIK_BAGDASIKLIK_KLINIGI",
+          "theme_id": "TEMA_04",
+          "theme_title": "4. TEMA: DİLİN ZENGİNLİĞİ",
+          "title": "Metin Yapısında Bağdaşıklık, Bağlaşıklık ve Anlatım Kusurları Kliniği",
+          "category": "REMEDIATION",
+          "duration_hours": 1,
+          "origin": "pedagogical_recommendation",
+          "derived_from": {
+            "curriculum_locators": [
+              "s. 90",
+              "s. 95",
+              "s. 97"
+            ],
+            "curriculum_outcomes": [
+              "TDE4.3",
+              "TDE2.2"
+            ],
+            "textbook_locators": [
+              "s. 268-276",
+              "s. 294"
+            ],
+            "textbook_section_ids": [
+              "T4_SEC_02_OKUMA_ELESTIRI",
+              "T4_SEC_05_YAZMA_ATOLYESI"
+            ],
+            "textbook_activity_ids": [
+              "T4_ACT_06_OKUMA_SONRASI_ELESTIRI_TAHLIL",
+              "T4_ACT_12_YAZMA_SIRASI"
+            ],
+            "textbook_form_ids": []
+          },
+          "rationale": "Otobiyografi yazımında ve eleştiri metni tahlilinde eklerin uygun kullanımı, zamir ve bağlaç tutarlılığı, anlatım kusurlarını düzeltme ve cümle akıcılığı sağlama güçlüğü yaşayan öğrencilere destek sunmak.",
+          "linked_outcomes": [
+            "TDE4.3",
+            "TDE2.2"
+          ],
+          "linked_textbook_section_ids": [
+            "T4_SEC_02_OKUMA_ELESTIRI",
+            "T4_SEC_05_YAZMA_ATOLYESI"
+          ],
+          "linked_textbook_activity_ids": [
+            "T4_ACT_06_OKUMA_SONRASI_ELESTIRI_TAHLIL",
+            "T4_ACT_12_YAZMA_SIRASI"
+          ],
+          "linked_textbook_form_ids": [],
+          "expected_student_action": "Örnek cümlelerdeki bağlaşıklık (ek, bağlaç, öge uyumu) ve bağdaşıklık (anlamsal tutarlılık) hatalarını bularak düzeltme alıştırması yapma.",
+          "expected_student_evidence": "Düzeltilmiş Bağdaşıklık ve Bağlaşıklık Alıştırma Kâğıdı.",
+          "pedagogical_function": "Metin dilbilgisi düzeyinde telafi ve yazım akıcılığını onarma.",
+          "textbook_relationship": "SUPPORTS_REMEDIATION",
+          "possible_material_support": [
+            "student_worksheet"
+          ],
+          "differentiation_notes": "Hatalı cümleler kontrastlı renklerle ve çözüm ipuçlarıyla sunulur.",
+          "accessibility_notes": "Net yazı puntosu ve satır aralığı geniş şablonlar kullanılır.",
+          "privacy_safeguards": {
+            "voluntary_consent_required": false,
+            "no_sensitive_personal_data": true,
+            "audio_video_recording_mandatory": false,
+            "public_sharing_mandatory": false,
+            "alternative_provided": "Hazır cümle onarım kartları sağlanır.",
+            "safeguard_notes": "Kişisel veri içermez; güvenli sınıf içi dilbilgisi çalışmasıdır."
+          },
+          "teacher_choice_required": true,
+          "selection_status": "NOT_SELECTED",
+          "generation_status": "NOT_REQUESTED",
+          "source_basis": "Ders kitabı s. 268-276 eleştiri tahlili ve s. 294 yazım kuralları (model tarafından kaynaklardan türetilen pedagojik öneri).",
+          "required_existing_material_ids": []
+        },
+        {
+          "option_id": "OPT_T4_SBP_04_CALIKUSU_SAHNELEME_VE_METINLERARASILIK",
+          "theme_id": "TEMA_04",
+          "theme_title": "4. TEMA: DİLİN ZENGİNLİĞİ",
+          "title": "Roman Sahnesinden Tiyatro Metnine: Çalıkuşu Dramatizasyon Atölyesi",
+          "category": "CREATIVE_PRODUCTION",
+          "duration_hours": 2,
+          "origin": "pedagogical_recommendation",
+          "derived_from": {
+            "curriculum_locators": [
+              "s. 90",
+              "s. 95",
+              "s. 97"
+            ],
+            "curriculum_outcomes": [
+              "TDE2.3",
+              "TDE4.2"
+            ],
+            "textbook_locators": [
+              "s. 238-250"
+            ],
+            "textbook_section_ids": [
+              "T4_SEC_01_OKUMA_ROMAN"
+            ],
+            "textbook_activity_ids": [
+              "T4_ACT_03_OKUMA_SONRASI_ROMAN_KARSILASTIRMA"
+            ],
+            "textbook_form_ids": []
+          },
+          "rationale": "Çalıkuşu romanı ile Yunus Emre tiyatro metni arasındaki türsel geçişlerden hareketle öğrencilerin romandaki bir sahneyi diyalog ve parantez içi sahne yönergeleriyle tiyatro metnine dönüştürüp kısa canlandırma yapması.",
+          "linked_outcomes": [
+            "TDE2.3",
+            "TDE4.2"
+          ],
+          "linked_textbook_section_ids": [
+            "T4_SEC_01_OKUMA_ROMAN"
+          ],
+          "linked_textbook_activity_ids": [
+            "T4_ACT_03_OKUMA_SONRASI_ROMAN_KARSILASTIRMA"
+          ],
+          "linked_textbook_form_ids": [],
+          "expected_student_action": "Çalıkuşu'ndan seçilen bir diyalog sahnesini tiyatro metni kurallarına (dekor, jest-mimik parantezleri) göre yeniden yazma ve 2-3 kişilik grupla canlandırma.",
+          "expected_student_evidence": "Dramatize Edilmiş Kısa Tiyatro Sahne Metni ve canlandırma performansı.",
+          "pedagogical_function": "Metinlerarasılık, tür dönüşümü ve canlandırma temelli yaratıcı ifade.",
+          "textbook_relationship": "DEEPENS_TEXTBOOK",
+          "possible_material_support": [
+            "drama_script_template"
+          ],
+          "differentiation_notes": "Canlandırma istemeyen öğrenciler senaryo yazarı veya sahne amiri rolü alabilir.",
+          "accessibility_notes": "Oturarak canlandırma ve yazılı rol kartı seçenekleri sunulur.",
+          "privacy_safeguards": {
+            "voluntary_consent_required": false,
+            "no_sensitive_personal_data": true,
+            "audio_video_recording_mandatory": false,
+            "public_sharing_mandatory": false,
+            "alternative_provided": "Yalnızca yazılı tiyatro senaryosu teslimi alternatifi verilir.",
+            "safeguard_notes": "Canlandırmanın video kaydı zorunlu değildir; sınıf içi pedagojik etkinliktir."
+          },
+          "teacher_choice_required": true,
+          "selection_status": "NOT_SELECTED",
+          "generation_status": "NOT_REQUESTED",
+          "source_basis": "Ders kitabı s. 238-250 roman-tiyatro karşılaştırma etkinliği (model tarafından kaynaklardan türetilen pedagojik öneri).",
+          "required_existing_material_ids": []
+        },
+        {
+          "option_id": "OPT_T4_SBP_05_YILLIK_GELISIM_VE_PORTFOLYO_KAPATIS",
+          "theme_id": "TEMA_04",
+          "theme_title": "4. TEMA: DİLİN ZENGİNLİĞİ",
+          "title": "9. Sınıf Edebiyat Portfolyosu ve Yıllık Öğrenme Günlüğü Değerlendirmesi",
+          "category": "REFLECTION_AND_PORTFOLIO",
+          "duration_hours": 1,
+          "origin": "pedagogical_recommendation",
+          "derived_from": {
+            "curriculum_locators": [
+              "s. 89-97"
+            ],
+            "curriculum_outcomes": [
+              "TDE4.4",
+              "TDE2.2"
+            ],
+            "textbook_locators": [
+              "s. 294",
+              "s. 301",
+              "s. 302-314"
+            ],
+            "textbook_section_ids": [
+              "T4_SEC_05_YAZMA_ATOLYESI",
+              "T4_SEC_06_TEMA_SONU_DEGERLENDIRME"
+            ],
+            "textbook_activity_ids": [
+              "T4_ACT_13_YAZMA_SONRASI",
+              "T4_ACT_15_OGRENME_GUNLUGU"
+            ],
+            "textbook_form_ids": [
+              "FORM_BOB_07_T4_YAZMA_OZ",
+              "FORM_IN_T4_OGRENME_GUNLUGU"
+            ]
+          },
+          "rationale": "4 tema boyunca üretilen ürünlerin (paragraf, şiir, infografik, otobiyografi) ve öğrenme günlüklerinin (s. 301) bütüncül incelenmesiyle öğrencinin yıllık edebiyat kazanımlarını öz değerlendirme ile belgelemesi.",
+          "linked_outcomes": [
+            "TDE4.4",
+            "TDE2.2"
+          ],
+          "linked_textbook_section_ids": [
+            "T4_SEC_05_YAZMA_ATOLYESI",
+            "T4_SEC_06_TEMA_SONU_DEGERLENDIRME"
+          ],
+          "linked_textbook_activity_ids": [
+            "T4_ACT_13_YAZMA_SONRASI",
+            "T4_ACT_15_OGRENME_GUNLUGU"
+          ],
+          "linked_textbook_form_ids": [
+            "FORM_BOB_07_T4_YAZMA_OZ",
+            "FORM_IN_T4_OGRENME_GUNLUGU"
+          ],
+          "expected_student_action": "Yıl boyunca doldurulan öz değerlendirme ve gözlem formlarını bir araya getirerek '9. Sınıf Edebiyat Yolculuğum' başlıklı nihai yansıtma yazısı yazma.",
+          "expected_student_evidence": "Tamamlanmış Yıllık Edebiyat Portfolyo Dosyası ve Kapanış Yansıtma Metni.",
+          "pedagogical_function": "Yıllık üstbilişsel sentez, öz değerlendirme ve portfolyo kapanışı.",
+          "textbook_relationship": "REUSES_TEXTBOOK",
+          "possible_material_support": [
+            "annual_reflection_guide"
+          ],
+          "differentiation_notes": "Yansıtma formu kontrol listesi ve açık uçlu rehber sorularla yapılandırılır.",
+          "accessibility_notes": "Dijital e-portfolyo veya fiziksel dosya seçeneği tanınır.",
+          "privacy_safeguards": {
+            "voluntary_consent_required": false,
+            "no_sensitive_personal_data": true,
+            "audio_video_recording_mandatory": false,
+            "public_sharing_mandatory": false,
+            "alternative_provided": "Kısa özet kontrol formu seçeneği sağlanır.",
+            "safeguard_notes": "Portfolyodaki kişisel gelişim notları gizlidir; öğrencinin rızası olmadan sergilenmez."
+          },
+          "teacher_choice_required": true,
+          "selection_status": "NOT_SELECTED",
+          "generation_status": "NOT_REQUESTED",
+          "source_basis": "Ders kitabı s. 301 öğrenme günlüğü ve program s. 89-97 yıl sonu hedefleri (model tarafından kaynaklardan türetilen pedagojik öneri).",
+          "required_existing_material_ids": []
+        }
+      ]
+    }
+  ]
+}

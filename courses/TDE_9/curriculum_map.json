@@ -1,0 +1,2040 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_9",
+  "course_title": "Türk Dili ve Edebiyatı",
+  "grade": 9,
+  "source_id": "curriculum_tde9_2024",
+  "program_name": "Türkiye Yüzyılı Maarif Modeli Türk Dili ve Edebiyatı Dersi Öğretim Programı",
+  "source_pdf": "öğretim programı.pdf",
+  "verification_status": "VERIFIED",
+  "scope_summary": {
+    "total_themes": 4,
+    "theme_names": [
+      "1. TEMA: SÖZÜN İNCELİĞİ",
+      "2. TEMA: ANLAM ARAYIŞI",
+      "3. TEMA: ANLAMIN YAPI TAŞLARI",
+      "4. TEMA: DİLİN ZENGİNLİĞİ"
+    ],
+    "outcomes_per_theme": {
+      "TEMA_01": 12,
+      "TEMA_02": 12,
+      "TEMA_03": 14,
+      "TEMA_04": 16
+    },
+    "total_learning_outcomes": 54,
+    "allocated_lesson_hours": {
+      "theme_1_hours": 43,
+      "theme_2_hours": 43,
+      "theme_3_hours": 43,
+      "theme_4_hours": 43,
+      "school_based_planning_hours": 8,
+      "total_annual_hours": 180,
+      "source_locator": "s. 28, s. 65, s. 73, s. 80, s. 89"
+    },
+    "textbook_used": false,
+    "alignment_performed": false,
+    "gap_analysis_performed": false,
+    "materials_generated": false
+  },
+  "themes": [
+    {
+      "theme_id": "TEMA_01",
+      "theme_no": 1,
+      "exact_theme_name": "1. TEMA: SÖZÜN İNCELİĞİ",
+      "page_range": "65-72",
+      "source_locator": "s. 65-72",
+      "theme_introduction_verbatim": "Edebiyat dünyasına giriş niteliğindeki bu temada estetik değer, yaratıcılık, hayal gücü, imge, sembol, çağrışım gibi temel kavramlar üzerinden öğrencilere edebiyatın derinliklerini keşfetme fırsatı verilmesi amaçlanmaktadır. Edebî söyleyişin günlük söyleyişten farkı vurgulanır ve edebî eserlerde kullanılan her bir sözün özenle belirlendiğinin, sözlerin anlamı ve anlatımı doğrudan etkilediğinin farkına varılır. Sözün inceliğinin bir yandan metnin anlamını derinleştirdiği, diğer yandan da estetik bir deneyim yaşanmasına olanak tanıdığı üzerinde durularak edebiyatın güzel sanatlar içindeki yeri ve diğer disiplinlerle ilişkisi ele alınır.\nÖğrencilerin edebiyat ile tanıştığı bu temada edebî söyleyişin özellikleri Cumhuriyet Dönemi’nden başlanarak dil ve anlatım bakımından günümüze en yakın özellikleri taşıyan eserlerle sunulur. Okumada şiir ve deneme türlerinden birer metin tahlil edilir. Dinleme/izleme metni olarak bir mülakat incelenir. Bu türler üzerinden temaya özgü kavramlarla edebî eserlerde sözün inceliğine vurgu yapılması sağlanır.",
+      "allocated_lesson_hours": {
+        "total": 43,
+        "anlama": 23,
+        "anlatma": 20,
+        "verbatim": "43 (Anlama: 23 / Anlatma: 20)",
+        "source_locator": "s. 65"
+      },
+      "alan_becerileri": {
+        "verbatim": "Metin Tahlili (Anlama): Okuma, Dinleme/İzleme; Edebiyat Atölyesi (Anlatma): Yazma, Konuşma",
+        "source_locator": "s. 65"
+      },
+      "kavramsal_beceriler": {
+        "verbatim": "-",
+        "source_locator": "s. 65"
+      },
+      "egilimler": {
+        "verbatim": "E1.1. Merak, E1.4. Kendine İnanma (Öz Yeterlilik), E1.5. Kendine Güvenme (Öz Güven), E2.3. Girişkenlik, E3.3. Yaratıcılık, E3.10. Eleştirel Bakma, E3.11. Özgün Düşünme",
+        "codes": [
+          "E1.1",
+          "E1.4",
+          "E1.5",
+          "E2.3",
+          "E3.3",
+          "E3.10",
+          "E3.11"
+        ],
+        "source_locator": "s. 65"
+      },
+      "programlar_arasi_bilesenler": {
+        "sosyal_duygusal_ogrenme_becerileri": {
+          "verbatim": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB 2.1. İletişim, SDB2.2. İş Birliği, SDB 3.3. Sorumlu Karar Verme",
+          "codes": [
+            "SDB1.1",
+            "SDB1.2",
+            "SDB2.1",
+            "SDB2.2",
+            "SDB3.3"
+          ],
+          "source_locator": "s. 65"
+        },
+        "degerler": {
+          "verbatim": "D4. Dostluk, D7. Estetik, D16. Sorumluluk, D19. Vatanseverlik",
+          "codes": [
+            "D4",
+            "D7",
+            "D16",
+            "D19"
+          ],
+          "source_locator": "s. 65"
+        },
+        "okuryazarlik_becerileri": {
+          "verbatim": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB9. Sanat Okuryazarlığı",
+          "codes": [
+            "OB1",
+            "OB2",
+            "OB9"
+          ],
+          "source_locator": "s. 65"
+        }
+      },
+      "disiplinler_arasi_iliskiler": {
+        "verbatim": "Müzik, Resim, Psikoloji, Sosyoloji",
+        "source_locator": "s. 65"
+      },
+      "beceriler_arasi_iliskiler": {
+        "verbatim": "KB2.10. Çıkarım Yapma, KB2.15. Yansıtma, KB2.18. Tartışma, KB3.3. Eleştirel Düşünme",
+        "codes": [
+          "KB2.10",
+          "KB2.15",
+          "KB2.18",
+          "KB3.3"
+        ],
+        "source_locator": "s. 65"
+      },
+      "icerik_cercevesi": {
+        "verbatim": "“Sözün İnceliği” temasının içerik çerçevesi şu şekildedir:\n• Okuma\n• Yazma\n• Dinleme/İzleme\n• Konuşma\nOkuma becerisinin geliştirilmesi için öncelikle edebî dilin inceliklerini barındıran; estetik değer, imge, sembol gibi ögelerin ön plana çıktığı bir tür olan şiirden hareket edilir. Ayrıca bu tema kapsamında ikinci metin olarak deneme türünde bir metin incelenir. Böylece tema boyunca verilmek istenen edebiyat ile ilgili içerik, farklı türdeki metinlere bağlı olarak sunulur.\nYazma becerisinin geliştirilmesinde öğrencilerden tema çerçevesinde okudukları bir şiiri betimleme paragrafı olarak düzenlemeleri istenir. Böylece sözün inceliğinin farklı metin türlerinde yansıtılabileceği görülmüş olur. Ayrıca yazılarda söz varlığının etkili kullanımı göz önünde bulundurulur.\nDinleme/izleme becerisinin geliştirilmesinde içerik olarak çok modlu bir metin türü olan mülakat seçilir. Bir sanatçıyla gerçekleştirilen mülakatın incelenmesiyle günlük hayata ilişkin özelliklerin edebî bir dille aktarılması ve edebiyatın gerçeklikle nasıl iç içe geçtiği görülmüş olur.\nKonuşma becerisinin geliştirilmesinde deneme metinlerinden hareketle bir konuşma etkinliği düzenlenir. Böylece öğrencilerin farklı düşünme tekniklerini kullanarak fikir geliştirmelerine olanak tanınır. Ayrıca temaya ilişkin söz varlığının etkili kullanımı sağlanır.",
+        "source_locator": "s. 67"
+      },
+      "anahtar_kavramlar": {
+        "verbatim": "söz varlığı, edebî dil, günlük dil, gerçeklik, kurmaca, açık ve örtük ileti, sürükleyicilik, yaratıcılık, hayal gücü, imge, sembol, çağrışım",
+        "concepts": [
+          "söz varlığı",
+          "edebî dil",
+          "günlük dil",
+          "gerçeklik",
+          "kurmaca",
+          "açık ve örtük ileti",
+          "sürükleyicilik",
+          "yaratıcılık",
+          "hayal gücü",
+          "imge",
+          "sembol",
+          "çağrışım"
+        ],
+        "source_locator": "s. 67"
+      },
+      "ogrenme_kanitlari_olcme_ve_degerlendirme": {
+        "verbatim": "Metin Tahlili (Anlama)\nOkuma ve Dinleme/İzleme\n• İzleme testi\n• Zihin haritası\n• Açık uçlu sorular\n• Kontrol listesi\n• Çıkış kartı (3-2-1)\n• Karşılaştırma tablosu\n• Öğrenme günlüğü\nEdebî söyleyişin inceliğini yansıtan metinlerde okumaya yönelik izleme testi, zihin haritası, açık uçlu sorular ve çıkış kartı kullanılabilir. Dinleme/izleme metinleri ile ilgili olarak da kontrol listesi ve karşılaştırma tablosu hazırlanabilir. Öz yansıtmada öz değerlendirme ile akran ve grup değerlendirmeleri yapılabilir.\nEdebiyat Atölyesi (Anlatma)\nKonuşma ve Yazma\n• Öğrencilerin okudukları şiiri betimleyici bir paragrafa dönüştürmelerine yönelik bir performans görevi\n• Deneme metinlerinden hareketle düşünme tekniklerini kullanarak konuşma yapabilmelerine yönelik performans görevi\nEdebî söyleyişin inceliğini yansıtan metinlerde yazma sürecinde öğrencilere okudukları bir şiiri betimleyici paragrafa dönüştürmelerine ilişkin bir performans görevi verilir. Öğrencilerin bu çalışmaları dereceli puanlama anahtarı ile değerlendirilir. Puanlama anahtarında ana duygu, yazma akıcılığı, betimleyici anlatım özellikleri (tasvir vb.), yazım ve noktalama vb. ölçütler yer alır.\nKonuşma sürecinde öğrencilere, düşünme tekniklerini kullanarak fikir geliştirmelerine yönelik bir performans görevi verilir. Grup çalışması olarak gerçekleştirilecek bu görev dereceli puanlama anahtarı ile değerlendirilir. Puanlama anahtarında planlama, organizasyon, zaman yönetimi ve düşünsel süreçleri kontrol etme yetenekleri, grup çalışması vb. ölçütler dikkate alınır.\nTema Sonu Değerlendirme\nTema sonunda tema değerlendirmesi için öğrenme günlüğü kullanılır.",
+        "source_locator": "s. 68",
+        "official_assessment_instruments": [
+          {
+            "instrument_name": "İzleme testi",
+            "skill_area": "Okuma",
+            "exact_verbatim": "Edebî söyleyişin inceliğini yansıtan metinlerde okumaya yönelik izleme testi... kullanılabilir.",
+            "source_locator": "s. 68, s. 69"
+          },
+          {
+            "instrument_name": "Zihin haritası",
+            "skill_area": "Okuma",
+            "exact_verbatim": "Edebî söyleyişin inceliğini yansıtan metinlerde okumaya yönelik... zihin haritası... kullanılabilir.",
+            "source_locator": "s. 68, s. 69"
+          },
+          {
+            "instrument_name": "Açık uçlu sorular",
+            "skill_area": "Okuma",
+            "exact_verbatim": "Edebî söyleyişin inceliğini yansıtan metinlerde okumaya yönelik... açık uçlu sorular... kullanılabilir.",
+            "source_locator": "s. 68, s. 69"
+          },
+          {
+            "instrument_name": "Çıkış kartı (3-2-1)",
+            "skill_area": "Okuma / Tema Sonu",
+            "exact_verbatim": "Ayrıca öğrenme sürecini değerlendirmek amacıyla çıkış kartlarından biri olan “3-2-1 tekniği” kullanılır. Bu teknikte öğrencilerden edebî söyleyişle ilgili edindikleri üç bilgiyi söylemeleri, öğrendikleriyle ilgili iki soru sormaları ve öğrendikleri arasından kendileri için en ilginç veya dikkat çekici olan bir şeyi belirtmeleri istenir",
+            "source_locator": "s. 68, s. 69-70"
+          },
+          {
+            "instrument_name": "Kontrol listesi",
+            "skill_area": "Dinleme/İzleme",
+            "exact_verbatim": "Dinleme/izleme metinleri ile ilgili olarak da kontrol listesi... hazırlanabilir. Dinleme/izleme öncesinde öğrencilerin izlemeye hazırlık yapması, önceki bilgilerini kullanması, izleme öncesi sorular oluşturması, tahminde bulunması, amaç belirlemesi ve izlerken hangi yöntemi kullanacağına (bilgileri not alma vb.) karar vermesi gibi ölçütlerin yer aldığı bir kontrol listesi oluşturulur.",
+            "source_locator": "s. 68, s. 70"
+          },
+          {
+            "instrument_name": "Karşılaştırma tablosu",
+            "skill_area": "Dinleme/İzleme ve Okuma",
+            "exact_verbatim": "öğrenciler, okudukları şiir ile dinledikleri/izledikleri mülakat metinlerinden hareketle edebî dil ve günlük dil arasındaki farkları karşılaştırma tablosu aracılığıyla değerlendirir.",
+            "source_locator": "s. 68, s. 71"
+          },
+          {
+            "instrument_name": "Öz değerlendirme, akran ve grup değerlendirmeleri",
+            "skill_area": "Okuma, Dinleme/İzleme, Konuşma, Yazma",
+            "exact_verbatim": "Öz yansıtmada öz değerlendirme ile akran ve grup değerlendirmeleri yapılabilir.",
+            "source_locator": "s. 68, s. 70, s. 71"
+          },
+          {
+            "instrument_name": "Performans görevi (Yazma) & Dereceli puanlama anahtarı",
+            "skill_area": "Yazma",
+            "exact_verbatim": "Edebî söyleyişin inceliğini yansıtan metinlerde yazma sürecinde öğrencilere okudukları bir şiiri betimleyici paragrafa dönüştürmelerine ilişkin bir performans görevi verilir. Öğrencilerin bu çalışmaları dereceli puanlama anahtarı ile değerlendirilir. Puanlama anahtarında ana duygu, yazma akıcılığı, betimleyici anlatım özellikleri (tasvir vb.), yazım ve noktalama vb. ölçütler yer alır.",
+            "source_locator": "s. 68, s. 70"
+          },
+          {
+            "instrument_name": "Performans görevi (Konuşma) & Dereceli puanlama anahtarı",
+            "skill_area": "Konuşma",
+            "exact_verbatim": "Konuşma sürecinde öğrencilere, düşünme tekniklerini kullanarak fikir geliştirmelerine yönelik bir performans görevi verilir. Grup çalışması olarak gerçekleştirilecek bu görev dereceli puanlama anahtarı ile değerlendirilir. Puanlama anahtarında planlama, organizasyon, zaman yönetimi ve düşünsel süreçleri kontrol etme yetenekleri, grup çalışması vb. ölçütler dikkate alınır.",
+            "source_locator": "s. 68, s. 71"
+          },
+          {
+            "instrument_name": "Öğrenme günlüğü",
+            "skill_area": "Tema Sonu Değerlendirme",
+            "exact_verbatim": "Temanın sonunda öğrencilerden öğrenme günlüğü yazmaları istenir. Bu günlükte, edebî dil ile günlük dil arasındaki farka odaklanarak okunan metinlerde dilin nasıl kullanıldığıyla ilgili çıkarımda bulunmaları istenir. Ayrıca öğrenme süreçlerine ilişkin yansıtma yapmaları sağlanır.",
+            "source_locator": "s. 68, s. 71"
+          }
+        ]
+      },
+      "ogrenme_ogretme_yasantilari": {
+        "temel_kabuller": {
+          "verbatim": "Bu temada öğrencilerin paragraf türlerini bildiği, metin türleri ayrımını yaptığı, yazılı ve sözlü anlatım aşamalarının yanı sıra yazım ve noktalama kurallarını ve Türkçenin ses bilgisiyle ilgili temel kavram ve kurallarını bildiği kabul edilmektedir.",
+          "source_locator": "s. 68"
+        },
+        "on_degerlendirme_sureci": {
+          "verbatim": "Öğrencilerin temaya ilişkin temel kabullerini (ön bilgilerini) belirlemek için kısa cevaplı sorular, kavram haritası gibi yöntemler uygulanır.",
+          "source_locator": "s. 68"
+        },
+        "kopru_kurma": {
+          "verbatim": "Öğrencilerin önceki öğrenme yaşantılarından edindiği şiir, deneme ve mülakata ilişkin temel bilgileri, işlem basamakları ve becerileri bu temada öğreneceği içeriğe temel oluşturur. Öğrencilere edebiyatın dünyasıyla tanışarak estetik değer, yaratıcılık, hayal gücü, imge, sembol, çağrışım gibi temel kavramları içselleştirip edebiyatın derinliklerini keşfetme fırsatı sunulur. Böylece öğrencilerin edebî söyleyişin günlük dilden farkını anlamaları sağlanır.\nBu temada edinilen yeni bilgilerle öğrencilerin kendi edebî çalışmalarını oluşturmalarına, topluluk önünde etkili sunumlar yapabilmelerine, edebiyat kulüplerine katılabilmelerine fırsat tanınır. Çevredeki edebî yansımalar fark ettirilerek edebiyatın gerçek yaşamdaki etkileşimlerini anlama becerisi kazandırılır.",
+          "source_locator": "s. 68-69"
+        },
+        "ogrenme_ogretme_uygulamalari": {
+          "surec_cercevesi": {
+            "verbatim": "Bu tema çerçevesinde öncelikle Cumhuriyet Dönemi’nden başlanarak dil ve anlatım bakımından günümüze en yakın özellikleri taşıyan şiir ve deneme türünden eserler okunarak edebiyat ve söyleyişe ilişkin öğrenme çıktıları gerçekleştirilir. Ardından yazma becerisi kapsamında öğrencilerden okudukları şiirden hareketle betimleyici bir paragraf yazmaları istenir. Dinleme/izleme etkinliğinin gerçekleştirilebilmesi için bir sanatçıyla yapılan mülakattan hareketle temadaki hedeflerden faydalanılır. Son olarak öğrencilerden deneme metinlerinden hareketle, düşünme tekniklerini de kullanarak fikir geliştirip sunmaları istenir.",
+            "source_locator": "s. 69"
+          },
+          "metin_tahlili_anlama_okuma": {
+            "verbatim": "TDE2.1\nDikkat çekmek için yakın dönem bir Türk şiiri öğrencilere dinletilir (SDB2.1). Şiirin onlarda oluşturduğu duygu ve aynı duyguyu başka bir metinde hissedip hissetmedikleri sorulur (E1.1, SDB1.1). Daha sonra işlenecek şiirin başlık ve görseline dikkat çekilerek içeriğe yönelik tahminlerde bulunulması istenir (OB9). Tahminler alındıktan sonra vurgu ve tonlamaya dikkat edilerek şiirin sesli okunması sağlanır (SDB2.1).\nTDE2.2\n5E öğrenme modeliyle öğrenme-öğretme yaşantısı şekillendirilir. Öğrenciler gruplara ayrılır. Her bir gruba Cumhuriyet Dönemi’nden başlanarak dil ve anlatım bakımından günümüze en yakın özellikleri taşıyan farklı şiirler dağıtılır. Bu süreçte iş birlikli öğrenme yöntemi kullanılabilir. Şiirin grupça okunmasının yanı sıra şiirdeki yaratıcılık, hayal gücü, imge, sembol, çağrışım, açık ve örtük ileti, söz sanatları ve edebiyatın diğer disiplinlerle ilişkisini içeren unsurların bulunması sağlanır (E2.3, E3.3). Grup sözcüleri tarafından bu çalışmaların bir zihin haritasına dönüştürülerek sınıfa sunulması beklenir (SDB2.2). Böylece konuya ilişkin ön bilgiler yoklanarak akran etkileşimi sağlanır ve öğrencilerde dostluk değeri desteklenir (D4). Zihin haritaları dijital ortamda hazırlanabilir ve daha sonra EBA platformunda paylaşılabilir (SDB1.2, OB2). Temaya ilişkin unsurların edebî türe nasıl yansıdığının kavramsal bilgisi ve örnekleri gruplara dağıtılır. Grup çalışmasıyla, aynı şiir üzerinden bu kavramlarla şiirin iletisi hakkında tespitlerde bulunulur. Şiirde anlam oluşturulurken hangi disiplinlerle ilişki kurulduğu belirlenir. Sonuçlar ilk bilgilerle kıyaslanarak sınıfla paylaşılır (SDB2.2, KB2.18).\nEksik ya da yanlış bilgi varsa bir sunu aracılığı ile söz konusu kavramlar öğretmen tarafından açıklanır. Bir sonraki aşamada, açık uçlu sorular aracılığıyla öğrencilerden yaşamlarında kendilerini etkileyen bir şiiri okuyarak temada ele alınan kavramları örneklendirmeleri istenir. Edebiyatın güzel sanatlarla ilişkisini belirledikleri şiir üzerinden farklı bir sanat dalını araç olarak kullanarak (resim, şarkı vb.) yeniden ifade etmeleri sağlanır. Aynı zamanda şiirlere yönelik olumlu ve olumsuz eleştirilerini gerekçelendirerek açıklamaları istenir (SDB3.3, E3.10, KB3.3). Böylece edebiyatın estetik yönünün ve güzel sanatlar içindeki yerinin kavranması sağlanır (D7). İncelenen ve okunan şiirlerden hareketle şairlerin kendine özgü dil kullanımları olduğu sonucuna ulaşılır (KB2.10). Dil ve anlatım özellikleri ele alınırken metinlerdeki örneklerden hareketle Türkçenin ses bilgisiyle ilgili çalışmalar yapılır.\nSon aşamada öğretmen tarafından şiir ile ilgili izleme testi yapılır. Ayrıca öğrenme sürecini değerlendirmek amacıyla çıkış kartlarından biri olan “3-2-1 tekniği” kullanılır. Bu teknikte öğrencilerden edebî söyleyişle ilgili edindikleri üç bilgiyi söylemeleri, öğrendikleriyle ilgili iki soru sormaları ve öğrendikleri arasından kendileri için en ilginç veya dikkat çekici olan bir şeyi belirtmeleri istenir (SDB1.1, E1.4, KB2.15).\n• İkinci okuma metni olarak deneme türünde bir eser ele alınır ve öğretici metinlere yönelik metin tahlili aşamaları uygulanır. Deneme türüne özgü yapı ve üslup özellikleri göz önünde bulundurularak gerekli farklılaştırmalar yapılır.",
+            "source_locator": "s. 69-70"
+          },
+          "edebiyat_atolyesi_anlatma_yazma": {
+            "verbatim": "TDE4.1, TDE4.2, TDE4.3, TDE4.4\nÖğrencilere okudukları şiiri betimleyici bir paragrafa dönüştürmelerine yönelik performans görevi verilir. Yazma sürecini yönetmek için öğrenciler öncelikle şiirin şekil unsurlarını ve betimleyici anlatıma ilişkin ön bilgilerini gözden geçirir. Performans görevinin amacına göre nasıl bir paragraf yazacağını tasarlar (E3.3, E3.11). Şiiri düzyazıya çevirdiğindeki anlatım özellikleri ile şiire özgü kavram ve içeriği karşılaştırarak aktarır (OB1). Paragrafta aktarmak istediği duyguları belli bir sıraya koyar. Daha sonra, şiirin ana duygusunu koruyarak bağlama uygun söz varlığından faydalanır ve özgün bir betimleyici paragraf oluşturur (E3.3, SDB1.2). Bu süreçte öğrencilerden Türkçenin yazım ve noktalama kurallarını ve dil yapısını doğru kullanmak hususunda millî bilinç sahibi olmaları beklenir ve vatanseverlik değeri vurgulanır (D19). Hazırlanan metinler sınıfta sunulur (SDB2.1). Paylaşım sonrasında akran ve öğretmen değerlendirmesi dereceli puanlama anahtarıyla yapılır. Puanlama anahtarında ana duygu, dilin işlevlerine uygun kullanılması, yazma akıcılığı, betimleyici anlatım özellikleri (tasvir vb.), özgünlük, yazım noktalama vb. ölçütler yer alır. Gelen geri bildirimler sonrasında öğrenciler ürünlerine son şeklini verir.",
+            "source_locator": "s. 70"
+          },
+          "metin_tahlili_anlama_dinleme_izleme": {
+            "verbatim": "TDE1.1\nBu temada öğrencilerden bir sanatçıyla yapılmış mülakatı izlemeleri istenir. Bu dinleme/izleme çalışması sınıf ortamında gerçekleştirilir (SDB2.1, OB2). Dinleme/izleme öncesinde öğrencilerin izlemeye hazırlık yapması, önceki bilgilerini kullanması, izleme öncesi sorular oluşturması, tahminde bulunması, amaç belirlemesi ve izlerken hangi yöntemi kullanacağına (bilgileri not alma vb.) karar vermesi gibi ölçütlerin yer aldığı bir kontrol listesi oluşturulur. Bu liste ile öğrencilerin seçim yapmaları ve dinleme/izleme sürecinde ilişkiyi sürdürme düzeyleri belirlenebilir.\nTDE1.2\nÖğrenciler, dinleme/izleme öncesinde hazırlanan kontrol listesini gözden geçirir. “Açık ve anlaşılır olması, Türkçenin etkili kullanımı, sorular ve içeriğin tutarlılığı, ifade yeteneği, ikna yeteneği, düşüncesini desteklenmesi” gibi ögeler eksik ise kontrol listesine eklenir (OB1). Dinleme/izleme öncesinde öğrencilerin mülakata ilişkin tanıtım metni ile mülakatın konusuna yönelik tahminde bulunmaları istenir. Ardından mülakat sınıfta dinletilir/izletilir (SDB2.1). Öğrencilerin dinleme/izleme sırasında kontrol listelerine gerekli notları almaları sağlanır (OB9). Daha sonra üçerli gruplara ayrılan öğrenciler, kontrol listesi aracılığıyla değerlendirilir. Öğrencilerin grup içinde dinleme/izleme notlarını karşılaştırarak ortak bir sonuca ulaşmaları sağlanır (SDB2.2).\nMülakatta kullanılan öznel ve nesnel ifadeler, düşünceyi geliştirme yolları ile dil yapılarının anlama katkısı gruplar tarafından değerlendirilir. Grup formlarının sınıfta sunulması aracılığıyla bir tartışma ortamı oluşturulur (SDB2.2). Bu süreçte mülakattaki soru ve cevapların açık ve anlaşılır olması, Türkçenin etkili kullanımı, sorularla içeriğin tutarlılığı, ifade yeteneği, ikna yeteneği, düşüncenin desteklenmesi gibi ölçütlerden yola çıkılarak mülakatın etkili olmasını sağlayan unsurlar belirlenir.\nSon olarak grup görüşleri doğrultusunda mülakat metnine yönelik olumlu ve olumsuz eleştiriler gerekçelendirilerek açıklanır (SDB3.3, E3.10, KB3.3).\nBu değerlendirmeler tamamlandıktan sonra öğrenciler, okudukları şiir ile dinledikleri/izledikleri mülakat metinlerinden hareketle edebî dil ve günlük dil arasındaki farkları karşılaştırma tablosu aracılığıyla değerlendirir.",
+            "source_locator": "s. 70-71"
+          },
+          "edebiyat_atolyesi_anlatma_konusma": {
+            "verbatim": "TDE3.1, TDE3.2, TDE3.3, TDE3.4\nÖğrencilere deneme metinlerinden hareketle düşünme tekniklerini kullanarak fikir geliştirmeleri ve bunları sözlü olarak sunmalarına yönelik performans görevi verilir. Performans görevi sınıf içinde gerçekleştirilir. Performans görevi gerçekleştirilirken öğrencilerin görevlerini zamanında ve eksiksiz yerine getirmeleri, özverili olmaları desteklenir (D16). Altı kişilik gruplar oluşturulur. Gruplara farklı deneme metinleri dağıtılır. Deneme metinlerinin konuları sanatın toplumdaki rolü, geleneksel ve çağdaş sanat, sanatın evrenselliği, edebiyat ve psikoloji, sanatsal ifade ve etkileşim, sanatın değişen doğası, edebiyatın diğer disiplinlerle ilişkisi olabilir (OB5). Bu aşamada “altı şapkalı düşünme tekniği” kullanılır ve gruplardaki öğrencilerin her biri düşünmeyi temsil eden bir renk seçer. İlgili rengin temsil ettiği görüşe bağlı olarak fikir üretir (E3.3, E3.11).\n• Sarı şapka: İlgili denemede verilmek istenen iletinin iyimser yönlerini ortaya koyar.\n• Beyaz şapka: İlgili denemede verilmek istenen nesnel anlatımları bulmaya çalışır.\n• Siyah şapka: İlgili denemede verilmek istenen iletinin oluşabilecek olumsuz yönlerini bulmaya çalışır.\n• Kırmızı şapka: İlgili denemede verilmek istenen iletinin öğrencide oluşturduğu duyguyu açıklar.\n• Yeşil şapka: “İlgili deneme metninin içeriğini bir slogan ile anlatmak istesen bu ne olurdu?” sorusuna cevap verir.\n• Mavi şapka: Tüm düşünceleri ele alarak genel bir özet yapar ve karara varır.\nRenklerin temsil ettiği düşünme biçimiyle hazırlanan içerik, konuşma kurallarına dikkat edilerek sunulur (SDB2.2, E1.5). Öğretmen, dereceli puanlama anahtarı kullanarak öğrencilerin konuşmalarını değerlendirir. Değerlendirme sürecinde beden dili, jest ve mimik, planlama, organizasyon, zaman yönetimi ve düşünsel süreçleri kontrol etme yetenekleri, grup çalışması vb. ölçütler dikkate alınır. Öz değerlendirme, akran ve öğretmen değerlendirmesi ile çeşitlilik sağlanabilir. Yapılan değerlendirmeler sonunda öğrencilere geri bildirim verilir.",
+            "source_locator": "s. 71"
+          },
+          "tema_sonu_degerlendirme": {
+            "verbatim": "Temanın sonunda öğrencilerden öğrenme günlüğü yazmaları istenir. Bu günlükte, edebî dil ile günlük dil arasındaki farka odaklanarak okunan metinlerde dilin nasıl kullanıldığıyla ilgili çıkarımda bulunmaları istenir. Ayrıca öğrenme süreçlerine ilişkin yansıtma yapmaları sağlanır.",
+            "source_locator": "s. 71"
+          }
+        }
+      },
+      "farklilastirma": {
+        "zenginlestirme": {
+          "verbatim": "Öğrencilerden okuduğu şiiri duygu, düşünce, estetik değer vb. açılardan değerlendirmeleri ve değerlendirmelerinden yola çıkarak resim, şarkı, kısa hikâye ya da dijital hikâye oluşturması istenebilir.\n* Öğrencilerin ulaşabileceği şair, halk ozanı, yazar, tiyatro sanatçısı vb. ile yaptıkları bir röportajı genel ağdaki güvenilir ortamlarda, sınıf panosunda veya okul dergisinde paylaşmaları sağlanabilir. Sevdikleri şiir veya kısa öyküleri seslendirerek sınıfta paylaşmaları istenebilir.",
+          "source_locator": "s. 72"
+        },
+        "destekleme": {
+          "verbatim": "Öğrencilere içeriği daha basit ve görsel ögelerle desteklenmiş şiirler verilerek bu şiirler hakkında kısa metinler yazmaları ve bunları kendi cümleleriyle anlamlandırmaları istenebilir. Deneme metniyle ilgili çalışma kâğıdı hazırlamaları istenebilir.",
+          "source_locator": "s. 72"
+        }
+      },
+      "ogretmen_yansitmalari": {
+        "verbatim": "Programa yönelik görüş ve öneriniz için karekodu akıllı cihazınıza okutunuz.",
+        "source_locator": "s. 72"
+      },
+      "learning_outcomes": [
+        {
+          "outcome_id": "TDE9_T1_D1",
+          "outcome_code": "TDE1.1",
+          "skill_category": "Metin Tahlili (Anlama) - Dinleme/İzleme",
+          "outcome_verbatim": "TDE1.1. “Sözün İnceliği” temasında ele alınan metinlerde dinlemeyi/izlemeyi yönetebilme",
+          "source_page": 66,
+          "source_locator": "s. 66",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "SDB2.1",
+            "OB2"
+          ],
+          "assessment_requirement_verbatim": "Dinleme/izleme metinleri ile ilgili olarak da kontrol listesi... hazırlanabilir. Bu liste ile öğrencilerin seçim yapmaları ve dinleme/izleme sürecinde ilişkiyi sürdürme düzeyleri belirlenebilir.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T1_D2",
+          "outcome_code": "TDE1.2",
+          "skill_category": "Metin Tahlili (Anlama) - Dinleme/İzleme",
+          "outcome_verbatim": "TDE1.2. “Sözün İnceliği” temasında ele alınan metinlerde anlam oluşturabilme",
+          "source_page": 66,
+          "source_locator": "s. 66",
+          "process_components_verbatim": [
+            {
+              "component_code": "a) TDE1.2.1",
+              "component_title": "Ön bilgilerle bağlantı kurar.",
+              "component_verbatim": "“Sözün İnceliği” temasında ele alınan dinleme/izleme metnindeki bilgiler ile ön bilgileri arasında bağlantı kurar.",
+              "source_locator": "s. 66"
+            },
+            {
+              "component_code": "b) TDE1.2.2",
+              "component_title": "Tahmin eder.",
+              "component_verbatim": "“Sözün İnceliği” temasında ele alınan dinlediği/izlediği metnin başlık ve görsellerinden hareketle metnin yazılış amacını tahmin eder.",
+              "source_locator": "s. 66"
+            },
+            {
+              "component_code": "c) TDE1.2.3",
+              "component_title": "Çıkarım yapar.",
+              "component_verbatim": "“Sözün İnceliği” temasında ele alınan dinlediği/izlediği metinde açıkça sunulan bilgileri belirler.\n“Sözün İnceliği” temasında ele alınan dinlediği/izlediği metinden hareketle çıkarımlar yapar.\n“Sözün İnceliği” temasında ele alınan dinlediği/izlediği metinde açıkça ifade edilen neden-sonuç, koşul, varsayım bilgilerini belirler.\n“Sözün İnceliği” temasında ele alınan dinlediği/izlediği metnin konu ve/veya temasını belirler.\n“Sözün İnceliği” temasında ele alınan dinlediği/izlediği metnin yardımcı düşüncelerini belirler.\n“Sözün İnceliği” temasında ele alınan dinlediği/izlediği metinde ana düşünceyi duyguyu belirler.\n“Sözün İnceliği” temasında ele alınan dinlediği/izlediği metinde yazarın (senarist/yönetmen/şair) metni yazma amacını belirler.\n“Sözün İnceliği” temasında ele alınan dinlediği/izlediği metinde yer alan bilgilerin sunuluş şeklini inceler.\n“Sözün İnceliği” temasında ele alınan dinlediği/izlediği metindeki karakterlerin davranışlarından duygu ve düşüncelerine yönelik çıkarımlar yapar.\n“Sözün İnceliği” temasında ele alınan dinlediği/izlediği metin ile yazar (senarist/yönetmen/şair) arasındaki ilişkiyi belirler.",
+              "source_locator": "s. 66"
+            },
+            {
+              "component_code": "ç) TDE1.2.4",
+              "component_title": "Karşılaştırır.",
+              "component_verbatim": "“Sözün İnceliği” temasında ele alınan metinde dinleme/izleme öncesi tahminleri ile metnin içeriğini karşılaştırır.\n“Sözün İnceliği” temasında ele alınan dinlediği/izlediği metni belirlenen ölçütlere (içerik, tür, şekil, dönem, zihniyet, üslup, ileti) göre karşılaştırır.",
+              "source_locator": "s. 66"
+            }
+          ],
+          "related_official_codes": [
+            "OB1",
+            "SDB2.1",
+            "OB9",
+            "SDB2.2",
+            "SDB3.3",
+            "E3.10",
+            "KB3.3"
+          ],
+          "assessment_requirement_verbatim": "kontrol listesi ve karşılaştırma tablosu hazırlanabilir. Öz yansıtmada öz değerlendirme ile akran ve grup değerlendirmeleri yapılabilir.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T1_O1",
+          "outcome_code": "TDE2.1",
+          "skill_category": "Metin Tahlili (Anlama) - Okuma",
+          "outcome_verbatim": "TDE2.1. “Sözün İnceliği” temasında ele alınan metinlerde okumayı yönetebilme",
+          "source_page": 66,
+          "source_locator": "s. 66",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "SDB2.1",
+            "E1.1",
+            "SDB1.1",
+            "OB9"
+          ],
+          "assessment_requirement_verbatim": "Edebî söyleyişin inceliğini yansıtan metinlerde okumaya yönelik izleme testi, zihin haritası, açık uçlu sorular ve çıkış kartı kullanılabilir.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T1_O2",
+          "outcome_code": "TDE2.2",
+          "skill_category": "Metin Tahlili (Anlama) - Okuma",
+          "outcome_verbatim": "TDE2.2. “Sözün İnceliği” temasında ele alınan metinlerde anlam oluşturabilme",
+          "source_page": 66,
+          "source_locator": "s. 66-67",
+          "process_components_verbatim": [
+            {
+              "component_code": "a) TDE2.2.1",
+              "component_title": "Belirler.",
+              "component_verbatim": "“Sözün İnceliği” temasında ele alınan metinlerden hareketle edebiyatın güzel sanatlarla ve diğer disiplinlerle ilişkisini belirler.",
+              "source_locator": "s. 66"
+            },
+            {
+              "component_code": "b) TDE2.2.2",
+              "component_title": "Belirler.",
+              "component_verbatim": "“Sözün İnceliği” temasında ele alınan metinlerdeki açık ve örtük iletiyi belirler.",
+              "source_locator": "s. 66"
+            },
+            {
+              "component_code": "c) TDE2.2.3",
+              "component_title": "Karşılaştırır.",
+              "component_verbatim": "“Sözün İnceliği” temasında ele alınan metinleri taşıdıkları estetik değer, dil kullanımı vb. açılardan karşılaştırır.",
+              "source_locator": "s. 66"
+            },
+            {
+              "component_code": "ç) TDE2.2.4",
+              "component_title": "Açıklar.",
+              "component_verbatim": "“Sözün İnceliği” temasında ele alınan metinlerden hareketle edebiyata ilişkin estetik, imge, sembol, hayal gücü, çağrışım vb. kavramları açıklar.",
+              "source_locator": "s. 67"
+            },
+            {
+              "component_code": "d) TDE2.2.5",
+              "component_title": "Fark eder.",
+              "component_verbatim": "Söz sanatlarının metni zenginleştirmek ve etkileyici hâle getirmek için üstlendiği rolü fark eder.",
+              "source_locator": "s. 67"
+            }
+          ],
+          "related_official_codes": [
+            "E2.3",
+            "E3.3",
+            "SDB2.2",
+            "D4",
+            "SDB1.2",
+            "OB2",
+            "KB2.18",
+            "SDB3.3",
+            "E3.10",
+            "KB3.3",
+            "D7",
+            "KB2.10",
+            "SDB1.1",
+            "E1.4",
+            "KB2.15"
+          ],
+          "assessment_requirement_verbatim": "zihin haritası, açık uçlu sorular, izleme testi, çıkış kartı (3-2-1 tekniği). Öz yansıtmada öz değerlendirme ile akran ve grup değerlendirmeleri yapılabilir.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T1_K1",
+          "outcome_code": "TDE3.1",
+          "skill_category": "Edebiyat Atölyesi (Anlatma) - Konuşma",
+          "outcome_verbatim": "TDE3.1. Söyleyişin inceliğini kullanarak akıcı bir konuşma süreci yönetebilme",
+          "source_page": 67,
+          "source_locator": "s. 67",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "D16",
+            "OB5",
+            "E3.3",
+            "E3.11",
+            "SDB2.2",
+            "E1.5"
+          ],
+          "assessment_requirement_verbatim": "Grup çalışması olarak gerçekleştirilecek bu görev dereceli puanlama anahtarı ile değerlendirilir. Puanlama anahtarında planlama, organizasyon, zaman yönetimi ve düşünsel süreçleri kontrol etme yetenekleri, grup çalışması vb. ölçütler dikkate alınır. Öz değerlendirme, akran ve öğretmen değerlendirmesi ile çeşitlilik sağlanabilir.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T1_K2",
+          "outcome_code": "TDE3.2",
+          "skill_category": "Edebiyat Atölyesi (Anlatma) - Konuşma",
+          "outcome_verbatim": "TDE3.2. Muhatabını ikna etmek için söyleyiş inceliklerine yer veren bir konuşma içeriği oluşturabilme",
+          "source_page": 67,
+          "source_locator": "s. 67",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "OB5",
+            "E3.3",
+            "E3.11"
+          ],
+          "assessment_requirement_verbatim": "Dereceli puanlama anahtarı. Puanlama anahtarında planlama, organizasyon, zaman yönetimi, düşünsel süreçleri kontrol etme yetenekleri, grup çalışması vb. ölçütler yer alır.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T1_K3",
+          "outcome_code": "TDE3.3",
+          "skill_category": "Edebiyat Atölyesi (Anlatma) - Konuşma",
+          "outcome_verbatim": "TDE3.3. Muhatabını ikna etmek için söyleyiş inceliklerine yer veren bir konuşmada kural uygulayabilme",
+          "source_page": 67,
+          "source_locator": "s. 67",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "SDB2.2",
+            "E1.5"
+          ],
+          "assessment_requirement_verbatim": "Öğretmen, dereceli puanlama anahtarı kullanarak öğrencilerin konuşmalarını değerlendirir. Beden dili, jest ve mimik, planlama, organizasyon vb. ölçütler dikkate alınır.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T1_K4",
+          "outcome_code": "TDE3.4",
+          "skill_category": "Edebiyat Atölyesi (Anlatma) - Konuşma",
+          "outcome_verbatim": "TDE3.4. Söyleyiş inceliğinin konuşmasına etkisini yansıtabilme",
+          "source_page": 67,
+          "source_locator": "s. 67",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "SDB2.2",
+            "E1.5"
+          ],
+          "assessment_requirement_verbatim": "Öz değerlendirme, akran ve öğretmen değerlendirmesi ile çeşitlilik sağlanabilir. Yapılan değerlendirmeler sonunda öğrencilere geri bildirim verilir.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T1_Y1",
+          "outcome_code": "TDE4.1",
+          "skill_category": "Edebiyat Atölyesi (Anlatma) - Yazma",
+          "outcome_verbatim": "TDE4.1. Edebî söyleyişin inceliğini yansıtmak için paragraf düzeyindeki bir yazısında süreci yönetebilme",
+          "source_page": 67,
+          "source_locator": "s. 67",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "E3.3",
+            "E3.11"
+          ],
+          "assessment_requirement_verbatim": "Öğrencilere okudukları bir şiiri betimleyici paragrafa dönüştürmelerine ilişkin bir performans görevi verilir. Öğrencilerin bu çalışmaları dereceli puanlama anahtarı ile değerlendirilir.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T1_Y2",
+          "outcome_code": "TDE4.2",
+          "skill_category": "Edebiyat Atölyesi (Anlatma) - Yazma",
+          "outcome_verbatim": "TDE4.2. Edebî söyleyişin inceliğini yansıtan metinlerden edindiği söz varlığını kullanarak yazısına içerik oluşturabilme",
+          "source_page": 67,
+          "source_locator": "s. 67",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "OB1",
+            "E3.3",
+            "SDB1.2"
+          ],
+          "assessment_requirement_verbatim": "Dereceli puanlama anahtarında ana duygu, dilin işlevlerine uygun kullanılması, betimleyici anlatım özellikleri (tasvir vb.), özgünlük ölçütleri yer alır.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T1_Y3",
+          "outcome_code": "TDE4.3",
+          "skill_category": "Edebiyat Atölyesi (Anlatma) - Yazma",
+          "outcome_verbatim": "TDE4.3. Edebî söyleyişin inceliğini yansıttığı yazısında kural uygulayabilme",
+          "source_page": 67,
+          "source_locator": "s. 67",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "D19",
+            "SDB2.1"
+          ],
+          "assessment_requirement_verbatim": "Dereceli puanlama anahtarında yazma akıcılığı, yazım ve noktalama vb. ölçütler yer alır.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T1_Y4",
+          "outcome_code": "TDE4.4",
+          "skill_category": "Edebiyat Atölyesi (Anlatma) - Yazma",
+          "outcome_verbatim": "TDE4.4. Edebî söyleyişin inceliğini yansıttığı yazısına yönelik değerlendirmelerini yansıtabilme",
+          "source_page": 67,
+          "source_locator": "s. 67",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "SDB2.1"
+          ],
+          "assessment_requirement_verbatim": "Paylaşım sonrasında akran ve öğretmen değerlendirmesi dereceli puanlama anahtarıyla yapılır. Gelen geri bildirimler sonrasında öğrenciler ürünlerine son şeklini verir.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        }
+      ]
+    },
+    {
+      "theme_id": "TEMA_02",
+      "theme_no": 2,
+      "exact_theme_name": "2. TEMA: ANLAM ARAYIŞI",
+      "page_range": "73-79",
+      "source_locator": "s. 73-79",
+      "theme_introduction_verbatim": "Bu temada edebî eserlerde içeriğin anlaşılması ve metnin derinliğinin kavranabilmesi için konu, ana duygu, ana düşünce gibi unsurların bir bütünün parçaları olduğu üzerinde durularak öğrencilerin edebî metinleri analiz etme yeteneklerinin geliştirilmesi amaçlanmaktadır. İçerikle ilişkili unsurlar metnin derinliğini ve iç yapısını belirlediğinden bunların incelenmesiyle metnin katmanları keşfedilip yorumlanır, böylece anlamı ve iletileri daha net bir şekilde ortaya çıkarılır.\n“Anlam Arayışı” teması kapsamında edebî eserlerin içerik yönünden çeşitlendiği metinler seçilerek okumada bir hikâye ve bir anı metni, dinleme/izlemede ise insanın duygu zenginliğini yansıtan şiir türünde bir metin incelenir.",
+      "allocated_lesson_hours": {
+        "total": 43,
+        "anlama": 23,
+        "anlatma": 20,
+        "verbatim": "43 (Anlama: 23 / Anlatma: 20)",
+        "source_locator": "s. 73"
+      },
+      "alan_becerileri": {
+        "verbatim": "Metin Tahlili (Anlama): Okuma, Dinleme/İzleme; Edebiyat Atölyesi (Anlatma): Yazma, Konuşma",
+        "source_locator": "s. 73"
+      },
+      "kavramsal_beceriler": {
+        "verbatim": "-",
+        "source_locator": "s. 73"
+      },
+      "egilimler": {
+        "verbatim": "E1.1. Merak, E1.2. Bağımsızlık, E2.2. Sorumluluk, E3.2. Odaklanma, E3.3. Yaratıcılık, E3.5. Açık Fikirlilik, E3.7. Sistematik Olma, E3.11. Özgün Düşünme",
+        "codes": [
+          "E1.1",
+          "E1.2",
+          "E2.2",
+          "E3.2",
+          "E3.3",
+          "E3.5",
+          "E3.7",
+          "E3.11"
+        ],
+        "source_locator": "s. 73"
+      },
+      "programlar_arasi_bilesenler": {
+        "sosyal_duygusal_ogrenme_becerileri": {
+          "verbatim": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim, SDB2.2. İş Birliği, SDB2.3. Sosyal Farkındalık, SDB3.3. Sorumlu Karar Verme",
+          "codes": [
+            "SDB1.1",
+            "SDB1.2",
+            "SDB2.1",
+            "SDB2.2",
+            "SDB2.3",
+            "SDB3.3"
+          ],
+          "source_locator": "s. 73"
+        },
+        "degerler": {
+          "verbatim": "D3. Çalışkanlık, D4. Dostluk, D7. Estetik, D14. Saygı, D16. Sorumluluk",
+          "codes": [
+            "D3",
+            "D4",
+            "D7",
+            "D14",
+            "D16"
+          ],
+          "source_locator": "s. 73"
+        },
+        "okuryazarlik_becerileri": {
+          "verbatim": "OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık, OB9. Sanat Okuryazarlığı",
+          "codes": [
+            "OB2",
+            "OB4",
+            "OB9"
+          ],
+          "source_locator": "s. 73"
+        }
+      },
+      "disiplinler_arasi_iliskiler": {
+        "verbatim": "Felsefe, Psikoloji, Dil Bilimi, Tarih",
+        "source_locator": "s. 73"
+      },
+      "beceriler_arasi_iliskiler": {
+        "verbatim": "KB2.5. Sınıflandırma, KB2.13. Yapılandırma, KB2.15. Yansıtma, KB2.20. Sentezleme, KB3.1. Karar Verme",
+        "codes": [
+          "KB2.5",
+          "KB2.13",
+          "KB2.15",
+          "KB2.20",
+          "KB3.1"
+        ],
+        "source_locator": "s. 73"
+      },
+      "icerik_cercevesi": {
+        "verbatim": "“Anlam Arayışı” temasının içerik çerçevesi şu şekildedir:\n• Okuma\n• Konuşma\n• Dinleme/İzleme\n• Yazma\nOkuma becerisinin geliştirilmesi kapsamında öncelikle bir edebî metinde anlamın oluşmasını sağlayan unsurların kavranması için hikâye türünden bir metin incelenir. Ayrıca bu tema kapsamında deneyimleri kişisel bir bakış açısıyla yansıtan anı (hatıra) türünde bir metin ele alınır. Böylece öğrenciler hikâyelerdeki karakter gelişimini, olaylar arasındaki bağlantıları ve kurgusal unsurları anılardaki gerçek yaşam kesitleriyle karşılaştırarak metinleri derinlemesine inceleme fırsatı bulur. Okuma becerilerinin geliştirilmesinde ara metin olarak İstiklal Marşı incelenir.\nKonuşma becerisinin geliştirilmesi amacıyla öğrencilerden inceledikleri hikâye metninden seçecekleri karakteri tanıtan bir sunum yapmaları istenir. Bu görevle öğrencilerin sözlü iletişim yetenekleri ve yaratıcılıklarının geliştirilmesi hedeflenir. Ayrıca konuşmalarında söz varlığını etkili kullanmaları göz önünde bulundurulur.\nDinleme/izleme becerisinin geliştirilmesi için Cumhuriyet Dönemi’nden başlanarak dil ve anlatım bakımından günümüze en yakın özellikleri taşıyan bir şiir metni seçilir. Metindeki ana duygu, örtük ileti, mecaz ve çağrışımlar tespit edilirken şiirin ses ve ritim gibi ahenk unsurlarının metnin anlamına nasıl katkı sağladığı üzerinde durulur. Bu süreç, öğrencilerin eleştirel düşünme yeteneklerini geliştirmelerine, metni farklı açılardan değerlendirebilmelerine ve edebî metinleri derinlemesine anlamlandırabilmelerine katkı sağlar.\nYazma becerisinin geliştirilmesi için öğrencilerden dinledikleri/izledikleri şiirin temasına uygun bir şiir yazmaları istenir. Böylece öğrencilerin aynı tema çerçevesinde farklı bir duyuş geliştirmelerine, kendi düşünce ve hayalleriyle yaratıcılıklarını ortaya çıkarmalarına, dili etkili ve güzel kullanmalarına fırsat tanınır.",
+        "source_locator": "s. 74-75"
+      },
+      "anahtar_kavramlar": {
+        "verbatim": "konu, tema, ana duygu, ana düşünce, yardımcı düşünce, yazma amacı, yazarın tutumu, yazar-metin ilişkisi, örtük ileti, açık ileti, çağrışım",
+        "concepts": [
+          "konu",
+          "tema",
+          "ana duygu",
+          "ana düşünce",
+          "yardımcı düşünce",
+          "yazma amacı",
+          "yazarın tutumu",
+          "yazar-metin ilişkisi",
+          "örtük ileti",
+          "açık ileti",
+          "çağrışım"
+        ],
+        "source_locator": "s. 75"
+      },
+      "ogrenme_kanitlari_olcme_ve_degerlendirme": {
+        "verbatim": "Metin Tahlili (Anlama)\nOkuma ve Dinleme/İzleme\n• Kısa cevaplı sorular\n• Hikâye haritası\n• Açık uçlu sorular\n• Karşılaştırma tablosu\n• Kontrol listesi\n• Öğrenme duvarı\n• Çıkış kartı\nKonu zenginliği ve çeşitliliğini sağlayan edebî metinlerde okumayı yönetebilme ve anlam oluşturmaya yönelik kısa cevaplı sorular, hikâye haritası ve açık uçlu sorulardan yararlanılabilir. Ayrıca öğrencilerin tahlil ettikleri metinleri karşılaştırarak bir genellemeye ulaşabilmeleri için karşılaştırma tablosu, öğrenme duvarı kullanılabilir. Öğrencilerin dinleme/izleme etkinliklerine yönelik kontrol listesi, kısa cevaplı ve açık uçlu sorular ve çıkış kartları kanıt olarak kullanılabilir.\nEdebiyat Atölyesi (Anlatma)\nKonuşma ve Yazma\n• Öğrencilerin okudukları hikâyeden seçtikleri karaktere kendi yorumlarını katarak bir sunum yapabilmelerine yönelik performans görevi\n• Öğrencilerin dinledikleri/izledikleri şiirin temasına uygun bir şiir oluşturabilmelerine yönelik performans görevi\nKonuşma becerisinin gerçekleştirilebilmesi için öğrencilerden okudukları ve anlam oluşturma sürecini tamamladıkları hikâye metninden bir karakter seçmeleri ve onu günlük yaşamdaki bir kişiyle özdeşleştirerek yeniden yorumlamaları istenir. Grup çalışması şeklinde gerçekleştirilecek bu süreçte öğrencilerin sözlü anlatımları dereceli puanlama anahtarı ile puanlanır. Puanlama anahtarında Türkçenin doğru kullanımı, ses ve diksiyon, akıcılık, beden dili, içerik kurgusu, zaman yönetimi, etkileyicilik vb. ölçütler yer alır. Öğrencilere yazılı anlatımları için dinledikleri/izledikleri şiirin temasına uygun bir şiir oluşturmalarına yönelik performans görevi verilir. Performans görevi; tema, ana duygu, ritim ve ahenk ögeleri, söz varlığının bağlama uygun kullanımı vb. ölçütlerin yer aldığı bir puanlama anahtarı ile puanlanır.\nTema Sonu Değerlendirme\nTema sonu değerlendirme için çıkış kartı (üçgen-kare-çember) kullanılır.",
+        "source_locator": "s. 75",
+        "official_assessment_instruments": [
+          {
+            "instrument_name": "Kısa cevaplı sorular",
+            "skill_area": "Okuma ve Dinleme/İzleme",
+            "exact_verbatim": "okumayı yönetebilme ve anlam oluşturmaya yönelik kısa cevaplı sorular... yararlanılabilir. Dinleme/izleme etkinliklerine yönelik... kısa cevaplı... sorular... kanıt olarak kullanılabilir.",
+            "source_locator": "s. 75, s. 76"
+          },
+          {
+            "instrument_name": "Hikâye haritası",
+            "skill_area": "Okuma",
+            "exact_verbatim": "Öğrencilerden okudukları bu metnin hikâye haritasını hazırlamaları istenir... Öğrenciler, iş birliği yaparak hazırlanan çalışmaları tek bir hikâye haritasına dönüştürür ve bunu sunar",
+            "source_locator": "s. 75, s. 76"
+          },
+          {
+            "instrument_name": "Açık uçlu sorular",
+            "skill_area": "Okuma, Dinleme/İzleme, Konuşma",
+            "exact_verbatim": "anlam oluşturmaya yönelik... açık uçlu sorulardan yararlanılabilir... Sürecin değerlendirilmesinde açık uçlu sorulardan yararlanılır.",
+            "source_locator": "s. 75, s. 76, s. 78"
+          },
+          {
+            "instrument_name": "Karşılaştırma tablosu",
+            "skill_area": "Okuma, Konuşma",
+            "exact_verbatim": "öğrencilerin tahlil ettikleri metinleri karşılaştırarak bir genellemeye ulaşabilmeleri için karşılaştırma tablosu... Hikâye ve anı metninin yazılma amacı, gerçekliği aktarma şekli, dil ve anlatımı, yapısı (olay, zaman, mekân, karakter) vb. bir karşılaştırma tablosu ile karşılaştırılır.",
+            "source_locator": "s. 75, s. 77"
+          },
+          {
+            "instrument_name": "Kontrol listesi",
+            "skill_area": "Dinleme/İzleme",
+            "exact_verbatim": "Şiiri estetik dinleme/izleme türüne yönelik stratejilerle dinlemeleri/izlemeleri konusunda yönlendirmede bulunulur... Dinleme/izleme öncesinde, dinleme/izleme kuralları hatırlatılır ve süreçte buna uygun davranmaları istenir. Söz konusu kurallara ilişkin bir kontrol listesi hazırlanır.",
+            "source_locator": "s. 75, s. 78"
+          },
+          {
+            "instrument_name": "Öğrenme duvarı",
+            "skill_area": "Okuma",
+            "exact_verbatim": "öğrencilerin seçilen metne ilişkin yorumları bir öğrenme duvarı üzerinde görülebilir",
+            "source_locator": "s. 75, s. 77"
+          },
+          {
+            "instrument_name": "Çıkış kartı (üçgen-kare-çember)",
+            "skill_area": "Tema Sonu Değerlendirme / Dinleme-İzleme",
+            "exact_verbatim": "Temanın sonunda “üçgen-kare-çember tekniği” ile öğrencilerin konuya ilişkin öğrendiği üç noktayı üçgen içine, anladığı dört temel kavramı kare içine, konu hakkında aklına takılan soruyu ise çember içine yazmaları istenir. Böylece öğrencilerin tema sonunda ne öğrendikleri ortaya çıkarılmış ve eksiklikleri giderilmiş olur.",
+            "source_locator": "s. 75, s. 78, s. 79"
+          },
+          {
+            "instrument_name": "Öz değerlendirme ve akran değerlendirmesi",
+            "skill_area": "Konuşma",
+            "exact_verbatim": "Sunumdan sonra öğrenciler öncelikle akran değerlendirmesi ile kendi grup süreçlerini değerlendirir. Arkadaşlarından gelen görüşleri dikkate alarak öz değerlendirme yapar... böylece konuşma sürecindeki hatalarını fark eder",
+            "source_locator": "s. 78"
+          },
+          {
+            "instrument_name": "Performans görevi (Konuşma) & Dereceli puanlama anahtarı",
+            "skill_area": "Konuşma",
+            "exact_verbatim": "Öğrencilere okuduğu hikâyeden seçtiği karaktere kendi yorumunu katarak bir sunum yapabilmelerine yönelik performans görevi verilir... Grup çalışması şeklinde gerçekleştirilecek bu süreçte öğrencilerin sözlü anlatımları dereceli puanlama anahtarı ile puanlanır. Puanlama anahtarında ses ve diksiyon, akıcılık, beden dili, içeriğin kurgusallığı, zaman yönetimi, Türkçenin doğru kullanımı, etkileyicilik vb. ölçütler yer alır. Öğretmen değerlendirmesi dereceli puanlama anahtarı ile gerçekleştirilir.",
+            "source_locator": "s. 75, s. 77, s. 78"
+          },
+          {
+            "instrument_name": "Performans görevi (Yazma) & Puanlama anahtarı",
+            "skill_area": "Yazma",
+            "exact_verbatim": "Öğrencilere dinledikleri/izledikleri şiirin temasına uygun bir şiir oluşturabilmelerine yönelik performans görevi verilir... Öğretmen değerlendirmesi dereceli puanlama anahtarı ile gerçekleştirilir. Puanlama anahtarında tema, ana duygu, ritim ve ahenk ögeleri, söz varlığının bağlama uygun kullanılması vb. ölçütler yer alır. Öğrenciler bu sonuçlardan hareketle şiirlerine son şeklini verirler.",
+            "source_locator": "s. 75, s. 78, s. 79"
+          },
+          {
+            "instrument_name": "Öğrenme günlüğü",
+            "skill_area": "Okuma",
+            "exact_verbatim": "Ayrıca tahlil ettikleri hikâyeyi kendi beğeni ölçütlerine uygunluğu açısından değerlendirir ve metne yönelik beğeni ve eleştirilerini gerekçelendirerek açıklar... Bunlar öğrenme günlüğü biçiminde de ifade edilebilir",
+            "source_locator": "s. 77"
+          }
+        ]
+      },
+      "ogrenme_ogretme_yasantilari": {
+        "temel_kabuller": {
+          "verbatim": "Bu temada öğrencilerin konu, tema, ana düşünce vb. içeriğe dair unsurları, metinle iletişim kurma sürecini, şiir türlerini, edebî metinlere yönelik temel kavramları bildiği kabul edilmektedir.",
+          "source_locator": "s. 75"
+        },
+        "on_degerlendirme_sureci": {
+          "verbatim": "Öğrencilerin temaya ilişkin temel kabullerini (ön bilgilerini) tespit etmek için tartışma, zihin haritası gibi yöntemler uygulanır.",
+          "source_locator": "s. 75"
+        },
+        "kopru_kurma": {
+          "verbatim": "8. sınıfta hikâye, anı ve şiir türleriyle ilgili edinilen bilgiler, burada öğrenilecek bilgilere ve metin tahlili sürecinin sonraki aşamalarına temel oluşturur. Öğrenciler bu temada edebî eserlerin içerik unsurlarını anlayarak bir sonraki temada çözümleme ve değerlendirme aşamalarına geçebilir. Bu bağlamda metinlerin içerik unsurlarının anlaşılması, öğrencilerin günlük yaşamlarındaki iletileri daha net biçimde anlamalarına katkı sağlar.",
+          "source_locator": "s. 76"
+        },
+        "ogrenme_ogretme_uygulamalari": {
+          "surec_cercevesi": {
+            "verbatim": "Bu temada Cumhuriyet Dönemi’nden başlanarak dil ve anlatım bakımından günümüze en yakın özellikleri taşıyan hikâye ve anı metinlerine yer verilerek edebiyat ve içerikle ilgili öğrenme çıktıları gerçekleştirilir. Böylece öğrencilerin metin tahlil sürecinin ilk iki aşamasını kavramaları hedeflenir. Metinlerin dil ve anlatım özellikleri ele alınırken Türkçenin ses bilgisi üzerinde de durulur. Ardından öğrencilerden incelenen hikâye metninden seçtikleri bir karakterle ilgili sunum yapmaları istenir. Daha sonra öğrencilere bir şiir metni dinletilir, bu şiirden bir bölüm verilerek şiire devam edilmesi sağlanır. Yazılı anlatım aşamasında ise belirlenen bir temaya uygun şiir yazılması istenir.",
+            "source_locator": "s. 76"
+          },
+          "metin_tahlili_anlama_okuma": {
+            "verbatim": "TDE2.1\nÖğretmen, temaya başlamadan önce öğrencinin ana duygu ve ana düşünce kavramlarıyla ilgili ön bilgilerini yoklamak amacıyla “beyin fırtınası” tekniğini kullanarak sınıfa şu soruları sorar:\n• Bir metin, onu okuyan kişilerde birden fazla duygu uyandırabilir mi (SDB1.1) ?\n• Metnin ana düşüncesi birden fazla düşünceyi içerebilir mi?\nÖğrencilerden seçilen hikaye metnini okumaları istenerek sorumluluk duygusu kazanmaları desteklenir (D16). Okumaya başlamadan önce okumaya yönelik hazırlık yapılması, metnin başlığı ve görselinden yola çıkılarak metinle ilgili tahminde bulunulması, metnin yazılış amacının tahmin edilmesi gibi etkinlikler gerçekleştirilerek veya kısa cevaplı sorular sorularak okumayı yönetme süreci işlenir (E1.1, OB4) ve okunacak metnin özelliklerine göre okuma stratejisi belirlenir. Bu aşamada öğretmen, öğrencileri kısa cevaplı sorularla değerlendirir.\nTDE2.2\nÖğrencilerin ana düşünce, konu, tema gibi kavramlara ilişkin ön bilgileri hikâye türü ile ilişkilendirilerek kısa cevaplı ve açık uçlu sorularla ortaya çıkarılır. Öğrencilerden okudukları bu metnin hikâye haritasını hazırlamaları istenir (E2.2). Sınıfta küçük gruplar oluşturularak hazırlanan hikâye haritaları karşılaştırılır. Öğrenciler, iş birliği yaparak hazırlanan çalışmaları tek bir hikâye haritasına dönüştürür ve bunu sunar (OB9, SDB2.2). Bu sunumların ardından öğrencilerden hikâyede geçen olayların gerçek mi yoksa kurgu mu olduğunu tahmin etmeleri istenir. Öğrencilerden tahminlerde bulunurken sınıf arkadaşlarını etkin şekilde dinlemeleri ve nezaketli olmaları beklenir (D14). Daha sonra gruplardan tema, konu, ana düşünce, yardımcı düşünce, metnin yazılma amacı gibi içeriğe ilişkin unsurları tespit etmek için kendi araştırma süreçlerini belirlemeleri istenir.\nAraştırma süreci, tüm grup üyeleri tarafından dayanışma içerisinde planlanarak görev paylaşımı yapılır (E1.2, D4). Üyeler görevleri doğrultusunda kendi sorumluluklarını yerine getirir (E2.2). Bireysel araştırmalar tamamlanınca öğrenilenler birleştirilip sunulur. Böylece her grup hikâye metninin içeriğini oluşturan unsurları belirleyerek ortak bir görüş ortaya koyar (SDB2.2).\nMetnin içeriğine yönelik tahminleri ile metni okuduktan sonraki tespitlerini karşılaştırmaları istenir (SDB2.3). Böylece öğrenciler başlangıçta neden öyle düşündüklerini ifade edebilirler.\nAnlam çerçevesi bağlamında hikâye metninin anlatmaya bağlı metinler içinde yer aldığını kavrayabilirler. Gruplardan hikâyenin iki unsurunu değiştirerek yorumlamaları ve hikâyeyi estetik bakış açısıyla yeniden kurgulamaları istenir (SDB2.2, D7, E3.3, E3.11).\nSüreç sonunda öğrencilerin, olay çerçevesinde gelişmelerine rağmen metin türlerinin farklı olduğu genellemesine ulaşması sağlanır. Yazar ve eser arasındaki ilişki, içeriği oluşturan unsurlar ve metnin dil özellikleri tahlil edilir. Dil ve anlatım özellikleri ele alınırken metinlerde kullanılan kelimelerden hareketle Türkçenin ses özellikleriyle ilgili çalışmalar yapılır.\nÖğrenciler, seçtiği okuma stratejisinin temayı anlamaya, metin/metinleri incelemeye yönelik katkısıyla ilgili çıkarımda bulunur ve bunları paylaşır (SDB3.3). Ayrıca tahlil ettikleri hikâyeyi kendi beğeni ölçütlerine uygunluğu açısından değerlendirir ve metne yönelik beğeni ve eleştirilerini gerekçelendirerek açıklar (SDB3.3). Bunlar öğrenme günlüğü biçiminde de ifade edilebilir (SDB1.2).\n• Daha sonra ikinci okuma metni olarak anı metni sınıfta öğrencilerle birlikte okunur. Süreçler hikâyedeki ile benzer şekilde işletilir, gerekli noktalarda türe özgü değişiklikler yapılır. Hikâye ve anı metninin yazılma amacı, gerçekliği aktarma şekli, dil ve anlatımı, yapısı (olay, zaman, mekân, karakter) vb. bir karşılaştırma tablosu ile karşılaştırılır. Öğrencilerin bu süreçleri daha iyi yansıtabildiği dijital araçları kullanılabilir ve böylece öğretmen tarafından aynı anda tüm öğrencilerin seçilen metne ilişkin yorumları bir öğrenme duvarı üzerinde görülebilir (OB2, E3.5). Okuma becerilerinin geliştirilmesine yönelik yapılan çalışmalarda ara metin olarak İstiklal Marşı ele alınır ve incelenir. İstiklal Marşı'nın çözümlemesi yapılır.",
+            "source_locator": "s. 76-77"
+          },
+          "edebiyat_atolyesi_anlatma_konusma": {
+            "verbatim": "TDE3.1\nÖğrencilere okuduğu hikâyeden seçtiği karaktere kendi yorumunu katarak bir sunum yapabilmelerine yönelik performans görevi verilir. Performans görevi sınıf içinde gerçekleştirilir.\nBu süreçte öğrencilerden okuduğu hikâyede geçen bir karakteri seçmeleri, bu karakterle ilgili konuşma amacını ve konuşmasında kullanacağı stratejiyi belirlemeleri istenir (E1.2, KB3.1).\nTDE3.2 ve TDE3.3\nÖğrencilerin seçtikleri karakterle ilgili okudukları hikâye metnindeki bilgileri hatırlaması sağlanır. Sunum öncesinde bir plan hazırlamaları istenir (D3). Bunun için öncelikle, seçtikleri karakteri kendi yaşamlarından kiminle ya da izledikleri sinema, tiyatro gibi eserlerdeki kahramanlardan hangisiyle örtüştürdüklerini belirlemeleri, bu kişiler arasındaki benzerlik ve farklılıkları ortaya koymaları istenir. Sınıftaki tüm öğrenciler hikâyeden seçtiği karakter ile onu örtüştürdüğü kişiyi iyi-kötü, ana-yardımcı karakter, devingen-durağan olma vb. açılardan sınıflandırarak sunar (SDB2.1, KB2.5). Daha sonra öğrencilerden tahlil ettikleri ve seçtikleri hikâye karakterini, özdeşleştirdikleri kişinin özellikleriyle harmanlayarak estetik bakış açısıyla yeniden kurgulamaları istenir (D7, KB2.13). Bu kurgulama sürecinde karşılaştırma, betimleme, benzetme gibi unsurlardan yararlanılır.\nÖğrenciler ayrıca sunumunu etkili hâle getirebilmek için kurguladığı karaktere ait bir görsel (resim, karikatür vb.) oluşturabilir (E3.3, OB4). Daha sonra aynı karakteri seçen öğrencilerle gruplar oluşturulur ve bu gruplardaki öğrenciler teker teker sunumlarını gerçekleştirir. Öğrenciler bu sunumu dijital araçlar üzerinden yapabilir (OB2).\nÖğrencilerin sunum yaparken bağlama uygun söz varlığı kullanması, dil bilgisi kurallarına uyması, bağdaşıklığı sağlaması, sesini etkili kullanması ve konuşmasını beden diliyle desteklemesi sağlanır (E3.7). Öğrencilerden dinleyiciye hangi iletileri örtük ve açık bir şekilde vereceğini kararlaştırıp sunumunu gerçekleştirmesi istenir (SDB2.1).\nTDE3.4\nSürecin değerlendirilmesinde açık uçlu sorulardan yararlanılır. Sunumdan sonra öğrenciler öncelikle akran değerlendirmesi ile kendi grup süreçlerini değerlendirir. Arkadaşlarından gelen görüşleri dikkate alarak öz değerlendirme yapar (SDB1.2); böylece konuşma sürecindeki hatalarını fark eder ve sonraki sunumları için bunları telafi etmeye yönelir (SDB2.1). Öğretmen değerlendirmesi dereceli puanlama anahtarı ile gerçekleştirilir. Puanlama anahtarında ses ve diksiyon, akıcılık, beden dili, içeriğin kurgusallığı, zaman yönetimi, Türkçenin doğru kullanımı, etkileyicilik vb. ölçütler yer alır. Öğretmen değerlendirme yaptıktan sonra öğrencilere süreç ile ilgili geri bildirim verir.",
+            "source_locator": "s. 77-78"
+          },
+          "metin_tahlili_anlama_dinleme_izleme": {
+            "verbatim": "TDE1.1\nÖğretmen tarafından öğrencilere kendi şiirini seslendirmiş şairlerin şiirlerinden birini dinleyecekleri söylenir. Şiiri estetik dinleme/izleme türüne yönelik stratejilerle dinlemeleri/izlemeleri konusunda yönlendirmede bulunulur (SDB2.1). Dinleme/izleme öncesinde, dinleme/izleme kuralları hatırlatılır ve süreçte buna uygun davranmaları istenir. Söz konusu kurallara ilişkin bir kontrol listesi hazırlanır.\nTDE1.2\nDinleme/izleme öncesinde şiirin başlığından ve görselinden hareketle tahminlerde bulunulması sağlanır (OB4). Daha sonra şiir normal hızda sınıfta dinletilir (SDB2.1). Bu süreçte seslendiricinin ses tonundan, vurgularından, ifade biçiminden vb. yola çıkarak öğrencilerin şiirin yazılma amacını belirlemeleri sağlanır (E3.2). Öğrencilerden içeriğin sunuluş şeklini kavramaları istenir. Açık uçlu sorularla metnin içeriğinin daha çok duygulara mı yoksa düşüncelere mi yönelik olduğu karşılaştırılır, böylece şiirdeki ifade biçiminin ve estetik değerin diğer türlerden farklılaştığının kavranması sağlanabilir (D7). Öğrencilerin içerikten hareketle şiirin türünü (lirik, pastoral vb.) sınıflandırması sağlanır (KB2.20).\nÖğrenciler dinlediği/izlediği şiire ilişkin ana duygu, ritim gibi ahenk unsurlarını ve içeriğe yönelik görüşlerini sınıfta paylaşır (E3.5, SDB2.1). Bir bölümü verilen şiire öğrencilerin kendi dizelerini/dörtlüklerini ekleyerek devam etmeleri sağlanır.\nÖğrencilerden bu aşamaya kadar öğrendikleri metin türlerini düşünerek çıkış kartı ile şiiri diğerlerinden ayıran üç temel özelliği belirlemeleri istenir (KB2.15). Öğretmen öğrencilerle geri bildirim vererek öğrenmeyi derinleştirir.",
+            "source_locator": "s. 78"
+          },
+          "edebiyat_atolyesi_anlatma_yazma": {
+            "verbatim": "TDE4.1\nÖğrencilere dinledikleri/izledikleri şiirin temasına uygun bir şiir oluşturabilmelerine yönelik performans görevi verilir. Performans görevi sınıf içinde gerçekleştirilir.\nBu süreçte öğrencilerden dinledikleri/izledikleri şiirin temasına uygun bir şiir yazmaları istenir (E2.2). Öğrencilerin dinlediklerinden/izlediklerinden hareketle yeni bir metin oluşturma stratejisini kullanmalarına yönelik yönlendirmeler yapılır (E3.3).\nTDE4.2 ve TDE4.3\nÖncelikle bir şiir yazılırken nelere dikkat edilmesi gerektiğine ilişkin ön bilgilerin hatırlanması istenir. Öğrenciler ikişerli gruplara ayrılır (SDB2.2). Yazacakları şiirin temayla ilişkisini öne çıkaran bir duygu belirlemeleri ve neden bu duyguyu seçtiklerini gerekçelendirmeleri istenir (SDB3.3). Sonrasında öğrenciler yazacakları şiir için bir plan hazırlarlar (E3.7).\nSeçtiği duyguyu yansıtabileceği, yazma amacına uygun söz varlığını belirleyerek şiirlerini yazarlar (SDB1.2, E3.3, E3.11). Öğrencilerden şiirdeki ana duyguyu yansıtacak bir görsel ve müzik belirlemeleri ve şiirlerini nezaket kuralları içerisinde sırayla sunmaları istenir (SDB2.1, D14).\nTDE4.4\nÖğretmen değerlendirmesi dereceli puanlama anahtarı ile gerçekleştirilir. Puanlama anahtarında tema, ana duygu, ritim ve ahenk ögeleri, söz varlığının bağlama uygun kullanılması vb. ölçütler yer alır. Öğrenciler bu sonuçlardan hareketle şiirlerine son şeklini verirler.",
+            "source_locator": "s. 78-79"
+          },
+          "tema_sonu_degerlendirme": {
+            "verbatim": "Temanın sonunda “üçgen-kare-çember tekniği” ile öğrencilerin konuya ilişkin öğrendiği üç noktayı üçgen içine, anladığı dört temel kavramı kare içine, konu hakkında aklına takılan soruyu ise çember içine yazmaları istenir. Böylece öğrencilerin tema sonunda ne öğrendikleri ortaya çıkarılmış ve eksiklikleri giderilmiş olur.",
+            "source_locator": "s. 79"
+          }
+        }
+      },
+      "farklilastirma": {
+        "zenginlestirme": {
+          "verbatim": "Öğrencilerden inceledikleri şiire benzer bir metin kurgusu oluşturmaları istenebilir. Yazılan şiir bir şarkıya dönüştürülebilir, şiir genişletilebilir. Öğrencilerden benzer anılarını sözlü anlatıma taşımaları beklenebilir.\n* Öğrencilerin aynı temayı işleyen farklı türdeki eserleri karşılaştırarak eserlerin dil ve anlatım farklılıklarını belirlemeleri ve çalışmalarını genel ağdaki güvenilir ortamlarda paylaşmaları istenebilir. Öğrenciler, sevdikleri şairlerin şiirlerinden antoloji oluşturabilir.",
+          "source_locator": "s. 79"
+        },
+        "destekleme": {
+          "verbatim": "Öğrencilerden bir fotoğraflarından hareketle anılarını yazmaları istenebilir.",
+          "source_locator": "s. 79"
+        }
+      },
+      "ogretmen_yansitmalari": {
+        "verbatim": "Programa yönelik görüş ve öneriniz için karekodu akıllı cihazınıza okutunuz.",
+        "source_locator": "s. 79"
+      },
+      "learning_outcomes": [
+        {
+          "outcome_id": "TDE9_T2_D1",
+          "outcome_code": "TDE1.1",
+          "skill_category": "Metin Tahlili (Anlama) - Dinleme/İzleme",
+          "outcome_verbatim": "TDE1.1. “Anlam Arayışı” temasında ele alınan metinlerde dinlemeyi/izlemeyi yönetebilme",
+          "source_page": 74,
+          "source_locator": "s. 74",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "SDB2.1"
+          ],
+          "assessment_requirement_verbatim": "Dinleme/izleme kuralları hatırlatılır ve süreçte buna uygun davranmaları istenir. Söz konusu kurallara ilişkin bir kontrol listesi hazırlanır.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T2_D2",
+          "outcome_code": "TDE1.2",
+          "skill_category": "Metin Tahlili (Anlama) - Dinleme/İzleme",
+          "outcome_verbatim": "TDE1.2. “Anlam Arayışı” temasında ele alınan metinlerde anlam oluşturabilme",
+          "source_page": 74,
+          "source_locator": "s. 74",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "OB4",
+            "SDB2.1",
+            "E3.2",
+            "D7",
+            "KB2.20",
+            "E3.5",
+            "KB2.15"
+          ],
+          "assessment_requirement_verbatim": "Açık uçlu sorularla metnin içeriğinin daha çok duygulara mı yoksa düşüncelere mi yönelik olduğu karşılaştırılır... çıkış kartı ile şiiri diğerlerinden ayıran üç temel özelliği belirlemeleri istenir.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T2_O1",
+          "outcome_code": "TDE2.1",
+          "skill_category": "Metin Tahlili (Anlama) - Okuma",
+          "outcome_verbatim": "TDE2.1. “Anlam Arayışı” temasında ele alınan metinlerde okumayı yönetebilme",
+          "source_page": 74,
+          "source_locator": "s. 74",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "SDB1.1",
+            "D16",
+            "E1.1",
+            "OB4"
+          ],
+          "assessment_requirement_verbatim": "Bu aşamada öğretmen, öğrencileri kısa cevaplı sorularla değerlendirir.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T2_O2",
+          "outcome_code": "TDE2.2",
+          "skill_category": "Metin Tahlili (Anlama) - Okuma",
+          "outcome_verbatim": "TDE2.2. “Anlam Arayışı” temasında ele alınan metinlerde anlam oluşturabilme",
+          "source_page": 74,
+          "source_locator": "s. 74",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "E2.2",
+            "OB9",
+            "SDB2.2",
+            "D14",
+            "E1.2",
+            "D4",
+            "SDB2.3",
+            "D7",
+            "E3.3",
+            "E3.11",
+            "SDB3.3",
+            "SDB1.2",
+            "OB2",
+            "E3.5"
+          ],
+          "assessment_requirement_verbatim": "kısa cevaplı ve açık uçlu sorular, hikâye haritası, karşılaştırma tablosu, öğrenme duvarı, öğrenme günlüğü.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T2_K1",
+          "outcome_code": "TDE3.1",
+          "skill_category": "Edebiyat Atölyesi (Anlatma) - Konuşma",
+          "outcome_verbatim": "TDE3.1. Konusunu ana düşünce etrafında detaylandırdığı akıcı bir konuşma sürecini yönetebilme",
+          "source_page": 74,
+          "source_locator": "s. 74",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "E1.2",
+            "KB3.1"
+          ],
+          "assessment_requirement_verbatim": "Öğrencilere okuduğu hikâyeden seçtiği karaktere kendi yorumunu katarak bir sunum yapabilmelerine yönelik performans görevi verilir.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T2_K2",
+          "outcome_code": "TDE3.2",
+          "skill_category": "Edebiyat Atölyesi (Anlatma) - Konuşma",
+          "outcome_verbatim": "TDE3.2. Konusunu ana düşünce etrafında detaylandırdığı konuşma içeriğini oluşturabilme",
+          "source_page": 74,
+          "source_locator": "s. 74",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "D3",
+            "SDB2.1",
+            "KB2.5",
+            "D7",
+            "KB2.13",
+            "E3.3",
+            "OB4"
+          ],
+          "assessment_requirement_verbatim": "Performans görevi dereceli puanlama anahtarı ile puanlanır.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T2_K3",
+          "outcome_code": "TDE3.3",
+          "skill_category": "Edebiyat Atölyesi (Anlatma) - Konuşma",
+          "outcome_verbatim": "TDE3.3. Konusunu ana fikir etrafında detaylandırdığı konuşmasında kural uygulayabilme",
+          "source_page": 74,
+          "source_locator": "s. 74",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "OB2",
+            "E3.7",
+            "SDB2.1"
+          ],
+          "assessment_requirement_verbatim": "Öğretmen değerlendirmesi dereceli puanlama anahtarı ile gerçekleştirilir. Puanlama anahtarında ses ve diksiyon, akıcılık, beden dili, içeriğin kurgusallığı, zaman yönetimi, Türkçenin doğru kullanımı, etkileyicilik vb. ölçütler yer alır.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T2_K4",
+          "outcome_code": "TDE3.4",
+          "skill_category": "Edebiyat Atölyesi (Anlatma) - Konuşma",
+          "outcome_verbatim": "TDE3.4. Konuşmasının içeriğinde kullandığı unsurların konuşmasına olan etkisini yansıtabilme",
+          "source_page": 74,
+          "source_locator": "s. 74",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "SDB1.2",
+            "SDB2.1"
+          ],
+          "assessment_requirement_verbatim": "Sürecin değerlendirilmesinde açık uçlu sorulardan yararlanılır. Sunumdan sonra öğrenciler öncelikle akran değerlendirmesi ile kendi grup süreçlerini değerlendirir. Arkadaşlarından gelen görüşleri dikkate alarak öz değerlendirme yapar... Öğretmen değerlendirmesi dereceli puanlama anahtarı ile gerçekleştirilir.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T2_Y1",
+          "outcome_code": "TDE4.1",
+          "skill_category": "Edebiyat Atölyesi (Anlatma) - Yazma",
+          "outcome_verbatim": "TDE4.1. Konu zenginliği ve çeşitliliğini sağlayan edebî metinlerde yazma sürecini yönetebilme",
+          "source_page": 74,
+          "source_locator": "s. 74",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "E2.2",
+            "E3.3"
+          ],
+          "assessment_requirement_verbatim": "Öğrencilere dinledikleri/izledikleri şiirin temasına uygun bir şiir oluşturabilmelerine yönelik performans görevi verilir.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T2_Y2",
+          "outcome_code": "TDE4.2",
+          "skill_category": "Edebiyat Atölyesi (Anlatma) - Yazma",
+          "outcome_verbatim": "TDE4.2. Yazısını zenginleştirecek içerik oluşturabilme",
+          "source_page": 74,
+          "source_locator": "s. 74",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "SDB2.2",
+            "SDB3.3",
+            "E3.7"
+          ],
+          "assessment_requirement_verbatim": "Performans görevi; tema, ana duygu, ritim ve ahenk ögeleri, söz varlığının bağlama uygun kullanımı vb. ölçütlerin yer aldığı bir puanlama anahtarı ile puanlanır.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T2_Y3",
+          "outcome_code": "TDE4.3",
+          "skill_category": "Edebiyat Atölyesi (Anlatma) - Yazma",
+          "outcome_verbatim": "TDE4.3. Konu zenginliği ve çeşitliliğini sağlayan yazısında kural uygulayabilme",
+          "source_page": 74,
+          "source_locator": "s. 74",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "SDB1.2",
+            "E3.3",
+            "E3.11",
+            "SDB2.1",
+            "D14"
+          ],
+          "assessment_requirement_verbatim": "Öğretmen değerlendirmesi dereceli puanlama anahtarı ile gerçekleştirilir.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T2_Y4",
+          "outcome_code": "TDE4.4",
+          "skill_category": "Edebiyat Atölyesi (Anlatma) - Yazma",
+          "outcome_verbatim": "TDE4.4. Yazısına yönelik değerlendirmelerini konu ve diğer yazma unsurları bağlamında yansıtabilme",
+          "source_page": 74,
+          "source_locator": "s. 74",
+          "process_components_verbatim": [],
+          "related_official_codes": [],
+          "assessment_requirement_verbatim": "Öğretmen değerlendirmesi dereceli puanlama anahtarı ile gerçekleştirilir. Öğrenciler bu sonuçlardan hareketle şiirlerine son şeklini verirler.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        }
+      ]
+    },
+    {
+      "theme_id": "TEMA_03",
+      "theme_no": 3,
+      "exact_theme_name": "3. TEMA: ANLAMIN YAPI TAŞLARI",
+      "page_range": "80-88",
+      "source_locator": "s. 80-88",
+      "theme_introduction_verbatim": "Bu temada edebî inceleme ve değerlendirme sürecinin önemli unsurlarından olan metinde yapı konusu üzerinde durulur. Öğrencilerin metinleri olay, kişi, mekân, zaman gibi yapı unsurları bakımından tahlil edebilmeleri amaçlanmaktadır. Yapı unsurlarının metne ve anlama katkısı değerlendirilirken öğrencilere edebî eserleri kapsamlı bir bakış açısıyla inceleyebilme imkânı sunulur.\nBu temada, metinlerin hangi ölçütlere göre sınıflandırıldığının somut bir şekilde görülebilmesi için farklı metin türleri (edebî, öğretici, çok modlu) tercih edilmiştir. Okuma metni olarak Cumhuriyet Dönemi’nden başlanarak dil ve anlatım bakımından günümüze en yakın özellikleri taşıyan bir hikâye ve bir gezi yazısı incelenir. Dinleme/izleme metni için “kültür” konulu bir belgesel ele alınır. Ayrıca, okuma becerilerinin geliştirilmesinde ara metin olarak Eski Anadolu Türkçesi ile yazılmış bir şiir incelenir.",
+      "allocated_lesson_hours": {
+        "total": 43,
+        "anlama": 23,
+        "anlatma": 20,
+        "verbatim": "43 (Anlama: 23 / Anlatma: 20)",
+        "source_locator": "s. 80"
+      },
+      "alan_becerileri": {
+        "verbatim": "Metin Tahlili (Anlama): Okuma, Dinleme/İzleme; Edebiyat Atölyesi (Anlatma): Yazma, Konuşma",
+        "source_locator": "s. 80"
+      },
+      "kavramsal_beceriler": {
+        "verbatim": "-",
+        "source_locator": "s. 80"
+      },
+      "egilimler": {
+        "verbatim": "E1.1. Merak, E1.2. Bağımsızlık, E1.4. Kendine İnanma (Öz Yeterlilik), E1.5. Kendine Güvenme (Öz Güven), E2.1. Empati, E2.2. Sorumluluk, E2.4. Güven, E3.2. Odaklanma, E3.3. Yaratıcılık, E3.5. Açık Fikirlilik, E3.7. Sistematik Olma, E3.8. Soru Sorma, E3.10. Eleştirel Bakma",
+        "codes": [
+          "E1.1",
+          "E1.2",
+          "E1.4",
+          "E1.5",
+          "E2.1",
+          "E2.2",
+          "E2.4",
+          "E3.2",
+          "E3.3",
+          "E3.5",
+          "E3.7",
+          "E3.8",
+          "E3.10"
+        ],
+        "source_locator": "s. 80"
+      },
+      "programlar_arasi_bilesenler": {
+        "sosyal_duygusal_ogrenme_becerileri": {
+          "verbatim": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim, SDB2.2. İş Birliği, SDB2.3. Sosyal Farkındalık, SDB3.3. Sorumlu Karar Verme",
+          "codes": [
+            "SDB1.1",
+            "SDB1.2",
+            "SDB2.1",
+            "SDB2.2",
+            "SDB2.3",
+            "SDB3.3"
+          ],
+          "source_locator": "s. 80"
+        },
+        "degerler": {
+          "verbatim": "D1. Adalet, D3. Çalışkanlık, D6. Dürüstlük, D7. Estetik, D14. Saygı, D16. Sorumluluk, D19. Vatanseverlik",
+          "codes": [
+            "D1",
+            "D3",
+            "D6",
+            "D7",
+            "D14",
+            "D16",
+            "D19"
+          ],
+          "source_locator": "s. 80"
+        },
+        "okuryazarlik_becerileri": {
+          "verbatim": "OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık, OB5. Kültür Okuryazarlığı",
+          "codes": [
+            "OB2",
+            "OB4",
+            "OB5"
+          ],
+          "source_locator": "s. 80"
+        }
+      },
+      "disiplinler_arasi_iliskiler": {
+        "verbatim": "Tarih, Psikoloji, Sosyoloji, Coğrafya",
+        "source_locator": "s. 80"
+      },
+      "beceriler_arasi_iliskiler": {
+        "verbatim": "KB2.4. Çözümleme, KB2.6. Bilgi Toplama, KB2.15. Yansıtma, KB2.18. Tartışma, KB2.20. Sentezleme, KB3.3. Eleştirel Düşünme",
+        "codes": [
+          "KB2.4",
+          "KB2.6",
+          "KB2.15",
+          "KB2.18",
+          "KB2.20",
+          "KB3.3"
+        ],
+        "source_locator": "s. 80"
+      },
+      "icerik_cercevesi": {
+        "verbatim": "“Anlamın Yapı Taşları” temasının içerik çerçevesi şu şekildedir:\n• Okuma\n• Konuşma\n• Dinleme/İzleme\n• Yazma\nOkuma becerisinin geliştirilmesi için hikâye türünden bir metin incelenir. İkinci metin, yazarın okurla kurduğu iletişimin ön planda olduğu gezi yazısı türünden seçilir. Ara metin olarak şiir türüne yer verilir. Bu temada her bir metnin kendine özgü yapı unsurlarının neler olduğu, bunların yazma amacına göre nasıl biçimlendiği ve içerik ile yapı arasında nasıl ilişki kurulduğu ele alınır.\nKonuşma becerisinin geliştirilmesi için öğrencilere, okudukları hikâye ve gezi yazısı metinlerinde inceledikleri mekânları, kendi yaşadıkları çevreyle karşılaştırmalarını sağlayan bir sunum hazırlatılır. Öğrencilerin konuşmalarında temaya ilişkin söz varlığını da etkili kullanmaları göz önünde bulundurulur.\nDinleme/izleme becerisinin geliştirilmesi için öğrencilere içerik olarak bir dinleme/izleme metninin yapısal özelliklerini de yansıtmaya uygun nitelikte olan ve Anadolu’nun farklı bölgelerinin zengin kültürel mirası ile duygusal dokusunu anlatan bir belgesel izletilir. Öğrencilerin dinlediği/izlediği belgeseli incelemesi ve okuduğu metinlerdeki yapı unsurlarıyla ilişkilendirmesi sağlanır.\nYazma becerisinin geliştirilmesi için öğrencilerden dinledikleri/izledikleri belgeseli infografik bir metne dönüştürmeleri istenir. Böylece metne kendi yorumlarını katıp yapı unsurlarına dikkat ederek yazılı bir anlatım gerçekleştirmeleri amaçlanır.",
+        "source_locator": "s. 81-82"
+      },
+      "anahtar_kavramlar": {
+        "verbatim": "serim-düğüm-çözüm, giriş-gelişme-sonuç, olay örgüsü, şahıs kadrosu, zaman, mekân, anlatıcı, bakış açısı, öznellik, nesnellik, ahenk unsurları (ölçü, kafiye, redif, durak, kafiye düzeni), infografik metin, kültürel farkındalık",
+        "concepts": [
+          "serim-düğüm-çözüm",
+          "giriş-gelişme-sonuç",
+          "olay örgüsü",
+          "şahıs kadrosu",
+          "zaman",
+          "mekân",
+          "anlatıcı",
+          "bakış açısı",
+          "öznellik",
+          "nesnellik",
+          "ahenk unsurları (ölçü, kafiye, redif, durak, kafiye düzeni)",
+          "infografik metin",
+          "kültürel farkındalık"
+        ],
+        "source_locator": "s. 82"
+      },
+      "ogrenme_kanitlari_olcme_ve_degerlendirme": {
+        "verbatim": "Metin Tahlili (Anlama)\nOkuma ve Dinleme/İzleme\n• Yumruktan beşe\n• Kısa cevaplı sorular\n• Anlamsal çağrışım haritaları\n• T diyagramı\n• Açık uçlu sorular\n• Hikâye haritası\n• Çalışma kâğıdı\n• Kısa yansıtma makalesi\n• Evet/hayır kartları\n• Karşılaştırma tablosu\n• Çıkış kartı\nYapısı incelikle örülmüş edebî metinlerde okumaya yönelik yumruktan beşe, kısa cevaplı sorular, öğrencilerin anlamını bilmedikleri kelimeleri yazmalarıyla ilgili anlamsal çağrışım haritaları, T diyagramı, açık uçlu sorular; çözümlemede hikâye haritası, çalışma kâğıdı; yansıtmada açık uçlu sorular kullanılabilir. Dinleme/izleme metinleri için evet/hayır kartları, kontrol listesi, açık uçlu sorular, karşılaştırma tablosu ve çalışma kâğıdı hazırlanabilir.\nEdebiyat Atölyesi (Anlatma)\nKonuşma ve Yazma\n• Öğrencilerin okudukları metinlerdeki mekânları çevreleriyle karşılaştıran birer sunum hazırlayıp sunmalarına yönelik bir performans görevi\n• Dinledikleri/izledikleri belgeseli infografik metne dönüştürmelerine yönelik bir performans görevi\nKonuşma becerilerinin ölçülmesiyle ilgili performans görevi dereceli puanlama anahtarı ile puanlanır. Puanlama anahtarında Türkçenin doğru kullanımı, ses ve diksiyon, akıcılık, beden dili, içerik kurgusu, zaman yönetimi, etkileyicilik vb. ölçütler yer alır.\nÖğrencinin yazılı ürünleri dereceli puanlama anahtarı ile puanlanır. Puanlama anahtarında anlam, dilin ve görsel ögelerin kullanımı, özgünlük, tutarlılık, doğruluk, yazım ve noktalama gibi ölçütler yer alabilir. Öz değerlendirme ile akran ve grup değerlendirmeleri de yapılabilir.\nTema Sonu Değerlendirme\nTema sonu değerlendirmede çıkış kartı kullanılır.",
+        "source_locator": "s. 82",
+        "official_assessment_instruments": [
+          {
+            "instrument_name": "Yumruktan beşe tekniği",
+            "skill_area": "Okuma",
+            "exact_verbatim": "“Yapı” kavramının ne olduğu ve neleri içerdiğine yönelik öğrencilerin ön bilgileri “yumruktan beşe tekniği” ile sorgulanır. Bu süreçte öğrencilere metinde yapı ile ne kastedildiği ve yapının hangi unsurları barındırdığı sorulur. Öğrenciler, ön bilgilerine göre beş, dört, üç, iki ya da bir parmağını kaldırır.",
+            "source_locator": "s. 82, s. 83"
+          },
+          {
+            "instrument_name": "Kısa cevaplı sorular",
+            "skill_area": "Okuma",
+            "exact_verbatim": "okumaya yönelik yumruktan beşe, kısa cevaplı sorular... kullanılabilir.",
+            "source_locator": "s. 82, s. 84"
+          },
+          {
+            "instrument_name": "Anlamsal çağrışım haritaları",
+            "skill_area": "Okuma",
+            "exact_verbatim": "öğrencilerin anlamını bilmedikleri kelimeleri yazmalarıyla ilgili anlamsal çağrışım haritaları verilir.",
+            "source_locator": "s. 82, s. 84"
+          },
+          {
+            "instrument_name": "T diyagramı",
+            "skill_area": "Okuma",
+            "exact_verbatim": "Hikâye türüne ilişkin bilgiler T diyagramına yerleştirilir.",
+            "source_locator": "s. 82, s. 84"
+          },
+          {
+            "instrument_name": "Açık uçlu sorular",
+            "skill_area": "Okuma, Dinleme/İzleme",
+            "exact_verbatim": "çözümlemede ve yansıtmada açık uçlu sorular kullanılabilir... Dinleme/izleme metinleri için... açık uçlu sorular... hazırlanabilir.",
+            "source_locator": "s. 82, s. 84, s. 85, s. 86"
+          },
+          {
+            "instrument_name": "Hikâye haritası",
+            "skill_area": "Okuma",
+            "exact_verbatim": "Hikâye haritacısı (Hikâyenin geçtiği zaman ve mekânı inceleyerek hikâye haritası yapar. Mekân, zaman, karakter özelliklerinin gerçeği yansıtıp yansıtmadığı belirlenir.)",
+            "source_locator": "s. 82, s. 84"
+          },
+          {
+            "instrument_name": "Çalışma kâğıdı",
+            "skill_area": "Okuma ve Dinleme/İzleme",
+            "exact_verbatim": "çözümlemede hikâye haritası, çalışma kâğıdı; yansıtmada açık uçlu sorular kullanılabilir... Dinleme/izleme sonrası değerlendirmesini çalışma kâğıdı ile gerçekleştirir.",
+            "source_locator": "s. 82, s. 85, s. 87"
+          },
+          {
+            "instrument_name": "Kısa yansıtma makalesi",
+            "skill_area": "Okuma",
+            "exact_verbatim": "Okunan ve tahlil edilen metinlere yönelik öğrenci değerlendirmeleri için kısa yansıtma makalesi kullanılır. Bu araçta öğrencilerin deneyimlerini ayrıntılı bir şekilde ifade etmeleri sağlanır",
+            "source_locator": "s. 82, s. 85"
+          },
+          {
+            "instrument_name": "Evet/hayır kartları",
+            "skill_area": "Dinleme/İzleme",
+            "exact_verbatim": "Dinleme/izleme metinleri için evet/hayır kartları... hazırlanabilir. Öğrencilere evet-hayır kartları ile tahminlerin doğruluğuna yönelik geri bildirim verilir.",
+            "source_locator": "s. 82, s. 86"
+          },
+          {
+            "instrument_name": "Kontrol listesi",
+            "skill_area": "Dinleme/İzleme",
+            "exact_verbatim": "Öğrencilerin Anadolu kültürünü anlatan belgeseli dinlerken/izlerken nelere dikkat etmeleri gerektiğine yönelik (konu, amaç, üslup, yapı, ana düşünce, yardımcı düşünceler, anlatım biçimleri vb.) bir kontrol listesi kullanılır.",
+            "source_locator": "s. 82, s. 86"
+          },
+          {
+            "instrument_name": "Karşılaştırma tablosu",
+            "skill_area": "Dinleme/İzleme, Konuşma",
+            "exact_verbatim": "Dinleme/izleme metinleri için... karşılaştırma tablosu... hazırlanabilir. Öğrencilerden okunan metinden seçtiği mekânlar ile çevresinden seçtiği mekânların özelliklerinin yer aldığı bir karşılaştırma tablosu hazırlamaları ve bu mekânları karşılaştırma tablosu aracılığıyla göstermeleri istenir.",
+            "source_locator": "s. 82, s. 85, s. 86"
+          },
+          {
+            "instrument_name": "Çıkış kartı (3-2-1)",
+            "skill_area": "Tema Sonu Değerlendirme",
+            "exact_verbatim": "Temanın sonunda genel bir değerlendirme yapmak amacıyla öğrenme günlüğü, çıkış kartı (3-2-1) gibi yöntemler uygulanarak yapılan çalışmalar bir grup tartışması ile değerlendirilir.",
+            "source_locator": "s. 82, s. 88"
+          },
+          {
+            "instrument_name": "Öğrenme günlüğü",
+            "skill_area": "Tema Sonu Değerlendirme",
+            "exact_verbatim": "Temanın sonunda genel bir değerlendirme yapmak amacıyla öğrenme günlüğü... gibi yöntemler uygulanarak yapılan çalışmalar bir grup tartışması ile değerlendirilir.",
+            "source_locator": "s. 88"
+          },
+          {
+            "instrument_name": "Öz değerlendirme, akran ve grup değerlendirmeleri",
+            "skill_area": "Okuma, Yazma",
+            "exact_verbatim": "Öz değerlendirme ile akran ve grup değerlendirmeleri de yapılabilir.",
+            "source_locator": "s. 82"
+          },
+          {
+            "instrument_name": "Bütüncül puanlama anahtarı",
+            "skill_area": "Okuma",
+            "exact_verbatim": "Grup sunumları diğer gruplar tarafından bütüncül puanlama anahtarı ile değerlendirilir. Öğrenciler tarafından hikâye haritası, resimler, karakter analizleri, kurulan bağ ve hikâye özeti birlikte değerlendirilerek puanlanır.",
+            "source_locator": "s. 84"
+          },
+          {
+            "instrument_name": "Performans görevi (Konuşma) & Dereceli puanlama anahtarı",
+            "skill_area": "Konuşma",
+            "exact_verbatim": "Öğrencilerin okudukları metinlerdeki mekânları çevreleriyle karşılaştıran birer sunum hazırlayıp sunmalarına yönelik bir performans görevi... dereceli puanlama anahtarı ile puanlanır. Puanlama anahtarında Türkçenin doğru kullanımı, ses ve diksiyon, akıcılık, beden dili, içerik kurgusu, zaman yönetimi, etkileyicilik vb. ölçütler yer alır.",
+            "source_locator": "s. 82, s. 85, s. 86"
+          },
+          {
+            "instrument_name": "Performans görevi (Yazma) & Dereceli puanlama anahtarı",
+            "skill_area": "Yazma",
+            "exact_verbatim": "Dinledikleri/izledikleri belgeseli infografik metne dönüştürmelerine yönelik bir performans görevi... dereceli puanlama anahtarı ile puanlanır. Puanlama anahtarında anlam, dilin ve görsel ögelerin kullanımı, özgünlük, tutarlılık, doğruluk, yazım ve noktalama gibi ölçütler yer alabilir.",
+            "source_locator": "s. 82, s. 87, s. 88"
+          },
+          {
+            "instrument_name": "RAFT tekniği",
+            "skill_area": "Dinleme/İzleme",
+            "exact_verbatim": "“RAFT tekniği” kullanılarak öğrencilerden belgesel metnindeki unsurları dikkate alıp daha önce tahlil ettikleri metinlerle ilişkilendirerek metni yeniden uyarlamaları istenir. Roller: Yazar (Hikâye anlatıcısı), Gezgin (Gezi anlatıcısı), Tarihçi (Tarih şeridi), Psikolog (Şiir), Sanatçı (Sesli anlatım).",
+            "source_locator": "s. 87"
+          }
+        ]
+      },
+      "ogrenme_ogretme_yasantilari": {
+        "temel_kabuller": {
+          "verbatim": "Öğrencilerin metin kavramı ve metnin yapısıyla ilgili temel bilgilere (serim-düğüm-çözüm, giriş-gelişme-sonuç, dörtlük, dize, ölçü, kafiye düzeni, kafiye, redif, olay örgüsü, şahıs kadrosu, zaman, mekân vb.) sahip olduğu kabul edilmektedir. Ayrıca Türkçenin şekil bilgisiyle ilgili kurallarını ve edebî metinlerin ait olduğu dönemin sosyal, psikolojik ve kültürel özelliklerini yansıttığını bildiği kabul edilmektedir.",
+          "source_locator": "s. 83"
+        },
+        "on_degerlendirme_sureci": {
+          "verbatim": "Temel kabullerin (ön bilgilerin) tespit edilmesi için soru-cevaba dayalı grup tartışmaları ile listeleme yapılır.",
+          "source_locator": "s. 83"
+        },
+        "kopru_kurma": {
+          "verbatim": "9. sınıfın 2. temasında öğrenilen metin tahlilinin birinci ve ikinci aşaması, bu temada öğrenilecek edebî metinlerin yapısı ile ilgili üçüncü aşamaya temel oluşturur. Burada edinilen bilgi ve becerilerle 9. sınıfın 4. temasında yapılacak tam metin tahliline hazırlık yapılır. Hikâye, şiir gibi türlerin içerik ve anlam özellikleri yapı unsurlarıyla birleştirilerek çözümleme ve değerlendirme süreci tamamlanır. Ayrıca metinlerin toplumdaki edebî zevkin oluşmasında ve kültürler arası bir araç görevi üstlenmesindeki rolüne yönelik farkındalık kazanılır.\nBu temada edinilen bilgi ve becerilerle metinlerde yer alan sanatsal, sosyolojik, psikolojik ve kültürel unsurlar değerlendirilir.",
+          "source_locator": "s. 83"
+        },
+        "ogrenme_ogretme_uygulamalari": {
+          "surec_cercevesi": {
+            "verbatim": "Bu süreçte öncelikle Cumhuriyet Dönemi’nden bir hikâye incelenir. Ardından ara metin olarak Yunus Emre’den bir şiir ele alınır. Bu sayede farklı iki türün yapı özelliklerinin karşılaştırılması amaçlanır. Daha sonra Cumhuriyet Dönemi’nden başlanarak dil ve anlatım bakımından günümüze en yakın özellikleri taşıyan gezi yazısı türünde bir metin, yapı unsurları bakımından tahlil edilir. Edebiyat atölyesinde, öğrencilerin okuduğu metinlerdeki mekânları kendi çevresi ile karşılaştırarak konuşmaları istenir. Sınırlandırılmış performans göreviyle ders kapsamında gerçekleştirilen bu süreç sonrasında öğrencilere çok modlu bir metin olarak Anadolu’nun kültürünü aktaran bir belgesel dinletilir/izletilir ve tahlil edilir. Edebiyat atölyesinde öğrencilerden dinledikleri/izledikleri belgeseli infografik bir metne dönüştürmeleri istenir. Böylece yazılı anlatım süreci gerçekleştirilmiş olur.",
+            "source_locator": "s. 83"
+          },
+          "metin_tahlili_anlama_okuma": {
+            "verbatim": "TDE2.1\n“Yapı” kavramının ne olduğu ve neleri içerdiğine yönelik öğrencilerin ön bilgileri “yumruktan beşe tekniği” ile sorgulanır. Bu süreçte öğrencilere metinde yapı ile ne kastedildiği ve yapının hangi unsurları barındırdığı sorulur. Öğrenciler, ön bilgilerine göre beş, dört, üç, iki ya da bir parmağını kaldırır. En az bilgiye sahip olan öğrenci bir parmağını kaldırmış olur. Öğretmen, gelen açıklamalar doğrultusunda öğrencileri yapı kavramına ilişkin bir genellemeye ulaştırır. Daha sonra öğrencilerin metinlerde yapıya yönelik bilgi ve becerileri tamamlanır. Hikâyenin yaratıcı, empatik okunabilmesi için düşün-eşleş-paylaş etkinliği ile okuma stratejisi seçilmesi sağlanır (SDB2.2, KB2.6). Ardından hikâyenin yazarından ve varsa görsellerinden hareketle öncelikle konusu hakkında tahminlerde bulunulur. Hikâye okunduktan sonra öğrencilerden hikâyenin konusu hakkındaki tahminlerinin doğruluğunu gerekçelendirerek açıklaması istenir (SDB3.3).\nTDE2.2\nHikâye ile ilgili özlü bir sözden hareketle öğrencilerden hikâyelerin neleri konu edinebileceğini ön bilgilerini de kullanarak tartışmaları istenir (SDB 2.2, E3.5, KB2.18). Daha sonra hikâyenin tamamı okunur.\nÖğrencilere hikâyede geçen bilmedikleri kelimelerin anlamlarını bağlamdan hareketle tahmin edebilmelerini sağlamak için anlamsal çağrışım haritaları verilir. Bu haritada öğrencilerden metinde geçen bilmedikleri kelimeleri belirlemeleri, bunların anlamlarını bulmaları ve bu kelimelerin yakın, zıt ve eş anlamlılarını yazmaları istenir. Ardından hikâyede açıkça belirtilen bilgilere ulaşmaları, bu bilgilerden hareketle de hikâyenin iletisini fark etmeleri sağlanır. Cumhuriyet Dönemi hikâyelerinin genel özellikleri, durum ve olay hikâyesi arasındaki farklar öğrencilerle birlikte açıklanır. Hikâye türüne ilişkin bilgiler T diyagramına yerleştirilir. Daha sonra öğrencilerin bu bilgileri metinle ilişkilendirerek okudukları hikâyenin hangi hikâye türüne örnek olduğunu belirlemeleri ve bu konuda açık uçlu sorularla görüş bildirmeleri sağlanır (E2.4, SDB 2.1).\nTDE2.3\nDaha sonra öğrenciler beşer kişilik heterojen gruplara ayrılır. Gruplar, okudukları hikâyenin yapı unsurlarına yönelik çeşitli görevler alır ve süreç içerisinde sorumluluk değeri vurgulanır (E2.2, D16). Her grupta tamamlanması gereken toplam 6 görev vardır. Gruptaki öğrenciler görevleri iş birliği içinde gerçekleştirir. Böylece sürecin sonunda her öğrenci farklı bir görevi yapmış olur (SDB2.2). Öğrencilere verilen görev çizelgesi aşağıdaki gibidir:\n• Takım lideri (Tüm üyelerin çalışmalarından, takımın başarısından sorumludur.)\n• Hikâye haritacısı (Hikâyenin geçtiği zaman ve mekânı inceleyerek hikâye haritası yapar. Mekân, zaman, karakter özelliklerinin gerçeği yansıtıp yansıtmadığı belirlenir.)\n• Ressam (Hikâyede geçen olayları resimlemekle sorumludur. Resmederken gerçek ve kurguya dayalı ifadeleri belirlemesi, hikâyede yer alan değerlerin günlük hayattaki karşılıklarını sorgulaması, hikâye içeriğini dünya bilgileriyle yorumlaması istenir.)\n• Bağ kurucu [Hikâyede geçen çatışmalarla gerçek yaşam arasında bağ kurar. Benzer durumlar karşısında nasıl davranacakları sorularak hikâye ile empati kurmaları sağlanır (E2.1).]\n• Karakter analizcisi [Hikâyede geçen karakterlerin fiziksel, psikolojik vb. özelliklerini analiz eder. Karakterlerin davranış ve düşünceleriyle toplumun belli bir kesimini temsil eden ortak davranışlar mı sergilediği yoksa kendine has tutum ve düşünceler içine mi girdiği soru-cevap yöntemi ile ortaya konur (E3.8).]\n• Anlatıcı (Hikâyede neler olduğunu olay sırasını bozmadan, anlatıcıyı değiştirerek özetler. Bunu yaparken hikâye yazarı ile eseri arasında ilişki kurarak hikâyenin yazıldığı dönem özelliklerinin üslubu ve metnin yapısını nasıl etkilediğini belirlemesi beklenir.)\nGruplar yaptıkları çalışmaları sınıfta, sırayı ve zamanı etkili bir şekilde kullanarak bölüm bölüm sunar. Süreç içerisinde çalışkanlık değeri vurgulanır (D3, SDB2.1, E1.5). Grup sunumları diğer gruplar tarafından bütüncül puanlama anahtarı ile değerlendirilir. Öğrenciler tarafından hikâye haritası, resimler, karakter analizleri, kurulan bağ ve hikâye özeti birlikte değerlendirilerek puanlanır. Daha sonra, hikâyede geçen yapı unsurlarının ana düşünceye katkısı öğrenciler tarafından açıklanır. Ardından gruplar, kendi aralarında tartışarak hikâyenin yapı unsurlarını, dönemin özellikleri açısından değerlendirir (E3.10, SDB2.2). Tartışma etkinlikleri EBA, diğer öğrenme yönetim sistemleri, dijital pano vb. ortamlar üzerinden paylaşılabilir (OB2). Gruplardan bir sonraki aşamada hikâyelerden yola çıkarak metin ile yazar arasındaki etkileşimi estetik değerinden hareketle belirlemeleri istenir (D7). Bu süreçte çalışma kâğıdı kullanılır.\nEdebî metinlerde yapının nasıl örüldüğünü öğrencilerin tüm yönleriyle inceleyebilmesi için ara metin olarak Yunus Emre’den bir şiir seçilir. Eski Anadolu Türkçesi ile yazılmış bu şiir öğrencilerle okunur (OB5). Şiirden hareketle şiirdeki yapı unsurlarının redif, kafiye, ölçü vb. olduğunu belirlemeleri sağlanır (KB2.4). Öğrencilerin tahlil ettikleri hikâye ile şiir metinlerindeki yapı unsurlarına yönelik benzerlik ve farklılıklar incelenir.\nBu tema kapsamında seçilen her bir metnin kendine özgü yapı unsurlarının neler olduğu, içerik ile yapı arasında nasıl bir ilişki kurulduğu, yazma amacına göre bu metinlerin nasıl biçimlendirildiği belirlenmiş olur. Dil ve anlatım özellikleri üzerinde durulurken metinlerdeki kelimeler üzerinden şekil bilgisi çalışmaları da yaptırılır. Okunan ve tahlil edilen metinlere yönelik öğrenci değerlendirmeleri için kısa yansıtma makalesi kullanılır. Bu araçta öğrencilerin deneyimlerini ayrıntılı bir şekilde ifade etmeleri sağlanır (SDB1.1, KB2.15).\nÖğrencilerden tahlil ettiği hikâyeyi değerlendirmek için (amaca uygunluk, zaman, mekân tasviri vb.) ölçütler belirlemesi ve kendi belirlediği ölçütler doğrultusunda açık uçlu sorularla metni değerlendirmesi istenir (E3.10, SDB1.2). Ayrıca öğrenciler okuma ve hikâye tahlil süreçlerini değerlendirerek yeni okuma metnine hazırlık yapar.\n• Edebî metinlerin yapısının hangi unsurlar bağlamında örüldüğünün ve yapı unsurlarının anlama olan katkısının değerlendirildiği bu temada öğrencilerden betimlemelere, kişisel deneyimlere yer veren bir gezi yazısını ikinci okuma metni olarak tahlil etmeleri istenir. Gezi yazısı metninin tahlil süreci, hikâye tahlil süreciyle aynıdır. Ancak gezi yazısı türüne özgü yapı ve üslup özellikleri (öğretici bir metin olması, genellikle gerçek anlamlı kelimelerin kullanılması, nesnel ve öznel ifadelerin yer alması, anlatım biçimlerinden açıklamanın ağırlıklı olarak kullanılması), göz önünde bulundurularak tahlil sürecindeki farklılıklar dikkate alınır.",
+            "source_locator": "s. 83-85"
+          },
+          "edebiyat_atolyesi_anlatma_konusma": {
+            "verbatim": "TDE3.1\nÖğrencilere okudukları metinlerdeki mekânları kendi çevresi ile karşılaştırdıkları bir sunum hazırlayıp yaptıkları bu çalışmayı sunmalarına yönelik bir performans görevi verilir. Konuşma becerileri burada önemli bir rol oynar (E1.4, SDB2.1).\nÖğrencilerden okudukları metinlerde geçen mekânlardan birini seçmeleri ve seçtikleri mekân ile çevresindeki mekânlardan birini karşılaştıran bir sunum hazırlamaları istenir. Sunum hazırlanırken kullanılacak görseller dijital araçlardan yararlanılarak bulunabilir (SDB1.2, OB2). Bu görseller bulunurken öğrencilerin fikrî mülkiyet konusundaki farkındalıkları artırılarak hakkaniyetli (D1) ve dürüst (D6) bir tutum sergilemeleri sağlanır (OB2).\nTDE3.2 ve TDE3.3\nÖğrencilerin, daha önceki deneyimlerinden ve ön bilgilerinden hareketle sunumlarını etkili hâle getirebileceklerine dair öngörülerde bulunarak konuşmanın etkililiğine ilişkin ölçütleri gözden geçirmeleri sağlanır. Öğrencilerden daha sonra hazırlayacakları sunumun içeriğine yönelik hazırlık yapmaları istenir. Örneğin çevresindeki yerlerin fotoğraflarını çekebilir veya betimlemesini yapabilirler (OB4). Öğrencilerden okunan metinden seçtiği mekânlar ile çevresinden seçtiği mekânların özelliklerinin yer aldığı bir karşılaştırma tablosu hazırlamaları ve bu mekânları karşılaştırma tablosu aracılığıyla göstermeleri istenir.\nDaha sonra öğrenciler tarafından konuşmada kullanılacak mekân, görsel ve işitsel ögeler belirlenerek sunumun içeriği tutarlılık açısından yeniden gözden geçirilir. Sunumun etkililiğini artırmak için sunum sırasında sesin (vurgu, tonlama) ve beden dilinin nasıl kullanılacağı belirlenir. Daha sonra öğrenci gözden geçirdiği içeriği görsel ve işitsel olarak nasıl ele alacağı hakkındaki görüşlerini arkadaşlarına sunar. Sunum sırasında dilin konunun içeriğine uygun ve etkili kullanılmasına dikkat edilir (SDB1.2). Sözlü anlatım, Türkçenin kurallarına uygun bir şekilde sürdürülür.\nTDE3.4\nYukarıda belirlenen tüm ölçütler dikkate alınarak öğrenciler sunumlarını gerçekleştirir (SDB2.1). Sunumlar, dereceli puanlama anahtarı ile puanlanır. Puanlama içerik, anlatım, organizasyon ve iletişim vb. ölçütler bağlamında değerlendirilir. İçerikte bilgilerin doğruluğu, karşılaştırma, betimleme, açıklama gibi destekleyici ifade kullanımı; anlatımda kelime ve cümle bazında akıcılığı, bağdaşıklığı; organizasyonda zaman ve mekân yönetimi, sunumunu uygun materyallerle desteklemesi; iletişim alt boyutunda da beden dili, jest ve mimik kullanımı vb. ölçütler yer alır.",
+            "source_locator": "s. 85-86"
+          },
+          "metin_tahlili_anlama_dinleme_izleme": {
+            "verbatim": "TDE1.1\nÖğrencilerden bu temada çok modlu bir metni dinlemeleri/izlemeleri istenir. Bunun için kültürel miraslarımızı konu alan bir belgesel film seçilir (SDB2.1).\nAnadolu kültürüne ait çok modlu bir dinleme/izleme metni (belgesel) için amaç doğrultusunda dinleme/izleme stratejisine karar vermeleri sağlanır. Öğrencilerin bu süreçte dinleme/izleme ve konuşma kurallarına dikkat etmeleri, söz hakkı alarak konuşmaları gibi unsurlara dikkat edilir. Öğrencilerin Anadolu kültürünü anlatan belgeseli dinlerken/izlerken nelere dikkat etmeleri gerektiğine yönelik (konu, amaç, üslup, yapı, ana düşünce, yardımcı düşünceler, anlatım biçimleri vb.) bir kontrol listesi kullanılır. Bu kontrol listesine yazılacak maddeler öğrencilerle birlikte hazırlanır (E3.2, SDB1.2).\nTDE1.2\nÖğrencilerin tema çerçevesinde okuma bölümünde incelenen metinler aracılığıyla öğrenilen yapısal unsurların dinleme/izleme metninde de incelenmesi amaçlanır. Öğrencilerin kültürel ögelere yönelik neler bildiği sorgulanarak belgeselin içeriğine ilişkin tahminler alınır. Tahminlerin ardından öncelikle belgesele ilişkin kısa bir tanıtım filmi izletilir ve belgeselin içeriğine yönelik öğrencilerden genel bir tahminde bulunması istenir (E1.1). Daha sonra Anadolu kültürü konulu belgeselin tamamı öğrencilere dinletilir/izletilir (SDB2.3, OB2). Öğrencilerin belgesele yönelik yaptıkları tahminler kontrol edilir. Böylece ön bilgi ve tahminlerle yeni bilgiler arasında bağlantı kurulur. Öğrencilere evet-hayır kartları ile tahminlerin doğruluğuna yönelik geri bildirim verilir.\nÖğrencilerin dinledikleri/izledikleri belgeseldeki açık ve örtük iletileri bulması; bu iletilerin sunuluş şeklini okuduğu hikâye ve gezi yazısı ile bir karşılaştırma tablosu oluşturarak karşılaştırması istenir. Öğrenciler iletileri yapısal özellikler başta olmak üzere içerik, üslup, doğruluk, tutarlılık, dönem özelliği, gerçeklik ve geçerlilik bakımından listeler. Dinlediği/izlediği belgeselin özelliklerini eledikten sonra belgeselde kullanılan görsel ve işitsel unsurlar bağlamında çok modlu metinlerin özelliklerini belirler. Dinleme/izleme metnine yönelik açık uçlu sorularla öğrencilerin belgeseldeki iletilere uygun görüş bildirmesi, eleştirel bir bakış oluşturması ve düşüncelerini gerekçeleriyle ortaya koyması sağlanır (E3.5, E3.10, SDB3.3).\nTDE1.3\nDaha sonra “RAFT tekniği” kullanılarak öğrencilerden belgesel metnindeki unsurları dikkate alıp daha önce tahlil ettikleri metinlerle ilişkilendirerek metni yeniden uyarlamaları istenir. Bu bağlamda öğrenciler, ilgilerine göre aşağıdaki rolleri seçer (E1.2). Aynı rolü seçen öğrenciler, ürünleri rolün gerektirdiği konuya bağlı olarak oluşturur ve sunar (SDB1.2, KB2.20).\nRoller / Ürünler / Konu tablosu:\n• Yazar / Hikâye anlatıcısı / Belgeseldeki konuyu hikâyeye uyarlayarak anlatacak.\n• Gezgin / Gezi anlatıcısı / Belgeselde geçen mekânı gezi yazısına dönüştürerek anlatacak.\n• Tarihçi / Tarih şeridi / Belgeseldeki zaman unsurları ile ilgili tarih şeridi yapacak.\n• Psikolog / Şiir / Belgeseldeki olay/durum ile ilgili şiir yazacak ve okuyacak.\n• Sanatçı / Sesli anlatım / Belgeseldeki karakterleri kendi yorumunu katarak vurgu ve tonlamaya dikkat ederek seslendirecek.\n“RAFT tekniği” sonrasında öğrencilere Anadolu kültürünü anlatan dinlediği/izlediği belgeseldeki yapısal unsurların millî, manevi, evrensel değerlerin yansıtılmasındaki işlevi hakkında; bu değerlerin belgesel aracılığı ile yansıtılmasının dinleyici/izleyici kitlesine etkileri hakkında açık uçlu sorular sorulur, öğrencilerde vatanseverlik ve saygı değeri desteklenir (D14, D19, KB3.3). Dinlediği/izlediği belgeseldeki üslup özellikleri, tür ve dönem özelliklerine ilişkin bilgiler, “beyin fırtınası” tekniğiyle öğrencilerden alınır (SDB2.1). Öğrenciler, dinleme/izleme sonrası değerlendirmesini çalışma kâğıdı ile gerçekleştirir.",
+            "source_locator": "s. 86-87"
+          },
+          "edebiyat_atolyesi_anlatma_yazma": {
+            "verbatim": "TDE4.1\nÖğrencilerden yazılı bir ürün ortaya koymaları için dinledikleri/izledikleri belgeseli infografik bir metne dönüştürmesi istenir. Böylece öğrencilerin metindeki yapı unsurlarını kendi yorumuyla yazılı hâle getirmesi amaçlanır. Öğrencilerden performans görevleri için -infografik metin için görsel bulma vb.- hazırlık yapması istenir (SDB1.2).\nBu süreçte öğrencilerden, bireysel anlatım gerçekleştirecekleri için öncelikle dinledikleri/izledikleri belgeselden çıkaracakları hangi bilgileri infografik metne yerleştireceğine yönelik seçimler yapması istenir. İnfografik metin ile dinlenen/izlenen belgeselin iletiler, yapı vb. unsurlar açısından uyumlu olması, belgeseldeki neden-sonuç ilişkisini bozmaması, belgeselin üslubu ile uyumlu olması vb. unsurlara dikkat edilmesi sağlanır. Öğrenciler infografik metin hazırlarken dijital araçlar kullanabilir (OB2).\nTDE4.2 ve TDE4.3\nÖğrenciler, dinledikleri/izledikleri belgeselin tahlili sırasında edindikleri ön bilgileri gözden geçirir, infografik metnin etkililiği ve özgünlüğünü ön planda tutan bir planlama yapar. Çalışmada istenen iletiler belli bir sıraya konur (E3.7). Öğrenciler belgeseldeki içeriği kendi duygu ve düşünceleri doğrultusunda yeniden yorumlar (E3.3, SDB2.1). Çalışmasında belgeselde verilmek istenen iletiye uygun görsel kullanabileceği gibi kendi çizimlerinden de yararlanabilir (OB4). Yazısını kime hitaben, hangi araçları kullanarak yazacağının planlamasını yapar ve benzetme, karşılaştırma, örnekleme gibi düşünceyi geliştirme yollarından yararlanır. İnfografik metinde bağlama uygun olarak deyim, atasözü, kalıplaşmış ifade gibi söz varlığı unsurlarından yararlanır ve iletileri açık veya örtük bir şekilde verir. Yazılı anlatımını Türkçenin dil kurallarına uygun bir şekilde oluşturur ve metninde gerektiğinde eksiltili cümleler kullanabilir. Yazım ve noktalama kurallarına göre düzenlemeler yaparak anlatımına son şeklini verir ve bunu sınıfta paylaşır (SDB1.2).\nÖğrencinin yazılı ürünleri dereceli puanlama anahtarı ile puanlanır. Puanlama anahtarında anlam, dil ve görsel ögelerin kullanımı, özgünlük, tutarlılık, doğruluk, yazım ve noktalama gibi ölçütler yer alır. Değerlendirme sonrasında öğretmen öğrencilere geri bildirim verir.",
+            "source_locator": "s. 87-88"
+          },
+          "tema_sonu_degerlendirme": {
+            "verbatim": "Temanın sonunda genel bir değerlendirme yapmak amacıyla öğrenme günlüğü, çıkış kartı (3-2-1) gibi yöntemler uygulanarak yapılan çalışmalar bir grup tartışması ile değerlendirilir. Böylece öğrencilerin temaya başlamadan önce kavram yanılgılarının ne düzeyde giderildiği, merak ettikleri unsurların ne düzeyde karşılandığı ortaya çıkmış olur.",
+            "source_locator": "s. 88"
+          }
+        }
+      },
+      "farklilastirma": {
+        "zenginlestirme": {
+          "verbatim": "Öğrencilerin konuyla bağlantılı olarak okuduğu bir hikâyeyi film şeridi hâlinde hazırlamaları, dijital hikâye hâline getirmeleri, farklı türde metinler okuyarak her bir metin için metnin yapılarına yönelik zihin haritası oluşturmaları, bulundukları çevrede gezip görülmeye değer yerlerden birini seçerek burada geçen bir hikâye kurgulamaları; gezip görülen bu yerle ilgili bir belgesel hazırlamaları beklenebilir.\n* Eski Anadolu Türkçesi ile yazılmış bir şiiri yazıldığı dönemin tarihsel dokusuna uygun olarak hikâye tarzında yeniden yazmaları ve paylaşmaları istenebilir.",
+          "source_locator": "s. 88"
+        },
+        "destekleme": {
+          "verbatim": "Tema çerçevesinde işlenen metinlerle ilgili yapılan çalışmaların somutlaştırılması için öğrencilerden okudukları hikâyede geçen olayı görselleştirmeleri istenebilir. Öğrencilerin ilgilerini çeken başka bir hikâye okumaları ve bu metnin yapı unsurlarını (zaman, mekân, kişiler vb.) belirtmeleri istenebilir. Öğrencilere çeşitli görseller verilerek bu görsellerden hareketle adım adım kısa bir hikâye yazdırılabilir.",
+          "source_locator": "s. 88"
+        }
+      },
+      "ogretmen_yansitmalari": {
+        "verbatim": "Programa yönelik görüş ve öneriniz için karekodu akıllı cihazınıza okutunuz.",
+        "source_locator": "s. 88"
+      },
+      "learning_outcomes": [
+        {
+          "outcome_id": "TDE9_T3_D1",
+          "outcome_code": "TDE1.1",
+          "skill_category": "Metin Tahlili (Anlama) - Dinleme/İzleme",
+          "outcome_verbatim": "TDE1.1. “Anlamın Yapı Taşları” temasında ele alınan metinlerde dinlemeyi/izlemeyi yönetebilme",
+          "source_page": 81,
+          "source_locator": "s. 81",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "SDB2.1",
+            "E3.2",
+            "SDB1.2"
+          ],
+          "assessment_requirement_verbatim": "Öğrencilerin Anadolu kültürünü anlatan belgeseli dinlerken/izlerken nelere dikkat etmeleri gerektiğine yönelik bir kontrol listesi kullanılır.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T3_D2",
+          "outcome_code": "TDE1.2",
+          "skill_category": "Metin Tahlili (Anlama) - Dinleme/İzleme",
+          "outcome_verbatim": "TDE1.2. “Anlamın Yapı Taşları” temasında ele alınan metinlerde anlam oluşturabilme",
+          "source_page": 81,
+          "source_locator": "s. 81",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "E1.1",
+            "SDB2.3",
+            "OB2",
+            "E3.5",
+            "E3.10",
+            "SDB3.3"
+          ],
+          "assessment_requirement_verbatim": "evet-hayır kartları, karşılaştırma tablosu, açık uçlu sorular.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T3_D3",
+          "outcome_code": "TDE1.3",
+          "skill_category": "Metin Tahlili (Anlama) - Dinleme/İzleme",
+          "outcome_verbatim": "TDE1.3. “Anlamın Yapı Taşları” temasında ele alınan metinleri çözümleyebilme",
+          "source_page": 81,
+          "source_locator": "s. 81",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "E1.2",
+            "SDB1.2",
+            "KB2.20",
+            "D14",
+            "D19",
+            "KB3.3",
+            "SDB2.1"
+          ],
+          "assessment_requirement_verbatim": "RAFT tekniği, açık uçlu sorular, çalışma kâğıdı.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T3_O1",
+          "outcome_code": "TDE2.1",
+          "skill_category": "Metin Tahlili (Anlama) - Okuma",
+          "outcome_verbatim": "TDE2.1. “Anlamın Yapı Taşları” temasında ele alınan metinlerde okumayı yönetebilme",
+          "source_page": 81,
+          "source_locator": "s. 81",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "SDB2.2",
+            "KB2.6",
+            "SDB3.3"
+          ],
+          "assessment_requirement_verbatim": "yumruktan beşe tekniği, düşün-eşleş-paylaş.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T3_O2",
+          "outcome_code": "TDE2.2",
+          "skill_category": "Metin Tahlili (Anlama) - Okuma",
+          "outcome_verbatim": "TDE2.2. “Anlamın Yapı Taşları” temasında ele alınan metinlerde anlam oluşturabilme",
+          "source_page": 81,
+          "source_locator": "s. 81",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "SDB2.2",
+            "E3.5",
+            "KB2.18",
+            "E2.4",
+            "SDB2.1"
+          ],
+          "assessment_requirement_verbatim": "anlamsal çağrışım haritaları, T diyagramı, açık uçlu sorular.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T3_O3",
+          "outcome_code": "TDE2.3",
+          "skill_category": "Metin Tahlili (Anlama) - Okuma",
+          "outcome_verbatim": "TDE2.3. “Anlamın Yapı Taşları” temasında ele alınan metinleri çözümleyebilme",
+          "source_page": 81,
+          "source_locator": "s. 81",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "E2.2",
+            "D16",
+            "SDB2.2",
+            "E2.1",
+            "E3.8",
+            "D3",
+            "SDB2.1",
+            "E1.5",
+            "E3.10",
+            "OB2",
+            "D7",
+            "OB5",
+            "KB2.4",
+            "SDB1.1",
+            "KB2.15",
+            "SDB1.2"
+          ],
+          "assessment_requirement_verbatim": "bütüncül puanlama anahtarı, çalışma kâğıdı, kısa yansıtma makalesi, açık uçlu sorular.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T3_K1",
+          "outcome_code": "TDE3.1",
+          "skill_category": "Edebiyat Atölyesi (Anlatma) - Konuşma",
+          "outcome_verbatim": "TDE3.1. Edebî metinlerde yapısal inceliklere odaklanan akıcı bir konuşma sürecini yönetebilme",
+          "source_page": 81,
+          "source_locator": "s. 81",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "E1.4",
+            "SDB2.1",
+            "SDB1.2",
+            "OB2",
+            "D1",
+            "D6"
+          ],
+          "assessment_requirement_verbatim": "Performans görevi dereceli puanlama anahtarı ile puanlanır.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T3_K2",
+          "outcome_code": "TDE3.2",
+          "skill_category": "Edebiyat Atölyesi (Anlatma) - Konuşma",
+          "outcome_verbatim": "TDE3.2. Benzetme, karşılaştırma yaparak yapısal özellikleri ortaya koyduğu bir konuşma içeriği oluşturabilme",
+          "source_page": 81,
+          "source_locator": "s. 81",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "OB4"
+          ],
+          "assessment_requirement_verbatim": "karşılaştırma tablosu, dereceli puanlama anahtarı.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T3_K3",
+          "outcome_code": "TDE3.3",
+          "skill_category": "Edebiyat Atölyesi (Anlatma) - Konuşma",
+          "outcome_verbatim": "TDE3.3. Benzetme, karşılaştırma yaparak yapısal özellikleri ortaya koyduğu bir konuşmada kural uygulayabilme",
+          "source_page": 81,
+          "source_locator": "s. 81",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "SDB1.2"
+          ],
+          "assessment_requirement_verbatim": "Dereceli puanlama anahtarı.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T3_K4",
+          "outcome_code": "TDE3.4",
+          "skill_category": "Edebiyat Atölyesi (Anlatma) - Konuşma",
+          "outcome_verbatim": "TDE3.4. Edebî metinlerdeki yapısal inceliklerin konuşmaya etkisine yönelik değerlendirmelerini yansıtabilme",
+          "source_page": 81,
+          "source_locator": "s. 81",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "SDB2.1"
+          ],
+          "assessment_requirement_verbatim": "Sunumlar, dereceli puanlama anahtarı ile puanlanır. Puanlama içerik, anlatım, organizasyon ve iletişim vb. ölçütler bağlamında değerlendirilir.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T3_Y1",
+          "outcome_code": "TDE4.1",
+          "skill_category": "Edebiyat Atölyesi (Anlatma) - Yazma",
+          "outcome_verbatim": "TDE4.1. Yapısını incelikle ördüğü bir yazılı anlatım sürecini yönetebilme",
+          "source_page": 81,
+          "source_locator": "s. 81",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "SDB1.2",
+            "OB2"
+          ],
+          "assessment_requirement_verbatim": "Öğrencilerden performans görevleri için -infografik metin için görsel bulma vb.- hazırlık yapması istenir. Dereceli puanlama anahtarı ile puanlanır.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T3_Y2",
+          "outcome_code": "TDE4.2",
+          "skill_category": "Edebiyat Atölyesi (Anlatma) - Yazma",
+          "outcome_verbatim": "TDE4.2. Yapısı incelikle örülmüş edebî metinlerden edindiği söz varlığını kullanarak yazısı için içerik oluşturabilme",
+          "source_page": 81,
+          "source_locator": "s. 81",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "E3.7",
+            "E3.3",
+            "SDB2.1",
+            "OB4"
+          ],
+          "assessment_requirement_verbatim": "Puanlama anahtarında anlam, dilin ve görsel ögelerin kullanımı, özgünlük, tutarlılık, doğruluk, yazım ve noktalama gibi ölçütler yer alabilir.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T3_Y3",
+          "outcome_code": "TDE4.3",
+          "skill_category": "Edebiyat Atölyesi (Anlatma) - Yazma",
+          "outcome_verbatim": "TDE4.3. Yapısını incelikle ördüğü yazısında kural uygulayabilme",
+          "source_page": 81,
+          "source_locator": "s. 81",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "SDB1.2"
+          ],
+          "assessment_requirement_verbatim": "Dereceli puanlama anahtarı.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T3_Y4",
+          "outcome_code": "TDE4.4",
+          "skill_category": "Edebiyat Atölyesi (Anlatma) - Yazma",
+          "outcome_verbatim": "TDE4.4. Yapısını incelikle ördüğü yazısına yönelik değerlendirmelerini yansıtabilme",
+          "source_page": 81,
+          "source_locator": "s. 81",
+          "process_components_verbatim": [],
+          "related_official_codes": [],
+          "assessment_requirement_verbatim": "Öğrencinin yazılı ürünleri dereceli puanlama anahtarı ile puanlanır. Öz değerlendirme ile akran ve grup değerlendirmeleri de yapılabilir. Değerlendirme sonrasında öğretmen öğrencilere geri bildirim verir.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        }
+      ]
+    },
+    {
+      "theme_id": "TEMA_04",
+      "theme_no": 4,
+      "exact_theme_name": "4. TEMA: DİLİN ZENGİNLİĞİ",
+      "page_range": "89-97",
+      "source_locator": "s. 89-97",
+      "theme_introduction_verbatim": "“Dilin Zenginliği” temasında Türkçenin zengin söz varlığı, kendine özgü dil özellikleri ve anlam oluşturmadaki esnek yapısıyla duygu, düşünce ve bilgiyi ifade edebilme gücünün metinler aracılığıyla keşfedilmesi amaçlanmaktadır. Bu doğrultuda edebiyatta üslup kavramı üzerinde durulur, edebî ve öğretici metinlerden hareketle üslup özelliklerini tanımaya yönelik metin incelemeleri yapılır. Öğrencilerin, üslubu oluşturan unsurlarla ilgili temel bilgileri özümsemeleri, üslubun anlatıma ve edebî dilin oluşumuna katkısını fark edebilmeleri, metnin edebî değerinin ortaya çıkışında üslubun etkisini açıklayabilmeleri, kendi özgün konuşur ve yazar kimliklerini kazanmaları hedeflenir.\n“Dilin Zenginliği” temasında metin tahlili için kelime zenginliği, anlam çeşitliliği, ifade gücü ve üslup özellikleri bakımından geniş imkân sunan edebî türlerden biri olduğu için roman ele alınır. Ara metin olarak bir tiyatro incelenir. Tahlil edilen roman, ara metin olarak seçilen tiyatro ile özellikleri bakımından karşılaştırılır. Ayrıca üslubu oluşturan unsurları daha iyi tanımak ve üslupla ilgili değerlendirmelerin nasıl yapıldığına örnek oluşturması amacıyla üslubu konu alan bir eleştiri metni incelenir. Edebiyat atölyesi çalışmalarında üslup konusunda öğrenilenlerden hareketle etkileşimli bir konuşma yapılır ve otobiyografi (öz yaşam öyküsü) oluşturmaya yönelik yazma etkinliği gerçekleştirilir.",
+      "allocated_lesson_hours": {
+        "total": 43,
+        "anlama": 23,
+        "anlatma": 20,
+        "verbatim": "43 (Anlama: 23 / Anlatma: 20)",
+        "source_locator": "s. 89"
+      },
+      "alan_becerileri": {
+        "verbatim": "Metin Tahlili (Anlama): Okuma, Dinleme/İzleme; Edebiyat Atölyesi (Anlatma): Yazma, Konuşma",
+        "source_locator": "s. 89"
+      },
+      "kavramsal_beceriler": {
+        "verbatim": "-",
+        "source_locator": "s. 89"
+      },
+      "egilimler": {
+        "verbatim": "E1.4. Kendine İnanma (Öz Yeterlilik), E2.2. Sorumluluk, E3.3. Yaratıcılık, E3.5. Açık Fikirlilik, E3.7. Sistematik Olma, E3.8. Soru Sorma, E3.10. Eleştirel Bakma, E3.11. Özgün Düşünme",
+        "codes": [
+          "E1.4",
+          "E2.2",
+          "E3.3",
+          "E3.5",
+          "E3.7",
+          "E3.8",
+          "E3.10",
+          "E3.11"
+        ],
+        "source_locator": "s. 89"
+      },
+      "programlar_arasi_bilesenler": {
+        "sosyal_duygusal_ogrenme_becerileri": {
+          "verbatim": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim, SDB2.2. İş Birliği, SDB2.3. Sosyal Farkındalık, SDB3.1. Uyum, SDB3.3. Sorumlu Karar Verme",
+          "codes": [
+            "SDB1.2",
+            "SDB2.1",
+            "SDB2.2",
+            "SDB2.3",
+            "SDB3.1",
+            "SDB3.3"
+          ],
+          "source_locator": "s. 89"
+        },
+        "degerler": {
+          "verbatim": "D1. Adalet, D3. Çalışkanlık, D6. Dürüstlük, D7. Estetik, D11. Özgürlük, D16. Sorumluluk",
+          "codes": [
+            "D1",
+            "D3",
+            "D6",
+            "D7",
+            "D11",
+            "D16"
+          ],
+          "source_locator": "s. 89"
+        },
+        "okuryazarlik_becerileri": {
+          "verbatim": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB7. Veri Okuryazarlığı, OB9. Sanat Okuryazarlığı",
+          "codes": [
+            "OB1",
+            "OB2",
+            "OB7",
+            "OB9"
+          ],
+          "source_locator": "s. 89"
+        }
+      },
+      "disiplinler_arasi_iliskiler": {
+        "verbatim": "Tarih, Psikoloji, Sosyoloji, Teknoloji",
+        "source_locator": "s. 89"
+      },
+      "beceriler_arasi_iliskiler": {
+        "verbatim": "KB2.7. Karşılaştırma, KB2.10. Çıkarım Yapma, KB2.20. Sentezleme, KB3.3. Eleştirel Düşünme",
+        "codes": [
+          "KB2.7",
+          "KB2.10",
+          "KB2.20",
+          "KB3.3"
+        ],
+        "source_locator": "s. 89"
+      },
+      "icerik_cercevesi": {
+        "verbatim": "“Dilin Zenginliği” temasının içerik çerçevesi şu şekildedir:\n• Okuma\n• Konuşma\n• Dinleme/İzleme\n• Yazma\nOkuma becerisinin geliştirilmesi için yazarların, dili kullanma biçimleri ve farklı üslup özelliklerinin en belirgin görülebileceği metinlerden biri olan roman seçilmiştir. Ara metin olarak bir tiyatro metninin incelemesi yapılır ve tahlil edilen roman ile özellikleri yönüyle karşılaştırılır. Ayrıca bu tema kapsamında ikinci metin olarak bir eleştiri metni tahlil edilir. Böylece yazarların üslup özelliklerinin farkına varılmasıyla öğrencilerin de kendi özgün üsluplarını keşfetmeleri ve bunu edebiyat atölyesinde oluşturdukları metinlere yansıtması sağlanır.\nKonuşma becerisinin geliştirilmesinde öğrenciler, tahlil ettiği metinlerden hareketle sosyal medya dilini edebî dilin özellikleri açısından değerlendiren sözlü bir anlatım (sunum) gerçekleştirir. Konuşmada dilin zenginliği temasının doğasına uygun olarak söz varlığının etkili kullanımı göz önünde bulundurulur.\nDinleme/izleme becerisinin geliştirilmesinde içerik olarak otobiyografi türü seçilmiştir. Öğrencilerin otobiyografi türündeki bir metne yazarın üslup özelliklerinin ve söz varlığının nasıl yansıyabileceğini fark edebilmesi de amaçlanır.\nYazma becerisinin geliştirilmesinde öğrenciler, kendi yaşamlarına odaklanacak ve otobiyografilerini oluşturup yazılı bir anlatım gerçekleştirir. Öğrencilerden temanın doğasına uygun bir biçimde, otobiyografilerini kendi üslup özellikleriyle zenginleştirerek yazmaları istenir.",
+        "source_locator": "s. 90-91"
+      },
+      "anahtar_kavramlar": {
+        "verbatim": "üslup, öğretici metin, tenkit, anlatım teknikleri (geriye dönüş, monolog, diyalog vb.), düşünceyi geliştirme yolları (tanımlama, karşılaştırma vb.), anlatım özellikleri (duruluk, akıcılık, yalınlık, özgünlük, tutarlılık vb.), edebî dil",
+        "concepts": [
+          "üslup",
+          "öğretici metin",
+          "tenkit",
+          "anlatım teknikleri (geriye dönüş, monolog, diyalog vb.)",
+          "düşünceyi geliştirme yolları (tanımlama, karşılaştırma vb.)",
+          "anlatım özellikleri (duruluk, akıcılık, yalınlık, özgünlük, tutarlılık vb.)",
+          "edebî dil"
+        ],
+        "source_locator": "s. 91"
+      },
+      "ogrenme_kanitlari_olcme_ve_degerlendirme": {
+        "verbatim": "Metin Tahlili (Anlama)\nOkuma ve Dinleme/İzleme\n• Gözlem formu\n• Çalışma kâğıdı\n• Çıkış kartı\n• Öğrenme duvarı\n• Öğrenme günlüğü\n• Açık uçlu sorular\n• Kontrol listesi\n• Bilgi kartları\nDilin zenginliğini gösteren metinlerle okumayı yönetebilme sürecinde açık uçlu sorular sorulabilir, kontrol listesi tutulabilir. Anlam oluşturma süreci için öğrenme duvarı, çalışma kâğıdı hazırlanabilir. Çözümlemede açık uçlu sorulardan yararlanılabilir. Yansıtmada öğrenme günlüğü oluşturulabilir.\nDilin zenginliğini gösteren metinlerle dinlemeyi/izlemeyi yönetebilme sürecinde gözlem formu tutulabilir. Anlam oluşturma süreci için bilgi kartları hazırlanabilir. Çözümleme sürecinde çalışma kâğıdından yararlanılabilir. Öz yansıtmada öz değerlendirme formu kullanılabilir.\nEdebiyat Atölyesi (Anlatma)\nKonuşma ve Yazma\n• Öğrencilerin üslup konusu ile ilgili öğrendiklerinden hareketle sosyal medya dili ile edebî dilin özelliklerini karşılaştırdıkları bir sunum yapmalarına yönelik performans görevi\n• Öğrencilerin otobiyografilerini oluşturmaya yönelik bir performans görevi\nÖğrencilerin okuduğu, tahlil ettiği ve değerlendirmesini yaptığı romanda üslup konusu ile ilgili öğrendiklerinden hareketle sosyal medya dili ile edebî dilin özelliklerini karşılaştırdıkları sunum performansı, dereceli puanlama anahtarı ile puanlanır. Puanlama anahtarında içeriğe uygunluk, özgünlük, sunum becerisi, görsel ögeleri kullanma, zaman ve mekân kullanımı, beden dili ile jest ve mimik kullanımı gibi ölçütler yer alır. Bu görev grup çalışması olarak gerçekleştirilebilir.\nÖğrenciler otobiyografilerini oluşturmaya yönelik performans görevi hazırlar. Bu görev sonrasında öğrencilerden yazdıkları metni arkadaşları ile paylaşmaları istenir. Değerlendirmede dereceli puanlama anahtarı kullanılır. Puanlama anahtarında yazılı anlatımlar; bağlama uygunluk, dil ve anlatım özelliği, etkileyicilik, gerçeklik, tutarlılık, özgünlük gibi ölçütler bağlamında değerlendirilir. Yansıtmada öz değerlendirme ile akran ve grup değerlendirmeleri yapılabilir.\nTema Sonu Değerlendirme\nTema sonu değerlendirmede çıkış kartı kullanılır.",
+        "source_locator": "s. 91-92",
+        "official_assessment_instruments": [
+          {
+            "instrument_name": "Gözlem formu",
+            "skill_area": "Dinleme/İzleme",
+            "exact_verbatim": "Dinleme/izleme sürecinin amacına uygun şekilde yönetilebilmesi için gözlem formları oluşturulur.",
+            "source_locator": "s. 91, s. 95"
+          },
+          {
+            "instrument_name": "Kontrol listesi",
+            "skill_area": "Okuma ve Yazma",
+            "exact_verbatim": "Okuma süreçlerinin doğru bir şekilde yönetilebilmesi için kontrol listesi oluşturulur... Yazma sürecinin tüm aşamalarının başarılı bir şekilde uygulanabilmesi için kontrol listesi hazırlanır.",
+            "source_locator": "s. 91, s. 93, s. 96"
+          },
+          {
+            "instrument_name": "Öğrenme duvarı (padlet, dijital pano vb.)",
+            "skill_area": "Okuma",
+            "exact_verbatim": "Öğrenciler, okudukları romanda anlamını bilmedikleri kelimeleri küçük kâğıtlara yazarak öğrenme duvarı oluşturur. Bu duvar dijital araçlar (padlet, dijital pano vb.) kullanılarak hazırlanabilir",
+            "source_locator": "s. 91, s. 93"
+          },
+          {
+            "instrument_name": "Çalışma kâğıdı",
+            "skill_area": "Okuma ve Dinleme/İzleme",
+            "exact_verbatim": "Anlam oluşturma süreci için... çalışma kâğıdı hazırlanabilir. Çözümleme sürecinde çalışma kâğıdından yararlanılabilir.",
+            "source_locator": "s. 91, s. 93, s. 95"
+          },
+          {
+            "instrument_name": "Açık uçlu sorular",
+            "skill_area": "Okuma ve Dinleme/İzleme",
+            "exact_verbatim": "okumayı yönetebilme sürecinde açık uçlu sorular sorulabilir... Bu süreçte açık uçlu sorularla değerlendirme yapılır... Otobiyografide kullanılan anlatım biçimi, yöntem ve teknikleri açık uçlu sorularla belirlenir.",
+            "source_locator": "s. 91, s. 92, s. 94, s. 95"
+          },
+          {
+            "instrument_name": "Öğrenme günlüğü",
+            "skill_area": "Okuma",
+            "exact_verbatim": "Öğrenciler kendi öğrenme süreçlerini değerlendirmek amacıyla öğrenme günlüklerini doldurur",
+            "source_locator": "s. 91, s. 94"
+          },
+          {
+            "instrument_name": "Bilgi kartları / Bilgi haritası",
+            "skill_area": "Dinleme/İzleme",
+            "exact_verbatim": "Anlam oluşturma süreci için bilgi kartları hazırlanabilir... ayırt edici özelliklerinin gösterildiği bir bilgi haritası oluşturulur",
+            "source_locator": "s. 91, s. 95"
+          },
+          {
+            "instrument_name": "Çıkış kartı",
+            "skill_area": "Tema Sonu Değerlendirme",
+            "exact_verbatim": "Temanın sonunda öğrencilerin çıkış kartı yazmaları sağlanır. Bu kartta edebî dil ile günlük dil arasındaki farka odaklanarak okunan metinlerde dilin nasıl kullanıldığıyla ilgili çıkarımda bulunmaları istenir. Ayrıca öğrenme süreçlerine ilişkin ön yansıtma yapmaları sağlanır.",
+            "source_locator": "s. 91, s. 92, s. 97"
+          },
+          {
+            "instrument_name": "Öz değerlendirme, akran ve grup değerlendirme formları",
+            "skill_area": "Okuma, Konuşma, Dinleme/İzleme, Yazma",
+            "exact_verbatim": "Akran değerlendirme formlarında oluşturulan diyaloğun romanın kurgusuna, romandaki kişilerin kişilik özelliklerine, roman kişilerinin dil ve anlatım özelliklerine uygunluğu vb. ölçütler yer alır... Sunum aşamasının tüm süreci, hakkaniyetli (D1) ve dürüst (D6) bir tutum içerisinde öz değerlendirme ve akran değerlendirme formuyla değerlendirilir... Öz yansıtmada öz değerlendirme formu kullanılabilir... Yazma çalışmalarında ortaya çıkan ürünlere yönelik öz değerlendirme ve akran değerlendirmesi yapılır",
+            "source_locator": "s. 91, s. 92, s. 94, s. 95, s. 96"
+          },
+          {
+            "instrument_name": "T diyagramı",
+            "skill_area": "Okuma",
+            "exact_verbatim": "Öğrencilerden üslup özelliklerini gösteren söz varlıklarını işlevi ve metindeki kullanım amacına göre T diyagramı ölçeği ile sınıflandırmaları istenir",
+            "source_locator": "s. 93"
+          },
+          {
+            "instrument_name": "Performans görevi (Konuşma) & Dereceli puanlama anahtarı",
+            "skill_area": "Konuşma",
+            "exact_verbatim": "Öğrencilerin üslup konusu ile ilgili öğrendiklerinden hareketle sosyal medya dili ile edebî dilin özelliklerini karşılaştırdıkları bir sunum yapmalarına yönelik performans görevi... dereceli puanlama anahtarı ile puanlanır. Puanlama anahtarında içeriğe uygunluk, özgünlük, sunum becerisi, görsel ögeleri kullanma, zaman ve mekân kullanımı, beden dili ile jest ve mimik kullanımı gibi ölçütler yer alır.",
+            "source_locator": "s. 91, s. 94, s. 95"
+          },
+          {
+            "instrument_name": "Performans görevi (Yazma) & Dereceli puanlama anahtarı",
+            "skill_area": "Yazma",
+            "exact_verbatim": "Öğrencilerin otobiyografilerini oluşturmaya yönelik bir performans görevi... Değerlendirmede dereceli puanlama anahtarı kullanılır. Puanlama anahtarında yazılı anlatımlar; bağlama uygunluk, dil ve anlatım özelliği, etkileyicilik, gerçeklik, tutarlılık, özgünlük gibi ölçütler bağlamında değerlendirilir.",
+            "source_locator": "s. 91, s. 92, s. 96"
+          }
+        ]
+      },
+      "ogrenme_ogretme_yasantilari": {
+        "temel_kabuller": {
+          "verbatim": "Bu temada öğrencilerin hikâye türünün genel özellikleri ve yapı unsurlarını, anlatmaya bağlı metinlerde kullanılan anlatım biçimlerini, öğretici metinlerin genel özelliklerini, öğretici metinlerde kullanılan anlatım biçimleri ve düşünceyi geliştirme yollarını; kültürel, sosyal ve psikolojik temel unsurları, yazılı ve sözlü anlatım aşamalarını, şekil bilgisi ile ilgili dil bilgisi kurallarını bildiği kabul edilmektedir.",
+          "source_locator": "s. 92"
+        },
+        "on_degerlendirme_sureci": {
+          "verbatim": "Öğrencilerin temaya ilişkin temel kabullerini (ön bilgilerini) tespit etmek için soru-cevap, görüş oluşturma, beyin fırtınası gibi yöntemler uygulanır.",
+          "source_locator": "s. 92"
+        },
+        "kopru_kurma": {
+          "verbatim": "Önceki temalarda hikâye türleriyle ilgili edinilen bilgiler, bu temada tahlil edilecek romanla ilgili öğrenilecek bilgilere temel oluşturur. Öğrencilerin daha önce öğretici metinlerle ilgili öğrendikleri bilgiler, eleştiri metninin tahlil edilme sürecinde kullanılır.\nBu temada dilin zenginliğini yansıtan roman, eleştiri ve otobiyografi türlerinden metinler derinlemesine tahlil edilir; öğrenilen bilgiler 10. sınıfta ele alınan metinlerin tahlil aşamasına ön bilgi oluşturur.\nÖğrencilerin tahlil ettikleri ve karşılaştırma yaptıkları metinler aracılığıyla üslup kavramına ilişkin bilgileri pekişecektir. Öğrenciler üslupla ilgili kendi beğenilerini fark edebilecek ve bunu sanat eserlerine yönelik seçkilerinde kullanabileceklerdir.",
+          "source_locator": "s. 92"
+        },
+        "ogrenme_ogretme_uygulamalari": {
+          "surec_cercevesi": {
+            "verbatim": "Bu temada okuma metni olarak Cumhuriyet Dönemi’nden başlanarak dil ve anlatım bakımından günümüze en yakın özellikleri taşıyan bir roman ve bir eleştiri metni tahlil edilir. Ara metin olarak bir tiyatro incelenir ve özellikleri yönüyle roman metni ile karşılaştırılır. Tahlil edilen roman ve eleştiri metinlerinden hareketle sosyal medya dilini edebî dilin özellikleri açısından değerlendiren bir sunum gerçekleştirilerek konuşma becerisi etkinleştirilmiş olur. Daha sonra otobiyografi türünün özelliklerini taşıyan çok modlu bir metin dinletilir/izletilir. Öğrencilerin otobiyografilerini hazırlamalarına yönelik yazma çalışması yapılır.",
+            "source_locator": "s. 92"
+          },
+          "metin_tahlili_anlama_okuma": {
+            "verbatim": "TDE2.1\nBu temanın özünü oluşturan, edebiyatın üslupla ilişkisine yönelik dikkat çekmek için farklı üslup özelliklerini yansıtan metinlerden örnekler gösterilir. Bu metinlerin üslup özelliklerinin fark edilmesine yönelik açık uçlu sorular sorulabilir, beyin fırtınası yapılarak öğrencilerden üslupla ilgili temel bir görüş oluşturmaları istenir. Böylece öğrencilerin hazır bulunuşlukları belirlenerek derse etkin katılımları sağlanır (SDB2.1).\nBu temada okuma metni olarak öğrencilerin düzeylerine uygun, anlaşılır ve açık bir dille yazılmış Cumhuriyet Dönemi romanlarından biri seçilir. Romanı okumadan önce öğrencilerden okumaya hazırlık yapmaları, okuma öncesi sorular oluşturmaları; başlık, görsel ve yazardan hareketle metinle ilgili tahminde bulunmaları için metne göz atmaları ve görüş oluşturmaları istenir. Öğrencilerin romanı okuma amaçlarını ve yapacakları metin tahliline yönelik stratejilerini belirlemesi sağlanır. Okuma süreçlerinin doğru bir şekilde yönetilebilmesi için kontrol listesi oluşturulur. Öğrencilerin okudukları romanda olaylara, karakterlerin davranışlarına, iç ve dış konuşmalara, betimlemelere, açıklamalara dikkat ederek not tutmaları istenir (SDB2.3).\nTDE2.2\nOkunan romanı tahlile başlamadan önce roman metninin temasına göre türü, ait olduğu dönem ve yazarına yönelik bilgilerle ilgili öğrencilerin bilgileri yoklanır. Öğrencilere roman türünün daha önceki temalarda ele aldıkları hikâye gibi anlatmaya bağlı bir metin olduğu vurgulanır. Bu bağlamda roman türünün yapı unsurlarıyla hikâye türünün yapı unsurları arasında benzerlik olduğu açıklanır. Öğrenciler, okudukları romanda anlamını bilmedikleri kelimeleri küçük kâğıtlara yazarak öğrenme duvarı oluşturur. Bu duvar dijital araçlar (padlet, dijital pano vb.) kullanılarak hazırlanabilir (SDB1.2, OB2). Öğrencilerin bu ortamda iletişim kurup iş birlikli çalışmalar gerçekleştirmeleri sağlanabilir (SDB2.2). Her derste bu kelimelerden bir ya da birkaçı seçilerek bunların anlamının bağlamdan hareketle tahmin edilmesi istenebilir (KB2.10). Böylelikle okunan romanın içeriğiyle ilgili bilgiler canlı tutulur.\nÖğrencilerin romandaki üslup özelliklerine yönelik çıkarımlar yapabilmeleri için metnin cümle yapılarına ve bireysel anlatım farklılıklarına dikkat çekilir. Hikâye ile romanın dil ve anlatım kullanımındaki farklılıklara değinilir. Olay, mekân, zaman ve kişiler yansıtılırken kullanılan açıklama ve betimlemeler ile söz varlığına odaklanılması sağlanır. Romanda üslubu gösteren unsurların ele alındığı düşün-eşleş-paylaş etkinliği aracılığıyla öğrencilerden üslupla ilgili çıkarımlarını birbirleriyle paylaşması istenir (SDB2.2). Öğretmen tarafından öğrencilerin çıkarımları doğrultusunda gerekli olabilecek tamamlayıcı açıklamalar yapılır.\nÖğrencilerin okudukları romanın üslup özelliklerini karşılaştırabilecekleri farklı türde bir metin seçilir. Bu metin ile romanın üslup özelliklerinin karşılaştırılması için edebiyat halkası (okuma çemberi) oluşturulur (SDB2.2). Öğrenciler bu etkinlikle roman ve öğretici metinlerin dil kullanımından kaynaklı üslup farklılıklarını anlamlandırır (KB3.3). Öğrencilerden üslup özelliklerini gösteren söz varlıklarını işlevi ve metindeki kullanım amacına göre T diyagramı ölçeği ile sınıflandırmaları istenir (SDB1.2). Böylelikle söz varlığının üslubun oluşumundaki etkisini fark etmeleri sağlanır. Öğrenciler, okudukları romanın kurgusu ile anlatıcının üslubunu oluşturan dilin kullanım ilişkisi üzerine görüşlerini belirtir. Bunun için öğrencilerin görüşlerini “beyin fırtınası” tekniğiyle serbestçe ifade edebilecekleri bir öğrenme ortamı oluşturulur (SDB2.1, E3.5, D11, OB1). Bu süreçte bir çalışma kâğıdı kullanılarak sonuçlar sistematik olarak değerlendirilir.\nTDE2.3\nOkunan romanın içeriğiyle ilgili ve roman türünün genel özelliklerine yönelik anlam oluşturulduktan sonra romanın çözümleme aşamasına geçilir (OB9). Çözümlemede romanın yapı unsurlarını oluşturan ögeler belirlenir. Bu yapı unsurlarıyla romanın dil ve anlatım özellikleri arasındaki ilişki tespit edilir. Romandaki olay, çatışma, kişi, mekân ve zamanla ilgili ögelerin romanın üslubunun oluşumundaki etkileri soru-cevap yöntemiyle ortaya konur. Gruplara ayrılan öğrencilerden romanın yapı unsurları (olay, kişi kadrosu, mekân, zaman) arasındaki ilişkiyi ve etkileşimi ortaya koymaları istenir (SDB2.2). Bunun için romanın yapı unsurlarının verildiği öğrenme merkezi etkinliği uygulanır. Böylece öğrencilerin romanın yapı unsurlarını oluşturan ögeleri (olay, kişi kadrosu, mekân, zaman) çözümlemeleri sağlanır.\nÖğrencilerden, elde ettikleri bilgilerden hareketle yazarın üslup seçimi ile ilgili çıkarımda bulunmaları istenir (SDB3.3). Bu doğrultuda romanın teması, yapı unsurları arasındaki etkileşim, dil ve anlatım özellikleri, yazıldığı dönem ve toplumsal normların ilişkisi gibi konuların üslupla ilişkisi kurulur. Bu süreçte açık uçlu sorularla değerlendirme yapılır. Dil ve anlatım özellikleri ele alınırken metinlerden seçilen kelimelerin şekil bilgisi özellikleri üzerine çalışmalar yaptırılır.\nTDE2.4\nÖğrenciler kendi aralarında gruplara ayrılır ve okudukları romandan iki karakter seçerek bunlar arasında geçen özgün bir diyalog oluşturur (SDB2.3, E3.3, KB2.20). Diyaloglar oluşturulduktan sonra öğrencilerin birbirlerini değerlendirmeleri için akran değerlendirme formları kullanılır (E3.10). Akran değerlendirme formlarında oluşturulan diyaloğun romanın kurgusuna, romandaki kişilerin kişilik özelliklerine, roman kişilerinin dil ve anlatım özelliklerine uygunluğu vb. ölçütler yer alır. Öğrenciler kendi öğrenme süreçlerini değerlendirmek amacıyla öğrenme günlüklerini doldurur (SDB1.2).\nOkuma bölümünde ara metin olarak tiyatro türünde bir eserin incelemesi yapılır. İncelenen tiyatro, özellikleri yönüyle temada tahlil edilen roman ile karşılaştırılır.\n• İkinci okuma metni olarak üslupla ilgili bir eleştiri metni verilir. Roman metnindeki benzer süreçler uygulamaya konur. Metin tahlili sürecinde türe özgü yapı ve üslup özellikleri dikkate alınarak gerekli farklılaştırmalar yapılır. Okuma bölümünde ara metin olarak tiyatro türünde bir eserin incelemesi yapılır. İncelenen tiyatro, özellikleri yönüyle temada tahlil edilen roman ile karşılaştırılır.",
+            "source_locator": "s. 92-94"
+          },
+          "edebiyat_atolyesi_anlatma_konusma": {
+            "verbatim": "TDE3.1\nÖğrencilere üsluba yönelik öğrendiklerinden hareketle sosyal medya dili ile edebî dilin özelliklerini karşılaştırdıkları bir sunum yapmalarına yönelik performans görevi verilir. Öğrencilerden performans görevleri için sınıf dışında hazırlık yapmaları istenir, performans görevi sınıfta gerçekleştirilir.\nÖğrencilere üsluba yönelik öğrendiklerinden hareketle sosyal medya dili ile edebî dilin özelliklerini karşılaştırdıkları bir sunum yapmalarına ilişkin bir performans görevi verilerek öğrencilerin konuşma becerilerini etkinleştirmeleri sağlanır.\nÖğrenciler gruplara ayrılır ve onlardan sosyal medya dilini edebî dilin özellikleri açısından değerlendiren etkileşimli bir sunum yapmaları istenir. Sunum esnasında öğrencilerden özverili davranmaları beklenir (D16). Amaca, hedef kitlenin özelliklerine, ortama, bağlama, zamana göre uygun konuşma stratejisine karar verilir. Sözlü anlatım ve etkileşimli sunum sırasında uygun üslup belirlenir; ses tonu ve beden dili anlam oluşturmak amacıyla kullanılır, nezaket kurallarına uygun hareket edilir (SDB2.1).\nTDE3.2\nGruplar tarafından konuşmanın içeriği oluşturulurken hazırlıklı konuşma süreciyle ilgili ön bilgiler dikkate alınarak bir sunum planı hazırlanır ve grubun konuşmacısı belirlenir (SDB2.2). Planlı olma ve grupla çalışmanın önemine değinilerek öğrencilerde çalışkanlık değeri desteklenir (D3).\nSunumun gerçekleştirileceği ortama, hedef kitlenin özelliklerine ve beklentilerine yönelik tahminlerde bulunularak konuşma metni hazırlanır. Konuşma metni hazırlanırken uygun söz varlığı seçimi, düşünceyi geliştirme yolları, dil yapılarında bağdaşıklık ve bağlaşıklık unsurlarının doğru kullanımı, verilmek istenen iletilerin nasıl yansıtılacağı hususlarına dikkat edilir. Sunumun içeriği oluşturulurken sosyal medya dili ile edebî dilin özellikleri karşılaştırılır. Karşılaştırma sonuçlarına göre elde edilen bilgiler, konuşma planına uygun şekilde sınıflandırılır (OB7).\nElde edilen bilgilere yönelik yorum ve değerlendirmeler yapılır (E3.10), konuşma planına uygun olarak düzenlenir. Sosyal medya dilinin edebî dilin özelliklerine göre değerlendirildiği, konuşma sırasında sesin ve beden dilinin ulaşılan yargıları desteklemek amacıyla etkili bir biçimde kullanıldığı, görsel ve işitsel ögelerin ön planda olduğu bir sunum hazırlanır. Bu süreçte dijital araçlardan yararlanılabilir (SDB1.2, OB2).\nTDE3.3\nKonuşma metni hazırlanırken uygun söz varlığı seçiminde düşünceyi geliştirme yolları, dil yapılarında eklerin ve bağlaşıklık ögelerinin uygun kullanımı ile verilmek istenen iletilerin nasıl yansıtılacağı hususlarına dikkat edilir.\nTDE3.4\nSunum aşamasının tüm süreci, hakkaniyetli (D1) ve dürüst (D6) bir tutum içerisinde öz değerlendirme ve akran değerlendirme formuyla değerlendirilir (SDB1.2). Değerlendirme ölçütleri olarak konuya uygunluk, özgünlük, seçilen dil yapıları, mekân ve zaman yönetimi, ses ve beden dilinin etkili kullanımı, görsel ve işitsel ögelerin kullanımı gibi ölçütler yer alır.\nSunum sürecindeki duygu, düşünce, davranışlar ile bunlara etki eden fiziksel (mekân, gürültü vb.), dilsel (söz varlığı, dil yapısı vb.), duyuşsal (ilgi alanı vb.) ve zihinsel etkenler gözden geçirilir; hatalar düzeltilir; uygun davranış, duygu ve düşünceler pekiştirilip sonraki konuşma etkinliklerinde kullanılmak özgün konuşmacı kimliği oluşturulur (E1.4, E3.7).",
+            "source_locator": "s. 94-95"
+          },
+          "metin_tahlili_anlama_dinleme_izleme": {
+            "verbatim": "TDE1.1\nÖğrencilere bir otobiyografi metni dinletilir/izletilir (SDB2.1). Otobiyografi metninin edebiyat alanında tanınmış bir kişiye ait olmasına özen gösterilir. Öğrenciler tarafından otobiyografi metnini tahlil etmek için kendilerine en uygun dinleme/izleme stratejileri belirlenir. Dinleme/izleme sürecinin amacına uygun şekilde yönetilebilmesi için gözlem formları oluşturulur.\nTDE1.2\nÖğrencilerin öğretici metinlerle ilgili ön bilgilerini kullanarak otobiyografi türünün genel özellikleriyle ilgili görüş oluşturması sağlanır. Otobiyografide geçen anlamı bilinmeyen kelimeler bağlamdan hareketle tahmin edilir. Öğrencilerden, izledikleri/dinledikleri otobiyografiden hareketle otobiyografi metinlerinin nasıl düzenlenebileceğiyle ilgili çıkarımlarını listelemesi istenir (OB1). Dinlenen/izlenen otobiyografi, daha önceki temalarda tahlil edilen öğretici metinlerle karşılaştırılarak ayırt edici özelliklerinin gösterildiği bir bilgi haritası oluşturulur (SDB1.2, KB2.7). Dinlenen/izlenen otobiyografi metninin üslubunu oluşturan söz varlığı metindeki işlevlerine göre sınıflandırılır. Söz varlığı unsurlarının metnin üslubuna katkılarına yönelik gerekçeli görüşler bildirilir (SDB3.3).\nTDE1.3\nOtobiyografide kullanılan anlatım biçimi, yöntem ve teknikleri açık uçlu sorularla belirlenir. Kullanılan anlatım biçimleri, yöntem ve teknikleri ile metnin üslubu arasında neden-sonuç ilişkisi kurularak bunlar arasındaki etkileşim ortaya konur. Çalışma kâğıdı ile değerlendirme yapılır.\nTDE1.4\nDinlenen/izlenen otobiyografide sorulan sorularla ilgili eleştiriler gerekçelendirilerek ifade edilir (SDB3.3). Otobiyografi metninin üslubuyla ilgili değerlendirme yapılır (E3.10). Metne otobiyografi metninin bağlamına uygun sorular eklenerek bunların öğrenciler tarafından kendi yorumları ve değerlendirmeleri çerçevesinde cevaplanması istenir. Etkinlik, öz değerlendirme formu ile değerlendirilir (SDB1.2, E3.11, E3.3, E3.8).",
+            "source_locator": "s. 95-96"
+          },
+          "edebiyat_atolyesi_anlatma_yazma": {
+            "verbatim": "TDE4.1\nÖğrencilere otobiyografilerini oluşturmaya yönelik bir performans görevi verilir. Performans görevi sınıf içinde gerçekleştirilir.\nÖğrencilere otobiyografilerini estetik bakış açısıyla yazmaları için bir performans görevi verilir ve böylece yazma becerilerini aktif kullanmaları sağlanmış olur.\nÖğrencilerden otobiyografilerini estetik bakış açısıyla yazmaları istenir (D7). Otobiyografi yazımıyla ilgili temel bilgiler beyin fırtınası yöntemiyle ortaya konur (SDB2.1). Belirlenen yazma amacı doğrultusunda uygun yazma yöntem ve stratejileri belirlenir. Yazma sürecinin tüm aşamalarının başarılı bir şekilde uygulanabilmesi için kontrol listesi hazırlanır. Bu liste ile öğrencilerin yazma sürecini nasıl yönettiğiyle ilgili değerlendirmeler yapılır ve öz düzenleme becerilerinin desteklenmesi sağlanır (E2.2).\nTDE4.2\nOtobiyografi oluştururken yazmayla ilgili daha önce edinilen bilgi ve becerilerden yararlanılır. Yazılacak metnin okur üzerindeki etkilerine yönelik tahmin yürütülerek yazma eylemi sürdürülür. Anlatıcısı değiştikten sonra esas metin ile yeniden yazılan metin bağlama uygunluk yönüyle karşılaştırılır.\nElde edilen sonuçlar bağlama uygunluk, dil ve anlatım özelliği, etkileyicilik, tutarlılık, özgünlük vb. belirlenen ölçütlere göre sınıflandırılır ve yorumlanır. Yazılan otobiyografi okunur, değerlendirilir ve gerekli düzeltmeler yapılır. Oluşturulan otobiyografiyi zenginleştirmek için görsel ögelerden yararlanılır. Öğrenciler görsellere dijital araçlar kullanarak ulaşabilir (OB2). Görseller araştırılırken fikrî mülkiyet haklarına uygun hareket edilmesi konusunda öğrencilere farkındalık kazandırılır. Yazılan metin sınıf panosunda, okul gazetesinde veya genel ağdaki güvenilir ortamlarda paylaşılır.\nTDE4.3\nBelirlenen amaca yönelik otobiyografi oluşturulurken uygun söz varlığı seçmeye ve dil yapılarını doğru kullanmaya, bağdaşıklık ögelerine, yazım ve noktalama kurallarına uymaya özen gösterilir. Hazırlanan otobiyografide anlatım bozuklukları varsa tespit edilir, bunların sebepleri tartışılır, anlatımı düzeltmek için ne yapılması gerektiği belirlenir.\nYazılacak otobiyografi türüne ve yazma amacına göre farklı anlatım biçimleri ve düşünceyi geliştirme yolları kullanılır, verilmek istenen iletiler açık veya örtük şekilde ifade edilir (E3.11).\nTDE4.4\nYazma çalışmalarında ortaya çıkan ürünlere yönelik öz değerlendirme ve akran değerlendirmesi yapılır (SDB1.2). Bu formların içeriğinde yazma becerisinin kural uygulama aşamasında belirlenen ölçütlerin yanı sıra gerçeklik, yaratıcılık gibi yazma ürünlerine değer katan unsurlara yer verilir.\nSüreçte karşılaşılan zorluklara ilişkin bir liste oluşturulur. Sonraki yazma çalışmalarında bunlarla ilgili hataların düzeltilmesi için neler yapılabileceği üzerine fikir yürütülür (SDB3.1). Yazma sürecindeki olumlu davranışlar pekiştirilir.",
+            "source_locator": "s. 96-97"
+          },
+          "tema_sonu_degerlendirme": {
+            "verbatim": "Temanın sonunda öğrencilerin çıkış kartı yazmaları sağlanır. Bu kartta edebî dil ile günlük dil arasındaki farka odaklanarak okunan metinlerde dilin nasıl kullanıldığıyla ilgili çıkarımda bulunmaları istenir. Ayrıca öğrenme süreçlerine ilişkin ön yansıtma yapmaları sağlanır.",
+            "source_locator": "s. 97"
+          }
+        }
+      },
+      "farklilastirma": {
+        "zenginlestirme": {
+          "verbatim": "Öğrencilerden tahlil edilen romanın kurgusundan hareketle yeni bir olay örgüsü oluşturmaları veya kendi otobiyografilerini film şeridi hâline getirmeleri istenebilir. Film şeridi dijital araçlar kullanılarak hazırlanabilir. Konuşma etkinliği olarak farklı üslup özelliklerini bir arada yansıtan diyaloglar yazılabilir ve öğrencilerin bu diyalogları işletebilecekleri yaratıcı drama etkinliği düzenlenebilir.\n*Aynı dönemde yaşamış iki yazara ait birer eser (birkaç eser) seçmesi, bu eserlerden yola çıkarak yazarların üslup farklılığını ortaya koyan bir çalışma (poster, sunu, eleştiri yazısı vb.) yapması ve bunu paylaşması istenebilir.",
+          "source_locator": "s. 97"
+        },
+        "destekleme": {
+          "verbatim": "Öğrenme sürecinde öğrencilerden okudukları romandaki beğendikleri bir kişiyle ilgili düşüncelerini yazılı olarak ifade etmeleri istenir. Romanın üslubuyla ilgili bir çalışma kâğıdı verilerek bunu doldurmaları istenir.",
+          "source_locator": "s. 97"
+        }
+      },
+      "ogretmen_yansitmalari": {
+        "verbatim": "Programa yönelik görüş ve öneriniz için karekodu akıllı cihazınıza okutunuz.",
+        "source_locator": "s. 97"
+      },
+      "learning_outcomes": [
+        {
+          "outcome_id": "TDE9_T4_D1",
+          "outcome_code": "TDE1.1",
+          "skill_category": "Metin Tahlili (Anlama) - Dinleme/İzleme",
+          "outcome_verbatim": "TDE1.1. “Dilin Zenginliği” temasında ele alınan metinlerde dinlemeyi/izlemeyi yönetebilme",
+          "source_page": 90,
+          "source_locator": "s. 90",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "SDB2.1"
+          ],
+          "assessment_requirement_verbatim": "Dinleme/izleme sürecinin amacına uygun şekilde yönetilebilmesi için gözlem formları oluşturulur.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T4_D2",
+          "outcome_code": "TDE1.2",
+          "skill_category": "Metin Tahlili (Anlama) - Dinleme/İzleme",
+          "outcome_verbatim": "TDE1.2. “Dilin Zenginliği” temasında ele alınan metinlerde anlam oluşturabilme",
+          "source_page": 90,
+          "source_locator": "s. 90",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "OB1",
+            "SDB1.2",
+            "KB2.7",
+            "SDB3.3"
+          ],
+          "assessment_requirement_verbatim": "bilgi kartları, bilgi haritası.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T4_D3",
+          "outcome_code": "TDE1.3",
+          "skill_category": "Metin Tahlili (Anlama) - Dinleme/İzleme",
+          "outcome_verbatim": "TDE1.3. “Dilin Zenginliği” temasında ele alınan metinleri çözümleyebilme",
+          "source_page": 90,
+          "source_locator": "s. 90",
+          "process_components_verbatim": [],
+          "related_official_codes": [],
+          "assessment_requirement_verbatim": "Otobiyografide kullanılan anlatım biçimi, yöntem ve teknikleri açık uçlu sorularla belirlenir... Çalışma kâğıdı ile değerlendirme yapılır.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T4_D4",
+          "outcome_code": "TDE1.4",
+          "skill_category": "Metin Tahlili (Anlama) - Dinleme/İzleme",
+          "outcome_verbatim": "TDE1.4. “Dilin Zenginliği” temasında ele alınan metinlere yönelik değerlendirmelerini yansıtabilme",
+          "source_page": 90,
+          "source_locator": "s. 90",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "SDB3.3",
+            "E3.10",
+            "SDB1.2",
+            "E3.11",
+            "E3.3",
+            "E3.8"
+          ],
+          "assessment_requirement_verbatim": "Etkinlik, öz değerlendirme formu ile değerlendirilir.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T4_O1",
+          "outcome_code": "TDE2.1",
+          "skill_category": "Metin Tahlili (Anlama) - Okuma",
+          "outcome_verbatim": "TDE2.1. “Dilin Zenginliği” temasında ele alınan metinlerde okumayı yönetebilme",
+          "source_page": 90,
+          "source_locator": "s. 90",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "SDB2.1",
+            "SDB2.3"
+          ],
+          "assessment_requirement_verbatim": "açık uçlu sorular sorulabilir, kontrol listesi tutulabilir.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T4_O2",
+          "outcome_code": "TDE2.2",
+          "skill_category": "Metin Tahlili (Anlama) - Okuma",
+          "outcome_verbatim": "TDE2.2. “Dilin Zenginliği” temasında ele alınan metinlerde anlam oluşturabilme",
+          "source_page": 90,
+          "source_locator": "s. 90",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "SDB1.2",
+            "OB2",
+            "SDB2.2",
+            "KB2.10",
+            "KB3.3",
+            "SDB2.1",
+            "E3.5",
+            "D11",
+            "OB1"
+          ],
+          "assessment_requirement_verbatim": "öğrenme duvarı, T diyagramı, beyin fırtınası, çalışma kâğıdı.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T4_O3",
+          "outcome_code": "TDE2.3",
+          "skill_category": "Metin Tahlili (Anlama) - Okuma",
+          "outcome_verbatim": "TDE2.3. “Dilin Zenginliği” temasında ele alınan metinleri çözümleyebilme",
+          "source_page": 90,
+          "source_locator": "s. 90",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "OB9",
+            "SDB2.2",
+            "SDB3.3"
+          ],
+          "assessment_requirement_verbatim": "açık uçlu sorularla değerlendirme yapılır.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T4_O4",
+          "outcome_code": "TDE2.4",
+          "skill_category": "Metin Tahlili (Anlama) - Okuma",
+          "outcome_verbatim": "TDE2.4. “Dilin Zenginliği” temasında ele alınan metinlere yönelik değerlendirmelerini yansıtabilme",
+          "source_page": 90,
+          "source_locator": "s. 90",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "SDB2.3",
+            "E3.3",
+            "KB2.20",
+            "E3.10",
+            "SDB1.2"
+          ],
+          "assessment_requirement_verbatim": "akran değerlendirme formları kullanılır. Öğrenciler kendi öğrenme süreçlerini değerlendirmek amacıyla öğrenme günlüklerini doldurur.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T4_K1",
+          "outcome_code": "TDE3.1",
+          "skill_category": "Edebiyat Atölyesi (Anlatma) - Konuşma",
+          "outcome_verbatim": "TDE3.1. Dilin zenginliğini kullandığı akıcı bir konuşma sürecini yönetebilme",
+          "source_page": 90,
+          "source_locator": "s. 90",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "D16",
+            "SDB2.1"
+          ],
+          "assessment_requirement_verbatim": "Öğrencilere üsluba yönelik öğrendiklerinden hareketle sosyal medya dili ile edebî dilin özelliklerini karşılaştırdıkları bir sunum yapmalarına yönelik performans görevi verilir.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T4_K2",
+          "outcome_code": "TDE3.2",
+          "skill_category": "Edebiyat Atölyesi (Anlatma) - Konuşma",
+          "outcome_verbatim": "TDE3.2. Konusunu dilin zenginliğinden yararlanarak oluşturduğu konuşma içeriğini oluşturabilme",
+          "source_page": 90,
+          "source_locator": "s. 90",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "SDB2.2",
+            "D3",
+            "OB7",
+            "E3.10",
+            "SDB1.2",
+            "OB2"
+          ],
+          "assessment_requirement_verbatim": "Sunum performansı, dereceli puanlama anahtarı ile puanlanır. Puanlama anahtarında içeriğe uygunluk, özgünlük, sunum becerisi, görsel ögeleri kullanma, zaman ve mekân kullanımı, beden dili ile jest ve mimik kullanımı gibi ölçütler yer alır.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T4_K3",
+          "outcome_code": "TDE3.3",
+          "skill_category": "Edebiyat Atölyesi (Anlatma) - Konuşma",
+          "outcome_verbatim": "TDE3.3. Konusunu dilin zenginliğinden yararlanarak oluşturduğu konuşmasında kural uygulayabilme",
+          "source_page": 90,
+          "source_locator": "s. 90",
+          "process_components_verbatim": [],
+          "related_official_codes": [],
+          "assessment_requirement_verbatim": "Dereceli puanlama anahtarı.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T4_K4",
+          "outcome_code": "TDE3.4",
+          "skill_category": "Edebiyat Atölyesi (Anlatma) - Konuşma",
+          "outcome_verbatim": "TDE3.4. Kullandığı dil özelliklerinin konuşmasına etkisine yönelik değerlendirmelerini yansıtabilme",
+          "source_page": 90,
+          "source_locator": "s. 90",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "D1",
+            "D6",
+            "SDB1.2",
+            "E1.4",
+            "E3.7"
+          ],
+          "assessment_requirement_verbatim": "Sunum aşamasının tüm süreci, hakkaniyetli (D1) ve dürüst (D6) bir tutum içerisinde öz değerlendirme ve akran değerlendirme formuyla değerlendirilir.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T4_Y1",
+          "outcome_code": "TDE4.1",
+          "skill_category": "Edebiyat Atölyesi (Anlatma) - Yazma",
+          "outcome_verbatim": "TDE4.1. Öz yaşam öyküsünü oluşturabilmek için bir yazılı anlatım sürecini yönetebilme",
+          "source_page": 90,
+          "source_locator": "s. 90",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "D7",
+            "SDB2.1",
+            "E2.2"
+          ],
+          "assessment_requirement_verbatim": "Öğrencilere otobiyografilerini oluşturmaya yönelik bir performans görevi verilir. Yazma sürecinin tüm aşamalarının başarılı bir şekilde uygulanabilmesi için kontrol listesi hazırlanır.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T4_Y2",
+          "outcome_code": "TDE4.2",
+          "skill_category": "Edebiyat Atölyesi (Anlatma) - Yazma",
+          "outcome_verbatim": "TDE4.2. Öz yaşam öyküsünü aktarmak için kendi üslup özelliklerini yansıtan bir yazılı anlatım içeriği oluşturabilme",
+          "source_page": 90,
+          "source_locator": "s. 90",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "OB2"
+          ],
+          "assessment_requirement_verbatim": "Değerlendirmede dereceli puanlama anahtarı kullanılır. Puanlama anahtarında yazılı anlatımlar; bağlama uygunluk, dil ve anlatım özelliği, etkileyicilik, gerçeklik, tutarlılık, özgünlük gibi ölçütler bağlamında değerlendirilir.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T4_Y3",
+          "outcome_code": "TDE4.3",
+          "skill_category": "Edebiyat Atölyesi (Anlatma) - Yazma",
+          "outcome_verbatim": "TDE4.3. Öz yaşam öyküsünü aktarmak için kendi üslup özelliklerini yansıtan yazısında kural uygulayabilme",
+          "source_page": 90,
+          "source_locator": "s. 90",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "E3.11"
+          ],
+          "assessment_requirement_verbatim": "Dereceli puanlama anahtarı.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        },
+        {
+          "outcome_id": "TDE9_T4_Y4",
+          "outcome_code": "TDE4.4",
+          "skill_category": "Edebiyat Atölyesi (Anlatma) - Yazma",
+          "outcome_verbatim": "TDE4.4. Yazısına yönelik değerlendirmelerini üslup ve diğer yazma unsurları bağlamında yansıtabilme",
+          "source_page": 90,
+          "source_locator": "s. 90",
+          "process_components_verbatim": [],
+          "related_official_codes": [
+            "SDB1.2",
+            "SDB3.1"
+          ],
+          "assessment_requirement_verbatim": "Yazma çalışmalarında ortaya çıkan ürünlere yönelik öz değerlendirme ve akran değerlendirmesi yapılır (SDB1.2). Bu formların içeriğinde yazma becerisinin kural uygulama aşamasında belirlenen ölçütlerin yanı sıra gerçeklik, yaratıcılık gibi yazma ürünlerine değer katan unsurlara yer verilir.",
+          "verification_status": "VERIFIED",
+          "origin": "official_curriculum"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_9",
+  "grade": 9,
+  "course_title": "Türk Dili ve Edebiyatı",
+  "academic_year": null,
+  "audit_date": "2026-08-14",
+  "audit_scope": "4 Bağımsız Tema Hizalama ve İhtiyaç Analizi Sonuçlarının Çapraz Tutarlılık, Bütünlük ve Üretim Öncesi Doğrulama Denetimi",
+  "summary_metrics": {
+    "total_themes": 4,
+    "total_learning_outcomes": 54,
+    "total_covered": 45,
+    "total_partially_covered": 9,
+    "total_not_covered": 0,
+    "theme_coverage_summary": {
+      "TEMA_01": {
+        "title": "1. TEMA: SÖZÜN İNCELİĞİ",
+        "total_outcomes": 12,
+        "covered": 12,
+        "partially_covered": 0,
+        "not_covered": 0
+      },
+      "TEMA_02": {
+        "title": "2. TEMA: ANLAM ARAYIŞI",
+        "total_outcomes": 12,
+        "covered": 10,
+        "partially_covered": 2,
+        "not_covered": 0
+      },
+      "TEMA_03": {
+        "title": "3. TEMA: ANLAMIN YAPI TAŞLARI",
+        "total_outcomes": 14,
+        "covered": 12,
+        "partially_covered": 2,
+        "not_covered": 0
+      },
+      "TEMA_04": {
+        "title": "4. TEMA: DİLİN ZENGİNLİĞİ",
+        "total_outcomes": 16,
+        "covered": 11,
+        "partially_covered": 5,
+        "not_covered": 0
+      }
+    },
+    "raw_resource_plans_count": 50,
+    "deduplicated_unique_resources_count": 50,
+    "required_unique_resources_count": 7,
+    "recommended_resources_count": 4,
+    "optional_resources_count": 3,
+    "not_needed_resources_count": 36,
+    "production_manifest_materials_count": 7,
+    "teaching_blocks_count": 16,
+    "cross_theme_inconsistency_count": 0,
+    "unresolved_count": 0,
+    "structural_integrity_qa": "PASS",
+    "semantic_source_qa": "PASS",
+    "production_readiness": "PASS"
+  },
+  "consistency_audit_results": {
+    "check_1_coverage_vs_remaining_gap": {
+      "status": "PASS",
+      "findings": "Tüm 54 öğrenme çıktısında 'primary_coverage' (veya 'coverage_decision') ile 'remaining_gap' arasında %100 mantıksal ve operasyonel tutarlılık saptanmıştır. COVERED çıktılarda boşluk 'NONE' / 'Yok' olarak işaretlenmiş; PARTIALLY_COVERED olan 9 çıktıda ise programın dereceli puanlama anahtarı ve yazma süreci kontrol listesi gereksinimleri somut ders kitabı ve program sayfa locator'ları ile açıkça tanımlanmıştır."
+    },
+    "check_2_priority_vs_production_decision": {
+      "status": "PASS",
+      "findings": "Öncelik (priority) ile üretim kararı (production_decision) eşleşmesi kusursuzdur. Tüm REQUIRED (7 adet) kaynaklar doğrudan 'GENERATE_ASSESSMENT_SUPPORT' kararıyla yetkilendirilmiştir. RECOMMENDED (4 adet) ve OPTIONAL (3 adet) kaynaklar üretim manifestosu dışında tutulup consolidated planda izlenmektedir. 36 adet NOT_NEEDED kaynak ise doğrudan 'REUSE_TEXTBOOK' kararına bağlanmıştır."
+    },
+    "check_3_assessment_structure_and_rubric_interpretation": {
+      "status": "PASS",
+      "findings": "Ders kitabındaki 28 değerlendirme aracı dondurulmuş canonical şemaya uygun olarak 7 temel yapısal türe ('self_assessment_form': 8, 'assessment_criteria_table': 8, 'learning_journal': 4, 'test_question_set': 4, 'peer_assessment_form': 2, 'teacher_evaluation_form': 1, 'observation_form': 1) göre ve başlığına değil yapısal özelliklerine (düzey betimleyicileri, puanlama matrisi) bakılarak doğru sınıflandırılmıştır. Ders kitabında yapısal 'analytic_rubric' bulunmadığı teyit edilmiştir. Programdaki 'dereceli puanlama anahtarı' resmî ifadesi kelimesi kelimesine korunmuş, 'analytic_rubric' nitelemesi ise seçilen pedagojik uygulama formatı (selected_implementation) olarak ayrılmıştır."
+    },
+    "check_4_textbook_first_and_anti_duplication": {
+      "status": "PASS",
+      "findings": "Ders kitabında mevcut hiçbir öğrenci etkinliği, okuma metni, öz değerlendirme formu (s. 302-309), akran değerlendirme formu (s. 310-311) veya öğretmen gözlem formu (s. 312) gereksiz yere yeniden üretim kuyruğuna alınmamıştır. Tüm kitap içi kaynaklar REUSE_TEXTBOOK statüsünde tescil edilmiştir."
+    },
+    "check_5_priority_boundaries": {
+      "status": "PASS",
+      "findings": "REQUIRED, RECOMMENDED ve OPTIONAL kategorileri birbirine karıştırılmamış, otomatik üretim manifestosuna yalnızca zorunlu necessity testini geçen 7 REQUIRED materyal dahil edilmiştir."
+    }
+  },
+  "theme_alignment_details": [
+    {
+      "theme_id": "TEMA_01",
+      "theme_no": 1,
+      "title": "1. TEMA: SÖZÜN İNCELİĞİ",
+      "curriculum_locator": "s. 65-72",
+      "textbook_locator": "s. 12-71 (PDF: 13-72)",
+      "total_outcomes": 12,
+      "coverage_counts": {
+        "COVERED": 12,
+        "PARTIALLY_COVERED": 0,
+        "NOT_COVERED": 0
+      },
+      "production_summary": {
+        "REQUIRED": 0,
+        "RECOMMENDED": 0,
+        "OPTIONAL": 0,
+        "NOT_NEEDED": 12
+      },
+      "pedagogical_notes": "Tema 1 hizalamasında ders kitabının ölçüt tabloları (s. 54, 65) ve kitap sonu ortak değerlendirme formları (s. 302, 303, 310, 312) başlangıç kapsamasını karşılar kabul edilmiştir. Dondurulmuş haritalar ve tema kararları kural gereği değiştirilmemiştir."
+    },
+    {
+      "theme_id": "TEMA_02",
+      "theme_no": 2,
+      "title": "2. TEMA: ANLAM ARAYIŞI",
+      "curriculum_locator": "s. 73-79",
+      "textbook_locator": "s. 72-143 (PDF: 73-144)",
+      "total_outcomes": 12,
+      "coverage_counts": {
+        "COVERED": 10,
+        "PARTIALLY_COVERED": 2,
+        "NOT_COVERED": 0
+      },
+      "production_summary": {
+        "REQUIRED": 2,
+        "RECOMMENDED": 3,
+        "OPTIONAL": 2,
+        "NOT_NEEDED": 9
+      },
+      "pedagogical_notes": "TDE3.4 (konuşma/sunum) ve TDE4.4 (şiir yazma) çıktılarında resmî programın 'dereceli puanlama anahtarı' zorunluluğu için kitapta analitik rubrik bulunmadığından 2 adet REQUIRED ölçme desteği (RES_T2_08, RES_T2_12) planlanmıştır."
+    },
+    {
+      "theme_id": "TEMA_03",
+      "theme_no": 3,
+      "title": "3. TEMA: ANLAMIN YAPI TAŞLARI",
+      "curriculum_locator": "s. 80-88",
+      "textbook_locator": "s. 144-219 (PDF: 145-220)",
+      "total_outcomes": 14,
+      "coverage_counts": {
+        "COVERED": 12,
+        "PARTIALLY_COVERED": 2,
+        "NOT_COVERED": 0
+      },
+      "production_summary": {
+        "REQUIRED": 2,
+        "RECOMMENDED": 0,
+        "OPTIONAL": 0,
+        "NOT_NEEDED": 4
+      },
+      "pedagogical_notes": "TDE3.4 (kültür sunumu) ve TDE4.4 (infografik metin yazma) çıktılarında resmî programın 'dereceli puanlama anahtarı' zorunluluğu için kitapta analitik rubrik bulunmadığından 2 adet REQUIRED ölçme desteği (RES_T3_05_KONUSMA_RUBRIC, RES_T3_06_YAZMA_RUBRIC) planlanmıştır."
+    },
+    {
+      "theme_id": "TEMA_04",
+      "theme_no": 4,
+      "title": "4. TEMA: DİLİN ZENGİNLİĞİ",
+      "curriculum_locator": "s. 89-97",
+      "textbook_locator": "s. 220-301 (PDF: 221-302)",
+      "total_outcomes": 16,
+      "coverage_counts": {
+        "COVERED": 11,
+        "PARTIALLY_COVERED": 5,
+        "NOT_COVERED": 0
+      },
+      "production_summary": {
+        "REQUIRED": 3,
+        "RECOMMENDED": 1,
+        "OPTIONAL": 1,
+        "NOT_NEEDED": 11
+      },
+      "pedagogical_notes": "TDE3.2/3.3 (sosyal medya-edebî dil sunumu rubriği), TDE4.1 (otobiyografi yazma süreci kontrol listesi) ve TDE4.2/4.3 (otobiyografi yazma rubriği) için 3 adet REQUIRED ölçme desteği (RES_T4_SHARED_KONUSMA_RUBRIC, RES_T4_YAZMA_SUREC_KONTROL_LISTESI, RES_T4_SHARED_YAZMA_RUBRIC) planlanmıştır."
+    }
+  ]
+}

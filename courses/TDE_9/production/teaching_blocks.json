@@ -1,0 +1,611 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_9",
+  "grade": 9,
+  "course_title": "Türk Dili ve Edebiyatı",
+  "academic_year": null,
+  "summary": {
+    "total_teaching_blocks": 16,
+    "blocks_per_theme": {
+      "TEMA_01": 4,
+      "TEMA_02": 4,
+      "TEMA_03": 4,
+      "TEMA_04": 4
+    },
+    "official_theme_hours": 45,
+    "structured_program_hours": 43,
+    "school_based_planning_hours": 2,
+    "annual_hours": {
+      "structured_program": 172,
+      "school_based_planning": 8,
+      "official_total": 180
+    },
+    "block_lesson_hours_status": "UNSPECIFIED_BY_SOURCE",
+    "official_theme_allocated_hours": "43 saat (Anlama: 23 / Anlatma: 20)",
+    "lesson_hours_policy": "Tema toplamları (43 saat yapılandırılmış + 2 saat okul temelli = 45 saat) ve yıllık planlama (172 + 8 = 180 saat) resmî kaynaktan korunmuş; resmî kaynakça desteklenmeyen alt pedagojik blok saat tahminleri kaldırılmıştır.",
+    "school_based_planning_options_ref": "knowledge/TDE_9/production/school_based_planning_options.json"
+  },
+  "blocks": [
+    {
+      "block_id": "BLOCK_T1_01_OKUMA",
+      "theme_id": "TEMA_01",
+      "title": "1. Tema Okuma Bloğu: Şiir ve Deneme Metin Tahlili",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE2.1",
+        "TDE2.2"
+      ],
+      "textbook_sections": [
+        "T1_SEC_01_OKUMA_SIIR",
+        "T1_SEC_02_OKUMA_DENEME"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_01_OKUMA_ONCESI_SIIR",
+        "T1_ACT_02_OKUMA_SIRASI_SIIR",
+        "T1_ACT_03_OKUMA_SONRASI_SIIR_ANLAMA",
+        "T1_ACT_04_GUZEL_SANATLAR_DISIPLINLER",
+        "T1_ACT_05_DIL_BILGISI_SES_BILGISI",
+        "T1_ACT_06_KONTROL_NOKTASI_SIIR",
+        "T1_ACT_07_OKUMA_ONCESI_DENEME",
+        "T1_ACT_08_OKUMA_SONRASI_DENEME_TAHLIL"
+      ],
+      "textbook_form_ids": [
+        "FORM_IN_T1_OGRENME_GUNLUGU"
+      ],
+      "expected_student_actions": "San'at şiirini ve Picasso'nun Hatları denemesini okuma öncesi, sırası ve sonrasında tahlil etme; açık ve örtük iletileri saptama, zihin haritası oluşturma, edebiyat-sanat-bilim ilişkisini tahlil etme, ses olaylarını metinden tespit etme.",
+      "expected_student_evidence": "Ders kitabı s. 16-37 ve s. 39-50'deki zihin haritaları, tahlil soruları cevapları, ses bilgisi uygulama tabloları ve kontrol noktası işaretlemeleri.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 1,
+      "prerequisite_block_ids": [],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T1_02_DINLEME",
+      "theme_id": "TEMA_01",
+      "title": "1. Tema Dinleme/İzleme Bloğu: Mülakat Dinleme/İzleme ve Karşılaştırma",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE1.1",
+        "TDE1.2"
+      ],
+      "textbook_sections": [
+        "T1_SEC_04_DINLEME_IZLEME"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_11_DINLEME_ONCESI_VE_SIRASI",
+        "T1_ACT_12_DINLEME_SONRASI_KARSILASTIRMA"
+      ],
+      "textbook_form_ids": [],
+      "expected_student_actions": "Selim İleri ile yapılan mülakat videosunu karekoddan izleme, hazırlık sorularını yanıtlama, not alma, anlama-çözümleme sorularını yanıtlama ve edebî dil ile günlük dil özelliklerini karşılaştıran tabloyu doldurma.",
+      "expected_student_evidence": "Ders kitabı s. 57-62'deki mülakat izleme notları, tahlil soruları cevapları ve karşılaştırma tablosu.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 2,
+      "prerequisite_block_ids": [
+        "BLOCK_T1_01_OKUMA"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T1_03_YAZMA",
+      "theme_id": "TEMA_01",
+      "title": "1. Tema Yazma Atölyesi Bloğu: Şiirden Betimleyici Paragrafa Dönüştürme",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE4.1",
+        "TDE4.2",
+        "TDE4.3",
+        "TDE4.4"
+      ],
+      "textbook_sections": [
+        "T1_SEC_03_YAZMA_ATOLYESI"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_09_YAZMA_SIRASI",
+        "T1_ACT_10_YAZMA_SONRASI"
+      ],
+      "textbook_form_ids": [
+        "FORM_IN_T1_YAZMA_CRITERIA",
+        "FORM_BOB_01_T1_YAZMA_OZ",
+        "FORM_BOB_09_T1_T2_AKRAN",
+        "FORM_BOB_11_GENEL_GOZLEM"
+      ],
+      "expected_student_actions": "Şiirin şekil unsurlarını ve ana duygusunu inceleyerek betimleyici paragraf planı hazırlama, taslak oluşturma, imla-noktalama kurallarına göre metni düzeltme, formu doldurma ve ürünü tamamlama.",
+      "expected_student_evidence": "Ders kitabı s. 51-55'teki betimleyici paragraf taslağı, düzeltilmiş son metin ve doldurulmuş s. 302, 310, 312 formları.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 3,
+      "prerequisite_block_ids": [
+        "BLOCK_T1_01_OKUMA"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T1_04_KONUSMA",
+      "theme_id": "TEMA_01",
+      "title": "1. Tema Konuşma Atölyesi ve Tema Değerlendirme Bloğu: Altı Şapka Tekniği ile Sunum",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE3.1",
+        "TDE3.2",
+        "TDE3.3",
+        "TDE3.4"
+      ],
+      "textbook_sections": [
+        "T1_SEC_05_KONUSMA_ATOLYESI",
+        "T1_SEC_06_TEMA_SONU_DEGERLENDIRME"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_13_KONUSMA_SIRASI",
+        "T1_ACT_14_KONUSMA_SONRASI",
+        "T1_ACT_15_TEMA_SONU_OLCME",
+        "T1_ACT_16_OGRENME_GUNLUGU"
+      ],
+      "textbook_form_ids": [
+        "FORM_IN_T1_KONUSMA_CRITERIA",
+        "FORM_BOB_02_T1_KONUSMA_OZ",
+        "FORM_BOB_09_T1_T2_AKRAN",
+        "FORM_BOB_11_GENEL_GOZLEM",
+        "FORM_IN_T1_TEMA_SONU_TEST",
+        "FORM_IN_T1_OGRENME_GUNLUGU"
+      ],
+      "expected_student_actions": "Altı şapkalı düşünme tekniğine göre grup konuşması hazırlama, sınıf önünde sunma, öz/akran değerlendirmesi yapma, tema sonu ölçme sorularını yanıtlama ve öğrenme günlüğünü doldurma.",
+      "expected_student_evidence": "Grup sunum performansı, doldurulmuş s. 303, 310, 312 formları, s. 67-70 tema sonu test cevapları ve s. 71 öğrenme günlüğü.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 4,
+      "prerequisite_block_ids": [
+        "BLOCK_T1_01_OKUMA",
+        "BLOCK_T1_02_DINLEME"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T2_01_OKUMA",
+      "theme_id": "TEMA_02",
+      "title": "2. Tema Okuma Bloğu: Hikâye ve Anı Metin Tahlili",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE2.1",
+        "TDE2.2"
+      ],
+      "textbook_sections": [
+        "T2_SEC_01_OKUMA_HIKAYE",
+        "T2_SEC_02_OKUMA_ANI"
+      ],
+      "textbook_activity_ids": [
+        "T2_ACT_01_OKUMA_ONCESI_HIKAYE",
+        "T2_ACT_02_OKUMA_SIRASI_HIKAYE",
+        "T2_ACT_03_OKUMA_SONRASI_HIKAYE_TAHLIL",
+        "T2_ACT_04_KONTROL_NOKTASI_HIKAYE",
+        "T2_ACT_05_OKUMA_ONCESI_ANI",
+        "T2_ACT_06_OKUMA_SONRASI_ANI_TAHLIL",
+        "T2_ACT_07_KONTROL_NOKTASI_ANI"
+      ],
+      "textbook_form_ids": [],
+      "expected_student_actions": "Tarık Buğra'nın Bir Kavak ve İnsanlar hikâyesi ile Halide Nusret Zorlutuna'nın Bir Devrin Romanı anı metnini okuma öncesi, sırası ve sonrasında tahlil etme; olay örgüsü, şahıs kadrosu, zaman-mekân ve dönem zihniyetini çözümleme.",
+      "expected_student_evidence": "Ders kitabı s. 75-124'teki metin tahlili soruları cevapları, zihniyet tablosu ve kontrol noktası işaretlemeleri.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [
+        "RES_T2_13",
+        "RES_T2_14"
+      ],
+      "optional_resource_ids": [
+        "RES_T2_16"
+      ],
+      "block_sequence": 1,
+      "prerequisite_block_ids": [],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T2_02_KONUSMA",
+      "theme_id": "TEMA_02",
+      "title": "2. Tema Konuşma Atölyesi Bloğu: Şiir Dinletisi ve Hazırlıklı Sunum",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE3.1",
+        "TDE3.2",
+        "TDE3.3",
+        "TDE3.4"
+      ],
+      "textbook_sections": [
+        "T2_SEC_03_KONUSMA_ATOLYESI"
+      ],
+      "textbook_activity_ids": [
+        "T2_ACT_08_KONUSMA_SIRASI",
+        "T2_ACT_09_KONUSMA_SONRASI"
+      ],
+      "textbook_form_ids": [
+        "FORM_IN_T2_KONUSMA_CRITERIA",
+        "FORM_BOB_04_T2_KONUSMA_OZ",
+        "FORM_BOB_09_T1_T2_AKRAN",
+        "FORM_BOB_11_GENEL_GOZLEM"
+      ],
+      "expected_student_actions": "Edebî metinlerden hareketle hazırlıklı konuşma / şiir dinletisi planlama, konuşma sunumunu gerçekleştirme, öz/akran değerlendirmesi yapma ve öğretmen analitik rubriği üzerinden geri bildirim alma.",
+      "expected_student_evidence": "Sınıf içi sözlü sunum performansı, doldurulmuş s. 305, 310, 312 formları ve öğretmenin doldurduğu Analitik Dereceli Puanlama Anahtarı (RES_T2_08).",
+      "required_resource_ids": [
+        "RES_T2_08"
+      ],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 2,
+      "prerequisite_block_ids": [
+        "BLOCK_T2_01_OKUMA"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T2_03_DINLEME",
+      "theme_id": "TEMA_02",
+      "title": "2. Tema Dinleme/İzleme Bloğu: Mihriban Şiiri ve Karakoç Ses Kaydı Tahlili",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE1.1",
+        "TDE1.2"
+      ],
+      "textbook_sections": [
+        "T2_SEC_04_DINLEME_IZLEME"
+      ],
+      "textbook_activity_ids": [
+        "T2_ACT_10_DINLEME_ONCESI_VE_SIRASI",
+        "T2_ACT_11_DINLEME_SONRASI_TAHLIL"
+      ],
+      "textbook_form_ids": [],
+      "expected_student_actions": "Abdurrahim Karakoç'un sesinden Mihriban şiirini karekoddan dinleme, izleme sırasında yapılandırılmış notlar alma, şiirin tür özelliklerini, ahenk ögelerini ve söz varlığını çözümleme.",
+      "expected_student_evidence": "Ders kitabı s. 131-138'deki dinleme notları, tahlil soruları ve ahenk ögeleri tablosu.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [
+        "RES_T2_01"
+      ],
+      "optional_resource_ids": [
+        "RES_T2_15"
+      ],
+      "block_sequence": 3,
+      "prerequisite_block_ids": [
+        "BLOCK_T2_01_OKUMA"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T2_04_YAZMA",
+      "theme_id": "TEMA_02",
+      "title": "2. Tema Yazma Atölyesi ve Tema Değerlendirme Bloğu: Şiir Yazma Atölyesi",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE4.1",
+        "TDE4.2",
+        "TDE4.3",
+        "TDE4.4"
+      ],
+      "textbook_sections": [
+        "T2_SEC_05_YAZMA_ATOLYESI",
+        "T2_SEC_06_TEMA_SONU_DEGERLENDIRME"
+      ],
+      "textbook_activity_ids": [
+        "T2_ACT_12_YAZMA_SIRASI",
+        "T2_ACT_13_YAZMA_SONRASI",
+        "T2_ACT_14_TEMA_SONU_OLCME",
+        "T2_ACT_15_OGRENME_GUNLUGU"
+      ],
+      "textbook_form_ids": [
+        "FORM_IN_T2_YAZMA_CRITERIA",
+        "FORM_BOB_03_T2_YAZMA_OZ",
+        "FORM_BOB_09_T1_T2_AKRAN",
+        "FORM_BOB_11_GENEL_GOZLEM",
+        "FORM_IN_T2_TEMA_SONU_TEST",
+        "FORM_IN_T2_OGRENME_GUNLUGU"
+      ],
+      "expected_student_actions": "Dinlenen/okunan metinlerin temasına uygun özgün bir şiir yazma hazırlığı yapma, taslak oluşturma, ahenk ve ritim ögelerini denetleme, metni düzeltme, öz/akran değerlendirmesi yapma, analitik rubrik geri bildirimine göre şiire son şeklini verme.",
+      "expected_student_evidence": "Öğrencinin yazdığı özgün şiir metni, doldurulmuş s. 304, 310, 312 formları, Analitik Rubrik (RES_T2_12) puan kaydı, s. 143 test cevapları ve s. 149 öğrenme günlüğü.",
+      "required_resource_ids": [
+        "RES_T2_12"
+      ],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 4,
+      "prerequisite_block_ids": [
+        "BLOCK_T2_01_OKUMA",
+        "BLOCK_T2_03_DINLEME"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T3_01_OKUMA",
+      "theme_id": "TEMA_03",
+      "title": "3. Tema Okuma Bloğu: Hikâye ve Gezi Yazısı Metin Tahlili",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE2.1",
+        "TDE2.2",
+        "TDE2.3"
+      ],
+      "textbook_sections": [
+        "T3_SEC_01_OKUMA_HIKAYE",
+        "T3_SEC_02_OKUMA_GEZI_YAZISI"
+      ],
+      "textbook_activity_ids": [
+        "T3_ACT_01_OKUMA_ONCESI_HIKAYE",
+        "T3_ACT_02_OKUMA_SIRASI_HIKAYE",
+        "T3_ACT_03_OKUMA_SONRASI_HIKAYE_TAHLIL",
+        "T3_ACT_04_KONTROL_NOKTASI_HIKAYE",
+        "T3_ACT_05_OKUMA_ONCESI_GEZI",
+        "T3_ACT_06_OKUMA_SONRASI_GEZI_TAHLIL",
+        "T3_ACT_07_KONTROL_NOKTASI_GEZI"
+      ],
+      "textbook_form_ids": [],
+      "expected_student_actions": "Refik Halit Karay'ın Eskici hikâyesi ile Falih Rıfkı Atay'ın Bizim Akdeniz'den gezi yazısını okuma öncesi, sırası ve sonrasında tahlil etme; ana düşünce, yapı unsurları, dilin kültürel ve mekânsal işlevini çözümleme.",
+      "expected_student_evidence": "Ders kitabı s. 153-193'teki tahlil soruları cevapları, metin çözümleme tabloları ve kontrol noktası işaretlemeleri.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 1,
+      "prerequisite_block_ids": [],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T3_02_KONUSMA",
+      "theme_id": "TEMA_03",
+      "title": "3. Tema Konuşma Atölyesi Bloğu: Kültür, Dil ve Gelenek Sunumu",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE3.1",
+        "TDE3.2",
+        "TDE3.3",
+        "TDE3.4"
+      ],
+      "textbook_sections": [
+        "T3_SEC_03_KONUSMA_ATOLYESI"
+      ],
+      "textbook_activity_ids": [
+        "T3_ACT_08_KONUSMA_SIRASI",
+        "T3_ACT_09_KONUSMA_SONRASI"
+      ],
+      "textbook_form_ids": [
+        "FORM_IN_T3_KONUSMA_CRITERIA",
+        "FORM_BOB_06_T3_KONUSMA_OZ",
+        "FORM_BOB_10_T3_T4_AKRAN",
+        "FORM_BOB_11_GENEL_GOZLEM"
+      ],
+      "expected_student_actions": "Kültür, gelenek ve dil konulu hazırlıklı bir sözlü sunum planlama ve icra etme; öz/akran değerlendirmesi yapma ve öğretmen analitik rubriği ile derecelendirilme.",
+      "expected_student_evidence": "Öğrencinin sözlü sunum performansı, doldurulmuş s. 307, 311, 312 formları ve doldurulmuş Analitik Dereceli Puanlama Anahtarı (RES_T3_05_KONUSMA_RUBRIC).",
+      "required_resource_ids": [
+        "RES_T3_05_KONUSMA_RUBRIC"
+      ],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 2,
+      "prerequisite_block_ids": [
+        "BLOCK_T3_01_OKUMA"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T3_03_DINLEME",
+      "theme_id": "TEMA_03",
+      "title": "3. Tema Dinleme/İzleme Bloğu: Nevruz Belgeseli Dinleme/İzleme ve Tahlil",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE1.1",
+        "TDE1.2",
+        "TDE1.3"
+      ],
+      "textbook_sections": [
+        "T3_SEC_04_DINLEME_IZLEME"
+      ],
+      "textbook_activity_ids": [
+        "T3_ACT_10_DINLEME_ONCESI_VE_SIRASI",
+        "T3_ACT_11_DINLEME_SONRASI_TAHLIL"
+      ],
+      "textbook_form_ids": [],
+      "expected_student_actions": "Karekod üzerinden Anadolu kültürünü anlatan Nevruz belgeselini izleme, kontrol listesiyle süreci yönetme, not alma, açık uçlu anlama sorularını yanıtlama ve kültürel ögeleri tahlil etme.",
+      "expected_student_evidence": "Ders kitabı s. 198-202'deki izleme notları, tahlil soruları cevapları ve kültürel ögeler tablosu.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 3,
+      "prerequisite_block_ids": [
+        "BLOCK_T3_01_OKUMA"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T3_04_YAZMA",
+      "theme_id": "TEMA_03",
+      "title": "3. Tema Yazma Atölyesi ve Tema Değerlendirme Bloğu: İnfografik Metin Yazma",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE4.1",
+        "TDE4.2",
+        "TDE4.3",
+        "TDE4.4"
+      ],
+      "textbook_sections": [
+        "T3_SEC_05_YAZMA_ATOLYESI",
+        "T3_SEC_06_TEMA_SONU_DEGERLENDIRME"
+      ],
+      "textbook_activity_ids": [
+        "T3_ACT_12_YAZMA_SIRASI",
+        "T3_ACT_13_YAZMA_SONRASI",
+        "T3_ACT_14_TEMA_SONU_OLCME",
+        "T3_ACT_15_OGRENME_GUNLUGU"
+      ],
+      "textbook_form_ids": [
+        "FORM_IN_T3_YAZMA_CRITERIA",
+        "FORM_BOB_05_T3_YAZMA_OZ",
+        "FORM_BOB_10_T3_T4_AKRAN",
+        "FORM_BOB_11_GENEL_GOZLEM",
+        "FORM_IN_T3_TEMA_SONU_TEST",
+        "FORM_IN_T3_OGRENME_GUNLUGU"
+      ],
+      "expected_student_actions": "Kültürel değerler üzerine infografik metin hazırlığı yapma, görsel ve metin dengesini kurgulama, taslak oluşturma, metni düzeltme, öz/akran değerlendirmesi yapma ve analitik rubrik ile değerlendirilme.",
+      "expected_student_evidence": "Öğrencinin hazırladığı infografik metin ürünü, doldurulmuş s. 306, 311, 312 formları, Analitik Rubrik (RES_T3_06_YAZMA_RUBRIC) puan kaydı, s. 207-210 test cevapları ve s. 211 öğrenme günlüğü.",
+      "required_resource_ids": [
+        "RES_T3_06_YAZMA_RUBRIC"
+      ],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 4,
+      "prerequisite_block_ids": [
+        "BLOCK_T3_01_OKUMA",
+        "BLOCK_T3_03_DINLEME"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T4_01_OKUMA",
+      "theme_id": "TEMA_04",
+      "title": "4. Tema Okuma Bloğu: Roman ve Eleştiri Metin Tahlili",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE2.1",
+        "TDE2.2",
+        "TDE2.3",
+        "TDE2.4"
+      ],
+      "textbook_sections": [
+        "T4_SEC_01_OKUMA_ROMAN",
+        "T4_SEC_02_OKUMA_ELESTIRI"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_01_OKUMA_ONCESI_ROMAN",
+        "T4_ACT_02_OKUMA_SIRASI_ROMAN",
+        "T4_ACT_03_OKUMA_SONRASI_ROMAN_KARSILASTIRMA",
+        "T4_ACT_04_KONTROL_NOKTASI_ROMAN",
+        "T4_ACT_05_OKUMA_ONCESI_ELESTIRI",
+        "T4_ACT_06_OKUMA_SONRASI_ELESTIRI_TAHLIL",
+        "T4_ACT_07_KONTROL_NOKTASI_ELESTIRI"
+      ],
+      "textbook_form_ids": [],
+      "expected_student_actions": "Reşat Nuri Güntekin'in Çalıkuşu romanı ve Mehmet Kaplan'ın eleştiri metnini okuma öncesi, sırası ve sonrasında tahlil etme; tiyatro ara metniyle karşılaştırma yapma, özgün diyalog yazma, yapı ve üslup çözümlemesi yapma.",
+      "expected_student_evidence": "Ders kitabı s. 226-276'daki tahlil soruları cevapları, karşılaştırma tabloları, diyalog çalışması ve kontrol noktası işaretlemeleri.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [
+        "RES_T4_REC_EXIT_TICKET"
+      ],
+      "optional_resource_ids": [
+        "RES_T4_OPT_ENRICHMENT"
+      ],
+      "block_sequence": 1,
+      "prerequisite_block_ids": [],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T4_02_KONUSMA",
+      "theme_id": "TEMA_04",
+      "title": "4. Tema Konuşma Atölyesi Bloğu: Sosyal Medya Dili ve Edebî Dil Sunumu",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE3.1",
+        "TDE3.2",
+        "TDE3.3",
+        "TDE3.4"
+      ],
+      "textbook_sections": [
+        "T4_SEC_03_KONUSMA_ATOLYESI"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_08_KONUSMA_SIRASI",
+        "T4_ACT_09_KONUSMA_SONRASI"
+      ],
+      "textbook_form_ids": [
+        "FORM_IN_T4_KONUSMA_CRITERIA",
+        "FORM_BOB_08_T4_KONUSMA_OZ",
+        "FORM_BOB_10_T3_T4_AKRAN",
+        "FORM_BOB_11_GENEL_GOZLEM"
+      ],
+      "expected_student_actions": "Sosyal medya dili ile edebî dilin özelliklerini karşılaştıran hazırlıklı bir sunum planlama, sözlü sunumu icra etme, öz/akran değerlendirmesi yapma ve analitik rubrik ile derecelendirilme.",
+      "expected_student_evidence": "Öğrencinin karşılaştırmalı sunum performansı, doldurulmuş s. 309, 311, 312 formları ve doldurulmuş Analitik Dereceli Puanlama Anahtarı (RES_T4_SHARED_KONUSMA_RUBRIC).",
+      "required_resource_ids": [
+        "RES_T4_SHARED_KONUSMA_RUBRIC"
+      ],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 2,
+      "prerequisite_block_ids": [
+        "BLOCK_T4_01_OKUMA"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T4_03_DINLEME",
+      "theme_id": "TEMA_04",
+      "title": "4. Tema Dinleme/İzleme Bloğu: Âşık Veysel Otobiyografi Belgeseli Tahlili",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE1.1",
+        "TDE1.2",
+        "TDE1.3",
+        "TDE1.4"
+      ],
+      "textbook_sections": [
+        "T4_SEC_04_DINLEME_IZLEME"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_10_DINLEME_ONCESI_VE_SIRASI",
+        "T4_ACT_11_DINLEME_SONRASI_TAHLIL"
+      ],
+      "textbook_form_ids": [
+        "FORM_IN_T4_DINLEME_GOZLEM"
+      ],
+      "expected_student_actions": "Âşık Veysel otobiyografi belgeselini karekoddan izleme, gözlem formuyla süreci yönetme, not alma, açık uçlu tahlil sorularını yanıtlama, tür özelliklerini ve anlatım biçimlerini çözümleme.",
+      "expected_student_evidence": "Ders kitabı s. 281-291'deki izleme notları, s. 283 gözlem formu ve belgesel tahlil soruları cevapları.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 3,
+      "prerequisite_block_ids": [
+        "BLOCK_T4_01_OKUMA"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T4_04_YAZMA",
+      "theme_id": "TEMA_04",
+      "title": "4. Tema Yazma Atölyesi ve Tema Değerlendirme Bloğu: Otobiyografi Yazma",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE4.1",
+        "TDE4.2",
+        "TDE4.3",
+        "TDE4.4"
+      ],
+      "textbook_sections": [
+        "T4_SEC_05_YAZMA_ATOLYESI",
+        "T4_SEC_06_TEMA_SONU_DEGERLENDIRME"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_12_YAZMA_SIRASI",
+        "T4_ACT_13_YAZMA_SONRASI",
+        "T4_ACT_14_TEMA_SONU_OLCME",
+        "T4_ACT_15_OGRENME_GUNLUGU"
+      ],
+      "textbook_form_ids": [
+        "FORM_IN_T4_YAZMA_CRITERIA",
+        "FORM_BOB_07_T4_YAZMA_OZ",
+        "FORM_BOB_10_T3_T4_AKRAN",
+        "FORM_BOB_11_GENEL_GOZLEM",
+        "FORM_IN_T4_TEMA_SONU_TEST",
+        "FORM_IN_T4_OGRENME_GUNLUGU"
+      ],
+      "expected_student_actions": "Otobiyografi yazma sürecini süreç kontrol listesiyle yönetme, taslak oluşturma, düzeltme, öz/akran değerlendirmesi yapma ve analitik rubrik ile derecelendirilerek ürünü tamamlama.",
+      "expected_student_evidence": "Öğrencinin işaretlediği Yazma Süreci Kontrol Listesi (RES_T4_YAZMA_SUREC_KONTROL_LISTESI), yazılan otobiyografi metni, Analitik Rubrik (RES_T4_SHARED_YAZMA_RUBRIC) puan kaydı, doldurulmuş s. 308, 311, 312 formları, s. 296-300 test cevapları ve s. 301 öğrenme günlüğü.",
+      "required_resource_ids": [
+        "RES_T4_YAZMA_SUREC_KONTROL_LISTESI",
+        "RES_T4_SHARED_YAZMA_RUBRIC"
+      ],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 4,
+      "prerequisite_block_ids": [
+        "BLOCK_T4_01_OKUMA",
+        "BLOCK_T4_03_DINLEME"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    }
+  ]
+}

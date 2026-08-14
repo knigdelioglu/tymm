@@ -1,0 +1,347 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_9",
+  "theme_id": "TEMA_02",
+  "theme_no": 2,
+  "theme_title": "2. TEMA: ANLAM ARAYIŞI",
+  "summary": {
+    "total_resources_planned": 16,
+    "required_count": 2,
+    "recommended_count": 3,
+    "optional_count": 2,
+    "not_needed_count": 9,
+    "production_decisions": {
+      "REUSE_TEXTBOOK": 9,
+      "REUSE_WITH_TEACHER_GUIDE": 1,
+      "GENERATE_ASSESSMENT_SUPPORT": 2,
+      "GENERATE_DIFFERENTIATION": 1,
+      "GENERATE_ENRICHMENT": 3
+    }
+  },
+  "resource_plans": [
+    {
+      "resource_plan_id": "RES_T2_01",
+      "need_id": "NEED_T2_D1",
+      "target_outcomes": [
+        "TDE1.1"
+      ],
+      "resource_type": "teacher_implementation_support",
+      "purpose": "Dinleme öncesi estetik dinleme stratejilerinin işletilmesi ve dinleme kurallarının sınıf ortamında takibine yönelik öğretmen rehberliği sağlamak.",
+      "expected_student_evidence": "Dinleme öncesi hazırlık ve kurallara uygun dinleme katılımı.",
+      "priority": "RECOMMENDED",
+      "rationale": "Ders kitabı dinleme öncesi adımları sunmaktadır; öğretmene yönelik strateji uygulama rehberi süreci güçlendirir.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": {
+        "reusable": true,
+        "locator": "9edb.pdf, s. 131-132 (PDF: 132-133), T2_ACT_10_DINLEME_ONCESI_VE_SIRASI"
+      },
+      "production_decision": "REUSE_WITH_TEACHER_GUIDE",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "RES_T2_02",
+      "need_id": "NEED_T2_D2",
+      "target_outcomes": [
+        "TDE1.2"
+      ],
+      "resource_type": "guided_practice",
+      "purpose": "Mihriban şiirinin ana duygusu, ahenk ögeleri, söz varlığı ve açık/örtük iletilerini çözümlemek; şiiri kendi dizeleriyle tamamlamak.",
+      "expected_student_evidence": "Tahlil soruları çözümleri ve şiir tamamlama ürünleri.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Ders kitabı s. 133-138'de tahlil ve dize tamamlama etkinliklerini tam ve yeterli olarak sunmaktadır.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": {
+        "reusable": true,
+        "locator": "9edb.pdf, s. 133-138 (PDF: 134-139), T2_ACT_11_DINLEME_SONRASI_TAHLIL"
+      },
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "RES_T2_03",
+      "need_id": "NEED_T2_O1",
+      "target_outcomes": [
+        "TDE2.1"
+      ],
+      "resource_type": "learning_input_or_representation",
+      "purpose": "Hikâye ve anı okuma öncesinde başlık ve görsellerden hareketle içeriği ve yazılış amacını tahmin etmek; okuma stratejisi belirlemek.",
+      "expected_student_evidence": "Okuma öncesi hazırlık notları ve kısa cevaplar.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Ders kitabı s. 76 ve 99'daki hazırlık etkinlikleri öğrenci kanıtı için yeterlidir.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": {
+        "reusable": true,
+        "locator": "9edb.pdf, s. 76, 99 (PDF: 77, 100), T2_ACT_01_OKUMA_ONCESI_HIKAYE, T2_ACT_05_OKUMA_ONCESI_ANI"
+      },
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "RES_T2_04",
+      "need_id": "NEED_T2_O2",
+      "target_outcomes": [
+        "TDE2.2"
+      ],
+      "resource_type": "guided_practice",
+      "purpose": "Hikâye ve anı metinlerini tema, konu, ana/yardımcı düşünce, kurgusal/tarihî gerçeklik, yapı unsurları ve ses bilgisi yönünden tahlil etmek; türleri karşılaştırmak.",
+      "expected_student_evidence": "Doldurulmuş tahlil soruları, hikâye haritaları, karşılaştırma tabloları, kontrol noktası testleri.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Ders kitabı s. 77-124 arasında Tarık Buğra ve Halide Nusret Zorlutuna metinleri üzerinden kapsamlı tahlil ve dil bilgisi etkinlikleri sunmaktadır.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": {
+        "reusable": true,
+        "locator": "9edb.pdf, s. 77-124 (PDF: 78-125), T2_ACT_02, T2_ACT_03, T2_ACT_04, T2_ACT_06, T2_ACT_07"
+      },
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "RES_T2_05",
+      "need_id": "NEED_T2_K1",
+      "target_outcomes": [
+        "TDE3.1"
+      ],
+      "resource_type": "student_production_task",
+      "purpose": "Hikâyeden seçilen karakterle ilgili konuşma amacını ve stratejisini belirleyerek hazırlık sürecini yapılandırmak.",
+      "expected_student_evidence": "Karakter seçimi ve konuşma planı notları.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Ders kitabı s. 125-128'de konuşma hazırlığı ve strateji adımlarını yeterli düzeyde sağlamaktadır.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": {
+        "reusable": true,
+        "locator": "9edb.pdf, s. 125-128 (PDF: 126-129), T2_ACT_08_KONUSMA_SIRASI"
+      },
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "RES_T2_06",
+      "need_id": "NEED_T2_K2",
+      "target_outcomes": [
+        "TDE3.2"
+      ],
+      "resource_type": "student_production_task",
+      "purpose": "Seçilen karakteri özdeşleştirerek yeniden kurgulamak ve sunum için görsel tasarım üretmek.",
+      "expected_student_evidence": "Karakter kurgusu taslağı ve sunum görseli.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Ders kitabı s. 126-128'de karakter kurgulama ve görselleştirme yönergelerini eksiksiz sunmaktadır.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": {
+        "reusable": true,
+        "locator": "9edb.pdf, s. 125-128 (PDF: 126-129), T2_ACT_08_KONUSMA_SIRASI"
+      },
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "RES_T2_07",
+      "need_id": "NEED_T2_K3",
+      "target_outcomes": [
+        "TDE3.3"
+      ],
+      "resource_type": "student_production_task",
+      "purpose": "Karakter sunumunu diksiyon, ses tonu, beden dili, jest-mimik ve zaman yönetimi kurallarına uygun olarak canlı sergilemek.",
+      "expected_student_evidence": "Sözlü sunum canlı performansı.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Ders kitabı s. 128-129'da sunum kurallarını ve canlı anlatım basamaklarını sağlamaktadır.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": {
+        "reusable": true,
+        "locator": "9edb.pdf, s. 128-129 (PDF: 129-130), T2_ACT_08_KONUSMA_SIRASI"
+      },
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "RES_T2_08",
+      "need_id": "NEED_T2_K4",
+      "target_outcomes": [
+        "TDE3.4"
+      ],
+      "resource_type": "assessment_support",
+      "purpose": "Programın TDE3.4 çıktısında şart koştuğu ses ve diksiyon, akıcılık, beden dili, içerik kurgusu, zaman yönetimi, Türkçe kullanımı ve etkileyicilik ölçütlerini içeren Analitik Dereceli Puanlama Anahtarı (Analytic Rubric) sağlamak.",
+      "expected_student_evidence": "Öğretmen analitik puanlama çıktısı, doldurulmuş öz ve akran formları, yansıtma notları.",
+      "priority": "REQUIRED",
+      "rationale": "Kitaptaki FORM_IN_T2_KONUSMA_CRITERIA yalnızca ölçüt tablosudur (assessment_criteria_table); düzey betimleyicileri içeren analitik rubrik yapısı mevcut değildir. Programın öğretmen değerlendirmesi gereksinimini karşılamak için zorunludur.",
+      "textbook_coverage": "PARTIALLY_COVERED",
+      "reuse_existing_resource": {
+        "reusable": true,
+        "locator": "9edb.pdf, s. 305 (FORM_BOB_04_T2_KONUSMA_OZ), s. 310 (FORM_BOB_09_T1_T2_AKRAN)"
+      },
+      "production_decision": "GENERATE_ASSESSMENT_SUPPORT",
+      "external_source_needed": false,
+      "teacher_review_required": true
+    },
+    {
+      "resource_plan_id": "RES_T2_09",
+      "need_id": "NEED_T2_Y1",
+      "target_outcomes": [
+        "TDE4.1"
+      ],
+      "resource_type": "student_production_task",
+      "purpose": "Dinlenen şiirin temasından hareketle yeni bir şiir yazma amacını belirlemek ve yazma sürecini planlamak.",
+      "expected_student_evidence": "Şiir hazırlık notları ve yazma planı.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Ders kitabı s. 139-140'ta yazma hazırlığı ve planlama basamaklarını sağlamaktadır.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": {
+        "reusable": true,
+        "locator": "9edb.pdf, s. 139-140 (PDF: 140-141), T2_ACT_12_YAZMA_SIRASI"
+      },
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "RES_T2_10",
+      "need_id": "NEED_T2_Y2",
+      "target_outcomes": [
+        "TDE4.2"
+      ],
+      "resource_type": "student_production_task",
+      "purpose": "Tema, ana duygu, ritim/ahenk ögeleri ve zengin söz varlığı kullanarak özgün şiir metni taslağı oluşturmak.",
+      "expected_student_evidence": "Özgün öğrenci şiiri taslağı.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Ders kitabı s. 140-141'de şiir yazma yönergelerini ve taslak alanını sağlamaktadır.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": {
+        "reusable": true,
+        "locator": "9edb.pdf, s. 140-141 (PDF: 141-142), T2_ACT_12_YAZMA_SIRASI"
+      },
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "RES_T2_11",
+      "need_id": "NEED_T2_Y3",
+      "target_outcomes": [
+        "TDE4.3"
+      ],
+      "resource_type": "student_production_task",
+      "purpose": "Şiirde yazım ve noktalama kurallarını uygulamak; şiire uygun görsel ve müzik seçerek nezaket kuralları içinde sunmak ve paylaşmak.",
+      "expected_student_evidence": "Kurallara uygun temiz şiir metni ve çok modlu sunum/paylaşım.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Ders kitabı s. 141-142'de dil kuralları kontrolü ve paylaşım adımlarını sağlamaktadır.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": {
+        "reusable": true,
+        "locator": "9edb.pdf, s. 141-142 (PDF: 142-143), T2_ACT_12, T2_ACT_13"
+      },
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "RES_T2_12",
+      "need_id": "NEED_T2_Y4",
+      "target_outcomes": [
+        "TDE4.4"
+      ],
+      "resource_type": "assessment_support",
+      "purpose": "Programın TDE4.4 çıktısında şart koştuğu tema, ana duygu, ritim/ahenk, söz varlığı ve dil kuralları ölçütlerini içeren Analitik Dereceli Puanlama Anahtarı (Analytic Rubric) sağlamak.",
+      "expected_student_evidence": "Öğretmen analitik rubrik puanlaması, doldurulmuş öz ve akran formları, geri bildirimle revize edilmiş nihai şiir ürünü.",
+      "priority": "REQUIRED",
+      "rationale": "Öğrencinin öz değerlendirmesi (s. 304), akran değerlendirmesi (s. 310), ölçüt listesi (s. 141) ve şiirini düzenleme/son şeklini verme süreci (s. 142) ders kitabında mevcuttur. Kitap s. 141'deki FORM_IN_T2_YAZMA_CRITERIA yapısal olarak bir assessment_criteria_table olup analytic_rubric değildir (performans düzeyleri ve düzey betimleyicileri yoktur). Programın 'Öğretmen değerlendirmesi dereceli puanlama anahtarı ile gerçekleştirilir' zorunluluğunu karşılamak için analitik rubrik desteği üretilmesi gereklidir.",
+      "textbook_coverage": "PARTIALLY_COVERED",
+      "reuse_existing_resource": {
+        "reusable": true,
+        "locator": "9edb.pdf, s. 304 (FORM_BOB_03_T2_YAZMA_OZ), s. 310 (FORM_BOB_09_T1_T2_AKRAN)"
+      },
+      "production_decision": "GENERATE_ASSESSMENT_SUPPORT",
+      "external_source_needed": false,
+      "teacher_review_required": true
+    },
+    {
+      "resource_plan_id": "RES_T2_13",
+      "need_id": "NEED_T2_O2",
+      "target_outcomes": [
+        "TDE2.2",
+        "TDE4.2"
+      ],
+      "resource_type": "differentiation_support",
+      "purpose": "Program s. 79 destekleme kapsamında fotoğraftan hareketle anı yazma ve yapılandırılmış hikâye çözümleme şablonu desteği sunmak.",
+      "expected_student_evidence": "Fotoğraftan hareketle yazılmış anı taslağı / destekli çözümleme kâğıdı.",
+      "priority": "RECOMMENDED",
+      "rationale": "Programın destekleme önerisini sınıf içi uygulamaya aktarır.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": {
+        "reusable": false,
+        "locator": ""
+      },
+      "production_decision": "GENERATE_DIFFERENTIATION",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "RES_T2_14",
+      "need_id": "NEED_T2_O2",
+      "target_outcomes": [
+        "TDE2.2",
+        "TDE4.2"
+      ],
+      "resource_type": "enrichment",
+      "purpose": "Program s. 79 zenginleştirme kapsamında aynı temayı işleyen farklı türdeki eserleri karşılaştırma ve yazılan şiiri genişletme etkinlikleri sağlamak.",
+      "expected_student_evidence": "Karşılaştırmalı analiz metni ve genişletilmiş şiir çalışması.",
+      "priority": "RECOMMENDED",
+      "rationale": "Programın zenginleştirme hedeflerini derinleştirmek amacıyla önerilir.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": {
+        "reusable": false,
+        "locator": ""
+      },
+      "production_decision": "GENERATE_ENRICHMENT",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "RES_T2_15",
+      "need_id": "NEED_T2_D2",
+      "target_outcomes": [
+        "TDE1.2",
+        "TDE4.2"
+      ],
+      "resource_type": "enrichment",
+      "purpose": "Program s. 79 zenginleştirme doğrultusunda şiir antolojisi hazırlama ve şiiri şarkıya dönüştürme genişletme görevi sağlamak.",
+      "expected_student_evidence": "Şiir antolojisi seçkisi veya şarkı sözü uyarlaması.",
+      "priority": "OPTIONAL",
+      "rationale": "İleri düzey estetik üretim ve yaratıcı genişletme sağlar.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": {
+        "reusable": false,
+        "locator": ""
+      },
+      "production_decision": "GENERATE_ENRICHMENT",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "RES_T2_16",
+      "need_id": "NEED_T2_O2",
+      "target_outcomes": [
+        "TDE2.2",
+        "TDE4.3"
+      ],
+      "resource_type": "enrichment",
+      "purpose": "Program s. 79 zenginleştirme kapsamında güvenilir genel ağ ortamlarında ve okul edebiyat kulübünde çalışmaların paylaşımı projesi.",
+      "expected_student_evidence": "Kulüp/bülten sergileme ve dijital paylaşım kaydı.",
+      "priority": "OPTIONAL",
+      "rationale": "Sosyal katılım ve dijital okuryazarlık zenginleştirmesi sağlar.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": {
+        "reusable": false,
+        "locator": ""
+      },
+      "production_decision": "GENERATE_ENRICHMENT",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    }
+  ]
+}

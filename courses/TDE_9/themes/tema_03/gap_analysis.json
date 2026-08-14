@@ -1,0 +1,346 @@
+{
+  "schema_version": "1.0",
+  "theme_id": "TEMA_03",
+  "theme_no": 3,
+  "exact_theme_name": "3. TEMA: ANLAMIN YAPI TAŞLARI",
+  "course_id": "TDE_9",
+  "grade": 9,
+  "analysis_date": "2026-08-14",
+  "summary_metrics": {
+    "total_learning_outcomes": 14,
+    "total_process_components": 0,
+    "COVERED": 12,
+    "PARTIALLY_COVERED": 2,
+    "NOT_COVERED": 0,
+    "map_conflicts_count": 0,
+    "unresolved_count": 0,
+    "required_resources_count": 2,
+    "recommended_resources_count": 0,
+    "optional_resources_count": 0,
+    "alignment_status": "PASS"
+  },
+  "two_stage_analysis": [
+    {
+      "outcome_code": "TDE1.1",
+      "outcome_id": "TDE9_T3_D1",
+      "stage_a_instructional_requirement": {
+        "required_learning_experience": "Anadolu kültürünü anlatan çok modlu bir metin (belgesel) öncesinde ve sırasında dinleme/izleme stratejisi belirleme ve kurallara uygun izleme.",
+        "expected_student_action": "Karekod üzerinden Nevruz Belgeseli'ni amaç doğrultusunda izleme, not alma.",
+        "expected_student_evidence": "Dinleme/izleme notları ve hazırlık çıktıları.",
+        "required_assessment_structure": "Dinleme/izleme kontrol ve rehberlik yönergeleri."
+      },
+      "stage_b_resource_gap_evaluation": {
+        "textbook_activity_ids": [
+          "T3_ACT_10_DINLEME_ONCESI_VE_SIRASI"
+        ],
+        "textbook_locators": "s. 199-200 (PDF: 200-201)",
+        "textbook_form_ids": [],
+        "observed_textbook_structure": "Metin öncesi hazırlık soruları, karekodlu video bağlantısı ve dinleme/izleme sırası not alma rehberliği mevcuttur.",
+        "coverage_decision": "COVERED",
+        "remaining_gap": null,
+        "why_existing_resources_are_sufficient_or_insufficient": "Ders kitabı s. 199-200'deki etkinlik öğrencinin dinlemeyi/izlemeyi yönetebilme becerisini ve beklenen not alma kanıtını eksiksiz sağlamaktadır."
+      }
+    },
+    {
+      "outcome_code": "TDE1.2",
+      "outcome_id": "TDE9_T3_D2",
+      "stage_a_instructional_requirement": {
+        "required_learning_experience": "Dinlenen/izlenen belgeseldeki açık ve örtük iletileri tespit etme, metindeki görsel ve işitsel unsurlardan hareketle anlam oluşturma.",
+        "expected_student_action": "Belgeseldeki açık ve örtük iletileri bulma, kültürel bellek ögelerini anlamlandırma.",
+        "expected_student_evidence": "Açık ve örtük ileti listesi, tahlil soruları cevapları.",
+        "required_assessment_structure": "Açık uçlu anlama ve anlam oluşturma soruları."
+      },
+      "stage_b_resource_gap_evaluation": {
+        "textbook_activity_ids": [
+          "T3_ACT_10_DINLEME_ONCESI_VE_SIRASI",
+          "T3_ACT_11_DINLEME_SONRASI_TAHLIL"
+        ],
+        "textbook_locators": "s. 199-202 (PDF: 200-203)",
+        "textbook_form_ids": [],
+        "observed_textbook_structure": "Belgesel metnine yönelik açık ve örtük ileti soruları ile anlamlandırma alıştırmaları mevcuttur.",
+        "coverage_decision": "COVERED",
+        "remaining_gap": null,
+        "why_existing_resources_are_sufficient_or_insufficient": "Ders kitabı s. 199-202'deki etkinlikler öğrencinin belgeselden anlam oluşturmasını ve açık/örtük iletileri tespit etmesini eksiksiz sağlamaktadır."
+      }
+    },
+    {
+      "outcome_code": "TDE1.3",
+      "outcome_id": "TDE9_T3_D3",
+      "stage_a_instructional_requirement": {
+        "required_learning_experience": "Belgeseldeki görsel ve işitsel unsurların, anlatım biçimlerinin kültürel bellek aktarımındaki işlevini çözümleme.",
+        "expected_student_action": "Çok modlu unsurların kültürel aktarıma katkısını tahlil etme, çözümleme sorularını yanıtlama.",
+        "expected_student_evidence": "Çok modlu metin tahlili ve çözümleme yanıtları.",
+        "required_assessment_structure": "Açık uçlu metin çözümleme soruları."
+      },
+      "stage_b_resource_gap_evaluation": {
+        "textbook_activity_ids": [
+          "T3_ACT_11_DINLEME_SONRASI_TAHLIL"
+        ],
+        "textbook_locators": "s. 200-202 (PDF: 201-203)",
+        "textbook_form_ids": [],
+        "observed_textbook_structure": "Belgeselin görsel, işitsel, yapısal ve kültürel boyutlarını irdeleyen tahlil soruları mevcuttur.",
+        "coverage_decision": "COVERED",
+        "remaining_gap": null,
+        "why_existing_resources_are_sufficient_or_insufficient": "Ders kitabı s. 200-202'deki tahlil soruları ve çözümleme basamakları program beklentisini eksiksiz karşılamaktadır."
+      }
+    },
+    {
+      "outcome_code": "TDE2.1",
+      "outcome_id": "TDE9_T3_O1",
+      "stage_a_instructional_requirement": {
+        "required_learning_experience": "Hikâye ve gezi yazısı metinleri öncesinde hazırlık yapma, metin yapısına dair ön bilgileri harekete geçirme ve okuma sürecini yönetme.",
+        "expected_student_action": "Okuma öncesi hazırlık sorularını yanıtlama, tahminlerde bulunma ve okuma sırası işaretleme yapma.",
+        "expected_student_evidence": "Okuma öncesi düşünceler, tahminler, metin üzeri işaretlemeler.",
+        "required_assessment_structure": "Okuma öncesi ve sırası yönergeleri."
+      },
+      "stage_b_resource_gap_evaluation": {
+        "textbook_activity_ids": [
+          "T3_ACT_01_OKUMA_ONCESI_HIKAYE",
+          "T3_ACT_02_OKUMA_SIRASI_HIKAYE",
+          "T3_ACT_05_OKUMA_ONCESI_GEZI"
+        ],
+        "textbook_locators": "s. 154-158, 183 (PDF: 155-159, 184)",
+        "textbook_form_ids": [],
+        "observed_textbook_structure": "Gurbet ve ana dili temalı hazırlık soruları, metin sırası işaretleme yönergeleri ve gezi yazısı hazırlık adımları mevcuttur.",
+        "coverage_decision": "COVERED",
+        "remaining_gap": null,
+        "why_existing_resources_are_sufficient_or_insufficient": "Ders kitabı s. 154-158 ve 183'teki hazırlık ve okuma sırası etkinlikleri okuma sürecini yönetme hedefini tam karşılamaktadır."
+      }
+    },
+    {
+      "outcome_code": "TDE2.2",
+      "outcome_id": "TDE9_T3_O2",
+      "stage_a_instructional_requirement": {
+        "required_learning_experience": "Hikâye ve gezi yazısında geçen bilmedikleri kelimeleri bağlamdan hareketle anlama, açık/örtük iletileri çıkarma ve anlam oluşturma.",
+        "expected_student_action": "Kelimelerin anlamlarını bağlamdan çıkarma, metin iletilerini tespit etme.",
+        "expected_student_evidence": "Kelime ve kavram çalışmaları, tahlil soruları cevapları.",
+        "required_assessment_structure": "Açık uçlu anlama ve anlamlandırma soruları."
+      },
+      "stage_b_resource_gap_evaluation": {
+        "textbook_activity_ids": [
+          "T3_ACT_03_OKUMA_SONRASI_HIKAYE_TAHLIL",
+          "T3_ACT_06_OKUMA_SONRASI_GEZI_TAHLIL"
+        ],
+        "textbook_locators": "s. 159-175, 185-192 (PDF: 160-176, 186-193)",
+        "textbook_form_ids": [],
+        "observed_textbook_structure": "Metin içi söz varlığı çözümlemeleri, anlama ve yorumlama soruları yer almaktadır.",
+        "coverage_decision": "COVERED",
+        "remaining_gap": null,
+        "why_existing_resources_are_sufficient_or_insufficient": "Ders kitabı s. 159-175 ve 185-192'de yer alan zengin soru setleri anlam oluşturma gereksinimini tam olarak sağlamaktadır."
+      }
+    },
+    {
+      "outcome_code": "TDE2.3",
+      "outcome_id": "TDE9_T3_O3",
+      "stage_a_instructional_requirement": {
+        "required_learning_experience": "Hikâye ve gezi yazısının yapı unsurlarını (olay örgüsü, kişi, mekân, zaman, anlatıcı, bakış açısı), anlatım tekniklerini (iç konuşma, diyalog) ve belirteçleri (zarfları) çözümleme.",
+        "expected_student_action": "Yapı unsurlarını tablo ve sorularla çözümleme, anlatım tekniklerini inceleme, belirteçleri tespit etme, kontrol noktalarını tamamlama.",
+        "expected_student_evidence": "Yapı tabloları, anlatım tekniği analizleri, belirteç etkinlikleri, doldurulmuş kontrol listeleri.",
+        "required_assessment_structure": "Yapı çözümleme tabloları, açık uçlu sorular, kontrol noktası formları."
+      },
+      "stage_b_resource_gap_evaluation": {
+        "textbook_activity_ids": [
+          "T3_ACT_03_OKUMA_SONRASI_HIKAYE_TAHLIL",
+          "T3_ACT_04_KONTROL_NOKTASI_HIKAYE",
+          "T3_ACT_06_OKUMA_SONRASI_GEZI_TAHLIL",
+          "T3_ACT_07_KONTROL_NOKTASI_GEZI"
+        ],
+        "textbook_locators": "s. 159-182, 185-193 (PDF: 160-183, 186-194)",
+        "textbook_form_ids": [],
+        "observed_textbook_structure": "İç konuşma, diyalog, mekân tahlili tabloları, belirteç alıştırmaları ve s. 182 ile s. 193'teki kontrol noktası listeleri mevcuttur.",
+        "coverage_decision": "COVERED",
+        "remaining_gap": null,
+        "why_existing_resources_are_sufficient_or_insufficient": "Ders kitabı s. 159-182 ve 185-193 arasındaki etkinlikler ve kontrol noktaları metin çözümleme kazanımını eksiksiz karşılamaktadır."
+      }
+    },
+    {
+      "outcome_code": "TDE3.1",
+      "outcome_id": "TDE9_T3_K1",
+      "stage_a_instructional_requirement": {
+        "required_learning_experience": "Okunan metinlerdeki mekân ile kendi çevresindeki bir mekânı karşılaştıran bir sunum hazırlama sürecini yönetme, görsel araçlardan yararlanma ve telif haklarına dikkat etme.",
+        "expected_student_action": "Sunum konusu ve mekân seçimi yapma, görselleri fikrî mülkiyet ilkelerine uygun toplama ve hazırlık planı çıkarma.",
+        "expected_student_evidence": "Sunum hazırlık planı, görsel ve mekân listesi.",
+        "required_assessment_structure": "Konuşma ölçüt tablosu (`assessment_criteria_table`)."
+      },
+      "stage_b_resource_gap_evaluation": {
+        "textbook_activity_ids": [
+          "T3_ACT_08_KONUSMA_SIRASI"
+        ],
+        "textbook_locators": "s. 193-196 (PDF: 194-197)",
+        "textbook_form_ids": [
+          "FORM_IN_T3_KONUSMA_CRITERIA"
+        ],
+        "observed_textbook_structure": "Görsel destekli 'Benim Mekânım' sunumu hazırlık adımları, dijital görsel toplama kuralları ve s. 195'teki değerlendirme ölçüt tablosu mevcuttur.",
+        "coverage_decision": "COVERED",
+        "remaining_gap": null,
+        "why_existing_resources_are_sufficient_or_insufficient": "Ders kitabı s. 193-196'daki hazırlık yönergeleri ve s. 195'teki ölçüt tablosu konuşma sürecini yönetme gereksinimini tam karşılamaktadır."
+      }
+    },
+    {
+      "outcome_code": "TDE3.2",
+      "outcome_id": "TDE9_T3_K2",
+      "stage_a_instructional_requirement": {
+        "required_learning_experience": "Okunan metindeki mekân ile çevresindeki mekânı karşılaştıran, benzetme ve betimleme unsurları içeren bir konuşma içeriği oluşturma.",
+        "expected_student_action": "Mekân karşılaştırma kurgusu tasarlama, sunum slaytlarını ve metnini hazırlama.",
+        "expected_student_evidence": "Mekân karşılaştırma sunum taslağı ve slayt içeriği.",
+        "required_assessment_structure": "Konuşma ölçüt tablosu (`assessment_criteria_table`)."
+      },
+      "stage_b_resource_gap_evaluation": {
+        "textbook_activity_ids": [
+          "T3_ACT_08_KONUSMA_SIRASI"
+        ],
+        "textbook_locators": "s. 193-196 (PDF: 194-197)",
+        "textbook_form_ids": [
+          "FORM_IN_T3_KONUSMA_CRITERIA"
+        ],
+        "observed_textbook_structure": "Mekân karşılaştırma adımları, betimleyici anlatım yönergeleri ve içerik oluşturma basamakları mevcuttur.",
+        "coverage_decision": "COVERED",
+        "remaining_gap": null,
+        "why_existing_resources_are_sufficient_or_insufficient": "Ders kitabı s. 193-196'daki içerik yapılandırma basamakları beklenen öğrenci kanıtını eksiksiz sağlamaktadır."
+      }
+    },
+    {
+      "outcome_code": "TDE3.3",
+      "outcome_id": "TDE9_T3_K3",
+      "stage_a_instructional_requirement": {
+        "required_learning_experience": "Sunum sırasında ses, vurgu, tonlama, beden dili ve Türkçe dil kurallarını uygulayarak etkili bir konuşma icra etme.",
+        "expected_student_action": "Canlı sunum performansı sergileme, sunum süresini ve beden dilini yönetme.",
+        "expected_student_evidence": "Sözlü sunum performansı ('Benim Mekânım' sunumu).",
+        "required_assessment_structure": "Konuşma ölçüt tablosu (`assessment_criteria_table`)."
+      },
+      "stage_b_resource_gap_evaluation": {
+        "textbook_activity_ids": [
+          "T3_ACT_08_KONUSMA_SIRASI"
+        ],
+        "textbook_locators": "s. 193-196 (PDF: 194-197)",
+        "textbook_form_ids": [
+          "FORM_IN_T3_KONUSMA_CRITERIA"
+        ],
+        "observed_textbook_structure": "Sunum icra yönergeleri, ses ve beden dili kullanım ilkeleri ve s. 195'teki değerlendirme ölçüt tablosu mevcuttur.",
+        "coverage_decision": "COVERED",
+        "remaining_gap": null,
+        "why_existing_resources_are_sufficient_or_insufficient": "Ders kitabı s. 193-196'daki etkinlik ve s. 195'teki ölçütler kural uygulama performansını tam olarak desteklemektedir."
+      }
+    },
+    {
+      "outcome_code": "TDE3.4",
+      "outcome_id": "TDE9_T3_K4",
+      "stage_a_instructional_requirement": {
+        "required_learning_experience": "Konuşma performansı sonrasında kendi sürecini öz değerlendirme formuyla değerlendirme, akranlara nitel geri bildirim verme, yansıtma yapma ve öğretmen tarafından dereceli puanlama anahtarı ile değerlendirilme.",
+        "expected_student_action": "Öz değerlendirme, akran değerlendirme ve gözlem formlarını doldurma, yansıtma sorularını cevaplama; öğretmen dereceli puanlama anahtarı geri bildirimini alma.",
+        "expected_student_evidence": "Doldurulmuş öz değerlendirme formu (`FORM_BOB_06_T3_KONUSMA_OZ`), akran değerlendirme formu (`FORM_BOB_10_T3_T4_AKRAN`), öğretmen gözlem formu (`FORM_BOB_11_GENEL_GOZLEM`), öğretmen dereceli puanlama anahtarı çıktısı.",
+        "required_assessment_structure": "Öz değerlendirme formu (`self_assessment_form`), akran değerlendirme formu (`peer_assessment_form`), öğretmen gözlem formu (`teacher_evaluation_form`) ve programın açıkça şart koştuğu dereceli puanlama anahtarı."
+      },
+      "stage_b_resource_gap_evaluation": {
+        "textbook_activity_ids": [
+          "T3_ACT_09_KONUSMA_SONRASI"
+        ],
+        "textbook_locators": "s. 197, 307, 311, 312 (PDF: 198, 308, 312, 313)",
+        "textbook_form_ids": [
+          "FORM_BOB_06_T3_KONUSMA_OZ",
+          "FORM_BOB_10_T3_T4_AKRAN",
+          "FORM_BOB_11_GENEL_GOZLEM"
+        ],
+        "observed_textbook_structure": "s. 197'deki yönlendirmelerle kitap sonundaki s. 307 (öz değerlendirme ve yansıtma soruları), s. 311 (nitel akran formu), s. 312 (öğretmen gözlem formu) ve s. 195'teki ölçüt tablosu mevcuttur. Ancak programın s. 82 ve s. 86'da açıkça şart koştuğu 'Sunumlar, dereceli puanlama anahtarı ile puanlanır' gereksinimine uygun dereceli puanlama anahtarı yapısı bulunmamaktadır.",
+        "coverage_decision": "PARTIALLY_COVERED",
+        "remaining_gap": "Kitapta programın istediği dereceli puanlama anahtarı yapısının bulunmaması (Kitap s. 195'teki `FORM_IN_T3_KONUSMA_CRITERIA` bir `assessment_criteria_table` olup dereceli puanlama anahtarı değildir; s. 307 öz değerlendirme, s. 311 akran ve s. 312 gözlem formları bu yapının yerine geçmez. Çok boyutlu ölçütleri derecelendirmek üzere analitik rubrik desteği gereklidir).",
+        "why_existing_resources_are_sufficient_or_insufficient": "Ders kitabı öğrenci eylemini, öz/akran değerlendirmesini ve ölçüt tablosunu eksiksiz sunmaktadır; ancak programın öğretmenin dereceli puanlama anahtarı ile puanlama yapması ve standartlara dayalı geri bildirim vermesi gereksinimini karşılayacak dereceli puanlama anahtarı yapısı mevcut değildir."
+      }
+    },
+    {
+      "outcome_code": "TDE4.1",
+      "outcome_id": "TDE9_T3_Y1",
+      "stage_a_instructional_requirement": {
+        "required_learning_experience": "Dinlenen/izlenen belgeseli infografik metne dönüştürmek için yazılı anlatım sürecini yönetme; bilgi, ileti ve görsel seçimi yapma.",
+        "expected_student_action": "Belgeselden bilgi seçme, infografik taslağı ve görsel planlama adımlarını yürütme.",
+        "expected_student_evidence": "İnfografik metin planlama taslağı ve içerik seçim listesi.",
+        "required_assessment_structure": "Yazma ölçüt tablosu (`assessment_criteria_table`)."
+      },
+      "stage_b_resource_gap_evaluation": {
+        "textbook_activity_ids": [
+          "T3_ACT_12_YAZMA_SIRASI"
+        ],
+        "textbook_locators": "s. 203-205 (PDF: 204-206)",
+        "textbook_form_ids": [
+          "FORM_IN_T3_YAZMA_CRITERIA"
+        ],
+        "observed_textbook_structure": "Nevruz'un İzinde İnfografik Metin hazırlık adımları, bilgi ve görsel seçimi yönergeleri ve s. 205'teki ölçüt tablosu mevcuttur.",
+        "coverage_decision": "COVERED",
+        "remaining_gap": null,
+        "why_existing_resources_are_sufficient_or_insufficient": "Ders kitabı s. 203-205'teki hazırlık yönergeleri ve ölçüt tablosu yazma sürecini yönetme hedefini eksiksiz karşılamaktadır."
+      }
+    },
+    {
+      "outcome_code": "TDE4.2",
+      "outcome_id": "TDE9_T3_Y2",
+      "stage_a_instructional_requirement": {
+        "required_learning_experience": "Belgeselden ve edebî metinlerden edindiği kültürel söz varlığını, deyim ve atasözlerini kullanarak infografik metin içeriği oluşturma.",
+        "expected_student_action": "Söz varlığı unsurlarını görsel ve metin uyumu içinde infografik taslağına yerleştirme.",
+        "expected_student_evidence": "İnfografik metin taslağı ve görsel-metin içerik kurgusu.",
+        "required_assessment_structure": "Yazma ölçüt tablosu (`assessment_criteria_table`)."
+      },
+      "stage_b_resource_gap_evaluation": {
+        "textbook_activity_ids": [
+          "T3_ACT_12_YAZMA_SIRASI"
+        ],
+        "textbook_locators": "s. 203-205 (PDF: 204-206)",
+        "textbook_form_ids": [
+          "FORM_IN_T3_YAZMA_CRITERIA"
+        ],
+        "observed_textbook_structure": "İçerik kurgusu basamakları, söz varlığı ve görsel uyumu yönergeleri mevcuttur.",
+        "coverage_decision": "COVERED",
+        "remaining_gap": null,
+        "why_existing_resources_are_sufficient_or_insufficient": "Ders kitabı s. 203-205'teki içerik oluşturma basamakları beklenen öğrenci kanıtını eksiksiz sağlamaktadır."
+      }
+    },
+    {
+      "outcome_code": "TDE4.3",
+      "outcome_id": "TDE9_T3_Y3",
+      "stage_a_instructional_requirement": {
+        "required_learning_experience": "İnfografik metinde Türkçenin dil kurallarına, yazım ve noktalama kurallarına uyma; metni gözden geçirerek düzenleme.",
+        "expected_student_action": "İnfografik metni dil kuralları ve yazım/noktalama yönünden denetleme ve son haline getirme.",
+        "expected_student_evidence": "Düzenlenmiş ve son şekli verilmiş infografik metin ürünü.",
+        "required_assessment_structure": "Yazma ölçüt tablosu (`assessment_criteria_table`)."
+      },
+      "stage_b_resource_gap_evaluation": {
+        "textbook_activity_ids": [
+          "T3_ACT_12_YAZMA_SIRASI",
+          "T3_ACT_13_YAZMA_SONRASI"
+        ],
+        "textbook_locators": "s. 203-206 (PDF: 204-207)",
+        "textbook_form_ids": [
+          "FORM_IN_T3_YAZMA_CRITERIA"
+        ],
+        "observed_textbook_structure": "Metin düzeltme/revizyon yönergeleri, yazım/noktalama denetimi ve s. 205'teki ölçüt tablosu mevcuttur.",
+        "coverage_decision": "COVERED",
+        "remaining_gap": null,
+        "why_existing_resources_are_sufficient_or_insufficient": "Ders kitabı s. 203-206'daki etkinlikler ve ölçüt tablosu kural uygulama kazanımını eksiksiz karşılamaktadır."
+      }
+    },
+    {
+      "outcome_code": "TDE4.4",
+      "outcome_id": "TDE9_T3_Y4",
+      "stage_a_instructional_requirement": {
+        "required_learning_experience": "Yazılı ürün (infografik metin) sonrasında öz değerlendirme formuyla yansıtma yapma, akran değerlendirmesi gerçekleştirme, öğretmen geri bildirimi alma, metni düzenleme ve öğretmen tarafından dereceli puanlama anahtarı ile değerlendirilme.",
+        "expected_student_action": "Öz değerlendirme formundaki yansıtma sorularını yanıtlama, akran infografik metnini inceleyerek nitel geri bildirim verme, metne son şeklini verme; öğretmen dereceli puanlama anahtarı değerlendirmesini alma.",
+        "expected_student_evidence": "Doldurulmuş öz değerlendirme formu (`FORM_BOB_05_T3_YAZMA_OZ`), akran değerlendirme formu (`FORM_BOB_10_T3_T4_AKRAN`), öğretmen gözlem formu (`FORM_BOB_11_GENEL_GOZLEM`), son şekli verilmiş infografik metin ürünü, öğretmen dereceli puanlama anahtarı çıktısı.",
+        "required_assessment_structure": "Öz değerlendirme formu (`self_assessment_form`), akran değerlendirme formu (`peer_assessment_form`), öğretmen gözlem formu (`teacher_evaluation_form`) ve programın açıkça şart koştuğu dereceli puanlama anahtarı."
+      },
+      "stage_b_resource_gap_evaluation": {
+        "textbook_activity_ids": [
+          "T3_ACT_13_YAZMA_SONRASI"
+        ],
+        "textbook_locators": "s. 206, 306, 311, 312 (PDF: 207, 307, 312, 313)",
+        "textbook_form_ids": [
+          "FORM_BOB_05_T3_YAZMA_OZ",
+          "FORM_BOB_10_T3_T4_AKRAN",
+          "FORM_BOB_11_GENEL_GOZLEM"
+        ],
+        "observed_textbook_structure": "s. 206'daki yönlendirmelerle kitap sonundaki s. 306 (öz değerlendirme ve 3 yansıtma sorusu), s. 311 (nitel akran formu), s. 312 (öğretmen gözlem formu), revizyon yönergeleri ve s. 205'teki ölçüt tablosu mevcuttur. Ancak programın s. 82 ve s. 88'de açıkça şart koştuğu 'Öğrencinin yazılı ürünleri dereceli puanlama anahtarı ile puanlanır' gereksinimine uygun dereceli puanlama anahtarı yapısı bulunmamaktadır.",
+        "coverage_decision": "PARTIALLY_COVERED",
+        "remaining_gap": "Kitapta programın istediği dereceli puanlama anahtarı yapısının bulunmaması (Kitap s. 205'teki `FORM_IN_T3_YAZMA_CRITERIA` bir `assessment_criteria_table` olup dereceli puanlama anahtarı değildir; s. 306 öz değerlendirme, s. 311 akran, s. 312 gözlem formları ve revizyon süreci bu yapının yerine geçmez. Çok boyutlu ölçütleri derecelendirmek üzere analitik rubrik desteği gereklidir).",
+        "why_existing_resources_are_sufficient_or_insufficient": "Ders kitabı yazılı ürün üretimini, revizyon adımlarını, öz/akran değerlendirmesini ve ölçüt listesini eksiksiz sunmaktadır; ancak programın öğretmenin dereceli puanlama anahtarı ile puanlama yapması ve standartlara dayalı geri bildirim vermesi gereksinimini karşılayacak dereceli puanlama anahtarı yapısı mevcut değildir."
+      }
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0",
+  "theme_id": "TEMA_03",
+  "theme_no": 3,
+  "exact_theme_name": "3. TEMA: ANLAMIN YAPI TAŞLARI",
+  "course_id": "TDE_9",
+  "grade": 9,
+  "total_resources": 6,
+  "summary_metrics": {
+    "REQUIRED": 2,
+    "RECOMMENDED": 0,
+    "OPTIONAL": 0,
+    "NOT_NEEDED": 4,
+    "REUSE_TEXTBOOK": 4,
+    "REUSE_WITH_TEACHER_GUIDE": 0,
+    "ADAPT_TEXTBOOK_ACTIVITY": 0,
+    "GENERATE": 0,
+    "GENERATE_ASSESSMENT_SUPPORT": 2,
+    "GENERATE_DIFFERENTIATION": 0,
+    "GENERATE_ENRICHMENT": 0,
+    "NO_ACTION": 0
+  },
+  "resource_plans": [
+    {
+      "resource_plan_id": "RES_T3_01_DINLEME_IZLEME",
+      "need_id": "NEED_T3_01_DINLEME_IZLEME",
+      "resource_type": "learning_input_or_representation",
+      "target_outcomes": [
+        "TDE1.1",
+        "TDE1.2",
+        "TDE1.3"
+      ],
+      "purpose": "Nevruz Belgeseli dinleme/izleme metni ve çok modlu metin tahlili etkinlikleri ile öğrencilerin dinleme sürecini yönetmesi, açık/örtük iletileri tespit etmesi ve kültürel aktarımı çözümlemesi.",
+      "expected_student_evidence": "Dinleme/izleme sırası notları, açık ve örtük ileti listesi, tahlil soruları cevapları.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Ders kitabı s. 198-202'de video karekodu (`T3_TXT_03`), dinleme öncesi/sırası rehberliği (`T3_ACT_10`) ve tahlil soruları (`T3_ACT_11`) eksiksiz yer aldığından yeni kaynak üretimi gerekmemektedir.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "RES_T3_02_OKUMA_METINLERI_VE_TAHLIL",
+      "need_id": "NEED_T3_02_OKUMA_HIKAYE_GEZI",
+      "resource_type": "learning_input_or_representation",
+      "target_outcomes": [
+        "TDE2.1",
+        "TDE2.2",
+        "TDE2.3"
+      ],
+      "purpose": "'Eskici' hikâyesi ve 'Bizim Akdeniz'den' gezi yazısı metinleri ile metin yapısını (olay, kişi, mekân, zaman, anlatıcı, bakış açısı), anlatım tekniklerini (iç konuşma, diyalog) ve belirteçleri tahlil etme.",
+      "expected_student_evidence": "Okuma öncesi tahminler, metin üzeri işaretlemeler, tahlil soruları ve yapı tablosu yanıtları, kontrol noktası listeleri.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Ders kitabı s. 153-193'te tam metinler (`T3_TXT_01`, `T3_TXT_02`), okuma öncesi/sırası/sonrası etkinlikleri (`T3_ACT_01` ila `T3_ACT_07`) eksiksiz mevcuttur.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "RES_T3_03_KONUSMA_ATOLYESI",
+      "need_id": "NEED_T3_03_KONUSMA_ATOLYESI",
+      "resource_type": "student_production_task",
+      "target_outcomes": [
+        "TDE3.1",
+        "TDE3.2",
+        "TDE3.3"
+      ],
+      "purpose": "'Benim Mekânım' görsel destekli sunum görevi, hazırlık basamakları, içerik kurgusu ve sunum kuralları ile öğrencilerin edebî metinlerdeki mekân ile kendi çevresini karşılaştıran sunum gerçekleştirmesi.",
+      "expected_student_evidence": "Sözlü sunum performansı, görsel sunum slaytları ve hazırlık planı.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Ders kitabı s. 193-196'da görev yönergeleri (`T3_ACT_08`) ve s. 195'teki ölçüt tablosu (`FORM_IN_T3_KONUSMA_CRITERIA`) konuşma üretim görevini tam olarak karşılamaktadır.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "RES_T3_04_YAZMA_ATOLYESI",
+      "need_id": "NEED_T3_04_YAZMA_ATOLYESI",
+      "resource_type": "student_production_task",
+      "target_outcomes": [
+        "TDE4.1",
+        "TDE4.2",
+        "TDE4.3"
+      ],
+      "purpose": "'Nevruz'un İzinde: Bir Belgeselin İnfografiği' yazma görevi, görsel-metin planlama adımları, söz varlığı kullanımı ve metin revizyonu ile öğrencilerin belgeseli infografik metne dönüştürmesi.",
+      "expected_student_evidence": "İnfografik metin planlama taslağı ve son şekli verilmiş infografik metin ürünü.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Ders kitabı s. 203-206'da görev adımları (`T3_ACT_12`, `T3_ACT_13`) ve s. 205'teki ölçüt tablosu (`FORM_IN_T3_YAZMA_CRITERIA`) yazma üretim görevini eksiksiz sağlamaktadır.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "RES_T3_05_KONUSMA_RUBRIC",
+      "need_id": "NEED_T3_03_KONUSMA_ATOLYESI",
+      "resource_type": "assessment_support",
+      "target_outcomes": [
+        "TDE3.4"
+      ],
+      "purpose": "Programın TDE3.4 çıktısında ve süreç açıklamalarında (s. 82, 86) zorunlu kıldığı 'Sunumlar, dereceli puanlama anahtarı ile puanlanır' gereksinimini karşılamak üzere; içerik, anlatım, organizasyon ve iletişim alt boyutlarını içeren Konuşma Becerisi Dereceli Puanlama Anahtarı (Analytic Rubric) desteği sağlamak.",
+      "expected_student_evidence": "Öğretmen dereceli puanlama anahtarı puanlaması, doldurulmuş öz ve akran formları, yansıtma notları.",
+      "priority": "REQUIRED",
+      "rationale": "Ders kitabındaki FORM_IN_T3_KONUSMA_CRITERIA (s. 195) bir ölçüt tablosudur (assessment_criteria_table); kitapta programın istediği dereceli puanlama anahtarı yapısı bulunmamaktadır. Öz değerlendirme (s. 307), akran formu (s. 311) ve gözlem formu (s. 312) bu yapıyı karşılamaz. Programın 'Sunumlar, dereceli puanlama anahtarı ile puanlanır' şartını yerine getirmek üzere çok boyutlu ölçütleri derecelendiren analitik rubrik desteği gereklidir.",
+      "textbook_coverage": "PARTIALLY_COVERED",
+      "reuse_existing_resource": true,
+      "production_decision": "GENERATE_ASSESSMENT_SUPPORT",
+      "external_source_needed": false,
+      "teacher_review_required": true
+    },
+    {
+      "resource_plan_id": "RES_T3_06_YAZMA_RUBRIC",
+      "need_id": "NEED_T3_04_YAZMA_ATOLYESI",
+      "resource_type": "assessment_support",
+      "target_outcomes": [
+        "TDE4.4"
+      ],
+      "purpose": "Programın TDE4.4 çıktısında ve süreç açıklamalarında (s. 82, 88) zorunlu kıldığı 'Öğrencinin yazılı ürünleri dereceli puanlama anahtarı ile puanlanır' gereksinimini karşılamak üzere; anlam, dil ve görsel ögelerin kullanımı, özgünlük, tutarlılık, doğruluk, yazım ve noktalama boyutlarını içeren İnfografik Metin Yazma Becerisi Dereceli Puanlama Anahtarı (Analytic Rubric) desteği sağlamak.",
+      "expected_student_evidence": "Öğretmen dereceli puanlama anahtarı puanlaması, doldurulmuş öz ve akran formları, revize edilmiş nihai infografik metin ürünü.",
+      "priority": "REQUIRED",
+      "rationale": "Öğrencinin yazma görevi, revizyonu (s. 206), öz değerlendirmesi (s. 306), akran değerlendirmesi (s. 311), ölçüt listesi (s. 205) ve gözlem formu (s. 312) ders kitabında mevcuttur. Kitap s. 205'teki FORM_IN_T3_YAZMA_CRITERIA bir assessment_criteria_table olup dereceli puanlama anahtarı yapısı içermez. Programın 'Öğrencinin yazılı ürünleri dereceli puanlama anahtarı ile puanlanır' zorunluluğunu karşılamak üzere analitik rubrik desteği üretilmesi gereklidir.",
+      "textbook_coverage": "PARTIALLY_COVERED",
+      "reuse_existing_resource": true,
+      "production_decision": "GENERATE_ASSESSMENT_SUPPORT",
+      "external_source_needed": false,
+      "teacher_review_required": true
+    }
+  ]
+}

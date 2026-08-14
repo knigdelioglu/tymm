@@ -1,0 +1,188 @@
+{
+  "description": "Evaluation cases for TYMM Knowledge Resolver and Local Hybrid RAG with Hardened Safety & Disambiguation",
+  "course_id": "TDE_9",
+  "cases": [
+    {
+      "case_id": "TC_01_OUTCOME_AMBIGUITY",
+      "test_category": "TEST_1_AMBIGUITY_QUERY",
+      "query": "TDE4.4",
+      "expected_mode": ["EXACT", "STRUCTURED"],
+      "expected_intent": "FACT_LOOKUP",
+      "expected_ambiguity_status": "AMBIGUOUS_ENTITY",
+      "expected_resolution_status": "PARTIALLY_RESOLVED",
+      "target_candidates": [
+        "TEMA_01::TDE4.4",
+        "TEMA_02::TDE4.4",
+        "TEMA_03::TDE4.4",
+        "TEMA_04::TDE4.4"
+      ],
+      "target_entities": ["TDE4.4"],
+      "expected_authority_level": 1,
+      "expected_authority_name": "OFFICIAL_CURRICULUM_FROZEN",
+      "generation_allowed": false
+    },
+    {
+      "case_id": "TC_02_THEME2_GAP",
+      "test_category": "TEST_2_GAP_QUERY",
+      "query": "Tema 2 TDE4.4 için kitapta ne eksik?",
+      "expected_mode": ["STRUCTURED"],
+      "expected_intent": "ALIGNMENT_LOOKUP",
+      "expected_ambiguity_status": "UNAMBIGUOUS",
+      "expected_resolution_status": "RESOLVED",
+      "target_entities": ["TDE4.4", "GAP_T2_Y4", "MAT_T2_YAZMA_RUBRIC"],
+      "target_keys": [
+        "TDE_9::curriculum_outcome::TEMA_02::TDE4.4",
+        "TDE_9::production_material::MAT_T2_YAZMA_RUBRIC"
+      ],
+      "expected_coverage": "PARTIALLY_COVERED",
+      "expected_production_decision": "GENERATE_ASSESSMENT_SUPPORT",
+      "required_fields_in_context": ["remaining_gaps", "production_context"]
+    },
+    {
+      "case_id": "TC_03_THEME3_SPEAKING_ASSESSMENT",
+      "test_category": "TEST_3_ASSESSMENT_QUERY",
+      "query": "Tema 3 konuşmayı nasıl değerlendireceğim?",
+      "expected_mode": ["FTS", "VECTOR"],
+      "expected_intent": "ASSESSMENT_LOOKUP",
+      "expected_resolution_status": "RESOLVED",
+      "target_entities": [
+        "MAT_T3_KONUSMA_RUBRIC",
+        "FORM_IN_T3_KONUSMA_CRITERIA",
+        "FORM_BOB_06_T3_KONUSMA_OZ",
+        "TDE3.4"
+      ],
+      "target_keys": [
+        "TDE_9::production_material::MAT_T3_KONUSMA_RUBRIC",
+        "TDE_9::textbook_form::FORM_IN_T3_KONUSMA_CRITERIA",
+        "TDE_9::textbook_form::FORM_BOB_06_T3_KONUSMA_OZ"
+      ],
+      "required_fields_in_context": ["assessment_context", "production_context"]
+    },
+    {
+      "case_id": "TC_04_SEMANTIC_POETRY_WRITING",
+      "test_category": "TEST_4_SEMANTIC_QUERY",
+      "query": "şiir yazarken öğrenciyi nasıl değerlendireceğim?",
+      "expected_mode": ["FTS", "VECTOR"],
+      "expected_intent": "ASSESSMENT_LOOKUP",
+      "expected_resolution_status": "RESOLVED",
+      "target_entities": [
+        "MAT_T2_YAZMA_RUBRIC",
+        "FORM_IN_T2_YAZMA_CRITERIA",
+        "TDE4.4",
+        "OPT_T2_SBP_05_GENC_SAIRLER_METINLERARASI_ATOLYE"
+      ],
+      "target_keys": [
+        "TDE_9::production_material::MAT_T2_YAZMA_RUBRIC",
+        "TDE_9::textbook_form::FORM_IN_T2_YAZMA_CRITERIA"
+      ],
+      "required_fields_in_context": ["production_context", "assessment_context"]
+    },
+    {
+      "case_id": "TC_05_THEME4_SCHOOL_BASED",
+      "test_category": "TEST_5_SCHOOL_BASED_QUERY",
+      "query": "Tema 4 okul temelli planlama seçenekleri",
+      "expected_mode": ["STRUCTURED"],
+      "expected_intent": "SCHOOL_BASED_LOOKUP",
+      "expected_resolution_status": "RESOLVED",
+      "target_entities": [
+        "OPT_T4_SBP_01_SOSYAL_MEDYA_DIL_ELESTIRISI_FORUMU",
+        "OPT_T4_SBP_02_YEREL_EDINILMIS_KULTUREL_DEGER_PORTRESI",
+        "OPT_T4_SBP_03_BAGLASIKLIK_BAGDASIKLIK_KLINIGI",
+        "OPT_T4_SBP_04_CALIKUSU_SAHNELEME_VE_METINLERARASILIK",
+        "OPT_T4_SBP_05_YILLIK_GELISIM_VE_PORTFOLYO_KAPATIS"
+      ],
+      "expected_authority_level": 8,
+      "expected_authority_name": "PEDAGOGICAL_RECOMMENDATION",
+      "required_fields_in_context": ["pedagogical_recommendations"]
+    },
+    {
+      "case_id": "TC_06_NEGATIVE_ANALYTIC_RUBRIC",
+      "test_category": "TEST_6_NEGATIVE_VERIFICATION",
+      "query": "Kitapta analitik rubrik var mı?",
+      "expected_intent": "ASSESSMENT_LOOKUP",
+      "expected_resolution_status": "RESOLVED",
+      "target_entities": ["analytic_rubric_in_textbook", "textbook_form"],
+      "expected_fact": "canonical_count == 0",
+      "textbook_has_analytic_rubric": false,
+      "required_fields_in_context": ["assessment_context"]
+    },
+    {
+      "case_id": "TC_07_LOCAL_CULTURAL_HERITAGE",
+      "test_category": "TEST_7_LOCAL_CONTEXT_QUERY",
+      "query": "yerel kültürel mirasla ilgili ne yapabilirim?",
+      "expected_intent": "GENERAL_SEMANTIC_QUERY",
+      "expected_resolution_status": "RESOLVED",
+      "target_entities": [
+        "OPT_T1_SBP_02_YEREL_SOZ_VARLIGI_ATOLYESI",
+        "OPT_T2_SBP_02_YEREL_SOZLU_TARIH_ANI_DERLEMESI",
+        "OPT_T3_SBP_01_YEREL_KULTUREL_RITUEL_DERLEMESI",
+        "OPT_T4_SBP_02_YEREL_EDINILMIS_KULTUREL_DEGER_PORTRESI",
+        "OPT_T3_SBP_04_INFOGRAFIK_DIJITAL_TASARIM_LAB"
+      ],
+      "expected_authority_level": 8,
+      "required_fields_in_context": ["pedagogical_recommendations"]
+    },
+    {
+      "case_id": "TC_08_THEME2_TDE4_4_EXACT",
+      "test_category": "TEST_1_FACT_QUERY",
+      "query": "Tema 2 TDE4.4",
+      "expected_mode": ["EXACT", "STRUCTURED"],
+      "expected_intent": "FACT_LOOKUP",
+      "expected_ambiguity_status": "UNAMBIGUOUS",
+      "expected_resolution_status": "RESOLVED",
+      "target_entities": ["TDE4.4"],
+      "target_keys": ["TDE_9::curriculum_outcome::TEMA_02::TDE4.4"],
+      "expected_authority_level": 1,
+      "expected_authority_name": "OFFICIAL_CURRICULUM_FROZEN",
+      "generation_allowed": true,
+      "required_fields_in_context": ["curriculum_context"]
+    },
+    {
+      "case_id": "TC_09_THEME3_SPEAKING_CANONICAL_FORM",
+      "test_category": "TEST_3_ASSESSMENT_QUERY",
+      "query": "Tema 3 konuşma öz değerlendirme formu",
+      "expected_intent": "ASSESSMENT_LOOKUP",
+      "expected_resolution_status": "RESOLVED",
+      "target_entities": ["FORM_BOB_06_T3_KONUSMA_OZ"],
+      "target_keys": ["TDE_9::textbook_form::FORM_BOB_06_T3_KONUSMA_OZ"],
+      "expected_authority_level": 3,
+      "required_fields_in_context": ["assessment_context"]
+    },
+    {
+      "case_id": "TC_10_THEME2_SPEAKING_RUBRIC_REQ",
+      "test_category": "TEST_3_ASSESSMENT_QUERY",
+      "query": "Tema 2 konuşma becerisi rubrik gereksinimi",
+      "expected_intent": "ASSESSMENT_LOOKUP",
+      "expected_resolution_status": "RESOLVED",
+      "target_entities": ["MAT_T2_KONUSMA_RUBRIC", "TDE3.4", "FORM_IN_T2_KONUSMA_CRITERIA"],
+      "target_keys": ["TDE_9::production_material::MAT_T2_KONUSMA_RUBRIC"],
+      "required_fields_in_context": ["production_context"]
+    },
+    {
+      "case_id": "TC_11_THEME3_WRITING_GAP",
+      "test_category": "TEST_2_GAP_QUERY",
+      "query": "Tema 3 infografik yazma için kitapta rubrik var mı?",
+      "expected_intent": "ASSESSMENT_LOOKUP",
+      "expected_resolution_status": "RESOLVED",
+      "target_entities": ["MAT_T3_YAZMA_RUBRIC", "FORM_IN_T3_YAZMA_CRITERIA", "GAP_T3_Y4"],
+      "target_keys": ["TDE_9::production_material::MAT_T3_YAZMA_RUBRIC"],
+      "required_fields_in_context": ["remaining_gaps", "production_context"]
+    },
+    {
+      "case_id": "TC_12_THEME1_SCHOOL_BASED",
+      "test_category": "TEST_5_SCHOOL_BASED_QUERY",
+      "query": "Tema 1 okul temelli planlama seçenekleri",
+      "expected_intent": "SCHOOL_BASED_LOOKUP",
+      "expected_resolution_status": "RESOLVED",
+      "target_entities": [
+        "OPT_T1_SBP_01_SES_BILGISI_KLINIK",
+        "OPT_T1_SBP_02_YEREL_SOZ_VARLIGI_ATOLYESI",
+        "OPT_T1_SBP_03_DISIPLINLERARASI_SANAT_SERGISI",
+        "OPT_T1_SBP_04_ALTI_SAPKA_DERINLESTIRME",
+        "OPT_T1_SBP_05_TEMA_YANSITMA_VE_PORTFOLYO"
+      ],
+      "expected_authority_level": 8,
+      "required_fields_in_context": ["pedagogical_recommendations"]
+    }
+  ]
+}

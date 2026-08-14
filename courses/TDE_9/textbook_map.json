@@ -1,0 +1,1325 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_9",
+  "source_id": "textbook_tde9_meb",
+  "book_title": "Ortaöğretim Türk Dili ve Edebiyatı 9. Sınıf Ders Kitabı",
+  "grade": 9,
+  "publisher": "Millî Eğitim Bakanlığı Yayınları (Yayın No: 9624, Ders Kitapları Dizisi: 2045)",
+  "edition_year": "2024",
+  "isbn": "978-975-11-8032-2",
+  "ttkb_decision": "17.07.2024 tarih ve 110460855 sayılı karar",
+  "total_themes": 4,
+  "page_offset_rule": "pdf_page = printed_page + 1 (for printed pages 7-317)",
+  "themes": [
+    {
+      "theme_id": "TEMA_01",
+      "theme_no": 1,
+      "theme_title": "Sözün İnceliği",
+      "printed_page_range": "12-71",
+      "pdf_page_range": "13-72",
+      "theme_cover": {
+        "printed_page": 12,
+        "pdf_page": 13,
+        "key_concepts": [
+          "açık ve örtük ileti",
+          "çağrışım",
+          "edebî dil",
+          "gerçeklik",
+          "günlük dil",
+          "hayal gücü",
+          "imge",
+          "kurmaca",
+          "sembol",
+          "söz varlığı",
+          "sürükleyicilik",
+          "yaratıcılık"
+        ]
+      },
+      "sections": [
+        {
+          "section_id": "T1_SEC_01_OKUMA_SIIR",
+          "section_title": "Okuma: Şiir",
+          "genre": "Şiir",
+          "printed_page_range": "15-37",
+          "pdf_page_range": "16-38",
+          "main_texts": [
+            {
+              "text_id": "T1_TXT_01",
+              "title": "San'at",
+              "author": "Faruk Nafiz Çamlıbel",
+              "genre": "Şiir",
+              "printed_page": 17,
+              "pdf_page": 18
+            }
+          ],
+          "activities": [
+            {
+              "activity_id": "T1_ACT_01_OKUMA_ONCESI_SIIR",
+              "theme_id": "TEMA_01",
+              "section_id": "T1_SEC_01_OKUMA_SIIR",
+              "exact_title": "Okuma Öncesi: Şiir ve İnceleme Hazırlığı",
+              "activity_type": "reading_preparation",
+              "student_action": "Şiirin başlığından ve görsellerinden hareketle konusunu tahmin etme; ses kaydını dinleme.",
+              "expected_product_or_evidence": "Tahmin ifadeleri ve sesli okuma uygulaması.",
+              "printed_page": 16,
+              "pdf_page": 17,
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T1_ACT_02_OKUMA_SIRASI_SIIR",
+              "theme_id": "TEMA_01",
+              "section_id": "T1_SEC_01_OKUMA_SIIR",
+              "exact_title": "Okuma Sırası: San'at Şiiri Metin Tahlili",
+              "activity_type": "reading_analysis",
+              "student_action": "Şiiri okuma, bilinmeyen kelimelerin altını çizme, bağlamdan anlam çıkarma.",
+              "expected_product_or_evidence": "Şiir üzerinde işaretlemeler ve söz varlığı notları.",
+              "printed_page": 17,
+              "pdf_page": 18,
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T1_ACT_03_OKUMA_SONRASI_SIIR_ANLAMA",
+              "theme_id": "TEMA_01",
+              "section_id": "T1_SEC_01_OKUMA_SIIR",
+              "exact_title": "Okuma Sonrası: Anlama ve Çözümleme",
+              "activity_type": "post_reading_comprehension",
+              "student_action": "Şiirdeki açık ve örtük iletileri belirleme, zihin haritası çıkarma.",
+              "expected_product_or_evidence": "Anlama soruları yanıtları ve zihin haritası.",
+              "printed_page": "18-20",
+              "pdf_page": "19-21",
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T1_ACT_04_GUZEL_SANATLAR_DISIPLINLER",
+              "theme_id": "TEMA_01",
+              "section_id": "T1_SEC_01_OKUMA_SIIR",
+              "exact_title": "Güzel Sanatlar ve Diğer Disiplinlerle İlişki Tahlili",
+              "activity_type": "interdisciplinary_analysis",
+              "student_action": "Edebiyatın güzel sanatlar içindeki yeri ve diğer bilim dallarıyla ilişkisini metinler üzerinden açıklama.",
+              "expected_product_or_evidence": "Disiplinler arası ilişki matrisi çözümleri.",
+              "printed_page": "21-26",
+              "pdf_page": "22-27",
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T1_ACT_05_DIL_BILGISI_SES_BILGISI",
+              "theme_id": "TEMA_01",
+              "section_id": "T1_SEC_01_OKUMA_SIIR",
+              "exact_title": "Dil Bilgisi: Türkçenin Ses Bilgisi ve Ses Olayları",
+              "activity_type": "language_study",
+              "student_action": "Metinlerdeki ünlü uyumlarını ve ünsüz olaylarını tespit etme.",
+              "expected_product_or_evidence": "Ses bilgisi uygulama tablosu.",
+              "printed_page": "27-36",
+              "pdf_page": "28-37",
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T1_ACT_06_KONTROL_NOKTASI_SIIR",
+              "theme_id": "TEMA_01",
+              "section_id": "T1_SEC_01_OKUMA_SIIR",
+              "exact_title": "Kontrol Noktası: Şiir ve Edebiyat Bilgisi Öz Değerlendirmesi",
+              "activity_type": "checkpoint_self_check",
+              "student_action": "Kazanımları kontrol listesinde işaretleme.",
+              "expected_product_or_evidence": "İşaretlenmiş kontrol noktası tablosu.",
+              "printed_page": 37,
+              "pdf_page": 38,
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            }
+          ]
+        },
+        {
+          "section_id": "T1_SEC_02_OKUMA_DENEME",
+          "section_title": "Okuma: Deneme",
+          "genre": "Deneme",
+          "printed_page_range": "38-50",
+          "pdf_page_range": "39-51",
+          "main_texts": [
+            {
+              "text_id": "T1_TXT_04",
+              "title": "Picasso'nun Hatları",
+              "author": "Rasim Özdenören",
+              "genre": "Deneme (Ruhun Malzemeleri)",
+              "printed_page": "40-42",
+              "pdf_page": "41-43"
+            }
+          ],
+          "activities": [
+            {
+              "activity_id": "T1_ACT_07_OKUMA_ONCESI_DENEME",
+              "theme_id": "TEMA_01",
+              "section_id": "T1_SEC_02_OKUMA_DENEME",
+              "exact_title": "Okuma Öncesi: Deneme Türü ve Resim Sanatı Hazırlığı",
+              "activity_type": "reading_preparation",
+              "student_action": "Sanat ve gelenek ilişkisi üzerine düşünme, tahminlerde bulunma.",
+              "expected_product_or_evidence": "Ön bilgi ve tartışma notları.",
+              "printed_page": 39,
+              "pdf_page": 40,
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T1_ACT_08_OKUMA_SONRASI_DENEME_TAHLIL",
+              "theme_id": "TEMA_01",
+              "section_id": "T1_SEC_02_OKUMA_DENEME",
+              "exact_title": "Okuma Sonrası: Deneme Metin Tahlili ve Düşünceyi Geliştirme Yolları",
+              "activity_type": "post_reading_comprehension",
+              "student_action": "Ana düşünceyi, yazarın bakış açısını ve düşünceyi geliştirme yollarını belirleme.",
+              "expected_product_or_evidence": "Tahlil soruları ve düşünceyi geliştirme yolları tablosu.",
+              "printed_page": "42-50",
+              "pdf_page": "43-51",
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            }
+          ]
+        },
+        {
+          "section_id": "T1_SEC_03_YAZMA_ATOLYESI",
+          "section_title": "Edebiyat Atölyesi: Yazma",
+          "genre": "Betimleyici Paragraf",
+          "printed_page_range": "51-55",
+          "pdf_page_range": "52-56",
+          "main_texts": [],
+          "activities": [
+            {
+              "activity_id": "T1_ACT_09_YAZMA_SIRASI",
+              "theme_id": "TEMA_01",
+              "section_id": "T1_SEC_03_YAZMA_ATOLYESI",
+              "exact_title": "Yazma Sırası: Duygularımı Betimliyorum",
+              "activity_type": "writing_workshop",
+              "student_action": "Şiirden hareketle betimleyici bir paragraf yazma.",
+              "expected_product_or_evidence": "Betimleyici paragraf taslağı.",
+              "printed_page": "51-54",
+              "pdf_page": "52-55",
+              "related_forms": [
+                "FORM_IN_T1_YAZMA_CRITERIA"
+              ],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T1_ACT_10_YAZMA_SONRASI",
+              "theme_id": "TEMA_01",
+              "section_id": "T1_SEC_03_YAZMA_ATOLYESI",
+              "exact_title": "Yazma Sonrası: Paylaşım ve Form Değerlendirmesi",
+              "activity_type": "writing_evaluation_and_sharing",
+              "student_action": "Paragrafı sunma; 302. sayfadaki Öz Değerlendirme Formunu, 310. sayfadaki Akran Değerlendirme Formunu ve 312. sayfadaki Gözlem Formunu kullanma.",
+              "expected_product_or_evidence": "Doldurulmuş formlar ve nihai paragraf.",
+              "printed_page": 55,
+              "pdf_page": 56,
+              "related_forms": [
+                "FORM_BOB_01_T1_YAZMA_OZ",
+                "FORM_BOB_09_T1_T2_AKRAN",
+                "FORM_BOB_11_GENEL_GOZLEM"
+              ],
+              "verification_status": "VERIFIED"
+            }
+          ]
+        },
+        {
+          "section_id": "T1_SEC_04_DINLEME_IZLEME",
+          "section_title": "Dinleme/İzleme: Mülakat",
+          "genre": "Mülakat",
+          "printed_page_range": "56-62",
+          "pdf_page_range": "57-63",
+          "main_texts": [
+            {
+              "text_id": "T1_TXT_06",
+              "title": "Selim İleri'yle Mülakat",
+              "author": "Selim İleri / Video İçerik",
+              "genre": "Mülakat (Çok Modlu Dinleme/İzleme)",
+              "printed_page": 58,
+              "pdf_page": 59
+            }
+          ],
+          "activities": [
+            {
+              "activity_id": "T1_ACT_11_DINLEME_ONCESI_VE_SIRASI",
+              "theme_id": "TEMA_01",
+              "section_id": "T1_SEC_04_DINLEME_IZLEME",
+              "exact_title": "Dinleme/İzleme Öncesi ve Sırası: Mülakat İzleme",
+              "activity_type": "listening_viewing_practice",
+              "student_action": "Karekoddan mülakatı izleme, notlar alma.",
+              "expected_product_or_evidence": "İzleme notları.",
+              "printed_page": "57-58",
+              "pdf_page": "58-59",
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T1_ACT_12_DINLEME_SONRASI_KARSILASTIRMA",
+              "theme_id": "TEMA_01",
+              "section_id": "T1_SEC_04_DINLEME_IZLEME",
+              "exact_title": "Dinleme/İzleme Sonrası: Edebî Dil ve Günlük Dil Karşılaştırması",
+              "activity_type": "post_listening_analysis",
+              "student_action": "Edebî dil ile günlük dil arasındaki farkları tablolama.",
+              "expected_product_or_evidence": "Karşılaştırma tablosu.",
+              "printed_page": "59-62",
+              "pdf_page": "60-63",
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            }
+          ]
+        },
+        {
+          "section_id": "T1_SEC_05_KONUSMA_ATOLYESI",
+          "section_title": "Edebiyat Atölyesi: Konuşma",
+          "genre": "Sözlü Sunum",
+          "printed_page_range": "63-66",
+          "pdf_page_range": "64-67",
+          "main_texts": [],
+          "activities": [
+            {
+              "activity_id": "T1_ACT_13_KONUSMA_SIRASI",
+              "theme_id": "TEMA_01",
+              "section_id": "T1_SEC_05_KONUSMA_ATOLYESI",
+              "exact_title": "Konuşma Sırası: Düşüncelerimi Sunuyorum (Altı Şapka Tekniği)",
+              "activity_type": "speaking_workshop",
+              "student_action": "Altı şapkalı düşünme tekniği ile grup konuşması hazırlama ve sunma.",
+              "expected_product_or_evidence": "Grup sözlü sunumu.",
+              "printed_page": "63-65",
+              "pdf_page": "64-66",
+              "related_forms": [
+                "FORM_IN_T1_KONUSMA_CRITERIA"
+              ],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T1_ACT_14_KONUSMA_SONRASI",
+              "theme_id": "TEMA_01",
+              "section_id": "T1_SEC_05_KONUSMA_ATOLYESI",
+              "exact_title": "Konuşma Sonrası: Değerlendirme ve Geri Bildirim",
+              "activity_type": "speaking_evaluation",
+              "student_action": "303. sayfadaki Öz Değerlendirme Formunu, 310. sayfadaki Akran Değerlendirme Formunu ve 312. sayfadaki Gözlem Formunu doldurma.",
+              "expected_product_or_evidence": "Doldurulmuş formlar.",
+              "printed_page": 66,
+              "pdf_page": 67,
+              "related_forms": [
+                "FORM_BOB_02_T1_KONUSMA_OZ",
+                "FORM_BOB_09_T1_T2_AKRAN",
+                "FORM_BOB_11_GENEL_GOZLEM"
+              ],
+              "verification_status": "VERIFIED"
+            }
+          ]
+        },
+        {
+          "section_id": "T1_SEC_06_TEMA_SONU_DEGERLENDIRME",
+          "section_title": "Tema Sonu Ölçme ve Değerlendirme",
+          "genre": "Değerlendirme",
+          "printed_page_range": "67-71",
+          "pdf_page_range": "68-72",
+          "main_texts": [],
+          "activities": [
+            {
+              "activity_id": "T1_ACT_15_TEMA_SONU_OLCME",
+              "theme_id": "TEMA_01",
+              "section_id": "T1_SEC_06_TEMA_SONU_DEGERLENDIRME",
+              "exact_title": "1. Tema Sonu Ölçme ve Değerlendirme Soruları",
+              "activity_type": "end_of_theme_assessment",
+              "student_action": "Tema sonu sorularını yanıtlama.",
+              "expected_product_or_evidence": "Test cevapları.",
+              "printed_page": "67-70",
+              "pdf_page": "68-71",
+              "related_forms": [
+                "FORM_IN_T1_TEMA_SONU_TEST"
+              ],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T1_ACT_16_OGRENME_GUNLUGU",
+              "theme_id": "TEMA_01",
+              "section_id": "T1_SEC_06_TEMA_SONU_DEGERLENDIRME",
+              "exact_title": "1. Tema Öğrenme Günlüğü",
+              "activity_type": "learning_journal_and_prep",
+              "student_action": "Kazanımları günlüğe yazma.",
+              "expected_product_or_evidence": "Öğrenme günlüğü yazısı.",
+              "printed_page": 71,
+              "pdf_page": 72,
+              "related_forms": [
+                "FORM_IN_T1_OGRENME_GUNLUGU"
+              ],
+              "verification_status": "VERIFIED"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theme_id": "TEMA_02",
+      "theme_no": 2,
+      "theme_title": "Anlam Arayışı",
+      "printed_page_range": "72-143",
+      "pdf_page_range": "73-144",
+      "theme_cover": {
+        "printed_page": 72,
+        "pdf_page": 73,
+        "key_concepts": [
+          "anlatıcı",
+          "bakış açısı",
+          "çatışma",
+          "hikâye",
+          "anı (hatıra)",
+          "tarihî gerçeklik",
+          "imge",
+          "ahenk"
+        ]
+      },
+      "sections": [
+        {
+          "section_id": "T2_SEC_01_OKUMA_HIKAYE",
+          "section_title": "Okuma: Hikâye",
+          "genre": "Hikâye",
+          "printed_page_range": "75-98",
+          "pdf_page_range": "76-99",
+          "main_texts": [
+            {
+              "text_id": "T2_TXT_01",
+              "title": "Bir Kavak ve İnsanlar",
+              "author": "Tarık Buğra",
+              "genre": "Hikâye",
+              "printed_page": "77-80",
+              "pdf_page": "78-81"
+            }
+          ],
+          "activities": [
+            {
+              "activity_id": "T2_ACT_01_OKUMA_ONCESI_HIKAYE",
+              "theme_id": "TEMA_02",
+              "section_id": "T2_SEC_01_OKUMA_HIKAYE",
+              "exact_title": "Okuma Öncesi: Hikâye Türü Hazırlığı",
+              "activity_type": "reading_preparation",
+              "student_action": "Görsellerden hareketle olay örgüsünü tahmin etme.",
+              "expected_product_or_evidence": "Tahmin notları.",
+              "printed_page": 76,
+              "pdf_page": 77,
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T2_ACT_02_OKUMA_SIRASI_HIKAYE",
+              "theme_id": "TEMA_02",
+              "section_id": "T2_SEC_01_OKUMA_HIKAYE",
+              "exact_title": "Okuma Sırası: Bir Kavak ve İnsanlar Metin Tahlili",
+              "activity_type": "reading_analysis",
+              "student_action": "Metni okuma, karakterleri ve olay örgüsünü not alma.",
+              "expected_product_or_evidence": "Metin üzeri notlar.",
+              "printed_page": "77-80",
+              "pdf_page": "78-81",
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T2_ACT_03_OKUMA_SONRASI_HIKAYE_TAHLIL",
+              "theme_id": "TEMA_02",
+              "section_id": "T2_SEC_01_OKUMA_HIKAYE",
+              "exact_title": "Okuma Sonrası: Hikâye Yapı Unsurları ve Çatışma Tahlili",
+              "activity_type": "post_reading_comprehension",
+              "student_action": "Olay örgüsü, kişi, zaman ve mekân unsurlarını çözümleme.",
+              "expected_product_or_evidence": "Yapı unsurları tablosu.",
+              "printed_page": "81-97",
+              "pdf_page": "82-98",
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T2_ACT_04_KONTROL_NOKTASI_HIKAYE",
+              "theme_id": "TEMA_02",
+              "section_id": "T2_SEC_01_OKUMA_HIKAYE",
+              "exact_title": "Kontrol Noktası: Hikâye Kazanımları Kontrolü",
+              "activity_type": "checkpoint_self_check",
+              "student_action": "Hikâye kazanımlarını değerlendirme.",
+              "expected_product_or_evidence": "Kontrol listesi çıktısı.",
+              "printed_page": 98,
+              "pdf_page": 99,
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            }
+          ]
+        },
+        {
+          "section_id": "T2_SEC_02_OKUMA_ANI",
+          "section_title": "Okuma: Anı",
+          "genre": "Anı (Hatıra)",
+          "printed_page_range": "99-124",
+          "pdf_page_range": "100-125",
+          "main_texts": [
+            {
+              "text_id": "T2_TXT_02",
+              "title": "Nihayet Beklediğimiz Büyük Gün",
+              "author": "Halide Nusret Zorlutuna",
+              "genre": "Anı (Bir Devrin Romanı)",
+              "printed_page": "100-101",
+              "pdf_page": "101-102"
+            }
+          ],
+          "activities": [
+            {
+              "activity_id": "T2_ACT_05_OKUMA_ONCESI_ANI",
+              "theme_id": "TEMA_02",
+              "section_id": "T2_SEC_02_OKUMA_ANI",
+              "exact_title": "Okuma Öncesi: Anı Türü ve Millî Hafıza Hazırlığı",
+              "activity_type": "reading_preparation",
+              "student_action": "Tarihî olayların edebiyata yansıması üzerine tartışma.",
+              "expected_product_or_evidence": "Ön hazırlık notları.",
+              "printed_page": 99,
+              "pdf_page": 100,
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T2_ACT_06_OKUMA_SONRASI_ANI_TAHLIL",
+              "theme_id": "TEMA_02",
+              "section_id": "T2_SEC_02_OKUMA_ANI",
+              "exact_title": "Okuma Sonrası: Anı Metin Tahlili",
+              "activity_type": "post_reading_comprehension",
+              "student_action": "Tarihî gerçeklik ve yazarın duygu dünyasını tahlil etme.",
+              "expected_product_or_evidence": "Tahlil soruları cevapları.",
+              "printed_page": "102-123",
+              "pdf_page": "103-124",
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T2_ACT_07_KONTROL_NOKTASI_ANI",
+              "theme_id": "TEMA_02",
+              "section_id": "T2_SEC_02_OKUMA_ANI",
+              "exact_title": "Kontrol Noktası: Anı Türü ve Dil Bilgisi Kontrolü",
+              "activity_type": "checkpoint_self_check",
+              "student_action": "Kazanımları kontrol etme.",
+              "expected_product_or_evidence": "İşaretlenmiş kontrol tablosu.",
+              "printed_page": 124,
+              "pdf_page": 125,
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            }
+          ]
+        },
+        {
+          "section_id": "T2_SEC_03_KONUSMA_ATOLYESI",
+          "section_title": "Edebiyat Atölyesi: Konuşma",
+          "genre": "Karakter Canlandırma ve Konuşma",
+          "printed_page_range": "125-130",
+          "pdf_page_range": "126-131",
+          "main_texts": [],
+          "activities": [
+            {
+              "activity_id": "T2_ACT_08_KONUSMA_SIRASI",
+              "theme_id": "TEMA_02",
+              "section_id": "T2_SEC_03_KONUSMA_ATOLYESI",
+              "exact_title": "Konuşma Sırası: Karakterimin Yolculuğu",
+              "activity_type": "speaking_workshop",
+              "student_action": "Hikâye veya anı karakterinin yerine geçerek hazırlıklı konuşma yapma.",
+              "expected_product_or_evidence": "Sözlü sunum performansı.",
+              "printed_page": "125-129",
+              "pdf_page": "126-130",
+              "related_forms": [
+                "FORM_IN_T2_KONUSMA_CRITERIA"
+              ],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T2_ACT_09_KONUSMA_SONRASI",
+              "theme_id": "TEMA_02",
+              "section_id": "T2_SEC_03_KONUSMA_ATOLYESI",
+              "exact_title": "Konuşma Sonrası: Öz ve Akran Değerlendirme",
+              "activity_type": "speaking_evaluation",
+              "student_action": "305. sayfadaki Öz Değerlendirme Formunu, 310. sayfadaki Akran Değerlendirme Formunu ve 312. sayfadaki Gözlem Formunu doldurma.",
+              "expected_product_or_evidence": "Doldurulmuş formlar.",
+              "printed_page": 130,
+              "pdf_page": 131,
+              "related_forms": [
+                "FORM_BOB_04_T2_KONUSMA_OZ",
+                "FORM_BOB_09_T1_T2_AKRAN",
+                "FORM_BOB_11_GENEL_GOZLEM"
+              ],
+              "verification_status": "VERIFIED"
+            }
+          ]
+        },
+        {
+          "section_id": "T2_SEC_04_DINLEME_IZLEME",
+          "section_title": "Dinleme/İzleme: Şiir",
+          "genre": "Şiir Dinleme",
+          "printed_page_range": "131-138",
+          "pdf_page_range": "132-139",
+          "main_texts": [
+            {
+              "text_id": "T2_TXT_03",
+              "title": "Mihriban (Aşk)",
+              "author": "Abdurrahim Karakoç / Ses Kaydı",
+              "genre": "Şiir Dinleme",
+              "printed_page": 132,
+              "pdf_page": 133
+            }
+          ],
+          "activities": [
+            {
+              "activity_id": "T2_ACT_10_DINLEME_ONCESI_VE_SIRASI",
+              "theme_id": "TEMA_02",
+              "section_id": "T2_SEC_04_DINLEME_IZLEME",
+              "exact_title": "Dinleme/İzleme Öncesi ve Sırası: Mihriban Şiiri Dinleme",
+              "activity_type": "listening_viewing_practice",
+              "student_action": "Şairin sesinden şiiri dinleme, boşlukları doldurma.",
+              "expected_product_or_evidence": "Dinleme notları ve metin tamamlama.",
+              "printed_page": "131-132",
+              "pdf_page": "132-133",
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T2_ACT_11_DINLEME_SONRASI_TAHLIL",
+              "theme_id": "TEMA_02",
+              "section_id": "T2_SEC_04_DINLEME_IZLEME",
+              "exact_title": "Dinleme/İzleme Sonrası: Şiir Tahlili ve Söz Varlığı",
+              "activity_type": "post_listening_analysis",
+              "student_action": "Şiirin temasını, söz varlığını ve ahengini inceleme.",
+              "expected_product_or_evidence": "Dinleme anlama soruları çözümleri.",
+              "printed_page": "133-138",
+              "pdf_page": "134-139",
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            }
+          ]
+        },
+        {
+          "section_id": "T2_SEC_05_YAZMA_ATOLYESI",
+          "section_title": "Edebiyat Atölyesi: Yazma",
+          "genre": "Şiir Yazma",
+          "printed_page_range": "139-142",
+          "pdf_page_range": "140-143",
+          "main_texts": [],
+          "activities": [
+            {
+              "activity_id": "T2_ACT_12_YAZMA_SIRASI",
+              "theme_id": "TEMA_02",
+              "section_id": "T2_SEC_05_YAZMA_ATOLYESI",
+              "exact_title": "Yazma Sırası: Genç Şairlerden Mısralar (Ben Şair Olsaydım)",
+              "activity_type": "writing_workshop",
+              "student_action": "Özgün bir şiir taslağı oluşturma ve yazma.",
+              "expected_product_or_evidence": "Öğrenci şiiri.",
+              "printed_page": "139-141",
+              "pdf_page": "140-142",
+              "related_forms": [
+                "FORM_IN_T2_YAZMA_CRITERIA"
+              ],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T2_ACT_13_YAZMA_SONRASI",
+              "theme_id": "TEMA_02",
+              "section_id": "T2_SEC_05_YAZMA_ATOLYESI",
+              "exact_title": "Yazma Sonrası: Paylaşım ve Form Değerlendirmesi",
+              "activity_type": "writing_evaluation_and_sharing",
+              "student_action": "304. sayfadaki Öz Değerlendirme Formunu, 310. sayfadaki Akran Değerlendirme Formunu ve 312. sayfadaki Gözlem Formunu doldurma.",
+              "expected_product_or_evidence": "Doldurulmuş formlar.",
+              "printed_page": 142,
+              "pdf_page": 143,
+              "related_forms": [
+                "FORM_BOB_03_T2_YAZMA_OZ",
+                "FORM_BOB_09_T1_T2_AKRAN",
+                "FORM_BOB_11_GENEL_GOZLEM"
+              ],
+              "verification_status": "VERIFIED"
+            }
+          ]
+        },
+        {
+          "section_id": "T2_SEC_06_TEMA_SONU_DEGERLENDIRME",
+          "section_title": "Tema Sonu Ölçme ve Değerlendirme",
+          "genre": "Değerlendirme",
+          "printed_page_range": "143",
+          "pdf_page_range": "144",
+          "main_texts": [],
+          "activities": [
+            {
+              "activity_id": "T2_ACT_14_TEMA_SONU_OLCME",
+              "theme_id": "TEMA_02",
+              "section_id": "T2_SEC_06_TEMA_SONU_DEGERLENDIRME",
+              "exact_title": "2. Tema Sonu Değerlendirme Soruları",
+              "activity_type": "end_of_theme_assessment",
+              "student_action": "Tema sonu sorularını yanıtlama.",
+              "expected_product_or_evidence": "Soru cevapları.",
+              "printed_page": 143,
+              "pdf_page": 144,
+              "related_forms": [
+                "FORM_IN_T2_TEMA_SONU_TEST"
+              ],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T2_ACT_15_OGRENME_GUNLUGU",
+              "theme_id": "TEMA_02",
+              "section_id": "T2_SEC_06_TEMA_SONU_DEGERLENDIRME",
+              "exact_title": "2. Tema Öğrenme Günlüğü",
+              "activity_type": "learning_journal_and_prep",
+              "student_action": "Kazanımları günlüğe kaydetme.",
+              "expected_product_or_evidence": "Öğrenme günlüğü çıktısı.",
+              "printed_page": 143,
+              "pdf_page": 144,
+              "related_forms": [
+                "FORM_IN_T2_OGRENME_GUNLUGU"
+              ],
+              "verification_status": "VERIFIED"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theme_id": "TEMA_03",
+      "theme_no": 3,
+      "theme_title": "Anlamın Yapı Taşları",
+      "printed_page_range": "144-219",
+      "pdf_page_range": "145-220",
+      "theme_cover": {
+        "printed_page": 144,
+        "pdf_page": 145,
+        "key_concepts": [
+          "iç konuşma",
+          "diyalog",
+          "mekân",
+          "gezi yazısı",
+          "belgesel",
+          "infografik",
+          "gözlem",
+          "betimleme"
+        ]
+      },
+      "sections": [
+        {
+          "section_id": "T3_SEC_01_OKUMA_HIKAYE",
+          "section_title": "Okuma: Hikâye",
+          "genre": "Hikâye",
+          "printed_page_range": "153-182",
+          "pdf_page_range": "154-183",
+          "main_texts": [
+            {
+              "text_id": "T3_TXT_01",
+              "title": "Eskici",
+              "author": "Refik Halit Karay",
+              "genre": "Hikâye (Memleket Hikâyeleri)",
+              "printed_page": "155-158",
+              "pdf_page": "156-159"
+            }
+          ],
+          "activities": [
+            {
+              "activity_id": "T3_ACT_01_OKUMA_ONCESI_HIKAYE",
+              "theme_id": "TEMA_03",
+              "section_id": "T3_SEC_01_OKUMA_HIKAYE",
+              "exact_title": "Okuma Öncesi: Eskici Hikâyesi Hazırlığı",
+              "activity_type": "reading_preparation",
+              "student_action": "Gurbet ve ana dili üzerine hazırlık yapma.",
+              "expected_product_or_evidence": "Giriş düşünceleri.",
+              "printed_page": 154,
+              "pdf_page": 155,
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T3_ACT_02_OKUMA_SIRASI_HIKAYE",
+              "theme_id": "TEMA_03",
+              "section_id": "T3_SEC_01_OKUMA_HIKAYE",
+              "exact_title": "Okuma Sırası: Eskici Metin Tahlili",
+              "activity_type": "reading_analysis",
+              "student_action": "Diyalogları ve iç konuşmaları işaretleyerek okuma.",
+              "expected_product_or_evidence": "Metin üzeri işaretlemeler.",
+              "printed_page": "155-158",
+              "pdf_page": "156-159",
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T3_ACT_03_OKUMA_SONRASI_HIKAYE_TAHLIL",
+              "theme_id": "TEMA_03",
+              "section_id": "T3_SEC_01_OKUMA_HIKAYE",
+              "exact_title": "Okuma Sonrası: Anlatım Teknikleri ve Yapı Çözümlemesi",
+              "activity_type": "post_reading_comprehension",
+              "student_action": "İç konuşma, diyalog ve mekân tahlili yapma.",
+              "expected_product_or_evidence": "Tahlil soruları ve yapı tablosu.",
+              "printed_page": "159-175",
+              "pdf_page": "160-176",
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T3_ACT_04_KONTROL_NOKTASI_HIKAYE",
+              "theme_id": "TEMA_03",
+              "section_id": "T3_SEC_01_OKUMA_HIKAYE",
+              "exact_title": "Kontrol Noktası: Hikâye Yapısı ve Dil Bilgisi",
+              "activity_type": "checkpoint_self_check",
+              "student_action": "Anlatım teknikleri ve belirteç kazanımlarını kontrol etme.",
+              "expected_product_or_evidence": "Kontrol listesi.",
+              "printed_page": 182,
+              "pdf_page": 183,
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            }
+          ]
+        },
+        {
+          "section_id": "T3_SEC_02_OKUMA_GEZI_YAZISI",
+          "section_title": "Okuma: Gezi Yazısı",
+          "genre": "Gezi Yazısı",
+          "printed_page_range": "182-193",
+          "pdf_page_range": "183-194",
+          "main_texts": [
+            {
+              "text_id": "T3_TXT_02",
+              "title": "Bizim Akdeniz'den",
+              "author": "Falih Rıfkı Atay",
+              "genre": "Gezi Yazısı",
+              "printed_page": "183-184",
+              "pdf_page": "184-185"
+            }
+          ],
+          "activities": [
+            {
+              "activity_id": "T3_ACT_05_OKUMA_ONCESI_GEZI",
+              "theme_id": "TEMA_03",
+              "section_id": "T3_SEC_02_OKUMA_GEZI_YAZISI",
+              "exact_title": "Okuma Öncesi: Gezi Yazısı Hazırlığı",
+              "activity_type": "reading_preparation",
+              "student_action": "Gezi yazısının öğretici yönü üzerine tartışma.",
+              "expected_product_or_evidence": "Ön bilgi notları.",
+              "printed_page": 183,
+              "pdf_page": 184,
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T3_ACT_06_OKUMA_SONRASI_GEZI_TAHLIL",
+              "theme_id": "TEMA_03",
+              "section_id": "T3_SEC_02_OKUMA_GEZI_YAZISI",
+              "exact_title": "Okuma Sonrası: Gezi Yazısı Tahlili",
+              "activity_type": "post_reading_comprehension",
+              "student_action": "Yazarın gözlemlerini ve betimleyici anlatımını inceleme.",
+              "expected_product_or_evidence": "Tahlil soruları yanıtları.",
+              "printed_page": "185-192",
+              "pdf_page": "186-193",
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T3_ACT_07_KONTROL_NOKTASI_GEZI",
+              "theme_id": "TEMA_03",
+              "section_id": "T3_SEC_02_OKUMA_GEZI_YAZISI",
+              "exact_title": "Kontrol Noktası: Gezi Yazısı Kazanımları",
+              "activity_type": "checkpoint_self_check",
+              "student_action": "Kazanımları kontrol etme.",
+              "expected_product_or_evidence": "Kontrol listesi çıktısı.",
+              "printed_page": 193,
+              "pdf_page": 194,
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            }
+          ]
+        },
+        {
+          "section_id": "T3_SEC_03_KONUSMA_ATOLYESI",
+          "section_title": "Edebiyat Atölyesi: Konuşma",
+          "genre": "Görsel Destekli Sunum",
+          "printed_page_range": "193-197",
+          "pdf_page_range": "194-198",
+          "main_texts": [],
+          "activities": [
+            {
+              "activity_id": "T3_ACT_08_KONUSMA_SIRASI",
+              "theme_id": "TEMA_03",
+              "section_id": "T3_SEC_03_KONUSMA_ATOLYESI",
+              "exact_title": "Konuşma Sırası: Benim Mekânım Sunumu",
+              "activity_type": "speaking_workshop",
+              "student_action": "Kendi çevresindeki bir mekânı görsel araçlarla sunma.",
+              "expected_product_or_evidence": "Sözlü sunum performansı.",
+              "printed_page": "193-196",
+              "pdf_page": "194-197",
+              "related_forms": [
+                "FORM_IN_T3_KONUSMA_CRITERIA"
+              ],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T3_ACT_09_KONUSMA_SONRASI",
+              "theme_id": "TEMA_03",
+              "section_id": "T3_SEC_03_KONUSMA_ATOLYESI",
+              "exact_title": "Konuşma Sonrası: Öz ve Akran Değerlendirme",
+              "activity_type": "speaking_evaluation",
+              "student_action": "307. sayfadaki Öz Değerlendirme Formunu, 311. sayfadaki Akran Değerlendirme Formunu ve 312. sayfadaki Gözlem Formunu doldurma.",
+              "expected_product_or_evidence": "Doldurulmuş formlar.",
+              "printed_page": 197,
+              "pdf_page": 198,
+              "related_forms": [
+                "FORM_BOB_06_T3_KONUSMA_OZ",
+                "FORM_BOB_10_T3_T4_AKRAN",
+                "FORM_BOB_11_GENEL_GOZLEM"
+              ],
+              "verification_status": "VERIFIED"
+            }
+          ]
+        },
+        {
+          "section_id": "T3_SEC_04_DINLEME_IZLEME",
+          "section_title": "Dinleme/İzleme: Belgesel",
+          "genre": "Belgesel",
+          "printed_page_range": "198-202",
+          "pdf_page_range": "199-203",
+          "main_texts": [
+            {
+              "text_id": "T3_TXT_03",
+              "title": "Nevruz Belgeseli",
+              "author": "MEB E-İçerik / Video Belgesel",
+              "genre": "Kültür ve Gelenek Belgeseli",
+              "printed_page": 200,
+              "pdf_page": 201
+            }
+          ],
+          "activities": [
+            {
+              "activity_id": "T3_ACT_10_DINLEME_ONCESI_VE_SIRASI",
+              "theme_id": "TEMA_03",
+              "section_id": "T3_SEC_04_DINLEME_IZLEME",
+              "exact_title": "Dinleme/İzleme Öncesi ve Sırası: Nevruz Belgeseli İzleme",
+              "activity_type": "listening_viewing_practice",
+              "student_action": "Karekoddan belgeseli izleme, kontrol listesiyle not alma.",
+              "expected_product_or_evidence": "Belgesel notları.",
+              "printed_page": "199-200",
+              "pdf_page": "200-201",
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T3_ACT_11_DINLEME_SONRASI_TAHLIL",
+              "theme_id": "TEMA_03",
+              "section_id": "T3_SEC_04_DINLEME_IZLEME",
+              "exact_title": "Dinleme/İzleme Sonrası: Belgesel ve Kültürel Bellek Tahlili",
+              "activity_type": "post_listening_analysis",
+              "student_action": "Belgeseldeki görsel ve işitsel unsurların kültürel aktarıma etkisini değerlendirme.",
+              "expected_product_or_evidence": "Tahlil soruları cevapları.",
+              "printed_page": "200-202",
+              "pdf_page": "201-203",
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            }
+          ]
+        },
+        {
+          "section_id": "T3_SEC_05_YAZMA_ATOLYESI",
+          "section_title": "Edebiyat Atölyesi: Yazma",
+          "genre": "İnfografik Metin",
+          "printed_page_range": "203-206",
+          "pdf_page_range": "204-207",
+          "main_texts": [],
+          "activities": [
+            {
+              "activity_id": "T3_ACT_12_YAZMA_SIRASI",
+              "theme_id": "TEMA_03",
+              "section_id": "T3_SEC_05_YAZMA_ATOLYESI",
+              "exact_title": "Yazma Sırası: Nevruz'un İzinde: Bir Belgeselin İnfografiği",
+              "activity_type": "writing_workshop",
+              "student_action": "Belgeselden hareketle infografik metin tasarlama.",
+              "expected_product_or_evidence": "İnfografik metin taslağı.",
+              "printed_page": "203-205",
+              "pdf_page": "204-206",
+              "related_forms": [
+                "FORM_IN_T3_YAZMA_CRITERIA"
+              ],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T3_ACT_13_YAZMA_SONRASI",
+              "theme_id": "TEMA_03",
+              "section_id": "T3_SEC_05_YAZMA_ATOLYESI",
+              "exact_title": "Yazma Sonrası: İnfografik Metin Değerlendirmesi",
+              "activity_type": "writing_evaluation_and_sharing",
+              "student_action": "306. sayfadaki Öz Değerlendirme Formunu, 311. sayfadaki Akran Değerlendirme Formunu ve 312. sayfadaki Gözlem Formunu doldurma.",
+              "expected_product_or_evidence": "Doldurulmuş formlar.",
+              "printed_page": 206,
+              "pdf_page": 207,
+              "related_forms": [
+                "FORM_BOB_05_T3_YAZMA_OZ",
+                "FORM_BOB_10_T3_T4_AKRAN",
+                "FORM_BOB_11_GENEL_GOZLEM"
+              ],
+              "verification_status": "VERIFIED"
+            }
+          ]
+        },
+        {
+          "section_id": "T3_SEC_06_TEMA_SONU_DEGERLENDIRME",
+          "section_title": "Tema Sonu Ölçme ve Değerlendirme",
+          "genre": "Değerlendirme",
+          "printed_page_range": "207-219",
+          "pdf_page_range": "208-220",
+          "main_texts": [],
+          "activities": [
+            {
+              "activity_id": "T3_ACT_14_TEMA_SONU_OLCME",
+              "theme_id": "TEMA_03",
+              "section_id": "T3_SEC_06_TEMA_SONU_DEGERLENDIRME",
+              "exact_title": "3. Tema Sonu Ölçme ve Değerlendirme Soruları",
+              "activity_type": "end_of_theme_assessment",
+              "student_action": "Tema sonu sorularını çözme.",
+              "expected_product_or_evidence": "Soru cevapları.",
+              "printed_page": "207-210",
+              "pdf_page": "208-211",
+              "related_forms": [
+                "FORM_IN_T3_TEMA_SONU_TEST"
+              ],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T3_ACT_15_OGRENME_GUNLUGU",
+              "theme_id": "TEMA_03",
+              "section_id": "T3_SEC_06_TEMA_SONU_DEGERLENDIRME",
+              "exact_title": "3. Tema Öğrenme Günlüğü ve 4. Temaya Roman Hazırlığı",
+              "activity_type": "learning_journal_and_prep",
+              "student_action": "Öğrenme günlüğünü doldurma; Çalıkuşu ve Yunus Emre metinleri için hazırlık yapma.",
+              "expected_product_or_evidence": "Öğrenme günlüğü çıktısı.",
+              "printed_page": "211-219",
+              "pdf_page": "212-220",
+              "related_forms": [
+                "FORM_IN_T3_OGRENME_GUNLUGU"
+              ],
+              "verification_status": "VERIFIED"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theme_id": "TEMA_04",
+      "theme_no": 4,
+      "theme_title": "Dilin Zenginliği",
+      "printed_page_range": "220-301",
+      "pdf_page_range": "221-302",
+      "theme_cover": {
+        "printed_page": 220,
+        "pdf_page": 221,
+        "key_concepts": [
+          "roman",
+          "eleştiri",
+          "otobiyografi",
+          "sosyal medya dili",
+          "üslup",
+          "dönem ve zihniyet",
+          "Türkçenin zenginliği"
+        ]
+      },
+      "sections": [
+        {
+          "section_id": "T4_SEC_01_OKUMA_ROMAN",
+          "section_title": "Okuma: Roman",
+          "genre": "Roman / Dramatik Metin",
+          "printed_page_range": "226-257",
+          "pdf_page_range": "227-258",
+          "main_texts": [
+            {
+              "text_id": "T4_TXT_01",
+              "title": "Çalıkuşu",
+              "author": "Reşat Nuri Güntekin",
+              "genre": "Roman",
+              "printed_page": "226-235",
+              "pdf_page": "227-236"
+            },
+            {
+              "text_id": "T4_TXT_02",
+              "title": "Yunus Emre",
+              "author": "Recep Bilginer",
+              "genre": "Dramatik Metin / Tiyatro",
+              "printed_page": "236-248",
+              "pdf_page": "237-249"
+            }
+          ],
+          "activities": [
+            {
+              "activity_id": "T4_ACT_01_OKUMA_ONCESI_ROMAN",
+              "theme_id": "TEMA_04",
+              "section_id": "T4_SEC_01_OKUMA_ROMAN",
+              "exact_title": "Okuma Öncesi: Roman Türü ve Dönem Tahlili Hazırlığı",
+              "activity_type": "reading_preparation",
+              "student_action": "Dönemin zihniyeti ve dil özellikleri üzerine hazırlık yapma.",
+              "expected_product_or_evidence": "Ön hazırlık notları.",
+              "printed_page": 226,
+              "pdf_page": 227,
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T4_ACT_02_OKUMA_SIRASI_ROMAN",
+              "theme_id": "TEMA_04",
+              "section_id": "T4_SEC_01_OKUMA_ROMAN",
+              "exact_title": "Okuma Sırası: Çalıkuşu ve Yunus Emre Metin Tahlili",
+              "activity_type": "reading_analysis",
+              "student_action": "Metinleri okurken çatışmaları ve dil özelliklerini not alma.",
+              "expected_product_or_evidence": "Tahlil notları.",
+              "printed_page": "227-248",
+              "pdf_page": "228-249",
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T4_ACT_03_OKUMA_SONRASI_ROMAN_KARSILASTIRMA",
+              "theme_id": "TEMA_04",
+              "section_id": "T4_SEC_01_OKUMA_ROMAN",
+              "exact_title": "Okuma Sonrası: Karşılaştırmalı Metin İncelemesi",
+              "activity_type": "post_reading_comprehension",
+              "student_action": "Çalıkuşu ve Yunus Emre metinlerindeki anlatım özelliklerini karşılaştırma.",
+              "expected_product_or_evidence": "Karşılaştırma matrisi.",
+              "printed_page": "249-256",
+              "pdf_page": "250-257",
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T4_ACT_04_KONTROL_NOKTASI_ROMAN",
+              "theme_id": "TEMA_04",
+              "section_id": "T4_SEC_01_OKUMA_ROMAN",
+              "exact_title": "Kontrol Noktası: Roman Türü ve Dil Bilgisi",
+              "activity_type": "checkpoint_self_check",
+              "student_action": "Kazanımları kontrol etme.",
+              "expected_product_or_evidence": "Kontrol listesi çıktısı.",
+              "printed_page": 257,
+              "pdf_page": 258,
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            }
+          ]
+        },
+        {
+          "section_id": "T4_SEC_02_OKUMA_ELESTIRI",
+          "section_title": "Okuma: Eleştiri",
+          "genre": "Eleştiri",
+          "printed_page_range": "258-276",
+          "pdf_page_range": "259-277",
+          "main_texts": [
+            {
+              "text_id": "T4_TXT_03",
+              "title": "Parasız Yatılı Üzerine (Hikâye Tahlilleri)",
+              "author": "Mehmet Kaplan",
+              "genre": "Eleştiri (Öğretici Metin)",
+              "printed_page": "259-263",
+              "pdf_page": "260-264"
+            }
+          ],
+          "activities": [
+            {
+              "activity_id": "T4_ACT_05_OKUMA_ONCESI_ELESTIRI",
+              "theme_id": "TEMA_04",
+              "section_id": "T4_SEC_02_OKUMA_ELESTIRI",
+              "exact_title": "Okuma Öncesi: Eleştiri Türü Hazırlığı",
+              "activity_type": "reading_preparation",
+              "student_action": "Eleştirinin edebiyattaki yeri üzerine hazırlık yapma.",
+              "expected_product_or_evidence": "Giriş notları.",
+              "printed_page": 259,
+              "pdf_page": 260,
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T4_ACT_06_OKUMA_SONRASI_ELESTIRI_TAHLIL",
+              "theme_id": "TEMA_04",
+              "section_id": "T4_SEC_02_OKUMA_ELESTIRI",
+              "exact_title": "Okuma Sonrası: Eleştiri Metin Tahlili ve Ölçüt İncelemesi",
+              "activity_type": "post_reading_comprehension",
+              "student_action": "Eleştirideki ölçütleri ve yazarın üslubunu belirleme.",
+              "expected_product_or_evidence": "Tahlil soruları çözümleri.",
+              "printed_page": "269-275",
+              "pdf_page": "270-276",
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T4_ACT_07_KONTROL_NOKTASI_ELESTIRI",
+              "theme_id": "TEMA_04",
+              "section_id": "T4_SEC_02_OKUMA_ELESTIRI",
+              "exact_title": "Kontrol Noktası: Eleştiri Türü Kontrolü",
+              "activity_type": "checkpoint_self_check",
+              "student_action": "Kazanımları kontrol listesinde değerlendirme.",
+              "expected_product_or_evidence": "Kontrol listesi çıktısı.",
+              "printed_page": 276,
+              "pdf_page": 277,
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            }
+          ]
+        },
+        {
+          "section_id": "T4_SEC_03_KONUSMA_ATOLYESI",
+          "section_title": "Edebiyat Atölyesi: Konuşma",
+          "genre": "Hazırlıklı Konuşma",
+          "printed_page_range": "277-280",
+          "pdf_page_range": "278-281",
+          "main_texts": [],
+          "activities": [
+            {
+              "activity_id": "T4_ACT_08_KONUSMA_SIRASI",
+              "theme_id": "TEMA_04",
+              "section_id": "T4_SEC_03_KONUSMA_ATOLYESI",
+              "exact_title": "Konuşma Sırası: Dilimizin Zenginlikleri",
+              "activity_type": "speaking_workshop",
+              "student_action": "Sosyal medya dili ve Türkçe kelime kullanımı üzerine konuşma yapma.",
+              "expected_product_or_evidence": "Sözlü sunum performansı.",
+              "printed_page": "277-279",
+              "pdf_page": "278-280",
+              "related_forms": [
+                "FORM_IN_T4_KONUSMA_CRITERIA"
+              ],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T4_ACT_09_KONUSMA_SONRASI",
+              "theme_id": "TEMA_04",
+              "section_id": "T4_SEC_03_KONUSMA_ATOLYESI",
+              "exact_title": "Konuşma Sonrası: Öz ve Akran Değerlendirme",
+              "activity_type": "speaking_evaluation",
+              "student_action": "309. sayfadaki Öz Değerlendirme Formunu, 311. sayfadaki Akran Değerlendirme Formunu ve 312. sayfadaki Gözlem Formunu doldurma.",
+              "expected_product_or_evidence": "Doldurulmuş formlar.",
+              "printed_page": 280,
+              "pdf_page": 281,
+              "related_forms": [
+                "FORM_BOB_08_T4_KONUSMA_OZ",
+                "FORM_BOB_10_T3_T4_AKRAN",
+                "FORM_BOB_11_GENEL_GOZLEM"
+              ],
+              "verification_status": "VERIFIED"
+            }
+          ]
+        },
+        {
+          "section_id": "T4_SEC_04_DINLEME_IZLEME",
+          "section_title": "Dinleme/İzleme: Otobiyografi",
+          "genre": "Otobiyografi / Belgesel",
+          "printed_page_range": "281-291",
+          "pdf_page_range": "282-292",
+          "main_texts": [
+            {
+              "text_id": "T4_TXT_04",
+              "title": "Âşık Veysel Belgeseli",
+              "author": "Âşık Veysel / Video İçerik",
+              "genre": "Otobiyografik Belgesel",
+              "printed_page": 282,
+              "pdf_page": 283
+            }
+          ],
+          "activities": [
+            {
+              "activity_id": "T4_ACT_10_DINLEME_ONCESI_VE_SIRASI",
+              "theme_id": "TEMA_04",
+              "section_id": "T4_SEC_04_DINLEME_IZLEME",
+              "exact_title": "Dinleme/İzleme Öncesi ve Sırası: Âşık Veysel Belgeseli",
+              "activity_type": "listening_viewing_practice",
+              "student_action": "Karekoddan belgeseli izleme, notlar alma.",
+              "expected_product_or_evidence": "İzleme notları.",
+              "printed_page": "281-282",
+              "pdf_page": "282-283",
+              "related_forms": [],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T4_ACT_11_DINLEME_SONRASI_TAHLIL",
+              "theme_id": "TEMA_04",
+              "section_id": "T4_SEC_04_DINLEME_IZLEME",
+              "exact_title": "Dinleme/İzleme Sonrası: Otobiyografi Tahlili ve Gözlem Formu",
+              "activity_type": "post_listening_analysis",
+              "student_action": "Belgeseli tahlil etme ve 283. sayfadaki Gözlem Formunu doldurma.",
+              "expected_product_or_evidence": "Doldurulmuş dinleme gözlem formu ve tahlil cevapları.",
+              "printed_page": "283-291",
+              "pdf_page": "284-292",
+              "related_forms": [
+                "FORM_IN_T4_DINLEME_GOZLEM"
+              ],
+              "verification_status": "VERIFIED"
+            }
+          ]
+        },
+        {
+          "section_id": "T4_SEC_05_YAZMA_ATOLYESI",
+          "section_title": "Edebiyat Atölyesi: Yazma",
+          "genre": "Otobiyografi Yazma",
+          "printed_page_range": "292-295",
+          "pdf_page_range": "293-296",
+          "main_texts": [],
+          "activities": [
+            {
+              "activity_id": "T4_ACT_12_YAZMA_SIRASI",
+              "theme_id": "TEMA_04",
+              "section_id": "T4_SEC_05_YAZMA_ATOLYESI",
+              "exact_title": "Yazma Sırası: Otobiyografimle Keşfedilmeyi Bekliyorum!",
+              "activity_type": "writing_workshop",
+              "student_action": "Öz yaşam öyküsünü yazma.",
+              "expected_product_or_evidence": "Otobiyografi metni taslağı.",
+              "printed_page": "292-294",
+              "pdf_page": "293-295",
+              "related_forms": [
+                "FORM_IN_T4_YAZMA_CRITERIA"
+              ],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T4_ACT_13_YAZMA_SONRASI",
+              "theme_id": "TEMA_04",
+              "section_id": "T4_SEC_05_YAZMA_ATOLYESI",
+              "exact_title": "Yazma Sonrası: Paylaşım ve Form Değerlendirmesi",
+              "activity_type": "writing_evaluation_and_sharing",
+              "student_action": "308. sayfadaki Öz Değerlendirme Formunu, 311. sayfadaki Akran Değerlendirme Formunu ve 312. sayfadaki Gözlem Formunu doldurma.",
+              "expected_product_or_evidence": "Doldurulmuş formlar ve nihai otobiyografi.",
+              "printed_page": 295,
+              "pdf_page": 296,
+              "related_forms": [
+                "FORM_BOB_07_T4_YAZMA_OZ",
+                "FORM_BOB_10_T3_T4_AKRAN",
+                "FORM_BOB_11_GENEL_GOZLEM"
+              ],
+              "verification_status": "VERIFIED"
+            }
+          ]
+        },
+        {
+          "section_id": "T4_SEC_06_TEMA_SONU_DEGERLENDIRME",
+          "section_title": "Tema Sonu Ölçme ve Değerlendirme",
+          "genre": "Değerlendirme",
+          "printed_page_range": "296-301",
+          "pdf_page_range": "297-302",
+          "main_texts": [],
+          "activities": [
+            {
+              "activity_id": "T4_ACT_14_TEMA_SONU_OLCME",
+              "theme_id": "TEMA_04",
+              "section_id": "T4_SEC_06_TEMA_SONU_DEGERLENDIRME",
+              "exact_title": "4. Tema Sonu Ölçme ve Değerlendirme Soruları",
+              "activity_type": "end_of_theme_assessment",
+              "student_action": "Tema sonu test sorularını yanıtlama.",
+              "expected_product_or_evidence": "Test cevapları.",
+              "printed_page": "296-300",
+              "pdf_page": "297-301",
+              "related_forms": [
+                "FORM_IN_T4_TEMA_SONU_TEST"
+              ],
+              "verification_status": "VERIFIED"
+            },
+            {
+              "activity_id": "T4_ACT_15_OGRENME_GUNLUGU",
+              "theme_id": "TEMA_04",
+              "section_id": "T4_SEC_06_TEMA_SONU_DEGERLENDIRME",
+              "exact_title": "4. Tema Öğrenme Günlüğü ve Yıl Sonu Yansıtması",
+              "activity_type": "learning_journal_and_prep",
+              "student_action": "Yıl sonu kazanımlarını günlüğe kaydetme.",
+              "expected_product_or_evidence": "Doldurulmuş öğrenme günlüğü.",
+              "printed_page": 301,
+              "pdf_page": 302,
+              "related_forms": [
+                "FORM_IN_T4_OGRENME_GUNLUGU"
+              ],
+              "verification_status": "VERIFIED"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

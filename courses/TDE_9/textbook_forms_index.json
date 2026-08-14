@@ -1,0 +1,1016 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_9",
+  "source_id": "textbook_tde9_meb",
+  "total_forms_indexed": 28,
+  "classification_rule_verbatim": "Değerlendirme araçları başlıklarına göre değil, içerdikleri yapısal bileşenlere (ölçüt tablosu, performans düzeyi betimleyicileri, dereceleme skalası, kontrol listesi vb.) göre sınıflandırılmıştır.",
+  "forms": [
+    {
+      "form_id": "FORM_BOB_01_T1_YAZMA_OZ",
+      "title": "Öz Değerlendirme Formu (1. Tema: Yazma)",
+      "printed_title": "ÖZ DEĞERLENDİRME FORMU (1. TEMA: YAZMA)",
+      "subtitle": "Duygularımı Betimliyorum",
+      "structural_type": "self_assessment_form",
+      "assessment_type": "self_assessment_form",
+      "location_category": "back_of_book_forms",
+      "printed_page": 302,
+      "pdf_page": 303,
+      "evaluator": "student_self",
+      "audience": "student_self",
+      "criteria_present": true,
+      "level_descriptors_present": false,
+      "scoring_levels_present": true,
+      "response_options": [
+        "Evet",
+        "Kısmen",
+        "Hayır"
+      ],
+      "structure_details": {
+        "scale_type": "3_point_rating_scale",
+        "has_reflection_section": true,
+        "criteria_categories": [
+          "Temaya Uygunluk",
+          "İçerik ve Planlama",
+          "Söz Varlığı",
+          "Akıcılık ve Anlatım",
+          "Yazım ve Noktalama"
+        ],
+        "reflection_questions": [
+          "1. Çalışma sırasında hangi bilgileri edindim?",
+          "2. Çalışma sırasında hangi bölümlerde zorlandım?",
+          "3. Çalışmayı yeniden yapacak olsam nelere dikkat ederdim?"
+        ]
+      },
+      "linked_theme_ids": [
+        "TEMA_01"
+      ],
+      "linked_activity_ids": [
+        "T1_ACT_10_YAZMA_SONRASI"
+      ],
+      "verification_status": "VERIFIED",
+      "location_scope": "BOOK_APPENDIX"
+    },
+    {
+      "form_id": "FORM_BOB_02_T1_KONUSMA_OZ",
+      "title": "Öz Değerlendirme Formu (1. Tema: Konuşma)",
+      "printed_title": "ÖZ DEĞERLENDİRME FORMU (1. TEMA: KONUŞMA)",
+      "subtitle": "Düşüncelerimi Sunuyorum",
+      "structural_type": "self_assessment_form",
+      "assessment_type": "self_assessment_form",
+      "location_category": "back_of_book_forms",
+      "printed_page": 303,
+      "pdf_page": 304,
+      "evaluator": "student_self",
+      "audience": "student_self",
+      "criteria_present": true,
+      "level_descriptors_present": false,
+      "scoring_levels_present": true,
+      "response_options": [
+        "Evet",
+        "Kısmen",
+        "Hayır"
+      ],
+      "structure_details": {
+        "scale_type": "3_point_rating_scale",
+        "has_reflection_section": true,
+        "criteria_categories": [
+          "Planlama ve Hazırlık",
+          "Düşünsel Süreçleri Kontrol Etme (Altı Şapka Uyumu)",
+          "Söz Varlığı ve Dil Kullanımı",
+          "Beden Dili ve İletişim",
+          "Zaman Yönetimi"
+        ],
+        "reflection_questions": [
+          "1. Çalışma sırasında hangi bilgileri edindim?",
+          "2. Çalışma sırasında hangi bölümlerde zorlandım?",
+          "3. Çalışmayı yeniden yapacak olsam nelere dikkat ederdim?"
+        ]
+      },
+      "linked_theme_ids": [
+        "TEMA_01"
+      ],
+      "linked_activity_ids": [
+        "T1_ACT_14_KONUSMA_SONRASI"
+      ],
+      "verification_status": "VERIFIED",
+      "location_scope": "BOOK_APPENDIX"
+    },
+    {
+      "form_id": "FORM_BOB_03_T2_YAZMA_OZ",
+      "title": "Öz Değerlendirme Formu (2. Tema: Yazma)",
+      "printed_title": "ÖZ DEĞERLENDİRME FORMU (2. TEMA: YAZMA)",
+      "subtitle": "Genç Şairlerden Mısralar (Ben Şair Olsaydım)",
+      "structural_type": "self_assessment_form",
+      "assessment_type": "self_assessment_form",
+      "location_category": "back_of_book_forms",
+      "printed_page": 304,
+      "pdf_page": 305,
+      "evaluator": "student_self",
+      "audience": "student_self",
+      "criteria_present": true,
+      "level_descriptors_present": false,
+      "scoring_levels_present": true,
+      "response_options": [
+        "Evet",
+        "Kısmen",
+        "Hayır"
+      ],
+      "structure_details": {
+        "scale_type": "3_point_rating_scale",
+        "has_reflection_section": true,
+        "criteria_categories": [
+          "Planlama ve İmge Tasarımı",
+          "Ahenk ve Söyleyiş Güzelliği",
+          "Söz Varlığı ve Sanatlı Söyleyiş",
+          "Yazım ve Noktalama"
+        ],
+        "reflection_questions": [
+          "1. Çalışma sırasında hangi bilgileri edindim?",
+          "2. Çalışma sırasında hangi bölümlerde zorlandım?",
+          "3. Çalışmayı yeniden yapacak olsam nelere dikkat ederdim?"
+        ]
+      },
+      "linked_theme_ids": [
+        "TEMA_02"
+      ],
+      "linked_activity_ids": [
+        "T2_ACT_13_YAZMA_SONRASI"
+      ],
+      "verification_status": "VERIFIED",
+      "location_scope": "BOOK_APPENDIX"
+    },
+    {
+      "form_id": "FORM_BOB_04_T2_KONUSMA_OZ",
+      "title": "Öz Değerlendirme Formu (2. Tema: Konuşma)",
+      "printed_title": "ÖZ DEĞERLEMDİRME FORMU (2. TEMA: KONUŞMA)",
+      "subtitle": "Karakterimin Yolculuğu (Hayal Gücümün Yolculuğu)",
+      "structural_type": "self_assessment_form",
+      "assessment_type": "self_assessment_form",
+      "location_category": "back_of_book_forms",
+      "printed_page": 305,
+      "pdf_page": 306,
+      "evaluator": "student_self",
+      "audience": "student_self",
+      "criteria_present": true,
+      "level_descriptors_present": false,
+      "scoring_levels_present": true,
+      "response_options": [
+        "Evet",
+        "Kısmen",
+        "Hayır"
+      ],
+      "structure_details": {
+        "scale_type": "3_point_rating_scale",
+        "has_reflection_section": true,
+        "criteria_categories": [
+          "Organizasyon ve Giriş",
+          "Karakter Tahlili ve İçeriği Yansıtma",
+          "Söz Varlığı ve Doğaçlama",
+          "Beden Dili, Jest ve Mimik",
+          "Akıcılık ve Vurgu/Tonlama"
+        ],
+        "reflection_questions": [
+          "1. Çalışma sırasında hangi bilgileri edindim?",
+          "2. Çalışma sırasında hangi bölümlerde zorlandım?",
+          "3. Çalışmayı yeniden yapacak olsam nelere dikkat ederdim?"
+        ]
+      },
+      "linked_theme_ids": [
+        "TEMA_02"
+      ],
+      "linked_activity_ids": [
+        "T2_ACT_09_KONUSMA_SONRASI"
+      ],
+      "verification_status": "VERIFIED",
+      "location_scope": "BOOK_APPENDIX"
+    },
+    {
+      "form_id": "FORM_BOB_05_T3_YAZMA_OZ",
+      "title": "Öz Değerlendirme Formu (3. Tema: Yazma)",
+      "printed_title": "ÖZ DEĞERLENDİRME FORMU (3. TEMA: YAZMA)",
+      "subtitle": "Nevruz’un İzinde: Bir Belgeselin İnfografiği",
+      "structural_type": "self_assessment_form",
+      "assessment_type": "self_assessment_form",
+      "location_category": "back_of_book_forms",
+      "printed_page": 306,
+      "pdf_page": 307,
+      "evaluator": "student_self",
+      "audience": "student_self",
+      "criteria_present": true,
+      "level_descriptors_present": false,
+      "scoring_levels_present": true,
+      "response_options": [
+        "Evet",
+        "Kısmen",
+        "Hayır"
+      ],
+      "structure_details": {
+        "scale_type": "3_point_rating_scale",
+        "has_reflection_section": true,
+        "criteria_categories": [
+          "Organizasyon ve Bilgi Düzenleme",
+          "İçerik Doğruluğu",
+          "Görsel ve Metin Uyumu",
+          "Söz Varlığı ve Deyim/Atasözü Kullanımı",
+          "Özgünlük ve Güvenilirlik",
+          "Yazım ve Noktalama"
+        ],
+        "reflection_questions": [
+          "1. Çalışma sırasında hangi bilgileri edindim?",
+          "2. Çalışma sırasında hangi bölümlerde zorlandım?",
+          "3. Çalışmayı yeniden yapacak olsam nelere dikkat ederdim?"
+        ]
+      },
+      "linked_theme_ids": [
+        "TEMA_03"
+      ],
+      "linked_activity_ids": [
+        "T3_ACT_13_YAZMA_SONRASI"
+      ],
+      "verification_status": "VERIFIED",
+      "location_scope": "BOOK_APPENDIX"
+    },
+    {
+      "form_id": "FORM_BOB_06_T3_KONUSMA_OZ",
+      "title": "Öz Değerlendirme Formu (3. Tema: Konuşma)",
+      "printed_title": "ÖZ DEĞERLENDİRME FORMU (3. TEMA: KONUŞMA)",
+      "subtitle": "Benim Mekânım",
+      "structural_type": "self_assessment_form",
+      "assessment_type": "self_assessment_form",
+      "location_category": "back_of_book_forms",
+      "printed_page": 307,
+      "pdf_page": 308,
+      "evaluator": "student_self",
+      "audience": "student_self",
+      "criteria_present": true,
+      "level_descriptors_present": false,
+      "scoring_levels_present": true,
+      "response_options": [
+        "Evet",
+        "Kısmen",
+        "Hayır"
+      ],
+      "structure_details": {
+        "scale_type": "3_point_rating_scale",
+        "has_reflection_section": true,
+        "criteria_categories": [
+          "Organizasyon",
+          "Mekân ve Hikâye Kurgusu",
+          "Bilgi Toplama ve Fikrî Mülkiyet Hakları",
+          "Söz Varlığı ve Türkçe Karşılıklar",
+          "Akıcılık ve Anlatım (Ses Tonu, Vurgu, Tonlama)",
+          "Beden Dili",
+          "Slayt Gösterisi ve Görsel Düzen",
+          "Zaman Yönetimi"
+        ],
+        "reflection_questions": [
+          "1. Çalışma sırasında hangi bilgileri edindim?",
+          "2. Çalışma sırasında hangi bölümlerde zorlandım?",
+          "3. Çalışmayı yeniden yapacak olsam nelere dikkat ederdim?"
+        ]
+      },
+      "linked_theme_ids": [
+        "TEMA_03"
+      ],
+      "linked_activity_ids": [
+        "T3_ACT_09_KONUSMA_SONRASI"
+      ],
+      "verification_status": "VERIFIED",
+      "location_scope": "BOOK_APPENDIX"
+    },
+    {
+      "form_id": "FORM_BOB_07_T4_YAZMA_OZ",
+      "title": "Öz Değerlendirme Formu (4. Tema: Yazma)",
+      "printed_title": "ÖZ DEĞERLENDİRME FORMU (4. TEMA: YAZMA)",
+      "subtitle": "Otobiyografimle Keşfedilmeyi Bekliyorum!",
+      "structural_type": "self_assessment_form",
+      "assessment_type": "self_assessment_form",
+      "location_category": "back_of_book_forms",
+      "printed_page": 308,
+      "pdf_page": 309,
+      "evaluator": "student_self",
+      "audience": "student_self",
+      "criteria_present": true,
+      "level_descriptors_present": false,
+      "scoring_levels_present": true,
+      "response_options": [
+        "Evet",
+        "Kısmen",
+        "Hayır"
+      ],
+      "structure_details": {
+        "scale_type": "3_point_rating_scale",
+        "has_reflection_section": true,
+        "criteria_categories": [
+          "Planlama (Giriş, Gelişme, Sonuç)",
+          "Düşünsel Süreçleri Kontrol Etme (Kronoloji, Olay Akışı)",
+          "Söz Varlığı (Bağlama Uygun Sözcükler, Türkçe Kelimeler)",
+          "Akıcılık (Bölümler Arası Geçiş)",
+          "Yazım ve Noktalama"
+        ],
+        "reflection_questions": [
+          "1. Çalışma sırasında hangi bilgileri edindim?",
+          "2. Çalışma sırasında hangi bölümlerde zorlandım?",
+          "3. Çalışmayı yeniden yapacak olsam nelere dikkat ederdim?"
+        ]
+      },
+      "linked_theme_ids": [
+        "TEMA_04"
+      ],
+      "linked_activity_ids": [
+        "T4_ACT_13_YAZMA_SONRASI"
+      ],
+      "verification_status": "VERIFIED",
+      "location_scope": "BOOK_APPENDIX"
+    },
+    {
+      "form_id": "FORM_BOB_08_T4_KONUSMA_OZ",
+      "title": "Öz Değerlendirme Formu (4. Tema: Konuşma)",
+      "printed_title": "ÖZ DEĞERLENDİRME FORMU (4. TEMA: KONUŞMA)",
+      "subtitle": "Dilimizin Zenginlikleri",
+      "structural_type": "self_assessment_form",
+      "assessment_type": "self_assessment_form",
+      "location_category": "back_of_book_forms",
+      "printed_page": 309,
+      "pdf_page": 310,
+      "evaluator": "student_self",
+      "audience": "student_self",
+      "criteria_present": true,
+      "level_descriptors_present": false,
+      "scoring_levels_present": true,
+      "response_options": [
+        "Evet",
+        "Kısmen",
+        "Hayır"
+      ],
+      "structure_details": {
+        "scale_type": "3_point_rating_scale",
+        "has_reflection_section": true,
+        "criteria_categories": [
+          "Planlama",
+          "Düşünsel Süreçleri Kontrol Etme (Sosyal Medya Dili Örnekleri, Ana Fikir)",
+          "Söz Varlığı ve Türkçe Kelime Tercihi",
+          "Akıcılık, Vurgu ve Tonlama",
+          "Beden Dili ve Göz Teması",
+          "İş Birliği ve Takım Sorumluluğu",
+          "Zaman Yönetimi"
+        ],
+        "reflection_questions": [
+          "1. Çalışma sırasında hangi bilgileri edindim?",
+          "2. Çalışma sırasında hangi bölümlerde zorlandım?",
+          "3. Çalışmayı yeniden yapacak olsam nelere dikkat ederdim?"
+        ]
+      },
+      "linked_theme_ids": [
+        "TEMA_04"
+      ],
+      "linked_activity_ids": [
+        "T4_ACT_09_KONUSMA_SONRASI"
+      ],
+      "verification_status": "VERIFIED",
+      "location_scope": "BOOK_APPENDIX"
+    },
+    {
+      "form_id": "FORM_BOB_09_T1_T2_AKRAN",
+      "title": "Akran Değerlendirme Formu (1. ve 2. Tema)",
+      "printed_title": "Akran Değerlendirme Formu (1. ve 2. Tema)",
+      "subtitle": "Performans ve Atölye Çalışmaları Değerlendirmesi",
+      "structural_type": "peer_assessment_form",
+      "assessment_type": "peer_assessment_form",
+      "location_category": "back_of_book_forms",
+      "printed_page": 310,
+      "pdf_page": 311,
+      "evaluator": "peer",
+      "audience": "peer",
+      "criteria_present": true,
+      "level_descriptors_present": false,
+      "scoring_levels_present": false,
+      "response_options": [
+        "Açık uçlu nitel geri bildirim alanları"
+      ],
+      "structure_details": {
+        "type": "qualitative_structured_feedback",
+        "prompts": [
+          "Bu çalışmanın en iyi yanı:",
+          "Bu çalışma hakkında beğendiğim diğer üç şey (1, 2, 3):",
+          "Bu çalışmada geliştirilmesi gerektiğini düşündüğüm üç yön (1, 2, 3):"
+        ]
+      },
+      "linked_theme_ids": [
+        "TEMA_01",
+        "TEMA_02"
+      ],
+      "linked_activity_ids": [
+        "T1_ACT_10_YAZMA_SONRASI",
+        "T1_ACT_14_KONUSMA_SONRASI",
+        "T2_ACT_09_KONUSMA_SONRASI",
+        "T2_ACT_13_YAZMA_SONRASI"
+      ],
+      "verification_status": "VERIFIED",
+      "location_scope": "BOOK_APPENDIX"
+    },
+    {
+      "form_id": "FORM_BOB_10_T3_T4_AKRAN",
+      "title": "Akran Değerlendirme Formu (3. ve 4. Tema)",
+      "printed_title": "Akran Değerlendirme Formu (3. ve 4. Tema)",
+      "subtitle": "Performans ve Atölye Çalışmaları Değerlendirmesi",
+      "structural_type": "peer_assessment_form",
+      "assessment_type": "peer_assessment_form",
+      "location_category": "back_of_book_forms",
+      "printed_page": 311,
+      "pdf_page": 312,
+      "evaluator": "peer",
+      "audience": "peer",
+      "criteria_present": true,
+      "level_descriptors_present": false,
+      "scoring_levels_present": false,
+      "response_options": [
+        "Açık uçlu nitel geri bildirim alanları"
+      ],
+      "structure_details": {
+        "type": "qualitative_structured_feedback",
+        "prompts": [
+          "Bu çalışmanın en iyi yanı:",
+          "Bu çalışma hakkında beğendiğim diğer üç şey (1, 2, 3):",
+          "Bu çalışmada geliştirilmesi gerektiğini düşündüğüm üç yön (1, 2, 3):"
+        ]
+      },
+      "linked_theme_ids": [
+        "TEMA_03",
+        "TEMA_04"
+      ],
+      "linked_activity_ids": [
+        "T3_ACT_09_KONUSMA_SONRASI",
+        "T3_ACT_13_YAZMA_SONRASI",
+        "T4_ACT_09_KONUSMA_SONRASI",
+        "T4_ACT_13_YAZMA_SONRASI"
+      ],
+      "verification_status": "VERIFIED",
+      "location_scope": "BOOK_APPENDIX"
+    },
+    {
+      "form_id": "FORM_BOB_11_GENEL_GOZLEM",
+      "title": "Gözlem / Değerlendirme Formu",
+      "printed_title": "GÖZLEM / DEĞERLENDİRME FORMU",
+      "subtitle": "Süreç Odaklı Performans ve Katılım Gözlemi",
+      "structural_type": "teacher_evaluation_form",
+      "assessment_type": "teacher_evaluation_form",
+      "location_category": "back_of_book_forms",
+      "printed_page": 312,
+      "pdf_page": 313,
+      "evaluator": "teacher",
+      "audience": "teacher",
+      "criteria_present": true,
+      "level_descriptors_present": false,
+      "scoring_levels_present": true,
+      "response_options": [
+        "Gözlendi",
+        "Geliştirilmeli",
+        "Gözlenmedi"
+      ],
+      "structure_details": {
+        "type": "teacher_observation_matrix"
+      },
+      "linked_theme_ids": [
+        "TEMA_01",
+        "TEMA_02",
+        "TEMA_03",
+        "TEMA_04"
+      ],
+      "linked_activity_ids": [
+        "T1_ACT_10_YAZMA_SONRASI",
+        "T1_ACT_14_KONUSMA_SONRASI",
+        "T2_ACT_09_KONUSMA_SONRASI",
+        "T2_ACT_13_YAZMA_SONRASI",
+        "T3_ACT_09_KONUSMA_SONRASI",
+        "T3_ACT_13_YAZMA_SONRASI",
+        "T4_ACT_09_KONUSMA_SONRASI",
+        "T4_ACT_13_YAZMA_SONRASI"
+      ],
+      "verification_status": "VERIFIED",
+      "location_scope": "BOOK_APPENDIX"
+    },
+    {
+      "form_id": "FORM_IN_T1_YAZMA_CRITERIA",
+      "title": "Değerlendirme Ölçütleri (1. Tema: Yazma)",
+      "printed_title": "DEĞERLENDİRME ÖLÇÜTLERİ",
+      "subtitle": "Duygularımı Betimliyorum Görevi Değerlendirme Tablosu",
+      "structural_type": "assessment_criteria_table",
+      "assessment_type": "assessment_criteria_table",
+      "location_category": "in_theme_section",
+      "printed_page": 54,
+      "pdf_page": 55,
+      "evaluator": "teacher_and_peer",
+      "audience": "teacher_and_peer",
+      "criteria_present": true,
+      "level_descriptors_present": false,
+      "scoring_levels_present": false,
+      "response_options": [
+        "Ölçüt ve Açıklama Listesi"
+      ],
+      "structure_details": {
+        "structure_note": "Ölçüt ve açıklamalardan oluşur, performans düzeyi betimleyicisi barındırmaz. Bu nedenle analitik rubrik değil, assessment_criteria_table türündedir."
+      },
+      "linked_theme_ids": [
+        "TEMA_01"
+      ],
+      "linked_activity_ids": [
+        "T1_ACT_09_YAZMA_SIRASI"
+      ],
+      "verification_status": "VERIFIED",
+      "location_scope": "THEME_INLINE"
+    },
+    {
+      "form_id": "FORM_IN_T1_KONUSMA_CRITERIA",
+      "title": "Değerlendirme Ölçütleri (1. Tema: Konuşma)",
+      "printed_title": "DEĞERLENDİRME ÖLÇÜTLERİ",
+      "subtitle": "Düşüncelerimi Sunuyorum (Altı Şapka) Değerlendirme Tablosu",
+      "structural_type": "assessment_criteria_table",
+      "assessment_type": "assessment_criteria_table",
+      "location_category": "in_theme_section",
+      "printed_page": 65,
+      "pdf_page": 66,
+      "evaluator": "teacher_and_peer",
+      "audience": "teacher_and_peer",
+      "criteria_present": true,
+      "level_descriptors_present": false,
+      "scoring_levels_present": false,
+      "response_options": [
+        "Ölçüt ve Açıklama Listesi"
+      ],
+      "structure_details": {
+        "structure_note": "Ölçüt ve açıklamalar içerir; hücre betimleyicileri yoktur."
+      },
+      "linked_theme_ids": [
+        "TEMA_01"
+      ],
+      "linked_activity_ids": [
+        "T1_ACT_13_KONUSMA_SIRASI"
+      ],
+      "verification_status": "VERIFIED",
+      "location_scope": "THEME_INLINE"
+    },
+    {
+      "form_id": "FORM_IN_T1_TEMA_SONU_TEST",
+      "title": "1. Tema Sonu Ölçme ve Değerlendirme Soru Seti",
+      "printed_title": "Tema Sonu Ölçme ve Değerlendirme",
+      "subtitle": "Sözün İnceliği Tema Değerlendirmesi",
+      "structural_type": "test_question_set",
+      "assessment_type": "test_question_set",
+      "location_category": "in_theme_section",
+      "printed_page": "67-70",
+      "pdf_page": "68-71",
+      "evaluator": "teacher_and_student",
+      "audience": "teacher_and_student",
+      "criteria_present": false,
+      "level_descriptors_present": false,
+      "scoring_levels_present": false,
+      "response_options": [
+        "Çoktan seçmeli",
+        "Açık uçlu",
+        "Eşleştirme"
+      ],
+      "structure_details": {
+        "has_qr_extra_questions": true,
+        "qr_locator": "s. 70 (1. Temaya Ait Ek Sorular)"
+      },
+      "linked_theme_ids": [
+        "TEMA_01"
+      ],
+      "linked_activity_ids": [
+        "T1_ACT_15_TEMA_SONU_OLCME"
+      ],
+      "verification_status": "VERIFIED",
+      "location_scope": "THEME_INLINE"
+    },
+    {
+      "form_id": "FORM_IN_T1_OGRENME_GUNLUGU",
+      "title": "1. Tema Öğrenme Günlüğü",
+      "printed_title": "Öğrenme Günlüğü",
+      "subtitle": "Edebî Söyleyiş ve Dil Kullanımı Yansıtması",
+      "structural_type": "learning_journal",
+      "assessment_type": "learning_journal",
+      "location_category": "in_theme_section",
+      "printed_page": 71,
+      "pdf_page": 72,
+      "evaluator": "student_self",
+      "audience": "student_self",
+      "criteria_present": false,
+      "level_descriptors_present": false,
+      "scoring_levels_present": false,
+      "response_options": [
+        "Öğrenci Yansıtma Notları"
+      ],
+      "structure_details": {
+        "reflection_prompt": "Bu temada öğrendiğiniz bilgileri, edindiğiniz becerileri ve edebî söyleyişe dair çıkarımlarınızı not ediniz."
+      },
+      "linked_theme_ids": [
+        "TEMA_01"
+      ],
+      "linked_activity_ids": [
+        "T1_ACT_16_OGRENME_GUNLUGU"
+      ],
+      "verification_status": "VERIFIED",
+      "location_scope": "THEME_INLINE"
+    },
+    {
+      "form_id": "FORM_IN_T2_KONUSMA_CRITERIA",
+      "title": "Değerlendirme Ölçütleri (2. Tema: Konuşma)",
+      "printed_title": "DEĞERLENDİRME ÖLÇÜTLERİ",
+      "subtitle": "Karakterimin Yolculuğu Değerlendirme Tablosu",
+      "structural_type": "assessment_criteria_table",
+      "assessment_type": "assessment_criteria_table",
+      "location_category": "in_theme_section",
+      "printed_page": 129,
+      "pdf_page": 130,
+      "evaluator": "teacher_and_peer",
+      "audience": "teacher_and_peer",
+      "criteria_present": true,
+      "level_descriptors_present": false,
+      "scoring_levels_present": false,
+      "response_options": [
+        "Ölçüt ve Açıklama Listesi"
+      ],
+      "structure_details": {
+        "structure_note": "Ölçüt tablosu niteliğindedir."
+      },
+      "linked_theme_ids": [
+        "TEMA_02"
+      ],
+      "linked_activity_ids": [
+        "T2_ACT_08_KONUSMA_SIRASI"
+      ],
+      "verification_status": "VERIFIED",
+      "location_scope": "THEME_INLINE"
+    },
+    {
+      "form_id": "FORM_IN_T2_YAZMA_CRITERIA",
+      "title": "Değerlendirme Ölçütleri (2. Tema: Yazma)",
+      "printed_title": "DEĞERLENDİRME ÖLÇÜTLERİ",
+      "subtitle": "Ben Şair Olsaydım Şiir Yazma Görevi Değerlendirme Tablosu",
+      "structural_type": "assessment_criteria_table",
+      "assessment_type": "assessment_criteria_table",
+      "location_category": "in_theme_section",
+      "printed_page": 141,
+      "pdf_page": 142,
+      "evaluator": "teacher_and_peer",
+      "audience": "teacher_and_peer",
+      "criteria_present": true,
+      "level_descriptors_present": false,
+      "scoring_levels_present": false,
+      "response_options": [
+        "Ölçüt ve Açıklama Listesi"
+      ],
+      "structure_details": {
+        "structure_note": "Ölçüt tablosu niteliğindedir."
+      },
+      "linked_theme_ids": [
+        "TEMA_02"
+      ],
+      "linked_activity_ids": [
+        "T2_ACT_12_YAZMA_SIRASI"
+      ],
+      "verification_status": "VERIFIED",
+      "location_scope": "THEME_INLINE"
+    },
+    {
+      "form_id": "FORM_IN_T2_TEMA_SONU_TEST",
+      "title": "2. Tema Sonu Ölçme ve Değerlendirme Soru Seti",
+      "printed_title": "Tema Sonu Ölçme ve Değerlendirme",
+      "subtitle": "Anlam Arayışı Tema Değerlendirmesi",
+      "structural_type": "test_question_set",
+      "assessment_type": "test_question_set",
+      "location_category": "in_theme_section",
+      "printed_page": 143,
+      "pdf_page": 144,
+      "evaluator": "teacher_and_student",
+      "audience": "teacher_and_student",
+      "criteria_present": false,
+      "level_descriptors_present": false,
+      "scoring_levels_present": false,
+      "response_options": [
+        "Açık uçlu",
+        "Çoktan seçmeli"
+      ],
+      "structure_details": {
+        "has_qr_extra_questions": true
+      },
+      "linked_theme_ids": [
+        "TEMA_02"
+      ],
+      "linked_activity_ids": [
+        "T2_ACT_14_TEMA_SONU_OLCME"
+      ],
+      "verification_status": "VERIFIED",
+      "location_scope": "THEME_INLINE"
+    },
+    {
+      "form_id": "FORM_IN_T2_OGRENME_GUNLUGU",
+      "title": "2. Tema Öğrenme Günlüğü",
+      "printed_title": "Öğrenme Günlüğü",
+      "subtitle": "Anlam Arayışı Yansıtma Notları",
+      "structural_type": "learning_journal",
+      "assessment_type": "learning_journal",
+      "location_category": "in_theme_section",
+      "printed_page": 149,
+      "pdf_page": 150,
+      "evaluator": "student_self",
+      "audience": "student_self",
+      "criteria_present": false,
+      "level_descriptors_present": false,
+      "scoring_levels_present": false,
+      "response_options": [
+        "Öğrenci Yansıtma Notları"
+      ],
+      "structure_details": {},
+      "linked_theme_ids": [
+        "TEMA_02"
+      ],
+      "linked_activity_ids": [
+        "T2_ACT_15_OGRENME_GUNLUGU"
+      ],
+      "verification_status": "VERIFIED",
+      "location_scope": "THEME_INLINE"
+    },
+    {
+      "form_id": "FORM_IN_T3_KONUSMA_CRITERIA",
+      "title": "Değerlendirme Ölçütleri (3. Tema: Konuşma)",
+      "printed_title": "DEĞERLENDİRME ÖLÇÜTLERİ",
+      "subtitle": "Benim Mekânım Sunumu Değerlendirme Tablosu",
+      "structural_type": "assessment_criteria_table",
+      "assessment_type": "assessment_criteria_table",
+      "location_category": "in_theme_section",
+      "printed_page": 195,
+      "pdf_page": 196,
+      "evaluator": "teacher_and_peer",
+      "audience": "teacher_and_peer",
+      "criteria_present": true,
+      "level_descriptors_present": false,
+      "scoring_levels_present": false,
+      "response_options": [
+        "Ölçüt ve Açıklama Listesi"
+      ],
+      "structure_details": {
+        "structure_note": "Ölçüt tablosu niteliğindedir."
+      },
+      "linked_theme_ids": [
+        "TEMA_03"
+      ],
+      "linked_activity_ids": [
+        "T3_ACT_08_KONUSMA_SIRASI"
+      ],
+      "verification_status": "VERIFIED",
+      "location_scope": "THEME_INLINE"
+    },
+    {
+      "form_id": "FORM_IN_T3_YAZMA_CRITERIA",
+      "title": "Değerlendirme Ölçütleri (3. Tema: Yazma)",
+      "printed_title": "DEĞERLENDİRME ÖLÇÜTLERİ",
+      "subtitle": "İnfografik Metin Değerlendirme Tablosu",
+      "structural_type": "assessment_criteria_table",
+      "assessment_type": "assessment_criteria_table",
+      "location_category": "in_theme_section",
+      "printed_page": 205,
+      "pdf_page": 206,
+      "evaluator": "teacher_and_peer",
+      "audience": "teacher_and_peer",
+      "criteria_present": true,
+      "level_descriptors_present": false,
+      "scoring_levels_present": false,
+      "response_options": [
+        "Ölçüt ve Açıklama Listesi"
+      ],
+      "structure_details": {
+        "structure_note": "Ölçüt tablosu niteliğindedir."
+      },
+      "linked_theme_ids": [
+        "TEMA_03"
+      ],
+      "linked_activity_ids": [
+        "T3_ACT_12_YAZMA_SIRASI"
+      ],
+      "verification_status": "VERIFIED",
+      "location_scope": "THEME_INLINE"
+    },
+    {
+      "form_id": "FORM_IN_T3_TEMA_SONU_TEST",
+      "title": "3. Tema Sonu Ölçme ve Değerlendirme Soru Seti",
+      "printed_title": "Tema Sonu Ölçme ve Değerlendirme",
+      "subtitle": "Anlamın Yapı Taşları Tema Değerlendirmesi",
+      "structural_type": "test_question_set",
+      "assessment_type": "test_question_set",
+      "location_category": "in_theme_section",
+      "printed_page": "207-210",
+      "pdf_page": "208-211",
+      "evaluator": "teacher_and_student",
+      "audience": "teacher_and_student",
+      "criteria_present": false,
+      "level_descriptors_present": false,
+      "scoring_levels_present": false,
+      "response_options": [
+        "Çoktan seçmeli",
+        "Açık uçlu"
+      ],
+      "structure_details": {
+        "has_qr_extra_questions": true
+      },
+      "linked_theme_ids": [
+        "TEMA_03"
+      ],
+      "linked_activity_ids": [
+        "T3_ACT_14_TEMA_SONU_OLCME"
+      ],
+      "verification_status": "VERIFIED",
+      "location_scope": "THEME_INLINE"
+    },
+    {
+      "form_id": "FORM_IN_T3_OGRENME_GUNLUGU",
+      "title": "3. Tema Öğrenme Günlüğü",
+      "printed_title": "Öğrenme Günlüğü",
+      "subtitle": "Anlamın Yapı Taşları Yansıtma Notları",
+      "structural_type": "learning_journal",
+      "assessment_type": "learning_journal",
+      "location_category": "in_theme_section",
+      "printed_page": 211,
+      "pdf_page": 212,
+      "evaluator": "student_self",
+      "audience": "student_self",
+      "criteria_present": false,
+      "level_descriptors_present": false,
+      "scoring_levels_present": false,
+      "response_options": [
+        "Öğrenci Yansıtma Notları"
+      ],
+      "structure_details": {},
+      "linked_theme_ids": [
+        "TEMA_03"
+      ],
+      "linked_activity_ids": [
+        "T3_ACT_15_OGRENME_GUNLUGU"
+      ],
+      "verification_status": "VERIFIED",
+      "location_scope": "THEME_INLINE"
+    },
+    {
+      "form_id": "FORM_IN_T4_KONUSMA_CRITERIA",
+      "title": "Değerlendirme Ölçütleri (4. Tema: Konuşma)",
+      "printed_title": "DEĞERLENDİRME ÖLÇÜTLERİ",
+      "subtitle": "Dilimizin Zenginlikleri Sunumu Değerlendirme Tablosu",
+      "structural_type": "assessment_criteria_table",
+      "assessment_type": "assessment_criteria_table",
+      "location_category": "in_theme_section",
+      "printed_page": 279,
+      "pdf_page": 280,
+      "evaluator": "teacher_and_peer",
+      "audience": "teacher_and_peer",
+      "criteria_present": true,
+      "level_descriptors_present": false,
+      "scoring_levels_present": false,
+      "response_options": [
+        "Ölçüt ve Açıklama Listesi"
+      ],
+      "structure_details": {
+        "structure_note": "Ölçüt tablosu niteliğindedir."
+      },
+      "linked_theme_ids": [
+        "TEMA_04"
+      ],
+      "linked_activity_ids": [
+        "T4_ACT_08_KONUSMA_SIRASI"
+      ],
+      "verification_status": "VERIFIED",
+      "location_scope": "THEME_INLINE"
+    },
+    {
+      "form_id": "FORM_IN_T4_DINLEME_GOZLEM",
+      "title": "Dinleme/İzleme Gözlem Formu (4. Tema)",
+      "printed_title": "Gözlem Formu",
+      "subtitle": "Âşık Veysel Belgeseli İzleme ve Değerlendirme Formu",
+      "structural_type": "observation_form",
+      "assessment_type": "observation_form",
+      "location_category": "in_theme_section",
+      "printed_page": 283,
+      "pdf_page": 284,
+      "evaluator": "student_self",
+      "audience": "student_self",
+      "criteria_present": true,
+      "level_descriptors_present": false,
+      "scoring_levels_present": false,
+      "response_options": [
+        "Gözlem Ölçütleri",
+        "Gözlem Sonuçları",
+        "Yorumlar"
+      ],
+      "structure_details": {
+        "criteria_list": [
+          "Metinde kullanılan dil",
+          "Konuşanların ifadesi ve inandırıcılığı",
+          "Sorular ve bu sorulara verilen cevapların tutarlılığı",
+          "Metnin konusu",
+          "Metnin amacı",
+          "Metnin üslubu",
+          "Metnin yapısı",
+          "Metnin ana fikri",
+          "Metinde kullanılan anlatım biçimleri"
+        ]
+      },
+      "linked_theme_ids": [
+        "TEMA_04"
+      ],
+      "linked_activity_ids": [
+        "T4_ACT_11_DINLEME_SONRASI_TAHLIL"
+      ],
+      "verification_status": "VERIFIED",
+      "location_scope": "THEME_INLINE"
+    },
+    {
+      "form_id": "FORM_IN_T4_YAZMA_CRITERIA",
+      "title": "Değerlendirme Ölçütleri (4. Tema: Yazma)",
+      "printed_title": "DEĞERLENDİRME ÖLÇÜTLERİ",
+      "subtitle": "Otobiyografimle Keşfedilmeyi Bekliyorum! Değerlendirme Tablosu",
+      "structural_type": "assessment_criteria_table",
+      "assessment_type": "assessment_criteria_table",
+      "location_category": "in_theme_section",
+      "printed_page": 294,
+      "pdf_page": 295,
+      "evaluator": "teacher_and_peer",
+      "audience": "teacher_and_peer",
+      "criteria_present": true,
+      "level_descriptors_present": false,
+      "scoring_levels_present": false,
+      "response_options": [
+        "Ölçüt ve Açıklama Listesi"
+      ],
+      "structure_details": {
+        "structure_note": "Ölçüt tablosu niteliğindedir."
+      },
+      "linked_theme_ids": [
+        "TEMA_04"
+      ],
+      "linked_activity_ids": [
+        "T4_ACT_12_YAZMA_SIRASI"
+      ],
+      "verification_status": "VERIFIED",
+      "location_scope": "THEME_INLINE"
+    },
+    {
+      "form_id": "FORM_IN_T4_TEMA_SONU_TEST",
+      "title": "4. Tema Sonu Ölçme ve Değerlendirme Soru Seti",
+      "printed_title": "Tema Sonu Ölçme ve Değerlendirme",
+      "subtitle": "Dilin Zenginliği Tema Değerlendirmesi",
+      "structural_type": "test_question_set",
+      "assessment_type": "test_question_set",
+      "location_category": "in_theme_section",
+      "printed_page": "296-300",
+      "pdf_page": "297-301",
+      "evaluator": "teacher_and_student",
+      "audience": "teacher_and_student",
+      "criteria_present": false,
+      "level_descriptors_present": false,
+      "scoring_levels_present": false,
+      "response_options": [
+        "Çoktan seçmeli",
+        "Açık uçlu"
+      ],
+      "structure_details": {
+        "has_qr_extra_questions": true
+      },
+      "linked_theme_ids": [
+        "TEMA_04"
+      ],
+      "linked_activity_ids": [
+        "T4_ACT_14_TEMA_SONU_OLCME"
+      ],
+      "verification_status": "VERIFIED",
+      "location_scope": "THEME_INLINE"
+    },
+    {
+      "form_id": "FORM_IN_T4_OGRENME_GUNLUGU",
+      "title": "4. Tema Öğrenme Günlüğü",
+      "printed_title": "Öğrenme Günlüğü",
+      "subtitle": "Dilin Zenginliği Yansıtma Notları",
+      "structural_type": "learning_journal",
+      "assessment_type": "learning_journal",
+      "location_category": "in_theme_section",
+      "printed_page": 301,
+      "pdf_page": 302,
+      "evaluator": "student_self",
+      "audience": "student_self",
+      "criteria_present": false,
+      "level_descriptors_present": false,
+      "scoring_levels_present": false,
+      "response_options": [
+        "Öğrenci Yansıtma Notları"
+      ],
+      "structure_details": {},
+      "linked_theme_ids": [
+        "TEMA_04"
+      ],
+      "linked_activity_ids": [
+        "T4_ACT_15_OGRENME_GUNLUGU"
+      ],
+      "verification_status": "VERIFIED",
+      "location_scope": "THEME_INLINE"
+    }
+  ]
+}

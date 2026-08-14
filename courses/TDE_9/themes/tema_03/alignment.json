@@ -1,0 +1,686 @@
+{
+  "schema_version": "1.0",
+  "theme_id": "TEMA_03",
+  "theme_no": 3,
+  "exact_theme_name": "3. TEMA: ANLAMIN YAPI TAŞLARI",
+  "course_id": "TDE_9",
+  "grade": 9,
+  "academic_year": "2024-2025",
+  "allocated_lesson_hours": {
+    "total": 43,
+    "anlama": 23,
+    "anlatma": 20,
+    "verbatim": "43 (Anlama: 23 / Anlatma: 20)",
+    "source_locator": "s. 80"
+  },
+  "program_page_range": "80-88",
+  "textbook_printed_page_range": "144-219",
+  "textbook_pdf_page_range": "145-220",
+  "total_learning_outcomes": 14,
+  "coverage_summary": {
+    "COVERED": 12,
+    "PARTIALLY_COVERED": 2,
+    "NOT_COVERED": 0
+  },
+  "production_decision_summary": {
+    "REUSE_TEXTBOOK": 12,
+    "REUSE_WITH_TEACHER_GUIDE": 0,
+    "ADAPT_TEXTBOOK_ACTIVITY": 0,
+    "GENERATE": 0,
+    "GENERATE_ASSESSMENT_SUPPORT": 2,
+    "GENERATE_DIFFERENTIATION": 0,
+    "GENERATE_ENRICHMENT": 0,
+    "NO_ACTION": 0
+  },
+  "priority_summary": {
+    "REQUIRED": 2,
+    "RECOMMENDED": 0,
+    "OPTIONAL": 0,
+    "NOT_NEEDED": 12
+  },
+  "alignments": [
+    {
+      "outcome_id": "TDE9_T3_D1",
+      "outcome_code": "TDE1.1",
+      "skill_category": "Metin Tahlili (Anlama) - Dinleme/İzleme",
+      "outcome_verbatim": "TDE1.1. “Anlamın Yapı Taşları” temasında ele alınan metinlerde dinlemeyi/izlemeyi yönetebilme",
+      "process_components_verbatim": [],
+      "program_locator": "s. 81",
+      "need_id": "NEED_T3_01_DINLEME_IZLEME",
+      "resource_plan_id": "RES_T3_01_DINLEME_IZLEME",
+      "expected_student_action": "Karekod üzerinden Nevruz Belgeseli'ni amaç belirleyerek izleme; dinleme/izleme kurallarına uyarak not alma.",
+      "expected_student_evidence": "Dinleme/izleme öncesi ve sırası notları, belgesel hazırlık çıktıları.",
+      "textbook_counterpart": {
+        "section_id": "T3_SEC_04_DINLEME_IZLEME",
+        "section_title": "Dinleme/İzleme: Belgesel",
+        "activity_ids": [
+          "T3_ACT_10_DINLEME_ONCESI_VE_SIRASI"
+        ],
+        "printed_pages": "199-200",
+        "pdf_pages": "200-201",
+        "main_texts": [
+          {
+            "text_id": "T3_TXT_03",
+            "title": "Nevruz Belgeseli",
+            "author": "MEB E-İçerik / Video Belgesel",
+            "printed_page": 200,
+            "pdf_page": 201
+          }
+        ],
+        "associated_forms": []
+      },
+      "coverage_decision": "COVERED",
+      "remaining_gap": null,
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "curriculum_source": "knowledge/TDE_9/curriculum_map.json",
+        "textbook_source": "knowledge/TDE_9/textbook_map.json",
+        "forms_source": "knowledge/TDE_9/textbook_forms_index.json",
+        "verification_status": "VERIFIED"
+      }
+    },
+    {
+      "outcome_id": "TDE9_T3_D2",
+      "outcome_code": "TDE1.2",
+      "skill_category": "Metin Tahlili (Anlama) - Dinleme/İzleme",
+      "outcome_verbatim": "TDE1.2. “Anlamın Yapı Taşları” temasında ele alınan metinlerde anlam oluşturabilme",
+      "process_components_verbatim": [],
+      "program_locator": "s. 81",
+      "need_id": "NEED_T3_01_DINLEME_IZLEME",
+      "resource_plan_id": "RES_T3_01_DINLEME_IZLEME",
+      "expected_student_action": "Belgeseldeki açık ve örtük iletileri tespit etme; kültürel aktarıma ilişkin çıkarımlarda bulunma.",
+      "expected_student_evidence": "Belgesel tahlil soruları yanıtları, açık ve örtük ileti listesi.",
+      "textbook_counterpart": {
+        "section_id": "T3_SEC_04_DINLEME_IZLEME",
+        "section_title": "Dinleme/İzleme: Belgesel",
+        "activity_ids": [
+          "T3_ACT_10_DINLEME_ONCESI_VE_SIRASI",
+          "T3_ACT_11_DINLEME_SONRASI_TAHLIL"
+        ],
+        "printed_pages": "199-202",
+        "pdf_pages": "200-203",
+        "main_texts": [
+          {
+            "text_id": "T3_TXT_03",
+            "title": "Nevruz Belgeseli",
+            "author": "MEB E-İçerik / Video Belgesel",
+            "printed_page": 200,
+            "pdf_page": 201
+          }
+        ],
+        "associated_forms": []
+      },
+      "coverage_decision": "COVERED",
+      "remaining_gap": null,
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "curriculum_source": "knowledge/TDE_9/curriculum_map.json",
+        "textbook_source": "knowledge/TDE_9/textbook_map.json",
+        "forms_source": "knowledge/TDE_9/textbook_forms_index.json",
+        "verification_status": "VERIFIED"
+      }
+    },
+    {
+      "outcome_id": "TDE9_T3_D3",
+      "outcome_code": "TDE1.3",
+      "skill_category": "Metin Tahlili (Anlama) - Dinleme/İzleme",
+      "outcome_verbatim": "TDE1.3. “Anlamın Yapı Taşları” temasında ele alınan metinleri çözümleyebilme",
+      "process_components_verbatim": [],
+      "program_locator": "s. 81",
+      "need_id": "NEED_T3_01_DINLEME_IZLEME",
+      "resource_plan_id": "RES_T3_01_DINLEME_IZLEME",
+      "expected_student_action": "Belgeseldeki görsel ve işitsel unsurların, anlatım biçimlerinin kültürel bellek aktarımındaki işlevini çözümleme.",
+      "expected_student_evidence": "Çok modlu metin çözümleme soruları yanıtları ve tahlil değerlendirmeleri.",
+      "textbook_counterpart": {
+        "section_id": "T3_SEC_04_DINLEME_IZLEME",
+        "section_title": "Dinleme/İzleme: Belgesel",
+        "activity_ids": [
+          "T3_ACT_11_DINLEME_SONRASI_TAHLIL"
+        ],
+        "printed_pages": "200-202",
+        "pdf_pages": "201-203",
+        "main_texts": [
+          {
+            "text_id": "T3_TXT_03",
+            "title": "Nevruz Belgeseli",
+            "author": "MEB E-İçerik / Video Belgesel",
+            "printed_page": 200,
+            "pdf_page": 201
+          }
+        ],
+        "associated_forms": []
+      },
+      "coverage_decision": "COVERED",
+      "remaining_gap": null,
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "curriculum_source": "knowledge/TDE_9/curriculum_map.json",
+        "textbook_source": "knowledge/TDE_9/textbook_map.json",
+        "forms_source": "knowledge/TDE_9/textbook_forms_index.json",
+        "verification_status": "VERIFIED"
+      }
+    },
+    {
+      "outcome_id": "TDE9_T3_O1",
+      "outcome_code": "TDE2.1",
+      "skill_category": "Metin Tahlili (Anlama) - Okuma",
+      "outcome_verbatim": "TDE2.1. “Anlamın Yapı Taşları” temasında ele alınan metinlerde okumayı yönetebilme",
+      "process_components_verbatim": [],
+      "program_locator": "s. 81",
+      "need_id": "NEED_T3_02_OKUMA_HIKAYE_GEZI",
+      "resource_plan_id": "RES_T3_02_OKUMA_METINLERI_VE_TAHLIL",
+      "expected_student_action": "Hikâye ve gezi yazısı metinleri öncesinde hazırlık yapma, okuma sırası işaretleme ve okuma stratejisi uygulama.",
+      "expected_student_evidence": "Okuma öncesi düşünceler, tahminler, metin üzeri işaretlemeler.",
+      "textbook_counterpart": {
+        "section_id": "T3_SEC_01_OKUMA_HIKAYE",
+        "section_title": "Okuma: Hikâye / Gezi Yazısı",
+        "activity_ids": [
+          "T3_ACT_01_OKUMA_ONCESI_HIKAYE",
+          "T3_ACT_02_OKUMA_SIRASI_HIKAYE",
+          "T3_ACT_05_OKUMA_ONCESI_GEZI"
+        ],
+        "printed_pages": "154-158, 183",
+        "pdf_pages": "155-159, 184",
+        "main_texts": [
+          {
+            "text_id": "T3_TXT_01",
+            "title": "Eskici",
+            "author": "Refik Halit Karay",
+            "printed_page": "155-158",
+            "pdf_page": "156-159"
+          },
+          {
+            "text_id": "T3_TXT_02",
+            "title": "Bizim Akdeniz'den",
+            "author": "Falih Rıfkı Atay",
+            "printed_page": "183-184",
+            "pdf_page": "184-185"
+          }
+        ],
+        "associated_forms": []
+      },
+      "coverage_decision": "COVERED",
+      "remaining_gap": null,
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "curriculum_source": "knowledge/TDE_9/curriculum_map.json",
+        "textbook_source": "knowledge/TDE_9/textbook_map.json",
+        "forms_source": "knowledge/TDE_9/textbook_forms_index.json",
+        "verification_status": "VERIFIED"
+      }
+    },
+    {
+      "outcome_id": "TDE9_T3_O2",
+      "outcome_code": "TDE2.2",
+      "skill_category": "Metin Tahlili (Anlama) - Okuma",
+      "outcome_verbatim": "TDE2.2. “Anlamın Yapı Taşları” temasında ele alınan metinlerde anlam oluşturabilme",
+      "process_components_verbatim": [],
+      "program_locator": "s. 81",
+      "need_id": "NEED_T3_02_OKUMA_HIKAYE_GEZI",
+      "resource_plan_id": "RES_T3_02_OKUMA_METINLERI_VE_TAHLIL",
+      "expected_student_action": "Metindeki bilinmeyen kelimelerin anlamını bağlamdan çıkarma, açık ve örtük iletileri belirleme, tür özelliklerini anlamlandırma.",
+      "expected_student_evidence": "Kavram ve kelime çalışmaları, tahlil soruları cevapları.",
+      "textbook_counterpart": {
+        "section_id": "T3_SEC_01_OKUMA_HIKAYE",
+        "section_title": "Okuma: Hikâye / Gezi Yazısı",
+        "activity_ids": [
+          "T3_ACT_03_OKUMA_SONRASI_HIKAYE_TAHLIL",
+          "T3_ACT_06_OKUMA_SONRASI_GEZI_TAHLIL"
+        ],
+        "printed_pages": "159-175, 185-192",
+        "pdf_pages": "160-176, 186-193",
+        "main_texts": [
+          {
+            "text_id": "T3_TXT_01",
+            "title": "Eskici",
+            "author": "Refik Halit Karay",
+            "printed_page": "155-158",
+            "pdf_page": "156-159"
+          },
+          {
+            "text_id": "T3_TXT_02",
+            "title": "Bizim Akdeniz'den",
+            "author": "Falih Rıfkı Atay",
+            "printed_page": "183-184",
+            "pdf_page": "184-185"
+          }
+        ],
+        "associated_forms": []
+      },
+      "coverage_decision": "COVERED",
+      "remaining_gap": null,
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "curriculum_source": "knowledge/TDE_9/curriculum_map.json",
+        "textbook_source": "knowledge/TDE_9/textbook_map.json",
+        "forms_source": "knowledge/TDE_9/textbook_forms_index.json",
+        "verification_status": "VERIFIED"
+      }
+    },
+    {
+      "outcome_id": "TDE9_T3_O3",
+      "outcome_code": "TDE2.3",
+      "skill_category": "Metin Tahlili (Anlama) - Okuma",
+      "outcome_verbatim": "TDE2.3. “Anlamın Yapı Taşları” temasında ele alınan metinleri çözümleyebilme",
+      "process_components_verbatim": [],
+      "program_locator": "s. 81",
+      "need_id": "NEED_T3_02_OKUMA_HIKAYE_GEZI",
+      "resource_plan_id": "RES_T3_02_OKUMA_METINLERI_VE_TAHLIL",
+      "expected_student_action": "Hikâye ve gezi yazısının yapı unsurlarını (olay, kişi, mekân, zaman, anlatıcı, bakış açısı), anlatım tekniklerini (iç konuşma, diyalog) ve belirteçleri çözümleme.",
+      "expected_student_evidence": "Yapı çözümleme tabloları, anlatım tekniği analizleri, belirteç etkinlikleri ve kontrol noktası listeleri.",
+      "textbook_counterpart": {
+        "section_id": "T3_SEC_01_OKUMA_HIKAYE",
+        "section_title": "Okuma: Hikâye / Gezi Yazısı",
+        "activity_ids": [
+          "T3_ACT_03_OKUMA_SONRASI_HIKAYE_TAHLIL",
+          "T3_ACT_04_KONTROL_NOKTASI_HIKAYE",
+          "T3_ACT_06_OKUMA_SONRASI_GEZI_TAHLIL",
+          "T3_ACT_07_KONTROL_NOKTASI_GEZI"
+        ],
+        "printed_pages": "159-182, 185-193",
+        "pdf_pages": "160-183, 186-194",
+        "main_texts": [
+          {
+            "text_id": "T3_TXT_01",
+            "title": "Eskici",
+            "author": "Refik Halit Karay",
+            "printed_page": "155-158",
+            "pdf_page": "156-159"
+          },
+          {
+            "text_id": "T3_TXT_02",
+            "title": "Bizim Akdeniz'den",
+            "author": "Falih Rıfkı Atay",
+            "printed_page": "183-184",
+            "pdf_page": "184-185"
+          }
+        ],
+        "associated_forms": []
+      },
+      "coverage_decision": "COVERED",
+      "remaining_gap": null,
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "curriculum_source": "knowledge/TDE_9/curriculum_map.json",
+        "textbook_source": "knowledge/TDE_9/textbook_map.json",
+        "forms_source": "knowledge/TDE_9/textbook_forms_index.json",
+        "verification_status": "VERIFIED"
+      }
+    },
+    {
+      "outcome_id": "TDE9_T3_K1",
+      "outcome_code": "TDE3.1",
+      "skill_category": "Edebiyat Atölyesi (Anlatma) - Konuşma",
+      "outcome_verbatim": "TDE3.1. Edebî metinlerde yapısal inceliklere odaklanan akıcı bir konuşma sürecini yönetebilme",
+      "process_components_verbatim": [],
+      "program_locator": "s. 81",
+      "need_id": "NEED_T3_03_KONUSMA_ATOLYESI",
+      "resource_plan_id": "RES_T3_03_KONUSMA_ATOLYESI",
+      "expected_student_action": "Okunan metinlerdeki bir mekân ile kendi çevresindeki bir mekânı karşılaştıran sunum hazırlama sürecini yönetme; görsel toplama ve telif haklarına dikkat etme.",
+      "expected_student_evidence": "Sunum hazırlık planı, görsel ve mekân seçimi listesi.",
+      "textbook_counterpart": {
+        "section_id": "T3_SEC_03_KONUSMA_ATOLYESI",
+        "section_title": "Edebiyat Atölyesi: Konuşma",
+        "activity_ids": [
+          "T3_ACT_08_KONUSMA_SIRASI"
+        ],
+        "printed_pages": "193-196",
+        "pdf_pages": "194-197",
+        "main_texts": [],
+        "associated_forms": [
+          {
+            "form_id": "FORM_IN_T3_KONUSMA_CRITERIA",
+            "printed_title": "DEĞERLENDİRME ÖLÇÜTLERİ",
+            "structural_type": "assessment_criteria_table",
+            "location_scope": "THEME_INLINE",
+            "printed_page": 195,
+            "pdf_page": 196
+          }
+        ]
+      },
+      "coverage_decision": "COVERED",
+      "remaining_gap": null,
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "curriculum_source": "knowledge/TDE_9/curriculum_map.json",
+        "textbook_source": "knowledge/TDE_9/textbook_map.json",
+        "forms_source": "knowledge/TDE_9/textbook_forms_index.json",
+        "verification_status": "VERIFIED"
+      }
+    },
+    {
+      "outcome_id": "TDE9_T3_K2",
+      "outcome_code": "TDE3.2",
+      "skill_category": "Edebiyat Atölyesi (Anlatma) - Konuşma",
+      "outcome_verbatim": "TDE3.2. Benzetme, karşılaştırma yaparak yapısal özellikleri ortaya koyduğu bir konuşma içeriği oluşturabilme",
+      "process_components_verbatim": [],
+      "program_locator": "s. 81",
+      "need_id": "NEED_T3_03_KONUSMA_ATOLYESI",
+      "resource_plan_id": "RES_T3_03_KONUSMA_ATOLYESI",
+      "expected_student_action": "Metindeki mekân ile kendi çevresindeki mekânı karşılaştıran içerik kurgusu oluşturma; betimleme ve karşılaştırma ifadelerinden yararlanma.",
+      "expected_student_evidence": "Mekân karşılaştırma taslağı ve sunum içeriği.",
+      "textbook_counterpart": {
+        "section_id": "T3_SEC_03_KONUSMA_ATOLYESI",
+        "section_title": "Edebiyat Atölyesi: Konuşma",
+        "activity_ids": [
+          "T3_ACT_08_KONUSMA_SIRASI"
+        ],
+        "printed_pages": "193-196",
+        "pdf_pages": "194-197",
+        "main_texts": [],
+        "associated_forms": [
+          {
+            "form_id": "FORM_IN_T3_KONUSMA_CRITERIA",
+            "printed_title": "DEĞERLENDİRME ÖLÇÜTLERİ",
+            "structural_type": "assessment_criteria_table",
+            "location_scope": "THEME_INLINE",
+            "printed_page": 195,
+            "pdf_page": 196
+          }
+        ]
+      },
+      "coverage_decision": "COVERED",
+      "remaining_gap": null,
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "curriculum_source": "knowledge/TDE_9/curriculum_map.json",
+        "textbook_source": "knowledge/TDE_9/textbook_map.json",
+        "forms_source": "knowledge/TDE_9/textbook_forms_index.json",
+        "verification_status": "VERIFIED"
+      }
+    },
+    {
+      "outcome_id": "TDE9_T3_K3",
+      "outcome_code": "TDE3.3",
+      "skill_category": "Edebiyat Atölyesi (Anlatma) - Konuşma",
+      "outcome_verbatim": "TDE3.3. Benzetme, karşılaştırma yaparak yapısal özellikleri ortaya koyduğu bir konuşmada kural uygulayabilme",
+      "process_components_verbatim": [],
+      "program_locator": "s. 81",
+      "need_id": "NEED_T3_03_KONUSMA_ATOLYESI",
+      "resource_plan_id": "RES_T3_03_KONUSMA_ATOLYESI",
+      "expected_student_action": "Konuşma sırasında ses tonu, vurgu, tonlama, beden dili ve dil kurallarını uygulayarak sunumu gerçekleştirme.",
+      "expected_student_evidence": "Canlı sözlü sunum performansı ('Benim Mekânım' sunumu).",
+      "textbook_counterpart": {
+        "section_id": "T3_SEC_03_KONUSMA_ATOLYESI",
+        "section_title": "Edebiyat Atölyesi: Konuşma",
+        "activity_ids": [
+          "T3_ACT_08_KONUSMA_SIRASI"
+        ],
+        "printed_pages": "193-196",
+        "pdf_pages": "194-197",
+        "main_texts": [],
+        "associated_forms": [
+          {
+            "form_id": "FORM_IN_T3_KONUSMA_CRITERIA",
+            "printed_title": "DEĞERLENDİRME ÖLÇÜTLERİ",
+            "structural_type": "assessment_criteria_table",
+            "location_scope": "THEME_INLINE",
+            "printed_page": 195,
+            "pdf_page": 196
+          }
+        ]
+      },
+      "coverage_decision": "COVERED",
+      "remaining_gap": null,
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "curriculum_source": "knowledge/TDE_9/curriculum_map.json",
+        "textbook_source": "knowledge/TDE_9/textbook_map.json",
+        "forms_source": "knowledge/TDE_9/textbook_forms_index.json",
+        "verification_status": "VERIFIED"
+      }
+    },
+    {
+      "outcome_id": "TDE9_T3_K4",
+      "outcome_code": "TDE3.4",
+      "skill_category": "Edebiyat Atölyesi (Anlatma) - Konuşma",
+      "outcome_verbatim": "TDE3.4. Edebî metinlerdeki yapısal inceliklerin konuşmaya etkisine yönelik değerlendirmelerini yansıtabilme",
+      "process_components_verbatim": [],
+      "program_locator": "s. 81",
+      "need_id": "NEED_T3_03_KONUSMA_ATOLYESI",
+      "resource_plan_id": "RES_T3_05_KONUSMA_RUBRIC",
+      "expected_student_action": "Sunum sonrasında kendi performansını öz değerlendirme formuyla değerlendirme, akran sunumlarına nitel geri bildirim verme, yansıtma sorularını yanıtlama ve öğretmen dereceli puanlama anahtarı değerlendirmesini alma.",
+      "expected_student_evidence": "Doldurulmuş öz değerlendirme formu (`FORM_BOB_06_T3_KONUSMA_OZ`), akran değerlendirme formu (`FORM_BOB_10_T3_T4_AKRAN`), öğretmen gözlem formu (`FORM_BOB_11_GENEL_GOZLEM`), öğretmen dereceli puanlama anahtarı çıktısı.",
+      "textbook_counterpart": {
+        "section_id": "T3_SEC_03_KONUSMA_ATOLYESI",
+        "section_title": "Edebiyat Atölyesi: Konuşma",
+        "activity_ids": [
+          "T3_ACT_09_KONUSMA_SONRASI"
+        ],
+        "printed_pages": "197, 307, 311, 312",
+        "pdf_pages": "198, 308, 312, 313",
+        "main_texts": [],
+        "associated_forms": [
+          {
+            "form_id": "FORM_BOB_06_T3_KONUSMA_OZ",
+            "printed_title": "ÖZ DEĞERLENDİRME FORMU (3. TEMA: KONUŞMA)",
+            "structural_type": "self_assessment_form",
+            "location_scope": "BOOK_APPENDIX",
+            "printed_page": 307,
+            "pdf_page": 308
+          },
+          {
+            "form_id": "FORM_BOB_10_T3_T4_AKRAN",
+            "printed_title": "Akran Değerlendirme Formu (3. ve 4. Tema)",
+            "structural_type": "peer_assessment_form",
+            "location_scope": "BOOK_APPENDIX",
+            "printed_page": 311,
+            "pdf_page": 312
+          },
+          {
+            "form_id": "FORM_BOB_11_GENEL_GOZLEM",
+            "printed_title": "GÖZLEM / DEĞERLENDİRME FORMU",
+            "structural_type": "teacher_evaluation_form",
+            "location_scope": "BOOK_APPENDIX",
+            "printed_page": 312,
+            "pdf_page": 313
+          }
+        ]
+      },
+      "coverage_decision": "PARTIALLY_COVERED",
+      "remaining_gap": "Programın TDE3.4 çıktısında ve süreç açıklamalarında (s. 82, 86) açıkça şart koştuğu 'Sunumlar, dereceli puanlama anahtarı ile puanlanır' gereksinimi ders kitabında yapısal olarak karşılanmamaktadır. Kitap s. 195'teki FORM_IN_T3_KONUSMA_CRITERIA yalnızca bir ölçüt tablosudur (assessment_criteria_table); s. 307 öz değerlendirme, s. 311 akran değerlendirme ve s. 312 genel gözlem formları dereceli puanlama anahtarı yapısının yerine geçmez. Çok boyutlu program ölçütlerini derecelendirmek üzere analitik rubrik (GENERATE_ASSESSMENT_SUPPORT) desteği gereklidir.",
+      "production_decision": "GENERATE_ASSESSMENT_SUPPORT",
+      "priority": "REQUIRED",
+      "provenance": {
+        "curriculum_source": "knowledge/TDE_9/curriculum_map.json",
+        "textbook_source": "knowledge/TDE_9/textbook_map.json",
+        "forms_source": "knowledge/TDE_9/textbook_forms_index.json",
+        "verification_status": "VERIFIED"
+      }
+    },
+    {
+      "outcome_id": "TDE9_T3_Y1",
+      "outcome_code": "TDE4.1",
+      "skill_category": "Edebiyat Atölyesi (Anlatma) - Yazma",
+      "outcome_verbatim": "TDE4.1. Yapısını incelikle ördüğü bir yazılı anlatım sürecini yönetebilme",
+      "process_components_verbatim": [],
+      "program_locator": "s. 81",
+      "need_id": "NEED_T3_04_YAZMA_ATOLYESI",
+      "resource_plan_id": "RES_T3_04_YAZMA_ATOLYESI",
+      "expected_student_action": "Nevruz belgeselinden hareketle oluşturulacak infografik metin için bilgi, ileti ve görsel seçimi yaparak yazma sürecini planlama.",
+      "expected_student_evidence": "İnfografik metin planlama taslağı ve içerik seçim listesi.",
+      "textbook_counterpart": {
+        "section_id": "T3_SEC_05_YAZMA_ATOLYESI",
+        "section_title": "Edebiyat Atölyesi: Yazma",
+        "activity_ids": [
+          "T3_ACT_12_YAZMA_SIRASI"
+        ],
+        "printed_pages": "203-205",
+        "pdf_pages": "204-206",
+        "main_texts": [],
+        "associated_forms": [
+          {
+            "form_id": "FORM_IN_T3_YAZMA_CRITERIA",
+            "printed_title": "DEĞERLENDİRME ÖLÇÜTLERİ",
+            "structural_type": "assessment_criteria_table",
+            "location_scope": "THEME_INLINE",
+            "printed_page": 205,
+            "pdf_page": 206
+          }
+        ]
+      },
+      "coverage_decision": "COVERED",
+      "remaining_gap": null,
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "curriculum_source": "knowledge/TDE_9/curriculum_map.json",
+        "textbook_source": "knowledge/TDE_9/textbook_map.json",
+        "forms_source": "knowledge/TDE_9/textbook_forms_index.json",
+        "verification_status": "VERIFIED"
+      }
+    },
+    {
+      "outcome_id": "TDE9_T3_Y2",
+      "outcome_code": "TDE4.2",
+      "skill_category": "Edebiyat Atölyesi (Anlatma) - Yazma",
+      "outcome_verbatim": "TDE4.2. Yapısı incelikle örülmüş edebî metinlerden edindiği söz varlığını kullanarak yazısı için içerik oluşturabilme",
+      "process_components_verbatim": [],
+      "program_locator": "s. 81",
+      "need_id": "NEED_T3_04_YAZMA_ATOLYESI",
+      "resource_plan_id": "RES_T3_04_YAZMA_ATOLYESI",
+      "expected_student_action": "Belgeselden ve temadaki metinlerden edindiği söz varlığı, deyim ve atasözlerini infografik metin içeriğinde anlam ve görsel uyumu gözeterek kullanma.",
+      "expected_student_evidence": "İnfografik metin taslağı ve görsel-sözel içerik metni.",
+      "textbook_counterpart": {
+        "section_id": "T3_SEC_05_YAZMA_ATOLYESI",
+        "section_title": "Edebiyat Atölyesi: Yazma",
+        "activity_ids": [
+          "T3_ACT_12_YAZMA_SIRASI"
+        ],
+        "printed_pages": "203-205",
+        "pdf_pages": "204-206",
+        "main_texts": [],
+        "associated_forms": [
+          {
+            "form_id": "FORM_IN_T3_YAZMA_CRITERIA",
+            "printed_title": "DEĞERLENDİRME ÖLÇÜTLERİ",
+            "structural_type": "assessment_criteria_table",
+            "location_scope": "THEME_INLINE",
+            "printed_page": 205,
+            "pdf_page": 206
+          }
+        ]
+      },
+      "coverage_decision": "COVERED",
+      "remaining_gap": null,
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "curriculum_source": "knowledge/TDE_9/curriculum_map.json",
+        "textbook_source": "knowledge/TDE_9/textbook_map.json",
+        "forms_source": "knowledge/TDE_9/textbook_forms_index.json",
+        "verification_status": "VERIFIED"
+      }
+    },
+    {
+      "outcome_id": "TDE9_T3_Y3",
+      "outcome_code": "TDE4.3",
+      "skill_category": "Edebiyat Atölyesi (Anlatma) - Yazma",
+      "outcome_verbatim": "TDE4.3. Yapısını incelikle ördüğü yazısında kural uygulayabilme",
+      "process_components_verbatim": [],
+      "program_locator": "s. 81",
+      "need_id": "NEED_T3_04_YAZMA_ATOLYESI",
+      "resource_plan_id": "RES_T3_04_YAZMA_ATOLYESI",
+      "expected_student_action": "İnfografik metinde Türkçenin kurallarına, yazım ve noktalama kurallarına uyma; metni gözden geçirerek düzenleme.",
+      "expected_student_evidence": "Düzenlenmiş ve son şekli verilmiş infografik metin ürünü.",
+      "textbook_counterpart": {
+        "section_id": "T3_SEC_05_YAZMA_ATOLYESI",
+        "section_title": "Edebiyat Atölyesi: Yazma",
+        "activity_ids": [
+          "T3_ACT_12_YAZMA_SIRASI",
+          "T3_ACT_13_YAZMA_SONRASI"
+        ],
+        "printed_pages": "203-206",
+        "pdf_pages": "204-207",
+        "main_texts": [],
+        "associated_forms": [
+          {
+            "form_id": "FORM_IN_T3_YAZMA_CRITERIA",
+            "printed_title": "DEĞERLENDİRME ÖLÇÜTLERİ",
+            "structural_type": "assessment_criteria_table",
+            "location_scope": "THEME_INLINE",
+            "printed_page": 205,
+            "pdf_page": 206
+          }
+        ]
+      },
+      "coverage_decision": "COVERED",
+      "remaining_gap": null,
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "curriculum_source": "knowledge/TDE_9/curriculum_map.json",
+        "textbook_source": "knowledge/TDE_9/textbook_map.json",
+        "forms_source": "knowledge/TDE_9/textbook_forms_index.json",
+        "verification_status": "VERIFIED"
+      }
+    },
+    {
+      "outcome_id": "TDE9_T3_Y4",
+      "outcome_code": "TDE4.4",
+      "skill_category": "Edebiyat Atölyesi (Anlatma) - Yazma",
+      "outcome_verbatim": "TDE4.4. Yapısını incelikle ördüğü yazısına yönelik değerlendirmelerini yansıtabilme",
+      "process_components_verbatim": [],
+      "program_locator": "s. 81",
+      "need_id": "NEED_T3_04_YAZMA_ATOLYESI",
+      "resource_plan_id": "RES_T3_06_YAZMA_RUBRIC",
+      "expected_student_action": "İnfografik metin çalışmasını öz değerlendirme formu ve yansıtma sorularıyla değerlendirme, akran ürünlerini inceleyerek nitel geri bildirim verme, metne son şeklini verme ve öğretmen dereceli puanlama anahtarı değerlendirmesini alma.",
+      "expected_student_evidence": "Doldurulmuş öz değerlendirme formu (`FORM_BOB_05_T3_YAZMA_OZ`), akran değerlendirme formu (`FORM_BOB_10_T3_T4_AKRAN`), öğretmen gözlem formu (`FORM_BOB_11_GENEL_GOZLEM`), son şekli verilmiş infografik metin ürünü, öğretmen dereceli puanlama anahtarı çıktısı.",
+      "textbook_counterpart": {
+        "section_id": "T3_SEC_05_YAZMA_ATOLYESI",
+        "section_title": "Edebiyat Atölyesi: Yazma",
+        "activity_ids": [
+          "T3_ACT_13_YAZMA_SONRASI"
+        ],
+        "printed_pages": "206, 306, 311, 312",
+        "pdf_pages": "207, 307, 312, 313",
+        "main_texts": [],
+        "associated_forms": [
+          {
+            "form_id": "FORM_BOB_05_T3_YAZMA_OZ",
+            "printed_title": "ÖZ DEĞERLENDİRME FORMU (3. TEMA: YAZMA)",
+            "structural_type": "self_assessment_form",
+            "location_scope": "BOOK_APPENDIX",
+            "printed_page": 306,
+            "pdf_page": 307
+          },
+          {
+            "form_id": "FORM_BOB_10_T3_T4_AKRAN",
+            "printed_title": "Akran Değerlendirme Formu (3. ve 4. Tema)",
+            "structural_type": "peer_assessment_form",
+            "location_scope": "BOOK_APPENDIX",
+            "printed_page": 311,
+            "pdf_page": 312
+          },
+          {
+            "form_id": "FORM_BOB_11_GENEL_GOZLEM",
+            "printed_title": "GÖZLEM / DEĞERLENDİRME FORMU",
+            "structural_type": "teacher_evaluation_form",
+            "location_scope": "BOOK_APPENDIX",
+            "printed_page": 312,
+            "pdf_page": 313
+          }
+        ]
+      },
+      "coverage_decision": "PARTIALLY_COVERED",
+      "remaining_gap": "Programın TDE4.4 çıktısında ve süreç açıklamalarında (s. 82, 88) açıkça şart koştuğu 'Öğrencinin yazılı ürünleri dereceli puanlama anahtarı ile puanlanır' gereksinimi ders kitabında yapısal olarak karşılanmamaktadır. Kitap s. 205'teki FORM_IN_T3_YAZMA_CRITERIA yalnızca bir ölçüt tablosudur (assessment_criteria_table); s. 306 öz değerlendirme, s. 311 akran değerlendirme, s. 312 genel gözlem formu ve revizyon yönergeleri dereceli puanlama anahtarı yapısının yerine geçmez. Çok boyutlu program ölçütlerini derecelendirmek üzere analitik rubrik (GENERATE_ASSESSMENT_SUPPORT) desteği gereklidir.",
+      "production_decision": "GENERATE_ASSESSMENT_SUPPORT",
+      "priority": "REQUIRED",
+      "provenance": {
+        "curriculum_source": "knowledge/TDE_9/curriculum_map.json",
+        "textbook_source": "knowledge/TDE_9/textbook_map.json",
+        "forms_source": "knowledge/TDE_9/textbook_forms_index.json",
+        "verification_status": "VERIFIED"
+      }
+    }
+  ]
+}

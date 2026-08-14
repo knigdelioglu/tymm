@@ -1,0 +1,401 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_9",
+  "grade": 9,
+  "theme_id": "TEMA_04",
+  "theme_no": 4,
+  "theme_title": "4. TEMA: DİLİN ZENGİNLİĞİ",
+  "summary": {
+    "total_outcomes_analyzed": 16,
+    "covered": 11,
+    "partially_covered": 5,
+    "not_covered": 0,
+    "identified_gaps_count": 3,
+    "map_conflicts_count": 0,
+    "unresolved_items_count": 0
+  },
+  "evaluations": [
+    {
+      "outcome_code": "TDE1.1",
+      "outcome_id": "TDE9_T4_D1",
+      "skill_category": "Metin Tahlili (Anlama) - Dinleme/İzleme",
+      "stage_a_instructional_requirement": {
+        "learning_experience_needed": "Öğrencinin otobiyografi belgeselini izlemeden önce amaç ve strateji belirlemesi, izleme esnasında not alması ve izleme sürecini bir gözlem formu ile yönetmesi.",
+        "student_action_needed": "İzleme öncesi hazırlık sorularını yanıtlama, karekod belgeseli izleme, yapılandırılmış notlar alma ve gözlem formunu doldurma.",
+        "expected_student_evidence": "İzleme öncesi hazırlık cevapları, izleme süreci notları ve s. 283'teki doldurulmuş Gözlem Formu.",
+        "required_resource_function": "learning_input_or_representation"
+      },
+      "stage_b_resource_gap": {
+        "textbook_locator": "s. 281-283 (T4_ACT_10_DINLEME_ONCESI_VE_SIRASI, T4_ACT_11_DINLEME_SONRASI_TAHLIL)",
+        "textbook_provided_action_and_evidence": "Ders kitabı s. 281-282'de izleme öncesi hazırlık yönergeleri, Âşık Veysel belgeseli video karekodu ve not alma alanı sunulmuş; s. 283'te ise 'Gözlem Formu' yer almaktadır.",
+        "textbook_assessment_instruments": [
+          "FORM_IN_T4_DINLEME_GOZLEM (s. 283, observation_form)"
+        ],
+        "coverage_status": "COVERED",
+        "remaining_gap": "NONE",
+        "production_decision": "REUSE_TEXTBOOK",
+        "priority": "NOT_NEEDED",
+        "justification": "Ders kitabındaki etkinlik, video karekod girdisi ve s. 283'teki Gözlem Formu öğrenci eylemini ve gözlenebilir kanıtını eksiksiz sağlamaktadır."
+      }
+    },
+    {
+      "outcome_code": "TDE1.2",
+      "outcome_id": "TDE9_T4_D2",
+      "skill_category": "Metin Tahlili (Anlama) - Dinleme/İzleme",
+      "stage_a_instructional_requirement": {
+        "learning_experience_needed": "Öğrencinin izlenen otobiyografiden hareketle tür özelliklerini belirlemesi, bilinmeyen kelimelerin anlamını bağlamdan tahmin etmesi, öğretici metinlerle karşılaştırması ve söz varlığını üslup işlevine göre sınıflandırması.",
+        "student_action_needed": "Bağlamsal kelime tahmini yapma, otobiyografi türü çıkarımlarını listeleme, karşılaştırma notları alma ve tahlil sorularını yanıtlama.",
+        "expected_student_evidence": "Kelime tahminleri, otobiyografi düzenleme çıkarımları, karşılaştırma notları ve metin tahlil soruları yazılı çözümleri.",
+        "required_resource_function": "guided_practice"
+      },
+      "stage_b_resource_gap": {
+        "textbook_locator": "s. 283-291 (T4_ACT_10_DINLEME_ONCESI_VE_SIRASI, T4_ACT_11_DINLEME_SONRASI_TAHLIL)",
+        "textbook_provided_action_and_evidence": "Ders kitabı s. 283-291 aralığında otobiyografi tahlili soruları, söz varlığı ve üslup inceleme tabloları ile kapsamlı anlam oluşturma etkinlikleri sunmaktadır.",
+        "textbook_assessment_instruments": [
+          "Tahlil soruları ve etkinlik içi anlamlandırma tabloları (s. 283-291)"
+        ],
+        "coverage_status": "COVERED",
+        "remaining_gap": "NONE",
+        "production_decision": "REUSE_TEXTBOOK",
+        "priority": "NOT_NEEDED",
+        "justification": "Kitaptaki tahlil etkinlikleri ve soru setleri programın anlam oluşturma basamaklarını eksiksiz karşılamaktadır."
+      }
+    },
+    {
+      "outcome_code": "TDE1.3",
+      "outcome_id": "TDE9_T4_D3",
+      "skill_category": "Metin Tahlili (Anlama) - Dinleme/İzleme",
+      "stage_a_instructional_requirement": {
+        "learning_experience_needed": "Öğrencinin otobiyografide kullanılan anlatım biçimi, yöntem ve teknikleri açık uçlu sorularla belirlemesi ve üslup arasındaki neden-sonuç ilişkisini çözümlemesi.",
+        "student_action_needed": "Belgeseldeki anlatım biçimleri ve teknikleri tespit etme, üslup ile etkileşimini açık uçlu sorularla ve tahlil tablosuyla gerekçelendirme.",
+        "expected_student_evidence": "Ders kitabı s. 283-291'deki açık uçlu metin tahlil sorularının yazılı yanıtları ve çözümleme tablosu çıktıları.",
+        "required_resource_function": "guided_practice"
+      },
+      "stage_b_resource_gap": {
+        "textbook_locator": "s. 283-291 (T4_ACT_11_DINLEME_SONRASI_TAHLIL)",
+        "textbook_provided_action_and_evidence": "Ders kitabı s. 283-291'de açık uçlu tahlil soruları, anlatım biçimleri ve yöntem-teknik çözümleme tabloları ile süreci karşılamaktadır.",
+        "textbook_assessment_instruments": [
+          "Açık uçlu metin tahlil soruları (s. 283-291)",
+          "FORM_IN_T4_DINLEME_GOZLEM (s. 283, observation_form)"
+        ],
+        "coverage_status": "COVERED",
+        "remaining_gap": "NONE",
+        "production_decision": "REUSE_TEXTBOOK",
+        "priority": "NOT_NEEDED",
+        "justification": "Ders kitabındaki etkinlikler otobiyografik anlatım biçimlerini, belgesel tekniklerini ve üslup etkileşimini açık uçlu sorularla derinlemesine tahlil ettirmektedir."
+      }
+    },
+    {
+      "outcome_code": "TDE1.4",
+      "outcome_id": "TDE9_T4_D4",
+      "skill_category": "Metin Tahlili (Anlama) - Dinleme/İzleme",
+      "stage_a_instructional_requirement": {
+        "learning_experience_needed": "Öğrencinin dinlenen/izlenen otobiyografideki sorulara ve üsluba yönelik eleştirel değerlendirme yapması, bağlama uygun sorular üretmesi ve öz değerlendirme formuyla süreci yansıtması.",
+        "student_action_needed": "Gerekçeli eleştirel görüş belirtme, öz değerlendirme formundaki ölçüt ve yorum alanlarını doldurma, öğrenme günlüğüne yansıtma yazma.",
+        "expected_student_evidence": "Eleştirel değerlendirme cevapları, s. 283'teki doldurulmuş Gözlem Formu (FORM_IN_T4_DINLEME_GOZLEM) ve s. 301'deki Öğrenme Günlüğü (FORM_IN_T4_OGRENME_GUNLUGU).",
+        "required_resource_function": "feedback_support"
+      },
+      "stage_b_resource_gap": {
+        "textbook_locator": "s. 283-291, 301 (T4_ACT_11_DINLEME_SONRASI_TAHLIL, T4_ACT_15_OGRENME_GUNLUGU)",
+        "textbook_provided_action_and_evidence": "Ders kitabı s. 283'te öğrencinin kendi değerlendirmesini ve yorumunu yazdığı Gözlem Formu, s. 284-291'de eleştirel yorum soruları ve s. 301'de Öğrenme Günlüğü sunmaktadır.",
+        "textbook_assessment_instruments": [
+          "FORM_IN_T4_DINLEME_GOZLEM (s. 283, observation_form, evaluator: student_self)",
+          "FORM_IN_T4_OGRENME_GUNLUGU (s. 301, learning_journal)"
+        ],
+        "coverage_status": "COVERED",
+        "remaining_gap": "NONE",
+        "production_decision": "REUSE_TEXTBOOK",
+        "priority": "NOT_NEEDED",
+        "justification": "Ders kitabındaki s. 283 gözlem formu ve s. 301 öğrenme günlüğü yansıtma ve öz değerlendirme kanıtını doğrudan sağlamaktadır."
+      }
+    },
+    {
+      "outcome_code": "TDE2.1",
+      "outcome_id": "TDE9_T4_O1",
+      "skill_category": "Metin Tahlili (Anlama) - Okuma",
+      "stage_a_instructional_requirement": {
+        "learning_experience_needed": "Öğrencinin roman ve eleştiri metinlerini okumadan önce amaç ve yöntem belirlemesi, üslup özelliklerine dikkat ederek okuma sürecini yönetmesi ve kontrol listesi ile kendini denetlemesi.",
+        "student_action_needed": "Okuma öncesi hazırlık sorularını yanıtlama, metin okuma esnasında üslup notları alma, bölüm sonu kontrol listelerini işaretleme.",
+        "expected_student_evidence": "Okuma öncesi hazırlık notları, okuma esnasında alınan tahlil notları ve s. 257 ile s. 276'daki Kontrol Noktası kontrol listesi çıktıları.",
+        "required_resource_function": "learning_input_or_representation"
+      },
+      "stage_b_resource_gap": {
+        "textbook_locator": "s. 226-257, 258-276 (T4_ACT_01, T4_ACT_02, T4_ACT_04, T4_ACT_05, T4_ACT_07)",
+        "textbook_provided_action_and_evidence": "Ders kitabı roman ve eleştiri bölümlerinde okuma öncesi hazırlık yönergeleri, okuma sırası tahlil etkinlikleri ve s. 257 ile s. 276'da Kontrol Noktası kontrol listeleri sunmaktadır.",
+        "textbook_assessment_instruments": [
+          "T4_ACT_04_KONTROL_NOKTASI_ROMAN (s. 257, checklist)",
+          "T4_ACT_07_KONTROL_NOKTASI_ELESTIRI (s. 276, checklist)"
+        ],
+        "coverage_status": "COVERED",
+        "remaining_gap": "NONE",
+        "production_decision": "REUSE_TEXTBOOK",
+        "priority": "NOT_NEEDED",
+        "justification": "Ders kitabı okuma sürecinin yönetilmesi ve kontrol listesi tutulması beklentisini roman ve eleştiri bölümlerindeki yönergeler ve kontrol noktaları ile karşılamaktadır."
+      }
+    },
+    {
+      "outcome_code": "TDE2.2",
+      "outcome_id": "TDE9_T4_O2",
+      "skill_category": "Metin Tahlili (Anlama) - Okuma",
+      "stage_a_instructional_requirement": {
+        "learning_experience_needed": "Öğrencinin okuma sürecinde anlamı bilinmeyen kelimeleri bağlamdan tahmin etmesi, roman ile tiyatro ara metninin üslup özelliklerini karşılaştırması ve söz varlığının üsluba etkisini T diyagramı/matris ile sınıflandırması.",
+        "student_action_needed": "Bağlamsal kelime tahmini yapma, roman (Çalıkuşu) ve tiyatro (Yunus Emre) metinlerini karşılaştırma, söz varlığı unsurlarını üslup işlevine göre sınıflandırma.",
+        "expected_student_evidence": "Ders kitabı s. 249-256'daki karşılaştırma matrisi, söz varlığı ve üslup tahlili çözümleri, s. 269-275'teki eleştiri metni tahlil sorularının yazılı yanıtları.",
+        "required_resource_function": "guided_practice"
+      },
+      "stage_b_resource_gap": {
+        "textbook_locator": "s. 227-256, 269-275 (T4_ACT_02, T4_ACT_03, T4_ACT_06)",
+        "textbook_provided_action_and_evidence": "Ders kitabı s. 249-256'da roman ve tiyatro ara metninin karşılaştırmalı incelemesini, söz varlığı sınıflandırmasını ve s. 269-275'te eleştiri tahlilini eksiksiz sunmaktadır.",
+        "textbook_assessment_instruments": [
+          "Karşılaştırma matrisi ve tahlil soru setleri (s. 249-256, 269-275)"
+        ],
+        "coverage_status": "COVERED",
+        "remaining_gap": "NONE",
+        "production_decision": "REUSE_TEXTBOOK",
+        "priority": "NOT_NEEDED",
+        "justification": "Ders kitabındaki etkinlikler roman ve tiyatro ara metni karşılaştırmasını, söz varlığı analizini ve eleştiri incelemesini doğrudan sağlamaktadır."
+      }
+    },
+    {
+      "outcome_code": "TDE2.3",
+      "outcome_id": "TDE9_T4_O3",
+      "skill_category": "Metin Tahlili (Anlama) - Okuma",
+      "stage_a_instructional_requirement": {
+        "learning_experience_needed": "Öğrencinin romanın yapı unsurlarını (olay, kişi kadrosu, mekân, zaman, çatışma) belirlemesi; yapı unsurları ile üslup ve dönemin zihniyeti arasındaki ilişkiyi açık uçlu sorularla çözümlemesi; kelimelerin şekil bilgisi özelliklerini incelemesi.",
+        "student_action_needed": "Roman yapı unsurlarını tespit etme, yazarın üslup seçimi ile ilişkilendirme, açık uçlu tahlil sorularını yanıtlama ve morfolojik/şekil bilgisi analizlerini yapma.",
+        "expected_student_evidence": "Ders kitabı s. 249-256 ve s. 269-275'teki yapı unsurları çözümleme tabloları, açık uçlu tahlil sorularının yazılı yanıtları ve dil bilgisi / şekil bilgisi etkinlik çözümleri.",
+        "required_resource_function": "guided_practice"
+      },
+      "stage_b_resource_gap": {
+        "textbook_locator": "s. 249-256, 269-275 (T4_ACT_03, T4_ACT_06)",
+        "textbook_provided_action_and_evidence": "Ders kitabı s. 249-256'da roman yapı unsurları (olay, kişi, mekân, zaman, çatışma), üslup tahlili ve şekil bilgisi etkinlikleri; s. 269-275'te eleştiri ölçütleri çözümlemesi sunmaktadır.",
+        "textbook_assessment_instruments": [
+          "Açık uçlu metin tahlil soruları ve dil bilgisi çözümleme tabloları (s. 249-256, 269-275)"
+        ],
+        "coverage_status": "COVERED",
+        "remaining_gap": "NONE",
+        "production_decision": "REUSE_TEXTBOOK",
+        "priority": "NOT_NEEDED",
+        "justification": "Ders kitabındaki etkinlikler roman yapı unsurlarını, dönemin zihniyetini ve şekil bilgisi çözümlemelerini açık uçlu sorularla eksiksiz karşılamaktadır."
+      }
+    },
+    {
+      "outcome_code": "TDE2.4",
+      "outcome_id": "TDE9_T4_O4",
+      "skill_category": "Metin Tahlili (Anlama) - Okuma",
+      "stage_a_instructional_requirement": {
+        "learning_experience_needed": "Öğrencinin okunan romandan karakterler seçip özgün diyalog oluşturması, akran değerlendirme formları ile birbirlerini değerlendirmesi ve öğrenme sürecini öğrenme günlüğüne kaydetmesi.",
+        "student_action_needed": "Karakterlerin üslubuna uygun özgün diyalog metni kaleme alma, akran değerlendirme formunu doldurma ve öğrenme günlüğüne yansıtma yazma.",
+        "expected_student_evidence": "Özgün karakter diyaloğu yazılı ürünü, s. 311'deki Akran Değerlendirme Formu (FORM_BOB_10_T3_T4_AKRAN) ve s. 301'deki Öğrenme Günlüğü (FORM_IN_T4_OGRENME_GUNLUGU).",
+        "required_resource_function": "feedback_support"
+      },
+      "stage_b_resource_gap": {
+        "textbook_locator": "s. 249-256, 301, 311 (T4_ACT_03, T4_ACT_15, FORM_BOB_10_T3_T4_AKRAN)",
+        "textbook_provided_action_and_evidence": "Ders kitabı s. 249-256'da roman karakterleri arasında diyalog oluşturma yönergeleri, s. 301'de Öğrenme Günlüğü ve s. 311'de Akran Değerlendirme Formu sunmaktadır.",
+        "textbook_assessment_instruments": [
+          "FORM_IN_T4_OGRENME_GUNLUGU (s. 301, learning_journal)",
+          "FORM_BOB_10_T3_T4_AKRAN (s. 311, peer_assessment_form)"
+        ],
+        "coverage_status": "COVERED",
+        "remaining_gap": "NONE",
+        "production_decision": "REUSE_TEXTBOOK",
+        "priority": "NOT_NEEDED",
+        "justification": "Ders kitabı diyalog oluşturma etkinliğini, s. 301 öğrenme günlüğünü ve s. 311 akran formunu çift yönlü ve eksiksiz olarak sunmaktadır."
+      }
+    },
+    {
+      "outcome_code": "TDE3.1",
+      "outcome_id": "TDE9_T4_K1",
+      "skill_category": "Edebiyat Atölyesi (Anlatma) - Konuşma",
+      "stage_a_instructional_requirement": {
+        "learning_experience_needed": "Öğrencinin sosyal medya dili ile edebî dilin özelliklerini karşılaştırdığı bir sunum performans görevi hazırlaması, grup çalışmasıyla konuşma sürecini yönetmesi.",
+        "student_action_needed": "Sunum planı hazırlama, konuşmacı belirleme, amaca ve kitleye uygun konuşma stratejisi belirleyip sınıf içi sözlü sunumu icra etme.",
+        "expected_student_evidence": "Hazırlıklı sunum planı, sunum hazırlık aşamaları ve sınıf ortamında icra edilen etkileşimli sözlü sunum performansı.",
+        "required_resource_function": "student_production_task"
+      },
+      "stage_b_resource_gap": {
+        "textbook_locator": "s. 277-280 (T4_ACT_08_KONUSMA_SIRASI, T4_ACT_09_KONUSMA_SONRASI)",
+        "textbook_provided_action_and_evidence": "Ders kitabı s. 277-279'da sosyal medya dili ve Türkçenin kullanımı üzerine hazırlıklı sunum performans görevini, hazırlık basamaklarını ve s. 280'deki değerlendirme form yönlendirmelerini sunmaktadır.",
+        "textbook_assessment_instruments": [
+          "FORM_IN_T4_KONUSMA_CRITERIA (s. 279, assessment_criteria_table)",
+          "FORM_BOB_08_T4_KONUSMA_OZ (s. 309, self_assessment_form)",
+          "FORM_BOB_10_T3_T4_AKRAN (s. 311, peer_assessment_form)",
+          "FORM_BOB_11_GENEL_GOZLEM (s. 312, teacher_evaluation_form)"
+        ],
+        "coverage_status": "COVERED",
+        "remaining_gap": "NONE",
+        "production_decision": "REUSE_TEXTBOOK",
+        "priority": "NOT_NEEDED",
+        "justification": "Ders kitabındaki konuşma atölyesi yönergeleri ve kitap sonu formları konuşma süreci yönetimini ve eylemini sağlamaktadır."
+      }
+    },
+    {
+      "outcome_code": "TDE3.2",
+      "outcome_id": "TDE9_T4_K2",
+      "skill_category": "Edebiyat Atölyesi (Anlatma) - Konuşma",
+      "stage_a_instructional_requirement": {
+        "learning_experience_needed": "Öğrencinin sosyal medya dili ile edebî dili karşılaştıran sunum içeriğini planlaması, verileri sınıflandırması, görsel/işitsel materyallerle yapılandırması ve bu performansın dereceli puanlama anahtarı ile puanlanması.",
+        "student_action_needed": "Karşılaştırma verilerini toplama, konuşma planı hazırlama, görsel materyal tasarlama ve sunumu dereceli puanlama ölçütlerine göre icra etme.",
+        "expected_student_evidence": "Karşılaştırmalı konuşma taslağı, slaytlar/görseller ve dereceli puanlama anahtarı ile puanlanmış sunum performans kanıtı.",
+        "required_resource_function": "assessment_support"
+      },
+      "stage_b_resource_gap": {
+        "textbook_locator": "s. 277-279 (T4_ACT_08_KONUSMA_SIRASI)",
+        "textbook_provided_action_and_evidence": "Ders kitabı s. 277-279'da içerik oluşturma basamaklarını ve s. 279'da yalnızca ölçüt tablosu (FORM_IN_T4_KONUSMA_CRITERIA) sunmaktadır; düzey betimleyicisi ve puanlama skalası olan dereceli puanlama anahtarı kitapta bulunmamaktadır.",
+        "textbook_assessment_instruments": [
+          "FORM_IN_T4_KONUSMA_CRITERIA (s. 279, assessment_criteria_table)"
+        ],
+        "coverage_status": "PARTIALLY_COVERED",
+        "remaining_gap": "Programın açıkça öngördüğü konuşma sunumu performansına ait dereceli puanlama anahtarının (içeriğe uygunluk, özgünlük, sunum becerisi, görsel ögeleri kullanma, zaman ve mekân kullanımı, beden dili ile jest ve mimik kullanımını puanlayan dereceli/ölçekli aracın) ders kitabında bulunmaması; mevcut FORM_IN_T4_KONUSMA_CRITERIA aracının yalnızca düzey betimleyicisi ve puanlama basamağı olmayan bir ölçüt tablosu (assessment_criteria_table) niteliğinde olması.",
+        "production_decision": "GENERATE_ASSESSMENT_SUPPORT",
+        "priority": "REQUIRED",
+        "justification": "Programın açık gereksinimi olan 'dereceli puanlama anahtarı' kitapta mevcut değildir. TDE3.2 ve TDE3.3 hedefleri için ortak tek bir Tema 4 Konuşma Dereceli Puanlama Anahtarı (RES_T4_SHARED_KONUSMA_RUBRIC) üretilmelidir."
+      }
+    },
+    {
+      "outcome_code": "TDE3.3",
+      "outcome_id": "TDE9_T4_K3",
+      "skill_category": "Edebiyat Atölyesi (Anlatma) - Konuşma",
+      "stage_a_instructional_requirement": {
+        "learning_experience_needed": "Öğrencinin konuşma esnasında söz varlığı, dil yapıları, bağlaşıklık, diksiyon ve beden dili kurallarını uygulaması ve bu kural uygulamanın dereceli puanlama anahtarı ile değerlendirilmesi.",
+        "student_action_needed": "Sunum esnasında diksiyon, telaffuz, tonlama, bağlaşıklık ve beden dili kurallarını sergileme.",
+        "expected_student_evidence": "Dil kurallarına uygun icra edilen ve dereceli puanlama anahtarı ile puanlanan sözlü sunum performansı.",
+        "required_resource_function": "assessment_support"
+      },
+      "stage_b_resource_gap": {
+        "textbook_locator": "s. 277-279 (T4_ACT_08_KONUSMA_SIRASI)",
+        "textbook_provided_action_and_evidence": "Ders kitabı s. 277-279'da konuşma kuralları ve s. 279'da ölçüt tablosu sunmaktadır; ancak dereceli puanlama anahtarı bulunmamaktadır.",
+        "textbook_assessment_instruments": [
+          "FORM_IN_T4_KONUSMA_CRITERIA (s. 279, assessment_criteria_table)"
+        ],
+        "coverage_status": "PARTIALLY_COVERED",
+        "remaining_gap": "Programın açıkça öngördüğü konuşmada kural uygulamaya (söz varlığı, dil yapıları, bağlaşıklık ögeleri ve anlatım kurallarına) ait dereceli puanlama anahtarının ders kitabında bulunmaması; mevcut FORM_IN_T4_KONUSMA_CRITERIA aracının yalnızca bir ölçüt tablosu (assessment_criteria_table) olması.",
+        "production_decision": "GENERATE_ASSESSMENT_SUPPORT",
+        "priority": "REQUIRED",
+        "justification": "TDE3.2 ile ortak dereceli puanlama anahtarı (RES_T4_SHARED_KONUSMA_RUBRIC) kural uygulama ölçütlerini karşılayacaktır."
+      }
+    },
+    {
+      "outcome_code": "TDE3.4",
+      "outcome_id": "TDE9_T4_K4",
+      "skill_category": "Edebiyat Atölyesi (Anlatma) - Konuşma",
+      "stage_a_instructional_requirement": {
+        "learning_experience_needed": "Öğrencinin sunum sürecini hakkaniyetli ve dürüst bir tutum içerisinde öz değerlendirme ve akran değerlendirme formlarıyla değerlendirmesi, duygu, düşünce ve konuşmacı kimliğini gözden geçirmesi.",
+        "student_action_needed": "Öz değerlendirme ve akran değerlendirme formlarını doldurma, yansıtma notları çıkarma.",
+        "expected_student_evidence": "Doldurulmuş s. 309 Öz Değerlendirme Formu (FORM_BOB_08_T4_KONUSMA_OZ), s. 311 Akran Değerlendirme Formu (FORM_BOB_10_T3_T4_AKRAN), s. 312 Öğretmen Gözlem Formu (FORM_BOB_11_GENEL_GOZLEM) ve yansıtma notları.",
+        "required_resource_function": "feedback_support"
+      },
+      "stage_b_resource_gap": {
+        "textbook_locator": "s. 280, 309, 311, 312 (T4_ACT_09, FORM_BOB_08, FORM_BOB_10, FORM_BOB_11)",
+        "textbook_provided_action_and_evidence": "Ders kitabı s. 280'de değerlendirme yönergeleri, s. 309'da Öz Değerlendirme Formu, s. 311'de Akran Değerlendirme Formu ve s. 312'de Öğretmen Gözlem Formu sunmaktadır.",
+        "textbook_assessment_instruments": [
+          "FORM_BOB_08_T4_KONUSMA_OZ (s. 309, self_assessment_form)",
+          "FORM_BOB_10_T3_T4_AKRAN (s. 311, peer_assessment_form)",
+          "FORM_BOB_11_GENEL_GOZLEM (s. 312, teacher_evaluation_form)"
+        ],
+        "coverage_status": "COVERED",
+        "remaining_gap": "NONE",
+        "production_decision": "REUSE_TEXTBOOK",
+        "priority": "NOT_NEEDED",
+        "justification": "Ders kitabı kitap sonu s. 309, s. 311 ve s. 312 formları ile konuşma sürecinin çok boyutlu öz/akran değerlendirilmesini eksiksiz karşılamaktadır."
+      }
+    },
+    {
+      "outcome_code": "TDE4.1",
+      "outcome_id": "TDE9_T4_Y1",
+      "skill_category": "Edebiyat Atölyesi (Anlatma) - Yazma",
+      "stage_a_instructional_requirement": {
+        "learning_experience_needed": "Öğrencinin sınıf içinde estetik bakış açısıyla kendi otobiyografisini yazmaya yönelik bir performans görevi yürütmesi ve yazma sürecinin tüm aşamalarını (hazırlık, planlama, taslak, öz düzenleme) kontrol listesi ile yönetmesi.",
+        "student_action_needed": "Otobiyografi yazma amacını belirleme, beyin fırtınası yapma, aşamaları kontrol listesi ile adım adım izleme ve süreci yönetme.",
+        "expected_student_evidence": "Otobiyografi hazırlık notları, yazma planı, taslak hazırlık süreci ve doldurulmuş yazma süreci kontrol listesi.",
+        "required_resource_function": "assessment_support"
+      },
+      "stage_b_resource_gap": {
+        "textbook_locator": "s. 292-295 (T4_ACT_12_YAZMA_SIRASI, T4_ACT_13_YAZMA_SONRASI)",
+        "textbook_provided_action_and_evidence": "Ders kitabı s. 292-294'te otobiyografi yazma performans görevini, hazırlık ve planlama basamaklarını sunmakta ancak otobiyografi yazma sürecine ait bir kontrol listesi (checklist) içermemektedir.",
+        "textbook_assessment_instruments": [
+          "FORM_IN_T4_YAZMA_CRITERIA (s. 294, assessment_criteria_table)",
+          "FORM_BOB_07_T4_YAZMA_OZ (s. 308, self_assessment_form)",
+          "FORM_BOB_10_T3_T4_AKRAN (s. 311, peer_assessment_form)",
+          "FORM_BOB_11_GENEL_GOZLEM (s. 312, teacher_evaluation_form)"
+        ],
+        "coverage_status": "PARTIALLY_COVERED",
+        "remaining_gap": "Programın açıkça öngördüğü otobiyografi yazma sürecinin tüm aşamalarını (hazırlık, amaç belirleme, planlama, taslak, öz düzenleme) izlemeye ve yönetmeye yönelik kontrol listesinin (checklist) ders kitabında bulunmaması.",
+        "production_decision": "GENERATE_ASSESSMENT_SUPPORT",
+        "priority": "REQUIRED",
+        "justification": "Program TDE4.1'de açıkça kontrol listesi hazırlanmasını şart koşmaktadır. Okuma bölümündeki kontrol listeleri bu amaca hizmet etmez. Yazma süreci kontrol listesi (RES_T4_YAZMA_SUREC_KONTROL_LISTESI) üretilmelidir."
+      }
+    },
+    {
+      "outcome_code": "TDE4.2",
+      "outcome_id": "TDE9_T4_Y2",
+      "skill_category": "Edebiyat Atölyesi (Anlatma) - Yazma",
+      "stage_a_instructional_requirement": {
+        "learning_experience_needed": "Öğrencinin öz yaşam öyküsünü kendi özgün üslup özelliklerini yansıtarak yazması; bağlama uygunluk, etkileyicilik, tutarlılık ve özgünlük ölçütlerine göre yapılandırması ve bu metnin dereceli puanlama anahtarı ile değerlendirilmesi.",
+        "student_action_needed": "Kendi üslubunu yansıtan otobiyografi metni oluşturma, görsel ögeler seçip ekleme ve dereceli ölçütlerle değerlendirilme.",
+        "expected_student_evidence": "Öğrencinin kaleme aldığı özgün otobiyografi metni ve dereceli puanlama anahtarı ile puanlanan yazılı anlatım ürün kanıtı.",
+        "required_resource_function": "assessment_support"
+      },
+      "stage_b_resource_gap": {
+        "textbook_locator": "s. 292-294 (T4_ACT_12_YAZMA_SIRASI)",
+        "textbook_provided_action_and_evidence": "Ders kitabı s. 292-294'te otobiyografi içeriği oluşturma ve s. 294'te yalnızca ölçüt tablosu (FORM_IN_T4_YAZMA_CRITERIA) sunmaktadır; dereceli puanlama anahtarı kitapta bulunmamaktadır.",
+        "textbook_assessment_instruments": [
+          "FORM_IN_T4_YAZMA_CRITERIA (s. 294, assessment_criteria_table)"
+        ],
+        "coverage_status": "PARTIALLY_COVERED",
+        "remaining_gap": "Programın açıkça öngördüğü otobiyografi yazılı anlatım içeriğine (bağlama uygunluk, dil ve anlatım özelliği, etkileyicilik, gerçeklik, tutarlılık, özgünlük) ait dereceli puanlama anahtarının ders kitabında bulunmaması; mevcut FORM_IN_T4_YAZMA_CRITERIA aracının yalnızca düzey betimleyicisi ve puanlama basamağı olmayan bir ölçüt tablosu (assessment_criteria_table) niteliğinde olması.",
+        "production_decision": "GENERATE_ASSESSMENT_SUPPORT",
+        "priority": "REQUIRED",
+        "justification": "Program açıkça 'dereceli puanlama anahtarı' istemektedir. TDE4.2 ve TDE4.3 için ortak tek bir Tema 4 Otobiyografi Yazma Dereceli Puanlama Anahtarı (RES_T4_SHARED_YAZMA_RUBRIC) üretilmelidir."
+      }
+    },
+    {
+      "outcome_code": "TDE4.3",
+      "outcome_id": "TDE9_T4_Y3",
+      "skill_category": "Edebiyat Atölyesi (Anlatma) - Yazma",
+      "stage_a_instructional_requirement": {
+        "learning_experience_needed": "Öğrencinin otobiyografi oluştururken uygun söz varlığı seçmesi, bağdaşıklık ögelerine, yazım ve noktalama kurallarına uyması; anlatım bozukluklarını düzeltmesi ve bu kural uygulamanın dereceli puanlama anahtarı ile puanlanması.",
+        "student_action_needed": "Taslak otobiyografi metnini imla, noktalama, bağdaşıklık ve anlatım bozuklukları açısından düzeltme (redaksiyon yapma).",
+        "expected_student_evidence": "Yazım, noktalama, bağdaşıklık ve dil kurallarına uygun olarak düzeltilmiş ve dereceli puanlama anahtarı ile puanlanmış otobiyografi metni.",
+        "required_resource_function": "assessment_support"
+      },
+      "stage_b_resource_gap": {
+        "textbook_locator": "s. 292-294 (T4_ACT_12_YAZMA_SIRASI)",
+        "textbook_provided_action_and_evidence": "Ders kitabı s. 292-294'te dil kuralları ve s. 294'te ölçüt tablosu sunmaktadır; ancak dereceli puanlama anahtarı yer almamaktadır.",
+        "textbook_assessment_instruments": [
+          "FORM_IN_T4_YAZMA_CRITERIA (s. 294, assessment_criteria_table)"
+        ],
+        "coverage_status": "PARTIALLY_COVERED",
+        "remaining_gap": "Programın açıkça öngördüğü otobiyografi yazısında kural uygulamaya (söz varlığı, dil yapıları, bağdaşıklık, yazım-noktalama, anlatım bozukluklarını düzeltme) ait dereceli puanlama anahtarının ders kitabında bulunmaması; mevcut FORM_IN_T4_YAZMA_CRITERIA aracının yalnızca bir ölçüt tablosu (assessment_criteria_table) olması.",
+        "production_decision": "GENERATE_ASSESSMENT_SUPPORT",
+        "priority": "REQUIRED",
+        "justification": "TDE4.2 ile ortak dereceli puanlama anahtarı (RES_T4_SHARED_YAZMA_RUBRIC) kural uygulama ve dil kuralları ölçütlerini karşılayacaktır."
+      }
+    },
+    {
+      "outcome_code": "TDE4.4",
+      "outcome_id": "TDE9_T4_Y4",
+      "skill_category": "Edebiyat Atölyesi (Anlatma) - Yazma",
+      "stage_a_instructional_requirement": {
+        "learning_experience_needed": "Öğrencinin yazma ürününe yönelik öz değerlendirme ve akran değerlendirmesi yapması, süreçte karşılaşılan zorlukları listelemesi, yansıtma yapması ve ürünü paylaşması.",
+        "student_action_needed": "Öz değerlendirme ve akran değerlendirme formlarını doldurma, zorlukları listeleme, metni pano/okul gazetesi/güvenilir ağda paylaşma.",
+        "expected_student_evidence": "Doldurulmuş s. 308 Öz Değerlendirme Formu (FORM_BOB_07_T4_YAZMA_OZ), s. 311 Akran Değerlendirme Formu (FORM_BOB_10_T3_T4_AKRAN), s. 312 Öğretmen Gözlem Formu (FORM_BOB_11_GENEL_GOZLEM) ve paylaşılan nihai otobiyografi metni.",
+        "required_resource_function": "feedback_support"
+      },
+      "stage_b_resource_gap": {
+        "textbook_locator": "s. 295, 308, 311, 312 (T4_ACT_13, FORM_BOB_07, FORM_BOB_10, FORM_BOB_11)",
+        "textbook_provided_action_and_evidence": "Ders kitabı s. 295'te paylaşım ve form doldurma yönergeleri; s. 308'de Öz Değerlendirme Formu, s. 311'de Akran Değerlendirme Formu ve s. 312'de Öğretmen Gözlem Formu sunmaktadır.",
+        "textbook_assessment_instruments": [
+          "FORM_BOB_07_T4_YAZMA_OZ (s. 308, self_assessment_form)",
+          "FORM_BOB_10_T3_T4_AKRAN (s. 311, peer_assessment_form)",
+          "FORM_BOB_11_GENEL_GOZLEM (s. 312, teacher_evaluation_form)"
+        ],
+        "coverage_status": "COVERED",
+        "remaining_gap": "NONE",
+        "production_decision": "REUSE_TEXTBOOK",
+        "priority": "NOT_NEEDED",
+        "justification": "Ders kitabı yazma sonrası paylaşım, öz/akran/öğretmen değerlendirmesi ve yansıtma araçlarını eksiksiz olarak sunmaktadır."
+      }
+    }
+  ]
+}

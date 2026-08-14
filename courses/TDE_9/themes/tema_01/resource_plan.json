@@ -1,0 +1,245 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_9",
+  "grade": 9,
+  "theme_id": "TEMA_01",
+  "theme_no": 1,
+  "theme_title": "1. TEMA: SÖZÜN İNCELİĞİ",
+  "summary": {
+    "total_planned_items": 12,
+    "required_count": 0,
+    "recommended_count": 0,
+    "optional_count": 0,
+    "not_needed_count": 12,
+    "reuse_textbook_count": 12,
+    "production_decisions": {
+      "REUSE_TEXTBOOK": 12,
+      "REUSE_WITH_TEACHER_GUIDE": 0,
+      "ADAPT_TEXTBOOK_ACTIVITY": 0,
+      "GENERATE": 0,
+      "GENERATE_ASSESSMENT_SUPPORT": 0,
+      "GENERATE_DIFFERENTIATION": 0,
+      "GENERATE_ENRICHMENT": 0,
+      "NO_ACTION": 0
+    },
+    "alignment_status": "PASS"
+  },
+  "resources": [
+    {
+      "resource_plan_id": "PLAN_T1_01",
+      "need_id": "NEED_T1_01",
+      "resource_type": "learning_input_or_representation",
+      "target_outcomes": [
+        "TDE1.1"
+      ],
+      "purpose": "Öğrencilerin mülakat metnini dinleme/izleme sürecini amaç belirleyerek ve not alarak etkili şekilde yönetmelerini sağlamak.",
+      "expected_student_evidence": "İzleme öncesi hazırlık notları ve karekod video izleme sürecinde alınan notlar.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Ders kitabı s. 57-58'de yer alan 'T1_ACT_11_DINLEME_ONCESI_VE_SIRASI' etkinliği ve Selim İleri mülakatı video karekodu, hedef öğrenci eylemini ve kanıtını eksiksiz sağlamaktadır.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_resource_locator": "s. 57-58 (T1_ACT_11_DINLEME_ONCESI_VE_SIRASI)",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T1_02",
+      "need_id": "NEED_T1_02",
+      "resource_type": "guided_practice",
+      "target_outcomes": [
+        "TDE1.2"
+      ],
+      "purpose": "Dinlenen/izlenen mülakat metnini tahlil etmek, açık ve örtük iletileri belirlemek ve şiir ile mülakat metni üzerinden edebî dil ile günlük dili karşılaştırmak.",
+      "expected_student_evidence": "Mülakat tahlil soruları cevapları ve Edebî Dil / Günlük Dil Karşılaştırma Tablosu çözümleri.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Ders kitabı s. 59-62'de yer alan 'T1_ACT_12_DINLEME_SONRASI_KARSILASTIRMA' etkinliği ve s. 61-62'deki Karşılaştırma Tablosu hedef kazanımı ve süreç bileşenlerini tam karşılamaktadır.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_resource_locator": "s. 59-62 (T1_ACT_12_DINLEME_SONRASI_KARSILASTIRMA)",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T1_03",
+      "need_id": "NEED_T1_03",
+      "resource_type": "learning_input_or_representation",
+      "target_outcomes": [
+        "TDE2.1"
+      ],
+      "purpose": "Şiir ve deneme metinlerine hazırlık yapma, başlık ve görsellerden tahmin yürütme, metni ses kaydından dinleme ve sesli okuma sürecini yönetme.",
+      "expected_student_evidence": "Okuma öncesi tahmin notları, metin üzerinde bilinmeyen kelime ve ses olayları işaretlemeleri, sesli okuma performansı.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Ders kitabı s. 16'daki okuma öncesi hazırlık, s. 17'deki San'at şiiri ses kaydı karekodu ve s. 39-40'taki deneme hazırlık basamakları yeterli desteği sağlamaktadır.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_resource_locator": "s. 16-17 (T1_ACT_01, T1_ACT_02), s. 39-40 (T1_ACT_07)",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T1_04",
+      "need_id": "NEED_T1_04",
+      "resource_type": "guided_practice",
+      "target_outcomes": [
+        "TDE2.2"
+      ],
+      "purpose": "Şiir ve deneme metinlerinde anlam katmanlarını tahlil etme, zihin haritası oluşturma, edebiyatın güzel sanatlar ve diğer disiplinlerle ilişkisini matriste belirleme, estetik/imge/sembol kavramlarını ve ses olaylarını çözme.",
+      "expected_student_evidence": "Zihin haritası şeması, disiplinler arası matris çözümleri, ses bilgisi uygulama tablosu ve Kontrol Noktası öz değerlendirme çıktısı.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Ders kitabı s. 18-37 ve s. 42-50 sayfalarındaki zengin tahlil soruları, zihin haritası iskeleleri, ses bilgisi tabloları ve Kontrol Noktası hedefi tam karşılamaktadır.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_resource_locator": "s. 18-37 (T1_ACT_03-06), s. 42-50 (T1_ACT_08)",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T1_05",
+      "need_id": "NEED_T1_05",
+      "resource_type": "student_production_task",
+      "target_outcomes": [
+        "TDE3.1"
+      ],
+      "purpose": "Deneme metinlerinden hareketle Altı Şapkalı Düşünme Tekniğini kullanarak konuşma görevini planlama, iş birliği yapma ve akıcı bir sözlü sunum süreci yürütme.",
+      "expected_student_evidence": "Grup sözlü sunum performansı, konuşma planlama notları ve doldurulmuş değerlendirme formları.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Ders kitabı s. 63-66'da yer alan 'T1_ACT_13' ve 'T1_ACT_14' etkinlikleri, s. 65 ölçüt tablosu ve s. 303/310/312 değerlendirme formları tam uyumludur.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_resource_locator": "s. 63-66 (T1_ACT_13_KONUSMA_SIRASI, T1_ACT_14_KONUSMA_SONRASI)",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T1_06",
+      "need_id": "NEED_T1_06",
+      "resource_type": "student_production_task",
+      "target_outcomes": [
+        "TDE3.2"
+      ],
+      "purpose": "Altı şapka renklerinin temsil ettiği düşünme biçimlerine uygun ikna edici argümanlar, kanıtlar, slogan ve özet kararlar içeren konuşma içeriği oluşturma.",
+      "expected_student_evidence": "Şapka rolüyle uyumlu konuşma taslağı ve üretilen slogan.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Ders kitabı s. 63-65'te şapka renklerinin anlamsal işlevleri ve içerik üretim basamakları ayrıntılı olarak verilmiştir.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_resource_locator": "s. 63-65 (T1_ACT_13_KONUSMA_SIRASI)",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T1_07",
+      "need_id": "NEED_T1_07",
+      "resource_type": "student_production_task",
+      "target_outcomes": [
+        "TDE3.3"
+      ],
+      "purpose": "Sözlü sunum esnasında ses tonu, diksiyon, telaffuz, vurgu, tonlama, beden dili, jest ve mimikleri kuralına uygun ve ikna edici biçimde kullanma.",
+      "expected_student_evidence": "Sözlü sunum performansı ve kural uygulama gözlem kanıtları.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Ders kitabı s. 65 ölçüt tablosunda ve s. 303, 312 formlarında konuşma kuralları ve beden dili açıkça değerlendirilmektedir.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_resource_locator": "s. 63-66 (T1_ACT_13, T1_ACT_14, FORM_IN_T1_KONUSMA_CRITERIA)",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T1_08",
+      "need_id": "NEED_T1_08",
+      "resource_type": "feedback_support",
+      "target_outcomes": [
+        "TDE3.4"
+      ],
+      "purpose": "Sunum sonrasında öz değerlendirme ve akran değerlendirmesi formlarını doldurarak söyleyiş inceliğinin konuşmaya etkisini yansıtma ve geri bildirim alma.",
+      "expected_student_evidence": "Doldurulmuş FORM_BOB_02 öz değerlendirme formu, FORM_BOB_09 akran formu ve yansıtma soruları yanıtları.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Ders kitabı s. 66'da doğrudan s. 303 Öz Değerlendirme, s. 310 Akran Değerlendirme ve s. 312 Gözlem Formuna açık atıf yapılarak yansıtma süreci işletilmektedir.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_resource_locator": "s. 66 (T1_ACT_14, FORM_BOB_02_T1_KONUSMA_OZ, FORM_BOB_09_T1_T2_AKRAN)",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T1_09",
+      "need_id": "NEED_T1_09",
+      "resource_type": "student_production_task",
+      "target_outcomes": [
+        "TDE4.1"
+      ],
+      "purpose": "Okunan şiirden hareketle betimleyici bir paragraf yazma sürecini (hazırlık, planlama, taslak oluşturma, gözden geçirme, düzeltme ve paylaşma) aşamalı olarak yönetme.",
+      "expected_student_evidence": "Betimleyici paragraf planlama şeması ve ilk taslak metni.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Ders kitabı s. 51-54'te 'Duygularımı Betimliyorum' atölyesinde hazırlık, planlama, metin oluşturma basamakları ve s. 54'te ölçüt tablosu yer almaktadır.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_resource_locator": "s. 51-54 (T1_ACT_09_YAZMA_SIRASI)",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T1_10",
+      "need_id": "NEED_T1_10",
+      "resource_type": "student_production_task",
+      "target_outcomes": [
+        "TDE4.2"
+      ],
+      "purpose": "Şiirdeki ana duyguyu koruyarak imge, sembol ve edebî söyleyişe uygun söz varlığını kullanarak özgün bir betimleyici paragraf içeriği üretme.",
+      "expected_student_evidence": "Zengin söz varlığı ve betimleme unsurları içeren özgün paragraf metni.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Ders kitabı s. 52-54'te imgesel söz varlığı kullanımı ve betimleme yönergeleri ile s. 54'te söz varlığı ve özgünlük ölçütleri yer almaktadır.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_resource_locator": "s. 51-54 (T1_ACT_09_YAZMA_SIRASI)",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T1_11",
+      "need_id": "NEED_T1_11",
+      "resource_type": "guided_practice",
+      "target_outcomes": [
+        "TDE4.3"
+      ],
+      "purpose": "Yazdığı betimleyici paragrafta Türkçenin yazım ve noktalama kurallarını doğru uygulama, ses olaylarına dikkat etme ve anlatım akıcılığını sağlama.",
+      "expected_student_evidence": "Yazım ve noktalama yönünden tashih edilmiş kurallı nihai metin.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Ders kitabı s. 53-54'te kontrol/düzeltme basamakları ve s. 54'te yazım-noktalama ölçütleri açıkça bulunmaktadır.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_resource_locator": "s. 53-54 (T1_ACT_09_YAZMA_SIRASI)",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T1_12",
+      "need_id": "NEED_T1_12",
+      "resource_type": "feedback_support",
+      "target_outcomes": [
+        "TDE4.4"
+      ],
+      "purpose": "Yazılan paragrafı sınıfta paylaşma; öz değerlendirme, akran ve öğretmen değerlendirmeleri yoluyla geri bildirim alma ve ürünü revize ederek son şeklini verme.",
+      "expected_student_evidence": "Doldurulmuş FORM_BOB_01, FORM_BOB_09 formları ve revize edilmiş nihai paragraf.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Ders kitabı s. 55'te paylaşım yönergesi, s. 302 Öz Değerlendirme Formuna, s. 310 Akran Formuna ve s. 312 Gözlem Formuna doğrudan atıf yer almaktadır.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_resource_locator": "s. 55 (T1_ACT_10_YAZMA_SONRASI, FORM_BOB_01_T1_YAZMA_OZ, FORM_BOB_09_T1_T2_AKRAN)",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    }
+  ]
+}
