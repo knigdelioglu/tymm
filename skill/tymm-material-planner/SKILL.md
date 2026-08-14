@@ -49,7 +49,7 @@ Do not require the user to choose worksheet, rubric, poster, experiment sheet, o
 14. Keep official facts, textbook extractions, external sources, and generated pedagogy separate through provenance.
 15. Do not present generated material as MEB-approved.
 16. Do not reproduce long copyrighted textbook or literary content merely because the user supplied the book.
-17. **Source-Bound Assessment Generation Invariant**: When generating assessment artifacts (rubrics, checklists, rating scales, observation forms, assessment supports), loading [references/assessment-generation.md](./references/assessment-generation.md) and any course-specific `Assessment Design Contract` is mandatory. The model must not invent criteria, quantitative parameters, durations, tolerances, question/step counts, weights, score bands, or cutoffs not defined in the canonical source or contract. Pre-generation assertions must pass (fail-closed) and post-generation QA must verify all 12 assessment dimensions.
+17. **Source-Bound Assessment Generation & Annual Stability Invariant**: When generating assessment artifacts (rubrics, checklists, rating scales, observation forms, assessment supports), loading [references/assessment-generation.md](./references/assessment-generation.md) and any course-specific `Assessment Design Contract` is mandatory. The model must enforce Annual Assessment Stability (`REUSE_ANNUAL_CORE` -> `REUSE_WITH_TASK_BINDING` -> `REUSE_WITH_CRITERION_EXTENSION` -> `GENERATE_NEW_ASSESSMENT`) across themes. Theme or task change alone cannot trigger new rubric generation. Cross-theme reuse, exact criterion identity anlamına gelmez; annual core criterion'lar evidence-supported normalized constructs olmalıdır. The model must not invent criteria, quantitative parameters, durations, tolerances, question/step counts, weights, score bands, or cutoffs not defined in the canonical source or contract. Pre-generation assertions must pass (fail-closed) and post-generation QA must verify all 19 assessment dimensions.
 
 ## Required decision order
 
@@ -79,7 +79,11 @@ USER REQUEST
    │
    ▼
 [Gate 4: Alignment & Two-Stage Gap Analysis]
-   └── Program-textbook alignment matrix and remaining gaps
+   └── Program-textbook alignment matrix and remaining assessment gap instances
+   │
+   ▼
+[Gate 4.5: Cross-Theme Assessment Consolidation]
+   └── Map gap instances to annual assessment artifact registry with task bindings
    │
    ▼
 [Gate 5: External Sources & Rights]
@@ -217,6 +221,8 @@ Create a quality_report with `PASS`, `FAIL`, `N/A`, or `REVIEW` for all QA dimen
 ## Reference loading
 
 Read only the references needed for the request:
+
+- [references/course-timeline.md](./references/course-timeline.md) when creating or validating a course timeline. Timeline generation is planning-only: do not invent hours, weekly lesson counts, calendar dates, or block durations.
 
 - [references/knowledge-resolver.md](./references/knowledge-resolver.md) for deterministic retrieval pipeline, intent classification, authority precedence, and knowledge context pack schemas.
 - [references/hybrid-rag.md](./references/hybrid-rag.md) for local SQLite + `sqlite-vec` + FTS5 architecture, embeddings, and RRF algorithms.

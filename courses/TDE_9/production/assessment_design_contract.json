@@ -1,15 +1,16 @@
 {
   "metadata": {
     "contract_id": "TDE_9_ASSESSMENT_DESIGN_CONTRACT",
-    "schema_version": "1.3",
-    "contract_version": "1.3.0",
+    "schema_version": "1.4",
+    "contract_version": "1.4.1",
     "course_id": "TDE_9",
     "grade": 9,
     "course_title": "Türk Dili ve Edebiyatı",
     "contract_date": "2026-08-14",
-    "applied_global_standard": "ASSESSMENT_GENERATION_STANDARD_VERSION: 1.0.0",
+    "applied_global_standard": "ASSESSMENT_GENERATION_STANDARD_VERSION: 1.1.1",
     "global_standard_reference": "references/assessment-generation.md",
-    "contract_purpose": "TYMM 9. Sınıf Türk Dili ve Edebiyatı Dersinde Otomatik Üretilecek 7 REQUIRED Ölçme-Değerlendirme Materyali İçin Ortak Tasarım Sözleşmesi, Barem Mimarisi, Provenance Şeması, Generation Context Bütünlüğü, Okul Temelli Seçenek İzolasyonu, Telif Hakları Enum Uyumu, Kaynak-Bağlı Parametre Üretimi, Ölçüt Kapsam Saflığı ve Resolver Doğrulamalı Kalite Standardı",
+    "annual_assessment_artifact_registry_reference": "courses/TDE_9/production/assessment_artifact_registry.json",
+    "contract_purpose": "TYMM 9. Sınıf Türk Dili ve Edebiyatı Dersinde Yıllık Değerlendirme Kararlılığı (Annual Assessment Stability), Temalar Arası Konsolidasyon (Cross-Theme Consolidation), 7 REQUIRED Gap Instance'ın 3 Yıllık Artifact'a Bağlanması, Task Binding İzolasyonu, Barem Mimarisi, Provenance Şeması, Kaynak-Bağlı Parametre Üretimi ve Resolver Doğrulamalı Kalite Standardı",
     "created_from_frozen_knowledge": true,
     "knowledge_index_status": "INDEX_FRESH",
     "source_manifest_reference": "knowledge/TDE_9/source_manifest.json",
@@ -19,7 +20,9 @@
       "curriculum_tde9_2024": "6d3a3cb7bac8cd91aa7582946abff81e79e7c7a517dbf336aae391252b6d2a47",
       "textbook_tde9_meb": "ea982e49bec1260f578cbb0f88fb677276a87dd45d42be04eb376c01c63e0c7f"
     },
-    "target_material_count": 7
+    "required_gap_instance_count": 7,
+    "required_unique_artifact_count": 3,
+    "consolidation_ratio": 2.33
   },
   "official_requirement_separation_principles": {
     "principle_description": "Tüm ölçme-değerlendirme tasarımlarında resmî program hükmü, ders kitabı yapısal durumu, aradaki boşluk ve seçilen pedagojik araç birbirinden kesin sınırlarla ayrılır.",
@@ -1410,6 +1413,34 @@
     "SOURCE_RIGHTS_QA": {
       "status": "PASS",
       "findings": "Ders kitabı ve edebî metinlerin uzun kopyalanmadığı, embed_mode = PAGE_REFERENCE ve locator_only_for_long_source_content kuralına tam uyulduğu doğrulanmıştır."
+    },
+    "ANNUAL_ASSESSMENT_STABILITY_QA": {
+      "status": "PASS",
+      "findings": "9. Sınıf konuşma ve yazma beceri alanlarında tema/görev değişiminden bağımsız, yıl boyu geçerli kararlı çekirdek ölçüt setleri (TDE9_KONUSMA_RUBRIC, TDE9_YAZMA_RUBRIC, TDE9_YAZMA_SUREC_KONTROL_LISTESI) tescil edilmiş; gereksiz tema bazlı rubrik üretimi engellenmiştir."
+    },
+    "CROSS_THEME_DUPLICATION_QA": {
+      "status": "PASS",
+      "findings": "Tema 2, 3 ve 4 konuşma ve yazma gereksinimleri çapraz olarak denetlenmiş; aynı bilişsel yapıyı ölçen 7 gap instance 3 tekil yıllık artifact'a konsolide edilmiştir (0 mükerrer rubrik)."
+    },
+    "GAP_ARTIFACT_MAPPING_QA": {
+      "status": "PASS",
+      "findings": "7 REQUIRED gap instance'ın tamamı (3 konuşma, 3 yazma, 1 süreç kontrol listesi) canonical assessment_artifact_registry.json içinde tekil ve eksiksiz olarak yıllık artifact'lara haritalanmıştır."
+    },
+    "CORE_CRITERIA_STABILITY_QA": {
+      "status": "PASS",
+      "findings": "Annual core ölçüt seti tema bazlı görev değişikliklerinden izole edilmiş; görev detayları task binding katmanında tutularak çekirdek ölçüt seti kararlılığı korunmuştur."
+    },
+    "TASK_BINDING_ISOLATION_QA": {
+      "status": "PASS",
+      "findings": "Göreve özgü atölye başlıkları, gözlenen kanıtlar ve ders kitabı locator'ları task_bindings dizisinde yapılandırılmış; core rubrik düzey semantiğini ve ölçüt adlarını değiştirmesi engellenmiştir."
+    },
+    "CRITERION_EXTENSION_JUSTIFICATION_QA": {
+      "status": "PASS",
+      "findings": "Resmî kaynakça zorunlu kılınmadıkça yapay ölçüt genişletmesi yapılmamış; mevcut tüm tema gereksinimlerinin annual core seti içinde tam kapsandığı doğrulanmıştır."
+    },
+    "NEW_ARTIFACT_JUSTIFICATION_QA": {
+      "status": "PASS",
+      "findings": "Yalnızca yapısal olarak farklı construct ölçen süreç kontrol listesi (TDE4.1) ayrı artifact (TDE9_YAZMA_SUREC_KONTROL_LISTESI) olarak tescil edilmiş; tema adına dayalı keyfi artifact üretimi 0 olarak doğrulanmıştır."
     }
   },
   "unsupported_parameter_policy": {
@@ -1517,7 +1548,127 @@
       {
         "assertion_id": "PROVENANCE_RESOLVED",
         "description": "Resmî gereksinim, seçilen format, ölçüt kökeni ve descriptor origin (pedagogical_recommendation) çözümlenmiş olmalıdır."
+      },
+      {
+        "assertion_id": "CROSS_THEME_CONSOLIDATION_COMPLETE",
+        "description": "Temalar arası değerlendirme açıkları denetlenmiş ve mükerrer rubrik üretimi konsolidasyonla engellenmiş olmalıdır."
+      },
+      {
+        "assertion_id": "ANNUAL_REUSE_CHECK_COMPLETE",
+        "description": "Yıllık yeniden kullanım önceliği (REUSE_ANNUAL_CORE -> REUSE_WITH_TASK_BINDING -> REUSE_WITH_CRITERION_EXTENSION -> GENERATE_NEW_ASSESSMENT) işletilmiş olmalıdır."
+      },
+      {
+        "assertion_id": "GAP_TO_ARTIFACT_MAPPING_COMPLETE",
+        "description": "Tüm REQUIRED gap instance'lar canonical registry'de tekil bir yıllık artifact'a açıkça haritalanmış olmalıdır."
+      },
+      {
+        "assertion_id": "TASK_BINDING_RESOLVED",
+        "description": "Göreve özgü yönergeler core ölçüt setini mutasyona uğratmadan task binding katmanında çözümlenmiş olmalıdır."
+      },
+      {
+        "assertion_id": "CORE_CRITERIA_STABILITY_RESOLVED",
+        "description": "Öğretmen ve öğrenci görünümlerinde yıl boyu geçerli kararlı ölçüt seti çözümlenmiş olmalıdır."
+      },
+      {
+        "assertion_id": "NEW_ARTIFACT_JUSTIFICATION_RESOLVED",
+        "description": "Yeni artifact üretimi kararı varsa farklı construct ve resmî locator dayanağı çözümlenmiş olmalıdır."
       }
+    ]
+  },
+  "annual_assessment_stability_policy": {
+    "policy_name": "ANNUAL_ASSESSMENT_STABILITY_POLICY",
+    "core_invariant": "THEME_CHANGE_ALONE != NEW_RUBRIC",
+    "reuse_priority_order": [
+      "REUSE_ANNUAL_CORE",
+      "REUSE_WITH_TASK_BINDING",
+      "REUSE_WITH_CRITERION_EXTENSION",
+      "GENERATE_NEW_ASSESSMENT"
+    ],
+    "rules": [
+      "Aynı ders, sınıf, beceri alanı ve temel yapı (construct) içindeki değerlendirme araçları varsayılan olarak yıllık ve kararlıdır.",
+      "Tema veya görev değişikliği tek başına yeni rubrik üretme (GENERATE_NEW_ASSESSMENT) kararı doğuramaz.",
+      "Öğrenci konuşma ve yazmada yıl boyunca aynı temel başarı ölçütleriyle değerlendirilir.",
+      "Teacher-facing ve student-facing ölçüt setleri annual core seviyesinde kararlı tutulur."
+    ]
+  },
+  "cross_theme_consolidation_policy": {
+    "policy_name": "CROSS_THEME_CONSOLIDATION_POLICY",
+    "rules": [
+      "Tüm temalardaki assessment gap'leri değerlendirildikten sonra doğrudan materyal üretimine geçilemez; önce temalar arası konsolidasyon zorunludur.",
+      "Aynı temel beceriyi ölçen tema gereksinimleri tekil bir yıllık artifact'a bağlanır (Örn. Tema 2, 3 ve 4 konuşma gap'leri -> TDE9_KONUSMA_RUBRIC).",
+      "Üretim kuyruğu (production queue) gap instance sayısından değil, consolidated artifact registry'den beslenir."
+    ]
+  },
+  "normalized_construct_policy": {
+    "policy_name": "NORMALIZED_CONSTRUCT_POLICY",
+    "core_invariant": "CROSS_THEME_CONSOLIDATION does NOT imply EXACT_CRITERION_IDENTITY",
+    "definitions": {
+      "EXACT_CRITERION_MATCH": "Kriter adı, tanımı ve kapsamının temalar arasında harfi harfine aynı olması durumudur.",
+      "NORMALIZED_SHARED_CONSTRUCT": "Farklı resmî kriter ifadelerinin daha üst düzey, kanıtlanabilir ortak bir değerlendirme boyutu altında birleştirilmesidir."
+    },
+    "rules": [
+      "Cross-theme yıllık rubrik konsolidasyonu 'kriterler tamamen aynı' iddiasına değil, NORMALIZED_SHARED_CONSTRUCT yaklaşımına dayanır.",
+      "Her yıllık core criterion için normalization_type, source_criteria_by_theme, normalization_rationale ve source_locators metadata'sı açıkça tescil edilir."
+    ]
+  },
+  "annual_core_evidence_policy": {
+    "policy_name": "ANNUAL_CORE_EVIDENCE_POLICY",
+    "rules": [
+      "Bir ölçütün ANNUAL_CORE kabul edilmesi için yalnız anlamsal benzerlik yetmez; tüm konsolide temalarda doğrulanmış construct kanıtı bulunmalıdır.",
+      "Tek bir temada veya türe özgü bulunan özellikler (örn. gerçeklik, şiir kafiye/ahengi) yıllık çekirdeğe zorunlu başarı şartı olarak taşınamaz.",
+      "Yıllık core criterion sayısı yapay olarak sabitlenemez (örn. 'mutlaka 5 ölçüt olmalı' varsayımı geçersizdir; kanıtlanan construct sayısı 4 ise 4 core criterion kullanılır)."
+    ]
+  },
+  "task_specific_feature_isolation_policy": {
+    "policy_name": "TASK_SPECIFIC_FEATURE_ISOLATION_POLICY",
+    "rules": [
+      "Konuşmada görsel/slayt/sunum materyali kullanımı ve yazmada türe özgü biçimsel unsurlar (kafiye/redif, grafik düzen, otobiyografik kronoloji) kesinlikle TASK_SPECIFIC_BINDING katmanında izole edilir.",
+      "Annual core descriptor'lar görevin gerektirmediği bir materyalin (örn. slayt veya görsel) kullanılmamasını öğrenci puanını düşüren bir kural haline getiremez."
+    ]
+  },
+  "reusable_process_support_policy": {
+    "policy_name": "REUSABLE_PROCESS_SUPPORT_POLICY",
+    "rules": [
+      "Tek bir temada (TEMA_04 / TDE4.1) REQUIRED gap kapatan ancak 5 evrensel yazma aşamasını içeren süreç araçları scope = 'REUSABLE_PROCESS_SUPPORT' ve reuse_policy = 'REUSE_ACROSS_THEMES' olarak tescil edilir.",
+      "Süreç araçları yapay olarak ANNUAL_CORE şeklinde adlandırılamaz ve diğer temalarda varmış gibi sahte REQUIRED gap açılamaz."
+    ]
+  },
+  "gap_instance_artifact_separation_policy": {
+    "policy_name": "GAP_INSTANCE_ARTIFACT_SEPARATION_POLICY",
+    "definitions": {
+      "ASSESSMENT_GAP_INSTANCE": "Belirli tema/çıktıda tespit edilmiş değerlendirme desteği açığı (audit ve provenance izi).",
+      "ANNUAL_ASSESSMENT_ARTIFACT": "Bir veya daha fazla gap instance'ı karşılayan gerçek, konsolide öğretmen ve öğrenci materyali."
+    },
+    "rules": [
+      "Eski gap kayıtları (MAT_T2_KONUSMA_RUBRIC, MAT_T2_YAZMA_RUBRIC vb.) asla silinmez; provenance ve audit evidence olarak korunur.",
+      "Eski kayıtlar gap_instance_id olarak yorumlanır; generation target olarak yıllık artifact_id (TDE9_KONUSMA_RUBRIC vb.) kullanılır.",
+      "Gap instance ile artifact arasında açık many-to-one mapping kurulur."
+    ]
+  },
+  "task_binding_policy": {
+    "policy_name": "TASK_BINDING_POLICY",
+    "rules": [
+      "Yıllık rubrik, annual core ve task binding olmak üzere iki katmandan oluşur.",
+      "Task binding katmanı (theme_id, activity_id, task_title, evidence_being_observed, source_locators, task_specific_instructional_note) göreve özgü ayrıntıları içerir.",
+      "Task binding, core criterion setini, 4 düzey modelini veya puanlama mekaniğini keyfi olarak değiştiremez."
+    ]
+  },
+  "criterion_extension_policy": {
+    "policy_name": "CRITERION_EXTENSION_POLICY",
+    "rules": [
+      "Bir temada resmî kaynakta ek bir zorunlu ölçüt varsa önce REUSE_WITH_CRITERION_EXTENSION değerlendirilir; hemen yeni rubrik üretilmez.",
+      "Extension mutlaka resmî kaynakça (verbatim ve sayfa locator) ile gerekçelendirilmelidir.",
+      "Extension ilgili temaya/göreve scope edilir; yıllık core ölçüt setini sessizce değiştiremez.",
+      "Extension sayısı veya yapısı core rubriği işlevsizleştirmedikçe yeni artifact açılamaz."
+    ]
+  },
+  "new_artifact_exception_policy": {
+    "policy_name": "NEW_ARTIFACT_EXCEPTION_POLICY",
+    "enforcement": "FAIL_CLOSED",
+    "rules": [
+      "GENERATE_NEW_ASSESSMENT yalnız ve kesinlikle resmî requirement gerçekten farklı bir construct ölçüyorsa VEYA mevcut yıllık core artifact resmî zorunlu ölçütleri karşılayamıyorsa kullanılabilir.",
+      "Yeni artifact üretimi kararı explicit pedagogical rationale ve resmî source locator içermek zorundadır.",
+      "Tema adına dayalı keyfi yeni rubrik üretimi kesinlikle yasaktır."
     ]
   },
   "school_based_context_policy": {

@@ -1,6 +1,6 @@
 # Assessment Generation Standard & Invariant Specification
 
-`ASSESSMENT_GENERATION_STANDARD_VERSION: 1.0.0`
+`ASSESSMENT_GENERATION_STANDARD_VERSION: 1.1.1`
 
 ## 1. Scope and Purpose
 
@@ -10,6 +10,7 @@ Bu standart:
 - Tek bir derse (TDE, Fizik, Matematik, Tarih vb.) veya kademeye özel değildir; tüm ders ve sınıf düzeylerine uygulanır.
 - Yalnızca analitik rubriklere değil, tüm değerlendirme araç ailelerine (`analytic_rubric`, `checklist`, `rating_scale`, `assessment_criteria`, `self_assessment`, `peer_assessment`, `teacher_evaluation_form`) uygulanır.
 - Modelin serbest metin üretimindeki halüsinasyon, kaynak dışı nicel parametre uydurma, yapay puan bandı/baraj türetme ve ölçüt kapsam kirlenmesini engellemek üzere **fail-closed** mimariyle çalışır.
+- Yıllık değerlendirme kararlılığını (`ANNUAL_ASSESSMENT_STABILITY`) ve temalar arası konsolidasyonu (`CROSS_THEME_CONSOLIDATION`) zorunlu kılar.
 
 ---
 
@@ -188,7 +189,7 @@ Performans basamakları (`LEVEL_4` → `LEVEL_3` → `LEVEL_2` → `LEVEL_1`) ya
 
 ## 11. Pre-Generation Assertions (Üretim Öncesi Kesin Kontroller)
 
-Materyal üretilmeden önce aşağıdaki 6 ön koşul doğrulanmalıdır:
+Materyal üretilmeden önce aşağıdaki 12 ön koşul doğrulanmalıdır:
 
 ```
 [Pre-Generation Assertion Gate]
@@ -197,7 +198,13 @@ Materyal üretilmeden önce aşağıdaki 6 ön koşul doğrulanmalıdır:
  ├── 3. LEVEL_MODEL_RESOLVED: 4 düzeyli model criterion-neutral tanımlandı mı?
  ├── 4. SCORING_MODEL_RESOLVED: 1-4 ham ortalama ve opsiyonel 100 gösterimi ayrıldı mı?
  ├── 5. STUDENT_TEACHER_SEMANTICS_RESOLVED: İki görünümde de standart aynı mı?
- └── 6. PROVENANCE_RESOLVED: Origin enum ve descriptor origin doğru ayrıldı mı?
+ ├── 6. PROVENANCE_RESOLVED: Origin enum ve descriptor origin doğru ayrıldı mı?
+ ├── 7. CROSS_THEME_CONSOLIDATION_COMPLETE: Temalar arası konsolidasyon yapıldı mı?
+ ├── 8. ANNUAL_REUSE_CHECK_COMPLETE: Yıllık yeniden kullanım önceliği değerlendirildi mi?
+ ├── 9. GAP_TO_ARTIFACT_MAPPING_COMPLETE: Tüm gap instance'lar tekil artifact'lara bağlandı mı?
+ ├── 10. TASK_BINDING_RESOLVED: Görev bağlamı core criteria'yı bozmadan izole edildi mi?
+ ├── 11. CORE_CRITERIA_STABILITY_RESOLVED: Yıllık ölçüt kararlılığı doğrulandı mı?
+ └── 12. NEW_ARTIFACT_JUSTIFICATION_RESOLVED: Yeni artifact varsa resmî gerekçe ve locator doğrulandı mı?
 ```
 
 Herhangi bir ön koşul sağlanamazsa üretim başlatılmaz (**FAIL CLOSED**).
@@ -206,7 +213,7 @@ Herhangi bir ön koşul sağlanamazsa üretim başlatılmaz (**FAIL CLOSED**).
 
 ## 12. Post-Generation Multi-Dimensional QA Suite
 
-Üretilen her değerlendirme materyali aşağıdaki 12 QA denetiminden geçmek zorundadır:
+Üretilen her değerlendirme materyali aşağıdaki 19 QA denetiminden geçmek zorundadır:
 
 1. **UNSUPPORTED_PARAMETER_QA**: Kaynakta veya sözleşmede olmayan süre, miktar, soru sayısı, tolerans, baraj veya katsayı var mı? (PASS / FAIL)
 2. **NO_INVENTED_SCORE_BANDS_QA**: Sayısal dönüşümden yetkisiz başarı seviyesi/barajı (örn. "70=başarılı") türetilmiş mi? (PASS / FAIL)
@@ -220,7 +227,114 @@ Herhangi bir ön koşul sağlanamazsa üretim başlatılmaz (**FAIL CLOSED**).
 10. **PROVENANCE_BOUNDARY_QA**: Resmî gereksinim, seçilen format, ölçüt kaynağı ve betimleyici kökeni doğru etiketlenmiş mi? (PASS / FAIL)
 11. **SOURCE_RIGHTS_QA**: Uzun telifli metin kopyalanmadan sayfa/locator referansı verilmiş mi? (PASS / FAIL)
 12. **TEACHER_REVIEW_GATE_QA**: Materyal `REVIEW_REQUIRED` statüsüyle öğretmene teslim edilmiş mi? (PASS / REVIEW_REQUIRED)
+13. **ANNUAL_ASSESSMENT_STABILITY_QA**: Aynı ders, sınıf ve beceri alanında yıllık kararlı ölçüt seti korunmuş mu? (PASS / FAIL)
+14. **CROSS_THEME_DUPLICATION_QA**: Aynı beceri yapısını ölçen gereksiz tema bazlı yinelenen rubrikler engellenmiş mi? (PASS / FAIL)
+15. **GAP_ARTIFACT_MAPPING_QA**: Her gap instance tekil bir yıllık artifact'a açıkça haritalanmış mı? (PASS / FAIL)
+16. **CORE_CRITERIA_STABILITY_QA**: Yıllık core ölçüt seti tema/görev değişimleriyle sessizce bozulmamış mı? (PASS / FAIL)
+17. **TASK_BINDING_ISOLATION_QA**: Göreve özgü yönergeler core ölçüt setini değiştirmeden task binding katmanında tutulmuş mu? (PASS / FAIL)
+18. **CRITERION_EXTENSION_JUSTIFICATION_QA**: Temaya özgü ek ölçütler resmî kaynakça gerekçelendirilmiş ve izole edilmiş mi? (PASS / FAIL)
+19. **NEW_ARTIFACT_JUSTIFICATION_QA**: Yeni artifact türetimi yalnız construct farkı durumunda ve explicit locator ile yapılmış mı? (PASS / FAIL)
 
 ### Sonuç Durumu:
 - Herhangi bir FAIL → **BLOCKED**
 - Sıfır FAIL ve öğretmen inceleme gereksinimi → **REVIEW_REQUIRED**
+
+---
+
+## 13. Annual Assessment Stability and Cross-Theme Reuse
+
+### A. Temel Pedagojik Karar ve Invariant: `ANNUAL_ASSESSMENT_STABILITY`
+Aynı ders (`course`), sınıf düzeyi (`grade`), temel beceri alanı (`skill domain`) ve ölçülen yapı (`core construct`) içindeki değerlendirme araçları varsayılan olarak **YILLIK ve KARARLI** olmalıdır.
+
+> **Kritik Kural:** Tema veya görev değişikliği tek başına `GENERATE_NEW_ASSESSMENT` kararı **DOĞURAMAZ** (`THEME_CHANGE_ALONE != NEW_RUBRIC`).
+
+Öğrencinin yıl boyunca konuşma ve yazmada mümkün olduğunca aynı temel ölçütlerle değerlendirilmesi, değerlendirme ölçütlerini önceden bilmesi ve bilişsel tutarlılığın sağlanması hedeflenir.
+
+### B. Karar ve Öncelik Hiyerarşisi (Reuse Priority Hierarchy):
+Bir değerlendirme açığı tespit edildiğinde şu öncelik sırası işletilir:
+1. `REUSE_ANNUAL_CORE`: Mevcut yıllık core rubrik/araç doğrudan kullanılır.
+2. `REUSE_WITH_TASK_BINDING`: Yıllık core rubrik korunur; ilgili tema/etkinliğin görev bağlamı (task binding) eklenir.
+3. `REUSE_WITH_CRITERION_EXTENSION`: Resmî kaynakta temaya özgü ek bir zorunlu ölçüt varsa, core seti bozmadan temaya özgü ek ölçüt bağlanır.
+4. `GENERATE_NEW_ASSESSMENT`: Yalnızca resmî requirement **gerçekten farklı bir construct** ölçüyorsa VEYA mevcut yıllık core artifact resmî zorunlu ölçütleri karşılayamıyorsa yeni artifact üretilir (Zorunlu: explicit rationale + source locator + FAIL-CLOSED).
+
+### C. GAP INSTANCE ≠ ARTIFACT Ayrımı:
+Mimaride iki kavram kesin sınırlarla ayrılır:
+- `ASSESSMENT_GAP_INSTANCE`: Belirli tema/çıktıda tespit edilmiş değerlendirme desteği açığı (audit, provenance ve izlenebilirlik kaydı).
+- `ANNUAL_ASSESSMENT_ARTIFACT`: Bir veya daha fazla gap instance'ı karşılayan gerçek, konsolide öğretmen ve öğrenci değerlendirme materyali.
+
+```
+[GAP_T2_KONUSMA] ──┐
+[GAP_T3_KONUSMA] ──┼──> [TDE9_KONUSMA_RUBRIC] (Annual Core Artifact)
+[GAP_T4_KONUSMA] ──┘
+```
+
+Eski gap kayıtları audit kanıtı olarak korunur; ancak üretim kuyruğu consolidated artifact registry üzerinden çalışır.
+
+### D. Core Rubric + Task Binding Mimarisi:
+Yıllık bir rubrik iki katmandan oluşur:
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│ 1. ANNUAL CORE (Kararlı Yıllık Çekirdek)                   │
+│    - Stable criterion set (Kararlı ölçüt seti)              │
+│    - Stable 4-level semantics (Kararlı düzey semantiği)     │
+│    - Stable scoring mechanics (1.00-4.00 + opsiyonel 100)   │
+│    - Stable feedback structure (EVIDENCE -> EFFECT -> NEXT) │
+├─────────────────────────────────────────────────────────────┤
+│ 2. TASK BINDING (Görev Bağlamı Katmanı)                    │
+│    - theme_id / activity_id / block_id                      │
+│    - task_title (Görev / Atölye başlığı)                   │
+│    - evidence_being_observed (Gözlenen somut eylem/kanıt)   │
+│    - source_locators (Program ve kitap sayfa referansı)     │
+│    - task_specific_instructional_note                       │
+└─────────────────────────────────────────────────────────────┘
+```
+
+Task binding katmanı çekirdek ölçüt setini keyfi olarak değiştiremez. Görev başlığı veya konusu değişti diye temel başarı ölçütleri baştan yazılmaz.
+
+### E. Criterion Extension Politikası (`REUSE_WITH_CRITERION_EXTENSION`):
+Bir temada resmî kaynakta gerçekten ek bir zorunlu ölçüt varsa:
+- Hemen yeni rubrik oluşturulmaz.
+- Ölçüt `CRITERION_EXTENSION` olarak tanımlanır ve yalnızca ilgili temaya/göreve scope edilir.
+- Extension mutlaka resmî kaynak locator'ı ve verbatim dayanak taşımalıdır.
+- Annual core ölçüt setini sessizce değiştiremez.
+- Extension sayısı veya yapısı ana aracı anlamsız kılacak düzeye ulaşmadıkça yeni artifact üretilmez.
+
+### F. Öğrenci Açısından Stabilite:
+- Teacher-facing ve student-facing ölçüt setleri annual core seviyesinde kararlıdır.
+- Tema değiştiğinde öğrenci "bu temada bambaşka ölçütlerle puanlanacağım" algısına düşürülmez; yalnızca görevin nasıl uygulanacağı değişir.
+
+### G. Assessment Üretim Pipeline'ı:
+Assessment materyal üretim akışı şu zorunlu adımları izler:
+
+```
+gap_analysis
+    ↓
+assessment_gap_instances
+    ↓
+CROSS_THEME_ASSESSMENT_CONSOLIDATION
+    ↓
+annual_assessment_artifact_registry
+    ↓
+task_bindings
+    ↓
+generation_context
+    ↓
+material_generation
+```
+Değerlendirme açığı tespit edildikten hemen sonra doğrudan materyal üretimi yapılamaz; önce temalar arası konsolidasyon (`CROSS_THEME_CONSOLIDATION`) zorunludur.
+
+### H. Normalized Shared Constructs vs. Exact Criterion Match
+Cross-theme yıllık dereceli puanlama anahtarı konsolidasyonunda iki kavram kesinlikle ayrılır:
+1. **`EXACT_CRITERION_MATCH`**: Ölçüt adı, resmî tanımı ve kapsamı farklı temalar arasında harfi harfine aynı olduğunda kullanılır.
+2. **`NORMALIZED_SHARED_CONSTRUCT`**: Farklı temalarda farklı ifadelerle (örn. "içeriğin kurgusallığı", "içeriğe uygunluk", "bilgilerin doğruluğu") ifade edilen resmî ölçütlerin üst düzey, kanıtlanabilir ortak bir değerlendirme boyutu altında normalize edilmesidir.
+
+> **Kritik Kurallar:**
+> - Cross-theme konsolidasyon "kriterler tamamen aynı / %100 birebir örtüşüyor" varsayımına dayandırılamaz; kanıtlanabilir `NORMALIZED_SHARED_CONSTRUCT` yaklaşımı esas alınmalıdır.
+> - Bir construct'ın `ANNUAL_CORE` kabul edilebilmesi için tüm konsolide temalarda güçlü kanıtının bulunması şarttır. Yalnızca tek bir temaya/türe özgü olan unsurlar (örn. şiir ahenk ögeleri, otobiyografi gerçekliği/kronolojisi, sunumda görsel/slayt kullanımı) yıllık core ölçüt hücre betimleyicilerine zorunlu şart olarak gömülemez; bunlar kesinlikle `TASK_SPECIFIC_BINDING` katmanında tutulur.
+> - Yıllık core ölçüt sayısı yapay olarak sabitlenemez (örn. "mutlaka 5 ölçüt olmalı" kuralı yoktur). Kanıtlanan geçerli core construct sayısı 4 ise yıllık rubrik 4 ölçütlü olarak yapılandırılır.
+
+### I. Process Support vs. Annual Core Scope Ayrımı
+Bir ölçme-değerlendirme aracının kapsamı (scope) belirlenirken:
+1. **`ANNUAL_CORE`**: Yıl boyunca her temada karne/derecelendirme ve temel performans standardı olarak işletilen, birden fazla temada REQUIRED açığı kapatan konsolide araçlardır.
+2. **`REUSABLE_PROCESS_SUPPORT`**: Belirli bir temada (`REQUIRED`) doğan ancak süreç aşamaları (örn. yazma sürecinin 5 evrensel basamağı: Hazırlık, Planlama, Taslak, Redaksiyon, Paylaşım) tüm temalarda biçimlendirici ve notsuz olarak tekrar kullanılabilir (`REUSABLE_ACROSS_THEMES`) olan süreç araçlarıdır. Tek bir temada açık kapatan süreç araçları yapay biçimde `ANNUAL_CORE` olarak adlandırılamaz.

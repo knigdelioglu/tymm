@@ -219,6 +219,14 @@ Bu ayrım sayesinde aynı skill TDE_9, TDE_10, Tarih 9 veya başka bir dersle ç
 
 ## 6. Kaynak manifesti ve fingerprint sistemi
 
+## Annual Course Timeline / Planned Progression Layer
+
+Yeniden kullanılabilir bilgi mimarisine eklenen annual course timeline katmanı, öğretim programından türetilen **planlanan öğretim ilerlemesini** temsil eder; öğrenci öğrenmesi, mastery, başarı veya gerçek öğretmen konumu değildir. `planned_position`, `actual_teacher_position` ve `student_mastery` birbirinden ayrıdır; öğretmen override'ı course knowledge içine yazılmaz.
+
+Timeline iki bağımsız katmanda modellenir: (1) dersin kalıcı stable instructional sequence katmanı (tema ve blok sırası, doğrulanmış zaman bilgileri) ve (2) akademik yıla bağlı, isteğe bağlı calendar binding katmanı (hafta/tarih → sequence position). Takvim değiştiğinde stable sequence yeniden yazılmaz; takvim verisi curriculum truth'e sessizce yükseltilmez.
+
+Saat, haftalık ders sayısı, blok süresi veya tarih kaynağa dayanmıyorsa fail-closed olarak `null`/`UNRESOLVED` kalır. Uygulamalar bu katmandan deterministik `planned_position` çözebilir; tarih bağlama ise yalnızca doğrulanmış resmî akademik takvim ve ders çizelgesi bulunduğunda yapılır.
+
 Her kaynak dosyanın:
 
 - source_id
@@ -468,18 +476,65 @@ Cevap hayırsa kaynak REQUIRED değildir.
 
 ---
 
-## 15. Cross-theme consolidation
+## 15. Cross-Theme Assessment Consolidation ve Annual Assessment Stability
 
-Her tema ayrı analiz edilir; daha sonra kaynak planları birleştirilir.
+Her tema başlangıçta ayrı analiz edilir; ancak tespit edilen ölçme-değerlendirme açıkları doğrudan tema bazlı münferit rubrik üretimine yönlendirilmez. Temalar arası çapraz konsolidasyon ve yıllık kararlılık mimarisi işletilir.
 
-Amaç:
+### A. Temel Pedagojik İlke: `THEME_CHANGE_ALONE != NEW_RUBRIC`
 
-- duplicate materyalleri tespit etmek
-- shared gaps’i birleştirmek
-- aynı kaynakla birden fazla outcome’u karşılayabilmek
-- tema bazlı tutarsızlıkları yakalamak
+Öğrenci yıl boyunca aynı sınıf düzeyi ve temel beceri alanında (konuşma/sunum, yazma) mümkün olduğunca aynı temel ölçütlerle değerlendirilmelidir. 
+- Tema adının veya etkinlik görevinin değişmesi tek başına yeni bir rubrik üretme gerekçesi olamaz.
+- Öğrencinin yıl boyunca karşılaşacağı başarı çıtası kararlı kalmalı, bilişsel yük ve kafa karışıklığı önlenmelidir.
 
-Sonuçta yalnız gerçekten üretilecek materyaller `production_manifest.json` içine alınır.
+### B. GAP INSTANCE ≠ ARTIFACT Ayrımı
+
+Mimaride iki kavram kesin çizgilerle ayrılır:
+- **`ASSESSMENT_GAP_INSTANCE`**: Belirli bir tema ve öğrenme çıktısında saptanan ölçme açığı (izlenebilirlik, provenance ve audit kaydı).
+- **`ANNUAL_ASSESSMENT_ARTIFACT`**: Bir veya daha fazla gap instance'ı karşılayan gerçek, konsolide fiziksel öğretmen ve öğrenci materyali.
+
+Örneğin TDE 9 için Tema 2, 3 ve 4'te ortaya çıkan 3 ayrı konuşma gap'i (`MAT_T2_KONUSMA_RUBRIC`, `MAT_T3_KONUSMA_RUBRIC`, `MAT_T4_KONUSMA_RUBRIC`) 3 ayrı materyal üretmez; tek bir `TDE9_KONUSMA_RUBRIC` yıllık çekirdek artifact'ına konsolide edilir.
+
+```text
+[GAP_T2_KONUSMA] ──┐
+[GAP_T3_KONUSMA] ──┼──> [TDE9_KONUSMA_RUBRIC] (Annual Core Artifact)
+[GAP_T4_KONUSMA] ──┘
+```
+
+Eski gap kayıtları audit kanıtı olarak korunur; ancak üretim kuyruğu `assessment_artifact_registry.json` üzerinden çalışır.
+
+### C. Core Rubric + Task Binding Katmanları ve Normalized Shared Constructs
+
+Cross-theme konsolidasyon, "temalardaki kriterler kelimesi kelimesine aynıdır" varsayımına değil; farklı temalardaki resmî ölçütlerin üst düzey kanıtlanabilir ortak boyutlar altında birleştirildiği **`NORMALIZED_SHARED_CONSTRUCT`** yaklaşımına dayanır.
+
+Yıllık rubrik iki katmandan oluşur:
+1. **ANNUAL CORE (Kararlı Çekirdek)**: Kanıtlanabilir ortak temel ölçüt seti (Konuşmada 5, Yazmada 4 construct-pure ölçüt), 4 düzeyli criterion-neutral semantik, ham ortalama (1.00-4.00) ve standart geri bildirim modeli (`EVIDENCE -> EFFECT -> NEXT STEP`).
+2. **TASK BINDING (Görev Bağlamı)**: İlgili temanın atölye başlığı, gözlenen somut öğrenci eylemi, sayfa locator'ları ve göreve özgü uygulama notları (örn. şiir ritim/ahengi, infografik görsel modülleri, sunumda slayt kullanımı).
+
+Task binding katmanı çekirdek ölçüt setini bozamaz veya değiştiremez.
+
+### D. Yeniden Kullanım Öncelik Sırası, Criterion Extension ve Kapsam (Scope) Ayrımı
+
+Değerlendirme açığında şu hiyerarşi zorunludur:
+1. `REUSE_ANNUAL_CORE`
+2. `REUSE_WITH_TASK_BINDING`
+3. `REUSE_WITH_CRITERION_EXTENSION`
+4. `GENERATE_NEW_ASSESSMENT`
+
+Ayrıca araç kapsamlarında **`ANNUAL_CORE` ≠ `REUSABLE_ACROSS_THEMES`** ayrımı esastır:
+- **`ANNUAL_CORE`**: Yıl boyu her temada notlandırma standardı oluşturan ve birden fazla temada REQUIRED açığı kapatan rubriklerdir (`TDE9_KONUSMA_RUBRIC`, `TDE9_YAZMA_RUBRIC`).
+- **`REUSABLE_PROCESS_SUPPORT`**: Tek bir temada (`TEMA_04 / TDE4.1`) REQUIRED gap anchor'ına sahip olan, ancak 5 evrensel aşaması tüm temalarda biçimlendirici olarak serbestçe tekrar kullanılabilen süreç araçlarıdır (`TDE9_YAZMA_SUREC_KONTROL_LISTESI`).
+
+Temada resmî ek bir zorunlu ölçüt varsa önce `REUSE_WITH_CRITERION_EXTENSION` değerlendirilir. `GENERATE_NEW_ASSESSMENT` yalnız resmî requirement gerçekten farklı bir construct ölçüyorsa ve explicit rationale + source locator ile fail-closed olarak uygulanabilir.
+
+### E. Generation Öncesi Konsolidasyon Zorunluluğu
+
+Pipeline akışı:
+
+```text
+gap_analysis → assessment_gap_instances → CROSS_THEME_ASSESSMENT_CONSOLIDATION → annual_assessment_artifact_registry → task_bindings → generation_context → material_generation
+```
+
+Konsolidasyondan geçmemiş hiçbir gap instance için materyal üretimi açılamaz.
 
 ---
 

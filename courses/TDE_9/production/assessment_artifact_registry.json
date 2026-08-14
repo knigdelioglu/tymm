@@ -1,0 +1,467 @@
+{
+  "schema_version": "1.1",
+  "registry_version": "1.1.0",
+  "course_id": "TDE_9",
+  "grade": 9,
+  "course_title": "Türk Dili ve Edebiyatı",
+  "registry_date": "2026-08-14",
+  "applied_global_standard": "ASSESSMENT_GENERATION_STANDARD_VERSION: 1.1.1",
+  "global_standard_reference": "references/assessment-generation.md",
+  "assessment_design_contract_reference": "courses/TDE_9/production/assessment_design_contract.json",
+  "registry_purpose": "9. Sınıf Türk Dili ve Edebiyatı dersinde tespit edilen 7 REQUIRED değerlendirme açığını (gap instances) yıllık kararlı ölçme araçlarına (annual assessment artifacts) ve yeniden kullanılabilir süreç araçlarına konsolide eden, task binding katmanını izole eden, normalleştirilmiş ortak construct'ları (NORMALIZED_SHARED_CONSTRUCT) şeffaf izlenebilirlikle belgeleyen ve mükerrer rubrik üretimini engelleyen kanonik tescil kütüğü.",
+  "summary_metrics": {
+    "required_gap_instance_count": 7,
+    "required_unique_artifact_count": 3,
+    "consolidation_ratio": 2.33,
+    "gap_instances_by_domain": {
+      "speaking_analytic_rubric": 3,
+      "writing_analytic_rubric": 3,
+      "writing_process_checklist": 1
+    },
+    "artifacts_by_family": {
+      "ANALYTIC_RUBRIC": 2,
+      "PROCESS_CHECKLIST": 1
+    },
+    "artifacts_by_scope": {
+      "ANNUAL_CORE": 2,
+      "REUSABLE_PROCESS_SUPPORT": 1
+    },
+    "consolidation_status": "CONSOLIDATED",
+    "annual_stability_verified": true,
+    "mapping_completeness": "100%"
+  },
+  "annual_artifacts": [
+    {
+      "artifact_id": "TDE9_KONUSMA_RUBRIC",
+      "title": "9. Sınıf Türk Dili ve Edebiyatı Yıllık Konuşma ve Sunum Becerisi Dereceli Puanlama Anahtarı",
+      "skill_domain": "Konuşma / Sözlü Anlatım",
+      "assessment_family": "ANALYTIC_RUBRIC",
+      "scope": "ANNUAL_CORE",
+      "core_construct": "Öğrencinin sözlü iletişim, hazırlıklı/hazırlıksız konuşma ve sunum icrasında içerik kurgusu, organizasyon, ses-diksiyon, beden dili ve dil kurallarını amaca uygun, tutarlı ve etkili biçimde sergileme performansı.",
+      "level_model_ref": "SHARED_4_LEVEL_MODEL",
+      "scoring_model_ref": "RAW_MEAN_1_TO_4_WITH_OPTIONAL_100_SCALE",
+      "reuse_policy": "REUSE_ANNUAL_CORE",
+      "covered_gap_instances": [
+        "MAT_T2_KONUSMA_RUBRIC",
+        "MAT_T3_KONUSMA_RUBRIC",
+        "MAT_T4_KONUSMA_RUBRIC"
+      ],
+      "covered_themes": [
+        "TEMA_02",
+        "TEMA_03",
+        "TEMA_04"
+      ],
+      "covered_outcomes": [
+        "TDE3.2",
+        "TDE3.3",
+        "TDE3.4"
+      ],
+      "core_criteria": [
+        {
+          "criterion_id": "CRT_SPK_CORE_01",
+          "criterion_name": "İçerik ve Göreve Uygunluk",
+          "normalization_type": "NORMALIZED_SHARED_CONSTRUCT",
+          "source_criteria_by_theme": {
+            "TEMA_02": "içeriğin kurgusallığı, etkileyicilik, karakter kurgusu (s. 74, 129)",
+            "TEMA_03": "içerik, bilgilerin doğruluğu, karşılaştırma/betimleme (s. 82, 195)",
+            "TEMA_04": "içeriğe uygunluk, özgünlük, sosyal medya-edebî dil tahlili (s. 90, 279)"
+          },
+          "origin": "official_curriculum",
+          "derived_from": "öğretim programı.pdf: s. 74, 82, 90",
+          "source_locator": "öğretim programı.pdf, s. 74, 82, 90",
+          "normalization_rationale": "Konuşma konusunu, amacını, bağlamını ve içeriğini hedef kitleye uygun, tutarlı ve amaca hizmet edecek biçimde kurgulama ortak construct'ıdır.",
+          "scope": "ANNUAL_CORE",
+          "description": "Konuşma konusunu, amacını, bağlamını ve varsa metin/karakter/mekân içeriğini hedef kitleye uygun, tutarlı ve amaca hizmet edecek biçimde kurgulama."
+        },
+        {
+          "criterion_id": "CRT_SPK_CORE_02",
+          "criterion_name": "Yapı, Organizasyon ve Zaman Yönetimi",
+          "normalization_type": "NORMALIZED_SHARED_CONSTRUCT",
+          "source_criteria_by_theme": {
+            "TEMA_02": "zaman yönetimi (s. 74, 129)",
+            "TEMA_03": "organizasyon, zaman ve mekân yönetimi (s. 82, 195)",
+            "TEMA_04": "sunum becerisi, zaman ve mekân kullanımı (s. 90, 279)"
+          },
+          "origin": "official_curriculum",
+          "derived_from": "öğretim programı.pdf: s. 74, 82, 90",
+          "source_locator": "öğretim programı.pdf, s. 74, 82, 90",
+          "normalization_rationale": "Konuşmayı giriş-gelişme-sonuç akışına göre planlama ve belirlenen süreyi dengeli ve amaca uygun yönetme ortak construct'ıdır. Görsel veya dijital slayt kullanımı yalnız ilgili görev gerektiriyorsa task binding katmanında izole edilir.",
+          "scope": "ANNUAL_CORE",
+          "description": "Konuşmayı giriş-gelişme-sonuç akışına göre planlama, belirlenen süreyi dengeli ve amaca uygun yönetme."
+        },
+        {
+          "criterion_id": "CRT_SPK_CORE_03",
+          "criterion_name": "Ses, Diksiyon ve Akıcılık",
+          "normalization_type": "NORMALIZED_SHARED_CONSTRUCT",
+          "source_criteria_by_theme": {
+            "TEMA_02": "ses ve diksiyon, akıcılık (s. 74, 129)",
+            "TEMA_03": "anlatım, kelime ve cümle akıcılığı, ses tonu, vurgu, tonlama (s. 82, 195)",
+            "TEMA_04": "sunum becerisi, ses tonu ve diksiyon (s. 90, 279)"
+          },
+          "origin": "official_curriculum",
+          "derived_from": "öğretim programı.pdf: s. 74, 82, 90",
+          "source_locator": "öğretim programı.pdf, s. 74, 82, 90",
+          "normalization_rationale": "Ses tonu, vurgu, tonlama, telaffuz ve söyleyiş özelliklerini içeriğin anlam akışına uygun olarak doğru ve işitilebilir biçimde ayarlama ortak construct'ıdır.",
+          "scope": "ANNUAL_CORE",
+          "description": "Ses tonu, vurgu, tonlama, telaffuz ve söyleyiş özelliklerini içeriğin anlam akışına uygun olarak doğru ve işitilebilir biçimde ayarlama."
+        },
+        {
+          "criterion_id": "CRT_SPK_CORE_04",
+          "criterion_name": "Beden Dili, Jest-Mimik ve İletişim",
+          "normalization_type": "NORMALIZED_SHARED_CONSTRUCT",
+          "source_criteria_by_theme": {
+            "TEMA_02": "beden dili, jest ve mimikler (s. 74, 129)",
+            "TEMA_03": "iletişim, beden dili, jest ve mimik kullanımı (s. 82, 195)",
+            "TEMA_04": "beden dili ile jest ve mimik kullanımı (s. 90, 279)"
+          },
+          "origin": "official_curriculum",
+          "derived_from": "öğretim programı.pdf: s. 74, 82, 90",
+          "source_locator": "öğretim programı.pdf, s. 74, 82, 90",
+          "normalization_rationale": "Duruş, göz teması, jest ve mimikleri dinleyiciyle sağlıklı iletişim kuracak ve anlatımı destekleyecek şekilde etkili kullanma ortak construct'ıdır.",
+          "scope": "ANNUAL_CORE",
+          "description": "Duruş, göz teması, jest ve mimikleri dinleyiciyle sağlıklı iletişim kuracak ve anlatımı destekleyecek şekilde etkili kullanma."
+        },
+        {
+          "criterion_id": "CRT_SPK_CORE_05",
+          "criterion_name": "Türkçenin Doğru Kullanımı ve Söz Varlığı",
+          "normalization_type": "NORMALIZED_SHARED_CONSTRUCT",
+          "source_criteria_by_theme": {
+            "TEMA_02": "Türkçenin doğru kullanımı, söz varlığı (s. 74, 129)",
+            "TEMA_03": "bağdaşıklık, Türkçenin kuralları (s. 82, 195)",
+            "TEMA_04": "seçilen dil yapıları, bağdaşıklık ve bağlaşıklık, Türkçe kelime tercihi (s. 90, 279)"
+          },
+          "origin": "official_curriculum",
+          "derived_from": "öğretim programı.pdf: s. 74, 82, 90",
+          "source_locator": "öğretim programı.pdf, s. 74, 82, 90",
+          "normalization_rationale": "Söz varlığını bağlama uygun seçme, dil bilgisi kurallarına uyma, bağdaşıklık ögelerini doğru kullanma ve anlatım bozukluğu yapmama ortak construct'ıdır.",
+          "scope": "ANNUAL_CORE",
+          "description": "Söz varlığını bağlama uygun seçme, dil bilgisi kurallarına uyma, bağdaşıklık ögelerini doğru kullanma ve anlatım bozukluğu yapmama."
+        }
+      ],
+      "task_bindings": [
+        {
+          "gap_instance_id": "MAT_T2_KONUSMA_RUBRIC",
+          "theme_id": "TEMA_02",
+          "theme_title": "2. Tema: Anlam Arayışı",
+          "block_id": "BLOCK_T2_02_KONUSMA",
+          "targeted_outcomes": ["TDE3.4"],
+          "activity_id": "T2_ACT_08_KONUSMA_SIRASI",
+          "task_title": "Karakterimin Yolculuğu Değerlendirme Tablosu / Şiir Dinletisi",
+          "evidence_being_observed": "Hikâye karakterini tahlil edip özdeşleştirerek estetik bakış açısıyla kurgulama, ses tonu ve beden diliyle canlı sunum/canlandırma yapma.",
+          "textbook_locator": "Ders Kitabı s. 129 (FORM_IN_T2_KONUSMA_CRITERIA), s. 312 (FORM_BOB_11_GENEL_GOZLEM)",
+          "curriculum_locator": "öğretim programı.pdf, s. 74, 75, 78 (TDE3.4)",
+          "task_specific_instructional_note": "Öğrenci hikâye karakterini tanıtırken ses tonunu karakterin ruhsal durumuna göre ayarlar; sunum süresi sınıf içi yönergeye göre yönetilir."
+        },
+        {
+          "gap_instance_id": "MAT_T3_KONUSMA_RUBRIC",
+          "theme_id": "TEMA_03",
+          "theme_title": "3. Tema: Anlamın Yapı Taşları",
+          "block_id": "BLOCK_T3_02_KONUSMA",
+          "targeted_outcomes": ["TDE3.4"],
+          "activity_id": "T3_ACT_08_KONUSMA_SIRASI",
+          "task_title": "Benim Mekânım Sunumu Değerlendirme Tablosu",
+          "evidence_being_observed": "Okunan metindeki mekânlar ile çevresindeki mekânları karşılaştıran sunum hazırlama; görsel unsurları ve mekân tasvirlerini konuşma planına uygun sunma.",
+          "textbook_locator": "Ders Kitabı s. 195 (FORM_IN_T3_KONUSMA_CRITERIA), s. 307 (FORM_BOB_06_T3_KONUSMA_OZ)",
+          "curriculum_locator": "öğretim programı.pdf, s. 81, 82, 86 (TDE3.4)",
+          "task_specific_instructional_note": "Öğrenci karşılaştırma tablosunu ve görselleri konuşmasının akışını destekleyecek biçimde zamanında paylaşır."
+        },
+        {
+          "gap_instance_id": "MAT_T4_KONUSMA_RUBRIC",
+          "theme_id": "TEMA_04",
+          "theme_title": "4. Tema: Dilin Zenginliği",
+          "block_id": "BLOCK_T4_02_KONUSMA",
+          "targeted_outcomes": ["TDE3.2", "TDE3.3"],
+          "activity_id": "T4_ACT_08_KONUSMA_SIRASI",
+          "task_title": "Dilimizin Zenginlikleri Sunumu Değerlendirme Tablosu",
+          "evidence_being_observed": "Sosyal medya dili ile edebî dilin özelliklerini karşılaştıran etkileşimli sunum yapma; dil bilincini ve eleştirel değerlendirmeyi ses ve beden diliyle aktarma.",
+          "textbook_locator": "Ders Kitabı s. 279 (FORM_IN_T4_KONUSMA_CRITERIA), s. 309 (FORM_BOB_08_T4_KONUSMA_OZ)",
+          "curriculum_locator": "öğretim programı.pdf, s. 90, 91, 95 (TDE3.2, TDE3.3)",
+          "task_specific_instructional_note": "Sunumda karşılaştırmalı örnekler sunulurken nezaket kurallarına ve Türkçenin ses yapısına özen gösterilir."
+        }
+      ],
+      "criterion_extensions": [],
+      "official_requirements": [
+        {
+          "theme_id": "TEMA_02",
+          "verbatim": "Öğretmen değerlendirmesi dereceli puanlama anahtarı ile gerçekleştirilir. Puanlama anahtarında ses ve diksiyon, akıcılık, beden dili, içeriğin kurgusallığı, zaman yönetimi, Türkçenin doğru kullanımı, etkileyicilik vb. ölçütler yer alır.",
+          "locator": "öğretim programı.pdf, s. 74, 78"
+        },
+        {
+          "theme_id": "TEMA_03",
+          "verbatim": "Sunumlar, dereceli puanlama anahtarı ile puanlanır. Puanlama içerik, anlatım, organizasyon ve iletişim vb. ölçütler bağlamında değerlendirilir.",
+          "locator": "öğretim programı.pdf, s. 82, 86"
+        },
+        {
+          "theme_id": "TEMA_04",
+          "verbatim": "Sunum performansı, dereceli puanlama anahtarı ile puanlanır. Puanlama anahtarında içeriğe uygunluk, özgünlük, sunum becerisi, görsel ögeleri kullanma, zaman ve mekân kullanımı, beden dili ile jest ve mimik kullanımı gibi ölçütler yer alır.",
+          "locator": "öğretim programı.pdf, s. 90, 95"
+        }
+      ],
+      "source_locators": {
+        "curriculum": "öğretim programı.pdf, s. 74, 82, 90",
+        "textbook": "9edb.pdf: s. 129, s. 195, s. 279, s. 307, s. 309, s. 312"
+      },
+      "generation_priority": "REQUIRED",
+      "generation_status": "READY_TO_GENERATE",
+      "teacher_review_required": true
+    },
+    {
+      "artifact_id": "TDE9_YAZMA_RUBRIC",
+      "title": "9. Sınıf Türk Dili ve Edebiyatı Yıllık Yazılı Anlatım Ürünü Dereceli Puanlama Anahtarı",
+      "skill_domain": "Yazma / Yazılı Anlatım (Ürün Odaklı)",
+      "assessment_family": "ANALYTIC_RUBRIC",
+      "scope": "ANNUAL_CORE",
+      "core_construct": "Öğrencinin yazılı anlatım ürünlerinde (şiir, infografik metin, otobiyografi vb.) tema ve ana fikir bütünlüğü, metin kurgusu, dil-anlatım uyumu, bağdaşıklık ve imla-noktalama kurallarını bir arada yetkin biçimde yansıtma performansı.",
+      "level_model_ref": "SHARED_4_LEVEL_MODEL",
+      "scoring_model_ref": "RAW_MEAN_1_TO_4_WITH_OPTIONAL_100_SCALE",
+      "reuse_policy": "REUSE_ANNUAL_CORE",
+      "covered_gap_instances": [
+        "MAT_T2_YAZMA_RUBRIC",
+        "MAT_T3_YAZMA_RUBRIC",
+        "MAT_T4_YAZMA_RUBRIC"
+      ],
+      "covered_themes": [
+        "TEMA_02",
+        "TEMA_03",
+        "TEMA_04"
+      ],
+      "covered_outcomes": [
+        "TDE4.2",
+        "TDE4.3",
+        "TDE4.4"
+      ],
+      "core_criteria": [
+        {
+          "criterion_id": "CRT_WRT_CORE_01",
+          "criterion_name": "Tema, Anlam ve Ana Düşünce/Duygu Tutarlılığı",
+          "normalization_type": "NORMALIZED_SHARED_CONSTRUCT",
+          "source_criteria_by_theme": {
+            "TEMA_02": "tema, ana duygu (s. 74, 141)",
+            "TEMA_03": "anlam, tutarlılık, doğruluk (s. 82, 205)",
+            "TEMA_04": "bağlama uygunluk, tutarlılık (s. 91, 294)"
+          },
+          "origin": "official_curriculum",
+          "derived_from": "öğretim programı.pdf: s. 74, 82, 91",
+          "source_locator": "öğretim programı.pdf, s. 74, 82, 91",
+          "normalization_rationale": "Yazılı ürünün bütününde hedeflenen temayı, ana duyguyu veya temel iletiyi açık, tutarlı ve amacına uygun biçimde işleme ortak construct'ıdır.",
+          "scope": "ANNUAL_CORE",
+          "description": "Yazılı ürünün bütününde hedeflenen temayı, ana duyguyu veya temel iletiyi açık, tutarlı ve amacına uygun biçimde işleme."
+        },
+        {
+          "criterion_id": "CRT_WRT_CORE_02",
+          "criterion_name": "Metin Yapısı ve Türe Özgü Kurgu",
+          "normalization_type": "NORMALIZED_SHARED_CONSTRUCT",
+          "source_criteria_by_theme": {
+            "TEMA_02": "ritim ve ahenk ögeleri, nazım birimi ve düzeni (s. 74, 141)",
+            "TEMA_03": "görsel ögelerin kullanımı, grafik düzen ve yerleşim (s. 82, 205)",
+            "TEMA_04": "bağlama uygunluk, kronolojik ve tematik kurgu (s. 91, 294)"
+          },
+          "origin": "official_curriculum",
+          "derived_from": "öğretim programı.pdf: s. 74, 82, 91",
+          "source_locator": "öğretim programı.pdf, s. 74, 82, 91",
+          "normalization_rationale": "Yazılan türe uygun metin yapısı ve mantıksal kurgu oluşturma ortak construct'ıdır. Şiirde kafiye/redif, infografikte grafik modül düzeni, otobiyografide kronolojik akış gibi türe özgü ögeler task binding katmanında izole edilir.",
+          "scope": "ANNUAL_CORE",
+          "description": "Yazılan türün temel yapısal kurallarına ve mantıksal kurgu akışına uygun metin organizasyonu oluşturma."
+        },
+        {
+          "criterion_id": "CRT_WRT_CORE_03",
+          "criterion_name": "Dil, Anlatım ve Söz Varlığının Bağlama Uygunluğu",
+          "normalization_type": "NORMALIZED_SHARED_CONSTRUCT",
+          "source_criteria_by_theme": {
+            "TEMA_02": "söz varlığının bağlama uygun kullanımı (s. 74, 141)",
+            "TEMA_03": "dilin kullanımı, deyim/atasözü (s. 82, 205)",
+            "TEMA_04": "dil ve anlatım özelliği, söz varlığı (s. 91, 294)"
+          },
+          "origin": "official_curriculum",
+          "derived_from": "öğretim programı.pdf: s. 74, 82, 91",
+          "source_locator": "öğretim programı.pdf, s. 74, 82, 91",
+          "normalization_rationale": "Sözcükleri ve kavramları bağlama uygun seçme, türe uygun anlatım biçimlerini yerinde kullanma ortak construct'ıdır.",
+          "scope": "ANNUAL_CORE",
+          "description": "Sözcükleri ve kavramları bağlama uygun seçme, türe uygun anlatım biçimlerini (betimleyici, öyküleyici, açıklayıcı) yerinde ve akıcı kullanma."
+        },
+        {
+          "criterion_id": "CRT_WRT_CORE_04",
+          "criterion_name": "Türkçenin Kuralları (İmla, Noktalama ve Bağdaşıklık)",
+          "normalization_type": "NORMALIZED_SHARED_CONSTRUCT",
+          "source_criteria_by_theme": {
+            "TEMA_02": "yazım ve noktalama (s. 74, 141)",
+            "TEMA_03": "yazım ve noktalama, dil kuralları (s. 82, 205)",
+            "TEMA_04": "yazım ve noktalama, bağdaşıklık, anlatım bozuklukları (s. 91, 294)"
+          },
+          "origin": "official_curriculum",
+          "derived_from": "öğretim programı.pdf: s. 74, 82, 91",
+          "source_locator": "öğretim programı.pdf, s. 74, 82, 91",
+          "normalization_rationale": "Yazım ve noktalama kurallarına eksiksiz uyma, cümle yapılarında ve paragraflar arası geçişlerde bağdaşıklık ve bağlaşıklığı sağlama ortak construct'ıdır.",
+          "scope": "ANNUAL_CORE",
+          "description": "Yazım ve noktalama kurallarına eksiksiz uyma, cümle yapılarında ve paragraflar arası geçişlerde bağdaşıklık ve bağlaşıklığı sağlama."
+        }
+      ],
+      "task_bindings": [
+        {
+          "gap_instance_id": "MAT_T2_YAZMA_RUBRIC",
+          "theme_id": "TEMA_02",
+          "theme_title": "2. Tema: Anlam Arayışı",
+          "block_id": "BLOCK_T2_04_YAZMA",
+          "targeted_outcomes": ["TDE4.4"],
+          "activity_id": "T2_ACT_12_YAZMA_SIRASI",
+          "task_title": "Ben Şair Olsaydım Şiir Yazma Görevi Değerlendirme Tablosu",
+          "evidence_being_observed": "Özgün şiir yazma: tema ve ana duyguya uygun söz varlığı seçimi, ritim ve ahenk ögeleri (kafiye, redif, aliterasyon), imge ve çağrışım uyumu.",
+          "textbook_locator": "Ders Kitabı s. 141 (FORM_IN_T2_YAZMA_CRITERIA), s. 304 (FORM_BOB_03_T2_YAZMA_OZ)",
+          "curriculum_locator": "öğretim programı.pdf, s. 74, 75, 79 (TDE4.4)",
+          "task_specific_instructional_note": "Şiir formu için ritim, kafiye, redif ve ahenk ögeleri ile şiirsel imge tasarımı task binding kapsamında gözlenir."
+        },
+        {
+          "gap_instance_id": "MAT_T3_YAZMA_RUBRIC",
+          "theme_id": "TEMA_03",
+          "theme_title": "3. Tema: Anlamın Yapı Taşları",
+          "block_id": "BLOCK_T3_04_YAZMA",
+          "targeted_outcomes": ["TDE4.4"],
+          "activity_id": "T3_ACT_12_YAZMA_SIRASI",
+          "task_title": "İnfografik Metin Değerlendirme Tablosu (Nevruz Belgeseli)",
+          "evidence_being_observed": "Nevruz belgeseli temelli çok modlu infografik metin yazma: anlam bütünlüğü, grafik ve görsel düzen, dil ve imla tutarlılığı.",
+          "textbook_locator": "Ders Kitabı s. 205 (FORM_IN_T3_YAZMA_CRITERIA), s. 306 (FORM_BOB_05_T3_YAZMA_OZ)",
+          "curriculum_locator": "öğretim programı.pdf, s. 81, 82, 88 (TDE4.4)",
+          "task_specific_instructional_note": "Çok modlu infografik grafik düzeni, metin-görsel dengesi ve görsel özgünlük task binding kapsamında gözlenir."
+        },
+        {
+          "gap_instance_id": "MAT_T4_YAZMA_RUBRIC",
+          "theme_id": "TEMA_04",
+          "theme_title": "4. Tema: Dilin Zenginliği",
+          "block_id": "BLOCK_T4_04_YAZMA",
+          "targeted_outcomes": ["TDE4.2", "TDE4.3"],
+          "activity_id": "T4_ACT_12_YAZMA_SIRASI",
+          "task_title": "Otobiyografimle Keşfedilmeyi Bekliyorum! Değerlendirme Tablosu",
+          "evidence_being_observed": "Öz yaşam öyküsü (otobiyografi) yazma: bağlama uygunluk, içten ve gerçekçi anlatım, bağdaşıklık, imla-noktalama ve üslup özgünlüğü.",
+          "textbook_locator": "Ders Kitabı s. 294 (FORM_IN_T4_YAZMA_CRITERIA), s. 308 (FORM_BOB_07_T4_YAZMA_OZ)",
+          "curriculum_locator": "öğretim programı.pdf, s. 90, 91, 96 (TDE4.2, TDE4.3)",
+          "task_specific_instructional_note": "Olayların kronolojik/tematik tutarlılığı, samimi/gerçekçi anlatım ve anlatım bozukluklarını düzeltme task binding kapsamında gözlenir."
+        }
+      ],
+      "criterion_extensions": [],
+      "official_requirements": [
+        {
+          "theme_id": "TEMA_02",
+          "verbatim": "Performans görevi; tema, ana duygu, ritim ve ahenk ögeleri, söz varlığının bağlama uygun kullanımı vb. ölçütlerin yer aldığı bir puanlama anahtarı ile puanlanır. Öğretmen değerlendirmesi dereceli puanlama anahtarı ile gerçekleştirilir.",
+          "locator": "öğretim programı.pdf, s. 74, 79"
+        },
+        {
+          "theme_id": "TEMA_03",
+          "verbatim": "Öğrencinin yazılı ürünleri dereceli puanlama anahtarı ile puanlanır... Puanlama anahtarında anlam, dilin ve görsel ögelerin kullanımı, özgünlük, tutarlılık, doğruluk, yazım ve noktalama gibi ölçütler yer alabilir.",
+          "locator": "öğretim programı.pdf, s. 82, 88"
+        },
+        {
+          "theme_id": "TEMA_04",
+          "verbatim": "Değerlendirmede dereceli puanlama anahtarı kullanılır. Puanlama anahtarında yazılı anlatımlar; bağlama uygunluk, dil ve anlatım özelliği, etkileyicilik, gerçeklik, tutarlılık, özgünlük gibi ölçütler bağlamında değerlendirilir.",
+          "locator": "öğretim programı.pdf, s. 91, 96"
+        }
+      ],
+      "source_locators": {
+        "curriculum": "öğretim programı.pdf, s. 74, 82, 91",
+        "textbook": "9edb.pdf: s. 141, s. 205, s. 294, s. 304, s. 306, s. 308"
+      },
+      "generation_priority": "REQUIRED",
+      "generation_status": "READY_TO_GENERATE",
+      "teacher_review_required": true
+    },
+    {
+      "artifact_id": "TDE9_YAZMA_SUREC_KONTROL_LISTESI",
+      "title": "9. Sınıf Türk Dili ve Edebiyatı Yazma Süreci ve Öz Düzenleme Kontrol Listesi",
+      "skill_domain": "Yazma Süreci ve Öz Düzenleme",
+      "assessment_family": "PROCESS_CHECKLIST",
+      "scope": "REUSABLE_PROCESS_SUPPORT",
+      "core_construct": "Öğrencinin yazılı bir metin üretirken yazma sürecinin tüm aşamalarını (hazırlık, planlama, taslak metin yazımı, gözden geçirme/düzeltme ve paylaşım) adım adım işletme, sürecini izleme ve öz düzenleme yapma yeterliliği.",
+      "level_model_ref": "NONE_FORMATIVE_BINARY",
+      "scoring_model_ref": "NONE_NO_SUMMATIVE_SCORE",
+      "reuse_policy": "REUSE_ACROSS_THEMES",
+      "official_gap_anchor": "MAT_T4_YAZMA_KONTROL_LISTESI",
+      "required_for": "TEMA_04",
+      "allowed_themes": [
+        "TEMA_01",
+        "TEMA_02",
+        "TEMA_03",
+        "TEMA_04"
+      ],
+      "covered_gap_instances": [
+        "MAT_T4_YAZMA_KONTROL_LISTESI"
+      ],
+      "covered_themes": [
+        "TEMA_04"
+      ],
+      "covered_outcomes": [
+        "TDE4.1"
+      ],
+      "core_stages": [
+        {
+          "stage_no": 1,
+          "stage_name": "Hazırlık ve Amaç Belirleme",
+          "origin": "official_curriculum",
+          "derived_from": "öğretim programı.pdf: s. 91, 96 (TDE4.1)",
+          "source_locator": "öğretim programı.pdf, s. 91, 96",
+          "focus": "Yazma konusunu, amacını ve hedef kitlesini belirleme; kaynak ve bilgi taraması yapma."
+        },
+        {
+          "stage_no": 2,
+          "stage_name": "Planlama ve Tasarım",
+          "origin": "official_curriculum",
+          "derived_from": "öğretim programı.pdf: s. 91, 96 (TDE4.1)",
+          "source_locator": "öğretim programı.pdf, s. 91, 96",
+          "focus": "Metnin ana düşüncesini/duygusunu ve yardımcı fikirlerini belirleyip taslak plan çıkarma."
+        },
+        {
+          "stage_no": 3,
+          "stage_name": "Taslak Oluşturma (İlk Metin)",
+          "origin": "official_curriculum",
+          "derived_from": "öğretim programı.pdf: s. 91, 96 (TDE4.1)",
+          "source_locator": "öğretim programı.pdf, s. 91, 96",
+          "focus": "Plana bağlı kalarak ilk taslak metni kaleme alma; düşünceleri bağdaşıklık içinde geliştirme."
+        },
+        {
+          "stage_no": 4,
+          "stage_name": "Gözden Geçirme ve Öz Düzenleme (Redaksiyon)",
+          "origin": "official_curriculum",
+          "derived_from": "öğretim programı.pdf: s. 91, 96 (TDE4.1)",
+          "source_locator": "öğretim programı.pdf, s. 91, 96",
+          "focus": "Taslak metni içerik, bağdaşıklık, anlatım bozuklukları, yazım ve noktalama açısından denetleyip düzeltme."
+        },
+        {
+          "stage_no": 5,
+          "stage_name": "Son Şeklini Verme, Paylaşım ve Yansıtma",
+          "origin": "official_curriculum",
+          "derived_from": "öğretim programı.pdf: s. 91, 96 (TDE4.1)",
+          "source_locator": "öğretim programı.pdf, s. 91, 96",
+          "focus": "Metni temize çekme, görsel unsurları ekleme, sınıfta paylaşma ve süreci değerlendirme."
+        }
+      ],
+      "task_bindings": [
+        {
+          "gap_instance_id": "MAT_T4_YAZMA_KONTROL_LISTESI",
+          "theme_id": "TEMA_04",
+          "theme_title": "4. Tema: Dilin Zenginliği",
+          "block_id": "BLOCK_T4_04_YAZMA",
+          "targeted_outcomes": ["TDE4.1"],
+          "activity_id": "T4_ACT_12_YAZMA_SIRASI",
+          "task_title": "Otobiyografimle Keşfedilmeyi Bekliyorum! Yazma Atölyesi Süreci",
+          "evidence_being_observed": "Otobiyografi yazma sürecinin 5 aşamasının öğrenci tarafından planlı ve öz düzenleme ile uygulanması.",
+          "textbook_locator": "Ders Kitabı s. 292-294 (T4_SEC_05_YAZMA_ATOLYESI)",
+          "curriculum_locator": "öğretim programı.pdf, s. 90, 91, 96 (TDE4.1)",
+          "task_specific_instructional_note": "Öğrenci her aşamayı tamamladığında ilgili kutucuğu (TAMAMLANDI / GELİŞTİRİLMELİ) işaretler; notlandırma yapılmaz."
+        }
+      ],
+      "criterion_extensions": [],
+      "official_requirements": [
+        {
+          "theme_id": "TEMA_04",
+          "verbatim": "Yazma sürecinin tüm aşamalarının başarılı bir şekilde uygulanabilmesi için kontrol listesi hazırlanır.",
+          "locator": "öğretim programı.pdf, s. 91, 96"
+        }
+      ],
+      "source_locators": {
+        "curriculum": "öğretim programı.pdf, s. 91, 96",
+        "textbook": "9edb.pdf: s. 292-294"
+      },
+      "generation_priority": "REQUIRED",
+      "generation_status": "READY_TO_GENERATE",
+      "teacher_review_required": true
+    }
+  ]
+}
