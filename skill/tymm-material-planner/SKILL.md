@@ -49,6 +49,7 @@ Do not require the user to choose worksheet, rubric, poster, experiment sheet, o
 14. Keep official facts, textbook extractions, external sources, and generated pedagogy separate through provenance.
 15. Do not present generated material as MEB-approved.
 16. Do not reproduce long copyrighted textbook or literary content merely because the user supplied the book.
+17. **Source-Bound Assessment Generation Invariant**: When generating assessment artifacts (rubrics, checklists, rating scales, observation forms, assessment supports), loading [references/assessment-generation.md](./references/assessment-generation.md) and any course-specific `Assessment Design Contract` is mandatory. The model must not invent criteria, quantitative parameters, durations, tolerances, question/step counts, weights, score bands, or cutoffs not defined in the canonical source or contract. Pre-generation assertions must pass (fail-closed) and post-generation QA must verify all 12 assessment dimensions.
 
 ## Required decision order
 
@@ -226,4 +227,5 @@ Read only the references needed for the request:
 - [references/alignment-gap.md](./references/alignment-gap.md) for alignment contracts, gap analysis, reuse, and coverage matrices.
 - [references/subject-profiles.md](./references/subject-profiles.md) for domain-specific resource-planning rules.
 - [references/source-and-rights.md](./references/source-and-rights.md) for external sources, provenance, copyright, and textbook use.
-- [references/assessment-accessibility.md](./references/assessment-accessibility.md) for assessment, differentiation, accessibility, safety, and quality gates.
+- [references/assessment-generation.md](./references/assessment-generation.md) for universal assessment generation standards, source-bound parameters, score band rules, level semantics, observable descriptors, and 12-dimension QA suite.
+- [references/assessment-accessibility.md](./references/assessment-accessibility.md) for 7 structural form types, differentiation, accessibility, safety, and quality gates.

@@ -1,13 +1,15 @@
 {
   "metadata": {
     "contract_id": "TDE_9_ASSESSMENT_DESIGN_CONTRACT",
-    "schema_version": "1.2",
-    "contract_version": "1.2.0",
+    "schema_version": "1.3",
+    "contract_version": "1.3.0",
     "course_id": "TDE_9",
     "grade": 9,
     "course_title": "Türk Dili ve Edebiyatı",
     "contract_date": "2026-08-14",
-    "contract_purpose": "TYMM 9. Sınıf Türk Dili ve Edebiyatı Dersinde Otomatik Üretilecek 7 REQUIRED Ölçme-Değerlendirme Materyali İçin Ortak Tasarım Sözleşmesi, Barem Mimarisi, Provenance Şeması, Generation Context Bütünlüğü, Okul Temelli Seçenek İzolasyonu, Telif Hakları Enum Uyumu ve Resolver Doğrulamalı Kalite Standardı",
+    "applied_global_standard": "ASSESSMENT_GENERATION_STANDARD_VERSION: 1.0.0",
+    "global_standard_reference": "references/assessment-generation.md",
+    "contract_purpose": "TYMM 9. Sınıf Türk Dili ve Edebiyatı Dersinde Otomatik Üretilecek 7 REQUIRED Ölçme-Değerlendirme Materyali İçin Ortak Tasarım Sözleşmesi, Barem Mimarisi, Provenance Şeması, Generation Context Bütünlüğü, Okul Temelli Seçenek İzolasyonu, Telif Hakları Enum Uyumu, Kaynak-Bağlı Parametre Üretimi, Ölçüt Kapsam Saflığı ve Resolver Doğrulamalı Kalite Standardı",
     "created_from_frozen_knowledge": true,
     "knowledge_index_status": "INDEX_FRESH",
     "source_manifest_reference": "knowledge/TDE_9/source_manifest.json",
@@ -218,7 +220,20 @@
       "yetersizdir",
       "başarısızdır",
       "güzel yapmıştır",
-      "fena değildir"
+      "fena değildir",
+      "kusursuz",
+      "mükemmel",
+      "tamamen",
+      "hiçbir",
+      "hiç",
+      "daima",
+      "asla",
+      "tüm sınıf",
+      "sınıfın ilgisini tamamen kaybeder",
+      "hiçbir olumlu etki oluşturamaz",
+      "özgüvensizdir",
+      "isteksizdir",
+      "ilgisizdir"
     ],
     "recommended_phrasing_examples": [
       "Temayı ve ana duyguyu metnin bütününde belirgin imgeler ve ahenk ögeleriyle tutarlı biçimde yansıtır.",
@@ -1351,7 +1366,159 @@
     "MATERIAL_MATRIX_QA": {
       "status": "PASS",
       "findings": "7 REQUIRED materyalin tamamı (6 analytic_rubric, 1 checklist) eksiksiz meta alanları, resolver evidence, generation context evidence ve kaynak bağıyla matriste korunmuştur."
+    },
+    "UNSUPPORTED_PARAMETER_QA": {
+      "status": "PASS",
+      "findings": "Süre (dk/sn), süre toleransı, soru/adım sayısı, asgari/azami miktar, baraj, puan bandı, seviye sınırı, ağırlık veya ceza/bonus gibi parametrelerin hiçbirinin kendiliğinden üretilmediği; kaynakta olmayan tüm durumlar için parameterized/source-safe dil kullanıldığı doğrulanmıştır."
+    },
+    "NO_INVENTED_SCORE_BANDS_QA": {
+      "status": "PASS",
+      "findings": "100'lük matematiksel gösterim dönüşümünden yetkisiz başarı standardı, baraj veya seviye sınırı (örn. 70=başarılı, 50=geçer) türetilmediği; dönüşüm cetvelinin yalnız sayısal karşılık gösterdiği doğrulanmıştır."
+    },
+    "SHARED_LEVEL_SEMANTICS_QA": {
+      "status": "PASS",
+      "findings": "Ortak 4 düzey modelinin genel tanımlarının (LEVEL_1..4) tamlık, doğruluk, tutarlılık, bağımsızlık ve destek ihtiyacı eksenlerinde criterion-neutral kaldığı; özgünlük veya estetik gibi kriter-spesifik niteliklerin genel tanıma sokulmadığı doğrulanmıştır."
+    },
+    "STUDENT_LEVEL_SEMANTICS_QA": {
+      "status": "PASS",
+      "findings": "Öğrenci ve öğretmen görünümlerinde aynı ölçüt seti ve düzey semantiğinin korunduğu; teknik provenance alanlarının gizlendiği ve öğrenciye ek yükümlülük getirilmediği doğrulanmıştır."
+    },
+    "DESCRIPTOR_OBSERVABILITY_QA": {
+      "status": "PASS",
+      "findings": "Tüm hücre betimleyicilerinin öğrencinin iç durumunu/zihnini tahmin etmek (özgüvensizdir, isteksizdir) yerine somut gözlenebilir eyleme ve ürün kanıtına dayandığı doğrulanmıştır."
+    },
+    "DESCRIPTOR_ABSOLUTISM_QA": {
+      "status": "PASS",
+      "findings": "Betimleyicilerin 'kusursuz', 'hiçbir', 'tamamen', 'daima', 'asla' gibi aşırı mutlak ifadelerden arındırıldığı; kanıta dayalı ve gelişim odaklı dil kullanıldığı doğrulanmıştır."
+    },
+    "ADJACENT_LEVEL_DISTINCTION_QA": {
+      "status": "PASS",
+      "findings": "Komşu düzeyler arasında yalnızca sıfat farkı değil, gözlenebilir niteliksel ve davranışsal performans ayrımı bulunduğu doğrulanmıştır."
+    },
+    "CRITERION_SCOPE_PURITY_QA": {
+      "status": "PASS",
+      "findings": "Her ölçütün yalnızca kendi tanımlı boyutunu (construct) ölçtüğü; dil kurallarına zorunlu edebî sanat eklemek veya kurgusallığa estetik dayatmak gibi yapısal kirlenmelerin engellendiği doğrulanmıştır."
+    },
+    "FEEDBACK_EVIDENCE_QA": {
+      "status": "PASS",
+      "findings": "Öğretmen geri bildirim modellerinin genel övgü veya kişilik etiketlemesi yerine OBSERVED EVIDENCE -> EFFECT -> NEXT STEP modeline tam uyduğu doğrulanmıştır."
+    },
+    "PROVENANCE_BOUNDARY_QA": {
+      "status": "PASS",
+      "findings": "Resmî gereksinim, seçilen uygulama (analytic_rubric), ölçüt kaynağı ve betimleyici kökeni (pedagogical_recommendation) arasındaki sınırların tescil edildiği doğrulanmıştır."
+    },
+    "SOURCE_RIGHTS_QA": {
+      "status": "PASS",
+      "findings": "Ders kitabı ve edebî metinlerin uzun kopyalanmadığı, embed_mode = PAGE_REFERENCE ve locator_only_for_long_source_content kuralına tam uyulduğu doğrulanmıştır."
     }
+  },
+  "unsupported_parameter_policy": {
+    "policy_name": "SOURCE_BOUND_PARAMETER_POLICY",
+    "generation_mode": "SOURCE_OR_CONTRACT_REQUIRED",
+    "applied_standard_version": "1.0.0",
+    "prohibited_invented_parameters": [
+      "duration_minutes_or_seconds",
+      "time_tolerances",
+      "question_or_step_counts",
+      "min_or_max_quantities",
+      "pass_fail_cutoffs",
+      "score_bands_or_level_boundaries",
+      "percentage_thresholds",
+      "criterion_weights",
+      "penalty_or_bonus_points",
+      "retry_attempts",
+      "unverified_age_grade_norms"
+    ],
+    "rules": [
+      "Kaynakta (curriculum_map / textbook_map / source_manifest) veya onaylı Assessment Design Contract içinde açıkça tanımlanmamış hiçbir nicel parametre üretilemez.",
+      "Tanımlı olmayan tüm süre, tolerans, miktar ve başarı koşulları için parameterized / source-safe ifadeler kullanılır.",
+      "Örnek kural: '3–5 dakika' yerine 'etkinlik için belirlenen süre içinde', '±30 saniye' yerine 'belirlenen süreyi dengeli kullanır' ifadeleri zorunludur."
+    ]
+  },
+  "score_band_policy": {
+    "policy_name": "NO_INVENTED_SCORE_BANDS_POLICY",
+    "rules": [
+      "RAW_MEAN_1_TO_4 ve OPTIONAL_100_SCALE matematiksel dönüşümleri bağımsız bir başarı kategorisi veya seviye barajı üretme yetkisi vermez.",
+      "Resmî kaynak veya sözleşmede açıkça tanımlanmadıkça 89=İleri, 70=Başarılı, 50=Geçer gibi başarı eşikleri türetilemez.",
+      "Dönüşüm cetveli yalnızca sayısal puan karşılıklarını gösterir; yeni başarı etiketleri türetemez.",
+      "LEVEL_1 taban puanının (25/100) mekanik hesaplama sonucu olduğu ve başarı iddiası olmadığı korunur."
+    ]
+  },
+  "criterion_scope_policy": {
+    "policy_name": "CRITERION_SCOPE_PURITY_POLICY",
+    "rules": [
+      "Her ölçüt (criterion) yalnızca ve kesinlikle kendi tanımlandığı yapıyı (construct) ölçer.",
+      "Bir ölçütün hücre betimleyicisine gizlice başka bir değerlendirme boyutu eklenemez (construct contamination yasağı).",
+      "Türkçenin Doğru Kullanımı ölçütüne kaynakta olmayan 'zengin edebî söz varlığı' şartı eklenemez.",
+      "İçeriğin Kurgusallığı ölçütüne kaynakta olmayan 'estetik anlatım ve özgün benzetmeler' şartı eklenemez.",
+      "Üretim öncesi her ölçüt için CRITERION_SCOPE netleştirilir ve hücre ifadeleri bu kapsama göre filtrelenir."
+    ]
+  },
+  "descriptor_language_policy": {
+    "policy_name": "OBSERVABLE_DESCRIPTOR_AND_ABSOLUTISM_POLICY",
+    "rules": [
+      "Hücre betimleyicileri somut, gözlenebilir öğrenci performansına ve ürün kanıtına dayanmalıdır.",
+      "Aşırı mutlak ve kesin ifadeler ('kusursuz', 'mükemmel', 'tamamen', 'hiçbir', 'hiç', 'daima', 'asla', 'tüm sınıf', 'sınıfın ilgisini tamamen kaybeder', 'hiçbir olumlu etki oluşturamaz') kesinlikle yasaktır.",
+      "Öğrencinin içsel durumunu, zihnini veya psikolojisini tahmin eden ifadeler ('özgüvensizdir', 'isteksizdir', 'ilgisizdir', 'dikkatsizdir') kesinlikle yasaktır.",
+      "Bunun yerine eylem ve kanıt temelli niteleyiciler ('çoğunlukla', 'belirgin biçimde', 'zaman zaman', 'sık', 'sınırlı', 'anlatımın takibini zorlaştırır', 'yönlendirmeye ihtiyaç duyar') kullanılır.",
+      "Komşu düzeyler (LEVEL_4 -> LEVEL_3 -> LEVEL_2 -> LEVEL_1) yalnızca sıfat değişikliğiyle değil, gözlenebilir niteliksel ve davranışsal performans farkıyla ayrılır."
+    ]
+  },
+  "shared_level_semantics_policy": {
+    "policy_name": "SHARED_LEVEL_SEMANTICS_POLICY",
+    "rules": [
+      "SHARED_4_LEVEL_MODEL düzey tanımları kesinlikle criterion-neutral (ölçüt-bağımsız) kalır.",
+      "İzin verilen eksenler yalnızca tamlık (completeness), doğruluk (correctness), tutarlılık (consistency), bağımsızlık (independence) ve rehberlik ihtiyacıdır (support need).",
+      "Genel düzey tanımlarına 'özgünlük', 'estetik', 'yaratıcılık', 'etkileyicilik', 'akıcılık', 'hız' gibi ölçüte özgü kavramlar sokulamaz.",
+      "Bu nitelikler yalnızca ilgili ölçütün kendi hücre betimleyicilerinde yer alabilir."
+    ]
+  },
+  "student_teacher_consistency_policy": {
+    "policy_name": "STUDENT_TEACHER_CONSISTENCY_POLICY",
+    "rules": [
+      "Öğrenci görünümü, öğretmen rubriği ile aynı ölçüt setini ve aynı düzey semantiğini korur.",
+      "Teknik provenance ve sözleşme metadata alanları öğrenci görünümüne basılmaz.",
+      "Öğrenci görünümünde ölçüt dili anlaşılır biçimde sadeleştirilebilir; ancak başarı şartları ve düzey standartları değiştirilemez.",
+      "Öğrenciye sözleşmede veya görev yönergesinde bulunmayan hiçbir ek yükümlülük getirilemez."
+    ]
+  },
+  "feedback_policy": {
+    "policy_name": "EVIDENCE_BASED_FEEDBACK_POLICY",
+    "model_structure": "OBSERVED_EVIDENCE -> EFFECT -> NEXT_STEP",
+    "rules": [
+      "Öğretmen geri bildirim örnekleri ve rehberliği OBSERVED EVIDENCE -> EFFECT -> NEXT STEP modeline uyar.",
+      "Kanıtsız genel övgü ('Çok başarılısın', 'Harikasın') veya genel yetersizlik etiketlemesi yasaktır.",
+      "Geri bildirim; öğrencinin sergilediği somut performansı, bu performansın iletişim/anlatım üzerindeki etkisini ve sonraki çalışmada geliştireceği somut adımı açıkça belirtir."
+    ]
+  },
+  "pre_generation_assertions": {
+    "assertion_enforcement": "FAIL_CLOSED",
+    "required_assertions": [
+      {
+        "assertion_id": "SOURCE_BOUND_PARAMETERS",
+        "description": "Kaynakta ve sözleşmede yer almayan süre, miktar, baraj ve tolerans parametrelerinin uydurulmadığı, source-safe parametrizasyon yapıldığı doğrulanmalıdır."
+      },
+      {
+        "assertion_id": "CRITERION_SCOPE_RESOLVED",
+        "description": "Her ölçütün kapsamı ve hedef yapısı çözümlenmiş, construct contamination elenmiş olmalıdır."
+      },
+      {
+        "assertion_id": "LEVEL_MODEL_RESOLVED",
+        "description": "4 düzeyli model criterion-neutral eksenlerde çözümlenmiş olmalıdır."
+      },
+      {
+        "assertion_id": "SCORING_MODEL_RESOLVED",
+        "description": "1.00-4.00 ham ortalama ve opsiyonel 100 gösterimi yapay barajlardan arındırılmış olarak çözümlenmiş olmalıdır."
+      },
+      {
+        "assertion_id": "STUDENT_TEACHER_SEMANTICS_RESOLVED",
+        "description": "Öğretmen ve öğrenci görünümlerinde aynı düzey semantiği ve ölçüt seti çözümlenmiş olmalıdır."
+      },
+      {
+        "assertion_id": "PROVENANCE_RESOLVED",
+        "description": "Resmî gereksinim, seçilen format, ölçüt kökeni ve descriptor origin (pedagogical_recommendation) çözümlenmiş olmalıdır."
+      }
+    ]
   },
   "school_based_context_policy": {
     "policy_name": "SCHOOL_BASED_CONTEXT_POLICY",
