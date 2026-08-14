@@ -1208,6 +1208,24 @@ Başka bir ifadeyle:
 
 > **Yapay zekâ kararın kaynağı değildir. Yapay zekâ, doğrulanmış bilgi tabanı ve açık üretim sözleşmeleri üzerinde çalışan üretim motorudur.**
 
+## Runtime Course Package / Application Projection Layer
+
+Uygulama istemcileri için canonical knowledge katmanı doğrudan tüketim
+şeması değildir. Doğrulanmış canonical JSON/MD kayıtları deterministic bir
+compiler ile `runtime/course_runtime.sqlite` içine derlenir:
+
+```text
+canonical knowledge → compiler → runtime SQLite → application
+```
+
+Runtime package source of truth değildir; derived, rebuildable ve read-only
+course knowledge projection'ıdır. User state içermez, RAG/vector database
+değildir ve embedding/model runtime gerektirmez. Stable canonical ID'leri,
+source locator/provenance ve canonical source fingerprint'larını taşır; bu
+sayede istemciler canonical analysis logic'ini yeniden uygulamak zorunda
+kalmaz. Canonical dosyalar değiştiğinde fingerprint üzerinden
+`RUNTIME_STALE` bildirimi üretilir.
+
 Bu ayrım korunduğu sürece aynı sistem farklı derslere, sınıf düzeylerine ve materyal türlerine güvenli biçimde genişletilebilir.
 
 ---

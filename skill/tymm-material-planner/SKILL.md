@@ -220,6 +220,10 @@ Create a quality_report with `PASS`, `FAIL`, `N/A`, or `REVIEW` for all QA dimen
 
 ## Reference loading
 
+During runtime course package builds, apply
+[references/runtime-course-package.md](./references/runtime-course-package.md).
+Runtime projection cannot modify or extend canonical knowledge.
+
 Read only the references needed for the request:
 
 - [references/course-timeline.md](./references/course-timeline.md) when creating or validating a course timeline. Timeline generation is planning-only: do not invent hours, weekly lesson counts, calendar dates, or block durations.

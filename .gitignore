@@ -17,6 +17,7 @@ __pycache__/
 
 knowledge.sqlite
 **/knowledge.sqlite
+**/runtime/course_runtime.sqlite
 
 local_sources/
 **/local_sources/
