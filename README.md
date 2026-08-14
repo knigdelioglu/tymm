@@ -18,3 +18,8 @@
 - Hybrid RAG / Knowledge Resolver frozen
 - Assessment Design Contract frozen
 - 7 REQUIRED gerçek materyalin production aşaması henüz başlamadı
+
+## Dokümantasyon
+
+- [Yeniden Kullanılabilir Bilgi Mimarisi](docs/tymm-yeniden-kullanilabilir-bilgi-mimarisi-raporu.md)
+- [Sistemi Geri Yükleme](docs/RESTORE.md)
