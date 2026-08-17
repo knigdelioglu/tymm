@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - artifact-generator-v1
+      - main
   pull_request:
     branches:
       - main
