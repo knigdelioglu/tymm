@@ -7,8 +7,9 @@ knowledge bases.
 
 Production schema invariant (1.1):
 - canonical production identity = artifact_id
-- covered_themes / covered_outcomes define artifact scope
+- covered_themes / covered_outcomes define aggregate artifact scope
 - covered_gap_instances contains historical MAT_* gap aliases only
+- theme/outcome bindings come from gap-instance provenance, never a themes×outcomes cross product
 - MAT_* aliases may resolve to an artifact, but never become artifact identity
 """
 
@@ -101,7 +102,7 @@ class KnowledgeResolver:
             "themes": [],
             "forms": [],
             "artifacts": [],
-            "materials": [],  # historical MAT_* gap aliases only
+            "materials": [],
             "resources": [],
             "blocks": [],
             "options": [],
@@ -124,13 +125,11 @@ class KnowledgeResolver:
             if u_m not in identifiers["forms"]:
                 identifiers["forms"].append(u_m)
 
-        # Canonical production identities.
         for m in re.findall(r"\b(TDE\d+_[A-Z0-9_]+)\b", query, re.IGNORECASE):
             u_m = m.upper()
             if u_m in self.artifact_by_id and u_m not in identifiers["artifacts"]:
                 identifiers["artifacts"].append(u_m)
 
-        # Legacy gap-instance aliases remain resolvable, never canonical artifact IDs.
         for m in re.findall(r"\b(MAT_[A-Z0-9_]+)\b", query, re.IGNORECASE):
             u_m = m.upper()
             if u_m not in identifiers["materials"]:
@@ -159,11 +158,22 @@ class KnowledgeResolver:
                     break
         return results
 
+    def _artifact_bindings(self, artifact: Dict[str, Any]) -> List[Dict[str, Any]]:
+        bindings: List[Dict[str, Any]] = []
+        for gap_alias in artifact.get("covered_gap_instances", []):
+            provenance = self.gap_provenance_by_id.get(gap_alias)
+            if provenance:
+                bindings.append(provenance)
+        return bindings
+
     def _artifact_matches_scope(self, artifact: Dict[str, Any], outcome_code: str, theme_id: str) -> bool:
-        return (
-            outcome_code in artifact.get("covered_outcomes", [])
-            and (not theme_id or theme_id in artifact.get("covered_themes", []))
-        )
+        """Match a real gap binding, not the aggregate covered_themes×covered_outcomes cross product."""
+        for binding in self._artifact_bindings(artifact):
+            if theme_id and binding.get("theme_id") != theme_id:
+                continue
+            if outcome_code in binding.get("targeted_outcomes", []):
+                return True
+        return False
 
     def _teaching_block_rows(self) -> List[Dict[str, Any]]:
         return self.teaching_blocks.get("blocks", []) or self.teaching_blocks.get("teaching_blocks", [])
@@ -247,8 +257,9 @@ class KnowledgeResolver:
         if not any(item.get("artifact_id") == artifact_id for item in production_context):
             production_context.append(artifact)
         key = f"{self.course_id}::assessment_artifact::{artifact_id}"
-        if not any(item.get("entity_key") == key for item in resolved_entities):
-            entity = {
+        existing = next((item for item in resolved_entities if item.get("entity_key") == key), None)
+        if existing is None:
+            existing = {
                 "entity_key": key,
                 "entity_type": "assessment_artifact",
                 "entity_id": artifact_id,
@@ -257,9 +268,9 @@ class KnowledgeResolver:
                 "authority_level": 7,
                 "authority_name": "VALIDATED_PRODUCTION_PLAN",
             }
-            if matched_alias:
-                entity["matched_gap_alias"] = matched_alias
-            resolved_entities.append(entity)
+            resolved_entities.append(existing)
+        if matched_alias:
+            existing["matched_gap_alias"] = matched_alias
 
     def resolve(self, query: str, theme_id_override: Optional[str] = None) -> Dict[str, Any]:
         retrieval_trace: List[str] = []
@@ -293,7 +304,6 @@ class KnowledgeResolver:
         pedagogical_recommendations: List[Dict[str, Any]] = []
         exact_matched = False
 
-        # A1. Exact outcome resolution with mandatory theme disambiguation.
         if extracted_ids["outcomes"]:
             resolution_mode.extend(["EXACT", "STRUCTURED"])
             exact_matched = True
@@ -366,7 +376,6 @@ class KnowledgeResolver:
                     })
                 pedagogical_recommendations.extend(graph["school_based_options"])
 
-        # A2. Exact school-based options.
         elif intent == "SCHOOL_BASED_LOOKUP" and target_theme:
             resolution_mode.append("STRUCTURED")
             retrieval_trace.append(f"5 STRUCTURED_SCHOOL_BASED_LOOKUP {target_theme}")
@@ -384,7 +393,6 @@ class KnowledgeResolver:
                             "authority_name": "PEDAGOGICAL_RECOMMENDATION",
                         })
 
-        # A3. Exact forms, canonical artifacts, and historical gap aliases.
         elif extracted_ids["forms"] or extracted_ids["artifacts"] or extracted_ids["materials"]:
             resolution_mode.extend(["EXACT", "STRUCTURED"])
             exact_matched = True
@@ -415,7 +423,6 @@ class KnowledgeResolver:
                         self.artifact_by_id[artifact_id], production_context, resolved_entities, matched_alias=gap_alias
                     )
 
-        # B. Hybrid retrieval for semantic/open-ended queries.
         exact_identity_query = bool(
             extracted_ids["artifacts"] or extracted_ids["materials"] or extracted_ids["forms"]
         )
@@ -448,6 +455,14 @@ class KnowledgeResolver:
                 e_id = cand["entity_id"]
                 t_id = cand["theme_id"]
                 cand_key = cand["entity_key"]
+
+                if e_type == "assessment_artifact":
+                    artifact = self.artifact_by_id.get(e_id)
+                    if not artifact:
+                        continue
+                    if target_theme and target_theme not in artifact.get("covered_themes", []):
+                        continue
+
                 if not any(r.get("entity_key") == cand_key for r in resolved_entities):
                     resolved_entities.append({
                         "entity_key": cand_key,
@@ -479,17 +494,19 @@ class KnowledgeResolver:
                             remaining_gaps.append(g)
 
                 elif e_type == "assessment_artifact":
-                    artifact = self.artifact_by_id.get(e_id)
-                    if artifact:
-                        self._append_artifact(artifact, production_context, resolved_entities)
-                        for out_c in artifact.get("covered_outcomes", []):
-                            candidate_themes = artifact.get("covered_themes", [])
-                            graph_theme = target_theme if target_theme in candidate_themes else (candidate_themes[0] if candidate_themes else "")
-                            if graph_theme:
-                                graph = self.expand_outcome_graph(out_c, graph_theme)
-                                for g in graph["gaps"]:
-                                    if not any(x.get("gap_id") == g.get("gap_id") and x.get("outcome_code") == g.get("outcome_code") for x in remaining_gaps):
-                                        remaining_gaps.append(g)
+                    artifact = self.artifact_by_id[e_id]
+                    self._append_artifact(artifact, production_context, resolved_entities)
+                    for binding in self._artifact_bindings(artifact):
+                        binding_theme = binding.get("theme_id")
+                        if target_theme and binding_theme != target_theme:
+                            continue
+                        for out_c in binding.get("targeted_outcomes", []):
+                            if not binding_theme:
+                                continue
+                            graph = self.expand_outcome_graph(out_c, binding_theme)
+                            for g in graph["gaps"]:
+                                if not any(x.get("gap_id") == g.get("gap_id") and x.get("outcome_code") == g.get("outcome_code") for x in remaining_gaps):
+                                    remaining_gaps.append(g)
 
                 elif e_type == "textbook_form":
                     for form in self.textbook_forms.get("forms", []):
@@ -505,7 +522,6 @@ class KnowledgeResolver:
         elif should_hybrid and index_freshness != "INDEX_FRESH":
             retrieval_trace.append(f"6 HYBRID_RETRIEVAL_BLOCKED {index_freshness}")
 
-        # C. Canonical negative fact check.
         if "analitik rubrik" in query.lower() and ("var mı" in query.lower() or "kitapta" in query.lower()):
             retrieval_trace.append("8 CANONICAL_FACT_VERIFICATION (analytic_rubric count check)")
             analytic_rubric_count = sum(
@@ -532,14 +548,13 @@ class KnowledgeResolver:
                 "authority_name": "OFFICIAL_TEXTBOOK_FORM_FROZEN",
             })
 
-        # D. Cross-layer conflict detection.
         for al in alignment_context:
             cov = al.get("primary_coverage")
             gap_text = al.get("remaining_gap", "")
             code = al.get("outcome_code")
             for artifact in production_context:
                 if (
-                    code in artifact.get("covered_outcomes", [])
+                    self._artifact_matches_scope(artifact, code, target_theme or al.get("theme_id", ""))
                     and cov == "COVERED"
                     and ("Yok" in gap_text or "NONE" in gap_text.upper())
                 ):
@@ -548,7 +563,7 @@ class KnowledgeResolver:
                         "outcome_code": code,
                         "details": (
                             f"Alignment specifies COVERED with no gap, yet production artifact "
-                            f"'{artifact.get('artifact_id')}' covers that requirement."
+                            f"'{artifact.get('artifact_id')}' is bound to that theme/outcome requirement."
                         ),
                         "resolution": "REVIEW_REQUIRED",
                     })
@@ -568,7 +583,6 @@ class KnowledgeResolver:
                         "resolution": "REVIEW_REQUIRED",
                     })
 
-        # E. Fail-closed resolution and generation gate.
         if ambiguity_status == "AMBIGUOUS_ENTITY":
             resolution_status = "PARTIALLY_RESOLVED"
             retrieval_trace.append("9 AMBIGUITY_DETECTED -> PARTIALLY_RESOLVED (generation blocked)")
