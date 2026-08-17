@@ -1,0 +1,80 @@
+name: TYMM Artifact Generator V1
+
+on:
+  push:
+    branches:
+      - artifact-generator-v1
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  generator-v1:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      TYMM_KNOWLEDGE_ROOT: ${{ github.workspace }}/courses/TDE_9
+      HF_HUB_DISABLE_TELEMETRY: "1"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install "numpy<3" "sqlite-vec==0.1.9" onnxruntime tokenizers huggingface_hub hf_xet
+
+      - name: Restore pinned multilingual-e5-small runtime
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import shutil
+          from huggingface_hub import hf_hub_download
+
+          repo_id = "Xenova/multilingual-e5-small"
+          revision = "761b726dd34fb83930e26aab4e9ac3899aa1fa78"
+          target = Path("skill/tymm-material-planner/models/multilingual-e5-small")
+          target.mkdir(parents=True, exist_ok=True)
+          for remote, local in {
+              "tokenizer.json": "tokenizer.json",
+              "onnx/model_quantized.onnx": "model_quantized.onnx",
+          }.items():
+              src = hf_hub_download(repo_id=repo_id, filename=remote, revision=revision)
+              shutil.copy2(src, target / local)
+          PY
+
+      - name: Rebuild and pass P0 production gate
+        run: python skill/tymm-material-planner/scripts/p0_production_gate.py
+
+      - name: Run Artifact Generator V1 regressions
+        run: python skill/tymm-material-planner/tests/test_artifact_generator.py
+
+      - name: Generate canonical speaking rubric pilot
+        run: |
+          python skill/tymm-material-planner/scripts/artifact_generator.py generate \
+            --artifact-id TDE9_KONUSMA_RUBRIC
+
+      - name: Validate pilot draft
+        run: |
+          python skill/tymm-material-planner/scripts/artifact_generator.py validate \
+            --artifact-id TDE9_KONUSMA_RUBRIC
+
+      - name: Run Generator V1 pilot engineering gate
+        run: python skill/tymm-material-planner/scripts/generator_v1_gate.py
+
+      - name: Upload generated pilot for teacher review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: TDE9_KONUSMA_RUBRIC-pilot
+          path: courses/TDE_9/generated/TDE9_KONUSMA_RUBRIC
+          if-no-files-found: error
