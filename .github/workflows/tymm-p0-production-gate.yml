@@ -1,0 +1,73 @@
+name: TYMM P0 Production Gate
+
+on:
+  push:
+    branches:
+      - p0-production-schema-1-1
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  production-gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      TYMM_KNOWLEDGE_ROOT: ${{ github.workspace }}/courses/TDE_9
+      HF_HUB_DISABLE_TELEMETRY: "1"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install gate dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install "numpy<3" "sqlite-vec==0.1.9" onnxruntime tokenizers huggingface_hub hf_xet
+
+      - name: Restore pinned multilingual-e5-small runtime
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import shutil
+          from huggingface_hub import hf_hub_download
+
+          repo_id = "Xenova/multilingual-e5-small"
+          revision = "761b726dd34fb83930e26aab4e9ac3899aa1fa78"
+          target = Path("skill/tymm-material-planner/models/multilingual-e5-small")
+          target.mkdir(parents=True, exist_ok=True)
+          files = {
+              "tokenizer.json": "tokenizer.json",
+              "onnx/model_quantized.onnx": "model_quantized.onnx",
+          }
+          for remote, local in files.items():
+              src = hf_hub_download(repo_id=repo_id, filename=remote, revision=revision)
+              shutil.copy2(src, target / local)
+          PY
+
+      - name: Rebuild index and enforce P0 gate
+        run: python skill/tymm-material-planner/scripts/p0_production_gate.py
+
+      - name: Run resolver migration regression suite
+        run: python skill/tymm-material-planner/tests/test_resolver_runner.py
+
+      - name: Run runtime projection regression suite
+        run: python skill/tymm-material-planner/tests/test_runtime_course_package.py
+
+      - name: Upload P0 gate report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tymm-p0-gate-report
+          path: courses/TDE_9/index/p0_gate_report.json
+          if-no-files-found: warn
