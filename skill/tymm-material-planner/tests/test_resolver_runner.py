@@ -38,8 +38,7 @@ def _resolve_default_knowledge_root() -> str:
     cwd_candidate = os.path.abspath(os.path.join(os.getcwd(), "courses", "TDE_9"))
     if os.path.exists(cwd_candidate):
         return cwd_candidate
-    repo_candidate = os.path.abspath(os.path.join(SKILL_DIR, "..", "..", "courses", "TDE_9"))
-    return repo_candidate
+    return os.path.abspath(os.path.join(SKILL_DIR, "..", "..", "courses", "TDE_9"))
 
 
 DEFAULT_KNOWLEDGE_ROOT = _resolve_default_knowledge_root()
@@ -49,8 +48,12 @@ class TestKnowledgeResolverHardening(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.knowledge_root = os.environ.get("TYMM_KNOWLEDGE_ROOT", DEFAULT_KNOWLEDGE_ROOT)
-        cls.resolver = KnowledgeResolver(cls.knowledge_root)
         cls.indexer = KnowledgeIndexer(cls.knowledge_root)
+        # A clean clone intentionally has no knowledge.sqlite. Rebuild instead of silently
+        # running the resolver suite against a missing or stale derived cache.
+        if cls.indexer.check_status().get("status") != "INDEX_FRESH":
+            cls.indexer.build_index(force=True)
+        cls.resolver = KnowledgeResolver(cls.knowledge_root)
         with open(os.path.join(TESTS_DIR, "knowledge_resolver_cases.json"), "r", encoding="utf-8") as f:
             cls.test_cases_data = json.load(f)
 
@@ -217,8 +220,22 @@ class TestKnowledgeResolverHardening(unittest.TestCase):
             self.assertFalse(pack["material_generation_allowed"])
             self.assertEqual(pack["material_generation_block_reason"], "INDEX_MISSING")
 
+    def test_16_aggregate_artifact_scope_does_not_create_false_theme_outcome_binding(self):
+        # TDE9_KONUSMA_RUBRIC aggregates TDE3.2/3.3/3.4 across Tema 2/3/4,
+        # but Tema 2's actual gap binding is only TDE3.4. Do not create a Cartesian product.
+        false_binding = self.resolver.resolve("Tema 2 TDE3.2")
+        false_ids = {a["artifact_id"] for a in false_binding["production_context"]}
+        self.assertNotIn("TDE9_KONUSMA_RUBRIC", false_ids)
+
+        real_binding = self.resolver.resolve("Tema 4 TDE3.2")
+        real_ids = {a["artifact_id"] for a in real_binding["production_context"]}
+        self.assertIn("TDE9_KONUSMA_RUBRIC", real_ids)
+
 
 def run_comprehensive_benchmark(knowledge_root: str = DEFAULT_KNOWLEDGE_ROOT) -> Dict[str, Any]:
+    indexer = KnowledgeIndexer(knowledge_root)
+    if indexer.check_status().get("status") != "INDEX_FRESH":
+        indexer.build_index(force=True)
     resolver = KnowledgeResolver(knowledge_root)
     with open(os.path.join(TESTS_DIR, "knowledge_resolver_cases.json"), "r", encoding="utf-8") as f:
         cases = json.load(f).get("cases", [])
@@ -249,7 +266,13 @@ def run_comprehensive_benchmark(knowledge_root: str = DEFAULT_KNOWLEDGE_ROOT) ->
         passed += int(hit)
         details.append({"case_id": case["case_id"], "status": "PASS" if hit else "FAIL"})
     pct = round((passed / len(cases)) * 100, 2) if cases else 100.0
-    return {"total_test_cases": len(cases), "passed": passed, "pass_pct": pct, "rag_safety": "PASS" if passed == len(cases) else "REVIEW_REQUIRED", "details": details}
+    return {
+        "total_test_cases": len(cases),
+        "passed": passed,
+        "pass_pct": pct,
+        "rag_safety": "PASS" if passed == len(cases) else "REVIEW_REQUIRED",
+        "details": details,
+    }
 
 
 if __name__ == "__main__":
