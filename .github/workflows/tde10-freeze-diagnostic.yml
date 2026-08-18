@@ -25,7 +25,7 @@ jobs:
           root=Path('courses/TDE_10')
           cmap=json.loads((root/'curriculum_map.json').read_text(encoding='utf-8'))
           expected=[f'TDE{a}.{b}' for a in range(1,5) for b in range(1,5)]
-          result={'themes':[]}
+          result={'schema_version':'1.0','trigger_revision':2,'themes':[]}
           for n,theme in enumerate(cmap['themes'],1):
               pages=json.loads((root/f'source_docs/derived_curriculum/theme_{n:02d}_pages.json').read_text(encoding='utf-8'))
               all_text='\n'.join(p.get('text','') for p in pages)
