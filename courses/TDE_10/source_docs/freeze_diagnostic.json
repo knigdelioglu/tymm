@@ -1,4 +1,6 @@
 {
+  "schema_version": "1.0",
+  "trigger_revision": 2,
   "themes": [
     {
       "theme_id": "TEMA_01",
