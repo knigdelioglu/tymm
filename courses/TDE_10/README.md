@@ -20,54 +20,16 @@ Canonical içerik TDE_9'dan kopyalanmaz veya tahmin edilmez. TDE_9 yalnız şema
 ## Güncel üretim durumu
 
 ```text
-Source registration                         PASS
-Curriculum map draft                        CREATED
-Official TYMM theme identity                PASS
-64 scoped learning outcomes                 MAPPED
-Stable entity keys                          UNIQUE
-Theme time model                            45 = 43 + 2
-Annual time model                           180 = 172 + 8
-Process-component audit                     PARTIAL / FAIL-CLOSED
-Theme 1 instructional needs                 CREATED
-Theme 2 instructional needs                 CREATED
-Theme 3 instructional needs                 CREATED
-Theme 4 instructional needs                 CREATED
-Official OGM textbook theme assets          RESOLVED AS SUPPORTING
-Textbook source-structure map               CREATED / NOT FROZEN
-Textbook page-level sections/activities     PENDING
-Textbook forms index                        PENDING
-Theme alignment / gap analysis              BLOCKED BY TEXTBOOK CONTENT MAP
-Production / index / runtime / P0           NOT STARTED
+Canonical curriculum                 VERIFIED / FROZEN
+Local official textbook PDF          VERIFIED / FROZEN
+Program-textbook alignment           64/64 COVERED
+Verified resource gaps               0
+Production mode                      REUSE_ONLY_NO_NEW_ARTIFACTS
+Teaching blocks                      16
+Knowledge index                      INDEX_FRESH
+Runtime projection                   PASS
+P0 gate                              PASS
+Generated new artifacts              0
 ```
 
-## Zaman modeli
-
-```text
-Her tema dış toplamı = 45 saat
-                      = 43 saat tema öğretimi
-                      + 2 saat okul temelli planlama
-
-Yıllık toplam        = 180 saat
-                      = 172 + 8
-```
-
-Okul temelli planlama program boşluğu değildir; ayrı pedagojik katman olarak tutulur.
-
-## Oluşturulan ana dosyalar
-
-```text
-source_manifest.json
-curriculum_map.json
-textbook_map.json
-validation_report.md
-planning/course_timeline.json
-source_docs/curriculum_process_component_audit.json
-themes/tema_01/needs.json
-themes/tema_02/needs.json
-themes/tema_03/needs.json
-themes/tema_04/needs.json
-```
-
-`curriculum_map.json` ve `textbook_map.json` henüz `FROZEN` değildir. Textbook content map tamamlanmadan `alignment → gap → resource_plan → production` zinciri açılmaz.
-
-Ayrıntılı gate durumu için `validation_report.md` kullanılır.
+Her tema 45 saatlik dış bloktur: 43 saat resmî tema öğretimi + 2 saat okul temelli planlama. Okul temelli planlama ayrı pedagojik katmandır ve curriculum gap değildir. `knowledge.sqlite` ile runtime SQLite yalnız yeniden üretilebilir projection/cache katmanıdır; canonical JSON/MD source of truth olarak kalır.

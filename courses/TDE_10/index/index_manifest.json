@@ -1,0 +1,205 @@
+{
+  "schema_version": "2.1",
+  "course_id": "TDE_10",
+  "index_created_at": "2026-08-18T19:49:15.139589+00:00",
+  "index_updated_at": "2026-08-18T19:49:15.139589+00:00",
+  "requested_backend": "sqlite-vector/sqliteai-vector",
+  "selected_backend": "sqlite-vec",
+  "backend_selection_status": "EXPLICIT_ACCEPTED_DEVIATION",
+  "backend_selection_reason": "sqlite-vec is the lightweight native SQLite vector extension selected for local TYMM retrieval; the canonical JSON layer remains authoritative.",
+  "database_engine": "SQLite 3.45.1 + sqlite-vec",
+  "vector_extension": "sqlite-vec",
+  "vector_extension_version": "0.1.9",
+  "sqlite_version": "3.45.1",
+  "runtime_platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+  "runtime_architecture": "x86_64",
+  "base_embedding_model": "intfloat/multilingual-e5-small",
+  "runtime_model_repository": "Xenova/multilingual-e5-small",
+  "runtime_model_file": "model_quantized.onnx",
+  "runtime_format": "ONNX",
+  "quantization": "quantized",
+  "embedding_dimension": 384,
+  "pooling_strategy": "attention_masked_mean_pooling",
+  "normalization": "L2",
+  "query_prefix": "query: ",
+  "passage_prefix": "passage: ",
+  "model_file_sha256": "f80102d3f2a1229f387d3c81909990d8945513e347b0eab049f7de3c6f98c193",
+  "distance_metric": "cosine",
+  "production_schema_version": "1.1",
+  "production_schema_fingerprint": "5e067eddea3a82a57b6b1db1134457bc8bbe0e293338f5c289f46f0902fde423",
+  "artifact_identity_field": "artifact_id",
+  "production_artifact_count": 0,
+  "production_gap_alias_count": 0,
+  "indexed_entity_types": [
+    "alignment_record",
+    "curriculum_outcome",
+    "curriculum_theme",
+    "instructional_need",
+    "remaining_gap",
+    "resource_plan",
+    "school_based_option",
+    "teaching_block",
+    "textbook_activity",
+    "textbook_form",
+    "textbook_section"
+  ],
+  "indexed_record_count": 386,
+  "source_files": [
+    {
+      "path": "curriculum_map.json",
+      "sha256": "93c9fd068cd0e1fc3014a046823a4904cc133ad9817e00b3f1b43a864a13af65",
+      "size_bytes": 95767,
+      "validation_status": "VERIFIED",
+      "freeze_status": "FROZEN"
+    },
+    {
+      "path": "textbook_map.json",
+      "sha256": "0e410796927d43f51df129d3cd4a678d6c173985ed7c54d8e69c64c37eb9b239",
+      "size_bytes": 52118,
+      "validation_status": "VERIFIED",
+      "freeze_status": "FROZEN"
+    },
+    {
+      "path": "textbook_forms_index.json",
+      "sha256": "961f6d8f8e8cac2782a2a06e0117aa81a44466568c1c60007f83eded554ba61c",
+      "size_bytes": 28944,
+      "validation_status": "VERIFIED",
+      "freeze_status": "FROZEN"
+    },
+    {
+      "path": "themes/tema_01/alignment.json",
+      "sha256": "875d7005e62b915a2d2bf192d7fa17471bc7b22440e1ebb0cd7b1540dd773c6f",
+      "size_bytes": 22546,
+      "validation_status": "VERIFIED",
+      "freeze_status": "FROZEN"
+    },
+    {
+      "path": "themes/tema_01/gap_analysis.json",
+      "sha256": "cd7b26e7b7bfe26ac9b20d0d0e8adac2fe055988a17f440d5b80f3e1302081cc",
+      "size_bytes": 19832,
+      "validation_status": "VERIFIED",
+      "freeze_status": "FROZEN"
+    },
+    {
+      "path": "themes/tema_01/needs.json",
+      "sha256": "4434a7851a5ec618c69c867796a364279bf55b402441ddd937ec49342c8660aa",
+      "size_bytes": 11154,
+      "validation_status": "VERIFIED",
+      "freeze_status": "FROZEN"
+    },
+    {
+      "path": "themes/tema_01/resource_plan.json",
+      "sha256": "20775ca0475f4cc33ff009cffc7c95be458174846b67a952155526cbebaf4738",
+      "size_bytes": 6145,
+      "validation_status": "VERIFIED",
+      "freeze_status": "FROZEN"
+    },
+    {
+      "path": "themes/tema_02/alignment.json",
+      "sha256": "b0dc7471716efb4f0e758d4df5aa454ef9ba7001c65d1fbeeac36f2885fe3b44",
+      "size_bytes": 22568,
+      "validation_status": "VERIFIED",
+      "freeze_status": "FROZEN"
+    },
+    {
+      "path": "themes/tema_02/gap_analysis.json",
+      "sha256": "4ceff92cef2230a02cafb194c143962560fe6eb45f74de1c96e8ca5894d94944",
+      "size_bytes": 19829,
+      "validation_status": "VERIFIED",
+      "freeze_status": "FROZEN"
+    },
+    {
+      "path": "themes/tema_02/needs.json",
+      "sha256": "c7d783c891cd3ed9433b45d6f57e820614df74219fbbe7d0c692ade58e634f8a",
+      "size_bytes": 11304,
+      "validation_status": "VERIFIED",
+      "freeze_status": "FROZEN"
+    },
+    {
+      "path": "themes/tema_02/resource_plan.json",
+      "sha256": "db00e1beaf6521b288c4bc2f1f76372fe975571434c0275eb338171cb8a92f8a",
+      "size_bytes": 6161,
+      "validation_status": "VERIFIED",
+      "freeze_status": "FROZEN"
+    },
+    {
+      "path": "themes/tema_03/alignment.json",
+      "sha256": "2d5ffffc3bf6a260eca8aae990cf2ac30ac9aa4995594852210f5edeeae6e282",
+      "size_bytes": 22727,
+      "validation_status": "VERIFIED",
+      "freeze_status": "FROZEN"
+    },
+    {
+      "path": "themes/tema_03/gap_analysis.json",
+      "sha256": "cfd8d9e8d002dddfa854792c3e39e41011355de444e54ddb68429926e88e5367",
+      "size_bytes": 20011,
+      "validation_status": "VERIFIED",
+      "freeze_status": "FROZEN"
+    },
+    {
+      "path": "themes/tema_03/needs.json",
+      "sha256": "85870b36781b222f5e085c3b28a80e58a8362ddbe09fec9ca7b3d386d0cdbd33",
+      "size_bytes": 11309,
+      "validation_status": "VERIFIED",
+      "freeze_status": "FROZEN"
+    },
+    {
+      "path": "themes/tema_03/resource_plan.json",
+      "sha256": "8bab8c6607109311698b76d7cda227921d7e4ec82f34a26049f322b429945bd3",
+      "size_bytes": 6185,
+      "validation_status": "VERIFIED",
+      "freeze_status": "FROZEN"
+    },
+    {
+      "path": "themes/tema_04/alignment.json",
+      "sha256": "2c5bcaff0ea89c5903a8168698a9bebf0c1c8355cb9f4b4e1596c18540ec0916",
+      "size_bytes": 23432,
+      "validation_status": "VERIFIED",
+      "freeze_status": "FROZEN"
+    },
+    {
+      "path": "themes/tema_04/gap_analysis.json",
+      "sha256": "4d9bf6a023434ebbcb88919bcabf7b2472a0ba80517a52385eb79f33f7e4537f",
+      "size_bytes": 20592,
+      "validation_status": "VERIFIED",
+      "freeze_status": "FROZEN"
+    },
+    {
+      "path": "themes/tema_04/needs.json",
+      "sha256": "d0735d4b533f6699b780bb67d77de1bf197de0bc37bc4a311650c1f365aae459",
+      "size_bytes": 11421,
+      "validation_status": "VERIFIED",
+      "freeze_status": "FROZEN"
+    },
+    {
+      "path": "themes/tema_04/resource_plan.json",
+      "sha256": "7691ba4611289fde9951565a51609f70a4fc37915886756ebe96e71b0561251f",
+      "size_bytes": 6335,
+      "validation_status": "VERIFIED",
+      "freeze_status": "FROZEN"
+    },
+    {
+      "path": "production/production_manifest.json",
+      "sha256": "5e067eddea3a82a57b6b1db1134457bc8bbe0e293338f5c289f46f0902fde423",
+      "size_bytes": 804,
+      "validation_status": "VERIFIED",
+      "freeze_status": "FROZEN"
+    },
+    {
+      "path": "production/teaching_blocks.json",
+      "sha256": "c9385717798717b5aec878818aab110afe7e558071bfc268e2e59facc1ba3203",
+      "size_bytes": 23299,
+      "validation_status": "VERIFIED",
+      "freeze_status": "FROZEN"
+    },
+    {
+      "path": "production/school_based_planning_options.json",
+      "sha256": "044adb0b958fa6ab2c9a272f61a0651ccd8700302bb42f75ca2ea2d3e17ea716",
+      "size_bytes": 7199,
+      "validation_status": "VERIFIED",
+      "freeze_status": "FROZEN"
+    }
+  ],
+  "index_content_hash": "329ab927f1e46570a1ce7d37a2d5bc5eefbb73ffb38b9bd6db0ff5e468adffa0",
+  "build_status": "SUCCESS"
+}

@@ -1,0 +1,88 @@
+{
+  "course_id": "TDE_10",
+  "canonical": {
+    "themes": 4,
+    "outcomes": 64,
+    "status": "PASS"
+  },
+  "production_schema": {
+    "schema_version": "1.1",
+    "production_mode": "REUSE_ONLY_NO_NEW_ARTIFACTS",
+    "verified_resource_gap_count": 0,
+    "expected_new_artifact_count": 0,
+    "artifact_ids": [],
+    "gap_aliases": [],
+    "status": "PASS"
+  },
+  "index_rebuild": {
+    "freshness": "INDEX_FRESH",
+    "indexed_record_count": 386,
+    "artifact_rows": [],
+    "duplicate_entity_keys": 0,
+    "status": "PASS"
+  },
+  "resolver": {
+    "structured_probes": [
+      {
+        "query": "Tema 1 TDE4.4 için kitapta ne eksik?",
+        "coverage": "COVERED"
+      },
+      {
+        "query": "Tema 2 TDE4.4 için kitapta ne eksik?",
+        "coverage": "COVERED"
+      },
+      {
+        "query": "Tema 3 TDE4.4 için kitapta ne eksik?",
+        "coverage": "COVERED"
+      },
+      {
+        "query": "Tema 4 TDE4.4 için kitapta ne eksik?",
+        "coverage": "COVERED"
+      }
+    ],
+    "ambiguity_probe": {
+      "query": "TDE4.4",
+      "status": "PARTIALLY_RESOLVED",
+      "ambiguity_status": "AMBIGUOUS_ENTITY",
+      "block_reason": "AMBIGUOUS_ENTITY"
+    },
+    "generation_probe": {
+      "allowed": false,
+      "block_reason": "NO_VERIFIED_RESOURCE_GAP"
+    },
+    "status": "PASS"
+  },
+  "stale_gate": {
+    "status": "PASS",
+    "block_reason": "INDEX_STALE"
+  },
+  "conflict_gate": {
+    "status": "PASS",
+    "conflicts": 1
+  },
+  "runtime": {
+    "status": "PASS",
+    "row_counts": {
+      "courses": 1,
+      "themes": 4,
+      "blocks": 16,
+      "block_activities": 75,
+      "outcomes": 64,
+      "block_outcomes": 64,
+      "textbook_sections": 24,
+      "activities": 75,
+      "activity_outcomes": 300,
+      "forms": 35,
+      "activity_forms": 119,
+      "resource_decisions": 16,
+      "assessment_artifacts": 0,
+      "assessment_gap_mappings": 0,
+      "assessment_task_bindings": 0,
+      "timeline_themes": 4,
+      "timeline_blocks": 16,
+      "source_references": 4,
+      "entity_source_references": 0
+    }
+  },
+  "final": "PASS"
+}

@@ -4,7 +4,7 @@
   "grade": 10,
   "course_title": "Türk Dili ve Edebiyatı",
   "last_validated": "2026-08-18",
-  "overall_status": "CANONICAL_KNOWLEDGE_FROZEN_TEXTBOOK_ALIGNMENT_PASS",
+  "overall_status": "P0_PASS_CANONICAL_FROZEN_REUSE_ONLY_RUNTIME_VERIFIED",
   "source_mode": "SPLIT_CURRICULUM_PDFS_PLUS_LOCAL_OFFICIAL_TEXTBOOK_PDF",
   "scope": {
     "analysis_target": "10. Sınıf Türk Dili ve Edebiyatı Öğretim Programı ve Ders Kitabı",
@@ -23,7 +23,10 @@
     "alignment_performed": true,
     "gap_analysis_performed": true,
     "materials_generated": false,
-    "textbook_local_pdf_registered": true
+    "textbook_local_pdf_registered": true,
+    "knowledge_index_built": true,
+    "runtime_projection_built": true,
+    "p0_gate_passed": true
   },
   "annual_time_model": {
     "theme_count": 4,
