@@ -47,7 +47,10 @@
     "explicit_subcomponent_id_scan": "PASS_NONE_ENUMERATED_IN_REGISTERED_TDE10_SNAPSHOTS",
     "process_component_extraction": "SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS",
     "canonical_policy": "No subordinate process-component IDs are synthesized. Official parent outcomes and learning-teaching application text are authoritative.",
-    "freeze_blocker": null
+    "freeze_blocker": null,
+    "context_verbatim_extraction": "PASS_4_OF_4_REGISTERED_LOCAL_SNAPSHOTS",
+    "effective_schema_parity": "PASS_WITH_SOURCE_NOT_APPLICABLE_EXCEPTIONS",
+    "kavramsal_beceriler_policy": "SOURCE_NOT_APPLICABLE_WHEN_NOT_ENUMERATED_IN_THEME_SNAPSHOT"
   },
   "themes": [
     {
@@ -63,11 +66,13 @@
         "school_based_planning": 2,
         "outer_theme_total": 45,
         "official_instructional_status": "EXPLICIT_OFFICIAL_WEB",
-        "school_based_allocation_status": "USER_CONFIRMED_PLANNING_RULE"
+        "school_based_allocation_status": "USER_CONFIRMED_PLANNING_RULE",
+        "verbatim": "43",
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=1"
       },
       "alan_becerileri": {
         "verbatim": "Metin Tahlili (Anlama): Okuma, Dinleme/İzleme; Edebiyat Atölyesi (Anlatma): Yazma, Konuşma",
-        "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/242?kod=D15#Alan-Becerileri"
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=1"
       },
       "egilimler": {
         "codes": [
@@ -80,7 +85,8 @@
           "E3.7",
           "E3.10"
         ],
-        "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/242?kod=D15#Eğilimler"
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=1",
+        "verbatim": "E1.4. Kendine İnanma (Öz Yeterlilik), E2.3. Girişkenlik, E2.5. Oyunseverlik, E3.2. Odaklanma, E3.3. Yaratıcılık, E3.5. Açık Fikirlilik, E3.7. Sistematiklik E3.10. Eleştirel Bakma"
       },
       "programlar_arasi_bilesenler": {
         "sosyal_duygusal_ogrenme_becerileri": {
@@ -91,7 +97,9 @@
             "SDB2.3",
             "SDB3.2",
             "SDB3.3"
-          ]
+          ],
+          "verbatim": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim, SDB2.2. İş Birliği, SDB2.3. Sosyal Farkındalık, SDB3.2. Esneklik, SDB3.3. Sorumlu Karar Verme",
+          "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=1"
         },
         "degerler": {
           "codes": [
@@ -101,7 +109,9 @@
             "D11",
             "D15",
             "D19"
-          ]
+          ],
+          "verbatim": "D2. Aile Bütünlüğü, D7. Estetik, D9. Merhamet, D11. Özgürlük, D15. Sevgi, D19. Vatanseverlik",
+          "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=1"
         },
         "okuryazarlik_becerileri": {
           "codes": [
@@ -109,7 +119,9 @@
             "OB2",
             "OB4",
             "OB9"
-          ]
+          ],
+          "verbatim": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık, OB9. Sanat Okuryazarlığı",
+          "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=1"
         }
       },
       "disiplinler_arasi_iliskiler": {
@@ -118,7 +130,9 @@
           "Sosyoloji",
           "Müzik",
           "Psikoloji"
-        ]
+        ],
+        "verbatim": "Tarih, Sosyoloji, Müzik, Psikoloji",
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=2"
       },
       "beceriler_arasi_iliskiler": {
         "codes": [
@@ -132,7 +146,9 @@
           "SAB2",
           "SAB3",
           "SAB4"
-        ]
+        ],
+        "verbatim": "KB2.7. Karşılaştırma, KB3.3. Eleştirel Düşünme, SBAB3. Tarihsel Empati, SBAB4. Değişim ve Sürekliliği Algılama, SBAB16. Eleştirel Sosyolojik Düşünme, BTYAB1. Bilişim Teknolojilerini Kullanma, SAB1. Sanatsal Algılama, SAB2. Görsel Mesajı Okuma, SAB3. Sanat Eserini İnceleme, SAB4. Sanatsal Üretim Yapma",
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=2"
       },
       "learning_outcomes": [
         {
@@ -427,7 +443,8 @@
       "process_component_extraction_status": "SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS",
       "icerik_cercevesi": {
         "summary": "Okuma: koşuk ve türkü, ara metinler koşma ve ninni. Dinleme/izleme: masal. Konuşma: tematik şiir dinletisi. Yazma: dinlenen/izlenen masalı film şeridi biçiminde yeniden ifade etme.",
-        "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/242?kod=D15#İçerik-Çerçevesi"
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=3",
+        "verbatim": "“Sözün Ezgisi” temasının içerik çerçevesi şu şekildedir: • Okuma • Konuşma • Dinleme/İzleme • Yazma Okuma becerisinin geliştirilmesi için edebiyatın sözün akıcı ve ahenkli kullanımına dayalı anlatımlarına dikkat çekilir. Türk dili ve edebiyatının farklı dönemlerine ve gelişim çizgisine örnek oluşturması bakımından koşuk ve türkü türünde metinler seçilir. Bu metinlere ilaveten ara metin olarak belirlenen koşma ve ninni türündeki metinler ile ezgi ve ahenk gibi unsurların önemi ortaya konur. Konuşma becerisinin geliştirilmesinde öğrenciler, kendi belirledikleri bir tema çerçevesinde seçtikleri şiirlerden oluşan bir şiir dinletisi hazırlayarak sözlü anlatımlarını gerçekleştirirler. Böylece öğrencilerin farklı edebî gelenekten belirli bir temayı esas alan şiirleri belirlemelerine, dilin kullanımının ve edebî anlayışın değişimini seçtikleri bu eserler yoluyla izlemelerine olanak tanınır. Dinleme/izleme becerisinin geliştirilmesinde çok modlu bir metin olarak masal türünde bir eser seçilir ve bu metnin tahlili yapılır. Öğrencilerin masaldaki tekerlemelerin, kalıplaşmış ifadelerin vb. nasıl kullanıldığını fark etmeleri sağlanır. Yazma becerisinin geliştirilmesinde öğrencilerden dinledikleri/izledikleri masal metnini film şeridi hâline getirmeleri istenir. Böylece bir metni farklı bir türle yeniden ifade etmeleri sağlanır."
       },
       "anahtar_kavramlar": {
         "concepts": [
@@ -444,7 +461,8 @@
           "varyant",
           "yapı unsurları"
         ],
-        "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/242?kod=D15#Anahtar-Kavramlar"
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=3",
+        "verbatim": "ahenk, anonim, ezgi, gelenek, kurmaca, masal anlatıcısı, masalın bölümleri, olağanüstülük, ritim, sözlü kültür, varyant, yapı unsurları (olay, kişiler, zaman, mekân)"
       },
       "ogrenme_kanitlari_olcme_ve_degerlendirme": {
         "official_instrument_names": [
@@ -488,7 +506,9 @@
           }
         ],
         "theme_end_assessment": "Giriş-çıkış kartı (Ne Biliyorum-Ne Bilmek İstiyorum-Ne Öğrendim)",
-        "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/242?kod=D15#Öğrenme-Kanıtları"
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=3",
+        "verbatim": "Metin Tahlili (Anlama) Okuma ve Dinleme/İzleme • Bilgi görseli • Açık uçlu sorular • Karşılaştırma tablosu • T diyagramı • Kısa cevaplı sorular • Çalışma kâğıdı • Zihin haritası • Giriş-çıkış kartı Okumayı yönetebilmeye yönelik bilgi görseli, anlam oluşturabilmek için kısa cevaplı sorular ve karşılaştırma tablosu, çözümleme yapabilmek için kısa cevaplı sorular, yansıtma yapabilmek amacıyla öz değerlendirme formu uygulanabilir. Dinleme/izlemeyi yönetebilmeye yönelik kısa cevaplı sorular, anlam oluşturabilmek için açık uçlu sorular ve çalışma kâğıdı, çözümleme yapabilmek için zihin haritası, yansıtma yapabilmek amacıyla açık uçlu sorular kullanılabilir. Edebiyat Atölyesi (Anlatma) Konuşma ve Yazma • Öğrencilerin belirli bir tema çerçevesinde seçtikleri şiirlerden oluşan bir şiir dinletisi hazırlamasına yönelik performans görevi • Masal anlatma ve dinlediği metni film şeridi hâline getirmeye yönelik performans görevi Belirledikleri bir tema çerçevesinde seçtikleri şiirlerden bir şiir dinletisi hazırlayan öğrencilerin gösterdikleri performans dereceli puanlama anahtarı ile puanlanır. Puanlama anahtarında içeriğe uygunluk, özgünlük, görsel unsurlar, sunum becerisi, zaman, mekân, beden dili, Türkçenin doğru kullanımı gibi ölçütler yer alır. Dinlediği/izlediği masalı film şeridi hâline getiren öğrencilerin yaptıkları çalışmalar akıcılık, görsel ögelerin kullanımı, karakter tasarımı, senaryo ve olay akışı, estetik, dil ve anlatım gibi ölçütler göz önünde bulundurularak dereceli puanlama anahtarı ile değerlendirilir. Tema sonunda giriş- çıkış kartı Ne Biliyorum-Ne Bilmek İstiyorum-Ne Öğrendim tekniği ile değerlendirme yapılır.",
+        "verbatim_source": "REGISTERED_LOCAL_OFFICIAL_SNAPSHOT"
       },
       "official_web_crosscheck": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/242?kod=D15",
       "local_snapshot_verification": {
@@ -497,6 +517,15 @@
         "explicit_subcomponent_codes_found": 0,
         "process_component_representation": "PARENT_OUTCOME_PLUS_OFFICIAL_LEARNING_TEACHING_APPLICATIONS",
         "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9"
+      },
+      "page_range": "1-11",
+      "theme_introduction_verbatim": "Bu temada Türk dili ve edebiyatının sözlü kültür ürünlerinden hareketle dilin zenginliği ve ahengi vurgulanmak istenmektedir. Türk kültürünün farklı yönlerini yansıtan bir yelpaze içerisinde sözün müziğe yaslanan yönünün ortaya çıktığı örneklerle sözlü geleneği keşfetmek, kültürel zenginliği anlamak ve değerlendirmek amaçlanmaktadır. Okuma metinleri, türkü ve koşuk türlerinden seçilir. Dinleme/izleme metni olarak da bir masal ele alınır. Bu metinler incelenir ve başka türlerden ara metinlerle karşılaştırılarak tarihî süreç içerisinde edebî eserlerdeki değişim ve dönüşüme yönelik çıkarımlar yapılır. Bunun için ara metin olarak koşma ve ninni türleri kullanılır. Konuşma becerisi kapsamında öğrencilerden bir şiir dinletisi hazırlamaları ve yazma performansı olarak dinlediği/izlediği masalı film şeridi hâline getirmeleri istenir.",
+      "theme_introduction_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=1",
+      "kavramsal_beceriler": {
+        "verbatim": null,
+        "source_status": "NOT_ENUMERATED_IN_REGISTERED_THEME_SNAPSHOT",
+        "parity_exception": "SOURCE_NOT_APPLICABLE",
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=1"
       }
     },
     {
@@ -512,11 +541,13 @@
         "school_based_planning": 2,
         "outer_theme_total": 45,
         "official_instructional_status": "EXPLICIT_OFFICIAL_WEB",
-        "school_based_allocation_status": "USER_CONFIRMED_PLANNING_RULE"
+        "school_based_allocation_status": "USER_CONFIRMED_PLANNING_RULE",
+        "verbatim": "43",
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 2.PDF#pdf_page=1"
       },
       "alan_becerileri": {
         "verbatim": "Metin Tahlili (Anlama): Okuma, Dinleme/İzleme; Edebiyat Atölyesi (Anlatma): Yazma, Konuşma",
-        "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/247#Alan-Becerileri"
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 2.PDF#pdf_page=1"
       },
       "egilimler": {
         "codes": [
@@ -534,7 +565,8 @@
           "E3.7",
           "E3.10"
         ],
-        "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/247#Eğilimler"
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 2.PDF#pdf_page=1",
+        "verbatim": "E1.1. Merak, E1.2. Bağımsızlık, E1.4. Kendine İnanma (Öz Yeterlilik), E1.5. Kendine Güvenme (Öz Güven), E.1.6. Seçicilik, E2.1. Empati, E2.2. Sorumluluk, E2.3. Girişkenlik, E3.2. Odaklanma, E3.3. Yaratıcılık, E3.5. Açık Fikirlilik, E3.7. Sistematiklik, E3.10. Eleştirel Bakma"
       },
       "programlar_arasi_bilesenler": {
         "sosyal_duygusal_ogrenme_becerileri": {
@@ -545,7 +577,9 @@
             "SDB2.2",
             "SDB2.3",
             "SDB3.3"
-          ]
+          ],
+          "verbatim": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB1.3. Kendine Uyarlama (Öz Yansıtma), SDB2.1. İletişim, SDB2.2. İş Birliği, SDB2.3. Sosyal Farkındalık, SDB3.3. Sorumlu Karar Verme",
+          "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 2.PDF#pdf_page=1"
         },
         "degerler": {
           "codes": [
@@ -554,7 +588,9 @@
             "D14",
             "D15",
             "D19"
-          ]
+          ],
+          "verbatim": "D3. Çalışkanlık, D7. Estetik, D14. Saygı, D15. Sevgi, D19. Vatanseverlik",
+          "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 2.PDF#pdf_page=1"
         },
         "okuryazarlik_becerileri": {
           "codes": [
@@ -563,7 +599,9 @@
             "OB4",
             "OB5",
             "OB6"
-          ]
+          ],
+          "verbatim": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık, OB5. Kültür Okuryazarlığı, OB6. Vatandaşlık Okuryazarlığı",
+          "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 2.PDF#pdf_page=2"
         }
       },
       "disiplinler_arasi_iliskiler": {
@@ -572,7 +610,9 @@
           "Müzik",
           "Sosyoloji",
           "Psikoloji"
-        ]
+        ],
+        "verbatim": "Tarih, Müzik, Sosyoloji, Psikoloji",
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 2.PDF#pdf_page=2"
       },
       "beceriler_arasi_iliskiler": {
         "codes": [
@@ -586,7 +626,9 @@
           "SAB2",
           "SAB3",
           "SAB4"
-        ]
+        ],
+        "verbatim": "KB2.20. Sentezleme, KB3.3. Eleştirel Düşünme, SBAB3. Tarihsel Empati, SBAB4. Değişim ve Sürekliliği Algılama, SBAB16. Eleştirel Sosyolojik Düşünme, BTYAB1. Bilişim Teknolojilerini Kullanma, SAB1. Sanatsal Algılama, SAB2. Görsel Mesajı Okuma, SAB3. Sanat Eserini İnceleme, SAB4. Sanatsal Üretim Yapma",
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 2.PDF#pdf_page=2"
       },
       "learning_outcomes": [
         {
@@ -881,7 +923,8 @@
       "process_component_extraction_status": "SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS",
       "icerik_cercevesi": {
         "summary": "Okuma: gazel ve saf şiir, ara metin kaside. Dinleme/izleme: söyleşi. Konuşma: edebiyat alanında iz bırakmış bir şahsiyetin edebî yönünü tanıtan podcast. Yazma: bilgilendirici metni edebî metne dönüştürme.",
-        "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/247#İçerik-Çerçevesi"
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 2.PDF#pdf_page=3",
+        "verbatim": "“Kelimelerin Ritmi” temasının içerik çerçevesi şu şekildedir: • Okuma • Yazma • Dinleme/İzleme • Konuşma Okuma becerisinin geliştirilmesi için şiir anlayışlarındaki estetik değişimi ritim özelinde yansıtabilecek metinlere dikkat çekilir. Bunu yapabilmek için şiir türünde birer metin (gazel ve saf şiir) seçilir. Bu metinler üzerinden edebî metinlerin ahenk özellikleri ile kelimelerdeki ritim özelliklerinin yapıya, içeriğe ve üsluba katkısı ortaya konur. Yazma becerisinin geliştirilmesinde, bilgilendirici bir metni edebî metne dönüştürme çalışması yapılır. Bu çalışmadan hareketle bilgilendirici bir metinle edebî bir metnin dinamiklerinin karşılaştırılması sağlanır. Böylece bilginin estetik bir biçimde öğrenciler tarafından yeniden yazılmasına imkân verilir. Dinleme/izleme becerisinin geliştirilmesinde çok modlu bir metin olarak söyleşi türünde bir metnin tahlili yapılır. Öğrencilerin dilin akıcı ve rahat söyleyişinin dinlediği/izlediği bilgilendirici metinlere nasıl yansıdığını fark etmeleri sağlanır. Konuşma becerisinin geliştirilmesinde edebiyat alanında iz bırakmış şahsiyetlerin edebî yönünü tanıtan bir podcast hazırlanır. Böylece öğrencilerin seçtikleri şairi/yazarı daha yakından tanımaları ve dijital imkânları kullanarak bir ürün ortaya çıkarmaları sağlanır."
       },
       "anahtar_kavramlar": {
         "concepts": [
@@ -896,7 +939,8 @@
           "ritim",
           "sembol"
         ],
-        "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/247#Anahtar-Kavramlar"
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 2.PDF#pdf_page=3",
+        "verbatim": "açık ve örtük ileti, ahenk unsurları, aruz, beyit, gerçeklik, imge, kafiye, ölçü, ritim, sembol (simge)"
       },
       "ogrenme_kanitlari_olcme_ve_degerlendirme": {
         "official_instrument_names": [
@@ -936,7 +980,9 @@
           }
         ],
         "theme_end_assessment": "Çıkış kartı",
-        "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/247#Öğrenme-Kanıtları"
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 2.PDF#pdf_page=3",
+        "verbatim": "Metin Tahlili (Anlama) Okuma ve Dinleme/İzleme • Açık uçlu sorular • Kavram haritası • Öğrenme günlüğü • Bilgi görseli • Karşılaştırma tablosu • Kısa cevaplı sorular • Çalışma kâğıdı • Çıkış kartı Okumayı yönetebilmeye yönelik bir kavram haritası; anlam oluşturma için bilgi görseli, karşılaştırma tablosu; çözümleme yapmaya yönelik kavram haritası, açık uçlu sorular; yansıtmaya yönelik öğrenme günlüğü kullanılabilir. Dinleme/izlemeyi yönetebilmeye yönelik açık uçlu sorular; anlam oluşturmaya yönelik karşılaştırma tablosu, çalışma kâğıdı; çözümlemeye yönelik kısa cevaplı ve açık uçlu sorular; yansıtma için açık uçlu sorular kullanılabilir. Edebiyat Atölyesi (Anlatma) Konuşma ve Yazma • Edebiyat alanında iz bırakmış şahsiyetlerin edebî yönünü tanıtan bir dinleme/izleme ürünü olarak podcast hazırlamaya yönelik performans görevi • Bilgilendirici bir metnin edebî metne dönüştürülmesine yönelik performans görevi Konuşma becerilerinin ölçülmesiyle ilgili performans görevi dereceli puanlama anahtarı ile puanlanır. Puanlama anahtarında içeriğe uygunluk, anlam, dil ve anlatım özellikleri, işitsel ögelerin kullanımı, özgünlük, vurgu ve tonlama vb. ölçütler yer alır. Bu çalışma grup çalışması biçiminde de yapılabilir. Yazma becerilerinin ölçülmesiyle ilgili performans anlam, görsel ve işitsel ögelerin kullanımı, özgünlük, yazım, noktalama gibi ölçütler göz önünde bulundurularak dereceli puanlama anahtarı ile değerlendirilir. Tema sonu değerlendirme çıkış kartı ile gerçekleştirilir.",
+        "verbatim_source": "REGISTERED_LOCAL_OFFICIAL_SNAPSHOT"
       },
       "official_web_crosscheck": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/247",
       "local_snapshot_verification": {
@@ -945,6 +991,15 @@
         "explicit_subcomponent_codes_found": 0,
         "process_component_representation": "PARENT_OUTCOME_PLUS_OFFICIAL_LEARNING_TEACHING_APPLICATIONS",
         "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9"
+      },
+      "page_range": "1-11",
+      "theme_introduction_verbatim": "“Kelimelerin Ritmi” temasında ele alınan edebî türlerden ilki şiirdir. Bu türün Türk dili ve edebiyatındaki gelişiminde, şiir anlayışlarındaki estetik değişimin ritim bağlamındaki yansımalarında kelimelerin uyumu, ahenk ögeleri, söz varlığı vb. unsurların etkisinin belirlenmesi önem arz etmektedir. Bu amaçla tema çerçevesinde tahlil edilen edebî metinlerin estetik yönünün ahenk özelinde değerlendirilmesi amaçlanmaktadır. Ayrıca içerik ile söz varlığı arasındaki uyum göz önünde bulundurularak Türk dili ve edebiyatındaki değişim ve dönüşüme vurgu yapılması hedeflenmektedir. Türk dili ve edebiyatındaki değişim ve dönüşümü yansıtması amacı ile bu tema kapsamında okuma metinleri olarak bir gazel ile Cumhuriyet Dönemi’nden şiir (saf şiir) türünde bir metin incelenir. Gazel metni incelenirken ara metin olarak kaside türünden bir şiir ele alınır. Dinleme/izleme metni olarak tema içeriğine uygun söyleşi türünde çok modlu bir metin ele alınır. Konuşma becerisi kapsamında öğrencilerden iz bırakmış bir şahsiyetin edebî yönünü tanıttıkları bir podcast (sesli blog) hazırlamaları, yazma becerisi kapsamında ise bilgilendirici bir metni edebî metne dönüştürmeleri istenir.",
+      "theme_introduction_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 2.PDF#pdf_page=1",
+      "kavramsal_beceriler": {
+        "verbatim": null,
+        "source_status": "NOT_ENUMERATED_IN_REGISTERED_THEME_SNAPSHOT",
+        "parity_exception": "SOURCE_NOT_APPLICABLE",
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 2.PDF#pdf_page=1"
       }
     },
     {
@@ -960,11 +1015,13 @@
         "school_based_planning": 2,
         "outer_theme_total": 45,
         "official_instructional_status": "EXPLICIT_OFFICIAL_WEB",
-        "school_based_allocation_status": "USER_CONFIRMED_PLANNING_RULE"
+        "school_based_allocation_status": "USER_CONFIRMED_PLANNING_RULE",
+        "verbatim": "43",
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=1"
       },
       "alan_becerileri": {
         "verbatim": "Metin Tahlili (Anlama): Okuma, Dinleme/İzleme; Edebiyat Atölyesi (Anlatma): Yazma, Konuşma",
-        "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/256#Alan-Becerileri"
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=1"
       },
       "egilimler": {
         "codes": [
@@ -976,7 +1033,8 @@
           "E3.10",
           "E3.11"
         ],
-        "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/256#Eğilimler"
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=1",
+        "verbatim": "E1.2. Bağımsızlık, E2.2. Sorumluluk, E2.3. Girişkenlik, E3.3. Yaratıcılık, E3.5. Açık Fikirlilik, E3.10. Eleştirel Bakma, E3.11. Özgün Düşünme"
       },
       "programlar_arasi_bilesenler": {
         "sosyal_duygusal_ogrenme_becerileri": {
@@ -989,7 +1047,9 @@
             "SDB2.3",
             "SDB3.1",
             "SDB3.3"
-          ]
+          ],
+          "verbatim": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB1.3. Kendine Uyarlama (Öz Yansıtma), SDB2.1. İletişim, SDB2.2. İş Birliği, SDB2.3. Sosyal Farkındalık, SDB3.1. Uyum, SDB3.3. Sorumlu Karar Verme",
+          "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=1"
         },
         "degerler": {
           "codes": [
@@ -1001,7 +1061,9 @@
             "D15",
             "D19",
             "D20"
-          ]
+          ],
+          "verbatim": "D1. Adalet, D4. Dostluk, D7. Estetik, D11. Özgürlük, D12. Sabır, D15. Sevgi, D19. Vatanseverlik, D20. Yardımseverlik",
+          "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=1"
         },
         "okuryazarlik_becerileri": {
           "codes": [
@@ -1009,7 +1071,9 @@
             "OB2",
             "OB4",
             "OB9"
-          ]
+          ],
+          "verbatim": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık, OB9. Sanat Okuryazarlığı",
+          "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=1"
         }
       },
       "disiplinler_arasi_iliskiler": {
@@ -1018,13 +1082,17 @@
           "Psikoloji",
           "Sosyoloji",
           "Coğrafya"
-        ]
+        ],
+        "verbatim": "Tarih, Psikoloji, Sosyoloji, Coğrafya",
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=2"
       },
       "beceriler_arasi_iliskiler": {
         "codes": [
           "KB2.13",
           "KB3.3"
-        ]
+        ],
+        "verbatim": "KB2.13. Yapılandırma, KB3.3. Eleştirel Düşünme",
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=2"
       },
       "learning_outcomes": [
         {
@@ -1319,7 +1387,8 @@
       "process_component_extraction_status": "SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS",
       "icerik_cercevesi": {
         "summary": "Okuma: destan ve mesnevi, ara metin halk hikâyesi. Dinleme/izleme: fabl. Konuşma: Türk destanları hakkında sunum. Yazma: özgün fabl oluşturma.",
-        "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/256#İçerik-Çerçevesi"
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=3",
+        "verbatim": "“Dünden Bugüne” temasının içerik çerçevesi şu şekildedir: • Okuma • Konuşma • Dinleme/İzleme • Yazma Okuma becerisinin geliştirilmesi için tarihî süreç içerisinde edebî türlerde meydana gelen değişim ve dönüşüme örnek oluşturması bakımından destan ve mesnevi seçilir. Sözlü kültüre ait ve millî nitelikler taşıyan destanlardan mesnevi türüne kadar ilerleyen süreçte Türk dili ve edebiyatındaki değişim ve dönüşüm yolculuğu bu metinlerin incelenmesi suretiyle ortaya konur. Konuşma becerisinin geliştirilmesinde öğrenciler, Türk destanlarıyla ilgili bir sunum yaparak sözlü bir anlatım gerçekleştirir. Bu sayede Türk kültürünün en eski ürünlerini yakından tanımaları, incelemeleri ve arkadaşlarına aktarmaları sağlanır. Dinleme/izleme becerisinin geliştirilmesinde kahramanları insan dışı varlıklar olan, sembolik anlatımın önemli örnekleri kabul edilen fabl metni seçilir. Öğrenciden dinlediği/izlediği fabl metnini anlamlandırmasına ve çözümlemesine yönelik çalışmalar yapması beklenir. Yazma becerisinin geliştirilmesinde öğrenciler, bir fabl yazma çalışması yapmak suretiyle yazılı bir anlatım gerçekleştirir. Öğrencilerden yazacakları fablın amacına uygun olarak yöntem ve strateji belirlemeleri istenebilir. Hayal güçlerini kullanarak sembolik bir anlatımla özgün ürünler ortaya çıkarmaları sağlanır."
       },
       "anahtar_kavramlar": {
         "concepts": [
@@ -1336,7 +1405,8 @@
           "sözlü gelenek",
           "yapma destan"
         ],
-        "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/256#Anahtar-Kavramlar"
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=3",
+        "verbatim": "anlatım biçimleri, destan, didaktik üslup, doğal destan, fabl, halk hikâyesi, kurmaca, mesnevi, motif, olağanüstülük, sözlü gelenek, yapma destan"
       },
       "ogrenme_kanitlari_olcme_ve_degerlendirme": {
         "official_instrument_names": [
@@ -1374,7 +1444,9 @@
           }
         ],
         "theme_end_assessment": "Öğrenme günlüğü",
-        "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/256#Öğrenme-Kanıtları"
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=3",
+        "verbatim": "Metin Tahlili (Anlama) Okuma ve Dinleme/İzleme • Kısa cevaplı sorular • Açık uçlu sorular • Çalışma kâğıdı • Karşılaştırma tablosu • Kavram haritası • Yansıtıcı yazı • Öğrenme günlüğü Tarihî süreçte değişim ve dönüşümü yansıtan anlatmaya bağlı edebî metinlerde okumayı yönetebilmeye yönelik kısa cevaplı sorular; anlam oluşturma için T diyagramı, açık uçlu sorular; çözümleme yapmaya yönelik kısa cevaplı sorular, kavram haritası; öz yansıtmaya yönelik yansıtıcı yazı kullanılabilir. Dinlemeyi/izlemeyi yönetebilmeye yönelik bir kısa cevaplı soru, anlam oluşturabilmek ve metni çözümlemek için çalışma kâğıdı, açık uçlu sorular, karşılaştırma tablosu; öz yansıtma için yansıtıcı yazı kullanılabilir. Edebiyat Atölyesi (Anlatma) Konuşma ve Yazma • Öğrencilerin Türk destanları ile ilgili bir sunum hazırlayıp sunabilmelerine yönelik bir performans görevi • Öğrencilerin verilen temaya uygun bir fabl yazabilmelerine yönelik bir performans görevi Öğrencilerin Türk destanlarıyla ilgili bir sunum yaparak sergilediği performans, dereceli puanlama anahtarı ile puanlanır. Puanlama anahtarında içeriğe uygunluk, millî ve kültürel unsurlara yer verme, görsel ögeleri kullanma, zaman ve mekân kullanımı, sözü ve beden dilini etkili kullanma gibi ölçütler yer alır. Bu görev grup çalışması olarak gerçekleştirilebilir. Bir fabl metninin yazıldığı ve yazılan fablın paylaşıldığı performans görevleri dereceli puanlama anahtarıyla değerlendirilir. Puanlama anahtarında yaratıcılık, biçim ve tür özellikleri, ahenk unsurları, etkileyicilik gibi ölçütlere yer verilir. Değerlendirmelerde öz değerlendirme ile öğretmen ve akran değerlendirmesi yapılarak çeşitlilik sağlanabilir. Temanın sonunda öğrenme günlüğü ile değerlendirme yapılır.",
+        "verbatim_source": "REGISTERED_LOCAL_OFFICIAL_SNAPSHOT"
       },
       "official_web_crosscheck": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/256",
       "local_snapshot_verification": {
@@ -1383,6 +1455,15 @@
         "explicit_subcomponent_codes_found": 0,
         "process_component_representation": "PARENT_OUTCOME_PLUS_OFFICIAL_LEARNING_TEACHING_APPLICATIONS",
         "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9"
+      },
+      "page_range": "1-11",
+      "theme_introduction_verbatim": "Bu temada Türk dili ve edebiyatında dünden bugüne meydana gelen değişim ve dönüşümün incelenen edebî metinler aracılığıyla gösterilmesi amaçlanmaktadır. Bu doğrultuda, edebî metinlerin tarihî süreçte içerik, yapı, üslup vb. konularda nasıl bir değişime uğradığı ve nasıl farklılaştığı ele alınmaktadır. Bu temada okuma metinleri, destan ve mesnevi türlerinden seçilir. Destan incelenirken ara metin olarak halk hikâyesi türü kullanılır. Dinleme/izleme metni olarak da fabl türünde çok modlu bir metinden yararlanılır. İncelenen metinler başka türlerden örneklerle karşılaştırılarak edebî eserlerde meydana gelen değişim ve dönüşümlerle ilgili çıkarımlar yapılır. Edebiyat atölyesinde öğrencinin; tahlil ettiği destandan yola çıkarak Türk destanlarıyla ilgili bir konuşma yapması, dinlediği/izlediği metinden hareketle bir fabl yazması sağlanır.",
+      "theme_introduction_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=1",
+      "kavramsal_beceriler": {
+        "verbatim": null,
+        "source_status": "NOT_ENUMERATED_IN_REGISTERED_THEME_SNAPSHOT",
+        "parity_exception": "SOURCE_NOT_APPLICABLE",
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=1"
       }
     },
     {
@@ -1398,11 +1479,13 @@
         "school_based_planning": 2,
         "outer_theme_total": 45,
         "official_instructional_status": "EXPLICIT_OFFICIAL_WEB",
-        "school_based_allocation_status": "USER_CONFIRMED_PLANNING_RULE"
+        "school_based_allocation_status": "USER_CONFIRMED_PLANNING_RULE",
+        "verbatim": "43",
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=1"
       },
       "alan_becerileri": {
         "verbatim": "Metin Tahlili (Anlama): Okuma, Dinleme/İzleme; Edebiyat Atölyesi (Anlatma): Yazma, Konuşma",
-        "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/261#Alan-Becerileri"
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=1"
       },
       "egilimler": {
         "codes": [
@@ -1418,7 +1501,8 @@
           "E3.7",
           "E3.10"
         ],
-        "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/261#Eğilimler"
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=1",
+        "verbatim": "E1.1. Merak, E1.2. Bağımsızlık, E1.5. Kendine Güvenme (Öz Güven), E2.2. Sorumluluk, E2.3. Girişkenlik, E3.1. Muhakeme, E3.2. Odaklanma, E3.3. Yaratıcılık, E3.5. Açık Fikirlilik, E3.7. Sistematiklik, E3.10. Eleştirel Bakma"
       },
       "programlar_arasi_bilesenler": {
         "sosyal_duygusal_ogrenme_becerileri": {
@@ -1428,7 +1512,9 @@
             "SDB2.2",
             "SDB2.3",
             "SDB3.3"
-          ]
+          ],
+          "verbatim": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim, SDB2.2. İş Birliği, SDB2.3. Sosyal Farkındalık, SDB3.3. Sorumlu Karar Verme",
+          "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=1"
         },
         "degerler": {
           "codes": [
@@ -1437,14 +1523,18 @@
             "D14",
             "D16",
             "D19"
-          ]
+          ],
+          "verbatim": "D7. Estetik, D11. Özgürlük, D14. Saygı, D16. Sorumluluk, D19. Vatanseverlik",
+          "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=1"
         },
         "okuryazarlik_becerileri": {
           "codes": [
             "OB1",
             "OB4",
             "OB9"
-          ]
+          ],
+          "verbatim": "OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık, OB9. Sanat Okuryazarlığı",
+          "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=1"
         }
       },
       "disiplinler_arasi_iliskiler": {
@@ -1453,7 +1543,9 @@
           "Din",
           "Psikoloji",
           "Sosyoloji"
-        ]
+        ],
+        "verbatim": "Tarih, Din, Psikoloji, Sosyoloji",
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=2"
       },
       "beceriler_arasi_iliskiler": {
         "codes": [
@@ -1466,7 +1558,9 @@
           "SAB2",
           "SAB3",
           "SAB4"
-        ]
+        ],
+        "verbatim": "KB2.18. Tartışma, KB3.1. Karar Verme, SBAB3 Tarihsel Empati, SBAB4. Değişim ve Sürekliliği Algılama, SBAB16. Eleştirel Sosyolojik Düşünme, SAB1. Sanatsal Algılama, SAB2. Görsel Mesajı Okuma, SAB3. Sanat Eserini İnceleme, SAB4. Sanatsal Üretim Yapma",
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=2"
       },
       "learning_outcomes": [
         {
@@ -1761,7 +1855,8 @@
       "process_component_extraction_status": "SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS",
       "icerik_cercevesi": {
         "summary": "Okuma: Dede Korkut hikâyesi ve Tanzimat şiiri; ara metinler Servetifünun romanı ve Fecriati şiiri. Dinleme/izleme: Millî Edebiyat hikâyesi. Konuşma: Dede Korkut canlandırması. Yazma: dinlenen/izlenen hikâyeyi şiire dönüştürme.",
-        "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/261#İçerik-Çerçevesi"
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=3",
+        "verbatim": "“Nesillerin Mirası” temasının içerik çerçevesi şu şekildedir: • Okuma • Konuşma • Dinleme/İzleme • Yazma Okuma becerisinin geliştirilmesinde din, sosyoloji, felsefe, dil ve kültür gibi alanlarda yaşanan değişimler çerçevesinde Dede Korkut hikâyelerinden bir metin ile Tanzimat Dönemi’nden bir şiir incelenir. Ara metin olarak Servetifünun Dönemi’nden bir roman ile Fecriati Dönemi’nden bir şiir ele alınır. Bu metinler aracılığıyla sosyolojik, felsefi ve kültürel hayatta meydana gelen değişimlerin edebiyata nasıl yansıdığına cevap aranır. Konuşma becerisinin geliştirilmesinde öğrencilerin Dede Korkut hikâyelerinden birini canlandırmaları suretiyle sözlü bir anlatım gerçekleştirilir. Böylece geçmişten bugüne kültürümüzde değişmeden kalan ve değişen unsurları daha iyi anlamaları sağlanır. Dinleme/izleme becerisinin geliştirilmesinde Millî Edebiyat Dönemi’nin ruhunu yansıtan bir hikâye örneği incelenir. Bu metin ile millî değerlerin edebiyata nasıl yansıdığı, tarihî gerçekliklerin edebiyata hangi yönlerden kaynaklık ettiği gibi konuların üzerinde durulur ve öğrencilerde millî bilincin uyandırılması hedeflenir. Yazma becerisinin geliştirilmesinde öğrencilerin dinledikleri/izledikleri Millî Edebiyat Dönemi’ne ait hikâyeyi bir şiir metni hâline getirmeleri sağlanır.Böylece bir metinde konu edilen olay, durum ya da duygular farklı bir edebî türle ifade edilirken dilin özgün ve etkili kullanımı sağlanır."
       },
       "anahtar_kavramlar": {
         "concepts": [
@@ -1779,7 +1874,8 @@
           "yaşantı",
           "yenilik"
         ],
-        "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/261#Anahtar-Kavramlar"
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=3",
+        "verbatim": "açık ve örtük ileti, değişim, dönem, hikâye, kurmaca, millî bilinç, millî edebiyat, olağanüstülük, roman, sözlü kültür, şiir, yaşantı, yenilik"
       },
       "ogrenme_kanitlari_olcme_ve_degerlendirme": {
         "official_instrument_names": [
@@ -1821,7 +1917,9 @@
           }
         ],
         "theme_end_assessment": "Öğrenme günlüğü",
-        "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/261#Öğrenme-Kanıtları"
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=3",
+        "verbatim": "Metin Tahlili (Anlama) Okuma ve Dinleme/İzleme • Kısa cevaplı sorular • Gözlem formları • Çıkış kartları • Açık uçlu sorular • Öğrenme günlüğü • T diyagramı • Karşılaştırma tablosu • Çalışma kâğıdı • Bilgi haritası Bu temada okumayı yönetebilme sürecinde kısa cevaplı sorular kullanılabilir. Anlam oluşturma için bilgi haritası, karşılaştırma tablosu, kısa ve açık uçlu sorular; çözümleme yapmaya yönelik T diyagramı, kavram haritası, karşılaştırma tablosu ve öz yansıtma ile ilgili öğrenme günlüğü kullanılabilir. Dinleme/izleme metinleri ile ilgili olarak dinlemeyi/izlemeyi yönetmeye yönelik kısa cevaplı sorular, anlam oluşturabilme için çalışma kâğıdı, metin çözümlemeye yönelik gözlem formu ve karşılaştırma tablosu, öz yansıtma için açık uçlu sorular kullanılabilir. Edebiyat Atölyesi (Anlatma) Konuşma ve Yazma • Dede Korkut hikâyelerinden birini canlandırabilmeye yönelik performans görevi • Dinleme/izlemede incelediği hikâyeyi şiir şeklinde yazmaya yönelik performans görevi Öğrencilerin okudukları ve çözümledikleri Dede Korkut hikâyesini canlandırabilmelerine yönelik performansları dereceli puanlama anahtarı ile puanlanır. Puanlama anahtarında içeriğe uygunluk, özgünlük, görsel ve işitsel ögeleri kullanma, canlandırma becerisi, zaman ve mekân kullanımı, beden dilinin kullanımı vb. ölçütler yer alır. Bu çalışma grup çalışması hâlinde de yapılabilir. Öğrencilerin dinledikleri/izledikleri hikâyeyi şiir şeklinde yazmaya yönelik performansları; içeriğe uygunluk, etkileyicilik, şiir dilinin etkili kullanımı, noktalama ve dil bilgisi vb. ölçütler bağlamında dereceli puanlama anahtarı ile değerlendirilir. Tema sonu değerlendirme öğrenme günlüğü ile gerçekleştirilir.",
+        "verbatim_source": "REGISTERED_LOCAL_OFFICIAL_SNAPSHOT"
       },
       "official_web_crosscheck": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/261",
       "local_snapshot_verification": {
@@ -1830,7 +1928,20 @@
         "explicit_subcomponent_codes_found": 0,
         "process_component_representation": "PARENT_OUTCOME_PLUS_OFFICIAL_LEARNING_TEACHING_APPLICATIONS",
         "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9"
+      },
+      "page_range": "1-10",
+      "theme_introduction_verbatim": "Bu temada edebiyatın sosyolojik değişimlere ve bu değişimlerle çağlar boyu kazanılan kültürel birikimin ortaya çıkmasına zemin hazırlaması üzerinde durulmakta ve Türk dili ve edebiyatı tarihinde din, sosyoloji, felsefe, dil ve kültür alanlarında yaşanan değişimlerin edebî türlere yansıması ele alınmaktadır. Öğrencilere nesilden nesile aktarılarak bugüne miras kalan edebî birikimimizle ilgili farkındalık kazandırılması hedeflenmektedir. Bu temada okuma metni olarak Dede Korkut hikâyelerinden bir örnek ve Tanzimat Dönemi’nden bir şiir seçilir, ara metin olarak Servetifünun Dönemi’nden bir roman ve Fecriati Dönemi’nden bir şiir kullanılır. Dinleme/izleme metni olarak Millî Edebiyat Dönemi’nden çok modlu metin özelliği taşıyan bir hikâye ele alınır. Konuşmada öğrencinin tahlil ettiği Dede Korkut hikâyelerinden birini seçerek canlandırması, yazmada ise dinlediği/izlediği Millî Edebiyat Dönemi’ne ait hikâyeyi bir şiir hâline getirebilmesi sağlanır.",
+      "theme_introduction_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=1",
+      "kavramsal_beceriler": {
+        "verbatim": null,
+        "source_status": "NOT_ENUMERATED_IN_REGISTERED_THEME_SNAPSHOT",
+        "parity_exception": "SOURCE_NOT_APPLICABLE",
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=1"
       }
     }
-  ]
+  ],
+  "source_id": "curriculum_tde10_theme_bundle",
+  "effective_schema_profile": "TDE9_PARITY_COMPATIBLE_V1",
+  "parity_status": "PHASE_2_CURRICULUM_PARITY_VERIFIED",
+  "parity_reference": "courses/TDE_10/parity_contract.json"
 }

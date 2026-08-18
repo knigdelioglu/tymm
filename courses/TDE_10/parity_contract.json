@@ -242,9 +242,9 @@
     "UNRESOLVED_POLICY": "Any unresolved normative assessment target remains REVIEW_REQUIRED or PARTIALLY_COVERED; it may not be converted to COVERED by link existence alone."
   },
   "current_tde10_parity_findings": {
-    "curriculum_effective_schema_parity": "FAIL_REMEDIATION_REQUIRED",
+    "curriculum_effective_schema_parity": "PASS_WITH_SOURCE_NOT_APPLICABLE_EXCEPTIONS",
     "curriculum_outcome_verbatim": "PASS_64_OF_64_PARENT_OUTCOMES",
-    "curriculum_context_verbatim_depth": "FAIL_REMEDIATION_REQUIRED",
+    "curriculum_context_verbatim_depth": "PASS_4_OF_4_LOCAL_SNAPSHOTS",
     "textbook_section_inventory": "PASS_24_SECTIONS",
     "textbook_activity_inventory": "PASS_75_ACTIVITIES_DEPTH_REMEDIATION_REQUIRED",
     "forms_structure_not_title_rule": "PASS",
@@ -259,7 +259,7 @@
   },
   "phase_gates": {
     "PHASE_1_PARITY_CONTRACT": "PASS",
-    "PHASE_2_CURRICULUM_PARITY": "PENDING",
+    "PHASE_2_CURRICULUM_PARITY": "PASS",
     "PHASE_3_TEXTBOOK_ACTIVITY_DEPTH": "PENDING",
     "PHASE_4_FORM_TAXONOMY_AND_DPA_TARGETS": "PENDING",
     "PHASE_5_OUTCOME_LEVEL_NEEDS": "PENDING",

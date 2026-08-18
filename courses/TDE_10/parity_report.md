@@ -1,6 +1,6 @@
 # TDE_10 → TDE_9 Bilgi Tabanı Parity Raporu
 
-**Durum:** `FAZ 1 TAMAMLANDI / PARITY RELEASE BLOCKED`
+**Durum:** `FAZ 1-2 TAMAMLANDI / FAZ 3 PENDING / PARITY RELEASE BLOCKED`
 
 Bu raporun amacı 10. sınıf verisini 9. sınıfla içerik olarak aynılaştırmak değil; **aynı kaynak sadakati, aynı doğrulama derinliği, aynı outcome-level izlenebilirlik ve aynı assessment/gap karar güvenilirliği seviyesine çıkarmaktır.**
 
@@ -144,3 +144,19 @@ TDE_10 ancak aşağıdaki koşulların tümü sağlandığında TDE_9 seviyesi k
 - Gerçek cross-theme assessment consolidation yapıldı.
 - Production kararı bu yeni analizden yeniden üretildi.
 - Final P0 ve TDE_9 regresyonu geçti.
+
+
+## 8. Faz 2 uygulama sonucu
+
+Faz 2 tamamlandı. `curriculum_map.json` dört kayıtlı resmî TDE_10 tema PDF snapshot'ından yeniden zenginleştirildi.
+
+- 4/4 tema girişi verbatim + yerel PDF locator kazandı.
+- Ders saati, alan becerileri, eğilimler, sosyal-duygusal öğrenme, değerler, okuryazarlık, disiplinler arası ilişkiler ve beceriler arası ilişkiler verbatim + locator kazandı.
+- İçerik çerçevesi, anahtar kavramlar ve öğrenme kanıtları/ölçme-değerlendirme hükümleri verbatim + locator kazandı.
+- 64 parent outcome korunarak tekrar sayıldı.
+- Resmî tema snapshot'ında ayrı bir Kavramsal Beceriler alanı yayımlanmadığı durum SOURCE_NOT_APPLICABLE olarak açıkça kaydedildi; veri uydurulmadı.
+- TDE_9 süreç alt kodları TDE_10'a kopyalanmadı.
+
+**Faz 2 gate:** `PASS_WITH_SOURCE_NOT_APPLICABLE_EXCEPTIONS`
+
+Sonraki kapı: **Faz 3 — textbook activity semantic/evidence depth parity**.
