@@ -1,0 +1,78 @@
+name: TYMM reuse-only shared compatibility
+
+on:
+  push:
+    paths:
+      - '.github/workflows/tymm-reuse-only-compat.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Patch resolver, indexer and runtime compiler
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          base=Path('skill/tymm-material-planner/scripts')
+
+          # Resolver: block generation when verified production contract says reuse-only/no gap.
+          p=base/'knowledge_resolver.py'; s=p.read_text(encoding='utf-8')
+          old='''        canonical_resolution_verified = len(resolved_entities) > 0 and ambiguity_status != "AMBIGUOUS_ENTITY"\n        material_generation_allowed = (\n            index_freshness == "INDEX_FRESH"\n            and resolution_status == "RESOLVED"\n            and not conflicts\n            and ambiguity_status != "AMBIGUOUS_ENTITY"\n            and canonical_resolution_verified\n        )\n'''
+          new='''        canonical_resolution_verified = len(resolved_entities) > 0 and ambiguity_status != "AMBIGUOUS_ENTITY"\n        reuse_only_generation_block = (\n            intent == "MATERIAL_GENERATION"\n            and self.production_manifest.get("production_mode") == "REUSE_ONLY_NO_NEW_ARTIFACTS"\n            and self.production_manifest.get("verified_resource_gap_count") == 0\n            and not production_context\n        )\n        material_generation_allowed = (\n            index_freshness == "INDEX_FRESH"\n            and resolution_status == "RESOLVED"\n            and not conflicts\n            and ambiguity_status != "AMBIGUOUS_ENTITY"\n            and canonical_resolution_verified\n            and not reuse_only_generation_block\n        )\n'''
+          if old not in s: raise SystemExit('resolver material gate target not found')
+          s=s.replace(old,new,1)
+          old2='''            elif index_freshness != "INDEX_FRESH":\n                block_reason = index_freshness\n            elif not canonical_resolution_verified:\n                block_reason = "CANONICAL_RESOLUTION_UNVERIFIED"\n'''
+          new2='''            elif index_freshness != "INDEX_FRESH":\n                block_reason = index_freshness\n            elif reuse_only_generation_block:\n                block_reason = "NO_VERIFIED_RESOURCE_GAP"\n            elif not canonical_resolution_verified:\n                block_reason = "CANONICAL_RESOLUTION_UNVERIFIED"\n'''
+          if old2 not in s: raise SystemExit('resolver block reason target not found')
+          p.write_text(s.replace(old2,new2,1),encoding='utf-8')
+
+          # Indexer: support TDE_10 summary/printed range field variants without changing TDE_9 semantics.
+          p=base/'knowledge_index.py'; s=p.read_text(encoding='utf-8')
+          replacements={
+              'theme_intro = theme.get("theme_introduction_verbatim", "")':'theme_intro = theme.get("theme_introduction_verbatim") or theme.get("theme_introduction_summary", "")',
+              'sec_page = str(sec.get("printed_page", "") or sec.get("page_locator", ""))':'sec_page = str(sec.get("printed_page", "") or sec.get("printed_page_range", "") or sec.get("page_locator", ""))',
+              'sec_pdf = str(sec.get("pdf_page", ""))':'sec_pdf = str(sec.get("pdf_page", "") or sec.get("pdf_page_range", ""))',
+              'sec_genres = ", ".join(t.get("title", "") for t in sec.get("texts_and_genres", []))':'text_rows = sec.get("texts_and_genres", []) or sec.get("main_texts", [])\n                sec_genres = ", ".join(t.get("title", "") for t in text_rows)',
+              'act_title = act.get("title") or act.get("activity_title", "")':'act_title = act.get("title") or act.get("exact_title") or act.get("activity_title") or act_id',
+          }
+          for old,new in replacements.items():
+              if old not in s: raise SystemExit(f'indexer target not found: {old}')
+              s=s.replace(old,new,1)
+          p.write_text(s,encoding='utf-8')
+
+          # Runtime compiler: deterministic fallback outcome ID + TDE_10 instructional_total hours.
+          p=base/'build_runtime_course_package.py'; s=p.read_text(encoding='utf-8')
+          old='o["outcome_id"],tid,o["outcome_code"]'
+          new='(o.get("outcome_id") or f"{tid}::{o[\'outcome_code\']}"),tid,o["outcome_code"]'
+          if old not in s: raise SystemExit('runtime outcome id target not found')
+          s=s.replace(old,new,1)
+          old='integer(ah.get("total"))'
+          new='integer(first(ah,"total","instructional_total"))'
+          if old not in s: raise SystemExit('runtime hours target not found')
+          s=s.replace(old,new,1)
+          p.write_text(s,encoding='utf-8')
+
+          # Small regression for the production-schema reuse-only invariant.
+          test=Path('skill/tymm-material-planner/tests/test_reuse_only_contract.py')
+          test.write_text('''#!/usr/bin/env python3\nimport sys\nfrom pathlib import Path\nSCRIPTS=Path(__file__).resolve().parents[1]/"scripts"\nsys.path.insert(0,str(SCRIPTS))\nfrom production_schema import build_artifact_maps, ProductionSchemaError\n\nvalid={"schema_version":"1.1","production_mode":"REUSE_ONLY_NO_NEW_ARTIFACTS","verified_resource_gap_count":0,"production_queue":[],"gap_instance_provenance_registry":[]}\narts,by_id,aliases,prov=build_artifact_maps(valid)\nassert arts==[] and by_id=={} and aliases=={} and prov=={}\n\nbad=dict(valid); bad["verified_resource_gap_count"]=1\ntry:\n    build_artifact_maps(bad)\nexcept ProductionSchemaError:\n    pass\nelse:\n    raise AssertionError("empty queue accepted with non-zero verified gap count")\nprint("reuse-only production schema regression: PASS")\n''',encoding='utf-8')
+          PY
+      - name: Run focused regressions
+        run: |
+          python skill/tymm-material-planner/tests/test_reuse_only_contract.py
+          python -m py_compile skill/tymm-material-planner/scripts/production_schema.py skill/tymm-material-planner/scripts/knowledge_resolver.py skill/tymm-material-planner/scripts/knowledge_index.py skill/tymm-material-planner/scripts/build_runtime_course_package.py
+      - name: Commit shared compatibility changes
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add skill/tymm-material-planner
+          git commit -m 'feat(tymm): support reuse-only course production safely'
+          git push
