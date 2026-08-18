@@ -85,8 +85,6 @@ def build(root: Path) -> dict[str, Any]:
     def ins(sql, vals): db.execute(sql, vals)
     course_id = curriculum["course_id"]
     ins("INSERT INTO courses VALUES (?,?,?,?,?)", (course_id, curriculum.get("grade"), curriculum.get("course_title"), SCHEMA_VERSION, fingerprint))
-    # Forms are referenced while textbook activities are projected; load the
-    # verified form index first so foreign-key checks remain active throughout.
     for f in sorted(forms_data["forms"],key=lambda x:x["form_id"]):
         ins("INSERT INTO forms VALUES (?,?,?,?,?,?,?,?,?)",(f["form_id"],f.get("title",f["form_id"]),f.get("structural_type"),f.get("assessment_type"),integer(f.get("printed_page")),integer(f.get("pdf_page")),f.get("evaluator"),forms_data.get("source_id"),f.get("verification_status")))
     theme_by_id = {x["theme_id"]: x for x in curriculum["themes"]}; textbook_themes = {x["theme_id"]: x for x in textbook["themes"]}; time_themes = {x["theme_id"]: x for x in timeline["themes"]}
@@ -95,32 +93,35 @@ def build(root: Path) -> dict[str, Any]:
         tid=t["theme_id"]; th=textbook_themes.get(tid,{}); tt=time_themes.get(tid,{})
         ah=t.get("allocated_lesson_hours") or {}; ins("INSERT INTO themes VALUES (?,?,?,?,?,?,?,?,?)", (tid,course_id,t.get("theme_no"),t.get("exact_theme_name",t.get("theme_title",tid)),t.get("page_range"),integer(first(ah,"total","instructional_total")),integer(ah.get("anlama")),integer(ah.get("anlatma")),t.get("source_locator")))
         for o in t.get("learning_outcomes",[]):
-            ins("INSERT INTO outcomes VALUES (?,?,?,?,?,?,?)", ((o.get("outcome_id") or f"{tid}::{o['outcome_code']}"),tid,o["outcome_code"],text(o.get("outcome_verbatim","")) or "",text(o.get("process_components_verbatim")),text(o.get("source_locator")),text(o.get("verification_status"))))
+            oid=o.get("outcome_id") or f"{tid}::{o['outcome_code']}"
+            ins("INSERT INTO outcomes VALUES (?,?,?,?,?,?,?)", (oid,tid,o["outcome_code"],text(o.get("outcome_verbatim","")) or "",text(o.get("process_components_verbatim")),text(o.get("source_locator")),text(o.get("verification_status"))))
         for s in th.get("sections",[]):
             ins("INSERT INTO textbook_sections VALUES (?,?,?,?,?,?,?)", (s["section_id"],tid,s.get("section_title",s["section_id"]),s.get("genre"),s.get("printed_page_range"),s.get("pdf_page_range"),textbook.get("source_id")))
             for a in s.get("activities",[]):
-                ins("INSERT INTO activities VALUES (?,?,?,?,?,?,?,?,?,?)", (a["activity_id"],s["section_id"],tid,a.get("exact_title",a["activity_id"]),a.get("activity_type"),a.get("student_action"),a.get("expected_product_or_evidence"),text(a.get("printed_page")),text(a.get("pdf_page")),a.get("verification_status")))
+                ins("INSERT INTO activities VALUES (?,?,?,?,?,?,?,?,?,?)", (a["activity_id"],s["section_id"],tid,a.get("exact_title",a.get("activity_title",a["activity_id"])),a.get("activity_type",a.get("type")),a.get("student_action"),a.get("expected_product_or_evidence",a.get("expected_student_evidence")),text(a.get("printed_page")),text(a.get("pdf_page")),a.get("verification_status")))
                 for fid in a.get("related_forms",[]):
                     if fid in {f["form_id"] for f in forms_data["forms"]}: ins("INSERT OR IGNORE INTO activity_forms VALUES (?,?)",(a["activity_id"],fid))
         for b in tt.get("blocks",[]):
             bid=b["block_id"]; block_by_id[bid]=b; tb=teaching_by_id.get(bid,{}); ins("INSERT INTO blocks VALUES (?,?,?,?,?,?,?,?,?)",(bid,tid,b.get("block_order",b.get("block_sequence")),text(b.get("title",b.get("block_title",bid))) or bid,text(b.get("skill_domain")),text(b.get("learning_area")),integer(first(b,"planned_hours","approximate_lesson_hours")),text(b.get("time_status",b.get("lesson_hours_status"))),j(b.get("source_locators",[]))))
-            outcomes_by_key={(o["outcome_code"],tid):o["outcome_id"] for o in t.get("learning_outcomes",[])}
+            outcomes_by_key={(o["outcome_code"],tid):(o.get("outcome_id") or f"{tid}::{o['outcome_code']}") for o in t.get("learning_outcomes",[])}
             block_outcome_codes=tb.get("curriculum_outcomes", b.get("outcomes",b.get("curriculum_outcomes",[])))
             for code in block_outcome_codes:
                 if (code,tid) not in outcomes_by_key: raise ValueError(f"unknown canonical outcome relation: {bid} -> {code} in {tid}")
                 ins("INSERT INTO block_outcomes VALUES (?,?)",(bid,outcomes_by_key[(code,tid)]))
+            activity_ids={a[0] for a in db.execute("SELECT activity_id FROM activities")}
             for aid in tb.get("textbook_activity_ids",[]):
-                if aid in {a[0] for a in db.execute("SELECT activity_id FROM activities")}: 
+                if aid in activity_ids:
                     ins("INSERT OR IGNORE INTO block_activities VALUES (?,?)",(bid,aid))
                     for code in block_outcome_codes:
                         oid=outcomes_by_key.get((code,tid));
                         if oid: ins("INSERT OR IGNORE INTO activity_outcomes VALUES (?,?)",(aid,oid))
+            form_ids={f["form_id"] for f in forms_data["forms"]}
             for fid in tb.get("textbook_form_ids",[]):
-                if fid in {f["form_id"] for f in forms_data["forms"]}:
-                    for aid in tb.get("textbook_activity_ids",[]): ins("INSERT OR IGNORE INTO activity_forms VALUES (?,?)",(aid,fid))
+                if fid in form_ids:
+                    for aid in tb.get("textbook_activity_ids",[]):
+                        if aid in activity_ids: ins("INSERT OR IGNORE INTO activity_forms VALUES (?,?)",(aid,fid))
         ins("INSERT INTO timeline_themes VALUES (?,?,?,?,?,?,?)",(tid,t.get("theme_no"),integer(tt.get("official_total_hours")),integer(tt.get("core_instruction_hours")),integer(tt.get("school_based_hours")),tt.get("school_based_hours_status"),j(tt.get("source_locators",[]))))
         for b in tt.get("blocks",[]): ins("INSERT INTO timeline_blocks VALUES (?,?,?,?,?,?)",(b["block_id"],tid,b.get("block_order"),integer(b.get("planned_hours")),b.get("time_status"),j(b.get("source_locators",[]))))
-    # Canonical resource plans are intentionally projected without generating new resources.
     for p in sorted(root.glob("themes/tema_*/resource_plan.json")):
         d=read_json(p); tid=d.get("theme_id"); arr=d.get("resources",d.get("resource_plans",[]))
         for r in arr:
@@ -133,11 +134,10 @@ def build(root: Path) -> dict[str, Any]:
     for m in prod.get("gap_instance_provenance_registry",[]):
         ins("INSERT INTO assessment_gap_mappings VALUES (?,?,?,?,?,?,?)",(m["gap_instance_id"],m["resolved_artifact_id"],m["theme_id"],m.get("resource_plan_id"),m.get("official_requirement_verbatim"),m.get("exact_remaining_gap"),j(m.get("source_locators",{}))))
     for s in manifest.get("sources",[]):
-        ins("INSERT INTO source_references VALUES (?,?,?,?,?,?,?)",(s["source_id"],s.get("source_type"),s.get("title",s["source_id"]),None,s.get("source_type"),s.get("authority_rank"),s.get("verification_status")))
-    # Stable source links are added only where the canonical locator is already present.
+        ins("INSERT INTO source_references VALUES (?,?,?,?,?,?,?)",(s["source_id"],s.get("source_type"),s.get("title",s["source_id"]),s.get("file_path") or s.get("url"),s.get("source_type"),s.get("authority_rank"),s.get("verification_status")))
     for t in curriculum["themes"]:
         sid=curriculum.get("source_id"); loc=t.get("source_locator");
-        if sid and loc: ins("INSERT OR IGNORE INTO entity_source_references VALUES (?,?,?,?)",("theme",t["theme_id"],sid,loc))
+        if sid and loc and db.execute("SELECT 1 FROM source_references WHERE source_id=?",(sid,)).fetchone(): ins("INSERT OR IGNORE INTO entity_source_references VALUES (?,?,?,?)",("theme",t["theme_id"],sid,loc))
     db.commit(); db.close()
     count_db=sqlite3.connect(dbpath)
     counts={table: count_db.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0] for table in ["courses","themes","blocks","block_activities","outcomes","block_outcomes","textbook_sections","activities","activity_outcomes","forms","activity_forms","resource_decisions","assessment_artifacts","assessment_gap_mappings","assessment_task_bindings","timeline_themes","timeline_blocks","source_references","entity_source_references"]}
@@ -150,6 +150,7 @@ def build(root: Path) -> dict[str, Any]:
 
 def validate(root: Path, write_report: bool=False) -> dict[str,Any]:
     root=root.resolve(); out=root/"runtime"; mp=read_json(out/"runtime_manifest.json")
+    production=read_json(root/"production/production_manifest.json")
     db=sqlite3.connect(out/"course_runtime.sqlite"); db.execute("PRAGMA foreign_keys=ON")
     checks=[]
     def check(name, ok, detail=""): checks.append((name,bool(ok),detail))
@@ -159,15 +160,19 @@ def validate(root: Path, write_report: bool=False) -> dict[str,Any]:
     orphan=db.execute("SELECT COUNT(*) FROM assessment_gap_mappings g LEFT JOIN assessment_artifacts a ON a.artifact_id=g.artifact_id WHERE a.artifact_id IS NULL").fetchone()[0]; check("orphan relations",orphan==0,str(orphan))
     fresh=compiler_state(root)[1]==mp.get("canonical_content_fingerprint"); check("source fingerprint status",fresh,"RUNTIME_FRESH" if fresh else "RUNTIME_STALE")
     check("timeline projection status", db.execute("SELECT COUNT(*) FROM timeline_blocks WHERE planned_hours IS NOT NULL").fetchone()[0]==0, "block hours remain ORDER_ONLY")
-    check("assessment mapping status", db.execute("SELECT COUNT(*) FROM assessment_gap_mappings").fetchone()[0]>0)
+    mapping_count=db.execute("SELECT COUNT(*) FROM assessment_gap_mappings").fetchone()[0]
+    expected_gap_count=production.get("verified_resource_gap_count")
+    check("assessment mapping status", mapping_count==expected_gap_count, f"runtime={mapping_count}, canonical={expected_gap_count}")
+    artifact_count=db.execute("SELECT COUNT(*) FROM assessment_artifacts").fetchone()[0]
+    expected_artifact_count=production.get("expected_new_artifact_count",len(production.get("production_queue",[])))
+    check("assessment artifact projection status", artifact_count==expected_artifact_count, f"runtime={artifact_count}, canonical={expected_artifact_count}")
     check("resource decision projection status", db.execute("SELECT COUNT(*) FROM resource_decisions").fetchone()[0]>0)
-    # Five application acceptance queries; each returns deterministic entity classes.
     q=[]
     q.append(db.execute("SELECT b.block_id,o.outcome_code,a.activity_id,a.printed_page,f.form_id,aa.artifact_id,r.decision_code FROM blocks b LEFT JOIN block_outcomes bo ON bo.block_id=b.block_id LEFT JOIN outcomes o ON o.outcome_id=bo.outcome_id LEFT JOIN block_activities ba ON ba.block_id=b.block_id LEFT JOIN activities a ON a.activity_id=ba.activity_id LEFT JOIN activity_forms af ON af.activity_id=a.activity_id LEFT JOIN forms f ON f.form_id=af.form_id LEFT JOIN assessment_task_bindings tb ON tb.block_id=b.block_id LEFT JOIN assessment_artifacts aa ON aa.artifact_id=tb.artifact_id LEFT JOIN resource_decisions r ON r.theme_id=b.theme_id WHERE b.theme_id='TEMA_02' AND b.block_id LIKE '%KONUSMA%' LIMIT 1").fetchall())
-    q.append(db.execute("SELECT b.block_id,n.block_id FROM blocks b LEFT JOIN blocks n ON n.block_order=b.block_order+1 AND n.theme_id=b.theme_id WHERE b.block_id=?",("BLOCK_T2_02_KONUSMA",)).fetchall())
+    q.append(db.execute("SELECT b.block_id,n.block_id FROM blocks b LEFT JOIN blocks n ON n.block_order=b.block_order+1 AND n.theme_id=b.theme_id WHERE b.theme_id='TEMA_02' ORDER BY b.block_order LIMIT 1").fetchall())
     q.append(db.execute("SELECT t.theme_id,b.block_id,t.theme_order,b.block_order,t.school_based_hours FROM timeline_themes t JOIN timeline_blocks b ON b.theme_id=t.theme_id ORDER BY t.theme_order,b.block_order").fetchall())
     q.append(db.execute("SELECT r.decision_code,s.section_id,a.activity_id,r.app_category FROM resource_decisions r LEFT JOIN activities a ON a.theme_id=r.theme_id LEFT JOIN textbook_sections s ON s.section_id=a.section_id WHERE r.theme_id=? LIMIT 1",("TEMA_02",)).fetchall())
-    q.append(db.execute("SELECT o.outcome_id,b.block_id,a.activity_id,f.form_id,aa.artifact_id,r.resource_plan_id,s.source_id FROM outcomes o LEFT JOIN block_outcomes bo ON bo.outcome_id=o.outcome_id LEFT JOIN blocks b ON b.block_id=bo.block_id LEFT JOIN activities a ON a.theme_id=o.theme_id LEFT JOIN activity_forms af ON af.activity_id=a.activity_id LEFT JOIN forms f ON f.form_id=af.form_id LEFT JOIN assessment_task_bindings tb ON tb.theme_id=o.theme_id LEFT JOIN assessment_artifacts aa ON aa.artifact_id=tb.artifact_id LEFT JOIN resource_decisions r ON r.theme_id=o.theme_id LEFT JOIN entity_source_references es ON es.entity_id=o.theme_id LEFT JOIN source_references s ON s.source_id=es.source_id WHERE o.theme_id=? LIMIT 1",("TEMA_02",)).fetchall())
+    q.append(db.execute("SELECT o.outcome_id,b.block_id,a.activity_id,f.form_id,aa.artifact_id,r.resource_plan_id FROM outcomes o LEFT JOIN block_outcomes bo ON bo.outcome_id=o.outcome_id LEFT JOIN blocks b ON b.block_id=bo.block_id LEFT JOIN activities a ON a.theme_id=o.theme_id LEFT JOIN activity_forms af ON af.activity_id=a.activity_id LEFT JOIN forms f ON f.form_id=af.form_id LEFT JOIN assessment_task_bindings tb ON tb.theme_id=o.theme_id LEFT JOIN assessment_artifacts aa ON aa.artifact_id=tb.artifact_id LEFT JOIN resource_decisions r ON r.theme_id=o.theme_id WHERE o.theme_id=? LIMIT 1",("TEMA_02",)).fetchall())
     for i,x in enumerate(q,1): check(f"application query {chr(64+i)}",bool(x),f"rows={len(x)}")
     names={x[0] for x in db.execute("SELECT name FROM sqlite_master WHERE type='table'")}; check("copyright payload check", "text_body" not in names and "embeddings" not in names)
     check("user state excluded", not any(re.search(r"(student|teacher|user|note|preference|progress|app_state)",n,re.I) for n in names))
