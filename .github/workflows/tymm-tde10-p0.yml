@@ -1,6 +1,5 @@
 name: TDE10 Generic P0 Gate
 
-# trigger_revision: 2
 on:
   push:
     branches:
@@ -84,7 +83,7 @@ jobs:
       - name: Run TDE10 generic P0 gate
         run: python skill/tymm-material-planner/scripts/generic_p0_course_gate.py
 
-      - name: Verify derived status
+      - name: Verify provisional derived status
         run: |
           python skill/tymm-material-planner/scripts/knowledge_index.py status --knowledge-root courses/TDE_10
           python skill/tymm-material-planner/scripts/build_runtime_course_package.py status --knowledge-root courses/TDE_10
@@ -117,6 +116,14 @@ jobs:
               readme=head+'''\n\n## Güncel üretim durumu\n\n```text\nCanonical curriculum                 VERIFIED / FROZEN\nLocal official textbook PDF          VERIFIED / FROZEN\nProgram-textbook alignment           64/64 COVERED\nVerified resource gaps               0\nProduction mode                      REUSE_ONLY_NO_NEW_ARTIFACTS\nTeaching blocks                      16\nKnowledge index                      INDEX_FRESH\nRuntime projection                   PASS\nP0 gate                              PASS\nGenerated new artifacts              0\n```\n\nHer tema 45 saatlik dış bloktur: 43 saat resmî tema öğretimi + 2 saat okul temelli planlama. Okul temelli planlama ayrı pedagojik katmandır ve curriculum gap değildir. `knowledge.sqlite` ile runtime SQLite yalnız yeniden üretilebilir projection/cache katmanıdır; canonical JSON/MD source of truth olarak kalır.\n'''
               readme_path.write_text(readme,encoding='utf-8')
           PY
+
+      - name: Rebuild projections after final P0 metadata
+        run: python skill/tymm-material-planner/scripts/generic_p0_course_gate.py
+
+      - name: Verify final derived status
+        run: |
+          python skill/tymm-material-planner/scripts/knowledge_index.py status --knowledge-root courses/TDE_10
+          python skill/tymm-material-planner/scripts/build_runtime_course_package.py status --knowledge-root courses/TDE_10
 
       - name: Commit TDE10 derived P0 outputs
         run: |
