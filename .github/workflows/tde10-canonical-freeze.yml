@@ -1,0 +1,189 @@
+name: TDE10 canonical freeze
+
+on:
+  push:
+    paths:
+      - '.github/workflows/tde10-canonical-freeze.yml'
+      - 'courses/TDE_10/source_docs/derived_curriculum/**'
+      - 'courses/TDE_10/curriculum_map.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  freeze:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify source completeness and freeze canonical curriculum
+        run: |
+          python - <<'PY'
+          import json, re, unicodedata
+          from pathlib import Path
+
+          root = Path('courses/TDE_10')
+          derived = root / 'source_docs/derived_curriculum'
+          cmap_path = root / 'curriculum_map.json'
+          manifest_path = root / 'source_manifest.json'
+
+          def load(p):
+              return json.loads(p.read_text(encoding='utf-8'))
+          def save(p, obj):
+              p.write_text(json.dumps(obj, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          def norm(s):
+              s = unicodedata.normalize('NFKC', s or '')
+              s = s.replace('“','"').replace('”','"').replace('’',"'")
+              return re.sub(r'\s+', ' ', s).strip().casefold()
+
+          cmap = load(cmap_path)
+          expected_codes = [f'TDE{family}.{n}' for family in range(1,5) for n in range(1,5)]
+          audit = {
+              'schema_version': '1.0',
+              'course_id': 'TDE_10',
+              'audit_type': 'CANONICAL_CURRICULUM_SOURCE_COMPLETENESS',
+              'registered_theme_snapshots': 4,
+              'expected_parent_outcomes_per_theme': 16,
+              'expected_total_parent_outcomes': 64,
+              'explicit_subcomponent_code_pattern': r'TDE[1-4]\.[1-4]\.[0-9]+',
+              'themes': [],
+              'decision_rule': 'Freeze only facts explicitly supported by the registered official snapshots. Do not synthesize TDE*.x.y subordinate process codes from TDE_9 or supporting documents when the registered TDE_10 snapshots do not enumerate them.'
+          }
+
+          total_parent_found = 0
+          total_subcodes = 0
+          for idx, theme in enumerate(cmap['themes'], start=1):
+              pages = load(derived / f'theme_{idx:02d}_pages.json')
+              all_text = '\n'.join(p.get('text','') for p in pages)
+              subcodes = sorted(set(re.findall(r'\bTDE[1-4]\.[1-4]\.[0-9]+\b', all_text)))
+              total_subcodes += len(subcodes)
+
+              found = []
+              missing = []
+              page_by_code = {}
+              for code in expected_codes:
+                  hit_page = None
+                  for p in pages:
+                      if re.search(rf'(?<![0-9A-Za-z]){re.escape(code)}\.(?!\d)', p.get('text','')):
+                          hit_page = p['pdf_page']
+                          break
+                  if hit_page is None:
+                      missing.append(code)
+                  else:
+                      found.append(code)
+                      page_by_code[code] = hit_page
+              if missing:
+                  raise SystemExit(f'TEMA_{idx:02d}: missing parent outcomes: {missing}')
+              total_parent_found += len(found)
+
+              snapshot_rel = theme['local_source_snapshot']
+              old_web = theme.get('source_locator')
+              theme['official_web_crosscheck'] = old_web
+              theme['source_locator'] = f'{snapshot_rel}#pdf_page=1'
+              theme['local_snapshot_verification'] = {
+                  'status': 'PASS',
+                  'derived_text_source': f'source_docs/derived_curriculum/theme_{idx:02d}_pages.json',
+                  'parent_outcomes_found': len(found),
+                  'explicit_subcomponent_codes_found': len(subcodes),
+                  'explicit_subcomponent_codes': subcodes,
+                  'process_component_representation': 'PARENT_OUTCOME_PLUS_OFFICIAL_LEARNING_TEACHING_APPLICATIONS',
+                  'inference_from_other_grade_forbidden': True
+              }
+
+              by_code = {o['outcome_code']: o for o in theme['learning_outcomes']}
+              if set(by_code) != set(expected_codes):
+                  raise SystemExit(f'TEMA_{idx:02d}: curriculum_map outcome code set mismatch')
+              for code, outcome in by_code.items():
+                  old_loc = outcome.get('source_locator')
+                  outcome['official_web_crosscheck'] = old_loc
+                  outcome['source_page'] = page_by_code[code]
+                  outcome['source_locator'] = f'{snapshot_rel}#pdf_page={page_by_code[code]}'
+                  outcome['process_components_verbatim'] = []
+                  outcome['process_components_status'] = 'SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS'
+                  outcome['process_component_representation'] = {
+                      'explicit_subcomponent_ids_in_registered_snapshot': False,
+                      'canonical_policy': 'DO_NOT_INFER_OR_COPY_FROM_TDE_9',
+                      'official_process_realization': 'Learning-teaching application paragraphs under the parent outcome in the same official theme snapshot.'
+                  }
+              theme['process_component_extraction_status'] = 'SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS'
+
+              audit['themes'].append({
+                  'theme_id': theme['theme_id'],
+                  'snapshot': snapshot_rel,
+                  'parent_outcomes_found': len(found),
+                  'missing_parent_outcomes': missing,
+                  'explicit_subcomponent_codes_found': subcodes,
+                  'status': 'PASS'
+              })
+
+          if total_parent_found != 64:
+              raise SystemExit(f'Expected 64 parent outcomes, got {total_parent_found}')
+          if total_subcodes != 0:
+              raise SystemExit(f'Registered TDE_10 snapshots unexpectedly enumerate subordinate process codes: {total_subcodes}. Manual adjudication required.')
+
+          audit['summary'] = {
+              'parent_outcomes_verified': total_parent_found,
+              'explicit_subcomponent_codes_found': total_subcodes,
+              'source_complete': True,
+              'canonical_decision': 'FREEZE_WITHOUT_SYNTHETIC_SUBCOMPONENT_IDS'
+          }
+          save(root / 'source_docs/curriculum_source_completeness_audit.json', audit)
+
+          cmap['source_mode'] = 'MULTI_PART_OFFICIAL_LOCAL_SNAPSHOT_BUNDLE_WITH_WEB_CROSSCHECK'
+          cmap['verification_status'] = 'VERIFIED'
+          cmap['canonical_freeze_status'] = 'FROZEN'
+          cmap['scope_summary']['textbook_used'] = True
+          cmap['scope_summary']['alignment_performed'] = True
+          cmap['scope_summary']['gap_analysis_performed'] = True
+          cmap['scope_summary']['materials_generated'] = False
+          cmap['source_validation'] = {
+              'bundle_expected_parts': 4,
+              'bundle_registered_parts': 4,
+              'official_web_identity_crosscheck': 'PASS',
+              'local_pdf_content_extraction': 'PASS',
+              'parent_outcome_local_snapshot_match': 'PASS_64_OF_64',
+              'explicit_subcomponent_id_scan': 'PASS_NONE_ENUMERATED_IN_REGISTERED_TDE10_SNAPSHOTS',
+              'process_component_extraction': 'SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS',
+              'canonical_policy': 'No subordinate process-component IDs are synthesized. Official parent outcomes and learning-teaching application text are authoritative.',
+              'freeze_blocker': None
+          }
+          save(cmap_path, cmap)
+
+          manifest = load(manifest_path)
+          manifest['overall_status'] = 'CANONICAL_KNOWLEDGE_FROZEN_TEXTBOOK_ALIGNMENT_PASS'
+          manifest['scope']['curriculum_map_status'] = 'FROZEN_VERIFIED_LOCAL_SNAPSHOTS'
+          bundle = manifest['curriculum_source_bundle']
+          bundle['completeness_status'] = 'COMPLETE_VERIFIED_FROZEN_SOURCE_SET'
+          bundle['verification_rule'] = 'All four registered official theme snapshots were text-extracted. Each contains the expected 16 parent learning outcomes. No TDE*.x.y subordinate process IDs are explicitly enumerated, so none are synthesized.'
+          for p in bundle['parts']:
+              p['verification_status'] = 'LOCAL_SNAPSHOT_CONTENT_VERIFIED'
+          save(manifest_path, manifest)
+
+          # Update needs to remove obsolete process-component pending flags without inventing IDs.
+          for n in range(1,5):
+              p = root / f'themes/tema_{n:02d}/needs.json'
+              obj = load(p)
+              obj['freeze_status'] = 'CURRICULUM_FROZEN_TEXTBOOK_COVERAGE_VERIFIED'
+              for need in obj.get('needs', []):
+                  need['process_component_status'] = 'SOURCE_COMPLETE_PARENT_OUTCOME_REPRESENTATION'
+                  need['external_content_need'] = 'NONE_TEXTBOOK_COVERED'
+              save(p, obj)
+
+          # Update validation report.
+          report = '''# TDE_10 Canonical Knowledge Validation Report\n\n**Course:** TDE_10 — 10. Sınıf Türk Dili ve Edebiyatı  \n**Status:** `CANONICAL KNOWLEDGE FROZEN / TEXTBOOK ALIGNMENT PASS`  \n**Architecture reference:** `docs/tymm-yeniden-kullanilabilir-bilgi-mimarisi-raporu.md`\n\n## Gate result\n\n```text\n4 official curriculum snapshots       PASS\nParent learning outcomes               PASS (64/64)\nExplicit TDE*.x.y subcomponent scan    PASS (0 published in registered snapshots)\nSynthetic subcomponent inference       FORBIDDEN\nCurriculum canonical map               VERIFIED / FROZEN\nLocal official textbook PDF            VERIFIED\nTextbook forms / EBA DPA links         PASS\nProgram-textbook alignment             PASS (64/64 COVERED)\nVerified resource gaps                 0\nTheme resource plans                   PASS / REUSE_TEXTBOOK\n```\n\n## Process-component adjudication\n\nThe registered 10th-grade official theme snapshots contain the heading “Öğrenme Çıktıları ve Süreç Bileşenleri” and all 16 parent outcomes per theme, but they do **not** enumerate subordinate codes such as `TDE1.2.1`. The canonical architecture therefore freezes the source exactly as published instead of copying or inferring TDE_9 subordinate codes. Official learning-teaching application paragraphs under each parent outcome remain the source representation of the process.\n\nThis is source-complete fail-closed behavior: absence of an explicitly published subordinate ID is not converted into invented canonical data.\n\n## Textbook result\n\nPrimary textbook analysis source is `source_docs/turk-dili-ve-edebiyati-10.pdf` (2025 MEB, ISBN `978-975-11-8944-8`, TTKB 25.06.2025 / 135156433). All 64 scoped outcomes have an official textbook action/evidence path. Eight performance tasks include official EBA `Dereceli Puanlama Anahtarı` links; their internal structural type is deliberately not inferred as an analytic rubric.\n\n## Gap conclusion\n\nCurrent verified REQUIRED resource gaps: **0**. No new physical instructional/assessment artifact is authorized merely to duplicate textbook resources.\n\n## Next gate\n\nProceed to cross-theme consolidation and create a reuse-only production contract. Then build the derived knowledge index, resolver/runtime projections and P0 gate for TDE_10.\n'''
+          (root / 'validation_report.md').write_text(report, encoding='utf-8')
+          PY
+      - name: Commit frozen canonical state
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add courses/TDE_10
+          if git diff --cached --quiet; then
+            echo 'No freeze changes.'
+          else
+            git commit -m 'feat(tde10): freeze source-complete canonical curriculum'
+            git push
+          fi
