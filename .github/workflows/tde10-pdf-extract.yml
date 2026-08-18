@@ -37,6 +37,7 @@ jobs:
               'derived': True,
               'page_count': doc.page_count,
               'metadata': doc.metadata,
+              'printed_to_pdf_offset': 1,
               'note': 'Disposable extraction cache. Canonical facts remain in textbook_map.json/textbook_forms_index.json.'
           }
           (out_dir / 'pdf_metadata.json').write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding='utf-8')
@@ -62,19 +63,43 @@ jobs:
               text = page.get_text('text') or ''
               lower = text.lower()
               matched = [p for p in patterns if p in lower]
-              links = []
-              for link in page.get_links():
-                  uri = link.get('uri')
-                  if uri:
-                      links.append(uri)
+              links = sorted({link.get('uri') for link in page.get_links() if link.get('uri')})
               if matched or links:
                   hits.append({
                       'pdf_page': i+1,
+                      'printed_page': i,
                       'matched_patterns': matched,
-                      'links': sorted(set(links)),
+                      'links': links,
                       'text_excerpt': re.sub(r'\s+', ' ', text)[:2500]
                   })
           (out_dir / 'assessment_and_link_hits.json').write_text(json.dumps(hits, ensure_ascii=False, indent=2), encoding='utf-8')
+
+          windows = {
+              'TEMA_01_KONUSMA': (54, 57),
+              'TEMA_01_YAZMA': (75, 79),
+              'TEMA_02_YAZMA': (124, 128),
+              'TEMA_02_KONUSMA': (146, 149),
+              'TEMA_03_KONUSMA': (204, 208),
+              'TEMA_03_YAZMA': (224, 229),
+              'TEMA_04_KONUSMA': (280, 282),
+              'TEMA_04_YAZMA': (302, 306),
+          }
+          focused = []
+          for key, (p_start, p_end) in windows.items():
+              pages = []
+              for printed in range(p_start, p_end + 1):
+                  pdf_index = printed  # printed page N -> zero-based index N, PDF page N+1
+                  page = doc[pdf_index]
+                  text = re.sub(r'\s+', ' ', page.get_text('text') or '').strip()
+                  links = sorted({link.get('uri') for link in page.get_links() if link.get('uri')})
+                  pages.append({
+                      'printed_page': printed,
+                      'pdf_page': printed + 1,
+                      'links': links,
+                      'text': text
+                  })
+              focused.append({'target': key, 'printed_page_range': f'{p_start}-{p_end}', 'pages': pages})
+          (out_dir / 'assessment_target_windows.json').write_text(json.dumps(focused, ensure_ascii=False, indent=2), encoding='utf-8')
           PY
       - name: Commit derived extraction
         run: |
@@ -84,6 +109,6 @@ jobs:
           if git diff --cached --quiet; then
             echo 'No extraction changes.'
           else
-            git commit -m 'chore(tde10): extract textbook PDF text cache'
+            git commit -m 'chore(tde10): refresh textbook PDF extraction cache'
             git push
           fi
