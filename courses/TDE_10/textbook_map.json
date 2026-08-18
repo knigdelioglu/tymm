@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_10",
+  "course_title": "Türk Dili ve Edebiyatı",
+  "grade": 10,
+  "map_status": "DRAFT_SOURCE_STRUCTURE_ONLY",
+  "verification_status": "OFFICIAL_SUPPORTING_THEME_ASSETS_RESOLVED_CONTENT_EXTRACTION_PENDING",
+  "freeze_status": "NOT_FROZEN",
+  "primary_source": {
+    "source_id": "textbook_tde10_tymm_web",
+    "url": "https://tymm.meb.gov.tr/kitap/78/turk-dili-ve-edebiyati-10.sinif-ders-kitabi",
+    "role": "PRIMARY_OFFICIAL_TEXTBOOK_LOCATOR",
+    "linkage_status": "DYNAMIC_PAGE_ASSET_LINKAGE_PENDING"
+  },
+  "supporting_source_bundle": {
+    "source_id": "textbook_tde10_ogm_theme_previews",
+    "institution": "T.C. Millî Eğitim Bakanlığı / OGM Materyal",
+    "role": "OFFICIAL_SUPPORTING_TEXTBOOK_ASSETS",
+    "primary_substitution_allowed": false,
+    "identity_status": "COURSE_GRADE_THEME_IDENTITY_MATCH",
+    "page_structure_status": "RESOLVED"
+  },
+  "scope_summary": {
+    "total_themes": 4,
+    "resolved_theme_preview_ranges": 4,
+    "resolved_preview_page_span": "10-310",
+    "front_matter_before_page_10_mapped": false,
+    "back_matter_after_page_310_mapped": false,
+    "theme_content_extracted": false,
+    "activities_mapped": false,
+    "assessment_forms_mapped": false,
+    "printed_page_locator_semantics": "OGM preview page labels are recorded as supporting page locators pending primary textbook identity/linkage confirmation."
+  },
+  "themes": [
+    {
+      "theme_id": "TEMA_01",
+      "theme_no": 1,
+      "exact_title": "1. TEMA: SÖZÜN EZGİSİ",
+      "supporting_asset": {
+        "url": "https://ogmmateryal.eba.gov.tr/panel/panel/EKitapUniteOnizle.aspx?Id=6403",
+        "asset_id": 6403,
+        "preview_page_start": 10,
+        "preview_page_end": 83,
+        "identity_status": "OFFICIAL_MEB_THEME_MATCH"
+      },
+      "expected_curriculum_text_types": {
+        "reading": ["koşuk", "türkü", "ara metin: koşma", "ara metin: ninni"],
+        "listening_viewing": ["masal"],
+        "speaking": ["şiir dinletisi"],
+        "writing": ["masalı film şeridi hâline getirme"]
+      },
+      "content_extraction_status": "PENDING_PAGE_CONTENT_EXTRACTION",
+      "sections": [],
+      "activities": [],
+      "assessment_form_ids": []
+    },
+    {
+      "theme_id": "TEMA_02",
+      "theme_no": 2,
+      "exact_title": "2. TEMA: KELİMELERİN RİTMİ",
+      "supporting_asset": {
+        "url": "https://ogmmateryal.eba.gov.tr/panel/panel/EKitapUniteOnizle.aspx?Id=6407",
+        "asset_id": 6407,
+        "preview_page_start": 84,
+        "preview_page_end": 153,
+        "identity_status": "OFFICIAL_MEB_THEME_MATCH"
+      },
+      "expected_curriculum_text_types": {
+        "reading": ["gazel", "saf şiir", "ara metin: kaside"],
+        "listening_viewing": ["söyleşi"],
+        "speaking": ["edebî şahsiyet podcasti"],
+        "writing": ["bilgilendirici metni edebî metne dönüştürme"]
+      },
+      "content_extraction_status": "PENDING_PAGE_CONTENT_EXTRACTION",
+      "sections": [],
+      "activities": [],
+      "assessment_form_ids": []
+    },
+    {
+      "theme_id": "TEMA_03",
+      "theme_no": 3,
+      "exact_title": "3. TEMA: DÜNDEN BUGÜNE",
+      "supporting_asset": {
+        "url": "https://ogmmateryal.eba.gov.tr/panel/panel/EKitapUniteOnizle.aspx?Id=6834",
+        "asset_id": 6834,
+        "preview_page_start": 154,
+        "preview_page_end": 233,
+        "identity_status": "OFFICIAL_MEB_THEME_MATCH"
+      },
+      "expected_curriculum_text_types": {
+        "reading": ["destan", "mesnevi", "ara metin: halk hikâyesi"],
+        "listening_viewing": ["fabl"],
+        "speaking": ["Türk destanları hakkında konuşma/sunum"],
+        "writing": ["fabl"]
+      },
+      "content_extraction_status": "PENDING_PAGE_CONTENT_EXTRACTION",
+      "sections": [],
+      "activities": [],
+      "assessment_form_ids": []
+    },
+    {
+      "theme_id": "TEMA_04",
+      "theme_no": 4,
+      "exact_title": "4. TEMA: NESİLLERİN MİRASI",
+      "supporting_asset": {
+        "url": "https://ogmmateryal.eba.gov.tr/panel/panel/EKitapUniteOnizle.aspx?Id=6409",
+        "asset_id": 6409,
+        "preview_page_start": 234,
+        "preview_page_end": 310,
+        "identity_status": "OFFICIAL_MEB_THEME_MATCH"
+      },
+      "expected_curriculum_text_types": {
+        "reading": ["Dede Korkut hikâyesi", "Tanzimat şiiri", "ara metin: Servetifünun romanı", "ara metin: Fecriati şiiri"],
+        "listening_viewing": ["Millî Edebiyat hikâyesi"],
+        "speaking": ["Dede Korkut hikâyesi canlandırması"],
+        "writing": ["hikâyeyi şiire dönüştürme"]
+      },
+      "content_extraction_status": "PENDING_PAGE_CONTENT_EXTRACTION",
+      "sections": [],
+      "activities": [],
+      "assessment_form_ids": []
+    }
+  ],
+  "validation_rules": {
+    "curriculum_expected_text_type_is_not_textbook_fact": true,
+    "empty_sections_mean_unresolved_not_absent": true,
+    "empty_activities_mean_unresolved_not_absent": true,
+    "no_third_party_primary_substitution": true,
+    "freeze_requires_page_level_content_mapping": true,
+    "forms_index_requires_actual_textbook_form_inspection": true
+  },
+  "next_gate": "EXTRACT_PAGE_LEVEL_SECTIONS_ACTIVITIES_AND_FORMS_FROM_OFFICIAL_TEXTBOOK_ASSETS"
+}
