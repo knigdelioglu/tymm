@@ -93,9 +93,9 @@ def build(root: Path) -> dict[str, Any]:
     block_by_id = {}
     for t in curriculum["themes"]:
         tid=t["theme_id"]; th=textbook_themes.get(tid,{}); tt=time_themes.get(tid,{})
-        ah=t.get("allocated_lesson_hours") or {}; ins("INSERT INTO themes VALUES (?,?,?,?,?,?,?,?,?)", (tid,course_id,t.get("theme_no"),t.get("exact_theme_name",t.get("theme_title",tid)),t.get("page_range"),integer(ah.get("total")),integer(ah.get("anlama")),integer(ah.get("anlatma")),t.get("source_locator")))
+        ah=t.get("allocated_lesson_hours") or {}; ins("INSERT INTO themes VALUES (?,?,?,?,?,?,?,?,?)", (tid,course_id,t.get("theme_no"),t.get("exact_theme_name",t.get("theme_title",tid)),t.get("page_range"),integer(first(ah,"total","instructional_total")),integer(ah.get("anlama")),integer(ah.get("anlatma")),t.get("source_locator")))
         for o in t.get("learning_outcomes",[]):
-            ins("INSERT INTO outcomes VALUES (?,?,?,?,?,?,?)", (o["outcome_id"],tid,o["outcome_code"],text(o.get("outcome_verbatim","")) or "",text(o.get("process_components_verbatim")),text(o.get("source_locator")),text(o.get("verification_status"))))
+            ins("INSERT INTO outcomes VALUES (?,?,?,?,?,?,?)", ((o.get("outcome_id") or f"{tid}::{o['outcome_code']}"),tid,o["outcome_code"],text(o.get("outcome_verbatim","")) or "",text(o.get("process_components_verbatim")),text(o.get("source_locator")),text(o.get("verification_status"))))
         for s in th.get("sections",[]):
             ins("INSERT INTO textbook_sections VALUES (?,?,?,?,?,?,?)", (s["section_id"],tid,s.get("section_title",s["section_id"]),s.get("genre"),s.get("printed_page_range"),s.get("pdf_page_range"),textbook.get("source_id")))
             for a in s.get("activities",[]):

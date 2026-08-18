@@ -217,7 +217,7 @@ class KnowledgeCorpusExtractor:
         for theme in curr_map.get("themes", []):
             theme_id = theme.get("theme_id", f"TEMA_{theme.get('theme_no', 0):02d}")
             theme_title = theme.get("exact_theme_name") or theme.get("theme_title", "")
-            theme_intro = theme.get("theme_introduction_verbatim", "")
+            theme_intro = theme.get("theme_introduction_verbatim") or theme.get("theme_introduction_summary", "")
             if theme_intro:
                 self._record(
                     records,
@@ -292,9 +292,10 @@ class KnowledgeCorpusExtractor:
             for sec in theme.get("sections", []):
                 sec_id = sec.get("section_id", "")
                 sec_title = sec.get("title") or sec.get("section_title", "")
-                sec_page = str(sec.get("printed_page", "") or sec.get("page_locator", ""))
-                sec_pdf = str(sec.get("pdf_page", ""))
-                sec_genres = ", ".join(t.get("title", "") for t in sec.get("texts_and_genres", []))
+                sec_page = str(sec.get("printed_page", "") or sec.get("printed_page_range", "") or sec.get("page_locator", ""))
+                sec_pdf = str(sec.get("pdf_page", "") or sec.get("pdf_page_range", ""))
+                text_rows = sec.get("texts_and_genres", []) or sec.get("main_texts", [])
+                sec_genres = ", ".join(t.get("title", "") for t in text_rows)
                 self._record(
                     records,
                     entity_type="textbook_section",
@@ -317,7 +318,7 @@ class KnowledgeCorpusExtractor:
                 )
                 for act in sec.get("activities", []):
                     act_id = act.get("activity_id", "")
-                    act_title = act.get("title") or act.get("activity_title", "")
+                    act_title = act.get("title") or act.get("exact_title") or act.get("activity_title") or act_id
                     act_page = str(act.get("printed_page", "") or act.get("page_locator", ""))
                     self._record(
                         records,

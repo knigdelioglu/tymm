@@ -597,12 +597,19 @@ class KnowledgeResolver:
             retrieval_trace.append("9 CONFLICT_CHECK_PASSED (0 conflicts)")
 
         canonical_resolution_verified = len(resolved_entities) > 0 and ambiguity_status != "AMBIGUOUS_ENTITY"
+        reuse_only_generation_block = (
+            intent == "MATERIAL_GENERATION"
+            and self.production_manifest.get("production_mode") == "REUSE_ONLY_NO_NEW_ARTIFACTS"
+            and self.production_manifest.get("verified_resource_gap_count") == 0
+            and not production_context
+        )
         material_generation_allowed = (
             index_freshness == "INDEX_FRESH"
             and resolution_status == "RESOLVED"
             and not conflicts
             and ambiguity_status != "AMBIGUOUS_ENTITY"
             and canonical_resolution_verified
+            and not reuse_only_generation_block
         )
 
         block_reason = None
@@ -613,6 +620,8 @@ class KnowledgeResolver:
                 block_reason = "KNOWLEDGE_CONFLICT"
             elif index_freshness != "INDEX_FRESH":
                 block_reason = index_freshness
+            elif reuse_only_generation_block:
+                block_reason = "NO_VERIFIED_RESOURCE_GAP"
             elif not canonical_resolution_verified:
                 block_reason = "CANONICAL_RESOLUTION_UNVERIFIED"
 
