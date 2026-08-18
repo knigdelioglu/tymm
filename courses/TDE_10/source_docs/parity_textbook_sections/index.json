@@ -1,0 +1,224 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_10",
+  "purpose": "TEMPORARY_PHASE_3_SECTION_DEPTH_AUDIT",
+  "source": "source_docs/turk-dili-ve-edebiyati-10.pdf",
+  "sections": [
+    {
+      "theme_id": "TEMA_01",
+      "section_id": "T1_SEC_01_OKUMA_KOSUK",
+      "section_title": "Metin Tahlili-1: Okuma — Koşuk",
+      "printed_page_range": "13-38",
+      "pdf_page_range": "14-39",
+      "text_sha256": "1ad213f825418e78cb793126bee8d607f9f35589c06344cfa50306fb4e29e1f5",
+      "character_count": 69176
+    },
+    {
+      "theme_id": "TEMA_01",
+      "section_id": "T1_SEC_02_OKUMA_TURKU",
+      "section_title": "Metin Tahlili-2: Okuma — Türkü",
+      "printed_page_range": "39-53",
+      "pdf_page_range": "40-54",
+      "text_sha256": "de4457e24e0d608c582f8546441ae880bf421f80a95eabaca47d1b26e8c8280a",
+      "character_count": 31117
+    },
+    {
+      "theme_id": "TEMA_01",
+      "section_id": "T1_SEC_03_KONUSMA",
+      "section_title": "Edebiyat Atölyesi: Konuşma — Şiir Dinletisi",
+      "printed_page_range": "54-57",
+      "pdf_page_range": "55-58",
+      "text_sha256": "828dc8e67f7777904878f14dd94827be9fe25cc7f9b9966c660ead113f66d423",
+      "character_count": 7984
+    },
+    {
+      "theme_id": "TEMA_01",
+      "section_id": "T1_SEC_04_DINLEME_MASAL",
+      "section_title": "Metin Tahlili-3: Dinleme/İzleme — Masal",
+      "printed_page_range": "58-74",
+      "pdf_page_range": "59-75",
+      "text_sha256": "a9183d6dd44da0a7c10a9a340d0ebb65727eea4bb693b540a61d0ba7a625621c",
+      "character_count": 37957
+    },
+    {
+      "theme_id": "TEMA_01",
+      "section_id": "T1_SEC_05_YAZMA_FILM_SERIDI",
+      "section_title": "Edebiyat Atölyesi: Yazma — Masalı Film Şeridine Dönüştürme",
+      "printed_page_range": "75-78",
+      "pdf_page_range": "76-79",
+      "text_sha256": "f86102f72f0f4ac9839050d6204b35b029f541e3458cb278d5c35a966830bd5f",
+      "character_count": 10918
+    },
+    {
+      "theme_id": "TEMA_01",
+      "section_id": "T1_SEC_06_TEMA_SONU",
+      "section_title": "1. Tema Ölçme ve Değerlendirme",
+      "printed_page_range": "79-83",
+      "pdf_page_range": "80-84",
+      "text_sha256": "6f3351bfcfa5ab0d5835a7947fed04a9879c77467236e1f5279c0f735e88f255",
+      "character_count": 11059
+    },
+    {
+      "theme_id": "TEMA_02",
+      "section_id": "T2_SEC_01_OKUMA_GAZEL",
+      "section_title": "Metin Tahlili-1: Okuma — Gazel",
+      "printed_page_range": "87-111",
+      "pdf_page_range": "88-112",
+      "text_sha256": "43c63c678d489e51a155d8d3101e175a93a2da7b94888e02d8b7ba44a032f187",
+      "character_count": 113166
+    },
+    {
+      "theme_id": "TEMA_02",
+      "section_id": "T2_SEC_02_OKUMA_SAF_SIIR",
+      "section_title": "Metin Tahlili-2: Okuma — Saf Şiir",
+      "printed_page_range": "112-123",
+      "pdf_page_range": "113-124",
+      "text_sha256": "7e7c8128225f8c1f35cedfb5047f717258ee0724ef2294b036bd0e2a70c1580a",
+      "character_count": 26388
+    },
+    {
+      "theme_id": "TEMA_02",
+      "section_id": "T2_SEC_03_YAZMA_DONUSTURME",
+      "section_title": "Edebiyat Atölyesi: Yazma — Öğretici Metni Edebî Metne Dönüştürme",
+      "printed_page_range": "124-128",
+      "pdf_page_range": "125-129",
+      "text_sha256": "9a8bf1ab1d213f06dad30c4479a6084d3c2afbd64c5d2344d9ccf206c90c467d",
+      "character_count": 11459
+    },
+    {
+      "theme_id": "TEMA_02",
+      "section_id": "T2_SEC_04_DINLEME_SOYLESI",
+      "section_title": "Metin Tahlili-3: Dinleme/İzleme — Söyleşi",
+      "printed_page_range": "129-145",
+      "pdf_page_range": "130-146",
+      "text_sha256": "1885effef16bc8234f272660b1a5431cff0ae6a598b1a9a864230784f68b617a",
+      "character_count": 32605
+    },
+    {
+      "theme_id": "TEMA_02",
+      "section_id": "T2_SEC_05_KONUSMA_PODCAST",
+      "section_title": "Edebiyat Atölyesi: Konuşma — Podcast Hazırlama",
+      "printed_page_range": "146-149",
+      "pdf_page_range": "147-150",
+      "text_sha256": "04bb96c82291ad9cd3c89c912cd65cfb5b0d3cdd7a17a056a1c48be9ad447918",
+      "character_count": 10799
+    },
+    {
+      "theme_id": "TEMA_02",
+      "section_id": "T2_SEC_06_TEMA_OLCME",
+      "section_title": "2. Tema Ölçme ve Değerlendirme",
+      "printed_page_range": "150-153",
+      "pdf_page_range": "151-154",
+      "text_sha256": "439f04a6d36c6d41e14ae29bb7f6880211a733a94f8a24bd8d6fb58fd1432b2f",
+      "character_count": 9618
+    },
+    {
+      "theme_id": "TEMA_03",
+      "section_id": "T3_SEC_01_OKUMA_DESTAN",
+      "section_title": "Metin Tahlili-1: Okuma — Destan",
+      "printed_page_range": "157-183",
+      "pdf_page_range": "158-184",
+      "text_sha256": "cead42c6ed5aecac82a2abce9fb059213a1d935f4ab0bf3974017a2adbf14fd3",
+      "character_count": 59451
+    },
+    {
+      "theme_id": "TEMA_03",
+      "section_id": "T3_SEC_02_OKUMA_MESNEVI",
+      "section_title": "Metin Tahlili-2: Okuma — Mesnevi",
+      "printed_page_range": "184-203",
+      "pdf_page_range": "185-204",
+      "text_sha256": "e4419cee858e4346ec20593f4bbfeb030a94fe760b8d1be19ad0f9a50a9e4ffb",
+      "character_count": 49577
+    },
+    {
+      "theme_id": "TEMA_03",
+      "section_id": "T3_SEC_03_KONUSMA_DESTAN_SUNUM",
+      "section_title": "Edebiyat Atölyesi: Konuşma — Türk Destanları Sunumu",
+      "printed_page_range": "204-208",
+      "pdf_page_range": "205-209",
+      "text_sha256": "66d7990a6487fa52d8665270c0a400f446a1e29520262cee978fe53e292a4559",
+      "character_count": 15123
+    },
+    {
+      "theme_id": "TEMA_03",
+      "section_id": "T3_SEC_04_DINLEME_FABL",
+      "section_title": "Metin Tahlili-3: Dinleme/İzleme — Fabl",
+      "printed_page_range": "209-223",
+      "pdf_page_range": "210-224",
+      "text_sha256": "ac11d38fde23b2f1cc81cb4edf8bf775ab7825e3c7f78d1ae0181bb1be33c18b",
+      "character_count": 35616
+    },
+    {
+      "theme_id": "TEMA_03",
+      "section_id": "T3_SEC_05_YAZMA_FABL",
+      "section_title": "Edebiyat Atölyesi: Yazma — Fabl Yazma",
+      "printed_page_range": "224-228",
+      "pdf_page_range": "225-229",
+      "text_sha256": "392be7aa7d7b60c82a7c249bffe64b72a908d5f1c5bec27feb21b51e52146656",
+      "character_count": 12859
+    },
+    {
+      "theme_id": "TEMA_03",
+      "section_id": "T3_SEC_06_TEMA_SONU",
+      "section_title": "3. Tema Ölçme ve Değerlendirme",
+      "printed_page_range": "229-233",
+      "pdf_page_range": "230-234",
+      "text_sha256": "e515b951461f8475b0dd40096e364c0c386b64e3aad8ebf5928bb5186d561e45",
+      "character_count": 10493
+    },
+    {
+      "theme_id": "TEMA_04",
+      "section_id": "T4_SEC_01_OKUMA_DEDE_KORKUT",
+      "section_title": "Metin Tahlili-1: Okuma — Dede Korkut Hikâyesi",
+      "printed_page_range": "237-263",
+      "pdf_page_range": "238-264",
+      "text_sha256": "7078f0c7beac1582f77c09112c6921f033ca4ad4e3045f36df127fbf099f31dd",
+      "character_count": 65443
+    },
+    {
+      "theme_id": "TEMA_04",
+      "section_id": "T4_SEC_02_OKUMA_TANZIMAT_SIIRI",
+      "section_title": "Metin Tahlili-2: Okuma — Tanzimat Şiiri",
+      "printed_page_range": "264-279",
+      "pdf_page_range": "265-280",
+      "text_sha256": "90d9af7e909772454ce508124bd24b0625e5774240a84fc92128ec93999843d7",
+      "character_count": 39731
+    },
+    {
+      "theme_id": "TEMA_04",
+      "section_id": "T4_SEC_03_KONUSMA_CANLANDIRMA",
+      "section_title": "Edebiyat Atölyesi: Konuşma — Dede Korkut Canlandırması",
+      "printed_page_range": "280-282",
+      "pdf_page_range": "281-283",
+      "text_sha256": "0d1b7de152828bf66d7b0f3beba2b22a910561a2ec6693af7a17177dac2bf649",
+      "character_count": 6390
+    },
+    {
+      "theme_id": "TEMA_04",
+      "section_id": "T4_SEC_04_DINLEME_HIKAYE",
+      "section_title": "Metin Tahlili-3: Dinleme/İzleme — Millî Edebiyat Hikâyesi",
+      "printed_page_range": "283-301",
+      "pdf_page_range": "284-302",
+      "text_sha256": "37157897719eae5c3a8eda5b025d2b67098dbf1c25ad1a5ca2edc6b836c60c61",
+      "character_count": 40585
+    },
+    {
+      "theme_id": "TEMA_04",
+      "section_id": "T4_SEC_05_YAZMA_SIIRE_DONUSTURME",
+      "section_title": "Edebiyat Atölyesi: Yazma — Hikâyeyi Şiire Dönüştürme",
+      "printed_page_range": "302-305",
+      "pdf_page_range": "303-306",
+      "text_sha256": "a46070f023c44becf9321d56a29c85f0780c848fd25bfc991309e6263912db1b",
+      "character_count": 8815
+    },
+    {
+      "theme_id": "TEMA_04",
+      "section_id": "T4_SEC_06_TEMA_SONU",
+      "section_title": "4. Tema Ölçme ve Değerlendirme",
+      "printed_page_range": "306-310",
+      "pdf_page_range": "307-311",
+      "text_sha256": "87c6857a04bc6fd16517a9da6c4158ef369f0b44c795a10028025178150c959c",
+      "character_count": 11907
+    }
+  ]
+}
