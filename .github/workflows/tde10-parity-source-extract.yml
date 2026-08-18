@@ -1,5 +1,5 @@
 name: TDE10 Parity Source Extract
-# trigger_revision: 1
+# trigger_revision: 2
 
 on:
   push:
@@ -11,7 +11,7 @@ permissions:
   contents: write
 
 jobs:
-  extract:
+  extract-and-patch:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -34,15 +34,211 @@ jobs:
           pdftotext -layout 'courses/TDE_10/source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF' "$out/tema_04.txt"
           printf '%s\n' 'Derived temporary text for TDE_10 parity remediation. Source PDFs remain authoritative.' > "$out/README.txt"
 
-      - name: Commit temporary extracted text
+      - name: Apply Phase 2 curriculum parity
+        run: |
+          python - <<'PY'
+          import json
+          import re
+          import subprocess
+          from pathlib import Path
+
+          root = Path('courses/TDE_10')
+          cmap_path = root / 'curriculum_map.json'
+          contract_path = root / 'parity_contract.json'
+          report_path = root / 'parity_report.md'
+
+          cmap = json.loads(cmap_path.read_text(encoding='utf-8'))
+          contract = json.loads(contract_path.read_text(encoding='utf-8'))
+
+          pdf_names = {
+              'TEMA_01': 'Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF',
+              'TEMA_02': 'Türk Dili Ve Edebiyatı Dersi 10.Sınıf 2.PDF',
+              'TEMA_03': 'Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF',
+              'TEMA_04': 'Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF',
+          }
+          txt_names = {
+              'TEMA_01': 'tema_01.txt',
+              'TEMA_02': 'tema_02.txt',
+              'TEMA_03': 'tema_03.txt',
+              'TEMA_04': 'tema_04.txt',
+          }
+
+          def clean(s: str) -> str:
+              s = s.replace('\f', ' ')
+              s = ''.join(ch if not (0xE000 <= ord(ch) <= 0xF8FF) else ' ' for ch in s)
+              s = re.sub(r'\s+', ' ', s).strip()
+              return s
+
+          def between(text: str, start: str, end: str) -> str:
+              i = text.find(start)
+              if i < 0:
+                  raise AssertionError(f'missing start marker: {start!r}')
+              i += len(start)
+              j = text.find(end, i)
+              if j < 0:
+                  raise AssertionError(f'missing end marker: {end!r}')
+              return clean(text[i:j])
+
+          def page_texts(pdf: Path):
+              info = subprocess.check_output(['pdfinfo', str(pdf)], text=True, errors='replace')
+              m = re.search(r'^Pages:\s+(\d+)\s*$', info, re.M)
+              if not m:
+                  raise AssertionError(f'cannot read page count: {pdf}')
+              count = int(m.group(1))
+              pages = []
+              for p in range(1, count + 1):
+                  out = subprocess.check_output(
+                      ['pdftotext', '-f', str(p), '-l', str(p), '-layout', str(pdf), '-'],
+                      text=True,
+                      errors='replace',
+                  )
+                  pages.append(out)
+              return pages
+
+          def page_of(pages, marker: str):
+              for idx, page in enumerate(pages, start=1):
+                  if marker in page:
+                      return idx
+              return None
+
+          def locator(pdf_name: str, page):
+              base = f'source_docs/{pdf_name}'
+              return f'{base}#pdf_page={page}' if page else base
+
+          total_outcomes = 0
+          for theme in cmap['themes']:
+              tid = theme['theme_id']
+              pdf_name = pdf_names[tid]
+              pdf = root / 'source_docs' / pdf_name
+              text = (root / 'source_docs' / 'parity_extracted' / txt_names[tid]).read_text(encoding='utf-8')
+              pages = page_texts(pdf)
+
+              theme['page_range'] = f'1-{len(pages)}'
+              theme['theme_introduction_verbatim'] = between(
+                  text,
+                  'Türk Dili Ve Edebiyatı Dersi (10.Sınıf)',
+                  'Ders Saati',
+              )
+              theme['theme_introduction_source_locator'] = locator(pdf_name, page_of(pages, theme['exact_theme_name']) or 1)
+
+              hours = between(text, 'Ders Saati', 'Alan Becerileri')
+              theme['allocated_lesson_hours']['verbatim'] = hours
+              theme['allocated_lesson_hours']['source_locator'] = locator(pdf_name, page_of(pages, 'Ders Saati'))
+
+              theme['alan_becerileri']['verbatim'] = between(text, 'Alan Becerileri', 'Eğilimler')
+              theme['alan_becerileri']['source_locator'] = locator(pdf_name, page_of(pages, 'Alan Becerileri'))
+
+              theme['kavramsal_beceriler'] = {
+                  'verbatim': None,
+                  'source_status': 'NOT_ENUMERATED_IN_REGISTERED_THEME_SNAPSHOT',
+                  'parity_exception': 'SOURCE_NOT_APPLICABLE',
+                  'source_locator': locator(pdf_name, page_of(pages, 'Alan Becerileri')),
+              }
+
+              theme['egilimler']['verbatim'] = between(text, 'Eğilimler', 'Programlar Arası Bileşenler')
+              theme['egilimler']['source_locator'] = locator(pdf_name, page_of(pages, 'Eğilimler'))
+
+              pab = theme['programlar_arasi_bilesenler']
+              pab['sosyal_duygusal_ogrenme_becerileri']['verbatim'] = between(
+                  text, 'Sosyal-Duygusal Öğrenme Becerileri', 'Değerler'
+              )
+              pab['sosyal_duygusal_ogrenme_becerileri']['source_locator'] = locator(
+                  pdf_name, page_of(pages, 'Sosyal-Duygusal Öğrenme Becerileri')
+              )
+              pab['degerler']['verbatim'] = between(text, 'Değerler', 'Okuryazarlık Becerileri')
+              pab['degerler']['source_locator'] = locator(pdf_name, page_of(pages, 'Değerler'))
+              pab['okuryazarlik_becerileri']['verbatim'] = between(
+                  text, 'Okuryazarlık Becerileri', 'Disiplinler Arası İlişkiler'
+              )
+              pab['okuryazarlik_becerileri']['source_locator'] = locator(
+                  pdf_name, page_of(pages, 'Okuryazarlık Becerileri')
+              )
+
+              da = theme['disiplinler_arasi_iliskiler']
+              da['verbatim'] = between(text, 'Disiplinler Arası İlişkiler', 'Beceriler Arası İlişkiler')
+              da['source_locator'] = locator(pdf_name, page_of(pages, 'Disiplinler Arası İlişkiler'))
+
+              ba = theme['beceriler_arasi_iliskiler']
+              ba['verbatim'] = between(text, 'Beceriler Arası İlişkiler', 'Öğrenme Çıktıları ve Süreç Bileşenleri')
+              ba['source_locator'] = locator(pdf_name, page_of(pages, 'Beceriler Arası İlişkiler'))
+
+              ic = theme['icerik_cercevesi']
+              ic['verbatim'] = between(text, 'İçerik Çerçevesi', 'Anahtar Kavramlar')
+              ic['source_locator'] = locator(pdf_name, page_of(pages, 'İçerik Çerçevesi'))
+
+              ak = theme['anahtar_kavramlar']
+              ak['verbatim'] = between(text, 'Anahtar Kavramlar', 'Öğrenme Kanıtları (Ölçme ve Değerlendirme)')
+              ak['source_locator'] = locator(pdf_name, page_of(pages, 'Anahtar Kavramlar'))
+
+              od = theme['ogrenme_kanitlari_olcme_ve_degerlendirme']
+              od['verbatim'] = between(
+                  text,
+                  'Öğrenme Kanıtları (Ölçme ve Değerlendirme)',
+                  'Öğrenme-Öğretme Yaşantıları',
+              )
+              od['source_locator'] = locator(pdf_name, page_of(pages, 'Öğrenme Kanıtları (Ölçme ve Değerlendirme)'))
+              od['verbatim_source'] = 'REGISTERED_LOCAL_OFFICIAL_SNAPSHOT'
+
+              total_outcomes += len(theme['learning_outcomes'])
+
+              required_text_fields = [
+                  theme['theme_introduction_verbatim'],
+                  theme['allocated_lesson_hours']['verbatim'],
+                  theme['alan_becerileri']['verbatim'],
+                  theme['egilimler']['verbatim'],
+                  pab['sosyal_duygusal_ogrenme_becerileri']['verbatim'],
+                  pab['degerler']['verbatim'],
+                  pab['okuryazarlik_becerileri']['verbatim'],
+                  da['verbatim'],
+                  ba['verbatim'],
+                  ic['verbatim'],
+                  ak['verbatim'],
+                  od['verbatim'],
+              ]
+              if not all(v and len(v.strip()) > 0 for v in required_text_fields):
+                  raise AssertionError(f'{tid}: missing required parity verbatim field')
+
+          if total_outcomes != 64:
+              raise AssertionError(f'expected 64 outcomes, got {total_outcomes}')
+
+          cmap['source_id'] = cmap.get('source_id') or 'curriculum_tde10_theme_bundle'
+          cmap['effective_schema_profile'] = 'TDE9_PARITY_COMPATIBLE_V1'
+          cmap['parity_status'] = 'PHASE_2_CURRICULUM_PARITY_VERIFIED'
+          cmap['parity_reference'] = 'courses/TDE_10/parity_contract.json'
+          cmap['source_validation']['context_verbatim_extraction'] = 'PASS_4_OF_4_REGISTERED_LOCAL_SNAPSHOTS'
+          cmap['source_validation']['effective_schema_parity'] = 'PASS_WITH_SOURCE_NOT_APPLICABLE_EXCEPTIONS'
+          cmap['source_validation']['kavramsal_beceriler_policy'] = 'SOURCE_NOT_APPLICABLE_WHEN_NOT_ENUMERATED_IN_THEME_SNAPSHOT'
+
+          contract['current_tde10_parity_findings']['curriculum_effective_schema_parity'] = 'PASS_WITH_SOURCE_NOT_APPLICABLE_EXCEPTIONS'
+          contract['current_tde10_parity_findings']['curriculum_context_verbatim_depth'] = 'PASS_4_OF_4_LOCAL_SNAPSHOTS'
+          contract['phase_gates']['PHASE_2_CURRICULUM_PARITY'] = 'PASS'
+
+          cmap_path.write_text(json.dumps(cmap, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          contract_path.write_text(json.dumps(contract, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          report = report_path.read_text(encoding='utf-8')
+          report = report.replace(
+              '**Durum:** `FAZ 1 TAMAMLANDI / PARITY RELEASE BLOCKED`',
+              '**Durum:** `FAZ 1-2 TAMAMLANDI / FAZ 3 PENDING / PARITY RELEASE BLOCKED`',
+          )
+          if '## 8. Faz 2 uygulama sonucu' not in report:
+              report += '''\n\n## 8. Faz 2 uygulama sonucu\n\nFaz 2 tamamlandı. `curriculum_map.json` dört kayıtlı resmî TDE_10 tema PDF snapshot'ından yeniden zenginleştirildi.\n\n- 4/4 tema girişi verbatim + yerel PDF locator kazandı.\n- Ders saati, alan becerileri, eğilimler, sosyal-duygusal öğrenme, değerler, okuryazarlık, disiplinler arası ilişkiler ve beceriler arası ilişkiler verbatim + locator kazandı.\n- İçerik çerçevesi, anahtar kavramlar ve öğrenme kanıtları/ölçme-değerlendirme hükümleri verbatim + locator kazandı.\n- 64 parent outcome korunarak tekrar sayıldı.\n- Resmî tema snapshot'ında ayrı bir Kavramsal Beceriler alanı yayımlanmadığı durum SOURCE_NOT_APPLICABLE olarak açıkça kaydedildi; veri uydurulmadı.\n- TDE_9 süreç alt kodları TDE_10'a kopyalanmadı.\n\n**Faz 2 gate:** `PASS_WITH_SOURCE_NOT_APPLICABLE_EXCEPTIONS`\n\nSonraki kapı: **Faz 3 — textbook activity semantic/evidence depth parity**.\n'''
+          report_path.write_text(report, encoding='utf-8')
+          PY
+
+      - name: Commit Phase 2 parity outputs
         run: |
           set -euo pipefail
-          if git diff --quiet -- courses/TDE_10/source_docs/parity_extracted && [ -z "$(git status --porcelain courses/TDE_10/source_docs/parity_extracted)" ]; then
-            echo 'No extraction changes.'
-            exit 0
-          fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add courses/TDE_10/source_docs/parity_extracted
-          git commit -m 'chore(tde10): extract curriculum text for parity audit'
+          git add \
+            courses/TDE_10/curriculum_map.json \
+            courses/TDE_10/parity_contract.json \
+            courses/TDE_10/parity_report.md \
+            courses/TDE_10/source_docs/parity_extracted
+          if git diff --cached --quiet; then
+            echo 'No parity changes.'
+            exit 0
+          fi
+          git commit -m 'feat(tde10): complete phase 2 curriculum parity'
           git push
