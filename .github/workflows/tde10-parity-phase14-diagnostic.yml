@@ -1,0 +1,54 @@
+name: TDE10 Parity Phase 14 Diagnostic
+
+on:
+  push:
+    paths:
+      - 'courses/TDE_10/.phase14-diagnostic-trigger'
+
+permissions:
+  contents: write
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Diagnose integrity blockers
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root=Path('courses/TDE_10')
+          curriculum=json.loads((root/'curriculum_map.json').read_text())
+          textbook=json.loads((root/'textbook_map.json').read_text())
+          forms=json.loads((root/'textbook_forms_index.json').read_text())
+          acts=[a for t in textbook['themes'] for s in t['sections'] for a in s.get('activities',[])]
+          aid={a['activity_id']:a for a in acts}; fid={f['form_id']:f for f in forms['forms']}
+          broken_a=[]; broken_f=[]; asym=[]
+          for a in acts:
+            for x in a.get('related_forms',[]):
+              if x not in fid: broken_a.append([a['activity_id'],x])
+              elif a['activity_id'] not in fid[x].get('linked_activity_ids',[]): asym.append([a['activity_id'],x,'activity_to_form_only'])
+          for f in forms['forms']:
+            for x in f.get('linked_activity_ids',[]):
+              if x not in aid: broken_f.append([f['form_id'],x])
+              elif f['form_id'] not in aid[x].get('related_forms',[]): asym.append([x,f['form_id'],'form_to_activity_only'])
+          verbatim=[]
+          required=['theme_introduction_verbatim']
+          for t in curriculum['themes']:
+            if not t.get('theme_introduction_verbatim'): verbatim.append([t['theme_id'],'theme_introduction_verbatim'])
+            paths=[('allocated_lesson_hours','verbatim'),('alan_becerileri','verbatim'),('egilimler','verbatim'),('disiplinler_arasi_iliskiler','verbatim'),('beceriler_arasi_iliskiler','verbatim'),('icerik_cercevesi','verbatim'),('anahtar_kavramlar','verbatim'),('ogrenme_kanitlari_olcme_ve_degerlendirme','verbatim')]
+            for p,k in paths:
+              if not t.get(p,{}).get(k): verbatim.append([t['theme_id'],p+'.'+k])
+            for p in ['sosyal_duygusal_ogrenme_becerileri','degerler','okuryazarlik_becerileri']:
+              if not t.get('programlar_arasi_bilesenler',{}).get(p,{}).get('verbatim'): verbatim.append([t['theme_id'],'programlar_arasi_bilesenler.'+p+'.verbatim'])
+          out={'activity_count':len(acts),'form_count':len(forms['forms']),'broken_activity_to_form':broken_a,'broken_form_to_activity':broken_f,'asymmetric':asym,'asymmetric_count':len(asym),'verbatim_missing':verbatim}
+          (root/'source_docs'/'phase14_integrity_diagnostic.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n')
+          PY
+      - name: Commit diagnostic
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add courses/TDE_10/source_docs/phase14_integrity_diagnostic.json
+          git commit -m 'chore(tde10): record phase 14 integrity diagnostic'
+          git push
