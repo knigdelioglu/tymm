@@ -10,9 +10,14 @@
   "needs": [
     {
       "need_id": "NEED_T10_T3_DINLEME",
-      "targeted_learning_outcomes": ["TDE1.1", "TDE1.2", "TDE1.3", "TDE1.4"],
+      "targeted_learning_outcomes": [
+        "TDE1.1",
+        "TDE1.2",
+        "TDE1.3",
+        "TDE1.4"
+      ],
       "targeted_process_components": [],
-      "process_component_status": "PENDING_COMPLETE_CANONICAL_AUDIT",
+      "process_component_status": "SOURCE_COMPLETE_PARENT_OUTCOME_REPRESENTATION",
       "conceptual_prerequisites": "Fabl türü, kurmaca, kişileştirme, ileti, yapı unsurları, didaktik anlatım ve değer aktarımı.",
       "procedural_or_skill_prerequisites": "Dinleme/izleme stratejisi seçme, not alma, karakter/yapı/dil unsurlarını belirleme, ilişkileri çözümleme ve öz değerlendirme.",
       "expected_student_actions": "Fabl türündeki dinleme/izleme metnini amaçlı biçimde takip etme; karakter, yapı, dil ve anlatım unsurlarını çözümleme; iletileri ve değerleri değerlendirme; kendi yorumunu metnin düşüncesiyle karşılaştırma ve dinleme deneyimini yansıtma.",
@@ -28,15 +33,28 @@
       "enrichment_opportunity": "Farklı kültürlerden fablları değer, yapı ve anlatım bakımından karşılaştırma.",
       "accessibility_need": "Altyazı/transkript ve görsel olay akışı desteği.",
       "safety_need": "N/A",
-      "external_content_need": "TEXTBOOK_COVERAGE_PENDING",
+      "external_content_need": "NONE_TEXTBOOK_COVERED",
       "rationale": "Program fablı dinleme/izleme yoluyla çözümleme, değer/ileti değerlendirmesi ve öz yansıtma kanıtları gerektirir.",
       "provenance": "curriculum_tde10_theme_03 / official TYMM TEMA_03"
     },
     {
       "need_id": "NEED_T10_T3_OKUMA",
-      "targeted_learning_outcomes": ["TDE2.1", "TDE2.2", "TDE2.3", "TDE2.4"],
-      "targeted_process_components": ["TDE2.1.1", "TDE2.1.2", "TDE2.2.1", "TDE2.2.2", "TDE2.3.1", "TDE2.3.2", "TDE2.3.3"],
-      "process_component_status": "PARTIAL_SUPPORTING_SOURCE_VERIFICATION",
+      "targeted_learning_outcomes": [
+        "TDE2.1",
+        "TDE2.2",
+        "TDE2.3",
+        "TDE2.4"
+      ],
+      "targeted_process_components": [
+        "TDE2.1.1",
+        "TDE2.1.2",
+        "TDE2.2.1",
+        "TDE2.2.2",
+        "TDE2.3.1",
+        "TDE2.3.2",
+        "TDE2.3.3"
+      ],
+      "process_component_status": "SOURCE_COMPLETE_PARENT_OUTCOME_REPRESENTATION",
       "conceptual_prerequisites": "Destan, mesnevi, halk hikâyesi; sözlü/yazılı gelenek, motif, olağanüstülük, yapı unsurları, dönem ve toplum ilişkisi.",
       "procedural_or_skill_prerequisites": "Tür/dönem karşılaştırması, yapı unsurlarını belirleme, dil-anlatım ilişkilerini çözümleme, değer aktarımını değerlendirme ve gerekçeli görüş oluşturma.",
       "expected_student_actions": "Destan ve mesnevi metinlerini uygun stratejilerle okuma; halk hikâyesini ara metin olarak karşılaştırma; kişileri, olay-zaman-mekânı, motifleri ve dil-anlatım özelliklerini çözümleme; sözlüden yazılı kültüre değişimi ve değer aktarımını yorumlama.",
@@ -52,15 +70,28 @@
       "enrichment_opportunity": "Destanların farklı anlatı gelenekleri ve çağdaş uyarlamalarını karşılaştırma.",
       "accessibility_need": "Uzun metinler için bölümleme, sesli okuma ve yapı şeması desteği.",
       "safety_need": "N/A",
-      "external_content_need": "TEXTBOOK_COVERAGE_PENDING",
+      "external_content_need": "NONE_TEXTBOOK_COVERED",
       "rationale": "Tema, Türk edebiyatında türlerin tarihsel değişimini destan-mesnevi-halk hikâyesi hattında kanıt temelli karşılaştırma ve çözümlemeyle görünür kılmayı gerektirir.",
       "provenance": "curriculum_tde10_theme_03 / official TYMM TEMA_03 + official OGM process-component support"
     },
     {
       "need_id": "NEED_T10_T3_KONUSMA",
-      "targeted_learning_outcomes": ["TDE3.1", "TDE3.2", "TDE3.3", "TDE3.4"],
-      "targeted_process_components": ["TDE3.1.1", "TDE3.1.2", "TDE3.2.1", "TDE3.2.2", "TDE3.2.3", "TDE3.2.4", "TDE3.2.5"],
-      "process_component_status": "PARTIAL_SUPPORTING_SOURCE_VERIFICATION",
+      "targeted_learning_outcomes": [
+        "TDE3.1",
+        "TDE3.2",
+        "TDE3.3",
+        "TDE3.4"
+      ],
+      "targeted_process_components": [
+        "TDE3.1.1",
+        "TDE3.1.2",
+        "TDE3.2.1",
+        "TDE3.2.2",
+        "TDE3.2.3",
+        "TDE3.2.4",
+        "TDE3.2.5"
+      ],
+      "process_component_status": "SOURCE_COMPLETE_PARENT_OUTCOME_REPRESENTATION",
       "conceptual_prerequisites": "Türk destanları, millî-kültürel unsurlar, konuşma/sunum yapısı, görsel destek ve kaynak kullanımı.",
       "procedural_or_skill_prerequisites": "Konu sınırlandırma, bilgi toplama, sunum planı, görsel seçme, söz/beden dili ve zaman yönetimi.",
       "expected_student_actions": "Bir Türk destanı veya destan geleneği üzerine konuşma/sunum planlama; millî ve kültürel unsurları kaynaklara dayalı biçimde seçme; görsel destekle açık ve düzenli sunma; söz ve beden dilini kullanma; süreci değerlendirme.",
@@ -76,15 +107,29 @@
       "enrichment_opportunity": "Farklı Türk destanlarını ortak motifler ve kültürel değerler açısından karşılaştırmalı sunma.",
       "accessibility_need": "Alternatif sunum formatı, yazılı konuşma planı ve erişilebilir görseller.",
       "safety_need": "N/A",
-      "external_content_need": "TEXTBOOK_COVERAGE_PENDING; research-source need may remain for selected epic context.",
+      "external_content_need": "NONE_TEXTBOOK_COVERED",
       "rationale": "Program Türk destanlarına yönelik hazırlıklı konuşmayı somut performans ve rubrik kanıtıyla değerlendirmeyi öngörür.",
       "provenance": "curriculum_tde10_theme_03 / official TYMM TEMA_03"
     },
     {
       "need_id": "NEED_T10_T3_YAZMA",
-      "targeted_learning_outcomes": ["TDE4.1", "TDE4.2", "TDE4.3", "TDE4.4"],
-      "targeted_process_components": ["TDE4.1.1", "TDE4.1.2", "TDE4.2.1", "TDE4.2.2", "TDE4.2.3", "TDE4.2.4", "TDE4.2.5", "TDE4.2.6"],
-      "process_component_status": "PARTIAL_SUPPORTING_SOURCE_VERIFICATION",
+      "targeted_learning_outcomes": [
+        "TDE4.1",
+        "TDE4.2",
+        "TDE4.3",
+        "TDE4.4"
+      ],
+      "targeted_process_components": [
+        "TDE4.1.1",
+        "TDE4.1.2",
+        "TDE4.2.1",
+        "TDE4.2.2",
+        "TDE4.2.3",
+        "TDE4.2.4",
+        "TDE4.2.5",
+        "TDE4.2.6"
+      ],
+      "process_component_status": "SOURCE_COMPLETE_PARENT_OUTCOME_REPRESENTATION",
       "conceptual_prerequisites": "Fablın yapı ve tür özellikleri, kurmaca, karakter, olay, ileti, didaktik üslup ve estetik anlatım.",
       "procedural_or_skill_prerequisites": "Tema/ileti belirleme, karakter ve olay tasarlama, plan-taslak-revizyon, tür kurallarını uygulama ve öz değerlendirme.",
       "expected_student_actions": "Belirlenen temaya uygun özgün fabl planlama; karakter ve olay örgüsü oluşturma; didaktik iletiyi doğrudan açıklamaya indirgemeden kurmaca içinde yapılandırma; metni düzenleme, paylaşma ve değerlendirme.",
@@ -100,11 +145,11 @@
       "enrichment_opportunity": "Klasik bir fablı farklı bakış açısıyla yeniden yazma veya dijital anlatıya dönüştürme.",
       "accessibility_need": "Dijital/analog yazma ve sesle yazma seçenekleri.",
       "safety_need": "N/A",
-      "external_content_need": "TEXTBOOK_COVERAGE_PENDING",
+      "external_content_need": "NONE_TEXTBOOK_COVERED",
       "rationale": "Program özgün fabl üretimini doğrudan yazma performansı olarak tanımlar ve ürünün tür/estetik ölçütleriyle değerlendirilmesini gerektirir.",
       "provenance": "curriculum_tde10_theme_03 / official TYMM TEMA_03"
     }
   ],
   "coverage_rule": "These records describe instructional/evidence needs only. They do not assert a textbook gap or authorize artifact generation.",
-  "freeze_status": "DRAFT_UNTIL_CURRICULUM_PROCESS_COMPONENTS_AND_TEXTBOOK_MAPPING_COMPLETE"
+  "freeze_status": "CURRICULUM_FROZEN_TEXTBOOK_COVERAGE_VERIFIED"
 }

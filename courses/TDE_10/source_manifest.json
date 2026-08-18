@@ -4,7 +4,7 @@
   "grade": 10,
   "course_title": "Türk Dili ve Edebiyatı",
   "last_validated": "2026-08-18",
-  "overall_status": "TEXTBOOK_LOCAL_OFFICIAL_PDF_VERIFIED_ALIGNMENT_COMPLETE_CURRICULUM_DRAFT",
+  "overall_status": "CANONICAL_KNOWLEDGE_FROZEN_TEXTBOOK_ALIGNMENT_PASS",
   "source_mode": "SPLIT_CURRICULUM_PDFS_PLUS_LOCAL_OFFICIAL_TEXTBOOK_PDF",
   "scope": {
     "analysis_target": "10. Sınıf Türk Dili ve Edebiyatı Öğretim Programı ve Ders Kitabı",
@@ -14,7 +14,7 @@
     "total_themes_expected": 4,
     "curriculum_source_complete": true,
     "curriculum_mapped": true,
-    "curriculum_map_status": "DRAFT_NOT_FROZEN_PROCESS_COMPONENTS_PENDING",
+    "curriculum_map_status": "FROZEN_VERIFIED_LOCAL_SNAPSHOTS",
     "textbook_source_registered": true,
     "textbook_official_supporting_assets_resolved": true,
     "textbook_primary_linkage_verified": true,
@@ -41,8 +41,8 @@
     "authority_rank": 1,
     "expected_part_count": 4,
     "registered_part_count": 4,
-    "completeness_status": "COMPLETE_REGISTERED_SET",
-    "verification_rule": "All four snapshots must be individually parsed and their internal grade/theme identity must match the expected theme before curriculum_map may become FROZEN.",
+    "completeness_status": "COMPLETE_VERIFIED_FROZEN_SOURCE_SET",
+    "verification_rule": "All four local official snapshots contain 16/16 parent outcomes. No subordinate TDE*.x.y IDs are explicitly published; none are synthesized.",
     "parts": [
       {
         "source_id": "curriculum_tde10_theme_01",
@@ -54,7 +54,7 @@
         "git_blob_sha": "611cec47a544ec97c2c3fbfa24b904c20e23ee70",
         "file_hash_sha256": null,
         "official_web_crosscheck": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/242?kod=D15",
-        "verification_status": "WEB_IDENTITY_VERIFIED_SNAPSHOT_CONTENT_AUDIT_PENDING"
+        "verification_status": "LOCAL_SNAPSHOT_CONTENT_VERIFIED"
       },
       {
         "source_id": "curriculum_tde10_theme_02",
@@ -66,7 +66,7 @@
         "git_blob_sha": "fc547d9262c9308c769f06acaccd173263034797",
         "file_hash_sha256": null,
         "official_web_crosscheck": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/247",
-        "verification_status": "WEB_IDENTITY_VERIFIED_SNAPSHOT_CONTENT_AUDIT_PENDING"
+        "verification_status": "LOCAL_SNAPSHOT_CONTENT_VERIFIED"
       },
       {
         "source_id": "curriculum_tde10_theme_03",
@@ -78,7 +78,7 @@
         "git_blob_sha": "9608298405187441b99dac703b4fda0a98da3d4f",
         "file_hash_sha256": null,
         "official_web_crosscheck": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/256",
-        "verification_status": "WEB_IDENTITY_VERIFIED_SNAPSHOT_CONTENT_AUDIT_PENDING"
+        "verification_status": "LOCAL_SNAPSHOT_CONTENT_VERIFIED"
       },
       {
         "source_id": "curriculum_tde10_theme_04",
@@ -90,7 +90,7 @@
         "git_blob_sha": "3ca4afc65a8118b8136e1c94dafb19969278872d",
         "file_hash_sha256": null,
         "official_web_crosscheck": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/261",
-        "verification_status": "WEB_IDENTITY_VERIFIED_SNAPSHOT_CONTENT_AUDIT_PENDING"
+        "verification_status": "LOCAL_SNAPSHOT_CONTENT_VERIFIED"
       }
     ]
   },

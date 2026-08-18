@@ -10,9 +10,14 @@
   "needs": [
     {
       "need_id": "NEED_T10_T4_DINLEME",
-      "targeted_learning_outcomes": ["TDE1.1", "TDE1.2", "TDE1.3", "TDE1.4"],
+      "targeted_learning_outcomes": [
+        "TDE1.1",
+        "TDE1.2",
+        "TDE1.3",
+        "TDE1.4"
+      ],
       "targeted_process_components": [],
-      "process_component_status": "PENDING_COMPLETE_CANONICAL_AUDIT",
+      "process_component_status": "SOURCE_COMPLETE_PARENT_OUTCOME_REPRESENTATION",
       "conceptual_prerequisites": "Millî Edebiyat hikâyesi, kurmaca, karakter, yapı unsurları, dönem-toplum ilişkisi, açık/örtük ileti.",
       "procedural_or_skill_prerequisites": "Dinleme/izleme stratejisi, not alma, karakter niyeti ve yapı unsuru çözümleme, karşılaştırma ve öz değerlendirme.",
       "expected_student_actions": "Millî Edebiyat döneminden bir hikâyeyi dinleme/izleme; karakter, olay, zaman, mekân, dil ve anlatımı çözümleme; dönem/toplum bağını ve iletileri değerlendirme; gerçek dünya bilgisi ve kendi görüşleriyle karşılaştırma.",
@@ -28,15 +33,28 @@
       "enrichment_opportunity": "Millî Edebiyat hikâyelerini farklı dönem anlatılarıyla karşılaştırma.",
       "accessibility_need": "Altyazı/transkript ve yapılandırılmış not formu.",
       "safety_need": "N/A",
-      "external_content_need": "TEXTBOOK_COVERAGE_PENDING",
+      "external_content_need": "NONE_TEXTBOOK_COVERED",
       "rationale": "Tema, kültürel mirasın değişim içindeki aktarımını dinleme/izleme metninde yapı, dönem ve değer kanıtları üzerinden değerlendirmeyi gerektirir.",
       "provenance": "curriculum_tde10_theme_04 / official TYMM TEMA_04"
     },
     {
       "need_id": "NEED_T10_T4_OKUMA",
-      "targeted_learning_outcomes": ["TDE2.1", "TDE2.2", "TDE2.3", "TDE2.4"],
-      "targeted_process_components": ["TDE2.1.1", "TDE2.1.2", "TDE2.2.1", "TDE2.2.2", "TDE2.3.1", "TDE2.3.2", "TDE2.3.3"],
-      "process_component_status": "PARTIAL_SUPPORTING_SOURCE_VERIFICATION",
+      "targeted_learning_outcomes": [
+        "TDE2.1",
+        "TDE2.2",
+        "TDE2.3",
+        "TDE2.4"
+      ],
+      "targeted_process_components": [
+        "TDE2.1.1",
+        "TDE2.1.2",
+        "TDE2.2.1",
+        "TDE2.2.2",
+        "TDE2.3.1",
+        "TDE2.3.2",
+        "TDE2.3.3"
+      ],
+      "process_component_status": "SOURCE_COMPLETE_PARENT_OUTCOME_REPRESENTATION",
       "conceptual_prerequisites": "Dede Korkut hikâyesi, Tanzimat şiiri, Servetifünun romanı, Fecriati şiiri; dönem, gelenek, yenilik, millî bilinç ve edebî değişim.",
       "procedural_or_skill_prerequisites": "Metin yapı/dil unsurlarını belirleme, dönem-toplum-yazar ilişkisi kurma, farklı dönem ve türleri karşılaştırma, değişim-süreklilik çıkarımı yapma.",
       "expected_student_actions": "Dede Korkut hikâyesi ve Tanzimat şiirini okuma; Servetifünun romanı ile Fecriati şiirini ara metin olarak ilişkilendirme; yapı, dil, anlatım ve değer unsurlarını çözümleme; dönemler arası değişim ve sürekliliği karşılaştırma ve değerlendirme.",
@@ -52,15 +70,28 @@
       "enrichment_opportunity": "Aynı tema/değerin Dede Korkut'tan modern döneme değişimini örnek metinlerle izleme.",
       "accessibility_need": "Uzun metinler için bölümleme, sesli okuma ve yüksek kontrastlı şema.",
       "safety_need": "N/A",
-      "external_content_need": "TEXTBOOK_COVERAGE_PENDING",
+      "external_content_need": "NONE_TEXTBOOK_COVERED",
       "rationale": "Tema, kültürel miras ve edebî dönüşümü birden fazla dönem/tür üzerinden karşılaştırmalı biçimde kanıtlamayı gerektirir.",
       "provenance": "curriculum_tde10_theme_04 / official TYMM TEMA_04 + official OGM process-component support"
     },
     {
       "need_id": "NEED_T10_T4_KONUSMA",
-      "targeted_learning_outcomes": ["TDE3.1", "TDE3.2", "TDE3.3", "TDE3.4"],
-      "targeted_process_components": ["TDE3.1.1", "TDE3.1.2", "TDE3.2.1", "TDE3.2.2", "TDE3.2.3", "TDE3.2.4", "TDE3.2.5"],
-      "process_component_status": "PARTIAL_SUPPORTING_SOURCE_VERIFICATION",
+      "targeted_learning_outcomes": [
+        "TDE3.1",
+        "TDE3.2",
+        "TDE3.3",
+        "TDE3.4"
+      ],
+      "targeted_process_components": [
+        "TDE3.1.1",
+        "TDE3.1.2",
+        "TDE3.2.1",
+        "TDE3.2.2",
+        "TDE3.2.3",
+        "TDE3.2.4",
+        "TDE3.2.5"
+      ],
+      "process_component_status": "SOURCE_COMPLETE_PARENT_OUTCOME_REPRESENTATION",
       "conceptual_prerequisites": "Dede Korkut hikâyeleri, canlandırma/dramatizasyon, karakter, olay, sözlü anlatım, beden dili ve mekân kullanımı.",
       "procedural_or_skill_prerequisites": "Hikâye/rol seçme, canlandırma planı, görev dağılımı, söz ve beden dili, zaman/mekân yönetimi ve performans değerlendirmesi.",
       "expected_student_actions": "Dede Korkut hikâyelerinden birini canlandırmak üzere seçim ve plan yapma; karakter ve olay akışını sahneye uyarlama; görsel/işitsel ögeler, beden dili ve mekânla performans sunma; süreci değerlendirme.",
@@ -76,15 +107,29 @@
       "enrichment_opportunity": "Aynı hikâyeyi farklı sahneleme tercihleriyle yorumlayıp gerekçelendirme.",
       "accessibility_need": "Alternatif rol, fiziksel gereksinimlere uygun sahne düzeni ve yazılı rol desteği.",
       "safety_need": "Fiziksel canlandırmada güvenli hareket alanı ve riskli sahne hareketlerinden kaçınma.",
-      "external_content_need": "TEXTBOOK_COVERAGE_PENDING",
+      "external_content_need": "NONE_TEXTBOOK_COVERED",
       "rationale": "Program Dede Korkut canlandırmasını doğrudan konuşma performansı ve dereceli puanlama anahtarıyla değerlendirilecek kanıt olarak tanımlar.",
       "provenance": "curriculum_tde10_theme_04 / official TYMM TEMA_04"
     },
     {
       "need_id": "NEED_T10_T4_YAZMA",
-      "targeted_learning_outcomes": ["TDE4.1", "TDE4.2", "TDE4.3", "TDE4.4"],
-      "targeted_process_components": ["TDE4.1.1", "TDE4.1.2", "TDE4.2.1", "TDE4.2.2", "TDE4.2.3", "TDE4.2.4", "TDE4.2.5", "TDE4.2.6"],
-      "process_component_status": "PARTIAL_SUPPORTING_SOURCE_VERIFICATION",
+      "targeted_learning_outcomes": [
+        "TDE4.1",
+        "TDE4.2",
+        "TDE4.3",
+        "TDE4.4"
+      ],
+      "targeted_process_components": [
+        "TDE4.1.1",
+        "TDE4.1.2",
+        "TDE4.2.1",
+        "TDE4.2.2",
+        "TDE4.2.3",
+        "TDE4.2.4",
+        "TDE4.2.5",
+        "TDE4.2.6"
+      ],
+      "process_component_status": "SOURCE_COMPLETE_PARENT_OUTCOME_REPRESENTATION",
       "conceptual_prerequisites": "Hikâye ve şiir arasındaki yapı/dil farkları, şiir dili, imge, ahenk, ileti, olay ve duygu yoğunlaştırma.",
       "procedural_or_skill_prerequisites": "Hikâyeden ana olay/duygu seçme, dönüştürme planı, şiirsel anlatım kurma, taslak-revizyon ve öz değerlendirme.",
       "expected_student_actions": "Dinleme/izlemede incelediği hikâyeyi şiire dönüştürmek için ana olay/duygu ve iletileri seçme; şiirsel dil ve ahenkten yararlanma; metni düzenleme, paylaşma ve değerlendirme.",
@@ -100,11 +145,11 @@
       "enrichment_opportunity": "Aynı hikâyeyi farklı şiir biçimleri veya ses/ritim tercihleriyle yeniden üretme.",
       "accessibility_need": "Dijital/analog yazma ve sesle yazma seçenekleri.",
       "safety_need": "N/A",
-      "external_content_need": "TEXTBOOK_COVERAGE_PENDING",
+      "external_content_need": "NONE_TEXTBOOK_COVERED",
       "rationale": "Program hikâyeden şiire türler arası dönüşümü somut yazma performansı ve rubrik kanıtıyla değerlendirmeyi gerektirir.",
       "provenance": "curriculum_tde10_theme_04 / official TYMM TEMA_04"
     }
   ],
   "coverage_rule": "These records describe instructional/evidence needs only. They do not assert a textbook gap or authorize artifact generation.",
-  "freeze_status": "DRAFT_UNTIL_CURRICULUM_PROCESS_COMPONENTS_AND_TEXTBOOK_MAPPING_COMPLETE"
+  "freeze_status": "CURRICULUM_FROZEN_TEXTBOOK_COVERAGE_VERIFIED"
 }

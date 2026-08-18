@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_10",
+  "audit_type": "CANONICAL_CURRICULUM_SOURCE_COMPLETENESS",
+  "registered_theme_snapshots": 4,
+  "parent_outcomes_verified": 64,
+  "explicit_subcomponent_codes_found": 0,
+  "source_complete": true,
+  "canonical_decision": "FREEZE_WITHOUT_SYNTHETIC_SUBCOMPONENT_IDS",
+  "themes": [
+    {
+      "theme_id": "TEMA_01",
+      "parent_outcomes_found": 16,
+      "subcodes": [],
+      "status": "PASS"
+    },
+    {
+      "theme_id": "TEMA_02",
+      "parent_outcomes_found": 16,
+      "subcodes": [],
+      "status": "PASS"
+    },
+    {
+      "theme_id": "TEMA_03",
+      "parent_outcomes_found": 16,
+      "subcodes": [],
+      "status": "PASS"
+    },
+    {
+      "theme_id": "TEMA_04",
+      "parent_outcomes_found": 16,
+      "subcodes": [],
+      "status": "PASS"
+    }
+  ],
+  "decision_rule": "Do not synthesize TDE*.x.y subordinate codes when the registered official TDE_10 snapshots do not enumerate them."
+}

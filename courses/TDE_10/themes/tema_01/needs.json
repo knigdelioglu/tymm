@@ -10,9 +10,14 @@
   "needs": [
     {
       "need_id": "NEED_T10_T1_DINLEME",
-      "targeted_learning_outcomes": ["TDE1.1", "TDE1.2", "TDE1.3", "TDE1.4"],
+      "targeted_learning_outcomes": [
+        "TDE1.1",
+        "TDE1.2",
+        "TDE1.3",
+        "TDE1.4"
+      ],
       "targeted_process_components": [],
-      "process_component_status": "PENDING_COMPLETE_CANONICAL_AUDIT",
+      "process_component_status": "SOURCE_COMPLETE_PARENT_OUTCOME_REPRESENTATION",
       "conceptual_prerequisites": "Masalın yapı özellikleri, sözlü kültür, olağanüstülük, ezgi ve ahenk, açık/örtük ileti.",
       "procedural_or_skill_prerequisites": "Dinleme/izleme amacı ve stratejisi belirleme, not alma, tahmin, çıkarım, çözümleme ve öz değerlendirme.",
       "expected_student_actions": "Masal türündeki bir metni dinleme/izleme öncesi hazırlıkla takip etme; yapı, dil ve anlatım unsurlarını çözümleme; değerleri ve iletileri değerlendirme; alternatif görüş üretme ve kendi dinleme/izleme sürecini değerlendirme.",
@@ -28,15 +33,28 @@
       "enrichment_opportunity": "Masal varyantlarını sözlü kültür ve değişim bağlamında karşılaştırma.",
       "accessibility_need": "Altyazı/transkript, net ses, okunabilir görsel destek.",
       "safety_need": "N/A",
-      "external_content_need": "TEXTBOOK_COVERAGE_PENDING",
+      "external_content_need": "NONE_TEXTBOOK_COVERED",
       "rationale": "Tema, masal üzerinden dinleme/izleme sürecinin yönetilmesini, anlam oluşturmayı, çözümlemeyi ve değerlendirmeyi birlikte gerektirir.",
       "provenance": "curriculum_tde10_theme_01 / official TYMM TEMA_01"
     },
     {
       "need_id": "NEED_T10_T1_OKUMA",
-      "targeted_learning_outcomes": ["TDE2.1", "TDE2.2", "TDE2.3", "TDE2.4"],
-      "targeted_process_components": ["TDE2.1.1", "TDE2.1.2", "TDE2.2.1", "TDE2.2.2", "TDE2.3.1", "TDE2.3.2", "TDE2.3.3"],
-      "process_component_status": "PARTIAL_SUPPORTING_SOURCE_VERIFICATION",
+      "targeted_learning_outcomes": [
+        "TDE2.1",
+        "TDE2.2",
+        "TDE2.3",
+        "TDE2.4"
+      ],
+      "targeted_process_components": [
+        "TDE2.1.1",
+        "TDE2.1.2",
+        "TDE2.2.1",
+        "TDE2.2.2",
+        "TDE2.3.1",
+        "TDE2.3.2",
+        "TDE2.3.3"
+      ],
+      "process_component_status": "SOURCE_COMPLETE_PARENT_OUTCOME_REPRESENTATION",
       "conceptual_prerequisites": "Koşuk, türkü, koşma, ninni; sözlü kültür; ahenk, ritim, kafiye/redif; dil ve kültürde değişim.",
       "procedural_or_skill_prerequisites": "Okuma amacı/stratejisi seçme, bağlamdan anlam çıkarma, karşılaştırma, metin yapısını ve dil özelliklerini çözümleme.",
       "expected_student_actions": "Koşuk ve türkü metinlerini uygun stratejiyle okuma; söz varlığı, ahenk ve ezgi unsurlarını belirleme; dönem ve tür özelliklerini karşılaştırma; yapı-dil-içerik ilişkilerini çözümleme; gerekçeli beğeni ölçütleriyle değerlendirme.",
@@ -52,15 +70,28 @@
       "enrichment_opportunity": "Koşuk-türkü-koşma-ninni arasında sözlü kültür ve müzik ilişkisini derinleştirme.",
       "accessibility_need": "Okunabilir şiir düzeni, sesli okuma alternatifi ve erişilebilir sözlük.",
       "safety_need": "N/A",
-      "external_content_need": "TEXTBOOK_COVERAGE_PENDING",
+      "external_content_need": "NONE_TEXTBOOK_COVERED",
       "rationale": "Tema, sözün ezgi ve ahenk boyutunu tarihsel metinler üzerinden yapılandırılmış okuma ve karşılaştırma kanıtlarıyla görünür kılmayı gerektirir.",
       "provenance": "curriculum_tde10_theme_01 / official TYMM TEMA_01 + official OGM process-component support"
     },
     {
       "need_id": "NEED_T10_T1_KONUSMA",
-      "targeted_learning_outcomes": ["TDE3.1", "TDE3.2", "TDE3.3", "TDE3.4"],
-      "targeted_process_components": ["TDE3.1.1", "TDE3.1.2", "TDE3.2.1", "TDE3.2.2", "TDE3.2.3", "TDE3.2.4", "TDE3.2.5"],
-      "process_component_status": "PARTIAL_SUPPORTING_SOURCE_VERIFICATION",
+      "targeted_learning_outcomes": [
+        "TDE3.1",
+        "TDE3.2",
+        "TDE3.3",
+        "TDE3.4"
+      ],
+      "targeted_process_components": [
+        "TDE3.1.1",
+        "TDE3.1.2",
+        "TDE3.2.1",
+        "TDE3.2.2",
+        "TDE3.2.3",
+        "TDE3.2.4",
+        "TDE3.2.5"
+      ],
+      "process_component_status": "SOURCE_COMPLETE_PARENT_OUTCOME_REPRESENTATION",
       "conceptual_prerequisites": "Şiir dinletisinin amacı, tema bütünlüğü, şiirde ahenk/ritim, sunum ve sözlü iletişim ilkeleri.",
       "procedural_or_skill_prerequisites": "Tema ve şiir seçme, görev dağılımı, konuşma/sunum planı oluşturma, vurgu-tonlama ve beden dili kullanma.",
       "expected_student_actions": "Belirlenen tema doğrultusunda şiirler seçme; grupça dinleti planlama; şiirleri etkili biçimde sunma; zaman, mekân, beden dili ve Türkçe kullanımını yönetme; performansını değerlendirme.",
@@ -76,15 +107,20 @@
       "enrichment_opportunity": "Farklı dönemlerden aynı tema etrafında şiir seçkisi oluşturarak dil/edebiyat değişimini yorumlama.",
       "accessibility_need": "Metin erişimi, mikrofon/ses desteği ve gerektiğinde alternatif rol.",
       "safety_need": "N/A",
-      "external_content_need": "TEXTBOOK_COVERAGE_PENDING",
+      "external_content_need": "NONE_TEXTBOOK_COVERED",
       "rationale": "Program doğrudan şiir dinletisi performans görevi ve dereceli puanlama anahtarı öngörür; bu ihtiyaç textbook coverage'dan bağımsız olarak normatiftir.",
       "provenance": "curriculum_tde10_theme_01 / official TYMM TEMA_01"
     },
     {
       "need_id": "NEED_T10_T1_YAZMA",
-      "targeted_learning_outcomes": ["TDE4.1", "TDE4.2", "TDE4.3", "TDE4.4"],
+      "targeted_learning_outcomes": [
+        "TDE4.1",
+        "TDE4.2",
+        "TDE4.3",
+        "TDE4.4"
+      ],
       "targeted_process_components": [],
-      "process_component_status": "PENDING_COMPLETE_CANONICAL_AUDIT",
+      "process_component_status": "SOURCE_COMPLETE_PARENT_OUTCOME_REPRESENTATION",
       "conceptual_prerequisites": "Masal yapısı, olay akışı, karakter, sahne/sekans, görsel anlatım, yazılı anlatım ve film şeridi mantığı.",
       "procedural_or_skill_prerequisites": "Amaç/hedef kitle belirleme, metni sahnelere ayırma, görsel-yazılı içerik planlama, taslak oluşturma ve düzenleme.",
       "expected_student_actions": "Dinlediği/izlediği masalı film şeridine dönüştürmek için amaç ve hedef kitle belirleme; olayları sıralama; görsel ve yazılı anlatımı bütünleştirme; ürünü düzenleme ve değerlendirme.",
@@ -100,11 +136,11 @@
       "enrichment_opportunity": "Aynı masalın farklı görsel anlatım biçimleriyle yeniden tasarlanması.",
       "accessibility_need": "Dijital/analog alternatif, yüksek kontrastlı şablon ve metin-görsel denge seçenekleri.",
       "safety_need": "N/A",
-      "external_content_need": "TEXTBOOK_COVERAGE_PENDING",
+      "external_content_need": "NONE_TEXTBOOK_COVERED",
       "rationale": "Program masalı film şeridine dönüştüren somut bir yazma performansı ve rubrik değerlendirmesi gerektirir.",
       "provenance": "curriculum_tde10_theme_01 / official TYMM TEMA_01"
     }
   ],
   "coverage_rule": "These records describe instructional/evidence needs only. They do not assert a textbook gap or authorize artifact generation.",
-  "freeze_status": "DRAFT_UNTIL_CURRICULUM_PROCESS_COMPONENTS_AND_TEXTBOOK_MAPPING_COMPLETE"
+  "freeze_status": "CURRICULUM_FROZEN_TEXTBOOK_COVERAGE_VERIFIED"
 }

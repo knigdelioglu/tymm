@@ -1,40 +1,21 @@
 # TDE_10 Canonical Knowledge Validation Report
 
-**Course:** TDE_10 - 10. Sınıf Türk Dili ve Edebiyatı  
-**Status:** `TEXTBOOK_LOCAL_PDF_VERIFIED / CURRICULUM_NOT_FROZEN`  
-**Architecture reference:** `docs/tymm-yeniden-kullanilabilir-bilgi-mimarisi-raporu.md`
-
-## Current result
+**Status:** `CANONICAL KNOWLEDGE FROZEN / TEXTBOOK ALIGNMENT PASS`
 
 ```text
-Source registration                  PASS
-Local official textbook PDF          PASS
-Book identity / ISBN / TTKB          PASS
-Printed-to-PDF page offset           PASS (PDF = printed + 1)
-Textbook page/activity map           PASS
-Textbook forms index                 PASS
-Official EBA DPA link presence       PASS (8/8)
-Analytic-rubric classification       NOT ASSERTED
-Program-textbook alignment           PASS (64/64 COVERED)
-Verified resource gaps               0
-Theme resource plans                 PASS (REUSE_TEXTBOOK)
-Curriculum process components        PENDING
-Curriculum canonical freeze          BLOCKED
-Knowledge index/runtime/P0           BLOCKED BY CURRICULUM FREEZE
+4 official curriculum snapshots       PASS
+Parent learning outcomes              PASS (64/64)
+Explicit TDE*.x.y subcomponent scan   PASS (0 published)
+Synthetic subcomponent inference      FORBIDDEN
+Curriculum canonical map              VERIFIED / FROZEN
+Local official textbook PDF           VERIFIED
+Program-textbook alignment            PASS (64/64 COVERED)
+Verified resource gaps                0
+Theme resource plans                  PASS / REUSE_TEXTBOOK
 ```
 
-## Textbook authority
+The registered 10th-grade official theme snapshots publish all parent outcomes but do not enumerate subordinate `TDE*.x.y` process IDs. The canonical layer is therefore frozen without inventing or copying TDE_9 subordinate codes. Official learning-teaching application paragraphs remain the source representation of process realization.
 
-Primary analysis snapshot: `source_docs/turk-dili-ve-edebiyati-10.pdf`. The PDF identifies the book as the 2025 MEB 10th-grade Turkish Language and Literature textbook, ISBN `978-975-11-8944-8`, accepted with the 25.06.2025 / 135156433 TTKB letter. TYMM and OGM web locators remain official identity/provenance cross-checks.
+Primary textbook analysis source: `source_docs/turk-dili-ve-edebiyati-10.pdf` (2025 MEB, ISBN `978-975-11-8944-8`). All 64 outcomes have a textbook action/evidence path. Current verified REQUIRED resource gaps: **0**.
 
-## Assessment result
-
-The eight speaking/writing performance tasks that previously remained review-required all contain an official EBA link labelled `Dereceli Puanlama Anahtarı` in the local PDF. In-book self/peer/checklist/reflection evidence is also present. Therefore these are no longer resource gaps. The external rubric targets remain structurally unclassified; the system does not silently relabel them as analytic rubrics.
-
-## Gap conclusion
-
-All 64 scoped learning outcomes currently have a textbook counterpart. No REQUIRED artifact generation is authorized from textbook coverage analysis. This conclusion may change only if curriculum process-component completion reveals a requirement not represented in the textbook.
-
-## Next gate
-
-Complete the four curriculum PDF process-component extraction, adjudicate exact wording/page locators, then freeze the canonical curriculum layer. Only after that should cross-theme consolidation, knowledge.sqlite, runtime projection and P0 production gate be opened.
+Next: cross-theme consolidation → reuse-only production contract → knowledge index → resolver/runtime → P0 gate.

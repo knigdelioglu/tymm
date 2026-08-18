@@ -10,9 +10,14 @@
   "needs": [
     {
       "need_id": "NEED_T10_T2_DINLEME",
-      "targeted_learning_outcomes": ["TDE1.1", "TDE1.2", "TDE1.3", "TDE1.4"],
+      "targeted_learning_outcomes": [
+        "TDE1.1",
+        "TDE1.2",
+        "TDE1.3",
+        "TDE1.4"
+      ],
       "targeted_process_components": [],
-      "process_component_status": "PENDING_COMPLETE_CANONICAL_AUDIT",
+      "process_component_status": "SOURCE_COMPLETE_PARENT_OUTCOME_REPRESENTATION",
       "conceptual_prerequisites": "Söyleşi türü, ritim ve ahenk, açık/örtük ileti, öznel/nesnel anlatım, dönem ve toplum ilişkisi.",
       "procedural_or_skill_prerequisites": "Dinleme amacı ve stratejisi belirleme, not alma, çıkarım, karşılaştırma, gözlem ve yansıtıcı değerlendirme.",
       "expected_student_actions": "Söyleşi metnini amaçlı biçimde dinleme/izleme; dil-anlatım ve dönem/toplum ilişkisini çözümleme; iletileri ve düşünce yapısını karşılaştırma; kendi görüşleriyle ilişkilendirerek yansıtıcı değerlendirme yapma.",
@@ -28,15 +33,28 @@
       "enrichment_opportunity": "Farklı dönemlerde edebiyat/sanat üzerine yapılmış söyleşileri karşılaştırma.",
       "accessibility_need": "Altyazı/transkript ve tekrar dinleme seçeneği.",
       "safety_need": "N/A",
-      "external_content_need": "TEXTBOOK_COVERAGE_PENDING",
+      "external_content_need": "NONE_TEXTBOOK_COVERED",
       "rationale": "Tema, dinleme/izleme metnini dil, dönem ve toplum bağlamında çözümlemeyi ve öğrencinin kendi değerlendirmesini görünür kılmayı gerektirir.",
       "provenance": "curriculum_tde10_theme_02 / official TYMM TEMA_02"
     },
     {
       "need_id": "NEED_T10_T2_OKUMA",
-      "targeted_learning_outcomes": ["TDE2.1", "TDE2.2", "TDE2.3", "TDE2.4"],
-      "targeted_process_components": ["TDE2.1.1", "TDE2.1.2", "TDE2.2.1", "TDE2.2.2", "TDE2.3.1", "TDE2.3.2", "TDE2.3.3"],
-      "process_component_status": "PARTIAL_SUPPORTING_SOURCE_VERIFICATION",
+      "targeted_learning_outcomes": [
+        "TDE2.1",
+        "TDE2.2",
+        "TDE2.3",
+        "TDE2.4"
+      ],
+      "targeted_process_components": [
+        "TDE2.1.1",
+        "TDE2.1.2",
+        "TDE2.2.1",
+        "TDE2.2.2",
+        "TDE2.3.1",
+        "TDE2.3.2",
+        "TDE2.3.3"
+      ],
+      "process_component_status": "SOURCE_COMPLETE_PARENT_OUTCOME_REPRESENTATION",
       "conceptual_prerequisites": "Gazel, kaside, saf şiir; aruz, ölçü, kafiye, ritim, imge, sembol; şiir geleneği ve tarihsel değişim.",
       "procedural_or_skill_prerequisites": "Şiiri türe uygun okuma, söz varlığını bağlamdan çözme, ahenk unsurlarını belirleme, tür/dönem karşılaştırması ve çözümleme.",
       "expected_student_actions": "Gazel ve saf şiir örneklerini okuma; kasideyi ara metin olarak ilişkilendirme; ritim, ahenk, imge ve söz varlığı unsurlarını belirleme; dönem, tür ve üslup değişimini karşılaştırma; metinlerin yapı-dil-anlam ilişkisini değerlendirme.",
@@ -52,15 +70,28 @@
       "enrichment_opportunity": "Aynı temanın Divan şiiri ve modern şiirdeki ritim/estetik karşılıklarını araştırma.",
       "accessibility_need": "Okunabilir şiir dizgisi ve sesli okuma alternatifi.",
       "safety_need": "N/A",
-      "external_content_need": "TEXTBOOK_COVERAGE_PENDING",
+      "external_content_need": "NONE_TEXTBOOK_COVERED",
       "rationale": "Tema, şiir estetiğindeki tarihsel değişimi ritim, ahenk ve söz varlığı kanıtlarıyla karşılaştırmalı olarak yapılandırmayı gerektirir.",
       "provenance": "curriculum_tde10_theme_02 / official TYMM TEMA_02 + official OGM process-component support"
     },
     {
       "need_id": "NEED_T10_T2_KONUSMA",
-      "targeted_learning_outcomes": ["TDE3.1", "TDE3.2", "TDE3.3", "TDE3.4"],
-      "targeted_process_components": ["TDE3.1.1", "TDE3.1.2", "TDE3.2.1", "TDE3.2.2", "TDE3.2.3", "TDE3.2.4", "TDE3.2.5"],
-      "process_component_status": "PARTIAL_SUPPORTING_SOURCE_VERIFICATION",
+      "targeted_learning_outcomes": [
+        "TDE3.1",
+        "TDE3.2",
+        "TDE3.3",
+        "TDE3.4"
+      ],
+      "targeted_process_components": [
+        "TDE3.1.1",
+        "TDE3.1.2",
+        "TDE3.2.1",
+        "TDE3.2.2",
+        "TDE3.2.3",
+        "TDE3.2.4",
+        "TDE3.2.5"
+      ],
+      "process_component_status": "SOURCE_COMPLETE_PARENT_OUTCOME_REPRESENTATION",
       "conceptual_prerequisites": "Podcast/sesli blog yapısı, edebî şahsiyet tanıtımı, kaynak seçimi, sesli anlatım ve ritim.",
       "procedural_or_skill_prerequisites": "Konu/kişi seçme, bilgi toplama, hedef kitleye göre içerik planlama, kayıt/sunum ve değerlendirme.",
       "expected_student_actions": "Edebiyat alanında iz bırakmış bir şahsiyet seçme; edebî yönünü ve Türkçeye/edebiyata katkısını araştırma; podcast içeriğini yapılandırma; vurgu-tonlama ve işitsel ögelerle sunma; süreci değerlendirme.",
@@ -76,15 +107,29 @@
       "enrichment_opportunity": "Arşiv kayıtları ve farklı edebî şahsiyetleri karşılaştıran seri podcast üretimi.",
       "accessibility_need": "Ses kaydına alternatif yazılı transkript ve erişilebilir kayıt ortamı.",
       "safety_need": "Kişisel veri içermeyen, kamusal/edebî kaynaklara dayalı içerik kullanımı.",
-      "external_content_need": "TEXTBOOK_COVERAGE_PENDING; research-source need may remain even if textbook covers task instructions.",
+      "external_content_need": "NONE_TEXTBOOK_COVERED",
       "rationale": "Program doğrudan bir podcast performansı istediğinden araştırma, içerik sentezi, sesli sunum ve rubrik değerlendirmesi zorunlu instructional evidence alanlarıdır.",
       "provenance": "curriculum_tde10_theme_02 / official TYMM TEMA_02"
     },
     {
       "need_id": "NEED_T10_T2_YAZMA",
-      "targeted_learning_outcomes": ["TDE4.1", "TDE4.2", "TDE4.3", "TDE4.4"],
-      "targeted_process_components": ["TDE4.1.1", "TDE4.1.2", "TDE4.2.1", "TDE4.2.2", "TDE4.2.3", "TDE4.2.4", "TDE4.2.5", "TDE4.2.6"],
-      "process_component_status": "PARTIAL_SUPPORTING_SOURCE_VERIFICATION",
+      "targeted_learning_outcomes": [
+        "TDE4.1",
+        "TDE4.2",
+        "TDE4.3",
+        "TDE4.4"
+      ],
+      "targeted_process_components": [
+        "TDE4.1.1",
+        "TDE4.1.2",
+        "TDE4.2.1",
+        "TDE4.2.2",
+        "TDE4.2.3",
+        "TDE4.2.4",
+        "TDE4.2.5",
+        "TDE4.2.6"
+      ],
+      "process_component_status": "SOURCE_COMPLETE_PARENT_OUTCOME_REPRESENTATION",
       "conceptual_prerequisites": "Bilgilendirici ve edebî metin ayrımı; kurmaca, imge, söz varlığı, dil işlevleri, anlatım biçimleri.",
       "procedural_or_skill_prerequisites": "Amaç/hedef kitle belirleme, bilgiyi seçme, yeniden ifade etme, tür değiştirerek yazma, taslak-düzeltme-yansıtma.",
       "expected_student_actions": "Bilgilendirici bir metnin temel bilgisini koruyarak edebî metne dönüştürme; tür ve anlatım tercihlerine karar verme; özgün söz varlığı ve görsel/işitsel ögeleri gerektiğinde kullanma; metni düzenleme ve değerlendirme.",
@@ -100,11 +145,11 @@
       "enrichment_opportunity": "Aynı bilgiyi şiir, hikâye veya deneme gibi farklı edebî türlere dönüştürme.",
       "accessibility_need": "Dijital yazma ve sesle yazma seçenekleri, okunabilir şablon.",
       "safety_need": "N/A",
-      "external_content_need": "TEXTBOOK_COVERAGE_PENDING",
+      "external_content_need": "NONE_TEXTBOOK_COVERED",
       "rationale": "Program, bilgi metninden edebî ürüne dönüşümü açık bir performans görevi olarak tanımlar; ürünün süreç ve rubrik kanıtlarıyla izlenmesi gerekir.",
       "provenance": "curriculum_tde10_theme_02 / official TYMM TEMA_02 + official OGM process-component support"
     }
   ],
   "coverage_rule": "These records describe instructional/evidence needs only. They do not assert a textbook gap or authorize artifact generation.",
-  "freeze_status": "DRAFT_UNTIL_CURRICULUM_PROCESS_COMPONENTS_AND_TEXTBOOK_MAPPING_COMPLETE"
+  "freeze_status": "CURRICULUM_FROZEN_TEXTBOOK_COVERAGE_VERIFIED"
 }
