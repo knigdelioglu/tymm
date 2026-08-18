@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_10",
+  "reference_course_id": "TDE_9",
+  "status": "VALIDATED_WITH_EXTERNAL_AUTH_BLOCKER",
+  "parity_certified": false,
+  "checks": {
+    "themes_4": true,
+    "outcomes_64": true,
+    "curriculum_verbatim_complete": true,
+    "sections_24": true,
+    "activities_75": true,
+    "activity_depth_complete": true,
+    "forms_35": true,
+    "form_structure_rule": true,
+    "form_activity_no_broken_refs": true,
+    "form_activity_bidirectional": true,
+    "external_dpa_8_auth_gated": true,
+    "needs_64": true,
+    "resources_64": true,
+    "alignments_64": true,
+    "gaps_64": true,
+    "chain_trace_complete": true,
+    "coverage_56_8_0": true,
+    "cross_theme_real_comparison": true,
+    "production_fail_closed": true
+  },
+  "hard_failures": [],
+  "external_blockers": [
+    "8 authenticated EBA DPA target structures unresolved"
+  ],
+  "counts": {
+    "themes": 4,
+    "outcomes": 64,
+    "sections": 24,
+    "activities": 75,
+    "forms": 35,
+    "needs": 64,
+    "resources": 64,
+    "alignments": 64,
+    "gaps": 64,
+    "covered": 56,
+    "partially_covered": 8,
+    "not_covered": 0
+  },
+  "details": {
+    "verbatim_missing": [],
+    "activity_missing": [],
+    "broken_activity_to_form": [],
+    "broken_form_to_activity": [],
+    "asymmetric_form_activity": [],
+    "chain_errors": [],
+    "theme_metrics": [
+      {
+        "theme_no": 1,
+        "needs": 16,
+        "resources": 16,
+        "alignments": 16,
+        "gaps": 16,
+        "coverage": {
+          "total_learning_outcomes": 16,
+          "covered_count": 14,
+          "partially_covered_count": 2,
+          "not_covered_count": 0,
+          "review_required_count": 2,
+          "alignment_status": "REVIEW_REQUIRED"
+        }
+      },
+      {
+        "theme_no": 2,
+        "needs": 16,
+        "resources": 16,
+        "alignments": 16,
+        "gaps": 16,
+        "coverage": {
+          "total_learning_outcomes": 16,
+          "covered_count": 14,
+          "partially_covered_count": 2,
+          "not_covered_count": 0,
+          "review_required_count": 2,
+          "alignment_status": "REVIEW_REQUIRED"
+        }
+      },
+      {
+        "theme_no": 3,
+        "needs": 16,
+        "resources": 16,
+        "alignments": 16,
+        "gaps": 16,
+        "coverage": {
+          "total_learning_outcomes": 16,
+          "covered_count": 14,
+          "partially_covered_count": 2,
+          "not_covered_count": 0,
+          "review_required_count": 2,
+          "alignment_status": "REVIEW_REQUIRED"
+        }
+      },
+      {
+        "theme_no": 4,
+        "needs": 16,
+        "resources": 16,
+        "alignments": 16,
+        "gaps": 16,
+        "coverage": {
+          "total_learning_outcomes": 16,
+          "covered_count": 14,
+          "partially_covered_count": 2,
+          "not_covered_count": 0,
+          "review_required_count": 2,
+          "alignment_status": "REVIEW_REQUIRED"
+        }
+      }
+    ]
+  }
+}

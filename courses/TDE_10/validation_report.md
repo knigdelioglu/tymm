@@ -1,26 +1,69 @@
-# TDE_10 Canonical Knowledge Validation Report
+# TDE_10 → TDE_9 Parity Doğrulama ve Bütünlük Denetim Raporu
 
-**Status:** `P0 PASS / CANONICAL FROZEN / REUSE ONLY`
+**Nihai doğrulama durumu:** `VALIDATED_WITH_EXTERNAL_AUTH_BLOCKER`  
+**Parity sertifikası:** `WITHHELD`  
+**Tek dış blocker:** 8 resmî EBA Dereceli Puanlama Anahtarı hedefinin authentication arkasında olması.
 
-```text
-Official curriculum snapshots        PASS (4/4)
-Canonical learning outcomes          PASS (64/64)
-Curriculum canonical map             VERIFIED / FROZEN
-Official local textbook PDF          VERIFIED / FROZEN
-Program-textbook alignment           PASS (64/64 COVERED)
-Verified remaining resource gaps     0
-New assessment artifacts             0
-Production mode                      REUSE_ONLY_NO_NEW_ARTIFACTS
-Teaching blocks                      16
-Knowledge index                      INDEX_FRESH
-Resolver stale/conflict gates        PASS
-No-gap generation gate               PASS
-Runtime projection                   PASS
-P0                                    PASS
-```
+## Yönetici özeti
 
-The 10th-grade course uses the local official MEB textbook snapshot `source_docs/turk-dili-ve-edebiyati-10.pdf`. All 64 scoped outcomes have verified textbook action/evidence paths. Cross-theme consolidation found no verified resource gap, so the production contract deliberately contains no new physical artifact.
+| Denetim | Sonuç |
+|---|---|
+| `themes_4` | 🟢 PASS |
+| `outcomes_64` | 🟢 PASS |
+| `curriculum_verbatim_complete` | 🟢 PASS |
+| `sections_24` | 🟢 PASS |
+| `activities_75` | 🟢 PASS |
+| `activity_depth_complete` | 🟢 PASS |
+| `forms_35` | 🟢 PASS |
+| `form_structure_rule` | 🟢 PASS |
+| `form_activity_no_broken_refs` | 🟢 PASS |
+| `form_activity_bidirectional` | 🟢 PASS |
+| `external_dpa_8_auth_gated` | 🟢 PASS |
+| `needs_64` | 🟢 PASS |
+| `resources_64` | 🟢 PASS |
+| `alignments_64` | 🟢 PASS |
+| `gaps_64` | 🟢 PASS |
+| `chain_trace_complete` | 🟢 PASS |
+| `coverage_56_8_0` | 🟢 PASS |
+| `cross_theme_real_comparison` | 🟢 PASS |
+| `production_fail_closed` | 🟢 PASS |
 
-The derived `knowledge.sqlite` and runtime SQLite are rebuildable projections only; canonical JSON/MD remains source of truth. A direct material-generation request is blocked with `NO_VERIFIED_RESOURCE_GAP` unless canonical evidence later establishes a real gap.
+## Sayısal bütünlük
 
-Runtime row counts: `{"courses": 1, "themes": 4, "blocks": 16, "block_activities": 75, "outcomes": 64, "block_outcomes": 64, "textbook_sections": 24, "activities": 75, "activity_outcomes": 300, "forms": 35, "activity_forms": 119, "resource_decisions": 16, "assessment_artifacts": 0, "assessment_gap_mappings": 0, "assessment_task_bindings": 0, "timeline_themes": 4, "timeline_blocks": 16, "source_references": 4, "entity_source_references": 0}`.
+- Tema: **4**
+- Öğrenme çıktısı: **64**
+- Textbook section: **24**
+- Textbook activity: **75**
+- Form/assessment kaydı: **35**
+- Outcome-level need/resource/alignment/gap: **64/64/64/64**
+- Coverage: **56 COVERED / 8 PARTIALLY_COVERED / 0 NOT_COVERED**
+
+## Curriculum parity
+
+- Tema bağlam verbatim eksik alan sayısı: **0**.
+- 64 parent outcome kendi resmî TDE_10 snapshot locatorı ile korunmaktadır.
+- Resmî snapshotlarda yayımlanmayan alt süreç kodları üretilmemiştir.
+
+## Textbook parity
+
+- 24 bölüm ve 75 activity denetlenmiştir.
+- Activity depth alanı eksik kayıt sayısı: **0**.
+- Kırık form referansı: **0**.
+- Asimetrik form↔activity referansı: **0**.
+
+## Assessment parity
+
+- Yapısal sınıflandırma başlığa göre değil gözlenen yapı bileşenlerine göre yapılmaktadır.
+- Sekiz EBA DPA linkinin varlığı doğrulanmıştır; hedefler EBA giriş ekranına yönlendiği için yapıları unresolved kalmıştır.
+- Bu nedenle TDE3.4 ve TDE4.4 her temada PARTIALLY_COVERED / REVIEW_REQUIRED olarak tutulmaktadır.
+
+## Cross-theme ve production
+
+- Dört konuşma DPA ihtiyacı tek konuşma assessment kümesinde karşılaştırılmıştır.
+- Dört yazma DPA ihtiyacı tek yazma assessment kümesinde karşılaştırılmıştır.
+- Bunlar confirmed gap değildir; hedefler görülmeden artifact üretimi veya konsolidasyonu yapılmaz.
+- Production: `PARITY_REVIEW_BLOCKED`; generation authorization: `false`.
+
+## Nihai karar
+
+Canonical veri tabanı iç bütünlük ve TDE_9 seviye denetim mantığı açısından **PASS** durumundadır. Ancak dış EBA hedefleri görülemediği için TDE_10 henüz **TDE_9-level parity certified** değildir. Bu blocker çözülmeden `0 gap → NO_REQUIRED_ARTIFACTS` sonucu dondurulmayacaktır.
