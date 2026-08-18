@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_10",
+  "changed_activity_count": 9,
+  "changes": [
+    {
+      "activity_id": "T1_ACT_09_SIIR_DINLETISI_SUNUM",
+      "old": [
+        "FORM_T1_KONUSMA_AKRAN"
+      ],
+      "new": []
+    },
+    {
+      "activity_id": "T1_ACT_15_FILM_SERIDI_URETIM",
+      "old": [
+        "FORM_T1_YAZMA_KONTROL"
+      ],
+      "new": []
+    },
+    {
+      "activity_id": "T2_ACT_08_YAZMA_PLAN",
+      "old": [
+        "FORM_T2_YAZMA_KONTROL"
+      ],
+      "new": []
+    },
+    {
+      "activity_id": "T2_ACT_09_METIN_DONUSTURME",
+      "old": [
+        "FORM_T2_YAZMA_KONTROL"
+      ],
+      "new": []
+    },
+    {
+      "activity_id": "T2_ACT_16_PODCAST_URETIM",
+      "old": [
+        "FORM_T2_PODCAST_YANSITMA",
+        "LINK_T2_PODCAST_DPA"
+      ],
+      "new": []
+    },
+    {
+      "activity_id": "T3_ACT_09_DESTAN_SUNUM",
+      "old": [
+        "FORM_T3_KONUSMA_OZ"
+      ],
+      "new": []
+    },
+    {
+      "activity_id": "T3_ACT_16_FABL_YAZMA",
+      "old": [
+        "FORM_T3_YAZMA_OZ"
+      ],
+      "new": []
+    },
+    {
+      "activity_id": "T4_ACT_10_CANLANDIRMA_SUNUM",
+      "old": [
+        "LINK_T4_KONUSMA_DPA"
+      ],
+      "new": []
+    },
+    {
+      "activity_id": "T4_ACT_11_CANLANDIRMA_DEGERLENDIRME",
+      "old": [
+        "FORM_T4_KONUSMA_AKRAN",
+        "FORM_T4_KONUSMA_OZ"
+      ],
+      "new": [
+        "FORM_T4_KONUSMA_AKRAN",
+        "FORM_T4_KONUSMA_OZ",
+        "LINK_T4_KONUSMA_DPA"
+      ]
+    }
+  ],
+  "authority_rule": "textbook_forms_index.linked_activity_ids is authoritative for semantic form↔activity linkage; page overlap alone does not create a link."
+}

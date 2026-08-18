@@ -41,7 +41,8 @@
     "assessment_forms_mapped": true,
     "printed_page_locator_semantics": "Local PDF verified: PDF page = printed page + 1.",
     "activity_depth_parity": "PASS_75_OF_75_LOCAL_PDF_SOURCE_BACKED",
-    "activity_title_policy": "Use observed printed heading when uniquely visible in activity page span; otherwise preserve null with NOT_SEPARATELY_TITLED_IN_SOURCE rather than inventing a title."
+    "activity_title_policy": "Use observed printed heading when uniquely visible in activity page span; otherwise preserve null with NOT_SEPARATELY_TITLED_IN_SOURCE rather than inventing a title.",
+    "form_activity_bidirectional_sync": "PASS_CANONICAL_FORM_INDEX_AUTHORITATIVE"
   },
   "themes": [
     {
@@ -103,7 +104,8 @@
               "student_action_detail": "Okuma öncesi hazırlık soruları ve yönlendirmeleri üzerinden ön bilgileri etkinleştirme, tahmin oluşturma ve metne/döneme ilişkin hazırlık yapma.",
               "expected_product_or_evidence": "Hazırlık sorularına verilen cevaplar, tahminler ve kısa hazırlık notları.",
               "related_forms": [],
-              "source_text_sha256": "550e41bc7e567cb7f4c1ad972928b0495e6e07cbd8e7d30caa00a84d442f9866"
+              "source_text_sha256": "550e41bc7e567cb7f4c1ad972928b0495e6e07cbd8e7d30caa00a84d442f9866",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T1_ACT_02_KOSUK_ANLAM",
@@ -122,7 +124,8 @@
               "student_action_detail": "Metni okuyarak konu, tema, söz varlığı, açık/örtük ileti ve bağlama ilişkin anlam oluşturma sorularını cevaplama.",
               "expected_product_or_evidence": "Metni anlama sorularına verilen yazılı cevaplar ve anlamlandırma kayıtları.",
               "related_forms": [],
-              "source_text_sha256": "96d7ede6437cf07643b83742e9a9aea7ae44df40ecde0c5d5dcd40a9ce8c55db"
+              "source_text_sha256": "96d7ede6437cf07643b83742e9a9aea7ae44df40ecde0c5d5dcd40a9ce8c55db",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T1_ACT_03_KOSUK_COZUMLEME",
@@ -146,7 +149,8 @@
               "student_action_detail": "Metni yapı, tür, dil-anlatım, ahenk/söz varlığı ve dönem bağlamı yönlerinden çözümleyip karşılaştırma ve gerekçelendirme çalışmaları yapma.",
               "expected_product_or_evidence": "Tahlil cevapları, karşılaştırma tabloları/şemaları ve gerekçeli çözümleme kayıtları.",
               "related_forms": [],
-              "source_text_sha256": "5e2d9e79c93d173c9a57714f36214d4d6064837a95bcc2939f7f85f163722a6b"
+              "source_text_sha256": "5e2d9e79c93d173c9a57714f36214d4d6064837a95bcc2939f7f85f163722a6b",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T1_ACT_04_KOSUK_YANSITMA",
@@ -168,7 +172,8 @@
               "related_forms": [
                 "FORM_T1_EXIT_321"
               ],
-              "source_text_sha256": "53c0bb81d7532e7f01d7f293cbe57ed36a02d5be7ca7f4bddc06714f85a72e85"
+              "source_text_sha256": "53c0bb81d7532e7f01d7f293cbe57ed36a02d5be7ca7f4bddc06714f85a72e85",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             }
           ]
         },
@@ -206,7 +211,8 @@
               "student_action_detail": "Okuma öncesi hazırlık soruları ve yönlendirmeleri üzerinden ön bilgileri etkinleştirme, tahmin oluşturma ve metne/döneme ilişkin hazırlık yapma.",
               "expected_product_or_evidence": "Hazırlık sorularına verilen cevaplar, tahminler ve kısa hazırlık notları.",
               "related_forms": [],
-              "source_text_sha256": "9574f063d2c9e63d3901ab07f6e898013d987d0fe2cef7776f27353b8bc23b8b"
+              "source_text_sha256": "9574f063d2c9e63d3901ab07f6e898013d987d0fe2cef7776f27353b8bc23b8b",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T1_ACT_06_TURKU_TAHLIL",
@@ -225,7 +231,8 @@
               "student_action_detail": "Metni yapı, tür, dil-anlatım, ahenk/söz varlığı ve dönem bağlamı yönlerinden çözümleyip karşılaştırma ve gerekçelendirme çalışmaları yapma.",
               "expected_product_or_evidence": "Tahlil cevapları, karşılaştırma tabloları/şemaları ve gerekçeli çözümleme kayıtları.",
               "related_forms": [],
-              "source_text_sha256": "8340e6b88d6761fba87a53c6e332791f714ad59f98fee6cae1a31f3ca4da4f83"
+              "source_text_sha256": "8340e6b88d6761fba87a53c6e332791f714ad59f98fee6cae1a31f3ca4da4f83",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T1_ACT_07_TURKU_CANLANDIRMA",
@@ -248,7 +255,8 @@
               "student_action_detail": "Performans görevinin amacı, tema/içerik seçimi, görev paylaşımı ve uygulama koşullarını planlama.",
               "expected_product_or_evidence": "Performans planı, seçim/görev dağılımı kayıtları ve hazırlık notları.",
               "related_forms": [],
-              "source_text_sha256": "f1b9355f244466bb550a2e918e6811811beb1e48d343de0b599ddd51e5d12279"
+              "source_text_sha256": "f1b9355f244466bb550a2e918e6811811beb1e48d343de0b599ddd51e5d12279",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             }
           ]
         },
@@ -280,7 +288,8 @@
               "student_action_detail": "Konuşma performansının tema/içerik seçimi, kaynak/şiir derleme, akış, süre, mekân ve görev paylaşımını planlama.",
               "expected_product_or_evidence": "Konuşma/sunum planı, kaynak seçimi ve görev dağılımı kaydı.",
               "related_forms": [],
-              "source_text_sha256": "9ab9806bedd74ffe2dcb9f336a7cc9c7d807e18f0ddabcfe22c29866466e7b83"
+              "source_text_sha256": "9ab9806bedd74ffe2dcb9f336a7cc9c7d807e18f0ddabcfe22c29866466e7b83",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T1_ACT_09_SIIR_DINLETISI_SUNUM",
@@ -305,10 +314,9 @@
               "pdf_page": "56-57",
               "student_action_detail": "Planlanan sözlü performansı vurgu-tonlama, beden dili, zaman/mekân kullanımı ve Türkçenin doğru kullanımı gözetilerek gerçekleştirme.",
               "expected_product_or_evidence": "Canlı veya kaydedilmiş konuşma/sunum performansı.",
-              "related_forms": [
-                "FORM_T1_KONUSMA_AKRAN"
-              ],
-              "source_text_sha256": "9d51ecadb87210bea8f560ba6a86aa09ada2f49068b97264b8dd664f30154f4b"
+              "related_forms": [],
+              "source_text_sha256": "9d51ecadb87210bea8f560ba6a86aa09ada2f49068b97264b8dd664f30154f4b",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T1_ACT_10_KONUSMA_DEGERLENDIRME",
@@ -337,7 +345,8 @@
                 "FORM_T1_KONUSMA_AKRAN",
                 "LINK_T1_KONUSMA_DPA"
               ],
-              "source_text_sha256": "cfb91b301502673e82dde335e9b9a31493624521cf3b25b74208105e3ca7bf2c"
+              "source_text_sha256": "cfb91b301502673e82dde335e9b9a31493624521cf3b25b74208105e3ca7bf2c",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             }
           ]
         },
@@ -378,7 +387,8 @@
               "student_action_detail": "Dinleme/izleme öncesi ön bilgileri etkinleştirme, amaç/tahmin oluşturma ve dinleme stratejisini hazırlama.",
               "expected_product_or_evidence": "Hazırlık soruları, tahminler ve dinleme öncesi notlar.",
               "related_forms": [],
-              "source_text_sha256": "7911d66044da75958ab3babad0a02b838101e929c95b30e2cbb230261f402743"
+              "source_text_sha256": "7911d66044da75958ab3babad0a02b838101e929c95b30e2cbb230261f402743",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T1_ACT_12_MERCAN_KIZ_TAHLIL",
@@ -398,7 +408,8 @@
               "student_action_detail": "Dinlenen/izlenen metni yapı, tür, dil-anlatım, değer/ileti ve bağlam yönlerinden çözümleme ve gerekçelendirme.",
               "expected_product_or_evidence": "Tahlil soruları, şema/tablo ve gerekçeli çözümleme cevapları.",
               "related_forms": [],
-              "source_text_sha256": "22eefc1f59e93811d98c6fbeba4fd1191df1ce03427c5f536aca5b196744f0bb"
+              "source_text_sha256": "22eefc1f59e93811d98c6fbeba4fd1191df1ce03427c5f536aca5b196744f0bb",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T1_ACT_13_MASAL_YANSITMA",
@@ -420,7 +431,8 @@
               "related_forms": [
                 "FORM_T1_MASAL_OZ"
               ],
-              "source_text_sha256": "d10882a07ec7663a3e21abfd4a8dfb5b9752c06b970110e225c02fddd69b1e59"
+              "source_text_sha256": "d10882a07ec7663a3e21abfd4a8dfb5b9752c06b970110e225c02fddd69b1e59",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             }
           ]
         },
@@ -447,7 +459,8 @@
               "student_action_detail": "Yazma amacı, hedef kitle, tür, içerik, ileti, strateji ve taslak planı belirleme; geri bildirimle planı gözden geçirme.",
               "expected_product_or_evidence": "Yazma planı, seçim/gerekçe kayıtları ve taslak hazırlık notları.",
               "related_forms": [],
-              "source_text_sha256": "72c048aa2402dfcf27b7e92659bbd515705613440f3b85fea27431cd54e3c905"
+              "source_text_sha256": "72c048aa2402dfcf27b7e92659bbd515705613440f3b85fea27431cd54e3c905",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T1_ACT_15_FILM_SERIDI_URETIM",
@@ -466,10 +479,9 @@
               "pdf_page": "78",
               "student_action_detail": "Belirlenen tür ve amaca uygun taslak/ürün oluşturma; dil, anlatım, yapı ve estetik unsurları uygulama.",
               "expected_product_or_evidence": "Taslak ve/veya nihai yazılı ürün.",
-              "related_forms": [
-                "FORM_T1_YAZMA_KONTROL"
-              ],
-              "source_text_sha256": "0d38b6c3c76f2f1309a3e523b89d1b43e81ef2d7de4faccf6241037dc59538d5"
+              "related_forms": [],
+              "source_text_sha256": "0d38b6c3c76f2f1309a3e523b89d1b43e81ef2d7de4faccf6241037dc59538d5",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T1_ACT_16_FILM_SERIDI_DEGERLENDIRME",
@@ -495,11 +507,12 @@
               "student_action_detail": "Yazılı ürünü kontrol listesi, öz/akran değerlendirme ve öğretmen puanlama aracıyla değerlendirme; geri bildirimle revize etme.",
               "expected_product_or_evidence": "Kontrol/öz/akran formu, öğretmen puanlama kanıtı ve revize edilmiş nihai ürün.",
               "related_forms": [
-                "FORM_T1_YAZMA_KONTROL",
                 "FORM_T1_YAZMA_AKRAN",
+                "FORM_T1_YAZMA_KONTROL",
                 "LINK_T1_YAZMA_DPA"
               ],
-              "source_text_sha256": "52b78508ba816549bb30f48a691e04a385baf016ddeb0a732fa00ecb1104e61f"
+              "source_text_sha256": "52b78508ba816549bb30f48a691e04a385baf016ddeb0a732fa00ecb1104e61f",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             }
           ]
         },
@@ -528,7 +541,8 @@
               "related_forms": [
                 "FORM_T1_YANSITMA"
               ],
-              "source_text_sha256": "cfffff326de08ecdd4001717ec1d0b60ccb52b660dbcdfb260a8e88f0f546127"
+              "source_text_sha256": "cfffff326de08ecdd4001717ec1d0b60ccb52b660dbcdfb260a8e88f0f546127",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T1_ACT_18_TEMA_OLCME",
@@ -550,7 +564,8 @@
               "related_forms": [
                 "FORM_T1_TEMA_TEST"
               ],
-              "source_text_sha256": "eb806e53f21ca65055f542bb28b630da4063bacc4add86023211ebb2732658f4"
+              "source_text_sha256": "eb806e53f21ca65055f542bb28b630da4063bacc4add86023211ebb2732658f4",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             }
           ]
         }
@@ -615,7 +630,8 @@
               "student_action_detail": "Okuma öncesi hazırlık soruları ve yönlendirmeleri üzerinden ön bilgileri etkinleştirme, tahmin oluşturma ve metne/döneme ilişkin hazırlık yapma.",
               "expected_product_or_evidence": "Hazırlık sorularına verilen cevaplar, tahminler ve kısa hazırlık notları.",
               "related_forms": [],
-              "source_text_sha256": "37c8bd0ce78244dd91789cc7e34eb5a9b2903bbb13351662c152c6bb9ccb9dbc"
+              "source_text_sha256": "37c8bd0ce78244dd91789cc7e34eb5a9b2903bbb13351662c152c6bb9ccb9dbc",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T2_ACT_02_GAZEL_ANLAM",
@@ -634,7 +650,8 @@
               "student_action_detail": "Metni okuyarak konu, tema, söz varlığı, açık/örtük ileti ve bağlama ilişkin anlam oluşturma sorularını cevaplama.",
               "expected_product_or_evidence": "Metni anlama sorularına verilen yazılı cevaplar ve anlamlandırma kayıtları.",
               "related_forms": [],
-              "source_text_sha256": "c9d307f99f79a3f3e36ae97f08ee3a5c1a9f0d39e460b4c1770e3fdb18429960"
+              "source_text_sha256": "c9d307f99f79a3f3e36ae97f08ee3a5c1a9f0d39e460b4c1770e3fdb18429960",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T2_ACT_03_GAZEL_COZUMLEME",
@@ -654,7 +671,8 @@
               "student_action_detail": "Metni yapı, tür, dil-anlatım, ahenk/söz varlığı ve dönem bağlamı yönlerinden çözümleyip karşılaştırma ve gerekçelendirme çalışmaları yapma.",
               "expected_product_or_evidence": "Tahlil cevapları, karşılaştırma tabloları/şemaları ve gerekçeli çözümleme kayıtları.",
               "related_forms": [],
-              "source_text_sha256": "6dc827e0009ab95ab46ee0c83617c95a4a8d18b3eba5f5407fbab428a3a3fcaf"
+              "source_text_sha256": "6dc827e0009ab95ab46ee0c83617c95a4a8d18b3eba5f5407fbab428a3a3fcaf",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T2_ACT_04_GAZEL_YANSITMA",
@@ -678,7 +696,8 @@
               "related_forms": [
                 "FORM_T2_GAZEL_GUNLUK"
               ],
-              "source_text_sha256": "e59333978cbdfc1cf0fec5d7215351441a85e6028391e1a7a1bab3628a68b474"
+              "source_text_sha256": "e59333978cbdfc1cf0fec5d7215351441a85e6028391e1a7a1bab3628a68b474",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             }
           ]
         },
@@ -716,7 +735,8 @@
               "student_action_detail": "Okuma öncesi hazırlık soruları ve yönlendirmeleri üzerinden ön bilgileri etkinleştirme, tahmin oluşturma ve metne/döneme ilişkin hazırlık yapma.",
               "expected_product_or_evidence": "Hazırlık sorularına verilen cevaplar, tahminler ve kısa hazırlık notları.",
               "related_forms": [],
-              "source_text_sha256": "f9deecd5eca8f29289c811d2310aae3336dde23f4a8656e4844ef8ca7a629788"
+              "source_text_sha256": "f9deecd5eca8f29289c811d2310aae3336dde23f4a8656e4844ef8ca7a629788",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T2_ACT_06_KALDIRIMLAR_TAHLIL",
@@ -735,7 +755,8 @@
               "student_action_detail": "Metni yapı, tür, dil-anlatım, ahenk/söz varlığı ve dönem bağlamı yönlerinden çözümleyip karşılaştırma ve gerekçelendirme çalışmaları yapma.",
               "expected_product_or_evidence": "Tahlil cevapları, karşılaştırma tabloları/şemaları ve gerekçeli çözümleme kayıtları.",
               "related_forms": [],
-              "source_text_sha256": "a48513e28030af45ed156981f6783d9c94364efeb309da9e089a576764c06d04"
+              "source_text_sha256": "a48513e28030af45ed156981f6783d9c94364efeb309da9e089a576764c06d04",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T2_ACT_07_SIIR_KARSILASTIRMA",
@@ -755,7 +776,8 @@
               "student_action_detail": "Metin Tahlili-2: Okuma — Saf Şiir kapsamında belirtilen öğrenci görevlerini tamamlama.",
               "expected_product_or_evidence": "Göreve ilişkin öğrenci ürünü veya cevap kaydı.",
               "related_forms": [],
-              "source_text_sha256": "ae9ab28e7b7eca1970b594f296b03feeea531e050c96aa6df18d0e00fc8164db"
+              "source_text_sha256": "ae9ab28e7b7eca1970b594f296b03feeea531e050c96aa6df18d0e00fc8164db",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             }
           ]
         },
@@ -785,10 +807,9 @@
               "pdf_page": "125-127",
               "student_action_detail": "Yazma amacı, hedef kitle, tür, içerik, ileti, strateji ve taslak planı belirleme; geri bildirimle planı gözden geçirme.",
               "expected_product_or_evidence": "Yazma planı, seçim/gerekçe kayıtları ve taslak hazırlık notları.",
-              "related_forms": [
-                "FORM_T2_YAZMA_KONTROL"
-              ],
-              "source_text_sha256": "3479896c8ed6a0fc90572ad484b97c3bee7d52455651cb55f9c2bc4859d0bbde"
+              "related_forms": [],
+              "source_text_sha256": "3479896c8ed6a0fc90572ad484b97c3bee7d52455651cb55f9c2bc4859d0bbde",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T2_ACT_09_METIN_DONUSTURME",
@@ -811,10 +832,9 @@
               "pdf_page": "127-128",
               "student_action_detail": "Belirlenen tür ve amaca uygun taslak/ürün oluşturma; dil, anlatım, yapı ve estetik unsurları uygulama.",
               "expected_product_or_evidence": "Taslak ve/veya nihai yazılı ürün.",
-              "related_forms": [
-                "FORM_T2_YAZMA_KONTROL"
-              ],
-              "source_text_sha256": "74bec87411a65aca6af9a17d30f8c6cd32d48d00663ce777ec2d734cba274083"
+              "related_forms": [],
+              "source_text_sha256": "74bec87411a65aca6af9a17d30f8c6cd32d48d00663ce777ec2d734cba274083",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T2_ACT_10_YAZMA_DEGERLENDIRME",
@@ -840,11 +860,12 @@
               "student_action_detail": "Yazılı ürünü kontrol listesi, öz/akran değerlendirme ve öğretmen puanlama aracıyla değerlendirme; geri bildirimle revize etme.",
               "expected_product_or_evidence": "Kontrol/öz/akran formu, öğretmen puanlama kanıtı ve revize edilmiş nihai ürün.",
               "related_forms": [
-                "FORM_T2_YAZMA_KONTROL",
                 "FORM_T2_YAZMA_AKRAN",
+                "FORM_T2_YAZMA_KONTROL",
                 "LINK_T2_YAZMA_DPA"
               ],
-              "source_text_sha256": "b6939487383ac865d3abddaa253464e881c5619c92d45a1ed7a5f7a86d700b31"
+              "source_text_sha256": "b6939487383ac865d3abddaa253464e881c5619c92d45a1ed7a5f7a86d700b31",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             }
           ]
         },
@@ -880,7 +901,8 @@
               "student_action_detail": "Dinleme/izleme öncesi ön bilgileri etkinleştirme, amaç/tahmin oluşturma ve dinleme stratejisini hazırlama.",
               "expected_product_or_evidence": "Hazırlık soruları, tahminler ve dinleme öncesi notlar.",
               "related_forms": [],
-              "source_text_sha256": "86dd34507727a98ec0fe7578ab8ff52623998e7b91dc642d27226f7869c97ab0"
+              "source_text_sha256": "86dd34507727a98ec0fe7578ab8ff52623998e7b91dc642d27226f7869c97ab0",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T2_ACT_12_SOYLESI_ANLAM",
@@ -900,7 +922,8 @@
               "student_action_detail": "Dinlenen/izlenen metnin konu, ileti, söz varlığı ve bağlamına ilişkin anlam oluşturma çalışmalarını tamamlama.",
               "expected_product_or_evidence": "Dinleme/izleme anlama sorularının cevapları ve notlar.",
               "related_forms": [],
-              "source_text_sha256": "fe77354ac7dd6aeadc509dfaba4d882fd336f6d3f6fed8cc46ab54a53b877e7e"
+              "source_text_sha256": "fe77354ac7dd6aeadc509dfaba4d882fd336f6d3f6fed8cc46ab54a53b877e7e",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T2_ACT_13_SOYLESI_COZUMLEME",
@@ -920,7 +943,8 @@
               "student_action_detail": "Dinlenen/izlenen metni yapı, tür, dil-anlatım, değer/ileti ve bağlam yönlerinden çözümleme ve gerekçelendirme.",
               "expected_product_or_evidence": "Tahlil soruları, şema/tablo ve gerekçeli çözümleme cevapları.",
               "related_forms": [],
-              "source_text_sha256": "f9c40a1ef839998dab092714f0ad50afafc78eb48bb884683b6aedc9ed4ea3f4"
+              "source_text_sha256": "f9c40a1ef839998dab092714f0ad50afafc78eb48bb884683b6aedc9ed4ea3f4",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T2_ACT_14_SOYLESI_YANSITMA",
@@ -939,7 +963,8 @@
               "student_action_detail": "Öğrenme sürecini, kazanımları ve geliştirilmesi gereken yönleri yansıtma aracıyla değerlendirme.",
               "expected_product_or_evidence": "Çıkış kartı, öğrenme günlüğü veya yansıtma kaydı.",
               "related_forms": [],
-              "source_text_sha256": "4c9849f8fb2ebf8709cb17ab30afd93acaf9708cae6a3b269a93f39109b94acc"
+              "source_text_sha256": "4c9849f8fb2ebf8709cb17ab30afd93acaf9708cae6a3b269a93f39109b94acc",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             }
           ]
         },
@@ -968,7 +993,8 @@
               "student_action_detail": "Konuşma performansının tema/içerik seçimi, kaynak/şiir derleme, akış, süre, mekân ve görev paylaşımını planlama.",
               "expected_product_or_evidence": "Konuşma/sunum planı, kaynak seçimi ve görev dağılımı kaydı.",
               "related_forms": [],
-              "source_text_sha256": "96058720aac01e8a419b2744af72f214ddbe7601d92a16d2efedbd113d2c5be6"
+              "source_text_sha256": "96058720aac01e8a419b2744af72f214ddbe7601d92a16d2efedbd113d2c5be6",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T2_ACT_16_PODCAST_URETIM",
@@ -989,11 +1015,9 @@
               "pdf_page": "149",
               "student_action_detail": "Planlanan sözlü performansı vurgu-tonlama, beden dili, zaman/mekân kullanımı ve Türkçenin doğru kullanımı gözetilerek gerçekleştirme.",
               "expected_product_or_evidence": "Canlı veya kaydedilmiş konuşma/sunum performansı.",
-              "related_forms": [
-                "LINK_T2_PODCAST_DPA",
-                "FORM_T2_PODCAST_YANSITMA"
-              ],
-              "source_text_sha256": "28e2c5399bba74b973cbe6b3f582adf2165bcfc8cecff6cb912694faafad0a3f"
+              "related_forms": [],
+              "source_text_sha256": "28e2c5399bba74b973cbe6b3f582adf2165bcfc8cecff6cb912694faafad0a3f",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T2_ACT_17_PODCAST_YANSITMA",
@@ -1015,10 +1039,11 @@
               "student_action_detail": "Öğrenme sürecini, kazanımları ve geliştirilmesi gereken yönleri yansıtma aracıyla değerlendirme.",
               "expected_product_or_evidence": "Çıkış kartı, öğrenme günlüğü veya yansıtma kaydı.",
               "related_forms": [
-                "LINK_T2_PODCAST_DPA",
-                "FORM_T2_PODCAST_YANSITMA"
+                "FORM_T2_PODCAST_YANSITMA",
+                "LINK_T2_PODCAST_DPA"
               ],
-              "source_text_sha256": "05a3c2d5d2852b003e3520a379af4c5a3fbd49d9cdbf2492ca3c3da3e4858dcc"
+              "source_text_sha256": "05a3c2d5d2852b003e3520a379af4c5a3fbd49d9cdbf2492ca3c3da3e4858dcc",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             }
           ]
         },
@@ -1049,7 +1074,8 @@
               "related_forms": [
                 "FORM_T2_TEMA_TEST"
               ],
-              "source_text_sha256": "439f04a6d36c6d41e14ae29bb7f6880211a733a94f8a24bd8d6fb58fd1432b2f"
+              "source_text_sha256": "439f04a6d36c6d41e14ae29bb7f6880211a733a94f8a24bd8d6fb58fd1432b2f",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             }
           ]
         }
@@ -1117,7 +1143,8 @@
               "student_action_detail": "Okuma öncesi hazırlık soruları ve yönlendirmeleri üzerinden ön bilgileri etkinleştirme, tahmin oluşturma ve metne/döneme ilişkin hazırlık yapma.",
               "expected_product_or_evidence": "Hazırlık sorularına verilen cevaplar, tahminler ve kısa hazırlık notları.",
               "related_forms": [],
-              "source_text_sha256": "cd15dbf8bd53b23987d201e2ca1341fca003f949c663a8127f89a5d4d6af9a5a"
+              "source_text_sha256": "cd15dbf8bd53b23987d201e2ca1341fca003f949c663a8127f89a5d4d6af9a5a",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T3_ACT_02_OGUZ_KAGAN_ANLAM",
@@ -1137,7 +1164,8 @@
               "student_action_detail": "Metni okuyarak konu, tema, söz varlığı, açık/örtük ileti ve bağlama ilişkin anlam oluşturma sorularını cevaplama.",
               "expected_product_or_evidence": "Metni anlama sorularına verilen yazılı cevaplar ve anlamlandırma kayıtları.",
               "related_forms": [],
-              "source_text_sha256": "cdd1770a1a67318656d8d82504cb9730728709debe6c8d277384ad9d25c4d62a"
+              "source_text_sha256": "cdd1770a1a67318656d8d82504cb9730728709debe6c8d277384ad9d25c4d62a",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T3_ACT_03_DESTAN_COZUMLEME",
@@ -1156,7 +1184,8 @@
               "student_action_detail": "Metni yapı, tür, dil-anlatım, ahenk/söz varlığı ve dönem bağlamı yönlerinden çözümleyip karşılaştırma ve gerekçelendirme çalışmaları yapma.",
               "expected_product_or_evidence": "Tahlil cevapları, karşılaştırma tabloları/şemaları ve gerekçeli çözümleme kayıtları.",
               "related_forms": [],
-              "source_text_sha256": "e84481eac75d851b5c8966801f4e4e75d8cbd1825df3daa3d63e9bc6c8266d4d"
+              "source_text_sha256": "e84481eac75d851b5c8966801f4e4e75d8cbd1825df3daa3d63e9bc6c8266d4d",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T3_ACT_04_DESTAN_YANSITMA",
@@ -1177,7 +1206,8 @@
               "student_action_detail": "Öğrenme sürecini, kazanımları ve geliştirilmesi gereken yönleri yansıtma aracıyla değerlendirme.",
               "expected_product_or_evidence": "Çıkış kartı, öğrenme günlüğü veya yansıtma kaydı.",
               "related_forms": [],
-              "source_text_sha256": "430f94651cd768cc6d1b5e738232afc206ab5d2d0d0eca66afe57e891039e82e"
+              "source_text_sha256": "430f94651cd768cc6d1b5e738232afc206ab5d2d0d0eca66afe57e891039e82e",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             }
           ]
         },
@@ -1215,7 +1245,8 @@
               "student_action_detail": "Okuma öncesi hazırlık soruları ve yönlendirmeleri üzerinden ön bilgileri etkinleştirme, tahmin oluşturma ve metne/döneme ilişkin hazırlık yapma.",
               "expected_product_or_evidence": "Hazırlık sorularına verilen cevaplar, tahminler ve kısa hazırlık notları.",
               "related_forms": [],
-              "source_text_sha256": "1dc363798c500937702f5e1543a1697008bbe5aedf5e663eba93b1a630762884"
+              "source_text_sha256": "1dc363798c500937702f5e1543a1697008bbe5aedf5e663eba93b1a630762884",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T3_ACT_06_HARNAME_TAHLIL",
@@ -1235,7 +1266,8 @@
               "student_action_detail": "Metni yapı, tür, dil-anlatım, ahenk/söz varlığı ve dönem bağlamı yönlerinden çözümleyip karşılaştırma ve gerekçelendirme çalışmaları yapma.",
               "expected_product_or_evidence": "Tahlil cevapları, karşılaştırma tabloları/şemaları ve gerekçeli çözümleme kayıtları.",
               "related_forms": [],
-              "source_text_sha256": "639b24fb98dd8a79095cefab33da6e8c9d61644d7fb2af2f9abb866bf4a6e387"
+              "source_text_sha256": "639b24fb98dd8a79095cefab33da6e8c9d61644d7fb2af2f9abb866bf4a6e387",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T3_ACT_07_MESNEVI_KARSILASTIRMA",
@@ -1254,7 +1286,8 @@
               "student_action_detail": "Metin Tahlili-2: Okuma — Mesnevi kapsamında belirtilen öğrenci görevlerini tamamlama.",
               "expected_product_or_evidence": "Göreve ilişkin öğrenci ürünü veya cevap kaydı.",
               "related_forms": [],
-              "source_text_sha256": "56e157f212e56a3af31c566a515e4581376245db757e57294e39b703a00426c8"
+              "source_text_sha256": "56e157f212e56a3af31c566a515e4581376245db757e57294e39b703a00426c8",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             }
           ]
         },
@@ -1286,7 +1319,8 @@
               "student_action_detail": "Konuşma performansının tema/içerik seçimi, kaynak/şiir derleme, akış, süre, mekân ve görev paylaşımını planlama.",
               "expected_product_or_evidence": "Konuşma/sunum planı, kaynak seçimi ve görev dağılımı kaydı.",
               "related_forms": [],
-              "source_text_sha256": "1206bf69b5fc958dd50e4bbefaaf09b38053ea519bb10d838a8df538507ea88d"
+              "source_text_sha256": "1206bf69b5fc958dd50e4bbefaaf09b38053ea519bb10d838a8df538507ea88d",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T3_ACT_09_DESTAN_SUNUM",
@@ -1311,10 +1345,9 @@
               "pdf_page": "207-208",
               "student_action_detail": "Planlanan sözlü performansı vurgu-tonlama, beden dili, zaman/mekân kullanımı ve Türkçenin doğru kullanımı gözetilerek gerçekleştirme.",
               "expected_product_or_evidence": "Canlı veya kaydedilmiş konuşma/sunum performansı.",
-              "related_forms": [
-                "FORM_T3_KONUSMA_OZ"
-              ],
-              "source_text_sha256": "dfa838aa478aa8e44e92162253d23a82da41aa10bee009152d397d3459e58206"
+              "related_forms": [],
+              "source_text_sha256": "dfa838aa478aa8e44e92162253d23a82da41aa10bee009152d397d3459e58206",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T3_ACT_10_KONUSMA_OZ_AKRAN",
@@ -1340,11 +1373,12 @@
               "student_action_detail": "Konuşma performansını öz/akran değerlendirme ve öğretmen puanlama aracıyla değerlendirme; geri bildirimle yeniden düzenleme.",
               "expected_product_or_evidence": "Doldurulmuş değerlendirme formu, çıkış/yansıtma kaydı ve öğretmen puanlama kanıtı.",
               "related_forms": [
-                "FORM_T3_KONUSMA_OZ",
                 "FORM_T3_KONUSMA_AKRAN",
+                "FORM_T3_KONUSMA_OZ",
                 "LINK_T3_KONUSMA_DPA"
               ],
-              "source_text_sha256": "ba1daab5711371f849689361c9cb5c91b0c04da9d35219cd734258fec02e3ba3"
+              "source_text_sha256": "ba1daab5711371f849689361c9cb5c91b0c04da9d35219cd734258fec02e3ba3",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             }
           ]
         },
@@ -1385,7 +1419,8 @@
               "related_forms": [
                 "FORM_T3_FABL_DINLEME_KONTROL"
               ],
-              "source_text_sha256": "163a285374bff5f76017c9c00199cda4dfceea18a535057c06d84281c6548e45"
+              "source_text_sha256": "163a285374bff5f76017c9c00199cda4dfceea18a535057c06d84281c6548e45",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T3_ACT_12_FABL_ANLAM",
@@ -1405,7 +1440,8 @@
               "student_action_detail": "Dinlenen/izlenen metnin konu, ileti, söz varlığı ve bağlamına ilişkin anlam oluşturma çalışmalarını tamamlama.",
               "expected_product_or_evidence": "Dinleme/izleme anlama sorularının cevapları ve notlar.",
               "related_forms": [],
-              "source_text_sha256": "1bdb5d999d9019165213f77d70ba772237ec711111a15224f4a20c4094f7dced"
+              "source_text_sha256": "1bdb5d999d9019165213f77d70ba772237ec711111a15224f4a20c4094f7dced",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T3_ACT_13_FABL_COZUMLEME",
@@ -1424,7 +1460,8 @@
               "student_action_detail": "Dinlenen/izlenen metni yapı, tür, dil-anlatım, değer/ileti ve bağlam yönlerinden çözümleme ve gerekçelendirme.",
               "expected_product_or_evidence": "Tahlil soruları, şema/tablo ve gerekçeli çözümleme cevapları.",
               "related_forms": [],
-              "source_text_sha256": "20a7883587da7b3d010714b70add9e38936e0412e7c79ff557277f05e0a75292"
+              "source_text_sha256": "20a7883587da7b3d010714b70add9e38936e0412e7c79ff557277f05e0a75292",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T3_ACT_14_FABL_YANSITMA",
@@ -1445,7 +1482,8 @@
               "student_action_detail": "Öğrenme sürecini, kazanımları ve geliştirilmesi gereken yönleri yansıtma aracıyla değerlendirme.",
               "expected_product_or_evidence": "Çıkış kartı, öğrenme günlüğü veya yansıtma kaydı.",
               "related_forms": [],
-              "source_text_sha256": "c95c07aebabd7d0bf4f67356f33b2ca82ccaa4ae04858e8ff03c18c8bb5d7a4c"
+              "source_text_sha256": "c95c07aebabd7d0bf4f67356f33b2ca82ccaa4ae04858e8ff03c18c8bb5d7a4c",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             }
           ]
         },
@@ -1475,7 +1513,8 @@
               "student_action_detail": "Yazma amacı, hedef kitle, tür, içerik, ileti, strateji ve taslak planı belirleme; geri bildirimle planı gözden geçirme.",
               "expected_product_or_evidence": "Yazma planı, seçim/gerekçe kayıtları ve taslak hazırlık notları.",
               "related_forms": [],
-              "source_text_sha256": "36935221f1a520935cf6bd9125df6e7f1df341ab2d8842c1d125490f2c014535"
+              "source_text_sha256": "36935221f1a520935cf6bd9125df6e7f1df341ab2d8842c1d125490f2c014535",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T3_ACT_16_FABL_YAZMA",
@@ -1499,10 +1538,9 @@
               "pdf_page": "226-228",
               "student_action_detail": "Belirlenen tür ve amaca uygun taslak/ürün oluşturma; dil, anlatım, yapı ve estetik unsurları uygulama.",
               "expected_product_or_evidence": "Taslak ve/veya nihai yazılı ürün.",
-              "related_forms": [
-                "FORM_T3_YAZMA_OZ"
-              ],
-              "source_text_sha256": "a9cd0f734f40954cfbc3020a80a59ccb840338e3c3b65889fc5a8e1fdb637055"
+              "related_forms": [],
+              "source_text_sha256": "a9cd0f734f40954cfbc3020a80a59ccb840338e3c3b65889fc5a8e1fdb637055",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T3_ACT_17_FABL_YAZMA_DEGERLENDIRME",
@@ -1528,11 +1566,12 @@
               "student_action_detail": "Yazılı ürünü kontrol listesi, öz/akran değerlendirme ve öğretmen puanlama aracıyla değerlendirme; geri bildirimle revize etme.",
               "expected_product_or_evidence": "Kontrol/öz/akran formu, öğretmen puanlama kanıtı ve revize edilmiş nihai ürün.",
               "related_forms": [
-                "FORM_T3_YAZMA_OZ",
                 "FORM_T3_YAZMA_AKRAN",
+                "FORM_T3_YAZMA_OZ",
                 "LINK_T3_YAZMA_DPA"
               ],
-              "source_text_sha256": "1c75a2f3305a4305b1e228a5599a72af4bb34dc14214b80b61781f3a2be17b3d"
+              "source_text_sha256": "1c75a2f3305a4305b1e228a5599a72af4bb34dc14214b80b61781f3a2be17b3d",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             }
           ]
         },
@@ -1564,7 +1603,8 @@
               "related_forms": [
                 "FORM_T3_TEMA_GUNLUK"
               ],
-              "source_text_sha256": "7862d69a9f1c4368c46c068ddadc24ea9526cbd691f8780a2f6e55aedc5b5821"
+              "source_text_sha256": "7862d69a9f1c4368c46c068ddadc24ea9526cbd691f8780a2f6e55aedc5b5821",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T3_ACT_19_TEMA_OLCME",
@@ -1586,7 +1626,8 @@
               "related_forms": [
                 "FORM_T3_TEMA_TEST"
               ],
-              "source_text_sha256": "02e8c74cd66dff5434f7762aeac5d43aafbe97aeef825f50b0e0ff0d035ce1c5"
+              "source_text_sha256": "02e8c74cd66dff5434f7762aeac5d43aafbe97aeef825f50b0e0ff0d035ce1c5",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             }
           ]
         }
@@ -1653,7 +1694,8 @@
               "student_action_detail": "Okuma öncesi hazırlık soruları ve yönlendirmeleri üzerinden ön bilgileri etkinleştirme, tahmin oluşturma ve metne/döneme ilişkin hazırlık yapma.",
               "expected_product_or_evidence": "Hazırlık sorularına verilen cevaplar, tahminler ve kısa hazırlık notları.",
               "related_forms": [],
-              "source_text_sha256": "cc4a21f59845ad1794e2a7c1932d0f6f8bc43b23db46a36e12dcf02ac8c38931"
+              "source_text_sha256": "cc4a21f59845ad1794e2a7c1932d0f6f8bc43b23db46a36e12dcf02ac8c38931",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T4_ACT_02_SALUR_KAZAN_ANLAM",
@@ -1672,7 +1714,8 @@
               "student_action_detail": "Metni okuyarak konu, tema, söz varlığı, açık/örtük ileti ve bağlama ilişkin anlam oluşturma sorularını cevaplama.",
               "expected_product_or_evidence": "Metni anlama sorularına verilen yazılı cevaplar ve anlamlandırma kayıtları.",
               "related_forms": [],
-              "source_text_sha256": "8780da6bc82cfafe667831312cf11cca27d7796e786f3a12ae0ef17b400efc2a"
+              "source_text_sha256": "8780da6bc82cfafe667831312cf11cca27d7796e786f3a12ae0ef17b400efc2a",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T4_ACT_03_DEDE_KORKUT_COZUMLEME",
@@ -1695,7 +1738,8 @@
               "student_action_detail": "Metni yapı, tür, dil-anlatım, ahenk/söz varlığı ve dönem bağlamı yönlerinden çözümleyip karşılaştırma ve gerekçelendirme çalışmaları yapma.",
               "expected_product_or_evidence": "Tahlil cevapları, karşılaştırma tabloları/şemaları ve gerekçeli çözümleme kayıtları.",
               "related_forms": [],
-              "source_text_sha256": "7213c943936b96b20fad02217e2ea30441bdc73838f1889aa7363dcc2572522e"
+              "source_text_sha256": "7213c943936b96b20fad02217e2ea30441bdc73838f1889aa7363dcc2572522e",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T4_ACT_04_DEDE_KORKUT_KARSILASTIRMA",
@@ -1720,7 +1764,8 @@
               "related_forms": [
                 "FORM_T4_OKUMA_GUNLUK"
               ],
-              "source_text_sha256": "d9067d3ee94350d22c8218d40e64a32f89bf5d0d0b3a9d1d59e29c490c0c847e"
+              "source_text_sha256": "d9067d3ee94350d22c8218d40e64a32f89bf5d0d0b3a9d1d59e29c490c0c847e",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             }
           ]
         },
@@ -1758,7 +1803,8 @@
               "student_action_detail": "Okuma öncesi hazırlık soruları ve yönlendirmeleri üzerinden ön bilgileri etkinleştirme, tahmin oluşturma ve metne/döneme ilişkin hazırlık yapma.",
               "expected_product_or_evidence": "Hazırlık sorularına verilen cevaplar, tahminler ve kısa hazırlık notları.",
               "related_forms": [],
-              "source_text_sha256": "ea2e95dc4e354d74866222342f8b8d170f32569a298b9d4af43de9c79a94860e"
+              "source_text_sha256": "ea2e95dc4e354d74866222342f8b8d170f32569a298b9d4af43de9c79a94860e",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T4_ACT_06_HURRIYET_KASIDESI_TAHLIL",
@@ -1777,7 +1823,8 @@
               "student_action_detail": "Metni yapı, tür, dil-anlatım, ahenk/söz varlığı ve dönem bağlamı yönlerinden çözümleyip karşılaştırma ve gerekçelendirme çalışmaları yapma.",
               "expected_product_or_evidence": "Tahlil cevapları, karşılaştırma tabloları/şemaları ve gerekçeli çözümleme kayıtları.",
               "related_forms": [],
-              "source_text_sha256": "0710d97257dc848a5f04de2fc90e0e32852a9979506b0d335b301aadf6ad377c"
+              "source_text_sha256": "0710d97257dc848a5f04de2fc90e0e32852a9979506b0d335b301aadf6ad377c",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T4_ACT_07_TANZIMAT_KARSILASTIRMA",
@@ -1796,7 +1843,8 @@
               "student_action_detail": "Metin Tahlili-2: Okuma — Tanzimat Şiiri kapsamında belirtilen öğrenci görevlerini tamamlama.",
               "expected_product_or_evidence": "Göreve ilişkin öğrenci ürünü veya cevap kaydı.",
               "related_forms": [],
-              "source_text_sha256": "5afe29169e0f0fa26f044cbceac1ef4f01e6a6ea80c97140af64d6b51b3d05b7"
+              "source_text_sha256": "5afe29169e0f0fa26f044cbceac1ef4f01e6a6ea80c97140af64d6b51b3d05b7",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T4_ACT_08_TANZIMAT_YANSITMA",
@@ -1816,7 +1864,8 @@
               "student_action_detail": "Öğrenme sürecini, kazanımları ve geliştirilmesi gereken yönleri yansıtma aracıyla değerlendirme.",
               "expected_product_or_evidence": "Çıkış kartı, öğrenme günlüğü veya yansıtma kaydı.",
               "related_forms": [],
-              "source_text_sha256": "02fb6e02c280814aacdba6752b9a5d6dc44606467dda997a23e1944d6aa05941"
+              "source_text_sha256": "02fb6e02c280814aacdba6752b9a5d6dc44606467dda997a23e1944d6aa05941",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             }
           ]
         },
@@ -1843,7 +1892,8 @@
               "student_action_detail": "Konuşma performansının tema/içerik seçimi, kaynak/şiir derleme, akış, süre, mekân ve görev paylaşımını planlama.",
               "expected_product_or_evidence": "Konuşma/sunum planı, kaynak seçimi ve görev dağılımı kaydı.",
               "related_forms": [],
-              "source_text_sha256": "ca1cb2ae9f1107355f274632fd982da74421d9cc6956db1a45c2a9c10f8d1be5"
+              "source_text_sha256": "ca1cb2ae9f1107355f274632fd982da74421d9cc6956db1a45c2a9c10f8d1be5",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T4_ACT_10_CANLANDIRMA_SUNUM",
@@ -1864,10 +1914,9 @@
               "pdf_page": "282",
               "student_action_detail": "Planlanan sözlü performansı vurgu-tonlama, beden dili, zaman/mekân kullanımı ve Türkçenin doğru kullanımı gözetilerek gerçekleştirme.",
               "expected_product_or_evidence": "Canlı veya kaydedilmiş konuşma/sunum performansı.",
-              "related_forms": [
-                "LINK_T4_KONUSMA_DPA"
-              ],
-              "source_text_sha256": "f652cc3d8b2efdf701cf55a6d5b41f471665c6d585ed45aa404830b642d9f38d"
+              "related_forms": [],
+              "source_text_sha256": "f652cc3d8b2efdf701cf55a6d5b41f471665c6d585ed45aa404830b642d9f38d",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T4_ACT_11_CANLANDIRMA_DEGERLENDIRME",
@@ -1892,9 +1941,11 @@
               "expected_product_or_evidence": "Doldurulmuş değerlendirme formu, çıkış/yansıtma kaydı ve öğretmen puanlama kanıtı.",
               "related_forms": [
                 "FORM_T4_KONUSMA_AKRAN",
-                "FORM_T4_KONUSMA_OZ"
+                "FORM_T4_KONUSMA_OZ",
+                "LINK_T4_KONUSMA_DPA"
               ],
-              "source_text_sha256": "81bf11a6a84ade67120fff544a9690f21a8785e92d7787dcb0c21b6266763c11"
+              "source_text_sha256": "81bf11a6a84ade67120fff544a9690f21a8785e92d7787dcb0c21b6266763c11",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             }
           ]
         },
@@ -1932,7 +1983,8 @@
               "student_action_detail": "Dinleme/izleme öncesi ön bilgileri etkinleştirme, amaç/tahmin oluşturma ve dinleme stratejisini hazırlama.",
               "expected_product_or_evidence": "Hazırlık soruları, tahminler ve dinleme öncesi notlar.",
               "related_forms": [],
-              "source_text_sha256": "f56b59ed7ffaf7dd18cc71a87bc131a281ac4e8ad45c3c9a84cb377d89eee496"
+              "source_text_sha256": "f56b59ed7ffaf7dd18cc71a87bc131a281ac4e8ad45c3c9a84cb377d89eee496",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T4_ACT_13_KAC_YERINDEN_ANLAM",
@@ -1954,7 +2006,8 @@
               "student_action_detail": "Dinlenen/izlenen metnin konu, ileti, söz varlığı ve bağlamına ilişkin anlam oluşturma çalışmalarını tamamlama.",
               "expected_product_or_evidence": "Dinleme/izleme anlama sorularının cevapları ve notlar.",
               "related_forms": [],
-              "source_text_sha256": "986bfd8f64170703dcb7fc1b4057efaf67e7db483914eadb7c97dd75c9b7b1f3"
+              "source_text_sha256": "986bfd8f64170703dcb7fc1b4057efaf67e7db483914eadb7c97dd75c9b7b1f3",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T4_ACT_14_HIKAYE_COZUMLEME",
@@ -1974,7 +2027,8 @@
               "student_action_detail": "Dinlenen/izlenen metni yapı, tür, dil-anlatım, değer/ileti ve bağlam yönlerinden çözümleme ve gerekçelendirme.",
               "expected_product_or_evidence": "Tahlil soruları, şema/tablo ve gerekçeli çözümleme cevapları.",
               "related_forms": [],
-              "source_text_sha256": "b0ab21c24974f977b27ab1d7497c9712d513a60fea0885f7e7361331a86d9032"
+              "source_text_sha256": "b0ab21c24974f977b27ab1d7497c9712d513a60fea0885f7e7361331a86d9032",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T4_ACT_15_HIKAYE_OZ_DEGERLENDIRME",
@@ -1995,7 +2049,8 @@
               "related_forms": [
                 "FORM_T4_DINLEME_OZ"
               ],
-              "source_text_sha256": "a4b10f1e45a3411534ef6f0c9543ba58617670ce421c2fdee9a54103563f8b4e"
+              "source_text_sha256": "a4b10f1e45a3411534ef6f0c9543ba58617670ce421c2fdee9a54103563f8b4e",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             }
           ]
         },
@@ -2022,7 +2077,8 @@
               "student_action_detail": "Yazma amacı, hedef kitle, tür, içerik, ileti, strateji ve taslak planı belirleme; geri bildirimle planı gözden geçirme.",
               "expected_product_or_evidence": "Yazma planı, seçim/gerekçe kayıtları ve taslak hazırlık notları.",
               "related_forms": [],
-              "source_text_sha256": "b89d6c40fb877ce57069ae2fcaaaded4d80abe42d5de8ede2d860bcdd311bc36"
+              "source_text_sha256": "b89d6c40fb877ce57069ae2fcaaaded4d80abe42d5de8ede2d860bcdd311bc36",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T4_ACT_17_SIIR_DONUSUM_YAZMA",
@@ -2042,7 +2098,8 @@
               "student_action_detail": "Belirlenen tür ve amaca uygun taslak/ürün oluşturma; dil, anlatım, yapı ve estetik unsurları uygulama.",
               "expected_product_or_evidence": "Taslak ve/veya nihai yazılı ürün.",
               "related_forms": [],
-              "source_text_sha256": "8031e8b084679cf11bfc7825efd130441a5ac7d4cc800d18860fe6f3d564cd38"
+              "source_text_sha256": "8031e8b084679cf11bfc7825efd130441a5ac7d4cc800d18860fe6f3d564cd38",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T4_ACT_18_SIIR_DEGERLENDIRME",
@@ -2068,11 +2125,12 @@
               "student_action_detail": "Yazılı ürünü kontrol listesi, öz/akran değerlendirme ve öğretmen puanlama aracıyla değerlendirme; geri bildirimle revize etme.",
               "expected_product_or_evidence": "Kontrol/öz/akran formu, öğretmen puanlama kanıtı ve revize edilmiş nihai ürün.",
               "related_forms": [
-                "LINK_T4_YAZMA_DPA",
                 "FORM_T4_YAZMA_AKRAN",
-                "FORM_T4_YAZMA_KONTROL"
+                "FORM_T4_YAZMA_KONTROL",
+                "LINK_T4_YAZMA_DPA"
               ],
-              "source_text_sha256": "981bded0ae53b3c0816416b2d694b49cc6dcc87dd74dfce2220fa1858b71b641"
+              "source_text_sha256": "981bded0ae53b3c0816416b2d694b49cc6dcc87dd74dfce2220fa1858b71b641",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             }
           ]
         },
@@ -2104,7 +2162,8 @@
               "related_forms": [
                 "FORM_T4_TEMA_GUNLUK"
               ],
-              "source_text_sha256": "db887fb5d89f82c5218ef75ec3224c4b4f566e5f68c527584e2d49e51fb42eba"
+              "source_text_sha256": "db887fb5d89f82c5218ef75ec3224c4b4f566e5f68c527584e2d49e51fb42eba",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             },
             {
               "activity_id": "T4_ACT_20_TEMA_OLCME",
@@ -2127,7 +2186,8 @@
               "related_forms": [
                 "FORM_T4_TEMA_TEST"
               ],
-              "source_text_sha256": "1d349c406a6bf57ba4b6fbceedcf8ad1b5c544a7f8b178a822062ed1f66fca1a"
+              "source_text_sha256": "1d349c406a6bf57ba4b6fbceedcf8ad1b5c544a7f8b178a822062ed1f66fca1a",
+              "form_link_provenance": "SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS"
             }
           ]
         }
