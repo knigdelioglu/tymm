@@ -1,16 +1,19 @@
 # TYMM İçerik Üretim Sistemi — Yeniden Kullanılabilir Bilgi Mimarisi ve Kurulum Raporu
 
-**Amaç:** Bu rapor, TYMM uyumlu bilgi tabanı + Hybrid RAG + resolver + runtime projection + kontrollü artifact generation mimarisini başka ders ve sınıflarda aynı güvenlik, izlenebilirlik ve yeniden üretilebilirlik düzeyiyle kurmak için hazırlanmıştır.
+**Amaç:** Bu rapor, TYMM uyumlu canonical bilgi tabanı + Hybrid RAG + resolver + runtime projection + kontrollü artifact generation mimarisini başka ders ve sınıflarda aynı güvenlik, izlenebilirlik ve yeniden üretilebilirlik düzeyiyle kurmak için hazırlanmıştır.
 
-**Referans implementasyon:** `TDE_9`
+**Referans implementasyonları:**
 
-**Güncel mimari ilkesi:** Yapay zekâya doğrudan “programı ve kitabı oku, materyal üret” denmez. Önce resmî kaynaklar doğrulanır ve canonical knowledge'a dönüştürülür; ihtiyaç, coverage ve gap katmanları çıkarılır; production planı konsolide edilir; index/resolver/runtime gate'leri geçilir; ancak bundan sonra Artifact Generation Engine doğrulanmış bir generation context snapshot'ından taslak üretir. Üretim hiçbir zaman otomatik onay anlamına gelmez.
+- `TDE_9` — doğrulanmış gap bulunan ve canonical artifact üreten model.
+- `TDE_10` — tüm scoped ihtiyaçları kitapta karşılanan, `zero-gap / reuse-only` model.
+
+**Güncel mimari ilkesi:** Yapay zekâya doğrudan “programı ve kitabı oku, materyal üret” denmez. Önce resmî kaynaklar doğrulanır ve canonical knowledge'a dönüştürülür; ihtiyaç, coverage ve gap katmanları çıkarılır; cross-theme consolidation yapılır; production contract belirlenir; index/resolver/runtime/P0 gate'leri geçilir. Yalnız doğrulanmış gerçek bir gap varsa Artifact Generation Engine açılır.
+
+> **Doğrulanmış gap sayısı `0` ise doğru production sonucu yeni materyal üretmek değil, `REUSE_ONLY_NO_NEW_ARTIFACTS` durumudur.**
 
 ---
 
-## 1. Sistemin temel prensibi
-
-Sistemin değişmez çalışma sırası:
+## 1. Değişmez çalışma sırası
 
 ```text
 RESMÎ KAYNAĞI ÇÖZ / DOĞRULA
@@ -19,46 +22,53 @@ PROGRAMI YAPILANDIR
    ↓
 DERS KİTABINI YAPILANDIR
    ↓
-ÖĞRENME İÇİN NE GEREKTİĞİNİ BELİRLE
+ÖĞRENME İHTİYACINI BELİRLE
    ↓
-KİTAPTA KARŞILIĞI VAR MI KONTROL ET
+KİTAP COVERAGE'INI DOĞRULA
    ↓
-GERÇEK BOŞLUĞU BELİRLE
+GERÇEK GAP'İ BELİRLE
    ↓
-YALNIZ GEREKLİ EKSİĞİ PLANLA
+RESOURCE PLAN
    ↓
 CROSS-THEME CONSOLIDATION
    ↓
-PRODUCTION CONTRACT + P0 GATE
+PRODUCTION CONTRACT
    ↓
-ARTIFACT GENERATOR
+P0 GATE
    ↓
-VALIDATION
-   ↓
-TEACHER REVIEW
-   ↓
-APPROVE / FREEZE
+┌───────────────────────────────┬────────────────────────────────┐
+│ verified gap > 0              │ verified gap = 0               │
+│ ARTIFACT_PRODUCING            │ REUSE_ONLY_NO_NEW_ARTIFACTS    │
+│ ↓                             │ ↓                              │
+│ Artifact Generator            │ generation blocked             │
+│ ↓                             │ NO_VERIFIED_RESOURCE_GAP       │
+│ Validation                    │                                │
+│ ↓                             │                                │
+│ Teacher Review                │                                │
+│ ↓                             │                                │
+│ APPROVE / FREEZE              │                                │
+└───────────────────────────────┴────────────────────────────────┘
 ```
 
 En kritik kural:
 
 > **Önce ne gerektiğini belirle, sonra kitapta olup olmadığına bak, sonra üret.**
 
-Ders kitabında bir etkinliğin bulunması, program gereksinimini tam karşıladığı anlamına gelmez. Kitapta bir şeyin eksik görünmesi de otomatik olarak yeni materyal üretme gerekçesi değildir.
+Kitapta bir etkinliğin bulunması program gereksinimini otomatik karşılamaz. Kitapta eksik gibi görünen bir şey de otomatik generation gerekçesi değildir. Aynı şekilde gerekli action/evidence yollarının tamamı doğrulanmışsa sistem sırf production queue boş kalmasın diye yeni artifact üretemez.
 
 ---
 
-## 2. Kaynak otoritesi ve desteklenen kaynak biçimleri
+## 2. Kaynak otoritesi
 
-Bilgi kaynaklarının yetki sırası:
+Yetki sırası:
 
-1. Kullanıcının sağladığı resmî öğretim programı — normatif birincil kaynak.
-2. Kullanıcının sağladığı resmî ders kitabı — sınıf içi uygulama ve içerik çıpası.
+1. Kullanıcının sağladığı resmî öğretim programı.
+2. Kullanıcının sağladığı resmî ders kitabı.
 3. Kullanıcının sağladığı diğer resmî MEB belgeleri.
-4. Eksik, çelişkili veya güncelliği belirsiz durumda resmî MEB/TYMM doğrulaması.
-5. Yalnız gerçek bir boşluk saptandıktan sonra güvenilir haricî kaynaklar.
+4. Eksik/çelişkili durumda resmî MEB/TYMM doğrulaması.
+5. Yalnız gerçek gap doğrulandıktan sonra güvenilir haricî kaynaklar.
 
-“Kullanıcının sağladığı kaynak” yalnız tek bir yerel PDF anlamına gelmez. Sistem şu source input biçimlerini desteklemelidir:
+Desteklenen source input modelleri:
 
 ```text
 SINGLE_FILE
@@ -67,15 +77,15 @@ OFFICIAL_REMOTE_WEB
 OFFICIAL_REMOTE_ASSET
 ```
 
-### Single file
+### 2.1 Single file
 
-Tek bir program veya kitap dosyasıdır. Dosyanın SHA-256 fingerprint'i, kimliği ve sürümü manifestte tutulur.
+Tek program/kitap dosyasıdır. Kimlik, sürüm, dosya yolu ve mümkünse SHA-256 fingerprint manifestte tutulur.
 
-### Multi-part source bundle
+### 2.2 Multi-part source bundle
 
-Aynı resmî kaynağın tema/ünite/bölüm bazında birden çok dosyaya ayrılmış hâlidir. Tek bir birleşik PDF beklenmez.
+Aynı resmî kaynağın tema/ünite bazında parçalı sunulmasıdır. Tek birleşik PDF zorunlu değildir.
 
-Manifestte en az:
+Minimum metadata:
 
 ```text
 source_group_id
@@ -88,125 +98,154 @@ verification_status
 bundle_completeness_status
 ```
 
-saklanır.
+Bundle ancak beklenen tüm parçalar mevcut ve her parçanın iç kimliği hedef ders/sınıf/tema ile uyumluysa `VERIFIED` olur.
 
-Bundle ancak beklenen parçaların tamamı mevcut ve her parçanın iç kimliği hedef ders/sınıf/tema ile doğrulanmışsa `VERIFIED` kabul edilir.
+### 2.3 Official remote source
 
-### Official remote source
+Resmî URL primary locator olabilir. Kurallar:
 
-Kullanıcı resmî MEB/TYMM URL'si verdiyse bu URL primary source locator olabilir. Büyük binary kitabın GitHub'a kopyalanması zorunlu değildir.
+- kullanıcının verdiği exact URL korunur,
+- yalnız resmî sayfanın açığa çıkardığı resmî asset/viewer takip edilir,
+- üçüncü taraf PDF sessizce primary source yapılamaz,
+- erişim/provenance metadata tutulur,
+- kaynak çözülemiyorsa fail-closed review oluşur.
 
-Kurallar:
+### 2.4 Local official snapshot
 
-- supplied exact URL korunur,
-- yalnız resmî sayfanın açığa çıkardığı resmî asset/viewer bağlantıları izlenir,
-- üçüncü taraf PDF sessizce primary source yerine geçirilmez,
-- erişim tarihi ve mümkünse content fingerprint tutulur,
-- kaynak erişilemiyorsa fail-closed review durumu oluşur.
+Kullanıcı resmî kitabın PDF'sini repoya sağladıysa bu dosya doğrudan primary analysis snapshot olabilir. Remote TYMM/MEB sayfası identity/provenance crosscheck olarak tutulabilir.
 
-> Sistem, kullanıcı tarafından verilen resmî program veya kitabı başka bir web sonucu ya da farklı baskıyla sessizce değiştirmez.
+TDE_10 bu modelin referansıdır:
+
+```text
+primary textbook snapshot:
+courses/TDE_10/source_docs/turk-dili-ve-edebiyati-10.pdf
+```
 
 ---
 
-## 3. Sistemin katmanları
+## 3. Canonical bilgi ile türetilmiş katmanları ayırma
+
+```text
+OFFICIAL SOURCES
+      ↓
+CANONICAL JSON / MD           ← SOURCE OF TRUTH
+      ↓
+├── knowledge.sqlite          ← DERIVED / REBUILDABLE RETRIEVAL CACHE
+└── runtime/course_runtime.sqlite
+                               ← DERIVED / READ-ONLY APP PROJECTION
+```
+
+Canonical kayıtlar source of truth'tur. `knowledge.sqlite` veya runtime SQLite silinse bile canonical dosyalardan yeniden üretilebilmelidir.
+
+---
+
+## 4. Sistemin katmanları
 
 ### Katman 1 — Source Resolution
 
-Ham kaynak biçimi dosya, bundle veya resmî remote asset olabilir. İlk iş kaynağın kimliğini, bütünlüğünü, ders/sınıf uyumunu ve fingerprint'ini doğrulamaktır.
+Kaynağın kimliği, bütünlüğü, ders/sınıf uyumu ve provenance'ı doğrulanır.
 
 ### Katman 2 — Frozen Canonical Knowledge
 
-Ham kaynak doğrudan vector DB'ye atılmaz. Önce doğrulanmış ve anlamlı kayıtlara dönüştürülür.
+Ham kaynak anlamlı canonical kayıtlara dönüştürülür:
 
-Örnek varlıklar:
-
-- tema / ünite
-- öğrenme çıktısı
-- süreç bileşeni
-- program hükmü
-- ders kitabı bölümü
-- etkinlik
-- öğrenci eylemi / evidence
-- değerlendirme formu
-- program-kitap alignment
-- remaining gap
-- instructional need
-- resource plan
-- teaching block
-- school-based planning option
-- assessment gap instance
-- annual assessment artifact
-
-Canonical JSON/MD kayıtları **source of truth** kabul edilir.
+- tema/ünite,
+- learning outcome,
+- süreç bileşeni veya kaynaktaki resmî süreç temsili,
+- assessment hükmü,
+- textbook section/activity,
+- student action/evidence,
+- form,
+- alignment,
+- gap,
+- instructional need,
+- resource plan,
+- teaching block,
+- school-based planning option,
+- assessment gap instance,
+- annual assessment artifact.
 
 ### Katman 3 — Knowledge Index
 
-`knowledge.sqlite` canonical bilgi değildir; yalnız retrieval için türetilmiş cache'tir.
+`knowledge.sqlite` içinde:
 
-İçinde:
+- structured metadata,
+- SQLite FTS5,
+- sqlite-vec,
+- embeddings
 
-- structured metadata
-- SQLite FTS5
-- sqlite-vec
-- embedding'ler
-
-bulunur.
-
-Silinirse canonical kayıtlardan sıfırdan rebuild edilmelidir.
+bulunur. Canonical veri değildir.
 
 ### Katman 4 — Knowledge Resolver
 
-Arama adayları bulur; Resolver hangi bilginin gerçekten kullanılabileceğine karar verir.
-
 Görevleri:
 
-- exact ID çözümleme
-- alias → canonical artifact çözümleme
-- theme/course/entity scope çözümleme
-- ilişki genişletme
-- authority sıralaması
-- FTS + vector retrieval
-- canonical record'a geri çözümleme
-- ambiguity tespiti
-- knowledge conflict tespiti
-- stale index kontrolü
-- minimum sufficient context pack üretimi
+- exact ID çözümleme,
+- theme/course scope çözümleme,
+- alias → canonical artifact çözümleme,
+- structured relation expansion,
+- FTS/vector candidate retrieval,
+- canonical record'a geri çözümleme,
+- authority sıralaması,
+- ambiguity tespiti,
+- conflict tespiti,
+- stale index kontrolü,
+- generation gate kararı,
+- minimum sufficient context pack üretimi.
 
-### Katman 5 — Production Schema ve Contracts
+### Katman 5 — Production Schema / Contract
 
-Bilgi tabanı **“ne gerekli?”**, production/assessment contract ise **“hangi canonical artifact bunu karşılayacak ve hangi kurallarla üretilecek?”** sorusunu çözer.
+Production contract iki geçerli biçimden birine sahiptir:
+
+```text
+ARTIFACT_PRODUCING
+  verified_resource_gap_count > 0
+  production_queue = [canonical artifacts]
+
+REUSE_ONLY_NO_NEW_ARTIFACTS
+  verified_resource_gap_count = 0
+  production_queue = []
+```
+
+Boş queue yalnız ikinci durumda geçerlidir. `verified_resource_gap_count > 0` iken boş queue schema/gate hatasıdır.
 
 Temel dosyalar:
 
 ```text
-production_manifest.json
-assessment_artifact_registry.json
-assessment_design_contract.json
+production/production_manifest.json
+production/assessment_artifact_registry.json
+production/assessment_design_contract.json
 ```
 
-### Katman 6 — P0 Production Gate
+### Katman 6 — P0 Gate
 
-Artifact generation açılmadan önce production planı, canonical artifact kimlikleri, legacy alias mapping, index freshness, retrieval ve fail-closed davranışlar doğrulanır.
+P0 şu güvenlikleri doğrular:
 
-P0 PASS şu anlama gelir:
+- canonical maps verified/frozen mı,
+- production schema tutarlı mı,
+- artifact identity canonical mı,
+- alias/provenance ilişkileri doğru mu,
+- zero-gap invariant doğru mu,
+- index sıfırdan rebuild edilebiliyor mu,
+- index fresh mi,
+- duplicate entity key var mı,
+- resolver ambiguity/conflict/stale durumunda fail-closed mu,
+- zero-gap generation isteği engelleniyor mu,
+- runtime projection tutarlı mı.
 
-> Üretim için kullanılacak bilgi, ilişkiler ve güvenlik kontrolleri tutarlıdır.
-
-Şu anlama gelmez:
-
-> Materyaller üretildi veya öğretmen tarafından onaylandı.
+`P0 PASS`, materyalin öğretmen tarafından onaylandığı anlamına gelmez.
 
 ### Katman 7 — Artifact Generation Engine
 
-Generator kendi pedagojisini veya canonical kimliği uydurmaz. Production registry + contract + doğrulanmış knowledge üzerinden deterministik bir `generation_context` snapshot'ı oluşturur ve yalnız bu bağlamdan draft artifact üretir.
+Generator yalnız `ARTIFACT_PRODUCING` course/context için canonical `artifact_id` üzerinden çalışır. Production registry + contract + verified knowledge'tan deterministik generation context üretir.
 
 ### Katman 8 — Generated Artifact Lifecycle
 
-Generation ile approval ayrıdır:
-
 ```text
+GENERATED_DRAFT
+   ↓
 REVIEW_REQUIRED
-   ↓ teacher review
+   ↓ explicit teacher approval
 APPROVED
    ↓ explicit freeze
 FROZEN
@@ -216,23 +255,26 @@ Generator doğrudan `APPROVED` veya `FROZEN` üretemez.
 
 ### Katman 9 — Runtime Course Package
 
-Uygulama istemcileri canonical knowledge'ı doğrudan okumak zorunda değildir. Deterministik compiler ile read-only runtime SQLite projection üretilir:
-
 ```text
 canonical knowledge
-   ↓ compiler
+   ↓ deterministic compiler
 runtime/course_runtime.sqlite
    ↓
 application
 ```
 
-Runtime source of truth değildir ve user state içermez.
+Runtime:
+
+- source of truth değildir,
+- read-only course knowledge projection'dır,
+- user state içermez,
+- vector/model runtime gerektirmez,
+- canonical IDs ve provenance taşır,
+- canonical fingerprint değiştiğinde stale olabilmelidir.
 
 ---
 
-## 4. Genel klasör mimarisi
-
-Güncel repository standardı:
+## 5. Repository standardı
 
 ```text
 <Project>/
@@ -243,26 +285,28 @@ Güncel repository standardı:
 │       ├── references/
 │       ├── scripts/
 │       ├── tests/
-│       └── models/              # local/CI runtime, source of truth değil
-│
-├── local_sources/               # gerektiğinde gitignored ham kaynaklar
-├── local_materials/             # gerektiğinde gitignored yerel materyaller
+│       └── models/                  # runtime/dependency, source of truth değil
 │
 └── courses/
     └── <COURSE_ID>/
+        ├── README.md
         ├── source_manifest.json
         ├── curriculum_map.json
         ├── textbook_map.json
         ├── textbook_forms_index.json
         ├── validation_report.md
         │
+        ├── source_docs/
+        │
         ├── themes/
-        │   ├── tema_01/
-        │   │   ├── alignment.json
-        │   │   ├── gap_analysis.json
-        │   │   └── resource_plan.json
-        │   ├── tema_02/
-        │   └── ...
+        │   └── tema_XX/
+        │       ├── needs.json
+        │       ├── alignment.json
+        │       ├── gap_analysis.json
+        │       └── resource_plan.json
+        │
+        ├── planning/
+        │   └── course_timeline.json
         │
         ├── production/
         │   ├── cross_theme_audit.json
@@ -276,13 +320,15 @@ Güncel repository standardı:
         │   └── assessment_design_contract_report.md
         │
         ├── index/
-        │   ├── knowledge.sqlite          # derived / rebuildable
+        │   ├── knowledge.sqlite
         │   ├── index_manifest.json
         │   ├── index_validation_report.md
         │   └── p0_gate_report.json
         │
         ├── runtime/
-        │   └── course_runtime.sqlite     # derived / read-only projection
+        │   ├── course_runtime.sqlite
+        │   ├── runtime_manifest.json
+        │   └── runtime_validation_report.md
         │
         └── generated/
             └── <ARTIFACT_ID>/
@@ -294,93 +340,54 @@ Güncel repository standardı:
                 └── revisions/
 ```
 
-Örnek course ID'leri:
-
-```text
-TDE_9
-TDE_10
-TARIH_9
-COGRAFYA_9
-FIZIK_9
-BIYOLOJI_10
-```
-
----
-
-## 5. Global skill ile course knowledge'ı ayırma
-
-Metodoloji course-specific olmamalıdır.
-
-Repository içindeki reusable engine:
-
-```text
-skill/tymm-material-planner/
-├── SKILL.md
-├── references/
-├── scripts/
-├── tests/
-└── models/
-```
-
-Derse ait canonical bilgi:
-
-```text
-courses/<COURSE_ID>/
-```
-
 Kural:
 
 > **Skill = nasıl çalışılacağını bilir. Course knowledge = bu ders için neyin doğru olduğunu bilir.**
-
-Aynı skill farklı course paketlerinde kullanılabilir.
 
 ---
 
 ## 6. Source manifest ve fingerprint sistemi
 
-Her source için uygun olan metadata tutulur:
+Uygun olduğu ölçüde:
 
 ```text
 source_id
-source_group_id                # bundle ise
+source_group_id
 source_type
 input_locator_type
 file_path / exact_url
 sha256 / content fingerprint
-size_bytes                     # local ise
-course / grade / school type
-program year / edition         # kaynaktan doğrulanabiliyorsa
-theme / unit identity          # bundle part ise
+size_bytes
+course / grade
+program year / edition
+theme / unit identity
 authority rank
 identity status
 verification status
 last_validated
 ```
 
-Git blob SHA gibi repository taşıma kimlikleri tutulabilir; ancak source SHA-256 yerine geçirilmez.
+saklanır.
 
-### Cache lifecycle
+Git blob SHA repository taşıma kimliğidir; source SHA-256 yerine geçirilmez.
 
-**Local file:** fingerprint aynı + map `VERIFIED` → cache hit.
-
-**Bundle:** önce completeness; sonra her part fingerprint'i; değişen part yeniden çözümlenebilir ama bütün bundle identity gate tekrar çalışır.
-
-**Remote:** supplied/resolved official URL + content fingerprint/metadata doğrulanır; kimlik/sürüm değişirse stale/review oluşur.
-
-Amaç:
+Lifecycle:
 
 ```text
-aynı doğrulanmış kaynak → mevcut frozen map kullanılabilir
-kaynak değişti          → map/index/runtime review veya rebuild gerekir
+same verified source fingerprint
+→ frozen map/cache reuse mümkün
+
+source fingerprint / identity changed
+→ canonical review/revalidation
+→ knowledge index rebuild
+→ runtime rebuild
 ```
 
 ---
 
-## 7. Annual Course Timeline / Planned Progression Layer
+## 7. Annual Course Timeline
 
-Annual course timeline, öğretim programından türetilen **planlanan öğretim ilerlemesini** temsil eder; öğrenci mastery, başarı veya öğretmenin gerçek konumu değildir.
-
-Ayrım:
+Timeline planlanan öğretim ilerlemesini temsil eder; student mastery veya öğretmenin gerçek sınıf konumu değildir.
 
 ```text
 planned_position
@@ -388,74 +395,82 @@ actual_teacher_position
 student_mastery
 ```
 
-Timeline iki bağımsız katmandır:
+ayrı kavramlardır.
 
-1. stable instructional sequence — tema/blok sırası ve doğrulanmış süreler,
-2. optional calendar binding — akademik yıl hafta/tarih → sequence position.
+Timeline:
 
-Takvim değiştiğinde stable sequence yeniden yazılmaz. Saat, haftalık ders sayısı veya tarih kaynağa dayanmıyorsa fail-closed `null` / `UNRESOLVED` kalır.
+1. stable instructional sequence,
+2. optional academic-calendar binding
+
+olarak iki katmanlı tutulur.
+
+Kaynağa dayanmayan saat/hafta bilgileri `null / UNRESOLVED` kalır; uydurulmaz.
 
 ---
 
 ## 8. Curriculum Map
 
-`curriculum_map.json`, resmî programın yapılandırılmış modelidir.
+`curriculum_map.json` minimum olarak:
 
-İçermesi gereken temel veriler:
+- tema/ünite ID ve adları,
+- learning outcomes,
+- kaynakta açıkça bulunan süreç bileşenleri,
+- resmî assessment hükümleri,
+- differentiation/enrichment hükümleri,
+- saat bilgileri,
+- source locator/provenance
 
-- tema / ünite ID ve adları
-- öğrenme çıktıları
-- süreç bileşenleri
-- resmî açıklamalar
-- ölçme-değerlendirme hükümleri
-- farklılaştırma / zenginleştirme hükümleri
-- resmî saat bilgileri
-- source_id + locator
-- verbatim alanlar
+barındırır.
 
-Multi-part program kullanılıyorsa her kayıt kendi bundle part `source_id`'sine bağlanmalıdır.
+### 8.1 Süreç bileşeni fail-closed kuralı
 
-Kural:
+Başka sınıfın alt süreç kodları hedef sınıfa taşınamaz.
 
-> Resmî outcome code veya ifade uydurulmaz. Programdan alınan resmî metin locator ve provenance ile korunur.
+Örneğin hedef resmî snapshot'ta yalnız:
+
+```text
+TDE1.1
+TDE1.2
+...
+```
+
+yayımlanıyor, fakat `TDE1.2.1` gibi alt ID'ler açıkça yayımlanmıyorsa sistem bu alt ID'leri canonical veri olarak sentetik üretmez.
+
+TDE_10'da dört resmî tema snapshot'ının her birinde 16 parent outcome doğrulanmış; kayıtlı snapshot'larda `TDE*.x.y` alt ID'leri yayımlanmadığı için canonical map bunları uydurmadan freeze edilmiştir.
 
 ---
 
 ## 9. Textbook Map
 
-`textbook_map.json`, ders kitabının gerçek öğretim yapısını modeller.
+`textbook_map.json` kitabın gerçek öğretim yapısını modeller:
 
-İçerir:
+- sections,
+- texts/genres,
+- activities,
+- student actions,
+- expected evidence,
+- assessment links,
+- page/source locators.
 
-- bölümler
-- metin / içerik bölümleri
-- etkinlikler
-- öğrenci eylemleri
-- beklenen öğrenci evidence'ları
-- değerlendirme bağlantıları
-- source locator
-
-Her etkinlik mümkünse:
+Her activity mümkünse:
 
 ```text
 activity_id
 → öğrenci ne yapıyor?
-→ hangi evidence ortaya çıkıyor?
+→ hangi evidence oluşuyor?
 → hangi outcome ile ilişkili?
-→ hangi değerlendirme aracı bağlı?
+→ hangi form/evaluation yolu bağlı?
 ```
 
-mantığıyla modellenir.
-
-Remote textbook kullanılması textbook map üretme zorunluluğunu ortadan kaldırmaz; doğrulanmış remote source da canonical map'e dönüştürülür.
+şeklinde modellenir.
 
 ---
 
 ## 10. Textbook Forms Index
 
-Ders kitabındaki değerlendirme yapıları ayrıca sınıflandırılır.
+Değerlendirme yapıları structural type olarak ayrıca sınıflandırılır.
 
-Örnek enum:
+Örnekler:
 
 ```text
 assessment_criteria_table
@@ -470,19 +485,18 @@ observation_form
 exit_ticket
 learning_journal
 test_question_set
+external_official_scoring_guide
 ```
 
 Kritik ilke:
 
-> Görüntüde “ölçütler + açıklama” tablosu bulunması otomatik olarak analytic rubric demek değildir.
+> “Dereceli puanlama anahtarı” ifadesi tek başına `analytic_rubric` demek değildir.
 
-Gerçek analytic rubric için performans düzeyleri ve criterion × level hücre betimleyicileri bulunmalıdır.
+Analitik rubrik demek için criterion × level yapısı ve performans düzeyi descriptor'ları kanıtlanmalıdır. Dış EBA bağlantısının yapısal tipi açılmamışsa yalnız resmî scoring guide/link varlığı canonical fact olarak tutulur.
 
 ---
 
 ## 11. Validation ve Freeze
-
-Curriculum map ve textbook map tamamlanınca hemen generation'a geçilmez.
 
 Birlikte doğrulanır:
 
@@ -493,34 +507,29 @@ textbook_map
 textbook_forms_index
 ```
 
-Kontrol örnekleri:
+Kontroller:
 
-- source identity ve bundle completeness doğru mu?
-- printed/PDF/remote locator doğru mu?
-- outcome ve activity ID'leri unique mi?
-- form → activity ilişkileri kırık mı?
-- assessment type doğru mu?
-- synthetic veri canonical fact gibi sunulmuş mu?
-- source locator eksik mi?
+- source identity/completeness,
+- grade/theme identity,
+- locator doğruluğu,
+- unique IDs,
+- broken references,
+- form classification,
+- canonical provenance,
+- sentetik verinin canonical fact gibi sunulmaması.
 
-Başarılı olduğunda map'ler `FROZEN` olur.
-
-Frozen canonical kayıtlar yalnız version bump + revalidation yoluyla değiştirilebilir.
+Başarılı olduğunda canonical map'ler `FROZEN` olur.
 
 ---
 
 ## 12. Instructional Needs Analysis
 
-Sistem önce “hangi materyali üretelim?” diye sormaz.
+Önce şu sorular cevaplanır:
 
-Her öğrenme çıktısı için:
-
-- öğrenci ne yapmalı?
-- hangi evidence gözlenmeli?
-- hangi yanlış anlama / destek ihtiyacı olabilir?
-- program özel bir ölçme aracı veya süreç istiyor mu?
-
-belirlenir.
+- öğrenci ne yapmalı,
+- hangi evidence görülmeli,
+- program özel ölçme aracı/süreç istiyor mu,
+- hangi destek/differentiation ihtiyacı var.
 
 Bu aşamada materyal türü henüz sonuç değildir.
 
@@ -536,16 +545,12 @@ PARTIALLY_COVERED
 NOT_COVERED
 ```
 
-Coverage yalnız “kitapta benzeri etkinlik var mı?” değildir.
+Coverage değerlendirmesinde birlikte bakılır:
 
-Birlikte değerlendirilir:
-
-- beklenen öğrenci eylemi
-- beklenen evidence
-- programın açık ölçme şartı
-- kitabın sunduğu değerlendirme yapısı
-
-Örneğin program “dereceli puanlama anahtarı” istiyor, kitap ise yalnız düzeysiz ölçüt tablosu sunuyorsa değerlendirme ihtiyacı `PARTIALLY_COVERED` olabilir.
+- öğrenci eylemi,
+- expected evidence,
+- programın explicit requirement'ı,
+- kitabın sunduğu task/form/scoring yolu.
 
 ---
 
@@ -553,13 +558,13 @@ Birlikte değerlendirilir:
 
 Gap şu soruya cevap verir:
 
-> Programın istediği öğrenci evidence'ını veya değerlendirme yapısını kitap neden tam karşılamıyor?
+> Programın istediği evidence veya değerlendirme yapısını kitap neden tam karşılamıyor?
 
-Her gap mümkünse:
+Örnek alanlar:
 
 ```text
 gap_id
-outcome_id
+outcome_code
 theme_id
 coverage_status
 program_requirement
@@ -568,9 +573,7 @@ remaining_gap
 source_locators
 ```
 
-ile saklanır.
-
-Gap, doğrudan fiziksel artifact kimliği değildir.
+**Gap ID fiziksel artifact ID değildir.**
 
 ---
 
@@ -598,46 +601,29 @@ GENERATE_ENRICHMENT
 NO_ACTION
 ```
 
-Kural:
-
-> `GENERATE_*` tek başına `REQUIRED` anlamına gelmez.
-
 Necessity test:
 
-> Bu kaynak çıkarılırsa gerekli öğrenci evidence'ı veya program gereksinimi karşılanamaz mı?
+> Bu kaynak çıkarılırsa programın gerekli evidence'ı gerçekten karşılanamaz mı?
 
-Cevap hayırsa kaynak REQUIRED değildir.
+Cevap hayırsa yeni kaynak `REQUIRED` değildir.
 
 ---
 
-## 16. Cross-Theme Assessment Consolidation ve Annual Assessment Stability
+## 16. Cross-Theme Consolidation
 
-Her tema önce bağımsız analiz edilir; assessment gap'leri doğrudan tema başına ayrı rubriğe dönüşmez.
+Her tema bağımsız analiz edilir; ancak gap'ler doğrudan tema başına ayrı artifact'a dönüştürülmez.
 
-### 16.1 `THEME_CHANGE_ALONE != NEW_RUBRIC`
-
-Tema veya görev adının değişmesi tek başına yeni rubrik gerekçesi değildir. Aynı beceri alanında mümkün olduğunca yıllık kararlı core değerlendirme standardı kullanılır.
-
-### 16.2 GAP INSTANCE ≠ ARTIFACT
-
-İki kavram kesin ayrılır:
-
-- **ASSESSMENT_GAP_INSTANCE:** Belirli tema/outcome bağlamındaki izlenebilir açık.
-- **ANNUAL_ASSESSMENT_ARTIFACT:** Bir veya daha fazla gap instance'ı karşılayan canonical artifact.
-
-TDE_9 örneği:
+### 16.1 GAP INSTANCE ≠ ARTIFACT
 
 ```text
-MAT_T2_KONUSMA_RUBRIC ──┐
-MAT_T3_KONUSMA_RUBRIC ──┼──> TDE9_KONUSMA_RUBRIC
-MAT_T4_KONUSMA_RUBRIC ──┘
+ASSESSMENT_GAP_INSTANCE
+= belirli tema/outcome bağlamındaki açık
+
+ANNUAL_ASSESSMENT_ARTIFACT
+= bir veya daha fazla gap instance'ı karşılayan canonical artifact
 ```
 
-Legacy `MAT_*` kayıtları provenance/alias olarak korunur; canonical artifact identity olarak kullanılmaz.
-
-### 16.3 7 gap → 3 canonical artifact modeli
-
-TDE_9 production schema 1.1'de:
+### 16.2 TDE_9 — 7 gap → 3 artifact
 
 ```text
 7 REQUIRED gap instance
@@ -645,7 +631,7 @@ TDE_9 production schema 1.1'de:
 3 canonical artifact
 ```
 
-Canonical artifact set:
+Canonical set:
 
 ```text
 TDE9_KONUSMA_RUBRIC
@@ -653,16 +639,18 @@ TDE9_YAZMA_RUBRIC
 TDE9_YAZMA_SUREC_KONTROL_LISTESI
 ```
 
-### 16.4 Annual Core + Task Binding
+Legacy `MAT_*` kimlikleri provenance/alias'tır; canonical artifact identity değildir.
 
-Yıllık rubrik iki katmandır:
+### 16.3 Annual Core + Task Binding
 
-1. **ANNUAL CORE:** kararlı criterion seti, level model ve scoring semantics.
-2. **TASK BINDING:** tema/görev başlığı, somut evidence, locator ve göreve özgü notlar.
+Yıllık reusable assessment iki katmanlıdır:
 
-Task binding çekirdek criterion setini sessizce değiştiremez.
+1. annual core — stabil criterion/level/scoring standardı,
+2. task binding — tema/görev/evidence/locator.
 
-### 16.5 Yeniden kullanım önceliği
+Tema değişikliği tek başına yeni rubrik gerekçesi değildir.
+
+### 16.4 Yeniden kullanım önceliği
 
 ```text
 REUSE_ANNUAL_CORE
@@ -671,28 +659,39 @@ REUSE_ANNUAL_CORE
 → GENERATE_NEW_ASSESSMENT
 ```
 
-`GENERATE_NEW_ASSESSMENT` yalnız gerçekten farklı construct + explicit rationale + source locator ile açılır.
+### 16.5 Zero-gap / Reuse-only production
 
-### 16.6 Generation öncesi consolidation zorunluluğu
+Cross-theme consolidation sonunda remaining gap sayısı `0` olabilir.
 
 ```text
-gap_analysis
-→ assessment_gap_instances
-→ CROSS_THEME_ASSESSMENT_CONSOLIDATION
-→ assessment_artifact_registry
-→ task_bindings
-→ production_manifest
+all scoped requirements COVERED
+verified_resource_gap_count = 0
+        ↓
+production_mode = REUSE_ONLY_NO_NEW_ARTIFACTS
+production_queue = []
+        ↓
+P0 PASS
+        ↓
+MATERIAL_GENERATION intent
+→ NO_VERIFIED_RESOURCE_GAP
+→ generation blocked
 ```
 
-Konsolidasyondan geçmemiş gap için generation açılamaz.
+Kurallar:
+
+- boş queue burada beklenen ve doğru sonuçtur,
+- sırf shared schema artifact bekliyor diye sahte rubrik/çalışma kâğıdı oluşturulmaz,
+- resolver bilgi sorgularını yanıtlamaya devam eder,
+- yeni artifact üretimi fail-closed kapanır,
+- ileride canonical kaynak değişip gerçek gap oluşursa production mode yeniden hesaplanır.
+
+TDE_10 bu modelin referans implementasyonudur.
 
 ---
 
 ## 17. School-Based Planning ayrı katmandır
 
-Okul temelli planlama program boşluğu değildir.
-
-Varsayılan:
+School-based planning program gap'i değildir.
 
 ```text
 selection_status = NOT_SELECTED
@@ -700,13 +699,26 @@ generation_status = NOT_REQUESTED
 origin = pedagogical_recommendation
 ```
 
-Öğretmen seçmeden canonical production context'e girmez.
+Öğretmen seçmeden canonical artifact production queue'ya giremez.
+
+### TDE_10 saat semantiği
+
+```text
+Her tema dış blok = 45 saat
+                   = 43 saat resmî tema öğretimi
+                   + 2 saat okul temelli planlama
+
+4 tema            = 180 saat
+                   = 172 + 8
+```
+
+8 school-based saat tek detached annual block değildir; her temaya bağlı 2 saatlik ayrı pedagojik katmandır.
 
 ---
 
-## 18. Hybrid RAG mimarisi
+## 18. Hybrid RAG
 
-Genel retrieval sırası:
+Retrieval sırası:
 
 ```text
 EXACT
@@ -717,23 +729,24 @@ EXACT
 → CANONICAL RESOLUTION
 ```
 
-Vector similarity authority, ambiguity veya conflict çözmez.
-
-Natural-language sorgu aday bulabilir; generation kararı yine canonical çözümden gelir.
+Vector similarity authority/ambiguity/conflict çözmez; yalnız candidate bulur.
 
 ---
 
-## 19. Stable Entity Key ve Canonical Artifact Identity
+## 19. Stable Entity Key
 
 Outcome code'larının course genelinde unique olduğu varsayılmaz.
 
-Örnek stable key:
-
 ```text
-TDE_9::curriculum_outcome::TEMA_02::TDE4.4
+TDE_10::curriculum_outcome::TEMA_02::TDE4.4
 ```
 
-Tema belirtilmeyen ve birden fazla aday taşıyan sorgu fail-closed `AMBIGUOUS_ENTITY` döndürmelidir.
+Tema belirtilmeden aynı outcome birden çok temada bulunuyorsa:
+
+```text
+AMBIGUOUS_ENTITY
+→ generation blocked
+```
 
 Assessment artifact için canonical identity:
 
@@ -741,21 +754,108 @@ Assessment artifact için canonical identity:
 TDE_9::assessment_artifact::TDE9_KONUSMA_RUBRIC
 ```
 
-`MAT_T2_KONUSMA_RUBRIC` gibi gap ID'leri yalnız alias/provenance'dır.
+---
+
+## 20. Resolver fail-closed davranışları
+
+### Ambiguity
+
+```text
+AMBIGUOUS_ENTITY
+→ material_generation_allowed = false
+```
+
+### Knowledge conflict
+
+```text
+KNOWLEDGE_CONFLICT
+→ REVIEW_REQUIRED
+→ generation blocked
+```
+
+### Stale index
+
+```text
+INDEX_STALE
+→ generation blocked
+→ rebuild required
+```
+
+### Duplicate canonical key
+
+```text
+DUPLICATE_CANONICAL_KEY
+→ index build FAIL
+```
+
+### Legacy artifact identity
+
+```text
+MAT_* used as artifact_id
+→ BLOCKED
+```
+
+### Zero-gap generation
+
+```text
+production_mode = REUSE_ONLY_NO_NEW_ARTIFACTS
+verified_resource_gap_count = 0
++ MATERIAL_GENERATION intent
+→ NO_VERIFIED_RESOURCE_GAP
+→ generation blocked
+```
 
 ---
 
-## 20. Canonical Generation Context
+## 21. Production Schema 1.1
 
-Retrieval sonucu ile generation context farklıdır.
+Canonical artifact identity `artifact_id`'dir.
 
-### Retrieval candidates
+Schema iki durumu destekler:
 
-FTS/vector araması ilgili formu, school-based option'ı, komşu activity'yi veya başka artifact'ı aday olarak bulabilir.
+### Artifact-producing course
 
-### Generation context snapshot
+- `production_queue` non-empty,
+- gap aliases canonical artifactlara resolve olur,
+- provenance registry alias mapping ile birebir tutarlıdır.
 
-Generator önce deterministik bir snapshot oluşturur. Minimum alanlar:
+### Reuse-only course
+
+Aşağıdaki üç koşul birlikte zorunludur:
+
+```text
+production_mode = REUSE_ONLY_NO_NEW_ARTIFACTS
+verified_resource_gap_count = 0
+production_queue = []
+```
+
+Gap count sıfır değilse empty queue kabul edilmez.
+
+---
+
+## 22. Embedding / Vector Backend
+
+Referans implementasyon:
+
+```text
+base model: intfloat/multilingual-e5-small
+runtime artifact: Xenova/multilingual-e5-small
+format: ONNX
+quantization: quantized
+embedding_dimension: 384
+vector backend: sqlite-vec
+lexical backend: SQLite FTS5
+```
+
+Bunlar teknik tercihtir, canonical mimari zorunluluğu değildir. Model/backend değişirse açıkça versionlanmalı ve index rebuild edilmelidir.
+
+---
+
+## 23. Generation Context
+
+Retrieval candidate ile generation context aynı değildir.
+
+Minimum deterministik snapshot:
 
 ```text
 context_schema_version
@@ -772,124 +872,32 @@ covered gap instances
 gap provenance
 contract profile
 source locators
-source versions / fingerprints
+source fingerprints
 knowledge index status
 context_hash
 ```
 
-Kural:
-
 > **retrieval_candidates ≠ generation_context**
 
-ve
-
-> **generation_context hash'lenebilir, reproducible ve audit edilebilir olmalıdır.**
-
 ---
 
-## 21. Context Hash, Idempotency ve Revision
-
-Artifact Generation Engine'de canonical identity ile revision ayrılır.
+## 24. Idempotency ve revision
 
 ```text
-artifact_id = kalıcı kimlik
+artifact_id       = kalıcı canonical kimlik
 artifact_revision = içerik revision'ı
-context_hash = üretim girdisinin deterministik fingerprint'i
+context_hash      = deterministic input fingerprint
 ```
 
-### Idempotency
+Aynı artifact + aynı context hash yeniden çalıştırıldığında yeni artifact/revision oluşturulmamalıdır.
 
-Aynı artifact aynı context hash ile yeniden çalıştırılırsa yeni artifact veya revision yaratılmaz.
-
-Yanlış örnekler:
-
-```text
-TDE9_KONUSMA_RUBRIC_2
-TDE9_KONUSMA_RUBRIC_NEW
-```
-
-### Revision
-
-Canonical context değişmişse yeni revision üretilebilir. Önceki artifact/context snapshot'ı `revisions/` altında korunur.
-
-Bu sayede:
-
-- aynı input ile çift üretim engellenir,
-- source/contract değişikliği izlenebilir,
-- geçmiş artifact provenance kaybolmaz.
+Context değişirse yeni revision üretilebilir ve önceki snapshot `revisions/` altında korunur.
 
 ---
 
-## 22. Conflict ve Fail-Closed Davranışı
+## 25. Assessment Design Contract
 
-### Ambiguity
-
-```text
-AMBIGUOUS_ENTITY
-→ generation blocked
-```
-
-### Knowledge conflict
-
-```text
-KNOWLEDGE_CONFLICT
-→ REVIEW_REQUIRED
-→ material_generation_allowed = false
-```
-
-### Stale index
-
-```text
-INDEX_STALE
-→ generation blocked
-→ rebuild/revalidation required
-```
-
-### Missing / mismatched runtime dependency
-
-Index veya embedding backend/model uyumsuzluğu generation kapısını açamaz.
-
-### Duplicate key
-
-```text
-DUPLICATE_CANONICAL_KEY
-→ index build FAIL
-```
-
-### Legacy artifact identity
-
-```text
-MAT_* used as artifact_id
-→ BLOCKED
-```
-
----
-
-## 23. Embedding ve Vector Backend
-
-Mevcut referans implementasyon:
-
-```text
-base model: intfloat/multilingual-e5-small
-runtime artifact: Xenova/multilingual-e5-small
-format: ONNX
-quantization: quantized
-embedding_dimension: 384
-vector backend: sqlite-vec
-lexical backend: SQLite FTS5
-```
-
-Bunlar mimari zorunluluk değil, teknik tercihtir.
-
-Backend/model değişikliği manifestte açıkça versionlanmalı; embedding artifact değişirse index rebuild edilmelidir. Sessiz fallback yasaktır.
-
----
-
-## 24. Assessment Design Contract
-
-Assessment artifact üretilecekse ortak tasarım sözleşmesi hazırlanır.
-
-Sözleşme şu ayrımı korur:
+Contract şu ayrımı korur:
 
 ```text
 OFFICIAL_REQUIREMENT
@@ -898,18 +906,16 @@ REMAINING_GAP
 SELECTED_IMPLEMENTATION
 ```
 
-Örnek:
+Örneğin:
 
 ```text
-OFFICIAL_REQUIREMENT = “dereceli puanlama anahtarı”
+OFFICIAL_REQUIREMENT = dereceli puanlama anahtarı
 SELECTED_IMPLEMENTATION = analytic_rubric
 ```
 
-Programın “analytic rubric istediği” iddia edilmez.
+olabilir; ancak bu, programın literal olarak analytic rubric istediği anlamına gelmez.
 
-### Criterion provenance
-
-İzin verilen origin enum:
+Criterion origin enum:
 
 ```text
 official_curriculum
@@ -917,39 +923,11 @@ official_textbook
 pedagogical_recommendation
 ```
 
-Criterion kaynağı ile descriptor kaynağı ayrılır. Rubric hücre descriptor'ları pedagojik türetimdir.
-
-### Shared level model
-
-Referans:
-
-```text
-LEVEL_4 → ileri düzey gözlenebilir performans
-LEVEL_3 → büyük ölçüde doğru/tutarlı
-LEVEL_2 → kısmi + belirgin destek ihtiyacı
-LEVEL_1 → sınırlı temel performans + yoğun destek ihtiyacı
-```
-
-Criterion-neutral genel semantik korunur.
-
-### Scoring
-
-Referans model:
-
-```text
-Primary: RAW_MEAN_1_TO_4
-Optional: 100-scale display conversion
-```
-
-100'lük dönüşüm resmî MEB puanlama kuralı olarak sunulmaz.
+Descriptor'ların pedagojik türetim olduğu açıkça ayrılır.
 
 ---
 
-## 25. Artifact Generator V1
-
-Generator'ın görevi kendi pedagojisini uydurmak değil; canonical production inputlarından kontrollü draft üretmektir.
-
-Minimum pipeline:
+## 26. Artifact Generator V1
 
 ```text
 P0_GATE
@@ -964,119 +942,45 @@ GENERATE_DRAFT
   ↓
 STRUCTURAL_VALIDATION
   ↓
-PEDAGOGICAL_CONTRACT_VALIDATION
+CONTRACT_VALIDATION
   ↓
 PROVENANCE_VALIDATION
   ↓
-TEACHER_REVIEW_REQUIRED
-  ↓
-APPROVE
-  ↓
-FREEZE
+REVIEW_REQUIRED
 ```
 
-### Canonical artifact ID
+Kod seviyesinde en az:
 
-Generator inputu `artifact_id` olmak zorundadır.
-
-Doğru:
-
-```text
-TDE9_KONUSMA_RUBRIC
-```
-
-Yanlış:
-
-```text
-MAT_T2_KONUSMA_RUBRIC
-```
-
-### Deterministic validation
-
-LLM'nin kendi çıktısını yalnız yine LLM'e kontrol ettirmek yeterli değildir. Kod seviyesinde en az:
-
-- artifact identity,
+- canonical artifact ID,
 - context hash,
 - required sections,
-- criterion ID'leri,
-- 4-level matrix completeness,
-- descriptor origin,
-- forbidden phrasing,
+- criterion/level completeness,
+- provenance,
 - scoring dimensions,
-- gap provenance,
 - teacher review state,
 - idempotency
 
 kontrol edilir.
 
----
-
-## 26. Generation ≠ Approval Lifecycle
-
-Generated artifact'ın varsayılan durumu:
-
-```text
-REVIEW_REQUIRED
-```
-
-Explicit öğretmen onayı olmadan:
-
-```text
-REVIEW_REQUIRED → APPROVED
-```
-
-geçişi yapılamaz.
-
-`FROZEN` yalnız `APPROVED` artifact için mümkündür.
-
-```text
-GENERATED_DRAFT
-→ REVIEW_REQUIRED
-→ APPROVED
-→ FROZEN
-```
-
-Bu lifecycle yalnız metadata tavsiyesi değil; generator API/gate seviyesinde zorlanmalıdır.
+Generator zero-gap course'ta artifact uydurmak için kullanılamaz.
 
 ---
 
-## 27. Generator V1 Pilot Gate
+## 27. Generator pilot gate
 
-Yeni generator'ın ilk canlı artifact'ı acceptance test olarak kullanılır.
-
-TDE_9 için pilot:
+TDE_9 pilot artifact:
 
 ```text
 TDE9_KONUSMA_RUBRIC
 ```
 
-Pilot sırası:
+Pilot teknik validation geçse bile teacher review tamamlanmadan kalan queue açılmaz.
 
 ```text
-Generator implementation
-        ↓
-TDE9_KONUSMA_RUBRIC pilot generation
-        ↓
-Structural validation
-        ↓
-Pedagogical contract validation
-        ↓
-Provenance validation
-        ↓
-Idempotency regression
-        ↓
 ENGINEERING_PASS_REVIEW_REQUIRED
-        ↓ teacher approval
-GENERATOR_V1_GATE = PASS
-        ↓
-TDE9_YAZMA_RUBRIC
-        ↓
-TDE9_YAZMA_SUREC_KONTROL_LISTESI
+≠ APPROVED
+≠ FROZEN
 ```
-
-Pilot `REVIEW_REQUIRED` iken diğer artifact'ların normal generation sırası kapalı kalır.
-
-Bu gate, “kod teknik olarak çalışıyor” ile “generator öğretmen tarafından kabul edilmiş pilot üzerinden production'a açıldı” durumlarını ayırır.
 
 ---
 
@@ -1098,28 +1002,13 @@ Kurallar:
 
 - uzun telifli metin artifact içine yeniden basılmaz,
 - locator tercih edilir,
-- hak durumu belirsiz uzun içerik embed edilmez,
 - attribution izin anlamına gelmez,
-- `UNKNOWN_RIGHTS` review gerektirebilir,
-- `DO_NOT_USE` içerik generation context'e gövde olarak girmez.
-
-Generated artifact provenance'ı en az şunları korumalıdır:
-
-```text
-artifact_id
-context_hash
-covered_gap_instances
-covered_outcomes
-source locators
-gap provenance
-contract/source version metadata
-```
+- hak durumu uydurulmaz,
+- `DO_NOT_USE` body generation context'e gövde olarak girmez.
 
 ---
 
 ## 29. Quality Gates
-
-Genel QA katmanları:
 
 ```text
 Source Identity QA
@@ -1127,9 +1016,10 @@ Curriculum QA
 Textbook QA
 Version QA
 Needs QA
-Resource Plan QA
-Necessity QA
 Alignment / Coverage QA
+Gap QA
+Resource Plan / Necessity QA
+Cross-Theme Consolidation QA
 Production Schema QA
 Index / Resolver QA
 Runtime Projection QA
@@ -1137,7 +1027,6 @@ Generation Context QA
 Structural Artifact QA
 Assessment Contract QA
 Provenance QA
-Accessibility QA
 Copyright QA
 Safety QA
 Privacy QA
@@ -1154,167 +1043,171 @@ all applicable PASS/N/A → PASS
 
 ---
 
-## 30. Yeni Bir Ders İçin Kurulum Playbook'u
+## 30. Yeni Ders İçin Kurulum Playbook'u
 
 ### Faz 0 — Source resolution
 
-1. Program source'unu tanımla: file / bundle / official remote.
-2. Ders kitabı source'unu tanımla.
+1. Program source modelini belirle.
+2. Textbook source modelini belirle.
 3. `source_manifest.json` oluştur.
-4. Local fingerprint / remote provenance kaydet.
-5. Bundle completeness ve source identity doğrula.
+4. Identity/fingerprint/provenance kaydet.
+5. Bundle completeness doğrula.
 
 ### Faz 1 — Curriculum mapping
 
 6. Tema/ünite yapısını çıkar.
-7. Outcome ve süreç bileşenlerini verbatim çıkar.
-8. Ölçme hükümlerini çıkar.
-9. Saat / farklılaştırma / zenginleştirme kayıtlarını çıkar.
-10. Source locator ekle.
+7. Parent outcomes'ları verbatim çıkar.
+8. Kaynakta açıkça yayımlanan süreç bileşenlerini çıkar; yayımlanmayan alt ID'leri uydurma.
+9. Assessment/differentiation/saat hükümlerini çıkar.
+10. Locator ekle.
 
 ### Faz 2 — Textbook mapping
 
-11. Kitap bölüm yapısını çıkar.
-12. Etkinlikleri ID'le.
-13. Öğrenci eylemi ve evidence çıkar.
-14. Assessment formlarını sınıflandır.
-15. Form ↔ activity bağlarını kur.
+11. Bölüm yapısını çıkar.
+12. Activities'leri ID'le.
+13. Student action/evidence çıkar.
+14. Forms index oluştur.
+15. Activity ↔ form/outcome ilişkilerini kur.
 16. Locator doğrula.
 
-### Faz 3 — Validation / Freeze
+### Faz 3 — Validation / freeze
 
-17. Program–kitap kimlik/sürüm uyumunu kontrol et.
-18. Form classification doğrula.
-19. Broken reference kontrolü yap.
-20. Printed/PDF/remote locator doğrula.
-21. Frozen map statüsü ver.
+17. Source identity/version uyumu.
+18. Form classification.
+19. Broken reference.
+20. Locator audit.
+21. Canonical freeze.
 
 ### Faz 4 — Instructional analysis
 
-22. Instructional need çıkar.
-23. Beklenen evidence tanımla.
-24. Textbook coverage değerlendir.
-25. Gap analysis üret.
-26. Resource plan oluştur.
+22. Needs çıkar.
+23. Evidence tanımla.
+24. Coverage değerlendir.
+25. Gap analysis.
+26. Resource plan.
 
 ### Faz 5 — Cross-theme consolidation
 
-27. Tema planlarını birleştir.
+27. Tema resource planlarını birleştir.
 28. Duplicate kaynakları deduplicate et.
-29. Assessment gap instance'ları konsolide et.
-30. Canonical `assessment_artifact_registry` oluştur.
-31. Production manifest oluştur.
-32. Teaching blocks oluştur.
+29. Gap instance'ları consolidate et.
+30. `verified_resource_gap_count` belirle.
+31. Production mode seç:
+
+```text
+gap > 0 → ARTIFACT_PRODUCING
+gap = 0 → REUSE_ONLY_NO_NEW_ARTIFACTS
+```
+
+32. Production manifest/registry/teaching blocks oluştur.
 
 ### Faz 6 — School-based layer
 
 33. School-based saatleri ayrı modelle.
-34. Seçenekleri recommendation olarak oluştur.
-35. Varsayılan `NOT_SELECTED / NOT_REQUESTED` bırak.
+34. Recommendation seçenekleri oluştur.
+35. Varsayılan NOT_SELECTED / NOT_REQUESTED bırak.
 
-### Faz 7 — Knowledge Index / RAG
+### Faz 7 — Knowledge Index
 
-36. Canonical entity'leri indexle.
-37. Stable entity key üret.
-38. FTS5 index oluştur.
-39. Embedding üret.
-40. Vector index oluştur.
-41. Index manifest yaz.
-42. Stale/conflict/ambiguity testleri çalıştır.
+36. Stable entity key üret.
+37. FTS5 + vector index kur.
+38. Manifest/fingerprint yaz.
+39. Index'i sıfırdan rebuild et.
+40. Duplicate/stale gate çalıştır.
 
 ### Faz 8 — Resolver acceptance
 
-43. Exact ID ve alias testleri.
-44. Theme ambiguity testleri.
-45. Natural-language semantic testleri.
-46. Conflict fixture.
-47. Stale fixture.
-48. Duplicate key fixture.
-49. Canonical resolution accuracy kontrolü.
+41. Exact ID testleri.
+42. Alias testleri applicable ise.
+43. Theme ambiguity.
+44. Natural-language probes.
+45. Conflict fixture.
+46. Stale fixture.
+47. Zero-gap generation fixture applicable ise.
 
 ### Faz 9 — Runtime projection
 
-50. Canonical knowledge → runtime SQLite compiler çalıştır.
-51. Source fingerprint doğrula.
-52. Orphan/FK/runtime query regression'larını çalıştır.
-53. Runtime package'ın user state/vector dependency içermediğini doğrula.
+48. Canonical → runtime SQLite compiler.
+49. FK/orphan/unique ID testleri.
+50. App acceptance queries.
+51. User state/vector dependency exclusion.
+52. Runtime freshness.
 
-### Faz 10 — Production Contract + P0 Gate
+### Faz 10 — P0
 
-54. Assessment Design Contract oluştur.
-55. Provenance şeması belirle.
-56. Shared vs task-specific standardı ayır.
-57. Production schema ve canonical artifact IDs dondur.
-58. `knowledge.sqlite` sıfırdan rebuild et.
-59. P0 Production Gate'i PASS et.
+53. Production schema validate.
+54. Knowledge index fresh rebuild.
+55. Resolver safety gates.
+56. Runtime projection.
+57. Course-specific invariant'lar:
+
+```text
+TDE_9: 7 gap → 3 artifact
+TDE_10: 0 gap → 0 artifact
+```
+
+58. P0 PASS.
 
 ### Faz 11 — Artifact Generator
 
-60. Canonical `artifact_id` seç.
-61. Deterministik generation context oluştur.
-62. Context hash doğrula.
-63. Draft üret.
-64. Structural + contract + provenance validation çalıştır.
-65. Idempotency regression'ı çalıştır.
+Yalnız `ARTIFACT_PRODUCING` course için:
 
-### Faz 12 — Pilot Acceptance
+59. Canonical artifact seç.
+60. Context snapshot/hash oluştur.
+61. Draft üret.
+62. Structural/contract/provenance validation.
+63. Idempotency.
+64. REVIEW_REQUIRED.
 
-66. İlk yüksek-değer reusable artifact'ı pilot seç.
-67. Pilot generation yap.
-68. Generator engineering gate'i çalıştır.
-69. `REVIEW_REQUIRED` bırak.
-70. Öğretmen review tamamla.
-71. Explicit approve/freeze yap.
-72. Generator V1 Final Gate PASS olmadan kalan queue'yu açma.
+Reuse-only course bu fazı atlar.
 
-### Faz 13 — Kalan Production Queue
+### Faz 12 — Teacher Review / Freeze
 
-73. Kalan canonical artifact'ları sırayla üret.
-74. Her artifact için aynı lifecycle/gate kurallarını uygula.
-75. Revision/provenance history'yi koru.
+65. Pilot artifact review.
+66. Explicit approve.
+67. Explicit freeze.
+68. Kalan queue applicable ise açılır.
 
 ---
 
-## 31. Asla Atlanmaması Gereken Güvenlik Kontrolleri
+## 31. Güvenlik checklist'i
 
 ```text
 [ ] Source identity/fingerprint kayıtlı mı?
 [ ] Multi-part bundle completeness doğrulandı mı?
 [ ] Remote source exact official provenance taşıyor mu?
-[ ] Program verbatim alanları locator taşıyor mu?
+[ ] Program verbatim/official fields locator taşıyor mu?
+[ ] Kaynakta yayımlanmayan outcome/process ID uydurulmuş mu? → olmamalı
 [ ] Activity/form ID'leri unique mi?
-[ ] Assessment form classification doğru mu?
-[ ] Outcome stable key'leri uygun scope'ta mı?
-[ ] Silent overwrite engelli mi?
-[ ] Vector DB source of truth yapılmamış mı?
+[ ] Form classification kanıtlı mı?
+[ ] Stable entity keys scope-safe mi?
+[ ] Canonical JSON/MD source of truth mı?
+[ ] knowledge.sqlite yalnız derived/cache mi?
+[ ] Runtime yalnız derived projection mı?
 [ ] Semantic result canonical record'a resolve oluyor mu?
 [ ] Ambiguity fail-closed mu?
-[ ] Knowledge conflict fail-closed mu?
+[ ] Conflict fail-closed mu?
 [ ] INDEX_STALE fixture PASS mı?
 [ ] DUPLICATE_CANONICAL_KEY fixture var mı?
-[ ] NOT_SELECTED okul seçenekleri generation context'e girmiyor mu?
-[ ] GAP INSTANCE ile canonical ARTIFACT ayrılmış mı?
-[ ] MAT_* yalnız provenance/alias mı?
-[ ] Canonical artifact identity artifact_id mı?
-[ ] 7→3 mapping gibi consolidation invariant'ları gate'lenmiş mi?
-[ ] P0 gate fresh rebuild yapıyor mu?
-[ ] Runtime projection stale/orphan kontrolleri PASS mı?
+[ ] School-based option'lar gap sayılmıyor mu?
+[ ] GAP INSTANCE ile ARTIFACT identity ayrılmış mı?
+[ ] MAT_* yalnız alias/provenance mı?
+[ ] Consolidation invariant gate'lenmiş mi?
+[ ] gap=0 ise empty queue yalnız reuse-only modunda mı kabul ediliyor?
+[ ] Zero-gap generation isteği NO_VERIFIED_RESOURCE_GAP ile kapanıyor mu?
+[ ] P0 fresh rebuild yapıyor mu?
+[ ] Runtime final canonical fingerprintten rebuild ediliyor mu?
 [ ] retrieval_candidates ile generation_context ayrı mı?
-[ ] generation context deterministik ve hash'li mi?
-[ ] Aynı context tekrar generation idempotent mi?
-[ ] Context değişiminde revision history korunuyor mu?
+[ ] Context deterministic/hash'li mi?
+[ ] Idempotency var mı?
+[ ] Revision history korunuyor mu?
 [ ] Generated artifact otomatik APPROVED/FROZEN olmuyor mu?
-[ ] Structural validation deterministik mi?
-[ ] Contract/provenance validation var mı?
 [ ] Teacher review gate var mı?
-[ ] Pilot onaylanmadan sonraki production queue kapalı mı?
 ```
 
 ---
 
 ## 32. Minimum Resolver Context Pack
-
-Örnek genel resolver pack:
 
 ```json
 {
@@ -1323,6 +1216,11 @@ all applicable PASS/N/A → PASS
   "query_intent": "MATERIAL_GENERATION",
   "resolution_status": "RESOLVED",
   "resolution_mode": ["EXACT", "STRUCTURED", "FTS", "VECTOR"],
+  "ambiguity_status": "UNAMBIGUOUS",
+  "index_freshness": "INDEX_FRESH",
+  "canonical_resolution_verified": true,
+  "material_generation_allowed": false,
+  "material_generation_block_reason": "NO_VERIFIED_RESOURCE_GAP",
   "resolved_entities": [],
   "curriculum_context": [],
   "textbook_context": [],
@@ -1331,70 +1229,32 @@ all applicable PASS/N/A → PASS
   "production_context": [],
   "remaining_gaps": [],
   "pedagogical_recommendations": [],
-  "source_fallback_required": false,
-  "external_lookup_required": false,
   "conflicts": [],
   "retrieval_trace": []
 }
 ```
 
-Bu resolver pack generator inputu değildir. Generator bundan ve production contracts'tan daha dar bir deterministik `generation_context` snapshot'ı türetir.
+Bu pack generator inputu değildir; artifact-producing durumda daha dar deterministic `generation_context` türetilir.
 
 ---
 
-## 33. Önerilen Entity Metadata Şeması
+## 33. Search benchmark standardı
 
-Index kaydı için genel alanlar:
+Yeni course için en az 10–15 doğal dil sorgusu önerilir:
 
-```text
-id
-course_id
-entity_type
-entity_id
-theme_id
-entity_key
-canonical_source_file
-canonical_json_path_or_record_key
-authority_level
-origin
-validation_status
-freeze_status
-printed_page
-pdf_page
-source_locator
-content_hash
-source_file_hash
-embedding_model
-embedding_dimension
-semantic_text
-embedding
-created_at
-updated_at
-```
-
-`semantic_text` canonical alanlardan deterministik üretilmelidir; serbest LLM özeti source of truth olamaz.
-
----
-
-## 34. Search Benchmark Standardı
-
-Yeni ders için en az 10–15 Türkçe doğal dil sorgusu hazırlanmalıdır.
-
-Sorgu tipleri:
-
-- exact outcome
-- theme + outcome
-- gap alias
-- canonical artifact ID
-- “kitapta ne eksik?”
-- “nasıl değerlendireceğim?”
-- doğal dil / semantic
-- form lookup
-- school-based option lookup
-- negative analytic rubric query
-- ambiguity query
-- conflict fixture
-- stale fixture
+- exact outcome,
+- theme + outcome,
+- canonical artifact,
+- alias applicable ise,
+- “kitapta ne eksik?”,
+- “nasıl değerlendireceğim?”,
+- form lookup,
+- school-based option,
+- negative rubric query,
+- ambiguity,
+- conflict,
+- stale,
+- zero-gap generation probe.
 
 Safety hedefleri:
 
@@ -1403,17 +1263,14 @@ canonical_resolution_accuracy = 100%
 ambiguity_detection_accuracy = 100%
 conflict_detection_accuracy = 100%
 stale_detection_accuracy = 100%
+production-mode gate accuracy = 100%
 ```
 
 Retrieval Hit@K düşük olabilir; safety metricleri düşük olamaz.
 
 ---
 
-## 35. Freeze Kavramı
-
-Sistem tek bir “bitti” bayrağı yerine katman bazlı freeze kullanır.
-
-Örnek:
+## 34. Freeze modeli
 
 ```text
 SOURCE MAPS                  FROZEN
@@ -1424,94 +1281,81 @@ THEME ALIGNMENTS             FROZEN
 GAP ANALYSIS                 FROZEN
 RESOURCE PLANS               FROZEN
 PRODUCTION MANIFEST          FROZEN
-ASSESSMENT ARTIFACT REGISTRY FROZEN
-KNOWLEDGE BASE               FROZEN
-KNOWLEDGE RESOLVER           FROZEN
-HYBRID RAG                   FROZEN
-ASSESSMENT DESIGN CONTRACT   FROZEN
+ASSESSMENT ARTIFACT REGISTRY FROZEN / EMPTY-VALID-IN-REUSE-ONLY
+KNOWLEDGE BASE               FROZEN CANONICAL / DERIVED INDEX
+KNOWLEDGE RESOLVER           SHARED ENGINE
+HYBRID RAG                   DERIVED INDEX
 RUNTIME PROJECTION           REBUILDABLE
 GENERATED ARTIFACT           PER-ARTIFACT LIFECYCLE
 ```
 
-Generated artifact için `FROZEN`, yalnız teacher-approved revision'a verilir.
-
 ---
 
-## 36. TDE_9 Uygulamasından Çıkan Ana Dersler
+## 35. TDE_9'dan çıkan ana dersler
 
-1. Ders kitabındaki ölçüt tablosunu yanlışlıkla analytic rubric saymamak.
-2. Aynı outcome kodunun farklı temalarda tekrar edebileceğini kabul etmek.
+1. Ders kitabındaki ölçüt tablosunu otomatik analytic rubric saymamak.
+2. Aynı outcome code'un farklı temalarda tekrar edebileceğini kabul etmek.
 3. Vector similarity ile ambiguity çözmemek.
-4. Programın “dereceli puanlama anahtarı” ifadesini “analytic rubric” diye resmîleştirmemek.
-5. `NOT_SELECTED` school-based seçenekleri production context'e sokmamak.
+4. “Dereceli puanlama anahtarı”nı otomatik analytic rubric diye resmîleştirmemek.
+5. School-based recommendation'ı gap/production requirement yapmamak.
 6. Retrieval candidate ile generation context'i ayırmak.
-7. Rights status icat etmemek.
+7. Rights status uydurmamak.
 8. 100'lük dönüşümü resmî kural gibi sunmamak.
-9. Generated assessment aracını öğretmen görmeden PASS saymamak.
+9. Teacher review olmadan artifact'ı approved/frozen saymamak.
 10. Vector DB'yi source of truth yapmamak.
-11. Gap ID ile artifact ID'yi ayırmak; 7 gap'i 7 fiziksel materyale dönüştürmemek.
-12. Production schema ile indexer/resolver arasında schema drift oluşmasını CI gate ile engellemek.
-13. `knowledge.sqlite` rebuildability'yi gerçek CI gate ile test etmek.
-14. Generation context'i deterministik/hash'li snapshot yapmak.
-15. Artifact generation'ı idempotent kılmak.
-16. Generation, approval ve freeze işlemlerini ayrı lifecycle yapmak.
-17. İlk gerçek artifact'ı generator acceptance testi olarak kullanmak.
-18. Tek-PDF varsayımından kaçınmak; multi-part ve official remote source'ları canonical source modeline dahil etmek.
+11. Gap ID ile artifact ID'yi ayırmak.
+12. 7 gap'i 7 fiziksel materyale çevirmemek.
+13. Production schema/indexer/resolver drift'ini CI ile gate'lemek.
+14. `knowledge.sqlite` rebuildability'yi gerçek gate ile test etmek.
+15. Generation context'i deterministic/hash'li yapmak.
+16. Artifact generation'ı idempotent yapmak.
+17. Generation/approval/freeze lifecycle'larını ayırmak.
 
 ---
 
-## 37. Sistemin En Kısa Özeti
+## 36. TDE_10'dan çıkan yeni ana dersler
 
-Mimari beş şeyi birbirinden ayırır:
+1. **Başka sınıfın alt süreç kodlarını kopyalamamak.** Resmî TDE_10 snapshot'larında `TDE*.x.y` alt ID'leri açıkça yayımlanmıyorsa bunlar canonical veri olarak üretilmez.
+2. **Local official textbook snapshot'ı desteklemek.** Repo içindeki resmî PDF primary analysis source olabilir.
+3. **QR/EBA scoring guide varlığını structure type'tan ayırmak.** Linkin resmî olduğu doğrulanabilir; internal rubric tipi görülmeden analytic rubric denmez.
+4. **Gap=0 sonucunu birinci sınıf production sonucu olarak desteklemek.**
+5. **Empty queue'yu koşullu olarak geçerli yapmak.** Yalnız verified gap count `0` ise.
+6. **Bilgi erişimi ile generation iznini ayırmak.** Resolver bilgi sorgusunu çözebilir ama artifact generation'ı `NO_VERIFIED_RESOURCE_GAP` ile engelleyebilir.
+7. **Course-specific ve generic invariantları ayırmak.** TDE_9'un 7→3 kuralı korunurken TDE_10'un 0→0 kuralı aynı shared engine'de çalışabilmelidir.
+8. **Final canonical metadata sonrası projection rebuild zorunluluğu.** Source manifest/P0 metadata değişmişse index/runtime final fingerprintten tekrar rebuild edilmelidir.
+
+---
+
+## 37. Mimari özet
 
 ```text
 1. SOURCE TRUTH
-   Program + Ders Kitabı + Source Manifest
+   Official Program + Official Textbook + Source Manifest
 
 2. CANONICAL KNOWLEDGE
-   Curriculum/Textbook Maps + Alignment + Gap + Resource Plan
+   Curriculum/Textbook Maps + Needs + Alignment + Gap + Resource Plan
 
 3. FIND / RESOLVE
-   SQLite + FTS5 + Vector + Knowledge Resolver
+   SQLite FTS5 + Vector + Resolver
 
 4. PRODUCTION CONTRACT
-   Production Manifest + Artifact Registry + Design Contract + P0 Gate
+   Consolidation + Production Mode + Registry + Contract + P0
 
-5. GENERATE / REVIEW
-   Generation Context + Artifact Generator + Validation + Teacher Review + Freeze
+5A. GAP > 0
+   Generation Context + Artifact Generator + Validation + Teacher Review
+
+5B. GAP = 0
+   Reuse Existing Textbook + Block New Artifact Generation
+
+6. APPLICATION
+   Deterministic Runtime SQLite Projection
 ```
 
-Başka bir ifadeyle:
-
-> **Yapay zekâ kararın kaynağı değildir. Yapay zekâ, doğrulanmış bilgi tabanı ve açık üretim sözleşmeleri üzerinde çalışan kontrollü üretim motorudur.**
+> **Yapay zekâ kararın kaynağı değildir. Yapay zekâ, doğrulanmış canonical bilgi ve açık production contract üzerinde çalışan kontrollü üretim motorudur.**
 
 ---
 
-## 38. Runtime Course Package / Application Projection Layer
-
-Canonical knowledge doğrudan uygulama tüketim şeması değildir.
-
-```text
-canonical knowledge → deterministic compiler → runtime SQLite → application
-```
-
-Runtime package:
-
-- source of truth değildir,
-- derived/rebuildable'dır,
-- read-only course knowledge projection'dır,
-- user state içermez,
-- RAG/vector database değildir,
-- embedding/model runtime gerektirmez,
-- stable canonical ID ve source locator/provenance taşır.
-
-Canonical dosyalar değiştiğinde fingerprint üzerinden `RUNTIME_STALE` üretilebilmelidir.
-
----
-
-## 39. Güncel TDE_9 Implementasyon Durumu — 2026-08-18
-
-Mevcut `main` durumu:
+## 38. Güncel TDE_9 implementasyon durumu — 2026-08-18
 
 ```text
 Canonical Knowledge            FROZEN / VERIFIED
@@ -1528,52 +1372,140 @@ TDE9_YAZMA_RUBRIC              ORDER-GATED / LOCKED
 TDE9_YAZMA_SUREC_KONTROL...    ORDER-GATED / LOCKED
 ```
 
-İlk pilot artifact'ın structural, contract, provenance ve idempotency kontrolleri geçmiştir. Bu teknik PASS öğretmen onayı değildir. Pilot açıkça `APPROVED`/`FROZEN` durumuna geçirilmeden kalan iki canonical artifact'ın normal production sırası açılmaz.
+Pilot teknik PASS öğretmen onayı değildir.
 
 ---
 
-# Ek A — Yeni Ders İçin Kısa Başlangıç Şablonu
+## 39. Güncel TDE_10 implementasyon durumu — 2026-08-18
+
+```text
+Official curriculum snapshots        PASS (4/4)
+Canonical learning outcomes          PASS (64/64)
+Curriculum canonical map             VERIFIED / FROZEN
+Official local textbook PDF          VERIFIED / FROZEN
+Program-textbook alignment           PASS (64/64 COVERED)
+Verified remaining resource gaps     0
+Production mode                      REUSE_ONLY_NO_NEW_ARTIFACTS
+Canonical new artifacts              0
+Teaching blocks                      16
+Knowledge index                      INDEX_FRESH
+Indexed canonical records            386
+Duplicate canonical keys             0
+Resolver ambiguity gate              PASS
+Resolver stale gate                  PASS
+Resolver conflict gate               PASS
+No-gap generation gate               PASS / NO_VERIFIED_RESOURCE_GAP
+Runtime projection                   PASS
+P0                                    PASS
+```
+
+Runtime projection güncel P0 sonucunda:
+
+```text
+courses                     1
+themes                      4
+blocks                     16
+outcomes                   64
+textbook_sections          24
+activities                 75
+forms                      35
+resource_decisions         16
+assessment_artifacts        0
+assessment_gap_mappings     0
+assessment_task_bindings    0
+timeline_themes             4
+timeline_blocks            16
+```
+
+TDE_10'da 0 assessment artifact olması eksiklik değil, verified reuse-only contract sonucudur.
+
+---
+
+## 40. Kalıcı CI workflow seti
+
+Kurulum sırasında kullanılan extraction/freeze/diagnostic/patch workflow'ları kalıcı architecture değildir. TDE_10 kurulumu tamamlandıktan sonra temizlenmiştir.
+
+Kalıcı workflow seti:
+
+```text
+.github/workflows/tymm-p0-production-gate.yml
+→ TDE_9 7-gap / 3-artifact P0 regresyonu
+
+.github/workflows/tymm-tde10-p0.yml
+→ TDE_10 generic zero-gap P0
+→ index/runtime rebuild
+→ final canonical metadata sonrası ikinci rebuild/freshness doğrulaması
+
+.github/workflows/tymm-artifact-generator-v1.yml
+→ artifact-producing course için generator lifecycle gate
+```
+
+Shared engine:
+
+```text
+skill/tymm-material-planner/scripts/production_schema.py
+skill/tymm-material-planner/scripts/knowledge_index.py
+skill/tymm-material-planner/scripts/knowledge_resolver.py
+skill/tymm-material-planner/scripts/build_runtime_course_package.py
+skill/tymm-material-planner/scripts/generic_p0_course_gate.py
+```
+
+Önemli invariant:
+
+> P0 sırasında `source_manifest.json` veya başka canonical metadata değiştirilirse `knowledge.sqlite` ve runtime SQLite **final metadata üzerinden tekrar rebuild edilmeden** sonuç yayımlanmamalıdır.
+
+---
+
+# Ek A — Yeni Ders İçin kısa başlangıç şablonu
 
 ```text
 COURSE_ID = <ör. TDE_10>
 
-1.  courses/<COURSE_ID>/source_manifest.json
-2.  source input: SINGLE_FILE | MULTI_PART_SOURCE_BUNDLE | OFFICIAL_REMOTE_*
+1.  source_manifest.json
+2.  source identity/fingerprint verification
 3.  curriculum_map.json
 4.  textbook_map.json
 5.  textbook_forms_index.json
-6.  validation_report.md
-7.  themes/*/alignment.json
-8.  themes/*/gap_analysis.json
-9.  themes/*/resource_plan.json
-10. production/consolidated_resource_plan.json
-11. production/assessment_artifact_registry.json
-12. production/production_manifest.json
-13. production/assessment_design_contract.json
-14. index/knowledge.sqlite
-15. index/index_manifest.json
-16. resolver safety tests
-17. runtime/course_runtime.sqlite
-18. P0 Production Gate
-19. generation_context
-20. Artifact Generator
-21. pilot generation + Generator V1 Gate
-22. Teacher Review
-23. approve/freeze
-24. remaining production queue
+6.  validation/freeze
+7.  themes/*/needs.json
+8.  themes/*/alignment.json
+9.  themes/*/gap_analysis.json
+10. themes/*/resource_plan.json
+11. cross-theme consolidation
+12. verified_resource_gap_count
+13. production_mode
+14. production_manifest.json
+15. assessment_artifact_registry.json
+16. assessment_design_contract.json
+17. teaching_blocks.json
+18. knowledge index rebuild
+19. resolver safety tests
+20. runtime projection
+21. P0
+22A. artifact-producing ise generation context + generator
+22B. reuse-only ise NO_VERIFIED_RESOURCE_GAP gate
+23. teacher review/freeze applicable ise
 ```
 
 ---
 
-# Ek B — “Üretime Hazır mı?” Kontrolü
+# Ek B — “Üretime hazır mı?” kontrolü
 
-Bir course için aşağıdaki cümleyi güvenle söyleyebiliyorsan **production input layer** hazırdır:
+### Artifact-producing course
 
-> “Bu artifact'ın hangi resmî program gereksinimini karşıladığı, ders kitabında hangi karşılığın bulunduğu, geriye hangi doğrulanmış boşluğun kaldığı, neden REQUIRED olduğu, hangi canonical artifact kimliğine konsolide edildiği, hangi generation context ve contract ile üretileceği ve hangi QA gate'lerinden geçeceği sistem tarafından tek tek gösterilebiliyor.”
+Aşağıdaki zincir gösterilebiliyorsa production input hazırdır:
 
-Bu cümledeki halkalardan biri eksikse P0 production gate açılmamalıdır.
+> “Bu artifact'ın hangi resmî requirement'ı karşıladığı, kitapta hangi karşılığın bulunduğu, hangi remaining gap'in kaldığı, neden REQUIRED olduğu, hangi canonical artifact'a konsolide edildiği, hangi contract/context ile üretileceği ve hangi QA gate'lerinden geçeceği gösterilebiliyor.”
 
-Artifact'ın gerçekten production-ready/frozen kabul edilmesi için ayrıca:
+### Zero-gap / reuse-only course
+
+Aşağıdaki zincir gösterilebiliyorsa production input hazırdır:
+
+> “Scoped program gereksinimlerinin tamamı için textbook action/evidence yolu doğrulandı; remaining gap sayısı `0`; production contract `REUSE_ONLY_NO_NEW_ARTIFACTS`; empty queue doğrulanmış; material-generation isteği `NO_VERIFIED_RESOURCE_GAP` ile fail-closed; index/runtime final canonical fingerprintten rebuild edilebilir.”
+
+Bu iki modelden uygun olanındaki bir halka eksikse P0 açılmamalıdır.
+
+Artifact-producing course'ta gerçek artifact'ın production-ready/frozen olması için ayrıca:
 
 ```text
 P0_GATE = PASS
