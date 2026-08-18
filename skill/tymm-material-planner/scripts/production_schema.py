@@ -5,16 +5,20 @@ The canonical production identity is ``artifact_id``. Historical MAT_* gap IDs a
 accepted only as provenance/lookup aliases through ``covered_gap_instances`` and
 must never become assessment-artifact identities.
 
-Schema 1.1 also supports a verified reuse-only course state. An empty
-``production_queue`` is valid only when the manifest explicitly declares
-``production_mode=REUSE_ONLY_NO_NEW_ARTIFACTS`` and ``verified_resource_gap_count=0``.
-This prevents a no-gap course from being forced to invent a physical artifact.
+Schema 1.1 supports two explicit safe empty-queue states:
+- ``REUSE_ONLY_NO_NEW_ARTIFACTS``: analysis is complete and zero verified gaps remain.
+- ``PARITY_REVIEW_BLOCKED``: zero gaps are confirmed so far, but one or more normative
+  assessment targets remain structurally unresolved; generation must remain closed.
+
+An empty queue is invalid in every other state. This prevents both invented artifacts
+and premature zero-gap certification.
 """
 
 from typing import Any, Dict, List, Tuple
 
 PRODUCTION_SCHEMA_VERSION = "1.1"
 REUSE_ONLY_MODE = "REUSE_ONLY_NO_NEW_ARTIFACTS"
+PARITY_BLOCKED_MODE = "PARITY_REVIEW_BLOCKED"
 
 
 class ProductionSchemaError(ValueError):
@@ -50,13 +54,29 @@ def build_artifact_maps(
     artifacts = manifest.get("production_queue", [])
     if not isinstance(artifacts, list):
         raise ProductionSchemaError("PRODUCTION_SCHEMA_INVALID: production_queue must be a list.")
+
     if not artifacts:
         production_mode = manifest.get("production_mode")
         verified_gap_count = manifest.get("verified_resource_gap_count")
-        if production_mode != REUSE_ONLY_MODE or verified_gap_count != 0:
+        unresolved_target_count = manifest.get("unresolved_assessment_target_count", 0)
+        generation_allowed = manifest.get("generation_authorization", {}).get("allowed")
+
+        valid_reuse_only = (
+            production_mode == REUSE_ONLY_MODE
+            and verified_gap_count == 0
+            and generation_allowed is False
+        )
+        valid_parity_blocked = (
+            production_mode == PARITY_BLOCKED_MODE
+            and verified_gap_count == 0
+            and isinstance(unresolved_target_count, int)
+            and unresolved_target_count > 0
+            and generation_allowed is False
+        )
+        if not (valid_reuse_only or valid_parity_blocked):
             raise ProductionSchemaError(
-                "PRODUCTION_SCHEMA_INVALID: empty production_queue requires "
-                f"production_mode='{REUSE_ONLY_MODE}' and verified_resource_gap_count=0."
+                "PRODUCTION_SCHEMA_INVALID: empty production_queue requires either a verified reuse-only "
+                "state or a fail-closed parity-review-blocked state with unresolved assessment targets."
             )
 
     artifact_by_id: Dict[str, Dict[str, Any]] = {}
@@ -120,6 +140,6 @@ def build_artifact_maps(
         )
 
     if not artifacts and provenance_by_gap:
-        raise ProductionSchemaError("PRODUCTION_SCHEMA_INVALID: reuse-only contract cannot contain gap provenance rows.")
+        raise ProductionSchemaError("PRODUCTION_SCHEMA_INVALID: empty-queue contract cannot contain gap provenance rows.")
 
     return artifacts, artifact_by_id, gap_alias_to_artifact_id, provenance_by_gap
