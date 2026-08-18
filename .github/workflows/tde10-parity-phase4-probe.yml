@@ -1,4 +1,5 @@
 name: TDE10 Parity Phase 4 Probe
+# trigger_revision: 1
 
 on:
   push:
