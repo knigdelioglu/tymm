@@ -43,15 +43,12 @@ jobs:
                   theme['official_web_crosscheck']=theme['source_locator']
               theme['source_locator']=f'{snapshot}#pdf_page=1'
               theme['local_snapshot_verification']={
-                  'status':'PASS',
-                  'parent_outcomes_found':16,
-                  'explicit_subcomponent_codes_found':0,
+                  'status':'PASS','parent_outcomes_found':16,'explicit_subcomponent_codes_found':0,
                   'process_component_representation':'PARENT_OUTCOME_PLUS_OFFICIAL_LEARNING_TEACHING_APPLICATIONS',
                   'canonical_policy':'DO_NOT_INFER_OR_COPY_FROM_TDE_9'
               }
               for outcome in theme['learning_outcomes']:
-                  code=outcome['outcome_code']
-                  page=d['code_hits'][code][0]
+                  code=outcome['outcome_code']; page=d['code_hits'][code][0]
                   if outcome.get('source_locator','').startswith('http'):
                       outcome['official_web_crosscheck']=outcome['source_locator']
                   outcome['source_page']=page
@@ -66,15 +63,11 @@ jobs:
               theme['process_component_extraction_status']='SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS'
 
           cmap['source_mode']='MULTI_PART_OFFICIAL_LOCAL_SNAPSHOT_BUNDLE_WITH_WEB_CROSSCHECK'
-          cmap['verification_status']='VERIFIED'
-          cmap['canonical_freeze_status']='FROZEN'
+          cmap['verification_status']='VERIFIED'; cmap['canonical_freeze_status']='FROZEN'
           cmap['scope_summary'].update({'textbook_used':True,'alignment_performed':True,'gap_analysis_performed':True,'materials_generated':False})
           cmap['source_validation']={
-              'bundle_expected_parts':4,
-              'bundle_registered_parts':4,
-              'official_web_identity_crosscheck':'PASS',
-              'local_pdf_content_extraction':'PASS',
-              'parent_outcome_local_snapshot_match':'PASS_64_OF_64',
+              'bundle_expected_parts':4,'bundle_registered_parts':4,'official_web_identity_crosscheck':'PASS',
+              'local_pdf_content_extraction':'PASS','parent_outcome_local_snapshot_match':'PASS_64_OF_64',
               'explicit_subcomponent_id_scan':'PASS_NONE_ENUMERATED_IN_REGISTERED_TDE10_SNAPSHOTS',
               'process_component_extraction':'SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS',
               'canonical_policy':'No subordinate process-component IDs are synthesized. Official parent outcomes and learning-teaching application text are authoritative.',
@@ -82,13 +75,11 @@ jobs:
           }
           save(root/'curriculum_map.json',cmap)
 
-          audit={
-              'schema_version':'1.0','course_id':'TDE_10','audit_type':'CANONICAL_CURRICULUM_SOURCE_COMPLETENESS',
-              'registered_theme_snapshots':4,'parent_outcomes_verified':64,'explicit_subcomponent_codes_found':0,
-              'source_complete':True,'canonical_decision':'FREEZE_WITHOUT_SYNTHETIC_SUBCOMPONENT_IDS',
-              'themes':[{'theme_id':t['theme_id'],'parent_outcomes_found':16,'subcodes':[],'status':'PASS'} for t in diag['themes']],
-              'decision_rule':'Do not synthesize TDE*.x.y subordinate codes when the registered official TDE_10 snapshots do not enumerate them.'
-          }
+          audit={'schema_version':'1.0','course_id':'TDE_10','audit_type':'CANONICAL_CURRICULUM_SOURCE_COMPLETENESS',
+                 'registered_theme_snapshots':4,'parent_outcomes_verified':64,'explicit_subcomponent_codes_found':0,
+                 'source_complete':True,'canonical_decision':'FREEZE_WITHOUT_SYNTHETIC_SUBCOMPONENT_IDS',
+                 'themes':[{'theme_id':t['theme_id'],'parent_outcomes_found':16,'subcodes':[],'status':'PASS'} for t in diag['themes']],
+                 'decision_rule':'Do not synthesize TDE*.x.y subordinate codes when the registered official TDE_10 snapshots do not enumerate them.'}
           save(root/'source_docs/curriculum_source_completeness_audit.json',audit)
 
           manifest=load(root/'source_manifest.json')
@@ -96,13 +87,11 @@ jobs:
           manifest['scope']['curriculum_map_status']='FROZEN_VERIFIED_LOCAL_SNAPSHOTS'
           manifest['curriculum_source_bundle']['completeness_status']='COMPLETE_VERIFIED_FROZEN_SOURCE_SET'
           manifest['curriculum_source_bundle']['verification_rule']='All four local official snapshots contain 16/16 parent outcomes. No subordinate TDE*.x.y IDs are explicitly published; none are synthesized.'
-          for p in manifest['curriculum_source_bundle']['parts']:
-              p['verification_status']='LOCAL_SNAPSHOT_CONTENT_VERIFIED'
+          for p in manifest['curriculum_source_bundle']['parts']: p['verification_status']='LOCAL_SNAPSHOT_CONTENT_VERIFIED'
           save(root/'source_manifest.json',manifest)
 
           for n in range(1,5):
-              p=root/f'themes/tema_{n:02d}/needs.json'
-              obj=load(p)
+              p=root/f'themes/tema_{n:02d}/needs.json'; obj=load(p)
               obj['freeze_status']='CURRICULUM_FROZEN_TEXTBOOK_COVERAGE_VERIFIED'
               for need in obj.get('needs',[]):
                   need['process_component_status']='SOURCE_COMPLETE_PARENT_OUTCOME_REPRESENTATION'
