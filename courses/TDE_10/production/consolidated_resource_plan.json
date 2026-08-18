@@ -1,0 +1,559 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_10",
+  "mode": "REUSE_ONLY",
+  "summary": {
+    "theme_resource_records": 16,
+    "reuse_textbook_count": 16,
+    "generate_count": 0,
+    "verified_gap_count": 0
+  },
+  "resources": [
+    {
+      "resource_plan_id": "PLAN_T10_T1_DINLEME",
+      "need_id": "NEED_T10_T1_DINLEME",
+      "resource_type": "reuse_official_textbook_path",
+      "target_outcomes": [
+        "TDE1.1",
+        "TDE1.2",
+        "TDE1.3",
+        "TDE1.4"
+      ],
+      "purpose": "Tema, masal üzerinden dinleme/izleme sürecinin yönetilmesini, anlam oluşturmayı, çözümlemeyi ve değerlendirmeyi birlikte gerektirir.",
+      "expected_student_evidence": "Hazırlık/tahmin kayıtları, yapılandırılmış dinleme notları, açık uçlu çözümleme cevapları, öz değerlendirme ve gerekçeli görüşler.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T1_SEC_04_DINLEME_MASAL"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_11_MASAL_HAZIRLIK",
+        "T1_ACT_12_MERCAN_KIZ_TAHLIL",
+        "T1_ACT_13_MASAL_YANSITMA"
+      ],
+      "textbook_form_ids": [
+        "FORM_T1_MASAL_OZ"
+      ],
+      "textbook_resource_locator": "s.10-83",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T1_OKUMA",
+      "need_id": "NEED_T10_T1_OKUMA",
+      "resource_type": "reuse_official_textbook_path",
+      "target_outcomes": [
+        "TDE2.1",
+        "TDE2.2",
+        "TDE2.3",
+        "TDE2.4"
+      ],
+      "purpose": "Tema, sözün ezgi ve ahenk boyutunu tarihsel metinler üzerinden yapılandırılmış okuma ve karşılaştırma kanıtlarıyla görünür kılmayı gerektirir.",
+      "expected_student_evidence": "Okuma öncesi tahmin ve amaç kayıtları, ahenk/söz varlığı işaretlemeleri, karşılaştırma tabloları, açık uçlu tahlil cevapları ve öz değerlendirme.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T1_SEC_01_OKUMA_KOSUK",
+        "T1_SEC_02_OKUMA_TURKU"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_01_KOSUK_HAZIRLIK",
+        "T1_ACT_02_KOSUK_ANLAM",
+        "T1_ACT_03_KOSUK_COZUMLEME",
+        "T1_ACT_04_KOSUK_YANSITMA",
+        "T1_ACT_05_TURKU_HAZIRLIK",
+        "T1_ACT_06_TURKU_TAHLIL",
+        "T1_ACT_07_TURKU_CANLANDIRMA"
+      ],
+      "textbook_form_ids": [
+        "FORM_T1_EXIT_321"
+      ],
+      "textbook_resource_locator": "s.10-83",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T1_KONUSMA",
+      "need_id": "NEED_T10_T1_KONUSMA",
+      "resource_type": "reuse_official_textbook_path",
+      "target_outcomes": [
+        "TDE3.1",
+        "TDE3.2",
+        "TDE3.3",
+        "TDE3.4"
+      ],
+      "purpose": "Program doğrudan şiir dinletisi performans görevi ve dereceli puanlama anahtarı öngörür; bu ihtiyaç textbook coverage'dan bağımsız olarak normatiftir.",
+      "expected_student_evidence": "Dinleti planı, seçki gerekçeleri, canlı sözlü performans, öz/akran değerlendirmesi ve rubrik kanıtları.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T1_SEC_03_KONUSMA"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_08_SIIR_DINLETISI_PLAN",
+        "T1_ACT_09_SIIR_DINLETISI_SUNUM",
+        "T1_ACT_10_KONUSMA_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T1_KONUSMA_AKRAN",
+        "LINK_T1_KONUSMA_DPA"
+      ],
+      "textbook_resource_locator": "s.10-83",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T1_YAZMA",
+      "need_id": "NEED_T10_T1_YAZMA",
+      "resource_type": "reuse_official_textbook_path",
+      "target_outcomes": [
+        "TDE4.1",
+        "TDE4.2",
+        "TDE4.3",
+        "TDE4.4"
+      ],
+      "purpose": "Program masalı film şeridine dönüştüren somut bir yazma performansı ve rubrik değerlendirmesi gerektirir.",
+      "expected_student_evidence": "Storyboard/film şeridi taslağı, olay-sahne planı, karakter/görsel tasarımlar, düzenlenmiş nihai ürün ve öz/akran değerlendirmesi.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T1_SEC_05_YAZMA_FILM_SERIDI"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_14_FILM_SERIDI_PLAN",
+        "T1_ACT_15_FILM_SERIDI_URETIM",
+        "T1_ACT_16_FILM_SERIDI_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T1_YAZMA_AKRAN",
+        "FORM_T1_YAZMA_KONTROL",
+        "LINK_T1_YAZMA_DPA"
+      ],
+      "textbook_resource_locator": "s.10-83",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T2_DINLEME",
+      "need_id": "NEED_T10_T2_DINLEME",
+      "resource_type": "reuse_official_textbook_path",
+      "target_outcomes": [
+        "TDE1.1",
+        "TDE1.2",
+        "TDE1.3",
+        "TDE1.4"
+      ],
+      "purpose": "Tema, dinleme/izleme metnini dil, dönem ve toplum bağlamında çözümlemeyi ve öğrencinin kendi değerlendirmesini görünür kılmayı gerektirir.",
+      "expected_student_evidence": "Dinleme notları, açık uçlu cevaplar, gözlem/karşılaştırma kayıtları ve yansıtıcı yazı.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T2_SEC_04_DINLEME_SOYLESI"
+      ],
+      "textbook_activity_ids": [
+        "T2_ACT_11_SOYLESI_HAZIRLIK",
+        "T2_ACT_12_SOYLESI_ANLAM",
+        "T2_ACT_13_SOYLESI_COZUMLEME",
+        "T2_ACT_14_SOYLESI_YANSITMA"
+      ],
+      "textbook_form_ids": [],
+      "textbook_resource_locator": "s.84-153",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T2_OKUMA",
+      "need_id": "NEED_T10_T2_OKUMA",
+      "resource_type": "reuse_official_textbook_path",
+      "target_outcomes": [
+        "TDE2.1",
+        "TDE2.2",
+        "TDE2.3",
+        "TDE2.4"
+      ],
+      "purpose": "Tema, şiir estetiğindeki tarihsel değişimi ritim, ahenk ve söz varlığı kanıtlarıyla karşılaştırmalı olarak yapılandırmayı gerektirir.",
+      "expected_student_evidence": "Kavram haritası, bilgi görseli, karşılaştırma tablosu, çalışma kâğıdı, açık uçlu/kısa cevaplı tahlil cevapları ve öğrenme günlüğü.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T2_SEC_01_OKUMA_GAZEL",
+        "T2_SEC_02_OKUMA_SAF_SIIR"
+      ],
+      "textbook_activity_ids": [
+        "T2_ACT_01_GAZEL_HAZIRLIK",
+        "T2_ACT_02_GAZEL_ANLAM",
+        "T2_ACT_03_GAZEL_COZUMLEME",
+        "T2_ACT_04_GAZEL_YANSITMA",
+        "T2_ACT_05_SAF_SIIR_HAZIRLIK",
+        "T2_ACT_06_KALDIRIMLAR_TAHLIL",
+        "T2_ACT_07_SIIR_KARSILASTIRMA"
+      ],
+      "textbook_form_ids": [
+        "FORM_T2_GAZEL_GUNLUK"
+      ],
+      "textbook_resource_locator": "s.84-153",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T2_KONUSMA",
+      "need_id": "NEED_T10_T2_KONUSMA",
+      "resource_type": "reuse_official_textbook_path",
+      "target_outcomes": [
+        "TDE3.1",
+        "TDE3.2",
+        "TDE3.3",
+        "TDE3.4"
+      ],
+      "purpose": "Program doğrudan bir podcast performansı istediğinden araştırma, içerik sentezi, sesli sunum ve rubrik değerlendirmesi zorunlu instructional evidence alanlarıdır.",
+      "expected_student_evidence": "Araştırma notları, podcast planı/senaryosu, ses kaydı veya canlı sunum, kaynak/provenance kaydı ve rubrik değerlendirmesi.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T2_SEC_05_KONUSMA_PODCAST"
+      ],
+      "textbook_activity_ids": [
+        "T2_ACT_15_PODCAST_PLAN",
+        "T2_ACT_16_PODCAST_URETIM",
+        "T2_ACT_17_PODCAST_YANSITMA"
+      ],
+      "textbook_form_ids": [
+        "FORM_T2_PODCAST_YANSITMA",
+        "LINK_T2_PODCAST_DPA"
+      ],
+      "textbook_resource_locator": "s.84-153",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T2_YAZMA",
+      "need_id": "NEED_T10_T2_YAZMA",
+      "resource_type": "reuse_official_textbook_path",
+      "target_outcomes": [
+        "TDE4.1",
+        "TDE4.2",
+        "TDE4.3",
+        "TDE4.4"
+      ],
+      "purpose": "Program, bilgi metninden edebî ürüne dönüşümü açık bir performans görevi olarak tanımlar; ürünün süreç ve rubrik kanıtlarıyla izlenmesi gerekir.",
+      "expected_student_evidence": "Kaynak bilgilendirici metin işaretlemeleri, dönüşüm planı, taslak, düzenlenmiş edebî metin ve değerlendirme kayıtları.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T2_SEC_03_YAZMA_DONUSTURME"
+      ],
+      "textbook_activity_ids": [
+        "T2_ACT_08_YAZMA_PLAN",
+        "T2_ACT_09_METIN_DONUSTURME",
+        "T2_ACT_10_YAZMA_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T2_YAZMA_AKRAN",
+        "FORM_T2_YAZMA_KONTROL",
+        "LINK_T2_YAZMA_DPA"
+      ],
+      "textbook_resource_locator": "s.84-153",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T3_DINLEME",
+      "need_id": "NEED_T10_T3_DINLEME",
+      "resource_type": "reuse_official_textbook_path",
+      "target_outcomes": [
+        "TDE1.1",
+        "TDE1.2",
+        "TDE1.3",
+        "TDE1.4"
+      ],
+      "purpose": "Program fablı dinleme/izleme yoluyla çözümleme, değer/ileti değerlendirmesi ve öz yansıtma kanıtları gerektirir.",
+      "expected_student_evidence": "Dinleme notları, açık uçlu çözümleme cevapları, yapı-dil ilişkisi tablosu, gerekçeli değerlendirme ve yansıtıcı öz değerlendirme.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T3_SEC_04_DINLEME_FABL"
+      ],
+      "textbook_activity_ids": [
+        "T3_ACT_11_FABL_DINLEME_HAZIRLIK",
+        "T3_ACT_12_FABL_ANLAM",
+        "T3_ACT_13_FABL_COZUMLEME",
+        "T3_ACT_14_FABL_YANSITMA"
+      ],
+      "textbook_form_ids": [
+        "FORM_T3_FABL_DINLEME_KONTROL"
+      ],
+      "textbook_resource_locator": "s.154-233",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T3_OKUMA",
+      "need_id": "NEED_T10_T3_OKUMA",
+      "resource_type": "reuse_official_textbook_path",
+      "target_outcomes": [
+        "TDE2.1",
+        "TDE2.2",
+        "TDE2.3",
+        "TDE2.4"
+      ],
+      "purpose": "Tema, Türk edebiyatında türlerin tarihsel değişimini destan-mesnevi-halk hikâyesi hattında kanıt temelli karşılaştırma ve çözümlemeyle görünür kılmayı gerektirir.",
+      "expected_student_evidence": "T diyagramı, tür/dönem karşılaştırma tablosu, kavram haritası, kısa/açık uçlu tahlil cevapları, yapı unsuru şeması ve gerekçeli değerlendirme.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T3_SEC_01_OKUMA_DESTAN",
+        "T3_SEC_02_OKUMA_MESNEVI"
+      ],
+      "textbook_activity_ids": [
+        "T3_ACT_01_DESTAN_HAZIRLIK",
+        "T3_ACT_02_OGUZ_KAGAN_ANLAM",
+        "T3_ACT_03_DESTAN_COZUMLEME",
+        "T3_ACT_04_DESTAN_YANSITMA",
+        "T3_ACT_05_MESNEVI_HAZIRLIK",
+        "T3_ACT_06_HARNAME_TAHLIL",
+        "T3_ACT_07_MESNEVI_KARSILASTIRMA"
+      ],
+      "textbook_form_ids": [],
+      "textbook_resource_locator": "s.154-233",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T3_KONUSMA",
+      "need_id": "NEED_T10_T3_KONUSMA",
+      "resource_type": "reuse_official_textbook_path",
+      "target_outcomes": [
+        "TDE3.1",
+        "TDE3.2",
+        "TDE3.3",
+        "TDE3.4"
+      ],
+      "purpose": "Program Türk destanlarına yönelik hazırlıklı konuşmayı somut performans ve rubrik kanıtıyla değerlendirmeyi öngörür.",
+      "expected_student_evidence": "Araştırma notları, kaynak listesi, sunum planı, görsel materyal, canlı sunum ve rubrik/öz değerlendirme kayıtları.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T3_SEC_03_KONUSMA_DESTAN_SUNUM"
+      ],
+      "textbook_activity_ids": [
+        "T3_ACT_08_DESTAN_SUNUM_PLAN",
+        "T3_ACT_09_DESTAN_SUNUM",
+        "T3_ACT_10_KONUSMA_OZ_AKRAN"
+      ],
+      "textbook_form_ids": [
+        "FORM_T3_KONUSMA_AKRAN",
+        "FORM_T3_KONUSMA_OZ",
+        "LINK_T3_KONUSMA_DPA"
+      ],
+      "textbook_resource_locator": "s.154-233",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T3_YAZMA",
+      "need_id": "NEED_T10_T3_YAZMA",
+      "resource_type": "reuse_official_textbook_path",
+      "target_outcomes": [
+        "TDE4.1",
+        "TDE4.2",
+        "TDE4.3",
+        "TDE4.4"
+      ],
+      "purpose": "Program özgün fabl üretimini doğrudan yazma performansı olarak tanımlar ve ürünün tür/estetik ölçütleriyle değerlendirilmesini gerektirir.",
+      "expected_student_evidence": "Fabl planı, karakter/olay taslağı, ilk taslak, revize edilmiş nihai metin, öz/akran değerlendirmesi ve rubrik kanıtları.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T3_SEC_05_YAZMA_FABL"
+      ],
+      "textbook_activity_ids": [
+        "T3_ACT_15_FABL_YAZMA_PLAN",
+        "T3_ACT_16_FABL_YAZMA",
+        "T3_ACT_17_FABL_YAZMA_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T3_YAZMA_AKRAN",
+        "FORM_T3_YAZMA_OZ",
+        "LINK_T3_YAZMA_DPA"
+      ],
+      "textbook_resource_locator": "s.154-233",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T4_DINLEME",
+      "need_id": "NEED_T10_T4_DINLEME",
+      "resource_type": "reuse_official_textbook_path",
+      "target_outcomes": [
+        "TDE1.1",
+        "TDE1.2",
+        "TDE1.3",
+        "TDE1.4"
+      ],
+      "purpose": "Tema, kültürel mirasın değişim içindeki aktarımını dinleme/izleme metninde yapı, dönem ve değer kanıtları üzerinden değerlendirmeyi gerektirir.",
+      "expected_student_evidence": "Dinleme notları, kısa/açık uçlu cevaplar, gözlem/karşılaştırma formu, gerekçeli eleştiri ve öz değerlendirme.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_04_DINLEME_HIKAYE"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_12_HIKAYE_DINLEME_HAZIRLIK",
+        "T4_ACT_13_KAC_YERINDEN_ANLAM",
+        "T4_ACT_14_HIKAYE_COZUMLEME",
+        "T4_ACT_15_HIKAYE_OZ_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T4_DINLEME_OZ"
+      ],
+      "textbook_resource_locator": "s.234-310",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T4_OKUMA",
+      "need_id": "NEED_T10_T4_OKUMA",
+      "resource_type": "reuse_official_textbook_path",
+      "target_outcomes": [
+        "TDE2.1",
+        "TDE2.2",
+        "TDE2.3",
+        "TDE2.4"
+      ],
+      "purpose": "Tema, kültürel miras ve edebî dönüşümü birden fazla dönem/tür üzerinden karşılaştırmalı biçimde kanıtlamayı gerektirir.",
+      "expected_student_evidence": "Bilgi/kavram haritası, dönem-tür karşılaştırma tablosu, yapı-dil çözümleme cevapları, açık/kısa cevaplı sorular ve öğrenme günlüğü.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_01_OKUMA_DEDE_KORKUT",
+        "T4_SEC_02_OKUMA_TANZIMAT_SIIRI"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_01_DEDE_KORKUT_HAZIRLIK",
+        "T4_ACT_02_SALUR_KAZAN_ANLAM",
+        "T4_ACT_03_DEDE_KORKUT_COZUMLEME",
+        "T4_ACT_04_DEDE_KORKUT_KARSILASTIRMA",
+        "T4_ACT_05_TANZIMAT_HAZIRLIK",
+        "T4_ACT_06_HURRIYET_KASIDESI_TAHLIL",
+        "T4_ACT_07_TANZIMAT_KARSILASTIRMA",
+        "T4_ACT_08_TANZIMAT_YANSITMA"
+      ],
+      "textbook_form_ids": [
+        "FORM_T4_OKUMA_GUNLUK"
+      ],
+      "textbook_resource_locator": "s.234-310",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T4_KONUSMA",
+      "need_id": "NEED_T10_T4_KONUSMA",
+      "resource_type": "reuse_official_textbook_path",
+      "target_outcomes": [
+        "TDE3.1",
+        "TDE3.2",
+        "TDE3.3",
+        "TDE3.4"
+      ],
+      "purpose": "Program Dede Korkut canlandırmasını doğrudan konuşma performansı ve dereceli puanlama anahtarıyla değerlendirilecek kanıt olarak tanımlar.",
+      "expected_student_evidence": "Canlandırma planı, rol/görev dağılımı, sahne/akış taslağı, canlı performans ve rubrik/öz-akran değerlendirmesi.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_03_KONUSMA_CANLANDIRMA"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_09_CANLANDIRMA_PLAN",
+        "T4_ACT_10_CANLANDIRMA_SUNUM",
+        "T4_ACT_11_CANLANDIRMA_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T4_KONUSMA_AKRAN",
+        "FORM_T4_KONUSMA_OZ",
+        "LINK_T4_KONUSMA_DPA"
+      ],
+      "textbook_resource_locator": "s.234-310",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T4_YAZMA",
+      "need_id": "NEED_T10_T4_YAZMA",
+      "resource_type": "reuse_official_textbook_path",
+      "target_outcomes": [
+        "TDE4.1",
+        "TDE4.2",
+        "TDE4.3",
+        "TDE4.4"
+      ],
+      "purpose": "Program hikâyeden şiire türler arası dönüşümü somut yazma performansı ve rubrik kanıtıyla değerlendirmeyi gerektirir.",
+      "expected_student_evidence": "Hikâye-şiir dönüşüm planı, seçilen ana duygu/ileti notları, şiir taslağı, revize edilmiş nihai şiir ve değerlendirme kanıtları.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_05_YAZMA_SIIRE_DONUSTURME"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_16_SIIR_DONUSUM_PLAN",
+        "T4_ACT_17_SIIR_DONUSUM_YAZMA",
+        "T4_ACT_18_SIIR_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T4_YAZMA_AKRAN",
+        "FORM_T4_YAZMA_KONTROL",
+        "LINK_T4_YAZMA_DPA"
+      ],
+      "textbook_resource_locator": "s.234-310",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    }
+  ]
+}

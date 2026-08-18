@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_10",
+  "contract_status": "VERIFIED_REUSE_ONLY",
+  "production_mode": "REUSE_ONLY_NO_NEW_ARTIFACTS",
+  "verified_resource_gap_count": 0,
+  "new_artifact_count": 0,
+  "source_of_truth": {
+    "curriculum": "curriculum_map.json",
+    "textbook": "textbook_map.json",
+    "forms": "textbook_forms_index.json",
+    "cross_theme_audit": "production/cross_theme_audit.json"
+  },
+  "assessment_policy": {
+    "reuse_verified_textbook_assessment_paths": true,
+    "duplicate_textbook_resources": false,
+    "infer_external_dpa_structure": false,
+    "teacher_review_required_for_generated_artifacts": true
+  },
+  "generation_authorization": {
+    "allowed": false,
+    "reason": "NO_VERIFIED_RESOURCE_GAP"
+  }
+}

@@ -4,7 +4,7 @@
   "grade": 10,
   "timeline_version": "1.0.0",
   "timeline_type": "ANNUAL_COURSE_TIMELINE",
-  "timeline_resolution": "THEME_TIME_RESOLVED_BLOCK_SEQUENCE_PENDING_TEXTBOOK_MAPPING",
+  "timeline_resolution": "THEME_AND_BLOCK_ORDER_RESOLVED",
   "timeline_semantics": {
     "meaning": "PLANNED_INSTRUCTIONAL_PROGRESSION",
     "planned_position_is_not_actual_teacher_position": true,
@@ -14,9 +14,10 @@
   "source_basis": {
     "authority_order": [
       "curriculum_map.json",
+      "production/teaching_blocks.json",
       "source_manifest.json"
     ],
-    "stable_sequence_source": "curriculum_map.json#themes[].theme_no",
+    "stable_sequence_source": "production/teaching_blocks.json",
     "hours_source": "curriculum_map.json#scope_summary.allocated_lesson_hours",
     "provenance_status": "PASS_WITH_USER_CONFIRMED_SCHOOL_BASED_RULE",
     "temporal_fact_audit": {
@@ -101,8 +102,78 @@
         "curriculum_map.json#themes[0].allocated_lesson_hours",
         "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/242?kod=D15"
       ],
-      "block_resolution_status": "PENDING_TEXTBOOK_MAPPING_AND_TEACHING_BLOCKS",
-      "blocks": []
+      "block_resolution_status": "RESOLVED_ORDER_ONLY",
+      "blocks": [
+        {
+          "block_id": "BLOCK_T1_01_OKUMA",
+          "block_order": 1,
+          "block_title": "Metin Tahlili-1: Okuma — Koşuk / Metin Tahlili-2: Okuma — Türkü",
+          "outcomes": [
+            "TDE2.1",
+            "TDE2.2",
+            "TDE2.3",
+            "TDE2.4"
+          ],
+          "planned_hours": null,
+          "time_status": "ORDER_ONLY",
+          "source_locators": [
+            "production/teaching_blocks.json#BLOCK_T1_01_OKUMA",
+            "textbook_map.json#T1_SEC_01_OKUMA_KOSUK,T1_SEC_02_OKUMA_TURKU"
+          ]
+        },
+        {
+          "block_id": "BLOCK_T1_02_KONUSMA",
+          "block_order": 2,
+          "block_title": "Edebiyat Atölyesi: Konuşma — Şiir Dinletisi",
+          "outcomes": [
+            "TDE3.1",
+            "TDE3.2",
+            "TDE3.3",
+            "TDE3.4"
+          ],
+          "planned_hours": null,
+          "time_status": "ORDER_ONLY",
+          "source_locators": [
+            "production/teaching_blocks.json#BLOCK_T1_02_KONUSMA",
+            "textbook_map.json#T1_SEC_03_KONUSMA"
+          ]
+        },
+        {
+          "block_id": "BLOCK_T1_03_DINLEME",
+          "block_order": 3,
+          "block_title": "Metin Tahlili-3: Dinleme/İzleme — Masal",
+          "outcomes": [
+            "TDE1.1",
+            "TDE1.2",
+            "TDE1.3",
+            "TDE1.4"
+          ],
+          "planned_hours": null,
+          "time_status": "ORDER_ONLY",
+          "source_locators": [
+            "production/teaching_blocks.json#BLOCK_T1_03_DINLEME",
+            "textbook_map.json#T1_SEC_04_DINLEME_MASAL"
+          ]
+        },
+        {
+          "block_id": "BLOCK_T1_04_YAZMA",
+          "block_order": 4,
+          "block_title": "Edebiyat Atölyesi: Yazma — Masalı Film Şeridine Dönüştürme / 1. Tema Ölçme ve Değerlendirme",
+          "outcomes": [
+            "TDE4.1",
+            "TDE4.2",
+            "TDE4.3",
+            "TDE4.4"
+          ],
+          "planned_hours": null,
+          "time_status": "ORDER_ONLY",
+          "source_locators": [
+            "production/teaching_blocks.json#BLOCK_T1_04_YAZMA",
+            "textbook_map.json#T1_SEC_05_YAZMA_FILM_SERIDI,T1_SEC_06_TEMA_SONU"
+          ]
+        }
+      ],
+      "official_total_hours": 43
     },
     {
       "theme_id": "TEMA_02",
@@ -116,8 +187,78 @@
         "curriculum_map.json#themes[1].allocated_lesson_hours",
         "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/247"
       ],
-      "block_resolution_status": "PENDING_TEXTBOOK_MAPPING_AND_TEACHING_BLOCKS",
-      "blocks": []
+      "block_resolution_status": "RESOLVED_ORDER_ONLY",
+      "blocks": [
+        {
+          "block_id": "BLOCK_T2_01_OKUMA",
+          "block_order": 1,
+          "block_title": "Metin Tahlili-1: Okuma — Gazel / Metin Tahlili-2: Okuma — Saf Şiir",
+          "outcomes": [
+            "TDE2.1",
+            "TDE2.2",
+            "TDE2.3",
+            "TDE2.4"
+          ],
+          "planned_hours": null,
+          "time_status": "ORDER_ONLY",
+          "source_locators": [
+            "production/teaching_blocks.json#BLOCK_T2_01_OKUMA",
+            "textbook_map.json#T2_SEC_01_OKUMA_GAZEL,T2_SEC_02_OKUMA_SAF_SIIR"
+          ]
+        },
+        {
+          "block_id": "BLOCK_T2_02_YAZMA",
+          "block_order": 2,
+          "block_title": "Edebiyat Atölyesi: Yazma — Öğretici Metni Edebî Metne Dönüştürme",
+          "outcomes": [
+            "TDE4.1",
+            "TDE4.2",
+            "TDE4.3",
+            "TDE4.4"
+          ],
+          "planned_hours": null,
+          "time_status": "ORDER_ONLY",
+          "source_locators": [
+            "production/teaching_blocks.json#BLOCK_T2_02_YAZMA",
+            "textbook_map.json#T2_SEC_03_YAZMA_DONUSTURME"
+          ]
+        },
+        {
+          "block_id": "BLOCK_T2_03_DINLEME",
+          "block_order": 3,
+          "block_title": "Metin Tahlili-3: Dinleme/İzleme — Söyleşi",
+          "outcomes": [
+            "TDE1.1",
+            "TDE1.2",
+            "TDE1.3",
+            "TDE1.4"
+          ],
+          "planned_hours": null,
+          "time_status": "ORDER_ONLY",
+          "source_locators": [
+            "production/teaching_blocks.json#BLOCK_T2_03_DINLEME",
+            "textbook_map.json#T2_SEC_04_DINLEME_SOYLESI"
+          ]
+        },
+        {
+          "block_id": "BLOCK_T2_04_KONUSMA",
+          "block_order": 4,
+          "block_title": "Edebiyat Atölyesi: Konuşma — Podcast Hazırlama / 2. Tema Ölçme ve Değerlendirme",
+          "outcomes": [
+            "TDE3.1",
+            "TDE3.2",
+            "TDE3.3",
+            "TDE3.4"
+          ],
+          "planned_hours": null,
+          "time_status": "ORDER_ONLY",
+          "source_locators": [
+            "production/teaching_blocks.json#BLOCK_T2_04_KONUSMA",
+            "textbook_map.json#T2_SEC_05_KONUSMA_PODCAST,T2_SEC_06_TEMA_OLCME"
+          ]
+        }
+      ],
+      "official_total_hours": 43
     },
     {
       "theme_id": "TEMA_03",
@@ -131,8 +272,78 @@
         "curriculum_map.json#themes[2].allocated_lesson_hours",
         "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/256"
       ],
-      "block_resolution_status": "PENDING_TEXTBOOK_MAPPING_AND_TEACHING_BLOCKS",
-      "blocks": []
+      "block_resolution_status": "RESOLVED_ORDER_ONLY",
+      "blocks": [
+        {
+          "block_id": "BLOCK_T3_01_OKUMA",
+          "block_order": 1,
+          "block_title": "Metin Tahlili-1: Okuma — Destan / Metin Tahlili-2: Okuma — Mesnevi",
+          "outcomes": [
+            "TDE2.1",
+            "TDE2.2",
+            "TDE2.3",
+            "TDE2.4"
+          ],
+          "planned_hours": null,
+          "time_status": "ORDER_ONLY",
+          "source_locators": [
+            "production/teaching_blocks.json#BLOCK_T3_01_OKUMA",
+            "textbook_map.json#T3_SEC_01_OKUMA_DESTAN,T3_SEC_02_OKUMA_MESNEVI"
+          ]
+        },
+        {
+          "block_id": "BLOCK_T3_02_KONUSMA",
+          "block_order": 2,
+          "block_title": "Edebiyat Atölyesi: Konuşma — Türk Destanları Sunumu",
+          "outcomes": [
+            "TDE3.1",
+            "TDE3.2",
+            "TDE3.3",
+            "TDE3.4"
+          ],
+          "planned_hours": null,
+          "time_status": "ORDER_ONLY",
+          "source_locators": [
+            "production/teaching_blocks.json#BLOCK_T3_02_KONUSMA",
+            "textbook_map.json#T3_SEC_03_KONUSMA_DESTAN_SUNUM"
+          ]
+        },
+        {
+          "block_id": "BLOCK_T3_03_DINLEME",
+          "block_order": 3,
+          "block_title": "Metin Tahlili-3: Dinleme/İzleme — Fabl",
+          "outcomes": [
+            "TDE1.1",
+            "TDE1.2",
+            "TDE1.3",
+            "TDE1.4"
+          ],
+          "planned_hours": null,
+          "time_status": "ORDER_ONLY",
+          "source_locators": [
+            "production/teaching_blocks.json#BLOCK_T3_03_DINLEME",
+            "textbook_map.json#T3_SEC_04_DINLEME_FABL"
+          ]
+        },
+        {
+          "block_id": "BLOCK_T3_04_YAZMA",
+          "block_order": 4,
+          "block_title": "Edebiyat Atölyesi: Yazma — Fabl Yazma / 3. Tema Ölçme ve Değerlendirme",
+          "outcomes": [
+            "TDE4.1",
+            "TDE4.2",
+            "TDE4.3",
+            "TDE4.4"
+          ],
+          "planned_hours": null,
+          "time_status": "ORDER_ONLY",
+          "source_locators": [
+            "production/teaching_blocks.json#BLOCK_T3_04_YAZMA",
+            "textbook_map.json#T3_SEC_05_YAZMA_FABL,T3_SEC_06_TEMA_SONU"
+          ]
+        }
+      ],
+      "official_total_hours": 43
     },
     {
       "theme_id": "TEMA_04",
@@ -146,8 +357,78 @@
         "curriculum_map.json#themes[3].allocated_lesson_hours",
         "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/261"
       ],
-      "block_resolution_status": "PENDING_TEXTBOOK_MAPPING_AND_TEACHING_BLOCKS",
-      "blocks": []
+      "block_resolution_status": "RESOLVED_ORDER_ONLY",
+      "blocks": [
+        {
+          "block_id": "BLOCK_T4_01_OKUMA",
+          "block_order": 1,
+          "block_title": "Metin Tahlili-1: Okuma — Dede Korkut Hikâyesi / Metin Tahlili-2: Okuma — Tanzimat Şiiri",
+          "outcomes": [
+            "TDE2.1",
+            "TDE2.2",
+            "TDE2.3",
+            "TDE2.4"
+          ],
+          "planned_hours": null,
+          "time_status": "ORDER_ONLY",
+          "source_locators": [
+            "production/teaching_blocks.json#BLOCK_T4_01_OKUMA",
+            "textbook_map.json#T4_SEC_01_OKUMA_DEDE_KORKUT,T4_SEC_02_OKUMA_TANZIMAT_SIIRI"
+          ]
+        },
+        {
+          "block_id": "BLOCK_T4_02_KONUSMA",
+          "block_order": 2,
+          "block_title": "Edebiyat Atölyesi: Konuşma — Dede Korkut Canlandırması",
+          "outcomes": [
+            "TDE3.1",
+            "TDE3.2",
+            "TDE3.3",
+            "TDE3.4"
+          ],
+          "planned_hours": null,
+          "time_status": "ORDER_ONLY",
+          "source_locators": [
+            "production/teaching_blocks.json#BLOCK_T4_02_KONUSMA",
+            "textbook_map.json#T4_SEC_03_KONUSMA_CANLANDIRMA"
+          ]
+        },
+        {
+          "block_id": "BLOCK_T4_03_DINLEME",
+          "block_order": 3,
+          "block_title": "Metin Tahlili-3: Dinleme/İzleme — Millî Edebiyat Hikâyesi",
+          "outcomes": [
+            "TDE1.1",
+            "TDE1.2",
+            "TDE1.3",
+            "TDE1.4"
+          ],
+          "planned_hours": null,
+          "time_status": "ORDER_ONLY",
+          "source_locators": [
+            "production/teaching_blocks.json#BLOCK_T4_03_DINLEME",
+            "textbook_map.json#T4_SEC_04_DINLEME_HIKAYE"
+          ]
+        },
+        {
+          "block_id": "BLOCK_T4_04_YAZMA",
+          "block_order": 4,
+          "block_title": "Edebiyat Atölyesi: Yazma — Hikâyeyi Şiire Dönüştürme / 4. Tema Ölçme ve Değerlendirme",
+          "outcomes": [
+            "TDE4.1",
+            "TDE4.2",
+            "TDE4.3",
+            "TDE4.4"
+          ],
+          "planned_hours": null,
+          "time_status": "ORDER_ONLY",
+          "source_locators": [
+            "production/teaching_blocks.json#BLOCK_T4_04_YAZMA",
+            "textbook_map.json#T4_SEC_05_YAZMA_SIIRE_DONUSTURME,T4_SEC_06_TEMA_SONU"
+          ]
+        }
+      ],
+      "official_total_hours": 43
     }
   ],
   "calendar_binding": {

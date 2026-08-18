@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_10",
+  "policy": "SEPARATE_PEDAGOGICAL_LAYER_NOT_A_GAP",
+  "themes": [
+    {
+      "theme_id": "TEMA_01",
+      "theme_title": "1. TEMA: SÖZÜN EZGİSİ",
+      "allocated_hours": 2,
+      "options": [
+        {
+          "option_id": "OPT_T10_T1_SBP_01",
+          "theme_id": "TEMA_01",
+          "title": "Sözlü Kültür Derleme Çalışması",
+          "category": "SCHOOL_BASED_PLANNING",
+          "duration_hours": 1,
+          "rationale": "Yerel türkü, ninni veya sözlü kültür örneklerini kaynak göstererek derleme ve tema kavramlarıyla ilişkilendirme.",
+          "linked_outcomes": [],
+          "expected_student_action": "Yerel türkü, ninni veya sözlü kültür örneklerini kaynak göstererek derleme ve tema kavramlarıyla ilişkilendirme.",
+          "expected_student_evidence": "Öğretmenin seçtiği okul temelli çalışma ürünü.",
+          "teacher_choice_required": true,
+          "selection_status": "NOT_SELECTED",
+          "generation_status": "NOT_REQUESTED",
+          "is_curriculum_gap": false
+        },
+        {
+          "option_id": "OPT_T10_T1_SBP_02",
+          "theme_id": "TEMA_01",
+          "title": "Ezgi ve Söz Atölyesi",
+          "category": "SCHOOL_BASED_PLANNING",
+          "duration_hours": 1,
+          "rationale": "Bir sözlü kültür örneğinde ritim, ezgi ve söz ilişkisini inceleyip kısa sunum hazırlama.",
+          "linked_outcomes": [],
+          "expected_student_action": "Bir sözlü kültür örneğinde ritim, ezgi ve söz ilişkisini inceleyip kısa sunum hazırlama.",
+          "expected_student_evidence": "Öğretmenin seçtiği okul temelli çalışma ürünü.",
+          "teacher_choice_required": true,
+          "selection_status": "NOT_SELECTED",
+          "generation_status": "NOT_REQUESTED",
+          "is_curriculum_gap": false
+        }
+      ]
+    },
+    {
+      "theme_id": "TEMA_02",
+      "theme_title": "2. TEMA: KELİMELERİN RİTMİ",
+      "allocated_hours": 2,
+      "options": [
+        {
+          "option_id": "OPT_T10_T2_SBP_01",
+          "theme_id": "TEMA_02",
+          "title": "Şiir ve Ritim Dijital Arşivi",
+          "category": "SCHOOL_BASED_PLANNING",
+          "duration_hours": 1,
+          "rationale": "Farklı dönem şiirlerinin seslendirmelerini karşılaştırarak ritim ve söyleyiş notları oluşturma.",
+          "linked_outcomes": [],
+          "expected_student_action": "Farklı dönem şiirlerinin seslendirmelerini karşılaştırarak ritim ve söyleyiş notları oluşturma.",
+          "expected_student_evidence": "Öğretmenin seçtiği okul temelli çalışma ürünü.",
+          "teacher_choice_required": true,
+          "selection_status": "NOT_SELECTED",
+          "generation_status": "NOT_REQUESTED",
+          "is_curriculum_gap": false
+        },
+        {
+          "option_id": "OPT_T10_T2_SBP_02",
+          "theme_id": "TEMA_02",
+          "title": "Edebî Şahsiyet Mini Podcasti",
+          "category": "SCHOOL_BASED_PLANNING",
+          "duration_hours": 1,
+          "rationale": "Yerel veya ulusal bir edebî şahsiyet üzerine kısa, kaynaklı podcast taslağı hazırlama.",
+          "linked_outcomes": [],
+          "expected_student_action": "Yerel veya ulusal bir edebî şahsiyet üzerine kısa, kaynaklı podcast taslağı hazırlama.",
+          "expected_student_evidence": "Öğretmenin seçtiği okul temelli çalışma ürünü.",
+          "teacher_choice_required": true,
+          "selection_status": "NOT_SELECTED",
+          "generation_status": "NOT_REQUESTED",
+          "is_curriculum_gap": false
+        }
+      ]
+    },
+    {
+      "theme_id": "TEMA_03",
+      "theme_title": "3. TEMA: DÜNDEN BUGÜNE",
+      "allocated_hours": 2,
+      "options": [
+        {
+          "option_id": "OPT_T10_T3_SBP_01",
+          "theme_id": "TEMA_03",
+          "title": "Destanların İzinde Araştırma",
+          "category": "SCHOOL_BASED_PLANNING",
+          "duration_hours": 1,
+          "rationale": "Türk destanlarından bir motifi tarihsel süreklilik açısından araştırıp görselleştirme.",
+          "linked_outcomes": [],
+          "expected_student_action": "Türk destanlarından bir motifi tarihsel süreklilik açısından araştırıp görselleştirme.",
+          "expected_student_evidence": "Öğretmenin seçtiği okul temelli çalışma ürünü.",
+          "teacher_choice_required": true,
+          "selection_status": "NOT_SELECTED",
+          "generation_status": "NOT_REQUESTED",
+          "is_curriculum_gap": false
+        },
+        {
+          "option_id": "OPT_T10_T3_SBP_02",
+          "theme_id": "TEMA_03",
+          "title": "Fabl ve Değerler Atölyesi",
+          "category": "SCHOOL_BASED_PLANNING",
+          "duration_hours": 1,
+          "rationale": "Fabl örneklerinde ileti/değer ilişkisini karşılaştırıp özgün kısa ürün tasarlama.",
+          "linked_outcomes": [],
+          "expected_student_action": "Fabl örneklerinde ileti/değer ilişkisini karşılaştırıp özgün kısa ürün tasarlama.",
+          "expected_student_evidence": "Öğretmenin seçtiği okul temelli çalışma ürünü.",
+          "teacher_choice_required": true,
+          "selection_status": "NOT_SELECTED",
+          "generation_status": "NOT_REQUESTED",
+          "is_curriculum_gap": false
+        }
+      ]
+    },
+    {
+      "theme_id": "TEMA_04",
+      "theme_title": "4. TEMA: NESİLLERİN MİRASI",
+      "allocated_hours": 2,
+      "options": [
+        {
+          "option_id": "OPT_T10_T4_SBP_01",
+          "theme_id": "TEMA_04",
+          "title": "Nesiller Arası Edebiyat Hafızası",
+          "category": "SCHOOL_BASED_PLANNING",
+          "duration_hours": 1,
+          "rationale": "Aile veya yerel çevrede edebî/kültürel aktarım üzerine görüşme yapıp bulguları sınıflandırma.",
+          "linked_outcomes": [],
+          "expected_student_action": "Aile veya yerel çevrede edebî/kültürel aktarım üzerine görüşme yapıp bulguları sınıflandırma.",
+          "expected_student_evidence": "Öğretmenin seçtiği okul temelli çalışma ürünü.",
+          "teacher_choice_required": true,
+          "selection_status": "NOT_SELECTED",
+          "generation_status": "NOT_REQUESTED",
+          "is_curriculum_gap": false
+        },
+        {
+          "option_id": "OPT_T10_T4_SBP_02",
+          "theme_id": "TEMA_04",
+          "title": "Dede Korkut Kültür Haritası",
+          "category": "SCHOOL_BASED_PLANNING",
+          "duration_hours": 1,
+          "rationale": "Dede Korkut anlatılarındaki kültürel unsurları günümüzle karşılaştıran görsel harita hazırlama.",
+          "linked_outcomes": [],
+          "expected_student_action": "Dede Korkut anlatılarındaki kültürel unsurları günümüzle karşılaştıran görsel harita hazırlama.",
+          "expected_student_evidence": "Öğretmenin seçtiği okul temelli çalışma ürünü.",
+          "teacher_choice_required": true,
+          "selection_status": "NOT_SELECTED",
+          "generation_status": "NOT_REQUESTED",
+          "is_curriculum_gap": false
+        }
+      ]
+    }
+  ]
+}

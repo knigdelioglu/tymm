@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.1",
+  "course_id": "TDE_10",
+  "production_mode": "REUSE_ONLY_NO_NEW_ARTIFACTS",
+  "production_status": "VERIFIED_REUSE_ONLY",
+  "verified_resource_gap_count": 0,
+  "expected_new_artifact_count": 0,
+  "production_queue": [],
+  "gap_instance_provenance_registry": [],
+  "artifact_identity_field": "artifact_id",
+  "legacy_gap_alias_policy": "NONE_NO_VERIFIED_GAPS",
+  "generation_authorization": {
+    "allowed": false,
+    "reason": "NO_VERIFIED_RESOURCE_GAP"
+  },
+  "canonical_inputs": {
+    "curriculum_map": "curriculum_map.json",
+    "textbook_map": "textbook_map.json",
+    "textbook_forms_index": "textbook_forms_index.json",
+    "cross_theme_audit": "production/cross_theme_audit.json",
+    "consolidated_resource_plan": "production/consolidated_resource_plan.json"
+  }
+}

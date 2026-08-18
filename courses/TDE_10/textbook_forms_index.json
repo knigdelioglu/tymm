@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "course_id": "TDE_10",
   "source_id": "textbook_tde10_local_pdf",
-  "index_status": "LOCAL_PDF_PAGE_AND_LINK_VERIFIED_NOT_FROZEN_PENDING_CURRICULUM_FREEZE",
+  "index_status": "FROZEN_LOCAL_PDF_PAGE_AND_LINK_VERIFIED",
   "classification_rule": "Classify by observed structure, not title. QR-linked Dereceli Puanlama Anahtarı links are verified as official EBA targets, but are not classified as analytic rubrics unless their target structure is inspected.",
   "total_records": 35,
   "summary": {
@@ -777,5 +777,6 @@
       "verification_status": "LOCAL_PDF_PAGE_STRUCTURE_VERIFIED",
       "notes": null
     }
-  ]
+  ],
+  "freeze_status": "FROZEN_WITH_EXTERNAL_DPA_STRUCTURE_UNCLASSIFIED"
 }

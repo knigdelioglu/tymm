@@ -149,7 +149,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T1_TDE1_1",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE1.2",
@@ -165,7 +167,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T1_TDE1_2",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE1.3",
@@ -181,7 +185,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T1_TDE1_3",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE1.4",
@@ -197,7 +203,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T1_TDE1_4",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE2.1",
@@ -213,7 +221,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T1_TDE2_1",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE2.2",
@@ -229,7 +239,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T1_TDE2_2",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE2.3",
@@ -245,7 +257,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T1_TDE2_3",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE2.4",
@@ -261,7 +275,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T1_TDE2_4",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE3.1",
@@ -277,7 +293,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T1_TDE3_1",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE3.2",
@@ -293,7 +311,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T1_TDE3_2",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE3.3",
@@ -309,7 +329,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T1_TDE3_3",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE3.4",
@@ -325,7 +347,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T1_TDE3_4",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE4.1",
@@ -341,7 +365,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T1_TDE4_1",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE4.2",
@@ -357,7 +383,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T1_TDE4_2",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE4.3",
@@ -373,7 +401,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T1_TDE4_3",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE4.4",
@@ -389,7 +419,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T1_TDE4_4",
+          "verification_status": "VERIFIED"
         }
       ],
       "process_component_extraction_status": "SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS",
@@ -571,7 +603,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T2_TDE1_1",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE1.2",
@@ -587,7 +621,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T2_TDE1_2",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE1.3",
@@ -603,7 +639,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T2_TDE1_3",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE1.4",
@@ -619,7 +657,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T2_TDE1_4",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE2.1",
@@ -635,7 +675,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T2_TDE2_1",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE2.2",
@@ -651,7 +693,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T2_TDE2_2",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE2.3",
@@ -667,7 +711,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T2_TDE2_3",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE2.4",
@@ -683,7 +729,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T2_TDE2_4",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE3.1",
@@ -699,7 +747,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T2_TDE3_1",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE3.2",
@@ -715,7 +765,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T2_TDE3_2",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE3.3",
@@ -731,7 +783,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T2_TDE3_3",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE3.4",
@@ -747,7 +801,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T2_TDE3_4",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE4.1",
@@ -763,7 +819,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T2_TDE4_1",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE4.2",
@@ -779,7 +837,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T2_TDE4_2",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE4.3",
@@ -795,7 +855,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T2_TDE4_3",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE4.4",
@@ -811,7 +873,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T2_TDE4_4",
+          "verification_status": "VERIFIED"
         }
       ],
       "process_component_extraction_status": "SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS",
@@ -977,7 +1041,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T3_TDE1_1",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE1.2",
@@ -993,7 +1059,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T3_TDE1_2",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE1.3",
@@ -1009,7 +1077,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T3_TDE1_3",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE1.4",
@@ -1025,7 +1095,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T3_TDE1_4",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE2.1",
@@ -1041,7 +1113,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T3_TDE2_1",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE2.2",
@@ -1057,7 +1131,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T3_TDE2_2",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE2.3",
@@ -1073,7 +1149,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T3_TDE2_3",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE2.4",
@@ -1089,7 +1167,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T3_TDE2_4",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE3.1",
@@ -1105,7 +1185,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T3_TDE3_1",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE3.2",
@@ -1121,7 +1203,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T3_TDE3_2",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE3.3",
@@ -1137,7 +1221,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T3_TDE3_3",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE3.4",
@@ -1153,7 +1239,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T3_TDE3_4",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE4.1",
@@ -1169,7 +1257,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T3_TDE4_1",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE4.2",
@@ -1185,7 +1275,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T3_TDE4_2",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE4.3",
@@ -1201,7 +1293,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T3_TDE4_3",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE4.4",
@@ -1217,7 +1311,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T3_TDE4_4",
+          "verification_status": "VERIFIED"
         }
       ],
       "process_component_extraction_status": "SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS",
@@ -1387,7 +1483,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T4_TDE1_1",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE1.2",
@@ -1403,7 +1501,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T4_TDE1_2",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE1.3",
@@ -1419,7 +1519,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T4_TDE1_3",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE1.4",
@@ -1435,7 +1537,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T4_TDE1_4",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE2.1",
@@ -1451,7 +1555,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T4_TDE2_1",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE2.2",
@@ -1467,7 +1573,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T4_TDE2_2",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE2.3",
@@ -1483,7 +1591,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T4_TDE2_3",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE2.4",
@@ -1499,7 +1609,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T4_TDE2_4",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE3.1",
@@ -1515,7 +1627,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T4_TDE3_1",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE3.2",
@@ -1531,7 +1645,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T4_TDE3_2",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE3.3",
@@ -1547,7 +1663,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T4_TDE3_3",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE3.4",
@@ -1563,7 +1681,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T4_TDE3_4",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE4.1",
@@ -1579,7 +1699,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T4_TDE4_1",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE4.2",
@@ -1595,7 +1717,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T4_TDE4_2",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE4.3",
@@ -1611,7 +1735,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T4_TDE4_3",
+          "verification_status": "VERIFIED"
         },
         {
           "outcome_code": "TDE4.4",
@@ -1627,7 +1753,9 @@
             "explicit_subcomponent_ids_in_registered_snapshot": false,
             "canonical_policy": "DO_NOT_INFER_OR_COPY_FROM_TDE_9",
             "official_process_realization": "Learning-teaching application paragraphs under the same parent outcome in the registered official snapshot."
-          }
+          },
+          "outcome_id": "TDE10_T4_TDE4_4",
+          "verification_status": "VERIFIED"
         }
       ],
       "process_component_extraction_status": "SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS",

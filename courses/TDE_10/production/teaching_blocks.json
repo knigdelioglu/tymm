@@ -1,0 +1,590 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_10",
+  "grade": 10,
+  "summary": {
+    "total_teaching_blocks": 16,
+    "blocks_per_theme": {
+      "TEMA_01": 4,
+      "TEMA_02": 4,
+      "TEMA_03": 4,
+      "TEMA_04": 4
+    },
+    "official_theme_instruction_hours": 43,
+    "school_based_planning_hours_per_theme": 2,
+    "outer_theme_hours": 45,
+    "annual_hours": {
+      "structured_program": 172,
+      "school_based_planning": 8,
+      "planned_total": 180
+    },
+    "block_lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+  },
+  "blocks": [
+    {
+      "block_id": "BLOCK_T1_01_OKUMA",
+      "theme_id": "TEMA_01",
+      "title": "Metin Tahlili-1: Okuma — Koşuk / Metin Tahlili-2: Okuma — Türkü",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE2.1",
+        "TDE2.2",
+        "TDE2.3",
+        "TDE2.4"
+      ],
+      "textbook_sections": [
+        "T1_SEC_01_OKUMA_KOSUK",
+        "T1_SEC_02_OKUMA_TURKU"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_01_KOSUK_HAZIRLIK",
+        "T1_ACT_02_KOSUK_ANLAM",
+        "T1_ACT_03_KOSUK_COZUMLEME",
+        "T1_ACT_04_KOSUK_YANSITMA",
+        "T1_ACT_05_TURKU_HAZIRLIK",
+        "T1_ACT_06_TURKU_TAHLIL",
+        "T1_ACT_07_TURKU_CANLANDIRMA"
+      ],
+      "textbook_form_ids": [
+        "FORM_T1_EXIT_321"
+      ],
+      "expected_student_actions": "Koşuk ve türkü metinlerini uygun stratejiyle okuma; söz varlığı, ahenk ve ezgi unsurlarını belirleme; dönem ve tür özelliklerini karşılaştırma; yapı-dil-içerik ilişkilerini çözümleme; gerekçeli beğeni ölçütleriyle değerlendirme.",
+      "expected_student_evidence": "Okuma öncesi tahmin ve amaç kayıtları, ahenk/söz varlığı işaretlemeleri, karşılaştırma tabloları, açık uçlu tahlil cevapları ve öz değerlendirme.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 1,
+      "prerequisite_block_ids": [],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T1_02_KONUSMA",
+      "theme_id": "TEMA_01",
+      "title": "Edebiyat Atölyesi: Konuşma — Şiir Dinletisi",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE3.1",
+        "TDE3.2",
+        "TDE3.3",
+        "TDE3.4"
+      ],
+      "textbook_sections": [
+        "T1_SEC_03_KONUSMA"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_08_SIIR_DINLETISI_PLAN",
+        "T1_ACT_09_SIIR_DINLETISI_SUNUM",
+        "T1_ACT_10_KONUSMA_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T1_KONUSMA_AKRAN",
+        "LINK_T1_KONUSMA_DPA"
+      ],
+      "expected_student_actions": "Belirlenen tema doğrultusunda şiirler seçme; grupça dinleti planlama; şiirleri etkili biçimde sunma; zaman, mekân, beden dili ve Türkçe kullanımını yönetme; performansını değerlendirme.",
+      "expected_student_evidence": "Dinleti planı, seçki gerekçeleri, canlı sözlü performans, öz/akran değerlendirmesi ve rubrik kanıtları.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 2,
+      "prerequisite_block_ids": [
+        "BLOCK_T1_01_OKUMA"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T1_03_DINLEME",
+      "theme_id": "TEMA_01",
+      "title": "Metin Tahlili-3: Dinleme/İzleme — Masal",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE1.1",
+        "TDE1.2",
+        "TDE1.3",
+        "TDE1.4"
+      ],
+      "textbook_sections": [
+        "T1_SEC_04_DINLEME_MASAL"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_11_MASAL_HAZIRLIK",
+        "T1_ACT_12_MERCAN_KIZ_TAHLIL",
+        "T1_ACT_13_MASAL_YANSITMA"
+      ],
+      "textbook_form_ids": [
+        "FORM_T1_MASAL_OZ"
+      ],
+      "expected_student_actions": "Masal türündeki bir metni dinleme/izleme öncesi hazırlıkla takip etme; yapı, dil ve anlatım unsurlarını çözümleme; değerleri ve iletileri değerlendirme; alternatif görüş üretme ve kendi dinleme/izleme sürecini değerlendirme.",
+      "expected_student_evidence": "Hazırlık/tahmin kayıtları, yapılandırılmış dinleme notları, açık uçlu çözümleme cevapları, öz değerlendirme ve gerekçeli görüşler.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 3,
+      "prerequisite_block_ids": [
+        "BLOCK_T1_02_KONUSMA"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T1_04_YAZMA",
+      "theme_id": "TEMA_01",
+      "title": "Edebiyat Atölyesi: Yazma — Masalı Film Şeridine Dönüştürme / 1. Tema Ölçme ve Değerlendirme",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE4.1",
+        "TDE4.2",
+        "TDE4.3",
+        "TDE4.4"
+      ],
+      "textbook_sections": [
+        "T1_SEC_05_YAZMA_FILM_SERIDI",
+        "T1_SEC_06_TEMA_SONU"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_14_FILM_SERIDI_PLAN",
+        "T1_ACT_15_FILM_SERIDI_URETIM",
+        "T1_ACT_16_FILM_SERIDI_DEGERLENDIRME",
+        "T1_ACT_17_TEMA_YANSITMA",
+        "T1_ACT_18_TEMA_OLCME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T1_YAZMA_AKRAN",
+        "FORM_T1_YAZMA_KONTROL",
+        "LINK_T1_YAZMA_DPA"
+      ],
+      "expected_student_actions": "Dinlediği/izlediği masalı film şeridine dönüştürmek için amaç ve hedef kitle belirleme; olayları sıralama; görsel ve yazılı anlatımı bütünleştirme; ürünü düzenleme ve değerlendirme.",
+      "expected_student_evidence": "Storyboard/film şeridi taslağı, olay-sahne planı, karakter/görsel tasarımlar, düzenlenmiş nihai ürün ve öz/akran değerlendirmesi.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 4,
+      "prerequisite_block_ids": [
+        "BLOCK_T1_03_DINLEME"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T2_01_OKUMA",
+      "theme_id": "TEMA_02",
+      "title": "Metin Tahlili-1: Okuma — Gazel / Metin Tahlili-2: Okuma — Saf Şiir",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE2.1",
+        "TDE2.2",
+        "TDE2.3",
+        "TDE2.4"
+      ],
+      "textbook_sections": [
+        "T2_SEC_01_OKUMA_GAZEL",
+        "T2_SEC_02_OKUMA_SAF_SIIR"
+      ],
+      "textbook_activity_ids": [
+        "T2_ACT_01_GAZEL_HAZIRLIK",
+        "T2_ACT_02_GAZEL_ANLAM",
+        "T2_ACT_03_GAZEL_COZUMLEME",
+        "T2_ACT_04_GAZEL_YANSITMA",
+        "T2_ACT_05_SAF_SIIR_HAZIRLIK",
+        "T2_ACT_06_KALDIRIMLAR_TAHLIL",
+        "T2_ACT_07_SIIR_KARSILASTIRMA"
+      ],
+      "textbook_form_ids": [
+        "FORM_T2_GAZEL_GUNLUK"
+      ],
+      "expected_student_actions": "Gazel ve saf şiir örneklerini okuma; kasideyi ara metin olarak ilişkilendirme; ritim, ahenk, imge ve söz varlığı unsurlarını belirleme; dönem, tür ve üslup değişimini karşılaştırma; metinlerin yapı-dil-anlam ilişkisini değerlendirme.",
+      "expected_student_evidence": "Kavram haritası, bilgi görseli, karşılaştırma tablosu, çalışma kâğıdı, açık uçlu/kısa cevaplı tahlil cevapları ve öğrenme günlüğü.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 1,
+      "prerequisite_block_ids": [],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T2_02_YAZMA",
+      "theme_id": "TEMA_02",
+      "title": "Edebiyat Atölyesi: Yazma — Öğretici Metni Edebî Metne Dönüştürme",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE4.1",
+        "TDE4.2",
+        "TDE4.3",
+        "TDE4.4"
+      ],
+      "textbook_sections": [
+        "T2_SEC_03_YAZMA_DONUSTURME"
+      ],
+      "textbook_activity_ids": [
+        "T2_ACT_08_YAZMA_PLAN",
+        "T2_ACT_09_METIN_DONUSTURME",
+        "T2_ACT_10_YAZMA_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T2_YAZMA_AKRAN",
+        "FORM_T2_YAZMA_KONTROL",
+        "LINK_T2_YAZMA_DPA"
+      ],
+      "expected_student_actions": "Bilgilendirici bir metnin temel bilgisini koruyarak edebî metne dönüştürme; tür ve anlatım tercihlerine karar verme; özgün söz varlığı ve görsel/işitsel ögeleri gerektiğinde kullanma; metni düzenleme ve değerlendirme.",
+      "expected_student_evidence": "Kaynak bilgilendirici metin işaretlemeleri, dönüşüm planı, taslak, düzenlenmiş edebî metin ve değerlendirme kayıtları.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 2,
+      "prerequisite_block_ids": [
+        "BLOCK_T2_01_OKUMA"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T2_03_DINLEME",
+      "theme_id": "TEMA_02",
+      "title": "Metin Tahlili-3: Dinleme/İzleme — Söyleşi",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE1.1",
+        "TDE1.2",
+        "TDE1.3",
+        "TDE1.4"
+      ],
+      "textbook_sections": [
+        "T2_SEC_04_DINLEME_SOYLESI"
+      ],
+      "textbook_activity_ids": [
+        "T2_ACT_11_SOYLESI_HAZIRLIK",
+        "T2_ACT_12_SOYLESI_ANLAM",
+        "T2_ACT_13_SOYLESI_COZUMLEME",
+        "T2_ACT_14_SOYLESI_YANSITMA"
+      ],
+      "textbook_form_ids": [],
+      "expected_student_actions": "Söyleşi metnini amaçlı biçimde dinleme/izleme; dil-anlatım ve dönem/toplum ilişkisini çözümleme; iletileri ve düşünce yapısını karşılaştırma; kendi görüşleriyle ilişkilendirerek yansıtıcı değerlendirme yapma.",
+      "expected_student_evidence": "Dinleme notları, açık uçlu cevaplar, gözlem/karşılaştırma kayıtları ve yansıtıcı yazı.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 3,
+      "prerequisite_block_ids": [
+        "BLOCK_T2_02_YAZMA"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T2_04_KONUSMA",
+      "theme_id": "TEMA_02",
+      "title": "Edebiyat Atölyesi: Konuşma — Podcast Hazırlama / 2. Tema Ölçme ve Değerlendirme",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE3.1",
+        "TDE3.2",
+        "TDE3.3",
+        "TDE3.4"
+      ],
+      "textbook_sections": [
+        "T2_SEC_05_KONUSMA_PODCAST",
+        "T2_SEC_06_TEMA_OLCME"
+      ],
+      "textbook_activity_ids": [
+        "T2_ACT_15_PODCAST_PLAN",
+        "T2_ACT_16_PODCAST_URETIM",
+        "T2_ACT_17_PODCAST_YANSITMA",
+        "T2_ACT_18_TEMA_OLCME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T2_PODCAST_YANSITMA",
+        "LINK_T2_PODCAST_DPA"
+      ],
+      "expected_student_actions": "Edebiyat alanında iz bırakmış bir şahsiyet seçme; edebî yönünü ve Türkçeye/edebiyata katkısını araştırma; podcast içeriğini yapılandırma; vurgu-tonlama ve işitsel ögelerle sunma; süreci değerlendirme.",
+      "expected_student_evidence": "Araştırma notları, podcast planı/senaryosu, ses kaydı veya canlı sunum, kaynak/provenance kaydı ve rubrik değerlendirmesi.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 4,
+      "prerequisite_block_ids": [
+        "BLOCK_T2_03_DINLEME"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T3_01_OKUMA",
+      "theme_id": "TEMA_03",
+      "title": "Metin Tahlili-1: Okuma — Destan / Metin Tahlili-2: Okuma — Mesnevi",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE2.1",
+        "TDE2.2",
+        "TDE2.3",
+        "TDE2.4"
+      ],
+      "textbook_sections": [
+        "T3_SEC_01_OKUMA_DESTAN",
+        "T3_SEC_02_OKUMA_MESNEVI"
+      ],
+      "textbook_activity_ids": [
+        "T3_ACT_01_DESTAN_HAZIRLIK",
+        "T3_ACT_02_OGUZ_KAGAN_ANLAM",
+        "T3_ACT_03_DESTAN_COZUMLEME",
+        "T3_ACT_04_DESTAN_YANSITMA",
+        "T3_ACT_05_MESNEVI_HAZIRLIK",
+        "T3_ACT_06_HARNAME_TAHLIL",
+        "T3_ACT_07_MESNEVI_KARSILASTIRMA"
+      ],
+      "textbook_form_ids": [],
+      "expected_student_actions": "Destan ve mesnevi metinlerini uygun stratejilerle okuma; halk hikâyesini ara metin olarak karşılaştırma; kişileri, olay-zaman-mekânı, motifleri ve dil-anlatım özelliklerini çözümleme; sözlüden yazılı kültüre değişimi ve değer aktarımını yorumlama.",
+      "expected_student_evidence": "T diyagramı, tür/dönem karşılaştırma tablosu, kavram haritası, kısa/açık uçlu tahlil cevapları, yapı unsuru şeması ve gerekçeli değerlendirme.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 1,
+      "prerequisite_block_ids": [],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T3_02_KONUSMA",
+      "theme_id": "TEMA_03",
+      "title": "Edebiyat Atölyesi: Konuşma — Türk Destanları Sunumu",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE3.1",
+        "TDE3.2",
+        "TDE3.3",
+        "TDE3.4"
+      ],
+      "textbook_sections": [
+        "T3_SEC_03_KONUSMA_DESTAN_SUNUM"
+      ],
+      "textbook_activity_ids": [
+        "T3_ACT_08_DESTAN_SUNUM_PLAN",
+        "T3_ACT_09_DESTAN_SUNUM",
+        "T3_ACT_10_KONUSMA_OZ_AKRAN"
+      ],
+      "textbook_form_ids": [
+        "FORM_T3_KONUSMA_AKRAN",
+        "FORM_T3_KONUSMA_OZ",
+        "LINK_T3_KONUSMA_DPA"
+      ],
+      "expected_student_actions": "Bir Türk destanı veya destan geleneği üzerine konuşma/sunum planlama; millî ve kültürel unsurları kaynaklara dayalı biçimde seçme; görsel destekle açık ve düzenli sunma; söz ve beden dilini kullanma; süreci değerlendirme.",
+      "expected_student_evidence": "Araştırma notları, kaynak listesi, sunum planı, görsel materyal, canlı sunum ve rubrik/öz değerlendirme kayıtları.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 2,
+      "prerequisite_block_ids": [
+        "BLOCK_T3_01_OKUMA"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T3_03_DINLEME",
+      "theme_id": "TEMA_03",
+      "title": "Metin Tahlili-3: Dinleme/İzleme — Fabl",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE1.1",
+        "TDE1.2",
+        "TDE1.3",
+        "TDE1.4"
+      ],
+      "textbook_sections": [
+        "T3_SEC_04_DINLEME_FABL"
+      ],
+      "textbook_activity_ids": [
+        "T3_ACT_11_FABL_DINLEME_HAZIRLIK",
+        "T3_ACT_12_FABL_ANLAM",
+        "T3_ACT_13_FABL_COZUMLEME",
+        "T3_ACT_14_FABL_YANSITMA"
+      ],
+      "textbook_form_ids": [
+        "FORM_T3_FABL_DINLEME_KONTROL"
+      ],
+      "expected_student_actions": "Fabl türündeki dinleme/izleme metnini amaçlı biçimde takip etme; karakter, yapı, dil ve anlatım unsurlarını çözümleme; iletileri ve değerleri değerlendirme; kendi yorumunu metnin düşüncesiyle karşılaştırma ve dinleme deneyimini yansıtma.",
+      "expected_student_evidence": "Dinleme notları, açık uçlu çözümleme cevapları, yapı-dil ilişkisi tablosu, gerekçeli değerlendirme ve yansıtıcı öz değerlendirme.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 3,
+      "prerequisite_block_ids": [
+        "BLOCK_T3_02_KONUSMA"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T3_04_YAZMA",
+      "theme_id": "TEMA_03",
+      "title": "Edebiyat Atölyesi: Yazma — Fabl Yazma / 3. Tema Ölçme ve Değerlendirme",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE4.1",
+        "TDE4.2",
+        "TDE4.3",
+        "TDE4.4"
+      ],
+      "textbook_sections": [
+        "T3_SEC_05_YAZMA_FABL",
+        "T3_SEC_06_TEMA_SONU"
+      ],
+      "textbook_activity_ids": [
+        "T3_ACT_15_FABL_YAZMA_PLAN",
+        "T3_ACT_16_FABL_YAZMA",
+        "T3_ACT_17_FABL_YAZMA_DEGERLENDIRME",
+        "T3_ACT_18_TEMA_GUNLUK",
+        "T3_ACT_19_TEMA_OLCME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T3_YAZMA_AKRAN",
+        "FORM_T3_YAZMA_OZ",
+        "LINK_T3_YAZMA_DPA"
+      ],
+      "expected_student_actions": "Belirlenen temaya uygun özgün fabl planlama; karakter ve olay örgüsü oluşturma; didaktik iletiyi doğrudan açıklamaya indirgemeden kurmaca içinde yapılandırma; metni düzenleme, paylaşma ve değerlendirme.",
+      "expected_student_evidence": "Fabl planı, karakter/olay taslağı, ilk taslak, revize edilmiş nihai metin, öz/akran değerlendirmesi ve rubrik kanıtları.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 4,
+      "prerequisite_block_ids": [
+        "BLOCK_T3_03_DINLEME"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T4_01_OKUMA",
+      "theme_id": "TEMA_04",
+      "title": "Metin Tahlili-1: Okuma — Dede Korkut Hikâyesi / Metin Tahlili-2: Okuma — Tanzimat Şiiri",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE2.1",
+        "TDE2.2",
+        "TDE2.3",
+        "TDE2.4"
+      ],
+      "textbook_sections": [
+        "T4_SEC_01_OKUMA_DEDE_KORKUT",
+        "T4_SEC_02_OKUMA_TANZIMAT_SIIRI"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_01_DEDE_KORKUT_HAZIRLIK",
+        "T4_ACT_02_SALUR_KAZAN_ANLAM",
+        "T4_ACT_03_DEDE_KORKUT_COZUMLEME",
+        "T4_ACT_04_DEDE_KORKUT_KARSILASTIRMA",
+        "T4_ACT_05_TANZIMAT_HAZIRLIK",
+        "T4_ACT_06_HURRIYET_KASIDESI_TAHLIL",
+        "T4_ACT_07_TANZIMAT_KARSILASTIRMA",
+        "T4_ACT_08_TANZIMAT_YANSITMA"
+      ],
+      "textbook_form_ids": [
+        "FORM_T4_OKUMA_GUNLUK"
+      ],
+      "expected_student_actions": "Dede Korkut hikâyesi ve Tanzimat şiirini okuma; Servetifünun romanı ile Fecriati şiirini ara metin olarak ilişkilendirme; yapı, dil, anlatım ve değer unsurlarını çözümleme; dönemler arası değişim ve sürekliliği karşılaştırma ve değerlendirme.",
+      "expected_student_evidence": "Bilgi/kavram haritası, dönem-tür karşılaştırma tablosu, yapı-dil çözümleme cevapları, açık/kısa cevaplı sorular ve öğrenme günlüğü.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 1,
+      "prerequisite_block_ids": [],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T4_02_KONUSMA",
+      "theme_id": "TEMA_04",
+      "title": "Edebiyat Atölyesi: Konuşma — Dede Korkut Canlandırması",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE3.1",
+        "TDE3.2",
+        "TDE3.3",
+        "TDE3.4"
+      ],
+      "textbook_sections": [
+        "T4_SEC_03_KONUSMA_CANLANDIRMA"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_09_CANLANDIRMA_PLAN",
+        "T4_ACT_10_CANLANDIRMA_SUNUM",
+        "T4_ACT_11_CANLANDIRMA_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T4_KONUSMA_AKRAN",
+        "FORM_T4_KONUSMA_OZ",
+        "LINK_T4_KONUSMA_DPA"
+      ],
+      "expected_student_actions": "Dede Korkut hikâyelerinden birini canlandırmak üzere seçim ve plan yapma; karakter ve olay akışını sahneye uyarlama; görsel/işitsel ögeler, beden dili ve mekânla performans sunma; süreci değerlendirme.",
+      "expected_student_evidence": "Canlandırma planı, rol/görev dağılımı, sahne/akış taslağı, canlı performans ve rubrik/öz-akran değerlendirmesi.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 2,
+      "prerequisite_block_ids": [
+        "BLOCK_T4_01_OKUMA"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T4_03_DINLEME",
+      "theme_id": "TEMA_04",
+      "title": "Metin Tahlili-3: Dinleme/İzleme — Millî Edebiyat Hikâyesi",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE1.1",
+        "TDE1.2",
+        "TDE1.3",
+        "TDE1.4"
+      ],
+      "textbook_sections": [
+        "T4_SEC_04_DINLEME_HIKAYE"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_12_HIKAYE_DINLEME_HAZIRLIK",
+        "T4_ACT_13_KAC_YERINDEN_ANLAM",
+        "T4_ACT_14_HIKAYE_COZUMLEME",
+        "T4_ACT_15_HIKAYE_OZ_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T4_DINLEME_OZ"
+      ],
+      "expected_student_actions": "Millî Edebiyat döneminden bir hikâyeyi dinleme/izleme; karakter, olay, zaman, mekân, dil ve anlatımı çözümleme; dönem/toplum bağını ve iletileri değerlendirme; gerçek dünya bilgisi ve kendi görüşleriyle karşılaştırma.",
+      "expected_student_evidence": "Dinleme notları, kısa/açık uçlu cevaplar, gözlem/karşılaştırma formu, gerekçeli eleştiri ve öz değerlendirme.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 3,
+      "prerequisite_block_ids": [
+        "BLOCK_T4_02_KONUSMA"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T4_04_YAZMA",
+      "theme_id": "TEMA_04",
+      "title": "Edebiyat Atölyesi: Yazma — Hikâyeyi Şiire Dönüştürme / 4. Tema Ölçme ve Değerlendirme",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE4.1",
+        "TDE4.2",
+        "TDE4.3",
+        "TDE4.4"
+      ],
+      "textbook_sections": [
+        "T4_SEC_05_YAZMA_SIIRE_DONUSTURME",
+        "T4_SEC_06_TEMA_SONU"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_16_SIIR_DONUSUM_PLAN",
+        "T4_ACT_17_SIIR_DONUSUM_YAZMA",
+        "T4_ACT_18_SIIR_DEGERLENDIRME",
+        "T4_ACT_19_TEMA_GUNLUK",
+        "T4_ACT_20_TEMA_OLCME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T4_YAZMA_AKRAN",
+        "FORM_T4_YAZMA_KONTROL",
+        "LINK_T4_YAZMA_DPA"
+      ],
+      "expected_student_actions": "Dinleme/izlemede incelediği hikâyeyi şiire dönüştürmek için ana olay/duygu ve iletileri seçme; şiirsel dil ve ahenkten yararlanma; metni düzenleme, paylaşma ve değerlendirme.",
+      "expected_student_evidence": "Hikâye-şiir dönüşüm planı, seçilen ana duygu/ileti notları, şiir taslağı, revize edilmiş nihai şiir ve değerlendirme kanıtları.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 4,
+      "prerequisite_block_ids": [
+        "BLOCK_T4_03_DINLEME"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    }
+  ]
+}

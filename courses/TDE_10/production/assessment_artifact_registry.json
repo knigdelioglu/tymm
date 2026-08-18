@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.1",
+  "course_id": "TDE_10",
+  "registry_mode": "REUSE_ONLY_NO_NEW_ARTIFACTS",
+  "verified_resource_gap_count": 0,
+  "annual_artifacts": [],
+  "reuse_sources": {
+    "textbook_source_id": "textbook_tde10_local_pdf",
+    "textbook_forms_index": "textbook_forms_index.json"
+  },
+  "classification_note": "Official EBA Dereceli Puanlama Anahtarı links are verified as links but are not relabeled analytic_rubric without target-structure inspection."
+}

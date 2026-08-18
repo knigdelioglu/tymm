@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_10",
+  "audit_type": "CROSS_THEME_RESOURCE_GAP_CONSOLIDATION",
+  "source_state": "CANONICAL_FROZEN",
+  "themes_audited": 4,
+  "outcome_rows_analyzed": 64,
+  "verified_remaining_gap_instances": 0,
+  "cross_theme_gap_clusters": [],
+  "new_physical_artifacts_required": 0,
+  "decision": "REUSE_ONLY_NO_NEW_ARTIFACTS",
+  "rule": "A COVERED analysis row with remaining_gap=NONE is not promoted into a physical artifact or gap alias."
+}
