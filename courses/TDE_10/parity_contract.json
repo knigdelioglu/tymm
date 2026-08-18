@@ -1,0 +1,278 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_10",
+  "reference_course_id": "TDE_9",
+  "contract_name": "TDE_10_TO_TDE_9_KNOWLEDGE_PARITY_CONTRACT",
+  "status": "ACTIVE_PARITY_REMEDIATION",
+  "release_gate": "BLOCKED_UNTIL_PARITY_VERIFIED",
+  "existing_p0_interpretation": "TECHNICAL_P0_PASS_NOT_PARITY_CERTIFICATION",
+  "purpose": "Bring TDE_10 to the same source fidelity, semantic depth, assessment-structure verification, outcome-level traceability and cross-theme consolidation standard as TDE_9 without inventing source data that the official 10th-grade curriculum does not publish.",
+  "non_negotiable_rules": [
+    "TDE_9 is the reference implementation for verification depth, not a source of 10th-grade facts.",
+    "No 9th-grade content, page locator, process-component ID or assessment structure may be copied into TDE_10 unless independently present in an official TDE_10 source.",
+    "Same schema_version must not be used to imply semantic parity when required fields have different evidence depth.",
+    "UNRESOLVED is never promoted to COVERED.",
+    "A QR or EBA assessment link proves resource existence only; it does not prove analytic-rubric structure until the target is structurally inspected.",
+    "A zero-gap result is parity-certified only after outcome-level alignment, assessment verification and cross-theme audit all pass.",
+    "Canonical JSON/MD remains source of truth; SQLite projections do not repair missing canonical evidence."
+  ],
+  "field_classes": {
+    "REQUIRED_PARITY": [
+      {
+        "area": "curriculum.theme_identity",
+        "required_fields": [
+          "theme_id",
+          "theme_no",
+          "exact_theme_name",
+          "source_locator"
+        ],
+        "rule": "Every theme must be independently traceable to its official TDE_10 program snapshot."
+      },
+      {
+        "area": "curriculum.theme_introduction",
+        "required_fields": [
+          "theme_introduction_verbatim",
+          "source_locator"
+        ],
+        "rule": "A summary may coexist, but must not replace the official verbatim theme introduction."
+      },
+      {
+        "area": "curriculum.allocated_lesson_hours",
+        "required_fields": [
+          "verbatim",
+          "source_locator"
+        ],
+        "rule": "Official instructional hours must be source-backed. User-confirmed 2-hour school-based planning remains a separate planning layer."
+      },
+      {
+        "area": "curriculum.alan_becerileri",
+        "required_fields": [
+          "verbatim",
+          "source_locator"
+        ]
+      },
+      {
+        "area": "curriculum.kavramsal_beceriler",
+        "required_fields": [
+          "verbatim",
+          "source_locator"
+        ],
+        "rule": "Use the official value, including '-' or an empty official value when applicable."
+      },
+      {
+        "area": "curriculum.egilimler",
+        "required_fields": [
+          "verbatim",
+          "codes",
+          "source_locator"
+        ]
+      },
+      {
+        "area": "curriculum.programlar_arasi_bilesenler",
+        "required_fields": [
+          "sosyal_duygusal_ogrenme_becerileri.verbatim",
+          "sosyal_duygusal_ogrenme_becerileri.codes",
+          "sosyal_duygusal_ogrenme_becerileri.source_locator",
+          "degerler.verbatim",
+          "degerler.codes",
+          "degerler.source_locator",
+          "okuryazarlik_becerileri.verbatim",
+          "okuryazarlik_becerileri.codes",
+          "okuryazarlik_becerileri.source_locator"
+        ]
+      },
+      {
+        "area": "curriculum.disiplinler_arasi_iliskiler",
+        "required_fields": [
+          "verbatim",
+          "source_locator"
+        ]
+      },
+      {
+        "area": "curriculum.beceriler_arasi_iliskiler",
+        "required_fields": [
+          "verbatim",
+          "codes",
+          "source_locator"
+        ]
+      },
+      {
+        "area": "curriculum.icerik_cercevesi",
+        "required_fields": [
+          "verbatim",
+          "source_locator"
+        ]
+      },
+      {
+        "area": "curriculum.anahtar_kavramlar",
+        "required_fields": [
+          "verbatim",
+          "concepts",
+          "source_locator"
+        ]
+      },
+      {
+        "area": "curriculum.ogrenme_kanitlari_olcme_ve_degerlendirme",
+        "required_fields": [
+          "verbatim",
+          "source_locator",
+          "official_assessment_instruments",
+          "performance_tasks"
+        ],
+        "rule": "Official assessment wording and task criteria must remain distinguishable from later pedagogical implementation choices."
+      },
+      {
+        "area": "curriculum.learning_outcomes",
+        "required_fields": [
+          "outcome_code",
+          "outcome_verbatim",
+          "skill_category",
+          "source_locator",
+          "process_components_verbatim",
+          "verification_status"
+        ],
+        "rule": "All 64 parent outcomes remain verbatim and source-located."
+      },
+      {
+        "area": "textbook.sections",
+        "required_fields": [
+          "section_id",
+          "section_title",
+          "genre",
+          "printed_page_range",
+          "pdf_page_range_or_equivalent_source_locator"
+        ]
+      },
+      {
+        "area": "textbook.activities",
+        "required_fields": [
+          "activity_id",
+          "exact_title",
+          "activity_type",
+          "student_action",
+          "expected_product_or_evidence",
+          "printed_page",
+          "pdf_page_or_equivalent_source_locator",
+          "related_forms",
+          "verification_status"
+        ],
+        "rule": "Generic descriptions such as 'Metni çözümleme' are insufficient when the book exposes a more specific student action or evidence."
+      },
+      {
+        "area": "textbook.forms",
+        "required_fields": [
+          "form_id",
+          "structural_type",
+          "assessment_type",
+          "evaluator",
+          "criteria_present",
+          "level_descriptors_present",
+          "scoring_levels_present",
+          "linked_theme_ids",
+          "linked_activity_ids",
+          "verification_status"
+        ],
+        "rule": "Classification is based on observed structure, never title alone."
+      },
+      {
+        "area": "instructional_chain",
+        "required_fields": [
+          "outcome_level_need",
+          "resource_plan_id",
+          "alignment_row",
+          "gap_record"
+        ],
+        "rule": "Every outcome must have an independently traceable need -> resource plan -> alignment -> gap path, even when reusable need families are shared."
+      },
+      {
+        "area": "coverage_decision",
+        "required_fields": [
+          "program_requirement_verbatim",
+          "exact_textbook_evidence",
+          "assessment_structure",
+          "primary_coverage",
+          "remaining_gap",
+          "production_decision"
+        ],
+        "rule": "COVERED requires the required student action/evidence and any normative assessment/support requirement to be actually available and verified."
+      },
+      {
+        "area": "cross_theme_audit",
+        "required_fields": [
+          "theme_coverage_summary",
+          "assessment_structure_comparison",
+          "shared_need_clusters",
+          "anti_duplication_result",
+          "consolidation_result"
+        ],
+        "rule": "Cross-theme audit must compare possible shared assessment/support needs, not merely count already-declared gaps."
+      }
+    ],
+    "SOURCE_NOT_APPLICABLE": [
+      {
+        "area": "curriculum.process_component_ids",
+        "rule": "Explicit TDE*.x.y subcomponent IDs are not required when the registered official TDE_10 snapshots do not enumerate them. They must not be copied or synthesized from TDE_9."
+      },
+      {
+        "area": "source_specific_page_numbers",
+        "rule": "TDE_9 page numbers and source filenames are not parity requirements. TDE_10 must use its own official snapshot locators."
+      },
+      {
+        "area": "artifact_count",
+        "rule": "TDE_10 is not required to reproduce TDE_9's 7 gap instances or 3 artifacts. Artifact count is an analysis result, not a parity target."
+      }
+    ],
+    "TDE10_SPECIFIC_EXTENSION": [
+      "source_mode",
+      "source_group_id",
+      "source_validation",
+      "local_source_snapshot",
+      "official_web_crosscheck",
+      "stable_entity_key",
+      "process_component_representation",
+      "43_plus_2_theme_outer_planning_model",
+      "local_official_textbook_pdf_primary_analysis_snapshot",
+      "official_EBA_DPA_target_url_tracking"
+    ]
+  },
+  "coverage_semantics": {
+    "COVERED": "Required learning action, expected student evidence, normative support/feedback and any required assessment instrument are present and sufficiently verified.",
+    "PARTIALLY_COVERED": "The instructional path exists but at least one required evidence, support, feedback or assessment component is absent or structurally unresolved.",
+    "NOT_COVERED": "A required core learning action/resource is absent from the textbook path.",
+    "UNRESOLVED_POLICY": "Any unresolved normative assessment target remains REVIEW_REQUIRED or PARTIALLY_COVERED; it may not be converted to COVERED by link existence alone."
+  },
+  "current_tde10_parity_findings": {
+    "curriculum_effective_schema_parity": "FAIL_REMEDIATION_REQUIRED",
+    "curriculum_outcome_verbatim": "PASS_64_OF_64_PARENT_OUTCOMES",
+    "curriculum_context_verbatim_depth": "FAIL_REMEDIATION_REQUIRED",
+    "textbook_section_inventory": "PASS_24_SECTIONS",
+    "textbook_activity_inventory": "PASS_75_ACTIVITIES_DEPTH_REMEDIATION_REQUIRED",
+    "forms_structure_not_title_rule": "PASS",
+    "forms_exact_TDE9_taxonomy_parity": "FAIL_NORMALIZATION_REQUIRED",
+    "external_EBA_DPA_targets": "REVIEW_REQUIRED_8_TARGET_STRUCTURES_UNCLASSIFIED",
+    "need_resource_alignment_gap_id_chain": "PASS_STRUCTURAL_TRACE",
+    "outcome_level_need_granularity": "FAIL_REMEDIATION_REQUIRED",
+    "coverage_semantic_parity": "FAIL_REMEDIATION_REQUIRED",
+    "cross_theme_assessment_comparison": "FAIL_REMEDIATION_REQUIRED",
+    "zero_gap_parity_certification": "WITHHELD_PENDING_REAUDIT",
+    "production_manifest_zero_artifact_expression": "PASS"
+  },
+  "phase_gates": {
+    "PHASE_1_PARITY_CONTRACT": "PASS",
+    "PHASE_2_CURRICULUM_PARITY": "PENDING",
+    "PHASE_3_TEXTBOOK_ACTIVITY_DEPTH": "PENDING",
+    "PHASE_4_FORM_TAXONOMY_AND_DPA_TARGETS": "PENDING",
+    "PHASE_5_OUTCOME_LEVEL_NEEDS": "PENDING",
+    "PHASE_6_RESOURCE_PLAN_REDERIVATION": "PENDING",
+    "PHASE_7_ALIGNMENT_REAUDIT": "PENDING",
+    "PHASE_8_COVERAGE_SEMANTICS": "PENDING",
+    "PHASE_9_EIGHT_ASSESSMENT_GATES": "PENDING",
+    "PHASE_10_GAP_RECALCULATION": "PENDING",
+    "PHASE_11_CROSS_THEME_AUDIT": "PENDING",
+    "PHASE_12_PRODUCTION_REDECISION": "PENDING",
+    "PHASE_13_LIFECYCLE_RECONCILIATION": "PENDING",
+    "PHASE_14_PARITY_VALIDATION_REPORT": "PENDING",
+    "PHASE_15_P0_AND_TDE9_REGRESSION": "PENDING"
+  },
+  "completion_rule": "TDE_10 may be declared TDE_9-level parity only when all REQUIRED_PARITY areas are verified, all source-not-applicable differences are explicitly justified, all eight external assessment targets have a resolved structural status, outcome-level coverage is re-derived and cross-theme consolidation is complete."
+}
