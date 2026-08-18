@@ -1,6 +1,6 @@
 # TDE_10 → TDE_9 Bilgi Tabanı Parity Raporu
 
-**Durum:** `FAZ 1-3 TAMAMLANDI / FAZ 4 PENDING / PARITY RELEASE BLOCKED`
+**Durum:** `FAZ 1-3 PASS / FAZ 4 AUTH-GATED / FAZ 5-13 YENİDEN TÜRETİLDİ / PARITY RELEASE BLOCKED`
 
 Bu raporun amacı 10. sınıf verisini 9. sınıfla içerik olarak aynılaştırmak değil; **aynı kaynak sadakati, aynı doğrulama derinliği, aynı outcome-level izlenebilirlik ve aynı assessment/gap karar güvenilirliği seviyesine çıkarmaktır.**
 
@@ -169,3 +169,23 @@ Faz 3 tamamlandı. 75 textbook activity kaydı doğrudan yerel resmî ders kitab
 **Faz 3 gate:** `PASS_75_OF_75_LOCAL_PDF_SOURCE_BACKED`
 
 Sonraki kapı: **Faz 4 — form taxonomy normalization ve 8 EBA DPA hedefinin yapısal çözümü**.
+
+
+## 10. Faz 4-13 uygulama sonucu
+
+Faz 4 EBA hedef probe sonucunda sekiz resmî DPA bağlantısının tamamı EBA giriş ekranına yönlenmiştir. Bu nedenle hedeflerin gerçek yapısı doğrulanamamış ve `UNRESOLVED` korunmuştur.
+
+Buna rağmen sonraki türetim aşamaları fail-closed olarak tamamlanmıştır:
+
+- 35 form structure-first kuralıyla yeniden normalize edildi; TDE_9 referans taxonomy ilişkisi açıkça kaydedildi.
+- 4 tema x 16 outcome = 64 outcome-level `needs.json` kaydı üretildi.
+- 64 resource plan need-first olarak yeniden türetildi; coverage önceden varsayılmadı.
+- 64 alignment row yeniden oluşturuldu: 56 `COVERED`, 8 `PARTIALLY_COVERED`, 0 `NOT_COVERED`.
+- Sekiz partial row yalnız konuşma/yazma `.4` outcome'larıdır ve nedeni EBA DPA hedeflerinin authentication-gated olmasıdır.
+- Gap analizi: 0 confirmed required gap, 8 unresolved assessment target. Bu sekiz kayıt artifact üretimine yetki vermez.
+- Cross-theme audit dört konuşma ve dört yazma assessment ihtiyacını ayrı iki provisional cluster altında gerçekten karşılaştırır.
+- Production manifest artık `REUSE_ONLY` olarak parity-certified değildir; `PARITY_REVIEW_BLOCKED` durumundadır.
+
+**Önemli:** Bu aşamada `0 confirmed gap` vardır fakat `0 required artifact` henüz parity-certified değildir. Sekiz EBA hedefi görülmeden Faz 4 ve Faz 9 kapanamaz.
+
+Sonraki uygulanabilir faz: **Faz 14 — TDE_9 eşdeğer bütünlük/validation raporu**. Faz 15 P0/regresyon testleri, Faz 14 sonrasında çalıştırılacaktır.

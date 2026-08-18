@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_10",
+  "gate_count": 8,
+  "status": "BLOCKED_BY_AUTHENTICATED_EBA_TARGET_ACCESS",
+  "records": [
+    {
+      "theme_id": "TEMA_01",
+      "outcome_code": "TDE3.4",
+      "skill_category": "Konuşma",
+      "dpa_form_ids": [
+        "LINK_T1_KONUSMA_DPA"
+      ],
+      "status": "REVIEW_REQUIRED_AUTH_GATED",
+      "coverage": "PARTIALLY_COVERED",
+      "generation_authorized": false
+    },
+    {
+      "theme_id": "TEMA_01",
+      "outcome_code": "TDE4.4",
+      "skill_category": "Yazma",
+      "dpa_form_ids": [
+        "LINK_T1_YAZMA_DPA"
+      ],
+      "status": "REVIEW_REQUIRED_AUTH_GATED",
+      "coverage": "PARTIALLY_COVERED",
+      "generation_authorized": false
+    },
+    {
+      "theme_id": "TEMA_02",
+      "outcome_code": "TDE3.4",
+      "skill_category": "Konuşma",
+      "dpa_form_ids": [
+        "LINK_T2_PODCAST_DPA"
+      ],
+      "status": "REVIEW_REQUIRED_AUTH_GATED",
+      "coverage": "PARTIALLY_COVERED",
+      "generation_authorized": false
+    },
+    {
+      "theme_id": "TEMA_02",
+      "outcome_code": "TDE4.4",
+      "skill_category": "Yazma",
+      "dpa_form_ids": [
+        "LINK_T2_YAZMA_DPA"
+      ],
+      "status": "REVIEW_REQUIRED_AUTH_GATED",
+      "coverage": "PARTIALLY_COVERED",
+      "generation_authorized": false
+    },
+    {
+      "theme_id": "TEMA_03",
+      "outcome_code": "TDE3.4",
+      "skill_category": "Konuşma",
+      "dpa_form_ids": [
+        "LINK_T3_KONUSMA_DPA"
+      ],
+      "status": "REVIEW_REQUIRED_AUTH_GATED",
+      "coverage": "PARTIALLY_COVERED",
+      "generation_authorized": false
+    },
+    {
+      "theme_id": "TEMA_03",
+      "outcome_code": "TDE4.4",
+      "skill_category": "Yazma",
+      "dpa_form_ids": [
+        "LINK_T3_YAZMA_DPA"
+      ],
+      "status": "REVIEW_REQUIRED_AUTH_GATED",
+      "coverage": "PARTIALLY_COVERED",
+      "generation_authorized": false
+    },
+    {
+      "theme_id": "TEMA_04",
+      "outcome_code": "TDE3.4",
+      "skill_category": "Konuşma",
+      "dpa_form_ids": [
+        "LINK_T4_KONUSMA_DPA"
+      ],
+      "status": "REVIEW_REQUIRED_AUTH_GATED",
+      "coverage": "PARTIALLY_COVERED",
+      "generation_authorized": false
+    },
+    {
+      "theme_id": "TEMA_04",
+      "outcome_code": "TDE4.4",
+      "skill_category": "Yazma",
+      "dpa_form_ids": [
+        "LINK_T4_YAZMA_DPA"
+      ],
+      "status": "REVIEW_REQUIRED_AUTH_GATED",
+      "coverage": "PARTIALLY_COVERED",
+      "generation_authorized": false
+    }
+  ]
+}

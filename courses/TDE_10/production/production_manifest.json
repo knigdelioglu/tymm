@@ -1,17 +1,18 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "course_id": "TDE_10",
-  "production_mode": "REUSE_ONLY_NO_NEW_ARTIFACTS",
-  "production_status": "VERIFIED_REUSE_ONLY",
+  "production_mode": "PARITY_REVIEW_BLOCKED",
+  "production_status": "BLOCKED_PENDING_8_EBA_ASSESSMENT_TARGETS",
   "verified_resource_gap_count": 0,
   "expected_new_artifact_count": 0,
   "production_queue": [],
   "gap_instance_provenance_registry": [],
   "artifact_identity_field": "artifact_id",
-  "legacy_gap_alias_policy": "NONE_NO_VERIFIED_GAPS",
+  "legacy_gap_alias_policy": "NONE_NO_CONFIRMED_GAPS",
   "generation_authorization": {
     "allowed": false,
-    "reason": "NO_VERIFIED_RESOURCE_GAP"
+    "reason": "UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS",
+    "blocking_target_count": 8
   },
   "canonical_inputs": {
     "curriculum_map": "curriculum_map.json",
@@ -19,5 +20,7 @@
     "textbook_forms_index": "textbook_forms_index.json",
     "cross_theme_audit": "production/cross_theme_audit.json",
     "consolidated_resource_plan": "production/consolidated_resource_plan.json"
-  }
+  },
+  "unresolved_assessment_target_count": 8,
+  "parity_interpretation": "Zero confirmed gaps is not yet equivalent to NO_REQUIRED_ARTIFACTS; eight normative teacher-assessment targets remain structurally unresolved behind authenticated EBA access."
 }

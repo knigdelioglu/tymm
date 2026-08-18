@@ -1,358 +1,444 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "course_id": "TDE_10",
   "grade": 10,
   "theme_id": "TEMA_03",
   "theme_no": 3,
   "theme_title": "3. TEMA: DÜNDEN BUGÜNE",
-  "analysis_status": "PASS_NO_VERIFIED_RESOURCE_GAPS",
+  "analysis_status": "PASS_WITH_UNRESOLVED_ASSESSMENT_TARGETS",
   "total_outcomes_analyzed": 16,
   "summary_metrics": {
-    "covered_count": 16,
-    "partially_covered_count": 0,
+    "covered_count": 14,
+    "partially_covered_count": 2,
     "not_covered_count": 0,
-    "required_resources_count": 0,
-    "recommended_resources_count": 0,
-    "optional_resources_count": 0,
-    "reuse_textbook_count": 16,
+    "confirmed_required_gap_count": 0,
+    "unresolved_assessment_target_count": 2,
     "generate_count": 0,
-    "unresolved_count": 0
+    "review_required_count": 2
   },
   "gap_records": [
     {
       "gap_id": "GAP_T10_T3_TDE1_1",
-      "need_id": "NEED_T10_T3_DINLEME",
-      "resource_plan_id": "PLAN_T10_T3_DINLEME",
+      "need_id": "NEED_T10_T3_TDE1_1",
+      "resource_plan_id": "PLAN_T10_T3_TDE1_1",
       "outcome_code": "TDE1.1",
+      "outcome_verbatim": "“Dünden Bugüne” temasında ele alınan metinlerde dinleme/izlemeyi yönetebilme",
       "textbook_activity_ids": [
-        "T3_ACT_11_FABL_DINLEME_HAZIRLIK",
-        "T3_ACT_12_FABL_ANLAM",
-        "T3_ACT_13_FABL_COZUMLEME",
-        "T3_ACT_14_FABL_YANSITMA"
+        "T3_ACT_11_FABL_DINLEME_HAZIRLIK"
       ],
       "textbook_form_ids": [
         "FORM_T3_FABL_DINLEME_KONTROL"
       ],
       "textbook_locators": [
-        "s.154-233"
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.209"
       ],
-      "observed_textbook_structure": "Direct local MEB PDF mapping provides the planned section/activity path and expected student evidence. Performance assessment links are present where required.",
+      "observed_textbook_structure": {
+        "student_action": "Dinleme/izleme öncesi ön bilgileri etkinleştirme, amaç/tahmin oluşturma ve dinleme stratejisini hazırlama.",
+        "expected_evidence": "Hazırlık soruları, tahminler ve dinleme öncesi notlar.",
+        "assessment_structures": [
+          "checklist"
+        ]
+      },
       "primary_coverage": "COVERED",
       "need_tags": [],
       "remaining_gap": "NONE",
-      "why_existing_resources_are_insufficient": "N/A - the official textbook provides the required learning/action/evidence path.",
+      "why_existing_resources_are_insufficient": "N/A - textbook path is sufficient.",
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
       "provenance": {
-        "program_locator": "curriculum_map.json#TEMA_03/TDE1.1",
-        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.154-233"
+        "program_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=2",
+        "assessment_requirement": {
+          "normative_requirement": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+          "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=3"
+        },
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.209"
+        ]
       }
     },
     {
       "gap_id": "GAP_T10_T3_TDE1_2",
-      "need_id": "NEED_T10_T3_DINLEME",
-      "resource_plan_id": "PLAN_T10_T3_DINLEME",
+      "need_id": "NEED_T10_T3_TDE1_2",
+      "resource_plan_id": "PLAN_T10_T3_TDE1_2",
       "outcome_code": "TDE1.2",
+      "outcome_verbatim": "“Dünden Bugüne” temasında ele alınan metinlerde anlam oluşturabilme",
       "textbook_activity_ids": [
-        "T3_ACT_11_FABL_DINLEME_HAZIRLIK",
         "T3_ACT_12_FABL_ANLAM",
-        "T3_ACT_13_FABL_COZUMLEME",
-        "T3_ACT_14_FABL_YANSITMA"
+        "T3_ACT_13_FABL_COZUMLEME"
       ],
-      "textbook_form_ids": [
-        "FORM_T3_FABL_DINLEME_KONTROL"
-      ],
+      "textbook_form_ids": [],
       "textbook_locators": [
-        "s.154-233"
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.210-216",
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.217-221"
       ],
-      "observed_textbook_structure": "Direct local MEB PDF mapping provides the planned section/activity path and expected student evidence. Performance assessment links are present where required.",
+      "observed_textbook_structure": {
+        "student_action": "Dinlenen/izlenen metnin konu, ileti, söz varlığı ve bağlamına ilişkin anlam oluşturma çalışmalarını tamamlama. | Dinlenen/izlenen metni yapı, tür, dil-anlatım, değer/ileti ve bağlam yönlerinden çözümleme ve gerekçelendirme.",
+        "expected_evidence": "Dinleme/izleme anlama sorularının cevapları ve notlar. | Tahlil soruları, şema/tablo ve gerekçeli çözümleme cevapları.",
+        "assessment_structures": []
+      },
       "primary_coverage": "COVERED",
       "need_tags": [],
       "remaining_gap": "NONE",
-      "why_existing_resources_are_insufficient": "N/A - the official textbook provides the required learning/action/evidence path.",
+      "why_existing_resources_are_insufficient": "N/A - textbook path is sufficient.",
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
       "provenance": {
-        "program_locator": "curriculum_map.json#TEMA_03/TDE1.2",
-        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.154-233"
+        "program_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=2",
+        "assessment_requirement": {
+          "normative_requirement": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+          "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=3"
+        },
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.210-216",
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.217-221"
+        ]
       }
     },
     {
       "gap_id": "GAP_T10_T3_TDE1_3",
-      "need_id": "NEED_T10_T3_DINLEME",
-      "resource_plan_id": "PLAN_T10_T3_DINLEME",
+      "need_id": "NEED_T10_T3_TDE1_3",
+      "resource_plan_id": "PLAN_T10_T3_TDE1_3",
       "outcome_code": "TDE1.3",
+      "outcome_verbatim": "“Dünden Bugüne” temasında ele alınan metinleri çözümleyebilme",
       "textbook_activity_ids": [
-        "T3_ACT_11_FABL_DINLEME_HAZIRLIK",
-        "T3_ACT_12_FABL_ANLAM",
-        "T3_ACT_13_FABL_COZUMLEME",
-        "T3_ACT_14_FABL_YANSITMA"
+        "T3_ACT_13_FABL_COZUMLEME"
       ],
-      "textbook_form_ids": [
-        "FORM_T3_FABL_DINLEME_KONTROL"
-      ],
+      "textbook_form_ids": [],
       "textbook_locators": [
-        "s.154-233"
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.217-221"
       ],
-      "observed_textbook_structure": "Direct local MEB PDF mapping provides the planned section/activity path and expected student evidence. Performance assessment links are present where required.",
+      "observed_textbook_structure": {
+        "student_action": "Dinlenen/izlenen metni yapı, tür, dil-anlatım, değer/ileti ve bağlam yönlerinden çözümleme ve gerekçelendirme.",
+        "expected_evidence": "Tahlil soruları, şema/tablo ve gerekçeli çözümleme cevapları.",
+        "assessment_structures": []
+      },
       "primary_coverage": "COVERED",
       "need_tags": [],
       "remaining_gap": "NONE",
-      "why_existing_resources_are_insufficient": "N/A - the official textbook provides the required learning/action/evidence path.",
+      "why_existing_resources_are_insufficient": "N/A - textbook path is sufficient.",
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
       "provenance": {
-        "program_locator": "curriculum_map.json#TEMA_03/TDE1.3",
-        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.154-233"
+        "program_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=2",
+        "assessment_requirement": {
+          "normative_requirement": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+          "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=3"
+        },
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.217-221"
+        ]
       }
     },
     {
       "gap_id": "GAP_T10_T3_TDE1_4",
-      "need_id": "NEED_T10_T3_DINLEME",
-      "resource_plan_id": "PLAN_T10_T3_DINLEME",
+      "need_id": "NEED_T10_T3_TDE1_4",
+      "resource_plan_id": "PLAN_T10_T3_TDE1_4",
       "outcome_code": "TDE1.4",
+      "outcome_verbatim": "“Dünden Bugüne” temasında ele alınan metinlere yönelik dinleme/izleme sürecini değerlendirebilme",
       "textbook_activity_ids": [
-        "T3_ACT_11_FABL_DINLEME_HAZIRLIK",
-        "T3_ACT_12_FABL_ANLAM",
-        "T3_ACT_13_FABL_COZUMLEME",
         "T3_ACT_14_FABL_YANSITMA"
       ],
-      "textbook_form_ids": [
-        "FORM_T3_FABL_DINLEME_KONTROL"
-      ],
+      "textbook_form_ids": [],
       "textbook_locators": [
-        "s.154-233"
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.222-223"
       ],
-      "observed_textbook_structure": "Direct local MEB PDF mapping provides the planned section/activity path and expected student evidence. Performance assessment links are present where required.",
+      "observed_textbook_structure": {
+        "student_action": "Öğrenme sürecini, kazanımları ve geliştirilmesi gereken yönleri yansıtma aracıyla değerlendirme.",
+        "expected_evidence": "Çıkış kartı, öğrenme günlüğü veya yansıtma kaydı.",
+        "assessment_structures": []
+      },
       "primary_coverage": "COVERED",
       "need_tags": [],
       "remaining_gap": "NONE",
-      "why_existing_resources_are_insufficient": "N/A - the official textbook provides the required learning/action/evidence path.",
+      "why_existing_resources_are_insufficient": "N/A - textbook path is sufficient.",
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
       "provenance": {
-        "program_locator": "curriculum_map.json#TEMA_03/TDE1.4",
-        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.154-233"
+        "program_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=2",
+        "assessment_requirement": {
+          "normative_requirement": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+          "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=3"
+        },
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.222-223"
+        ]
       }
     },
     {
       "gap_id": "GAP_T10_T3_TDE2_1",
-      "need_id": "NEED_T10_T3_OKUMA",
-      "resource_plan_id": "PLAN_T10_T3_OKUMA",
+      "need_id": "NEED_T10_T3_TDE2_1",
+      "resource_plan_id": "PLAN_T10_T3_TDE2_1",
       "outcome_code": "TDE2.1",
+      "outcome_verbatim": "“Dünden Bugüne” temasında ele alınan metinlerde okumayı yönetebilme",
       "textbook_activity_ids": [
         "T3_ACT_01_DESTAN_HAZIRLIK",
-        "T3_ACT_02_OGUZ_KAGAN_ANLAM",
-        "T3_ACT_03_DESTAN_COZUMLEME",
-        "T3_ACT_04_DESTAN_YANSITMA",
-        "T3_ACT_05_MESNEVI_HAZIRLIK",
-        "T3_ACT_06_HARNAME_TAHLIL",
-        "T3_ACT_07_MESNEVI_KARSILASTIRMA"
+        "T3_ACT_05_MESNEVI_HAZIRLIK"
       ],
       "textbook_form_ids": [],
       "textbook_locators": [
-        "s.154-233"
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.157-159",
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.184-186"
       ],
-      "observed_textbook_structure": "Direct local MEB PDF mapping provides the planned section/activity path and expected student evidence. Performance assessment links are present where required.",
+      "observed_textbook_structure": {
+        "student_action": "Okuma öncesi hazırlık soruları ve yönlendirmeleri üzerinden ön bilgileri etkinleştirme, tahmin oluşturma ve metne/döneme ilişkin hazırlık yapma.",
+        "expected_evidence": "Hazırlık sorularına verilen cevaplar, tahminler ve kısa hazırlık notları.",
+        "assessment_structures": []
+      },
       "primary_coverage": "COVERED",
       "need_tags": [],
       "remaining_gap": "NONE",
-      "why_existing_resources_are_insufficient": "N/A - the official textbook provides the required learning/action/evidence path.",
+      "why_existing_resources_are_insufficient": "N/A - textbook path is sufficient.",
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
       "provenance": {
-        "program_locator": "curriculum_map.json#TEMA_03/TDE2.1",
-        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.154-233"
+        "program_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=2",
+        "assessment_requirement": {
+          "normative_requirement": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+          "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=3"
+        },
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.157-159",
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.184-186"
+        ]
       }
     },
     {
       "gap_id": "GAP_T10_T3_TDE2_2",
-      "need_id": "NEED_T10_T3_OKUMA",
-      "resource_plan_id": "PLAN_T10_T3_OKUMA",
+      "need_id": "NEED_T10_T3_TDE2_2",
+      "resource_plan_id": "PLAN_T10_T3_TDE2_2",
       "outcome_code": "TDE2.2",
+      "outcome_verbatim": "“Dünden Bugüne” temasında ele alınan metinlerde anlam oluşturabilme",
       "textbook_activity_ids": [
-        "T3_ACT_01_DESTAN_HAZIRLIK",
         "T3_ACT_02_OGUZ_KAGAN_ANLAM",
         "T3_ACT_03_DESTAN_COZUMLEME",
-        "T3_ACT_04_DESTAN_YANSITMA",
-        "T3_ACT_05_MESNEVI_HAZIRLIK",
-        "T3_ACT_06_HARNAME_TAHLIL",
-        "T3_ACT_07_MESNEVI_KARSILASTIRMA"
+        "T3_ACT_06_HARNAME_TAHLIL"
       ],
       "textbook_form_ids": [],
       "textbook_locators": [
-        "s.154-233"
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.160-171",
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.172-181",
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.187-198"
       ],
-      "observed_textbook_structure": "Direct local MEB PDF mapping provides the planned section/activity path and expected student evidence. Performance assessment links are present where required.",
+      "observed_textbook_structure": {
+        "student_action": "Metni okuyarak konu, tema, söz varlığı, açık/örtük ileti ve bağlama ilişkin anlam oluşturma sorularını cevaplama. | Metni yapı, tür, dil-anlatım, ahenk/söz varlığı ve dönem bağlamı yönlerinden çözümleyip karşılaştırma ve gerekçelendirme çalışmaları yapma.",
+        "expected_evidence": "Metni anlama sorularına verilen yazılı cevaplar ve anlamlandırma kayıtları. | Tahlil cevapları, karşılaştırma tabloları/şemaları ve gerekçeli çözümleme kayıtları.",
+        "assessment_structures": []
+      },
       "primary_coverage": "COVERED",
       "need_tags": [],
       "remaining_gap": "NONE",
-      "why_existing_resources_are_insufficient": "N/A - the official textbook provides the required learning/action/evidence path.",
+      "why_existing_resources_are_insufficient": "N/A - textbook path is sufficient.",
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
       "provenance": {
-        "program_locator": "curriculum_map.json#TEMA_03/TDE2.2",
-        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.154-233"
+        "program_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=2",
+        "assessment_requirement": {
+          "normative_requirement": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+          "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=3"
+        },
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.160-171",
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.172-181",
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.187-198"
+        ]
       }
     },
     {
       "gap_id": "GAP_T10_T3_TDE2_3",
-      "need_id": "NEED_T10_T3_OKUMA",
-      "resource_plan_id": "PLAN_T10_T3_OKUMA",
+      "need_id": "NEED_T10_T3_TDE2_3",
+      "resource_plan_id": "PLAN_T10_T3_TDE2_3",
       "outcome_code": "TDE2.3",
+      "outcome_verbatim": "“Dünden Bugüne” temasında ele alınan metinleri çözümleyebilme",
       "textbook_activity_ids": [
-        "T3_ACT_01_DESTAN_HAZIRLIK",
-        "T3_ACT_02_OGUZ_KAGAN_ANLAM",
         "T3_ACT_03_DESTAN_COZUMLEME",
-        "T3_ACT_04_DESTAN_YANSITMA",
-        "T3_ACT_05_MESNEVI_HAZIRLIK",
-        "T3_ACT_06_HARNAME_TAHLIL",
-        "T3_ACT_07_MESNEVI_KARSILASTIRMA"
+        "T3_ACT_06_HARNAME_TAHLIL"
       ],
       "textbook_form_ids": [],
       "textbook_locators": [
-        "s.154-233"
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.172-181",
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.187-198"
       ],
-      "observed_textbook_structure": "Direct local MEB PDF mapping provides the planned section/activity path and expected student evidence. Performance assessment links are present where required.",
+      "observed_textbook_structure": {
+        "student_action": "Metni yapı, tür, dil-anlatım, ahenk/söz varlığı ve dönem bağlamı yönlerinden çözümleyip karşılaştırma ve gerekçelendirme çalışmaları yapma.",
+        "expected_evidence": "Tahlil cevapları, karşılaştırma tabloları/şemaları ve gerekçeli çözümleme kayıtları.",
+        "assessment_structures": []
+      },
       "primary_coverage": "COVERED",
       "need_tags": [],
       "remaining_gap": "NONE",
-      "why_existing_resources_are_insufficient": "N/A - the official textbook provides the required learning/action/evidence path.",
+      "why_existing_resources_are_insufficient": "N/A - textbook path is sufficient.",
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
       "provenance": {
-        "program_locator": "curriculum_map.json#TEMA_03/TDE2.3",
-        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.154-233"
+        "program_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=2",
+        "assessment_requirement": {
+          "normative_requirement": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+          "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=3"
+        },
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.172-181",
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.187-198"
+        ]
       }
     },
     {
       "gap_id": "GAP_T10_T3_TDE2_4",
-      "need_id": "NEED_T10_T3_OKUMA",
-      "resource_plan_id": "PLAN_T10_T3_OKUMA",
+      "need_id": "NEED_T10_T3_TDE2_4",
+      "resource_plan_id": "PLAN_T10_T3_TDE2_4",
       "outcome_code": "TDE2.4",
+      "outcome_verbatim": "“Dünden Bugüne” temasında ele alınan metinlere yönelik okuma sürecini değerlendirebilme",
       "textbook_activity_ids": [
-        "T3_ACT_01_DESTAN_HAZIRLIK",
-        "T3_ACT_02_OGUZ_KAGAN_ANLAM",
-        "T3_ACT_03_DESTAN_COZUMLEME",
-        "T3_ACT_04_DESTAN_YANSITMA",
-        "T3_ACT_05_MESNEVI_HAZIRLIK",
-        "T3_ACT_06_HARNAME_TAHLIL",
-        "T3_ACT_07_MESNEVI_KARSILASTIRMA"
+        "T3_ACT_04_DESTAN_YANSITMA"
       ],
       "textbook_form_ids": [],
       "textbook_locators": [
-        "s.154-233"
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.182-183"
       ],
-      "observed_textbook_structure": "Direct local MEB PDF mapping provides the planned section/activity path and expected student evidence. Performance assessment links are present where required.",
+      "observed_textbook_structure": {
+        "student_action": "Öğrenme sürecini, kazanımları ve geliştirilmesi gereken yönleri yansıtma aracıyla değerlendirme.",
+        "expected_evidence": "Çıkış kartı, öğrenme günlüğü veya yansıtma kaydı.",
+        "assessment_structures": []
+      },
       "primary_coverage": "COVERED",
       "need_tags": [],
       "remaining_gap": "NONE",
-      "why_existing_resources_are_insufficient": "N/A - the official textbook provides the required learning/action/evidence path.",
+      "why_existing_resources_are_insufficient": "N/A - textbook path is sufficient.",
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
       "provenance": {
-        "program_locator": "curriculum_map.json#TEMA_03/TDE2.4",
-        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.154-233"
+        "program_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=2",
+        "assessment_requirement": {
+          "normative_requirement": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+          "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=3"
+        },
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.182-183"
+        ]
       }
     },
     {
       "gap_id": "GAP_T10_T3_TDE3_1",
-      "need_id": "NEED_T10_T3_KONUSMA",
-      "resource_plan_id": "PLAN_T10_T3_KONUSMA",
+      "need_id": "NEED_T10_T3_TDE3_1",
+      "resource_plan_id": "PLAN_T10_T3_TDE3_1",
       "outcome_code": "TDE3.1",
+      "outcome_verbatim": "Türk destanlarıyla ilgili hazırladığı konuşmasında konuşmayı yönetebilme",
       "textbook_activity_ids": [
-        "T3_ACT_08_DESTAN_SUNUM_PLAN",
-        "T3_ACT_09_DESTAN_SUNUM",
-        "T3_ACT_10_KONUSMA_OZ_AKRAN"
+        "T3_ACT_08_DESTAN_SUNUM_PLAN"
       ],
-      "textbook_form_ids": [
-        "FORM_T3_KONUSMA_OZ",
-        "FORM_T3_KONUSMA_AKRAN",
-        "LINK_T3_KONUSMA_DPA"
-      ],
+      "textbook_form_ids": [],
       "textbook_locators": [
-        "s.154-233"
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.204-206"
       ],
-      "observed_textbook_structure": "Direct local MEB PDF mapping provides the planned section/activity path and expected student evidence. Performance assessment links are present where required.",
+      "observed_textbook_structure": {
+        "student_action": "Konuşma performansının tema/içerik seçimi, kaynak/şiir derleme, akış, süre, mekân ve görev paylaşımını planlama.",
+        "expected_evidence": "Konuşma/sunum planı, kaynak seçimi ve görev dağılımı kaydı.",
+        "assessment_structures": []
+      },
       "primary_coverage": "COVERED",
       "need_tags": [],
       "remaining_gap": "NONE",
-      "why_existing_resources_are_insufficient": "N/A - the official textbook provides the required learning/action/evidence path.",
+      "why_existing_resources_are_insufficient": "N/A - textbook path is sufficient.",
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
       "provenance": {
-        "program_locator": "curriculum_map.json#TEMA_03/TDE3.1",
-        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.154-233"
+        "program_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=2",
+        "assessment_requirement": {
+          "normative_requirement": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+          "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=3"
+        },
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.204-206"
+        ]
       }
     },
     {
       "gap_id": "GAP_T10_T3_TDE3_2",
-      "need_id": "NEED_T10_T3_KONUSMA",
-      "resource_plan_id": "PLAN_T10_T3_KONUSMA",
+      "need_id": "NEED_T10_T3_TDE3_2",
+      "resource_plan_id": "PLAN_T10_T3_TDE3_2",
       "outcome_code": "TDE3.2",
+      "outcome_verbatim": "Türk destanlarıyla ilgili hazırladığı konuşmasında türe özgü içerik oluşturabilme",
       "textbook_activity_ids": [
         "T3_ACT_08_DESTAN_SUNUM_PLAN",
-        "T3_ACT_09_DESTAN_SUNUM",
-        "T3_ACT_10_KONUSMA_OZ_AKRAN"
+        "T3_ACT_09_DESTAN_SUNUM"
       ],
       "textbook_form_ids": [
-        "FORM_T3_KONUSMA_OZ",
-        "FORM_T3_KONUSMA_AKRAN",
-        "LINK_T3_KONUSMA_DPA"
+        "FORM_T3_KONUSMA_OZ"
       ],
       "textbook_locators": [
-        "s.154-233"
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.204-206",
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.206-207"
       ],
-      "observed_textbook_structure": "Direct local MEB PDF mapping provides the planned section/activity path and expected student evidence. Performance assessment links are present where required.",
+      "observed_textbook_structure": {
+        "student_action": "Konuşma performansının tema/içerik seçimi, kaynak/şiir derleme, akış, süre, mekân ve görev paylaşımını planlama. | Planlanan sözlü performansı vurgu-tonlama, beden dili, zaman/mekân kullanımı ve Türkçenin doğru kullanımı gözetilerek gerçekleştirme.",
+        "expected_evidence": "Konuşma/sunum planı, kaynak seçimi ve görev dağılımı kaydı. | Canlı veya kaydedilmiş konuşma/sunum performansı.",
+        "assessment_structures": [
+          "self_assessment_form"
+        ]
+      },
       "primary_coverage": "COVERED",
       "need_tags": [],
       "remaining_gap": "NONE",
-      "why_existing_resources_are_insufficient": "N/A - the official textbook provides the required learning/action/evidence path.",
+      "why_existing_resources_are_insufficient": "N/A - textbook path is sufficient.",
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
       "provenance": {
-        "program_locator": "curriculum_map.json#TEMA_03/TDE3.2",
-        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.154-233"
+        "program_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=2",
+        "assessment_requirement": {
+          "normative_requirement": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+          "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=3"
+        },
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.204-206",
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.206-207"
+        ]
       }
     },
     {
       "gap_id": "GAP_T10_T3_TDE3_3",
-      "need_id": "NEED_T10_T3_KONUSMA",
-      "resource_plan_id": "PLAN_T10_T3_KONUSMA",
+      "need_id": "NEED_T10_T3_TDE3_3",
+      "resource_plan_id": "PLAN_T10_T3_TDE3_3",
       "outcome_code": "TDE3.3",
+      "outcome_verbatim": "Türk destanlarıyla ilgili hazırladığı konuşmasında kural uygulayabilme",
       "textbook_activity_ids": [
-        "T3_ACT_08_DESTAN_SUNUM_PLAN",
-        "T3_ACT_09_DESTAN_SUNUM",
-        "T3_ACT_10_KONUSMA_OZ_AKRAN"
+        "T3_ACT_09_DESTAN_SUNUM"
       ],
       "textbook_form_ids": [
-        "FORM_T3_KONUSMA_OZ",
-        "FORM_T3_KONUSMA_AKRAN",
-        "LINK_T3_KONUSMA_DPA"
+        "FORM_T3_KONUSMA_OZ"
       ],
       "textbook_locators": [
-        "s.154-233"
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.206-207"
       ],
-      "observed_textbook_structure": "Direct local MEB PDF mapping provides the planned section/activity path and expected student evidence. Performance assessment links are present where required.",
+      "observed_textbook_structure": {
+        "student_action": "Planlanan sözlü performansı vurgu-tonlama, beden dili, zaman/mekân kullanımı ve Türkçenin doğru kullanımı gözetilerek gerçekleştirme.",
+        "expected_evidence": "Canlı veya kaydedilmiş konuşma/sunum performansı.",
+        "assessment_structures": [
+          "self_assessment_form"
+        ]
+      },
       "primary_coverage": "COVERED",
       "need_tags": [],
       "remaining_gap": "NONE",
-      "why_existing_resources_are_insufficient": "N/A - the official textbook provides the required learning/action/evidence path.",
+      "why_existing_resources_are_insufficient": "N/A - textbook path is sufficient.",
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
       "provenance": {
-        "program_locator": "curriculum_map.json#TEMA_03/TDE3.3",
-        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.154-233"
+        "program_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=2",
+        "assessment_requirement": {
+          "normative_requirement": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+          "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=3"
+        },
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.206-207"
+        ]
       }
     },
     {
       "gap_id": "GAP_T10_T3_TDE3_4",
-      "need_id": "NEED_T10_T3_KONUSMA",
-      "resource_plan_id": "PLAN_T10_T3_KONUSMA",
+      "need_id": "NEED_T10_T3_TDE3_4",
+      "resource_plan_id": "PLAN_T10_T3_TDE3_4",
       "outcome_code": "TDE3.4",
+      "outcome_verbatim": "Türk destanlarıyla ilgili hazırladığı konuşmasına yönelik süreci değerlendirebilme",
       "textbook_activity_ids": [
-        "T3_ACT_08_DESTAN_SUNUM_PLAN",
-        "T3_ACT_09_DESTAN_SUNUM",
         "T3_ACT_10_KONUSMA_OZ_AKRAN"
       ],
       "textbook_form_ids": [
@@ -361,87 +447,125 @@
         "LINK_T3_KONUSMA_DPA"
       ],
       "textbook_locators": [
-        "s.154-233"
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.207-208"
       ],
-      "observed_textbook_structure": "Direct local MEB PDF mapping provides the planned section/activity path and expected student evidence. Performance assessment links are present where required.",
-      "primary_coverage": "COVERED",
-      "need_tags": [],
-      "remaining_gap": "NONE",
-      "why_existing_resources_are_insufficient": "N/A - the official textbook provides the required learning/action/evidence path.",
-      "production_decision": "REUSE_TEXTBOOK",
-      "priority": "NOT_NEEDED",
+      "observed_textbook_structure": {
+        "student_action": "Konuşma performansını öz/akran değerlendirme ve öğretmen puanlama aracıyla değerlendirme; geri bildirimle yeniden düzenleme.",
+        "expected_evidence": "Doldurulmuş değerlendirme formu, çıkış/yansıtma kaydı ve öğretmen puanlama kanıtı.",
+        "assessment_structures": [
+          "self_assessment_form",
+          "peer_assessment_form",
+          "linked_assessment_resource"
+        ]
+      },
+      "primary_coverage": "PARTIALLY_COVERED",
+      "need_tags": [
+        "ASSESSMENT_TARGET_AUTH_GATED"
+      ],
+      "remaining_gap": "Official EBA DPA link exists but target structure is authentication-gated and unresolved.",
+      "why_existing_resources_are_insufficient": "External teacher assessment target cannot be structurally verified without authenticated EBA access.",
+      "production_decision": "NO_ACTION_PENDING_ASSESSMENT_TARGET",
+      "priority": "REVIEW_REQUIRED",
       "provenance": {
-        "program_locator": "curriculum_map.json#TEMA_03/TDE3.4",
-        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.154-233"
+        "program_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=2",
+        "assessment_requirement": {
+          "normative_requirement": "Dereceli puanlama anahtarı ile öğretmen değerlendirmesi",
+          "performance_task": "Türk destanları ile ilgili sunum hazırlama ve sunma",
+          "rubric_criteria": [
+            "içeriğe uygunluk",
+            "millî ve kültürel unsurlar",
+            "görsel ögeler",
+            "zaman ve mekân",
+            "söz ve beden dili"
+          ],
+          "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=3"
+        },
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.207-208"
+        ]
       }
     },
     {
       "gap_id": "GAP_T10_T3_TDE4_1",
-      "need_id": "NEED_T10_T3_YAZMA",
-      "resource_plan_id": "PLAN_T10_T3_YAZMA",
+      "need_id": "NEED_T10_T3_TDE4_1",
+      "resource_plan_id": "PLAN_T10_T3_TDE4_1",
       "outcome_code": "TDE4.1",
+      "outcome_verbatim": "Fabl türünün özelliklerine uygun olarak oluşturduğu metinlerde yazmayı yönetebilme",
       "textbook_activity_ids": [
-        "T3_ACT_15_FABL_YAZMA_PLAN",
-        "T3_ACT_16_FABL_YAZMA",
-        "T3_ACT_17_FABL_YAZMA_DEGERLENDIRME"
+        "T3_ACT_15_FABL_YAZMA_PLAN"
       ],
-      "textbook_form_ids": [
-        "FORM_T3_YAZMA_OZ",
-        "FORM_T3_YAZMA_AKRAN",
-        "LINK_T3_YAZMA_DPA"
-      ],
+      "textbook_form_ids": [],
       "textbook_locators": [
-        "s.154-233"
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.224-225"
       ],
-      "observed_textbook_structure": "Direct local MEB PDF mapping provides the planned section/activity path and expected student evidence. Performance assessment links are present where required.",
+      "observed_textbook_structure": {
+        "student_action": "Yazma amacı, hedef kitle, tür, içerik, ileti, strateji ve taslak planı belirleme; geri bildirimle planı gözden geçirme.",
+        "expected_evidence": "Yazma planı, seçim/gerekçe kayıtları ve taslak hazırlık notları.",
+        "assessment_structures": []
+      },
       "primary_coverage": "COVERED",
       "need_tags": [],
       "remaining_gap": "NONE",
-      "why_existing_resources_are_insufficient": "N/A - the official textbook provides the required learning/action/evidence path.",
+      "why_existing_resources_are_insufficient": "N/A - textbook path is sufficient.",
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
       "provenance": {
-        "program_locator": "curriculum_map.json#TEMA_03/TDE4.1",
-        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.154-233"
+        "program_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=2",
+        "assessment_requirement": {
+          "normative_requirement": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+          "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=3"
+        },
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.224-225"
+        ]
       }
     },
     {
       "gap_id": "GAP_T10_T3_TDE4_2",
-      "need_id": "NEED_T10_T3_YAZMA",
-      "resource_plan_id": "PLAN_T10_T3_YAZMA",
+      "need_id": "NEED_T10_T3_TDE4_2",
+      "resource_plan_id": "PLAN_T10_T3_TDE4_2",
       "outcome_code": "TDE4.2",
+      "outcome_verbatim": "Fabl türünün özelliklerine uygun olarak oluşturduğu metinlerde içerik oluşturabilme",
       "textbook_activity_ids": [
-        "T3_ACT_15_FABL_YAZMA_PLAN",
-        "T3_ACT_16_FABL_YAZMA",
-        "T3_ACT_17_FABL_YAZMA_DEGERLENDIRME"
+        "T3_ACT_16_FABL_YAZMA"
       ],
       "textbook_form_ids": [
-        "FORM_T3_YAZMA_OZ",
-        "FORM_T3_YAZMA_AKRAN",
-        "LINK_T3_YAZMA_DPA"
+        "FORM_T3_YAZMA_OZ"
       ],
       "textbook_locators": [
-        "s.154-233"
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.225-227"
       ],
-      "observed_textbook_structure": "Direct local MEB PDF mapping provides the planned section/activity path and expected student evidence. Performance assessment links are present where required.",
+      "observed_textbook_structure": {
+        "student_action": "Belirlenen tür ve amaca uygun taslak/ürün oluşturma; dil, anlatım, yapı ve estetik unsurları uygulama.",
+        "expected_evidence": "Taslak ve/veya nihai yazılı ürün.",
+        "assessment_structures": [
+          "self_assessment_form"
+        ]
+      },
       "primary_coverage": "COVERED",
       "need_tags": [],
       "remaining_gap": "NONE",
-      "why_existing_resources_are_insufficient": "N/A - the official textbook provides the required learning/action/evidence path.",
+      "why_existing_resources_are_insufficient": "N/A - textbook path is sufficient.",
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
       "provenance": {
-        "program_locator": "curriculum_map.json#TEMA_03/TDE4.2",
-        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.154-233"
+        "program_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=2",
+        "assessment_requirement": {
+          "normative_requirement": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+          "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=3"
+        },
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.225-227"
+        ]
       }
     },
     {
       "gap_id": "GAP_T10_T3_TDE4_3",
-      "need_id": "NEED_T10_T3_YAZMA",
-      "resource_plan_id": "PLAN_T10_T3_YAZMA",
+      "need_id": "NEED_T10_T3_TDE4_3",
+      "resource_plan_id": "PLAN_T10_T3_TDE4_3",
       "outcome_code": "TDE4.3",
+      "outcome_verbatim": "Fabl türünün özelliklerine uygun olarak oluşturduğu metinlerde kural uygulayabilme",
       "textbook_activity_ids": [
-        "T3_ACT_15_FABL_YAZMA_PLAN",
         "T3_ACT_16_FABL_YAZMA",
         "T3_ACT_17_FABL_YAZMA_DEGERLENDIRME"
       ],
@@ -451,28 +575,45 @@
         "LINK_T3_YAZMA_DPA"
       ],
       "textbook_locators": [
-        "s.154-233"
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.225-227",
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.227-228"
       ],
-      "observed_textbook_structure": "Direct local MEB PDF mapping provides the planned section/activity path and expected student evidence. Performance assessment links are present where required.",
+      "observed_textbook_structure": {
+        "student_action": "Belirlenen tür ve amaca uygun taslak/ürün oluşturma; dil, anlatım, yapı ve estetik unsurları uygulama. | Yazılı ürünü kontrol listesi, öz/akran değerlendirme ve öğretmen puanlama aracıyla değerlendirme; geri bildirimle revize etme.",
+        "expected_evidence": "Taslak ve/veya nihai yazılı ürün. | Kontrol/öz/akran formu, öğretmen puanlama kanıtı ve revize edilmiş nihai ürün.",
+        "assessment_structures": [
+          "self_assessment_form",
+          "peer_assessment_form",
+          "linked_assessment_resource"
+        ]
+      },
       "primary_coverage": "COVERED",
-      "need_tags": [],
+      "need_tags": [
+        "ASSESSMENT_TARGET_AUTH_GATED"
+      ],
       "remaining_gap": "NONE",
-      "why_existing_resources_are_insufficient": "N/A - the official textbook provides the required learning/action/evidence path.",
+      "why_existing_resources_are_insufficient": "N/A - textbook path is sufficient.",
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
       "provenance": {
-        "program_locator": "curriculum_map.json#TEMA_03/TDE4.3",
-        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.154-233"
+        "program_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=2",
+        "assessment_requirement": {
+          "normative_requirement": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+          "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=3"
+        },
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.225-227",
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.227-228"
+        ]
       }
     },
     {
       "gap_id": "GAP_T10_T3_TDE4_4",
-      "need_id": "NEED_T10_T3_YAZMA",
-      "resource_plan_id": "PLAN_T10_T3_YAZMA",
+      "need_id": "NEED_T10_T3_TDE4_4",
+      "resource_plan_id": "PLAN_T10_T3_TDE4_4",
       "outcome_code": "TDE4.4",
+      "outcome_verbatim": "Fabl türünün özelliklerine uygun olarak oluşturduğu metinlere yönelik yazma sürecini değerlendirebilme",
       "textbook_activity_ids": [
-        "T3_ACT_15_FABL_YAZMA_PLAN",
-        "T3_ACT_16_FABL_YAZMA",
         "T3_ACT_17_FABL_YAZMA_DEGERLENDIRME"
       ],
       "textbook_form_ids": [
@@ -481,20 +622,43 @@
         "LINK_T3_YAZMA_DPA"
       ],
       "textbook_locators": [
-        "s.154-233"
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.227-228"
       ],
-      "observed_textbook_structure": "Direct local MEB PDF mapping provides the planned section/activity path and expected student evidence. Performance assessment links are present where required.",
-      "primary_coverage": "COVERED",
-      "need_tags": [],
-      "remaining_gap": "NONE",
-      "why_existing_resources_are_insufficient": "N/A - the official textbook provides the required learning/action/evidence path.",
-      "production_decision": "REUSE_TEXTBOOK",
-      "priority": "NOT_NEEDED",
+      "observed_textbook_structure": {
+        "student_action": "Yazılı ürünü kontrol listesi, öz/akran değerlendirme ve öğretmen puanlama aracıyla değerlendirme; geri bildirimle revize etme.",
+        "expected_evidence": "Kontrol/öz/akran formu, öğretmen puanlama kanıtı ve revize edilmiş nihai ürün.",
+        "assessment_structures": [
+          "self_assessment_form",
+          "peer_assessment_form",
+          "linked_assessment_resource"
+        ]
+      },
+      "primary_coverage": "PARTIALLY_COVERED",
+      "need_tags": [
+        "ASSESSMENT_TARGET_AUTH_GATED"
+      ],
+      "remaining_gap": "Official EBA DPA link exists but target structure is authentication-gated and unresolved.",
+      "why_existing_resources_are_insufficient": "External teacher assessment target cannot be structurally verified without authenticated EBA access.",
+      "production_decision": "NO_ACTION_PENDING_ASSESSMENT_TARGET",
+      "priority": "REVIEW_REQUIRED",
       "provenance": {
-        "program_locator": "curriculum_map.json#TEMA_03/TDE4.4",
-        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.154-233"
+        "program_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=3",
+        "assessment_requirement": {
+          "normative_requirement": "Dereceli puanlama anahtarı ile öğretmen değerlendirmesi",
+          "performance_task": "Verilen temaya uygun bir fabl yazma ve paylaşma",
+          "rubric_criteria": [
+            "yaratıcılık",
+            "biçim ve tür özellikleri",
+            "ahenk unsurları",
+            "etkileyicilik"
+          ],
+          "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF#pdf_page=3"
+        },
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.227-228"
+        ]
       }
     }
   ],
-  "conclusion": "No verified resource gap remains after direct local MEB textbook PDF inspection. External DPA target structures are unclassified by design, but official link presence plus in-book self/peer/reflection evidence is sufficient for coverage."
+  "gap_rule": "PARTIALLY_COVERED caused only by an unresolved external assessment target is not a confirmed material gap and does not authorize generation."
 }

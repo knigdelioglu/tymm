@@ -1,155 +1,413 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "course_id": "TDE_10",
   "grade": 10,
   "theme_id": "TEMA_04",
   "theme_no": 4,
   "theme_title": "4. TEMA: NESİLLERİN MİRASI",
-  "domain_or_subject_profile": "TDE / Türkçe",
-  "analysis_status": "CURRICULUM_BASED_TEXTBOOK_COVERAGE_PENDING",
+  "analysis_status": "OUTCOME_LEVEL_NEEDS_DERIVED_NO_COVERAGE_ASSUMPTION",
   "needs": [
     {
-      "need_id": "NEED_T10_T4_DINLEME",
+      "need_id": "NEED_T10_T4_TDE1_1",
+      "outcome_id": "TDE10_T4_TDE1_1",
+      "outcome_code": "TDE1.1",
+      "outcome_verbatim": "“Nesillerin Mirası” temasında ele alınan metinlerde dinleme/izlemeyi yönetebilme",
+      "skill_category": "Dinleme/İzleme",
       "targeted_learning_outcomes": [
-        "TDE1.1",
-        "TDE1.2",
-        "TDE1.3",
+        "TDE1.1"
+      ],
+      "targeted_process_components": [],
+      "process_component_status": "SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS",
+      "expected_student_actions": "Dinleme/izleme amacını ve stratejisini belirleme; ön bilgileri etkinleştirme ve tahmin oluşturma.",
+      "expected_student_evidence": "Hazırlık cevapları, tahminler ve dinleme/izleme öncesi notlar.",
+      "feedback_need": "Öğrenci kanıtına ölçüt/evidence temelli öğretmen ve gerektiğinde akran geri bildirimi.",
+      "assessment_need": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+      "differentiation_need": "Görev yükünü ve temsil biçimini değiştirmeden basamaklandırılmış yönerge, şablon ve ek süre seçenekleri.",
+      "enrichment_opportunity": "Aynı kazanımı daha geniş kaynak, karşılaştırma veya özgün üretimle derinleştirme.",
+      "accessibility_need": "Metin/işitsel/görsel erişilebilirlik, okunabilir şablon ve uygun alternatif erişim biçimi.",
+      "external_content_need": "TO_BE_DERIVED_FROM_TEXTBOOK_ALIGNMENT",
+      "coverage_assertion": "NONE_NEEDS_STAGE",
+      "provenance": {
+        "curriculum_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=2",
+        "assessment_requirement_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=3"
+      }
+    },
+    {
+      "need_id": "NEED_T10_T4_TDE1_2",
+      "outcome_id": "TDE10_T4_TDE1_2",
+      "outcome_code": "TDE1.2",
+      "outcome_verbatim": "“Nesillerin Mirası” temasında ele alınan metinlerde anlam oluşturabilme",
+      "skill_category": "Dinleme/İzleme",
+      "targeted_learning_outcomes": [
+        "TDE1.2"
+      ],
+      "targeted_process_components": [],
+      "process_component_status": "SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS",
+      "expected_student_actions": "Dinlenen/izlenen metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturma.",
+      "expected_student_evidence": "Anlama soruları cevapları ve yapılandırılmış dinleme/izleme notları.",
+      "feedback_need": "Öğrenci kanıtına ölçüt/evidence temelli öğretmen ve gerektiğinde akran geri bildirimi.",
+      "assessment_need": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+      "differentiation_need": "Görev yükünü ve temsil biçimini değiştirmeden basamaklandırılmış yönerge, şablon ve ek süre seçenekleri.",
+      "enrichment_opportunity": "Aynı kazanımı daha geniş kaynak, karşılaştırma veya özgün üretimle derinleştirme.",
+      "accessibility_need": "Metin/işitsel/görsel erişilebilirlik, okunabilir şablon ve uygun alternatif erişim biçimi.",
+      "external_content_need": "TO_BE_DERIVED_FROM_TEXTBOOK_ALIGNMENT",
+      "coverage_assertion": "NONE_NEEDS_STAGE",
+      "provenance": {
+        "curriculum_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=2",
+        "assessment_requirement_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=3"
+      }
+    },
+    {
+      "need_id": "NEED_T10_T4_TDE1_3",
+      "outcome_id": "TDE10_T4_TDE1_3",
+      "outcome_code": "TDE1.3",
+      "outcome_verbatim": "“Nesillerin Mirası” temasında ele alınan metinleri çözümleyebilme",
+      "skill_category": "Dinleme/İzleme",
+      "targeted_learning_outcomes": [
+        "TDE1.3"
+      ],
+      "targeted_process_components": [],
+      "process_component_status": "SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS",
+      "expected_student_actions": "Dinlenen/izlenen metni yapı, tür, dil-anlatım, değer/ileti ve bağlam yönlerinden çözümleme.",
+      "expected_student_evidence": "Tahlil cevapları, karşılaştırma/şema kayıtları ve gerekçeli çıkarımlar.",
+      "feedback_need": "Öğrenci kanıtına ölçüt/evidence temelli öğretmen ve gerektiğinde akran geri bildirimi.",
+      "assessment_need": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+      "differentiation_need": "Görev yükünü ve temsil biçimini değiştirmeden basamaklandırılmış yönerge, şablon ve ek süre seçenekleri.",
+      "enrichment_opportunity": "Aynı kazanımı daha geniş kaynak, karşılaştırma veya özgün üretimle derinleştirme.",
+      "accessibility_need": "Metin/işitsel/görsel erişilebilirlik, okunabilir şablon ve uygun alternatif erişim biçimi.",
+      "external_content_need": "TO_BE_DERIVED_FROM_TEXTBOOK_ALIGNMENT",
+      "coverage_assertion": "NONE_NEEDS_STAGE",
+      "provenance": {
+        "curriculum_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=2",
+        "assessment_requirement_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=3"
+      }
+    },
+    {
+      "need_id": "NEED_T10_T4_TDE1_4",
+      "outcome_id": "TDE10_T4_TDE1_4",
+      "outcome_code": "TDE1.4",
+      "outcome_verbatim": "“Nesillerin Mirası” temasında ele alınan metinlerde dinleme/izleme sürecini değerlendirebilme",
+      "skill_category": "Dinleme/İzleme",
+      "targeted_learning_outcomes": [
         "TDE1.4"
       ],
       "targeted_process_components": [],
-      "process_component_status": "SOURCE_COMPLETE_PARENT_OUTCOME_REPRESENTATION",
-      "conceptual_prerequisites": "Millî Edebiyat hikâyesi, kurmaca, karakter, yapı unsurları, dönem-toplum ilişkisi, açık/örtük ileti.",
-      "procedural_or_skill_prerequisites": "Dinleme/izleme stratejisi, not alma, karakter niyeti ve yapı unsuru çözümleme, karşılaştırma ve öz değerlendirme.",
-      "expected_student_actions": "Millî Edebiyat döneminden bir hikâyeyi dinleme/izleme; karakter, olay, zaman, mekân, dil ve anlatımı çözümleme; dönem/toplum bağını ve iletileri değerlendirme; gerçek dünya bilgisi ve kendi görüşleriyle karşılaştırma.",
-      "expected_student_evidence": "Dinleme notları, kısa/açık uçlu cevaplar, gözlem/karşılaştırma formu, gerekçeli eleştiri ve öz değerlendirme.",
-      "likely_misconceptions": "Dönem özelliğinin yalnız tarih bilgisi olduğu; karakter davranışlarının metnin toplum/dönem bağlamından bağımsız olduğu yanılgıları.",
-      "cognitive_demand": "Çözümleme + Tarihsel Bağlam + Değerlendirme",
-      "interaction_need": "Bireysel dinleme ve sınıf tartışması.",
-      "representation_need": "İşitsel/görsel hikâye, karakter-yapı şeması ve dönem bağlamı tablosu.",
-      "practice_need": "Karakter niyeti, yapı-dil ilişkisi ve dönem-toplum bağlantısı kurma.",
-      "feedback_need": "Gerekçeli çözümleme ve değerlendirme yanıtlarına geri bildirim.",
-      "assessment_need": "Kısa/açık uçlu sorular, gözlem formu, karşılaştırma ve öz değerlendirme.",
-      "differentiation_need": "Transkript, karakter kartları, zaman/olay şeması ve yönlendirici sorular.",
-      "enrichment_opportunity": "Millî Edebiyat hikâyelerini farklı dönem anlatılarıyla karşılaştırma.",
-      "accessibility_need": "Altyazı/transkript ve yapılandırılmış not formu.",
-      "safety_need": "N/A",
-      "external_content_need": "NONE_TEXTBOOK_COVERED",
-      "rationale": "Tema, kültürel mirasın değişim içindeki aktarımını dinleme/izleme metninde yapı, dönem ve değer kanıtları üzerinden değerlendirmeyi gerektirir.",
-      "provenance": "curriculum_tde10_theme_04 / official TYMM TEMA_04"
+      "process_component_status": "SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS",
+      "expected_student_actions": "Dinleme/izleme sürecini kanıta dayalı biçimde değerlendirme ve geliştirilmesi gereken yönleri belirleme.",
+      "expected_student_evidence": "Öz değerlendirme/yansıtma kaydı ve gerekçeli değerlendirme.",
+      "feedback_need": "Öğrenci kanıtına ölçüt/evidence temelli öğretmen ve gerektiğinde akran geri bildirimi.",
+      "assessment_need": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+      "differentiation_need": "Görev yükünü ve temsil biçimini değiştirmeden basamaklandırılmış yönerge, şablon ve ek süre seçenekleri.",
+      "enrichment_opportunity": "Aynı kazanımı daha geniş kaynak, karşılaştırma veya özgün üretimle derinleştirme.",
+      "accessibility_need": "Metin/işitsel/görsel erişilebilirlik, okunabilir şablon ve uygun alternatif erişim biçimi.",
+      "external_content_need": "TO_BE_DERIVED_FROM_TEXTBOOK_ALIGNMENT",
+      "coverage_assertion": "NONE_NEEDS_STAGE",
+      "provenance": {
+        "curriculum_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=2",
+        "assessment_requirement_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=3"
+      }
     },
     {
-      "need_id": "NEED_T10_T4_OKUMA",
+      "need_id": "NEED_T10_T4_TDE2_1",
+      "outcome_id": "TDE10_T4_TDE2_1",
+      "outcome_code": "TDE2.1",
+      "outcome_verbatim": "“Nesillerin Mirası” temasında ele alınan metinlerde okumayı yönetebilme",
+      "skill_category": "Okuma",
       "targeted_learning_outcomes": [
-        "TDE2.1",
-        "TDE2.2",
-        "TDE2.3",
+        "TDE2.1"
+      ],
+      "targeted_process_components": [],
+      "process_component_status": "SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS",
+      "expected_student_actions": "Okuma amacı ve stratejisini belirleme; ön bilgileri etkinleştirme, tahmin oluşturma ve metne hazırlanma.",
+      "expected_student_evidence": "Okuma öncesi cevaplar, tahminler ve hazırlık notları.",
+      "feedback_need": "Öğrenci kanıtına ölçüt/evidence temelli öğretmen ve gerektiğinde akran geri bildirimi.",
+      "assessment_need": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+      "differentiation_need": "Görev yükünü ve temsil biçimini değiştirmeden basamaklandırılmış yönerge, şablon ve ek süre seçenekleri.",
+      "enrichment_opportunity": "Aynı kazanımı daha geniş kaynak, karşılaştırma veya özgün üretimle derinleştirme.",
+      "accessibility_need": "Metin/işitsel/görsel erişilebilirlik, okunabilir şablon ve uygun alternatif erişim biçimi.",
+      "external_content_need": "TO_BE_DERIVED_FROM_TEXTBOOK_ALIGNMENT",
+      "coverage_assertion": "NONE_NEEDS_STAGE",
+      "provenance": {
+        "curriculum_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=2",
+        "assessment_requirement_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=3"
+      }
+    },
+    {
+      "need_id": "NEED_T10_T4_TDE2_2",
+      "outcome_id": "TDE10_T4_TDE2_2",
+      "outcome_code": "TDE2.2",
+      "outcome_verbatim": "“Nesillerin Mirası” temasında ele alınan metinlerde anlam oluşturabilme",
+      "skill_category": "Okuma",
+      "targeted_learning_outcomes": [
+        "TDE2.2"
+      ],
+      "targeted_process_components": [],
+      "process_component_status": "SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS",
+      "expected_student_actions": "Metnin konu, tema, ana düşünce/ileti, söz varlığı ve bağlamından anlam oluşturma.",
+      "expected_student_evidence": "Anlama soruları cevapları, işaretlemeler ve anlamlandırma kayıtları.",
+      "feedback_need": "Öğrenci kanıtına ölçüt/evidence temelli öğretmen ve gerektiğinde akran geri bildirimi.",
+      "assessment_need": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+      "differentiation_need": "Görev yükünü ve temsil biçimini değiştirmeden basamaklandırılmış yönerge, şablon ve ek süre seçenekleri.",
+      "enrichment_opportunity": "Aynı kazanımı daha geniş kaynak, karşılaştırma veya özgün üretimle derinleştirme.",
+      "accessibility_need": "Metin/işitsel/görsel erişilebilirlik, okunabilir şablon ve uygun alternatif erişim biçimi.",
+      "external_content_need": "TO_BE_DERIVED_FROM_TEXTBOOK_ALIGNMENT",
+      "coverage_assertion": "NONE_NEEDS_STAGE",
+      "provenance": {
+        "curriculum_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=2",
+        "assessment_requirement_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=3"
+      }
+    },
+    {
+      "need_id": "NEED_T10_T4_TDE2_3",
+      "outcome_id": "TDE10_T4_TDE2_3",
+      "outcome_code": "TDE2.3",
+      "outcome_verbatim": "“Nesillerin Mirası” temasında ele alınan metinleri çözümleyebilme",
+      "skill_category": "Okuma",
+      "targeted_learning_outcomes": [
+        "TDE2.3"
+      ],
+      "targeted_process_components": [],
+      "process_component_status": "SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS",
+      "expected_student_actions": "Metni yapı, tür, dil-anlatım, ahenk/söz varlığı ve dönem bağlamında çözümleyip karşılaştırma.",
+      "expected_student_evidence": "Tahlil cevapları, tablo/şema ve gerekçeli karşılaştırma kayıtları.",
+      "feedback_need": "Öğrenci kanıtına ölçüt/evidence temelli öğretmen ve gerektiğinde akran geri bildirimi.",
+      "assessment_need": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+      "differentiation_need": "Görev yükünü ve temsil biçimini değiştirmeden basamaklandırılmış yönerge, şablon ve ek süre seçenekleri.",
+      "enrichment_opportunity": "Aynı kazanımı daha geniş kaynak, karşılaştırma veya özgün üretimle derinleştirme.",
+      "accessibility_need": "Metin/işitsel/görsel erişilebilirlik, okunabilir şablon ve uygun alternatif erişim biçimi.",
+      "external_content_need": "TO_BE_DERIVED_FROM_TEXTBOOK_ALIGNMENT",
+      "coverage_assertion": "NONE_NEEDS_STAGE",
+      "provenance": {
+        "curriculum_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=2",
+        "assessment_requirement_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=3"
+      }
+    },
+    {
+      "need_id": "NEED_T10_T4_TDE2_4",
+      "outcome_id": "TDE10_T4_TDE2_4",
+      "outcome_code": "TDE2.4",
+      "outcome_verbatim": "“Nesillerin Mirası” temasında ele alınan metinlere yönelik okuma sürecini değerlendirebilme",
+      "skill_category": "Okuma",
+      "targeted_learning_outcomes": [
         "TDE2.4"
       ],
-      "targeted_process_components": [
-        "TDE2.1.1",
-        "TDE2.1.2",
-        "TDE2.2.1",
-        "TDE2.2.2",
-        "TDE2.3.1",
-        "TDE2.3.2",
-        "TDE2.3.3"
-      ],
-      "process_component_status": "SOURCE_COMPLETE_PARENT_OUTCOME_REPRESENTATION",
-      "conceptual_prerequisites": "Dede Korkut hikâyesi, Tanzimat şiiri, Servetifünun romanı, Fecriati şiiri; dönem, gelenek, yenilik, millî bilinç ve edebî değişim.",
-      "procedural_or_skill_prerequisites": "Metin yapı/dil unsurlarını belirleme, dönem-toplum-yazar ilişkisi kurma, farklı dönem ve türleri karşılaştırma, değişim-süreklilik çıkarımı yapma.",
-      "expected_student_actions": "Dede Korkut hikâyesi ve Tanzimat şiirini okuma; Servetifünun romanı ile Fecriati şiirini ara metin olarak ilişkilendirme; yapı, dil, anlatım ve değer unsurlarını çözümleme; dönemler arası değişim ve sürekliliği karşılaştırma ve değerlendirme.",
-      "expected_student_evidence": "Bilgi/kavram haritası, dönem-tür karşılaştırma tablosu, yapı-dil çözümleme cevapları, açık/kısa cevaplı sorular ve öğrenme günlüğü.",
-      "likely_misconceptions": "Edebî dönemlerin keskin ve ilişkisiz sınırlar olduğu; yeniliğin geleneğin tamamen terk edilmesi anlamına geldiği; Dede Korkut'un yalnız tarihî belge olarak okunması gerektiği yanılgıları.",
-      "cognitive_demand": "Tarihsel Değişim ve Süreklilik + Çözümleme + Karşılaştırma",
-      "interaction_need": "Bireysel okuma, grup karşılaştırması ve tartışma.",
-      "representation_need": "Dönem zaman çizgisi, tür/dil matrisi, yapı haritası ve kavram şeması.",
-      "practice_need": "Metin-dönem, yapı-dil ve gelenek-yenilik ilişkisi kurma.",
-      "feedback_need": "Karşılaştırma ve tahlil ürünlerine ölçütlü geri bildirim.",
-      "assessment_need": "Kısa/açık uçlu sorular, T diyagramı, karşılaştırma tablosu, çalışma kâğıdı, bilgi/kavram haritası ve öğrenme günlüğü.",
-      "differentiation_need": "Dönem özet kartları, sadeleştirilmiş zaman çizgisi, sözlük ve parçalara ayrılmış metin desteği.",
-      "enrichment_opportunity": "Aynı tema/değerin Dede Korkut'tan modern döneme değişimini örnek metinlerle izleme.",
-      "accessibility_need": "Uzun metinler için bölümleme, sesli okuma ve yüksek kontrastlı şema.",
-      "safety_need": "N/A",
-      "external_content_need": "NONE_TEXTBOOK_COVERED",
-      "rationale": "Tema, kültürel miras ve edebî dönüşümü birden fazla dönem/tür üzerinden karşılaştırmalı biçimde kanıtlamayı gerektirir.",
-      "provenance": "curriculum_tde10_theme_04 / official TYMM TEMA_04 + official OGM process-component support"
+      "targeted_process_components": [],
+      "process_component_status": "SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS",
+      "expected_student_actions": "Okuma sürecini ve metne ilişkin değerlendirmeleri kanıta dayalı biçimde yansıtma.",
+      "expected_student_evidence": "Çıkış kartı, öğrenme günlüğü veya öz değerlendirme kaydı.",
+      "feedback_need": "Öğrenci kanıtına ölçüt/evidence temelli öğretmen ve gerektiğinde akran geri bildirimi.",
+      "assessment_need": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+      "differentiation_need": "Görev yükünü ve temsil biçimini değiştirmeden basamaklandırılmış yönerge, şablon ve ek süre seçenekleri.",
+      "enrichment_opportunity": "Aynı kazanımı daha geniş kaynak, karşılaştırma veya özgün üretimle derinleştirme.",
+      "accessibility_need": "Metin/işitsel/görsel erişilebilirlik, okunabilir şablon ve uygun alternatif erişim biçimi.",
+      "external_content_need": "TO_BE_DERIVED_FROM_TEXTBOOK_ALIGNMENT",
+      "coverage_assertion": "NONE_NEEDS_STAGE",
+      "provenance": {
+        "curriculum_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=2",
+        "assessment_requirement_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=3"
+      }
     },
     {
-      "need_id": "NEED_T10_T4_KONUSMA",
+      "need_id": "NEED_T10_T4_TDE3_1",
+      "outcome_id": "TDE10_T4_TDE3_1",
+      "outcome_code": "TDE3.1",
+      "outcome_verbatim": "Dede Korkut hikâyelerinden birini canlandırdığı konuşma sürecini yönetebilme",
+      "skill_category": "Konuşma",
       "targeted_learning_outcomes": [
-        "TDE3.1",
-        "TDE3.2",
-        "TDE3.3",
+        "TDE3.1"
+      ],
+      "targeted_process_components": [],
+      "process_component_status": "SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS",
+      "expected_student_actions": "Konuşma/sunum performansının amacını, içeriğini, kaynaklarını, akışını, rol/görevlerini ve uygulama koşullarını planlama.",
+      "expected_student_evidence": "Konuşma/sunum planı, kaynak/seçim kayıtları ve görev dağılımı.",
+      "feedback_need": "Öğrenci kanıtına ölçüt/evidence temelli öğretmen ve gerektiğinde akran geri bildirimi.",
+      "assessment_need": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+      "differentiation_need": "Görev yükünü ve temsil biçimini değiştirmeden basamaklandırılmış yönerge, şablon ve ek süre seçenekleri.",
+      "enrichment_opportunity": "Aynı kazanımı daha geniş kaynak, karşılaştırma veya özgün üretimle derinleştirme.",
+      "accessibility_need": "Metin/işitsel/görsel erişilebilirlik, okunabilir şablon ve uygun alternatif erişim biçimi.",
+      "external_content_need": "TO_BE_DERIVED_FROM_TEXTBOOK_ALIGNMENT",
+      "coverage_assertion": "NONE_NEEDS_STAGE",
+      "provenance": {
+        "curriculum_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=2",
+        "assessment_requirement_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=3"
+      }
+    },
+    {
+      "need_id": "NEED_T10_T4_TDE3_2",
+      "outcome_id": "TDE10_T4_TDE3_2",
+      "outcome_code": "TDE3.2",
+      "outcome_verbatim": "Dede Korkut hikâyelerinden birini canlandırdığı konuşmasına uygun içerik oluşturabilme",
+      "skill_category": "Konuşma",
+      "targeted_learning_outcomes": [
+        "TDE3.2"
+      ],
+      "targeted_process_components": [],
+      "process_component_status": "SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS",
+      "expected_student_actions": "Konuşma/sunum için tema, bilgi, örnek ve görsel/işitsel destekleri seçerek içeriği yapılandırma.",
+      "expected_student_evidence": "Sunum içeriği, senaryo/akış taslağı ve kaynak kayıtları.",
+      "feedback_need": "Öğrenci kanıtına ölçüt/evidence temelli öğretmen ve gerektiğinde akran geri bildirimi.",
+      "assessment_need": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+      "differentiation_need": "Görev yükünü ve temsil biçimini değiştirmeden basamaklandırılmış yönerge, şablon ve ek süre seçenekleri.",
+      "enrichment_opportunity": "Aynı kazanımı daha geniş kaynak, karşılaştırma veya özgün üretimle derinleştirme.",
+      "accessibility_need": "Metin/işitsel/görsel erişilebilirlik, okunabilir şablon ve uygun alternatif erişim biçimi.",
+      "external_content_need": "TO_BE_DERIVED_FROM_TEXTBOOK_ALIGNMENT",
+      "coverage_assertion": "NONE_NEEDS_STAGE",
+      "provenance": {
+        "curriculum_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=2",
+        "assessment_requirement_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=3"
+      }
+    },
+    {
+      "need_id": "NEED_T10_T4_TDE3_3",
+      "outcome_id": "TDE10_T4_TDE3_3",
+      "outcome_code": "TDE3.3",
+      "outcome_verbatim": "Dede Korkut hikâyelerinden birini canlandırdığı konuşmasında kural uygulayabilme",
+      "skill_category": "Konuşma",
+      "targeted_learning_outcomes": [
+        "TDE3.3"
+      ],
+      "targeted_process_components": [],
+      "process_component_status": "SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS",
+      "expected_student_actions": "Planlanan konuşmayı Türkçenin doğru kullanımı, vurgu-tonlama, beden dili, zaman ve sunum kurallarıyla gerçekleştirme.",
+      "expected_student_evidence": "Canlı veya kaydedilmiş sözlü performans.",
+      "feedback_need": "Öğrenci kanıtına ölçüt/evidence temelli öğretmen ve gerektiğinde akran geri bildirimi.",
+      "assessment_need": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+      "differentiation_need": "Görev yükünü ve temsil biçimini değiştirmeden basamaklandırılmış yönerge, şablon ve ek süre seçenekleri.",
+      "enrichment_opportunity": "Aynı kazanımı daha geniş kaynak, karşılaştırma veya özgün üretimle derinleştirme.",
+      "accessibility_need": "Metin/işitsel/görsel erişilebilirlik, okunabilir şablon ve uygun alternatif erişim biçimi.",
+      "external_content_need": "TO_BE_DERIVED_FROM_TEXTBOOK_ALIGNMENT",
+      "coverage_assertion": "NONE_NEEDS_STAGE",
+      "provenance": {
+        "curriculum_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=2",
+        "assessment_requirement_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=3"
+      }
+    },
+    {
+      "need_id": "NEED_T10_T4_TDE3_4",
+      "outcome_id": "TDE10_T4_TDE3_4",
+      "outcome_code": "TDE3.4",
+      "outcome_verbatim": "Dede Korkut hikâyelerinden birini canlandırdığı konuşmasına yönelik süreci değerlendirebilme",
+      "skill_category": "Konuşma",
+      "targeted_learning_outcomes": [
         "TDE3.4"
       ],
-      "targeted_process_components": [
-        "TDE3.1.1",
-        "TDE3.1.2",
-        "TDE3.2.1",
-        "TDE3.2.2",
-        "TDE3.2.3",
-        "TDE3.2.4",
-        "TDE3.2.5"
-      ],
-      "process_component_status": "SOURCE_COMPLETE_PARENT_OUTCOME_REPRESENTATION",
-      "conceptual_prerequisites": "Dede Korkut hikâyeleri, canlandırma/dramatizasyon, karakter, olay, sözlü anlatım, beden dili ve mekân kullanımı.",
-      "procedural_or_skill_prerequisites": "Hikâye/rol seçme, canlandırma planı, görev dağılımı, söz ve beden dili, zaman/mekân yönetimi ve performans değerlendirmesi.",
-      "expected_student_actions": "Dede Korkut hikâyelerinden birini canlandırmak üzere seçim ve plan yapma; karakter ve olay akışını sahneye uyarlama; görsel/işitsel ögeler, beden dili ve mekânla performans sunma; süreci değerlendirme.",
-      "expected_student_evidence": "Canlandırma planı, rol/görev dağılımı, sahne/akış taslağı, canlı performans ve rubrik/öz-akran değerlendirmesi.",
-      "likely_misconceptions": "Canlandırmanın metni ezberleyip okumaktan ibaret olduğu; karakter ve olay bağlamının değiştirilebilir ama gerekçesiz olduğu; beden dilinin içerikten bağımsız olduğu yanılgıları.",
-      "cognitive_demand": "Uyarlama + İş Birliği + Performans + Değerlendirme",
-      "interaction_need": "Grup iş birliği ve sınıf önünde canlandırma.",
-      "representation_need": "Rol kartları, sahne planı, olay akış şeması ve performans ölçütleri.",
-      "practice_need": "Prova, rol geçişleri, beden dili, ses ve zaman yönetimi.",
-      "feedback_need": "Prova ve nihai performansa rubrik tabanlı akran/öğretmen geri bildirimi.",
-      "assessment_need": "Dereceli puanlama anahtarı; içeriğe uygunluk, özgünlük, görsel/işitsel ögeler, canlandırma becerisi, zaman/mekân ve beden dili.",
-      "differentiation_need": "Rol çeşitlendirme, anlatıcı/teknik görev seçenekleri, kısa sahne ve yapılandırılmış prova.",
-      "enrichment_opportunity": "Aynı hikâyeyi farklı sahneleme tercihleriyle yorumlayıp gerekçelendirme.",
-      "accessibility_need": "Alternatif rol, fiziksel gereksinimlere uygun sahne düzeni ve yazılı rol desteği.",
-      "safety_need": "Fiziksel canlandırmada güvenli hareket alanı ve riskli sahne hareketlerinden kaçınma.",
-      "external_content_need": "NONE_TEXTBOOK_COVERED",
-      "rationale": "Program Dede Korkut canlandırmasını doğrudan konuşma performansı ve dereceli puanlama anahtarıyla değerlendirilecek kanıt olarak tanımlar.",
-      "provenance": "curriculum_tde10_theme_04 / official TYMM TEMA_04"
+      "targeted_process_components": [],
+      "process_component_status": "SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS",
+      "expected_student_actions": "Konuşma performansını öz/akran ve öğretmen değerlendirmesiyle değerlendirme; geri bildirimden hareketle geliştirme.",
+      "expected_student_evidence": "Öz/akran değerlendirme, öğretmen puanlama kanıtı ve yansıtma/revizyon kaydı.",
+      "feedback_need": "Öğrenci kanıtına ölçüt/evidence temelli öğretmen ve gerektiğinde akran geri bildirimi.",
+      "assessment_need": "Dereceli puanlama anahtarı ile öğretmen değerlendirmesi; external EBA target structure must be inspected before COVERED.",
+      "differentiation_need": "Görev yükünü ve temsil biçimini değiştirmeden basamaklandırılmış yönerge, şablon ve ek süre seçenekleri.",
+      "enrichment_opportunity": "Aynı kazanımı daha geniş kaynak, karşılaştırma veya özgün üretimle derinleştirme.",
+      "accessibility_need": "Metin/işitsel/görsel erişilebilirlik, okunabilir şablon ve uygun alternatif erişim biçimi.",
+      "external_content_need": "ASSESSMENT_TARGET_AUTH_GATED",
+      "coverage_assertion": "NONE_NEEDS_STAGE",
+      "provenance": {
+        "curriculum_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=2",
+        "assessment_requirement_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=3"
+      }
     },
     {
-      "need_id": "NEED_T10_T4_YAZMA",
+      "need_id": "NEED_T10_T4_TDE4_1",
+      "outcome_id": "TDE10_T4_TDE4_1",
+      "outcome_code": "TDE4.1",
+      "outcome_verbatim": "Dinleme/izlemede incelediği hikâyeyi şiire dönüştürerek oluşturduğu yazısında yazmayı yönetebilme",
+      "skill_category": "Yazma",
       "targeted_learning_outcomes": [
-        "TDE4.1",
-        "TDE4.2",
-        "TDE4.3",
+        "TDE4.1"
+      ],
+      "targeted_process_components": [],
+      "process_component_status": "SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS",
+      "expected_student_actions": "Yazma amacı, hedef kitle, tür, içerik, ileti, strateji ve taslak planını belirleme.",
+      "expected_student_evidence": "Yazma planı, seçim/gerekçe kayıtları ve hazırlık notları.",
+      "feedback_need": "Öğrenci kanıtına ölçüt/evidence temelli öğretmen ve gerektiğinde akran geri bildirimi.",
+      "assessment_need": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+      "differentiation_need": "Görev yükünü ve temsil biçimini değiştirmeden basamaklandırılmış yönerge, şablon ve ek süre seçenekleri.",
+      "enrichment_opportunity": "Aynı kazanımı daha geniş kaynak, karşılaştırma veya özgün üretimle derinleştirme.",
+      "accessibility_need": "Metin/işitsel/görsel erişilebilirlik, okunabilir şablon ve uygun alternatif erişim biçimi.",
+      "external_content_need": "TO_BE_DERIVED_FROM_TEXTBOOK_ALIGNMENT",
+      "coverage_assertion": "NONE_NEEDS_STAGE",
+      "provenance": {
+        "curriculum_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=2",
+        "assessment_requirement_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=3"
+      }
+    },
+    {
+      "need_id": "NEED_T10_T4_TDE4_2",
+      "outcome_id": "TDE10_T4_TDE4_2",
+      "outcome_code": "TDE4.2",
+      "outcome_verbatim": "Dinleme/izlemede incelediği hikâyeyi şiire dönüştürerek oluşturduğu yazısında içerik oluşturabilme",
+      "skill_category": "Yazma",
+      "targeted_learning_outcomes": [
+        "TDE4.2"
+      ],
+      "targeted_process_components": [],
+      "process_component_status": "SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS",
+      "expected_student_actions": "Belirlenen amaç ve türe uygun içeriği yapılandırarak taslak/ürün oluşturma.",
+      "expected_student_evidence": "İçerik taslağı ve yazılı/görsel ürün.",
+      "feedback_need": "Öğrenci kanıtına ölçüt/evidence temelli öğretmen ve gerektiğinde akran geri bildirimi.",
+      "assessment_need": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+      "differentiation_need": "Görev yükünü ve temsil biçimini değiştirmeden basamaklandırılmış yönerge, şablon ve ek süre seçenekleri.",
+      "enrichment_opportunity": "Aynı kazanımı daha geniş kaynak, karşılaştırma veya özgün üretimle derinleştirme.",
+      "accessibility_need": "Metin/işitsel/görsel erişilebilirlik, okunabilir şablon ve uygun alternatif erişim biçimi.",
+      "external_content_need": "TO_BE_DERIVED_FROM_TEXTBOOK_ALIGNMENT",
+      "coverage_assertion": "NONE_NEEDS_STAGE",
+      "provenance": {
+        "curriculum_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=2",
+        "assessment_requirement_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=3"
+      }
+    },
+    {
+      "need_id": "NEED_T10_T4_TDE4_3",
+      "outcome_id": "TDE10_T4_TDE4_3",
+      "outcome_code": "TDE4.3",
+      "outcome_verbatim": "Dinleme/izlemede incelediği hikâyeyi şiire dönüştürerek oluşturduğu yazısında kural uygulayabilme",
+      "skill_category": "Yazma",
+      "targeted_learning_outcomes": [
+        "TDE4.3"
+      ],
+      "targeted_process_components": [],
+      "process_component_status": "SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS",
+      "expected_student_actions": "Yazılı üründe tür, yapı, dil-anlatım, yazım-noktalama ve görev-özel kuralları uygulayıp düzenleme.",
+      "expected_student_evidence": "Düzenlenmiş taslak ve kurallara uygun nihai ürün.",
+      "feedback_need": "Öğrenci kanıtına ölçüt/evidence temelli öğretmen ve gerektiğinde akran geri bildirimi.",
+      "assessment_need": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+      "differentiation_need": "Görev yükünü ve temsil biçimini değiştirmeden basamaklandırılmış yönerge, şablon ve ek süre seçenekleri.",
+      "enrichment_opportunity": "Aynı kazanımı daha geniş kaynak, karşılaştırma veya özgün üretimle derinleştirme.",
+      "accessibility_need": "Metin/işitsel/görsel erişilebilirlik, okunabilir şablon ve uygun alternatif erişim biçimi.",
+      "external_content_need": "TO_BE_DERIVED_FROM_TEXTBOOK_ALIGNMENT",
+      "coverage_assertion": "NONE_NEEDS_STAGE",
+      "provenance": {
+        "curriculum_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=3",
+        "assessment_requirement_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=3"
+      }
+    },
+    {
+      "need_id": "NEED_T10_T4_TDE4_4",
+      "outcome_id": "TDE10_T4_TDE4_4",
+      "outcome_code": "TDE4.4",
+      "outcome_verbatim": "Dinleme/izlemede incelediği hikâyeyi şiire dönüştürerek oluşturduğu yazısına yönelik yazma sürecini değerlendirebilme",
+      "skill_category": "Yazma",
+      "targeted_learning_outcomes": [
         "TDE4.4"
       ],
-      "targeted_process_components": [
-        "TDE4.1.1",
-        "TDE4.1.2",
-        "TDE4.2.1",
-        "TDE4.2.2",
-        "TDE4.2.3",
-        "TDE4.2.4",
-        "TDE4.2.5",
-        "TDE4.2.6"
-      ],
-      "process_component_status": "SOURCE_COMPLETE_PARENT_OUTCOME_REPRESENTATION",
-      "conceptual_prerequisites": "Hikâye ve şiir arasındaki yapı/dil farkları, şiir dili, imge, ahenk, ileti, olay ve duygu yoğunlaştırma.",
-      "procedural_or_skill_prerequisites": "Hikâyeden ana olay/duygu seçme, dönüştürme planı, şiirsel anlatım kurma, taslak-revizyon ve öz değerlendirme.",
-      "expected_student_actions": "Dinleme/izlemede incelediği hikâyeyi şiire dönüştürmek için ana olay/duygu ve iletileri seçme; şiirsel dil ve ahenkten yararlanma; metni düzenleme, paylaşma ve değerlendirme.",
-      "expected_student_evidence": "Hikâye-şiir dönüşüm planı, seçilen ana duygu/ileti notları, şiir taslağı, revize edilmiş nihai şiir ve değerlendirme kanıtları.",
-      "likely_misconceptions": "Hikâyeyi şiire dönüştürmenin yalnız satırları kısaltmak olduğu; şiirde olayın aynen korunması gerektiği; şiir dilinin yalnız uyak kullanmak olduğu yanılgıları.",
-      "cognitive_demand": "Dönüştürme + Yoğunlaştırma + Estetik Üretim + Değerlendirme",
-      "interaction_need": "Bireysel yazma ve akran paylaşımı.",
-      "representation_need": "Hikâye-şiir dönüşüm tablosu, duygu/ileti haritası ve revizyon kontrol listesi.",
-      "practice_need": "Düzyazı parçalarını şiirsel söyleyişe dönüştürme, imge ve ahenk denemeleri.",
-      "feedback_need": "Taslak ve nihai şiire ölçüt tabanlı geri bildirim.",
-      "assessment_need": "Dereceli puanlama anahtarı; içeriğe uygunluk, etkileyicilik, şiir dilinin etkili kullanımı, noktalama ve dil bilgisi.",
-      "differentiation_need": "Kısa hikâye bölümü seçimi, duygu/kelime havuzu, şiir şablonu ve dijital yazma desteği.",
-      "enrichment_opportunity": "Aynı hikâyeyi farklı şiir biçimleri veya ses/ritim tercihleriyle yeniden üretme.",
-      "accessibility_need": "Dijital/analog yazma ve sesle yazma seçenekleri.",
-      "safety_need": "N/A",
-      "external_content_need": "NONE_TEXTBOOK_COVERED",
-      "rationale": "Program hikâyeden şiire türler arası dönüşümü somut yazma performansı ve rubrik kanıtıyla değerlendirmeyi gerektirir.",
-      "provenance": "curriculum_tde10_theme_04 / official TYMM TEMA_04"
+      "targeted_process_components": [],
+      "process_component_status": "SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS",
+      "expected_student_actions": "Yazma sürecini öz/akran ve öğretmen değerlendirmesiyle değerlendirme; geri bildirimle ürünü geliştirme.",
+      "expected_student_evidence": "Öz/akran değerlendirme, öğretmen puanlama kanıtı ve revize edilmiş nihai ürün.",
+      "feedback_need": "Öğrenci kanıtına ölçüt/evidence temelli öğretmen ve gerektiğinde akran geri bildirimi.",
+      "assessment_need": "Dereceli puanlama anahtarı ile öğretmen değerlendirmesi; external EBA target structure must be inspected before COVERED.",
+      "differentiation_need": "Görev yükünü ve temsil biçimini değiştirmeden basamaklandırılmış yönerge, şablon ve ek süre seçenekleri.",
+      "enrichment_opportunity": "Aynı kazanımı daha geniş kaynak, karşılaştırma veya özgün üretimle derinleştirme.",
+      "accessibility_need": "Metin/işitsel/görsel erişilebilirlik, okunabilir şablon ve uygun alternatif erişim biçimi.",
+      "external_content_need": "ASSESSMENT_TARGET_AUTH_GATED",
+      "coverage_assertion": "NONE_NEEDS_STAGE",
+      "provenance": {
+        "curriculum_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=3",
+        "assessment_requirement_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF#pdf_page=3"
+      }
     }
   ],
-  "coverage_rule": "These records describe instructional/evidence needs only. They do not assert a textbook gap or authorize artifact generation.",
-  "freeze_status": "CURRICULUM_FROZEN_TEXTBOOK_COVERAGE_VERIFIED"
+  "coverage_rule": "Needs describe normative instructional/evidence requirements only; coverage is derived later from textbook evidence.",
+  "freeze_status": "PARITY_REAUDITED"
 }

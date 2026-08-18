@@ -1,73 +1,149 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "course_id": "TDE_10",
   "grade": 10,
   "theme_id": "TEMA_04",
   "theme_no": 4,
   "theme_title": "4. TEMA: NESİLLERİN MİRASI",
+  "derivation_rule": "Need first; textbook alignment second; coverage/priority/production decision last.",
   "summary": {
-    "total_planned_items": 4,
-    "required_count": 0,
-    "recommended_count": 0,
-    "optional_count": 0,
-    "not_needed_count": 4,
-    "reuse_textbook_count": 4,
-    "production_decisions": {
-      "REUSE_TEXTBOOK": 4,
-      "GENERATE": 0,
-      "NO_ACTION": 0
-    },
-    "alignment_status": "PASS"
+    "total_planned_items": 16,
+    "covered_count": 14,
+    "partially_covered_count": 2,
+    "not_covered_count": 0,
+    "review_required_count": 2,
+    "generate_authorized_count": 0
   },
   "resources": [
     {
-      "resource_plan_id": "PLAN_T10_T4_DINLEME",
-      "need_id": "NEED_T10_T4_DINLEME",
-      "resource_type": "reuse_official_textbook_path",
+      "resource_plan_id": "PLAN_T10_T4_TDE1_1",
+      "need_id": "NEED_T10_T4_TDE1_1",
       "target_outcomes": [
-        "TDE1.1",
-        "TDE1.2",
-        "TDE1.3",
-        "TDE1.4"
+        "TDE1.1"
       ],
-      "purpose": "Tema, kültürel mirasın değişim içindeki aktarımını dinleme/izleme metninde yapı, dönem ve değer kanıtları üzerinden değerlendirmeyi gerektirir.",
-      "expected_student_evidence": "Dinleme notları, kısa/açık uçlu cevaplar, gözlem/karşılaştırma formu, gerekçeli eleştiri ve öz değerlendirme.",
-      "priority": "NOT_NEEDED",
-      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "resource_type": "reuse_official_textbook_path",
+      "purpose": "Dinleme/izleme amacını ve stratejisini belirleme; ön bilgileri etkinleştirme ve tahmin oluşturma.",
+      "expected_student_evidence": "Hazırlık cevapları, tahminler ve dinleme/izleme öncesi notlar.",
+      "pre_alignment_state": "PENDING_ALIGNMENT_NO_COVERAGE_ASSUMPTION",
       "textbook_coverage": "COVERED",
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
       "reuse_existing_resource": true,
       "textbook_section_ids": [
         "T4_SEC_04_DINLEME_HIKAYE"
       ],
       "textbook_activity_ids": [
-        "T4_ACT_12_HIKAYE_DINLEME_HAZIRLIK",
+        "T4_ACT_12_HIKAYE_DINLEME_HAZIRLIK"
+      ],
+      "textbook_form_ids": [],
+      "textbook_resource_locators": [
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.283-285"
+      ],
+      "external_source_needed": false,
+      "teacher_review_required": false,
+      "decision_rationale": "Official textbook activity/evidence path satisfies the outcome-level need."
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T4_TDE1_2",
+      "need_id": "NEED_T10_T4_TDE1_2",
+      "target_outcomes": [
+        "TDE1.2"
+      ],
+      "resource_type": "reuse_official_textbook_path",
+      "purpose": "Dinlenen/izlenen metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturma.",
+      "expected_student_evidence": "Anlama soruları cevapları ve yapılandırılmış dinleme/izleme notları.",
+      "pre_alignment_state": "PENDING_ALIGNMENT_NO_COVERAGE_ASSUMPTION",
+      "textbook_coverage": "COVERED",
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_04_DINLEME_HIKAYE"
+      ],
+      "textbook_activity_ids": [
         "T4_ACT_13_KAC_YERINDEN_ANLAM",
-        "T4_ACT_14_HIKAYE_COZUMLEME",
+        "T4_ACT_14_HIKAYE_COZUMLEME"
+      ],
+      "textbook_form_ids": [],
+      "textbook_resource_locators": [
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.286-296",
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.297-300"
+      ],
+      "external_source_needed": false,
+      "teacher_review_required": false,
+      "decision_rationale": "Official textbook activity/evidence path satisfies the outcome-level need."
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T4_TDE1_3",
+      "need_id": "NEED_T10_T4_TDE1_3",
+      "target_outcomes": [
+        "TDE1.3"
+      ],
+      "resource_type": "reuse_official_textbook_path",
+      "purpose": "Dinlenen/izlenen metni yapı, tür, dil-anlatım, değer/ileti ve bağlam yönlerinden çözümleme.",
+      "expected_student_evidence": "Tahlil cevapları, karşılaştırma/şema kayıtları ve gerekçeli çıkarımlar.",
+      "pre_alignment_state": "PENDING_ALIGNMENT_NO_COVERAGE_ASSUMPTION",
+      "textbook_coverage": "COVERED",
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_04_DINLEME_HIKAYE"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_14_HIKAYE_COZUMLEME"
+      ],
+      "textbook_form_ids": [],
+      "textbook_resource_locators": [
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.297-300"
+      ],
+      "external_source_needed": false,
+      "teacher_review_required": false,
+      "decision_rationale": "Official textbook activity/evidence path satisfies the outcome-level need."
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T4_TDE1_4",
+      "need_id": "NEED_T10_T4_TDE1_4",
+      "target_outcomes": [
+        "TDE1.4"
+      ],
+      "resource_type": "reuse_official_textbook_path",
+      "purpose": "Dinleme/izleme sürecini kanıta dayalı biçimde değerlendirme ve geliştirilmesi gereken yönleri belirleme.",
+      "expected_student_evidence": "Öz değerlendirme/yansıtma kaydı ve gerekçeli değerlendirme.",
+      "pre_alignment_state": "PENDING_ALIGNMENT_NO_COVERAGE_ASSUMPTION",
+      "textbook_coverage": "COVERED",
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_04_DINLEME_HIKAYE"
+      ],
+      "textbook_activity_ids": [
         "T4_ACT_15_HIKAYE_OZ_DEGERLENDIRME"
       ],
       "textbook_form_ids": [
         "FORM_T4_DINLEME_OZ"
       ],
-      "textbook_resource_locator": "s.234-310",
-      "production_decision": "REUSE_TEXTBOOK",
+      "textbook_resource_locators": [
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.301"
+      ],
       "external_source_needed": false,
-      "teacher_review_required": false
+      "teacher_review_required": false,
+      "decision_rationale": "Official textbook activity/evidence path satisfies the outcome-level need."
     },
     {
-      "resource_plan_id": "PLAN_T10_T4_OKUMA",
-      "need_id": "NEED_T10_T4_OKUMA",
-      "resource_type": "reuse_official_textbook_path",
+      "resource_plan_id": "PLAN_T10_T4_TDE2_1",
+      "need_id": "NEED_T10_T4_TDE2_1",
       "target_outcomes": [
-        "TDE2.1",
-        "TDE2.2",
-        "TDE2.3",
-        "TDE2.4"
+        "TDE2.1"
       ],
-      "purpose": "Tema, kültürel miras ve edebî dönüşümü birden fazla dönem/tür üzerinden karşılaştırmalı biçimde kanıtlamayı gerektirir.",
-      "expected_student_evidence": "Bilgi/kavram haritası, dönem-tür karşılaştırma tablosu, yapı-dil çözümleme cevapları, açık/kısa cevaplı sorular ve öğrenme günlüğü.",
-      "priority": "NOT_NEEDED",
-      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "resource_type": "reuse_official_textbook_path",
+      "purpose": "Okuma amacı ve stratejisini belirleme; ön bilgileri etkinleştirme, tahmin oluşturma ve metne hazırlanma.",
+      "expected_student_evidence": "Okuma öncesi cevaplar, tahminler ve hazırlık notları.",
+      "pre_alignment_state": "PENDING_ALIGNMENT_NO_COVERAGE_ASSUMPTION",
       "textbook_coverage": "COVERED",
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
       "reuse_existing_resource": true,
       "textbook_section_ids": [
         "T4_SEC_01_OKUMA_DEDE_KORKUT",
@@ -75,44 +151,217 @@
       ],
       "textbook_activity_ids": [
         "T4_ACT_01_DEDE_KORKUT_HAZIRLIK",
-        "T4_ACT_02_SALUR_KAZAN_ANLAM",
-        "T4_ACT_03_DEDE_KORKUT_COZUMLEME",
-        "T4_ACT_04_DEDE_KORKUT_KARSILASTIRMA",
-        "T4_ACT_05_TANZIMAT_HAZIRLIK",
-        "T4_ACT_06_HURRIYET_KASIDESI_TAHLIL",
-        "T4_ACT_07_TANZIMAT_KARSILASTIRMA",
-        "T4_ACT_08_TANZIMAT_YANSITMA"
+        "T4_ACT_05_TANZIMAT_HAZIRLIK"
       ],
-      "textbook_form_ids": [
-        "FORM_T4_OKUMA_GUNLUK"
+      "textbook_form_ids": [],
+      "textbook_resource_locators": [
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.237-241",
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.264-265"
       ],
-      "textbook_resource_locator": "s.234-310",
-      "production_decision": "REUSE_TEXTBOOK",
       "external_source_needed": false,
-      "teacher_review_required": false
+      "teacher_review_required": false,
+      "decision_rationale": "Official textbook activity/evidence path satisfies the outcome-level need."
     },
     {
-      "resource_plan_id": "PLAN_T10_T4_KONUSMA",
-      "need_id": "NEED_T10_T4_KONUSMA",
-      "resource_type": "reuse_official_textbook_path",
+      "resource_plan_id": "PLAN_T10_T4_TDE2_2",
+      "need_id": "NEED_T10_T4_TDE2_2",
       "target_outcomes": [
-        "TDE3.1",
-        "TDE3.2",
-        "TDE3.3",
-        "TDE3.4"
+        "TDE2.2"
       ],
-      "purpose": "Program Dede Korkut canlandırmasını doğrudan konuşma performansı ve dereceli puanlama anahtarıyla değerlendirilecek kanıt olarak tanımlar.",
-      "expected_student_evidence": "Canlandırma planı, rol/görev dağılımı, sahne/akış taslağı, canlı performans ve rubrik/öz-akran değerlendirmesi.",
-      "priority": "NOT_NEEDED",
-      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "resource_type": "reuse_official_textbook_path",
+      "purpose": "Metnin konu, tema, ana düşünce/ileti, söz varlığı ve bağlamından anlam oluşturma.",
+      "expected_student_evidence": "Anlama soruları cevapları, işaretlemeler ve anlamlandırma kayıtları.",
+      "pre_alignment_state": "PENDING_ALIGNMENT_NO_COVERAGE_ASSUMPTION",
       "textbook_coverage": "COVERED",
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_01_OKUMA_DEDE_KORKUT",
+        "T4_SEC_02_OKUMA_TANZIMAT_SIIRI"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_02_SALUR_KAZAN_ANLAM",
+        "T4_ACT_03_DEDE_KORKUT_COZUMLEME",
+        "T4_ACT_06_HURRIYET_KASIDESI_TAHLIL"
+      ],
+      "textbook_form_ids": [],
+      "textbook_resource_locators": [
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.242-250",
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.251-260",
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.266-270"
+      ],
+      "external_source_needed": false,
+      "teacher_review_required": false,
+      "decision_rationale": "Official textbook activity/evidence path satisfies the outcome-level need."
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T4_TDE2_3",
+      "need_id": "NEED_T10_T4_TDE2_3",
+      "target_outcomes": [
+        "TDE2.3"
+      ],
+      "resource_type": "reuse_official_textbook_path",
+      "purpose": "Metni yapı, tür, dil-anlatım, ahenk/söz varlığı ve dönem bağlamında çözümleyip karşılaştırma.",
+      "expected_student_evidence": "Tahlil cevapları, tablo/şema ve gerekçeli karşılaştırma kayıtları.",
+      "pre_alignment_state": "PENDING_ALIGNMENT_NO_COVERAGE_ASSUMPTION",
+      "textbook_coverage": "COVERED",
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_01_OKUMA_DEDE_KORKUT",
+        "T4_SEC_02_OKUMA_TANZIMAT_SIIRI"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_03_DEDE_KORKUT_COZUMLEME",
+        "T4_ACT_06_HURRIYET_KASIDESI_TAHLIL"
+      ],
+      "textbook_form_ids": [],
+      "textbook_resource_locators": [
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.251-260",
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.266-270"
+      ],
+      "external_source_needed": false,
+      "teacher_review_required": false,
+      "decision_rationale": "Official textbook activity/evidence path satisfies the outcome-level need."
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T4_TDE2_4",
+      "need_id": "NEED_T10_T4_TDE2_4",
+      "target_outcomes": [
+        "TDE2.4"
+      ],
+      "resource_type": "reuse_official_textbook_path",
+      "purpose": "Okuma sürecini ve metne ilişkin değerlendirmeleri kanıta dayalı biçimde yansıtma.",
+      "expected_student_evidence": "Çıkış kartı, öğrenme günlüğü veya öz değerlendirme kaydı.",
+      "pre_alignment_state": "PENDING_ALIGNMENT_NO_COVERAGE_ASSUMPTION",
+      "textbook_coverage": "COVERED",
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_02_OKUMA_TANZIMAT_SIIRI"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_08_TANZIMAT_YANSITMA"
+      ],
+      "textbook_form_ids": [],
+      "textbook_resource_locators": [
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.279"
+      ],
+      "external_source_needed": false,
+      "teacher_review_required": false,
+      "decision_rationale": "Official textbook activity/evidence path satisfies the outcome-level need."
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T4_TDE3_1",
+      "need_id": "NEED_T10_T4_TDE3_1",
+      "target_outcomes": [
+        "TDE3.1"
+      ],
+      "resource_type": "reuse_official_textbook_path",
+      "purpose": "Konuşma/sunum performansının amacını, içeriğini, kaynaklarını, akışını, rol/görevlerini ve uygulama koşullarını planlama.",
+      "expected_student_evidence": "Konuşma/sunum planı, kaynak/seçim kayıtları ve görev dağılımı.",
+      "pre_alignment_state": "PENDING_ALIGNMENT_NO_COVERAGE_ASSUMPTION",
+      "textbook_coverage": "COVERED",
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_03_KONUSMA_CANLANDIRMA"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_09_CANLANDIRMA_PLAN"
+      ],
+      "textbook_form_ids": [],
+      "textbook_resource_locators": [
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.280"
+      ],
+      "external_source_needed": false,
+      "teacher_review_required": false,
+      "decision_rationale": "Official textbook activity/evidence path satisfies the outcome-level need."
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T4_TDE3_2",
+      "need_id": "NEED_T10_T4_TDE3_2",
+      "target_outcomes": [
+        "TDE3.2"
+      ],
+      "resource_type": "reuse_official_textbook_path",
+      "purpose": "Konuşma/sunum için tema, bilgi, örnek ve görsel/işitsel destekleri seçerek içeriği yapılandırma.",
+      "expected_student_evidence": "Sunum içeriği, senaryo/akış taslağı ve kaynak kayıtları.",
+      "pre_alignment_state": "PENDING_ALIGNMENT_NO_COVERAGE_ASSUMPTION",
+      "textbook_coverage": "COVERED",
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
       "reuse_existing_resource": true,
       "textbook_section_ids": [
         "T4_SEC_03_KONUSMA_CANLANDIRMA"
       ],
       "textbook_activity_ids": [
         "T4_ACT_09_CANLANDIRMA_PLAN",
-        "T4_ACT_10_CANLANDIRMA_SUNUM",
+        "T4_ACT_10_CANLANDIRMA_SUNUM"
+      ],
+      "textbook_form_ids": [
+        "LINK_T4_KONUSMA_DPA"
+      ],
+      "textbook_resource_locators": [
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.280",
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.281"
+      ],
+      "external_source_needed": true,
+      "teacher_review_required": false,
+      "decision_rationale": "Official textbook activity/evidence path satisfies the outcome-level need."
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T4_TDE3_3",
+      "need_id": "NEED_T10_T4_TDE3_3",
+      "target_outcomes": [
+        "TDE3.3"
+      ],
+      "resource_type": "reuse_official_textbook_path",
+      "purpose": "Planlanan konuşmayı Türkçenin doğru kullanımı, vurgu-tonlama, beden dili, zaman ve sunum kurallarıyla gerçekleştirme.",
+      "expected_student_evidence": "Canlı veya kaydedilmiş sözlü performans.",
+      "pre_alignment_state": "PENDING_ALIGNMENT_NO_COVERAGE_ASSUMPTION",
+      "textbook_coverage": "COVERED",
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_03_KONUSMA_CANLANDIRMA"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_10_CANLANDIRMA_SUNUM"
+      ],
+      "textbook_form_ids": [
+        "LINK_T4_KONUSMA_DPA"
+      ],
+      "textbook_resource_locators": [
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.281"
+      ],
+      "external_source_needed": true,
+      "teacher_review_required": false,
+      "decision_rationale": "Official textbook activity/evidence path satisfies the outcome-level need."
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T4_TDE3_4",
+      "need_id": "NEED_T10_T4_TDE3_4",
+      "target_outcomes": [
+        "TDE3.4"
+      ],
+      "resource_type": "assessment_support_review",
+      "purpose": "Konuşma performansını öz/akran ve öğretmen değerlendirmesiyle değerlendirme; geri bildirimden hareketle geliştirme.",
+      "expected_student_evidence": "Öz/akran değerlendirme, öğretmen puanlama kanıtı ve yansıtma/revizyon kaydı.",
+      "pre_alignment_state": "PENDING_ALIGNMENT_NO_COVERAGE_ASSUMPTION",
+      "textbook_coverage": "PARTIALLY_COVERED",
+      "priority": "REVIEW_REQUIRED",
+      "production_decision": "NO_ACTION_PENDING_ASSESSMENT_TARGET",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_03_KONUSMA_CANLANDIRMA"
+      ],
+      "textbook_activity_ids": [
         "T4_ACT_11_CANLANDIRMA_DEGERLENDIRME"
       ],
       "textbook_form_ids": [
@@ -120,44 +369,134 @@
         "FORM_T4_KONUSMA_OZ",
         "LINK_T4_KONUSMA_DPA"
       ],
-      "textbook_resource_locator": "s.234-310",
-      "production_decision": "REUSE_TEXTBOOK",
-      "external_source_needed": false,
-      "teacher_review_required": false
+      "textbook_resource_locators": [
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.282"
+      ],
+      "external_source_needed": true,
+      "teacher_review_required": true,
+      "decision_rationale": "Official EBA DPA link exists but target structure is authentication-gated and unresolved."
     },
     {
-      "resource_plan_id": "PLAN_T10_T4_YAZMA",
-      "need_id": "NEED_T10_T4_YAZMA",
-      "resource_type": "reuse_official_textbook_path",
+      "resource_plan_id": "PLAN_T10_T4_TDE4_1",
+      "need_id": "NEED_T10_T4_TDE4_1",
       "target_outcomes": [
-        "TDE4.1",
-        "TDE4.2",
-        "TDE4.3",
-        "TDE4.4"
+        "TDE4.1"
       ],
-      "purpose": "Program hikâyeden şiire türler arası dönüşümü somut yazma performansı ve rubrik kanıtıyla değerlendirmeyi gerektirir.",
-      "expected_student_evidence": "Hikâye-şiir dönüşüm planı, seçilen ana duygu/ileti notları, şiir taslağı, revize edilmiş nihai şiir ve değerlendirme kanıtları.",
-      "priority": "NOT_NEEDED",
-      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "resource_type": "reuse_official_textbook_path",
+      "purpose": "Yazma amacı, hedef kitle, tür, içerik, ileti, strateji ve taslak planını belirleme.",
+      "expected_student_evidence": "Yazma planı, seçim/gerekçe kayıtları ve hazırlık notları.",
+      "pre_alignment_state": "PENDING_ALIGNMENT_NO_COVERAGE_ASSUMPTION",
       "textbook_coverage": "COVERED",
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
       "reuse_existing_resource": true,
       "textbook_section_ids": [
         "T4_SEC_05_YAZMA_SIIRE_DONUSTURME"
       ],
       "textbook_activity_ids": [
-        "T4_ACT_16_SIIR_DONUSUM_PLAN",
+        "T4_ACT_16_SIIR_DONUSUM_PLAN"
+      ],
+      "textbook_form_ids": [],
+      "textbook_resource_locators": [
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.302"
+      ],
+      "external_source_needed": false,
+      "teacher_review_required": false,
+      "decision_rationale": "Official textbook activity/evidence path satisfies the outcome-level need."
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T4_TDE4_2",
+      "need_id": "NEED_T10_T4_TDE4_2",
+      "target_outcomes": [
+        "TDE4.2"
+      ],
+      "resource_type": "reuse_official_textbook_path",
+      "purpose": "Belirlenen amaç ve türe uygun içeriği yapılandırarak taslak/ürün oluşturma.",
+      "expected_student_evidence": "İçerik taslağı ve yazılı/görsel ürün.",
+      "pre_alignment_state": "PENDING_ALIGNMENT_NO_COVERAGE_ASSUMPTION",
+      "textbook_coverage": "COVERED",
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_05_YAZMA_SIIRE_DONUSTURME"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_17_SIIR_DONUSUM_YAZMA"
+      ],
+      "textbook_form_ids": [],
+      "textbook_resource_locators": [
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.303"
+      ],
+      "external_source_needed": false,
+      "teacher_review_required": false,
+      "decision_rationale": "Official textbook activity/evidence path satisfies the outcome-level need."
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T4_TDE4_3",
+      "need_id": "NEED_T10_T4_TDE4_3",
+      "target_outcomes": [
+        "TDE4.3"
+      ],
+      "resource_type": "reuse_official_textbook_path",
+      "purpose": "Yazılı üründe tür, yapı, dil-anlatım, yazım-noktalama ve görev-özel kuralları uygulayıp düzenleme.",
+      "expected_student_evidence": "Düzenlenmiş taslak ve kurallara uygun nihai ürün.",
+      "pre_alignment_state": "PENDING_ALIGNMENT_NO_COVERAGE_ASSUMPTION",
+      "textbook_coverage": "COVERED",
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_05_YAZMA_SIIRE_DONUSTURME"
+      ],
+      "textbook_activity_ids": [
         "T4_ACT_17_SIIR_DONUSUM_YAZMA",
         "T4_ACT_18_SIIR_DEGERLENDIRME"
       ],
       "textbook_form_ids": [
+        "LINK_T4_YAZMA_DPA",
         "FORM_T4_YAZMA_AKRAN",
-        "FORM_T4_YAZMA_KONTROL",
-        "LINK_T4_YAZMA_DPA"
+        "FORM_T4_YAZMA_KONTROL"
       ],
-      "textbook_resource_locator": "s.234-310",
-      "production_decision": "REUSE_TEXTBOOK",
-      "external_source_needed": false,
-      "teacher_review_required": false
+      "textbook_resource_locators": [
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.303",
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.304-305"
+      ],
+      "external_source_needed": true,
+      "teacher_review_required": false,
+      "decision_rationale": "Official textbook activity/evidence path satisfies the outcome-level need."
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T4_TDE4_4",
+      "need_id": "NEED_T10_T4_TDE4_4",
+      "target_outcomes": [
+        "TDE4.4"
+      ],
+      "resource_type": "assessment_support_review",
+      "purpose": "Yazma sürecini öz/akran ve öğretmen değerlendirmesiyle değerlendirme; geri bildirimle ürünü geliştirme.",
+      "expected_student_evidence": "Öz/akran değerlendirme, öğretmen puanlama kanıtı ve revize edilmiş nihai ürün.",
+      "pre_alignment_state": "PENDING_ALIGNMENT_NO_COVERAGE_ASSUMPTION",
+      "textbook_coverage": "PARTIALLY_COVERED",
+      "priority": "REVIEW_REQUIRED",
+      "production_decision": "NO_ACTION_PENDING_ASSESSMENT_TARGET",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_05_YAZMA_SIIRE_DONUSTURME"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_18_SIIR_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "LINK_T4_YAZMA_DPA",
+        "FORM_T4_YAZMA_AKRAN",
+        "FORM_T4_YAZMA_KONTROL"
+      ],
+      "textbook_resource_locators": [
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.304-305"
+      ],
+      "external_source_needed": true,
+      "teacher_review_required": true,
+      "decision_rationale": "Official EBA DPA link exists but target structure is authentication-gated and unresolved."
     }
   ]
 }

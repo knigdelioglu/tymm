@@ -2,14 +2,16 @@
   "schema_version": "1.0",
   "course_id": "TDE_10",
   "source_id": "textbook_tde10_local_pdf",
-  "index_status": "FROZEN_LOCAL_PDF_PAGE_AND_LINK_VERIFIED",
+  "index_status": "PARITY_REAUDITED_8_EXTERNAL_DPA_TARGETS_AUTH_GATED",
   "classification_rule": "Classify by observed structure, not title. QR-linked Dereceli Puanlama Anahtarı links are verified as official EBA targets, but are not classified as analytic rubrics unless their target structure is inspected.",
   "total_records": 35,
   "summary": {
     "physical_or_inbook_forms": 27,
     "qr_assessment_links_verified": 8,
     "external_dpa_structure_unclassified": 8,
-    "analytic_rubrics_verified": 0
+    "analytic_rubrics_verified": 0,
+    "auth_gated_external_assessment_targets": 8,
+    "tde10_specific_extension_records": 3
   },
   "forms": [
     {
@@ -31,7 +33,21 @@
         "T1_ACT_04_KOSUK_YANSITMA"
       ],
       "verification_status": "LOCAL_PDF_PAGE_STRUCTURE_VERIFIED",
-      "notes": null
+      "notes": null,
+      "canonical_structural_family": null,
+      "taxonomy_relation": "TDE10_SPECIFIC_EXTENSION",
+      "structural_subtype": "exit_ticket",
+      "audience": "student",
+      "location_category": "in_theme_section",
+      "location_scope": "IN_THEME",
+      "structure_details": {
+        "scale_type": "none_or_not_observed",
+        "criteria_count_observed_estimate": 0,
+        "has_level_descriptors": false,
+        "has_scoring_levels": false,
+        "response_options": [],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      }
     },
     {
       "form_id": "FORM_T1_KONUSMA_AKRAN",
@@ -56,7 +72,25 @@
         "T1_ACT_10_KONUSMA_DEGERLENDIRME"
       ],
       "verification_status": "LOCAL_PDF_PAGE_STRUCTURE_VERIFIED",
-      "notes": null
+      "notes": null,
+      "canonical_structural_family": "peer_assessment_form",
+      "taxonomy_relation": "REFERENCE_FAMILY",
+      "structural_subtype": "peer_assessment_form",
+      "audience": "peer",
+      "location_category": "in_theme_section",
+      "location_scope": "IN_THEME",
+      "structure_details": {
+        "scale_type": "3_point_rating_scale",
+        "criteria_count_observed_estimate": 11,
+        "has_level_descriptors": false,
+        "has_scoring_levels": true,
+        "response_options": [
+          "Evet",
+          "Kısmen",
+          "Hayır"
+        ],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      }
     },
     {
       "form_id": "LINK_T1_KONUSMA_DPA",
@@ -76,9 +110,31 @@
       "linked_activity_ids": [
         "T1_ACT_10_KONUSMA_DEGERLENDIRME"
       ],
-      "verification_status": "OFFICIAL_EBA_LINK_PRESENT_IN_LOCAL_PDF_TARGET_STRUCTURE_UNCLASSIFIED",
+      "verification_status": "OFFICIAL_EBA_LINK_VERIFIED_TARGET_AUTH_GATED_STRUCTURE_UNRESOLVED",
       "notes": "Local MEB PDF explicitly links this performance task to an official EBA Dereceli Puanlama Anahtarı. Link existence is verified; rubric structure is intentionally not inferred or classified as analytic.",
-      "target_url": "https://ders.eba.gov.tr/ders//redirectContent.jsp?resourceId=463e1c03e54041d647b581a70e4dc186&resourceType=1&resourceLocation=2"
+      "target_url": "https://ders.eba.gov.tr/ders//redirectContent.jsp?resourceId=463e1c03e54041d647b581a70e4dc186&resourceType=1&resourceLocation=2",
+      "canonical_structural_family": "teacher_evaluation_form",
+      "taxonomy_relation": "NORMALIZED_TO_REFERENCE_FAMILY",
+      "structural_subtype": "linked_assessment_resource",
+      "audience": "teacher",
+      "location_category": "external_official_assessment_link",
+      "location_scope": "EXTERNAL_OFFICIAL_EBA",
+      "structure_details": {
+        "scale_type": "none_or_not_observed",
+        "criteria_count_observed_estimate": null,
+        "has_level_descriptors": null,
+        "has_scoring_levels": null,
+        "response_options": [],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      },
+      "target_probe": {
+        "http_status": 200,
+        "final_url": "https://giris.eba.gov.tr/EBA_GIRIS/giris.jsp",
+        "content_type": "text/html; charset=UTF-8",
+        "provisional_structural_classification": "unresolved",
+        "classification_confidence": "LOW",
+        "access_note": "POSSIBLE_LOGIN_OR_GATE_PAGE_REVIEW_REQUIRED"
+      }
     },
     {
       "form_id": "FORM_T1_MASAL_OZ",
@@ -99,7 +155,21 @@
         "T1_ACT_13_MASAL_YANSITMA"
       ],
       "verification_status": "LOCAL_PDF_PAGE_STRUCTURE_VERIFIED",
-      "notes": null
+      "notes": null,
+      "canonical_structural_family": "self_assessment_form",
+      "taxonomy_relation": "REFERENCE_FAMILY",
+      "structural_subtype": "self_assessment_form",
+      "audience": "student_self",
+      "location_category": "in_theme_section",
+      "location_scope": "IN_THEME",
+      "structure_details": {
+        "scale_type": "none_or_not_observed",
+        "criteria_count_observed_estimate": 0,
+        "has_level_descriptors": false,
+        "has_scoring_levels": false,
+        "response_options": [],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      }
     },
     {
       "form_id": "FORM_T1_YAZMA_KONTROL",
@@ -123,7 +193,24 @@
         "T1_ACT_16_FILM_SERIDI_DEGERLENDIRME"
       ],
       "verification_status": "LOCAL_PDF_PAGE_STRUCTURE_VERIFIED",
-      "notes": null
+      "notes": null,
+      "canonical_structural_family": "assessment_criteria_table",
+      "taxonomy_relation": "NORMALIZED_TO_REFERENCE_FAMILY",
+      "structural_subtype": "checklist",
+      "audience": "student_self",
+      "location_category": "in_theme_section",
+      "location_scope": "IN_THEME",
+      "structure_details": {
+        "scale_type": "binary_checklist_scale",
+        "criteria_count_observed_estimate": 0,
+        "has_level_descriptors": false,
+        "has_scoring_levels": true,
+        "response_options": [
+          "Evet",
+          "Hayır"
+        ],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      }
     },
     {
       "form_id": "FORM_T1_YAZMA_AKRAN",
@@ -144,7 +231,21 @@
         "T1_ACT_16_FILM_SERIDI_DEGERLENDIRME"
       ],
       "verification_status": "LOCAL_PDF_PAGE_STRUCTURE_VERIFIED",
-      "notes": null
+      "notes": null,
+      "canonical_structural_family": "peer_assessment_form",
+      "taxonomy_relation": "REFERENCE_FAMILY",
+      "structural_subtype": "peer_assessment_form",
+      "audience": "peer",
+      "location_category": "in_theme_section",
+      "location_scope": "IN_THEME",
+      "structure_details": {
+        "scale_type": "none_or_not_observed",
+        "criteria_count_observed_estimate": 9,
+        "has_level_descriptors": false,
+        "has_scoring_levels": false,
+        "response_options": [],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      }
     },
     {
       "form_id": "LINK_T1_YAZMA_DPA",
@@ -164,9 +265,31 @@
       "linked_activity_ids": [
         "T1_ACT_16_FILM_SERIDI_DEGERLENDIRME"
       ],
-      "verification_status": "OFFICIAL_EBA_LINK_PRESENT_IN_LOCAL_PDF_TARGET_STRUCTURE_UNCLASSIFIED",
+      "verification_status": "OFFICIAL_EBA_LINK_VERIFIED_TARGET_AUTH_GATED_STRUCTURE_UNRESOLVED",
       "notes": "Local MEB PDF explicitly links this performance task to an official EBA Dereceli Puanlama Anahtarı. Link existence is verified; rubric structure is intentionally not inferred or classified as analytic.",
-      "target_url": "https://ders.eba.gov.tr/ders//redirectContent.jsp?resourceId=0c6a0b15b9fee29873e2bffa51e96b1a&resourceType=1&resourceLocation=2"
+      "target_url": "https://ders.eba.gov.tr/ders//redirectContent.jsp?resourceId=0c6a0b15b9fee29873e2bffa51e96b1a&resourceType=1&resourceLocation=2",
+      "canonical_structural_family": "teacher_evaluation_form",
+      "taxonomy_relation": "NORMALIZED_TO_REFERENCE_FAMILY",
+      "structural_subtype": "linked_assessment_resource",
+      "audience": "teacher",
+      "location_category": "external_official_assessment_link",
+      "location_scope": "EXTERNAL_OFFICIAL_EBA",
+      "structure_details": {
+        "scale_type": "none_or_not_observed",
+        "criteria_count_observed_estimate": null,
+        "has_level_descriptors": null,
+        "has_scoring_levels": null,
+        "response_options": [],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      },
+      "target_probe": {
+        "http_status": 200,
+        "final_url": "https://giris.eba.gov.tr/EBA_GIRIS/giris.jsp",
+        "content_type": "text/html; charset=UTF-8",
+        "provisional_structural_classification": "unresolved",
+        "classification_confidence": "LOW",
+        "access_note": "POSSIBLE_LOGIN_OR_GATE_PAGE_REVIEW_REQUIRED"
+      }
     },
     {
       "form_id": "FORM_T1_YANSITMA",
@@ -187,7 +310,21 @@
         "T1_ACT_17_TEMA_YANSITMA"
       ],
       "verification_status": "LOCAL_PDF_PAGE_STRUCTURE_VERIFIED",
-      "notes": null
+      "notes": null,
+      "canonical_structural_family": null,
+      "taxonomy_relation": "TDE10_SPECIFIC_EXTENSION",
+      "structural_subtype": "reflection_prompt",
+      "audience": "student",
+      "location_category": "in_theme_section",
+      "location_scope": "IN_THEME",
+      "structure_details": {
+        "scale_type": "none_or_not_observed",
+        "criteria_count_observed_estimate": 0,
+        "has_level_descriptors": false,
+        "has_scoring_levels": false,
+        "response_options": [],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      }
     },
     {
       "form_id": "FORM_T1_TEMA_TEST",
@@ -208,7 +345,21 @@
         "T1_ACT_18_TEMA_OLCME"
       ],
       "verification_status": "LOCAL_PDF_PAGE_STRUCTURE_VERIFIED",
-      "notes": null
+      "notes": null,
+      "canonical_structural_family": "test_question_set",
+      "taxonomy_relation": "REFERENCE_FAMILY",
+      "structural_subtype": "test_question_set",
+      "audience": "student",
+      "location_category": "in_theme_section",
+      "location_scope": "IN_THEME",
+      "structure_details": {
+        "scale_type": "none_or_not_observed",
+        "criteria_count_observed_estimate": 0,
+        "has_level_descriptors": false,
+        "has_scoring_levels": false,
+        "response_options": [],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      }
     },
     {
       "form_id": "FORM_T2_GAZEL_GUNLUK",
@@ -229,7 +380,21 @@
         "T2_ACT_04_GAZEL_YANSITMA"
       ],
       "verification_status": "LOCAL_PDF_PAGE_STRUCTURE_VERIFIED",
-      "notes": null
+      "notes": null,
+      "canonical_structural_family": "learning_journal",
+      "taxonomy_relation": "REFERENCE_FAMILY",
+      "structural_subtype": "learning_journal",
+      "audience": "student",
+      "location_category": "in_theme_section",
+      "location_scope": "IN_THEME",
+      "structure_details": {
+        "scale_type": "none_or_not_observed",
+        "criteria_count_observed_estimate": 0,
+        "has_level_descriptors": false,
+        "has_scoring_levels": false,
+        "response_options": [],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      }
     },
     {
       "form_id": "FORM_T2_YAZMA_KONTROL",
@@ -254,7 +419,25 @@
         "T2_ACT_10_YAZMA_DEGERLENDIRME"
       ],
       "verification_status": "LOCAL_PDF_PAGE_STRUCTURE_VERIFIED",
-      "notes": null
+      "notes": null,
+      "canonical_structural_family": "assessment_criteria_table",
+      "taxonomy_relation": "NORMALIZED_TO_REFERENCE_FAMILY",
+      "structural_subtype": "checklist",
+      "audience": "student_self",
+      "location_category": "in_theme_section",
+      "location_scope": "IN_THEME",
+      "structure_details": {
+        "scale_type": "3_point_rating_scale",
+        "criteria_count_observed_estimate": 18,
+        "has_level_descriptors": false,
+        "has_scoring_levels": true,
+        "response_options": [
+          "Evet",
+          "Kısmen",
+          "Hayır"
+        ],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      }
     },
     {
       "form_id": "FORM_T2_YAZMA_AKRAN",
@@ -275,7 +458,21 @@
         "T2_ACT_10_YAZMA_DEGERLENDIRME"
       ],
       "verification_status": "LOCAL_PDF_PAGE_STRUCTURE_VERIFIED",
-      "notes": null
+      "notes": null,
+      "canonical_structural_family": "peer_assessment_form",
+      "taxonomy_relation": "REFERENCE_FAMILY",
+      "structural_subtype": "peer_assessment_form",
+      "audience": "peer",
+      "location_category": "in_theme_section",
+      "location_scope": "IN_THEME",
+      "structure_details": {
+        "scale_type": "none_or_not_observed",
+        "criteria_count_observed_estimate": 0,
+        "has_level_descriptors": false,
+        "has_scoring_levels": false,
+        "response_options": [],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      }
     },
     {
       "form_id": "LINK_T2_YAZMA_DPA",
@@ -295,9 +492,31 @@
       "linked_activity_ids": [
         "T2_ACT_10_YAZMA_DEGERLENDIRME"
       ],
-      "verification_status": "OFFICIAL_EBA_LINK_PRESENT_IN_LOCAL_PDF_TARGET_STRUCTURE_UNCLASSIFIED",
+      "verification_status": "OFFICIAL_EBA_LINK_VERIFIED_TARGET_AUTH_GATED_STRUCTURE_UNRESOLVED",
       "notes": "Local MEB PDF explicitly links this performance task to an official EBA Dereceli Puanlama Anahtarı. Link existence is verified; rubric structure is intentionally not inferred or classified as analytic.",
-      "target_url": "https://ders.eba.gov.tr/ders//redirectContent.jsp?resourceId=0f22f4225655777a7e05c3406c5220ad&resourceType=1&resourceLocation=2"
+      "target_url": "https://ders.eba.gov.tr/ders//redirectContent.jsp?resourceId=0f22f4225655777a7e05c3406c5220ad&resourceType=1&resourceLocation=2",
+      "canonical_structural_family": "teacher_evaluation_form",
+      "taxonomy_relation": "NORMALIZED_TO_REFERENCE_FAMILY",
+      "structural_subtype": "linked_assessment_resource",
+      "audience": "teacher",
+      "location_category": "external_official_assessment_link",
+      "location_scope": "EXTERNAL_OFFICIAL_EBA",
+      "structure_details": {
+        "scale_type": "none_or_not_observed",
+        "criteria_count_observed_estimate": null,
+        "has_level_descriptors": null,
+        "has_scoring_levels": null,
+        "response_options": [],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      },
+      "target_probe": {
+        "http_status": 200,
+        "final_url": "https://giris.eba.gov.tr/EBA_GIRIS/giris.jsp",
+        "content_type": "text/html; charset=UTF-8",
+        "provisional_structural_classification": "unresolved",
+        "classification_confidence": "LOW",
+        "access_note": "POSSIBLE_LOGIN_OR_GATE_PAGE_REVIEW_REQUIRED"
+      }
     },
     {
       "form_id": "LINK_T2_PODCAST_DPA",
@@ -317,9 +536,31 @@
       "linked_activity_ids": [
         "T2_ACT_17_PODCAST_YANSITMA"
       ],
-      "verification_status": "OFFICIAL_EBA_LINK_PRESENT_IN_LOCAL_PDF_TARGET_STRUCTURE_UNCLASSIFIED",
+      "verification_status": "OFFICIAL_EBA_LINK_VERIFIED_TARGET_AUTH_GATED_STRUCTURE_UNRESOLVED",
       "notes": "Local MEB PDF explicitly links this performance task to an official EBA Dereceli Puanlama Anahtarı. Link existence is verified; rubric structure is intentionally not inferred or classified as analytic.",
-      "target_url": "https://ders.eba.gov.tr/ders//redirectContent.jsp?resourceId=d60fa8ae9f334ea2a6eed00e3a7c5919&resourceType=1&resourceLocation=2"
+      "target_url": "https://ders.eba.gov.tr/ders//redirectContent.jsp?resourceId=d60fa8ae9f334ea2a6eed00e3a7c5919&resourceType=1&resourceLocation=2",
+      "canonical_structural_family": "teacher_evaluation_form",
+      "taxonomy_relation": "NORMALIZED_TO_REFERENCE_FAMILY",
+      "structural_subtype": "linked_assessment_resource",
+      "audience": "teacher",
+      "location_category": "external_official_assessment_link",
+      "location_scope": "EXTERNAL_OFFICIAL_EBA",
+      "structure_details": {
+        "scale_type": "none_or_not_observed",
+        "criteria_count_observed_estimate": null,
+        "has_level_descriptors": null,
+        "has_scoring_levels": null,
+        "response_options": [],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      },
+      "target_probe": {
+        "http_status": 200,
+        "final_url": "https://giris.eba.gov.tr/EBA_GIRIS/giris.jsp",
+        "content_type": "text/html; charset=UTF-8",
+        "provisional_structural_classification": "unresolved",
+        "classification_confidence": "LOW",
+        "access_note": "POSSIBLE_LOGIN_OR_GATE_PAGE_REVIEW_REQUIRED"
+      }
     },
     {
       "form_id": "FORM_T2_PODCAST_YANSITMA",
@@ -340,7 +581,21 @@
         "T2_ACT_17_PODCAST_YANSITMA"
       ],
       "verification_status": "LOCAL_PDF_PAGE_STRUCTURE_VERIFIED",
-      "notes": null
+      "notes": null,
+      "canonical_structural_family": null,
+      "taxonomy_relation": "TDE10_SPECIFIC_EXTENSION",
+      "structural_subtype": "reflection_prompt",
+      "audience": "student",
+      "location_category": "in_theme_section",
+      "location_scope": "IN_THEME",
+      "structure_details": {
+        "scale_type": "none_or_not_observed",
+        "criteria_count_observed_estimate": 0,
+        "has_level_descriptors": false,
+        "has_scoring_levels": false,
+        "response_options": [],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      }
     },
     {
       "form_id": "FORM_T2_TEMA_TEST",
@@ -361,7 +616,21 @@
         "T2_ACT_18_TEMA_OLCME"
       ],
       "verification_status": "LOCAL_PDF_PAGE_STRUCTURE_VERIFIED",
-      "notes": null
+      "notes": null,
+      "canonical_structural_family": "test_question_set",
+      "taxonomy_relation": "REFERENCE_FAMILY",
+      "structural_subtype": "test_question_set",
+      "audience": "student",
+      "location_category": "in_theme_section",
+      "location_scope": "IN_THEME",
+      "structure_details": {
+        "scale_type": "none_or_not_observed",
+        "criteria_count_observed_estimate": 0,
+        "has_level_descriptors": false,
+        "has_scoring_levels": false,
+        "response_options": [],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      }
     },
     {
       "form_id": "FORM_T3_KONUSMA_OZ",
@@ -382,7 +651,21 @@
         "T3_ACT_10_KONUSMA_OZ_AKRAN"
       ],
       "verification_status": "LOCAL_PDF_PAGE_STRUCTURE_VERIFIED",
-      "notes": null
+      "notes": null,
+      "canonical_structural_family": "self_assessment_form",
+      "taxonomy_relation": "REFERENCE_FAMILY",
+      "structural_subtype": "self_assessment_form",
+      "audience": "student_self",
+      "location_category": "in_theme_section",
+      "location_scope": "IN_THEME",
+      "structure_details": {
+        "scale_type": "none_or_not_observed",
+        "criteria_count_observed_estimate": 0,
+        "has_level_descriptors": false,
+        "has_scoring_levels": false,
+        "response_options": [],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      }
     },
     {
       "form_id": "FORM_T3_KONUSMA_AKRAN",
@@ -403,7 +686,21 @@
         "T3_ACT_10_KONUSMA_OZ_AKRAN"
       ],
       "verification_status": "LOCAL_PDF_PAGE_STRUCTURE_VERIFIED",
-      "notes": null
+      "notes": null,
+      "canonical_structural_family": "peer_assessment_form",
+      "taxonomy_relation": "REFERENCE_FAMILY",
+      "structural_subtype": "peer_assessment_form",
+      "audience": "peer",
+      "location_category": "in_theme_section",
+      "location_scope": "IN_THEME",
+      "structure_details": {
+        "scale_type": "none_or_not_observed",
+        "criteria_count_observed_estimate": 0,
+        "has_level_descriptors": false,
+        "has_scoring_levels": false,
+        "response_options": [],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      }
     },
     {
       "form_id": "LINK_T3_KONUSMA_DPA",
@@ -423,9 +720,31 @@
       "linked_activity_ids": [
         "T3_ACT_10_KONUSMA_OZ_AKRAN"
       ],
-      "verification_status": "OFFICIAL_EBA_LINK_PRESENT_IN_LOCAL_PDF_TARGET_STRUCTURE_UNCLASSIFIED",
+      "verification_status": "OFFICIAL_EBA_LINK_VERIFIED_TARGET_AUTH_GATED_STRUCTURE_UNRESOLVED",
       "notes": "Local MEB PDF explicitly links this performance task to an official EBA Dereceli Puanlama Anahtarı. Link existence is verified; rubric structure is intentionally not inferred or classified as analytic.",
-      "target_url": "https://ders.eba.gov.tr/ders//redirectContent.jsp?resourceId=f586b16eecc4505e7bad6f1d4d83505e&resourceType=1&resourceLocation=2"
+      "target_url": "https://ders.eba.gov.tr/ders//redirectContent.jsp?resourceId=f586b16eecc4505e7bad6f1d4d83505e&resourceType=1&resourceLocation=2",
+      "canonical_structural_family": "teacher_evaluation_form",
+      "taxonomy_relation": "NORMALIZED_TO_REFERENCE_FAMILY",
+      "structural_subtype": "linked_assessment_resource",
+      "audience": "teacher",
+      "location_category": "external_official_assessment_link",
+      "location_scope": "EXTERNAL_OFFICIAL_EBA",
+      "structure_details": {
+        "scale_type": "none_or_not_observed",
+        "criteria_count_observed_estimate": null,
+        "has_level_descriptors": null,
+        "has_scoring_levels": null,
+        "response_options": [],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      },
+      "target_probe": {
+        "http_status": 200,
+        "final_url": "https://giris.eba.gov.tr/EBA_GIRIS/giris.jsp",
+        "content_type": "text/html; charset=UTF-8",
+        "provisional_structural_classification": "unresolved",
+        "classification_confidence": "LOW",
+        "access_note": "POSSIBLE_LOGIN_OR_GATE_PAGE_REVIEW_REQUIRED"
+      }
     },
     {
       "form_id": "FORM_T3_FABL_DINLEME_KONTROL",
@@ -449,7 +768,24 @@
         "T3_ACT_11_FABL_DINLEME_HAZIRLIK"
       ],
       "verification_status": "LOCAL_PDF_PAGE_STRUCTURE_VERIFIED",
-      "notes": null
+      "notes": null,
+      "canonical_structural_family": "assessment_criteria_table",
+      "taxonomy_relation": "NORMALIZED_TO_REFERENCE_FAMILY",
+      "structural_subtype": "checklist",
+      "audience": "student_self",
+      "location_category": "in_theme_section",
+      "location_scope": "IN_THEME",
+      "structure_details": {
+        "scale_type": "binary_checklist_scale",
+        "criteria_count_observed_estimate": 7,
+        "has_level_descriptors": false,
+        "has_scoring_levels": true,
+        "response_options": [
+          "Evet",
+          "Hayır"
+        ],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      }
     },
     {
       "form_id": "FORM_T3_YAZMA_OZ",
@@ -470,7 +806,21 @@
         "T3_ACT_17_FABL_YAZMA_DEGERLENDIRME"
       ],
       "verification_status": "LOCAL_PDF_PAGE_STRUCTURE_VERIFIED",
-      "notes": null
+      "notes": null,
+      "canonical_structural_family": "self_assessment_form",
+      "taxonomy_relation": "REFERENCE_FAMILY",
+      "structural_subtype": "self_assessment_form",
+      "audience": "student_self",
+      "location_category": "in_theme_section",
+      "location_scope": "IN_THEME",
+      "structure_details": {
+        "scale_type": "none_or_not_observed",
+        "criteria_count_observed_estimate": 0,
+        "has_level_descriptors": false,
+        "has_scoring_levels": false,
+        "response_options": [],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      }
     },
     {
       "form_id": "FORM_T3_YAZMA_AKRAN",
@@ -491,7 +841,21 @@
         "T3_ACT_17_FABL_YAZMA_DEGERLENDIRME"
       ],
       "verification_status": "LOCAL_PDF_PAGE_STRUCTURE_VERIFIED",
-      "notes": null
+      "notes": null,
+      "canonical_structural_family": "peer_assessment_form",
+      "taxonomy_relation": "REFERENCE_FAMILY",
+      "structural_subtype": "peer_assessment_form",
+      "audience": "peer",
+      "location_category": "in_theme_section",
+      "location_scope": "IN_THEME",
+      "structure_details": {
+        "scale_type": "none_or_not_observed",
+        "criteria_count_observed_estimate": 0,
+        "has_level_descriptors": false,
+        "has_scoring_levels": false,
+        "response_options": [],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      }
     },
     {
       "form_id": "LINK_T3_YAZMA_DPA",
@@ -511,9 +875,31 @@
       "linked_activity_ids": [
         "T3_ACT_17_FABL_YAZMA_DEGERLENDIRME"
       ],
-      "verification_status": "OFFICIAL_EBA_LINK_PRESENT_IN_LOCAL_PDF_TARGET_STRUCTURE_UNCLASSIFIED",
+      "verification_status": "OFFICIAL_EBA_LINK_VERIFIED_TARGET_AUTH_GATED_STRUCTURE_UNRESOLVED",
       "notes": "Local MEB PDF explicitly links this performance task to an official EBA Dereceli Puanlama Anahtarı. Link existence is verified; rubric structure is intentionally not inferred or classified as analytic.",
-      "target_url": "https://ders.eba.gov.tr/ders//redirectContent.jsp?resourceId=4e917678a6d78d6766d1f40e7db05c41&resourceType=1&resourceLocation=2"
+      "target_url": "https://ders.eba.gov.tr/ders//redirectContent.jsp?resourceId=4e917678a6d78d6766d1f40e7db05c41&resourceType=1&resourceLocation=2",
+      "canonical_structural_family": "teacher_evaluation_form",
+      "taxonomy_relation": "NORMALIZED_TO_REFERENCE_FAMILY",
+      "structural_subtype": "linked_assessment_resource",
+      "audience": "teacher",
+      "location_category": "external_official_assessment_link",
+      "location_scope": "EXTERNAL_OFFICIAL_EBA",
+      "structure_details": {
+        "scale_type": "none_or_not_observed",
+        "criteria_count_observed_estimate": null,
+        "has_level_descriptors": null,
+        "has_scoring_levels": null,
+        "response_options": [],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      },
+      "target_probe": {
+        "http_status": 200,
+        "final_url": "https://giris.eba.gov.tr/EBA_GIRIS/giris.jsp",
+        "content_type": "text/html; charset=UTF-8",
+        "provisional_structural_classification": "unresolved",
+        "classification_confidence": "LOW",
+        "access_note": "POSSIBLE_LOGIN_OR_GATE_PAGE_REVIEW_REQUIRED"
+      }
     },
     {
       "form_id": "FORM_T3_TEMA_GUNLUK",
@@ -534,7 +920,21 @@
         "T3_ACT_18_TEMA_GUNLUK"
       ],
       "verification_status": "LOCAL_PDF_PAGE_STRUCTURE_VERIFIED",
-      "notes": null
+      "notes": null,
+      "canonical_structural_family": "learning_journal",
+      "taxonomy_relation": "REFERENCE_FAMILY",
+      "structural_subtype": "learning_journal",
+      "audience": "student",
+      "location_category": "in_theme_section",
+      "location_scope": "IN_THEME",
+      "structure_details": {
+        "scale_type": "none_or_not_observed",
+        "criteria_count_observed_estimate": 0,
+        "has_level_descriptors": false,
+        "has_scoring_levels": false,
+        "response_options": [],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      }
     },
     {
       "form_id": "FORM_T3_TEMA_TEST",
@@ -555,7 +955,21 @@
         "T3_ACT_19_TEMA_OLCME"
       ],
       "verification_status": "LOCAL_PDF_PAGE_STRUCTURE_VERIFIED",
-      "notes": null
+      "notes": null,
+      "canonical_structural_family": "test_question_set",
+      "taxonomy_relation": "REFERENCE_FAMILY",
+      "structural_subtype": "test_question_set",
+      "audience": "student",
+      "location_category": "in_theme_section",
+      "location_scope": "IN_THEME",
+      "structure_details": {
+        "scale_type": "none_or_not_observed",
+        "criteria_count_observed_estimate": 0,
+        "has_level_descriptors": false,
+        "has_scoring_levels": false,
+        "response_options": [],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      }
     },
     {
       "form_id": "FORM_T4_OKUMA_GUNLUK",
@@ -576,7 +990,21 @@
         "T4_ACT_04_DEDE_KORKUT_KARSILASTIRMA"
       ],
       "verification_status": "LOCAL_PDF_PAGE_STRUCTURE_VERIFIED",
-      "notes": null
+      "notes": null,
+      "canonical_structural_family": "learning_journal",
+      "taxonomy_relation": "REFERENCE_FAMILY",
+      "structural_subtype": "learning_journal",
+      "audience": "student",
+      "location_category": "in_theme_section",
+      "location_scope": "IN_THEME",
+      "structure_details": {
+        "scale_type": "none_or_not_observed",
+        "criteria_count_observed_estimate": 0,
+        "has_level_descriptors": false,
+        "has_scoring_levels": false,
+        "response_options": [],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      }
     },
     {
       "form_id": "LINK_T4_KONUSMA_DPA",
@@ -596,9 +1024,31 @@
       "linked_activity_ids": [
         "T4_ACT_11_CANLANDIRMA_DEGERLENDIRME"
       ],
-      "verification_status": "OFFICIAL_EBA_LINK_PRESENT_IN_LOCAL_PDF_TARGET_STRUCTURE_UNCLASSIFIED",
+      "verification_status": "OFFICIAL_EBA_LINK_VERIFIED_TARGET_AUTH_GATED_STRUCTURE_UNRESOLVED",
       "notes": "Local MEB PDF explicitly links this performance task to an official EBA Dereceli Puanlama Anahtarı. Link existence is verified; rubric structure is intentionally not inferred or classified as analytic.",
-      "target_url": "https://ders.eba.gov.tr/ders//redirectContent.jsp?resourceId=c5cacd8918c69da54e289902e8643782&resourceType=1&resourceLocation=2"
+      "target_url": "https://ders.eba.gov.tr/ders//redirectContent.jsp?resourceId=c5cacd8918c69da54e289902e8643782&resourceType=1&resourceLocation=2",
+      "canonical_structural_family": "teacher_evaluation_form",
+      "taxonomy_relation": "NORMALIZED_TO_REFERENCE_FAMILY",
+      "structural_subtype": "linked_assessment_resource",
+      "audience": "teacher",
+      "location_category": "external_official_assessment_link",
+      "location_scope": "EXTERNAL_OFFICIAL_EBA",
+      "structure_details": {
+        "scale_type": "none_or_not_observed",
+        "criteria_count_observed_estimate": null,
+        "has_level_descriptors": null,
+        "has_scoring_levels": null,
+        "response_options": [],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      },
+      "target_probe": {
+        "http_status": 200,
+        "final_url": "https://giris.eba.gov.tr/EBA_GIRIS/giris.jsp",
+        "content_type": "text/html; charset=UTF-8",
+        "provisional_structural_classification": "unresolved",
+        "classification_confidence": "LOW",
+        "access_note": "POSSIBLE_LOGIN_OR_GATE_PAGE_REVIEW_REQUIRED"
+      }
     },
     {
       "form_id": "FORM_T4_KONUSMA_AKRAN",
@@ -623,7 +1073,25 @@
         "T4_ACT_11_CANLANDIRMA_DEGERLENDIRME"
       ],
       "verification_status": "LOCAL_PDF_PAGE_STRUCTURE_VERIFIED",
-      "notes": null
+      "notes": null,
+      "canonical_structural_family": "peer_assessment_form",
+      "taxonomy_relation": "REFERENCE_FAMILY",
+      "structural_subtype": "peer_assessment_form",
+      "audience": "peer",
+      "location_category": "in_theme_section",
+      "location_scope": "IN_THEME",
+      "structure_details": {
+        "scale_type": "3_point_rating_scale",
+        "criteria_count_observed_estimate": 9,
+        "has_level_descriptors": false,
+        "has_scoring_levels": true,
+        "response_options": [
+          "Evet",
+          "Kısmen",
+          "Hayır"
+        ],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      }
     },
     {
       "form_id": "FORM_T4_KONUSMA_OZ",
@@ -648,7 +1116,25 @@
         "T4_ACT_11_CANLANDIRMA_DEGERLENDIRME"
       ],
       "verification_status": "LOCAL_PDF_PAGE_STRUCTURE_VERIFIED",
-      "notes": null
+      "notes": null,
+      "canonical_structural_family": "self_assessment_form",
+      "taxonomy_relation": "REFERENCE_FAMILY",
+      "structural_subtype": "self_assessment_form",
+      "audience": "student_self",
+      "location_category": "in_theme_section",
+      "location_scope": "IN_THEME",
+      "structure_details": {
+        "scale_type": "3_point_rating_scale",
+        "criteria_count_observed_estimate": 9,
+        "has_level_descriptors": false,
+        "has_scoring_levels": true,
+        "response_options": [
+          "Evet",
+          "Kısmen",
+          "Hayır"
+        ],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      }
     },
     {
       "form_id": "FORM_T4_DINLEME_OZ",
@@ -669,7 +1155,21 @@
         "T4_ACT_15_HIKAYE_OZ_DEGERLENDIRME"
       ],
       "verification_status": "LOCAL_PDF_PAGE_STRUCTURE_VERIFIED",
-      "notes": null
+      "notes": null,
+      "canonical_structural_family": "self_assessment_form",
+      "taxonomy_relation": "REFERENCE_FAMILY",
+      "structural_subtype": "self_assessment_form",
+      "audience": "student_self",
+      "location_category": "in_theme_section",
+      "location_scope": "IN_THEME",
+      "structure_details": {
+        "scale_type": "none_or_not_observed",
+        "criteria_count_observed_estimate": 0,
+        "has_level_descriptors": false,
+        "has_scoring_levels": false,
+        "response_options": [],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      }
     },
     {
       "form_id": "LINK_T4_YAZMA_DPA",
@@ -689,9 +1189,31 @@
       "linked_activity_ids": [
         "T4_ACT_18_SIIR_DEGERLENDIRME"
       ],
-      "verification_status": "OFFICIAL_EBA_LINK_PRESENT_IN_LOCAL_PDF_TARGET_STRUCTURE_UNCLASSIFIED",
+      "verification_status": "OFFICIAL_EBA_LINK_VERIFIED_TARGET_AUTH_GATED_STRUCTURE_UNRESOLVED",
       "notes": "Local MEB PDF explicitly links this performance task to an official EBA Dereceli Puanlama Anahtarı. Link existence is verified; rubric structure is intentionally not inferred or classified as analytic.",
-      "target_url": "https://ders.eba.gov.tr/ders//redirectContent.jsp?resourceId=da7d3b0812aa2b4bf3795f7a6ca5ec65&resourceType=1&resourceLocation=2"
+      "target_url": "https://ders.eba.gov.tr/ders//redirectContent.jsp?resourceId=da7d3b0812aa2b4bf3795f7a6ca5ec65&resourceType=1&resourceLocation=2",
+      "canonical_structural_family": "teacher_evaluation_form",
+      "taxonomy_relation": "NORMALIZED_TO_REFERENCE_FAMILY",
+      "structural_subtype": "linked_assessment_resource",
+      "audience": "teacher",
+      "location_category": "external_official_assessment_link",
+      "location_scope": "EXTERNAL_OFFICIAL_EBA",
+      "structure_details": {
+        "scale_type": "none_or_not_observed",
+        "criteria_count_observed_estimate": null,
+        "has_level_descriptors": null,
+        "has_scoring_levels": null,
+        "response_options": [],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      },
+      "target_probe": {
+        "http_status": 200,
+        "final_url": "https://giris.eba.gov.tr/EBA_GIRIS/giris.jsp",
+        "content_type": "text/html; charset=UTF-8",
+        "provisional_structural_classification": "unresolved",
+        "classification_confidence": "LOW",
+        "access_note": "POSSIBLE_LOGIN_OR_GATE_PAGE_REVIEW_REQUIRED"
+      }
     },
     {
       "form_id": "FORM_T4_YAZMA_AKRAN",
@@ -712,7 +1234,21 @@
         "T4_ACT_18_SIIR_DEGERLENDIRME"
       ],
       "verification_status": "LOCAL_PDF_PAGE_STRUCTURE_VERIFIED",
-      "notes": null
+      "notes": null,
+      "canonical_structural_family": "peer_assessment_form",
+      "taxonomy_relation": "REFERENCE_FAMILY",
+      "structural_subtype": "peer_assessment_form",
+      "audience": "peer",
+      "location_category": "in_theme_section",
+      "location_scope": "IN_THEME",
+      "structure_details": {
+        "scale_type": "none_or_not_observed",
+        "criteria_count_observed_estimate": 8,
+        "has_level_descriptors": false,
+        "has_scoring_levels": false,
+        "response_options": [],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      }
     },
     {
       "form_id": "FORM_T4_YAZMA_KONTROL",
@@ -733,7 +1269,21 @@
         "T4_ACT_18_SIIR_DEGERLENDIRME"
       ],
       "verification_status": "LOCAL_PDF_PAGE_STRUCTURE_VERIFIED",
-      "notes": null
+      "notes": null,
+      "canonical_structural_family": "assessment_criteria_table",
+      "taxonomy_relation": "NORMALIZED_TO_REFERENCE_FAMILY",
+      "structural_subtype": "checklist",
+      "audience": "student_self",
+      "location_category": "in_theme_section",
+      "location_scope": "IN_THEME",
+      "structure_details": {
+        "scale_type": "none_or_not_observed",
+        "criteria_count_observed_estimate": 8,
+        "has_level_descriptors": false,
+        "has_scoring_levels": false,
+        "response_options": [],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      }
     },
     {
       "form_id": "FORM_T4_TEMA_GUNLUK",
@@ -754,7 +1304,21 @@
         "T4_ACT_19_TEMA_GUNLUK"
       ],
       "verification_status": "LOCAL_PDF_PAGE_STRUCTURE_VERIFIED",
-      "notes": null
+      "notes": null,
+      "canonical_structural_family": "learning_journal",
+      "taxonomy_relation": "REFERENCE_FAMILY",
+      "structural_subtype": "learning_journal",
+      "audience": "student",
+      "location_category": "in_theme_section",
+      "location_scope": "IN_THEME",
+      "structure_details": {
+        "scale_type": "none_or_not_observed",
+        "criteria_count_observed_estimate": 0,
+        "has_level_descriptors": false,
+        "has_scoring_levels": false,
+        "response_options": [],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      }
     },
     {
       "form_id": "FORM_T4_TEMA_TEST",
@@ -775,8 +1339,33 @@
         "T4_ACT_20_TEMA_OLCME"
       ],
       "verification_status": "LOCAL_PDF_PAGE_STRUCTURE_VERIFIED",
-      "notes": null
+      "notes": null,
+      "canonical_structural_family": "test_question_set",
+      "taxonomy_relation": "REFERENCE_FAMILY",
+      "structural_subtype": "test_question_set",
+      "audience": "student",
+      "location_category": "in_theme_section",
+      "location_scope": "IN_THEME",
+      "structure_details": {
+        "scale_type": "none_or_not_observed",
+        "criteria_count_observed_estimate": 0,
+        "has_level_descriptors": false,
+        "has_scoring_levels": false,
+        "response_options": [],
+        "canonicalization_note": "Structure is classified from observed components; title alone is never sufficient."
+      }
     }
   ],
-  "freeze_status": "FROZEN_WITH_EXTERNAL_DPA_STRUCTURE_UNCLASSIFIED"
+  "freeze_status": "FROZEN_WITH_EXTERNAL_DPA_STRUCTURE_UNCLASSIFIED",
+  "classification_rule_verbatim": "Değerlendirme araçları başlıklarına göre değil, içerdikleri yapısal bileşenlere (ölçüt tablosu, performans düzeyi betimleyicileri, dereceleme skalası, kontrol listesi vb.) göre sınıflandırılmıştır.",
+  "reference_structural_taxonomy": [
+    "self_assessment_form",
+    "assessment_criteria_table",
+    "learning_journal",
+    "test_question_set",
+    "peer_assessment_form",
+    "teacher_evaluation_form",
+    "observation_form"
+  ],
+  "taxonomy_normalization_status": "PASS_WITH_TDE10_SPECIFIC_EXTENSIONS"
 }

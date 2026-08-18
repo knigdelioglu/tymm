@@ -192,5 +192,7 @@
     "authority_conflict": "Normative TYMM curriculum wording wins over derivative/supporting OGM wording. Record the conflict; never silently rewrite the canonical outcome statement.",
     "fail_closed": true,
     "no_silent_source_replacement": true
-  }
+  },
+  "parity_remediation_status": "BLOCKED_PENDING_8_AUTH_GATED_EBA_DPA_TARGETS",
+  "parity_certification": "WITHHELD"
 }

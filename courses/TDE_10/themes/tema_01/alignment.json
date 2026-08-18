@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "course_id": "TDE_10",
   "grade": 10,
   "theme_id": "TEMA_01",
@@ -7,534 +7,734 @@
   "theme_title": "1. TEMA: SÖZÜN EZGİSİ",
   "curriculum_source_id": "curriculum_tde10_theme_bundle",
   "textbook_source_id": "textbook_tde10_local_pdf",
-  "textbook_printed_page_range": "s.10-83",
-  "alignment_status": "PASS_TEXTBOOK_LOCAL_PDF_VERIFIED",
-  "freeze_status": "NOT_FROZEN_CURRICULUM_PROCESS_COMPONENTS_PENDING",
+  "alignment_status": "PARITY_REAUDITED_FAIL_CLOSED",
+  "freeze_status": "REVIEW_REQUIRED_EXTERNAL_ASSESSMENT_TARGETS",
   "source_state": {
-    "curriculum_freeze": "PENDING_PROCESS_COMPONENT_COMPLETION",
-    "textbook_freeze": "LOCAL_PDF_VERIFIED_PENDING_COURSE_FREEZE"
+    "curriculum_freeze": "FROZEN",
+    "textbook_activity_depth": "PASS_75_OF_75",
+    "external_assessment_targets": "AUTH_GATED_8_TOTAL"
   },
   "summary_metrics": {
     "total_learning_outcomes": 16,
-    "covered_count": 16,
-    "partially_covered_count": 0,
+    "covered_count": 14,
+    "partially_covered_count": 2,
     "not_covered_count": 0,
-    "review_required_count": 0,
-    "alignment_status": "PASS"
+    "review_required_count": 2,
+    "alignment_status": "REVIEW_REQUIRED"
   },
   "alignments": [
     {
       "outcome_id": "TDE_10::curriculum_outcome::TEMA_01::TDE1.1",
       "outcome_code": "TDE1.1",
       "skill_category": "Dinleme/İzleme",
-      "need_id": "NEED_T10_T1_DINLEME",
-      "resource_plan_id": "PLAN_T10_T1_DINLEME",
-      "curriculum_locator": "curriculum_map.json#TEMA_01/TDE1.1",
-      "textbook_counterpart": {
-        "section_ids": [
-          "T1_SEC_04_DINLEME_MASAL"
-        ],
-        "activity_ids": [
-          "T1_ACT_11_MASAL_HAZIRLIK",
-          "T1_ACT_12_MERCAN_KIZ_TAHLIL",
-          "T1_ACT_13_MASAL_YANSITMA"
-        ],
-        "form_ids": [
-          "FORM_T1_MASAL_OZ"
-        ],
-        "printed_page_locator": "s.10-83",
-        "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+      "outcome_verbatim": "“Sözün Ezgisi” temasında ele alınan metinlerde dinleme/izlemeyi yönetebilme",
+      "process_components_verbatim": [],
+      "need_id": "NEED_T10_T1_TDE1_1",
+      "resource_plan_id": "PLAN_T10_T1_TDE1_1",
+      "program_assessment_requirement": {
+        "normative_requirement": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=3"
       },
+      "textbook_sections": [
+        "T1_SEC_04_DINLEME_MASAL"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_11_MASAL_HAZIRLIK"
+      ],
+      "textbook_form_ids": [],
+      "textbook_locators": [
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.58-62"
+      ],
+      "textbook_student_action": "Dinleme/izleme öncesi ön bilgileri etkinleştirme, amaç/tahmin oluşturma ve dinleme stratejisini hazırlama.",
+      "textbook_expected_evidence": "Hazırlık soruları, tahminler ve dinleme öncesi notlar.",
+      "observed_assessment_structure": [],
       "primary_coverage": "COVERED",
       "need_tags": [],
       "remaining_gap": "NONE",
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
-      "coverage_confidence": "VERIFIED_LOCAL_PDF",
-      "teacher_notes": "Direct local MEB PDF page path verifies the required student action/evidence. Where a teacher Dereceli Puanlama Anahtarı is QR-linked, the official EBA link is present in the PDF; its internal rubric structure remains deliberately unclassified and is not treated as a coverage gap."
+      "coverage_confidence": "LOCAL_PDF_ACTIVITY_EVIDENCE_VERIFIED",
+      "provenance": {
+        "program_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=2",
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.58-62"
+        ]
+      },
+      "selection_fallback_used": false
     },
     {
       "outcome_id": "TDE_10::curriculum_outcome::TEMA_01::TDE1.2",
       "outcome_code": "TDE1.2",
       "skill_category": "Dinleme/İzleme",
-      "need_id": "NEED_T10_T1_DINLEME",
-      "resource_plan_id": "PLAN_T10_T1_DINLEME",
-      "curriculum_locator": "curriculum_map.json#TEMA_01/TDE1.2",
-      "textbook_counterpart": {
-        "section_ids": [
-          "T1_SEC_04_DINLEME_MASAL"
-        ],
-        "activity_ids": [
-          "T1_ACT_11_MASAL_HAZIRLIK",
-          "T1_ACT_12_MERCAN_KIZ_TAHLIL",
-          "T1_ACT_13_MASAL_YANSITMA"
-        ],
-        "form_ids": [
-          "FORM_T1_MASAL_OZ"
-        ],
-        "printed_page_locator": "s.10-83",
-        "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+      "outcome_verbatim": "“Sözün Ezgisi” temasında ele alınan metinlerde anlam oluşturabilme",
+      "process_components_verbatim": [],
+      "need_id": "NEED_T10_T1_TDE1_2",
+      "resource_plan_id": "PLAN_T10_T1_TDE1_2",
+      "program_assessment_requirement": {
+        "normative_requirement": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=3"
       },
+      "textbook_sections": [
+        "T1_SEC_04_DINLEME_MASAL"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_12_MERCAN_KIZ_TAHLIL"
+      ],
+      "textbook_form_ids": [],
+      "textbook_locators": [
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.63-71"
+      ],
+      "textbook_student_action": "Dinlenen/izlenen metni yapı, tür, dil-anlatım, değer/ileti ve bağlam yönlerinden çözümleme ve gerekçelendirme.",
+      "textbook_expected_evidence": "Tahlil soruları, şema/tablo ve gerekçeli çözümleme cevapları.",
+      "observed_assessment_structure": [],
       "primary_coverage": "COVERED",
       "need_tags": [],
       "remaining_gap": "NONE",
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
-      "coverage_confidence": "VERIFIED_LOCAL_PDF",
-      "teacher_notes": "Direct local MEB PDF page path verifies the required student action/evidence. Where a teacher Dereceli Puanlama Anahtarı is QR-linked, the official EBA link is present in the PDF; its internal rubric structure remains deliberately unclassified and is not treated as a coverage gap."
+      "coverage_confidence": "LOCAL_PDF_ACTIVITY_EVIDENCE_VERIFIED",
+      "provenance": {
+        "program_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=2",
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.63-71"
+        ]
+      },
+      "selection_fallback_used": false
     },
     {
       "outcome_id": "TDE_10::curriculum_outcome::TEMA_01::TDE1.3",
       "outcome_code": "TDE1.3",
       "skill_category": "Dinleme/İzleme",
-      "need_id": "NEED_T10_T1_DINLEME",
-      "resource_plan_id": "PLAN_T10_T1_DINLEME",
-      "curriculum_locator": "curriculum_map.json#TEMA_01/TDE1.3",
-      "textbook_counterpart": {
-        "section_ids": [
-          "T1_SEC_04_DINLEME_MASAL"
-        ],
-        "activity_ids": [
-          "T1_ACT_11_MASAL_HAZIRLIK",
-          "T1_ACT_12_MERCAN_KIZ_TAHLIL",
-          "T1_ACT_13_MASAL_YANSITMA"
-        ],
-        "form_ids": [
-          "FORM_T1_MASAL_OZ"
-        ],
-        "printed_page_locator": "s.10-83",
-        "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+      "outcome_verbatim": "“Sözün Ezgisi” temasında ele alınan metinleri çözümleyebilme",
+      "process_components_verbatim": [],
+      "need_id": "NEED_T10_T1_TDE1_3",
+      "resource_plan_id": "PLAN_T10_T1_TDE1_3",
+      "program_assessment_requirement": {
+        "normative_requirement": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=3"
       },
+      "textbook_sections": [
+        "T1_SEC_04_DINLEME_MASAL"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_12_MERCAN_KIZ_TAHLIL"
+      ],
+      "textbook_form_ids": [],
+      "textbook_locators": [
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.63-71"
+      ],
+      "textbook_student_action": "Dinlenen/izlenen metni yapı, tür, dil-anlatım, değer/ileti ve bağlam yönlerinden çözümleme ve gerekçelendirme.",
+      "textbook_expected_evidence": "Tahlil soruları, şema/tablo ve gerekçeli çözümleme cevapları.",
+      "observed_assessment_structure": [],
       "primary_coverage": "COVERED",
       "need_tags": [],
       "remaining_gap": "NONE",
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
-      "coverage_confidence": "VERIFIED_LOCAL_PDF",
-      "teacher_notes": "Direct local MEB PDF page path verifies the required student action/evidence. Where a teacher Dereceli Puanlama Anahtarı is QR-linked, the official EBA link is present in the PDF; its internal rubric structure remains deliberately unclassified and is not treated as a coverage gap."
+      "coverage_confidence": "LOCAL_PDF_ACTIVITY_EVIDENCE_VERIFIED",
+      "provenance": {
+        "program_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=2",
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.63-71"
+        ]
+      },
+      "selection_fallback_used": false
     },
     {
       "outcome_id": "TDE_10::curriculum_outcome::TEMA_01::TDE1.4",
       "outcome_code": "TDE1.4",
       "skill_category": "Dinleme/İzleme",
-      "need_id": "NEED_T10_T1_DINLEME",
-      "resource_plan_id": "PLAN_T10_T1_DINLEME",
-      "curriculum_locator": "curriculum_map.json#TEMA_01/TDE1.4",
-      "textbook_counterpart": {
-        "section_ids": [
-          "T1_SEC_04_DINLEME_MASAL"
-        ],
-        "activity_ids": [
-          "T1_ACT_11_MASAL_HAZIRLIK",
-          "T1_ACT_12_MERCAN_KIZ_TAHLIL",
-          "T1_ACT_13_MASAL_YANSITMA"
-        ],
-        "form_ids": [
-          "FORM_T1_MASAL_OZ"
-        ],
-        "printed_page_locator": "s.10-83",
-        "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+      "outcome_verbatim": "“Sözün Ezgisi” temasında ele alınan metinlere yönelik dinleme/izleme sürecini değerlendirebilme",
+      "process_components_verbatim": [],
+      "need_id": "NEED_T10_T1_TDE1_4",
+      "resource_plan_id": "PLAN_T10_T1_TDE1_4",
+      "program_assessment_requirement": {
+        "normative_requirement": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=3"
       },
+      "textbook_sections": [
+        "T1_SEC_04_DINLEME_MASAL"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_13_MASAL_YANSITMA"
+      ],
+      "textbook_form_ids": [
+        "FORM_T1_MASAL_OZ"
+      ],
+      "textbook_locators": [
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.72-74"
+      ],
+      "textbook_student_action": "Öğrenme ya da performans sürecini ölçütlere göre öz değerlendirme ve geliştirilmesi gereken yönleri belirleme.",
+      "textbook_expected_evidence": "Doldurulmuş öz değerlendirme formu ve yansıtma notları.",
+      "observed_assessment_structure": [
+        "self_assessment_form"
+      ],
       "primary_coverage": "COVERED",
       "need_tags": [],
       "remaining_gap": "NONE",
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
-      "coverage_confidence": "VERIFIED_LOCAL_PDF",
-      "teacher_notes": "Direct local MEB PDF page path verifies the required student action/evidence. Where a teacher Dereceli Puanlama Anahtarı is QR-linked, the official EBA link is present in the PDF; its internal rubric structure remains deliberately unclassified and is not treated as a coverage gap."
+      "coverage_confidence": "LOCAL_PDF_ACTIVITY_EVIDENCE_VERIFIED",
+      "provenance": {
+        "program_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=2",
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.72-74"
+        ]
+      },
+      "selection_fallback_used": false
     },
     {
       "outcome_id": "TDE_10::curriculum_outcome::TEMA_01::TDE2.1",
       "outcome_code": "TDE2.1",
       "skill_category": "Okuma",
-      "need_id": "NEED_T10_T1_OKUMA",
-      "resource_plan_id": "PLAN_T10_T1_OKUMA",
-      "curriculum_locator": "curriculum_map.json#TEMA_01/TDE2.1",
-      "textbook_counterpart": {
-        "section_ids": [
-          "T1_SEC_01_OKUMA_KOSUK",
-          "T1_SEC_02_OKUMA_TURKU"
-        ],
-        "activity_ids": [
-          "T1_ACT_01_KOSUK_HAZIRLIK",
-          "T1_ACT_02_KOSUK_ANLAM",
-          "T1_ACT_03_KOSUK_COZUMLEME",
-          "T1_ACT_04_KOSUK_YANSITMA",
-          "T1_ACT_05_TURKU_HAZIRLIK",
-          "T1_ACT_06_TURKU_TAHLIL",
-          "T1_ACT_07_TURKU_CANLANDIRMA"
-        ],
-        "form_ids": [
-          "FORM_T1_EXIT_321"
-        ],
-        "printed_page_locator": "s.10-83",
-        "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+      "outcome_verbatim": "“Sözün Ezgisi” temasında ele alınan metinlerde okumayı yönetebilme",
+      "process_components_verbatim": [],
+      "need_id": "NEED_T10_T1_TDE2_1",
+      "resource_plan_id": "PLAN_T10_T1_TDE2_1",
+      "program_assessment_requirement": {
+        "normative_requirement": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=3"
       },
+      "textbook_sections": [
+        "T1_SEC_01_OKUMA_KOSUK",
+        "T1_SEC_02_OKUMA_TURKU"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_01_KOSUK_HAZIRLIK",
+        "T1_ACT_05_TURKU_HAZIRLIK"
+      ],
+      "textbook_form_ids": [],
+      "textbook_locators": [
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.13-16",
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.39-41"
+      ],
+      "textbook_student_action": "Okuma öncesi hazırlık soruları ve yönlendirmeleri üzerinden ön bilgileri etkinleştirme, tahmin oluşturma ve metne/döneme ilişkin hazırlık yapma.",
+      "textbook_expected_evidence": "Hazırlık sorularına verilen cevaplar, tahminler ve kısa hazırlık notları.",
+      "observed_assessment_structure": [],
       "primary_coverage": "COVERED",
       "need_tags": [],
       "remaining_gap": "NONE",
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
-      "coverage_confidence": "VERIFIED_LOCAL_PDF",
-      "teacher_notes": "Direct local MEB PDF page path verifies the required student action/evidence. Where a teacher Dereceli Puanlama Anahtarı is QR-linked, the official EBA link is present in the PDF; its internal rubric structure remains deliberately unclassified and is not treated as a coverage gap."
+      "coverage_confidence": "LOCAL_PDF_ACTIVITY_EVIDENCE_VERIFIED",
+      "provenance": {
+        "program_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=2",
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.13-16",
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.39-41"
+        ]
+      },
+      "selection_fallback_used": false
     },
     {
       "outcome_id": "TDE_10::curriculum_outcome::TEMA_01::TDE2.2",
       "outcome_code": "TDE2.2",
       "skill_category": "Okuma",
-      "need_id": "NEED_T10_T1_OKUMA",
-      "resource_plan_id": "PLAN_T10_T1_OKUMA",
-      "curriculum_locator": "curriculum_map.json#TEMA_01/TDE2.2",
-      "textbook_counterpart": {
-        "section_ids": [
-          "T1_SEC_01_OKUMA_KOSUK",
-          "T1_SEC_02_OKUMA_TURKU"
-        ],
-        "activity_ids": [
-          "T1_ACT_01_KOSUK_HAZIRLIK",
-          "T1_ACT_02_KOSUK_ANLAM",
-          "T1_ACT_03_KOSUK_COZUMLEME",
-          "T1_ACT_04_KOSUK_YANSITMA",
-          "T1_ACT_05_TURKU_HAZIRLIK",
-          "T1_ACT_06_TURKU_TAHLIL",
-          "T1_ACT_07_TURKU_CANLANDIRMA"
-        ],
-        "form_ids": [
-          "FORM_T1_EXIT_321"
-        ],
-        "printed_page_locator": "s.10-83",
-        "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+      "outcome_verbatim": "“Sözün Ezgisi” temasında ele alınan metinlerde anlam oluşturabilme",
+      "process_components_verbatim": [],
+      "need_id": "NEED_T10_T1_TDE2_2",
+      "resource_plan_id": "PLAN_T10_T1_TDE2_2",
+      "program_assessment_requirement": {
+        "normative_requirement": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=3"
       },
+      "textbook_sections": [
+        "T1_SEC_01_OKUMA_KOSUK",
+        "T1_SEC_02_OKUMA_TURKU"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_02_KOSUK_ANLAM",
+        "T1_ACT_03_KOSUK_COZUMLEME",
+        "T1_ACT_06_TURKU_TAHLIL"
+      ],
+      "textbook_form_ids": [],
+      "textbook_locators": [
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.17-24",
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.21-37",
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.42-50"
+      ],
+      "textbook_student_action": "Metni okuyarak konu, tema, söz varlığı, açık/örtük ileti ve bağlama ilişkin anlam oluşturma sorularını cevaplama. | Metni yapı, tür, dil-anlatım, ahenk/söz varlığı ve dönem bağlamı yönlerinden çözümleyip karşılaştırma ve gerekçelendirme çalışmaları yapma.",
+      "textbook_expected_evidence": "Metni anlama sorularına verilen yazılı cevaplar ve anlamlandırma kayıtları. | Tahlil cevapları, karşılaştırma tabloları/şemaları ve gerekçeli çözümleme kayıtları.",
+      "observed_assessment_structure": [],
       "primary_coverage": "COVERED",
       "need_tags": [],
       "remaining_gap": "NONE",
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
-      "coverage_confidence": "VERIFIED_LOCAL_PDF",
-      "teacher_notes": "Direct local MEB PDF page path verifies the required student action/evidence. Where a teacher Dereceli Puanlama Anahtarı is QR-linked, the official EBA link is present in the PDF; its internal rubric structure remains deliberately unclassified and is not treated as a coverage gap."
+      "coverage_confidence": "LOCAL_PDF_ACTIVITY_EVIDENCE_VERIFIED",
+      "provenance": {
+        "program_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=2",
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.17-24",
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.21-37",
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.42-50"
+        ]
+      },
+      "selection_fallback_used": false
     },
     {
       "outcome_id": "TDE_10::curriculum_outcome::TEMA_01::TDE2.3",
       "outcome_code": "TDE2.3",
       "skill_category": "Okuma",
-      "need_id": "NEED_T10_T1_OKUMA",
-      "resource_plan_id": "PLAN_T10_T1_OKUMA",
-      "curriculum_locator": "curriculum_map.json#TEMA_01/TDE2.3",
-      "textbook_counterpart": {
-        "section_ids": [
-          "T1_SEC_01_OKUMA_KOSUK",
-          "T1_SEC_02_OKUMA_TURKU"
-        ],
-        "activity_ids": [
-          "T1_ACT_01_KOSUK_HAZIRLIK",
-          "T1_ACT_02_KOSUK_ANLAM",
-          "T1_ACT_03_KOSUK_COZUMLEME",
-          "T1_ACT_04_KOSUK_YANSITMA",
-          "T1_ACT_05_TURKU_HAZIRLIK",
-          "T1_ACT_06_TURKU_TAHLIL",
-          "T1_ACT_07_TURKU_CANLANDIRMA"
-        ],
-        "form_ids": [
-          "FORM_T1_EXIT_321"
-        ],
-        "printed_page_locator": "s.10-83",
-        "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+      "outcome_verbatim": "“Sözün Ezgisi” temasında ele alınan metinleri çözümleyebilme",
+      "process_components_verbatim": [],
+      "need_id": "NEED_T10_T1_TDE2_3",
+      "resource_plan_id": "PLAN_T10_T1_TDE2_3",
+      "program_assessment_requirement": {
+        "normative_requirement": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=3"
       },
+      "textbook_sections": [
+        "T1_SEC_01_OKUMA_KOSUK",
+        "T1_SEC_02_OKUMA_TURKU"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_03_KOSUK_COZUMLEME",
+        "T1_ACT_06_TURKU_TAHLIL"
+      ],
+      "textbook_form_ids": [],
+      "textbook_locators": [
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.21-37",
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.42-50"
+      ],
+      "textbook_student_action": "Metni yapı, tür, dil-anlatım, ahenk/söz varlığı ve dönem bağlamı yönlerinden çözümleyip karşılaştırma ve gerekçelendirme çalışmaları yapma.",
+      "textbook_expected_evidence": "Tahlil cevapları, karşılaştırma tabloları/şemaları ve gerekçeli çözümleme kayıtları.",
+      "observed_assessment_structure": [],
       "primary_coverage": "COVERED",
       "need_tags": [],
       "remaining_gap": "NONE",
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
-      "coverage_confidence": "VERIFIED_LOCAL_PDF",
-      "teacher_notes": "Direct local MEB PDF page path verifies the required student action/evidence. Where a teacher Dereceli Puanlama Anahtarı is QR-linked, the official EBA link is present in the PDF; its internal rubric structure remains deliberately unclassified and is not treated as a coverage gap."
+      "coverage_confidence": "LOCAL_PDF_ACTIVITY_EVIDENCE_VERIFIED",
+      "provenance": {
+        "program_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=2",
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.21-37",
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.42-50"
+        ]
+      },
+      "selection_fallback_used": false
     },
     {
       "outcome_id": "TDE_10::curriculum_outcome::TEMA_01::TDE2.4",
       "outcome_code": "TDE2.4",
       "skill_category": "Okuma",
-      "need_id": "NEED_T10_T1_OKUMA",
-      "resource_plan_id": "PLAN_T10_T1_OKUMA",
-      "curriculum_locator": "curriculum_map.json#TEMA_01/TDE2.4",
-      "textbook_counterpart": {
-        "section_ids": [
-          "T1_SEC_01_OKUMA_KOSUK",
-          "T1_SEC_02_OKUMA_TURKU"
-        ],
-        "activity_ids": [
-          "T1_ACT_01_KOSUK_HAZIRLIK",
-          "T1_ACT_02_KOSUK_ANLAM",
-          "T1_ACT_03_KOSUK_COZUMLEME",
-          "T1_ACT_04_KOSUK_YANSITMA",
-          "T1_ACT_05_TURKU_HAZIRLIK",
-          "T1_ACT_06_TURKU_TAHLIL",
-          "T1_ACT_07_TURKU_CANLANDIRMA"
-        ],
-        "form_ids": [
-          "FORM_T1_EXIT_321"
-        ],
-        "printed_page_locator": "s.10-83",
-        "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+      "outcome_verbatim": "“Sözün Ezgisi” temasında ele alınan metinlere yönelik okuma sürecini değerlendirebilme",
+      "process_components_verbatim": [],
+      "need_id": "NEED_T10_T1_TDE2_4",
+      "resource_plan_id": "PLAN_T10_T1_TDE2_4",
+      "program_assessment_requirement": {
+        "normative_requirement": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=3"
       },
+      "textbook_sections": [
+        "T1_SEC_01_OKUMA_KOSUK"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_04_KOSUK_YANSITMA"
+      ],
+      "textbook_form_ids": [
+        "FORM_T1_EXIT_321"
+      ],
+      "textbook_locators": [
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.38"
+      ],
+      "textbook_student_action": "Öğrenme sürecini, kazanımları ve geliştirilmesi gereken yönleri yansıtma aracıyla değerlendirme.",
+      "textbook_expected_evidence": "Çıkış kartı, öğrenme günlüğü veya yansıtma kaydı.",
+      "observed_assessment_structure": [
+        "exit_ticket"
+      ],
       "primary_coverage": "COVERED",
       "need_tags": [],
       "remaining_gap": "NONE",
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
-      "coverage_confidence": "VERIFIED_LOCAL_PDF",
-      "teacher_notes": "Direct local MEB PDF page path verifies the required student action/evidence. Where a teacher Dereceli Puanlama Anahtarı is QR-linked, the official EBA link is present in the PDF; its internal rubric structure remains deliberately unclassified and is not treated as a coverage gap."
+      "coverage_confidence": "LOCAL_PDF_ACTIVITY_EVIDENCE_VERIFIED",
+      "provenance": {
+        "program_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=2",
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.38"
+        ]
+      },
+      "selection_fallback_used": false
     },
     {
       "outcome_id": "TDE_10::curriculum_outcome::TEMA_01::TDE3.1",
       "outcome_code": "TDE3.1",
       "skill_category": "Konuşma",
-      "need_id": "NEED_T10_T1_KONUSMA",
-      "resource_plan_id": "PLAN_T10_T1_KONUSMA",
-      "curriculum_locator": "curriculum_map.json#TEMA_01/TDE3.1",
-      "textbook_counterpart": {
-        "section_ids": [
-          "T1_SEC_03_KONUSMA"
-        ],
-        "activity_ids": [
-          "T1_ACT_08_SIIR_DINLETISI_PLAN",
-          "T1_ACT_09_SIIR_DINLETISI_SUNUM",
-          "T1_ACT_10_KONUSMA_DEGERLENDIRME"
-        ],
-        "form_ids": [
-          "FORM_T1_KONUSMA_AKRAN",
-          "LINK_T1_KONUSMA_DPA"
-        ],
-        "printed_page_locator": "s.10-83",
-        "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+      "outcome_verbatim": "Belirlenen bir tema çerçevesinde seçtiği şiirlerden oluşan bir şiir dinletisi hazırlama ve sunma sürecini yönetebilme",
+      "process_components_verbatim": [],
+      "need_id": "NEED_T10_T1_TDE3_1",
+      "resource_plan_id": "PLAN_T10_T1_TDE3_1",
+      "program_assessment_requirement": {
+        "normative_requirement": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=3"
       },
+      "textbook_sections": [
+        "T1_SEC_03_KONUSMA"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_08_SIIR_DINLETISI_PLAN"
+      ],
+      "textbook_form_ids": [],
+      "textbook_locators": [
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.54-55"
+      ],
+      "textbook_student_action": "Konuşma performansının tema/içerik seçimi, kaynak/şiir derleme, akış, süre, mekân ve görev paylaşımını planlama.",
+      "textbook_expected_evidence": "Konuşma/sunum planı, kaynak seçimi ve görev dağılımı kaydı.",
+      "observed_assessment_structure": [],
       "primary_coverage": "COVERED",
       "need_tags": [],
       "remaining_gap": "NONE",
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
-      "coverage_confidence": "VERIFIED_LOCAL_PDF",
-      "teacher_notes": "Direct local MEB PDF page path verifies the required student action/evidence. Where a teacher Dereceli Puanlama Anahtarı is QR-linked, the official EBA link is present in the PDF; its internal rubric structure remains deliberately unclassified and is not treated as a coverage gap."
+      "coverage_confidence": "LOCAL_PDF_ACTIVITY_EVIDENCE_VERIFIED",
+      "provenance": {
+        "program_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=2",
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.54-55"
+        ]
+      },
+      "selection_fallback_used": false
     },
     {
       "outcome_id": "TDE_10::curriculum_outcome::TEMA_01::TDE3.2",
       "outcome_code": "TDE3.2",
       "skill_category": "Konuşma",
-      "need_id": "NEED_T10_T1_KONUSMA",
-      "resource_plan_id": "PLAN_T10_T1_KONUSMA",
-      "curriculum_locator": "curriculum_map.json#TEMA_01/TDE3.2",
-      "textbook_counterpart": {
-        "section_ids": [
-          "T1_SEC_03_KONUSMA"
-        ],
-        "activity_ids": [
-          "T1_ACT_08_SIIR_DINLETISI_PLAN",
-          "T1_ACT_09_SIIR_DINLETISI_SUNUM",
-          "T1_ACT_10_KONUSMA_DEGERLENDIRME"
-        ],
-        "form_ids": [
-          "FORM_T1_KONUSMA_AKRAN",
-          "LINK_T1_KONUSMA_DPA"
-        ],
-        "printed_page_locator": "s.10-83",
-        "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+      "outcome_verbatim": "Seçtiği şiirleri etkili ve güzel bir biçimde sunmak için şiir dinletisinin içeriğini oluşturabilme",
+      "process_components_verbatim": [],
+      "need_id": "NEED_T10_T1_TDE3_2",
+      "resource_plan_id": "PLAN_T10_T1_TDE3_2",
+      "program_assessment_requirement": {
+        "normative_requirement": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=3"
       },
+      "textbook_sections": [
+        "T1_SEC_03_KONUSMA"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_08_SIIR_DINLETISI_PLAN",
+        "T1_ACT_09_SIIR_DINLETISI_SUNUM"
+      ],
+      "textbook_form_ids": [
+        "FORM_T1_KONUSMA_AKRAN"
+      ],
+      "textbook_locators": [
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.54-55",
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.55-56"
+      ],
+      "textbook_student_action": "Konuşma performansının tema/içerik seçimi, kaynak/şiir derleme, akış, süre, mekân ve görev paylaşımını planlama. | Planlanan sözlü performansı vurgu-tonlama, beden dili, zaman/mekân kullanımı ve Türkçenin doğru kullanımı gözetilerek gerçekleştirme.",
+      "textbook_expected_evidence": "Konuşma/sunum planı, kaynak seçimi ve görev dağılımı kaydı. | Canlı veya kaydedilmiş konuşma/sunum performansı.",
+      "observed_assessment_structure": [
+        "peer_assessment_form"
+      ],
       "primary_coverage": "COVERED",
       "need_tags": [],
       "remaining_gap": "NONE",
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
-      "coverage_confidence": "VERIFIED_LOCAL_PDF",
-      "teacher_notes": "Direct local MEB PDF page path verifies the required student action/evidence. Where a teacher Dereceli Puanlama Anahtarı is QR-linked, the official EBA link is present in the PDF; its internal rubric structure remains deliberately unclassified and is not treated as a coverage gap."
+      "coverage_confidence": "LOCAL_PDF_ACTIVITY_EVIDENCE_VERIFIED",
+      "provenance": {
+        "program_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=2",
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.54-55",
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.55-56"
+        ]
+      },
+      "selection_fallback_used": false
     },
     {
       "outcome_id": "TDE_10::curriculum_outcome::TEMA_01::TDE3.3",
       "outcome_code": "TDE3.3",
       "skill_category": "Konuşma",
-      "need_id": "NEED_T10_T1_KONUSMA",
-      "resource_plan_id": "PLAN_T10_T1_KONUSMA",
-      "curriculum_locator": "curriculum_map.json#TEMA_01/TDE3.3",
-      "textbook_counterpart": {
-        "section_ids": [
-          "T1_SEC_03_KONUSMA"
-        ],
-        "activity_ids": [
-          "T1_ACT_08_SIIR_DINLETISI_PLAN",
-          "T1_ACT_09_SIIR_DINLETISI_SUNUM",
-          "T1_ACT_10_KONUSMA_DEGERLENDIRME"
-        ],
-        "form_ids": [
-          "FORM_T1_KONUSMA_AKRAN",
-          "LINK_T1_KONUSMA_DPA"
-        ],
-        "printed_page_locator": "s.10-83",
-        "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+      "outcome_verbatim": "Seçilen şiirleri etkili ve güzel bir biçimde sunabilmek için kural uygulayabilme",
+      "process_components_verbatim": [],
+      "need_id": "NEED_T10_T1_TDE3_3",
+      "resource_plan_id": "PLAN_T10_T1_TDE3_3",
+      "program_assessment_requirement": {
+        "normative_requirement": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=3"
       },
+      "textbook_sections": [
+        "T1_SEC_03_KONUSMA"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_09_SIIR_DINLETISI_SUNUM"
+      ],
+      "textbook_form_ids": [
+        "FORM_T1_KONUSMA_AKRAN"
+      ],
+      "textbook_locators": [
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.55-56"
+      ],
+      "textbook_student_action": "Planlanan sözlü performansı vurgu-tonlama, beden dili, zaman/mekân kullanımı ve Türkçenin doğru kullanımı gözetilerek gerçekleştirme.",
+      "textbook_expected_evidence": "Canlı veya kaydedilmiş konuşma/sunum performansı.",
+      "observed_assessment_structure": [
+        "peer_assessment_form"
+      ],
       "primary_coverage": "COVERED",
       "need_tags": [],
       "remaining_gap": "NONE",
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
-      "coverage_confidence": "VERIFIED_LOCAL_PDF",
-      "teacher_notes": "Direct local MEB PDF page path verifies the required student action/evidence. Where a teacher Dereceli Puanlama Anahtarı is QR-linked, the official EBA link is present in the PDF; its internal rubric structure remains deliberately unclassified and is not treated as a coverage gap."
+      "coverage_confidence": "LOCAL_PDF_ACTIVITY_EVIDENCE_VERIFIED",
+      "provenance": {
+        "program_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=2",
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.55-56"
+        ]
+      },
+      "selection_fallback_used": false
     },
     {
       "outcome_id": "TDE_10::curriculum_outcome::TEMA_01::TDE3.4",
       "outcome_code": "TDE3.4",
       "skill_category": "Konuşma",
-      "need_id": "NEED_T10_T1_KONUSMA",
-      "resource_plan_id": "PLAN_T10_T1_KONUSMA",
-      "curriculum_locator": "curriculum_map.json#TEMA_01/TDE3.4",
-      "textbook_counterpart": {
-        "section_ids": [
-          "T1_SEC_03_KONUSMA"
+      "outcome_verbatim": "Gerçekleştirilen şiir dinletisine yönelik süreci değerlendirebilme",
+      "process_components_verbatim": [],
+      "need_id": "NEED_T10_T1_TDE3_4",
+      "resource_plan_id": "PLAN_T10_T1_TDE3_4",
+      "program_assessment_requirement": {
+        "normative_requirement": "Dereceli puanlama anahtarı ile öğretmen değerlendirmesi",
+        "performance_task": "Belirli bir tema çerçevesinde seçilen şiirlerden şiir dinletisi hazırlama ve sunma",
+        "rubric_criteria": [
+          "içeriğe uygunluk",
+          "özgünlük",
+          "görsel unsurlar",
+          "sunum becerisi",
+          "zaman",
+          "mekân",
+          "beden dili",
+          "Türkçenin doğru kullanımı"
         ],
-        "activity_ids": [
-          "T1_ACT_08_SIIR_DINLETISI_PLAN",
-          "T1_ACT_09_SIIR_DINLETISI_SUNUM",
-          "T1_ACT_10_KONUSMA_DEGERLENDIRME"
-        ],
-        "form_ids": [
-          "FORM_T1_KONUSMA_AKRAN",
-          "LINK_T1_KONUSMA_DPA"
-        ],
-        "printed_page_locator": "s.10-83",
-        "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=3"
       },
-      "primary_coverage": "COVERED",
-      "need_tags": [],
-      "remaining_gap": "NONE",
-      "production_decision": "REUSE_TEXTBOOK",
-      "priority": "NOT_NEEDED",
-      "coverage_confidence": "VERIFIED_LOCAL_PDF",
-      "teacher_notes": "Direct local MEB PDF page path verifies the required student action/evidence. Where a teacher Dereceli Puanlama Anahtarı is QR-linked, the official EBA link is present in the PDF; its internal rubric structure remains deliberately unclassified and is not treated as a coverage gap."
+      "textbook_sections": [
+        "T1_SEC_03_KONUSMA"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_10_KONUSMA_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T1_KONUSMA_AKRAN",
+        "LINK_T1_KONUSMA_DPA"
+      ],
+      "textbook_locators": [
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.56-57"
+      ],
+      "textbook_student_action": "Konuşma performansını öz/akran değerlendirme ve öğretmen puanlama aracıyla değerlendirme; geri bildirimle yeniden düzenleme.",
+      "textbook_expected_evidence": "Doldurulmuş değerlendirme formu, çıkış/yansıtma kaydı ve öğretmen puanlama kanıtı.",
+      "observed_assessment_structure": [
+        "peer_assessment_form",
+        "linked_assessment_resource"
+      ],
+      "primary_coverage": "PARTIALLY_COVERED",
+      "need_tags": [
+        "ASSESSMENT_TARGET_AUTH_GATED"
+      ],
+      "remaining_gap": "Official EBA DPA link exists but target structure is authentication-gated and unresolved.",
+      "production_decision": "NO_ACTION_PENDING_ASSESSMENT_TARGET",
+      "priority": "REVIEW_REQUIRED",
+      "coverage_confidence": "FAIL_CLOSED_EXTERNAL_ASSESSMENT_UNRESOLVED",
+      "provenance": {
+        "program_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=2",
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.56-57"
+        ]
+      },
+      "selection_fallback_used": false
     },
     {
       "outcome_id": "TDE_10::curriculum_outcome::TEMA_01::TDE4.1",
       "outcome_code": "TDE4.1",
       "skill_category": "Yazma",
-      "need_id": "NEED_T10_T1_YAZMA",
-      "resource_plan_id": "PLAN_T10_T1_YAZMA",
-      "curriculum_locator": "curriculum_map.json#TEMA_01/TDE4.1",
-      "textbook_counterpart": {
-        "section_ids": [
-          "T1_SEC_05_YAZMA_FILM_SERIDI"
-        ],
-        "activity_ids": [
-          "T1_ACT_14_FILM_SERIDI_PLAN",
-          "T1_ACT_15_FILM_SERIDI_URETIM",
-          "T1_ACT_16_FILM_SERIDI_DEGERLENDIRME"
-        ],
-        "form_ids": [
-          "FORM_T1_YAZMA_KONTROL",
-          "FORM_T1_YAZMA_AKRAN",
-          "LINK_T1_YAZMA_DPA"
-        ],
-        "printed_page_locator": "s.10-83",
-        "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+      "outcome_verbatim": "Dinlediği/izlediği metni film şeridi hâline getireceği yazma sürecini yönetebilme",
+      "process_components_verbatim": [],
+      "need_id": "NEED_T10_T1_TDE4_1",
+      "resource_plan_id": "PLAN_T10_T1_TDE4_1",
+      "program_assessment_requirement": {
+        "normative_requirement": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=3"
       },
+      "textbook_sections": [
+        "T1_SEC_05_YAZMA_FILM_SERIDI"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_14_FILM_SERIDI_PLAN"
+      ],
+      "textbook_form_ids": [],
+      "textbook_locators": [
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.75-76"
+      ],
+      "textbook_student_action": "Yazma amacı, hedef kitle, tür, içerik, ileti, strateji ve taslak planı belirleme; geri bildirimle planı gözden geçirme.",
+      "textbook_expected_evidence": "Yazma planı, seçim/gerekçe kayıtları ve taslak hazırlık notları.",
+      "observed_assessment_structure": [],
       "primary_coverage": "COVERED",
       "need_tags": [],
       "remaining_gap": "NONE",
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
-      "coverage_confidence": "VERIFIED_LOCAL_PDF",
-      "teacher_notes": "Direct local MEB PDF page path verifies the required student action/evidence. Where a teacher Dereceli Puanlama Anahtarı is QR-linked, the official EBA link is present in the PDF; its internal rubric structure remains deliberately unclassified and is not treated as a coverage gap."
+      "coverage_confidence": "LOCAL_PDF_ACTIVITY_EVIDENCE_VERIFIED",
+      "provenance": {
+        "program_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=2",
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.75-76"
+        ]
+      },
+      "selection_fallback_used": false
     },
     {
       "outcome_id": "TDE_10::curriculum_outcome::TEMA_01::TDE4.2",
       "outcome_code": "TDE4.2",
       "skill_category": "Yazma",
-      "need_id": "NEED_T10_T1_YAZMA",
-      "resource_plan_id": "PLAN_T10_T1_YAZMA",
-      "curriculum_locator": "curriculum_map.json#TEMA_01/TDE4.2",
-      "textbook_counterpart": {
-        "section_ids": [
-          "T1_SEC_05_YAZMA_FILM_SERIDI"
-        ],
-        "activity_ids": [
-          "T1_ACT_14_FILM_SERIDI_PLAN",
-          "T1_ACT_15_FILM_SERIDI_URETIM",
-          "T1_ACT_16_FILM_SERIDI_DEGERLENDIRME"
-        ],
-        "form_ids": [
-          "FORM_T1_YAZMA_KONTROL",
-          "FORM_T1_YAZMA_AKRAN",
-          "LINK_T1_YAZMA_DPA"
-        ],
-        "printed_page_locator": "s.10-83",
-        "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+      "outcome_verbatim": "Dinlediği/izlediği metni film şeridi hâline getireceği yazısına içerik oluşturabilme",
+      "process_components_verbatim": [],
+      "need_id": "NEED_T10_T1_TDE4_2",
+      "resource_plan_id": "PLAN_T10_T1_TDE4_2",
+      "program_assessment_requirement": {
+        "normative_requirement": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=3"
       },
+      "textbook_sections": [
+        "T1_SEC_05_YAZMA_FILM_SERIDI"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_15_FILM_SERIDI_URETIM"
+      ],
+      "textbook_form_ids": [
+        "FORM_T1_YAZMA_KONTROL"
+      ],
+      "textbook_locators": [
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.77"
+      ],
+      "textbook_student_action": "Belirlenen tür ve amaca uygun taslak/ürün oluşturma; dil, anlatım, yapı ve estetik unsurları uygulama.",
+      "textbook_expected_evidence": "Taslak ve/veya nihai yazılı ürün.",
+      "observed_assessment_structure": [
+        "checklist"
+      ],
       "primary_coverage": "COVERED",
       "need_tags": [],
       "remaining_gap": "NONE",
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
-      "coverage_confidence": "VERIFIED_LOCAL_PDF",
-      "teacher_notes": "Direct local MEB PDF page path verifies the required student action/evidence. Where a teacher Dereceli Puanlama Anahtarı is QR-linked, the official EBA link is present in the PDF; its internal rubric structure remains deliberately unclassified and is not treated as a coverage gap."
+      "coverage_confidence": "LOCAL_PDF_ACTIVITY_EVIDENCE_VERIFIED",
+      "provenance": {
+        "program_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=2",
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.77"
+        ]
+      },
+      "selection_fallback_used": false
     },
     {
       "outcome_id": "TDE_10::curriculum_outcome::TEMA_01::TDE4.3",
       "outcome_code": "TDE4.3",
       "skill_category": "Yazma",
-      "need_id": "NEED_T10_T1_YAZMA",
-      "resource_plan_id": "PLAN_T10_T1_YAZMA",
-      "curriculum_locator": "curriculum_map.json#TEMA_01/TDE4.3",
-      "textbook_counterpart": {
-        "section_ids": [
-          "T1_SEC_05_YAZMA_FILM_SERIDI"
-        ],
-        "activity_ids": [
-          "T1_ACT_14_FILM_SERIDI_PLAN",
-          "T1_ACT_15_FILM_SERIDI_URETIM",
-          "T1_ACT_16_FILM_SERIDI_DEGERLENDIRME"
-        ],
-        "form_ids": [
-          "FORM_T1_YAZMA_KONTROL",
-          "FORM_T1_YAZMA_AKRAN",
-          "LINK_T1_YAZMA_DPA"
-        ],
-        "printed_page_locator": "s.10-83",
-        "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+      "outcome_verbatim": "Film şeridi hâline getirdiği yazısını düzenlerken kural uygulayabilme",
+      "process_components_verbatim": [],
+      "need_id": "NEED_T10_T1_TDE4_3",
+      "resource_plan_id": "PLAN_T10_T1_TDE4_3",
+      "program_assessment_requirement": {
+        "normative_requirement": "Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu",
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=3"
       },
+      "textbook_sections": [
+        "T1_SEC_05_YAZMA_FILM_SERIDI"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_15_FILM_SERIDI_URETIM",
+        "T1_ACT_16_FILM_SERIDI_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T1_YAZMA_KONTROL",
+        "FORM_T1_YAZMA_AKRAN",
+        "LINK_T1_YAZMA_DPA"
+      ],
+      "textbook_locators": [
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.77",
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.77-78"
+      ],
+      "textbook_student_action": "Belirlenen tür ve amaca uygun taslak/ürün oluşturma; dil, anlatım, yapı ve estetik unsurları uygulama. | Yazılı ürünü kontrol listesi, öz/akran değerlendirme ve öğretmen puanlama aracıyla değerlendirme; geri bildirimle revize etme.",
+      "textbook_expected_evidence": "Taslak ve/veya nihai yazılı ürün. | Kontrol/öz/akran formu, öğretmen puanlama kanıtı ve revize edilmiş nihai ürün.",
+      "observed_assessment_structure": [
+        "checklist",
+        "peer_assessment_form",
+        "linked_assessment_resource"
+      ],
       "primary_coverage": "COVERED",
-      "need_tags": [],
+      "need_tags": [
+        "ASSESSMENT_TARGET_AUTH_GATED"
+      ],
       "remaining_gap": "NONE",
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
-      "coverage_confidence": "VERIFIED_LOCAL_PDF",
-      "teacher_notes": "Direct local MEB PDF page path verifies the required student action/evidence. Where a teacher Dereceli Puanlama Anahtarı is QR-linked, the official EBA link is present in the PDF; its internal rubric structure remains deliberately unclassified and is not treated as a coverage gap."
+      "coverage_confidence": "LOCAL_PDF_ACTIVITY_EVIDENCE_VERIFIED",
+      "provenance": {
+        "program_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=3",
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.77",
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.77-78"
+        ]
+      },
+      "selection_fallback_used": false
     },
     {
       "outcome_id": "TDE_10::curriculum_outcome::TEMA_01::TDE4.4",
       "outcome_code": "TDE4.4",
       "skill_category": "Yazma",
-      "need_id": "NEED_T10_T1_YAZMA",
-      "resource_plan_id": "PLAN_T10_T1_YAZMA",
-      "curriculum_locator": "curriculum_map.json#TEMA_01/TDE4.4",
-      "textbook_counterpart": {
-        "section_ids": [
-          "T1_SEC_05_YAZMA_FILM_SERIDI"
+      "outcome_verbatim": "Film şeridi hâline getirdiği yazısına yönelik yazma sürecini değerlendirebilme",
+      "process_components_verbatim": [],
+      "need_id": "NEED_T10_T1_TDE4_4",
+      "resource_plan_id": "PLAN_T10_T1_TDE4_4",
+      "program_assessment_requirement": {
+        "normative_requirement": "Dereceli puanlama anahtarı ile öğretmen değerlendirmesi",
+        "performance_task": "Dinlenen/izlenen masalı film şeridi hâline getirme",
+        "rubric_criteria": [
+          "akıcılık",
+          "görsel ögeler",
+          "karakter tasarımı",
+          "senaryo ve olay akışı",
+          "estetik",
+          "dil ve anlatım"
         ],
-        "activity_ids": [
-          "T1_ACT_14_FILM_SERIDI_PLAN",
-          "T1_ACT_15_FILM_SERIDI_URETIM",
-          "T1_ACT_16_FILM_SERIDI_DEGERLENDIRME"
-        ],
-        "form_ids": [
-          "FORM_T1_YAZMA_KONTROL",
-          "FORM_T1_YAZMA_AKRAN",
-          "LINK_T1_YAZMA_DPA"
-        ],
-        "printed_page_locator": "s.10-83",
-        "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+        "source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=3"
       },
-      "primary_coverage": "COVERED",
-      "need_tags": [],
-      "remaining_gap": "NONE",
-      "production_decision": "REUSE_TEXTBOOK",
-      "priority": "NOT_NEEDED",
-      "coverage_confidence": "VERIFIED_LOCAL_PDF",
-      "teacher_notes": "Direct local MEB PDF page path verifies the required student action/evidence. Where a teacher Dereceli Puanlama Anahtarı is QR-linked, the official EBA link is present in the PDF; its internal rubric structure remains deliberately unclassified and is not treated as a coverage gap."
+      "textbook_sections": [
+        "T1_SEC_05_YAZMA_FILM_SERIDI"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_16_FILM_SERIDI_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T1_YAZMA_KONTROL",
+        "FORM_T1_YAZMA_AKRAN",
+        "LINK_T1_YAZMA_DPA"
+      ],
+      "textbook_locators": [
+        "source_docs/turk-dili-ve-edebiyati-10.pdf:s.77-78"
+      ],
+      "textbook_student_action": "Yazılı ürünü kontrol listesi, öz/akran değerlendirme ve öğretmen puanlama aracıyla değerlendirme; geri bildirimle revize etme.",
+      "textbook_expected_evidence": "Kontrol/öz/akran formu, öğretmen puanlama kanıtı ve revize edilmiş nihai ürün.",
+      "observed_assessment_structure": [
+        "checklist",
+        "peer_assessment_form",
+        "linked_assessment_resource"
+      ],
+      "primary_coverage": "PARTIALLY_COVERED",
+      "need_tags": [
+        "ASSESSMENT_TARGET_AUTH_GATED"
+      ],
+      "remaining_gap": "Official EBA DPA link exists but target structure is authentication-gated and unresolved.",
+      "production_decision": "NO_ACTION_PENDING_ASSESSMENT_TARGET",
+      "priority": "REVIEW_REQUIRED",
+      "coverage_confidence": "FAIL_CLOSED_EXTERNAL_ASSESSMENT_UNRESOLVED",
+      "provenance": {
+        "program_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF#pdf_page=3",
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-10.pdf:s.77-78"
+        ]
+      },
+      "selection_fallback_used": false
     }
-  ],
-  "decision_rule": "Uninspected QR assessment targets do not become NOT_COVERED and do not authorize GENERATE."
+  ]
 }
