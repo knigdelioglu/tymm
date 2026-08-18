@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.1",
+  "course_id": "TDE_10",
+  "grade": 10,
+  "course_title": "Türk Dili ve Edebiyatı",
+  "last_validated": null,
+  "overall_status": "SOURCES_REGISTERED",
+  "source_mode": "SPLIT_CURRICULUM_PDFS_PLUS_OFFICIAL_REMOTE_TEXTBOOK",
+  "scope": {
+    "analysis_target": "10. Sınıf Türk Dili ve Edebiyatı Öğretim Programı ve Ders Kitabı",
+    "included_grades": [10],
+    "total_themes_expected": 4,
+    "curriculum_source_complete": true,
+    "curriculum_mapped": false,
+    "textbook_source_registered": true,
+    "textbook_mapped": false,
+    "forms_indexed": false,
+    "alignment_performed": false,
+    "gap_analysis_performed": false,
+    "materials_generated": false
+  },
+  "curriculum_source_bundle": {
+    "source_group_id": "curriculum_tde10_theme_bundle",
+    "source_type": "official_curriculum",
+    "authority_rank": 1,
+    "expected_part_count": 4,
+    "registered_part_count": 4,
+    "completeness_status": "COMPLETE_REGISTERED_SET",
+    "verification_rule": "All four PDFs must be individually parsed and their internal grade/theme identity must match the expected theme before curriculum_map may become VERIFIED.",
+    "parts": [
+      {
+        "source_id": "curriculum_tde10_theme_01",
+        "theme_id": "TEMA_01",
+        "expected_theme_title": "SÖZÜN EZGİSİ",
+        "filename": "Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF",
+        "file_path": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF",
+        "size_bytes": 220554,
+        "git_blob_sha": "611cec47a544ec97c2c3fbfa24b904c20e23ee70",
+        "file_hash_sha256": null,
+        "official_web_crosscheck": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/242?kod=D15",
+        "verification_status": "REGISTERED_PENDING_CONTENT_VALIDATION"
+      },
+      {
+        "source_id": "curriculum_tde10_theme_02",
+        "theme_id": "TEMA_02",
+        "expected_theme_title": "KELİMELERİN RİTMİ",
+        "filename": "Türk Dili Ve Edebiyatı Dersi 10.Sınıf 2.PDF",
+        "file_path": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 2.PDF",
+        "size_bytes": 220137,
+        "git_blob_sha": "fc547d9262c9308c769f06acaccd173263034797",
+        "file_hash_sha256": null,
+        "official_web_crosscheck": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/247",
+        "verification_status": "REGISTERED_PENDING_CONTENT_VALIDATION"
+      },
+      {
+        "source_id": "curriculum_tde10_theme_03",
+        "theme_id": "TEMA_03",
+        "expected_theme_title": "DÜNDEN BUGÜNE",
+        "filename": "Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF",
+        "file_path": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF",
+        "size_bytes": 213125,
+        "git_blob_sha": "9608298405187441b99dac703b4fda0a98da3d4f",
+        "file_hash_sha256": null,
+        "official_web_crosscheck": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/256",
+        "verification_status": "REGISTERED_PENDING_CONTENT_VALIDATION"
+      },
+      {
+        "source_id": "curriculum_tde10_theme_04",
+        "theme_id": "TEMA_04",
+        "expected_theme_title": "NESİLLERİN MİRASI",
+        "filename": "Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF",
+        "file_path": "source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF",
+        "size_bytes": 209092,
+        "git_blob_sha": "3ca4afc65a8118b8136e1c94dafb19969278872d",
+        "file_hash_sha256": null,
+        "official_web_crosscheck": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/261",
+        "verification_status": "REGISTERED_PENDING_CONTENT_VALIDATION"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source_id": "textbook_tde10_tymm_web",
+      "source_type": "official_textbook",
+      "input_locator_type": "official_remote_web",
+      "url": "https://tymm.meb.gov.tr/kitap/78/turk-dili-ve-edebiyati-10.sinif-ders-kitabi",
+      "title": "Türk Dili ve Edebiyatı 10. Sınıf Ders Kitabı",
+      "course": "Türk Dili ve Edebiyatı",
+      "grade": 10,
+      "institution_or_publisher": "T.C. Millî Eğitim Bakanlığı / Türkiye Yüzyılı Maarif Modeli",
+      "authority_rank": 2,
+      "verification_status": "REGISTERED_REMOTE_SOURCE",
+      "retrieval_policy": {
+        "primary_locator_is_exact_user_supplied_url": true,
+        "follow_only_official_links_exposed_by_primary_page": true,
+        "silent_third_party_substitution_allowed": false,
+        "on_unavailable": "TEXTBOOK_REMOTE_SOURCE_UNAVAILABLE"
+      }
+    }
+  ],
+  "source_resolution_rules": {
+    "curriculum": "Treat the four versioned theme PDFs as one official curriculum source bundle; do not expect or require a single combined curriculum PDF.",
+    "textbook": "Treat the exact user-supplied TYMM/MEB book page as the primary official textbook source; do not require the 123 MB textbook binary to be committed to GitHub.",
+    "fail_closed": true,
+    "no_silent_source_replacement": true
+  }
+}
