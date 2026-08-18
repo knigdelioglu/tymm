@@ -1,0 +1,47 @@
+name: TDE10 Parity Source Extract
+
+on:
+  push:
+    paths:
+      - '.github/workflows/tde10-parity-source-extract.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install PDF text tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils
+
+      - name: Extract registered TDE10 curriculum snapshots
+        run: |
+          set -euo pipefail
+          out='courses/TDE_10/source_docs/parity_extracted'
+          mkdir -p "$out"
+          pdftotext -layout 'courses/TDE_10/source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 1.PDF' "$out/tema_01.txt"
+          pdftotext -layout 'courses/TDE_10/source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 2.PDF' "$out/tema_02.txt"
+          pdftotext -layout 'courses/TDE_10/source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 3.PDF' "$out/tema_03.txt"
+          pdftotext -layout 'courses/TDE_10/source_docs/Türk Dili Ve Edebiyatı Dersi 10.Sınıf 4.PDF' "$out/tema_04.txt"
+          printf '%s\n' 'Derived temporary text for TDE_10 parity remediation. Source PDFs remain authoritative.' > "$out/README.txt"
+
+      - name: Commit temporary extracted text
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- courses/TDE_10/source_docs/parity_extracted && [ -z "$(git status --porcelain courses/TDE_10/source_docs/parity_extracted)" ]; then
+            echo 'No extraction changes.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add courses/TDE_10/source_docs/parity_extracted
+          git commit -m 'chore(tde10): extract curriculum text for parity audit'
+          git push
