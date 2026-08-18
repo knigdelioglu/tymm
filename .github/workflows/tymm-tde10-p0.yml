@@ -1,6 +1,5 @@
-name: TDE10 Generic P0 Gate
+name: TDE10 Parity-Aware P0 Gate
 
-# trigger_revision: 3
 on:
   push:
     branches:
@@ -8,10 +7,14 @@ on:
     paths:
       - '.github/workflows/tymm-tde10-p0.yml'
       - 'skill/tymm-material-planner/scripts/**'
+      - 'skill/tymm-material-planner/tests/test_reuse_only_contract.py'
+      - 'skill/tymm-material-planner/tests/test_parity_blocked_contract.py'
       - 'courses/TDE_10/curriculum_map.json'
       - 'courses/TDE_10/textbook_map.json'
       - 'courses/TDE_10/textbook_forms_index.json'
       - 'courses/TDE_10/source_manifest.json'
+      - 'courses/TDE_10/parity_contract.json'
+      - 'courses/TDE_10/parity_validation_report.json'
       - 'courses/TDE_10/planning/**'
       - 'courses/TDE_10/production/**'
       - 'courses/TDE_10/themes/**'
@@ -62,8 +65,10 @@ jobs:
               shutil.copy2(src, target / local)
           PY
 
-      - name: Verify reuse-only schema regression
-        run: python skill/tymm-material-planner/tests/test_reuse_only_contract.py
+      - name: Verify safe empty-queue production contracts
+        run: |
+          python skill/tymm-material-planner/tests/test_reuse_only_contract.py
+          python skill/tymm-material-planner/tests/test_parity_blocked_contract.py
 
       - name: Verify TDE9 legacy 7-to-3 contract remains intact
         run: |
@@ -81,7 +86,32 @@ jobs:
           print('TDE9 legacy 7-to-3 production contract: PASS')
           PY
 
-      - name: Run TDE10 generic P0 gate
+      - name: Verify Phase 14 parity state before technical P0
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root=Path('courses/TDE_10')
+          v=json.loads((root/'parity_validation_report.json').read_text(encoding='utf-8'))
+          p=json.loads((root/'production/production_manifest.json').read_text(encoding='utf-8'))
+          assert v['status']=='VALIDATED_WITH_EXTERNAL_AUTH_BLOCKER', v['status']
+          assert v['parity_certified'] is False
+          assert v['hard_failures']==[], v['hard_failures']
+          assert v['counts']['covered']==56
+          assert v['counts']['partially_covered']==8
+          assert v['counts']['not_covered']==0
+          assert len(v['external_blockers'])==1
+          assert p['schema_version']=='1.1', p['schema_version']
+          assert p['production_mode']=='PARITY_REVIEW_BLOCKED', p['production_mode']
+          assert p['verified_resource_gap_count']==0
+          assert p['unresolved_assessment_target_count']==8
+          assert p['production_queue']==[]
+          assert p['generation_authorization']['allowed'] is False
+          assert p['generation_authorization']['reason']=='UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS'
+          print('TDE10 parity precondition gate: PASS (external blocker preserved)')
+          PY
+
+      - name: Run TDE10 parity-aware generic P0 gate
         run: python skill/tymm-material-planner/scripts/generic_p0_course_gate.py
 
       - name: Verify provisional derived status
@@ -89,36 +119,40 @@ jobs:
           python skill/tymm-material-planner/scripts/knowledge_index.py status --knowledge-root courses/TDE_10
           python skill/tymm-material-planner/scripts/build_runtime_course_package.py status --knowledge-root courses/TDE_10
 
-      - name: Mark course P0 PASS
+      - name: Record Phase 15 technical P0 without granting parity certification
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
           root=Path('courses/TDE_10')
+
+          contract_path=root/'parity_contract.json'
+          c=json.loads(contract_path.read_text(encoding='utf-8'))
+          c['phase_gates']['PHASE_15_P0_AND_TDE9_REGRESSION']='PASS_TECHNICAL_WITH_8_EXTERNAL_AUTH_BLOCKERS'
+          c['technical_p0_status']='PASS'
+          c['parity_certification']='WITHHELD_PENDING_8_AUTH_GATED_EBA_DPA_TARGETS'
+          contract_path.write_text(json.dumps(c,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
           manifest_path=root/'source_manifest.json'
           m=json.loads(manifest_path.read_text(encoding='utf-8'))
-          m['overall_status']='P0_PASS_CANONICAL_FROZEN_REUSE_ONLY_RUNTIME_VERIFIED'
-          m['scope']['knowledge_index_built']=True
-          m['scope']['runtime_projection_built']=True
-          m['scope']['p0_gate_passed']=True
-          m['scope']['materials_generated']=False
+          m['overall_status']='TECHNICAL_P0_PASS_PARITY_REVIEW_BLOCKED'
+          m['parity_remediation_status']='BLOCKED_PENDING_8_AUTH_GATED_EBA_DPA_TARGETS'
+          m['parity_certification']='WITHHELD'
+          scope=m.setdefault('scope',{})
+          scope['knowledge_index_built']=True
+          scope['runtime_projection_built']=True
+          scope['p0_gate_passed']=True
+          scope['materials_generated']=False
           manifest_path.write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
-          p0=json.loads((root/'index/p0_gate_report.json').read_text(encoding='utf-8'))
-          runtime=json.loads((root/'runtime/runtime_manifest.json').read_text(encoding='utf-8'))
-          report=f'''# TDE_10 Canonical Knowledge Validation Report\n\n**Status:** `P0 PASS / CANONICAL FROZEN / REUSE ONLY`\n\n```text\nOfficial curriculum snapshots        PASS (4/4)\nCanonical learning outcomes          PASS (64/64)\nCurriculum canonical map             VERIFIED / FROZEN\nOfficial local textbook PDF          VERIFIED / FROZEN\nProgram-textbook alignment           PASS (64/64 COVERED)\nVerified remaining resource gaps     0\nNew assessment artifacts             0\nProduction mode                      REUSE_ONLY_NO_NEW_ARTIFACTS\nTeaching blocks                      16\nKnowledge index                      {p0['index_rebuild']['freshness']}\nResolver stale/conflict gates        PASS\nNo-gap generation gate               PASS\nRuntime projection                   {p0['runtime']['status']}\nP0                                    {p0['final']}\n```\n\nThe 10th-grade course uses the local official MEB textbook snapshot `source_docs/turk-dili-ve-edebiyati-10.pdf`. All 64 scoped outcomes have verified textbook action/evidence paths. Cross-theme consolidation found no verified resource gap, so the production contract deliberately contains no new physical artifact.\n\nThe derived `knowledge.sqlite` and runtime SQLite are rebuildable projections only; canonical JSON/MD remains source of truth. A direct material-generation request is blocked with `NO_VERIFIED_RESOURCE_GAP` unless canonical evidence later establishes a real gap.\n\nRuntime row counts: `{json.dumps(runtime.get('row_counts',{}),ensure_ascii=False)}`.\n'''
-          (root/'validation_report.md').write_text(report,encoding='utf-8')
-
-          readme_path=root/'README.md'
-          readme=readme_path.read_text(encoding='utf-8')
-          marker='## Güncel üretim durumu'
-          if marker in readme:
-              head=readme.split(marker)[0].rstrip()
-              readme=head+'''\n\n## Güncel üretim durumu\n\n```text\nCanonical curriculum                 VERIFIED / FROZEN\nLocal official textbook PDF          VERIFIED / FROZEN\nProgram-textbook alignment           64/64 COVERED\nVerified resource gaps               0\nProduction mode                      REUSE_ONLY_NO_NEW_ARTIFACTS\nTeaching blocks                      16\nKnowledge index                      INDEX_FRESH\nRuntime projection                   PASS\nP0 gate                              PASS\nGenerated new artifacts              0\n```\n\nHer tema 45 saatlik dış bloktur: 43 saat resmî tema öğretimi + 2 saat okul temelli planlama. Okul temelli planlama ayrı pedagojik katmandır ve curriculum gap değildir. `knowledge.sqlite` ile runtime SQLite yalnız yeniden üretilebilir projection/cache katmanıdır; canonical JSON/MD source of truth olarak kalır.\n'''
-              readme_path.write_text(readme,encoding='utf-8')
+          report_path=root/'parity_report.md'
+          text=report_path.read_text(encoding='utf-8')
+          if '## 11. Faz 15 teknik P0 ve TDE_9 regresyon sonucu' not in text:
+              text += '''\n\n## 11. Faz 15 teknik P0 ve TDE_9 regresyon sonucu\n\nFaz 15 teknik doğrulamaları başarıyla tamamlanmıştır. TDE_10 canonical/index/runtime/resolver katmanları fail-closed parity-review durumunda çalışmaktadır. Ambiguity, stale ve knowledge-conflict kapıları üretimi engellemeye devam etmektedir. `Tema 1 TDE4.4 için rubrik hazırla` benzeri üretim isteği, dış EBA değerlendirme hedefleri çözülmediği için `UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS` ile bloklanır.\n\nTDE_9 regresyonunda tarihsel **7 gap instance → 3 canonical artifact** sözleşmesi korunmuştur.\n\n**Faz 15 gate:** `PASS_TECHNICAL_WITH_8_EXTERNAL_AUTH_BLOCKERS`\n\nBu sonuç parity sertifikası değildir. TDE_10 için tek kalan blocker, sekiz resmî EBA DPA hedefinin authenticated içerik yapısının doğrulanamamasıdır.\n'''
+              report_path.write_text(text,encoding='utf-8')
           PY
 
-      - name: Rebuild projections after final P0 metadata
+      - name: Rebuild projections after final Phase 15 metadata
         run: python skill/tymm-material-planner/scripts/generic_p0_course_gate.py
 
       - name: Verify final derived status
@@ -126,15 +160,15 @@ jobs:
           python skill/tymm-material-planner/scripts/knowledge_index.py status --knowledge-root courses/TDE_10
           python skill/tymm-material-planner/scripts/build_runtime_course_package.py status --knowledge-root courses/TDE_10
 
-      - name: Commit TDE10 derived P0 outputs
+      - name: Commit TDE10 Phase 15 derived outputs
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add courses/TDE_10/index courses/TDE_10/runtime courses/TDE_10/source_manifest.json courses/TDE_10/validation_report.md courses/TDE_10/README.md
+          git add courses/TDE_10/index courses/TDE_10/runtime courses/TDE_10/source_manifest.json courses/TDE_10/parity_contract.json courses/TDE_10/parity_report.md
           if git diff --cached --quiet; then
-            echo 'No P0 output changes.'
+            echo 'No Phase 15 output changes.'
           else
-            git commit -m 'feat(tde10): publish P0 index and runtime projections'
+            git commit -m 'feat(tde10): publish parity-aware Phase 15 P0 outputs'
             git push
           fi
 
@@ -142,6 +176,6 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: tde10-p0-gate-report
+          name: tde10-parity-p0-gate-report
           path: courses/TDE_10/index/p0_gate_report.json
           if-no-files-found: warn
