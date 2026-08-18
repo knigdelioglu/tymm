@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_10",
+  "audit_type": "TEXTBOOK_SOURCE_RESOLUTION_AND_EXTRACTION_AID_AUDIT",
+  "status": "STRUCTURAL_IDENTITY_STRONG_CONTENT_EXTRACTION_PROVISIONAL",
+  "primary_source": {
+    "source_id": "textbook_tde10_tymm_web",
+    "authority": "OFFICIAL_TEXTBOOK_PRIMARY",
+    "url": "https://tymm.meb.gov.tr/kitap/78/turk-dili-ve-edebiyati-10.sinif-ders-kitabi",
+    "replacement_allowed": false
+  },
+  "official_preview_assets": [
+    {"theme_id":"TEMA_01","asset_id":6403,"title":"Türk Dili ve Edebiyatı 10MM - Sözün Ezgisi","printed_page_range":"10-83","url":"https://ogmmateryal.eba.gov.tr/panel/panel/EKitapUniteOnizle.aspx?Id=6403"},
+    {"theme_id":"TEMA_02","asset_id":6407,"title":"Türk Dili ve Edebiyatı 10MM - Kelimelerin Ritmi","printed_page_range":"84-153","url":"https://ogmmateryal.eba.gov.tr/panel/panel/EKitapUniteOnizle.aspx?Id=6407"},
+    {"theme_id":"TEMA_03","asset_id":6834,"title":"Türk Dili ve Edebiyatı 10MM - Dünden Bugüne","printed_page_range":"154-233","url":"https://ogmmateryal.eba.gov.tr/panel/panel/EKitapUniteOnizle.aspx?Id=6834"},
+    {"theme_id":"TEMA_04","asset_id":6409,"title":"Türk Dili ve Edebiyatı 10MM - Nesillerin Mirası","printed_page_range":"234-310","url":"https://ogmmateryal.eba.gov.tr/panel/panel/EKitapUniteOnizle.aspx?Id=6409"}
+  ],
+  "secondary_text_extraction_aid": {
+    "role": "NON_AUTHORITATIVE_TEXT_EXTRACTION_AID_ONLY",
+    "url": "https://www.scribd.com/document/916955593/Turk-Dili-Ve-Edebiyati-10",
+    "declared_pages": 319,
+    "observed_identity_metadata": {
+      "title": "Türk Dili ve Edebiyatı 10. Sınıf Ders Kitabı",
+      "publisher": "T.C. Millî Eğitim Bakanlığı / Devlet Kitapları",
+      "publication_year": 2025,
+      "meb_publication_no": "10147",
+      "series_no": "2180",
+      "isbn": "978-975-11-8944-8",
+      "ttkb_acceptance_date": "2025-06-25",
+      "ttkb_reference": "135156433"
+    },
+    "rights_policy": "Do not republish body text. Use only structural metadata, short labels, page locators and paraphrased student-action/evidence summaries.",
+    "authority_rank": null,
+    "may_replace_primary_source": false
+  },
+  "structural_identity_checks": {
+    "theme_order_match": true,
+    "theme_page_boundaries_match_official_preview": true,
+    "checks": [
+      {"theme_id":"TEMA_01","official":"10-83","extraction_aid":"10-83","status":"MATCH"},
+      {"theme_id":"TEMA_02","official":"84-153","extraction_aid":"84-153","status":"MATCH"},
+      {"theme_id":"TEMA_03","official":"154-233","extraction_aid":"154-233","status":"MATCH"},
+      {"theme_id":"TEMA_04","official":"234-310","extraction_aid":"234-310","status":"MATCH"}
+    ],
+    "binary_fingerprint_match": false,
+    "binary_fingerprint_status": "UNAVAILABLE_FOR_REMOTE_PREVIEW"
+  },
+  "promotion_policy": {
+    "allowed_now": [
+      "Populate draft textbook section hierarchy from matching table of contents",
+      "Attach every section to official OGM preview page locators",
+      "Record short paraphrased student actions and evidence",
+      "Index in-book assessment form structures as provisional"
+    ],
+    "blocked_until_primary_page_or_qr_target_confirmation": [
+      "FROZEN textbook_map status",
+      "Treat QR-linked dereceli puanlama anahtari as analytic rubric",
+      "Production gap closure based only on uninspected QR targets",
+      "P0 production gate"
+    ]
+  },
+  "result": "The secondary copy is not substituted for the official book. Its table of contents and page boundaries are structurally consistent with all four official OGM preview assets, so it may be used only as a provisional text-extraction aid while canonical freeze remains blocked."
+}
