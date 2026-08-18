@@ -1,4 +1,5 @@
 name: TDE10 Parity Phase 3
+# trigger_revision: 1
 
 on:
   push:
