@@ -7,12 +7,15 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   diagnose:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Diagnose integrity blockers
         run: |
           python - <<'PY'
@@ -34,7 +37,6 @@ jobs:
               if x not in aid: broken_f.append([f['form_id'],x])
               elif f['form_id'] not in aid[x].get('related_forms',[]): asym.append([x,f['form_id'],'form_to_activity_only'])
           verbatim=[]
-          required=['theme_introduction_verbatim']
           for t in curriculum['themes']:
             if not t.get('theme_introduction_verbatim'): verbatim.append([t['theme_id'],'theme_introduction_verbatim'])
             paths=[('allocated_lesson_hours','verbatim'),('alan_becerileri','verbatim'),('egilimler','verbatim'),('disiplinler_arasi_iliskiler','verbatim'),('beceriler_arasi_iliskiler','verbatim'),('icerik_cercevesi','verbatim'),('anahtar_kavramlar','verbatim'),('ogrenme_kanitlari_olcme_ve_degerlendirme','verbatim')]
@@ -45,10 +47,22 @@ jobs:
           out={'activity_count':len(acts),'form_count':len(forms['forms']),'broken_activity_to_form':broken_a,'broken_form_to_activity':broken_f,'asymmetric':asym,'asymmetric_count':len(asym),'verbatim_missing':verbatim}
           (root/'source_docs'/'phase14_integrity_diagnostic.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n')
           PY
-      - name: Commit diagnostic
+      - name: Commit diagnostic if changed
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add courses/TDE_10/source_docs/phase14_integrity_diagnostic.json
-          git commit -m 'chore(tde10): record phase 14 integrity diagnostic'
-          git push
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore(tde10): record phase 14 integrity diagnostic'
+            git push
+          fi
+      - name: Dispatch Phase 15 shared patch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          curl --fail-with-body -L -X POST \
+            -H 'Accept: application/vnd.github+json' \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H 'X-GitHub-Api-Version: 2022-11-28' \
+            https://api.github.com/repos/${{ github.repository }}/actions/workflows/tde10-parity-phase15-shared-patch.yml/dispatches \
+            -d '{"ref":"main"}'
