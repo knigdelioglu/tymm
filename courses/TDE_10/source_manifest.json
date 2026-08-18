@@ -19,6 +19,16 @@
     "gap_analysis_performed": false,
     "materials_generated": false
   },
+  "annual_time_model": {
+    "theme_count": 4,
+    "theme_total_hours": 45,
+    "instructional_hours_per_theme": 43,
+    "school_based_planning_hours_per_theme": 2,
+    "annual_instructional_hours": 172,
+    "annual_school_based_planning_hours": 8,
+    "annual_total_hours": 180,
+    "semantics": "Each theme occupies a 45-hour outer block: 43 hours of official theme instruction plus 2 hours of school-based planning associated with that theme. School-based planning remains a separate pedagogical layer and is not treated as a curriculum gap."
+  },
   "curriculum_source_bundle": {
     "source_group_id": "curriculum_tde10_theme_bundle",
     "source_type": "official_curriculum",
