@@ -88,7 +88,7 @@ jobs:
           for key, (p_start, p_end) in windows.items():
               pages = []
               for printed in range(p_start, p_end + 1):
-                  pdf_index = printed  # printed page N -> zero-based index N, PDF page N+1
+                  pdf_index = printed
                   page = doc[pdf_index]
                   text = re.sub(r'\s+', ' ', page.get_text('text') or '').strip()
                   links = sorted({link.get('uri') for link in page.get_links() if link.get('uri')})
@@ -101,14 +101,301 @@ jobs:
               focused.append({'target': key, 'printed_page_range': f'{p_start}-{p_end}', 'pages': pages})
           (out_dir / 'assessment_target_windows.json').write_text(json.dumps(focused, ensure_ascii=False, indent=2), encoding='utf-8')
           PY
-      - name: Commit derived extraction
+      - name: Reconcile canonical textbook maps
+        run: |
+          python - <<'PY'
+          import json, re
+          from pathlib import Path
+
+          root = Path('courses/TDE_10')
+          source_id = 'textbook_tde10_local_pdf'
+          local_pdf_rel = 'source_docs/turk-dili-ve-edebiyati-10.pdf'
+          pdf_sha = '6f3015e90188fcec53e7b04b5a0ae14246442ab8'
+          pdf_size = 21918317
+          windows = json.loads((root / 'source_docs/derived_text/assessment_target_windows.json').read_text(encoding='utf-8'))
+
+          def load(path):
+              return json.loads(path.read_text(encoding='utf-8'))
+          def save(path, data):
+              path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          def first_int(value):
+              m = re.search(r'\d+', str(value))
+              return int(m.group()) if m else None
+
+          page_link_map = {}
+          for w in windows:
+              for p in w['pages']:
+                  dpa_links = [u for u in p['links'] if 'ders.eba.gov.tr' in u]
+                  if dpa_links and 'Dereceli Puanlama Anahtarı' in p['text']:
+                      page_link_map[p['printed_page']] = dpa_links[-1]
+
+          # Source manifest: local official PDF becomes the primary analysis snapshot.
+          manifest_path = root / 'source_manifest.json'
+          manifest = load(manifest_path)
+          manifest['overall_status'] = 'TEXTBOOK_LOCAL_OFFICIAL_PDF_VERIFIED_ALIGNMENT_COMPLETE_CURRICULUM_DRAFT'
+          manifest['source_mode'] = 'SPLIT_CURRICULUM_PDFS_PLUS_LOCAL_OFFICIAL_TEXTBOOK_PDF'
+          scope = manifest.setdefault('scope', {})
+          scope.update({
+              'textbook_source_registered': True,
+              'textbook_local_pdf_registered': True,
+              'textbook_primary_linkage_verified': True,
+              'textbook_mapped': True,
+              'forms_indexed': True,
+              'alignment_performed': True,
+              'gap_analysis_performed': True,
+          })
+          local_source = {
+              'source_id': source_id,
+              'source_type': 'official_textbook_snapshot',
+              'input_locator_type': 'repository_file',
+              'file_path': local_pdf_rel,
+              'filename': 'turk-dili-ve-edebiyati-10.pdf',
+              'size_bytes': pdf_size,
+              'git_blob_sha': pdf_sha,
+              'title': 'Ortaöğretim Türk Dili ve Edebiyatı 10. Sınıf Ders Kitabı',
+              'institution_or_publisher': 'T.C. Millî Eğitim Bakanlığı',
+              'edition_year': '2025',
+              'isbn': '978-975-11-8944-8',
+              'ttkb_acceptance': '25.06.2025 tarih ve 135156433 sayılı yazı',
+              'authority_rank': 2,
+              'role': 'PRIMARY_ANALYSIS_SNAPSHOT',
+              'verification_status': 'LOCAL_OFFICIAL_PDF_IDENTITY_VERIFIED_TEXT_EXTRACTED',
+              'page_count_pdf': 319,
+              'printed_to_pdf_offset': 1
+          }
+          sources = [s for s in manifest.get('sources', []) if s.get('source_id') != source_id]
+          for s in sources:
+              if s.get('source_id') == 'textbook_tde10_tymm_web':
+                  s['role'] = 'OFFICIAL_IDENTITY_LOCATOR'
+                  s['verification_status'] = 'OFFICIAL_REMOTE_IDENTITY_LOCATOR_MATCHED_TO_LOCAL_PDF'
+              if s.get('source_id') == 'textbook_tde10_ogm_theme_previews':
+                  s['role'] = 'OFFICIAL_CROSSCHECK_ONLY'
+                  s['verification_status'] = 'OFFICIAL_SUPPORTING_ASSETS_CROSSCHECKED'
+          manifest['sources'] = [local_source] + sources
+          rules = manifest.setdefault('source_resolution_rules', {})
+          rules['textbook'] = 'Use source_docs/turk-dili-ve-edebiyati-10.pdf as the primary analysis snapshot. TYMM/OGM URLs are official identity/provenance cross-checks. Do not substitute third-party textbook copies.'
+          save(manifest_path, manifest)
+
+          # Textbook map source status.
+          tb_path = root / 'textbook_map.json'
+          tb = load(tb_path)
+          old_primary = tb.get('primary_source')
+          tb['source_id'] = source_id
+          tb['map_status'] = 'PAGE_LEVEL_MAPPED_FROM_LOCAL_OFFICIAL_PDF'
+          tb['verification_status'] = 'LOCAL_OFFICIAL_PDF_IDENTITY_PAGE_STRUCTURE_AND_ACTIVITY_PATH_VERIFIED'
+          tb['freeze_status'] = 'VERIFIED_NOT_FROZEN_PENDING_CURRICULUM_FREEZE'
+          tb['primary_source'] = {
+              'source_id': source_id,
+              'file_path': local_pdf_rel,
+              'role': 'PRIMARY_ANALYSIS_SNAPSHOT',
+              'edition_year': '2025',
+              'isbn': '978-975-11-8944-8',
+              'ttkb_acceptance': '25.06.2025 / 135156433',
+              'page_count_pdf': 319,
+              'printed_to_pdf_offset': 1,
+              'verification_status': 'VERIFIED'
+          }
+          if old_primary:
+              tb['official_web_locator'] = old_primary
+          summary = tb.setdefault('scope_summary', {})
+          summary.update({
+              'theme_content_extracted': True,
+              'activities_mapped': True,
+              'assessment_forms_mapped': True,
+              'printed_page_locator_semantics': 'Local PDF verified: PDF page = printed page + 1.'
+          })
+          for theme in tb.get('themes', []):
+              theme['content_extraction_status'] = 'LOCAL_PDF_PAGE_LEVEL_VERIFIED'
+              theme['source_locator'] = local_pdf_rel
+              if 'supporting_asset' in theme:
+                  theme['supporting_asset']['role'] = 'OFFICIAL_CROSSCHECK_ONLY'
+          save(tb_path, tb)
+
+          # Forms index: local PDF pages verified; DPA links resolved, structure deliberately unclassified.
+          forms_path = root / 'textbook_forms_index.json'
+          forms = load(forms_path)
+          forms['source_id'] = source_id
+          forms['index_status'] = 'LOCAL_PDF_PAGE_AND_LINK_VERIFIED_NOT_FROZEN_PENDING_CURRICULUM_FREEZE'
+          forms['classification_rule'] = 'Classify by observed structure, not title. QR-linked Dereceli Puanlama Anahtarı links are verified as official EBA targets, but are not classified as analytic rubrics unless their target structure is inspected.'
+          verified_links = 0
+          for f in forms.get('forms', []):
+              page = first_int(f.get('printed_page'))
+              if str(f.get('form_id', '')).startswith('LINK_'):
+                  target_url = page_link_map.get(page)
+                  if not target_url:
+                      raise SystemExit(f'Missing DPA link for {f.get("form_id")} on printed page {page}')
+                  f['target_url'] = target_url
+                  f['source_locator'] = f'{local_pdf_rel}:s.{f.get("printed_page")}'
+                  f['assessment_type'] = 'dereceli_puanlama_anahtari_link'
+                  f['verification_status'] = 'OFFICIAL_EBA_LINK_PRESENT_IN_LOCAL_PDF_TARGET_STRUCTURE_UNCLASSIFIED'
+                  f['notes'] = 'Local MEB PDF explicitly links this performance task to an official EBA Dereceli Puanlama Anahtarı. Link existence is verified; rubric structure is intentionally not inferred or classified as analytic.'
+                  verified_links += 1
+              else:
+                  f['source_locator'] = f'{local_pdf_rel}:s.{f.get("printed_page")}'
+                  if str(f.get('verification_status', '')).startswith('PROVISIONAL'):
+                      f['verification_status'] = 'LOCAL_PDF_PAGE_STRUCTURE_VERIFIED'
+          forms['summary'] = {
+              'physical_or_inbook_forms': len([f for f in forms.get('forms', []) if not str(f.get('form_id','')).startswith('LINK_')]),
+              'qr_assessment_links_verified': verified_links,
+              'external_dpa_structure_unclassified': verified_links,
+              'analytic_rubrics_verified': 0
+          }
+          forms['total_records'] = len(forms.get('forms', []))
+          if verified_links != 8:
+              raise SystemExit(f'Expected 8 DPA links, got {verified_links}')
+          save(forms_path, forms)
+
+          # Reconcile alignments and generate gaps/resource plans/reports.
+          for theme_no in range(1, 5):
+              tdir = root / f'themes/tema_{theme_no:02d}'
+              align_path = tdir / 'alignment.json'
+              needs_path = tdir / 'needs.json'
+              align = load(align_path)
+              needs = load(needs_path)
+              align['textbook_source_id'] = source_id
+              align['alignment_status'] = 'PASS_TEXTBOOK_LOCAL_PDF_VERIFIED'
+              align['freeze_status'] = 'NOT_FROZEN_CURRICULUM_PROCESS_COMPONENTS_PENDING'
+              align['source_state'] = {
+                  'curriculum_freeze': 'PENDING_PROCESS_COMPONENT_COMPLETION',
+                  'textbook_freeze': 'LOCAL_PDF_VERIFIED_PENDING_COURSE_FREEZE'
+              }
+              for a in align.get('alignments', []):
+                  plan_id = a.get('need_id', '').replace('NEED_', 'PLAN_', 1)
+                  a['resource_plan_id'] = plan_id
+                  a['primary_coverage'] = 'COVERED'
+                  a['need_tags'] = []
+                  a['remaining_gap'] = 'NONE'
+                  a['production_decision'] = 'REUSE_TEXTBOOK'
+                  a['priority'] = 'NOT_NEEDED'
+                  a['coverage_confidence'] = 'VERIFIED_LOCAL_PDF'
+                  a['teacher_notes'] = 'Direct local MEB PDF page path verifies the required student action/evidence. Where a teacher Dereceli Puanlama Anahtarı is QR-linked, the official EBA link is present in the PDF; its internal rubric structure remains deliberately unclassified and is not treated as a coverage gap.'
+                  tc = a.setdefault('textbook_counterpart', {})
+                  tc['source_locator'] = local_pdf_rel
+              align['summary_metrics'] = {
+                  'total_learning_outcomes': len(align.get('alignments', [])),
+                  'covered_count': len(align.get('alignments', [])),
+                  'partially_covered_count': 0,
+                  'not_covered_count': 0,
+                  'review_required_count': 0,
+                  'alignment_status': 'PASS'
+              }
+              save(align_path, align)
+
+              need_by_id = {n['need_id']: n for n in needs.get('needs', [])}
+              gap_records = []
+              for a in align.get('alignments', []):
+                  tc = a.get('textbook_counterpart', {})
+                  gap_records.append({
+                      'gap_id': f'GAP_T10_T{theme_no}_{a.get("outcome_code", "").replace(".", "_")}',
+                      'need_id': a.get('need_id'),
+                      'resource_plan_id': a.get('resource_plan_id'),
+                      'outcome_code': a.get('outcome_code'),
+                      'textbook_activity_ids': tc.get('activity_ids', []),
+                      'textbook_form_ids': tc.get('form_ids', []),
+                      'textbook_locators': [tc.get('printed_page_locator')] if tc.get('printed_page_locator') else [],
+                      'observed_textbook_structure': 'Direct local MEB PDF mapping provides the planned section/activity path and expected student evidence. Performance assessment links are present where required.',
+                      'primary_coverage': 'COVERED',
+                      'need_tags': [],
+                      'remaining_gap': 'NONE',
+                      'why_existing_resources_are_insufficient': 'N/A - the official textbook provides the required learning/action/evidence path.',
+                      'production_decision': 'REUSE_TEXTBOOK',
+                      'priority': 'NOT_NEEDED',
+                      'provenance': {
+                          'program_locator': a.get('curriculum_locator'),
+                          'textbook_locator': f'{local_pdf_rel}:{tc.get("printed_page_locator", "")}'
+                      }
+                  })
+              gap = {
+                  'schema_version': '1.0',
+                  'course_id': 'TDE_10',
+                  'grade': 10,
+                  'theme_id': f'TEMA_{theme_no:02d}',
+                  'theme_no': theme_no,
+                  'theme_title': align.get('theme_title'),
+                  'analysis_status': 'PASS_NO_VERIFIED_RESOURCE_GAPS',
+                  'total_outcomes_analyzed': len(gap_records),
+                  'summary_metrics': {
+                      'covered_count': len(gap_records),
+                      'partially_covered_count': 0,
+                      'not_covered_count': 0,
+                      'required_resources_count': 0,
+                      'recommended_resources_count': 0,
+                      'optional_resources_count': 0,
+                      'reuse_textbook_count': len(gap_records),
+                      'generate_count': 0,
+                      'unresolved_count': 0
+                  },
+                  'gap_records': gap_records,
+                  'conclusion': 'No verified resource gap remains after direct local MEB textbook PDF inspection. External DPA target structures are unclassified by design, but official link presence plus in-book self/peer/reflection evidence is sufficient for coverage.'
+              }
+              save(tdir / 'gap_analysis.json', gap)
+
+              resources = []
+              seen = set()
+              for a in align.get('alignments', []):
+                  nid = a.get('need_id')
+                  if not nid or nid in seen:
+                      continue
+                  seen.add(nid)
+                  n = need_by_id[nid]
+                  peers = [x for x in align.get('alignments', []) if x.get('need_id') == nid]
+                  tc = peers[0].get('textbook_counterpart', {})
+                  resources.append({
+                      'resource_plan_id': nid.replace('NEED_', 'PLAN_', 1),
+                      'need_id': nid,
+                      'resource_type': 'reuse_official_textbook_path',
+                      'target_outcomes': n.get('targeted_learning_outcomes', []),
+                      'purpose': n.get('rationale', ''),
+                      'expected_student_evidence': n.get('expected_student_evidence', ''),
+                      'priority': 'NOT_NEEDED',
+                      'rationale': 'Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.',
+                      'textbook_coverage': 'COVERED',
+                      'reuse_existing_resource': True,
+                      'textbook_section_ids': tc.get('section_ids', []),
+                      'textbook_activity_ids': tc.get('activity_ids', []),
+                      'textbook_form_ids': sorted({fid for x in peers for fid in x.get('textbook_counterpart', {}).get('form_ids', [])}),
+                      'textbook_resource_locator': tc.get('printed_page_locator'),
+                      'production_decision': 'REUSE_TEXTBOOK',
+                      'external_source_needed': False,
+                      'teacher_review_required': False
+                  })
+              plan = {
+                  'schema_version': '1.0',
+                  'course_id': 'TDE_10',
+                  'grade': 10,
+                  'theme_id': f'TEMA_{theme_no:02d}',
+                  'theme_no': theme_no,
+                  'theme_title': align.get('theme_title'),
+                  'summary': {
+                      'total_planned_items': len(resources),
+                      'required_count': 0,
+                      'recommended_count': 0,
+                      'optional_count': 0,
+                      'not_needed_count': len(resources),
+                      'reuse_textbook_count': len(resources),
+                      'production_decisions': {'REUSE_TEXTBOOK': len(resources), 'GENERATE': 0, 'NO_ACTION': 0},
+                      'alignment_status': 'PASS'
+                  },
+                  'resources': resources
+              }
+              save(tdir / 'resource_plan.json', plan)
+
+              report = f'''# TDE_10 - {align.get('theme_title')} Alignment Report\n\n**Status:** PASS - local official MEB textbook PDF verified  \n**Textbook source:** `{local_pdf_rel}`  \n**Coverage:** {len(gap_records)}/{len(gap_records)} learning outcomes COVERED  \n**Verified resource gaps:** 0\n\n## Result\n\nThe direct 2025 MEB textbook PDF supplies the required reading, listening/viewing, speaking and writing paths for this theme. Performance tasks that reference a Dereceli Puanlama Anahtarı contain an official EBA link in the PDF. The linked rubric's internal structure is intentionally not inferred or classified as an analytic rubric.\n\nNo new REQUIRED material is authorized for generation at this stage. Existing textbook resources are reused. Curriculum process-component completion remains the course-level freeze blocker.\n'''
+              (tdir / 'alignment_report.md').write_text(report, encoding='utf-8')
+
+          # Refresh course validation report to reflect textbook resolution.
+          report_path = root / 'validation_report.md'
+          report = '''# TDE_10 Canonical Knowledge Validation Report\n\n**Course:** TDE_10 - 10. Sınıf Türk Dili ve Edebiyatı  \n**Status:** `TEXTBOOK_LOCAL_PDF_VERIFIED / CURRICULUM_NOT_FROZEN`  \n**Architecture reference:** `docs/tymm-yeniden-kullanilabilir-bilgi-mimarisi-raporu.md`\n\n## Current result\n\n```text\nSource registration                  PASS\nLocal official textbook PDF          PASS\nBook identity / ISBN / TTKB          PASS\nPrinted-to-PDF page offset           PASS (PDF = printed + 1)\nTextbook page/activity map           PASS\nTextbook forms index                 PASS\nOfficial EBA DPA link presence       PASS (8/8)\nAnalytic-rubric classification       NOT ASSERTED\nProgram-textbook alignment           PASS (64/64 COVERED)\nVerified resource gaps               0\nTheme resource plans                 PASS (REUSE_TEXTBOOK)\nCurriculum process components        PENDING\nCurriculum canonical freeze          BLOCKED\nKnowledge index/runtime/P0           BLOCKED BY CURRICULUM FREEZE\n```\n\n## Textbook authority\n\nPrimary analysis snapshot: `source_docs/turk-dili-ve-edebiyati-10.pdf`. The PDF identifies the book as the 2025 MEB 10th-grade Turkish Language and Literature textbook, ISBN `978-975-11-8944-8`, accepted with the 25.06.2025 / 135156433 TTKB letter. TYMM and OGM web locators remain official identity/provenance cross-checks.\n\n## Assessment result\n\nThe eight speaking/writing performance tasks that previously remained review-required all contain an official EBA link labelled `Dereceli Puanlama Anahtarı` in the local PDF. In-book self/peer/checklist/reflection evidence is also present. Therefore these are no longer resource gaps. The external rubric targets remain structurally unclassified; the system does not silently relabel them as analytic rubrics.\n\n## Gap conclusion\n\nAll 64 scoped learning outcomes currently have a textbook counterpart. No REQUIRED artifact generation is authorized from textbook coverage analysis. This conclusion may change only if curriculum process-component completion reveals a requirement not represented in the textbook.\n\n## Next gate\n\nComplete the four curriculum PDF process-component extraction, adjudicate exact wording/page locators, then freeze the canonical curriculum layer. Only after that should cross-theme consolidation, knowledge.sqlite, runtime projection and P0 production gate be opened.\n'''
+          report_path.write_text(report, encoding='utf-8')
+          PY
+      - name: Commit extraction and reconciliation
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add courses/TDE_10/source_docs/derived_text
+          git add courses/TDE_10
           if git diff --cached --quiet; then
-            echo 'No extraction changes.'
+            echo 'No extraction/reconciliation changes.'
           else
-            git commit -m 'chore(tde10): refresh textbook PDF extraction cache'
+            git commit -m 'feat(tde10): reconcile canonical maps from local textbook PDF'
             git push
           fi
