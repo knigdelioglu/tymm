@@ -1,9 +1,12 @@
 name: TDE10 Phase15 Shared Patch
+# trigger_revision: 1
 
 on:
   push:
     paths:
+      - '.github/workflows/tde10-parity-phase15-shared-patch.yml'
       - 'courses/TDE_10/.phase15-shared-patch-trigger'
+  workflow_dispatch:
 
 permissions:
   contents: write
