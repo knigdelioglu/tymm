@@ -1,4 +1,5 @@
 name: TDE10 Parity Source Extract
+# trigger_revision: 1
 
 on:
   push:
