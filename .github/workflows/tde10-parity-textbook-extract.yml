@@ -1,5 +1,5 @@
 name: TDE10 Parity Textbook Extract
-# trigger_revision: 1
+# trigger_revision: 2
 
 on:
   push:
@@ -11,7 +11,7 @@ permissions:
   contents: write
 
 jobs:
-  extract-sections:
+  extract-textbook:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -23,7 +23,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y poppler-utils
 
-      - name: Extract textbook sections from canonical map
+      - name: Extract textbook sections and activities from canonical map
         run: |
           python - <<'PY'
           import hashlib
@@ -36,28 +36,35 @@ jobs:
           book = root / 'source_docs' / 'turk-dili-ve-edebiyati-10.pdf'
           tmap = json.loads((root / 'textbook_map.json').read_text(encoding='utf-8'))
           out = root / 'source_docs' / 'parity_textbook_sections'
+          act_out = root / 'source_docs' / 'parity_textbook_activities'
           out.mkdir(parents=True, exist_ok=True)
-          index = []
+          act_out.mkdir(parents=True, exist_ok=True)
+          section_index = []
+          activity_index = []
 
           def bounds(value):
               s = str(value).strip()
               nums = [int(x) for x in re.findall(r'\d+', s)]
               if not nums:
                   raise ValueError(f'no page in {value!r}')
-              return (nums[0], nums[-1])
+              return nums[0], nums[-1]
+
+          def extract_range(printed_range):
+              start, end = bounds(printed_range)
+              pdf_start, pdf_end = start + 1, end + 1
+              text = subprocess.check_output(
+                  ['pdftotext', '-f', str(pdf_start), '-l', str(pdf_end), '-layout', str(book), '-'],
+                  text=True,
+                  errors='replace',
+              )
+              return start, end, pdf_start, pdf_end, text
 
           for theme in tmap['themes']:
               for sec in theme['sections']:
-                  start, end = bounds(sec['printed_page_range'])
-                  pdf_start, pdf_end = start + 1, end + 1
-                  text = subprocess.check_output(
-                      ['pdftotext', '-f', str(pdf_start), '-l', str(pdf_end), '-layout', str(book), '-'],
-                      text=True,
-                      errors='replace',
-                  )
+                  start, end, pdf_start, pdf_end, text = extract_range(sec['printed_page_range'])
                   path = out / f"{sec['section_id']}.txt"
                   path.write_text(text, encoding='utf-8')
-                  index.append({
+                  section_index.append({
                       'theme_id': theme['theme_id'],
                       'section_id': sec['section_id'],
                       'section_title': sec.get('section_title'),
@@ -67,24 +74,50 @@ jobs:
                       'character_count': len(text),
                   })
 
+                  for act in sec.get('activities', []):
+                      printed = act.get('printed_page') or act.get('printed_page_range')
+                      astart, aend, apdf_start, apdf_end, atext = extract_range(printed)
+                      apath = act_out / f"{act['activity_id']}.txt"
+                      apath.write_text(atext, encoding='utf-8')
+                      activity_index.append({
+                          'theme_id': theme['theme_id'],
+                          'section_id': sec['section_id'],
+                          'activity_id': act['activity_id'],
+                          'current_type': act.get('type') or act.get('activity_type'),
+                          'printed_page_range': str(printed),
+                          'pdf_page_range': f'{apdf_start}-{apdf_end}',
+                          'text_sha256': hashlib.sha256(atext.encode('utf-8')).hexdigest(),
+                          'character_count': len(atext),
+                      })
+
           (out / 'index.json').write_text(json.dumps({
+              'schema_version': '1.0',
+              'course_id': 'TDE_10',
+              'purpose': 'TEMPORARY_PHASE_3_SECTION_DEPTH_AUDIT',
+              'source': 'source_docs/turk-dili-ve-edebiyati-10.pdf',
+              'sections': section_index,
+          }, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          (act_out / 'index.json').write_text(json.dumps({
               'schema_version': '1.0',
               'course_id': 'TDE_10',
               'purpose': 'TEMPORARY_PHASE_3_ACTIVITY_DEPTH_AUDIT',
               'source': 'source_docs/turk-dili-ve-edebiyati-10.pdf',
-              'sections': index,
+              'activities': activity_index,
           }, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
           PY
 
-      - name: Commit temporary textbook section text
+      - name: Commit temporary textbook extraction
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add courses/TDE_10/source_docs/parity_textbook_sections
+          git add \
+            courses/TDE_10/source_docs/parity_textbook_sections \
+            courses/TDE_10/source_docs/parity_textbook_activities
           if git diff --cached --quiet; then
             echo 'No extraction changes.'
             exit 0
           fi
-          git commit -m 'chore(tde10): extract textbook sections for parity audit'
+          git commit -m 'chore(tde10): extract textbook activity text for parity audit'
           git push
