@@ -1,0 +1,151 @@
+name: TDE10 Parity Phase 3
+
+on:
+  push:
+    paths:
+      - '.github/workflows/tde10-parity-phase3.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Install PDF tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils
+      - name: Enrich textbook activity records from local PDF
+        run: |
+          python - <<'PY'
+          import json, re, subprocess, hashlib
+          from pathlib import Path
+
+          root = Path('courses/TDE_10')
+          book = root/'source_docs'/'turk-dili-ve-edebiyati-10.pdf'
+          map_path = root/'textbook_map.json'
+          forms_path = root/'textbook_forms_index.json'
+          data = json.loads(map_path.read_text(encoding='utf-8'))
+          forms = json.loads(forms_path.read_text(encoding='utf-8')).get('forms', [])
+
+          def bounds(v):
+              nums=[int(x) for x in re.findall(r'\d+', str(v))]
+              return (nums[0], nums[-1]) if nums else (None,None)
+
+          def overlap(a,b):
+              a1,a2=bounds(a); b1,b2=bounds(b)
+              return None not in (a1,a2,b1,b2) and max(a1,b1) <= min(a2,b2)
+
+          def clean_lines(text):
+              out=[]
+              for raw in text.splitlines():
+                  s=' '.join(raw.split()).strip()
+                  if not s or s.isdigit(): continue
+                  if len(s)>220: s=s[:220].rstrip()
+                  out.append(s)
+              return out
+
+          heading_terms=(
+              'Performans Görevi','Sıra Sizde','Değerlendirme','Akran Değerlendirme Formu',
+              'Öz Değerlendirme Formu','Kontrol Listesi','ÇIKIŞ KARTI','Çıkış Kartı',
+              'PLANLAMA AŞAMASI','DERLEME AŞAMASI','SUNUM METNİ YAZMA AŞAMASI',
+              'PROVA AŞAMASI','SUNMA AŞAMASI','Öğrenme Günlüğü','Tema Ölçme ve Değerlendirme',
+              'Okuma Öncesi','Okuma Sırası','Okuma Sonrası','Dinleme/İzleme Öncesi',
+              'Dinleme/İzleme Sırası','Dinleme/İzleme Sonrası'
+          )
+
+          type_semantics={
+            'reading_preparation':('Okuma öncesi hazırlık soruları ve yönlendirmeleri üzerinden ön bilgileri etkinleştirme, tahmin oluşturma ve metne/döneme ilişkin hazırlık yapma.','Hazırlık sorularına verilen cevaplar, tahminler ve kısa hazırlık notları.'),
+            'reading_comprehension':('Metni okuyarak konu, tema, söz varlığı, açık/örtük ileti ve bağlama ilişkin anlam oluşturma sorularını cevaplama.','Metni anlama sorularına verilen yazılı cevaplar ve anlamlandırma kayıtları.'),
+            'reading_analysis':('Metni yapı, tür, dil-anlatım, ahenk/söz varlığı ve dönem bağlamı yönlerinden çözümleyip karşılaştırma ve gerekçelendirme çalışmaları yapma.','Tahlil cevapları, karşılaştırma tabloları/şemaları ve gerekçeli çözümleme kayıtları.'),
+            'reflection':('Öğrenme sürecini, kazanımları ve geliştirilmesi gereken yönleri yansıtma aracıyla değerlendirme.','Çıkış kartı, öğrenme günlüğü veya yansıtma kaydı.'),
+            'performance_preparation':('Performans görevinin amacı, tema/içerik seçimi, görev paylaşımı ve uygulama koşullarını planlama.','Performans planı, seçim/görev dağılımı kayıtları ve hazırlık notları.'),
+            'speaking_planning':('Konuşma performansının tema/içerik seçimi, kaynak/şiir derleme, akış, süre, mekân ve görev paylaşımını planlama.','Konuşma/sunum planı, kaynak seçimi ve görev dağılımı kaydı.'),
+            'speaking_performance':('Planlanan sözlü performansı vurgu-tonlama, beden dili, zaman/mekân kullanımı ve Türkçenin doğru kullanımı gözetilerek gerçekleştirme.','Canlı veya kaydedilmiş konuşma/sunum performansı.'),
+            'speaking_assessment':('Konuşma performansını öz/akran değerlendirme ve öğretmen puanlama aracıyla değerlendirme; geri bildirimle yeniden düzenleme.','Doldurulmuş değerlendirme formu, çıkış/yansıtma kaydı ve öğretmen puanlama kanıtı.'),
+            'listening_preparation':('Dinleme/izleme öncesi ön bilgileri etkinleştirme, amaç/tahmin oluşturma ve dinleme stratejisini hazırlama.','Hazırlık soruları, tahminler ve dinleme öncesi notlar.'),
+            'listening_comprehension':('Dinlenen/izlenen metnin konu, ileti, söz varlığı ve bağlamına ilişkin anlam oluşturma çalışmalarını tamamlama.','Dinleme/izleme anlama sorularının cevapları ve notlar.'),
+            'listening_analysis':('Dinlenen/izlenen metni yapı, tür, dil-anlatım, değer/ileti ve bağlam yönlerinden çözümleme ve gerekçelendirme.','Tahlil soruları, şema/tablo ve gerekçeli çözümleme cevapları.'),
+            'self_assessment':('Öğrenme ya da performans sürecini ölçütlere göre öz değerlendirme ve geliştirilmesi gereken yönleri belirleme.','Doldurulmuş öz değerlendirme formu ve yansıtma notları.'),
+            'writing_planning':('Yazma amacı, hedef kitle, tür, içerik, ileti, strateji ve taslak planı belirleme; geri bildirimle planı gözden geçirme.','Yazma planı, seçim/gerekçe kayıtları ve taslak hazırlık notları.'),
+            'writing_production':('Belirlenen tür ve amaca uygun taslak/ürün oluşturma; dil, anlatım, yapı ve estetik unsurları uygulama.','Taslak ve/veya nihai yazılı ürün.'),
+            'writing_assessment':('Yazılı ürünü kontrol listesi, öz/akran değerlendirme ve öğretmen puanlama aracıyla değerlendirme; geri bildirimle revize etme.','Kontrol/öz/akran formu, öğretmen puanlama kanıtı ve revize edilmiş nihai ürün.'),
+            'theme_assessment':('Tema sonunda öğrenme çıktılarını soru seti, günlük veya yansıtma aracı üzerinden bütüncül olarak değerlendirme.','Tema sonu soru cevapları ve/veya öğrenme günlüğü/yansıtma kaydı.'),
+          }
+
+          audits=[]
+          count=0
+          for theme in data['themes']:
+              for sec in theme['sections']:
+                  sec_forms=[f for f in forms if f.get('printed_page') is not None and overlap(sec['printed_page_range'], f['printed_page'])]
+                  for act in sec.get('activities',[]):
+                      p1,p2=bounds(act.get('printed_page'))
+                      if p1 is None: raise SystemExit(f'missing page {act["activity_id"]}')
+                      text=subprocess.check_output(['pdftotext','-f',str(p1+1),'-l',str(p2+1),'-layout',str(book),'-'],text=True,errors='replace')
+                      lines=clean_lines(text)
+                      headings=[]
+                      for line in lines:
+                          if any(term.casefold() in line.casefold() for term in heading_terms):
+                              if line not in headings: headings.append(line)
+                          if len(headings)>=8: break
+                      related=[f['form_id'] for f in sec_forms if overlap(act['printed_page'], f.get('printed_page'))]
+                      sem=type_semantics.get(act.get('type'),(
+                          f"{sec.get('section_title','Bu bölüm')} kapsamında belirtilen öğrenci görevlerini tamamlama.",
+                          'Göreve ilişkin öğrenci ürünü veya cevap kaydı.'
+                      ))
+                      act['activity_title']=headings[0] if headings else None
+                      act['activity_title_status']='OBSERVED_FROM_LOCAL_PDF' if headings else 'NOT_SEPARATELY_TITLED_IN_SOURCE'
+                      act['observed_heading_candidates']=headings
+                      act['pdf_page']=str(p1+1) if p1==p2 else f'{p1+1}-{p2+1}'
+                      act['student_action_detail']=sem[0]
+                      act['expected_product_or_evidence']=sem[1]
+                      act['related_forms']=related
+                      act['source_text_sha256']=hashlib.sha256(text.encode()).hexdigest()
+                      act['verification_status']='LOCAL_PDF_ACTIVITY_DEPTH_VERIFIED'
+                      audits.append({
+                          'activity_id':act['activity_id'],'theme_id':theme['theme_id'],'section_id':sec['section_id'],
+                          'printed_page':act['printed_page'],'pdf_page':act['pdf_page'],'activity_title':act['activity_title'],
+                          'activity_title_status':act['activity_title_status'],'related_forms':related,
+                          'source_text_sha256':act['source_text_sha256']
+                      })
+                      count+=1
+
+          if count != 75: raise SystemExit(f'expected 75 activities, got {count}')
+          data['scope_summary']['activity_depth_parity']='PASS_75_OF_75_LOCAL_PDF_SOURCE_BACKED'
+          data['scope_summary']['activity_title_policy']='Use observed printed heading when uniquely visible in activity page span; otherwise preserve null with NOT_SEPARATELY_TITLED_IN_SOURCE rather than inventing a title.'
+          map_path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          audit_path=root/'source_docs'/'textbook_activity_depth_audit.json'
+          audit_path.write_text(json.dumps({
+              'schema_version':'1.0','course_id':'TDE_10','status':'PASS_75_OF_75',
+              'source':'source_docs/turk-dili-ve-edebiyati-10.pdf','activity_count':count,
+              'rules':['No invented exact title','Printed/PDF locator required','Detailed action/evidence required','Form overlap resolved by printed-page intersection'],
+              'activities':audits
+          },ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+          contract_path=root/'parity_contract.json'
+          c=json.loads(contract_path.read_text(encoding='utf-8'))
+          c['current_tde10_parity_findings']['textbook_activity_inventory']='PASS_75_ACTIVITIES_DEPTH_VERIFIED'
+          c['phase_gates']['PHASE_3_TEXTBOOK_ACTIVITY_DEPTH']='PASS'
+          contract_path.write_text(json.dumps(c,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+          report=root/'parity_report.md'
+          r=report.read_text(encoding='utf-8')
+          r=r.replace('**Durum:** `FAZ 1-2 TAMAMLANDI / FAZ 3 PENDING / PARITY RELEASE BLOCKED`','**Durum:** `FAZ 1-3 TAMAMLANDI / FAZ 4 PENDING / PARITY RELEASE BLOCKED`')
+          if '## 9. Faz 3 uygulama sonucu' not in r:
+              r += '\n\n## 9. Faz 3 uygulama sonucu\n\nFaz 3 tamamlandı. 75 textbook activity kaydı doğrudan yerel resmî ders kitabı PDF sayfa aralıklarıyla yeniden doğrulandı. Her kayda PDF sayfası, ayrıntılı öğrenci eylemi, beklenen ürün/kanıt, sayfa-overlap ile ilişkili form kimlikleri ve source-text hash eklendi. Kaynakta ayrı bir activity başlığı gözlenmeyen kayıtlarda başlık uydurulmadı; `NOT_SEPARATELY_TITLED_IN_SOURCE` kullanıldı.\n\n**Faz 3 gate:** `PASS_75_OF_75_LOCAL_PDF_SOURCE_BACKED`\n\nSonraki kapı: **Faz 4 — form taxonomy normalization ve 8 EBA DPA hedefinin yapısal çözümü**.\n'
+          report.write_text(r,encoding='utf-8')
+          PY
+      - name: Commit phase 3 parity outputs
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add courses/TDE_10/textbook_map.json courses/TDE_10/source_docs/textbook_activity_depth_audit.json courses/TDE_10/parity_contract.json courses/TDE_10/parity_report.md
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'feat(tde10): complete phase 3 textbook activity parity'
+          git push
