@@ -3,58 +3,7 @@
   "form_count": 35,
   "broken_activity_to_form": [],
   "broken_form_to_activity": [],
-  "asymmetric": [
-    [
-      "T1_ACT_09_SIIR_DINLETISI_SUNUM",
-      "FORM_T1_KONUSMA_AKRAN",
-      "activity_to_form_only"
-    ],
-    [
-      "T1_ACT_15_FILM_SERIDI_URETIM",
-      "FORM_T1_YAZMA_KONTROL",
-      "activity_to_form_only"
-    ],
-    [
-      "T2_ACT_08_YAZMA_PLAN",
-      "FORM_T2_YAZMA_KONTROL",
-      "activity_to_form_only"
-    ],
-    [
-      "T2_ACT_09_METIN_DONUSTURME",
-      "FORM_T2_YAZMA_KONTROL",
-      "activity_to_form_only"
-    ],
-    [
-      "T2_ACT_16_PODCAST_URETIM",
-      "LINK_T2_PODCAST_DPA",
-      "activity_to_form_only"
-    ],
-    [
-      "T2_ACT_16_PODCAST_URETIM",
-      "FORM_T2_PODCAST_YANSITMA",
-      "activity_to_form_only"
-    ],
-    [
-      "T3_ACT_09_DESTAN_SUNUM",
-      "FORM_T3_KONUSMA_OZ",
-      "activity_to_form_only"
-    ],
-    [
-      "T3_ACT_16_FABL_YAZMA",
-      "FORM_T3_YAZMA_OZ",
-      "activity_to_form_only"
-    ],
-    [
-      "T4_ACT_10_CANLANDIRMA_SUNUM",
-      "LINK_T4_KONUSMA_DPA",
-      "activity_to_form_only"
-    ],
-    [
-      "T4_ACT_11_CANLANDIRMA_DEGERLENDIRME",
-      "LINK_T4_KONUSMA_DPA",
-      "form_to_activity_only"
-    ]
-  ],
-  "asymmetric_count": 10,
+  "asymmetric": [],
+  "asymmetric_count": 0,
   "verbatim_missing": []
 }
