@@ -1,0 +1,89 @@
+name: TDE10 Parity Textbook Extract
+
+on:
+  push:
+    paths:
+      - '.github/workflows/tde10-parity-textbook-extract.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  extract-sections:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install PDF text tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils
+
+      - name: Extract textbook sections from canonical map
+        run: |
+          python - <<'PY'
+          import hashlib
+          import json
+          import re
+          import subprocess
+          from pathlib import Path
+
+          root = Path('courses/TDE_10')
+          book = root / 'source_docs' / 'turk-dili-ve-edebiyati-10.pdf'
+          tmap = json.loads((root / 'textbook_map.json').read_text(encoding='utf-8'))
+          out = root / 'source_docs' / 'parity_textbook_sections'
+          out.mkdir(parents=True, exist_ok=True)
+          index = []
+
+          def bounds(value):
+              s = str(value).strip()
+              nums = [int(x) for x in re.findall(r'\d+', s)]
+              if not nums:
+                  raise ValueError(f'no page in {value!r}')
+              return (nums[0], nums[-1])
+
+          for theme in tmap['themes']:
+              for sec in theme['sections']:
+                  start, end = bounds(sec['printed_page_range'])
+                  pdf_start, pdf_end = start + 1, end + 1
+                  text = subprocess.check_output(
+                      ['pdftotext', '-f', str(pdf_start), '-l', str(pdf_end), '-layout', str(book), '-'],
+                      text=True,
+                      errors='replace',
+                  )
+                  path = out / f"{sec['section_id']}.txt"
+                  path.write_text(text, encoding='utf-8')
+                  index.append({
+                      'theme_id': theme['theme_id'],
+                      'section_id': sec['section_id'],
+                      'section_title': sec.get('section_title'),
+                      'printed_page_range': sec['printed_page_range'],
+                      'pdf_page_range': f'{pdf_start}-{pdf_end}',
+                      'text_sha256': hashlib.sha256(text.encode('utf-8')).hexdigest(),
+                      'character_count': len(text),
+                  })
+
+          (out / 'index.json').write_text(json.dumps({
+              'schema_version': '1.0',
+              'course_id': 'TDE_10',
+              'purpose': 'TEMPORARY_PHASE_3_ACTIVITY_DEPTH_AUDIT',
+              'source': 'source_docs/turk-dili-ve-edebiyati-10.pdf',
+              'sections': index,
+          }, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+
+      - name: Commit temporary textbook section text
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add courses/TDE_10/source_docs/parity_textbook_sections
+          if git diff --cached --quiet; then
+            echo 'No extraction changes.'
+            exit 0
+          fi
+          git commit -m 'chore(tde10): extract textbook sections for parity audit'
+          git push
