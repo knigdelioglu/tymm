@@ -1,0 +1,47 @@
+name: TDE10 Parity Fix Form Links
+
+on:
+  push:
+    paths:
+      - 'courses/TDE_10/.phase14-form-link-fix-trigger'
+
+permissions:
+  contents: write
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Repair textbook activity form links from canonical form index
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root=Path('courses/TDE_10')
+          mp=root/'textbook_map.json'; fp=root/'textbook_forms_index.json'
+          data=json.loads(mp.read_text(encoding='utf-8')); forms=json.loads(fp.read_text(encoding='utf-8'))['forms']
+          reverse={}
+          for f in forms:
+            for aid in f.get('linked_activity_ids',[]): reverse.setdefault(aid,[]).append(f['form_id'])
+          changed=[]; total=0
+          for t in data['themes']:
+            for s in t['sections']:
+              for a in s.get('activities',[]):
+                total+=1
+                expected=sorted(reverse.get(a['activity_id'],[])); old=sorted(a.get('related_forms',[]))
+                if old!=expected: changed.append({'activity_id':a['activity_id'],'old':old,'new':expected})
+                a['related_forms']=expected
+                a['form_link_provenance']='SYNCED_FROM_TEXTBOOK_FORMS_INDEX_LINKED_ACTIVITY_IDS'
+          if total!=75: raise SystemExit(f'expected 75 activities, got {total}')
+          data['scope_summary']['form_activity_bidirectional_sync']='PASS_CANONICAL_FORM_INDEX_AUTHORITATIVE'
+          mp.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          (root/'source_docs'/'form_link_repair_audit.json').write_text(json.dumps({'schema_version':'1.0','course_id':'TDE_10','changed_activity_count':len(changed),'changes':changed,'authority_rule':'textbook_forms_index.linked_activity_ids is authoritative for semantic form↔activity linkage; page overlap alone does not create a link.'},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          PY
+      - name: Commit repair
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add courses/TDE_10/textbook_map.json courses/TDE_10/source_docs/form_link_repair_audit.json
+          git commit -m 'fix(tde10): synchronize bidirectional form activity links'
+          git push
