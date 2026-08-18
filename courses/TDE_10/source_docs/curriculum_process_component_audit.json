@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_10",
+  "audit_type": "CURRICULUM_PROCESS_COMPONENT_SUPPORTING_SOURCE_AUDIT",
+  "status": "PARTIAL_VERIFIED_NOT_CANONICAL_COMPLETE",
+  "normative_authority": {
+    "source": "official TYMM curriculum",
+    "rule": "Normative TYMM outcome wording always wins when a supporting MEB document uses a different label or paraphrase."
+  },
+  "supporting_authority": {
+    "source": "T.C. Millî Eğitim Bakanlığı / OGM Materyal — Türk Dili ve Edebiyatı Farklılaştırılmış Öğretim Etkinlikleri",
+    "role": "Cross-check hierarchical process-component codes and semantics; never silently override curriculum wording."
+  },
+  "known_wording_conflict": {
+    "field": "TDE*.4 outcome label/wording",
+    "normative_curriculum_pattern": "... sürecini değerlendirebilme",
+    "supporting_ogm_pattern": "... değerlendirmelerini yansıtabilme / Yansıtabilme",
+    "resolution": "KEEP_NORMATIVE_CURRICULUM_WORDING",
+    "canonical_change_required": false,
+    "note": "Supporting process-component semantics may still be used after code-level verification, but the canonical outcome statement is not rewritten."
+  },
+  "verified_component_groups": [
+    {
+      "skill_family": "OKUMA",
+      "parent_code": "TDE2.1",
+      "parent_semantic": "Okumayı Yönetebilme",
+      "components": [
+        {"component_code":"TDE2.1.1","component_title":"İnceler ve görüş oluşturur."},
+        {"component_code":"TDE2.1.2","component_title":"Seçim yapar."}
+      ],
+      "verified_for_grade_10": true,
+      "verified_theme_examples": ["TEMA_01"],
+      "source_locator": "https://ogmmateryal.eba.gov.tr/kitap/farklilastirilmis-ogretim/tde/files/basic-html/page71.html"
+    },
+    {
+      "skill_family": "OKUMA",
+      "parent_code": "TDE2.2",
+      "parent_semantic": "Anlam Oluşturabilme",
+      "components": [
+        {"component_code":"TDE2.2.1","component_title":"Ön bilgilerle bağlantı kurar."},
+        {"component_code":"TDE2.2.2","component_title":"Tahmin eder."}
+      ],
+      "verified_for_grade_10": true,
+      "verified_theme_examples": ["TEMA_01"],
+      "source_locator": "https://ogmmateryal.eba.gov.tr/kitap/farklilastirilmis-ogretim/tde/files/basic-html/page75.html",
+      "coverage_note": "This source page verifies the first two hierarchy nodes only; later TDE2.2.* nodes remain to be audited before canonical completion."
+    },
+    {
+      "skill_family": "OKUMA",
+      "parent_code": "TDE2.3",
+      "parent_semantic": "Çözümleyebilme",
+      "components": [
+        {"component_code":"TDE2.3.1","component_title":"Parçaları belirler."},
+        {"component_code":"TDE2.3.2","component_title":"Parçalar arasındaki ilişkileri belirler."},
+        {"component_code":"TDE2.3.3","component_title":"Parçalar arasındaki etkileşimleri belirler."}
+      ],
+      "verified_for_grade_10": true,
+      "verified_theme_examples": ["TEMA_04"],
+      "source_locator": "https://ogmmateryal.eba.gov.tr/kitap/farklilastirilmis-ogretim/tde/files/basic-html/page102.html"
+    },
+    {
+      "skill_family": "KONUŞMA",
+      "parent_code": "TDE3.1",
+      "parent_semantic": "Konuşmayı Yönetebilme",
+      "components": [
+        {"component_code":"TDE3.1.1","component_title":"Seçim yapar."},
+        {"component_code":"TDE3.1.2","component_title":"İlişkiyi sürdürür."}
+      ],
+      "verified_for_grade_10": true,
+      "verified_theme_examples": ["TEMA_04"],
+      "source_locator": "https://ogmmateryal.eba.gov.tr/kitap/farklilastirilmis-ogretim/tde/files/basic-html/page108.html"
+    },
+    {
+      "skill_family": "KONUŞMA",
+      "parent_code": "TDE3.2",
+      "parent_semantic": "İçerik Oluşturabilme",
+      "components": [
+        {"component_code":"TDE3.2.1","component_title":"Ön bilgilerle bağlantı kurar."},
+        {"component_code":"TDE3.2.2","component_title":"Tahmin eder."},
+        {"component_code":"TDE3.2.3","component_title":"Karşılaştırır."},
+        {"component_code":"TDE3.2.4","component_title":"Sınıflandırır."},
+        {"component_code":"TDE3.2.5","component_title":"Yeniden ifade eder."}
+      ],
+      "verified_for_grade_10": true,
+      "verified_theme_examples": ["TEMA_04"],
+      "source_locator": "https://ogmmateryal.eba.gov.tr/kitap/farklilastirilmis-ogretim/tde/files/basic-html/page108.html",
+      "coverage_note": "Later TDE3.2.* nodes may exist; only nodes visible in the verified grade-10 supporting page are recorded here."
+    },
+    {
+      "skill_family": "YAZMA",
+      "parent_code": "TDE4.1",
+      "parent_semantic": "Yazmayı Yönetebilme",
+      "components": [
+        {"component_code":"TDE4.1.1","component_title":"Seçim yapar."},
+        {"component_code":"TDE4.1.2","component_title":"İlişkiyi sürdürür."}
+      ],
+      "verified_for_grade_10": true,
+      "verified_theme_examples": ["TEMA_02"],
+      "source_locator": "https://ogmmateryal.eba.gov.tr/kitap/farklilastirilmis-ogretim/tde/files/basic-html/page86.html"
+    },
+    {
+      "skill_family": "YAZMA",
+      "parent_code": "TDE4.2",
+      "parent_semantic": "İçerik Oluşturabilme",
+      "components": [
+        {"component_code":"TDE4.2.1","component_title":"Ön bilgilerle bağlantı kurar."},
+        {"component_code":"TDE4.2.2","component_title":"Tahmin eder."},
+        {"component_code":"TDE4.2.3","component_title":"Karşılaştırır."},
+        {"component_code":"TDE4.2.4","component_title":"Sınıflandırır."},
+        {"component_code":"TDE4.2.5","component_title":"Yeniden ifade eder."},
+        {"component_code":"TDE4.2.6","component_title":"Tepki verir."}
+      ],
+      "verified_for_grade_10": true,
+      "verified_theme_examples": ["TEMA_02"],
+      "source_locator": "https://ogmmateryal.eba.gov.tr/kitap/farklilastirilmis-ogretim/tde/files/basic-html/page86.html",
+      "coverage_note": "Additional TDE4.2.* nodes are intentionally not promoted until grade-10 supporting evidence is resolved."
+    }
+  ],
+  "not_yet_promoted_component_families": [
+    "TDE1.* Dinleme/İzleme hierarchy",
+    "remaining TDE2.2.* hierarchy",
+    "TDE2.4 hierarchy",
+    "remaining TDE3.2.* hierarchy",
+    "TDE3.3 hierarchy",
+    "TDE3.4 hierarchy",
+    "remaining TDE4.2.* hierarchy",
+    "TDE4.3 hierarchy",
+    "TDE4.4 hierarchy"
+  ],
+  "promotion_rule": "Only after the complete grade-10 hierarchy is cross-checked against normative curriculum/snapshots may process_components_verbatim in curriculum_map.json be populated and the curriculum map become FROZEN."
+}
