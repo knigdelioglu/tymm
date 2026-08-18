@@ -1,5 +1,5 @@
 name: TDE10 Parity Phase 4 Probe
-# trigger_revision: 1
+# trigger_revision: 2
 
 on:
   push:
@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   probe:
@@ -50,23 +51,17 @@ jobs:
               level_descriptor=bool(descriptor_hits)
               score_terms=any(k in folded for k in ['puan','derece','düzey','seviye'])
               if criteria and level_descriptor:
-                  classification='analytic_rubric'
-                  confidence='HIGH'
+                  classification='analytic_rubric'; confidence='HIGH'
               elif criteria and score_terms:
-                  classification='rating_scale_or_criteria_table'
-                  confidence='MEDIUM_REVIEW_REQUIRED'
+                  classification='rating_scale_or_criteria_table'; confidence='MEDIUM_REVIEW_REQUIRED'
               elif rubric_title:
-                  classification='dereceli_puanlama_resource_structure_unresolved'
-                  confidence='LOW_REVIEW_REQUIRED'
+                  classification='dereceli_puanlama_resource_structure_unresolved'; confidence='LOW_REVIEW_REQUIRED'
               else:
-                  classification='unresolved'
-                  confidence='LOW'
+                  classification='unresolved'; confidence='LOW'
               lines=[]
               for part in re.split(r'[\r\n]+|(?<=[.!?])\s+',text):
-                  p=' '.join(part.split())
-                  pf=p.casefold()
-                  if p and any(k in pf for k in ['dereceli','ölçüt','kriter','düzey','seviye','puan','çok iyi','geliştirilmeli']):
-                      lines.append(p[:180])
+                  p=' '.join(part.split()); pf=p.casefold()
+                  if p and any(k in pf for k in ['dereceli','ölçüt','kriter','düzey','seviye','puan','çok iyi','geliştirilmeli']): lines.append(p[:180])
                   if len(lines)>=12: break
               return classification,confidence,criteria,level_descriptor,score_terms,descriptor_hits,lines
 
@@ -77,24 +72,17 @@ jobs:
               try:
                   with build_opener(HTTPRedirectHandler()).open(req,timeout=30) as resp:
                       raw=resp.read(15_000_000)
-                      rec['http_status']=getattr(resp,'status',200)
-                      rec['final_url']=resp.geturl()
-                      rec['content_type']=resp.headers.get('Content-Type','')
-                      rec['bytes_read']=len(raw)
-                      rec['body_sha256']=hashlib.sha256(raw).hexdigest()
-                      is_pdf=raw.startswith(b'%PDF') or 'pdf' in rec['content_type'].casefold()
-                      rec['is_pdf']=is_pdf
+                      rec['http_status']=getattr(resp,'status',200); rec['final_url']=resp.geturl(); rec['content_type']=resp.headers.get('Content-Type','')
+                      rec['bytes_read']=len(raw); rec['body_sha256']=hashlib.sha256(raw).hexdigest()
+                      is_pdf=raw.startswith(b'%PDF') or 'pdf' in rec['content_type'].casefold(); rec['is_pdf']=is_pdf
                       if is_pdf:
                           with tempfile.NamedTemporaryFile(suffix='.pdf') as f:
-                              f.write(raw); f.flush()
-                              text=subprocess.check_output(['pdftotext','-layout',f.name,'-'],text=True,errors='replace')
-                      else:
-                          text=html_to_text(raw)
+                              f.write(raw); f.flush(); text=subprocess.check_output(['pdftotext','-layout',f.name,'-'],text=True,errors='replace')
+                      else: text=html_to_text(raw)
                       rec['text_character_count']=len(text)
                       cls,conf,crit,desc,score,desc_hits,lines=structural_probe(text)
                       rec.update({'provisional_structural_classification':cls,'classification_confidence':conf,'criteria_present_probe':crit,'level_descriptors_present_probe':desc,'scoring_language_present_probe':score,'descriptor_terms_found':desc_hits,'structural_evidence_lines':lines})
-                      if any(k in text.casefold() for k in ['giriş yap','giriş','kullanıcı adı','şifre']) and len(text)<5000:
-                          rec['access_note']='POSSIBLE_LOGIN_OR_GATE_PAGE_REVIEW_REQUIRED'
+                      if any(k in text.casefold() for k in ['giriş yap','giriş','kullanıcı adı','şifre']) and len(text)<5000: rec['access_note']='POSSIBLE_LOGIN_OR_GATE_PAGE_REVIEW_REQUIRED'
               except HTTPError as e:
                   rec.update({'http_status':e.code,'access_note':'HTTP_ERROR_REVIEW_REQUIRED','provisional_structural_classification':'unresolved','classification_confidence':'LOW'})
               except (URLError,TimeoutError,Exception) as e:
@@ -111,6 +99,17 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add courses/TDE_10/source_docs/eba_dpa_target_probe.json
-          if git diff --cached --quiet; then exit 0; fi
-          git commit -m 'chore(tde10): probe eight official EBA DPA targets'
-          git push
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore(tde10): probe eight official EBA DPA targets'
+            git push
+          fi
+      - name: Dispatch phases 4-13 rederivation
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          curl --fail-with-body -L -X POST \
+            -H 'Accept: application/vnd.github+json' \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H 'X-GitHub-Api-Version: 2022-11-28' \
+            https://api.github.com/repos/${{ github.repository }}/actions/workflows/tde10-parity-phases4-13.yml/dispatches \
+            -d '{"ref":"main"}'
