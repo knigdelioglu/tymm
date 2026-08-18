@@ -1,6 +1,7 @@
 [
   {
     "pdf_page": 8,
+    "printed_page": 7,
     "matched_patterns": [
       "karekodu",
       "karekod"
@@ -10,6 +11,7 @@
   },
   {
     "pdf_page": 9,
+    "printed_page": 8,
     "matched_patterns": [
       "dereceli puanlama anahtarı",
       "akran değerlendirme",
@@ -21,6 +23,7 @@
   },
   {
     "pdf_page": 10,
+    "printed_page": 9,
     "matched_patterns": [
       "karekod"
     ],
@@ -31,6 +34,7 @@
   },
   {
     "pdf_page": 12,
+    "printed_page": 11,
     "matched_patterns": [
       "karekodu",
       "karekod"
@@ -43,6 +47,7 @@
   },
   {
     "pdf_page": 13,
+    "printed_page": 12,
     "matched_patterns": [
       "karekod"
     ],
@@ -53,6 +58,7 @@
   },
   {
     "pdf_page": 14,
+    "printed_page": 13,
     "matched_patterns": [
       "karekod"
     ],
@@ -63,6 +69,7 @@
   },
   {
     "pdf_page": 41,
+    "printed_page": 40,
     "matched_patterns": [
       "karekod"
     ],
@@ -73,6 +80,7 @@
   },
   {
     "pdf_page": 42,
+    "printed_page": 41,
     "matched_patterns": [
       "karekodu",
       "karekod"
@@ -84,6 +92,7 @@
   },
   {
     "pdf_page": 49,
+    "printed_page": 48,
     "matched_patterns": [
       "karekod"
     ],
@@ -94,6 +103,7 @@
   },
   {
     "pdf_page": 50,
+    "printed_page": 49,
     "matched_patterns": [
       "karekod"
     ],
@@ -104,6 +114,7 @@
   },
   {
     "pdf_page": 52,
+    "printed_page": 51,
     "matched_patterns": [
       "karekod"
     ],
@@ -114,6 +125,7 @@
   },
   {
     "pdf_page": 54,
+    "printed_page": 53,
     "matched_patterns": [
       "kontrol listesi"
     ],
@@ -122,6 +134,7 @@
   },
   {
     "pdf_page": 55,
+    "printed_page": 54,
     "matched_patterns": [
       "karekod"
     ],
@@ -134,6 +147,7 @@
   },
   {
     "pdf_page": 58,
+    "printed_page": 57,
     "matched_patterns": [
       "dereceli puanlama anahtarı",
       "akran değerlendirme",
@@ -146,6 +160,7 @@
   },
   {
     "pdf_page": 60,
+    "printed_page": 59,
     "matched_patterns": [
       "karekod"
     ],
@@ -158,6 +173,7 @@
   },
   {
     "pdf_page": 61,
+    "printed_page": 60,
     "matched_patterns": [
       "kontrol listesi"
     ],
@@ -166,6 +182,7 @@
   },
   {
     "pdf_page": 64,
+    "printed_page": 63,
     "matched_patterns": [
       "karekod"
     ],
@@ -176,6 +193,7 @@
   },
   {
     "pdf_page": 65,
+    "printed_page": 64,
     "matched_patterns": [
       "karekod"
     ],
@@ -186,6 +204,7 @@
   },
   {
     "pdf_page": 73,
+    "printed_page": 72,
     "matched_patterns": [
       "öz değerlendirme",
       "karekod"
@@ -197,6 +216,7 @@
   },
   {
     "pdf_page": 79,
+    "printed_page": 78,
     "matched_patterns": [
       "dereceli puanlama anahtarı",
       "akran değerlendirme",
@@ -210,6 +230,7 @@
   },
   {
     "pdf_page": 84,
+    "printed_page": 83,
     "matched_patterns": [
       "karekod"
     ],
@@ -220,6 +241,7 @@
   },
   {
     "pdf_page": 86,
+    "printed_page": 85,
     "matched_patterns": [
       "karekodu",
       "karekod"
@@ -232,6 +254,7 @@
   },
   {
     "pdf_page": 88,
+    "printed_page": 87,
     "matched_patterns": [
       "karekod"
     ],
@@ -242,6 +265,7 @@
   },
   {
     "pdf_page": 94,
+    "printed_page": 93,
     "matched_patterns": [
       "karekod"
     ],
@@ -253,6 +277,7 @@
   },
   {
     "pdf_page": 97,
+    "printed_page": 96,
     "matched_patterns": [
       "karekod"
     ],
@@ -263,6 +288,7 @@
   },
   {
     "pdf_page": 103,
+    "printed_page": 102,
     "matched_patterns": [
       "karekod"
     ],
@@ -273,6 +299,7 @@
   },
   {
     "pdf_page": 111,
+    "printed_page": 110,
     "matched_patterns": [
       "karekod"
     ],
@@ -283,6 +310,7 @@
   },
   {
     "pdf_page": 119,
+    "printed_page": 118,
     "matched_patterns": [
       "karekodu",
       "karekod"
@@ -294,6 +322,7 @@
   },
   {
     "pdf_page": 121,
+    "printed_page": 120,
     "matched_patterns": [
       "karekod"
     ],
@@ -304,6 +333,7 @@
   },
   {
     "pdf_page": 122,
+    "printed_page": 121,
     "matched_patterns": [
       "karekod"
     ],
@@ -314,6 +344,7 @@
   },
   {
     "pdf_page": 128,
+    "printed_page": 127,
     "matched_patterns": [
       "kontrol listesi"
     ],
@@ -322,6 +353,7 @@
   },
   {
     "pdf_page": 129,
+    "printed_page": 128,
     "matched_patterns": [
       "dereceli puanlama anahtarı",
       "akran değerlendirme",
@@ -334,6 +366,7 @@
   },
   {
     "pdf_page": 132,
+    "printed_page": 131,
     "matched_patterns": [
       "karekod"
     ],
@@ -344,6 +377,7 @@
   },
   {
     "pdf_page": 137,
+    "printed_page": 136,
     "matched_patterns": [
       "karekod"
     ],
@@ -354,6 +388,7 @@
   },
   {
     "pdf_page": 142,
+    "printed_page": 141,
     "matched_patterns": [
       "karekod"
     ],
@@ -364,6 +399,7 @@
   },
   {
     "pdf_page": 144,
+    "printed_page": 143,
     "matched_patterns": [
       "karekod"
     ],
@@ -374,6 +410,7 @@
   },
   {
     "pdf_page": 145,
+    "printed_page": 144,
     "matched_patterns": [
       "karekod"
     ],
@@ -384,6 +421,7 @@
   },
   {
     "pdf_page": 146,
+    "printed_page": 145,
     "matched_patterns": [
       "gözlem formu"
     ],
@@ -392,6 +430,7 @@
   },
   {
     "pdf_page": 147,
+    "printed_page": 146,
     "matched_patterns": [
       "karekod"
     ],
@@ -403,6 +442,7 @@
   },
   {
     "pdf_page": 148,
+    "printed_page": 147,
     "matched_patterns": [
       "karekod"
     ],
@@ -415,6 +455,7 @@
   },
   {
     "pdf_page": 149,
+    "printed_page": 148,
     "matched_patterns": [
       "karekod"
     ],
@@ -425,6 +466,7 @@
   },
   {
     "pdf_page": 153,
+    "printed_page": 152,
     "matched_patterns": [
       "karekod"
     ],
@@ -435,6 +477,7 @@
   },
   {
     "pdf_page": 154,
+    "printed_page": 153,
     "matched_patterns": [
       "karekod"
     ],
@@ -445,6 +488,7 @@
   },
   {
     "pdf_page": 156,
+    "printed_page": 155,
     "matched_patterns": [
       "karekodu",
       "karekod"
@@ -457,6 +501,7 @@
   },
   {
     "pdf_page": 157,
+    "printed_page": 156,
     "matched_patterns": [
       "karekod"
     ],
@@ -467,6 +512,7 @@
   },
   {
     "pdf_page": 164,
+    "printed_page": 163,
     "matched_patterns": [
       "karekod"
     ],
@@ -477,6 +523,7 @@
   },
   {
     "pdf_page": 166,
+    "printed_page": 165,
     "matched_patterns": [
       "karekod"
     ],
@@ -487,6 +534,7 @@
   },
   {
     "pdf_page": 173,
+    "printed_page": 172,
     "matched_patterns": [
       "karekod"
     ],
@@ -497,6 +545,7 @@
   },
   {
     "pdf_page": 177,
+    "printed_page": 176,
     "matched_patterns": [
       "karekod"
     ],
@@ -507,6 +556,7 @@
   },
   {
     "pdf_page": 189,
+    "printed_page": 188,
     "matched_patterns": [
       "karekod"
     ],
@@ -517,6 +567,7 @@
   },
   {
     "pdf_page": 191,
+    "printed_page": 190,
     "matched_patterns": [
       "karekod"
     ],
@@ -527,6 +578,7 @@
   },
   {
     "pdf_page": 196,
+    "printed_page": 195,
     "matched_patterns": [
       "karekod"
     ],
@@ -535,6 +587,7 @@
   },
   {
     "pdf_page": 201,
+    "printed_page": 200,
     "matched_patterns": [
       "karekod"
     ],
@@ -545,6 +598,7 @@
   },
   {
     "pdf_page": 205,
+    "printed_page": 204,
     "matched_patterns": [
       "karekod"
     ],
@@ -555,6 +609,7 @@
   },
   {
     "pdf_page": 208,
+    "printed_page": 207,
     "matched_patterns": [
       "öz değerlendirme"
     ],
@@ -563,6 +618,7 @@
   },
   {
     "pdf_page": 209,
+    "printed_page": 208,
     "matched_patterns": [
       "dereceli puanlama anahtarı",
       "öz değerlendirme",
@@ -576,6 +632,7 @@
   },
   {
     "pdf_page": 210,
+    "printed_page": 209,
     "matched_patterns": [
       "kontrol listesi"
     ],
@@ -584,6 +641,7 @@
   },
   {
     "pdf_page": 211,
+    "printed_page": 210,
     "matched_patterns": [
       "karekod"
     ],
@@ -594,6 +652,7 @@
   },
   {
     "pdf_page": 214,
+    "printed_page": 213,
     "matched_patterns": [
       "karekod"
     ],
@@ -604,6 +663,7 @@
   },
   {
     "pdf_page": 221,
+    "printed_page": 220,
     "matched_patterns": [
       "karekod"
     ],
@@ -614,6 +674,7 @@
   },
   {
     "pdf_page": 225,
+    "printed_page": 224,
     "matched_patterns": [
       "karekod"
     ],
@@ -624,6 +685,7 @@
   },
   {
     "pdf_page": 226,
+    "printed_page": 225,
     "matched_patterns": [
       "karekod"
     ],
@@ -634,6 +696,7 @@
   },
   {
     "pdf_page": 228,
+    "printed_page": 227,
     "matched_patterns": [
       "öz değerlendirme",
       "akran değerlendirme"
@@ -643,6 +706,7 @@
   },
   {
     "pdf_page": 229,
+    "printed_page": 228,
     "matched_patterns": [
       "akran değerlendirme",
       "karekod"
@@ -654,6 +718,7 @@
   },
   {
     "pdf_page": 234,
+    "printed_page": 233,
     "matched_patterns": [
       "karekod"
     ],
@@ -664,6 +729,7 @@
   },
   {
     "pdf_page": 236,
+    "printed_page": 235,
     "matched_patterns": [
       "karekodu",
       "karekod"
@@ -676,6 +742,7 @@
   },
   {
     "pdf_page": 242,
+    "printed_page": 241,
     "matched_patterns": [
       "karekod"
     ],
@@ -686,6 +753,7 @@
   },
   {
     "pdf_page": 248,
+    "printed_page": 247,
     "matched_patterns": [
       "karekod"
     ],
@@ -696,6 +764,7 @@
   },
   {
     "pdf_page": 260,
+    "printed_page": 259,
     "matched_patterns": [
       "kontrol listesi"
     ],
@@ -704,6 +773,7 @@
   },
   {
     "pdf_page": 266,
+    "printed_page": 265,
     "matched_patterns": [
       "karekod"
     ],
@@ -714,6 +784,7 @@
   },
   {
     "pdf_page": 269,
+    "printed_page": 268,
     "matched_patterns": [
       "karekod"
     ],
@@ -724,6 +795,7 @@
   },
   {
     "pdf_page": 272,
+    "printed_page": 271,
     "matched_patterns": [
       "karekod"
     ],
@@ -735,6 +807,7 @@
   },
   {
     "pdf_page": 273,
+    "printed_page": 272,
     "matched_patterns": [
       "karekod"
     ],
@@ -745,6 +818,7 @@
   },
   {
     "pdf_page": 278,
+    "printed_page": 277,
     "matched_patterns": [
       "karekod"
     ],
@@ -755,6 +829,7 @@
   },
   {
     "pdf_page": 281,
+    "printed_page": 280,
     "matched_patterns": [
       "karekod"
     ],
@@ -765,6 +840,7 @@
   },
   {
     "pdf_page": 282,
+    "printed_page": 281,
     "matched_patterns": [
       "dereceli puanlama anahtarı",
       "karekod"
@@ -776,6 +852,7 @@
   },
   {
     "pdf_page": 283,
+    "printed_page": 282,
     "matched_patterns": [
       "öz değerlendirme",
       "akran değerlendirme"
@@ -785,6 +862,7 @@
   },
   {
     "pdf_page": 287,
+    "printed_page": 286,
     "matched_patterns": [
       "karekod"
     ],
@@ -795,6 +873,7 @@
   },
   {
     "pdf_page": 297,
+    "printed_page": 296,
     "matched_patterns": [
       "gözlem formu"
     ],
@@ -803,6 +882,7 @@
   },
   {
     "pdf_page": 300,
+    "printed_page": 299,
     "matched_patterns": [
       "karekod"
     ],
@@ -813,6 +893,7 @@
   },
   {
     "pdf_page": 302,
+    "printed_page": 301,
     "matched_patterns": [
       "öz değerlendirme"
     ],
@@ -821,6 +902,7 @@
   },
   {
     "pdf_page": 305,
+    "printed_page": 304,
     "matched_patterns": [
       "dereceli puanlama anahtarı",
       "karekod"
@@ -832,6 +914,7 @@
   },
   {
     "pdf_page": 306,
+    "printed_page": 305,
     "matched_patterns": [
       "akran değerlendirme",
       "kontrol listesi"
@@ -841,6 +924,7 @@
   },
   {
     "pdf_page": 311,
+    "printed_page": 310,
     "matched_patterns": [
       "karekod"
     ],
@@ -851,6 +935,7 @@
   },
   {
     "pdf_page": 316,
+    "printed_page": 315,
     "matched_patterns": [
       "karekod"
     ],

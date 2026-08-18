@@ -16,5 +16,6 @@
     "trapped": "",
     "encryption": null
   },
+  "printed_to_pdf_offset": 1,
   "note": "Disposable extraction cache. Canonical facts remain in textbook_map.json/textbook_forms_index.json."
 }
