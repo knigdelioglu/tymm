@@ -1,3 +1,4 @@
+# trigger_revision: 2
 name: TYMM one-time architecture maintenance
 
 on:
@@ -114,8 +115,6 @@ jobs:
 
           report_path.write_text(s, encoding='utf-8')
 
-          # Make TDE_10 P0 publication fingerprint-safe: after PASS metadata is
-          # finalized, rebuild the index/runtime/P0 report once more.
           wf_path = Path('.github/workflows/tymm-tde10-p0.yml')
           w = wf_path.read_text(encoding='utf-8')
           w = w.replace('      - name: Verify derived status\n', '      - name: Verify provisional derived status\n', 1)
