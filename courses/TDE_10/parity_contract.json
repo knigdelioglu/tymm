@@ -246,7 +246,7 @@
     "curriculum_outcome_verbatim": "PASS_64_OF_64_PARENT_OUTCOMES",
     "curriculum_context_verbatim_depth": "PASS_4_OF_4_LOCAL_SNAPSHOTS",
     "textbook_section_inventory": "PASS_24_SECTIONS",
-    "textbook_activity_inventory": "PASS_75_ACTIVITIES_DEPTH_REMEDIATION_REQUIRED",
+    "textbook_activity_inventory": "PASS_75_ACTIVITIES_DEPTH_VERIFIED",
     "forms_structure_not_title_rule": "PASS",
     "forms_exact_TDE9_taxonomy_parity": "FAIL_NORMALIZATION_REQUIRED",
     "external_EBA_DPA_targets": "REVIEW_REQUIRED_8_TARGET_STRUCTURES_UNCLASSIFIED",
@@ -260,7 +260,7 @@
   "phase_gates": {
     "PHASE_1_PARITY_CONTRACT": "PASS",
     "PHASE_2_CURRICULUM_PARITY": "PASS",
-    "PHASE_3_TEXTBOOK_ACTIVITY_DEPTH": "PENDING",
+    "PHASE_3_TEXTBOOK_ACTIVITY_DEPTH": "PASS",
     "PHASE_4_FORM_TAXONOMY_AND_DPA_TARGETS": "PENDING",
     "PHASE_5_OUTCOME_LEVEL_NEEDS": "PENDING",
     "PHASE_6_RESOURCE_PLAN_REDERIVATION": "PENDING",

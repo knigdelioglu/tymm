@@ -1,6 +1,6 @@
 # TDE_10 → TDE_9 Bilgi Tabanı Parity Raporu
 
-**Durum:** `FAZ 1-2 TAMAMLANDI / FAZ 3 PENDING / PARITY RELEASE BLOCKED`
+**Durum:** `FAZ 1-3 TAMAMLANDI / FAZ 4 PENDING / PARITY RELEASE BLOCKED`
 
 Bu raporun amacı 10. sınıf verisini 9. sınıfla içerik olarak aynılaştırmak değil; **aynı kaynak sadakati, aynı doğrulama derinliği, aynı outcome-level izlenebilirlik ve aynı assessment/gap karar güvenilirliği seviyesine çıkarmaktır.**
 
@@ -160,3 +160,12 @@ Faz 2 tamamlandı. `curriculum_map.json` dört kayıtlı resmî TDE_10 tema PDF 
 **Faz 2 gate:** `PASS_WITH_SOURCE_NOT_APPLICABLE_EXCEPTIONS`
 
 Sonraki kapı: **Faz 3 — textbook activity semantic/evidence depth parity**.
+
+
+## 9. Faz 3 uygulama sonucu
+
+Faz 3 tamamlandı. 75 textbook activity kaydı doğrudan yerel resmî ders kitabı PDF sayfa aralıklarıyla yeniden doğrulandı. Her kayda PDF sayfası, ayrıntılı öğrenci eylemi, beklenen ürün/kanıt, sayfa-overlap ile ilişkili form kimlikleri ve source-text hash eklendi. Kaynakta ayrı bir activity başlığı gözlenmeyen kayıtlarda başlık uydurulmadı; `NOT_SEPARATELY_TITLED_IN_SOURCE` kullanıldı.
+
+**Faz 3 gate:** `PASS_75_OF_75_LOCAL_PDF_SOURCE_BACKED`
+
+Sonraki kapı: **Faz 4 — form taxonomy normalization ve 8 EBA DPA hedefinin yapısal çözümü**.
