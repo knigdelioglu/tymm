@@ -1,0 +1,159 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_10",
+  "grade": 10,
+  "timeline_version": "1.0.0",
+  "timeline_type": "ANNUAL_COURSE_TIMELINE",
+  "timeline_resolution": "THEME_TIME_RESOLVED_BLOCK_SEQUENCE_PENDING_TEXTBOOK_MAPPING",
+  "timeline_semantics": {
+    "meaning": "PLANNED_INSTRUCTIONAL_PROGRESSION",
+    "planned_position_is_not_actual_teacher_position": true,
+    "planned_position_is_not_student_mastery": true,
+    "manual_position_override_is_external_user_state": true
+  },
+  "source_basis": {
+    "authority_order": [
+      "curriculum_map.json",
+      "source_manifest.json"
+    ],
+    "stable_sequence_source": "curriculum_map.json#themes[].theme_no",
+    "hours_source": "curriculum_map.json#scope_summary.allocated_lesson_hours",
+    "provenance_status": "PASS_WITH_USER_CONFIRMED_SCHOOL_BASED_RULE",
+    "temporal_fact_audit": {
+      "annual_total_hours": {
+        "value": 180,
+        "status": "DERIVED_FROM_172_PLUS_8",
+        "source": "curriculum_map.json"
+      },
+      "theme_count": {
+        "value": 4,
+        "status": "EXPLICIT_OFFICIAL",
+        "source": "curriculum_map.json"
+      },
+      "official_theme_order": {
+        "value": [
+          "TEMA_01",
+          "TEMA_02",
+          "TEMA_03",
+          "TEMA_04"
+        ],
+        "status": "EXPLICIT_OFFICIAL",
+        "source": "curriculum_map.json"
+      },
+      "core_instruction_hours_per_theme": {
+        "value": 43,
+        "status": "EXPLICIT_OFFICIAL_WEB",
+        "source": "curriculum_map.json"
+      },
+      "school_based_hours_per_theme": {
+        "value": 2,
+        "status": "USER_CONFIRMED_PLANNING_RULE",
+        "source": "user instruction 2026-08-18"
+      },
+      "outer_theme_total_hours": {
+        "value": 45,
+        "status": "DETERMINISTIC_DERIVATION",
+        "source": "43+2"
+      },
+      "annual_core_instruction_hours": {
+        "value": 172,
+        "status": "DETERMINISTIC_DERIVATION",
+        "source": "43*4"
+      },
+      "annual_school_based_hours": {
+        "value": 8,
+        "status": "DETERMINISTIC_DERIVATION",
+        "source": "2*4"
+      },
+      "weekly_lesson_hours": {
+        "value": null,
+        "status": "UNRESOLVED"
+      },
+      "academic_year_week_mapping": {
+        "value": null,
+        "status": "UNRESOLVED"
+      },
+      "block_specific_hours": {
+        "value": null,
+        "status": "UNRESOLVED",
+        "note": "Alt pedagojik bloklara saat uydurulmaz; textbook mapping ve teaching_blocks tamamlanınca yalnız kaynakla desteklenen sıra bağlanır."
+      }
+    }
+  },
+  "annual_hours": {
+    "official_theme_instruction_total": 172,
+    "school_based_planning_total": 8,
+    "planned_annual_total": 180,
+    "theme_outer_total": 45,
+    "core_instruction_per_theme": 43,
+    "school_based_per_theme": 2
+  },
+  "themes": [
+    {
+      "theme_id": "TEMA_01",
+      "theme_order": 1,
+      "theme_title": "1. TEMA: SÖZÜN EZGİSİ",
+      "core_instruction_hours": 43,
+      "school_based_hours": 2,
+      "outer_total_hours": 45,
+      "school_based_hours_status": "USER_CONFIRMED_PLANNING_RULE",
+      "source_locators": [
+        "curriculum_map.json#themes[0].allocated_lesson_hours",
+        "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/242?kod=D15"
+      ],
+      "block_resolution_status": "PENDING_TEXTBOOK_MAPPING_AND_TEACHING_BLOCKS",
+      "blocks": []
+    },
+    {
+      "theme_id": "TEMA_02",
+      "theme_order": 2,
+      "theme_title": "2. TEMA: KELİMELERİN RİTMİ",
+      "core_instruction_hours": 43,
+      "school_based_hours": 2,
+      "outer_total_hours": 45,
+      "school_based_hours_status": "USER_CONFIRMED_PLANNING_RULE",
+      "source_locators": [
+        "curriculum_map.json#themes[1].allocated_lesson_hours",
+        "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/247"
+      ],
+      "block_resolution_status": "PENDING_TEXTBOOK_MAPPING_AND_TEACHING_BLOCKS",
+      "blocks": []
+    },
+    {
+      "theme_id": "TEMA_03",
+      "theme_order": 3,
+      "theme_title": "3. TEMA: DÜNDEN BUGÜNE",
+      "core_instruction_hours": 43,
+      "school_based_hours": 2,
+      "outer_total_hours": 45,
+      "school_based_hours_status": "USER_CONFIRMED_PLANNING_RULE",
+      "source_locators": [
+        "curriculum_map.json#themes[2].allocated_lesson_hours",
+        "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/256"
+      ],
+      "block_resolution_status": "PENDING_TEXTBOOK_MAPPING_AND_TEACHING_BLOCKS",
+      "blocks": []
+    },
+    {
+      "theme_id": "TEMA_04",
+      "theme_order": 4,
+      "theme_title": "4. TEMA: NESİLLERİN MİRASI",
+      "core_instruction_hours": 43,
+      "school_based_hours": 2,
+      "outer_total_hours": 45,
+      "school_based_hours_status": "USER_CONFIRMED_PLANNING_RULE",
+      "source_locators": [
+        "curriculum_map.json#themes[3].allocated_lesson_hours",
+        "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/261"
+      ],
+      "block_resolution_status": "PENDING_TEXTBOOK_MAPPING_AND_TEACHING_BLOCKS",
+      "blocks": []
+    }
+  ],
+  "calendar_binding": {
+    "status": "UNRESOLVED",
+    "academic_year": null,
+    "week_mapping": null,
+    "rule": "Stable theme sequence and 45-hour outer blocks are independent from a later academic-calendar binding."
+  }
+}
