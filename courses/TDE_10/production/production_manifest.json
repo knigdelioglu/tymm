@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "1.1",
   "course_id": "TDE_10",
   "production_mode": "PARITY_REVIEW_BLOCKED",
   "production_status": "BLOCKED_PENDING_8_EBA_ASSESSMENT_TARGETS",
