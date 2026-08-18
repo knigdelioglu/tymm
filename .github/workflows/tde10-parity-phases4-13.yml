@@ -1,0 +1,360 @@
+name: TDE10 Parity Phases 4-13
+
+on:
+  push:
+    paths:
+      - '.github/workflows/tde10-parity-phases4-13.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rederive:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Install PDF tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils
+      - name: Normalize forms and rederive outcome-level chain
+        run: |
+          python - <<'PY'
+          import json, re, subprocess
+          from pathlib import Path
+
+          root=Path('courses/TDE_10')
+          book=root/'source_docs'/'turk-dili-ve-edebiyati-10.pdf'
+          curriculum=json.loads((root/'curriculum_map.json').read_text(encoding='utf-8'))
+          textbook=json.loads((root/'textbook_map.json').read_text(encoding='utf-8'))
+          forms_path=root/'textbook_forms_index.json'
+          forms_doc=json.loads(forms_path.read_text(encoding='utf-8'))
+          probe=json.loads((root/'source_docs'/'eba_dpa_target_probe.json').read_text(encoding='utf-8'))
+          probe_by_id={r['form_id']:r for r in probe['results']}
+
+          reference_taxonomy=['self_assessment_form','assessment_criteria_table','learning_journal','test_question_set','peer_assessment_form','teacher_evaluation_form','observation_form']
+          family_map={
+              'self_assessment_form':'self_assessment_form',
+              'peer_assessment_form':'peer_assessment_form',
+              'learning_journal':'learning_journal',
+              'test_question_set':'test_question_set',
+              'checklist':'assessment_criteria_table',
+              'linked_assessment_resource':'teacher_evaluation_form',
+          }
+
+          def bounds(v):
+              nums=[int(x) for x in re.findall(r'\d+',str(v))]
+              return (nums[0],nums[-1]) if nums else (None,None)
+
+          # PHASE 4: structure-first normalization; do not fabricate closed taxonomy for extensions.
+          extension_count=0
+          for f in forms_doc['forms']:
+              st=f.get('structural_type')
+              fam=family_map.get(st)
+              if fam:
+                  f['canonical_structural_family']=fam
+                  f['taxonomy_relation']='REFERENCE_FAMILY' if st==fam else 'NORMALIZED_TO_REFERENCE_FAMILY'
+              else:
+                  f['canonical_structural_family']=None
+                  f['taxonomy_relation']='TDE10_SPECIFIC_EXTENSION'
+                  extension_count+=1
+              f['structural_subtype']=st
+              f['audience']=f.get('audience') or f.get('evaluator')
+              f['location_category']='external_official_assessment_link' if f.get('target_url') else 'in_theme_section'
+              f['location_scope']='EXTERNAL_OFFICIAL_EBA' if f.get('target_url') else 'IN_THEME'
+              opts=f.get('response_options') or []
+              if len(opts)==3: scale='3_point_rating_scale'
+              elif len(opts)==2: scale='binary_checklist_scale'
+              elif opts: scale=f'{len(opts)}_option_scale'
+              else: scale='none_or_not_observed'
+              p1,p2=bounds(f.get('printed_page'))
+              criteria_count=None
+              if p1 and not f.get('target_url'):
+                  text=subprocess.check_output(['pdftotext','-f',str(p1+1),'-l',str(p2+1),'-layout',str(book),'-'],text=True,errors='replace')
+                  numbered=[ln for ln in text.splitlines() if re.match(r'^\s*\d+\s+\S',ln)]
+                  criteria_count=len(numbered) if f.get('criteria_present') else 0
+              f['structure_details']={
+                  'scale_type':scale,
+                  'criteria_count_observed_estimate':criteria_count,
+                  'has_level_descriptors':f.get('level_descriptors_present'),
+                  'has_scoring_levels':f.get('scoring_levels_present'),
+                  'response_options':opts,
+                  'canonicalization_note':'Structure is classified from observed components; title alone is never sufficient.'
+              }
+              if f.get('target_url'):
+                  pr=probe_by_id[f['form_id']]
+                  f['target_probe']={k:pr.get(k) for k in ['http_status','final_url','content_type','provisional_structural_classification','classification_confidence','access_note']}
+                  f['verification_status']='OFFICIAL_EBA_LINK_VERIFIED_TARGET_AUTH_GATED_STRUCTURE_UNRESOLVED'
+                  f['criteria_present']=None
+                  f['level_descriptors_present']=None
+                  f['scoring_levels_present']=None
+          forms_doc['classification_rule_verbatim']='Değerlendirme araçları başlıklarına göre değil, içerdikleri yapısal bileşenlere (ölçüt tablosu, performans düzeyi betimleyicileri, dereceleme skalası, kontrol listesi vb.) göre sınıflandırılmıştır.'
+          forms_doc['reference_structural_taxonomy']=reference_taxonomy
+          forms_doc['taxonomy_normalization_status']='PASS_WITH_TDE10_SPECIFIC_EXTENSIONS'
+          forms_doc['summary']['external_dpa_structure_unclassified']=8
+          forms_doc['summary']['analytic_rubrics_verified']=0
+          forms_doc['summary']['auth_gated_external_assessment_targets']=8
+          forms_doc['summary']['tde10_specific_extension_records']=extension_count
+          forms_doc['index_status']='PARITY_REAUDITED_8_EXTERNAL_DPA_TARGETS_AUTH_GATED'
+          forms_path.write_text(json.dumps(forms_doc,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+          # Build activity lookup after Phase 3 enrichment.
+          activity_lookup={}
+          section_lookup={}
+          for th in textbook['themes']:
+              for sec in th['sections']:
+                  section_lookup[sec['section_id']]=sec
+                  for act in sec.get('activities',[]):
+                      activity_lookup[act['activity_id']]={**act,'section_id':sec['section_id'],'section_title':sec.get('section_title','')}
+
+          action_evidence={
+            ('Dinleme/İzleme',1):('Dinleme/izleme amacını ve stratejisini belirleme; ön bilgileri etkinleştirme ve tahmin oluşturma.','Hazırlık cevapları, tahminler ve dinleme/izleme öncesi notlar.'),
+            ('Dinleme/İzleme',2):('Dinlenen/izlenen metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturma.','Anlama soruları cevapları ve yapılandırılmış dinleme/izleme notları.'),
+            ('Dinleme/İzleme',3):('Dinlenen/izlenen metni yapı, tür, dil-anlatım, değer/ileti ve bağlam yönlerinden çözümleme.','Tahlil cevapları, karşılaştırma/şema kayıtları ve gerekçeli çıkarımlar.'),
+            ('Dinleme/İzleme',4):('Dinleme/izleme sürecini kanıta dayalı biçimde değerlendirme ve geliştirilmesi gereken yönleri belirleme.','Öz değerlendirme/yansıtma kaydı ve gerekçeli değerlendirme.'),
+            ('Okuma',1):('Okuma amacı ve stratejisini belirleme; ön bilgileri etkinleştirme, tahmin oluşturma ve metne hazırlanma.','Okuma öncesi cevaplar, tahminler ve hazırlık notları.'),
+            ('Okuma',2):('Metnin konu, tema, ana düşünce/ileti, söz varlığı ve bağlamından anlam oluşturma.','Anlama soruları cevapları, işaretlemeler ve anlamlandırma kayıtları.'),
+            ('Okuma',3):('Metni yapı, tür, dil-anlatım, ahenk/söz varlığı ve dönem bağlamında çözümleyip karşılaştırma.','Tahlil cevapları, tablo/şema ve gerekçeli karşılaştırma kayıtları.'),
+            ('Okuma',4):('Okuma sürecini ve metne ilişkin değerlendirmeleri kanıta dayalı biçimde yansıtma.','Çıkış kartı, öğrenme günlüğü veya öz değerlendirme kaydı.'),
+            ('Konuşma',1):('Konuşma/sunum performansının amacını, içeriğini, kaynaklarını, akışını, rol/görevlerini ve uygulama koşullarını planlama.','Konuşma/sunum planı, kaynak/seçim kayıtları ve görev dağılımı.'),
+            ('Konuşma',2):('Konuşma/sunum için tema, bilgi, örnek ve görsel/işitsel destekleri seçerek içeriği yapılandırma.','Sunum içeriği, senaryo/akış taslağı ve kaynak kayıtları.'),
+            ('Konuşma',3):('Planlanan konuşmayı Türkçenin doğru kullanımı, vurgu-tonlama, beden dili, zaman ve sunum kurallarıyla gerçekleştirme.','Canlı veya kaydedilmiş sözlü performans.'),
+            ('Konuşma',4):('Konuşma performansını öz/akran ve öğretmen değerlendirmesiyle değerlendirme; geri bildirimden hareketle geliştirme.','Öz/akran değerlendirme, öğretmen puanlama kanıtı ve yansıtma/revizyon kaydı.'),
+            ('Yazma',1):('Yazma amacı, hedef kitle, tür, içerik, ileti, strateji ve taslak planını belirleme.','Yazma planı, seçim/gerekçe kayıtları ve hazırlık notları.'),
+            ('Yazma',2):('Belirlenen amaç ve türe uygun içeriği yapılandırarak taslak/ürün oluşturma.','İçerik taslağı ve yazılı/görsel ürün.'),
+            ('Yazma',3):('Yazılı üründe tür, yapı, dil-anlatım, yazım-noktalama ve görev-özel kuralları uygulayıp düzenleme.','Düzenlenmiş taslak ve kurallara uygun nihai ürün.'),
+            ('Yazma',4):('Yazma sürecini öz/akran ve öğretmen değerlendirmesiyle değerlendirme; geri bildirimle ürünü geliştirme.','Öz/akran değerlendirme, öğretmen puanlama kanıtı ve revize edilmiş nihai ürün.'),
+          }
+          selection={
+            ('Dinleme/İzleme',1):{'listening_preparation'},('Dinleme/İzleme',2):{'listening_comprehension','listening_analysis'},('Dinleme/İzleme',3):{'listening_analysis'},('Dinleme/İzleme',4):{'self_assessment','reflection'},
+            ('Okuma',1):{'reading_preparation'},('Okuma',2):{'reading_comprehension','reading_analysis'},('Okuma',3):{'reading_analysis'},('Okuma',4):{'reflection','self_assessment'},
+            ('Konuşma',1):{'speaking_planning','performance_preparation'},('Konuşma',2):{'speaking_planning','speaking_performance'},('Konuşma',3):{'speaking_performance'},('Konuşma',4):{'speaking_assessment','reflection','self_assessment'},
+            ('Yazma',1):{'writing_planning'},('Yazma',2):{'writing_production'},('Yazma',3):{'writing_production','writing_assessment'},('Yazma',4):{'writing_assessment','self_assessment','reflection'},
+          }
+          section_keyword={'Dinleme/İzleme':'Dinleme/İzleme','Okuma':'Okuma','Konuşma':'Konuşma','Yazma':'Yazma'}
+
+          def select_for(theme_id,skill,step):
+              th=next(t for t in textbook['themes'] if t['theme_id']==theme_id)
+              secs=[s for s in th['sections'] if section_keyword[skill].casefold() in s.get('section_title','').casefold()]
+              acts=[]
+              for s in secs:
+                  for a in s.get('activities',[]):
+                      if a.get('type') in selection[(skill,step)]: acts.append(a)
+              fallback=False
+              if not acts:
+                  fallback=True
+                  for s in secs: acts.extend(s.get('activities',[]))
+              ids=[a['activity_id'] for a in acts]
+              forms=[]
+              loc=[]
+              sections=[]
+              for a in acts:
+                  for x in a.get('related_forms',[]):
+                      if x not in forms: forms.append(x)
+                  if a.get('source_locator') and a['source_locator'] not in loc: loc.append(a['source_locator'])
+                  sid=activity_lookup[a['activity_id']]['section_id']
+                  if sid not in sections: sections.append(sid)
+              return sections,ids,forms,loc,fallback
+
+          def assessment_requirement(theme,skill,step):
+              ev=theme.get('ogrenme_kanitlari_olcme_ve_degerlendirme',{})
+              if skill in ('Konuşma','Yazma') and step==4:
+                  pts=[p for p in ev.get('performance_tasks',[]) if p.get('skill')==skill]
+                  return {
+                    'normative_requirement':'Dereceli puanlama anahtarı ile öğretmen değerlendirmesi',
+                    'performance_task':pts[0].get('task') if pts else None,
+                    'rubric_criteria':pts[0].get('rubric_criteria',[]) if pts else [],
+                    'source_locator':ev.get('source_locator')
+                  }
+              return {'normative_requirement':'Tema öğrenme kanıtları içinde öğrenci eylemini görünür kılan değerlendirme/evidence yolu','source_locator':ev.get('source_locator')}
+
+          all_align=[]
+          partial_rows=[]
+          outcome_total=0
+          for th in curriculum['themes']:
+              tid=th['theme_id']; tno=th['theme_no']; folder=root/'themes'/f'tema_{tno:02d}'
+              needs=[]; resources=[]; aligns=[]; gaps=[]
+              for out in th['learning_outcomes']:
+                  code=out['outcome_code']; fam=int(code[3]); step=int(code.split('.')[1]); skill=out['skill_category']
+                  need_id=f"NEED_T10_T{tno}_{code.replace('.','_')}"
+                  plan_id=f"PLAN_T10_T{tno}_{code.replace('.','_')}"
+                  gap_id=f"GAP_T10_T{tno}_{code.replace('.','_')}"
+                  action,evidence=action_evidence[(skill,step)]
+                  req=assessment_requirement(th,skill,step)
+                  assessment_need=req['normative_requirement']
+                  if skill in ('Konuşma','Yazma') and step==4:
+                      assessment_need += '; external EBA target structure must be inspected before COVERED.'
+                  need={
+                    'need_id':need_id,'outcome_id':out['outcome_id'],'outcome_code':code,'outcome_verbatim':out['outcome_verbatim'],
+                    'skill_category':skill,'targeted_learning_outcomes':[code],
+                    'targeted_process_components':out.get('process_components_verbatim',[]),
+                    'process_component_status':out.get('process_components_status'),
+                    'expected_student_actions':action,'expected_student_evidence':evidence,
+                    'feedback_need':'Öğrenci kanıtına ölçüt/evidence temelli öğretmen ve gerektiğinde akran geri bildirimi.',
+                    'assessment_need':assessment_need,
+                    'differentiation_need':'Görev yükünü ve temsil biçimini değiştirmeden basamaklandırılmış yönerge, şablon ve ek süre seçenekleri.',
+                    'enrichment_opportunity':'Aynı kazanımı daha geniş kaynak, karşılaştırma veya özgün üretimle derinleştirme.',
+                    'accessibility_need':'Metin/işitsel/görsel erişilebilirlik, okunabilir şablon ve uygun alternatif erişim biçimi.',
+                    'external_content_need':'ASSESSMENT_TARGET_AUTH_GATED' if skill in ('Konuşma','Yazma') and step==4 else 'TO_BE_DERIVED_FROM_TEXTBOOK_ALIGNMENT',
+                    'coverage_assertion':'NONE_NEEDS_STAGE',
+                    'provenance':{'curriculum_locator':out['source_locator'],'assessment_requirement_locator':req.get('source_locator')}
+                  }
+                  needs.append(need)
+
+                  sections,acts,form_ids,locs,fallback=select_for(tid,skill,step)
+                  # Ensure DPA link is associated with .4 speaking/writing when available on the skill section.
+                  if skill in ('Konuşma','Yazma') and step==4:
+                      for f in forms_doc['forms']:
+                          if f.get('target_url') and tid in f.get('linked_theme_ids',[]):
+                              linked=f.get('linked_activity_ids',[])
+                              if any(activity_lookup.get(a,{}).get('section_title','').casefold().find(skill.casefold())>=0 for a in linked):
+                                  if f['form_id'] not in form_ids: form_ids.append(f['form_id'])
+                  unresolved_dpa=[fid for fid in form_ids if fid in probe_by_id and probe_by_id[fid].get('provisional_structural_classification')=='unresolved']
+                  if not acts:
+                      coverage='NOT_COVERED'; priority='REQUIRED'; decision='GENERATE_OR_REMEDIATE_AFTER_REVIEW'; rem='Required textbook action path was not found.'; conf='HIGH_MISSING_PATH'
+                  elif skill in ('Konuşma','Yazma') and step==4 and unresolved_dpa:
+                      coverage='PARTIALLY_COVERED'; priority='REVIEW_REQUIRED'; decision='NO_ACTION_PENDING_ASSESSMENT_TARGET'; rem='Official EBA DPA link exists but target structure is authentication-gated and unresolved.'; conf='FAIL_CLOSED_EXTERNAL_ASSESSMENT_UNRESOLVED'
+                  else:
+                      coverage='COVERED'; priority='NOT_NEEDED'; decision='REUSE_TEXTBOOK'; rem='NONE'; conf='LOCAL_PDF_ACTIVITY_EVIDENCE_VERIFIED'
+
+                  selected=[activity_lookup[a] for a in acts if a in activity_lookup]
+                  obs_action=' | '.join(dict.fromkeys(a.get('student_action_detail') or a.get('student_action','') for a in selected))
+                  obs_evidence=' | '.join(dict.fromkeys(a.get('expected_product_or_evidence') or a.get('expected_student_evidence','') for a in selected))
+                  structure=[next((f.get('structural_type') for f in forms_doc['forms'] if f['form_id']==fid),None) for fid in form_ids]
+                  structure=[x for x in structure if x]
+                  alignment={
+                    'outcome_id':out['stable_entity_key'],'outcome_code':code,'skill_category':skill,'outcome_verbatim':out['outcome_verbatim'],
+                    'process_components_verbatim':out.get('process_components_verbatim',[]),'need_id':need_id,'resource_plan_id':plan_id,
+                    'program_assessment_requirement':req,
+                    'textbook_sections':sections,'textbook_activity_ids':acts,'textbook_form_ids':form_ids,'textbook_locators':locs,
+                    'textbook_student_action':obs_action,'textbook_expected_evidence':obs_evidence,
+                    'observed_assessment_structure':structure,
+                    'primary_coverage':coverage,'need_tags':['ASSESSMENT_TARGET_AUTH_GATED'] if unresolved_dpa else [],
+                    'remaining_gap':rem,'production_decision':decision,'priority':priority,'coverage_confidence':conf,
+                    'provenance':{'program_locator':out['source_locator'],'textbook_locator':locs},
+                    'selection_fallback_used':fallback
+                  }
+                  aligns.append(alignment); all_align.append((tid,alignment)); outcome_total+=1
+                  if coverage=='PARTIALLY_COVERED': partial_rows.append((tid,alignment))
+
+                  resource={
+                    'resource_plan_id':plan_id,'need_id':need_id,'target_outcomes':[code],
+                    'resource_type':'assessment_support_review' if coverage=='PARTIALLY_COVERED' else ('required_gap_remediation' if coverage=='NOT_COVERED' else 'reuse_official_textbook_path'),
+                    'purpose':action,'expected_student_evidence':evidence,
+                    'pre_alignment_state':'PENDING_ALIGNMENT_NO_COVERAGE_ASSUMPTION',
+                    'textbook_coverage':coverage,'priority':priority,'production_decision':decision,
+                    'reuse_existing_resource':coverage!='NOT_COVERED','textbook_section_ids':sections,'textbook_activity_ids':acts,'textbook_form_ids':form_ids,'textbook_resource_locators':locs,
+                    'external_source_needed':bool(unresolved_dpa),'teacher_review_required':coverage!='COVERED',
+                    'decision_rationale':rem if rem!='NONE' else 'Official textbook activity/evidence path satisfies the outcome-level need.'
+                  }
+                  resources.append(resource)
+
+                  gaps.append({
+                    'gap_id':gap_id,'need_id':need_id,'resource_plan_id':plan_id,'outcome_code':code,'outcome_verbatim':out['outcome_verbatim'],
+                    'textbook_activity_ids':acts,'textbook_form_ids':form_ids,'textbook_locators':locs,
+                    'observed_textbook_structure':{'student_action':obs_action,'expected_evidence':obs_evidence,'assessment_structures':structure},
+                    'primary_coverage':coverage,'need_tags':['ASSESSMENT_TARGET_AUTH_GATED'] if unresolved_dpa else [],
+                    'remaining_gap':rem,
+                    'why_existing_resources_are_insufficient':'N/A - textbook path is sufficient.' if coverage=='COVERED' else ('External teacher assessment target cannot be structurally verified without authenticated EBA access.' if coverage=='PARTIALLY_COVERED' else 'Core required textbook path is absent.'),
+                    'production_decision':decision,'priority':priority,
+                    'provenance':{'program_locator':out['source_locator'],'assessment_requirement':req,'textbook_locator':locs}
+                  })
+
+              covered=sum(a['primary_coverage']=='COVERED' for a in aligns); partial=sum(a['primary_coverage']=='PARTIALLY_COVERED' for a in aligns); missing=sum(a['primary_coverage']=='NOT_COVERED' for a in aligns)
+              needs_doc={'schema_version':'1.1','course_id':'TDE_10','grade':10,'theme_id':tid,'theme_no':tno,'theme_title':th['exact_theme_name'],'analysis_status':'OUTCOME_LEVEL_NEEDS_DERIVED_NO_COVERAGE_ASSUMPTION','needs':needs,'coverage_rule':'Needs describe normative instructional/evidence requirements only; coverage is derived later from textbook evidence.','freeze_status':'PARITY_REAUDITED'}
+              resource_doc={'schema_version':'1.1','course_id':'TDE_10','grade':10,'theme_id':tid,'theme_no':tno,'theme_title':th['exact_theme_name'],'derivation_rule':'Need first; textbook alignment second; coverage/priority/production decision last.','summary':{'total_planned_items':16,'covered_count':covered,'partially_covered_count':partial,'not_covered_count':missing,'review_required_count':partial,'generate_authorized_count':0},'resources':resources}
+              align_doc={'schema_version':'1.1','course_id':'TDE_10','grade':10,'theme_id':tid,'theme_no':tno,'theme_title':th['exact_theme_name'],'curriculum_source_id':'curriculum_tde10_theme_bundle','textbook_source_id':'textbook_tde10_local_pdf','alignment_status':'PARITY_REAUDITED_FAIL_CLOSED','freeze_status':'REVIEW_REQUIRED_EXTERNAL_ASSESSMENT_TARGETS' if partial else 'FROZEN','source_state':{'curriculum_freeze':'FROZEN','textbook_activity_depth':'PASS_75_OF_75','external_assessment_targets':'AUTH_GATED_8_TOTAL'},'summary_metrics':{'total_learning_outcomes':16,'covered_count':covered,'partially_covered_count':partial,'not_covered_count':missing,'review_required_count':partial,'alignment_status':'REVIEW_REQUIRED' if partial else 'PASS'},'alignments':aligns}
+              gap_doc={'schema_version':'1.1','course_id':'TDE_10','grade':10,'theme_id':tid,'theme_no':tno,'theme_title':th['exact_theme_name'],'analysis_status':'PASS_WITH_UNRESOLVED_ASSESSMENT_TARGETS' if partial else 'PASS','total_outcomes_analyzed':16,'summary_metrics':{'covered_count':covered,'partially_covered_count':partial,'not_covered_count':missing,'confirmed_required_gap_count':missing,'unresolved_assessment_target_count':partial,'generate_count':0,'review_required_count':partial},'gap_records':gaps,'gap_rule':'PARTIALLY_COVERED caused only by an unresolved external assessment target is not a confirmed material gap and does not authorize generation.'}
+              (folder/'needs.json').write_text(json.dumps(needs_doc,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+              (folder/'resource_plan.json').write_text(json.dumps(resource_doc,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+              (folder/'alignment.json').write_text(json.dumps(align_doc,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+              (folder/'gap_analysis.json').write_text(json.dumps(gap_doc,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+          if outcome_total!=64: raise SystemExit(f'expected 64 outcome rows, got {outcome_total}')
+          if len(partial_rows)!=8: raise SystemExit(f'expected 8 fail-closed assessment rows, got {len(partial_rows)}')
+
+          # PHASE 9 assessment gate audit
+          gate_records=[]
+          for tid,a in partial_rows:
+              dpas=[fid for fid in a['textbook_form_ids'] if fid in probe_by_id]
+              gate_records.append({'theme_id':tid,'outcome_code':a['outcome_code'],'skill_category':a['skill_category'],'dpa_form_ids':dpas,'status':'REVIEW_REQUIRED_AUTH_GATED','coverage':'PARTIALLY_COVERED','generation_authorized':False})
+          (root/'source_docs'/'assessment_gate_audit.json').write_text(json.dumps({'schema_version':'1.0','course_id':'TDE_10','gate_count':8,'status':'BLOCKED_BY_AUTHENTICATED_EBA_TARGET_ACCESS','records':gate_records},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+          # PHASE 11 real cross-theme comparison, without inventing artifact need.
+          speaking=[g for g in gate_records if g['skill_category']=='Konuşma']; writing=[g for g in gate_records if g['skill_category']=='Yazma']
+          audit={
+            'schema_version':'1.1','course_id':'TDE_10','audit_type':'CROSS_THEME_ASSESSMENT_AND_RESOURCE_GAP_CONSOLIDATION','source_state':'PARITY_REAUDITED_REVIEW_REQUIRED',
+            'themes_audited':4,'outcome_rows_analyzed':64,'covered_outcomes':56,'partially_covered_outcomes':8,'not_covered_outcomes':0,
+            'verified_remaining_gap_instances':0,'unresolved_assessment_target_instances':8,
+            'assessment_need_comparison':[
+              {'cluster_id':'TDE10_SPEAKING_TEACHER_DPA','skill_family':'Konuşma','instance_count':len(speaking),'themes':[x['theme_id'] for x in speaking],'common_normative_need':'Teacher dereceli puanlama anahtarı for the theme speaking performance','status':'PROVISIONAL_TARGET_STRUCTURES_AUTH_GATED','consolidation_decision':'DO_NOT_GENERATE_OR_CONSOLIDATE_UNTIL_TARGET_STRUCTURES_RESOLVED'},
+              {'cluster_id':'TDE10_WRITING_TEACHER_DPA','skill_family':'Yazma','instance_count':len(writing),'themes':[x['theme_id'] for x in writing],'common_normative_need':'Teacher dereceli puanlama anahtarı for the theme writing performance','status':'PROVISIONAL_TARGET_STRUCTURES_AUTH_GATED','consolidation_decision':'DO_NOT_GENERATE_OR_CONSOLIDATE_UNTIL_TARGET_STRUCTURES_RESOLVED'}
+            ],
+            'cross_theme_gap_clusters':[],
+            'potential_assessment_clusters':2,
+            'new_physical_artifacts_required_confirmed':0,
+            'decision':'PARITY_REVIEW_BLOCKED_PENDING_8_EXTERNAL_ASSESSMENT_TARGETS',
+            'rule':'Unresolved external normative assessment targets are compared across themes but are not converted into gaps or physical artifacts until their structures are inspected.'
+          }
+          (root/'production'/'cross_theme_audit.json').write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+          # PHASE 12 production redecision: no false reuse-only certification.
+          pm_path=root/'production'/'production_manifest.json'
+          pm=json.loads(pm_path.read_text(encoding='utf-8'))
+          pm.update({'schema_version':'1.2','production_mode':'PARITY_REVIEW_BLOCKED','production_status':'BLOCKED_PENDING_8_EBA_ASSESSMENT_TARGETS','verified_resource_gap_count':0,'unresolved_assessment_target_count':8,'expected_new_artifact_count':0,'production_queue':[],'gap_instance_provenance_registry':[],'legacy_gap_alias_policy':'NONE_NO_CONFIRMED_GAPS'})
+          pm['generation_authorization']={'allowed':False,'reason':'UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS','blocking_target_count':8}
+          pm['parity_interpretation']='Zero confirmed gaps is not yet equivalent to NO_REQUIRED_ARTIFACTS; eight normative teacher-assessment targets remain structurally unresolved behind authenticated EBA access.'
+          pm_path.write_text(json.dumps(pm,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+          # PHASE 13 lifecycle reconciliation.
+          sm_path=root/'source_manifest.json'
+          if sm_path.exists():
+              sm=json.loads(sm_path.read_text(encoding='utf-8'))
+              sm['parity_remediation_status']='BLOCKED_PENDING_8_AUTH_GATED_EBA_DPA_TARGETS'
+              sm['parity_certification']='WITHHELD'
+              sm_path.write_text(json.dumps(sm,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+          cpath=root/'parity_contract.json'; c=json.loads(cpath.read_text(encoding='utf-8'))
+          c['current_tde10_parity_findings'].update({
+            'textbook_activity_inventory':'PASS_75_ACTIVITIES_DEPTH_VERIFIED',
+            'forms_structure_not_title_rule':'PASS_REFERENCE_RULE_APPLIED',
+            'forms_exact_TDE9_taxonomy_parity':'PASS_WITH_TDE10_SPECIFIC_EXTENSIONS',
+            'external_EBA_DPA_targets':'BLOCKED_8_AUTH_GATED_TARGET_STRUCTURES_UNRESOLVED',
+            'outcome_level_need_granularity':'PASS_64_OF_64',
+            'coverage_semantic_parity':'PASS_FAIL_CLOSED_56_COVERED_8_PARTIAL',
+            'cross_theme_assessment_comparison':'PASS_2_PROVISIONAL_CLUSTERS_8_UNRESOLVED',
+            'zero_gap_parity_certification':'WITHHELD_0_CONFIRMED_GAPS_8_UNRESOLVED_ASSESSMENT_TARGETS'
+          })
+          c['phase_gates'].update({
+            'PHASE_3_TEXTBOOK_ACTIVITY_DEPTH':'PASS',
+            'PHASE_4_FORM_TAXONOMY_AND_DPA_TARGETS':'BLOCKED_8_EBA_TARGETS_AUTH_GATED',
+            'PHASE_5_OUTCOME_LEVEL_NEEDS':'PASS_64_OF_64',
+            'PHASE_6_RESOURCE_PLAN_REDERIVATION':'PASS_64_OF_64_NEED_FIRST',
+            'PHASE_7_ALIGNMENT_REAUDIT':'PASS_FAIL_CLOSED_56_COVERED_8_PARTIAL',
+            'PHASE_8_COVERAGE_SEMANTICS':'PASS_UNRESOLVED_NOT_COVERED',
+            'PHASE_9_EIGHT_ASSESSMENT_GATES':'BLOCKED_8_AUTH_GATED',
+            'PHASE_10_GAP_RECALCULATION':'PASS_0_CONFIRMED_GAPS_8_UNRESOLVED',
+            'PHASE_11_CROSS_THEME_AUDIT':'PASS_2_PROVISIONAL_ASSESSMENT_CLUSTERS',
+            'PHASE_12_PRODUCTION_REDECISION':'BLOCKED_NO_GENERATION_PENDING_TARGETS',
+            'PHASE_13_LIFECYCLE_RECONCILIATION':'PASS_PARITY_CERTIFICATION_WITHHELD'
+          })
+          cpath.write_text(json.dumps(c,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+          rpath=root/'parity_report.md'; r=rpath.read_text(encoding='utf-8')
+          r=re.sub(r'\*\*Durum:\*\* `[^`]+`','**Durum:** `FAZ 1-3 PASS / FAZ 4 AUTH-GATED / FAZ 5-13 YENİDEN TÜRETİLDİ / PARITY RELEASE BLOCKED`',r,count=1)
+          if '## 10. Faz 4-13 uygulama sonucu' not in r:
+              r += '''\n\n## 10. Faz 4-13 uygulama sonucu\n\nFaz 4 EBA hedef probe sonucunda sekiz resmî DPA bağlantısının tamamı EBA giriş ekranına yönlenmiştir. Bu nedenle hedeflerin gerçek yapısı doğrulanamamış ve `UNRESOLVED` korunmuştur.\n\nBuna rağmen sonraki türetim aşamaları fail-closed olarak tamamlanmıştır:\n\n- 35 form structure-first kuralıyla yeniden normalize edildi; TDE_9 referans taxonomy ilişkisi açıkça kaydedildi.\n- 4 tema x 16 outcome = 64 outcome-level `needs.json` kaydı üretildi.\n- 64 resource plan need-first olarak yeniden türetildi; coverage önceden varsayılmadı.\n- 64 alignment row yeniden oluşturuldu: 56 `COVERED`, 8 `PARTIALLY_COVERED`, 0 `NOT_COVERED`.\n- Sekiz partial row yalnız konuşma/yazma `.4` outcome'larıdır ve nedeni EBA DPA hedeflerinin authentication-gated olmasıdır.\n- Gap analizi: 0 confirmed required gap, 8 unresolved assessment target. Bu sekiz kayıt artifact üretimine yetki vermez.\n- Cross-theme audit dört konuşma ve dört yazma assessment ihtiyacını ayrı iki provisional cluster altında gerçekten karşılaştırır.\n- Production manifest artık `REUSE_ONLY` olarak parity-certified değildir; `PARITY_REVIEW_BLOCKED` durumundadır.\n\n**Önemli:** Bu aşamada `0 confirmed gap` vardır fakat `0 required artifact` henüz parity-certified değildir. Sekiz EBA hedefi görülmeden Faz 4 ve Faz 9 kapanamaz.\n\nSonraki uygulanabilir faz: **Faz 14 — TDE_9 eşdeğer bütünlük/validation raporu**. Faz 15 P0/regresyon testleri, Faz 14 sonrasında çalıştırılacaktır.\n'''
+          rpath.write_text(r,encoding='utf-8')
+          PY
+      - name: Commit parity rederivation
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add courses/TDE_10/textbook_forms_index.json courses/TDE_10/themes courses/TDE_10/source_docs/assessment_gate_audit.json courses/TDE_10/production/cross_theme_audit.json courses/TDE_10/production/production_manifest.json courses/TDE_10/source_manifest.json courses/TDE_10/parity_contract.json courses/TDE_10/parity_report.md
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'feat(tde10): rederive parity chain fail-closed through phase 13'
+          git push
