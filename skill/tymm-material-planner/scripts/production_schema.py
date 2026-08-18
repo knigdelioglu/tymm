@@ -4,11 +4,17 @@
 The canonical production identity is ``artifact_id``. Historical MAT_* gap IDs are
 accepted only as provenance/lookup aliases through ``covered_gap_instances`` and
 must never become assessment-artifact identities.
+
+Schema 1.1 also supports a verified reuse-only course state. An empty
+``production_queue`` is valid only when the manifest explicitly declares
+``production_mode=REUSE_ONLY_NO_NEW_ARTIFACTS`` and ``verified_resource_gap_count=0``.
+This prevents a no-gap course from being forced to invent a physical artifact.
 """
 
 from typing import Any, Dict, List, Tuple
 
 PRODUCTION_SCHEMA_VERSION = "1.1"
+REUSE_ONLY_MODE = "REUSE_ONLY_NO_NEW_ARTIFACTS"
 
 
 class ProductionSchemaError(ValueError):
@@ -42,8 +48,16 @@ def build_artifact_maps(
         )
 
     artifacts = manifest.get("production_queue", [])
-    if not isinstance(artifacts, list) or not artifacts:
-        raise ProductionSchemaError("PRODUCTION_SCHEMA_INVALID: production_queue must be a non-empty list.")
+    if not isinstance(artifacts, list):
+        raise ProductionSchemaError("PRODUCTION_SCHEMA_INVALID: production_queue must be a list.")
+    if not artifacts:
+        production_mode = manifest.get("production_mode")
+        verified_gap_count = manifest.get("verified_resource_gap_count")
+        if production_mode != REUSE_ONLY_MODE or verified_gap_count != 0:
+            raise ProductionSchemaError(
+                "PRODUCTION_SCHEMA_INVALID: empty production_queue requires "
+                f"production_mode='{REUSE_ONLY_MODE}' and verified_resource_gap_count=0."
+            )
 
     artifact_by_id: Dict[str, Dict[str, Any]] = {}
     gap_alias_to_artifact_id: Dict[str, str] = {}
@@ -104,5 +118,8 @@ def build_artifact_maps(
         raise ProductionSchemaError(
             f"GAP_PROVENANCE_INCOMPLETE: missing={missing}, extra={extra}."
         )
+
+    if not artifacts and provenance_by_gap:
+        raise ProductionSchemaError("PRODUCTION_SCHEMA_INVALID: reuse-only contract cannot contain gap provenance rows.")
 
     return artifacts, artifact_by_id, gap_alias_to_artifact_id, provenance_by_gap
