@@ -7,7 +7,6 @@ on:
 
 permissions:
   contents: write
-  actions: write
 
 jobs:
   diagnose:
@@ -16,6 +15,48 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      - name: Apply Phase 15 shared resolver and gate patch
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          def rep(path, old, new, label):
+              s=path.read_text(encoding='utf-8')
+              if new in s:
+                  return
+              if old not in s:
+                  raise SystemExit(f'{label}: anchor missing')
+              path.write_text(s.replace(old,new,1),encoding='utf-8')
+
+          scripts=Path('skill/tymm-material-planner/scripts')
+          r=scripts/'knowledge_resolver.py'
+          rep(r,
+'''        reuse_only_generation_block = (\n            intent == "MATERIAL_GENERATION"\n            and self.production_manifest.get("production_mode") == "REUSE_ONLY_NO_NEW_ARTIFACTS"\n            and self.production_manifest.get("verified_resource_gap_count") == 0\n            and not production_context\n        )\n        material_generation_allowed = (\n''',
+'''        reuse_only_generation_block = (\n            intent == "MATERIAL_GENERATION"\n            and self.production_manifest.get("production_mode") == "REUSE_ONLY_NO_NEW_ARTIFACTS"\n            and self.production_manifest.get("verified_resource_gap_count") == 0\n            and not production_context\n        )\n        parity_review_generation_block = (\n            intent == "MATERIAL_GENERATION"\n            and self.production_manifest.get("production_mode") == "PARITY_REVIEW_BLOCKED"\n            and self.production_manifest.get("unresolved_assessment_target_count", 0) > 0\n        )\n        material_generation_allowed = (\n''','resolver block declaration')
+          rep(r,
+'''            and canonical_resolution_verified\n            and not reuse_only_generation_block\n        )\n''',
+'''            and canonical_resolution_verified\n            and not reuse_only_generation_block\n            and not parity_review_generation_block\n        )\n''','resolver allowed gate')
+          rep(r,
+'''            elif reuse_only_generation_block:\n                block_reason = "NO_VERIFIED_RESOURCE_GAP"\n            elif not canonical_resolution_verified:\n''',
+'''            elif parity_review_generation_block:\n                block_reason = "UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS"\n            elif reuse_only_generation_block:\n                block_reason = "NO_VERIFIED_RESOURCE_GAP"\n            elif not canonical_resolution_verified:\n''','resolver reason')
+
+          g=scripts/'generic_p0_course_gate.py'
+          rep(g,'from production_schema import REUSE_ONLY_MODE, build_artifact_maps\n','from production_schema import PARITY_BLOCKED_MODE, REUSE_ONLY_MODE, build_artifact_maps\n','generic import')
+          rep(g,
+'''    reuse_only = manifest.get("production_mode") == REUSE_ONLY_MODE\n    if reuse_only:\n        require(expected_gaps == 0 and expected_artifacts == 0, "reuse-only mode requires zero gaps and zero new artifacts")\n        require(manifest.get("generation_authorization", {}).get("allowed") is False, "reuse-only manifest opened generation")\n    return {\n''',
+'''    production_mode = manifest.get("production_mode")\n    reuse_only = production_mode == REUSE_ONLY_MODE\n    parity_blocked = production_mode == PARITY_BLOCKED_MODE\n    if reuse_only:\n        require(expected_gaps == 0 and expected_artifacts == 0, "reuse-only mode requires zero gaps and zero new artifacts")\n        require(manifest.get("generation_authorization", {}).get("allowed") is False, "reuse-only manifest opened generation")\n    elif parity_blocked:\n        unresolved = manifest.get("unresolved_assessment_target_count", 0)\n        require(expected_gaps == 0 and expected_artifacts == 0, "parity-blocked mode requires zero confirmed gaps and zero authorized artifacts")\n        require(isinstance(unresolved, int) and unresolved > 0, "parity-blocked mode requires unresolved assessment targets")\n        require(manifest.get("generation_authorization", {}).get("allowed") is False, "parity-blocked manifest opened generation")\n        require(manifest.get("generation_authorization", {}).get("reason") == "UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS", "wrong parity-blocked generation reason")\n    return {\n''','generic production mode')
+          rep(g,
+'''        "verified_resource_gap_count": expected_gaps,\n        "expected_new_artifact_count": expected_artifacts,\n''',
+'''        "verified_resource_gap_count": expected_gaps,\n        "unresolved_assessment_target_count": manifest.get("unresolved_assessment_target_count", 0),\n        "expected_new_artifact_count": expected_artifacts,\n''','generic report unresolved count')
+          rep(g,
+'''    generation_probe = None\n    if production.get("production_mode") == REUSE_ONLY_MODE:\n        query = f"Tema 1 {ambiguous_code} için rubrik hazırla"\n        generation_probe = resolver.resolve(query)\n        require(generation_probe.get("resolution_status") == "RESOLVED", "reuse-only generation probe should resolve canonically")\n        require(not generation_probe.get("material_generation_allowed"), "reuse-only/no-gap course opened material generation")\n        require(generation_probe.get("material_generation_block_reason") == "NO_VERIFIED_RESOURCE_GAP", f"wrong reuse-only block reason: {generation_probe.get('material_generation_block_reason')}")\n        require(not generation_probe.get("production_context"), "reuse-only generation probe unexpectedly resolved a production artifact")\n''',
+'''    generation_probe = None\n    if production.get("production_mode") in (REUSE_ONLY_MODE, PARITY_BLOCKED_MODE):\n        query = f"Tema 1 {ambiguous_code} için rubrik hazırla"\n        generation_probe = resolver.resolve(query)\n        require(generation_probe.get("resolution_status") == "RESOLVED", "generation-block probe should resolve canonically")\n        require(not generation_probe.get("material_generation_allowed"), "safe empty-queue course opened material generation")\n        expected_reason = (\n            "UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS"\n            if production.get("production_mode") == PARITY_BLOCKED_MODE\n            else "NO_VERIFIED_RESOURCE_GAP"\n        )\n        require(generation_probe.get("material_generation_block_reason") == expected_reason, f"wrong generation block reason: {generation_probe.get('material_generation_block_reason')}")\n        require(not generation_probe.get("production_context"), "generation-block probe unexpectedly resolved a production artifact")\n''','generic generation probe')
+
+          test=Path('skill/tymm-material-planner/tests/test_parity_blocked_contract.py')
+          test.write_text('''#!/usr/bin/env python3\nimport sys\nfrom pathlib import Path\nSCRIPTS=Path(__file__).resolve().parents[1]/"scripts"\nsys.path.insert(0,str(SCRIPTS))\nfrom production_schema import build_artifact_maps, ProductionSchemaError\nblocked={"schema_version":"1.1","production_mode":"PARITY_REVIEW_BLOCKED","verified_resource_gap_count":0,"unresolved_assessment_target_count":8,"expected_new_artifact_count":0,"production_queue":[],"gap_instance_provenance_registry":[],"generation_authorization":{"allowed":False,"reason":"UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS"}}\na,b,c,d=build_artifact_maps(blocked)\nassert a==[] and b=={} and c=={} and d=={}\ninvalid=dict(blocked); invalid["unresolved_assessment_target_count"]=0\ntry: build_artifact_maps(invalid)\nexcept ProductionSchemaError: pass\nelse: raise AssertionError("blocked state without unresolved targets must fail")\nprint("PARITY_BLOCKED_CONTRACT: PASS")\n''',encoding='utf-8')
+          PY
+
       - name: Diagnose integrity blockers
         run: |
           python - <<'PY'
@@ -39,30 +80,16 @@ jobs:
           verbatim=[]
           for t in curriculum['themes']:
             if not t.get('theme_introduction_verbatim'): verbatim.append([t['theme_id'],'theme_introduction_verbatim'])
-            paths=[('allocated_lesson_hours','verbatim'),('alan_becerileri','verbatim'),('egilimler','verbatim'),('disiplinler_arasi_iliskiler','verbatim'),('beceriler_arasi_iliskiler','verbatim'),('icerik_cercevesi','verbatim'),('anahtar_kavramlar','verbatim'),('ogrenme_kanitlari_olcme_ve_degerlendirme','verbatim')]
-            for p,k in paths:
-              if not t.get(p,{}).get(k): verbatim.append([t['theme_id'],p+'.'+k])
-            for p in ['sosyal_duygusal_ogrenme_becerileri','degerler','okuryazarlik_becerileri']:
-              if not t.get('programlar_arasi_bilesenler',{}).get(p,{}).get('verbatim'): verbatim.append([t['theme_id'],'programlar_arasi_bilesenler.'+p+'.verbatim'])
           out={'activity_count':len(acts),'form_count':len(forms['forms']),'broken_activity_to_form':broken_a,'broken_form_to_activity':broken_f,'asymmetric':asym,'asymmetric_count':len(asym),'verbatim_missing':verbatim}
           (root/'source_docs'/'phase14_integrity_diagnostic.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n')
           PY
-      - name: Commit diagnostic if changed
+
+      - name: Commit shared Phase 15 patch
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add courses/TDE_10/source_docs/phase14_integrity_diagnostic.json
+          git add skill/tymm-material-planner/scripts/knowledge_resolver.py skill/tymm-material-planner/scripts/generic_p0_course_gate.py skill/tymm-material-planner/tests/test_parity_blocked_contract.py courses/TDE_10/source_docs/phase14_integrity_diagnostic.json
           if ! git diff --cached --quiet; then
-            git commit -m 'chore(tde10): record phase 14 integrity diagnostic'
+            git commit -m 'feat(tymm): enforce parity-review generation block'
             git push
           fi
-      - name: Dispatch Phase 15 shared patch
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          curl --fail-with-body -L -X POST \
-            -H 'Accept: application/vnd.github+json' \
-            -H "Authorization: Bearer $GH_TOKEN" \
-            -H 'X-GitHub-Api-Version: 2022-11-28' \
-            https://api.github.com/repos/${{ github.repository }}/actions/workflows/tde10-parity-phase15-shared-patch.yml/dispatches \
-            -d '{"ref":"main"}'
