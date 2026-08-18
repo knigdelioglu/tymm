@@ -1,0 +1,159 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_10",
+  "grade": 10,
+  "theme_id": "TEMA_02",
+  "theme_no": 2,
+  "theme_title": "2. TEMA: KELİMELERİN RİTMİ",
+  "summary": {
+    "total_planned_items": 4,
+    "required_count": 0,
+    "recommended_count": 0,
+    "optional_count": 0,
+    "not_needed_count": 4,
+    "reuse_textbook_count": 4,
+    "production_decisions": {
+      "REUSE_TEXTBOOK": 4,
+      "GENERATE": 0,
+      "NO_ACTION": 0
+    },
+    "alignment_status": "PASS"
+  },
+  "resources": [
+    {
+      "resource_plan_id": "PLAN_T10_T2_DINLEME",
+      "need_id": "NEED_T10_T2_DINLEME",
+      "resource_type": "reuse_official_textbook_path",
+      "target_outcomes": [
+        "TDE1.1",
+        "TDE1.2",
+        "TDE1.3",
+        "TDE1.4"
+      ],
+      "purpose": "Tema, dinleme/izleme metnini dil, dönem ve toplum bağlamında çözümlemeyi ve öğrencinin kendi değerlendirmesini görünür kılmayı gerektirir.",
+      "expected_student_evidence": "Dinleme notları, açık uçlu cevaplar, gözlem/karşılaştırma kayıtları ve yansıtıcı yazı.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T2_SEC_04_DINLEME_SOYLESI"
+      ],
+      "textbook_activity_ids": [
+        "T2_ACT_11_SOYLESI_HAZIRLIK",
+        "T2_ACT_12_SOYLESI_ANLAM",
+        "T2_ACT_13_SOYLESI_COZUMLEME",
+        "T2_ACT_14_SOYLESI_YANSITMA"
+      ],
+      "textbook_form_ids": [],
+      "textbook_resource_locator": "s.84-153",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T2_OKUMA",
+      "need_id": "NEED_T10_T2_OKUMA",
+      "resource_type": "reuse_official_textbook_path",
+      "target_outcomes": [
+        "TDE2.1",
+        "TDE2.2",
+        "TDE2.3",
+        "TDE2.4"
+      ],
+      "purpose": "Tema, şiir estetiğindeki tarihsel değişimi ritim, ahenk ve söz varlığı kanıtlarıyla karşılaştırmalı olarak yapılandırmayı gerektirir.",
+      "expected_student_evidence": "Kavram haritası, bilgi görseli, karşılaştırma tablosu, çalışma kâğıdı, açık uçlu/kısa cevaplı tahlil cevapları ve öğrenme günlüğü.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T2_SEC_01_OKUMA_GAZEL",
+        "T2_SEC_02_OKUMA_SAF_SIIR"
+      ],
+      "textbook_activity_ids": [
+        "T2_ACT_01_GAZEL_HAZIRLIK",
+        "T2_ACT_02_GAZEL_ANLAM",
+        "T2_ACT_03_GAZEL_COZUMLEME",
+        "T2_ACT_04_GAZEL_YANSITMA",
+        "T2_ACT_05_SAF_SIIR_HAZIRLIK",
+        "T2_ACT_06_KALDIRIMLAR_TAHLIL",
+        "T2_ACT_07_SIIR_KARSILASTIRMA"
+      ],
+      "textbook_form_ids": [
+        "FORM_T2_GAZEL_GUNLUK"
+      ],
+      "textbook_resource_locator": "s.84-153",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T2_KONUSMA",
+      "need_id": "NEED_T10_T2_KONUSMA",
+      "resource_type": "reuse_official_textbook_path",
+      "target_outcomes": [
+        "TDE3.1",
+        "TDE3.2",
+        "TDE3.3",
+        "TDE3.4"
+      ],
+      "purpose": "Program doğrudan bir podcast performansı istediğinden araştırma, içerik sentezi, sesli sunum ve rubrik değerlendirmesi zorunlu instructional evidence alanlarıdır.",
+      "expected_student_evidence": "Araştırma notları, podcast planı/senaryosu, ses kaydı veya canlı sunum, kaynak/provenance kaydı ve rubrik değerlendirmesi.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T2_SEC_05_KONUSMA_PODCAST"
+      ],
+      "textbook_activity_ids": [
+        "T2_ACT_15_PODCAST_PLAN",
+        "T2_ACT_16_PODCAST_URETIM",
+        "T2_ACT_17_PODCAST_YANSITMA"
+      ],
+      "textbook_form_ids": [
+        "FORM_T2_PODCAST_YANSITMA",
+        "LINK_T2_PODCAST_DPA"
+      ],
+      "textbook_resource_locator": "s.84-153",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T2_YAZMA",
+      "need_id": "NEED_T10_T2_YAZMA",
+      "resource_type": "reuse_official_textbook_path",
+      "target_outcomes": [
+        "TDE4.1",
+        "TDE4.2",
+        "TDE4.3",
+        "TDE4.4"
+      ],
+      "purpose": "Program, bilgi metninden edebî ürüne dönüşümü açık bir performans görevi olarak tanımlar; ürünün süreç ve rubrik kanıtlarıyla izlenmesi gerekir.",
+      "expected_student_evidence": "Kaynak bilgilendirici metin işaretlemeleri, dönüşüm planı, taslak, düzenlenmiş edebî metin ve değerlendirme kayıtları.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T2_SEC_03_YAZMA_DONUSTURME"
+      ],
+      "textbook_activity_ids": [
+        "T2_ACT_08_YAZMA_PLAN",
+        "T2_ACT_09_METIN_DONUSTURME",
+        "T2_ACT_10_YAZMA_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T2_YAZMA_AKRAN",
+        "FORM_T2_YAZMA_KONTROL",
+        "LINK_T2_YAZMA_DPA"
+      ],
+      "textbook_resource_locator": "s.84-153",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    }
+  ]
+}

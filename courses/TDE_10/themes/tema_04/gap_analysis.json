@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "course_id": "TDE_10",
   "grade": 10,
-  "theme_id": "TEMA_01",
-  "theme_no": 1,
-  "theme_title": "1. TEMA: SÖZÜN EZGİSİ",
+  "theme_id": "TEMA_04",
+  "theme_no": 4,
+  "theme_title": "4. TEMA: NESİLLERİN MİRASI",
   "analysis_status": "PASS_NO_VERIFIED_RESOURCE_GAPS",
   "total_outcomes_analyzed": 16,
   "summary_metrics": {
@@ -20,20 +20,21 @@
   },
   "gap_records": [
     {
-      "gap_id": "GAP_T10_T1_TDE1_1",
-      "need_id": "NEED_T10_T1_DINLEME",
-      "resource_plan_id": "PLAN_T10_T1_DINLEME",
+      "gap_id": "GAP_T10_T4_TDE1_1",
+      "need_id": "NEED_T10_T4_DINLEME",
+      "resource_plan_id": "PLAN_T10_T4_DINLEME",
       "outcome_code": "TDE1.1",
       "textbook_activity_ids": [
-        "T1_ACT_11_MASAL_HAZIRLIK",
-        "T1_ACT_12_MERCAN_KIZ_TAHLIL",
-        "T1_ACT_13_MASAL_YANSITMA"
+        "T4_ACT_12_HIKAYE_DINLEME_HAZIRLIK",
+        "T4_ACT_13_KAC_YERINDEN_ANLAM",
+        "T4_ACT_14_HIKAYE_COZUMLEME",
+        "T4_ACT_15_HIKAYE_OZ_DEGERLENDIRME"
       ],
       "textbook_form_ids": [
-        "FORM_T1_MASAL_OZ"
+        "FORM_T4_DINLEME_OZ"
       ],
       "textbook_locators": [
-        "s.10-83"
+        "s.234-310"
       ],
       "observed_textbook_structure": "Direct local MEB PDF mapping provides the planned section/activity path and expected student evidence. Performance assessment links are present where required.",
       "primary_coverage": "COVERED",
@@ -43,25 +44,26 @@
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
       "provenance": {
-        "program_locator": "curriculum_map.json#TEMA_01/TDE1.1",
-        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.10-83"
+        "program_locator": "curriculum_map.json#TEMA_04/TDE1.1",
+        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.234-310"
       }
     },
     {
-      "gap_id": "GAP_T10_T1_TDE1_2",
-      "need_id": "NEED_T10_T1_DINLEME",
-      "resource_plan_id": "PLAN_T10_T1_DINLEME",
+      "gap_id": "GAP_T10_T4_TDE1_2",
+      "need_id": "NEED_T10_T4_DINLEME",
+      "resource_plan_id": "PLAN_T10_T4_DINLEME",
       "outcome_code": "TDE1.2",
       "textbook_activity_ids": [
-        "T1_ACT_11_MASAL_HAZIRLIK",
-        "T1_ACT_12_MERCAN_KIZ_TAHLIL",
-        "T1_ACT_13_MASAL_YANSITMA"
+        "T4_ACT_12_HIKAYE_DINLEME_HAZIRLIK",
+        "T4_ACT_13_KAC_YERINDEN_ANLAM",
+        "T4_ACT_14_HIKAYE_COZUMLEME",
+        "T4_ACT_15_HIKAYE_OZ_DEGERLENDIRME"
       ],
       "textbook_form_ids": [
-        "FORM_T1_MASAL_OZ"
+        "FORM_T4_DINLEME_OZ"
       ],
       "textbook_locators": [
-        "s.10-83"
+        "s.234-310"
       ],
       "observed_textbook_structure": "Direct local MEB PDF mapping provides the planned section/activity path and expected student evidence. Performance assessment links are present where required.",
       "primary_coverage": "COVERED",
@@ -71,25 +73,26 @@
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
       "provenance": {
-        "program_locator": "curriculum_map.json#TEMA_01/TDE1.2",
-        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.10-83"
+        "program_locator": "curriculum_map.json#TEMA_04/TDE1.2",
+        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.234-310"
       }
     },
     {
-      "gap_id": "GAP_T10_T1_TDE1_3",
-      "need_id": "NEED_T10_T1_DINLEME",
-      "resource_plan_id": "PLAN_T10_T1_DINLEME",
+      "gap_id": "GAP_T10_T4_TDE1_3",
+      "need_id": "NEED_T10_T4_DINLEME",
+      "resource_plan_id": "PLAN_T10_T4_DINLEME",
       "outcome_code": "TDE1.3",
       "textbook_activity_ids": [
-        "T1_ACT_11_MASAL_HAZIRLIK",
-        "T1_ACT_12_MERCAN_KIZ_TAHLIL",
-        "T1_ACT_13_MASAL_YANSITMA"
+        "T4_ACT_12_HIKAYE_DINLEME_HAZIRLIK",
+        "T4_ACT_13_KAC_YERINDEN_ANLAM",
+        "T4_ACT_14_HIKAYE_COZUMLEME",
+        "T4_ACT_15_HIKAYE_OZ_DEGERLENDIRME"
       ],
       "textbook_form_ids": [
-        "FORM_T1_MASAL_OZ"
+        "FORM_T4_DINLEME_OZ"
       ],
       "textbook_locators": [
-        "s.10-83"
+        "s.234-310"
       ],
       "observed_textbook_structure": "Direct local MEB PDF mapping provides the planned section/activity path and expected student evidence. Performance assessment links are present where required.",
       "primary_coverage": "COVERED",
@@ -99,25 +102,26 @@
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
       "provenance": {
-        "program_locator": "curriculum_map.json#TEMA_01/TDE1.3",
-        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.10-83"
+        "program_locator": "curriculum_map.json#TEMA_04/TDE1.3",
+        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.234-310"
       }
     },
     {
-      "gap_id": "GAP_T10_T1_TDE1_4",
-      "need_id": "NEED_T10_T1_DINLEME",
-      "resource_plan_id": "PLAN_T10_T1_DINLEME",
+      "gap_id": "GAP_T10_T4_TDE1_4",
+      "need_id": "NEED_T10_T4_DINLEME",
+      "resource_plan_id": "PLAN_T10_T4_DINLEME",
       "outcome_code": "TDE1.4",
       "textbook_activity_ids": [
-        "T1_ACT_11_MASAL_HAZIRLIK",
-        "T1_ACT_12_MERCAN_KIZ_TAHLIL",
-        "T1_ACT_13_MASAL_YANSITMA"
+        "T4_ACT_12_HIKAYE_DINLEME_HAZIRLIK",
+        "T4_ACT_13_KAC_YERINDEN_ANLAM",
+        "T4_ACT_14_HIKAYE_COZUMLEME",
+        "T4_ACT_15_HIKAYE_OZ_DEGERLENDIRME"
       ],
       "textbook_form_ids": [
-        "FORM_T1_MASAL_OZ"
+        "FORM_T4_DINLEME_OZ"
       ],
       "textbook_locators": [
-        "s.10-83"
+        "s.234-310"
       ],
       "observed_textbook_structure": "Direct local MEB PDF mapping provides the planned section/activity path and expected student evidence. Performance assessment links are present where required.",
       "primary_coverage": "COVERED",
@@ -127,29 +131,30 @@
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
       "provenance": {
-        "program_locator": "curriculum_map.json#TEMA_01/TDE1.4",
-        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.10-83"
+        "program_locator": "curriculum_map.json#TEMA_04/TDE1.4",
+        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.234-310"
       }
     },
     {
-      "gap_id": "GAP_T10_T1_TDE2_1",
-      "need_id": "NEED_T10_T1_OKUMA",
-      "resource_plan_id": "PLAN_T10_T1_OKUMA",
+      "gap_id": "GAP_T10_T4_TDE2_1",
+      "need_id": "NEED_T10_T4_OKUMA",
+      "resource_plan_id": "PLAN_T10_T4_OKUMA",
       "outcome_code": "TDE2.1",
       "textbook_activity_ids": [
-        "T1_ACT_01_KOSUK_HAZIRLIK",
-        "T1_ACT_02_KOSUK_ANLAM",
-        "T1_ACT_03_KOSUK_COZUMLEME",
-        "T1_ACT_04_KOSUK_YANSITMA",
-        "T1_ACT_05_TURKU_HAZIRLIK",
-        "T1_ACT_06_TURKU_TAHLIL",
-        "T1_ACT_07_TURKU_CANLANDIRMA"
+        "T4_ACT_01_DEDE_KORKUT_HAZIRLIK",
+        "T4_ACT_02_SALUR_KAZAN_ANLAM",
+        "T4_ACT_03_DEDE_KORKUT_COZUMLEME",
+        "T4_ACT_04_DEDE_KORKUT_KARSILASTIRMA",
+        "T4_ACT_05_TANZIMAT_HAZIRLIK",
+        "T4_ACT_06_HURRIYET_KASIDESI_TAHLIL",
+        "T4_ACT_07_TANZIMAT_KARSILASTIRMA",
+        "T4_ACT_08_TANZIMAT_YANSITMA"
       ],
       "textbook_form_ids": [
-        "FORM_T1_EXIT_321"
+        "FORM_T4_OKUMA_GUNLUK"
       ],
       "textbook_locators": [
-        "s.10-83"
+        "s.234-310"
       ],
       "observed_textbook_structure": "Direct local MEB PDF mapping provides the planned section/activity path and expected student evidence. Performance assessment links are present where required.",
       "primary_coverage": "COVERED",
@@ -159,29 +164,30 @@
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
       "provenance": {
-        "program_locator": "curriculum_map.json#TEMA_01/TDE2.1",
-        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.10-83"
+        "program_locator": "curriculum_map.json#TEMA_04/TDE2.1",
+        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.234-310"
       }
     },
     {
-      "gap_id": "GAP_T10_T1_TDE2_2",
-      "need_id": "NEED_T10_T1_OKUMA",
-      "resource_plan_id": "PLAN_T10_T1_OKUMA",
+      "gap_id": "GAP_T10_T4_TDE2_2",
+      "need_id": "NEED_T10_T4_OKUMA",
+      "resource_plan_id": "PLAN_T10_T4_OKUMA",
       "outcome_code": "TDE2.2",
       "textbook_activity_ids": [
-        "T1_ACT_01_KOSUK_HAZIRLIK",
-        "T1_ACT_02_KOSUK_ANLAM",
-        "T1_ACT_03_KOSUK_COZUMLEME",
-        "T1_ACT_04_KOSUK_YANSITMA",
-        "T1_ACT_05_TURKU_HAZIRLIK",
-        "T1_ACT_06_TURKU_TAHLIL",
-        "T1_ACT_07_TURKU_CANLANDIRMA"
+        "T4_ACT_01_DEDE_KORKUT_HAZIRLIK",
+        "T4_ACT_02_SALUR_KAZAN_ANLAM",
+        "T4_ACT_03_DEDE_KORKUT_COZUMLEME",
+        "T4_ACT_04_DEDE_KORKUT_KARSILASTIRMA",
+        "T4_ACT_05_TANZIMAT_HAZIRLIK",
+        "T4_ACT_06_HURRIYET_KASIDESI_TAHLIL",
+        "T4_ACT_07_TANZIMAT_KARSILASTIRMA",
+        "T4_ACT_08_TANZIMAT_YANSITMA"
       ],
       "textbook_form_ids": [
-        "FORM_T1_EXIT_321"
+        "FORM_T4_OKUMA_GUNLUK"
       ],
       "textbook_locators": [
-        "s.10-83"
+        "s.234-310"
       ],
       "observed_textbook_structure": "Direct local MEB PDF mapping provides the planned section/activity path and expected student evidence. Performance assessment links are present where required.",
       "primary_coverage": "COVERED",
@@ -191,29 +197,30 @@
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
       "provenance": {
-        "program_locator": "curriculum_map.json#TEMA_01/TDE2.2",
-        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.10-83"
+        "program_locator": "curriculum_map.json#TEMA_04/TDE2.2",
+        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.234-310"
       }
     },
     {
-      "gap_id": "GAP_T10_T1_TDE2_3",
-      "need_id": "NEED_T10_T1_OKUMA",
-      "resource_plan_id": "PLAN_T10_T1_OKUMA",
+      "gap_id": "GAP_T10_T4_TDE2_3",
+      "need_id": "NEED_T10_T4_OKUMA",
+      "resource_plan_id": "PLAN_T10_T4_OKUMA",
       "outcome_code": "TDE2.3",
       "textbook_activity_ids": [
-        "T1_ACT_01_KOSUK_HAZIRLIK",
-        "T1_ACT_02_KOSUK_ANLAM",
-        "T1_ACT_03_KOSUK_COZUMLEME",
-        "T1_ACT_04_KOSUK_YANSITMA",
-        "T1_ACT_05_TURKU_HAZIRLIK",
-        "T1_ACT_06_TURKU_TAHLIL",
-        "T1_ACT_07_TURKU_CANLANDIRMA"
+        "T4_ACT_01_DEDE_KORKUT_HAZIRLIK",
+        "T4_ACT_02_SALUR_KAZAN_ANLAM",
+        "T4_ACT_03_DEDE_KORKUT_COZUMLEME",
+        "T4_ACT_04_DEDE_KORKUT_KARSILASTIRMA",
+        "T4_ACT_05_TANZIMAT_HAZIRLIK",
+        "T4_ACT_06_HURRIYET_KASIDESI_TAHLIL",
+        "T4_ACT_07_TANZIMAT_KARSILASTIRMA",
+        "T4_ACT_08_TANZIMAT_YANSITMA"
       ],
       "textbook_form_ids": [
-        "FORM_T1_EXIT_321"
+        "FORM_T4_OKUMA_GUNLUK"
       ],
       "textbook_locators": [
-        "s.10-83"
+        "s.234-310"
       ],
       "observed_textbook_structure": "Direct local MEB PDF mapping provides the planned section/activity path and expected student evidence. Performance assessment links are present where required.",
       "primary_coverage": "COVERED",
@@ -223,29 +230,30 @@
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
       "provenance": {
-        "program_locator": "curriculum_map.json#TEMA_01/TDE2.3",
-        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.10-83"
+        "program_locator": "curriculum_map.json#TEMA_04/TDE2.3",
+        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.234-310"
       }
     },
     {
-      "gap_id": "GAP_T10_T1_TDE2_4",
-      "need_id": "NEED_T10_T1_OKUMA",
-      "resource_plan_id": "PLAN_T10_T1_OKUMA",
+      "gap_id": "GAP_T10_T4_TDE2_4",
+      "need_id": "NEED_T10_T4_OKUMA",
+      "resource_plan_id": "PLAN_T10_T4_OKUMA",
       "outcome_code": "TDE2.4",
       "textbook_activity_ids": [
-        "T1_ACT_01_KOSUK_HAZIRLIK",
-        "T1_ACT_02_KOSUK_ANLAM",
-        "T1_ACT_03_KOSUK_COZUMLEME",
-        "T1_ACT_04_KOSUK_YANSITMA",
-        "T1_ACT_05_TURKU_HAZIRLIK",
-        "T1_ACT_06_TURKU_TAHLIL",
-        "T1_ACT_07_TURKU_CANLANDIRMA"
+        "T4_ACT_01_DEDE_KORKUT_HAZIRLIK",
+        "T4_ACT_02_SALUR_KAZAN_ANLAM",
+        "T4_ACT_03_DEDE_KORKUT_COZUMLEME",
+        "T4_ACT_04_DEDE_KORKUT_KARSILASTIRMA",
+        "T4_ACT_05_TANZIMAT_HAZIRLIK",
+        "T4_ACT_06_HURRIYET_KASIDESI_TAHLIL",
+        "T4_ACT_07_TANZIMAT_KARSILASTIRMA",
+        "T4_ACT_08_TANZIMAT_YANSITMA"
       ],
       "textbook_form_ids": [
-        "FORM_T1_EXIT_321"
+        "FORM_T4_OKUMA_GUNLUK"
       ],
       "textbook_locators": [
-        "s.10-83"
+        "s.234-310"
       ],
       "observed_textbook_structure": "Direct local MEB PDF mapping provides the planned section/activity path and expected student evidence. Performance assessment links are present where required.",
       "primary_coverage": "COVERED",
@@ -255,26 +263,27 @@
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
       "provenance": {
-        "program_locator": "curriculum_map.json#TEMA_01/TDE2.4",
-        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.10-83"
+        "program_locator": "curriculum_map.json#TEMA_04/TDE2.4",
+        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.234-310"
       }
     },
     {
-      "gap_id": "GAP_T10_T1_TDE3_1",
-      "need_id": "NEED_T10_T1_KONUSMA",
-      "resource_plan_id": "PLAN_T10_T1_KONUSMA",
+      "gap_id": "GAP_T10_T4_TDE3_1",
+      "need_id": "NEED_T10_T4_KONUSMA",
+      "resource_plan_id": "PLAN_T10_T4_KONUSMA",
       "outcome_code": "TDE3.1",
       "textbook_activity_ids": [
-        "T1_ACT_08_SIIR_DINLETISI_PLAN",
-        "T1_ACT_09_SIIR_DINLETISI_SUNUM",
-        "T1_ACT_10_KONUSMA_DEGERLENDIRME"
+        "T4_ACT_09_CANLANDIRMA_PLAN",
+        "T4_ACT_10_CANLANDIRMA_SUNUM",
+        "T4_ACT_11_CANLANDIRMA_DEGERLENDIRME"
       ],
       "textbook_form_ids": [
-        "FORM_T1_KONUSMA_AKRAN",
-        "LINK_T1_KONUSMA_DPA"
+        "FORM_T4_KONUSMA_AKRAN",
+        "FORM_T4_KONUSMA_OZ",
+        "LINK_T4_KONUSMA_DPA"
       ],
       "textbook_locators": [
-        "s.10-83"
+        "s.234-310"
       ],
       "observed_textbook_structure": "Direct local MEB PDF mapping provides the planned section/activity path and expected student evidence. Performance assessment links are present where required.",
       "primary_coverage": "COVERED",
@@ -284,26 +293,27 @@
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
       "provenance": {
-        "program_locator": "curriculum_map.json#TEMA_01/TDE3.1",
-        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.10-83"
+        "program_locator": "curriculum_map.json#TEMA_04/TDE3.1",
+        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.234-310"
       }
     },
     {
-      "gap_id": "GAP_T10_T1_TDE3_2",
-      "need_id": "NEED_T10_T1_KONUSMA",
-      "resource_plan_id": "PLAN_T10_T1_KONUSMA",
+      "gap_id": "GAP_T10_T4_TDE3_2",
+      "need_id": "NEED_T10_T4_KONUSMA",
+      "resource_plan_id": "PLAN_T10_T4_KONUSMA",
       "outcome_code": "TDE3.2",
       "textbook_activity_ids": [
-        "T1_ACT_08_SIIR_DINLETISI_PLAN",
-        "T1_ACT_09_SIIR_DINLETISI_SUNUM",
-        "T1_ACT_10_KONUSMA_DEGERLENDIRME"
+        "T4_ACT_09_CANLANDIRMA_PLAN",
+        "T4_ACT_10_CANLANDIRMA_SUNUM",
+        "T4_ACT_11_CANLANDIRMA_DEGERLENDIRME"
       ],
       "textbook_form_ids": [
-        "FORM_T1_KONUSMA_AKRAN",
-        "LINK_T1_KONUSMA_DPA"
+        "FORM_T4_KONUSMA_AKRAN",
+        "FORM_T4_KONUSMA_OZ",
+        "LINK_T4_KONUSMA_DPA"
       ],
       "textbook_locators": [
-        "s.10-83"
+        "s.234-310"
       ],
       "observed_textbook_structure": "Direct local MEB PDF mapping provides the planned section/activity path and expected student evidence. Performance assessment links are present where required.",
       "primary_coverage": "COVERED",
@@ -313,26 +323,27 @@
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
       "provenance": {
-        "program_locator": "curriculum_map.json#TEMA_01/TDE3.2",
-        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.10-83"
+        "program_locator": "curriculum_map.json#TEMA_04/TDE3.2",
+        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.234-310"
       }
     },
     {
-      "gap_id": "GAP_T10_T1_TDE3_3",
-      "need_id": "NEED_T10_T1_KONUSMA",
-      "resource_plan_id": "PLAN_T10_T1_KONUSMA",
+      "gap_id": "GAP_T10_T4_TDE3_3",
+      "need_id": "NEED_T10_T4_KONUSMA",
+      "resource_plan_id": "PLAN_T10_T4_KONUSMA",
       "outcome_code": "TDE3.3",
       "textbook_activity_ids": [
-        "T1_ACT_08_SIIR_DINLETISI_PLAN",
-        "T1_ACT_09_SIIR_DINLETISI_SUNUM",
-        "T1_ACT_10_KONUSMA_DEGERLENDIRME"
+        "T4_ACT_09_CANLANDIRMA_PLAN",
+        "T4_ACT_10_CANLANDIRMA_SUNUM",
+        "T4_ACT_11_CANLANDIRMA_DEGERLENDIRME"
       ],
       "textbook_form_ids": [
-        "FORM_T1_KONUSMA_AKRAN",
-        "LINK_T1_KONUSMA_DPA"
+        "FORM_T4_KONUSMA_AKRAN",
+        "FORM_T4_KONUSMA_OZ",
+        "LINK_T4_KONUSMA_DPA"
       ],
       "textbook_locators": [
-        "s.10-83"
+        "s.234-310"
       ],
       "observed_textbook_structure": "Direct local MEB PDF mapping provides the planned section/activity path and expected student evidence. Performance assessment links are present where required.",
       "primary_coverage": "COVERED",
@@ -342,26 +353,27 @@
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
       "provenance": {
-        "program_locator": "curriculum_map.json#TEMA_01/TDE3.3",
-        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.10-83"
+        "program_locator": "curriculum_map.json#TEMA_04/TDE3.3",
+        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.234-310"
       }
     },
     {
-      "gap_id": "GAP_T10_T1_TDE3_4",
-      "need_id": "NEED_T10_T1_KONUSMA",
-      "resource_plan_id": "PLAN_T10_T1_KONUSMA",
+      "gap_id": "GAP_T10_T4_TDE3_4",
+      "need_id": "NEED_T10_T4_KONUSMA",
+      "resource_plan_id": "PLAN_T10_T4_KONUSMA",
       "outcome_code": "TDE3.4",
       "textbook_activity_ids": [
-        "T1_ACT_08_SIIR_DINLETISI_PLAN",
-        "T1_ACT_09_SIIR_DINLETISI_SUNUM",
-        "T1_ACT_10_KONUSMA_DEGERLENDIRME"
+        "T4_ACT_09_CANLANDIRMA_PLAN",
+        "T4_ACT_10_CANLANDIRMA_SUNUM",
+        "T4_ACT_11_CANLANDIRMA_DEGERLENDIRME"
       ],
       "textbook_form_ids": [
-        "FORM_T1_KONUSMA_AKRAN",
-        "LINK_T1_KONUSMA_DPA"
+        "FORM_T4_KONUSMA_AKRAN",
+        "FORM_T4_KONUSMA_OZ",
+        "LINK_T4_KONUSMA_DPA"
       ],
       "textbook_locators": [
-        "s.10-83"
+        "s.234-310"
       ],
       "observed_textbook_structure": "Direct local MEB PDF mapping provides the planned section/activity path and expected student evidence. Performance assessment links are present where required.",
       "primary_coverage": "COVERED",
@@ -371,27 +383,27 @@
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
       "provenance": {
-        "program_locator": "curriculum_map.json#TEMA_01/TDE3.4",
-        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.10-83"
+        "program_locator": "curriculum_map.json#TEMA_04/TDE3.4",
+        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.234-310"
       }
     },
     {
-      "gap_id": "GAP_T10_T1_TDE4_1",
-      "need_id": "NEED_T10_T1_YAZMA",
-      "resource_plan_id": "PLAN_T10_T1_YAZMA",
+      "gap_id": "GAP_T10_T4_TDE4_1",
+      "need_id": "NEED_T10_T4_YAZMA",
+      "resource_plan_id": "PLAN_T10_T4_YAZMA",
       "outcome_code": "TDE4.1",
       "textbook_activity_ids": [
-        "T1_ACT_14_FILM_SERIDI_PLAN",
-        "T1_ACT_15_FILM_SERIDI_URETIM",
-        "T1_ACT_16_FILM_SERIDI_DEGERLENDIRME"
+        "T4_ACT_16_SIIR_DONUSUM_PLAN",
+        "T4_ACT_17_SIIR_DONUSUM_YAZMA",
+        "T4_ACT_18_SIIR_DEGERLENDIRME"
       ],
       "textbook_form_ids": [
-        "FORM_T1_YAZMA_KONTROL",
-        "FORM_T1_YAZMA_AKRAN",
-        "LINK_T1_YAZMA_DPA"
+        "FORM_T4_YAZMA_AKRAN",
+        "FORM_T4_YAZMA_KONTROL",
+        "LINK_T4_YAZMA_DPA"
       ],
       "textbook_locators": [
-        "s.10-83"
+        "s.234-310"
       ],
       "observed_textbook_structure": "Direct local MEB PDF mapping provides the planned section/activity path and expected student evidence. Performance assessment links are present where required.",
       "primary_coverage": "COVERED",
@@ -401,27 +413,27 @@
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
       "provenance": {
-        "program_locator": "curriculum_map.json#TEMA_01/TDE4.1",
-        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.10-83"
+        "program_locator": "curriculum_map.json#TEMA_04/TDE4.1",
+        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.234-310"
       }
     },
     {
-      "gap_id": "GAP_T10_T1_TDE4_2",
-      "need_id": "NEED_T10_T1_YAZMA",
-      "resource_plan_id": "PLAN_T10_T1_YAZMA",
+      "gap_id": "GAP_T10_T4_TDE4_2",
+      "need_id": "NEED_T10_T4_YAZMA",
+      "resource_plan_id": "PLAN_T10_T4_YAZMA",
       "outcome_code": "TDE4.2",
       "textbook_activity_ids": [
-        "T1_ACT_14_FILM_SERIDI_PLAN",
-        "T1_ACT_15_FILM_SERIDI_URETIM",
-        "T1_ACT_16_FILM_SERIDI_DEGERLENDIRME"
+        "T4_ACT_16_SIIR_DONUSUM_PLAN",
+        "T4_ACT_17_SIIR_DONUSUM_YAZMA",
+        "T4_ACT_18_SIIR_DEGERLENDIRME"
       ],
       "textbook_form_ids": [
-        "FORM_T1_YAZMA_KONTROL",
-        "FORM_T1_YAZMA_AKRAN",
-        "LINK_T1_YAZMA_DPA"
+        "FORM_T4_YAZMA_AKRAN",
+        "FORM_T4_YAZMA_KONTROL",
+        "LINK_T4_YAZMA_DPA"
       ],
       "textbook_locators": [
-        "s.10-83"
+        "s.234-310"
       ],
       "observed_textbook_structure": "Direct local MEB PDF mapping provides the planned section/activity path and expected student evidence. Performance assessment links are present where required.",
       "primary_coverage": "COVERED",
@@ -431,27 +443,27 @@
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
       "provenance": {
-        "program_locator": "curriculum_map.json#TEMA_01/TDE4.2",
-        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.10-83"
+        "program_locator": "curriculum_map.json#TEMA_04/TDE4.2",
+        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.234-310"
       }
     },
     {
-      "gap_id": "GAP_T10_T1_TDE4_3",
-      "need_id": "NEED_T10_T1_YAZMA",
-      "resource_plan_id": "PLAN_T10_T1_YAZMA",
+      "gap_id": "GAP_T10_T4_TDE4_3",
+      "need_id": "NEED_T10_T4_YAZMA",
+      "resource_plan_id": "PLAN_T10_T4_YAZMA",
       "outcome_code": "TDE4.3",
       "textbook_activity_ids": [
-        "T1_ACT_14_FILM_SERIDI_PLAN",
-        "T1_ACT_15_FILM_SERIDI_URETIM",
-        "T1_ACT_16_FILM_SERIDI_DEGERLENDIRME"
+        "T4_ACT_16_SIIR_DONUSUM_PLAN",
+        "T4_ACT_17_SIIR_DONUSUM_YAZMA",
+        "T4_ACT_18_SIIR_DEGERLENDIRME"
       ],
       "textbook_form_ids": [
-        "FORM_T1_YAZMA_KONTROL",
-        "FORM_T1_YAZMA_AKRAN",
-        "LINK_T1_YAZMA_DPA"
+        "FORM_T4_YAZMA_AKRAN",
+        "FORM_T4_YAZMA_KONTROL",
+        "LINK_T4_YAZMA_DPA"
       ],
       "textbook_locators": [
-        "s.10-83"
+        "s.234-310"
       ],
       "observed_textbook_structure": "Direct local MEB PDF mapping provides the planned section/activity path and expected student evidence. Performance assessment links are present where required.",
       "primary_coverage": "COVERED",
@@ -461,27 +473,27 @@
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
       "provenance": {
-        "program_locator": "curriculum_map.json#TEMA_01/TDE4.3",
-        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.10-83"
+        "program_locator": "curriculum_map.json#TEMA_04/TDE4.3",
+        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.234-310"
       }
     },
     {
-      "gap_id": "GAP_T10_T1_TDE4_4",
-      "need_id": "NEED_T10_T1_YAZMA",
-      "resource_plan_id": "PLAN_T10_T1_YAZMA",
+      "gap_id": "GAP_T10_T4_TDE4_4",
+      "need_id": "NEED_T10_T4_YAZMA",
+      "resource_plan_id": "PLAN_T10_T4_YAZMA",
       "outcome_code": "TDE4.4",
       "textbook_activity_ids": [
-        "T1_ACT_14_FILM_SERIDI_PLAN",
-        "T1_ACT_15_FILM_SERIDI_URETIM",
-        "T1_ACT_16_FILM_SERIDI_DEGERLENDIRME"
+        "T4_ACT_16_SIIR_DONUSUM_PLAN",
+        "T4_ACT_17_SIIR_DONUSUM_YAZMA",
+        "T4_ACT_18_SIIR_DEGERLENDIRME"
       ],
       "textbook_form_ids": [
-        "FORM_T1_YAZMA_KONTROL",
-        "FORM_T1_YAZMA_AKRAN",
-        "LINK_T1_YAZMA_DPA"
+        "FORM_T4_YAZMA_AKRAN",
+        "FORM_T4_YAZMA_KONTROL",
+        "LINK_T4_YAZMA_DPA"
       ],
       "textbook_locators": [
-        "s.10-83"
+        "s.234-310"
       ],
       "observed_textbook_structure": "Direct local MEB PDF mapping provides the planned section/activity path and expected student evidence. Performance assessment links are present where required.",
       "primary_coverage": "COVERED",
@@ -491,8 +503,8 @@
       "production_decision": "REUSE_TEXTBOOK",
       "priority": "NOT_NEEDED",
       "provenance": {
-        "program_locator": "curriculum_map.json#TEMA_01/TDE4.4",
-        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.10-83"
+        "program_locator": "curriculum_map.json#TEMA_04/TDE4.4",
+        "textbook_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf:s.234-310"
       }
     }
   ],

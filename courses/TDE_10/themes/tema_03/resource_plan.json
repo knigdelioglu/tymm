@@ -1,0 +1,160 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_10",
+  "grade": 10,
+  "theme_id": "TEMA_03",
+  "theme_no": 3,
+  "theme_title": "3. TEMA: DÜNDEN BUGÜNE",
+  "summary": {
+    "total_planned_items": 4,
+    "required_count": 0,
+    "recommended_count": 0,
+    "optional_count": 0,
+    "not_needed_count": 4,
+    "reuse_textbook_count": 4,
+    "production_decisions": {
+      "REUSE_TEXTBOOK": 4,
+      "GENERATE": 0,
+      "NO_ACTION": 0
+    },
+    "alignment_status": "PASS"
+  },
+  "resources": [
+    {
+      "resource_plan_id": "PLAN_T10_T3_DINLEME",
+      "need_id": "NEED_T10_T3_DINLEME",
+      "resource_type": "reuse_official_textbook_path",
+      "target_outcomes": [
+        "TDE1.1",
+        "TDE1.2",
+        "TDE1.3",
+        "TDE1.4"
+      ],
+      "purpose": "Program fablı dinleme/izleme yoluyla çözümleme, değer/ileti değerlendirmesi ve öz yansıtma kanıtları gerektirir.",
+      "expected_student_evidence": "Dinleme notları, açık uçlu çözümleme cevapları, yapı-dil ilişkisi tablosu, gerekçeli değerlendirme ve yansıtıcı öz değerlendirme.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T3_SEC_04_DINLEME_FABL"
+      ],
+      "textbook_activity_ids": [
+        "T3_ACT_11_FABL_DINLEME_HAZIRLIK",
+        "T3_ACT_12_FABL_ANLAM",
+        "T3_ACT_13_FABL_COZUMLEME",
+        "T3_ACT_14_FABL_YANSITMA"
+      ],
+      "textbook_form_ids": [
+        "FORM_T3_FABL_DINLEME_KONTROL"
+      ],
+      "textbook_resource_locator": "s.154-233",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T3_OKUMA",
+      "need_id": "NEED_T10_T3_OKUMA",
+      "resource_type": "reuse_official_textbook_path",
+      "target_outcomes": [
+        "TDE2.1",
+        "TDE2.2",
+        "TDE2.3",
+        "TDE2.4"
+      ],
+      "purpose": "Tema, Türk edebiyatında türlerin tarihsel değişimini destan-mesnevi-halk hikâyesi hattında kanıt temelli karşılaştırma ve çözümlemeyle görünür kılmayı gerektirir.",
+      "expected_student_evidence": "T diyagramı, tür/dönem karşılaştırma tablosu, kavram haritası, kısa/açık uçlu tahlil cevapları, yapı unsuru şeması ve gerekçeli değerlendirme.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T3_SEC_01_OKUMA_DESTAN",
+        "T3_SEC_02_OKUMA_MESNEVI"
+      ],
+      "textbook_activity_ids": [
+        "T3_ACT_01_DESTAN_HAZIRLIK",
+        "T3_ACT_02_OGUZ_KAGAN_ANLAM",
+        "T3_ACT_03_DESTAN_COZUMLEME",
+        "T3_ACT_04_DESTAN_YANSITMA",
+        "T3_ACT_05_MESNEVI_HAZIRLIK",
+        "T3_ACT_06_HARNAME_TAHLIL",
+        "T3_ACT_07_MESNEVI_KARSILASTIRMA"
+      ],
+      "textbook_form_ids": [],
+      "textbook_resource_locator": "s.154-233",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T3_KONUSMA",
+      "need_id": "NEED_T10_T3_KONUSMA",
+      "resource_type": "reuse_official_textbook_path",
+      "target_outcomes": [
+        "TDE3.1",
+        "TDE3.2",
+        "TDE3.3",
+        "TDE3.4"
+      ],
+      "purpose": "Program Türk destanlarına yönelik hazırlıklı konuşmayı somut performans ve rubrik kanıtıyla değerlendirmeyi öngörür.",
+      "expected_student_evidence": "Araştırma notları, kaynak listesi, sunum planı, görsel materyal, canlı sunum ve rubrik/öz değerlendirme kayıtları.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T3_SEC_03_KONUSMA_DESTAN_SUNUM"
+      ],
+      "textbook_activity_ids": [
+        "T3_ACT_08_DESTAN_SUNUM_PLAN",
+        "T3_ACT_09_DESTAN_SUNUM",
+        "T3_ACT_10_KONUSMA_OZ_AKRAN"
+      ],
+      "textbook_form_ids": [
+        "FORM_T3_KONUSMA_AKRAN",
+        "FORM_T3_KONUSMA_OZ",
+        "LINK_T3_KONUSMA_DPA"
+      ],
+      "textbook_resource_locator": "s.154-233",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T3_YAZMA",
+      "need_id": "NEED_T10_T3_YAZMA",
+      "resource_type": "reuse_official_textbook_path",
+      "target_outcomes": [
+        "TDE4.1",
+        "TDE4.2",
+        "TDE4.3",
+        "TDE4.4"
+      ],
+      "purpose": "Program özgün fabl üretimini doğrudan yazma performansı olarak tanımlar ve ürünün tür/estetik ölçütleriyle değerlendirilmesini gerektirir.",
+      "expected_student_evidence": "Fabl planı, karakter/olay taslağı, ilk taslak, revize edilmiş nihai metin, öz/akran değerlendirmesi ve rubrik kanıtları.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T3_SEC_05_YAZMA_FABL"
+      ],
+      "textbook_activity_ids": [
+        "T3_ACT_15_FABL_YAZMA_PLAN",
+        "T3_ACT_16_FABL_YAZMA",
+        "T3_ACT_17_FABL_YAZMA_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T3_YAZMA_AKRAN",
+        "FORM_T3_YAZMA_OZ",
+        "LINK_T3_YAZMA_DPA"
+      ],
+      "textbook_resource_locator": "s.154-233",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    }
+  ]
+}

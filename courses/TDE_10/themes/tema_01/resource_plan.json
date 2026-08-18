@@ -1,0 +1,160 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_10",
+  "grade": 10,
+  "theme_id": "TEMA_01",
+  "theme_no": 1,
+  "theme_title": "1. TEMA: SÖZÜN EZGİSİ",
+  "summary": {
+    "total_planned_items": 4,
+    "required_count": 0,
+    "recommended_count": 0,
+    "optional_count": 0,
+    "not_needed_count": 4,
+    "reuse_textbook_count": 4,
+    "production_decisions": {
+      "REUSE_TEXTBOOK": 4,
+      "GENERATE": 0,
+      "NO_ACTION": 0
+    },
+    "alignment_status": "PASS"
+  },
+  "resources": [
+    {
+      "resource_plan_id": "PLAN_T10_T1_DINLEME",
+      "need_id": "NEED_T10_T1_DINLEME",
+      "resource_type": "reuse_official_textbook_path",
+      "target_outcomes": [
+        "TDE1.1",
+        "TDE1.2",
+        "TDE1.3",
+        "TDE1.4"
+      ],
+      "purpose": "Tema, masal üzerinden dinleme/izleme sürecinin yönetilmesini, anlam oluşturmayı, çözümlemeyi ve değerlendirmeyi birlikte gerektirir.",
+      "expected_student_evidence": "Hazırlık/tahmin kayıtları, yapılandırılmış dinleme notları, açık uçlu çözümleme cevapları, öz değerlendirme ve gerekçeli görüşler.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T1_SEC_04_DINLEME_MASAL"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_11_MASAL_HAZIRLIK",
+        "T1_ACT_12_MERCAN_KIZ_TAHLIL",
+        "T1_ACT_13_MASAL_YANSITMA"
+      ],
+      "textbook_form_ids": [
+        "FORM_T1_MASAL_OZ"
+      ],
+      "textbook_resource_locator": "s.10-83",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T1_OKUMA",
+      "need_id": "NEED_T10_T1_OKUMA",
+      "resource_type": "reuse_official_textbook_path",
+      "target_outcomes": [
+        "TDE2.1",
+        "TDE2.2",
+        "TDE2.3",
+        "TDE2.4"
+      ],
+      "purpose": "Tema, sözün ezgi ve ahenk boyutunu tarihsel metinler üzerinden yapılandırılmış okuma ve karşılaştırma kanıtlarıyla görünür kılmayı gerektirir.",
+      "expected_student_evidence": "Okuma öncesi tahmin ve amaç kayıtları, ahenk/söz varlığı işaretlemeleri, karşılaştırma tabloları, açık uçlu tahlil cevapları ve öz değerlendirme.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T1_SEC_01_OKUMA_KOSUK",
+        "T1_SEC_02_OKUMA_TURKU"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_01_KOSUK_HAZIRLIK",
+        "T1_ACT_02_KOSUK_ANLAM",
+        "T1_ACT_03_KOSUK_COZUMLEME",
+        "T1_ACT_04_KOSUK_YANSITMA",
+        "T1_ACT_05_TURKU_HAZIRLIK",
+        "T1_ACT_06_TURKU_TAHLIL",
+        "T1_ACT_07_TURKU_CANLANDIRMA"
+      ],
+      "textbook_form_ids": [
+        "FORM_T1_EXIT_321"
+      ],
+      "textbook_resource_locator": "s.10-83",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T1_KONUSMA",
+      "need_id": "NEED_T10_T1_KONUSMA",
+      "resource_type": "reuse_official_textbook_path",
+      "target_outcomes": [
+        "TDE3.1",
+        "TDE3.2",
+        "TDE3.3",
+        "TDE3.4"
+      ],
+      "purpose": "Program doğrudan şiir dinletisi performans görevi ve dereceli puanlama anahtarı öngörür; bu ihtiyaç textbook coverage'dan bağımsız olarak normatiftir.",
+      "expected_student_evidence": "Dinleti planı, seçki gerekçeleri, canlı sözlü performans, öz/akran değerlendirmesi ve rubrik kanıtları.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T1_SEC_03_KONUSMA"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_08_SIIR_DINLETISI_PLAN",
+        "T1_ACT_09_SIIR_DINLETISI_SUNUM",
+        "T1_ACT_10_KONUSMA_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T1_KONUSMA_AKRAN",
+        "LINK_T1_KONUSMA_DPA"
+      ],
+      "textbook_resource_locator": "s.10-83",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T1_YAZMA",
+      "need_id": "NEED_T10_T1_YAZMA",
+      "resource_type": "reuse_official_textbook_path",
+      "target_outcomes": [
+        "TDE4.1",
+        "TDE4.2",
+        "TDE4.3",
+        "TDE4.4"
+      ],
+      "purpose": "Program masalı film şeridine dönüştüren somut bir yazma performansı ve rubrik değerlendirmesi gerektirir.",
+      "expected_student_evidence": "Storyboard/film şeridi taslağı, olay-sahne planı, karakter/görsel tasarımlar, düzenlenmiş nihai ürün ve öz/akran değerlendirmesi.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T1_SEC_05_YAZMA_FILM_SERIDI"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_14_FILM_SERIDI_PLAN",
+        "T1_ACT_15_FILM_SERIDI_URETIM",
+        "T1_ACT_16_FILM_SERIDI_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T1_YAZMA_AKRAN",
+        "FORM_T1_YAZMA_KONTROL",
+        "LINK_T1_YAZMA_DPA"
+      ],
+      "textbook_resource_locator": "s.10-83",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    }
+  ]
+}

@@ -1,1 +1,536 @@
-{"schema_version":"1.0","course_id":"TDE_10","grade":10,"theme_id":"TEMA_02","theme_no":2,"theme_title":"2. TEMA: KELİMELERİN RİTMİ","curriculum_source_id":"curriculum_tde10_theme_bundle","textbook_source_id":"textbook_tde10_tymm_web","textbook_printed_page_range":"s.84-153","alignment_status":"DRAFT_FAIL_CLOSED","freeze_status":"NOT_FROZEN","source_state":{"curriculum_freeze":"PENDING_PROCESS_COMPONENT_COMPLETION","textbook_freeze":"PENDING_PRIMARY/QR_TARGET_CONFIRMATION"},"summary_metrics":{"total_learning_outcomes":16,"covered_count":14,"partially_covered_count":2,"not_covered_count":0,"review_required_count":2,"alignment_status":"DRAFT_REVIEW_REQUIRED"},"alignments":[{"outcome_id":"TDE_10::curriculum_outcome::TEMA_02::TDE1.1","outcome_code":"TDE1.1","skill_category":"Dinleme/İzleme","need_id":"NEED_T10_T2_DINLEME","resource_plan_id":null,"curriculum_locator":"curriculum_map.json#TEMA_02/TDE1.1","textbook_counterpart":{"section_ids":["T2_SEC_04_DINLEME_SOYLESI"],"activity_ids":["T2_ACT_11_SOYLESI_HAZIRLIK","T2_ACT_12_SOYLESI_ANLAM","T2_ACT_13_SOYLESI_COZUMLEME","T2_ACT_14_SOYLESI_YANSITMA"],"form_ids":[],"printed_page_locator":"s.84-153","source_locator":"OGM_ASSET_6407"},"primary_coverage":"COVERED","need_tags":[],"remaining_gap":"NONE","production_decision":"REUSE_TEXTBOOK","priority":"NOT_NEEDED","coverage_confidence":"PROVISIONAL","teacher_notes":"Textbook provides a matching learning/action/evidence path."},{"outcome_id":"TDE_10::curriculum_outcome::TEMA_02::TDE1.2","outcome_code":"TDE1.2","skill_category":"Dinleme/İzleme","need_id":"NEED_T10_T2_DINLEME","resource_plan_id":null,"curriculum_locator":"curriculum_map.json#TEMA_02/TDE1.2","textbook_counterpart":{"section_ids":["T2_SEC_04_DINLEME_SOYLESI"],"activity_ids":["T2_ACT_11_SOYLESI_HAZIRLIK","T2_ACT_12_SOYLESI_ANLAM","T2_ACT_13_SOYLESI_COZUMLEME","T2_ACT_14_SOYLESI_YANSITMA"],"form_ids":[],"printed_page_locator":"s.84-153","source_locator":"OGM_ASSET_6407"},"primary_coverage":"COVERED","need_tags":[],"remaining_gap":"NONE","production_decision":"REUSE_TEXTBOOK","priority":"NOT_NEEDED","coverage_confidence":"PROVISIONAL","teacher_notes":"Textbook provides a matching learning/action/evidence path."},{"outcome_id":"TDE_10::curriculum_outcome::TEMA_02::TDE1.3","outcome_code":"TDE1.3","skill_category":"Dinleme/İzleme","need_id":"NEED_T10_T2_DINLEME","resource_plan_id":null,"curriculum_locator":"curriculum_map.json#TEMA_02/TDE1.3","textbook_counterpart":{"section_ids":["T2_SEC_04_DINLEME_SOYLESI"],"activity_ids":["T2_ACT_11_SOYLESI_HAZIRLIK","T2_ACT_12_SOYLESI_ANLAM","T2_ACT_13_SOYLESI_COZUMLEME","T2_ACT_14_SOYLESI_YANSITMA"],"form_ids":[],"printed_page_locator":"s.84-153","source_locator":"OGM_ASSET_6407"},"primary_coverage":"COVERED","need_tags":[],"remaining_gap":"NONE","production_decision":"REUSE_TEXTBOOK","priority":"NOT_NEEDED","coverage_confidence":"PROVISIONAL","teacher_notes":"Textbook provides a matching learning/action/evidence path."},{"outcome_id":"TDE_10::curriculum_outcome::TEMA_02::TDE1.4","outcome_code":"TDE1.4","skill_category":"Dinleme/İzleme","need_id":"NEED_T10_T2_DINLEME","resource_plan_id":null,"curriculum_locator":"curriculum_map.json#TEMA_02/TDE1.4","textbook_counterpart":{"section_ids":["T2_SEC_04_DINLEME_SOYLESI"],"activity_ids":["T2_ACT_11_SOYLESI_HAZIRLIK","T2_ACT_12_SOYLESI_ANLAM","T2_ACT_13_SOYLESI_COZUMLEME","T2_ACT_14_SOYLESI_YANSITMA"],"form_ids":[],"printed_page_locator":"s.84-153","source_locator":"OGM_ASSET_6407"},"primary_coverage":"COVERED","need_tags":[],"remaining_gap":"NONE","production_decision":"REUSE_TEXTBOOK","priority":"NOT_NEEDED","coverage_confidence":"PROVISIONAL","teacher_notes":"Textbook provides a matching learning/action/evidence path."},{"outcome_id":"TDE_10::curriculum_outcome::TEMA_02::TDE2.1","outcome_code":"TDE2.1","skill_category":"Okuma","need_id":"NEED_T10_T2_OKUMA","resource_plan_id":null,"curriculum_locator":"curriculum_map.json#TEMA_02/TDE2.1","textbook_counterpart":{"section_ids":["T2_SEC_01_OKUMA_GAZEL","T2_SEC_02_OKUMA_SAF_SIIR"],"activity_ids":["T2_ACT_01_GAZEL_HAZIRLIK","T2_ACT_02_GAZEL_ANLAM","T2_ACT_03_GAZEL_COZUMLEME","T2_ACT_04_GAZEL_YANSITMA","T2_ACT_05_SAF_SIIR_HAZIRLIK","T2_ACT_06_KALDIRIMLAR_TAHLIL","T2_ACT_07_SIIR_KARSILASTIRMA"],"form_ids":["FORM_T2_GAZEL_GUNLUK"],"printed_page_locator":"s.84-153","source_locator":"OGM_ASSET_6407"},"primary_coverage":"COVERED","need_tags":[],"remaining_gap":"NONE","production_decision":"REUSE_TEXTBOOK","priority":"NOT_NEEDED","coverage_confidence":"PROVISIONAL","teacher_notes":"Textbook provides a matching learning/action/evidence path."},{"outcome_id":"TDE_10::curriculum_outcome::TEMA_02::TDE2.2","outcome_code":"TDE2.2","skill_category":"Okuma","need_id":"NEED_T10_T2_OKUMA","resource_plan_id":null,"curriculum_locator":"curriculum_map.json#TEMA_02/TDE2.2","textbook_counterpart":{"section_ids":["T2_SEC_01_OKUMA_GAZEL","T2_SEC_02_OKUMA_SAF_SIIR"],"activity_ids":["T2_ACT_01_GAZEL_HAZIRLIK","T2_ACT_02_GAZEL_ANLAM","T2_ACT_03_GAZEL_COZUMLEME","T2_ACT_04_GAZEL_YANSITMA","T2_ACT_05_SAF_SIIR_HAZIRLIK","T2_ACT_06_KALDIRIMLAR_TAHLIL","T2_ACT_07_SIIR_KARSILASTIRMA"],"form_ids":["FORM_T2_GAZEL_GUNLUK"],"printed_page_locator":"s.84-153","source_locator":"OGM_ASSET_6407"},"primary_coverage":"COVERED","need_tags":[],"remaining_gap":"NONE","production_decision":"REUSE_TEXTBOOK","priority":"NOT_NEEDED","coverage_confidence":"PROVISIONAL","teacher_notes":"Textbook provides a matching learning/action/evidence path."},{"outcome_id":"TDE_10::curriculum_outcome::TEMA_02::TDE2.3","outcome_code":"TDE2.3","skill_category":"Okuma","need_id":"NEED_T10_T2_OKUMA","resource_plan_id":null,"curriculum_locator":"curriculum_map.json#TEMA_02/TDE2.3","textbook_counterpart":{"section_ids":["T2_SEC_01_OKUMA_GAZEL","T2_SEC_02_OKUMA_SAF_SIIR"],"activity_ids":["T2_ACT_01_GAZEL_HAZIRLIK","T2_ACT_02_GAZEL_ANLAM","T2_ACT_03_GAZEL_COZUMLEME","T2_ACT_04_GAZEL_YANSITMA","T2_ACT_05_SAF_SIIR_HAZIRLIK","T2_ACT_06_KALDIRIMLAR_TAHLIL","T2_ACT_07_SIIR_KARSILASTIRMA"],"form_ids":["FORM_T2_GAZEL_GUNLUK"],"printed_page_locator":"s.84-153","source_locator":"OGM_ASSET_6407"},"primary_coverage":"COVERED","need_tags":[],"remaining_gap":"NONE","production_decision":"REUSE_TEXTBOOK","priority":"NOT_NEEDED","coverage_confidence":"PROVISIONAL","teacher_notes":"Textbook provides a matching learning/action/evidence path."},{"outcome_id":"TDE_10::curriculum_outcome::TEMA_02::TDE2.4","outcome_code":"TDE2.4","skill_category":"Okuma","need_id":"NEED_T10_T2_OKUMA","resource_plan_id":null,"curriculum_locator":"curriculum_map.json#TEMA_02/TDE2.4","textbook_counterpart":{"section_ids":["T2_SEC_01_OKUMA_GAZEL","T2_SEC_02_OKUMA_SAF_SIIR"],"activity_ids":["T2_ACT_01_GAZEL_HAZIRLIK","T2_ACT_02_GAZEL_ANLAM","T2_ACT_03_GAZEL_COZUMLEME","T2_ACT_04_GAZEL_YANSITMA","T2_ACT_05_SAF_SIIR_HAZIRLIK","T2_ACT_06_KALDIRIMLAR_TAHLIL","T2_ACT_07_SIIR_KARSILASTIRMA"],"form_ids":["FORM_T2_GAZEL_GUNLUK"],"printed_page_locator":"s.84-153","source_locator":"OGM_ASSET_6407"},"primary_coverage":"COVERED","need_tags":[],"remaining_gap":"NONE","production_decision":"REUSE_TEXTBOOK","priority":"NOT_NEEDED","coverage_confidence":"PROVISIONAL","teacher_notes":"Textbook provides a matching learning/action/evidence path."},{"outcome_id":"TDE_10::curriculum_outcome::TEMA_02::TDE3.1","outcome_code":"TDE3.1","skill_category":"Konuşma","need_id":"NEED_T10_T2_KONUSMA","resource_plan_id":null,"curriculum_locator":"curriculum_map.json#TEMA_02/TDE3.1","textbook_counterpart":{"section_ids":["T2_SEC_05_KONUSMA_PODCAST"],"activity_ids":["T2_ACT_15_PODCAST_PLAN","T2_ACT_16_PODCAST_URETIM","T2_ACT_17_PODCAST_YANSITMA"],"form_ids":["LINK_T2_PODCAST_DPA","FORM_T2_PODCAST_YANSITMA"],"printed_page_locator":"s.84-153","source_locator":"OGM_ASSET_6407"},"primary_coverage":"COVERED","need_tags":[],"remaining_gap":"NONE","production_decision":"REUSE_TEXTBOOK","priority":"NOT_NEEDED","coverage_confidence":"PROVISIONAL","teacher_notes":"Textbook provides a matching learning/action/evidence path."},{"outcome_id":"TDE_10::curriculum_outcome::TEMA_02::TDE3.2","outcome_code":"TDE3.2","skill_category":"Konuşma","need_id":"NEED_T10_T2_KONUSMA","resource_plan_id":null,"curriculum_locator":"curriculum_map.json#TEMA_02/TDE3.2","textbook_counterpart":{"section_ids":["T2_SEC_05_KONUSMA_PODCAST"],"activity_ids":["T2_ACT_15_PODCAST_PLAN","T2_ACT_16_PODCAST_URETIM","T2_ACT_17_PODCAST_YANSITMA"],"form_ids":["LINK_T2_PODCAST_DPA","FORM_T2_PODCAST_YANSITMA"],"printed_page_locator":"s.84-153","source_locator":"OGM_ASSET_6407"},"primary_coverage":"COVERED","need_tags":[],"remaining_gap":"NONE","production_decision":"REUSE_TEXTBOOK","priority":"NOT_NEEDED","coverage_confidence":"PROVISIONAL","teacher_notes":"Textbook provides a matching learning/action/evidence path."},{"outcome_id":"TDE_10::curriculum_outcome::TEMA_02::TDE3.3","outcome_code":"TDE3.3","skill_category":"Konuşma","need_id":"NEED_T10_T2_KONUSMA","resource_plan_id":null,"curriculum_locator":"curriculum_map.json#TEMA_02/TDE3.3","textbook_counterpart":{"section_ids":["T2_SEC_05_KONUSMA_PODCAST"],"activity_ids":["T2_ACT_15_PODCAST_PLAN","T2_ACT_16_PODCAST_URETIM","T2_ACT_17_PODCAST_YANSITMA"],"form_ids":["LINK_T2_PODCAST_DPA","FORM_T2_PODCAST_YANSITMA"],"printed_page_locator":"s.84-153","source_locator":"OGM_ASSET_6407"},"primary_coverage":"COVERED","need_tags":[],"remaining_gap":"NONE","production_decision":"REUSE_TEXTBOOK","priority":"NOT_NEEDED","coverage_confidence":"PROVISIONAL","teacher_notes":"Textbook provides a matching learning/action/evidence path."},{"outcome_id":"TDE_10::curriculum_outcome::TEMA_02::TDE3.4","outcome_code":"TDE3.4","skill_category":"Konuşma","need_id":"NEED_T10_T2_KONUSMA","resource_plan_id":null,"curriculum_locator":"curriculum_map.json#TEMA_02/TDE3.4","textbook_counterpart":{"section_ids":["T2_SEC_05_KONUSMA_PODCAST"],"activity_ids":["T2_ACT_15_PODCAST_PLAN","T2_ACT_16_PODCAST_URETIM","T2_ACT_17_PODCAST_YANSITMA"],"form_ids":["LINK_T2_PODCAST_DPA","FORM_T2_PODCAST_YANSITMA"],"printed_page_locator":"s.84-153","source_locator":"OGM_ASSET_6407"},"primary_coverage":"PARTIALLY_COVERED","need_tags":["ASSESSMENT_TARGET_UNRESOLVED"],"remaining_gap":"QR-linked dereceli puanlama anahtarı target structure is uninspected; no production gap asserted.","production_decision":"NO_ACTION","priority":"REVIEW_REQUIRED","coverage_confidence":"PROVISIONAL","teacher_notes":"Fail-closed pending QR target inspection."},{"outcome_id":"TDE_10::curriculum_outcome::TEMA_02::TDE4.1","outcome_code":"TDE4.1","skill_category":"Yazma","need_id":"NEED_T10_T2_YAZMA","resource_plan_id":null,"curriculum_locator":"curriculum_map.json#TEMA_02/TDE4.1","textbook_counterpart":{"section_ids":["T2_SEC_03_YAZMA_DONUSTURME"],"activity_ids":["T2_ACT_08_YAZMA_PLAN","T2_ACT_09_METIN_DONUSTURME","T2_ACT_10_YAZMA_DEGERLENDIRME"],"form_ids":["FORM_T2_YAZMA_KONTROL","FORM_T2_YAZMA_AKRAN","LINK_T2_YAZMA_DPA"],"printed_page_locator":"s.84-153","source_locator":"OGM_ASSET_6407"},"primary_coverage":"COVERED","need_tags":[],"remaining_gap":"NONE","production_decision":"REUSE_TEXTBOOK","priority":"NOT_NEEDED","coverage_confidence":"PROVISIONAL","teacher_notes":"Textbook provides a matching learning/action/evidence path."},{"outcome_id":"TDE_10::curriculum_outcome::TEMA_02::TDE4.2","outcome_code":"TDE4.2","skill_category":"Yazma","need_id":"NEED_T10_T2_YAZMA","resource_plan_id":null,"curriculum_locator":"curriculum_map.json#TEMA_02/TDE4.2","textbook_counterpart":{"section_ids":["T2_SEC_03_YAZMA_DONUSTURME"],"activity_ids":["T2_ACT_08_YAZMA_PLAN","T2_ACT_09_METIN_DONUSTURME","T2_ACT_10_YAZMA_DEGERLENDIRME"],"form_ids":["FORM_T2_YAZMA_KONTROL","FORM_T2_YAZMA_AKRAN","LINK_T2_YAZMA_DPA"],"printed_page_locator":"s.84-153","source_locator":"OGM_ASSET_6407"},"primary_coverage":"COVERED","need_tags":[],"remaining_gap":"NONE","production_decision":"REUSE_TEXTBOOK","priority":"NOT_NEEDED","coverage_confidence":"PROVISIONAL","teacher_notes":"Textbook provides a matching learning/action/evidence path."},{"outcome_id":"TDE_10::curriculum_outcome::TEMA_02::TDE4.3","outcome_code":"TDE4.3","skill_category":"Yazma","need_id":"NEED_T10_T2_YAZMA","resource_plan_id":null,"curriculum_locator":"curriculum_map.json#TEMA_02/TDE4.3","textbook_counterpart":{"section_ids":["T2_SEC_03_YAZMA_DONUSTURME"],"activity_ids":["T2_ACT_08_YAZMA_PLAN","T2_ACT_09_METIN_DONUSTURME","T2_ACT_10_YAZMA_DEGERLENDIRME"],"form_ids":["FORM_T2_YAZMA_KONTROL","FORM_T2_YAZMA_AKRAN","LINK_T2_YAZMA_DPA"],"printed_page_locator":"s.84-153","source_locator":"OGM_ASSET_6407"},"primary_coverage":"COVERED","need_tags":[],"remaining_gap":"NONE","production_decision":"REUSE_TEXTBOOK","priority":"NOT_NEEDED","coverage_confidence":"PROVISIONAL","teacher_notes":"Textbook provides a matching learning/action/evidence path."},{"outcome_id":"TDE_10::curriculum_outcome::TEMA_02::TDE4.4","outcome_code":"TDE4.4","skill_category":"Yazma","need_id":"NEED_T10_T2_YAZMA","resource_plan_id":null,"curriculum_locator":"curriculum_map.json#TEMA_02/TDE4.4","textbook_counterpart":{"section_ids":["T2_SEC_03_YAZMA_DONUSTURME"],"activity_ids":["T2_ACT_08_YAZMA_PLAN","T2_ACT_09_METIN_DONUSTURME","T2_ACT_10_YAZMA_DEGERLENDIRME"],"form_ids":["FORM_T2_YAZMA_KONTROL","FORM_T2_YAZMA_AKRAN","LINK_T2_YAZMA_DPA"],"printed_page_locator":"s.84-153","source_locator":"OGM_ASSET_6407"},"primary_coverage":"PARTIALLY_COVERED","need_tags":["ASSESSMENT_TARGET_UNRESOLVED"],"remaining_gap":"QR-linked dereceli puanlama anahtarı target structure is uninspected; no production gap asserted.","production_decision":"NO_ACTION","priority":"REVIEW_REQUIRED","coverage_confidence":"PROVISIONAL","teacher_notes":"Fail-closed pending QR target inspection."}],"decision_rule":"Uninspected QR assessment targets do not become NOT_COVERED and do not authorize GENERATE."}
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_10",
+  "grade": 10,
+  "theme_id": "TEMA_02",
+  "theme_no": 2,
+  "theme_title": "2. TEMA: KELİMELERİN RİTMİ",
+  "curriculum_source_id": "curriculum_tde10_theme_bundle",
+  "textbook_source_id": "textbook_tde10_local_pdf",
+  "textbook_printed_page_range": "s.84-153",
+  "alignment_status": "PASS_TEXTBOOK_LOCAL_PDF_VERIFIED",
+  "freeze_status": "NOT_FROZEN_CURRICULUM_PROCESS_COMPONENTS_PENDING",
+  "source_state": {
+    "curriculum_freeze": "PENDING_PROCESS_COMPONENT_COMPLETION",
+    "textbook_freeze": "LOCAL_PDF_VERIFIED_PENDING_COURSE_FREEZE"
+  },
+  "summary_metrics": {
+    "total_learning_outcomes": 16,
+    "covered_count": 16,
+    "partially_covered_count": 0,
+    "not_covered_count": 0,
+    "review_required_count": 0,
+    "alignment_status": "PASS"
+  },
+  "alignments": [
+    {
+      "outcome_id": "TDE_10::curriculum_outcome::TEMA_02::TDE1.1",
+      "outcome_code": "TDE1.1",
+      "skill_category": "Dinleme/İzleme",
+      "need_id": "NEED_T10_T2_DINLEME",
+      "resource_plan_id": "PLAN_T10_T2_DINLEME",
+      "curriculum_locator": "curriculum_map.json#TEMA_02/TDE1.1",
+      "textbook_counterpart": {
+        "section_ids": [
+          "T2_SEC_04_DINLEME_SOYLESI"
+        ],
+        "activity_ids": [
+          "T2_ACT_11_SOYLESI_HAZIRLIK",
+          "T2_ACT_12_SOYLESI_ANLAM",
+          "T2_ACT_13_SOYLESI_COZUMLEME",
+          "T2_ACT_14_SOYLESI_YANSITMA"
+        ],
+        "form_ids": [],
+        "printed_page_locator": "s.84-153",
+        "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+      },
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "NONE",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "coverage_confidence": "VERIFIED_LOCAL_PDF",
+      "teacher_notes": "Direct local MEB PDF page path verifies the required student action/evidence. Where a teacher Dereceli Puanlama Anahtarı is QR-linked, the official EBA link is present in the PDF; its internal rubric structure remains deliberately unclassified and is not treated as a coverage gap."
+    },
+    {
+      "outcome_id": "TDE_10::curriculum_outcome::TEMA_02::TDE1.2",
+      "outcome_code": "TDE1.2",
+      "skill_category": "Dinleme/İzleme",
+      "need_id": "NEED_T10_T2_DINLEME",
+      "resource_plan_id": "PLAN_T10_T2_DINLEME",
+      "curriculum_locator": "curriculum_map.json#TEMA_02/TDE1.2",
+      "textbook_counterpart": {
+        "section_ids": [
+          "T2_SEC_04_DINLEME_SOYLESI"
+        ],
+        "activity_ids": [
+          "T2_ACT_11_SOYLESI_HAZIRLIK",
+          "T2_ACT_12_SOYLESI_ANLAM",
+          "T2_ACT_13_SOYLESI_COZUMLEME",
+          "T2_ACT_14_SOYLESI_YANSITMA"
+        ],
+        "form_ids": [],
+        "printed_page_locator": "s.84-153",
+        "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+      },
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "NONE",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "coverage_confidence": "VERIFIED_LOCAL_PDF",
+      "teacher_notes": "Direct local MEB PDF page path verifies the required student action/evidence. Where a teacher Dereceli Puanlama Anahtarı is QR-linked, the official EBA link is present in the PDF; its internal rubric structure remains deliberately unclassified and is not treated as a coverage gap."
+    },
+    {
+      "outcome_id": "TDE_10::curriculum_outcome::TEMA_02::TDE1.3",
+      "outcome_code": "TDE1.3",
+      "skill_category": "Dinleme/İzleme",
+      "need_id": "NEED_T10_T2_DINLEME",
+      "resource_plan_id": "PLAN_T10_T2_DINLEME",
+      "curriculum_locator": "curriculum_map.json#TEMA_02/TDE1.3",
+      "textbook_counterpart": {
+        "section_ids": [
+          "T2_SEC_04_DINLEME_SOYLESI"
+        ],
+        "activity_ids": [
+          "T2_ACT_11_SOYLESI_HAZIRLIK",
+          "T2_ACT_12_SOYLESI_ANLAM",
+          "T2_ACT_13_SOYLESI_COZUMLEME",
+          "T2_ACT_14_SOYLESI_YANSITMA"
+        ],
+        "form_ids": [],
+        "printed_page_locator": "s.84-153",
+        "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+      },
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "NONE",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "coverage_confidence": "VERIFIED_LOCAL_PDF",
+      "teacher_notes": "Direct local MEB PDF page path verifies the required student action/evidence. Where a teacher Dereceli Puanlama Anahtarı is QR-linked, the official EBA link is present in the PDF; its internal rubric structure remains deliberately unclassified and is not treated as a coverage gap."
+    },
+    {
+      "outcome_id": "TDE_10::curriculum_outcome::TEMA_02::TDE1.4",
+      "outcome_code": "TDE1.4",
+      "skill_category": "Dinleme/İzleme",
+      "need_id": "NEED_T10_T2_DINLEME",
+      "resource_plan_id": "PLAN_T10_T2_DINLEME",
+      "curriculum_locator": "curriculum_map.json#TEMA_02/TDE1.4",
+      "textbook_counterpart": {
+        "section_ids": [
+          "T2_SEC_04_DINLEME_SOYLESI"
+        ],
+        "activity_ids": [
+          "T2_ACT_11_SOYLESI_HAZIRLIK",
+          "T2_ACT_12_SOYLESI_ANLAM",
+          "T2_ACT_13_SOYLESI_COZUMLEME",
+          "T2_ACT_14_SOYLESI_YANSITMA"
+        ],
+        "form_ids": [],
+        "printed_page_locator": "s.84-153",
+        "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+      },
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "NONE",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "coverage_confidence": "VERIFIED_LOCAL_PDF",
+      "teacher_notes": "Direct local MEB PDF page path verifies the required student action/evidence. Where a teacher Dereceli Puanlama Anahtarı is QR-linked, the official EBA link is present in the PDF; its internal rubric structure remains deliberately unclassified and is not treated as a coverage gap."
+    },
+    {
+      "outcome_id": "TDE_10::curriculum_outcome::TEMA_02::TDE2.1",
+      "outcome_code": "TDE2.1",
+      "skill_category": "Okuma",
+      "need_id": "NEED_T10_T2_OKUMA",
+      "resource_plan_id": "PLAN_T10_T2_OKUMA",
+      "curriculum_locator": "curriculum_map.json#TEMA_02/TDE2.1",
+      "textbook_counterpart": {
+        "section_ids": [
+          "T2_SEC_01_OKUMA_GAZEL",
+          "T2_SEC_02_OKUMA_SAF_SIIR"
+        ],
+        "activity_ids": [
+          "T2_ACT_01_GAZEL_HAZIRLIK",
+          "T2_ACT_02_GAZEL_ANLAM",
+          "T2_ACT_03_GAZEL_COZUMLEME",
+          "T2_ACT_04_GAZEL_YANSITMA",
+          "T2_ACT_05_SAF_SIIR_HAZIRLIK",
+          "T2_ACT_06_KALDIRIMLAR_TAHLIL",
+          "T2_ACT_07_SIIR_KARSILASTIRMA"
+        ],
+        "form_ids": [
+          "FORM_T2_GAZEL_GUNLUK"
+        ],
+        "printed_page_locator": "s.84-153",
+        "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+      },
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "NONE",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "coverage_confidence": "VERIFIED_LOCAL_PDF",
+      "teacher_notes": "Direct local MEB PDF page path verifies the required student action/evidence. Where a teacher Dereceli Puanlama Anahtarı is QR-linked, the official EBA link is present in the PDF; its internal rubric structure remains deliberately unclassified and is not treated as a coverage gap."
+    },
+    {
+      "outcome_id": "TDE_10::curriculum_outcome::TEMA_02::TDE2.2",
+      "outcome_code": "TDE2.2",
+      "skill_category": "Okuma",
+      "need_id": "NEED_T10_T2_OKUMA",
+      "resource_plan_id": "PLAN_T10_T2_OKUMA",
+      "curriculum_locator": "curriculum_map.json#TEMA_02/TDE2.2",
+      "textbook_counterpart": {
+        "section_ids": [
+          "T2_SEC_01_OKUMA_GAZEL",
+          "T2_SEC_02_OKUMA_SAF_SIIR"
+        ],
+        "activity_ids": [
+          "T2_ACT_01_GAZEL_HAZIRLIK",
+          "T2_ACT_02_GAZEL_ANLAM",
+          "T2_ACT_03_GAZEL_COZUMLEME",
+          "T2_ACT_04_GAZEL_YANSITMA",
+          "T2_ACT_05_SAF_SIIR_HAZIRLIK",
+          "T2_ACT_06_KALDIRIMLAR_TAHLIL",
+          "T2_ACT_07_SIIR_KARSILASTIRMA"
+        ],
+        "form_ids": [
+          "FORM_T2_GAZEL_GUNLUK"
+        ],
+        "printed_page_locator": "s.84-153",
+        "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+      },
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "NONE",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "coverage_confidence": "VERIFIED_LOCAL_PDF",
+      "teacher_notes": "Direct local MEB PDF page path verifies the required student action/evidence. Where a teacher Dereceli Puanlama Anahtarı is QR-linked, the official EBA link is present in the PDF; its internal rubric structure remains deliberately unclassified and is not treated as a coverage gap."
+    },
+    {
+      "outcome_id": "TDE_10::curriculum_outcome::TEMA_02::TDE2.3",
+      "outcome_code": "TDE2.3",
+      "skill_category": "Okuma",
+      "need_id": "NEED_T10_T2_OKUMA",
+      "resource_plan_id": "PLAN_T10_T2_OKUMA",
+      "curriculum_locator": "curriculum_map.json#TEMA_02/TDE2.3",
+      "textbook_counterpart": {
+        "section_ids": [
+          "T2_SEC_01_OKUMA_GAZEL",
+          "T2_SEC_02_OKUMA_SAF_SIIR"
+        ],
+        "activity_ids": [
+          "T2_ACT_01_GAZEL_HAZIRLIK",
+          "T2_ACT_02_GAZEL_ANLAM",
+          "T2_ACT_03_GAZEL_COZUMLEME",
+          "T2_ACT_04_GAZEL_YANSITMA",
+          "T2_ACT_05_SAF_SIIR_HAZIRLIK",
+          "T2_ACT_06_KALDIRIMLAR_TAHLIL",
+          "T2_ACT_07_SIIR_KARSILASTIRMA"
+        ],
+        "form_ids": [
+          "FORM_T2_GAZEL_GUNLUK"
+        ],
+        "printed_page_locator": "s.84-153",
+        "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+      },
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "NONE",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "coverage_confidence": "VERIFIED_LOCAL_PDF",
+      "teacher_notes": "Direct local MEB PDF page path verifies the required student action/evidence. Where a teacher Dereceli Puanlama Anahtarı is QR-linked, the official EBA link is present in the PDF; its internal rubric structure remains deliberately unclassified and is not treated as a coverage gap."
+    },
+    {
+      "outcome_id": "TDE_10::curriculum_outcome::TEMA_02::TDE2.4",
+      "outcome_code": "TDE2.4",
+      "skill_category": "Okuma",
+      "need_id": "NEED_T10_T2_OKUMA",
+      "resource_plan_id": "PLAN_T10_T2_OKUMA",
+      "curriculum_locator": "curriculum_map.json#TEMA_02/TDE2.4",
+      "textbook_counterpart": {
+        "section_ids": [
+          "T2_SEC_01_OKUMA_GAZEL",
+          "T2_SEC_02_OKUMA_SAF_SIIR"
+        ],
+        "activity_ids": [
+          "T2_ACT_01_GAZEL_HAZIRLIK",
+          "T2_ACT_02_GAZEL_ANLAM",
+          "T2_ACT_03_GAZEL_COZUMLEME",
+          "T2_ACT_04_GAZEL_YANSITMA",
+          "T2_ACT_05_SAF_SIIR_HAZIRLIK",
+          "T2_ACT_06_KALDIRIMLAR_TAHLIL",
+          "T2_ACT_07_SIIR_KARSILASTIRMA"
+        ],
+        "form_ids": [
+          "FORM_T2_GAZEL_GUNLUK"
+        ],
+        "printed_page_locator": "s.84-153",
+        "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+      },
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "NONE",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "coverage_confidence": "VERIFIED_LOCAL_PDF",
+      "teacher_notes": "Direct local MEB PDF page path verifies the required student action/evidence. Where a teacher Dereceli Puanlama Anahtarı is QR-linked, the official EBA link is present in the PDF; its internal rubric structure remains deliberately unclassified and is not treated as a coverage gap."
+    },
+    {
+      "outcome_id": "TDE_10::curriculum_outcome::TEMA_02::TDE3.1",
+      "outcome_code": "TDE3.1",
+      "skill_category": "Konuşma",
+      "need_id": "NEED_T10_T2_KONUSMA",
+      "resource_plan_id": "PLAN_T10_T2_KONUSMA",
+      "curriculum_locator": "curriculum_map.json#TEMA_02/TDE3.1",
+      "textbook_counterpart": {
+        "section_ids": [
+          "T2_SEC_05_KONUSMA_PODCAST"
+        ],
+        "activity_ids": [
+          "T2_ACT_15_PODCAST_PLAN",
+          "T2_ACT_16_PODCAST_URETIM",
+          "T2_ACT_17_PODCAST_YANSITMA"
+        ],
+        "form_ids": [
+          "LINK_T2_PODCAST_DPA",
+          "FORM_T2_PODCAST_YANSITMA"
+        ],
+        "printed_page_locator": "s.84-153",
+        "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+      },
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "NONE",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "coverage_confidence": "VERIFIED_LOCAL_PDF",
+      "teacher_notes": "Direct local MEB PDF page path verifies the required student action/evidence. Where a teacher Dereceli Puanlama Anahtarı is QR-linked, the official EBA link is present in the PDF; its internal rubric structure remains deliberately unclassified and is not treated as a coverage gap."
+    },
+    {
+      "outcome_id": "TDE_10::curriculum_outcome::TEMA_02::TDE3.2",
+      "outcome_code": "TDE3.2",
+      "skill_category": "Konuşma",
+      "need_id": "NEED_T10_T2_KONUSMA",
+      "resource_plan_id": "PLAN_T10_T2_KONUSMA",
+      "curriculum_locator": "curriculum_map.json#TEMA_02/TDE3.2",
+      "textbook_counterpart": {
+        "section_ids": [
+          "T2_SEC_05_KONUSMA_PODCAST"
+        ],
+        "activity_ids": [
+          "T2_ACT_15_PODCAST_PLAN",
+          "T2_ACT_16_PODCAST_URETIM",
+          "T2_ACT_17_PODCAST_YANSITMA"
+        ],
+        "form_ids": [
+          "LINK_T2_PODCAST_DPA",
+          "FORM_T2_PODCAST_YANSITMA"
+        ],
+        "printed_page_locator": "s.84-153",
+        "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+      },
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "NONE",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "coverage_confidence": "VERIFIED_LOCAL_PDF",
+      "teacher_notes": "Direct local MEB PDF page path verifies the required student action/evidence. Where a teacher Dereceli Puanlama Anahtarı is QR-linked, the official EBA link is present in the PDF; its internal rubric structure remains deliberately unclassified and is not treated as a coverage gap."
+    },
+    {
+      "outcome_id": "TDE_10::curriculum_outcome::TEMA_02::TDE3.3",
+      "outcome_code": "TDE3.3",
+      "skill_category": "Konuşma",
+      "need_id": "NEED_T10_T2_KONUSMA",
+      "resource_plan_id": "PLAN_T10_T2_KONUSMA",
+      "curriculum_locator": "curriculum_map.json#TEMA_02/TDE3.3",
+      "textbook_counterpart": {
+        "section_ids": [
+          "T2_SEC_05_KONUSMA_PODCAST"
+        ],
+        "activity_ids": [
+          "T2_ACT_15_PODCAST_PLAN",
+          "T2_ACT_16_PODCAST_URETIM",
+          "T2_ACT_17_PODCAST_YANSITMA"
+        ],
+        "form_ids": [
+          "LINK_T2_PODCAST_DPA",
+          "FORM_T2_PODCAST_YANSITMA"
+        ],
+        "printed_page_locator": "s.84-153",
+        "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+      },
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "NONE",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "coverage_confidence": "VERIFIED_LOCAL_PDF",
+      "teacher_notes": "Direct local MEB PDF page path verifies the required student action/evidence. Where a teacher Dereceli Puanlama Anahtarı is QR-linked, the official EBA link is present in the PDF; its internal rubric structure remains deliberately unclassified and is not treated as a coverage gap."
+    },
+    {
+      "outcome_id": "TDE_10::curriculum_outcome::TEMA_02::TDE3.4",
+      "outcome_code": "TDE3.4",
+      "skill_category": "Konuşma",
+      "need_id": "NEED_T10_T2_KONUSMA",
+      "resource_plan_id": "PLAN_T10_T2_KONUSMA",
+      "curriculum_locator": "curriculum_map.json#TEMA_02/TDE3.4",
+      "textbook_counterpart": {
+        "section_ids": [
+          "T2_SEC_05_KONUSMA_PODCAST"
+        ],
+        "activity_ids": [
+          "T2_ACT_15_PODCAST_PLAN",
+          "T2_ACT_16_PODCAST_URETIM",
+          "T2_ACT_17_PODCAST_YANSITMA"
+        ],
+        "form_ids": [
+          "LINK_T2_PODCAST_DPA",
+          "FORM_T2_PODCAST_YANSITMA"
+        ],
+        "printed_page_locator": "s.84-153",
+        "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+      },
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "NONE",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "coverage_confidence": "VERIFIED_LOCAL_PDF",
+      "teacher_notes": "Direct local MEB PDF page path verifies the required student action/evidence. Where a teacher Dereceli Puanlama Anahtarı is QR-linked, the official EBA link is present in the PDF; its internal rubric structure remains deliberately unclassified and is not treated as a coverage gap."
+    },
+    {
+      "outcome_id": "TDE_10::curriculum_outcome::TEMA_02::TDE4.1",
+      "outcome_code": "TDE4.1",
+      "skill_category": "Yazma",
+      "need_id": "NEED_T10_T2_YAZMA",
+      "resource_plan_id": "PLAN_T10_T2_YAZMA",
+      "curriculum_locator": "curriculum_map.json#TEMA_02/TDE4.1",
+      "textbook_counterpart": {
+        "section_ids": [
+          "T2_SEC_03_YAZMA_DONUSTURME"
+        ],
+        "activity_ids": [
+          "T2_ACT_08_YAZMA_PLAN",
+          "T2_ACT_09_METIN_DONUSTURME",
+          "T2_ACT_10_YAZMA_DEGERLENDIRME"
+        ],
+        "form_ids": [
+          "FORM_T2_YAZMA_KONTROL",
+          "FORM_T2_YAZMA_AKRAN",
+          "LINK_T2_YAZMA_DPA"
+        ],
+        "printed_page_locator": "s.84-153",
+        "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+      },
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "NONE",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "coverage_confidence": "VERIFIED_LOCAL_PDF",
+      "teacher_notes": "Direct local MEB PDF page path verifies the required student action/evidence. Where a teacher Dereceli Puanlama Anahtarı is QR-linked, the official EBA link is present in the PDF; its internal rubric structure remains deliberately unclassified and is not treated as a coverage gap."
+    },
+    {
+      "outcome_id": "TDE_10::curriculum_outcome::TEMA_02::TDE4.2",
+      "outcome_code": "TDE4.2",
+      "skill_category": "Yazma",
+      "need_id": "NEED_T10_T2_YAZMA",
+      "resource_plan_id": "PLAN_T10_T2_YAZMA",
+      "curriculum_locator": "curriculum_map.json#TEMA_02/TDE4.2",
+      "textbook_counterpart": {
+        "section_ids": [
+          "T2_SEC_03_YAZMA_DONUSTURME"
+        ],
+        "activity_ids": [
+          "T2_ACT_08_YAZMA_PLAN",
+          "T2_ACT_09_METIN_DONUSTURME",
+          "T2_ACT_10_YAZMA_DEGERLENDIRME"
+        ],
+        "form_ids": [
+          "FORM_T2_YAZMA_KONTROL",
+          "FORM_T2_YAZMA_AKRAN",
+          "LINK_T2_YAZMA_DPA"
+        ],
+        "printed_page_locator": "s.84-153",
+        "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+      },
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "NONE",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "coverage_confidence": "VERIFIED_LOCAL_PDF",
+      "teacher_notes": "Direct local MEB PDF page path verifies the required student action/evidence. Where a teacher Dereceli Puanlama Anahtarı is QR-linked, the official EBA link is present in the PDF; its internal rubric structure remains deliberately unclassified and is not treated as a coverage gap."
+    },
+    {
+      "outcome_id": "TDE_10::curriculum_outcome::TEMA_02::TDE4.3",
+      "outcome_code": "TDE4.3",
+      "skill_category": "Yazma",
+      "need_id": "NEED_T10_T2_YAZMA",
+      "resource_plan_id": "PLAN_T10_T2_YAZMA",
+      "curriculum_locator": "curriculum_map.json#TEMA_02/TDE4.3",
+      "textbook_counterpart": {
+        "section_ids": [
+          "T2_SEC_03_YAZMA_DONUSTURME"
+        ],
+        "activity_ids": [
+          "T2_ACT_08_YAZMA_PLAN",
+          "T2_ACT_09_METIN_DONUSTURME",
+          "T2_ACT_10_YAZMA_DEGERLENDIRME"
+        ],
+        "form_ids": [
+          "FORM_T2_YAZMA_KONTROL",
+          "FORM_T2_YAZMA_AKRAN",
+          "LINK_T2_YAZMA_DPA"
+        ],
+        "printed_page_locator": "s.84-153",
+        "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+      },
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "NONE",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "coverage_confidence": "VERIFIED_LOCAL_PDF",
+      "teacher_notes": "Direct local MEB PDF page path verifies the required student action/evidence. Where a teacher Dereceli Puanlama Anahtarı is QR-linked, the official EBA link is present in the PDF; its internal rubric structure remains deliberately unclassified and is not treated as a coverage gap."
+    },
+    {
+      "outcome_id": "TDE_10::curriculum_outcome::TEMA_02::TDE4.4",
+      "outcome_code": "TDE4.4",
+      "skill_category": "Yazma",
+      "need_id": "NEED_T10_T2_YAZMA",
+      "resource_plan_id": "PLAN_T10_T2_YAZMA",
+      "curriculum_locator": "curriculum_map.json#TEMA_02/TDE4.4",
+      "textbook_counterpart": {
+        "section_ids": [
+          "T2_SEC_03_YAZMA_DONUSTURME"
+        ],
+        "activity_ids": [
+          "T2_ACT_08_YAZMA_PLAN",
+          "T2_ACT_09_METIN_DONUSTURME",
+          "T2_ACT_10_YAZMA_DEGERLENDIRME"
+        ],
+        "form_ids": [
+          "FORM_T2_YAZMA_KONTROL",
+          "FORM_T2_YAZMA_AKRAN",
+          "LINK_T2_YAZMA_DPA"
+        ],
+        "printed_page_locator": "s.84-153",
+        "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+      },
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "NONE",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "coverage_confidence": "VERIFIED_LOCAL_PDF",
+      "teacher_notes": "Direct local MEB PDF page path verifies the required student action/evidence. Where a teacher Dereceli Puanlama Anahtarı is QR-linked, the official EBA link is present in the PDF; its internal rubric structure remains deliberately unclassified and is not treated as a coverage gap."
+    }
+  ],
+  "decision_rule": "Uninspected QR assessment targets do not become NOT_COVERED and do not authorize GENERATE."
+}

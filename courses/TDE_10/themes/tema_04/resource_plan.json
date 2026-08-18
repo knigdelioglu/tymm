@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_10",
+  "grade": 10,
+  "theme_id": "TEMA_04",
+  "theme_no": 4,
+  "theme_title": "4. TEMA: NESİLLERİN MİRASI",
+  "summary": {
+    "total_planned_items": 4,
+    "required_count": 0,
+    "recommended_count": 0,
+    "optional_count": 0,
+    "not_needed_count": 4,
+    "reuse_textbook_count": 4,
+    "production_decisions": {
+      "REUSE_TEXTBOOK": 4,
+      "GENERATE": 0,
+      "NO_ACTION": 0
+    },
+    "alignment_status": "PASS"
+  },
+  "resources": [
+    {
+      "resource_plan_id": "PLAN_T10_T4_DINLEME",
+      "need_id": "NEED_T10_T4_DINLEME",
+      "resource_type": "reuse_official_textbook_path",
+      "target_outcomes": [
+        "TDE1.1",
+        "TDE1.2",
+        "TDE1.3",
+        "TDE1.4"
+      ],
+      "purpose": "Tema, kültürel mirasın değişim içindeki aktarımını dinleme/izleme metninde yapı, dönem ve değer kanıtları üzerinden değerlendirmeyi gerektirir.",
+      "expected_student_evidence": "Dinleme notları, kısa/açık uçlu cevaplar, gözlem/karşılaştırma formu, gerekçeli eleştiri ve öz değerlendirme.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_04_DINLEME_HIKAYE"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_12_HIKAYE_DINLEME_HAZIRLIK",
+        "T4_ACT_13_KAC_YERINDEN_ANLAM",
+        "T4_ACT_14_HIKAYE_COZUMLEME",
+        "T4_ACT_15_HIKAYE_OZ_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T4_DINLEME_OZ"
+      ],
+      "textbook_resource_locator": "s.234-310",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T4_OKUMA",
+      "need_id": "NEED_T10_T4_OKUMA",
+      "resource_type": "reuse_official_textbook_path",
+      "target_outcomes": [
+        "TDE2.1",
+        "TDE2.2",
+        "TDE2.3",
+        "TDE2.4"
+      ],
+      "purpose": "Tema, kültürel miras ve edebî dönüşümü birden fazla dönem/tür üzerinden karşılaştırmalı biçimde kanıtlamayı gerektirir.",
+      "expected_student_evidence": "Bilgi/kavram haritası, dönem-tür karşılaştırma tablosu, yapı-dil çözümleme cevapları, açık/kısa cevaplı sorular ve öğrenme günlüğü.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_01_OKUMA_DEDE_KORKUT",
+        "T4_SEC_02_OKUMA_TANZIMAT_SIIRI"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_01_DEDE_KORKUT_HAZIRLIK",
+        "T4_ACT_02_SALUR_KAZAN_ANLAM",
+        "T4_ACT_03_DEDE_KORKUT_COZUMLEME",
+        "T4_ACT_04_DEDE_KORKUT_KARSILASTIRMA",
+        "T4_ACT_05_TANZIMAT_HAZIRLIK",
+        "T4_ACT_06_HURRIYET_KASIDESI_TAHLIL",
+        "T4_ACT_07_TANZIMAT_KARSILASTIRMA",
+        "T4_ACT_08_TANZIMAT_YANSITMA"
+      ],
+      "textbook_form_ids": [
+        "FORM_T4_OKUMA_GUNLUK"
+      ],
+      "textbook_resource_locator": "s.234-310",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T4_KONUSMA",
+      "need_id": "NEED_T10_T4_KONUSMA",
+      "resource_type": "reuse_official_textbook_path",
+      "target_outcomes": [
+        "TDE3.1",
+        "TDE3.2",
+        "TDE3.3",
+        "TDE3.4"
+      ],
+      "purpose": "Program Dede Korkut canlandırmasını doğrudan konuşma performansı ve dereceli puanlama anahtarıyla değerlendirilecek kanıt olarak tanımlar.",
+      "expected_student_evidence": "Canlandırma planı, rol/görev dağılımı, sahne/akış taslağı, canlı performans ve rubrik/öz-akran değerlendirmesi.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_03_KONUSMA_CANLANDIRMA"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_09_CANLANDIRMA_PLAN",
+        "T4_ACT_10_CANLANDIRMA_SUNUM",
+        "T4_ACT_11_CANLANDIRMA_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T4_KONUSMA_AKRAN",
+        "FORM_T4_KONUSMA_OZ",
+        "LINK_T4_KONUSMA_DPA"
+      ],
+      "textbook_resource_locator": "s.234-310",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    },
+    {
+      "resource_plan_id": "PLAN_T10_T4_YAZMA",
+      "need_id": "NEED_T10_T4_YAZMA",
+      "resource_type": "reuse_official_textbook_path",
+      "target_outcomes": [
+        "TDE4.1",
+        "TDE4.2",
+        "TDE4.3",
+        "TDE4.4"
+      ],
+      "purpose": "Program hikâyeden şiire türler arası dönüşümü somut yazma performansı ve rubrik kanıtıyla değerlendirmeyi gerektirir.",
+      "expected_student_evidence": "Hikâye-şiir dönüşüm planı, seçilen ana duygu/ileti notları, şiir taslağı, revize edilmiş nihai şiir ve değerlendirme kanıtları.",
+      "priority": "NOT_NEEDED",
+      "rationale": "Direct local MEB textbook PDF inspection shows that the official book already provides the required instructional path and evidence.",
+      "textbook_coverage": "COVERED",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_05_YAZMA_SIIRE_DONUSTURME"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_16_SIIR_DONUSUM_PLAN",
+        "T4_ACT_17_SIIR_DONUSUM_YAZMA",
+        "T4_ACT_18_SIIR_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T4_YAZMA_AKRAN",
+        "FORM_T4_YAZMA_KONTROL",
+        "LINK_T4_YAZMA_DPA"
+      ],
+      "textbook_resource_locator": "s.234-310",
+      "production_decision": "REUSE_TEXTBOOK",
+      "external_source_needed": false,
+      "teacher_review_required": false
+    }
+  ]
+}

@@ -1,1 +1,1187 @@
-{"schema_version":"1.0","course_id":"TDE_10","course_title":"Türk Dili ve Edebiyatı","grade":10,"source_id":"textbook_tde10_tymm_web","book_identity":{"title":"Türk Dili ve Edebiyatı 10. Sınıf Ders Kitabı","publisher":"T.C. Millî Eğitim Bakanlığı / Devlet Kitapları","edition_year":"2025","meb_publication_no":"10147","series_no":"2180","isbn":"978-975-11-8944-8","ttkb_acceptance":"25.06.2025 / 135156433","identity_status":"STRUCTURALLY_MATCHED_TO_OFFICIAL_OGM_THEME_PREVIEWS"},"map_status":"PAGE_LEVEL_DRAFT","verification_status":"OFFICIAL_PREVIEW_STRUCTURE_MATCHED_SECONDARY_TEXT_EXTRACTION_AID","freeze_status":"NOT_FROZEN","primary_source":{"url":"https://tymm.meb.gov.tr/kitap/78/turk-dili-ve-edebiyati-10.sinif-ders-kitabi","role":"PRIMARY_OFFICIAL_TEXTBOOK_LOCATOR","replacement_allowed":false},"extraction_audit_ref":"source_docs/textbook_extraction_audit.json","rights_policy":"No long copyrighted body text; only structure, locators and short paraphrases.","scope_summary":{"total_themes":4,"sections_mapped":24,"activities_mapped":75,"main_text_records":12,"printed_theme_span":"10-310","forms_index_status":"PROVISIONAL_PENDING"},"themes":[{"theme_id":"TEMA_01","theme_no":1,"theme_title":"1. TEMA: SÖZÜN EZGİSİ","printed_page_range":"10-83","official_preview_asset":{"asset_id":6403,"url":"https://ogmmateryal.eba.gov.tr/panel/panel/EKitapUniteOnizle.aspx?Id=6403","identity_status":"OFFICIAL_MEB_THEME_MATCH"},"key_concepts":["sözlü kültür","varyant","ritim","anonim","gelenek","yapı unsurları","olağanüstülük","ahenk","masal anlatıcısı","kurmaca","ezgi","masalın bölümleri"],"sections":[{"section_id":"T1_SEC_01_OKUMA_KOSUK","section_title":"Metin Tahlili-1: Okuma — Koşuk","genre":"Koşuk","printed_page_range":"13-38","source_locator":"OGM_ASSET_6403:s.13-38","main_texts":[{"text_id":"T1_TXT_01","title":"Koşuk","author":null,"genre":"Koşuk","printed_page":17,"source_locator":"OGM_ASSET_6403:s.17"}],"activities":[{"activity_id":"T1_ACT_01_KOSUK_HAZIRLIK","type":"reading_preparation","printed_page":"13-16","student_action":"Okumaya hazırlanma.","expected_student_evidence":"Hazırlık notları.","source_locator":"OGM_ASSET_6403:s.13-16","verification_status":"PROVISIONAL"},{"activity_id":"T1_ACT_02_KOSUK_ANLAM","type":"reading_comprehension","printed_page":"17-24","student_action":"Metinde anlam oluşturma.","expected_student_evidence":"Anlama yanıtları.","source_locator":"OGM_ASSET_6403:s.17-24","verification_status":"PROVISIONAL"},{"activity_id":"T1_ACT_03_KOSUK_COZUMLEME","type":"reading_analysis","printed_page":"21-37","student_action":"Metni çözümleme.","expected_student_evidence":"Tahlil yanıtları.","source_locator":"OGM_ASSET_6403:s.21-37","verification_status":"PROVISIONAL"},{"activity_id":"T1_ACT_04_KOSUK_YANSITMA","type":"reflection","printed_page":"38","student_action":"Öğrenmeyi yansıtma.","expected_student_evidence":"Yansıtma kaydı.","source_locator":"OGM_ASSET_6403:s.38","verification_status":"PROVISIONAL"}]},{"section_id":"T1_SEC_02_OKUMA_TURKU","section_title":"Metin Tahlili-2: Okuma — Türkü","genre":"Türkü","printed_page_range":"39-53","source_locator":"OGM_ASSET_6403:s.39-53","main_texts":[{"text_id":"T1_TXT_02","title":"Turnalar","author":null,"genre":"Türkü","printed_page":42,"source_locator":"OGM_ASSET_6403:s.42"}],"activities":[{"activity_id":"T1_ACT_05_TURKU_HAZIRLIK","type":"reading_preparation","printed_page":"39-41","student_action":"Okumaya hazırlanma.","expected_student_evidence":"Hazırlık notları.","source_locator":"OGM_ASSET_6403:s.39-41","verification_status":"PROVISIONAL"},{"activity_id":"T1_ACT_06_TURKU_TAHLIL","type":"reading_analysis","printed_page":"42-50","student_action":"Metni çözümleme.","expected_student_evidence":"Tahlil yanıtları.","source_locator":"OGM_ASSET_6403:s.42-50","verification_status":"PROVISIONAL"},{"activity_id":"T1_ACT_07_TURKU_CANLANDIRMA","type":"performance_preparation","printed_page":"51-53","student_action":"Performansı planlama.","expected_student_evidence":"Performans planı.","source_locator":"OGM_ASSET_6403:s.51-53","verification_status":"PROVISIONAL"}]},{"section_id":"T1_SEC_03_KONUSMA","section_title":"Edebiyat Atölyesi: Konuşma — Şiir Dinletisi","genre":"Konuşma","printed_page_range":"54-57","source_locator":"OGM_ASSET_6403:s.54-57","main_texts":[],"activities":[{"activity_id":"T1_ACT_08_SIIR_DINLETISI_PLAN","type":"speaking_planning","printed_page":"54-55","student_action":"Konuşmayı planlama.","expected_student_evidence":"Konuşma planı.","source_locator":"OGM_ASSET_6403:s.54-55","verification_status":"PROVISIONAL"},{"activity_id":"T1_ACT_09_SIIR_DINLETISI_SUNUM","type":"speaking_performance","printed_page":"55-56","student_action":"Sözlü sunum yapma.","expected_student_evidence":"Konuşma performansı.","source_locator":"OGM_ASSET_6403:s.55-56","verification_status":"PROVISIONAL"},{"activity_id":"T1_ACT_10_KONUSMA_DEGERLENDIRME","type":"speaking_assessment","printed_page":"56-57","student_action":"Konuşmayı değerlendirme.","expected_student_evidence":"Değerlendirme formu.","source_locator":"OGM_ASSET_6403:s.56-57","verification_status":"PROVISIONAL"}]},{"section_id":"T1_SEC_04_DINLEME_MASAL","section_title":"Metin Tahlili-3: Dinleme/İzleme — Masal","genre":"Masal","printed_page_range":"58-74","source_locator":"OGM_ASSET_6403:s.58-74","main_texts":[{"text_id":"T1_TXT_03","title":"Mercan Kız","author":null,"genre":"Masal","printed_page":63,"source_locator":"OGM_ASSET_6403:s.63"}],"activities":[{"activity_id":"T1_ACT_11_MASAL_HAZIRLIK","type":"listening_preparation","printed_page":"58-62","student_action":"Dinleme/izlemeye hazırlanma.","expected_student_evidence":"Hazırlık notları.","source_locator":"OGM_ASSET_6403:s.58-62","verification_status":"PROVISIONAL"},{"activity_id":"T1_ACT_12_MERCAN_KIZ_TAHLIL","type":"listening_analysis","printed_page":"63-71","student_action":"Dinleme/izleme metnini çözümleme.","expected_student_evidence":"Tahlil yanıtları.","source_locator":"OGM_ASSET_6403:s.63-71","verification_status":"PROVISIONAL"},{"activity_id":"T1_ACT_13_MASAL_YANSITMA","type":"self_assessment","printed_page":"72-74","student_action":"Öz değerlendirme yapma.","expected_student_evidence":"Öz değerlendirme formu.","source_locator":"OGM_ASSET_6403:s.72-74","verification_status":"PROVISIONAL"}]},{"section_id":"T1_SEC_05_YAZMA_FILM_SERIDI","section_title":"Edebiyat Atölyesi: Yazma — Masalı Film Şeridine Dönüştürme","genre":"Yazma","printed_page_range":"75-78","source_locator":"OGM_ASSET_6403:s.75-78","main_texts":[],"activities":[{"activity_id":"T1_ACT_14_FILM_SERIDI_PLAN","type":"writing_planning","printed_page":"75-76","student_action":"Yazmayı planlama.","expected_student_evidence":"Yazma planı.","source_locator":"OGM_ASSET_6403:s.75-76","verification_status":"PROVISIONAL"},{"activity_id":"T1_ACT_15_FILM_SERIDI_URETIM","type":"writing_production","printed_page":"77","student_action":"Yazılı ürün oluşturma.","expected_student_evidence":"Yazılı ürün.","source_locator":"OGM_ASSET_6403:s.77","verification_status":"PROVISIONAL"},{"activity_id":"T1_ACT_16_FILM_SERIDI_DEGERLENDIRME","type":"writing_assessment","printed_page":"77-78","student_action":"Yazıyı değerlendirme ve geliştirme.","expected_student_evidence":"Değerlendirme formu.","source_locator":"OGM_ASSET_6403:s.77-78","verification_status":"PROVISIONAL"}]},{"section_id":"T1_SEC_06_TEMA_SONU","section_title":"1. Tema Ölçme ve Değerlendirme","genre":"Tema Sonu","printed_page_range":"79-83","source_locator":"OGM_ASSET_6403:s.79-83","main_texts":[],"activities":[{"activity_id":"T1_ACT_17_TEMA_YANSITMA","type":"reflection","printed_page":"79","student_action":"Öğrenmeyi yansıtma.","expected_student_evidence":"Yansıtma kaydı.","source_locator":"OGM_ASSET_6403:s.79","verification_status":"PROVISIONAL"},{"activity_id":"T1_ACT_18_TEMA_OLCME","type":"theme_assessment","printed_page":"80-83","student_action":"Tema sonu sorularını yanıtlama.","expected_student_evidence":"Tema değerlendirme cevapları.","source_locator":"OGM_ASSET_6403:s.80-83","verification_status":"PROVISIONAL"}]}]},{"theme_id":"TEMA_02","theme_no":2,"theme_title":"2. TEMA: KELİMELERİN RİTMİ","printed_page_range":"84-153","official_preview_asset":{"asset_id":6407,"url":"https://ogmmateryal.eba.gov.tr/panel/panel/EKitapUniteOnizle.aspx?Id=6407","identity_status":"OFFICIAL_MEB_THEME_MATCH"},"key_concepts":["ritim","sembol","aruz","açık/örtük ileti","gerçeklik","imge","beyit","ahenk unsurları","ölçü","kafiye"],"sections":[{"section_id":"T2_SEC_01_OKUMA_GAZEL","section_title":"Metin Tahlili-1: Okuma — Gazel","genre":"Gazel","printed_page_range":"87-111","source_locator":"OGM_ASSET_6407:s.87-111","main_texts":[{"text_id":"T2_TXT_01","title":"Gazel","author":null,"genre":"Gazel","printed_page":92,"source_locator":"OGM_ASSET_6407:s.92"}],"activities":[{"activity_id":"T2_ACT_01_GAZEL_HAZIRLIK","type":"reading_preparation","printed_page":"87-91","student_action":"Okumaya hazırlanma.","expected_student_evidence":"Hazırlık notları.","source_locator":"OGM_ASSET_6407:s.87-91","verification_status":"PROVISIONAL"},{"activity_id":"T2_ACT_02_GAZEL_ANLAM","type":"reading_comprehension","printed_page":"92-101","student_action":"Metinde anlam oluşturma.","expected_student_evidence":"Anlama yanıtları.","source_locator":"OGM_ASSET_6407:s.92-101","verification_status":"PROVISIONAL"},{"activity_id":"T2_ACT_03_GAZEL_COZUMLEME","type":"reading_analysis","printed_page":"102-109","student_action":"Metni çözümleme.","expected_student_evidence":"Tahlil yanıtları.","source_locator":"OGM_ASSET_6407:s.102-109","verification_status":"PROVISIONAL"},{"activity_id":"T2_ACT_04_GAZEL_YANSITMA","type":"learning_journal","printed_page":"110-111","student_action":"Öğrenme günlüğü tutma.","expected_student_evidence":"Öğrenme günlüğü.","source_locator":"OGM_ASSET_6407:s.110-111","verification_status":"PROVISIONAL"}]},{"section_id":"T2_SEC_02_OKUMA_SAF_SIIR","section_title":"Metin Tahlili-2: Okuma — Saf Şiir","genre":"Saf Şiir","printed_page_range":"112-123","source_locator":"OGM_ASSET_6407:s.112-123","main_texts":[{"text_id":"T2_TXT_02","title":"Kaldırımlar","author":"Necip Fazıl Kısakürek","genre":"Saf Şiir","printed_page":114,"source_locator":"OGM_ASSET_6407:s.114"}],"activities":[{"activity_id":"T2_ACT_05_SAF_SIIR_HAZIRLIK","type":"reading_preparation","printed_page":"112-113","student_action":"Okumaya hazırlanma.","expected_student_evidence":"Hazırlık notları.","source_locator":"OGM_ASSET_6407:s.112-113","verification_status":"PROVISIONAL"},{"activity_id":"T2_ACT_06_KALDIRIMLAR_TAHLIL","type":"reading_analysis","printed_page":"114-120","student_action":"Metni çözümleme.","expected_student_evidence":"Tahlil yanıtları.","source_locator":"OGM_ASSET_6407:s.114-120","verification_status":"PROVISIONAL"},{"activity_id":"T2_ACT_07_SIIR_KARSILASTIRMA","type":"comparative_analysis","printed_page":"121-123","student_action":"Metinleri/ögeleri karşılaştırma.","expected_student_evidence":"Karşılaştırma kaydı.","source_locator":"OGM_ASSET_6407:s.121-123","verification_status":"PROVISIONAL"}]},{"section_id":"T2_SEC_03_YAZMA_DONUSTURME","section_title":"Edebiyat Atölyesi: Yazma — Öğretici Metni Edebî Metne Dönüştürme","genre":"Yazma","printed_page_range":"124-128","source_locator":"OGM_ASSET_6407:s.124-128","main_texts":[],"activities":[{"activity_id":"T2_ACT_08_YAZMA_PLAN","type":"writing_planning","printed_page":"124-126","student_action":"Yazmayı planlama.","expected_student_evidence":"Yazma planı.","source_locator":"OGM_ASSET_6407:s.124-126","verification_status":"PROVISIONAL"},{"activity_id":"T2_ACT_09_METIN_DONUSTURME","type":"writing_production","printed_page":"126-127","student_action":"Yazılı ürün oluşturma.","expected_student_evidence":"Yazılı ürün.","source_locator":"OGM_ASSET_6407:s.126-127","verification_status":"PROVISIONAL"},{"activity_id":"T2_ACT_10_YAZMA_DEGERLENDIRME","type":"writing_assessment","printed_page":"127-128","student_action":"Yazıyı değerlendirme ve geliştirme.","expected_student_evidence":"Değerlendirme formu.","source_locator":"OGM_ASSET_6407:s.127-128","verification_status":"PROVISIONAL"}]},{"section_id":"T2_SEC_04_DINLEME_SOYLESI","section_title":"Metin Tahlili-3: Dinleme/İzleme — Söyleşi","genre":"Söyleşi","printed_page_range":"129-145","source_locator":"OGM_ASSET_6407:s.129-145","main_texts":[{"text_id":"T2_TXT_03","title":"Edebî Söyleşi","author":null,"genre":"Söyleşi","printed_page":131,"source_locator":"OGM_ASSET_6407:s.131"}],"activities":[{"activity_id":"T2_ACT_11_SOYLESI_HAZIRLIK","type":"listening_preparation","printed_page":"129-130","student_action":"Dinleme/izlemeye hazırlanma.","expected_student_evidence":"Hazırlık notları.","source_locator":"OGM_ASSET_6407:s.129-130","verification_status":"PROVISIONAL"},{"activity_id":"T2_ACT_12_SOYLESI_ANLAM","type":"listening_comprehension","printed_page":"131-136","student_action":"Dinleme/izlemede anlam oluşturma.","expected_student_evidence":"Dinleme yanıtları.","source_locator":"OGM_ASSET_6407:s.131-136","verification_status":"PROVISIONAL"},{"activity_id":"T2_ACT_13_SOYLESI_COZUMLEME","type":"listening_analysis","printed_page":"137-143","student_action":"Dinleme/izleme metnini çözümleme.","expected_student_evidence":"Tahlil yanıtları.","source_locator":"OGM_ASSET_6407:s.137-143","verification_status":"PROVISIONAL"},{"activity_id":"T2_ACT_14_SOYLESI_YANSITMA","type":"reflection","printed_page":"144-145","student_action":"Öğrenmeyi yansıtma.","expected_student_evidence":"Yansıtma kaydı.","source_locator":"OGM_ASSET_6407:s.144-145","verification_status":"PROVISIONAL"}]},{"section_id":"T2_SEC_05_KONUSMA_PODCAST","section_title":"Edebiyat Atölyesi: Konuşma — Podcast Hazırlama","genre":"Konuşma","printed_page_range":"146-149","source_locator":"OGM_ASSET_6407:s.146-149","main_texts":[],"activities":[{"activity_id":"T2_ACT_15_PODCAST_PLAN","type":"speaking_planning","printed_page":"146-147","student_action":"Konuşmayı planlama.","expected_student_evidence":"Konuşma planı.","source_locator":"OGM_ASSET_6407:s.146-147","verification_status":"PROVISIONAL"},{"activity_id":"T2_ACT_16_PODCAST_URETIM","type":"speaking_performance","printed_page":"148","student_action":"Sözlü sunum yapma.","expected_student_evidence":"Konuşma performansı.","source_locator":"OGM_ASSET_6407:s.148","verification_status":"PROVISIONAL"},{"activity_id":"T2_ACT_17_PODCAST_YANSITMA","type":"reflection","printed_page":"148-149","student_action":"Öğrenmeyi yansıtma.","expected_student_evidence":"Yansıtma kaydı.","source_locator":"OGM_ASSET_6407:s.148-149","verification_status":"PROVISIONAL"}]},{"section_id":"T2_SEC_06_TEMA_OLCME","section_title":"2. Tema Ölçme ve Değerlendirme","genre":"Tema Sonu","printed_page_range":"150-153","source_locator":"OGM_ASSET_6407:s.150-153","main_texts":[],"activities":[{"activity_id":"T2_ACT_18_TEMA_OLCME","type":"theme_assessment","printed_page":"150-153","student_action":"Tema sonu sorularını yanıtlama.","expected_student_evidence":"Tema değerlendirme cevapları.","source_locator":"OGM_ASSET_6407:s.150-153","verification_status":"PROVISIONAL"}]}]},{"theme_id":"TEMA_03","theme_no":3,"theme_title":"3. TEMA: DÜNDEN BUGÜNE","printed_page_range":"154-233","official_preview_asset":{"asset_id":6834,"url":"https://ogmmateryal.eba.gov.tr/panel/panel/EKitapUniteOnizle.aspx?Id=6834","identity_status":"OFFICIAL_MEB_THEME_MATCH"},"key_concepts":["sözlü gelenek","yapma destan","halk hikâyesi","destan","fabl","kurmaca","motif","olağanüstülük","didaktik üslup","doğal destan","mesnevi","anlatım biçimleri"],"sections":[{"section_id":"T3_SEC_01_OKUMA_DESTAN","section_title":"Metin Tahlili-1: Okuma — Destan","genre":"Destan","printed_page_range":"157-183","source_locator":"OGM_ASSET_6834:s.157-183","main_texts":[{"text_id":"T3_TXT_01","title":"Oğuz Kağan Destanı","author":null,"genre":"Destan","printed_page":160,"source_locator":"OGM_ASSET_6834:s.160"}],"activities":[{"activity_id":"T3_ACT_01_DESTAN_HAZIRLIK","type":"reading_preparation","printed_page":"157-159","student_action":"Okumaya hazırlanma.","expected_student_evidence":"Hazırlık notları.","source_locator":"OGM_ASSET_6834:s.157-159","verification_status":"PROVISIONAL"},{"activity_id":"T3_ACT_02_OGUZ_KAGAN_ANLAM","type":"reading_comprehension","printed_page":"160-171","student_action":"Metinde anlam oluşturma.","expected_student_evidence":"Anlama yanıtları.","source_locator":"OGM_ASSET_6834:s.160-171","verification_status":"PROVISIONAL"},{"activity_id":"T3_ACT_03_DESTAN_COZUMLEME","type":"reading_analysis","printed_page":"172-181","student_action":"Metni çözümleme.","expected_student_evidence":"Tahlil yanıtları.","source_locator":"OGM_ASSET_6834:s.172-181","verification_status":"PROVISIONAL"},{"activity_id":"T3_ACT_04_DESTAN_YANSITMA","type":"reflection","printed_page":"182-183","student_action":"Öğrenmeyi yansıtma.","expected_student_evidence":"Yansıtma kaydı.","source_locator":"OGM_ASSET_6834:s.182-183","verification_status":"PROVISIONAL"}]},{"section_id":"T3_SEC_02_OKUMA_MESNEVI","section_title":"Metin Tahlili-2: Okuma — Mesnevi","genre":"Mesnevi","printed_page_range":"184-203","source_locator":"OGM_ASSET_6834:s.184-203","main_texts":[{"text_id":"T3_TXT_02","title":"Harnâme","author":"Şeyhî","genre":"Mesnevi","printed_page":187,"source_locator":"OGM_ASSET_6834:s.187"}],"activities":[{"activity_id":"T3_ACT_05_MESNEVI_HAZIRLIK","type":"reading_preparation","printed_page":"184-186","student_action":"Okumaya hazırlanma.","expected_student_evidence":"Hazırlık notları.","source_locator":"OGM_ASSET_6834:s.184-186","verification_status":"PROVISIONAL"},{"activity_id":"T3_ACT_06_HARNAME_TAHLIL","type":"reading_analysis","printed_page":"187-198","student_action":"Metni çözümleme.","expected_student_evidence":"Tahlil yanıtları.","source_locator":"OGM_ASSET_6834:s.187-198","verification_status":"PROVISIONAL"},{"activity_id":"T3_ACT_07_MESNEVI_KARSILASTIRMA","type":"comparative_analysis","printed_page":"199-203","student_action":"Metinleri/ögeleri karşılaştırma.","expected_student_evidence":"Karşılaştırma kaydı.","source_locator":"OGM_ASSET_6834:s.199-203","verification_status":"PROVISIONAL"}]},{"section_id":"T3_SEC_03_KONUSMA_DESTAN_SUNUM","section_title":"Edebiyat Atölyesi: Konuşma — Türk Destanları Sunumu","genre":"Konuşma","printed_page_range":"204-208","source_locator":"OGM_ASSET_6834:s.204-208","main_texts":[],"activities":[{"activity_id":"T3_ACT_08_DESTAN_SUNUM_PLAN","type":"speaking_planning","printed_page":"204-206","student_action":"Konuşmayı planlama.","expected_student_evidence":"Konuşma planı.","source_locator":"OGM_ASSET_6834:s.204-206","verification_status":"PROVISIONAL"},{"activity_id":"T3_ACT_09_DESTAN_SUNUM","type":"speaking_performance","printed_page":"206-207","student_action":"Sözlü sunum yapma.","expected_student_evidence":"Konuşma performansı.","source_locator":"OGM_ASSET_6834:s.206-207","verification_status":"PROVISIONAL"},{"activity_id":"T3_ACT_10_KONUSMA_OZ_AKRAN","type":"speaking_assessment","printed_page":"207-208","student_action":"Konuşmayı değerlendirme.","expected_student_evidence":"Değerlendirme formu.","source_locator":"OGM_ASSET_6834:s.207-208","verification_status":"PROVISIONAL"}]},{"section_id":"T3_SEC_04_DINLEME_FABL","section_title":"Metin Tahlili-3: Dinleme/İzleme — Fabl","genre":"Fabl","printed_page_range":"209-223","source_locator":"OGM_ASSET_6834:s.209-223","main_texts":[{"text_id":"T3_TXT_03","title":"Aslan ve Av Hayvanları","author":null,"genre":"Fabl","printed_page":210,"source_locator":"OGM_ASSET_6834:s.210"}],"activities":[{"activity_id":"T3_ACT_11_FABL_DINLEME_HAZIRLIK","type":"listening_preparation","printed_page":"209","student_action":"Dinleme/izlemeye hazırlanma.","expected_student_evidence":"Hazırlık notları.","source_locator":"OGM_ASSET_6834:s.209","verification_status":"PROVISIONAL"},{"activity_id":"T3_ACT_12_FABL_ANLAM","type":"listening_comprehension","printed_page":"210-216","student_action":"Dinleme/izlemede anlam oluşturma.","expected_student_evidence":"Dinleme yanıtları.","source_locator":"OGM_ASSET_6834:s.210-216","verification_status":"PROVISIONAL"},{"activity_id":"T3_ACT_13_FABL_COZUMLEME","type":"listening_analysis","printed_page":"217-221","student_action":"Dinleme/izleme metnini çözümleme.","expected_student_evidence":"Tahlil yanıtları.","source_locator":"OGM_ASSET_6834:s.217-221","verification_status":"PROVISIONAL"},{"activity_id":"T3_ACT_14_FABL_YANSITMA","type":"reflection","printed_page":"222-223","student_action":"Öğrenmeyi yansıtma.","expected_student_evidence":"Yansıtma kaydı.","source_locator":"OGM_ASSET_6834:s.222-223","verification_status":"PROVISIONAL"}]},{"section_id":"T3_SEC_05_YAZMA_FABL","section_title":"Edebiyat Atölyesi: Yazma — Fabl Yazma","genre":"Yazma","printed_page_range":"224-228","source_locator":"OGM_ASSET_6834:s.224-228","main_texts":[],"activities":[{"activity_id":"T3_ACT_15_FABL_YAZMA_PLAN","type":"writing_planning","printed_page":"224-225","student_action":"Yazmayı planlama.","expected_student_evidence":"Yazma planı.","source_locator":"OGM_ASSET_6834:s.224-225","verification_status":"PROVISIONAL"},{"activity_id":"T3_ACT_16_FABL_YAZMA","type":"writing_production","printed_page":"225-227","student_action":"Yazılı ürün oluşturma.","expected_student_evidence":"Yazılı ürün.","source_locator":"OGM_ASSET_6834:s.225-227","verification_status":"PROVISIONAL"},{"activity_id":"T3_ACT_17_FABL_YAZMA_DEGERLENDIRME","type":"writing_assessment","printed_page":"227-228","student_action":"Yazıyı değerlendirme ve geliştirme.","expected_student_evidence":"Değerlendirme formu.","source_locator":"OGM_ASSET_6834:s.227-228","verification_status":"PROVISIONAL"}]},{"section_id":"T3_SEC_06_TEMA_SONU","section_title":"3. Tema Ölçme ve Değerlendirme","genre":"Tema Sonu","printed_page_range":"229-233","source_locator":"OGM_ASSET_6834:s.229-233","main_texts":[],"activities":[{"activity_id":"T3_ACT_18_TEMA_GUNLUK","type":"learning_journal","printed_page":"229","student_action":"Öğrenme günlüğü tutma.","expected_student_evidence":"Öğrenme günlüğü.","source_locator":"OGM_ASSET_6834:s.229","verification_status":"PROVISIONAL"},{"activity_id":"T3_ACT_19_TEMA_OLCME","type":"theme_assessment","printed_page":"230-233","student_action":"Tema sonu sorularını yanıtlama.","expected_student_evidence":"Tema değerlendirme cevapları.","source_locator":"OGM_ASSET_6834:s.230-233","verification_status":"PROVISIONAL"}]}]},{"theme_id":"TEMA_04","theme_no":4,"theme_title":"4. TEMA: NESİLLERİN MİRASI","printed_page_range":"234-310","official_preview_asset":{"asset_id":6409,"url":"https://ogmmateryal.eba.gov.tr/panel/panel/EKitapUniteOnizle.aspx?Id=6409","identity_status":"OFFICIAL_MEB_THEME_MATCH"},"key_concepts":["sözlü kültür","dönem","millî bilinç","olağanüstülük","yaşantı","değişim","kurmaca","şiir","yenilik","millî edebiyat","hikâye"],"sections":[{"section_id":"T4_SEC_01_OKUMA_DEDE_KORKUT","section_title":"Metin Tahlili-1: Okuma — Dede Korkut Hikâyesi","genre":"Dede Korkut Hikâyesi","printed_page_range":"237-263","source_locator":"OGM_ASSET_6409:s.237-263","main_texts":[{"text_id":"T4_TXT_01","title":"Salur Kazan’ın Yedi Başlı Ejderhayı Öldürdüğü Boy","author":null,"genre":"Dede Korkut Hikâyesi","printed_page":242,"source_locator":"OGM_ASSET_6409:s.242"}],"activities":[{"activity_id":"T4_ACT_01_DEDE_KORKUT_HAZIRLIK","type":"reading_preparation","printed_page":"237-241","student_action":"Okumaya hazırlanma.","expected_student_evidence":"Hazırlık notları.","source_locator":"OGM_ASSET_6409:s.237-241","verification_status":"PROVISIONAL"},{"activity_id":"T4_ACT_02_SALUR_KAZAN_ANLAM","type":"reading_comprehension","printed_page":"242-250","student_action":"Metinde anlam oluşturma.","expected_student_evidence":"Anlama yanıtları.","source_locator":"OGM_ASSET_6409:s.242-250","verification_status":"PROVISIONAL"},{"activity_id":"T4_ACT_03_DEDE_KORKUT_COZUMLEME","type":"reading_analysis","printed_page":"251-260","student_action":"Metni çözümleme.","expected_student_evidence":"Tahlil yanıtları.","source_locator":"OGM_ASSET_6409:s.251-260","verification_status":"PROVISIONAL"},{"activity_id":"T4_ACT_04_DEDE_KORKUT_KARSILASTIRMA","type":"learning_journal","printed_page":"261-263","student_action":"Öğrenme günlüğü tutma.","expected_student_evidence":"Öğrenme günlüğü.","source_locator":"OGM_ASSET_6409:s.261-263","verification_status":"PROVISIONAL"}]},{"section_id":"T4_SEC_02_OKUMA_TANZIMAT_SIIRI","section_title":"Metin Tahlili-2: Okuma — Tanzimat Şiiri","genre":"Tanzimat Şiiri","printed_page_range":"264-279","source_locator":"OGM_ASSET_6409:s.264-279","main_texts":[{"text_id":"T4_TXT_02","title":"Hürriyet Kasîdesi","author":"Namık Kemal","genre":"Tanzimat Şiiri","printed_page":266,"source_locator":"OGM_ASSET_6409:s.266"}],"activities":[{"activity_id":"T4_ACT_05_TANZIMAT_HAZIRLIK","type":"reading_preparation","printed_page":"264-265","student_action":"Okumaya hazırlanma.","expected_student_evidence":"Hazırlık notları.","source_locator":"OGM_ASSET_6409:s.264-265","verification_status":"PROVISIONAL"},{"activity_id":"T4_ACT_06_HURRIYET_KASIDESI_TAHLIL","type":"reading_analysis","printed_page":"266-270","student_action":"Metni çözümleme.","expected_student_evidence":"Tahlil yanıtları.","source_locator":"OGM_ASSET_6409:s.266-270","verification_status":"PROVISIONAL"},{"activity_id":"T4_ACT_07_TANZIMAT_KARSILASTIRMA","type":"comparative_analysis","printed_page":"271-278","student_action":"Metinleri/ögeleri karşılaştırma.","expected_student_evidence":"Karşılaştırma kaydı.","source_locator":"OGM_ASSET_6409:s.271-278","verification_status":"PROVISIONAL"},{"activity_id":"T4_ACT_08_TANZIMAT_YANSITMA","type":"reflection","printed_page":"279","student_action":"Öğrenmeyi yansıtma.","expected_student_evidence":"Yansıtma kaydı.","source_locator":"OGM_ASSET_6409:s.279","verification_status":"PROVISIONAL"}]},{"section_id":"T4_SEC_03_KONUSMA_CANLANDIRMA","section_title":"Edebiyat Atölyesi: Konuşma — Dede Korkut Canlandırması","genre":"Konuşma","printed_page_range":"280-282","source_locator":"OGM_ASSET_6409:s.280-282","main_texts":[],"activities":[{"activity_id":"T4_ACT_09_CANLANDIRMA_PLAN","type":"speaking_planning","printed_page":"280","student_action":"Konuşmayı planlama.","expected_student_evidence":"Konuşma planı.","source_locator":"OGM_ASSET_6409:s.280","verification_status":"PROVISIONAL"},{"activity_id":"T4_ACT_10_CANLANDIRMA_SUNUM","type":"speaking_performance","printed_page":"281","student_action":"Sözlü sunum yapma.","expected_student_evidence":"Konuşma performansı.","source_locator":"OGM_ASSET_6409:s.281","verification_status":"PROVISIONAL"},{"activity_id":"T4_ACT_11_CANLANDIRMA_DEGERLENDIRME","type":"speaking_assessment","printed_page":"282","student_action":"Konuşmayı değerlendirme.","expected_student_evidence":"Değerlendirme formu.","source_locator":"OGM_ASSET_6409:s.282","verification_status":"PROVISIONAL"}]},{"section_id":"T4_SEC_04_DINLEME_HIKAYE","section_title":"Metin Tahlili-3: Dinleme/İzleme — Millî Edebiyat Hikâyesi","genre":"Hikâye","printed_page_range":"283-301","source_locator":"OGM_ASSET_6409:s.283-301","main_texts":[{"text_id":"T4_TXT_03","title":"Kaç Yerinden","author":null,"genre":"Millî Edebiyat Hikâyesi","printed_page":286,"source_locator":"OGM_ASSET_6409:s.286"}],"activities":[{"activity_id":"T4_ACT_12_HIKAYE_DINLEME_HAZIRLIK","type":"listening_preparation","printed_page":"283-285","student_action":"Dinleme/izlemeye hazırlanma.","expected_student_evidence":"Hazırlık notları.","source_locator":"OGM_ASSET_6409:s.283-285","verification_status":"PROVISIONAL"},{"activity_id":"T4_ACT_13_KAC_YERINDEN_ANLAM","type":"listening_comprehension","printed_page":"286-296","student_action":"Dinleme/izlemede anlam oluşturma.","expected_student_evidence":"Dinleme yanıtları.","source_locator":"OGM_ASSET_6409:s.286-296","verification_status":"PROVISIONAL"},{"activity_id":"T4_ACT_14_HIKAYE_COZUMLEME","type":"listening_analysis","printed_page":"297-300","student_action":"Dinleme/izleme metnini çözümleme.","expected_student_evidence":"Tahlil yanıtları.","source_locator":"OGM_ASSET_6409:s.297-300","verification_status":"PROVISIONAL"},{"activity_id":"T4_ACT_15_HIKAYE_OZ_DEGERLENDIRME","type":"self_assessment","printed_page":"301","student_action":"Öz değerlendirme yapma.","expected_student_evidence":"Öz değerlendirme formu.","source_locator":"OGM_ASSET_6409:s.301","verification_status":"PROVISIONAL"}]},{"section_id":"T4_SEC_05_YAZMA_SIIRE_DONUSTURME","section_title":"Edebiyat Atölyesi: Yazma — Hikâyeyi Şiire Dönüştürme","genre":"Yazma","printed_page_range":"302-305","source_locator":"OGM_ASSET_6409:s.302-305","main_texts":[],"activities":[{"activity_id":"T4_ACT_16_SIIR_DONUSUM_PLAN","type":"writing_planning","printed_page":"302","student_action":"Yazmayı planlama.","expected_student_evidence":"Yazma planı.","source_locator":"OGM_ASSET_6409:s.302","verification_status":"PROVISIONAL"},{"activity_id":"T4_ACT_17_SIIR_DONUSUM_YAZMA","type":"writing_production","printed_page":"303","student_action":"Yazılı ürün oluşturma.","expected_student_evidence":"Yazılı ürün.","source_locator":"OGM_ASSET_6409:s.303","verification_status":"PROVISIONAL"},{"activity_id":"T4_ACT_18_SIIR_DEGERLENDIRME","type":"writing_assessment","printed_page":"304-305","student_action":"Yazıyı değerlendirme ve geliştirme.","expected_student_evidence":"Değerlendirme formu.","source_locator":"OGM_ASSET_6409:s.304-305","verification_status":"PROVISIONAL"}]},{"section_id":"T4_SEC_06_TEMA_SONU","section_title":"4. Tema Ölçme ve Değerlendirme","genre":"Tema Sonu","printed_page_range":"306-310","source_locator":"OGM_ASSET_6409:s.306-310","main_texts":[],"activities":[{"activity_id":"T4_ACT_19_TEMA_GUNLUK","type":"learning_journal","printed_page":"306","student_action":"Öğrenme günlüğü tutma.","expected_student_evidence":"Öğrenme günlüğü.","source_locator":"OGM_ASSET_6409:s.306","verification_status":"PROVISIONAL"},{"activity_id":"T4_ACT_20_TEMA_OLCME","type":"theme_assessment","printed_page":"307-310","student_action":"Tema sonu sorularını yanıtlama.","expected_student_evidence":"Tema değerlendirme cevapları.","source_locator":"OGM_ASSET_6409:s.307-310","verification_status":"PROVISIONAL"}]}]}]}
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_10",
+  "course_title": "Türk Dili ve Edebiyatı",
+  "grade": 10,
+  "source_id": "textbook_tde10_local_pdf",
+  "book_identity": {
+    "title": "Türk Dili ve Edebiyatı 10. Sınıf Ders Kitabı",
+    "publisher": "T.C. Millî Eğitim Bakanlığı / Devlet Kitapları",
+    "edition_year": "2025",
+    "meb_publication_no": "10147",
+    "series_no": "2180",
+    "isbn": "978-975-11-8944-8",
+    "ttkb_acceptance": "25.06.2025 / 135156433",
+    "identity_status": "STRUCTURALLY_MATCHED_TO_OFFICIAL_OGM_THEME_PREVIEWS"
+  },
+  "map_status": "PAGE_LEVEL_MAPPED_FROM_LOCAL_OFFICIAL_PDF",
+  "verification_status": "LOCAL_OFFICIAL_PDF_IDENTITY_PAGE_STRUCTURE_AND_ACTIVITY_PATH_VERIFIED",
+  "freeze_status": "VERIFIED_NOT_FROZEN_PENDING_CURRICULUM_FREEZE",
+  "primary_source": {
+    "source_id": "textbook_tde10_local_pdf",
+    "file_path": "source_docs/turk-dili-ve-edebiyati-10.pdf",
+    "role": "PRIMARY_ANALYSIS_SNAPSHOT",
+    "edition_year": "2025",
+    "isbn": "978-975-11-8944-8",
+    "ttkb_acceptance": "25.06.2025 / 135156433",
+    "page_count_pdf": 319,
+    "printed_to_pdf_offset": 1,
+    "verification_status": "VERIFIED"
+  },
+  "extraction_audit_ref": "source_docs/textbook_extraction_audit.json",
+  "rights_policy": "No long copyrighted body text; only structure, locators and short paraphrases.",
+  "scope_summary": {
+    "total_themes": 4,
+    "sections_mapped": 24,
+    "activities_mapped": true,
+    "main_text_records": 12,
+    "printed_theme_span": "10-310",
+    "forms_index_status": "PROVISIONAL_PENDING",
+    "theme_content_extracted": true,
+    "assessment_forms_mapped": true,
+    "printed_page_locator_semantics": "Local PDF verified: PDF page = printed page + 1."
+  },
+  "themes": [
+    {
+      "theme_id": "TEMA_01",
+      "theme_no": 1,
+      "theme_title": "1. TEMA: SÖZÜN EZGİSİ",
+      "printed_page_range": "10-83",
+      "official_preview_asset": {
+        "asset_id": 6403,
+        "url": "https://ogmmateryal.eba.gov.tr/panel/panel/EKitapUniteOnizle.aspx?Id=6403",
+        "identity_status": "OFFICIAL_MEB_THEME_MATCH"
+      },
+      "key_concepts": [
+        "sözlü kültür",
+        "varyant",
+        "ritim",
+        "anonim",
+        "gelenek",
+        "yapı unsurları",
+        "olağanüstülük",
+        "ahenk",
+        "masal anlatıcısı",
+        "kurmaca",
+        "ezgi",
+        "masalın bölümleri"
+      ],
+      "sections": [
+        {
+          "section_id": "T1_SEC_01_OKUMA_KOSUK",
+          "section_title": "Metin Tahlili-1: Okuma — Koşuk",
+          "genre": "Koşuk",
+          "printed_page_range": "13-38",
+          "source_locator": "OGM_ASSET_6403:s.13-38",
+          "main_texts": [
+            {
+              "text_id": "T1_TXT_01",
+              "title": "Koşuk",
+              "author": null,
+              "genre": "Koşuk",
+              "printed_page": 17,
+              "source_locator": "OGM_ASSET_6403:s.17"
+            }
+          ],
+          "activities": [
+            {
+              "activity_id": "T1_ACT_01_KOSUK_HAZIRLIK",
+              "type": "reading_preparation",
+              "printed_page": "13-16",
+              "student_action": "Okumaya hazırlanma.",
+              "expected_student_evidence": "Hazırlık notları.",
+              "source_locator": "OGM_ASSET_6403:s.13-16",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T1_ACT_02_KOSUK_ANLAM",
+              "type": "reading_comprehension",
+              "printed_page": "17-24",
+              "student_action": "Metinde anlam oluşturma.",
+              "expected_student_evidence": "Anlama yanıtları.",
+              "source_locator": "OGM_ASSET_6403:s.17-24",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T1_ACT_03_KOSUK_COZUMLEME",
+              "type": "reading_analysis",
+              "printed_page": "21-37",
+              "student_action": "Metni çözümleme.",
+              "expected_student_evidence": "Tahlil yanıtları.",
+              "source_locator": "OGM_ASSET_6403:s.21-37",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T1_ACT_04_KOSUK_YANSITMA",
+              "type": "reflection",
+              "printed_page": "38",
+              "student_action": "Öğrenmeyi yansıtma.",
+              "expected_student_evidence": "Yansıtma kaydı.",
+              "source_locator": "OGM_ASSET_6403:s.38",
+              "verification_status": "PROVISIONAL"
+            }
+          ]
+        },
+        {
+          "section_id": "T1_SEC_02_OKUMA_TURKU",
+          "section_title": "Metin Tahlili-2: Okuma — Türkü",
+          "genre": "Türkü",
+          "printed_page_range": "39-53",
+          "source_locator": "OGM_ASSET_6403:s.39-53",
+          "main_texts": [
+            {
+              "text_id": "T1_TXT_02",
+              "title": "Turnalar",
+              "author": null,
+              "genre": "Türkü",
+              "printed_page": 42,
+              "source_locator": "OGM_ASSET_6403:s.42"
+            }
+          ],
+          "activities": [
+            {
+              "activity_id": "T1_ACT_05_TURKU_HAZIRLIK",
+              "type": "reading_preparation",
+              "printed_page": "39-41",
+              "student_action": "Okumaya hazırlanma.",
+              "expected_student_evidence": "Hazırlık notları.",
+              "source_locator": "OGM_ASSET_6403:s.39-41",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T1_ACT_06_TURKU_TAHLIL",
+              "type": "reading_analysis",
+              "printed_page": "42-50",
+              "student_action": "Metni çözümleme.",
+              "expected_student_evidence": "Tahlil yanıtları.",
+              "source_locator": "OGM_ASSET_6403:s.42-50",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T1_ACT_07_TURKU_CANLANDIRMA",
+              "type": "performance_preparation",
+              "printed_page": "51-53",
+              "student_action": "Performansı planlama.",
+              "expected_student_evidence": "Performans planı.",
+              "source_locator": "OGM_ASSET_6403:s.51-53",
+              "verification_status": "PROVISIONAL"
+            }
+          ]
+        },
+        {
+          "section_id": "T1_SEC_03_KONUSMA",
+          "section_title": "Edebiyat Atölyesi: Konuşma — Şiir Dinletisi",
+          "genre": "Konuşma",
+          "printed_page_range": "54-57",
+          "source_locator": "OGM_ASSET_6403:s.54-57",
+          "main_texts": [],
+          "activities": [
+            {
+              "activity_id": "T1_ACT_08_SIIR_DINLETISI_PLAN",
+              "type": "speaking_planning",
+              "printed_page": "54-55",
+              "student_action": "Konuşmayı planlama.",
+              "expected_student_evidence": "Konuşma planı.",
+              "source_locator": "OGM_ASSET_6403:s.54-55",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T1_ACT_09_SIIR_DINLETISI_SUNUM",
+              "type": "speaking_performance",
+              "printed_page": "55-56",
+              "student_action": "Sözlü sunum yapma.",
+              "expected_student_evidence": "Konuşma performansı.",
+              "source_locator": "OGM_ASSET_6403:s.55-56",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T1_ACT_10_KONUSMA_DEGERLENDIRME",
+              "type": "speaking_assessment",
+              "printed_page": "56-57",
+              "student_action": "Konuşmayı değerlendirme.",
+              "expected_student_evidence": "Değerlendirme formu.",
+              "source_locator": "OGM_ASSET_6403:s.56-57",
+              "verification_status": "PROVISIONAL"
+            }
+          ]
+        },
+        {
+          "section_id": "T1_SEC_04_DINLEME_MASAL",
+          "section_title": "Metin Tahlili-3: Dinleme/İzleme — Masal",
+          "genre": "Masal",
+          "printed_page_range": "58-74",
+          "source_locator": "OGM_ASSET_6403:s.58-74",
+          "main_texts": [
+            {
+              "text_id": "T1_TXT_03",
+              "title": "Mercan Kız",
+              "author": null,
+              "genre": "Masal",
+              "printed_page": 63,
+              "source_locator": "OGM_ASSET_6403:s.63"
+            }
+          ],
+          "activities": [
+            {
+              "activity_id": "T1_ACT_11_MASAL_HAZIRLIK",
+              "type": "listening_preparation",
+              "printed_page": "58-62",
+              "student_action": "Dinleme/izlemeye hazırlanma.",
+              "expected_student_evidence": "Hazırlık notları.",
+              "source_locator": "OGM_ASSET_6403:s.58-62",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T1_ACT_12_MERCAN_KIZ_TAHLIL",
+              "type": "listening_analysis",
+              "printed_page": "63-71",
+              "student_action": "Dinleme/izleme metnini çözümleme.",
+              "expected_student_evidence": "Tahlil yanıtları.",
+              "source_locator": "OGM_ASSET_6403:s.63-71",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T1_ACT_13_MASAL_YANSITMA",
+              "type": "self_assessment",
+              "printed_page": "72-74",
+              "student_action": "Öz değerlendirme yapma.",
+              "expected_student_evidence": "Öz değerlendirme formu.",
+              "source_locator": "OGM_ASSET_6403:s.72-74",
+              "verification_status": "PROVISIONAL"
+            }
+          ]
+        },
+        {
+          "section_id": "T1_SEC_05_YAZMA_FILM_SERIDI",
+          "section_title": "Edebiyat Atölyesi: Yazma — Masalı Film Şeridine Dönüştürme",
+          "genre": "Yazma",
+          "printed_page_range": "75-78",
+          "source_locator": "OGM_ASSET_6403:s.75-78",
+          "main_texts": [],
+          "activities": [
+            {
+              "activity_id": "T1_ACT_14_FILM_SERIDI_PLAN",
+              "type": "writing_planning",
+              "printed_page": "75-76",
+              "student_action": "Yazmayı planlama.",
+              "expected_student_evidence": "Yazma planı.",
+              "source_locator": "OGM_ASSET_6403:s.75-76",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T1_ACT_15_FILM_SERIDI_URETIM",
+              "type": "writing_production",
+              "printed_page": "77",
+              "student_action": "Yazılı ürün oluşturma.",
+              "expected_student_evidence": "Yazılı ürün.",
+              "source_locator": "OGM_ASSET_6403:s.77",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T1_ACT_16_FILM_SERIDI_DEGERLENDIRME",
+              "type": "writing_assessment",
+              "printed_page": "77-78",
+              "student_action": "Yazıyı değerlendirme ve geliştirme.",
+              "expected_student_evidence": "Değerlendirme formu.",
+              "source_locator": "OGM_ASSET_6403:s.77-78",
+              "verification_status": "PROVISIONAL"
+            }
+          ]
+        },
+        {
+          "section_id": "T1_SEC_06_TEMA_SONU",
+          "section_title": "1. Tema Ölçme ve Değerlendirme",
+          "genre": "Tema Sonu",
+          "printed_page_range": "79-83",
+          "source_locator": "OGM_ASSET_6403:s.79-83",
+          "main_texts": [],
+          "activities": [
+            {
+              "activity_id": "T1_ACT_17_TEMA_YANSITMA",
+              "type": "reflection",
+              "printed_page": "79",
+              "student_action": "Öğrenmeyi yansıtma.",
+              "expected_student_evidence": "Yansıtma kaydı.",
+              "source_locator": "OGM_ASSET_6403:s.79",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T1_ACT_18_TEMA_OLCME",
+              "type": "theme_assessment",
+              "printed_page": "80-83",
+              "student_action": "Tema sonu sorularını yanıtlama.",
+              "expected_student_evidence": "Tema değerlendirme cevapları.",
+              "source_locator": "OGM_ASSET_6403:s.80-83",
+              "verification_status": "PROVISIONAL"
+            }
+          ]
+        }
+      ],
+      "content_extraction_status": "LOCAL_PDF_PAGE_LEVEL_VERIFIED",
+      "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+    },
+    {
+      "theme_id": "TEMA_02",
+      "theme_no": 2,
+      "theme_title": "2. TEMA: KELİMELERİN RİTMİ",
+      "printed_page_range": "84-153",
+      "official_preview_asset": {
+        "asset_id": 6407,
+        "url": "https://ogmmateryal.eba.gov.tr/panel/panel/EKitapUniteOnizle.aspx?Id=6407",
+        "identity_status": "OFFICIAL_MEB_THEME_MATCH"
+      },
+      "key_concepts": [
+        "ritim",
+        "sembol",
+        "aruz",
+        "açık/örtük ileti",
+        "gerçeklik",
+        "imge",
+        "beyit",
+        "ahenk unsurları",
+        "ölçü",
+        "kafiye"
+      ],
+      "sections": [
+        {
+          "section_id": "T2_SEC_01_OKUMA_GAZEL",
+          "section_title": "Metin Tahlili-1: Okuma — Gazel",
+          "genre": "Gazel",
+          "printed_page_range": "87-111",
+          "source_locator": "OGM_ASSET_6407:s.87-111",
+          "main_texts": [
+            {
+              "text_id": "T2_TXT_01",
+              "title": "Gazel",
+              "author": null,
+              "genre": "Gazel",
+              "printed_page": 92,
+              "source_locator": "OGM_ASSET_6407:s.92"
+            }
+          ],
+          "activities": [
+            {
+              "activity_id": "T2_ACT_01_GAZEL_HAZIRLIK",
+              "type": "reading_preparation",
+              "printed_page": "87-91",
+              "student_action": "Okumaya hazırlanma.",
+              "expected_student_evidence": "Hazırlık notları.",
+              "source_locator": "OGM_ASSET_6407:s.87-91",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T2_ACT_02_GAZEL_ANLAM",
+              "type": "reading_comprehension",
+              "printed_page": "92-101",
+              "student_action": "Metinde anlam oluşturma.",
+              "expected_student_evidence": "Anlama yanıtları.",
+              "source_locator": "OGM_ASSET_6407:s.92-101",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T2_ACT_03_GAZEL_COZUMLEME",
+              "type": "reading_analysis",
+              "printed_page": "102-109",
+              "student_action": "Metni çözümleme.",
+              "expected_student_evidence": "Tahlil yanıtları.",
+              "source_locator": "OGM_ASSET_6407:s.102-109",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T2_ACT_04_GAZEL_YANSITMA",
+              "type": "learning_journal",
+              "printed_page": "110-111",
+              "student_action": "Öğrenme günlüğü tutma.",
+              "expected_student_evidence": "Öğrenme günlüğü.",
+              "source_locator": "OGM_ASSET_6407:s.110-111",
+              "verification_status": "PROVISIONAL"
+            }
+          ]
+        },
+        {
+          "section_id": "T2_SEC_02_OKUMA_SAF_SIIR",
+          "section_title": "Metin Tahlili-2: Okuma — Saf Şiir",
+          "genre": "Saf Şiir",
+          "printed_page_range": "112-123",
+          "source_locator": "OGM_ASSET_6407:s.112-123",
+          "main_texts": [
+            {
+              "text_id": "T2_TXT_02",
+              "title": "Kaldırımlar",
+              "author": "Necip Fazıl Kısakürek",
+              "genre": "Saf Şiir",
+              "printed_page": 114,
+              "source_locator": "OGM_ASSET_6407:s.114"
+            }
+          ],
+          "activities": [
+            {
+              "activity_id": "T2_ACT_05_SAF_SIIR_HAZIRLIK",
+              "type": "reading_preparation",
+              "printed_page": "112-113",
+              "student_action": "Okumaya hazırlanma.",
+              "expected_student_evidence": "Hazırlık notları.",
+              "source_locator": "OGM_ASSET_6407:s.112-113",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T2_ACT_06_KALDIRIMLAR_TAHLIL",
+              "type": "reading_analysis",
+              "printed_page": "114-120",
+              "student_action": "Metni çözümleme.",
+              "expected_student_evidence": "Tahlil yanıtları.",
+              "source_locator": "OGM_ASSET_6407:s.114-120",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T2_ACT_07_SIIR_KARSILASTIRMA",
+              "type": "comparative_analysis",
+              "printed_page": "121-123",
+              "student_action": "Metinleri/ögeleri karşılaştırma.",
+              "expected_student_evidence": "Karşılaştırma kaydı.",
+              "source_locator": "OGM_ASSET_6407:s.121-123",
+              "verification_status": "PROVISIONAL"
+            }
+          ]
+        },
+        {
+          "section_id": "T2_SEC_03_YAZMA_DONUSTURME",
+          "section_title": "Edebiyat Atölyesi: Yazma — Öğretici Metni Edebî Metne Dönüştürme",
+          "genre": "Yazma",
+          "printed_page_range": "124-128",
+          "source_locator": "OGM_ASSET_6407:s.124-128",
+          "main_texts": [],
+          "activities": [
+            {
+              "activity_id": "T2_ACT_08_YAZMA_PLAN",
+              "type": "writing_planning",
+              "printed_page": "124-126",
+              "student_action": "Yazmayı planlama.",
+              "expected_student_evidence": "Yazma planı.",
+              "source_locator": "OGM_ASSET_6407:s.124-126",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T2_ACT_09_METIN_DONUSTURME",
+              "type": "writing_production",
+              "printed_page": "126-127",
+              "student_action": "Yazılı ürün oluşturma.",
+              "expected_student_evidence": "Yazılı ürün.",
+              "source_locator": "OGM_ASSET_6407:s.126-127",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T2_ACT_10_YAZMA_DEGERLENDIRME",
+              "type": "writing_assessment",
+              "printed_page": "127-128",
+              "student_action": "Yazıyı değerlendirme ve geliştirme.",
+              "expected_student_evidence": "Değerlendirme formu.",
+              "source_locator": "OGM_ASSET_6407:s.127-128",
+              "verification_status": "PROVISIONAL"
+            }
+          ]
+        },
+        {
+          "section_id": "T2_SEC_04_DINLEME_SOYLESI",
+          "section_title": "Metin Tahlili-3: Dinleme/İzleme — Söyleşi",
+          "genre": "Söyleşi",
+          "printed_page_range": "129-145",
+          "source_locator": "OGM_ASSET_6407:s.129-145",
+          "main_texts": [
+            {
+              "text_id": "T2_TXT_03",
+              "title": "Edebî Söyleşi",
+              "author": null,
+              "genre": "Söyleşi",
+              "printed_page": 131,
+              "source_locator": "OGM_ASSET_6407:s.131"
+            }
+          ],
+          "activities": [
+            {
+              "activity_id": "T2_ACT_11_SOYLESI_HAZIRLIK",
+              "type": "listening_preparation",
+              "printed_page": "129-130",
+              "student_action": "Dinleme/izlemeye hazırlanma.",
+              "expected_student_evidence": "Hazırlık notları.",
+              "source_locator": "OGM_ASSET_6407:s.129-130",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T2_ACT_12_SOYLESI_ANLAM",
+              "type": "listening_comprehension",
+              "printed_page": "131-136",
+              "student_action": "Dinleme/izlemede anlam oluşturma.",
+              "expected_student_evidence": "Dinleme yanıtları.",
+              "source_locator": "OGM_ASSET_6407:s.131-136",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T2_ACT_13_SOYLESI_COZUMLEME",
+              "type": "listening_analysis",
+              "printed_page": "137-143",
+              "student_action": "Dinleme/izleme metnini çözümleme.",
+              "expected_student_evidence": "Tahlil yanıtları.",
+              "source_locator": "OGM_ASSET_6407:s.137-143",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T2_ACT_14_SOYLESI_YANSITMA",
+              "type": "reflection",
+              "printed_page": "144-145",
+              "student_action": "Öğrenmeyi yansıtma.",
+              "expected_student_evidence": "Yansıtma kaydı.",
+              "source_locator": "OGM_ASSET_6407:s.144-145",
+              "verification_status": "PROVISIONAL"
+            }
+          ]
+        },
+        {
+          "section_id": "T2_SEC_05_KONUSMA_PODCAST",
+          "section_title": "Edebiyat Atölyesi: Konuşma — Podcast Hazırlama",
+          "genre": "Konuşma",
+          "printed_page_range": "146-149",
+          "source_locator": "OGM_ASSET_6407:s.146-149",
+          "main_texts": [],
+          "activities": [
+            {
+              "activity_id": "T2_ACT_15_PODCAST_PLAN",
+              "type": "speaking_planning",
+              "printed_page": "146-147",
+              "student_action": "Konuşmayı planlama.",
+              "expected_student_evidence": "Konuşma planı.",
+              "source_locator": "OGM_ASSET_6407:s.146-147",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T2_ACT_16_PODCAST_URETIM",
+              "type": "speaking_performance",
+              "printed_page": "148",
+              "student_action": "Sözlü sunum yapma.",
+              "expected_student_evidence": "Konuşma performansı.",
+              "source_locator": "OGM_ASSET_6407:s.148",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T2_ACT_17_PODCAST_YANSITMA",
+              "type": "reflection",
+              "printed_page": "148-149",
+              "student_action": "Öğrenmeyi yansıtma.",
+              "expected_student_evidence": "Yansıtma kaydı.",
+              "source_locator": "OGM_ASSET_6407:s.148-149",
+              "verification_status": "PROVISIONAL"
+            }
+          ]
+        },
+        {
+          "section_id": "T2_SEC_06_TEMA_OLCME",
+          "section_title": "2. Tema Ölçme ve Değerlendirme",
+          "genre": "Tema Sonu",
+          "printed_page_range": "150-153",
+          "source_locator": "OGM_ASSET_6407:s.150-153",
+          "main_texts": [],
+          "activities": [
+            {
+              "activity_id": "T2_ACT_18_TEMA_OLCME",
+              "type": "theme_assessment",
+              "printed_page": "150-153",
+              "student_action": "Tema sonu sorularını yanıtlama.",
+              "expected_student_evidence": "Tema değerlendirme cevapları.",
+              "source_locator": "OGM_ASSET_6407:s.150-153",
+              "verification_status": "PROVISIONAL"
+            }
+          ]
+        }
+      ],
+      "content_extraction_status": "LOCAL_PDF_PAGE_LEVEL_VERIFIED",
+      "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+    },
+    {
+      "theme_id": "TEMA_03",
+      "theme_no": 3,
+      "theme_title": "3. TEMA: DÜNDEN BUGÜNE",
+      "printed_page_range": "154-233",
+      "official_preview_asset": {
+        "asset_id": 6834,
+        "url": "https://ogmmateryal.eba.gov.tr/panel/panel/EKitapUniteOnizle.aspx?Id=6834",
+        "identity_status": "OFFICIAL_MEB_THEME_MATCH"
+      },
+      "key_concepts": [
+        "sözlü gelenek",
+        "yapma destan",
+        "halk hikâyesi",
+        "destan",
+        "fabl",
+        "kurmaca",
+        "motif",
+        "olağanüstülük",
+        "didaktik üslup",
+        "doğal destan",
+        "mesnevi",
+        "anlatım biçimleri"
+      ],
+      "sections": [
+        {
+          "section_id": "T3_SEC_01_OKUMA_DESTAN",
+          "section_title": "Metin Tahlili-1: Okuma — Destan",
+          "genre": "Destan",
+          "printed_page_range": "157-183",
+          "source_locator": "OGM_ASSET_6834:s.157-183",
+          "main_texts": [
+            {
+              "text_id": "T3_TXT_01",
+              "title": "Oğuz Kağan Destanı",
+              "author": null,
+              "genre": "Destan",
+              "printed_page": 160,
+              "source_locator": "OGM_ASSET_6834:s.160"
+            }
+          ],
+          "activities": [
+            {
+              "activity_id": "T3_ACT_01_DESTAN_HAZIRLIK",
+              "type": "reading_preparation",
+              "printed_page": "157-159",
+              "student_action": "Okumaya hazırlanma.",
+              "expected_student_evidence": "Hazırlık notları.",
+              "source_locator": "OGM_ASSET_6834:s.157-159",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T3_ACT_02_OGUZ_KAGAN_ANLAM",
+              "type": "reading_comprehension",
+              "printed_page": "160-171",
+              "student_action": "Metinde anlam oluşturma.",
+              "expected_student_evidence": "Anlama yanıtları.",
+              "source_locator": "OGM_ASSET_6834:s.160-171",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T3_ACT_03_DESTAN_COZUMLEME",
+              "type": "reading_analysis",
+              "printed_page": "172-181",
+              "student_action": "Metni çözümleme.",
+              "expected_student_evidence": "Tahlil yanıtları.",
+              "source_locator": "OGM_ASSET_6834:s.172-181",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T3_ACT_04_DESTAN_YANSITMA",
+              "type": "reflection",
+              "printed_page": "182-183",
+              "student_action": "Öğrenmeyi yansıtma.",
+              "expected_student_evidence": "Yansıtma kaydı.",
+              "source_locator": "OGM_ASSET_6834:s.182-183",
+              "verification_status": "PROVISIONAL"
+            }
+          ]
+        },
+        {
+          "section_id": "T3_SEC_02_OKUMA_MESNEVI",
+          "section_title": "Metin Tahlili-2: Okuma — Mesnevi",
+          "genre": "Mesnevi",
+          "printed_page_range": "184-203",
+          "source_locator": "OGM_ASSET_6834:s.184-203",
+          "main_texts": [
+            {
+              "text_id": "T3_TXT_02",
+              "title": "Harnâme",
+              "author": "Şeyhî",
+              "genre": "Mesnevi",
+              "printed_page": 187,
+              "source_locator": "OGM_ASSET_6834:s.187"
+            }
+          ],
+          "activities": [
+            {
+              "activity_id": "T3_ACT_05_MESNEVI_HAZIRLIK",
+              "type": "reading_preparation",
+              "printed_page": "184-186",
+              "student_action": "Okumaya hazırlanma.",
+              "expected_student_evidence": "Hazırlık notları.",
+              "source_locator": "OGM_ASSET_6834:s.184-186",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T3_ACT_06_HARNAME_TAHLIL",
+              "type": "reading_analysis",
+              "printed_page": "187-198",
+              "student_action": "Metni çözümleme.",
+              "expected_student_evidence": "Tahlil yanıtları.",
+              "source_locator": "OGM_ASSET_6834:s.187-198",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T3_ACT_07_MESNEVI_KARSILASTIRMA",
+              "type": "comparative_analysis",
+              "printed_page": "199-203",
+              "student_action": "Metinleri/ögeleri karşılaştırma.",
+              "expected_student_evidence": "Karşılaştırma kaydı.",
+              "source_locator": "OGM_ASSET_6834:s.199-203",
+              "verification_status": "PROVISIONAL"
+            }
+          ]
+        },
+        {
+          "section_id": "T3_SEC_03_KONUSMA_DESTAN_SUNUM",
+          "section_title": "Edebiyat Atölyesi: Konuşma — Türk Destanları Sunumu",
+          "genre": "Konuşma",
+          "printed_page_range": "204-208",
+          "source_locator": "OGM_ASSET_6834:s.204-208",
+          "main_texts": [],
+          "activities": [
+            {
+              "activity_id": "T3_ACT_08_DESTAN_SUNUM_PLAN",
+              "type": "speaking_planning",
+              "printed_page": "204-206",
+              "student_action": "Konuşmayı planlama.",
+              "expected_student_evidence": "Konuşma planı.",
+              "source_locator": "OGM_ASSET_6834:s.204-206",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T3_ACT_09_DESTAN_SUNUM",
+              "type": "speaking_performance",
+              "printed_page": "206-207",
+              "student_action": "Sözlü sunum yapma.",
+              "expected_student_evidence": "Konuşma performansı.",
+              "source_locator": "OGM_ASSET_6834:s.206-207",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T3_ACT_10_KONUSMA_OZ_AKRAN",
+              "type": "speaking_assessment",
+              "printed_page": "207-208",
+              "student_action": "Konuşmayı değerlendirme.",
+              "expected_student_evidence": "Değerlendirme formu.",
+              "source_locator": "OGM_ASSET_6834:s.207-208",
+              "verification_status": "PROVISIONAL"
+            }
+          ]
+        },
+        {
+          "section_id": "T3_SEC_04_DINLEME_FABL",
+          "section_title": "Metin Tahlili-3: Dinleme/İzleme — Fabl",
+          "genre": "Fabl",
+          "printed_page_range": "209-223",
+          "source_locator": "OGM_ASSET_6834:s.209-223",
+          "main_texts": [
+            {
+              "text_id": "T3_TXT_03",
+              "title": "Aslan ve Av Hayvanları",
+              "author": null,
+              "genre": "Fabl",
+              "printed_page": 210,
+              "source_locator": "OGM_ASSET_6834:s.210"
+            }
+          ],
+          "activities": [
+            {
+              "activity_id": "T3_ACT_11_FABL_DINLEME_HAZIRLIK",
+              "type": "listening_preparation",
+              "printed_page": "209",
+              "student_action": "Dinleme/izlemeye hazırlanma.",
+              "expected_student_evidence": "Hazırlık notları.",
+              "source_locator": "OGM_ASSET_6834:s.209",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T3_ACT_12_FABL_ANLAM",
+              "type": "listening_comprehension",
+              "printed_page": "210-216",
+              "student_action": "Dinleme/izlemede anlam oluşturma.",
+              "expected_student_evidence": "Dinleme yanıtları.",
+              "source_locator": "OGM_ASSET_6834:s.210-216",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T3_ACT_13_FABL_COZUMLEME",
+              "type": "listening_analysis",
+              "printed_page": "217-221",
+              "student_action": "Dinleme/izleme metnini çözümleme.",
+              "expected_student_evidence": "Tahlil yanıtları.",
+              "source_locator": "OGM_ASSET_6834:s.217-221",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T3_ACT_14_FABL_YANSITMA",
+              "type": "reflection",
+              "printed_page": "222-223",
+              "student_action": "Öğrenmeyi yansıtma.",
+              "expected_student_evidence": "Yansıtma kaydı.",
+              "source_locator": "OGM_ASSET_6834:s.222-223",
+              "verification_status": "PROVISIONAL"
+            }
+          ]
+        },
+        {
+          "section_id": "T3_SEC_05_YAZMA_FABL",
+          "section_title": "Edebiyat Atölyesi: Yazma — Fabl Yazma",
+          "genre": "Yazma",
+          "printed_page_range": "224-228",
+          "source_locator": "OGM_ASSET_6834:s.224-228",
+          "main_texts": [],
+          "activities": [
+            {
+              "activity_id": "T3_ACT_15_FABL_YAZMA_PLAN",
+              "type": "writing_planning",
+              "printed_page": "224-225",
+              "student_action": "Yazmayı planlama.",
+              "expected_student_evidence": "Yazma planı.",
+              "source_locator": "OGM_ASSET_6834:s.224-225",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T3_ACT_16_FABL_YAZMA",
+              "type": "writing_production",
+              "printed_page": "225-227",
+              "student_action": "Yazılı ürün oluşturma.",
+              "expected_student_evidence": "Yazılı ürün.",
+              "source_locator": "OGM_ASSET_6834:s.225-227",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T3_ACT_17_FABL_YAZMA_DEGERLENDIRME",
+              "type": "writing_assessment",
+              "printed_page": "227-228",
+              "student_action": "Yazıyı değerlendirme ve geliştirme.",
+              "expected_student_evidence": "Değerlendirme formu.",
+              "source_locator": "OGM_ASSET_6834:s.227-228",
+              "verification_status": "PROVISIONAL"
+            }
+          ]
+        },
+        {
+          "section_id": "T3_SEC_06_TEMA_SONU",
+          "section_title": "3. Tema Ölçme ve Değerlendirme",
+          "genre": "Tema Sonu",
+          "printed_page_range": "229-233",
+          "source_locator": "OGM_ASSET_6834:s.229-233",
+          "main_texts": [],
+          "activities": [
+            {
+              "activity_id": "T3_ACT_18_TEMA_GUNLUK",
+              "type": "learning_journal",
+              "printed_page": "229",
+              "student_action": "Öğrenme günlüğü tutma.",
+              "expected_student_evidence": "Öğrenme günlüğü.",
+              "source_locator": "OGM_ASSET_6834:s.229",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T3_ACT_19_TEMA_OLCME",
+              "type": "theme_assessment",
+              "printed_page": "230-233",
+              "student_action": "Tema sonu sorularını yanıtlama.",
+              "expected_student_evidence": "Tema değerlendirme cevapları.",
+              "source_locator": "OGM_ASSET_6834:s.230-233",
+              "verification_status": "PROVISIONAL"
+            }
+          ]
+        }
+      ],
+      "content_extraction_status": "LOCAL_PDF_PAGE_LEVEL_VERIFIED",
+      "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+    },
+    {
+      "theme_id": "TEMA_04",
+      "theme_no": 4,
+      "theme_title": "4. TEMA: NESİLLERİN MİRASI",
+      "printed_page_range": "234-310",
+      "official_preview_asset": {
+        "asset_id": 6409,
+        "url": "https://ogmmateryal.eba.gov.tr/panel/panel/EKitapUniteOnizle.aspx?Id=6409",
+        "identity_status": "OFFICIAL_MEB_THEME_MATCH"
+      },
+      "key_concepts": [
+        "sözlü kültür",
+        "dönem",
+        "millî bilinç",
+        "olağanüstülük",
+        "yaşantı",
+        "değişim",
+        "kurmaca",
+        "şiir",
+        "yenilik",
+        "millî edebiyat",
+        "hikâye"
+      ],
+      "sections": [
+        {
+          "section_id": "T4_SEC_01_OKUMA_DEDE_KORKUT",
+          "section_title": "Metin Tahlili-1: Okuma — Dede Korkut Hikâyesi",
+          "genre": "Dede Korkut Hikâyesi",
+          "printed_page_range": "237-263",
+          "source_locator": "OGM_ASSET_6409:s.237-263",
+          "main_texts": [
+            {
+              "text_id": "T4_TXT_01",
+              "title": "Salur Kazan’ın Yedi Başlı Ejderhayı Öldürdüğü Boy",
+              "author": null,
+              "genre": "Dede Korkut Hikâyesi",
+              "printed_page": 242,
+              "source_locator": "OGM_ASSET_6409:s.242"
+            }
+          ],
+          "activities": [
+            {
+              "activity_id": "T4_ACT_01_DEDE_KORKUT_HAZIRLIK",
+              "type": "reading_preparation",
+              "printed_page": "237-241",
+              "student_action": "Okumaya hazırlanma.",
+              "expected_student_evidence": "Hazırlık notları.",
+              "source_locator": "OGM_ASSET_6409:s.237-241",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T4_ACT_02_SALUR_KAZAN_ANLAM",
+              "type": "reading_comprehension",
+              "printed_page": "242-250",
+              "student_action": "Metinde anlam oluşturma.",
+              "expected_student_evidence": "Anlama yanıtları.",
+              "source_locator": "OGM_ASSET_6409:s.242-250",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T4_ACT_03_DEDE_KORKUT_COZUMLEME",
+              "type": "reading_analysis",
+              "printed_page": "251-260",
+              "student_action": "Metni çözümleme.",
+              "expected_student_evidence": "Tahlil yanıtları.",
+              "source_locator": "OGM_ASSET_6409:s.251-260",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T4_ACT_04_DEDE_KORKUT_KARSILASTIRMA",
+              "type": "learning_journal",
+              "printed_page": "261-263",
+              "student_action": "Öğrenme günlüğü tutma.",
+              "expected_student_evidence": "Öğrenme günlüğü.",
+              "source_locator": "OGM_ASSET_6409:s.261-263",
+              "verification_status": "PROVISIONAL"
+            }
+          ]
+        },
+        {
+          "section_id": "T4_SEC_02_OKUMA_TANZIMAT_SIIRI",
+          "section_title": "Metin Tahlili-2: Okuma — Tanzimat Şiiri",
+          "genre": "Tanzimat Şiiri",
+          "printed_page_range": "264-279",
+          "source_locator": "OGM_ASSET_6409:s.264-279",
+          "main_texts": [
+            {
+              "text_id": "T4_TXT_02",
+              "title": "Hürriyet Kasîdesi",
+              "author": "Namık Kemal",
+              "genre": "Tanzimat Şiiri",
+              "printed_page": 266,
+              "source_locator": "OGM_ASSET_6409:s.266"
+            }
+          ],
+          "activities": [
+            {
+              "activity_id": "T4_ACT_05_TANZIMAT_HAZIRLIK",
+              "type": "reading_preparation",
+              "printed_page": "264-265",
+              "student_action": "Okumaya hazırlanma.",
+              "expected_student_evidence": "Hazırlık notları.",
+              "source_locator": "OGM_ASSET_6409:s.264-265",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T4_ACT_06_HURRIYET_KASIDESI_TAHLIL",
+              "type": "reading_analysis",
+              "printed_page": "266-270",
+              "student_action": "Metni çözümleme.",
+              "expected_student_evidence": "Tahlil yanıtları.",
+              "source_locator": "OGM_ASSET_6409:s.266-270",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T4_ACT_07_TANZIMAT_KARSILASTIRMA",
+              "type": "comparative_analysis",
+              "printed_page": "271-278",
+              "student_action": "Metinleri/ögeleri karşılaştırma.",
+              "expected_student_evidence": "Karşılaştırma kaydı.",
+              "source_locator": "OGM_ASSET_6409:s.271-278",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T4_ACT_08_TANZIMAT_YANSITMA",
+              "type": "reflection",
+              "printed_page": "279",
+              "student_action": "Öğrenmeyi yansıtma.",
+              "expected_student_evidence": "Yansıtma kaydı.",
+              "source_locator": "OGM_ASSET_6409:s.279",
+              "verification_status": "PROVISIONAL"
+            }
+          ]
+        },
+        {
+          "section_id": "T4_SEC_03_KONUSMA_CANLANDIRMA",
+          "section_title": "Edebiyat Atölyesi: Konuşma — Dede Korkut Canlandırması",
+          "genre": "Konuşma",
+          "printed_page_range": "280-282",
+          "source_locator": "OGM_ASSET_6409:s.280-282",
+          "main_texts": [],
+          "activities": [
+            {
+              "activity_id": "T4_ACT_09_CANLANDIRMA_PLAN",
+              "type": "speaking_planning",
+              "printed_page": "280",
+              "student_action": "Konuşmayı planlama.",
+              "expected_student_evidence": "Konuşma planı.",
+              "source_locator": "OGM_ASSET_6409:s.280",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T4_ACT_10_CANLANDIRMA_SUNUM",
+              "type": "speaking_performance",
+              "printed_page": "281",
+              "student_action": "Sözlü sunum yapma.",
+              "expected_student_evidence": "Konuşma performansı.",
+              "source_locator": "OGM_ASSET_6409:s.281",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T4_ACT_11_CANLANDIRMA_DEGERLENDIRME",
+              "type": "speaking_assessment",
+              "printed_page": "282",
+              "student_action": "Konuşmayı değerlendirme.",
+              "expected_student_evidence": "Değerlendirme formu.",
+              "source_locator": "OGM_ASSET_6409:s.282",
+              "verification_status": "PROVISIONAL"
+            }
+          ]
+        },
+        {
+          "section_id": "T4_SEC_04_DINLEME_HIKAYE",
+          "section_title": "Metin Tahlili-3: Dinleme/İzleme — Millî Edebiyat Hikâyesi",
+          "genre": "Hikâye",
+          "printed_page_range": "283-301",
+          "source_locator": "OGM_ASSET_6409:s.283-301",
+          "main_texts": [
+            {
+              "text_id": "T4_TXT_03",
+              "title": "Kaç Yerinden",
+              "author": null,
+              "genre": "Millî Edebiyat Hikâyesi",
+              "printed_page": 286,
+              "source_locator": "OGM_ASSET_6409:s.286"
+            }
+          ],
+          "activities": [
+            {
+              "activity_id": "T4_ACT_12_HIKAYE_DINLEME_HAZIRLIK",
+              "type": "listening_preparation",
+              "printed_page": "283-285",
+              "student_action": "Dinleme/izlemeye hazırlanma.",
+              "expected_student_evidence": "Hazırlık notları.",
+              "source_locator": "OGM_ASSET_6409:s.283-285",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T4_ACT_13_KAC_YERINDEN_ANLAM",
+              "type": "listening_comprehension",
+              "printed_page": "286-296",
+              "student_action": "Dinleme/izlemede anlam oluşturma.",
+              "expected_student_evidence": "Dinleme yanıtları.",
+              "source_locator": "OGM_ASSET_6409:s.286-296",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T4_ACT_14_HIKAYE_COZUMLEME",
+              "type": "listening_analysis",
+              "printed_page": "297-300",
+              "student_action": "Dinleme/izleme metnini çözümleme.",
+              "expected_student_evidence": "Tahlil yanıtları.",
+              "source_locator": "OGM_ASSET_6409:s.297-300",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T4_ACT_15_HIKAYE_OZ_DEGERLENDIRME",
+              "type": "self_assessment",
+              "printed_page": "301",
+              "student_action": "Öz değerlendirme yapma.",
+              "expected_student_evidence": "Öz değerlendirme formu.",
+              "source_locator": "OGM_ASSET_6409:s.301",
+              "verification_status": "PROVISIONAL"
+            }
+          ]
+        },
+        {
+          "section_id": "T4_SEC_05_YAZMA_SIIRE_DONUSTURME",
+          "section_title": "Edebiyat Atölyesi: Yazma — Hikâyeyi Şiire Dönüştürme",
+          "genre": "Yazma",
+          "printed_page_range": "302-305",
+          "source_locator": "OGM_ASSET_6409:s.302-305",
+          "main_texts": [],
+          "activities": [
+            {
+              "activity_id": "T4_ACT_16_SIIR_DONUSUM_PLAN",
+              "type": "writing_planning",
+              "printed_page": "302",
+              "student_action": "Yazmayı planlama.",
+              "expected_student_evidence": "Yazma planı.",
+              "source_locator": "OGM_ASSET_6409:s.302",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T4_ACT_17_SIIR_DONUSUM_YAZMA",
+              "type": "writing_production",
+              "printed_page": "303",
+              "student_action": "Yazılı ürün oluşturma.",
+              "expected_student_evidence": "Yazılı ürün.",
+              "source_locator": "OGM_ASSET_6409:s.303",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T4_ACT_18_SIIR_DEGERLENDIRME",
+              "type": "writing_assessment",
+              "printed_page": "304-305",
+              "student_action": "Yazıyı değerlendirme ve geliştirme.",
+              "expected_student_evidence": "Değerlendirme formu.",
+              "source_locator": "OGM_ASSET_6409:s.304-305",
+              "verification_status": "PROVISIONAL"
+            }
+          ]
+        },
+        {
+          "section_id": "T4_SEC_06_TEMA_SONU",
+          "section_title": "4. Tema Ölçme ve Değerlendirme",
+          "genre": "Tema Sonu",
+          "printed_page_range": "306-310",
+          "source_locator": "OGM_ASSET_6409:s.306-310",
+          "main_texts": [],
+          "activities": [
+            {
+              "activity_id": "T4_ACT_19_TEMA_GUNLUK",
+              "type": "learning_journal",
+              "printed_page": "306",
+              "student_action": "Öğrenme günlüğü tutma.",
+              "expected_student_evidence": "Öğrenme günlüğü.",
+              "source_locator": "OGM_ASSET_6409:s.306",
+              "verification_status": "PROVISIONAL"
+            },
+            {
+              "activity_id": "T4_ACT_20_TEMA_OLCME",
+              "type": "theme_assessment",
+              "printed_page": "307-310",
+              "student_action": "Tema sonu sorularını yanıtlama.",
+              "expected_student_evidence": "Tema değerlendirme cevapları.",
+              "source_locator": "OGM_ASSET_6409:s.307-310",
+              "verification_status": "PROVISIONAL"
+            }
+          ]
+        }
+      ],
+      "content_extraction_status": "LOCAL_PDF_PAGE_LEVEL_VERIFIED",
+      "source_locator": "source_docs/turk-dili-ve-edebiyati-10.pdf"
+    }
+  ],
+  "official_web_locator": {
+    "url": "https://tymm.meb.gov.tr/kitap/78/turk-dili-ve-edebiyati-10.sinif-ders-kitabi",
+    "role": "PRIMARY_OFFICIAL_TEXTBOOK_LOCATOR",
+    "replacement_allowed": false
+  }
+}

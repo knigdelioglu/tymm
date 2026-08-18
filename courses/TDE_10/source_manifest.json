@@ -4,23 +4,26 @@
   "grade": 10,
   "course_title": "Türk Dili ve Edebiyatı",
   "last_validated": "2026-08-18",
-  "overall_status": "CURRICULUM_DRAFT_MAPPED_TEXTBOOK_OFFICIAL_SUPPORTING_ASSETS_RESOLVED",
-  "source_mode": "SPLIT_CURRICULUM_PDFS_PLUS_OFFICIAL_REMOTE_TEXTBOOK",
+  "overall_status": "TEXTBOOK_LOCAL_OFFICIAL_PDF_VERIFIED_ALIGNMENT_COMPLETE_CURRICULUM_DRAFT",
+  "source_mode": "SPLIT_CURRICULUM_PDFS_PLUS_LOCAL_OFFICIAL_TEXTBOOK_PDF",
   "scope": {
     "analysis_target": "10. Sınıf Türk Dili ve Edebiyatı Öğretim Programı ve Ders Kitabı",
-    "included_grades": [10],
+    "included_grades": [
+      10
+    ],
     "total_themes_expected": 4,
     "curriculum_source_complete": true,
     "curriculum_mapped": true,
     "curriculum_map_status": "DRAFT_NOT_FROZEN_PROCESS_COMPONENTS_PENDING",
     "textbook_source_registered": true,
     "textbook_official_supporting_assets_resolved": true,
-    "textbook_primary_linkage_verified": false,
-    "textbook_mapped": false,
-    "forms_indexed": false,
-    "alignment_performed": false,
-    "gap_analysis_performed": false,
-    "materials_generated": false
+    "textbook_primary_linkage_verified": true,
+    "textbook_mapped": true,
+    "forms_indexed": true,
+    "alignment_performed": true,
+    "gap_analysis_performed": true,
+    "materials_generated": false,
+    "textbook_local_pdf_registered": true
   },
   "annual_time_model": {
     "theme_count": 4,
@@ -93,6 +96,25 @@
   },
   "sources": [
     {
+      "source_id": "textbook_tde10_local_pdf",
+      "source_type": "official_textbook_snapshot",
+      "input_locator_type": "repository_file",
+      "file_path": "source_docs/turk-dili-ve-edebiyati-10.pdf",
+      "filename": "turk-dili-ve-edebiyati-10.pdf",
+      "size_bytes": 21918317,
+      "git_blob_sha": "6f3015e90188fcec53e7b04b5a0ae14246442ab8",
+      "title": "Ortaöğretim Türk Dili ve Edebiyatı 10. Sınıf Ders Kitabı",
+      "institution_or_publisher": "T.C. Millî Eğitim Bakanlığı",
+      "edition_year": "2025",
+      "isbn": "978-975-11-8944-8",
+      "ttkb_acceptance": "25.06.2025 tarih ve 135156433 sayılı yazı",
+      "authority_rank": 2,
+      "role": "PRIMARY_ANALYSIS_SNAPSHOT",
+      "verification_status": "LOCAL_OFFICIAL_PDF_IDENTITY_VERIFIED_TEXT_EXTRACTED",
+      "page_count_pdf": 319,
+      "printed_to_pdf_offset": 1
+    },
+    {
       "source_id": "textbook_tde10_tymm_web",
       "source_type": "official_textbook",
       "input_locator_type": "official_remote_web",
@@ -102,13 +124,14 @@
       "grade": 10,
       "institution_or_publisher": "T.C. Millî Eğitim Bakanlığı / Türkiye Yüzyılı Maarif Modeli",
       "authority_rank": 2,
-      "verification_status": "REGISTERED_PRIMARY_REMOTE_SOURCE_DYNAMIC_PAGE_LINKAGE_PENDING",
+      "verification_status": "OFFICIAL_REMOTE_IDENTITY_LOCATOR_MATCHED_TO_LOCAL_PDF",
       "retrieval_policy": {
         "primary_locator_is_exact_user_supplied_url": true,
         "follow_only_official_links_exposed_by_primary_page": true,
         "silent_third_party_substitution_allowed": false,
         "on_unavailable": "TEXTBOOK_REMOTE_SOURCE_UNAVAILABLE"
-      }
+      },
+      "role": "OFFICIAL_IDENTITY_LOCATOR"
     },
     {
       "source_id": "textbook_tde10_ogm_theme_previews",
@@ -116,7 +139,7 @@
       "input_locator_type": "official_remote_web_bundle",
       "institution_or_publisher": "T.C. Millî Eğitim Bakanlığı / OGM Materyal",
       "authority_rank": 3,
-      "verification_status": "OFFICIAL_SUPPORTING_ASSETS_RESOLVED_PRIMARY_LINKAGE_PENDING",
+      "verification_status": "OFFICIAL_SUPPORTING_ASSETS_CROSSCHECKED",
       "usage_policy": "May be used to resolve theme/page structure and validate textbook mapping, but does not silently replace the exact TYMM primary textbook locator until linkage/identity is verified.",
       "parts": [
         {
@@ -147,7 +170,8 @@
           "preview_page_range": "234-310",
           "identity_status": "OFFICIAL_MEB_THEME_MATCH"
         }
-      ]
+      ],
+      "role": "OFFICIAL_CROSSCHECK_ONLY"
     },
     {
       "source_id": "tde10_ogm_differentiated_instruction_support",
@@ -161,7 +185,7 @@
   ],
   "source_resolution_rules": {
     "curriculum": "Treat the four theme snapshots as one curriculum source bundle and cross-check normative wording against the official TYMM curriculum pages.",
-    "textbook": "Treat the exact user-supplied TYMM/MEB book page as the primary official textbook source. Official OGM e-book previews are supporting assets and may be used for mapping only with explicit provenance; they do not silently replace the primary locator.",
+    "textbook": "Use source_docs/turk-dili-ve-edebiyati-10.pdf as the primary analysis snapshot. TYMM/OGM URLs are official identity/provenance cross-checks. Do not substitute third-party textbook copies.",
     "authority_conflict": "Normative TYMM curriculum wording wins over derivative/supporting OGM wording. Record the conflict; never silently rewrite the canonical outcome statement.",
     "fail_closed": true,
     "no_silent_source_replacement": true
