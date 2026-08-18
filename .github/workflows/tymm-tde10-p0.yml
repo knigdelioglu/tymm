@@ -1,5 +1,6 @@
 name: TDE10 Generic P0 Gate
 
+# trigger_revision: 2
 on:
   push:
     branches:
