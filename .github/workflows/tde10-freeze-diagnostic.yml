@@ -1,0 +1,54 @@
+name: TDE10 freeze diagnostic
+
+on:
+  push:
+    paths:
+      - '.github/workflows/tde10-freeze-diagnostic.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build diagnostic
+        run: |
+          python - <<'PY'
+          import json, re
+          from pathlib import Path
+          root=Path('courses/TDE_10')
+          cmap=json.loads((root/'curriculum_map.json').read_text(encoding='utf-8'))
+          expected=[f'TDE{a}.{b}' for a in range(1,5) for b in range(1,5)]
+          result={'themes':[]}
+          for n,theme in enumerate(cmap['themes'],1):
+              pages=json.loads((root/f'source_docs/derived_curriculum/theme_{n:02d}_pages.json').read_text(encoding='utf-8'))
+              all_text='\n'.join(p.get('text','') for p in pages)
+              found={}
+              for code in expected:
+                  hits=[]
+                  for p in pages:
+                      if code in p.get('text',''):
+                          hits.append(p['pdf_page'])
+                  found[code]=hits
+              result['themes'].append({
+                  'theme_id':theme['theme_id'],
+                  'map_codes':[o['outcome_code'] for o in theme['learning_outcomes']],
+                  'code_hits':found,
+                  'subcodes':sorted(set(re.findall(r'\bTDE[1-4]\.\d+\.\d+\b',all_text))),
+                  'page_count':len(pages)
+              })
+          (root/'source_docs/freeze_diagnostic.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          PY
+      - name: Commit diagnostic
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add courses/TDE_10/source_docs/freeze_diagnostic.json
+          git commit -m 'chore(tde10): record canonical freeze diagnostic'
+          git push
