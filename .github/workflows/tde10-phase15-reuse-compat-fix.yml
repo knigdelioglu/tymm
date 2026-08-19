@@ -1,0 +1,42 @@
+name: TYMM Reuse-Only Compatibility Fix
+
+on:
+  push:
+    paths:
+      - 'courses/TDE_10/.phase15-fix-trigger'
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Restore schema 1.1 reuse-only compatibility
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('skill/tymm-material-planner/scripts/production_schema.py')
+          s=p.read_text()
+          old='''        valid_reuse_only = (\n            production_mode == REUSE_ONLY_MODE\n            and verified_gap_count == 0\n            and generation_allowed is False\n        )\n'''
+          new='''        valid_reuse_only = (\n            production_mode == REUSE_ONLY_MODE\n            and verified_gap_count == 0\n        )\n'''
+          if new not in s:
+              if old not in s: raise SystemExit('reuse-only compatibility anchor missing')
+              p.write_text(s.replace(old,new,1))
+          PY
+      - name: Verify contract tests
+        run: |
+          python skill/tymm-material-planner/tests/test_reuse_only_contract.py
+          python skill/tymm-material-planner/tests/test_parity_blocked_contract.py
+      - name: Commit compatibility fix
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add skill/tymm-material-planner/scripts/production_schema.py
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'fix(tymm): preserve schema 1.1 reuse-only compatibility'
+          git pull --rebase origin main
+          git push origin HEAD:main
