@@ -1,4 +1,4 @@
-name: TDE10 Phase15 Execution Gate
+name: TDE10 Runtime Compatibility Repair
 
 on:
   push:
@@ -12,7 +12,7 @@ env:
   HF_HUB_DISABLE_TELEMETRY: '1'
 
 jobs:
-  phase15:
+  repair-and-verify:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
@@ -24,142 +24,106 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install gate dependencies
+      - name: Apply runtime compatibility fixes
         run: |
-          python -m pip install --disable-pip-version-check 'numpy<3' 'sqlite-vec==0.1.9' onnxruntime tokenizers huggingface_hub hf_xet
+          python - <<'PY'
+          from pathlib import Path
 
-      - name: Restore pinned multilingual-e5-small runtime
+          compiler = Path('skill/tymm-material-planner/scripts/build_runtime_course_package.py')
+          text = compiler.read_text(encoding='utf-8')
+
+          replacements = [
+              (
+                  'f.get("title",f["form_id"])',
+                  '(f.get("title") or f["form_id"])',
+              ),
+              (
+                  't.get("exact_theme_name",t.get("theme_title",tid))',
+                  '(t.get("exact_theme_name") or t.get("theme_title") or tid)',
+              ),
+              (
+                  's.get("section_title",s["section_id"])',
+                  '(s.get("section_title") or s["section_id"])',
+              ),
+              (
+                  'a.get("exact_title",a.get("activity_title",a["activity_id"]))',
+                  '(a.get("exact_title") or a.get("activity_title") or a["activity_id"])',
+              ),
+              (
+                  'a.get("title",a["artifact_id"])',
+                  '(a.get("title") or a["artifact_id"])',
+              ),
+              (
+                  's.get("title",s["source_id"])',
+                  '(s.get("title") or s["source_id"])',
+              ),
+          ]
+          for old, new in replacements:
+              if old in text:
+                  text = text.replace(old, new)
+
+          old = '    expected_gap_count=production.get("verified_resource_gap_count")\n    check("assessment mapping status", mapping_count==expected_gap_count, f"runtime={mapping_count}, canonical={expected_gap_count}")'
+          new = '''    expected_gap_count=production.get("verified_resource_gap_count")
+    if expected_gap_count is None:
+        expected_gap_count=production.get("summary_metrics",{}).get(
+            "required_gap_instance_count",
+            len(production.get("gap_instance_provenance_registry",[])),
+        )
+    check("assessment mapping status", mapping_count==expected_gap_count, f"runtime={mapping_count}, canonical={expected_gap_count}")'''
+          if old not in text and new not in text:
+              raise SystemExit('expected_gap_count anchor missing')
+          text = text.replace(old, new)
+          compiler.write_text(text, encoding='utf-8')
+
+          # Permanent Phase15 workflow: discard test-only derived changes before rebase.
+          workflow = Path('.github/workflows/tde10-phase15-p0-gate.yml')
+          w = workflow.read_text(encoding='utf-8')
+          old = "          git commit -m 'feat(tde10): publish Phase15 P0 regression result'\n          git pull --rebase origin main"
+          new = "          git commit -m 'feat(tde10): publish Phase15 P0 regression result'\n          git reset --hard HEAD\n          git pull --rebase origin main"
+          if old in w:
+              w = w.replace(old, new)
+          workflow.write_text(w, encoding='utf-8')
+          PY
+
+      - name: Install gate dependencies
+        run: python -m pip install --disable-pip-version-check 'numpy<3' 'sqlite-vec==0.1.9' onnxruntime tokenizers huggingface_hub hf_xet
+
+      - name: Restore pinned embedding runtime
         run: |
           python - <<'PY'
           from pathlib import Path
           import shutil
           from huggingface_hub import hf_hub_download
-          repo_id='Xenova/multilingual-e5-small'
-          revision='761b726dd34fb83930e26aab4e9ac3899aa1fa78'
           target=Path('skill/tymm-material-planner/models/multilingual-e5-small')
-          target.mkdir(parents=True, exist_ok=True)
-          for remote, local in {'tokenizer.json':'tokenizer.json','onnx/model_quantized.onnx':'model_quantized.onnx'}.items():
-              src=hf_hub_download(repo_id=repo_id, filename=remote, revision=revision)
+          target.mkdir(parents=True,exist_ok=True)
+          for remote,local in {'tokenizer.json':'tokenizer.json','onnx/model_quantized.onnx':'model_quantized.onnx'}.items():
+              src=hf_hub_download(repo_id='Xenova/multilingual-e5-small',filename=remote,revision='761b726dd34fb83930e26aab4e9ac3899aa1fa78')
               shutil.copy2(src,target/local)
           PY
 
-      - name: Run Phase 15 TDE10 P0 and TDE9 regression
-        run: |
-          python - <<'PY'
-          import json, os, subprocess, sys
-          from pathlib import Path
+      - id: gate
+        name: Run Phase15 regression gate
+        continue-on-error: true
+        run: python skill/tymm-material-planner/scripts/phase15_regression_gate.py
 
-          root=Path('courses/TDE_10')
-          report_path=root/'source_docs'/'phase15_execution_report.json'
-          results=[]
-
-          def run(name, cmd, env=None):
-              e=os.environ.copy()
-              if env: e.update(env)
-              p=subprocess.run(cmd, text=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, env=e)
-              results.append({'name':name,'returncode':p.returncode,'status':'PASS' if p.returncode==0 else 'FAIL','output_tail':p.stdout[-5000:]})
-              return p.returncode==0
-
-          parity=json.loads((root/'parity_validation_report.json').read_text(encoding='utf-8'))
-          prod=json.loads((root/'production'/'production_manifest.json').read_text(encoding='utf-8'))
-          preconditions=(
-              parity.get('status')=='VALIDATED_WITH_EXTERNAL_AUTH_BLOCKER'
-              and parity.get('parity_certified') is False
-              and parity.get('hard_failures')==[]
-              and parity.get('counts',{}).get('covered')==56
-              and parity.get('counts',{}).get('partially_covered')==8
-              and parity.get('counts',{}).get('not_covered')==0
-              and prod.get('schema_version')=='1.1'
-              and prod.get('production_mode')=='PARITY_REVIEW_BLOCKED'
-              and prod.get('verified_resource_gap_count')==0
-              and prod.get('unresolved_assessment_target_count')==8
-              and prod.get('production_queue')==[]
-              and prod.get('generation_authorization',{}).get('allowed') is False
-              and prod.get('generation_authorization',{}).get('reason')=='UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS'
-          )
-          results.append({'name':'tde10_parity_preconditions','returncode':0 if preconditions else 1,'status':'PASS' if preconditions else 'FAIL'})
-
-          run('reuse_only_contract',['python','skill/tymm-material-planner/tests/test_reuse_only_contract.py'])
-          run('parity_blocked_contract',['python','skill/tymm-material-planner/tests/test_parity_blocked_contract.py'])
-
-          tde9_contract_code='''import json,sys\nfrom pathlib import Path\nsys.path.insert(0,str(Path("skill/tymm-material-planner/scripts").resolve()))\nfrom production_schema import build_artifact_maps\nm=json.loads(Path("courses/TDE_9/production/production_manifest.json").read_text(encoding="utf-8"))\na,_,aliases,prov=build_artifact_maps(m)\nassert len(a)==3\nassert len(aliases)==7\nassert len(prov)==7\nprint("TDE9 7-to-3: PASS")'''
-          run('tde9_legacy_7_to_3',['python','-c',tde9_contract_code])
-          run('tde9_strict_p0',['python','skill/tymm-material-planner/scripts/p0_production_gate.py'],{'TYMM_KNOWLEDGE_ROOT':str(Path('courses/TDE_9').resolve())})
-          run('tde9_resolver_regression',['python','skill/tymm-material-planner/tests/test_resolver_runner.py'])
-          run('tde9_runtime_regression',['python','skill/tymm-material-planner/tests/test_runtime_course_package.py'])
-
-          run('tde10_generic_p0_initial',['python','skill/tymm-material-planner/scripts/generic_p0_course_gate.py'],{'TYMM_KNOWLEDGE_ROOT':str(root.resolve())})
-          run('tde10_index_status_initial',['python','skill/tymm-material-planner/scripts/knowledge_index.py','status','--knowledge-root',str(root)])
-          run('tde10_runtime_status_initial',['python','skill/tymm-material-planner/scripts/build_runtime_course_package.py','status','--knowledge-root',str(root)])
-
-          initial_ok=all(r['status']=='PASS' for r in results)
-          backups={}
-          metadata_paths=[root/'parity_contract.json',root/'source_manifest.json',root/'parity_report.md']
-          for p in metadata_paths: backups[p]=p.read_text(encoding='utf-8')
-
-          if initial_ok:
-              contract_path=root/'parity_contract.json'
-              c=json.loads(contract_path.read_text(encoding='utf-8'))
-              c['phase_gates']['PHASE_15_P0_AND_TDE9_REGRESSION']='PASS_TECHNICAL_WITH_8_EXTERNAL_AUTH_BLOCKERS'
-              c['technical_p0_status']='PASS'
-              c['parity_certification']='WITHHELD_PENDING_8_AUTH_GATED_EBA_DPA_TARGETS'
-              contract_path.write_text(json.dumps(c,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-
-              manifest_path=root/'source_manifest.json'
-              m=json.loads(manifest_path.read_text(encoding='utf-8'))
-              m['overall_status']='TECHNICAL_P0_PASS_PARITY_REVIEW_BLOCKED'
-              m['parity_remediation_status']='BLOCKED_PENDING_8_AUTH_GATED_EBA_DPA_TARGETS'
-              m['parity_certification']='WITHHELD'
-              scope=m.setdefault('scope',{})
-              scope['knowledge_index_built']=True
-              scope['runtime_projection_built']=True
-              scope['p0_gate_passed']=True
-              scope['materials_generated']=False
-              manifest_path.write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-
-              pr=root/'parity_report.md'
-              text=pr.read_text(encoding='utf-8')
-              marker='## 11. Faz 15 teknik P0 ve TDE_9 regresyon sonucu'
-              if marker not in text:
-                  text += '''\n\n## 11. Faz 15 teknik P0 ve TDE_9 regresyon sonucu\n\nFaz 15 teknik doğrulamaları başarıyla tamamlanmıştır. TDE_10 canonical/index/runtime/resolver katmanları fail-closed parity-review durumunda çalışmaktadır. Ambiguity, stale ve knowledge-conflict kapıları üretimi engellemeye devam etmektedir. Materyal üretim isteği, dış EBA değerlendirme hedefleri çözülmediği için `UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS` ile bloklanır.\n\nTDE_9 regresyonunda tarihsel **7 gap instance → 3 canonical artifact** sözleşmesi ve resolver/runtime regresyonları korunmuştur.\n\n**Faz 15 gate:** `PASS_TECHNICAL_WITH_8_EXTERNAL_AUTH_BLOCKERS`\n\nBu sonuç parity sertifikası değildir. TDE_10 için kalan tek dış blocker, sekiz resmî EBA DPA hedefinin authenticated içerik yapısının doğrulanamamasıdır.\n'''
-                  pr.write_text(text,encoding='utf-8')
-
-              run('tde10_generic_p0_final',['python','skill/tymm-material-planner/scripts/generic_p0_course_gate.py'],{'TYMM_KNOWLEDGE_ROOT':str(root.resolve())})
-              run('tde10_index_status_final',['python','skill/tymm-material-planner/scripts/knowledge_index.py','status','--knowledge-root',str(root)])
-              run('tde10_runtime_status_final',['python','skill/tymm-material-planner/scripts/build_runtime_course_package.py','status','--knowledge-root',str(root)])
-
-          final_ok=initial_ok and all(r['status']=='PASS' for r in results)
-          if not final_ok:
-              for p,content in backups.items(): p.write_text(content,encoding='utf-8')
-
-          report={
-              'schema_version':'1.0',
-              'course_id':'TDE_10',
-              'phase':'15',
-              'final':'PASS_TECHNICAL_WITH_8_EXTERNAL_AUTH_BLOCKERS' if final_ok else 'FAIL',
-              'parity_certified':False,
-              'external_blockers':['8 authenticated EBA DPA target structures unresolved'],
-              'tde9_regression_required':True,
-              'tests':results,
-          }
-          report_path.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-          print(json.dumps(report,ensure_ascii=False,indent=2))
-          PY
-
-      - name: Commit Phase 15 result
+      - name: Publish fixes and result
+        if: always()
         run: |
           STATUS=$(python - <<'PY'
           import json
-          print(json.load(open('courses/TDE_10/source_docs/phase15_execution_report.json'))['final'])
+          from pathlib import Path
+          p=Path('courses/TDE_10/source_docs/phase15_execution_report.json')
+          print(json.loads(p.read_text())['final'] if p.exists() else 'FAIL_NO_REPORT')
           PY
           )
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add courses/TDE_10/source_docs/phase15_execution_report.json
-          if [ "$STATUS" = 'PASS_TECHNICAL_WITH_8_EXTERNAL_AUTH_BLOCKERS' ]; then
+          git add skill/tymm-material-planner/scripts/build_runtime_course_package.py .github/workflows/tde10-phase15-p0-gate.yml courses/TDE_10/source_docs/phase15_execution_report.json
+          if [[ "$STATUS" == PASS_* ]]; then
             git add courses/TDE_10/index courses/TDE_10/runtime courses/TDE_10/source_manifest.json courses/TDE_10/parity_contract.json courses/TDE_10/parity_report.md
           fi
-          git commit -m 'feat(tde10): record Phase 15 regression gate'
+          git commit -m 'fix(tymm): restore TDE9 runtime compatibility and TDE10 P0'
+          git reset --hard HEAD
           git pull --rebase origin main
           git push origin HEAD:main
-          if [ "$STATUS" != 'PASS_TECHNICAL_WITH_8_EXTERNAL_AUTH_BLOCKERS' ]; then exit 1; fi
+          [[ "$STATUS" == PASS_* ]]
