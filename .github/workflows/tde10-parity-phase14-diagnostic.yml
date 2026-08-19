@@ -1,4 +1,4 @@
-name: TDE10 Phase15 Patch
+name: TDE10 Phase15 Execution Gate
 
 on:
   push:
@@ -8,105 +8,158 @@ on:
 permissions:
   contents: write
 
+env:
+  HF_HUB_DISABLE_TELEMETRY: '1'
+
 jobs:
-  patch:
+  phase15:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Apply parity-aware resolver and generic P0 patch
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install gate dependencies
+        run: |
+          python -m pip install --disable-pip-version-check 'numpy<3' 'sqlite-vec==0.1.9' onnxruntime tokenizers huggingface_hub hf_xet
+
+      - name: Restore pinned multilingual-e5-small runtime
         run: |
           python - <<'PY'
-          import json
           from pathlib import Path
-
-          root = Path('courses/TDE_10')
-          scripts = Path('skill/tymm-material-planner/scripts')
-          resolver_path = scripts / 'knowledge_resolver.py'
-          generic_path = scripts / 'generic_p0_course_gate.py'
-          results = []
-
-          def replace_once(text, old, new, label):
-              if new in text:
-                  results.append({'label': label, 'status': 'ALREADY_APPLIED'})
-                  return text
-              if old not in text:
-                  results.append({'label': label, 'status': 'ANCHOR_MISSING'})
-                  return text
-              results.append({'label': label, 'status': 'APPLIED'})
-              return text.replace(old, new, 1)
-
-          resolver = resolver_path.read_text(encoding='utf-8')
-          resolver = replace_once(
-              resolver,
-              '''        reuse_only_generation_block = (\n            intent == "MATERIAL_GENERATION"\n            and self.production_manifest.get("production_mode") == "REUSE_ONLY_NO_NEW_ARTIFACTS"\n            and self.production_manifest.get("verified_resource_gap_count") == 0\n            and not production_context\n        )\n        material_generation_allowed = (\n''',
-              '''        reuse_only_generation_block = (\n            intent == "MATERIAL_GENERATION"\n            and self.production_manifest.get("production_mode") == "REUSE_ONLY_NO_NEW_ARTIFACTS"\n            and self.production_manifest.get("verified_resource_gap_count") == 0\n            and not production_context\n        )\n        parity_review_generation_block = (\n            intent == "MATERIAL_GENERATION"\n            and self.production_manifest.get("production_mode") == "PARITY_REVIEW_BLOCKED"\n            and self.production_manifest.get("unresolved_assessment_target_count", 0) > 0\n        )\n        material_generation_allowed = (\n''',
-              'resolver_declaration',
-          )
-          resolver = replace_once(
-              resolver,
-              '''            and canonical_resolution_verified\n            and not reuse_only_generation_block\n        )\n''',
-              '''            and canonical_resolution_verified\n            and not reuse_only_generation_block\n            and not parity_review_generation_block\n        )\n''',
-              'resolver_allowed_gate',
-          )
-          resolver = replace_once(
-              resolver,
-              '''            elif reuse_only_generation_block:\n                block_reason = "NO_VERIFIED_RESOURCE_GAP"\n            elif not canonical_resolution_verified:\n''',
-              '''            elif parity_review_generation_block:\n                block_reason = "UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS"\n            elif reuse_only_generation_block:\n                block_reason = "NO_VERIFIED_RESOURCE_GAP"\n            elif not canonical_resolution_verified:\n''',
-              'resolver_block_reason',
-          )
-
-          generic = generic_path.read_text(encoding='utf-8')
-          generic = replace_once(
-              generic,
-              'from production_schema import REUSE_ONLY_MODE, build_artifact_maps\n',
-              'from production_schema import PARITY_BLOCKED_MODE, REUSE_ONLY_MODE, build_artifact_maps\n',
-              'generic_import',
-          )
-          generic = replace_once(
-              generic,
-              '''    reuse_only = manifest.get("production_mode") == REUSE_ONLY_MODE\n    if reuse_only:\n        require(expected_gaps == 0 and expected_artifacts == 0, "reuse-only mode requires zero gaps and zero new artifacts")\n        require(manifest.get("generation_authorization", {}).get("allowed") is False, "reuse-only manifest opened generation")\n    return {\n''',
-              '''    production_mode = manifest.get("production_mode")\n    reuse_only = production_mode == REUSE_ONLY_MODE\n    parity_blocked = production_mode == PARITY_BLOCKED_MODE\n    if reuse_only:\n        require(expected_gaps == 0 and expected_artifacts == 0, "reuse-only mode requires zero gaps and zero new artifacts")\n        require(manifest.get("generation_authorization", {}).get("allowed") is False, "reuse-only manifest opened generation")\n    elif parity_blocked:\n        unresolved = manifest.get("unresolved_assessment_target_count", 0)\n        require(expected_gaps == 0 and expected_artifacts == 0, "parity-blocked mode requires zero confirmed gaps and zero authorized artifacts")\n        require(isinstance(unresolved, int) and unresolved > 0, "parity-blocked mode requires unresolved assessment targets")\n        require(manifest.get("generation_authorization", {}).get("allowed") is False, "parity-blocked manifest opened generation")\n        require(manifest.get("generation_authorization", {}).get("reason") == "UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS", "wrong parity-blocked generation reason")\n    return {\n''',
-              'generic_production_mode',
-          )
-          generic = replace_once(
-              generic,
-              '''        "verified_resource_gap_count": expected_gaps,\n        "expected_new_artifact_count": expected_artifacts,\n''',
-              '''        "verified_resource_gap_count": expected_gaps,\n        "unresolved_assessment_target_count": manifest.get("unresolved_assessment_target_count", 0),\n        "expected_new_artifact_count": expected_artifacts,\n''',
-              'generic_report_count',
-          )
-          generic = replace_once(
-              generic,
-              '''    generation_probe = None\n    if production.get("production_mode") == REUSE_ONLY_MODE:\n        query = f"Tema 1 {ambiguous_code} için rubrik hazırla"\n        generation_probe = resolver.resolve(query)\n        require(generation_probe.get("resolution_status") == "RESOLVED", "reuse-only generation probe should resolve canonically")\n        require(not generation_probe.get("material_generation_allowed"), "reuse-only/no-gap course opened material generation")\n        require(generation_probe.get("material_generation_block_reason") == "NO_VERIFIED_RESOURCE_GAP", f"wrong reuse-only block reason: {generation_probe.get('material_generation_block_reason')}")\n        require(not generation_probe.get("production_context"), "reuse-only generation probe unexpectedly resolved a production artifact")\n''',
-              '''    generation_probe = None\n    if production.get("production_mode") in (REUSE_ONLY_MODE, PARITY_BLOCKED_MODE):\n        query = f"Tema 1 {ambiguous_code} için rubrik hazırla"\n        generation_probe = resolver.resolve(query)\n        require(generation_probe.get("resolution_status") == "RESOLVED", "generation-block probe should resolve canonically")\n        require(not generation_probe.get("material_generation_allowed"), "safe empty-queue course opened material generation")\n        expected_reason = (\n            "UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS"\n            if production.get("production_mode") == PARITY_BLOCKED_MODE\n            else "NO_VERIFIED_RESOURCE_GAP"\n        )\n        require(generation_probe.get("material_generation_block_reason") == expected_reason, f"wrong generation block reason: {generation_probe.get('material_generation_block_reason')}")\n        require(not generation_probe.get("production_context"), "generation-block probe unexpectedly resolved a production artifact")\n''',
-              'generic_generation_probe',
-          )
-
-          ok = all(x['status'] in ('APPLIED', 'ALREADY_APPLIED') for x in results)
-          if ok:
-              resolver_path.write_text(resolver, encoding='utf-8')
-              generic_path.write_text(generic, encoding='utf-8')
-              test = Path('skill/tymm-material-planner/tests/test_parity_blocked_contract.py')
-              test.write_text('''#!/usr/bin/env python3\nimport sys\nfrom pathlib import Path\nSCRIPTS = Path(__file__).resolve().parents[1] / "scripts"\nsys.path.insert(0, str(SCRIPTS))\nfrom production_schema import ProductionSchemaError, build_artifact_maps\n\nblocked = {\n    "schema_version": "1.1",\n    "production_mode": "PARITY_REVIEW_BLOCKED",\n    "verified_resource_gap_count": 0,\n    "unresolved_assessment_target_count": 8,\n    "expected_new_artifact_count": 0,\n    "production_queue": [],\n    "gap_instance_provenance_registry": [],\n    "generation_authorization": {"allowed": False, "reason": "UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS"},\n}\nassert build_artifact_maps(blocked) == ([], {}, {}, {})\ninvalid = dict(blocked)\ninvalid["unresolved_assessment_target_count"] = 0\ntry:\n    build_artifact_maps(invalid)\nexcept ProductionSchemaError:\n    pass\nelse:\n    raise AssertionError("blocked state without unresolved targets must fail")\nprint("PARITY_BLOCKED_CONTRACT: PASS")\n''', encoding='utf-8')
-
-          diag = {'schema_version': '1.0', 'course_id': 'TDE_10', 'status': 'PASS' if ok else 'FAIL', 'patches': results}
-          (root / 'source_docs' / 'phase15_patch_diagnostic.json').write_text(json.dumps(diag, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          import shutil
+          from huggingface_hub import hf_hub_download
+          repo_id='Xenova/multilingual-e5-small'
+          revision='761b726dd34fb83930e26aab4e9ac3899aa1fa78'
+          target=Path('skill/tymm-material-planner/models/multilingual-e5-small')
+          target.mkdir(parents=True, exist_ok=True)
+          for remote, local in {'tokenizer.json':'tokenizer.json','onnx/model_quantized.onnx':'model_quantized.onnx'}.items():
+              src=hf_hub_download(repo_id=repo_id, filename=remote, revision=revision)
+              shutil.copy2(src,target/local)
           PY
 
-      - name: Commit patch or diagnostic
+      - name: Run Phase 15 TDE10 P0 and TDE9 regression
         run: |
+          python - <<'PY'
+          import json, os, subprocess, sys
+          from pathlib import Path
+
+          root=Path('courses/TDE_10')
+          report_path=root/'source_docs'/'phase15_execution_report.json'
+          results=[]
+
+          def run(name, cmd, env=None):
+              e=os.environ.copy()
+              if env: e.update(env)
+              p=subprocess.run(cmd, text=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, env=e)
+              results.append({'name':name,'returncode':p.returncode,'status':'PASS' if p.returncode==0 else 'FAIL','output_tail':p.stdout[-5000:]})
+              return p.returncode==0
+
+          parity=json.loads((root/'parity_validation_report.json').read_text(encoding='utf-8'))
+          prod=json.loads((root/'production'/'production_manifest.json').read_text(encoding='utf-8'))
+          preconditions=(
+              parity.get('status')=='VALIDATED_WITH_EXTERNAL_AUTH_BLOCKER'
+              and parity.get('parity_certified') is False
+              and parity.get('hard_failures')==[]
+              and parity.get('counts',{}).get('covered')==56
+              and parity.get('counts',{}).get('partially_covered')==8
+              and parity.get('counts',{}).get('not_covered')==0
+              and prod.get('schema_version')=='1.1'
+              and prod.get('production_mode')=='PARITY_REVIEW_BLOCKED'
+              and prod.get('verified_resource_gap_count')==0
+              and prod.get('unresolved_assessment_target_count')==8
+              and prod.get('production_queue')==[]
+              and prod.get('generation_authorization',{}).get('allowed') is False
+              and prod.get('generation_authorization',{}).get('reason')=='UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS'
+          )
+          results.append({'name':'tde10_parity_preconditions','returncode':0 if preconditions else 1,'status':'PASS' if preconditions else 'FAIL'})
+
+          run('reuse_only_contract',['python','skill/tymm-material-planner/tests/test_reuse_only_contract.py'])
+          run('parity_blocked_contract',['python','skill/tymm-material-planner/tests/test_parity_blocked_contract.py'])
+
+          tde9_contract_code='''import json,sys\nfrom pathlib import Path\nsys.path.insert(0,str(Path("skill/tymm-material-planner/scripts").resolve()))\nfrom production_schema import build_artifact_maps\nm=json.loads(Path("courses/TDE_9/production/production_manifest.json").read_text(encoding="utf-8"))\na,_,aliases,prov=build_artifact_maps(m)\nassert len(a)==3\nassert len(aliases)==7\nassert len(prov)==7\nprint("TDE9 7-to-3: PASS")'''
+          run('tde9_legacy_7_to_3',['python','-c',tde9_contract_code])
+          run('tde9_strict_p0',['python','skill/tymm-material-planner/scripts/p0_production_gate.py'],{'TYMM_KNOWLEDGE_ROOT':str(Path('courses/TDE_9').resolve())})
+          run('tde9_resolver_regression',['python','skill/tymm-material-planner/tests/test_resolver_runner.py'])
+          run('tde9_runtime_regression',['python','skill/tymm-material-planner/tests/test_runtime_course_package.py'])
+
+          run('tde10_generic_p0_initial',['python','skill/tymm-material-planner/scripts/generic_p0_course_gate.py'],{'TYMM_KNOWLEDGE_ROOT':str(root.resolve())})
+          run('tde10_index_status_initial',['python','skill/tymm-material-planner/scripts/knowledge_index.py','status','--knowledge-root',str(root)])
+          run('tde10_runtime_status_initial',['python','skill/tymm-material-planner/scripts/build_runtime_course_package.py','status','--knowledge-root',str(root)])
+
+          initial_ok=all(r['status']=='PASS' for r in results)
+          backups={}
+          metadata_paths=[root/'parity_contract.json',root/'source_manifest.json',root/'parity_report.md']
+          for p in metadata_paths: backups[p]=p.read_text(encoding='utf-8')
+
+          if initial_ok:
+              contract_path=root/'parity_contract.json'
+              c=json.loads(contract_path.read_text(encoding='utf-8'))
+              c['phase_gates']['PHASE_15_P0_AND_TDE9_REGRESSION']='PASS_TECHNICAL_WITH_8_EXTERNAL_AUTH_BLOCKERS'
+              c['technical_p0_status']='PASS'
+              c['parity_certification']='WITHHELD_PENDING_8_AUTH_GATED_EBA_DPA_TARGETS'
+              contract_path.write_text(json.dumps(c,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+              manifest_path=root/'source_manifest.json'
+              m=json.loads(manifest_path.read_text(encoding='utf-8'))
+              m['overall_status']='TECHNICAL_P0_PASS_PARITY_REVIEW_BLOCKED'
+              m['parity_remediation_status']='BLOCKED_PENDING_8_AUTH_GATED_EBA_DPA_TARGETS'
+              m['parity_certification']='WITHHELD'
+              scope=m.setdefault('scope',{})
+              scope['knowledge_index_built']=True
+              scope['runtime_projection_built']=True
+              scope['p0_gate_passed']=True
+              scope['materials_generated']=False
+              manifest_path.write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+              pr=root/'parity_report.md'
+              text=pr.read_text(encoding='utf-8')
+              marker='## 11. Faz 15 teknik P0 ve TDE_9 regresyon sonucu'
+              if marker not in text:
+                  text += '''\n\n## 11. Faz 15 teknik P0 ve TDE_9 regresyon sonucu\n\nFaz 15 teknik doğrulamaları başarıyla tamamlanmıştır. TDE_10 canonical/index/runtime/resolver katmanları fail-closed parity-review durumunda çalışmaktadır. Ambiguity, stale ve knowledge-conflict kapıları üretimi engellemeye devam etmektedir. Materyal üretim isteği, dış EBA değerlendirme hedefleri çözülmediği için `UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS` ile bloklanır.\n\nTDE_9 regresyonunda tarihsel **7 gap instance → 3 canonical artifact** sözleşmesi ve resolver/runtime regresyonları korunmuştur.\n\n**Faz 15 gate:** `PASS_TECHNICAL_WITH_8_EXTERNAL_AUTH_BLOCKERS`\n\nBu sonuç parity sertifikası değildir. TDE_10 için kalan tek dış blocker, sekiz resmî EBA DPA hedefinin authenticated içerik yapısının doğrulanamamasıdır.\n'''
+                  pr.write_text(text,encoding='utf-8')
+
+              run('tde10_generic_p0_final',['python','skill/tymm-material-planner/scripts/generic_p0_course_gate.py'],{'TYMM_KNOWLEDGE_ROOT':str(root.resolve())})
+              run('tde10_index_status_final',['python','skill/tymm-material-planner/scripts/knowledge_index.py','status','--knowledge-root',str(root)])
+              run('tde10_runtime_status_final',['python','skill/tymm-material-planner/scripts/build_runtime_course_package.py','status','--knowledge-root',str(root)])
+
+          final_ok=initial_ok and all(r['status']=='PASS' for r in results)
+          if not final_ok:
+              for p,content in backups.items(): p.write_text(content,encoding='utf-8')
+
+          report={
+              'schema_version':'1.0',
+              'course_id':'TDE_10',
+              'phase':'15',
+              'final':'PASS_TECHNICAL_WITH_8_EXTERNAL_AUTH_BLOCKERS' if final_ok else 'FAIL',
+              'parity_certified':False,
+              'external_blockers':['8 authenticated EBA DPA target structures unresolved'],
+              'tde9_regression_required':True,
+              'tests':results,
+          }
+          report_path.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps(report,ensure_ascii=False,indent=2))
+          PY
+
+      - name: Commit Phase 15 result
+        run: |
+          STATUS=$(python - <<'PY'
+          import json
+          print(json.load(open('courses/TDE_10/source_docs/phase15_execution_report.json'))['final'])
+          PY
+          )
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add courses/TDE_10/source_docs/phase15_patch_diagnostic.json
-          for f in \
-            skill/tymm-material-planner/scripts/knowledge_resolver.py \
-            skill/tymm-material-planner/scripts/generic_p0_course_gate.py \
-            skill/tymm-material-planner/tests/test_parity_blocked_contract.py; do
-            if [ -e "$f" ]; then git add "$f"; fi
-          done
-          if git diff --cached --quiet; then exit 0; fi
-          git commit -m 'feat(tymm): enforce parity-review generation block'
+          git add courses/TDE_10/source_docs/phase15_execution_report.json
+          if [ "$STATUS" = 'PASS_TECHNICAL_WITH_8_EXTERNAL_AUTH_BLOCKERS' ]; then
+            git add courses/TDE_10/index courses/TDE_10/runtime courses/TDE_10/source_manifest.json courses/TDE_10/parity_contract.json courses/TDE_10/parity_report.md
+          fi
+          git commit -m 'feat(tde10): record Phase 15 regression gate'
           git pull --rebase origin main
           git push origin HEAD:main
+          if [ "$STATUS" != 'PASS_TECHNICAL_WITH_8_EXTERNAL_AUTH_BLOCKERS' ]; then exit 1; fi
