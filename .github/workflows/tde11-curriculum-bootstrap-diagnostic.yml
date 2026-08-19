@@ -1,0 +1,46 @@
+name: TDE11 Curriculum Bootstrap Diagnostic
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tde11-curriculum-bootstrap-diagnostic.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  diagnostic:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install PDF text tools
+        run: sudo apt-get update -qq && sudo apt-get install -y poppler-utils
+
+      - name: Extract local curriculum snapshots
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/tde11-text
+          for f in courses/TDE_11/source_docs/*.PDF; do
+            base=$(basename "$f" .PDF)
+            echo "=== FILE: $f ==="
+            sha256sum "$f"
+            pdfinfo "$f" | grep -E '^(Pages|Title|Author|Creator|Producer):' || true
+            pdftotext -layout "$f" "/tmp/tde11-text/${base}.txt"
+            echo "--- EXTRACT HEAD ---"
+            sed -n '1,90p' "/tmp/tde11-text/${base}.txt"
+            echo "--- OUTCOME MARKERS ---"
+            grep -nE 'TDE[1-4]\.[1-4]' "/tmp/tde11-text/${base}.txt" | head -80 || true
+          done
+
+      - name: Upload extracted text
+        uses: actions/upload-artifact@v4
+        with:
+          name: tde11-curriculum-pdf-text
+          path: /tmp/tde11-text/*.txt
+          if-no-files-found: error
