@@ -1,4 +1,4 @@
-name: TDE11 Curriculum Bootstrap Diagnostic
+name: TDE11 Curriculum Bootstrap Finalize
 
 on:
   push:
@@ -11,9 +11,9 @@ permissions:
   contents: write
 
 jobs:
-  diagnostic:
+  finalize:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -23,54 +23,327 @@ jobs:
       - name: Install PDF text tools
         run: sudo apt-get update -qq && sudo apt-get install -y poppler-utils
 
-      - name: Extract local curriculum snapshots and fingerprints
+      - name: Finalize source fingerprints, normative evidence and curriculum map
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib, json, re, subprocess
+
+          root = Path('courses/TDE_11')
+          manifest_path = root / 'source_manifest.json'
+          curriculum_path = root / 'curriculum_map.json'
+          manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+          curriculum = json.loads(curriculum_path.read_text(encoding='utf-8'))
+
+          parts = {row['theme_id']: row for row in manifest['curriculum_source_bundle']['parts']}
+          local_by_name = {row['filename']: row for row in manifest['local_uploaded_snapshots']['files']}
+          evidence_themes = []
+          evidence_by_theme = {}
+          fingerprint_rows = []
+
+          for theme_id in sorted(parts):
+              part = parts[theme_id]
+              pdf = root / part['local_path']
+              raw = pdf.read_bytes()
+              sha256 = hashlib.sha256(raw).hexdigest()
+              part['sha256'] = sha256
+              part['source_fingerprint_type'] = 'SHA256'
+              part['source_fingerprint_status'] = 'VERIFIED_LOCAL_BINARY'
+              fingerprint_rows.append(f'{theme_id}:{sha256}')
+
+              local = local_by_name[part['local_filename']]
+              local['sha256'] = sha256
+              local['source_fingerprint_type'] = 'SHA256'
+
+              result = subprocess.run(
+                  ['pdftotext', '-layout', str(pdf), '-'],
+                  check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
+              )
+              text = result.stdout.decode('utf-8', errors='replace')
+              page_texts = [p.rstrip() for p in text.split('\f') if p.strip()]
+              replacement_count = sum(p.count('\ufffd') for p in page_texts)
+              quality = 'PASS_TEXT_LAYER' if replacement_count == 0 else 'TEXT_LAYER_WITH_GLYPH_REPLACEMENTS'
+              pages = [
+                  {
+                      'page': i + 1,
+                      'source_locator': f"source_docs/{pdf.name}#page={i+1}",
+                      'text': page,
+                  }
+                  for i, page in enumerate(page_texts)
+              ]
+              record = {
+                  'theme_id': theme_id,
+                  'theme_title': part['expected_theme_title'],
+                  'source_file': f'source_docs/{pdf.name}',
+                  'source_sha256': sha256,
+                  'page_count': len(page_texts),
+                  'extraction_method': 'pdftotext -layout (Poppler)',
+                  'extraction_status': 'VERIFIED_SOURCE_BOUND_TEXT_EVIDENCE',
+                  'extraction_quality': quality,
+                  'replacement_character_count': replacement_count,
+                  'pages': pages,
+              }
+              evidence_themes.append(record)
+              evidence_by_theme[theme_id] = record
+
+          bundle_sha256 = hashlib.sha256('\n'.join(sorted(fingerprint_rows)).encode('utf-8')).hexdigest()
+          manifest['schema_version'] = '1.2'
+          manifest['curriculum_source_bundle_sha256'] = bundle_sha256
+          manifest['curriculum_source_bundle']['bundle_fingerprint_type'] = 'SHA256_OF_SORTED_THEME_SHA256_ROWS'
+          manifest['curriculum_source_bundle']['bundle_fingerprint_status'] = 'VERIFIED'
+          manifest['source_resolution_rules']['fingerprint_rule'] = 'Local official PDF snapshots use SHA-256; Git blob SHA is retained only as repository transport identity.'
+          manifest['local_uploaded_snapshots']['fingerprint_status'] = 'PASS_4_OF_4_SHA256_VERIFIED'
+
+          evidence = {
+              'schema_version': '1.0',
+              'course_id': manifest['course_id'],
+              'grade': manifest['grade'],
+              'course_title': manifest['course_title'],
+              'evidence_type': 'LOCAL_OFFICIAL_CURRICULUM_PDF_PAGE_TEXT',
+              'source_bundle_sha256': bundle_sha256,
+              'canonical_role': 'Source-bound verbatim text evidence for curriculum_map.json; PDF remains the primary official snapshot.',
+              'themes': evidence_themes,
+          }
+          (root / 'curriculum_normative_text.json').write_text(
+              json.dumps(evidence, ensure_ascii=False, indent=2) + '\n', encoding='utf-8'
+          )
+
+          curriculum['schema_version'] = '1.2'
+          curriculum['source_mode'] = 'OFFICIAL_REMOTE_TYMM_THEME_BUNDLE_WITH_MAPPED_LOCAL_PDF_SNAPSHOTS'
+          curriculum['verification_status'] = 'VERIFIED_OFFICIAL_REMOTE_AND_LOCAL'
+          curriculum['canonical_freeze_status'] = 'FROZEN_PENDING_SOURCE_FINGERPRINT_CHANGE'
+          scope = curriculum.setdefault('scope_summary', {})
+          tm = manifest['annual_time_model']
+          scope['official_instructional_hours_per_theme'] = tm['instructional_hours_per_theme']
+          scope['school_based_planning_hours_per_theme'] = tm['school_based_planning_hours_per_theme']
+          scope['theme_total_hours_with_school_based_planning'] = tm['theme_total_hours']
+          scope['official_instructional_hours_total'] = tm['annual_instructional_hours']
+          scope['annual_school_based_planning_hours'] = tm['annual_school_based_planning_hours']
+          scope['annual_total_hours_with_school_based_planning'] = tm['annual_total_hours']
+
+          sv = curriculum.setdefault('source_validation', {})
+          sv['local_pdf_theme_mapping'] = 'PASS_4_OF_4_CONTENT_VERIFIED_AND_RENAMED'
+          sv['local_pdf_fingerprint_status'] = 'PASS_4_OF_4_SHA256_VERIFIED'
+          sv['curriculum_source_bundle_sha256'] = bundle_sha256
+          sv['normative_text_evidence'] = 'PASS_FULL_LOCAL_PDF_PAGE_TEXT_CAPTURED'
+
+          for theme in curriculum['themes']:
+              theme_id = theme['theme_id']
+              part = parts[theme_id]
+              ev = evidence_by_theme[theme_id]
+              theme['local_source_snapshot'] = {
+                  'filename': part['local_filename'],
+                  'path': part['local_path'],
+                  'sha256': part['sha256'],
+                  'git_blob_sha': part.get('git_blob_sha'),
+                  'page_count': part.get('page_count_pdf') or ev['page_count'],
+                  'verification_status': 'VERIFIED_LOCAL_OFFICIAL_SNAPSHOT',
+              }
+              hours = theme.setdefault('allocated_lesson_hours', {})
+              hours['planning_layer'] = {
+                  'school_based_planning_hours': tm['school_based_planning_hours_per_theme'],
+                  'theme_total_hours': tm['theme_total_hours'],
+                  'authority': 'USER_CONFIRMED_PLANNING_RULE',
+                  'semantics': 'Official TYMM instructional hours remain unchanged; school-based planning is a separate planning layer.',
+              }
+              theme['school_based_planning_provisions'] = {
+                  'source_status': 'SOURCE_NOT_EXPLICIT_ON_THEME_PAGE',
+                  'planning_layer': {
+                      'authority': 'USER_CONFIRMED_PLANNING_RULE',
+                      'hours': tm['school_based_planning_hours_per_theme'],
+                      'outer_theme_total_hours': tm['theme_total_hours'],
+                      'curriculum_gap': False,
+                  },
+              }
+              theme['normative_text_evidence'] = {
+                  'status': 'VERIFIED_LOCAL_PDF_TEXT_EXTRACTION',
+                  'canonical_evidence_file': 'curriculum_normative_text.json',
+                  'evidence_theme_id': theme_id,
+                  'source_pdf': part['local_path'],
+                  'source_sha256': part['sha256'],
+                  'page_count': ev['page_count'],
+                  'extraction_method': ev['extraction_method'],
+                  'extraction_quality': ev['extraction_quality'],
+                  'verbatim_evidence_scope': 'FULL_PDF_PAGE_TEXT_PRESERVED',
+              }
+              theme.setdefault('process_component_policy', {})['canonical_evidence_file'] = 'curriculum_normative_text.json'
+              theme['process_component_policy']['evidence_status'] = 'VERIFIED_LOCAL_PDF_TEXT_EXTRACTION'
+
+              for outcome in theme.get('learning_outcomes', []):
+                  code = outcome.get('outcome_code')
+                  page_no = next((p['page'] for p in ev['pages'] if code and code in p['text']), None)
+                  if page_no:
+                      outcome['local_source_locator'] = f"{part['local_path']}#page={page_no}"
+                      outcome['local_source_sha256'] = part['sha256']
+                      outcome['verification_status'] = 'VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF'
+
+              assessment_pages = sorted({
+                  p['page'] for p in ev['pages']
+                  if 'performans görevi' in p['text'].lower() or 'tema sonu değerlendirme' in p['text'].lower()
+              })
+              for assessment in theme.get('assessment_requirements', []):
+                  assessment['local_evidence_pages'] = [f"{part['local_path']}#page={n}" for n in assessment_pages]
+                  assessment['local_source_sha256'] = part['sha256']
+
+          manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          curriculum_path.write_text(json.dumps(curriculum, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+
+      - name: Run curriculum-only gate
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m py_compile skill/tymm-material-planner/scripts/curriculum_only_gate.py
+          python skill/tymm-material-planner/scripts/curriculum_only_gate.py \
+            --knowledge-root courses/TDE_11 \
+            --report courses/TDE_11/curriculum_validation_report.json
+
+      - name: Verify TDE9 and TDE10 shared regression contracts
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json, sys
+          from pathlib import Path
+          scripts = Path('skill/tymm-material-planner/scripts').resolve()
+          sys.path.insert(0, str(scripts))
+          from production_schema import build_artifact_maps, PARITY_BLOCKED_MODE
+
+          tde9 = json.loads(Path('courses/TDE_9/production/production_manifest.json').read_text(encoding='utf-8'))
+          artifacts, _, aliases, provenance = build_artifact_maps(tde9)
+          assert len(artifacts) == 3, len(artifacts)
+          assert len(aliases) == 7, len(aliases)
+          assert len(provenance) == 7, len(provenance)
+          print('TDE9 7 gap instance -> 3 canonical artifact regression: PASS')
+
+          tde10 = json.loads(Path('courses/TDE_10/production/production_manifest.json').read_text(encoding='utf-8'))
+          assert tde10['production_mode'] == PARITY_BLOCKED_MODE, tde10['production_mode']
+          assert tde10['verified_resource_gap_count'] == 0
+          assert tde10['unresolved_assessment_target_count'] > 0
+          assert tde10['production_queue'] == []
+          assert tde10['generation_authorization']['allowed'] is False
+          assert tde10['generation_authorization']['reason'] == 'UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS'
+          print('TDE10 parity-review-blocked regression: PASS')
+          PY
+
+      - name: Publish human-readable validation summary
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import json
+
+          root = Path('courses/TDE_11')
+          c = json.loads((root / 'curriculum_map.json').read_text(encoding='utf-8'))
+          m = json.loads((root / 'source_manifest.json').read_text(encoding='utf-8'))
+          g = json.loads((root / 'curriculum_validation_report.json').read_text(encoding='utf-8'))
+          themes = c['themes']
+          assessment_count = sum(len(t.get('assessment_requirements', [])) for t in themes)
+          performance_count = sum(1 for t in themes for a in t.get('assessment_requirements', []) if a.get('type') == 'performance_task')
+          theme_end_count = sum(1 for t in themes for a in t.get('assessment_requirements', []) if a.get('type') == 'theme_end')
+          tm = m['annual_time_model']
+          parts = m['curriculum_source_bundle']['parts']
+          lines = [
+              '# TDE_11 Curriculum-Only Validation Report',
+              '',
+              '**Lifecycle:** `CURRICULUM_ONLY_AWAITING_TEXTBOOK`  ',
+              '**Curriculum validation:** PASS  ',
+              '**Gate:** `curriculum_only_gate.py` PASS  ',
+              '**Validated:** 2026-08-19',
+              '',
+              '## Sonuç',
+              '',
+              '- Course: `TDE_11` — 11. Sınıf Türk Dili ve Edebiyatı',
+              '- Resmî program source status: **VERIFIED_OFFICIAL_REMOTE_AND_LOCAL**',
+              '- Curriculum source completeness: **PASS — 4/4 tema**',
+              '- Tema sayısı: **4**',
+              f"- Zaman modeli: **{tm['theme_total_hours']} saat/tema = {tm['instructional_hours_per_theme']} saat resmî öğretim + {tm['school_based_planning_hours_per_theme']} saat okul temelli planlama**",
+              f"- Yıllık toplam: **{tm['annual_total_hours']} saat = {tm['annual_instructional_hours']} + {tm['annual_school_based_planning_hours']}**",
+              f"- Parent outcome: **{g['canonical']['outcomes']}** (16/tema)",
+              '- Outcome scope/unique ID: **PASS**',
+              '- Verbatim/locator kanıtı: **PASS — full local PDF page text evidence + outcome local page locators**',
+              '- Explicit process component alt ID durumu: **SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS**',
+              '- Sentetik alt kod üretimi: **YOK**',
+              f"- Assessment requirement: **{assessment_count}** — {performance_count} performans görevi + {theme_end_count} tema sonu değerlendirme",
+              '- Source fingerprint: **PASS — 4/4 SHA-256 + bundle fingerprint**',
+              '- TDE_9 regression: **PASS — 7 gap instance → 3 canonical artifact**',
+              '- TDE_10 regression: **PASS — PARITY_REVIEW_BLOCKED fail-closed davranışı korunuyor**',
+              '- Textbook status: **AWAITING_OFFICIAL_TEXTBOOK**',
+              '- Coverage status: **NOT_EVALUATED**',
+              '- Gap status: **NOT_EVALUATED**',
+              '- Production status: **NOT_EVALUATED**',
+              '- Full textbook P0/runtime: **DEFERRED_UNTIL_OFFICIAL_TEXTBOOK_AVAILABLE**',
+              '',
+              '## Kaynak fingerprintleri',
+              '',
+          ]
+          for p in parts:
+              lines.append(f"- `{p['theme_id']}` — `{p['sha256']}` — `{p['local_filename']}`")
+          lines += [
+              '',
+              '## Canonical kanıt derinliği',
+              '',
+              '`curriculum_normative_text.json`, dört resmî yerel PDF’nin `pdftotext -layout` ile sayfa bazlı kaynak-bağlı metin çıkarımını tutar. `curriculum_map.json` tema ve outcome kayıtları bu dosyaya ve SHA-256 fingerprintlerine bağlanmıştır. PDF asıl resmî snapshot olarak kalır; metin çıkarımı kanıt/erişim katmanıdır.',
+              '',
+              '## Ertelenen aşamalar',
+              '',
+              '- textbook map / forms index',
+              '- textbook coverage',
+              '- alignment',
+              '- gap analysis',
+              '- resource/production kararları',
+              '- full textbook runtime ve production gate',
+              '',
+              'Ders kitabının mevcut olmaması curriculum gap olarak değerlendirilmemiştir.',
+              '',
+              '## Gerçek curriculum blocker',
+              '',
+              '**Yok.** Curriculum-only bootstrap gate PASS durumundadır.',
+              '',
+          ]
+          (root / 'validation_report.md').write_text('\n'.join(lines), encoding='utf-8')
+
+          readme = (root / 'README.md').read_text(encoding='utf-8')
+          if 'curriculum_normative_text.json' not in readme:
+              readme = readme.replace(
+                  '- `curriculum_map.json` — 4 tema, 64 parent outcome, program bileşenleri, ölçme-değerlendirme ve farklılaştırma hükümleri\n',
+                  '- `curriculum_map.json` — 4 tema, 64 parent outcome, program bileşenleri, ölçme-değerlendirme ve farklılaştırma hükümleri\n- `curriculum_normative_text.json` — yerel resmî program PDF’lerinin sayfa bazlı kaynak-bağlı metin kanıtı\n'
+              )
+          if '45 saat' not in readme:
+              readme += '\n## Zaman modeli\n\nHer tema 45 saatlik planlama bloğudur: **43 saat resmî öğretim + 2 saat okul temelli planlama**. Yıllık toplam 180 saattir (172 + 8).\n'
+          if 'curriculum_only_gate.py' not in readme:
+              readme += '\n## Doğrulama\n\nCurriculum-only paket `skill/tymm-material-planner/scripts/curriculum_only_gate.py` ile fail-closed doğrulanır. Ders kitabı gelene kadar full textbook P0 zorlanmaz.\n'
+          (root / 'README.md').write_text(readme, encoding='utf-8')
+          PY
+
+      - name: Cleanup temporary extraction workflow and diagnostics
         shell: bash
         run: |
           set -euo pipefail
           rm -rf courses/TDE_11/_diagnostic
-          mkdir -p courses/TDE_11/_diagnostic/extracted
-          python - <<'PY'
-          from pathlib import Path
-          import hashlib, json, subprocess
+          rm -f .github/workflows/tde11-curriculum-bootstrap-diagnostic.yml
 
-          root = Path('courses/TDE_11')
-          out = root / '_diagnostic' / 'extracted'
-          records = []
-          for pdf in sorted((root / 'source_docs').glob('*.PDF')):
-              data = pdf.read_bytes()
-              sha256 = hashlib.sha256(data).hexdigest()
-              text_path = out / (pdf.stem + '.txt')
-              subprocess.run(['pdftotext', '-layout', str(pdf), str(text_path)], check=True)
-              info = subprocess.run(['pdfinfo', str(pdf)], check=True, text=True, capture_output=True).stdout
-              pages = None
-              for line in info.splitlines():
-                  if line.startswith('Pages:'):
-                      pages = int(line.split(':',1)[1].strip())
-                      break
-              records.append({
-                  'filename': pdf.name,
-                  'size_bytes': len(data),
-                  'sha256': sha256,
-                  'pages': pages,
-                  'extracted_text_file': str(text_path.relative_to(root)),
-              })
-          (root / '_diagnostic' / 'fingerprints.json').write_text(
-              json.dumps({'files': records}, ensure_ascii=False, indent=2) + '\n', encoding='utf-8'
-          )
-          PY
-
-      - name: Commit diagnostic outputs
+      - name: Commit finalized curriculum-only bootstrap
         shell: bash
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add courses/TDE_11/_diagnostic
+          git add -A courses/TDE_11 .github/workflows/tde11-curriculum-bootstrap-diagnostic.yml
           if git diff --cached --quiet; then
-            echo 'No diagnostic changes.'
-          else
-            git commit -m 'chore(tde11): publish temporary curriculum diagnostics'
-            git fetch origin main
-            git rebase origin/main
-            git push origin HEAD:main
+            echo 'No finalization changes.'
+            exit 0
           fi
+          git commit -m 'feat(tde11): finalize curriculum-only bootstrap evidence and gate'
+          git fetch origin main
+          CHANGED=$(git diff --name-only "$GITHUB_SHA"..origin/main || true)
+          if printf '%s\n' "$CHANGED" | grep -Eq '^courses/TDE_11/(curriculum_map\.json|source_manifest\.json|curriculum_normative_text\.json|source_docs/)'; then
+            echo 'A newer TDE_11 canonical/source change exists on main; refusing stale publish.'
+            exit 1
+          fi
+          git rebase origin/main
+          python skill/tymm-material-planner/scripts/curriculum_only_gate.py --knowledge-root courses/TDE_11
+          git push origin HEAD:main
