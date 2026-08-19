@@ -1,0 +1,32 @@
+{
+  "files": [
+    {
+      "filename": "Türk Dili Ve Edebiyatı Dersi 11.Sınıf 1. TEMA - BİR DİYECEĞİM VAR!.PDF",
+      "size_bytes": 478569,
+      "sha256": "66d997920f0589cd19f735f1fce820916eafcf26412ab19091811f7248a55482",
+      "pages": 11,
+      "extracted_text_file": "_diagnostic/extracted/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 1. TEMA - BİR DİYECEĞİM VAR!.txt"
+    },
+    {
+      "filename": "Türk Dili Ve Edebiyatı Dersi 11.Sınıf 2. TEMA - KÜLTÜR YOLCULUĞU.PDF",
+      "size_bytes": 548711,
+      "sha256": "2dd813e521d110d165fa93965189e6ed619ffb4da04b48d6616ab1b9f915cf58",
+      "pages": 13,
+      "extracted_text_file": "_diagnostic/extracted/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 2. TEMA - KÜLTÜR YOLCULUĞU.txt"
+    },
+    {
+      "filename": "Türk Dili Ve Edebiyatı Dersi 11.Sınıf 3. TEMA - YAŞAMIN İZİNDE.PDF",
+      "size_bytes": 544923,
+      "sha256": "d9d414bd2dc9fdc7852ee7c66a421a8a146c0560d56b4025690ce988458de04e",
+      "pages": 14,
+      "extracted_text_file": "_diagnostic/extracted/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 3. TEMA - YAŞAMIN İZİNDE.txt"
+    },
+    {
+      "filename": "Türk Dili Ve Edebiyatı Dersi 11.Sınıf 4. TEMA - HAYATIN AYNASI.PDF",
+      "size_bytes": 475320,
+      "sha256": "14a5e5e17919c801127e9c157ef7bc1c947a0d3bcad0d8654cfc3a514aa147f5",
+      "pages": 12,
+      "extracted_text_file": "_diagnostic/extracted/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 4. TEMA - HAYATIN AYNASI.txt"
+    }
+  ]
+}
