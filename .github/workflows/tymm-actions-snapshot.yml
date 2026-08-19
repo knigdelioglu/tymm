@@ -32,7 +32,7 @@ jobs:
           targets={
             'TYMM P0 Production Gate','TDE10 Parity-Aware P0 Gate','TDE10 Phase15 Execution Gate',
             'TDE10 Phase15 Regression','TDE10 Phase15 P0 Gate','TDE10 Phase15 Light Gate',
-            'TDE10 Runtime Compatibility Repair'
+            'TDE10 Runtime Compatibility Repair','TDE10 Final Parity Cleanup'
           }
           rows=[]
           for run in data.get('workflow_runs',[]):
