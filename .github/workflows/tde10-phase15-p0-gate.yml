@@ -53,7 +53,10 @@ jobs:
           if [[ "$STATUS" == PASS_* ]]; then
             git add courses/TDE_10/index courses/TDE_10/runtime courses/TDE_10/source_manifest.json courses/TDE_10/parity_contract.json courses/TDE_10/parity_report.md
           fi
-          git commit -m 'feat(tde10): publish Phase15 P0 regression result'
+          if ! git diff --cached --quiet; then
+            git commit -m 'feat(tde10): publish Phase15 P0 regression result'
+          fi
+          git reset --hard HEAD
           git pull --rebase origin main
           git push origin HEAD:main
           [[ "$STATUS" == PASS_* ]]
