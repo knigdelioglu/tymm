@@ -5,9 +5,19 @@ on:
     branches:
       - p0-production-schema-1-1
       - main
+    paths:
+      - '.github/workflows/tymm-p0-production-gate.yml'
+      - 'skill/tymm-material-planner/scripts/**'
+      - 'skill/tymm-material-planner/tests/**'
+      - 'courses/TDE_9/**'
   pull_request:
     branches:
       - main
+    paths:
+      - '.github/workflows/tymm-p0-production-gate.yml'
+      - 'skill/tymm-material-planner/scripts/**'
+      - 'skill/tymm-material-planner/tests/**'
+      - 'courses/TDE_9/**'
   workflow_dispatch:
 
 permissions:
