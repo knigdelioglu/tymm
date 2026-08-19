@@ -2,6 +2,22 @@
 
 Bu prompt, `knigdelioglu/tymm` reposunda yeni bir ders veya sınıf kademesi için TDE_9 ve TDE_10 ile aynı doğrulama derinliğinde canonical bilgi tabanı, coverage/gap analizi, production contract, index, resolver, runtime ve P0 gate kurulumu yapmak için kullanılmalıdır.
 
+## Kaynak durumuna göre doğru promptu seç
+
+Resmî öğretim programı **ve resmî ders kitabı birlikte mevcutsa** aşağıdaki tam bootstrap promptunu kullan.
+
+Resmî öğretim programı mevcut fakat ders kitabı henüz yayımlanmadı / sağlanmadıysa:
+
+`@docs/yalniz-ogretim-programi-bootstrap-promptu.md`
+
+kullanılmalıdır. Bu durumda kitap yokluğu gap sayılmaz; course `CURRICULUM_ONLY_AWAITING_TEXTBOOK` durumunda bırakılır.
+
+Daha önce curriculum-only kurulmuş bir ders/sınıfın resmî ders kitabı sonradan geldiyse:
+
+`@docs/ders-kitabi-geldiginde-tamamlama-promptu.md`
+
+kullanılmalıdır. Bu ikinci aşama textbook → alignment → gap → production → index → runtime → P0 zincirini tamamlar.
+
 Kullanırken `<DERS/SINIF>` ve resmî kaynak bilgilerini değiştirin.
 
 ```text
