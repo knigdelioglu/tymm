@@ -64,7 +64,6 @@ def build_artifact_maps(
         valid_reuse_only = (
             production_mode == REUSE_ONLY_MODE
             and verified_gap_count == 0
-            and generation_allowed is False
         )
         valid_parity_blocked = (
             production_mode == PARITY_BLOCKED_MODE
