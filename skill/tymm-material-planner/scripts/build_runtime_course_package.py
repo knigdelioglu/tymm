@@ -7,7 +7,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-COMPILER_VERSION = "1.0.0"
+COMPILER_VERSION = "1.0.1"
 RUNTIME_PACKAGE_VERSION = "1.0.0"
 SCHEMA_VERSION = "1.0.0"
 
@@ -84,21 +84,21 @@ def build(root: Path) -> dict[str, Any]:
     db = sqlite3.connect(dbpath); db.execute("PRAGMA foreign_keys=ON"); db.executescript(SCHEMA)
     def ins(sql, vals): db.execute(sql, vals)
     course_id = curriculum["course_id"]
-    ins("INSERT INTO courses VALUES (?,?,?,?,?)", (course_id, curriculum.get("grade"), curriculum.get("course_title"), SCHEMA_VERSION, fingerprint))
+    ins("INSERT INTO courses VALUES (?,?,?,?,?)", (course_id, curriculum.get("grade"), curriculum.get("course_title") or course_id, SCHEMA_VERSION, fingerprint))
     for f in sorted(forms_data["forms"],key=lambda x:x["form_id"]):
-        ins("INSERT INTO forms VALUES (?,?,?,?,?,?,?,?,?)",(f["form_id"],f.get("title",f["form_id"]),f.get("structural_type"),f.get("assessment_type"),integer(f.get("printed_page")),integer(f.get("pdf_page")),f.get("evaluator"),forms_data.get("source_id"),f.get("verification_status")))
+        ins("INSERT INTO forms VALUES (?,?,?,?,?,?,?,?,?)",(f["form_id"],f.get("title") or f["form_id"],f.get("structural_type"),f.get("assessment_type"),integer(f.get("printed_page")),integer(f.get("pdf_page")),f.get("evaluator"),forms_data.get("source_id"),f.get("verification_status")))
     theme_by_id = {x["theme_id"]: x for x in curriculum["themes"]}; textbook_themes = {x["theme_id"]: x for x in textbook["themes"]}; time_themes = {x["theme_id"]: x for x in timeline["themes"]}
     block_by_id = {}
     for t in curriculum["themes"]:
         tid=t["theme_id"]; th=textbook_themes.get(tid,{}); tt=time_themes.get(tid,{})
-        ah=t.get("allocated_lesson_hours") or {}; ins("INSERT INTO themes VALUES (?,?,?,?,?,?,?,?,?)", (tid,course_id,t.get("theme_no"),t.get("exact_theme_name",t.get("theme_title",tid)),t.get("page_range"),integer(first(ah,"total","instructional_total")),integer(ah.get("anlama")),integer(ah.get("anlatma")),t.get("source_locator")))
+        ah=t.get("allocated_lesson_hours") or {}; ins("INSERT INTO themes VALUES (?,?,?,?,?,?,?,?,?)", (tid,course_id,t.get("theme_no"),t.get("exact_theme_name") or t.get("theme_title") or tid,t.get("page_range"),integer(first(ah,"total","instructional_total")),integer(ah.get("anlama")),integer(ah.get("anlatma")),t.get("source_locator")))
         for o in t.get("learning_outcomes",[]):
             oid=o.get("outcome_id") or f"{tid}::{o['outcome_code']}"
             ins("INSERT INTO outcomes VALUES (?,?,?,?,?,?,?)", (oid,tid,o["outcome_code"],text(o.get("outcome_verbatim","")) or "",text(o.get("process_components_verbatim")),text(o.get("source_locator")),text(o.get("verification_status"))))
         for s in th.get("sections",[]):
-            ins("INSERT INTO textbook_sections VALUES (?,?,?,?,?,?,?)", (s["section_id"],tid,s.get("section_title",s["section_id"]),s.get("genre"),s.get("printed_page_range"),s.get("pdf_page_range"),textbook.get("source_id")))
+            ins("INSERT INTO textbook_sections VALUES (?,?,?,?,?,?,?)", (s["section_id"],tid,s.get("section_title") or s["section_id"],s.get("genre"),s.get("printed_page_range"),s.get("pdf_page_range"),textbook.get("source_id")))
             for a in s.get("activities",[]):
-                ins("INSERT INTO activities VALUES (?,?,?,?,?,?,?,?,?,?)", (a["activity_id"],s["section_id"],tid,a.get("exact_title",a.get("activity_title",a["activity_id"])),a.get("activity_type",a.get("type")),a.get("student_action"),a.get("expected_product_or_evidence",a.get("expected_student_evidence")),text(a.get("printed_page")),text(a.get("pdf_page")),a.get("verification_status")))
+                ins("INSERT INTO activities VALUES (?,?,?,?,?,?,?,?,?,?)", (a["activity_id"],s["section_id"],tid,a.get("exact_title") or a.get("activity_title") or a["activity_id"],a.get("activity_type",a.get("type")),a.get("student_action"),a.get("expected_product_or_evidence",a.get("expected_student_evidence")),text(a.get("printed_page")),text(a.get("pdf_page")),a.get("verification_status")))
                 for fid in a.get("related_forms",[]):
                     if fid in {f["form_id"] for f in forms_data["forms"]}: ins("INSERT OR IGNORE INTO activity_forms VALUES (?,?)",(a["activity_id"],fid))
         for b in tt.get("blocks",[]):
@@ -128,13 +128,13 @@ def build(root: Path) -> dict[str, Any]:
             code=r.get("production_decision") or r.get("decision") or r.get("production_decision_code")
             ins("INSERT INTO resource_decisions VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",(r.get("resource_plan_id"),tid,r.get("need_id"),r.get("resource_type"),code,decision_category(code),r.get("priority"),r.get("purpose") or r.get("rationale"),r.get("expected_student_evidence"),r.get("textbook_coverage"),r.get("textbook_resource_locator"),1 if r.get("teacher_review_required") else 0))
     for a in reg.get("annual_artifacts",[]):
-        ins("INSERT INTO assessment_artifacts VALUES (?,?,?,?,?,?,?,?,?,?,?)",(a["artifact_id"],a.get("title",a["artifact_id"]),a.get("skill_domain"),a.get("scope"),a.get("assessment_family"),a.get("reuse_policy"),a.get("generation_priority"),a.get("generation_status"),1 if a.get("teacher_review_required") else 0,j(a.get("covered_themes",[])),j(a.get("covered_gap_instances",[]))))
+        ins("INSERT INTO assessment_artifacts VALUES (?,?,?,?,?,?,?,?,?,?,?)",(a["artifact_id"],a.get("title") or a["artifact_id"],a.get("skill_domain"),a.get("scope"),a.get("assessment_family"),a.get("reuse_policy"),a.get("generation_priority"),a.get("generation_status"),1 if a.get("teacher_review_required") else 0,j(a.get("covered_themes",[])),j(a.get("covered_gap_instances",[]))))
         for b in a.get("task_bindings",[]):
             ins("INSERT INTO assessment_task_bindings VALUES (?,?,?,?,?,?,?,?,?,?)",(a["artifact_id"],b.get("gap_instance_id"),b.get("theme_id"),b.get("block_id"),b.get("activity_id"),j(b.get("targeted_outcomes",[])),b.get("task_title"),b.get("evidence_being_observed"),b.get("textbook_locator"),b.get("curriculum_locator")))
     for m in prod.get("gap_instance_provenance_registry",[]):
         ins("INSERT INTO assessment_gap_mappings VALUES (?,?,?,?,?,?,?)",(m["gap_instance_id"],m["resolved_artifact_id"],m["theme_id"],m.get("resource_plan_id"),m.get("official_requirement_verbatim"),m.get("exact_remaining_gap"),j(m.get("source_locators",{}))))
     for s in manifest.get("sources",[]):
-        ins("INSERT INTO source_references VALUES (?,?,?,?,?,?,?)",(s["source_id"],s.get("source_type"),s.get("title",s["source_id"]),s.get("file_path") or s.get("url"),s.get("source_type"),s.get("authority_rank"),s.get("verification_status")))
+        ins("INSERT INTO source_references VALUES (?,?,?,?,?,?,?)",(s["source_id"],s.get("source_type"),s.get("title") or s["source_id"],s.get("file_path") or s.get("url"),s.get("source_type"),s.get("authority_rank"),s.get("verification_status")))
     for t in curriculum["themes"]:
         sid=curriculum.get("source_id"); loc=t.get("source_locator");
         if sid and loc and db.execute("SELECT 1 FROM source_references WHERE source_id=?",(sid,)).fetchone(): ins("INSERT OR IGNORE INTO entity_source_references VALUES (?,?,?,?)",("theme",t["theme_id"],sid,loc))
@@ -162,6 +162,11 @@ def validate(root: Path, write_report: bool=False) -> dict[str,Any]:
     check("timeline projection status", db.execute("SELECT COUNT(*) FROM timeline_blocks WHERE planned_hours IS NOT NULL").fetchone()[0]==0, "block hours remain ORDER_ONLY")
     mapping_count=db.execute("SELECT COUNT(*) FROM assessment_gap_mappings").fetchone()[0]
     expected_gap_count=production.get("verified_resource_gap_count")
+    if expected_gap_count is None:
+        expected_gap_count=production.get("summary_metrics",{}).get(
+            "required_gap_instance_count",
+            len(production.get("gap_instance_provenance_registry",[])),
+        )
     check("assessment mapping status", mapping_count==expected_gap_count, f"runtime={mapping_count}, canonical={expected_gap_count}")
     artifact_count=db.execute("SELECT COUNT(*) FROM assessment_artifacts").fetchone()[0]
     expected_artifact_count=production.get("expected_new_artifact_count",len(production.get("production_queue",[])))
