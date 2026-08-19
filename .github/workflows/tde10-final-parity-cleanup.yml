@@ -1,0 +1,373 @@
+name: TDE10 Final Parity Cleanup
+
+on:
+  push:
+    paths:
+      - 'courses/TDE_10/.final-parity-cleanup-trigger'
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Update reusable architecture report
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          p=Path('docs/tymm-yeniden-kullanilabilir-bilgi-mimarisi-raporu.md')
+          text=p.read_text(encoding='utf-8')
+
+          def rep(old,new,label):
+              global text
+              if old not in text:
+                  raise SystemExit(f'missing architecture anchor: {label}')
+              text=text.replace(old,new,1)
+
+          rep(
+              '- `TDE_10` — tüm scoped ihtiyaçları kitapta karşılanan, `zero-gap / reuse-only` model.',
+              '- `TDE_10` — `0 confirmed gap + 8 structurally unresolved normative assessment target` bulunan, generation\'ı fail-closed tutan `PARITY_REVIEW_BLOCKED` model. Bu sınıf ancak unresolved hedefler kapandıktan sonra gerçek `reuse-only` veya artifact-producing sonuca geçebilir.',
+              'reference implementation')
+
+          rep(
+              '> **Doğrulanmış gap sayısı `0` ise doğru production sonucu yeni materyal üretmek değil, `REUSE_ONLY_NO_NEW_ARTIFACTS` durumudur.**',
+              '> **`verified_resource_gap_count = 0` tek başına `REUSE_ONLY_NO_NEW_ARTIFACTS` için yeterli değildir. Normatif bir assessment/support hedefi yapısal olarak unresolved ise production `PARITY_REVIEW_BLOCKED` kalır ve generation `UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS` ile kapanır.**',
+              'zero gap principle')
+
+          old_pipeline='''┌───────────────────────────────┬────────────────────────────────┐
+│ verified gap > 0              │ verified gap = 0               │
+│ ARTIFACT_PRODUCING            │ REUSE_ONLY_NO_NEW_ARTIFACTS    │
+│ ↓                             │ ↓                              │
+│ Artifact Generator            │ generation blocked             │
+│ ↓                             │ NO_VERIFIED_RESOURCE_GAP       │
+│ Validation                    │                                │
+│ ↓                             │                                │
+│ Teacher Review                │                                │
+│ ↓                             │                                │
+│ APPROVE / FREEZE              │                                │
+└───────────────────────────────┴────────────────────────────────┘'''
+          new_pipeline='''┌────────────────────────────┬──────────────────────────────┬─────────────────────────────────┐
+│ verified gap > 0           │ gap = 0, unresolved = 0      │ gap = 0, unresolved > 0         │
+│ ARTIFACT_PRODUCING         │ REUSE_ONLY_NO_NEW_ARTIFACTS  │ PARITY_REVIEW_BLOCKED           │
+│ ↓                          │ ↓                            │ ↓                               │
+│ Artifact Generator         │ generation blocked           │ generation blocked              │
+│ ↓                          │ NO_VERIFIED_RESOURCE_GAP     │ UNRESOLVED_NORMATIVE_           │
+│ Validation / Review        │                              │ ASSESSMENT_TARGETS              │
+│ ↓                          │                              │ ↓                               │
+│ APPROVE / FREEZE           │                              │ source/structure review required│
+└────────────────────────────┴──────────────────────────────┴─────────────────────────────────┘'''
+          rep(old_pipeline,new_pipeline,'pipeline branches')
+
+          rep('Production contract iki geçerli biçimden birine sahiptir:', 'Production contract üç güvenli durumdan birine sahiptir:', 'production states intro')
+          rep(
+'''REUSE_ONLY_NO_NEW_ARTIFACTS
+  verified_resource_gap_count = 0
+  production_queue = []''',
+'''REUSE_ONLY_NO_NEW_ARTIFACTS
+  verified_resource_gap_count = 0
+  unresolved_assessment_target_count = 0
+  production_queue = []
+
+PARITY_REVIEW_BLOCKED
+  verified_resource_gap_count = 0
+  unresolved_assessment_target_count > 0
+  production_queue = []
+  generation_authorization.allowed = false''',
+              'production states block')
+          rep(
+              'Boş queue yalnız ikinci durumda geçerlidir. `verified_resource_gap_count > 0` iken boş queue schema/gate hatasıdır.',
+              'Boş queue yalnız doğrulanmış reuse-only veya fail-closed parity-review-blocked durumunda geçerlidir. `verified_resource_gap_count > 0` iken boş queue schema/gate hatasıdır; unresolved normatif hedef varken reuse-only sertifikası da hatadır.',
+              'empty queue rule')
+
+          pattern=r'### 16\.5 Zero-gap / Reuse-only production\n.*?TDE_10 bu modelin referans implementasyonudur\.\n'
+          replacement='''### 16.5 Zero-gap / Reuse-only production
+
+Cross-theme consolidation sonunda hem remaining gap hem de unresolved normatif hedef sayısı `0` olabilir.
+
+```text
+all scoped requirements structurally verified COVERED
+verified_resource_gap_count = 0
+unresolved_assessment_target_count = 0
+        ↓
+production_mode = REUSE_ONLY_NO_NEW_ARTIFACTS
+production_queue = []
+        ↓
+MATERIAL_GENERATION intent
+→ NO_VERIFIED_RESOURCE_GAP
+→ generation blocked
+```
+
+Bu durumda empty queue doğru sonuçtur; sırf artifact üretmek için sahte gap oluşturulmaz.
+
+### 16.6 Parity-review-blocked production
+
+Bir dış/resmî assessment hedefinin varlığı doğrulanmış fakat yapısı doğrulanamamışsa `0 confirmed gap` sonucu reuse-only sertifikası vermez.
+
+```text
+verified_resource_gap_count = 0
+unresolved_assessment_target_count > 0
+        ↓
+production_mode = PARITY_REVIEW_BLOCKED
+production_queue = []
+generation_authorization.allowed = false
+        ↓
+MATERIAL_GENERATION intent
+→ UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS
+→ generation blocked
+```
+
+Kurallar:
+
+- `UNRESOLVED ≠ COVERED`,
+- link varlığı tek başına assessment requirement'ı kapatmaz,
+- unresolved hedef gerçek yapısıyla doğrulanmadan artifact uydurulmaz,
+- hedefler yeterli çıkarsa `REUSE_ONLY_NO_NEW_ARTIFACTS`, yetersiz çıkarsa gap analysis + cross-theme consolidation üzerinden `ARTIFACT_PRODUCING` durumuna geçilir.
+
+TDE_10 bu fail-closed ara durumun referans implementasyonudur.
+'''
+          text,n=re.subn(pattern,replacement,text,flags=re.S)
+          if n!=1: raise SystemExit(f'section 16 replacement count={n}')
+
+          rep(
+'''### Zero-gap generation
+
+```text
+production_mode = REUSE_ONLY_NO_NEW_ARTIFACTS
+verified_resource_gap_count = 0
++ MATERIAL_GENERATION intent
+→ NO_VERIFIED_RESOURCE_GAP
+→ generation blocked
+```''',
+'''### Zero-gap generation
+
+```text
+production_mode = REUSE_ONLY_NO_NEW_ARTIFACTS
+verified_resource_gap_count = 0
+unresolved_assessment_target_count = 0
++ MATERIAL_GENERATION intent
+→ NO_VERIFIED_RESOURCE_GAP
+→ generation blocked
+```
+
+### Unresolved normative assessment target
+
+```text
+production_mode = PARITY_REVIEW_BLOCKED
+unresolved_assessment_target_count > 0
++ MATERIAL_GENERATION intent
+→ UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS
+→ generation blocked
+```''',
+              'resolver blocked states')
+
+          rep('Schema iki durumu destekler:', 'Schema üç durumu destekler:', 'schema states intro')
+          rep(
+'''Gap count sıfır değilse empty queue kabul edilmez.''',
+'''Gap count sıfır değilse empty queue kabul edilmez.
+
+### Parity-review-blocked course
+
+Aşağıdaki koşullar birlikte zorunludur:
+
+```text
+production_mode = PARITY_REVIEW_BLOCKED
+verified_resource_gap_count = 0
+unresolved_assessment_target_count > 0
+production_queue = []
+generation_authorization.allowed = false
+generation_authorization.reason = UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS
+```
+
+Bu durum `NO_REQUIRED_ARTIFACTS` sertifikası değildir; normatif hedefler yapısal olarak çözülene kadar geçici fakat güvenli bir production contract'tır.''',
+              'schema blocked state')
+
+          rep(
+'''gap > 0 → ARTIFACT_PRODUCING
+gap = 0 → REUSE_ONLY_NO_NEW_ARTIFACTS''',
+'''gap > 0 → ARTIFACT_PRODUCING
+gap = 0 + unresolved = 0 → REUSE_ONLY_NO_NEW_ARTIFACTS
+gap = 0 + unresolved > 0 → PARITY_REVIEW_BLOCKED''',
+              'playbook production branch')
+
+          rep('TDE_10: 0 gap → 0 artifact', 'TDE_10: 0 confirmed gap + 8 unresolved target → PARITY_REVIEW_BLOCKED / 0 authorized artifact', 'course invariant')
+          rep('Reuse-only course bu fazı atlar.', 'Reuse-only ve parity-review-blocked course bu fazı atlar; yalnız verified gap sonrası artifact-producing moda geçen course generator açabilir.', 'generator skip')
+          rep('[ ] gap=0 ise empty queue yalnız reuse-only modunda mı kabul ediliyor?', '[ ] Empty queue yalnız verified reuse-only veya fail-closed parity-review-blocked modunda mı kabul ediliyor?', 'checklist empty queue')
+          rep('[ ] Zero-gap generation isteği NO_VERIFIED_RESOURCE_GAP ile kapanıyor mu?', '[ ] Reuse-only generation `NO_VERIFIED_RESOURCE_GAP`, parity-blocked generation `UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS` ile kapanıyor mu?', 'checklist generation')
+
+          pattern=r'## 36\. TDE_10\x27dan çıkan yeni ana dersler\n.*?\n---\n\n## 37\.'
+          replacement='''## 36. TDE_10'dan çıkan yeni ana dersler
+
+1. **Başka sınıfın alt süreç kodlarını kopyalamamak.** Resmî TDE_10 snapshot'larında `TDE*.x.y` alt ID'leri açıkça yayımlanmıyorsa canonical veri olarak üretilmez.
+2. **Local official textbook snapshot'ı desteklemek.** Repo içindeki resmî PDF primary analysis source olabilir.
+3. **QR/EBA scoring guide varlığını structure type'tan ayırmak.** Link resmî olabilir; internal rubric tipi görülmeden analytic rubric denmez.
+4. **`UNRESOLVED ≠ COVERED`.** Bir normatif assessment hedefi auth-gated veya yapısal olarak çözülememişse `PARTIALLY_COVERED / REVIEW_REQUIRED` kalır.
+5. **`gap=0` ile `NO_REQUIRED_ARTIFACTS`ı ayırmak.** Reuse-only için hem confirmed gap hem unresolved normatif hedef sayısı sıfır olmalıdır.
+6. **`PARITY_REVIEW_BLOCKED` birinci sınıf güvenli durumdur.** Empty queue geçerlidir ama generation kapalıdır.
+7. **Bilgi erişimi ile generation iznini ayırmak.** Resolver canonical bilgiyi çözebilir fakat unresolved hedef varken üretimi `UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS` ile engeller.
+8. **Outcome-level granülerliği korumak.** Domain-level özetler 64 outcome'un ayrı need/resource/alignment/gap izini kaybettirmemelidir.
+9. **Cross-theme audit yalnız gap saymamalı.** Potansiyel ortak assessment construct'larını gap oluşmadan da karşılaştırmalıdır.
+10. **Course-specific ve generic invariantları ayırmak.** TDE_9'un 7→3 kuralı ile TDE_10'un parity-blocked durumu aynı shared engine'de birlikte korunabilir.
+11. **Final canonical metadata sonrası projection rebuild zorunluluğu.** Contract/registry/manifest değişirse index/runtime final fingerprintten tekrar rebuild edilmelidir.
+
+---
+
+## 37.'''
+          text,n=re.subn(pattern,replacement,text,flags=re.S)
+          if n!=1: raise SystemExit(f'section 36 replacement count={n}')
+
+          pattern=r'## 37\. Mimari özet\n.*?\n---\n\n## 38\.'
+          replacement='''## 37. Mimari özet
+
+```text
+1. SOURCE TRUTH
+   Official Program + Official Textbook + Source Manifest
+
+2. CANONICAL KNOWLEDGE
+   Curriculum/Textbook Maps + Needs + Alignment + Gap + Resource Plan
+
+3. FIND / RESOLVE
+   SQLite FTS5 + Vector + Resolver
+
+4. PRODUCTION CONTRACT
+   Consolidation + Production Mode + Registry + Contract + P0
+
+5A. GAP > 0
+   Generation Context + Artifact Generator + Validation + Teacher Review
+
+5B. GAP = 0 / UNRESOLVED = 0
+   Reuse Existing Textbook + NO_VERIFIED_RESOURCE_GAP
+
+5C. GAP = 0 / UNRESOLVED > 0
+   PARITY_REVIEW_BLOCKED + UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS
+
+6. APPLICATION
+   Deterministic Runtime SQLite Projection
+```
+
+> **Yapay zekâ kararın kaynağı değildir. Yapay zekâ, doğrulanmış canonical bilgi ve açık production contract üzerinde çalışan kontrollü üretim motorudur.**
+
+---
+
+## 38.'''
+          text,n=re.subn(pattern,replacement,text,flags=re.S)
+          if n!=1: raise SystemExit(f'section 37 replacement count={n}')
+
+          pattern=r'## 39\. Güncel TDE_10 implementasyon durumu — 2026-08-18\n.*?\n---\n\n## 40\.'
+          replacement='''## 39. Güncel TDE_10 implementasyon durumu — 2026-08-19
+
+```text
+Official curriculum snapshots        PASS (4/4)
+Canonical learning outcomes          PASS (64/64)
+Curriculum canonical map             VERIFIED / FROZEN
+Official local textbook PDF          VERIFIED / FROZEN
+Textbook sections                    24
+Textbook activities                  75
+Assessment/form records              35
+Program-textbook alignment           56 COVERED / 8 PARTIALLY_COVERED / 0 NOT_COVERED
+Confirmed remaining resource gaps    0
+Unresolved normative targets         8 authenticated EBA DPA targets
+Production mode                      PARITY_REVIEW_BLOCKED
+Canonical new artifacts authorized   0
+Teaching blocks                      16
+Knowledge index                      INDEX_FRESH
+Indexed canonical records            482
+Duplicate canonical keys             0
+Resolver ambiguity gate              PASS
+Resolver stale gate                  PASS
+Resolver conflict gate               PASS
+Generation gate                      PASS / UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS
+Runtime projection                   PASS
+Technical P0                         PASS
+TDE_9 regression                     PASS / 7 gap → 3 artifact preserved
+Parity certification                 WITHHELD pending 8 EBA target structures
+```
+
+Runtime projection:
+
+```text
+courses                     1
+themes                      4
+blocks                     16
+outcomes                   64
+textbook_sections          24
+activities                 75
+forms                      35
+resource_decisions         64
+assessment_artifacts        0
+assessment_gap_mappings     0
+assessment_task_bindings    0
+timeline_themes             4
+timeline_blocks            16
+```
+
+TDE_10'da `0 assessment_artifact` doğru fail-closed sonuçtur; fakat sekiz unresolved normatif hedef kapanmadan bu durum `verified reuse-only` olarak adlandırılmaz.
+
+---
+
+## 40.'''
+          text,n=re.subn(pattern,replacement,text,flags=re.S)
+          if n!=1: raise SystemExit(f'section 39 replacement count={n}')
+
+          rep(
+'''→ TDE_10 generic zero-gap P0
+→ index/runtime rebuild
+→ final canonical metadata sonrası ikinci rebuild/freshness doğrulaması''',
+'''→ TDE_10 parity-aware generic P0
+→ reuse-only ve PARITY_REVIEW_BLOCKED contract doğrulaması
+→ index/runtime rebuild
+→ final canonical metadata sonrası ikinci rebuild/freshness doğrulaması''',
+              'persistent CI description')
+
+          rep(
+'''### Zero-gap / reuse-only course
+
+Aşağıdaki zincir gösterilebiliyorsa production input hazırdır:
+
+> “Scoped program gereksinimlerinin tamamı için textbook action/evidence yolu doğrulandı; remaining gap sayısı `0`; production contract `REUSE_ONLY_NO_NEW_ARTIFACTS`; empty queue doğrulanmış; material-generation isteği `NO_VERIFIED_RESOURCE_GAP` ile fail-closed; index/runtime final canonical fingerprintten rebuild edilebilir.”
+
+Bu iki modelden uygun olanındaki bir halka eksikse P0 açılmamalıdır.''',
+'''### Zero-gap / reuse-only course
+
+Aşağıdaki zincir gösterilebiliyorsa production input hazırdır:
+
+> “Scoped program gereksinimlerinin tamamı için textbook action/evidence ve normatif assessment yapıları doğrulandı; remaining gap `0`; unresolved normatif target `0`; production contract `REUSE_ONLY_NO_NEW_ARTIFACTS`; empty queue doğrulanmış; material-generation isteği `NO_VERIFIED_RESOURCE_GAP` ile fail-closed; index/runtime final canonical fingerprintten rebuild edilebilir.”
+
+### Parity-review-blocked course
+
+Aşağıdaki zincir gösterilebiliyorsa güvenli ara durum doğrudur:
+
+> “Confirmed gap `0` fakat en az bir normatif assessment/support hedefi yapısal olarak unresolved; bu hedefler COVERED sayılmıyor; production `PARITY_REVIEW_BLOCKED`; queue boş; generation `UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS` ile kapalı; unresolved hedef çözülmeden reuse-only sertifikası veya yeni artifact verilmiyor.”
+
+Bu üç modelden uygun olanındaki bir halka eksikse P0 açılmamalıdır.''',
+              'appendix production readiness')
+
+          p.write_text(text,encoding='utf-8')
+          PY
+
+      - name: Remove parity implementation helpers
+        run: |
+          set -e
+          find .github/workflows -maxdepth 1 -type f \( -name 'tde10-parity-*.yml' -o -name 'tde10-phase15-*.yml' -o -name 'tymm-actions-snapshot.yml' \) -print -delete
+          find courses/TDE_10 -maxdepth 1 -type f \( -name '.*trigger*' -o -name '.actions-snapshot-trigger' \) -print -delete
+          rm -f \
+            courses/TDE_10/source_docs/actions_queue_snapshot.json \
+            courses/TDE_10/source_docs/phase15_heartbeat.json \
+            courses/TDE_10/source_docs/phase15_regression_heartbeat.json \
+            courses/TDE_10/source_docs/phase15_p0_heartbeat.json \
+            courses/TDE_10/source_docs/phase15_light_report.json
+
+      - name: Commit final cleanup
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m 'docs(tde10): finalize parity-blocked architecture and cleanup'
+          git pull --rebase origin main
+          git push origin HEAD:main
