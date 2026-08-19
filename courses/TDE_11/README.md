@@ -1,29 +1,23 @@
 # TDE_11 — 11. Sınıf Türk Dili ve Edebiyatı
 
-Bu klasör, 11. sınıf Türk Dili ve Edebiyatı için curriculum-only bootstrap çalışmasının hazırlık alanıdır.
+Bu klasör, 11. sınıf Türk Dili ve Edebiyatı için curriculum-only canonical katmandır.
 
-## Mevcut aşama
+## Lifecycle
 
-`PRE_BOOTSTRAP_SOURCE_STAGING`
+`CURRICULUM_ONLY_AWAITING_TEXTBOOK`
 
-Henüz `docs/yalniz-ogretim-programi-bootstrap-promptu.md` uygulanmamıştır. Bu nedenle bu aşamada canonical veya derived çıktı üretilmez.
+Resmî öğretim programı doğrulanmış ve canonical curriculum katmanı kurulmuştur. Resmî 11. sınıf ders kitabı henüz bu çalışma için mevcut olmadığı için textbook, coverage, alignment, gap ve production aşamaları başlatılmamıştır.
 
-## Kaynak yükleme
+## Canonical dosyalar
 
-11. sınıfa ait resmî öğretim programı PDF dosyalarını:
+- `source_manifest.json` — resmî program kaynak kimliği, bütünlük ve lifecycle bilgisi
+- `curriculum_map.json` — 4 tema, 64 parent outcome, program bileşenleri, ölçme-değerlendirme ve farklılaştırma hükümleri
+- `curriculum_validation_report.json` — curriculum-only doğrulama sonucu
+- `validation_report.md` — insan tarafından okunabilir kısa doğrulama raporu
+- `source_docs/` — yerel resmî program PDF snapshotları
 
-`courses/TDE_11/source_docs/`
+## Kaynak politikası
 
-klasörüne ekleyin.
+Canonical içerik yalnız 11. sınıf resmî TYMM öğretim programından çıkarılır. TDE_9 ve TDE_10 içerik kaynağı değildir; yalnız mimari/şema davranışı referansı olabilir.
 
-Program birden fazla PDF/parçadan oluşuyorsa bütün resmî parçalar aynı klasöre yüklenmelidir. Dosya adları kaynak kimliğini anlaşılır biçimde korumalıdır; içerik başka sınıftan tamamlanmamalı veya tahmin edilmemelidir.
-
-## Sonraki aşama
-
-Resmî öğretim programı kaynakları yüklendikten sonra:
-
-`docs/yalniz-ogretim-programi-bootstrap-promptu.md`
-
-11. sınıf Türk Dili ve Edebiyatı için uygulanacaktır.
-
-Ders kitabı henüz sağlanmadığı sürece textbook, alignment, gap ve production aşamalarına geçilmez.
+Ders kitabı bulunmadığı için kitap eksikliği `NOT_COVERED`, verified gap veya artifact ihtiyacı olarak yorumlanmaz.
