@@ -1,4 +1,4 @@
-name: TDE10 Runtime Compatibility Repair
+name: TDE10 Runtime Compatibility Patch
 
 on:
   push:
@@ -8,21 +8,13 @@ on:
 permissions:
   contents: write
 
-env:
-  HF_HUB_DISABLE_TELEMETRY: '1'
-
 jobs:
-  repair-and-verify:
+  patch:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
 
       - name: Apply runtime compatibility fixes
         run: |
@@ -31,99 +23,50 @@ jobs:
 
           compiler = Path('skill/tymm-material-planner/scripts/build_runtime_course_package.py')
           text = compiler.read_text(encoding='utf-8')
-
           replacements = [
-              (
-                  'f.get("title",f["form_id"])',
-                  '(f.get("title") or f["form_id"])',
-              ),
-              (
-                  't.get("exact_theme_name",t.get("theme_title",tid))',
-                  '(t.get("exact_theme_name") or t.get("theme_title") or tid)',
-              ),
-              (
-                  's.get("section_title",s["section_id"])',
-                  '(s.get("section_title") or s["section_id"])',
-              ),
-              (
-                  'a.get("exact_title",a.get("activity_title",a["activity_id"]))',
-                  '(a.get("exact_title") or a.get("activity_title") or a["activity_id"])',
-              ),
-              (
-                  'a.get("title",a["artifact_id"])',
-                  '(a.get("title") or a["artifact_id"])',
-              ),
-              (
-                  's.get("title",s["source_id"])',
-                  '(s.get("title") or s["source_id"])',
-              ),
+              ('f.get("title",f["form_id"])','(f.get("title") or f["form_id"])'),
+              ('t.get("exact_theme_name",t.get("theme_title",tid))','(t.get("exact_theme_name") or t.get("theme_title") or tid)'),
+              ('s.get("section_title",s["section_id"])','(s.get("section_title") or s["section_id"])'),
+              ('a.get("exact_title",a.get("activity_title",a["activity_id"]))','(a.get("exact_title") or a.get("activity_title") or a["activity_id"])'),
+              ('a.get("title",a["artifact_id"])','(a.get("title") or a["artifact_id"])'),
+              ('s.get("title",s["source_id"])','(s.get("title") or s["source_id"])'),
           ]
-          for old, new in replacements:
-              if old in text:
-                  text = text.replace(old, new)
+          for old,new in replacements:
+              text=text.replace(old,new)
 
-          old = '    expected_gap_count=production.get("verified_resource_gap_count")\n    check("assessment mapping status", mapping_count==expected_gap_count, f"runtime={mapping_count}, canonical={expected_gap_count}")'
-          new = '''    expected_gap_count=production.get("verified_resource_gap_count")
+          old='    expected_gap_count=production.get("verified_resource_gap_count")\n    check("assessment mapping status", mapping_count==expected_gap_count, f"runtime={mapping_count}, canonical={expected_gap_count}")'
+          new='''    expected_gap_count=production.get("verified_resource_gap_count")
     if expected_gap_count is None:
         expected_gap_count=production.get("summary_metrics",{}).get(
             "required_gap_instance_count",
             len(production.get("gap_instance_provenance_registry",[])),
         )
     check("assessment mapping status", mapping_count==expected_gap_count, f"runtime={mapping_count}, canonical={expected_gap_count}")'''
-          if old not in text and new not in text:
+          if old in text:
+              text=text.replace(old,new)
+          elif new not in text:
               raise SystemExit('expected_gap_count anchor missing')
-          text = text.replace(old, new)
-          compiler.write_text(text, encoding='utf-8')
+          compiler.write_text(text,encoding='utf-8')
 
-          # Permanent Phase15 workflow: discard test-only derived changes before rebase.
-          workflow = Path('.github/workflows/tde10-phase15-p0-gate.yml')
-          w = workflow.read_text(encoding='utf-8')
-          old = "          git commit -m 'feat(tde10): publish Phase15 P0 regression result'\n          git pull --rebase origin main"
-          new = "          git commit -m 'feat(tde10): publish Phase15 P0 regression result'\n          git reset --hard HEAD\n          git pull --rebase origin main"
+          workflow=Path('.github/workflows/tde10-phase15-p0-gate.yml')
+          w=workflow.read_text(encoding='utf-8')
+          old="          git commit -m 'feat(tde10): publish Phase15 P0 regression result'\n          git pull --rebase origin main"
+          new="          git commit -m 'feat(tde10): publish Phase15 P0 regression result'\n          git reset --hard HEAD\n          git pull --rebase origin main"
           if old in w:
-              w = w.replace(old, new)
-          workflow.write_text(w, encoding='utf-8')
+              w=w.replace(old,new)
+          workflow.write_text(w,encoding='utf-8')
           PY
 
-      - name: Install gate dependencies
-        run: python -m pip install --disable-pip-version-check 'numpy<3' 'sqlite-vec==0.1.9' onnxruntime tokenizers huggingface_hub hf_xet
-
-      - name: Restore pinned embedding runtime
+      - name: Commit compatibility fixes
         run: |
-          python - <<'PY'
-          from pathlib import Path
-          import shutil
-          from huggingface_hub import hf_hub_download
-          target=Path('skill/tymm-material-planner/models/multilingual-e5-small')
-          target.mkdir(parents=True,exist_ok=True)
-          for remote,local in {'tokenizer.json':'tokenizer.json','onnx/model_quantized.onnx':'model_quantized.onnx'}.items():
-              src=hf_hub_download(repo_id='Xenova/multilingual-e5-small',filename=remote,revision='761b726dd34fb83930e26aab4e9ac3899aa1fa78')
-              shutil.copy2(src,target/local)
-          PY
-
-      - id: gate
-        name: Run Phase15 regression gate
-        continue-on-error: true
-        run: python skill/tymm-material-planner/scripts/phase15_regression_gate.py
-
-      - name: Publish fixes and result
-        if: always()
-        run: |
-          STATUS=$(python - <<'PY'
-          import json
-          from pathlib import Path
-          p=Path('courses/TDE_10/source_docs/phase15_execution_report.json')
-          print(json.loads(p.read_text())['final'] if p.exists() else 'FAIL_NO_REPORT')
-          PY
-          )
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add skill/tymm-material-planner/scripts/build_runtime_course_package.py .github/workflows/tde10-phase15-p0-gate.yml courses/TDE_10/source_docs/phase15_execution_report.json
-          if [[ "$STATUS" == PASS_* ]]; then
-            git add courses/TDE_10/index courses/TDE_10/runtime courses/TDE_10/source_manifest.json courses/TDE_10/parity_contract.json courses/TDE_10/parity_report.md
+          git add skill/tymm-material-planner/scripts/build_runtime_course_package.py .github/workflows/tde10-phase15-p0-gate.yml
+          if git diff --cached --quiet; then
+            echo 'Compatibility patch already applied.'
+          else
+            git commit -m 'fix(tymm): restore runtime compatibility for TDE9 and TDE10'
+            git reset --hard HEAD
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
-          git commit -m 'fix(tymm): restore TDE9 runtime compatibility and TDE10 P0'
-          git reset --hard HEAD
-          git pull --rebase origin main
-          git push origin HEAD:main
-          [[ "$STATUS" == PASS_* ]]
