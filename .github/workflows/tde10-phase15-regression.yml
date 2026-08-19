@@ -1,0 +1,211 @@
+name: TDE10 Phase15 Regression
+
+on:
+  push:
+    paths:
+      - 'courses/TDE_10/.phase15-regression-trigger'
+
+permissions:
+  contents: write
+
+env:
+  HF_HUB_DISABLE_TELEMETRY: '1'
+
+jobs:
+  regression:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: python -m pip install --disable-pip-version-check 'numpy<3' 'sqlite-vec==0.1.9' onnxruntime tokenizers huggingface_hub hf_xet
+
+      - name: Restore pinned embedding runtime
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import shutil
+          from huggingface_hub import hf_hub_download
+          target=Path('skill/tymm-material-planner/models/multilingual-e5-small')
+          target.mkdir(parents=True,exist_ok=True)
+          for remote,local in {'tokenizer.json':'tokenizer.json','onnx/model_quantized.onnx':'model_quantized.onnx'}.items():
+              src=hf_hub_download(repo_id='Xenova/multilingual-e5-small',filename=remote,revision='761b726dd34fb83930e26aab4e9ac3899aa1fa78')
+              shutil.copy2(src,target/local)
+          PY
+
+      - id: preconditions
+        name: TDE10 parity preconditions
+        continue-on-error: true
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r=Path('courses/TDE_10')
+          v=json.loads((r/'parity_validation_report.json').read_text())
+          p=json.loads((r/'production/production_manifest.json').read_text())
+          assert v['status']=='VALIDATED_WITH_EXTERNAL_AUTH_BLOCKER'
+          assert v['parity_certified'] is False
+          assert v['hard_failures']==[]
+          assert v['counts']['covered']==56 and v['counts']['partially_covered']==8 and v['counts']['not_covered']==0
+          assert p['schema_version']=='1.1' and p['production_mode']=='PARITY_REVIEW_BLOCKED'
+          assert p['verified_resource_gap_count']==0 and p['unresolved_assessment_target_count']==8
+          assert p['production_queue']==[]
+          assert p['generation_authorization']=={'allowed':False,'reason':'UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS','blocking_target_count':8}
+          print('TDE10 parity preconditions: PASS')
+          PY
+
+      - id: reuse
+        name: Reuse-only schema regression
+        continue-on-error: true
+        run: python skill/tymm-material-planner/tests/test_reuse_only_contract.py
+
+      - id: blocked
+        name: Parity-blocked schema regression
+        continue-on-error: true
+        run: python skill/tymm-material-planner/tests/test_parity_blocked_contract.py
+
+      - id: tde9contract
+        name: TDE9 7-to-3 contract regression
+        continue-on-error: true
+        run: |
+          python - <<'PY'
+          import json,sys
+          from pathlib import Path
+          sys.path.insert(0,str(Path('skill/tymm-material-planner/scripts').resolve()))
+          from production_schema import build_artifact_maps
+          m=json.loads(Path('courses/TDE_9/production/production_manifest.json').read_text())
+          a,_,aliases,prov=build_artifact_maps(m)
+          assert len(a)==3 and len(aliases)==7 and len(prov)==7
+          print('TDE9 7-to-3: PASS')
+          PY
+
+      - id: tde9p0
+        name: TDE9 strict P0
+        continue-on-error: true
+        env:
+          TYMM_KNOWLEDGE_ROOT: ${{ github.workspace }}/courses/TDE_9
+        run: python skill/tymm-material-planner/scripts/p0_production_gate.py
+
+      - id: tde9resolver
+        name: TDE9 resolver regression
+        continue-on-error: true
+        run: python skill/tymm-material-planner/tests/test_resolver_runner.py
+
+      - id: tde9runtime
+        name: TDE9 runtime regression
+        continue-on-error: true
+        run: python skill/tymm-material-planner/tests/test_runtime_course_package.py
+
+      - id: tde10p0
+        name: TDE10 parity-aware generic P0
+        continue-on-error: true
+        env:
+          TYMM_KNOWLEDGE_ROOT: ${{ github.workspace }}/courses/TDE_10
+        run: python skill/tymm-material-planner/scripts/generic_p0_course_gate.py
+
+      - id: tde10index
+        name: TDE10 index status
+        continue-on-error: true
+        run: python skill/tymm-material-planner/scripts/knowledge_index.py status --knowledge-root courses/TDE_10
+
+      - id: tde10runtime
+        name: TDE10 runtime status
+        continue-on-error: true
+        run: python skill/tymm-material-planner/scripts/build_runtime_course_package.py status --knowledge-root courses/TDE_10
+
+      - id: metadata
+        name: Record technical P0 metadata
+        if: steps.preconditions.outcome == 'success' && steps.reuse.outcome == 'success' && steps.blocked.outcome == 'success' && steps.tde9contract.outcome == 'success' && steps.tde9p0.outcome == 'success' && steps.tde9resolver.outcome == 'success' && steps.tde9runtime.outcome == 'success' && steps.tde10p0.outcome == 'success' && steps.tde10index.outcome == 'success' && steps.tde10runtime.outcome == 'success'
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r=Path('courses/TDE_10')
+          cp=r/'parity_contract.json'; c=json.loads(cp.read_text())
+          c['phase_gates']['PHASE_15_P0_AND_TDE9_REGRESSION']='PASS_TECHNICAL_WITH_8_EXTERNAL_AUTH_BLOCKERS'
+          c['technical_p0_status']='PASS'
+          c['parity_certification']='WITHHELD_PENDING_8_AUTH_GATED_EBA_DPA_TARGETS'
+          cp.write_text(json.dumps(c,ensure_ascii=False,indent=2)+'\n')
+          sp=r/'source_manifest.json'; m=json.loads(sp.read_text())
+          m['overall_status']='TECHNICAL_P0_PASS_PARITY_REVIEW_BLOCKED'
+          m['parity_remediation_status']='BLOCKED_PENDING_8_AUTH_GATED_EBA_DPA_TARGETS'
+          m['parity_certification']='WITHHELD'
+          m.setdefault('scope',{}).update({'knowledge_index_built':True,'runtime_projection_built':True,'p0_gate_passed':True,'materials_generated':False})
+          sp.write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n')
+          pp=r/'parity_report.md'; text=pp.read_text()
+          marker='## 11. Faz 15 teknik P0 ve TDE_9 regresyon sonucu'
+          if marker not in text:
+              text += '\n\n'+marker+'\n\nTDE_10 teknik P0 kapıları ve TDE_9 regresyonları geçmiştir. TDE_10 materyal üretimi, sekiz authenticated EBA DPA hedefi çözülmediği için `UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS` ile fail-closed kalır. TDE_9 tarihsel 7 gap instance → 3 canonical artifact sözleşmesi korunmuştur.\n\n**Faz 15:** `PASS_TECHNICAL_WITH_8_EXTERNAL_AUTH_BLOCKERS`. Bu sonuç parity sertifikası değildir.\n'
+              pp.write_text(text)
+          PY
+
+      - id: finalp0
+        name: Final TDE10 rebuild after metadata
+        if: steps.metadata.outcome == 'success'
+        continue-on-error: true
+        env:
+          TYMM_KNOWLEDGE_ROOT: ${{ github.workspace }}/courses/TDE_10
+        run: python skill/tymm-material-planner/scripts/generic_p0_course_gate.py
+
+      - id: finalindex
+        name: Final index status
+        if: steps.metadata.outcome == 'success'
+        continue-on-error: true
+        run: python skill/tymm-material-planner/scripts/knowledge_index.py status --knowledge-root courses/TDE_10
+
+      - id: finalruntime
+        name: Final runtime status
+        if: steps.metadata.outcome == 'success'
+        continue-on-error: true
+        run: python skill/tymm-material-planner/scripts/build_runtime_course_package.py status --knowledge-root courses/TDE_10
+
+      - name: Write Phase15 execution report
+        if: always()
+        env:
+          PRE: ${{ steps.preconditions.outcome }}
+          REUSE: ${{ steps.reuse.outcome }}
+          BLOCKED: ${{ steps.blocked.outcome }}
+          TDE9_CONTRACT: ${{ steps.tde9contract.outcome }}
+          TDE9_P0: ${{ steps.tde9p0.outcome }}
+          TDE9_RESOLVER: ${{ steps.tde9resolver.outcome }}
+          TDE9_RUNTIME: ${{ steps.tde9runtime.outcome }}
+          TDE10_P0: ${{ steps.tde10p0.outcome }}
+          TDE10_INDEX: ${{ steps.tde10index.outcome }}
+          TDE10_RUNTIME: ${{ steps.tde10runtime.outcome }}
+          METADATA: ${{ steps.metadata.outcome }}
+          FINAL_P0: ${{ steps.finalp0.outcome }}
+          FINAL_INDEX: ${{ steps.finalindex.outcome }}
+          FINAL_RUNTIME: ${{ steps.finalruntime.outcome }}
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          names=['PRE','REUSE','BLOCKED','TDE9_CONTRACT','TDE9_P0','TDE9_RESOLVER','TDE9_RUNTIME','TDE10_P0','TDE10_INDEX','TDE10_RUNTIME','METADATA','FINAL_P0','FINAL_INDEX','FINAL_RUNTIME']
+          results={n:os.environ.get(n,'') for n in names}
+          required=names
+          ok=all(results[n]=='success' for n in required)
+          out={'schema_version':'1.0','course_id':'TDE_10','phase':15,'final':'PASS_TECHNICAL_WITH_8_EXTERNAL_AUTH_BLOCKERS' if ok else 'FAIL','parity_certified':False,'external_blockers':['8 authenticated EBA DPA target structures unresolved'],'step_outcomes':results}
+          Path('courses/TDE_10/source_docs/phase15_execution_report.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n')
+          PY
+
+      - name: Commit result
+        if: always()
+        run: |
+          STATUS=$(python -c "import json; print(json.load(open('courses/TDE_10/source_docs/phase15_execution_report.json'))['final'])")
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add courses/TDE_10/source_docs/phase15_execution_report.json
+          if [ "$STATUS" = 'PASS_TECHNICAL_WITH_8_EXTERNAL_AUTH_BLOCKERS' ]; then
+            git add courses/TDE_10/index courses/TDE_10/runtime courses/TDE_10/source_manifest.json courses/TDE_10/parity_contract.json courses/TDE_10/parity_report.md
+          fi
+          git commit -m 'feat(tde10): record Phase15 regression result'
+          git pull --rebase origin main
+          git push origin HEAD:main
+          if [ "$STATUS" != 'PASS_TECHNICAL_WITH_8_EXTERNAL_AUTH_BLOCKERS' ]; then exit 1; fi
