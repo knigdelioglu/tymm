@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_11",
+  "validated_at": "2026-08-19",
+  "lifecycle_status": "CURRICULUM_ONLY_AWAITING_TEXTBOOK",
+  "curriculum_validation_status": "PASS",
+  "checks": {
+    "source_identity": "PASS",
+    "source_completeness": "PASS_4_OF_4_OFFICIAL_THEMES",
+    "curriculum_schema": "PASS",
+    "unique_outcome_ids": "PASS_64_UNIQUE_THEME_SCOPED_KEYS",
+    "outcome_scope_safety": "PASS_THEME_SCOPED",
+    "verbatim_and_locator": "PASS_CORE_CANONICAL_FIELDS_LOCATED",
+    "broken_canonical_references": "PASS",
+    "duplicate_canonical_keys": "PASS",
+    "synthetic_subcodes": "PASS_NONE_CREATED",
+    "synthetic_canonical_facts": "PASS",
+    "explicit_process_components": "SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS",
+    "local_pdf_binary_presence": "PASS_4_FILES_PRESENT",
+    "local_pdf_theme_identity": "REVIEW_REQUIRED_TEMP_FILENAMES_UNMAPPED"
+  },
+  "counts": {
+    "themes": 4,
+    "learning_outcomes": 64,
+    "assessment_requirements": 12,
+    "performance_tasks": 8,
+    "theme_end_evaluations": 4
+  },
+  "textbook_status": "AWAITING_OFFICIAL_TEXTBOOK",
+  "coverage_status": "NOT_EVALUATED",
+  "gap_status": "NOT_EVALUATED",
+  "production_status": "NOT_EVALUATED",
+  "deferred_until_official_textbook_available": [
+    "textbook analysis",
+    "coverage",
+    "alignment",
+    "gap analysis",
+    "resource production decisions",
+    "full textbook runtime",
+    "production gates"
+  ],
+  "real_curriculum_blockers": [],
+  "review_notes": [
+    "The four uploaded local PDFs have temporary filenames. Their binary presence, sizes and Git blob SHAs are registered, but theme identity is not inferred from file size or upload order.",
+    "Official TYMM web pages are the canonical identity and wording source for this freeze."
+  ]
+}
