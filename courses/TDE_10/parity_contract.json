@@ -272,8 +272,10 @@
     "PHASE_12_PRODUCTION_REDECISION": "BLOCKED_NO_GENERATION_PENDING_TARGETS",
     "PHASE_13_LIFECYCLE_RECONCILIATION": "PASS_PARITY_CERTIFICATION_WITHHELD",
     "PHASE_14_PARITY_VALIDATION_REPORT": "PASS_WITH_8_EXTERNAL_AUTH_BLOCKERS",
-    "PHASE_15_P0_AND_TDE9_REGRESSION": "PENDING"
+    "PHASE_15_P0_AND_TDE9_REGRESSION": "PASS_TECHNICAL_WITH_8_EXTERNAL_AUTH_BLOCKERS"
   },
   "completion_rule": "TDE_10 may be declared TDE_9-level parity only when all REQUIRED_PARITY areas are verified, all source-not-applicable differences are explicitly justified, all eight external assessment targets have a resolved structural status, outcome-level coverage is re-derived and cross-theme consolidation is complete.",
-  "parity_validation_status": "VALIDATED_WITH_EXTERNAL_AUTH_BLOCKER"
+  "parity_validation_status": "VALIDATED_WITH_EXTERNAL_AUTH_BLOCKER",
+  "technical_p0_status": "PASS",
+  "parity_certification": "WITHHELD_PENDING_8_AUTH_GATED_EBA_DPA_TARGETS"
 }

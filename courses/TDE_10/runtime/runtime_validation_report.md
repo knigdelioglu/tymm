@@ -39,8 +39,8 @@
 - `activities`: 75
 - `activity_outcomes`: 300
 - `forms`: 35
-- `activity_forms`: 119
-- `resource_decisions`: 16
+- `activity_forms`: 126
+- `resource_decisions`: 64
 - `assessment_artifacts`: 0
 - `assessment_gap_mappings`: 0
 - `assessment_task_bindings`: 0

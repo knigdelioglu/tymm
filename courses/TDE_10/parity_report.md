@@ -189,3 +189,10 @@ Buna rağmen sonraki türetim aşamaları fail-closed olarak tamamlanmıştır:
 **Önemli:** Bu aşamada `0 confirmed gap` vardır fakat `0 required artifact` henüz parity-certified değildir. Sekiz EBA hedefi görülmeden Faz 4 ve Faz 9 kapanamaz.
 
 Sonraki uygulanabilir faz: **Faz 14 — TDE_9 eşdeğer bütünlük/validation raporu**. Faz 15 P0/regresyon testleri, Faz 14 sonrasında çalıştırılacaktır.
+
+
+## 11. Faz 15 teknik P0 ve TDE_9 regresyon sonucu
+
+TDE_10 teknik P0 kapıları ve TDE_9 regresyonları geçmiştir. TDE_10 materyal üretimi, sekiz authenticated EBA DPA hedefi çözülmediği için `UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS` ile fail-closed kalır. TDE_9 tarihsel **7 gap instance → 3 canonical artifact** sözleşmesi, resolver ve runtime regresyonları korunmuştur.
+
+**Faz 15:** `PASS_TECHNICAL_WITH_8_EXTERNAL_AUTH_BLOCKERS`. Bu sonuç parity sertifikası değildir.

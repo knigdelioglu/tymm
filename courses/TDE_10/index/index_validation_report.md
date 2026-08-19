@@ -1,27 +1,27 @@
 # Knowledge Index Validation Report
 
 - **Course ID**: TDE_10
-- **Build Timestamp**: 2026-08-18T20:02:30.806740+00:00
+- **Build Timestamp**: 2026-08-19T09:04:27.743292+00:00
 - **Status**: SUCCESS
-- **Total Indexed Records**: 386
+- **Total Indexed Records**: 482
 - **Production Schema**: 1.1
 - **Artifact Identity**: `artifact_id`
 - **Canonical Assessment Artifacts**: 0
 - **Historical Gap Aliases**: 0
-- **Production Manifest Fingerprint**: `5e067eddea3a82a57b6b1db1134457bc8bbe0e293338f5c289f46f0902fde423`
+- **Production Manifest Fingerprint**: `9d3181f1fb81f3dde1f53e26e785a78e0e81d20d6d2ed129ddb6000c4e696606`
 - **Database Engine**: SQLite 3.45.1 + sqlite-vec
 - **Vector Backend**: `sqlite-vec`
 - **Base Embedding Model**: `intfloat/multilingual-e5-small` (Dim: 384)
 - **Model File SHA256**: `f80102d3f2a1229f387d3c81909990d8945513e347b0eab049f7de3c6f98c193`
-- **Index Content Hash**: `329ab927f1e46570a1ce7d37a2d5bc5eefbb73ffb38b9bd6db0ff5e468adffa0`
+- **Index Content Hash**: `4523e5cbe382b929f46a7cda0506649e301a1cb7412a5af1542466fcad99cfd0`
 
 ## Indexed Entity Types & Counts
 - **alignment_record**: 64
 - **curriculum_outcome**: 64
 - **curriculum_theme**: 4
-- **instructional_need**: 16
+- **instructional_need**: 64
 - **remaining_gap**: 64
-- **resource_plan**: 16
+- **resource_plan**: 64
 - **school_based_option**: 8
 - **teaching_block**: 16
 - **textbook_activity**: 75
@@ -29,25 +29,25 @@
 - **textbook_section**: 24
 
 ## Source Files Fingerprint
-- `curriculum_map.json`: SHA-256 `93c9fd068cd0e1fc3014a046823a4904cc133ad9817e00b3f1b43a864a13af65` (95767 bytes) - VERIFIED
-- `textbook_map.json`: SHA-256 `0e410796927d43f51df129d3cd4a678d6c173985ed7c54d8e69c64c37eb9b239` (52118 bytes) - VERIFIED
-- `textbook_forms_index.json`: SHA-256 `961f6d8f8e8cac2782a2a06e0117aa81a44466568c1c60007f83eded554ba61c` (28944 bytes) - VERIFIED
-- `themes/tema_01/alignment.json`: SHA-256 `875d7005e62b915a2d2bf192d7fa17471bc7b22440e1ebb0cd7b1540dd773c6f` (22546 bytes) - VERIFIED
-- `themes/tema_01/gap_analysis.json`: SHA-256 `cd7b26e7b7bfe26ac9b20d0d0e8adac2fe055988a17f440d5b80f3e1302081cc` (19832 bytes) - VERIFIED
-- `themes/tema_01/needs.json`: SHA-256 `4434a7851a5ec618c69c867796a364279bf55b402441ddd937ec49342c8660aa` (11154 bytes) - VERIFIED
-- `themes/tema_01/resource_plan.json`: SHA-256 `20775ca0475f4cc33ff009cffc7c95be458174846b67a952155526cbebaf4738` (6145 bytes) - VERIFIED
-- `themes/tema_02/alignment.json`: SHA-256 `b0dc7471716efb4f0e758d4df5aa454ef9ba7001c65d1fbeeac36f2885fe3b44` (22568 bytes) - VERIFIED
-- `themes/tema_02/gap_analysis.json`: SHA-256 `4ceff92cef2230a02cafb194c143962560fe6eb45f74de1c96e8ca5894d94944` (19829 bytes) - VERIFIED
-- `themes/tema_02/needs.json`: SHA-256 `c7d783c891cd3ed9433b45d6f57e820614df74219fbbe7d0c692ade58e634f8a` (11304 bytes) - VERIFIED
-- `themes/tema_02/resource_plan.json`: SHA-256 `db00e1beaf6521b288c4bc2f1f76372fe975571434c0275eb338171cb8a92f8a` (6161 bytes) - VERIFIED
-- `themes/tema_03/alignment.json`: SHA-256 `2d5ffffc3bf6a260eca8aae990cf2ac30ac9aa4995594852210f5edeeae6e282` (22727 bytes) - VERIFIED
-- `themes/tema_03/gap_analysis.json`: SHA-256 `cfd8d9e8d002dddfa854792c3e39e41011355de444e54ddb68429926e88e5367` (20011 bytes) - VERIFIED
-- `themes/tema_03/needs.json`: SHA-256 `85870b36781b222f5e085c3b28a80e58a8362ddbe09fec9ca7b3d386d0cdbd33` (11309 bytes) - VERIFIED
-- `themes/tema_03/resource_plan.json`: SHA-256 `8bab8c6607109311698b76d7cda227921d7e4ec82f34a26049f322b429945bd3` (6185 bytes) - VERIFIED
-- `themes/tema_04/alignment.json`: SHA-256 `2c5bcaff0ea89c5903a8168698a9bebf0c1c8355cb9f4b4e1596c18540ec0916` (23432 bytes) - VERIFIED
-- `themes/tema_04/gap_analysis.json`: SHA-256 `4d9bf6a023434ebbcb88919bcabf7b2472a0ba80517a52385eb79f33f7e4537f` (20592 bytes) - VERIFIED
-- `themes/tema_04/needs.json`: SHA-256 `d0735d4b533f6699b780bb67d77de1bf197de0bc37bc4a311650c1f365aae459` (11421 bytes) - VERIFIED
-- `themes/tema_04/resource_plan.json`: SHA-256 `7691ba4611289fde9951565a51609f70a4fc37915886756ebe96e71b0561251f` (6335 bytes) - VERIFIED
-- `production/production_manifest.json`: SHA-256 `5e067eddea3a82a57b6b1db1134457bc8bbe0e293338f5c289f46f0902fde423` (804 bytes) - VERIFIED
+- `curriculum_map.json`: SHA-256 `ce3a6caf26ea0d2126e576633d97f473fbcbf3da5327a3f96f927f2a167fa522` (123197 bytes) - VERIFIED
+- `textbook_map.json`: SHA-256 `818a69c0985f7e0bd6cda1412d32755d930d35714ac80d798e049a1aae489848` (126579 bytes) - VERIFIED
+- `textbook_forms_index.json`: SHA-256 `79d494cd95aab84b11c77c29c9e675bffbe70e3e6ea7f7fec4b666276df1eac6` (55251 bytes) - VERIFIED
+- `themes/tema_01/alignment.json`: SHA-256 `fcd1df93fbd4805b91cd443ba7dd752c8d7df2261e16239c4145379d3b135e53` (33042 bytes) - VERIFIED
+- `themes/tema_01/gap_analysis.json`: SHA-256 `0db422418dfd0e460941083465414451b37d80a2761cf48dfdadece9c6a2d90c` (30265 bytes) - VERIFIED
+- `themes/tema_01/needs.json`: SHA-256 `23c24f4a5318402fde7b28a4735af19ce8d399cfbb0027d40a69175acfb7d1f3` (28373 bytes) - VERIFIED
+- `themes/tema_01/resource_plan.json`: SHA-256 `0177d63d55bd63b1d92a7b74b46d433d675140cdb046001af9d5b982a3189b50` (20066 bytes) - VERIFIED
+- `themes/tema_02/alignment.json`: SHA-256 `5129425c2093e6acb9e71af6029dd21bd45d35cb5aa62d1604a0ccca7c58f22d` (35393 bytes) - VERIFIED
+- `themes/tema_02/gap_analysis.json`: SHA-256 `c98d66cb92d8b302494f2965dbee534ae6fdd12bd9a2a6131124a6d8401ceac2` (32534 bytes) - VERIFIED
+- `themes/tema_02/needs.json`: SHA-256 `e2ea477431d7e9059630d338662919a3b2b88fc3e6231435e9b81b023d8b5a8a` (28404 bytes) - VERIFIED
+- `themes/tema_02/resource_plan.json`: SHA-256 `e6367131b71b63bfd12b7f4401ed25950492c80fe4681da0c1834f0e523c9fb5` (20936 bytes) - VERIFIED
+- `themes/tema_03/alignment.json`: SHA-256 `77b4da64ed6ca56465564f3ba2d4950dcb620833ee02e4b7eca7ec2efb593ac3` (33341 bytes) - VERIFIED
+- `themes/tema_03/gap_analysis.json`: SHA-256 `41fe4cb7bc0223f0383287dfb0f123210dcf61c02d447281a3c1c4a8a6af25b7` (30522 bytes) - VERIFIED
+- `themes/tema_03/needs.json`: SHA-256 `de3fe63fa57febed78466f009cda4e794c0ba831b5c9274cf73137a3c43500c8` (28373 bytes) - VERIFIED
+- `themes/tema_03/resource_plan.json`: SHA-256 `86a4665491fb79db7aa725d4ecac4585169f0980e0024857a99855fd4058b38c` (20197 bytes) - VERIFIED
+- `themes/tema_04/alignment.json`: SHA-256 `3db670dcc3a6decc9d2d49e720009450cad6efdffeeec24fc5f46f3f08153a33` (33658 bytes) - VERIFIED
+- `themes/tema_04/gap_analysis.json`: SHA-256 `0f80052217c609ccec4729d8d4ef45326f8d6c0d3cc9e08de8d15ceded741612` (30743 bytes) - VERIFIED
+- `themes/tema_04/needs.json`: SHA-256 `fb4ed973a48e414440edca1d10a1ce47d67850a6f61a341b27907971d4cfc0b6` (28494 bytes) - VERIFIED
+- `themes/tema_04/resource_plan.json`: SHA-256 `709d28cd8ace5bd4cd379d71e39ee0977fbc52657f0d3300f74c112c3238cde9` (20314 bytes) - VERIFIED
+- `production/production_manifest.json`: SHA-256 `9d3181f1fb81f3dde1f53e26e785a78e0e81d20d6d2ed129ddb6000c4e696606` (1115 bytes) - VERIFIED
 - `production/teaching_blocks.json`: SHA-256 `c9385717798717b5aec878818aab110afe7e558071bfc268e2e59facc1ba3203` (23299 bytes) - VERIFIED
 - `production/school_based_planning_options.json`: SHA-256 `044adb0b958fa6ab2c9a272f61a0651ccd8700302bb42f75ca2ea2d3e17ea716` (7199 bytes) - VERIFIED

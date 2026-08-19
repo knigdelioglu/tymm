@@ -7,8 +7,9 @@
   },
   "production_schema": {
     "schema_version": "1.1",
-    "production_mode": "REUSE_ONLY_NO_NEW_ARTIFACTS",
+    "production_mode": "PARITY_REVIEW_BLOCKED",
     "verified_resource_gap_count": 0,
+    "unresolved_assessment_target_count": 8,
     "expected_new_artifact_count": 0,
     "artifact_ids": [],
     "gap_aliases": [],
@@ -16,7 +17,7 @@
   },
   "index_rebuild": {
     "freshness": "INDEX_FRESH",
-    "indexed_record_count": 386,
+    "indexed_record_count": 482,
     "artifact_rows": [],
     "duplicate_entity_keys": 0,
     "status": "PASS"
@@ -25,19 +26,19 @@
     "structured_probes": [
       {
         "query": "Tema 1 TDE4.4 için kitapta ne eksik?",
-        "coverage": "COVERED"
+        "coverage": "PARTIALLY_COVERED"
       },
       {
         "query": "Tema 2 TDE4.4 için kitapta ne eksik?",
-        "coverage": "COVERED"
+        "coverage": "PARTIALLY_COVERED"
       },
       {
         "query": "Tema 3 TDE4.4 için kitapta ne eksik?",
-        "coverage": "COVERED"
+        "coverage": "PARTIALLY_COVERED"
       },
       {
         "query": "Tema 4 TDE4.4 için kitapta ne eksik?",
-        "coverage": "COVERED"
+        "coverage": "PARTIALLY_COVERED"
       }
     ],
     "ambiguity_probe": {
@@ -48,7 +49,7 @@
     },
     "generation_probe": {
       "allowed": false,
-      "block_reason": "NO_VERIFIED_RESOURCE_GAP"
+      "block_reason": "UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS"
     },
     "status": "PASS"
   },
@@ -73,8 +74,8 @@
       "activities": 75,
       "activity_outcomes": 300,
       "forms": 35,
-      "activity_forms": 119,
-      "resource_decisions": 16,
+      "activity_forms": 126,
+      "resource_decisions": 64,
       "assessment_artifacts": 0,
       "assessment_gap_mappings": 0,
       "assessment_task_bindings": 0,
