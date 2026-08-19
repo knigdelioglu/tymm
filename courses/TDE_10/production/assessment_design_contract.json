@@ -1,9 +1,10 @@
 {
   "schema_version": "1.0",
   "course_id": "TDE_10",
-  "contract_status": "VERIFIED_REUSE_ONLY",
-  "production_mode": "REUSE_ONLY_NO_NEW_ARTIFACTS",
+  "contract_status": "BLOCKED_PENDING_EXTERNAL_ASSESSMENT_VERIFICATION",
+  "production_mode": "PARITY_REVIEW_BLOCKED",
   "verified_resource_gap_count": 0,
+  "unresolved_assessment_target_count": 8,
   "new_artifact_count": 0,
   "source_of_truth": {
     "curriculum": "curriculum_map.json",
@@ -12,13 +13,16 @@
     "cross_theme_audit": "production/cross_theme_audit.json"
   },
   "assessment_policy": {
-    "reuse_verified_textbook_assessment_paths": true,
+    "reuse_verified_in_book_assessment_paths": true,
     "duplicate_textbook_resources": false,
     "infer_external_dpa_structure": false,
+    "external_link_presence_closes_requirement": false,
+    "unresolved_normative_target_is_covered": false,
     "teacher_review_required_for_generated_artifacts": true
   },
   "generation_authorization": {
     "allowed": false,
-    "reason": "NO_VERIFIED_RESOURCE_GAP"
-  }
+    "reason": "UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS"
+  },
+  "resolution_rule": "The contract may move to REUSE_ONLY_NO_NEW_ARTIFACTS only if all eight authenticated EBA DPA target structures are verified and no resource gaps remain. If verification exposes a gap, cross-theme consolidation must run before any artifact is authorized."
 }
