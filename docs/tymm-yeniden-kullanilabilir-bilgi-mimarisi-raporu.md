@@ -5,11 +5,11 @@
 **Referans implementasyonları:**
 
 - `TDE_9` — doğrulanmış gap bulunan ve canonical artifact üreten model.
-- `TDE_10` — tüm scoped ihtiyaçları kitapta karşılanan, `zero-gap / reuse-only` model.
+- `TDE_10` — `0 confirmed gap + 8 structurally unresolved normative assessment target` bulunan, generation'ı fail-closed tutan `PARITY_REVIEW_BLOCKED` model. Unresolved hedefler kapandıktan sonra gerçek reuse-only veya artifact-producing sonuca geçebilir.
 
 **Güncel mimari ilkesi:** Yapay zekâya doğrudan “programı ve kitabı oku, materyal üret” denmez. Önce resmî kaynaklar doğrulanır ve canonical knowledge'a dönüştürülür; ihtiyaç, coverage ve gap katmanları çıkarılır; cross-theme consolidation yapılır; production contract belirlenir; index/resolver/runtime/P0 gate'leri geçilir. Yalnız doğrulanmış gerçek bir gap varsa Artifact Generation Engine açılır.
 
-> **Doğrulanmış gap sayısı `0` ise doğru production sonucu yeni materyal üretmek değil, `REUSE_ONLY_NO_NEW_ARTIFACTS` durumudur.**
+> **`verified_resource_gap_count = 0` tek başına `REUSE_ONLY_NO_NEW_ARTIFACTS` için yeterli değildir. Normatif bir assessment/support hedefi yapısal olarak unresolved ise production `PARITY_REVIEW_BLOCKED` kalır ve generation `UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS` ile kapanır.**
 
 ---
 
@@ -36,18 +36,13 @@ PRODUCTION CONTRACT
    ↓
 P0 GATE
    ↓
-┌───────────────────────────────┬────────────────────────────────┐
-│ verified gap > 0              │ verified gap = 0               │
-│ ARTIFACT_PRODUCING            │ REUSE_ONLY_NO_NEW_ARTIFACTS    │
-│ ↓                             │ ↓                              │
-│ Artifact Generator            │ generation blocked             │
-│ ↓                             │ NO_VERIFIED_RESOURCE_GAP       │
-│ Validation                    │                                │
-│ ↓                             │                                │
-│ Teacher Review                │                                │
-│ ↓                             │                                │
-│ APPROVE / FREEZE              │                                │
-└───────────────────────────────┴────────────────────────────────┘
+┌────────────────────────────┬──────────────────────────────┬─────────────────────────────────┐
+│ verified gap > 0           │ gap = 0, unresolved = 0      │ gap = 0, unresolved > 0         │
+│ ARTIFACT_PRODUCING         │ REUSE_ONLY_NO_NEW_ARTIFACTS  │ PARITY_REVIEW_BLOCKED           │
+│ Artifact Generator         │ NO_VERIFIED_RESOURCE_GAP     │ UNRESOLVED_NORMATIVE_           │
+│ Validation / Review        │ generation blocked           │ ASSESSMENT_TARGETS              │
+│ APPROVE / FREEZE           │                              │ generation blocked              │
+└────────────────────────────┴──────────────────────────────┴─────────────────────────────────┘
 ```
 
 En kritik kural:
@@ -195,7 +190,7 @@ Görevleri:
 
 ### Katman 5 — Production Schema / Contract
 
-Production contract iki geçerli biçimden birine sahiptir:
+Production contract üç güvenli durumdan birine sahiptir:
 
 ```text
 ARTIFACT_PRODUCING
@@ -204,10 +199,17 @@ ARTIFACT_PRODUCING
 
 REUSE_ONLY_NO_NEW_ARTIFACTS
   verified_resource_gap_count = 0
+  unresolved_assessment_target_count = 0
   production_queue = []
+
+PARITY_REVIEW_BLOCKED
+  verified_resource_gap_count = 0
+  unresolved_assessment_target_count > 0
+  production_queue = []
+  generation_authorization.allowed = false
 ```
 
-Boş queue yalnız ikinci durumda geçerlidir. `verified_resource_gap_count > 0` iken boş queue schema/gate hatasıdır.
+Boş queue yalnız doğrulanmış reuse-only veya fail-closed parity-review-blocked durumda geçerlidir. `verified_resource_gap_count > 0` iken boş queue schema/gate hatasıdır; unresolved normatif hedef varken reuse-only sertifikası da hatadır.
 
 Temel dosyalar:
 
@@ -661,31 +663,43 @@ REUSE_ANNUAL_CORE
 
 ### 16.5 Zero-gap / Reuse-only production
 
-Cross-theme consolidation sonunda remaining gap sayısı `0` olabilir.
+Gerçek reuse-only sonucu için iki ayrı sıfır birlikte gerekir:
 
 ```text
-all scoped requirements COVERED
 verified_resource_gap_count = 0
+unresolved_assessment_target_count = 0
         ↓
 production_mode = REUSE_ONLY_NO_NEW_ARTIFACTS
 production_queue = []
         ↓
-P0 PASS
-        ↓
-MATERIAL_GENERATION intent
+MATERIAL_GENERATION
 → NO_VERIFIED_RESOURCE_GAP
-→ generation blocked
+```
+
+### 16.6 Parity-review-blocked production
+
+Bir normatif assessment/support hedefinin varlığı doğrulanmış fakat yapısı doğrulanamamışsa `0 confirmed gap` reuse-only sertifikası vermez.
+
+```text
+verified_resource_gap_count = 0
+unresolved_assessment_target_count > 0
+        ↓
+production_mode = PARITY_REVIEW_BLOCKED
+production_queue = []
+generation_authorization.allowed = false
+        ↓
+MATERIAL_GENERATION
+→ UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS
 ```
 
 Kurallar:
 
-- boş queue burada beklenen ve doğru sonuçtur,
-- sırf shared schema artifact bekliyor diye sahte rubrik/çalışma kâğıdı oluşturulmaz,
-- resolver bilgi sorgularını yanıtlamaya devam eder,
-- yeni artifact üretimi fail-closed kapanır,
-- ileride canonical kaynak değişip gerçek gap oluşursa production mode yeniden hesaplanır.
+- `UNRESOLVED ≠ COVERED`,
+- resmî link varlığı tek başına assessment requirement'ı kapatmaz,
+- unresolved hedef çözülmeden artifact uydurulmaz,
+- hedefler yeterli çıkarsa reuse-only, yetersiz çıkarsa gap analysis + cross-theme consolidation üzerinden artifact-producing moda geçilir.
 
-TDE_10 bu modelin referans implementasyonudur.
+TDE_10 bu fail-closed ara durumun referans implementasyonudur.
 
 ---
 
@@ -800,8 +814,19 @@ MAT_* used as artifact_id
 ```text
 production_mode = REUSE_ONLY_NO_NEW_ARTIFACTS
 verified_resource_gap_count = 0
+unresolved_assessment_target_count = 0
 + MATERIAL_GENERATION intent
 → NO_VERIFIED_RESOURCE_GAP
+→ generation blocked
+```
+
+### Unresolved normative target generation
+
+```text
+production_mode = PARITY_REVIEW_BLOCKED
+unresolved_assessment_target_count > 0
++ MATERIAL_GENERATION intent
+→ UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS
 → generation blocked
 ```
 
@@ -811,7 +836,7 @@ verified_resource_gap_count = 0
 
 Canonical artifact identity `artifact_id`'dir.
 
-Schema iki durumu destekler:
+Schema üç durumu destekler:
 
 ### Artifact-producing course
 
@@ -830,6 +855,19 @@ production_queue = []
 ```
 
 Gap count sıfır değilse empty queue kabul edilmez.
+
+### Parity-review-blocked course
+
+```text
+production_mode = PARITY_REVIEW_BLOCKED
+verified_resource_gap_count = 0
+unresolved_assessment_target_count > 0
+production_queue = []
+generation_authorization.allowed = false
+generation_authorization.reason = UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS
+```
+
+Bu durum `NO_REQUIRED_ARTIFACTS` sertifikası değildir; unresolved normatif hedefler çözülene kadar güvenli ara durumdur.
 
 ---
 
@@ -1096,7 +1134,8 @@ all applicable PASS/N/A → PASS
 
 ```text
 gap > 0 → ARTIFACT_PRODUCING
-gap = 0 → REUSE_ONLY_NO_NEW_ARTIFACTS
+gap = 0 + unresolved = 0 → REUSE_ONLY_NO_NEW_ARTIFACTS
+gap = 0 + unresolved > 0 → PARITY_REVIEW_BLOCKED
 ```
 
 32. Production manifest/registry/teaching blocks oluştur.
@@ -1143,7 +1182,7 @@ gap = 0 → REUSE_ONLY_NO_NEW_ARTIFACTS
 
 ```text
 TDE_9: 7 gap → 3 artifact
-TDE_10: 0 gap → 0 artifact
+TDE_10: 0 confirmed gap + 8 unresolved target → PARITY_REVIEW_BLOCKED / 0 authorized artifact
 ```
 
 58. P0 PASS.
@@ -1159,7 +1198,7 @@ Yalnız `ARTIFACT_PRODUCING` course için:
 63. Idempotency.
 64. REVIEW_REQUIRED.
 
-Reuse-only course bu fazı atlar.
+Reuse-only ve parity-review-blocked course bu fazı atlar; generator yalnız verified gap sonrası artifact-producing moda geçen course için açılır.
 
 ### Faz 12 — Teacher Review / Freeze
 
@@ -1193,8 +1232,8 @@ Reuse-only course bu fazı atlar.
 [ ] GAP INSTANCE ile ARTIFACT identity ayrılmış mı?
 [ ] MAT_* yalnız alias/provenance mı?
 [ ] Consolidation invariant gate'lenmiş mi?
-[ ] gap=0 ise empty queue yalnız reuse-only modunda mı kabul ediliyor?
-[ ] Zero-gap generation isteği NO_VERIFIED_RESOURCE_GAP ile kapanıyor mu?
+[ ] Empty queue yalnız verified reuse-only veya fail-closed parity-review-blocked modunda mı kabul ediliyor?
+[ ] Reuse-only generation `NO_VERIFIED_RESOURCE_GAP`, parity-blocked generation `UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS` ile kapanıyor mu?
 [ ] P0 fresh rebuild yapıyor mu?
 [ ] Runtime final canonical fingerprintten rebuild ediliyor mu?
 [ ] retrieval_candidates ile generation_context ayrı mı?
@@ -1315,14 +1354,16 @@ GENERATED ARTIFACT           PER-ARTIFACT LIFECYCLE
 
 ## 36. TDE_10'dan çıkan yeni ana dersler
 
-1. **Başka sınıfın alt süreç kodlarını kopyalamamak.** Resmî TDE_10 snapshot'larında `TDE*.x.y` alt ID'leri açıkça yayımlanmıyorsa bunlar canonical veri olarak üretilmez.
-2. **Local official textbook snapshot'ı desteklemek.** Repo içindeki resmî PDF primary analysis source olabilir.
-3. **QR/EBA scoring guide varlığını structure type'tan ayırmak.** Linkin resmî olduğu doğrulanabilir; internal rubric tipi görülmeden analytic rubric denmez.
-4. **Gap=0 sonucunu birinci sınıf production sonucu olarak desteklemek.**
-5. **Empty queue'yu koşullu olarak geçerli yapmak.** Yalnız verified gap count `0` ise.
-6. **Bilgi erişimi ile generation iznini ayırmak.** Resolver bilgi sorgusunu çözebilir ama artifact generation'ı `NO_VERIFIED_RESOURCE_GAP` ile engelleyebilir.
-7. **Course-specific ve generic invariantları ayırmak.** TDE_9'un 7→3 kuralı korunurken TDE_10'un 0→0 kuralı aynı shared engine'de çalışabilmelidir.
-8. **Final canonical metadata sonrası projection rebuild zorunluluğu.** Source manifest/P0 metadata değişmişse index/runtime final fingerprintten tekrar rebuild edilmelidir.
+1. Başka sınıfın alt süreç kodlarını kopyalamamak; resmî kaynak yayımlamıyorsa sentezlememek.
+2. Yerel resmî textbook PDF'yi primary analysis snapshot olarak desteklemek.
+3. QR/EBA scoring-guide link varlığını hedef yapısının doğrulanmasından ayırmak.
+4. **`UNRESOLVED ≠ COVERED`.** Auth-gated normatif hedef `PARTIALLY_COVERED / REVIEW_REQUIRED` kalır.
+5. **`gap=0 ≠ NO_REQUIRED_ARTIFACTS`.** Reuse-only için unresolved normatif hedef sayısı da `0` olmalıdır.
+6. **`PARITY_REVIEW_BLOCKED` birinci sınıf güvenli durumdur.** Empty queue geçerli, generation kapalıdır.
+7. Outcome-level need/resource/alignment/gap izini domain-level özetlerle kaybetmemek.
+8. Cross-theme audit'i yalnız declared gap sayımına indirgememek; ortak assessment construct'larını da karşılaştırmak.
+9. TDE_9 7→3 ve TDE_10 parity-blocked invariantlarını aynı shared engine'de regression ile korumak.
+10. Canonical contract/registry/manifest değişiminden sonra index/runtime'ı final fingerprint üzerinden rebuild etmek.
 
 ---
 
@@ -1342,10 +1383,13 @@ GENERATED ARTIFACT           PER-ARTIFACT LIFECYCLE
    Consolidation + Production Mode + Registry + Contract + P0
 
 5A. GAP > 0
-   Generation Context + Artifact Generator + Validation + Teacher Review
+   ARTIFACT_PRODUCING → Generator → Validation → Teacher Review
 
-5B. GAP = 0
-   Reuse Existing Textbook + Block New Artifact Generation
+5B. GAP = 0 / UNRESOLVED = 0
+   REUSE_ONLY_NO_NEW_ARTIFACTS → NO_VERIFIED_RESOURCE_GAP
+
+5C. GAP = 0 / UNRESOLVED > 0
+   PARITY_REVIEW_BLOCKED → UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS
 
 6. APPLICATION
    Deterministic Runtime SQLite Projection
@@ -1376,48 +1420,33 @@ Pilot teknik PASS öğretmen onayı değildir.
 
 ---
 
-## 39. Güncel TDE_10 implementasyon durumu — 2026-08-18
+## 39. Güncel TDE_10 implementasyon durumu — 2026-08-19
 
 ```text
 Official curriculum snapshots        PASS (4/4)
 Canonical learning outcomes          PASS (64/64)
 Curriculum canonical map             VERIFIED / FROZEN
 Official local textbook PDF          VERIFIED / FROZEN
-Program-textbook alignment           PASS (64/64 COVERED)
-Verified remaining resource gaps     0
-Production mode                      REUSE_ONLY_NO_NEW_ARTIFACTS
-Canonical new artifacts              0
+Textbook sections                    24
+Textbook activities                  75
+Assessment/form records              35
+Program-textbook alignment           56 COVERED / 8 PARTIALLY_COVERED / 0 NOT_COVERED
+Confirmed remaining resource gaps    0
+Unresolved normative targets         8 authenticated EBA DPA targets
+Production mode                      PARITY_REVIEW_BLOCKED
+Canonical new artifacts authorized   0
 Teaching blocks                      16
-Knowledge index                      INDEX_FRESH
-Indexed canonical records            386
+Knowledge index                      INDEX_FRESH / 482 records
 Duplicate canonical keys             0
-Resolver ambiguity gate              PASS
-Resolver stale gate                  PASS
-Resolver conflict gate               PASS
-No-gap generation gate               PASS / NO_VERIFIED_RESOURCE_GAP
+Resolver ambiguity/stale/conflict    PASS
+Generation gate                      PASS / UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS
 Runtime projection                   PASS
-P0                                    PASS
+Technical P0                         PASS
+TDE_9 regression                     PASS / 7 gap → 3 artifact preserved
+Parity certification                 WITHHELD pending 8 EBA target structures
 ```
 
-Runtime projection güncel P0 sonucunda:
-
-```text
-courses                     1
-themes                      4
-blocks                     16
-outcomes                   64
-textbook_sections          24
-activities                 75
-forms                      35
-resource_decisions         16
-assessment_artifacts        0
-assessment_gap_mappings     0
-assessment_task_bindings    0
-timeline_themes             4
-timeline_blocks            16
-```
-
-TDE_10'da 0 assessment artifact olması eksiklik değil, verified reuse-only contract sonucudur.
+Runtime projection includes 64 resource decisions, 75 activities, 35 forms and 0 authorized assessment artifacts. `0 assessment_artifact` is a correct fail-closed result, but it is not called verified reuse-only until all eight unresolved targets are structurally resolved.
 
 ---
 
@@ -1432,7 +1461,8 @@ Kalıcı workflow seti:
 → TDE_9 7-gap / 3-artifact P0 regresyonu
 
 .github/workflows/tymm-tde10-p0.yml
-→ TDE_10 generic zero-gap P0
+→ TDE_10 parity-aware generic P0
+→ reuse-only / PARITY_REVIEW_BLOCKED contract validation
 → index/runtime rebuild
 → final canonical metadata sonrası ikinci rebuild/freshness doğrulaması
 
@@ -1501,9 +1531,15 @@ Aşağıdaki zincir gösterilebiliyorsa production input hazırdır:
 
 Aşağıdaki zincir gösterilebiliyorsa production input hazırdır:
 
-> “Scoped program gereksinimlerinin tamamı için textbook action/evidence yolu doğrulandı; remaining gap sayısı `0`; production contract `REUSE_ONLY_NO_NEW_ARTIFACTS`; empty queue doğrulanmış; material-generation isteği `NO_VERIFIED_RESOURCE_GAP` ile fail-closed; index/runtime final canonical fingerprintten rebuild edilebilir.”
+> “Scoped program gereksinimlerinin tamamında textbook action/evidence ve normatif assessment yapıları doğrulandı; remaining gap `0`; unresolved target `0`; contract `REUSE_ONLY_NO_NEW_ARTIFACTS`; generation `NO_VERIFIED_RESOURCE_GAP` ile kapalı.”
 
-Bu iki modelden uygun olanındaki bir halka eksikse P0 açılmamalıdır.
+### Parity-review-blocked course
+
+Aşağıdaki zincir gösterilebiliyorsa güvenli ara durum doğrudur:
+
+> “Confirmed gap `0` fakat en az bir normatif assessment/support hedefi yapısal olarak unresolved; bu hedef COVERED sayılmıyor; contract `PARITY_REVIEW_BLOCKED`; queue boş; generation `UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS` ile kapalı; hedef çözülmeden reuse-only sertifikası veya artifact verilmiyor.”
+
+Bu üç modelden uygun olanındaki bir halka eksikse P0 açılmamalıdır.
 
 Artifact-producing course'ta gerçek artifact'ın production-ready/frozen olması için ayrıca:
 
