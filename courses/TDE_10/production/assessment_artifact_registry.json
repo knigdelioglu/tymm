@@ -1,12 +1,18 @@
 {
   "schema_version": "1.1",
   "course_id": "TDE_10",
-  "registry_mode": "REUSE_ONLY_NO_NEW_ARTIFACTS",
+  "registry_mode": "PARITY_REVIEW_BLOCKED",
   "verified_resource_gap_count": 0,
+  "unresolved_assessment_target_count": 8,
+  "authorized_new_artifact_count": 0,
   "annual_artifacts": [],
   "reuse_sources": {
     "textbook_source_id": "textbook_tde10_local_pdf",
     "textbook_forms_index": "textbook_forms_index.json"
   },
-  "classification_note": "Official EBA Dereceli Puanlama Anahtarı links are verified as links but are not relabeled analytic_rubric without target-structure inspection."
+  "generation_authorization": {
+    "allowed": false,
+    "reason": "UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS"
+  },
+  "classification_note": "Eight official EBA Dereceli Puanlama Anahtarı links are verified as links, but their authenticated target structures are unresolved. They are not relabeled analytic_rubric and do not close the corresponding assessment requirements until target-structure verification is complete."
 }
