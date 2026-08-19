@@ -1,14 +1,20 @@
 # TDE_10 Production Readiness Report
 
-**Production mode:** `REUSE_ONLY_NO_NEW_ARTIFACTS`
+**Production mode:** `PARITY_REVIEW_BLOCKED`
 
 - Canonical curriculum: FROZEN
 - Official local textbook: FROZEN
-- Outcomes covered: 64/64
-- Verified remaining resource gaps: 0
-- New physical artifacts: 0
+- Learning outcomes: 64
+- Coverage: 56 `COVERED` / 8 `PARTIALLY_COVERED` / 0 `NOT_COVERED`
+- Confirmed remaining resource gaps: 0
+- Structurally unresolved normative assessment targets: 8
+- New physical artifacts authorized: 0
+- Generation authorization: `false`
+- Generation block reason: `UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS`
 - Teaching blocks: 16 (4 per theme)
 - Time model: 43 instruction + 2 school-based planning = 45 per theme; 180 annual
-- School-based planning: separate teacher-choice layer; not a gap
+- Technical P0: PASS
+- TDE_9 regression: PASS, historical 7 gap instances → 3 canonical artifacts preserved
+- Parity certification: WITHHELD pending authenticated EBA DPA target-structure verification
 
-The production contract intentionally forbids artifact generation because the verified textbook already supplies the required instructional and assessment paths.
+The textbook provides the instructional path for all 64 outcomes, but eight speaking/writing assessment requirements depend on official EBA Dereceli Puanlama Anahtarı targets whose authenticated internal structures cannot yet be inspected. Link presence alone is not treated as full coverage. Therefore the course is not certified `REUSE_ONLY_NO_NEW_ARTIFACTS`; production remains fail-closed until those eight structures are resolved.
