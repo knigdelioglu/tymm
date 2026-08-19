@@ -603,6 +603,11 @@ class KnowledgeResolver:
             and self.production_manifest.get("verified_resource_gap_count") == 0
             and not production_context
         )
+        parity_review_generation_block = (
+            intent == "MATERIAL_GENERATION"
+            and self.production_manifest.get("production_mode") == "PARITY_REVIEW_BLOCKED"
+            and self.production_manifest.get("unresolved_assessment_target_count", 0) > 0
+        )
         material_generation_allowed = (
             index_freshness == "INDEX_FRESH"
             and resolution_status == "RESOLVED"
@@ -610,6 +615,7 @@ class KnowledgeResolver:
             and ambiguity_status != "AMBIGUOUS_ENTITY"
             and canonical_resolution_verified
             and not reuse_only_generation_block
+            and not parity_review_generation_block
         )
 
         block_reason = None
@@ -620,6 +626,8 @@ class KnowledgeResolver:
                 block_reason = "KNOWLEDGE_CONFLICT"
             elif index_freshness != "INDEX_FRESH":
                 block_reason = index_freshness
+            elif parity_review_generation_block:
+                block_reason = "UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS"
             elif reuse_only_generation_block:
                 block_reason = "NO_VERIFIED_RESOURCE_GAP"
             elif not canonical_resolution_verified:

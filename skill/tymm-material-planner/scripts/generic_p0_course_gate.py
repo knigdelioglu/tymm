@@ -28,7 +28,7 @@ sys.path.insert(0, str(SCRIPT_DIR))
 from build_runtime_course_package import build as build_runtime
 from knowledge_index import KnowledgeIndexer
 from knowledge_resolver import KnowledgeResolver
-from production_schema import REUSE_ONLY_MODE, build_artifact_maps
+from production_schema import PARITY_BLOCKED_MODE, REUSE_ONLY_MODE, build_artifact_maps
 
 
 def require(condition: bool, message: str) -> None:
@@ -63,14 +63,23 @@ def production_gate(root: Path) -> dict:
     require(len(alias_map) == expected_gaps, f"gap alias count mismatch: {len(alias_map)} != {expected_gaps}")
     require(len(provenance) == expected_gaps, f"gap provenance count mismatch: {len(provenance)} != {expected_gaps}")
     require(not any(a.startswith("MAT_") for a in artifact_by_id), "legacy MAT_* used as canonical artifact identity")
-    reuse_only = manifest.get("production_mode") == REUSE_ONLY_MODE
+    production_mode = manifest.get("production_mode")
+    reuse_only = production_mode == REUSE_ONLY_MODE
+    parity_blocked = production_mode == PARITY_BLOCKED_MODE
     if reuse_only:
         require(expected_gaps == 0 and expected_artifacts == 0, "reuse-only mode requires zero gaps and zero new artifacts")
         require(manifest.get("generation_authorization", {}).get("allowed") is False, "reuse-only manifest opened generation")
+    elif parity_blocked:
+        unresolved = manifest.get("unresolved_assessment_target_count", 0)
+        require(expected_gaps == 0 and expected_artifacts == 0, "parity-blocked mode requires zero confirmed gaps and zero authorized artifacts")
+        require(isinstance(unresolved, int) and unresolved > 0, "parity-blocked mode requires unresolved assessment targets")
+        require(manifest.get("generation_authorization", {}).get("allowed") is False, "parity-blocked manifest opened generation")
+        require(manifest.get("generation_authorization", {}).get("reason") == "UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS", "wrong parity-blocked generation reason")
     return {
         "schema_version": manifest.get("schema_version"),
         "production_mode": manifest.get("production_mode"),
         "verified_resource_gap_count": expected_gaps,
+        "unresolved_assessment_target_count": manifest.get("unresolved_assessment_target_count", 0),
         "expected_new_artifact_count": expected_artifacts,
         "artifact_ids": sorted(artifact_by_id),
         "gap_aliases": sorted(alias_map),
@@ -129,13 +138,18 @@ def resolver_gate(root: Path, production: dict) -> dict:
     require(not ambiguous.get("material_generation_allowed"), "ambiguous outcome opened generation")
 
     generation_probe = None
-    if production.get("production_mode") == REUSE_ONLY_MODE:
+    if production.get("production_mode") in (REUSE_ONLY_MODE, PARITY_BLOCKED_MODE):
         query = f"Tema 1 {ambiguous_code} için rubrik hazırla"
         generation_probe = resolver.resolve(query)
-        require(generation_probe.get("resolution_status") == "RESOLVED", "reuse-only generation probe should resolve canonically")
-        require(not generation_probe.get("material_generation_allowed"), "reuse-only/no-gap course opened material generation")
-        require(generation_probe.get("material_generation_block_reason") == "NO_VERIFIED_RESOURCE_GAP", f"wrong reuse-only block reason: {generation_probe.get('material_generation_block_reason')}")
-        require(not generation_probe.get("production_context"), "reuse-only generation probe unexpectedly resolved a production artifact")
+        require(generation_probe.get("resolution_status") == "RESOLVED", "generation-block probe should resolve canonically")
+        require(not generation_probe.get("material_generation_allowed"), "safe empty-queue course opened material generation")
+        expected_reason = (
+            "UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS"
+            if production.get("production_mode") == PARITY_BLOCKED_MODE
+            else "NO_VERIFIED_RESOURCE_GAP"
+        )
+        require(generation_probe.get("material_generation_block_reason") == expected_reason, f"wrong generation block reason: {generation_probe.get('material_generation_block_reason')}")
+        require(not generation_probe.get("production_context"), "generation-block probe unexpectedly resolved a production artifact")
 
     return {
         "structured_probes": probes,
