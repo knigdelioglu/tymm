@@ -7,10 +7,11 @@
 ## Sonuç
 
 - Course: `TDE_11` — 11. Sınıf Türk Dili ve Edebiyatı
-- Resmî program source status: **VERIFIED_OFFICIAL_REMOTE**
+- Resmî program source status: **VERIFIED_OFFICIAL_REMOTE_AND_LOCAL_SNAPSHOTS**
 - Curriculum source completeness: **PASS — 4/4 tema**
 - Tema sayısı: **4**
-- Resmî ders saati: **43 saat/tema, 172 saat toplam tema öğretimi**
+- Tema planlama bloğu: **45 saat/tema = 43 saat resmî tema öğretimi + 2 saat okul temelli planlama**
+- Yıllık zaman modeli: **172 saat öğretim + 8 saat okul temelli planlama = 180 saat**
 - Parent outcome: **64** (16/tema)
 - Outcome scope/unique ID: **PASS**
 - Source locator completeness: **PASS**
@@ -23,6 +24,10 @@
 - Gap status: **NOT_EVALUATED**
 - Production status: **NOT_EVALUATED**
 
+## Zaman modeli notu
+
+Resmî TYMM tema sayfalarında yayımlanan **43 saatlik öğretim süresi** canonical verbatim kaynak kaydı olarak korunur. Kullanıcı tarafından doğrulanan **2 saat okul temelli planlama** ayrı pedagojik planlama katmanıdır. Bu nedenle operasyonel tema bloğu **45 saat**, yıllık toplam ise **180 saat**tir. Okul temelli planlama curriculum gap değildir.
+
 ## Tema özeti
 
 1. **BİR DİYECEĞİM VAR!** — Karagöz, mektup/dilekçe, iletişim, drama, e-posta.
@@ -32,7 +37,14 @@
 
 ## Yerel PDF snapshotları
 
-`source_docs/` altında 4 PDF vardır. Dosya adları `temp*.PDF` olduğu için tema kimliği dosya adından veya boyutundan tahmin edilmemiştir. Git blob SHA ve boyutları `source_manifest.json` içinde kayıtlıdır. Canonical kimlik ve normatif metin için doğrulanmış resmî TYMM tema sayfaları kullanılmıştır.
+PDF kimlikleri, dosyaların içindeki resmî TYMM `unite/<id>` bağlantılarıyla içerik düzeyinde doğrulanmış ve dosyalar tema adlarıyla yeniden adlandırılmıştır:
+
+1. `Türk Dili Ve Edebiyatı Dersi 11.Sınıf 1. TEMA - BİR DİYECEĞİM VAR!.PDF` — `unite/267`
+2. `Türk Dili Ve Edebiyatı Dersi 11.Sınıf 2. TEMA - KÜLTÜR YOLCULUĞU.PDF` — `unite/276`
+3. `Türk Dili Ve Edebiyatı Dersi 11.Sınıf 3. TEMA - YAŞAMIN İZİNDE.PDF` — `unite/322`
+4. `Türk Dili Ve Edebiyatı Dersi 11.Sınıf 4. TEMA - HAYATIN AYNASI.PDF` — `unite/332`
+
+Dosya boyutu veya yükleme sırasından tema tahmini yapılmamıştır.
 
 ## Ertelenen aşamalar
 

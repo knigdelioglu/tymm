@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "course_id": "TDE_11",
   "validated_at": "2026-08-19",
   "lifecycle_status": "CURRICULUM_ONLY_AWAITING_TEXTBOOK",
@@ -17,7 +17,9 @@
     "synthetic_canonical_facts": "PASS",
     "explicit_process_components": "SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS",
     "local_pdf_binary_presence": "PASS_4_FILES_PRESENT",
-    "local_pdf_theme_identity": "REVIEW_REQUIRED_TEMP_FILENAMES_UNMAPPED"
+    "local_pdf_theme_identity": "PASS_4_OF_4_EMBEDDED_OFFICIAL_UNIT_LINKS",
+    "local_pdf_filenames": "PASS_THEME_NAMED",
+    "time_model": "PASS_45_PER_THEME_EQUALS_43_INSTRUCTION_PLUS_2_SCHOOL_BASED_PLANNING"
   },
   "counts": {
     "themes": 4,
@@ -25,6 +27,15 @@
     "assessment_requirements": 12,
     "performance_tasks": 8,
     "theme_end_evaluations": 4
+  },
+  "annual_time_model": {
+    "theme_total_hours": 45,
+    "instructional_hours_per_theme": 43,
+    "school_based_planning_hours_per_theme": 2,
+    "annual_instructional_hours": 172,
+    "annual_school_based_planning_hours": 8,
+    "annual_total_hours": 180,
+    "school_based_planning_authority": "USER_CONFIRMED_PLANNING_RULE"
   },
   "textbook_status": "AWAITING_OFFICIAL_TEXTBOOK",
   "coverage_status": "NOT_EVALUATED",
@@ -41,7 +52,8 @@
   ],
   "real_curriculum_blockers": [],
   "review_notes": [
-    "The four uploaded local PDFs have temporary filenames. Their binary presence, sizes and Git blob SHAs are registered, but theme identity is not inferred from file size or upload order.",
-    "Official TYMM web pages are the canonical identity and wording source for this freeze."
+    "Dört yerel PDF'nin tema kimliği dosya boyutu veya yükleme sırasından tahmin edilmemiş; PDF içindeki resmî TYMM unite/267, unite/276, unite/322 ve unite/332 bağlantılarıyla doğrulanmıştır.",
+    "Yerel PDF dosyaları doğrulanan tema adlarıyla yeniden adlandırılmıştır.",
+    "Resmî TYMM tema sayfasındaki 43 saatlik öğretim kaydı verbatim korunur. Kullanıcı tarafından doğrulanan 2 saat okul temelli planlama ayrı katman olarak eklenir ve tema dış planlama toplamı 45 saattir."
   ]
 }

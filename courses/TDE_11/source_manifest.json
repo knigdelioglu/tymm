@@ -1,11 +1,11 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "course_id": "TDE_11",
   "grade": 11,
   "course_title": "Türk Dili ve Edebiyatı",
   "last_validated": "2026-08-19",
   "overall_status": "CURRICULUM_ONLY_AWAITING_TEXTBOOK",
-  "source_mode": "OFFICIAL_REMOTE_TYMM_THEME_BUNDLE_WITH_LOCAL_PDF_SNAPSHOTS",
+  "source_mode": "OFFICIAL_REMOTE_TYMM_THEME_BUNDLE_WITH_MAPPED_LOCAL_PDF_SNAPSHOTS",
   "scope": {
     "analysis_target": "11. Sınıf Türk Dili ve Edebiyatı Öğretim Programı",
     "included_grades": [11],
@@ -20,61 +20,97 @@
     "gap_status": "NOT_EVALUATED",
     "production_status": "NOT_EVALUATED"
   },
+  "annual_time_model": {
+    "theme_count": 4,
+    "theme_total_hours": 45,
+    "instructional_hours_per_theme": 43,
+    "school_based_planning_hours_per_theme": 2,
+    "annual_instructional_hours": 172,
+    "annual_school_based_planning_hours": 8,
+    "annual_total_hours": 180,
+    "school_based_planning_authority": "USER_CONFIRMED_PLANNING_RULE",
+    "semantics": "Her tema 45 saatlik dış planlama bloğudur: resmî TYMM tema sayfasındaki 43 saat öğretim + temayla ilişkili 2 saat okul temelli planlama. Okul temelli planlama ayrı pedagojik katmandır ve curriculum gap sayılmaz."
+  },
   "curriculum_source_bundle": {
     "source_group_id": "curriculum_tde11_official_tymm_theme_bundle",
     "source_type": "official_curriculum",
     "authority_rank": 1,
     "expected_part_count": 4,
     "verified_part_count": 4,
-    "completeness_status": "COMPLETE_VERIFIED_OFFICIAL_REMOTE",
+    "completeness_status": "COMPLETE_VERIFIED_OFFICIAL_REMOTE_AND_LOCAL_SNAPSHOTS",
     "version_year_status": "SOURCE_NOT_EXPLICIT_ON_THEME_PAGES",
-    "verification_rule": "The official 11th-grade TYMM program index lists exactly four themes; each theme page identifies Turkish Language and Literature grade 11, publishes 43 lesson hours and 16 parent outcomes.",
+    "verification_rule": "Resmî 11. sınıf TYMM programı dört tema yayımlar; her tema sayfası 43 resmî öğretim saati ve 16 parent outcome içerir. Yerel PDF kimliği PDF içindeki resmî TYMM unite bağlantısıyla doğrulanmıştır. 45 saatlik dış blok 43+2 planlama modelidir.",
     "parts": [
       {
         "source_id": "official_tymm_theme_01",
         "theme_id": "TEMA_01",
         "expected_theme_title": "BİR DİYECEĞİM VAR!",
         "url": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/267",
-        "verification_status": "VERIFIED_OFFICIAL_REMOTE"
+        "local_filename": "Türk Dili Ve Edebiyatı Dersi 11.Sınıf 1. TEMA - BİR DİYECEĞİM VAR!.PDF",
+        "local_path": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 1. TEMA - BİR DİYECEĞİM VAR!.PDF",
+        "size_bytes": 478569,
+        "page_count_pdf": 11,
+        "git_blob_sha": "add78bf58b62337c3adbb0d9bb66c91561a44957",
+        "identity_evidence": "EMBEDDED_OFFICIAL_TYMM_UNIT_LINK_267",
+        "verification_status": "VERIFIED_OFFICIAL_REMOTE_AND_LOCAL_CONTENT"
       },
       {
         "source_id": "official_tymm_theme_02",
         "theme_id": "TEMA_02",
         "expected_theme_title": "KÜLTÜR YOLCULUĞU",
         "url": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/276",
-        "verification_status": "VERIFIED_OFFICIAL_REMOTE"
+        "local_filename": "Türk Dili Ve Edebiyatı Dersi 11.Sınıf 2. TEMA - KÜLTÜR YOLCULUĞU.PDF",
+        "local_path": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 2. TEMA - KÜLTÜR YOLCULUĞU.PDF",
+        "size_bytes": 548711,
+        "page_count_pdf": 13,
+        "git_blob_sha": "e2f2d5daac0ae7a0ac8ab9105fb9f1e64d7bcb22",
+        "identity_evidence": "EMBEDDED_OFFICIAL_TYMM_UNIT_LINK_276",
+        "verification_status": "VERIFIED_OFFICIAL_REMOTE_AND_LOCAL_CONTENT"
       },
       {
         "source_id": "official_tymm_theme_03",
         "theme_id": "TEMA_03",
         "expected_theme_title": "YAŞAMIN İZİNDE",
         "url": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322",
-        "verification_status": "VERIFIED_OFFICIAL_REMOTE"
+        "local_filename": "Türk Dili Ve Edebiyatı Dersi 11.Sınıf 3. TEMA - YAŞAMIN İZİNDE.PDF",
+        "local_path": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 3. TEMA - YAŞAMIN İZİNDE.PDF",
+        "size_bytes": 544923,
+        "page_count_pdf": 14,
+        "git_blob_sha": "e95f95ef011150b488b8b87fcb79d4de259820be",
+        "identity_evidence": "EMBEDDED_OFFICIAL_TYMM_UNIT_LINK_322",
+        "verification_status": "VERIFIED_OFFICIAL_REMOTE_AND_LOCAL_CONTENT"
       },
       {
         "source_id": "official_tymm_theme_04",
         "theme_id": "TEMA_04",
         "expected_theme_title": "HAYATIN AYNASI",
         "url": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/332",
-        "verification_status": "VERIFIED_OFFICIAL_REMOTE"
+        "local_filename": "Türk Dili Ve Edebiyatı Dersi 11.Sınıf 4. TEMA - HAYATIN AYNASI.PDF",
+        "local_path": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 4. TEMA - HAYATIN AYNASI.PDF",
+        "size_bytes": 475320,
+        "page_count_pdf": 12,
+        "git_blob_sha": "e9f8beaa033bed3295f4ecab62fe316dc0ec42a5",
+        "identity_evidence": "EMBEDDED_OFFICIAL_TYMM_UNIT_LINK_332",
+        "verification_status": "VERIFIED_OFFICIAL_REMOTE_AND_LOCAL_CONTENT"
       }
     ]
   },
   "local_uploaded_snapshots": {
     "folder": "source_docs/",
-    "status": "PRESENT_SUPPORTING_SNAPSHOTS",
-    "theme_mapping_status": "UNRESOLVED_TEMP_FILENAMES",
-    "policy": "Do not infer theme identity from file size or upload order. Canonical identity is anchored to the verified official TYMM web bundle until local content extraction safely maps each snapshot.",
+    "status": "MAPPED_NAMED_OFFICIAL_THEME_SNAPSHOTS",
+    "theme_mapping_status": "PASS_4_OF_4_CONTENT_VERIFIED_AND_RENAMED",
+    "policy": "Tema kimliği dosya boyutundan veya yükleme sırasından çıkarılmadı; her PDF içindeki resmî TYMM unite/<id> bağlantısı kullanılarak içerik düzeyinde doğrulandı.",
     "files": [
-      {"filename": "temp1035322988789091812.PDF", "size_bytes": 544923, "git_blob_sha": "e95f95ef011150b488b8b87fcb79d4de259820be"},
-      {"filename": "temp2158123602024792673.PDF", "size_bytes": 478569, "git_blob_sha": "add78bf58b62337c3adbb0d9bb66c91561a44957"},
-      {"filename": "temp3078528472400961360.PDF", "size_bytes": 548711, "git_blob_sha": "e2f2d5daac0ae7a0ac8ab9105fb9f1e64d7bcb22"},
-      {"filename": "temp583307607146531012.PDF", "size_bytes": 475320, "git_blob_sha": "e9f8beaa033bed3295f4ecab62fe316dc0ec42a5"}
+      {"theme_id":"TEMA_01","filename":"Türk Dili Ve Edebiyatı Dersi 11.Sınıf 1. TEMA - BİR DİYECEĞİM VAR!.PDF","size_bytes":478569,"page_count_pdf":11,"git_blob_sha":"add78bf58b62337c3adbb0d9bb66c91561a44957","official_unit_id":267},
+      {"theme_id":"TEMA_02","filename":"Türk Dili Ve Edebiyatı Dersi 11.Sınıf 2. TEMA - KÜLTÜR YOLCULUĞU.PDF","size_bytes":548711,"page_count_pdf":13,"git_blob_sha":"e2f2d5daac0ae7a0ac8ab9105fb9f1e64d7bcb22","official_unit_id":276},
+      {"theme_id":"TEMA_03","filename":"Türk Dili Ve Edebiyatı Dersi 11.Sınıf 3. TEMA - YAŞAMIN İZİNDE.PDF","size_bytes":544923,"page_count_pdf":14,"git_blob_sha":"e95f95ef011150b488b8b87fcb79d4de259820be","official_unit_id":322},
+      {"theme_id":"TEMA_04","filename":"Türk Dili Ve Edebiyatı Dersi 11.Sınıf 4. TEMA - HAYATIN AYNASI.PDF","size_bytes":475320,"page_count_pdf":12,"git_blob_sha":"e9f8beaa033bed3295f4ecab62fe316dc0ec42a5","official_unit_id":332}
     ]
   },
   "source_resolution_rules": {
     "curriculum": "Official TYMM 11th-grade theme pages are normative and authoritative.",
-    "local_snapshots": "Treat as supporting staged snapshots until exact theme identity is safely mapped from content; never infer identity from temporary filename or file size.",
+    "local_snapshots": "Exact theme identity is verified from embedded official TYMM unit links and mapped to named repository snapshots.",
+    "time_model": "Official curriculum wording remains 43 instructional hours per theme; the user-confirmed planning model adds 2 school-based planning hours as a separate layer, yielding 45 hours per theme.",
     "authority_conflict": "Official TYMM wording wins over derivative or other-grade content.",
     "fail_closed": true,
     "no_silent_source_replacement": true
