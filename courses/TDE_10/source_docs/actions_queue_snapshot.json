@@ -3,13 +3,13 @@
     {
       "id": 32236119465,
       "name": "TDE10 Phase15 P0 Gate",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "event": "push",
       "head_sha": "9f9c9d0b61121cd564fedd98397b4559329e4c93",
       "run_number": 4,
       "created_at": "2026-08-19T09:08:53Z",
-      "updated_at": "2026-08-19T09:08:58Z",
+      "updated_at": "2026-08-19T09:10:29Z",
       "html_url": "https://github.com/knigdelioglu/tymm/actions/runs/32236119465"
     },
     {
@@ -95,30 +95,6 @@
       "created_at": "2026-08-19T09:02:28Z",
       "updated_at": "2026-08-19T09:03:24Z",
       "html_url": "https://github.com/knigdelioglu/tymm/actions/runs/32235583187"
-    },
-    {
-      "id": 32224004423,
-      "name": "TYMM P0 Production Gate",
-      "status": "completed",
-      "conclusion": "failure",
-      "event": "push",
-      "head_sha": "79d87e553e3ed51da352f1a02949edfb7e2439e8",
-      "run_number": 135,
-      "created_at": "2026-08-19T06:34:42Z",
-      "updated_at": "2026-08-19T06:35:39Z",
-      "html_url": "https://github.com/knigdelioglu/tymm/actions/runs/32224004423"
-    },
-    {
-      "id": 32223644022,
-      "name": "TYMM P0 Production Gate",
-      "status": "completed",
-      "conclusion": "failure",
-      "event": "push",
-      "head_sha": "8f3da78c6e6e0973e7fddea1bbfb84b2f1a18bc2",
-      "run_number": 134,
-      "created_at": "2026-08-19T06:29:43Z",
-      "updated_at": "2026-08-19T06:30:37Z",
-      "html_url": "https://github.com/knigdelioglu/tymm/actions/runs/32223644022"
     }
   ]
 }
