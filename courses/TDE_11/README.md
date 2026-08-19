@@ -24,6 +24,7 @@ Okul temelli planlama ayrı pedagojik katmandır; curriculum gap olarak değerle
 
 - `source_manifest.json` — resmî program kaynak kimliği, yerel PDF eşleştirmesi, zaman modeli, bütünlük ve lifecycle bilgisi
 - `curriculum_map.json` — 4 tema, 64 parent outcome, program bileşenleri, ölçme-değerlendirme ve farklılaştırma hükümleri
+- `curriculum_normative_text.json` — yerel resmî program PDF’lerinin sayfa bazlı kaynak-bağlı metin kanıtı
 - `curriculum_validation_report.json` — curriculum-only doğrulama sonucu
 - `validation_report.md` — insan tarafından okunabilir kısa doğrulama raporu
 - `source_docs/` — tema adıyla eşleştirilmiş yerel resmî program PDF snapshotları
@@ -35,3 +36,7 @@ Canonical içerik yalnız 11. sınıf resmî TYMM öğretim programından çıka
 Yerel PDF kimliği, PDF içindeki resmî TYMM `unite/<id>` bağlantısıyla doğrulanmıştır; dosya boyutu veya yükleme sırası üzerinden tahmin yapılmamıştır.
 
 Ders kitabı bulunmadığı için kitap eksikliği `NOT_COVERED`, verified gap veya artifact ihtiyacı olarak yorumlanmaz.
+
+## Doğrulama
+
+Curriculum-only paket `skill/tymm-material-planner/scripts/curriculum_only_gate.py` ile fail-closed doğrulanır. Ders kitabı gelene kadar full textbook P0 zorlanmaz.

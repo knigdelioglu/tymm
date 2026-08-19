@@ -1,59 +1,34 @@
 {
-  "schema_version": "1.1",
   "course_id": "TDE_11",
-  "validated_at": "2026-08-19",
   "lifecycle_status": "CURRICULUM_ONLY_AWAITING_TEXTBOOK",
-  "curriculum_validation_status": "PASS",
-  "checks": {
-    "source_identity": "PASS",
-    "source_completeness": "PASS_4_OF_4_OFFICIAL_THEMES",
-    "curriculum_schema": "PASS",
-    "unique_outcome_ids": "PASS_64_UNIQUE_THEME_SCOPED_KEYS",
-    "outcome_scope_safety": "PASS_THEME_SCOPED",
-    "verbatim_and_locator": "PASS_CORE_CANONICAL_FIELDS_LOCATED",
-    "broken_canonical_references": "PASS",
-    "duplicate_canonical_keys": "PASS",
-    "synthetic_subcodes": "PASS_NONE_CREATED",
-    "synthetic_canonical_facts": "PASS",
-    "explicit_process_components": "SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS",
-    "local_pdf_binary_presence": "PASS_4_FILES_PRESENT",
-    "local_pdf_theme_identity": "PASS_4_OF_4_EMBEDDED_OFFICIAL_UNIT_LINKS",
-    "local_pdf_filenames": "PASS_THEME_NAMED",
-    "time_model": "PASS_45_PER_THEME_EQUALS_43_INSTRUCTION_PLUS_2_SCHOOL_BASED_PLANNING"
+  "source": {
+    "source_parts": 4,
+    "source_theme_ids": [
+      "TEMA_01",
+      "TEMA_02",
+      "TEMA_03",
+      "TEMA_04"
+    ],
+    "bundle_sha256": "a931973ce05bfe067cccf6188a4ddc73a2c3e93a843ff0c324325f4ebb55ba93",
+    "status": "PASS"
   },
-  "counts": {
+  "canonical": {
     "themes": 4,
-    "learning_outcomes": 64,
+    "outcomes": 64,
     "assessment_requirements": 12,
-    "performance_tasks": 8,
-    "theme_end_evaluations": 4
+    "unique_canonical_keys": 64,
+    "source_locators_checked": 80,
+    "synthetic_subcodes": 0,
+    "status": "PASS"
   },
-  "annual_time_model": {
-    "theme_total_hours": 45,
-    "instructional_hours_per_theme": 43,
-    "school_based_planning_hours_per_theme": 2,
-    "annual_instructional_hours": 172,
-    "annual_school_based_planning_hours": 8,
-    "annual_total_hours": 180,
-    "school_based_planning_authority": "USER_CONFIRMED_PLANNING_RULE"
+  "lifecycle_safety": {
+    "premature_files": 0,
+    "status": "PASS"
   },
   "textbook_status": "AWAITING_OFFICIAL_TEXTBOOK",
   "coverage_status": "NOT_EVALUATED",
   "gap_status": "NOT_EVALUATED",
   "production_status": "NOT_EVALUATED",
-  "deferred_until_official_textbook_available": [
-    "textbook analysis",
-    "coverage",
-    "alignment",
-    "gap analysis",
-    "resource production decisions",
-    "full textbook runtime",
-    "production gates"
-  ],
-  "real_curriculum_blockers": [],
-  "review_notes": [
-    "Dört yerel PDF'nin tema kimliği dosya boyutu veya yükleme sırasından tahmin edilmemiş; PDF içindeki resmî TYMM unite/267, unite/276, unite/322 ve unite/332 bağlantılarıyla doğrulanmıştır.",
-    "Yerel PDF dosyaları doğrulanan tema adlarıyla yeniden adlandırılmıştır.",
-    "Resmî TYMM tema sayfasındaki 43 saatlik öğretim kaydı verbatim korunur. Kullanıcı tarafından doğrulanan 2 saat okul temelli planlama ayrı katman olarak eklenir ve tema dış planlama toplamı 45 saattir."
-  ]
+  "full_p0_status": "DEFERRED_UNTIL_OFFICIAL_TEXTBOOK_AVAILABLE",
+  "final": "PASS"
 }
