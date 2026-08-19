@@ -275,42 +275,6 @@
       "created_at": "2026-08-19T06:21:03Z",
       "updated_at": "2026-08-19T06:21:59Z",
       "html_url": "https://github.com/knigdelioglu/tymm/actions/runs/32223042999"
-    },
-    {
-      "id": 32223033754,
-      "name": "TYMM P0 Production Gate",
-      "status": "completed",
-      "conclusion": "failure",
-      "event": "push",
-      "head_sha": "9f3c94f4de4710f8e9c813006f05e040254636a7",
-      "run_number": 121,
-      "created_at": "2026-08-19T06:20:56Z",
-      "updated_at": "2026-08-19T06:21:43Z",
-      "html_url": "https://github.com/knigdelioglu/tymm/actions/runs/32223033754"
-    },
-    {
-      "id": 32222894545,
-      "name": "TYMM P0 Production Gate",
-      "status": "completed",
-      "conclusion": "failure",
-      "event": "push",
-      "head_sha": "2b9a4b5bd898c1339be7ed46bf8bbb004630a920",
-      "run_number": 120,
-      "created_at": "2026-08-19T06:18:57Z",
-      "updated_at": "2026-08-19T06:19:53Z",
-      "html_url": "https://github.com/knigdelioglu/tymm/actions/runs/32222894545"
-    },
-    {
-      "id": 32222894501,
-      "name": "TDE10 Phase15 Execution Gate",
-      "status": "completed",
-      "conclusion": "failure",
-      "event": "push",
-      "head_sha": "2b9a4b5bd898c1339be7ed46bf8bbb004630a920",
-      "run_number": 9,
-      "created_at": "2026-08-19T06:18:57Z",
-      "updated_at": "2026-08-19T06:20:08Z",
-      "html_url": "https://github.com/knigdelioglu/tymm/actions/runs/32222894501"
     }
   ]
 }
