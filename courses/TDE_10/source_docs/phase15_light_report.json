@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
   "course_id": "TDE_10",
-  "final": "FAIL",
+  "final": "PASS",
   "checks": [
     {
       "name": "reuse_only",
-      "status": "FAIL",
-      "output": "Traceback (most recent call last):\n  File \"/home/runner/work/tymm/tymm/skill/tymm-material-planner/tests/test_reuse_only_contract.py\", line 9, in <module>\n    arts,by_id,aliases,prov=build_artifact_maps(valid)\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/tymm/tymm/skill/tymm-material-planner/scripts/production_schema.py\", line 77, in build_artifact_maps\n    raise ProductionSchemaError(\nproduction_schema.ProductionSchemaError: PRODUCTION_SCHEMA_INVALID: empty production_queue requires either a verified reuse-only state or a fail-closed parity-review-blocked state with unresolved assessment targets.\n"
+      "status": "PASS",
+      "output": "reuse-only production schema regression: PASS\n"
     },
     {
       "name": "parity_blocked",
