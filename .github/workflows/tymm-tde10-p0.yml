@@ -169,7 +169,17 @@ jobs:
             echo 'No Phase 15 output changes.'
           else
             git commit -m 'feat(tde10): publish parity-aware Phase 15 P0 outputs'
-            git push
+            git fetch origin main
+            CHANGED=$(git diff --name-only "$GITHUB_SHA"..origin/main || true)
+            if printf '%s\n' "$CHANGED" | grep -Eq '^(skill/tymm-material-planner/(scripts|tests)/|courses/TDE_10/(curriculum_map\.json|textbook_map\.json|textbook_forms_index\.json|source_manifest\.json|parity_contract\.json|parity_validation_report\.json|planning/|production/|themes/)|\.github/workflows/tymm-tde10-p0\.yml$)'; then
+              echo 'A newer relevant canonical/shared change exists on main; this older run will not publish stale derived outputs.'
+              exit 0
+            fi
+            git reset --hard HEAD
+            git rebase origin/main
+            python skill/tymm-material-planner/scripts/knowledge_index.py status --knowledge-root courses/TDE_10
+            python skill/tymm-material-planner/scripts/build_runtime_course_package.py status --knowledge-root courses/TDE_10
+            git push origin HEAD:main
           fi
 
       - name: Upload P0 report
