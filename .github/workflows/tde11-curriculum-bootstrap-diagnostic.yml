@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   diagnostic:
@@ -17,30 +17,60 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Install PDF text tools
         run: sudo apt-get update -qq && sudo apt-get install -y poppler-utils
 
-      - name: Extract local curriculum snapshots
+      - name: Extract local curriculum snapshots and fingerprints
         shell: bash
         run: |
           set -euo pipefail
-          mkdir -p /tmp/tde11-text
-          for f in courses/TDE_11/source_docs/*.PDF; do
-            base=$(basename "$f" .PDF)
-            echo "=== FILE: $f ==="
-            sha256sum "$f"
-            pdfinfo "$f" | grep -E '^(Pages|Title|Author|Creator|Producer):' || true
-            pdftotext -layout "$f" "/tmp/tde11-text/${base}.txt"
-            echo "--- EXTRACT HEAD ---"
-            sed -n '1,90p' "/tmp/tde11-text/${base}.txt"
-            echo "--- OUTCOME MARKERS ---"
-            grep -nE 'TDE[1-4]\.[1-4]' "/tmp/tde11-text/${base}.txt" | head -80 || true
-          done
+          rm -rf courses/TDE_11/_diagnostic
+          mkdir -p courses/TDE_11/_diagnostic/extracted
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib, json, subprocess
 
-      - name: Upload extracted text
-        uses: actions/upload-artifact@v4
-        with:
-          name: tde11-curriculum-pdf-text
-          path: /tmp/tde11-text/*.txt
-          if-no-files-found: error
+          root = Path('courses/TDE_11')
+          out = root / '_diagnostic' / 'extracted'
+          records = []
+          for pdf in sorted((root / 'source_docs').glob('*.PDF')):
+              data = pdf.read_bytes()
+              sha256 = hashlib.sha256(data).hexdigest()
+              text_path = out / (pdf.stem + '.txt')
+              subprocess.run(['pdftotext', '-layout', str(pdf), str(text_path)], check=True)
+              info = subprocess.run(['pdfinfo', str(pdf)], check=True, text=True, capture_output=True).stdout
+              pages = None
+              for line in info.splitlines():
+                  if line.startswith('Pages:'):
+                      pages = int(line.split(':',1)[1].strip())
+                      break
+              records.append({
+                  'filename': pdf.name,
+                  'size_bytes': len(data),
+                  'sha256': sha256,
+                  'pages': pages,
+                  'extracted_text_file': str(text_path.relative_to(root)),
+              })
+          (root / '_diagnostic' / 'fingerprints.json').write_text(
+              json.dumps({'files': records}, ensure_ascii=False, indent=2) + '\n', encoding='utf-8'
+          )
+          PY
+
+      - name: Commit diagnostic outputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add courses/TDE_11/_diagnostic
+          if git diff --cached --quiet; then
+            echo 'No diagnostic changes.'
+          else
+            git commit -m 'chore(tde11): publish temporary curriculum diagnostics'
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
