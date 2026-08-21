@@ -1,96 +1,105 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "course_id": "TDE_10",
   "gate_count": 8,
-  "status": "BLOCKED_BY_AUTHENTICATED_EBA_TARGET_ACCESS",
+  "status": "CANONICAL_SUPPORT_BOUND_8_OF_8_EXTERNAL_EBA_EQUIVALENCE_UNVERIFIED",
+  "interpretation": "The official EBA targets remain authentication-gated for exact payload inspection. Application support is nevertheless resolved through two owner-authorized derived canonical rubrics built from the TDE_10 curriculum, local official textbook, in-book assessment forms, recovered same-task rubric evidence and cross-grade TYMM assessment patterns.",
   "records": [
     {
       "theme_id": "TEMA_01",
       "outcome_code": "TDE3.4",
       "skill_category": "Konuşma",
-      "dpa_form_ids": [
-        "LINK_T1_KONUSMA_DPA"
-      ],
-      "status": "REVIEW_REQUIRED_AUTH_GATED",
-      "coverage": "PARTIALLY_COVERED",
-      "generation_authorized": false
+      "dpa_form_ids": ["LINK_T1_KONUSMA_DPA"],
+      "source_status": "EXTERNAL_EBA_EXACT_EQUIVALENCE_UNVERIFIED",
+      "textbook_coverage": "PARTIALLY_COVERED",
+      "application_support": "COVERED_BY_DERIVED_CANONICAL_RUBRIC",
+      "canonical_artifact_id": "TDE10_KONUSMA_RUBRIC",
+      "requirement_binding_id": "REQ_T10_T1_KONUSMA_DPA",
+      "generation_authorized": true
     },
     {
       "theme_id": "TEMA_01",
       "outcome_code": "TDE4.4",
       "skill_category": "Yazma",
-      "dpa_form_ids": [
-        "LINK_T1_YAZMA_DPA"
-      ],
-      "status": "REVIEW_REQUIRED_AUTH_GATED",
-      "coverage": "PARTIALLY_COVERED",
-      "generation_authorized": false
+      "dpa_form_ids": ["LINK_T1_YAZMA_DPA"],
+      "source_status": "EXTERNAL_EBA_EXACT_EQUIVALENCE_UNVERIFIED",
+      "textbook_coverage": "PARTIALLY_COVERED",
+      "application_support": "COVERED_BY_DERIVED_CANONICAL_RUBRIC",
+      "canonical_artifact_id": "TDE10_YAZMA_RUBRIC",
+      "requirement_binding_id": "REQ_T10_T1_YAZMA_DPA",
+      "generation_authorized": true
     },
     {
       "theme_id": "TEMA_02",
       "outcome_code": "TDE3.4",
       "skill_category": "Konuşma",
-      "dpa_form_ids": [
-        "LINK_T2_PODCAST_DPA"
-      ],
-      "status": "REVIEW_REQUIRED_AUTH_GATED",
-      "coverage": "PARTIALLY_COVERED",
-      "generation_authorized": false
+      "dpa_form_ids": ["LINK_T2_PODCAST_DPA"],
+      "source_status": "EXTERNAL_EBA_EXACT_EQUIVALENCE_UNVERIFIED",
+      "textbook_coverage": "PARTIALLY_COVERED",
+      "application_support": "COVERED_BY_DERIVED_CANONICAL_RUBRIC",
+      "canonical_artifact_id": "TDE10_KONUSMA_RUBRIC",
+      "requirement_binding_id": "REQ_T10_T2_KONUSMA_DPA",
+      "generation_authorized": true
     },
     {
       "theme_id": "TEMA_02",
       "outcome_code": "TDE4.4",
       "skill_category": "Yazma",
-      "dpa_form_ids": [
-        "LINK_T2_YAZMA_DPA"
-      ],
-      "status": "REVIEW_REQUIRED_AUTH_GATED",
-      "coverage": "PARTIALLY_COVERED",
-      "generation_authorized": false
+      "dpa_form_ids": ["LINK_T2_YAZMA_DPA"],
+      "source_status": "EXTERNAL_EBA_EXACT_EQUIVALENCE_UNVERIFIED",
+      "textbook_coverage": "PARTIALLY_COVERED",
+      "application_support": "COVERED_BY_DERIVED_CANONICAL_RUBRIC",
+      "canonical_artifact_id": "TDE10_YAZMA_RUBRIC",
+      "requirement_binding_id": "REQ_T10_T2_YAZMA_DPA",
+      "generation_authorized": true
     },
     {
       "theme_id": "TEMA_03",
       "outcome_code": "TDE3.4",
       "skill_category": "Konuşma",
-      "dpa_form_ids": [
-        "LINK_T3_KONUSMA_DPA"
-      ],
-      "status": "REVIEW_REQUIRED_AUTH_GATED",
-      "coverage": "PARTIALLY_COVERED",
-      "generation_authorized": false
+      "dpa_form_ids": ["LINK_T3_KONUSMA_DPA"],
+      "source_status": "EXTERNAL_EBA_EXACT_EQUIVALENCE_UNVERIFIED",
+      "textbook_coverage": "PARTIALLY_COVERED",
+      "application_support": "COVERED_BY_DERIVED_CANONICAL_RUBRIC",
+      "canonical_artifact_id": "TDE10_KONUSMA_RUBRIC",
+      "requirement_binding_id": "REQ_T10_T3_KONUSMA_DPA",
+      "generation_authorized": true
     },
     {
       "theme_id": "TEMA_03",
       "outcome_code": "TDE4.4",
       "skill_category": "Yazma",
-      "dpa_form_ids": [
-        "LINK_T3_YAZMA_DPA"
-      ],
-      "status": "REVIEW_REQUIRED_AUTH_GATED",
-      "coverage": "PARTIALLY_COVERED",
-      "generation_authorized": false
+      "dpa_form_ids": ["LINK_T3_YAZMA_DPA"],
+      "source_status": "EXTERNAL_EBA_EXACT_EQUIVALENCE_UNVERIFIED",
+      "textbook_coverage": "PARTIALLY_COVERED",
+      "application_support": "COVERED_BY_DERIVED_CANONICAL_RUBRIC",
+      "canonical_artifact_id": "TDE10_YAZMA_RUBRIC",
+      "requirement_binding_id": "REQ_T10_T3_YAZMA_DPA",
+      "generation_authorized": true
     },
     {
       "theme_id": "TEMA_04",
       "outcome_code": "TDE3.4",
       "skill_category": "Konuşma",
-      "dpa_form_ids": [
-        "LINK_T4_KONUSMA_DPA"
-      ],
-      "status": "REVIEW_REQUIRED_AUTH_GATED",
-      "coverage": "PARTIALLY_COVERED",
-      "generation_authorized": false
+      "dpa_form_ids": ["LINK_T4_KONUSMA_DPA"],
+      "source_status": "EXTERNAL_EBA_EXACT_EQUIVALENCE_UNVERIFIED",
+      "textbook_coverage": "PARTIALLY_COVERED",
+      "application_support": "COVERED_BY_DERIVED_CANONICAL_RUBRIC",
+      "canonical_artifact_id": "TDE10_KONUSMA_RUBRIC",
+      "requirement_binding_id": "REQ_T10_T4_KONUSMA_DPA",
+      "generation_authorized": true
     },
     {
       "theme_id": "TEMA_04",
       "outcome_code": "TDE4.4",
       "skill_category": "Yazma",
-      "dpa_form_ids": [
-        "LINK_T4_YAZMA_DPA"
-      ],
-      "status": "REVIEW_REQUIRED_AUTH_GATED",
-      "coverage": "PARTIALLY_COVERED",
-      "generation_authorized": false
+      "dpa_form_ids": ["LINK_T4_YAZMA_DPA"],
+      "source_status": "EXTERNAL_EBA_EXACT_EQUIVALENCE_UNVERIFIED",
+      "textbook_coverage": "PARTIALLY_COVERED",
+      "application_support": "COVERED_BY_DERIVED_CANONICAL_RUBRIC",
+      "canonical_artifact_id": "TDE10_YAZMA_RUBRIC",
+      "requirement_binding_id": "REQ_T10_T4_YAZMA_DPA",
+      "generation_authorized": true
     }
   ]
 }

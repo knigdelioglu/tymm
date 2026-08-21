@@ -18,6 +18,23 @@ on:
       - 'courses/TDE_10/planning/**'
       - 'courses/TDE_10/production/**'
       - 'courses/TDE_10/themes/**'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/tymm-tde10-p0.yml'
+      - 'skill/tymm-material-planner/scripts/**'
+      - 'skill/tymm-material-planner/tests/test_reuse_only_contract.py'
+      - 'skill/tymm-material-planner/tests/test_parity_blocked_contract.py'
+      - 'courses/TDE_10/curriculum_map.json'
+      - 'courses/TDE_10/textbook_map.json'
+      - 'courses/TDE_10/textbook_forms_index.json'
+      - 'courses/TDE_10/source_manifest.json'
+      - 'courses/TDE_10/parity_contract.json'
+      - 'courses/TDE_10/parity_validation_report.json'
+      - 'courses/TDE_10/planning/**'
+      - 'courses/TDE_10/production/**'
+      - 'courses/TDE_10/themes/**'
   workflow_dispatch:
 
 permissions:
@@ -65,7 +82,7 @@ jobs:
               shutil.copy2(src, target / local)
           PY
 
-      - name: Verify safe empty-queue production contracts
+      - name: Verify safe production contracts
         run: |
           python skill/tymm-material-planner/tests/test_reuse_only_contract.py
           python skill/tymm-material-planner/tests/test_parity_blocked_contract.py
@@ -86,7 +103,7 @@ jobs:
           print('TDE9 legacy 7-to-3 production contract: PASS')
           PY
 
-      - name: Verify Phase 14 parity state before technical P0
+      - name: Verify TDE10 source parity and canonical runtime support state
         run: |
           python - <<'PY'
           import json
@@ -94,21 +111,30 @@ jobs:
           root=Path('courses/TDE_10')
           v=json.loads((root/'parity_validation_report.json').read_text(encoding='utf-8'))
           p=json.loads((root/'production/production_manifest.json').read_text(encoding='utf-8'))
-          assert v['status']=='VALIDATED_WITH_EXTERNAL_AUTH_BLOCKER', v['status']
+          r=json.loads((root/'production/assessment_artifact_registry.json').read_text(encoding='utf-8'))
+          assert v['status']=='VALIDATED_SOURCE_EQUIVALENCE_PARTIAL_RUNTIME_SUPPORT_READY', v['status']
           assert v['parity_certified'] is False
+          assert v['runtime_support_ready'] is True
           assert v['hard_failures']==[], v['hard_failures']
           assert v['counts']['covered']==56
           assert v['counts']['partially_covered']==8
           assert v['counts']['not_covered']==0
+          assert v['counts']['canonical_rubrics']==2
+          assert v['counts']['canonical_rubric_bindings']==8
           assert len(v['external_blockers'])==1
           assert p['schema_version']=='1.1', p['schema_version']
-          assert p['production_mode']=='PARITY_REVIEW_BLOCKED', p['production_mode']
+          assert p['production_mode']=='DERIVED_CANONICAL_SUPPORT', p['production_mode']
           assert p['verified_resource_gap_count']==0
           assert p['unresolved_assessment_target_count']==8
-          assert p['production_queue']==[]
-          assert p['generation_authorization']['allowed'] is False
-          assert p['generation_authorization']['reason']=='UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS'
-          print('TDE10 parity precondition gate: PASS (external blocker preserved)')
+          assert p['expected_new_artifact_count']==2
+          assert len(p['production_queue'])==2
+          assert {x['artifact_id'] for x in p['production_queue']}=={'TDE10_KONUSMA_RUBRIC','TDE10_YAZMA_RUBRIC'}
+          assert p['generation_authorization']['allowed'] is True
+          assert r['registry_mode']=='DERIVED_CANONICAL_SUPPORT_READY'
+          assert len(r['annual_artifacts'])==2
+          assert sum(len(x.get('task_bindings',[])) for x in r['annual_artifacts'])==8
+          assert all(x['generation_status']=='DERIVED_CANONICAL_READY' for x in r['annual_artifacts'])
+          print('TDE10 canonical rubric support gate: PASS (2 artifacts / 8 bindings; exact EBA equivalence preserved as unresolved provenance)')
           PY
 
       - name: Run TDE10 parity-aware generic P0 gate
@@ -119,7 +145,7 @@ jobs:
           python skill/tymm-material-planner/scripts/knowledge_index.py status --knowledge-root courses/TDE_10
           python skill/tymm-material-planner/scripts/build_runtime_course_package.py status --knowledge-root courses/TDE_10
 
-      - name: Record Phase 15 technical P0 without granting parity certification
+      - name: Record Phase 15 technical P0 and runtime-support readiness
         run: |
           python - <<'PY'
           import json
@@ -128,27 +154,33 @@ jobs:
 
           contract_path=root/'parity_contract.json'
           c=json.loads(contract_path.read_text(encoding='utf-8'))
-          c['phase_gates']['PHASE_15_P0_AND_TDE9_REGRESSION']='PASS_TECHNICAL_WITH_8_EXTERNAL_AUTH_BLOCKERS'
+          c['phase_gates']['PHASE_15_P0_AND_TDE9_REGRESSION']='PASS_TECHNICAL_RUNTIME_SUPPORT_READY_EXTERNAL_EQUIVALENCE_UNVERIFIED'
           c['technical_p0_status']='PASS'
-          c['parity_certification']='WITHHELD_PENDING_8_AUTH_GATED_EBA_DPA_TARGETS'
+          c['runtime_support_status']='READY_2_CANONICAL_RUBRICS_8_TASK_BINDINGS'
+          c['parity_validation_status']='VALIDATED_SOURCE_EQUIVALENCE_PARTIAL_RUNTIME_SUPPORT_READY'
+          c['parity_certification']='WITHHELD_ONLY_FOR_EXACT_EBA_PAYLOAD_EQUIVALENCE'
           contract_path.write_text(json.dumps(c,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
           manifest_path=root/'source_manifest.json'
           m=json.loads(manifest_path.read_text(encoding='utf-8'))
-          m['overall_status']='TECHNICAL_P0_PASS_PARITY_REVIEW_BLOCKED'
-          m['parity_remediation_status']='BLOCKED_PENDING_8_AUTH_GATED_EBA_DPA_TARGETS'
-          m['parity_certification']='WITHHELD'
+          m['overall_status']='TECHNICAL_P0_PASS_RUNTIME_SUPPORT_READY_EXTERNAL_EQUIVALENCE_UNVERIFIED'
+          m['parity_remediation_status']='RUNTIME_SUPPORT_RESOLVED_EXACT_EBA_EQUIVALENCE_UNVERIFIED'
+          m['parity_certification']='WITHHELD_ONLY_FOR_EXACT_EBA_PAYLOAD_EQUIVALENCE'
+          m['runtime_support_status']='READY_2_CANONICAL_RUBRICS_8_TASK_BINDINGS'
           scope=m.setdefault('scope',{})
           scope['knowledge_index_built']=True
           scope['runtime_projection_built']=True
           scope['p0_gate_passed']=True
-          scope['materials_generated']=False
+          scope['materials_generated']=True
+          scope['canonical_support_artifacts_generated']=2
+          scope['canonical_support_task_bindings']=8
           manifest_path.write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
           report_path=root/'parity_report.md'
           text=report_path.read_text(encoding='utf-8')
-          if '## 11. Faz 15 teknik P0 ve TDE_9 regresyon sonucu' not in text:
-              text += '''\n\n## 11. Faz 15 teknik P0 ve TDE_9 regresyon sonucu\n\nFaz 15 teknik doğrulamaları başarıyla tamamlanmıştır. TDE_10 canonical/index/runtime/resolver katmanları fail-closed parity-review durumunda çalışmaktadır. Ambiguity, stale ve knowledge-conflict kapıları üretimi engellemeye devam etmektedir. `Tema 1 TDE4.4 için rubrik hazırla` benzeri üretim isteği, dış EBA değerlendirme hedefleri çözülmediği için `UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS` ile bloklanır.\n\nTDE_9 regresyonunda tarihsel **7 gap instance → 3 canonical artifact** sözleşmesi korunmuştur.\n\n**Faz 15 gate:** `PASS_TECHNICAL_WITH_8_EXTERNAL_AUTH_BLOCKERS`\n\nBu sonuç parity sertifikası değildir. TDE_10 için tek kalan blocker, sekiz resmî EBA DPA hedefinin authenticated içerik yapısının doğrulanamamasıdır.\n'''
+          marker='## 12. Canonical rubrik reconstruction ve runtime support sonucu'
+          if marker not in text:
+              text += '''\n\n## 12. Canonical rubrik reconstruction ve runtime support sonucu\n\nSekiz resmî EBA Dereceli Puanlama Anahtarı bağlantısının hedef payload'ları authentication arkasında kaldığı için birebir EBA eşdeğerliği hâlâ doğrulanmamıştır. Ancak bu durum artık uygulama desteği için blocker değildir.\n\nTDE_10 öğretim programı, yerel resmî ders kitabı, kitap içinde basılı öz/akran değerlendirme yapıları, kurtarılan aynı-görev rubrik kanıtları ve TYMM sınıfları arasındaki ortak 3 düzeyli rubrik deseni kullanılarak iki canonical destek artifact'ı oluşturulmuştur:\n\n- `TDE10_KONUSMA_RUBRIC` — dört konuşma/sunum görevi için yıllık ortak rubrik\n- `TDE10_YAZMA_RUBRIC` — dört yazma/ürün görevi için yıllık ortak rubrik\n\nHer artifact dört tema için ayrı task binding taşır; toplam **8 task binding** vardır. Türetilmiş betimleyiciler resmî EBA payload'ının verbatim kopyası olarak temsil edilmez. Kaynak eşdeğerliği ile uygulama kullanılabilirliği ayrı durumlar olarak tutulur.\n\n**Runtime support:** `READY_2_CANONICAL_RUBRICS_8_TASK_BINDINGS`  \n**Exact EBA payload parity:** `UNVERIFIED_AUTH_GATED`\n'''
               report_path.write_text(text,encoding='utf-8')
           PY
 
@@ -159,8 +191,25 @@ jobs:
         run: |
           python skill/tymm-material-planner/scripts/knowledge_index.py status --knowledge-root courses/TDE_10
           python skill/tymm-material-planner/scripts/build_runtime_course_package.py status --knowledge-root courses/TDE_10
+          python - <<'PY'
+          import json, sqlite3
+          from pathlib import Path
+          root=Path('courses/TDE_10')
+          manifest=json.loads((root/'runtime/runtime_manifest.json').read_text(encoding='utf-8'))
+          assert manifest['validation_status']=='PASS', manifest['validation_status']
+          assert manifest['row_counts']['assessment_artifacts']==2, manifest['row_counts']
+          assert manifest['row_counts']['assessment_task_bindings']==8, manifest['row_counts']
+          db=sqlite3.connect(root/'runtime/course_runtime.sqlite')
+          ids={r[0] for r in db.execute('SELECT artifact_id FROM assessment_artifacts')}
+          assert ids=={'TDE10_KONUSMA_RUBRIC','TDE10_YAZMA_RUBRIC'}, ids
+          themes={r[0] for r in db.execute('SELECT DISTINCT theme_id FROM assessment_task_bindings')}
+          assert themes=={'TEMA_01','TEMA_02','TEMA_03','TEMA_04'}, themes
+          db.close()
+          print('TDE10 runtime rubric projection: PASS (2 artifacts / 8 bindings / 4 themes)')
+          PY
 
       - name: Commit TDE10 Phase 15 derived outputs
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
@@ -168,7 +217,7 @@ jobs:
           if git diff --cached --quiet; then
             echo 'No Phase 15 output changes.'
           else
-            git commit -m 'feat(tde10): publish parity-aware Phase 15 P0 outputs'
+            git commit -m 'feat(tde10): publish canonical rubric runtime support outputs'
             git fetch origin main
             CHANGED=$(git diff --name-only "$GITHUB_SHA"..origin/main || true)
             if printf '%s\n' "$CHANGED" | grep -Eq '^(skill/tymm-material-planner/(scripts|tests)/|courses/TDE_10/(curriculum_map\.json|textbook_map\.json|textbook_forms_index\.json|source_manifest\.json|parity_contract\.json|parity_validation_report\.json|planning/|production/|themes/)|\.github/workflows/tymm-tde10-p0\.yml$)'; then

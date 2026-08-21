@@ -1,18 +1,294 @@
 {
   "schema_version": "1.1",
   "course_id": "TDE_10",
-  "registry_mode": "PARITY_REVIEW_BLOCKED",
+  "registry_mode": "DERIVED_CANONICAL_SUPPORT_READY",
   "verified_resource_gap_count": 0,
   "unresolved_assessment_target_count": 8,
-  "authorized_new_artifact_count": 0,
-  "annual_artifacts": [],
+  "authorized_new_artifact_count": 2,
+  "external_source_equivalence_status": "Eight official EBA DPA targets remain auth-gated; canonical rubrics are derived support artifacts, not claims of verbatim EBA identity.",
+  "level_model": {
+    "model_id": "TDE10_SHARED_3_LEVEL_MODEL",
+    "levels": [
+      {"score": 3, "label": "Oldukça iyi"},
+      {"score": 2, "label": "Kabul edilebilir"},
+      {"score": 1, "label": "Geliştirilmeli"}
+    ],
+    "scoring_rule": "Yalnız uygulanabilir ölçütler puanlanır. Ham puan uygulanabilir ölçüt puanlarının toplamıdır; isteğe bağlı yüzde = ham puan / uygulanabilir maksimum puan × 100."
+  },
+  "annual_artifacts": [
+    {
+      "artifact_id": "TDE10_KONUSMA_RUBRIC",
+      "title": "10. Sınıf Türk Dili ve Edebiyatı Yıllık Konuşma/Sunum Dereceli Puanlama Anahtarı",
+      "skill_domain": "Konuşma / Sözlü Anlatım",
+      "scope": "ANNUAL_CORE",
+      "assessment_family": "ANALYTIC_RUBRIC",
+      "reuse_policy": "REUSE_ANNUAL_CORE_WITH_TASK_BINDING_EXTENSIONS",
+      "generation_priority": "REQUIRED",
+      "generation_status": "DERIVED_CANONICAL_READY",
+      "teacher_review_required": false,
+      "covered_themes": ["TEMA_01", "TEMA_02", "TEMA_03", "TEMA_04"],
+      "covered_gap_instances": [],
+      "covered_outcomes": ["TDE3.4"],
+      "core_construct": "Konuşma, sunum, podcast ve canlandırma görevlerinde içeriği amaca ve hedef kitleye uygun biçimde yapılandırma; ses, beden dili, zaman ve Türkçe kullanımını etkili yönetme.",
+      "level_model_ref": "TDE10_SHARED_3_LEVEL_MODEL",
+      "core_criteria": [
+        {
+          "criterion_id": "CRT_T10_SPK_01",
+          "criterion_name": "İçerik ve Göreve Uygunluk",
+          "descriptors": {
+            "3": "İçerik görevin amacına, konuya ve hedef kitleye tam uygundur; gerekli ayrıntılar seçilmiş ve tutarlı biçimde aktarılmıştır.",
+            "2": "İçerik büyük ölçüde göreve uygundur; bazı ayrıntılar eksik, yüzeysel veya kısmen dağınıktır ancak amaç anlaşılırdır.",
+            "1": "İçerik görevle sınırlı ölçüde ilişkilidir; önemli ayrıntılar eksik ya da tutarsızdır ve amaç yeterince karşılanmamıştır."
+          }
+        },
+        {
+          "criterion_id": "CRT_T10_SPK_02",
+          "criterion_name": "Plan, Organizasyon ve Zaman Yönetimi",
+          "descriptors": {
+            "3": "Sunum/canlandırma/podcast açık bir plan izler; geçişler düzenlidir ve süre etkili yönetilir.",
+            "2": "Genel plan anlaşılırdır; bazı geçişler veya süre kullanımı aksasa da bütünlük korunur.",
+            "1": "Plan ve akış belirgin değildir; geçişler dağınık veya süre yönetimi görevi aksatacak düzeydedir."
+          }
+        },
+        {
+          "criterion_id": "CRT_T10_SPK_03",
+          "criterion_name": "Ses, Akıcılık, Vurgu ve Tonlama",
+          "descriptors": {
+            "3": "Ses tonu, vurgu, tonlama, telaffuz ve akıcılık içeriği destekleyecek biçimde etkili ve tutarlıdır.",
+            "2": "Ses kullanımı genel olarak anlaşılırdır; yer yer akıcılık, vurgu, tonlama veya telaffuz sorunları görülür.",
+            "1": "Ses kullanımı anlaşılabilirliği ve etkiyi belirgin biçimde azaltır; akıcılık, vurgu, tonlama veya telaffuz sıkça sorunludur."
+          }
+        },
+        {
+          "criterion_id": "CRT_T10_SPK_04",
+          "criterion_name": "Beden Dili ve İletişim",
+          "descriptors": {
+            "3": "Beden dili, göz teması, jest ve mimikler amaca uygun kullanılır; dinleyiciyle etkili iletişim kurulur.",
+            "2": "Beden dili ve iletişim çoğunlukla uygundur ancak kullanım sürekliliği veya etkisi sınırlıdır.",
+            "1": "Beden dili ve iletişim unsurları yetersizdir ya da anlatımı desteklememektedir."
+          }
+        },
+        {
+          "criterion_id": "CRT_T10_SPK_05",
+          "criterion_name": "Türkçenin Doğru ve Etkili Kullanımı",
+          "descriptors": {
+            "3": "Türkçe bağlama uygun, açık, doğru ve etkili kullanılır; söz varlığı görevi destekler.",
+            "2": "Dil kullanımı genel olarak doğrudur; sınırlı sayıda anlatım veya kullanım sorunu vardır.",
+            "1": "Dil ve anlatım sorunları sık görülür; söz varlığı ve ifade seçimi görevin etkisini azaltır."
+          }
+        },
+        {
+          "criterion_id": "CRT_T10_SPK_06",
+          "criterion_name": "Göreve Özgü Görsel, İşitsel, Mekânsal veya Dijital Ögelerin Kullanımı",
+          "conditional": true,
+          "descriptors": {
+            "3": "Görevin gerektirdiği görsel, işitsel, mekânsal veya dijital ögeler seçilmiş, düzenli ve anlamı güçlendirecek biçimde kullanılmıştır.",
+            "2": "Gerekli ögeler kullanılmıştır ancak seçim, düzen veya işlev bakımından kısmi eksikler vardır.",
+            "1": "Görevin gerektirdiği destekleyici ögeler eksik, uygunsuz veya işlevsiz kullanılmıştır."
+          }
+        }
+      ],
+      "task_bindings": [
+        {
+          "gap_instance_id": "REQ_T10_T1_KONUSMA_DPA",
+          "binding_key_semantics": "ASSESSMENT_REQUIREMENT_INSTANCE_NOT_CONFIRMED_GAP",
+          "theme_id": "TEMA_01",
+          "block_id": "BLOCK_T1_02_KONUSMA",
+          "activity_id": null,
+          "targeted_outcomes": ["TDE3.4"],
+          "task_title": "Şiir Dinletisi",
+          "evidence_being_observed": "Canlı şiir dinletisi; tema seçimi, sunum akışı, ses/beden dili, zaman-mekân ve Türkçe kullanımı.",
+          "textbook_locator": "Ders kitabı s.55-57; LINK_T1_KONUSMA_DPA",
+          "curriculum_locator": "TDE_10 Tema 1 programı — TDE3.4 / öğrenme kanıtları",
+          "task_specific_criteria": ["Şiir seçiminin temaya uygunluğu", "Dikkat çekici giriş ve planlı sunum", "Şiirleri özgün üslupla seslendirme", "Görsel/işitsel ögeler", "Beden dili", "Mekân kullanımı", "Vurgu-tonlama", "Olumlu tutum", "Süre", "Planı tamamlama", "Türkçenin doğru kullanımı"],
+          "source_equivalence_status": "DERIVED_CANONICAL_SUPPORT_EXTERNAL_EBA_EXACT_EQUIVALENCE_UNVERIFIED"
+        },
+        {
+          "gap_instance_id": "REQ_T10_T2_KONUSMA_DPA",
+          "binding_key_semantics": "ASSESSMENT_REQUIREMENT_INSTANCE_NOT_CONFIRMED_GAP",
+          "theme_id": "TEMA_02",
+          "block_id": "BLOCK_T2_04_KONUSMA",
+          "activity_id": null,
+          "targeted_outcomes": ["TDE3.4"],
+          "task_title": "Podcast (Sesli Blog)",
+          "evidence_being_observed": "Podcast üretimi ve sunumu; içerik, dil-anlatım, işitsel ögeler, özgünlük, vurgu-tonlama ve teknik bütünlük.",
+          "textbook_locator": "Ders kitabı s.146-149; LINK_T2_PODCAST_DPA",
+          "curriculum_locator": "TDE_10 Tema 2 programı — TDE3.4 / öğrenme kanıtları",
+          "task_specific_criteria": ["İçeriğin anlam ve amaca uygunluğu", "Dil ve anlatım", "İşitsel ögelerin kullanımı", "Özgünlük", "Vurgu-tonlama ve akıcılık", "Podcast akışı ve süre"],
+          "source_equivalence_status": "DERIVED_CANONICAL_SUPPORT_EXTERNAL_EBA_EXACT_EQUIVALENCE_UNVERIFIED"
+        },
+        {
+          "gap_instance_id": "REQ_T10_T3_KONUSMA_DPA",
+          "binding_key_semantics": "ASSESSMENT_REQUIREMENT_INSTANCE_NOT_CONFIRMED_GAP",
+          "theme_id": "TEMA_03",
+          "block_id": "BLOCK_T3_02_KONUSMA",
+          "activity_id": null,
+          "targeted_outcomes": ["TDE3.4"],
+          "task_title": "Türk Destanlarıyla İlgili Sunum",
+          "evidence_being_observed": "Türk destanlarını hedef kitleye uygun, planlı ve etkili biçimde sunma; içerik, beden dili, ses ve Türkçe kullanımı.",
+          "textbook_locator": "Ders kitabı s.204-208; LINK_T3_KONUSMA_DPA",
+          "curriculum_locator": "TDE_10 Tema 3 programı — TDE3.4 / öğrenme kanıtları",
+          "task_specific_criteria": ["İçeriğe uygunluk ve doğruluk", "Hedef kitleye uygun dil", "Beden dili", "Ses kontrolü", "Türkçenin doğru kullanımı", "Vurgu-tonlama", "Sunum organizasyonu ve süre"],
+          "source_equivalence_status": "DERIVED_CANONICAL_SUPPORT_EXTERNAL_EBA_EXACT_EQUIVALENCE_UNVERIFIED"
+        },
+        {
+          "gap_instance_id": "REQ_T10_T4_KONUSMA_DPA",
+          "binding_key_semantics": "ASSESSMENT_REQUIREMENT_INSTANCE_NOT_CONFIRMED_GAP",
+          "theme_id": "TEMA_04",
+          "block_id": "BLOCK_T4_02_KONUSMA",
+          "activity_id": null,
+          "targeted_outcomes": ["TDE3.4"],
+          "task_title": "Hikâyeden Sahneye",
+          "evidence_being_observed": "Dede Korkut hikâyesini canlandırma; özgün yorum, plan, beden dili, zaman-mekân, görsel/işitsel ögeler ve Türkçenin doğru kullanımı.",
+          "textbook_locator": "Ders kitabı s.280-283; LINK_T4_KONUSMA_DPA",
+          "curriculum_locator": "TDE_10 Tema 4 programı — TDE3.4 / öğrenme kanıtları",
+          "task_specific_criteria": ["Uygun hikâye ve özgün yorum", "Plana uygun canlandırma", "Beden dili", "Metnin bağlamına bağlılık", "İletişim ve görgü", "Görsel/işitsel ögeler", "Mekân kullanımı", "Süre", "Türkçenin doğru ve millî bilinçle kullanımı"],
+          "source_equivalence_status": "DERIVED_CANONICAL_SUPPORT_EXTERNAL_EBA_EXACT_EQUIVALENCE_UNVERIFIED"
+        }
+      ],
+      "provenance_policy": "Birincil otorite TDE_10 öğretim programı ve yerel resmî ders kitabıdır. Açık webde bulunan aynı-görev rubrik kopyaları ile diğer TYMM sınıflarındaki desenler yalnız ikincil reconstruction kanıtıdır."
+    },
+    {
+      "artifact_id": "TDE10_YAZMA_RUBRIC",
+      "title": "10. Sınıf Türk Dili ve Edebiyatı Yıllık Yazma/Ürün Dereceli Puanlama Anahtarı",
+      "skill_domain": "Yazma / Yazılı ve Çok Modlu Ürün",
+      "scope": "ANNUAL_CORE",
+      "assessment_family": "ANALYTIC_RUBRIC",
+      "reuse_policy": "REUSE_ANNUAL_CORE_WITH_TASK_BINDING_EXTENSIONS",
+      "generation_priority": "REQUIRED",
+      "generation_status": "DERIVED_CANONICAL_READY",
+      "teacher_review_required": false,
+      "covered_themes": ["TEMA_01", "TEMA_02", "TEMA_03", "TEMA_04"],
+      "covered_gap_instances": [],
+      "covered_outcomes": ["TDE4.4"],
+      "core_construct": "Yazılı veya çok modlu ürünü amaca, türe ve hedef kitleye uygun biçimde yapılandırma; içerik, organizasyon, dil-anlatım, özgünlük, estetik ve yazım kurallarını birlikte yönetme.",
+      "level_model_ref": "TDE10_SHARED_3_LEVEL_MODEL",
+      "core_criteria": [
+        {
+          "criterion_id": "CRT_T10_WRT_01",
+          "criterion_name": "İçerik, Göreve ve Türe Uygunluk",
+          "descriptors": {
+            "3": "Ürün görevin amacına ve seçilen türe tam uygundur; içerik gerekli unsurları eksiksiz ve tutarlı biçimde taşır.",
+            "2": "Ürün büyük ölçüde amaca ve türe uygundur; bazı içerik veya tür özellikleri sınırlı ya da eksiktir.",
+            "1": "Ürün görev veya tür beklentilerini sınırlı ölçüde karşılar; temel içerik unsurlarında belirgin eksikler vardır."
+          }
+        },
+        {
+          "criterion_id": "CRT_T10_WRT_02",
+          "criterion_name": "Yapı, Organizasyon, Olay/İleti Akışı",
+          "descriptors": {
+            "3": "Metin/ürün açık bir plan ve tutarlı akış izler; bölümler, olaylar veya iletiler arasında güçlü bağlar vardır.",
+            "2": "Genel yapı anlaşılırdır; bazı geçişler veya sıralamalar zayıf olsa da bütünlük korunur.",
+            "1": "Yapı ve akış dağınıktır; sıralama, geçiş veya bütünlük sorunları anlamı belirgin biçimde etkiler."
+          }
+        },
+        {
+          "criterion_id": "CRT_T10_WRT_03",
+          "criterion_name": "Dil, Anlatım ve Söz Varlığı",
+          "descriptors": {
+            "3": "Dil ve anlatım açık, etkili ve bağlama uygundur; söz varlığı ürünü zenginleştirir.",
+            "2": "Dil ve anlatım çoğunlukla uygundur; sınırlı anlatım veya söz varlığı sorunları görülür.",
+            "1": "Dil ve anlatım sorunları sık görülür; sözcük seçimi veya ifade biçimi ürünün anlaşılmasını ve etkisini azaltır."
+          }
+        },
+        {
+          "criterion_id": "CRT_T10_WRT_04",
+          "criterion_name": "Özgünlük ve Estetik Etki",
+          "descriptors": {
+            "3": "Ürün özgün seçimler ve estetik bir bütünlük gösterir; biçim ve içerik birbirini güçlü biçimde destekler.",
+            "2": "Üründe özgün veya estetik unsurlar vardır ancak bunların kullanımı kısmen sınırlı ya da düzensizdir.",
+            "1": "Ürün büyük ölçüde kalıp veya yüzeysel çözümlere dayanır; estetik bütünlük zayıftır."
+          }
+        },
+        {
+          "criterion_id": "CRT_T10_WRT_05",
+          "criterion_name": "Yazım, Noktalama ve Dil Bilgisi",
+          "descriptors": {
+            "3": "Yazım, noktalama ve dil bilgisi kuralları tutarlı biçimde uygulanmıştır; hatalar yok denecek kadar azdır.",
+            "2": "Bazı yazım, noktalama veya dil bilgisi hataları vardır ancak anlamı belirgin biçimde bozmaz.",
+            "1": "Yazım, noktalama veya dil bilgisi hataları sık görülür ve ürünün anlaşılmasını ya da niteliğini olumsuz etkiler."
+          }
+        },
+        {
+          "criterion_id": "CRT_T10_WRT_06",
+          "criterion_name": "Göreve Özgü Görsel/İşitsel Unsurlar ve Sunum Tasarımı",
+          "conditional": true,
+          "descriptors": {
+            "3": "Görevin gerektirdiği görsel, işitsel veya tasarımsal unsurlar içerikle uyumlu, düzenli ve anlamı güçlendirecek biçimde kullanılmıştır.",
+            "2": "Destekleyici unsurlar kullanılmıştır ancak seçim, düzen veya içerikle uyum bakımından kısmi eksikler vardır.",
+            "1": "Görevin gerektirdiği destekleyici unsurlar eksik, uygunsuz veya içerikle zayıf ilişkili kullanılmıştır."
+          }
+        }
+      ],
+      "task_bindings": [
+        {
+          "gap_instance_id": "REQ_T10_T1_YAZMA_DPA",
+          "binding_key_semantics": "ASSESSMENT_REQUIREMENT_INSTANCE_NOT_CONFIRMED_GAP",
+          "theme_id": "TEMA_01",
+          "block_id": "BLOCK_T1_04_YAZMA",
+          "activity_id": null,
+          "targeted_outcomes": ["TDE4.4"],
+          "task_title": "Masalı Film Şeridine Dönüştürme",
+          "evidence_being_observed": "Masalı film şeridine dönüştüren yazılı-görsel ürün; olay akışı, karakter, senaryo, akıcılık, estetik ve dil-anlatım.",
+          "textbook_locator": "Ders kitabı s.75-78; LINK_T1_YAZMA_DPA",
+          "curriculum_locator": "TDE_10 Tema 1 programı — TDE4.4 / öğrenme kanıtları",
+          "task_specific_criteria": ["Akıcılık", "Görsel ögeler", "Karakter tasarımı", "Senaryo", "Olay akışı", "Estetik", "Dil ve anlatım", "İçeriği zenginleştirme", "Yazım-noktalama", "Olumlu tutum/değerler"],
+          "source_equivalence_status": "DERIVED_CANONICAL_SUPPORT_EXTERNAL_EBA_EXACT_EQUIVALENCE_UNVERIFIED"
+        },
+        {
+          "gap_instance_id": "REQ_T10_T2_YAZMA_DPA",
+          "binding_key_semantics": "ASSESSMENT_REQUIREMENT_INSTANCE_NOT_CONFIRMED_GAP",
+          "theme_id": "TEMA_02",
+          "block_id": "BLOCK_T2_02_YAZMA",
+          "activity_id": null,
+          "targeted_outcomes": ["TDE4.4"],
+          "task_title": "Öğretici Metinden Edebî Metne",
+          "evidence_being_observed": "Öğretici metni edebî metne dönüştürme; anlamın korunması, tür ve anlatım tercihi, özgünlük, dil, görsel/işitsel destek ve yazım-noktalama.",
+          "textbook_locator": "Ders kitabı s.124-128; LINK_T2_YAZMA_DPA",
+          "curriculum_locator": "TDE_10 Tema 2 programı — TDE4.4 / öğrenme kanıtları",
+          "task_specific_criteria": ["Temel anlamın korunması", "Edebî tür özellikleri", "Dil ve anlatım", "Özgünlük", "Görsel/işitsel ögeler", "Yazım ve noktalama", "Metin bütünlüğü"],
+          "source_equivalence_status": "DERIVED_CANONICAL_SUPPORT_EXTERNAL_EBA_EXACT_EQUIVALENCE_UNVERIFIED"
+        },
+        {
+          "gap_instance_id": "REQ_T10_T3_YAZMA_DPA",
+          "binding_key_semantics": "ASSESSMENT_REQUIREMENT_INSTANCE_NOT_CONFIRMED_GAP",
+          "theme_id": "TEMA_03",
+          "block_id": "BLOCK_T3_04_YAZMA",
+          "activity_id": null,
+          "targeted_outcomes": ["TDE4.4"],
+          "task_title": "Fabl Yazma",
+          "evidence_being_observed": "Fabl türünde özgün ürün; tür özellikleri, ahenk, etkileyicilik, dil-anlatım, söz varlığı, estetik ve dil bilgisi.",
+          "textbook_locator": "Ders kitabı s.224-228; LINK_T3_YAZMA_DPA",
+          "curriculum_locator": "TDE_10 Tema 3 programı — TDE4.4 / öğrenme kanıtları",
+          "task_specific_criteria": ["Özgünlük", "Biçim/tür özellikleri", "Ahenk", "Etkileyicilik", "Dil ve anlatım", "Söz varlığı", "Estetik", "Dil bilgisi"],
+          "source_equivalence_status": "DERIVED_CANONICAL_SUPPORT_EXTERNAL_EBA_EXACT_EQUIVALENCE_UNVERIFIED"
+        },
+        {
+          "gap_instance_id": "REQ_T10_T4_YAZMA_DPA",
+          "binding_key_semantics": "ASSESSMENT_REQUIREMENT_INSTANCE_NOT_CONFIRMED_GAP",
+          "theme_id": "TEMA_04",
+          "block_id": "BLOCK_T4_04_YAZMA",
+          "activity_id": null,
+          "targeted_outcomes": ["TDE4.4"],
+          "task_title": "Hikâyeden Şiire",
+          "evidence_being_observed": "Dinlenen/izlenen hikâyeyi şiire dönüştürme; içerik, etkileyicilik, şiir dilinin kullanımı, özgünlük, estetik ve dil bilgisi.",
+          "textbook_locator": "Ders kitabı s.302-305; LINK_T4_YAZMA_DPA",
+          "curriculum_locator": "TDE_10 Tema 4 programı — TDE4.4 / öğrenme kanıtları",
+          "task_specific_criteria": ["Hikâye temasının şiire aktarılması", "İçeriğe uygunluk", "Etkileyicilik", "Şiir dilinin etkili kullanımı", "Bağlama uygun söz varlığı", "Özgün üslup", "Estetik unsurlar", "Dil bilgisi"],
+          "source_equivalence_status": "DERIVED_CANONICAL_SUPPORT_EXTERNAL_EBA_EXACT_EQUIVALENCE_UNVERIFIED"
+        }
+      ],
+      "provenance_policy": "Birincil otorite TDE_10 öğretim programı ve yerel resmî ders kitabıdır. Açık webde bulunan aynı-görev rubrik kopyaları ile diğer TYMM sınıflarındaki desenler yalnız ikincil reconstruction kanıtıdır."
+    }
+  ],
   "reuse_sources": {
     "textbook_source_id": "textbook_tde10_local_pdf",
-    "textbook_forms_index": "textbook_forms_index.json"
+    "textbook_forms_index": "textbook_forms_index.json",
+    "assessment_gate_audit": "source_docs/assessment_gate_audit.json"
   },
   "generation_authorization": {
-    "allowed": false,
-    "reason": "UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS"
+    "allowed": true,
+    "reason": "OWNER_AUTHORIZED_DERIVED_CANONICAL_RECONSTRUCTION_FROM_TDE10_PROGRAM_TEXTBOOK_AND_RECOVERED_RUBRIC_EVIDENCE"
   },
-  "classification_note": "Eight official EBA Dereceli Puanlama Anahtarı links are verified as links, but their authenticated target structures are unresolved. They are not relabeled analytic_rubric and do not close the corresponding assessment requirements until target-structure verification is complete."
+  "classification_note": "Sekiz resmî EBA bağlantısı birebir kaynak eşdeğerliği bakımından erişim kısıtlı kalır. Bu durum iki derived canonical destek rubriğinin kullanımını engellemez. Türetilmiş hiçbir betimleyici EBA içeriğinin verbatim kopyası olarak sunulmaz."
 }

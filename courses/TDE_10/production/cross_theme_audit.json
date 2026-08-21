@@ -2,7 +2,7 @@
   "schema_version": "1.1",
   "course_id": "TDE_10",
   "audit_type": "CROSS_THEME_ASSESSMENT_AND_RESOURCE_GAP_CONSOLIDATION",
-  "source_state": "PARITY_REAUDITED_REVIEW_REQUIRED",
+  "source_state": "SOURCE_EQUIVALENCE_PARTIAL_RUNTIME_SUPPORT_READY",
   "themes_audited": 4,
   "outcome_rows_analyzed": 64,
   "covered_outcomes": 56,
@@ -10,39 +10,35 @@
   "not_covered_outcomes": 0,
   "verified_remaining_gap_instances": 0,
   "unresolved_assessment_target_instances": 8,
+  "canonical_support_artifact_count": 2,
+  "canonical_support_binding_count": 8,
   "assessment_need_comparison": [
     {
       "cluster_id": "TDE10_SPEAKING_TEACHER_DPA",
       "skill_family": "Konuşma",
       "instance_count": 4,
-      "themes": [
-        "TEMA_01",
-        "TEMA_02",
-        "TEMA_03",
-        "TEMA_04"
-      ],
+      "themes": ["TEMA_01", "TEMA_02", "TEMA_03", "TEMA_04"],
       "common_normative_need": "Teacher dereceli puanlama anahtarı for the theme speaking performance",
-      "status": "PROVISIONAL_TARGET_STRUCTURES_AUTH_GATED",
-      "consolidation_decision": "DO_NOT_GENERATE_OR_CONSOLIDATE_UNTIL_TARGET_STRUCTURES_RESOLVED"
+      "status": "CONSOLIDATED_TO_DERIVED_CANONICAL_SUPPORT",
+      "consolidation_decision": "REUSE_TDE10_KONUSMA_RUBRIC_WITH_TASK_BINDING_EXTENSIONS",
+      "canonical_artifact_id": "TDE10_KONUSMA_RUBRIC",
+      "source_equivalence_status": "8 EBA targets remain exact-source-equivalence unresolved; this does not block canonical application support."
     },
     {
       "cluster_id": "TDE10_WRITING_TEACHER_DPA",
       "skill_family": "Yazma",
       "instance_count": 4,
-      "themes": [
-        "TEMA_01",
-        "TEMA_02",
-        "TEMA_03",
-        "TEMA_04"
-      ],
+      "themes": ["TEMA_01", "TEMA_02", "TEMA_03", "TEMA_04"],
       "common_normative_need": "Teacher dereceli puanlama anahtarı for the theme writing performance",
-      "status": "PROVISIONAL_TARGET_STRUCTURES_AUTH_GATED",
-      "consolidation_decision": "DO_NOT_GENERATE_OR_CONSOLIDATE_UNTIL_TARGET_STRUCTURES_RESOLVED"
+      "status": "CONSOLIDATED_TO_DERIVED_CANONICAL_SUPPORT",
+      "consolidation_decision": "REUSE_TDE10_YAZMA_RUBRIC_WITH_TASK_BINDING_EXTENSIONS",
+      "canonical_artifact_id": "TDE10_YAZMA_RUBRIC",
+      "source_equivalence_status": "8 EBA targets remain exact-source-equivalence unresolved; this does not block canonical application support."
     }
   ],
   "cross_theme_gap_clusters": [],
   "potential_assessment_clusters": 2,
-  "new_physical_artifacts_required_confirmed": 0,
-  "decision": "PARITY_REVIEW_BLOCKED_PENDING_8_EXTERNAL_ASSESSMENT_TARGETS",
-  "rule": "Unresolved external normative assessment targets are compared across themes but are not converted into gaps or physical artifacts until their structures are inspected."
+  "new_physical_artifacts_required_confirmed": 2,
+  "decision": "CANONICAL_SUPPORT_READY_2_ARTIFACTS_8_BINDINGS_EXTERNAL_EQUIVALENCE_UNVERIFIED",
+  "rule": "Exact EBA target identity and application support are separate dimensions. The app may use the two derived canonical rubrics while provenance continues to record that the auth-gated EBA payloads are not verified verbatim."
 }
