@@ -1,0 +1,158 @@
+name: Curriculum-Only Program Elements Gate
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'courses/TDE_12/.program-elements-gate-trigger'
+      - 'skill/tymm-material-planner/scripts/curriculum_only_gate.py'
+      - '.github/workflows/curriculum-only-program-elements-gate.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  gate:
+    if: github.event.pull_request.head.ref == 'feat/curriculum-only-program-elements-gate'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          fetch-depth: 0
+
+      - name: Add optional program-element evidence contract
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          p=Path('skill/tymm-material-planner/scripts/curriculum_only_gate.py')
+          s=p.read_text(encoding='utf-8')
+          if 'def validate_optional_program_elements(' in s:
+              print('Program-element evidence contract already present.')
+              raise SystemExit(0)
+
+          helper='''def validate_optional_program_elements(root: Path, curriculum: dict[str, Any]) -> dict[str, Any]:
+              source_validation = curriculum.get("source_validation", {})
+              expected_per_theme = source_validation.get("program_elements_required_families_per_theme")
+              expected_total = source_validation.get("program_elements_required_families_total")
+              if not isinstance(expected_per_theme, int) or not isinstance(expected_total, int):
+                  return {"status": "NOT_DECLARED"}
+
+              themes = curriculum.get("themes", [])
+              require(isinstance(themes, list) and themes, "PROGRAM_ELEMENT_THEME_SET_MISSING")
+              require(expected_total == expected_per_theme * len(themes), "PROGRAM_ELEMENT_DECLARED_TOTAL_MISMATCH")
+
+              evidence_file = source_validation.get("remote_section_evidence_file")
+              require(isinstance(evidence_file, str) and evidence_file, "PROGRAM_ELEMENT_REMOTE_EVIDENCE_FILE_NOT_DECLARED")
+              require((root / evidence_file).is_file(), "PROGRAM_ELEMENT_REMOTE_EVIDENCE_FILE_MISSING")
+
+              explicit_total = 0
+              for theme in themes:
+                  theme_id = theme.get("theme_id")
+                  elements = theme.get("program_elements", {})
+                  require(isinstance(elements, dict), f"PROGRAM_ELEMENTS_NOT_OBJECT: {theme_id}")
+                  explicit_rows = []
+                  for key, row in elements.items():
+                      if not isinstance(row, dict):
+                          continue
+                      status = row.get("source_status")
+                      if isinstance(status, str) and status.startswith("SOURCE_EXPLICIT"):
+                          text = row.get("verbatim")
+                          require(isinstance(text, str) and text.strip(), f"PROGRAM_ELEMENT_VERBATIM_MISSING: {theme_id}/{key}")
+                          require("�" not in text, f"PROGRAM_ELEMENT_GLYPH_REPLACEMENT: {theme_id}/{key}")
+                          locator = row.get("source_locator")
+                          require(isinstance(locator, str) and locator, f"PROGRAM_ELEMENT_LOCATOR_MISSING: {theme_id}/{key}")
+                          canonical_evidence = row.get("canonical_evidence_file")
+                          if canonical_evidence is not None:
+                              require(isinstance(canonical_evidence, str) and (root / canonical_evidence).is_file(), f"PROGRAM_ELEMENT_EVIDENCE_MISSING: {theme_id}/{key}")
+                          explicit_rows.append(key)
+                  require(len(explicit_rows) >= expected_per_theme, f"PROGRAM_ELEMENT_FAMILY_COUNT_INCOMPLETE: {theme_id}:{len(explicit_rows)}/{expected_per_theme}")
+                  explicit_total += len(explicit_rows)
+
+              require(explicit_total >= expected_total, f"PROGRAM_ELEMENT_TOTAL_INCOMPLETE: {explicit_total}/{expected_total}")
+
+              if str(source_validation.get("remote_outcome_verbatim_status", "")).startswith("PASS_"):
+                  for theme in themes:
+                      for outcome in theme.get("learning_outcomes", []):
+                          text = outcome.get("outcome_verbatim")
+                          require(isinstance(text, str) and text.strip(), f"REMOTE_OUTCOME_VERBATIM_MISSING: {theme.get('theme_id')}/{outcome.get('outcome_code')}")
+                          require("�" not in text, f"REMOTE_OUTCOME_GLYPH_REPLACEMENT: {theme.get('theme_id')}/{outcome.get('outcome_code')}")
+
+              return {
+                  "required_families_per_theme": expected_per_theme,
+                  "required_families_total": expected_total,
+                  "explicit_families_checked": explicit_total,
+                  "remote_evidence_file": evidence_file,
+                  "status": "PASS",
+              }
+'''
+          marker='\n\ndef validate_fail_closed_lifecycle(root: Path) -> dict[str, Any]:'
+          assert marker in s
+          s=s.replace(marker, '\n\n'+helper+marker)
+
+          old='''    canonical = validate_curriculum(root, manifest, curriculum)\n    lifecycle = validate_fail_closed_lifecycle(root)'''
+          new='''    canonical = validate_curriculum(root, manifest, curriculum)\n    program_elements = validate_optional_program_elements(root, curriculum)\n    lifecycle = validate_fail_closed_lifecycle(root)'''
+          assert old in s
+          s=s.replace(old,new)
+
+          old='''        "canonical": canonical,\n        "lifecycle_safety": lifecycle,'''
+          new='''        "canonical": canonical,\n        "program_elements": program_elements,\n        "lifecycle_safety": lifecycle,'''
+          assert old in s
+          s=s.replace(old,new)
+          p.write_text(s,encoding='utf-8')
+          PY
+
+      - name: Validate TDE12 declared program-element contract
+        run: |
+          python skill/tymm-material-planner/scripts/curriculum_only_gate.py \
+            --knowledge-root courses/TDE_12 \
+            --report courses/TDE_12/curriculum_validation_report.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path('courses/TDE_12/curriculum_validation_report.json').read_text(encoding='utf-8'))
+          p=r['program_elements']
+          assert p['status']=='PASS', p
+          assert p['required_families_per_theme']==13, p
+          assert p['required_families_total']==52, p
+          assert p['explicit_families_checked'] >= 52, p
+          assert r['canonical']['outcomes']==64, r['canonical']
+          assert r['canonical']['synthetic_subcodes']==0, r['canonical']
+          print('TDE12 program-elements fail-closed contract: PASS')
+          PY
+
+      - name: Verify TDE11 backward compatibility
+        run: |
+          python skill/tymm-material-planner/scripts/curriculum_only_gate.py --knowledge-root courses/TDE_11 > /tmp/tde11-gate.log
+          grep -q 'CURRICULUM-ONLY GATE: PASS (TDE_11)' /tmp/tde11-gate.log
+          grep -q '"status": "NOT_DECLARED"' /tmp/tde11-gate.log
+          echo 'TDE11 optional contract backward compatibility: PASS'
+
+      - name: Verify TDE9 and TDE10 regressions
+        run: |
+          python skill/tymm-material-planner/tests/test_reuse_only_contract.py
+          python skill/tymm-material-planner/tests/test_parity_blocked_contract.py
+          python - <<'PY'
+          import json, sys
+          from pathlib import Path
+          sys.path.insert(0, str(Path('skill/tymm-material-planner/scripts').resolve()))
+          from production_schema import build_artifact_maps
+          m=json.loads(Path('courses/TDE_9/production/production_manifest.json').read_text(encoding='utf-8'))
+          artifacts,_,aliases,prov=build_artifact_maps(m)
+          assert len(artifacts)==3 and len(aliases)==7 and len(prov)==7
+          p=json.loads(Path('courses/TDE_10/production/production_manifest.json').read_text(encoding='utf-8'))
+          assert p['production_mode']=='PARITY_REVIEW_BLOCKED'
+          assert p['production_queue']==[]
+          print('TDE9/TDE10 regressions: PASS')
+          PY
+
+      - name: Publish permanent gate contract
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          rm -f courses/TDE_12/.program-elements-gate-trigger
+          git add -- skill/tymm-material-planner/scripts/curriculum_only_gate.py courses/TDE_12/curriculum_validation_report.json courses/TDE_12/.program-elements-gate-trigger
+          git commit -m 'feat(curriculum-only): validate declared program-element evidence'
+          git push origin HEAD:${{ github.event.pull_request.head.ref }}
