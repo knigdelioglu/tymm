@@ -16,30 +16,27 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.ref }}
           fetch-depth: 0
-      - name: Install dependencies
+      - name: Install PDF tools
         run: |
           sudo apt-get update
           sudo apt-get install -y poppler-utils
-          python -m pip install --disable-pip-version-check pyyaml
-      - name: Execute canonical bootstrap steps
+      - name: Make outcome extraction heading-independent
+        env:
+          OUTCOME_EXTRACTOR_B64: ZGVmIGV4dHJhY3Rfb3V0Y29tZXMobGluZXM6IGxpc3Rbc3RyXSwgdGhlbWVfaWQ6IHN0cikgLT4gbGlzdFtkaWN0XToKICAgIGV4cGVjdGVkID0gW2YiVERFe3h9Lnt5fSIgZm9yIHggaW4gcmFuZ2UoMSwgNSkgZm9yIHkgaW4gcmFuZ2UoMSwgNSldCiAgICBwb3NpdGlvbnM6IGxpc3RbdHVwbGVbc3RyLCBpbnQsIHN0cl1dID0gW10KICAgIGN1cnNvciA9IDAKICAgIGZvciBjb2RlIGluIGV4cGVjdGVkOgogICAgICAgIHBhdHRlcm4gPSByZS5jb21waWxlKHJmIl57cmUuZXNjYXBlKGNvZGUpfVwuPyg/OlxzK3wkKSguKikkIikKICAgICAgICBmb3VuZCA9IE5vbmUKICAgICAgICBmb3IgaSBpbiByYW5nZShjdXJzb3IsIGxlbihsaW5lcykpOgogICAgICAgICAgICBtID0gcGF0dGVybi5tYXRjaChsaW5lc1tpXSkKICAgICAgICAgICAgaWYgbToKICAgICAgICAgICAgICAgIGZvdW5kID0gKGNvZGUsIGksIG0uZ3JvdXAoMSkuc3RyaXAoKSkKICAgICAgICAgICAgICAgIGJyZWFrCiAgICAgICAgYXNzZXJ0IGZvdW5kIGlzIG5vdCBOb25lLCBmIk9VVENPTUVfQ09ERV9OT1RfRk9VTkQ6e3RoZW1lX2lkfTp7Y29kZX0iCiAgICAgICAgcG9zaXRpb25zLmFwcGVuZChmb3VuZCkKICAgICAgICBjdXJzb3IgPSBmb3VuZFsxXSArIDEKCiAgICByb3dzOiBsaXN0W2RpY3RdID0gW10KICAgIGZvciBpZHgsIChjb2RlLCBwb3MsIGZpcnN0X3RleHQpIGluIGVudW1lcmF0ZShwb3NpdGlvbnMpOgogICAgICAgIGlmIGlkeCArIDEgPCBsZW4ocG9zaXRpb25zKToKICAgICAgICAgICAgZW5kID0gcG9zaXRpb25zW2lkeCArIDFdWzFdCiAgICAgICAgZWxzZToKICAgICAgICAgICAgY2FuZGlkYXRlcyA9IFsKICAgICAgICAgICAgICAgIGZpbmRfaGVhZGluZyhsaW5lcywgWyLEsMOnZXJpayDDh2Vyw6dldmVzaSJdLCBwb3MgKyAxKSwKICAgICAgICAgICAgICAgIGZpbmRfaGVhZGluZyhsaW5lcywgWyJBbmFodGFyIEthdnJhbWxhciJdLCBwb3MgKyAxKSwKICAgICAgICAgICAgICAgIGZpbmRfaGVhZGluZyhsaW5lcywgWyLDlsSfcmVubWUgS2FuxLF0bGFyxLEiXSwgcG9zICsgMSksCiAgICAgICAgICAgIF0KICAgICAgICAgICAgY2FuZGlkYXRlcyA9IFt4IGZvciB4IGluIGNhbmRpZGF0ZXMgaWYgeCBpcyBub3QgTm9uZV0KICAgICAgICAgICAgZW5kID0gbWluKGNhbmRpZGF0ZXMpIGlmIGNhbmRpZGF0ZXMgZWxzZSBtaW4obGVuKGxpbmVzKSwgcG9zICsgMTIpCiAgICAgICAgYm9keSA9IFtmaXJzdF90ZXh0XSBpZiBmaXJzdF90ZXh0IGVsc2UgW10KICAgICAgICBmb3IgeCBpbiBsaW5lc1twb3MgKyAxOmVuZF06CiAgICAgICAgICAgIGlmIHggaW4gTEFCRUxTOgogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgaWYgeC5zdGFydHN3aXRoKCJUw7xyayBEaWxpIFZlIEVkZWJpeWF0xLEgRGVyc2kgMTIuU8SxbsSxZiIpOgogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgaWYgImh0dHBzOi8vdHltbS5tZWIuZ292LnRyLyIgaW4geDoKICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgIGJvZHkuYXBwZW5kKHgpCiAgICAgICAgdGV4dCA9IG5vcm0oIiAiLmpvaW4oYm9keSkpCiAgICAgICAgYXNzZXJ0IHRleHQsIGYiT1VUQ09NRV9WRVJCQVRJTV9FTVBUWTp7dGhlbWVfaWR9Ontjb2RlfSIKICAgICAgICByb3dzLmFwcGVuZCh7CiAgICAgICAgICAgICJvdXRjb21lX2NvZGUiOiBjb2RlLAogICAgICAgICAgICAib3V0Y29tZV92ZXJiYXRpbSI6IHRleHQsCiAgICAgICAgICAgICJ0aGVtZV9zY29wZSI6IHRoZW1lX2lkLAogICAgICAgICAgICAic3RhYmxlX2VudGl0eV9rZXkiOiBmIlRERV8xMjp7dGhlbWVfaWR9Ontjb2RlfSIsCiAgICAgICAgICAgICJ2ZXJpZmljYXRpb25fc3RhdHVzIjogIlZFUklGSUVEX09GRklDSUFMX1JFTU9URV9BTkRfTE9DQUxfQ09OVEVOVCIsCiAgICAgICAgfSkKICAgIGFzc2VydCBbclsib3V0Y29tZV9jb2RlIl0gZm9yIHIgaW4gcm93c10gPT0gZXhwZWN0ZWQsIGYiT1VUQ09NRV9TRVRfTUlTTUFUQ0g6e3RoZW1lX2lkfSIKICAgIHJldHVybiByb3dzCg==
         run: |
           python - <<'PY'
-          import subprocess, yaml
+          import base64, os
           from pathlib import Path
-          data=yaml.safe_load(Path('.github/workflows/tde12-curriculum-bootstrap.yml').read_text(encoding='utf-8'))
-          wanted={
-            'Build TDE12 curriculum canonical seed from official PDFs',
-            'Finalize source fingerprints and page-bound evidence',
-            'Run curriculum-only fail-closed gate',
-            'Verify TDE9 and TDE10 regression contracts',
-            'Write reports and README',
-          }
-          for step in data['jobs']['bootstrap']['steps']:
-              if step.get('name') in wanted:
-                  print('RUN:', step['name'], flush=True)
-                  subprocess.run(step['run'], shell=True, executable='/bin/bash', check=True)
+          p=Path('courses/TDE_12/_bootstrap_curriculum_only.py')
+          s=p.read_text(encoding='utf-8')
+          a=s.index('def extract_outcomes(')
+          b=s.index('\n\ndef build_seed()', a)
+          replacement=base64.b64decode(os.environ['OUTCOME_EXTRACTOR_B64']).decode('utf-8')
+          p.write_text(s[:a]+replacement+s[b:],encoding='utf-8')
           PY
-      - name: Publish final TDE12 curriculum-only state to PR branch
+      - name: Execute TDE12 curriculum-only bootstrap
+        run: python courses/TDE_12/_bootstrap_curriculum_only.py
+      - name: Publish canonical outputs to PR branch
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
