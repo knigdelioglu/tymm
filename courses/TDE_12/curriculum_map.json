@@ -1,0 +1,1368 @@
+{
+  "schema_version": "1.2",
+  "course_id": "TDE_12",
+  "grade": 12,
+  "course_title": "Türk Dili ve Edebiyatı",
+  "lifecycle_status": "CURRICULUM_ONLY_AWAITING_TEXTBOOK",
+  "source_mode": "OFFICIAL_REMOTE_TYMM_THEME_BUNDLE_WITH_MAPPED_LOCAL_PDF_SNAPSHOTS",
+  "verification_status": "VERIFIED_OFFICIAL_REMOTE_AND_LOCAL",
+  "canonical_freeze_status": "FROZEN_PENDING_SOURCE_FINGERPRINT_CHANGE",
+  "scope_summary": {
+    "total_themes": 4,
+    "learning_outcomes_per_theme": 16,
+    "total_learning_outcomes": 64,
+    "official_instructional_hours_per_theme": 43,
+    "school_based_planning_hours_per_theme": 2,
+    "theme_total_hours_with_school_based_planning": 45,
+    "official_instructional_hours_total": 172,
+    "annual_school_based_planning_hours": 8,
+    "annual_total_hours_with_school_based_planning": 180,
+    "textbook_status": "AWAITING_OFFICIAL_TEXTBOOK",
+    "coverage_status": "NOT_EVALUATED",
+    "gap_status": "NOT_EVALUATED",
+    "production_status": "NOT_EVALUATED"
+  },
+  "source_validation": {
+    "official_theme_identity_status": "PASS_4_OF_4",
+    "source_bundle_completeness": "PASS_4_OF_4",
+    "parent_outcome_count_status": "PASS_64_OF_64",
+    "explicit_subcomponent_id_scan": "PASS_NONE_EXPLICIT_SEPARATE_SUBCOMPONENT_IDS",
+    "local_pdf_theme_mapping": "PASS_ALL_CONTENT_VERIFIED_AND_RENAMED",
+    "synthetic_subcode_policy": "DO_NOT_SYNTHESIZE_OR_COPY_FROM_OTHER_GRADES",
+    "local_pdf_fingerprint_status": "PASS_ALL_SHA256_VERIFIED",
+    "curriculum_source_bundle_sha256": "12a7f34a94ce3e4418bf51095a39c7bbc69a2951293490b8211e668efeff0305",
+    "normative_text_evidence": "PASS_FULL_LOCAL_PDF_PAGE_TEXT_CAPTURED"
+  },
+  "themes": [
+    {
+      "theme_id": "TEMA_01",
+      "theme_number": 1,
+      "exact_theme_name": "BENİM YOLCULUĞUM",
+      "source_id": "official_tymm_theme_01",
+      "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/335",
+      "verification_status": "VERIFIED_OFFICIAL_REMOTE_AND_LOCAL_CONTENT",
+      "allocated_lesson_hours": {
+        "instructional_total": 43,
+        "verbatim": "Ders Saati: 43",
+        "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/335 :: Ders Saati",
+        "planning_layer": {
+          "school_based_planning_hours": 2,
+          "theme_total_hours": 45,
+          "authority": "USER_CONFIRMED_PLANNING_RULE",
+          "semantics": "Official TYMM instructional hours remain unchanged; school-based planning is a separate planning layer."
+        }
+      },
+      "program_elements": {
+        "field_skills": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/335"
+        },
+        "tendencies": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/335"
+        },
+        "social_emotional_learning_skills": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/335"
+        },
+        "values": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/335"
+        },
+        "literacy_skills": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/335"
+        },
+        "interdisciplinary_relations": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/335"
+        },
+        "skills_relations": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/335"
+        },
+        "content_framework": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/335"
+        },
+        "key_concepts": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/335"
+        },
+        "learning_evidence": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/335"
+        },
+        "learning_teaching_experiences": {
+          "source_status": "SOURCE_EXPLICIT",
+          "heading": " Öğrenme-Öğretme Yaşantıları ",
+          "verbatim": "Bu temada öğrencilerin öğretici metinlerin genel özelliklerini; anı, biyogra� ve otobiyogra� türlerini, düşünceyi geliştirme yollarını, anlatımın temel ilkelerini, şiir türünün özelliklerini, yazılı ve sözlü anlatım oluşturma süreçlerini, hazırlıklı konuşma yapabilmeyi; tavsiye, tercih, öneri, şart anlamı taşıyan ifade ve yapıları bildikleri kabul edilmektedir. Öğrencilerden günlük, şiir, hikâye ve blog ile ilgili bilgilerini değerlendirmek için kıyaslama ve karşılaştırma içeren bilgi kartları oluşturmaları istenebilir. Soru-cevap, tartışma gibi yöntemler kullanılarak kişilerin günlük tutma nedenleri sorgulanabilir. Günlük türü, 9. sınıfta incelenen gezi yazısı ve deneme türleri; 11. sınıfta incelenen anı, biyogra� ve otobiyogra� türlerindeki metinler ile ilişkilendirilebilir. Günlük türünün hayatı anlamlandırıp yorumlama, duygu ve düşünce dünyasının derinliklerini keşfedebilme vb. açılardan kişiye sağlayacağı katkılar ele alınabilir. Kişinin hayatını konu edinen gezi yazısı, deneme, biyogra� ve otobiyogra�lerin incelenmesine yönelik sahip 5 of 14 21.08.2026 17:27 olunan bilgilerden günlük türündeki metnin incelenmesinde yararlanılabilir. Öğrenciler tarafından burada edinilen bilgi ve beceriler günlük yaşamda kullanılabilir, metinlerde yer alan sosyolojik, psikolojik ve kültürel unsurlar değerlendirilebilir. İnceleme ve değerlendirme sürecindeki tespitler ve çıkarımlar aracılığıyla edebî metinler değerlendirilirken başkalarının hayat tecrübelerinden edinilen bilgi ve izlenimlerin öğrencilere yansıtılması sağlanabilir. Şiir türü hakkındaki önceki bilgiler, şiir incelemesi yapılırken kullanılabilir. Öğrencilerin önceki öğrenmelerinde edindikleri sunum yapma ve yazılı metin oluşturma becerileri temada ele alınan konularla pekiştirilebilir. Öğrencilerin sunum yapma ve yazılı metin oluşturmadaki kazanımlarını diğer derslerdeki ödev veya performans çalışmalarında da kullanabilmeleri için genellemeler yapılabilir. Bazı meslek dallarında ve akademik çalışmalarda sunum yapmanın ve yazılı metin oluşturmanın önemiyle ilgili farkındalık oluşturulabilir. Ayrıca bu temada hikâye türünde bir metnin incelenmesine yönelik edinilen bilgiler “Toplumun Ahengi”, “Hayatın Dengesi” ve “Hayalimdeki Yarın” temalarında ele alınacak anlatmaya bağlı metinlerin incelenme sürecine katkı sağlayabilir. “Benim Yolculuğum” temasının işlenişi sürecinde günlük, blog, şiir ve hikâye türlerinden metinler okunur ve bunlar metin tahlili yöntemiyle çözümlenir. Ardından yazma çalışması olarak geleceğe dair planlarını bir forumda anlatmak için öğrencilerden forum metni hazırlamaları istenir. Dersin dinleme/izleme becerisine yönelik çalışmalarında, kişisel gelişimi ele alan çok modlu bir metin dinletilir/ izletilir. Konuşma becerisi kapsamında öğrencilerden inceledikleri metinlerden hareketle kişisel gelişimi nelerin etkilediği ile ilgili hazırlıklı konuşma yapmaları beklenir. Okuma becerisini geliştirmek amacıyla öğrencilerin temanın içeriğini yansıtan bir günlük, bir şiir ve bir hikâye okumaları sağlanır. Öğrencilerin ilgilerini çekmek ve onlarda merak uyandırmak için alanında önemli başarıları bulunan tarihî bir kişinin ilginç alışkanlıklarını konu eden kısa bir metin okutulur veya dinletilir/izletilir . Daha sonra bu kişinin başarılarına temel teşkil eden azimli, kararlı, planlı olmak gibi bireysel niteliklerine vurgu yapılarak çalışkanlık değerinin içselleştirilmesi sağlanır . Kişilerin özel yaşamlarını yazmak istemelerinin nedenlerinin neler olabileceği ve bu kişilerin hayatıyla ilgili başka neleri öğrenmek istedikleri kısa cevaplı sorularla tespit edilerek öğrencilerin bu 6 of 14 21.08.2026 17:27 konudaki motivasyonlarını arttırmaya yönelik sorular oluşturması sağlanabilir . Kişinin kendi yaşamını anlatmasının yazara ve okura sağladığı faydalar üzerine “düşün-eşleş-paylaş” etkinliği ile ikili gruplardan tartışarak görüş oluşturmaları istenir . Bu süreçte öğrencilerin �kirlerini saygı çerçevesinde ve rahatça dile getirebilecekleri bir ortam sağlanır . Kişinin kendi dünyasını anlattığı günlük türünde yazılmış edebî bir metin belirlenir. Öğrencilerden genel bir �kir oluşturmaları için bu metne hızlıca göz atmaları istenir. Öğrencilere metinle ilgili inceleme ve değerlendirme yapılacağı hatırlatılır, yazarın duygu ve düşünce dünyasını yansıtan ögelere dikkat ederek güdümlü okuma yöntemiyle metni okumaları sağlanır. Okuma sürecini sağlıklı yönetebilmek için öğrencilerin okumaya hazırlık yapması, önceki bilgilerini kullanması, okuma öncesi sorular oluşturması, tahminde bulunması, amaç belirlemesi ve okuma yöntemleri uygulaması gibi ölçütlerin yer aldığı kontrol listesi öğretmen tarafından hazırlanır. Bu form ile öğrencilerin seçim yapmaları sağlanır ve okuma sürecinde ilişkiyi sürdürme düzeyleri belirlenir . Metni okuduktan sonra metnin içeriği hakkında görüş oluşturulur, metnin yazılma amacı belirlenir. Metne konu edilen dönemdeki toplumsal normların metin üzerindeki etkisi ile öğrencinin kendi yaşam deneyimleri arasında bağlantı kurulur . Günlükte belirtilen tarihler göz önünde tutularak metnin yazıldığı döneme ilişkin genel bilgiler sıralanır . Bireysel tecrübeleri anlamlandırmada sanatın/edebiyatın sağladığı imkânlara vurgu yapılır ve böylelikle öğrencilerde estetik değerinin gelişmesi sağlanır . Metinde anlamı bilinmeyen kelimelerin anlamları bağlamdan hareketle tahmin edilir. Tarihsel empati kurularak metnin dönemle ilişkisi konusunda çıkarımlar yapılır . Metinden elde edilen bilgilerin yardımıyla yazarın günlük hayatıyla veya kişilik özellikleriyle, psikolojik durumuyla ilgili karşılaştırmalar yapılır . Burada ayrıca öğrencilerin başka bir hayat hikâyesi aracılığıyla kendini tanımanın, zayıf ve güçlü yönlerini fark etmenin, eleştiriye açık olmanın önemini mütevazılık değeri bağlamında kavramaları sağlanır . Karşılaştırma tablosu yoluyla günlük ve anı türündeki birer metin içerik, dil ve anlatım özellikleri gibi yönlerden karşılaştırılarak türler arasında sını�andırma yapılır . Karşılaştırma ve sını�andırmalardan elde edilen sonuçlar belirli yerleri boş bırakılmış çalışma kâğıdı üzerinde yapılacak etkinliklerle değerlendirilebilir. Metinden edinilen bilgilerden hareketle günlük türünün genel özellikleriyle ilgili (tarih belirtilmesi, günü gününe yazılması, birinci kişili anlatımın kullanılması, kişisel görüşler içermesi, içten bir üslup 7 of 14 21.08.2026 17:27 kullanılması vb.) çıkarımlar yapılır . Öğretmen tarafından günlük türünün özellikleriyle ilgili gereken açıklama ve düzeltmeler yapılır. Metnin konusundan; metinde anlatılan olay, durum veya kişilerle ilgili bilgilerden; metinde verilmek istenen iletilerden hareketle yazarın duygu ve düşünce dünyasına yönelik çıkarımlar açık uçlu sorularla dile getirilir . Öğrencilerden yazarın özel yaşamının bir mahremiyet içerdiğini ve metinle ilgili değerlendirme yapılırken bunun göz önünde bulundurularak öğrencinin özel yaşama saygı duyulmasının gerekliliğini fark etmesi sağlanır . Bu farkındalıkla öğrencilerin Türk dili ve kültürüne hizmet eden şahsiyetlere vefa duygusuyla ve saygıyla yaklaşmaları teşvik edilir . Günlüğe konu olan önemli bir olay; kişi veya yerle ilgili bilgiler ile yazarın bunlara bakışını etkileyen etkenler tutarlılık, öznellik, nesnellik açısından değerlendirilir. Bunlar amaç, koşul, sebep ve sonuçları bakımından birbiriyle ilişkilendirilir. Yapılan çalışma bir karşılaştırma tablosu ile gösterilebilir . Günlüğe konu olan kişi, yer, nesneler, olaylar, durumlar veya başka kişiler arasında nasıl bir etkileşim olduğu belirlenir . Yapılan karşılaştırmalar neticesinde elde edilen bilgilerle kavram haritası oluşturulur. Bu süreçte küçük grup çalışması yapılabilir . Günlük metninin çözümleme sürecinin ardından ara metin olarak öğrencilere bir blog yazısı okutulur. Öğrencilerden blog yazısını oluşturan temel ögeleri ve bunların kullanılma amaçlarını belirlemeleri istenir . Okunan blog yazısını daha etkili kılmak için izlenebilecek yollarla ilgili beyin fırtınası yapılarak görüş oluşturulur . Blog yazısı ile günlük arasında metnin oluşturulma amacı, hedef kitlesi, biçim özellikleri, dil ve üslup özellikleri bakımından benzerlik ve farklılıklar bir karşılaştırma tablosu aracılığıyla ortaya konur . Metinlerdeki tavsiye, tercih, öneri, koşul anlamı katan ifade ve yapılar bulunur; bunların metindeki işlevleri değerlendirilir. Okunan günlük ve blog metinlerinin ayırt edici dil ve üslup özellikleri belirlenir, her iki metnin dil ve anlatım özellikleri karşılaştırılır . Öğrencilerden kendi beğenileri doğrultusunda okudukları günlük ve blog yazısına değer katan unsurları belirlemeleri istenir. Öğrenciler bu metinlerle ilgili görüş ve beğenilerini gerekçelendirerek açıklar . Okunan günlük metnine yönelik derinleşmeyi sağlamak için yazarın olaylar veya kişiler karşısındaki duygu, düşünce ve tutumuyla ilgili öğrencilerden eleştirel görüşlerini bildirmeleri istenir. Yazarın olaylara bakışı ve bunları sunuş şekli yorumlanır. Olaylar ve kişilerin yazarın üslubu üzerindeki etkileri değerlendirilir. Öğrenciler, görüşlerini bir öğrenme günlüğü ile ifade edebilir . Öğrencilerden yorum 8 of 14 21.08.2026 17:27 yaparken kendilerini yazarın yerine koymaları ve benzer durumlar karşısında hangi duygu, düşünce ve tavırları sergileyebileceklerini paylaşmaları istenir . Okuma metni olarak verilen günlüğün oluşturulma düzeni tespit edilir. Günlükte konu edilen olay, durum, yer, nesne ve kişilerle ilgili bilgilerde kullanılan düşünceyi geliştirme yolları öğrencilerle birlikte değerlendirilir. • İkinci okuma metni olarak şiir türünde bir eser ele alınır ve edebî metinlere yönelik metin tahlili aşamaları uygulanır. Şiir türüne özgü yapı ve üslup özellikleri göz önünde bulundurularak gerekli",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/335"
+        },
+        "differentiation": {
+          "source_status": "SOURCE_EXPLICIT",
+          "heading": "farklılaştırmalar yapılır. İkinci okuma metni şiirin tahlilinde ara metin",
+          "verbatim": "olarak hikâye türünde bir metin kullanılır. Öğrencilerin genel ağdaki güvenilir ortamlarda yer alan forumlarda geleceğe dair planlarını anlatacakları yazılı bir metin oluşturabilmelerine yönelik performans görevi ile yazma becerilerinin işlevsellik kazanması sağlanır . Performans görevi sınıf içinde gerçekleştirilir. Öğrencilerden genel ağda bulunan ve “edu”, “org”, “gov” uzantılı güvenilir ortamlardaki forumlarda yayımlanmak üzere geleceğe dair planlarını anlattıkları bir metin yazmaları istenir. Öğrenciler; hayallerini, gelecek planlarını, ilgi alanlarını, duygu ve düşüncelerini en iyi şekilde anlatabilmek için uygun gördükleri metin türünü belirler. Hedef kitleye ve amaca uygun yazma yöntem ve stratejileri belirlenir. Yazma içeriği oluşturulurken metnin iletilerinin okurlar tarafından daha iyi anlaşılmasını sağlamak ve uygun şekilde iletişimi sürdürmek amacıyla hedef kitlenin özellikleri dikkate alınır. Yazma sürecine etki eden engeller ortadan kaldırılır . Okunan ve dinlenen/izlenen metinlerin inceleme sürecinde öğrenilen bilgiler gözden geçirilir ve yazma sürecinde bunlardan yararlanılır. Metnin içeriği oluşturulurken hedef kitlenin beklentilerine yönelik tahminlerde bulunularak hazırlık yapılır . Metin oluşturulurken bilgiler ve düşünceler arasında önem, doğruluk, geçerlik, tutarlılık bakımından karşılaştırma içeren iletiler belirlenir . Metinle ilgili değerlendirmeler sını�andırılarak metin belirli bir yazma düzeni çerçevesinde sunulur . Gerekli durumlarda geleceğe dair planların yazıldığı metinle ilgili ileti, söylem, açıklama veya yönergeler farklı cümlelerle yeniden dile getirilir . Yazılan metnin içeriğini desteklemek ve etkileyiciliğini artırmak amacıyla metne değer katacağı düşünülen metin alıntıları, özdeyişler, görsel ve 9 of 14 21.08.2026 17:27 işitsel ögeler vb. unsurlara yer verilir. Geleceğe dair planlardan forumda belirtilen kurallara uygun biçimde, kendi içinde anlam bütünlüğü olan, bilgilendirici ve açıklayıcı nitelikler taşıyan özgün bir yazılı metin oluşturulur. Forum metni oluşturulurken dijital araçlar kullanılabilir. Hazırlanan metinlerin yer aldığı forum linkleri paylaşılabilir. Öğrenciler başkalarına yorum yazabilir. Dijital olmayan ürünler ise okul/sınıf panolarına asılabilir . Geleceğe dair planların anlatılacağı forum metninde kime, neyin, nasıl, hangi araçların kullanılarak anlatılacağına ilişkin planlama yapılır . Ele alınan konuyu desteklemek amacıyla düşünceyi geliştirme yollarından yararlanılarak metnin içeriğine ve hedef kitlesine göre belirlenen söz varlığı unsurları bağlama uygun şekilde kullanılır. Metin aracılığıyla okuyucuya verilmek istenen iletiler açık veya örtük bir şekilde ifade edilir. Yazılan metinde dil yapıları işlevine uygun ele alınır; eksiltili yapı, bağlama, gönderim, değiştirim ve sözcük bağdaşıklığı ögeleri kullanılır. Metin, yazım kurallarına ve noktalama işaretlerine uygun biçimde yazılır . Performans görevi, öğretmen tarafından belirlenen ölçütlere göre dereceli puanlama anahtarı ile değerlendirilebilir ( ). Puanlama anahtarında dil ve üslup özellikleri, anlatım planının kuruluşu, anlatım ilkelerine uygunluğu, yazım ve noktalama gibi ölçütlere yer verilir. Öğrencilerden bu temada söyleşi türünde çok modlu bir metin dinlemeleri/izlemeleri istenir . Kişinin kendi dünyasını konu eden bir söyleşi içerik olarak seçilip sınıfa getirilebilir. Dinleme/izleme metni olarak kişinin kendi dünyasını ele aldığı, söyleşi türünün özelliklerini taşıyan çok modlu bir metin seçilir. Söyleşiye konu edilen kişiyle ilgili bilgi edinmek, söyleşi metnini incelemek ve değerlendirmek amacıyla etkili dinleme/izleme yöntemi kullanılır. Dinleme/izlemenin etkili bir biçimde gerçekleşebilmesi için gerekli olan ön hazırlıklar yapılır, iletişim engelleri ortadan kaldırılır . Dinleme/ izleme süreci boyunca belirlenen amaçlar doğrultusunda notlar tutulur. Bu çalışmaların nasıl yapıldığına dair izlenimleri belirlemek için bir gözlem formu oluşturulabilir . “Sizce söyleşi metinleri, yazarın kendi dünyasını okuyucuya aktarma ve kişisel deneyimlerini paylaşma konusunda ne kadar etkilidir?” vb. bir soru sorulur. Öğrenci bu soruya 10 of 14 21.08.2026 17:27 ilişkin düşüncelerini “Bir ver, bir al.” gibi bir teknik uygulayarak on dakika içerisinde sınıfta ulaşabildiği en fazla sayıda arkadaşı ile paylaşır. Öğrenci önce kendi görüşünü söyler ve ardından karşısındaki arkadaşının görüşünü dinler ve kısa süre içerisinde çok sayıda arkadaşıyla görüş paylaşımı yapar . Seçilen söyleşi metni dikkatli bir şekilde dinlenir/izlenir . “Soru- cevap tekniği” kullanılarak söyleşi metninin konusu, yazılış amacı ve hedef kitlesi belirlenir . Söyleşi metnini incelemek için daha önceki dinleme/izleme etkinlikleri ile metin inceleme yöntemlerinden öğrenilen bilgilerden yararlanılır. Dinleme/izleme sürecinin sağlıklı yürütülmesi için öğrencilerin dinleme/izleme sürecine etki eden bilişsel, duyuşsal ve �ziksel etkenlerini içeren bir gözlem formu oluşturulur. Bu formla öğrencilerin dinleme/izleme sürecindeki gelişimleri takip edilir . Söyleşi metninde kişinin kendi dünyasıyla ilgili verilen bilgiler belirlenir, “görüş geliştirme tekniği” kullanılarak bu bilgilerin tercih edilmesine yönelik tahminler yürütülür . Metinde anlamı bilinmeyen kelimelerin anlamı bağlamdan hareketle tahmin edilir. Metinde sunulan bilgi ve görüşleri tespit etmek, öznel ve nesnel yargıları belirlemek amacıyla açık uçlu sorular sorulur . Söyleşi metninde ortaya konan duygu ve düşüncelerin konuşmacının günlük yaşamıyla ilişkisi üzerine çıkarım yapılır . Söyleşi metni ile daha önce okunan günlükte baskın olan duygu ve düşünceler sıralanır . Söyleşi metninde konuşmacının olay, durum ve kişiler karşısındaki tutumunu etkileyen unsurlar ile bunların yansıması olan duygu ve düşünceler, neden-sonuç ilişkileri dikkate alınarak sını�andırılır . Oluşan görüş ve düşüncelerin ifade edildiği bir çalışma kâğıdı hazırlanır. Metinde konuşmacının belirli bir konuya ilişkin �kirlerine yönelik eleştirel bakış ortaya konur veya görüşler gerekçeleri ile belirtilir . Söyleşi metninde ortaya konan duygu, düşünce ve görüşleri yansıtan bir çalışma kâğıdı hazırlanır. Elde edilen bilgilerden yola çıkılarak tümevarım yöntemiyle metnin ana düşüncesi belirlenir . Söyleşide konuşmacının duygu, düşünce ve tutumunu etkileyen olay, olgu, kişi, nesne ve kavramlar arasındaki ilişki belirlenir. Söyleşide konu edilen olay, olgu, kişi, nesne ve kavramlar ile konuşmacının yaşamı arasındaki etkileşimi belirlenir . Bu etkileşimi gösteren bir kavram haritası veya poster oluşturulur . Dinlenen/izlenen söyleşi metninde konuşmacı ile empati kurulur 11 of 14 21.08.2026 17:27 . Metinde ele alınan olay, olgu, kişi, nesne ve kavramlar öğrenciler tarafından kendi bakış açılarından önem taşıyan yönleri veya sahip olduğu ilgi alanları bakımından değerlendirilir . Öğrencilere duygu ve düşünce dünyalarını zenginleştirmek için kendi ilgi alanları doğrultusunda başka söyleşi metinleri dinlemeleri/izlemeleri önerilir . Dinlenen/izlenen metinlerden hareketle öğrencilerden kendi kişisel gelişimlerini zenginleştirmek için neler yaptıklarıyla ilgili sınıfta bir konuşma yapmaları istenir . Bu konuşma bireysel olarak hazırlanabileceği gibi grup çalışması biçiminde de hazırlanabilir . Dinlenen/izlenen metinlerden hareketle öğrencilerin geleceğe dair planlarını ifade ettikleri bir öğrenme günlüğü hazırlanabilir. Öğrencilere kişisel gelişimi nelerin etkilediğini belirlemeleri, kendi kişisel gelişimlerini ele almaları ve bunları etkileyen unsurları tespit edip düzeltmek için neler yapabileceklerine yönelik bir performans görevi verilir . Böylece öğrencilerin konuşma becerilerinin işlevsellik kazanması sağlanır . Performans görevi sınıf içinde gerçekleştirilir. Kişisel gelişimi nelerin etkilediği ile ilgili gerekli ön hazırlık yapılarak konu daraltılır. Belirlenen konuya ilişkin hazırlıklı bir konuşma yapmak amacıyla konuya ve hedef kitleye uygun konuşma stratejisi belirlenir . Konuşma öncesinde gerekli hazırlıklar tamamlanır, konuşma sırasında iletişim engelleri ortadan kaldırılır . Konuşmayı sağlıklı bir şekilde gerçekleştirmek için konuşmanın tüm aşamalarında yapılması gerekenlerin sıralandığı bir kontrol listesi tutulur. Bu form ile öğrencilerin konuşma sürecinde ilişkiyi sürdürebilme düzeyleri belirlenir . Konuşma için belirlenen konuya ilişkin iletileri anlamlandırmak ve konuyu uygun şekilde anlatabilmek için günlük hayatta karşılaşılan iletişim engelleri düşünülerek ön bilgilerle bağlantı kurulur. Hazırlıklı konuşmayla ilgili daha önceki çalışmalardan edinilen bilgi ve deneyimlerden yararlanılır . Belirlenen amaca ve hedef kitlenin özelliklerine göre konuşmanın akışı, görsel ve işitsel ögelerin seçimi, süreyi verimli kullanma, beden diliyle etkili iletişim sağlama gibi konularda tahminler yürütülerek konuşmaya hazırlık yapılır . Konuşma etkinliği sürecinde bilgilerin dinleyiciler tarafından daha iyi anlaşılabilmesi için karşılaştırma içeren iletiler oluşturulur. Kişisel gelişimi etkileyen unsurlarla ilgili kullanılacak bilgi, değerlendirme ve yorumlar sını�andırılarak konuşma düzeninin çerçevesi oluşturulur. Söz konusu 12 of 14 21.08.2026 17:27 ölçütlerin yeterlilik düzeyini tespit için bir kontrol listesinden yararlanılabilir. Öğrenciler, belirlenen konuyla ilgili kavram ve terimleri dinleyiciye daha iyi açıklayabilmek amacıyla özgün cümleler oluşturur . Kişisel gelişimi etkileyen unsurlarla ilgili düşünce, görüş ve öneriler içeren yorumlar yapar. Konuşma sırasında etkilemek amacıyla sesini etkili bir biçimde kullanır. Konuşmanın içeriğini desteklemek ve etkileyiciliğini artırmak amacıyla uygun görsel ögeler kullanır . Kişisel gelişimi etkileyen unsurlarla ilgili etkileşimli bir konuşma gerçekleştirir . Konuşmanın kimler için hazırlanacağı, nerede yapılacağı, belirlenen konuların nasıl anlatılacağı dikkate alınarak planlama yapılır. Planlama aşamasında işlerin sağlıklı yürütülebilmesi için kontrol listesi oluşturulur. Bu formla öğrencilerin planlama yapabilme düzeyleri ölçülür . Konuşma için belirlenen konuya ilişkin açıklamalar yapılırken düşünceyi geliştirme yolları kullanılır. Konuşmanın içeriğine ve hedef kitleye göre belirlenen söz varlığı bağlama uygun şekilde kullanılır. Konuşmada dinleyici/izleyiciye verilmek istenen iletiler açık veya örtük bir şekilde ifade edilir. Konuşurken cümlelerin ögelerini birbirine bağlayan ekler doğru kullanılır. Eklerin yanlış kullanımından kaynaklanabilecek anlatım bozukluklarının ortaya çıkmamasına dikkat edilir. Konuşurken dil ögeleri arasındaki mantıksal ve anlamsal bütünlüğü oluşturan, metin içi ilişkiler kuran bağdaşıklık ögelerinin (eksiltili cümle, bağlama, gönderim, değiştirim, sözcük bağdaşıklığı) doğru kullanılmasına dikkat edilir. Konuşma yapılırken konuşma mekânının özellikleri dikkate alınarak sesin ve beden dilinin etkili kullanımı sağlanır . Konuşma sürecini değerlendirmek amacıyla öz değerlendirme yapılır . Öğretmen değerlendirmesi dereceli puanlama anahtarıyla yapılır. Puanlama anahtarında metnin konuya uygunluğu, dinleyici ile kurulan iletişim, Türkçenin etkili ve doğru kullanımı, sesin ve beden dilinin sunuma katkısı, görsel ve işitsel araç kullanımı gibi ölçütler yer alır . Değerlendirme formları dikkate alınarak konuşma sürecindeki hatalar tespit edilir, olumlu davranışlar pekiştirilir. Tema sonunda temada öğrenilenlerle ilgili sınıf ortamında bir tartışma yapılır. Bu tartışma, temayla ilgili öğrencilerde oluşan duygu ve düşüncelerin bilişsel düzeyde nasıl bir farkındalık oluştuğunun ortaya çıkmasını sağlar. Bu çalışma için 3-2-1 çıkış kartı uygulanır. 13 of 14 21.08.2026 17:27  Farklılaştırma  Öğrencilerden inceledikleri günlüğün özelliklerine sahip özgün bir çalışma yapmaları istenebilir. 15 veya 30 gün süre ile günlük tutmaları istenebilir. İnceledikleri şiire içerik, tür, biçim vb. yönlerden benzeyen ya da ondan farklı şiirlerden oluşan bir antoloji oluşturmaları istenebilir. * Öğrencilerden Türk edebiyatının günlük türünde eser veren önemli yazarlarını tespit ederek bu yazarların üslup farklılıklarını ortaya koyan bir araştırma raporu hazırlaması beklenebilir. Öğrenciler için temada incelenen metinlerin türlerinden farklı türde metinler seçilebilir. Aynı temada sohbet türünde kısa bir metin seçilerek öğrencilerden bu metnin iletisi ve yazarın iletiyi sunma şekli hakkında görüşlerini yazmaları istenebilir. Güncelleme tarihi: 06.08.2026 14 of 14 21.08.2026 17:27",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/335"
+        }
+      },
+      "process_component_policy": {
+        "status": "SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS",
+        "canonical_policy": "DO_NOT_SYNTHESIZE_OR_COPY_FROM_OTHER_GRADES",
+        "official_process_realization": "Published learning-teaching application paragraphs under the parent outcome codes are authoritative process realization; no separate sub-outcome IDs are synthesized.",
+        "canonical_evidence_file": "curriculum_normative_text.json",
+        "evidence_status": "VERIFIED_LOCAL_PDF_TEXT_EXTRACTION"
+      },
+      "learning_outcomes": [
+        {
+          "outcome_code": "TDE1.1",
+          "outcome_verbatim": "“Benim Yolculuğum” temasında farklı insanların yaşamlarını, hede�erini ve başarılarını ele alan metinlerde dinlemeyi/izlemeyi yönetebilme",
+          "theme_scope": "TEMA_01",
+          "stable_entity_key": "TDE_12:TEMA_01:TDE1.1",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/335 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 1. TEMA - BENİM YOLCULUĞUM.PDF#page=2",
+          "local_source_sha256": "6b034cfc5e082053726c2765227ee0323e3c36399dbbc9948e0ec0125a699e9b"
+        },
+        {
+          "outcome_code": "TDE1.2",
+          "outcome_verbatim": "“Benim Yolculuğum” temasında ele alınan metinlerde anlam oluşturabilme",
+          "theme_scope": "TEMA_01",
+          "stable_entity_key": "TDE_12:TEMA_01:TDE1.2",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/335 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 1. TEMA - BENİM YOLCULUĞUM.PDF#page=2",
+          "local_source_sha256": "6b034cfc5e082053726c2765227ee0323e3c36399dbbc9948e0ec0125a699e9b"
+        },
+        {
+          "outcome_code": "TDE1.3",
+          "outcome_verbatim": "“Benim Yolculuğum” temasında ele alınan metinleri çözümleyebilme",
+          "theme_scope": "TEMA_01",
+          "stable_entity_key": "TDE_12:TEMA_01:TDE1.3",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/335 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 1. TEMA - BENİM YOLCULUĞUM.PDF#page=2",
+          "local_source_sha256": "6b034cfc5e082053726c2765227ee0323e3c36399dbbc9948e0ec0125a699e9b"
+        },
+        {
+          "outcome_code": "TDE1.4",
+          "outcome_verbatim": "“Benim Yolculuğum” temasında ele alınan metinlerdeki çözümlemelerini kendi kişisel gelişimleriyle birleştirip süreci değerlendirebilme",
+          "theme_scope": "TEMA_01",
+          "stable_entity_key": "TDE_12:TEMA_01:TDE1.4",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/335 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 1. TEMA - BENİM YOLCULUĞUM.PDF#page=2",
+          "local_source_sha256": "6b034cfc5e082053726c2765227ee0323e3c36399dbbc9948e0ec0125a699e9b"
+        },
+        {
+          "outcome_code": "TDE2.1",
+          "outcome_verbatim": "“Benim Yolculuğum” temasında ele alınan metinlerde okumayı yönetebilme",
+          "theme_scope": "TEMA_01",
+          "stable_entity_key": "TDE_12:TEMA_01:TDE2.1",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/335 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 1. TEMA - BENİM YOLCULUĞUM.PDF#page=2",
+          "local_source_sha256": "6b034cfc5e082053726c2765227ee0323e3c36399dbbc9948e0ec0125a699e9b"
+        },
+        {
+          "outcome_code": "TDE2.2",
+          "outcome_verbatim": "“Benim Yolculuğum” temasında ele alınan metinlerde anlam oluşturabilme",
+          "theme_scope": "TEMA_01",
+          "stable_entity_key": "TDE_12:TEMA_01:TDE2.2",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/335 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 1. TEMA - BENİM YOLCULUĞUM.PDF#page=2",
+          "local_source_sha256": "6b034cfc5e082053726c2765227ee0323e3c36399dbbc9948e0ec0125a699e9b"
+        },
+        {
+          "outcome_code": "TDE2.3",
+          "outcome_verbatim": "“Benim Yolculuğum” temasında ele alınan metinlerde yazarın zamana bağlı olarak karakter, duygu ve düşünce değişimini çözümleyebilme",
+          "theme_scope": "TEMA_01",
+          "stable_entity_key": "TDE_12:TEMA_01:TDE2.3",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/335 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 1. TEMA - BENİM YOLCULUĞUM.PDF#page=2",
+          "local_source_sha256": "6b034cfc5e082053726c2765227ee0323e3c36399dbbc9948e0ec0125a699e9b"
+        },
+        {
+          "outcome_code": "TDE2.4",
+          "outcome_verbatim": "“Benim Yolculuğum” temasında ele alınan metinlerde okuma 2 of 14 21.08.2026 17:27 sürecini değerlendirebilme",
+          "theme_scope": "TEMA_01",
+          "stable_entity_key": "TDE_12:TEMA_01:TDE2.4",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/335 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 1. TEMA - BENİM YOLCULUĞUM.PDF#page=2",
+          "local_source_sha256": "6b034cfc5e082053726c2765227ee0323e3c36399dbbc9948e0ec0125a699e9b"
+        },
+        {
+          "outcome_code": "TDE3.1",
+          "outcome_verbatim": "Kişisel gelişimini etkileyen unsurlar hakkında yapacağı konuşmasını yönetebilme",
+          "theme_scope": "TEMA_01",
+          "stable_entity_key": "TDE_12:TEMA_01:TDE3.1",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/335 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 1. TEMA - BENİM YOLCULUĞUM.PDF#page=3",
+          "local_source_sha256": "6b034cfc5e082053726c2765227ee0323e3c36399dbbc9948e0ec0125a699e9b"
+        },
+        {
+          "outcome_code": "TDE3.2",
+          "outcome_verbatim": "Başkalarının deneyimleriyle empati kuracağı ve kendi görüşlerini şekillendireceği konuşma içeriğini oluşturabilme",
+          "theme_scope": "TEMA_01",
+          "stable_entity_key": "TDE_12:TEMA_01:TDE3.2",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/335 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 1. TEMA - BENİM YOLCULUĞUM.PDF#page=3",
+          "local_source_sha256": "6b034cfc5e082053726c2765227ee0323e3c36399dbbc9948e0ec0125a699e9b"
+        },
+        {
+          "outcome_code": "TDE3.3",
+          "outcome_verbatim": "Kişisel gelişimini ve özelliklerini keşfettiği, kendi dünyasını yansıttığı konuşmasında kural uygulayabilme",
+          "theme_scope": "TEMA_01",
+          "stable_entity_key": "TDE_12:TEMA_01:TDE3.3",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/335 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 1. TEMA - BENİM YOLCULUĞUM.PDF#page=3",
+          "local_source_sha256": "6b034cfc5e082053726c2765227ee0323e3c36399dbbc9948e0ec0125a699e9b"
+        },
+        {
+          "outcome_code": "TDE3.4",
+          "outcome_verbatim": "Deneyimlerini, kişisel özelliklerini ve gelişimlerini aktardığı konuşmasına yönelik süreci değerlendirebilme",
+          "theme_scope": "TEMA_01",
+          "stable_entity_key": "TDE_12:TEMA_01:TDE3.4",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/335 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 1. TEMA - BENİM YOLCULUĞUM.PDF#page=3",
+          "local_source_sha256": "6b034cfc5e082053726c2765227ee0323e3c36399dbbc9948e0ec0125a699e9b"
+        },
+        {
+          "outcome_code": "TDE4.1",
+          "outcome_verbatim": "Geleceğe dair planlarını dijital bir platformda aktarmak için oluşturacağı yazma sürecini yönetebilme",
+          "theme_scope": "TEMA_01",
+          "stable_entity_key": "TDE_12:TEMA_01:TDE4.1",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/335 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 1. TEMA - BENİM YOLCULUĞUM.PDF#page=3",
+          "local_source_sha256": "6b034cfc5e082053726c2765227ee0323e3c36399dbbc9948e0ec0125a699e9b"
+        },
+        {
+          "outcome_code": "TDE4.2",
+          "outcome_verbatim": "Kariyer hede�eri, eğitim planları ve diğer kişisel gelişim hede�erine yönelik yazısında içerik oluşturabilme",
+          "theme_scope": "TEMA_01",
+          "stable_entity_key": "TDE_12:TEMA_01:TDE4.2",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/335 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 1. TEMA - BENİM YOLCULUĞUM.PDF#page=3",
+          "local_source_sha256": "6b034cfc5e082053726c2765227ee0323e3c36399dbbc9948e0ec0125a699e9b"
+        },
+        {
+          "outcome_code": "TDE4.3",
+          "outcome_verbatim": "Kariyer hede�eri, eğitim planları ve diğer kişisel gelişim hede�erine yönelik yazısında kural uygulayabilme",
+          "theme_scope": "TEMA_01",
+          "stable_entity_key": "TDE_12:TEMA_01:TDE4.3",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/335 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 1. TEMA - BENİM YOLCULUĞUM.PDF#page=3",
+          "local_source_sha256": "6b034cfc5e082053726c2765227ee0323e3c36399dbbc9948e0ec0125a699e9b"
+        },
+        {
+          "outcome_code": "TDE4.4",
+          "outcome_verbatim": "Geleceğe dair planlarını dijital ortamda aktardığı yazısına yönelik yazma sürecini değerlendirebilme “Benim Yolculuğum” temasının içerik çerçevesi şu şekildedir: • Okuma • Yazma • Dinleme/İzleme • Konuşma Okuma becerisinin geliştirilmesi için kişilerin kendi dünyasını yansıttığı edebî metinlerden bir günlük seçilir. Hayatın çeşitli yönlerini samimi bir dille yansıtan blog yazısı ara metin için ele alınır. İkinci okuma metni ise şiirdir. Bu metinlerin yanı sıra ikinci ara metin olarak bir hikâye seçilir. Hikâye türünün doğası gereği bir olay ya da duruma odaklanılarak",
+          "theme_scope": "TEMA_01",
+          "stable_entity_key": "TDE_12:TEMA_01:TDE4.4",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/335 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 1. TEMA - BENİM YOLCULUĞUM.PDF#page=3",
+          "local_source_sha256": "6b034cfc5e082053726c2765227ee0323e3c36399dbbc9948e0ec0125a699e9b"
+        }
+      ],
+      "assessment_requirements": [
+        {
+          "assessment_id": "TDE_12_TEMA_01_ASSESSMENT_01",
+          "assessment_type": "PERFORMANCE_TASK",
+          "requirement": "Okunan ve çözümlenen metinlerden hareketle kişisel gelişimi nelerin etkilediğiyle ilgili hazırlıklı konuşma yapmaya yönelik performans görevi",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/335 :: Öğrenme Kanıtları (Ölçme ve Değerlendirme)",
+          "verification_status": "VERIFIED_OFFICIAL_CURRICULUM",
+          "local_evidence_pages": [
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 1. TEMA - BENİM YOLCULUĞUM.PDF#page=4",
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 1. TEMA - BENİM YOLCULUĞUM.PDF#page=5",
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 1. TEMA - BENİM YOLCULUĞUM.PDF#page=9",
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 1. TEMA - BENİM YOLCULUĞUM.PDF#page=10",
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 1. TEMA - BENİM YOLCULUĞUM.PDF#page=12"
+          ],
+          "local_source_sha256": "6b034cfc5e082053726c2765227ee0323e3c36399dbbc9948e0ec0125a699e9b"
+        },
+        {
+          "assessment_id": "TDE_12_TEMA_01_ASSESSMENT_02",
+          "assessment_type": "PERFORMANCE_TASK",
+          "requirement": "Okunan ve çözümlenen metinlerden hareketle genel ağdaki güvenilir ortamlarda geleceğe dair kişisel planların ele alındığı forum metni oluşturmaya yönelik performans görevi",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/335 :: Öğrenme Kanıtları (Ölçme ve Değerlendirme)",
+          "verification_status": "VERIFIED_OFFICIAL_CURRICULUM",
+          "local_evidence_pages": [
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 1. TEMA - BENİM YOLCULUĞUM.PDF#page=4",
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 1. TEMA - BENİM YOLCULUĞUM.PDF#page=5",
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 1. TEMA - BENİM YOLCULUĞUM.PDF#page=9",
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 1. TEMA - BENİM YOLCULUĞUM.PDF#page=10",
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 1. TEMA - BENİM YOLCULUĞUM.PDF#page=12"
+          ],
+          "local_source_sha256": "6b034cfc5e082053726c2765227ee0323e3c36399dbbc9948e0ec0125a699e9b"
+        },
+        {
+          "assessment_id": "TDE_12_TEMA_01_ASSESSMENT_03",
+          "assessment_type": "THEME_END_EVALUATION",
+          "requirement": "Tema sonu değerlendirmede çıkış kartı kullanılır.",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/335 :: Öğrenme Kanıtları (Ölçme ve Değerlendirme)",
+          "verification_status": "VERIFIED_OFFICIAL_CURRICULUM",
+          "local_evidence_pages": [
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 1. TEMA - BENİM YOLCULUĞUM.PDF#page=4",
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 1. TEMA - BENİM YOLCULUĞUM.PDF#page=5",
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 1. TEMA - BENİM YOLCULUĞUM.PDF#page=9",
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 1. TEMA - BENİM YOLCULUĞUM.PDF#page=10",
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 1. TEMA - BENİM YOLCULUĞUM.PDF#page=12"
+          ],
+          "local_source_sha256": "6b034cfc5e082053726c2765227ee0323e3c36399dbbc9948e0ec0125a699e9b"
+        }
+      ],
+      "local_source_snapshot": {
+        "filename": "Türk Dili Ve Edebiyatı Dersi 12.Sınıf 1. TEMA - BENİM YOLCULUĞUM.PDF",
+        "path": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 1. TEMA - BENİM YOLCULUĞUM.PDF",
+        "sha256": "6b034cfc5e082053726c2765227ee0323e3c36399dbbc9948e0ec0125a699e9b",
+        "git_blob_sha": "e4ffcea6e9ca3f18c7c0991bcadcabf4e789a69e",
+        "page_count": 14,
+        "verification_status": "VERIFIED_LOCAL_OFFICIAL_SNAPSHOT"
+      },
+      "normative_text_evidence": {
+        "status": "VERIFIED_LOCAL_PDF_TEXT_EXTRACTION",
+        "canonical_evidence_file": "curriculum_normative_text.json",
+        "evidence_theme_id": "TEMA_01",
+        "source_pdf": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 1. TEMA - BENİM YOLCULUĞUM.PDF",
+        "source_sha256": "6b034cfc5e082053726c2765227ee0323e3c36399dbbc9948e0ec0125a699e9b",
+        "page_count": 14,
+        "extraction_method": "pdftotext -layout (Poppler)",
+        "extraction_quality": "TEXT_LAYER_WITH_GLYPH_REPLACEMENTS",
+        "verbatim_evidence_scope": "FULL_PDF_PAGE_TEXT_PRESERVED"
+      },
+      "school_based_planning_provisions": {
+        "source_status": "SOURCE_NOT_EXPLICIT_ON_THEME_PAGE",
+        "planning_layer": {
+          "authority": "USER_CONFIRMED_PLANNING_RULE",
+          "hours": 2,
+          "outer_theme_total_hours": 45,
+          "curriculum_gap": false
+        }
+      }
+    },
+    {
+      "theme_id": "TEMA_02",
+      "theme_number": 2,
+      "exact_theme_name": "TOPLUMUN AHENGİ",
+      "source_id": "official_tymm_theme_02",
+      "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/340",
+      "verification_status": "VERIFIED_OFFICIAL_REMOTE_AND_LOCAL_CONTENT",
+      "allocated_lesson_hours": {
+        "instructional_total": 43,
+        "verbatim": "Ders Saati: 43",
+        "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/340 :: Ders Saati",
+        "planning_layer": {
+          "school_based_planning_hours": 2,
+          "theme_total_hours": 45,
+          "authority": "USER_CONFIRMED_PLANNING_RULE",
+          "semantics": "Official TYMM instructional hours remain unchanged; school-based planning is a separate planning layer."
+        }
+      },
+      "program_elements": {
+        "field_skills": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/340"
+        },
+        "tendencies": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/340"
+        },
+        "social_emotional_learning_skills": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/340"
+        },
+        "values": {
+          "source_status": "SOURCE_EXPLICIT",
+          "heading": "değerleri göz önünde bulundurmaya ve özel yaşamın gizliliğine",
+          "verbatim": "özen göstermeye teşvik edilir. Kişisel hak ve özgürlüklerde başka insanların sınırları gözetilir . Haber metnini sunarken sesi anlam oluşturmak amacıyla etkili bir biçimde kullanmak için hazırlık yapılır. Haberin içeriğini desteklemek ve etkileyiciliğini artırmak amacıyla görsel ögeler kullanılarak yorumlar içeren bir sunum planı hazırlığı yapılır 11 of 13 21.08.2026 17:27 . Haberin kime, neyin, nasıl, nerede, hangi araçlar kullanılarak (5N1K) sunulacağı dikkate alınarak planlama yapılır . Plana uygun hareket edilir ve konuşmaya dikkat çekici bir şekilde başlanır. Ele alınan konuyla ilgili yorumları amacıyla düşünceyi geliştirme yolları kullanılır. Sunumun içeriğine ve hedef kitleye göre belirlenen söz varlığı bağlama uygun şekilde kullanılır. Haberin sunumunda dinleyiciye/izleyiciye verilmek istenen iletiler açık veya örtük bir şekilde ifade edilir. Sunum sırasında dil yapıları işlevine uygun kullanılır; eksiltili yapı, bağlama, gönderim, değiştirim ve sözcük bağdaşıklığı ögeleri kullanılır. Sunum sırasında beden dilinden ve konuşma yapılan mekânın özelliklerinden etkili bir biçimde yararlanılır. Öğrenciler, düşüncelerini hiçbir etki altında kalmadan görgü kurallarına uygun bir şekilde ifade etmeleri için teşvik edilir . Haberin sunum sürecine etki eden hususlarla ilgili hazırlanmış öz değerlendirme formu uygulanır . Haberin sunumuyla ilgili öğrencilerin, eleştirilerini sözlü olarak dile getirmeleri ve bir değerlendirmede bulunmaları istenir . Sunum sürecindeki hatalar düzeltilir ve sonraki sunumlarda faydalanılmak amacıyla bunlar not edilir; sürece ilişkin uygun davranış, duygu ve düşünceler pekiştirilir. Öğrencilerin performansları dereceli puanlama anahtarında içeriğe uygunluk, özgünlük, dil ve anlatım özellikleri, metin planının oluşturulması, düşünceyi geliştirme yollarının kullanımı, anlatım ilkelerine uygunluk, yazım ve noktalama, sunum becerisi ve temanın metne yansımasını belirleyen ölçüt listesi öğretmen tarafından hazırlanarak uygulanır . Temanın sonunda okuduğu edebî metinlerden, dinlediklerinden/ izlediklerinden, anlatımlarından hareketle öğrencilerin toplumda huzur ve uyum içinde bir arada yaşayabilmek için kendi temel hak ve özgürlüklerini bilmeleri, karşı tarafın hak ve özgürlüklerine saygılı olmaları, hak ve özgürlüklerin getirdiği sorumlulukların farkına varmaları hede�enir. Bu hedef doğrultusunda öğrencilerden bir öğrenme günlüğü yazması istenir. Bu öğrenme günlüğü vasıtasıyla, öğrencilerin konu ile ilgili güçlü yönleri tespit edilir, eksik öğrenmeleri belirlenir varsa kavram hataları giderilir. Öğrenme günlüğü çalışmasından çıkan sonuçlara geri bildirim verildikten sonra bir sonraki temaya geçilir.  Farklılaştırma  12 of 13 21.08.2026 17:27 Öğrencilerden tahlil ettikleri romanla ilgili alan yazını çalışması yapmaları istenebilir. Temadaki türler dışında aynı temayı işleyen farklı türde bir metni tahlil etmeleri sağlanabilir. Konuyla ilgili daha fazla makale metni okumaları sağlanıp bu makalelerle ilgili birer tanıtım yazısı yazmaları ve bunları sınıf panosunda sergilemeleri istenebilir. Öğrencilere ilgi ve yetenekleri doğrultusunda tahlil ettikleri romandaki bir kesiti içeren bir karikatür hazırlatılabilir. Hak ve özgürlükleri konu alan bir a�ş çalışması yaptırılabilir. * Öğrencilerden seçtiği romanı incelediği bir makale yazması istenebilir. Öğrenciler için temadaki türler dışında metinler seçilebilir. Aynı temayı işleyen bir hikâye ya da şiir seçilerek bu metinlerin iletileri üzerine görüşlerini yazmaları istenebilir. Güncelleme tarihi: 06.08.2026 13 of 13 21.08.2026 17:27",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/340"
+        },
+        "literacy_skills": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/340"
+        },
+        "interdisciplinary_relations": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/340"
+        },
+        "skills_relations": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/340"
+        },
+        "content_framework": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/340"
+        },
+        "key_concepts": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/340"
+        },
+        "learning_evidence": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/340"
+        },
+        "learning_teaching_experiences": {
+          "source_status": "SOURCE_EXPLICIT",
+          "heading": " Öğrenme-Öğretme Yaşantıları ",
+          "verbatim": "Bu temada öğrencilerin temel hak ve özgürlüklerle ilgili başlıca kavramları, roman türünün genel özelliklerini ve roman çözümleme yöntemlerini, öğretici metinlerin genel özelliklerini ve bu metinleri inceleme yöntemlerini, konuşma ve yazmaya yönelik metin oluşturma aşamalarını; yasak, uyarı, emir, rica, izin, onay, kabul ve ret anlamı taşıyan ifade ve yapıları bildikleri kabul edilmektedir. Öğrencilerin temaya ilişkin temel kabullerini (ön bilgilerini) tespit etmek için soru-cevap, tartışma, beyin fırtınası, kavram haritası gibi yöntemler uygulanabilir. Öğrencilerin önceki sınıf düzeylerinde edebî/öğretici metinlerin nasıl tahlil edileceğine yönelik edindikleri bilgiler, bu temada öğrenileceklere temel oluşturabilir. Tarih, sosyoloji, hukuk disiplinlerinden öğrenilen bilgilerle bu temada öğrenilecek bilgiler arasında köprü kurulabilir. 5 of 13 21.08.2026 17:27 Öğrencinin, bu temada edindiği bilgilerden yararlanarak edebiyat ile gerçek yaşam arasındaki etkileşimi anlayabilmesi, hak ve özgürlüklerle ilgili farkındalık kazanabilmesi sağlanıabilir. Toplumda huzur, uyum, refah ve güven ortamının oluşmasında hak ve özgürlüklerin önemi tema çerçevesinde ele alınan metinler yoluyla kavratılabilir. Böylece öğrencinin günlük hayatın edebiyata hangi şekillerde yansıdığına dair �kir sahibi olmasına destek olunabilir. Ayrıca bu temada roman türünde bir metnin incelemesine yönelik edinilen bilgiler “Hayatın Dengesi” ve “Hayalimdeki Yarın” temalarında ele alınacak olan hikâye türündeki metinlerin inceleme sürecinde ön bilgi işlevi görebilir. “Toplumun Ahengi” temasının işlenişi sürecinde öncelikle temel hak ve özgürlükleri konu alan roman ve makale türlerindeki metinler okunur ve ayrıntılı olarak tahlil edilir. Yazma becerisine yönelik çalışmada, tahlili yapılan romanla ilgili öğrencilerden bir eleştiri yazısı yazmaları istenir. Dinleme/izleme becerisi kapsamında, öğrencilere temel hak ve özgürlüklerle ilgili çok modlu metin özelliği taşıyan bir haber metni dinletilir/izletilir. Konuşma becerisine yönelik çalışmada öğrencilerden inceledikleri metinlerden hareketle temel hak ve özgürlüklerle ilgili bir haber metni hazırlayıp bunu sınıfta sunmaları beklenir. Okuma becerisini geliştirmek amacıyla öğrencilerin, temanın içeriğini yansıtan roman türünde bir metni ve yine temayla aynı konuya sahip bir makaleyi okumaları sağlanır. Ön öğrenmelerin hatırlatılması amacıyla tahtaya ya da kâğıtlara boş kum saati çizilir. Kum saatinin ortasına konu (Ne öğretilecek?) yazılır. Öğrenme malzemesi ile ilgili ön öğrenmeler kum saatinin üst tarafına, öğrenme malzemelerinin ana temaları alt kısma yazılır. Daha sonra oluşturulan kum saatleri açıklanarak sını�a paylaşılır. Öğrencilerden, temel hak ve özgürlüklerin insan yaşamındaki önemiyle ilgili görüşlerini paylaşmaları istenir. Bu temada temel hak ve özgürlükler konusunun ele alınacağından bahsedilir ve “görüş geliştirme” tekniğiyle toplum yaşamında bu kavramların önemiyle ilgili öğrencilerin görüşleri alınır . Adalet ve özgürlük değerinden hareketle öğrencilerin, her insanın temel hak ve özgürlüklere sahip olduğu ancak özgürlüğün başka bir insanın özgürlük alanını ihlal etmeden yaşanması gerektiği, insanın içinde bulunduğu topluma karşı sorumlu olduğu üzerine düşünmeleri sağlanır . 6 of 13 21.08.2026 17:27 Hak ve özgürlükleri ele alan bir roman okuma metni olarak seçilir. Öğrencilerden okumaya başlamadan önce romanın adı, yazarı, yazı tipi, görselleri incelenerek metnin içeriğiyle ilgili tahminde bulunulması ve bu tahmin doğrultusunda okuma stratejisi belirlenmesi istenir. Öğrencilerin tahminlerini romanı okuduktan sonraki tespitleriyle karşılaştırmak üzere not etmeleri istenir. Metin tahlili sürecinde öğrencilerin tahminlerini sınıfta paylaşmaları ve tahminleri hakkında gerekçeli açıklama yapmaları sağlanır. Okuma sürecini sağlıklı yönetebilmek için öğrencilerin okumaya hazırlık yapması, önceki bilgilerini kullanması, okuma öncesi sorular oluşturması, tahminde bulunması, amaç ve yöntem belirlemesi gibi ölçütlerin yer aldığı kontrol listesi hazırlanır. Bu form ile öğrencilerin seçim yapmaları ve okuma sürecinde ilişkiyi sürdürme düzeyleri belirlenir . Metin tahlili aşamasında öğrencilerden okudukları romanda ele alınan temel hak ve özgürlüklerle ilgili neler bildiklerini kısaca anlatmaları istenir. Okunan romandan yola çıkılarak edinilen izlenim doğrultusunda sınıfın tamamının etkin olduğu “beyin fırtınası tekniği” kullanılarak yazarın işlediği temayı seçme nedenlerine yönelik tahminlerde bulunulur. Bu süreçte öğrencilerin �kirlerini saygı çerçevesinde dile getirebilecekleri bir ortam sağlanır . Roman karakterleri konuşma tarzları, davranış şekilleri ve �ziksel özellikleri (sembolik eşyalar, kıyafet, çevre, eşya vb.) bakımından karşılaştırılır; bu karşılaştırmadan hareketle temanın karakterler üzerindeki yansımalarını belirlemek için çalışma kâğıdı hazırlanır. Bu çalışma, grup çalışması hâlinde gerçekleştirilebilir . Çalışma sonunda, çalışma kâğıtları değerlendirilir. Öğrencinin kendi duygu ve düşüncelerini başka bir kimliğe girerek ifade etmelerini sağlayan, böylece başkalarının duygu, düşünce ve davranışlarını anlama ve değerlendirmelerine imkân tanıyan “rol oynama tekniği” ile bir etkinlik gerçekleştirilebilir. Öğrencilerin seçtikleri roman karakterleri gibi davranarak temel hak ve özgürlüklerle ilgili bir olayı/ durumu/konuyu sınıf önünde canlandırmaları sağlanır . Böylece anlatıcının konuyu aktarırken yansıttığı duygu, düşünce ve tavırları anlamlandırılır . Öğrencilerden olayları ve durumları çok yönlü değerlendirmesi, insan davranışlarına nesnel bakabilmesi ve empati yapabilmesi istenir . Romanın yapı unsurları belirlenir . Öğrencilerin romanın yapı unsurlarını oluşturan ögeleri (olay, kişi kadrosu, mekân, zaman) çözümlemeleri sağlanır. Yapı unsurlarıyla romanın dil ve üslup özellikleri arasındaki ilişki tespit edilir. Bu doğrultuda romanın teması, yapı unsurları 7 of 13 21.08.2026 17:27 arasındaki etkileşim, anlatıcısı, dil ve anlatım özellikleri, yazıldığı dönem gibi konuların üslupla ilişkisi kurulur. Bu süreçte açık uçlu sorularla değerlendirme yapılır. Tahlil edilen romanın diğer disiplinlerle (tarih, hukuk, sosyoloji, psikoloji vb.) ilişkisi değerlendirilir. Dil ve anlatım özellikleri ele alınırken metinlerdeki yasak, uyarı, emir, rica, izin, onay, kabul ve ret anlamı katan ifade ve yapılar bulunur, bunların işlevleri değerlendirilir. Romanda temel hak ve özgürlüklerin nasıl ele alındığına ilişkin tespitler yapılır. Romandaki kişilerin temel hak ve özgürlüklerin yansıtılması konusunda üstlendikleri roller açıklanır. Roman kişilerinin tespiti için açık uçlu sorular sorularak öğrencilerin tespitlerini gerekçelendirmeleri sağlanır . Roman kişilerinin temel hak ve özgürlüklerle ilgili üstlendikleri görevleri ortaya koyan bir kavram haritası oluşturulur. Roman kişilerinin temel hak ve özgürlüklerle ilgili üstlendikleri rolleri nasıl ve ne kadar yerine getirdikleri ile ilgili notlar tutulur . Ayrıca romandaki bir çatışma üzerine “altı şapkalı düşünme tekniği” kullanılarak bir grup çalışması yapılabilir . Okunan romanda ele alınan temel hak ve özgürlüklerle ilgili benzer konulara değinen bir eleştiri metni ara metin olarak okunur. Her iki metin konuyu ele alma açısından karşılaştırılır. Roman ve eleştiri metninin yapısal özellikleriyle ilgili ayırt edici unsurlar belirlenir. Her iki metinde temel hak ve özgürlüklerin nasıl ele alındığı belirlenir, karşılaştırmalar yapılarak benzerlik ve farklılıklar ortaya konur . Yapılan karşılaştırmalar neticesinde elde edilen bilgilerin yardımıyla öğrencilerden bir T diyagramı oluşturmaları istenir . Okunan romanda ele alınan hak ve özgürlüklerin toplumsal yaşama yansımalarına yönelik gerekçeli görüş belirtilerek değerlendirmeler yapılır . Okunan metinlerden hareketle toplumdaki bireylerin huzur, refah ve güvenle bir arada yaşayabilmesi için temel hak ve özgürlüklerin önemiyle ilgili varılan yargıların yer aldığı çıkış kartları oluşturulur . • İkinci okuma metni olarak makale türünde bir metin ele alınır ve öğretici metinlere yönelik metin tahlili aşamaları uygulanır. Makale türüne özgü yapı ve üslup özellikleri göz önünde bulundurularak",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/340"
+        },
+        "differentiation": {
+          "source_status": "SOURCE_EXPLICIT",
+          "heading": "gerekli farklılaştırmalar yapılır.",
+          "verbatim": "8 of 13 21.08.2026 17:27 Öğrencilere tahlil ettikleri romanı temel hak ve özgürlükler bağlamında değerlendiren eleştiri yazısı yazmalarına yönelik bir performans görevi verilir . Öğrenciler, hak ve özgürlükler teması bağlamında oluşturacakları eleştiri yazısında konunun sınırlılıklarını belirlerler. Hedef kitleye ve amaca göre en uygun yazma yöntem ve stratejisini seçerler. Yazma sürecini etkileyen engelleri ortadan kaldırırlar . Yazma aşamalarını düzenli bir şekilde takip edebilmek için kontrol listesi oluşturulabilir . Yazma içeriği oluşturulurken okunan metnin iletilerinin anlamlandırılmasını sağlamak ve uygun şekilde iletişimi sürdürmek amacıyla ön bilgilerle bağlantı kurulur. Hak ve özgürlükler temasının romanda nasıl işlendiği dikkate alınarak temanın seçimine yönelik verilerle ilgili tahminler yürütülür. Tahminler göz önünde bulundurularak yazarın konuyu ele alışıyla ilgili eleştiriler belirlenir. Hazırlanan eleştiri metninin taslak içeriği oluşturulur. Okunan metinde kişiler, olaylar, durumlar, karakterleri duygu ve düşünceler açısından karşılaştırma içeren iletiler belirlenerek metinle ilgili değerlendirmeler sını�andırılır. Okunan metne hak ve özgürlükler bağlamında değer katan unsurlarla ilgili beğeni ve görüşler belirlenir. Okunan metnin iletisine, metinde kullanılan anlatım biçimi ve yöntemlerine, yazarın üslubuna, anlatıcının tavrına, roman kişilerinin tutumlarına yönelik eleştirel bir değerlendirme yapılır . Gerekli durumlarda eleştiriyi daha açık bir şekilde dile getirebilmek için romandaki bazı söylemler, tekrar ifade edilmesi için not alınır. Öğrenci tarafından hazırlanan eleştiri metninin içeriğini desteklemek ve etkileyiciliğini artırmak amacıyla görsel ögeler kullanılır. Metinle ilgili bilgilendirici ve açıklayıcı nitelikler taşıyan yazılı bir sunum planına son şekli verilir . Öğrencinin hazırladığı eleştiri metninde kime, neyin, nasıl, nerede anlatılacağı ve anlatımda hangi araçların kullanılacağı dikkate alınarak planlama yapılır . Konuyu desteklemek amacıyla düşünceyi geliştirme yollarından yararlanılarak metnin içeriğine ve hedef kitleye göre belirlenen söz varlığı, bağlama uygun şekilde kullanılır. Metin aracılığıyla okuyucuya verilmek istenen iletiler açık veya örtük bir şekilde ifade edilir. Yazılan metinde dil yapıları işlevine uygun kullanılır. Eksiltili yapı, bağlama, gönderim, değiştirim ve sözcük bağdaşıklığı ögelerine yer verilebilir. Öğrencilerden görev ve sorumluluklarını yerine getirirken özverili davranmaları istenir . Öğrencilerin yaptıkları yazılı anlatıma yönelik öz değerlendirmede 9 of 13 21.08.2026 17:27 bulunmaları sağlanır. Bunun için yazma sürecine etki eden unsurlarla ilgili hazırlanmış olan öz değerlendirme formu uygulanır . Akran değerlendirme yöntemi kullanılarak yazma sürecindeki hatalar düzeltilir. Öğrencilerin performansları; içeriğe uygunluk, özgünlük, dil ve üslup özellikleri, metin planının oluşturulması, düşünceyi geliştirme yollarının kullanımı, anlatım ilkelerine uygunluk, yazım ve noktalama, eleştiri metninin genel özelliklerini taşıma gibi ölçütler bağlamında dereceli puanlama anahtarı ile değerlendirilir . Öğrencilerden çok modlu bir haber metni dinlemeleri/izlemeleri istenir. Seçilecek çok modlu metnin tema ile ilişkili olarak hak ve özgürlükleri konu edinmesi göz önünde bulundurulur. Dinlediği/izlediği metinde hak ve özgürlüklerle ilgili iletileri değerlendirmek amacıyla dinleme/izleme stratejileri arasından uygun olan seçilir. Dinleme/izleme sürecinin sağlıklı yürütülmesi için dinleme/ izleme sürecine etki eden bilişsel, duyuşsal ve �ziksel etkenleri içeren bir gözlem formu oluşturulur . Bu formla öğrencilerin dinleme/izleme sürecindeki gelişimleri takip edilir. Dinleme/izlemenin etkili bir biçimde gerçekleşebilmesi için metin ve ortamla ilgili iletişim engelleri ortadan kaldırılır . Hak ve özgürlükler temasının hangi edebî türle ele alınabileceği hakkında kısa cevaplı sorularla “soru-cevap tekniği” uygulanarak öğrencilerden kendi görüş ve bilgilerini açıklamaları istenir . Temel hak ve özgürlüklerle ilgili çok modlu bir haber metni izletilerek metnin oluşturulma amacına yönelik tahminlerde bulunulur. Anlamı bilinmeyen kelimeler metnin bağlamından hareketle tahmin edilir. Metinde sunulan bilgi ve görüşlerden hareketle metindeki öznel ve nesnel yargılar belirlenir . Öğrencinin kendi belirlediği bir edebî tür ile dinlenen/ izlenen metin, tür özellikleri bakımından karşılaştırılır. Bu metinlerin temel hak ve özgürlükleri ele alışlarıyla ilgili elde edilen sonuçların yer aldığı bir çalışma kâğıdı hazırlanır. Hak ve özgürlükler temasının metinlerde nasıl ele alınıp işlendiğine yönelik eleştiriler “görüş geliştirme tekniği” kullanılarak ortaya konur . Dinlenen/izlenen çok modlu metnin içerik unsurları belirlenir ve bunları gösteren bir zihin haritası oluşturulur . Takım çalışması yapılarak metindeki görsel ve işitsel ögeler ile iletiler arasındaki etkileşimler tespit edilir. Bunlar arasındaki etkileşim gerekçelendirilerek açıklanır . 10 of 13 21.08.2026 17:27 Dinleme/izleme metnine ilişkin anlama ve çözümlemeyi güçlendirmek için “altı şapkalı düşünme” tekniğinden yararlanılır . Metne değer katan unsurlar, öğrencilerin kendi beğenileri ve ilgi alanları doğrultusunda değerlendirilir. Dinlenen/izlenen metinlerden hareketle öğrenilen bilgileri içeren bir öğrenme günlüğü oluşturulur . Öğrencilere hak ve özgürlükleri esas alan bir haber metni oluşturmaları ve bunu sınıfta sunmalarına yönelik bir performans görevi verilir . Öğrencilerden performans görevleri için sınıf dışında hazırlık yapmaları istenir, performans görevi sınıfta sergilenir. Hak ve özgürlükler konusuna, hedef kitleye uygun konuşma yöntem ve stratejileri seçilir. Sunumda iletişim engelleri ortadan kaldırılır ve görgü kurallarına uygun hareket edilir . Haber metnini oluşturmak için merak uyandıracak nitelikler taşıyan yaşanmış veya kurgu bir olay seçilir . Haber metninin içeriği oluşturulurken hedef kitlenin özellikleri ve beklentilerine göre görsel ve işitsel ögelerin seçimine, süreyi verimli kullanmaya, beden dilinin kullanımına yönelik tahminler yürütülerek hazırlık yapılır . Haber metninin içeriği habercilik ilkelerine uygunluk bakımından karşılaştırılarak “5N1K sorgulama tekniği” doğrultusunda eldeki bilgiler tasnif edilir, planlanan haber akışına uygun olarak bu bilgiler düzenlenir ve haber metni oluşturulur . Haber metninin içeriği, habercilik ilkeleri bakımından gözden geçirilerek gerekirse dinleyiciye daha iyi aktarılabilmek amacıyla yeniden düzenlenir. Haberin amacı ve hedef kitlesi göz önünde bulundurularak haber metninin içeriğinde yer alan temel hak ve özgürlükler, adalet, duyarlılık, dürüstlük, mahremiyet gibi metne değer katan unsurları gösteren bir kontrol listesi hazırlanır. Haber metni oluşturulurken her insanın temel hak ve özgürlüklere sahip olduğunun bilinciyle hareket edilir. Öğrenciler; akıcı, anlaşılır ve doğru bir Türkçe kullanmaya, habere konu olan olayı ele alırken dürüst bir yaklaşım sergilemeye , millî ve manevi değerleri göz önünde bulundurmaya ve özel yaşamın gizliliğine özen göstermeye teşvik edilir. Kişisel hak ve özgürlüklerde başka insanların sınırları gözetilir . Haber metnini sunarken sesi anlam oluşturmak amacıyla etkili bir biçimde kullanmak için hazırlık yapılır. Haberin içeriğini desteklemek ve etkileyiciliğini artırmak amacıyla görsel ögeler kullanılarak yorumlar içeren bir sunum planı hazırlığı yapılır 11 of 13 21.08.2026 17:27 . Haberin kime, neyin, nasıl, nerede, hangi araçlar kullanılarak (5N1K) sunulacağı dikkate alınarak planlama yapılır . Plana uygun hareket edilir ve konuşmaya dikkat çekici bir şekilde başlanır. Ele alınan konuyla ilgili yorumları amacıyla düşünceyi geliştirme yolları kullanılır. Sunumun içeriğine ve hedef kitleye göre belirlenen söz varlığı bağlama uygun şekilde kullanılır. Haberin sunumunda dinleyiciye/izleyiciye verilmek istenen iletiler açık veya örtük bir şekilde ifade edilir. Sunum sırasında dil yapıları işlevine uygun kullanılır; eksiltili yapı, bağlama, gönderim, değiştirim ve sözcük bağdaşıklığı ögeleri kullanılır. Sunum sırasında beden dilinden ve konuşma yapılan mekânın özelliklerinden etkili bir biçimde yararlanılır. Öğrenciler, düşüncelerini hiçbir etki altında kalmadan görgü kurallarına uygun bir şekilde ifade etmeleri için teşvik edilir . Haberin sunum sürecine etki eden hususlarla ilgili hazırlanmış öz değerlendirme formu uygulanır . Haberin sunumuyla ilgili öğrencilerin, eleştirilerini sözlü olarak dile getirmeleri ve bir değerlendirmede bulunmaları istenir . Sunum sürecindeki hatalar düzeltilir ve sonraki sunumlarda faydalanılmak amacıyla bunlar not edilir; sürece ilişkin uygun davranış, duygu ve düşünceler pekiştirilir. Öğrencilerin performansları dereceli puanlama anahtarında içeriğe uygunluk, özgünlük, dil ve anlatım özellikleri, metin planının oluşturulması, düşünceyi geliştirme yollarının kullanımı, anlatım ilkelerine uygunluk, yazım ve noktalama, sunum becerisi ve temanın metne yansımasını belirleyen ölçüt listesi öğretmen tarafından hazırlanarak uygulanır . Temanın sonunda okuduğu edebî metinlerden, dinlediklerinden/ izlediklerinden, anlatımlarından hareketle öğrencilerin toplumda huzur ve uyum içinde bir arada yaşayabilmek için kendi temel hak ve özgürlüklerini bilmeleri, karşı tarafın hak ve özgürlüklerine saygılı olmaları, hak ve özgürlüklerin getirdiği sorumlulukların farkına varmaları hede�enir. Bu hedef doğrultusunda öğrencilerden bir öğrenme günlüğü yazması istenir. Bu öğrenme günlüğü vasıtasıyla, öğrencilerin konu ile ilgili güçlü yönleri tespit edilir, eksik öğrenmeleri belirlenir varsa kavram hataları giderilir. Öğrenme günlüğü çalışmasından çıkan sonuçlara geri bildirim verildikten sonra bir sonraki temaya geçilir.  Farklılaştırma  12 of 13 21.08.2026 17:27 Öğrencilerden tahlil ettikleri romanla ilgili alan yazını çalışması yapmaları istenebilir. Temadaki türler dışında aynı temayı işleyen farklı türde bir metni tahlil etmeleri sağlanabilir. Konuyla ilgili daha fazla makale metni okumaları sağlanıp bu makalelerle ilgili birer tanıtım yazısı yazmaları ve bunları sınıf panosunda sergilemeleri istenebilir. Öğrencilere ilgi ve yetenekleri doğrultusunda tahlil ettikleri romandaki bir kesiti içeren bir karikatür hazırlatılabilir. Hak ve özgürlükleri konu alan bir a�ş çalışması yaptırılabilir. * Öğrencilerden seçtiği romanı incelediği bir makale yazması istenebilir. Öğrenciler için temadaki türler dışında metinler seçilebilir. Aynı temayı işleyen bir hikâye ya da şiir seçilerek bu metinlerin iletileri üzerine görüşlerini yazmaları istenebilir. Güncelleme tarihi: 06.08.2026 13 of 13 21.08.2026 17:27",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/340"
+        }
+      },
+      "process_component_policy": {
+        "status": "SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS",
+        "canonical_policy": "DO_NOT_SYNTHESIZE_OR_COPY_FROM_OTHER_GRADES",
+        "official_process_realization": "Published learning-teaching application paragraphs under the parent outcome codes are authoritative process realization; no separate sub-outcome IDs are synthesized.",
+        "canonical_evidence_file": "curriculum_normative_text.json",
+        "evidence_status": "VERIFIED_LOCAL_PDF_TEXT_EXTRACTION"
+      },
+      "learning_outcomes": [
+        {
+          "outcome_code": "TDE1.1",
+          "outcome_verbatim": "“Toplumun Ahengi” temasında ele alınan metinlerde dinleme/ izlemeyi yönetebilme",
+          "theme_scope": "TEMA_02",
+          "stable_entity_key": "TDE_12:TEMA_02:TDE1.1",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/340 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 2. TEMA - TOPLUMUN AHENGİ.PDF#page=2",
+          "local_source_sha256": "c9662b7ac7b2cdf7e75e75035eb4c1fefe5614c6410b8a51637be2f16043b470"
+        },
+        {
+          "outcome_code": "TDE1.2",
+          "outcome_verbatim": "“Toplumun Ahengi” temasında ele alınan metinlerde anlam oluşturabilme",
+          "theme_scope": "TEMA_02",
+          "stable_entity_key": "TDE_12:TEMA_02:TDE1.2",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/340 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 2. TEMA - TOPLUMUN AHENGİ.PDF#page=2",
+          "local_source_sha256": "c9662b7ac7b2cdf7e75e75035eb4c1fefe5614c6410b8a51637be2f16043b470"
+        },
+        {
+          "outcome_code": "TDE1.3",
+          "outcome_verbatim": "“Toplumun Ahengi” temasında ele alınan metinleri çözümleyebilme",
+          "theme_scope": "TEMA_02",
+          "stable_entity_key": "TDE_12:TEMA_02:TDE1.3",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/340 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 2. TEMA - TOPLUMUN AHENGİ.PDF#page=2",
+          "local_source_sha256": "c9662b7ac7b2cdf7e75e75035eb4c1fefe5614c6410b8a51637be2f16043b470"
+        },
+        {
+          "outcome_code": "TDE1.4",
+          "outcome_verbatim": "“Toplumun Ahengi” temasında ele alınan metinlerde dinleme/ izleme sürecini değerlendirebilme",
+          "theme_scope": "TEMA_02",
+          "stable_entity_key": "TDE_12:TEMA_02:TDE1.4",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/340 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 2. TEMA - TOPLUMUN AHENGİ.PDF#page=2",
+          "local_source_sha256": "c9662b7ac7b2cdf7e75e75035eb4c1fefe5614c6410b8a51637be2f16043b470"
+        },
+        {
+          "outcome_code": "TDE2.1",
+          "outcome_verbatim": "“Toplumun Ahengi” temasında ele alınan metinlerde okumayı yönetebilme",
+          "theme_scope": "TEMA_02",
+          "stable_entity_key": "TDE_12:TEMA_02:TDE2.1",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/340 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 2. TEMA - TOPLUMUN AHENGİ.PDF#page=2",
+          "local_source_sha256": "c9662b7ac7b2cdf7e75e75035eb4c1fefe5614c6410b8a51637be2f16043b470"
+        },
+        {
+          "outcome_code": "TDE2.2",
+          "outcome_verbatim": "“Toplumun Ahengi” temasında ele alınan metinlerde anlam oluşturabilme",
+          "theme_scope": "TEMA_02",
+          "stable_entity_key": "TDE_12:TEMA_02:TDE2.2",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/340 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 2. TEMA - TOPLUMUN AHENGİ.PDF#page=2",
+          "local_source_sha256": "c9662b7ac7b2cdf7e75e75035eb4c1fefe5614c6410b8a51637be2f16043b470"
+        },
+        {
+          "outcome_code": "TDE2.3",
+          "outcome_verbatim": "“Toplumun Ahengi” temasında ele alınan metinleri çözümleyebilme",
+          "theme_scope": "TEMA_02",
+          "stable_entity_key": "TDE_12:TEMA_02:TDE2.3",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/340 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 2. TEMA - TOPLUMUN AHENGİ.PDF#page=2",
+          "local_source_sha256": "c9662b7ac7b2cdf7e75e75035eb4c1fefe5614c6410b8a51637be2f16043b470"
+        },
+        {
+          "outcome_code": "TDE2.4",
+          "outcome_verbatim": "“Toplumun Ahengi” temasında ele alınan metinlerde okuma sürecini değerlendirebilme",
+          "theme_scope": "TEMA_02",
+          "stable_entity_key": "TDE_12:TEMA_02:TDE2.4",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/340 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 2. TEMA - TOPLUMUN AHENGİ.PDF#page=2",
+          "local_source_sha256": "c9662b7ac7b2cdf7e75e75035eb4c1fefe5614c6410b8a51637be2f16043b470"
+        },
+        {
+          "outcome_code": "TDE3.1",
+          "outcome_verbatim": "Güncel olayları takip edip toplumsal konulara duyarlı bir 2 of 13 21.08.2026 17:27 konuşmayı yönetebilme",
+          "theme_scope": "TEMA_02",
+          "stable_entity_key": "TDE_12:TEMA_02:TDE3.1",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/340 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 2. TEMA - TOPLUMUN AHENGİ.PDF#page=2",
+          "local_source_sha256": "c9662b7ac7b2cdf7e75e75035eb4c1fefe5614c6410b8a51637be2f16043b470"
+        },
+        {
+          "outcome_code": "TDE3.2",
+          "outcome_verbatim": "Toplumsal sorunları anlama ve bu sorunlara çözüm üretme ile ilgili konuşması için içerik oluşturabilme",
+          "theme_scope": "TEMA_02",
+          "stable_entity_key": "TDE_12:TEMA_02:TDE3.2",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/340 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 2. TEMA - TOPLUMUN AHENGİ.PDF#page=3",
+          "local_source_sha256": "c9662b7ac7b2cdf7e75e75035eb4c1fefe5614c6410b8a51637be2f16043b470"
+        },
+        {
+          "outcome_code": "TDE3.3",
+          "outcome_verbatim": "Toplumsal sorunları anlama ve bu sorunlara çözüm üretme ile ilgili konuşması için kural uygulayabilme",
+          "theme_scope": "TEMA_02",
+          "stable_entity_key": "TDE_12:TEMA_02:TDE3.3",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/340 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 2. TEMA - TOPLUMUN AHENGİ.PDF#page=3",
+          "local_source_sha256": "c9662b7ac7b2cdf7e75e75035eb4c1fefe5614c6410b8a51637be2f16043b470"
+        },
+        {
+          "outcome_code": "TDE3.4",
+          "outcome_verbatim": "Temel hak ve özgürlükler bağlamında gerçekleştirdiği konuşmasına yönelik süreci değerlendirebilme",
+          "theme_scope": "TEMA_02",
+          "stable_entity_key": "TDE_12:TEMA_02:TDE3.4",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/340 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 2. TEMA - TOPLUMUN AHENGİ.PDF#page=3",
+          "local_source_sha256": "c9662b7ac7b2cdf7e75e75035eb4c1fefe5614c6410b8a51637be2f16043b470"
+        },
+        {
+          "outcome_code": "TDE4.1",
+          "outcome_verbatim": "Toplumu farklı yönleriyle ele aldığı yazılı anlatım sürecini yönetebilme",
+          "theme_scope": "TEMA_02",
+          "stable_entity_key": "TDE_12:TEMA_02:TDE4.1",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/340 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 2. TEMA - TOPLUMUN AHENGİ.PDF#page=3",
+          "local_source_sha256": "c9662b7ac7b2cdf7e75e75035eb4c1fefe5614c6410b8a51637be2f16043b470"
+        },
+        {
+          "outcome_code": "TDE4.2",
+          "outcome_verbatim": "Temel hak ve özgürlüklerin toplumsal düzen için gerekliliğini farklı bakış açılarıyla bir araya getirdiği yazısına içerik oluşturabilme",
+          "theme_scope": "TEMA_02",
+          "stable_entity_key": "TDE_12:TEMA_02:TDE4.2",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/340 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 2. TEMA - TOPLUMUN AHENGİ.PDF#page=3",
+          "local_source_sha256": "c9662b7ac7b2cdf7e75e75035eb4c1fefe5614c6410b8a51637be2f16043b470"
+        },
+        {
+          "outcome_code": "TDE4.3",
+          "outcome_verbatim": "Temel hak ve özgürlüklerin toplumsal düzen için gerekliliğini farklı bakış açılarıyla oluşturduğu yazısı için kural uygulayabilme",
+          "theme_scope": "TEMA_02",
+          "stable_entity_key": "TDE_12:TEMA_02:TDE4.3",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/340 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 2. TEMA - TOPLUMUN AHENGİ.PDF#page=3",
+          "local_source_sha256": "c9662b7ac7b2cdf7e75e75035eb4c1fefe5614c6410b8a51637be2f16043b470"
+        },
+        {
+          "outcome_code": "TDE4.4",
+          "outcome_verbatim": "Toplumsal duyarlılık bağlamında ortaya koyduğu yazısına yönelik yazma sürecini değerlendirebilme “Toplumun Ahengi” temasının içerik çerçevesi şu şekildedir: • Okuma • Yazma • Dinleme/İzleme • Konuşma Okuma becerisinin geliştirilmesi için öğrencilerin toplum olarak uyum içinde yaşayabilmenin gerekleriyle ilgili çıkarımlar yapabilecekleri, hak ve özgürlükler teması ile ilişkilendirebilecekleri nitelikte bir roman seçilir. Bu romanın tahliliyle toplumsal sorunların edebî eserlere nasıl yansıdığına, hak ve özgürlüklerle ilgili kavramların edebiyatta nasıl yer aldığına yönelik",
+          "theme_scope": "TEMA_02",
+          "stable_entity_key": "TDE_12:TEMA_02:TDE4.4",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/340 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 2. TEMA - TOPLUMUN AHENGİ.PDF#page=3",
+          "local_source_sha256": "c9662b7ac7b2cdf7e75e75035eb4c1fefe5614c6410b8a51637be2f16043b470"
+        }
+      ],
+      "assessment_requirements": [
+        {
+          "assessment_id": "TDE_12_TEMA_02_ASSESSMENT_01",
+          "assessment_type": "PERFORMANCE_TASK",
+          "requirement": "Hak ve özgürlükleri konu edinen bir haber metni oluşturulması ve bu haberin sınıfta sunulmasına yönelik performans görevi",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/340 :: Öğrenme Kanıtları (Ölçme ve Değerlendirme)",
+          "verification_status": "VERIFIED_OFFICIAL_CURRICULUM",
+          "local_evidence_pages": [
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 2. TEMA - TOPLUMUN AHENGİ.PDF#page=4",
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 2. TEMA - TOPLUMUN AHENGİ.PDF#page=5",
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 2. TEMA - TOPLUMUN AHENGİ.PDF#page=9",
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 2. TEMA - TOPLUMUN AHENGİ.PDF#page=11"
+          ],
+          "local_source_sha256": "c9662b7ac7b2cdf7e75e75035eb4c1fefe5614c6410b8a51637be2f16043b470"
+        },
+        {
+          "assessment_id": "TDE_12_TEMA_02_ASSESSMENT_02",
+          "assessment_type": "PERFORMANCE_TASK",
+          "requirement": "İncelenen romanı hak ve özgürlükler bağlamında değerlendirerek bir eleştiri metni yazmaya yönelik performans görevi",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/340 :: Öğrenme Kanıtları (Ölçme ve Değerlendirme)",
+          "verification_status": "VERIFIED_OFFICIAL_CURRICULUM",
+          "local_evidence_pages": [
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 2. TEMA - TOPLUMUN AHENGİ.PDF#page=4",
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 2. TEMA - TOPLUMUN AHENGİ.PDF#page=5",
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 2. TEMA - TOPLUMUN AHENGİ.PDF#page=9",
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 2. TEMA - TOPLUMUN AHENGİ.PDF#page=11"
+          ],
+          "local_source_sha256": "c9662b7ac7b2cdf7e75e75035eb4c1fefe5614c6410b8a51637be2f16043b470"
+        },
+        {
+          "assessment_id": "TDE_12_TEMA_02_ASSESSMENT_03",
+          "assessment_type": "THEME_END_EVALUATION",
+          "requirement": "Temanın değerlendirilmesinde öğrenme günlüğü kullanılır.",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/340 :: Öğrenme Kanıtları (Ölçme ve Değerlendirme)",
+          "verification_status": "VERIFIED_OFFICIAL_CURRICULUM",
+          "local_evidence_pages": [
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 2. TEMA - TOPLUMUN AHENGİ.PDF#page=4",
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 2. TEMA - TOPLUMUN AHENGİ.PDF#page=5",
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 2. TEMA - TOPLUMUN AHENGİ.PDF#page=9",
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 2. TEMA - TOPLUMUN AHENGİ.PDF#page=11"
+          ],
+          "local_source_sha256": "c9662b7ac7b2cdf7e75e75035eb4c1fefe5614c6410b8a51637be2f16043b470"
+        }
+      ],
+      "local_source_snapshot": {
+        "filename": "Türk Dili Ve Edebiyatı Dersi 12.Sınıf 2. TEMA - TOPLUMUN AHENGİ.PDF",
+        "path": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 2. TEMA - TOPLUMUN AHENGİ.PDF",
+        "sha256": "c9662b7ac7b2cdf7e75e75035eb4c1fefe5614c6410b8a51637be2f16043b470",
+        "git_blob_sha": "490242eed8f2bca2da9838b5de61bb767dc1084f",
+        "page_count": 13,
+        "verification_status": "VERIFIED_LOCAL_OFFICIAL_SNAPSHOT"
+      },
+      "normative_text_evidence": {
+        "status": "VERIFIED_LOCAL_PDF_TEXT_EXTRACTION",
+        "canonical_evidence_file": "curriculum_normative_text.json",
+        "evidence_theme_id": "TEMA_02",
+        "source_pdf": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 2. TEMA - TOPLUMUN AHENGİ.PDF",
+        "source_sha256": "c9662b7ac7b2cdf7e75e75035eb4c1fefe5614c6410b8a51637be2f16043b470",
+        "page_count": 13,
+        "extraction_method": "pdftotext -layout (Poppler)",
+        "extraction_quality": "TEXT_LAYER_WITH_GLYPH_REPLACEMENTS",
+        "verbatim_evidence_scope": "FULL_PDF_PAGE_TEXT_PRESERVED"
+      },
+      "school_based_planning_provisions": {
+        "source_status": "SOURCE_NOT_EXPLICIT_ON_THEME_PAGE",
+        "planning_layer": {
+          "authority": "USER_CONFIRMED_PLANNING_RULE",
+          "hours": 2,
+          "outer_theme_total_hours": 45,
+          "curriculum_gap": false
+        }
+      }
+    },
+    {
+      "theme_id": "TEMA_03",
+      "theme_number": 3,
+      "exact_theme_name": "HAYATIN DENGESİ",
+      "source_id": "official_tymm_theme_03",
+      "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/348",
+      "verification_status": "VERIFIED_OFFICIAL_REMOTE_AND_LOCAL_CONTENT",
+      "allocated_lesson_hours": {
+        "instructional_total": 43,
+        "verbatim": "Ders Saati: 43",
+        "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/348 :: Ders Saati",
+        "planning_layer": {
+          "school_based_planning_hours": 2,
+          "theme_total_hours": 45,
+          "authority": "USER_CONFIRMED_PLANNING_RULE",
+          "semantics": "Official TYMM instructional hours remain unchanged; school-based planning is a separate planning layer."
+        }
+      },
+      "program_elements": {
+        "field_skills": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/348"
+        },
+        "tendencies": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/348"
+        },
+        "social_emotional_learning_skills": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/348"
+        },
+        "values": {
+          "source_status": "SOURCE_EXPLICIT",
+          "heading": "Millî, manevi, evrensel değerlerin metne olan yansımalarını tespit eder.",
+          "verbatim": "Metnin diğer disiplinlerle (tarih, coğrafya, sosyoloji, teknoloji vb.) ilişkisini değerlendirip karşılaştırma tablosu hazırlar. Gruplar, çalışmalarını sunar. Genellemeye ulaşır. Süreç çalışma kâğıdı ile değerlendirilir. Öğrenciler, metin hakkında değerlendirme yapmak için ölçütler belirler. Bir tablo şeklinde hazırladığı ölçütler doğrultusunda metni değerlendirir. Metne yönelik beğeni ve eleştirilerini, yazarın amacı ile kendi düşünceleri arasındaki benzerlik ve farklılıkları “balık kılçığı” yöntemi ile belirtir . Bu tespitlerinin günlük hayatın gerçekliği içindeki yeri hakkında görüş belirtir. Okuduğu metnin hangi disiplinlerle ilişkili olduğunu belirleyip bu disiplinlerin metne katkısı ile ilgili değerlendirme yapar. • İkinci okuma metni olarak hikâye türünde bir eser ele alınır ve edebî metinlere yönelik metin tahlili aşamaları uygulanır. Hikâye türüne özgü yapı ve üslup özellikleri göz önünde bulundurularak gerekli farklılaştırmalar yapılır. Öğrencilere tahlil ettikleri gezi yazısının içeriğinden hareketle bir anket hazırlamalarına yönelik performans görevi verilir . Performans görevini gerçekleştirmesi için öğrencilerin sınıf dışında çalışma yapması istenir, bu nedenle görev öğrencilere metin tahlili sürecinde verilir. Sınıf dışında öğrencilerden tahlil ettikleri gezi yazısının içeriğinden hareketle bir anket hazırlamaları, anketlerini belirledikleri hedef kitleye uygulamaları ve sonuçlarını değerlendirmeleri istenir. Anketin uygulanmasıyla elde edilen sonuçlar, yazılı olarak sınıf içinde paylaşılır. Bu süreç, öğrencilerin gezi yazısının içeriğinden yola çıkarak bir anket oluşturma, hedef kitleyi belirleme ve sonuçlarını değerlendirme becerilerini geliştirmelerini amaçlar . Temanın içeriğine uygun bir probleme/konuya odaklanan ankette iş birliği yapılabilecek kişi ve gruplar tespit edilip anketin uygulanabilirliğini artırmak, anlama ve anlamlandırmayı kolaylaştırmak, alternatif �kirler ortaya koymak amacıyla uygun yazma yöntem ve stratejileri seçilir. Yazma sürecine etki eden engeller ortadan kaldırılır . Yapılan grup çalışmalarında insan ilişkilerinde yapıcı davranılarak kişi ve gruplarla iş birliği yapmaya özen gösterilir ve böylelikle öğrencilerde mütevazılık değeri desteklenir . 8 of 13 21.08.2026 17:27 Anket içeriği grup çalışmasıyla oluşturulur . İçerik oluşturulurken temayla ilgili ön bilgilerden faydalanılarak ankette ne tür soruların olabileceği hakkında tahmin yürütülür. Anketin temasını yansıtabilecek düşünceler karşılaştırılarak grup içi etkileşimler sonucu elde edilen bilgiler sını�andırılır . Öğrenciler, temada edindiği bilgilerden hareketle uygun söz varlığını kullanarak kendi yazısının içeriğini düzenler. Yazısında insanlarla rahat bir iletişim kurmasını sağlayacak dil ve anlatım özelliğini seçer. Görsel ögelerden hangilerini (gra�k, tablo vb.) yazısında kullanacağına karar verir. Hazırladığı taslak planını sınıfta arkadaşlarına sunar. Arkadaşlarının vereceği geri bildirimler doğrultusunda planına son şeklini verir. Anketin içeriğini desteklemek ve anlaşılırlığını kolaylaştırmak amacıyla liste, gra�k, tablo ve şablonlardan faydalanılarak anketle ilgili bilgilendirici ve açıklayıcı bir sunum yapılır . Öğrenciler, anket sonuçlarına yönelik hazırlayacağı yazıya planına uygun bir şekilde başlar. Yazısını desteklemek için anlatım biçimleri ve düşünceyi geliştirme yollarından yararlanır ve düşüncelerini özgün bir üslupla ifade eder. Yazısını hedef kitleye uygun bir söz varlığı ve destekleyici bilgiler ile devam ettirir. Yazısında iletileri açık ve tutarlı bir şekilde ifade eder. Buna bağlı olarak başlatma, sürdürme ve bitirme ifadelerini etkili kullanır. Türkçe dil yapılarını dilin işlevine uygun kullanır. Kelimeler arasındaki uyuma, yazım ve noktalama kurallarına dikkat eder. Öğrenciler, anket sonuçlarına yönelik hazırladıkları yazıyı içerik, dil ve anlatım özellikleri yönünden değerlendirir. Öğretmen tarafından dereceli puanlama anahtarı ile değerlendirilen performansın yanı sıra öğrencilerden, yapacakları değerlendirmeleri öğrenme günlüğüne yansıtmaları istenir . Akranlarından ve öğretmenden gelen bilgileri göz önünde bulundurarak daha sonra oluşturacağı yazılar için kendisine yeni hede�er belirler. Anket sonuçlarını içeren bu çalışmanın, sınıf/okul panolarında ya da okulun resmî çevrim içi ortamlarında paylaşılması sağlanır. Öğrencilerden teknoloji ve çevre temalı çok modlu bir haber metni dinlemeleri/izlemeleri istenir Dinletilen/izletilen metnin ilgili tema çerçevesinde teknoloji ve çevre konusunda olmasına özen gösterilir. Sürdürülebilirlik kavramına değinilir ve öğrencilerin sürdürülebilirliği ve sürdürülebilir kalkınmayı anlaması yönünde tartışma gerçekleştirilir . 9 of 13 21.08.2026 17:27 Öğrenciler, temaya bağlı olarak ele alınan haber metnini dinlemeden/ izlemeden önce dinleme/izleme amacı ile yöntem ve stratejisini belirler. Dinleyeceği/izleyeceği metnin �kri mülkiyet haklarını hakkaniyetli ve dürüst bir tutumla göz önüne alarak metnin içerik ve türüne yönelik tahminlerde bulunur . Dinleme/izleme sürecinin sağlıklı yürütülmesi için öğrencilerin dinleme/izleme sürecine etki eden bilişsel, duyuşsal ve �ziksel etkenleri içeren bir gözlem formu oluşturulabilir. Bu formla öğrencilerin dinleme/izleme sürecindeki gelişimleri notlar tutularak takip edilir. Dinleme/izlemenin etkili bir biçimde gerçekleşebilmesi için metin ve ortamla ilgili iletişim engelleri ortadan kaldırılır . Çevre ve teknoloji temasının hangi yönünün haber metnine konu olabileceği hususunda “tartışma tekniği” uygulanarak ön bilgilerle bağlantı kurulur . Temayı ele alan haber metni izletilerek/dinletilerek haber metninde yer alan bilgilerin güvenilirlik, geçerlilik ve tutarlılığı ile ilgili görüş oluşturulur. Dinlenen/izlenen metindeki söz varlığının anlamı, bağlamdan hareketle belirlenir. Çevre ve teknoloji teması ele alınırken öznel ve nesnel yargılar kullanım amaçlarına göre sını�andırılır. Çevre ve teknoloji temasının geçmişten günümüze topluma yansımaları hakkında “soru-cevap tekniği” ile karşılaştırmalar yapılarak çalışma kâğıdı hazırlanır . Çevre ve teknoloji temasının topluma yansıyan olumsuz tara�arının düzeltilmesi için neler yapılabileceği konusunda öğrencilerin görüşlerini belirtmesi istenir . Öğrencilerin haber metnindeki iletileri temayı ne kadar yansıttığına ve hayatın dengesine yönelik bir grup çalışması yaptırılır. Buna göre sınıf gruplara ayrılır . “Lotus tekniği” kapsamında ortaya “sürdürülebilirlik” yazılır. Kelimenin etrafına onunla ilgili çevresel problemler yazılır. Söz konusu her problemin hayata olan etkileri 8 �kir olarak ilgili problemin etrafına yazılır. Böylece dinleme/ izleme metninin düşündürdüğü çevre sorunlarının yaşama etkisi hakkında sekizer �kir oluşmuş olur . Ardından gruplar birbirlerinin çalışmalarını inceler ve öğretmen rehberliğinde ortak olan noktalar tartışılır. Öğrencilerin görüşlerini gerekçeleriyle açıklamaları sağlanır . Dinlenen/izlenen çok modlu metnin yapı unsurları, diğer disiplinlerle (tarih, coğrafya, sosyoloji, teknoloji vb.) ilişkisi, dil ve anlatım özellikleri zihin haritası veya açık uçlu sorular kullanılarak belirlenir . Bu çalışmayla metindeki yapı unsurları arasındaki ilişkiyle üslup seçiminin nedenleri açık uçlu sorularla sıralanır . Ayrıca metinde benzerlik, kesinlik, pişmanlık, gereklilik anlamı katan ifade ve yapılar bulunur ve bunların işlevleri değerlendirilir. Öğrenciler, dinledikleri/izledikleri 10 of 13 21.08.2026 17:27 metinle yeni metin arasında yapı unsurlarıyla dil ve anlatım arasında ilişki kurar. Öğrencilerin, dinledikleri/izledikleri çok modlu metni kendi duygu ve düşünceleri doğrultusunda değerlendirerek çıkış kartı hazırlaması sağlanır . Böylece öğrencilere etkin dinleyici kimliklerini geliştirmeye yönelik farkındalık kazandırılır . Öğrencilerden dinledikleri/izledikleri metnin konu ve ana düşüncesinin kendi dünyasıyla olan ilişkisini ortaya koymaları istenir. Öğrencilere tahlil edilen dinleme/izleme metninden hareketle teknoloji ve çevre ile ilgili güncel bir konuyu/problemi bir sunum vasıtasıyla ele alacakları sözlü anlatım gerçekleştirmelerine yönelik bir performans görevi verilir . Öğrenciler tarafından temaya bağlı olarak sürdürülebilirlik ile ilişkilendirilebilecek; çevreyi kirletmeyen yeni teknolojik gelişmeleri tanıtmak, yenilenebilir enerji kaynakları hakkında bilgi vermek, bunların kullanım alanları ve sağlıklı yaşama etkilerini değerlendirmek gibi konularda sunum yapılır . Sunum yapmadan önce konuya, hedef kitleye uygun konuşma yöntem ve stratejileri seçilir. Sunum için gerekli araştırma ve ön hazırlıklar tamamlanarak bir sunum hazırlanır. Öğrencilerin çevreye ve canlılara değer vermesi , çevre sorunlarına ve iklim krizine karşı duyarlı olması , ekosistemi korumada tüketim alışkanlıklarını değiştirmenin önemini fark etmesi amacıyla öğrencilere kısa cevaplı ve açık uçlu sorular sorulur . Sunum metni oluşturulurken öğrenilecek kavram ve bilgiler ile öğrencilerin ön bilgilerinin ilişkilendirilmesi sağlanır. Bu amaçla öğrencilere kısa cevaplı sorular sorulur. Öğrenciler; çevre, teknoloji ve bunların insan yaşamına etkileriyle ilgili güncel bir konuyu ele alan konuşmalarının giriş, gelişme ve sonuç bölümlerini planlar. Konuşmanın ana düşüncesine ve yardımcı düşüncelerine karar verir, bu doğrultuda karşılaştırma içeren iletiler oluşturur. Amacını ve hedef kitlesini göz önünde tutarak konuşmasının içeriğini belirler. Sunuma konu olan kavram ve bilgileri özelliklerine göre sını�andırır. Metne değer katan unsurları belirleyerek bunları sunumda etkili bir şekilde nasıl kullanacağını planlar ve taslak bir metin oluşturur. Konuşmasının türüne ve hedef kitlenin özelliklerine uygun söz varlığını kullanarak konuşmasının içeriğini düzenler. Öğrenciler, gerektiğinde kendi görüş ve düşüncelerini farklı görüş ve düşünceleri dikkate alarak 11 of 13 21.08.2026 17:27 sunumun içeriğini yeniden düzenler . Ele aldıkları konu hakkındaki genel duygu, düşünce ve davranışları değerlendirir . Bunun için öğrencilerden konuya ilişkin ölçütler belirlemeleri ve bu ölçütlerden yararlanarak bir kontrol listesi oluşturmaları istenir. Öğrencilerden sunum planlarını paylaşmaları ve geri bildirimleri dikkate alarak sunumlarına son şeklini vermeleri istenir. Kendilerine ayrılan süreyi verimli kullanarak etkili bir sunum gerçekleştirmeleri sağlanır. Sunumun içeriğini desteklemek ve etkileyiciliğini artırmak amacıyla görsel ögeler kullanılarak yorumlar içeren bir sunum yapılır. Sunum yaparken vurgu ve tonlamaya dikkat edilir, dinleyicinin ilgisini canlı tutmaya özen gösterilir. Sunumda iletişim engelleri ortadan kaldırılır ve görgü kurallarına uygun hareket edilir . Sunumda kime, neyin, nasıl, nerede, hangi araçlar kullanılarak (5N1K) söyleneceği dikkate alınarak planlama yapılır . Ele alınan konuyla ilgili yorumları açıklamak amacıyla düşünceyi geliştirme yolları kullanılır. Sunumun içeriğine ve hedef kitleye göre belirlenen söz varlığı unsurları bağlama uygun şekilde kullanılır. Sunumda dinleyiciye/izleyiciye verilmek istenen iletiler açık veya örtük bir şekilde ifade edilir. Sunumda Türkçe dil yapısı işlevine uygun kullanılır ve bağdaşıklık ögelerine dikkat edilir. Sunum esnasında beden dili ve konuşma yapılan mekânın özellikleri, metnin temasını desteklemek amacıyla etkili bir biçimde kullanılır. İletişim kurulan kişi ya da kişilerle �ziksel mesafe ayarlanır . Gösterilen performans öğretmen tarafından dereceli puanlama anahtarı ile değerlendirilir. Öğrenci sunum sürecindeki konuşmasını içerik, anlatım ve akranlarından gelen görüşlerini akran değerlendirme formuyla değerlendirir . Bu formdaki değerlendirmeler sonucunda bundan sonra yapacağı konuşmalar için kendisine yeni hede�er belirler. Konuşmasını dijital ortamlar için yeniden düzenleyebilir. Sağlanan etkileşimin iletişime katkısı değerlendirilir. Sözlü etkileşimin gücü ve önemi fark ettirilir . Temanın sonunda Ne Biliyorum-Ne Bilmek İstiyorum-Ne Öğrendim tekniğinin son aşaması olan “Ne Öğrendim?” sorusunun cevabı grup tartışması ile bulunur. Böylece öğrencilerin temaya başlamadan önce kavram yanılgılarının ne düzeyde giderildiği, merak ettiklerinin ne düzeyde karşılandığı ortaya çıkarılır. Tartışmadan elde edilen sonuçlar yazılı hâle getirilir ve öğrencilerle paylaşılır.  Farklılaştırma  12 of 13 21.08.2026 17:27 Öğrencilerin tahlil edilen gezi yazısının tür ve biçim özelliklerinden hareketle bulundukları yörede gezip gördükleri tarihî, kültürel vb. zenginlikleri barındıran mekân/mekânlara yönelik izlenimlerini yansıtan yazılar ve görseller hazırlamaları ve bunları sınıf/okul panosunda paylaşmaları sağlanabilir. * “Çevresel sürdürülebilirliği artırmak amacıyla nasıl projeler başlatılabilir?” sorusu kapsamında proje veya eylem planı istenebilir. Çevre ve teknoloji, “Hayatın Dengesi” temalı a�ş hazırlama, temayla ilişkili bir slogan yazma gibi konularda bir yarışma düzenlenebilir. “Hayatın Dengesi” temalı kısa video veya karikatür hazırlanabilir. Öğrencilerden tahlilini yaptıkları hikâyeyi dijital hikâyeye dönüştürmeleri, canlandırmaları, yaratıcı yazma tekniklerini kullanarak yeniden yazmaları istenebilir. Öğrencilerin “Hayatın Dengesi” temalı kamu spotları izleyerek verilen iletiyi tespit edip yazmaları istenebilir. Yörenin tarihî, kültürel vb. zenginliklerini görebilecekleri mekân/mekânlara gezi düzenlenebilir. “Hayatın Dengesi” temasına yönelik öğrencilerin �lm, belgesel vb. izlemeleri sağlanabilir. Güncelleme tarihi: 06.08.2026 13 of 13 21.08.2026 17:27",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/348"
+        },
+        "literacy_skills": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/348"
+        },
+        "interdisciplinary_relations": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/348"
+        },
+        "skills_relations": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/348"
+        },
+        "content_framework": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/348"
+        },
+        "key_concepts": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/348"
+        },
+        "learning_evidence": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/348"
+        },
+        "learning_teaching_experiences": {
+          "source_status": "SOURCE_EXPLICIT",
+          "heading": " Öğrenme-Öğretme Yaşantıları ",
+          "verbatim": "Öğrencilerin çevre bilinci ve sürdürülebilirliğin hayatın önemli dinamikleri arasında yer aldığına dair temel düzeyde bilgiye sahip olduğu varsayılmaktadır. Öğretici metinlerin yazılma amacı, yapısı, anlatım özellikleri vb. ile ilgili bilgi sahibi oldukları kabul edilmektedir. Öğrencilerin olay çevresinde gelişen edebî metinlerden hikâyenin özellikleriyle ilgili genel bilgilerinin olduğu düşünülmektedir. Ayrıca yazım ve noktalama kurallarını, anlatım tür ve tekniklerini; cümleye benzerlik, kesinlik, pişmanlık, gereklilik vb. anlamları katan ifade ve yapıları bildikleri kabul edilmektedir. Öğrencilerin temaya ilişkin temel kabullerini (ön bilgilerini) tespit etmek için soru-cevap, açık uçlu soru, beyin fırtınası gibi yöntemler uygulanabilir. Önceki öğrenme yaşantılarında gezi yazısı ile ilgili edinilen temel bilgiler bu temada işlenen gezi yazısı için ön bilgi oluşturulabilir. Teknoloji, sosyoloji, ekoloji disiplinlerinden öğrenilen bilgilerle bu temada öğrenilecek bilgiler arasında köprü kurulabilir. Öğrencinin günlük hayatta teknoloji ve çevreye yönelik edindiği bilgiler ve kazandığı deneyimler, tahlil edilen metinlere yönelik yapılacak yorumların kaynağını oluşturabilir. Öğrencilerin edebiyatın yaşamı her yönüyle kuşattığını içselleştirmeleri, içinde bulundukları çevreyi tahlil edilen metinlerle anlamlandırmaları 5 of 13 21.08.2026 17:27 sağlanabilir. Çevresel şartların kalitesini ve sürdürülebilirliğini teknolojik gelişmelerle yeniden düşünmeleri, tema çerçevesinde ele alınan metinler yoluyla sağlanabilir. Tahlil edilen metinler ile öğrencilerin çevrelerine yönelik sorumluluk bilinci kazanmaları beklenir. Ayrıca bu temada hikâye türünde bir metnin incelemesine yönelik edinilen bilgiler “Hayalimdeki Yarın” temasında da işlenecek hikâye türündeki metnin inceleme sürecinde ön bilgi işlevi görebilir. Bu süreçte öğrencilerden edebiyatın yaşamı her yönüyle kuşatan bir dil sanatı olduğunu fark etmeleri, içinde bulundukları çevreyi tahlil edilen metinlerle anlamlandırmaları ve çevresel şartların kalitesini ve sürdürülebilirliğini teknolojik gelişmelerle yeniden düşünmeleri beklenir. Bu temada okuma metni olarak edebî türlerden bir gezi yazısı ve bir hikâye tahlil edilir. Ardından teknoloji ve çevre temalı çok modlu bir haber metni dinletilir/izletilir. Konuşma becerisi üzerine yapılan çalışmalarda öğrencilerden tahlil edilen dinleme/izleme metninden hareketle teknoloji ve çevre ile ilgili güncel bir konuyu/problemi bir sunum vasıtasıyla ele alarak sözlü anlatım gerçekleştirmeleri beklenir. Öğrencilerin tahlil ettikleri okuma metninin içeriğinden areketle bir anket hazırlayıp uygulayarak anket sonuçlarını yazılı hâle getirmeleri sağlanır. Böylece yazılı bir ürün ortaya çıkarılıp yazma becerilerine işlerlik kazandırılır. Okuma becerisini geliştirmeye yönelik çalışmalarda öğrencilere çevrelerine dair sorumluluk bilinci kazandırmak, yaşanılan mekânları ve bu mekânların özelliklerini fark ettirmek amacıyla kültürel ve doğal zenginlikleri yansıtan edebî türlerden gezi yazısı tahlil edilir. Gezi yazısı ile mekâna ait bilgilendirici ifadeler de içermesi yönünden benzer özelliklere sahip broşür, karşılaştırma metni/ara metin olarak ele alınır. Sürdürülebilir bir hayatın temel unsuru olan bireyi ve içinde yaşadığı toplumu çeşitli yönleri ile yansıtan bir hikâyenin tahlili yapılır. Öğrencilerden gezmek istedikleri üç yeri (yakın çevrelerinden bir yer, ülke sınırları içinde bir yer, dünyadaki bir yer) nedenlerini belirterek not kâğıtlarına yazmaları istenir. Bu kâğıtların görsellerle desteklendiği bir pano oluşturulur. Okuma metni olarak yaşanılan mekânları ve bu mekânların kültürel ve doğal zenginliklerini yansıtan edebî türlerden bir gezi yazısı belirlenir. Göz atarak okuma yöntemiyle metnin başlıkları ve görselleri öğrencilere inceletilir, buna bağlı olarak içerik hakkında öğrencilerden tahminde bulunmaları istenir . Metinle ilgili 6 of 13 21.08.2026 17:27 çözümleme ve değerlendirme yapılacağı öğrencilere hatırlatılır, yazarın duygu ve izlenimlerini yansıtan unsurların altı çizilerek metin okunur . Gezi yazısı okunurken öğretici metinlerin özellikleriyle ilgili ön bilgiler beyin fırtınası yöntemi ile kontrol edilir. Öğrencilerin beyin fırtınası ile elde ettikleri bilgilerden çıkarımlar yapması sağlanır . Metindeki anlamı bilinmeyen kelimeler, bağlamdan hareketle tahmin edilir. Metnin içeriği hakkında öğrenilen bilgilerin yardımıyla metne konu olan yerin tarihî, coğra� ve kültürel özellikleri hakkında görüşler açıklanır . Sınıf gruplara ayrılarak kısa cevaplı sorularla soru- cevap çalışması yaptırılır ve metinde bahsi geçen yerlerdeki sosyal hayata yönelik tahminlerde bulunulur . Vatanseverlik değerinden hareketle ülkesinin doğal güzellikleri ve kültürel mirasının tanıtılmasında gezi yazılarının önemini fark etmesini sağlayacak açık uçlu sorular sorulur . Metinde açıkça sunulan bilgileri, metinden yaptığı çıkarımları, metnin konusunu, ana düşüncesini ve yardımcı düşüncelerini, metnin yazılma amacını, bilgilerin sunuluş şeklini belirleyerek gruplardan bir bilgi görseli hazırlaması istenir . Öğrencilerden, hazırladıkları bilgi görselinde metin ile yazar arasındaki ilişkiyi belirlemesi istenir. Hazırlanan bilgi görselleri karşılaştırılır, karşılaştırma sonuçlarından genellemelere ulaşılarak gezi yazısının genel özellikleri belirlenir . Öğrenciler, metni okumadan önce içerikle ilgili yaptığı tahminleri, metni okuduktan sonra belirlediği içerik ile tahminlerindeki isabet açısından karşılaştırır. Daha sonra öğrenciler, okudukları metindeki betimleme, benzetme, açıklama gibi anlatım biçimlerinin yanı sıra düşünceyi geliştirme yollarının kullanımını tespit eder. Tespitlerine göre bunları metin içeriğine katkısı bakımından sını�andırır. Öznel ve nesnel ifadeleri ayırt edip “balık kılçığı” yöntemi ile belirler . Metin özetlenir. Gezi yazısı metninin yanında kullanılmış görsel varsa bunların metne katkısı ile ilgili görüşler belirlenir. Öğrencilerden metni farklı görsellerle desteklenmesi istendiğinde nasıl bir görsel kullanmayı düşündüklerini sözlü olarak ifade etmesi istenebilir. Gruplar, gezi yazısında mekân, zaman, kıyafet vb. unsurların ve bunlar arasındaki ilişkilerin ana �kre ya da içeriğe bir etkisi olup olmadığını belirler. Metnin yapı unsurları ile dil ve anlatım özelliklerini tespit eder. Belirlediği yapı unsurları arasındaki ilişkiyi, üslup seçiminin nedenleri üzerine düşüncelerini açıklar. Metnin yazıldığı dönemin özelliklerini yansıtan kelimeleri ve kelime gruplarını listeleme yöntemi ile tespit eder. Bu tespitten yola çıkarak metnin toplum yaşamı ile ilişkisi 7 of 13 21.08.2026 17:27 hakkında görüş bildirir . Millî, manevi, evrensel değerlerin metne olan yansımalarını tespit eder. Metnin diğer disiplinlerle (tarih, coğrafya, sosyoloji, teknoloji vb.) ilişkisini değerlendirip karşılaştırma tablosu hazırlar. Gruplar, çalışmalarını sunar. Genellemeye ulaşır. Süreç çalışma kâğıdı ile değerlendirilir. Öğrenciler, metin hakkında değerlendirme yapmak için ölçütler belirler. Bir tablo şeklinde hazırladığı ölçütler doğrultusunda metni değerlendirir. Metne yönelik beğeni ve eleştirilerini, yazarın amacı ile kendi düşünceleri arasındaki benzerlik ve farklılıkları “balık kılçığı” yöntemi ile belirtir . Bu tespitlerinin günlük hayatın gerçekliği içindeki yeri hakkında görüş belirtir. Okuduğu metnin hangi disiplinlerle ilişkili olduğunu belirleyip bu disiplinlerin metne katkısı ile ilgili değerlendirme yapar. • İkinci okuma metni olarak hikâye türünde bir eser ele alınır ve edebî metinlere yönelik metin tahlili aşamaları uygulanır. Hikâye türüne özgü yapı ve üslup özellikleri göz önünde bulundurularak gerekli",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/348"
+        },
+        "differentiation": {
+          "source_status": "SOURCE_EXPLICIT",
+          "heading": "farklılaştırmalar yapılır.",
+          "verbatim": "Öğrencilere tahlil ettikleri gezi yazısının içeriğinden hareketle bir anket hazırlamalarına yönelik performans görevi verilir . Performans görevini gerçekleştirmesi için öğrencilerin sınıf dışında çalışma yapması istenir, bu nedenle görev öğrencilere metin tahlili sürecinde verilir. Sınıf dışında öğrencilerden tahlil ettikleri gezi yazısının içeriğinden hareketle bir anket hazırlamaları, anketlerini belirledikleri hedef kitleye uygulamaları ve sonuçlarını değerlendirmeleri istenir. Anketin uygulanmasıyla elde edilen sonuçlar, yazılı olarak sınıf içinde paylaşılır. Bu süreç, öğrencilerin gezi yazısının içeriğinden yola çıkarak bir anket oluşturma, hedef kitleyi belirleme ve sonuçlarını değerlendirme becerilerini geliştirmelerini amaçlar . Temanın içeriğine uygun bir probleme/konuya odaklanan ankette iş birliği yapılabilecek kişi ve gruplar tespit edilip anketin uygulanabilirliğini artırmak, anlama ve anlamlandırmayı kolaylaştırmak, alternatif �kirler ortaya koymak amacıyla uygun yazma yöntem ve stratejileri seçilir. Yazma sürecine etki eden engeller ortadan kaldırılır . Yapılan grup çalışmalarında insan ilişkilerinde yapıcı davranılarak kişi ve gruplarla iş birliği yapmaya özen gösterilir ve böylelikle öğrencilerde mütevazılık değeri desteklenir . 8 of 13 21.08.2026 17:27 Anket içeriği grup çalışmasıyla oluşturulur . İçerik oluşturulurken temayla ilgili ön bilgilerden faydalanılarak ankette ne tür soruların olabileceği hakkında tahmin yürütülür. Anketin temasını yansıtabilecek düşünceler karşılaştırılarak grup içi etkileşimler sonucu elde edilen bilgiler sını�andırılır . Öğrenciler, temada edindiği bilgilerden hareketle uygun söz varlığını kullanarak kendi yazısının içeriğini düzenler. Yazısında insanlarla rahat bir iletişim kurmasını sağlayacak dil ve anlatım özelliğini seçer. Görsel ögelerden hangilerini (gra�k, tablo vb.) yazısında kullanacağına karar verir. Hazırladığı taslak planını sınıfta arkadaşlarına sunar. Arkadaşlarının vereceği geri bildirimler doğrultusunda planına son şeklini verir. Anketin içeriğini desteklemek ve anlaşılırlığını kolaylaştırmak amacıyla liste, gra�k, tablo ve şablonlardan faydalanılarak anketle ilgili bilgilendirici ve açıklayıcı bir sunum yapılır . Öğrenciler, anket sonuçlarına yönelik hazırlayacağı yazıya planına uygun bir şekilde başlar. Yazısını desteklemek için anlatım biçimleri ve düşünceyi geliştirme yollarından yararlanır ve düşüncelerini özgün bir üslupla ifade eder. Yazısını hedef kitleye uygun bir söz varlığı ve destekleyici bilgiler ile devam ettirir. Yazısında iletileri açık ve tutarlı bir şekilde ifade eder. Buna bağlı olarak başlatma, sürdürme ve bitirme ifadelerini etkili kullanır. Türkçe dil yapılarını dilin işlevine uygun kullanır. Kelimeler arasındaki uyuma, yazım ve noktalama kurallarına dikkat eder. Öğrenciler, anket sonuçlarına yönelik hazırladıkları yazıyı içerik, dil ve anlatım özellikleri yönünden değerlendirir. Öğretmen tarafından dereceli puanlama anahtarı ile değerlendirilen performansın yanı sıra öğrencilerden, yapacakları değerlendirmeleri öğrenme günlüğüne yansıtmaları istenir . Akranlarından ve öğretmenden gelen bilgileri göz önünde bulundurarak daha sonra oluşturacağı yazılar için kendisine yeni hede�er belirler. Anket sonuçlarını içeren bu çalışmanın, sınıf/okul panolarında ya da okulun resmî çevrim içi ortamlarında paylaşılması sağlanır. Öğrencilerden teknoloji ve çevre temalı çok modlu bir haber metni dinlemeleri/izlemeleri istenir Dinletilen/izletilen metnin ilgili tema çerçevesinde teknoloji ve çevre konusunda olmasına özen gösterilir. Sürdürülebilirlik kavramına değinilir ve öğrencilerin sürdürülebilirliği ve sürdürülebilir kalkınmayı anlaması yönünde tartışma gerçekleştirilir . 9 of 13 21.08.2026 17:27 Öğrenciler, temaya bağlı olarak ele alınan haber metnini dinlemeden/ izlemeden önce dinleme/izleme amacı ile yöntem ve stratejisini belirler. Dinleyeceği/izleyeceği metnin �kri mülkiyet haklarını hakkaniyetli ve dürüst bir tutumla göz önüne alarak metnin içerik ve türüne yönelik tahminlerde bulunur . Dinleme/izleme sürecinin sağlıklı yürütülmesi için öğrencilerin dinleme/izleme sürecine etki eden bilişsel, duyuşsal ve �ziksel etkenleri içeren bir gözlem formu oluşturulabilir. Bu formla öğrencilerin dinleme/izleme sürecindeki gelişimleri notlar tutularak takip edilir. Dinleme/izlemenin etkili bir biçimde gerçekleşebilmesi için metin ve ortamla ilgili iletişim engelleri ortadan kaldırılır . Çevre ve teknoloji temasının hangi yönünün haber metnine konu olabileceği hususunda “tartışma tekniği” uygulanarak ön bilgilerle bağlantı kurulur . Temayı ele alan haber metni izletilerek/dinletilerek haber metninde yer alan bilgilerin güvenilirlik, geçerlilik ve tutarlılığı ile ilgili görüş oluşturulur. Dinlenen/izlenen metindeki söz varlığının anlamı, bağlamdan hareketle belirlenir. Çevre ve teknoloji teması ele alınırken öznel ve nesnel yargılar kullanım amaçlarına göre sını�andırılır. Çevre ve teknoloji temasının geçmişten günümüze topluma yansımaları hakkında “soru-cevap tekniği” ile karşılaştırmalar yapılarak çalışma kâğıdı hazırlanır . Çevre ve teknoloji temasının topluma yansıyan olumsuz tara�arının düzeltilmesi için neler yapılabileceği konusunda öğrencilerin görüşlerini belirtmesi istenir . Öğrencilerin haber metnindeki iletileri temayı ne kadar yansıttığına ve hayatın dengesine yönelik bir grup çalışması yaptırılır. Buna göre sınıf gruplara ayrılır . “Lotus tekniği” kapsamında ortaya “sürdürülebilirlik” yazılır. Kelimenin etrafına onunla ilgili çevresel problemler yazılır. Söz konusu her problemin hayata olan etkileri 8 �kir olarak ilgili problemin etrafına yazılır. Böylece dinleme/ izleme metninin düşündürdüğü çevre sorunlarının yaşama etkisi hakkında sekizer �kir oluşmuş olur . Ardından gruplar birbirlerinin çalışmalarını inceler ve öğretmen rehberliğinde ortak olan noktalar tartışılır. Öğrencilerin görüşlerini gerekçeleriyle açıklamaları sağlanır . Dinlenen/izlenen çok modlu metnin yapı unsurları, diğer disiplinlerle (tarih, coğrafya, sosyoloji, teknoloji vb.) ilişkisi, dil ve anlatım özellikleri zihin haritası veya açık uçlu sorular kullanılarak belirlenir . Bu çalışmayla metindeki yapı unsurları arasındaki ilişkiyle üslup seçiminin nedenleri açık uçlu sorularla sıralanır . Ayrıca metinde benzerlik, kesinlik, pişmanlık, gereklilik anlamı katan ifade ve yapılar bulunur ve bunların işlevleri değerlendirilir. Öğrenciler, dinledikleri/izledikleri 10 of 13 21.08.2026 17:27 metinle yeni metin arasında yapı unsurlarıyla dil ve anlatım arasında ilişki kurar. Öğrencilerin, dinledikleri/izledikleri çok modlu metni kendi duygu ve düşünceleri doğrultusunda değerlendirerek çıkış kartı hazırlaması sağlanır . Böylece öğrencilere etkin dinleyici kimliklerini geliştirmeye yönelik farkındalık kazandırılır . Öğrencilerden dinledikleri/izledikleri metnin konu ve ana düşüncesinin kendi dünyasıyla olan ilişkisini ortaya koymaları istenir. Öğrencilere tahlil edilen dinleme/izleme metninden hareketle teknoloji ve çevre ile ilgili güncel bir konuyu/problemi bir sunum vasıtasıyla ele alacakları sözlü anlatım gerçekleştirmelerine yönelik bir performans görevi verilir . Öğrenciler tarafından temaya bağlı olarak sürdürülebilirlik ile ilişkilendirilebilecek; çevreyi kirletmeyen yeni teknolojik gelişmeleri tanıtmak, yenilenebilir enerji kaynakları hakkında bilgi vermek, bunların kullanım alanları ve sağlıklı yaşama etkilerini değerlendirmek gibi konularda sunum yapılır . Sunum yapmadan önce konuya, hedef kitleye uygun konuşma yöntem ve stratejileri seçilir. Sunum için gerekli araştırma ve ön hazırlıklar tamamlanarak bir sunum hazırlanır. Öğrencilerin çevreye ve canlılara değer vermesi , çevre sorunlarına ve iklim krizine karşı duyarlı olması , ekosistemi korumada tüketim alışkanlıklarını değiştirmenin önemini fark etmesi amacıyla öğrencilere kısa cevaplı ve açık uçlu sorular sorulur . Sunum metni oluşturulurken öğrenilecek kavram ve bilgiler ile öğrencilerin ön bilgilerinin ilişkilendirilmesi sağlanır. Bu amaçla öğrencilere kısa cevaplı sorular sorulur. Öğrenciler; çevre, teknoloji ve bunların insan yaşamına etkileriyle ilgili güncel bir konuyu ele alan konuşmalarının giriş, gelişme ve sonuç bölümlerini planlar. Konuşmanın ana düşüncesine ve yardımcı düşüncelerine karar verir, bu doğrultuda karşılaştırma içeren iletiler oluşturur. Amacını ve hedef kitlesini göz önünde tutarak konuşmasının içeriğini belirler. Sunuma konu olan kavram ve bilgileri özelliklerine göre sını�andırır. Metne değer katan unsurları belirleyerek bunları sunumda etkili bir şekilde nasıl kullanacağını planlar ve taslak bir metin oluşturur. Konuşmasının türüne ve hedef kitlenin özelliklerine uygun söz varlığını kullanarak konuşmasının içeriğini düzenler. Öğrenciler, gerektiğinde kendi görüş ve düşüncelerini farklı görüş ve düşünceleri dikkate alarak 11 of 13 21.08.2026 17:27 sunumun içeriğini yeniden düzenler . Ele aldıkları konu hakkındaki genel duygu, düşünce ve davranışları değerlendirir . Bunun için öğrencilerden konuya ilişkin ölçütler belirlemeleri ve bu ölçütlerden yararlanarak bir kontrol listesi oluşturmaları istenir. Öğrencilerden sunum planlarını paylaşmaları ve geri bildirimleri dikkate alarak sunumlarına son şeklini vermeleri istenir. Kendilerine ayrılan süreyi verimli kullanarak etkili bir sunum gerçekleştirmeleri sağlanır. Sunumun içeriğini desteklemek ve etkileyiciliğini artırmak amacıyla görsel ögeler kullanılarak yorumlar içeren bir sunum yapılır. Sunum yaparken vurgu ve tonlamaya dikkat edilir, dinleyicinin ilgisini canlı tutmaya özen gösterilir. Sunumda iletişim engelleri ortadan kaldırılır ve görgü kurallarına uygun hareket edilir . Sunumda kime, neyin, nasıl, nerede, hangi araçlar kullanılarak (5N1K) söyleneceği dikkate alınarak planlama yapılır . Ele alınan konuyla ilgili yorumları açıklamak amacıyla düşünceyi geliştirme yolları kullanılır. Sunumun içeriğine ve hedef kitleye göre belirlenen söz varlığı unsurları bağlama uygun şekilde kullanılır. Sunumda dinleyiciye/izleyiciye verilmek istenen iletiler açık veya örtük bir şekilde ifade edilir. Sunumda Türkçe dil yapısı işlevine uygun kullanılır ve bağdaşıklık ögelerine dikkat edilir. Sunum esnasında beden dili ve konuşma yapılan mekânın özellikleri, metnin temasını desteklemek amacıyla etkili bir biçimde kullanılır. İletişim kurulan kişi ya da kişilerle �ziksel mesafe ayarlanır . Gösterilen performans öğretmen tarafından dereceli puanlama anahtarı ile değerlendirilir. Öğrenci sunum sürecindeki konuşmasını içerik, anlatım ve akranlarından gelen görüşlerini akran değerlendirme formuyla değerlendirir . Bu formdaki değerlendirmeler sonucunda bundan sonra yapacağı konuşmalar için kendisine yeni hede�er belirler. Konuşmasını dijital ortamlar için yeniden düzenleyebilir. Sağlanan etkileşimin iletişime katkısı değerlendirilir. Sözlü etkileşimin gücü ve önemi fark ettirilir . Temanın sonunda Ne Biliyorum-Ne Bilmek İstiyorum-Ne Öğrendim tekniğinin son aşaması olan “Ne Öğrendim?” sorusunun cevabı grup tartışması ile bulunur. Böylece öğrencilerin temaya başlamadan önce kavram yanılgılarının ne düzeyde giderildiği, merak ettiklerinin ne düzeyde karşılandığı ortaya çıkarılır. Tartışmadan elde edilen sonuçlar yazılı hâle getirilir ve öğrencilerle paylaşılır.  Farklılaştırma  12 of 13 21.08.2026 17:27 Öğrencilerin tahlil edilen gezi yazısının tür ve biçim özelliklerinden hareketle bulundukları yörede gezip gördükleri tarihî, kültürel vb. zenginlikleri barındıran mekân/mekânlara yönelik izlenimlerini yansıtan yazılar ve görseller hazırlamaları ve bunları sınıf/okul panosunda paylaşmaları sağlanabilir. * “Çevresel sürdürülebilirliği artırmak amacıyla nasıl projeler başlatılabilir?” sorusu kapsamında proje veya eylem planı istenebilir. Çevre ve teknoloji, “Hayatın Dengesi” temalı a�ş hazırlama, temayla ilişkili bir slogan yazma gibi konularda bir yarışma düzenlenebilir. “Hayatın Dengesi” temalı kısa video veya karikatür hazırlanabilir. Öğrencilerden tahlilini yaptıkları hikâyeyi dijital hikâyeye dönüştürmeleri, canlandırmaları, yaratıcı yazma tekniklerini kullanarak yeniden yazmaları istenebilir. Öğrencilerin “Hayatın Dengesi” temalı kamu spotları izleyerek verilen iletiyi tespit edip yazmaları istenebilir. Yörenin tarihî, kültürel vb. zenginliklerini görebilecekleri mekân/mekânlara gezi düzenlenebilir. “Hayatın Dengesi” temasına yönelik öğrencilerin �lm, belgesel vb. izlemeleri sağlanabilir. Güncelleme tarihi: 06.08.2026 13 of 13 21.08.2026 17:27",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/348"
+        }
+      },
+      "process_component_policy": {
+        "status": "SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS",
+        "canonical_policy": "DO_NOT_SYNTHESIZE_OR_COPY_FROM_OTHER_GRADES",
+        "official_process_realization": "Published learning-teaching application paragraphs under the parent outcome codes are authoritative process realization; no separate sub-outcome IDs are synthesized.",
+        "canonical_evidence_file": "curriculum_normative_text.json",
+        "evidence_status": "VERIFIED_LOCAL_PDF_TEXT_EXTRACTION"
+      },
+      "learning_outcomes": [
+        {
+          "outcome_code": "TDE1.1",
+          "outcome_verbatim": "“Hayatın Dengesi” temasında ele alınan metinlerde dinleme/ izlemeyi yönetebilme",
+          "theme_scope": "TEMA_03",
+          "stable_entity_key": "TDE_12:TEMA_03:TDE1.1",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/348 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 3. TEMA - HAYATIN DENGESİ.PDF#page=2",
+          "local_source_sha256": "91f9d81b65ec3c1af82050d830d83f22077ae19f7e71bd12877150bcc693672c"
+        },
+        {
+          "outcome_code": "TDE1.2",
+          "outcome_verbatim": "“Hayatın Dengesi” temasında ele alınan metinlerde anlam oluşturabilme",
+          "theme_scope": "TEMA_03",
+          "stable_entity_key": "TDE_12:TEMA_03:TDE1.2",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/348 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 3. TEMA - HAYATIN DENGESİ.PDF#page=2",
+          "local_source_sha256": "91f9d81b65ec3c1af82050d830d83f22077ae19f7e71bd12877150bcc693672c"
+        },
+        {
+          "outcome_code": "TDE1.3",
+          "outcome_verbatim": "“Hayatın Dengesi” temasında ele alınan metinleri çözümleyebilme",
+          "theme_scope": "TEMA_03",
+          "stable_entity_key": "TDE_12:TEMA_03:TDE1.3",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/348 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 3. TEMA - HAYATIN DENGESİ.PDF#page=2",
+          "local_source_sha256": "91f9d81b65ec3c1af82050d830d83f22077ae19f7e71bd12877150bcc693672c"
+        },
+        {
+          "outcome_code": "TDE1.4",
+          "outcome_verbatim": "“Hayatın Dengesi” temasında ele alınan metinlerde dinleme/ izleme sürecini değerlendirebilme",
+          "theme_scope": "TEMA_03",
+          "stable_entity_key": "TDE_12:TEMA_03:TDE1.4",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/348 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 3. TEMA - HAYATIN DENGESİ.PDF#page=2",
+          "local_source_sha256": "91f9d81b65ec3c1af82050d830d83f22077ae19f7e71bd12877150bcc693672c"
+        },
+        {
+          "outcome_code": "TDE2.1",
+          "outcome_verbatim": "“Hayatın Dengesi” temasında ele alınan metinlerde okumayı yönetebilme",
+          "theme_scope": "TEMA_03",
+          "stable_entity_key": "TDE_12:TEMA_03:TDE2.1",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/348 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 3. TEMA - HAYATIN DENGESİ.PDF#page=2",
+          "local_source_sha256": "91f9d81b65ec3c1af82050d830d83f22077ae19f7e71bd12877150bcc693672c"
+        },
+        {
+          "outcome_code": "TDE2.2",
+          "outcome_verbatim": "“Hayatın Dengesi” temasında ele alınan metinlerde anlam oluşturabilme",
+          "theme_scope": "TEMA_03",
+          "stable_entity_key": "TDE_12:TEMA_03:TDE2.2",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/348 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 3. TEMA - HAYATIN DENGESİ.PDF#page=2",
+          "local_source_sha256": "91f9d81b65ec3c1af82050d830d83f22077ae19f7e71bd12877150bcc693672c"
+        },
+        {
+          "outcome_code": "TDE2.3",
+          "outcome_verbatim": "“Hayatın Dengesi” temasında ele alınan metinleri çözümleyebilme",
+          "theme_scope": "TEMA_03",
+          "stable_entity_key": "TDE_12:TEMA_03:TDE2.3",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/348 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 3. TEMA - HAYATIN DENGESİ.PDF#page=2",
+          "local_source_sha256": "91f9d81b65ec3c1af82050d830d83f22077ae19f7e71bd12877150bcc693672c"
+        },
+        {
+          "outcome_code": "TDE2.4",
+          "outcome_verbatim": "“Hayatın Dengesi” temasında ele alınan metinlerde okuma sürecini değerlendirebilme",
+          "theme_scope": "TEMA_03",
+          "stable_entity_key": "TDE_12:TEMA_03:TDE2.4",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/348 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 3. TEMA - HAYATIN DENGESİ.PDF#page=2",
+          "local_source_sha256": "91f9d81b65ec3c1af82050d830d83f22077ae19f7e71bd12877150bcc693672c"
+        },
+        {
+          "outcome_code": "TDE3.1",
+          "outcome_verbatim": "Güncel teknoloji ve çevre konusunda yaşadığı dünyayı 2 of 13 21.08.2026 17:27 güzelleştirme farkındalığı oluşturmak için yapacağı konuşmasını yönetebilme",
+          "theme_scope": "TEMA_03",
+          "stable_entity_key": "TDE_12:TEMA_03:TDE3.1",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/348 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 3. TEMA - HAYATIN DENGESİ.PDF#page=2",
+          "local_source_sha256": "91f9d81b65ec3c1af82050d830d83f22077ae19f7e71bd12877150bcc693672c"
+        },
+        {
+          "outcome_code": "TDE3.2",
+          "outcome_verbatim": "Sürdürülebilirlik ve teknolojinin çevresel etkileri konusunda gerçekleştireceği konuşması için içerik oluşturabilme",
+          "theme_scope": "TEMA_03",
+          "stable_entity_key": "TDE_12:TEMA_03:TDE3.2",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/348 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 3. TEMA - HAYATIN DENGESİ.PDF#page=3",
+          "local_source_sha256": "91f9d81b65ec3c1af82050d830d83f22077ae19f7e71bd12877150bcc693672c"
+        },
+        {
+          "outcome_code": "TDE3.3",
+          "outcome_verbatim": "Sürdürülebilirlik ve teknolojinin çevresel etkileri konusunda gerçekleştireceği konuşması için kural uygulayabilme",
+          "theme_scope": "TEMA_03",
+          "stable_entity_key": "TDE_12:TEMA_03:TDE3.3",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/348 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 3. TEMA - HAYATIN DENGESİ.PDF#page=3",
+          "local_source_sha256": "91f9d81b65ec3c1af82050d830d83f22077ae19f7e71bd12877150bcc693672c"
+        },
+        {
+          "outcome_code": "TDE3.4",
+          "outcome_verbatim": "Sürdürülebilirlik ve teknolojinin çevresel etkileri konusunda gerçekleştireceği konuşmasına yönelik süreci değerlendirebilme",
+          "theme_scope": "TEMA_03",
+          "stable_entity_key": "TDE_12:TEMA_03:TDE3.4",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/348 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 3. TEMA - HAYATIN DENGESİ.PDF#page=3",
+          "local_source_sha256": "91f9d81b65ec3c1af82050d830d83f22077ae19f7e71bd12877150bcc693672c"
+        },
+        {
+          "outcome_code": "TDE4.1",
+          "outcome_verbatim": "Sürdürülebilir hayata yönelik toplumsal sorumluluklarını ortaya koyacakları yazma sürecini yönetebilme",
+          "theme_scope": "TEMA_03",
+          "stable_entity_key": "TDE_12:TEMA_03:TDE4.1",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/348 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 3. TEMA - HAYATIN DENGESİ.PDF#page=3",
+          "local_source_sha256": "91f9d81b65ec3c1af82050d830d83f22077ae19f7e71bd12877150bcc693672c"
+        },
+        {
+          "outcome_code": "TDE4.2",
+          "outcome_verbatim": "Toplumsal yaşam, sürdürülebilirlik, kültürel ve çevresel unsurlara yönelik başkalarının görüşlerini alabileceği kendi yazısına içerik oluşturabilme",
+          "theme_scope": "TEMA_03",
+          "stable_entity_key": "TDE_12:TEMA_03:TDE4.2",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/348 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 3. TEMA - HAYATIN DENGESİ.PDF#page=3",
+          "local_source_sha256": "91f9d81b65ec3c1af82050d830d83f22077ae19f7e71bd12877150bcc693672c"
+        },
+        {
+          "outcome_code": "TDE4.3",
+          "outcome_verbatim": "Toplumsal yaşam, sürdürülebilirlik, kültürel ve çevresel unsurlara yönelik başkalarının görüşlerini alabileceği yazısı için kural uygulayabilme",
+          "theme_scope": "TEMA_03",
+          "stable_entity_key": "TDE_12:TEMA_03:TDE4.3",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/348 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 3. TEMA - HAYATIN DENGESİ.PDF#page=3",
+          "local_source_sha256": "91f9d81b65ec3c1af82050d830d83f22077ae19f7e71bd12877150bcc693672c"
+        },
+        {
+          "outcome_code": "TDE4.4",
+          "outcome_verbatim": "Sürdürülebilir hayat için toplumsal sorumluluklara yönelik farklı görüşleri ve kendi görüşlerini bir araya getirdiği yazısı hakkındaki yazma sürecini değerlendirebilme “Hayatın Dengesi” temasının içerik çerçevesi şu şekildedir: • Okuma • Yazma • Dinleme/İzleme • Konuşma Okuma becerisinin geliştirilmesi için dünyadaki kaynakların kullanımı, birey ve toplumların kendi ihtiyaçlarını karşılayabilmesi, yaşanan çevreyi koruma ve ona saygı gösterme, yaşam tarzı vb. içerikleri etkili biçimde yansıtabilecek edebî türlerden bir gezi yazısı seçilir. Gezi yazısı ile mekâna",
+          "theme_scope": "TEMA_03",
+          "stable_entity_key": "TDE_12:TEMA_03:TDE4.4",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/348 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 3. TEMA - HAYATIN DENGESİ.PDF#page=3",
+          "local_source_sha256": "91f9d81b65ec3c1af82050d830d83f22077ae19f7e71bd12877150bcc693672c"
+        }
+      ],
+      "assessment_requirements": [
+        {
+          "assessment_id": "TDE_12_TEMA_03_ASSESSMENT_01",
+          "assessment_type": "PERFORMANCE_TASK",
+          "requirement": "Çevre ve teknoloji bağlamında güncel bir sorun hakkında sunum hazırlamaya yönelik performans görevi",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/348 :: Öğrenme Kanıtları (Ölçme ve Değerlendirme)",
+          "verification_status": "VERIFIED_OFFICIAL_CURRICULUM",
+          "local_evidence_pages": [
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 3. TEMA - HAYATIN DENGESİ.PDF#page=5",
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 3. TEMA - HAYATIN DENGESİ.PDF#page=8"
+          ],
+          "local_source_sha256": "91f9d81b65ec3c1af82050d830d83f22077ae19f7e71bd12877150bcc693672c"
+        },
+        {
+          "assessment_id": "TDE_12_TEMA_03_ASSESSMENT_02",
+          "assessment_type": "PERFORMANCE_TASK",
+          "requirement": "Sürdürülebilirlik ile ilgili bir anket hazırlanıp uygulama sonuçlarını yazılı paylaşabilmesine yönelik performans görevi",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/348 :: Öğrenme Kanıtları (Ölçme ve Değerlendirme)",
+          "verification_status": "VERIFIED_OFFICIAL_CURRICULUM",
+          "local_evidence_pages": [
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 3. TEMA - HAYATIN DENGESİ.PDF#page=5",
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 3. TEMA - HAYATIN DENGESİ.PDF#page=8"
+          ],
+          "local_source_sha256": "91f9d81b65ec3c1af82050d830d83f22077ae19f7e71bd12877150bcc693672c"
+        },
+        {
+          "assessment_id": "TDE_12_TEMA_03_ASSESSMENT_03",
+          "assessment_type": "THEME_END_EVALUATION",
+          "requirement": "Tema değerlendirmesi için giriş-çıkış kartı kullanılır.",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/348 :: Öğrenme Kanıtları (Ölçme ve Değerlendirme)",
+          "verification_status": "VERIFIED_OFFICIAL_CURRICULUM",
+          "local_evidence_pages": [
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 3. TEMA - HAYATIN DENGESİ.PDF#page=5",
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 3. TEMA - HAYATIN DENGESİ.PDF#page=8"
+          ],
+          "local_source_sha256": "91f9d81b65ec3c1af82050d830d83f22077ae19f7e71bd12877150bcc693672c"
+        }
+      ],
+      "local_source_snapshot": {
+        "filename": "Türk Dili Ve Edebiyatı Dersi 12.Sınıf 3. TEMA - HAYATIN DENGESİ.PDF",
+        "path": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 3. TEMA - HAYATIN DENGESİ.PDF",
+        "sha256": "91f9d81b65ec3c1af82050d830d83f22077ae19f7e71bd12877150bcc693672c",
+        "git_blob_sha": "cd92f5a05ad847af9db7855f4deff619b52d114b",
+        "page_count": 13,
+        "verification_status": "VERIFIED_LOCAL_OFFICIAL_SNAPSHOT"
+      },
+      "normative_text_evidence": {
+        "status": "VERIFIED_LOCAL_PDF_TEXT_EXTRACTION",
+        "canonical_evidence_file": "curriculum_normative_text.json",
+        "evidence_theme_id": "TEMA_03",
+        "source_pdf": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 3. TEMA - HAYATIN DENGESİ.PDF",
+        "source_sha256": "91f9d81b65ec3c1af82050d830d83f22077ae19f7e71bd12877150bcc693672c",
+        "page_count": 13,
+        "extraction_method": "pdftotext -layout (Poppler)",
+        "extraction_quality": "TEXT_LAYER_WITH_GLYPH_REPLACEMENTS",
+        "verbatim_evidence_scope": "FULL_PDF_PAGE_TEXT_PRESERVED"
+      },
+      "school_based_planning_provisions": {
+        "source_status": "SOURCE_NOT_EXPLICIT_ON_THEME_PAGE",
+        "planning_layer": {
+          "authority": "USER_CONFIRMED_PLANNING_RULE",
+          "hours": 2,
+          "outer_theme_total_hours": 45,
+          "curriculum_gap": false
+        }
+      }
+    },
+    {
+      "theme_id": "TEMA_04",
+      "theme_number": 4,
+      "exact_theme_name": "HAYALİMDEKİ YARIN",
+      "source_id": "official_tymm_theme_04",
+      "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/351",
+      "verification_status": "VERIFIED_OFFICIAL_REMOTE_AND_LOCAL_CONTENT",
+      "allocated_lesson_hours": {
+        "instructional_total": 43,
+        "verbatim": "Ders Saati: 43",
+        "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/351 :: Ders Saati",
+        "planning_layer": {
+          "school_based_planning_hours": 2,
+          "theme_total_hours": 45,
+          "authority": "USER_CONFIRMED_PLANNING_RULE",
+          "semantics": "Official TYMM instructional hours remain unchanged; school-based planning is a separate planning layer."
+        }
+      },
+      "program_elements": {
+        "field_skills": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/351"
+        },
+        "tendencies": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/351"
+        },
+        "social_emotional_learning_skills": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/351"
+        },
+        "values": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/351"
+        },
+        "literacy_skills": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/351"
+        },
+        "interdisciplinary_relations": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/351"
+        },
+        "skills_relations": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/351"
+        },
+        "content_framework": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/351"
+        },
+        "key_concepts": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/351"
+        },
+        "learning_evidence": {
+          "source_status": "SOURCE_NOT_EXPLICIT",
+          "verbatim": "",
+          "heading": null,
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/351"
+        },
+        "learning_teaching_experiences": {
+          "source_status": "SOURCE_EXPLICIT",
+          "heading": " Öğrenme-Öğretme Yaşantıları ",
+          "verbatim": "Bu temada öğrencilerin meslek seçiminin hayatın her alanına etki ettiğini; öğretici metinlerin yazılma amacını, yapısını, anlatım özelliklerini; hikâye türünün genel özelliklerini; hazırlıklı konuşma (sunum) yapmayı; belirlenen bir konuya ilişkin metin oluşturabilmeyi, dil bilgisi kurallarını; kararsızlık, abartma, istek, plan, tasarı anlamı taşıyan ifade ve yapıları bildiği kabul edilmektedir. “Hayalimdeki Yarın” temasını yansıtan metinlerle ilgili öğrencilerin bilgi düzeylerini tespit etmek için soru-cevap, görüş geliştirme, tartışma ve beyin fırtınası gibi yöntemler uygulanabilir. Önceki öğrenme yaşantılarında hikâye, mülakat ve makale türü ile ilgili temel bilgiler bu temada işlenen türler için ön bilgi oluşturulabilir. Sosyoloji ve psikoloji disiplinlerinden öğrenilen bilgilerle bu temada öğrenilecek bilgiler arasında köprü kurulabilir. Öğrencilerin günlük hayatta mesleklere yönelik edindiği ve çevresindeki yaşantılardan hareketle sahip olduğu bilgiler, tahlil edilen metinlere yönelik yapılacak yorumların kaynağını oluşturabilir. Öğrencilerin önceki sını�arda öğrendikleri hikâye türüyle ilgili temel bilgiler, bu temadaki hikâyenin inceleme sürecinde kullanılabilir. Önceki temalarda incelemesi yapılan öğretici metinler ve bunlarla ilgili bilgilerden bu temada işlenen makalenin çözümleme aşamasında yararlanılabilir. Öğrencilerin bu temada meslek seçimi konusunda ve farklı mesleklerle ilgili edindikleri bilgi, beceri ve izlenimleri günlük yaşamlarıyla bütünleştirmeleri beklenir. “Hayalimdeki Yarın” temasında seçilen ilk okuma metni nesnel anlatım özelliklerine sahip, doğru ve güvenilir bilgi sunan makaledir. Diğer okuma metni gerçek ya da gerçeğe yakın olayların ele alındığı hikâyedir. Dinleme/izleme için mülakat türünün özelliklerini taşıyan çok modlu bir metin incelenir. Konuşma becerileri kapsamında öğrencilerden ileride seçmek istedikleri meslekleri belirlemeleri, bu meslekler hakkında farklı kişilerle röportaj yapmaları ve bunu sınıfta sunmaları beklenir. Yazma becerileri çerçevesinde ise 5 of 13 21.08.2026 17:28 öğrencilerden hayallerindeki mesleğin tanıtımına yönelik bir metin oluşturmaları istenir. Öğrencilerden gelecekte hangi mesleklerin ön planda olabileceğiyle ilgili görüşlerini gerekçeleriyle açıklamaları istenir . Bu mesleklerden hangilerinin kendi kariyerleri açısından uygun olabileceğine dair görüşleri alınır. Meslek seçimi konusunda ölçütlerinin neler olabileceğiyle ilgili düşüncelerini paylaşmaları istenir ve seçecekleri mesleklerin toplumdaki yeri hakkında değerlendirmeler yapılır . Öğrencilerin seçecekleri meslekte yetkin ve güvenilir olmayı önemsemesi , yetkinlik kazanmanın sabır ve emek gerektirdiğini fark etmesi sağlanır . Öğrencilerden “Hayalimdeki Yarın” temasının kendilerinde uyandırdığı çağrışımlarla ilgili açıklama yapmaları istenir. Bu süreçte, Ne Biliyorum-Ne Bilmek İstiyorum-Ne Öğrendim tekniğinin ilk aşaması kullanılabilir . Böylece öğrencilerin “Hayalimdeki Yarın” temasıyla ilgili hazır bulunuşlukları belirlenerek derse katılımları sağlanabilir. Okuma metni olarak bir makale seçilir. Seçilen makalenin meslekler veya meslek seçimleri konusunda bilgiler içermesi, temaya uygun bir metin olması beklenir. Okumaya başlamadan önce metne göz atılır; metnin başlığı, varsa alt başlıkları, yazarı, yazı tipi, yazı puntosu, görsel ögeleri incelenir. Metnin içeriği hakkında görüş oluşturulur. Metnin daha iyi anlaşılabilmesi için öğrencilere önemli görülen yerleri işaretlemeleri hatırlatılır. Öğrencilerden seçilen metni çözümlemek için uygun okuma yöntem ve stratejisi belirlemeleri istenir. Okuma stratejisi oluşturulurken kısa cevaplı sorular yardımıyla öğrencilerin metinle ilgili ilk izlenimlerinden ve ön bilgilerinden yararlanmaları sağlanabilir. Makale metninin içeriği ile meslekler arasında bağ kurulur. Bunun için öğrencilerin ön bilgilerinden yararlanmaları sağlanır. İncelenen makaledeki bilgilerden yola çıkılarak metnin içeriğinin okuyucunun beklentilerini ne kadar karşıladığı sorulur. Bunun için de “beyin fırtınası tekniği” ile tahminlerde bulunulması sağlanır . İncelenen makaleden yola çıkılarak metnin içeriğiyle ilişkilendirilen birkaç mesleğin özellikleri, çalışma kâğıdı kullanılarak sını�andırılır. Ardından makaleden yola çıkılarak öğrencilerin seçeceği meslekle ilgili çıkarımlarda bulunması istenir. Makalede ele alınan meslekler hakkında verilen bilgiler niteliklerine göre sını�andırılır . Bu bilgiler verilirken yazarın meslekler hakkında 6 of 13 21.08.2026 17:28 kendi düşüncelerini mi aktardığı yoksa o meslekle ilgili genel kabuller mi olduğu sorgulanır, öğrencilerin bu konuda kendi görüşlerini bildirmeleri sağlanır . Okuma metnindeki başka iletiler de çeşitli yönlerden ön bilgilerle karşılaştırılabilir, öğrencilerin bu iletilere yönelik görüşlerini gerekçelendirerek açıklamaları istenir. Makalenin bölümleri ve bu bölümler arasındaki ilişkiler açık uçlu sorularla belirlenir. Makalenin bilimsel gerçekleri ele alması gerektiği öğrencilere “soru-cevap tekniği” ile keşfettirilir. Bu noktada makale yazımında uyulması gereken etik kuralların ve dürüst olmanın önemi vurgulanır ve bir araştırmacının sahip olması gereken niteliklere vurgu yapılır . Makalede ortaya konan argümanlar, neden-sonuç ilişkileri bakımından değerlendirilir. Makalenin içeriğinden hareketle metnin yazılış amacı ve hedef kitlesine yönelik tespitler yapılır. Metnin yapı unsurları belirlenir ve bunlar arasındaki uyum ve bütünlük değerlendirilir. Metinde verilmek istenen ana düşüncenin metnin yapısı etrafında nasıl şekillendirildiği açıklanır. Tahlil edilen makalenin diğer disiplinlerle (sosyoloji, psikoloji vb.) ilişkisi değerlendirilir. Metnin dil ve anlatım özellikleri incelenerek dil ve üslupla ilgili çıkarımlar yapılır . Dil ve anlatım özellikleri üzerinde durulurken metinlerdeki kararsızlık, abartma, istek, plan, tasarı anlamı katan ifade ve yapılar bulunur; bunların işlevleri değerlendirilir. Bu aşamalar, üç kişilik grup çalışması ile de gerçekleşebilir. İncelenen makale ile ilişkilendirilen mesleklere başvurabilmek için gereken ön koşullarla ilgili öğrencilerin tahminlerde bulunmaları istenir. Bu tahminler çerçevesinde söz konusu mesleklere iş başvurusunda kullanılan öz geçmişler, genel ağ taramasıyla bulunur ve incelenir. Bu çalışma gruplara ayrılarak gerçekleştirilebilir, takım çalışması yapılabilir . Öz geçmişler; format, bölümler, mesleğe uygun niteliklere sahip olma, işlevsellik vb. yönlerden grup içinde değerlendirilir. Bu bağlamda mütevazılık değerinden hareketle öğrencilerin kendilerini tanıması teşvik edilebilir; bireysel beceri, eğilim ve ilgilerini keşfetmeleri sağlanabilir . Değerlendirme yapıldıktan sonra geri bildirim verilir. Öz geçmişler diğer gruplarla da paylaşılarak akran değerlendirmesi yapılır, öz geçmişlerden yola çıkılarak söz konusu meslekle ilgili başvurunun sonuçlarına yönelik gerekçeli görüşler açıklanır . Süreç, çalışma kâğıdı ile değerlendirilir. İncelenen makale ile ilişkilendirilen meslekleri tercih edip etmeyeceklerine yönelik öğrencilerin görüşleri alınır . Bu mesleklerin gelecekte bugünkü önemini koruyup koruyamayacağıyla ilgili gerekçeli yorumlar yapılması sağlanır . Daha sonra öğrencilerden gelecekte seçmek istedikleri mesleklerle ilgili bir bilgi görseli hazırlamaları 7 of 13 21.08.2026 17:28 istenir . Bilgi görsellerini hazırlamak için aynı mesleği yapmak isteyen öğrenciler bir araya gelerek grup oluşturur. Sınıf bir “sanat galerisi” şeklinde düşünülerek hazırlanan çalışmalar (bilgi görselleri) duvarlara asılır. Her grup bütün çalışmaları gezerek ilgili meslek üzerine konuşur ve tartışır . Öğrenciler, bir diğer çalışmadaki düşünceleri okuyup eleştirebilir veya bu çalışmayla ilgili kendi düşüncelerini sunabilir. Bu, son çalışmaya kadar böyle devam eder. Tüm çalışmalara katkıda bulunarak sınıfı gezdikten sonra gruplar ilk çalışmaya (kendi çalışmalarına) geri dönerler. Bütün mesleklere yönelik �kir edinmiş olurlar. Böylece sınıfta büyük grup tartışması yapılabilir ve yanılgılar ortadan kaldırılabilir . Öğrencilerden öğrenme günlükleri ile anlama ve çözümleme sürecinde öğrendikleri, zorlandıkları ve gelecekte seçecekleri meslek ile ilgili yapmaları gerekenleri yazmaları istenir . • İkinci okuma metni olarak hikâye türünde bir eser ele alınır ve edebî metinlere yönelik metin tahlili aşamaları uygulanır. Ele alınan hikâye yapı, dil ve anlatım bakımından tahlil edildikten sonra sınıf gruplara ayrılarak makale ve hikâye ile ilgili konu, yapı unsurları, dil ve anlatım özellikleri gibi belli başlı unsurları içeren bir karşılaştırma tablosu hazırlanabilir . Dil ve anlatım özellikleri üzerinde durulurken hikâyedeki kararsızlık, abartma, istek, plan, tasarı anlamı katan ifade ve yapılar bulunur, bunların işlevleri değerlendirilir. Bu süreçte öğretici bir tür olan makale ile anlatmaya bağlı bir tür olan hikâye arasındaki farklar da ortaya konur. Öğrencilerden okudukları ve çözümledikleri metinleri hayallerindeki meslekle ilişkilendirerek değerlendirmeleri istenir . Gelecekte seçmek istedikleri meslekleri belirlemeleri ve bu meslekler hakkında farklı kişilerle röportaj yapmaları istenir. Bu doğrultuda hazırladıkları röportajları sunmaya yönelik öğrencilere bir performans görevi verilir. Öğrencilerin performans görevleri için sınıf dışında hazırlık yapmaları istenir, performans görevi sınıfta sergilenir. Öğrencilerden seçmek istedikleri meslekleri yakından tanımaları için o mesleğin çalışma koşulları, iş bulma imkânları vb. hakkında ön araştırma (okul kütüphanesi, çevre kütüphaneler vb.) yapmaları istenir. Bu süreçte öğrencilerin sorumluluk bilinciyle hareket etmeleri sağlanır . Öğrenciler, araştırmaları neticesinde elde ettikleri ve önceden sahip oldukları bilgiler yardımıyla bir röportaj yapabilmek için sorular hazırlar. Röportaj yapılacak kişiler belirlenir, röportajın amacı ve hedef kitlesi doğrultusunda uygun yöntem ve stratejiler tespit edilir . Bu 8 of 13 21.08.2026 17:28 aşamada öğrencinin bireysel eğilimine göre seçtiği meslek grupları ile görüşmesi teşvik edilebilir ya da bazı mesleklerin toplum tarafından fazla bilinmeyen güçlükleriyle ilgili o mesleği icra edenlerle röportaj yapması sağlanabilir. Yapılan röportajların sunulması amacıyla konuya ve hedef kitleye göre konuşma yöntem ve stratejisi seçilir. Sunumda iletişimin önündeki engellerin ortadan kaldırılmasına yönelik çalışmalar yapılır, sunum sırasında nezaket kurallarına uygun hareket edilir . Bu sürecin amacına uygun şekilde düzenlenmesi ve işlemesi için kontrol listeleri hazırlanabilir. Böylece öğrencilerin konuşmayı yönetebilme becerilerine ilişkin değerlendirmeler yapılabilir. Sunum metni oluşturulurken öğrenilecek konu, kavram veya bilgiler önceki bilgilerle ilişkilendirilir. Sunum içeriğiyle ilgili araştırma yapılarak hedef kitlenin özelliklerine ve beklentilerine göre görsel ve işitsel ögelerin seçimi, süreyi verimli kullanma, beden dilinin etkili ve güzel kullanımı gibi konularda tahminler yürütülerek hazırlık yapılır . Seçilen meslek ile öğrencilerin kendi ilgi ve yetenekleri göz önünde bulundurularak bu mesleğin uygunluğuna yönelik çıkarımlar yapılır . Öğrenciler gruplara ayrılabilir ve her bir grup üyesinin ilgi alanı ve yetenekleri ile seçtiği meslekler karşılaştırma tabloları hazırlanarak karşılaştırılabilir. Hazırlanan karşılaştırma tabloları grup arkadaşlarıyla paylaşılır . Tablolar; öğrencilerin meslek seçimleri, ilgi alanları ve yetenekleri göz önünde bulundurularak akranları tarafından değerlendirilebilir . Böylelikle öğrenciler, gerek duydukları takdirde, meslek tercihlerini akranlarının görüşlerini dikkate alarak yeniden değerlendirebilir . Sunum yapılırken ses, anlam oluşturmak amacıyla etkili bir biçimde kullanılır. Sunumun içeriğini desteklemek ve etkileyiciliğini artırmak amacıyla görsel ögeler kullanılarak yorum içeren bir sunum yapılır . Sunumda neyin, kime, nasıl, nerede, hangi araçlar kullanılarak aktarılacağı dikkate alınarak planlama yapılır. Konuyla ilgili yorumları açıklamak amacıyla düşünceyi geliştirme yolları kullanılır. Sunumun içeriğine ve hedef kitleye göre belirlenen söz varlığı, bağlama uygun şekilde kullanılır. Dinleyici/izleyiciye verilmek istenen iletiler açık veya örtük bir şekilde ifade edilir. Sunumda eksiltili yapı, bağlama, gönderim, değiştirim, sözcük bağdaşıklığı gibi dil yapıları işlevine uygun kullanılır. Sunum esnasında beden dili ve konuşma yapılan mekânın özellikleri, metnin temasını desteklemek amacıyla etkili bir biçimde kullanılır. İletişim kurulan kişi ya da kişilerle �ziksel mesafe ayarlanır . 9 of 13 21.08.2026 17:28 Sunum sürecine nelerin etki ettiğiyle ilgili hazırlanmış öz değerlendirme formu uygulanır . Süreçteki hatalar belirlenir, düzeltilir ve sonraki sunumlarda faydalanmak amacıyla saklanır; uygun davranış, duygu ve düşünceler pekiştirilir. Sağlanan etkileşimin iletişime katkısı değerlendirilir. Sözlü iletişimin gücü ve önemi fark ettirilir. Öğrencilerin performansları, öğretmen tarafından hazırlanan dereceli puanlama anahtarıyla içeriğe uygunluk, özgünlük, dil ve üslup özellikleri, metin planının oluşturulması, düşünceyi geliştirme yollarının kullanımı, anlatım ilkelerine uygunluk gibi yönlerden değerlendirilir. Yapılan değerlendirme sonunda öğrencilere performansları ile ilgili geri bildirim verilir. Öğrencilerden bu temada mülakat özellikleri taşıyan çok modlu bir metin dinlemeleri/izlemeleri istenir . Yaşamın her alanında karşılarına çıkabilecek ve “Hayalimdeki Yarın” temasıyla ilişkilendirilebilecek farklı kişilerle gerçekleştirilmiş mülakat örnekleri içerik olarak kullanılabilir. Temaya bağlı olarak ele alınan metni dinlemeden/izlemeden önce öğrenciler, dinleme/izleme amacı, yöntem ve stratejisini belirler. Dinleyeceği/izleyeceği metnin �kri mülkiyet haklarını göz önüne alarak hakkaniyetli ve dürüst bir tutum geliştirir. Metnin içerik ve türüne yönelik tahminlerde bulunur. Dinleme/izleme sürecinin sağlıklı yürütülmesi için öğrencilerin dinleme/izleme sürecine etki eden bilişsel, duyuşsal ve �ziksel etkenleri içeren bir gözlem formu oluşturulabilir. Bu formla öğrencilerin dinleme/izleme sürecindeki gelişimleri, notlar tutularak takip edilir. Dinleme/izlemenin etkili bir biçimde gerçekleşebilmesi için metin ve ortamla ilgili iletişim engelleri ortadan kaldırılır . “Hayalimdeki Yarın” temasını yansıtan bir mülakat dinletilir/izletilir. Mülakatın yapılış biçimi incelenerek “görüş geliştirme tekniği” ile ön bilgiler arasında bağlantı kurulur. Temayı ele alan mülakat dinletilerek/ izletilerek mülakatta yer alan bilgilerin güvenilirlik, geçerlilik ve tutarlılığı ile ilgili tahminlerde bulunulur. Metindeki söz varlığının anlamı bağlamdan hareketle belirlenir. Metindeki sorular ile öznel ve nesnel yargılar kullanım amaçlarına göre sını�andırılır. Bu sını�andırma sonrasında öğrenciler tarafından mülakattaki sorularla kendi hazırladıkları sorular çalışma kâğıdı ile karşılaştırılır. Bu etkinlik grup çalışması şeklinde de yapılabilir. Hangi tür soruların meslek seçimine etki ettiğine yönelik analiz yapılarak çıkarımda bulunulur. Dinlenen/izlenen mülakata yönelik eleştiriler empati yapılarak ve gerekçelendirilerek 10 of 13 21.08.2026 17:28 açıklanır ). Dinlenen/izlenen mülakattaki üslubu oluşturan söylem, söz varlığı ve beden dili gibi unsurlar ile bunlar arasındaki ilişkiler “beyin fırtınası tekniği” kullanılarak belirlenir Mülakatta yer alan iletiler arasındaki etkileşim belirlenerek temanın işlenişiyle ilgili çözümleme yapılır . Dinlenen/izlenen mülakat metninin diğer disiplinlerle ilişkisi değerlendirilir. Öğrencinin dinlediği/izlediği mülakata değer katan unsurları kendi duygu ve düşünceleri doğrultusunda değerlendirerek çıkış kartı hazırlaması sağlanır . Böylece etkin kimliği oluşturmaya yönelik farkındalık kazandırılır. Dinlediği/izlediği metnin konu ve ana düşüncesinin kendi dünyasıyla olan ilişkisini belirler. Öğrencilere dinlenen/izlenen metinden hareketle hayallerindeki mesleği belirgin özellikleriyle tanıtan bir metin yazmalarına ve bu mesleğe başvuru yapmak için bir öz geçmiş oluşturmalarına yönelik performans görevi verilir . Seçilen bir mesleğin yakından tanınması ve bu mesleğe uygun bir öz geçmiş hazırlanması amacıyla mesleğin belirgin özellikleri, çalışma koşulları, iş bulma imkânları, hedef kitlesi, toplumsal ve psikolojik ihtiyaçları karşılayabilmesi vb. hakkında konuya, hedef kitleye uygun yazma yöntem ve stratejileri seçilir. İletişime engel oluşturabilecek hususlar fark edilerek bunlar ortadan kaldırılır ve nezaket kurallarına uygun hareket edilir . İçerik oluşturulurken temayla ilgili ön bilgilerden faydalanılarak hazırlanan yazıda seçilen bir meslek hakkında merak edilen konuların neler olabileceğine dair tahmin yürütülür. Burada öğrencilere içerik oluşturmada yol göstermesi adına mesleklerle ilgili çeşitli görsellerden faydalanılabilir. Yazmaya başlamadan önce bu görsellerden yola çıkılarak planlama yapılır ve meslekle ilişkili olmayan bilgiler ayırt edilir. Tanıtılacak meslekle ve öz geçmiş oluşturma ile ilgili düşünceler, grup içi etkinlikle karşılaştırılır ve bu yolla elde edilen bilgiler sını�andırılır. Öğrenciler yaptıkları çalışmalarla yazılacak metnin planı hakkında beğeni ve görüşlerini açıklar . Gerek görüldüğü takdirde diğer öğrencilerden gelen farklı görüş ve düşünceler dikkate alınır ve yeniden yorumlanır. Yazılacak metnin içeriği ve iletilerine uygun 11 of 13 21.08.2026 17:28 dil ve anlatım özelliklerine karar verilir. Tanıtıcı yazının içeriğini desteklemek ve etkileyiciliğini artırmak amacıyla görsel ögeler kullanılarak açıklayıcı bilgiler sunulur. Öğrenciler metinde neyin, kime, nasıl anlatılacağı ve hangi araçların kullanılacağını dikkate alarak planlama yapar . Hayallerindeki mesleğin tanıtılmasına yönelik hazırlayacağı yazıya planına uygun bir şekilde başlar. Tanıtım yazısını desteklemek için anlatım biçimleri ve düşünceyi geliştirme yollarından yararlanır ve düşüncelerini özgün bir üslupla ifade eder. Bu mesleğin şartlarına uygun bir öz geçmiş hazırlar. Yazısını hedef kitleye uygun bir söz varlığı ve destekleyici bilgiler ile devam ettirir. Türkçeyi millî bir bilinçle işlevine ve kurallarına uygun kullanır . İletileri açık ve tutarlı bir şekilde ifade eder. Buna bağlı olarak yazısında başlatma, sürdürme ve bitirme ifadelerini etkili kullanır. Yazısında kelimeler arasındaki uyuma, yazım ve noktalama kurallarına dikkat eder. Öğrencinin belirlediği bir mesleğin tanıtımına yönelik hazırladığı metin ve hazırladıkları öz geçmişleri öğretmen tarafından içerik, dil ve anlatım özellikleri, akıcılık, metin planının oluşturulması gibi ölçütlerin yer aldığı dereceli puanlama anahtarı ile değerlendirilir. Ayrıca öğrencilerin öz değerlendirme formu ile kendi performanslarını değerlendirmesi istenir . Olumlu bakış açısı korunarak yazma sürecindeki hatalar düzeltilir. Arkadaşlarından ve öğretmenden gelen bilgileri göz önünde bulundurarak daha sonra oluşturacağı yazılar için kendisine yeni hede�er belirlemesi sağlanır. Hayallerindeki bir mesleğin tanıtımına ve bu mesleğe uygun bir öz geçmiş oluşturmaya yönelik hazırlanan çalışmanın sınıf/okul panolarında ya da okulun resmî çevrim içi ortamlarında paylaşılması sağlanır. Tema sonunda Ne Biliyorum-Ne Bilmek İstiyorum-Ne Öğrendim tekniğinin son aşaması olan “Ne Öğrendim?” sorusunun cevabı grup tartışması ile bulunur. Böylece öğrencilerin temaya başlamadan önce kavram yanılgılarının ne düzeyde giderildiği, merak ettiklerinin ne düzeyde karşılandığı ortaya çıkarılır.",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/351"
+        },
+        "differentiation": {
+          "source_status": "SOURCE_EXPLICIT",
+          "heading": " Farklılaştırma ",
+          "verbatim": "Öğrencilerden yakın çevrelerinde en az ve en çok tercih edilen meslekler üzerine ayrıntılı bir araştırma yapmaları istenebilir. Bu meslekler üzerine 12 of 13 21.08.2026 17:28 yapılan çalışmalar bir sunum hâline getirilebilir. Bu çalışmanın devamında öğrenciler araştırmalarına konu olan mesleklerden birini seçip alanında uzman bir kişiyle kapsamlı bir röportaj gerçekleştirebilir. * Öğrenciler, yapay zekâ uygulamalarından ve bu konuda yapılmış çalışmalardan aldığı bilgileri kendi öngörüleri ile birleştirerek günümüzdeki mesleklerin gelecekte dönüşebileceği biçimleri belirlemeye yönelik bir çalışma yapabilir. Öğrencilerin çalışmaları sınıf panosunda, okul dergisinde veya güvenli dijital ortamlarda paylaşılabilir. Öğrencilerden seçmek istedikleri mesleklerle ilgili genel bilgiler içeren bir bilgi görseli hazırlamaları istenebilir. Güncelleme tarihi: 06.08.2026 13 of 13 21.08.2026 17:28",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/351"
+        }
+      },
+      "process_component_policy": {
+        "status": "SOURCE_COMPLETE_NO_EXPLICIT_SUBCOMPONENT_IDS",
+        "canonical_policy": "DO_NOT_SYNTHESIZE_OR_COPY_FROM_OTHER_GRADES",
+        "official_process_realization": "Published learning-teaching application paragraphs under the parent outcome codes are authoritative process realization; no separate sub-outcome IDs are synthesized.",
+        "canonical_evidence_file": "curriculum_normative_text.json",
+        "evidence_status": "VERIFIED_LOCAL_PDF_TEXT_EXTRACTION"
+      },
+      "learning_outcomes": [
+        {
+          "outcome_code": "TDE1.1",
+          "outcome_verbatim": "“Hayalimdeki Yarın” temasında ele alınan metinlerde dinlemeyi/ izlemeyi yönetebilme",
+          "theme_scope": "TEMA_04",
+          "stable_entity_key": "TDE_12:TEMA_04:TDE1.1",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/351 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 4. TEMA - HAYALİMDEKİ YARIN.PDF#page=2",
+          "local_source_sha256": "ccdf80112cf485e12f5418d115d33fce013fe88ff7ea0ad7f3f978d5c5b8365d"
+        },
+        {
+          "outcome_code": "TDE1.2",
+          "outcome_verbatim": "“Hayalimdeki Yarın” temasında ele alınan metinlerde anlam oluşturabilme",
+          "theme_scope": "TEMA_04",
+          "stable_entity_key": "TDE_12:TEMA_04:TDE1.2",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/351 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 4. TEMA - HAYALİMDEKİ YARIN.PDF#page=2",
+          "local_source_sha256": "ccdf80112cf485e12f5418d115d33fce013fe88ff7ea0ad7f3f978d5c5b8365d"
+        },
+        {
+          "outcome_code": "TDE1.3",
+          "outcome_verbatim": "“Hayalimdeki Yarın” temasında ele alınan metinleri çözümleyebilme",
+          "theme_scope": "TEMA_04",
+          "stable_entity_key": "TDE_12:TEMA_04:TDE1.3",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/351 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 4. TEMA - HAYALİMDEKİ YARIN.PDF#page=2",
+          "local_source_sha256": "ccdf80112cf485e12f5418d115d33fce013fe88ff7ea0ad7f3f978d5c5b8365d"
+        },
+        {
+          "outcome_code": "TDE1.4",
+          "outcome_verbatim": "“Hayalimdeki Yarın” temasında ele alınan metinlerde dinleme/ izleme sürecini değerlendirebilme",
+          "theme_scope": "TEMA_04",
+          "stable_entity_key": "TDE_12:TEMA_04:TDE1.4",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/351 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 4. TEMA - HAYALİMDEKİ YARIN.PDF#page=2",
+          "local_source_sha256": "ccdf80112cf485e12f5418d115d33fce013fe88ff7ea0ad7f3f978d5c5b8365d"
+        },
+        {
+          "outcome_code": "TDE2.1",
+          "outcome_verbatim": "“Hayalimdeki Yarın” temasında ele alınan metinlerde okumayı yönetebilme",
+          "theme_scope": "TEMA_04",
+          "stable_entity_key": "TDE_12:TEMA_04:TDE2.1",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/351 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 4. TEMA - HAYALİMDEKİ YARIN.PDF#page=2",
+          "local_source_sha256": "ccdf80112cf485e12f5418d115d33fce013fe88ff7ea0ad7f3f978d5c5b8365d"
+        },
+        {
+          "outcome_code": "TDE2.2",
+          "outcome_verbatim": "“Hayalimdeki Yarın” temasında ele alınan metinlerde anlam oluşturabilme",
+          "theme_scope": "TEMA_04",
+          "stable_entity_key": "TDE_12:TEMA_04:TDE2.2",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/351 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 4. TEMA - HAYALİMDEKİ YARIN.PDF#page=2",
+          "local_source_sha256": "ccdf80112cf485e12f5418d115d33fce013fe88ff7ea0ad7f3f978d5c5b8365d"
+        },
+        {
+          "outcome_code": "TDE2.3",
+          "outcome_verbatim": "“Hayalimdeki Yarın” temasında ele alınan metinleri çözümleyebilme",
+          "theme_scope": "TEMA_04",
+          "stable_entity_key": "TDE_12:TEMA_04:TDE2.3",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/351 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 4. TEMA - HAYALİMDEKİ YARIN.PDF#page=2",
+          "local_source_sha256": "ccdf80112cf485e12f5418d115d33fce013fe88ff7ea0ad7f3f978d5c5b8365d"
+        },
+        {
+          "outcome_code": "TDE2.4",
+          "outcome_verbatim": "“Hayalimdeki Yarın” temasında ele alınan metinlerde okuma sürecini değerlendirebilme",
+          "theme_scope": "TEMA_04",
+          "stable_entity_key": "TDE_12:TEMA_04:TDE2.4",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/351 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 4. TEMA - HAYALİMDEKİ YARIN.PDF#page=2",
+          "local_source_sha256": "ccdf80112cf485e12f5418d115d33fce013fe88ff7ea0ad7f3f978d5c5b8365d"
+        },
+        {
+          "outcome_code": "TDE3.1",
+          "outcome_verbatim": "Farklı mesleklerdeki kişilerin deneyimlerinden faydalanarak gerçekleştireceği konuşmasını yönetebilme 2 of 13 21.08.2026 17:28",
+          "theme_scope": "TEMA_04",
+          "stable_entity_key": "TDE_12:TEMA_04:TDE3.1",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/351 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 4. TEMA - HAYALİMDEKİ YARIN.PDF#page=2",
+          "local_source_sha256": "ccdf80112cf485e12f5418d115d33fce013fe88ff7ea0ad7f3f978d5c5b8365d"
+        },
+        {
+          "outcome_code": "TDE3.2",
+          "outcome_verbatim": "Mesleklerin özelliklerini, keyi�i yanlarını, zorluklarını ve merak ettiği diğer unsurları ele alan konuşması için içerik oluşturabilme",
+          "theme_scope": "TEMA_04",
+          "stable_entity_key": "TDE_12:TEMA_04:TDE3.2",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/351 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 4. TEMA - HAYALİMDEKİ YARIN.PDF#page=3",
+          "local_source_sha256": "ccdf80112cf485e12f5418d115d33fce013fe88ff7ea0ad7f3f978d5c5b8365d"
+        },
+        {
+          "outcome_code": "TDE3.3",
+          "outcome_verbatim": "Mesleklerin özelliklerini, keyi�i yanlarını, zorluklarını ve merak ettiği diğer unsurları ele alan kendi konuşması için kural uygulayabilme",
+          "theme_scope": "TEMA_04",
+          "stable_entity_key": "TDE_12:TEMA_04:TDE3.3",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/351 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 4. TEMA - HAYALİMDEKİ YARIN.PDF#page=3",
+          "local_source_sha256": "ccdf80112cf485e12f5418d115d33fce013fe88ff7ea0ad7f3f978d5c5b8365d"
+        },
+        {
+          "outcome_code": "TDE3.4",
+          "outcome_verbatim": "Farklı mesleklerdeki kişilerin deneyimlerinden faydalanarak gerçekleştireceği kendi konuşmasına yönelik süreci değerlendirebilme",
+          "theme_scope": "TEMA_04",
+          "stable_entity_key": "TDE_12:TEMA_04:TDE3.4",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/351 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 4. TEMA - HAYALİMDEKİ YARIN.PDF#page=3",
+          "local_source_sha256": "ccdf80112cf485e12f5418d115d33fce013fe88ff7ea0ad7f3f978d5c5b8365d"
+        },
+        {
+          "outcome_code": "TDE4.1",
+          "outcome_verbatim": "Hayalindeki mesleklere yönelik bilgi edinmek amacıyla gerçekleştireceği bir meslek tanıtımı yazma sürecini yönetebilme",
+          "theme_scope": "TEMA_04",
+          "stable_entity_key": "TDE_12:TEMA_04:TDE4.1",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/351 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 4. TEMA - HAYALİMDEKİ YARIN.PDF#page=3",
+          "local_source_sha256": "ccdf80112cf485e12f5418d115d33fce013fe88ff7ea0ad7f3f978d5c5b8365d"
+        },
+        {
+          "outcome_code": "TDE4.2",
+          "outcome_verbatim": "Araştırma, bilgi toplama, analitik düşünme gibi süreçler sonrasında mesleklerle ilgili ulaştığı bilgilerle yazısının içeriğini oluşturabilme",
+          "theme_scope": "TEMA_04",
+          "stable_entity_key": "TDE_12:TEMA_04:TDE4.2",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/351 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 4. TEMA - HAYALİMDEKİ YARIN.PDF#page=3",
+          "local_source_sha256": "ccdf80112cf485e12f5418d115d33fce013fe88ff7ea0ad7f3f978d5c5b8365d"
+        },
+        {
+          "outcome_code": "TDE4.3",
+          "outcome_verbatim": "Mesleklerin özellikleri ve kendi özelliklerini ele aldığı yazısı için kural uygulayabilme",
+          "theme_scope": "TEMA_04",
+          "stable_entity_key": "TDE_12:TEMA_04:TDE4.3",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/351 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 4. TEMA - HAYALİMDEKİ YARIN.PDF#page=3",
+          "local_source_sha256": "ccdf80112cf485e12f5418d115d33fce013fe88ff7ea0ad7f3f978d5c5b8365d"
+        },
+        {
+          "outcome_code": "TDE4.4",
+          "outcome_verbatim": "Hayalindeki mesleklerin özelliklerini farklı açılardan ele aldığı yazısına yönelik yazma sürecini değerlendirebilme “Hayalimdeki Yarın” temasında içerik çerçevesi şu şekildedir: • Okuma • Konuşma • Dinleme/İzleme • Yazma Okuma becerilerinin geliştirilmesi için seçilen ilk okuma metni, nesnel anlatım özelliklerine sahip, doğru ve güvenilir bilgi sunan makaledir. Diğer okuma metni gerçek ya da gerçeğe yakın olayların ele alındığı hikâyedir. Bu metinler tahlil edilerek öğrencilerin “Hayalimdeki Yarın” teması özelinde meslek seçimlerinin hayatı etkileme düzeyinin farkına varmaları",
+          "theme_scope": "TEMA_04",
+          "stable_entity_key": "TDE_12:TEMA_04:TDE4.4",
+          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/351 :: Öğrenme Çıktıları ve Süreç Bileşenleri",
+          "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 4. TEMA - HAYALİMDEKİ YARIN.PDF#page=3",
+          "local_source_sha256": "ccdf80112cf485e12f5418d115d33fce013fe88ff7ea0ad7f3f978d5c5b8365d"
+        }
+      ],
+      "assessment_requirements": [
+        {
+          "assessment_id": "TDE_12_TEMA_04_ASSESSMENT_01",
+          "assessment_type": "PERFORMANCE_TASK",
+          "requirement": "Dinlenen/izlenen metinden hareketle öğrencilerin hayallerindeki mesleğe yönelik farklı kişilerle röportaj yaparak bunu sınıfta sunmalarına yönelik performans görevi",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/351 :: Öğrenme Kanıtları (Ölçme ve Değerlendirme)",
+          "verification_status": "VERIFIED_OFFICIAL_CURRICULUM",
+          "local_evidence_pages": [
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 4. TEMA - HAYALİMDEKİ YARIN.PDF#page=3",
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 4. TEMA - HAYALİMDEKİ YARIN.PDF#page=4",
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 4. TEMA - HAYALİMDEKİ YARIN.PDF#page=8"
+          ],
+          "local_source_sha256": "ccdf80112cf485e12f5418d115d33fce013fe88ff7ea0ad7f3f978d5c5b8365d"
+        },
+        {
+          "assessment_id": "TDE_12_TEMA_04_ASSESSMENT_02",
+          "assessment_type": "PERFORMANCE_TASK",
+          "requirement": "Tahlil ettiği makale ve hikâye metninden yola çıkarak istediği mesleğin tanıtılmasına yönelik performans görevi",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/351 :: Öğrenme Kanıtları (Ölçme ve Değerlendirme)",
+          "verification_status": "VERIFIED_OFFICIAL_CURRICULUM",
+          "local_evidence_pages": [
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 4. TEMA - HAYALİMDEKİ YARIN.PDF#page=3",
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 4. TEMA - HAYALİMDEKİ YARIN.PDF#page=4",
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 4. TEMA - HAYALİMDEKİ YARIN.PDF#page=8"
+          ],
+          "local_source_sha256": "ccdf80112cf485e12f5418d115d33fce013fe88ff7ea0ad7f3f978d5c5b8365d"
+        },
+        {
+          "assessment_id": "TDE_12_TEMA_04_ASSESSMENT_03",
+          "assessment_type": "THEME_END_EVALUATION",
+          "requirement": "Tema sonunda giriş-çıkış kartı ve Ne Biliyorum-Ne Bilmek İstiyorum-Ne Öğrendim tekniği ile değerlendirme yapılır.",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/351 :: Öğrenme Kanıtları (Ölçme ve Değerlendirme)",
+          "verification_status": "VERIFIED_OFFICIAL_CURRICULUM",
+          "local_evidence_pages": [
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 4. TEMA - HAYALİMDEKİ YARIN.PDF#page=3",
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 4. TEMA - HAYALİMDEKİ YARIN.PDF#page=4",
+            "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 4. TEMA - HAYALİMDEKİ YARIN.PDF#page=8"
+          ],
+          "local_source_sha256": "ccdf80112cf485e12f5418d115d33fce013fe88ff7ea0ad7f3f978d5c5b8365d"
+        }
+      ],
+      "local_source_snapshot": {
+        "filename": "Türk Dili Ve Edebiyatı Dersi 12.Sınıf 4. TEMA - HAYALİMDEKİ YARIN.PDF",
+        "path": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 4. TEMA - HAYALİMDEKİ YARIN.PDF",
+        "sha256": "ccdf80112cf485e12f5418d115d33fce013fe88ff7ea0ad7f3f978d5c5b8365d",
+        "git_blob_sha": "74e949ac14126c48c689a4b6850d8ac8ff495224",
+        "page_count": 13,
+        "verification_status": "VERIFIED_LOCAL_OFFICIAL_SNAPSHOT"
+      },
+      "normative_text_evidence": {
+        "status": "VERIFIED_LOCAL_PDF_TEXT_EXTRACTION",
+        "canonical_evidence_file": "curriculum_normative_text.json",
+        "evidence_theme_id": "TEMA_04",
+        "source_pdf": "source_docs/Türk Dili Ve Edebiyatı Dersi 12.Sınıf 4. TEMA - HAYALİMDEKİ YARIN.PDF",
+        "source_sha256": "ccdf80112cf485e12f5418d115d33fce013fe88ff7ea0ad7f3f978d5c5b8365d",
+        "page_count": 13,
+        "extraction_method": "pdftotext -layout (Poppler)",
+        "extraction_quality": "TEXT_LAYER_WITH_GLYPH_REPLACEMENTS",
+        "verbatim_evidence_scope": "FULL_PDF_PAGE_TEXT_PRESERVED"
+      },
+      "school_based_planning_provisions": {
+        "source_status": "SOURCE_NOT_EXPLICIT_ON_THEME_PAGE",
+        "planning_layer": {
+          "authority": "USER_CONFIRMED_PLANNING_RULE",
+          "hours": 2,
+          "outer_theme_total_hours": 45,
+          "curriculum_gap": false
+        }
+      }
+    }
+  ]
+}
