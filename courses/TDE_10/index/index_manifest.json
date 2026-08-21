@@ -1,8 +1,8 @@
 {
   "schema_version": "2.1",
   "course_id": "TDE_10",
-  "index_created_at": "2026-08-19T19:07:35.247513+00:00",
-  "index_updated_at": "2026-08-19T19:07:35.247513+00:00",
+  "index_created_at": "2026-08-21T20:10:08.418024+00:00",
+  "index_updated_at": "2026-08-21T20:10:08.418024+00:00",
   "requested_backend": "sqlite-vector/sqliteai-vector",
   "selected_backend": "sqlite-vec",
   "backend_selection_status": "EXPLICIT_ACCEPTED_DEVIATION",
@@ -26,12 +26,13 @@
   "model_file_sha256": "f80102d3f2a1229f387d3c81909990d8945513e347b0eab049f7de3c6f98c193",
   "distance_metric": "cosine",
   "production_schema_version": "1.1",
-  "production_schema_fingerprint": "9d3181f1fb81f3dde1f53e26e785a78e0e81d20d6d2ed129ddb6000c4e696606",
+  "production_schema_fingerprint": "615ff11319569118a34d008326912c337c32d4c840975bf5dbeb258d8f28bc6a",
   "artifact_identity_field": "artifact_id",
-  "production_artifact_count": 0,
+  "production_artifact_count": 2,
   "production_gap_alias_count": 0,
   "indexed_entity_types": [
     "alignment_record",
+    "assessment_artifact",
     "curriculum_outcome",
     "curriculum_theme",
     "instructional_need",
@@ -43,7 +44,7 @@
     "textbook_form",
     "textbook_section"
   ],
-  "indexed_record_count": 482,
+  "indexed_record_count": 484,
   "source_files": [
     {
       "path": "curriculum_map.json",
@@ -180,8 +181,8 @@
     },
     {
       "path": "production/production_manifest.json",
-      "sha256": "9d3181f1fb81f3dde1f53e26e785a78e0e81d20d6d2ed129ddb6000c4e696606",
-      "size_bytes": 1115,
+      "sha256": "615ff11319569118a34d008326912c337c32d4c840975bf5dbeb258d8f28bc6a",
+      "size_bytes": 3129,
       "validation_status": "VERIFIED",
       "freeze_status": "FROZEN"
     },
@@ -200,6 +201,6 @@
       "freeze_status": "FROZEN"
     }
   ],
-  "index_content_hash": "4523e5cbe382b929f46a7cda0506649e301a1cb7412a5af1542466fcad99cfd0",
+  "index_content_hash": "508f4797410ec68fd6c2cfb97f328fcbf5b3afba6c198dc2ca3571e08cac29fc",
   "build_status": "SUCCESS"
 }

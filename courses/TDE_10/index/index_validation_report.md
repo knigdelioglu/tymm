@@ -1,22 +1,23 @@
 # Knowledge Index Validation Report
 
 - **Course ID**: TDE_10
-- **Build Timestamp**: 2026-08-19T19:07:35.247513+00:00
+- **Build Timestamp**: 2026-08-21T20:10:08.418024+00:00
 - **Status**: SUCCESS
-- **Total Indexed Records**: 482
+- **Total Indexed Records**: 484
 - **Production Schema**: 1.1
 - **Artifact Identity**: `artifact_id`
-- **Canonical Assessment Artifacts**: 0
+- **Canonical Assessment Artifacts**: 2
 - **Historical Gap Aliases**: 0
-- **Production Manifest Fingerprint**: `9d3181f1fb81f3dde1f53e26e785a78e0e81d20d6d2ed129ddb6000c4e696606`
+- **Production Manifest Fingerprint**: `615ff11319569118a34d008326912c337c32d4c840975bf5dbeb258d8f28bc6a`
 - **Database Engine**: SQLite 3.45.1 + sqlite-vec
 - **Vector Backend**: `sqlite-vec`
 - **Base Embedding Model**: `intfloat/multilingual-e5-small` (Dim: 384)
 - **Model File SHA256**: `f80102d3f2a1229f387d3c81909990d8945513e347b0eab049f7de3c6f98c193`
-- **Index Content Hash**: `4523e5cbe382b929f46a7cda0506649e301a1cb7412a5af1542466fcad99cfd0`
+- **Index Content Hash**: `508f4797410ec68fd6c2cfb97f328fcbf5b3afba6c198dc2ca3571e08cac29fc`
 
 ## Indexed Entity Types & Counts
 - **alignment_record**: 64
+- **assessment_artifact**: 2
 - **curriculum_outcome**: 64
 - **curriculum_theme**: 4
 - **instructional_need**: 64
@@ -48,6 +49,6 @@
 - `themes/tema_04/gap_analysis.json`: SHA-256 `0f80052217c609ccec4729d8d4ef45326f8d6c0d3cc9e08de8d15ceded741612` (30743 bytes) - VERIFIED
 - `themes/tema_04/needs.json`: SHA-256 `fb4ed973a48e414440edca1d10a1ce47d67850a6f61a341b27907971d4cfc0b6` (28494 bytes) - VERIFIED
 - `themes/tema_04/resource_plan.json`: SHA-256 `709d28cd8ace5bd4cd379d71e39ee0977fbc52657f0d3300f74c112c3238cde9` (20314 bytes) - VERIFIED
-- `production/production_manifest.json`: SHA-256 `9d3181f1fb81f3dde1f53e26e785a78e0e81d20d6d2ed129ddb6000c4e696606` (1115 bytes) - VERIFIED
+- `production/production_manifest.json`: SHA-256 `615ff11319569118a34d008326912c337c32d4c840975bf5dbeb258d8f28bc6a` (3129 bytes) - VERIFIED
 - `production/teaching_blocks.json`: SHA-256 `c9385717798717b5aec878818aab110afe7e558071bfc268e2e59facc1ba3203` (23299 bytes) - VERIFIED
 - `production/school_based_planning_options.json`: SHA-256 `044adb0b958fa6ab2c9a272f61a0651ccd8700302bb42f75ca2ea2d3e17ea716` (7199 bytes) - VERIFIED

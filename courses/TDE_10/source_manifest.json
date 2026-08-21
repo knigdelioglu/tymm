@@ -4,7 +4,7 @@
   "grade": 10,
   "course_title": "Türk Dili ve Edebiyatı",
   "last_validated": "2026-08-18",
-  "overall_status": "TECHNICAL_P0_PASS_PARITY_REVIEW_BLOCKED",
+  "overall_status": "TECHNICAL_P0_PASS_RUNTIME_SUPPORT_READY_EXTERNAL_EQUIVALENCE_UNVERIFIED",
   "source_mode": "SPLIT_CURRICULUM_PDFS_PLUS_LOCAL_OFFICIAL_TEXTBOOK_PDF",
   "scope": {
     "analysis_target": "10. Sınıf Türk Dili ve Edebiyatı Öğretim Programı ve Ders Kitabı",
@@ -22,11 +22,13 @@
     "forms_indexed": true,
     "alignment_performed": true,
     "gap_analysis_performed": true,
-    "materials_generated": false,
+    "materials_generated": true,
     "textbook_local_pdf_registered": true,
     "knowledge_index_built": true,
     "runtime_projection_built": true,
-    "p0_gate_passed": true
+    "p0_gate_passed": true,
+    "canonical_support_artifacts_generated": 2,
+    "canonical_support_task_bindings": 8
   },
   "annual_time_model": {
     "theme_count": 4,
@@ -193,6 +195,7 @@
     "fail_closed": true,
     "no_silent_source_replacement": true
   },
-  "parity_remediation_status": "BLOCKED_PENDING_8_AUTH_GATED_EBA_DPA_TARGETS",
-  "parity_certification": "WITHHELD"
+  "parity_remediation_status": "RUNTIME_SUPPORT_RESOLVED_EXACT_EBA_EQUIVALENCE_UNVERIFIED",
+  "parity_certification": "WITHHELD_ONLY_FOR_EXACT_EBA_PAYLOAD_EQUIVALENCE",
+  "runtime_support_status": "READY_2_CANONICAL_RUBRICS_8_TASK_BINDINGS"
 }

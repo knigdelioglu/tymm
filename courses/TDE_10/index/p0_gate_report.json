@@ -7,18 +7,30 @@
   },
   "production_schema": {
     "schema_version": "1.1",
-    "production_mode": "PARITY_REVIEW_BLOCKED",
+    "production_mode": "DERIVED_CANONICAL_SUPPORT",
     "verified_resource_gap_count": 0,
     "unresolved_assessment_target_count": 8,
-    "expected_new_artifact_count": 0,
-    "artifact_ids": [],
+    "expected_new_artifact_count": 2,
+    "artifact_ids": [
+      "TDE10_KONUSMA_RUBRIC",
+      "TDE10_YAZMA_RUBRIC"
+    ],
     "gap_aliases": [],
     "status": "PASS"
   },
   "index_rebuild": {
     "freshness": "INDEX_FRESH",
-    "indexed_record_count": 482,
-    "artifact_rows": [],
+    "indexed_record_count": 484,
+    "artifact_rows": [
+      {
+        "entity_id": "TDE10_KONUSMA_RUBRIC",
+        "entity_key": "TDE_10::assessment_artifact::TDE10_KONUSMA_RUBRIC"
+      },
+      {
+        "entity_id": "TDE10_YAZMA_RUBRIC",
+        "entity_key": "TDE_10::assessment_artifact::TDE10_YAZMA_RUBRIC"
+      }
+    ],
     "duplicate_entity_keys": 0,
     "status": "PASS"
   },
@@ -47,10 +59,7 @@
       "ambiguity_status": "AMBIGUOUS_ENTITY",
       "block_reason": "AMBIGUOUS_ENTITY"
     },
-    "generation_probe": {
-      "allowed": false,
-      "block_reason": "UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS"
-    },
+    "generation_probe": null,
     "status": "PASS"
   },
   "stale_gate": {
@@ -76,9 +85,9 @@
       "forms": 35,
       "activity_forms": 126,
       "resource_decisions": 64,
-      "assessment_artifacts": 0,
+      "assessment_artifacts": 2,
       "assessment_gap_mappings": 0,
-      "assessment_task_bindings": 0,
+      "assessment_task_bindings": 8,
       "timeline_themes": 4,
       "timeline_blocks": 16,
       "source_references": 4,

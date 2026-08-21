@@ -3,7 +3,7 @@
   "schema_version": "1.0.0",
   "course_id": "TDE_10",
   "grade": 10,
-  "build_timestamp": "2026-08-19T19:07:37Z",
+  "build_timestamp": "2026-08-21T20:10:10Z",
   "compiler_version": "1.0.1",
   "canonical_source_files": [
     "curriculum_map.json",
@@ -36,12 +36,12 @@
   "canonical_source_hashes": {
     "curriculum_map.json": "ce3a6caf26ea0d2126e576633d97f473fbcbf3da5327a3f96f927f2a167fa522",
     "planning/course_timeline.json": "d628ed537786dfb4e348fa967b6c7e371958363d5f7813cb580313d591008874",
-    "production/assessment_artifact_registry.json": "04d63ad8c2e0e8747546d38082018ccfa6ce53e39e166ef4af16de4c37ebd171",
+    "production/assessment_artifact_registry.json": "f703ec2ad8a3f548e3164076d1d56a715fbd40f0d05931987f0fa5e030178cab",
     "production/assessment_design_contract.json": "5a96d5755aa7d37867952940a5fdeb6f6c873f933db03da00b85a8359ac6e036",
     "production/consolidated_resource_plan.json": "ffbe19ac6814df1c5121d9c9b65c6659010d3ffe1813919422d20741b05dbbdb",
-    "production/production_manifest.json": "9d3181f1fb81f3dde1f53e26e785a78e0e81d20d6d2ed129ddb6000c4e696606",
+    "production/production_manifest.json": "615ff11319569118a34d008326912c337c32d4c840975bf5dbeb258d8f28bc6a",
     "production/teaching_blocks.json": "c9385717798717b5aec878818aab110afe7e558071bfc268e2e59facc1ba3203",
-    "source_manifest.json": "e1360c1a3784fe83d9ee727c7ffb99e555d96c63ed7a96c1ab8c6713e2d7ebb8",
+    "source_manifest.json": "561a2ff8d6c8044cb1e25ae394e4b5c2e6e63d711b9eb6ebb5f7324cf64901aa",
     "textbook_forms_index.json": "79d494cd95aab84b11c77c29c9e675bffbe70e3e6ea7f7fec4b666276df1eac6",
     "textbook_map.json": "818a69c0985f7e0bd6cda1412d32755d930d35714ac80d798e049a1aae489848",
     "themes/tema_01/alignment.json": "fcd1df93fbd4805b91cd443ba7dd752c8d7df2261e16239c4145379d3b135e53",
@@ -61,7 +61,7 @@
     "themes/tema_04/needs.json": "fb4ed973a48e414440edca1d10a1ce47d67850a6f61a341b27907971d4cfc0b6",
     "themes/tema_04/resource_plan.json": "709d28cd8ace5bd4cd379d71e39ee0977fbc52657f0d3300f74c112c3238cde9"
   },
-  "canonical_content_fingerprint": "c17f2f4c7706bc97ee3edc803c86301966775cbde981ffa4706ff260018c544d",
+  "canonical_content_fingerprint": "2a9afc3cadc0e20964eaaf7e02fd8f300ac034d48c9005cc0ea4895014f623d3",
   "row_counts": {
     "courses": 1,
     "themes": 4,
@@ -75,9 +75,9 @@
     "forms": 35,
     "activity_forms": 126,
     "resource_decisions": 64,
-    "assessment_artifacts": 0,
+    "assessment_artifacts": 2,
     "assessment_gap_mappings": 0,
-    "assessment_task_bindings": 0,
+    "assessment_task_bindings": 8,
     "timeline_themes": 4,
     "timeline_blocks": 16,
     "source_references": 4,
@@ -91,7 +91,7 @@
   },
   "assessment_registry_version": null,
   "assessment_contract_version": null,
-  "source_manifest_fingerprint": "e1360c1a3784fe83d9ee727c7ffb99e555d96c63ed7a96c1ab8c6713e2d7ebb8",
+  "source_manifest_fingerprint": "561a2ff8d6c8044cb1e25ae394e4b5c2e6e63d711b9eb6ebb5f7324cf64901aa",
   "runtime_database_path": "runtime/course_runtime.sqlite",
   "validation_status": "PASS"
 }

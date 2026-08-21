@@ -196,3 +196,18 @@ Sonraki uygulanabilir faz: **Faz 14 — TDE_9 eşdeğer bütünlük/validation r
 TDE_10 teknik P0 kapıları ve TDE_9 regresyonları geçmiştir. TDE_10 materyal üretimi, sekiz authenticated EBA DPA hedefi çözülmediği için `UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS` ile fail-closed kalır. TDE_9 tarihsel **7 gap instance → 3 canonical artifact** sözleşmesi, resolver ve runtime regresyonları korunmuştur.
 
 **Faz 15:** `PASS_TECHNICAL_WITH_8_EXTERNAL_AUTH_BLOCKERS`. Bu sonuç parity sertifikası değildir.
+
+
+## 12. Canonical rubrik reconstruction ve runtime support sonucu
+
+Sekiz resmî EBA Dereceli Puanlama Anahtarı bağlantısının hedef payload'ları authentication arkasında kaldığı için birebir EBA eşdeğerliği hâlâ doğrulanmamıştır. Ancak bu durum artık uygulama desteği için blocker değildir.
+
+TDE_10 öğretim programı, yerel resmî ders kitabı, kitap içinde basılı öz/akran değerlendirme yapıları, kurtarılan aynı-görev rubrik kanıtları ve TYMM sınıfları arasındaki ortak 3 düzeyli rubrik deseni kullanılarak iki canonical destek artifact'ı oluşturulmuştur:
+
+- `TDE10_KONUSMA_RUBRIC` — dört konuşma/sunum görevi için yıllık ortak rubrik
+- `TDE10_YAZMA_RUBRIC` — dört yazma/ürün görevi için yıllık ortak rubrik
+
+Her artifact dört tema için ayrı task binding taşır; toplam **8 task binding** vardır. Türetilmiş betimleyiciler resmî EBA payload'ının verbatim kopyası olarak temsil edilmez. Kaynak eşdeğerliği ile uygulama kullanılabilirliği ayrı durumlar olarak tutulur.
+
+**Runtime support:** `READY_2_CANONICAL_RUBRICS_8_TASK_BINDINGS`  
+**Exact EBA payload parity:** `UNVERIFIED_AUTH_GATED`

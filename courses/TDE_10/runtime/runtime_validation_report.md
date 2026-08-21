@@ -16,7 +16,7 @@
 | source fingerprint status | PASS | RUNTIME_FRESH |
 | timeline projection status | PASS | block hours remain ORDER_ONLY |
 | assessment mapping status | PASS | runtime=0, canonical=0 |
-| assessment artifact projection status | PASS | runtime=0, canonical=0 |
+| assessment artifact projection status | PASS | runtime=2, canonical=2 |
 | resource decision projection status | PASS |  |
 | application query A | PASS | rows=1 |
 | application query B | PASS | rows=1 |
@@ -41,9 +41,9 @@
 - `forms`: 35
 - `activity_forms`: 126
 - `resource_decisions`: 64
-- `assessment_artifacts`: 0
+- `assessment_artifacts`: 2
 - `assessment_gap_mappings`: 0
-- `assessment_task_bindings`: 0
+- `assessment_task_bindings`: 8
 - `timeline_themes`: 4
 - `timeline_blocks`: 16
 - `source_references`: 4
