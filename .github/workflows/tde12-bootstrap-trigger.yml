@@ -16,30 +16,13 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.ref }}
           fetch-depth: 0
-      - name: Install dependencies
+      - name: Install PDF tools
         run: |
           sudo apt-get update
           sudo apt-get install -y poppler-utils
-          python -m pip install --disable-pip-version-check pyyaml
-      - name: Execute canonical bootstrap steps
-        run: |
-          python - <<'PY'
-          import subprocess, yaml
-          from pathlib import Path
-          data=yaml.safe_load(Path('.github/workflows/tde12-curriculum-bootstrap.yml').read_text(encoding='utf-8'))
-          wanted={
-            'Build TDE12 curriculum canonical seed from official PDFs',
-            'Finalize source fingerprints and page-bound evidence',
-            'Run curriculum-only fail-closed gate',
-            'Verify TDE9 and TDE10 regression contracts',
-            'Write reports and README',
-          }
-          for step in data['jobs']['bootstrap']['steps']:
-              if step.get('name') in wanted:
-                  print('RUN:', step['name'], flush=True)
-                  subprocess.run(step['run'], shell=True, executable='/bin/bash', check=True)
-          PY
-      - name: Publish final TDE12 curriculum-only state to PR branch
+      - name: Execute TDE12 curriculum-only bootstrap
+        run: python courses/TDE_12/_bootstrap_curriculum_only.py
+      - name: Publish canonical outputs to PR branch
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
