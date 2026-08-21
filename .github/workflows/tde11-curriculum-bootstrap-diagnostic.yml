@@ -1,91 +1,13 @@
 name: TDE11 Curriculum Bootstrap Finalize
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/tde11-curriculum-bootstrap-diagnostic.yml'
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  finalize:
+  noop:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Install PDF text tools
-        run: sudo apt-get update -qq && sudo apt-get install -y poppler-utils
-
-      - name: Finalize curriculum-only package
-        run: |
-          python skill/tymm-material-planner/scripts/curriculum_only_finalize.py \
-            --knowledge-root courses/TDE_11
-
-      - name: Run curriculum-only gate
-        run: |
-          python -m py_compile skill/tymm-material-planner/scripts/curriculum_only_finalize.py skill/tymm-material-planner/scripts/curriculum_only_gate.py
-          python skill/tymm-material-planner/scripts/curriculum_only_gate.py \
-            --knowledge-root courses/TDE_11 \
-            --report courses/TDE_11/curriculum_validation_report.json
-
-      - name: Verify TDE9 and TDE10 shared regression contracts
-        run: |
-          python - <<'PY'
-          import json, sys
-          from pathlib import Path
-          scripts = Path('skill/tymm-material-planner/scripts').resolve()
-          sys.path.insert(0, str(scripts))
-          from production_schema import build_artifact_maps, PARITY_BLOCKED_MODE
-
-          tde9 = json.loads(Path('courses/TDE_9/production/production_manifest.json').read_text(encoding='utf-8'))
-          artifacts, _, aliases, provenance = build_artifact_maps(tde9)
-          assert len(artifacts) == 3
-          assert len(aliases) == 7
-          assert len(provenance) == 7
-
-          tde10 = json.loads(Path('courses/TDE_10/production/production_manifest.json').read_text(encoding='utf-8'))
-          assert tde10['production_mode'] == PARITY_BLOCKED_MODE
-          assert tde10['verified_resource_gap_count'] == 0
-          assert tde10['unresolved_assessment_target_count'] > 0
-          assert tde10['production_queue'] == []
-          assert tde10['generation_authorization']['allowed'] is False
-          assert tde10['generation_authorization']['reason'] == 'UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS'
-          print('Shared regressions: PASS')
-          PY
-
-      - name: Publish final package and remove diagnostics
-        if: success()
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          rm -rf courses/TDE_11/_diagnostic
-          rm -f .github/workflows/tde11-curriculum-bootstrap-diagnostic.yml
-          git add -- courses/TDE_11/curriculum_map.json courses/TDE_11/curriculum_normative_text.json courses/TDE_11/source_manifest.json courses/TDE_11/curriculum_validation_report.json courses/TDE_11/validation_report.md courses/TDE_11/README.md courses/TDE_11/_diagnostic .github/workflows/tde11-curriculum-bootstrap-diagnostic.yml
-          if git diff --cached --quiet; then
-            echo 'No final changes.'
-          else
-            git commit -m 'feat(tde11): finalize curriculum-only bootstrap evidence and gate'
-            git fetch origin main
-            git rebase origin/main
-            git push origin HEAD:main
-          fi
-
-      - name: Publish failure log
-        if: failure()
-        run: |
-          mkdir -p courses/TDE_11/_diagnostic
-          echo "TDE11 finalize workflow failed at $(date -u +%FT%TZ)" > courses/TDE_11/_diagnostic/FINALIZE_FAILED.txt
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- courses/TDE_11/_diagnostic/FINALIZE_FAILED.txt
-          git commit -m 'chore(tde11): record curriculum finalize failure' || true
-          git fetch origin main
-          git rebase origin/main || true
-          git push origin HEAD:main || true
+      - run: echo deprecated
