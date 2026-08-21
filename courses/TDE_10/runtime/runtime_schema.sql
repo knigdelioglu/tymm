@@ -26,3 +26,11 @@ CREATE INDEX idx_resource_theme ON resource_decisions(theme_id, decision_code);
 CREATE INDEX idx_gap_artifact ON assessment_gap_mappings(artifact_id);
 CREATE INDEX idx_bindings_block ON assessment_task_bindings(block_id);
 CREATE INDEX idx_source_entity ON entity_source_references(entity_type, entity_id);
+
+-- assessment-rubric-payload-extension-v1
+ALTER TABLE assessment_artifacts ADD COLUMN level_model_json TEXT NOT NULL DEFAULT '[]';
+ALTER TABLE assessment_artifacts ADD COLUMN criteria_json TEXT NOT NULL DEFAULT '[]';
+ALTER TABLE assessment_artifacts ADD COLUMN provenance_json TEXT NOT NULL DEFAULT '{}';
+ALTER TABLE assessment_task_bindings ADD COLUMN task_specific_criteria_json TEXT NOT NULL DEFAULT '[]';
+ALTER TABLE assessment_task_bindings ADD COLUMN source_equivalence_status TEXT;
+ALTER TABLE assessment_task_bindings ADD COLUMN binding_key_semantics TEXT;

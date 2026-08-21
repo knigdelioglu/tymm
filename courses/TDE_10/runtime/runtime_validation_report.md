@@ -48,3 +48,14 @@
 - `timeline_blocks`: 16
 - `source_references`: 4
 - `entity_source_references`: 0
+
+## Assessment rubric payload projection
+
+| Check | Status | Detail |
+|---|---|---|
+| artifact identity projection | PASS | runtime=2, canonical=2 |
+| rubric criteria payload | PASS | runtime=2, canonical=2 |
+| rubric level model payload | PASS | runtime=2, canonical=2 |
+| task binding count | PASS | runtime=8, canonical=8 |
+| task-specific criteria payload | PASS | runtime=8, canonical=8 |
+| payload JSON validity | PASS | all projected JSON columns parse |
