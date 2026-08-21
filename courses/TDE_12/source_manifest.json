@@ -186,5 +186,11 @@
     "FULL_P0_TEXTBOOK_RUNTIME",
     "PRODUCTION_GATE"
   ],
-  "curriculum_source_bundle_sha256": "12a7f34a94ce3e4418bf51095a39c7bbc69a2951293490b8211e668efeff0305"
+  "curriculum_source_bundle_sha256": "12a7f34a94ce3e4418bf51095a39c7bbc69a2951293490b8211e668efeff0305",
+  "remote_section_evidence": {
+    "status": "VERIFIED_4_OF_4_OFFICIAL_THEME_PAGES",
+    "evidence_file": "curriculum_remote_sections.json",
+    "purpose": "Clean official-web verbatim for program elements and outcome text; local PDF SHA-256 snapshots remain primary source fingerprints.",
+    "theme_count": 4
+  }
 }
