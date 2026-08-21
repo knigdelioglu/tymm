@@ -1,9 +1,12 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "course_id": "TDE_10",
   "reference_course_id": "TDE_9",
-  "status": "VALIDATED_WITH_EXTERNAL_AUTH_BLOCKER",
+  "status": "VALIDATED_SOURCE_EQUIVALENCE_PARTIAL_RUNTIME_SUPPORT_READY",
   "parity_certified": false,
+  "runtime_support_ready": true,
+  "canonical_rubric_artifact_count": 2,
+  "canonical_rubric_binding_count": 8,
   "checks": {
     "themes_4": true,
     "outcomes_64": true,
@@ -16,6 +19,8 @@
     "form_activity_no_broken_refs": true,
     "form_activity_bidirectional": true,
     "external_dpa_8_auth_gated": true,
+    "derived_canonical_rubrics_2": true,
+    "derived_canonical_task_bindings_8": true,
     "needs_64": true,
     "resources_64": true,
     "alignments_64": true,
@@ -23,11 +28,14 @@
     "chain_trace_complete": true,
     "coverage_56_8_0": true,
     "cross_theme_real_comparison": true,
-    "production_fail_closed": true
+    "runtime_assessment_support_ready": true
   },
   "hard_failures": [],
   "external_blockers": [
-    "8 authenticated EBA DPA target structures unresolved"
+    "8 authenticated EBA DPA target payloads remain unavailable for verbatim/exact-structure equivalence verification"
+  ],
+  "non_blocking_for_runtime_support": [
+    "Exact EBA payload equivalence is not required for the owner-authorized derived canonical application rubrics."
   ],
   "counts": {
     "themes": 4,
@@ -41,7 +49,9 @@
     "gaps": 64,
     "covered": 56,
     "partially_covered": 8,
-    "not_covered": 0
+    "not_covered": 0,
+    "canonical_rubrics": 2,
+    "canonical_rubric_bindings": 8
   },
   "details": {
     "verbatim_missing": [],
@@ -50,6 +60,7 @@
     "broken_form_to_activity": [],
     "asymmetric_form_activity": [],
     "chain_errors": [],
+    "coverage_semantics_note": "56/8/0 remains the textbook/external-source coverage result. The 8 partial rows are additionally satisfied for application use by owner-authorized derived canonical rubrics and are not relabeled as textbook COVERED.",
     "theme_metrics": [
       {
         "theme_no": 1,
@@ -57,14 +68,8 @@
         "resources": 16,
         "alignments": 16,
         "gaps": 16,
-        "coverage": {
-          "total_learning_outcomes": 16,
-          "covered_count": 14,
-          "partially_covered_count": 2,
-          "not_covered_count": 0,
-          "review_required_count": 2,
-          "alignment_status": "REVIEW_REQUIRED"
-        }
+        "coverage": {"total_learning_outcomes": 16, "covered_count": 14, "partially_covered_count": 2, "not_covered_count": 0, "review_required_count": 2, "alignment_status": "SOURCE_EQUIVALENCE_REVIEW_REQUIRED_RUNTIME_SUPPORT_READY"},
+        "canonical_support_bindings": 2
       },
       {
         "theme_no": 2,
@@ -72,14 +77,8 @@
         "resources": 16,
         "alignments": 16,
         "gaps": 16,
-        "coverage": {
-          "total_learning_outcomes": 16,
-          "covered_count": 14,
-          "partially_covered_count": 2,
-          "not_covered_count": 0,
-          "review_required_count": 2,
-          "alignment_status": "REVIEW_REQUIRED"
-        }
+        "coverage": {"total_learning_outcomes": 16, "covered_count": 14, "partially_covered_count": 2, "not_covered_count": 0, "review_required_count": 2, "alignment_status": "SOURCE_EQUIVALENCE_REVIEW_REQUIRED_RUNTIME_SUPPORT_READY"},
+        "canonical_support_bindings": 2
       },
       {
         "theme_no": 3,
@@ -87,14 +86,8 @@
         "resources": 16,
         "alignments": 16,
         "gaps": 16,
-        "coverage": {
-          "total_learning_outcomes": 16,
-          "covered_count": 14,
-          "partially_covered_count": 2,
-          "not_covered_count": 0,
-          "review_required_count": 2,
-          "alignment_status": "REVIEW_REQUIRED"
-        }
+        "coverage": {"total_learning_outcomes": 16, "covered_count": 14, "partially_covered_count": 2, "not_covered_count": 0, "review_required_count": 2, "alignment_status": "SOURCE_EQUIVALENCE_REVIEW_REQUIRED_RUNTIME_SUPPORT_READY"},
+        "canonical_support_bindings": 2
       },
       {
         "theme_no": 4,
@@ -102,14 +95,8 @@
         "resources": 16,
         "alignments": 16,
         "gaps": 16,
-        "coverage": {
-          "total_learning_outcomes": 16,
-          "covered_count": 14,
-          "partially_covered_count": 2,
-          "not_covered_count": 0,
-          "review_required_count": 2,
-          "alignment_status": "REVIEW_REQUIRED"
-        }
+        "coverage": {"total_learning_outcomes": 16, "covered_count": 14, "partially_covered_count": 2, "not_covered_count": 0, "review_required_count": 2, "alignment_status": "SOURCE_EQUIVALENCE_REVIEW_REQUIRED_RUNTIME_SUPPORT_READY"},
+        "canonical_support_bindings": 2
       }
     ]
   }
