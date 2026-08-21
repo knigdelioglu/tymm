@@ -1,28 +1,54 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "course_id": "TDE_10",
-  "contract_status": "BLOCKED_PENDING_EXTERNAL_ASSESSMENT_VERIFICATION",
-  "production_mode": "PARITY_REVIEW_BLOCKED",
+  "contract_status": "RUNTIME_SUPPORT_READY_EXTERNAL_EBA_EQUIVALENCE_UNVERIFIED",
+  "production_mode": "DERIVED_CANONICAL_SUPPORT",
   "verified_resource_gap_count": 0,
   "unresolved_assessment_target_count": 8,
-  "new_artifact_count": 0,
+  "new_artifact_count": 2,
+  "canonical_artifact_ids": [
+    "TDE10_KONUSMA_RUBRIC",
+    "TDE10_YAZMA_RUBRIC"
+  ],
+  "canonical_task_binding_count": 8,
   "source_of_truth": {
     "curriculum": "curriculum_map.json",
     "textbook": "textbook_map.json",
     "forms": "textbook_forms_index.json",
-    "cross_theme_audit": "production/cross_theme_audit.json"
+    "cross_theme_audit": "production/cross_theme_audit.json",
+    "artifact_registry": "production/assessment_artifact_registry.json"
   },
   "assessment_policy": {
     "reuse_verified_in_book_assessment_paths": true,
     "duplicate_textbook_resources": false,
-    "infer_external_dpa_structure": false,
-    "external_link_presence_closes_requirement": false,
-    "unresolved_normative_target_is_covered": false,
-    "teacher_review_required_for_generated_artifacts": true
+    "claim_derived_payload_as_verbatim_external_eba": false,
+    "external_link_presence_closes_source_equivalence": false,
+    "derived_canonical_support_allowed_with_owner_authorization": true,
+    "separate_textbook_coverage_from_application_support": true,
+    "teacher_review_required_for_owner_authorized_canonical_rubrics": false
+  },
+  "shared_level_model": {
+    "levels": [
+      "3 — Oldukça iyi",
+      "2 — Kabul edilebilir",
+      "1 — Geliştirilmeli"
+    ],
+    "source_semantics": "Reconstructed canonical scoring model from TDE_10 task evidence and recovered same-task rubric patterns; not represented as verbatim EBA payload."
   },
   "generation_authorization": {
-    "allowed": false,
-    "reason": "UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS"
+    "allowed": true,
+    "reason": "OWNER_AUTHORIZED_DERIVED_CANONICAL_RECONSTRUCTION_FROM_TDE10_PROGRAM_TEXTBOOK_AND_RECOVERED_RUBRIC_EVIDENCE"
   },
-  "resolution_rule": "The contract may move to REUSE_ONLY_NO_NEW_ARTIFACTS only if all eight authenticated EBA DPA target structures are verified and no resource gaps remain. If verification exposes a gap, cross-theme consolidation must run before any artifact is authorized."
+  "runtime_contract": {
+    "projection_version": "1.0.0",
+    "required_runtime_schema_major_minor": "1.1",
+    "required_assessment_artifact_count": 2,
+    "required_assessment_task_binding_count": 8,
+    "rubric_criteria_payload_required": true,
+    "rubric_level_model_payload_required": true,
+    "task_specific_criteria_payload_required": true,
+    "exact_eba_payload_equivalence_required_for_runtime_use": false,
+    "exact_eba_payload_equivalence_status": "UNVERIFIED_AUTH_GATED"
+  },
+  "resolution_rule": "TDE_10 runtime may use the two derived canonical rubrics for all eight speaking/writing performance bindings. Exact EBA payload equivalence remains provenance-only and must not be silently promoted to verified."
 }
