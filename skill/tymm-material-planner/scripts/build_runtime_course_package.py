@@ -7,6 +7,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+from runtime_assessment_payload import project_runtime_assessment_payload
+
 COMPILER_VERSION = "1.0.1"
 RUNTIME_PACKAGE_VERSION = "1.0.0"
 SCHEMA_VERSION = "1.0.0"
@@ -146,6 +148,7 @@ def build(root: Path) -> dict[str, Any]:
     runtime_manifest={"runtime_package_version":RUNTIME_PACKAGE_VERSION,"schema_version":SCHEMA_VERSION,"course_id":course_id,"grade":curriculum.get("grade"),"build_timestamp":now,"compiler_version":COMPILER_VERSION,"canonical_source_files":sorted(files),"canonical_source_hashes":{k:v["sha256"] for k,v in sorted(files.items())},"canonical_content_fingerprint":fingerprint,"row_counts":counts,"timeline_resolution":timeline.get("timeline_resolution"),"timeline_unresolved_fields":{"weekly_lesson_hours":timeline.get("calendar_binding",{}).get("weekly_lesson_hours"),"calendar_binding":timeline.get("calendar_binding",{}).get("status"),"block_hours":"ORDER_ONLY"},"assessment_registry_version":reg.get("registry_version"),"assessment_contract_version":contract.get("metadata",{}).get("contract_version"),"source_manifest_fingerprint":next((x["sha256"] for k,x in files.items() if k=="source_manifest.json"),None),"runtime_database_path":"runtime/course_runtime.sqlite","validation_status":"PENDING"}
     (out/"runtime_schema.sql").write_text(SCHEMA.strip()+"\n",encoding="utf-8"); (out/"runtime_manifest.json").write_text(json.dumps(runtime_manifest,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     result=validate(root, write_report=True); runtime_manifest["validation_status"]=result["status"]; (out/"runtime_manifest.json").write_text(json.dumps(runtime_manifest,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    project_runtime_assessment_payload(root)
     return result
 
 def validate(root: Path, write_report: bool=False) -> dict[str,Any]:
