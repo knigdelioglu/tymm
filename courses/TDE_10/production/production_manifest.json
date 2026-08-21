@@ -1,26 +1,61 @@
 {
   "schema_version": "1.1",
   "course_id": "TDE_10",
-  "production_mode": "PARITY_REVIEW_BLOCKED",
-  "production_status": "BLOCKED_PENDING_8_EBA_ASSESSMENT_TARGETS",
+  "production_mode": "DERIVED_CANONICAL_SUPPORT",
+  "production_status": "READY_CANONICAL_RUBRICS_EXTERNAL_EQUIVALENCE_UNVERIFIED",
   "verified_resource_gap_count": 0,
-  "expected_new_artifact_count": 0,
-  "production_queue": [],
+  "expected_new_artifact_count": 2,
+  "production_queue": [
+    {
+      "artifact_id": "TDE10_KONUSMA_RUBRIC",
+      "title": "10. Sınıf Türk Dili ve Edebiyatı Yıllık Konuşma/Sunum Dereceli Puanlama Anahtarı",
+      "skill_domain": "Konuşma / Sözlü Anlatım",
+      "assessment_family": "ANALYTIC_RUBRIC",
+      "scope": "ANNUAL_CORE",
+      "priority": "REQUIRED",
+      "selected_implementation": "derived_canonical_analytic_rubric",
+      "reuse_policy": "REUSE_ANNUAL_CORE_WITH_TASK_BINDING_EXTENSIONS",
+      "covered_gap_instances": [],
+      "covered_themes": ["TEMA_01", "TEMA_02", "TEMA_03", "TEMA_04"],
+      "covered_outcomes": ["TDE3.4"],
+      "teacher_review_required": false,
+      "generation_status": "DERIVED_CANONICAL_READY",
+      "source_equivalence_status": "EXTERNAL_EBA_EXACT_EQUIVALENCE_UNVERIFIED"
+    },
+    {
+      "artifact_id": "TDE10_YAZMA_RUBRIC",
+      "title": "10. Sınıf Türk Dili ve Edebiyatı Yıllık Yazma/Ürün Dereceli Puanlama Anahtarı",
+      "skill_domain": "Yazma / Yazılı ve Çok Modlu Ürün",
+      "assessment_family": "ANALYTIC_RUBRIC",
+      "scope": "ANNUAL_CORE",
+      "priority": "REQUIRED",
+      "selected_implementation": "derived_canonical_analytic_rubric",
+      "reuse_policy": "REUSE_ANNUAL_CORE_WITH_TASK_BINDING_EXTENSIONS",
+      "covered_gap_instances": [],
+      "covered_themes": ["TEMA_01", "TEMA_02", "TEMA_03", "TEMA_04"],
+      "covered_outcomes": ["TDE4.4"],
+      "teacher_review_required": false,
+      "generation_status": "DERIVED_CANONICAL_READY",
+      "source_equivalence_status": "EXTERNAL_EBA_EXACT_EQUIVALENCE_UNVERIFIED"
+    }
+  ],
   "gap_instance_provenance_registry": [],
   "artifact_identity_field": "artifact_id",
   "legacy_gap_alias_policy": "NONE_NO_CONFIRMED_GAPS",
   "generation_authorization": {
-    "allowed": false,
-    "reason": "UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS",
-    "blocking_target_count": 8
+    "allowed": true,
+    "reason": "OWNER_AUTHORIZED_DERIVED_CANONICAL_RECONSTRUCTION_FROM_TDE10_PROGRAM_TEXTBOOK_AND_RECOVERED_RUBRIC_EVIDENCE",
+    "blocking_target_count": 0
   },
   "canonical_inputs": {
     "curriculum_map": "curriculum_map.json",
     "textbook_map": "textbook_map.json",
     "textbook_forms_index": "textbook_forms_index.json",
     "cross_theme_audit": "production/cross_theme_audit.json",
-    "consolidated_resource_plan": "production/consolidated_resource_plan.json"
+    "consolidated_resource_plan": "production/consolidated_resource_plan.json",
+    "assessment_artifact_registry": "production/assessment_artifact_registry.json"
   },
   "unresolved_assessment_target_count": 8,
-  "parity_interpretation": "Zero confirmed gaps is not yet equivalent to NO_REQUIRED_ARTIFACTS; eight normative teacher-assessment targets remain structurally unresolved behind authenticated EBA access."
+  "runtime_support_status": "READY_WITH_2_CANONICAL_RUBRICS_AND_8_TASK_BINDINGS",
+  "parity_interpretation": "Sekiz resmî EBA DPA hedefinin birebir içerik eşdeğerliği erişim kısıtlı kalır. Kullanıcı yetkisiyle TDE_10 programı, yerel resmî ders kitabı, kitap içi değerlendirme formları ve kurtarılan aynı-görev rubrik kanıtlarından iki yıllık canonical destek rubriği türetilmiştir. Bunlar EBA içeriğinin verbatim kopyası olarak temsil edilmez."
 }
