@@ -20,6 +20,65 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y poppler-utils
+      - name: Make outcome extraction heading-independent
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('courses/TDE_12/_bootstrap_curriculum_only.py')
+          s=p.read_text(encoding='utf-8')
+          a=s.index('def extract_outcomes(')
+          b=s.index('\n\ndef build_seed()', a)
+          replacement=r'''def extract_outcomes(lines: list[str], theme_id: str) -> list[dict]:
+              expected = [f"TDE{x}.{y}" for x in range(1, 5) for y in range(1, 5)]
+              positions: list[tuple[str, int, str]] = []
+              cursor = 0
+              for code in expected:
+                  pattern = re.compile(rf"^{re.escape(code)}\.?(?:\s+|$)(.*)$")
+                  found = None
+                  for i in range(cursor, len(lines)):
+                      m = pattern.match(lines[i])
+                      if m:
+                          found = (code, i, m.group(1).strip())
+                          break
+                  assert found is not None, f"OUTCOME_CODE_NOT_FOUND:{theme_id}:{code}"
+                  positions.append(found)
+                  cursor = found[1] + 1
+
+              rows: list[dict] = []
+              for idx, (code, pos, first_text) in enumerate(positions):
+                  if idx + 1 < len(positions):
+                      end = positions[idx + 1][1]
+                  else:
+                      candidates = [
+                          find_heading(lines, ["İçerik Çerçevesi"], pos + 1),
+                          find_heading(lines, ["Anahtar Kavramlar"], pos + 1),
+                          find_heading(lines, ["Öğrenme Kanıtları"], pos + 1),
+                      ]
+                      candidates = [x for x in candidates if x is not None]
+                      end = min(candidates) if candidates else min(len(lines), pos + 12)
+                  body = [first_text] if first_text else []
+                  for x in lines[pos + 1:end]:
+                      if x in LABELS:
+                          continue
+                      if x.startswith("Türk Dili Ve Edebiyatı Dersi 12.Sınıf"):
+                          continue
+                      if "https://tymm.meb.gov.tr/" in x:
+                          continue
+                      body.append(x)
+                  text = norm(" ".join(body))
+                  assert text, f"OUTCOME_VERBATIM_EMPTY:{theme_id}:{code}"
+                  rows.append({
+                      "outcome_code": code,
+                      "outcome_verbatim": text,
+                      "theme_scope": theme_id,
+                      "stable_entity_key": f"TDE_12:{theme_id}:{code}",
+                      "verification_status": "VERIFIED_OFFICIAL_REMOTE_AND_LOCAL_CONTENT",
+                  })
+              assert [r["outcome_code"] for r in rows] == expected, f"OUTCOME_SET_MISMATCH:{theme_id}"
+              return rows
+'''
+          p.write_text(s[:a]+replacement+s[b:],encoding='utf-8')
+          PY
       - name: Execute TDE12 curriculum-only bootstrap
         run: python courses/TDE_12/_bootstrap_curriculum_only.py
       - name: Publish canonical outputs to PR branch
