@@ -95,12 +95,10 @@ jobs:
               marker='\n\ndef validate_fail_closed_lifecycle(root: Path) -> dict[str, Any]:'
               assert marker in s
               s=s.replace(marker, '\n\n'+helper+marker)
-
               old='''    canonical = validate_curriculum(root, manifest, curriculum)\n    lifecycle = validate_fail_closed_lifecycle(root)'''
               new='''    canonical = validate_curriculum(root, manifest, curriculum)\n    program_elements = validate_optional_program_elements(root, curriculum)\n    lifecycle = validate_fail_closed_lifecycle(root)'''
               assert old in s
               s=s.replace(old,new)
-
               old='''        "canonical": canonical,\n        "lifecycle_safety": lifecycle,'''
               new='''        "canonical": canonical,\n        "program_elements": program_elements,\n        "lifecycle_safety": lifecycle,'''
               assert old in s
@@ -109,8 +107,24 @@ jobs:
           else:
               print('Program-element gate contract already present.')
           PY
-      - name: Run curriculum-only gate
-        run: python skill/tymm-material-planner/scripts/curriculum_only_gate.py --knowledge-root courses/TDE_12 --report courses/TDE_12/curriculum_validation_report.json
+      - name: Run TDE12 and TDE11 curriculum-only gates
+        run: |
+          python skill/tymm-material-planner/scripts/curriculum_only_gate.py --knowledge-root courses/TDE_12 --report courses/TDE_12/curriculum_validation_report.json
+          python skill/tymm-material-planner/scripts/curriculum_only_gate.py --knowledge-root courses/TDE_11 > /tmp/tde11-gate.log
+          grep -q 'CURRICULUM-ONLY GATE: PASS (TDE_11)' /tmp/tde11-gate.log
+          grep -q '"status": "NOT_DECLARED"' /tmp/tde11-gate.log
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path('courses/TDE_12/curriculum_validation_report.json').read_text(encoding='utf-8'))
+          p=r['program_elements']
+          assert p['status']=='PASS', p
+          assert p['required_families_per_theme']==13, p
+          assert p['required_families_total']==52, p
+          assert p['explicit_families_checked'] >= 52, p
+          print('TDE12 program-elements contract: PASS')
+          print('TDE11 backward compatibility: PASS')
+          PY
       - name: Verify TDE9 and TDE10 regressions
         run: |
           python skill/tymm-material-planner/tests/test_reuse_only_contract.py
@@ -128,15 +142,15 @@ jobs:
           assert p['production_queue']==[]
           print('TDE9/TDE10 regressions: PASS')
           PY
-      - name: Publish enrichment to PR branch
+      - name: Publish gate contract to PR branch
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          rm -f courses/TDE_12/_enrich_from_official_tymm.py courses/TDE_12/.program_elements_gate_marker
-          git add -- courses/TDE_12/curriculum_map.json courses/TDE_12/curriculum_remote_sections.json courses/TDE_12/curriculum_validation_report.json courses/TDE_12/source_manifest.json courses/TDE_12/validation_report.md courses/TDE_12/README.md courses/TDE_12/_enrich_from_official_tymm.py courses/TDE_12/.program_elements_gate_marker skill/tymm-material-planner/scripts/curriculum_only_gate.py
+          rm -f courses/TDE_12/.program_elements_gate_marker
+          git add -- skill/tymm-material-planner/scripts/curriculum_only_gate.py courses/TDE_12/curriculum_validation_report.json courses/TDE_12/.program_elements_gate_marker
           if git diff --cached --quiet; then
-            echo 'No enrichment output changes.'
+            echo 'No gate changes.'
           else
-            git commit -m 'feat(tde12): enforce curriculum program-element evidence contract'
+            git commit -m 'feat(curriculum-only): validate declared program-element evidence'
             git push origin HEAD:${{ github.event.pull_request.head.ref }}
           fi
