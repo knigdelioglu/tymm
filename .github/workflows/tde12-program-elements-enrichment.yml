@@ -1,0 +1,57 @@
+name: TDE12 Program Elements Enrichment
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'courses/TDE_12/**'
+      - '.github/workflows/tde12-program-elements-enrichment.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  enrich:
+    if: github.event.pull_request.head.ref == 'feat/tde12-program-elements-enrichment'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          fetch-depth: 0
+      - name: Install parser dependency
+        run: python -m pip install --disable-pip-version-check beautifulsoup4
+      - name: Enrich canonical program elements from official TYMM pages
+        run: python courses/TDE_12/_enrich_from_official_tymm.py
+      - name: Run curriculum-only gate
+        run: python skill/tymm-material-planner/scripts/curriculum_only_gate.py --knowledge-root courses/TDE_12 --report courses/TDE_12/curriculum_validation_report.json
+      - name: Verify TDE9 and TDE10 regressions
+        run: |
+          python skill/tymm-material-planner/tests/test_reuse_only_contract.py
+          python skill/tymm-material-planner/tests/test_parity_blocked_contract.py
+          python - <<'PY'
+          import json, sys
+          from pathlib import Path
+          sys.path.insert(0, str(Path('skill/tymm-material-planner/scripts').resolve()))
+          from production_schema import build_artifact_maps
+          m=json.loads(Path('courses/TDE_9/production/production_manifest.json').read_text(encoding='utf-8'))
+          artifacts,_,aliases,prov=build_artifact_maps(m)
+          assert len(artifacts)==3 and len(aliases)==7 and len(prov)==7
+          p=json.loads(Path('courses/TDE_10/production/production_manifest.json').read_text(encoding='utf-8'))
+          assert p['production_mode']=='PARITY_REVIEW_BLOCKED'
+          assert p['production_queue']==[]
+          print('TDE9/TDE10 regressions: PASS')
+          PY
+      - name: Publish enrichment to PR branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          rm courses/TDE_12/_enrich_from_official_tymm.py
+          git add -- courses/TDE_12/curriculum_map.json courses/TDE_12/curriculum_remote_sections.json courses/TDE_12/curriculum_validation_report.json courses/TDE_12/source_manifest.json courses/TDE_12/validation_report.md courses/TDE_12/README.md courses/TDE_12/_enrich_from_official_tymm.py
+          if git diff --cached --quiet; then
+            echo 'No enrichment output changes.'
+          else
+            git commit -m 'feat(tde12): enrich canonical program elements from official TYMM'
+            git push origin HEAD:${{ github.event.pull_request.head.ref }}
+          fi
