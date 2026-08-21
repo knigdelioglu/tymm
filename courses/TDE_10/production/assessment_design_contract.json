@@ -40,6 +40,8 @@
     "reason": "OWNER_AUTHORIZED_DERIVED_CANONICAL_RECONSTRUCTION_FROM_TDE10_PROGRAM_TEXTBOOK_AND_RECOVERED_RUBRIC_EVIDENCE"
   },
   "runtime_contract": {
+    "projection_version": "1.0.0",
+    "required_runtime_schema_major_minor": "1.1",
     "required_assessment_artifact_count": 2,
     "required_assessment_task_binding_count": 8,
     "rubric_criteria_payload_required": true,
