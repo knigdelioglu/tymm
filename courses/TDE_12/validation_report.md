@@ -53,3 +53,13 @@ Ders kitabının mevcut olmaması curriculum gap olarak değerlendirilmemiştir.
 ## Gerçek curriculum blocker
 
 **Yok.** Curriculum-only bootstrap gate PASS durumundadır.
+
+
+## Program bileşenleri kanıt derinliği
+
+- Program element capture: **PASS — 4/4 tema × 13 zorunlu bileşen ailesi = 52/52**
+- Outcome temiz web verbatim doğrulaması: **PASS — 64/64**
+- Resmî web evidence: `curriculum_remote_sections.json`
+- PDF text-layer glyph bozulmaları canonical outcome metnine taşınmadı; yerel PDF ve `curriculum_normative_text.json` birincil snapshot/kanıt katmanı olarak korunmaktadır.
+- Kavramsal beceriler yalnız `Beceriler Arası İlişkiler` içinde resmen yayımlanan `KB*` kayıtlarından projekte edilmiştir; sentetik kod üretilmemiştir.
+- Farklılaştırma, Zenginleştirme ve Destekleme hükümleri 4/4 tema için verbatim yakalanmıştır.

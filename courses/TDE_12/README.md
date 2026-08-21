@@ -13,3 +13,5 @@ Mevcut canonical kaynaklar:
 - `source_docs/` — dört resmî TYMM tema PDF snapshot'ı
 
 Resmî ders kitabı henüz bu aşamaya dahil değildir. Bu nedenle textbook coverage, alignment, gap analysis ve production kararları `NOT_EVALUATED` / deferred durumundadır. Kitap yokluğu curriculum gap değildir.
+
+- `curriculum_remote_sections.json`: Resmî TYMM tema sayfalarından temiz verbatim program bileşeni/outcome kanıtı; PDF snapshot kanıtını tamamlar.
