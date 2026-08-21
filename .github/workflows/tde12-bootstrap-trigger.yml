@@ -21,62 +21,17 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y poppler-utils
       - name: Make outcome extraction heading-independent
+        env:
+          OUTCOME_EXTRACTOR_B64: ZGVmIGV4dHJhY3Rfb3V0Y29tZXMobGluZXM6IGxpc3Rbc3RyXSwgdGhlbWVfaWQ6IHN0cikgLT4gbGlzdFtkaWN0XToKICAgIGV4cGVjdGVkID0gW2YiVERFe3h9Lnt5fSIgZm9yIHggaW4gcmFuZ2UoMSwgNSkgZm9yIHkgaW4gcmFuZ2UoMSwgNSldCiAgICBwb3NpdGlvbnM6IGxpc3RbdHVwbGVbc3RyLCBpbnQsIHN0cl1dID0gW10KICAgIGN1cnNvciA9IDAKICAgIGZvciBjb2RlIGluIGV4cGVjdGVkOgogICAgICAgIHBhdHRlcm4gPSByZS5jb21waWxlKHJmIl57cmUuZXNjYXBlKGNvZGUpfVwuPyg/OlxzK3wkKSguKikkIikKICAgICAgICBmb3VuZCA9IE5vbmUKICAgICAgICBmb3IgaSBpbiByYW5nZShjdXJzb3IsIGxlbihsaW5lcykpOgogICAgICAgICAgICBtID0gcGF0dGVybi5tYXRjaChsaW5lc1tpXSkKICAgICAgICAgICAgaWYgbToKICAgICAgICAgICAgICAgIGZvdW5kID0gKGNvZGUsIGksIG0uZ3JvdXAoMSkuc3RyaXAoKSkKICAgICAgICAgICAgICAgIGJyZWFrCiAgICAgICAgYXNzZXJ0IGZvdW5kIGlzIG5vdCBOb25lLCBmIk9VVENPTUVfQ09ERV9OT1RfRk9VTkQ6e3RoZW1lX2lkfTp7Y29kZX0iCiAgICAgICAgcG9zaXRpb25zLmFwcGVuZChmb3VuZCkKICAgICAgICBjdXJzb3IgPSBmb3VuZFsxXSArIDEKCiAgICByb3dzOiBsaXN0W2RpY3RdID0gW10KICAgIGZvciBpZHgsIChjb2RlLCBwb3MsIGZpcnN0X3RleHQpIGluIGVudW1lcmF0ZShwb3NpdGlvbnMpOgogICAgICAgIGlmIGlkeCArIDEgPCBsZW4ocG9zaXRpb25zKToKICAgICAgICAgICAgZW5kID0gcG9zaXRpb25zW2lkeCArIDFdWzFdCiAgICAgICAgZWxzZToKICAgICAgICAgICAgY2FuZGlkYXRlcyA9IFsKICAgICAgICAgICAgICAgIGZpbmRfaGVhZGluZyhsaW5lcywgWyLEsMOnZXJpayDDh2Vyw6dldmVzaSJdLCBwb3MgKyAxKSwKICAgICAgICAgICAgICAgIGZpbmRfaGVhZGluZyhsaW5lcywgWyJBbmFodGFyIEthdnJhbWxhciJdLCBwb3MgKyAxKSwKICAgICAgICAgICAgICAgIGZpbmRfaGVhZGluZyhsaW5lcywgWyLDlsSfcmVubWUgS2FuxLF0bGFyxLEiXSwgcG9zICsgMSksCiAgICAgICAgICAgIF0KICAgICAgICAgICAgY2FuZGlkYXRlcyA9IFt4IGZvciB4IGluIGNhbmRpZGF0ZXMgaWYgeCBpcyBub3QgTm9uZV0KICAgICAgICAgICAgZW5kID0gbWluKGNhbmRpZGF0ZXMpIGlmIGNhbmRpZGF0ZXMgZWxzZSBtaW4obGVuKGxpbmVzKSwgcG9zICsgMTIpCiAgICAgICAgYm9keSA9IFtmaXJzdF90ZXh0XSBpZiBmaXJzdF90ZXh0IGVsc2UgW10KICAgICAgICBmb3IgeCBpbiBsaW5lc1twb3MgKyAxOmVuZF06CiAgICAgICAgICAgIGlmIHggaW4gTEFCRUxTOgogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgaWYgeC5zdGFydHN3aXRoKCJUw7xyayBEaWxpIFZlIEVkZWJpeWF0xLEgRGVyc2kgMTIuU8SxbsSxZiIpOgogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgaWYgImh0dHBzOi8vdHltbS5tZWIuZ292LnRyLyIgaW4geDoKICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgIGJvZHkuYXBwZW5kKHgpCiAgICAgICAgdGV4dCA9IG5vcm0oIiAiLmpvaW4oYm9keSkpCiAgICAgICAgYXNzZXJ0IHRleHQsIGYiT1VUQ09NRV9WRVJCQVRJTV9FTVBUWTp7dGhlbWVfaWR9Ontjb2RlfSIKICAgICAgICByb3dzLmFwcGVuZCh7CiAgICAgICAgICAgICJvdXRjb21lX2NvZGUiOiBjb2RlLAogICAgICAgICAgICAib3V0Y29tZV92ZXJiYXRpbSI6IHRleHQsCiAgICAgICAgICAgICJ0aGVtZV9zY29wZSI6IHRoZW1lX2lkLAogICAgICAgICAgICAic3RhYmxlX2VudGl0eV9rZXkiOiBmIlRERV8xMjp7dGhlbWVfaWR9Ontjb2RlfSIsCiAgICAgICAgICAgICJ2ZXJpZmljYXRpb25fc3RhdHVzIjogIlZFUklGSUVEX09GRklDSUFMX1JFTU9URV9BTkRfTE9DQUxfQ09OVEVOVCIsCiAgICAgICAgfSkKICAgIGFzc2VydCBbclsib3V0Y29tZV9jb2RlIl0gZm9yIHIgaW4gcm93c10gPT0gZXhwZWN0ZWQsIGYiT1VUQ09NRV9TRVRfTUlTTUFUQ0g6e3RoZW1lX2lkfSIKICAgIHJldHVybiByb3dzCg==
         run: |
           python - <<'PY'
+          import base64, os
           from pathlib import Path
           p=Path('courses/TDE_12/_bootstrap_curriculum_only.py')
           s=p.read_text(encoding='utf-8')
           a=s.index('def extract_outcomes(')
           b=s.index('\n\ndef build_seed()', a)
-          replacement=r'''def extract_outcomes(lines: list[str], theme_id: str) -> list[dict]:
-              expected = [f"TDE{x}.{y}" for x in range(1, 5) for y in range(1, 5)]
-              positions: list[tuple[str, int, str]] = []
-              cursor = 0
-              for code in expected:
-                  pattern = re.compile(rf"^{re.escape(code)}\.?(?:\s+|$)(.*)$")
-                  found = None
-                  for i in range(cursor, len(lines)):
-                      m = pattern.match(lines[i])
-                      if m:
-                          found = (code, i, m.group(1).strip())
-                          break
-                  assert found is not None, f"OUTCOME_CODE_NOT_FOUND:{theme_id}:{code}"
-                  positions.append(found)
-                  cursor = found[1] + 1
-
-              rows: list[dict] = []
-              for idx, (code, pos, first_text) in enumerate(positions):
-                  if idx + 1 < len(positions):
-                      end = positions[idx + 1][1]
-                  else:
-                      candidates = [
-                          find_heading(lines, ["İçerik Çerçevesi"], pos + 1),
-                          find_heading(lines, ["Anahtar Kavramlar"], pos + 1),
-                          find_heading(lines, ["Öğrenme Kanıtları"], pos + 1),
-                      ]
-                      candidates = [x for x in candidates if x is not None]
-                      end = min(candidates) if candidates else min(len(lines), pos + 12)
-                  body = [first_text] if first_text else []
-                  for x in lines[pos + 1:end]:
-                      if x in LABELS:
-                          continue
-                      if x.startswith("Türk Dili Ve Edebiyatı Dersi 12.Sınıf"):
-                          continue
-                      if "https://tymm.meb.gov.tr/" in x:
-                          continue
-                      body.append(x)
-                  text = norm(" ".join(body))
-                  assert text, f"OUTCOME_VERBATIM_EMPTY:{theme_id}:{code}"
-                  rows.append({
-                      "outcome_code": code,
-                      "outcome_verbatim": text,
-                      "theme_scope": theme_id,
-                      "stable_entity_key": f"TDE_12:{theme_id}:{code}",
-                      "verification_status": "VERIFIED_OFFICIAL_REMOTE_AND_LOCAL_CONTENT",
-                  })
-              assert [r["outcome_code"] for r in rows] == expected, f"OUTCOME_SET_MISMATCH:{theme_id}"
-              return rows
-'''
+          replacement=base64.b64decode(os.environ['OUTCOME_EXTRACTOR_B64']).decode('utf-8')
           p.write_text(s[:a]+replacement+s[b:],encoding='utf-8')
           PY
       - name: Execute TDE12 curriculum-only bootstrap
