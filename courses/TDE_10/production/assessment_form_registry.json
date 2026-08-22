@@ -1,0 +1,681 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_10",
+  "registry_status": "READY",
+  "registry_role": "MATERIALIZED_VIEW_OF_CANONICAL_RUBRICS_AND_TASK_BINDINGS",
+  "acceptance_policy": {
+    "decision": "ACCEPT_STRONG_COPIES",
+    "structure_status": "RESOLVED_FOR_CANONICAL_USE",
+    "criteria_status": "ACCEPTED_WHERE_RECOVERED_WITH_HIGH_CONFIDENCE",
+    "exact_external_payload_identity": "UNVERIFIED_AUTH_GATED_PROVENANCE_ONLY",
+    "rule": "Güçlü kopyalardan yüksek güvenle kurtarılan görev ölçütleri canonical form satırı olarak kabul edilir. EBA hedefinin byte-byte aynı içeriği olduğu iddia edilmez."
+  },
+  "shared_level_model": {
+    "model_id": "TDE10_SHARED_3_LEVEL_MODEL",
+    "levels": [
+      {
+        "score": 3,
+        "label": "Oldukça iyi",
+        "descriptor": "Ölçüt tam, doğru ve etkili biçimde karşılanmıştır."
+      },
+      {
+        "score": 2,
+        "label": "Kabul edilebilir",
+        "descriptor": "Ölçüt büyük ölçüde karşılanmıştır; sınırlı eksikler vardır."
+      },
+      {
+        "score": 1,
+        "label": "Geliştirilmeli",
+        "descriptor": "Ölçüt sınırlı ölçüde karşılanmıştır; belirgin eksikler vardır."
+      }
+    ]
+  },
+  "form_count": 8,
+  "criterion_row_count": 66,
+  "forms": [
+    {
+      "form_id": "FORM_T10_T1_KONUSMA_DPA_CANONICAL",
+      "artifact_id": "TDE10_KONUSMA_RUBRIC",
+      "requirement_id": "REQ_T10_T1_KONUSMA_DPA",
+      "runtime_binding_key": {
+        "artifact_id": "TDE10_KONUSMA_RUBRIC",
+        "gap_instance_id": "REQ_T10_T1_KONUSMA_DPA"
+      },
+      "runtime_projection_mode": "COMPOSE_FROM_ASSESSMENT_ARTIFACT_AND_TASK_BINDING",
+      "source_link_id": "LINK_T1_KONUSMA_DPA",
+      "theme_id": "TEMA_01",
+      "block_id": "BLOCK_T1_02_KONUSMA",
+      "task_title": "Şiir Dinletisi",
+      "targeted_outcomes": [
+        "TDE3.4"
+      ],
+      "textbook_locator": "Ders kitabı s.55-57; LINK_T1_KONUSMA_DPA",
+      "evaluator": "teacher",
+      "form_type": "analytic_rubric",
+      "materialization_status": "ACCEPTED_STRONG_COPY_CANONICAL_FORM",
+      "source_acceptance": "STRONG_COPY_ACCEPTED_FOR_STRUCTURE_AND_CRITERIA",
+      "exact_external_payload_identity": "UNVERIFIED_AUTH_GATED_PROVENANCE_ONLY",
+      "level_model_ref": "TDE10_SHARED_3_LEVEL_MODEL",
+      "criteria_rows": [
+        {
+          "criterion_id": "FORM_T10_T1_KONUSMA_DPA_CANONICAL_C01",
+          "criterion": "Şiir seçiminin temaya uygunluğu",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T1_KONUSMA_DPA_CANONICAL_C02",
+          "criterion": "Dikkat çekici giriş ve planlı sunum",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T1_KONUSMA_DPA_CANONICAL_C03",
+          "criterion": "Şiirleri özgün üslupla seslendirme",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T1_KONUSMA_DPA_CANONICAL_C04",
+          "criterion": "Görsel/işitsel ögeler",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T1_KONUSMA_DPA_CANONICAL_C05",
+          "criterion": "Beden dili",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T1_KONUSMA_DPA_CANONICAL_C06",
+          "criterion": "Mekân kullanımı",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T1_KONUSMA_DPA_CANONICAL_C07",
+          "criterion": "Vurgu-tonlama",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T1_KONUSMA_DPA_CANONICAL_C08",
+          "criterion": "Olumlu tutum",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T1_KONUSMA_DPA_CANONICAL_C09",
+          "criterion": "Süre",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T1_KONUSMA_DPA_CANONICAL_C10",
+          "criterion": "Planı tamamlama",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T1_KONUSMA_DPA_CANONICAL_C11",
+          "criterion": "Türkçenin doğru kullanımı",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        }
+      ],
+      "applicable_criterion_count": 11,
+      "max_raw_score": 33,
+      "min_raw_score": 11,
+      "percentage_rule": "raw_score / applicable_max_score * 100",
+      "not_applicable_policy": "N/A ölçütleri pay ve paydadan çıkarılır."
+    },
+    {
+      "form_id": "FORM_T10_T2_KONUSMA_DPA_CANONICAL",
+      "artifact_id": "TDE10_KONUSMA_RUBRIC",
+      "requirement_id": "REQ_T10_T2_KONUSMA_DPA",
+      "runtime_binding_key": {
+        "artifact_id": "TDE10_KONUSMA_RUBRIC",
+        "gap_instance_id": "REQ_T10_T2_KONUSMA_DPA"
+      },
+      "runtime_projection_mode": "COMPOSE_FROM_ASSESSMENT_ARTIFACT_AND_TASK_BINDING",
+      "source_link_id": "LINK_T2_PODCAST_DPA",
+      "theme_id": "TEMA_02",
+      "block_id": "BLOCK_T2_04_KONUSMA",
+      "task_title": "Podcast (Sesli Blog)",
+      "targeted_outcomes": [
+        "TDE3.4"
+      ],
+      "textbook_locator": "Ders kitabı s.146-149; LINK_T2_PODCAST_DPA",
+      "evaluator": "teacher",
+      "form_type": "analytic_rubric",
+      "materialization_status": "ACCEPTED_STRONG_COPY_CANONICAL_FORM",
+      "source_acceptance": "STRONG_COPY_ACCEPTED_FOR_STRUCTURE_AND_CRITERIA",
+      "exact_external_payload_identity": "UNVERIFIED_AUTH_GATED_PROVENANCE_ONLY",
+      "level_model_ref": "TDE10_SHARED_3_LEVEL_MODEL",
+      "criteria_rows": [
+        {
+          "criterion_id": "FORM_T10_T2_KONUSMA_DPA_CANONICAL_C01",
+          "criterion": "İçeriğin anlam ve amaca uygunluğu",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T2_KONUSMA_DPA_CANONICAL_C02",
+          "criterion": "Dil ve anlatım",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T2_KONUSMA_DPA_CANONICAL_C03",
+          "criterion": "İşitsel ögelerin kullanımı",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T2_KONUSMA_DPA_CANONICAL_C04",
+          "criterion": "Özgünlük",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T2_KONUSMA_DPA_CANONICAL_C05",
+          "criterion": "Vurgu-tonlama ve akıcılık",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T2_KONUSMA_DPA_CANONICAL_C06",
+          "criterion": "Podcast akışı ve süre",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        }
+      ],
+      "applicable_criterion_count": 6,
+      "max_raw_score": 18,
+      "min_raw_score": 6,
+      "percentage_rule": "raw_score / applicable_max_score * 100",
+      "not_applicable_policy": "N/A ölçütleri pay ve paydadan çıkarılır."
+    },
+    {
+      "form_id": "FORM_T10_T3_KONUSMA_DPA_CANONICAL",
+      "artifact_id": "TDE10_KONUSMA_RUBRIC",
+      "requirement_id": "REQ_T10_T3_KONUSMA_DPA",
+      "runtime_binding_key": {
+        "artifact_id": "TDE10_KONUSMA_RUBRIC",
+        "gap_instance_id": "REQ_T10_T3_KONUSMA_DPA"
+      },
+      "runtime_projection_mode": "COMPOSE_FROM_ASSESSMENT_ARTIFACT_AND_TASK_BINDING",
+      "source_link_id": "LINK_T3_KONUSMA_DPA",
+      "theme_id": "TEMA_03",
+      "block_id": "BLOCK_T3_02_KONUSMA",
+      "task_title": "Türk Destanlarıyla İlgili Sunum",
+      "targeted_outcomes": [
+        "TDE3.4"
+      ],
+      "textbook_locator": "Ders kitabı s.204-208; LINK_T3_KONUSMA_DPA",
+      "evaluator": "teacher",
+      "form_type": "analytic_rubric",
+      "materialization_status": "ACCEPTED_STRONG_COPY_CANONICAL_FORM",
+      "source_acceptance": "STRONG_COPY_ACCEPTED_FOR_STRUCTURE_AND_CRITERIA",
+      "exact_external_payload_identity": "UNVERIFIED_AUTH_GATED_PROVENANCE_ONLY",
+      "level_model_ref": "TDE10_SHARED_3_LEVEL_MODEL",
+      "criteria_rows": [
+        {
+          "criterion_id": "FORM_T10_T3_KONUSMA_DPA_CANONICAL_C01",
+          "criterion": "İçeriğe uygunluk ve doğruluk",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T3_KONUSMA_DPA_CANONICAL_C02",
+          "criterion": "Hedef kitleye uygun dil",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T3_KONUSMA_DPA_CANONICAL_C03",
+          "criterion": "Beden dili",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T3_KONUSMA_DPA_CANONICAL_C04",
+          "criterion": "Ses kontrolü",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T3_KONUSMA_DPA_CANONICAL_C05",
+          "criterion": "Türkçenin doğru kullanımı",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T3_KONUSMA_DPA_CANONICAL_C06",
+          "criterion": "Vurgu-tonlama",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T3_KONUSMA_DPA_CANONICAL_C07",
+          "criterion": "Sunum organizasyonu ve süre",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        }
+      ],
+      "applicable_criterion_count": 7,
+      "max_raw_score": 21,
+      "min_raw_score": 7,
+      "percentage_rule": "raw_score / applicable_max_score * 100",
+      "not_applicable_policy": "N/A ölçütleri pay ve paydadan çıkarılır."
+    },
+    {
+      "form_id": "FORM_T10_T4_KONUSMA_DPA_CANONICAL",
+      "artifact_id": "TDE10_KONUSMA_RUBRIC",
+      "requirement_id": "REQ_T10_T4_KONUSMA_DPA",
+      "runtime_binding_key": {
+        "artifact_id": "TDE10_KONUSMA_RUBRIC",
+        "gap_instance_id": "REQ_T10_T4_KONUSMA_DPA"
+      },
+      "runtime_projection_mode": "COMPOSE_FROM_ASSESSMENT_ARTIFACT_AND_TASK_BINDING",
+      "source_link_id": "LINK_T4_KONUSMA_DPA",
+      "theme_id": "TEMA_04",
+      "block_id": "BLOCK_T4_02_KONUSMA",
+      "task_title": "Hikâyeden Sahneye",
+      "targeted_outcomes": [
+        "TDE3.4"
+      ],
+      "textbook_locator": "Ders kitabı s.280-283; LINK_T4_KONUSMA_DPA",
+      "evaluator": "teacher",
+      "form_type": "analytic_rubric",
+      "materialization_status": "ACCEPTED_STRONG_COPY_CANONICAL_FORM",
+      "source_acceptance": "STRONG_COPY_ACCEPTED_FOR_STRUCTURE_AND_CRITERIA",
+      "exact_external_payload_identity": "UNVERIFIED_AUTH_GATED_PROVENANCE_ONLY",
+      "level_model_ref": "TDE10_SHARED_3_LEVEL_MODEL",
+      "criteria_rows": [
+        {
+          "criterion_id": "FORM_T10_T4_KONUSMA_DPA_CANONICAL_C01",
+          "criterion": "Uygun hikâye ve özgün yorum",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T4_KONUSMA_DPA_CANONICAL_C02",
+          "criterion": "Plana uygun canlandırma",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T4_KONUSMA_DPA_CANONICAL_C03",
+          "criterion": "Beden dili",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T4_KONUSMA_DPA_CANONICAL_C04",
+          "criterion": "Metnin bağlamına bağlılık",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T4_KONUSMA_DPA_CANONICAL_C05",
+          "criterion": "İletişim ve görgü",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T4_KONUSMA_DPA_CANONICAL_C06",
+          "criterion": "Görsel/işitsel ögeler",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T4_KONUSMA_DPA_CANONICAL_C07",
+          "criterion": "Mekân kullanımı",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T4_KONUSMA_DPA_CANONICAL_C08",
+          "criterion": "Süre",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T4_KONUSMA_DPA_CANONICAL_C09",
+          "criterion": "Türkçenin doğru ve millî bilinçle kullanımı",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        }
+      ],
+      "applicable_criterion_count": 9,
+      "max_raw_score": 27,
+      "min_raw_score": 9,
+      "percentage_rule": "raw_score / applicable_max_score * 100",
+      "not_applicable_policy": "N/A ölçütleri pay ve paydadan çıkarılır."
+    },
+    {
+      "form_id": "FORM_T10_T1_YAZMA_DPA_CANONICAL",
+      "artifact_id": "TDE10_YAZMA_RUBRIC",
+      "requirement_id": "REQ_T10_T1_YAZMA_DPA",
+      "runtime_binding_key": {
+        "artifact_id": "TDE10_YAZMA_RUBRIC",
+        "gap_instance_id": "REQ_T10_T1_YAZMA_DPA"
+      },
+      "runtime_projection_mode": "COMPOSE_FROM_ASSESSMENT_ARTIFACT_AND_TASK_BINDING",
+      "source_link_id": "LINK_T1_YAZMA_DPA",
+      "theme_id": "TEMA_01",
+      "block_id": "BLOCK_T1_04_YAZMA",
+      "task_title": "Masalı Film Şeridine Dönüştürme",
+      "targeted_outcomes": [
+        "TDE4.4"
+      ],
+      "textbook_locator": "Ders kitabı s.75-78; LINK_T1_YAZMA_DPA",
+      "evaluator": "teacher",
+      "form_type": "analytic_rubric",
+      "materialization_status": "ACCEPTED_STRONG_COPY_CANONICAL_FORM",
+      "source_acceptance": "STRONG_COPY_ACCEPTED_FOR_STRUCTURE_AND_CRITERIA",
+      "exact_external_payload_identity": "UNVERIFIED_AUTH_GATED_PROVENANCE_ONLY",
+      "level_model_ref": "TDE10_SHARED_3_LEVEL_MODEL",
+      "criteria_rows": [
+        {
+          "criterion_id": "FORM_T10_T1_YAZMA_DPA_CANONICAL_C01",
+          "criterion": "Akıcılık",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T1_YAZMA_DPA_CANONICAL_C02",
+          "criterion": "Görsel ögeler",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T1_YAZMA_DPA_CANONICAL_C03",
+          "criterion": "Karakter tasarımı",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T1_YAZMA_DPA_CANONICAL_C04",
+          "criterion": "Senaryo",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T1_YAZMA_DPA_CANONICAL_C05",
+          "criterion": "Olay akışı",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T1_YAZMA_DPA_CANONICAL_C06",
+          "criterion": "Estetik",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T1_YAZMA_DPA_CANONICAL_C07",
+          "criterion": "Dil ve anlatım",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T1_YAZMA_DPA_CANONICAL_C08",
+          "criterion": "İçeriği zenginleştirme",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T1_YAZMA_DPA_CANONICAL_C09",
+          "criterion": "Yazım-noktalama",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T1_YAZMA_DPA_CANONICAL_C10",
+          "criterion": "Olumlu tutum/değerler",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        }
+      ],
+      "applicable_criterion_count": 10,
+      "max_raw_score": 30,
+      "min_raw_score": 10,
+      "percentage_rule": "raw_score / applicable_max_score * 100",
+      "not_applicable_policy": "N/A ölçütleri pay ve paydadan çıkarılır."
+    },
+    {
+      "form_id": "FORM_T10_T2_YAZMA_DPA_CANONICAL",
+      "artifact_id": "TDE10_YAZMA_RUBRIC",
+      "requirement_id": "REQ_T10_T2_YAZMA_DPA",
+      "runtime_binding_key": {
+        "artifact_id": "TDE10_YAZMA_RUBRIC",
+        "gap_instance_id": "REQ_T10_T2_YAZMA_DPA"
+      },
+      "runtime_projection_mode": "COMPOSE_FROM_ASSESSMENT_ARTIFACT_AND_TASK_BINDING",
+      "source_link_id": "LINK_T2_YAZMA_DPA",
+      "theme_id": "TEMA_02",
+      "block_id": "BLOCK_T2_02_YAZMA",
+      "task_title": "Öğretici Metinden Edebî Metne",
+      "targeted_outcomes": [
+        "TDE4.4"
+      ],
+      "textbook_locator": "Ders kitabı s.124-128; LINK_T2_YAZMA_DPA",
+      "evaluator": "teacher",
+      "form_type": "analytic_rubric",
+      "materialization_status": "ACCEPTED_STRONG_COPY_CANONICAL_FORM",
+      "source_acceptance": "STRONG_COPY_ACCEPTED_FOR_STRUCTURE_AND_CRITERIA",
+      "exact_external_payload_identity": "UNVERIFIED_AUTH_GATED_PROVENANCE_ONLY",
+      "level_model_ref": "TDE10_SHARED_3_LEVEL_MODEL",
+      "criteria_rows": [
+        {
+          "criterion_id": "FORM_T10_T2_YAZMA_DPA_CANONICAL_C01",
+          "criterion": "Temel anlamın korunması",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T2_YAZMA_DPA_CANONICAL_C02",
+          "criterion": "Edebî tür özellikleri",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T2_YAZMA_DPA_CANONICAL_C03",
+          "criterion": "Dil ve anlatım",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T2_YAZMA_DPA_CANONICAL_C04",
+          "criterion": "Özgünlük",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T2_YAZMA_DPA_CANONICAL_C05",
+          "criterion": "Görsel/işitsel ögeler",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T2_YAZMA_DPA_CANONICAL_C06",
+          "criterion": "Yazım ve noktalama",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T2_YAZMA_DPA_CANONICAL_C07",
+          "criterion": "Metin bütünlüğü",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        }
+      ],
+      "applicable_criterion_count": 7,
+      "max_raw_score": 21,
+      "min_raw_score": 7,
+      "percentage_rule": "raw_score / applicable_max_score * 100",
+      "not_applicable_policy": "N/A ölçütleri pay ve paydadan çıkarılır."
+    },
+    {
+      "form_id": "FORM_T10_T3_YAZMA_DPA_CANONICAL",
+      "artifact_id": "TDE10_YAZMA_RUBRIC",
+      "requirement_id": "REQ_T10_T3_YAZMA_DPA",
+      "runtime_binding_key": {
+        "artifact_id": "TDE10_YAZMA_RUBRIC",
+        "gap_instance_id": "REQ_T10_T3_YAZMA_DPA"
+      },
+      "runtime_projection_mode": "COMPOSE_FROM_ASSESSMENT_ARTIFACT_AND_TASK_BINDING",
+      "source_link_id": "LINK_T3_YAZMA_DPA",
+      "theme_id": "TEMA_03",
+      "block_id": "BLOCK_T3_04_YAZMA",
+      "task_title": "Fabl Yazma",
+      "targeted_outcomes": [
+        "TDE4.4"
+      ],
+      "textbook_locator": "Ders kitabı s.224-228; LINK_T3_YAZMA_DPA",
+      "evaluator": "teacher",
+      "form_type": "analytic_rubric",
+      "materialization_status": "ACCEPTED_STRONG_COPY_CANONICAL_FORM",
+      "source_acceptance": "STRONG_COPY_ACCEPTED_FOR_STRUCTURE_AND_CRITERIA",
+      "exact_external_payload_identity": "UNVERIFIED_AUTH_GATED_PROVENANCE_ONLY",
+      "level_model_ref": "TDE10_SHARED_3_LEVEL_MODEL",
+      "criteria_rows": [
+        {
+          "criterion_id": "FORM_T10_T3_YAZMA_DPA_CANONICAL_C01",
+          "criterion": "Özgünlük",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T3_YAZMA_DPA_CANONICAL_C02",
+          "criterion": "Biçim/tür özellikleri",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T3_YAZMA_DPA_CANONICAL_C03",
+          "criterion": "Ahenk",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T3_YAZMA_DPA_CANONICAL_C04",
+          "criterion": "Etkileyicilik",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T3_YAZMA_DPA_CANONICAL_C05",
+          "criterion": "Dil ve anlatım",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T3_YAZMA_DPA_CANONICAL_C06",
+          "criterion": "Söz varlığı",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T3_YAZMA_DPA_CANONICAL_C07",
+          "criterion": "Estetik",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T3_YAZMA_DPA_CANONICAL_C08",
+          "criterion": "Dil bilgisi",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        }
+      ],
+      "applicable_criterion_count": 8,
+      "max_raw_score": 24,
+      "min_raw_score": 8,
+      "percentage_rule": "raw_score / applicable_max_score * 100",
+      "not_applicable_policy": "N/A ölçütleri pay ve paydadan çıkarılır."
+    },
+    {
+      "form_id": "FORM_T10_T4_YAZMA_DPA_CANONICAL",
+      "artifact_id": "TDE10_YAZMA_RUBRIC",
+      "requirement_id": "REQ_T10_T4_YAZMA_DPA",
+      "runtime_binding_key": {
+        "artifact_id": "TDE10_YAZMA_RUBRIC",
+        "gap_instance_id": "REQ_T10_T4_YAZMA_DPA"
+      },
+      "runtime_projection_mode": "COMPOSE_FROM_ASSESSMENT_ARTIFACT_AND_TASK_BINDING",
+      "source_link_id": "LINK_T4_YAZMA_DPA",
+      "theme_id": "TEMA_04",
+      "block_id": "BLOCK_T4_04_YAZMA",
+      "task_title": "Hikâyeden Şiire",
+      "targeted_outcomes": [
+        "TDE4.4"
+      ],
+      "textbook_locator": "Ders kitabı s.302-305; LINK_T4_YAZMA_DPA",
+      "evaluator": "teacher",
+      "form_type": "analytic_rubric",
+      "materialization_status": "ACCEPTED_STRONG_COPY_CANONICAL_FORM",
+      "source_acceptance": "STRONG_COPY_ACCEPTED_FOR_STRUCTURE_AND_CRITERIA",
+      "exact_external_payload_identity": "UNVERIFIED_AUTH_GATED_PROVENANCE_ONLY",
+      "level_model_ref": "TDE10_SHARED_3_LEVEL_MODEL",
+      "criteria_rows": [
+        {
+          "criterion_id": "FORM_T10_T4_YAZMA_DPA_CANONICAL_C01",
+          "criterion": "Hikâye temasının şiire aktarılması",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T4_YAZMA_DPA_CANONICAL_C02",
+          "criterion": "İçeriğe uygunluk",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T4_YAZMA_DPA_CANONICAL_C03",
+          "criterion": "Etkileyicilik",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T4_YAZMA_DPA_CANONICAL_C04",
+          "criterion": "Şiir dilinin etkili kullanımı",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T4_YAZMA_DPA_CANONICAL_C05",
+          "criterion": "Bağlama uygun söz varlığı",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T4_YAZMA_DPA_CANONICAL_C06",
+          "criterion": "Özgün üslup",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T4_YAZMA_DPA_CANONICAL_C07",
+          "criterion": "Estetik unsurlar",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        },
+        {
+          "criterion_id": "FORM_T10_T4_YAZMA_DPA_CANONICAL_C08",
+          "criterion": "Dil bilgisi",
+          "evidence_status": "ACCEPTED_STRONG_COPY_CRITERION",
+          "weight": 1
+        }
+      ],
+      "applicable_criterion_count": 8,
+      "max_raw_score": 24,
+      "min_raw_score": 8,
+      "percentage_rule": "raw_score / applicable_max_score * 100",
+      "not_applicable_policy": "N/A ölçütleri pay ve paydadan çıkarılır."
+    }
+  ]
+}

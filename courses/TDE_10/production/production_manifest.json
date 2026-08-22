@@ -16,8 +16,15 @@
       "selected_implementation": "derived_canonical_analytic_rubric",
       "reuse_policy": "REUSE_ANNUAL_CORE_WITH_TASK_BINDING_EXTENSIONS",
       "covered_gap_instances": [],
-      "covered_themes": ["TEMA_01", "TEMA_02", "TEMA_03", "TEMA_04"],
-      "covered_outcomes": ["TDE3.4"],
+      "covered_themes": [
+        "TEMA_01",
+        "TEMA_02",
+        "TEMA_03",
+        "TEMA_04"
+      ],
+      "covered_outcomes": [
+        "TDE3.4"
+      ],
       "teacher_review_required": false,
       "generation_status": "DERIVED_CANONICAL_READY",
       "source_equivalence_status": "EXTERNAL_EBA_EXACT_EQUIVALENCE_UNVERIFIED"
@@ -32,8 +39,15 @@
       "selected_implementation": "derived_canonical_analytic_rubric",
       "reuse_policy": "REUSE_ANNUAL_CORE_WITH_TASK_BINDING_EXTENSIONS",
       "covered_gap_instances": [],
-      "covered_themes": ["TEMA_01", "TEMA_02", "TEMA_03", "TEMA_04"],
-      "covered_outcomes": ["TDE4.4"],
+      "covered_themes": [
+        "TEMA_01",
+        "TEMA_02",
+        "TEMA_03",
+        "TEMA_04"
+      ],
+      "covered_outcomes": [
+        "TDE4.4"
+      ],
       "teacher_review_required": false,
       "generation_status": "DERIVED_CANONICAL_READY",
       "source_equivalence_status": "EXTERNAL_EBA_EXACT_EQUIVALENCE_UNVERIFIED"
@@ -57,5 +71,12 @@
   },
   "unresolved_assessment_target_count": 8,
   "runtime_support_status": "READY_WITH_2_CANONICAL_RUBRICS_AND_8_TASK_BINDINGS",
-  "parity_interpretation": "Sekiz resmî EBA DPA hedefinin birebir içerik eşdeğerliği erişim kısıtlı kalır. Kullanıcı yetkisiyle TDE_10 programı, yerel resmî ders kitabı, kitap içi değerlendirme formları ve kurtarılan aynı-görev rubrik kanıtlarından iki yıllık canonical destek rubriği türetilmiştir. Bunlar EBA içeriğinin verbatim kopyası olarak temsil edilmez."
+  "parity_interpretation": "Sekiz resmî EBA DPA hedefinin birebir içerik eşdeğerliği erişim kısıtlı kalır. Kullanıcı yetkisiyle TDE_10 programı, yerel resmî ders kitabı, kitap içi değerlendirme formları ve kurtarılan aynı-görev rubrik kanıtlarından iki yıllık canonical destek rubriği türetilmiştir. Bunlar EBA içeriğinin verbatim kopyası olarak temsil edilmez.",
+  "materialized_assessment_form_count": 8,
+  "accepted_strong_copy_criterion_row_count": 66,
+  "unresolved_assessment_structure_count": 0,
+  "unresolved_exact_payload_identity_count": 8,
+  "strong_copy_acceptance_status": "ACCEPTED_FOR_STRUCTURE_AND_HIGH_CONFIDENCE_CRITERIA",
+  "assessment_form_registry": "production/assessment_form_registry.json",
+  "assessment_form_runtime_mode": "COMPOSE_FROM_ASSESSMENT_ARTIFACT_AND_TASK_BINDING"
 }
