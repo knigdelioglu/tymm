@@ -28,7 +28,10 @@
     "chain_trace_complete": true,
     "coverage_56_8_0": true,
     "cross_theme_real_comparison": true,
-    "runtime_assessment_support_ready": true
+    "runtime_assessment_support_ready": true,
+    "external_dpa_structure_resolved_by_strong_copy_acceptance": true,
+    "materialized_assessment_forms_8": true,
+    "accepted_strong_copy_criterion_rows_66": true
   },
   "hard_failures": [],
   "external_blockers": [
@@ -51,7 +54,9 @@
     "partially_covered": 8,
     "not_covered": 0,
     "canonical_rubrics": 2,
-    "canonical_rubric_bindings": 8
+    "canonical_rubric_bindings": 8,
+    "materialized_assessment_forms": 8,
+    "accepted_strong_copy_criterion_rows": 66
   },
   "details": {
     "verbatim_missing": [],
@@ -68,7 +73,14 @@
         "resources": 16,
         "alignments": 16,
         "gaps": 16,
-        "coverage": {"total_learning_outcomes": 16, "covered_count": 14, "partially_covered_count": 2, "not_covered_count": 0, "review_required_count": 2, "alignment_status": "SOURCE_EQUIVALENCE_REVIEW_REQUIRED_RUNTIME_SUPPORT_READY"},
+        "coverage": {
+          "total_learning_outcomes": 16,
+          "covered_count": 14,
+          "partially_covered_count": 2,
+          "not_covered_count": 0,
+          "review_required_count": 2,
+          "alignment_status": "SOURCE_EQUIVALENCE_REVIEW_REQUIRED_RUNTIME_SUPPORT_READY"
+        },
         "canonical_support_bindings": 2
       },
       {
@@ -77,7 +89,14 @@
         "resources": 16,
         "alignments": 16,
         "gaps": 16,
-        "coverage": {"total_learning_outcomes": 16, "covered_count": 14, "partially_covered_count": 2, "not_covered_count": 0, "review_required_count": 2, "alignment_status": "SOURCE_EQUIVALENCE_REVIEW_REQUIRED_RUNTIME_SUPPORT_READY"},
+        "coverage": {
+          "total_learning_outcomes": 16,
+          "covered_count": 14,
+          "partially_covered_count": 2,
+          "not_covered_count": 0,
+          "review_required_count": 2,
+          "alignment_status": "SOURCE_EQUIVALENCE_REVIEW_REQUIRED_RUNTIME_SUPPORT_READY"
+        },
         "canonical_support_bindings": 2
       },
       {
@@ -86,7 +105,14 @@
         "resources": 16,
         "alignments": 16,
         "gaps": 16,
-        "coverage": {"total_learning_outcomes": 16, "covered_count": 14, "partially_covered_count": 2, "not_covered_count": 0, "review_required_count": 2, "alignment_status": "SOURCE_EQUIVALENCE_REVIEW_REQUIRED_RUNTIME_SUPPORT_READY"},
+        "coverage": {
+          "total_learning_outcomes": 16,
+          "covered_count": 14,
+          "partially_covered_count": 2,
+          "not_covered_count": 0,
+          "review_required_count": 2,
+          "alignment_status": "SOURCE_EQUIVALENCE_REVIEW_REQUIRED_RUNTIME_SUPPORT_READY"
+        },
         "canonical_support_bindings": 2
       },
       {
@@ -95,9 +121,18 @@
         "resources": 16,
         "alignments": 16,
         "gaps": 16,
-        "coverage": {"total_learning_outcomes": 16, "covered_count": 14, "partially_covered_count": 2, "not_covered_count": 0, "review_required_count": 2, "alignment_status": "SOURCE_EQUIVALENCE_REVIEW_REQUIRED_RUNTIME_SUPPORT_READY"},
+        "coverage": {
+          "total_learning_outcomes": 16,
+          "covered_count": 14,
+          "partially_covered_count": 2,
+          "not_covered_count": 0,
+          "review_required_count": 2,
+          "alignment_status": "SOURCE_EQUIVALENCE_REVIEW_REQUIRED_RUNTIME_SUPPORT_READY"
+        },
         "canonical_support_bindings": 2
       }
     ]
-  }
+  },
+  "source_structure_status": "RESOLVED_8_OF_8_ACCEPTED_STRONG_COPY_ANALYTIC_RUBRICS",
+  "exact_external_payload_identity_status": "UNVERIFIED_AUTH_GATED_PROVENANCE_ONLY"
 }

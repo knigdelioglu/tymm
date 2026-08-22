@@ -48,7 +48,18 @@
     "rubric_level_model_payload_required": true,
     "task_specific_criteria_payload_required": true,
     "exact_eba_payload_equivalence_required_for_runtime_use": false,
-    "exact_eba_payload_equivalence_status": "UNVERIFIED_AUTH_GATED"
+    "exact_eba_payload_equivalence_status": "UNVERIFIED_AUTH_GATED",
+    "materialized_form_count": 8,
+    "materialized_form_registry": "production/assessment_form_registry.json",
+    "form_runtime_mode": "COMPOSE_FROM_ASSESSMENT_ARTIFACT_AND_TASK_BINDING"
   },
-  "resolution_rule": "TDE_10 runtime may use the two derived canonical rubrics for all eight speaking/writing performance bindings. Exact EBA payload equivalence remains provenance-only and must not be silently promoted to verified."
+  "resolution_rule": "TDE_10 runtime may use the two derived canonical rubrics for all eight speaking/writing performance bindings. Exact EBA payload equivalence remains provenance-only and must not be silently promoted to verified.",
+  "strong_copy_acceptance": {
+    "decision": "ACCEPTED",
+    "accepted_structure_count": 8,
+    "materialized_form_count": 8,
+    "accepted_criterion_row_count": 66,
+    "criteria_policy": "USE_HIGH_CONFIDENCE_RECOVERED_TASK_CRITERIA",
+    "exact_eba_payload_identity": "UNVERIFIED_AUTH_GATED_PROVENANCE_ONLY"
+  }
 }
