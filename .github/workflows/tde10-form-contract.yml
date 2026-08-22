@@ -1,0 +1,60 @@
+name: TDE10 Form Contract
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'courses/TDE_10/production/assessment_form_registry.json'
+      - 'courses/TDE_10/production/assessment_artifact_registry.json'
+      - 'courses/TDE_10/production/production_manifest.json'
+      - '.github/workflows/tde10-form-contract.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'courses/TDE_10/production/assessment_form_registry.json'
+      - 'courses/TDE_10/production/assessment_artifact_registry.json'
+      - 'courses/TDE_10/production/production_manifest.json'
+      - '.github/workflows/tde10-form-contract.yml'
+
+jobs:
+  contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify 8-form / 66-criterion contract
+        run: |
+          python - <<'PY'
+          import json
+          from collections import Counter
+          from pathlib import Path
+
+          root=Path('courses/TDE_10/production')
+          forms=json.loads((root/'assessment_form_registry.json').read_text(encoding='utf-8'))
+          artifacts=json.loads((root/'assessment_artifact_registry.json').read_text(encoding='utf-8'))
+          manifest=json.loads((root/'production_manifest.json').read_text(encoding='utf-8'))
+
+          assert forms['registry_status']=='READY'
+          assert forms['acceptance_policy']['decision']=='ACCEPT_STRONG_COPIES'
+          assert forms['acceptance_policy']['structure_status']=='RESOLVED_FOR_CANONICAL_USE'
+          assert forms['acceptance_policy']['exact_external_payload_identity']=='UNVERIFIED_AUTH_GATED_PROVENANCE_ONLY'
+          assert forms['form_count']==8
+          assert forms['criterion_row_count']==66
+          assert len(forms['forms'])==8
+          assert len({x['form_id'] for x in forms['forms']})==8
+          assert Counter(x['theme_id'] for x in forms['forms'])==Counter({'TEMA_01':2,'TEMA_02':2,'TEMA_03':2,'TEMA_04':2})
+          assert Counter(x['artifact_id'] for x in forms['forms'])==Counter({'TDE10_KONUSMA_RUBRIC':4,'TDE10_YAZMA_RUBRIC':4})
+          assert sum(len(x['criteria_rows']) for x in forms['forms'])==66
+          assert all(x['max_raw_score']==len(x['criteria_rows'])*3 for x in forms['forms'])
+          assert all(x['source_acceptance']=='STRONG_COPY_ACCEPTED_FOR_STRUCTURE_AND_CRITERIA' for x in forms['forms'])
+          assert all(x['exact_external_payload_identity']=='UNVERIFIED_AUTH_GATED_PROVENANCE_ONLY' for x in forms['forms'])
+          assert all(x['runtime_projection_mode']=='COMPOSE_FROM_ASSESSMENT_ARTIFACT_AND_TASK_BINDING' for x in forms['forms'])
+
+          binding_keys={(a['artifact_id'],b['gap_instance_id']) for a in artifacts['annual_artifacts'] for b in a.get('task_bindings',[])}
+          form_keys={(f['runtime_binding_key']['artifact_id'],f['runtime_binding_key']['gap_instance_id']) for f in forms['forms']}
+          assert form_keys==binding_keys, (form_keys,binding_keys)
+          assert manifest['materialized_assessment_form_count']==8
+          assert manifest['accepted_strong_copy_criterion_row_count']==66
+          assert manifest['unresolved_assessment_structure_count']==0
+          assert manifest['strong_copy_acceptance_status']=='ACCEPTED_FOR_STRUCTURE_AND_HIGH_CONFIDENCE_CRITERIA'
+          print('TDE10 form contract: PASS — 8 forms / 66 criteria / 8 runtime bindings')
+          PY
