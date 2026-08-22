@@ -1,14 +1,14 @@
 # Knowledge Index Validation Report
 
 - **Course ID**: TDE_10
-- **Build Timestamp**: 2026-08-22T06:10:40.086277+00:00
+- **Build Timestamp**: 2026-08-22T06:19:20.765278+00:00
 - **Status**: SUCCESS
 - **Total Indexed Records**: 484
 - **Production Schema**: 1.1
 - **Artifact Identity**: `artifact_id`
 - **Canonical Assessment Artifacts**: 2
 - **Historical Gap Aliases**: 0
-- **Production Manifest Fingerprint**: `615ff11319569118a34d008326912c337c32d4c840975bf5dbeb258d8f28bc6a`
+- **Production Manifest Fingerprint**: `8807d1780b5fcd6d3f7917936845d62c598fd609d58ea651b20fea77d49bdca6`
 - **Database Engine**: SQLite 3.45.1 + sqlite-vec
 - **Vector Backend**: `sqlite-vec`
 - **Base Embedding Model**: `intfloat/multilingual-e5-small` (Dim: 384)
@@ -49,6 +49,6 @@
 - `themes/tema_04/gap_analysis.json`: SHA-256 `0f80052217c609ccec4729d8d4ef45326f8d6c0d3cc9e08de8d15ceded741612` (30743 bytes) - VERIFIED
 - `themes/tema_04/needs.json`: SHA-256 `fb4ed973a48e414440edca1d10a1ce47d67850a6f61a341b27907971d4cfc0b6` (28494 bytes) - VERIFIED
 - `themes/tema_04/resource_plan.json`: SHA-256 `709d28cd8ace5bd4cd379d71e39ee0977fbc52657f0d3300f74c112c3238cde9` (20314 bytes) - VERIFIED
-- `production/production_manifest.json`: SHA-256 `615ff11319569118a34d008326912c337c32d4c840975bf5dbeb258d8f28bc6a` (3129 bytes) - VERIFIED
+- `production/production_manifest.json`: SHA-256 `8807d1780b5fcd6d3f7917936845d62c598fd609d58ea651b20fea77d49bdca6` (3679 bytes) - VERIFIED
 - `production/teaching_blocks.json`: SHA-256 `c9385717798717b5aec878818aab110afe7e558071bfc268e2e59facc1ba3203` (23299 bytes) - VERIFIED
 - `production/school_based_planning_options.json`: SHA-256 `044adb0b958fa6ab2c9a272f61a0651ccd8700302bb42f75ca2ea2d3e17ea716` (7199 bytes) - VERIFIED
