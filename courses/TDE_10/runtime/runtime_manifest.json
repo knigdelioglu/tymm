@@ -3,7 +3,7 @@
   "schema_version": "1.1.0",
   "course_id": "TDE_10",
   "grade": 10,
-  "build_timestamp": "2026-08-21T20:21:11Z",
+  "build_timestamp": "2026-08-22T06:10:42Z",
   "compiler_version": "1.0.1",
   "canonical_source_files": [
     "curriculum_map.json",
@@ -80,8 +80,8 @@
     "assessment_task_bindings": 8,
     "timeline_themes": 4,
     "timeline_blocks": 16,
-    "source_references": 4,
-    "entity_source_references": 0
+    "source_references": 8,
+    "entity_source_references": 4
   },
   "timeline_resolution": "THEME_AND_BLOCK_ORDER_RESOLVED",
   "timeline_unresolved_fields": {

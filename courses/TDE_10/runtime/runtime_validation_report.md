@@ -53,6 +53,7 @@
 
 | Check | Status | Detail |
 |---|---|---|
+| theme source provenance projection | PASS | runtime=4, expected_at_least=4 |
 | artifact identity projection | PASS | runtime=2, canonical=2 |
 | rubric criteria payload | PASS | runtime=2, canonical=2 |
 | rubric level model payload | PASS | runtime=2, canonical=2 |
