@@ -122,13 +122,15 @@ def project_runtime_assessment_payload(root: Path | str) -> dict[str, Any]:
     validation_report_path = runtime / "runtime_validation_report.md"
     registry_path = root / "production" / "assessment_artifact_registry.json"
     curriculum_path = root / "curriculum_map.json"
+    source_manifest_path = root / "source_manifest.json"
 
-    for required in (db_path, manifest_path, registry_path, curriculum_path):
+    for required in (db_path, manifest_path, registry_path, curriculum_path, source_manifest_path):
         if not required.exists():
             raise ValueError(f"RUNTIME_ASSESSMENT_PAYLOAD_MISSING_INPUT: {required}")
 
     registry = _read_json(registry_path)
     curriculum = _read_json(curriculum_path)
+    source_manifest = _read_json(source_manifest_path)
     runtime_manifest = _read_json(manifest_path)
 
     db = sqlite3.connect(db_path)
@@ -240,6 +242,30 @@ def project_runtime_assessment_payload(root: Path | str) -> dict[str, Any]:
                     ),
                 )
 
+        bundle = source_manifest.get("curriculum_source_bundle", {})
+        if isinstance(bundle, dict):
+            bundle_type = bundle.get("source_type") or "official_curriculum"
+            bundle_rank = bundle.get("authority_rank") or 1
+            for part in bundle.get("parts", []):
+                if not isinstance(part, dict) or not part.get("source_id"):
+                    continue
+                db.execute(
+                    """
+                    INSERT OR IGNORE INTO source_references
+                    (source_id,source_type,source_title,locator,provenance_category,authority_rank,verification_status)
+                    VALUES (?,?,?,?,?,?,?)
+                    """,
+                    (
+                        part["source_id"],
+                        bundle_type,
+                        part.get("expected_theme_title") or part.get("filename") or part["source_id"],
+                        part.get("file_path") or part.get("official_web_crosscheck"),
+                        bundle_type,
+                        bundle_rank,
+                        part.get("verification_status"),
+                    ),
+                )
+
         source_ref_ids = {
             row[0] for row in db.execute("SELECT source_id FROM source_references")
         }
@@ -298,6 +324,13 @@ def project_runtime_assessment_payload(root: Path | str) -> dict[str, Any]:
         entity_source_count = db.execute(
             "SELECT COUNT(*) FROM entity_source_references"
         ).fetchone()[0]
+        source_reference_count = db.execute(
+            "SELECT COUNT(*) FROM source_references"
+        ).fetchone()[0]
+        expected_theme_source_bindings = sum(
+            1 for theme in curriculum.get("themes", [])
+            if isinstance(theme, dict) and (theme.get("source_id") or curriculum.get("source_id")) and theme.get("source_locator")
+        )
 
         payload_json_valid = True
         try:
@@ -321,6 +354,11 @@ def project_runtime_assessment_payload(root: Path | str) -> dict[str, Any]:
             payload_json_valid = False
 
         checks = [
+            (
+                "theme source provenance projection",
+                entity_source_count >= expected_theme_source_bindings,
+                f"runtime={entity_source_count}, expected_at_least={expected_theme_source_bindings}",
+            ),
             (
                 "artifact identity projection",
                 runtime_artifact_ids == canonical_artifact_ids,
@@ -363,6 +401,7 @@ def project_runtime_assessment_payload(root: Path | str) -> dict[str, Any]:
         row_counts = runtime_manifest.setdefault("row_counts", {})
         row_counts["assessment_artifacts"] = len(runtime_artifact_ids)
         row_counts["assessment_task_bindings"] = binding_count
+        row_counts["source_references"] = source_reference_count
         row_counts["entity_source_references"] = entity_source_count
         runtime_manifest["schema_version"] = RUNTIME_SCHEMA_VERSION
         runtime_manifest["runtime_package_version"] = RUNTIME_PACKAGE_VERSION
@@ -391,6 +430,7 @@ def project_runtime_assessment_payload(root: Path | str) -> dict[str, Any]:
             "criteria_artifact_count": criteria_count,
             "level_model_artifact_count": level_model_count,
             "task_criteria_binding_count": task_criteria_count,
+            "source_reference_count": source_reference_count,
             "entity_source_reference_count": entity_source_count,
             "added_artifact_columns": added_artifact_columns,
             "added_binding_columns": added_binding_columns,
