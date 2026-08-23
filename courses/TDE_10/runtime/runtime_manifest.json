@@ -3,7 +3,7 @@
   "schema_version": "1.1.0",
   "course_id": "TDE_10",
   "grade": 10,
-  "build_timestamp": "2026-08-23T17:17:42Z",
+  "build_timestamp": "2026-08-23T17:30:21Z",
   "compiler_version": "1.0.1",
   "canonical_source_files": [
     "curriculum_map.json",
