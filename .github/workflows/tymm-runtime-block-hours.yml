@@ -10,10 +10,13 @@ on:
       - 'skill/tymm-material-planner/scripts/runtime_assessment_payload.py'
       - 'skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py'
       - 'skill/tymm-material-planner/scripts/lesson_plan_context.py'
+      - 'skill/tymm-material-planner/scripts/lesson_plan_generator.py'
       - 'skill/tymm-material-planner/scripts/validate_lesson_plan.py'
+      - 'skill/tymm-material-planner/schemas/lesson_plan.schema.json'
       - 'skill/tymm-material-planner/tests/test_runtime_course_package.py'
       - 'skill/tymm-material-planner/tests/test_runtime_block_hours_tde10.py'
       - 'skill/tymm-material-planner/tests/test_lesson_plan_context.py'
+      - 'skill/tymm-material-planner/tests/test_lesson_plan_generator.py'
       - 'courses/TDE_9/planning/**'
       - 'courses/TDE_10/planning/**'
   workflow_dispatch:
@@ -50,13 +53,14 @@ jobs:
           python skill/tymm-material-planner/tests/test_runtime_course_package.py
           python skill/tymm-material-planner/tests/test_runtime_block_hours_tde10.py
           python skill/tymm-material-planner/tests/test_lesson_plan_context.py
+          python skill/tymm-material-planner/tests/test_lesson_plan_generator.py
 
       - name: Build TDE9 and TDE10 runtime packages
         run: |
           python skill/tymm-material-planner/scripts/build_runtime_course_package.py build --knowledge-root courses/TDE_9
           python skill/tymm-material-planner/scripts/build_runtime_course_package.py build --knowledge-root courses/TDE_10
 
-      - name: Verify calendar-neutral block-hour projection
+      - name: Verify calendar-neutral block-hour projection and lesson context
         run: |
           python - <<'PY'
           import json, sqlite3, sys
@@ -65,6 +69,7 @@ jobs:
           scripts=Path('skill/tymm-material-planner/scripts').resolve()
           sys.path.insert(0,str(scripts))
           import lesson_plan_context
+          import lesson_plan_generator
 
           expected = {
               'TDE_9': {
@@ -118,7 +123,11 @@ jobs:
               assert context['planning_request']['calendar_binding_used'] is False, course
               assert context['official_outcomes'], course
               assert context['textbook_activities'], course
-              print(f'{course} calendar-neutral timeline/runtime/lesson-context: PASS')
+              request = lesson_plan_generator.build_model_request(context)
+              assert request['mode'] == 'GENERATE', course
+              assert request['immutable_identity']['lesson_hours'] == 2, course
+              assert request['response_schema']['title'] == 'TYMM AI Lesson Plan V1', course
+              print(f'{course} calendar-neutral timeline/runtime/lesson-generator context: PASS')
           PY
 
       - name: Publish TDE9 runtime and TDE9/TDE10 timelines
