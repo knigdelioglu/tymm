@@ -2,24 +2,28 @@
   "schema_version": "1.0",
   "course_id": "TDE_9",
   "grade": 9,
-  "timeline_version": "1.0.0",
+  "timeline_version": "1.1.0",
   "timeline_type": "ANNUAL_COURSE_TIMELINE",
-  "timeline_resolution": "THEME_TIME_RESOLVED",
+  "timeline_resolution": "BLOCK_TIME_RESOLVED",
   "timeline_semantics": {
     "meaning": "PLANNED_INSTRUCTIONAL_PROGRESSION",
     "planned_position_is_not_actual_teacher_position": true,
     "planned_position_is_not_student_mastery": true,
-    "manual_position_override_is_external_user_state": true
+    "manual_position_override_is_external_user_state": true,
+    "calendar_neutral_topic_hour_distribution": true,
+    "calendar_fields_intentionally_excluded": true
   },
   "source_basis": {
     "authority_order": [
       "curriculum_map.json",
       "production/teaching_blocks.json",
-      "source_manifest.json"
+      "source_manifest.json",
+      "planning/block_hour_bindings.json",
+      "planning/official_topic_hour_distribution.json"
     ],
     "stable_sequence_source": "production/teaching_blocks.json",
-    "hours_source": "curriculum_map.json",
-    "provenance_status": "PASS",
+    "hours_source": "curriculum_map.json + planning/block_hour_bindings.json",
+    "provenance_status": "PASS_CALENDAR_NEUTRAL_BLOCK_TIME_RESOLVED",
     "temporal_fact_audit": {
       "annual_instructional_hours": {
         "value": 180,
@@ -34,7 +38,12 @@
         "status": "EXPLICIT_OFFICIAL"
       },
       "official_theme_order": {
-        "value": ["TEMA_01", "TEMA_02", "TEMA_03", "TEMA_04"],
+        "value": [
+          "TEMA_01",
+          "TEMA_02",
+          "TEMA_03",
+          "TEMA_04"
+        ],
         "source": "curriculum_map.json",
         "source_locator": "themes[].theme_no",
         "status": "EXPLICIT_OFFICIAL"
@@ -77,10 +86,27 @@
         "status": "DETERMINISTIC_DERIVATION"
       },
       "block_specific_official_hours": {
-        "value": null,
-        "source": "production/teaching_blocks.json",
-        "source_locator": "summary.block_lesson_hours_status; blocks[].lesson_hours_status",
-        "status": "UNRESOLVED"
+        "value": {
+          "BLOCK_T1_01_OKUMA": 15,
+          "BLOCK_T1_02_DINLEME": 8,
+          "BLOCK_T1_03_YAZMA": 10,
+          "BLOCK_T1_04_KONUSMA": 10,
+          "BLOCK_T2_01_OKUMA": 15,
+          "BLOCK_T2_02_KONUSMA": 10,
+          "BLOCK_T2_03_DINLEME": 8,
+          "BLOCK_T2_04_YAZMA": 10,
+          "BLOCK_T3_01_OKUMA": 15,
+          "BLOCK_T3_02_KONUSMA": 10,
+          "BLOCK_T3_03_DINLEME": 8,
+          "BLOCK_T3_04_YAZMA": 10,
+          "BLOCK_T4_01_OKUMA": 15,
+          "BLOCK_T4_02_KONUSMA": 10,
+          "BLOCK_T4_03_DINLEME": 8,
+          "BLOCK_T4_04_YAZMA": 10
+        },
+        "source": "planning/block_hour_bindings.json",
+        "source_locator": "MEB taslak yıllık plan konu/saat dağılımı; takvim alanları hariç",
+        "status": "OFFICIAL_DRAFT_ANNUAL_PLAN_DERIVED_CALENDAR_NEUTRAL"
       },
       "learning_area_hours": {
         "value": null,
@@ -93,13 +119,14 @@
         "source": null,
         "source_locator": null,
         "status": "UNRESOLVED",
-        "note": "180 divided by a possible week count is not treated as evidence."
+        "note": "Haftalık/tarihsel takvim yerleşimi bu canonical katmana alınmaz."
       },
       "academic_year_week_mapping": {
         "value": null,
         "source": null,
         "source_locator": null,
-        "status": "UNRESOLVED"
+        "status": "UNRESOLVED",
+        "note": "Ara tatil, yarıyıl, resmî tatil ve tarih aralıkları bilinçli olarak dışarıda tutulur."
       },
       "school_based_learning_placement_rules": {
         "value": null,
@@ -108,14 +135,19 @@
         "status": "UNRESOLVED",
         "note": "Options are pedagogical recommendations and all are NOT_SELECTED; none is auto-bound."
       }
-    }
+    },
+    "block_hours_source": "planning/block_hour_bindings.json",
+    "calendar_source": null
   },
   "annual_hours": {
     "official_total_hours": 180,
     "core_instruction_hours": 172,
     "school_based_hours": 8,
     "time_status": "EXPLICIT_OFFICIAL",
-    "source_locators": ["curriculum_map.json#scope_summary.allocated_lesson_hours", "öğretim programı.pdf s. 28-29"]
+    "source_locators": [
+      "curriculum_map.json#scope_summary.allocated_lesson_hours",
+      "öğretim programı.pdf s. 28-29"
+    ]
   },
   "theme_count": 4,
   "themes": [
@@ -127,13 +159,95 @@
       "core_instruction_hours": 43,
       "school_based_hours": null,
       "school_based_hours_status": "UNRESOLVED",
-      "source_locators": ["curriculum_map.json#themes[0].allocated_lesson_hours", "curriculum_map.json#themes[0].source_locator"],
+      "source_locators": [
+        "curriculum_map.json#themes[0].allocated_lesson_hours",
+        "curriculum_map.json#themes[0].source_locator",
+        "planning/block_hour_bindings.json#TEMA_01",
+        "planning/official_topic_hour_distribution.json#TEMA_01"
+      ],
       "blocks": [
-        {"block_id":"BLOCK_T1_01_OKUMA","block_order":1,"block_title":"1. Tema Okuma Bloğu: Şiir ve Deneme Metin Tahlili","skill_domain":null,"learning_area":null,"outcomes":["TDE2.1","TDE2.2"],"planned_hours":null,"time_status":"ORDER_ONLY","source_locators":["production/teaching_blocks.json#blocks[0]","curriculum_map.json#themes[0]" ]},
-        {"block_id":"BLOCK_T1_02_DINLEME","block_order":2,"block_title":"1. Tema Dinleme/İzleme Bloğu: Mülakat Dinleme/İzleme ve Karşılaştırma","skill_domain":null,"learning_area":null,"outcomes":["TDE1.1","TDE1.2"],"planned_hours":null,"time_status":"ORDER_ONLY","source_locators":["production/teaching_blocks.json#blocks[1]","curriculum_map.json#themes[0]" ]},
-        {"block_id":"BLOCK_T1_03_YAZMA","block_order":3,"block_title":"1. Tema Yazma Atölyesi Bloğu: Şiirden Betimleyici Paragrafa Dönüştürme","skill_domain":null,"learning_area":null,"outcomes":["TDE4.1","TDE4.2","TDE4.3","TDE4.4"],"planned_hours":null,"time_status":"ORDER_ONLY","source_locators":["production/teaching_blocks.json#blocks[2]","curriculum_map.json#themes[0]" ]},
-        {"block_id":"BLOCK_T1_04_KONUSMA","block_order":4,"block_title":"1. Tema Konuşma Atölyesi ve Tema Değerlendirme Bloğu: Altı Şapka Tekniği ile Sunum","skill_domain":null,"learning_area":null,"outcomes":["TDE3.1","TDE3.2","TDE3.3","TDE3.4"],"planned_hours":null,"time_status":"ORDER_ONLY","source_locators":["production/teaching_blocks.json#blocks[3]","curriculum_map.json#themes[0]" ]}
-      ]
+        {
+          "block_id": "BLOCK_T1_01_OKUMA",
+          "block_order": 1,
+          "block_title": "1. Tema Okuma Bloğu: Şiir ve Deneme Metin Tahlili",
+          "skill_domain": "OKUMA",
+          "learning_area": null,
+          "outcomes": [
+            "TDE2.1",
+            "TDE2.2"
+          ],
+          "planned_hours": 15,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
+          "source_locators": [
+            "production/teaching_blocks.json#blocks[0]",
+            "curriculum_map.json#themes[0]",
+            "planning/block_hour_bindings.json#TEMA_01.BLOCK_T1_01_OKUMA"
+          ],
+          "hour_resolution": "DIRECT"
+        },
+        {
+          "block_id": "BLOCK_T1_02_DINLEME",
+          "block_order": 2,
+          "block_title": "1. Tema Dinleme/İzleme Bloğu: Mülakat Dinleme/İzleme ve Karşılaştırma",
+          "skill_domain": "DINLEME_IZLEME",
+          "learning_area": null,
+          "outcomes": [
+            "TDE1.1",
+            "TDE1.2"
+          ],
+          "planned_hours": 8,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
+          "source_locators": [
+            "production/teaching_blocks.json#blocks[1]",
+            "curriculum_map.json#themes[0]",
+            "planning/block_hour_bindings.json#TEMA_01.BLOCK_T1_02_DINLEME"
+          ],
+          "hour_resolution": "DIRECT_PLUS_COMPOUND_FIRST_COMPONENT"
+        },
+        {
+          "block_id": "BLOCK_T1_03_YAZMA",
+          "block_order": 3,
+          "block_title": "1. Tema Yazma Atölyesi Bloğu: Şiirden Betimleyici Paragrafa Dönüştürme",
+          "skill_domain": "YAZMA",
+          "learning_area": null,
+          "outcomes": [
+            "TDE4.1",
+            "TDE4.2",
+            "TDE4.3",
+            "TDE4.4"
+          ],
+          "planned_hours": 10,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
+          "source_locators": [
+            "production/teaching_blocks.json#blocks[2]",
+            "curriculum_map.json#themes[0]",
+            "planning/block_hour_bindings.json#TEMA_01.BLOCK_T1_03_YAZMA"
+          ],
+          "hour_resolution": "DIRECT"
+        },
+        {
+          "block_id": "BLOCK_T1_04_KONUSMA",
+          "block_order": 4,
+          "block_title": "1. Tema Konuşma Atölyesi ve Tema Değerlendirme Bloğu: Altı Şapka Tekniği ile Sunum",
+          "skill_domain": "KONUSMA",
+          "learning_area": null,
+          "outcomes": [
+            "TDE3.1",
+            "TDE3.2",
+            "TDE3.3",
+            "TDE3.4"
+          ],
+          "planned_hours": 10,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
+          "source_locators": [
+            "production/teaching_blocks.json#blocks[3]",
+            "curriculum_map.json#themes[0]",
+            "planning/block_hour_bindings.json#TEMA_01.BLOCK_T1_04_KONUSMA"
+          ],
+          "hour_resolution": "COMPOUND_SECOND_COMPONENT_PLUS_DIRECT"
+        }
+      ],
+      "block_resolution_status": "BLOCK_TIME_RESOLVED"
     },
     {
       "theme_id": "TEMA_02",
@@ -143,13 +257,95 @@
       "core_instruction_hours": 43,
       "school_based_hours": null,
       "school_based_hours_status": "UNRESOLVED",
-      "source_locators": ["curriculum_map.json#themes[1].allocated_lesson_hours", "curriculum_map.json#themes[1].source_locator"],
+      "source_locators": [
+        "curriculum_map.json#themes[1].allocated_lesson_hours",
+        "curriculum_map.json#themes[1].source_locator",
+        "planning/block_hour_bindings.json#TEMA_02",
+        "planning/official_topic_hour_distribution.json#TEMA_02"
+      ],
       "blocks": [
-        {"block_id":"BLOCK_T2_01_OKUMA","block_order":1,"block_title":"2. Tema Okuma Bloğu: Hikâye ve Anı Metin Tahlili","skill_domain":null,"learning_area":null,"outcomes":["TDE2.1","TDE2.2"],"planned_hours":null,"time_status":"ORDER_ONLY","source_locators":["production/teaching_blocks.json#blocks[4]","curriculum_map.json#themes[1]" ]},
-        {"block_id":"BLOCK_T2_02_KONUSMA","block_order":2,"block_title":"2. Tema Konuşma Atölyesi Bloğu: Şiir Dinletisi ve Hazırlıklı Sunum","skill_domain":null,"learning_area":null,"outcomes":["TDE3.1","TDE3.2","TDE3.3","TDE3.4"],"planned_hours":null,"time_status":"ORDER_ONLY","source_locators":["production/teaching_blocks.json#blocks[5]","curriculum_map.json#themes[1]" ]},
-        {"block_id":"BLOCK_T2_03_DINLEME","block_order":3,"block_title":"2. Tema Dinleme/İzleme Bloğu: Mihriban Şiiri ve Karakoç Ses Kaydı Tahlili","skill_domain":null,"learning_area":null,"outcomes":["TDE1.1","TDE1.2"],"planned_hours":null,"time_status":"ORDER_ONLY","source_locators":["production/teaching_blocks.json#blocks[6]","curriculum_map.json#themes[1]" ]},
-        {"block_id":"BLOCK_T2_04_YAZMA","block_order":4,"block_title":"2. Tema Yazma Atölyesi ve Tema Değerlendirme Bloğu: Şiir Yazma Atölyesi","skill_domain":null,"learning_area":null,"outcomes":["TDE4.1","TDE4.2","TDE4.3","TDE4.4"],"planned_hours":null,"time_status":"ORDER_ONLY","source_locators":["production/teaching_blocks.json#blocks[7]","curriculum_map.json#themes[1]" ]}
-      ]
+        {
+          "block_id": "BLOCK_T2_01_OKUMA",
+          "block_order": 1,
+          "block_title": "2. Tema Okuma Bloğu: Hikâye ve Anı Metin Tahlili",
+          "skill_domain": "OKUMA",
+          "learning_area": null,
+          "outcomes": [
+            "TDE2.1",
+            "TDE2.2"
+          ],
+          "planned_hours": 15,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
+          "source_locators": [
+            "production/teaching_blocks.json#blocks[4]",
+            "curriculum_map.json#themes[1]",
+            "planning/block_hour_bindings.json#TEMA_02.BLOCK_T2_01_OKUMA"
+          ],
+          "hour_resolution": "DIRECT"
+        },
+        {
+          "block_id": "BLOCK_T2_02_KONUSMA",
+          "block_order": 2,
+          "block_title": "2. Tema Konuşma Atölyesi Bloğu: Şiir Dinletisi ve Hazırlıklı Sunum",
+          "skill_domain": "KONUSMA",
+          "learning_area": null,
+          "outcomes": [
+            "TDE3.1",
+            "TDE3.2",
+            "TDE3.3",
+            "TDE3.4"
+          ],
+          "planned_hours": 10,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
+          "source_locators": [
+            "production/teaching_blocks.json#blocks[5]",
+            "curriculum_map.json#themes[1]",
+            "planning/block_hour_bindings.json#TEMA_02.BLOCK_T2_02_KONUSMA"
+          ],
+          "hour_resolution": "DIRECT"
+        },
+        {
+          "block_id": "BLOCK_T2_03_DINLEME",
+          "block_order": 3,
+          "block_title": "2. Tema Dinleme/İzleme Bloğu: Mihriban Şiiri ve Karakoç Ses Kaydı Tahlili",
+          "skill_domain": "DINLEME_IZLEME",
+          "learning_area": null,
+          "outcomes": [
+            "TDE1.1",
+            "TDE1.2"
+          ],
+          "planned_hours": 8,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
+          "source_locators": [
+            "production/teaching_blocks.json#blocks[6]",
+            "curriculum_map.json#themes[1]",
+            "planning/block_hour_bindings.json#TEMA_02.BLOCK_T2_03_DINLEME"
+          ],
+          "hour_resolution": "DIRECT_PLUS_COMPOUND_FIRST_COMPONENT"
+        },
+        {
+          "block_id": "BLOCK_T2_04_YAZMA",
+          "block_order": 4,
+          "block_title": "2. Tema Yazma Atölyesi ve Tema Değerlendirme Bloğu: Şiir Yazma Atölyesi",
+          "skill_domain": "YAZMA",
+          "learning_area": null,
+          "outcomes": [
+            "TDE4.1",
+            "TDE4.2",
+            "TDE4.3",
+            "TDE4.4"
+          ],
+          "planned_hours": 10,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
+          "source_locators": [
+            "production/teaching_blocks.json#blocks[7]",
+            "curriculum_map.json#themes[1]",
+            "planning/block_hour_bindings.json#TEMA_02.BLOCK_T2_04_YAZMA"
+          ],
+          "hour_resolution": "COMPOUND_SECOND_COMPONENT_PLUS_DIRECT"
+        }
+      ],
+      "block_resolution_status": "BLOCK_TIME_RESOLVED"
     },
     {
       "theme_id": "TEMA_03",
@@ -159,13 +355,95 @@
       "core_instruction_hours": 43,
       "school_based_hours": null,
       "school_based_hours_status": "UNRESOLVED",
-      "source_locators": ["curriculum_map.json#themes[2].allocated_lesson_hours", "curriculum_map.json#themes[2].source_locator"],
+      "source_locators": [
+        "curriculum_map.json#themes[2].allocated_lesson_hours",
+        "curriculum_map.json#themes[2].source_locator",
+        "planning/block_hour_bindings.json#TEMA_03",
+        "planning/official_topic_hour_distribution.json#TEMA_03"
+      ],
       "blocks": [
-        {"block_id":"BLOCK_T3_01_OKUMA","block_order":1,"block_title":"3. Tema Okuma Bloğu: Hikâye ve Gezi Yazısı Metin Tahlili","skill_domain":null,"learning_area":null,"outcomes":["TDE2.1","TDE2.2"],"planned_hours":null,"time_status":"ORDER_ONLY","source_locators":["production/teaching_blocks.json#blocks[8]","curriculum_map.json#themes[2]" ]},
-        {"block_id":"BLOCK_T3_02_KONUSMA","block_order":2,"block_title":"3. Tema Konuşma Atölyesi Bloğu: Kültür, Dil ve Gelenek Sunumu","skill_domain":null,"learning_area":null,"outcomes":["TDE3.1","TDE3.2","TDE3.3","TDE3.4"],"planned_hours":null,"time_status":"ORDER_ONLY","source_locators":["production/teaching_blocks.json#blocks[9]","curriculum_map.json#themes[2]" ]},
-        {"block_id":"BLOCK_T3_03_DINLEME","block_order":3,"block_title":"3. Tema Dinleme/İzleme Bloğu: Nevruz Belgeseli Dinleme/İzleme ve Tahlil","skill_domain":null,"learning_area":null,"outcomes":["TDE1.1","TDE1.2"],"planned_hours":null,"time_status":"ORDER_ONLY","source_locators":["production/teaching_blocks.json#blocks[10]","curriculum_map.json#themes[2]" ]},
-        {"block_id":"BLOCK_T3_04_YAZMA","block_order":4,"block_title":"3. Tema Yazma Atölyesi ve Tema Değerlendirme Bloğu: İnfografik Metin Yazma","skill_domain":null,"learning_area":null,"outcomes":["TDE4.1","TDE4.2","TDE4.3","TDE4.4"],"planned_hours":null,"time_status":"ORDER_ONLY","source_locators":["production/teaching_blocks.json#blocks[11]","curriculum_map.json#themes[2]" ]}
-      ]
+        {
+          "block_id": "BLOCK_T3_01_OKUMA",
+          "block_order": 1,
+          "block_title": "3. Tema Okuma Bloğu: Hikâye ve Gezi Yazısı Metin Tahlili",
+          "skill_domain": "OKUMA",
+          "learning_area": null,
+          "outcomes": [
+            "TDE2.1",
+            "TDE2.2"
+          ],
+          "planned_hours": 15,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
+          "source_locators": [
+            "production/teaching_blocks.json#blocks[8]",
+            "curriculum_map.json#themes[2]",
+            "planning/block_hour_bindings.json#TEMA_03.BLOCK_T3_01_OKUMA"
+          ],
+          "hour_resolution": "DIRECT"
+        },
+        {
+          "block_id": "BLOCK_T3_02_KONUSMA",
+          "block_order": 2,
+          "block_title": "3. Tema Konuşma Atölyesi Bloğu: Kültür, Dil ve Gelenek Sunumu",
+          "skill_domain": "KONUSMA",
+          "learning_area": null,
+          "outcomes": [
+            "TDE3.1",
+            "TDE3.2",
+            "TDE3.3",
+            "TDE3.4"
+          ],
+          "planned_hours": 10,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
+          "source_locators": [
+            "production/teaching_blocks.json#blocks[9]",
+            "curriculum_map.json#themes[2]",
+            "planning/block_hour_bindings.json#TEMA_03.BLOCK_T3_02_KONUSMA"
+          ],
+          "hour_resolution": "DIRECT"
+        },
+        {
+          "block_id": "BLOCK_T3_03_DINLEME",
+          "block_order": 3,
+          "block_title": "3. Tema Dinleme/İzleme Bloğu: Nevruz Belgeseli Dinleme/İzleme ve Tahlil",
+          "skill_domain": "DINLEME_IZLEME",
+          "learning_area": null,
+          "outcomes": [
+            "TDE1.1",
+            "TDE1.2"
+          ],
+          "planned_hours": 8,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
+          "source_locators": [
+            "production/teaching_blocks.json#blocks[10]",
+            "curriculum_map.json#themes[2]",
+            "planning/block_hour_bindings.json#TEMA_03.BLOCK_T3_03_DINLEME"
+          ],
+          "hour_resolution": "DIRECT"
+        },
+        {
+          "block_id": "BLOCK_T3_04_YAZMA",
+          "block_order": 4,
+          "block_title": "3. Tema Yazma Atölyesi ve Tema Değerlendirme Bloğu: İnfografik Metin Yazma",
+          "skill_domain": "YAZMA",
+          "learning_area": null,
+          "outcomes": [
+            "TDE4.1",
+            "TDE4.2",
+            "TDE4.3",
+            "TDE4.4"
+          ],
+          "planned_hours": 10,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
+          "source_locators": [
+            "production/teaching_blocks.json#blocks[11]",
+            "curriculum_map.json#themes[2]",
+            "planning/block_hour_bindings.json#TEMA_03.BLOCK_T3_04_YAZMA"
+          ],
+          "hour_resolution": "DIRECT"
+        }
+      ],
+      "block_resolution_status": "BLOCK_TIME_RESOLVED"
     },
     {
       "theme_id": "TEMA_04",
@@ -175,13 +453,95 @@
       "core_instruction_hours": 43,
       "school_based_hours": null,
       "school_based_hours_status": "UNRESOLVED",
-      "source_locators": ["curriculum_map.json#themes[3].allocated_lesson_hours", "curriculum_map.json#themes[3].source_locator"],
+      "source_locators": [
+        "curriculum_map.json#themes[3].allocated_lesson_hours",
+        "curriculum_map.json#themes[3].source_locator",
+        "planning/block_hour_bindings.json#TEMA_04",
+        "planning/official_topic_hour_distribution.json#TEMA_04"
+      ],
       "blocks": [
-        {"block_id":"BLOCK_T4_01_OKUMA","block_order":1,"block_title":"4. Tema Okuma Bloğu: Roman ve Eleştiri Metin Tahlili","skill_domain":null,"learning_area":null,"outcomes":["TDE2.1","TDE2.2"],"planned_hours":null,"time_status":"ORDER_ONLY","source_locators":["production/teaching_blocks.json#blocks[12]","curriculum_map.json#themes[3]" ]},
-        {"block_id":"BLOCK_T4_02_KONUSMA","block_order":2,"block_title":"4. Tema Konuşma Atölyesi Bloğu: Sosyal Medya Dili ve Edebî Dil Sunumu","skill_domain":null,"learning_area":null,"outcomes":["TDE3.1","TDE3.2","TDE3.3","TDE3.4"],"planned_hours":null,"time_status":"ORDER_ONLY","source_locators":["production/teaching_blocks.json#blocks[13]","curriculum_map.json#themes[3]" ]},
-        {"block_id":"BLOCK_T4_03_DINLEME","block_order":3,"block_title":"4. Tema Dinleme/İzleme Bloğu: Âşık Veysel Otobiyografi Belgeseli Tahlili","skill_domain":null,"learning_area":null,"outcomes":["TDE1.1","TDE1.2"],"planned_hours":null,"time_status":"ORDER_ONLY","source_locators":["production/teaching_blocks.json#blocks[14]","curriculum_map.json#themes[3]" ]},
-        {"block_id":"BLOCK_T4_04_YAZMA","block_order":4,"block_title":"4. Tema Yazma Atölyesi ve Tema Değerlendirme Bloğu: Otobiyografi Yazma","skill_domain":null,"learning_area":null,"outcomes":["TDE4.1","TDE4.2","TDE4.3","TDE4.4"],"planned_hours":null,"time_status":"ORDER_ONLY","source_locators":["production/teaching_blocks.json#blocks[15]","curriculum_map.json#themes[3]" ]}
-      ]
+        {
+          "block_id": "BLOCK_T4_01_OKUMA",
+          "block_order": 1,
+          "block_title": "4. Tema Okuma Bloğu: Roman ve Eleştiri Metin Tahlili",
+          "skill_domain": "OKUMA",
+          "learning_area": null,
+          "outcomes": [
+            "TDE2.1",
+            "TDE2.2"
+          ],
+          "planned_hours": 15,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
+          "source_locators": [
+            "production/teaching_blocks.json#blocks[12]",
+            "curriculum_map.json#themes[3]",
+            "planning/block_hour_bindings.json#TEMA_04.BLOCK_T4_01_OKUMA"
+          ],
+          "hour_resolution": "DIRECT_STABLE_TEMPLATE"
+        },
+        {
+          "block_id": "BLOCK_T4_02_KONUSMA",
+          "block_order": 2,
+          "block_title": "4. Tema Konuşma Atölyesi Bloğu: Sosyal Medya Dili ve Edebî Dil Sunumu",
+          "skill_domain": "KONUSMA",
+          "learning_area": null,
+          "outcomes": [
+            "TDE3.1",
+            "TDE3.2",
+            "TDE3.3",
+            "TDE3.4"
+          ],
+          "planned_hours": 10,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
+          "source_locators": [
+            "production/teaching_blocks.json#blocks[13]",
+            "curriculum_map.json#themes[3]",
+            "planning/block_hour_bindings.json#TEMA_04.BLOCK_T4_02_KONUSMA"
+          ],
+          "hour_resolution": "DIRECT_STABLE_TEMPLATE"
+        },
+        {
+          "block_id": "BLOCK_T4_03_DINLEME",
+          "block_order": 3,
+          "block_title": "4. Tema Dinleme/İzleme Bloğu: Âşık Veysel Otobiyografi Belgeseli Tahlili",
+          "skill_domain": "DINLEME_IZLEME",
+          "learning_area": null,
+          "outcomes": [
+            "TDE1.1",
+            "TDE1.2"
+          ],
+          "planned_hours": 8,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
+          "source_locators": [
+            "production/teaching_blocks.json#blocks[14]",
+            "curriculum_map.json#themes[3]",
+            "planning/block_hour_bindings.json#TEMA_04.BLOCK_T4_03_DINLEME"
+          ],
+          "hour_resolution": "NORMALIZED_TO_STABLE_DOMAIN_TEMPLATE"
+        },
+        {
+          "block_id": "BLOCK_T4_04_YAZMA",
+          "block_order": 4,
+          "block_title": "4. Tema Yazma Atölyesi ve Tema Değerlendirme Bloğu: Otobiyografi Yazma",
+          "skill_domain": "YAZMA",
+          "learning_area": null,
+          "outcomes": [
+            "TDE4.1",
+            "TDE4.2",
+            "TDE4.3",
+            "TDE4.4"
+          ],
+          "planned_hours": 10,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
+          "source_locators": [
+            "production/teaching_blocks.json#blocks[15]",
+            "curriculum_map.json#themes[3]",
+            "planning/block_hour_bindings.json#TEMA_04.BLOCK_T4_04_YAZMA"
+          ],
+          "hour_resolution": "DIRECT_STABLE_TEMPLATE"
+        }
+      ],
+      "block_resolution_status": "BLOCK_TIME_RESOLVED"
     }
   ],
   "calendar_binding": {
@@ -192,7 +552,16 @@
     "end_date": null,
     "weekly_lesson_hours": null,
     "week_mappings": [],
-    "note": "No official academic calendar and verified weekly lesson schedule are present in the project source set; no date or week binding is inferred."
+    "note": "No official academic calendar and verified weekly lesson schedule are present in the project source set; no date or week binding is inferred.",
+    "calendar_specific_fields_ingested": false,
+    "excluded_fields": [
+      "ay",
+      "hafta/tarih aralığı",
+      "ara tatil",
+      "yarıyıl tatili",
+      "belirli gün ve haftalar",
+      "resmî tatil yerleşimi"
+    ]
   },
   "school_based_options_policy": {
     "auto_selected": false,

@@ -2,24 +2,28 @@
   "schema_version": "1.0",
   "course_id": "TDE_10",
   "grade": 10,
-  "timeline_version": "1.0.0",
+  "timeline_version": "1.1.0",
   "timeline_type": "ANNUAL_COURSE_TIMELINE",
-  "timeline_resolution": "THEME_AND_BLOCK_ORDER_RESOLVED",
+  "timeline_resolution": "BLOCK_TIME_RESOLVED",
   "timeline_semantics": {
     "meaning": "PLANNED_INSTRUCTIONAL_PROGRESSION",
     "planned_position_is_not_actual_teacher_position": true,
     "planned_position_is_not_student_mastery": true,
-    "manual_position_override_is_external_user_state": true
+    "manual_position_override_is_external_user_state": true,
+    "calendar_neutral_topic_hour_distribution": true,
+    "calendar_fields_intentionally_excluded": true
   },
   "source_basis": {
     "authority_order": [
       "curriculum_map.json",
       "production/teaching_blocks.json",
-      "source_manifest.json"
+      "source_manifest.json",
+      "planning/block_hour_bindings.json",
+      "planning/official_topic_hour_distribution.json"
     ],
     "stable_sequence_source": "production/teaching_blocks.json",
-    "hours_source": "curriculum_map.json#scope_summary.allocated_lesson_hours",
-    "provenance_status": "PASS_WITH_USER_CONFIRMED_SCHOOL_BASED_RULE",
+    "hours_source": "curriculum_map.json + planning/block_hour_bindings.json",
+    "provenance_status": "PASS_CALENDAR_NEUTRAL_BLOCK_TIME_RESOLVED",
     "temporal_fact_audit": {
       "annual_total_hours": {
         "value": 180,
@@ -68,18 +72,49 @@
       },
       "weekly_lesson_hours": {
         "value": null,
-        "status": "UNRESOLVED"
+        "source": null,
+        "source_locator": null,
+        "status": "UNRESOLVED",
+        "note": "Haftalık/tarihsel takvim yerleşimi bu canonical katmana alınmaz."
       },
       "academic_year_week_mapping": {
         "value": null,
-        "status": "UNRESOLVED"
+        "source": null,
+        "source_locator": null,
+        "status": "UNRESOLVED",
+        "note": "Ara tatil, yarıyıl, resmî tatil ve tarih aralıkları bilinçli olarak dışarıda tutulur."
       },
       "block_specific_hours": {
         "value": null,
         "status": "UNRESOLVED",
         "note": "Alt pedagojik bloklara saat uydurulmaz; textbook mapping ve teaching_blocks tamamlanınca yalnız kaynakla desteklenen sıra bağlanır."
+      },
+      "block_specific_official_hours": {
+        "value": {
+          "BLOCK_T1_01_OKUMA": 15,
+          "BLOCK_T1_02_KONUSMA": 10,
+          "BLOCK_T1_03_DINLEME": 8,
+          "BLOCK_T1_04_YAZMA": 10,
+          "BLOCK_T2_01_OKUMA": 15,
+          "BLOCK_T2_02_YAZMA": 10,
+          "BLOCK_T2_03_DINLEME": 8,
+          "BLOCK_T2_04_KONUSMA": 10,
+          "BLOCK_T3_01_OKUMA": 15,
+          "BLOCK_T3_02_KONUSMA": 10,
+          "BLOCK_T3_03_DINLEME": 8,
+          "BLOCK_T3_04_YAZMA": 10,
+          "BLOCK_T4_01_OKUMA": 15,
+          "BLOCK_T4_02_KONUSMA": 10,
+          "BLOCK_T4_03_DINLEME": 8,
+          "BLOCK_T4_04_YAZMA": 10
+        },
+        "source": "planning/block_hour_bindings.json",
+        "source_locator": "MEB taslak yıllık plan konu/saat dağılımı; takvim alanları hariç",
+        "status": "OFFICIAL_DRAFT_ANNUAL_PLAN_DERIVED_CALENDAR_NEUTRAL"
       }
-    }
+    },
+    "block_hours_source": "planning/block_hour_bindings.json",
+    "calendar_source": null
   },
   "annual_hours": {
     "official_theme_instruction_total": 172,
@@ -100,9 +135,11 @@
       "school_based_hours_status": "USER_CONFIRMED_PLANNING_RULE",
       "source_locators": [
         "curriculum_map.json#themes[0].allocated_lesson_hours",
-        "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/242?kod=D15"
+        "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/242?kod=D15",
+        "planning/block_hour_bindings.json#TEMA_01",
+        "planning/official_topic_hour_distribution.json#TEMA_01"
       ],
-      "block_resolution_status": "RESOLVED_ORDER_ONLY",
+      "block_resolution_status": "BLOCK_TIME_RESOLVED",
       "blocks": [
         {
           "block_id": "BLOCK_T1_01_OKUMA",
@@ -114,12 +151,15 @@
             "TDE2.3",
             "TDE2.4"
           ],
-          "planned_hours": null,
-          "time_status": "ORDER_ONLY",
+          "planned_hours": 15,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
           "source_locators": [
             "production/teaching_blocks.json#BLOCK_T1_01_OKUMA",
-            "textbook_map.json#T1_SEC_01_OKUMA_KOSUK,T1_SEC_02_OKUMA_TURKU"
-          ]
+            "textbook_map.json#T1_SEC_01_OKUMA_KOSUK,T1_SEC_02_OKUMA_TURKU",
+            "planning/block_hour_bindings.json#TEMA_01.BLOCK_T1_01_OKUMA"
+          ],
+          "skill_domain": "OKUMA",
+          "hour_resolution": "DIRECT"
         },
         {
           "block_id": "BLOCK_T1_02_KONUSMA",
@@ -131,12 +171,15 @@
             "TDE3.3",
             "TDE3.4"
           ],
-          "planned_hours": null,
-          "time_status": "ORDER_ONLY",
+          "planned_hours": 10,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
           "source_locators": [
             "production/teaching_blocks.json#BLOCK_T1_02_KONUSMA",
-            "textbook_map.json#T1_SEC_03_KONUSMA"
-          ]
+            "textbook_map.json#T1_SEC_03_KONUSMA",
+            "planning/block_hour_bindings.json#TEMA_01.BLOCK_T1_02_KONUSMA"
+          ],
+          "skill_domain": "KONUSMA",
+          "hour_resolution": "DIRECT"
         },
         {
           "block_id": "BLOCK_T1_03_DINLEME",
@@ -148,12 +191,15 @@
             "TDE1.3",
             "TDE1.4"
           ],
-          "planned_hours": null,
-          "time_status": "ORDER_ONLY",
+          "planned_hours": 8,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
           "source_locators": [
             "production/teaching_blocks.json#BLOCK_T1_03_DINLEME",
-            "textbook_map.json#T1_SEC_04_DINLEME_MASAL"
-          ]
+            "textbook_map.json#T1_SEC_04_DINLEME_MASAL",
+            "planning/block_hour_bindings.json#TEMA_01.BLOCK_T1_03_DINLEME"
+          ],
+          "skill_domain": "DINLEME_IZLEME",
+          "hour_resolution": "DIRECT_PLUS_COMPOUND_FIRST_COMPONENT"
         },
         {
           "block_id": "BLOCK_T1_04_YAZMA",
@@ -165,12 +211,15 @@
             "TDE4.3",
             "TDE4.4"
           ],
-          "planned_hours": null,
-          "time_status": "ORDER_ONLY",
+          "planned_hours": 10,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
           "source_locators": [
             "production/teaching_blocks.json#BLOCK_T1_04_YAZMA",
-            "textbook_map.json#T1_SEC_05_YAZMA_FILM_SERIDI,T1_SEC_06_TEMA_SONU"
-          ]
+            "textbook_map.json#T1_SEC_05_YAZMA_FILM_SERIDI,T1_SEC_06_TEMA_SONU",
+            "planning/block_hour_bindings.json#TEMA_01.BLOCK_T1_04_YAZMA"
+          ],
+          "skill_domain": "YAZMA",
+          "hour_resolution": "COMPOUND_SECOND_COMPONENT_PLUS_DIRECT"
         }
       ],
       "official_total_hours": 43
@@ -185,9 +234,11 @@
       "school_based_hours_status": "USER_CONFIRMED_PLANNING_RULE",
       "source_locators": [
         "curriculum_map.json#themes[1].allocated_lesson_hours",
-        "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/247"
+        "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/247",
+        "planning/block_hour_bindings.json#TEMA_02",
+        "planning/official_topic_hour_distribution.json#TEMA_02"
       ],
-      "block_resolution_status": "RESOLVED_ORDER_ONLY",
+      "block_resolution_status": "BLOCK_TIME_RESOLVED",
       "blocks": [
         {
           "block_id": "BLOCK_T2_01_OKUMA",
@@ -199,12 +250,15 @@
             "TDE2.3",
             "TDE2.4"
           ],
-          "planned_hours": null,
-          "time_status": "ORDER_ONLY",
+          "planned_hours": 15,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
           "source_locators": [
             "production/teaching_blocks.json#BLOCK_T2_01_OKUMA",
-            "textbook_map.json#T2_SEC_01_OKUMA_GAZEL,T2_SEC_02_OKUMA_SAF_SIIR"
-          ]
+            "textbook_map.json#T2_SEC_01_OKUMA_GAZEL,T2_SEC_02_OKUMA_SAF_SIIR",
+            "planning/block_hour_bindings.json#TEMA_02.BLOCK_T2_01_OKUMA"
+          ],
+          "skill_domain": "OKUMA",
+          "hour_resolution": "DIRECT"
         },
         {
           "block_id": "BLOCK_T2_02_YAZMA",
@@ -216,12 +270,15 @@
             "TDE4.3",
             "TDE4.4"
           ],
-          "planned_hours": null,
-          "time_status": "ORDER_ONLY",
+          "planned_hours": 10,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
           "source_locators": [
             "production/teaching_blocks.json#BLOCK_T2_02_YAZMA",
-            "textbook_map.json#T2_SEC_03_YAZMA_DONUSTURME"
-          ]
+            "textbook_map.json#T2_SEC_03_YAZMA_DONUSTURME",
+            "planning/block_hour_bindings.json#TEMA_02.BLOCK_T2_02_YAZMA"
+          ],
+          "skill_domain": "YAZMA",
+          "hour_resolution": "DIRECT"
         },
         {
           "block_id": "BLOCK_T2_03_DINLEME",
@@ -233,12 +290,15 @@
             "TDE1.3",
             "TDE1.4"
           ],
-          "planned_hours": null,
-          "time_status": "ORDER_ONLY",
+          "planned_hours": 8,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
           "source_locators": [
             "production/teaching_blocks.json#BLOCK_T2_03_DINLEME",
-            "textbook_map.json#T2_SEC_04_DINLEME_SOYLESI"
-          ]
+            "textbook_map.json#T2_SEC_04_DINLEME_SOYLESI",
+            "planning/block_hour_bindings.json#TEMA_02.BLOCK_T2_03_DINLEME"
+          ],
+          "skill_domain": "DINLEME_IZLEME",
+          "hour_resolution": "DIRECT_PLUS_COMPOUND_FIRST_COMPONENT"
         },
         {
           "block_id": "BLOCK_T2_04_KONUSMA",
@@ -250,12 +310,15 @@
             "TDE3.3",
             "TDE3.4"
           ],
-          "planned_hours": null,
-          "time_status": "ORDER_ONLY",
+          "planned_hours": 10,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
           "source_locators": [
             "production/teaching_blocks.json#BLOCK_T2_04_KONUSMA",
-            "textbook_map.json#T2_SEC_05_KONUSMA_PODCAST,T2_SEC_06_TEMA_OLCME"
-          ]
+            "textbook_map.json#T2_SEC_05_KONUSMA_PODCAST,T2_SEC_06_TEMA_OLCME",
+            "planning/block_hour_bindings.json#TEMA_02.BLOCK_T2_04_KONUSMA"
+          ],
+          "skill_domain": "KONUSMA",
+          "hour_resolution": "COMPOUND_SECOND_COMPONENT_PLUS_DIRECT"
         }
       ],
       "official_total_hours": 43
@@ -270,9 +333,11 @@
       "school_based_hours_status": "USER_CONFIRMED_PLANNING_RULE",
       "source_locators": [
         "curriculum_map.json#themes[2].allocated_lesson_hours",
-        "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/256"
+        "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/256",
+        "planning/block_hour_bindings.json#TEMA_03",
+        "planning/official_topic_hour_distribution.json#TEMA_03"
       ],
-      "block_resolution_status": "RESOLVED_ORDER_ONLY",
+      "block_resolution_status": "BLOCK_TIME_RESOLVED",
       "blocks": [
         {
           "block_id": "BLOCK_T3_01_OKUMA",
@@ -284,12 +349,15 @@
             "TDE2.3",
             "TDE2.4"
           ],
-          "planned_hours": null,
-          "time_status": "ORDER_ONLY",
+          "planned_hours": 15,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
           "source_locators": [
             "production/teaching_blocks.json#BLOCK_T3_01_OKUMA",
-            "textbook_map.json#T3_SEC_01_OKUMA_DESTAN,T3_SEC_02_OKUMA_MESNEVI"
-          ]
+            "textbook_map.json#T3_SEC_01_OKUMA_DESTAN,T3_SEC_02_OKUMA_MESNEVI",
+            "planning/block_hour_bindings.json#TEMA_03.BLOCK_T3_01_OKUMA"
+          ],
+          "skill_domain": "OKUMA",
+          "hour_resolution": "DIRECT"
         },
         {
           "block_id": "BLOCK_T3_02_KONUSMA",
@@ -301,12 +369,15 @@
             "TDE3.3",
             "TDE3.4"
           ],
-          "planned_hours": null,
-          "time_status": "ORDER_ONLY",
+          "planned_hours": 10,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
           "source_locators": [
             "production/teaching_blocks.json#BLOCK_T3_02_KONUSMA",
-            "textbook_map.json#T3_SEC_03_KONUSMA_DESTAN_SUNUM"
-          ]
+            "textbook_map.json#T3_SEC_03_KONUSMA_DESTAN_SUNUM",
+            "planning/block_hour_bindings.json#TEMA_03.BLOCK_T3_02_KONUSMA"
+          ],
+          "skill_domain": "KONUSMA",
+          "hour_resolution": "DIRECT"
         },
         {
           "block_id": "BLOCK_T3_03_DINLEME",
@@ -318,12 +389,15 @@
             "TDE1.3",
             "TDE1.4"
           ],
-          "planned_hours": null,
-          "time_status": "ORDER_ONLY",
+          "planned_hours": 8,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
           "source_locators": [
             "production/teaching_blocks.json#BLOCK_T3_03_DINLEME",
-            "textbook_map.json#T3_SEC_04_DINLEME_FABL"
-          ]
+            "textbook_map.json#T3_SEC_04_DINLEME_FABL",
+            "planning/block_hour_bindings.json#TEMA_03.BLOCK_T3_03_DINLEME"
+          ],
+          "skill_domain": "DINLEME_IZLEME",
+          "hour_resolution": "DIRECT"
         },
         {
           "block_id": "BLOCK_T3_04_YAZMA",
@@ -335,12 +409,15 @@
             "TDE4.3",
             "TDE4.4"
           ],
-          "planned_hours": null,
-          "time_status": "ORDER_ONLY",
+          "planned_hours": 10,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
           "source_locators": [
             "production/teaching_blocks.json#BLOCK_T3_04_YAZMA",
-            "textbook_map.json#T3_SEC_05_YAZMA_FABL,T3_SEC_06_TEMA_SONU"
-          ]
+            "textbook_map.json#T3_SEC_05_YAZMA_FABL,T3_SEC_06_TEMA_SONU",
+            "planning/block_hour_bindings.json#TEMA_03.BLOCK_T3_04_YAZMA"
+          ],
+          "skill_domain": "YAZMA",
+          "hour_resolution": "DIRECT"
         }
       ],
       "official_total_hours": 43
@@ -355,9 +432,11 @@
       "school_based_hours_status": "USER_CONFIRMED_PLANNING_RULE",
       "source_locators": [
         "curriculum_map.json#themes[3].allocated_lesson_hours",
-        "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/261"
+        "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/261",
+        "planning/block_hour_bindings.json#TEMA_04",
+        "planning/official_topic_hour_distribution.json#TEMA_04"
       ],
-      "block_resolution_status": "RESOLVED_ORDER_ONLY",
+      "block_resolution_status": "BLOCK_TIME_RESOLVED",
       "blocks": [
         {
           "block_id": "BLOCK_T4_01_OKUMA",
@@ -369,12 +448,15 @@
             "TDE2.3",
             "TDE2.4"
           ],
-          "planned_hours": null,
-          "time_status": "ORDER_ONLY",
+          "planned_hours": 15,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
           "source_locators": [
             "production/teaching_blocks.json#BLOCK_T4_01_OKUMA",
-            "textbook_map.json#T4_SEC_01_OKUMA_DEDE_KORKUT,T4_SEC_02_OKUMA_TANZIMAT_SIIRI"
-          ]
+            "textbook_map.json#T4_SEC_01_OKUMA_DEDE_KORKUT,T4_SEC_02_OKUMA_TANZIMAT_SIIRI",
+            "planning/block_hour_bindings.json#TEMA_04.BLOCK_T4_01_OKUMA"
+          ],
+          "skill_domain": "OKUMA",
+          "hour_resolution": "DIRECT_STABLE_TEMPLATE"
         },
         {
           "block_id": "BLOCK_T4_02_KONUSMA",
@@ -386,12 +468,15 @@
             "TDE3.3",
             "TDE3.4"
           ],
-          "planned_hours": null,
-          "time_status": "ORDER_ONLY",
+          "planned_hours": 10,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
           "source_locators": [
             "production/teaching_blocks.json#BLOCK_T4_02_KONUSMA",
-            "textbook_map.json#T4_SEC_03_KONUSMA_CANLANDIRMA"
-          ]
+            "textbook_map.json#T4_SEC_03_KONUSMA_CANLANDIRMA",
+            "planning/block_hour_bindings.json#TEMA_04.BLOCK_T4_02_KONUSMA"
+          ],
+          "skill_domain": "KONUSMA",
+          "hour_resolution": "DIRECT_STABLE_TEMPLATE"
         },
         {
           "block_id": "BLOCK_T4_03_DINLEME",
@@ -403,12 +488,15 @@
             "TDE1.3",
             "TDE1.4"
           ],
-          "planned_hours": null,
-          "time_status": "ORDER_ONLY",
+          "planned_hours": 8,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
           "source_locators": [
             "production/teaching_blocks.json#BLOCK_T4_03_DINLEME",
-            "textbook_map.json#T4_SEC_04_DINLEME_HIKAYE"
-          ]
+            "textbook_map.json#T4_SEC_04_DINLEME_HIKAYE",
+            "planning/block_hour_bindings.json#TEMA_04.BLOCK_T4_03_DINLEME"
+          ],
+          "skill_domain": "DINLEME_IZLEME",
+          "hour_resolution": "NORMALIZED_TO_STABLE_DOMAIN_TEMPLATE"
         },
         {
           "block_id": "BLOCK_T4_04_YAZMA",
@@ -420,12 +508,15 @@
             "TDE4.3",
             "TDE4.4"
           ],
-          "planned_hours": null,
-          "time_status": "ORDER_ONLY",
+          "planned_hours": 10,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
           "source_locators": [
             "production/teaching_blocks.json#BLOCK_T4_04_YAZMA",
-            "textbook_map.json#T4_SEC_05_YAZMA_SIIRE_DONUSTURME,T4_SEC_06_TEMA_SONU"
-          ]
+            "textbook_map.json#T4_SEC_05_YAZMA_SIIRE_DONUSTURME,T4_SEC_06_TEMA_SONU",
+            "planning/block_hour_bindings.json#TEMA_04.BLOCK_T4_04_YAZMA"
+          ],
+          "skill_domain": "YAZMA",
+          "hour_resolution": "DIRECT_STABLE_TEMPLATE"
         }
       ],
       "official_total_hours": 43
@@ -435,6 +526,16 @@
     "status": "UNRESOLVED",
     "academic_year": null,
     "week_mapping": null,
-    "rule": "Stable theme sequence and 45-hour outer blocks are independent from a later academic-calendar binding."
+    "rule": "Stable theme sequence and 45-hour outer blocks are independent from a later academic-calendar binding.",
+    "weekly_lesson_hours": null,
+    "calendar_specific_fields_ingested": false,
+    "excluded_fields": [
+      "ay",
+      "hafta/tarih aralığı",
+      "ara tatil",
+      "yarıyıl tatili",
+      "belirli gün ve haftalar",
+      "resmî tatil yerleşimi"
+    ]
   }
 }
