@@ -59,6 +59,12 @@ jobs:
       - name: Run Artifact Generator V1 regressions
         run: python skill/tymm-material-planner/tests/test_artifact_generator.py
 
+      - name: Run persistent teacher approval regressions
+        run: python skill/tymm-material-planner/tests/test_teacher_approval.py
+
+      - name: Run post-approval resume regressions
+        run: python skill/tymm-material-planner/tests/test_resume_after_teacher_approval.py
+
       - name: Generate canonical speaking rubric pilot
         run: |
           python skill/tymm-material-planner/scripts/artifact_generator.py generate \
