@@ -1,0 +1,105 @@
+name: TYMM Block-Hour Runtime Projection
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/tymm-runtime-block-hours.yml'
+      - 'skill/tymm-material-planner/scripts/build_runtime_course_package.py'
+      - 'skill/tymm-material-planner/scripts/runtime_assessment_payload.py'
+      - 'skill/tymm-material-planner/tests/test_runtime_course_package.py'
+      - 'skill/tymm-material-planner/tests/test_runtime_block_hours_tde10.py'
+      - 'courses/TDE_9/planning/**'
+      - 'courses/TDE_10/planning/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tymm-block-hour-runtime-main
+  cancel-in-progress: false
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run block-hour runtime regressions
+        run: |
+          python skill/tymm-material-planner/tests/test_runtime_course_package.py
+          python skill/tymm-material-planner/tests/test_runtime_block_hours_tde10.py
+
+      - name: Build TDE9 and TDE10 runtime packages
+        run: |
+          python skill/tymm-material-planner/scripts/build_runtime_course_package.py build --knowledge-root courses/TDE_9
+          python skill/tymm-material-planner/scripts/build_runtime_course_package.py build --knowledge-root courses/TDE_10
+
+      - name: Verify calendar-neutral block-hour projection
+        run: |
+          python - <<'PY'
+          import json, sqlite3
+          from pathlib import Path
+
+          expected = {
+              'TDE_9': {
+                  'BLOCK_T1_01_OKUMA': 15,
+                  'BLOCK_T1_02_DINLEME': 8,
+                  'BLOCK_T1_03_YAZMA': 10,
+                  'BLOCK_T1_04_KONUSMA': 10,
+              },
+              'TDE_10': {
+                  'BLOCK_T1_01_OKUMA': 15,
+                  'BLOCK_T1_02_KONUSMA': 10,
+                  'BLOCK_T1_03_DINLEME': 8,
+                  'BLOCK_T1_04_YAZMA': 10,
+              },
+          }
+
+          for course, probe in expected.items():
+              root = Path('courses') / course
+              manifest = json.loads((root / 'runtime/runtime_manifest.json').read_text(encoding='utf-8'))
+              assert manifest['validation_status'] == 'PASS', (course, manifest['validation_status'])
+              assert manifest['timeline_resolution'] == 'BLOCK_TIME_RESOLVED', (course, manifest['timeline_resolution'])
+              assert manifest['block_hour_binding_status'] == 'BLOCK_TIME_RESOLVED', (course, manifest.get('block_hour_binding_status'))
+              assert manifest['timeline_unresolved_fields']['block_hours'] is None, course
+              assert manifest['timeline_unresolved_fields']['calendar_binding'] == 'UNRESOLVED', course
+
+              db = sqlite3.connect(root / 'runtime/course_runtime.sqlite')
+              try:
+                  resolved = db.execute('SELECT COUNT(*) FROM timeline_blocks WHERE planned_hours IS NOT NULL').fetchone()[0]
+                  assert resolved == 16, (course, resolved)
+                  totals = dict(db.execute('SELECT theme_id,SUM(planned_hours) FROM timeline_blocks GROUP BY theme_id'))
+                  assert totals == {'TEMA_01':43,'TEMA_02':43,'TEMA_03':43,'TEMA_04':43}, (course, totals)
+                  values = dict(db.execute('SELECT block_id,planned_hours FROM timeline_blocks'))
+                  for block_id, hours in probe.items():
+                      assert values[block_id] == hours, (course, block_id, values[block_id], hours)
+              finally:
+                  db.close()
+              print(f'{course} block-hour runtime projection: PASS')
+          PY
+
+      - name: Publish derived runtime packages
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add courses/TDE_9/runtime courses/TDE_10/runtime
+          if git diff --cached --quiet; then
+            echo 'No runtime output changes.'
+            exit 0
+          fi
+          git commit -m 'feat(runtime): publish calendar-neutral block-hour projections'
+          git pull --rebase origin main
+          git push origin HEAD:main
