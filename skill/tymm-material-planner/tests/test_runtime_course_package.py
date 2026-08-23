@@ -23,10 +23,20 @@ class RuntimePackageTests(unittest.TestCase):
         def add(d): d["themes"][0]["learning_outcomes"].append(dict(d["themes"][0]["learning_outcomes"][0]))
         self.mutate("curriculum_map.json", add)
         with self.assertRaises(sqlite3.IntegrityError): self.build()
-    def test_03_unresolved_hours_remain_null(self):
+    def test_03_block_hours_resolve_and_project(self):
         self.assertEqual(self.build()["status"], "PASS")
         db=sqlite3.connect(self.tmp/"runtime/course_runtime.sqlite")
-        self.assertEqual(db.execute("SELECT COUNT(*) FROM blocks WHERE planned_hours IS NOT NULL").fetchone()[0], 0)
+        self.assertEqual(db.execute("SELECT COUNT(*) FROM blocks WHERE planned_hours IS NOT NULL").fetchone()[0], 16)
+        self.assertEqual(db.execute("SELECT COUNT(*) FROM timeline_blocks WHERE planned_hours IS NOT NULL").fetchone()[0], 16)
+        self.assertEqual(db.execute("SELECT planned_hours FROM blocks WHERE block_id='BLOCK_T1_01_OKUMA'").fetchone()[0], 15)
+        self.assertEqual(db.execute("SELECT planned_hours FROM blocks WHERE block_id='BLOCK_T1_02_DINLEME'").fetchone()[0], 8)
+        self.assertEqual(db.execute("SELECT planned_hours FROM blocks WHERE block_id='BLOCK_T1_03_YAZMA'").fetchone()[0], 10)
+        self.assertEqual(db.execute("SELECT planned_hours FROM blocks WHERE block_id='BLOCK_T1_04_KONUSMA'").fetchone()[0], 10)
+        self.assertEqual(dict(db.execute("SELECT theme_id,SUM(planned_hours) FROM timeline_blocks GROUP BY theme_id")), {"TEMA_01":43,"TEMA_02":43,"TEMA_03":43,"TEMA_04":43})
+        manifest=json.loads((self.tmp/"runtime/runtime_manifest.json").read_text())
+        self.assertEqual(manifest["timeline_resolution"], "BLOCK_TIME_RESOLVED")
+        self.assertIsNone(manifest["timeline_unresolved_fields"]["block_hours"])
+        self.assertEqual(manifest["block_hour_binding_status"], "BLOCK_TIME_RESOLVED")
     def test_04_textbook_body_not_projected(self):
         self.assertEqual(self.build()["status"], "PASS")
         db=sqlite3.connect(self.tmp/"runtime/course_runtime.sqlite")
@@ -57,5 +67,8 @@ class RuntimePackageTests(unittest.TestCase):
         self.assertEqual(self.build()["status"], "PASS")
         db=sqlite3.connect(self.tmp/"runtime/course_runtime.sqlite")
         self.assertFalse(any(any(x in r[0].lower() for x in ("vector","embedding","onnx","model")) for r in db.execute("SELECT name FROM sqlite_master WHERE type='table'")))
+    def test_11_invalid_block_hour_total_fails_closed(self):
+        self.mutate("planning/block_hour_bindings.json", lambda d:d["themes"][0]["bindings"][0].update({"planned_hours":14}))
+        with self.assertRaises(ValueError): self.build()
 
 if __name__ == "__main__": unittest.main()
