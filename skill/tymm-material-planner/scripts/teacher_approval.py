@@ -1,12 +1,9 @@
 #!/usr/bin/env python3
 """Persist and re-apply explicit teacher approvals for generated assessment artifacts.
 
-The Artifact Generation Engine intentionally keeps generation separate from teacher
-approval. This helper makes an approval reproducible across clean checkouts without
-turning REVIEW.md into a lifecycle source of truth.
-
-A tracked approval record is bound to the artifact's generation_context_hash. If
-canonical knowledge changes, the record becomes stale and cannot be applied.
+Approval is bound to both the canonical generation context and the exact deterministic
+pre-approval artifact content. If source knowledge, contracts, generator behavior, or
+rendered rubric content changes, the record becomes stale and cannot be applied.
 """
 from __future__ import annotations
 
@@ -20,14 +17,16 @@ from artifact_generation import (
     ArtifactGenerationError,
     approve_artifact,
     build_generation_context,
+    generate_draft,
     generate_to_directory,
+    stable_hash,
 )
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 SKILL_DIR = SCRIPT_DIR.parent
 REPO_ROOT = SKILL_DIR.parent.parent
 DEFAULT_COURSE_ROOT = REPO_ROOT / "courses" / "TDE_9"
-APPROVAL_SCHEMA_VERSION = "1.0"
+APPROVAL_SCHEMA_VERSION = "1.1"
 APPROVAL_DIRNAME = "teacher_approvals"
 
 
@@ -44,20 +43,33 @@ def _read_json(path: Path) -> Dict[str, Any]:
     return data
 
 
+def _current_draft_identity(course_root: Path, artifact_id: str) -> Dict[str, str]:
+    context = build_generation_context(course_root, artifact_id)
+    draft = generate_draft(context)
+    return {
+        "generation_context_hash": context["context_hash"],
+        "artifact_content_hash": stable_hash(draft),
+    }
+
+
 def build_record(course_root: Path, artifact_id: str, reviewer: str, note: str = "") -> Dict[str, Any]:
     reviewer = reviewer.strip()
     if not reviewer:
         raise ArtifactGenerationError("TEACHER_APPROVAL_REVIEWER_REQUIRED")
-    context = build_generation_context(course_root, artifact_id)
+    identity = _current_draft_identity(course_root, artifact_id)
     return {
         "schema_version": APPROVAL_SCHEMA_VERSION,
         "artifact_id": artifact_id,
-        "generation_context_hash": context["context_hash"],
+        "generation_context_hash": identity["generation_context_hash"],
+        "artifact_content_hash": identity["artifact_content_hash"],
         "approved": True,
         "reviewer": reviewer,
         "review_note": note.strip() or None,
         "approval_kind": "EXPLICIT_TEACHER_APPROVAL",
-        "reproducibility_rule": "Approval is valid only while generation_context_hash matches canonical context.",
+        "reproducibility_rule": (
+            "Approval is valid only while both generation_context_hash and the deterministic "
+            "pre-approval artifact_content_hash match the current canonical generator output."
+        ),
     }
 
 
@@ -84,18 +96,25 @@ def validate_record(course_root: Path, artifact_id: str) -> Dict[str, Any]:
     if not reviewer:
         raise ArtifactGenerationError("TEACHER_APPROVAL_REVIEWER_REQUIRED")
 
-    context = build_generation_context(course_root, artifact_id)
-    if record.get("generation_context_hash") != context.get("context_hash"):
+    identity = _current_draft_identity(course_root, artifact_id)
+    if record.get("generation_context_hash") != identity["generation_context_hash"]:
         raise ArtifactGenerationError("TEACHER_APPROVAL_CONTEXT_STALE")
+    if record.get("artifact_content_hash") != identity["artifact_content_hash"]:
+        raise ArtifactGenerationError("TEACHER_APPROVAL_ARTIFACT_CONTENT_STALE")
     return record
 
 
 def apply_record(course_root: Path, output_root: Path, artifact_id: str) -> Dict[str, Any]:
     record = validate_record(course_root, artifact_id)
 
-    # Recreate the canonical draft in this checkout when necessary. Generation is
-    # still REVIEW_REQUIRED; approval is applied only from the explicit record.
-    generate_to_directory(course_root, artifact_id, output_root)
+    # Recreate the exact canonical draft in this checkout. Approval is applied only
+    # after the persisted record has matched both context and deterministic content.
+    context, draft, _ = generate_to_directory(course_root, artifact_id, output_root)
+    if context.get("context_hash") != record.get("generation_context_hash"):
+        raise ArtifactGenerationError("TEACHER_APPROVAL_CONTEXT_STALE")
+    if stable_hash(draft) != record.get("artifact_content_hash"):
+        raise ArtifactGenerationError("TEACHER_APPROVAL_ARTIFACT_CONTENT_STALE")
+
     artifact = approve_artifact(
         course_root,
         artifact_id,
@@ -121,6 +140,7 @@ def status(course_root: Path, artifact_id: str) -> Dict[str, Any]:
             "approval_record": "CURRENT",
             "reviewer": record.get("reviewer"),
             "generation_context_hash": record.get("generation_context_hash"),
+            "artifact_content_hash": record.get("artifact_content_hash"),
             "path": str(path),
         }
     except ArtifactGenerationError as exc:
