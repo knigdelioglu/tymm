@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "TDE_11",
+  "grade": 11,
+  "artifact_type": "OFFICIAL_DRAFT_ANNUAL_PLAN_TOPIC_HOUR_DISTRIBUTION_STATUS",
+  "status": "PROGRAM_MISMATCH_BLOCKED",
+  "source": {
+    "path": "docs/Anadolu Liseleri Türk Dili ve Edebiyatı Dersi Taslak Yıllık Plan.xlsx",
+    "worksheet": "11.SINIF TDE",
+    "source_academic_year": "2025-2026",
+    "file_sha256": "9bb765967383912f58298cc5f8a8656ea97c31cf2468f92932ceff85a18b7c13",
+    "git_blob_sha": "732b4b75d2403afd2393872c0a509e141612b961"
+  },
+  "reason": "Kaynak sayfa eski ünite yapısını (Giriş, Hikâye, Şiir, Makale, Roman vb.) kullanıyor; repository canonical TDE_11 ise TYMM 4-tema yapısını kullanıyor.",
+  "canonical_target": {
+    "curriculum_map": "courses/TDE_11/curriculum_map.json",
+    "theme_names": [
+      "1. TEMA: BİR DİYECEĞİM VAR!",
+      "2. TEMA: KÜLTÜR YOLCULUĞU",
+      "3. TEMA: YAŞAMIN İZİNDE",
+      "4. TEMA: HAYATIN AYNASI"
+    ],
+    "official_instructional_hours_per_theme": 43,
+    "annual_instructional_hours": 172,
+    "annual_school_based_planning_hours": 8,
+    "annual_total_hours": 180
+  },
+  "source_observed_units": [
+    "1. ÜNİTE: GİRİŞ",
+    "2. ÜNİTE: HİKÂYE",
+    "3. ÜNİTE: ŞİİR",
+    "4. ÜNİTE: MAKALE",
+    "5. ÜNİTE: SOHBET/FIKRA",
+    "6. ÜNİTE: ROMAN",
+    "7. ÜNİTE: TİYATRO",
+    "8. ÜNİTE: ELEŞTİRİ",
+    "9. ÜNİTE: MÜLAKAT/RÖPORTAJ"
+  ],
+  "calendar_policy": {
+    "calendar_fields_ingested": false,
+    "excluded": ["ay", "hafta/tarih aralığı", "ara tatil", "yarıyıl tatili", "belirli gün ve haftalar"]
+  },
+  "generation_authorization": {
+    "allowed": false,
+    "block_reason": "PROGRAM_ANNUAL_PLAN_VERSION_MISMATCH"
+  },
+  "required_resolution": "11. sınıf mevcut TYMM tema yapısıyla eşleşen resmî/taslak yıllık plan kaynağı sağlanmalı veya doğrulanmalı."
+}
