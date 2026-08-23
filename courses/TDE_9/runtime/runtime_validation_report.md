@@ -14,8 +14,11 @@
 | canonical ID uniqueness: assessment_artifacts | PASS |  |
 | orphan relations | PASS | 0 |
 | source fingerprint status | PASS | RUNTIME_FRESH |
-| timeline projection status | PASS | block hours remain ORDER_ONLY |
-| assessment mapping status | PASS |  |
+| timeline projection status | PASS | resolved=16, expected=16 |
+| block-hour theme totals | PASS | runtime={'TEMA_01': 43, 'TEMA_02': 43, 'TEMA_03': 43, 'TEMA_04': 43}, expected={'TEMA_01': 43, 'TEMA_02': 43, 'TEMA_03': 43, 'TEMA_04': 43} |
+| block-hour projection parity | PASS | runtime=16, expected=16 |
+| assessment mapping status | PASS | runtime=7, canonical=7 |
+| assessment artifact projection status | PASS | runtime=3, canonical=3 |
 | resource decision projection status | PASS |  |
 | application query A | PASS | rows=1 |
 | application query B | PASS | rows=1 |
@@ -47,3 +50,15 @@
 - `timeline_blocks`: 16
 - `source_references`: 2
 - `entity_source_references`: 4
+
+## Assessment rubric payload projection
+
+| Check | Status | Detail |
+|---|---|---|
+| theme source provenance projection | PASS | runtime=4, expected_at_least=4 |
+| artifact identity projection | PASS | runtime=3, canonical=3 |
+| rubric criteria payload | PASS | runtime=2, canonical=2 |
+| rubric level model payload | PASS | runtime=0, canonical=0 |
+| task binding count | PASS | runtime=7, canonical=7 |
+| task-specific criteria payload | PASS | runtime=0, canonical=0 |
+| payload JSON validity | PASS | all projected JSON columns parse |

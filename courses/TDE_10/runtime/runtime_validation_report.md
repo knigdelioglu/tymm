@@ -14,7 +14,9 @@
 | canonical ID uniqueness: assessment_artifacts | PASS |  |
 | orphan relations | PASS | 0 |
 | source fingerprint status | PASS | RUNTIME_FRESH |
-| timeline projection status | PASS | block hours remain ORDER_ONLY |
+| timeline projection status | PASS | resolved=16, expected=16 |
+| block-hour theme totals | PASS | runtime={'TEMA_01': 43, 'TEMA_02': 43, 'TEMA_03': 43, 'TEMA_04': 43}, expected={'TEMA_01': 43, 'TEMA_02': 43, 'TEMA_03': 43, 'TEMA_04': 43} |
+| block-hour projection parity | PASS | runtime=16, expected=16 |
 | assessment mapping status | PASS | runtime=0, canonical=0 |
 | assessment artifact projection status | PASS | runtime=2, canonical=2 |
 | resource decision projection status | PASS |  |

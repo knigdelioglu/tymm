@@ -1,13 +1,15 @@
 {
-  "runtime_package_version": "1.0.0",
-  "schema_version": "1.0.0",
+  "runtime_package_version": "1.1.0",
+  "schema_version": "1.1.0",
   "course_id": "TDE_9",
   "grade": 9,
-  "build_timestamp": "2026-08-14T18:29:34Z",
-  "compiler_version": "1.0.0",
+  "build_timestamp": "2026-08-23T17:33:51Z",
+  "compiler_version": "1.1.0",
   "canonical_source_files": [
     "curriculum_map.json",
+    "planning/block_hour_bindings.json",
     "planning/course_timeline.json",
+    "planning/official_topic_hour_distribution.json",
     "production/assessment_artifact_registry.json",
     "production/assessment_design_contract.json",
     "production/consolidated_resource_plan.json",
@@ -35,7 +37,9 @@
   ],
   "canonical_source_hashes": {
     "curriculum_map.json": "1386a7efac987b8436ca7ab408a831f96e84fb7a8f66c6c6b3994be528bf3f54",
+    "planning/block_hour_bindings.json": "2b467c4fc8d8a1db15af5b32f0a390d86ce20b588e97de45499919d6e2abe120",
     "planning/course_timeline.json": "98bd64648e92d1827ae5116ee829881f760efa214109b8f590eaf8dac03ac4fd",
+    "planning/official_topic_hour_distribution.json": "0bb85805c4a0e756886a2e55591f9b82d3ecf9b28d9007ed71213f754d6c04a3",
     "production/assessment_artifact_registry.json": "ec9db9b191dc05bf0f8ef03a3bc435351a0d6b1bb752fb36f2d3eb38afebf97f",
     "production/assessment_design_contract.json": "bf252cfddf0d4748835007d436dbc0f8f0ee82cfd49efff1543b2404d0fe6b1e",
     "production/consolidated_resource_plan.json": "e6b85bd04b8d299c77d7767e13085c3b102f227dd7f145d24e3ecc1ece76ad1b",
@@ -61,7 +65,7 @@
     "themes/tema_04/needs.json": "65207b3b390ddc08de31be23ca6624b75edfbd5f445321339c97913ccd5ee094",
     "themes/tema_04/resource_plan.json": "cb9f80b601bcfaaae5447f112f0b62924f349b0c39ec0fe6ea6dd7ccf5555f27"
   },
-  "canonical_content_fingerprint": "741752e07ba854dd222655b31da7066866aee9d4d9d301492f1038c8775025f2",
+  "canonical_content_fingerprint": "60c29c1bbaad6f476a5ca42f0b44d1f1d13cde4ef84829f4f33ca6eebb39eb7f",
   "row_counts": {
     "courses": 1,
     "themes": 4,
@@ -83,15 +87,25 @@
     "source_references": 2,
     "entity_source_references": 4
   },
-  "timeline_resolution": "THEME_TIME_RESOLVED",
+  "timeline_resolution": "BLOCK_TIME_RESOLVED",
   "timeline_unresolved_fields": {
     "weekly_lesson_hours": null,
     "calendar_binding": "UNRESOLVED",
-    "block_hours": "ORDER_ONLY"
+    "block_hours": null
   },
+  "block_hour_binding_status": "BLOCK_TIME_RESOLVED",
+  "block_hour_binding_file": "planning/block_hour_bindings.json",
   "assessment_registry_version": "1.1.0",
   "assessment_contract_version": "1.4.1",
   "source_manifest_fingerprint": "a1aab502569a3fac8d0e40ad375ee0b07399fe64e0ad1ded8f9fa3f04b84fb19",
   "runtime_database_path": "runtime/course_runtime.sqlite",
-  "validation_status": "PASS"
+  "validation_status": "PASS",
+  "assessment_payload_projection_version": "1.0.0",
+  "assessment_payload_capabilities": {
+    "rubric_level_model": true,
+    "rubric_criteria": true,
+    "task_specific_criteria": true,
+    "source_equivalence_status": true,
+    "binding_key_semantics": true
+  }
 }
