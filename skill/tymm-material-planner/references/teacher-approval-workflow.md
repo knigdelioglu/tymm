@@ -7,8 +7,9 @@ Bu akış, Artifact Generation Engine V1'in `generation != approval` ilkesini ko
 - `REVIEW.md` insan-okunur inceleme görünümüdür; lifecycle kaynağı değildir.
 - Öğretmen onayı yalnız açık bir karar sonrasında kaydedilir.
 - Kalıcı onay kaydı `courses/<COURSE_ID>/production/teacher_approvals/<ARTIFACT_ID>.json` altında tutulur.
-- Kayıt `generation_context_hash` ile canonical generation context'e bağlanır.
-- Kaynak/registry/contract değişirse hash değişir ve eski onay otomatik olarak `TEACHER_APPROVAL_CONTEXT_STALE` ile reddedilir.
+- Kayıt hem `generation_context_hash` hem de deterministic pre-approval `artifact_content_hash` ile bağlanır.
+- Kaynak/registry/contract değişirse context hash değişir ve eski onay `TEACHER_APPROVAL_CONTEXT_STALE` ile reddedilir.
+- Context aynı kalsa bile generator çıktısı değişirse artifact hash değişir ve eski onay `TEACHER_APPROVAL_ARTIFACT_CONTENT_STALE` ile reddedilir.
 - Her `teacher_review_required: true` artifact bağımsız onay ister; bir artifact'ın onayı başka artifact'a devredilmez.
 
 ## 1. Konuşma rubriği pilot onayı
@@ -37,7 +38,7 @@ python skill/tymm-material-planner/scripts/teacher_approval.py \
   apply --artifact-id TDE9_KONUSMA_RUBRIC
 ```
 
-`apply`, gerekli draft artifact'ı canonical generator ile yeniden oluşturur; kayıt güncel context hash ile eşleşiyorsa mevcut `approve_artifact` fonksiyonunu kullanarak lifecycle'ı `APPROVED` yapar.
+`apply`, canonical draft'ı yeniden oluşturur. Persist edilen context hash ve artifact content hash mevcut deterministic çıktı ile birebir eşleşirse `approve_artifact` üzerinden lifecycle `APPROVED` yapılır.
 
 ## 2. Yazma rubriğini üretme ve ayrı onaylama
 
@@ -60,14 +61,7 @@ python skill/tymm-material-planner/scripts/teacher_approval.py \
   --note "Yıllık yazma rubriği incelendi ve onaylandı."
 ```
 
-Ardından kayıt uygulanabilir:
-
-```bash
-python skill/tymm-material-planner/scripts/teacher_approval.py \
-  apply --artifact-id TDE9_YAZMA_RUBRIC
-```
-
-Temiz checkout'ta iki gate'i denetlemek/uygulamak için:
+Temiz checkout'ta yazma rubriği approval kaydını uygulamadan önce pilot approval da checkout'a uygulanmış olmalıdır. Tercih edilen yol iki gate'i tek akışta yöneten resume helper'dır:
 
 ```bash
 python skill/tymm-material-planner/scripts/resume_after_teacher_approval.py preflight
@@ -87,6 +81,7 @@ python skill/tymm-material-planner/scripts/resume_after_teacher_approval.py run
 2. Reviewer alanı boş bırakılamaz.
 3. Approval record elle başka artifact kimliğine taşınamaz.
 4. Context hash değişmiş approval record yeniden kullanılamaz.
-5. `REVIEW.md` veya lesson-plan metadata üzerinde yalnız metinsel `APPROVED` yazmak lifecycle onayı sayılmaz.
-6. Üretim sırası gate'i kaldırılmaz; onay kaydı gate'i kanıtlı ve yeniden üretilebilir biçimde açmak için kullanılır.
-7. `TDE9_KONUSMA_RUBRIC` onayı yalnız yazma rubriğinin üretilmesini açar; `TDE9_YAZMA_RUBRIC` ayrıca açık öğretmen onayı gerektirir.
+5. Exact deterministic artifact içeriği değişmiş approval record, context aynı olsa bile yeniden kullanılamaz.
+6. `REVIEW.md` veya lesson-plan metadata üzerinde yalnız metinsel `APPROVED` yazmak lifecycle onayı sayılmaz.
+7. Üretim sırası gate'i kaldırılmaz; onay kaydı gate'i kanıtlı ve yeniden üretilebilir biçimde açmak için kullanılır.
+8. `TDE9_KONUSMA_RUBRIC` onayı yalnız yazma rubriğinin üretilmesini açar; `TDE9_YAZMA_RUBRIC` ayrıca açık öğretmen onayı gerektirir.
