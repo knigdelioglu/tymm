@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "TDE_10",
+  "grade": 10,
+  "status": "BLOCK_TIME_RESOLVED",
+  "source": {
+    "topic_hour_distribution": "planning/official_topic_hour_distribution.json",
+    "annual_plan": "docs/Anadolu Liseleri Türk Dili ve Edebiyatı Dersi Taslak Yıllık Plan.xlsx",
+    "worksheet": "10.SINIF TDE"
+  },
+  "semantics": {
+    "calendar_neutral": true,
+    "normative_instruction_hours_per_theme": 43,
+    "domain_hour_template": {
+      "OKUMA": 15,
+      "DINLEME_IZLEME": 8,
+      "YAZMA": 10,
+      "KONUSMA": 10
+    },
+    "compound_notation_rule": "Aynı satırda iki alanla birlikte verilen 3+2 gösterimi, alanların ve aynı satırdaki öğrenme çıktılarının soldan sağa sırasına göre 3 saat ilk alana, 2 saat ikinci alana bağlanır.",
+    "final_theme_normalization_rule": "4. tema kaynak satır toplamı 46 saattir. Bu değer, öğretim programındaki 43 saatlik normatif tema süresini aştığı ve yıl sonu haftalık yerleşimine bağlı olduğu için kalıcı konu süresi olarak kullanılmaz. İlk üç temada açıkça doğrulanan 15+8+10+10 alan dağılımı 4. temaya da uygulanır.",
+    "calendar_fields_used": false
+  },
+  "themes": [
+    {
+      "theme_id": "TEMA_01",
+      "normative_total_hours": 43,
+      "bindings": [
+        {"block_id":"BLOCK_T1_01_OKUMA","domain":"OKUMA","planned_hours":15,"source_rows":[4,5,6],"resolution":"DIRECT"},
+        {"block_id":"BLOCK_T1_02_KONUSMA","domain":"KONUSMA","planned_hours":10,"source_rows":[7,8],"resolution":"DIRECT"},
+        {"block_id":"BLOCK_T1_03_DINLEME","domain":"DINLEME_IZLEME","planned_hours":8,"source_rows":[9,10],"resolution":"DIRECT_PLUS_COMPOUND_FIRST_COMPONENT"},
+        {"block_id":"BLOCK_T1_04_YAZMA","domain":"YAZMA","planned_hours":10,"source_rows":[10,11,12],"resolution":"COMPOUND_SECOND_COMPONENT_PLUS_DIRECT"}
+      ]
+    },
+    {
+      "theme_id": "TEMA_02",
+      "normative_total_hours": 43,
+      "bindings": [
+        {"block_id":"BLOCK_T2_01_OKUMA","domain":"OKUMA","planned_hours":15,"source_rows":[15,16,17],"resolution":"DIRECT"},
+        {"block_id":"BLOCK_T2_02_YAZMA","domain":"YAZMA","planned_hours":10,"source_rows":[18,19],"resolution":"DIRECT"},
+        {"block_id":"BLOCK_T2_03_DINLEME","domain":"DINLEME_IZLEME","planned_hours":8,"source_rows":[20,21],"resolution":"DIRECT_PLUS_COMPOUND_FIRST_COMPONENT"},
+        {"block_id":"BLOCK_T2_04_KONUSMA","domain":"KONUSMA","planned_hours":10,"source_rows":[21,22,23],"resolution":"COMPOUND_SECOND_COMPONENT_PLUS_DIRECT"}
+      ]
+    },
+    {
+      "theme_id": "TEMA_03",
+      "normative_total_hours": 43,
+      "bindings": [
+        {"block_id":"BLOCK_T3_01_OKUMA","domain":"OKUMA","planned_hours":15,"source_rows":[26,27,28],"resolution":"DIRECT"},
+        {"block_id":"BLOCK_T3_02_KONUSMA","domain":"KONUSMA","planned_hours":10,"source_rows":[29,30],"resolution":"DIRECT"},
+        {"block_id":"BLOCK_T3_03_DINLEME","domain":"DINLEME_IZLEME","planned_hours":8,"source_rows":[31,34],"resolution":"DIRECT"},
+        {"block_id":"BLOCK_T3_04_YAZMA","domain":"YAZMA","planned_hours":10,"source_rows":[35,36],"resolution":"DIRECT"}
+      ]
+    },
+    {
+      "theme_id": "TEMA_04",
+      "normative_total_hours": 43,
+      "source_planning_weight_total": 46,
+      "normalization_status": "CALENDAR_RESIDUAL_REMOVED",
+      "bindings": [
+        {"block_id":"BLOCK_T4_01_OKUMA","domain":"OKUMA","planned_hours":15,"source_rows":[37,38,39],"resolution":"DIRECT_STABLE_TEMPLATE"},
+        {"block_id":"BLOCK_T4_02_KONUSMA","domain":"KONUSMA","planned_hours":10,"source_rows":[40,41],"resolution":"DIRECT_STABLE_TEMPLATE"},
+        {"block_id":"BLOCK_T4_03_DINLEME","domain":"DINLEME_IZLEME","planned_hours":8,"source_rows":[42,43,44],"source_planning_weight_hours":11,"resolution":"NORMALIZED_TO_STABLE_DOMAIN_TEMPLATE"},
+        {"block_id":"BLOCK_T4_04_YAZMA","domain":"YAZMA","planned_hours":10,"source_rows":[44,45,46],"resolution":"DIRECT_STABLE_TEMPLATE"}
+      ]
+    }
+  ],
+  "validation": {
+    "expected_block_count": 16,
+    "resolved_block_count": 16,
+    "expected_theme_total_hours": 43,
+    "all_theme_totals_match": true,
+    "annual_instruction_hours": 172,
+    "calendar_binding_created": false
+  }
+}
