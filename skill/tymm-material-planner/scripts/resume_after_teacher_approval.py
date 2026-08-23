@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
-"""Resume blocked TDE9 production after explicit teacher approval.
+"""Resume blocked TDE9 production through explicit teacher approval gates.
 
-This helper never creates or infers teacher approval. It consumes only a current,
-tracked approval record created by teacher_approval.py. When the pilot approval is
-current, it recreates/applies the approved pilot artifact in the checkout, opens the
-Generator V1 order gate, generates the annual writing rubric as REVIEW_REQUIRED,
-and validates that draft so lesson-plan production can continue to T2 Writing P05.
+The pipeline has two independent human-review gates:
+1) TDE9_KONUSMA_RUBRIC must have a current explicit teacher approval before the
+   Generator V1 order gate may create TDE9_YAZMA_RUBRIC.
+2) TDE9_YAZMA_RUBRIC itself is teacher-review-required. Generating and validating
+   its draft never makes T2 Writing P05 executable. P05 becomes ready only after a
+   current explicit approval record for the writing rubric is also present.
+
+No approval is inferred from lesson-production commands.
 """
 from __future__ import annotations
 
@@ -17,9 +20,10 @@ from typing import Any, Dict
 
 from artifact_generation import (
     ArtifactGenerationError,
+    LIFECYCLE_APPROVED,
+    LIFECYCLE_FROZEN,
     LIFECYCLE_REVIEW,
     PILOT_ARTIFACT_ID,
-    build_generation_context,
     generate_to_directory,
     validate_generated_artifact,
 )
@@ -42,11 +46,11 @@ def _read_json(path: Path) -> Dict[str, Any]:
     return data
 
 
-def require_current_approval(state: Dict[str, Any]) -> None:
+def require_current_approval(state: Dict[str, Any], artifact_id: str) -> None:
     if state.get("approval_record") != "CURRENT":
         reason = state.get("error") or state.get("approval_record") or "UNKNOWN"
         raise ArtifactGenerationError(
-            f"EXPLICIT_TEACHER_APPROVAL_REQUIRED: {PILOT_ARTIFACT_ID} ({reason})"
+            f"EXPLICIT_TEACHER_APPROVAL_REQUIRED: {artifact_id} ({reason})"
         )
 
 
@@ -68,31 +72,76 @@ def check_lesson_cursor(course_root: Path) -> Dict[str, Any]:
 
 def preflight(course_root: Path) -> Dict[str, Any]:
     cursor = check_lesson_cursor(course_root)
-    approval = approval_status(course_root, PILOT_ARTIFACT_ID)
+    pilot_approval = approval_status(course_root, PILOT_ARTIFACT_ID)
+    writing_approval = approval_status(course_root, WRITING_RUBRIC_ID)
+
+    pilot_current = pilot_approval.get("approval_record") == "CURRENT"
+    writing_current = writing_approval.get("approval_record") == "CURRENT"
+
+    if not pilot_current:
+        stage = "AWAITING_SPEAKING_RUBRIC_APPROVAL"
+    elif not writing_current:
+        stage = "READY_TO_GENERATE_OR_REVIEW_WRITING_RUBRIC"
+    else:
+        stage = "READY_TO_APPLY_WRITING_RUBRIC_APPROVAL"
+
     return {
         "pipeline": "TDE9_POST_TEACHER_APPROVAL_RESUME",
         "lesson_cursor": cursor,
-        "pilot_approval": approval,
-        "ready": approval.get("approval_record") == "CURRENT",
-        "next_artifact_when_ready": WRITING_RUBRIC_ID,
+        "pilot_approval": pilot_approval,
+        "writing_rubric_approval": writing_approval,
+        "stage": stage,
+        "ready_for_p05": pilot_current and writing_current,
     }
 
 
 def run(course_root: Path, output_root: Path) -> Dict[str, Any]:
     state = preflight(course_root)
-    require_current_approval(state["pilot_approval"])
+    require_current_approval(state["pilot_approval"], PILOT_ARTIFACT_ID)
 
     pilot = apply_record(course_root, output_root, PILOT_ARTIFACT_ID)
+    if pilot.get("lifecycle_status") not in {LIFECYCLE_APPROVED, LIFECYCLE_FROZEN}:
+        raise ArtifactGenerationError("PILOT_APPROVAL_APPLICATION_FAILED")
 
     context, writing_rubric, changed = generate_to_directory(
         course_root, WRITING_RUBRIC_ID, output_root, enforce_order=True
     )
     validate_generated_artifact(writing_rubric, context)
 
-    if writing_rubric.get("lifecycle_status") != LIFECYCLE_REVIEW:
-        raise ArtifactGenerationError(
-            f"WRITING_RUBRIC_UNEXPECTED_LIFECYCLE: {writing_rubric.get('lifecycle_status')}"
-        )
+    writing_approval = approval_status(course_root, WRITING_RUBRIC_ID)
+    if writing_approval.get("approval_record") != "CURRENT":
+        if writing_rubric.get("lifecycle_status") != LIFECYCLE_REVIEW:
+            raise ArtifactGenerationError(
+                f"WRITING_RUBRIC_UNEXPECTED_LIFECYCLE: {writing_rubric.get('lifecycle_status')}"
+            )
+        return {
+            "pipeline": "TDE9_POST_TEACHER_APPROVAL_RESUME",
+            "status": "AWAITING_WRITING_RUBRIC_TEACHER_APPROVAL",
+            "lesson_cursor": state["lesson_cursor"],
+            "pilot_artifact": {
+                "artifact_id": PILOT_ARTIFACT_ID,
+                "lifecycle_status": pilot.get("lifecycle_status"),
+                "teacher_review_status": pilot.get("teacher_review_status"),
+            },
+            "writing_rubric": {
+                "artifact_id": WRITING_RUBRIC_ID,
+                "changed": changed,
+                "revision": writing_rubric.get("artifact_revision"),
+                "generation_context_hash": context.get("context_hash"),
+                "lifecycle_status": writing_rubric.get("lifecycle_status"),
+                "validation": "PASS",
+                "output_dir": str(output_root / WRITING_RUBRIC_ID),
+            },
+            "ready_for_p05": False,
+            "important_note": (
+                "Writing-rubric generation/validation is not teacher approval. "
+                "T2 Writing P05 remains blocked until a current explicit approval record exists."
+            ),
+        }
+
+    approved_writing = apply_record(course_root, output_root, WRITING_RUBRIC_ID)
+    if approved_writing.get("lifecycle_status") not in {LIFECYCLE_APPROVED, LIFECYCLE_FROZEN}:
+        raise ArtifactGenerationError("WRITING_RUBRIC_APPROVAL_APPLICATION_FAILED")
 
     return {
         "pipeline": "TDE9_POST_TEACHER_APPROVAL_RESUME",
@@ -101,26 +150,19 @@ def run(course_root: Path, output_root: Path) -> Dict[str, Any]:
         "pilot_artifact": {
             "artifact_id": PILOT_ARTIFACT_ID,
             "lifecycle_status": pilot.get("lifecycle_status"),
-            "teacher_review_status": pilot.get("teacher_review_status"),
         },
         "writing_rubric": {
             "artifact_id": WRITING_RUBRIC_ID,
-            "changed": changed,
-            "revision": writing_rubric.get("artifact_revision"),
-            "generation_context_hash": context.get("context_hash"),
-            "lifecycle_status": writing_rubric.get("lifecycle_status"),
+            "lifecycle_status": approved_writing.get("lifecycle_status"),
+            "teacher_review_status": approved_writing.get("teacher_review_status"),
             "validation": "PASS",
-            "output_dir": str(output_root / WRITING_RUBRIC_ID),
         },
-        "important_note": (
-            "TDE9_YAZMA_RUBRIC generation/validation does not equal teacher approval; "
-            "its lifecycle remains REVIEW_REQUIRED until separately reviewed."
-        ),
+        "ready_for_p05": True,
     }
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Resume TDE9 production after explicit pilot teacher approval")
+    parser = argparse.ArgumentParser(description="Resume TDE9 production through explicit teacher approval gates")
     parser.add_argument("--course-root")
     parser.add_argument("--output-root")
     sub = parser.add_subparsers(dest="command", required=True)
@@ -134,7 +176,9 @@ def main() -> int:
     try:
         result = preflight(course_root) if args.command == "preflight" else run(course_root, output_root)
         print(json.dumps(result, ensure_ascii=False, indent=2))
-        if args.command == "preflight" and not result.get("ready"):
+        if args.command == "preflight" and not result.get("ready_for_p05"):
+            return 2
+        if args.command == "run" and not result.get("ready_for_p05"):
             return 2
         return 0
     except ArtifactGenerationError as exc:
