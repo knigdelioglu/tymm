@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "TDE_10",
+  "grade": 10,
+  "artifact_type": "CALENDAR_NEUTRAL_TOPIC_HOUR_DISTRIBUTION",
+  "status": "READY",
+  "source": {
+    "path": "docs/Anadolu Liseleri Türk Dili ve Edebiyatı Dersi Taslak Yıllık Plan.xlsx",
+    "worksheet": "10.SINIF TDE",
+    "source_academic_year": "2025-2026",
+    "file_sha256": "9bb765967383912f58298cc5f8a8656ea97c31cf2468f92932ceff85a18b7c13",
+    "git_blob_sha": "732b4b75d2403afd2393872c0a509e141612b961",
+    "authority_semantics": "MEB_DRAFT_ANNUAL_PLAN_PLANNING_GUIDANCE"
+  },
+  "calendar_exclusion_policy": {
+    "calendar_fields_ingested": false,
+    "excluded": ["ay", "hafta/tarih aralığı", "ara tatil", "yarıyıl tatili", "belirli gün ve haftalar", "resmî tatil yerleşimi"],
+    "retained": ["source row order", "tema", "konu/içerik çerçevesi", "ders saati"],
+    "calendar_binding_allowed_from_this_artifact": false
+  },
+  "time_semantics": {
+    "normative_curriculum_source": "curriculum_map.json",
+    "normative_instruction_hours_per_theme": 43,
+    "normative_school_based_planning_hours_per_theme": 2,
+    "normative_annual_instruction_hours": 172,
+    "normative_annual_school_based_planning_hours": 8,
+    "normative_annual_total_hours": 180,
+    "annual_plan_hours_role": "FINE_GRAINED_PLANNING_WEIGHT",
+    "conflict_rule": "Yıllık plan satır saatleri tema toplamında 43 ile çelişirse öğretim programındaki 43 saat üstündür; yıllık plan değerleri yalnız konu dağılım ağırlığı olarak normalize edilir.",
+    "compound_hour_rule": "3+2 gibi gösterimler toplam ağırlık olarak korunur; 3 ve 2'nin birden fazla konu/alan arasındaki semantik bağlamı otomatik çıkarılmaz."
+  },
+  "themes": [
+    {
+      "theme_id": "TEMA_01",
+      "theme_title": "1. TEMA SÖZÜN EZGİSİ",
+      "normative_instruction_hours": 43,
+      "source_planning_weight_total": 43,
+      "school_based_planning_hours": 2,
+      "school_based_source_rows": [13],
+      "topic_allocations": [
+        {"order": 1, "topic": "OKUMA\n• Tema içeriğine uygun\nbir koşuk\n• Ara Metin: Tema\niçeriğine uygun bir\nkoşma\n• Tema içeriğine uygun\nbir türkü\n• Ara Metin: Tema\niçeriğine uygun bir\nninni", "domains": ["OKUMA"], "source_planning_weight_hours": 15, "source_rows": [4,5,6], "source_hour_notations": ["5","5","5"]},
+        {"order": 2, "topic": "KONUŞMA • Bir şiir dinletisi\nhazırlayıp sunabilme", "domains": ["KONUSMA"], "source_planning_weight_hours": 10, "source_rows": [7,8], "source_hour_notations": ["5","5"]},
+        {"order": 3, "topic": "DİNLEME/İZLEME\n• Tema içeriğine uygun\nçok modlu metin\n(Masal)", "domains": ["DINLEME_IZLEME"], "source_planning_weight_hours": 5, "source_rows": [9], "source_hour_notations": ["5"]},
+        {"order": 4, "topic": "DİNLEME/İZLEME YAZMA\n• Tema içeriğine uygun\nçok modlu metin\n(Masal) • Dinlediği masalı\nfilm şeridi hâline\ngetirebilme", "domains": ["DINLEME_IZLEME","YAZMA"], "source_planning_weight_hours": 5, "source_rows": [10], "source_hour_notations": ["3+2"], "compound_hour_components": [3,2], "compound_component_binding": "NOT_INFERRED"},
+        {"order": 5, "topic": "YAZMA • Dinlediği masalı\nfilm şeridi hâline\ngetirebilme", "domains": ["YAZMA"], "source_planning_weight_hours": 8, "source_rows": [11,12], "source_hour_notations": ["5","3"]}
+      ],
+      "reconciliation_status": "EXACT"
+    },
+    {
+      "theme_id": "TEMA_02",
+      "theme_title": "2. TEMA KELİMELERİN RİTMİ",
+      "normative_instruction_hours": 43,
+      "source_planning_weight_total": 43,
+      "school_based_planning_hours": 2,
+      "school_based_source_rows": [24],
+      "topic_allocations": [
+        {"order": 1, "topic": "OKUMA • Tema içeriğine\nuygun bir gazel\n• Ara Metin: Tema\niçeriğine uygun bir\nkaside\n• Tema içeriğine\nuygun bir şiir (Saf\nşiir)", "domains": ["OKUMA"], "source_planning_weight_hours": 15, "source_rows": [15,16,17], "source_hour_notations": ["5","5","5"]},
+        {"order": 2, "topic": "YAZMA\n• Bilgilendirici bir\nmetni edebî metne\ndönüştürebilme", "domains": ["YAZMA"], "source_planning_weight_hours": 10, "source_rows": [18,19], "source_hour_notations": ["5","5"]},
+        {"order": 3, "topic": "DİNLEME/İZLEME • Tema içeriğine\nuygun çok modlu\nmetin (Söyleşi)", "domains": ["DINLEME_IZLEME"], "source_planning_weight_hours": 5, "source_rows": [20], "source_hour_notations": ["5"]},
+        {"order": 4, "topic": "DİNLEME/İZLEME KONUŞMA\n• Tema içeriğine\nuygun çok modlu\nmetin (Söyleşi)\n• İz bırakmış şahsiyetlerin\nedebî yönünü\ntanıttığı bir podcast\nhazırlayabilme", "domains": ["DINLEME_IZLEME","KONUSMA"], "source_planning_weight_hours": 5, "source_rows": [21], "source_hour_notations": ["3+2"], "compound_hour_components": [3,2], "compound_component_binding": "NOT_INFERRED"},
+        {"order": 5, "topic": "KONUŞMA\n• İz bırakmış şahsiyetlerin\nedebî yönünü\ntanıttığı bir podcast\nhazırlayabilme", "domains": ["KONUSMA"], "source_planning_weight_hours": 5, "source_rows": [22], "source_hour_notations": ["5"]},
+        {"order": 6, "topic": "KONUŞMA • İz bırakmış şahsiyetlerin\nedebî yönünü\ntanıttığı bir podcast\nhazırlayabilme", "domains": ["KONUSMA"], "source_planning_weight_hours": 3, "source_rows": [23], "source_hour_notations": ["3"]}
+      ],
+      "reconciliation_status": "EXACT"
+    },
+    {
+      "theme_id": "TEMA_03",
+      "theme_title": "3. TEMA DÜNDEN BUGÜNE",
+      "normative_instruction_hours": 43,
+      "source_planning_weight_total": 43,
+      "school_based_planning_hours": 2,
+      "school_based_source_rows": [32],
+      "topic_allocations": [
+        {"order": 1, "topic": "OKUMA\n• Tema içeriğine\nuygun bir destan\n• Ara Metin: Tema\niçeriğine uygun bir\nhalk hikâyesi\n• Tema içeriğine\nuygun bir mesnevi", "domains": ["OKUMA"], "source_planning_weight_hours": 15, "source_rows": [26,27,28], "source_hour_notations": ["5","5","5"]},
+        {"order": 2, "topic": "KONUŞMA\n• Türk destanlarıyla\nilgili bir sunum\nyapabilme", "domains": ["KONUSMA"], "source_planning_weight_hours": 10, "source_rows": [29,30], "source_hour_notations": ["5","5"]},
+        {"order": 3, "topic": "DİNLEME/İZLEME\n• Tema içeriğine\nuygun çok modlu\nmetin (Fabl)", "domains": ["DINLEME_IZLEME"], "source_planning_weight_hours": 8, "source_rows": [31,34], "source_hour_notations": ["3","5"]},
+        {"order": 4, "topic": "YAZMA\n• Temaya uygun bir\nfabl yazabilme", "domains": ["YAZMA"], "source_planning_weight_hours": 10, "source_rows": [35,36], "source_hour_notations": ["5","5"]}
+      ],
+      "reconciliation_status": "EXACT"
+    },
+    {
+      "theme_id": "TEMA_04",
+      "theme_title": "4. TEMA NESİLLERİN MİRASI",
+      "normative_instruction_hours": 43,
+      "source_planning_weight_total": 46,
+      "school_based_planning_hours": 2,
+      "school_based_source_rows": [47],
+      "topic_allocations": [
+        {"order": 1, "topic": "OKUMA\n• Dede Korkut hikâyeleri\n• Tema içeriğine uygun\nbir şiir (Tanzimat Dönemi’nden)\n• Ara Metin: Tema içeriğine uygun bir roman (Servetifünun Dönemi’nden)\n• Ara Metin: Tema içeriğine uygun bir şiir (Fecriati Dönemi’nden)", "domains": ["OKUMA"], "source_planning_weight_hours": 15, "source_rows": [37,38,39], "source_hour_notations": ["5","5","5"]},
+        {"order": 2, "topic": "KONUŞMA\n• Dede Korkut hikâyelerinden birini seçip canlandırabilme", "domains": ["KONUSMA"], "source_planning_weight_hours": 10, "source_rows": [40,41], "source_hour_notations": ["5","5"]},
+        {"order": 3, "topic": "DİNLEME/İZLEME\n• Tema içeriğine uygun çok modlu metin (Hikâye-Millî Edebiyat Dönemi’nden)", "domains": ["DINLEME_IZLEME"], "source_planning_weight_hours": 8, "source_rows": [42,43], "source_hour_notations": ["5","3"]},
+        {"order": 4, "topic": "DİNLEME/İZLEME YAZMA\n• Tema içeriğine uygun çok modlu metin (Hikâye-Millî Edebiyat Dönemi’nden)\n• Dinlediği hikâyeyi şiir hâline getirebilme", "domains": ["DINLEME_IZLEME","YAZMA"], "source_planning_weight_hours": 5, "source_rows": [44], "source_hour_notations": ["3+2"], "compound_hour_components": [3,2], "compound_component_binding": "NOT_INFERRED"},
+        {"order": 5, "topic": "YAZMA\n• Dinlediği hikâyeyi şiir hâline getirebilme", "domains": ["YAZMA"], "source_planning_weight_hours": 8, "source_rows": [45,46], "source_hour_notations": ["5","3"]}
+      ],
+      "reconciliation_status": "NORMALIZE_WEIGHTS_TO_43"
+    }
+  ]
+}
