@@ -57,7 +57,18 @@ def resolve(root: Path) -> dict[str, Any]:
         if expected is not None and actual != expected:
             raise ValueError(f"THEME_HOUR_TOTAL_MISMATCH: {tid} {actual} != {expected}")
 
-    timeline["timeline_version"] = "1.1.0"
+    instructional_total = bindings_doc.get("validation", {}).get("annual_instruction_hours")
+    if instructional_total is None:
+        instructional_total = sum(int(x.get("normative_total_hours") or 0) for x in bindings_doc.get("themes", []))
+    school_based_values = [x.get("school_based_planning_hours") for x in bindings_doc.get("themes", [])]
+    if not all(isinstance(x, int) and not isinstance(x, bool) and x >= 0 for x in school_based_values):
+        raise ValueError("INVALID_SCHOOL_BASED_HOUR_DISTRIBUTION")
+    school_based_total = sum(school_based_values)
+    school_based_unique = set(school_based_values)
+    school_based_per_theme = next(iter(school_based_unique)) if len(school_based_unique) == 1 else None
+    annual_total = instructional_total + school_based_total
+
+    timeline["timeline_version"] = "1.1.1"
     timeline["timeline_resolution"] = "BLOCK_TIME_RESOLVED"
     semantics = timeline.setdefault("timeline_semantics", {})
     semantics["calendar_neutral_topic_hour_distribution"] = True
@@ -74,6 +85,36 @@ def resolve(root: Path) -> dict[str, Any]:
     source_basis["calendar_source"] = None
     source_basis["provenance_status"] = "PASS_CALENDAR_NEUTRAL_BLOCK_TIME_RESOLVED"
     audit = source_basis.setdefault("temporal_fact_audit", {})
+    audit["annual_instructional_hours"] = {
+        "value": instructional_total,
+        "source": "curriculum_map.json + planning/block_hour_bindings.json",
+        "source_locator": "43 saat x 4 tema",
+        "status": "EXPLICIT_OFFICIAL_AND_RECONCILED",
+    }
+    audit["annual_school_based_hours"] = {
+        "value": school_based_total,
+        "source": "planning/official_topic_hour_distribution.json",
+        "source_locator": "Her temadaki okul temelli planlama satırları; takvim alanları hariç",
+        "status": "OFFICIAL_DRAFT_ANNUAL_PLAN_PLANNING_GUIDANCE",
+    }
+    audit["annual_total_hours"] = {
+        "value": annual_total,
+        "source": "curriculum_map.json + planning/official_topic_hour_distribution.json",
+        "source_locator": f"{instructional_total}+{school_based_total}",
+        "status": "DETERMINISTIC_RECONCILIATION",
+    }
+    audit["school_based_hours_per_theme"] = {
+        "value": school_based_per_theme,
+        "source": "planning/official_topic_hour_distribution.json",
+        "source_locator": "Tema bazlı okul temelli planlama satırları",
+        "status": "OFFICIAL_DRAFT_ANNUAL_PLAN_PLANNING_GUIDANCE" if school_based_per_theme is not None else "UNRESOLVED",
+    }
+    if school_based_per_theme is not None:
+        audit["outer_theme_total_hours"] = {
+            "value": 43 + school_based_per_theme,
+            "source": "curriculum_map.json + planning/official_topic_hour_distribution.json",
+            "status": "DETERMINISTIC_RECONCILIATION",
+        }
     audit["block_specific_official_hours"] = {
         "value": {bid: binding["planned_hours"] for bid, binding in sorted(binding_by_id.items())},
         "source": "planning/block_hour_bindings.json",
@@ -95,6 +136,18 @@ def resolve(root: Path) -> dict[str, Any]:
         "note": "Ara tatil, yarıyıl, resmî tatil ve tarih aralıkları bilinçli olarak dışarıda tutulur.",
     }
 
+    timeline["annual_hours"] = {
+        "core_instruction_hours": instructional_total,
+        "school_based_hours": school_based_total,
+        "official_total_hours": annual_total,
+        "time_status": "CALENDAR_NEUTRAL_RECONCILED",
+        "source_locators": [
+            "curriculum_map.json",
+            "planning/official_topic_hour_distribution.json",
+            "planning/block_hour_bindings.json",
+        ],
+    }
+
     seen: set[str] = set()
     for theme in timeline.get("themes", []):
         tid = theme.get("theme_id")
@@ -102,13 +155,13 @@ def resolve(root: Path) -> dict[str, Any]:
         if source_theme is None:
             raise ValueError(f"TIMELINE_THEME_WITHOUT_BINDINGS: {tid}")
         expected_total = source_theme.get("normative_total_hours")
+        school_based = source_theme.get("school_based_planning_hours")
         theme["official_total_hours"] = expected_total
         theme["core_instruction_hours"] = expected_total
         theme["block_resolution_status"] = "BLOCK_TIME_RESOLVED"
-        if source_theme.get("school_based_planning_hours") is not None:
-            theme["school_based_hours"] = source_theme.get("school_based_planning_hours")
-            theme["school_based_hours_status"] = "OFFICIAL_DRAFT_ANNUAL_PLAN_PLANNING_GUIDANCE"
-            theme["outer_total_hours"] = expected_total + source_theme.get("school_based_planning_hours")
+        theme["school_based_hours"] = school_based
+        theme["school_based_hours_status"] = "OFFICIAL_DRAFT_ANNUAL_PLAN_PLANNING_GUIDANCE"
+        theme["outer_total_hours"] = expected_total + school_based
         locators = list(theme.get("source_locators", []))
         for locator in [
             f"planning/block_hour_bindings.json#{tid}",
@@ -168,6 +221,9 @@ def resolve(root: Path) -> dict[str, Any]:
             theme.get("theme_id"): sum(block.get("planned_hours", 0) for block in theme.get("blocks", []))
             for theme in timeline.get("themes", [])
         },
+        "annual_instructional_hours": instructional_total,
+        "annual_school_based_hours": school_based_total,
+        "annual_total_hours": annual_total,
         "calendar_binding": calendar.get("status"),
     }
 
