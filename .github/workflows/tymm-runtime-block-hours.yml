@@ -8,6 +8,7 @@ on:
       - '.github/workflows/tymm-runtime-block-hours.yml'
       - 'skill/tymm-material-planner/scripts/build_runtime_course_package.py'
       - 'skill/tymm-material-planner/scripts/runtime_assessment_payload.py'
+      - 'skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py'
       - 'skill/tymm-material-planner/tests/test_runtime_course_package.py'
       - 'skill/tymm-material-planner/tests/test_runtime_block_hours_tde10.py'
       - 'courses/TDE_9/planning/**'
@@ -35,6 +36,11 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+
+      - name: Resolve calendar-neutral course timelines
+        run: |
+          python skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py --knowledge-root courses/TDE_9
+          python skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py --knowledge-root courses/TDE_10
 
       - name: Run block-hour runtime regressions
         run: |
@@ -69,6 +75,12 @@ jobs:
 
           for course, probe in expected.items():
               root = Path('courses') / course
+              timeline = json.loads((root / 'planning/course_timeline.json').read_text(encoding='utf-8'))
+              assert timeline['timeline_resolution'] == 'BLOCK_TIME_RESOLVED', (course, timeline['timeline_resolution'])
+              assert timeline['calendar_binding']['status'] == 'UNRESOLVED', course
+              assert timeline['calendar_binding']['calendar_specific_fields_ingested'] is False, course
+              assert {t['theme_id']:sum(b['planned_hours'] for b in t['blocks']) for t in timeline['themes']} == {'TEMA_01':43,'TEMA_02':43,'TEMA_03':43,'TEMA_04':43}, course
+
               manifest = json.loads((root / 'runtime/runtime_manifest.json').read_text(encoding='utf-8'))
               assert manifest['validation_status'] == 'PASS', (course, manifest['validation_status'])
               assert manifest['timeline_resolution'] == 'BLOCK_TIME_RESOLVED', (course, manifest['timeline_resolution'])
@@ -87,17 +99,17 @@ jobs:
                       assert values[block_id] == hours, (course, block_id, values[block_id], hours)
               finally:
                   db.close()
-              print(f'{course} block-hour runtime projection: PASS')
+              print(f'{course} calendar-neutral timeline/runtime projection: PASS')
           PY
 
-      - name: Publish derived runtime packages
+      - name: Publish derived timelines and runtime packages
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add courses/TDE_9/runtime courses/TDE_10/runtime
+          git add courses/TDE_9/planning/course_timeline.json courses/TDE_10/planning/course_timeline.json courses/TDE_9/runtime courses/TDE_10/runtime
           if git diff --cached --quiet; then
-            echo 'No runtime output changes.'
+            echo 'No timeline/runtime output changes.'
             exit 0
           fi
           git commit -m 'feat(runtime): publish calendar-neutral block-hour projections'
