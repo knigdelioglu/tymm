@@ -6,6 +6,7 @@ import sys
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 SCRIPTS_DIR = Path(__file__).resolve().parents[1] / "scripts"
 sys.path.insert(0, str(SCRIPTS_DIR))
@@ -37,25 +38,26 @@ class TeacherApprovalRecordTests(unittest.TestCase):
         with self.assertRaises(ArtifactGenerationError):
             build_record(COURSE_ROOT, PILOT_ARTIFACT_ID, "   ")
 
-    def test_04_stale_context_hash_is_rejected(self):
+    def test_04_stale_context_hash_is_rejected_without_touching_repo_state(self):
         with tempfile.TemporaryDirectory() as td:
-            # Use the real course root for canonical context but temporarily place
-            # a stale record at the canonical approval path, then restore state.
-            target = approval_path(COURSE_ROOT, PILOT_ARTIFACT_ID)
+            root = Path(td)
+            target = approval_path(root, PILOT_ARTIFACT_ID)
             target.parent.mkdir(parents=True, exist_ok=True)
-            original = target.read_text(encoding="utf-8") if target.exists() else None
-            try:
-                record = build_record(COURSE_ROOT, PILOT_ARTIFACT_ID, "Test Teacher")
-                record["generation_context_hash"] = "0" * 64
-                target.write_text(json.dumps(record, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            target.write_text(json.dumps({
+                "schema_version": "1.0",
+                "artifact_id": PILOT_ARTIFACT_ID,
+                "generation_context_hash": "0" * 64,
+                "approved": True,
+                "reviewer": "Test Teacher",
+                "review_note": None,
+                "approval_kind": "EXPLICIT_TEACHER_APPROVAL",
+                "reproducibility_rule": "test",
+            }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+            with patch("teacher_approval.build_generation_context", return_value={"context_hash": "1" * 64}):
                 with self.assertRaises(ArtifactGenerationError) as ctx:
-                    validate_record(COURSE_ROOT, PILOT_ARTIFACT_ID)
-                self.assertIn("TEACHER_APPROVAL_CONTEXT_STALE", str(ctx.exception))
-            finally:
-                if original is None:
-                    target.unlink(missing_ok=True)
-                else:
-                    target.write_text(original, encoding="utf-8")
+                    validate_record(root, PILOT_ARTIFACT_ID)
+            self.assertIn("TEACHER_APPROVAL_CONTEXT_STALE", str(ctx.exception))
 
 
 if __name__ == "__main__":
