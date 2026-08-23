@@ -1,0 +1,136 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tymm.local/schemas/lesson_plan.schema.json",
+  "title": "TYMM AI Lesson Plan V1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "course_id",
+    "theme_id",
+    "block_id",
+    "lesson_hours",
+    "plan_title",
+    "plan_summary",
+    "outcome_codes",
+    "used_activity_ids",
+    "used_form_ids",
+    "lessons",
+    "teacher_notes",
+    "continuation_summary"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "course_id": {"type": "string", "minLength": 1},
+    "theme_id": {"type": "string", "minLength": 1},
+    "block_id": {"type": "string", "minLength": 1},
+    "lesson_hours": {"type": "integer", "minimum": 1},
+    "plan_title": {"type": "string", "minLength": 1},
+    "plan_summary": {"type": "string", "minLength": 1},
+    "outcome_codes": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "used_activity_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "used_form_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "lessons": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "lesson_no",
+          "duration_lesson_hours",
+          "title",
+          "objective",
+          "outcome_codes",
+          "opening",
+          "teacher_actions",
+          "student_actions",
+          "activity_ids",
+          "form_ids",
+          "assessment",
+          "closure",
+          "materials"
+        ],
+        "properties": {
+          "lesson_no": {"type": "integer", "minimum": 1},
+          "duration_lesson_hours": {"type": "integer", "minimum": 1},
+          "title": {"type": "string", "minLength": 1},
+          "objective": {"type": "string", "minLength": 1},
+          "outcome_codes": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {"type": "string", "minLength": 1}
+          },
+          "opening": {"type": "string", "minLength": 1},
+          "teacher_actions": {
+            "type": "array",
+            "minItems": 1,
+            "items": {"type": "string", "minLength": 1}
+          },
+          "student_actions": {
+            "type": "array",
+            "minItems": 1,
+            "items": {"type": "string", "minLength": 1}
+          },
+          "activity_ids": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {"type": "string", "minLength": 1}
+          },
+          "form_ids": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {"type": "string", "minLength": 1}
+          },
+          "assessment": {"type": "string", "minLength": 1},
+          "closure": {"type": "string", "minLength": 1},
+          "materials": {
+            "type": "array",
+            "items": {"type": "string", "minLength": 1}
+          }
+        }
+      }
+    },
+    "teacher_notes": {"type": "string"},
+    "continuation_summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "planned_now_hours",
+        "remaining_block_hours",
+        "covered_outcome_codes",
+        "used_activity_ids",
+        "next_step_hint"
+      ],
+      "properties": {
+        "planned_now_hours": {"type": "integer", "minimum": 1},
+        "remaining_block_hours": {"type": "integer", "minimum": 0},
+        "covered_outcome_codes": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1}
+        },
+        "used_activity_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1}
+        },
+        "next_step_hint": {"type": "string"}
+      }
+    }
+  }
+}
