@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "TDE_10",
+  "theme_id": "TEMA_01",
+  "block_id": "BLOCK_T1_01_OKUMA",
+  "lesson_hours": 2,
+  "plan_title": "Turnalar Türküsüne Giriş: Hazırlık, Tahmin ve Amaçlı İlk Okuma",
+  "plan_summary": "Tema 1 Okuma bloğunun 9. ve 10. saatlerinde öğrenciler T1_ACT_05_TURKU_HAZIRLIK ile Turnalar türküsüne hazırlanır; ön bilgilerini, tahminlerini ve okuma amaçlarını kaydeder. Ardından T1_ACT_06_TURKU_TAHLIL'in başlangıç kısmında metni bütüncül ve ikinci kez odaklı okuyarak konu/tema, bağlamdan söz varlığı, tekrar-ezgi/ahenk işaretleri ve açık/örtük ileti için ilk kanıtları toplar. Hazır tür özelliği listesi verilmez; çözümleme P06-P07'ye bırakılır.",
+  "outcome_codes": ["TDE2.1", "TDE2.2"],
+  "used_activity_ids": ["T1_ACT_05_TURKU_HAZIRLIK", "T1_ACT_06_TURKU_TAHLIL"],
+  "used_form_ids": [],
+  "lessons": [
+    {
+      "lesson_no": 1,
+      "duration_lesson_hours": 1,
+      "title": "Türkü okumaya hazırlanma ve kanıtlanabilir tahmin kurma",
+      "objective": "Öğrencinin türküye ilişkin ön bilgisini kaynak metnin yerine koymadan etkinleştirmesi; başlık/bağlam işaretlerinden tahmin üretmesi ve okuma amacını belirlemesi.",
+      "outcome_codes": ["TDE2.1"],
+      "opening": "Koşuk bölümünden 'sözlü aktarım, ahenk, tekrar' kavramları hatırlanır; bunların Türkü için otomatik doğru kabul edilmeyeceği, yeni metinde yeniden sınanacağı belirtilir.",
+      "teacher_actions": [
+        "T1_ACT_05 hazırlık sorularını kaynak sırasıyla kullandır.",
+        "Ön bilgi, tahmin ve metinden doğrulanan bilgi için ayrı kayıt alanları oluştur.",
+        "Turnalar başlığından hareketle olası konu/duygu tahminleri yaptır; tahmini gerçek bilgi gibi kabul etme.",
+        "Öğrenciden iki okuma amacı seçmesini iste: biri anlam/söz varlığı, biri ahenk/yapı işaretleri için.",
+        "Koşukla karşılaştırmayı yalnız hipotez düzeyinde tut; kesin benzerlik/farklılık yargısını P07'ye bırak.",
+        "Saat sonunda hangi tahminlerin metinde test edileceğini görünür hâle getir."
+      ],
+      "student_actions": [
+        "Ön bilgisini ve tahminini ayrı kaydeder.",
+        "Başlıktan/bağlamdan konu-duygu tahmini üretir.",
+        "İki amaçlı okuma hedefi belirler.",
+        "Koşukla olası benzerlik/farklılıkları hipotez olarak yazar.",
+        "Tahminlerin henüz doğrulanmadığını işaretler."
+      ],
+      "activity_ids": ["T1_ACT_05_TURKU_HAZIRLIK"],
+      "form_ids": [],
+      "assessment": "Hazırlık soruları, tahmin kaydı ve iki amaçlı okuma hedefi.",
+      "closure": "Öğrenci 'Metni okurken özellikle ... ve ... kanıtlarını arayacağım; şu tahminimi ise doğrulamam gerekiyor: ...' cümlesini tamamlar.",
+      "materials": ["T1_ACT_05 hazırlık etkinlikleri — ders kitabı s.39-41", "Turnalar başlığı/bağlamı", "Tahmin-doğrulama tablosu"]
+    },
+    {
+      "lesson_no": 2,
+      "duration_lesson_hours": 1,
+      "title": "Bütüncül ve odaklı ilk okuma: anlam, söz varlığı ve ahenk işaretleri",
+      "objective": "Öğrencinin Turnalar türküsünü önce bütüncül, ardından amaçlı biçimde okuyarak konu/tema, söz varlığı, açık/örtük ileti ve ahenk işaretlerine ilişkin ilk metin kanıtlarını toplaması.",
+      "outcome_codes": ["TDE2.1", "TDE2.2"],
+      "opening": "Birinci saatteki iki okuma amacı açılır; ilk okumada metnin genel etkisi, ikinci okumada kanıt işaretleme yapılacağı belirtilir.",
+      "teacher_actions": [
+        "İlk okumada öğrenciden yalnız genel konu/duygu ve anlam akışını kaydetmesini iste.",
+        "İkinci okumada bağlamdan anlamı çıkarılacak sözcük/ifadeleri, tekrarları ve ritim/ezgi izlerini işaretlet.",
+        "Açık ileti ile öğrencinin çıkardığı örtük anlamı ayrı sütunlarda kaydettir.",
+        "Örtük ileti için en az iki metin göstergesi istemeyi sürdür.",
+        "Türküye ilişkin hazır anonimlik, varyant vb. tür bilgilerini metin kanıtından önce verme; kaynak etkinliğin tahlil alanına P06'da girileceğini belirt.",
+        "Birinci saatteki tahminleri 'doğrulandı / kısmen / henüz kanıt yok' biçiminde güncellet."
+      ],
+      "student_actions": [
+        "Metni bütüncül okur ve genel anlamı kaydeder.",
+        "İkinci okumada söz varlığı ve ahenk işaretlerini belirler.",
+        "Açık ve örtük iletileri ayırır.",
+        "Örtük yorumunu metin göstergeleriyle gerekçelendirir.",
+        "Hazırlık tahminlerini metin kanıtına göre günceller."
+      ],
+      "activity_ids": ["T1_ACT_06_TURKU_TAHLIL"],
+      "form_ids": [],
+      "assessment": "İşaretlenmiş metin, bağlam söz varlığı notları, açık/örtük ileti tablosu ve güncellenmiş tahmin kaydı.",
+      "closure": "Öğrenci 'İlk okumada ... düşündüm; ikinci okumada ... göstergesi bu düşüncemi ... biçimde değiştirdi/doğruladı.' cümlesini tamamlar.",
+      "materials": ["Turnalar türküsü — ders kitabı s.42", "T1_ACT_06 tahlil alanı", "Amaçlı okuma ve kanıt tablosu"]
+    }
+  ],
+  "teacher_notes": "P05 Türkü bölümünün hazırlık ve ilk anlam katmanıdır. T1_ACT_06'nın yapı, tür, dil-anlatım, ahenk ve dönem bağlamı çözümlemesi P06-P07'de derinleştirilecektir. Hazır tür listesi verilmez.",
+  "continuation_summary": {
+    "planned_now_hours": 2,
+    "remaining_block_hours": 5,
+    "covered_outcome_codes": ["TDE2.1", "TDE2.2"],
+    "used_activity_ids": ["T1_ACT_05_TURKU_HAZIRLIK", "T1_ACT_06_TURKU_TAHLIL"],
+    "next_step_hint": "P06'da Turnalar'ın tema, söz varlığı, yapı ve ahenk kanıtlarını sistematik çözümlemeye dönüştür; P07'de Koşuk-Türkü karşılaştırmasına geç."
+  }
+}
