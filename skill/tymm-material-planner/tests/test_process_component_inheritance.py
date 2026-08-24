@@ -5,6 +5,11 @@ from pathlib import Path
 SCRIPTS = Path(__file__).resolve().parents[1] / "scripts"
 sys.path.insert(0, str(SCRIPTS))
 
+from knowledge_index import (
+    EFFECTIVE_INDEX_REQUIRED_ERROR,
+    KnowledgeCorpusExtractor as RawKnowledgeCorpusExtractor,
+    KnowledgeIndexer as RawKnowledgeIndexer,
+)
 from process_component_resolver import (
     ProcessComponentError,
     audit_curriculum,
@@ -160,5 +165,18 @@ assert report["final"] == "PASS"
 assert report["counts"]["explicit_component_outcomes"] == 1
 assert report["counts"]["inherited_component_outcomes"] == 1
 assert report["counts"]["inheritance_missing_count"] == 0
+
+# 9. A resolution-contract course can never be rebuilt/extracted through the raw legacy facade.
+tde9_root = SCRIPTS.parents[2] / "courses" / "TDE_9"
+for operation in (
+    lambda: RawKnowledgeCorpusExtractor(str(tde9_root)).extract_all(),
+    lambda: RawKnowledgeIndexer(str(tde9_root)).build_index(force=True),
+):
+    try:
+        operation()
+    except RuntimeError as exc:
+        assert EFFECTIVE_INDEX_REQUIRED_ERROR in str(exc), str(exc)
+    else:
+        raise AssertionError("raw legacy process-component path must fail closed")
 
 print("PROCESS_COMPONENT_INHERITANCE: PASS")
