@@ -3,7 +3,27 @@
   "canonical": {
     "themes": 4,
     "outcomes": 64,
-    "status": "PASS"
+    "status": "PASS",
+    "process_component_inheritance": {
+      "schema_version": "1.2",
+      "course_id": "TDE_10",
+      "catalog_id": "TDE_2024_ROOF_PROCESS_COMPONENTS",
+      "contract_mode": "COMPACT_ALL_OUTCOMES",
+      "contract_status": "MATCHED",
+      "legacy_field_semantics": "THEME_EXPLICIT_ONLY_UNTIL_SCHEMA_RENAME",
+      "counts": {
+        "total_outcomes": 64,
+        "outcomes_with_roof_components": 64,
+        "explicit_component_outcomes": 0,
+        "inherited_component_outcomes": 64,
+        "verified_no_component_outcomes": 0,
+        "unresolved_component_outcomes": 0,
+        "inheritance_missing_count": 0,
+        "structural_error_count": 0
+      },
+      "mismatch_count": 0,
+      "final": "PASS"
+    }
   },
   "production_schema": {
     "schema_version": "1.1",
@@ -20,7 +40,7 @@
   },
   "index_rebuild": {
     "freshness": "INDEX_FRESH",
-    "indexed_record_count": 484,
+    "indexed_record_count": 748,
     "artifact_rows": [
       {
         "entity_id": "TDE10_KONUSMA_RUBRIC",
@@ -32,6 +52,9 @@
       }
     ],
     "duplicate_entity_keys": 0,
+    "process_component_origins": {
+      "roof_inherited": 264
+    },
     "status": "PASS"
   },
   "resolver": {

@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.2",
+  "course_id": "TDE_10",
+  "catalog_id": "TDE_2024_ROOF_PROCESS_COMPONENTS",
+  "contract_mode": "COMPACT_ALL_OUTCOMES",
+  "contract_status": "MATCHED",
+  "legacy_field_semantics": "THEME_EXPLICIT_ONLY_UNTIL_SCHEMA_RENAME",
+  "counts": {
+    "total_outcomes": 64,
+    "outcomes_with_roof_components": 64,
+    "explicit_component_outcomes": 0,
+    "inherited_component_outcomes": 64,
+    "verified_no_component_outcomes": 0,
+    "unresolved_component_outcomes": 0,
+    "inheritance_missing_count": 0,
+    "structural_error_count": 0
+  },
+  "mismatch_count": 0,
+  "final": "PASS"
+}

@@ -1,9 +1,9 @@
 # Knowledge Index Validation Report
 
 - **Course ID**: TDE_10
-- **Build Timestamp**: 2026-08-24T09:07:58.327358+00:00
+- **Build Timestamp**: 2026-08-24T09:11:54.832682+00:00
 - **Status**: SUCCESS
-- **Total Indexed Records**: 484
+- **Total Indexed Records**: 748
 - **Production Schema**: 1.1
 - **Artifact Identity**: `artifact_id`
 - **Canonical Assessment Artifacts**: 2
@@ -13,7 +13,7 @@
 - **Vector Backend**: `sqlite-vec`
 - **Base Embedding Model**: `intfloat/multilingual-e5-small` (Dim: 384)
 - **Model File SHA256**: `f80102d3f2a1229f387d3c81909990d8945513e347b0eab049f7de3c6f98c193`
-- **Index Content Hash**: `508f4797410ec68fd6c2cfb97f328fcbf5b3afba6c198dc2ca3571e08cac29fc`
+- **Index Content Hash**: `385ae5a5bfd82c1c0495455f97dd24a7240396f83c4a17fb0815235b3da44218`
 
 ## Indexed Entity Types & Counts
 - **alignment_record**: 64
@@ -21,6 +21,7 @@
 - **curriculum_outcome**: 64
 - **curriculum_theme**: 4
 - **instructional_need**: 64
+- **process_component**: 264
 - **remaining_gap**: 64
 - **resource_plan**: 64
 - **school_based_option**: 8
@@ -31,6 +32,8 @@
 
 ## Source Files Fingerprint
 - `curriculum_map.json`: SHA-256 `ce3a6caf26ea0d2126e576633d97f473fbcbf3da5327a3f96f927f2a167fa522` (123197 bytes) - VERIFIED
+- `curriculum_process_component_resolution.json`: SHA-256 `0bb8152a6096d9adf99b0e81f2d331c1c962d0a3eebbbeefa4cca1fbe3ae5979` (2322 bytes) - VERIFIED
+- `../TDE_SHARED/curriculum_process_component_catalog.json`: SHA-256 `6f9d7b83c4a13e6770d21b46f0d1a293a21d5a01201b9b889dbfd80a76258b5a` (12597 bytes) - VERIFIED
 - `textbook_map.json`: SHA-256 `818a69c0985f7e0bd6cda1412d32755d930d35714ac80d798e049a1aae489848` (126579 bytes) - VERIFIED
 - `textbook_forms_index.json`: SHA-256 `79d494cd95aab84b11c77c29c9e675bffbe70e3e6ea7f7fec4b666276df1eac6` (55251 bytes) - VERIFIED
 - `themes/tema_01/alignment.json`: SHA-256 `fcd1df93fbd4805b91cd443ba7dd752c8d7df2261e16239c4145379d3b135e53` (33042 bytes) - VERIFIED

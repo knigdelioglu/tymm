@@ -1,8 +1,8 @@
 {
   "schema_version": "2.1",
   "course_id": "TDE_10",
-  "index_created_at": "2026-08-24T09:07:58.327358+00:00",
-  "index_updated_at": "2026-08-24T09:07:58.327358+00:00",
+  "index_created_at": "2026-08-24T09:11:54.832682+00:00",
+  "index_updated_at": "2026-08-24T09:11:54.832682+00:00",
   "requested_backend": "sqlite-vector/sqliteai-vector",
   "selected_backend": "sqlite-vec",
   "backend_selection_status": "EXPLICIT_ACCEPTED_DEVIATION",
@@ -36,6 +36,7 @@
     "curriculum_outcome",
     "curriculum_theme",
     "instructional_need",
+    "process_component",
     "remaining_gap",
     "resource_plan",
     "school_based_option",
@@ -44,12 +45,26 @@
     "textbook_form",
     "textbook_section"
   ],
-  "indexed_record_count": 484,
+  "indexed_record_count": 748,
   "source_files": [
     {
       "path": "curriculum_map.json",
       "sha256": "ce3a6caf26ea0d2126e576633d97f473fbcbf3da5327a3f96f927f2a167fa522",
       "size_bytes": 123197,
+      "validation_status": "VERIFIED",
+      "freeze_status": "FROZEN"
+    },
+    {
+      "path": "curriculum_process_component_resolution.json",
+      "sha256": "0bb8152a6096d9adf99b0e81f2d331c1c962d0a3eebbbeefa4cca1fbe3ae5979",
+      "size_bytes": 2322,
+      "validation_status": "VERIFIED",
+      "freeze_status": "FROZEN"
+    },
+    {
+      "path": "../TDE_SHARED/curriculum_process_component_catalog.json",
+      "sha256": "6f9d7b83c4a13e6770d21b46f0d1a293a21d5a01201b9b889dbfd80a76258b5a",
+      "size_bytes": 12597,
       "validation_status": "VERIFIED",
       "freeze_status": "FROZEN"
     },
@@ -201,6 +216,6 @@
       "freeze_status": "FROZEN"
     }
   ],
-  "index_content_hash": "508f4797410ec68fd6c2cfb97f328fcbf5b3afba6c198dc2ca3571e08cac29fc",
+  "index_content_hash": "385ae5a5bfd82c1c0495455f97dd24a7240396f83c4a17fb0815235b3da44218",
   "build_status": "SUCCESS"
 }
