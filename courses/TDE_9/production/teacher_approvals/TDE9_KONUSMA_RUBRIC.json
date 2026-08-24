@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.2",
+  "artifact_id": "TDE9_KONUSMA_RUBRIC",
+  "generation_context_hash": "3fac73e1072de60c0965419c9a98241abc256755def8ff953a19821de1a39623",
+  "review_snapshot_git_blob_sha": "28eec33f7179e9946985005c637ae6ed04813115",
+  "generator_source_git_blob_sha": "5c6efdb0b351486cc642e90ccd656e68c6e8903a",
+  "approved": true,
+  "reviewer": "Öğretmen / repo sahibi — sohbet onayı",
+  "review_note": "Pilot konuşma rubriği inceleme paketi görüldükten ve üretimde yalnız bu onay kapısının kaldığı açıklandıktan sonra kullanıcı 'Devam' diyerek üretimin sürdürülmesini onayladı.",
+  "approval_kind": "EXPLICIT_TEACHER_APPROVAL",
+  "reproducibility_rule": "Approval is valid only while generation_context_hash, the reviewed REVIEW.md Git-blob identity, and artifact_generation.py Git-blob identity all match the approved snapshot."
+}
