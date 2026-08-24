@@ -161,8 +161,6 @@ Published downstream sonuçlar:
 - TDE_11 runtime `1.2.0`: 64/64 `ROOF_INHERITED`, `RUNTIME_FRESH`, PASS
 - TDE_12 runtime `1.2.0`: 64/64 `ROOF_INHERITED`, `RUNTIME_FRESH`, PASS
 
-Uygulamanın kullanıcı arayüzünde origin etiketini ayrıca göstermesi canonical doğruluk için blocker değildir; runtime provenance artık kaybolmamaktadır.
-
 ---
 
 ## P1 — Gözlemlenebilirlik — COMPLETE
@@ -189,15 +187,19 @@ Aşağıdaki prompt/workflowlar shared roof invariantını zorunlu referans alma
 - `AGENTS.md`
 - canonical curriculum validation workflowları
 
-## P1 — Downstream presentation provenance — OPTIONAL
+## P1 — Downstream presentation provenance — IMPLEMENTED / CI CONFIRMATION PENDING
 
-Canonical/runtime doğruluğunu etkilemeyen sonraki UX iyileştirmesi:
+ÖğretmenOS tarafında uygulandı:
 
-- ÖğretmenOS `Outcome` modelinde `process_component_origin` alanını expose etmek,
-- UI'de `ROOF_INHERITED` ile `THEME_EXPLICIT` kaynağını uygun biçimde göstermek,
-- raw process-component JSON yerine öğretmen-okunabilir liste sunmak.
+- `Outcome.processComponentOrigin` domain modeline eklendi,
+- data source `process_component_origin` kolonunu schema-aware biçimde okuyor,
+- eski runtime schema'larında kolon yoksa `NULL AS process_component_origin` ile backward compatibility korunuyor,
+- outcome detayında `ROOF_INHERITED` → “Resmî programın ortak çatı tanımından devralındı” olarak gösteriliyor,
+- `THEME_EXPLICIT` → “Bu tema için resmî programda açıkça tanımlandı” olarak gösteriliyor,
+- raw süreç bileşeni JSON'u öğretmen-okunabilir kod + ifade listesine dönüştürülüyor,
+- TDE_11/TDE_12 paket regression testi provenance'ın DB → data source → domain model → block detail zincirinde korunduğunu assert ediyor.
 
-Bu madde P0 migration kapanışını bloklamaz.
+Bu P1 değişiklikleri canonical migration kapanışını etkilemez. Son push için CI publish kanıtı oluşana kadar bu bölüm bilinçli olarak `CI CONFIRMATION PENDING` tutulur.
 
 ---
 
