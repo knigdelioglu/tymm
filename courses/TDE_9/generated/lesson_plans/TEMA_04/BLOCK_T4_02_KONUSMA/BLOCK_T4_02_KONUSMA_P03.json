@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "TDE_9",
+  "theme_id": "TEMA_04",
+  "block_id": "BLOCK_T4_02_KONUSMA",
+  "lesson_hours": 2,
+  "plan_title": "Dilimizin Zenginlikleri Canlı Sunumu: Kanıttan Sözlü Performansa",
+  "plan_summary": "10 saatlik 4. Tema Konuşma Atölyesi bloğunun 5. ve 6. ders saatlerinde öğrenciler P01-P02'de hazırladıkları kanıtlı karşılaştırma konuşmasını T4_ACT_08_KONUSMA_SIRASI kapsamında canlı olarak sunar. İlk saatte kısa son hazırlık kontrolünden sonra sunum rotasyonu başlatılır; ikinci saatte rotasyon sürdürülür. Her sunumda sosyal medya dili ile Türkçe/edebî dil kullanımı hakkındaki karşılaştırmaların kanıta dayanması, ana düşünceyi desteklemesi, dil tercihinin bağlam ve hedef kitleyle ilişkilendirilmesi, akış, süre, ses-diksiyon, beden dili ve varsa görsel kullanımının işlevi gözlenir. Öğretmen approved TDE9_KONUSMA_RUBRIC / RES_T4_SHARED_KONUSMA_RUBRIC ile gerçek performans kanıtını kaydeder. Sınıf mevcudu varsayılmaz; iki saatte tamamlanamayan sunumlar P04'ün başında tamamlanabilir. T4_ACT_09 öz ve akran değerlendirmesi P04'e bırakılır.",
+  "outcome_codes": ["TDE3.1", "TDE3.2", "TDE3.3", "TDE3.4"],
+  "used_activity_ids": ["T4_ACT_08_KONUSMA_SIRASI"],
+  "used_form_ids": [],
+  "lessons": [
+    {
+      "lesson_no": 1,
+      "duration_lesson_hours": 1,
+      "title": "Son performans kontrolü ve Dilimizin Zenginlikleri sunum rotasyonunu başlatma",
+      "objective": "Öğrencinin P02'de belirlediği tek geliştirme hedefini canlı sunum öncesi görünür kılması ve kanıta dayalı karşılaştırmalı konuşmasını planına bağlı fakat doğal sözlü icrayla sunmaya başlaması.",
+      "outcome_codes": ["TDE3.1", "TDE3.2", "TDE3.3"],
+      "opening": "P02'de seçilen tek canlı sunum hedefi açılır. 'Sunum sırasında özellikle hangi gözlenebilir davranışını koruyacak veya geliştireceksin?' sorusuyla hazırlık tamamlanır; yeni içerik eklenmez.",
+      "teacher_actions": [
+        "Sunumdan hemen önce öğrencinin ana düşüncesini, 2-3 karşılaştırma kanıtını ve tek geliştirme hedefini hızlıca kontrol et; yeni metin yazdırma.",
+        "T4_ACT_08 kapsamında sunum rotasyonunu başlat; sınıf mevcudu ve sunum sayısı hakkında sayı varsayma.",
+        "Her performansta sosyal medya dili ile Türkçe/edebî dil örneklerinin bağlam, amaç, hedef kitle, anlaşılırlık ve sözcük tercihi üzerinden karşılaştırılıp karşılaştırılmadığını gözle.",
+        "Öğrencinin sosyal medya dilini bütünüyle yanlış veya yabancı kökenli her sözcüğü otomatik hata sayan genellemeler yapması hâlinde kanıt ve bağlam istemekle yetin; ideolojik bir dil temizliği ölçütü ekleme.",
+        "Approved TDE9_KONUSMA_RUBRIC / RES_T4_SHARED_KONUSMA_RUBRIC üzerinden İçerik ve Göreve Uygunluk, Yapı-Organizasyon-Zaman, Ses-Diksiyon-Akıcılık, Beden Dili-İletişim ve Türkçenin Doğru Kullanımı-Söz Varlığı ölçütlerinde gözlenebilir performans kanıtını kaydet.",
+        "Puanlama sırasında Tema 4 task-binding kanıtlarını yıllık çekirdek ölçütlerin içine yerleştir; yeni tema-özel rubrik ölçütü icat etme."
+      ],
+      "student_actions": [
+        "Canlı sunum hedefini görünür hâle getirir.",
+        "Ana düşüncesini kanıtlı sosyal medya dili ve Türkçe/edebî dil karşılaştırmalarıyla sunar.",
+        "Sözcük ve dil tercihlerini bağlam, amaç ve hedef kitle açısından gerekçelendirir.",
+        "Giriş-gelişme-sonuç akışını, süreyi, ses ve beden dilini yönetir.",
+        "Varsa görsel desteği yalnız ilgili karşılaştırma kanıtını açıklamak için kullanır."
+      ],
+      "activity_ids": ["T4_ACT_08_KONUSMA_SIRASI"],
+      "form_ids": [],
+      "assessment": "Ana kanıt canlı sunum performansı ve öğretmenin approved TDE9_KONUSMA_RUBRIC / RES_T4_SHARED_KONUSMA_RUBRIC üzerinde kaydettiği gözlenebilir performans bulgularıdır. Bu puanlama yıllık çekirdek rubriği kullanır; Tema 4 için yeni bir ölçek oluşturulmaz.",
+      "closure": "Sunum yapan öğrenci yalnız bir cümlelik sıcak kayıt bırakır: 'Planımdaki ... kanıtını sunarken ... hedefimi ... biçimde uyguladım.' Ayrıntılı öz değerlendirme P04'e bırakılır.",
+      "materials": ["P01 kanıt bankası ve karşılaştırma matrisi", "P02 konuşma akış planı ve prova hedefi", "TDE9_KONUSMA_RUBRIC / RES_T4_SHARED_KONUSMA_RUBRIC", "Varsa kaynak bilgisi kayıtlı görsel destek"]
+    },
+    {
+      "lesson_no": 2,
+      "duration_lesson_hours": 1,
+      "title": "Canlı sunum rotasyonunu sürdürme ve karşılaştırmalı dil kanıtını performansta gözleme",
+      "objective": "Öğrencilerin canlı sunum rotasyonunu sürdürmesi; öğretmenin yıllık rubrikle her performansın içerik, organizasyon, icra ve Türkçe/söz varlığı boyutlarına ilişkin kanıtı tutarlı biçimde kaydetmesi.",
+      "outcome_codes": ["TDE3.1", "TDE3.2", "TDE3.3", "TDE3.4"],
+      "opening": "İkinci saat, ilk saatte kullanılan aynı performans ve kanıt standardı hatırlatılarak başlatılır; yeni ölçüt veya yeni sunum görevi eklenmez.",
+      "teacher_actions": [
+        "Sunum rotasyonunu aynı görev ve aynı rubrik koşullarıyla sürdür.",
+        "İçerik puanında yalnız iddia sayısına değil, örneklerin ana düşünceye ve göreve uygunluğuna bak.",
+        "Organizasyon puanında giriş-gelişme-sonuç akışı, geçişler ve süre yönetimini; icra boyutunda ses-diksiyon-akıcılık ile beden dili/iletişimi gözle.",
+        "Türkçe ve söz varlığı ölçütünde bağlama uygun kelime seçimi, cümle kuruluşu, bağdaşıklık/bağlaşıklık ve anlamı bozan dil hatalarını esas al; kelime kökenini tek başına hata ölçütü yapma.",
+        "Varsa görselin gösterişli olup olmadığına değil, karşılaştırma kanıtını açıklama işlevine bak.",
+        "İki saat sonunda tamamlanamayan sunumlar varsa yalnız kalan performansları P04'ün başına aktar; hiçbir öğrencinin değerlendirme kanıtını varsayımla tamamlamaya çalışma."
+      ],
+      "student_actions": [
+        "Hazırladığı konuşmayı canlı olarak sunar.",
+        "Karşılaştırma kanıtlarını ana düşünceyle ilişkilendirir.",
+        "Dil ve söz varlığı tercihlerini iletişim bağlamında uygular.",
+        "Dinleyiciyle göz teması ve beden dili üzerinden iletişim kurar.",
+        "Sunum sonrası ayrıntılı öz/akran değerlendirmeyi P04'e bırakır."
+      ],
+      "activity_ids": ["T4_ACT_08_KONUSMA_SIRASI"],
+      "form_ids": [],
+      "assessment": "Öğretmen her sunum için aynı approved yıllık rubrikte puan ve kısa kanıt notu kaydeder. Eksik sunumlar değerlendirilmiş sayılmaz; P04 başında tamamlanır.",
+      "closure": "Sınıf düzeyinde yalnız süreç kapanışı yapılır: hangi sunumların tamamlandığı ve hangilerinin P04'e kaldığı belirlenir. Öz/akran/öğretmen geri bildirimlerinin birleştirilmesi henüz yapılmaz.",
+      "materials": ["TDE9_KONUSMA_RUBRIC / RES_T4_SHARED_KONUSMA_RUBRIC", "Öğrenci sunum planları", "Varsa görsel sunum materyalleri", "Basit süre takip aracı"]
+    }
+  ],
+  "teacher_notes": "Bu paket BLOCK_T4_02_KONUSMA bloğunun pedagojik olarak tasarlanmış 5. ve 6. saatleridir; resmî MEB saat-saat alt sıralaması değildir. T4_ACT_08 kaynakta sosyal medya dili ve Türkçe kelime kullanımı üzerine konuşma performansını doğrular. Teaching block, öğrencinin karşılaştırmalı sunum performansını ve RES_T4_SHARED_KONUSMA_RUBRIC ile derecelendirilmesini beklenen kanıt olarak tanımlar. Approved rubrik lifecycle kaydı current olduğu için bu pakette gerçek performans puanlaması yapılabilir. T4_ACT_09 öz/akran değerlendirme formları P04'e bırakılır.",
+  "continuation_summary": {
+    "planned_now_hours": 2,
+    "remaining_block_hours": 4,
+    "covered_outcome_codes": ["TDE3.1", "TDE3.2", "TDE3.3", "TDE3.4"],
+    "used_activity_ids": ["T4_ACT_08_KONUSMA_SIRASI"],
+    "next_step_hint": "P04'ün başında varsa kalan sunumlar tamamlanmalı; ardından T4_ACT_09 kapsamında FORM_BOB_08_T4_KONUSMA_OZ, FORM_BOB_10_T3_T4_AKRAN ve FORM_BOB_11_GENEL_GOZLEM kullanılmalı. Öğretmen rubrik geri bildirimiyle birlikte öğrenci P05 için tek gözlenebilir gelişim hedefi seçmelidir."
+  }
+}
