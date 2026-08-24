@@ -21,6 +21,8 @@ The **TYMM Local Hybrid RAG Index** provides deterministic, high-speed, 100% off
 > [!IMPORTANT]
 > **CRITICAL INVARIANT:**
 > The Vector Database is **NOT** the source of truth. Authoritative source of truth consists strictly of persistent, verified, frozen canonical JSON files in `knowledge/<course_id>/`. The Vector DB is solely a candidate retrieval accelerator.
+>
+> For courses carrying `curriculum_process_component_resolution.json`, index build/rebuild MUST use `effective_knowledge_index.py`. This projection resolves `THEME_EXPLICIT` versus `ROOF_INHERITED` process components before extraction and fingerprints both the course resolution contract and the shared `TDE_SHARED/curriculum_process_component_catalog.json` source. Direct legacy rebuilds are not an approved production path.
 
 ---
 
@@ -48,7 +50,7 @@ The **TYMM Local Hybrid RAG Index** provides deterministic, high-speed, 100% off
 - **Quantization**: `quantized`
 - **Embedding Dimension**: `384`
 - **Pooling Strategy**: `attention_masked_mean_pooling` (attention-mask weighted mean pooling over token embeddings)
-- **Normalization**: `L2` (exact Euclidean norm normalization)
+- **Normalization**: `L2`
 - **Query Prefix**: `"query: "`
 - **Passage Prefix**: `"passage: "`
 - **Model File SHA256**: `f80102d3f2a1229f387d3c81909990d8945513e347b0eab049f7de3c6f98c193`
@@ -65,14 +67,14 @@ $$RRF(d) = \sum_{m \in M} \frac{1}{k + r_m(d)}$$
 
 Where:
 - $M = \{\text{Vector Search}, \text{FTS5 Search}\}$
-- $k = 60$ (standard rank constant)
+- $k = 60$
 - $r_m(d)$ is the 1-based rank of document $d$ in retrieval modality $m$.
 
 ### Filtration Pipeline
 Candidates passing through RRF are filtered deterministically against:
-1. `theme_id` (if specified or inferred from query context).
-2. `entity_type` (e.g. restricting to `textbook_form` and `production_material` for assessment queries).
-3. `authority_level` (ensuring lower authority recommendations cannot shadow official records).
+1. `theme_id`.
+2. `entity_type`.
+3. `authority_level`.
 
 ---
 
@@ -84,7 +86,7 @@ Every indexed entity receives a collision-free, deterministic stable key:
 |:---|:---|:---:|:---|
 | `curriculum_theme` | `curriculum_map.json` | 1 | `{course_id}::curriculum_theme::{theme_id}` |
 | `curriculum_outcome` | `curriculum_map.json` | 1 | `{course_id}::curriculum_outcome::{theme_id}::{outcome_code}` |
-| `process_component` | `curriculum_map.json` | 1 | `{course_id}::process_component::{theme_id}::{outcome_code}::{component_code}` |
+| `process_component` | theme explicit: `curriculum_map.json`; inherited: `../TDE_SHARED/curriculum_process_component_catalog.json` | 1 | `{course_id}::process_component::{theme_id}::{outcome_code}::{component_code}` |
 | `textbook_section` | `textbook_map.json` | 2 | `{course_id}::textbook_section::{theme_id}::{section_id}` |
 | `textbook_activity` | `textbook_map.json` | 2 | `{course_id}::textbook_activity::{theme_id}::{activity_id}` |
 | `textbook_form` | `textbook_forms_index.json` | 3 | `{course_id}::textbook_form::{form_id}` |
@@ -106,17 +108,17 @@ Every indexed entity receives a collision-free, deterministic stable key:
 ```bash
 # Check index freshness and provenance
 ~/.gemini/config/skills/tymm-material-planner/.venv/bin/python3 \
-  ~/.gemini/config/skills/tymm-material-planner/scripts/knowledge_index.py status \
+  ~/.gemini/config/skills/tymm-material-planner/scripts/effective_knowledge_index.py status \
   --knowledge-root knowledge/TDE_9
 
-# Force rebuild index
+# Force rebuild index (approved production path)
 ~/.gemini/config/skills/tymm-material-planner/.venv/bin/python3 \
-  ~/.gemini/config/skills/tymm-material-planner/scripts/knowledge_index.py rebuild \
+  ~/.gemini/config/skills/tymm-material-planner/scripts/effective_knowledge_index.py rebuild \
   --knowledge-root knowledge/TDE_9
 
 # Hybrid query CLI
 ~/.gemini/config/skills/tymm-material-planner/.venv/bin/python3 \
-  ~/.gemini/config/skills/tymm-material-planner/scripts/knowledge_index.py query \
+  ~/.gemini/config/skills/tymm-material-planner/scripts/effective_knowledge_index.py query \
   --knowledge-root knowledge/TDE_9 \
   --query "şiir yazma değerlendirme" \
   --top-k 5
