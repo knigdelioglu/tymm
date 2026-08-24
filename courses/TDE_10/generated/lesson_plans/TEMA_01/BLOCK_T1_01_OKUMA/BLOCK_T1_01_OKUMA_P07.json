@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "TDE_10",
+  "theme_id": "TEMA_01",
+  "block_id": "BLOCK_T1_01_OKUMA",
+  "lesson_hours": 2,
+  "plan_title": "Koşuk ve Türküyü Karşılaştırmak: Sözlü Kültür, Ahenk, Yapı ve Değişim",
+  "plan_summary": "Tema 1 Okuma bloğunun 13. ve 14. saatlerinde öğrenciler P01-P06 boyunca oluşturdukları Koşuk ve Turnalar kanıtlarını aynı karşılaştırma matrisinde birleştirir. İlk saatte yapı, ahenk/ezgi, söz varlığı, tema/ileti ve sözlü kültür işaretleri; ikinci saatte benzerlik-farklılıkların işlevleri ve geçmişten günümüze değişim/dönüşüme ilişkin sınırlı, kaynak-temelli çıkarımlar ele alınır. 'Eski-yeni' hiyerarşisi kurulmaz; metin kanıtı olmayan tarihsel genelleme yapılmaz.",
+  "outcome_codes": ["TDE2.2", "TDE2.3", "TDE2.4"],
+  "used_activity_ids": ["T1_ACT_03_KOSUK_COZUMLEME", "T1_ACT_06_TURKU_TAHLIL"],
+  "used_form_ids": [],
+  "lessons": [
+    {
+      "lesson_no": 1,
+      "duration_lesson_hours": 1,
+      "title": "Koşuk-Türkü ortak kanıt matrisi: benzerlik ve farklılıkları işlevleriyle karşılaştırma",
+      "objective": "Öğrencinin iki metni yapı, ahenk/ezgi, söz varlığı, tema/ileti ve sözlü kültür göstergeleri bakımından aynı ölçekte karşılaştırması ve her benzerlik/farklılığı iki metinden kanıtla desteklemesi.",
+      "outcome_codes": ["TDE2.2", "TDE2.3"],
+      "opening": "P03 Koşuk ve P06 Türkü kanıt tabloları yan yana açılır. 'İki metni karşılaştırmak için her ikisine de uygulanabilen hangi boyutları kullanabiliriz?' sorusuyla ortak matris oluşturulur.",
+      "teacher_actions": [
+        "Ortak boyutları öğrencilerle netleştir: tema/ileti, yapı, ahenk/ezgi, dil-söz varlığı, sözlü kültür/aktarım işaretleri.",
+        "Her karşılaştırma hücresinde hem Koşuk hem Türkü için doğrudan metin/etkinlik kanıtı iste.",
+        "Benzerlik veya farklılığı yalnız adlandırmakla yetinmeyip işlevini açıklat.",
+        "Türküdeki ezgi/ritim ile Koşuktaki ahenk işaretlerini aynı şeymiş gibi eşitleme; kanıtların farklı işlevlerini tartıştır.",
+        "Anonimlik, varyant veya tarihsel süreç gibi özellikler kaynak kanıtıyla açıkça desteklenmiyorsa kesin hüküm kurdurma.",
+        "Saat sonunda en az dört karşılaştırma satırı oluştur."
+      ],
+      "student_actions": [
+        "İki metne ortak karşılaştırma boyutları seçer.",
+        "Her boyutta Koşuk ve Türkü kanıtlarını yan yana koyar.",
+        "Benzerlik/farklılıkları işlevleriyle açıklar.",
+        "Kaynaksız genellemeleri işaretler ve çıkarır.",
+        "En az dört satırlık karşılaştırma matrisi oluşturur."
+      ],
+      "activity_ids": ["T1_ACT_03_KOSUK_COZUMLEME", "T1_ACT_06_TURKU_TAHLIL"],
+      "form_ids": [],
+      "assessment": "En az dört boyutlu Koşuk-Türkü karşılaştırma matrisi; her satırda iki metinden kanıt ve işlev açıklaması bulunur.",
+      "closure": "Öğrenci 'İki metin ... bakımından benziyor/farklılaşıyor; Koşukta ... kanıtı, Türküde ... kanıtı bunu gösteriyor ve bu fark/benzerlik ... işlevini etkiliyor.' cümlesini tamamlar.",
+      "materials": ["Koşuk metni ve P01-P04 kanıtları", "Turnalar ve P05-P06 kanıtları", "Ortak karşılaştırma matrisi"]
+    },
+    {
+      "lesson_no": 2,
+      "duration_lesson_hours": 1,
+      "title": "Süreklilik ve değişim için kanıta dayalı sınırlı çıkarım",
+      "objective": "Öğrencinin Koşuk-Türkü karşılaştırmasından hareketle sözlü kültür, şiirsel söyleyiş ve ahenk/ezgi alanlarında süreklilik/değişime ilişkin değer-hiyerarşisi kurmayan gerekçeli çıkarımlar üretmesi.",
+      "outcome_codes": ["TDE2.3", "TDE2.4"],
+      "opening": "Karşılaştırma matrisinden bir süreklilik ve bir farklılık seçilir. 'Bu iki kanıttan tarihsel değişim hakkında ne söyleyebiliriz; ne söyleyemeyiz?' sorusuyla çıkarım sınırı belirlenir.",
+      "teacher_actions": [
+        "Öğrenciden 'kanıt → gözlenen süreklilik/değişim → sınırlı çıkarım' zinciri kurmasını iste.",
+        "Kaynakta doğrulanmayan kronoloji veya nedenselliği kesin bilgi gibi ekleme.",
+        "'Eski daha ilkel / yeni daha gelişmiş' gibi doğrusal değer yargılarını reddet; işlev ve bağlam farkına odaklan.",
+        "Metinler arası farklılıkların tek nedeni olarak dönem göstermeden önce kanıt iste.",
+        "Bir çıkarımın güven düzeyini 'güçlü / sınırlı / kanıt yetersiz' biçiminde işaretlet.",
+        "P08 için hangi Türkü kanıtlarının canlandırma/performans planında korunması gerektiğini seçtir."
+      ],
+      "student_actions": [
+        "Bir süreklilik ve bir değişim kanıtı seçer.",
+        "Sınırlı çıkarım kurar.",
+        "Çıkarımın güven düzeyini işaretler.",
+        "Değer hiyerarşisi yerine bağlam/işlev farkı açıklar.",
+        "P08 performans planına taşınacak Türkü kanıtlarını seçer."
+      ],
+      "activity_ids": ["T1_ACT_03_KOSUK_COZUMLEME", "T1_ACT_06_TURKU_TAHLIL"],
+      "form_ids": [],
+      "assessment": "En az iki 'kanıt → süreklilik/değişim → sınırlı çıkarım → güven düzeyi' kaydı.",
+      "closure": "Öğrenci 'Bu iki metinden ... konusunda ... düzeyinde çıkarım yapabilirim; çünkü ... . Ancak ... hakkında yeterli kanıtım yok.' cümlesini tamamlar.",
+      "materials": ["P07 karşılaştırma matrisi", "Koşuk ve Turnalar metinleri", "Çıkarım-güven düzeyi şablonu"]
+    }
+  ],
+  "teacher_notes": "P07 iki okuma metnini kaynak-temelli karşılaştırır. Tarihsel değişim/dönüşüm, yalnız metin ve kaynak etkinliklerinin taşıdığı ölçüde ele alınır. P08 T1_ACT_07 ile 1 saatlik performans planı ve blok kapanışıdır.",
+  "continuation_summary": {
+    "planned_now_hours": 2,
+    "remaining_block_hours": 1,
+    "covered_outcome_codes": ["TDE2.2", "TDE2.3", "TDE2.4"],
+    "used_activity_ids": ["T1_ACT_03_KOSUK_COZUMLEME", "T1_ACT_06_TURKU_TAHLIL"],
+    "next_step_hint": "P08'de T1_ACT_07_TURKU_CANLANDIRMA ile okuma kanıtlarını performans planına dönüştür ve 15 saatlik Tema 1 Okuma bloğunu kapat."
+  }
+}
