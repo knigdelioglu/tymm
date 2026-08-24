@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "TDE_9",
+  "theme_id": "TEMA_04",
+  "block_id": "BLOCK_T4_04_YAZMA",
+  "lesson_hours": 2,
+  "plan_title": "Otobiyografiyi Paylaşmak ve Değerlendirmek: Çok Kaynaklı Kanıttan Tek Revizyon Hedefine",
+  "plan_summary": "Tema 4 Yazma bloğunun 7. ve 8. saatlerinde öğrenciler redaksiyondan geçen otobiyografilerini T4_ACT_13_YAZMA_SONRASI kapsamında paylaşır ve değerlendirir. İlk saatte FORM_BOB_10_T3_T4_AKRAN ile akran, FORM_BOB_07_T4_YAZMA_OZ ile öz değerlendirme yapılır; geri bildirimler metindeki somut örneklere bağlanır. İkinci saatte öğretmen FORM_BOB_11_GENEL_GOZLEM ve current approved TDE9_YAZMA_RUBRIC / RES_T4_SHARED_YAZMA_RUBRIC ile gerçek ürün değerlendirmesini yapar. Yıllık çekirdek ölçütler tema-anlam tutarlılığı, metin yapısı/türe özgü kurgu, dil-anlatım/söz varlığı ve Türkçenin kurallarıdır. Araçlar tek yapay puana karıştırılmaz. Öğrenci P05 için tek nihai revizyon önceliği seçer; checklist aşama 5 paylaşım/yansıtma kanıtıyla tamamlanır.",
+  "outcome_codes": ["TDE4.1", "TDE4.2", "TDE4.3", "TDE4.4"],
+  "used_activity_ids": ["T4_ACT_13_YAZMA_SONRASI"],
+  "used_form_ids": ["FORM_BOB_07_T4_YAZMA_OZ", "FORM_BOB_10_T3_T4_AKRAN", "FORM_BOB_11_GENEL_GOZLEM"],
+  "lessons": [
+    {
+      "lesson_no": 1,
+      "duration_lesson_hours": 1,
+      "title": "Metni paylaşma, kanıta dayalı akran ve öz değerlendirme",
+      "objective": "Öğrencinin otobiyografisini uygun paylaşım biçimiyle sunması; akran ve öz değerlendirmeyi genel beğeni yerine metindeki gözlenebilir yazma kanıtlarına dayandırması.",
+      "outcome_codes": ["TDE4.2", "TDE4.3", "TDE4.4"],
+      "opening": "P03'te seçilen son risk alanı hatırlanır. 'Bir metne geri bildirim verirken yazarı mı, yoksa metinde gördüğümüz somut tercihi mi değerlendirmeliyiz?' sorusuyla değerlendirme etiği belirlenir.",
+      "teacher_actions": [
+        "Paylaşımda öğrencinin kişisel sınırlarını koru; metnin tamamını yüksek sesle veya sınıfın tümüne açmak zorunlu değildir, görevin değerlendirme kanıtını sağlayan güvenli paylaşım biçimi kullanılabilir.",
+        "FORM_BOB_10_T3_T4_AKRAN ile akran değerlendirmesini yürüt; her gelişim yorumunun metinden bir bölüm/özellik kanıtına dayanmasını iste.",
+        "Akran değerlendirmesinde kişinin yaşamına, seçimlerine veya kimliğine yönelik yargıları engelle; yalnız yazılı ürün ve görev ölçütlerine odaklan.",
+        "FORM_BOB_07_T4_YAZMA_OZ ile planlama, kronoloji/olay akışı, söz varlığı, akıcılık/geçiş ve yazım-noktalama boyutlarında öz değerlendirme yaptır.",
+        "Öz ve akran bulguları farklıysa hangisinin 'doğru kişi' olduğunu seçtirmek yerine metindeki kanıtı karşılaştır.",
+        "Saat sonunda bir güçlü yön ve bir gelişim alanını somut metin kanıtıyla kaydettir."
+      ],
+      "student_actions": [
+        "Otobiyografisini güvenli ve uygun biçimde paylaşır.",
+        "Bir akran metnine görev ölçütleri ve metin kanıtıyla geri bildirim verir.",
+        "Kendi metnini öz değerlendirme formuyla inceler.",
+        "Öz ve akran değerlendirme farklarını metindeki kanıtla tartışır.",
+        "Bir güçlü yön ve bir gelişim alanı belirler."
+      ],
+      "activity_ids": ["T4_ACT_13_YAZMA_SONRASI"],
+      "form_ids": ["FORM_BOB_07_T4_YAZMA_OZ", "FORM_BOB_10_T3_T4_AKRAN"],
+      "assessment": "Ana kanıt doldurulmuş öz ve akran değerlendirme formları ile her önemli geri bildirimin bağlandığı somut metin örneğidir. Kişisel yaşamın kendisi puanlanmaz; yazılı anlatım performansı değerlendirilir.",
+      "closure": "Öğrenci 'Metnimde korumak istediğim güçlü tercih ...; geliştirmek istediğim alan ...; bunu ... bölümündeki kanıttan görüyorum.' ifadesini tamamlar.",
+      "materials": ["P03 redaksiyonlu taslak", "FORM_BOB_07_T4_YAZMA_OZ — s.308", "FORM_BOB_10_T3_T4_AKRAN — s.311"]
+    },
+    {
+      "lesson_no": 2,
+      "duration_lesson_hours": 1,
+      "title": "Öğretmen gözlemi ve yıllık rubrikle ürün değerlendirmesi",
+      "objective": "Öğrencinin öğretmen gözlemi ve approved yıllık yazma rubriği kanıtını öz/akran geri bildirimiyle karşılaştırması ve final revizyon için tek, metinde gözlenebilir öncelik seçmesi.",
+      "outcome_codes": ["TDE4.2", "TDE4.3", "TDE4.4"],
+      "opening": "Öz ve akran kayıtlarına öğretmen gözlemi ile rubrik kanıtı eklenir. 'Hangi bulgu birden fazla değerlendirme kaynağında tekrar ediyor?' sorusuyla senteze geçilir.",
+      "teacher_actions": [
+        "FORM_BOB_11_GENEL_GOZLEM ile süreç ve ürün gözlemini kaydet.",
+        "Current approved TDE9_YAZMA_RUBRIC / RES_T4_SHARED_YAZMA_RUBRIC ile ürünün gerçek summative değerlendirmesini yap.",
+        "Rubrikte yıllık çekirdek ölçütleri koru: Tema-Anlam-Ana Düşünce/Duygu Tutarlılığı; Metin Yapısı ve Türe Özgü Kurgu; Dil-Anlatım ve Söz Varlığının Bağlama Uygunluğu; Türkçenin Kuralları (İmla, Noktalama ve Bağdaşıklık).",
+        "Tema 4 task-binding kanıtlarını bu çekirdek ölçütlerin içinde değerlendir; ayrıca yeni bir otobiyografi rubrik kriteri icat etme.",
+        "Öz, akran, gözlem ve rubrik verilerini tek yapay puan ortalamasına dönüştürme; rubrik ana ürün puanı, diğerleri geri bildirim kanıtı olarak kalsın.",
+        "Öğrencinin P05 için tek nihai revizyon önceliği seçmesini sağla ve bunu 'mevcut kanıt → değiştirilecek özellik → beklenen yeni kanıt' biçiminde yazdır.",
+        "Approved checklist aşama 5'i paylaşım ve yansıtma kanıtı oluştuğunda tamamlat; checklistin rubrik puanına katkı vermediğini koru."
+      ],
+      "student_actions": [
+        "Öğretmen gözlemi ve rubrik sonucunu öz/akran geri bildirimiyle karşılaştırır.",
+        "Tekrarlanan güçlü ve gelişim gerektiren bulguları belirler.",
+        "P05 için tek nihai revizyon önceliği seçer.",
+        "Revizyon hedefini mevcut metin kanıtıyla gerekçelendirir.",
+        "Checklist aşama 5'i paylaşım/yansıtma kanıtına göre işaretler."
+      ],
+      "activity_ids": ["T4_ACT_13_YAZMA_SONRASI"],
+      "form_ids": ["FORM_BOB_07_T4_YAZMA_OZ", "FORM_BOB_10_T3_T4_AKRAN", "FORM_BOB_11_GENEL_GOZLEM"],
+      "assessment": "Ana summative kayıt approved TDE9_YAZMA_RUBRIC puanı ve ölçüt kanıtlarıdır. Öz/akran/gözlem kayıtları ayrık geri bildirim kaynakları olarak korunur. P05 hedefi tek ve metinde gözlenebilir olmalıdır.",
+      "closure": "Öğrenci 'Final sürümde yalnız ... alanını öncelikle değiştireceğim; mevcut kanıt ...; revizyondan sonra ... değişikliğini görmeyi bekliyorum.' ifadesini tamamlar.",
+      "materials": ["TDE9_YAZMA_RUBRIC / RES_T4_SHARED_YAZMA_RUBRIC", "FORM_BOB_11_GENEL_GOZLEM — s.312", "Öz ve akran değerlendirme kayıtları", "TDE9_YAZMA_SUREC_KONTROL_LISTESI"]
+    }
+  ],
+  "teacher_notes": "TDE9_YAZMA_RUBRIC approval zinciri current kaynak kimlikleriyle doğrulanmıştır. Checklist ile ürün rubriğinin işlevleri ayrı tutulur. Otobiyografi değerlendirmesinde öğrencinin yaşamının değeri veya niteliği değil, yazma performansı değerlendirilir.",
+  "continuation_summary": {
+    "planned_now_hours": 2,
+    "remaining_block_hours": 2,
+    "covered_outcome_codes": ["TDE4.1", "TDE4.2", "TDE4.3", "TDE4.4"],
+    "used_activity_ids": ["T4_ACT_13_YAZMA_SONRASI"],
+    "next_step_hint": "P05'te seçilen tek nihai revizyon önceliğini uygula, final otobiyografiyi oluştur; ardından T4_ACT_14 tema sonu ölçme ve T4_ACT_15 öğrenme günlüğü/yıl sonu yansıtmasıyla Tema 4 ve 9. sınıf çekirdek üretimini kapat."
+  }
+}
