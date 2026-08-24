@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "TDE_9",
+  "theme_id": "TEMA_04",
+  "block_id": "BLOCK_T4_04_YAZMA",
+  "lesson_hours": 2,
+  "plan_title": "Plandan İlk Metne: Yaşam Olaylarını Kendi Sesinle Anlatmak",
+  "plan_summary": "Tema 4 Yazma bloğunun 3. ve 4. saatlerinde öğrenciler P01 planlarını T4_ACT_12 kapsamında ilk tam otobiyografi taslağına dönüştürür. İlk saatte giriş ve yaşam olaylarının anlatımı; ikinci saatte olaylar arasındaki geçişler, anlatıcının bugünkü bakışı ve metin bütünlüğü geliştirilir. Approved yazma süreci checklist'inin 3. aşaması yalnız taslağın gerçekten oluşup oluşmadığını izler. FORM_IN_T4_YAZMA_CRITERIA içerik ve akış için biçimlendirici kontroldür; approved TDE9_YAZMA_RUBRIC summative puanlaması yapılmaz.",
+  "outcome_codes": ["TDE4.1", "TDE4.2", "TDE4.3"],
+  "used_activity_ids": ["T4_ACT_12_YAZMA_SIRASI"],
+  "used_form_ids": ["FORM_IN_T4_YAZMA_CRITERIA"],
+  "lessons": [
+    {
+      "lesson_no": 1,
+      "duration_lesson_hours": 1,
+      "title": "Girişten yaşam olaylarına: ilk taslağı başlatma",
+      "objective": "Öğrencinin P01 planına bağlı kalarak kendi yaşamından seçtiği olayları birinci kişi bakışı ve kişisel üslup işaretleriyle ilk taslağa dönüştürmesi.",
+      "outcome_codes": ["TDE4.1", "TDE4.2"],
+      "opening": "P01 planı açılır. 'Okurun olayları bilmesi ile o olayların senin için ne ifade ettiğini anlaması arasındaki farkı metninde nasıl göstereceksin?' sorusuyla taslağa geçilir.",
+      "teacher_actions": [
+        "Öğrenciyi planındaki giriş odağına bağlı kalarak yazmaya başlat; herkese tek tip kalıp giriş cümlesi verme.",
+        "Olay anlatımında zaman/mekân/kişi ayrıntılarının yalnız anlam ve akışa hizmet edenlerini seçmesini iste.",
+        "Öğrencinin kendi bakışını görünür kılan düşünce, duygu ve değerlendirme cümlelerini olay bilgisinden ayırt ettir.",
+        "Kişisel üslup hedefini 'süslü yazı' olarak tanımlama; sözcük seçimi, cümle ritmi, ayrıntı seçimi ve anlatıcının bakışı üzerinden gözlet.",
+        "Öğrencinin hassas kişisel bilgileri ayrıntılandırmak zorunda olmadığını yeniden hatırlat.",
+        "Saat sonunda taslağın planın en az giriş ve ana gelişme bölümünü karşılayıp karşılamadığını kontrol et."
+      ],
+      "student_actions": [
+        "P01 planına göre ilk taslağını yazmaya başlar.",
+        "Olay bilgisi ile olay hakkındaki kişisel değerlendirmesini ayırır.",
+        "Anlamı destekleyen ayrıntıları seçer.",
+        "Kendi söyleyişini yansıtan sözcük ve cümle tercihleri yapar.",
+        "Plan ile yazılan taslak arasındaki uyumu kontrol eder."
+      ],
+      "activity_ids": ["T4_ACT_12_YAZMA_SIRASI"],
+      "form_ids": [],
+      "assessment": "Kanıt, planın ana odağına bağlı olarak oluşturulmuş giriş ve gelişme taslağıdır. Öğrencinin olay anlatımı ile kişisel anlamlandırması metinde ayırt edilebilir olmalıdır.",
+      "closure": "Öğrenci taslaktaki bir paragrafı seçip 'Bu paragrafta olay bilgisi ..., benim bugünkü yorumum ise ... cümlesinde görülüyor.' diye açıklar.",
+      "materials": ["P01 yazma planı", "Yaşam kesiti havuzu", "Taslak yazma ortamı"]
+    },
+    {
+      "lesson_no": 2,
+      "duration_lesson_hours": 1,
+      "title": "İlk tam taslak: kronoloji, geçişler ve bugünkü bakış",
+      "objective": "Öğrencinin otobiyografi taslağını tamamlaması; olaylar arasında anlaşılır bağlar kurması ve metnin sonunda yaşam deneyimlerine ilişkin bugünkü bakışını metnin amacıyla ilişkilendirmesi.",
+      "outcome_codes": ["TDE4.1", "TDE4.2", "TDE4.3"],
+      "opening": "Yarım taslakta olay geçişlerinden biri seçilir. 'Okur burada neden bir sonraki olaya geçtiğini anlayabiliyor mu?' sorusuyla bağdaşıklık kontrolü başlatılır.",
+      "teacher_actions": [
+        "Taslağın gelişme ve sonuç bölümlerini tamamlat.",
+        "Olaylar arasındaki zaman, neden-sonuç ve anlam bağlarını açık geçişlerle kurdur; yalnız bağlaç eklemenin yeterli olmadığını göster.",
+        "Zaman kipleri ve kişi kullanımında anlatımın anlaşılmasını bozan tutarsızlıkları öğrenciye fark ettir, ancak kapsamlı redaksiyonu P03'e bırak.",
+        "Sonuç bölümünde yalnız olayları özetletmek yerine öğrencinin seçtiği deneyimlerin bugünkü bakışına etkisini ifade ettir.",
+        "Approved checklist aşama 3 — Taslak Oluşturma'yı kullandır; ilk tam metin yoksa aşama TAMAMLANDI sayılmasın.",
+        "FORM_IN_T4_YAZMA_CRITERIA ile plan, kronoloji/olay akışı, söz varlığı ve akıcılık boyutlarında biçimlendirici kontrol yaptır; puan üretme."
+      ],
+      "student_actions": [
+        "İlk tam otobiyografi taslağını tamamlar.",
+        "Olaylar arasında zaman/neden/anlam geçişleri kurar.",
+        "Kendi bakış ve söyleyişini metin boyunca sürdürmeye çalışır.",
+        "Sonuçta seçilen yaşam deneyimlerinin bugünkü anlamını ifade eder.",
+        "Checklist aşama 3'ü yalnız tam taslak kanıtı varsa işaretler."
+      ],
+      "activity_ids": ["T4_ACT_12_YAZMA_SIRASI"],
+      "form_ids": ["FORM_IN_T4_YAZMA_CRITERIA"],
+      "assessment": "Ana ürün ilk tam otobiyografi taslağıdır. Plan-taslak uyumu, olay akışı, kişisel bakış ve metin bütünlüğü biçimlendirici olarak kontrol edilir; summative rubrik puanı verilmez.",
+      "closure": "Öğrenci P03 için taslağında en çok kontrol edilmesi gereken tek alanı işaretler: içerik/kronoloji, geçiş, söz varlığı, cümle kuruluşu veya yazım-noktalama.",
+      "materials": ["P02 ilk saat taslağı", "TDE9_YAZMA_SUREC_KONTROL_LISTESI", "FORM_IN_T4_YAZMA_CRITERIA"]
+    }
+  ],
+  "teacher_notes": "P02'nin amacı ilk tam taslağı üretmektir; kusursuz son ürün beklenmez. TDE9_YAZMA_SUREC_KONTROL_LISTESI aşama 3 süreç kanıtını izler. Ürün puanlama rubriği P04 paylaşım/değerlendirme aşamasına kadar summative kullanılmaz.",
+  "continuation_summary": {
+    "planned_now_hours": 2,
+    "remaining_block_hours": 6,
+    "covered_outcome_codes": ["TDE4.1", "TDE4.2", "TDE4.3"],
+    "used_activity_ids": ["T4_ACT_12_YAZMA_SIRASI"],
+    "next_step_hint": "P03'te checklist aşama 4 ile ilk taslağı içerik-kronoloji, kişisel üslup, bağdaşıklık, dil-anlatım, yazım ve noktalama bakımından kanıtlı redaksiyona al."
+  }
+}
