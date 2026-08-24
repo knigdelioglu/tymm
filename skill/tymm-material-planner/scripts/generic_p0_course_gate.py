@@ -1,15 +1,9 @@
 #!/usr/bin/env python3
 """Generic P0 gate for TYMM course knowledge packages.
 
-Unlike the TDE_9 historical regression gate, this gate derives expected artifact
-and gap counts from the course production manifest. It therefore supports both:
-- generated-artifact courses, and
-- verified reuse-only courses with zero resource gaps / zero new artifacts.
-
-The gate remains fail-closed for stale indexes, ambiguous outcome codes,
-knowledge conflicts, and generation requests with no verified resource gap.
+The gate derives production expectations from the course manifest and also enforces
+canonical process-component inheritance whenever the course carries a resolution contract.
 """
-
 from __future__ import annotations
 
 import json
@@ -26,8 +20,9 @@ REPO_ROOT = SKILL_DIR.parent.parent
 sys.path.insert(0, str(SCRIPT_DIR))
 
 from build_runtime_course_package import build as build_runtime
-from knowledge_index import KnowledgeIndexer
+from effective_knowledge_index import KnowledgeIndexer
 from knowledge_resolver import KnowledgeResolver
+from p0_process_component_gate import gate as process_component_gate
 from production_schema import PARITY_BLOCKED_MODE, REUSE_ONLY_MODE, build_artifact_maps
 
 
@@ -50,7 +45,10 @@ def canonical_gate(root: Path) -> dict:
     require(len(themes) == 4, f"expected 4 themes, got {len(themes)}")
     outcome_count = sum(len(t.get("learning_outcomes", [])) for t in themes)
     require(outcome_count > 0, "no canonical learning outcomes")
-    return {"themes": len(themes), "outcomes": outcome_count, "status": "PASS"}
+    result = {"themes": len(themes), "outcomes": outcome_count, "status": "PASS"}
+    if (root / "curriculum_process_component_resolution.json").exists():
+        result["process_component_inheritance"] = process_component_gate(root)
+    return result
 
 
 def production_gate(root: Path) -> dict:
@@ -98,17 +96,32 @@ def rebuild_index_gate(root: Path, production: dict) -> dict:
     require(manifest.get("production_artifact_count") == production["expected_new_artifact_count"], "index artifact count mismatch")
     require(manifest.get("production_gap_alias_count") == production["verified_resource_gap_count"], "index gap alias count mismatch")
 
+    source_paths = {x.get("path") for x in manifest.get("source_files", [])}
+    resolved_process_components = (root / "curriculum_process_component_resolution.json").exists()
+    if resolved_process_components:
+        require("curriculum_process_component_resolution.json" in source_paths, "process-component resolution contract absent from index fingerprint")
+        require("../TDE_SHARED/curriculum_process_component_catalog.json" in source_paths, "shared process-component roof absent from index fingerprint")
+
     db = sqlite3.connect(indexer.db_path)
     artifact_rows = db.execute("SELECT entity_id,entity_key FROM metadata WHERE entity_type='assessment_artifact' ORDER BY entity_id").fetchall()
     duplicate_count = db.execute("SELECT COUNT(*) FROM (SELECT entity_key FROM metadata GROUP BY entity_key HAVING COUNT(*)>1)").fetchone()[0]
+    process_origin_counts = dict(db.execute("SELECT origin,COUNT(*) FROM metadata WHERE entity_type='process_component' GROUP BY origin").fetchall())
     db.close()
     require(len(artifact_rows) == production["expected_new_artifact_count"], "assessment_artifact row count mismatch")
     require(duplicate_count == 0, "duplicate entity_key in rebuilt index")
+    if resolved_process_components:
+        contract = read_json(root / "curriculum_process_component_resolution.json")
+        expected = contract.get("expected_counts", {})
+        if expected.get("inherited_component_outcomes", 0) > 0:
+            require(process_origin_counts.get("roof_inherited", 0) > 0, "roof-inherited process components missing from index")
+        if expected.get("explicit_component_outcomes", 0) > 0:
+            require(process_origin_counts.get("theme_explicit", 0) > 0, "theme-explicit process components missing from index")
     return {
         "freshness": status.get("status"),
         "indexed_record_count": manifest.get("indexed_record_count"),
         "artifact_rows": [{"entity_id": r[0], "entity_key": r[1]} for r in artifact_rows],
         "duplicate_entity_keys": duplicate_count,
+        "process_component_origins": process_origin_counts,
         "status": "PASS",
     }
 
@@ -118,7 +131,7 @@ def resolver_gate(root: Path, production: dict) -> dict:
     curriculum = read_json(root / "curriculum_map.json")
     probes = []
     for theme in curriculum.get("themes", []):
-        theme_no = theme.get("theme_no")
+        theme_no = theme.get("theme_no", theme.get("theme_number"))
         outcomes = theme.get("learning_outcomes", [])
         require(outcomes, f"theme {theme_no} has no outcomes")
         code = outcomes[-1].get("outcome_code")
@@ -131,7 +144,6 @@ def resolver_gate(root: Path, production: dict) -> dict:
         require(matching, f"resolver probe returned no alignment for {query}")
         probes.append({"query": query, "coverage": matching[0].get("primary_coverage")})
 
-    # Repeated outcome codes across themes must be ambiguous without a theme scope.
     ambiguous_code = curriculum["themes"][0]["learning_outcomes"][-1]["outcome_code"]
     ambiguous = resolver.resolve(ambiguous_code)
     require(ambiguous.get("ambiguity_status") == "AMBIGUOUS_ENTITY", "theme-less repeated outcome did not become ambiguous")
@@ -167,10 +179,20 @@ def resolver_gate(root: Path, production: dict) -> dict:
     }
 
 
+def copy_shared_process_catalog(root: Path, temp_root: Path) -> None:
+    if not (root / "curriculum_process_component_resolution.json").exists():
+        return
+    shared_src = root.parent / "TDE_SHARED"
+    shared_dst = temp_root.parent / "TDE_SHARED"
+    if shared_src.exists() and not shared_dst.exists():
+        shutil.copytree(shared_src, shared_dst)
+
+
 def stale_gate(root: Path) -> dict:
     with tempfile.TemporaryDirectory() as td:
         temp_root = Path(td) / root.name
         shutil.copytree(root, temp_root)
+        copy_shared_process_catalog(root, temp_root)
         path = sorted(temp_root.glob("themes/tema_*/alignment.json"))[0]
         data = read_json(path)
         data["p0_stale_probe"] = True
@@ -187,6 +209,7 @@ def conflict_gate(root: Path) -> dict:
     with tempfile.TemporaryDirectory() as td:
         temp_root = Path(td) / root.name
         shutil.copytree(root, temp_root)
+        copy_shared_process_catalog(root, temp_root)
         path = sorted(temp_root.glob("themes/tema_*/gap_analysis.json"))[0]
         data = read_json(path)
         rows = data.get("gap_records", []) or data.get("gaps", [])
@@ -214,6 +237,18 @@ def runtime_gate(root: Path, canonical: dict, production: dict) -> dict:
     require(counts.get("blocks") == expected_blocks, f"runtime block count mismatch: {counts.get('blocks')} != {expected_blocks}")
     require(counts.get("assessment_artifacts") == production["expected_new_artifact_count"], "runtime artifact count mismatch")
     require(counts.get("assessment_gap_mappings") == production["verified_resource_gap_count"], "runtime gap mapping count mismatch")
+    if (root / "curriculum_process_component_resolution.json").exists():
+        manifest = read_json(root / "runtime/runtime_manifest.json")
+        require(manifest.get("process_component_resolution_status") == "PASS", "runtime process-component resolution not PASS")
+        expected = read_json(root / "curriculum_process_component_resolution.json").get("expected_counts", {})
+        require(manifest.get("process_component_counts", {}).get("inherited_component_outcomes") == expected.get("inherited_component_outcomes"), "runtime inherited process-component outcome count mismatch")
+        db = sqlite3.connect(root / "runtime/course_runtime.sqlite")
+        empty = db.execute("SELECT COUNT(*) FROM outcomes WHERE process_components IS NULL OR process_components='' OR process_components='[]'").fetchone()[0]
+        origin_counts = dict(db.execute("SELECT process_component_origin,COUNT(*) FROM outcomes GROUP BY process_component_origin").fetchall())
+        db.close()
+        require(empty == expected.get("verified_no_component_outcomes", 0), f"runtime effective process components unexpectedly empty: {empty}")
+        require(origin_counts.get("ROOF_INHERITED", 0) == expected.get("inherited_component_outcomes", 0), f"runtime roof origin mismatch: {origin_counts}")
+        require(origin_counts.get("THEME_EXPLICIT", 0) == expected.get("explicit_component_outcomes", 0), f"runtime explicit origin mismatch: {origin_counts}")
     return {"status": "PASS", "row_counts": counts}
 
 
