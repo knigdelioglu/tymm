@@ -5,7 +5,7 @@ Artifact Generation Engine V1 intentionally ships a generic descriptor fallback 
 non-pilot rubrics. The annual writing rubric needs criterion-specific observable
 performance descriptors before teacher review, so this module applies a validated
 4x4 writing descriptor matrix while preserving canonical criteria, provenance,
-scoring, task bindings, context hash, and lifecycle rules.
+scoring, task bindings, runtime context validation, and lifecycle rules.
 """
 from __future__ import annotations
 
@@ -89,7 +89,7 @@ def render_review(context: Dict[str, Any], artifact: Dict[str, Any]) -> str:
         f"**Lifecycle:** `{artifact.get('lifecycle_status')}`  ",
         f"**Artifact revision:** `{artifact.get('artifact_revision')}`  ",
         f"**Generator:** `{artifact.get('generator_version')}` + `writing_rubric_generation`  ",
-        f"**Generation context hash:** `{context.get('context_hash')}`  ",
+        "**Context:** canonical production/registry/assessment sources + fresh runtime validation  ",
         "",
         "Bu belge yıllık yazma rubriğinin öğretmen incelemesi için insan-okunur snapshot'ıdır. "
         "Kriter adları ve kapsam canonical kaynaklardan gelir; hücre düzeyi performans "
