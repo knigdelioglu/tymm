@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "TDE_9",
+  "theme_id": "TEMA_04",
+  "block_id": "BLOCK_T4_01_OKUMA",
+  "lesson_hours": 2,
+  "plan_title": "Çalıkuşu'nda Anlam Katmanı: Çatışma, Söz Varlığı ve Dönem-Dil Kanıtları",
+  "plan_summary": "15 saatlik 4. Tema Okuma bloğunun 3. ve 4. ders saatlerinde öğrenciler P01'de işaretledikleri Çalıkuşu kanıtlarını T4_ACT_02_OKUMA_SIRASI_ROMAN kapsamında anlamlandırır. İlk saatte çatışmanın tarafları, nedenleri ve karakterler üzerindeki etkileri metin kanıtıyla açıklanır; ikinci saatte bağlamdan söz varlığı çıkarımı ile dönem/zihniyet ve dil göstergeleri birbirinden ayrılır. Öğrencinin dış bilgisi metin kanıtının yerine geçirilmez. Olay örgüsü, anlatıcı/bakış açısı, Yunus Emre dramatik metni ve iki metnin karşılaştırılması sonraki paketlere bırakılır.",
+  "outcome_codes": ["TDE2.2"],
+  "used_activity_ids": ["T4_ACT_02_OKUMA_SIRASI_ROMAN"],
+  "used_form_ids": [],
+  "lessons": [
+    {
+      "lesson_no": 1,
+      "duration_lesson_hours": 1,
+      "title": "Çatışmanın taraflarını, nedenlerini ve sonuçlarını metin kanıtıyla açıklama",
+      "objective": "Öğrencinin P01'de işaretlediği çatışma/gerilim göstergelerini sınıflandırması; çatışmanın kimler veya hangi değerler arasında kurulduğunu, nedenini ve karakter üzerindeki etkisini doğrudan metin kanıtıyla açıklaması.",
+      "outcome_codes": ["TDE2.2"],
+      "opening": "P01'deki Ç işaretleri açılır. 'Bir gerilim işareti hangi koşulda gerçek bir çatışma kanıtına dönüşür?' sorusuyla işaretlerden anlam ilişkisine geçilir.",
+      "teacher_actions": [
+        "T4_ACT_02_OKUMA_SIRASI_ROMAN kapsamındaki P01 çatışma işaretlerini yeniden kullandır.",
+        "Her çatışma için 'taraflar/değerler → metin kanıtı → neden → karakter veya olay üzerindeki etki' zincirini kurdur.",
+        "Öğrencinin karakterin niyetini yalnız varsayımla açıklamasını engelle; yorumun metindeki söz, davranış veya durum göstergesine dayanmasını iste.",
+        "Birden fazla çatışma düzeyi varsa öğrencilerin bunları tek bir etikete sıkıştırmasına izin verme; metin kanıtına göre ayrı tut.",
+        "P01'deki okuma varsayımlarından en az birini yeni çatışma kanıtıyla yeniden sınat.",
+        "Bu saatte anlatıcı ve bakış açısı terminolojisini tamamlamaya çalışma; anlam ilişkisini öne al."
+      ],
+      "student_actions": [
+        "P01'deki çatışma/gerilim işaretlerini yeniden inceler.",
+        "En az iki çatışma için tarafları veya karşı karşıya gelen değerleri belirler.",
+        "Her çatışmayı doğrudan metin kanıtıyla gerekçelendirir.",
+        "Çatışmanın karakter veya olay üzerindeki etkisini açıklar.",
+        "Bir okuma varsayımını desteklenen, zayıflayan veya belirsiz olarak günceller."
+      ],
+      "activity_ids": ["T4_ACT_02_OKUMA_SIRASI_ROMAN"],
+      "form_ids": [],
+      "assessment": "Ana ürün 'çatışma/değerler → metin kanıtı → neden → etki' tablosudur. En az iki satırın kanıtla tamamlanması beklenir.",
+      "closure": "Öğrenci 'Metindeki temel çatışmalardan biri ... ile ... arasındadır; bunu ... kanıtı gösteriyor ve bu durum ... etkisini oluşturuyor.' ifadesini tamamlar.",
+      "materials": ["Çalıkuşu metni — ders kitabı s.226–235", "P01 Ç/D/? işaretleme kaydı", "T4_ACT_02_OKUMA_SIRASI_ROMAN"]
+    },
+    {
+      "lesson_no": 2,
+      "duration_lesson_hours": 1,
+      "title": "Söz varlığını bağlamdan anlamlandırma ve dönem-dil göstergelerini ayırt etme",
+      "objective": "Öğrencinin P01'de ? ve D ile işaretlediği sözcük/ifadeleri bağlam ipuçlarıyla anlamlandırması; dil göstergesi ile dönem/zihniyet çıkarımını birbirine karıştırmadan kanıta dayalı açıklaması.",
+      "outcome_codes": ["TDE2.2"],
+      "opening": "P01'de ? ile işaretlenen bir ifade seçilir. 'Bir sözcüğün sözlük anlamını bilmeden önce metnin bize verdiği hangi ipuçlarını kullanabiliriz?' sorusuyla bağlam çalışması başlatılır.",
+      "teacher_actions": [
+        "Öğrenciden seçtiği sözcük/ifade için önce cümle içi, ardından yakın bağlam ipuçlarını toplamasını iste.",
+        "Tahmin edilen anlamı gerekçesiz doğru/yanlış olarak vermek yerine 'ipucu → anlam tahmini → metindeki işlev' zinciriyle çalıştır.",
+        "D işaretlerini iki başlıkta ayır: doğrudan dil/söz varlığı göstergesi ve dönem/zihniyete ilişkin çıkarım sağlayan metin göstergesi.",
+        "Döneme ilişkin dış tarihsel bilgiyi metin kanıtı gibi kullandırma; yalnız metnin desteklediği çıkarımı yazdır.",
+        "En az bir göstergede dil seçiminin karakter, ortam veya anlatım etkisine nasıl katkıda bulunduğunu sorgulat.",
+        "Saat sonunda öğrenciden P01'deki iki D işaretinden birini daha güçlü bir gerekçeyle yeniden yazmasını iste."
+      ],
+      "student_actions": [
+        "En az iki sözcük/ifade için bağlam ipuçlarını toplar.",
+        "Her biri için anlam tahmini ve metindeki işlev açıklaması yapar.",
+        "Dil göstergesi ile dönem/zihniyet çıkarımını ayrı kaydeder.",
+        "Bir dil seçiminin karakter, ortam veya anlatım etkisine katkısını açıklar.",
+        "P01'deki bir D işaretini yeni kanıtla geliştirir."
+      ],
+      "activity_ids": ["T4_ACT_02_OKUMA_SIRASI_ROMAN"],
+      "form_ids": [],
+      "assessment": "Ana kanıt 'ifade → bağlam ipucu → anlam tahmini → işlev' ve 'metin göstergesi → dil/dönem çıkarımı → gerekçe' kayıtlarıdır.",
+      "closure": "Öğrenci '... ifadesinin anlamını ... bağlam ipucundan çıkardım; metindeki işlevi ... . Ayrıca ... göstergesi dönem/dil açısından ... çıkarımını destekliyor.' cümlesini tamamlar.",
+      "materials": ["Çalıkuşu metni", "P01 söz varlığı ve D işaretleri", "T4_ACT_02_OKUMA_SIRASI_ROMAN"]
+    }
+  ],
+  "teacher_notes": "Bu paket BLOCK_T4_01_OKUMA bloğunun pedagojik olarak tasarlanmış 3. ve 4. saatleridir; resmî MEB saat-saat alt sıralaması değildir. Kaynak hizalama raporu TDE2.2 için roman-tiyatro karşılaştırması ve söz varlığı tahlilini, TDE2.3 için yapı/üslup/şekil bilgisi tahlillerini doğrular. P02 yalnız Çalıkuşu'ndaki anlam katmanını derinleştirir; yapı çözümlemesi ile Yunus Emre karşılaştırması sonraya bırakılır.",
+  "continuation_summary": {
+    "planned_now_hours": 2,
+    "remaining_block_hours": 11,
+    "covered_outcome_codes": ["TDE2.1", "TDE2.2"],
+    "used_activity_ids": ["T4_ACT_01_OKUMA_ONCESI_ROMAN", "T4_ACT_02_OKUMA_SIRASI_ROMAN"],
+    "next_step_hint": "P03'te Recep Bilginer'in Yunus Emre dramatik metni T4_ACT_02 kapsamında amaçlı okunmalı; çatışma, dramatik yapı ve dil/üslup göstergeleri metin kanıtıyla toplanmalı. İki metnin karşılaştırması T4_ACT_03 ile P04'e bırakılmalıdır."
+  }
+}
