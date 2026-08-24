@@ -65,6 +65,9 @@ jobs:
       - name: Run post-approval resume regressions
         run: python skill/tymm-material-planner/tests/test_resume_after_teacher_approval.py
 
+      - name: Run writing rubric descriptor regressions
+        run: python skill/tymm-material-planner/tests/test_writing_rubric_generation.py
+
       - name: Generate canonical speaking rubric pilot
         run: |
           python skill/tymm-material-planner/scripts/artifact_generator.py generate \
@@ -78,10 +81,36 @@ jobs:
       - name: Run Generator V1 pilot engineering gate
         run: python skill/tymm-material-planner/scripts/generator_v1_gate.py
 
-      - name: Upload generated pilot for teacher review
+      - name: Apply tracked speaking-rubric teacher approval
+        run: |
+          python skill/tymm-material-planner/scripts/teacher_approval.py apply \
+            --artifact-id TDE9_KONUSMA_RUBRIC
+
+      - name: Generate annual writing rubric review draft
+        run: python skill/tymm-material-planner/scripts/writing_rubric_generation.py
+
+      - name: Validate annual writing rubric draft
+        run: |
+          python skill/tymm-material-planner/scripts/artifact_generator.py validate \
+            --artifact-id TDE9_YAZMA_RUBRIC
+
+      - name: Report writing-rubric teacher approval state
+        run: |
+          python skill/tymm-material-planner/scripts/teacher_approval.py status \
+            --artifact-id TDE9_YAZMA_RUBRIC
+
+      - name: Upload generated speaking rubric
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: TDE9_KONUSMA_RUBRIC-pilot
+          name: TDE9_KONUSMA_RUBRIC-approved-pilot
           path: courses/TDE_9/generated/TDE9_KONUSMA_RUBRIC
+          if-no-files-found: error
+
+      - name: Upload generated writing rubric for teacher review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: TDE9_YAZMA_RUBRIC-review
+          path: courses/TDE_9/generated/TDE9_YAZMA_RUBRIC
           if-no-files-found: error
