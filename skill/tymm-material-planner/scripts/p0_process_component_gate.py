@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import json
+from collections import Counter
 from pathlib import Path
 from typing import Any
 
@@ -64,6 +65,11 @@ def validate_compact_contract(
     if expected_outcome_ids is not None:
         require(len(expected_outcome_ids) == len(set(expected_outcome_ids)), "duplicate expected_outcome_ids in compact contract")
         require(set(expected_outcome_ids) == set(audit_by_id), "compact contract expected_outcome_ids differ from curriculum")
+
+    expected_distribution = contract.get("expected_parent_family_distribution")
+    if expected_distribution is not None:
+        actual_distribution = dict(Counter(row.get("outcome_code") for row in audit_by_id.values()))
+        require(actual_distribution == expected_distribution, f"parent family distribution mismatch: actual={actual_distribution} expected={expected_distribution}")
 
     mismatches: list[dict[str, Any]] = []
     for oid, actual in sorted(audit_by_id.items()):
@@ -136,7 +142,7 @@ def gate(root: Path, catalog_path: Path | None = None) -> dict[str, Any]:
     require(not mismatches, f"process component resolution contract mismatches: {mismatches[:10]}")
 
     result = {
-        "schema_version": "1.1",
+        "schema_version": "1.2",
         "course_id": curriculum.get("course_id"),
         "catalog_id": catalog.get("catalog_id"),
         "contract_mode": contract_mode,
