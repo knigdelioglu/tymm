@@ -10,7 +10,7 @@ from typing import Any
 
 from build_runtime_course_package import compiler_state
 
-CONTEXT_VERSION = "1.0.0"
+CONTEXT_VERSION = "1.1.0"
 
 
 def read_json(path: Path) -> dict[str, Any]:
@@ -39,6 +39,8 @@ def require_runtime_fresh(root: Path) -> dict[str, Any]:
         raise ValueError("LESSON_PLAN_RUNTIME_STALE")
     if manifest.get("timeline_resolution") != "BLOCK_TIME_RESOLVED":
         raise ValueError(f"LESSON_PLAN_BLOCK_TIME_UNRESOLVED: {manifest.get('timeline_resolution')}")
+    if (root / "curriculum_process_component_resolution.json").exists() and manifest.get("process_component_resolution_status") != "PASS":
+        raise ValueError(f"LESSON_PLAN_PROCESS_COMPONENTS_UNRESOLVED: {manifest.get('process_component_resolution_status')}")
     return manifest
 
 
@@ -81,7 +83,8 @@ def assemble(root: Path, block_id: str, requested_lesson_hours: int | None = Non
 
         outcomes = [dict(row) for row in db.execute(
             """
-            SELECT o.outcome_id,o.outcome_code,o.official_text,o.process_components,o.source_locator,o.verification_status
+            SELECT o.outcome_id,o.outcome_code,o.official_text,o.process_components,o.process_component_origin,
+                   o.source_locator,o.verification_status
             FROM block_outcomes bo
             JOIN outcomes o ON o.outcome_id=bo.outcome_id
             WHERE bo.block_id=?
@@ -89,6 +92,10 @@ def assemble(root: Path, block_id: str, requested_lesson_hours: int | None = Non
             """,
             (block_id,),
         )]
+        for outcome in outcomes:
+            outcome["process_components"] = parse_json(outcome.get("process_components"), [])
+            if manifest.get("process_component_resolution_status") == "PASS" and not outcome["process_components"]:
+                raise ValueError(f"LESSON_PLAN_EFFECTIVE_PROCESS_COMPONENTS_EMPTY: {outcome.get('outcome_id')}")
 
         activities = [dict(row) for row in db.execute(
             """
@@ -197,6 +204,8 @@ def assemble(root: Path, block_id: str, requested_lesson_hours: int | None = Non
             },
             "generation_contract": {
                 "official_fact_fields_are_immutable": True,
+                "effective_process_components_are_immutable": True,
+                "process_component_origin_must_be_preserved": True,
                 "do_not_invent_outcome_codes": True,
                 "do_not_invent_textbook_pages_or_activity_ids": True,
                 "do_not_claim_generated_pedagogy_is_MEB_approved": True,
@@ -209,6 +218,8 @@ def assemble(root: Path, block_id: str, requested_lesson_hours: int | None = Non
                 "runtime_validation_status": manifest.get("validation_status"),
                 "runtime_fingerprint": manifest.get("canonical_content_fingerprint"),
                 "timeline_resolution": manifest.get("timeline_resolution"),
+                "process_component_resolution_status": manifest.get("process_component_resolution_status"),
+                "process_component_counts": manifest.get("process_component_counts"),
                 "source_locators": source_locators,
             },
         }
