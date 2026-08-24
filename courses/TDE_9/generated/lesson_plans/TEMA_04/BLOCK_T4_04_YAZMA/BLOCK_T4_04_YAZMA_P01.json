@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "TDE_9",
+  "theme_id": "TEMA_04",
+  "block_id": "BLOCK_T4_04_YAZMA",
+  "lesson_hours": 2,
+  "plan_title": "Otobiyografiyi Kurmaya Başlamak: Amaç, Yaşam Kesiti ve Yazma Planı",
+  "plan_summary": "10 saatlik Tema 4 Yazma Atölyesi bloğunun ilk iki ders saatinde öğrenciler T4_ACT_12_YAZMA_SIRASI kapsamında 'Otobiyografimle Keşfedilmeyi Bekliyorum!' görevine hazırlanır. Dinleme/İzleme bloğunda otobiyografi türü için oluşturulan kanıt dosyası hatırlanır; öğrencinin kendi yaşamına ait paylaşmak istediği olay ve dönemleri seçmesi kişisel sınırlarına saygılı biçimde yürütülür. Approved TDE9_YAZMA_SUREC_KONTROL_LISTESI'nin 1. ve 2. aşamaları kullanılarak konu/amaç/hedef kitle, yaşam kesitleri, kronolojik veya anlamlı olay akışı, giriş-gelişme-sonuç iskeleti ve ana odak belirlenir. FORM_IN_T4_YAZMA_CRITERIA yalnız biçimlendirici plan kontrolü olarak kullanılır; TDE9_YAZMA_RUBRIC ile puanlama yapılmaz.",
+  "outcome_codes": ["TDE4.1", "TDE4.2"],
+  "used_activity_ids": ["T4_ACT_12_YAZMA_SIRASI"],
+  "used_form_ids": ["FORM_IN_T4_YAZMA_CRITERIA"],
+  "lessons": [
+    {
+      "lesson_no": 1,
+      "duration_lesson_hours": 1,
+      "title": "Yazma amacı, hedef okur ve güvenli yaşam kesitlerini seçme",
+      "objective": "Öğrencinin otobiyografi görevinin amacını ve hedef okurunu belirlemesi; paylaşmak istediği yaşam kesitlerini seçmesi ve otobiyografik anlatıda gerçek yaşam kanıtı ile yorumunu ayırabilmesi.",
+      "outcome_codes": ["TDE4.1", "TDE4.2"],
+      "opening": "Dinleme bloğundaki Âşık Veysel otobiyografi kanıt dosyasına dönülür. 'Bir yaşam öyküsünü anlamlı kılan yalnız olayların çokluğu mu, yoksa seçilen olayların anlatıcının vermek istediği anlamla ilişkisi mi?' sorusuyla hazırlık başlatılır.",
+      "teacher_actions": [
+        "Otobiyografi görevinin kişinin kendi yaşamından seçilmiş deneyimleri kendi bakış açısından düzenlemesini gerektirdiğini, ancak öğrencinin mahrem veya rahatsız edici bilgileri paylaşmak zorunda olmadığını açıkla.",
+        "Öğrenciden konu, yazma amacı ve hedef okur kaydı oluşturmasını iste.",
+        "Yaşam kesiti havuzu hazırlat; her kesit için 'ne oldu / benim için neden anlamlı / metinde kullanacak mıyım' ayrımını yaptır.",
+        "Gerçek olay, hatırlama ve bugünkü yorum arasındaki farkı görünür kıl; emin olunmayan ayrıntıların kesin gerçek gibi yazılmamasını iste.",
+        "Approved TDE9_YAZMA_SUREC_KONTROL_LISTESI aşama 1'i kullan: Hazırlık ve Amaç Belirleme. TAMAMLANDI değilse öğrenci doğrudan planlamaya geçmeden eksik kanıtı tamamlasın.",
+        "FORM_IN_T4_YAZMA_CRITERIA'yı puanlama aracı olarak değil, görevin içerik beklentilerini kontrol eden biçimlendirici referans olarak kullandır."
+      ],
+      "student_actions": [
+        "Yazma amacını ve hedef okurunu belirler.",
+        "Paylaşmayı uygun bulduğu yaşam kesitlerinden bir olay/deneyim havuzu oluşturur.",
+        "Her yaşam kesitinin metindeki olası işlevini açıklar.",
+        "Kesin bilgi ile kişisel yorumunu ayırır.",
+        "Kontrol listesi aşama 1'i kanıtla işaretler; gerekiyorsa eksik hazırlığı tamamlar."
+      ],
+      "activity_ids": ["T4_ACT_12_YAZMA_SIRASI"],
+      "form_ids": ["FORM_IN_T4_YAZMA_CRITERIA"],
+      "assessment": "Ana kanıt konu/amaç/hedef kitle kaydı ve en az birkaç aday yaşam kesitini işleviyle gösteren hazırlık havuzudur. Checklist işareti yalnız süreç yönetimidir; sayısal puan üretmez.",
+      "closure": "Öğrenci 'Otobiyografimde özellikle ... yaşam kesitini anlatacağım; çünkü hedef okura ... yönümü/deneyimimi göstermeye hizmet ediyor.' cümlesini tamamlar.",
+      "materials": ["Tema 4 Dinleme/İzleme kanıt dosyası", "TDE9_YAZMA_SUREC_KONTROL_LISTESI — onaylı süreç aracı", "FORM_IN_T4_YAZMA_CRITERIA"]
+    },
+    {
+      "lesson_no": 2,
+      "duration_lesson_hours": 1,
+      "title": "Yaşam kesitlerinden kronoloji ve anlam odağı olan yazma planına",
+      "objective": "Öğrencinin seçtiği yaşam kesitlerini kronolojik veya açıkça gerekçelendirilmiş anlamlı bir sıraya koyması; giriş-gelişme-sonuç iskeletinde ana odağı ve yardımcı düşünce/olayları planlaması.",
+      "outcome_codes": ["TDE4.1", "TDE4.2"],
+      "opening": "Hazırlık havuzu açılır. 'Olayları sadece tarih sırasına dizmek yeterli mi; okuyucunun seni anlaması için hangi olaylar arasında anlam bağı kurman gerekiyor?' sorusuyla planlamaya geçilir.",
+      "teacher_actions": [
+        "Öğrenciden seçtiği olayları önce basit zaman çizelgesine yerleştirmesini, ardından metinde kronolojik veya gerekçeli tematik sıralama seçmesini iste.",
+        "Girişte anlatıcının/odak noktasının kurulmasını; gelişmede seçili olayların ve etkilerinin; sonuçta bugünkü bakış veya anlamlandırmanın yerini planlat.",
+        "Her olayın ana odakla ilişkisini sorgulat; yalnız ilginç olduğu için ama metnin amacına hizmet etmeyen ayrıntıları ayıklat.",
+        "Geçiş noktalarına zaman, neden-sonuç veya anlam ilişkisi notları koydur.",
+        "Approved checklist aşama 2'yi kullan: Planlama ve Tasarım. Plan kanıtı oluşmadan TAMAMLANDI işaretlenmemeli.",
+        "FORM_IN_T4_YAZMA_CRITERIA ile planlama, kronoloji/olay akışı ve söz varlığına ilişkin ilk öz-kontrolü yaptır; rubrik puanı üretme."
+      ],
+      "student_actions": [
+        "Yaşam kesitlerini zaman çizelgesine yerleştirir.",
+        "Metin için kronolojik veya gerekçeli tematik sıralama seçer.",
+        "Giriş-gelişme-sonuç iskeleti çıkarır.",
+        "Her olayın ana odağa hizmet edip etmediğini kontrol eder.",
+        "Checklist aşama 2'yi süreç kanıtına göre işaretler ve P02 ilk taslağına hazır hâle gelir."
+      ],
+      "activity_ids": ["T4_ACT_12_YAZMA_SIRASI"],
+      "form_ids": ["FORM_IN_T4_YAZMA_CRITERIA"],
+      "assessment": "Ana ürün olay/kronoloji planı ile giriş-gelişme-sonuç iskeletidir. Plan, seçilen her yaşam kesitinin metnin amacıyla ilişkisini gösterebilmelidir.",
+      "closure": "Öğrenci planını bir cümleyle açıklar: 'Metnim ... ile başlayacak; ... olaylarını ... sırasıyla işleyeceğim ve bugün bu deneyimlere ... anlamını verdiğim noktada tamamlayacağım.'",
+      "materials": ["P01 ilk saat yaşam kesiti havuzu", "TDE9_YAZMA_SUREC_KONTROL_LISTESI", "FORM_IN_T4_YAZMA_CRITERIA", "Basit zaman çizelgesi/yazma planı"]
+    }
+  ],
+  "teacher_notes": "Bu paket resmî MEB saat-saat alt sıralaması iddiası taşımaz. Approved TDE9_YAZMA_SUREC_KONTROL_LISTESI TDE4.1'in zorunlu süreç desteğidir ve sayısal not vermez. Öğrenciden hassas/mahrem yaşam bilgisi talep edilmez; yazma görevi pedagojik amaçla güvenli yaşam kesitleri üzerinden yürütülebilir.",
+  "continuation_summary": {
+    "planned_now_hours": 2,
+    "remaining_block_hours": 8,
+    "covered_outcome_codes": ["TDE4.1", "TDE4.2"],
+    "used_activity_ids": ["T4_ACT_12_YAZMA_SIRASI"],
+    "next_step_hint": "P02'de checklist aşama 3 kapsamında planı ilk tam otobiyografi taslağına dönüştür; kişinin kendi üslubunu ve olaylar arası bağdaşıklığı geliştirmeye başla, ancak summative rubrik puanlamasını paylaşım aşamasına bırak."
+  }
+}
