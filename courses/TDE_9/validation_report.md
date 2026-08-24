@@ -2,7 +2,7 @@
 
 **Ders / sınıf:** Türk Dili ve Edebiyatı 9. Sınıf (`TDE_9`)  
 **Son düzeltme:** 24 Ağustos 2026  
-**Durum:** `CANONICAL_PROCESS_COMPONENT_RESOLUTION_PASS__DOWNSTREAM_REBUILD_PENDING`
+**Durum:** `FULL_PASS__PROCESS_COMPONENT_INHERITANCE_MIGRATION_COMPLETE`
 
 ## Kritik düzeltme
 
@@ -14,7 +14,7 @@ Bu yorum yanlıştı. Resmî 2024 Türk Dili ve Edebiyatı Dersi Öğretim Progr
 
 Dolayısıyla tema kaydında subordinate süreç bileşenlerinin tekrar edilmemesi **effective süreç bileşeni yokluğu değildir**.
 
-## Yeni canonical model
+## Canonical model
 
 Süreç bileşeni bilgisi normalize edilmiş iki katmanlı canonical model olarak çözülür:
 
@@ -29,7 +29,7 @@ Süreç bileşeni bilgisi normalize edilmiş iki katmanlı canonical model olara
    - tema-spesifik explicit override'ları korur
    - geri kalan outcome'ları shared roof hierarchy'ye bağlar
 
-`curriculum_map.json` içindeki legacy `process_components_verbatim` alanı migration boyunca **tema-spesifik explicit veri alanı** olarak yorumlanır. Bu alanın `[]` olması artık hiçbir tüketici tarafından effective empty olarak yorumlanamaz.
+`curriculum_map.json` içindeki legacy `process_components_verbatim` alanı migration boyunca **tema-spesifik explicit veri alanı** olarak yorumlanır. Bu alanın `[]` olması hiçbir tüketici tarafından effective empty olarak yorumlanamaz.
 
 ## Resolution precedence
 
@@ -57,6 +57,7 @@ Tema-spesifik explicit set ile roof set merge edilmez. Resmî tema specializatio
 | `SOURCE_VERIFIED_NONE` | 0 |
 | Unresolved | 0 |
 | Inheritance missing | 0 |
+| Structural error | 0 |
 
 Tema 1'de explicit override taşıyan iki kayıt:
 
@@ -65,16 +66,105 @@ Tema 1'de explicit override taşıyan iki kayıt:
 
 Diğer 52 outcome effective süreç bileşenlerini `TDE_2024_ROOF_PROCESS_COMPONENTS` kataloğundan inherit eder.
 
+## Derived index sonucu
+
+Fresh knowledge index yeniden üretilmiştir.
+
+- `courses/TDE_9/index/index_manifest.json`
+- index schema: `2.1`
+- build status: `SUCCESS`
+- indexed record count: `595`
+- `process_component` entity type indexe dahildir
+- `curriculum_process_component_resolution.json` index fingerprint'ine dahildir
+- `../TDE_SHARED/curriculum_process_component_catalog.json` index fingerprint'ine dahildir
+- process-component canonical originleri index kayıtlarında `roof_inherited` / `theme_explicit` olarak korunur
+
+P0 report içindeki effective process-component kayıt dağılımı:
+
+- roof-inherited subordinate process-component record: `228`
+- theme-explicit subordinate process-component record: `9`
+
+Bu sayılar outcome sayısı değil, indexe yazılmış subordinate process-component entity sayılarıdır.
+
+## Runtime sonucu
+
+Fresh runtime package yeniden üretilmiş ve yayımlanmıştır.
+
+- `runtime_package_version`: `1.2.0`
+- `compiler_version`: `1.2.0`
+- `validation_status`: `PASS`
+- `process_component_resolution_status`: `PASS`
+- total outcomes: `54`
+- explicit outcome: `2`
+- inherited outcome: `52`
+- unresolved outcome: `0`
+- inheritance missing: `0`
+- structural error: `0`
+
+Runtime canonical fingerprint'i hem shared roof catalogu hem de TDE_9 resolution contract'ını kapsar. Bu kaynaklardan biri değişirse mevcut runtime fresh kabul edilmez.
+
+## P0 production gate sonucu
+
+`courses/TDE_9/index/p0_gate_report.json` sonucu:
+
+- index rebuild: `INDEX_FRESH`
+- production schema: `1.1`
+- canonical assessment artifact: `3`
+- historical gap alias: `7`
+- alias → artifact resolution: `PASS`
+- semantic retrieval probes: `PASS`
+- stale-index fail-closed gate: `PASS`
+- knowledge-conflict fail-closed gate: `PASS`
+- final: `PASS`
+
+Duplicate canonical identity regressionında effective inheritance doğrulamasının daha spesifik `DuplicateCanonicalKeyError`ı maskelemesi de düzeltilmiştir. Duplicate identity artık inheritance count validation'dan önce fail eder.
+
+## Cross-grade doğrulama
+
+Aynı shared resolver ve normatif roof catalog ile dört sınıf birlikte yeniden doğrulanmıştır:
+
+| Sınıf | Toplam outcome | Explicit | Inherited | Unresolved | Inheritance missing | Sonuç |
+|---|---:|---:|---:|---:|---:|---|
+| TDE_9 | 54 | 2 | 52 | 0 | 0 | PASS |
+| TDE_10 | 64 | 0 | 64 | 0 | 0 | PASS |
+| TDE_11 | 64 | 0 | 64 | 0 | 0 | PASS |
+| TDE_12 | 64 | 0 | 64 | 0 | 0 | PASS |
+
+Durable cross-grade kanıtı: `docs/process-component-inheritance-audit.json`.
+
+## Downstream sonucu
+
+ÖğretmenOS curriculum-only TDE_11 ve TDE_12 runtime builder'ında bulunan downstream veri kaybı da düzeltilmiştir.
+
+Önceki builder yalnız tema-level process alanını okuyordu; shared roof + resolution contract paket içinde olmadığı için inherited bileşenler uygulama runtime'ına taşınmıyordu.
+
+Yeni downstream runtime contract:
+
+- shared roof catalog paket dependency'sidir,
+- grade-specific resolution contract paket dependency'sidir,
+- effective process components runtime SQLite'a yazılır,
+- `process_component_origin` runtime SQLite'da korunur,
+- shared catalog + resolution contract canonical fingerprint'e katılır,
+- TDE_11: 64/64 `ROOF_INHERITED`, `RUNTIME_FRESH`, PASS,
+- TDE_12: 64/64 `ROOF_INHERITED`, `RUNTIME_FRESH`, PASS.
+
+Uygulama sunum katmanının provenance originini kullanıcıya ayrıca göstermesi zorunlu canonical blocker değildir; runtime veri katmanı origin bilgisini kaybetmeden taşımaktadır.
+
 ## Fail-closed doğrulama
 
 Aşağıdaki dosyalar bu invariantı uygular:
 
 - `skill/tymm-material-planner/scripts/process_component_resolver.py`
 - `skill/tymm-material-planner/scripts/p0_process_component_gate.py`
+- `skill/tymm-material-planner/scripts/effective_knowledge_index.py`
+- `skill/tymm-material-planner/scripts/build_runtime_course_package.py`
 - `skill/tymm-material-planner/tests/test_process_component_inheritance.py`
+- `skill/tymm-material-planner/tests/test_resolver_runner.py`
+- `skill/tymm-material-planner/tests/test_runtime_course_package.py`
 - `.github/workflows/tymm-p0-production-gate.yml`
+- `.github/workflows/tymm-process-component-inheritance.yml`
 
-P0 gate şu durumlarda FAIL verir:
+Gate şu durumlarda FAIL verir:
 
 - roof family bulunduğu hâlde outcome çözümlenemiyorsa,
 - inherited component locator'ı yoksa,
@@ -82,23 +172,24 @@ P0 gate şu durumlarda FAIL verir:
 - duplicate component code varsa,
 - resolution contract ile curriculum outcome seti farklıysa,
 - beklenen explicit/inherited origin veya component sayısı değişmişse,
-- başka grade/theme verisi inheritance kaynağı olarak kullanılmaya çalışılırsa.
+- başka grade/theme verisi inheritance kaynağı olarak kullanılmaya çalışılırsa,
+- canonical source fingerprint değişip index/runtime yeniden üretilmemişse,
+- duplicate canonical identity varsa.
 
-## Önceki rapordan korunan bulgular
+## Migration kapanış durumu
 
-Bu düzeltme yalnız süreç bileşenlerinin canonical modellenmesiyle ilgilidir. Önceki rapordaki tema sayısı, outcome sayısı, ders saati, textbook section/activity/form locator ve assessment form sınıflandırması bulguları bu değişiklik nedeniyle kendiliğinden geçersiz sayılmaz. Ancak eski rapor artık **tam canonical validation kanıtı olarak kullanılmamalıdır**; bu dosya onun yerine geçer.
+P0 migration tamamlanmıştır:
 
-## Kalan P0 iş
+1. shared normatif roof catalog: **COMPLETE**
+2. explicit/inherited effective resolver: **COMPLETE**
+3. TDE_9 canonical migration: **COMPLETE**
+4. TDE_10/TDE_11/TDE_12 cross-grade revalidation: **COMPLETE**
+5. fail-closed validator: **COMPLETE**
+6. regression fixtures: **COMPLETE**
+7. knowledge index + runtime fresh rebuild: **COMPLETE**
+8. downstream runtime preservation: **COMPLETE**
 
-Canonical resolution sözleşmesi tamamlanmıştır; ancak migration aşağıdaki derived/downstream katmanlar fresh rebuild edilmeden bitmiş sayılmaz:
-
-1. knowledge index süreç bileşenlerini raw legacy array yerine effective resolver üzerinden almalı,
-2. runtime SQLite `outcomes.process_components` effective seti taşımalı,
-3. runtime/index fingerprint shared roof catalog + resolution contract değişikliklerini kapsamalı,
-4. ÖğretmenOS ve diğer tüketiciler inherited origin bilgisini korumalı,
-5. TDE_10, TDE_11 ve TDE_12 aynı shared resolver ile yeniden doğrulanmalı.
-
-Bu nedenle bu raporun genel durumu bilinçli olarak `FULL_PASS` değildir.
+Bu nedenle önceki `DOWNSTREAM_REBUILD_PENDING` durumu kaldırılmıştır.
 
 ## Nihai invariant
 
