@@ -9,7 +9,9 @@ from typing import Any
 
 PROJECTION_VERSION = "1.0.0"
 RUNTIME_SCHEMA_VERSION = "1.1.0"
-RUNTIME_PACKAGE_VERSION = "1.1.0"
+# Must track the runtime compiler package version; this projector may extend a
+# runtime package but must never downgrade its declared package contract.
+RUNTIME_PACKAGE_VERSION = "1.2.0"
 
 ARTIFACT_COLUMNS = {
     "level_model_json": "TEXT NOT NULL DEFAULT '[]'",
