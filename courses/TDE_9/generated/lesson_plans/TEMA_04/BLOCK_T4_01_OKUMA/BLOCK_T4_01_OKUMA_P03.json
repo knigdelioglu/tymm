@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "TDE_9",
+  "theme_id": "TEMA_04",
+  "block_id": "BLOCK_T4_01_OKUMA",
+  "lesson_hours": 2,
+  "plan_title": "Yunus Emre Dramatik Metninde Amaçlı Okuma: Çatışma, Kişi İlişkileri ve Dil Kanıtları",
+  "plan_summary": "15 saatlik 4. Tema Okuma bloğunun 5. ve 6. ders saatlerinde öğrenciler T4_ACT_02_OKUMA_SIRASI_ROMAN kapsamında Recep Bilginer'in Yunus Emre dramatik metnine geçer. İlk saatte roman okumasından dramatik metin okumasına geçerken okuma amacı yeniden kurulur; öğrenciler kişi ilişkileri, çatışma, sahne/konuşma akışı ve dikkat çeken dil özellikleri için sade bir işaretleme anahtarı hazırlar. İkinci saatte metin amaçlı biçimde okunur; çatışma ve kişi ilişkileri doğrudan metin kanıtıyla kaydedilir, bilinmeyen veya dikkat çeken söz varlığı bağlamdan anlamlandırılır. Çalıkuşu ile karşılaştırmalı tahlil ve bölüm kontrol noktası P04'e bırakılır.",
+  "outcome_codes": ["TDE2.1", "TDE2.2"],
+  "used_activity_ids": ["T4_ACT_02_OKUMA_SIRASI_ROMAN"],
+  "used_form_ids": [],
+  "lessons": [
+    {
+      "lesson_no": 1,
+      "duration_lesson_hours": 1,
+      "title": "Roman okumasından dramatik metin okumasına amaç ve işaretleme stratejisi kurma",
+      "objective": "Öğrencinin Yunus Emre dramatik metnini okumadan önce kişi ilişkileri, çatışma, konuşma/sahne akışı ve dil göstergelerine odaklanan bir okuma amacı oluşturması; tür değişiminin okuma sırasında hangi kanıtların izleneceğini etkilediğini fark etmesi.",
+      "outcome_codes": ["TDE2.1"],
+      "opening": "Çalıkuşu P01-P02 notları kapatılmadan yeni metnin kimliği görünür hâle getirilir. 'Bir roman parçasını okurken izlediğimiz kanıtlarla dramatik bir metni okurken izleyeceğimiz kanıtlar tamamen aynı mı?' sorusuyla yeni okuma amacı kurulur.",
+      "teacher_actions": [
+        "Yunus Emre metninin Recep Bilginer'e ait dramatik metin/tiyatro olduğunu kaynak kimliği düzeyinde belirt; ayrıntılı tür tanımlarını hazır bilgi listesi olarak verme.",
+        "Öğrencilerden ilk bakışta hangi metin işaretlerinin kişi ilişkisi, konuşma/sahne akışı veya çatışma hakkında bilgi sağlayabileceğini tahmin etmelerini iste.",
+        "Sade işaretleme anahtarı kurdur: K = kişi/ilişki göstergesi, Ç = çatışma/gerilim, D = dikkat çeken dil/söz varlığı, ? = anlamı veya işlevi araştırılacak ifade.",
+        "Okuma amacını 'kişiler ne istiyor, hangi gerilim oluşuyor, konuşma/sahne akışı bunu nasıl gösteriyor, dil hangi etkiyi kuruyor?' sorularıyla sınırla.",
+        "Çalıkuşu ile karşılaştırma yaptırma; bu saatte yalnız yeni metni kendi kanıtlarıyla okumaya hazırlık yap.",
+        "Saat sonunda öğrenciden bir okuma varsayımı ve bir kanıt sorusu yazmasını iste."
+      ],
+      "student_actions": [
+        "Yunus Emre metninin dramatik metin olduğunu kaydeder.",
+        "Yeni metin için K/Ç/D/? işaretleme anahtarını hazırlar.",
+        "Kişi ilişkisi, çatışma ve dil açısından neyi izleyeceğini belirler.",
+        "Bir okuma varsayımı oluşturur.",
+        "Okuma sırasında cevap arayacağı bir kanıt sorusu yazar."
+      ],
+      "activity_ids": ["T4_ACT_02_OKUMA_SIRASI_ROMAN"],
+      "form_ids": [],
+      "assessment": "Ana hazırlık kanıtı K/Ç/D/? okuma anahtarı, bir okuma varsayımı ve bir kanıt sorusudur. Tür farkına ilişkin çıkarımın doğruluğu sonraki metin kanıtıyla sınanır.",
+      "closure": "Öğrenci 'Yunus Emre metnini okurken özellikle ... kanıtlarını izleyeceğim; çünkü dramatik akışta ... hakkında bilgi verebilir.' cümlesini tamamlar.",
+      "materials": ["Yunus Emre — Recep Bilginer, ders kitabı s.236–248", "T4_ACT_02_OKUMA_SIRASI_ROMAN", "P02 Çalıkuşu notları yalnız önceki okuma deneyimini hatırlatmak için"]
+    },
+    {
+      "lesson_no": 2,
+      "duration_lesson_hours": 1,
+      "title": "Yunus Emre metninde çatışma, kişi ilişkileri ve söz varlığı kanıtlarını toplama",
+      "objective": "Öğrencinin dramatik metindeki kişi ilişkilerini ve çatışmaları doğrudan konuşma/durum kanıtıyla belirlemesi; dikkat çeken söz varlığı ve dil seçimlerini bağlamdan anlamlandırarak ilk tahlil notlarını oluşturması.",
+      "outcome_codes": ["TDE2.1", "TDE2.2"],
+      "opening": "İlk saatte oluşturulan K/Ç/D/? anahtarı görünür tutulur. Amaç, metni bitirmekten çok sonraki karşılaştırmalı tahlilde kullanılacak güvenilir kanıtları toplamaktır.",
+      "teacher_actions": [
+        "T4_ACT_02 kapsamında Yunus Emre metninin amaçlı okumasını yürüt.",
+        "K işaretlerinde kişi ilişkisinin hangi söz, tepki veya durumdan çıkarıldığını; Ç işaretlerinde gerilimin taraflarını ve nedenini sordur.",
+        "D ve ? işaretlerinde önce bağlam ipuçlarını toplat; doğrudan anlam vermeden öğrencinin anlam tahminini gerekçelendirmesini sağla.",
+        "Konuşma/sahne akışındaki bir değişikliğin çatışmayı veya kişi ilişkisini nasıl görünür kıldığını en az bir örnekte tartıştır.",
+        "Öğrencinin metin dışı tarihsel veya biyografik bilgiyi tahlil kanıtı yerine kullanmasına izin verme.",
+        "Saat sonunda ilk varsayımı metin kanıtıyla desteklenen, zayıflayan veya belirsiz olarak güncellet."
+      ],
+      "student_actions": [
+        "En az iki kişi/ilişki göstergesini metin kanıtıyla kaydeder.",
+        "En az iki çatışma/gerilim göstergesini tarafları ve nedeni ile açıklar.",
+        "En az iki söz varlığı veya dil göstergesini bağlam ipucuyla anlamlandırır.",
+        "Bir konuşma/sahne akışı değişikliğinin anlam etkisini açıklar.",
+        "İlk okuma varsayımını kanıtla günceller."
+      ],
+      "activity_ids": ["T4_ACT_02_OKUMA_SIRASI_ROMAN"],
+      "form_ids": [],
+      "assessment": "Ana ürün Yunus Emre ilk tahlil notlarıdır: kişi/ilişki, çatışma, söz varlığı/dil ve konuşma/sahne akışı için doğrudan metin kanıtları.",
+      "closure": "Öğrenci 'Metindeki temel gerilimlerden biri ...; bunu ... sözü/durumu gösteriyor. Dikkat çeken ... ifadesini ise ... bağlam ipucuyla ... olarak anlamlandırdım.' ifadesini tamamlar.",
+      "materials": ["Yunus Emre — Recep Bilginer", "K/Ç/D/? işaretleme anahtarı", "T4_ACT_02_OKUMA_SIRASI_ROMAN"]
+    }
+  ],
+  "teacher_notes": "Bu paket BLOCK_T4_01_OKUMA bloğunun pedagojik olarak tasarlanmış 5. ve 6. saatleridir; resmî MEB saat-saat alt sıralaması değildir. Textbook map T4_ACT_02'de Çalıkuşu ve Yunus Emre metinlerini okurken çatışma ve dil özelliklerini not almayı doğrular. P03 yalnız Yunus Emre dramatik metninin kendi kanıtlarını toplar; roman-tiyatro karşılaştırması ve T4_ACT_04 kontrol noktası P04'e bırakılır.",
+  "continuation_summary": {
+    "planned_now_hours": 2,
+    "remaining_block_hours": 9,
+    "covered_outcome_codes": ["TDE2.1", "TDE2.2"],
+    "used_activity_ids": ["T4_ACT_01_OKUMA_ONCESI_ROMAN", "T4_ACT_02_OKUMA_SIRASI_ROMAN"],
+    "next_step_hint": "P04'te T4_ACT_03 kapsamında Çalıkuşu ile Yunus Emre; yapı unsurları, çatışma, anlatım/üslup ve dil kanıtları bakımından karşılaştırılmalı. Ders kitabındaki s.249–256 tahlil ve dil bilgisi/şekil bilgisi tabloları kaynak sınırında uygulanmalı; ardından T4_ACT_04 kontrol noktasıyla roman/dramatik metin alt bölümü kapatılmalıdır."
+  }
+}
