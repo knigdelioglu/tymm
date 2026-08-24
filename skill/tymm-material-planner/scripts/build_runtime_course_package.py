@@ -7,18 +7,19 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+from process_component_resolver import audit_curriculum, project_effective_components
 from runtime_assessment_payload import project_runtime_assessment_payload
 
-COMPILER_VERSION = "1.1.0"
-RUNTIME_PACKAGE_VERSION = "1.1.0"
-SCHEMA_VERSION = "1.0.0"
+COMPILER_VERSION = "1.2.0"
+RUNTIME_PACKAGE_VERSION = "1.2.0"
+SCHEMA_VERSION = "1.1.0"
 
 SCHEMA = r'''
 PRAGMA foreign_keys = ON;
 CREATE TABLE courses (course_id TEXT PRIMARY KEY, grade INTEGER, title TEXT NOT NULL, schema_version TEXT NOT NULL, source_manifest_fingerprint TEXT NOT NULL);
 CREATE TABLE themes (theme_id TEXT PRIMARY KEY, course_id TEXT NOT NULL REFERENCES courses(course_id), theme_order INTEGER NOT NULL, title TEXT NOT NULL, page_range TEXT, planned_hours INTEGER, anlama_hours INTEGER, anlatma_hours INTEGER, source_locator TEXT);
 CREATE TABLE blocks (block_id TEXT PRIMARY KEY, theme_id TEXT NOT NULL REFERENCES themes(theme_id), block_order INTEGER NOT NULL, title TEXT NOT NULL, skill_domain TEXT, learning_area TEXT, planned_hours INTEGER, time_status TEXT, source_locators_json TEXT NOT NULL);
-CREATE TABLE outcomes (outcome_id TEXT PRIMARY KEY, theme_id TEXT NOT NULL REFERENCES themes(theme_id), outcome_code TEXT NOT NULL, official_text TEXT NOT NULL, process_components TEXT, source_locator TEXT, verification_status TEXT);
+CREATE TABLE outcomes (outcome_id TEXT PRIMARY KEY, theme_id TEXT NOT NULL REFERENCES themes(theme_id), outcome_code TEXT NOT NULL, official_text TEXT NOT NULL, process_components TEXT, process_component_origin TEXT, source_locator TEXT, verification_status TEXT);
 CREATE TABLE block_outcomes (block_id TEXT NOT NULL REFERENCES blocks(block_id), outcome_id TEXT NOT NULL REFERENCES outcomes(outcome_id), PRIMARY KEY(block_id, outcome_id));
 CREATE TABLE textbook_sections (section_id TEXT PRIMARY KEY, theme_id TEXT NOT NULL REFERENCES themes(theme_id), title TEXT NOT NULL, genre TEXT, printed_page_range TEXT, pdf_page_range TEXT, source_id TEXT);
 CREATE TABLE activities (activity_id TEXT PRIMARY KEY, section_id TEXT REFERENCES textbook_sections(section_id), theme_id TEXT NOT NULL REFERENCES themes(theme_id), title TEXT NOT NULL, activity_type TEXT, student_action TEXT, expected_evidence TEXT, printed_page TEXT, pdf_page TEXT, verification_status TEXT);
@@ -36,6 +37,7 @@ CREATE TABLE source_references (source_id TEXT PRIMARY KEY, source_type TEXT, so
 CREATE TABLE entity_source_references (entity_type TEXT NOT NULL, entity_id TEXT NOT NULL, source_id TEXT NOT NULL REFERENCES source_references(source_id), locator TEXT, PRIMARY KEY(entity_type, entity_id, source_id, locator));
 CREATE INDEX idx_blocks_theme_order ON blocks(theme_id, block_order);
 CREATE INDEX idx_outcomes_theme_code ON outcomes(theme_id, outcome_code);
+CREATE INDEX idx_outcomes_process_origin ON outcomes(process_component_origin);
 CREATE INDEX idx_activities_theme_page ON activities(theme_id, printed_page);
 CREATE INDEX idx_activity_forms_form ON activity_forms(form_id);
 CREATE INDEX idx_resource_theme ON resource_decisions(theme_id, decision_code);
@@ -59,6 +61,37 @@ def first(d: dict, *keys: str) -> Any:
     for k in keys:
         if k in d: return d[k]
     return None
+
+def process_component_catalog_path(root: Path) -> Path | None:
+    local = root.parent / "TDE_SHARED" / "curriculum_process_component_catalog.json"
+    if local.exists():
+        return local
+    repo = Path(__file__).resolve().parents[3] / "courses" / "TDE_SHARED" / "curriculum_process_component_catalog.json"
+    return repo if repo.exists() else None
+
+def resolve_curriculum(root: Path) -> tuple[dict[str, Any], dict[str, Any] | None]:
+    raw = read_json(root / "curriculum_map.json")
+    contract_path = root / "curriculum_process_component_resolution.json"
+    if not contract_path.exists():
+        return raw, None
+    catalog_path = process_component_catalog_path(root)
+    if catalog_path is None:
+        raise ValueError("PROCESS_COMPONENT_ROOF_CATALOG_MISSING")
+    catalog = read_json(catalog_path)
+    contract = read_json(contract_path)
+    if contract.get("catalog_id") != catalog.get("catalog_id"):
+        raise ValueError("PROCESS_COMPONENT_CATALOG_CONTRACT_MISMATCH")
+    if contract.get("course_id") != raw.get("course_id"):
+        raise ValueError("PROCESS_COMPONENT_COURSE_CONTRACT_MISMATCH")
+    audit = audit_curriculum(raw, catalog)
+    if audit.get("final") != "PASS":
+        raise ValueError(f"PROCESS_COMPONENT_INHERITANCE_INVALID: {audit.get('counts')}")
+    expected = contract.get("expected_counts", {})
+    for key, value in expected.items():
+        if audit.get("counts", {}).get(key) != value:
+            raise ValueError(f"PROCESS_COMPONENT_COUNT_MISMATCH: {key} actual={audit.get('counts', {}).get(key)} expected={value}")
+    projected = project_effective_components(raw, catalog)
+    return projected, audit
 
 def load_block_hour_bindings(root: Path) -> tuple[dict[str, dict[str, Any]], dict[str, Any] | None]:
     path = root / "planning/block_hour_bindings.json"
@@ -88,15 +121,22 @@ def load_block_hour_bindings(root: Path) -> tuple[dict[str, dict[str, Any]], dic
         raise ValueError(f"block-hour binding count mismatch: runtime={len(bindings)} expected={expected_count}")
     return bindings, doc
 
-def relevant_files(root: Path) -> list[Path]:
-    paths = [root/n for n in ["curriculum_map.json","textbook_map.json","textbook_forms_index.json","source_manifest.json","planning/course_timeline.json","planning/official_topic_hour_distribution.json","planning/block_hour_bindings.json","production/production_manifest.json","production/assessment_artifact_registry.json","production/assessment_design_contract.json","production/consolidated_resource_plan.json","production/teaching_blocks.json"]]
-    paths += sorted(root.glob("themes/tema_*/alignment.json")) + sorted(root.glob("themes/tema_*/gap_analysis.json")) + sorted(root.glob("themes/tema_*/resource_plan.json")) + sorted(root.glob("themes/tema_*/needs.json"))
-    return [p for p in paths if p.exists()]
+def relevant_files(root: Path) -> list[tuple[str, Path]]:
+    names = ["curriculum_map.json","curriculum_process_component_resolution.json","textbook_map.json","textbook_forms_index.json","source_manifest.json","planning/course_timeline.json","planning/official_topic_hour_distribution.json","planning/block_hour_bindings.json","production/production_manifest.json","production/assessment_artifact_registry.json","production/assessment_design_contract.json","production/consolidated_resource_plan.json","production/teaching_blocks.json"]
+    paths: list[tuple[str, Path]] = [(n, root/n) for n in names if (root/n).exists()]
+    for pattern in ("themes/tema_*/alignment.json","themes/tema_*/gap_analysis.json","themes/tema_*/resource_plan.json","themes/tema_*/needs.json"):
+        paths += [(p.relative_to(root).as_posix(), p) for p in sorted(root.glob(pattern))]
+    if (root / "curriculum_process_component_resolution.json").exists():
+        shared = process_component_catalog_path(root)
+        if shared is None:
+            raise ValueError("PROCESS_COMPONENT_ROOF_CATALOG_MISSING")
+        paths.append(("../TDE_SHARED/curriculum_process_component_catalog.json", shared))
+    return paths
 
 def compiler_state(root: Path) -> tuple[dict[str, dict[str, Any]], str]:
     entries = {}
-    for p in relevant_files(root):
-        rel = p.relative_to(root).as_posix(); entries[rel] = {"path": rel, "sha256": sha256(p), "size_bytes": p.stat().st_size}
+    for rel, p in relevant_files(root):
+        entries[rel] = {"path": rel, "sha256": sha256(p), "size_bytes": p.stat().st_size}
     canonical = "\n".join(f"{k}:{v['sha256']}" for k,v in sorted(entries.items()))
     return entries, hashlib.sha256(canonical.encode()).hexdigest()
 
@@ -105,7 +145,8 @@ def decision_category(code: str | None) -> str | None:
 
 def build(root: Path) -> dict[str, Any]:
     root = root.resolve(); out = root / "runtime"; out.mkdir(exist_ok=True)
-    curriculum, textbook, forms_data, manifest, timeline = [read_json(root/n) for n in ["curriculum_map.json","textbook_map.json","textbook_forms_index.json","source_manifest.json","planning/course_timeline.json"]]
+    curriculum, process_audit = resolve_curriculum(root)
+    textbook, forms_data, manifest, timeline = [read_json(root/n) for n in ["textbook_map.json","textbook_forms_index.json","source_manifest.json","planning/course_timeline.json"]]
     reg, prod, contract = [read_json(root/n) for n in ["production/assessment_artifact_registry.json","production/production_manifest.json","production/assessment_design_contract.json"]]
     teaching = read_json(root/"production/teaching_blocks.json")
     teaching_by_id = {b["block_id"]: b for b in teaching.get("blocks", [])}
@@ -125,7 +166,9 @@ def build(root: Path) -> dict[str, Any]:
         ah=t.get("allocated_lesson_hours") or {}; ins("INSERT INTO themes VALUES (?,?,?,?,?,?,?,?,?)", (tid,course_id,t.get("theme_no",t.get("theme_number")),t.get("exact_theme_name") or t.get("theme_title") or tid,t.get("page_range"),integer(first(ah,"total","instructional_total")),integer(ah.get("anlama")),integer(ah.get("anlatma")),t.get("source_locator")))
         for o in t.get("learning_outcomes",[]):
             oid=o.get("outcome_id") or f"{tid}::{o['outcome_code']}"
-            ins("INSERT INTO outcomes VALUES (?,?,?,?,?,?,?)", (oid,tid,o["outcome_code"],text(o.get("outcome_verbatim","")) or "",text(o.get("process_components_verbatim")),text(o.get("source_locator")),text(o.get("verification_status"))))
+            effective=o.get("process_components_effective",o.get("process_components_verbatim"))
+            origin=o.get("process_component_resolution",{}).get("origin","LEGACY_RAW")
+            ins("INSERT INTO outcomes VALUES (?,?,?,?,?,?,?,?)", (oid,tid,o["outcome_code"],text(o.get("outcome_verbatim","")) or "",text(effective),origin,text(o.get("source_locator")),text(o.get("verification_status"))))
         for s in th.get("sections",[]):
             ins("INSERT INTO textbook_sections VALUES (?,?,?,?,?,?,?)", (s["section_id"],tid,s.get("section_title") or s["section_id"],s.get("genre"),s.get("printed_page_range"),s.get("pdf_page_range"),textbook.get("source_id")))
             for a in s.get("activities",[]):
@@ -165,8 +208,7 @@ def build(root: Path) -> dict[str, Any]:
             if hb: sources.append(f"planning/block_hour_bindings.json#{tid}.{b['block_id']}")
             ins("INSERT INTO timeline_blocks VALUES (?,?,?,?,?,?)",(b["block_id"],tid,b.get("block_order"),planned_hours,time_status,j(sources)))
     if block_hours_doc and block_hours_doc.get("status") == "BLOCK_TIME_RESOLVED":
-        unknown=set(block_hours)-set(block_by_id)
-        missing=set(block_by_id)-set(block_hours)
+        unknown=set(block_hours)-set(block_by_id); missing=set(block_by_id)-set(block_hours)
         if unknown: raise ValueError(f"unknown block-hour IDs: {sorted(unknown)}")
         if missing: raise ValueError(f"missing block-hour bindings: {sorted(missing)}")
     for p in sorted(root.glob("themes/tema_*/resource_plan.json")):
@@ -183,7 +225,7 @@ def build(root: Path) -> dict[str, Any]:
     for s in manifest.get("sources",[]):
         ins("INSERT INTO source_references VALUES (?,?,?,?,?,?,?)",(s["source_id"],s.get("source_type"),s.get("title") or s["source_id"],s.get("file_path") or s.get("url"),s.get("source_type"),s.get("authority_rank"),s.get("verification_status")))
     for t in curriculum["themes"]:
-        sid=curriculum.get("source_id"); loc=t.get("source_locator");
+        sid=curriculum.get("source_id"); loc=t.get("source_locator")
         if sid and loc and db.execute("SELECT 1 FROM source_references WHERE source_id=?",(sid,)).fetchone(): ins("INSERT OR IGNORE INTO entity_source_references VALUES (?,?,?,?)",("theme",t["theme_id"],sid,loc))
     db.commit(); db.close()
     count_db=sqlite3.connect(dbpath)
@@ -191,7 +233,7 @@ def build(root: Path) -> dict[str, Any]:
     count_db.close()
     now=datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00","Z")
     resolved_block_hours=bool(block_hours_doc and block_hours_doc.get("status") == "BLOCK_TIME_RESOLVED")
-    runtime_manifest={"runtime_package_version":RUNTIME_PACKAGE_VERSION,"schema_version":SCHEMA_VERSION,"course_id":course_id,"grade":curriculum.get("grade"),"build_timestamp":now,"compiler_version":COMPILER_VERSION,"canonical_source_files":sorted(files),"canonical_source_hashes":{k:v["sha256"] for k,v in sorted(files.items())},"canonical_content_fingerprint":fingerprint,"row_counts":counts,"timeline_resolution":"BLOCK_TIME_RESOLVED" if resolved_block_hours else timeline.get("timeline_resolution"),"timeline_unresolved_fields":{"weekly_lesson_hours":timeline.get("calendar_binding",{}).get("weekly_lesson_hours"),"calendar_binding":timeline.get("calendar_binding",{}).get("status"),"block_hours":None if resolved_block_hours else "ORDER_ONLY"},"block_hour_binding_status":block_hours_doc.get("status") if block_hours_doc else "NOT_PRESENT","block_hour_binding_file":"planning/block_hour_bindings.json" if block_hours_doc else None,"assessment_registry_version":reg.get("registry_version"),"assessment_contract_version":contract.get("metadata",{}).get("contract_version"),"source_manifest_fingerprint":next((x["sha256"] for k,x in files.items() if k=="source_manifest.json"),None),"runtime_database_path":"runtime/course_runtime.sqlite","validation_status":"PENDING"}
+    runtime_manifest={"runtime_package_version":RUNTIME_PACKAGE_VERSION,"schema_version":SCHEMA_VERSION,"course_id":course_id,"grade":curriculum.get("grade"),"build_timestamp":now,"compiler_version":COMPILER_VERSION,"canonical_source_files":sorted(files),"canonical_source_hashes":{k:v["sha256"] for k,v in sorted(files.items())},"canonical_content_fingerprint":fingerprint,"row_counts":counts,"timeline_resolution":"BLOCK_TIME_RESOLVED" if resolved_block_hours else timeline.get("timeline_resolution"),"timeline_unresolved_fields":{"weekly_lesson_hours":timeline.get("calendar_binding",{}).get("weekly_lesson_hours"),"calendar_binding":timeline.get("calendar_binding",{}).get("status"),"block_hours":None if resolved_block_hours else "ORDER_ONLY"},"block_hour_binding_status":block_hours_doc.get("status") if block_hours_doc else "NOT_PRESENT","block_hour_binding_file":"planning/block_hour_bindings.json" if block_hours_doc else None,"assessment_registry_version":reg.get("registry_version"),"assessment_contract_version":contract.get("metadata",{}).get("contract_version"),"source_manifest_fingerprint":next((x["sha256"] for k,x in files.items() if k=="source_manifest.json"),None),"process_component_resolution_status":"PASS" if process_audit else "LEGACY_NOT_RESOLVED","process_component_counts":process_audit.get("counts") if process_audit else None,"runtime_database_path":"runtime/course_runtime.sqlite","validation_status":"PENDING"}
     (out/"runtime_schema.sql").write_text(SCHEMA.strip()+"\n",encoding="utf-8"); (out/"runtime_manifest.json").write_text(json.dumps(runtime_manifest,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     result=validate(root, write_report=True); runtime_manifest["validation_status"]=result["status"]; (out/"runtime_manifest.json").write_text(json.dumps(runtime_manifest,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     project_runtime_assessment_payload(root)
@@ -209,6 +251,14 @@ def validate(root: Path, write_report: bool=False) -> dict[str,Any]:
     for table,col in [("themes","theme_id"),("blocks","block_id"),("outcomes","outcome_id"),("activities","activity_id"),("forms","form_id"),("assessment_artifacts","artifact_id")]: check(f"canonical ID uniqueness: {table}", db.execute(f"SELECT {col},COUNT(*) FROM {table} GROUP BY {col} HAVING COUNT(*)>1").fetchall()==[])
     orphan=db.execute("SELECT COUNT(*) FROM assessment_gap_mappings g LEFT JOIN assessment_artifacts a ON a.artifact_id=g.artifact_id WHERE a.artifact_id IS NULL").fetchone()[0]; check("orphan relations",orphan==0,str(orphan))
     fresh=compiler_state(root)[1]==mp.get("canonical_content_fingerprint"); check("source fingerprint status",fresh,"RUNTIME_FRESH" if fresh else "RUNTIME_STALE")
+    if mp.get("process_component_resolution_status") == "PASS":
+        empty_pc=db.execute("SELECT COUNT(*) FROM outcomes WHERE process_components IS NULL OR process_components='' OR process_components='[]'").fetchone()[0]
+        invalid_origin=db.execute("SELECT COUNT(*) FROM outcomes WHERE process_component_origin NOT IN ('THEME_EXPLICIT','ROOF_INHERITED','SOURCE_VERIFIED_NONE')").fetchone()[0]
+        origin_counts=dict(db.execute("SELECT process_component_origin,COUNT(*) FROM outcomes GROUP BY process_component_origin").fetchall())
+        expected=mp.get("process_component_counts") or {}
+        check("effective process components projected",empty_pc==expected.get("verified_no_component_outcomes",0),f"empty={empty_pc}, verified_none={expected.get('verified_no_component_outcomes',0)}")
+        check("process component origins valid",invalid_origin==0,f"invalid={invalid_origin}")
+        check("process component origin counts",origin_counts.get("THEME_EXPLICIT",0)==expected.get("explicit_component_outcomes",0) and origin_counts.get("ROOF_INHERITED",0)==expected.get("inherited_component_outcomes",0),f"runtime={origin_counts}, canonical={expected}")
     resolved_count=db.execute("SELECT COUNT(*) FROM timeline_blocks WHERE planned_hours IS NOT NULL").fetchone()[0]
     if block_hours_doc and block_hours_doc.get("status") == "BLOCK_TIME_RESOLVED":
         expected_count=integer(block_hours_doc.get("validation",{}).get("expected_block_count")) or len(block_hours)
@@ -222,8 +272,7 @@ def validate(root: Path, write_report: bool=False) -> dict[str,Any]:
         check("timeline projection status",resolved_count==0,"block hours remain ORDER_ONLY")
     mapping_count=db.execute("SELECT COUNT(*) FROM assessment_gap_mappings").fetchone()[0]
     expected_gap_count=production.get("verified_resource_gap_count")
-    if expected_gap_count is None:
-        expected_gap_count=production.get("summary_metrics",{}).get("required_gap_instance_count",len(production.get("gap_instance_provenance_registry",[])))
+    if expected_gap_count is None: expected_gap_count=production.get("summary_metrics",{}).get("required_gap_instance_count",len(production.get("gap_instance_provenance_registry",[])))
     check("assessment mapping status", mapping_count==expected_gap_count, f"runtime={mapping_count}, canonical={expected_gap_count}")
     artifact_count=db.execute("SELECT COUNT(*) FROM assessment_artifacts").fetchone()[0]
     expected_artifact_count=production.get("expected_new_artifact_count",len(production.get("production_queue",[])))
