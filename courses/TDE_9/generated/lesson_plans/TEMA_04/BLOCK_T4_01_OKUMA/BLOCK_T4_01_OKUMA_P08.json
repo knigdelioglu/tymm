@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "TDE_9",
+  "theme_id": "TEMA_04",
+  "block_id": "BLOCK_T4_01_OKUMA",
+  "lesson_hours": 1,
+  "plan_title": "Eleştiri Kontrol Noktası: Kanıta Dön, Düzelt ve Okuma Bloğunu Kapat",
+  "plan_summary": "15 saatlik 4. Tema Okuma bloğunun son ders saatinde öğrenciler T4_ACT_07_KONTROL_NOKTASI_ELESTIRI kapsamında P07 sonunda belirledikleri tek gelişim alanını yeniden sınar. Kontrol listesi önce mevcut ürünlere bakılarak doldurulur; kararsız veya eksik bir maddede öğrenci P05-P07 ölçüt, kanıt, yargı ve üslup kayıtlarına döner, cevabını gerekçeli biçimde düzeltir ve aynı maddeyi yeniden kontrol eder. Yeni eleştiri bilgisi eklenmez. Saat sonunda roman/dramatik metin ile eleştiri alt bölümlerinden gelen kanıtlar kısa bir blok sentezinde birleştirilir ve BLOCK_T4_01_OKUMA 15/15 saat tamamlanır.",
+  "outcome_codes": ["TDE2.1", "TDE2.2", "TDE2.3", "TDE2.4"],
+  "used_activity_ids": ["T4_ACT_07_KONTROL_NOKTASI_ELESTIRI"],
+  "used_form_ids": [],
+  "lessons": [
+    {
+      "lesson_no": 1,
+      "duration_lesson_hours": 1,
+      "title": "Kontrol listesi, kanıta dönüş ve okuma bloğu sentezi",
+      "objective": "Öğrencinin eleştiri bölümündeki öğrenmesini kontrol listesiyle öz-denetlemesi; P07'de seçtiği tek gelişim alanında önceki kanıta dönerek en az bir cevabı gerekçeli biçimde düzeltmesi ve Tema 4 okuma bloğunda roman/dramatik metin ile eleştiri okumalarında kullandığı kanıt stratejilerini karşılaştırarak yansıtması.",
+      "outcome_codes": ["TDE2.1", "TDE2.2", "TDE2.3", "TDE2.4"],
+      "opening": "P07 sonunda seçilen tek gelişim alanı görünür hâle getirilir. 'Bir kontrol listesini işaretlemek mi, yoksa emin olmadığım maddede kanıta dönüp cevabımı değiştirebilmek mi öğrenmeyi daha iyi gösterir?' sorusuyla kapanış başlatılır.",
+      "teacher_actions": [
+        "T4_ACT_07_KONTROL_NOKTASI_ELESTIRI'yi ders kitabındaki kontrol listesi yapısına bağlı kalarak uygulat.",
+        "Öğrenciden maddeleri hafızadan değil P05-P07 ürün ve metin kanıtlarına bakarak işaretlemesini iste.",
+        "P07'de seçilen gelişim alanıyla ilişkili kararsız/eksik bir maddede doğru cevabı verme; öğrencinin hangi ölçüt, kanıt, yargı veya üslup kaydına dönmesi gerektiğini belirlemesini sağla.",
+        "Kanıta dönüşten sonra en az bir ilk cevap/işaretin gerekçeli biçimde düzeltilmesini ve aynı maddenin yeniden kontrol edilmesini sağla.",
+        "Yeni eleştiri türü kuralı veya yeni dil bilgisi konusu açma; bu saat yalnız mevcut öğrenmenin doğrulanması ve düzeltilmesi içindir.",
+        "Saat sonunda iki kısa strateji cümlesi al: roman/dramatik metin okurken işe yarayan kanıt stratejisi ve eleştiri okurken işe yarayan kanıt stratejisi."
+      ],
+      "student_actions": [
+        "T4_ACT_07 kontrol listesini mevcut kanıtlarına bakarak doldurur.",
+        "P07'de seçtiği gelişim alanıyla ilişkili bir kararsız veya eksik madde belirler.",
+        "İlgili P05-P07 metin/tahlil kanıtına geri döner.",
+        "En az bir cevabı veya kontrol işaretini gerekçeli biçimde düzeltir ve yeniden kontrol eder.",
+        "Roman/dramatik metin ile eleştiri okumalarında kullandığı iki farklı kanıt stratejisini birer cümleyle yansıtır."
+      ],
+      "activity_ids": ["T4_ACT_07_KONTROL_NOKTASI_ELESTIRI"],
+      "form_ids": [],
+      "assessment": "Ana kapanış kanıtı 'ilk işaret/cevap → dönülen kaynak kanıtı → düzeltilmiş işaret/cevap → gerekçe' kaydıdır. Buna roman/dramatik metin ve eleştiri okuması için birer strateji yansıtması eklenir.",
+      "closure": "Öğrenci 'Önce ... konusunda kararsızdım; ... kanıtına dönünce ... biçiminde düzelttim. Roman/dramatik metinde ... stratejisi, eleştiride ise ... stratejisi benim için daha işlevliydi.' ifadesiyle 15 saatlik okuma bloğunu kapatır.",
+      "materials": ["T4_ACT_07_KONTROL_NOKTASI_ELESTIRI — ders kitabı s.276", "P05-P07 eleştiri tahlil kayıtları", "P01-P04 roman/dramatik metin kanıt kayıtları"]
+    }
+  ],
+  "teacher_notes": "Bu paket BLOCK_T4_01_OKUMA bloğunun pedagojik olarak tasarlanmış son 1 saatidir; resmî MEB saat-saat alt sıralaması değildir. T4_ACT_07 eleştiri türü kontrol noktasıdır. Paket yeni içerik öğretmez; kanıta dönüş, düzeltme ve yeniden kontrol döngüsüyle 15 saatlik okuma bloğunu kapatır.",
+  "continuation_summary": {
+    "planned_now_hours": 1,
+    "remaining_block_hours": 0,
+    "covered_outcome_codes": ["TDE2.1", "TDE2.2", "TDE2.3", "TDE2.4"],
+    "used_activity_ids": ["T4_ACT_01_OKUMA_ONCESI_ROMAN", "T4_ACT_02_OKUMA_SIRASI_ROMAN", "T4_ACT_03_OKUMA_SONRASI_ROMAN_KARSILASTIRMA", "T4_ACT_04_KONTROL_NOKTASI_ROMAN", "T4_ACT_05_OKUMA_ONCESI_ELESTIRI", "T4_ACT_06_OKUMA_SONRASI_ELESTIRI_TAHLIL", "T4_ACT_07_KONTROL_NOKTASI_ELESTIRI"],
+    "next_step_hint": "BLOCK_T4_01_OKUMA 15/15 tamamlandı. Sonraki paket BLOCK_T4_02_KONUSMA_P01 — 2 saattir. T4_ACT_08 kapsamında Dilimizin Zenginlikleri sunumu için sosyal medya dili ve Türkçe/edebî dil kullanım örneklerinden kaynaklı karşılaştırma kanıtı toplanmalı, konuşma amacı-hedef kitlesi ve içerik planı oluşturulmalıdır."
+  }
+}
