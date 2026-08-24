@@ -14,6 +14,9 @@
 | canonical ID uniqueness: assessment_artifacts | PASS |  |
 | orphan relations | PASS | 0 |
 | source fingerprint status | PASS | RUNTIME_FRESH |
+| effective process components projected | PASS | empty=0, verified_none=0 |
+| process component origins valid | PASS | invalid=0 |
+| process component origin counts | PASS | runtime={'ROOF_INHERITED': 64}, canonical={'total_outcomes': 64, 'outcomes_with_roof_components': 64, 'explicit_component_outcomes': 0, 'inherited_component_outcomes': 64, 'verified_no_component_outcomes': 0, 'unresolved_component_outcomes': 0, 'inheritance_missing_count': 0, 'structural_error_count': 0} |
 | timeline projection status | PASS | resolved=16, expected=16 |
 | block-hour theme totals | PASS | runtime={'TEMA_01': 43, 'TEMA_02': 43, 'TEMA_03': 43, 'TEMA_04': 43}, expected={'TEMA_01': 43, 'TEMA_02': 43, 'TEMA_03': 43, 'TEMA_04': 43} |
 | block-hour projection parity | PASS | runtime=16, expected=16 |
