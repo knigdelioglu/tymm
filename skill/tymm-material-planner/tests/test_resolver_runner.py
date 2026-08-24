@@ -13,7 +13,12 @@ from typing import Any, Dict
 SCRIPTS_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "scripts")
 sys.path.insert(0, SCRIPTS_DIR)
 
-from knowledge_index import DuplicateCanonicalKeyError
+from knowledge_index import (
+    DuplicateCanonicalKeyError,
+    EFFECTIVE_INDEX_REQUIRED_ERROR,
+    KnowledgeCorpusExtractor as RawKnowledgeCorpusExtractor,
+    KnowledgeIndexer as RawKnowledgeIndexer,
+)
 from effective_knowledge_index import EffectiveKnowledgeCorpusExtractor as KnowledgeCorpusExtractor, KnowledgeIndexer
 from knowledge_resolver import KnowledgeResolver
 from production_schema import build_artifact_maps
@@ -240,6 +245,12 @@ class TestKnowledgeResolverHardening(unittest.TestCase):
         real_binding = self.resolver.resolve("Tema 4 TDE3.2")
         real_ids = {a["artifact_id"] for a in real_binding["production_context"]}
         self.assertIn("TDE9_KONUSMA_RUBRIC", real_ids)
+
+    def test_17_raw_legacy_index_path_is_fail_closed_for_resolution_contract(self):
+        with self.assertRaisesRegex(RuntimeError, EFFECTIVE_INDEX_REQUIRED_ERROR):
+            RawKnowledgeCorpusExtractor(self.knowledge_root).extract_all()
+        with self.assertRaisesRegex(RuntimeError, EFFECTIVE_INDEX_REQUIRED_ERROR):
+            RawKnowledgeIndexer(self.knowledge_root).build_index(force=True)
 
 
 def run_comprehensive_benchmark(knowledge_root: str = DEFAULT_KNOWLEDGE_ROOT) -> Dict[str, Any]:
