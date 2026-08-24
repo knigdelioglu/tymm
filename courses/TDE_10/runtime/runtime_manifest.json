@@ -1,9 +1,9 @@
 {
-  "runtime_package_version": "1.1.0",
+  "runtime_package_version": "1.2.0",
   "schema_version": "1.1.0",
   "course_id": "TDE_10",
   "grade": 10,
-  "build_timestamp": "2026-08-24T10:01:44Z",
+  "build_timestamp": "2026-08-24T10:05:06Z",
   "compiler_version": "1.2.0",
   "canonical_source_files": [
     "../TDE_SHARED/curriculum_process_component_catalog.json",
