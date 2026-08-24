@@ -8,6 +8,7 @@ This gate deliberately rebuilds knowledge.sqlite from scratch and fails closed u
 - the rebuilt index is fresh and collision-free
 - canonical + alias retrieval works
 - stale and conflict scenarios block generation
+- process-component records use effective explicit/roof resolution when a resolution contract exists
 """
 
 import json
@@ -25,7 +26,7 @@ DEFAULT_ROOT = REPO_ROOT / "courses" / "TDE_9"
 
 sys.path.insert(0, str(SCRIPT_DIR))
 
-from knowledge_index import KnowledgeIndexer
+from effective_knowledge_index import KnowledgeIndexer
 from knowledge_resolver import KnowledgeResolver
 from production_schema import build_artifact_maps
 
@@ -73,6 +74,10 @@ def rebuild_gate(root: Path) -> dict:
     require(manifest.get("artifact_identity_field") == "artifact_id", "legacy artifact identity remained")
     require(manifest.get("production_artifact_count") == 3, "manifest artifact count != 3")
     require(manifest.get("production_gap_alias_count") == 7, "manifest gap alias count != 7")
+    source_paths = {x.get("path") for x in manifest.get("source_files", [])}
+    if (root / "curriculum_process_component_resolution.json").exists():
+        require("curriculum_process_component_resolution.json" in source_paths, "process-component contract missing from index fingerprint")
+        require("../TDE_SHARED/curriculum_process_component_catalog.json" in source_paths, "shared roof catalog missing from index fingerprint")
 
     db = sqlite3.connect(indexer.db_path)
     rows = db.execute(
@@ -81,13 +86,22 @@ def rebuild_gate(root: Path) -> dict:
     duplicate_count = db.execute(
         "SELECT COUNT(*) FROM (SELECT entity_key FROM metadata GROUP BY entity_key HAVING COUNT(*) > 1)"
     ).fetchone()[0]
+    process_origin_counts = dict(
+        db.execute(
+            "SELECT origin,COUNT(*) FROM metadata WHERE entity_type='process_component' GROUP BY origin"
+        ).fetchall()
+    )
     db.close()
     require(len(rows) == 3, f"expected 3 assessment_artifact rows, got {len(rows)}")
     require(duplicate_count == 0, "duplicate entity_key found")
     require(not any(row[0].startswith("MAT_") for row in rows), "MAT_* persisted as artifact identity")
+    if (root / "curriculum_process_component_resolution.json").exists():
+        require(process_origin_counts.get("roof_inherited", 0) > 0, "effective roof-inherited process components were not indexed")
+        require(process_origin_counts.get("theme_explicit", 0) > 0, "TDE9 explicit process components were not indexed")
     return {
         "status": status,
         "artifact_rows": [{"entity_id": r[0], "entity_key": r[1]} for r in rows],
+        "process_component_origins": process_origin_counts,
     }
 
 
@@ -128,6 +142,12 @@ def stale_gate(root: Path) -> dict:
     with tempfile.TemporaryDirectory() as td:
         temp_root = Path(td) / "TDE_9"
         shutil.copytree(root, temp_root)
+        # The temp copy no longer has its sibling TDE_SHARED. Point a sibling copy at the same
+        # shared catalog so process-component fingerprint semantics remain testable.
+        shared_src = root.parent / "TDE_SHARED"
+        shared_dst = temp_root.parent / "TDE_SHARED"
+        if shared_src.exists():
+            shutil.copytree(shared_src, shared_dst)
         path = temp_root / "themes" / "tema_01" / "alignment.json"
         data = json.loads(path.read_text(encoding="utf-8"))
         data["p0_gate_stale_probe"] = True
@@ -144,6 +164,10 @@ def conflict_gate(root: Path) -> dict:
     with tempfile.TemporaryDirectory() as td:
         temp_root = Path(td) / "TDE_9"
         shutil.copytree(root, temp_root)
+        shared_src = root.parent / "TDE_SHARED"
+        shared_dst = temp_root.parent / "TDE_SHARED"
+        if shared_src.exists():
+            shutil.copytree(shared_src, shared_dst)
         path = temp_root / "themes" / "tema_02" / "alignment.json"
         data = json.loads(path.read_text(encoding="utf-8"))
         for al in data.get("alignments", []):
