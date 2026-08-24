@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "TDE_10",
+  "theme_id": "TEMA_01",
+  "block_id": "BLOCK_T1_01_OKUMA",
+  "lesson_hours": 2,
+  "plan_title": "Koşukta Anlamı Derinleştirmek: Söz Varlığı, İleti ve Ahenk İlişkisi",
+  "plan_summary": "Tema 1 Okuma bloğunun 3. ve 4. saatlerinde T1_ACT_02_KOSUK_ANLAM sürdürülür ve T1_ACT_03_KOSUK_COZUMLEME'ye kontrollü geçiş yapılır. Öğrenciler bağlamdan söz varlığı çıkarımlarını metin içi kanıtla doğrular, konu-tema ve açık/örtük ileti ilişkisini derinleştirir; ardından tekrar, ses, ritim ve söyleyiş işaretlerinin anlamı nasıl desteklediğini ilk kez çözümlemeye başlar. Hazır ahenk terimleri listesi ezberletilmez; yalnız metinde gözlenen unsurlar işlevleriyle adlandırılır.",
+  "outcome_codes": ["TDE2.2", "TDE2.3"],
+  "used_activity_ids": ["T1_ACT_02_KOSUK_ANLAM", "T1_ACT_03_KOSUK_COZUMLEME"],
+  "used_form_ids": [],
+  "lessons": [
+    {
+      "lesson_no": 1,
+      "duration_lesson_hours": 1,
+      "title": "Tema ve iletiyi söz varlığı kanıtıyla gerekçelendirme",
+      "objective": "Öğrencinin koşuktaki tema ve iletileri söz varlığı, tekrar eden anlam alanları ve bağlam göstergeleriyle gerekçelendirmesi; kişisel yorum ile metin kanıtını ayırması.",
+      "outcome_codes": ["TDE2.2"],
+      "opening": "P01'de seçilen bir örtük ileti adayı açılır. 'Bu yorum metinde gerçekten var mı, yoksa biz mi ekliyoruz?' sorusuyla kanıt denetimi başlatılır.",
+      "teacher_actions": [
+        "P01 söz varlığı tahminlerinden birkaçını bağlam göstergeleriyle yeniden kontrol ettir.",
+        "Tekrar eden sözcük, kavram ve duygu alanlarını tema çıkarımıyla ilişkilendir.",
+        "Açık ileti ile örtük iletiyi ayrı kanıt standardıyla değerlendirt; örtük yorum için en az iki metin göstergesi iste.",
+        "Öğrencinin kişisel çağrışımını değerli ama metin iddiasından ayrı bir sütunda tutmasını sağla.",
+        "Tema çıkarımını tek sözcük etiketi olmaktan çıkarıp 'kanıt → anlam ilişkisi → tema' zincirine dönüştür.",
+        "Saat sonunda P01 tahminlerinden en az birini yeni kanıtla yeniden değerlendir."
+      ],
+      "student_actions": [
+        "Söz varlığı tahminlerini bağlamla doğrular veya düzeltir.",
+        "Tekrar eden anlam alanlarını belirler.",
+        "Tema ve iletileri metin kanıtıyla gerekçelendirir.",
+        "Kişisel yorumunu metin iddiasından ayırır.",
+        "Önceki bir tahminini yeni kanıta göre günceller."
+      ],
+      "activity_ids": ["T1_ACT_02_KOSUK_ANLAM"],
+      "form_ids": [],
+      "assessment": "Ana kanıt 'metin göstergesi → anlam ilişkisi → tema/ileti' zinciridir. Yorum, doğrudan metin kanıtı gibi sunulmamalıdır.",
+      "closure": "Öğrenci 'Metnin ... temasını düşündüren en güçlü göstergeler ... ve ...; bunlar birlikte ... anlamını kuruyor.' ifadesini tamamlar.",
+      "materials": ["P01 işaretlenmiş Koşuk metni", "Söz varlığı ve ileti notları"]
+    },
+    {
+      "lesson_no": 2,
+      "duration_lesson_hours": 1,
+      "title": "Ahenk işaretlerini anlamla ilişkilendirme",
+      "objective": "Öğrencinin koşukta gözlediği tekrar, ses, ritim ve söyleyiş düzenlerini belirlemesi ve bunların tema/duygu/anlam akışına katkısını metin kanıtıyla açıklaması.",
+      "outcome_codes": ["TDE2.2", "TDE2.3"],
+      "opening": "Aynı anlamı taşıyan fakat farklı ses/ritim düzeninde söylenen iki kısa ifade düşünülür. 'Ses düzeni anlamın algılanışını değiştirebilir mi?' sorusuyla T1_ACT_03'e geçilir.",
+      "teacher_actions": [
+        "T1_ACT_03 kapsamında metindeki gerçekten gözlenebilir tekrar, ses ve ritim işaretlerini buldur.",
+        "Kaynakta/metinde dayanağı olmayan özel ölçü veya ahenk sınıflandırmasını zorla ekleme.",
+        "Her ahenk işareti için 'nerede → ne tekrar/değişiyor → okuma/söyleyiş etkisi → anlam/duygu katkısı' zinciri kurdur.",
+        "Ahenk unsurunu yalnız biçim özelliği olarak değil metnin anlam ve sözlü kültür boyutuyla ilişkilendirmeye başlat.",
+        "Söz varlığı ve tema bulgularıyla ahenk bulgularını aynı kanıt tablosunda birleştir.",
+        "Dönem/tür karşılaştırmasını P03'e bırak."
+      ],
+      "student_actions": [
+        "Metindeki tekrar, ses ve ritim işaretlerini belirler.",
+        "İşaretlerin söyleyiş/okuma etkisini açıklar.",
+        "Ahenk ile tema/duygu arasındaki ilişkiyi kanıtlar.",
+        "Söz varlığı ve ahenk bulgularını birlikte değerlendirir.",
+        "Henüz dayanağı olmayan dönem/tür genellemesi yapmaz."
+      ],
+      "activity_ids": ["T1_ACT_03_KOSUK_COZUMLEME"],
+      "form_ids": [],
+      "assessment": "Ana ürün ahenk-anlam tablosudur: metin kanıtı, gözlenen ses/ritim özelliği, söyleyiş etkisi ve anlam katkısı birlikte gösterilir.",
+      "closure": "Öğrenci 'Koşukta ... ses/tekrar özelliği ... bölümünde görülüyor; bu özellik ... duygu/anlamını ... biçimde destekliyor.' cümlesini tamamlar.",
+      "materials": ["Koşuk metni", "P02 ilk saat tema/ileti kanıtları", "Ahenk-anlam çalışma tablosu"]
+    }
+  ],
+  "teacher_notes": "Ahenk çözümlemesi kaynak ve metin kanıtından türetilir; kaynakta doğrulanmayan teknik sınıflandırmalar resmî içerik gibi eklenmez. P03 yapı, tür/dönem ve dil-anlatım ilişkisini derinleştirecektir.",
+  "continuation_summary": {
+    "planned_now_hours": 2,
+    "remaining_block_hours": 11,
+    "covered_outcome_codes": ["TDE2.2", "TDE2.3"],
+    "used_activity_ids": ["T1_ACT_02_KOSUK_ANLAM", "T1_ACT_03_KOSUK_COZUMLEME"],
+    "next_step_hint": "P03'te T1_ACT_03 kapsamında koşuğun yapı, tür, dil-anlatım, dönem/sözlü kültür ve ahenk bulgularını ilişkisel olarak çözümle; T1_ACT_04 çıkış kartını P04'e bırak."
+  }
+}
