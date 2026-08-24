@@ -86,12 +86,50 @@ Validator bu durumda en az `PROCESS_COMPONENT_INHERITANCE_MISSING` üretmeli ve 
 
 Ayrıca yalnız tema sayfasında explicit yayımlanan bileşenleri saymak completeness ölçümü değildir. Doğrulama **explicit**, **inherited** ve **effective** kapsamı ayrı raporlamalıdır.
 
-## Bilinen mevcut etki
+## 24 Ağustos 2026 yeniden doğrulama ve kapanış notu
 
-Bu invariant eklenmeden üretilmiş TDE_9, TDE_10, TDE_11 ve TDE_12 canonical verileri süreç bileşeni completeness açısından yeniden denetlenmelidir. Önceki `PASS`/`FROZEN` kararları bu invariantı kontrol etmedikleri sürece süreç bileşeni doğruluğunun kanıtı değildir.
+Süreç bileşeni hatası canonical, index, runtime ve downstream katmanlarında yeniden kontrol edilmiştir. Kontrol sırasında mevcut canonical source setinin cross-grade audit sonrasından beri değişmediği doğrulanmış; 9–12. sınıf sonuçları yeniden karşılaştırılmıştır.
+
+Doğrulanan sonuçlar:
+
+- `TDE_9`: 54 outcome; 2 `THEME_EXPLICIT`, 52 `ROOF_INHERITED`, 0 unresolved, 0 inheritance missing, 0 structural error.
+- `TDE_10`: 64 outcome; 0 explicit, 64 `ROOF_INHERITED`, 0 unresolved, 0 inheritance missing, 0 structural error.
+- `TDE_11`: 64 outcome; 0 explicit, 64 `ROOF_INHERITED`, 0 unresolved, 0 inheritance missing, 0 structural error.
+- `TDE_12`: 64 outcome; 0 explicit, 64 `ROOF_INHERITED`, 0 unresolved, 0 inheritance missing, 0 structural error.
+- TDE_9 ve TDE_10 P0 gate sonuçları `PASS`; knowledge indexleri fresh ve shared roof catalog + grade resolution contract fingerprintlerini taşıyor.
+- TDE_9/TDE_10 runtime paketleri `1.2.0`; effective süreç bileşenleri ve inheritance sayımları runtime manifestine projekte edilmiş durumda.
+- TDE_11/TDE_12 curriculum validation raporları inheritance completeness metriklerini açıkça taşıyor.
+- ÖğretmenOS TDE_11/TDE_12 curriculum-only runtime paketleri `1.2.0`, `64/64 ROOF_INHERITED`, `RUNTIME_FRESH`, `PASS`; `process_component_origin` downstream runtime'da korunuyor.
+
+Yeniden kontrolde ayrıca bir **tekrar riski** tespit edilmiştir: tarihsel `knowledge_index.py` motoru raw `process_components_verbatim` alanını okuyordu. Onaylı CI/build yolu zaten `effective_knowledge_index.py` kullanıyordu; ancak manuel legacy rebuild eski hatayı yeniden üretebilirdi. Bu yol da kapatılmıştır:
+
+- tarihsel motor `_knowledge_index_legacy.py` altında internal implementation olarak tutulur,
+- public `knowledge_index.py` compatibility facade'dır,
+- `curriculum_process_component_resolution.json` bulunan bir kursta raw extractor veya raw build/rebuild çağrısı `PROCESS_COMPONENT_EFFECTIVE_INDEX_REQUIRED` ile fail-closed olur,
+- effective build yolu internal motoru yalnız `effective_knowledge_index.py` üzerinden, shared roof projection uygulanmış halde kullanır,
+- regression testi raw legacy rebuild/extraction'ın contract bulunan kursta başarısız olmasını zorunlu kılar.
+
+Bu nedenle mevcut onaylı veri ve build zincirinde başlangıçtaki "tema sayfasında tekrar yoksa süreç bileşeni yoktur" hatası için açık bir yol bırakılmamalıdır.
+
+## Bundan sonra dikkat edilmesi gerekenler
+
+1. **`process_components_verbatim` effective veri değildir.** Resolution contract bulunan kursta bu alan yalnız tema-spesifik explicit katman olarak yorumlanmalıdır.
+2. **Index build/rebuild için `effective_knowledge_index.py` kullan.** `knowledge_index.py` contract bulunan kursta rebuild amacıyla kullanılmamalı ve fail-closed kalmalıdır.
+3. **Shared roof catalog tek normatif kaynaktır.** Başka grade/theme kaydından süreç bileşeni kopyalanmamalı veya inference yapılmamalıdır.
+4. **Explicit override roof ile merge edilmez.** Verified `THEME_EXPLICIT` varsa o outcome için effective set explicit settir.
+5. **Boş effective set varsayılan değildir.** Yalnız `SOURCE_VERIFIED_NONE` resmî kaynakla açıkça kanıtlanırsa `[]` kabul edilebilir.
+6. **Her canonical değişiklikte inheritance gate tekrar çalışmalıdır.** Shared catalog, curriculum map veya resolution contract değişirse index/runtime stale sayılmalı ve fresh rebuild yapılmalıdır.
+7. **Fingerprint zinciri korunmalıdır.** Index ve runtime manifestleri hem grade resolution contract'ı hem `../TDE_SHARED/curriculum_process_component_catalog.json` hashini taşımalıdır.
+8. **Downstream origin kaybolmamalıdır.** SQLite/API/UI katmanları `THEME_EXPLICIT` ve `ROOF_INHERITED` provenance bilgisini korumalıdır.
+9. **Yeni ders/sınıf bootstraplarında bu invariant ilk günden uygulanmalıdır.** Sonradan boş dizileri düzeltmeye dayalı migration normal çalışma biçimi olmamalıdır.
+10. **PASS yalnız sayısal completeness ile verilmelidir.** `inheritance_missing_count = 0`, `unresolved_component_outcomes = 0`, `structural_error_count = 0` zorunlu kalmalıdır.
+
+## Bilinen mevcut durum
+
+TDE_9, TDE_10, TDE_11 ve TDE_12 süreç bileşeni completeness açısından yeni invariant ile yeniden doğrulanmıştır. Eski invariant öncesi `PASS`/`FROZEN` kararları tarihsel kanıt olarak kullanılmamalı; güncel cross-grade audit, grade validation/P0 raporları ve fresh runtime/index manifestleri esas alınmalıdır.
 
 ## Uygulama sırası
 
-Düzeltme planı:
+Düzeltme ve kapanış ayrıntıları:
 
 `@docs/process-component-inheritance-migration-plan.md`
