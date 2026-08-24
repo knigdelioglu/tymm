@@ -9,6 +9,7 @@ on:
       - '.github/workflows/tymm-p0-production-gate.yml'
       - 'skill/tymm-material-planner/scripts/**'
       - 'skill/tymm-material-planner/tests/**'
+      - 'courses/TDE_SHARED/**'
       - 'courses/TDE_9/**'
   pull_request:
     branches:
@@ -17,6 +18,7 @@ on:
       - '.github/workflows/tymm-p0-production-gate.yml'
       - 'skill/tymm-material-planner/scripts/**'
       - 'skill/tymm-material-planner/tests/**'
+      - 'courses/TDE_SHARED/**'
       - 'courses/TDE_9/**'
   workflow_dispatch:
 
@@ -38,6 +40,12 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+
+      - name: Validate process-component inheritance unit contract
+        run: python skill/tymm-material-planner/tests/test_process_component_inheritance.py
+
+      - name: Enforce TDE9 process-component canonical resolution
+        run: python skill/tymm-material-planner/scripts/p0_process_component_gate.py --root courses/TDE_9
 
       - name: Install gate dependencies
         run: |
@@ -73,10 +81,12 @@ jobs:
       - name: Run runtime projection regression suite
         run: python skill/tymm-material-planner/tests/test_runtime_course_package.py
 
-      - name: Upload P0 gate report
+      - name: Upload P0 gate reports
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: tymm-p0-gate-report
-          path: courses/TDE_9/index/p0_gate_report.json
+          path: |
+            courses/TDE_9/index/p0_gate_report.json
+            courses/TDE_9/index/process_component_inheritance_report.json
           if-no-files-found: warn
