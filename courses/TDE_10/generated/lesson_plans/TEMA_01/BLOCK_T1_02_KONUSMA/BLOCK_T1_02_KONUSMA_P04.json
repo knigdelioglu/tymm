@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "TDE_10",
+  "theme_id": "TEMA_01",
+  "block_id": "BLOCK_T1_02_KONUSMA",
+  "lesson_hours": 2,
+  "plan_title": "Şiir Dinletisini Değerlendirmek: Akran Formu, Resmî DPA ve Gelişim Hedefi",
+  "plan_summary": "Tema 1 Konuşma bloğunun 7. ve 8. saatlerinde öğrenciler T1_ACT_10_KONUSMA_DEGERLENDIRME kapsamında varsa P03'ten kalan dinleti performanslarını tamamlar, ardından FORM_T1_KONUSMA_AKRAN'ın basılı ölçütlerini aynen kullanarak kanıta dayalı akran değerlendirmesi yapar. Öğretmenin yetkili EBA erişimi varsa LINK_T1_KONUSMA_DPA resmî yapısıyla uygulanır; erişim yoksa kriter/puan üretilmez. İkinci saatte akran geri bildirimi, öğretimsel performans gözlemi ve varsa resmî DPA sonucu birlikte incelenir; her grup P05 için tek, gözlenebilir ve yeniden performansta sınanabilir gelişim hedefi seçer.",
+  "outcome_codes": ["TDE3.2", "TDE3.3", "TDE3.4"],
+  "used_activity_ids": ["T1_ACT_09_SIIR_DINLETISI_SUNUM", "T1_ACT_10_KONUSMA_DEGERLENDIRME"],
+  "used_form_ids": ["FORM_T1_KONUSMA_AKRAN", "LINK_T1_KONUSMA_DPA"],
+  "lessons": [
+    {
+      "lesson_no": 1,
+      "duration_lesson_hours": 1,
+      "title": "Kalan dinletileri tamamlama ve basılı akran formuyla kanıtlı değerlendirme",
+      "objective": "Varsa kalan canlı performansların aynı görev koşullarıyla tamamlanması; öğrencilerin FORM_T1_KONUSMA_AKRAN'ı kişisel beğeni yerine gözlenebilir performans kanıtına dayanarak kullanması.",
+      "outcome_codes": ["TDE3.2", "TDE3.3", "TDE3.4"],
+      "opening": "P03 sonunda kalan performanslar kontrol edilir. Varsa önce aynı görev koşullarıyla tamamlanır; ardından T1_ACT_10 değerlendirme aşamasına geçilir.",
+      "teacher_actions": [
+        "P03'ten kalan dinletileri tamamlat; sunulmayan performansı değerlendirilmiş sayma.",
+        "FORM_T1_KONUSMA_AKRAN'ı ders kitabındaki 11 basılı ölçütüyle aynen kullandır; ölçüt ekleme, çıkarma veya yeniden adlandırma.",
+        "Akran değerlendirmesini konuşmacının/şiirin kişisel beğenisine değil gözlenebilir dinleti davranışına dayandır.",
+        "Her akran değerlendirmesinde en az bir somut performans kanıtı veya örneği iste.",
+        "LINK_T1_KONUSMA_DPA'ya yetkili erişim varsa resmî aracı aynen kullan; erişim yoksa puan/ölçüt üretme.",
+        "Saat sonunda grupların bir güçlü yön ve bir gelişim alanı için performans kanıtı toplamasını sağla."
+      ],
+      "student_actions": [
+        "Varsa kalan dinleti performansını gerçekleştirir.",
+        "FORM_T1_KONUSMA_AKRAN'ı basılı ölçütleriyle doldurur.",
+        "Akran yorumunu somut performans kanıtıyla gerekçelendirir.",
+        "Bir güçlü yön ve bir gelişim alanı belirler.",
+        "Kişisel beğeni ile performans değerlendirmesini ayırır."
+      ],
+      "activity_ids": ["T1_ACT_09_SIIR_DINLETISI_SUNUM", "T1_ACT_10_KONUSMA_DEGERLENDIRME"],
+      "form_ids": ["FORM_T1_KONUSMA_AKRAN", "LINK_T1_KONUSMA_DPA"],
+      "assessment": "Doldurulmuş FORM_T1_KONUSMA_AKRAN ve her değerlendirmeyi destekleyen en az bir somut performans kanıtı; erişim varsa resmî DPA kaydı.",
+      "closure": "Grup 'Dinletimizde güçlü bulduğumuz ... davranışını ... kanıtı gösteriyor; geliştirmek istediğimiz ... alanını ise ... kanıtı gösteriyor.' cümlesini tamamlar.",
+      "materials": ["FORM_T1_KONUSMA_AKRAN — s.56-57", "P03 performans gözlem notları", "LINK_T1_KONUSMA_DPA — resmî EBA bağlantısı"]
+    },
+    {
+      "lesson_no": 2,
+      "duration_lesson_hours": 1,
+      "title": "Geri bildirimleri sentezleme ve tek yeniden-performans hedefi seçme",
+      "objective": "Grubun akran değerlendirmesi, öğretimsel performans gözlemi ve varsa resmî DPA geri bildirimini aynı performans üzerinde karşılaştırarak P05 için tek, gözlenebilir gelişim hedefi seçmesi.",
+      "outcome_codes": ["TDE3.4"],
+      "opening": "Akran formu, P03/P04 öğretimsel gözlem notları ve erişim varsa resmî DPA sonucu yan yana getirilir. 'Hangi bulgu birden fazla kaynakta tekrar ediyor?' sorusuyla sentez başlatılır.",
+      "teacher_actions": [
+        "Akran formu, öğretimsel gözlem ve varsa DPA sonucunu tek bir yeni puan ortalamasına dönüştürme.",
+        "DPA erişimi yoksa onun yerine uydurma öğretmen puanı üretme; yalnız mevcut kanıt kaynaklarını kullan.",
+        "Tekrarlanan güçlü/gelişim bulgularını işaretlet.",
+        "P05 hedefini tek davranışa indir: akış/geçiş, süre, ses-söyleyiş, beden dili, grup koordinasyonu, Türkçe kullanım veya benzeri gözlenebilir alan.",
+        "'Daha iyi sunacağız' gibi belirsiz hedefi kabul etme; 'mevcut kanıt → seçilen davranış → P05'te gözlenecek değişim' zinciri kurdur.",
+        "P05'te bütün dinletinin yeniden yapılmayacağını, hedefle ilgili kısa bölümün yeniden icra edileceğini belirt."
+      ],
+      "student_actions": [
+        "Akran ve öğretimsel gözlem kanıtlarını karşılaştırır.",
+        "Varsa resmî DPA geri bildirimini ayrı kaynak olarak inceler.",
+        "Tekrarlanan bulguları belirler.",
+        "Tek gözlenebilir gelişim hedefi seçer.",
+        "P05'te hangi değişikliğin gözleneceğini yazar."
+      ],
+      "activity_ids": ["T1_ACT_10_KONUSMA_DEGERLENDIRME"],
+      "form_ids": ["FORM_T1_KONUSMA_AKRAN", "LINK_T1_KONUSMA_DPA"],
+      "assessment": "'Geri bildirim kaynağı → performans kanıtı → ortak/farklı bulgu → tek P05 hedefi' sentez kaydı.",
+      "closure": "Grup 'P05'te ... davranışını değiştireceğiz; bunu seçmemizin kanıtı ...; değişimi ... üzerinden gözleyeceğiz.' cümlesini tamamlar.",
+      "materials": ["FORM_T1_KONUSMA_AKRAN", "P03-P04 öğretimsel gözlem notları", "Varsa resmî DPA geri bildirimi"]
+    }
+  ],
+  "teacher_notes": "FORM_T1_KONUSMA_AKRAN yapısı yerel MEB PDF'de doğrulanmıştır. LINK_T1_KONUSMA_DPA'nın varlığı ve resmî EBA hedefi doğrulanmış, fakat hedef yapısı authentication-gated olduğundan plan hiçbir DPA kriterini veya puanlama modelini türetmez.",
+  "continuation_summary": {
+    "planned_now_hours": 2,
+    "remaining_block_hours": 2,
+    "covered_outcome_codes": ["TDE3.2", "TDE3.3", "TDE3.4"],
+    "used_activity_ids": ["T1_ACT_09_SIIR_DINLETISI_SUNUM", "T1_ACT_10_KONUSMA_DEGERLENDIRME"],
+    "next_step_hint": "P05'te tek gelişim hedefi için kısa prova ve kısa yeniden performans yap; yeni DPA kriteri veya ikinci tam puanlama turu oluşturma."
+  }
+}
