@@ -2,7 +2,7 @@
 """Persist and re-apply explicit teacher approvals for generated assessment artifacts.
 
 Human approval is bound to the exact review surface the teacher saw plus the exact
-canonical source files and generator implementation that define the artifact. The
+canonical source files and generator implementations that define the artifact. The
 runtime still rebuilds and validates the generation context before applying approval;
 tracked source identities make the approval independently auditable in Git.
 """
@@ -26,9 +26,16 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 SKILL_DIR = SCRIPT_DIR.parent
 REPO_ROOT = SKILL_DIR.parent.parent
 DEFAULT_COURSE_ROOT = REPO_ROOT / "courses" / "TDE_9"
-APPROVAL_SCHEMA_VERSION = "1.3"
+APPROVAL_SCHEMA_VERSION = "1.4"
 APPROVAL_DIRNAME = "teacher_approvals"
-GENERATOR_SOURCE_PATH = SCRIPT_DIR / "artifact_generation.py"
+BASE_GENERATOR_SOURCE_PATHS = {
+    "artifact_generation": SCRIPT_DIR / "artifact_generation.py",
+}
+ARTIFACT_GENERATOR_SOURCE_PATHS = {
+    "TDE9_YAZMA_RUBRIC": {
+        "writing_rubric_generation": SCRIPT_DIR / "writing_rubric_generation.py",
+    },
+}
 SOURCE_IDENTITY_PATHS = {
     "production_manifest": Path("production/production_manifest.json"),
     "assessment_artifact_registry": Path("production/assessment_artifact_registry.json"),
@@ -61,6 +68,12 @@ def _git_blob_sha(path: Path) -> str:
     return hashlib.sha1(header + data).hexdigest()
 
 
+def _generator_source_paths(artifact_id: str) -> Dict[str, Path]:
+    paths = dict(BASE_GENERATOR_SOURCE_PATHS)
+    paths.update(ARTIFACT_GENERATOR_SOURCE_PATHS.get(artifact_id, {}))
+    return paths
+
+
 def _current_approval_identity(course_root: Path, artifact_id: str) -> Dict[str, Any]:
     review_path = review_snapshot_path(course_root, artifact_id)
     if not review_path.exists():
@@ -72,9 +85,13 @@ def _current_approval_identity(course_root: Path, artifact_id: str) -> Dict[str,
         key: _git_blob_sha(course_root / relative)
         for key, relative in SOURCE_IDENTITY_PATHS.items()
     }
+    generator_shas = {
+        key: _git_blob_sha(path)
+        for key, path in _generator_source_paths(artifact_id).items()
+    }
     return {
         "review_snapshot_git_blob_sha": _git_blob_sha(review_path),
-        "generator_source_git_blob_sha": _git_blob_sha(GENERATOR_SOURCE_PATH),
+        "generator_source_git_blob_shas": generator_shas,
         "canonical_source_git_blob_shas": source_shas,
     }
 
@@ -84,23 +101,23 @@ def build_record(course_root: Path, artifact_id: str, reviewer: str, note: str =
     if not reviewer:
         raise ArtifactGenerationError("TEACHER_APPROVAL_REVIEWER_REQUIRED")
 
-    # This is deliberately executed before recording approval. It verifies that the
-    # current sources still resolve to a valid, fresh canonical generation context.
+    # Verify that current canonical knowledge still resolves cleanly before the
+    # human decision is persisted.
     build_generation_context(course_root, artifact_id)
     identity = _current_approval_identity(course_root, artifact_id)
     return {
         "schema_version": APPROVAL_SCHEMA_VERSION,
         "artifact_id": artifact_id,
         "review_snapshot_git_blob_sha": identity["review_snapshot_git_blob_sha"],
-        "generator_source_git_blob_sha": identity["generator_source_git_blob_sha"],
+        "generator_source_git_blob_shas": identity["generator_source_git_blob_shas"],
         "canonical_source_git_blob_shas": identity["canonical_source_git_blob_shas"],
         "approved": True,
         "reviewer": reviewer,
         "review_note": note.strip() or None,
         "approval_kind": "EXPLICIT_TEACHER_APPROVAL",
         "reproducibility_rule": (
-            "Approval is valid only while the reviewed REVIEW.md snapshot, artifact_generation.py, "
-            "production_manifest.json, assessment_artifact_registry.json, and "
+            "Approval is valid only while the reviewed REVIEW.md snapshot, all artifact-specific "
+            "generator sources, production_manifest.json, assessment_artifact_registry.json, and "
             "assessment_design_contract.json retain the recorded Git-blob identities."
         ),
     }
@@ -132,12 +149,12 @@ def validate_record(course_root: Path, artifact_id: str) -> Dict[str, Any]:
     identity = _current_approval_identity(course_root, artifact_id)
     if record.get("review_snapshot_git_blob_sha") != identity["review_snapshot_git_blob_sha"]:
         raise ArtifactGenerationError("TEACHER_APPROVAL_REVIEW_SNAPSHOT_STALE")
-    if record.get("generator_source_git_blob_sha") != identity["generator_source_git_blob_sha"]:
+    if record.get("generator_source_git_blob_shas") != identity["generator_source_git_blob_shas"]:
         raise ArtifactGenerationError("TEACHER_APPROVAL_GENERATOR_SOURCE_STALE")
     if record.get("canonical_source_git_blob_shas") != identity["canonical_source_git_blob_shas"]:
         raise ArtifactGenerationError("TEACHER_APPROVAL_CANONICAL_SOURCE_STALE")
 
-    # Source hashes above are the persisted identity; context construction below is
+    # Persisted Git identities are the reproducibility gate; context construction is
     # the runtime semantic gate (registry/production consistency + fresh index).
     build_generation_context(course_root, artifact_id)
     return record
@@ -147,7 +164,7 @@ def apply_record(course_root: Path, output_root: Path, artifact_id: str) -> Dict
     record = validate_record(course_root, artifact_id)
 
     # Recreate and validate the canonical machine artifact only after the exact
-    # reviewed snapshot and canonical source identities have matched.
+    # reviewed snapshot and source identities have matched.
     generate_to_directory(course_root, artifact_id, output_root)
     artifact = approve_artifact(
         course_root,
@@ -174,7 +191,7 @@ def status(course_root: Path, artifact_id: str) -> Dict[str, Any]:
             "approval_record": "CURRENT",
             "reviewer": record.get("reviewer"),
             "review_snapshot_git_blob_sha": record.get("review_snapshot_git_blob_sha"),
-            "generator_source_git_blob_sha": record.get("generator_source_git_blob_sha"),
+            "generator_source_git_blob_shas": record.get("generator_source_git_blob_shas"),
             "canonical_source_git_blob_shas": record.get("canonical_source_git_blob_shas"),
             "path": str(path),
         }
