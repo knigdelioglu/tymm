@@ -4,11 +4,9 @@
 The pipeline has two independent human-review gates:
 1) TDE9_KONUSMA_RUBRIC must have a current explicit teacher approval before the
    Generator V1 order gate may create TDE9_YAZMA_RUBRIC.
-2) TDE9_YAZMA_RUBRIC itself is teacher-review-required. Generating and validating
-   its draft never makes T2 Writing P05 executable. P05 becomes ready only after a
-   current explicit approval record for the writing rubric is also present.
-
-No approval is inferred from lesson-production commands.
+2) TDE9_YAZMA_RUBRIC itself is teacher-review-required. Its specialized 4x4 draft
+   and REVIEW.md snapshot are generated first; P05 opens only after a separate,
+   current explicit approval record for that reviewed snapshot exists.
 """
 from __future__ import annotations
 
@@ -24,16 +22,14 @@ from artifact_generation import (
     LIFECYCLE_FROZEN,
     LIFECYCLE_REVIEW,
     PILOT_ARTIFACT_ID,
-    generate_to_directory,
-    validate_generated_artifact,
 )
 from teacher_approval import apply_record, status as approval_status
+from writing_rubric_generation import WRITING_RUBRIC_ID, generate_writing_to_directory
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 SKILL_DIR = SCRIPT_DIR.parent
 REPO_ROOT = SKILL_DIR.parent.parent
 DEFAULT_COURSE_ROOT = REPO_ROOT / "courses" / "TDE_9"
-WRITING_RUBRIC_ID = "TDE9_YAZMA_RUBRIC"
 EXPECTED_CURSOR = "BLOCK_T2_04_YAZMA_P05"
 
 
@@ -103,10 +99,7 @@ def run(course_root: Path, output_root: Path) -> Dict[str, Any]:
     if pilot.get("lifecycle_status") not in {LIFECYCLE_APPROVED, LIFECYCLE_FROZEN}:
         raise ArtifactGenerationError("PILOT_APPROVAL_APPLICATION_FAILED")
 
-    context, writing_rubric, changed = generate_to_directory(
-        course_root, WRITING_RUBRIC_ID, output_root, enforce_order=True
-    )
-    validate_generated_artifact(writing_rubric, context)
+    context, writing_rubric, changed = generate_writing_to_directory(course_root, output_root)
 
     writing_approval = approval_status(course_root, WRITING_RUBRIC_ID)
     if writing_approval.get("approval_record") != "CURRENT":
@@ -130,12 +123,13 @@ def run(course_root: Path, output_root: Path) -> Dict[str, Any]:
                 "generation_context_hash": context.get("context_hash"),
                 "lifecycle_status": writing_rubric.get("lifecycle_status"),
                 "validation": "PASS",
-                "output_dir": str(output_root / WRITING_RUBRIC_ID),
+                "descriptor_profile": "TDE9_WRITING_OBSERVABLE_4X4_V1",
+                "review_path": str(output_root / WRITING_RUBRIC_ID / "REVIEW.md"),
             },
             "ready_for_p05": False,
             "important_note": (
                 "Writing-rubric generation/validation is not teacher approval. "
-                "T2 Writing P05 remains blocked until a current explicit approval record exists."
+                "Review the generated REVIEW.md snapshot before recording approval."
             ),
         }
 
@@ -156,6 +150,7 @@ def run(course_root: Path, output_root: Path) -> Dict[str, Any]:
             "lifecycle_status": approved_writing.get("lifecycle_status"),
             "teacher_review_status": approved_writing.get("teacher_review_status"),
             "validation": "PASS",
+            "descriptor_profile": "TDE9_WRITING_OBSERVABLE_4X4_V1",
         },
         "ready_for_p05": True,
     }
