@@ -27,6 +27,19 @@ def normalize_component_code(value: Any) -> str:
     return match.group(1)
 
 
+def canonical_outcome_id(outcome: dict[str, Any], theme_id: str | None = None) -> str:
+    explicit = outcome.get("outcome_id")
+    if explicit:
+        return str(explicit)
+    stable = outcome.get("stable_entity_key")
+    if stable:
+        return str(stable)
+    code = outcome.get("outcome_code")
+    if theme_id and code:
+        return f"{theme_id}::{code}"
+    return str(code or "")
+
+
 def build_catalog_index(catalog: dict[str, Any]) -> dict[str, dict[str, Any]]:
     parents = catalog.get("parents", [])
     expected_parent_count = catalog.get("parent_count")
@@ -80,9 +93,10 @@ def build_catalog_index(catalog: dict[str, Any]) -> dict[str, dict[str, Any]]:
 
 def _explicit_components(outcome: dict[str, Any], parent_code: str) -> list[dict[str, Any]]:
     explicit = outcome.get("process_components_verbatim") or []
+    identity = canonical_outcome_id(outcome) or parent_code
     if not isinstance(explicit, list):
         raise ProcessComponentError(
-            f"{outcome.get('outcome_id') or parent_code}: process_components_verbatim must be a list"
+            f"{identity}: process_components_verbatim must be a list"
         )
 
     seen: set[str] = set()
@@ -90,16 +104,16 @@ def _explicit_components(outcome: dict[str, Any], parent_code: str) -> list[dict
     for component in explicit:
         if not isinstance(component, dict):
             raise ProcessComponentError(
-                f"{outcome.get('outcome_id') or parent_code}: explicit component must be an object"
+                f"{identity}: explicit component must be an object"
             )
         code = normalize_component_code(component.get("component_code"))
         if not code.startswith(parent_code + "."):
             raise ProcessComponentError(
-                f"{outcome.get('outcome_id') or parent_code}: explicit component {code} is not under {parent_code}"
+                f"{identity}: explicit component {code} is not under {parent_code}"
             )
         if code in seen:
             raise ProcessComponentError(
-                f"{outcome.get('outcome_id') or parent_code}: duplicate explicit component {code}"
+                f"{identity}: duplicate explicit component {code}"
             )
         seen.add(code)
         normalized.append({**component, "component_code_normalized": code})
@@ -198,6 +212,7 @@ def audit_curriculum(curriculum: dict[str, Any], catalog: dict[str, Any]) -> dic
         for outcome in theme.get("learning_outcomes", []):
             counts["total_outcomes"] += 1
             parent_code = outcome.get("outcome_code")
+            oid = canonical_outcome_id(outcome, theme_id)
             if parent_code in catalog_index:
                 counts["outcomes_with_roof_components"] += 1
             try:
@@ -207,7 +222,7 @@ def audit_curriculum(curriculum: dict[str, Any], catalog: dict[str, Any]) -> dic
                 outcomes_report.append(
                     {
                         "theme_id": theme_id,
-                        "outcome_id": outcome.get("outcome_id"),
+                        "outcome_id": oid,
                         "outcome_code": parent_code,
                         "origin": "ERROR",
                         "status": "STRUCTURAL_ERROR",
@@ -230,7 +245,7 @@ def audit_curriculum(curriculum: dict[str, Any], catalog: dict[str, Any]) -> dic
             outcomes_report.append(
                 {
                     "theme_id": theme_id,
-                    "outcome_id": outcome.get("outcome_id"),
+                    "outcome_id": oid,
                     "outcome_code": parent_code,
                     "origin": origin,
                     "explicit_count": resolution["explicit_count"],
@@ -246,7 +261,7 @@ def audit_curriculum(curriculum: dict[str, Any], catalog: dict[str, Any]) -> dic
         and counts["structural_error_count"] == 0
     )
     return {
-        "schema_version": "1.0",
+        "schema_version": "1.1",
         "course_id": curriculum.get("course_id"),
         "grade": grade,
         "catalog_id": catalog.get("catalog_id"),
@@ -265,11 +280,12 @@ def project_effective_components(
     catalog_index = build_catalog_index(catalog)
     projected = copy.deepcopy(curriculum)
     for theme in projected.get("themes", []):
+        theme_id = theme.get("theme_id")
         for outcome in theme.get("learning_outcomes", []):
             resolution = resolve_outcome_components(outcome, catalog_index)
             if resolution["status"] != "RESOLVED":
                 raise ProcessComponentError(
-                    f"{outcome.get('outcome_id')}: {resolution['status']}"
+                    f"{canonical_outcome_id(outcome, theme_id)}: {resolution['status']}"
                 )
             explicit = outcome.get("process_components_verbatim") or []
             outcome["process_components_explicit_verbatim"] = copy.deepcopy(explicit)
