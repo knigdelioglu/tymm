@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "TDE_9",
+  "theme_id": "TEMA_04",
+  "block_id": "BLOCK_T4_01_OKUMA",
+  "lesson_hours": 2,
+  "plan_title": "Eleştirinin Ölçütlerini Çözmek: Yargı, Gerekçe ve Sonuç İlişkisi",
+  "plan_summary": "15 saatlik 4. Tema Okuma bloğunun 11. ve 12. ders saatlerinde öğrenciler P05'te topladıkları yargı–ölçüt–kanıt kayıtlarını T4_ACT_06_OKUMA_SONRASI_ELESTIRI_TAHLIL kapsamında sistematik bir eleştiri ölçütleri matrisine dönüştürür. İlk saatte eleştirmenin değerlendirme ölçütleri birbirinden ayrılır ve her ölçütün hangi metin parçası/gerekçeyle desteklendiği belirlenir. İkinci saatte bu ölçütlerin eleştirmenin vardığı sonuçları nasıl taşıdığı, farklı ölçütlerin aynı yargıya nasıl katkıda bulunduğu ve kanıtın yargıyı ne ölçüde desteklediği incelenir. Öğrenci eleştirmenin görüşüne katılıp katılmamasından bağımsız olarak önce argüman yapısını kanıtla yeniden kurar. Ayrıntılı üslup çözümlemesi ve eleştiri türü sentezi P07'ye, T4_ACT_07 kontrol noktası P08'e bırakılır.",
+  "outcome_codes": ["TDE2.2", "TDE2.3"],
+  "used_activity_ids": ["T4_ACT_06_OKUMA_SONRASI_ELESTIRI_TAHLIL"],
+  "used_form_ids": [],
+  "lessons": [
+    {
+      "lesson_no": 1,
+      "duration_lesson_hours": 1,
+      "title": "Eleştirmenin ölçütlerini metin kanıtıyla ayrıştırma",
+      "objective": "Öğrencinin P05'te işaretlediği değerlendirme yargılarından hareketle eleştirmenin kullandığı ölçütleri ayrı başlıklarda belirlemesi ve her ölçütü ilgili gerekçe/metin kanıtıyla ilişkilendirmesi.",
+      "outcome_codes": ["TDE2.2", "TDE2.3"],
+      "opening": "P05'teki iki yargı–ölçüt–kanıt zinciri açılır. 'Eleştirmen bir metni yalnız tek bir ölçütle mi değerlendiriyor, yoksa farklı ölçütler farklı yönleri mi görünür kılıyor?' sorusuyla sistematik çözümlemeye geçilir.",
+      "teacher_actions": [
+        "T4_ACT_06 tahlil sorularını temel alarak P05'teki Ö işaretlerini benzerliklerine göre gruplat; kaynakta olmayan hazır ölçüt listesini öğrenciye dayatma.",
+        "Her ölçüt için 'eleştirmen neye bakıyor? → hangi yargıyı kuruyor? → hangi gerekçe/metin kanıtını kullanıyor?' sütunlarını doldurt.",
+        "Aynı kanıtın birden fazla ölçüte hizmet edip etmediğini metne dönerek sorgulat; ilişki yoksa zorla eşleştirme yaptırma.",
+        "Ölçütün adını öğrencinin kendi açıklamasıyla kurmasına izin ver; ancak açıklamanın metindeki değerlendirme davranışına dayanmasını iste.",
+        "Eleştirmenin yargısını öğrencinin kendi görüşüyle değiştirmesine izin verme; önce kaynak argümanını sadakatle yeniden kurdur.",
+        "Saat sonunda en az üç ölçüt/yargı/kanıt satırından oluşan bir matris oluştur."
+      ],
+      "student_actions": [
+        "P05'teki ölçüt işaretlerini yeniden inceler ve benzer olanları gruplar.",
+        "En az üç ölçütü metindeki değerlendirme davranışına dayanarak açıklar.",
+        "Her ölçüt için ilgili yargıyı ve destekleyici kanıt/gerekçeyi kaydeder.",
+        "Aynı kanıtın birden fazla ölçüte hizmet edip etmediğini kontrol eder.",
+        "Eleştirmenin görüşü ile kendi kişisel görüşünü ayrı tutar."
+      ],
+      "activity_ids": ["T4_ACT_06_OKUMA_SONRASI_ELESTIRI_TAHLIL"],
+      "form_ids": [],
+      "assessment": "Ana ürün en az üç satırlı 'ölçüt → değerlendirme yargısı → kanıt/gerekçe → metindeki işlev' matrisidir. Ölçüt adlarının hazır tanımdan değil, kaynak değerlendirme davranışından türetilmesi beklenir.",
+      "closure": "Öğrenci 'Eleştirmenin kullandığı ölçütlerden biri ...; bunu ... yargısında görüyorum ve ... kanıtı/gerekçesi destekliyor.' cümlesini tamamlar.",
+      "materials": ["P05 Y/Ö/K/Ü ilk tahlil kaydı", "Parasız Yatılı Üzerine (Hikâye Tahlilleri) — Mehmet Kaplan", "T4_ACT_06 tahlil soruları — ders kitabı s.269–275 kapsamı"]
+    },
+    {
+      "lesson_no": 2,
+      "duration_lesson_hours": 1,
+      "title": "Ölçütlerden sonuca: eleştirel argümanın dayanıklılığını inceleme",
+      "objective": "Öğrencinin eleştirmenin ölçüt, yargı ve gerekçeleri arasındaki ilişkiyi çözümlemesi; hangi kanıtın hangi sonucu ne ölçüde desteklediğini ve bir sonucun birden fazla ölçütten nasıl beslendiğini metin üzerinden açıklaması.",
+      "outcome_codes": ["TDE2.2", "TDE2.3"],
+      "opening": "İlk saatin ölçüt matrisi görünür tutulur. 'Bir eleştirmenin sonucu güçlü görünüyorsa bunu sağlayan şey yargının kendisi mi, yoksa yargıya giden ölçüt ve gerekçe zinciri mi?' sorusuyla argüman yapısına geçilir.",
+      "teacher_actions": [
+        "Matristen iki değerlendirme sonucu seçtir ve her biri için ölçüt/kanıt zincirini geriye doğru izlet.",
+        "Öğrenciden 'kanıt bu sonucu doğrudan mı destekliyor, dolaylı mı destekliyor, yoksa arada ek bir yorum basamağı mı var?' sorusunu yanıtlamasını iste.",
+        "Bir kanıt ile yargı arasında kopukluk görülürse öğrencinin eleştirmenin metnine dönerek aradaki gerekçe basamağını bulmasını veya 'yeterince açık değil' diye işaretlemesini kabul et.",
+        "Eleştirmenin görüşüne katılma/katılmama tartışmasını argüman yeniden kurulmadan başlatma; önce kanıtsal yapıyı tamamlat.",
+        "En az bir sonuçta iki farklı ölçütün birlikte nasıl çalıştığını gösteren ilişki şeması hazırlat.",
+        "Saat sonunda öğrenciden eleştirinin en güçlü kanıt zincirini bir cümleyle ve metin dayanağıyla açıklamasını iste."
+      ],
+      "student_actions": [
+        "İki değerlendirme sonucunu seçer ve her birinin ölçüt/kanıt zincirini geriye doğru izler.",
+        "Kanıtın sonucu doğrudan mı dolaylı mı desteklediğini açıklar.",
+        "Gerekçe zincirindeki eksik veya belirsiz bir basamağı metne dönerek kontrol eder.",
+        "Bir sonuçta iki ölçütün birlikte nasıl çalıştığını ilişki şemasında gösterir.",
+        "En güçlü bulduğu kanıt zincirini metin dayanağıyla açıklar."
+      ],
+      "activity_ids": ["T4_ACT_06_OKUMA_SONRASI_ELESTIRI_TAHLIL"],
+      "form_ids": [],
+      "assessment": "Ana kanıt iki 'sonuç ← yargı ← ölçüt ← kanıt/gerekçe' zinciri ve en az bir iki-ölçütlü ilişki şemasıdır. Öğrencinin katılım düzeyi değil, kaynak argümanını doğru ve kanıta bağlı yeniden kurabilmesi değerlendirilir.",
+      "closure": "Öğrenci 'Eleştirmenin ... sonucunu en güçlü biçimde ... ölçütü ve ... kanıtı destekliyor; çünkü ...' ifadesini tamamlar.",
+      "materials": ["P06 ilk saat ölçüt matrisi", "Parasız Yatılı Üzerine (Hikâye Tahlilleri)", "T4_ACT_06 tahlil soruları"]
+    }
+  ],
+  "teacher_notes": "Bu paket BLOCK_T4_01_OKUMA bloğunun pedagojik olarak tasarlanmış 11. ve 12. saatleridir; resmî MEB saat-saat alt sıralaması değildir. Kaynak T4_ACT_06 kapsamında eleştirideki ölçütleri belirlemeyi doğrular. P06, ölçütleri hazır kategori olarak öğretmek yerine metindeki değerlendirme davranışından türetir ve yargı–gerekçe–sonuç ilişkisini kanıtla kurdurur. Yazarın üslubunun ayrıntılı işlevi ve eleştiri türü sentezi P07'ye, T4_ACT_07 kontrol noktası P08'e bırakılır.",
+  "continuation_summary": {
+    "planned_now_hours": 2,
+    "remaining_block_hours": 3,
+    "covered_outcome_codes": ["TDE2.1", "TDE2.2", "TDE2.3"],
+    "used_activity_ids": ["T4_ACT_05_OKUMA_ONCESI_ELESTIRI", "T4_ACT_06_OKUMA_SONRASI_ELESTIRI_TAHLIL"],
+    "next_step_hint": "P07'de P05-P06 kanıtları üzerinden eleştirmenin üslubu, sözcük/cümle tercihleri, değerlendirme tonu ve bunların eleştirel işlevi çözülmeli; ardından ölçüt–kanıt–üslup bulgularından eleştiri türünün işlevsel özellikleri sentezlenmelidir. T4_ACT_07 kontrol noktası son 1 saatlik P08'e bırakılmalıdır."
+  }
+}
