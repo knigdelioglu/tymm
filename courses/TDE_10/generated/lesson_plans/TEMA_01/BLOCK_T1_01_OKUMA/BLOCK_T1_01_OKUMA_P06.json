@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "TDE_10",
+  "theme_id": "TEMA_01",
+  "block_id": "BLOCK_T1_01_OKUMA",
+  "lesson_hours": 2,
+  "plan_title": "Turnalar Türküsünü Çözümlemek: Tema, Yapı, Ahenk ve Söz Varlığı",
+  "plan_summary": "Tema 1 Okuma bloğunun 11. ve 12. saatlerinde öğrenciler T1_ACT_06_TURKU_TAHLIL kapsamında P05'te topladıkları ilk okuma kanıtlarını sistematik çözümlemeye dönüştürür. İlk saatte konu/tema, açık-örtük ileti ve bağlam söz varlığı; ikinci saatte yapı, tekrar, ritim/ezgi, dil-anlatım ve bunların anlamla ilişkisi incelenir. Tür özellikleri metin kanıtından türetilir; hazır anonimlik/varyant listesi verilmez.",
+  "outcome_codes": ["TDE2.2", "TDE2.3"],
+  "used_activity_ids": ["T1_ACT_06_TURKU_TAHLIL"],
+  "used_form_ids": [],
+  "lessons": [
+    {
+      "lesson_no": 1,
+      "duration_lesson_hours": 1,
+      "title": "Tema, ileti ve söz varlığı kanıtlarını ilişkilendirme",
+      "objective": "Öğrencinin türküdeki konu/tema, açık-örtük ileti ve söz varlığı bulgularını aynı anlam ağı içinde kanıtla ilişkilendirmesi.",
+      "outcome_codes": ["TDE2.2", "TDE2.3"],
+      "opening": "P05'teki açık/örtük ileti ve söz varlığı tablosundan bir örnek seçilir. 'Bu sözcük/ifade türküde hangi duygu veya iletiyi güçlendiriyor?' sorusuyla çözümleme başlatılır.",
+      "teacher_actions": [
+        "Konu ile temayı ayırırken hazır tanım ezberinden çok metin örneklerini kullandır.",
+        "Her örtük ileti için iki veya daha fazla metin göstergesi istemeyi sürdür.",
+        "Bağlamdan anlamı çıkarılan sözcük/ifadeleri tema ve duygu işleviyle ilişkilendir.",
+        "Öğrencinin kişisel çağrışımını metindeki iletiyle aynı şey gibi sunmasını engelle; ikisini ayrı kaydettir.",
+        "Bir anlam haritasında 'metin göstergesi → söz varlığı/ileti → tema/duygu → gerekçe' zincirini kurdur.",
+        "Saat sonunda en az üç kanıt zinciri toplat."
+      ],
+      "student_actions": [
+        "Konu ve tema çıkarımını metin kanıtıyla açıklar.",
+        "Açık ve örtük iletileri yeniden gözden geçirir.",
+        "Söz varlığı örneklerinin anlam/duygu işlevini belirler.",
+        "Kişisel çağrışım ile metin iletisini ayırır.",
+        "Üç anlam kanıt zinciri oluşturur."
+      ],
+      "activity_ids": ["T1_ACT_06_TURKU_TAHLIL"],
+      "form_ids": [],
+      "assessment": "Üç veya daha fazla 'metin göstergesi → söz varlığı/ileti → tema/duygu → gerekçe' zinciri.",
+      "closure": "Öğrenci '... ifadesi yalnız ... anlamına gelmiyor; bağlamda ... temasını/duygusunu da ... göstergeleri nedeniyle güçlendiriyor.' cümlesini tamamlar.",
+      "materials": ["Turnalar türküsü", "P05 söz varlığı ve ileti tablosu", "Anlam kanıt zinciri şablonu"]
+    },
+    {
+      "lesson_no": 2,
+      "duration_lesson_hours": 1,
+      "title": "Yapı, tekrar, ritim/ezgi ve dil-anlatımın anlam işlevini çözümleme",
+      "objective": "Öğrencinin türküdeki yapısal düzen, tekrar ve ahenk/ezgi işaretlerini dil-anlatım ve anlam üzerindeki işlevleriyle birlikte çözümlemesi.",
+      "outcome_codes": ["TDE2.3"],
+      "opening": "P05'te işaretlenen tekrar/ahenk örneklerinden biri açılır: 'Bu tekrar yalnız ses etkisi mi yaratıyor, yoksa anlamı da taşıyor mu?' sorusu yöneltilir.",
+      "teacher_actions": [
+        "Metindeki tekrar, bölümleme, ritim/ezgi ve söyleyiş kanıtlarını işaretlet.",
+        "Biçimsel bulguyu tek başına listeletmek yerine 'yapı/ahenk kanıtı → işlev → anlam/duygu etkisi' zinciri kurdur.",
+        "Dil ve söz varlığı tercihlerinin seslendirme/ezgiyle ilişkisini metin sınırında tartıştır.",
+        "Türkü özelliklerini hazır liste olarak vermek yerine öğrenciden metinde gözlediği özellikleri gerekçelendirmesini iste.",
+        "Kaynakta doğrulanmayan müzik teorisi terimlerini zorunlu içerik yapma.",
+        "P07 için Koşuk ve Türkü kanıtlarının karşılaştırılabileceği ortak bir matris hazırlat."
+      ],
+      "student_actions": [
+        "Yapı ve tekrar örneklerini metinde gösterir.",
+        "Ahenk/ezgi işaretlerinin işlevini açıklar.",
+        "Dil-anlatım tercihlerinin anlam etkisini değerlendirir.",
+        "Metinden türetilmiş tür özellikleri oluşturur.",
+        "P07 karşılaştırma matrisi için kanıtlarını düzenler."
+      ],
+      "activity_ids": ["T1_ACT_06_TURKU_TAHLIL"],
+      "form_ids": [],
+      "assessment": "En az üç 'yapı/ahenk/dil kanıtı → işlev → anlam/duygu etkisi' zinciri ve P07 karşılaştırma matrisi hazırlığı.",
+      "closure": "Öğrenci 'Türküdeki ... tekrar/yapı özelliği ... etkisini oluşturuyor ve ... anlamını ... biçimde destekliyor.' cümlesini tamamlar.",
+      "materials": ["Turnalar türküsü", "T1_ACT_06 tahlil etkinlikleri — s.42-50", "Yapı-ahenk-anlam tablosu"]
+    }
+  ],
+  "teacher_notes": "P06 T1_ACT_06'nın anlam ve yapı/ahenk çözümlemesini derinleştirir. Koşuk-Türkü karşılaştırması ve gelenek/değişim çıkarımı P07'de yapılacaktır.",
+  "continuation_summary": {
+    "planned_now_hours": 2,
+    "remaining_block_hours": 3,
+    "covered_outcome_codes": ["TDE2.2", "TDE2.3"],
+    "used_activity_ids": ["T1_ACT_06_TURKU_TAHLIL"],
+    "next_step_hint": "P07'de Koşuk ve Turnalar türküsünü yapı, ahenk, söz varlığı, sözlü kültür ve işlev bakımından karşılaştır; P08'de T1_ACT_07 performans planı ile 1 saatlik okuma kapanışı yap."
+  }
+}
