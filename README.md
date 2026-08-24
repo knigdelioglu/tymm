@@ -12,21 +12,33 @@
 
 `knowledge.sqlite` = derived cache; source of truth değildir ve Git'e alınmaz
 
-## Kritik canonical not
+## Kritik canonical invariant
 
-TYMM süreç bileşenleri tema sayfasında tekrar yazılmadığında `process_components_verbatim: []` kabul edilmez. İlgili parent/çatı outcome resmî programın genel bölümünde süreç bileşenleri tanımlıyorsa bunlar provenance korunarak tema outcome'una inherit edilmelidir. Ayrıntı ve migration planı:
+TYMM süreç bileşenleri tema sayfasında tekrar yazılmadığında `process_components_verbatim: []` effective boşluk olarak yorumlanamaz. İlgili parent/çatı outcome resmî programın ortak bölümünde süreç bileşenleri tanımlıyorsa bunlar provenance korunarak tema outcome'una inherit edilir.
+
+Ayrıntı ve migration kaydı:
 
 - [Canonical Süreç Bileşeni Inheritance Kuralı](docs/canonical-process-component-inheritance.md)
 - [Süreç Bileşeni Inheritance Düzeltme Planı](docs/process-component-inheritance-migration-plan.md)
+- [Cross-grade Inheritance Audit](docs/process-component-inheritance-audit.json)
 
-Bu invariant eklenmeden üretilmiş TDE_9–TDE_12 PASS/FROZEN durumları süreç bileşeni completeness açısından yeniden doğrulanmalıdır.
+Migration 24 Ağustos 2026 itibarıyla tamamlanmıştır ve CI tarafından fail-closed enforce edilir:
+
+- TDE_9: `54` outcome → `2 THEME_EXPLICIT + 52 ROOF_INHERITED`
+- TDE_10: `64` outcome → `64 ROOF_INHERITED`
+- TDE_11: `64` outcome → `64 ROOF_INHERITED`
+- TDE_12: `64` outcome → `64 ROOF_INHERITED`
+- unresolved: `0`
+- inheritance missing: `0`
+
+Shared roof catalog veya course resolution contract değişirse derived index/runtime fresh rebuild edilmeden PASS verilemez.
 
 ## Mevcut milestone
 
 - TDE_9 knowledge architecture frozen
 - Hybrid RAG / Knowledge Resolver frozen
 - Assessment Design Contract frozen
-- 7 REQUIRED gerçek materyalin production aşaması henüz başlamadı
+- Process-component inheritance migration: COMPLETE / PASS
 
 ## Dokümantasyon
 
