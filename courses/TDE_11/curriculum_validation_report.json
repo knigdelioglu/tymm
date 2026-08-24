@@ -19,6 +19,20 @@
     "unique_canonical_keys": 64,
     "source_locators_checked": 80,
     "synthetic_subcodes": 0,
+    "process_component_inheritance": {
+      "catalog_id": "TDE_2024_ROOF_PROCESS_COMPONENTS",
+      "resolution_contract": "curriculum_process_component_resolution.json",
+      "contract_mode": "COMPACT_ALL_OUTCOMES",
+      "total_outcomes": 64,
+      "outcomes_with_roof_components": 64,
+      "explicit_component_outcomes": 0,
+      "inherited_component_outcomes": 64,
+      "verified_no_component_outcomes": 0,
+      "unresolved_component_outcomes": 0,
+      "inheritance_missing_count": 0,
+      "structural_error_count": 0,
+      "status": "PASS"
+    },
     "status": "PASS"
   },
   "lifecycle_safety": {
