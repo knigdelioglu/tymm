@@ -3,8 +3,8 @@
 
 The historical indexer reads ``curriculum_map.json.process_components_verbatim`` directly.
 During the process-component schema migration that field is intentionally retained as the
-THEME_EXPLICIT-only legacy field. This module keeps the stable indexer implementation but
-projects the shared roof inheritance in memory before extraction.
+THEME_EXPLICIT-only legacy field. This module keeps the stable internal indexer implementation
+but projects the shared roof inheritance in memory before extraction.
 """
 from __future__ import annotations
 
@@ -12,7 +12,7 @@ import copy
 from pathlib import Path
 from typing import Any
 
-import knowledge_index as legacy
+import _knowledge_index_legacy as legacy
 from process_component_resolver import audit_curriculum, project_effective_components
 
 
@@ -84,7 +84,7 @@ class EffectiveKnowledgeCorpusExtractor(legacy.KnowledgeCorpusExtractor):
                 resolution = outcome.get("process_component_resolution", {})
                 origin = resolution.get("origin", "UNRESOLVED")
                 self._process_origin_by_scope[(theme_id, code)] = origin
-                # Compatibility projection: the legacy extractor iterates this field.
+                # Compatibility projection: the internal legacy extractor iterates this field.
                 outcome["process_components_verbatim"] = copy.deepcopy(
                     outcome.get("process_components_effective", [])
                 )
@@ -133,8 +133,8 @@ def self_course_id(data: dict[str, Any]) -> str:
     return str(data.get("course_id") or "UNKNOWN_COURSE")
 
 
-# KnowledgeIndexer.build_index resolves KnowledgeCorpusExtractor from the legacy module's
-# globals at runtime. Replacing that one symbol preserves the mature indexer/search logic.
+# KnowledgeIndexer.build_index resolves KnowledgeCorpusExtractor from the internal legacy
+# module's globals at runtime. Replacing that one symbol preserves the mature indexer/search logic.
 legacy.KnowledgeCorpusExtractor = EffectiveKnowledgeCorpusExtractor
 KnowledgeIndexer = legacy.KnowledgeIndexer
 
