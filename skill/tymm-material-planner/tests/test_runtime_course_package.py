@@ -22,7 +22,7 @@ class RuntimePackageTests(unittest.TestCase):
     def test_02_duplicate_canonical_id_fails(self):
         def add(d): d["themes"][0]["learning_outcomes"].append(dict(d["themes"][0]["learning_outcomes"][0]))
         self.mutate("curriculum_map.json", add)
-        with self.assertRaises(sqlite3.IntegrityError): self.build()
+        with self.assertRaises((sqlite3.IntegrityError, ValueError)): self.build()
     def test_03_block_hours_resolve_and_project(self):
         self.assertEqual(self.build()["status"], "PASS")
         db=sqlite3.connect(self.tmp/"runtime/course_runtime.sqlite")
@@ -70,5 +70,24 @@ class RuntimePackageTests(unittest.TestCase):
     def test_11_invalid_block_hour_total_fails_closed(self):
         self.mutate("planning/block_hour_bindings.json", lambda d:d["themes"][0]["bindings"][0].update({"planned_hours":14}))
         with self.assertRaises(ValueError): self.build()
+    def test_12_effective_process_components_are_projected(self):
+        self.assertEqual(self.build()["status"], "PASS")
+        db=sqlite3.connect(self.tmp/"runtime/course_runtime.sqlite")
+        self.assertEqual(db.execute("SELECT COUNT(*) FROM outcomes WHERE process_components IS NULL OR process_components='' OR process_components='[]'").fetchone()[0], 0)
+        self.assertEqual(dict(db.execute("SELECT process_component_origin,COUNT(*) FROM outcomes GROUP BY process_component_origin")), {"ROOF_INHERITED":52,"THEME_EXPLICIT":2})
+        inherited=db.execute("SELECT process_components,process_component_origin FROM outcomes WHERE outcome_id='TDE9_T1_D1'").fetchone()
+        self.assertEqual(inherited[1], "ROOF_INHERITED")
+        self.assertEqual(len(json.loads(inherited[0])), 2)
+        explicit=db.execute("SELECT process_components,process_component_origin FROM outcomes WHERE outcome_id='TDE9_T1_D2'").fetchone()
+        self.assertEqual(explicit[1], "THEME_EXPLICIT")
+        self.assertEqual(len(json.loads(explicit[0])), 4)
+        db.close()
+    def test_13_process_component_sources_participate_in_fingerprint(self):
+        self.assertEqual(self.build()["status"], "PASS")
+        manifest=json.loads((self.tmp/"runtime/runtime_manifest.json").read_text())
+        self.assertEqual(manifest["process_component_resolution_status"], "PASS")
+        self.assertEqual(manifest["process_component_counts"]["inherited_component_outcomes"], 52)
+        self.assertIn("curriculum_process_component_resolution.json", manifest["canonical_source_hashes"])
+        self.assertIn("../TDE_SHARED/curriculum_process_component_catalog.json", manifest["canonical_source_hashes"])
 
 if __name__ == "__main__": unittest.main()
