@@ -22,10 +22,33 @@ class EffectiveKnowledgeCorpusExtractor(legacy.KnowledgeCorpusExtractor):
         self._process_origin_by_scope: dict[tuple[str, str], str] = {}
         self._roof_catalog_id: str | None = None
 
+    @staticmethod
+    def _assert_no_duplicate_curriculum_outcome_keys(data: dict[str, Any]) -> None:
+        """Preserve the legacy canonical-key error before inheritance count validation.
+
+        Effective projection adds a stricter process-component count contract. A duplicated
+        theme/outcome would otherwise fail that count contract first and mask the more precise
+        duplicate canonical identity error that downstream gates already rely on.
+        """
+        seen: set[tuple[str, str]] = set()
+        for theme in data.get("themes", []):
+            theme_id = str(theme.get("theme_id") or f"TEMA_{theme.get('theme_no', 0):02d}")
+            for outcome in theme.get("learning_outcomes", []):
+                outcome_code = str(outcome.get("outcome_code") or "")
+                key = (theme_id, outcome_code)
+                if key in seen:
+                    raise legacy.DuplicateCanonicalKeyError(
+                        f"Duplicate curriculum outcome canonical key: "
+                        f"{self_course_id(data)}::curriculum_outcome::{theme_id}::{outcome_code}"
+                    )
+                seen.add(key)
+
     def _read_json(self, rel_path: str):
         data = super()._read_json(rel_path)
         if rel_path != "curriculum_map.json" or not data:
             return data
+
+        self._assert_no_duplicate_curriculum_outcome_keys(data)
 
         contract_path = Path(self.knowledge_root) / "curriculum_process_component_resolution.json"
         if not contract_path.exists():
@@ -104,6 +127,10 @@ class EffectiveKnowledgeCorpusExtractor(legacy.KnowledgeCorpusExtractor):
                     f"PROCESS_COMPONENT_INDEX_ORIGIN_UNRESOLVED: {theme_id} {parent_code} -> {origin}"
                 )
         return records
+
+
+def self_course_id(data: dict[str, Any]) -> str:
+    return str(data.get("course_id") or "UNKNOWN_COURSE")
 
 
 # KnowledgeIndexer.build_index resolves KnowledgeCorpusExtractor from the legacy module's
