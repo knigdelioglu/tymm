@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "TDE_9",
+  "theme_id": "TEMA_04",
+  "block_id": "BLOCK_T4_02_KONUSMA",
+  "lesson_hours": 2,
+  "plan_title": "Dilimizin Zenginlikleri: Kanıt Bankasından Karşılaştırmalı Konuşma Planına",
+  "plan_summary": "10 saatlik 4. Tema Konuşma Atölyesi bloğunun ilk iki ders saatinde öğrenciler T4_ACT_08_KONUSMA_SIRASI kapsamında 'Dilimizin Zenginlikleri' sunumuna hazırlanır. İlk saatte sosyal medya dili ile Türkçe/edebî dil kullanım örnekleri bağlam, amaç, hedef kitle, anlaşılırlık ve sözcük tercihi bakımından kanıta dayalı biçimde incelenir; sosyal medya dili tek başına 'yanlış' ilan edilmez ve yabancı kökenli her sözcük otomatik hata sayılmaz. İkinci saatte seçilen örnekler karşılaştırma matrisine dönüştürülür; öğrenci konuşma amacı, hedef kitlesi, ana düşüncesi ve 2-3 destekleyici karşılaştırma noktası oluşturur. FORM_IN_T4_KONUSMA_CRITERIA yalnız biçimlendirici öz-kontrol için kullanılır; approved TDE9_KONUSMA_RUBRIC ile puanlama canlı sunum aşamasına bırakılır.",
+  "outcome_codes": ["TDE3.1", "TDE3.2"],
+  "used_activity_ids": ["T4_ACT_08_KONUSMA_SIRASI"],
+  "used_form_ids": ["FORM_IN_T4_KONUSMA_CRITERIA"],
+  "lessons": [
+    {
+      "lesson_no": 1,
+      "duration_lesson_hours": 1,
+      "title": "Sosyal medya ve Türkçe/edebî dil örneklerinden güvenilir konuşma kanıtı toplama",
+      "objective": "Öğrencinin sosyal medya dili ve Türkçe/edebî dil kullanım örneklerini bağlam, amaç, hedef kitle, anlaşılırlık ve sözcük seçimi bakımından karşılaştırması; genelleyici iyi/kötü yargıları yerine gözlenebilir dil kanıtları toplaması.",
+      "outcome_codes": ["TDE3.1", "TDE3.2"],
+      "opening": "'Aynı düşünceyi arkadaş grubuna yazarken, sınıfta sunarken ve edebî bir metinde aktarırken aynı dil tercihlerinin hepsi aynı işlevi görür mü?' sorusuyla bağlam ve amaç farkı görünür kılınır.",
+      "teacher_actions": [
+        "T4_ACT_08_KONUSMA_SIRASI kapsamında sunum görevinin sosyal medya dili ve Türkçe kelime kullanımı eksenini açıkla.",
+        "Öğrencilerin örnekleri kişisel hesap, kullanıcı adı veya özel mesaj ifşa etmeden anonimleştirilmiş/kitapta verilen dil örnekleri üzerinden incelemesini sağla.",
+        "Her örnek için 'bağlam → amaç/hedef kitle → dil tercihi → anlaşılırlık/etki' zincirini kurdur.",
+        "Sosyal medya dilini bütünüyle bozuk dil olarak etiketleme; öğrenciden hangi tercihin hangi bağlamda işlevsel veya sorunlu olduğunu kanıtla açıklamasını iste.",
+        "Türkçe karşılığı bulunan bir sözcük örneğinde yalnız kökene göre hüküm verme; anlam açıklığı, kullanım bağlamı ve Türkçe karşılığın işlevini karşılaştırmalı düşündür.",
+        "Saat sonunda öğrenciden en az üç karşılaştırma kanıtı ve her biri için kısa kaynak/bağlam notu oluşturmasını iste."
+      ],
+      "student_actions": [
+        "En az üç dil kullanım örneği seçer veya ders materyalindeki örnekleri kullanır.",
+        "Her örneğin bağlamını, amacını ve hedef kitlesini belirtir.",
+        "Dil/sözcük tercihinin anlaşılırlık veya iletişim etkisini açıklar.",
+        "Genelleyici iyi/kötü yargısı yerine kanıta dayalı karşılaştırma notu yazar.",
+        "Kişisel/özel sosyal medya verisi kullanmadan kısa bir kanıt bankası oluşturur."
+      ],
+      "activity_ids": ["T4_ACT_08_KONUSMA_SIRASI"],
+      "form_ids": [],
+      "assessment": "Ana ürün en az üç satırlı kanıt bankasıdır: bağlam/amaç → dil veya sözcük tercihi → iletişim etkisi → kısa kaynak/örnek notu. Kanıt kişisel veri içermemelidir.",
+      "closure": "Öğrenci 'Bir dil tercihini bağlamdan bağımsız iyi/kötü saymak yerine ... kanıtına bakmalıyım; çünkü ...' ifadesini tamamlar.",
+      "materials": ["T4_ACT_08_KONUSMA_SIRASI — ders kitabı s.277–279", "Tema 4 okuma notları", "Anonimleştirilmiş veya ders materyalinde verilen dil kullanım örnekleri"]
+    },
+    {
+      "lesson_no": 2,
+      "duration_lesson_hours": 1,
+      "title": "Kanıtları konuşma amacı, ana düşünce ve karşılaştırma planına dönüştürme",
+      "objective": "Öğrencinin ilk saatteki kanıt bankasından konuşma amacı ve hedef kitlesine uygun ana düşünce seçmesi; 2-3 karşılaştırma noktası ile kanıt desteklerini düzenleyerek ilk konuşma planını oluşturması.",
+      "outcome_codes": ["TDE3.1", "TDE3.2"],
+      "opening": "Kanıt bankası açılır. 'Üç örnek yan yana durduğunda dinleyiciye hangi ana fikri kanıtlamak istiyorum?' sorusuyla içerik seçimine geçilir.",
+      "teacher_actions": [
+        "Öğrenciden konuşma amacını ve hedef kitlesini birer cümleyle belirlemesini iste.",
+        "Kanıt bankasından 2-3 güçlü karşılaştırma noktası seçtir; her noktanın ana düşünceye hizmet edip etmediğini sorgulat.",
+        "Karşılaştırma matrisini 'bağlam/örnek → sosyal medya dilindeki tercih → Türkçe/edebî kullanım karşılığı veya alternatifi → işlev/etki → konuşmada kullanılacak çıkarım' başlıklarıyla kurdur.",
+        "FORM_IN_T4_KONUSMA_CRITERIA'yı yalnız biçimlendirici plan kontrolü için kullandır; performans düzeyi veya rubrik puanı üretme.",
+        "Ana düşünceyi 'sosyal medya dili kötüdür' gibi peşin hükme dönüştürme; öğrencinin seçtiği kanıtların izin verdiği ölçüde daha sınırlı ve savunulabilir bir ifade kurmasını sağla.",
+        "Saat sonunda ana düşünce + 2-3 karşılaştırma noktası + her nokta için en az bir kanıt içeren konuşma iskeletini tamamlat."
+      ],
+      "student_actions": [
+        "Konuşmasının amacını ve hedef kitlesini belirler.",
+        "Kanıt bankasından 2-3 karşılaştırma noktası seçer.",
+        "Her karşılaştırma noktasını en az bir örnek/kanıtla destekler.",
+        "Kanıtlara dayalı, aşırı genelleme içermeyen bir ana düşünce kurar.",
+        "FORM_IN_T4_KONUSMA_CRITERIA ile planını öz-kontrol eder ve gerekirse bir noktayı revize eder."
+      ],
+      "activity_ids": ["T4_ACT_08_KONUSMA_SIRASI"],
+      "form_ids": ["FORM_IN_T4_KONUSMA_CRITERIA"],
+      "assessment": "Ana ürün konuşma iskeletidir: amaç + hedef kitle + ana düşünce + 2-3 karşılaştırma noktası + her nokta için kanıt. Ölçüt tablosu yalnız planın biçimlendirici kontrolüdür; rubrik puanı değildir.",
+      "closure": "Öğrenci 'Konuşmamın ana düşüncesi ...; bunu özellikle ... ve ... karşılaştırma kanıtlarıyla göstereceğim.' ifadesini tamamlar.",
+      "materials": ["İlk saat kanıt bankası", "FORM_IN_T4_KONUSMA_CRITERIA — ders kitabı s.279", "T4_ACT_08_KONUSMA_SIRASI"]
+    }
+  ],
+  "teacher_notes": "Bu paket BLOCK_T4_02_KONUSMA bloğunun pedagojik olarak tasarlanmış ilk 2 saatidir; resmî MEB saat-saat alt sıralaması değildir. T4_ACT_08 sosyal medya dili ve Türkçe kelime kullanımı üzerine sözlü sunum performansını doğrular. FORM_IN_T4_KONUSMA_CRITERIA bir assessment_criteria_table'dır; approved TDE9_KONUSMA_RUBRIC'in yerine geçmez. Rubrik puanlaması canlı sunum aşamasına bırakılır.",
+  "continuation_summary": {
+    "planned_now_hours": 2,
+    "remaining_block_hours": 8,
+    "covered_outcome_codes": ["TDE3.1", "TDE3.2"],
+    "used_activity_ids": ["T4_ACT_08_KONUSMA_SIRASI"],
+    "next_step_hint": "P02'de konuşma iskeleti giriş-gelişme-sonuç akışına dönüştürülmeli; bağlaşıklık, Türkçe kelime/söz varlığı seçimi, ses-vurgu-tonlama, görsel destek ve süre yönetimi için kontrollü prova yapılmalıdır. Canlı sunum ve approved rubrik puanlaması sonraki pakete bırakılmalıdır."
+  }
+}
