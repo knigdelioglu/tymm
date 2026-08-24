@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "TDE_10",
+  "theme_id": "TEMA_01",
+  "block_id": "BLOCK_T1_01_OKUMA",
+  "lesson_hours": 2,
+  "plan_title": "Koşuk Okumasını Kapatmak: Gerekçeli Değerlendirme ve 3-2-1 Çıkış Kartı",
+  "plan_summary": "Tema 1 Okuma bloğunun 7. ve 8. saatlerinde öğrenciler P01-P03 boyunca oluşturdukları koşuk kanıtlarını bir araya getirir, metne yönelik değerlendirmelerini metinsel gerekçelerle oluşturur ve T1_ACT_04_KOSUK_YANSITMA kapsamında FORM_T1_EXIT_321 çıkış kartını doldurur. İlk saatte anlam, yapı, ahenk, söz varlığı ve sözlü kültür/dönem bağları üzerinden bütüncül değerlendirme; ikinci saatte 3-2-1 çıkış kartı ve kartta ortaya çıkan tek gelişim alanına kanıt dönüşü yapılır. Yeni tarihsel bilgi veya hazır tür listesi eklenmez.",
+  "outcome_codes": ["TDE2.2", "TDE2.3", "TDE2.4"],
+  "used_activity_ids": ["T1_ACT_03_KOSUK_COZUMLEME", "T1_ACT_04_KOSUK_YANSITMA"],
+  "used_form_ids": ["FORM_T1_EXIT_321"],
+  "lessons": [
+    {
+      "lesson_no": 1,
+      "duration_lesson_hours": 1,
+      "title": "Koşuğa yönelik gerekçeli değerlendirmeyi kanıt zincirleriyle kurma",
+      "objective": "Öğrencinin koşuğun anlam, yapı, ahenk, dil/söz varlığı ve sözlü kültür bağlarını birlikte değerlendirerek kişisel beğeni ile kanıta dayalı edebî değerlendirmeyi ayırması.",
+      "outcome_codes": ["TDE2.2", "TDE2.3", "TDE2.4"],
+      "opening": "P01-P03 kayıtlarından üç farklı kanıt türü seçilir. 'Bir metni beğenmek ile neden etkili bulduğumuzu metin üzerinden göstermek arasındaki fark nedir?' sorusuyla değerlendirme başlatılır.",
+      "teacher_actions": [
+        "Öğrenciden en az bir anlam, bir yapı/ahenk ve bir dil/söz varlığı kanıtını aynı değerlendirmede ilişkilendirmesini iste.",
+        "Beğeni yargısını 'yargı → metin kanıtı → işlev → gerekçe' zincirine dönüştür.",
+        "Sözlü kültür veya dönem çıkarımında P03'te belirlenen kanıt sınırını koru; kaynak dışı tarih bilgisini değerlendirme ölçütü yapma.",
+        "Öğrencilerin farklı değerlendirmelerini tek doğru yoruma indirgeme; her yorumun metin kanıtı ve mantıksal gerekçesini denetle.",
+        "Koşuk için iki güçlü kanıt ve bir geliştirilmesi gereken okuma alanı belirlet.",
+        "FORM_T1_EXIT_321'i ikinci saate bırak."
+      ],
+      "student_actions": [
+        "P01-P03 kanıtlarını yeniden düzenler.",
+        "Koşuğa ilişkin değerlendirme yargısı oluşturur.",
+        "Yargısını metin kanıtı ve işlevle gerekçelendirir.",
+        "Kişisel beğeni ile kanıta dayalı değerlendirmeyi ayırır.",
+        "Bir gelişim alanı belirler."
+      ],
+      "activity_ids": ["T1_ACT_03_KOSUK_COZUMLEME"],
+      "form_ids": [],
+      "assessment": "Ana ürün 'değerlendirme yargısı → metin kanıtı → işlev → gerekçe' zincirleri ve öğrencinin bir gelişim alanı kaydıdır.",
+      "closure": "Öğrenci 'Koşuğu ... açıdan etkili/etkisiz buluyorum; çünkü ... kanıtı ... işlevini gösteriyor.' cümlesini tamamlar.",
+      "materials": ["Koşuk metni", "P01-P03 okuma kayıtları", "Kanıt-temelli değerlendirme şablonu"]
+    },
+    {
+      "lesson_no": 2,
+      "duration_lesson_hours": 1,
+      "title": "3-2-1 çıkış kartı ve tek hedefli kanıta dönüş",
+      "objective": "Öğrencinin T1_ACT_04 kapsamında FORM_T1_EXIT_321 ile Koşuk öğrenmesini yansıtması ve kartta beliren tek belirsizlik/gelişim alanını kaynak kanıtına dönerek düzeltmesi.",
+      "outcome_codes": ["TDE2.4"],
+      "opening": "Ders kitabındaki FORM_T1_EXIT_321 olduğu biçimiyle kullanıma açılır; forma yeni resmî madde veya puan eklenmez.",
+      "teacher_actions": [
+        "FORM_T1_EXIT_321'i ders kitabındaki yapısıyla kullandır.",
+        "Karttaki yanıtları not verme aracına dönüştürme; okuma sürecini görünür kılan yansıtma kanıtı olarak kullan.",
+        "Öğrenciden kartta belirlediği tek belirsizliği P01-P03 metin/etkinlik kanıtına dönerek yeniden incelemesini iste.",
+        "Düzeltme gerekiyorsa 'ilk düşünce → döndüğüm kanıt → gerekçe → yeni düşünce' zincirini kaydettir.",
+        "Koşuk alt bölümünü kapat ve sonraki paket Türkü hazırlığına geçileceğini belirt."
+      ],
+      "student_actions": [
+        "FORM_T1_EXIT_321'i doldurur.",
+        "Bir belirsizlik veya gelişim alanı seçer.",
+        "İlgili metin/etkinlik kanıtına geri döner.",
+        "Gerekirse ilk düşüncesini gerekçeli biçimde düzeltir.",
+        "Koşuk öğrenmesine ilişkin kısa yansıtma kaydı oluşturur."
+      ],
+      "activity_ids": ["T1_ACT_04_KOSUK_YANSITMA"],
+      "form_ids": ["FORM_T1_EXIT_321"],
+      "assessment": "Doldurulmuş 3-2-1 çıkış kartı ve varsa 'ilk düşünce → kanıt → gerekçeli düzeltme' kaydı.",
+      "closure": "Öğrenci Koşuk bölümü için 'Artık kanıtla açıklayabildiğim ...; hâlâ dikkat etmem gereken ...' biçiminde bir kapanış notu yazar.",
+      "materials": ["FORM_T1_EXIT_321 — ders kitabı s.38", "Koşuk metni", "P01-P03 kayıtları"]
+    }
+  ],
+  "teacher_notes": "Bu paket Koşuk alt bölümünü T1_ACT_04 ve ders kitabındaki 3-2-1 Çıkış Kartı ile kapatır. Çıkış kartı puanlama rubriği değildir. Pedagojik ders sıralaması resmî saat-saat MEB sıralaması olarak sunulmaz.",
+  "continuation_summary": {
+    "planned_now_hours": 2,
+    "remaining_block_hours": 7,
+    "covered_outcome_codes": ["TDE2.2", "TDE2.3", "TDE2.4"],
+    "used_activity_ids": ["T1_ACT_03_KOSUK_COZUMLEME", "T1_ACT_04_KOSUK_YANSITMA"],
+    "next_step_hint": "P05'te T1_ACT_05_TURKU_HAZIRLIK ile Turnalar türküsüne hazırlık ve amaçlı ilk okuma başlatılmalıdır."
+  }
+}
