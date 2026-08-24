@@ -25,6 +25,7 @@ class TeacherApprovalRecordTests(unittest.TestCase):
         "assessment_artifact_registry": "b" * 40,
         "assessment_design_contract": "c" * 40,
     }
+    GENERATOR_SHAS = {"artifact_generation": "3" * 40}
 
     def test_01_missing_record_is_reported_without_implicit_approval(self):
         with tempfile.TemporaryDirectory() as td:
@@ -32,14 +33,15 @@ class TeacherApprovalRecordTests(unittest.TestCase):
             result = status(root, PILOT_ARTIFACT_ID)
             self.assertEqual(result["approval_record"], "MISSING")
 
-    def test_02_record_is_bound_to_review_generator_and_canonical_sources(self):
+    def test_02_record_is_bound_to_review_generators_and_canonical_sources(self):
         record = build_record(COURSE_ROOT, PILOT_ARTIFACT_ID, "Test Teacher", "Reviewed")
         self.assertEqual(record["schema_version"], APPROVAL_SCHEMA_VERSION)
         self.assertEqual(record["artifact_id"], PILOT_ARTIFACT_ID)
         self.assertTrue(record["approved"])
         self.assertEqual(record["approval_kind"], "EXPLICIT_TEACHER_APPROVAL")
         self.assertEqual(len(record["review_snapshot_git_blob_sha"]), 40)
-        self.assertEqual(len(record["generator_source_git_blob_sha"]), 40)
+        self.assertEqual(set(record["generator_source_git_blob_shas"]), {"artifact_generation"})
+        self.assertTrue(all(len(x) == 40 for x in record["generator_source_git_blob_shas"].values()))
         self.assertEqual(
             set(record["canonical_source_git_blob_shas"]),
             {"production_manifest", "assessment_artifact_registry", "assessment_design_contract"},
@@ -56,7 +58,7 @@ class TeacherApprovalRecordTests(unittest.TestCase):
         root: Path,
         *,
         review_sha: str,
-        generator_sha: str,
+        generator_shas: dict,
         source_shas: dict,
     ) -> None:
         target = approval_path(root, PILOT_ARTIFACT_ID)
@@ -65,7 +67,7 @@ class TeacherApprovalRecordTests(unittest.TestCase):
             "schema_version": APPROVAL_SCHEMA_VERSION,
             "artifact_id": PILOT_ARTIFACT_ID,
             "review_snapshot_git_blob_sha": review_sha,
-            "generator_source_git_blob_sha": generator_sha,
+            "generator_source_git_blob_shas": generator_shas,
             "canonical_source_git_blob_shas": source_shas,
             "approved": True,
             "reviewer": "Test Teacher",
@@ -74,17 +76,17 @@ class TeacherApprovalRecordTests(unittest.TestCase):
             "reproducibility_rule": "test",
         }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
-    def _identity(self, *, review_sha="2" * 40, generator_sha="3" * 40, source_shas=None):
+    def _identity(self, *, review_sha="2" * 40, generator_shas=None, source_shas=None):
         return {
             "review_snapshot_git_blob_sha": review_sha,
-            "generator_source_git_blob_sha": generator_sha,
+            "generator_source_git_blob_shas": generator_shas or dict(self.GENERATOR_SHAS),
             "canonical_source_git_blob_shas": source_shas or dict(self.SOURCE_SHAS),
         }
 
     def test_04_changed_review_snapshot_is_rejected(self):
         with tempfile.TemporaryDirectory() as td:
             root = Path(td)
-            self._write_record(root, review_sha="2" * 40, generator_sha="3" * 40, source_shas=self.SOURCE_SHAS)
+            self._write_record(root, review_sha="2" * 40, generator_shas=self.GENERATOR_SHAS, source_shas=self.SOURCE_SHAS)
             with patch("teacher_approval._current_approval_identity", return_value=self._identity(review_sha="4" * 40)), \
                  patch("teacher_approval.build_generation_context", return_value={}):
                 with self.assertRaises(ArtifactGenerationError) as ctx:
@@ -94,8 +96,9 @@ class TeacherApprovalRecordTests(unittest.TestCase):
     def test_05_changed_generator_source_is_rejected(self):
         with tempfile.TemporaryDirectory() as td:
             root = Path(td)
-            self._write_record(root, review_sha="2" * 40, generator_sha="3" * 40, source_shas=self.SOURCE_SHAS)
-            with patch("teacher_approval._current_approval_identity", return_value=self._identity(generator_sha="5" * 40)), \
+            self._write_record(root, review_sha="2" * 40, generator_shas=self.GENERATOR_SHAS, source_shas=self.SOURCE_SHAS)
+            changed_generators = {"artifact_generation": "5" * 40}
+            with patch("teacher_approval._current_approval_identity", return_value=self._identity(generator_shas=changed_generators)), \
                  patch("teacher_approval.build_generation_context", return_value={}):
                 with self.assertRaises(ArtifactGenerationError) as ctx:
                     validate_record(root, PILOT_ARTIFACT_ID)
@@ -104,7 +107,7 @@ class TeacherApprovalRecordTests(unittest.TestCase):
     def test_06_changed_canonical_source_is_rejected(self):
         with tempfile.TemporaryDirectory() as td:
             root = Path(td)
-            self._write_record(root, review_sha="2" * 40, generator_sha="3" * 40, source_shas=self.SOURCE_SHAS)
+            self._write_record(root, review_sha="2" * 40, generator_shas=self.GENERATOR_SHAS, source_shas=self.SOURCE_SHAS)
             changed = dict(self.SOURCE_SHAS)
             changed["assessment_design_contract"] = "d" * 40
             with patch("teacher_approval._current_approval_identity", return_value=self._identity(source_shas=changed)), \
@@ -116,12 +119,19 @@ class TeacherApprovalRecordTests(unittest.TestCase):
     def test_07_current_identity_still_requires_semantic_context_gate(self):
         with tempfile.TemporaryDirectory() as td:
             root = Path(td)
-            self._write_record(root, review_sha="2" * 40, generator_sha="3" * 40, source_shas=self.SOURCE_SHAS)
+            self._write_record(root, review_sha="2" * 40, generator_shas=self.GENERATOR_SHAS, source_shas=self.SOURCE_SHAS)
             with patch("teacher_approval._current_approval_identity", return_value=self._identity()), \
                  patch("teacher_approval.build_generation_context", side_effect=ArtifactGenerationError("P0_GATE_NOT_READY")):
                 with self.assertRaises(ArtifactGenerationError) as ctx:
                     validate_record(root, PILOT_ARTIFACT_ID)
             self.assertIn("P0_GATE_NOT_READY", str(ctx.exception))
+
+    def test_08_writing_artifact_tracks_specialized_generator_too(self):
+        record = build_record(COURSE_ROOT, "TDE9_YAZMA_RUBRIC", "Test Teacher", "Reviewed")
+        self.assertEqual(
+            set(record["generator_source_git_blob_shas"]),
+            {"artifact_generation", "writing_rubric_generation"},
+        )
 
 
 if __name__ == "__main__":
