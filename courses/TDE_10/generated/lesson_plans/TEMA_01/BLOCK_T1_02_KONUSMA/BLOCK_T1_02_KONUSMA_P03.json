@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "TDE_10",
+  "theme_id": "TEMA_01",
+  "block_id": "BLOCK_T1_02_KONUSMA",
+  "lesson_hours": 2,
+  "plan_title": "Şiir Dinletisi Canlı Performansı: Planı Sahneye Taşımak",
+  "plan_summary": "Tema 1 Konuşma bloğunun 5. ve 6. saatlerinde öğrenciler T1_ACT_09_SIIR_DINLETISI_SUNUM kapsamında P01-P02'de hazırladıkları şiir dinletisini canlı olarak sunmaya başlar. Sunum rotasyonu sınıf mevcudu varsayılmadan yürütülür. Öğrenciler tema bütünlüğü, seçki sırası, geçişler, zaman-mekân yönetimi, ses/söyleyiş, beden dili ve Türkçe kullanımını planlarında olduğu biçimde uygular. LINK_T1_KONUSMA_DPA resmî EBA değerlendirme bağlantısıdır; öğretmenin yetkili erişimi varsa araç aynen kullanılır, erişim yoksa kriter veya puan uydurulmaz ve resmî öğretmen puanlaması beklemede bırakılır.",
+  "outcome_codes": ["TDE3.1", "TDE3.2", "TDE3.3"],
+  "used_activity_ids": ["T1_ACT_09_SIIR_DINLETISI_SUNUM"],
+  "used_form_ids": ["LINK_T1_KONUSMA_DPA"],
+  "lessons": [
+    {
+      "lesson_no": 1,
+      "duration_lesson_hours": 1,
+      "title": "Son performans kontrolü ve canlı dinleti rotasyonunun başlangıcı",
+      "objective": "Öğrencilerin P02'deki tek geliştirme hedefini görünür kılarak dinleti planını canlı performansa dönüştürmesi ve performans kanıtının planla ilişkisinin gözlenmesi.",
+      "outcome_codes": ["TDE3.1", "TDE3.2", "TDE3.3"],
+      "opening": "Her grup P02'de belirlediği tek geliştirme hedefini ve dinleti akışını son kez kontrol eder; yeni şiir veya yeni kapsam eklenmez.",
+      "teacher_actions": [
+        "T1_ACT_09 kapsamında canlı dinletiyi başlat; grup/sunum sayısını varsayma.",
+        "Sunumun P01'deki tema, seçki ve akış planıyla tutarlılığını gözle.",
+        "Şiir okuma/sunumunda ses, söyleyiş, beden dili, zaman ve mekân kullanımının anlam akışını destekleyip desteklemediğine dair kısa gözlem notu tut.",
+        "Sunucu/geçiş dilinde Türkçenin anlaşılır ve bağlama uygun kullanımını gözle.",
+        "LINK_T1_KONUSMA_DPA'ya yetkili erişim varsa resmî aracı ekrandaki/bağlantıdaki özgün yapısıyla kullan; bu ders planındaki ifadeleri DPA kriteri yerine koyma.",
+        "DPA erişilemiyorsa resmî puan üretme; yalnız öğretimsel performans gözlemi kaydet ve resmî değerlendirmeyi 'erişim bekliyor' olarak bırak."
+      ],
+      "student_actions": [
+        "P02 geliştirme hedefini hatırlar.",
+        "Grup dinletisini canlı olarak sunar.",
+        "Seçki sırası ve geçişleri planlandığı biçimde uygular.",
+        "Ses, beden dili, zaman ve mekân kullanımını yönetir.",
+        "Sunum sonrası yalnız kısa bir performans kanıtı notu bırakır; ayrıntılı değerlendirmeyi P04'e bırakır."
+      ],
+      "activity_ids": ["T1_ACT_09_SIIR_DINLETISI_SUNUM"],
+      "form_ids": ["LINK_T1_KONUSMA_DPA"],
+      "assessment": "Ana kanıt canlı şiir dinletisi performansıdır. Yetkili EBA erişimi varsa resmî LINK_T1_KONUSMA_DPA aynen kullanılır; erişim yoksa resmî puanlama yapılmaz ve kriter türetilmez.",
+      "closure": "Sunum yapan grup 'Planımızdaki ... hedefini performansta ... kanıtıyla uyguladık/uygulamakta zorlandık.' biçiminde kısa kayıt oluşturur.",
+      "materials": ["P01-P02 dinleti planı", "Şiir seçki ve kaynak kaydı", "LINK_T1_KONUSMA_DPA — resmî EBA bağlantısı (yetkili erişim gerektirebilir)"]
+    },
+    {
+      "lesson_no": 2,
+      "duration_lesson_hours": 1,
+      "title": "Canlı dinleti rotasyonunu sürdürme ve tutarlı performans kanıtı toplama",
+      "objective": "Canlı dinleti rotasyonunu aynı görev koşullarıyla sürdürmek; her grup için plan-performans ilişkisine dair tutarlı gözlem kanıtı toplamak.",
+      "outcome_codes": ["TDE3.2", "TDE3.3"],
+      "opening": "İlk saatte kullanılan aynı görev koşulları hatırlatılır; yeni ölçüt veya yeni sunum görevi eklenmez.",
+      "teacher_actions": [
+        "Dinleti rotasyonunu aynı görev koşullarıyla sürdür.",
+        "Şiir seçkisinin tema bütünlüğünü ve geçişlerin dinleyici için anlaşılır olup olmadığını gözle.",
+        "Zaman ve mekân kullanımının grup planıyla tutarlılığını kaydet.",
+        "Ses, beden dili ve Türkçe kullanımına ilişkin gözlemleri yalnız somut performans davranışıyla ilişkilendir.",
+        "Varsa resmî DPA'yı yalnız özgün EBA arayüzü/yapısı üzerinden uygula; erişilemiyorsa geçici bir puanlama anahtarı üretme.",
+        "İki saatte tamamlanamayan grupları P04'ün başına aktar; sunulmayan performansı değerlendirilmiş sayma."
+      ],
+      "student_actions": [
+        "Canlı şiir dinletisini gerçekleştirir.",
+        "Grup planını performansta uygular.",
+        "Tema, geçiş, süre ve mekân akışını korur.",
+        "Ses ve beden diliyle dinleyiciyle iletişim kurar.",
+        "Ayrıntılı akran değerlendirmesini P04'e bırakır."
+      ],
+      "activity_ids": ["T1_ACT_09_SIIR_DINLETISI_SUNUM"],
+      "form_ids": ["LINK_T1_KONUSMA_DPA"],
+      "assessment": "Canlı performans kaydı ve erişim durumuna göre resmî DPA sonucu veya 'resmî DPA erişim bekliyor' kaydı.",
+      "closure": "Hangi grupların performansını tamamladığı ve hangilerinin P04'e kaldığı belirlenir; değerlendirme sonuçları henüz sentezlenmez.",
+      "materials": ["Dinleti planları", "Basit süre takip aracı", "LINK_T1_KONUSMA_DPA"]
+    }
+  ],
+  "teacher_notes": "T1_ACT_09 canlı performans aşamasıdır. LINK_T1_KONUSMA_DPA resmî EBA bağlantısı doğrulanmıştır fakat hedef yapısı repo tarafından authentication-gated olduğu için plan hiçbir kriter/ölçek tahmin etmez. Bu durum confirmed material gap değildir; yeni rubrik üretimine izin vermez.",
+  "continuation_summary": {
+    "planned_now_hours": 2,
+    "remaining_block_hours": 4,
+    "covered_outcome_codes": ["TDE3.1", "TDE3.2", "TDE3.3"],
+    "used_activity_ids": ["T1_ACT_09_SIIR_DINLETISI_SUNUM"],
+    "next_step_hint": "P04'te varsa kalan performansları tamamla; ardından T1_ACT_10 ve FORM_T1_KONUSMA_AKRAN ile akran değerlendirmesi yap, resmî DPA sonuçlarını yalnız erişim varsa kullan."
+  }
+}
