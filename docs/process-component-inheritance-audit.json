@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0",
+  "audit_type": "TYMM_TDE_PROCESS_COMPONENT_INHERITANCE",
+  "generated_at": "2026-08-24T10:01:18Z",
+  "catalog_id": "TDE_2024_ROOF_PROCESS_COMPONENTS",
+  "catalog_sha256": "6f9d7b83c4a13e6770d21b46f0d1a293a21d5a01201b9b889dbfd80a76258b5a",
+  "courses": [
+    {
+      "course_id": "TDE_9",
+      "status": "PASS",
+      "contract_mode": "EXPANDED_PER_OUTCOME",
+      "counts": {
+        "total_outcomes": 54,
+        "outcomes_with_roof_components": 54,
+        "explicit_component_outcomes": 2,
+        "inherited_component_outcomes": 52,
+        "verified_no_component_outcomes": 0,
+        "unresolved_component_outcomes": 0,
+        "inheritance_missing_count": 0,
+        "structural_error_count": 0
+      },
+      "curriculum_sha256": "1386a7efac987b8436ca7ab408a831f96e84fb7a8f66c6c6b3994be528bf3f54",
+      "resolution_contract_sha256": "7b19544e0d26d95102a77e4f7020a12080ce5236c89929b5adfac34115bde5e5"
+    },
+    {
+      "course_id": "TDE_10",
+      "status": "PASS",
+      "contract_mode": "COMPACT_ALL_OUTCOMES",
+      "counts": {
+        "total_outcomes": 64,
+        "outcomes_with_roof_components": 64,
+        "explicit_component_outcomes": 0,
+        "inherited_component_outcomes": 64,
+        "verified_no_component_outcomes": 0,
+        "unresolved_component_outcomes": 0,
+        "inheritance_missing_count": 0,
+        "structural_error_count": 0
+      },
+      "curriculum_sha256": "ce3a6caf26ea0d2126e576633d97f473fbcbf3da5327a3f96f927f2a167fa522",
+      "resolution_contract_sha256": "0bb8152a6096d9adf99b0e81f2d331c1c962d0a3eebbbeefa4cca1fbe3ae5979"
+    },
+    {
+      "course_id": "TDE_11",
+      "status": "PASS",
+      "contract_mode": "COMPACT_ALL_OUTCOMES",
+      "counts": {
+        "total_outcomes": 64,
+        "outcomes_with_roof_components": 64,
+        "explicit_component_outcomes": 0,
+        "inherited_component_outcomes": 64,
+        "verified_no_component_outcomes": 0,
+        "unresolved_component_outcomes": 0,
+        "inheritance_missing_count": 0,
+        "structural_error_count": 0
+      },
+      "curriculum_sha256": "d5b9caf6490c7ea11f12dfb10e39d9cbe50343b78e2f3de2e76dfbba62a9e0e3",
+      "resolution_contract_sha256": "73e113cce5ed6190a415ca67c41d6090b0237da48954b4e9ed272e444d1f4773"
+    },
+    {
+      "course_id": "TDE_12",
+      "status": "PASS",
+      "contract_mode": "COMPACT_ALL_OUTCOMES",
+      "counts": {
+        "total_outcomes": 64,
+        "outcomes_with_roof_components": 64,
+        "explicit_component_outcomes": 0,
+        "inherited_component_outcomes": 64,
+        "verified_no_component_outcomes": 0,
+        "unresolved_component_outcomes": 0,
+        "inheritance_missing_count": 0,
+        "structural_error_count": 0
+      },
+      "curriculum_sha256": "bb9a16762d512af07f66bafe361ce41193f5dc12316df7bf9b6d69150f0b3899",
+      "resolution_contract_sha256": "021e0226535f0923193272bdd8e7349c0e5c9649e0723495abb5f12b9996a5e2"
+    }
+  ],
+  "summary": {
+    "course_count": 4,
+    "passed": 4,
+    "failed": 0
+  },
+  "final": "PASS"
+}
