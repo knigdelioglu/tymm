@@ -41,20 +41,20 @@
     "school_based_planning_hours": 8,
     "queued_instruction_hours": 172,
     "total_packages": 88,
-    "completed_packages": 73,
-    "completed_instruction_hours": 143,
+    "completed_packages": 76,
+    "completed_instruction_hours": 148,
     "next": {
       "theme_id": "TEMA_04",
-      "block_id": "BLOCK_T4_01_OKUMA",
-      "package_no": 8,
-      "package_id": "BLOCK_T4_01_OKUMA_P08",
-      "lesson_hours": 1
+      "block_id": "BLOCK_T4_02_KONUSMA",
+      "package_no": 3,
+      "package_id": "BLOCK_T4_02_KONUSMA_P03",
+      "lesson_hours": 2
     },
     "last_completed": {
       "theme_id": "TEMA_04",
-      "block_id": "BLOCK_T4_01_OKUMA",
-      "package_no": 7,
-      "package_id": "BLOCK_T4_01_OKUMA_P07",
+      "block_id": "BLOCK_T4_02_KONUSMA",
+      "package_no": 2,
+      "package_id": "BLOCK_T4_02_KONUSMA_P02",
       "lesson_hours": 2,
       "validation_status": "PASS"
     }
@@ -106,8 +106,8 @@
       "school_based_planning_hours": 2,
       "school_based_planning_in_default_queue": false,
       "blocks": [
-        {"block_id":"BLOCK_T4_01_OKUMA","domain":"OKUMA","planned_hours":15,"package_hours":[2,2,2,2,2,2,2,1],"package_count":8,"package_id_rule":"BLOCK_T4_01_OKUMA_P{package_no:02d}","status":"IN_PROGRESS","completed_packages":7,"completed_hours":14},
-        {"block_id":"BLOCK_T4_02_KONUSMA","domain":"KONUSMA","planned_hours":10,"package_hours":[2,2,2,2,2],"package_count":5,"package_id_rule":"BLOCK_T4_02_KONUSMA_P{package_no:02d}","status":"NOT_STARTED","completed_packages":0,"completed_hours":0},
+        {"block_id":"BLOCK_T4_01_OKUMA","domain":"OKUMA","planned_hours":15,"package_hours":[2,2,2,2,2,2,2,1],"package_count":8,"package_id_rule":"BLOCK_T4_01_OKUMA_P{package_no:02d}","status":"COMPLETED","completed_packages":8,"completed_hours":15},
+        {"block_id":"BLOCK_T4_02_KONUSMA","domain":"KONUSMA","planned_hours":10,"package_hours":[2,2,2,2,2],"package_count":5,"package_id_rule":"BLOCK_T4_02_KONUSMA_P{package_no:02d}","status":"IN_PROGRESS","completed_packages":2,"completed_hours":4},
         {"block_id":"BLOCK_T4_03_DINLEME","domain":"DINLEME_IZLEME","planned_hours":8,"package_hours":[2,2,2,2],"package_count":4,"package_id_rule":"BLOCK_T4_03_DINLEME_P{package_no:02d}","status":"NOT_STARTED","completed_packages":0,"completed_hours":0},
         {"block_id":"BLOCK_T4_04_YAZMA","domain":"YAZMA","planned_hours":10,"package_hours":[2,2,2,2,2],"package_count":5,"package_id_rule":"BLOCK_T4_04_YAZMA_P{package_no:02d}","status":"NOT_STARTED","completed_packages":0,"completed_hours":0}
       ]
