@@ -9,15 +9,27 @@ on:
       - 'skill/tymm-material-planner/scripts/**'
       - 'skill/tymm-material-planner/tests/test_reuse_only_contract.py'
       - 'skill/tymm-material-planner/tests/test_parity_blocked_contract.py'
+      - 'courses/TDE_SHARED/**'
       - 'courses/TDE_10/curriculum_map.json'
+      - 'courses/TDE_10/curriculum_process_component_resolution.json'
       - 'courses/TDE_10/textbook_map.json'
       - 'courses/TDE_10/textbook_forms_index.json'
       - 'courses/TDE_10/source_manifest.json'
       - 'courses/TDE_10/parity_contract.json'
       - 'courses/TDE_10/parity_validation_report.json'
-      - 'courses/TDE_10/planning/**'
-      - 'courses/TDE_10/production/**'
-      - 'courses/TDE_10/themes/**'
+      - 'courses/TDE_10/planning/course_timeline.json'
+      - 'courses/TDE_10/planning/official_topic_hour_distribution.json'
+      - 'courses/TDE_10/planning/block_hour_bindings.json'
+      - 'courses/TDE_10/production/production_manifest.json'
+      - 'courses/TDE_10/production/teaching_blocks.json'
+      - 'courses/TDE_10/production/school_based_planning_options.json'
+      - 'courses/TDE_10/production/assessment_artifact_registry.json'
+      - 'courses/TDE_10/production/assessment_design_contract.json'
+      - 'courses/TDE_10/production/consolidated_resource_plan.json'
+      - 'courses/TDE_10/themes/tema_*/alignment.json'
+      - 'courses/TDE_10/themes/tema_*/gap_analysis.json'
+      - 'courses/TDE_10/themes/tema_*/needs.json'
+      - 'courses/TDE_10/themes/tema_*/resource_plan.json'
   pull_request:
     branches:
       - main
@@ -26,15 +38,27 @@ on:
       - 'skill/tymm-material-planner/scripts/**'
       - 'skill/tymm-material-planner/tests/test_reuse_only_contract.py'
       - 'skill/tymm-material-planner/tests/test_parity_blocked_contract.py'
+      - 'courses/TDE_SHARED/**'
       - 'courses/TDE_10/curriculum_map.json'
+      - 'courses/TDE_10/curriculum_process_component_resolution.json'
       - 'courses/TDE_10/textbook_map.json'
       - 'courses/TDE_10/textbook_forms_index.json'
       - 'courses/TDE_10/source_manifest.json'
       - 'courses/TDE_10/parity_contract.json'
       - 'courses/TDE_10/parity_validation_report.json'
-      - 'courses/TDE_10/planning/**'
-      - 'courses/TDE_10/production/**'
-      - 'courses/TDE_10/themes/**'
+      - 'courses/TDE_10/planning/course_timeline.json'
+      - 'courses/TDE_10/planning/official_topic_hour_distribution.json'
+      - 'courses/TDE_10/planning/block_hour_bindings.json'
+      - 'courses/TDE_10/production/production_manifest.json'
+      - 'courses/TDE_10/production/teaching_blocks.json'
+      - 'courses/TDE_10/production/school_based_planning_options.json'
+      - 'courses/TDE_10/production/assessment_artifact_registry.json'
+      - 'courses/TDE_10/production/assessment_design_contract.json'
+      - 'courses/TDE_10/production/consolidated_resource_plan.json'
+      - 'courses/TDE_10/themes/tema_*/alignment.json'
+      - 'courses/TDE_10/themes/tema_*/gap_analysis.json'
+      - 'courses/TDE_10/themes/tema_*/needs.json'
+      - 'courses/TDE_10/themes/tema_*/resource_plan.json'
   workflow_dispatch:
 
 permissions:
@@ -142,7 +166,7 @@ jobs:
 
       - name: Verify provisional derived status
         run: |
-          python skill/tymm-material-planner/scripts/knowledge_index.py status --knowledge-root courses/TDE_10
+          python skill/tymm-material-planner/scripts/effective_knowledge_index.py status --knowledge-root courses/TDE_10
           python skill/tymm-material-planner/scripts/build_runtime_course_package.py status --knowledge-root courses/TDE_10
 
       - name: Record Phase 15 technical P0 and runtime-support readiness
@@ -189,7 +213,7 @@ jobs:
 
       - name: Verify final derived status
         run: |
-          python skill/tymm-material-planner/scripts/knowledge_index.py status --knowledge-root courses/TDE_10
+          python skill/tymm-material-planner/scripts/effective_knowledge_index.py status --knowledge-root courses/TDE_10
           python skill/tymm-material-planner/scripts/build_runtime_course_package.py status --knowledge-root courses/TDE_10
           python - <<'PY'
           import json, sqlite3
@@ -199,13 +223,16 @@ jobs:
           assert manifest['validation_status']=='PASS', manifest['validation_status']
           assert manifest['row_counts']['assessment_artifacts']==2, manifest['row_counts']
           assert manifest['row_counts']['assessment_task_bindings']==8, manifest['row_counts']
+          assert manifest['process_component_resolution_status']=='PASS', manifest['process_component_resolution_status']
+          assert manifest['process_component_counts']['inherited_component_outcomes']==64, manifest['process_component_counts']
+          assert '../TDE_SHARED/curriculum_process_component_catalog.json' in manifest['canonical_source_hashes']
           db=sqlite3.connect(root/'runtime/course_runtime.sqlite')
           ids={r[0] for r in db.execute('SELECT artifact_id FROM assessment_artifacts')}
           assert ids=={'TDE10_KONUSMA_RUBRIC','TDE10_YAZMA_RUBRIC'}, ids
           themes={r[0] for r in db.execute('SELECT DISTINCT theme_id FROM assessment_task_bindings')}
           assert themes=={'TEMA_01','TEMA_02','TEMA_03','TEMA_04'}, themes
           db.close()
-          print('TDE10 runtime rubric projection: PASS (2 artifacts / 8 bindings / 4 themes)')
+          print('TDE10 runtime rubric/process-component projection: PASS (2 artifacts / 8 bindings / 64 inherited outcomes)')
           PY
 
       - name: Commit TDE10 Phase 15 derived outputs
@@ -220,13 +247,13 @@ jobs:
             git commit -m 'feat(tde10): publish canonical rubric runtime support outputs'
             git fetch origin main
             CHANGED=$(git diff --name-only "$GITHUB_SHA"..origin/main || true)
-            if printf '%s\n' "$CHANGED" | grep -Eq '^(skill/tymm-material-planner/(scripts|tests)/|courses/TDE_10/(curriculum_map\.json|textbook_map\.json|textbook_forms_index\.json|source_manifest\.json|parity_contract\.json|parity_validation_report\.json|planning/|production/|themes/)|\.github/workflows/tymm-tde10-p0\.yml$)'; then
-              echo 'A newer relevant canonical/shared change exists on main; this older run will not publish stale derived outputs.'
+            if printf '%s\n' "$CHANGED" | grep -Eq '^(skill/tymm-material-planner/(scripts|tests)/|courses/TDE_SHARED/|courses/TDE_10/(curriculum_map\.json|curriculum_process_component_resolution\.json|textbook_map\.json|textbook_forms_index\.json|source_manifest\.json|parity_contract\.json|parity_validation_report\.json|planning/(course_timeline\.json|official_topic_hour_distribution\.json|block_hour_bindings\.json)|production/(production_manifest\.json|teaching_blocks\.json|school_based_planning_options\.json|assessment_artifact_registry\.json|assessment_design_contract\.json|consolidated_resource_plan\.json)|themes/tema_[^/]+/(alignment\.json|gap_analysis\.json|needs\.json|resource_plan\.json))|\.github/workflows/tymm-tde10-p0\.yml$)'; then
+              echo 'A newer TDE10 derived dependency exists on main; this older run will not publish stale outputs.'
               exit 0
             fi
             git reset --hard HEAD
             git rebase origin/main
-            python skill/tymm-material-planner/scripts/knowledge_index.py status --knowledge-root courses/TDE_10
+            python skill/tymm-material-planner/scripts/effective_knowledge_index.py status --knowledge-root courses/TDE_10
             python skill/tymm-material-planner/scripts/build_runtime_course_package.py status --knowledge-root courses/TDE_10
             git push origin HEAD:main
           fi
