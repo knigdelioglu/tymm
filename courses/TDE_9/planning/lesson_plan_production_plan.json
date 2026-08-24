@@ -3,7 +3,7 @@
   "plan_type": "AI_LESSON_PLAN_PRODUCTION_PLAN",
   "course_id": "TDE_9",
   "grade": 9,
-  "status": "IN_PROGRESS",
+  "status": "CONTENT_COMPLETE_VALIDATION_PENDING",
   "generation_mode": "CHATGPT_INTERACTIVE_NO_API",
   "calendar_policy": {
     "calendar_neutral": true,
@@ -42,22 +42,16 @@
     "school_based_planning_hours": 8,
     "queued_instruction_hours": 172,
     "total_packages": 88,
-    "completed_packages": 83,
-    "completed_instruction_hours": 162,
-    "next": {
-      "theme_id": "TEMA_04",
-      "block_id": "BLOCK_T4_04_YAZMA",
-      "package_no": 1,
-      "package_id": "BLOCK_T4_04_YAZMA_P01",
-      "lesson_hours": 2
-    },
+    "completed_packages": 88,
+    "completed_instruction_hours": 172,
+    "next": null,
     "last_completed": {
       "theme_id": "TEMA_04",
-      "block_id": "BLOCK_T4_03_DINLEME",
-      "package_no": 4,
-      "package_id": "BLOCK_T4_03_DINLEME_P04",
+      "block_id": "BLOCK_T4_04_YAZMA",
+      "package_no": 5,
+      "package_id": "BLOCK_T4_04_YAZMA_P05",
       "lesson_hours": 2,
-      "validation_status": "PASS"
+      "validation_status": "STATIC_PASS_VALIDATOR_NOT_RUN"
     }
   },
   "themes": [
@@ -110,7 +104,7 @@
         {"block_id":"BLOCK_T4_01_OKUMA","domain":"OKUMA","planned_hours":15,"package_hours":[2,2,2,2,2,2,2,1],"package_count":8,"package_id_rule":"BLOCK_T4_01_OKUMA_P{package_no:02d}","status":"COMPLETED","completed_packages":8,"completed_hours":15},
         {"block_id":"BLOCK_T4_02_KONUSMA","domain":"KONUSMA","planned_hours":10,"package_hours":[2,2,2,2,2],"package_count":5,"package_id_rule":"BLOCK_T4_02_KONUSMA_P{package_no:02d}","status":"COMPLETED","completed_packages":5,"completed_hours":10},
         {"block_id":"BLOCK_T4_03_DINLEME","domain":"DINLEME_IZLEME","planned_hours":8,"package_hours":[2,2,2,2],"package_count":4,"package_id_rule":"BLOCK_T4_03_DINLEME_P{package_no:02d}","status":"COMPLETED","completed_packages":4,"completed_hours":8},
-        {"block_id":"BLOCK_T4_04_YAZMA","domain":"YAZMA","planned_hours":10,"package_hours":[2,2,2,2,2],"package_count":5,"package_id_rule":"BLOCK_T4_04_YAZMA_P{package_no:02d}","status":"NOT_STARTED","completed_packages":0,"completed_hours":0}
+        {"block_id":"BLOCK_T4_04_YAZMA","domain":"YAZMA","planned_hours":10,"package_hours":[2,2,2,2,2],"package_count":5,"package_id_rule":"BLOCK_T4_04_YAZMA_P{package_no:02d}","status":"COMPLETED","completed_packages":5,"completed_hours":10}
       ]
     }
   ],
