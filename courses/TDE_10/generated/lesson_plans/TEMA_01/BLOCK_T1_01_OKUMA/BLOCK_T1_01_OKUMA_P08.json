@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "TDE_10",
+  "theme_id": "TEMA_01",
+  "block_id": "BLOCK_T1_01_OKUMA",
+  "lesson_hours": 1,
+  "plan_title": "Turnalar'ı Canlandırmaya Hazırlık: Okuma Kanıtından Performans Planına",
+  "plan_summary": "Tema 1 Okuma bloğunun 15. ve son saatinde öğrenciler T1_ACT_07_TURKU_CANLANDIRMA kapsamında Turnalar türküsünde P05-P07 boyunca belirledikleri tema/ileti, yapı, ahenk/ezgi, söz varlığı ve söyleyiş kanıtlarını kısa bir performans/canlandırma planına dönüştürür. Amaç yeni bir konuşma performansını tamamlamak değil, okuma çözümlemesinin seslendirme, vurgu, tempo, rol/iş bölümü veya sahneleme tercihlerine nasıl yön verdiğini görünür kılmaktır. Bu saat sonunda BLOCK_T1_01_OKUMA 15/15 saat tamamlanır.",
+  "outcome_codes": ["TDE2.3", "TDE2.4"],
+  "used_activity_ids": ["T1_ACT_07_TURKU_CANLANDIRMA"],
+  "used_form_ids": [],
+  "lessons": [
+    {
+      "lesson_no": 1,
+      "duration_lesson_hours": 1,
+      "title": "Okuma çözümlemesini performans planına dönüştürme ve blok kapanışı",
+      "objective": "Öğrencinin Turnalar'daki metinsel ve ahenk/ezgi kanıtlarını canlandırma/seslendirme tercihleriyle ilişkilendirmesi; seçtiği tercihlerin metin anlamını nasıl koruyup görünür kıldığını gerekçelendirmesi.",
+      "outcome_codes": ["TDE2.3", "TDE2.4"],
+      "opening": "P07'de seçilen Türkü kanıtları açılır. 'Bu metni seslendirirken/canlandırırken hangi anlam ve ahenk özelliğini mutlaka korumalıyız?' sorusuyla performans planına geçilir.",
+      "teacher_actions": [
+        "T1_ACT_07'nin performans planı beklentisini kaynak sınırında uygula; yeni bir resmî performans rubriği veya konuşma kazanımı ekleme.",
+        "Öğrenciden her performans tercihinin karşısına en az bir okuma kanıtı yazmasını iste.",
+        "Seslendirme/vurgu/tempo/rol veya sahneleme tercihlerini profesyonel müzik/tiyatro tekniği zorunluluğuna dönüştürme.",
+        "Planın metnin tema/duygu/ileti ve ahenk özelliklerini destekleyip desteklemediğini sorgulat.",
+        "Koşuk-Türkü karşılaştırmasından gelen bir bulgunun performans planına nasıl yansıdığını belirtmelerini iste.",
+        "Saat sonunda öğrenciden Tema 1 Okuma bloğunda kullandığı en etkili okuma stratejisini ve bunu gösteren bir kanıtı yazmasını iste."
+      ],
+      "student_actions": [
+        "Turnalar'dan korunması gereken anlam ve ahenk kanıtlarını seçer.",
+        "Seslendirme/canlandırma tercihlerini planlar.",
+        "Her tercihi metin kanıtıyla gerekçelendirir.",
+        "Koşuk-Türkü karşılaştırmasından bir bulguyu performans planına taşır.",
+        "Okuma bloğunda kullandığı en etkili stratejiyi kanıtla değerlendirir."
+      ],
+      "activity_ids": ["T1_ACT_07_TURKU_CANLANDIRMA"],
+      "form_ids": [],
+      "assessment": "Performans planında her tercih için 'okuma kanıtı → performans tercihi → anlam/ahenk işlevi' zinciri ve kısa okuma stratejisi yansıtması bulunur.",
+      "closure": "Öğrenci 'Turnalar'ı seslendirirken/canlandırırken ... tercih edeceğim; çünkü metindeki ... kanıtı ... etkisini taşıyor. Tema 1 okumada en işe yarayan stratejim ... oldu; bunu ... kanıtı gösteriyor.' biçiminde bloğu kapatır.",
+      "materials": ["Turnalar türküsü", "P05-P07 okuma kayıtları", "T1_ACT_07 performans planı alanı — s.51-53"]
+    }
+  ],
+  "teacher_notes": "Bu paket T1_ACT_07'nin kaynakta doğrulanan 'performansı planlama' işlevini okuma kanıtlarının transferi olarak kullanır. Canlı sunum/şiir dinletisi Tema 1 Konuşma bloğunda ele alınacaktır. P08 sonunda Okuma bloğu 15/15 saattir.",
+  "continuation_summary": {
+    "planned_now_hours": 1,
+    "remaining_block_hours": 0,
+    "covered_outcome_codes": ["TDE2.3", "TDE2.4"],
+    "used_activity_ids": ["T1_ACT_07_TURKU_CANLANDIRMA"],
+    "next_step_hint": "BLOCK_T1_01_OKUMA tamamlandı. Sonraki paket BLOCK_T1_02_KONUSMA_P01 olmalı; T1_ACT_08_SIIR_DINLETISI_PLAN ile şiir dinletisi hazırlığına geçilmeli."
+  }
+}
