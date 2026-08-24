@@ -1,12 +1,14 @@
 {
-  "runtime_package_version": "1.1.0",
+  "runtime_package_version": "1.2.0",
   "schema_version": "1.1.0",
   "course_id": "TDE_9",
   "grade": 9,
-  "build_timestamp": "2026-08-23T17:34:52Z",
-  "compiler_version": "1.1.0",
+  "build_timestamp": "2026-08-24T12:12:38Z",
+  "compiler_version": "1.2.0",
   "canonical_source_files": [
+    "../TDE_SHARED/curriculum_process_component_catalog.json",
     "curriculum_map.json",
+    "curriculum_process_component_resolution.json",
     "planning/block_hour_bindings.json",
     "planning/course_timeline.json",
     "planning/official_topic_hour_distribution.json",
@@ -36,7 +38,9 @@
     "themes/tema_04/resource_plan.json"
   ],
   "canonical_source_hashes": {
+    "../TDE_SHARED/curriculum_process_component_catalog.json": "6f9d7b83c4a13e6770d21b46f0d1a293a21d5a01201b9b889dbfd80a76258b5a",
     "curriculum_map.json": "1386a7efac987b8436ca7ab408a831f96e84fb7a8f66c6c6b3994be528bf3f54",
+    "curriculum_process_component_resolution.json": "7b19544e0d26d95102a77e4f7020a12080ce5236c89929b5adfac34115bde5e5",
     "planning/block_hour_bindings.json": "2b467c4fc8d8a1db15af5b32f0a390d86ce20b588e97de45499919d6e2abe120",
     "planning/course_timeline.json": "1e8e84a1b29699d21b658f785b54f5f964389a920dae4e0887d0a3f16bb56416",
     "planning/official_topic_hour_distribution.json": "0bb85805c4a0e756886a2e55591f9b82d3ecf9b28d9007ed71213f754d6c04a3",
@@ -65,7 +69,7 @@
     "themes/tema_04/needs.json": "65207b3b390ddc08de31be23ca6624b75edfbd5f445321339c97913ccd5ee094",
     "themes/tema_04/resource_plan.json": "cb9f80b601bcfaaae5447f112f0b62924f349b0c39ec0fe6ea6dd7ccf5555f27"
   },
-  "canonical_content_fingerprint": "bc911195f434b93b4d105373ac5ff395e1eb686988d594458c20c94dc28f1fb8",
+  "canonical_content_fingerprint": "023d22a49dc3890eee88174f0a5546cd8ae9b76f7e124719ab2fb95792a74644",
   "row_counts": {
     "courses": 1,
     "themes": 4,
@@ -98,6 +102,17 @@
   "assessment_registry_version": "1.1.0",
   "assessment_contract_version": "1.4.1",
   "source_manifest_fingerprint": "a1aab502569a3fac8d0e40ad375ee0b07399fe64e0ad1ded8f9fa3f04b84fb19",
+  "process_component_resolution_status": "PASS",
+  "process_component_counts": {
+    "total_outcomes": 54,
+    "outcomes_with_roof_components": 54,
+    "explicit_component_outcomes": 2,
+    "inherited_component_outcomes": 52,
+    "verified_no_component_outcomes": 0,
+    "unresolved_component_outcomes": 0,
+    "inheritance_missing_count": 0,
+    "structural_error_count": 0
+  },
   "runtime_database_path": "runtime/course_runtime.sqlite",
   "validation_status": "PASS",
   "assessment_payload_projection_version": "1.0.0",

@@ -1,0 +1,122 @@
+{
+  "course_id": "TDE_9",
+  "production_schema": {
+    "schema_version": "1.1",
+    "artifact_ids": [
+      "TDE9_KONUSMA_RUBRIC",
+      "TDE9_YAZMA_RUBRIC",
+      "TDE9_YAZMA_SUREC_KONTROL_LISTESI"
+    ],
+    "gap_aliases": [
+      "MAT_T2_KONUSMA_RUBRIC",
+      "MAT_T2_YAZMA_RUBRIC",
+      "MAT_T3_KONUSMA_RUBRIC",
+      "MAT_T3_YAZMA_RUBRIC",
+      "MAT_T4_KONUSMA_RUBRIC",
+      "MAT_T4_YAZMA_KONTROL_LISTESI",
+      "MAT_T4_YAZMA_RUBRIC"
+    ],
+    "gap_alias_to_artifact": {
+      "MAT_T2_KONUSMA_RUBRIC": "TDE9_KONUSMA_RUBRIC",
+      "MAT_T3_KONUSMA_RUBRIC": "TDE9_KONUSMA_RUBRIC",
+      "MAT_T4_KONUSMA_RUBRIC": "TDE9_KONUSMA_RUBRIC",
+      "MAT_T2_YAZMA_RUBRIC": "TDE9_YAZMA_RUBRIC",
+      "MAT_T3_YAZMA_RUBRIC": "TDE9_YAZMA_RUBRIC",
+      "MAT_T4_YAZMA_RUBRIC": "TDE9_YAZMA_RUBRIC",
+      "MAT_T4_YAZMA_KONTROL_LISTESI": "TDE9_YAZMA_SUREC_KONTROL_LISTESI"
+    }
+  },
+  "index_rebuild": {
+    "status": {
+      "status": "INDEX_FRESH",
+      "course_id": "TDE_9",
+      "indexed_record_count": 595,
+      "indexed_entity_types": [
+        "alignment_record",
+        "assessment_artifact",
+        "curriculum_outcome",
+        "curriculum_theme",
+        "instructional_need",
+        "process_component",
+        "remaining_gap",
+        "resource_plan",
+        "school_based_option",
+        "teaching_block",
+        "textbook_activity",
+        "textbook_form",
+        "textbook_section"
+      ],
+      "index_updated_at": "2026-08-24T12:12:27.321095+00:00",
+      "database_engine": "SQLite 3.45.1 + sqlite-vec",
+      "vector_extension": "sqlite-vec",
+      "base_embedding_model": "intfloat/multilingual-e5-small",
+      "model_file_sha256": "f80102d3f2a1229f387d3c81909990d8945513e347b0eab049f7de3c6f98c193",
+      "production_schema_version": "1.1",
+      "production_artifact_count": 3,
+      "production_gap_alias_count": 7
+    },
+    "artifact_rows": [
+      {
+        "entity_id": "TDE9_KONUSMA_RUBRIC",
+        "entity_key": "TDE_9::assessment_artifact::TDE9_KONUSMA_RUBRIC"
+      },
+      {
+        "entity_id": "TDE9_YAZMA_RUBRIC",
+        "entity_key": "TDE_9::assessment_artifact::TDE9_YAZMA_RUBRIC"
+      },
+      {
+        "entity_id": "TDE9_YAZMA_SUREC_KONTROL_LISTESI",
+        "entity_key": "TDE_9::assessment_artifact::TDE9_YAZMA_SUREC_KONTROL_LISTESI"
+      }
+    ],
+    "process_component_origins": {
+      "roof_inherited": 228,
+      "theme_explicit": 9
+    }
+  },
+  "retrieval": {
+    "aliases": {
+      "MAT_T2_KONUSMA_RUBRIC": "TDE9_KONUSMA_RUBRIC",
+      "MAT_T2_YAZMA_RUBRIC": "TDE9_YAZMA_RUBRIC",
+      "MAT_T3_KONUSMA_RUBRIC": "TDE9_KONUSMA_RUBRIC",
+      "MAT_T3_YAZMA_RUBRIC": "TDE9_YAZMA_RUBRIC",
+      "MAT_T4_KONUSMA_RUBRIC": "TDE9_KONUSMA_RUBRIC",
+      "MAT_T4_YAZMA_KONTROL_LISTESI": "TDE9_YAZMA_SUREC_KONTROL_LISTESI",
+      "MAT_T4_YAZMA_RUBRIC": "TDE9_YAZMA_RUBRIC"
+    },
+    "semantic_probes": {
+      "Tema 2 TDE4.4 için kitapta ne eksik?": {
+        "artifacts": [
+          "TDE9_YAZMA_RUBRIC"
+        ],
+        "forms": [
+          "FORM_BOB_03_T2_YAZMA_OZ",
+          "FORM_BOB_09_T1_T2_AKRAN",
+          "FORM_BOB_11_GENEL_GOZLEM",
+          "FORM_IN_T2_YAZMA_CRITERIA"
+        ]
+      },
+      "Tema 3 konuşmayı nasıl değerlendireceğim?": {
+        "artifacts": [
+          "TDE9_KONUSMA_RUBRIC"
+        ],
+        "forms": []
+      },
+      "şiir yazarken öğrenciyi nasıl değerlendireceğim?": {
+        "artifacts": [
+          "TDE9_YAZMA_RUBRIC"
+        ],
+        "forms": []
+      }
+    }
+  },
+  "stale_gate": {
+    "status": "PASS",
+    "block_reason": "INDEX_STALE"
+  },
+  "conflict_gate": {
+    "status": "PASS",
+    "conflicts": 2
+  },
+  "final": "PASS"
+}

@@ -1,18 +1,18 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.1",
   "course_id": "TDE_9",
-  "index_created_at": "2026-08-14T10:58:20.287637+00:00",
-  "index_updated_at": "2026-08-14T10:58:20.287732+00:00",
+  "index_created_at": "2026-08-24T12:12:27.321095+00:00",
+  "index_updated_at": "2026-08-24T12:12:27.321095+00:00",
   "requested_backend": "sqlite-vector/sqliteai-vector",
   "selected_backend": "sqlite-vec",
   "backend_selection_status": "EXPLICIT_ACCEPTED_DEVIATION",
-  "backend_selection_reason": "sqlite-vec is the modern official lightweight native C SQLite extension by Alex Garcia supporting fast vector search without heavy external AI dependencies, works seamlessly on macOS ARM64/x86_64, whereas sqlite-vector/sqliteai-vector has packaging/build complexities and deprecations.",
-  "database_engine": "SQLite 3.53.1 + sqlite-vec (v0.1.9)",
+  "backend_selection_reason": "sqlite-vec is the lightweight native SQLite vector extension selected for local TYMM retrieval; the canonical JSON layer remains authoritative.",
+  "database_engine": "SQLite 3.45.1 + sqlite-vec",
   "vector_extension": "sqlite-vec",
   "vector_extension_version": "0.1.9",
-  "sqlite_version": "3.53.1",
-  "runtime_platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
-  "runtime_architecture": "arm64",
+  "sqlite_version": "3.45.1",
+  "runtime_platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+  "runtime_architecture": "x86_64",
   "base_embedding_model": "intfloat/multilingual-e5-small",
   "runtime_model_repository": "Xenova/multilingual-e5-small",
   "runtime_model_file": "model_quantized.onnx",
@@ -25,26 +25,46 @@
   "passage_prefix": "passage: ",
   "model_file_sha256": "f80102d3f2a1229f387d3c81909990d8945513e347b0eab049f7de3c6f98c193",
   "distance_metric": "cosine",
+  "production_schema_version": "1.1",
+  "production_schema_fingerprint": "422e41bc0bc6e4dcf7fcb1f4ded71008e29801ffcc075b7f2d5b25edacc97fcf",
+  "artifact_identity_field": "artifact_id",
+  "production_artifact_count": 3,
+  "production_gap_alias_count": 7,
   "indexed_entity_types": [
     "alignment_record",
+    "assessment_artifact",
     "curriculum_outcome",
     "curriculum_theme",
     "instructional_need",
     "process_component",
-    "production_material",
     "remaining_gap",
     "resource_plan",
     "school_based_option",
+    "teaching_block",
     "textbook_activity",
     "textbook_form",
     "textbook_section"
   ],
-  "indexed_record_count": 355,
+  "indexed_record_count": 595,
   "source_files": [
     {
       "path": "curriculum_map.json",
       "sha256": "1386a7efac987b8436ca7ab408a831f96e84fb7a8f66c6c6b3994be528bf3f54",
       "size_bytes": 178910,
+      "validation_status": "VERIFIED",
+      "freeze_status": "FROZEN"
+    },
+    {
+      "path": "curriculum_process_component_resolution.json",
+      "sha256": "7b19544e0d26d95102a77e4f7020a12080ce5236c89929b5adfac34115bde5e5",
+      "size_bytes": 11705,
+      "validation_status": "VERIFIED",
+      "freeze_status": "FROZEN"
+    },
+    {
+      "path": "../TDE_SHARED/curriculum_process_component_catalog.json",
+      "sha256": "6f9d7b83c4a13e6770d21b46f0d1a293a21d5a01201b9b889dbfd80a76258b5a",
+      "size_bytes": 12597,
       "validation_status": "VERIFIED",
       "freeze_status": "FROZEN"
     },
@@ -176,8 +196,8 @@
     },
     {
       "path": "production/production_manifest.json",
-      "sha256": "35b40bc54ed82dce5c2e39f8ce9d3a8c8ba8ed9a9cb8f60ac69586e9fc3e6db9",
-      "size_bytes": 9999,
+      "sha256": "422e41bc0bc6e4dcf7fcb1f4ded71008e29801ffcc075b7f2d5b25edacc97fcf",
+      "size_bytes": 11560,
       "validation_status": "VERIFIED",
       "freeze_status": "FROZEN"
     },
@@ -196,6 +216,6 @@
       "freeze_status": "FROZEN"
     }
   ],
-  "index_content_hash": "f3733250285779dbffb76c7f235cdf1c7ccb412e632cc90ffbce61423a994a26",
+  "index_content_hash": "6bfc54494ed71b5f9a9abb893a249068b5e6b77057f948f388e08024ba7c1d65",
   "build_status": "SUCCESS"
 }
