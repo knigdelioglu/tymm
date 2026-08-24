@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "TDE_10",
+  "theme_id": "TEMA_01",
+  "block_id": "BLOCK_T1_01_OKUMA",
+  "lesson_hours": 2,
+  "plan_title": "Koşuğu Çözümlemek: Yapı, Ahenk, Dil ve Sözlü Kültür Bağları",
+  "plan_summary": "Tema 1 Okuma bloğunun 5. ve 6. saatlerinde öğrenciler T1_ACT_03_KOSUK_COZUMLEME kapsamında P01-P02'de topladıkları anlam, söz varlığı ve ahenk kanıtlarını yapı, tür, dil-anlatım ve dönem/sözlü kültür bağlamıyla ilişkilendirir. İlk saatte metnin bölümleri/yapısal düzeni ile ahenk ve anlam arasındaki işlevsel bağ; ikinci saatte dil-söz varlığı, sözlü kültür/dönem bağlamı ve Türk şiirindeki değişim-dönüşüme ilişkin kaynak temelli çıkarımlar ele alınır. Öğrencinin dışarıdan ezberlenmiş tarih bilgisini metin kanıtının yerine koymasına izin verilmez. T1_ACT_04_KOSUK_YANSITMA ve FORM_T1_EXIT_321 P04'e bırakılır.",
+  "outcome_codes": ["TDE2.2", "TDE2.3"],
+  "used_activity_ids": ["T1_ACT_03_KOSUK_COZUMLEME"],
+  "used_form_ids": [],
+  "lessons": [
+    {
+      "lesson_no": 1,
+      "duration_lesson_hours": 1,
+      "title": "Yapı ile ahenk ve anlam arasındaki ilişkiyi çözümleme",
+      "objective": "Öğrencinin koşuğun metinsel/yapısal düzenini gözlenebilir bölümler üzerinden belirlemesi ve yapı seçimlerinin ahenk, tema ve anlam akışına katkısını kanıtla açıklaması.",
+      "outcome_codes": ["TDE2.2", "TDE2.3"],
+      "opening": "P02 ahenk-anlam tablosundan bir örnek seçilir. 'Bu ses/ritim etkisi metnin neresinde ve hangi yapısal düzen içinde ortaya çıkıyor?' sorusuyla yapı çözümlemesine geçilir.",
+      "teacher_actions": [
+        "Metindeki bölüm, söyleyiş veya tekrar düzenlerini öğrencinin doğrudan metinde işaretlemesini sağla.",
+        "Yapı çözümlemesini hazır tür şeması ezberine dönüştürme; metindeki gözlenebilir düzeni başlangıç noktası yap.",
+        "Her yapı bulgusu için 'yapısal kanıt → ahenk/söyleyiş etkisi → anlam/tema katkısı' zinciri kurdur.",
+        "P02'deki söz varlığı ve ahenk bulgularını yeni yapı tablosuna taşıt.",
+        "Metnin biçimsel özelliğini tek başına değer yargısı gibi sunma; işlevini okur/dinleyici ve anlam açısından sorgulat.",
+        "Saat sonunda öğrenciden koşuğun anlamını taşıyan iki farklı yapı-ahenk ilişkisini kanıtlamasını iste."
+      ],
+      "student_actions": [
+        "Metindeki yapısal düzen ve tekrar noktalarını işaretler.",
+        "Yapı bulgularını ahenk bulgularıyla eşleştirir.",
+        "Bu ilişkilerin tema/anlama katkısını açıklar.",
+        "İki farklı yapı-ahenk-anlam kanıt zinciri kurar.",
+        "Hazır tür listesi yerine metin kanıtından hareket eder."
+      ],
+      "activity_ids": ["T1_ACT_03_KOSUK_COZUMLEME"],
+      "form_ids": [],
+      "assessment": "Ana ürün iki veya daha fazla 'yapı kanıtı → ahenk/söyleyiş etkisi → anlam/tema katkısı' zinciridir.",
+      "closure": "Öğrenci 'Koşuğun ... yapısal özelliği ... ahenk etkisini oluşturuyor; bu da ... anlamını/duygusunu destekliyor.' ifadesini tamamlar.",
+      "materials": ["Koşuk metni", "P02 ahenk-anlam tablosu", "Yapı-ahenk-anlam çözümleme tablosu"]
+    },
+    {
+      "lesson_no": 2,
+      "duration_lesson_hours": 1,
+      "title": "Dil, söz varlığı ve sözlü kültür/dönem bağlamından değişim-dönüşüm çıkarımı",
+      "objective": "Öğrencinin koşuğun dil ve söz varlığı özelliklerini metin kanıtıyla çözümlemesi; bunları sözlü kültür/dönem bağlamıyla ilişkilendirerek kaynak etkinliklerinin izin verdiği ölçüde Türk şiirindeki değişim-dönüşüme ilişkin gerekçeli çıkarım oluşturması.",
+      "outcome_codes": ["TDE2.3"],
+      "opening": "P01-P02 söz varlığı kayıtları açılır. 'Bir metnin dil özelliklerinden onun üretildiği/yaşatıldığı kültürel ortam hakkında ne kadar çıkarım yapabiliriz; nerede durmalıyız?' sorusuyla kanıt sınırı belirlenir.",
+      "teacher_actions": [
+        "Metindeki sözcük, ifade, söyleyiş ve tekrar örneklerini dil/söz varlığı kanıtı olarak sınıflandır.",
+        "Sözlü kültürle ilişkiyi, metnin ezgi/ritim/tekrar ve aktarım işaretleri üzerinden gerekçelendirt; kaynak dışı tarih ayrıntılarını zorunlu bilgi gibi ekleme.",
+        "Kaynak etkinlikteki geçmişten günümüze değişim/dönüşüm değerlendirmesini kullan; öğrenciden önce metin kanıtı, sonra çıkarım istemeyi sürdür.",
+        "Değişim-dönüşüm çıkarımında 'eski = ilkel / yeni = gelişmiş' gibi doğrusal değer yargılarını engelle; farklı bağlam ve işlevleri karşılaştır.",
+        "Öğretmen değerlendirmesi veya kaynak yönlendirmesi varsa öğrencinin kendi çıkarımıyla ayrı kaydettir.",
+        "T1_ACT_04 çıkış kartını henüz kullandırma; P04'te bütün Koşuk öğrenmesiyle birlikte ele alınacağını belirt."
+      ],
+      "student_actions": [
+        "Dil ve söz varlığı örneklerini metinden seçer.",
+        "Bu örnekleri sözlü kültür/aktarım işaretleriyle ilişkilendirir.",
+        "Geçmişten günümüze değişim/dönüşüm için kaynak temelli çıkarım kurar.",
+        "Değer yargısı ile kanıta dayalı karşılaştırmayı ayırır.",
+        "Kendi çıkarımı ile öğretmen/kaynak değerlendirmesini ayrı kaydeder."
+      ],
+      "activity_ids": ["T1_ACT_03_KOSUK_COZUMLEME"],
+      "form_ids": [],
+      "assessment": "Ana kanıt 'dil/söz varlığı örneği → kültürel/işlevsel bağlantı → gerekçeli değişim/dönüşüm çıkarımı' kaydıdır. Kaynak dışı tarihsel iddia zorunlu tutulmaz.",
+      "closure": "Öğrenci 'Koşuğun ... özelliği sözlü aktarım bağlamıyla ... biçimde ilişkilendirilebilir; bunu ... metin kanıtına dayandırıyorum. Buradan ... konusunda şu sınırlı çıkarımı yapabilirim: ...' ifadesini tamamlar.",
+      "materials": ["Koşuk metni", "P01-P02 söz varlığı/ahenk kayıtları", "T1_ACT_03 çözümleme etkinlikleri — ders kitabı s.21-37"]
+    }
+  ],
+  "teacher_notes": "T1_ACT_03 geniş bir çözümleme alanına sahiptir; P03 bunun yapı-ahenk-dil-dönem/sözlü kültür ilişkisini işler. Çıkış kartı ve Koşuk üzerine bütüncül okuma yansıtması P04'e ayrılmıştır. Bu paket resmî saat-saat sıralama iddiası taşımaz.",
+  "continuation_summary": {
+    "planned_now_hours": 2,
+    "remaining_block_hours": 9,
+    "covered_outcome_codes": ["TDE2.2", "TDE2.3"],
+    "used_activity_ids": ["T1_ACT_03_KOSUK_COZUMLEME"],
+    "next_step_hint": "P04'te Koşuk çözümlemesini gerekçeli beğeni/okuma değerlendirmesiyle kapat ve T1_ACT_04_KOSUK_YANSITMA / FORM_T1_EXIT_321 çıkış kartını kullan; ardından P05'te Türkü hazırlığına geç."
+  }
+}
