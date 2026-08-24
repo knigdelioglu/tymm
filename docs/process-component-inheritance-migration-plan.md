@@ -6,91 +6,73 @@
 
 ## Hedef
 
-Tema sayfasında tekrar yazılmadığı için kaybolan çatı süreç bileşenlerini resmî öğretim programındaki parent-outcome hiyerarşisinden canonical veriye doğru provenance ile bağlamak; aynı hatanın yeni sınıf/ders bootstraplarında ve validatorlarda tekrar PASS almasını engellemek.
+Tema sayfasında tekrar yazılmadığı için kaybolan çatı süreç bileşenlerini resmî öğretim programındaki ortak parent-outcome hiyerarşisinden canonical veriye doğru provenance ile bağlamak; doğrulanmış tema-spesifik specialization'ları korumak; aynı hatanın yeni sınıf/ders bootstraplarında ve validatorlarda tekrar PASS almasını engellemek.
 
 ---
 
-## P0 — Canonical doğruluğu geri kazan
+## P0.1 — Course-wide normatif roof catalog
 
-### P0.1 — Her sınıf için normatif çatı katalogunu çıkar
+2024 resmî Türk Dili ve Edebiyatı Dersi Öğretim Programı'nın ortak bölümünden tek canonical katalog oluştur:
 
-Her `TDE_9`–`TDE_12` için yalnız o sınıfın resmî öğretim programından parent outcome → process component hiyerarşisini çıkar.
+`courses/TDE_SHARED/curriculum_process_component_catalog.json`
 
-Önerilen derived/audit yapı:
+Katalog:
 
-```text
-courses/TDE_<grade>/source_docs/curriculum_process_component_catalog.json
-```
+- `TDE1.1`–`TDE1.4`
+- `TDE2.1`–`TDE2.4`
+- `TDE3.1`–`TDE3.4`
+- `TDE4.1`–`TDE4.4`
 
-Her parent outcome için:
+parent family'lerinin resmî subordinate süreç bileşeni kodlarını, kısa verbatim başlıklarını ve source locatorlarını taşır.
 
-- parent code/verbatim
-- component code/verbatim
-- normatif source locator
-- sınıf/course id
-- verification status
+Bu katalog grade-theme verisinden kopyalanmaz. Programın bütün kademelerde süreç bileşenlerinin kullanılmasını ve çatı çıktıların tekrar karmaşasını önlemek için tanımlandığını açıklayan ortak bölüm (`s. 19`) normatif inheritance dayanağıdır.
 
-TDE_10'daki mevcut `curriculum_process_component_audit.json` başlangıç kanıtı olarak kullanılabilir; ancak `PARTIAL_VERIFIED_NOT_CANONICAL_COMPLETE` durumundaki kayıtlar tamamlanmadan canonical'a promote edilmemeli.
+**Acceptance:** 16 parent family, 66 subordinate component; duplicate yok; parent-prefix ihlali yok; locator eksikliği yok.
 
-**Acceptance:** ilgili sınıfın programında süreç bileşeni bulunan bütün parent outcome family'leri katalogda; sentetik kod yok; locator eksikliği yok.
+## P0.2 — Generic resolver/schema
 
-### P0.2 — Canonical çözümleme modelini tanımla
-
-Theme outcome için üç kavramı ayır:
+Theme outcome için üç katmanı ayır:
 
 1. **explicit** — tema sayfasında doğrudan yayımlanan süreç bileşenleri
-2. **inherited** — genel/çatı parent outcome tanımından gelen süreç bileşenleri
-3. **effective** — downstream/runtime tarafından kullanılacak çözümlenmiş sonuç
+2. **inherited** — shared roof catalogdan gelen süreç bileşenleri
+3. **effective** — downstream/runtime tarafından kullanılacak çözüm
 
-Çözümleme kuralı:
+Çözümleme:
 
 ```text
-THEME_EXPLICIT varsa
+verified THEME_EXPLICIT varsa
     effective = theme explicit
 aksi halde ROOF catalog varsa
     effective = roof inherited
+aksi halde SOURCE_VERIFIED_NONE varsa
+    effective = []
 aksi halde
-    effective = [] ancak SOURCE_VERIFIED_NONE ise
+    unresolved/fail
 ```
 
-Hem explicit hem roof mevcut olup kod/metin çelişirse `REVIEW_REQUIRED`; sessiz merge yapılmaz.
+Verified tema specialization, aynı subordinate kodu roof'tan farklı ifadeyle kullanabilir; bu tek başına conflict değildir. Explicit set ile roof set merge edilmez.
 
-Schema migration sırasında geriye uyumluluk gerekiyorsa mevcut `process_components_verbatim` effective projection olarak korunabilir; provenance ayrı alan/obje ile eklenmelidir.
+**Acceptance:** inherited veri tema sayfasından alınmış gibi provenance taşımaz; explicit specialization korunur.
 
-**Acceptance:** inherited veri “tema sayfasından verbatim alınmış” gibi yanlış provenance taşımaz.
+## P0.3 — TDE_9 referans migration
 
-### P0.3 — TDE_9 canonical migration
+TDE_9 ilk gerçek veri migrationıdır:
 
-Önce TDE_9 ile referans migration yap:
+- 54 outcome shared katalogla eşleştirilir.
+- Tema 1'de resmî explicit tanım taşıyan mevcut kayıtlar explicit olarak korunur.
+- Explicit olmayan ve roof family'ye sahip outcome'lar inherited olarak çözülür.
+- `validation_report.md` içindeki boş süreç bileşenlerini MEB yapısının doğal sonucu sayan yanlış hüküm kaldırılır.
+- explicit/inherited/effective sayıları raporlanır.
 
-- 54 outcome'un tamamını parent-code bazında katalogla eşleştir.
-- Mevcut dolu tema-spesifik kayıtları koru ve explicit olarak işaretle.
-- Çatı bileşenlerine sahip olduğu hâlde `[]` kalan outcome'ları inherit et.
-- source locatorları çatı ve tema kaynaklarını ayıracak şekilde düzelt.
-- `validation_report.md` içindeki “Tema 2, 3 ve 4'te boş olması MEB program yapısından kaynaklanmaktadır” kararını kaldır/düzelt.
+**Beklenen mevcut başlangıç:** 54 outcome; yalnız iki outcome (`TDE1.2`, `TDE2.2`, Tema 1) explicit süreç bileşeni taşıyor, kalan kayıtların büyük bölümü roof inheritance gerektiriyor. Bu sayı migration sırasında script ile yeniden hesaplanıp doğrulanmalıdır.
 
-**Acceptance:** roof component taşıyan hiçbir TDE_9 outcome efektif olarak boş değil; validation yeni invariant ile PASS.
+## P0.4 — Shared validator/gate
 
-### P0.4 — TDE_10, TDE_11, TDE_12 migration
-
-TDE_9 referans migrationı yeşil olduktan sonra aynı generic resolver ile diğer sınıfları migrate et.
-
-- TDE_10 partial audit tamamlanır ve normatif kaynakla kapatılır.
-- TDE_11 ve TDE_12 mevcut `PASS` raporları yeni completeness metriği ile yeniden üretilir.
-- Sınıflar arası içerik kopyalanmaz; yalnız shared resolver/schema kullanılır.
-
-**Acceptance:** 9–12 tüm sınıflarda explicit/inherited/effective sayıları raporlanır ve roof→theme orphan kalmaz.
-
----
-
-## P0 — Hatanın yeniden PASS almasını engelle
-
-### P0.5 — Shared validator/gate ekle
-
-Generic validation kuralı:
+Generic kural:
 
 ```text
-roof_catalog[parent_code].components > 0
+THEME_EXPLICIT yok
+AND roof_catalog[parent_code].components > 0
 AND effective(theme_outcome).components == 0
 => PROCESS_COMPONENT_INHERITANCE_MISSING
 => FAIL
@@ -98,67 +80,66 @@ AND effective(theme_outcome).components == 0
 
 Ek kontroller:
 
-- inherited component source locator zorunlu
-- component code parent prefix uyumu
+- inherited source locator zorunlu
+- component code parent-prefix uyumu
 - duplicate component code fail
-- theme/roof conflict fail-closed
-- canonical field boş ama roof doluysa freeze/publish yasak
-- yalnız explicit bileşen sayısına bakarak completeness PASS verilemez
+- başka grade'in theme verisinden inheritance fail
+- unresolved parent family fail-closed
+- yalnız explicit count ile completeness PASS verilemez
 
-Bu kontrol hem curriculum-only hem full-course P0 gate'e bağlanmalı.
+Curriculum-only ve full-course P0 gate'e bağlanır.
 
-**Acceptance:** eski hatalı fixture/test verisi bilerek verildiğinde CI kırılıyor.
+## P0.5 — Regression tests
 
-### P0.6 — Regression testleri
+En az:
 
-En az şu fixture'lar:
+1. explicit yok + roof var → inherited PASS
+2. verified explicit var + roof var → explicit PASS, merge yok
+3. verified explicit aynı alt kodu farklı tema-semantikle kullanıyor → PASS
+4. roof var + effective boş → FAIL
+5. roof yok + `SOURCE_VERIFIED_NONE` → boş PASS
+6. inherited locator yok → FAIL
+7. duplicate component code → FAIL
+8. başka grade'in theme kaydını inheritance kaynağı yapma → FAIL
 
-1. tema explicit yok + roof var → inherited PASS
-2. tema explicit var + roof var → explicit PASS
-3. roof var + effective `[]` → FAIL
-4. roof yok ve resmî olarak none doğrulanmış → `[]` PASS
-5. theme/roof code conflict → REVIEW_REQUIRED/FAIL
-6. inherited kayıtta locator yok → FAIL
-7. başka grade kataloğundan component sızması → FAIL
+TDE_9 eski bug'ı gerçek veri regression case olarak tutulur.
 
-TDE_9'daki mevcut problem ayrıca gerçek veri regression fixture'ı olmalı.
+## P0.6 — TDE_10, TDE_11, TDE_12 migration
 
----
+TDE_9 referans migration yeşil olduktan sonra aynı resolver kullanılır.
 
-## P0 — Derived katmanları yeniden üret
+- TDE_10'daki `curriculum_process_component_audit.json` supporting/cross-check kanıt olarak korunabilir; shared roof catalogun yerine geçmez.
+- TDE_10 source manifestteki “theme snapshotta subordinate kod yok, dolayısıyla synthesize edilmedi” varsayımı shared roof inheritance açısından yeniden değerlendirilir.
+- TDE_11 ve TDE_12 PASS raporları yeni completeness metriği ile yeniden üretilir.
 
-### P0.7 — Index ve runtime rebuild
+## P0.7 — Derived katmanları fresh rebuild
 
-Canonical migration tamamlandıktan sonra:
+Canonical migration sonrası:
 
-- `knowledge.sqlite` / knowledge index
+- knowledge index / `knowledge.sqlite`
 - course runtime SQLite
 - runtime manifests/fingerprints
-- ilgili generated package/projectionlar
+- generated package/projectionlar
 
-fresh rebuild edilir.
+fresh build edilir.
 
-`build_runtime_course_package.py` mevcut canonical `process_components_verbatim` alanını doğrudan runtime'a taşıdığı için stale runtime bırakılmamalıdır.
+Stale runtime publish yasaktır.
 
-**Acceptance:** runtime outcome kayıtlarının effective process component içeriği canonical ile birebir; fingerprint canonical son durumunu gösteriyor.
+## P0.8 — Downstream doğrulama
 
-### P0.8 — Downstream tüketici doğrulaması
+ÖğretmenOS ve diğer tüketicilerde:
 
-ÖğretmenOS veya başka tüketicilere giden paketlerde:
+- effective süreç bileşeni doluluğu
+- `THEME_EXPLICIT` / `ROOF_INHERITED` origin bilgisi
+- UI'nin boş diziyi gizleyerek canonical hatayı maskelememesi
 
-- süreç bileşeni alanlarının doluluk/origin kontrolü
-- inherited bileşenlerin UI/API'de yanlışlıkla “tema sayfasında açıkça yazıyor” şeklinde sunulmaması
-- boş diziyi gizleyen UI workaround yapılmaması
-
-**Acceptance:** downstream yalnız düzeltilmiş runtime/package kullanıyor.
+kontrol edilir.
 
 ---
 
-## P1 — Şema ve gözlemlenebilirlik iyileştirmesi
+## P1 — Gözlemlenebilirlik
 
-### P1.1 — Completeness metrikleri
-
-Her course validation raporu en az şunları vermeli:
+Her course validation raporu en az:
 
 - total outcomes
 - outcomes_with_roof_components
@@ -167,58 +148,47 @@ Her course validation raporu en az şunları vermeli:
 - verified_no_component_outcomes
 - unresolved_component_outcomes
 - inheritance_missing_count
-- conflict_count
+- structural_error_count
 
-`PASS` için `inheritance_missing_count = 0` ve `conflict_count = 0` zorunlu.
+metriklerini verir.
 
-### P1.2 — Source authority modeli
+PASS için `inheritance_missing_count = 0`, `unresolved_component_outcomes = 0` ve `structural_error_count = 0` zorunludur.
 
-Normatif TYMM öğretim programı ile OGM vb. destekleyici MEB kaynaklarını şemada ayır:
+## P1 — Bootstrap hardening
 
-- `NORMATIVE_CURRICULUM`
-- `SUPPORTING_MEB_CROSSCHECK`
-
-Destekleyici kaynak canonical wording'i tek başına değiştiremez.
-
-### P1.3 — Bootstrap prompt hardening
-
-Aşağıdaki promptlarda inheritance invariant zorunlu referans olmalı:
+Şu prompt/workflowlar shared roof invariantını zorunlu referans almalı:
 
 - `docs/yeni-ders-sinif-bootstrap-promptu.md`
 - `docs/yalniz-ogretim-programi-bootstrap-promptu.md`
-- ileride canonical curriculum çıkaran tüm prompt/workflowlar
+- canonical curriculum çıkaran gelecekteki tüm workflowlar
 
 ---
 
-## Önerilen uygulama sırası
+## Uygulama sırası
 
 ```text
-P0.1 roof catalogs
+P0.1 shared roof catalog
   ↓
 P0.2 resolver/schema
   ↓
 P0.3 TDE_9 reference migration
   ↓
-P0.5 validator + P0.6 tests
+P0.4 validator + P0.5 tests
   ↓
-P0.4 TDE_10/11/12 migration
+P0.6 TDE_10/11/12 migration
   ↓
 P0.7 index/runtime rebuild
   ↓
 P0.8 downstream verification
-  ↓
-P1 metrics/authority cleanup
 ```
 
 ## Done kriteri
 
-Bu iş ancak aşağıdakilerin tamamı sağlandığında bitmiş sayılır:
-
-- TDE_9–12 için normatif roof component katalogları tam ve kaynaklı.
-- Parent roof component taşıyan hiçbir theme outcome efektif `[]` değil.
-- Explicit ve inherited provenance ayrılmış.
+- Shared TDE roof catalog complete ve normatif kaynaklı.
+- Parent roof component taşıyan hiçbir non-explicit theme outcome efektif boş değil.
+- Explicit specialization ve inherited provenance ayrılmış.
 - Eski yanlış TDE_9 validation hükmü kaldırılmış.
-- 9–12 validation raporları yeni gate ile yeniden PASS.
+- TDE_9–12 yeni gate ile yeniden PASS.
 - Regression testleri eski bug'ı yakalıyor.
 - Derived index/runtime fresh rebuild edilmiş.
 - Downstream paketler stale değil.
