@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "TDE_9",
+  "theme_id": "TEMA_03",
+  "block_id": "BLOCK_T3_04_YAZMA",
+  "lesson_hours": 2,
+  "plan_title": "İnfografiğin Son Sürümü ve Tema 3 Kapanışı",
+  "plan_summary": "10 saatlik 3. Tema Yazma Atölyesi bloğunun 9. ve 10. ders saatlerinde öğrenciler P04'te akran, öz, öğretmen gözlemi ve approved yazma rubriği kanıtlarından seçtikleri tek nihai revizyon önceliğini infografik üzerinde uygular ve ürünün son sürümünü oluşturur. İkinci saatte T3_ACT_14_TEMA_SONU_OLCME kapsamında Tema 3 sonu ölçme soruları çözülür; ardından T3_ACT_15_OGRENME_GUNLUGU ile öğrenciler öğrenme süreçlerini yansıtır ve ders kitabındaki 4. Tema Çalıkuşu/Yunus Emre hazırlığına geçiş yapar. Yeni rubrik puanlama turu açılmaz; P04 öğretmen değerlendirmesi korunur.",
+  "outcome_codes": ["TDE4.2", "TDE4.3", "TDE4.4"],
+  "used_activity_ids": ["T3_ACT_12_YAZMA_SIRASI", "T3_ACT_13_YAZMA_SONRASI", "T3_ACT_14_TEMA_SONU_OLCME", "T3_ACT_15_OGRENME_GUNLUGU"],
+  "used_form_ids": ["FORM_IN_T3_TEMA_SONU_TEST", "FORM_IN_T3_OGRENME_GUNLUGU"],
+  "lessons": [
+    {
+      "lesson_no": 1,
+      "duration_lesson_hours": 1,
+      "title": "Tek nihai revizyon önceliğini uygulama ve infografiğe son şeklini verme",
+      "objective": "Öğrencinin P04 değerlendirme sentezinden seçtiği tek somut revizyon önceliğini infografiğin ilgili bölümünde uygulaması; değişikliğin doğruluk, anlam bütünlüğü, görsel-metin ilişkisi, dil veya yazım açısından ürünü nasıl geliştirdiğini önce-sonra kanıtıyla açıklaması.",
+      "outcome_codes": ["TDE4.2", "TDE4.3", "TDE4.4"],
+      "opening": "P04 değerlendirme sentezi ile infografiğin revize edilmiş sürümü yan yana açılır. 'Son sürümde her şeyi yeniden yapmak yerine hangi tek değişiklik ürünümü en çok güçlendirecek?' sorusuyla odak belirlenir.",
+      "teacher_actions": [
+        "Öğrencinin P04'te seçtiği tek revizyon önceliğini korumasını sağla; son saati bütün ürünü baştan tasarlamaya dönüştürme.",
+        "Önceliği ilgili ürün bölümüne bağla: yanlış/genel bilgiyi düzeltme, ana mesajı belirginleştirme, görsel-metin bağını güçlendirme, dili sadeleştirme veya yazım-noktalama düzeltmesi gibi.",
+        "Değişiklikten önceki ürün kanıtını ve değişiklik sonrasındaki karşılığını öğrenciden yan yana göstermesini iste.",
+        "Kaynak doğruluğu değişiklik sırasında yeniden kontrol edilsin; özgünlük adına belgeselde olmayan bilgi eklenmesine izin verme.",
+        "Approved TDE9_YAZMA_RUBRIC ile yeni bir tam puanlama turu açma; P04'teki öğretmen kanıtını final revizyonun gerekçesi olarak koru.",
+        "Saat sonunda nihai infografik sürümünü kaydettir/paylaşıma hazır hâle getir ve BLOCK_T3_04_YAZMA ürün sürecini kapat."
+      ],
+      "student_actions": [
+        "P04'te belirlediği tek nihai revizyon önceliğini yeniden okur.",
+        "İlgili metin, bilgi, görsel veya yerleşim bölümünü düzeltir.",
+        "Değişiklik öncesi ve sonrası iki ürün kanıtını karşılaştırır.",
+        "Yaptığı değişikliğin hangi geri bildirim/ölçüt kanıtına dayandığını belirtir.",
+        "Nihai infografik sürümünü tamamlar."
+      ],
+      "activity_ids": ["T3_ACT_12_YAZMA_SIRASI", "T3_ACT_13_YAZMA_SONRASI"],
+      "form_ids": [],
+      "assessment": "Ana ürün nihai infografik ve tek revizyonun önce-sonra kanıtıdır: P04 geri bildirimi → seçilen öncelik → yapılan değişiklik → son ürün kanıtı → gerekçe. Yeni rubrik puanı üretilmez.",
+      "closure": "Öğrenci 'Son sürümde ... bölümünü ... geri bildirimi nedeniyle ... biçimde değiştirdim; önce ... iken şimdi ...' cümlesiyle yazma ürününü kapatır.",
+      "materials": ["P04 değerlendirme sentezi", "P03/P04 infografik sürümü", "Dinleme/İzleme kaynaklı kanıt dosyası", "Approved TDE9_YAZMA_RUBRIC P04 öğretmen geri bildirim kaydı"]
+    },
+    {
+      "lesson_no": 2,
+      "duration_lesson_hours": 1,
+      "title": "Tema sonu ölçme, öğrenme günlüğü ve 4. Temaya hazırlık",
+      "objective": "Öğrencinin Tema 3 boyunca dinleme/izleme, okuma, konuşma ve yazma alanlarında edindiği bilgileri tema sonu sorularıyla yoklaması; öğrenme günlüğünde güçlü ve geliştirilmesi gereken yönlerini kanıta dayalı yansıtması ve ders kitabındaki 4. Tema roman/dramatik metin hazırlığına geçmesi.",
+      "outcome_codes": ["TDE4.4"],
+      "opening": "Nihai infografik kapatıldıktan sonra 'Tema boyunca hangi beceriyi yalnız öğrendim, hangisini gerçekten kanıtla uygulayabildim?' sorusuyla tema değerlendirmesine geçilir.",
+      "teacher_actions": [
+        "T3_ACT_14_TEMA_SONU_OLCME kapsamında FORM_IN_T3_TEMA_SONU_TEST sorularını öğrencilerin bağımsız yanıtlamasını sağla.",
+        "Yanlış/kararsız cevaplarda doğrudan cevabı verme; öğrencinin ilgili Tema 3 metin, etkinlik veya ürün kanıtına dönmesini teşvik et.",
+        "T3_ACT_15_OGRENME_GUNLUGU kapsamında FORM_IN_T3_OGRENME_GUNLUGU'nu doldurt; öğrenciden en az bir güçlü yönü ve bir gelişim alanını somut Tema 3 çalışmasına bağlamasını iste.",
+        "Öğrenme günlüğünü not verme aracına dönüştürme; öz yansıtma ve sonraki temaya aktarım amacıyla kullan.",
+        "Ders kitabındaki T3_ACT_15'in 4. Tema Çalıkuşu ve Yunus Emre hazırlığı yönünü koru; roman ve dramatik metnin ayrıntılı tahliline bu saatte başlama.",
+        "Saat sonunda Tema 3'ün yapılandırılmış 43 saatlik üretim zincirini kapat ve sonraki paketin BLOCK_T4_01_OKUMA_P01 olduğunu açıkça kaydet."
+      ],
+      "student_actions": [
+        "Tema sonu ölçme sorularını yanıtlar.",
+        "Kararsız kaldığı bir cevap için Tema 3'teki ilgili kanıta geri döner.",
+        "Öğrenme günlüğünde güçlü olduğu bir beceriyi somut çalışma örneğiyle açıklar.",
+        "Geliştirmek istediği bir beceriyi ve sonraki temada kullanacağı stratejiyi yazar.",
+        "Çalıkuşu ve Yunus Emre metinlerine ilişkin ders kitabı hazırlık yönergelerini gözden geçirir; ayrıntılı tahlile başlamaz."
+      ],
+      "activity_ids": ["T3_ACT_14_TEMA_SONU_OLCME", "T3_ACT_15_OGRENME_GUNLUGU"],
+      "form_ids": ["FORM_IN_T3_TEMA_SONU_TEST", "FORM_IN_T3_OGRENME_GUNLUGU"],
+      "assessment": "İki kapanış kanıtı kullanılır: Tema 3 sonu ölçme cevapları ve kanıta dayalı öğrenme günlüğü. Öğrenme günlüğünde en az bir güçlü yön, bir gelişim alanı ve 4. Temaya taşınacak bir strateji bulunmalıdır.",
+      "closure": "Öğrenci 'Tema 3'te en güçlü kanıtım ...; geliştireceğim alan ...; 4. Temada özellikle ... stratejisini kullanacağım.' ifadesiyle temayı kapatır.",
+      "materials": ["FORM_IN_T3_TEMA_SONU_TEST — ders kitabı s.207–210", "FORM_IN_T3_OGRENME_GUNLUGU — ders kitabı s.211", "Tema 3 öğrenci ürün ve çalışma kayıtları", "4. Tema Çalıkuşu/Yunus Emre hazırlık yönergeleri"]
+    }
+  ],
+  "teacher_notes": "Bu paket BLOCK_T3_04_YAZMA bloğunun pedagojik olarak tasarlanmış 9. ve 10. saatleridir; resmî MEB saat-saat alt sıralaması değildir. P04'te approved TDE9_YAZMA_RUBRIC ile gerçekleştirilen öğretmen değerlendirmesi P05'te yeni puanlama turu açmadan nihai revizyona dönüştürülür. T3_ACT_14 Tema 3 sonu ölçmeyi; T3_ACT_15 öğrenme günlüğünü ve 4. Tema Çalıkuşu/Yunus Emre hazırlığını sağlar. Paket sonunda Tema 3 yapılandırılmış 43/43 saat tamamlanır.",
+  "continuation_summary": {
+    "planned_now_hours": 2,
+    "remaining_block_hours": 0,
+    "covered_outcome_codes": ["TDE4.1", "TDE4.2", "TDE4.3", "TDE4.4"],
+    "used_activity_ids": ["T3_ACT_12_YAZMA_SIRASI", "T3_ACT_13_YAZMA_SONRASI", "T3_ACT_14_TEMA_SONU_OLCME", "T3_ACT_15_OGRENME_GUNLUGU"],
+    "next_step_hint": "BLOCK_T3_04_YAZMA ve TEMA_03 tamamlandı. Sonraki üretim paketi TEMA_04 / BLOCK_T4_01_OKUMA / P01 — 2 saattir. P01'de T4_ACT_01_OKUMA_ONCESI_ROMAN ve T4_ACT_02_OKUMA_SIRASI_ROMAN kapsamında Çalıkuşu için dönem/dil hazırlığı ve ilk amaçlı okuma başlatılmalı; Yunus Emre dramatik metninin ayrıntılı tahlili sonraki paketlere bırakılmalıdır."
+  }
+}
