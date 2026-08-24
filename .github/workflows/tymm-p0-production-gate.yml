@@ -10,7 +10,14 @@ on:
       - 'skill/tymm-material-planner/scripts/**'
       - 'skill/tymm-material-planner/tests/**'
       - 'courses/TDE_SHARED/**'
-      - 'courses/TDE_9/**'
+      - 'courses/TDE_9/curriculum_map.json'
+      - 'courses/TDE_9/curriculum_process_component_resolution.json'
+      - 'courses/TDE_9/source_manifest.json'
+      - 'courses/TDE_9/textbook_map.json'
+      - 'courses/TDE_9/textbook_forms_index.json'
+      - 'courses/TDE_9/planning/**'
+      - 'courses/TDE_9/production/**'
+      - 'courses/TDE_9/themes/**'
   pull_request:
     branches:
       - main
@@ -19,22 +26,31 @@ on:
       - 'skill/tymm-material-planner/scripts/**'
       - 'skill/tymm-material-planner/tests/**'
       - 'courses/TDE_SHARED/**'
-      - 'courses/TDE_9/**'
+      - 'courses/TDE_9/curriculum_map.json'
+      - 'courses/TDE_9/curriculum_process_component_resolution.json'
+      - 'courses/TDE_9/source_manifest.json'
+      - 'courses/TDE_9/textbook_map.json'
+      - 'courses/TDE_9/textbook_forms_index.json'
+      - 'courses/TDE_9/planning/**'
+      - 'courses/TDE_9/production/**'
+      - 'courses/TDE_9/themes/**'
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   production-gate:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     env:
       TYMM_KNOWLEDGE_ROOT: ${{ github.workspace }}/courses/TDE_9
       HF_HUB_DISABLE_TELEMETRY: "1"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -81,6 +97,32 @@ jobs:
       - name: Run runtime projection regression suite
         run: python skill/tymm-material-planner/tests/test_runtime_course_package.py
 
+      - name: Rebuild canonical runtime package
+        run: python skill/tymm-material-planner/scripts/build_runtime_course_package.py build --knowledge-root courses/TDE_9
+
+      - name: Verify final derived freshness
+        run: |
+          python skill/tymm-material-planner/scripts/effective_knowledge_index.py status --knowledge-root courses/TDE_9
+          python skill/tymm-material-planner/scripts/build_runtime_course_package.py status --knowledge-root courses/TDE_9
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root=Path('courses/TDE_9')
+          runtime=json.loads((root/'runtime/runtime_manifest.json').read_text(encoding='utf-8'))
+          index=json.loads((root/'index/index_manifest.json').read_text(encoding='utf-8'))
+          assert runtime['runtime_package_version']=='1.2.0', runtime['runtime_package_version']
+          assert runtime['compiler_version']=='1.2.0', runtime['compiler_version']
+          assert runtime['validation_status']=='PASS', runtime['validation_status']
+          assert runtime['process_component_resolution_status']=='PASS'
+          assert runtime['process_component_counts']['explicit_component_outcomes']==2
+          assert runtime['process_component_counts']['inherited_component_outcomes']==52
+          assert '../TDE_SHARED/curriculum_process_component_catalog.json' in runtime['canonical_source_hashes']
+          source_paths={x['path'] for x in index['source_files']}
+          assert 'curriculum_process_component_resolution.json' in source_paths
+          assert '../TDE_SHARED/curriculum_process_component_catalog.json' in source_paths
+          print('TDE9 derived process-component projection: PASS')
+          PY
+
       - name: Upload P0 gate reports
         if: always()
         uses: actions/upload-artifact@v4
@@ -89,4 +131,28 @@ jobs:
           path: |
             courses/TDE_9/index/p0_gate_report.json
             courses/TDE_9/index/process_component_inheritance_report.json
+            courses/TDE_9/runtime/runtime_validation_report.md
           if-no-files-found: warn
+
+      - name: Publish fresh TDE9 derived outputs
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add courses/TDE_9/index courses/TDE_9/runtime
+          if git diff --cached --quiet; then
+            echo 'No TDE9 derived output changes.'
+            exit 0
+          fi
+          git commit -m 'chore(tde9): publish fresh canonical index and runtime'
+          git fetch origin main
+          CHANGED=$(git diff --name-only "$GITHUB_SHA"..origin/main || true)
+          if printf '%s\n' "$CHANGED" | grep -Eq '^(skill/tymm-material-planner/(scripts|tests)/|courses/TDE_SHARED/|courses/TDE_9/(curriculum_map\.json|curriculum_process_component_resolution\.json|source_manifest\.json|textbook_map\.json|textbook_forms_index\.json|planning/|production/|themes/)|\.github/workflows/tymm-p0-production-gate\.yml$)'; then
+            echo 'A newer relevant canonical/shared change exists on main; refusing to publish stale TDE9 outputs.'
+            exit 0
+          fi
+          git reset --hard HEAD
+          git rebase origin/main
+          python skill/tymm-material-planner/scripts/effective_knowledge_index.py status --knowledge-root courses/TDE_9
+          python skill/tymm-material-planner/scripts/build_runtime_course_package.py status --knowledge-root courses/TDE_9
+          git push origin HEAD:main
