@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.4",
+  "artifact_id": "TDE9_YAZMA_RUBRIC",
+  "review_snapshot_git_blob_sha": "e86f8dcec3ad5d43d5dbfe1f9872cac4f56df330",
+  "generator_source_git_blob_shas": {
+    "artifact_generation": "5c6efdb0b351486cc642e90ccd656e68c6e8903a",
+    "writing_rubric_generation": "9d884c2e996bbce7e000a0c971fff5c4a0eaa0ea"
+  },
+  "canonical_source_git_blob_shas": {
+    "production_manifest": "0037224629ff8049816cd3edde92d2094ce259c2",
+    "assessment_artifact_registry": "b5f243434be5f1316d62a79e02c7d2a02eee2c3b",
+    "assessment_design_contract": "241e941f9b9f744cf043966fc753db43501f3b7b"
+  },
+  "approved": true,
+  "reviewer": "Öğretmen / repo sahibi — sohbet onayı",
+  "review_note": "Yıllık yazma rubriği REVIEW.md snapshot'ı sunulduktan ve bir sonraki 'Devam' komutunun bu snapshot'ın onayı olarak kabul edileceği açıkça belirtildikten sonra kullanıcı 'Devam' diyerek üretimin sürdürülmesini onayladı.",
+  "approval_kind": "EXPLICIT_TEACHER_APPROVAL",
+  "reproducibility_rule": "Approval is valid only while the reviewed REVIEW.md snapshot, all artifact-specific generator sources, production_manifest.json, assessment_artifact_registry.json, and assessment_design_contract.json retain the recorded Git-blob identities."
+}
