@@ -13,7 +13,8 @@ from typing import Any, Dict
 SCRIPTS_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "scripts")
 sys.path.insert(0, SCRIPTS_DIR)
 
-from knowledge_index import KnowledgeCorpusExtractor, KnowledgeIndexer, DuplicateCanonicalKeyError
+from knowledge_index import DuplicateCanonicalKeyError
+from effective_knowledge_index import EffectiveKnowledgeCorpusExtractor as KnowledgeCorpusExtractor, KnowledgeIndexer
 from knowledge_resolver import KnowledgeResolver
 from production_schema import build_artifact_maps
 
@@ -39,6 +40,15 @@ def _resolve_default_knowledge_root() -> str:
     if os.path.exists(cwd_candidate):
         return cwd_candidate
     return os.path.abspath(os.path.join(SKILL_DIR, "..", "..", "courses", "TDE_9"))
+
+
+def _copy_knowledge_fixture(source_root: str, target_root: str) -> None:
+    """Copy a course fixture together with sibling shared normative catalogs."""
+    shutil.copytree(source_root, target_root)
+    shared_src = os.path.join(os.path.dirname(os.path.abspath(source_root)), "TDE_SHARED")
+    shared_dst = os.path.join(os.path.dirname(os.path.abspath(target_root)), "TDE_SHARED")
+    if os.path.exists(shared_src) and not os.path.exists(shared_dst):
+        shutil.copytree(shared_src, shared_dst)
 
 
 DEFAULT_KNOWLEDGE_ROOT = _resolve_default_knowledge_root()
@@ -123,7 +133,7 @@ class TestKnowledgeResolverHardening(unittest.TestCase):
     def test_09_index_stale_is_review_required_and_blocks_generation(self):
         with tempfile.TemporaryDirectory() as temp_dir:
             temp_knowledge = os.path.join(temp_dir, "TDE_9")
-            shutil.copytree(self.knowledge_root, temp_knowledge)
+            _copy_knowledge_fixture(self.knowledge_root, temp_knowledge)
             self.assertEqual(KnowledgeIndexer(temp_knowledge).check_status()["status"], "INDEX_FRESH")
             path = os.path.join(temp_knowledge, "themes", "tema_01", "alignment.json")
             data = json.loads(open(path, encoding="utf-8").read())
@@ -139,7 +149,7 @@ class TestKnowledgeResolverHardening(unittest.TestCase):
     def test_10_knowledge_conflict_blocks_even_when_index_becomes_stale(self):
         with tempfile.TemporaryDirectory() as temp_dir:
             temp_knowledge = os.path.join(temp_dir, "TDE_9")
-            shutil.copytree(self.knowledge_root, temp_knowledge)
+            _copy_knowledge_fixture(self.knowledge_root, temp_knowledge)
             path = os.path.join(temp_knowledge, "themes", "tema_02", "alignment.json")
             data = json.loads(open(path, encoding="utf-8").read())
             for al in data.get("alignments", []):
@@ -157,7 +167,7 @@ class TestKnowledgeResolverHardening(unittest.TestCase):
     def test_11_duplicate_canonical_key_prevention_without_embedding_runtime(self):
         with tempfile.TemporaryDirectory() as temp_dir:
             temp_knowledge = os.path.join(temp_dir, "TDE_9")
-            shutil.copytree(self.knowledge_root, temp_knowledge)
+            _copy_knowledge_fixture(self.knowledge_root, temp_knowledge)
             path = os.path.join(temp_knowledge, "curriculum_map.json")
             data = json.loads(open(path, encoding="utf-8").read())
             data["themes"][0]["learning_outcomes"].append(dict(data["themes"][0]["learning_outcomes"][0]))
@@ -212,7 +222,7 @@ class TestKnowledgeResolverHardening(unittest.TestCase):
     def test_15_missing_index_gate_is_fail_closed(self):
         with tempfile.TemporaryDirectory() as temp_dir:
             temp_knowledge = os.path.join(temp_dir, "TDE_9")
-            shutil.copytree(self.knowledge_root, temp_knowledge)
+            _copy_knowledge_fixture(self.knowledge_root, temp_knowledge)
             shutil.rmtree(os.path.join(temp_knowledge, "index"), ignore_errors=True)
             pack = KnowledgeResolver(temp_knowledge).resolve("Tema 2 TDE4.4")
             self.assertEqual(pack["index_freshness"], "INDEX_MISSING")
