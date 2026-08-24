@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "TDE_10",
+  "theme_id": "TEMA_01",
+  "block_id": "BLOCK_T1_01_OKUMA",
+  "lesson_hours": 2,
+  "plan_title": "Koşuğa Giriş: Okuma Amacı, Ön Bilgi ve İlk Anlam Katmanı",
+  "plan_summary": "15 saatlik Tema 1 Okuma bloğunun ilk iki saatinde öğrenciler T1_ACT_01_KOSUK_HAZIRLIK ve T1_ACT_02_KOSUK_ANLAM kapsamında koşuk metnine hazırlanır ve ilk anlam katmanını kurar. İlk saatte ön bilgi, tahmin ve okuma amacı; ikinci saatte metin üzerinde konu/tema, bağlamdan söz varlığı ve açık/örtük iletiye ilişkin ilk kanıtlar oluşturulur. Dönem, yapı ve ahenk çözümlemesi P02-P03'e bırakılır.",
+  "outcome_codes": ["TDE2.1", "TDE2.2"],
+  "used_activity_ids": ["T1_ACT_01_KOSUK_HAZIRLIK", "T1_ACT_02_KOSUK_ANLAM"],
+  "used_form_ids": [],
+  "lessons": [
+    {
+      "lesson_no": 1,
+      "duration_lesson_hours": 1,
+      "title": "Koşuk okumaya hazırlanma: ön bilgi, tahmin ve amaç",
+      "objective": "Öğrencinin koşuk metnine ilişkin mevcut bilgisini görünür kılması, kaynak sorularından hareketle sınanabilir tahminler oluşturması ve okuma amacını belirlemesi.",
+      "outcome_codes": ["TDE2.1"],
+      "opening": "Tema başlığı 'Sözün Ezgisi' ile koşuk türü yan yana getirilir. Öğrenciden tür hakkında bildiği ile yalnız tahmin ettiği bilgiyi ayrı sütunlara yazması istenir.",
+      "teacher_actions": [
+        "T1_ACT_01'in hazırlık sorularını kaynak sınırında kullan; öğrenciye kaynakta olmayan hazır dönem/tür bilgi listesi verme.",
+        "Ön bilgi ile tahmini ayrı kaydettir.",
+        "Metnin başlık, biçim ve hazırlık bağlamından hareketle 2-3 sınanabilir okuma tahmini oluştur.",
+        "Öğrencinin okuma amacını en az iki odağa bağlamasını sağla: anlam/söz varlığı ve ses-ritim/yapı işaretleri.",
+        "Tahminlerin doğrulanması için metinde hangi kanıtların aranacağını belirlet.",
+        "Saat sonunda okuma amacı + tahmin + aranacak kanıt üçlüsünü tamamlat."
+      ],
+      "student_actions": [
+        "Koşukla ilgili ön bilgisini ve tahminlerini ayırır.",
+        "2-3 sınanabilir tahmin yazar.",
+        "Okuma amacını belirler.",
+        "Metinde arayacağı kanıt türlerini belirler.",
+        "Tahminlerini kesin bilgi gibi sunmaz."
+      ],
+      "activity_ids": ["T1_ACT_01_KOSUK_HAZIRLIK"],
+      "form_ids": [],
+      "assessment": "Ana kanıt hazırlık soruları, tahminler ve okuma amacı kaydıdır. Tahminler metin okunmadan doğru kabul edilmez.",
+      "closure": "Öğrenci 'Koşuğu okurken özellikle ... ve ... kanıtlarını arayacağım; çünkü ... tahminimi sınamak istiyorum.' ifadesini tamamlar.",
+      "materials": ["Ders kitabı s.13-16 hazırlık etkinlikleri", "Koşuk okuma hazırlık notu"]
+    },
+    {
+      "lesson_no": 2,
+      "duration_lesson_hours": 1,
+      "title": "İlk okuma: konu, tema, söz varlığı ve ileti işaretleri",
+      "objective": "Öğrencinin koşuğu amaçlı okuyarak konu/tema için metin kanıtı toplaması, bilinmeyen söz varlığını bağlamdan anlamlandırması ve açık/örtük ileti adaylarını gerekçelendirmeye başlaması.",
+      "outcome_codes": ["TDE2.1", "TDE2.2"],
+      "opening": "İlk saatteki tahminler açık tutulur. 'Metni okurken tahminimizi doğrulamak kadar yanlışlamak da neden değerlidir?' sorusuyla kanıt odaklı okumaya geçilir.",
+      "teacher_actions": [
+        "T1_ACT_02 kapsamında koşuğu amaçlı okut ve öğrencinin metin üzerindeki işaretlemelerini yönlendir.",
+        "Bilinmeyen sözcüklerde önce bağlam göstergelerini işaretlet; sözlük/öğretmen açıklamasına geçmeden tahmin gerekçesini yazdır.",
+        "Konu ile tema ayrımını hazır tanım ezberinden çok metindeki tekrar, duygu, durum ve söyleyiş kanıtlarıyla kurdur.",
+        "Açık ileti için doğrudan metin göstergesi; örtük ileti adayı için en az iki işaret iste.",
+        "İlk saatteki tahminleri 'doğrulandı / değişti / henüz belirsiz' biçiminde güncellet.",
+        "Yapı, ahenk ve dönem çıkarımlarını bu pakette sonuçlandırma; yalnız ileride incelenecek işaretleri not ettir."
+      ],
+      "student_actions": [
+        "Koşuğu amaçlı okur ve metni işaretler.",
+        "Bilinmeyen sözlerin anlamını bağlam göstergeleriyle tahmin eder.",
+        "Konu ve tema için metin kanıtı toplar.",
+        "Açık/örtük ileti adaylarını kanıtla yazar.",
+        "İlk tahminlerini metne göre günceller."
+      ],
+      "activity_ids": ["T1_ACT_02_KOSUK_ANLAM"],
+      "form_ids": [],
+      "assessment": "Ana kanıt işaretlenmiş metin, bağlam söz varlığı notları ve konu/tema/ileti için kısa kanıt kayıtlarıdır.",
+      "closure": "Öğrenci 'İlk okumada en güçlü anlam kanıtım ...; önceki tahminim ... iken metin bunu ... biçimde değiştirdi.' cümlesiyle kapanış yapar.",
+      "materials": ["Koşuk metni — ders kitabı s.17 ve devamındaki etkinlikler", "P01 ilk saat tahmin/amaç kaydı"]
+    }
+  ],
+  "teacher_notes": "Bu paket kaynakta resmî saat-saat sıralama olarak verilmemiş pedagojik 1–2. saat düzenidir. Koşuk hakkında kaynak öncesi ansiklopedik bilgi yüklemesi yapılmaz; öğrencinin tahminleri metin kanıtıyla sınanır.",
+  "continuation_summary": {
+    "planned_now_hours": 2,
+    "remaining_block_hours": 13,
+    "covered_outcome_codes": ["TDE2.1", "TDE2.2"],
+    "used_activity_ids": ["T1_ACT_01_KOSUK_HAZIRLIK", "T1_ACT_02_KOSUK_ANLAM"],
+    "next_step_hint": "P02'de T1_ACT_02 anlam çalışmalarını derinleştir; söz varlığı, tema, açık/örtük ileti ve ahenk işaretleri arasındaki ilişkileri kanıtla kur."
+  }
+}
