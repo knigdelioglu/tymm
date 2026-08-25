@@ -9,6 +9,7 @@ on:
       - 'skill/tymm-material-planner/scripts/validate_lesson_plan.py'
       - 'skill/tymm-material-planner/scripts/validate_all_lesson_plans.py'
       - 'skill/tymm-material-planner/scripts/lesson_plan_context.py'
+      - 'skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py'
       - 'skill/tymm-material-planner/scripts/build_runtime_course_package.py'
       - 'skill/tymm-material-planner/schemas/lesson_plan.schema.json'
       - 'courses/TDE_9/generated/lesson_plans/**'
