@@ -38,13 +38,32 @@ Bir blok bitmeden sonraki bloğa geçilmez. Bir tema bitmeden sonraki temaya ge�
 Her sınıfta:
 
 - 4 tema
-- Tema başına 43 çekirdek öğretim saati
+- Tema başına **43 çekirdek öğretim saati**
+- Tema başına ayrıca **2 saat okul temelli planlama**
+- Tema başına resmî toplam **45 saat = 43 + 2**
 - Yıllık 172 çekirdek öğretim saati
-- Tema başına ayrıca 2 saat okul temelli planlama, yıllık 8 saat
+- Yıllık 8 saat okul temelli planlama
+- Yıllık resmî toplam 180 saat
 - Varsayılan ders planı kuyruğu yalnız 172 çekirdek saati kapsar
 - Toplam 88 üretim paketi
 
 İki sınıf birlikte toplam **176 ders planı paketi** üretilecektir.
+
+## Saat otoritesi ve takvim artığı kuralı
+
+Tema saatleri haftalık/yıllık takvim yerleşiminden türetilmez. Canonical saat sözleşmesi her tema için doğrudan:
+
+```text
+43 saat çekirdek öğretim
++ 2 saat okul temelli planlama
+= 45 saat toplam
+```
+
+olarak kabul edilir.
+
+Yıllık planın hafta/tarih yerleşiminden doğan artık ders saati satırları konu/blok süresine eklenmez. Bu tür satırlar canonical saat dağılımını değiştiremez ve bir temanın 46 saat olduğu biçiminde yorumlanamaz. Tema 4 dâhil bütün temalar aynı `43 + 2 = 45` sözleşmesine tabidir.
+
+Okul temelli 2 saat çekirdek 43 saate gömülmez. Öğretmen/zümre bu süreyi tema içinde öğrenci ve okul ihtiyacına göre uygun noktada planlayabilir. Bu nedenle çekirdek blok süreleri yalnız 43 saatlik program katmanını temsil eder.
 
 ## Kullanıcı komutlarının anlamı
 
