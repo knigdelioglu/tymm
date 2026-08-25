@@ -1,8 +1,8 @@
 {
   "schema_version": "2.1",
   "course_id": "TDE_10",
-  "index_created_at": "2026-08-25T08:27:44.061918+00:00",
-  "index_updated_at": "2026-08-25T08:27:44.061918+00:00",
+  "index_created_at": "2026-08-25T08:29:39.083514+00:00",
+  "index_updated_at": "2026-08-25T08:29:39.083514+00:00",
   "requested_backend": "sqlite-vector/sqliteai-vector",
   "selected_backend": "sqlite-vec",
   "backend_selection_status": "EXPLICIT_ACCEPTED_DEVIATION",
