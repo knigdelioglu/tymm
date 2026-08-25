@@ -187,7 +187,7 @@ Tema kapanışları için ayrı, makine-okunur bir operasyon katmanı oluşturul
 - `courses/TDE_9/production/closure_time_budgets.json`
 - `courses/TDE_10/production/closure_time_budgets.json`
 
-Bu katman her iki sınıftaki **8 tema-kapanış P05 paketini** ve tema-geneli ölçme/yansıtma taşıyan gerçek ders saatlerini package/path/theme/block düzeyinde bağlar. TDE9 Tema 1'de ölçme ve öğrenme günlüğü ayrı iki ders olduğu için toplam budget edilen tema-kapanış dersi sayısı **9**'dur.
+Bu katman her iki sınıftaki **8 tema-kapanış P05 paketi** ve tema-geneli ölçme/yansıtma taşıyan gerçek ders saatlerini package/path/theme/block düzeyinde bağlar. TDE9 Tema 1'de ölçme ve öğrenme günlüğü ayrı iki ders olduğu için toplam budget edilen tema-kapanış dersi sayısı **9**'dur.
 
 `40 dakika`, burada resmî MEB süre iddiası değil, repo içindeki **nominal pedagojik ders periyodu bütçesidir**. Amaç, tek ders saatine sınırsız görev yığılmasını teknik olarak engellemektir.
 
@@ -348,13 +348,118 @@ Aynı sözlü performans kanıtı korunur; **yalnız yazılı ürünle konuşma 
 
 Böylece CI artık eksik/bozuk adaptation'ı kendisi tamamlamıyor; repoya commitlenmiş 68 kritik paketin sözleşmesini doğrudan fail-closed doğruluyor.
 
+## P7 — Rubrik / resource / artifact grounding — TAMAMLANDI
+
+### Kapatılan risk
+
+**YELLOW-REF-GROUNDING — Rubrik/resource/artifact kimlikleri prose içinde kalabiliyor**
+
+Durum: `CLOSED`
+
+### First-class referans modeli
+
+Lesson-plan schema'ya opsiyonel fakat hedef paketlerde validator tarafından zorunlu tutulan `grounded_references` alanı eklendi. Üç canonical referans ailesi ayrı tutulur:
+
+- `form_refs`: `form_id` + `usage`
+- `assessment_artifact_refs`: `artifact_id` + gerçek `binding_key` + `usage`
+- `resource_refs`: `resource_plan_id` + `usage`
+
+`usage` semantiği üç değerden biridir:
+
+- `USED`: bu pakette gerçekten kullanıldı.
+- `DEFERRED`: canonical referans geçiyor ancak kullanım sonraki paket/aşamaya bırakıldı.
+- `REFERENCE_ONLY`: kimlik bağlam veya doğrulama amacıyla anılıyor; bu pakette kullanım iddiası yok.
+
+Böylece “rubrik adı prose içinde geçti” ile “rubrik gerçekten bu derste kullanıldı” aynı şey olmaktan çıktı. Mevcut `used_form_ids` korunur; burada kullanılan formun structured ref karşılığı `USED` olmak zorundadır.
+
+### Canonical kaynak zinciri
+
+Grounding detector ve validator referansları şu kaynaklardan çözer:
+
+- ders kitabı formları: `textbook_forms_index.json`
+- materialize edilmiş canonical değerlendirme formları: `production/assessment_form_registry.json`
+- yıllık değerlendirme artifact'ları ve task binding'leri: `production/assessment_artifact_registry.json`
+- resource plan kimlikleri ve tema bağları: `production/consolidated_resource_plan.json`
+
+`lesson_plan_context.py` context v1.3 ile ayrıca şunları üretim context'ine çıkarır:
+
+- `allowed_references.resource_plan_ids`
+- `allowed_references.assessment_artifact_ids`
+- `allowed_references.assessment_binding_keys`
+- artifact `generation_status`, `teacher_review_required`, `source_equivalence_status`, `binding_key_semantics`
+
+Generation contract canonical ID'nin prose-only bırakılmasını, current block dışı artifact binding'i kullanılmasını ve lifecycle/equivalence bilgisinin uydurulmasını yasaklar.
+
+### Migration kapsamı
+
+Grounding manifestleri:
+
+- `courses/TDE_9/production/grounded_reference_manifest.json`
+- `courses/TDE_10/production/grounded_reference_manifest.json`
+
+Kesin kapsam:
+
+- **TDE9:** 49 paket; 95 form ref + 36 assessment artifact ref + 15 resource ref = **146 structured canonical referans**.
+- **TDE10:** 33 paket; 64 form ref + 2 assessment artifact ref = **66 structured canonical referans**.
+- **Toplam:** 82 paket ve **212 structured canonical referans**.
+
+TDE9 kullanım dağılımı 89 `USED`, 52 `DEFERRED`, 5 `REFERENCE_ONLY`; TDE10 dağılımı 52 `USED`, 7 `DEFERRED`, 7 `REFERENCE_ONLY` olarak manifestte exact tutulur.
+
+### Lifecycle ve equivalence güvenliği
+
+Planın structured ref alanına artifact başlığı, generation status veya approval durumu kopyalanmaz. Bunlar değişebilir canonical metadata olduğundan kullanım anında registry/approval kaydından okunur. Böylece planın aylar sonra “henüz üretilmemiş” gibi bayat bir durum cümlesini authoritative gerçek kabul etmesi engellenir.
+
+Bu faz sırasında TDE9 Tema 2 Yazma P03'teki eski `TDE9_YAZMA_RUBRIC henüz üretilmiş görünmedi` iddiası da kaldırıldı; canonical teacher-approval kaydı mevcut olduğundan plan artık lifecycle bilgisini prose'a sabitlemek yerine canonical registry/approval kaydından doğrulama talimatı taşır.
+
+TDE10'da auth-gated EBA provenance için exact dış kaynak eşdeğerliği doğrulanmamışsa plan “EBA ile aynı / birebir EBA rubriği” iddiasında bulunamaz. `source_equivalence_status` içindeki `UNVERIFIED`/`UNRESOLVED` durumları bu iddiayı fail-closed engeller.
+
+### P7 fail-closed doğrulama
+
+`validate_grounded_references.py` artık:
+
+1. Prose'daki canonical form/artifact/resource kimliklerini tekrar keşfeder ve structured refs ile exact eşler.
+2. `used_form_ids` içindeki formun `USED` structured ref'ini zorunlu kılar.
+3. Artifact için current block/theme binding ve `binding_key` doğrular.
+4. Resource kimliğinin planın temasına bağlı olmasını zorunlu kılar.
+5. Uydurulmuş canonical-looking ID'lerde FAIL verir.
+6. Gereksiz/ekstra structured ref'e izin vermez.
+7. Manifest package/path/theme/block ve referans sayılarını exact doğrular.
+8. Unverified dış değerlendirme eşdeğerliği için kesinlik iddiasını engeller.
+
+Kaynakta tarihsel olarak kullanılan `FORM_BOB_02` gibi kısa kimlik yalnız canonical katalogda tek bir tam ID'ye benzersiz prefix olarak çözülüyorsa tolere edilir; structured kimlik yine tam canonical ID'dir. Belirsiz veya karşılığı olmayan kısaltma fail-closed kalır.
+
+`test_grounded_references.py` şu negatif mutation'ları kapsar:
+
+- kullanılan formun structured ref'ini silme
+- prose'da artifact anıp structured artifact ref'i kaldırma
+- uydurma canonical-looking ID kullanma
+- artifact binding key'i bozma
+- unverified EBA equivalence'i kesin eşdeğerlik gibi sunma
+
+### P7 kabul sonucu
+
+İlk migration koşuları iki gerçek katalog açığını yakaladı: benzersiz historical form shorthand'i ve TDE10 `assessment_form_registry.json` içindeki materialize canonical formlar. Detector bunları source-grounded biçimde kapsayacak şekilde düzeltildikten sonra 82 hedef paket materialize edildi. Ardından auto-materialization/publish adımları workflow'dan kaldırıldı.
+
+Strict `TYMM Lesson Plan Full Validation` run `32854223974` sonucunda:
+
+- `Run grounded-reference regression tests`: `SUCCESS`
+- `Validate grounded-reference contracts`: `SUCCESS`
+- `Run classroom adaptation regression tests`: `SUCCESS`
+- `Validate classroom adaptation contracts`: `SUCCESS`
+- `Run closure time-budget regression tests`: `SUCCESS`
+- `Validate closure time-budget contracts`: `SUCCESS`
+- `Run large-class route regression tests`: `SUCCESS`
+- `Validate all 176 lesson-plan packages`: `SUCCESS`
+- finalization: `SUCCESS`
+
+CI artık eksik grounded ref'i kendi kendine üretmez; committed plan ve manifest verisini doğrudan fail-closed doğrular.
+
 ## Aktif sarı riskler
 
-P0–P6 kapatıldıktan sonra aktif sarılar:
+P0–P7 kapatıldıktan sonra aktif sarılar:
 
 | ID | Faz | Risk | Etkilenen kapsam | Hedef |
 |---|---|---|---|---|
-| `YELLOW-REF-GROUNDING` | P7 | Rubrik/resource/artifact kimlikleri prose içinde kalabiliyor | Rubrik/materyal kullanan paketler | Structured refs + canonical grounding |
 | `YELLOW-PACKAGE-TOPOLOGY` | P8 | 88 paket/172 saat toplamı exact paket topolojisini kanıtlamıyor | TDE9/TDE10 | Exact manifest, sıra, saat aralığı, gap/overlap kontrolü |
 | `YELLOW-MD-PARITY` | P9 | JSON ve Markdown için yalnız eş dosya varlığı doğrulanıyor | 176 paket | Deterministik JSON→Markdown parity |
 | `YELLOW-CI-FINALIZER` | P10 | Full validation PR gate değil; finalizer validation report/HEAD fingerprint'e bağlı değil | Engineering/release gate | PR gate + SHA/fingerprint-bound PASS |
@@ -374,7 +479,7 @@ P3  Tema değerlendirmesi semantiğini düzelt          ✅ TAMAMLANDI
 P4  Kalabalık sınıf rotalarını ekle                   ✅ TAMAMLANDI
 P5  Aşırı yüklü kapanışları sadeleştir                ✅ TAMAMLANDI
 P6  Farklılaştırma / erişilebilirlik / fallback       ✅ TAMAMLANDI
-P7  Rubrik-resource-artifact grounding
+P7  Rubrik-resource-artifact grounding                ✅ TAMAMLANDI
 P8  Paket topolojisi
 P9  JSON-Markdown parity
 P10 CI / finalizer sertleştirme
