@@ -35,6 +35,13 @@ def load_catalogs(root: Path) -> dict[str, Any]:
         item.get("form_id") for item in forms_index.get("forms", [])
         if isinstance(item, dict) and isinstance(item.get("form_id"), str)
     }
+    materialized_forms_path = root / "production" / "assessment_form_registry.json"
+    if materialized_forms_path.exists():
+        materialized_forms = read_json(materialized_forms_path)
+        form_ids.update(
+            item.get("form_id") for item in materialized_forms.get("forms", [])
+            if isinstance(item, dict) and isinstance(item.get("form_id"), str)
+        )
 
     registry = read_json(root / "production" / "assessment_artifact_registry.json")
     artifacts: dict[str, dict[str, Any]] = {}
