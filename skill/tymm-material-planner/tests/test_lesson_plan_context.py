@@ -60,6 +60,11 @@ class LessonPlanContextTests(unittest.TestCase):
                 {"lesson_no": 1, "duration_lesson_hours": 1, "title": "Hazırlık ve okuma"},
                 {"lesson_no": 2, "duration_lesson_hours": 1, "title": "Tahlil ve değerlendirme"},
             ],
+            "continuation_summary": {
+                "planned_now_hours": 2,
+                "covered_outcome_codes": ["TDE2.1", "TDE2.2"],
+                "used_activity_ids": activities,
+            },
         }
         result = validate_lesson_plan.validate(context, plan)
         self.assertEqual(result["status"], "PASS", result)
