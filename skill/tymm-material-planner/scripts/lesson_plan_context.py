@@ -10,7 +10,7 @@ from typing import Any
 
 from build_runtime_course_package import compiler_state
 
-CONTEXT_VERSION = "1.2.0"
+CONTEXT_VERSION = "1.3.0"
 
 
 def read_json(path: Path) -> dict[str, Any]:
@@ -150,10 +150,14 @@ def assemble(root: Path, block_id: str, requested_lesson_hours: int | None = Non
         assessment_bindings = [dict(row) for row in db.execute(
             """
             SELECT atb.artifact_id,aa.title AS artifact_title,aa.assessment_family,aa.reuse_policy,
+                   aa.generation_status,aa.teacher_review_required,
                    atb.gap_instance_id,atb.activity_id,atb.targeted_outcomes_json,atb.task_title,
-                   atb.evidence,atb.textbook_locator,atb.curriculum_locator
+                   atb.evidence,atb.textbook_locator,atb.curriculum_locator,
+                   atb.source_equivalence_status,atb.binding_key_semantics,
+                   agm.resource_plan_id
             FROM assessment_task_bindings atb
             JOIN assessment_artifacts aa ON aa.artifact_id=atb.artifact_id
+            LEFT JOIN assessment_gap_mappings agm ON agm.gap_instance_id=atb.gap_instance_id
             WHERE atb.block_id=?
             ORDER BY atb.artifact_id,atb.gap_instance_id
             """,
@@ -166,6 +170,9 @@ def assemble(root: Path, block_id: str, requested_lesson_hours: int | None = Non
         activity_ids = {a["activity_id"] for a in activities}
         outcome_codes = {o["outcome_code"] for o in outcomes}
         theme_outcome_codes = {o["outcome_code"] for o in theme_outcomes}
+        resource_plan_ids = {r["resource_plan_id"] for r in resources if r.get("resource_plan_id")}
+        assessment_artifact_ids = {b["artifact_id"] for b in assessment_bindings if b.get("artifact_id")}
+        assessment_binding_keys = {b["gap_instance_id"] for b in assessment_bindings if b.get("gap_instance_id")}
         source_locators = sorted(set(
             parse_json(block["source_locators_json"], [])
             + parse_json(block["timeline_source_locators"], [])
@@ -216,6 +223,9 @@ def assemble(root: Path, block_id: str, requested_lesson_hours: int | None = Non
                 "theme_outcome_codes": sorted(theme_outcome_codes),
                 "activity_ids": sorted(activity_ids),
                 "form_ids": sorted(form_ids),
+                "resource_plan_ids": sorted(resource_plan_ids),
+                "assessment_artifact_ids": sorted(assessment_artifact_ids),
+                "assessment_binding_keys": sorted(assessment_binding_keys),
             },
             "generation_contract": {
                 "official_fact_fields_are_immutable": True,
@@ -231,6 +241,10 @@ def assemble(root: Path, block_id: str, requested_lesson_hours: int | None = Non
                 "block_outcome_codes_define_instructional_scope": True,
                 "theme_assessment_must_use_theme_outcome_codes": True,
                 "instructional_scope_and_assessment_scope_must_not_be_conflated": True,
+                "canonical_form_artifact_resource_ids_must_be_structurally_grounded": True,
+                "prose_only_canonical_reference_ids_are_forbidden": True,
+                "artifact_binding_key_must_match_current_block": True,
+                "canonical_reference_lifecycle_or_equivalence_must_not_be_invented": True,
             },
             "provenance": {
                 "runtime_validation_status": manifest.get("validation_status"),
