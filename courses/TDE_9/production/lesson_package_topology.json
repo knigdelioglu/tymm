@@ -1,0 +1,2479 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "TDE_9",
+  "policy": {
+    "calendar_neutral": true,
+    "interval_semantics": "ONE_BASED_INCLUSIVE",
+    "core_instruction_hours_only": true,
+    "school_based_planning_hours_excluded": true,
+    "default_package_hours": 2,
+    "odd_block_remainder_hours": 1,
+    "source_contract": {
+      "block_order": "production/teaching_blocks.json:block_sequence",
+      "block_hours": "planning/block_hour_bindings.json:planned_hours",
+      "package_partition": "planning/lesson_plan_production_plan.json:package_hours",
+      "actual_packages": "generated/lesson_plans/**/*.json"
+    }
+  },
+  "summary": {
+    "themes": 4,
+    "blocks": 16,
+    "packages": 88,
+    "core_instruction_hours": 172,
+    "theme_core_instruction_hours": 43,
+    "gaps": 0,
+    "overlaps": 0
+  },
+  "themes": [
+    {
+      "theme_id": "TEMA_01",
+      "theme_sequence": 1,
+      "core_instruction_hours": 43,
+      "school_based_planning_hours_excluded": 2,
+      "course_hour_range": {
+        "start": 1,
+        "end": 43
+      },
+      "theme_hour_range": {
+        "start": 1,
+        "end": 43
+      },
+      "blocks": [
+        {
+          "block_id": "BLOCK_T1_01_OKUMA",
+          "block_sequence": 1,
+          "domain": "OKUMA",
+          "planned_hours": 15,
+          "package_count": 8,
+          "package_ids": [
+            "BLOCK_T1_01_OKUMA_P01",
+            "BLOCK_T1_01_OKUMA_P02",
+            "BLOCK_T1_01_OKUMA_P03",
+            "BLOCK_T1_01_OKUMA_P04",
+            "BLOCK_T1_01_OKUMA_P05",
+            "BLOCK_T1_01_OKUMA_P06",
+            "BLOCK_T1_01_OKUMA_P07",
+            "BLOCK_T1_01_OKUMA_P08"
+          ],
+          "course_hour_range": {
+            "start": 1,
+            "end": 15
+          },
+          "theme_hour_range": {
+            "start": 1,
+            "end": 15
+          }
+        },
+        {
+          "block_id": "BLOCK_T1_02_DINLEME",
+          "block_sequence": 2,
+          "domain": "DINLEME_IZLEME",
+          "planned_hours": 8,
+          "package_count": 4,
+          "package_ids": [
+            "BLOCK_T1_02_DINLEME_P01",
+            "BLOCK_T1_02_DINLEME_P02",
+            "BLOCK_T1_02_DINLEME_P03",
+            "BLOCK_T1_02_DINLEME_P04"
+          ],
+          "course_hour_range": {
+            "start": 16,
+            "end": 23
+          },
+          "theme_hour_range": {
+            "start": 16,
+            "end": 23
+          }
+        },
+        {
+          "block_id": "BLOCK_T1_03_YAZMA",
+          "block_sequence": 3,
+          "domain": "YAZMA",
+          "planned_hours": 10,
+          "package_count": 5,
+          "package_ids": [
+            "BLOCK_T1_03_YAZMA_P01",
+            "BLOCK_T1_03_YAZMA_P02",
+            "BLOCK_T1_03_YAZMA_P03",
+            "BLOCK_T1_03_YAZMA_P04",
+            "BLOCK_T1_03_YAZMA_P05"
+          ],
+          "course_hour_range": {
+            "start": 24,
+            "end": 33
+          },
+          "theme_hour_range": {
+            "start": 24,
+            "end": 33
+          }
+        },
+        {
+          "block_id": "BLOCK_T1_04_KONUSMA",
+          "block_sequence": 4,
+          "domain": "KONUSMA",
+          "planned_hours": 10,
+          "package_count": 5,
+          "package_ids": [
+            "BLOCK_T1_04_KONUSMA_P01",
+            "BLOCK_T1_04_KONUSMA_P02",
+            "BLOCK_T1_04_KONUSMA_P03",
+            "BLOCK_T1_04_KONUSMA_P04",
+            "BLOCK_T1_04_KONUSMA_P05"
+          ],
+          "course_hour_range": {
+            "start": 34,
+            "end": 43
+          },
+          "theme_hour_range": {
+            "start": 34,
+            "end": 43
+          }
+        }
+      ]
+    },
+    {
+      "theme_id": "TEMA_02",
+      "theme_sequence": 2,
+      "core_instruction_hours": 43,
+      "school_based_planning_hours_excluded": 2,
+      "course_hour_range": {
+        "start": 44,
+        "end": 86
+      },
+      "theme_hour_range": {
+        "start": 1,
+        "end": 43
+      },
+      "blocks": [
+        {
+          "block_id": "BLOCK_T2_01_OKUMA",
+          "block_sequence": 1,
+          "domain": "OKUMA",
+          "planned_hours": 15,
+          "package_count": 8,
+          "package_ids": [
+            "BLOCK_T2_01_OKUMA_P01",
+            "BLOCK_T2_01_OKUMA_P02",
+            "BLOCK_T2_01_OKUMA_P03",
+            "BLOCK_T2_01_OKUMA_P04",
+            "BLOCK_T2_01_OKUMA_P05",
+            "BLOCK_T2_01_OKUMA_P06",
+            "BLOCK_T2_01_OKUMA_P07",
+            "BLOCK_T2_01_OKUMA_P08"
+          ],
+          "course_hour_range": {
+            "start": 44,
+            "end": 58
+          },
+          "theme_hour_range": {
+            "start": 1,
+            "end": 15
+          }
+        },
+        {
+          "block_id": "BLOCK_T2_02_KONUSMA",
+          "block_sequence": 2,
+          "domain": "KONUSMA",
+          "planned_hours": 10,
+          "package_count": 5,
+          "package_ids": [
+            "BLOCK_T2_02_KONUSMA_P01",
+            "BLOCK_T2_02_KONUSMA_P02",
+            "BLOCK_T2_02_KONUSMA_P03",
+            "BLOCK_T2_02_KONUSMA_P04",
+            "BLOCK_T2_02_KONUSMA_P05"
+          ],
+          "course_hour_range": {
+            "start": 59,
+            "end": 68
+          },
+          "theme_hour_range": {
+            "start": 16,
+            "end": 25
+          }
+        },
+        {
+          "block_id": "BLOCK_T2_03_DINLEME",
+          "block_sequence": 3,
+          "domain": "DINLEME_IZLEME",
+          "planned_hours": 8,
+          "package_count": 4,
+          "package_ids": [
+            "BLOCK_T2_03_DINLEME_P01",
+            "BLOCK_T2_03_DINLEME_P02",
+            "BLOCK_T2_03_DINLEME_P03",
+            "BLOCK_T2_03_DINLEME_P04"
+          ],
+          "course_hour_range": {
+            "start": 69,
+            "end": 76
+          },
+          "theme_hour_range": {
+            "start": 26,
+            "end": 33
+          }
+        },
+        {
+          "block_id": "BLOCK_T2_04_YAZMA",
+          "block_sequence": 4,
+          "domain": "YAZMA",
+          "planned_hours": 10,
+          "package_count": 5,
+          "package_ids": [
+            "BLOCK_T2_04_YAZMA_P01",
+            "BLOCK_T2_04_YAZMA_P02",
+            "BLOCK_T2_04_YAZMA_P03",
+            "BLOCK_T2_04_YAZMA_P04",
+            "BLOCK_T2_04_YAZMA_P05"
+          ],
+          "course_hour_range": {
+            "start": 77,
+            "end": 86
+          },
+          "theme_hour_range": {
+            "start": 34,
+            "end": 43
+          }
+        }
+      ]
+    },
+    {
+      "theme_id": "TEMA_03",
+      "theme_sequence": 3,
+      "core_instruction_hours": 43,
+      "school_based_planning_hours_excluded": 2,
+      "course_hour_range": {
+        "start": 87,
+        "end": 129
+      },
+      "theme_hour_range": {
+        "start": 1,
+        "end": 43
+      },
+      "blocks": [
+        {
+          "block_id": "BLOCK_T3_01_OKUMA",
+          "block_sequence": 1,
+          "domain": "OKUMA",
+          "planned_hours": 15,
+          "package_count": 8,
+          "package_ids": [
+            "BLOCK_T3_01_OKUMA_P01",
+            "BLOCK_T3_01_OKUMA_P02",
+            "BLOCK_T3_01_OKUMA_P03",
+            "BLOCK_T3_01_OKUMA_P04",
+            "BLOCK_T3_01_OKUMA_P05",
+            "BLOCK_T3_01_OKUMA_P06",
+            "BLOCK_T3_01_OKUMA_P07",
+            "BLOCK_T3_01_OKUMA_P08"
+          ],
+          "course_hour_range": {
+            "start": 87,
+            "end": 101
+          },
+          "theme_hour_range": {
+            "start": 1,
+            "end": 15
+          }
+        },
+        {
+          "block_id": "BLOCK_T3_02_KONUSMA",
+          "block_sequence": 2,
+          "domain": "KONUSMA",
+          "planned_hours": 10,
+          "package_count": 5,
+          "package_ids": [
+            "BLOCK_T3_02_KONUSMA_P01",
+            "BLOCK_T3_02_KONUSMA_P02",
+            "BLOCK_T3_02_KONUSMA_P03",
+            "BLOCK_T3_02_KONUSMA_P04",
+            "BLOCK_T3_02_KONUSMA_P05"
+          ],
+          "course_hour_range": {
+            "start": 102,
+            "end": 111
+          },
+          "theme_hour_range": {
+            "start": 16,
+            "end": 25
+          }
+        },
+        {
+          "block_id": "BLOCK_T3_03_DINLEME",
+          "block_sequence": 3,
+          "domain": "DINLEME_IZLEME",
+          "planned_hours": 8,
+          "package_count": 4,
+          "package_ids": [
+            "BLOCK_T3_03_DINLEME_P01",
+            "BLOCK_T3_03_DINLEME_P02",
+            "BLOCK_T3_03_DINLEME_P03",
+            "BLOCK_T3_03_DINLEME_P04"
+          ],
+          "course_hour_range": {
+            "start": 112,
+            "end": 119
+          },
+          "theme_hour_range": {
+            "start": 26,
+            "end": 33
+          }
+        },
+        {
+          "block_id": "BLOCK_T3_04_YAZMA",
+          "block_sequence": 4,
+          "domain": "YAZMA",
+          "planned_hours": 10,
+          "package_count": 5,
+          "package_ids": [
+            "BLOCK_T3_04_YAZMA_P01",
+            "BLOCK_T3_04_YAZMA_P02",
+            "BLOCK_T3_04_YAZMA_P03",
+            "BLOCK_T3_04_YAZMA_P04",
+            "BLOCK_T3_04_YAZMA_P05"
+          ],
+          "course_hour_range": {
+            "start": 120,
+            "end": 129
+          },
+          "theme_hour_range": {
+            "start": 34,
+            "end": 43
+          }
+        }
+      ]
+    },
+    {
+      "theme_id": "TEMA_04",
+      "theme_sequence": 4,
+      "core_instruction_hours": 43,
+      "school_based_planning_hours_excluded": 2,
+      "course_hour_range": {
+        "start": 130,
+        "end": 172
+      },
+      "theme_hour_range": {
+        "start": 1,
+        "end": 43
+      },
+      "blocks": [
+        {
+          "block_id": "BLOCK_T4_01_OKUMA",
+          "block_sequence": 1,
+          "domain": "OKUMA",
+          "planned_hours": 15,
+          "package_count": 8,
+          "package_ids": [
+            "BLOCK_T4_01_OKUMA_P01",
+            "BLOCK_T4_01_OKUMA_P02",
+            "BLOCK_T4_01_OKUMA_P03",
+            "BLOCK_T4_01_OKUMA_P04",
+            "BLOCK_T4_01_OKUMA_P05",
+            "BLOCK_T4_01_OKUMA_P06",
+            "BLOCK_T4_01_OKUMA_P07",
+            "BLOCK_T4_01_OKUMA_P08"
+          ],
+          "course_hour_range": {
+            "start": 130,
+            "end": 144
+          },
+          "theme_hour_range": {
+            "start": 1,
+            "end": 15
+          }
+        },
+        {
+          "block_id": "BLOCK_T4_02_KONUSMA",
+          "block_sequence": 2,
+          "domain": "KONUSMA",
+          "planned_hours": 10,
+          "package_count": 5,
+          "package_ids": [
+            "BLOCK_T4_02_KONUSMA_P01",
+            "BLOCK_T4_02_KONUSMA_P02",
+            "BLOCK_T4_02_KONUSMA_P03",
+            "BLOCK_T4_02_KONUSMA_P04",
+            "BLOCK_T4_02_KONUSMA_P05"
+          ],
+          "course_hour_range": {
+            "start": 145,
+            "end": 154
+          },
+          "theme_hour_range": {
+            "start": 16,
+            "end": 25
+          }
+        },
+        {
+          "block_id": "BLOCK_T4_03_DINLEME",
+          "block_sequence": 3,
+          "domain": "DINLEME_IZLEME",
+          "planned_hours": 8,
+          "package_count": 4,
+          "package_ids": [
+            "BLOCK_T4_03_DINLEME_P01",
+            "BLOCK_T4_03_DINLEME_P02",
+            "BLOCK_T4_03_DINLEME_P03",
+            "BLOCK_T4_03_DINLEME_P04"
+          ],
+          "course_hour_range": {
+            "start": 155,
+            "end": 162
+          },
+          "theme_hour_range": {
+            "start": 26,
+            "end": 33
+          }
+        },
+        {
+          "block_id": "BLOCK_T4_04_YAZMA",
+          "block_sequence": 4,
+          "domain": "YAZMA",
+          "planned_hours": 10,
+          "package_count": 5,
+          "package_ids": [
+            "BLOCK_T4_04_YAZMA_P01",
+            "BLOCK_T4_04_YAZMA_P02",
+            "BLOCK_T4_04_YAZMA_P03",
+            "BLOCK_T4_04_YAZMA_P04",
+            "BLOCK_T4_04_YAZMA_P05"
+          ],
+          "course_hour_range": {
+            "start": 163,
+            "end": 172
+          },
+          "theme_hour_range": {
+            "start": 34,
+            "end": 43
+          }
+        }
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "ordinal": 1,
+      "theme_id": "TEMA_01",
+      "theme_sequence": 1,
+      "block_id": "BLOCK_T1_01_OKUMA",
+      "block_sequence": 1,
+      "package_no": 1,
+      "package_id": "BLOCK_T1_01_OKUMA_P01",
+      "path": "generated/lesson_plans/TEMA_01/BLOCK_T1_01_OKUMA/BLOCK_T1_01_OKUMA_P01.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 1,
+        "end": 2
+      },
+      "theme_hour_range": {
+        "start": 1,
+        "end": 2
+      },
+      "block_hour_range": {
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "ordinal": 2,
+      "theme_id": "TEMA_01",
+      "theme_sequence": 1,
+      "block_id": "BLOCK_T1_01_OKUMA",
+      "block_sequence": 1,
+      "package_no": 2,
+      "package_id": "BLOCK_T1_01_OKUMA_P02",
+      "path": "generated/lesson_plans/TEMA_01/BLOCK_T1_01_OKUMA/BLOCK_T1_01_OKUMA_P02.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 3,
+        "end": 4
+      },
+      "theme_hour_range": {
+        "start": 3,
+        "end": 4
+      },
+      "block_hour_range": {
+        "start": 3,
+        "end": 4
+      }
+    },
+    {
+      "ordinal": 3,
+      "theme_id": "TEMA_01",
+      "theme_sequence": 1,
+      "block_id": "BLOCK_T1_01_OKUMA",
+      "block_sequence": 1,
+      "package_no": 3,
+      "package_id": "BLOCK_T1_01_OKUMA_P03",
+      "path": "generated/lesson_plans/TEMA_01/BLOCK_T1_01_OKUMA/BLOCK_T1_01_OKUMA_P03.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 5,
+        "end": 6
+      },
+      "theme_hour_range": {
+        "start": 5,
+        "end": 6
+      },
+      "block_hour_range": {
+        "start": 5,
+        "end": 6
+      }
+    },
+    {
+      "ordinal": 4,
+      "theme_id": "TEMA_01",
+      "theme_sequence": 1,
+      "block_id": "BLOCK_T1_01_OKUMA",
+      "block_sequence": 1,
+      "package_no": 4,
+      "package_id": "BLOCK_T1_01_OKUMA_P04",
+      "path": "generated/lesson_plans/TEMA_01/BLOCK_T1_01_OKUMA/BLOCK_T1_01_OKUMA_P04.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 7,
+        "end": 8
+      },
+      "theme_hour_range": {
+        "start": 7,
+        "end": 8
+      },
+      "block_hour_range": {
+        "start": 7,
+        "end": 8
+      }
+    },
+    {
+      "ordinal": 5,
+      "theme_id": "TEMA_01",
+      "theme_sequence": 1,
+      "block_id": "BLOCK_T1_01_OKUMA",
+      "block_sequence": 1,
+      "package_no": 5,
+      "package_id": "BLOCK_T1_01_OKUMA_P05",
+      "path": "generated/lesson_plans/TEMA_01/BLOCK_T1_01_OKUMA/BLOCK_T1_01_OKUMA_P05.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 9,
+        "end": 10
+      },
+      "theme_hour_range": {
+        "start": 9,
+        "end": 10
+      },
+      "block_hour_range": {
+        "start": 9,
+        "end": 10
+      }
+    },
+    {
+      "ordinal": 6,
+      "theme_id": "TEMA_01",
+      "theme_sequence": 1,
+      "block_id": "BLOCK_T1_01_OKUMA",
+      "block_sequence": 1,
+      "package_no": 6,
+      "package_id": "BLOCK_T1_01_OKUMA_P06",
+      "path": "generated/lesson_plans/TEMA_01/BLOCK_T1_01_OKUMA/BLOCK_T1_01_OKUMA_P06.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 11,
+        "end": 12
+      },
+      "theme_hour_range": {
+        "start": 11,
+        "end": 12
+      },
+      "block_hour_range": {
+        "start": 11,
+        "end": 12
+      }
+    },
+    {
+      "ordinal": 7,
+      "theme_id": "TEMA_01",
+      "theme_sequence": 1,
+      "block_id": "BLOCK_T1_01_OKUMA",
+      "block_sequence": 1,
+      "package_no": 7,
+      "package_id": "BLOCK_T1_01_OKUMA_P07",
+      "path": "generated/lesson_plans/TEMA_01/BLOCK_T1_01_OKUMA/BLOCK_T1_01_OKUMA_P07.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 13,
+        "end": 14
+      },
+      "theme_hour_range": {
+        "start": 13,
+        "end": 14
+      },
+      "block_hour_range": {
+        "start": 13,
+        "end": 14
+      }
+    },
+    {
+      "ordinal": 8,
+      "theme_id": "TEMA_01",
+      "theme_sequence": 1,
+      "block_id": "BLOCK_T1_01_OKUMA",
+      "block_sequence": 1,
+      "package_no": 8,
+      "package_id": "BLOCK_T1_01_OKUMA_P08",
+      "path": "generated/lesson_plans/TEMA_01/BLOCK_T1_01_OKUMA/BLOCK_T1_01_OKUMA_P08.json",
+      "lesson_hours": 1,
+      "course_hour_range": {
+        "start": 15,
+        "end": 15
+      },
+      "theme_hour_range": {
+        "start": 15,
+        "end": 15
+      },
+      "block_hour_range": {
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "ordinal": 9,
+      "theme_id": "TEMA_01",
+      "theme_sequence": 1,
+      "block_id": "BLOCK_T1_02_DINLEME",
+      "block_sequence": 2,
+      "package_no": 1,
+      "package_id": "BLOCK_T1_02_DINLEME_P01",
+      "path": "generated/lesson_plans/TEMA_01/BLOCK_T1_02_DINLEME/BLOCK_T1_02_DINLEME_P01.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 16,
+        "end": 17
+      },
+      "theme_hour_range": {
+        "start": 16,
+        "end": 17
+      },
+      "block_hour_range": {
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "ordinal": 10,
+      "theme_id": "TEMA_01",
+      "theme_sequence": 1,
+      "block_id": "BLOCK_T1_02_DINLEME",
+      "block_sequence": 2,
+      "package_no": 2,
+      "package_id": "BLOCK_T1_02_DINLEME_P02",
+      "path": "generated/lesson_plans/TEMA_01/BLOCK_T1_02_DINLEME/BLOCK_T1_02_DINLEME_P02.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 18,
+        "end": 19
+      },
+      "theme_hour_range": {
+        "start": 18,
+        "end": 19
+      },
+      "block_hour_range": {
+        "start": 3,
+        "end": 4
+      }
+    },
+    {
+      "ordinal": 11,
+      "theme_id": "TEMA_01",
+      "theme_sequence": 1,
+      "block_id": "BLOCK_T1_02_DINLEME",
+      "block_sequence": 2,
+      "package_no": 3,
+      "package_id": "BLOCK_T1_02_DINLEME_P03",
+      "path": "generated/lesson_plans/TEMA_01/BLOCK_T1_02_DINLEME/BLOCK_T1_02_DINLEME_P03.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 20,
+        "end": 21
+      },
+      "theme_hour_range": {
+        "start": 20,
+        "end": 21
+      },
+      "block_hour_range": {
+        "start": 5,
+        "end": 6
+      }
+    },
+    {
+      "ordinal": 12,
+      "theme_id": "TEMA_01",
+      "theme_sequence": 1,
+      "block_id": "BLOCK_T1_02_DINLEME",
+      "block_sequence": 2,
+      "package_no": 4,
+      "package_id": "BLOCK_T1_02_DINLEME_P04",
+      "path": "generated/lesson_plans/TEMA_01/BLOCK_T1_02_DINLEME/BLOCK_T1_02_DINLEME_P04.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 22,
+        "end": 23
+      },
+      "theme_hour_range": {
+        "start": 22,
+        "end": 23
+      },
+      "block_hour_range": {
+        "start": 7,
+        "end": 8
+      }
+    },
+    {
+      "ordinal": 13,
+      "theme_id": "TEMA_01",
+      "theme_sequence": 1,
+      "block_id": "BLOCK_T1_03_YAZMA",
+      "block_sequence": 3,
+      "package_no": 1,
+      "package_id": "BLOCK_T1_03_YAZMA_P01",
+      "path": "generated/lesson_plans/TEMA_01/BLOCK_T1_03_YAZMA/BLOCK_T1_03_YAZMA_P01.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 24,
+        "end": 25
+      },
+      "theme_hour_range": {
+        "start": 24,
+        "end": 25
+      },
+      "block_hour_range": {
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "ordinal": 14,
+      "theme_id": "TEMA_01",
+      "theme_sequence": 1,
+      "block_id": "BLOCK_T1_03_YAZMA",
+      "block_sequence": 3,
+      "package_no": 2,
+      "package_id": "BLOCK_T1_03_YAZMA_P02",
+      "path": "generated/lesson_plans/TEMA_01/BLOCK_T1_03_YAZMA/BLOCK_T1_03_YAZMA_P02.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 26,
+        "end": 27
+      },
+      "theme_hour_range": {
+        "start": 26,
+        "end": 27
+      },
+      "block_hour_range": {
+        "start": 3,
+        "end": 4
+      }
+    },
+    {
+      "ordinal": 15,
+      "theme_id": "TEMA_01",
+      "theme_sequence": 1,
+      "block_id": "BLOCK_T1_03_YAZMA",
+      "block_sequence": 3,
+      "package_no": 3,
+      "package_id": "BLOCK_T1_03_YAZMA_P03",
+      "path": "generated/lesson_plans/TEMA_01/BLOCK_T1_03_YAZMA/BLOCK_T1_03_YAZMA_P03.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 28,
+        "end": 29
+      },
+      "theme_hour_range": {
+        "start": 28,
+        "end": 29
+      },
+      "block_hour_range": {
+        "start": 5,
+        "end": 6
+      }
+    },
+    {
+      "ordinal": 16,
+      "theme_id": "TEMA_01",
+      "theme_sequence": 1,
+      "block_id": "BLOCK_T1_03_YAZMA",
+      "block_sequence": 3,
+      "package_no": 4,
+      "package_id": "BLOCK_T1_03_YAZMA_P04",
+      "path": "generated/lesson_plans/TEMA_01/BLOCK_T1_03_YAZMA/BLOCK_T1_03_YAZMA_P04.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 30,
+        "end": 31
+      },
+      "theme_hour_range": {
+        "start": 30,
+        "end": 31
+      },
+      "block_hour_range": {
+        "start": 7,
+        "end": 8
+      }
+    },
+    {
+      "ordinal": 17,
+      "theme_id": "TEMA_01",
+      "theme_sequence": 1,
+      "block_id": "BLOCK_T1_03_YAZMA",
+      "block_sequence": 3,
+      "package_no": 5,
+      "package_id": "BLOCK_T1_03_YAZMA_P05",
+      "path": "generated/lesson_plans/TEMA_01/BLOCK_T1_03_YAZMA/BLOCK_T1_03_YAZMA_P05.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 32,
+        "end": 33
+      },
+      "theme_hour_range": {
+        "start": 32,
+        "end": 33
+      },
+      "block_hour_range": {
+        "start": 9,
+        "end": 10
+      }
+    },
+    {
+      "ordinal": 18,
+      "theme_id": "TEMA_01",
+      "theme_sequence": 1,
+      "block_id": "BLOCK_T1_04_KONUSMA",
+      "block_sequence": 4,
+      "package_no": 1,
+      "package_id": "BLOCK_T1_04_KONUSMA_P01",
+      "path": "generated/lesson_plans/TEMA_01/BLOCK_T1_04_KONUSMA/BLOCK_T1_04_KONUSMA_P01.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 34,
+        "end": 35
+      },
+      "theme_hour_range": {
+        "start": 34,
+        "end": 35
+      },
+      "block_hour_range": {
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "ordinal": 19,
+      "theme_id": "TEMA_01",
+      "theme_sequence": 1,
+      "block_id": "BLOCK_T1_04_KONUSMA",
+      "block_sequence": 4,
+      "package_no": 2,
+      "package_id": "BLOCK_T1_04_KONUSMA_P02",
+      "path": "generated/lesson_plans/TEMA_01/BLOCK_T1_04_KONUSMA/BLOCK_T1_04_KONUSMA_P02.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 36,
+        "end": 37
+      },
+      "theme_hour_range": {
+        "start": 36,
+        "end": 37
+      },
+      "block_hour_range": {
+        "start": 3,
+        "end": 4
+      }
+    },
+    {
+      "ordinal": 20,
+      "theme_id": "TEMA_01",
+      "theme_sequence": 1,
+      "block_id": "BLOCK_T1_04_KONUSMA",
+      "block_sequence": 4,
+      "package_no": 3,
+      "package_id": "BLOCK_T1_04_KONUSMA_P03",
+      "path": "generated/lesson_plans/TEMA_01/BLOCK_T1_04_KONUSMA/BLOCK_T1_04_KONUSMA_P03.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 38,
+        "end": 39
+      },
+      "theme_hour_range": {
+        "start": 38,
+        "end": 39
+      },
+      "block_hour_range": {
+        "start": 5,
+        "end": 6
+      }
+    },
+    {
+      "ordinal": 21,
+      "theme_id": "TEMA_01",
+      "theme_sequence": 1,
+      "block_id": "BLOCK_T1_04_KONUSMA",
+      "block_sequence": 4,
+      "package_no": 4,
+      "package_id": "BLOCK_T1_04_KONUSMA_P04",
+      "path": "generated/lesson_plans/TEMA_01/BLOCK_T1_04_KONUSMA/BLOCK_T1_04_KONUSMA_P04.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 40,
+        "end": 41
+      },
+      "theme_hour_range": {
+        "start": 40,
+        "end": 41
+      },
+      "block_hour_range": {
+        "start": 7,
+        "end": 8
+      }
+    },
+    {
+      "ordinal": 22,
+      "theme_id": "TEMA_01",
+      "theme_sequence": 1,
+      "block_id": "BLOCK_T1_04_KONUSMA",
+      "block_sequence": 4,
+      "package_no": 5,
+      "package_id": "BLOCK_T1_04_KONUSMA_P05",
+      "path": "generated/lesson_plans/TEMA_01/BLOCK_T1_04_KONUSMA/BLOCK_T1_04_KONUSMA_P05.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 42,
+        "end": 43
+      },
+      "theme_hour_range": {
+        "start": 42,
+        "end": 43
+      },
+      "block_hour_range": {
+        "start": 9,
+        "end": 10
+      }
+    },
+    {
+      "ordinal": 23,
+      "theme_id": "TEMA_02",
+      "theme_sequence": 2,
+      "block_id": "BLOCK_T2_01_OKUMA",
+      "block_sequence": 1,
+      "package_no": 1,
+      "package_id": "BLOCK_T2_01_OKUMA_P01",
+      "path": "generated/lesson_plans/TEMA_02/BLOCK_T2_01_OKUMA/BLOCK_T2_01_OKUMA_P01.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 44,
+        "end": 45
+      },
+      "theme_hour_range": {
+        "start": 1,
+        "end": 2
+      },
+      "block_hour_range": {
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "ordinal": 24,
+      "theme_id": "TEMA_02",
+      "theme_sequence": 2,
+      "block_id": "BLOCK_T2_01_OKUMA",
+      "block_sequence": 1,
+      "package_no": 2,
+      "package_id": "BLOCK_T2_01_OKUMA_P02",
+      "path": "generated/lesson_plans/TEMA_02/BLOCK_T2_01_OKUMA/BLOCK_T2_01_OKUMA_P02.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 46,
+        "end": 47
+      },
+      "theme_hour_range": {
+        "start": 3,
+        "end": 4
+      },
+      "block_hour_range": {
+        "start": 3,
+        "end": 4
+      }
+    },
+    {
+      "ordinal": 25,
+      "theme_id": "TEMA_02",
+      "theme_sequence": 2,
+      "block_id": "BLOCK_T2_01_OKUMA",
+      "block_sequence": 1,
+      "package_no": 3,
+      "package_id": "BLOCK_T2_01_OKUMA_P03",
+      "path": "generated/lesson_plans/TEMA_02/BLOCK_T2_01_OKUMA/BLOCK_T2_01_OKUMA_P03.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 48,
+        "end": 49
+      },
+      "theme_hour_range": {
+        "start": 5,
+        "end": 6
+      },
+      "block_hour_range": {
+        "start": 5,
+        "end": 6
+      }
+    },
+    {
+      "ordinal": 26,
+      "theme_id": "TEMA_02",
+      "theme_sequence": 2,
+      "block_id": "BLOCK_T2_01_OKUMA",
+      "block_sequence": 1,
+      "package_no": 4,
+      "package_id": "BLOCK_T2_01_OKUMA_P04",
+      "path": "generated/lesson_plans/TEMA_02/BLOCK_T2_01_OKUMA/BLOCK_T2_01_OKUMA_P04.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 50,
+        "end": 51
+      },
+      "theme_hour_range": {
+        "start": 7,
+        "end": 8
+      },
+      "block_hour_range": {
+        "start": 7,
+        "end": 8
+      }
+    },
+    {
+      "ordinal": 27,
+      "theme_id": "TEMA_02",
+      "theme_sequence": 2,
+      "block_id": "BLOCK_T2_01_OKUMA",
+      "block_sequence": 1,
+      "package_no": 5,
+      "package_id": "BLOCK_T2_01_OKUMA_P05",
+      "path": "generated/lesson_plans/TEMA_02/BLOCK_T2_01_OKUMA/BLOCK_T2_01_OKUMA_P05.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 52,
+        "end": 53
+      },
+      "theme_hour_range": {
+        "start": 9,
+        "end": 10
+      },
+      "block_hour_range": {
+        "start": 9,
+        "end": 10
+      }
+    },
+    {
+      "ordinal": 28,
+      "theme_id": "TEMA_02",
+      "theme_sequence": 2,
+      "block_id": "BLOCK_T2_01_OKUMA",
+      "block_sequence": 1,
+      "package_no": 6,
+      "package_id": "BLOCK_T2_01_OKUMA_P06",
+      "path": "generated/lesson_plans/TEMA_02/BLOCK_T2_01_OKUMA/BLOCK_T2_01_OKUMA_P06.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 54,
+        "end": 55
+      },
+      "theme_hour_range": {
+        "start": 11,
+        "end": 12
+      },
+      "block_hour_range": {
+        "start": 11,
+        "end": 12
+      }
+    },
+    {
+      "ordinal": 29,
+      "theme_id": "TEMA_02",
+      "theme_sequence": 2,
+      "block_id": "BLOCK_T2_01_OKUMA",
+      "block_sequence": 1,
+      "package_no": 7,
+      "package_id": "BLOCK_T2_01_OKUMA_P07",
+      "path": "generated/lesson_plans/TEMA_02/BLOCK_T2_01_OKUMA/BLOCK_T2_01_OKUMA_P07.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 56,
+        "end": 57
+      },
+      "theme_hour_range": {
+        "start": 13,
+        "end": 14
+      },
+      "block_hour_range": {
+        "start": 13,
+        "end": 14
+      }
+    },
+    {
+      "ordinal": 30,
+      "theme_id": "TEMA_02",
+      "theme_sequence": 2,
+      "block_id": "BLOCK_T2_01_OKUMA",
+      "block_sequence": 1,
+      "package_no": 8,
+      "package_id": "BLOCK_T2_01_OKUMA_P08",
+      "path": "generated/lesson_plans/TEMA_02/BLOCK_T2_01_OKUMA/BLOCK_T2_01_OKUMA_P08.json",
+      "lesson_hours": 1,
+      "course_hour_range": {
+        "start": 58,
+        "end": 58
+      },
+      "theme_hour_range": {
+        "start": 15,
+        "end": 15
+      },
+      "block_hour_range": {
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "ordinal": 31,
+      "theme_id": "TEMA_02",
+      "theme_sequence": 2,
+      "block_id": "BLOCK_T2_02_KONUSMA",
+      "block_sequence": 2,
+      "package_no": 1,
+      "package_id": "BLOCK_T2_02_KONUSMA_P01",
+      "path": "generated/lesson_plans/TEMA_02/BLOCK_T2_02_KONUSMA/BLOCK_T2_02_KONUSMA_P01.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 59,
+        "end": 60
+      },
+      "theme_hour_range": {
+        "start": 16,
+        "end": 17
+      },
+      "block_hour_range": {
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "ordinal": 32,
+      "theme_id": "TEMA_02",
+      "theme_sequence": 2,
+      "block_id": "BLOCK_T2_02_KONUSMA",
+      "block_sequence": 2,
+      "package_no": 2,
+      "package_id": "BLOCK_T2_02_KONUSMA_P02",
+      "path": "generated/lesson_plans/TEMA_02/BLOCK_T2_02_KONUSMA/BLOCK_T2_02_KONUSMA_P02.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 61,
+        "end": 62
+      },
+      "theme_hour_range": {
+        "start": 18,
+        "end": 19
+      },
+      "block_hour_range": {
+        "start": 3,
+        "end": 4
+      }
+    },
+    {
+      "ordinal": 33,
+      "theme_id": "TEMA_02",
+      "theme_sequence": 2,
+      "block_id": "BLOCK_T2_02_KONUSMA",
+      "block_sequence": 2,
+      "package_no": 3,
+      "package_id": "BLOCK_T2_02_KONUSMA_P03",
+      "path": "generated/lesson_plans/TEMA_02/BLOCK_T2_02_KONUSMA/BLOCK_T2_02_KONUSMA_P03.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 63,
+        "end": 64
+      },
+      "theme_hour_range": {
+        "start": 20,
+        "end": 21
+      },
+      "block_hour_range": {
+        "start": 5,
+        "end": 6
+      }
+    },
+    {
+      "ordinal": 34,
+      "theme_id": "TEMA_02",
+      "theme_sequence": 2,
+      "block_id": "BLOCK_T2_02_KONUSMA",
+      "block_sequence": 2,
+      "package_no": 4,
+      "package_id": "BLOCK_T2_02_KONUSMA_P04",
+      "path": "generated/lesson_plans/TEMA_02/BLOCK_T2_02_KONUSMA/BLOCK_T2_02_KONUSMA_P04.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 65,
+        "end": 66
+      },
+      "theme_hour_range": {
+        "start": 22,
+        "end": 23
+      },
+      "block_hour_range": {
+        "start": 7,
+        "end": 8
+      }
+    },
+    {
+      "ordinal": 35,
+      "theme_id": "TEMA_02",
+      "theme_sequence": 2,
+      "block_id": "BLOCK_T2_02_KONUSMA",
+      "block_sequence": 2,
+      "package_no": 5,
+      "package_id": "BLOCK_T2_02_KONUSMA_P05",
+      "path": "generated/lesson_plans/TEMA_02/BLOCK_T2_02_KONUSMA/BLOCK_T2_02_KONUSMA_P05.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 67,
+        "end": 68
+      },
+      "theme_hour_range": {
+        "start": 24,
+        "end": 25
+      },
+      "block_hour_range": {
+        "start": 9,
+        "end": 10
+      }
+    },
+    {
+      "ordinal": 36,
+      "theme_id": "TEMA_02",
+      "theme_sequence": 2,
+      "block_id": "BLOCK_T2_03_DINLEME",
+      "block_sequence": 3,
+      "package_no": 1,
+      "package_id": "BLOCK_T2_03_DINLEME_P01",
+      "path": "generated/lesson_plans/TEMA_02/BLOCK_T2_03_DINLEME/BLOCK_T2_03_DINLEME_P01.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 69,
+        "end": 70
+      },
+      "theme_hour_range": {
+        "start": 26,
+        "end": 27
+      },
+      "block_hour_range": {
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "ordinal": 37,
+      "theme_id": "TEMA_02",
+      "theme_sequence": 2,
+      "block_id": "BLOCK_T2_03_DINLEME",
+      "block_sequence": 3,
+      "package_no": 2,
+      "package_id": "BLOCK_T2_03_DINLEME_P02",
+      "path": "generated/lesson_plans/TEMA_02/BLOCK_T2_03_DINLEME/BLOCK_T2_03_DINLEME_P02.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 71,
+        "end": 72
+      },
+      "theme_hour_range": {
+        "start": 28,
+        "end": 29
+      },
+      "block_hour_range": {
+        "start": 3,
+        "end": 4
+      }
+    },
+    {
+      "ordinal": 38,
+      "theme_id": "TEMA_02",
+      "theme_sequence": 2,
+      "block_id": "BLOCK_T2_03_DINLEME",
+      "block_sequence": 3,
+      "package_no": 3,
+      "package_id": "BLOCK_T2_03_DINLEME_P03",
+      "path": "generated/lesson_plans/TEMA_02/BLOCK_T2_03_DINLEME/BLOCK_T2_03_DINLEME_P03.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 73,
+        "end": 74
+      },
+      "theme_hour_range": {
+        "start": 30,
+        "end": 31
+      },
+      "block_hour_range": {
+        "start": 5,
+        "end": 6
+      }
+    },
+    {
+      "ordinal": 39,
+      "theme_id": "TEMA_02",
+      "theme_sequence": 2,
+      "block_id": "BLOCK_T2_03_DINLEME",
+      "block_sequence": 3,
+      "package_no": 4,
+      "package_id": "BLOCK_T2_03_DINLEME_P04",
+      "path": "generated/lesson_plans/TEMA_02/BLOCK_T2_03_DINLEME/BLOCK_T2_03_DINLEME_P04.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 75,
+        "end": 76
+      },
+      "theme_hour_range": {
+        "start": 32,
+        "end": 33
+      },
+      "block_hour_range": {
+        "start": 7,
+        "end": 8
+      }
+    },
+    {
+      "ordinal": 40,
+      "theme_id": "TEMA_02",
+      "theme_sequence": 2,
+      "block_id": "BLOCK_T2_04_YAZMA",
+      "block_sequence": 4,
+      "package_no": 1,
+      "package_id": "BLOCK_T2_04_YAZMA_P01",
+      "path": "generated/lesson_plans/TEMA_02/BLOCK_T2_04_YAZMA/BLOCK_T2_04_YAZMA_P01.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 77,
+        "end": 78
+      },
+      "theme_hour_range": {
+        "start": 34,
+        "end": 35
+      },
+      "block_hour_range": {
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "ordinal": 41,
+      "theme_id": "TEMA_02",
+      "theme_sequence": 2,
+      "block_id": "BLOCK_T2_04_YAZMA",
+      "block_sequence": 4,
+      "package_no": 2,
+      "package_id": "BLOCK_T2_04_YAZMA_P02",
+      "path": "generated/lesson_plans/TEMA_02/BLOCK_T2_04_YAZMA/BLOCK_T2_04_YAZMA_P02.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 79,
+        "end": 80
+      },
+      "theme_hour_range": {
+        "start": 36,
+        "end": 37
+      },
+      "block_hour_range": {
+        "start": 3,
+        "end": 4
+      }
+    },
+    {
+      "ordinal": 42,
+      "theme_id": "TEMA_02",
+      "theme_sequence": 2,
+      "block_id": "BLOCK_T2_04_YAZMA",
+      "block_sequence": 4,
+      "package_no": 3,
+      "package_id": "BLOCK_T2_04_YAZMA_P03",
+      "path": "generated/lesson_plans/TEMA_02/BLOCK_T2_04_YAZMA/BLOCK_T2_04_YAZMA_P03.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 81,
+        "end": 82
+      },
+      "theme_hour_range": {
+        "start": 38,
+        "end": 39
+      },
+      "block_hour_range": {
+        "start": 5,
+        "end": 6
+      }
+    },
+    {
+      "ordinal": 43,
+      "theme_id": "TEMA_02",
+      "theme_sequence": 2,
+      "block_id": "BLOCK_T2_04_YAZMA",
+      "block_sequence": 4,
+      "package_no": 4,
+      "package_id": "BLOCK_T2_04_YAZMA_P04",
+      "path": "generated/lesson_plans/TEMA_02/BLOCK_T2_04_YAZMA/BLOCK_T2_04_YAZMA_P04.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 83,
+        "end": 84
+      },
+      "theme_hour_range": {
+        "start": 40,
+        "end": 41
+      },
+      "block_hour_range": {
+        "start": 7,
+        "end": 8
+      }
+    },
+    {
+      "ordinal": 44,
+      "theme_id": "TEMA_02",
+      "theme_sequence": 2,
+      "block_id": "BLOCK_T2_04_YAZMA",
+      "block_sequence": 4,
+      "package_no": 5,
+      "package_id": "BLOCK_T2_04_YAZMA_P05",
+      "path": "generated/lesson_plans/TEMA_02/BLOCK_T2_04_YAZMA/BLOCK_T2_04_YAZMA_P05.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 85,
+        "end": 86
+      },
+      "theme_hour_range": {
+        "start": 42,
+        "end": 43
+      },
+      "block_hour_range": {
+        "start": 9,
+        "end": 10
+      }
+    },
+    {
+      "ordinal": 45,
+      "theme_id": "TEMA_03",
+      "theme_sequence": 3,
+      "block_id": "BLOCK_T3_01_OKUMA",
+      "block_sequence": 1,
+      "package_no": 1,
+      "package_id": "BLOCK_T3_01_OKUMA_P01",
+      "path": "generated/lesson_plans/TEMA_03/BLOCK_T3_01_OKUMA/BLOCK_T3_01_OKUMA_P01.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 87,
+        "end": 88
+      },
+      "theme_hour_range": {
+        "start": 1,
+        "end": 2
+      },
+      "block_hour_range": {
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "ordinal": 46,
+      "theme_id": "TEMA_03",
+      "theme_sequence": 3,
+      "block_id": "BLOCK_T3_01_OKUMA",
+      "block_sequence": 1,
+      "package_no": 2,
+      "package_id": "BLOCK_T3_01_OKUMA_P02",
+      "path": "generated/lesson_plans/TEMA_03/BLOCK_T3_01_OKUMA/BLOCK_T3_01_OKUMA_P02.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 89,
+        "end": 90
+      },
+      "theme_hour_range": {
+        "start": 3,
+        "end": 4
+      },
+      "block_hour_range": {
+        "start": 3,
+        "end": 4
+      }
+    },
+    {
+      "ordinal": 47,
+      "theme_id": "TEMA_03",
+      "theme_sequence": 3,
+      "block_id": "BLOCK_T3_01_OKUMA",
+      "block_sequence": 1,
+      "package_no": 3,
+      "package_id": "BLOCK_T3_01_OKUMA_P03",
+      "path": "generated/lesson_plans/TEMA_03/BLOCK_T3_01_OKUMA/BLOCK_T3_01_OKUMA_P03.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 91,
+        "end": 92
+      },
+      "theme_hour_range": {
+        "start": 5,
+        "end": 6
+      },
+      "block_hour_range": {
+        "start": 5,
+        "end": 6
+      }
+    },
+    {
+      "ordinal": 48,
+      "theme_id": "TEMA_03",
+      "theme_sequence": 3,
+      "block_id": "BLOCK_T3_01_OKUMA",
+      "block_sequence": 1,
+      "package_no": 4,
+      "package_id": "BLOCK_T3_01_OKUMA_P04",
+      "path": "generated/lesson_plans/TEMA_03/BLOCK_T3_01_OKUMA/BLOCK_T3_01_OKUMA_P04.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 93,
+        "end": 94
+      },
+      "theme_hour_range": {
+        "start": 7,
+        "end": 8
+      },
+      "block_hour_range": {
+        "start": 7,
+        "end": 8
+      }
+    },
+    {
+      "ordinal": 49,
+      "theme_id": "TEMA_03",
+      "theme_sequence": 3,
+      "block_id": "BLOCK_T3_01_OKUMA",
+      "block_sequence": 1,
+      "package_no": 5,
+      "package_id": "BLOCK_T3_01_OKUMA_P05",
+      "path": "generated/lesson_plans/TEMA_03/BLOCK_T3_01_OKUMA/BLOCK_T3_01_OKUMA_P05.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 95,
+        "end": 96
+      },
+      "theme_hour_range": {
+        "start": 9,
+        "end": 10
+      },
+      "block_hour_range": {
+        "start": 9,
+        "end": 10
+      }
+    },
+    {
+      "ordinal": 50,
+      "theme_id": "TEMA_03",
+      "theme_sequence": 3,
+      "block_id": "BLOCK_T3_01_OKUMA",
+      "block_sequence": 1,
+      "package_no": 6,
+      "package_id": "BLOCK_T3_01_OKUMA_P06",
+      "path": "generated/lesson_plans/TEMA_03/BLOCK_T3_01_OKUMA/BLOCK_T3_01_OKUMA_P06.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 97,
+        "end": 98
+      },
+      "theme_hour_range": {
+        "start": 11,
+        "end": 12
+      },
+      "block_hour_range": {
+        "start": 11,
+        "end": 12
+      }
+    },
+    {
+      "ordinal": 51,
+      "theme_id": "TEMA_03",
+      "theme_sequence": 3,
+      "block_id": "BLOCK_T3_01_OKUMA",
+      "block_sequence": 1,
+      "package_no": 7,
+      "package_id": "BLOCK_T3_01_OKUMA_P07",
+      "path": "generated/lesson_plans/TEMA_03/BLOCK_T3_01_OKUMA/BLOCK_T3_01_OKUMA_P07.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 99,
+        "end": 100
+      },
+      "theme_hour_range": {
+        "start": 13,
+        "end": 14
+      },
+      "block_hour_range": {
+        "start": 13,
+        "end": 14
+      }
+    },
+    {
+      "ordinal": 52,
+      "theme_id": "TEMA_03",
+      "theme_sequence": 3,
+      "block_id": "BLOCK_T3_01_OKUMA",
+      "block_sequence": 1,
+      "package_no": 8,
+      "package_id": "BLOCK_T3_01_OKUMA_P08",
+      "path": "generated/lesson_plans/TEMA_03/BLOCK_T3_01_OKUMA/BLOCK_T3_01_OKUMA_P08.json",
+      "lesson_hours": 1,
+      "course_hour_range": {
+        "start": 101,
+        "end": 101
+      },
+      "theme_hour_range": {
+        "start": 15,
+        "end": 15
+      },
+      "block_hour_range": {
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "ordinal": 53,
+      "theme_id": "TEMA_03",
+      "theme_sequence": 3,
+      "block_id": "BLOCK_T3_02_KONUSMA",
+      "block_sequence": 2,
+      "package_no": 1,
+      "package_id": "BLOCK_T3_02_KONUSMA_P01",
+      "path": "generated/lesson_plans/TEMA_03/BLOCK_T3_02_KONUSMA/BLOCK_T3_02_KONUSMA_P01.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 102,
+        "end": 103
+      },
+      "theme_hour_range": {
+        "start": 16,
+        "end": 17
+      },
+      "block_hour_range": {
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "ordinal": 54,
+      "theme_id": "TEMA_03",
+      "theme_sequence": 3,
+      "block_id": "BLOCK_T3_02_KONUSMA",
+      "block_sequence": 2,
+      "package_no": 2,
+      "package_id": "BLOCK_T3_02_KONUSMA_P02",
+      "path": "generated/lesson_plans/TEMA_03/BLOCK_T3_02_KONUSMA/BLOCK_T3_02_KONUSMA_P02.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 104,
+        "end": 105
+      },
+      "theme_hour_range": {
+        "start": 18,
+        "end": 19
+      },
+      "block_hour_range": {
+        "start": 3,
+        "end": 4
+      }
+    },
+    {
+      "ordinal": 55,
+      "theme_id": "TEMA_03",
+      "theme_sequence": 3,
+      "block_id": "BLOCK_T3_02_KONUSMA",
+      "block_sequence": 2,
+      "package_no": 3,
+      "package_id": "BLOCK_T3_02_KONUSMA_P03",
+      "path": "generated/lesson_plans/TEMA_03/BLOCK_T3_02_KONUSMA/BLOCK_T3_02_KONUSMA_P03.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 106,
+        "end": 107
+      },
+      "theme_hour_range": {
+        "start": 20,
+        "end": 21
+      },
+      "block_hour_range": {
+        "start": 5,
+        "end": 6
+      }
+    },
+    {
+      "ordinal": 56,
+      "theme_id": "TEMA_03",
+      "theme_sequence": 3,
+      "block_id": "BLOCK_T3_02_KONUSMA",
+      "block_sequence": 2,
+      "package_no": 4,
+      "package_id": "BLOCK_T3_02_KONUSMA_P04",
+      "path": "generated/lesson_plans/TEMA_03/BLOCK_T3_02_KONUSMA/BLOCK_T3_02_KONUSMA_P04.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 108,
+        "end": 109
+      },
+      "theme_hour_range": {
+        "start": 22,
+        "end": 23
+      },
+      "block_hour_range": {
+        "start": 7,
+        "end": 8
+      }
+    },
+    {
+      "ordinal": 57,
+      "theme_id": "TEMA_03",
+      "theme_sequence": 3,
+      "block_id": "BLOCK_T3_02_KONUSMA",
+      "block_sequence": 2,
+      "package_no": 5,
+      "package_id": "BLOCK_T3_02_KONUSMA_P05",
+      "path": "generated/lesson_plans/TEMA_03/BLOCK_T3_02_KONUSMA/BLOCK_T3_02_KONUSMA_P05.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 110,
+        "end": 111
+      },
+      "theme_hour_range": {
+        "start": 24,
+        "end": 25
+      },
+      "block_hour_range": {
+        "start": 9,
+        "end": 10
+      }
+    },
+    {
+      "ordinal": 58,
+      "theme_id": "TEMA_03",
+      "theme_sequence": 3,
+      "block_id": "BLOCK_T3_03_DINLEME",
+      "block_sequence": 3,
+      "package_no": 1,
+      "package_id": "BLOCK_T3_03_DINLEME_P01",
+      "path": "generated/lesson_plans/TEMA_03/BLOCK_T3_03_DINLEME/BLOCK_T3_03_DINLEME_P01.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 112,
+        "end": 113
+      },
+      "theme_hour_range": {
+        "start": 26,
+        "end": 27
+      },
+      "block_hour_range": {
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "ordinal": 59,
+      "theme_id": "TEMA_03",
+      "theme_sequence": 3,
+      "block_id": "BLOCK_T3_03_DINLEME",
+      "block_sequence": 3,
+      "package_no": 2,
+      "package_id": "BLOCK_T3_03_DINLEME_P02",
+      "path": "generated/lesson_plans/TEMA_03/BLOCK_T3_03_DINLEME/BLOCK_T3_03_DINLEME_P02.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 114,
+        "end": 115
+      },
+      "theme_hour_range": {
+        "start": 28,
+        "end": 29
+      },
+      "block_hour_range": {
+        "start": 3,
+        "end": 4
+      }
+    },
+    {
+      "ordinal": 60,
+      "theme_id": "TEMA_03",
+      "theme_sequence": 3,
+      "block_id": "BLOCK_T3_03_DINLEME",
+      "block_sequence": 3,
+      "package_no": 3,
+      "package_id": "BLOCK_T3_03_DINLEME_P03",
+      "path": "generated/lesson_plans/TEMA_03/BLOCK_T3_03_DINLEME/BLOCK_T3_03_DINLEME_P03.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 116,
+        "end": 117
+      },
+      "theme_hour_range": {
+        "start": 30,
+        "end": 31
+      },
+      "block_hour_range": {
+        "start": 5,
+        "end": 6
+      }
+    },
+    {
+      "ordinal": 61,
+      "theme_id": "TEMA_03",
+      "theme_sequence": 3,
+      "block_id": "BLOCK_T3_03_DINLEME",
+      "block_sequence": 3,
+      "package_no": 4,
+      "package_id": "BLOCK_T3_03_DINLEME_P04",
+      "path": "generated/lesson_plans/TEMA_03/BLOCK_T3_03_DINLEME/BLOCK_T3_03_DINLEME_P04.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 118,
+        "end": 119
+      },
+      "theme_hour_range": {
+        "start": 32,
+        "end": 33
+      },
+      "block_hour_range": {
+        "start": 7,
+        "end": 8
+      }
+    },
+    {
+      "ordinal": 62,
+      "theme_id": "TEMA_03",
+      "theme_sequence": 3,
+      "block_id": "BLOCK_T3_04_YAZMA",
+      "block_sequence": 4,
+      "package_no": 1,
+      "package_id": "BLOCK_T3_04_YAZMA_P01",
+      "path": "generated/lesson_plans/TEMA_03/BLOCK_T3_04_YAZMA/BLOCK_T3_04_YAZMA_P01.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 120,
+        "end": 121
+      },
+      "theme_hour_range": {
+        "start": 34,
+        "end": 35
+      },
+      "block_hour_range": {
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "ordinal": 63,
+      "theme_id": "TEMA_03",
+      "theme_sequence": 3,
+      "block_id": "BLOCK_T3_04_YAZMA",
+      "block_sequence": 4,
+      "package_no": 2,
+      "package_id": "BLOCK_T3_04_YAZMA_P02",
+      "path": "generated/lesson_plans/TEMA_03/BLOCK_T3_04_YAZMA/BLOCK_T3_04_YAZMA_P02.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 122,
+        "end": 123
+      },
+      "theme_hour_range": {
+        "start": 36,
+        "end": 37
+      },
+      "block_hour_range": {
+        "start": 3,
+        "end": 4
+      }
+    },
+    {
+      "ordinal": 64,
+      "theme_id": "TEMA_03",
+      "theme_sequence": 3,
+      "block_id": "BLOCK_T3_04_YAZMA",
+      "block_sequence": 4,
+      "package_no": 3,
+      "package_id": "BLOCK_T3_04_YAZMA_P03",
+      "path": "generated/lesson_plans/TEMA_03/BLOCK_T3_04_YAZMA/BLOCK_T3_04_YAZMA_P03.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 124,
+        "end": 125
+      },
+      "theme_hour_range": {
+        "start": 38,
+        "end": 39
+      },
+      "block_hour_range": {
+        "start": 5,
+        "end": 6
+      }
+    },
+    {
+      "ordinal": 65,
+      "theme_id": "TEMA_03",
+      "theme_sequence": 3,
+      "block_id": "BLOCK_T3_04_YAZMA",
+      "block_sequence": 4,
+      "package_no": 4,
+      "package_id": "BLOCK_T3_04_YAZMA_P04",
+      "path": "generated/lesson_plans/TEMA_03/BLOCK_T3_04_YAZMA/BLOCK_T3_04_YAZMA_P04.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 126,
+        "end": 127
+      },
+      "theme_hour_range": {
+        "start": 40,
+        "end": 41
+      },
+      "block_hour_range": {
+        "start": 7,
+        "end": 8
+      }
+    },
+    {
+      "ordinal": 66,
+      "theme_id": "TEMA_03",
+      "theme_sequence": 3,
+      "block_id": "BLOCK_T3_04_YAZMA",
+      "block_sequence": 4,
+      "package_no": 5,
+      "package_id": "BLOCK_T3_04_YAZMA_P05",
+      "path": "generated/lesson_plans/TEMA_03/BLOCK_T3_04_YAZMA/BLOCK_T3_04_YAZMA_P05.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 128,
+        "end": 129
+      },
+      "theme_hour_range": {
+        "start": 42,
+        "end": 43
+      },
+      "block_hour_range": {
+        "start": 9,
+        "end": 10
+      }
+    },
+    {
+      "ordinal": 67,
+      "theme_id": "TEMA_04",
+      "theme_sequence": 4,
+      "block_id": "BLOCK_T4_01_OKUMA",
+      "block_sequence": 1,
+      "package_no": 1,
+      "package_id": "BLOCK_T4_01_OKUMA_P01",
+      "path": "generated/lesson_plans/TEMA_04/BLOCK_T4_01_OKUMA/BLOCK_T4_01_OKUMA_P01.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 130,
+        "end": 131
+      },
+      "theme_hour_range": {
+        "start": 1,
+        "end": 2
+      },
+      "block_hour_range": {
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "ordinal": 68,
+      "theme_id": "TEMA_04",
+      "theme_sequence": 4,
+      "block_id": "BLOCK_T4_01_OKUMA",
+      "block_sequence": 1,
+      "package_no": 2,
+      "package_id": "BLOCK_T4_01_OKUMA_P02",
+      "path": "generated/lesson_plans/TEMA_04/BLOCK_T4_01_OKUMA/BLOCK_T4_01_OKUMA_P02.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 132,
+        "end": 133
+      },
+      "theme_hour_range": {
+        "start": 3,
+        "end": 4
+      },
+      "block_hour_range": {
+        "start": 3,
+        "end": 4
+      }
+    },
+    {
+      "ordinal": 69,
+      "theme_id": "TEMA_04",
+      "theme_sequence": 4,
+      "block_id": "BLOCK_T4_01_OKUMA",
+      "block_sequence": 1,
+      "package_no": 3,
+      "package_id": "BLOCK_T4_01_OKUMA_P03",
+      "path": "generated/lesson_plans/TEMA_04/BLOCK_T4_01_OKUMA/BLOCK_T4_01_OKUMA_P03.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 134,
+        "end": 135
+      },
+      "theme_hour_range": {
+        "start": 5,
+        "end": 6
+      },
+      "block_hour_range": {
+        "start": 5,
+        "end": 6
+      }
+    },
+    {
+      "ordinal": 70,
+      "theme_id": "TEMA_04",
+      "theme_sequence": 4,
+      "block_id": "BLOCK_T4_01_OKUMA",
+      "block_sequence": 1,
+      "package_no": 4,
+      "package_id": "BLOCK_T4_01_OKUMA_P04",
+      "path": "generated/lesson_plans/TEMA_04/BLOCK_T4_01_OKUMA/BLOCK_T4_01_OKUMA_P04.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 136,
+        "end": 137
+      },
+      "theme_hour_range": {
+        "start": 7,
+        "end": 8
+      },
+      "block_hour_range": {
+        "start": 7,
+        "end": 8
+      }
+    },
+    {
+      "ordinal": 71,
+      "theme_id": "TEMA_04",
+      "theme_sequence": 4,
+      "block_id": "BLOCK_T4_01_OKUMA",
+      "block_sequence": 1,
+      "package_no": 5,
+      "package_id": "BLOCK_T4_01_OKUMA_P05",
+      "path": "generated/lesson_plans/TEMA_04/BLOCK_T4_01_OKUMA/BLOCK_T4_01_OKUMA_P05.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 138,
+        "end": 139
+      },
+      "theme_hour_range": {
+        "start": 9,
+        "end": 10
+      },
+      "block_hour_range": {
+        "start": 9,
+        "end": 10
+      }
+    },
+    {
+      "ordinal": 72,
+      "theme_id": "TEMA_04",
+      "theme_sequence": 4,
+      "block_id": "BLOCK_T4_01_OKUMA",
+      "block_sequence": 1,
+      "package_no": 6,
+      "package_id": "BLOCK_T4_01_OKUMA_P06",
+      "path": "generated/lesson_plans/TEMA_04/BLOCK_T4_01_OKUMA/BLOCK_T4_01_OKUMA_P06.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 140,
+        "end": 141
+      },
+      "theme_hour_range": {
+        "start": 11,
+        "end": 12
+      },
+      "block_hour_range": {
+        "start": 11,
+        "end": 12
+      }
+    },
+    {
+      "ordinal": 73,
+      "theme_id": "TEMA_04",
+      "theme_sequence": 4,
+      "block_id": "BLOCK_T4_01_OKUMA",
+      "block_sequence": 1,
+      "package_no": 7,
+      "package_id": "BLOCK_T4_01_OKUMA_P07",
+      "path": "generated/lesson_plans/TEMA_04/BLOCK_T4_01_OKUMA/BLOCK_T4_01_OKUMA_P07.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 142,
+        "end": 143
+      },
+      "theme_hour_range": {
+        "start": 13,
+        "end": 14
+      },
+      "block_hour_range": {
+        "start": 13,
+        "end": 14
+      }
+    },
+    {
+      "ordinal": 74,
+      "theme_id": "TEMA_04",
+      "theme_sequence": 4,
+      "block_id": "BLOCK_T4_01_OKUMA",
+      "block_sequence": 1,
+      "package_no": 8,
+      "package_id": "BLOCK_T4_01_OKUMA_P08",
+      "path": "generated/lesson_plans/TEMA_04/BLOCK_T4_01_OKUMA/BLOCK_T4_01_OKUMA_P08.json",
+      "lesson_hours": 1,
+      "course_hour_range": {
+        "start": 144,
+        "end": 144
+      },
+      "theme_hour_range": {
+        "start": 15,
+        "end": 15
+      },
+      "block_hour_range": {
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "ordinal": 75,
+      "theme_id": "TEMA_04",
+      "theme_sequence": 4,
+      "block_id": "BLOCK_T4_02_KONUSMA",
+      "block_sequence": 2,
+      "package_no": 1,
+      "package_id": "BLOCK_T4_02_KONUSMA_P01",
+      "path": "generated/lesson_plans/TEMA_04/BLOCK_T4_02_KONUSMA/BLOCK_T4_02_KONUSMA_P01.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 145,
+        "end": 146
+      },
+      "theme_hour_range": {
+        "start": 16,
+        "end": 17
+      },
+      "block_hour_range": {
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "ordinal": 76,
+      "theme_id": "TEMA_04",
+      "theme_sequence": 4,
+      "block_id": "BLOCK_T4_02_KONUSMA",
+      "block_sequence": 2,
+      "package_no": 2,
+      "package_id": "BLOCK_T4_02_KONUSMA_P02",
+      "path": "generated/lesson_plans/TEMA_04/BLOCK_T4_02_KONUSMA/BLOCK_T4_02_KONUSMA_P02.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 147,
+        "end": 148
+      },
+      "theme_hour_range": {
+        "start": 18,
+        "end": 19
+      },
+      "block_hour_range": {
+        "start": 3,
+        "end": 4
+      }
+    },
+    {
+      "ordinal": 77,
+      "theme_id": "TEMA_04",
+      "theme_sequence": 4,
+      "block_id": "BLOCK_T4_02_KONUSMA",
+      "block_sequence": 2,
+      "package_no": 3,
+      "package_id": "BLOCK_T4_02_KONUSMA_P03",
+      "path": "generated/lesson_plans/TEMA_04/BLOCK_T4_02_KONUSMA/BLOCK_T4_02_KONUSMA_P03.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 149,
+        "end": 150
+      },
+      "theme_hour_range": {
+        "start": 20,
+        "end": 21
+      },
+      "block_hour_range": {
+        "start": 5,
+        "end": 6
+      }
+    },
+    {
+      "ordinal": 78,
+      "theme_id": "TEMA_04",
+      "theme_sequence": 4,
+      "block_id": "BLOCK_T4_02_KONUSMA",
+      "block_sequence": 2,
+      "package_no": 4,
+      "package_id": "BLOCK_T4_02_KONUSMA_P04",
+      "path": "generated/lesson_plans/TEMA_04/BLOCK_T4_02_KONUSMA/BLOCK_T4_02_KONUSMA_P04.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 151,
+        "end": 152
+      },
+      "theme_hour_range": {
+        "start": 22,
+        "end": 23
+      },
+      "block_hour_range": {
+        "start": 7,
+        "end": 8
+      }
+    },
+    {
+      "ordinal": 79,
+      "theme_id": "TEMA_04",
+      "theme_sequence": 4,
+      "block_id": "BLOCK_T4_02_KONUSMA",
+      "block_sequence": 2,
+      "package_no": 5,
+      "package_id": "BLOCK_T4_02_KONUSMA_P05",
+      "path": "generated/lesson_plans/TEMA_04/BLOCK_T4_02_KONUSMA/BLOCK_T4_02_KONUSMA_P05.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 153,
+        "end": 154
+      },
+      "theme_hour_range": {
+        "start": 24,
+        "end": 25
+      },
+      "block_hour_range": {
+        "start": 9,
+        "end": 10
+      }
+    },
+    {
+      "ordinal": 80,
+      "theme_id": "TEMA_04",
+      "theme_sequence": 4,
+      "block_id": "BLOCK_T4_03_DINLEME",
+      "block_sequence": 3,
+      "package_no": 1,
+      "package_id": "BLOCK_T4_03_DINLEME_P01",
+      "path": "generated/lesson_plans/TEMA_04/BLOCK_T4_03_DINLEME/BLOCK_T4_03_DINLEME_P01.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 155,
+        "end": 156
+      },
+      "theme_hour_range": {
+        "start": 26,
+        "end": 27
+      },
+      "block_hour_range": {
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "ordinal": 81,
+      "theme_id": "TEMA_04",
+      "theme_sequence": 4,
+      "block_id": "BLOCK_T4_03_DINLEME",
+      "block_sequence": 3,
+      "package_no": 2,
+      "package_id": "BLOCK_T4_03_DINLEME_P02",
+      "path": "generated/lesson_plans/TEMA_04/BLOCK_T4_03_DINLEME/BLOCK_T4_03_DINLEME_P02.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 157,
+        "end": 158
+      },
+      "theme_hour_range": {
+        "start": 28,
+        "end": 29
+      },
+      "block_hour_range": {
+        "start": 3,
+        "end": 4
+      }
+    },
+    {
+      "ordinal": 82,
+      "theme_id": "TEMA_04",
+      "theme_sequence": 4,
+      "block_id": "BLOCK_T4_03_DINLEME",
+      "block_sequence": 3,
+      "package_no": 3,
+      "package_id": "BLOCK_T4_03_DINLEME_P03",
+      "path": "generated/lesson_plans/TEMA_04/BLOCK_T4_03_DINLEME/BLOCK_T4_03_DINLEME_P03.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 159,
+        "end": 160
+      },
+      "theme_hour_range": {
+        "start": 30,
+        "end": 31
+      },
+      "block_hour_range": {
+        "start": 5,
+        "end": 6
+      }
+    },
+    {
+      "ordinal": 83,
+      "theme_id": "TEMA_04",
+      "theme_sequence": 4,
+      "block_id": "BLOCK_T4_03_DINLEME",
+      "block_sequence": 3,
+      "package_no": 4,
+      "package_id": "BLOCK_T4_03_DINLEME_P04",
+      "path": "generated/lesson_plans/TEMA_04/BLOCK_T4_03_DINLEME/BLOCK_T4_03_DINLEME_P04.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 161,
+        "end": 162
+      },
+      "theme_hour_range": {
+        "start": 32,
+        "end": 33
+      },
+      "block_hour_range": {
+        "start": 7,
+        "end": 8
+      }
+    },
+    {
+      "ordinal": 84,
+      "theme_id": "TEMA_04",
+      "theme_sequence": 4,
+      "block_id": "BLOCK_T4_04_YAZMA",
+      "block_sequence": 4,
+      "package_no": 1,
+      "package_id": "BLOCK_T4_04_YAZMA_P01",
+      "path": "generated/lesson_plans/TEMA_04/BLOCK_T4_04_YAZMA/BLOCK_T4_04_YAZMA_P01.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 163,
+        "end": 164
+      },
+      "theme_hour_range": {
+        "start": 34,
+        "end": 35
+      },
+      "block_hour_range": {
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "ordinal": 85,
+      "theme_id": "TEMA_04",
+      "theme_sequence": 4,
+      "block_id": "BLOCK_T4_04_YAZMA",
+      "block_sequence": 4,
+      "package_no": 2,
+      "package_id": "BLOCK_T4_04_YAZMA_P02",
+      "path": "generated/lesson_plans/TEMA_04/BLOCK_T4_04_YAZMA/BLOCK_T4_04_YAZMA_P02.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 165,
+        "end": 166
+      },
+      "theme_hour_range": {
+        "start": 36,
+        "end": 37
+      },
+      "block_hour_range": {
+        "start": 3,
+        "end": 4
+      }
+    },
+    {
+      "ordinal": 86,
+      "theme_id": "TEMA_04",
+      "theme_sequence": 4,
+      "block_id": "BLOCK_T4_04_YAZMA",
+      "block_sequence": 4,
+      "package_no": 3,
+      "package_id": "BLOCK_T4_04_YAZMA_P03",
+      "path": "generated/lesson_plans/TEMA_04/BLOCK_T4_04_YAZMA/BLOCK_T4_04_YAZMA_P03.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 167,
+        "end": 168
+      },
+      "theme_hour_range": {
+        "start": 38,
+        "end": 39
+      },
+      "block_hour_range": {
+        "start": 5,
+        "end": 6
+      }
+    },
+    {
+      "ordinal": 87,
+      "theme_id": "TEMA_04",
+      "theme_sequence": 4,
+      "block_id": "BLOCK_T4_04_YAZMA",
+      "block_sequence": 4,
+      "package_no": 4,
+      "package_id": "BLOCK_T4_04_YAZMA_P04",
+      "path": "generated/lesson_plans/TEMA_04/BLOCK_T4_04_YAZMA/BLOCK_T4_04_YAZMA_P04.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 169,
+        "end": 170
+      },
+      "theme_hour_range": {
+        "start": 40,
+        "end": 41
+      },
+      "block_hour_range": {
+        "start": 7,
+        "end": 8
+      }
+    },
+    {
+      "ordinal": 88,
+      "theme_id": "TEMA_04",
+      "theme_sequence": 4,
+      "block_id": "BLOCK_T4_04_YAZMA",
+      "block_sequence": 4,
+      "package_no": 5,
+      "package_id": "BLOCK_T4_04_YAZMA_P05",
+      "path": "generated/lesson_plans/TEMA_04/BLOCK_T4_04_YAZMA/BLOCK_T4_04_YAZMA_P05.json",
+      "lesson_hours": 2,
+      "course_hour_range": {
+        "start": 171,
+        "end": 172
+      },
+      "theme_hour_range": {
+        "start": 42,
+        "end": 43
+      },
+      "block_hour_range": {
+        "start": 9,
+        "end": 10
+      }
+    }
+  ]
+}
