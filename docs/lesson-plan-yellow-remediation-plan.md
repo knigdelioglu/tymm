@@ -22,15 +22,10 @@ Yıllık planın hafta/tarih yerleşiminden doğan artık satırlar canonical ko
 
 Durum: `CLOSED`
 
-Gerekçe:
-
-- `TDE_9` ve `TDE_10` canonical dağılımı tema başına 43 çekirdek saat olarak tutulur.
-- Her temada ayrıca 2 saat okul temelli planlama vardır.
-- Tema toplamı 45 saattir.
-- Haftalık/takvim yerleşiminden doğan artık satır canonical saate alınmaz.
-- Tema 4 block-hour binding'lerinde `NORMALIZED_*` çözümü kullanılmaz; bağlamalar doğrudan canonical 43 saat üzerinden yapılır.
-
-P0 regression kapısı `test_theme_hour_contract.py` ile `43+2=45`, yıllık `172+8=180`, doğrudan 43 saatlik block binding ve calendar residual exclusion invariant'larını doğrular.
+- Tema başına 43 çekirdek + 2 okul-temelli = 45 saat korunur.
+- Yıllık toplam 172 + 8 = 180 saattir.
+- Haftalık/takvim artıkları canonical saate girmez.
+- `test_theme_hour_contract.py` bu sözleşmeyi regression kapısı olarak korur.
 
 ## P1 — Okul temelli 2 saati yerleşim katmanına bağla — TAMAMLANDI
 
@@ -40,14 +35,9 @@ P0 regression kapısı `test_theme_hour_contract.py` ile `43+2=45`, yıllık `17
 
 Durum: `CLOSED`
 
-Uygulama:
+`courses/TDE_9/production/school_based_planning_placements.json` ve `courses/TDE_10/production/school_based_planning_placements.json` ile her seçenek için ihtiyaç, gerçek block/package anchor, aktivasyon koşulu ve etki değerlendirmesi tutulur. Yerleşim öneridir; otomatik seçim değildir ve 172 saatlik çekirdek kuyruğu değiştirmez.
 
-- `courses/TDE_9/production/school_based_planning_placements.json`
-- `courses/TDE_10/production/school_based_planning_placements.json`
-
-Her okul-temelli seçenek için `identified_need`, gerçek `target_block_id`/`anchor_package_id`, `activation_condition` ve `impact_evaluation` tutulur. Yerleşim bir öneridir; otomatik seçim değildir. Okul-temelli saatler çekirdek 43 saati veya 172 saatlik varsayılan üretim kuyruğunu değiştirmez.
-
-`validate_school_based_planning_placements.py` option-placement birebirliği, gerçek package anchor, tema/süre uyumu ve çekirdek saat izolasyonunu fail-closed doğrular. `.github/workflows/tymm-school-based-planning.yml` push ve pull request üzerinde bu sözleşmeyi çalıştırır.
+`validate_school_based_planning_placements.py` option-placement birebirliğini, gerçek anchor'ları ve çekirdek saat izolasyonunu fail-closed doğrular.
 
 ## P2 — TDE10 okul-temelli kariyer uyumunu düzelt — TAMAMLANDI
 
@@ -57,60 +47,77 @@ Her okul-temelli seçenek için `identified_need`, gerçek `target_block_id`/`an
 
 Durum: `CLOSED`
 
-### Resmî politika
+10. sınıftaki 4 tema × 2 saat = 8 okul-temelli saatin tamamı kariyer rehberliği bağlamında yeniden tasarlandı. Her seçenek üç zorunlu katman taşır:
 
-10. sınıfta okul-temelli planlama saatleri öğrencilerin meslek seçimi ve kariyer planlamasına rehberlik edecek şekilde kullanılmalı; faaliyetler mesleki rehberlik ve kariyer danışmanlığı bağlamında yürütülmelidir. Bu grade-wide kural `courses/TDE_10/production/school_based_planning_options.json` içindeki `career_guidance_policy` alanına provenance ile bağlandı.
+1. **TDE beceri köprüsü** — gerçek TDE öğrenme çıktısı.
+2. **Meslek keşfi** — ilgili meslek rollerinin görev ve çalışma biçimlerini inceleme.
+3. **Kariyer kanıtı** — öğrencinin kendi ilgi/beceri uyumuna ilişkin somut öz-farkındalık/karar kanıtı.
 
-### Uygulanan pedagojik model
+Tema eksenleri sesli medya ve halkbilim; editörlük-yayıncılık ve dijital içerik; senaristlik-dramaturji ve kültürel miras; kültür haberciliği ve uyarlama/yayıncılıktır.
 
-TDE10 için 4 tema × 2 saat = 8 saatin tamamı kariyer rehberliği bağlamında yeniden tasarlandı. Her seçenek yalnız meslek adı eklenmiş bir edebiyat etkinliği değildir; aşağıdaki üçlü zorunludur:
+Validator, `CAREER_GUIDANCE`, TDE outcome bağı, meslek alanı, beceri köprüsü, kariyer kanıtı, öz-farkındalık, karar desteği ve tam 8 saat temsilini zorunlu kılar.
 
-1. **TDE beceri köprüsü** — etkinlik gerçek bir TDE öğrenme çıktısına bağlanır.
-2. **Meslek keşfi** — öğrenci ilgili meslek rollerinin görevlerini ve çalışma biçimlerini karşılaştırır.
-3. **Kariyer kanıtı** — öğrenci kendi ilgi/beceri uyumuna dair somut bir öz-farkındalık/karar kanıtı üretir.
+## P3 — Tema değerlendirmesi semantiğini düzelt — TAMAMLANDI
 
-Tema bazındaki kariyer kümeleri:
+### Kapatılan risk
 
-| Tema | Kariyer ekseni |
-|---|---|
-| TEMA_01 — Sözün Ezgisi | Spikerlik, seslendirme, podcast/sesli medya; halkbilim, arşiv ve kültür araştırmacılığı |
-| TEMA_02 — Kelimelerin Ritmi | Editörlük, redaktörlük, yayıncılık; podcast ve dijital içerik üretim rolleri |
-| TEMA_03 — Dünden Bugüne | Senaristlik, dramaturji; müze eğitimi, arşiv ve kültürel miras projeleri |
-| TEMA_04 — Nesillerin Mirası | Kültür haberciliği, belgesel/sözlü tarih; yayın editörlüğü, uyarlama ve kültürel içerik tasarımı |
+**YELLOW-ASSESSMENT-SCOPE — Tema sonu ölçme son konuşma/yazma bloğunun outcome kapsamına gömülü**
 
-Her option içinde first-class `career_guidance_alignment` tutulur:
+Durum: `CLOSED`
 
-- `career_guidance_required`
-- `career_domains`
-- `tde_skill_bridge`
-- `career_exploration_action`
-- `student_career_evidence`
-- `self_awareness_prompt`
-- `decision_support_question`
+### Yeni kapsam modeli
 
-Her tema tam 2 saatlik kariyer seçeneği kapasitesi taşır; yıllık toplam 8 saattir. Bu katman yine çekirdek 172 saatten ayrıdır.
+Ders planı sözleşmesi öğretim kapsamı ile ölçme kapsamını artık birbirinden ayırır:
 
-### P2 fail-closed doğrulama
+- `outcome_codes`: mevcut davranışı koruyarak **blok içindeki öğretim kapsamını** gösterir.
+- `instruction_scope`: `BLOCK`.
+- `assessment_scope`: `BLOCK | THEME`.
+- `assessed_outcome_codes`: ölçme/yansıtmanın gerçekten kapsadığı öğrenme çıktılarını gösterir.
 
-`validate_school_based_planning_placements.py`, `TDE_10` için ayrıca şu koşulları zorunlu kılar:
+Bu ekleme geriye dönük uyumludur; tema-geneli ölçme taşımayan mevcut paketlerin tümünü yeniden yazmayı gerektirmez.
 
-1. Tüm seçeneklerin kategorisi `CAREER_GUIDANCE` olmalıdır.
-2. Her seçenek en az bir TDE öğrenme çıktısına bağlı olmalıdır.
-3. `career_guidance_alignment` ve meslek alanları boş olamaz.
-4. TDE beceri köprüsü, meslek keşfi, kariyer kanıtı, öz farkındalık ve karar desteği alanları zorunludur.
-5. Her tema tam 2 saat, yıllık toplam tam 8 saat kariyer-uyumlu option temsil etmelidir.
-6. Placement policy `career_guidance_required=true` olmadan geçemez.
+### Context grounding
 
-Negatif regression testleri generic `SCHOOL_BASED_PLANNING` kategorisine geri dönüşü, career alignment silinmesini, kariyer kanıtının boşaltılmasını, TDE outcome bağının kaldırılmasını, tema saatinin 2'yi aşmasını ve placement katmanında kariyer zorunluluğunun kapatılmasını beklenen FAIL olarak doğrular.
+`lesson_plan_context.py` context v1.2 ile artık son blok çıktılarının yanında bütün temanın çıktılarını da verir:
+
+- `theme_outcomes`
+- `allowed_references.theme_outcome_codes`
+
+Böylece bir tema testi yalnız son yazma/konuşma bloğunun çıktılarıyla etiketlenemez; tema-geneli assessed kodlar canonical runtime'dan türetilir.
+
+### Migrate edilen paketler
+
+Her iki sınıfta dört tema olmak üzere **8 tema-kapanış P05 paketi** migrate edildi.
+
+- TDE9 tema-geneli kapsam: 12 öğrenme çıktısı.
+- TDE10 tema-geneli kapsam: 16 öğrenme çıktısı.
+- Nihai ürün/revizyon saati gerçekten blok değerlendirmesiyse `assessment_scope=BLOCK` kalır.
+- Tema sonu test/öğrenme günlüğü/yansıtma saati `assessment_scope=THEME` taşır.
+- TDE9 Tema 1 P05'in iki saati de doğrudan tema kapanışı olduğu için iki ders de `THEME` kapsamındadır.
+
+### P3 fail-closed doğrulama
+
+`validate_lesson_plan.py` artık:
+
+1. Tema sonu ölçme/yansıtma kaynağı kullanıldığında `assessment_scope=THEME` ister.
+2. `assessed_outcome_codes` değerlerini yalnız aynı temanın canonical outcome kümesine karşı doğrular.
+3. Tema kapsamı iddia edilip assessed kodlar yalnız son bloğun çıktılarından oluşuyorsa `THEME_ASSESSMENT_OUTCOMES_TOO_NARROW` ile FAIL verir.
+4. Blok değerlendirmesinin tema dışı outcome kullanmasına izin vermez.
+5. Tema-geneli öğrenme günlüğünü, activity ID'sinde ayrıca `TEMA` sözcüğü bulunmasa da tema kapanış kanıtı olarak tanır.
+
+Regression testleri açık theme scope eksikliğini, daraltılmış outcome kapsamını ve bağımsız `OGRENME_GUNLUGU` sinyalini kapsar.
+
+### P3 kabul sonucu
+
+`TYMM Lesson Plan Full Validation` bütün **176 paket / 344 çekirdek ders saati** üzerinde başarıyla tamamlandı; `Validate all 176 lesson-plan packages` ve finalization adımları `SUCCESS` verdi.
 
 ## Aktif sarı riskler
 
-P0, P1 ve P2 kapatıldıktan sonra aktif sarılar aşağıdaki risklerle sınırlıdır.
+P0–P3 kapatıldıktan sonra aktif sarılar:
 
 | ID | Faz | Risk | Etkilenen kapsam | Hedef |
 |---|---|---|---|---|
-| `YELLOW-ASSESSMENT-SCOPE` | P3 | Tema sonu ölçme bazı son konuşma/yazma bloklarının outcome kapsamına gömülü | Tema sonu paketleri | `assessment_scope=THEME` + `assessed_outcome_codes` |
-| `YELLOW-LARGE-CLASS` | P4 | Bireysel konuşma/yeniden performans akışı kalabalık sınıfta süreye sığmayabilir | Özellikle konuşma P05'leri | `large_class_route` |
+| `YELLOW-LARGE-CLASS` | P4 | Bireysel konuşma/yeniden performans akışı kalabalık sınıfta süreye sığmayabilir | Özellikle konuşma kapanışları | `large_class_route` |
 | `YELLOW-CLOSURE-LOAD` | P5 | Test + günlük + düzeltme + kapanış aynı ders saatine yığılabiliyor | Tema/yıl sonu paketleri | Gerçekçi zaman bütçesi ve opsiyonel okul-temelli genişletme |
 | `YELLOW-ADAPTATION` | P6 | Farklılaştırma, erişilebilirlik ve medya fallback'i lesson-plan schema'da first-class değil | Kritik paketler | Yapısal `classroom_adaptations` |
 | `YELLOW-REF-GROUNDING` | P7 | Rubrik/resource/artifact kimlikleri prose içinde kalabiliyor | Rubrik/materyal kullanan paketler | Structured refs + canonical grounding |
@@ -121,23 +128,15 @@ P0, P1 ve P2 kapatıldıktan sonra aktif sarılar aşağıdaki risklerle sınır
 
 ## Sınıflandırma kuralı
 
-Bir paket yalnız aşağıdaki koşullardan biri mevcutsa sarı tutulur:
-
-- sınıf içinde gerçek uygulanabilirlik riski,
-- ölçme kapsamı ile metadata arasında semantik uyumsuzluk,
-- canonical referansın yapısal olarak doğrulanamaması,
-- paket topolojisinin veya görünüm parity'sinin CI tarafından kanıtlanamaması,
-- release/finalization zincirinde PASS'in mevcut commit ve canonical fingerprint'e bağlanamaması.
-
-Ham yıllık-plan hafta yerleşimi, tek başına sarı sınıflandırma gerekçesi değildir.
+Bir paket yalnız gerçek sınıf uygulanabilirlik riski, ölçme/metadata semantik uyumsuzluğu, canonical referansın doğrulanamaması, paket/parity doğrulama açığı veya release/finalization zinciri riski varsa sarı tutulur. Ham yıllık-plan hafta yerleşimi tek başına sarı gerekçesi değildir.
 
 ## Faz sırası
 
 ```text
-P0  Saat kaynaklı yanlış sarıları temizle          ✅ TAMAMLANDI
-P1  Okul temelli 2 saati yerleşim katmanına bağla  ✅ TAMAMLANDI
-P2  TDE10 okul temelli kariyer uyumunu düzelt       ✅ TAMAMLANDI
-P3  Tema değerlendirmesi semantiğini düzelt
+P0  Saat kaynaklı yanlış sarıları temizle           ✅ TAMAMLANDI
+P1  Okul temelli 2 saati yerleşim katmanına bağla   ✅ TAMAMLANDI
+P2  TDE10 okul temelli kariyer uyumunu düzelt        ✅ TAMAMLANDI
+P3  Tema değerlendirmesi semantiğini düzelt          ✅ TAMAMLANDI
 P4  Kalabalık sınıf rotalarını ekle
 P5  Aşırı yüklü kapanışları sadeleştir
 P6  Farklılaştırma / erişilebilirlik / fallback
