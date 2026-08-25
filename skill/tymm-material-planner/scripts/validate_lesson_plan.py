@@ -47,6 +47,116 @@ def _theme_assessment_activity_ids(context: dict[str, Any]) -> set[str]:
     return result
 
 
+def _speaking_performance_activity_ids(context: dict[str, Any]) -> set[str]:
+    block = context.get("block", {})
+    block_signal = " ".join(
+        str(block.get(key) or "") for key in ("block_id", "title", "skill_domain", "learning_area")
+    ).upper()
+    if "KONUS" not in block_signal and "SÖZLÜ" not in block_signal and "SOZLU" not in block_signal:
+        return set()
+
+    result: set[str] = set()
+    for activity in context.get("textbook_activities", []):
+        if not isinstance(activity, dict):
+            continue
+        activity_id = str(activity.get("activity_id") or "")
+        title = str(activity.get("title") or "")
+        signal = f"{activity_id} {title}".upper()
+        is_direct_speaking = "KONUSMA_SIRASI" in signal
+        is_presentation = "SUNUM" in signal and "PLAN" not in signal
+        is_podcast_production = "PODCAST_URETIM" in signal or "PODCAST ÜRETİM" in signal
+        is_enactment = "CANLANDIR" in signal and "PLAN" not in signal
+        is_recital = ("DINLETI" in signal or "DİNLETİ" in signal) and "PLAN" not in signal
+        if is_direct_speaking or is_presentation or is_podcast_production or is_enactment or is_recital:
+            result.add(activity_id)
+    return result
+
+
+def _validate_large_class_route(
+    *,
+    route: Any,
+    lessons: list[dict[str, Any]],
+    performance_activity_ids: set[str],
+    errors: list[str],
+) -> None:
+    if not isinstance(route, dict):
+        errors.append("LARGE_CLASS_ROUTE_REQUIRED")
+        return
+
+    required_text = (
+        "activation_condition",
+        "grouping_strategy",
+        "teacher_rotation_strategy",
+        "peer_observer_strategy",
+        "evidence_equivalence",
+    )
+    if route.get("mode") != "PARALLEL_GROUPS":
+        errors.append(f"LARGE_CLASS_ROUTE_MODE_INVALID:{route.get('mode')}")
+    for key in required_text:
+        value = route.get(key)
+        if not isinstance(value, str) or not value.strip():
+            errors.append(f"LARGE_CLASS_ROUTE_{key.upper()}_REQUIRED")
+
+    group_count = route.get("parallel_group_count")
+    if not isinstance(group_count, int) or isinstance(group_count, bool) or not 2 <= group_count <= 8:
+        errors.append(f"LARGE_CLASS_ROUTE_GROUP_COUNT_INVALID:{group_count}")
+
+    time_limit = route.get("performance_time_limit_seconds")
+    if not isinstance(time_limit, int) or isinstance(time_limit, bool) or not 30 <= time_limit <= 300:
+        errors.append(f"LARGE_CLASS_ROUTE_TIME_LIMIT_INVALID:{time_limit}")
+
+    if route.get("core_hours_independent_of_school_based_extension") is not True:
+        errors.append("LARGE_CLASS_ROUTE_CORE_MUST_NOT_DEPEND_ON_SCHOOL_BASED_EXTENSION")
+
+    applies = route.get("applies_to_lesson_numbers")
+    if not isinstance(applies, list) or not applies or any(
+        not isinstance(item, int) or isinstance(item, bool) or item <= 0 for item in applies
+    ):
+        errors.append("LARGE_CLASS_ROUTE_LESSON_NUMBERS_INVALID")
+        applies_set: set[int] = set()
+    else:
+        applies_set = set(applies)
+        if len(applies_set) != len(applies):
+            errors.append("LARGE_CLASS_ROUTE_LESSON_NUMBERS_DUPLICATE")
+
+    existing_numbers = {
+        lesson.get("lesson_no")
+        for lesson in lessons
+        if isinstance(lesson, dict)
+        and isinstance(lesson.get("lesson_no"), int)
+        and not isinstance(lesson.get("lesson_no"), bool)
+    }
+    unknown_lessons = sorted(applies_set - existing_numbers)
+    if unknown_lessons:
+        errors.append(f"LARGE_CLASS_ROUTE_UNKNOWN_LESSONS:{unknown_lessons}")
+
+    performance_lessons: set[int] = set()
+    for lesson in lessons:
+        if not isinstance(lesson, dict):
+            continue
+        activity_ids = lesson.get("activity_ids", [])
+        if not isinstance(activity_ids, list):
+            continue
+        if set(item for item in activity_ids if isinstance(item, str)) & performance_activity_ids:
+            number = lesson.get("lesson_no")
+            if isinstance(number, int) and not isinstance(number, bool):
+                performance_lessons.add(number)
+    missing_lessons = sorted(performance_lessons - applies_set)
+    if missing_lessons:
+        errors.append(f"LARGE_CLASS_ROUTE_MISSING_PERFORMANCE_LESSONS:{missing_lessons}")
+
+    extension = route.get("optional_school_based_extension")
+    if extension is not None:
+        if not isinstance(extension, dict):
+            errors.append("LARGE_CLASS_ROUTE_EXTENSION_INVALID")
+        else:
+            if not isinstance(extension.get("allowed"), bool):
+                errors.append("LARGE_CLASS_ROUTE_EXTENSION_ALLOWED_INVALID")
+            purpose = extension.get("purpose")
+            if not isinstance(purpose, str) or not purpose.strip():
+                errors.append("LARGE_CLASS_ROUTE_EXTENSION_PURPOSE_REQUIRED")
+
+
 def _validate_assessment_scope(
     *,
     scope: Any,
@@ -110,6 +220,7 @@ def validate(context: dict[str, Any], plan: dict[str, Any]) -> dict[str, Any]:
     allowed_activities = set(allowed.get("activity_ids", []))
     allowed_forms = set(allowed.get("form_ids", []))
     theme_assessment_ids = _theme_assessment_activity_ids(context)
+    performance_activity_ids = _speaking_performance_activity_ids(context)
 
     outcome_codes = _as_string_list(plan.get("outcome_codes", []), "OUTCOME_CODES_NOT_LIST", errors)
     activity_ids = _as_string_list(plan.get("used_activity_ids", []), "ACTIVITY_IDS_NOT_LIST", errors)
@@ -190,6 +301,14 @@ def validate(context: dict[str, Any], plan: dict[str, Any]) -> dict[str, Any]:
         errors.append(f"LESSON_SEQUENCE_INVALID:{lesson_numbers}")
     if expected_hours is not None and duration_total != expected_hours:
         errors.append(f"LESSON_DURATION_TOTAL_MISMATCH:{duration_total}!={expected_hours}")
+
+    if set(activity_ids) & performance_activity_ids:
+        _validate_large_class_route(
+            route=plan.get("large_class_route"),
+            lessons=lessons,
+            performance_activity_ids=performance_activity_ids,
+            errors=errors,
+        )
 
     continuation = plan.get("continuation_summary", {})
     if isinstance(continuation, dict):
