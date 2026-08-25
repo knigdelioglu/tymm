@@ -30,20 +30,7 @@ Gerekçe:
 - Haftalık/takvim yerleşiminden doğan artık satır canonical saate alınmaz.
 - Tema 4 block-hour binding'lerinde `NORMALIZED_*` çözümü kullanılmaz; bağlamalar doğrudan canonical 43 saat üzerinden yapılır.
 
-Bu nedenle hiçbir ders planı yalnız Tema 4'ün geçmişte 46 saat görünmesi nedeniyle sarı kabul edilmeyecektir.
-
-### P0 regression kapısı
-
-`skill/tymm-material-planner/tests/test_theme_hour_contract.py` aşağıdaki invariant'ları doğrular:
-
-1. Her tema `43 + 2 = 45`.
-2. Her sınıf `172 + 8 = 180`.
-3. Topic allocation toplamı tema başına 43.
-4. Block binding toplamı tema başına 43.
-5. Block binding çözümünde `NORMALIZED` kullanılmaz.
-6. Tema 4 takvim artığı açıkça `calendar_residual_source_rows_excluded` ile dışlanır.
-
-Test `TYMM Block-Hour Runtime Projection` CI akışının zorunlu regression setine eklenmiştir.
+P0 regression kapısı `test_theme_hour_contract.py` ile `43+2=45`, yıllık `172+8=180`, doğrudan 43 saatlik block binding ve calendar residual exclusion invariant'larını doğrular.
 
 ## P1 — Okul temelli 2 saati yerleşim katmanına bağla — TAMAMLANDI
 
@@ -58,43 +45,70 @@ Uygulama:
 - `courses/TDE_9/production/school_based_planning_placements.json`
 - `courses/TDE_10/production/school_based_planning_placements.json`
 
-Her okul-temelli seçenek için artık aşağıdakiler yapısal olarak tutulur:
+Her okul-temelli seçenek için `identified_need`, gerçek `target_block_id`/`anchor_package_id`, `activation_condition` ve `impact_evaluation` tutulur. Yerleşim bir öneridir; otomatik seçim değildir. Okul-temelli saatler çekirdek 43 saati veya 172 saatlik varsayılan üretim kuyruğunu değiştirmez.
 
-- `identified_need`
-- `recommended_insertion_point.target_block_id`
-- `recommended_insertion_point.anchor_package_id`
-- `recommended_insertion_point.relation = AFTER_PACKAGE`
-- `activation_condition`
-- `impact_evaluation.method`
-- `impact_evaluation.success_indicator`
+`validate_school_based_planning_placements.py` option-placement birebirliği, gerçek package anchor, tema/süre uyumu ve çekirdek saat izolasyonunu fail-closed doğrular. `.github/workflows/tymm-school-based-planning.yml` push ve pull request üzerinde bu sözleşmeyi çalıştırır.
 
-Yerleşim bir **öneridir**, otomatik seçim değildir. Öğretmen/zümre tema başına en fazla 2 saati ihtiyaca göre seçer. Okul-temelli saatler çekirdek 43 saatin içine eklenmez, çekirdek paket sürelerini uzatmaz ve varsayılan 172 saatlik ders planı kuyruğuna girmez.
+## P2 — TDE10 okul-temelli kariyer uyumunu düzelt — TAMAMLANDI
 
-### P1 fail-closed doğrulama
+### Kapatılan risk
 
-`skill/tymm-material-planner/scripts/validate_school_based_planning_placements.py` şu invariant'ları doğrular:
+**YELLOW-TDE10-SBP-PURPOSE — TDE10 okul temelli seçenekleri kariyer/mesleki rehberlik amacını sistematik taşımıyor**
 
-1. Yıllık çekirdek kuyruk 172 saattir; okul-temelli saat 8'dir.
-2. Her tema 43 çekirdek + 2 okul-temelli saat olarak kalır.
-3. Her mevcut okul-temelli seçenek için tam bir placement kaydı vardır; fazladan veya eksik kayıt olamaz.
-4. Placement tema ve süre bilgisi option kaydıyla birebir uyuşur.
-5. `target_block_id` ve `anchor_package_id` gerçek üretim topolojisine karşı doğrulanır.
-6. İhtiyaç, aktivasyon koşulu ve etki değerlendirmesi boş bırakılamaz.
-7. Okul-temelli saatler 180 saatlik varsayılan üretim kuyruğuna sokulursa validation fail-closed olur.
+Durum: `CLOSED`
 
-Negatif regression testleri bilinmeyen package anchor, eksik option placement, okul-temelli saatlerin core queue'ya eklenmesi ve core saat politikasının değiştirilmesini beklenen FAIL olarak doğrular.
+### Resmî politika
 
-CI: `.github/workflows/tymm-school-based-planning.yml` push ve pull request üzerinde placement contract'ını zorunlu olarak doğrular.
+10. sınıfta okul-temelli planlama saatleri öğrencilerin meslek seçimi ve kariyer planlamasına rehberlik edecek şekilde kullanılmalı; faaliyetler mesleki rehberlik ve kariyer danışmanlığı bağlamında yürütülmelidir. Bu grade-wide kural `courses/TDE_10/production/school_based_planning_options.json` içindeki `career_guidance_policy` alanına provenance ile bağlandı.
 
-Not: `TDE_10` okul-temelli seçeneklerinin 10. sınıf kariyer/mesleki rehberlik amacıyla içeriksel yeniden tasarımı **P2 kapsamıdır**; P1 yalnız güvenli ve gerçek uygulanabilir placement katmanını kurmuştur.
+### Uygulanan pedagojik model
+
+TDE10 için 4 tema × 2 saat = 8 saatin tamamı kariyer rehberliği bağlamında yeniden tasarlandı. Her seçenek yalnız meslek adı eklenmiş bir edebiyat etkinliği değildir; aşağıdaki üçlü zorunludur:
+
+1. **TDE beceri köprüsü** — etkinlik gerçek bir TDE öğrenme çıktısına bağlanır.
+2. **Meslek keşfi** — öğrenci ilgili meslek rollerinin görevlerini ve çalışma biçimlerini karşılaştırır.
+3. **Kariyer kanıtı** — öğrenci kendi ilgi/beceri uyumuna dair somut bir öz-farkındalık/karar kanıtı üretir.
+
+Tema bazındaki kariyer kümeleri:
+
+| Tema | Kariyer ekseni |
+|---|---|
+| TEMA_01 — Sözün Ezgisi | Spikerlik, seslendirme, podcast/sesli medya; halkbilim, arşiv ve kültür araştırmacılığı |
+| TEMA_02 — Kelimelerin Ritmi | Editörlük, redaktörlük, yayıncılık; podcast ve dijital içerik üretim rolleri |
+| TEMA_03 — Dünden Bugüne | Senaristlik, dramaturji; müze eğitimi, arşiv ve kültürel miras projeleri |
+| TEMA_04 — Nesillerin Mirası | Kültür haberciliği, belgesel/sözlü tarih; yayın editörlüğü, uyarlama ve kültürel içerik tasarımı |
+
+Her option içinde first-class `career_guidance_alignment` tutulur:
+
+- `career_guidance_required`
+- `career_domains`
+- `tde_skill_bridge`
+- `career_exploration_action`
+- `student_career_evidence`
+- `self_awareness_prompt`
+- `decision_support_question`
+
+Her tema tam 2 saatlik kariyer seçeneği kapasitesi taşır; yıllık toplam 8 saattir. Bu katman yine çekirdek 172 saatten ayrıdır.
+
+### P2 fail-closed doğrulama
+
+`validate_school_based_planning_placements.py`, `TDE_10` için ayrıca şu koşulları zorunlu kılar:
+
+1. Tüm seçeneklerin kategorisi `CAREER_GUIDANCE` olmalıdır.
+2. Her seçenek en az bir TDE öğrenme çıktısına bağlı olmalıdır.
+3. `career_guidance_alignment` ve meslek alanları boş olamaz.
+4. TDE beceri köprüsü, meslek keşfi, kariyer kanıtı, öz farkındalık ve karar desteği alanları zorunludur.
+5. Her tema tam 2 saat, yıllık toplam tam 8 saat kariyer-uyumlu option temsil etmelidir.
+6. Placement policy `career_guidance_required=true` olmadan geçemez.
+
+Negatif regression testleri generic `SCHOOL_BASED_PLANNING` kategorisine geri dönüşü, career alignment silinmesini, kariyer kanıtının boşaltılmasını, TDE outcome bağının kaldırılmasını, tema saatinin 2'yi aşmasını ve placement katmanında kariyer zorunluluğunun kapatılmasını beklenen FAIL olarak doğrular.
 
 ## Aktif sarı riskler
 
-P0 ve P1 kapatıldıktan sonra aktif sarılar aşağıdaki risklerle sınırlıdır.
+P0, P1 ve P2 kapatıldıktan sonra aktif sarılar aşağıdaki risklerle sınırlıdır.
 
 | ID | Faz | Risk | Etkilenen kapsam | Hedef |
 |---|---|---|---|---|
-| `YELLOW-TDE10-SBP-PURPOSE` | P2 | TDE10 okul temelli seçenekleri kariyer/mesleki rehberlik amacını sistematik taşımıyor | TDE10, 4 tema | 8 saatin kariyer rehberliği bağlamında yeniden tasarlanması |
 | `YELLOW-ASSESSMENT-SCOPE` | P3 | Tema sonu ölçme bazı son konuşma/yazma bloklarının outcome kapsamına gömülü | Tema sonu paketleri | `assessment_scope=THEME` + `assessed_outcome_codes` |
 | `YELLOW-LARGE-CLASS` | P4 | Bireysel konuşma/yeniden performans akışı kalabalık sınıfta süreye sığmayabilir | Özellikle konuşma P05'leri | `large_class_route` |
 | `YELLOW-CLOSURE-LOAD` | P5 | Test + günlük + düzeltme + kapanış aynı ders saatine yığılabiliyor | Tema/yıl sonu paketleri | Gerçekçi zaman bütçesi ve opsiyonel okul-temelli genişletme |
@@ -120,9 +134,9 @@ Ham yıllık-plan hafta yerleşimi, tek başına sarı sınıflandırma gerekçe
 ## Faz sırası
 
 ```text
-P0  Saat kaynaklı yanlış sarıları temizle         ✅ TAMAMLANDI
-P1  Okul temelli 2 saati yerleşim katmanına bağla ✅ TAMAMLANDI
-P2  TDE10 okul temelli kariyer uyumunu düzelt
+P0  Saat kaynaklı yanlış sarıları temizle          ✅ TAMAMLANDI
+P1  Okul temelli 2 saati yerleşim katmanına bağla  ✅ TAMAMLANDI
+P2  TDE10 okul temelli kariyer uyumunu düzelt       ✅ TAMAMLANDI
 P3  Tema değerlendirmesi semantiğini düzelt
 P4  Kalabalık sınıf rotalarını ekle
 P5  Aşırı yüklü kapanışları sadeleştir
