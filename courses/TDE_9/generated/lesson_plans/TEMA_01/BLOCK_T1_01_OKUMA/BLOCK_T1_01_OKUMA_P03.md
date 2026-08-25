@@ -1,98 +1,137 @@
-# TDE9 · Tema 1 · Okuma Bloğu · P03
+# Metinden Kurala: “San'at” Şiiri Üzerinden Türkçenin Ses Bilgisi
 
-**Paket:** `BLOCK_T1_01_OKUMA_P03`  
-**Süre:** 2 ders saati  
-**Blok ilerlemesi:** 4/15 → 6/15 saat  
-**Ana öğrenme çıktısı:** `TDE2.2`  
-**Canonical etkinlik:** `T1_ACT_05_DIL_BILGISI_SES_BILGISI`  
-**Kaynak:** 9. sınıf TDE ders kitabı, s. 27-36
+> Bu Markdown, lesson-plan JSON dosyasından deterministik olarak üretilir. JSON authoritative kaynaktır; bu dosyada elle semantik değişiklik yapılmaz.
 
-## Paket amacı
+## Paket bilgisi
 
-Öğrenciler, daha önce anlam ve estetik yönleriyle inceledikleri **Faruk Nafiz Çamlıbel'in “San'at” şiirini** bu kez dil malzemesi olarak yeniden okur. Ses bilgisi bağımsız bir kural listesi olarak değil, metin ve ders kitabındaki örnekler üzerinden **örnek → gözlem → sınıflandırma → gerekçe** zinciriyle ele alınır.
+| Alan | Değer |
+|---|---|
+| Ders | `TDE_9` |
+| Tema | `TEMA_01` |
+| Blok | `BLOCK_T1_01_OKUMA` |
+| Süre | 2 ders saati |
+| Şema | `1.0.0` |
 
-Bu pakette `T1_ACT_06_KONTROL_NOKTASI_SIIR` özellikle kullanılmaz; şiir bölümünü değerlendirme ve kapatma işi P04'e bırakılır.
+## Paket özeti
 
----
+15 saatlik 1. Tema Okuma bloğunun 5. ve 6. ders saatlerinde öğrenciler, daha önce anlam ve estetik yönleriyle inceledikleri “San'at” şiirini bu kez dil malzemesi olarak yeniden okur. Ders kitabındaki T1_ACT_05_DIL_BILGISI_SES_BILGISI etkinliği temel alınarak ünlü uyumları ve ünsüz olayları metin örnekleri üzerinden fark edilir, kitabın sınıflandırma çerçevesine göre düzenlenir ve ses bilgisi uygulama tablosuna aktarılır. Kural ezberinden çok örnek→gözlem→sınıflandırma→gerekçe zinciri kullanılır; Kontrol Noktası P04'e bırakılır.
 
-## 1. ders saati — Ünlü uyumlarını metinden keşfetme
+## Öğrenme ve değerlendirme kapsamı
 
-### Amaç
-Öğrencinin ders kitabındaki ses bilgisi çalışmasını kullanarak ünlü uyumlarını gözlemlemesi, örnekleri kitabın verdiği ölçütlere göre sınıflandırması ve sınıflandırmasını ses özellikleri üzerinden gerekçelendirmesi.
+- **Öğrenme çıktıları:** `TDE2.2`
+- **Kullanılan etkinlikler:** `T1_ACT_05_DIL_BILGISI_SES_BILGISI`
+- **Kullanılan formlar:** Yok
 
-### Derse giriş
-“San'at” şiirinin daha önce incelenen bir bölümü yeniden açılır ve şu soru sorulur:
+# Ders akışı
 
-> Anlamı bir kenara bırakırsak, sözcüklerin ses yapısında hangi düzenlilikleri fark ediyoruz?
+## 1. Ders — Ünlü uyumlarını metinden keşfetme ve sınıflandırma
 
-Öğrenciler önce kural adı vermeden iki-üç ses gözlemi yapar.
+**Süre:** 1 ders saati  
+**Öğrenme çıktıları:** `TDE2.2`
 
-### Öğretmen eylemleri
-- Ders kitabı s. 27-36'daki `T1_ACT_05` etkinliğinin ünlü uyumlarına ilişkin bölümünü temel alır.
-- Kuralı doğrudan söylemek yerine örnek sözcükleri karşılaştırır.
-- “Bu sözcüğü böyle sınıflandırmana hangi ses özelliği karar verdirdi?” sorusunu sürekli kullanır.
-- Yanlış sınıflandırmada cevabı vermek yerine öğrenciyi yeniden örneğe ve kitaptaki ölçüte yönlendirir.
-- Öğrencilerin uygulama tablosunu bireysel doldurmasını, ardından ikili karşılaştırma yapmasını sağlar.
+### Hedef
 
-### Öğrenci eylemleri
-- Şiir ve kitaptaki örnek sözcüklerin ses yapısını inceler.
-- Ünlü uyumlarına ilişkin düzenlilikleri örneklerden çıkarır.
-- Sözcükleri kitabın verdiği ölçütlere göre sınıflandırır.
-- Her kararını ses özelliğiyle gerekçelendirir.
-- Ses bilgisi uygulama tablosunu doldurup akranıyla karşılaştırır.
-
-### Ölçme
-İki örnek için **“sınıflandır + gerekçelendir”** görevi verilir. Yalnız doğru terimi yazmak yeterli değildir; öğrencinin hangi ses özelliğinin kararı belirlediğini açıklaması beklenir.
-
-### Kapanış
-“Bir sözcüğün ses özelliğini belirlerken önce … bakarım; çünkü …” cümlesi tamamlanır.
-
----
-
-## 2. ders saati — Ünsüz olaylarını bulma ve gerekçelendirme
-
-### Amaç
-Öğrencinin ders kitabındaki ünsüz olayları çalışmalarını metin/sözcük üzerinde uygulaması, kitabın kullandığı sınıflandırmaya göre adlandırması ve oluşumu gerekçelendirmesi.
+Öğrencinin ders kitabındaki ses bilgisi çalışmasını kullanarak “San'at” şiiri ve ilgili örneklerde ünlü uyumlarını gözlemlemesi, örnekleri kitabın verdiği ölçütlere göre sınıflandırması ve sınıflandırmasını sözcük yapısı üzerinden gerekçelendirmesi.
 
 ### Derse giriş
-Tahtaya yeniden şu zincir yazılır:
 
-**örnek → gözlem → sınıflandırma → gerekçe**
+Şiirin daha önce anlam bakımından incelenmiş bir bölümü yeniden açılır ve bu kez 'Anlamı bir kenara bırakırsak, sözcüklerin ses yapısında hangi düzenlilikleri fark ediyoruz?' sorusu yöneltilir. Öğrencilerden önce kural adı vermeden iki-üç ses gözlemi yapmaları istenir.
 
-Aynı yöntem bu kez ders kitabındaki ünsüz olayları örneklerine uygulanır.
+### Öğretmenin yapacakları
 
-### Öğretmen eylemleri
-- `T1_ACT_05` içindeki ünsüz olaylarına ilişkin örnek ve uygulamaları dersin omurgası yapar.
-- Öğrenciden önce örneği sözcük üzerinde göstermesini, sonra kitabın başlığıyla sınıflandırmasını ister.
-- Bir doğru ve bir tartışmalı öğrenci çözümlemesini sınıfa taşıyarak gerekçeyi denetletir.
-- Kitapta doğrulanmamış yeni “resmî örnekler” üretmez; gerektiğinde kitaptaki örneğe geri döner.
-- Öğrencilerin tabloyu tamamlamasını ve bir örneği adım adım sözlü açıklamasını sağlar.
+1. Ders kitabı s. 27-36'daki T1_ACT_05 ses bilgisi uygulamasının ünlü uyumlarına ilişkin bölümünü temel al; öğrencilerin kitaptaki örnek ve yönergelerden hareket etmesini sağla.
+2. Kuralı baştan açıklamak yerine örnek sözcükleri karşılaştır; öğrencilerden benzerlik ve farklılıkları ses düzeyinde ifade etmelerini iste.
+3. Öğrencinin bir sözcüğü sınıflandırırken yalnız sonucu değil, hangi ses özelliklerine baktığını da söylemesini zorunlu tut.
+4. Yanlış sınıflandırmada cevabı doğrudan düzeltme; sözcüğü yeniden sesletip öğrenciyi kitaptaki ölçüte geri yönlendir.
+5. Dersin ikinci yarısında öğrencilerin kitapta verilen uygulama tablosunun ilgili bölümünü bireysel doldurmasını, ardından ikili karşılaştırmayla gerekçelerini kontrol etmesini sağla.
 
-### Öğrenci eylemleri
-- Kitaptaki ünsüz olayı örneklerini işaretler.
-- Örneği kitabın kullandığı başlığa göre sınıflandırır.
-- Ses değişiminin nerede ve nasıl gerçekleştiğini açıklar.
-- Akran çözümlemesinin gerekçesini denetler.
-- Uygulama tablosunu tamamlar.
+### Öğrencinin yapacakları
 
-### Ölçme
-Çıkış görevi:
+- Şiir ve ders kitabındaki örnek sözcüklerin ses yapısını gözlemler.
+- Ünlü uyumlarına ilişkin düzenlilikleri örneklerden hareketle ifade eder.
+- Sözcükleri ders kitabının verdiği ölçütlere göre sınıflandırır.
+- Her sınıflandırma için hangi ses özelliğini dikkate aldığını açıklar.
+- Ses bilgisi uygulama tablosunun ilgili bölümünü doldurur ve bir akranıyla gerekçelerini karşılaştırır.
 
-1. Örneği göster.
-2. Kitabın sınıflandırmasına göre adlandır.
-3. Nedenini açıkla.
+### Kaynak bağları
 
-Değerlendirmede terimi ezberden söylemekten çok, ses değişimini sözcük üzerinde kanıtlayabilmek esas alınır.
+- **Etkinlikler:** `T1_ACT_05_DIL_BILGISI_SES_BILGISI`
+- **Formlar:** Yok
+
+### Ölçme / öğrenme kanıtı
+
+Öğrenciye ders kitabındaki çalışmadan seçilen iki örnek üzerinden 'sınıflandır + gerekçelendir' görevi verilir. Yalnız doğru etiketi yazması yeterli kabul edilmez; hangi ses özelliğinin kararı belirlediğini açıklaması beklenir. Öğretmen özellikle doğru sonuç–yanlış gerekçe ve yanlış sonuç–doğru gözlem ayrımını not eder.
 
 ### Kapanış
-Sınıfça şu ilke sabitlenir:
 
-**Ses bilgisi, metinden kopuk bir terim listesi değil; sözcüklerin ses yapısındaki düzenlilik ve değişimleri açıklama aracıdır.**
+Öğrenciler 'Bir sözcüğün ses özelliğini belirlerken önce … bakarım; çünkü …' cümlesini tamamlar. İki farklı cevap sınıfça karşılaştırılır ve sonraki derste aynı yöntemin ünsüz olaylarına uygulanacağı belirtilir.
+
+### Materyaller
+
+- 9. sınıf Türk Dili ve Edebiyatı ders kitabı s. 27-36
+- “San'at” şiiri — Faruk Nafiz Çamlıbel
+- Ders kitabındaki ses bilgisi uygulama tablosu
+
+## 2. Ders — Ünsüz olaylarını metin üzerinde bulma, gerekçelendirme ve düzeltme
+
+**Süre:** 1 ders saati  
+**Öğrenme çıktıları:** `TDE2.2`
+
+### Hedef
+
+Öğrencinin ders kitabındaki ünsüz olayları çalışmalarını metin örnekleri üzerinde uygulaması; bir ses olayını yalnız adlandırmak yerine oluştuğu sözcük yapısını inceleyerek gerekçelendirmesi ve hatalı çözümlemeleri düzeltebilmesi.
+
+### Derse giriş
+
+Birinci dersten 'örnek→gözlem→sınıflandırma→gerekçe' zinciri tahtaya yeniden yazılır. Öğrencilere bu yöntemin şimdi ders kitabındaki ünsüz olayları örneklerine uygulanacağı söylenir; yeni başlıklar öğretmen tarafından kitaptan bağımsız çoğaltılmaz.
+
+### Öğretmenin yapacakları
+
+1. T1_ACT_05'in s. 27-36 içindeki ünsüz olaylarına ilişkin örnek ve uygulamalarını dersin omurgası yap.
+2. Öğrencilerden örneği önce sözcük üzerinde göstermelerini, ardından kitabın kullandığı ses olayı başlığıyla sınıflandırmalarını ve değişimin hangi noktada gerçekleştiğini açıklamalarını iste.
+3. Tahtaya kasıtlı olarak biri doğru, biri tartışmalı iki öğrenci çözümlemesi taşı; sınıftan sonuç yerine gerekçeyi denetlemesini iste.
+4. Metindeki örnek bulunamadığında yeni ve doğrulanmamış örnek üretmek yerine ders kitabındaki doğrulanmış örneğe dön.
+5. Ders sonunda öğrencilerin ses bilgisi uygulama tablosundaki eksiklerini düzeltmelerini ve bir örneğin çözümünü sözlü olarak adım adım açıklamalarını sağla.
+
+### Öğrencinin yapacakları
+
+- Ders kitabında verilen ünsüz olayları örneklerini metin/sözcük üzerinde işaretler.
+- Örneği kitabın kullandığı ses olayı başlığına göre sınıflandırır.
+- Ses değişiminin sözcükte nerede ve nasıl gerçekleştiğini kendi cümlesiyle açıklar.
+- Bir akran çözümlemesinin gerekçesini denetler ve gerektiğinde metin/örnek üzerinden düzeltir.
+- Ses bilgisi uygulama tablosunu tamamlar ve seçtiği bir örneğin çözümünü adım adım açıklar.
+
+### Kaynak bağları
+
+- **Etkinlikler:** `T1_ACT_05_DIL_BILGISI_SES_BILGISI`
+- **Formlar:** Yok
+
+### Ölçme / öğrenme kanıtı
+
+Ana kanıt tamamlanmış ses bilgisi uygulama tablosudur. Çıkış görevi üç parçalıdır: 'örneği göster → kitabın sınıflandırmasına göre adlandır → nedenini açıkla'. Öğrencinin yalnız terimi bilmesi değil, ses değişimini sözcük üzerinde kanıtlayabilmesi esas alınır.
+
+### Kapanış
+
+Sınıfça şu öğrenme ilkesi sabitlenir: ses bilgisi, metinden kopuk bir terim listesi değil; sözcüklerin ses yapısındaki düzenlilik ve değişimleri açıklama aracıdır. Öğrenciler tablodaki en çok zorlandıkları bir noktayı işaretler; P04'te T1_ACT_06 Kontrol Noktası ile şiir bölümünün genel öz değerlendirmesine geçiş yapılacağı belirtilir.
+
+### Materyaller
+
+- 9. sınıf Türk Dili ve Edebiyatı ders kitabı s. 27-36
+- “San'at” şiiri ve ders kitabındaki ilgili örnekler
+- Ders kitabındaki ses bilgisi uygulama tablosu
+
+## Öğretmen notu
+
+Bu paket BLOCK_T1_01_OKUMA bloğunun pedagojik olarak tasarlanmış 5. ve 6. ders saatleridir; resmî MEB saat-saat alt sıralaması değildir. Ana canonical etkinlik yalnız T1_ACT_05_DIL_BILGISI_SES_BILGISI'dir. Kitabın doğrulanmış tanımı ünlü uyumlarını ve ünsüz olaylarını metinlerden tespit etme ve ses bilgisi uygulama tablosuna aktarmadır. Bu nedenle kitapta görülmeyen ayrıntılı ses olayı listeleri veya yeni resmî örnekler üretilmemiştir. T1_ACT_06_KONTROL_NOKTASI_SIIR, iki saati aşırı sıkıştırmamak için P04'e bırakılmıştır.
+
+## İlerleme ve devam
+
+- **Bu pakette planlanan:** 2 saat
+- **Blokta kalan:** 9 saat
+- **Kapsanan çıktılar:** `TDE2.1`, `TDE2.2`
+- **Kullanılan etkinlikler:** `T1_ACT_01_OKUMA_ONCESI_SIIR`, `T1_ACT_02_OKUMA_SIRASI_SIIR`, `T1_ACT_03_OKUMA_SONRASI_SIIR_ANLAMA`, `T1_ACT_04_GUZEL_SANATLAR_DISIPLINLER`, `T1_ACT_05_DIL_BILGISI_SES_BILGISI`
+- **Sonraki adım:** P04'te önce T1_ACT_06_KONTROL_NOKTASI_SIIR ile şiir bölümünü öz değerlendirme ve eksik tamamlama açısından kapat. Kalan süre uygunsa T1_ACT_07_OKUMA_ONCESI_DENEME ile Rasim Özdenören'in “Picasso'nun Hatları” denemesine kontrollü geçiş yap; deneme tahlilini P04'e sıkıştırma, T1_ACT_08'i sonraki paketlere bırak.
 
 ---
 
-## Sonraki paket
-
-P04'te önce `T1_ACT_06_KONTROL_NOKTASI_SIIR` ile şiir bölümü öz değerlendirme ve eksik tamamlama açısından kapatılacak. Süre uygunsa `T1_ACT_07_OKUMA_ONCESI_DENEME` ile **Rasim Özdenören'in “Picasso'nun Hatları”** denemesine kontrollü geçiş yapılacak; asıl deneme tahlili sonraki pakete bırakılacak.
-
-> Bu iki saat, 15 saatlik okuma bloğunun pedagojik alt planıdır; MEB'in resmî saat-saat alt sıralaması olarak sunulmaz.
+<!-- TYMM_JSON_SHA256:36e3bf1570d38d203ca947254e6dc7d965e51cfb4bcb879a100a3a4d64a84e61 -->

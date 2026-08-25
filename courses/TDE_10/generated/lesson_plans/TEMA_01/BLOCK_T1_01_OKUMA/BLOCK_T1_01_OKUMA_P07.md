@@ -1,29 +1,139 @@
-# BLOCK_T1_01_OKUMA_P07 — Koşuk ve Türküyü Karşılaştırmak
+# Koşuk ve Türküyü Karşılaştırmak: Sözlü Kültür, Ahenk, Yapı ve Değişim
 
-**Süre:** 2 ders saati  
-**Blok içi konum:** 13–14. saat  
-**Kazanımlar:** TDE2.2, TDE2.3, TDE2.4
+> Bu Markdown, lesson-plan JSON dosyasından deterministik olarak üretilir. JSON authoritative kaynaktır; bu dosyada elle semantik değişiklik yapılmaz.
 
-## 1. ders saati — Ortak kanıt matrisi
+## Paket bilgisi
 
-Koşuk ve **Turnalar** şu boyutlarda yan yana karşılaştırılır:
+| Alan | Değer |
+|---|---|
+| Ders | `TDE_10` |
+| Tema | `TEMA_01` |
+| Blok | `BLOCK_T1_01_OKUMA` |
+| Süre | 2 ders saati |
+| Şema | `1.0.0` |
 
-- tema/ileti,
-- yapı,
-- ahenk/ezgi,
-- dil ve söz varlığı,
-- sözlü kültür/aktarım işaretleri.
+## Paket özeti
 
-Her satırda iki metinden de kanıt bulunur. Benzerlik/farklılık yalnız adlandırılmaz; **işlevi** açıklanır.
+Tema 1 Okuma bloğunun 13. ve 14. saatlerinde öğrenciler P01-P06 boyunca oluşturdukları Koşuk ve Turnalar kanıtlarını aynı karşılaştırma matrisinde birleştirir. İlk saatte yapı, ahenk/ezgi, söz varlığı, tema/ileti ve sözlü kültür işaretleri; ikinci saatte benzerlik-farklılıkların işlevleri ve geçmişten günümüze değişim/dönüşüme ilişkin sınırlı, kaynak-temelli çıkarımlar ele alınır. 'Eski-yeni' hiyerarşisi kurulmaz; metin kanıtı olmayan tarihsel genelleme yapılmaz.
 
-## 2. ders saati — Süreklilik ve değişim
+## Öğrenme ve değerlendirme kapsamı
 
-Öğrenci şu zinciri kurar:
+- **Öğrenme çıktıları:** `TDE2.2`, `TDE2.3`, `TDE2.4`
+- **Kullanılan etkinlikler:** `T1_ACT_03_KOSUK_COZUMLEME`, `T1_ACT_06_TURKU_TAHLIL`
+- **Kullanılan formlar:** Yok
 
-**kanıt → gözlenen süreklilik/değişim → sınırlı çıkarım → güven düzeyi**
+# Ders akışı
 
-Kaynakta bulunmayan tarihsel nedenler eklenmez; “eski = ilkel / yeni = gelişmiş” hiyerarşisi kurulmaz.
+## 1. Ders — Koşuk-Türkü ortak kanıt matrisi: benzerlik ve farklılıkları işlevleriyle karşılaştırma
 
-## Sonraki paket
+**Süre:** 1 ders saati  
+**Öğrenme çıktıları:** `TDE2.2`, `TDE2.3`
 
-P08: `T1_ACT_07_TURKU_CANLANDIRMA` ile okuma kanıtlarını performans planına dönüştürme ve 15 saatlik Okuma bloğunu kapatma.
+### Hedef
+
+Öğrencinin iki metni yapı, ahenk/ezgi, söz varlığı, tema/ileti ve sözlü kültür göstergeleri bakımından aynı ölçekte karşılaştırması ve her benzerlik/farklılığı iki metinden kanıtla desteklemesi.
+
+### Derse giriş
+
+P03 Koşuk ve P06 Türkü kanıt tabloları yan yana açılır. 'İki metni karşılaştırmak için her ikisine de uygulanabilen hangi boyutları kullanabiliriz?' sorusuyla ortak matris oluşturulur.
+
+### Öğretmenin yapacakları
+
+1. Ortak boyutları öğrencilerle netleştir: tema/ileti, yapı, ahenk/ezgi, dil-söz varlığı, sözlü kültür/aktarım işaretleri.
+2. Her karşılaştırma hücresinde hem Koşuk hem Türkü için doğrudan metin/etkinlik kanıtı iste.
+3. Benzerlik veya farklılığı yalnız adlandırmakla yetinmeyip işlevini açıklat.
+4. Türküdeki ezgi/ritim ile Koşuktaki ahenk işaretlerini aynı şeymiş gibi eşitleme; kanıtların farklı işlevlerini tartıştır.
+5. Anonimlik, varyant veya tarihsel süreç gibi özellikler kaynak kanıtıyla açıkça desteklenmiyorsa kesin hüküm kurdurma.
+6. Saat sonunda en az dört karşılaştırma satırı oluştur.
+
+### Öğrencinin yapacakları
+
+- İki metne ortak karşılaştırma boyutları seçer.
+- Her boyutta Koşuk ve Türkü kanıtlarını yan yana koyar.
+- Benzerlik/farklılıkları işlevleriyle açıklar.
+- Kaynaksız genellemeleri işaretler ve çıkarır.
+- En az dört satırlık karşılaştırma matrisi oluşturur.
+
+### Kaynak bağları
+
+- **Etkinlikler:** `T1_ACT_03_KOSUK_COZUMLEME`, `T1_ACT_06_TURKU_TAHLIL`
+- **Formlar:** Yok
+
+### Ölçme / öğrenme kanıtı
+
+En az dört boyutlu Koşuk-Türkü karşılaştırma matrisi; her satırda iki metinden kanıt ve işlev açıklaması bulunur.
+
+### Kapanış
+
+Öğrenci 'İki metin ... bakımından benziyor/farklılaşıyor; Koşukta ... kanıtı, Türküde ... kanıtı bunu gösteriyor ve bu fark/benzerlik ... işlevini etkiliyor.' cümlesini tamamlar.
+
+### Materyaller
+
+- Koşuk metni ve P01-P04 kanıtları
+- Turnalar ve P05-P06 kanıtları
+- Ortak karşılaştırma matrisi
+
+## 2. Ders — Süreklilik ve değişim için kanıta dayalı sınırlı çıkarım
+
+**Süre:** 1 ders saati  
+**Öğrenme çıktıları:** `TDE2.3`, `TDE2.4`
+
+### Hedef
+
+Öğrencinin Koşuk-Türkü karşılaştırmasından hareketle sözlü kültür, şiirsel söyleyiş ve ahenk/ezgi alanlarında süreklilik/değişime ilişkin değer-hiyerarşisi kurmayan gerekçeli çıkarımlar üretmesi.
+
+### Derse giriş
+
+Karşılaştırma matrisinden bir süreklilik ve bir farklılık seçilir. 'Bu iki kanıttan tarihsel değişim hakkında ne söyleyebiliriz; ne söyleyemeyiz?' sorusuyla çıkarım sınırı belirlenir.
+
+### Öğretmenin yapacakları
+
+1. Öğrenciden 'kanıt → gözlenen süreklilik/değişim → sınırlı çıkarım' zinciri kurmasını iste.
+2. Kaynakta doğrulanmayan kronoloji veya nedenselliği kesin bilgi gibi ekleme.
+3. 'Eski daha ilkel / yeni daha gelişmiş' gibi doğrusal değer yargılarını reddet; işlev ve bağlam farkına odaklan.
+4. Metinler arası farklılıkların tek nedeni olarak dönem göstermeden önce kanıt iste.
+5. Bir çıkarımın güven düzeyini 'güçlü / sınırlı / kanıt yetersiz' biçiminde işaretlet.
+6. P08 için hangi Türkü kanıtlarının canlandırma/performans planında korunması gerektiğini seçtir.
+
+### Öğrencinin yapacakları
+
+- Bir süreklilik ve bir değişim kanıtı seçer.
+- Sınırlı çıkarım kurar.
+- Çıkarımın güven düzeyini işaretler.
+- Değer hiyerarşisi yerine bağlam/işlev farkı açıklar.
+- P08 performans planına taşınacak Türkü kanıtlarını seçer.
+
+### Kaynak bağları
+
+- **Etkinlikler:** `T1_ACT_03_KOSUK_COZUMLEME`, `T1_ACT_06_TURKU_TAHLIL`
+- **Formlar:** Yok
+
+### Ölçme / öğrenme kanıtı
+
+En az iki 'kanıt → süreklilik/değişim → sınırlı çıkarım → güven düzeyi' kaydı.
+
+### Kapanış
+
+Öğrenci 'Bu iki metinden ... konusunda ... düzeyinde çıkarım yapabilirim; çünkü ... . Ancak ... hakkında yeterli kanıtım yok.' cümlesini tamamlar.
+
+### Materyaller
+
+- P07 karşılaştırma matrisi
+- Koşuk ve Turnalar metinleri
+- Çıkarım-güven düzeyi şablonu
+
+## Öğretmen notu
+
+P07 iki okuma metnini kaynak-temelli karşılaştırır. Tarihsel değişim/dönüşüm, yalnız metin ve kaynak etkinliklerinin taşıdığı ölçüde ele alınır. P08 T1_ACT_07 ile 1 saatlik performans planı ve blok kapanışıdır.
+
+## İlerleme ve devam
+
+- **Bu pakette planlanan:** 2 saat
+- **Blokta kalan:** 1 saat
+- **Kapsanan çıktılar:** `TDE2.2`, `TDE2.3`, `TDE2.4`
+- **Kullanılan etkinlikler:** `T1_ACT_03_KOSUK_COZUMLEME`, `T1_ACT_06_TURKU_TAHLIL`
+- **Sonraki adım:** P08'de T1_ACT_07_TURKU_CANLANDIRMA ile okuma kanıtlarını performans planına dönüştür ve 15 saatlik Tema 1 Okuma bloğunu kapat.
+
+---
+
+<!-- TYMM_JSON_SHA256:5a0f795c2a3c893c1ce367ff23be42ec279b5dfc717b5d89bd4182a03b6629f9 -->

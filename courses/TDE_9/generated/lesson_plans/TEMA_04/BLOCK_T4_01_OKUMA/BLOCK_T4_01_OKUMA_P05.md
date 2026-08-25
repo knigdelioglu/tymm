@@ -1,40 +1,139 @@
-# BLOCK_T4_01_OKUMA_P05 — Eleştiriye Geçiş: Ölçüt, Kanıt ve Amaçlı İlk Okuma
+# Eleştiriye Geçiş: Ölçüt, Kanıt ve Amaçlı İlk Okuma
 
-**Süre:** 2 ders saati  
-**Tema:** 4. Tema — Dilin Zenginliği  
-**Blok:** Tema 4 Okuma — Roman ve Eleştiri Metin Tahlili  
-**Kazanımlar:** TDE2.1, TDE2.2  
-**Etkinlikler:** `T4_ACT_05_OKUMA_ONCESI_ELESTIRI`, `T4_ACT_06_OKUMA_SONRASI_ELESTIRI_TAHLIL`
+> Bu Markdown, lesson-plan JSON dosyasından deterministik olarak üretilir. JSON authoritative kaynaktır; bu dosyada elle semantik değişiklik yapılmaz.
 
-## Paket amacı
+## Paket bilgisi
 
-Öğrenciler roman/dramatik metin bölümünden eleştiri türüne geçer. Mehmet Kaplan’ın **“Parasız Yatılı Üzerine (Hikâye Tahlilleri)”** metnini okurken kişisel beğeni ile ölçüt ve kanıta dayalı eleştirel değerlendirmeyi ayırır; eleştirmenin yargılarını, kullandığı ölçütleri, gerekçelerini ve dikkat çeken üslup tercihlerini işaretlemeye başlar.
+| Alan | Değer |
+|---|---|
+| Ders | `TDE_9` |
+| Tema | `TEMA_04` |
+| Blok | `BLOCK_T4_01_OKUMA` |
+| Süre | 2 ders saati |
+| Şema | `1.0.0` |
 
-## 1. ders — Kişisel beğeniden ölçütlü değerlendirmeye
+## Paket özeti
 
-- “Beğendim/beğenmedim” yargısı ile gerekçeli eleştirel değerlendirme ayrıştırılır.
-- Eleştirinin edebiyattaki işlevine ilişkin ön bilgiler görünür kılınır; hazır tanım ezberletilmez.
-- Okuma amacı üç soruyla kurulur:
-  1. Eleştirmen neyi değerlendiriyor?
-  2. Hangi ölçüte dayanıyor?
-  3. Yargısını hangi gerekçe veya metin kanıtıyla destekliyor?
-- İşaretleme anahtarı hazırlanır: **Y = yargı, Ö = ölçüt, K = kanıt/gerekçe, Ü = üslup/dil tercihi**.
-- Öğrenci bir okuma varsayımı ve bir ölçüt sorusu yazar.
+15 saatlik 4. Tema Okuma bloğunun 9. ve 10. ders saatlerinde öğrenciler T4_ACT_05_OKUMA_ONCESI_ELESTIRI ve T4_ACT_06_OKUMA_SONRASI_ELESTIRI_TAHLIL kapsamında Mehmet Kaplan'ın 'Parasız Yatılı Üzerine (Hikâye Tahlilleri)' başlıklı eleştiri metnine geçer. İlk saatte eleştirinin edebiyattaki yeri üzerine ön bilgiler görünür kılınır; kişisel beğeni yargısı ile metne dayalı değerlendirme birbirinden ayrılır ve öğrenciler eleştirmenin hangi ölçütleri kullandığını izlemeye yönelik bir okuma amacı oluşturur. İkinci saatte metnin amaçlı ilk okuması yapılır; değerlendirme yargıları, bu yargıları destekleyen gerekçeler/metin kanıtları ve dikkat çeken üslup özellikleri işaretlenir. Eleştiri ölçütlerinin sistematik çözümlemesi P06'ya, üslup ve tür sentezi P07'ye, T4_ACT_07 kontrol noktası ise 1 saatlik P08'e bırakılır.
 
-**Kanıt:** Y/Ö/K/Ü stratejisi + bir okuma varsayımı + bir ölçüt sorusu.
+## Öğrenme ve değerlendirme kapsamı
 
-## 2. ders — Yargı, ölçüt, gerekçe ve üslup izlerini toplama
+- **Öğrenme çıktıları:** `TDE2.1`, `TDE2.2`
+- **Kullanılan etkinlikler:** `T4_ACT_05_OKUMA_ONCESI_ELESTIRI`, `T4_ACT_06_OKUMA_SONRASI_ELESTIRI_TAHLIL`
+- **Kullanılan formlar:** Yok
 
-- Metin amaçlı okunur.
-- En az iki değerlendirme yargısı belirlenir.
-- Her yargı ilgili ölçüt ve kanıt/gerekçeyle eşleştirilir.
-- Ölçüt ile kanıtın aynı şey olmadığı özellikle korunur.
-- Sözcük seçimi, cümle kuruluşu veya değerlendirme tonu gibi en az iki üslup/dil gözlemi kaydedilir; ayrıntılı üslup tahlili sonraki pakete bırakılır.
-- Bir sözcük/ifadenin anlamı önce bağlamdan tahmin edilir.
-- İlk varsayım metin kanıtıyla güncellenir.
+# Ders akışı
 
-**Kanıt:** En az iki `yargı → ölçüt → kanıt/gerekçe` zinciri + iki üslup gözlemi + güncellenmiş okuma varsayımı.
+## 1. Ders — Kişisel beğeniden kanıta dayalı eleştirel ölçüte geçiş
+
+**Süre:** 1 ders saati  
+**Öğrenme çıktıları:** `TDE2.1`
+
+### Hedef
+
+Öğrencinin eleştirinin edebiyattaki işlevine ilişkin ön bilgisini sorgulaması; kişisel beğeni ifadesi ile bir metni belirli ölçüt ve kanıtlar üzerinden değerlendiren eleştirel yargıyı ayırması ve amaçlı okuma için soru/işaretleme stratejisi kurması.
+
+### Derse giriş
+
+Roman/dramatik metin bölümünde kullanılan karşılaştırma matrisi hatırlatılır. 'Bir metin için sadece “beğendim/beğenmedim” demekle, nedenini ölçüt ve kanıtla açıklamak arasında ne fark var?' sorusuyla eleştiri türüne geçilir.
+
+### Öğretmenin yapacakları
+
+1. T4_ACT_05_OKUMA_ONCESI_ELESTIRI kapsamında öğrencilerin eleştirinin edebiyattaki yerine ilişkin ön bilgilerini görünür kıl.
+2. Öğrenci ifadelerini 'kişisel beğeni', 'ölçüt içeren değerlendirme' ve 'kanıt/gerekçe içeren değerlendirme' olarak ayırt ettir; hazır bir eleştiri tanımı ezberletme.
+3. Metnin Mehmet Kaplan'a ait 'Parasız Yatılı Üzerine (Hikâye Tahlilleri)' başlıklı eleştiri/öğretici metin olduğunu kaynak kimliği düzeyinde belirt; eleştirilen eser hakkında kaynakta doğrulanmayan ayrıntıları ekleme.
+4. Okuma amacını üç soruyla kurdur: Eleştirmen neyi değerlendiriyor? Hangi ölçüte dayanıyor? Yargısını hangi gerekçe veya metin kanıtıyla destekliyor?
+5. Sade işaretleme anahtarı oluşturt: Y = değerlendirme yargısı, Ö = ölçüt, K = kanıt/gerekçe, Ü = dikkat çeken üslup/dil tercihi.
+6. Saat sonunda öğrenciden bir okuma varsayımı ve metinde cevap arayacağı bir ölçüt sorusu yazmasını iste.
+
+### Öğrencinin yapacakları
+
+- Eleştirinin edebiyattaki işlevine ilişkin ön bilgisini yazar.
+- Kişisel beğeni ile ölçüt/kanıt içeren değerlendirme arasındaki farkı örnekler üzerinden ayırır.
+- Y/Ö/K/Ü işaretleme anahtarını hazırlar.
+- Eleştirmenin kullanabileceği bir ölçüte ilişkin okuma varsayımı oluşturur.
+- Metinde cevap arayacağı bir ölçüt/kanıt sorusu yazar.
+
+### Kaynak bağları
+
+- **Etkinlikler:** `T4_ACT_05_OKUMA_ONCESI_ELESTIRI`
+- **Formlar:** Yok
+
+### Ölçme / öğrenme kanıtı
+
+Ana hazırlık kanıtı; kişisel beğeni–ölçütlü değerlendirme ayrımı, Y/Ö/K/Ü işaretleme anahtarı, bir okuma varsayımı ve bir ölçüt sorusudur. Varsayımın doğruluğu değil metin kanıtıyla sınanabilir olması aranır.
+
+### Kapanış
+
+Öğrenci 'Eleştiri metnini okurken yalnız yazarın ne dediğine değil, ... ölçütünü hangi ... kanıtıyla gerekçelendirdiğine bakacağım.' ifadesini tamamlar.
+
+### Materyaller
+
+- T4_ACT_05_OKUMA_ONCESI_ELESTIRI
+- Parasız Yatılı Üzerine (Hikâye Tahlilleri) — Mehmet Kaplan
+- P04 karşılaştırmalı tahlil deneyimi yalnız yöntem aktarımı için
+
+## 2. Ders — Eleştiri metninde yargı, ölçüt, gerekçe ve üslup izlerini toplama
+
+**Süre:** 1 ders saati  
+**Öğrenme çıktıları:** `TDE2.1`, `TDE2.2`
+
+### Hedef
+
+Öğrencinin eleştiri metnini amaçlı biçimde okuyarak değerlendirme yargılarını, bunların dayandığı ölçütleri ve kanıt/gerekçeleri birbirine bağlaması; dikkat çeken üslup ve söz varlığı özelliklerini ilk tahlil kanıtı olarak kaydetmesi.
+
+### Derse giriş
+
+İlk saatteki Y/Ö/K/Ü anahtarı görünür tutulur. 'Bir eleştirmenin yargısı hangi durumda ikna edici bir değerlendirmeye dönüşür?' sorusuyla ilk okuma başlatılır.
+
+### Öğretmenin yapacakları
+
+1. T4_ACT_06 kapsamında eleştiri metninin amaçlı ilk okumasını yürüt.
+2. Öğrenciden en az iki Y işaretinde eleştirmenin değerlendirme yargısını kendi cümlesiyle yeniden ifade etmesini iste.
+3. Her yargının yanında varsa ilgili Ö ve K işaretlerini eşleştir; ölçüt ile kanıt/gerekçeyi aynı şeymiş gibi yazdırma.
+4. Dikkat çeken Ü işaretlerinde sözcük seçimi, cümle kuruluşu veya değerlendirme tonunun okuyucu üzerindeki işlevini yalnız ilk gözlem düzeyinde kaydettir; ayrıntılı üslup tahlilini P07'ye bırak.
+5. Anlamı belirsiz bir sözcük/ifadede önce bağlam ipuçlarını kullandır; doğrudan sözlük anlamı vermeden anlam tahminini gerekçelendirt.
+6. Saat sonunda ilk okuma varsayımını 'desteklendi / zayıfladı / henüz belirsiz' biçiminde bir metin kanıtıyla güncellet.
+
+### Öğrencinin yapacakları
+
+- Metindeki en az iki değerlendirme yargısını işaretler ve kendi cümlesiyle açıklar.
+- Bu yargılara eşlik eden ölçüt ve kanıt/gerekçeleri ayırır.
+- En az iki dikkat çekici üslup/dil tercihini kaydeder.
+- Bir sözcük veya ifadenin anlamını bağlam ipucuyla tahmin eder.
+- İlk okuma varsayımını doğrudan metin kanıtıyla günceller.
+
+### Kaynak bağları
+
+- **Etkinlikler:** `T4_ACT_06_OKUMA_SONRASI_ELESTIRI_TAHLIL`
+- **Formlar:** Yok
+
+### Ölçme / öğrenme kanıtı
+
+Ana ürün ilk eleştiri tahlil kaydıdır: en az iki 'yargı → ölçüt → kanıt/gerekçe' zinciri, iki üslup/dil gözlemi ve kanıtla güncellenmiş bir okuma varsayımı.
+
+### Kapanış
+
+Öğrenci 'Eleştirmenin ... yargısı ... ölçütüne dayanıyor; bunu ... gerekçesi/kanıtı destekliyor. Bu nedenle yargı yalnız kişisel beğeni olarak kalmıyor.' ifadesini tamamlar.
+
+### Materyaller
+
+- Parasız Yatılı Üzerine (Hikâye Tahlilleri) — Mehmet Kaplan, ders kitabı s.259–263
+- T4_ACT_06 tahlil soruları — ders kitabı s.269–275 kapsamı
+- Y/Ö/K/Ü işaretleme anahtarı
 
 ## Öğretmen notu
 
-Bu 2 saatlik sıra pedagojik üretimdir; resmî MEB saat-saat sıralaması olarak sunulmaz. `T4_ACT_05` eleştiri hazırlığını, `T4_ACT_06` eleştiride kullanılan ölçütler ve yazarın üslubunun belirlenmesini doğrular. Bu pakette yalnız ilk okuma ve kanıt toplama yapılır. Sistematik ölçüt çözümlemesi **P06**, üslup/tür sentezi **P07**, `T4_ACT_07` kontrol noktası ise son **1 saatlik P08** kapsamındadır.
+Bu paket BLOCK_T4_01_OKUMA bloğunun pedagojik olarak tasarlanmış 9. ve 10. saatleridir; resmî MEB saat-saat alt sıralaması değildir. Textbook map T4_ACT_05'te eleştiri türü hazırlığını, T4_ACT_06'da eleştirideki ölçütlerin ve yazar üslubunun belirlenmesini doğrular. P05 yalnız hazırlık ve ilk kanıt toplama aşamasıdır; ölçüt sistematiği P06'ya, üslup/tür sentezi P07'ye ve T4_ACT_07 kontrol noktası P08'e bırakılır.
+
+## İlerleme ve devam
+
+- **Bu pakette planlanan:** 2 saat
+- **Blokta kalan:** 5 saat
+- **Kapsanan çıktılar:** `TDE2.1`, `TDE2.2`
+- **Kullanılan etkinlikler:** `T4_ACT_05_OKUMA_ONCESI_ELESTIRI`, `T4_ACT_06_OKUMA_SONRASI_ELESTIRI_TAHLIL`
+- **Sonraki adım:** P06'da P05 yargı–ölçüt–kanıt kayıtları sistematik bir eleştiri ölçütleri matrisine dönüştürülmeli; eleştirmenin ölçütleri, gerekçelendirme biçimi ve metinden çıkardığı sonuçlar ilişkilendirilmelidir. Üslubun ayrıntılı işlevi ve tür sentezi P07'ye bırakılmalıdır.
+
+---
+
+<!-- TYMM_JSON_SHA256:5ec7bfafcb319fa11ed552c07fa1c3a1c9e583410cf70fdac80eac91bb2f7338 -->
