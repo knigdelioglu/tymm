@@ -94,7 +94,13 @@ def unresolved_id_tokens(plan: dict[str, Any], catalogs: dict[str, Any]) -> set[
     found: set[str] = set()
     for text in prose_strings(plan):
         found.update(ID_TOKEN_RE.findall(text))
-    return found - known
+    unresolved: set[str] = set()
+    for token in found - known:
+        prefix_matches = [identifier for identifier in known if identifier.startswith(token + "_")]
+        if len(prefix_matches) == 1:
+            continue
+        unresolved.add(token)
+    return unresolved
 
 
 def usage_for(plan: dict[str, Any], identifier: str, *, used: bool = False) -> str:
