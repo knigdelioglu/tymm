@@ -8,6 +8,7 @@ on:
       - '.github/workflows/tymm-lesson-plan-validation.yml'
       - 'skill/tymm-material-planner/scripts/validate_lesson_plan.py'
       - 'skill/tymm-material-planner/scripts/validate_all_lesson_plans.py'
+      - 'skill/tymm-material-planner/scripts/finalize_lesson_plan_production.py'
       - 'skill/tymm-material-planner/scripts/lesson_plan_context.py'
       - 'skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py'
       - 'skill/tymm-material-planner/scripts/build_runtime_course_package.py'
@@ -27,7 +28,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: tymm-lesson-plan-full-validation-main
@@ -40,6 +41,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -73,3 +76,27 @@ jobs:
           name: lesson-plan-validation-report
           path: /tmp/lesson-plan-validation-report.json
           if-no-files-found: warn
+
+      - name: Finalize production plans after full validation PASS
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          # Runtime/timeline builds above are validation workspace outputs. Do not
+          # mix them into the production-status commit.
+          git restore courses/TDE_9/runtime courses/TDE_10/runtime
+          git restore courses/TDE_9/planning/course_timeline.json courses/TDE_10/planning/course_timeline.json
+
+          python skill/tymm-material-planner/scripts/finalize_lesson_plan_production.py \
+            --knowledge-root courses/TDE_9 \
+            --knowledge-root courses/TDE_10
+
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add courses/TDE_9/planning/lesson_plan_production_plan.json \
+                  courses/TDE_10/planning/lesson_plan_production_plan.json
+          if git diff --cached --quiet; then
+            echo 'Production plans already finalized.'
+            exit 0
+          fi
+          git commit -m 'chore(validation): mark lesson-plan production complete'
+          git pull --rebase origin main
+          git push origin HEAD:main
