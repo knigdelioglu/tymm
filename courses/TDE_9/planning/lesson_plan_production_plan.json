@@ -417,8 +417,8 @@
       "algorithm": "TYMM_LESSON_PLAN_VALIDATION_SCOPE_V1",
       "content_fingerprint": "sha256:c0b63624ce313c518ec0b278390b4c3c6df584b09bc512cc7e4dcf35208fffde",
       "fingerprinted_files": 440,
-      "commit_sha": "3702bab26f47c7e1dc87091c669b00278e2fff37",
-      "report_sha256": "sha256:57f89990dfede2f1aa712901dca8c6734f1c354529464326a3bcac4de518efb6"
+      "commit_sha": "9dd979ae6e60ca0b827030220f55a14922a229b9",
+      "report_sha256": "sha256:c963631960dfcb0056389627bcab77a51fa59c9f77a06675f20978fdd65587d4"
     }
   }
 }
