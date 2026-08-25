@@ -1,12 +1,115 @@
 {
-  "schema_version":"1.0.0","course_id":"TDE_10","theme_id":"TEMA_03","block_id":"BLOCK_T3_02_KONUSMA","lesson_hours":2,
-  "plan_title":"Türk Destanları Canlı Sunumu: Kaynaklı Bilgiyi Sözlü Performansa Dönüştürmek",
-  "plan_summary":"Tema 3 Konuşma bloğunun 5-6. saatlerinde T3_ACT_09_DESTAN_SUNUM kapsamında canlı Türk Destanları sunumları gerçekleştirilir. Öğrenciler P01-P02'de hazırladıkları kaynaklı içeriği hedef kitleye uygun, düzenli ve doğal sözlü anlatımla sunar. Öğretmen içerik doğruluğu, kaynak izlenebilirliği, yapı/akış, süre, ses-vurgu-tonlama ve beden dili için gözlenebilir kanıt tutar. Sınıf mevcudu varsayılmaz; tamamlanamayan sunumlar P04 başında sürdürülür.",
-  "outcome_codes":["TDE3.1","TDE3.2","TDE3.3"],"used_activity_ids":["T3_ACT_09_DESTAN_SUNUM"],"used_form_ids":[],
-  "lessons":[
-    {"lesson_no":1,"duration_lesson_hours":1,"title":"Canlı sunum rotasyonunu başlatma","objective":"Kaynaklı Türk destanları içeriğini doğal ve düzenli sözlü performansla sunmak.","outcome_codes":["TDE3.1","TDE3.2","TDE3.3"],"opening":"Her öğrenci P02'deki iki canlı hedefini gözden geçirir.","teacher_actions":["Sunum rotasyonunu başlat.","Her iddianın kaynaklı olup olmadığını ve ana düşünceye hizmetini gözle.","Akış, süre, ses-vurgu-tonlama, göz teması ve beden dili için kısa kanıt notu tut.","Kaynaksız tarihsel genellemeyi performans başarısı sayma."],"student_actions":["Canlı sunum yapar.","Kaynaklı kanıtları ana düşünceyle ilişkilendirir.","Süre ve sözlü icrayı yönetir."],"activity_ids":["T3_ACT_09_DESTAN_SUNUM"],"form_ids":[],"assessment":"Canlı performans + öğretmen gözlem kanıtları.","closure":"Sunum yapan öğrenci iki hedefinden hangisini koruduğunu bir cümleyle kaydeder.","materials":["P02 konuşma planı","Sunum materyalleri"]},
-    {"lesson_no":2,"duration_lesson_hours":1,"title":"Sunum rotasyonunu sürdürme","objective":"Aynı görev ve gözlem standardıyla canlı sunumları sürdürmek.","outcome_codes":["TDE3.1","TDE3.2","TDE3.3"],"opening":"İlk saatteki görev ve kanıt standardı aynen korunur.","teacher_actions":["Sunumları aynı koşullarla sürdür.","Eksik sunumları değerlendirilmiş sayma.","İki saatte tamamlanmayan performansları P04 başına taşı."],"student_actions":["Canlı sunum yapar veya dinleyici rolünde kaynaklı içerik ve sunum davranışını gözler."],"activity_ids":["T3_ACT_09_DESTAN_SUNUM"],"form_ids":[],"assessment":"Tamamlanan canlı performansların gözlenebilir kanıt kaydı.","closure":"Tamamlanan ve P04'e kalan sunumlar belirlenir.","materials":["Konuşma planları"]}
+  "schema_version": "1.0.0",
+  "course_id": "TDE_10",
+  "theme_id": "TEMA_03",
+  "block_id": "BLOCK_T3_02_KONUSMA",
+  "lesson_hours": 2,
+  "plan_title": "Türk Destanları Canlı Sunumu: Kaynaklı Bilgiyi Sözlü Performansa Dönüştürmek",
+  "plan_summary": "Tema 3 Konuşma bloğunun 5-6. saatlerinde T3_ACT_09_DESTAN_SUNUM kapsamında canlı Türk Destanları sunumları gerçekleştirilir. Öğrenciler P01-P02'de hazırladıkları kaynaklı içeriği hedef kitleye uygun, düzenli ve doğal sözlü anlatımla sunar. Öğretmen içerik doğruluğu, kaynak izlenebilirliği, yapı/akış, süre, ses-vurgu-tonlama ve beden dili için gözlenebilir kanıt tutar. Sınıf mevcudu varsayılmaz; tamamlanamayan sunumlar P04 başında sürdürülür.",
+  "outcome_codes": [
+    "TDE3.1",
+    "TDE3.2",
+    "TDE3.3"
   ],
-  "teacher_notes":"P03 canlı performans paketidir. Resmî DPA kriterleri auth-gated olduğundan bu pakette uydurulmaz; resmî değerlendirme P04'e bırakılır.",
-  "continuation_summary":{"planned_now_hours":2,"remaining_block_hours":4,"covered_outcome_codes":["TDE3.1","TDE3.2","TDE3.3"],"used_activity_ids":["T3_ACT_09_DESTAN_SUNUM"],"next_step_hint":"P04'te varsa kalan sunumları tamamla; sonra FORM_T3_KONUSMA_OZ, FORM_T3_KONUSMA_AKRAN ve LINK_T3_KONUSMA_DPA ile değerlendirme yap."}
+  "used_activity_ids": [
+    "T3_ACT_09_DESTAN_SUNUM"
+  ],
+  "used_form_ids": [],
+  "large_class_route": {
+    "mode": "PARALLEL_GROUPS",
+    "activation_condition": "Tek sıra canlı performans rotası mevcut ders saatinde tüm öğrenciler için güvenilir biçimde tamamlanamıyorsa kullan.",
+    "applies_to_lesson_numbers": [
+      1,
+      2
+    ],
+    "parallel_group_count": 5,
+    "grouping_strategy": "Sınıfı 4-6 kişilik paralel performans gruplarına ayır; konuşmacı ve gözlemci rollerini her turda döndür, hiçbir öğrenciyi yalnız gözlemci rolünde bırakma.",
+    "teacher_rotation_strategy": "Öğretmen gruplar arasında planlı olarak döner; her öğrenciden en az bir doğrudan performans kanıtı toplar ve diğer kanıtları akran kayıtlarıyla çapraz kontrol eder.",
+    "peer_observer_strategy": "Her gruptaki akran gözlemci yalnız plandaki mevcut performans ölçütlerinden bir güçlü davranış ve bir geliştirme kanıtı kaydeder; kişilik veya genel beğeni yorumu yapmaz.",
+    "performance_time_limit_seconds": 120,
+    "evidence_equivalence": "Standart sınıf rotasındaki aynı etkinlik, öğrenme çıktıları, performans ölçütleri ve öğrenci kanıtları korunur; yalnız yürütme paralelleştirilir ve öğretmen gözlemi rotasyonla örneklenir.",
+    "core_hours_independent_of_school_based_extension": true,
+    "optional_school_based_extension": {
+      "allowed": true,
+      "purpose": "Yalnız hedefli ek prova veya kısa yeniden performans için kullanılabilir; çekirdek paketin tamamlanması okul-temelli saate bağlı değildir."
+    }
+  },
+  "lessons": [
+    {
+      "lesson_no": 1,
+      "duration_lesson_hours": 1,
+      "title": "Canlı sunum rotasyonunu başlatma",
+      "objective": "Kaynaklı Türk destanları içeriğini doğal ve düzenli sözlü performansla sunmak.",
+      "outcome_codes": [
+        "TDE3.1",
+        "TDE3.2",
+        "TDE3.3"
+      ],
+      "opening": "Her öğrenci P02'deki iki canlı hedefini gözden geçirir.",
+      "teacher_actions": [
+        "Sunum rotasyonunu başlat.",
+        "Her iddianın kaynaklı olup olmadığını ve ana düşünceye hizmetini gözle.",
+        "Akış, süre, ses-vurgu-tonlama, göz teması ve beden dili için kısa kanıt notu tut.",
+        "Kaynaksız tarihsel genellemeyi performans başarısı sayma."
+      ],
+      "student_actions": [
+        "Canlı sunum yapar.",
+        "Kaynaklı kanıtları ana düşünceyle ilişkilendirir.",
+        "Süre ve sözlü icrayı yönetir."
+      ],
+      "activity_ids": [
+        "T3_ACT_09_DESTAN_SUNUM"
+      ],
+      "form_ids": [],
+      "assessment": "Canlı performans + öğretmen gözlem kanıtları.",
+      "closure": "Sunum yapan öğrenci iki hedefinden hangisini koruduğunu bir cümleyle kaydeder.",
+      "materials": [
+        "P02 konuşma planı",
+        "Sunum materyalleri"
+      ]
+    },
+    {
+      "lesson_no": 2,
+      "duration_lesson_hours": 1,
+      "title": "Sunum rotasyonunu sürdürme",
+      "objective": "Aynı görev ve gözlem standardıyla canlı sunumları sürdürmek.",
+      "outcome_codes": [
+        "TDE3.1",
+        "TDE3.2",
+        "TDE3.3"
+      ],
+      "opening": "İlk saatteki görev ve kanıt standardı aynen korunur.",
+      "teacher_actions": [
+        "Sunumları aynı koşullarla sürdür.",
+        "Eksik sunumları değerlendirilmiş sayma.",
+        "İki saatte tamamlanmayan performansları P04 başına taşı."
+      ],
+      "student_actions": [
+        "Canlı sunum yapar veya dinleyici rolünde kaynaklı içerik ve sunum davranışını gözler."
+      ],
+      "activity_ids": [
+        "T3_ACT_09_DESTAN_SUNUM"
+      ],
+      "form_ids": [],
+      "assessment": "Tamamlanan canlı performansların gözlenebilir kanıt kaydı.",
+      "closure": "Tamamlanan ve P04'e kalan sunumlar belirlenir.",
+      "materials": [
+        "Konuşma planları"
+      ]
+    }
+  ],
+  "teacher_notes": "P03 canlı performans paketidir. Resmî DPA kriterleri auth-gated olduğundan bu pakette uydurulmaz; resmî değerlendirme P04'e bırakılır.",
+  "continuation_summary": {
+    "planned_now_hours": 2,
+    "remaining_block_hours": 4,
+    "covered_outcome_codes": [
+      "TDE3.1",
+      "TDE3.2",
+      "TDE3.3"
+    ],
+    "used_activity_ids": [
+      "T3_ACT_09_DESTAN_SUNUM"
+    ],
+    "next_step_hint": "P04'te varsa kalan sunumları tamamla; sonra FORM_T3_KONUSMA_OZ, FORM_T3_KONUSMA_AKRAN ve LINK_T3_KONUSMA_DPA ile değerlendirme yap."
+  }
 }

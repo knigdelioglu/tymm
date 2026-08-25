@@ -1,12 +1,121 @@
 {
-  "schema_version":"1.0.0","course_id":"TDE_10","theme_id":"TEMA_03","block_id":"BLOCK_T3_02_KONUSMA","lesson_hours":2,
-  "plan_title":"Türk Destanları Sunumu Provası: Kaynaklı İçeriği Doğal Sözlü İcraya Dönüştürmek",
-  "plan_summary":"Tema 3 Konuşma bloğunun 3-4. saatlerinde T3_ACT_08_DESTAN_SUNUM_PLAN'daki plan, T3_ACT_09_DESTAN_SUNUM öncesi iki turlu provaya dönüştürülür. İlk saatte yazılı araştırma notları doğal konuşma cümlelerine çevrilir; ikinci saatte içerik-akış-süre ve ses-vurgu-tonlama-beden dili odaklı prova yapılır. Henüz öz/akran formu veya DPA kullanılmaz.",
-  "outcome_codes":["TDE3.1","TDE3.2","TDE3.3"],"used_activity_ids":["T3_ACT_08_DESTAN_SUNUM_PLAN","T3_ACT_09_DESTAN_SUNUM"],"used_form_ids":[],
-  "lessons":[
-    {"lesson_no":1,"duration_lesson_hours":1,"title":"Konuşma planını doğal sözlü ifadeye dönüştürme","objective":"Kaynaklı içeriği ezberlenmiş metin okumadan doğal ve anlaşılır sözlü anlatıma dönüştürmek.","outcome_codes":["TDE3.1","TDE3.2","TDE3.3"],"opening":"P01 planındaki her bölümün ana mesajı sözlü bir cümleyle yeniden ifade edilir.","teacher_actions":["Uzun yazılı paragrafları konuşulabilir kısa cümlelere dönüştürt.","Kaynak/provenance izini koru.","Geçiş ifadeleri ve anahtar vurguları işaretlet.","Görsel varsa içeriği açıklama işlevini kontrol et."],"student_actions":["Konuşma cümlelerini doğallaştırır.","Kaynak izlerini korur.","Geçiş ve vurgu noktalarını işaretler."],"activity_ids":["T3_ACT_08_DESTAN_SUNUM_PLAN","T3_ACT_09_DESTAN_SUNUM"],"form_ids":[],"assessment":"plan bölümü → sözlü ifade → kaynak → geçiş/vurgu kaydı.","closure":"Birinci prova için iki kritik bölüm seçilir.","materials":["P01 konuşma planı"]},
-    {"lesson_no":2,"duration_lesson_hours":1,"title":"İki turlu prova: içerik-akış ve sözlü icra","objective":"Canlı sunum öncesi içerik doğruluğu, akış, süre ve sözlü icrada gözlenebilir düzeltme yapmak.","outcome_codes":["TDE3.1","TDE3.2","TDE3.3"],"opening":"Prova 1 odakları: kaynaklı içerik, akış ve süre.","teacher_actions":["İlk provada içerik-akış-süreyi gözlet.","İkinci provada ses, vurgu-tonlama, göz teması ve beden dilini çalıştır.","En fazla iki gelişim hedefi seçtir.","DPA veya öz/akran formlarını henüz kullanma."],"student_actions":["İki prova yapar.","Kendi performansından kanıt çıkarır.","Canlı sunum için en fazla iki hedef belirler."],"activity_ids":["T3_ACT_09_DESTAN_SUNUM"],"form_ids":[],"assessment":"prova 1 kanıtı → düzeltme → prova 2 kanıtı → iki canlı sunum hedefi.","closure":"P03 canlı sunum hedefleri kaydedilir.","materials":["Konuşma planı","Basit süre takip aracı"]}
+  "schema_version": "1.0.0",
+  "course_id": "TDE_10",
+  "theme_id": "TEMA_03",
+  "block_id": "BLOCK_T3_02_KONUSMA",
+  "lesson_hours": 2,
+  "plan_title": "Türk Destanları Sunumu Provası: Kaynaklı İçeriği Doğal Sözlü İcraya Dönüştürmek",
+  "plan_summary": "Tema 3 Konuşma bloğunun 3-4. saatlerinde T3_ACT_08_DESTAN_SUNUM_PLAN'daki plan, T3_ACT_09_DESTAN_SUNUM öncesi iki turlu provaya dönüştürülür. İlk saatte yazılı araştırma notları doğal konuşma cümlelerine çevrilir; ikinci saatte içerik-akış-süre ve ses-vurgu-tonlama-beden dili odaklı prova yapılır. Henüz öz/akran formu veya DPA kullanılmaz.",
+  "outcome_codes": [
+    "TDE3.1",
+    "TDE3.2",
+    "TDE3.3"
   ],
-  "teacher_notes":"Bu paket prova aşamasıdır; resmî performans değerlendirmesi değildir.",
-  "continuation_summary":{"planned_now_hours":2,"remaining_block_hours":6,"covered_outcome_codes":["TDE3.1","TDE3.2","TDE3.3"],"used_activity_ids":["T3_ACT_08_DESTAN_SUNUM_PLAN","T3_ACT_09_DESTAN_SUNUM"],"next_step_hint":"P03'te canlı Türk Destanları sunumlarını gerçekleştir ve performans kanıtı topla."}
+  "used_activity_ids": [
+    "T3_ACT_08_DESTAN_SUNUM_PLAN",
+    "T3_ACT_09_DESTAN_SUNUM"
+  ],
+  "used_form_ids": [],
+  "large_class_route": {
+    "mode": "PARALLEL_GROUPS",
+    "activation_condition": "Tek sıra canlı performans rotası mevcut ders saatinde tüm öğrenciler için güvenilir biçimde tamamlanamıyorsa kullan.",
+    "applies_to_lesson_numbers": [
+      1,
+      2
+    ],
+    "parallel_group_count": 5,
+    "grouping_strategy": "Sınıfı 4-6 kişilik paralel performans gruplarına ayır; konuşmacı ve gözlemci rollerini her turda döndür, hiçbir öğrenciyi yalnız gözlemci rolünde bırakma.",
+    "teacher_rotation_strategy": "Öğretmen gruplar arasında planlı olarak döner; her öğrenciden en az bir doğrudan performans kanıtı toplar ve diğer kanıtları akran kayıtlarıyla çapraz kontrol eder.",
+    "peer_observer_strategy": "Her gruptaki akran gözlemci yalnız plandaki mevcut performans ölçütlerinden bir güçlü davranış ve bir geliştirme kanıtı kaydeder; kişilik veya genel beğeni yorumu yapmaz.",
+    "performance_time_limit_seconds": 120,
+    "evidence_equivalence": "Standart sınıf rotasındaki aynı etkinlik, öğrenme çıktıları, performans ölçütleri ve öğrenci kanıtları korunur; yalnız yürütme paralelleştirilir ve öğretmen gözlemi rotasyonla örneklenir.",
+    "core_hours_independent_of_school_based_extension": true,
+    "optional_school_based_extension": {
+      "allowed": true,
+      "purpose": "Yalnız hedefli ek prova veya kısa yeniden performans için kullanılabilir; çekirdek paketin tamamlanması okul-temelli saate bağlı değildir."
+    }
+  },
+  "lessons": [
+    {
+      "lesson_no": 1,
+      "duration_lesson_hours": 1,
+      "title": "Konuşma planını doğal sözlü ifadeye dönüştürme",
+      "objective": "Kaynaklı içeriği ezberlenmiş metin okumadan doğal ve anlaşılır sözlü anlatıma dönüştürmek.",
+      "outcome_codes": [
+        "TDE3.1",
+        "TDE3.2",
+        "TDE3.3"
+      ],
+      "opening": "P01 planındaki her bölümün ana mesajı sözlü bir cümleyle yeniden ifade edilir.",
+      "teacher_actions": [
+        "Uzun yazılı paragrafları konuşulabilir kısa cümlelere dönüştürt.",
+        "Kaynak/provenance izini koru.",
+        "Geçiş ifadeleri ve anahtar vurguları işaretlet.",
+        "Görsel varsa içeriği açıklama işlevini kontrol et."
+      ],
+      "student_actions": [
+        "Konuşma cümlelerini doğallaştırır.",
+        "Kaynak izlerini korur.",
+        "Geçiş ve vurgu noktalarını işaretler."
+      ],
+      "activity_ids": [
+        "T3_ACT_08_DESTAN_SUNUM_PLAN",
+        "T3_ACT_09_DESTAN_SUNUM"
+      ],
+      "form_ids": [],
+      "assessment": "plan bölümü → sözlü ifade → kaynak → geçiş/vurgu kaydı.",
+      "closure": "Birinci prova için iki kritik bölüm seçilir.",
+      "materials": [
+        "P01 konuşma planı"
+      ]
+    },
+    {
+      "lesson_no": 2,
+      "duration_lesson_hours": 1,
+      "title": "İki turlu prova: içerik-akış ve sözlü icra",
+      "objective": "Canlı sunum öncesi içerik doğruluğu, akış, süre ve sözlü icrada gözlenebilir düzeltme yapmak.",
+      "outcome_codes": [
+        "TDE3.1",
+        "TDE3.2",
+        "TDE3.3"
+      ],
+      "opening": "Prova 1 odakları: kaynaklı içerik, akış ve süre.",
+      "teacher_actions": [
+        "İlk provada içerik-akış-süreyi gözlet.",
+        "İkinci provada ses, vurgu-tonlama, göz teması ve beden dilini çalıştır.",
+        "En fazla iki gelişim hedefi seçtir.",
+        "DPA veya öz/akran formlarını henüz kullanma."
+      ],
+      "student_actions": [
+        "İki prova yapar.",
+        "Kendi performansından kanıt çıkarır.",
+        "Canlı sunum için en fazla iki hedef belirler."
+      ],
+      "activity_ids": [
+        "T3_ACT_09_DESTAN_SUNUM"
+      ],
+      "form_ids": [],
+      "assessment": "prova 1 kanıtı → düzeltme → prova 2 kanıtı → iki canlı sunum hedefi.",
+      "closure": "P03 canlı sunum hedefleri kaydedilir.",
+      "materials": [
+        "Konuşma planı",
+        "Basit süre takip aracı"
+      ]
+    }
+  ],
+  "teacher_notes": "Bu paket prova aşamasıdır; resmî performans değerlendirmesi değildir.",
+  "continuation_summary": {
+    "planned_now_hours": 2,
+    "remaining_block_hours": 6,
+    "covered_outcome_codes": [
+      "TDE3.1",
+      "TDE3.2",
+      "TDE3.3"
+    ],
+    "used_activity_ids": [
+      "T3_ACT_08_DESTAN_SUNUM_PLAN",
+      "T3_ACT_09_DESTAN_SUNUM"
+    ],
+    "next_step_hint": "P03'te canlı Türk Destanları sunumlarını gerçekleştir ve performans kanıtı topla."
+  }
 }

@@ -1,12 +1,132 @@
 {
-  "schema_version":"1.0.0","course_id":"TDE_10","theme_id":"TEMA_04","block_id":"BLOCK_T4_02_KONUSMA","lesson_hours":2,
-  "plan_title":"Canlandırmayı Değerlendirmek: Öz, Akran ve Resmî Öğretmen Geri Bildirimi",
-  "plan_summary":"Tema 4 Konuşma bloğunun 7-8. saatlerinde önce P03'te tamamlanamayan performanslar varsa aynı görev koşullarıyla tamamlanır; ardından T4_ACT_11_CANLANDIRMA_DEGERLENDIRME kapsamında FORM_T4_KONUSMA_OZ ve FORM_T4_KONUSMA_AKRAN kullanılır. LINK_T4_KONUSMA_DPA erişilebiliyorsa resmî öğretmen değerlendirmesi de eklenir. Öz, akran ve öğretmen kanıtları tek bir yapay puanda birleştirilmez; öğrenci P05 için tek gözlenebilir gelişim hedefi seçer.",
-  "outcome_codes":["TDE3.1","TDE3.2","TDE3.3","TDE3.4"],"used_activity_ids":["T4_ACT_10_CANLANDIRMA_SUNUM","T4_ACT_11_CANLANDIRMA_DEGERLENDIRME"],"used_form_ids":["FORM_T4_KONUSMA_OZ","FORM_T4_KONUSMA_AKRAN","LINK_T4_KONUSMA_DPA"],
-  "lessons":[
-    {"lesson_no":1,"duration_lesson_hours":1,"title":"Kalan performansları tamamlama ve öz/akran değerlendirmesi","objective":"Canlandırma performansını gözlenebilir kanıta dayanarak öz ve akran bakışından değerlendirmek.","outcome_codes":["TDE3.4"],"opening":"P03 sonunda kalan performans varsa önce tamamlanır.","teacher_actions":["Kalan performansları görev koşullarını değiştirmeden tamamlat.","FORM_T4_KONUSMA_AKRAN geri bildirimini kişilik veya görüş beğenisine değil sahne davranışına dayandır.","FORM_T4_KONUSMA_OZ ile öğrencinin kendi rolünü, kaynak bağlılığını, ses/beden/mekân kullanımını kanıtla değerlendirmesini sağla.","Öz ve akran görüşü farklıysa farkın hangi kanıttan doğduğunu sorgulat."],"student_actions":["Varsa kalan performansı tamamlar.","Akran değerlendirmesi yapar.","Öz değerlendirme yapar.","Bir güçlü yön ve bir gelişim alanını kanıtla yazar."],"activity_ids":["T4_ACT_10_CANLANDIRMA_SUNUM","T4_ACT_11_CANLANDIRMA_DEGERLENDIRME"],"form_ids":["FORM_T4_KONUSMA_OZ","FORM_T4_KONUSMA_AKRAN"],"assessment":"öz/akran formu + somut performans kanıtı.","closure":"Bir güçlü davranış ve bir gelişim alanı seçilir.","materials":["FORM_T4_KONUSMA_OZ","FORM_T4_KONUSMA_AKRAN","P03 performans notları"]},
-    {"lesson_no":2,"duration_lesson_hours":1,"title":"Geri bildirim kaynaklarını sentezleyip tek gelişim hedefi seçme","objective":"Öz, akran ve erişilebiliyorsa resmî DPA kanıtlarını karşılaştırıp tek gözlenebilir yeniden performans hedefi belirlemek.","outcome_codes":["TDE3.4"],"opening":"Öz/akran kayıtlarının yanına P03 öğretmen gözlemi ve varsa DPA sonucu eklenir.","teacher_actions":["Geri bildirim araçlarını tek puanda eritme.","Tekrarlanan bulguları ve yalnız bir kaynakta görünen bulguları ayırt ettir.","Hedefi 'daha iyi canlandıracağım' gibi genel değil; kaynak bağlılığı, rol geçişi, ses, beden dili, mekân veya sahne akışı gibi gözlenebilir tek davranışa indir.","DPA erişilemiyorsa resmî kriter/puan üretmeden hedefi diğer doğrulanmış kanıtlardan çıkar."],"student_actions":["Geri bildirimleri karşılaştırır.","Tekrarlanan bulguları belirler.","Tek gözlenebilir P05 hedefi seçer.","Hedefini önceki performans kanıtıyla gerekçelendirir."],"activity_ids":["T4_ACT_11_CANLANDIRMA_DEGERLENDIRME"],"form_ids":["FORM_T4_KONUSMA_OZ","FORM_T4_KONUSMA_AKRAN","LINK_T4_KONUSMA_DPA"],"assessment":"geri bildirim kaynağı → kanıt → tek P05 hedefi.","closure":"P05'te yeniden oynanacak kısa sahne bölümü ve gözlenecek davranış belirlenir.","materials":["Öz/akran formları","P03 öğretmen gözlemi","Varsa resmî DPA"]}
+  "schema_version": "1.0.0",
+  "course_id": "TDE_10",
+  "theme_id": "TEMA_04",
+  "block_id": "BLOCK_T4_02_KONUSMA",
+  "lesson_hours": 2,
+  "plan_title": "Canlandırmayı Değerlendirmek: Öz, Akran ve Resmî Öğretmen Geri Bildirimi",
+  "plan_summary": "Tema 4 Konuşma bloğunun 7-8. saatlerinde önce P03'te tamamlanamayan performanslar varsa aynı görev koşullarıyla tamamlanır; ardından T4_ACT_11_CANLANDIRMA_DEGERLENDIRME kapsamında FORM_T4_KONUSMA_OZ ve FORM_T4_KONUSMA_AKRAN kullanılır. LINK_T4_KONUSMA_DPA erişilebiliyorsa resmî öğretmen değerlendirmesi de eklenir. Öz, akran ve öğretmen kanıtları tek bir yapay puanda birleştirilmez; öğrenci P05 için tek gözlenebilir gelişim hedefi seçer.",
+  "outcome_codes": [
+    "TDE3.1",
+    "TDE3.2",
+    "TDE3.3",
+    "TDE3.4"
   ],
-  "teacher_notes":"Auth-gated DPA kriterleri türetilmez; araçların kanıt işlevleri ayrı tutulur.",
-  "continuation_summary":{"planned_now_hours":2,"remaining_block_hours":2,"covered_outcome_codes":["TDE3.4"],"used_activity_ids":["T4_ACT_10_CANLANDIRMA_SUNUM","T4_ACT_11_CANLANDIRMA_DEGERLENDIRME"],"next_step_hint":"P05'te tek hedef için kısa prova + aynı sahnenin hedefle ilişkili kısa bölümünün yeniden performansı ile bloğu kapat."}
+  "used_activity_ids": [
+    "T4_ACT_10_CANLANDIRMA_SUNUM",
+    "T4_ACT_11_CANLANDIRMA_DEGERLENDIRME"
+  ],
+  "used_form_ids": [
+    "FORM_T4_KONUSMA_OZ",
+    "FORM_T4_KONUSMA_AKRAN",
+    "LINK_T4_KONUSMA_DPA"
+  ],
+  "large_class_route": {
+    "mode": "PARALLEL_GROUPS",
+    "activation_condition": "Tek sıra canlı performans rotası mevcut ders saatinde tüm öğrenciler için güvenilir biçimde tamamlanamıyorsa kullan.",
+    "applies_to_lesson_numbers": [
+      1,
+      2
+    ],
+    "parallel_group_count": 4,
+    "grouping_strategy": "Sınıfı 4-6 kişilik paralel performans gruplarına ayır; konuşmacı ve gözlemci rollerini her turda döndür, hiçbir öğrenciyi yalnız gözlemci rolünde bırakma.",
+    "teacher_rotation_strategy": "Öğretmen gruplar arasında planlı olarak döner; her öğrenciden en az bir doğrudan performans kanıtı toplar ve diğer kanıtları akran kayıtlarıyla çapraz kontrol eder.",
+    "peer_observer_strategy": "Her gruptaki akran gözlemci yalnız plandaki mevcut performans ölçütlerinden bir güçlü davranış ve bir geliştirme kanıtı kaydeder; kişilik veya genel beğeni yorumu yapmaz.",
+    "performance_time_limit_seconds": 180,
+    "evidence_equivalence": "Standart sınıf rotasındaki aynı etkinlik, öğrenme çıktıları, performans ölçütleri ve öğrenci kanıtları korunur; yalnız yürütme paralelleştirilir ve öğretmen gözlemi rotasyonla örneklenir.",
+    "core_hours_independent_of_school_based_extension": true,
+    "optional_school_based_extension": {
+      "allowed": true,
+      "purpose": "Yalnız hedefli ek prova veya kısa yeniden performans için kullanılabilir; çekirdek paketin tamamlanması okul-temelli saate bağlı değildir."
+    }
+  },
+  "lessons": [
+    {
+      "lesson_no": 1,
+      "duration_lesson_hours": 1,
+      "title": "Kalan performansları tamamlama ve öz/akran değerlendirmesi",
+      "objective": "Canlandırma performansını gözlenebilir kanıta dayanarak öz ve akran bakışından değerlendirmek.",
+      "outcome_codes": [
+        "TDE3.4"
+      ],
+      "opening": "P03 sonunda kalan performans varsa önce tamamlanır.",
+      "teacher_actions": [
+        "Kalan performansları görev koşullarını değiştirmeden tamamlat.",
+        "FORM_T4_KONUSMA_AKRAN geri bildirimini kişilik veya görüş beğenisine değil sahne davranışına dayandır.",
+        "FORM_T4_KONUSMA_OZ ile öğrencinin kendi rolünü, kaynak bağlılığını, ses/beden/mekân kullanımını kanıtla değerlendirmesini sağla.",
+        "Öz ve akran görüşü farklıysa farkın hangi kanıttan doğduğunu sorgulat."
+      ],
+      "student_actions": [
+        "Varsa kalan performansı tamamlar.",
+        "Akran değerlendirmesi yapar.",
+        "Öz değerlendirme yapar.",
+        "Bir güçlü yön ve bir gelişim alanını kanıtla yazar."
+      ],
+      "activity_ids": [
+        "T4_ACT_10_CANLANDIRMA_SUNUM",
+        "T4_ACT_11_CANLANDIRMA_DEGERLENDIRME"
+      ],
+      "form_ids": [
+        "FORM_T4_KONUSMA_OZ",
+        "FORM_T4_KONUSMA_AKRAN"
+      ],
+      "assessment": "öz/akran formu + somut performans kanıtı.",
+      "closure": "Bir güçlü davranış ve bir gelişim alanı seçilir.",
+      "materials": [
+        "FORM_T4_KONUSMA_OZ",
+        "FORM_T4_KONUSMA_AKRAN",
+        "P03 performans notları"
+      ]
+    },
+    {
+      "lesson_no": 2,
+      "duration_lesson_hours": 1,
+      "title": "Geri bildirim kaynaklarını sentezleyip tek gelişim hedefi seçme",
+      "objective": "Öz, akran ve erişilebiliyorsa resmî DPA kanıtlarını karşılaştırıp tek gözlenebilir yeniden performans hedefi belirlemek.",
+      "outcome_codes": [
+        "TDE3.4"
+      ],
+      "opening": "Öz/akran kayıtlarının yanına P03 öğretmen gözlemi ve varsa DPA sonucu eklenir.",
+      "teacher_actions": [
+        "Geri bildirim araçlarını tek puanda eritme.",
+        "Tekrarlanan bulguları ve yalnız bir kaynakta görünen bulguları ayırt ettir.",
+        "Hedefi 'daha iyi canlandıracağım' gibi genel değil; kaynak bağlılığı, rol geçişi, ses, beden dili, mekân veya sahne akışı gibi gözlenebilir tek davranışa indir.",
+        "DPA erişilemiyorsa resmî kriter/puan üretmeden hedefi diğer doğrulanmış kanıtlardan çıkar."
+      ],
+      "student_actions": [
+        "Geri bildirimleri karşılaştırır.",
+        "Tekrarlanan bulguları belirler.",
+        "Tek gözlenebilir P05 hedefi seçer.",
+        "Hedefini önceki performans kanıtıyla gerekçelendirir."
+      ],
+      "activity_ids": [
+        "T4_ACT_11_CANLANDIRMA_DEGERLENDIRME"
+      ],
+      "form_ids": [
+        "FORM_T4_KONUSMA_OZ",
+        "FORM_T4_KONUSMA_AKRAN",
+        "LINK_T4_KONUSMA_DPA"
+      ],
+      "assessment": "geri bildirim kaynağı → kanıt → tek P05 hedefi.",
+      "closure": "P05'te yeniden oynanacak kısa sahne bölümü ve gözlenecek davranış belirlenir.",
+      "materials": [
+        "Öz/akran formları",
+        "P03 öğretmen gözlemi",
+        "Varsa resmî DPA"
+      ]
+    }
+  ],
+  "teacher_notes": "Auth-gated DPA kriterleri türetilmez; araçların kanıt işlevleri ayrı tutulur.",
+  "continuation_summary": {
+    "planned_now_hours": 2,
+    "remaining_block_hours": 2,
+    "covered_outcome_codes": [
+      "TDE3.4"
+    ],
+    "used_activity_ids": [
+      "T4_ACT_10_CANLANDIRMA_SUNUM",
+      "T4_ACT_11_CANLANDIRMA_DEGERLENDIRME"
+    ],
+    "next_step_hint": "P05'te tek hedef için kısa prova + aynı sahnenin hedefle ilişkili kısa bölümünün yeniden performansı ile bloğu kapat."
+  }
 }

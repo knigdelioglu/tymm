@@ -6,16 +6,47 @@
   "lesson_hours": 2,
   "plan_title": "Dilimizin Zenginlikleri Sunumunu Kurmak: Akış, Dil Seçimi ve Kontrollü Prova",
   "plan_summary": "10 saatlik 4. Tema Konuşma Atölyesi bloğunun 3. ve 4. ders saatlerinde öğrenciler P01'de oluşturdukları kanıtlı karşılaştırma iskeletini T4_ACT_08_KONUSMA_SIRASI kapsamında konuşma akışına dönüştürür. İlk saatte giriş-gelişme-sonuç düzeni, karşılaştırmalar arası bağlaşıklık, bağlama uygun Türkçe kelime/söz varlığı seçimi ve gerekiyorsa işlevsel görsel destek planlanır. İkinci saatte iki turlu kontrollü prova yapılır: ilk turda içerik-akış-süre, ikinci turda ses, diksiyon, vurgu-tonlama, beden dili, görsel yönetimi ve dil kullanımı odaklanır. FORM_IN_T4_KONUSMA_CRITERIA biçimlendirici prova kontrolü olarak kullanılır; approved TDE9_KONUSMA_RUBRIC ile puanlama henüz yapılmaz.",
-  "outcome_codes": ["TDE3.1", "TDE3.2", "TDE3.3"],
-  "used_activity_ids": ["T4_ACT_08_KONUSMA_SIRASI"],
-  "used_form_ids": ["FORM_IN_T4_KONUSMA_CRITERIA"],
+  "outcome_codes": [
+    "TDE3.1",
+    "TDE3.2",
+    "TDE3.3"
+  ],
+  "used_activity_ids": [
+    "T4_ACT_08_KONUSMA_SIRASI"
+  ],
+  "used_form_ids": [
+    "FORM_IN_T4_KONUSMA_CRITERIA"
+  ],
+  "large_class_route": {
+    "mode": "PARALLEL_GROUPS",
+    "activation_condition": "Tek sıra canlı performans rotası mevcut ders saatinde tüm öğrenciler için güvenilir biçimde tamamlanamıyorsa kullan.",
+    "applies_to_lesson_numbers": [
+      1,
+      2
+    ],
+    "parallel_group_count": 5,
+    "grouping_strategy": "Sınıfı 4-6 kişilik paralel performans gruplarına ayır; konuşmacı ve gözlemci rollerini her turda döndür, hiçbir öğrenciyi yalnız gözlemci rolünde bırakma.",
+    "teacher_rotation_strategy": "Öğretmen gruplar arasında planlı olarak döner; her öğrenciden en az bir doğrudan performans kanıtı toplar ve diğer kanıtları akran kayıtlarıyla çapraz kontrol eder.",
+    "peer_observer_strategy": "Her gruptaki akran gözlemci yalnız plandaki mevcut performans ölçütlerinden bir güçlü davranış ve bir geliştirme kanıtı kaydeder; kişilik veya genel beğeni yorumu yapmaz.",
+    "performance_time_limit_seconds": 120,
+    "evidence_equivalence": "Standart sınıf rotasındaki aynı etkinlik, öğrenme çıktıları, performans ölçütleri ve öğrenci kanıtları korunur; yalnız yürütme paralelleştirilir ve öğretmen gözlemi rotasyonla örneklenir.",
+    "core_hours_independent_of_school_based_extension": true,
+    "optional_school_based_extension": {
+      "allowed": true,
+      "purpose": "Yalnız hedefli ek prova veya kısa yeniden performans için kullanılabilir; çekirdek paketin tamamlanması okul-temelli saate bağlı değildir."
+    }
+  },
   "lessons": [
     {
       "lesson_no": 1,
       "duration_lesson_hours": 1,
       "title": "Karşılaştırma iskeletini anlaşılır konuşma akışına dönüştürme",
       "objective": "Öğrencinin P01 ana düşünce ve karşılaştırma kanıtlarını giriş-gelişme-sonuç düzeninde sıralaması; karşılaştırmalar arasında bağlaşıklık kurması, bağlama uygun söz varlığı ve Türkçe kelime tercihlerini gerekçelendirmesi ve varsa görsel desteği konuşma işlevine bağlaması.",
-      "outcome_codes": ["TDE3.1", "TDE3.2", "TDE3.3"],
+      "outcome_codes": [
+        "TDE3.1",
+        "TDE3.2",
+        "TDE3.3"
+      ],
       "opening": "P01 konuşma iskeleti açılır. 'Dinleyici örnekleri tek tek duymak yerine bunların neden aynı ana düşünceyi desteklediğini nasıl takip edecek?' sorusuyla organizasyona geçilir.",
       "teacher_actions": [
         "P01 ana düşünce ve kanıtlarını giriş-gelişme-sonuç akışında düzenlet; girişte amaç/odak, gelişmede 2-3 karşılaştırma kanıtı, sonuçta kanıta dayalı çıkarım görünür olsun.",
@@ -32,18 +63,30 @@
         "Türkçe kelime/söz varlığı tercihlerini bağlam ve hedef kitle açısından kontrol eder.",
         "Varsa görsel desteğin hangi kanıtı güçlendireceğini ve kaynağını belirtir."
       ],
-      "activity_ids": ["T4_ACT_08_KONUSMA_SIRASI"],
-      "form_ids": ["FORM_IN_T4_KONUSMA_CRITERIA"],
+      "activity_ids": [
+        "T4_ACT_08_KONUSMA_SIRASI"
+      ],
+      "form_ids": [
+        "FORM_IN_T4_KONUSMA_CRITERIA"
+      ],
       "assessment": "Ana ürün giriş-gelişme-sonuç akış planıdır. Her karşılaştırma kanıtı ana düşünceye bağlanmalı; geçişlerin anlam işlevi ve seçilen söz varlığının bağlama uygunluğu açıklanabilmelidir.",
       "closure": "Öğrenci 'Konuşmamda önce ..., sonra ... karşılaştırmasını, ardından ... kanıtını kullanacağım; bu sıra ana düşüncemi ... biçimde güçlendiriyor.' ifadesini tamamlar.",
-      "materials": ["P01 konuşma iskeleti ve kanıt bankası", "FORM_IN_T4_KONUSMA_CRITERIA — s.279", "Varsa kaynak bilgisi kaydedilmiş işlevsel görsel destek"]
+      "materials": [
+        "P01 konuşma iskeleti ve kanıt bankası",
+        "FORM_IN_T4_KONUSMA_CRITERIA — s.279",
+        "Varsa kaynak bilgisi kaydedilmiş işlevsel görsel destek"
+      ]
     },
     {
       "lesson_no": 2,
       "duration_lesson_hours": 1,
       "title": "İki turlu prova: içerik-süreden ses, beden dili ve dil kullanımına",
       "objective": "Öğrencinin konuşma akışını önce içerik ve süre bakımından, ardından ses-diksiyon, vurgu-tonlama, beden dili, görsel yönetimi ve Türkçe/söz varlığı kullanımı bakımından prova ederek canlı sunum öncesi tek geliştirme hedefi belirlemesi.",
-      "outcome_codes": ["TDE3.1", "TDE3.2", "TDE3.3"],
+      "outcome_codes": [
+        "TDE3.1",
+        "TDE3.2",
+        "TDE3.3"
+      ],
       "opening": "'Bir sunumu aynı anda on farklı ölçütte düzeltmeye çalışmak mı, iki turda farklı odaklarla prova etmek mi daha işlevli?' sorusuyla prova yöntemi açıklanır.",
       "teacher_actions": [
         "İlk prova turunu içerik odağı, karşılaştırma kanıtlarının sırası, geçişlerin açıklığı ve süre yönetimi üzerine yürüt.",
@@ -60,19 +103,34 @@
         "FORM_IN_T4_KONUSMA_CRITERIA ile prova kaydını öz-kontrol eder.",
         "Canlı sunumda izleyeceği tek gözlenebilir geliştirme hedefini yazar."
       ],
-      "activity_ids": ["T4_ACT_08_KONUSMA_SIRASI"],
-      "form_ids": ["FORM_IN_T4_KONUSMA_CRITERIA"],
+      "activity_ids": [
+        "T4_ACT_08_KONUSMA_SIRASI"
+      ],
+      "form_ids": [
+        "FORM_IN_T4_KONUSMA_CRITERIA"
+      ],
       "assessment": "Ana kanıt iki prova kaydıdır: tur 1 içerik-akış-süre düzeltmesi; tur 2 ses/beden dili/dil kullanımı gözlemi. Paket sonunda bir tek canlı sunum geliştirme hedefi bulunmalıdır.",
       "closure": "Öğrenci 'Canlı sunumda özellikle ... davranışımı izleyeceğim; provada bunu ... kanıtından dolayı geliştirmem gerektiğini gördüm.' ifadesini tamamlar.",
-      "materials": ["P02 ilk saat konuşma akış planı", "FORM_IN_T4_KONUSMA_CRITERIA", "Varsa görsel sunum materyali", "Basit süre takip aracı"]
+      "materials": [
+        "P02 ilk saat konuşma akış planı",
+        "FORM_IN_T4_KONUSMA_CRITERIA",
+        "Varsa görsel sunum materyali",
+        "Basit süre takip aracı"
+      ]
     }
   ],
   "teacher_notes": "Bu paket BLOCK_T4_02_KONUSMA bloğunun pedagojik olarak tasarlanmış 3. ve 4. saatleridir; resmî MEB saat-saat alt sıralaması değildir. T4_ACT_08 kapsamındaki konuşma içeriği ve kural uygulama hazırlığı sürdürülür. FORM_IN_T4_KONUSMA_CRITERIA ölçüt tablosudur; approved TDE9_KONUSMA_RUBRIC ile canlı performans puanlaması P03'e bırakılır.",
   "continuation_summary": {
     "planned_now_hours": 2,
     "remaining_block_hours": 6,
-    "covered_outcome_codes": ["TDE3.1", "TDE3.2", "TDE3.3"],
-    "used_activity_ids": ["T4_ACT_08_KONUSMA_SIRASI"],
+    "covered_outcome_codes": [
+      "TDE3.1",
+      "TDE3.2",
+      "TDE3.3"
+    ],
+    "used_activity_ids": [
+      "T4_ACT_08_KONUSMA_SIRASI"
+    ],
     "next_step_hint": "P03'te Dilimizin Zenginlikleri canlı sunum rotasyonu başlatılmalı; approved TDE9_KONUSMA_RUBRIC / RES_T4_SHARED_KONUSMA_RUBRIC ile gerçek performans kanıtı kaydedilmeli. T4_ACT_09 öz-akran değerlendirmesi P04'e bırakılmalıdır."
   }
 }

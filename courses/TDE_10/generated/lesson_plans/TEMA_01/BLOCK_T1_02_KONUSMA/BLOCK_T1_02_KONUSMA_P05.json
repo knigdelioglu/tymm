@@ -6,16 +6,49 @@
   "lesson_hours": 2,
   "plan_title": "Geri Bildirimden Yeniden Performansa: Şiir Dinletisi Hedefli Kapanış",
   "plan_summary": "Tema 1 Konuşma bloğunun 9. ve 10. saatlerinde öğrenciler P04'te seçtikleri tek gözlenebilir gelişim hedefini kısa prova ve yeniden performansla sınar. İlk saatte yalnız hedef davranış üzerinde mikro-düzeltme yapılır; bütün dinleti yeniden kurgulanmaz. İkinci saatte grubun dinletisinden hedefle doğrudan ilişkili kısa bir bölüm yeniden icra edilir ve önce/sonra kanıtı karşılaştırılır. Yeni bir resmî DPA puanı veya kriter seti üretilmez. Bu paket sonunda BLOCK_T1_02_KONUSMA 10/10 saat tamamlanır.",
-  "outcome_codes": ["TDE3.2", "TDE3.3", "TDE3.4"],
-  "used_activity_ids": ["T1_ACT_09_SIIR_DINLETISI_SUNUM", "T1_ACT_10_KONUSMA_DEGERLENDIRME"],
-  "used_form_ids": ["FORM_T1_KONUSMA_AKRAN", "LINK_T1_KONUSMA_DPA"],
+  "outcome_codes": [
+    "TDE3.2",
+    "TDE3.3",
+    "TDE3.4"
+  ],
+  "used_activity_ids": [
+    "T1_ACT_09_SIIR_DINLETISI_SUNUM",
+    "T1_ACT_10_KONUSMA_DEGERLENDIRME"
+  ],
+  "used_form_ids": [
+    "FORM_T1_KONUSMA_AKRAN",
+    "LINK_T1_KONUSMA_DPA"
+  ],
+  "large_class_route": {
+    "mode": "PARALLEL_GROUPS",
+    "activation_condition": "Tek sıra canlı performans rotası mevcut ders saatinde tüm öğrenciler için güvenilir biçimde tamamlanamıyorsa kullan.",
+    "applies_to_lesson_numbers": [
+      1,
+      2
+    ],
+    "parallel_group_count": 4,
+    "grouping_strategy": "Sınıfı 4-6 kişilik paralel performans gruplarına ayır; konuşmacı ve gözlemci rollerini her turda döndür, hiçbir öğrenciyi yalnız gözlemci rolünde bırakma.",
+    "teacher_rotation_strategy": "Öğretmen gruplar arasında planlı olarak döner; her öğrenciden en az bir doğrudan performans kanıtı toplar ve diğer kanıtları akran kayıtlarıyla çapraz kontrol eder.",
+    "peer_observer_strategy": "Her gruptaki akran gözlemci yalnız plandaki mevcut performans ölçütlerinden bir güçlü davranış ve bir geliştirme kanıtı kaydeder; kişilik veya genel beğeni yorumu yapmaz.",
+    "performance_time_limit_seconds": 180,
+    "evidence_equivalence": "Standart sınıf rotasındaki aynı etkinlik, öğrenme çıktıları, performans ölçütleri ve öğrenci kanıtları korunur; yalnız yürütme paralelleştirilir ve öğretmen gözlemi rotasyonla örneklenir.",
+    "core_hours_independent_of_school_based_extension": true,
+    "optional_school_based_extension": {
+      "allowed": true,
+      "purpose": "Yalnız hedefli ek prova veya kısa yeniden performans için kullanılabilir; çekirdek paketin tamamlanması okul-temelli saate bağlı değildir."
+    }
+  },
   "lessons": [
     {
       "lesson_no": 1,
       "duration_lesson_hours": 1,
       "title": "Tek gelişim hedefi için mikro-prova ve düzeltme",
       "objective": "Grubun P04'te seçtiği tek gelişim hedefini dinletinin ilgili bölümünde çalışması ve hedefe yönelik uygulanabilir bir mikro-düzeltme geliştirmesi.",
-      "outcome_codes": ["TDE3.2", "TDE3.3", "TDE3.4"],
+      "outcome_codes": [
+        "TDE3.2",
+        "TDE3.3",
+        "TDE3.4"
+      ],
       "opening": "P04 hedef kaydı açılır. Grup 'Değiştireceğimiz tek davranış nedir ve bunu hangi performans kanıtı nedeniyle seçtik?' sorusunu yanıtlar.",
       "teacher_actions": [
         "Her grubun yalnız seçtiği tek hedef üzerinde çalışmasını sağla; bütün dinletiyi yeniden tasarlatıp odağı dağıtma.",
@@ -32,18 +65,31 @@
         "Kısa prova yapar ve hedef davranışı gözler.",
         "Yeniden performansta hangi değişimin aranacağını belirler."
       ],
-      "activity_ids": ["T1_ACT_09_SIIR_DINLETISI_SUNUM", "T1_ACT_10_KONUSMA_DEGERLENDIRME"],
-      "form_ids": ["FORM_T1_KONUSMA_AKRAN", "LINK_T1_KONUSMA_DPA"],
+      "activity_ids": [
+        "T1_ACT_09_SIIR_DINLETISI_SUNUM",
+        "T1_ACT_10_KONUSMA_DEGERLENDIRME"
+      ],
+      "form_ids": [
+        "FORM_T1_KONUSMA_AKRAN",
+        "LINK_T1_KONUSMA_DPA"
+      ],
       "assessment": "'P03/P04 mevcut kanıt → P04 hedefi → mikro-düzeltme → prova gözlemi' kaydı.",
       "closure": "Grup 'Yeniden performansta ... davranışında ... değişimini arayacağız; yaptığımız mikro-düzeltme ...' cümlesini tamamlar.",
-      "materials": ["P04 geri bildirim sentezi", "P01-P02 dinleti planı", "Kısa prova alanı"]
+      "materials": [
+        "P04 geri bildirim sentezi",
+        "P01-P02 dinleti planı",
+        "Kısa prova alanı"
+      ]
     },
     {
       "lesson_no": 2,
       "duration_lesson_hours": 1,
       "title": "Kısa yeniden performans, önce/sonra kanıtı ve konuşma bloğunu kapatma",
       "objective": "Grubun aynı dinletinin hedefle ilgili kısa bölümünü yeniden icra etmesi; yalnız seçilen davranış bakımından önce/sonra kanıtını karşılaştırması ve konuşma sürecini yansıtması.",
-      "outcome_codes": ["TDE3.3", "TDE3.4"],
+      "outcome_codes": [
+        "TDE3.3",
+        "TDE3.4"
+      ],
       "opening": "Ölçüt tek cümleyle netleştirilir: 'Bütün dinletiyi yeniden puanlamıyoruz; yalnız seçtiğimiz davranışta önceye göre gözlenebilir değişim var mı?'",
       "teacher_actions": [
         "Grupların hedefle ilgili kısa bölümü yeniden icra etmesini sağla; sabit dakika uydurma, sınıf koşullarına göre kısa ve karşılaştırılabilir bir kesit kullan.",
@@ -60,19 +106,36 @@
         "Değişim yoksa alternatif strateji belirler.",
         "Şiir dinletisi sürecinden bir aktarılabilir konuşma stratejisi çıkarır."
       ],
-      "activity_ids": ["T1_ACT_09_SIIR_DINLETISI_SUNUM", "T1_ACT_10_KONUSMA_DEGERLENDIRME"],
-      "form_ids": ["FORM_T1_KONUSMA_AKRAN", "LINK_T1_KONUSMA_DPA"],
+      "activity_ids": [
+        "T1_ACT_09_SIIR_DINLETISI_SUNUM",
+        "T1_ACT_10_KONUSMA_DEGERLENDIRME"
+      ],
+      "form_ids": [
+        "FORM_T1_KONUSMA_AKRAN",
+        "LINK_T1_KONUSMA_DPA"
+      ],
       "assessment": "Kapanış kanıtı 'önceki performans → geri bildirim → tek hedef → mikro-düzeltme → yeniden performans → gözlenen değişim' zinciridir.",
       "closure": "Grup 'İlk performansta ... görülüyordu; ... stratejisini uyguladık; yeniden performansta ... kanıtı ... yönde değişim olduğunu gösterdi.' cümlesiyle bloğu kapatır.",
-      "materials": ["P03-P04 performans/geri bildirim kayıtları", "P05 mikro-prova kaydı", "Dinleti planı"]
+      "materials": [
+        "P03-P04 performans/geri bildirim kayıtları",
+        "P05 mikro-prova kaydı",
+        "Dinleti planı"
+      ]
     }
   ],
   "teacher_notes": "P05 pedagojik geri bildirim döngüsü kapanışıdır. Resmî DPA'nın authentication-gated yapısı nedeniyle kriter veya puanlama modeli türetilmez. P05 sonunda Tema 1 Konuşma bloğu 10/10 tamamlanır.",
   "continuation_summary": {
     "planned_now_hours": 2,
     "remaining_block_hours": 0,
-    "covered_outcome_codes": ["TDE3.2", "TDE3.3", "TDE3.4"],
-    "used_activity_ids": ["T1_ACT_09_SIIR_DINLETISI_SUNUM", "T1_ACT_10_KONUSMA_DEGERLENDIRME"],
+    "covered_outcome_codes": [
+      "TDE3.2",
+      "TDE3.3",
+      "TDE3.4"
+    ],
+    "used_activity_ids": [
+      "T1_ACT_09_SIIR_DINLETISI_SUNUM",
+      "T1_ACT_10_KONUSMA_DEGERLENDIRME"
+    ],
     "next_step_hint": "BLOCK_T1_02_KONUSMA tamamlandı. Sonraki paket BLOCK_T1_03_DINLEME_P01 olmalıdır; T1_ACT_11_MASAL_HAZIRLIK ve Mercan Kız kaynakları fresh-read edilmelidir."
   }
 }

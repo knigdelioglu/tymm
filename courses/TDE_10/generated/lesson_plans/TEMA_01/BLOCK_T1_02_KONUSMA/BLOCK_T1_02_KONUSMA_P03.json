@@ -6,16 +6,47 @@
   "lesson_hours": 2,
   "plan_title": "Şiir Dinletisi Canlı Performansı: Planı Sahneye Taşımak",
   "plan_summary": "Tema 1 Konuşma bloğunun 5. ve 6. saatlerinde öğrenciler T1_ACT_09_SIIR_DINLETISI_SUNUM kapsamında P01-P02'de hazırladıkları şiir dinletisini canlı olarak sunmaya başlar. Sunum rotasyonu sınıf mevcudu varsayılmadan yürütülür. Öğrenciler tema bütünlüğü, seçki sırası, geçişler, zaman-mekân yönetimi, ses/söyleyiş, beden dili ve Türkçe kullanımını planlarında olduğu biçimde uygular. LINK_T1_KONUSMA_DPA resmî EBA değerlendirme bağlantısıdır; öğretmenin yetkili erişimi varsa araç aynen kullanılır, erişim yoksa kriter veya puan uydurulmaz ve resmî öğretmen puanlaması beklemede bırakılır.",
-  "outcome_codes": ["TDE3.1", "TDE3.2", "TDE3.3"],
-  "used_activity_ids": ["T1_ACT_09_SIIR_DINLETISI_SUNUM"],
-  "used_form_ids": ["LINK_T1_KONUSMA_DPA"],
+  "outcome_codes": [
+    "TDE3.1",
+    "TDE3.2",
+    "TDE3.3"
+  ],
+  "used_activity_ids": [
+    "T1_ACT_09_SIIR_DINLETISI_SUNUM"
+  ],
+  "used_form_ids": [
+    "LINK_T1_KONUSMA_DPA"
+  ],
+  "large_class_route": {
+    "mode": "PARALLEL_GROUPS",
+    "activation_condition": "Tek sıra canlı performans rotası mevcut ders saatinde tüm öğrenciler için güvenilir biçimde tamamlanamıyorsa kullan.",
+    "applies_to_lesson_numbers": [
+      1,
+      2
+    ],
+    "parallel_group_count": 4,
+    "grouping_strategy": "Sınıfı 4-6 kişilik paralel performans gruplarına ayır; konuşmacı ve gözlemci rollerini her turda döndür, hiçbir öğrenciyi yalnız gözlemci rolünde bırakma.",
+    "teacher_rotation_strategy": "Öğretmen gruplar arasında planlı olarak döner; her öğrenciden en az bir doğrudan performans kanıtı toplar ve diğer kanıtları akran kayıtlarıyla çapraz kontrol eder.",
+    "peer_observer_strategy": "Her gruptaki akran gözlemci yalnız plandaki mevcut performans ölçütlerinden bir güçlü davranış ve bir geliştirme kanıtı kaydeder; kişilik veya genel beğeni yorumu yapmaz.",
+    "performance_time_limit_seconds": 180,
+    "evidence_equivalence": "Standart sınıf rotasındaki aynı etkinlik, öğrenme çıktıları, performans ölçütleri ve öğrenci kanıtları korunur; yalnız yürütme paralelleştirilir ve öğretmen gözlemi rotasyonla örneklenir.",
+    "core_hours_independent_of_school_based_extension": true,
+    "optional_school_based_extension": {
+      "allowed": true,
+      "purpose": "Yalnız hedefli ek prova veya kısa yeniden performans için kullanılabilir; çekirdek paketin tamamlanması okul-temelli saate bağlı değildir."
+    }
+  },
   "lessons": [
     {
       "lesson_no": 1,
       "duration_lesson_hours": 1,
       "title": "Son performans kontrolü ve canlı dinleti rotasyonunun başlangıcı",
       "objective": "Öğrencilerin P02'deki tek geliştirme hedefini görünür kılarak dinleti planını canlı performansa dönüştürmesi ve performans kanıtının planla ilişkisinin gözlenmesi.",
-      "outcome_codes": ["TDE3.1", "TDE3.2", "TDE3.3"],
+      "outcome_codes": [
+        "TDE3.1",
+        "TDE3.2",
+        "TDE3.3"
+      ],
       "opening": "Her grup P02'de belirlediği tek geliştirme hedefini ve dinleti akışını son kez kontrol eder; yeni şiir veya yeni kapsam eklenmez.",
       "teacher_actions": [
         "T1_ACT_09 kapsamında canlı dinletiyi başlat; grup/sunum sayısını varsayma.",
@@ -32,18 +63,29 @@
         "Ses, beden dili, zaman ve mekân kullanımını yönetir.",
         "Sunum sonrası yalnız kısa bir performans kanıtı notu bırakır; ayrıntılı değerlendirmeyi P04'e bırakır."
       ],
-      "activity_ids": ["T1_ACT_09_SIIR_DINLETISI_SUNUM"],
-      "form_ids": ["LINK_T1_KONUSMA_DPA"],
+      "activity_ids": [
+        "T1_ACT_09_SIIR_DINLETISI_SUNUM"
+      ],
+      "form_ids": [
+        "LINK_T1_KONUSMA_DPA"
+      ],
       "assessment": "Ana kanıt canlı şiir dinletisi performansıdır. Yetkili EBA erişimi varsa resmî LINK_T1_KONUSMA_DPA aynen kullanılır; erişim yoksa resmî puanlama yapılmaz ve kriter türetilmez.",
       "closure": "Sunum yapan grup 'Planımızdaki ... hedefini performansta ... kanıtıyla uyguladık/uygulamakta zorlandık.' biçiminde kısa kayıt oluşturur.",
-      "materials": ["P01-P02 dinleti planı", "Şiir seçki ve kaynak kaydı", "LINK_T1_KONUSMA_DPA — resmî EBA bağlantısı (yetkili erişim gerektirebilir)"]
+      "materials": [
+        "P01-P02 dinleti planı",
+        "Şiir seçki ve kaynak kaydı",
+        "LINK_T1_KONUSMA_DPA — resmî EBA bağlantısı (yetkili erişim gerektirebilir)"
+      ]
     },
     {
       "lesson_no": 2,
       "duration_lesson_hours": 1,
       "title": "Canlı dinleti rotasyonunu sürdürme ve tutarlı performans kanıtı toplama",
       "objective": "Canlı dinleti rotasyonunu aynı görev koşullarıyla sürdürmek; her grup için plan-performans ilişkisine dair tutarlı gözlem kanıtı toplamak.",
-      "outcome_codes": ["TDE3.2", "TDE3.3"],
+      "outcome_codes": [
+        "TDE3.2",
+        "TDE3.3"
+      ],
       "opening": "İlk saatte kullanılan aynı görev koşulları hatırlatılır; yeni ölçüt veya yeni sunum görevi eklenmez.",
       "teacher_actions": [
         "Dinleti rotasyonunu aynı görev koşullarıyla sürdür.",
@@ -60,19 +102,33 @@
         "Ses ve beden diliyle dinleyiciyle iletişim kurar.",
         "Ayrıntılı akran değerlendirmesini P04'e bırakır."
       ],
-      "activity_ids": ["T1_ACT_09_SIIR_DINLETISI_SUNUM"],
-      "form_ids": ["LINK_T1_KONUSMA_DPA"],
+      "activity_ids": [
+        "T1_ACT_09_SIIR_DINLETISI_SUNUM"
+      ],
+      "form_ids": [
+        "LINK_T1_KONUSMA_DPA"
+      ],
       "assessment": "Canlı performans kaydı ve erişim durumuna göre resmî DPA sonucu veya 'resmî DPA erişim bekliyor' kaydı.",
       "closure": "Hangi grupların performansını tamamladığı ve hangilerinin P04'e kaldığı belirlenir; değerlendirme sonuçları henüz sentezlenmez.",
-      "materials": ["Dinleti planları", "Basit süre takip aracı", "LINK_T1_KONUSMA_DPA"]
+      "materials": [
+        "Dinleti planları",
+        "Basit süre takip aracı",
+        "LINK_T1_KONUSMA_DPA"
+      ]
     }
   ],
   "teacher_notes": "T1_ACT_09 canlı performans aşamasıdır. LINK_T1_KONUSMA_DPA resmî EBA bağlantısı doğrulanmıştır fakat hedef yapısı repo tarafından authentication-gated olduğu için plan hiçbir kriter/ölçek tahmin etmez. Bu durum confirmed material gap değildir; yeni rubrik üretimine izin vermez.",
   "continuation_summary": {
     "planned_now_hours": 2,
     "remaining_block_hours": 4,
-    "covered_outcome_codes": ["TDE3.1", "TDE3.2", "TDE3.3"],
-    "used_activity_ids": ["T1_ACT_09_SIIR_DINLETISI_SUNUM"],
+    "covered_outcome_codes": [
+      "TDE3.1",
+      "TDE3.2",
+      "TDE3.3"
+    ],
+    "used_activity_ids": [
+      "T1_ACT_09_SIIR_DINLETISI_SUNUM"
+    ],
     "next_step_hint": "P04'te varsa kalan performansları tamamla; ardından T1_ACT_10 ve FORM_T1_KONUSMA_AKRAN ile akran değerlendirmesi yap, resmî DPA sonuçlarını yalnız erişim varsa kullan."
   }
 }
