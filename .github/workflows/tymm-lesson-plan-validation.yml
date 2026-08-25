@@ -10,6 +10,7 @@ on:
       - 'skill/tymm-material-planner/scripts/validate_all_lesson_plans.py'
       - 'skill/tymm-material-planner/scripts/finalize_lesson_plan_production.py'
       - 'skill/tymm-material-planner/scripts/lesson_plan_context.py'
+      - 'skill/tymm-material-planner/scripts/lesson_plan_generator.py'
       - 'skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py'
       - 'skill/tymm-material-planner/scripts/build_runtime_course_package.py'
       - 'skill/tymm-material-planner/scripts/apply_closure_time_budgets.py'
@@ -61,30 +62,6 @@ jobs:
 
       - name: Install schema validator
         run: python -m pip install 'jsonschema==4.23.0'
-
-      - name: Materialize P7 grounded references
-        run: |
-          python skill/tymm-material-planner/scripts/apply_grounded_references.py \
-            --knowledge-root courses/TDE_9 \
-            --knowledge-root courses/TDE_10 \
-            --write
-
-      - name: Publish P7 grounded references
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add courses/TDE_9/generated/lesson_plans \
-                  courses/TDE_10/generated/lesson_plans \
-                  courses/TDE_9/production/grounded_reference_manifest.json \
-                  courses/TDE_10/production/grounded_reference_manifest.json
-          if git diff --cached --quiet; then
-            echo 'P7 grounded references already materialized.'
-          else
-            git commit -m 'feat(planning): materialize grounded references'
-            git pull --rebase origin main
-            git push origin HEAD:main
-          fi
 
       - name: Run grounded-reference regression tests
         run: python -m unittest skill/tymm-material-planner/tests/test_grounded_references.py
