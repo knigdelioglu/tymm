@@ -23,6 +23,50 @@
     "assessment_scope": ["assessed_outcome_codes"],
     "assessed_outcome_codes": ["assessment_scope"]
   },
+  "$defs": {
+    "large_class_route": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mode",
+        "activation_condition",
+        "applies_to_lesson_numbers",
+        "parallel_group_count",
+        "grouping_strategy",
+        "teacher_rotation_strategy",
+        "peer_observer_strategy",
+        "performance_time_limit_seconds",
+        "evidence_equivalence",
+        "core_hours_independent_of_school_based_extension"
+      ],
+      "properties": {
+        "mode": {"const": "PARALLEL_GROUPS"},
+        "activation_condition": {"type": "string", "minLength": 1},
+        "applies_to_lesson_numbers": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"type": "integer", "minimum": 1}
+        },
+        "parallel_group_count": {"type": "integer", "minimum": 2, "maximum": 8},
+        "grouping_strategy": {"type": "string", "minLength": 1},
+        "teacher_rotation_strategy": {"type": "string", "minLength": 1},
+        "peer_observer_strategy": {"type": "string", "minLength": 1},
+        "performance_time_limit_seconds": {"type": "integer", "minimum": 30, "maximum": 300},
+        "evidence_equivalence": {"type": "string", "minLength": 1},
+        "core_hours_independent_of_school_based_extension": {"const": true},
+        "optional_school_based_extension": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["allowed", "purpose"],
+          "properties": {
+            "allowed": {"type": "boolean"},
+            "purpose": {"type": "string", "minLength": 1}
+          }
+        }
+      }
+    }
+  },
   "properties": {
     "schema_version": {"const": "1.0.0"},
     "course_id": {"type": "string", "minLength": 1},
@@ -39,6 +83,7 @@
       "uniqueItems": true,
       "items": {"type": "string", "minLength": 1}
     },
+    "large_class_route": {"$ref": "#/$defs/large_class_route"},
     "outcome_codes": {
       "type": "array",
       "minItems": 1,
