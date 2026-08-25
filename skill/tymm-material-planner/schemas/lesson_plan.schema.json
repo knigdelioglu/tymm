@@ -24,6 +24,53 @@
     "assessed_outcome_codes": ["assessment_scope"]
   },
   "$defs": {
+    "reference_usage": {
+      "enum": ["USED", "DEFERRED", "REFERENCE_ONLY"]
+    },
+    "grounded_references": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["form_refs", "assessment_artifact_refs", "resource_refs"],
+      "properties": {
+        "form_refs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["form_id", "usage"],
+            "properties": {
+              "form_id": {"type": "string", "minLength": 1},
+              "usage": {"$ref": "#/$defs/reference_usage"}
+            }
+          }
+        },
+        "assessment_artifact_refs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["artifact_id", "binding_key", "usage"],
+            "properties": {
+              "artifact_id": {"type": "string", "minLength": 1},
+              "binding_key": {"type": "string", "minLength": 1},
+              "usage": {"$ref": "#/$defs/reference_usage"}
+            }
+          }
+        },
+        "resource_refs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["resource_plan_id", "usage"],
+            "properties": {
+              "resource_plan_id": {"type": "string", "minLength": 1},
+              "usage": {"$ref": "#/$defs/reference_usage"}
+            }
+          }
+        }
+      }
+    },
     "large_class_route": {
       "type": "object",
       "additionalProperties": false,
@@ -193,6 +240,7 @@
       "uniqueItems": true,
       "items": {"type": "string", "minLength": 1}
     },
+    "grounded_references": {"$ref": "#/$defs/grounded_references"},
     "large_class_route": {"$ref": "#/$defs/large_class_route"},
     "classroom_adaptations": {"$ref": "#/$defs/classroom_adaptations"},
     "outcome_codes": {
