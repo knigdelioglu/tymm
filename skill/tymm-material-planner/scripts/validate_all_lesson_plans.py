@@ -20,6 +20,7 @@ if str(SCRIPT_DIR) not in sys.path:
 import lesson_plan_context  # noqa: E402
 import validate_lesson_plan  # noqa: E402
 import validate_lesson_plan_markdown  # noqa: E402
+import validation_binding  # noqa: E402
 
 
 def read_json(path: Path) -> dict[str, Any]:
@@ -169,13 +170,21 @@ def main() -> int:
         default="skill/tymm-material-planner/schemas/lesson_plan.schema.json",
     )
     parser.add_argument("--report")
+    parser.add_argument("--commit-sha")
     args = parser.parse_args()
 
-    schema = read_json(Path(args.schema))
+    schema_path = Path(args.schema)
+    schema = read_json(schema_path)
     schema_validator = Draft202012Validator(schema)
-    reports = [validate_course(Path(root), schema_validator) for root in args.knowledge_root]
+    knowledge_roots = [Path(root) for root in args.knowledge_root]
+    reports = [validate_course(root, schema_validator) for root in knowledge_roots]
     payload = {
         "status": "PASS" if all(report["status"] == "PASS" for report in reports) else "FAIL",
+        "binding": validation_binding.build_validation_binding(
+            knowledge_roots,
+            schema_path,
+            commit_sha=args.commit_sha,
+        ),
         "courses": reports,
         "summary": {
             "courses": len(reports),
