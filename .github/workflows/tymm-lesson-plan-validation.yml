@@ -10,6 +10,7 @@ on:
       - 'skill/tymm-material-planner/scripts/validate_all_lesson_plans.py'
       - 'skill/tymm-material-planner/scripts/finalize_lesson_plan_production.py'
       - 'skill/tymm-material-planner/scripts/validation_binding.py'
+      - 'skill/tymm-material-planner/scripts/run_final_mutation_suite.py'
       - 'skill/tymm-material-planner/scripts/lesson_plan_context.py'
       - 'skill/tymm-material-planner/scripts/lesson_plan_generator.py'
       - 'skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py'
@@ -24,6 +25,7 @@ on:
       - 'skill/tymm-material-planner/scripts/validate_package_topology.py'
       - 'skill/tymm-material-planner/scripts/render_lesson_plan_markdown.py'
       - 'skill/tymm-material-planner/scripts/validate_lesson_plan_markdown.py'
+      - 'skill/tymm-material-planner/tests/final_mutation_manifest.json'
       - 'skill/tymm-material-planner/tests/test_large_class_route.py'
       - 'skill/tymm-material-planner/tests/test_closure_time_budgets.py'
       - 'skill/tymm-material-planner/tests/test_classroom_adaptations.py'
@@ -31,6 +33,7 @@ on:
       - 'skill/tymm-material-planner/tests/test_package_topology.py'
       - 'skill/tymm-material-planner/tests/test_lesson_plan_markdown_parity.py'
       - 'skill/tymm-material-planner/tests/test_validation_binding.py'
+      - 'skill/tymm-material-planner/tests/test_lesson_plan_context.py'
       - 'skill/tymm-material-planner/schemas/lesson_plan.schema.json'
       - 'courses/TDE_9/generated/lesson_plans/**'
       - 'courses/TDE_10/generated/lesson_plans/**'
@@ -128,6 +131,11 @@ jobs:
       - name: Run large-class route regression tests
         run: python -m unittest skill/tymm-material-planner/tests/test_large_class_route.py
 
+      - name: Run final mutation coverage suite
+        run: |
+          python skill/tymm-material-planner/scripts/run_final_mutation_suite.py \
+            --report /tmp/final-mutation-coverage-report.json
+
       - name: Resolve calendar-neutral course timelines
         run: |
           python skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py --knowledge-root courses/TDE_9
@@ -154,6 +162,7 @@ jobs:
           path: |
             /tmp/lesson-plan-validation-report.json
             /tmp/lesson-plan-markdown-parity-report.json
+            /tmp/final-mutation-coverage-report.json
           if-no-files-found: warn
 
   finalize-main:
