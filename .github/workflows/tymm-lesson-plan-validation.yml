@@ -48,10 +48,12 @@ on:
       - 'courses/TDE_10/textbook_map.json'
       - 'courses/TDE_9/textbook_forms_index.json'
       - 'courses/TDE_10/textbook_forms_index.json'
+  # Required checks must always be emitted for pull requests. Do not add a
+  # paths filter here; otherwise GitHub can leave the required check pending
+  # when a PR changes only files outside the lesson-plan path set.
   pull_request:
     branches:
       - main
-    paths: *lesson_plan_paths
   workflow_dispatch:
 
 permissions:
