@@ -1,0 +1,235 @@
+{
+  "schema_version": "1.0.0",
+  "purpose": "Final fail-closed mutation coverage for lesson-plan production risks P3-P10.",
+  "required_risk_families": [
+    "P3_ASSESSMENT_SCOPE",
+    "P4_LARGE_CLASS",
+    "P5_CLOSURE_LOAD",
+    "P6_ADAPTATION",
+    "P7_REFERENCE_GROUNDING",
+    "P8_PACKAGE_TOPOLOGY",
+    "P9_MARKDOWN_PARITY",
+    "P10_VALIDATION_BINDING"
+  ],
+  "mutations": [
+    {
+      "id": "P3_NARROW_THEME_ASSESSMENT",
+      "risk_family": "P3_ASSESSMENT_SCOPE",
+      "test_file": "skill/tymm-material-planner/tests/test_lesson_plan_context.py",
+      "test_class": "LessonPlanContextTests",
+      "test_method": "test_theme_assessment_cannot_claim_only_last_block_outcomes",
+      "expected_detectors": [
+        "THEME_ASSESSMENT_OUTCOMES_TOO_NARROW",
+        "LESSON_2_THEME_ASSESSMENT_OUTCOMES_TOO_NARROW"
+      ]
+    },
+    {
+      "id": "P4_MISSING_LARGE_CLASS_ROUTE",
+      "risk_family": "P4_LARGE_CLASS",
+      "test_file": "skill/tymm-material-planner/tests/test_large_class_route.py",
+      "test_class": "LargeClassRouteTests",
+      "test_method": "test_speaking_performance_requires_large_class_route",
+      "expected_detectors": ["LARGE_CLASS_ROUTE_REQUIRED"]
+    },
+    {
+      "id": "P4_INCOMPLETE_PERFORMANCE_LESSON_COVERAGE",
+      "risk_family": "P4_LARGE_CLASS",
+      "test_file": "skill/tymm-material-planner/tests/test_large_class_route.py",
+      "test_class": "LargeClassRouteTests",
+      "test_method": "test_route_must_cover_every_performance_lesson",
+      "expected_detectors": ["LARGE_CLASS_ROUTE_MISSING_PERFORMANCE_LESSONS"]
+    },
+    {
+      "id": "P4_CORE_DEPENDS_ON_SBP",
+      "risk_family": "P4_LARGE_CLASS",
+      "test_file": "skill/tymm-material-planner/tests/test_large_class_route.py",
+      "test_class": "LargeClassRouteTests",
+      "test_method": "test_core_route_cannot_depend_on_school_based_extension",
+      "expected_detectors": ["LARGE_CLASS_ROUTE_CORE_MUST_NOT_DEPEND_ON_SCHOOL_BASED_EXTENSION"]
+    },
+    {
+      "id": "P5_OVERBOOKED_CLOSURE_PERIOD",
+      "risk_family": "P5_CLOSURE_LOAD",
+      "test_file": "skill/tymm-material-planner/tests/test_closure_time_budgets.py",
+      "test_class": "ClosureTimeBudgetTests",
+      "test_method": "test_mixed_closure_cannot_overbook_period",
+      "expected_detectors": ["REQUIRED_TOTAL_MISMATCH", "PERIOD_BUDGET_MISMATCH"]
+    },
+    {
+      "id": "P5_OPTIONAL_EXTENSION_BECOMES_CORE",
+      "risk_family": "P5_CLOSURE_LOAD",
+      "test_file": "skill/tymm-material-planner/tests/test_closure_time_budgets.py",
+      "test_class": "ClosureTimeBudgetTests",
+      "test_method": "test_optional_extension_cannot_be_required_for_core",
+      "expected_detectors": ["OPTIONAL_EXTENSION_MUST_NOT_BE_REQUIRED"]
+    },
+    {
+      "id": "P5_CLOSURE_PACKAGE_DROPPED",
+      "risk_family": "P5_CLOSURE_LOAD",
+      "test_file": "skill/tymm-material-planner/tests/test_closure_time_budgets.py",
+      "test_class": "ClosureTimeBudgetTests",
+      "test_method": "test_contract_must_cover_every_theme_closure_package",
+      "expected_detectors": ["CLOSURE_PACKAGE_SET_MISMATCH"]
+    },
+    {
+      "id": "P5_TEACHER_TIME_MARKER_DROPPED",
+      "risk_family": "P5_CLOSURE_LOAD",
+      "test_file": "skill/tymm-material-planner/tests/test_closure_time_budgets.py",
+      "test_class": "ClosureTimeBudgetTests",
+      "test_method": "test_plan_must_surface_time_budget_to_teacher",
+      "expected_detectors": ["PLAN_TIME_BUDGET_MARKER_MISSING"]
+    },
+    {
+      "id": "P6_CRITICAL_PACKAGE_DROPS_ADAPTATION",
+      "risk_family": "P6_ADAPTATION",
+      "test_file": "skill/tymm-material-planner/tests/test_classroom_adaptations.py",
+      "test_class": "ClassroomAdaptationTests",
+      "test_method": "test_target_package_cannot_drop_adaptation",
+      "expected_detectors": ["CLASSROOM_ADAPTATIONS_REQUIRED"]
+    },
+    {
+      "id": "P6_TRANSCRIPT_REPLACES_LISTENING",
+      "risk_family": "P6_ADAPTATION",
+      "test_file": "skill/tymm-material-planner/tests/test_classroom_adaptations.py",
+      "test_class": "ClassroomAdaptationTests",
+      "test_method": "test_media_transcript_cannot_replace_listening_by_default",
+      "expected_detectors": ["TRANSCRIPT_IS_SUPPORT_NOT_DEFAULT_SUBSTITUTE"]
+    },
+    {
+      "id": "P6_SPEAKING_BECOMES_WRITTEN_ONLY",
+      "risk_family": "P6_ADAPTATION",
+      "test_file": "skill/tymm-material-planner/tests/test_classroom_adaptations.py",
+      "test_class": "ClassroomAdaptationTests",
+      "test_method": "test_speaking_cannot_become_written_only_substitution",
+      "expected_detectors": ["WRITTEN_ONLY_SPEAKING_SUBSTITUTION_FORBIDDEN"]
+    },
+    {
+      "id": "P6_MANIFEST_OMITS_CRITICAL_PACKAGE",
+      "risk_family": "P6_ADAPTATION",
+      "test_file": "skill/tymm-material-planner/tests/test_classroom_adaptations.py",
+      "test_class": "ClassroomAdaptationTests",
+      "test_method": "test_manifest_cannot_omit_discovered_target",
+      "expected_detectors": ["ADAPTATION_PACKAGE_SET_MISMATCH"]
+    },
+    {
+      "id": "P7_USED_FORM_UNGROUNDED",
+      "risk_family": "P7_REFERENCE_GROUNDING",
+      "test_file": "skill/tymm-material-planner/tests/test_grounded_references.py",
+      "test_class": "GroundedReferencesTest",
+      "test_method": "test_used_form_without_structured_ref_fails",
+      "expected_detectors": ["FORM_REFERENCE_NOT_GROUNDED"]
+    },
+    {
+      "id": "P7_ARTIFACT_PROSE_UNGROUNDED",
+      "risk_family": "P7_REFERENCE_GROUNDING",
+      "test_file": "skill/tymm-material-planner/tests/test_grounded_references.py",
+      "test_class": "GroundedReferencesTest",
+      "test_method": "test_artifact_prose_without_structured_ref_fails",
+      "expected_detectors": ["ARTIFACT_REFERENCE_NOT_GROUNDED"]
+    },
+    {
+      "id": "P7_UNKNOWN_CANONICAL_ID",
+      "risk_family": "P7_REFERENCE_GROUNDING",
+      "test_file": "skill/tymm-material-planner/tests/test_grounded_references.py",
+      "test_class": "GroundedReferencesTest",
+      "test_method": "test_unknown_canonical_looking_id_fails",
+      "expected_detectors": ["UNRESOLVED_CANONICAL_REFERENCE_TOKENS"]
+    },
+    {
+      "id": "P7_WRONG_ARTIFACT_BINDING",
+      "risk_family": "P7_REFERENCE_GROUNDING",
+      "test_file": "skill/tymm-material-planner/tests/test_grounded_references.py",
+      "test_class": "GroundedReferencesTest",
+      "test_method": "test_wrong_artifact_binding_key_fails",
+      "expected_detectors": ["ARTIFACT_BINDING_KEY_MISMATCH"]
+    },
+    {
+      "id": "P7_UNVERIFIED_EXTERNAL_EQUIVALENCE",
+      "risk_family": "P7_REFERENCE_GROUNDING",
+      "test_file": "skill/tymm-material-planner/tests/test_grounded_references.py",
+      "test_class": "GroundedReferencesTest",
+      "test_method": "test_unverified_eba_equivalence_claim_fails",
+      "expected_detectors": ["UNVERIFIED_EXTERNAL_ASSESSMENT_EQUIVALENCE_CLAIM"]
+    },
+    {
+      "id": "P8_PACKAGE_DROPPED",
+      "risk_family": "P8_PACKAGE_TOPOLOGY",
+      "test_file": "skill/tymm-material-planner/tests/test_package_topology.py",
+      "test_class": "PackageTopologyTests",
+      "test_method": "test_missing_package_is_rejected",
+      "expected_detectors": ["TOPOLOGY_PACKAGE_SET_MISMATCH"]
+    },
+    {
+      "id": "P8_COURSE_HOUR_OVERLAP",
+      "risk_family": "P8_PACKAGE_TOPOLOGY",
+      "test_file": "skill/tymm-material-planner/tests/test_package_topology.py",
+      "test_class": "PackageTopologyTests",
+      "test_method": "test_course_hour_overlap_is_rejected",
+      "expected_detectors": ["COURSE_RANGE_START_MISMATCH"]
+    },
+    {
+      "id": "P8_PACKAGE_REORDERED",
+      "risk_family": "P8_PACKAGE_TOPOLOGY",
+      "test_file": "skill/tymm-material-planner/tests/test_package_topology.py",
+      "test_class": "PackageTopologyTests",
+      "test_method": "test_package_reordering_is_rejected",
+      "expected_detectors": ["TOPOLOGY_PACKAGE_ORDER_MISMATCH"]
+    },
+    {
+      "id": "P8_WRONG_PATH_AND_HOUR",
+      "risk_family": "P8_PACKAGE_TOPOLOGY",
+      "test_file": "skill/tymm-material-planner/tests/test_package_topology.py",
+      "test_class": "PackageTopologyTests",
+      "test_method": "test_wrong_path_and_hour_are_rejected",
+      "expected_detectors": ["PATH_MISMATCH", "LESSON_HOURS_MISMATCH"]
+    },
+    {
+      "id": "P9_STALE_MARKDOWN",
+      "risk_family": "P9_MARKDOWN_PARITY",
+      "test_file": "skill/tymm-material-planner/tests/test_lesson_plan_markdown_parity.py",
+      "test_class": "LessonPlanMarkdownParityTests",
+      "test_method": "test_json_change_without_markdown_regeneration_fails",
+      "expected_detectors": ["MARKDOWN_PARITY_MISMATCH"]
+    },
+    {
+      "id": "P9_UNRENDERED_JSON_FIELD",
+      "risk_family": "P9_MARKDOWN_PARITY",
+      "test_file": "skill/tymm-material-planner/tests/test_lesson_plan_markdown_parity.py",
+      "test_class": "LessonPlanMarkdownParityTests",
+      "test_method": "test_unknown_json_field_fails_closed",
+      "expected_detectors": ["UNRENDERED_FIELDS"]
+    },
+    {
+      "id": "P9_ORPHAN_MARKDOWN",
+      "risk_family": "P9_MARKDOWN_PARITY",
+      "test_file": "skill/tymm-material-planner/tests/test_lesson_plan_markdown_parity.py",
+      "test_class": "LessonPlanMarkdownParityTests",
+      "test_method": "test_orphan_markdown_fails_course",
+      "expected_detectors": ["ORPHAN_MARKDOWN_WITHOUT_JSON"]
+    },
+    {
+      "id": "P10_VALIDATED_CONTENT_MUTATED",
+      "risk_family": "P10_VALIDATION_BINDING",
+      "test_file": "skill/tymm-material-planner/tests/test_validation_binding.py",
+      "test_class": "ValidationBindingTests",
+      "test_method": "test_mutated_validated_content_is_rejected",
+      "expected_detectors": ["VALIDATION_BINDING_MISMATCH:content_fingerprint"]
+    },
+    {
+      "id": "P10_REPORT_FROM_WRONG_COMMIT",
+      "risk_family": "P10_VALIDATION_BINDING",
+      "test_file": "skill/tymm-material-planner/tests/test_validation_binding.py",
+      "test_class": "ValidationBindingTests",
+      "test_method": "test_report_from_different_commit_is_rejected",
+      "expected_detectors": ["VALIDATION_COMMIT_MISMATCH"]
+    },
+    {
+      "id": "P10_CHECKOUT_HEAD_MOVED",
+      "risk_family": "P10_VALIDATION_BINDING",
+      "test_file": "skill/tymm-material-planner/tests/test_validation_binding.py",
+      "test_class": "ValidationBindingTests",
+      "test_method": "test_checkout_head_mismatch_is_rejected",
+      "expected_detectors": ["CHECKOUT_HEAD_MISMATCH"]
+    }
+  ]
+}
