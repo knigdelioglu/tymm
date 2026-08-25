@@ -122,10 +122,11 @@ def load_block_hour_bindings(root: Path) -> tuple[dict[str, dict[str, Any]], dic
     return bindings, doc
 
 def relevant_files(root: Path) -> list[tuple[str, Path]]:
-    names = ["curriculum_map.json","curriculum_process_component_resolution.json","textbook_map.json","textbook_forms_index.json","source_manifest.json","planning/course_timeline.json","planning/official_topic_hour_distribution.json","planning/block_hour_bindings.json","production/production_manifest.json","production/assessment_artifact_registry.json","production/assessment_design_contract.json","production/consolidated_resource_plan.json","production/teaching_blocks.json"]
+    names = ["curriculum_map.json","curriculum_process_component_resolution.json","textbook_map.json","textbook_forms_index.json","source_manifest.json","planning/course_timeline.json","planning/official_topic_hour_distribution.json","planning/block_hour_bindings.json","planning/lesson_plan_production_plan.json","production/production_manifest.json","production/assessment_artifact_registry.json","production/assessment_design_contract.json","production/consolidated_resource_plan.json","production/teaching_blocks.json"]
     paths: list[tuple[str, Path]] = [(n, root/n) for n in names if (root/n).exists()]
     for pattern in ("themes/tema_*/alignment.json","themes/tema_*/gap_analysis.json","themes/tema_*/resource_plan.json","themes/tema_*/needs.json"):
         paths += [(p.relative_to(root).as_posix(), p) for p in sorted(root.glob(pattern))]
+    paths += [(p.relative_to(root).as_posix(), p) for p in sorted(root.glob("generated/lesson_plans/*/*/*.json"))]
     if (root / "curriculum_process_component_resolution.json").exists():
         shared = process_component_catalog_path(root)
         if shared is None:
