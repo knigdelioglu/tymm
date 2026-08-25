@@ -554,13 +554,65 @@ Strict `TYMM Lesson Plan Full Validation` run `32862686503` sonucunda:
 
 Böylece “88 paket ve toplam 172 saat var” düzeyindeki zayıf kabul, artık exact sıra + saat aralığı + kaynak çapraz kontrolü + gap/overlap denetimine yükseltildi.
 
+## P9 — Deterministik JSON→Markdown parity — TAMAMLANDI
+
+### Kapatılan risk
+
+**YELLOW-MD-PARITY — JSON ve Markdown için yalnız eş dosya varlığı doğrulanıyor**
+
+Durum: `CLOSED`
+
+### Canonical render modeli
+
+`skill/tymm-material-planner/scripts/render_lesson_plan_markdown.py` ile lesson-plan JSON artık Markdown'ın tek authoritative girdisidir. Renderer öğretmen-okunur başlık, kapsam, ders akışı, canonical referanslar, kalabalık sınıf rotası, sınıf uyarlamaları, medya fallback'i, ölçme kanıtı, materyaller ve devam bilgisini deterministik sırada üretir.
+
+Renderer fail-closed çalışır: plan verisine renderer tarafından temsil edilmeyen yeni bir alan eklenirse `UNRENDERED_FIELDS` ile durur. Böylece yeni JSON alanı Markdown'da sessizce kaybolamaz. Her Markdown ayrıca canonical, key-sorted JSON içeriğinin `SHA-256` parmak izini taşır.
+
+### Exact parity sözleşmesi
+
+`validate_lesson_plan_markdown.py` her `*.json` için canonical Markdown'ı yeniden üretir ve committed `*.md` ile **byte-exact** karşılaştırır. Aşağıdaki durumlar FAIL'dir:
+
+- JSON değişmiş fakat Markdown yeniden üretilmemişse
+- Markdown elle değiştirilmişse
+- JSON'a renderer'ın bilmediği alan eklenmişse
+- Markdown eksikse
+- karşılığında JSON bulunmayan orphan Markdown varsa
+
+`validate_all_lesson_plans.py` içindeki eski yalnız-varlık kontrolü de kaldırıldı; aynı parity validator artık full-plan doğrulamasının doğrudan parçasıdır. JSON ve Markdown paket sayıları ayrıca exact eşlenir.
+
+### Migration ve regression kapsamı
+
+Her iki sınıftaki **176 Markdown** bir kez canonical renderer ile yeniden üretildi ve repoya commitlendi. Sonrasında auto-render/publish adımları workflow'dan kaldırıldı; CI committed Markdown'ı kendi kendine düzeltmez.
+
+`test_lesson_plan_markdown_parity.py` şu negatif mutasyonları kapsar:
+
+- JSON özetini değiştirip Markdown'ı eski bırakma
+- Markdown'a manuel içerik ekleme
+- bilinmeyen JSON alanı ekleme
+- orphan Markdown oluşturma
+
+Geçerli canonical render için ayrıca pozitif PASS testi vardır.
+
+### P9 kabul sonucu
+
+Strict `TYMM Lesson Plan Full Validation` run `32869470589` sonucunda:
+
+- `Run JSON-Markdown parity regression tests`: `SUCCESS`
+- `Validate deterministic JSON-Markdown parity`: `SUCCESS`
+- `Run package-topology regression tests`: `SUCCESS`
+- `Validate package-topology contracts`: `SUCCESS`
+- P7/P6/P5/P4 contract ve regression kapıları: `SUCCESS`
+- `Validate all 176 lesson-plan packages`: `SUCCESS`
+- finalization: `SUCCESS`
+
+Böylece Markdown artık JSON'dan bağımsız elle sürdürülen ikinci bir gerçeklik katmanı değildir; JSON değiştiği anda committed öğretmen görünümü de deterministik olarak aynı semantiğe gelmek zorundadır.
+
 ## Aktif sarı riskler
 
-P0–P8 kapatıldıktan sonra aktif sarılar:
+P0–P9 kapatıldıktan sonra aktif sarılar:
 
 | ID | Faz | Risk | Etkilenen kapsam | Hedef |
 |---|---|---|---|---|
-| `YELLOW-MD-PARITY` | P9 | JSON ve Markdown için yalnız eş dosya varlığı doğrulanıyor | 176 paket | Deterministik JSON→Markdown parity |
 | `YELLOW-CI-FINALIZER` | P10 | Full validation PR gate değil; finalizer validation report/HEAD fingerprint'e bağlı değil | Engineering/release gate | PR gate + SHA/fingerprint-bound PASS |
 | `YELLOW-MUTATION-COVERAGE` | P11 | Semantik/topolojik hatalar için negatif mutation kapsamı eksik | CI | Bilinçli bozuk fixture'ların beklenen FAIL testleri |
 
@@ -580,7 +632,7 @@ P5  Aşırı yüklü kapanışları sadeleştir                ✅ TAMAMLANDI
 P6  Farklılaştırma / erişilebilirlik / fallback       ✅ TAMAMLANDI
 P7  Rubrik-resource-artifact grounding                ✅ TAMAMLANDI
 P8  Paket topolojisi                                  ✅ TAMAMLANDI
-P9  JSON-Markdown parity
+P9  JSON-Markdown parity                              ✅ TAMAMLANDI
 P10 CI / finalizer sertleştirme
 P11 Mutation testleri ve final kabul
 ```
