@@ -42,6 +42,53 @@ def resolve(root: Path) -> dict[str, Any]:
     if len(topic_theme_by_id) != len(topics.get("themes", [])):
         raise ValueError("DUPLICATE_TOPIC_THEME_ID")
 
+    # Canonical hour envelope is curriculum-defined, not calendar-derived.
+    # Annual-plan week/date placement may contain residual rows, but those rows
+    # must be excluded before this artifact reaches the timeline resolver.
+    time_semantics = topics.get("time_semantics", {})
+    normative_instruction_per_theme = time_semantics.get("normative_instruction_hours_per_theme")
+    normative_school_based_per_theme = time_semantics.get("normative_school_based_planning_hours_per_theme")
+    normative_total_per_theme = time_semantics.get("normative_total_hours_per_theme")
+    if not isinstance(normative_instruction_per_theme, int) or isinstance(normative_instruction_per_theme, bool) or normative_instruction_per_theme <= 0:
+        raise ValueError(f"INVALID_NORMATIVE_INSTRUCTION_HOURS_PER_THEME: {normative_instruction_per_theme}")
+    if not isinstance(normative_school_based_per_theme, int) or isinstance(normative_school_based_per_theme, bool) or normative_school_based_per_theme < 0:
+        raise ValueError(f"INVALID_NORMATIVE_SCHOOL_BASED_HOURS_PER_THEME: {normative_school_based_per_theme}")
+    expected_outer_total = normative_instruction_per_theme + normative_school_based_per_theme
+    if normative_total_per_theme != expected_outer_total:
+        raise ValueError(f"INVALID_NORMATIVE_THEME_TOTAL: {normative_total_per_theme}!={expected_outer_total}")
+
+    for topic_theme in topics.get("themes", []):
+        tid = topic_theme.get("theme_id")
+        theme_instruction = topic_theme.get("normative_instruction_hours")
+        school_based = topic_theme.get("school_based_planning_hours")
+        official_total = topic_theme.get("official_total_hours")
+        declared_topic_total = topic_theme.get("source_planning_weight_total")
+        if theme_instruction != normative_instruction_per_theme:
+            raise ValueError(
+                f"THEME_NORMATIVE_INSTRUCTION_HOURS_MISMATCH: {tid} {theme_instruction}!={normative_instruction_per_theme}"
+            )
+        if school_based != normative_school_based_per_theme:
+            raise ValueError(
+                f"THEME_SCHOOL_BASED_HOURS_MISMATCH: {tid} {school_based}!={normative_school_based_per_theme}"
+            )
+        if official_total != expected_outer_total:
+            raise ValueError(f"THEME_OFFICIAL_TOTAL_HOURS_MISMATCH: {tid} {official_total}!={expected_outer_total}")
+
+        allocation_total = 0
+        for allocation in topic_theme.get("topic_allocations", []):
+            hours = allocation.get("source_planning_weight_hours")
+            if not isinstance(hours, int) or isinstance(hours, bool) or hours <= 0:
+                raise ValueError(f"INVALID_TOPIC_ALLOCATION_HOURS: {tid} {allocation}")
+            allocation_total += hours
+        if declared_topic_total != allocation_total:
+            raise ValueError(
+                f"TOPIC_ALLOCATION_TOTAL_MISMATCH: {tid} {allocation_total}!={declared_topic_total}"
+            )
+        if allocation_total != normative_instruction_per_theme:
+            raise ValueError(
+                f"CALENDAR_RESIDUAL_NOT_EXCLUDED: {tid} {allocation_total}!={normative_instruction_per_theme}"
+            )
+
     binding_by_id: dict[str, dict[str, Any]] = {}
     theme_binding: dict[str, dict[str, Any]] = {}
     for theme in bindings_doc.get("themes", []):
@@ -86,11 +133,12 @@ def resolve(root: Path) -> dict[str, Any]:
     school_based_per_theme = next(iter(school_based_unique)) if len(school_based_unique) == 1 else None
     annual_total = instructional_total + school_based_total
 
-    timeline["timeline_version"] = "1.1.2"
+    timeline["timeline_version"] = "1.1.3"
     timeline["timeline_resolution"] = "BLOCK_TIME_RESOLVED"
     semantics = timeline.setdefault("timeline_semantics", {})
     semantics["calendar_neutral_topic_hour_distribution"] = True
     semantics["calendar_fields_intentionally_excluded"] = True
+    semantics["calendar_residual_hours_excluded_before_resolution"] = True
 
     source_basis = timeline.setdefault("source_basis", {})
     authority = list(source_basis.get("authority_order", []))
@@ -129,14 +177,14 @@ def resolve(root: Path) -> dict[str, Any]:
     }
     if school_based_per_theme is not None:
         audit["outer_theme_total_hours"] = {
-            "value": 43 + school_based_per_theme,
+            "value": normative_instruction_per_theme + school_based_per_theme,
             "source": "curriculum_map.json + planning/official_topic_hour_distribution.json",
             "status": "DETERMINISTIC_RECONCILIATION",
         }
     audit["block_specific_official_hours"] = {
         "value": {bid: binding["planned_hours"] for bid, binding in sorted(binding_by_id.items())},
         "source": "planning/block_hour_bindings.json",
-        "source_locator": "MEB taslak yıllık plan konu/saat dağılımı; takvim alanları hariç",
+        "source_locator": "MEB taslak yıllık plan konu/saat dağılımı; takvim alanları ve haftalık yerleşim artıkları hariç",
         "status": "OFFICIAL_DRAFT_ANNUAL_PLAN_DERIVED_CALENDAR_NEUTRAL",
     }
     audit["weekly_lesson_hours"] = {
@@ -229,6 +277,7 @@ def resolve(root: Path) -> dict[str, Any]:
         "yarıyıl tatili",
         "belirli gün ve haftalar",
         "resmî tatil yerleşimi",
+        "haftalık yerleşimden doğan artık ders saati satırları",
     ]
 
     write_json(timeline_path, timeline)
