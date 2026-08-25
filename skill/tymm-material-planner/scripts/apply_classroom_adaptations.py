@@ -8,16 +8,15 @@ from pathlib import Path
 from typing import Any
 
 MEDIA_MARKERS = (
-    "DINLEME",
-    "IZLEME",
-    "İZLEME",
     "PODCAST",
     "VIDEO",
     "VİDEO",
     "BELGESEL",
     "SES_KAYDI",
     "SES KAYDI",
+    "SES KAYDI/",
     "AUDIO",
+    "KAREKOD",
 )
 DIGITAL_MARKERS = ("EBA", "DIJITAL", "DİJİTAL", "CEVRIMICI", "ÇEVRİMİÇİ")
 
@@ -43,23 +42,36 @@ def _append_text(parts: list[str], value: Any) -> None:
             _append_text(parts, item)
 
 
-def plan_signal(plan: dict[str, Any]) -> str:
-    parts: list[str] = []
-    for key in ("block_id", "plan_title", "plan_summary"):
-        _append_text(parts, plan.get(key))
+def media_signal(plan: dict[str, Any]) -> str:
+    """Return execution-grounded media signals, excluding narrative summaries/objectives.
+
+    A package is media-critical when its block itself is listening/viewing, or when the
+    concrete activity/material references require a media artifact. Mentioning another
+    skill in a theme summary must not make an otherwise text-only package media-dependent.
+    """
+    parts: list[str] = [str(plan.get("block_id") or "")]
     _append_text(parts, plan.get("used_activity_ids"))
     for lesson in plan.get("lessons", []):
         if not isinstance(lesson, dict):
             continue
-        for key in ("title", "objective", "activity_ids", "materials"):
-            _append_text(parts, lesson.get(key))
+        _append_text(parts, lesson.get("activity_ids"))
+        _append_text(parts, lesson.get("materials"))
     return " ".join(parts).upper()
 
 
 def detect_triggers(plan: dict[str, Any]) -> list[str]:
-    signal = plan_signal(plan)
+    signal = media_signal(plan)
+    block_id = str(plan.get("block_id") or "").upper()
     triggers: list[str] = []
-    if any(marker in signal for marker in MEDIA_MARKERS):
+    block_is_listening_viewing = (
+        "DINLEME" in block_id
+        or "DINLEME_IZLEME" in block_id
+        or "DINLEME_İZLEME" in block_id
+        or "IZLEME" in block_id
+        or "İZLEME" in block_id
+    )
+    explicit_media = any(marker in signal for marker in MEDIA_MARKERS)
+    if block_is_listening_viewing or explicit_media:
         triggers.append("MEDIA_DEPENDENT")
     if isinstance(plan.get("large_class_route"), dict):
         triggers.append("LIVE_PERFORMANCE")
@@ -67,11 +79,19 @@ def detect_triggers(plan: dict[str, Any]) -> list[str]:
 
 
 def media_types(plan: dict[str, Any]) -> list[str]:
-    signal = plan_signal(plan)
+    signal = media_signal(plan)
+    block_id = str(plan.get("block_id") or "").upper()
     result: list[str] = []
-    if any(marker in signal for marker in ("DINLEME", "PODCAST", "SES_KAYDI", "SES KAYDI", "AUDIO")):
+    if (
+        "DINLEME" in block_id
+        or any(marker in signal for marker in ("PODCAST", "SES_KAYDI", "SES KAYDI", "AUDIO", "KAREKOD"))
+    ):
         result.append("AUDIO")
-    if any(marker in signal for marker in ("IZLEME", "İZLEME", "VIDEO", "VİDEO", "BELGESEL")):
+    if (
+        "IZLEME" in block_id
+        or "İZLEME" in block_id
+        or any(marker in signal for marker in ("VIDEO", "VİDEO", "BELGESEL"))
+    ):
         result.append("VIDEO")
     if any(marker in signal for marker in DIGITAL_MARKERS):
         result.append("DIGITAL_TOOL")
@@ -112,7 +132,7 @@ def build_adaptations(plan: dict[str, Any], triggers: list[str]) -> dict[str, An
             "assessment_construct_preserved": True,
         },
         "evidence_equivalence": (
-            "Uyarlama yalnız temsil, süreç, ortam veya katılım yolunu değiştirir; canonical öğrenme çıktısı, görevın temel yapısı ve değerlendirmede aranan kanıt aynı kalır."
+            "Uyarlama yalnız temsil, süreç, ortam veya katılım yolunu değiştirir; canonical öğrenme çıktısı, görevin temel yapısı ve değerlendirmede aranan kanıt aynı kalır."
         ),
     }
 
@@ -165,11 +185,10 @@ def apply(knowledge_root: Path, *, write: bool) -> dict[str, Any]:
         current = plan.get("classroom_adaptations")
 
         if not triggers:
-            if current is not None:
-                if write:
-                    plan.pop("classroom_adaptations", None)
-                    write_json(path, plan, pretty=False)
-                    changed_paths.append(relative)
+            if current is not None and write:
+                plan.pop("classroom_adaptations", None)
+                write_json(path, plan, pretty=False)
+                changed_paths.append(relative)
             continue
 
         if "MEDIA_DEPENDENT" in triggers:
