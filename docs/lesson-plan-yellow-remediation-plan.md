@@ -250,13 +250,110 @@ Geçici materialization adımıyla budget dosyaları ve öğretmen-facing süre 
 
 Böylece tema/yıl kapanışı artık “test + günlük + düzeltme + portfolyo + geçiş hazırlığı”nın aynı çekirdek saatte zorunlu kabul edildiği açık uçlu bir iş listesi değildir; çekirdek ile ihtiyaç-temelli genişletme teknik olarak ayrılmıştır.
 
+## P6 — Farklılaştırma, erişilebilirlik ve medya fallback — TAMAMLANDI
+
+### Kapatılan risk
+
+**YELLOW-ADAPTATION — Farklılaştırma, erişilebilirlik ve medya fallback'i lesson-plan schema'da first-class değil**
+
+Durum: `CLOSED`
+
+### Seçici kritik-paket modeli
+
+`classroom_adaptations` bütün 176 pakete boilerplate olarak eklenmez. Fail-closed detector yalnız iki gerçek uygulama sinyalini hedefler:
+
+- `MEDIA_DEPENDENT`: dinleme/izleme bloğu veya gerçek activity/material referansında podcast, video, belgesel, ses kaydı/karekod gibi medya gereksinimi.
+- `LIVE_PERFORMANCE`: P4'te gerçek canlı sözlü performans olarak belirlenmiş ve `large_class_route` taşıyan paket.
+
+Narrative `plan_summary` veya objective içinde başka bir beceriden söz edilmesi tek başına medya bağımlılığı sayılmaz. Detector bu nedenle blok kimliği + gerçek activity/material yürütme kanıtından türetilir.
+
+Kesin manifest kapsamı:
+
+- **TDE9:** 36 kritik paket = 20 medya-bağımlı + 16 canlı performans, overlap 0.
+- **TDE10:** 32 kritik paket = 21 medya-bağımlı + 13 canlı performans, overlap 2.
+- **Toplam:** 68 benzersiz kritik paket; 41 medya-bağımlı, 29 canlı performans, 2 paket iki kategoriye birden girer.
+
+Manifestler:
+
+- `courses/TDE_9/production/classroom_adaptation_manifest.json`
+- `courses/TDE_10/production/classroom_adaptation_manifest.json`
+
+### First-class `classroom_adaptations` sözleşmesi
+
+Lesson-plan schema kritik paketlerde aşağıdaki katmanları temsil edebilir; validator bunların hedef paketlerde gerçekten bulunmasını zorunlu kılar:
+
+1. **Farklılaştırma**
+   - `scaffold_route`
+   - `enrichment_route`
+   - `outcomes_unchanged=true`
+2. **Erişilebilirlik**
+   - `representation_supports`
+   - `participation_supports`
+   - `environment_supports`
+   - `assessment_construct_preserved=true`
+3. **Kanıt eşdeğerliği**
+   - uyarlama temsil/süreç/ortam/katılım yolunu değiştirebilir; canonical çıktı ve değerlendirmede aranan temel kanıtı düşüremez.
+
+### Medya fallback güvenlik kuralları
+
+`MEDIA_DEPENDENT` paketlerde `media_fallback` zorunludur:
+
+- çekirdek rota internet bağlantısına bağımlı olamaz (`network_independent_core_route=true`);
+- mümkünse aynı kaynağın yerel/çevrimdışı kopyası, değilse aynı öğrenme kanıtını taşıyan öğretmen-onaylı eşdeğer kullanılmalıdır;
+- altyazı/transkript, yeniden oynatma ve sözel/görsel açıklama erişim desteği olabilir;
+- **dinleme/izleme becerisinin kendisi hedef veya ölçme nesnesiyse transkript varsayılan ikame değildir** (`transcript_is_support_not_default_substitute=true`).
+
+Bu ayrım, erişilebilirlik sağlarken ölçülen construct'ın sessizce “dinleme yerine okuma”ya dönüşmesini engeller.
+
+### Canlı performans erişim rotası
+
+`LIVE_PERFORMANCE` paketlerde `live_performance_access` zorunludur. Desteklenen eşdeğer yürütmeler:
+
+- küçük grupta canlı performans (`SMALL_GROUP_LIVE`)
+- öğretmenin doğrudan gözlediği canlı performans (`TEACHER_OBSERVED_LIVE`)
+- kurum/öğretmen uygulaması izin veriyorsa ve kayıt için gerekli onay/rıza varsa kayıtlı sözlü performans (`RECORDED_ORAL_IF_ALLOWED`)
+
+Aynı sözlü performans kanıtı korunur; **yalnız yazılı ürünle konuşma performansı ikamesi yasaktır** (`written_only_substitution_allowed=false`). Kayıt rotasında `recording_requires_consent=true` zorunludur.
+
+### P6 fail-closed doğrulama
+
+`validate_classroom_adaptations.py` artık:
+
+1. Kritik paket kümesini source-grounded detector ile yeniden keşfeder ve manifestle birebir eşler.
+2. Kritik olmayan pakete gereksiz adaptation eklenirse FAIL verir.
+3. Kritik pakette `classroom_adaptations` yoksa FAIL verir.
+4. Farklılaştırmanın öğrenme çıktılarını, erişilebilirliğin assessment construct'ını koruduğunu zorunlu kılar.
+5. Medya paketinde çevrimdışı rota, aynı/eşdeğer kaynak kanıtı ve transkript güvenlik kuralını doğrular.
+6. Canlı performansta eşdeğer sözlü rota, yazılı-only ikame yasağı ve kayıt rızasını doğrular.
+7. Manifest summary ve package/path/theme/block/trigger/media-type alanlarını gerçek planlarla exact eşler.
+
+`test_classroom_adaptations.py` şu negatif mutation'ları kapsar:
+
+- kritik paketten adaptation alanını silme
+- transkripti varsayılan dinleme ikamesine dönüştürme
+- sözlü performansı yalnız yazılı ürüne çevirmeye izin verme
+- kritik paketi manifestten çıkarma
+
+### P6 kabul sonucu
+
+İlk materialization sonrasında detector narrative özetlerden etkilenmeyecek şekilde daraltıldı ve kapsam yeniden üretildi. Daha sonra auto-materialization/publish adımları workflow'dan kaldırıldı. Strict doğrulamada:
+
+- `Run classroom adaptation regression tests`: `SUCCESS`
+- `Validate classroom adaptation contracts`: `SUCCESS`
+- `Run closure time-budget regression tests`: `SUCCESS`
+- `Validate closure time-budget contracts`: `SUCCESS`
+- `Run large-class route regression tests`: `SUCCESS`
+- `Validate all 176 lesson-plan packages`: `SUCCESS`
+- finalization: `SUCCESS`
+
+Böylece CI artık eksik/bozuk adaptation'ı kendisi tamamlamıyor; repoya commitlenmiş 68 kritik paketin sözleşmesini doğrudan fail-closed doğruluyor.
+
 ## Aktif sarı riskler
 
-P0–P5 kapatıldıktan sonra aktif sarılar:
+P0–P6 kapatıldıktan sonra aktif sarılar:
 
 | ID | Faz | Risk | Etkilenen kapsam | Hedef |
 |---|---|---|---|---|
-| `YELLOW-ADAPTATION` | P6 | Farklılaştırma, erişilebilirlik ve medya fallback'i lesson-plan schema'da first-class değil | Kritik paketler | Yapısal `classroom_adaptations` |
 | `YELLOW-REF-GROUNDING` | P7 | Rubrik/resource/artifact kimlikleri prose içinde kalabiliyor | Rubrik/materyal kullanan paketler | Structured refs + canonical grounding |
 | `YELLOW-PACKAGE-TOPOLOGY` | P8 | 88 paket/172 saat toplamı exact paket topolojisini kanıtlamıyor | TDE9/TDE10 | Exact manifest, sıra, saat aralığı, gap/overlap kontrolü |
 | `YELLOW-MD-PARITY` | P9 | JSON ve Markdown için yalnız eş dosya varlığı doğrulanıyor | 176 paket | Deterministik JSON→Markdown parity |
@@ -276,7 +373,7 @@ P2  TDE10 okul temelli kariyer uyumunu düzelt        ✅ TAMAMLANDI
 P3  Tema değerlendirmesi semantiğini düzelt          ✅ TAMAMLANDI
 P4  Kalabalık sınıf rotalarını ekle                   ✅ TAMAMLANDI
 P5  Aşırı yüklü kapanışları sadeleştir                ✅ TAMAMLANDI
-P6  Farklılaştırma / erişilebilirlik / fallback
+P6  Farklılaştırma / erişilebilirlik / fallback       ✅ TAMAMLANDI
 P7  Rubrik-resource-artifact grounding
 P8  Paket topolojisi
 P9  JSON-Markdown parity
