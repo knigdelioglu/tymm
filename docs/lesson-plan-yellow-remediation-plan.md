@@ -111,13 +111,73 @@ Regression testleri açık theme scope eksikliğini, daraltılmış outcome kaps
 
 `TYMM Lesson Plan Full Validation` bütün **176 paket / 344 çekirdek ders saati** üzerinde başarıyla tamamlandı; `Validate all 176 lesson-plan packages` ve finalization adımları `SUCCESS` verdi.
 
+## P4 — Kalabalık sınıf rotalarını ekle — TAMAMLANDI
+
+### Kapatılan risk
+
+**YELLOW-LARGE-CLASS — Bireysel konuşma/yeniden performans akışı kalabalık sınıfta süreye sığmayabilir**
+
+Durum: `CLOSED`
+
+### Uygulanabilirlik modeli
+
+Konuşma bloklarında gerçek canlı performans etkinliği kullanan paketlere first-class `large_class_route` eklendi. Hazırlık, planlama veya yalnız yansıtma yapan paketler sırf konuşma bloğunda oldukları için bu rotayı taşımak zorunda değildir.
+
+Performans sinyalleri kaynak etkinlik kimliklerinden fail-closed belirlenir: `KONUSMA_SIRASI`, canlı `SUNUM`, `PODCAST_URETIM`, `CANLANDIR` ve `DINLETI` türleri.
+
+`large_class_route` şu sözleşmeyi taşır:
+
+- `mode=PARALLEL_GROUPS`
+- gerçek ders numaralarını belirleyen `applies_to_lesson_numbers`
+- 2–8 arası `parallel_group_count`
+- grup içi konuşmacı/gözlemci rollerinin döndürülmesi
+- öğretmenin gruplar arasında planlı rotasyonu ve her öğrenciden doğrudan kanıt toplaması
+- akran gözlemcinin kişilik yorumu yerine mevcut performans ölçütlerinden gözlenebilir kanıt kaydetmesi
+- 30–300 saniye arası performans zaman sınırı
+- standart rota ile aynı etkinlik, outcome, ölçüt ve kanıtların korunmasını garanti eden `evidence_equivalence`
+- `core_hours_independent_of_school_based_extension=true`
+
+Okul-temelli ek saat yalnız hedefli ek prova veya kısa yeniden performans için **opsiyonel** olabilir. Hiçbir çekirdek konuşma paketi, tamamlanabilmek için okul-temelli saate bağımlı hâle getirilemez.
+
+### Migrate edilen paketler
+
+Validatorın gerçek performans sinyaliyle belirlediği toplam **29 paket** migrate edildi:
+
+- TDE9: 16 paket
+- TDE10: 13 paket
+
+Bu kapsam şiir/dinleti ve hazırlıklı konuşma performanslarını, podcast üretimini, destan sunumlarını, canlandırmaları ve kısa yeniden performans içeren paketleri kapsar.
+
+Örneğin tek sıra sınıf önü sunum yerine 4–6 kişilik paralel gruplar kullanılabilir; öğretmen gruplar arasında dönerken akran gözlemciler aynı canonical ölçütlerden kanıt toplar. Bu, etkinliğin içeriğini veya değerlendirme ölçütlerini değiştirmez; yalnız yürütme topolojisini kalabalık sınıfa uyarlayarak süre riskini azaltır.
+
+### P4 fail-closed doğrulama
+
+`validate_lesson_plan.py` artık gerçek konuşma performansı içeren bir paket için:
+
+1. `large_class_route` yoksa `LARGE_CLASS_ROUTE_REQUIRED` ile FAIL verir.
+2. Route'un performans içeren bütün ders saatlerini kapsamasını zorunlu kılar.
+3. Grup sayısı, performans zaman sınırı ve required strateji alanlarını doğrular.
+4. Route'un çekirdek planı okul-temelli saate bağlamasına izin vermez.
+5. Hazırlık/planlama paketlerine gereksiz route zorunluluğu getirmez.
+
+`test_large_class_route.py` route eksikliği, eksik ders kapsamı ve okul-temelli saate bağımlı çekirdek rota için beklenen FAIL; geçerli paralel grup rotası için PASS regression testleri içerir. Bu test artık `TYMM Lesson Plan Full Validation` içinde doğrudan çalışır.
+
+### P4 kabul sonucu
+
+Geçici migration adımıyla 29 route materialize edildikten sonra auto-migration workflow'dan kaldırıldı. Ardından strict doğrulamada:
+
+- `Run large-class route regression tests`: `SUCCESS`
+- `Validate all 176 lesson-plan packages`: `SUCCESS`
+- finalization: `SUCCESS`
+
+Böylece doğrulama artık eksik route'u sessizce üretmiyor; repoya commitlenmiş veriyi doğrudan fail-closed denetliyor.
+
 ## Aktif sarı riskler
 
-P0–P3 kapatıldıktan sonra aktif sarılar:
+P0–P4 kapatıldıktan sonra aktif sarılar:
 
 | ID | Faz | Risk | Etkilenen kapsam | Hedef |
 |---|---|---|---|---|
-| `YELLOW-LARGE-CLASS` | P4 | Bireysel konuşma/yeniden performans akışı kalabalık sınıfta süreye sığmayabilir | Özellikle konuşma kapanışları | `large_class_route` |
 | `YELLOW-CLOSURE-LOAD` | P5 | Test + günlük + düzeltme + kapanış aynı ders saatine yığılabiliyor | Tema/yıl sonu paketleri | Gerçekçi zaman bütçesi ve opsiyonel okul-temelli genişletme |
 | `YELLOW-ADAPTATION` | P6 | Farklılaştırma, erişilebilirlik ve medya fallback'i lesson-plan schema'da first-class değil | Kritik paketler | Yapısal `classroom_adaptations` |
 | `YELLOW-REF-GROUNDING` | P7 | Rubrik/resource/artifact kimlikleri prose içinde kalabiliyor | Rubrik/materyal kullanan paketler | Structured refs + canonical grounding |
@@ -137,7 +197,7 @@ P0  Saat kaynaklı yanlış sarıları temizle           ✅ TAMAMLANDI
 P1  Okul temelli 2 saati yerleşim katmanına bağla   ✅ TAMAMLANDI
 P2  TDE10 okul temelli kariyer uyumunu düzelt        ✅ TAMAMLANDI
 P3  Tema değerlendirmesi semantiğini düzelt          ✅ TAMAMLANDI
-P4  Kalabalık sınıf rotalarını ekle
+P4  Kalabalık sınıf rotalarını ekle                   ✅ TAMAMLANDI
 P5  Aşırı yüklü kapanışları sadeleştir
 P6  Farklılaştırma / erişilebilirlik / fallback
 P7  Rubrik-resource-artifact grounding
