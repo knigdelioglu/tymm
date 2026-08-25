@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "course_id": "TDE_10",
   "grade": 10,
-  "timeline_version": "1.1.2",
+  "timeline_version": "1.1.3",
   "timeline_type": "ANNUAL_COURSE_TIMELINE",
   "timeline_resolution": "BLOCK_TIME_RESOLVED",
   "timeline_semantics": {
@@ -11,7 +11,8 @@
     "planned_position_is_not_student_mastery": true,
     "manual_position_override_is_external_user_state": true,
     "calendar_neutral_topic_hour_distribution": true,
-    "calendar_fields_intentionally_excluded": true
+    "calendar_fields_intentionally_excluded": true,
+    "calendar_residual_hours_excluded_before_resolution": true
   },
   "source_basis": {
     "authority_order": [
@@ -112,7 +113,7 @@
           "BLOCK_T4_04_YAZMA": 10
         },
         "source": "planning/block_hour_bindings.json",
-        "source_locator": "MEB taslak yıllık plan konu/saat dağılımı; takvim alanları hariç",
+        "source_locator": "MEB taslak yıllık plan konu/saat dağılımı; takvim alanları ve haftalık yerleşim artıkları hariç",
         "status": "OFFICIAL_DRAFT_ANNUAL_PLAN_DERIVED_CALENDAR_NEUTRAL"
       },
       "annual_instructional_hours": {
@@ -547,7 +548,8 @@
       "ara tatil",
       "yarıyıl tatili",
       "belirli gün ve haftalar",
-      "resmî tatil yerleşimi"
+      "resmî tatil yerleşimi",
+      "haftalık yerleşimden doğan artık ders saati satırları"
     ]
   }
 }
