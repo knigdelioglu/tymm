@@ -10,6 +10,7 @@ on:
       - 'skill/tymm-material-planner/scripts/validate_all_lesson_plans.py'
       - 'skill/tymm-material-planner/scripts/finalize_lesson_plan_production.py'
       - 'skill/tymm-material-planner/scripts/lesson_plan_context.py'
+      - 'skill/tymm-material-planner/scripts/migrate_large_class_routes.py'
       - 'skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py'
       - 'skill/tymm-material-planner/scripts/build_runtime_course_package.py'
       - 'skill/tymm-material-planner/schemas/lesson_plan.schema.json'
@@ -52,6 +53,12 @@ jobs:
       - name: Install schema validator
         run: python -m pip install 'jsonschema==4.23.0'
 
+      - name: Materialize P4 large-class routes
+        run: |
+          python skill/tymm-material-planner/scripts/migrate_large_class_routes.py \
+            --knowledge-root courses/TDE_9 \
+            --knowledge-root courses/TDE_10
+
       - name: Resolve calendar-neutral course timelines
         run: |
           python skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py --knowledge-root courses/TDE_9
@@ -93,12 +100,14 @@ jobs:
 
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add courses/TDE_9/planning/lesson_plan_production_plan.json \
+          git add courses/TDE_9/generated/lesson_plans \
+                  courses/TDE_10/generated/lesson_plans \
+                  courses/TDE_9/planning/lesson_plan_production_plan.json \
                   courses/TDE_10/planning/lesson_plan_production_plan.json
           if git diff --cached --quiet; then
-            echo 'Production plans already finalized.'
+            echo 'Production plans and P4 routes already materialized.'
             exit 0
           fi
-          git commit -m 'chore(validation): mark lesson-plan production complete'
+          git commit -m 'feat(planning): materialize large-class execution routes'
           git pull --rebase origin main
           git push origin HEAD:main
