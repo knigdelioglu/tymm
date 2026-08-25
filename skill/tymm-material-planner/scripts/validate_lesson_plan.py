@@ -31,6 +31,55 @@ def _check_allowed(
         errors.append(f"{prefix}:{unknown}")
 
 
+def _theme_assessment_activity_ids(context: dict[str, Any]) -> set[str]:
+    result: set[str] = set()
+    markers = ("OLCME", "DEGERLENDIR", "GUNLUK", "YANSIT")
+    for activity in context.get("textbook_activities", []):
+        if not isinstance(activity, dict):
+            continue
+        activity_id = str(activity.get("activity_id") or "")
+        title = str(activity.get("title") or "")
+        signal = f"{activity_id} {title}".upper()
+        if "TEMA" in signal and any(marker in signal for marker in markers):
+            result.add(activity_id)
+    return result
+
+
+def _validate_assessment_scope(
+    *,
+    scope: Any,
+    assessed_outcomes: list[str],
+    block_outcomes: set[str],
+    theme_outcomes: set[str],
+    theme_signal: bool,
+    prefix: str,
+    errors: list[str],
+) -> None:
+    if scope is None:
+        if assessed_outcomes:
+            errors.append(f"{prefix}ASSESSMENT_SCOPE_REQUIRED")
+        if theme_signal:
+            errors.append(f"{prefix}THEME_ASSESSMENT_SCOPE_REQUIRED")
+        return
+    if scope not in {"BLOCK", "THEME"}:
+        errors.append(f"{prefix}ASSESSMENT_SCOPE_INVALID:{scope}")
+        return
+    if not assessed_outcomes:
+        errors.append(f"{prefix}ASSESSED_OUTCOME_CODES_REQUIRED")
+        return
+
+    allowed = theme_outcomes if scope == "THEME" else block_outcomes
+    _check_allowed(assessed_outcomes, allowed, f"{prefix}UNKNOWN_ASSESSED_OUTCOME_CODES", errors)
+
+    if theme_signal and scope != "THEME":
+        errors.append(f"{prefix}THEME_ASSESSMENT_SCOPE_REQUIRED")
+    if scope == "THEME":
+        if not theme_signal:
+            errors.append(f"{prefix}THEME_ASSESSMENT_WITHOUT_SOURCE_SIGNAL")
+        if theme_outcomes - block_outcomes and not (set(assessed_outcomes) - block_outcomes):
+            errors.append(f"{prefix}THEME_ASSESSMENT_OUTCOMES_TOO_NARROW")
+
+
 def validate(context: dict[str, Any], plan: dict[str, Any]) -> dict[str, Any]:
     errors: list[str] = []
     warnings: list[str] = []
@@ -50,11 +99,15 @@ def validate(context: dict[str, Any], plan: dict[str, Any]) -> dict[str, Any]:
         errors.append(f"BLOCK_ID_MISMATCH:{plan.get('block_id')}!={expected_block}")
     if plan.get("lesson_hours") != expected_hours:
         errors.append(f"LESSON_HOURS_MISMATCH:{plan.get('lesson_hours')}!={expected_hours}")
+    if plan.get("instruction_scope") not in (None, "BLOCK"):
+        errors.append(f"INSTRUCTION_SCOPE_INVALID:{plan.get('instruction_scope')}")
 
     allowed = context.get("allowed_references", {})
     allowed_outcomes = set(allowed.get("outcome_codes", []))
+    allowed_theme_outcomes = set(allowed.get("theme_outcome_codes", allowed.get("outcome_codes", [])))
     allowed_activities = set(allowed.get("activity_ids", []))
     allowed_forms = set(allowed.get("form_ids", []))
+    theme_assessment_ids = _theme_assessment_activity_ids(context)
 
     outcome_codes = _as_string_list(plan.get("outcome_codes", []), "OUTCOME_CODES_NOT_LIST", errors)
     activity_ids = _as_string_list(plan.get("used_activity_ids", []), "ACTIVITY_IDS_NOT_LIST", errors)
@@ -62,6 +115,21 @@ def validate(context: dict[str, Any], plan: dict[str, Any]) -> dict[str, Any]:
     _check_allowed(outcome_codes, allowed_outcomes, "UNKNOWN_OUTCOME_CODES", errors)
     _check_allowed(activity_ids, allowed_activities, "UNKNOWN_ACTIVITY_IDS", errors)
     _check_allowed(form_ids, allowed_forms, "UNKNOWN_FORM_IDS", errors)
+
+    assessed_outcomes: list[str] = []
+    if "assessed_outcome_codes" in plan:
+        assessed_outcomes = _as_string_list(
+            plan.get("assessed_outcome_codes"), "ASSESSED_OUTCOME_CODES_NOT_LIST", errors
+        )
+    _validate_assessment_scope(
+        scope=plan.get("assessment_scope"),
+        assessed_outcomes=assessed_outcomes,
+        block_outcomes=allowed_outcomes,
+        theme_outcomes=allowed_theme_outcomes,
+        theme_signal=bool(set(activity_ids) & theme_assessment_ids),
+        prefix="",
+        errors=errors,
+    )
 
     lessons = plan.get("lessons", [])
     if not isinstance(lessons, list) or not lessons:
@@ -83,6 +151,8 @@ def validate(context: dict[str, Any], plan: dict[str, Any]) -> dict[str, Any]:
             errors.append(f"LESSON_DURATION_INVALID:{index}")
         else:
             duration_total += duration
+        if lesson.get("instruction_scope") not in (None, "BLOCK"):
+            errors.append(f"LESSON_{index}_INSTRUCTION_SCOPE_INVALID:{lesson.get('instruction_scope')}")
 
         lesson_outcomes = _as_string_list(
             lesson.get("outcome_codes", []), f"LESSON_{index}_OUTCOME_CODES_NOT_LIST", errors
@@ -96,6 +166,23 @@ def validate(context: dict[str, Any], plan: dict[str, Any]) -> dict[str, Any]:
         _check_allowed(lesson_outcomes, allowed_outcomes, f"LESSON_{index}_UNKNOWN_OUTCOME_CODES", errors)
         _check_allowed(lesson_activities, allowed_activities, f"LESSON_{index}_UNKNOWN_ACTIVITY_IDS", errors)
         _check_allowed(lesson_forms, allowed_forms, f"LESSON_{index}_UNKNOWN_FORM_IDS", errors)
+
+        lesson_assessed: list[str] = []
+        if "assessed_outcome_codes" in lesson:
+            lesson_assessed = _as_string_list(
+                lesson.get("assessed_outcome_codes"),
+                f"LESSON_{index}_ASSESSED_OUTCOME_CODES_NOT_LIST",
+                errors,
+            )
+        _validate_assessment_scope(
+            scope=lesson.get("assessment_scope"),
+            assessed_outcomes=lesson_assessed,
+            block_outcomes=allowed_outcomes,
+            theme_outcomes=allowed_theme_outcomes,
+            theme_signal=bool(set(lesson_activities) & theme_assessment_ids),
+            prefix=f"LESSON_{index}_",
+            errors=errors,
+        )
 
     if lesson_numbers and lesson_numbers != list(range(1, len(lesson_numbers) + 1)):
         errors.append(f"LESSON_SEQUENCE_INVALID:{lesson_numbers}")
@@ -159,6 +246,7 @@ def validate(context: dict[str, Any], plan: dict[str, Any]) -> dict[str, Any]:
         },
         "reference_counts": {
             "outcomes": len(set(outcome_codes)),
+            "assessed_outcomes": len(set(assessed_outcomes)),
             "activities": len(set(activity_ids)),
             "forms": len(set(form_ids)),
             "lessons": len(lessons),
