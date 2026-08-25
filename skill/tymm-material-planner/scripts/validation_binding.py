@@ -59,30 +59,23 @@ def _iter_course_entries(root: Path) -> Iterable[tuple[str, bytes]]:
         if not base.exists():
             continue
         for path in sorted(p for p in base.rglob("*") if p.is_file()):
-            yield path.as_posix(), path.read_bytes()
+            yield path.relative_to(root).as_posix(), path.read_bytes()
 
     planning = root / "planning"
     if planning.exists():
         for path in sorted(p for p in planning.rglob("*") if p.is_file()):
             if path.name == "course_timeline.json":
                 continue
+            relative = path.relative_to(root).as_posix()
             if path.name == "lesson_plan_production_plan.json":
-                yield path.as_posix(), _normalized_production_plan_bytes(path)
+                yield relative, _normalized_production_plan_bytes(path)
             else:
-                yield path.as_posix(), path.read_bytes()
+                yield relative, path.read_bytes()
 
     for name in ("textbook_map.json", "textbook_forms_index.json"):
         path = root / name
         if path.exists():
-            yield path.as_posix(), path.read_bytes()
-
-
-def _entry_key(path_text: str, repo_root: Path) -> str:
-    path = Path(path_text)
-    try:
-        return path.resolve().relative_to(repo_root.resolve()).as_posix()
-    except ValueError:
-        return path.resolve().as_posix()
+            yield name, path.read_bytes()
 
 
 def compute_content_binding(
@@ -90,12 +83,15 @@ def compute_content_binding(
     schema_path: Path,
     repo_root: Path | None = None,
 ) -> dict[str, Any]:
-    repo_root = (repo_root or Path.cwd()).resolve()
+    # repo_root is retained for backward-compatible callers, but logical keys are
+    # intentionally independent of the checkout's absolute filesystem path.
+    del repo_root
     entries: list[tuple[str, bytes]] = []
     for root in knowledge_roots:
-        entries.extend((_entry_key(path, repo_root), data) for path, data in _iter_course_entries(root))
+        logical_root = f"courses/{root.name}"
+        entries.extend((f"{logical_root}/{relative}", data) for relative, data in _iter_course_entries(root))
     schema = schema_path.resolve()
-    entries.append((_entry_key(schema.as_posix(), repo_root), schema.read_bytes()))
+    entries.append((f"skill/tymm-material-planner/schemas/{schema.name}", schema.read_bytes()))
 
     seen: set[str] = set()
     normalized: list[tuple[str, str]] = []
