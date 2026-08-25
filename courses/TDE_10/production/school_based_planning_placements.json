@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "TDE_10",
+  "policy": {
+    "calendar_neutral": true,
+    "placement_is_recommendation": true,
+    "teacher_selection_required": true,
+    "core_instruction_hours_immutable": 172,
+    "school_based_planning_hours_annual": 8,
+    "core_instruction_hours_per_theme": 43,
+    "school_based_planning_hours_per_theme": 2,
+    "official_total_hours_per_theme": 45,
+    "max_selected_hours_per_theme": 2,
+    "default_queue_includes_school_based_hours": false,
+    "rule": "Yerleşim noktaları pedagojik öneridir. Öğretmen/zümre sınıf ihtiyacına göre tema içindeki en fazla 2 okul-temelli saati seçer; seçim çekirdek 43 saati veya 172 saatlik üretim kuyruğunu değiştirmez. 10. sınıf seçeneklerinin kariyer/mesleki rehberlik amacı P2'de ayrıca güçlendirilecektir."
+  },
+  "placements": [
+    {
+      "option_id": "OPT_T10_T1_SBP_01",
+      "theme_id": "TEMA_01",
+      "duration_hours": 1,
+      "identified_need": "Sözlü kültür bilgisini yerel örnek ve kaynak gösterme pratiğiyle somutlaştırma.",
+      "recommended_insertion_point": {"target_block_id": "BLOCK_T1_01_OKUMA", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T1_01_OKUMA_P08"},
+      "activation_condition": "Yerel/kamusal kaynaklarla güvenli bir derleme çalışması tema kavramlarını derinleştirecekse seçilir.",
+      "impact_evaluation": {"method": "PRODUCT_REVIEW", "success_indicator": "Derlenen örneğin kaynağı belirtilerek tema kavramlarıyla gerekçeli biçimde ilişkilendirilmesi."}
+    },
+    {
+      "option_id": "OPT_T10_T1_SBP_02",
+      "theme_id": "TEMA_01",
+      "duration_hours": 1,
+      "identified_need": "Ritim, ezgi ve söz ilişkisini uygulamalı inceleme ve kısa sunumla pekiştirme.",
+      "recommended_insertion_point": {"target_block_id": "BLOCK_T1_03_DINLEME", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T1_03_DINLEME_P04"},
+      "activation_condition": "Dinleme kanıtları ritim/ezgi-söz ilişkisinin ek uygulamayla pekişeceğini gösterirse seçilir.",
+      "impact_evaluation": {"method": "SHORT_PRESENTATION_REVIEW", "success_indicator": "Öğrencinin ritim, ezgi ve söz arasındaki ilişkiyi örnek üzerinden açıklayabilmesi."}
+    },
+    {
+      "option_id": "OPT_T10_T2_SBP_01",
+      "theme_id": "TEMA_02",
+      "duration_hours": 1,
+      "identified_need": "Şiirde ritim ve söyleyiş farklarını karşılaştırmalı dinleme arşiviyle pekiştirme.",
+      "recommended_insertion_point": {"target_block_id": "BLOCK_T2_01_OKUMA", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T2_01_OKUMA_P08"},
+      "activation_condition": "Farklı şiir örneklerini karşılaştırmak tema içi ritim/söyleyiş bilgisini derinleştirecekse seçilir.",
+      "impact_evaluation": {"method": "COMPARISON_NOTE_REVIEW", "success_indicator": "Seslendirmeler arasındaki ritim ve söyleyiş farklarının somut kanıtlarla açıklanması."}
+    },
+    {
+      "option_id": "OPT_T10_T2_SBP_02",
+      "theme_id": "TEMA_02",
+      "duration_hours": 1,
+      "identified_need": "Kaynaklı kısa sözlü/dijital ürün üretiminde planlama ve ifade pratiği.",
+      "recommended_insertion_point": {"target_block_id": "BLOCK_T2_04_KONUSMA", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T2_04_KONUSMA_P05"},
+      "activation_condition": "Çekirdek konuşma performansı sonrası kaynaklı mini podcast taslağı ek uygulama değeri sağlayacaksa seçilir.",
+      "impact_evaluation": {"method": "SCRIPT_AND_PERFORMANCE_REVIEW", "success_indicator": "Kısa ürünün kaynaklı, odaklı ve anlaşılır bir sözlü anlatı yapısına kavuşması."}
+    },
+    {
+      "option_id": "OPT_T10_T3_SBP_01",
+      "theme_id": "TEMA_03",
+      "duration_hours": 1,
+      "identified_need": "Destan motiflerini tarihsel süreklilik bağlamında araştırma ve görselleştirme.",
+      "recommended_insertion_point": {"target_block_id": "BLOCK_T3_01_OKUMA", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T3_01_OKUMA_P08"},
+      "activation_condition": "Okuma sonrasında tarihsel/kültürel bağın araştırma ürünüyle derinleştirilmesi yararlıysa seçilir.",
+      "impact_evaluation": {"method": "RESEARCH_PRODUCT_REVIEW", "success_indicator": "Seçilen motifin kaynaklı biçimde tarihsel süreklilik içinde açıklanması."}
+    },
+    {
+      "option_id": "OPT_T10_T3_SBP_02",
+      "theme_id": "TEMA_03",
+      "duration_hours": 1,
+      "identified_need": "Fabl/değer ilişkisini özgün kısa ürünle sentezleme.",
+      "recommended_insertion_point": {"target_block_id": "BLOCK_T3_04_YAZMA", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T3_04_YAZMA_P05"},
+      "activation_condition": "Tema sonu yazma ürünlerinin değer/ileti ilişkisini yaratıcı biçimde yeniden kurması yararlıysa seçilir.",
+      "impact_evaluation": {"method": "PRODUCT_REVIEW", "success_indicator": "Özgün üründe ileti ile seçilen değer arasındaki ilişkinin tutarlı ve görünür olması."}
+    },
+    {
+      "option_id": "OPT_T10_T4_SBP_01",
+      "theme_id": "TEMA_04",
+      "duration_hours": 1,
+      "identified_need": "Nesiller arası edebî/kültürel aktarımı güvenli görüşme veya alternatif kaynakla inceleme.",
+      "recommended_insertion_point": {"target_block_id": "BLOCK_T4_03_DINLEME", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T4_03_DINLEME_P04"},
+      "activation_condition": "Gönüllü görüşme veya güvenilir alternatif kaynak koşulları sağlanabiliyor ve kültürel aktarımın somutlaştırılması yararlıysa seçilir.",
+      "impact_evaluation": {"method": "FINDINGS_REVIEW", "success_indicator": "Bulguların kişisel veri toplamadan tematik kategorilere ayrılması ve tema kavramlarıyla ilişkilendirilmesi."}
+    },
+    {
+      "option_id": "OPT_T10_T4_SBP_02",
+      "theme_id": "TEMA_04",
+      "duration_hours": 1,
+      "identified_need": "Dede Korkut'taki kültürel unsurları günümüzle karşılaştırmalı olarak haritalama.",
+      "recommended_insertion_point": {"target_block_id": "BLOCK_T4_01_OKUMA", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T4_01_OKUMA_P08"},
+      "activation_condition": "Okuma sonrasında kültürel unsurların süreklilik/değişim ekseninde görselleştirilmesi kavrayışı güçlendirecekse seçilir.",
+      "impact_evaluation": {"method": "CONCEPT_MAP_REVIEW", "success_indicator": "Kültürel unsurların metin kanıtı ve güncel karşılıklarla açık biçimde eşleştirilmesi."}
+    }
+  ]
+}
