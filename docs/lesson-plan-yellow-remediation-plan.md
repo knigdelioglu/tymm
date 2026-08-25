@@ -172,13 +172,90 @@ Geçici migration adımıyla 29 route materialize edildikten sonra auto-migratio
 
 Böylece doğrulama artık eksik route'u sessizce üretmiyor; repoya commitlenmiş veriyi doğrudan fail-closed denetliyor.
 
+## P5 — Aşırı yüklü kapanışları sadeleştir — TAMAMLANDI
+
+### Kapatılan risk
+
+**YELLOW-CLOSURE-LOAD — Test + günlük + düzeltme + kapanış aynı ders saatine yığılabiliyor**
+
+Durum: `CLOSED`
+
+### Süre bütçesi modeli
+
+Tema kapanışları için ayrı, makine-okunur bir operasyon katmanı oluşturuldu:
+
+- `courses/TDE_9/production/closure_time_budgets.json`
+- `courses/TDE_10/production/closure_time_budgets.json`
+
+Bu katman her iki sınıftaki **8 tema-kapanış P05 paketini** ve tema-geneli ölçme/yansıtma taşıyan gerçek ders saatlerini package/path/theme/block düzeyinde bağlar. TDE9 Tema 1'de ölçme ve öğrenme günlüğü ayrı iki ders olduğu için toplam budget edilen tema-kapanış dersi sayısı **9**'dur.
+
+`40 dakika`, burada resmî MEB süre iddiası değil, repo içindeki **nominal pedagojik ders periyodu bütçesidir**. Amaç, tek ders saatine sınırsız görev yığılmasını teknik olarak engellemektir.
+
+Hem tema ölçme hem öğrenme günlüğü/yansıtma taşıyan karma kapanış saatlerinde çekirdek bütçe sabittir:
+
+```text
+25 dk  tema sonu ölçme
+10 dk  çekirdek öğrenme günlüğü / yansıtma
+ 3 dk  kısa tema/yıl kapanışı
+ 2 dk  tampon
+= 40 dk
+```
+
+Tek odaklı kapanışlarda — yalnız tema ölçme veya yalnız öğrenme günlüğü — çekirdek görev 32 dakika, kısa kapanış 5 dakika ve tampon 3 dakikadır.
+
+### Çekirdek ile opsiyonel genişletmenin ayrılması
+
+Aşağıdaki işler aynı 40 dakikalık çekirdek kapanışın zorunlu parçası değildir:
+
+- ayrıntılı yanlış/kararsız cevap düzeltmesi (`ANSWER_CORRECTION`)
+- çoklu ürün/performans üzerinden genişletilmiş günlük ve portfolyo taraması (`EXTENDED_REFLECTION`)
+- sonraki temaya ayrıntılı ön hazırlık (`NEXT_THEME_PREP`)
+- yıl sonu dört beceri alanını kapsayan ayrıntılı portfolyo sentezi (`YEAR_PORTFOLIO_REVIEW`)
+
+Bu rotaların tamamında `placement=SCHOOL_BASED_IF_SELECTED` ve `required_for_core_completion=false` zorunludur. Yani öğretmen/zümre gerçek bir ihtiyaç görür ve ilgili okul-temelli saati seçerse kullanılabilir; **43 saatlik çekirdek tema öğretimi bunlara bağlı değildir**.
+
+Süre sözleşmesi yalnız sidecar dosyada kalmaz. İlgili kapanış dersinin `teacher_actions` alanındaki ilk yönerge de gerçek dakika bütçesini açıkça gösterir. Böylece öğretmen-facing plan ile machine-readable bütçenin sessizce ayrışması engellenir.
+
+### P5 fail-closed doğrulama
+
+`validate_closure_time_budgets.py` artık:
+
+1. Her sınıfta tam 4 tema-kapanış paketini otomatik keşfeder ve contract paket kümesiyle birebir eşler.
+2. Package path, theme, block ve gerçek tema-kapanış ders numaralarını doğrular.
+3. Zorunlu segmentlerin dakika toplamı + tamponun tam bir nominal ders periyoduna eşit olmasını zorunlu kılar.
+4. Karma kapanışta 25/10/3/2 dağılımını fail-closed sabitler.
+5. Tema ölçmeye en az 20 dakika, yansıtmaya en az 5 dakika ayrılmasını korur.
+6. Opsiyonel genişletmenin çekirdek tamamlanma koşuluna dönüşmesine izin vermez.
+7. Karma kapanışlarda cevap düzeltme + genişletilmiş yansıtma + tema/yıl geçiş rotalarının gerçekten opsiyonel olarak tanımlanmasını ister.
+8. Öğretmen planında `Süre bütçesi:` yönergesi kaybolursa FAIL verir.
+
+`test_closure_time_budgets.py` özellikle şu mutation'ları kapsar:
+
+- 40 dakikayı aşan zorunlu görev bütçesi
+- opsiyonel genişletmenin `required_for_core_completion=true` yapılması
+- bir tema-kapanış paketinin contract'tan silinmesi
+- öğretmen-facing süre yönergesinin kaldırılması
+
+Bu test ve contract validator artık `TYMM Lesson Plan Full Validation` içinde doğrudan çalışır.
+
+### P5 kabul sonucu
+
+Geçici materialization adımıyla budget dosyaları ve öğretmen-facing süre yönergeleri repoya yazıldıktan sonra auto-migration workflow'dan kaldırıldı. Strict doğrulamada:
+
+- `Run closure time-budget regression tests`: `SUCCESS`
+- `Validate closure time-budget contracts`: `SUCCESS`
+- `Run large-class route regression tests`: `SUCCESS`
+- `Validate all 176 lesson-plan packages`: `SUCCESS`
+- finalization: `SUCCESS`
+
+Böylece tema/yıl kapanışı artık “test + günlük + düzeltme + portfolyo + geçiş hazırlığı”nın aynı çekirdek saatte zorunlu kabul edildiği açık uçlu bir iş listesi değildir; çekirdek ile ihtiyaç-temelli genişletme teknik olarak ayrılmıştır.
+
 ## Aktif sarı riskler
 
-P0–P4 kapatıldıktan sonra aktif sarılar:
+P0–P5 kapatıldıktan sonra aktif sarılar:
 
 | ID | Faz | Risk | Etkilenen kapsam | Hedef |
 |---|---|---|---|---|
-| `YELLOW-CLOSURE-LOAD` | P5 | Test + günlük + düzeltme + kapanış aynı ders saatine yığılabiliyor | Tema/yıl sonu paketleri | Gerçekçi zaman bütçesi ve opsiyonel okul-temelli genişletme |
 | `YELLOW-ADAPTATION` | P6 | Farklılaştırma, erişilebilirlik ve medya fallback'i lesson-plan schema'da first-class değil | Kritik paketler | Yapısal `classroom_adaptations` |
 | `YELLOW-REF-GROUNDING` | P7 | Rubrik/resource/artifact kimlikleri prose içinde kalabiliyor | Rubrik/materyal kullanan paketler | Structured refs + canonical grounding |
 | `YELLOW-PACKAGE-TOPOLOGY` | P8 | 88 paket/172 saat toplamı exact paket topolojisini kanıtlamıyor | TDE9/TDE10 | Exact manifest, sıra, saat aralığı, gap/overlap kontrolü |
@@ -198,7 +275,7 @@ P1  Okul temelli 2 saati yerleşim katmanına bağla   ✅ TAMAMLANDI
 P2  TDE10 okul temelli kariyer uyumunu düzelt        ✅ TAMAMLANDI
 P3  Tema değerlendirmesi semantiğini düzelt          ✅ TAMAMLANDI
 P4  Kalabalık sınıf rotalarını ekle                   ✅ TAMAMLANDI
-P5  Aşırı yüklü kapanışları sadeleştir
+P5  Aşırı yüklü kapanışları sadeleştir                ✅ TAMAMLANDI
 P6  Farklılaştırma / erişilebilirlik / fallback
 P7  Rubrik-resource-artifact grounding
 P8  Paket topolojisi
