@@ -38,6 +38,10 @@ def resolve(root: Path) -> dict[str, Any]:
     if topics.get("calendar_exclusion_policy", {}).get("calendar_fields_ingested") is not False:
         raise ValueError("CALENDAR_NEUTRALITY_VIOLATION: calendar fields must remain excluded")
 
+    topic_theme_by_id = {theme.get("theme_id"): theme for theme in topics.get("themes", [])}
+    if len(topic_theme_by_id) != len(topics.get("themes", [])):
+        raise ValueError("DUPLICATE_TOPIC_THEME_ID")
+
     binding_by_id: dict[str, dict[str, Any]] = {}
     theme_binding: dict[str, dict[str, Any]] = {}
     for theme in bindings_doc.get("themes", []):
@@ -60,15 +64,29 @@ def resolve(root: Path) -> dict[str, Any]:
     instructional_total = bindings_doc.get("validation", {}).get("annual_instruction_hours")
     if instructional_total is None:
         instructional_total = sum(int(x.get("normative_total_hours") or 0) for x in bindings_doc.get("themes", []))
-    school_based_values = [x.get("school_based_planning_hours") for x in bindings_doc.get("themes", [])]
-    if not all(isinstance(x, int) and not isinstance(x, bool) and x >= 0 for x in school_based_values):
-        raise ValueError("INVALID_SCHOOL_BASED_HOUR_DISTRIBUTION")
+
+    # School-based planning hours belong to the official topic-hour distribution,
+    # not block_hour_bindings. The previous resolver incorrectly expected this
+    # field on binding themes and therefore failed closed even though the source
+    # artifact already contained the verified 2h/theme distribution.
+    school_based_by_theme: dict[str, int] = {}
+    for binding_theme in bindings_doc.get("themes", []):
+        tid = binding_theme.get("theme_id")
+        topic_theme = topic_theme_by_id.get(tid)
+        if topic_theme is None:
+            raise ValueError(f"TOPIC_THEME_MISSING_FOR_BINDING: {tid}")
+        value = topic_theme.get("school_based_planning_hours")
+        if not isinstance(value, int) or isinstance(value, bool) or value < 0:
+            raise ValueError(f"INVALID_SCHOOL_BASED_HOUR_DISTRIBUTION: {tid}={value}")
+        school_based_by_theme[tid] = value
+
+    school_based_values = list(school_based_by_theme.values())
     school_based_total = sum(school_based_values)
     school_based_unique = set(school_based_values)
     school_based_per_theme = next(iter(school_based_unique)) if len(school_based_unique) == 1 else None
     annual_total = instructional_total + school_based_total
 
-    timeline["timeline_version"] = "1.1.1"
+    timeline["timeline_version"] = "1.1.2"
     timeline["timeline_resolution"] = "BLOCK_TIME_RESOLVED"
     semantics = timeline.setdefault("timeline_semantics", {})
     semantics["calendar_neutral_topic_hour_distribution"] = True
@@ -155,7 +173,9 @@ def resolve(root: Path) -> dict[str, Any]:
         if source_theme is None:
             raise ValueError(f"TIMELINE_THEME_WITHOUT_BINDINGS: {tid}")
         expected_total = source_theme.get("normative_total_hours")
-        school_based = source_theme.get("school_based_planning_hours")
+        school_based = school_based_by_theme.get(tid)
+        if school_based is None:
+            raise ValueError(f"TIMELINE_THEME_WITHOUT_SCHOOL_BASED_HOURS: {tid}")
         theme["official_total_hours"] = expected_total
         theme["core_instruction_hours"] = expected_total
         theme["block_resolution_status"] = "BLOCK_TIME_RESOLVED"
