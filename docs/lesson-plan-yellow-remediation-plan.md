@@ -454,13 +454,112 @@ Strict `TYMM Lesson Plan Full Validation` run `32854223974` sonucunda:
 
 CI artık eksik grounded ref'i kendi kendine üretmez; committed plan ve manifest verisini doğrudan fail-closed doğrular.
 
+## P8 — Exact paket topolojisi — TAMAMLANDI
+
+### Kapatılan risk
+
+**YELLOW-PACKAGE-TOPOLOGY — 88 paket / 172 saat toplamı exact paket sırasını ve saat kaplamasını kanıtlamıyor**
+
+Durum: `CLOSED`
+
+### Canonical topoloji modeli
+
+Her sınıf için takvimden bağımsız, makine-okunur bir exact topoloji manifesti oluşturuldu:
+
+- `courses/TDE_9/production/lesson_package_topology.json`
+- `courses/TDE_10/production/lesson_package_topology.json`
+
+Manifest tek bir kaynağın kendi kendini doğrulamasına dayanmaz. Üç ayrı canonical/committed katman çapraz bağlanır:
+
+1. blok sırası: `production/teaching_blocks.json:block_sequence`
+2. blok saatleri: `planning/block_hour_bindings.json:planned_hours`
+3. paketleme bölümü: `planning/lesson_plan_production_plan.json:package_hours`
+4. gerçek çıktı kümesi: `generated/lesson_plans/**/*.json`
+
+Üretim planındaki `package_hours` ancak canonical blok saatiyle tam eşleşiyorsa kabul edilir. Varsayılan paket boyu 2 saattir; 15 saatlik bloklarda kalan son saat uydurulmadan 1 saatlik son pakete dönüşür.
+
+### Saat aralığı sözleşmesi
+
+Bütün aralıklar `ONE_BASED_INCLUSIVE` semantiği taşır. Her paket için üç bağımsız saat aralığı tutulur:
+
+- `course_hour_range`
+- `theme_hour_range`
+- `block_hour_range`
+
+Tema course aralıkları her iki sınıfta da kesin olarak:
+
+```text
+TEMA_01   1–43
+TEMA_02  44–86
+TEMA_03  87–129
+TEMA_04 130–172
+```
+
+Tema içinde sayaç yeniden 1–43'e, blok içinde 1–blok_süresi aralığına döner. Böylece yalnız toplam 172 saat değil, her paketin çekirdek öğretim dizisindeki kesin yeri de doğrulanabilir.
+
+Okul-temelli 2 saatler bu topolojiye bilinçli olarak dahil değildir; manifest yalnız 43 × 4 = 172 saatlik çekirdek kuyruğu temsil eder.
+
+### Exact kapsam
+
+Her iki sınıf için ayrı ayrı:
+
+- 4 tema
+- 16 blok
+- 88 paket
+- 172 çekirdek ders saati
+- `gaps=0`
+- `overlaps=0`
+
+Toplam doğrulanan set **176 paket / 344 çekirdek ders saatidir**.
+
+### P8 fail-closed doğrulama
+
+`build_package_topology_manifest.py` manifesti üretmeden önce:
+
+1. `teaching_blocks`, `block_hour_bindings` ve production-plan theme/block sıralarını exact karşılaştırır.
+2. Her blokta canonical saat ile `planned_hours` değerini eşler.
+3. Paket partition'ının 2 saatlik paketler + yalnız gerekli yerde 1 saatlik remainder biçiminde olmasını zorunlu kılar.
+4. Beklenen package ID/path kümesini gerçek generated JSON kümesiyle birebir karşılaştırır; eksik veya ekstra JSON paketi kabul etmez.
+5. Her planın `course_id`, `theme_id`, `block_id`, `lesson_hours` ve iç lesson duration toplamını topolojiyle eşler.
+6. Production progress değerlerinin 88 paket / 172 saat tamamlanma iddiasıyla tutarlı olmasını zorunlu kılar.
+
+`validate_package_topology.py` committed manifesti aynı canonical kaynaklardan yeniden türetilen deterministik beklenen topolojiye karşı fail-closed denetler. Package order, ordinal, path, saat, theme/block ilişkisi ve course/theme/block hour-range değerlerinden herhangi biri kayarsa FAIL verir.
+
+`test_package_topology.py` özellikle şu mutation'ları kapsar:
+
+- bir paketin manifestten silinmesi
+- course saat aralığında overlap/gap oluşturulması
+- paket sırasının değiştirilmesi
+- package path'in bozulması
+- package lesson-hour değerinin değiştirilmesi
+- 15 saatlik blokların 1 saatlik son paket sözleşmesinin korunması
+
+### P8 kabul sonucu
+
+İlk CI koşusunda manifestler materialize edilip repoya commitlendi. Daha sonra materialization/publish adımları workflow'dan kaldırıldı; CI eksik manifesti kendi kendine onaramaz.
+
+Strict `TYMM Lesson Plan Full Validation` run `32862686503` sonucunda:
+
+- `Run package-topology regression tests`: `SUCCESS`
+- `Validate package-topology contracts`: `SUCCESS`
+- `Run grounded-reference regression tests`: `SUCCESS`
+- `Validate grounded-reference contracts`: `SUCCESS`
+- `Run classroom adaptation regression tests`: `SUCCESS`
+- `Validate classroom adaptation contracts`: `SUCCESS`
+- `Run closure time-budget regression tests`: `SUCCESS`
+- `Validate closure time-budget contracts`: `SUCCESS`
+- `Run large-class route regression tests`: `SUCCESS`
+- `Validate all 176 lesson-plan packages`: `SUCCESS`
+- finalization: `SUCCESS`
+
+Böylece “88 paket ve toplam 172 saat var” düzeyindeki zayıf kabul, artık exact sıra + saat aralığı + kaynak çapraz kontrolü + gap/overlap denetimine yükseltildi.
+
 ## Aktif sarı riskler
 
-P0–P7 kapatıldıktan sonra aktif sarılar:
+P0–P8 kapatıldıktan sonra aktif sarılar:
 
 | ID | Faz | Risk | Etkilenen kapsam | Hedef |
 |---|---|---|---|---|
-| `YELLOW-PACKAGE-TOPOLOGY` | P8 | 88 paket/172 saat toplamı exact paket topolojisini kanıtlamıyor | TDE9/TDE10 | Exact manifest, sıra, saat aralığı, gap/overlap kontrolü |
 | `YELLOW-MD-PARITY` | P9 | JSON ve Markdown için yalnız eş dosya varlığı doğrulanıyor | 176 paket | Deterministik JSON→Markdown parity |
 | `YELLOW-CI-FINALIZER` | P10 | Full validation PR gate değil; finalizer validation report/HEAD fingerprint'e bağlı değil | Engineering/release gate | PR gate + SHA/fingerprint-bound PASS |
 | `YELLOW-MUTATION-COVERAGE` | P11 | Semantik/topolojik hatalar için negatif mutation kapsamı eksik | CI | Bilinçli bozuk fixture'ların beklenen FAIL testleri |
@@ -480,7 +579,7 @@ P4  Kalabalık sınıf rotalarını ekle                   ✅ TAMAMLANDI
 P5  Aşırı yüklü kapanışları sadeleştir                ✅ TAMAMLANDI
 P6  Farklılaştırma / erişilebilirlik / fallback       ✅ TAMAMLANDI
 P7  Rubrik-resource-artifact grounding                ✅ TAMAMLANDI
-P8  Paket topolojisi
+P8  Paket topolojisi                                  ✅ TAMAMLANDI
 P9  JSON-Markdown parity
 P10 CI / finalizer sertleştirme
 P11 Mutation testleri ve final kabul
