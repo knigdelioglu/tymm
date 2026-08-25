@@ -1,0 +1,199 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "TDE_9",
+  "policy": {
+    "calendar_neutral": true,
+    "placement_is_recommendation": true,
+    "teacher_selection_required": true,
+    "core_instruction_hours_immutable": 172,
+    "school_based_planning_hours_annual": 8,
+    "core_instruction_hours_per_theme": 43,
+    "school_based_planning_hours_per_theme": 2,
+    "official_total_hours_per_theme": 45,
+    "max_selected_hours_per_theme": 2,
+    "default_queue_includes_school_based_hours": false,
+    "rule": "Yerleşim noktaları pedagojik öneridir. Öğretmen/zümre sınıf ihtiyacına göre tema içindeki en fazla 2 okul-temelli saati seçer; bu seçim çekirdek 43 saati veya 172 saatlik üretim kuyruğunu değiştirmez."
+  },
+  "placements": [
+    {
+      "option_id": "OPT_T1_SBP_01_SES_BILGISI_KLINIK",
+      "theme_id": "TEMA_01",
+      "duration_hours": 1,
+      "identified_need": "Ses olayları ve edebî telaffuzda biçimlendirici değerlendirme sonrası belirgin güçlük.",
+      "recommended_insertion_point": {"target_block_id": "BLOCK_T1_01_OKUMA", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T1_01_OKUMA_P08"},
+      "activation_condition": "Sınıfın anlamlı bir bölümünde ses bilgisi/telaffuz kanıtı hedefin altında kalırsa seçilir.",
+      "impact_evaluation": {"method": "BEFORE_AFTER_ERROR_CHECK", "success_indicator": "Aynı tür örneklerde hata sayısının azalması ve sesli okumada daha doğru vurgu/telaffuz."}
+    },
+    {
+      "option_id": "OPT_T1_SBP_02_YEREL_SOZ_VARLIGI_ATOLYESI",
+      "theme_id": "TEMA_01",
+      "duration_hours": 1,
+      "identified_need": "Edebî dil-günlük dil ayrımını yerel söz varlığıyla somutlaştırma ihtiyacı.",
+      "recommended_insertion_point": {"target_block_id": "BLOCK_T1_02_DINLEME", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T1_02_DINLEME_P04"},
+      "activation_condition": "Yerel bağlam öğrencilerin kavramsal ayrımı derinleştirecekse seçilir.",
+      "impact_evaluation": {"method": "PRODUCT_REVIEW", "success_indicator": "Yerel örneklerin edebî/günlük dil ayrımına gerekçeli ve doğru yerleştirilmesi."}
+    },
+    {
+      "option_id": "OPT_T1_SBP_03_DISIPLINLERARASI_SANAT_SERGISI",
+      "theme_id": "TEMA_01",
+      "duration_hours": 2,
+      "identified_need": "Edebiyat-güzel sanatlar ilişkisinin çok modlu ürünle derinleştirilmesi.",
+      "recommended_insertion_point": {"target_block_id": "BLOCK_T1_01_OKUMA", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T1_01_OKUMA_P08"},
+      "activation_condition": "Zenginleştirme için iki saat ayrılabiliyor ve sınıf yaratıcı ürün sürecinden yarar sağlayacaksa seçilir.",
+      "impact_evaluation": {"method": "PRODUCT_AND_REFLECTION", "success_indicator": "Edebî ifade ile seçilen sanat biçimi arasında açıklanabilir bir ilişki kurulması."}
+    },
+    {
+      "option_id": "OPT_T1_SBP_04_ALTI_SAPKA_DERINLESTIRME",
+      "theme_id": "TEMA_01",
+      "duration_hours": 2,
+      "identified_need": "Konuşma performansında argüman çeşitliliği, karşı görüş ve sentez üretimini genişletme.",
+      "recommended_insertion_point": {"target_block_id": "BLOCK_T1_04_KONUSMA", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T1_04_KONUSMA_P05"},
+      "activation_condition": "Çekirdek konuşma performansı tamamlandıktan sonra yeniden performans/derinleştirme yararlı olacaksa seçilir.",
+      "impact_evaluation": {"method": "PERFORMANCE_COMPARISON", "success_indicator": "İkinci performansta karşı görüş, kanıt ve sentez kullanımının güçlenmesi."}
+    },
+    {
+      "option_id": "OPT_T1_SBP_05_TEMA_YANSITMA_VE_PORTFOLYO",
+      "theme_id": "TEMA_01",
+      "duration_hours": 1,
+      "identified_need": "Tema ürünlerinin acele kapanış yerine portfolyo ve üstbilişsel yansıtmayla konsolide edilmesi.",
+      "recommended_insertion_point": {"target_block_id": "BLOCK_T1_04_KONUSMA", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T1_04_KONUSMA_P05"},
+      "activation_condition": "Tema sonunda öğrencilerin ürünlerini gözden geçirip gelişim kanıtı üretmesine ek süre gerekiyorsa seçilir.",
+      "impact_evaluation": {"method": "PORTFOLIO_REFLECTION", "success_indicator": "Öğrencinin güçlü yön, güçlük ve sonraki hedefini somut ürün kanıtıyla ilişkilendirmesi."}
+    },
+    {
+      "option_id": "OPT_T2_SBP_01_HIKAYE_ANI_KARSILASTIRMA_DERINLESTIRME",
+      "theme_id": "TEMA_02",
+      "duration_hours": 1,
+      "identified_need": "Hikâye ve anıda anlatıcı/bakış açısı ayrımını pekiştirme.",
+      "recommended_insertion_point": {"target_block_id": "BLOCK_T2_01_OKUMA", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T2_01_OKUMA_P08"},
+      "activation_condition": "Türler arası anlatıcı ayrımı değerlendirme kanıtlarında karışıyorsa seçilir.",
+      "impact_evaluation": {"method": "CONCEPT_CHECK", "success_indicator": "Yeni pasajlarda anlatıcı ve bakış açısının gerekçeli biçimde doğru sınıflandırılması."}
+    },
+    {
+      "option_id": "OPT_T2_SBP_02_YEREL_SOZLU_TARIH_ANI_DERLEMESI",
+      "theme_id": "TEMA_02",
+      "duration_hours": 2,
+      "identified_need": "Anı türünü yerel tanıklık ve gerçek yaşam bağlamıyla derinleştirme.",
+      "recommended_insertion_point": {"target_block_id": "BLOCK_T2_01_OKUMA", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T2_01_OKUMA_P08"},
+      "activation_condition": "Gönüllü ve güvenli saha/alternatif kaynak koşulları sağlanabiliyorsa seçilir.",
+      "impact_evaluation": {"method": "PRODUCT_REVIEW", "success_indicator": "Tanıklık malzemesinin anı türünün anlatım özelliklerine uygun ve kaynak bilinciyle dönüştürülmesi."}
+    },
+    {
+      "option_id": "OPT_T2_SBP_03_SIIR_DINLETISI_PERFORMANS_GENISLETMESI",
+      "theme_id": "TEMA_02",
+      "duration_hours": 2,
+      "identified_need": "Şiir seslendirmesinde vurgu, tonlama, durak ve sahne güvenini yeniden performansla geliştirme.",
+      "recommended_insertion_point": {"target_block_id": "BLOCK_T2_02_KONUSMA", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T2_02_KONUSMA_P05"},
+      "activation_condition": "Çekirdek performans sonrası sınıfın yeniden icra ve geribildirim döngüsüne ihtiyacı varsa seçilir.",
+      "impact_evaluation": {"method": "RUBRIC_REPERFORMANCE", "success_indicator": "İkinci icrada seçili konuşma ölçütlerinde gözlenebilir gelişim."}
+    },
+    {
+      "option_id": "OPT_T2_SBP_04_AHENK_VE_VEZIN_DESTEK_KLINIGI",
+      "theme_id": "TEMA_02",
+      "duration_hours": 1,
+      "identified_need": "Ahenk, ölçü, kafiye/redif ve ritim çözümlemesinde hedefli telafi.",
+      "recommended_insertion_point": {"target_block_id": "BLOCK_T2_03_DINLEME", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T2_03_DINLEME_P04"},
+      "activation_condition": "Dinleme/şiir çözümleme kanıtları yazma öncesi ritim desteği gerektiğini gösterirse seçilir.",
+      "impact_evaluation": {"method": "BEFORE_AFTER_ERROR_CHECK", "success_indicator": "Ahenk ögelerini belirleme ve kendi şiir taslağındaki ritim sorunlarını düzeltme doğruluğunun artması."}
+    },
+    {
+      "option_id": "OPT_T2_SBP_05_GENC_SAIRLER_METINLERARASI_ATOLYE",
+      "theme_id": "TEMA_02",
+      "duration_hours": 2,
+      "identified_need": "Şiir taslağını akran geribildirimiyle redakte ederek tamamlanmış ürüne dönüştürme.",
+      "recommended_insertion_point": {"target_block_id": "BLOCK_T2_04_YAZMA", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T2_04_YAZMA_P05"},
+      "activation_condition": "Tema sonunda yaratıcı yazma ürünlerinin ikinci revizyon turundan yarar sağlayacağı görülürse seçilir.",
+      "impact_evaluation": {"method": "DRAFT_TO_FINAL_COMPARISON", "success_indicator": "Nihai şiirde amaçlı revizyonların ve ölçüt temelli iyileştirmenin görünür olması."}
+    },
+    {
+      "option_id": "OPT_T3_SBP_01_YEREL_KULTUREL_RITUEL_DERLEMESI",
+      "theme_id": "TEMA_03",
+      "duration_hours": 2,
+      "identified_need": "Kültürel sürekliliği yerel örnek üzerinden araştırma ve sunma.",
+      "recommended_insertion_point": {"target_block_id": "BLOCK_T3_03_DINLEME", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T3_03_DINLEME_P04"},
+      "activation_condition": "Yerel bağlam ve güvenli araştırma koşulları tema kavramlarını derinleştirecekse seçilir.",
+      "impact_evaluation": {"method": "RESEARCH_PRODUCT_REVIEW", "success_indicator": "Yerel kültürel unsurun kaynaklı, sınıflandırılmış ve tema kavramlarıyla ilişkilendirilmiş sunumu."}
+    },
+    {
+      "option_id": "OPT_T3_SBP_02_MEKAN_TASVIRI_YAZMA_KLINIGI",
+      "theme_id": "TEMA_03",
+      "duration_hours": 1,
+      "identified_need": "Mekân tasviri ve niteleyici söz varlığında yazma öncesi telafi.",
+      "recommended_insertion_point": {"target_block_id": "BLOCK_T3_01_OKUMA", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T3_01_OKUMA_P08"},
+      "activation_condition": "Okuma çözümlemeleri öğrencilerin tasvir dilini üretime aktarmakta zorlandığını gösterirse seçilir.",
+      "impact_evaluation": {"method": "WRITING_SAMPLE_COMPARISON", "success_indicator": "Sonraki yazma örneğinde duyusal/niteleyici söz varlığı çeşitliliğinin artması."}
+    },
+    {
+      "option_id": "OPT_T3_SBP_03_KULTUR_VE_DIL_PANELI",
+      "theme_id": "TEMA_03",
+      "duration_hours": 2,
+      "identified_need": "Akademik panel formatında konuşma, soru yanıtlama ve dinleyici etkileşimini genişletme.",
+      "recommended_insertion_point": {"target_block_id": "BLOCK_T3_02_KONUSMA", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T3_02_KONUSMA_P05"},
+      "activation_condition": "Çekirdek konuşma sonrası yapılandırılmış topluluk önünde ikinci performans pedagojik değer sağlayacaksa seçilir.",
+      "impact_evaluation": {"method": "RUBRIC_REPERFORMANCE", "success_indicator": "Panel rolü, süre yönetimi, kanıt kullanımı ve soru yanıtlama ölçütlerinde gelişim."}
+    },
+    {
+      "option_id": "OPT_T3_SBP_04_INFOGRAFIK_DIJITAL_TASARIM_LAB",
+      "theme_id": "TEMA_03",
+      "duration_hours": 2,
+      "identified_need": "İnfografik metni görsel hiyerarşi ve çok modlu tasarımla tamamlamak için uygulama süresi.",
+      "recommended_insertion_point": {"target_block_id": "BLOCK_T3_04_YAZMA", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T3_04_YAZMA_P05"},
+      "activation_condition": "Yazılı içerik tamamlandığı hâlde tasarım/erişilebilirlik düzenlemesi için ek uygulama süresi yararlıysa seçilir.",
+      "impact_evaluation": {"method": "PRODUCT_REVIEW", "success_indicator": "Nihai üründe metin-görsel dengesi, okunabilirlik ve bilgi hiyerarşisinin iyileşmesi."}
+    },
+    {
+      "option_id": "OPT_T3_SBP_05_TEMA_KAVRAM_HARITASI_KONSOLIDASYONU",
+      "theme_id": "TEMA_03",
+      "duration_hours": 1,
+      "identified_need": "Dil-mekân-kültür-bellek ilişkilerini tema sonunda bütüncül kavram ağına dönüştürme.",
+      "recommended_insertion_point": {"target_block_id": "BLOCK_T3_03_DINLEME", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T3_03_DINLEME_P04"},
+      "activation_condition": "Tema kavramları parçalı öğrenilmiş görünüyorsa yazma öncesi konsolidasyon için seçilir.",
+      "impact_evaluation": {"method": "CONCEPT_MAP_REVIEW", "success_indicator": "Kavramlar arasında doğru, açıklanmış ve metin kanıtına dayalı bağlantılar kurulması."}
+    },
+    {
+      "option_id": "OPT_T4_SBP_01_SOSYAL_MEDYA_DIL_ELESTIRISI_FORUMU",
+      "theme_id": "TEMA_04",
+      "duration_hours": 2,
+      "identified_need": "Dijital dil kullanımı üzerine kanıtlı tartışma ve yeniden konuşma performansı.",
+      "recommended_insertion_point": {"target_block_id": "BLOCK_T4_02_KONUSMA", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T4_02_KONUSMA_P05"},
+      "activation_condition": "Konuşma kazanımları dijital dil bağlamında derinleştirilecekse ve iki saat ayrılabiliyorsa seçilir.",
+      "impact_evaluation": {"method": "FORUM_PERFORMANCE_REVIEW", "success_indicator": "Örnek, gerekçe, karşı görüş ve Türkçe kullanım önerilerinin daha tutarlı kullanılması."}
+    },
+    {
+      "option_id": "OPT_T4_SBP_02_YEREL_EDINILMIS_KULTUREL_DEGER_PORTRESI",
+      "theme_id": "TEMA_04",
+      "duration_hours": 2,
+      "identified_need": "Otobiyografik yazmayı yerel kültür insanı üzerinden araştırma ve empatiyle genişletme.",
+      "recommended_insertion_point": {"target_block_id": "BLOCK_T4_03_DINLEME", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T4_03_DINLEME_P04"},
+      "activation_condition": "Güvenli/gönüllü kaynak koşulları sağlanıyor ve yazma öncesi yerel bağlam faydalı olacaksa seçilir.",
+      "impact_evaluation": {"method": "PRODUCT_REVIEW", "success_indicator": "Kaynak bilgisinin otobiyografik anlatı biçimine tutarlı ve etik biçimde dönüştürülmesi."}
+    },
+    {
+      "option_id": "OPT_T4_SBP_03_BAGLASIKLIK_BAGDASIKLIK_KLINIGI",
+      "theme_id": "TEMA_04",
+      "duration_hours": 1,
+      "identified_need": "Otobiyografi taslaklarında bağlaşıklık, bağdaşıklık ve anlatım kusurlarına hedefli müdahale.",
+      "recommended_insertion_point": {"target_block_id": "BLOCK_T4_04_YAZMA", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T4_04_YAZMA_P03"},
+      "activation_condition": "İlk yazma taslakları ortak dilbilgisel/tutarlılık sorunları gösterirse final revizyon öncesi seçilir.",
+      "impact_evaluation": {"method": "DRAFT_ERROR_RECHECK", "success_indicator": "Final taslakta bağlaşıklık/bağdaşıklık ve anlatım kusuru sayısının azalması."}
+    },
+    {
+      "option_id": "OPT_T4_SBP_04_CALIKUSU_SAHNELEME_VE_METINLERARASILIK",
+      "theme_id": "TEMA_04",
+      "duration_hours": 2,
+      "identified_need": "Roman-tiyatro tür dönüşümünü yaratıcı yazma ve canlandırmayla deneyimleme.",
+      "recommended_insertion_point": {"target_block_id": "BLOCK_T4_01_OKUMA", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T4_01_OKUMA_P08"},
+      "activation_condition": "Metinlerarasılık/tür dönüşümü için iki saatlik yaratıcı uygulama sınıfa değer katacaksa seçilir.",
+      "impact_evaluation": {"method": "SCRIPT_AND_PERFORMANCE_REVIEW", "success_indicator": "Roman sahnesinin tiyatro kurallarına uygun dönüştürülmesi ve anlatısal özü koruması."}
+    },
+    {
+      "option_id": "OPT_T4_SBP_05_YILLIK_GELISIM_VE_PORTFOLYO_KAPATIS",
+      "theme_id": "TEMA_04",
+      "duration_hours": 1,
+      "identified_need": "Yıllık ürünlerin ve öğrenme günlüklarının acele kapanış yerine üstbilişsel portfolyo değerlendirmesiyle tamamlanması.",
+      "recommended_insertion_point": {"target_block_id": "BLOCK_T4_04_YAZMA", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T4_04_YAZMA_P05"},
+      "activation_condition": "Yıl sonunda ürünleri seçme, gelişim kanıtı çıkarma ve sonraki hedefi yazma için ek süre gerekiyorsa seçilir.",
+      "impact_evaluation": {"method": "ANNUAL_PORTFOLIO_REFLECTION", "success_indicator": "Öğrencinin yıl içi ürünlerden kanıt göstererek gelişimini ve sonraki öğrenme hedefini açıklaması."}
+    }
+  ]
+}
