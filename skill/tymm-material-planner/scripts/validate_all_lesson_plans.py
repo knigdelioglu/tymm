@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate all generated TYMM lesson plans for schema, grounding and package completeness."""
+"""Validate all generated TYMM lesson plans for schema, grounding, parity and package completeness."""
 from __future__ import annotations
 
 import argparse
@@ -19,6 +19,7 @@ if str(SCRIPT_DIR) not in sys.path:
 
 import lesson_plan_context  # noqa: E402
 import validate_lesson_plan  # noqa: E402
+import validate_lesson_plan_markdown  # noqa: E402
 
 
 def read_json(path: Path) -> dict[str, Any]:
@@ -35,12 +36,24 @@ def validate_course(root: Path, schema_validator: Draft202012Validator) -> dict[
     production = read_json(plan_meta_path)
     generated_root = root / "generated/lesson_plans"
     json_files = sorted(generated_root.glob("**/*.json"))
+    markdown_files = sorted(generated_root.glob("**/*.md"))
 
     expected_packages = production.get("progress", {}).get("total_packages")
     expected_hours = production.get("progress", {}).get("core_instruction_hours")
     failures: list[dict[str, Any]] = []
     warnings: list[dict[str, Any]] = []
     total_hours = 0
+
+    json_stems = {path.with_suffix("").relative_to(generated_root).as_posix() for path in json_files}
+    markdown_stems = {path.with_suffix("").relative_to(generated_root).as_posix() for path in markdown_files}
+    for orphan in sorted(markdown_stems - json_stems):
+        failures.append(
+            {
+                "path": (generated_root / (orphan + ".md")).relative_to(root).as_posix(),
+                "stage": "markdown_parity",
+                "errors": ["ORPHAN_MARKDOWN_WITHOUT_JSON"],
+            }
+        )
 
     for plan_path in json_files:
         relative = plan_path.relative_to(root).as_posix()
@@ -97,24 +110,33 @@ def validate_course(root: Path, schema_validator: Draft202012Validator) -> dict[
                 }
             )
 
-        markdown_path = plan_path.with_suffix(".md")
-        if not markdown_path.exists():
+        parity = validate_lesson_plan_markdown.validate_pair(plan_path)
+        if parity.get("status") != "PASS":
             failures.append(
                 {
                     "path": relative,
-                    "stage": "paired_markdown",
-                    "errors": [f"missing {markdown_path.relative_to(root).as_posix()}"],
+                    "stage": "markdown_parity",
+                    "errors": parity.get("errors", []),
                 }
             )
 
     count_ok = len(json_files) == expected_packages
     hours_ok = total_hours == expected_hours
+    markdown_count_ok = len(markdown_files) == expected_packages
     if not count_ok:
         failures.append(
             {
                 "path": plan_meta_path.relative_to(root).as_posix(),
                 "stage": "course_totals",
                 "errors": [f"PACKAGE_COUNT_MISMATCH:{len(json_files)}!={expected_packages}"],
+            }
+        )
+    if not markdown_count_ok:
+        failures.append(
+            {
+                "path": plan_meta_path.relative_to(root).as_posix(),
+                "stage": "course_totals",
+                "errors": [f"MARKDOWN_PACKAGE_COUNT_MISMATCH:{len(markdown_files)}!={expected_packages}"],
             }
         )
     if not hours_ok:
@@ -130,6 +152,7 @@ def validate_course(root: Path, schema_validator: Draft202012Validator) -> dict[
         "course_id": production.get("course_id"),
         "status": "PASS" if not failures else "FAIL",
         "package_count": len(json_files),
+        "markdown_package_count": len(markdown_files),
         "expected_package_count": expected_packages,
         "lesson_hours": total_hours,
         "expected_lesson_hours": expected_hours,
@@ -157,6 +180,7 @@ def main() -> int:
         "summary": {
             "courses": len(reports),
             "packages": sum(report["package_count"] for report in reports),
+            "markdown_packages": sum(report["markdown_package_count"] for report in reports),
             "lesson_hours": sum(report["lesson_hours"] for report in reports),
             "failure_records": sum(len(report["failures"]) for report in reports),
             "warning_records": sum(len(report["warnings"]) for report in reports),
