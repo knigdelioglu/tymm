@@ -6,6 +6,7 @@ on:
       - main
     paths: &lesson_plan_paths
       - '.github/workflows/tymm-lesson-plan-validation.yml'
+      - '.github/workflows/tymm-p0-production-gate.yml'
       - 'skill/tymm-material-planner/scripts/validate_lesson_plan.py'
       - 'skill/tymm-material-planner/scripts/validate_all_lesson_plans.py'
       - 'skill/tymm-material-planner/scripts/finalize_lesson_plan_production.py'
