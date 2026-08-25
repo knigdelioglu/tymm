@@ -1,0 +1,74 @@
+name: TYMM Lesson Plan Full Validation
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/tymm-lesson-plan-validation.yml'
+      - 'skill/tymm-material-planner/scripts/validate_lesson_plan.py'
+      - 'skill/tymm-material-planner/scripts/validate_all_lesson_plans.py'
+      - 'skill/tymm-material-planner/scripts/lesson_plan_context.py'
+      - 'skill/tymm-material-planner/scripts/build_runtime_course_package.py'
+      - 'skill/tymm-material-planner/schemas/lesson_plan.schema.json'
+      - 'courses/TDE_9/generated/lesson_plans/**'
+      - 'courses/TDE_10/generated/lesson_plans/**'
+      - 'courses/TDE_9/planning/**'
+      - 'courses/TDE_10/planning/**'
+      - 'courses/TDE_9/production/**'
+      - 'courses/TDE_10/production/**'
+      - 'courses/TDE_9/themes/**'
+      - 'courses/TDE_10/themes/**'
+      - 'courses/TDE_9/textbook_map.json'
+      - 'courses/TDE_10/textbook_map.json'
+      - 'courses/TDE_9/textbook_forms_index.json'
+      - 'courses/TDE_10/textbook_forms_index.json'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: tymm-lesson-plan-full-validation-main
+  cancel-in-progress: true
+
+jobs:
+  validate-all:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install schema validator
+        run: python -m pip install 'jsonschema==4.23.0'
+
+      - name: Resolve calendar-neutral course timelines
+        run: |
+          python skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py --knowledge-root courses/TDE_9
+          python skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py --knowledge-root courses/TDE_10
+
+      - name: Build fresh runtime packages
+        run: |
+          python skill/tymm-material-planner/scripts/build_runtime_course_package.py build --knowledge-root courses/TDE_9
+          python skill/tymm-material-planner/scripts/build_runtime_course_package.py build --knowledge-root courses/TDE_10
+
+      - name: Validate all 176 lesson-plan packages
+        run: |
+          python skill/tymm-material-planner/scripts/validate_all_lesson_plans.py \
+            --knowledge-root courses/TDE_9 \
+            --knowledge-root courses/TDE_10 \
+            --report /tmp/lesson-plan-validation-report.json
+
+      - name: Upload validation report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lesson-plan-validation-report
+          path: /tmp/lesson-plan-validation-report.json
+          if-no-files-found: warn
