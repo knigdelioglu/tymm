@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "course_id": "TDE_10",
   "grade": 10,
-  "timeline_version": "1.1.0",
+  "timeline_version": "1.1.2",
   "timeline_type": "ANNUAL_COURSE_TIMELINE",
   "timeline_resolution": "BLOCK_TIME_RESOLVED",
   "timeline_semantics": {
@@ -27,8 +27,9 @@
     "temporal_fact_audit": {
       "annual_total_hours": {
         "value": 180,
-        "status": "DERIVED_FROM_172_PLUS_8",
-        "source": "curriculum_map.json"
+        "source": "curriculum_map.json + planning/official_topic_hour_distribution.json",
+        "source_locator": "172+8",
+        "status": "DETERMINISTIC_RECONCILIATION"
       },
       "theme_count": {
         "value": 4,
@@ -52,13 +53,14 @@
       },
       "school_based_hours_per_theme": {
         "value": 2,
-        "status": "USER_CONFIRMED_PLANNING_RULE",
-        "source": "user instruction 2026-08-18"
+        "source": "planning/official_topic_hour_distribution.json",
+        "source_locator": "Tema bazlı okul temelli planlama satırları",
+        "status": "OFFICIAL_DRAFT_ANNUAL_PLAN_PLANNING_GUIDANCE"
       },
       "outer_theme_total_hours": {
         "value": 45,
-        "status": "DETERMINISTIC_DERIVATION",
-        "source": "43+2"
+        "source": "curriculum_map.json + planning/official_topic_hour_distribution.json",
+        "status": "DETERMINISTIC_RECONCILIATION"
       },
       "annual_core_instruction_hours": {
         "value": 172,
@@ -67,8 +69,9 @@
       },
       "annual_school_based_hours": {
         "value": 8,
-        "status": "DETERMINISTIC_DERIVATION",
-        "source": "2*4"
+        "source": "planning/official_topic_hour_distribution.json",
+        "source_locator": "Her temadaki okul temelli planlama satırları; takvim alanları hariç",
+        "status": "OFFICIAL_DRAFT_ANNUAL_PLAN_PLANNING_GUIDANCE"
       },
       "weekly_lesson_hours": {
         "value": null,
@@ -111,18 +114,27 @@
         "source": "planning/block_hour_bindings.json",
         "source_locator": "MEB taslak yıllık plan konu/saat dağılımı; takvim alanları hariç",
         "status": "OFFICIAL_DRAFT_ANNUAL_PLAN_DERIVED_CALENDAR_NEUTRAL"
+      },
+      "annual_instructional_hours": {
+        "value": 172,
+        "source": "curriculum_map.json + planning/block_hour_bindings.json",
+        "source_locator": "43 saat x 4 tema",
+        "status": "EXPLICIT_OFFICIAL_AND_RECONCILED"
       }
     },
     "block_hours_source": "planning/block_hour_bindings.json",
     "calendar_source": null
   },
   "annual_hours": {
-    "official_theme_instruction_total": 172,
-    "school_based_planning_total": 8,
-    "planned_annual_total": 180,
-    "theme_outer_total": 45,
-    "core_instruction_per_theme": 43,
-    "school_based_per_theme": 2
+    "core_instruction_hours": 172,
+    "school_based_hours": 8,
+    "official_total_hours": 180,
+    "time_status": "CALENDAR_NEUTRAL_RECONCILED",
+    "source_locators": [
+      "curriculum_map.json",
+      "planning/official_topic_hour_distribution.json",
+      "planning/block_hour_bindings.json"
+    ]
   },
   "themes": [
     {
@@ -132,7 +144,7 @@
       "core_instruction_hours": 43,
       "school_based_hours": 2,
       "outer_total_hours": 45,
-      "school_based_hours_status": "USER_CONFIRMED_PLANNING_RULE",
+      "school_based_hours_status": "OFFICIAL_DRAFT_ANNUAL_PLAN_PLANNING_GUIDANCE",
       "source_locators": [
         "curriculum_map.json#themes[0].allocated_lesson_hours",
         "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/242?kod=D15",
@@ -231,7 +243,7 @@
       "core_instruction_hours": 43,
       "school_based_hours": 2,
       "outer_total_hours": 45,
-      "school_based_hours_status": "USER_CONFIRMED_PLANNING_RULE",
+      "school_based_hours_status": "OFFICIAL_DRAFT_ANNUAL_PLAN_PLANNING_GUIDANCE",
       "source_locators": [
         "curriculum_map.json#themes[1].allocated_lesson_hours",
         "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/247",
@@ -330,7 +342,7 @@
       "core_instruction_hours": 43,
       "school_based_hours": 2,
       "outer_total_hours": 45,
-      "school_based_hours_status": "USER_CONFIRMED_PLANNING_RULE",
+      "school_based_hours_status": "OFFICIAL_DRAFT_ANNUAL_PLAN_PLANNING_GUIDANCE",
       "source_locators": [
         "curriculum_map.json#themes[2].allocated_lesson_hours",
         "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/256",
@@ -429,7 +441,7 @@
       "core_instruction_hours": 43,
       "school_based_hours": 2,
       "outer_total_hours": 45,
-      "school_based_hours_status": "USER_CONFIRMED_PLANNING_RULE",
+      "school_based_hours_status": "OFFICIAL_DRAFT_ANNUAL_PLAN_PLANNING_GUIDANCE",
       "source_locators": [
         "curriculum_map.json#themes[3].allocated_lesson_hours",
         "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/261",
@@ -456,7 +468,7 @@
             "planning/block_hour_bindings.json#TEMA_04.BLOCK_T4_01_OKUMA"
           ],
           "skill_domain": "OKUMA",
-          "hour_resolution": "DIRECT_STABLE_TEMPLATE"
+          "hour_resolution": "DIRECT"
         },
         {
           "block_id": "BLOCK_T4_02_KONUSMA",
@@ -476,7 +488,7 @@
             "planning/block_hour_bindings.json#TEMA_04.BLOCK_T4_02_KONUSMA"
           ],
           "skill_domain": "KONUSMA",
-          "hour_resolution": "DIRECT_STABLE_TEMPLATE"
+          "hour_resolution": "DIRECT"
         },
         {
           "block_id": "BLOCK_T4_03_DINLEME",
@@ -496,7 +508,7 @@
             "planning/block_hour_bindings.json#TEMA_04.BLOCK_T4_03_DINLEME"
           ],
           "skill_domain": "DINLEME_IZLEME",
-          "hour_resolution": "NORMALIZED_TO_STABLE_DOMAIN_TEMPLATE"
+          "hour_resolution": "DIRECT_PLUS_COMPOUND_FIRST_COMPONENT"
         },
         {
           "block_id": "BLOCK_T4_04_YAZMA",
@@ -516,7 +528,7 @@
             "planning/block_hour_bindings.json#TEMA_04.BLOCK_T4_04_YAZMA"
           ],
           "skill_domain": "YAZMA",
-          "hour_resolution": "DIRECT_STABLE_TEMPLATE"
+          "hour_resolution": "COMPOUND_SECOND_COMPONENT_PLUS_DIRECT"
         }
       ],
       "official_total_hours": 43

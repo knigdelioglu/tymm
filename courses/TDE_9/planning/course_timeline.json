@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "course_id": "TDE_9",
   "grade": 9,
-  "timeline_version": "1.1.0",
+  "timeline_version": "1.1.2",
   "timeline_type": "ANNUAL_COURSE_TIMELINE",
   "timeline_resolution": "BLOCK_TIME_RESOLVED",
   "timeline_semantics": {
@@ -26,10 +26,10 @@
     "provenance_status": "PASS_CALENDAR_NEUTRAL_BLOCK_TIME_RESOLVED",
     "temporal_fact_audit": {
       "annual_instructional_hours": {
-        "value": 180,
-        "source": "curriculum_map.json",
-        "source_locator": "scope_summary.allocated_lesson_hours; öğretim programı.pdf s. 28-29",
-        "status": "EXPLICIT_OFFICIAL"
+        "value": 172,
+        "source": "curriculum_map.json + planning/block_hour_bindings.json",
+        "source_locator": "43 saat x 4 tema",
+        "status": "EXPLICIT_OFFICIAL_AND_RECONCILED"
       },
       "theme_count": {
         "value": 4,
@@ -61,17 +61,16 @@
         "status": "EXPLICIT_OFFICIAL"
       },
       "school_based_hours_per_theme": {
-        "value": null,
-        "source": "curriculum_map.json",
-        "source_locator": "scope_summary.allocated_lesson_hours.school_based_planning_hours",
-        "status": "UNRESOLVED",
-        "note": "Canonical map verifies 8 annual school-based hours, but does not explicitly allocate 2 hours to each theme."
+        "value": 2,
+        "source": "planning/official_topic_hour_distribution.json",
+        "source_locator": "Tema bazlı okul temelli planlama satırları",
+        "status": "OFFICIAL_DRAFT_ANNUAL_PLAN_PLANNING_GUIDANCE"
       },
       "annual_school_based_hours": {
         "value": 8,
-        "source": "curriculum_map.json",
-        "source_locator": "scope_summary.allocated_lesson_hours.school_based_planning_hours",
-        "status": "EXPLICIT_OFFICIAL"
+        "source": "planning/official_topic_hour_distribution.json",
+        "source_locator": "Her temadaki okul temelli planlama satırları; takvim alanları hariç",
+        "status": "OFFICIAL_DRAFT_ANNUAL_PLAN_PLANNING_GUIDANCE"
       },
       "block_count": {
         "value": 16,
@@ -134,19 +133,31 @@
         "source_locator": "themes[].options[].selection_status",
         "status": "UNRESOLVED",
         "note": "Options are pedagogical recommendations and all are NOT_SELECTED; none is auto-bound."
+      },
+      "annual_total_hours": {
+        "value": 180,
+        "source": "curriculum_map.json + planning/official_topic_hour_distribution.json",
+        "source_locator": "172+8",
+        "status": "DETERMINISTIC_RECONCILIATION"
+      },
+      "outer_theme_total_hours": {
+        "value": 45,
+        "source": "curriculum_map.json + planning/official_topic_hour_distribution.json",
+        "status": "DETERMINISTIC_RECONCILIATION"
       }
     },
     "block_hours_source": "planning/block_hour_bindings.json",
     "calendar_source": null
   },
   "annual_hours": {
-    "official_total_hours": 180,
     "core_instruction_hours": 172,
     "school_based_hours": 8,
-    "time_status": "EXPLICIT_OFFICIAL",
+    "official_total_hours": 180,
+    "time_status": "CALENDAR_NEUTRAL_RECONCILED",
     "source_locators": [
-      "curriculum_map.json#scope_summary.allocated_lesson_hours",
-      "öğretim programı.pdf s. 28-29"
+      "curriculum_map.json",
+      "planning/official_topic_hour_distribution.json",
+      "planning/block_hour_bindings.json"
     ]
   },
   "theme_count": 4,
@@ -157,8 +168,8 @@
       "theme_title": "1. TEMA: SÖZÜN İNCELİĞİ",
       "official_total_hours": 43,
       "core_instruction_hours": 43,
-      "school_based_hours": null,
-      "school_based_hours_status": "UNRESOLVED",
+      "school_based_hours": 2,
+      "school_based_hours_status": "OFFICIAL_DRAFT_ANNUAL_PLAN_PLANNING_GUIDANCE",
       "source_locators": [
         "curriculum_map.json#themes[0].allocated_lesson_hours",
         "curriculum_map.json#themes[0].source_locator",
@@ -247,7 +258,8 @@
           "hour_resolution": "COMPOUND_SECOND_COMPONENT_PLUS_DIRECT"
         }
       ],
-      "block_resolution_status": "BLOCK_TIME_RESOLVED"
+      "block_resolution_status": "BLOCK_TIME_RESOLVED",
+      "outer_total_hours": 45
     },
     {
       "theme_id": "TEMA_02",
@@ -255,8 +267,8 @@
       "theme_title": "2. TEMA: ANLAM ARAYIŞI",
       "official_total_hours": 43,
       "core_instruction_hours": 43,
-      "school_based_hours": null,
-      "school_based_hours_status": "UNRESOLVED",
+      "school_based_hours": 2,
+      "school_based_hours_status": "OFFICIAL_DRAFT_ANNUAL_PLAN_PLANNING_GUIDANCE",
       "source_locators": [
         "curriculum_map.json#themes[1].allocated_lesson_hours",
         "curriculum_map.json#themes[1].source_locator",
@@ -345,7 +357,8 @@
           "hour_resolution": "COMPOUND_SECOND_COMPONENT_PLUS_DIRECT"
         }
       ],
-      "block_resolution_status": "BLOCK_TIME_RESOLVED"
+      "block_resolution_status": "BLOCK_TIME_RESOLVED",
+      "outer_total_hours": 45
     },
     {
       "theme_id": "TEMA_03",
@@ -353,8 +366,8 @@
       "theme_title": "3. TEMA: ANLAMIN YAPI TAŞLARI",
       "official_total_hours": 43,
       "core_instruction_hours": 43,
-      "school_based_hours": null,
-      "school_based_hours_status": "UNRESOLVED",
+      "school_based_hours": 2,
+      "school_based_hours_status": "OFFICIAL_DRAFT_ANNUAL_PLAN_PLANNING_GUIDANCE",
       "source_locators": [
         "curriculum_map.json#themes[2].allocated_lesson_hours",
         "curriculum_map.json#themes[2].source_locator",
@@ -443,7 +456,8 @@
           "hour_resolution": "DIRECT"
         }
       ],
-      "block_resolution_status": "BLOCK_TIME_RESOLVED"
+      "block_resolution_status": "BLOCK_TIME_RESOLVED",
+      "outer_total_hours": 45
     },
     {
       "theme_id": "TEMA_04",
@@ -451,8 +465,8 @@
       "theme_title": "4. TEMA: DİLİN ZENGİNLİĞİ",
       "official_total_hours": 43,
       "core_instruction_hours": 43,
-      "school_based_hours": null,
-      "school_based_hours_status": "UNRESOLVED",
+      "school_based_hours": 2,
+      "school_based_hours_status": "OFFICIAL_DRAFT_ANNUAL_PLAN_PLANNING_GUIDANCE",
       "source_locators": [
         "curriculum_map.json#themes[3].allocated_lesson_hours",
         "curriculum_map.json#themes[3].source_locator",
@@ -477,7 +491,7 @@
             "curriculum_map.json#themes[3]",
             "planning/block_hour_bindings.json#TEMA_04.BLOCK_T4_01_OKUMA"
           ],
-          "hour_resolution": "DIRECT_STABLE_TEMPLATE"
+          "hour_resolution": "DIRECT"
         },
         {
           "block_id": "BLOCK_T4_02_KONUSMA",
@@ -498,7 +512,7 @@
             "curriculum_map.json#themes[3]",
             "planning/block_hour_bindings.json#TEMA_04.BLOCK_T4_02_KONUSMA"
           ],
-          "hour_resolution": "DIRECT_STABLE_TEMPLATE"
+          "hour_resolution": "DIRECT"
         },
         {
           "block_id": "BLOCK_T4_03_DINLEME",
@@ -517,7 +531,7 @@
             "curriculum_map.json#themes[3]",
             "planning/block_hour_bindings.json#TEMA_04.BLOCK_T4_03_DINLEME"
           ],
-          "hour_resolution": "NORMALIZED_TO_STABLE_DOMAIN_TEMPLATE"
+          "hour_resolution": "DIRECT_PLUS_COMPOUND_FIRST_COMPONENT"
         },
         {
           "block_id": "BLOCK_T4_04_YAZMA",
@@ -538,10 +552,11 @@
             "curriculum_map.json#themes[3]",
             "planning/block_hour_bindings.json#TEMA_04.BLOCK_T4_04_YAZMA"
           ],
-          "hour_resolution": "DIRECT_STABLE_TEMPLATE"
+          "hour_resolution": "COMPOUND_SECOND_COMPONENT_PLUS_DIRECT"
         }
       ],
-      "block_resolution_status": "BLOCK_TIME_RESOLVED"
+      "block_resolution_status": "BLOCK_TIME_RESOLVED",
+      "outer_total_hours": 45
     }
   ],
   "calendar_binding": {
