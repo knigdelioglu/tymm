@@ -12,6 +12,25 @@ def read_json(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def _as_string_list(value: Any, error_code: str, errors: list[str]) -> list[str]:
+    if not isinstance(value, list):
+        errors.append(error_code)
+        return []
+    invalid = [item for item in value if not isinstance(item, str) or not item]
+    if invalid:
+        errors.append(f"{error_code}_ITEMS_INVALID")
+        return [item for item in value if isinstance(item, str) and item]
+    return value
+
+
+def _check_allowed(
+    values: list[str], allowed: set[str], prefix: str, errors: list[str]
+) -> None:
+    unknown = sorted(set(values) - allowed)
+    if unknown:
+        errors.append(f"{prefix}:{unknown}")
+
+
 def validate(context: dict[str, Any], plan: dict[str, Any]) -> dict[str, Any]:
     errors: list[str] = []
     warnings: list[str] = []
@@ -37,28 +56,12 @@ def validate(context: dict[str, Any], plan: dict[str, Any]) -> dict[str, Any]:
     allowed_activities = set(allowed.get("activity_ids", []))
     allowed_forms = set(allowed.get("form_ids", []))
 
-    outcome_codes = plan.get("outcome_codes", [])
-    activity_ids = plan.get("used_activity_ids", [])
-    form_ids = plan.get("used_form_ids", [])
-    if not isinstance(outcome_codes, list):
-        errors.append("OUTCOME_CODES_NOT_LIST")
-        outcome_codes = []
-    if not isinstance(activity_ids, list):
-        errors.append("ACTIVITY_IDS_NOT_LIST")
-        activity_ids = []
-    if not isinstance(form_ids, list):
-        errors.append("FORM_IDS_NOT_LIST")
-        form_ids = []
-
-    invented_outcomes = sorted(set(outcome_codes) - allowed_outcomes)
-    invented_activities = sorted(set(activity_ids) - allowed_activities)
-    invented_forms = sorted(set(form_ids) - allowed_forms)
-    if invented_outcomes:
-        errors.append(f"UNKNOWN_OUTCOME_CODES:{invented_outcomes}")
-    if invented_activities:
-        errors.append(f"UNKNOWN_ACTIVITY_IDS:{invented_activities}")
-    if invented_forms:
-        errors.append(f"UNKNOWN_FORM_IDS:{invented_forms}")
+    outcome_codes = _as_string_list(plan.get("outcome_codes", []), "OUTCOME_CODES_NOT_LIST", errors)
+    activity_ids = _as_string_list(plan.get("used_activity_ids", []), "ACTIVITY_IDS_NOT_LIST", errors)
+    form_ids = _as_string_list(plan.get("used_form_ids", []), "FORM_IDS_NOT_LIST", errors)
+    _check_allowed(outcome_codes, allowed_outcomes, "UNKNOWN_OUTCOME_CODES", errors)
+    _check_allowed(activity_ids, allowed_activities, "UNKNOWN_ACTIVITY_IDS", errors)
+    _check_allowed(form_ids, allowed_forms, "UNKNOWN_FORM_IDS", errors)
 
     lessons = plan.get("lessons", [])
     if not isinstance(lessons, list) or not lessons:
@@ -80,10 +83,46 @@ def validate(context: dict[str, Any], plan: dict[str, Any]) -> dict[str, Any]:
             errors.append(f"LESSON_DURATION_INVALID:{index}")
         else:
             duration_total += duration
+
+        lesson_outcomes = _as_string_list(
+            lesson.get("outcome_codes", []), f"LESSON_{index}_OUTCOME_CODES_NOT_LIST", errors
+        )
+        lesson_activities = _as_string_list(
+            lesson.get("activity_ids", []), f"LESSON_{index}_ACTIVITY_IDS_NOT_LIST", errors
+        )
+        lesson_forms = _as_string_list(
+            lesson.get("form_ids", []), f"LESSON_{index}_FORM_IDS_NOT_LIST", errors
+        )
+        _check_allowed(lesson_outcomes, allowed_outcomes, f"LESSON_{index}_UNKNOWN_OUTCOME_CODES", errors)
+        _check_allowed(lesson_activities, allowed_activities, f"LESSON_{index}_UNKNOWN_ACTIVITY_IDS", errors)
+        _check_allowed(lesson_forms, allowed_forms, f"LESSON_{index}_UNKNOWN_FORM_IDS", errors)
+
     if lesson_numbers and lesson_numbers != list(range(1, len(lesson_numbers) + 1)):
         errors.append(f"LESSON_SEQUENCE_INVALID:{lesson_numbers}")
     if expected_hours is not None and duration_total != expected_hours:
         errors.append(f"LESSON_DURATION_TOTAL_MISMATCH:{duration_total}!={expected_hours}")
+
+    continuation = plan.get("continuation_summary", {})
+    if isinstance(continuation, dict):
+        continuation_outcomes = _as_string_list(
+            continuation.get("covered_outcome_codes", []), "CONTINUATION_OUTCOME_CODES_NOT_LIST", errors
+        )
+        continuation_activities = _as_string_list(
+            continuation.get("used_activity_ids", []), "CONTINUATION_ACTIVITY_IDS_NOT_LIST", errors
+        )
+        _check_allowed(
+            continuation_outcomes, allowed_outcomes, "CONTINUATION_UNKNOWN_OUTCOME_CODES", errors
+        )
+        _check_allowed(
+            continuation_activities, allowed_activities, "CONTINUATION_UNKNOWN_ACTIVITY_IDS", errors
+        )
+        planned_now = continuation.get("planned_now_hours")
+        if planned_now != plan.get("lesson_hours"):
+            errors.append(
+                f"CONTINUATION_PLANNED_HOURS_MISMATCH:{planned_now}!={plan.get('lesson_hours')}"
+            )
+    else:
+        errors.append("CONTINUATION_SUMMARY_NOT_OBJECT")
 
     if not outcome_codes:
         warnings.append("NO_OUTCOME_CODE_REFERENCED")
