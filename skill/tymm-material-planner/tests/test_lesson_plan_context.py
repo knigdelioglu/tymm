@@ -25,7 +25,7 @@ class LessonPlanContextTests(unittest.TestCase):
     def test_context_resolves_source_bound_two_hour_slice(self):
         context = lesson_plan_context.assemble(self.tmp, "BLOCK_T1_01_OKUMA", 2)
         self.assertEqual(context["resolution_status"], "RESOLVED")
-        self.assertEqual(context["context_version"], "1.2.0")
+        self.assertEqual(context["context_version"], "1.3.0")
         self.assertEqual(context["course"]["course_id"], "TDE_9")
         self.assertEqual(context["block"]["planned_hours"], 15)
         self.assertEqual(context["planning_request"]["requested_lesson_hours"], 2)
