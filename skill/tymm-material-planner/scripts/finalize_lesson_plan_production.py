@@ -1,11 +1,20 @@
 #!/usr/bin/env python3
-"""Mark lesson-plan production complete after the full engineering validator passes."""
+"""Mark lesson-plan production complete only from a SHA/fingerprint-bound PASS report."""
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
+import subprocess
+import sys
 from pathlib import Path
 from typing import Any
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+if str(SCRIPT_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPT_DIR))
+
+import validation_binding  # noqa: E402
 
 
 def read_json(path: Path) -> dict[str, Any]:
@@ -16,7 +25,83 @@ def write_json(path: Path, payload: dict[str, Any]) -> None:
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def finalize(root: Path) -> dict[str, Any]:
+def git_head() -> str:
+    try:
+        value = subprocess.check_output(
+            ["git", "rev-parse", "HEAD"], text=True, stderr=subprocess.DEVNULL
+        ).strip().lower()
+    except (OSError, subprocess.CalledProcessError) as exc:
+        raise ValueError("GIT_HEAD_UNAVAILABLE") from exc
+    return validation_binding.resolve_commit_sha(value)
+
+
+def verify_report(
+    report_path: Path,
+    roots: list[Path],
+    schema_path: Path,
+    expected_head: str,
+) -> dict[str, Any]:
+    raw = report_path.read_bytes()
+    report = json.loads(raw.decode("utf-8"))
+    if report.get("status") != "PASS":
+        raise ValueError("VALIDATION_REPORT_NOT_PASS")
+
+    summary = report.get("summary")
+    if not isinstance(summary, dict):
+        raise ValueError("VALIDATION_REPORT_SUMMARY_MISSING")
+    if summary.get("failure_records") != 0:
+        raise ValueError("VALIDATION_REPORT_HAS_FAILURES")
+    if summary.get("warning_records") != 0:
+        raise ValueError("VALIDATION_REPORT_HAS_WARNINGS")
+
+    courses = report.get("courses")
+    if not isinstance(courses, list) or len(courses) != len(roots):
+        raise ValueError("VALIDATION_REPORT_COURSE_COUNT_MISMATCH")
+    requested_course_ids = [read_json(root / "planning/lesson_plan_production_plan.json").get("course_id") for root in roots]
+    report_course_ids = [course.get("course_id") if isinstance(course, dict) else None for course in courses]
+    if report_course_ids != requested_course_ids:
+        raise ValueError(f"VALIDATION_REPORT_COURSE_MISMATCH:{report_course_ids}!={requested_course_ids}")
+    if any(not isinstance(course, dict) or course.get("status") != "PASS" for course in courses):
+        raise ValueError("VALIDATION_REPORT_COURSE_NOT_PASS")
+
+    expected_head = validation_binding.resolve_commit_sha(expected_head)
+    actual_head = git_head()
+    if actual_head != expected_head:
+        raise ValueError(f"CHECKOUT_HEAD_MISMATCH:{actual_head}!={expected_head}")
+
+    report_binding = report.get("binding")
+    if not isinstance(report_binding, dict):
+        raise ValueError("VALIDATION_BINDING_MISSING")
+    if report_binding.get("commit_sha") != expected_head:
+        raise ValueError(
+            f"VALIDATION_COMMIT_MISMATCH:{report_binding.get('commit_sha')}!={expected_head}"
+        )
+
+    current_binding = validation_binding.build_validation_binding(
+        roots,
+        schema_path,
+        commit_sha=expected_head,
+    )
+    required_keys = (
+        "schema_version",
+        "algorithm",
+        "content_fingerprint",
+        "fingerprinted_files",
+        "commit_sha",
+    )
+    for key in required_keys:
+        if report_binding.get(key) != current_binding.get(key):
+            raise ValueError(
+                f"VALIDATION_BINDING_MISMATCH:{key}:{report_binding.get(key)}!={current_binding.get(key)}"
+            )
+
+    return {
+        **current_binding,
+        "report_sha256": f"sha256:{hashlib.sha256(raw).hexdigest()}",
+    }
+
+
+def finalize(root: Path, binding: dict[str, Any]) -> dict[str, Any]:
     path = root / "planning/lesson_plan_production_plan.json"
     plan = read_json(path)
     progress = plan.get("progress", {})
@@ -48,15 +133,20 @@ def finalize(root: Path) -> dict[str, Any]:
             "SOURCE_BOUND_GROUNDING",
             "NESTED_REFERENCE_GROUNDING",
             "CALENDAR_SCOPE",
-            "PAIRED_MARKDOWN",
+            "DETERMINISTIC_JSON_MARKDOWN_PARITY",
+            "PACKAGE_TOPOLOGY",
             "PACKAGE_COUNT",
             "LESSON_HOUR_TOTAL",
             "FRESH_RUNTIME_CONTEXT",
+            "VALIDATION_REPORT_PASS",
+            "VALIDATED_COMMIT_SHA",
+            "VALIDATED_CONTENT_FINGERPRINT",
         ],
         "validated_packages": total_packages,
         "validated_instruction_hours": expected_hours,
         "failure_records": 0,
         "warning_records": 0,
+        "validation_binding": binding,
     }
     write_json(path, plan)
     return {
@@ -64,19 +154,34 @@ def finalize(root: Path) -> dict[str, Any]:
         "status": plan.get("status"),
         "validated_packages": total_packages,
         "validated_instruction_hours": expected_hours,
+        "validated_commit_sha": binding.get("commit_sha"),
+        "content_fingerprint": binding.get("content_fingerprint"),
     }
 
 
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--knowledge-root", action="append", required=True)
+    parser.add_argument(
+        "--schema",
+        default="skill/tymm-material-planner/schemas/lesson_plan.schema.json",
+    )
+    parser.add_argument("--validation-report", required=True)
+    parser.add_argument("--expected-head", required=True)
     args = parser.parse_args()
+    roots = [Path(root) for root in args.knowledge_root]
     try:
-        results = [finalize(Path(root)) for root in args.knowledge_root]
+        binding = verify_report(
+            Path(args.validation_report),
+            roots,
+            Path(args.schema),
+            args.expected_head,
+        )
+        results = [finalize(root, binding) for root in roots]
     except (OSError, ValueError, KeyError, json.JSONDecodeError) as exc:
         print(f"FAIL_CLOSED: {exc}")
         return 2
-    print(json.dumps({"status": "PASS", "courses": results}, ensure_ascii=False, indent=2))
+    print(json.dumps({"status": "PASS", "binding": binding, "courses": results}, ensure_ascii=False, indent=2))
     return 0
 
 
