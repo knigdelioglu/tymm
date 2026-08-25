@@ -12,6 +12,7 @@ on:
       - 'skill/tymm-material-planner/scripts/lesson_plan_context.py'
       - 'skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py'
       - 'skill/tymm-material-planner/scripts/build_runtime_course_package.py'
+      - 'skill/tymm-material-planner/tests/test_large_class_route.py'
       - 'skill/tymm-material-planner/schemas/lesson_plan.schema.json'
       - 'courses/TDE_9/generated/lesson_plans/**'
       - 'courses/TDE_10/generated/lesson_plans/**'
@@ -51,6 +52,9 @@ jobs:
 
       - name: Install schema validator
         run: python -m pip install 'jsonschema==4.23.0'
+
+      - name: Run large-class route regression tests
+        run: python -m unittest skill/tymm-material-planner/tests/test_large_class_route.py
 
       - name: Resolve calendar-neutral course timelines
         run: |
