@@ -14,8 +14,8 @@
     "recording_requires_consent": true
   },
   "summary": {
-    "target_packages": 44,
-    "media_dependent_packages": 28,
+    "target_packages": 36,
+    "media_dependent_packages": 20,
     "live_performance_packages": 16,
     "overlap_packages": 0
   },
@@ -67,8 +67,7 @@
         "MEDIA_DEPENDENT"
       ],
       "media_types": [
-        "AUDIO",
-        "VIDEO"
+        "AUDIO"
       ]
     },
     {
@@ -80,8 +79,7 @@
         "MEDIA_DEPENDENT"
       ],
       "media_types": [
-        "AUDIO",
-        "VIDEO"
+        "AUDIO"
       ]
     },
     {
@@ -113,19 +111,6 @@
         "LIVE_PERFORMANCE"
       ],
       "media_types": []
-    },
-    {
-      "package_id": "BLOCK_T1_04_KONUSMA_P05",
-      "path": "generated/lesson_plans/TEMA_01/BLOCK_T1_04_KONUSMA/BLOCK_T1_04_KONUSMA_P05.json",
-      "theme_id": "TEMA_01",
-      "block_id": "BLOCK_T1_04_KONUSMA",
-      "trigger_categories": [
-        "MEDIA_DEPENDENT"
-      ],
-      "media_types": [
-        "AUDIO",
-        "VIDEO"
-      ]
     },
     {
       "package_id": "BLOCK_T2_02_KONUSMA_P01",
@@ -176,8 +161,7 @@
         "MEDIA_DEPENDENT"
       ],
       "media_types": [
-        "AUDIO",
-        "VIDEO"
+        "AUDIO"
       ]
     },
     {
@@ -189,8 +173,7 @@
         "MEDIA_DEPENDENT"
       ],
       "media_types": [
-        "AUDIO",
-        "VIDEO"
+        "AUDIO"
       ]
     },
     {
@@ -202,8 +185,7 @@
         "MEDIA_DEPENDENT"
       ],
       "media_types": [
-        "AUDIO",
-        "VIDEO"
+        "AUDIO"
       ]
     },
     {
@@ -211,31 +193,6 @@
       "path": "generated/lesson_plans/TEMA_02/BLOCK_T2_03_DINLEME/BLOCK_T2_03_DINLEME_P04.json",
       "theme_id": "TEMA_02",
       "block_id": "BLOCK_T2_03_DINLEME",
-      "trigger_categories": [
-        "MEDIA_DEPENDENT"
-      ],
-      "media_types": [
-        "AUDIO",
-        "VIDEO"
-      ]
-    },
-    {
-      "package_id": "BLOCK_T2_04_YAZMA_P01",
-      "path": "generated/lesson_plans/TEMA_02/BLOCK_T2_04_YAZMA/BLOCK_T2_04_YAZMA_P01.json",
-      "theme_id": "TEMA_02",
-      "block_id": "BLOCK_T2_04_YAZMA",
-      "trigger_categories": [
-        "MEDIA_DEPENDENT"
-      ],
-      "media_types": [
-        "AUDIO"
-      ]
-    },
-    {
-      "package_id": "BLOCK_T2_04_YAZMA_P05",
-      "path": "generated/lesson_plans/TEMA_02/BLOCK_T2_04_YAZMA/BLOCK_T2_04_YAZMA_P05.json",
-      "theme_id": "TEMA_02",
-      "block_id": "BLOCK_T2_04_YAZMA",
       "trigger_categories": [
         "MEDIA_DEPENDENT"
       ],
@@ -368,7 +325,6 @@
         "MEDIA_DEPENDENT"
       ],
       "media_types": [
-        "AUDIO",
         "VIDEO",
         "DIGITAL_TOOL"
       ]
@@ -382,46 +338,8 @@
         "MEDIA_DEPENDENT"
       ],
       "media_types": [
-        "AUDIO",
         "VIDEO",
         "DIGITAL_TOOL"
-      ]
-    },
-    {
-      "package_id": "BLOCK_T3_04_YAZMA_P05",
-      "path": "generated/lesson_plans/TEMA_03/BLOCK_T3_04_YAZMA/BLOCK_T3_04_YAZMA_P05.json",
-      "theme_id": "TEMA_03",
-      "block_id": "BLOCK_T3_04_YAZMA",
-      "trigger_categories": [
-        "MEDIA_DEPENDENT"
-      ],
-      "media_types": [
-        "AUDIO",
-        "VIDEO"
-      ]
-    },
-    {
-      "package_id": "BLOCK_T4_01_OKUMA_P01",
-      "path": "generated/lesson_plans/TEMA_04/BLOCK_T4_01_OKUMA/BLOCK_T4_01_OKUMA_P01.json",
-      "theme_id": "TEMA_04",
-      "block_id": "BLOCK_T4_01_OKUMA",
-      "trigger_categories": [
-        "MEDIA_DEPENDENT"
-      ],
-      "media_types": [
-        "VIDEO"
-      ]
-    },
-    {
-      "package_id": "BLOCK_T4_01_OKUMA_P05",
-      "path": "generated/lesson_plans/TEMA_04/BLOCK_T4_01_OKUMA/BLOCK_T4_01_OKUMA_P05.json",
-      "theme_id": "TEMA_04",
-      "block_id": "BLOCK_T4_01_OKUMA",
-      "trigger_categories": [
-        "MEDIA_DEPENDENT"
-      ],
-      "media_types": [
-        "VIDEO"
       ]
     },
     {
@@ -486,8 +404,7 @@
         "MEDIA_DEPENDENT"
       ],
       "media_types": [
-        "AUDIO",
-        "VIDEO"
+        "AUDIO"
       ]
     },
     {
@@ -512,34 +429,7 @@
         "MEDIA_DEPENDENT"
       ],
       "media_types": [
-        "AUDIO",
-        "VIDEO"
-      ]
-    },
-    {
-      "package_id": "BLOCK_T4_04_YAZMA_P01",
-      "path": "generated/lesson_plans/TEMA_04/BLOCK_T4_04_YAZMA/BLOCK_T4_04_YAZMA_P01.json",
-      "theme_id": "TEMA_04",
-      "block_id": "BLOCK_T4_04_YAZMA",
-      "trigger_categories": [
-        "MEDIA_DEPENDENT"
-      ],
-      "media_types": [
-        "AUDIO",
-        "VIDEO"
-      ]
-    },
-    {
-      "package_id": "BLOCK_T4_04_YAZMA_P05",
-      "path": "generated/lesson_plans/TEMA_04/BLOCK_T4_04_YAZMA/BLOCK_T4_04_YAZMA_P05.json",
-      "theme_id": "TEMA_04",
-      "block_id": "BLOCK_T4_04_YAZMA",
-      "trigger_categories": [
-        "MEDIA_DEPENDENT"
-      ],
-      "media_types": [
-        "AUDIO",
-        "VIDEO"
+        "AUDIO"
       ]
     }
   ]
