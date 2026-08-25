@@ -46,7 +46,7 @@
         "textbook_form",
         "textbook_section"
       ],
-      "index_updated_at": "2026-08-24T13:00:41.902064+00:00",
+      "index_updated_at": "2026-08-25T08:27:46.762977+00:00",
       "database_engine": "SQLite 3.45.1 + sqlite-vec",
       "vector_extension": "sqlite-vec",
       "base_embedding_model": "intfloat/multilingual-e5-small",
