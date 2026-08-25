@@ -65,6 +65,116 @@
           }
         }
       }
+    },
+    "classroom_adaptations": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "trigger_categories",
+        "justification",
+        "differentiation",
+        "accessibility",
+        "evidence_equivalence"
+      ],
+      "properties": {
+        "trigger_categories": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"enum": ["MEDIA_DEPENDENT", "LIVE_PERFORMANCE"]}
+        },
+        "justification": {"type": "string", "minLength": 1},
+        "differentiation": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["scaffold_route", "enrichment_route", "outcomes_unchanged"],
+          "properties": {
+            "scaffold_route": {
+              "type": "array",
+              "minItems": 1,
+              "items": {"type": "string", "minLength": 1}
+            },
+            "enrichment_route": {
+              "type": "array",
+              "minItems": 1,
+              "items": {"type": "string", "minLength": 1}
+            },
+            "outcomes_unchanged": {"const": true}
+          }
+        },
+        "accessibility": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "representation_supports",
+            "participation_supports",
+            "environment_supports",
+            "assessment_construct_preserved"
+          ],
+          "properties": {
+            "representation_supports": {
+              "type": "array",
+              "minItems": 1,
+              "items": {"type": "string", "minLength": 1}
+            },
+            "participation_supports": {
+              "type": "array",
+              "minItems": 1,
+              "items": {"type": "string", "minLength": 1}
+            },
+            "environment_supports": {
+              "type": "array",
+              "minItems": 1,
+              "items": {"type": "string", "minLength": 1}
+            },
+            "assessment_construct_preserved": {"const": true}
+          }
+        },
+        "media_fallback": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "required",
+            "network_independent_core_route",
+            "same_source_or_equivalent_required",
+            "transcript_is_support_not_default_substitute",
+            "offline_route",
+            "access_support_route"
+          ],
+          "properties": {
+            "required": {"const": true},
+            "network_independent_core_route": {"const": true},
+            "same_source_or_equivalent_required": {"const": true},
+            "transcript_is_support_not_default_substitute": {"const": true},
+            "offline_route": {"type": "string", "minLength": 1},
+            "access_support_route": {"type": "string", "minLength": 1}
+          }
+        },
+        "live_performance_access": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "required",
+            "alternative_modes",
+            "same_performance_evidence_required",
+            "written_only_substitution_allowed",
+            "recording_requires_consent"
+          ],
+          "properties": {
+            "required": {"const": true},
+            "alternative_modes": {
+              "type": "array",
+              "minItems": 2,
+              "uniqueItems": true,
+              "items": {"enum": ["SMALL_GROUP_LIVE", "TEACHER_OBSERVED_LIVE", "RECORDED_ORAL_IF_ALLOWED"]}
+            },
+            "same_performance_evidence_required": {"const": true},
+            "written_only_substitution_allowed": {"const": false},
+            "recording_requires_consent": {"const": true}
+          }
+        },
+        "evidence_equivalence": {"type": "string", "minLength": 1}
+      }
     }
   },
   "properties": {
@@ -84,6 +194,7 @@
       "items": {"type": "string", "minLength": 1}
     },
     "large_class_route": {"$ref": "#/$defs/large_class_route"},
+    "classroom_adaptations": {"$ref": "#/$defs/classroom_adaptations"},
     "outcome_codes": {
       "type": "array",
       "minItems": 1,
