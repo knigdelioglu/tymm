@@ -1,10 +1,11 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "course_id": "TDE_10",
   "policy": {
     "calendar_neutral": true,
     "placement_is_recommendation": true,
     "teacher_selection_required": true,
+    "career_guidance_required": true,
     "core_instruction_hours_immutable": 172,
     "school_based_planning_hours_annual": 8,
     "core_instruction_hours_per_theme": 43,
@@ -12,80 +13,80 @@
     "official_total_hours_per_theme": 45,
     "max_selected_hours_per_theme": 2,
     "default_queue_includes_school_based_hours": false,
-    "rule": "Yerleşim noktaları pedagojik öneridir. Öğretmen/zümre sınıf ihtiyacına göre tema içindeki en fazla 2 okul-temelli saati seçer; seçim çekirdek 43 saati veya 172 saatlik üretim kuyruğunu değiştirmez. 10. sınıf seçeneklerinin kariyer/mesleki rehberlik amacı P2'de ayrıca güçlendirilecektir."
+    "rule": "Yerleşim noktaları pedagojik öneridir. 10. sınıfta seçilen okul-temelli saatlerin tamamı kariyer/mesleki rehberlik bağlamında yürütülür; çekirdek 43 saat veya 172 saatlik üretim kuyruğu değişmez."
   },
   "placements": [
     {
       "option_id": "OPT_T10_T1_SBP_01",
       "theme_id": "TEMA_01",
       "duration_hours": 1,
-      "identified_need": "Sözlü kültür bilgisini yerel örnek ve kaynak gösterme pratiğiyle somutlaştırma.",
-      "recommended_insertion_point": {"target_block_id": "BLOCK_T1_01_OKUMA", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T1_01_OKUMA_P08"},
-      "activation_condition": "Yerel/kamusal kaynaklarla güvenli bir derleme çalışması tema kavramlarını derinleştirecekse seçilir.",
-      "impact_evaluation": {"method": "PRODUCT_REVIEW", "success_indicator": "Derlenen örneğin kaynağı belirtilerek tema kavramlarıyla gerekçeli biçimde ilişkilendirilmesi."}
+      "identified_need": "Sözlü iletişim becerilerini gerçek meslek görevleriyle karşılaştırarak öğrencinin ses, diksiyon ve hedef kitle farkındalığı üzerinden kariyer öz farkındalığı geliştirmesi.",
+      "recommended_insertion_point": {"target_block_id": "BLOCK_T1_02_KONUSMA", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T1_02_KONUSMA_P05"},
+      "activation_condition": "Konuşma performansı tamamlandıktan sonra öğrenci kendi sözlü iletişim güçlü yönlerini meslek görevleriyle karşılaştırabilecek kanıta sahipse uygulanır.",
+      "impact_evaluation": {"method": "CAREER_ROLE_MATRIX_REVIEW", "success_indicator": "Öğrenci en az üç sesli iletişim rolünü görev-beceri açısından ayırır ve kendi rol tercihine kanıtlı gerekçe yazar."}
     },
     {
       "option_id": "OPT_T10_T1_SBP_02",
       "theme_id": "TEMA_01",
       "duration_hours": 1,
-      "identified_need": "Ritim, ezgi ve söz ilişkisini uygulamalı inceleme ve kısa sunumla pekiştirme.",
+      "identified_need": "Sözlü kültür ürünlerini araştırma ve belgeleme becerilerini halkbilim, arşiv ve kültür araştırmacılığı gibi mesleklerle ilişkilendirme.",
       "recommended_insertion_point": {"target_block_id": "BLOCK_T1_03_DINLEME", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T1_03_DINLEME_P04"},
-      "activation_condition": "Dinleme kanıtları ritim/ezgi-söz ilişkisinin ek uygulamayla pekişeceğini gösterirse seçilir.",
-      "impact_evaluation": {"method": "SHORT_PRESENTATION_REVIEW", "success_indicator": "Öğrencinin ritim, ezgi ve söz arasındaki ilişkiyi örnek üzerinden açıklayabilmesi."}
+      "activation_condition": "Öğrenci dinleme/okuma kanıtlarından hareketle kültürel bir örneği kaynaklandırıp mesleki araştırma sorusuna dönüştürebilecek durumdaysa uygulanır.",
+      "impact_evaluation": {"method": "CAREER_EVIDENCE_CARD_REVIEW", "success_indicator": "Öğrenci kültürel kayıt kartı üretir, üç araştırma/belgeleme rolünü ayırır ve kendi ilgi-beceri uyumunu açıklar."}
     },
     {
       "option_id": "OPT_T10_T2_SBP_01",
       "theme_id": "TEMA_02",
       "duration_hours": 1,
-      "identified_need": "Şiirde ritim ve söyleyiş farklarını karşılaştırmalı dinleme arşiviyle pekiştirme.",
-      "recommended_insertion_point": {"target_block_id": "BLOCK_T2_01_OKUMA", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T2_01_OKUMA_P08"},
-      "activation_condition": "Farklı şiir örneklerini karşılaştırmak tema içi ritim/söyleyiş bilgisini derinleştirecekse seçilir.",
-      "impact_evaluation": {"method": "COMPARISON_NOTE_REVIEW", "success_indicator": "Seslendirmeler arasındaki ritim ve söyleyiş farklarının somut kanıtlarla açıklanması."}
+      "identified_need": "Metin çözümleme ve revizyon becerilerini editörlük, redaktörlük ve yayıncılık rolleriyle somutlaştırma.",
+      "recommended_insertion_point": {"target_block_id": "BLOCK_T2_02_YAZMA", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T2_02_YAZMA_P05"},
+      "activation_condition": "Yazma/revizyon çekirdek performansı sonrasında öğrenci editoryal kararlarının nedenlerini açıklayabilecek kanıta sahipse uygulanır.",
+      "impact_evaluation": {"method": "EDITING_AND_CAREER_FIT_REVIEW", "success_indicator": "Öğrenci en az iki editoryal düzeltmeyi gerekçelendirir, yayıncılık rollerini ayırır ve kendine en yakın rolü açıklar."}
     },
     {
       "option_id": "OPT_T10_T2_SBP_02",
       "theme_id": "TEMA_02",
       "duration_hours": 1,
-      "identified_need": "Kaynaklı kısa sözlü/dijital ürün üretiminde planlama ve ifade pratiği.",
+      "identified_need": "Podcast üretimini tek bir ürün olmaktan çıkarıp araştırma, yazma, sunma ve teknik düzenleme rollerinden oluşan bir meslek ekosistemi olarak görme.",
       "recommended_insertion_point": {"target_block_id": "BLOCK_T2_04_KONUSMA", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T2_04_KONUSMA_P05"},
-      "activation_condition": "Çekirdek konuşma performansı sonrası kaynaklı mini podcast taslağı ek uygulama değeri sağlayacaksa seçilir.",
-      "impact_evaluation": {"method": "SCRIPT_AND_PERFORMANCE_REVIEW", "success_indicator": "Kısa ürünün kaynaklı, odaklı ve anlaşılır bir sözlü anlatı yapısına kavuşması."}
+      "activation_condition": "Çekirdek podcast/konuşma performansı sonrasında öğrenci üretim sürecindeki farklı görevleri somut deneyimi üzerinden değerlendirebiliyorsa uygulanır.",
+      "impact_evaluation": {"method": "ROLE_PITCH_AND_SELF_AWARENESS_REVIEW", "success_indicator": "Öğrenci en az dört podcast rolünü ayırır, bir rol seçer ve seçimini iki kişisel beceri kanıtıyla gerekçelendirir."}
     },
     {
       "option_id": "OPT_T10_T3_SBP_01",
       "theme_id": "TEMA_03",
       "duration_hours": 1,
-      "identified_need": "Destan motiflerini tarihsel süreklilik bağlamında araştırma ve görselleştirme.",
-      "recommended_insertion_point": {"target_block_id": "BLOCK_T3_01_OKUMA", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T3_01_OKUMA_P08"},
-      "activation_condition": "Okuma sonrasında tarihsel/kültürel bağın araştırma ürünüyle derinleştirilmesi yararlıysa seçilir.",
-      "impact_evaluation": {"method": "RESEARCH_PRODUCT_REVIEW", "success_indicator": "Seçilen motifin kaynaklı biçimde tarihsel süreklilik içinde açıklanması."}
+      "identified_need": "Anlatı yapısı ve yaratıcı yazma becerilerini senaristlik ve dramaturji rollerinin görevleriyle ilişkilendirme.",
+      "recommended_insertion_point": {"target_block_id": "BLOCK_T3_04_YAZMA", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T3_04_YAZMA_P05"},
+      "activation_condition": "Öğrenci bir anlatıyı dönüştürme/yazma deneyimi sonrasında kurgu kararlarını meslek rollerinin görevleriyle karşılaştırabilecek durumdaysa uygulanır.",
+      "impact_evaluation": {"method": "ADAPTATION_AND_ROLE_REVIEW", "success_indicator": "Öğrenci kısa uyarlama iskeleti üretir, senarist-dramaturg görevlerini ayırır ve hangi role neden yakın olduğunu açıklar."}
     },
     {
       "option_id": "OPT_T10_T3_SBP_02",
       "theme_id": "TEMA_03",
       "duration_hours": 1,
-      "identified_need": "Fabl/değer ilişkisini özgün kısa ürünle sentezleme.",
-      "recommended_insertion_point": {"target_block_id": "BLOCK_T3_04_YAZMA", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T3_04_YAZMA_P05"},
-      "activation_condition": "Tema sonu yazma ürünlerinin değer/ileti ilişkisini yaratıcı biçimde yeniden kurması yararlıysa seçilir.",
-      "impact_evaluation": {"method": "PRODUCT_REVIEW", "success_indicator": "Özgün üründe ileti ile seçilen değer arasındaki ilişkinin tutarlı ve görünür olması."}
+      "identified_need": "Tarihsel/kültürel metin bilgisini müze eğitimi, arşivcilik ve kültür projesi tasarımı gibi kültürel miras meslekleriyle ilişkilendirme.",
+      "recommended_insertion_point": {"target_block_id": "BLOCK_T3_01_OKUMA", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T3_01_OKUMA_P08"},
+      "activation_condition": "Okuma sonrasında öğrenci seçilen kültürel unsuru kaynak, hedef kitle ve aktarım amacı açısından yeniden sunabilecek kanıta sahipse uygulanır.",
+      "impact_evaluation": {"method": "CULTURAL_HERITAGE_ROLE_REVIEW", "success_indicator": "Öğrenci kültürel miras tanıtım kartı üretir, üç meslek rolünü görev-etki açısından ayırır ve kendi ilgi alanıyla bağlantı kurar."}
     },
     {
       "option_id": "OPT_T10_T4_SBP_01",
       "theme_id": "TEMA_04",
       "duration_hours": 1,
-      "identified_need": "Nesiller arası edebî/kültürel aktarımı güvenli görüşme veya alternatif kaynakla inceleme.",
+      "identified_need": "Soru hazırlama, dinleme ve kaynak doğrulama becerilerini kültür haberciliği, belgesel araştırmacılığı ve sözlü tarih mesleklerinin etik sorumluluklarıyla ilişkilendirme.",
       "recommended_insertion_point": {"target_block_id": "BLOCK_T4_03_DINLEME", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T4_03_DINLEME_P04"},
-      "activation_condition": "Gönüllü görüşme veya güvenilir alternatif kaynak koşulları sağlanabiliyor ve kültürel aktarımın somutlaştırılması yararlıysa seçilir.",
-      "impact_evaluation": {"method": "FINDINGS_REVIEW", "success_indicator": "Bulguların kişisel veri toplamadan tematik kategorilere ayrılması ve tema kavramlarıyla ilişkilendirilmesi."}
+      "activation_condition": "Güvenli/kurgusal görüşme senaryosu üzerinden etik soru tasarımı yapılabiliyor ve gerçek görüşme zorunlu tutulmadan meslek görevleri incelenebiliyorsa uygulanır.",
+      "impact_evaluation": {"method": "ETHICAL_INTERVIEW_AND_CAREER_REVIEW", "success_indicator": "Öğrenci güvenli görüşme taslağı üretir, üç araştırma-habercilik rolünün etik farklarını açıklar ve kendi çalışma tercihini belirtir."}
     },
     {
       "option_id": "OPT_T10_T4_SBP_02",
       "theme_id": "TEMA_04",
       "duration_hours": 1,
-      "identified_need": "Dede Korkut'taki kültürel unsurları günümüzle karşılaştırmalı olarak haritalama.",
+      "identified_need": "Klasik metni çağdaş hedef kitleye taşıma becerilerini yayın editörlüğü, uyarlama yazarlığı ve kültürel içerik tasarımı rollerine bağlama.",
       "recommended_insertion_point": {"target_block_id": "BLOCK_T4_01_OKUMA", "relation": "AFTER_PACKAGE", "anchor_package_id": "BLOCK_T4_01_OKUMA_P08"},
-      "activation_condition": "Okuma sonrasında kültürel unsurların süreklilik/değişim ekseninde görselleştirilmesi kavrayışı güçlendirecekse seçilir.",
-      "impact_evaluation": {"method": "CONCEPT_MAP_REVIEW", "success_indicator": "Kültürel unsurların metin kanıtı ve güncel karşılıklarla açık biçimde eşleştirilmesi."}
+      "activation_condition": "Okuma sonrasında öğrenci kültürel bir unsuru hedef kitle ve yayın amacı doğrultusunda yeniden çerçeveleyebilecek durumdaysa uygulanır.",
+      "impact_evaluation": {"method": "PUBLISHING_PITCH_AND_ROLE_FIT_REVIEW", "success_indicator": "Öğrenci çağdaş yayın pitch'i üretir, yayıncılık rollerini ayırır ve seçtiği rolü kendi ilgi/beceri profiliyle ilişkilendirir."}
     }
   ]
 }
