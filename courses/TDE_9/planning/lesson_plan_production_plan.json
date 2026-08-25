@@ -399,14 +399,26 @@
       "SOURCE_BOUND_GROUNDING",
       "NESTED_REFERENCE_GROUNDING",
       "CALENDAR_SCOPE",
-      "PAIRED_MARKDOWN",
+      "DETERMINISTIC_JSON_MARKDOWN_PARITY",
+      "PACKAGE_TOPOLOGY",
       "PACKAGE_COUNT",
       "LESSON_HOUR_TOTAL",
-      "FRESH_RUNTIME_CONTEXT"
+      "FRESH_RUNTIME_CONTEXT",
+      "VALIDATION_REPORT_PASS",
+      "VALIDATED_COMMIT_SHA",
+      "VALIDATED_CONTENT_FINGERPRINT"
     ],
     "validated_packages": 88,
     "validated_instruction_hours": 172,
     "failure_records": 0,
-    "warning_records": 0
+    "warning_records": 0,
+    "validation_binding": {
+      "schema_version": "1.0.0",
+      "algorithm": "TYMM_LESSON_PLAN_VALIDATION_SCOPE_V1",
+      "content_fingerprint": "sha256:c0b63624ce313c518ec0b278390b4c3c6df584b09bc512cc7e4dcf35208fffde",
+      "fingerprinted_files": 440,
+      "commit_sha": "a2458f029eb174220dd022c6ff86276d3235683b",
+      "report_sha256": "sha256:d4b0040d313ad1e88e0bca72db068f91b2b37e8d6b1e3585542f8fd20d8720f4"
+    }
   }
 }
