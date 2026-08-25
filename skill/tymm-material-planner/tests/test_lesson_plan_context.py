@@ -105,6 +105,15 @@ class LessonPlanContextTests(unittest.TestCase):
         theme_outcomes = context["allowed_references"]["theme_outcome_codes"]
         return context, theme_activity, block_outcomes, theme_outcomes
 
+    def test_learning_diary_is_theme_scope_signal(self):
+        context = lesson_plan_context.assemble(self.tmp, "BLOCK_T1_04_KONUSMA", 2)
+        diary_id = next(
+            activity_id
+            for activity_id in context["allowed_references"]["activity_ids"]
+            if "OGRENME_GUNLUGU" in activity_id
+        )
+        self.assertIn(diary_id, validate_lesson_plan._theme_assessment_activity_ids(context))
+
     def test_theme_assessment_requires_explicit_theme_scope(self):
         context, theme_activity, block_outcomes, _ = self._theme_assessment_fixture()
         plan = {
