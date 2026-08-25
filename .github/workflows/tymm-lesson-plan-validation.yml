@@ -149,6 +149,8 @@ jobs:
       - name: Close P9 audit record
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
+          git restore courses/TDE_9/runtime courses/TDE_10/runtime
+          git restore courses/TDE_9/planning/course_timeline.json courses/TDE_10/planning/course_timeline.json
           python skill/tymm-material-planner/scripts/close_p9_audit.py
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
