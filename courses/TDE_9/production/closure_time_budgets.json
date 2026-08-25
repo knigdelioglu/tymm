@@ -1,0 +1,267 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "TDE_9",
+  "nominal_lesson_minutes": 40,
+  "policy": {
+    "core_completion_independent_of_school_based_extension": true,
+    "school_based_extension_is_teacher_selected": true,
+    "mixed_closure_split_minutes": {
+      "theme_assessment": 25,
+      "reflection": 10,
+      "closure": 3,
+      "buffer": 2
+    },
+    "single_focus_buffer_minutes": 3,
+    "note": "40 dakika bu repoda pedagojik süre bütçesi için kullanılan nominal ders periyodudur; okul-temelli genişletme otomatik değildir ve çekirdek kapanışın ön koşulu olamaz."
+  },
+  "packages": [
+    {
+      "package_id": "BLOCK_T1_04_KONUSMA_P05",
+      "path": "generated/lesson_plans/TEMA_01/BLOCK_T1_04_KONUSMA/BLOCK_T1_04_KONUSMA_P05.json",
+      "theme_id": "TEMA_01",
+      "block_id": "BLOCK_T1_04_KONUSMA",
+      "lesson_budgets": [
+        {
+          "lesson_no": 1,
+          "signals": [
+            "THEME_ASSESSMENT"
+          ],
+          "required_segments": [
+            {
+              "kind": "THEME_ASSESSMENT",
+              "minutes": 32,
+              "purpose": "Kaynak tema sonu ölçme sorularını bağımsız biçimde yanıtlamak."
+            },
+            {
+              "kind": "CLOSURE",
+              "minutes": 5,
+              "purpose": "Güçlü/geliştirilecek alanı tek kısa kayıtla belirlemek."
+            }
+          ],
+          "required_minutes_total": 37,
+          "buffer_minutes": 3,
+          "optional_extensions": [
+            {
+              "kind": "ANSWER_CORRECTION",
+              "minutes": 10,
+              "placement": "SCHOOL_BASED_IF_SELECTED",
+              "required_for_core_completion": false,
+              "activation_condition": "Anlamlı ortak yanılgı görülür ve öğretmen/zümre okul-temelli saat ayırmayı seçerse.",
+              "purpose": "Yanlış veya kararsız cevapları önceki tema kanıtlarına dönerek ayrıntılı düzeltmek."
+            }
+          ]
+        },
+        {
+          "lesson_no": 2,
+          "signals": [
+            "REFLECTION"
+          ],
+          "required_segments": [
+            {
+              "kind": "REFLECTION",
+              "minutes": 32,
+              "purpose": "Öğrenme günlüğünü gerçek tema ürün/strateji kanıtlarıyla tamamlamak."
+            },
+            {
+              "kind": "CLOSURE",
+              "minutes": 5,
+              "purpose": "Bir sonraki temaya taşınacak tek gözlenebilir stratejiyi belirlemek."
+            }
+          ],
+          "required_minutes_total": 37,
+          "buffer_minutes": 3,
+          "optional_extensions": [
+            {
+              "kind": "EXTENDED_REFLECTION",
+              "minutes": 10,
+              "placement": "SCHOOL_BASED_IF_SELECTED",
+              "required_for_core_completion": false,
+              "activation_condition": "Öğretmen/zümre derinleştirme ihtiyacı görür ve okul-temelli saat seçerse.",
+              "purpose": "Birden çok beceri alanını karşılaştıran ayrıntılı portfolyo/yansıtma taraması yapmak."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package_id": "BLOCK_T2_04_YAZMA_P05",
+      "path": "generated/lesson_plans/TEMA_02/BLOCK_T2_04_YAZMA/BLOCK_T2_04_YAZMA_P05.json",
+      "theme_id": "TEMA_02",
+      "block_id": "BLOCK_T2_04_YAZMA",
+      "lesson_budgets": [
+        {
+          "lesson_no": 2,
+          "signals": [
+            "REFLECTION",
+            "THEME_ASSESSMENT"
+          ],
+          "required_segments": [
+            {
+              "kind": "THEME_ASSESSMENT",
+              "minutes": 25,
+              "purpose": "Kaynak tema sonu ölçme sorularını bağımsız biçimde yanıtlamak."
+            },
+            {
+              "kind": "REFLECTION",
+              "minutes": 10,
+              "purpose": "Öğrenme günlüğünde bir güçlü kanıt, bir gelişim alanı ve aktarılabilir stratejiyi kısa biçimde kaydetmek."
+            },
+            {
+              "kind": "CLOSURE",
+              "minutes": 3,
+              "purpose": "Tema/yıl kapanışını ve sonraki adımı tek kısa kayıtla netleştirmek."
+            }
+          ],
+          "required_minutes_total": 38,
+          "buffer_minutes": 2,
+          "optional_extensions": [
+            {
+              "kind": "ANSWER_CORRECTION",
+              "minutes": 10,
+              "placement": "SCHOOL_BASED_IF_SELECTED",
+              "required_for_core_completion": false,
+              "activation_condition": "Tema sonu ölçmede ortak veya pedagojik olarak anlamlı bir yanılgı görülür ve öğretmen/zümre bu ihtiyaca okul-temelli saat ayırmayı seçerse.",
+              "purpose": "Yanlış veya kararsız cevapları önceki öğrenme kanıtlarına dönerek ayrıntılı biçimde düzeltmek."
+            },
+            {
+              "kind": "EXTENDED_REFLECTION",
+              "minutes": 10,
+              "placement": "SCHOOL_BASED_IF_SELECTED",
+              "required_for_core_completion": false,
+              "activation_condition": "Öğrencilerin öz-yansıtma kanıtı yüzeysel kalır ve öğretmen/zümre okul-temelli genişletme seçerse.",
+              "purpose": "Öğrenme günlüğünü çoklu ürün/performans kanıtlarıyla genişletmek."
+            },
+            {
+              "kind": "NEXT_THEME_PREP",
+              "minutes": 8,
+              "placement": "SCHOOL_BASED_IF_SELECTED",
+              "required_for_core_completion": false,
+              "activation_condition": "Öğretmen/zümre geçiş ihtiyacı belirler ve okul-temelli saat kullanmayı seçerse.",
+              "purpose": "Sonraki temanın hazırlık yönergelerini ayrıntılı incelemek ve ön bilgiyi etkinleştirmek."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package_id": "BLOCK_T3_04_YAZMA_P05",
+      "path": "generated/lesson_plans/TEMA_03/BLOCK_T3_04_YAZMA/BLOCK_T3_04_YAZMA_P05.json",
+      "theme_id": "TEMA_03",
+      "block_id": "BLOCK_T3_04_YAZMA",
+      "lesson_budgets": [
+        {
+          "lesson_no": 2,
+          "signals": [
+            "REFLECTION",
+            "THEME_ASSESSMENT"
+          ],
+          "required_segments": [
+            {
+              "kind": "THEME_ASSESSMENT",
+              "minutes": 25,
+              "purpose": "Kaynak tema sonu ölçme sorularını bağımsız biçimde yanıtlamak."
+            },
+            {
+              "kind": "REFLECTION",
+              "minutes": 10,
+              "purpose": "Öğrenme günlüğünde bir güçlü kanıt, bir gelişim alanı ve aktarılabilir stratejiyi kısa biçimde kaydetmek."
+            },
+            {
+              "kind": "CLOSURE",
+              "minutes": 3,
+              "purpose": "Tema/yıl kapanışını ve sonraki adımı tek kısa kayıtla netleştirmek."
+            }
+          ],
+          "required_minutes_total": 38,
+          "buffer_minutes": 2,
+          "optional_extensions": [
+            {
+              "kind": "ANSWER_CORRECTION",
+              "minutes": 10,
+              "placement": "SCHOOL_BASED_IF_SELECTED",
+              "required_for_core_completion": false,
+              "activation_condition": "Tema sonu ölçmede ortak veya pedagojik olarak anlamlı bir yanılgı görülür ve öğretmen/zümre bu ihtiyaca okul-temelli saat ayırmayı seçerse.",
+              "purpose": "Yanlış veya kararsız cevapları önceki öğrenme kanıtlarına dönerek ayrıntılı biçimde düzeltmek."
+            },
+            {
+              "kind": "EXTENDED_REFLECTION",
+              "minutes": 10,
+              "placement": "SCHOOL_BASED_IF_SELECTED",
+              "required_for_core_completion": false,
+              "activation_condition": "Öğrencilerin öz-yansıtma kanıtı yüzeysel kalır ve öğretmen/zümre okul-temelli genişletme seçerse.",
+              "purpose": "Öğrenme günlüğünü çoklu ürün/performans kanıtlarıyla genişletmek."
+            },
+            {
+              "kind": "NEXT_THEME_PREP",
+              "minutes": 8,
+              "placement": "SCHOOL_BASED_IF_SELECTED",
+              "required_for_core_completion": false,
+              "activation_condition": "Öğretmen/zümre geçiş ihtiyacı belirler ve okul-temelli saat kullanmayı seçerse.",
+              "purpose": "Sonraki temanın hazırlık yönergelerini ayrıntılı incelemek ve ön bilgiyi etkinleştirmek."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package_id": "BLOCK_T4_04_YAZMA_P05",
+      "path": "generated/lesson_plans/TEMA_04/BLOCK_T4_04_YAZMA/BLOCK_T4_04_YAZMA_P05.json",
+      "theme_id": "TEMA_04",
+      "block_id": "BLOCK_T4_04_YAZMA",
+      "lesson_budgets": [
+        {
+          "lesson_no": 2,
+          "signals": [
+            "REFLECTION",
+            "THEME_ASSESSMENT"
+          ],
+          "required_segments": [
+            {
+              "kind": "THEME_ASSESSMENT",
+              "minutes": 25,
+              "purpose": "Kaynak tema sonu ölçme sorularını bağımsız biçimde yanıtlamak."
+            },
+            {
+              "kind": "REFLECTION",
+              "minutes": 10,
+              "purpose": "Öğrenme günlüğünde bir güçlü kanıt, bir gelişim alanı ve aktarılabilir stratejiyi kısa biçimde kaydetmek."
+            },
+            {
+              "kind": "CLOSURE",
+              "minutes": 3,
+              "purpose": "Tema/yıl kapanışını ve sonraki adımı tek kısa kayıtla netleştirmek."
+            }
+          ],
+          "required_minutes_total": 38,
+          "buffer_minutes": 2,
+          "optional_extensions": [
+            {
+              "kind": "ANSWER_CORRECTION",
+              "minutes": 10,
+              "placement": "SCHOOL_BASED_IF_SELECTED",
+              "required_for_core_completion": false,
+              "activation_condition": "Tema sonu ölçmede ortak veya pedagojik olarak anlamlı bir yanılgı görülür ve öğretmen/zümre bu ihtiyaca okul-temelli saat ayırmayı seçerse.",
+              "purpose": "Yanlış veya kararsız cevapları önceki öğrenme kanıtlarına dönerek ayrıntılı biçimde düzeltmek."
+            },
+            {
+              "kind": "EXTENDED_REFLECTION",
+              "minutes": 10,
+              "placement": "SCHOOL_BASED_IF_SELECTED",
+              "required_for_core_completion": false,
+              "activation_condition": "Öğrencilerin öz-yansıtma kanıtı yüzeysel kalır ve öğretmen/zümre okul-temelli genişletme seçerse.",
+              "purpose": "Öğrenme günlüğünü çoklu ürün/performans kanıtlarıyla genişletmek."
+            },
+            {
+              "kind": "YEAR_PORTFOLIO_REVIEW",
+              "minutes": 12,
+              "placement": "SCHOOL_BASED_IF_SELECTED",
+              "required_for_core_completion": false,
+              "activation_condition": "Yıl sonu portfolyo sentezi için ihtiyaç ve zaman ayrılırsa; çekirdek kapanışın tamamlanması buna bağlı değildir.",
+              "purpose": "Yıl boyunca seçilmiş okuma, dinleme/izleme, konuşma ve yazma kanıtlarını ayrıntılı portfolyo taramasıyla karşılaştırmak."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
