@@ -4,7 +4,8 @@
 The placement layer is deliberately separate from the 172-hour core lesson-plan
 queue. It may recommend where a teacher could spend the 2 school-based hours in
 each theme, but it must never change canonical core hours or auto-select an
-option.
+option. For grade 10, every represented school-based hour must additionally
+carry explicit career-guidance evidence.
 """
 from __future__ import annotations
 
@@ -30,6 +31,38 @@ def _fail(code: str, detail: str = "") -> None:
 def _require_nonempty(value: Any, code: str) -> None:
     if not isinstance(value, str) or not value.strip():
         _fail(code)
+
+
+def _validate_grade10_career_option(option: dict[str, Any], option_id: str) -> None:
+    if option.get("category") != "CAREER_GUIDANCE":
+        _fail("TDE10_OPTION_NOT_CAREER_GUIDANCE", option_id)
+
+    linked_outcomes = option.get("linked_outcomes")
+    if not isinstance(linked_outcomes, list) or not linked_outcomes or not all(
+        isinstance(code, str) and code.strip() for code in linked_outcomes
+    ):
+        _fail("TDE10_LINKED_OUTCOMES_MISSING", option_id)
+
+    alignment = option.get("career_guidance_alignment")
+    if not isinstance(alignment, dict):
+        _fail("TDE10_CAREER_ALIGNMENT_MISSING", option_id)
+    if alignment.get("career_guidance_required") is not True:
+        _fail("TDE10_CAREER_ALIGNMENT_REQUIRED_FALSE", option_id)
+
+    domains = alignment.get("career_domains")
+    if not isinstance(domains, list) or not domains or not all(
+        isinstance(domain, str) and domain.strip() for domain in domains
+    ):
+        _fail("TDE10_CAREER_DOMAINS_MISSING", option_id)
+
+    for key, code in {
+        "tde_skill_bridge": "TDE10_SKILL_BRIDGE_MISSING",
+        "career_exploration_action": "TDE10_CAREER_EXPLORATION_MISSING",
+        "student_career_evidence": "TDE10_CAREER_EVIDENCE_MISSING",
+        "self_awareness_prompt": "TDE10_SELF_AWARENESS_MISSING",
+        "decision_support_question": "TDE10_DECISION_SUPPORT_MISSING",
+    }.items():
+        _require_nonempty(alignment.get(key), f"{code}:{option_id}")
 
 
 def validate_payloads(
@@ -62,9 +95,27 @@ def validate_payloads(
         "max_selected_hours_per_theme": 2,
         "default_queue_includes_school_based_hours": False,
     }
+    if course_id == "TDE_10":
+        expected_policy["career_guidance_required"] = True
     for key, expected in expected_policy.items():
         if policy.get(key) != expected:
             _fail("PLACEMENT_POLICY_MISMATCH", f"{key}={policy.get(key)!r},expected={expected!r}")
+
+    if course_id == "TDE_10":
+        career_policy = options.get("career_guidance_policy")
+        if not isinstance(career_policy, dict):
+            _fail("TDE10_CAREER_POLICY_MISSING")
+        if career_policy.get("required") is not True:
+            _fail("TDE10_CAREER_POLICY_REQUIRED_FALSE")
+        if career_policy.get("scope") != "ALL_SELECTED_SBP_HOURS":
+            _fail("TDE10_CAREER_POLICY_SCOPE_MISMATCH", str(career_policy.get("scope")))
+        if career_policy.get("school_based_planning_hours_per_theme") != 2:
+            _fail("TDE10_CAREER_THEME_HOURS_MISMATCH")
+        if career_policy.get("school_based_planning_hours_annual") != 8:
+            _fail("TDE10_CAREER_ANNUAL_HOURS_MISMATCH")
+        basis = career_policy.get("official_basis")
+        if not isinstance(basis, list) or not basis:
+            _fail("TDE10_CAREER_POLICY_BASIS_MISSING")
 
     plan_themes: dict[str, dict[str, Any]] = {}
     package_ids: dict[tuple[str, str], set[str]] = {}
@@ -91,10 +142,13 @@ def validate_payloads(
 
     option_index: dict[str, tuple[str, int]] = {}
     theme_option_hours: dict[str, int] = {theme_id: 0 for theme_id in plan_themes}
+    career_option_count = 0
     for theme in options.get("themes", []):
         theme_id = theme.get("theme_id")
         if theme_id not in plan_themes:
             _fail("OPTION_THEME_UNKNOWN", str(theme_id))
+        if course_id == "TDE_10" and theme.get("allocated_hours") != 2:
+            _fail("TDE10_THEME_ALLOCATED_HOURS_MISMATCH", str(theme_id))
         for option in theme.get("options", []):
             option_id = option.get("option_id")
             duration = option.get("duration_hours")
@@ -106,12 +160,21 @@ def validate_payloads(
                 _fail("OPTION_DURATION_OUT_OF_RANGE", f"{option_id}={duration!r}")
             if option.get("theme_id") != theme_id:
                 _fail("OPTION_THEME_MISMATCH", option_id)
+            if course_id == "TDE_10":
+                _validate_grade10_career_option(option, option_id)
+                career_option_count += 1
             option_index[option_id] = (theme_id, duration)
             theme_option_hours[theme_id] += duration
 
     for theme_id, available_hours in theme_option_hours.items():
-        if available_hours < 2:
+        if course_id == "TDE_10":
+            if available_hours != 2:
+                _fail("TDE10_CAREER_OPTION_HOURS_MUST_EQUAL_THEME_ALLOCATION", f"{theme_id}={available_hours}")
+        elif available_hours < 2:
             _fail("INSUFFICIENT_SBP_OPTION_CAPACITY", f"{theme_id}={available_hours}")
+
+    if course_id == "TDE_10" and sum(theme_option_hours.values()) != 8:
+        _fail("TDE10_CAREER_OPTION_ANNUAL_HOURS_MISMATCH", str(sum(theme_option_hours.values())))
 
     placement_index: dict[str, dict[str, Any]] = {}
     for entry in placements.get("placements", []):
@@ -154,7 +217,7 @@ def validate_payloads(
         _require_nonempty(impact.get("method"), f"IMPACT_METHOD_MISSING:{option_id}")
         _require_nonempty(impact.get("success_indicator"), f"IMPACT_INDICATOR_MISSING:{option_id}")
 
-    return {
+    result = {
         "course_id": course_id,
         "status": "PASS",
         "themes": 4,
@@ -164,6 +227,10 @@ def validate_payloads(
         "school_based_planning_hours": 8,
         "official_total_hours": 180,
     }
+    if course_id == "TDE_10":
+        result["career_guidance_options"] = career_option_count
+        result["career_guidance_hours"] = sum(theme_option_hours.values())
+    return result
 
 
 def validate_course(root: Path) -> dict[str, Any]:
