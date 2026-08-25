@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.0.1",
   "course_id": "TDE_9",
   "grade": 9,
   "artifact_type": "CALENDAR_NEUTRAL_TOPIC_HOUR_DISTRIBUTION",
@@ -14,19 +14,34 @@
   },
   "calendar_exclusion_policy": {
     "calendar_fields_ingested": false,
-    "excluded": ["ay", "hafta/tarih aralığı", "ara tatil", "yarıyıl tatili", "belirli gün ve haftalar", "resmî tatil yerleşimi"],
-    "retained": ["source row order", "tema", "konu/içerik çerçevesi", "ders saati"],
+    "excluded": [
+      "ay",
+      "hafta/tarih aralığı",
+      "ara tatil",
+      "yarıyıl tatili",
+      "belirli gün ve haftalar",
+      "resmî tatil yerleşimi",
+      "haftalık yerleşimden doğan artık ders saati satırları"
+    ],
+    "retained": [
+      "source row order",
+      "tema",
+      "konu/içerik çerçevesi",
+      "canonical ders saati dağılımı"
+    ],
     "calendar_binding_allowed_from_this_artifact": false
   },
   "time_semantics": {
     "normative_curriculum_source": "curriculum_map.json",
     "normative_instruction_hours_per_theme": 43,
     "normative_school_based_planning_hours_per_theme": 2,
+    "normative_total_hours_per_theme": 45,
     "normative_annual_instruction_hours": 172,
     "normative_annual_school_based_planning_hours": 8,
     "normative_annual_total_hours": 180,
-    "annual_plan_hours_role": "FINE_GRAINED_PLANNING_WEIGHT",
-    "conflict_rule": "Yıllık plan satır saatleri tema toplamında 43 ile çelişirse öğretim programındaki 43 saat üstündür; yıllık plan değerleri yalnız konu dağılım ağırlığı olarak normalize edilir.",
+    "annual_plan_hours_role": "CALENDAR_NEUTRAL_TOPIC_GUIDANCE",
+    "conflict_rule": "Tema başına canonical süre 43 saat çekirdek öğretim + 2 saat okul temelli planlamadır. Yıllık plandaki hafta/tarih yerleşiminden doğan artık satırlar canonical konu süresine eklenmez.",
+    "school_based_flexibility_rule": "Tema başına 2 saat okul temelli planlama çekirdek 43 saate dahil değildir; öğretmen/zümre bu süreyi okul ve öğrenci ihtiyacına göre tema içindeki uygun noktada planlar.",
     "compound_hour_rule": "3+2 gibi gösterimler toplam ağırlık olarak korunur; 3 ve 2'nin birden fazla konu/alan arasındaki semantik bağlamı otomatik çıkarılmaz."
   },
   "themes": [
@@ -36,6 +51,7 @@
       "normative_instruction_hours": 43,
       "source_planning_weight_total": 43,
       "school_based_planning_hours": 2,
+      "official_total_hours": 45,
       "school_based_source_rows": [14],
       "topic_allocations": [
         {"order": 1, "topic": "OKUMA • Tema içeriğine uygun\nbir şiir\n• Tema içeriğine uygun\nbir deneme", "domains": ["OKUMA"], "source_planning_weight_hours": 15, "source_rows": [4,5,6], "source_hour_notations": ["5","5","5"]},
@@ -52,6 +68,7 @@
       "normative_instruction_hours": 43,
       "source_planning_weight_total": 43,
       "school_based_planning_hours": 2,
+      "official_total_hours": 45,
       "school_based_source_rows": [26],
       "topic_allocations": [
         {"order": 1, "topic": "OKUMA • Tema içeriğine\nuygun bir hikâye • Tema içeriğine\nuygun bir anı", "domains": ["OKUMA"], "source_planning_weight_hours": 15, "source_rows": [16,17,18], "source_hour_notations": ["5","5","5"]},
@@ -68,6 +85,7 @@
       "normative_instruction_hours": 43,
       "source_planning_weight_total": 43,
       "school_based_planning_hours": 2,
+      "official_total_hours": 45,
       "school_based_source_rows": [35],
       "topic_allocations": [
         {"order": 1, "topic": "OKUMA • Tema içeriğine uygun\nbir hikâye\n• Ara Metin: Tema\niçeriğine uygun bir şiir\n• Tema içeriğine uygun\nbir gezi yazısı", "domains": ["OKUMA"], "source_planning_weight_hours": 15, "source_rows": [28,29,30], "source_hour_notations": ["5","5","5"]},
@@ -81,17 +99,19 @@
       "theme_id": "TEMA_04",
       "theme_title": "4. TEMA DİLİN ZENGİNLİĞİ",
       "normative_instruction_hours": 43,
-      "source_planning_weight_total": 46,
+      "source_planning_weight_total": 43,
       "school_based_planning_hours": 2,
+      "official_total_hours": 45,
       "school_based_source_rows": [51],
+      "calendar_residual_source_rows_excluded": [46],
       "topic_allocations": [
         {"order": 1, "topic": "OKUMA • Tema içeriğine uygun\nbir roman\n• Ara Metin: Tema içeriğine uygun bir\ntiyatro\n• Tema içeriğine uygun\nbir eleştiri", "domains": ["OKUMA"], "source_planning_weight_hours": 15, "source_rows": [40,41,42], "source_hour_notations": ["5","5","5"]},
         {"order": 2, "topic": "KONUŞMA • Sosyal medya dilini\nedebî dilin özellikleri\naçısından eleştirdiği bir\nsunum hazırlayabilme", "domains": ["KONUSMA"], "source_planning_weight_hours": 10, "source_rows": [43,44], "source_hour_notations": ["5","5"]},
-        {"order": 3, "topic": "DİNLEME/İZLEME • Tema içeriğine uygun\nçok modlu metin\n(Otobiyografi)", "domains": ["DINLEME_IZLEME"], "source_planning_weight_hours": 8, "source_rows": [45,46], "source_hour_notations": ["5","3"]},
+        {"order": 3, "topic": "DİNLEME/İZLEME • Tema içeriğine uygun\nçok modlu metin\n(Otobiyografi)", "domains": ["DINLEME_IZLEME"], "source_planning_weight_hours": 5, "source_rows": [45], "source_hour_notations": ["5"]},
         {"order": 4, "topic": "DİNLEME/İZLEME YAZMA • Tema içeriğine uygun\nçok modlu metin\n(Otobiyografi) • Otobiyografisini\nyazabilme", "domains": ["DINLEME_IZLEME","YAZMA"], "source_planning_weight_hours": 5, "source_rows": [47], "source_hour_notations": ["3+2"], "compound_hour_components": [3,2], "compound_component_binding": "NOT_INFERRED"},
         {"order": 5, "topic": "YAZMA • Otobiyografisini\nyazabilme", "domains": ["YAZMA"], "source_planning_weight_hours": 8, "source_rows": [49,50], "source_hour_notations": ["5","3"]}
       ],
-      "reconciliation_status": "NORMALIZE_WEIGHTS_TO_43"
+      "reconciliation_status": "EXACT_AFTER_CALENDAR_RESIDUAL_EXCLUSION"
     }
   ]
 }
