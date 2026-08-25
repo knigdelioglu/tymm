@@ -50,9 +50,19 @@ class RuntimeLessonPlanPayloadTests(unittest.TestCase):
 
     def test_01_tde9_projects_88_packages_and_172_hours(self) -> None:
         root, before, manifest = self._build_and_project("TDE_9")
-        self.assertNotEqual(
+        self.assertEqual(
             before["canonical_content_fingerprint"],
             manifest["canonical_content_fingerprint"],
+        )
+        self.assertIn(
+            "planning/lesson_plan_production_plan.json",
+            before["canonical_source_hashes"],
+        )
+        self.assertTrue(
+            any(
+                path.startswith("generated/lesson_plans/")
+                for path in before["canonical_source_hashes"]
+            )
         )
         self.assertEqual(manifest["schema_version"], "1.2.0")
         self.assertEqual(manifest["runtime_package_version"], "1.3.0")
