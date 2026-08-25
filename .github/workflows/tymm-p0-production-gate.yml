@@ -164,6 +164,18 @@ jobs:
             echo 'No TDE9 derived output changes.'
             exit 0
           fi
+
+          # Derived builders include volatile timestamps. Do not create a new main commit
+          # when the only delta is rebuild time; this avoids racing SHA-bound finalizers.
+          if git diff --cached --quiet \
+              -I '"index_created_at"[[:space:]]*:' \
+              -I '"index_updated_at"[[:space:]]*:' \
+              -I 'Build Timestamp' \
+              -I '"build_timestamp"[[:space:]]*:'; then
+            echo 'Only volatile derived timestamps changed; skipping publish.'
+            exit 0
+          fi
+
           git commit -m 'chore(tde9): publish fresh canonical index and runtime'
           git fetch origin main
           CHANGED=$(git diff --name-only "$GITHUB_SHA"..origin/main || true)
