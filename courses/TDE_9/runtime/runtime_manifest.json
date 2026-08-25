@@ -3,7 +3,7 @@
   "schema_version": "1.1.0",
   "course_id": "TDE_9",
   "grade": 9,
-  "build_timestamp": "2026-08-25T08:31:50Z",
+  "build_timestamp": "2026-08-25T09:34:12Z",
   "compiler_version": "1.2.0",
   "canonical_source_files": [
     "../TDE_SHARED/curriculum_process_component_catalog.json",
@@ -43,7 +43,7 @@
     "curriculum_process_component_resolution.json": "7b19544e0d26d95102a77e4f7020a12080ce5236c89929b5adfac34115bde5e5",
     "planning/block_hour_bindings.json": "2b467c4fc8d8a1db15af5b32f0a390d86ce20b588e97de45499919d6e2abe120",
     "planning/course_timeline.json": "1e8e84a1b29699d21b658f785b54f5f964389a920dae4e0887d0a3f16bb56416",
-    "planning/official_topic_hour_distribution.json": "0bb85805c4a0e756886a2e55591f9b82d3ecf9b28d9007ed71213f754d6c04a3",
+    "planning/official_topic_hour_distribution.json": "055f2652a2c1c257cb1484c6a196ab7c5a536500d2e80e0f93f7d11dd5d4473b",
     "production/assessment_artifact_registry.json": "ec9db9b191dc05bf0f8ef03a3bc435351a0d6b1bb752fb36f2d3eb38afebf97f",
     "production/assessment_design_contract.json": "bf252cfddf0d4748835007d436dbc0f8f0ee82cfd49efff1543b2404d0fe6b1e",
     "production/consolidated_resource_plan.json": "e6b85bd04b8d299c77d7767e13085c3b102f227dd7f145d24e3ecc1ece76ad1b",
@@ -69,7 +69,7 @@
     "themes/tema_04/needs.json": "65207b3b390ddc08de31be23ca6624b75edfbd5f445321339c97913ccd5ee094",
     "themes/tema_04/resource_plan.json": "cb9f80b601bcfaaae5447f112f0b62924f349b0c39ec0fe6ea6dd7ccf5555f27"
   },
-  "canonical_content_fingerprint": "023d22a49dc3890eee88174f0a5546cd8ae9b76f7e124719ab2fb95792a74644",
+  "canonical_content_fingerprint": "e63cfa7b08a33d2de1cf9c0292eef73cfda5d54d0731eed8b6087c378820ee8c",
   "row_counts": {
     "courses": 1,
     "themes": 4,
