@@ -1,0 +1,55 @@
+name: TYMM School-Based Planning Placement Validation
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/tymm-school-based-planning.yml'
+      - 'skill/tymm-material-planner/scripts/validate_school_based_planning_placements.py'
+      - 'skill/tymm-material-planner/tests/test_school_based_planning_placements.py'
+      - 'courses/TDE_9/production/school_based_planning_options.json'
+      - 'courses/TDE_10/production/school_based_planning_options.json'
+      - 'courses/TDE_9/production/school_based_planning_placements.json'
+      - 'courses/TDE_10/production/school_based_planning_placements.json'
+      - 'courses/TDE_9/planning/lesson_plan_production_plan.json'
+      - 'courses/TDE_10/planning/lesson_plan_production_plan.json'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/tymm-school-based-planning.yml'
+      - 'skill/tymm-material-planner/scripts/validate_school_based_planning_placements.py'
+      - 'skill/tymm-material-planner/tests/test_school_based_planning_placements.py'
+      - 'courses/TDE_9/production/school_based_planning_options.json'
+      - 'courses/TDE_10/production/school_based_planning_options.json'
+      - 'courses/TDE_9/production/school_based_planning_placements.json'
+      - 'courses/TDE_10/production/school_based_planning_placements.json'
+      - 'courses/TDE_9/planning/lesson_plan_production_plan.json'
+      - 'courses/TDE_10/planning/lesson_plan_production_plan.json'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Validate TDE9 and TDE10 placement contracts
+        run: |
+          python skill/tymm-material-planner/scripts/validate_school_based_planning_placements.py \
+            --knowledge-root courses/TDE_9 \
+            --knowledge-root courses/TDE_10
+
+      - name: Run placement regression tests
+        run: python skill/tymm-material-planner/tests/test_school_based_planning_placements.py
