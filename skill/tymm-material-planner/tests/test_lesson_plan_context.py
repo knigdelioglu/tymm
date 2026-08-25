@@ -25,6 +25,7 @@ class LessonPlanContextTests(unittest.TestCase):
     def test_context_resolves_source_bound_two_hour_slice(self):
         context = lesson_plan_context.assemble(self.tmp, "BLOCK_T1_01_OKUMA", 2)
         self.assertEqual(context["resolution_status"], "RESOLVED")
+        self.assertEqual(context["context_version"], "1.2.0")
         self.assertEqual(context["course"]["course_id"], "TDE_9")
         self.assertEqual(context["block"]["planned_hours"], 15)
         self.assertEqual(context["planning_request"]["requested_lesson_hours"], 2)
@@ -32,6 +33,11 @@ class LessonPlanContextTests(unittest.TestCase):
         self.assertTrue(context["planning_request"]["partial_block_plan"])
         self.assertFalse(context["planning_request"]["calendar_binding_used"])
         self.assertEqual(set(context["allowed_references"]["outcome_codes"]), {"TDE2.1", "TDE2.2"})
+        self.assertGreater(
+            len(context["allowed_references"]["theme_outcome_codes"]),
+            len(context["allowed_references"]["outcome_codes"]),
+        )
+        self.assertTrue(context["theme_outcomes"])
         self.assertTrue(context["textbook_activities"])
         self.assertTrue(all("text_body" not in item for item in context["textbook_activities"]))
         self.assertEqual(context["provenance"]["timeline_resolution"], "BLOCK_TIME_RESOLVED")
@@ -87,6 +93,118 @@ class LessonPlanContextTests(unittest.TestCase):
         self.assertTrue(any(x.startswith("UNKNOWN_OUTCOME_CODES") for x in result["errors"]))
         self.assertTrue(any(x.startswith("UNKNOWN_ACTIVITY_IDS") for x in result["errors"]))
         self.assertTrue(any(x.startswith("CALENDAR_FIELDS_OUT_OF_SCOPE") for x in result["errors"]))
+
+    def _theme_assessment_fixture(self):
+        context = lesson_plan_context.assemble(self.tmp, "BLOCK_T1_04_KONUSMA", 2)
+        theme_activity = next(
+            activity_id
+            for activity_id in context["allowed_references"]["activity_ids"]
+            if "TEMA_SONU_OLCME" in activity_id
+        )
+        block_outcomes = context["allowed_references"]["outcome_codes"]
+        theme_outcomes = context["allowed_references"]["theme_outcome_codes"]
+        return context, theme_activity, block_outcomes, theme_outcomes
+
+    def test_theme_assessment_requires_explicit_theme_scope(self):
+        context, theme_activity, block_outcomes, _ = self._theme_assessment_fixture()
+        plan = {
+            "course_id": "TDE_9",
+            "theme_id": "TEMA_01",
+            "block_id": "BLOCK_T1_04_KONUSMA",
+            "lesson_hours": 2,
+            "outcome_codes": block_outcomes,
+            "used_activity_ids": [theme_activity],
+            "used_form_ids": [],
+            "lessons": [
+                {"lesson_no": 1, "duration_lesson_hours": 1, "outcome_codes": block_outcomes, "activity_ids": [], "form_ids": []},
+                {"lesson_no": 2, "duration_lesson_hours": 1, "outcome_codes": block_outcomes, "activity_ids": [theme_activity], "form_ids": []},
+            ],
+            "continuation_summary": {
+                "planned_now_hours": 2,
+                "covered_outcome_codes": block_outcomes,
+                "used_activity_ids": [theme_activity],
+            },
+        }
+        result = validate_lesson_plan.validate(context, plan)
+        self.assertEqual(result["status"], "FAIL")
+        self.assertIn("THEME_ASSESSMENT_SCOPE_REQUIRED", result["errors"])
+        self.assertIn("LESSON_2_THEME_ASSESSMENT_SCOPE_REQUIRED", result["errors"])
+
+    def test_theme_assessment_accepts_theme_outcome_scope(self):
+        context, theme_activity, block_outcomes, theme_outcomes = self._theme_assessment_fixture()
+        plan = {
+            "course_id": "TDE_9",
+            "theme_id": "TEMA_01",
+            "block_id": "BLOCK_T1_04_KONUSMA",
+            "lesson_hours": 2,
+            "instruction_scope": "BLOCK",
+            "assessment_scope": "THEME",
+            "assessed_outcome_codes": theme_outcomes,
+            "outcome_codes": block_outcomes,
+            "used_activity_ids": [theme_activity],
+            "used_form_ids": [],
+            "lessons": [
+                {
+                    "lesson_no": 1,
+                    "duration_lesson_hours": 1,
+                    "outcome_codes": block_outcomes,
+                    "activity_ids": [],
+                    "form_ids": [],
+                },
+                {
+                    "lesson_no": 2,
+                    "duration_lesson_hours": 1,
+                    "instruction_scope": "BLOCK",
+                    "assessment_scope": "THEME",
+                    "assessed_outcome_codes": theme_outcomes,
+                    "outcome_codes": block_outcomes,
+                    "activity_ids": [theme_activity],
+                    "form_ids": [],
+                },
+            ],
+            "continuation_summary": {
+                "planned_now_hours": 2,
+                "covered_outcome_codes": block_outcomes,
+                "used_activity_ids": [theme_activity],
+            },
+        }
+        result = validate_lesson_plan.validate(context, plan)
+        self.assertEqual(result["status"], "PASS", result)
+
+    def test_theme_assessment_cannot_claim_only_last_block_outcomes(self):
+        context, theme_activity, block_outcomes, _ = self._theme_assessment_fixture()
+        plan = {
+            "course_id": "TDE_9",
+            "theme_id": "TEMA_01",
+            "block_id": "BLOCK_T1_04_KONUSMA",
+            "lesson_hours": 2,
+            "assessment_scope": "THEME",
+            "assessed_outcome_codes": block_outcomes,
+            "outcome_codes": block_outcomes,
+            "used_activity_ids": [theme_activity],
+            "used_form_ids": [],
+            "lessons": [
+                {"lesson_no": 1, "duration_lesson_hours": 1, "outcome_codes": block_outcomes, "activity_ids": [], "form_ids": []},
+                {
+                    "lesson_no": 2,
+                    "duration_lesson_hours": 1,
+                    "assessment_scope": "THEME",
+                    "assessed_outcome_codes": block_outcomes,
+                    "outcome_codes": block_outcomes,
+                    "activity_ids": [theme_activity],
+                    "form_ids": [],
+                },
+            ],
+            "continuation_summary": {
+                "planned_now_hours": 2,
+                "covered_outcome_codes": block_outcomes,
+                "used_activity_ids": [theme_activity],
+            },
+        }
+        result = validate_lesson_plan.validate(context, plan)
+        self.assertEqual(result["status"], "FAIL")
+        self.assertIn("THEME_ASSESSMENT_OUTCOMES_TOO_NARROW", result["errors"])
+        self.assertIn("LESSON_2_THEME_ASSESSMENT_OUTCOMES_TOO_NARROW", result["errors"])
 
 
 if __name__ == "__main__":
