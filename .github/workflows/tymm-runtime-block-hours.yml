@@ -15,6 +15,7 @@ on:
       - 'skill/tymm-material-planner/schemas/lesson_plan.schema.json'
       - 'skill/tymm-material-planner/tests/test_runtime_course_package.py'
       - 'skill/tymm-material-planner/tests/test_runtime_block_hours_tde10.py'
+      - 'skill/tymm-material-planner/tests/test_theme_hour_contract.py'
       - 'skill/tymm-material-planner/tests/test_lesson_plan_context.py'
       - 'skill/tymm-material-planner/tests/test_lesson_plan_generator.py'
       - 'courses/TDE_9/planning/**'
@@ -52,6 +53,7 @@ jobs:
         run: |
           python skill/tymm-material-planner/tests/test_runtime_course_package.py
           python skill/tymm-material-planner/tests/test_runtime_block_hours_tde10.py
+          python skill/tymm-material-planner/tests/test_theme_hour_contract.py
           python skill/tymm-material-planner/tests/test_lesson_plan_context.py
           python skill/tymm-material-planner/tests/test_lesson_plan_generator.py
 
