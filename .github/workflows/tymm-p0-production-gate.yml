@@ -57,7 +57,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   production-gate:
@@ -154,37 +154,25 @@ jobs:
             courses/TDE_9/runtime/runtime_validation_report.md
           if-no-files-found: warn
 
-      - name: Publish fresh TDE9 derived outputs
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+      - name: Verify committed TDE9 derived outputs are reproducible
         run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add courses/TDE_9/index courses/TDE_9/runtime
           if git diff --cached --quiet; then
-            echo 'No TDE9 derived output changes.'
+            echo 'Committed TDE9 derived outputs are current.'
             exit 0
           fi
 
-          # Derived builders include volatile timestamps. Do not create a new main commit
-          # when the only delta is rebuild time; this avoids racing SHA-bound finalizers.
+          # Builders include volatile timestamps. Timestamp-only differences do not
+          # make the committed derived payload stale.
           if git diff --cached --quiet \
               -I '"index_created_at"[[:space:]]*:' \
               -I '"index_updated_at"[[:space:]]*:' \
               -I 'Build Timestamp' \
               -I '"build_timestamp"[[:space:]]*:'; then
-            echo 'Only volatile derived timestamps changed; skipping publish.'
+            echo 'Only volatile derived timestamps changed; committed outputs are reproducible.'
             exit 0
           fi
 
-          git commit -m 'chore(tde9): publish fresh canonical index and runtime'
-          git fetch origin main
-          CHANGED=$(git diff --name-only "$GITHUB_SHA"..origin/main || true)
-          if printf '%s\n' "$CHANGED" | grep -Eq '^(skill/tymm-material-planner/(scripts|tests)/|courses/TDE_SHARED/|courses/TDE_9/(curriculum_map\.json|curriculum_process_component_resolution\.json|source_manifest\.json|textbook_map\.json|textbook_forms_index\.json|planning/(course_timeline\.json|official_topic_hour_distribution\.json|block_hour_bindings\.json)|production/(production_manifest\.json|teaching_blocks\.json|school_based_planning_options\.json|assessment_artifact_registry\.json|assessment_design_contract\.json|consolidated_resource_plan\.json)|themes/tema_[^/]+/(alignment\.json|gap_analysis\.json|needs\.json|resource_plan\.json))|\.github/workflows/tymm-p0-production-gate\.yml$)'; then
-            echo 'A newer derived dependency exists on main; refusing to publish stale TDE9 outputs.'
-            exit 0
-          fi
-          git reset --hard HEAD
-          git rebase origin/main
-          python skill/tymm-material-planner/scripts/effective_knowledge_index.py status --knowledge-root courses/TDE_9
-          python skill/tymm-material-planner/scripts/build_runtime_course_package.py status --knowledge-root courses/TDE_9
-          git push origin HEAD:main
+          echo '::error::Committed TDE9 index/runtime outputs are stale. Regenerate them on the source branch and include the real derived changes in the pull request.'
+          git diff --cached --stat
+          exit 2
