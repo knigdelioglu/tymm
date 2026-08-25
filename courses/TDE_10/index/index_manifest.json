@@ -1,8 +1,8 @@
 {
   "schema_version": "2.1",
   "course_id": "TDE_10",
-  "index_created_at": "2026-08-25T09:35:34.436273+00:00",
-  "index_updated_at": "2026-08-25T09:35:34.436273+00:00",
+  "index_created_at": "2026-08-25T10:46:39.218092+00:00",
+  "index_updated_at": "2026-08-25T10:46:39.218092+00:00",
   "requested_backend": "sqlite-vector/sqliteai-vector",
   "selected_backend": "sqlite-vec",
   "backend_selection_status": "EXPLICIT_ACCEPTED_DEVIATION",
@@ -210,12 +210,12 @@
     },
     {
       "path": "production/school_based_planning_options.json",
-      "sha256": "044adb0b958fa6ab2c9a272f61a0651ccd8700302bb42f75ca2ea2d3e17ea716",
-      "size_bytes": 7199,
+      "sha256": "fb3c5c31bbb967722643b770bf9ee7f3830189151568288fd1ecd17c4393fafe",
+      "size_bytes": 20132,
       "validation_status": "VERIFIED",
       "freeze_status": "FROZEN"
     }
   ],
-  "index_content_hash": "385ae5a5bfd82c1c0495455f97dd24a7240396f83c4a17fb0815235b3da44218",
+  "index_content_hash": "70797d902739a1ed52a4bc49a6bec3b7a9b50c8c349fec2b27b99af0deba1a45",
   "build_status": "SUCCESS"
 }

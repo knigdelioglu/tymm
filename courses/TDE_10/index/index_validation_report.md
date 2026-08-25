@@ -1,7 +1,7 @@
 # Knowledge Index Validation Report
 
 - **Course ID**: TDE_10
-- **Build Timestamp**: 2026-08-25T09:35:34.436273+00:00
+- **Build Timestamp**: 2026-08-25T10:46:39.218092+00:00
 - **Status**: SUCCESS
 - **Total Indexed Records**: 748
 - **Production Schema**: 1.1
@@ -13,7 +13,7 @@
 - **Vector Backend**: `sqlite-vec`
 - **Base Embedding Model**: `intfloat/multilingual-e5-small` (Dim: 384)
 - **Model File SHA256**: `f80102d3f2a1229f387d3c81909990d8945513e347b0eab049f7de3c6f98c193`
-- **Index Content Hash**: `385ae5a5bfd82c1c0495455f97dd24a7240396f83c4a17fb0815235b3da44218`
+- **Index Content Hash**: `70797d902739a1ed52a4bc49a6bec3b7a9b50c8c349fec2b27b99af0deba1a45`
 
 ## Indexed Entity Types & Counts
 - **alignment_record**: 64
@@ -54,4 +54,4 @@
 - `themes/tema_04/resource_plan.json`: SHA-256 `709d28cd8ace5bd4cd379d71e39ee0977fbc52657f0d3300f74c112c3238cde9` (20314 bytes) - VERIFIED
 - `production/production_manifest.json`: SHA-256 `8807d1780b5fcd6d3f7917936845d62c598fd609d58ea651b20fea77d49bdca6` (3679 bytes) - VERIFIED
 - `production/teaching_blocks.json`: SHA-256 `c9385717798717b5aec878818aab110afe7e558071bfc268e2e59facc1ba3203` (23299 bytes) - VERIFIED
-- `production/school_based_planning_options.json`: SHA-256 `044adb0b958fa6ab2c9a272f61a0651ccd8700302bb42f75ca2ea2d3e17ea716` (7199 bytes) - VERIFIED
+- `production/school_based_planning_options.json`: SHA-256 `fb3c5c31bbb967722643b770bf9ee7f3830189151568288fd1ecd17c4393fafe` (20132 bytes) - VERIFIED
