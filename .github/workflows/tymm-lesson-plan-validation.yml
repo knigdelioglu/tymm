@@ -21,11 +21,14 @@ on:
       - 'skill/tymm-material-planner/scripts/validate_grounded_references.py'
       - 'skill/tymm-material-planner/scripts/build_package_topology_manifest.py'
       - 'skill/tymm-material-planner/scripts/validate_package_topology.py'
+      - 'skill/tymm-material-planner/scripts/render_lesson_plan_markdown.py'
+      - 'skill/tymm-material-planner/scripts/validate_lesson_plan_markdown.py'
       - 'skill/tymm-material-planner/tests/test_large_class_route.py'
       - 'skill/tymm-material-planner/tests/test_closure_time_budgets.py'
       - 'skill/tymm-material-planner/tests/test_classroom_adaptations.py'
       - 'skill/tymm-material-planner/tests/test_grounded_references.py'
       - 'skill/tymm-material-planner/tests/test_package_topology.py'
+      - 'skill/tymm-material-planner/tests/test_lesson_plan_markdown_parity.py'
       - 'skill/tymm-material-planner/schemas/lesson_plan.schema.json'
       - 'courses/TDE_9/generated/lesson_plans/**'
       - 'courses/TDE_10/generated/lesson_plans/**'
@@ -65,6 +68,37 @@ jobs:
 
       - name: Install schema validator
         run: python -m pip install 'jsonschema==4.23.0'
+
+      - name: Materialize P9 canonical Markdown
+        run: |
+          python skill/tymm-material-planner/scripts/render_lesson_plan_markdown.py \
+            --knowledge-root courses/TDE_9 \
+            --knowledge-root courses/TDE_10 \
+            --write
+
+      - name: Publish P9 canonical Markdown
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add courses/TDE_9/generated/lesson_plans courses/TDE_10/generated/lesson_plans
+          if git diff --cached --quiet; then
+            echo 'P9 canonical Markdown already materialized.'
+          else
+            git commit -m 'feat(validation): materialize deterministic lesson-plan markdown'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
+      - name: Run JSON-Markdown parity regression tests
+        run: python -m unittest skill/tymm-material-planner/tests/test_lesson_plan_markdown_parity.py
+
+      - name: Validate deterministic JSON-Markdown parity
+        run: |
+          python skill/tymm-material-planner/scripts/validate_lesson_plan_markdown.py \
+            --knowledge-root courses/TDE_9 \
+            --knowledge-root courses/TDE_10 \
+            --report /tmp/lesson-plan-markdown-parity-report.json
 
       - name: Run package-topology regression tests
         run: python -m unittest skill/tymm-material-planner/tests/test_package_topology.py
@@ -122,12 +156,14 @@ jobs:
             --knowledge-root courses/TDE_10 \
             --report /tmp/lesson-plan-validation-report.json
 
-      - name: Upload validation report
+      - name: Upload validation reports
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: lesson-plan-validation-report
-          path: /tmp/lesson-plan-validation-report.json
+          name: lesson-plan-validation-reports
+          path: |
+            /tmp/lesson-plan-validation-report.json
+            /tmp/lesson-plan-markdown-parity-report.json
           if-no-files-found: warn
 
       - name: Finalize production plans after full validation PASS
