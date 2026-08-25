@@ -40,7 +40,9 @@ def _theme_assessment_activity_ids(context: dict[str, Any]) -> set[str]:
         activity_id = str(activity.get("activity_id") or "")
         title = str(activity.get("title") or "")
         signal = f"{activity_id} {title}".upper()
-        if "TEMA" in signal and any(marker in signal for marker in markers):
+        theme_labeled = "TEMA" in signal and any(marker in signal for marker in markers)
+        learning_diary = "OGRENME_GUNLUGU" in signal or "ÖĞRENME GÜNLÜĞÜ" in signal
+        if theme_labeled or learning_diary:
             result.add(activity_id)
     return result
 
