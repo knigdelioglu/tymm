@@ -4,11 +4,12 @@ on:
   push:
     branches:
       - main
-    paths:
+    paths: &lesson_plan_paths
       - '.github/workflows/tymm-lesson-plan-validation.yml'
       - 'skill/tymm-material-planner/scripts/validate_lesson_plan.py'
       - 'skill/tymm-material-planner/scripts/validate_all_lesson_plans.py'
       - 'skill/tymm-material-planner/scripts/finalize_lesson_plan_production.py'
+      - 'skill/tymm-material-planner/scripts/validation_binding.py'
       - 'skill/tymm-material-planner/scripts/lesson_plan_context.py'
       - 'skill/tymm-material-planner/scripts/lesson_plan_generator.py'
       - 'skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py'
@@ -29,6 +30,7 @@ on:
       - 'skill/tymm-material-planner/tests/test_grounded_references.py'
       - 'skill/tymm-material-planner/tests/test_package_topology.py'
       - 'skill/tymm-material-planner/tests/test_lesson_plan_markdown_parity.py'
+      - 'skill/tymm-material-planner/tests/test_validation_binding.py'
       - 'skill/tymm-material-planner/schemas/lesson_plan.schema.json'
       - 'courses/TDE_9/generated/lesson_plans/**'
       - 'courses/TDE_10/generated/lesson_plans/**'
@@ -42,17 +44,22 @@ on:
       - 'courses/TDE_10/textbook_map.json'
       - 'courses/TDE_9/textbook_forms_index.json'
       - 'courses/TDE_10/textbook_forms_index.json'
+  pull_request:
+    branches:
+      - main
+    paths: *lesson_plan_paths
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
-  group: tymm-lesson-plan-full-validation-main
+  group: tymm-lesson-plan-full-validation-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
   validate-all:
+    name: Full validation gate
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
@@ -68,6 +75,9 @@ jobs:
 
       - name: Install schema validator
         run: python -m pip install 'jsonschema==4.23.0'
+
+      - name: Run validation-binding regression tests
+        run: python -m unittest skill/tymm-material-planner/tests/test_validation_binding.py
 
       - name: Run JSON-Markdown parity regression tests
         run: python -m unittest skill/tymm-material-planner/tests/test_lesson_plan_markdown_parity.py
@@ -133,6 +143,7 @@ jobs:
           python skill/tymm-material-planner/scripts/validate_all_lesson_plans.py \
             --knowledge-root courses/TDE_9 \
             --knowledge-root courses/TDE_10 \
+            --commit-sha "${GITHUB_SHA}" \
             --report /tmp/lesson-plan-validation-report.json
 
       - name: Upload validation reports
@@ -145,24 +156,57 @@ jobs:
             /tmp/lesson-plan-markdown-parity-report.json
           if-no-files-found: warn
 
-      - name: Finalize production plans after full validation PASS
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        run: |
-          git restore courses/TDE_9/runtime courses/TDE_10/runtime
-          git restore courses/TDE_9/planning/course_timeline.json courses/TDE_10/planning/course_timeline.json
+  finalize-main:
+    name: Finalize validated main snapshot
+    needs: validate-all
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout exact validated commit
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Download exact PASS report artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: lesson-plan-validation-reports
+          path: /tmp/lesson-plan-validation-reports
+
+      - name: Finalize only the validated SHA and content fingerprint
+        run: |
           python skill/tymm-material-planner/scripts/finalize_lesson_plan_production.py \
             --knowledge-root courses/TDE_9 \
-            --knowledge-root courses/TDE_10
+            --knowledge-root courses/TDE_10 \
+            --validation-report /tmp/lesson-plan-validation-reports/lesson-plan-validation-report.json \
+            --expected-head "${GITHUB_SHA}"
 
+      - name: Publish finalization without rebasing onto unvalidated content
+        run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add courses/TDE_9/planning/lesson_plan_production_plan.json \
                   courses/TDE_10/planning/lesson_plan_production_plan.json
           if git diff --cached --quiet; then
-            echo 'Production plans already finalized.'
+            echo 'Production plans already contain this validation binding.'
             exit 0
           fi
-          git commit -m 'chore(validation): mark lesson-plan production complete'
-          git pull --rebase origin main
+
+          git fetch origin main
+          remote_head="$(git rev-parse origin/main)"
+          if [ "${remote_head}" != "${GITHUB_SHA}" ]; then
+            echo "FAIL_CLOSED: main advanced after validation: ${remote_head} != ${GITHUB_SHA}"
+            exit 2
+          fi
+
+          git commit -m 'chore(validation): bind production completion to validated snapshot'
           git push origin HEAD:main
