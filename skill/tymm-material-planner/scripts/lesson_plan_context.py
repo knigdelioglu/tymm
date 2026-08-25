@@ -10,7 +10,7 @@ from typing import Any
 
 from build_runtime_course_package import compiler_state
 
-CONTEXT_VERSION = "1.1.0"
+CONTEXT_VERSION = "1.2.0"
 
 
 def read_json(path: Path) -> dict[str, Any]:
@@ -42,6 +42,14 @@ def require_runtime_fresh(root: Path) -> dict[str, Any]:
     if (root / "curriculum_process_component_resolution.json").exists() and manifest.get("process_component_resolution_status") != "PASS":
         raise ValueError(f"LESSON_PLAN_PROCESS_COMPONENTS_UNRESOLVED: {manifest.get('process_component_resolution_status')}")
     return manifest
+
+
+def _hydrate_outcomes(rows: list[dict[str, Any]], manifest: dict[str, Any]) -> list[dict[str, Any]]:
+    for outcome in rows:
+        outcome["process_components"] = parse_json(outcome.get("process_components"), [])
+        if manifest.get("process_component_resolution_status") == "PASS" and not outcome["process_components"]:
+            raise ValueError(f"LESSON_PLAN_EFFECTIVE_PROCESS_COMPONENTS_EMPTY: {outcome.get('outcome_id')}")
+    return rows
 
 
 def assemble(root: Path, block_id: str, requested_lesson_hours: int | None = None) -> dict[str, Any]:
@@ -81,21 +89,25 @@ def assemble(root: Path, block_id: str, requested_lesson_hours: int | None = Non
                 f"LESSON_PLAN_REQUESTED_HOURS_EXCEED_BLOCK: requested={requested_lesson_hours}, block={planned_hours}"
             )
 
-        outcomes = [dict(row) for row in db.execute(
-            """
+        outcome_sql = """
             SELECT o.outcome_id,o.outcome_code,o.official_text,o.process_components,o.process_component_origin,
                    o.source_locator,o.verification_status
             FROM block_outcomes bo
             JOIN outcomes o ON o.outcome_id=bo.outcome_id
-            WHERE bo.block_id=?
-            ORDER BY o.outcome_code
-            """,
-            (block_id,),
-        )]
-        for outcome in outcomes:
-            outcome["process_components"] = parse_json(outcome.get("process_components"), [])
-            if manifest.get("process_component_resolution_status") == "PASS" and not outcome["process_components"]:
-                raise ValueError(f"LESSON_PLAN_EFFECTIVE_PROCESS_COMPONENTS_EMPTY: {outcome.get('outcome_id')}")
+        """
+        outcomes = _hydrate_outcomes(
+            [dict(row) for row in db.execute(outcome_sql + " WHERE bo.block_id=? ORDER BY o.outcome_code", (block_id,))],
+            manifest,
+        )
+        theme_outcomes = _hydrate_outcomes(
+            [dict(row) for row in db.execute(
+                outcome_sql
+                + " JOIN blocks theme_block ON theme_block.block_id=bo.block_id"
+                + " WHERE theme_block.theme_id=? GROUP BY o.outcome_id ORDER BY o.outcome_code",
+                (block["theme_id"],),
+            )],
+            manifest,
+        )
 
         activities = [dict(row) for row in db.execute(
             """
@@ -153,6 +165,7 @@ def assemble(root: Path, block_id: str, requested_lesson_hours: int | None = Non
         form_ids = {f["form_id"] for f in forms}
         activity_ids = {a["activity_id"] for a in activities}
         outcome_codes = {o["outcome_code"] for o in outcomes}
+        theme_outcome_codes = {o["outcome_code"] for o in theme_outcomes}
         source_locators = sorted(set(
             parse_json(block["source_locators_json"], [])
             + parse_json(block["timeline_source_locators"], [])
@@ -193,12 +206,14 @@ def assemble(root: Path, block_id: str, requested_lesson_hours: int | None = Non
                 "calendar_binding_used": False,
             },
             "official_outcomes": outcomes,
+            "theme_outcomes": theme_outcomes,
             "textbook_activities": activities,
             "assessment_forms": forms,
             "theme_resource_decisions": resources,
             "assessment_task_bindings": assessment_bindings,
             "allowed_references": {
                 "outcome_codes": sorted(outcome_codes),
+                "theme_outcome_codes": sorted(theme_outcome_codes),
                 "activity_ids": sorted(activity_ids),
                 "form_ids": sorted(form_ids),
             },
@@ -213,6 +228,9 @@ def assemble(root: Path, block_id: str, requested_lesson_hours: int | None = Non
                 "lesson_duration_must_equal_requested_lesson_hours": True,
                 "partial_block_sequence_is_pedagogical_generation_not_official_subhour_sequence": True,
                 "prefer_reuse_of_textbook_activities_before_new_material": True,
+                "block_outcome_codes_define_instructional_scope": True,
+                "theme_assessment_must_use_theme_outcome_codes": True,
+                "instructional_scope_and_assessment_scope_must_not_be_conflated": True,
             },
             "provenance": {
                 "runtime_validation_status": manifest.get("validation_status"),
