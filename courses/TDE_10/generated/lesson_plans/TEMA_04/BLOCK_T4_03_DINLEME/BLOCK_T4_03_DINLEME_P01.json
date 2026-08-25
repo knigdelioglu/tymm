@@ -1,0 +1,18 @@
+{
+  "schema_version":"1.0.0",
+  "course_id":"TDE_10",
+  "theme_id":"TEMA_04",
+  "block_id":"BLOCK_T4_03_DINLEME",
+  "lesson_hours":2,
+  "plan_title":"Kaç Yerinden'e Hazırlık: Amaçlı Dinleme ve Güvenilir Kanıt Notu",
+  "plan_summary":"Tema 4 Dinleme/İzleme bloğunun 1-2. saatlerinde T4_ACT_12_HIKAYE_DINLEME_HAZIRLIK ile hazırlık yapılır ve Kaç Yerinden metni amaçlı iki dinleme turuyla izlenir/dinlenir. İlk turda olay-akış, kişi ve temel konu; ikinci turda seçilmiş ayrıntı, söz varlığı ve anlam ipuçları kaydedilir. Ön bilgi, tahmin, doğrudan duyulan bilgi ve öğrenci çıkarımı ayrı sütunlarda tutulur.",
+  "outcome_codes":["TDE1.1","TDE1.2"],
+  "used_activity_ids":["T4_ACT_12_HIKAYE_DINLEME_HAZIRLIK","T4_ACT_13_KAC_YERINDEN_ANLAM"],
+  "used_form_ids":[],
+  "lessons":[
+    {"lesson_no":1,"duration_lesson_hours":1,"title":"Dinleme amacını ve stratejisini kurmak","objective":"Kaç Yerinden'i dinleme amacını belirlemek, ön bilgi/tahmin ile metin kanıtını ayırmak ve ilk dinlemede temel olay-kişi-konu iskeletini çıkarmak.","outcome_codes":["TDE1.1"],"opening":"Başlık ve hazırlık soruları üzerinden yalnız tahmin üretilir; tahminler metin gerçeği olarak kabul edilmez.","teacher_actions":["T4_ACT_12 hazırlık yönlendirmelerini uygula.","Not şemasını 'ön bilgi/tahmin - doğrudan duyulan - çıkarım - belirsiz' olarak kur.","İlk dinlemede ayrıntı avcılığı yerine temel olay/kişi/konu iskeletine odaklandır."],"student_actions":["Dinleme amacını yazar.","Tahminlerini ayrı kaydeder.","İlk dinlemede olay-kişi-konu iskeletini not eder.","Belirsiz noktaları işaretler."],"activity_ids":["T4_ACT_12_HIKAYE_DINLEME_HAZIRLIK"],"form_ids":[],"assessment":"amaç kaydı + ayrıştırılmış hazırlık notu + ilk dinleme iskeleti.","closure":"İkinci turda doğrulanacak iki belirsiz nokta seçilir.","materials":["Kaç Yerinden dinleme/izleme içeriği","Hazırlık soruları","Kanıt not şeması"]},
+    {"lesson_no":2,"duration_lesson_hours":1,"title":"İkinci dinleme: ayrıntı, söz varlığı ve anlam kanıtı","objective":"İlk turdaki belirsizlikleri ikinci dinlemede doğrulamak ve anlam oluşturmak için güvenilir ayrıntı/söz varlığı kanıtları toplamak.","outcome_codes":["TDE1.1","TDE1.2"],"opening":"İlk turdaki iki belirsiz nokta görünür hâle getirilir.","teacher_actions":["İkinci dinlemeyi seçilmiş sorularla hedeflendir.","Doğrudan duyulan ayrıntı ile öğrencinin yorumunu ayır.","Bilinmeyen söz varlığında bağlamdan tahmin → kanıt → kontrol zinciri kurdur."],"student_actions":["Belirsizliklerini kanıtla doğrular veya düzeltir.","Söz varlığı için bağlam tahmini yapar.","P02'ye taşınacak en az dört güvenilir kanıt seçer."],"activity_ids":["T4_ACT_13_KAC_YERINDEN_ANLAM"],"form_ids":[],"assessment":"kanıtlı düzeltme + bağlam söz varlığı kaydı + P02 kanıt seti.","closure":"P02 için 'ne oldu / kim / hangi kanıt / ne düşündürüyor' tablosu hazırlanır.","materials":["Kaç Yerinden","Dinleme kanıt notları"]}
+  ],
+  "teacher_notes":"Kaç Yerinden'in olayları veya iletileri öğretmen tarafından önceden açıklanmaz. Öğrenci tahmini, doğrudan metin kanıtı ve yorum ayrı tutulur.",
+  "continuation_summary":{"planned_now_hours":2,"remaining_block_hours":6,"covered_outcome_codes":["TDE1.1","TDE1.2"],"used_activity_ids":["T4_ACT_12_HIKAYE_DINLEME_HAZIRLIK","T4_ACT_13_KAC_YERINDEN_ANLAM"],"next_step_hint":"P02'de konu, ileti, kişi ilişkileri, söz varlığı ve bağlamı kanıt tablosuyla derinleştir."}
+}
