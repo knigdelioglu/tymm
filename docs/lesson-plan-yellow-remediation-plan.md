@@ -45,13 +45,55 @@ Bu nedenle hiçbir ders planı yalnız Tema 4'ün geçmişte 46 saat görünmesi
 
 Test `TYMM Block-Hour Runtime Projection` CI akışının zorunlu regression setine eklenmiştir.
 
+## P1 — Okul temelli 2 saati yerleşim katmanına bağla — TAMAMLANDI
+
+### Kapatılan risk
+
+**YELLOW-SBP-PLACEMENT — Okul temelli 2 saatin plan içindeki önerilen yerleşimi first-class değil**
+
+Durum: `CLOSED`
+
+Uygulama:
+
+- `courses/TDE_9/production/school_based_planning_placements.json`
+- `courses/TDE_10/production/school_based_planning_placements.json`
+
+Her okul-temelli seçenek için artık aşağıdakiler yapısal olarak tutulur:
+
+- `identified_need`
+- `recommended_insertion_point.target_block_id`
+- `recommended_insertion_point.anchor_package_id`
+- `recommended_insertion_point.relation = AFTER_PACKAGE`
+- `activation_condition`
+- `impact_evaluation.method`
+- `impact_evaluation.success_indicator`
+
+Yerleşim bir **öneridir**, otomatik seçim değildir. Öğretmen/zümre tema başına en fazla 2 saati ihtiyaca göre seçer. Okul-temelli saatler çekirdek 43 saatin içine eklenmez, çekirdek paket sürelerini uzatmaz ve varsayılan 172 saatlik ders planı kuyruğuna girmez.
+
+### P1 fail-closed doğrulama
+
+`skill/tymm-material-planner/scripts/validate_school_based_planning_placements.py` şu invariant'ları doğrular:
+
+1. Yıllık çekirdek kuyruk 172 saattir; okul-temelli saat 8'dir.
+2. Her tema 43 çekirdek + 2 okul-temelli saat olarak kalır.
+3. Her mevcut okul-temelli seçenek için tam bir placement kaydı vardır; fazladan veya eksik kayıt olamaz.
+4. Placement tema ve süre bilgisi option kaydıyla birebir uyuşur.
+5. `target_block_id` ve `anchor_package_id` gerçek üretim topolojisine karşı doğrulanır.
+6. İhtiyaç, aktivasyon koşulu ve etki değerlendirmesi boş bırakılamaz.
+7. Okul-temelli saatler 180 saatlik varsayılan üretim kuyruğuna sokulursa validation fail-closed olur.
+
+Negatif regression testleri bilinmeyen package anchor, eksik option placement, okul-temelli saatlerin core queue'ya eklenmesi ve core saat politikasının değiştirilmesini beklenen FAIL olarak doğrular.
+
+CI: `.github/workflows/tymm-school-based-planning.yml` push ve pull request üzerinde placement contract'ını zorunlu olarak doğrular.
+
+Not: `TDE_10` okul-temelli seçeneklerinin 10. sınıf kariyer/mesleki rehberlik amacıyla içeriksel yeniden tasarımı **P2 kapsamıdır**; P1 yalnız güvenli ve gerçek uygulanabilir placement katmanını kurmuştur.
+
 ## Aktif sarı riskler
 
-46-saat kaynaklı yanlış pozitifler çıkarıldıktan sonra aktif sarılar aşağıdaki gerçek risklerle sınırlıdır.
+P0 ve P1 kapatıldıktan sonra aktif sarılar aşağıdaki risklerle sınırlıdır.
 
 | ID | Faz | Risk | Etkilenen kapsam | Hedef |
 |---|---|---|---|---|
-| `YELLOW-SBP-PLACEMENT` | P1 | Okul temelli 2 saatin plan içindeki önerilen yerleşimi first-class değil | TDE9/TDE10, tema bazında | `recommended_insertion_points` ve ihtiyaç/gerekçe modeli |
 | `YELLOW-TDE10-SBP-PURPOSE` | P2 | TDE10 okul temelli seçenekleri kariyer/mesleki rehberlik amacını sistematik taşımıyor | TDE10, 4 tema | 8 saatin kariyer rehberliği bağlamında yeniden tasarlanması |
 | `YELLOW-ASSESSMENT-SCOPE` | P3 | Tema sonu ölçme bazı son konuşma/yazma bloklarının outcome kapsamına gömülü | Tema sonu paketleri | `assessment_scope=THEME` + `assessed_outcome_codes` |
 | `YELLOW-LARGE-CLASS` | P4 | Bireysel konuşma/yeniden performans akışı kalabalık sınıfta süreye sığmayabilir | Özellikle konuşma P05'leri | `large_class_route` |
@@ -78,8 +120,8 @@ Ham yıllık-plan hafta yerleşimi, tek başına sarı sınıflandırma gerekçe
 ## Faz sırası
 
 ```text
-P0  Saat kaynaklı yanlış sarıları temizle        ✅ TAMAMLANDI
-P1  Okul temelli 2 saati yerleşim katmanına bağla
+P0  Saat kaynaklı yanlış sarıları temizle         ✅ TAMAMLANDI
+P1  Okul temelli 2 saati yerleşim katmanına bağla ✅ TAMAMLANDI
 P2  TDE10 okul temelli kariyer uyumunu düzelt
 P3  Tema değerlendirmesi semantiğini düzelt
 P4  Kalabalık sınıf rotalarını ekle
