@@ -178,6 +178,12 @@ def main() -> int:
     schema_validator = Draft202012Validator(schema)
     knowledge_roots = [Path(root) for root in args.knowledge_root]
     reports = [validate_course(root, schema_validator) for root in knowledge_roots]
+    for root, report in zip(knowledge_roots, reports):
+        report["binding"] = validation_binding.build_validation_binding(
+            [root],
+            schema_path,
+            commit_sha=args.commit_sha,
+        )
     payload = {
         "status": "PASS" if all(report["status"] == "PASS" for report in reports) else "FAIL",
         "binding": validation_binding.build_validation_binding(
