@@ -174,25 +174,26 @@ jobs:
             courses/TDE_9/runtime/runtime_validation_report.md
           if-no-files-found: warn
 
-      - name: Verify committed TDE9 derived outputs are reproducible
+      - name: Verify committed TDE9 index outputs are reproducible
         run: |
-          git add courses/TDE_9/index courses/TDE_9/runtime
+          # Runtime output is rebuilt and semantically validated above. Its single
+          # publish owner is tymm-runtime-block-hours.yml, which prevents two CI
+          # workflows from competing to publish the same SQLite package.
+          git add courses/TDE_9/index
           if git diff --cached --quiet; then
-            echo 'Committed TDE9 derived outputs are current.'
+            echo 'Committed TDE9 index outputs are current.'
             exit 0
           fi
 
-          # Builders include volatile timestamps. Timestamp-only differences do not
-          # make the committed derived payload stale.
+          # The index builder includes volatile timestamps. Timestamp-only
+          # differences do not make the committed index payload stale.
           if git diff --cached --quiet \
               -I '"index_created_at"[[:space:]]*:' \
-              -I '"index_updated_at"[[:space:]]*:' \
-              -I 'Build Timestamp' \
-              -I '"build_timestamp"[[:space:]]*:'; then
-            echo 'Only volatile derived timestamps changed; committed outputs are reproducible.'
+              -I '"index_updated_at"[[:space:]]*:'; then
+            echo 'Only volatile index timestamps changed; committed index outputs are reproducible.'
             exit 0
           fi
 
-          echo '::error::Committed TDE9 index/runtime outputs are stale. Regenerate them on the source branch and include the real derived changes in the pull request.'
+          echo '::error::Committed TDE9 index outputs are stale. Regenerate them on the source branch and include the real derived changes in the pull request.'
           git diff --cached --stat
           exit 2
