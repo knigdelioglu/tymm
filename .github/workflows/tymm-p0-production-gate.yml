@@ -189,7 +189,8 @@ jobs:
           # differences do not make the committed index payload stale.
           if git diff --cached --quiet \
               -I '"index_created_at"[[:space:]]*:' \
-              -I '"index_updated_at"[[:space:]]*:'; then
+              -I '"index_updated_at"[[:space:]]*:' \
+              -I 'Build Timestamp'; then
             echo 'Only volatile index timestamps changed; committed index outputs are reproducible.'
             exit 0
           fi
