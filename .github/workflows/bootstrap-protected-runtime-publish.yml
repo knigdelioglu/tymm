@@ -1,0 +1,61 @@
+name: Bootstrap protected runtime publish fix
+
+on:
+  push:
+    branches:
+      - fix/protected-runtime-publish
+    paths:
+      - '.github/workflows/bootstrap-protected-runtime-publish.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout fix branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Patch direct-main publishes to automation branches
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          patches = {
+              Path('.github/workflows/tymm-runtime-block-hours.yml'): (
+                  "          git push origin HEAD:main\n",
+                  """          PUBLISH_BRANCH='automation/tde9-runtime-sync'\n          git fetch origin \"$PUBLISH_BRANCH\" || true\n          git push --force-with-lease origin HEAD:\"$PUBLISH_BRANCH\"\n          echo \"::notice::TDE9 derived outputs published to $PUBLISH_BRANCH; merge them through a pull request into protected main.\"\n""",
+              ),
+              Path('.github/workflows/tymm-tde10-p0.yml'): (
+                  "            git push origin HEAD:main\n",
+                  """            PUBLISH_BRANCH='automation/tde10-runtime-sync'\n            git fetch origin \"$PUBLISH_BRANCH\" || true\n            git push --force-with-lease origin HEAD:\"$PUBLISH_BRANCH\"\n            echo \"::notice::TDE10 derived outputs published to $PUBLISH_BRANCH; merge them through a pull request into protected main.\"\n""",
+              ),
+          }
+
+          for path, (old, new) in patches.items():
+              text = path.read_text(encoding='utf-8')
+              count = text.count(old)
+              if count != 1:
+                  raise SystemExit(f'{path}: expected exactly one direct-main push, found {count}')
+              path.write_text(text.replace(old, new), encoding='utf-8')
+              print(f'{path}: protected-main publish patch applied')
+          PY
+
+      - name: Verify patch and remove bootstrap
+        run: |
+          grep -R "git push origin HEAD:main" .github/workflows/tymm-runtime-block-hours.yml .github/workflows/tymm-tde10-p0.yml && exit 1 || true
+          grep -n "automation/tde9-runtime-sync" .github/workflows/tymm-runtime-block-hours.yml
+          grep -n "automation/tde10-runtime-sync" .github/workflows/tymm-tde10-p0.yml
+          rm .github/workflows/bootstrap-protected-runtime-publish.yml
+          git diff --check
+
+      - name: Commit patched workflows
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add .github/workflows/tymm-runtime-block-hours.yml .github/workflows/tymm-tde10-p0.yml .github/workflows/bootstrap-protected-runtime-publish.yml
+          git commit -m 'fix(ci): publish derived runtimes through protected branches'
+          git push origin HEAD:fix/protected-runtime-publish
