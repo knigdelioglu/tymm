@@ -9,6 +9,7 @@ from typing import Any
 
 from process_component_resolver import audit_curriculum, project_effective_components
 from runtime_assessment_payload import project_runtime_assessment_payload
+from runtime_lesson_plan_payload import project_runtime_lesson_plan_payload
 
 COMPILER_VERSION = "1.2.0"
 RUNTIME_PACKAGE_VERSION = "1.2.0"
@@ -238,6 +239,9 @@ def build(root: Path) -> dict[str, Any]:
     (out/"runtime_schema.sql").write_text(SCHEMA.strip()+"\n",encoding="utf-8"); (out/"runtime_manifest.json").write_text(json.dumps(runtime_manifest,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     result=validate(root, write_report=True); runtime_manifest["validation_status"]=result["status"]; (out/"runtime_manifest.json").write_text(json.dumps(runtime_manifest,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     project_runtime_assessment_payload(root)
+    project_runtime_lesson_plan_payload(root)
+    final_manifest=read_json(out/"runtime_manifest.json")
+    result["row_counts"]=final_manifest.get("row_counts",result.get("row_counts",{}))
     return result
 
 def validate(root: Path, write_report: bool=False) -> dict[str,Any]:
