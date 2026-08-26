@@ -9,6 +9,7 @@ from typing import Any
 
 from process_component_resolver import audit_curriculum, project_effective_components
 from runtime_assessment_payload import project_runtime_assessment_payload
+from runtime_lesson_plan_payload import project_runtime_lesson_plan_payload
 
 COMPILER_VERSION = "1.2.0"
 RUNTIME_PACKAGE_VERSION = "1.2.0"
@@ -122,10 +123,11 @@ def load_block_hour_bindings(root: Path) -> tuple[dict[str, dict[str, Any]], dic
     return bindings, doc
 
 def relevant_files(root: Path) -> list[tuple[str, Path]]:
-    names = ["curriculum_map.json","curriculum_process_component_resolution.json","textbook_map.json","textbook_forms_index.json","source_manifest.json","planning/course_timeline.json","planning/official_topic_hour_distribution.json","planning/block_hour_bindings.json","production/production_manifest.json","production/assessment_artifact_registry.json","production/assessment_design_contract.json","production/consolidated_resource_plan.json","production/teaching_blocks.json"]
+    names = ["curriculum_map.json","curriculum_process_component_resolution.json","textbook_map.json","textbook_forms_index.json","source_manifest.json","planning/course_timeline.json","planning/official_topic_hour_distribution.json","planning/block_hour_bindings.json","planning/lesson_plan_production_plan.json","production/production_manifest.json","production/assessment_artifact_registry.json","production/assessment_design_contract.json","production/consolidated_resource_plan.json","production/teaching_blocks.json"]
     paths: list[tuple[str, Path]] = [(n, root/n) for n in names if (root/n).exists()]
     for pattern in ("themes/tema_*/alignment.json","themes/tema_*/gap_analysis.json","themes/tema_*/resource_plan.json","themes/tema_*/needs.json"):
         paths += [(p.relative_to(root).as_posix(), p) for p in sorted(root.glob(pattern))]
+    paths += [(p.relative_to(root).as_posix(), p) for p in sorted(root.glob("generated/lesson_plans/*/*/*.json"))]
     if (root / "curriculum_process_component_resolution.json").exists():
         shared = process_component_catalog_path(root)
         if shared is None:
@@ -237,6 +239,9 @@ def build(root: Path) -> dict[str, Any]:
     (out/"runtime_schema.sql").write_text(SCHEMA.strip()+"\n",encoding="utf-8"); (out/"runtime_manifest.json").write_text(json.dumps(runtime_manifest,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     result=validate(root, write_report=True); runtime_manifest["validation_status"]=result["status"]; (out/"runtime_manifest.json").write_text(json.dumps(runtime_manifest,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     project_runtime_assessment_payload(root)
+    project_runtime_lesson_plan_payload(root)
+    final_manifest=read_json(out/"runtime_manifest.json")
+    result["row_counts"]=final_manifest.get("row_counts",result.get("row_counts",{}))
     return result
 
 def validate(root: Path, write_report: bool=False) -> dict[str,Any]:

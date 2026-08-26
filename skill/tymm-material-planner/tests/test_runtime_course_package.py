@@ -5,6 +5,7 @@ from pathlib import Path
 import sys
 sys.path.insert(0, str(Path(__file__).parents[1] / "scripts"))
 import build_runtime_course_package as compiler
+import runtime_lesson_plan_payload as lesson_payload
 
 ROOT = Path(__file__).parents[3] / "courses" / "TDE_9"
 
@@ -34,12 +35,13 @@ class RuntimePackageTests(unittest.TestCase):
         self.assertEqual(db.execute("SELECT planned_hours FROM blocks WHERE block_id='BLOCK_T1_04_KONUSMA'").fetchone()[0], 10)
         self.assertEqual(dict(db.execute("SELECT theme_id,SUM(planned_hours) FROM timeline_blocks GROUP BY theme_id")), {"TEMA_01":43,"TEMA_02":43,"TEMA_03":43,"TEMA_04":43})
         manifest=json.loads((self.tmp/"runtime/runtime_manifest.json").read_text())
-        self.assertEqual(manifest["runtime_package_version"], compiler.RUNTIME_PACKAGE_VERSION)
+        self.assertEqual(manifest["runtime_package_version"], lesson_payload.RUNTIME_PACKAGE_VERSION)
         self.assertEqual(manifest["compiler_version"], compiler.COMPILER_VERSION)
-        self.assertEqual(manifest["schema_version"], compiler.SCHEMA_VERSION)
+        self.assertEqual(manifest["schema_version"], lesson_payload.RUNTIME_SCHEMA_VERSION)
         self.assertEqual(manifest["timeline_resolution"], "BLOCK_TIME_RESOLVED")
         self.assertIsNone(manifest["timeline_unresolved_fields"]["block_hours"])
         self.assertEqual(manifest["block_hour_binding_status"], "BLOCK_TIME_RESOLVED")
+        self.assertEqual(manifest["row_counts"]["lesson_plan_packages"], 88)
     def test_04_textbook_body_not_projected(self):
         self.assertEqual(self.build()["status"], "PASS")
         db=sqlite3.connect(self.tmp/"runtime/course_runtime.sqlite")

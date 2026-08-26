@@ -208,5 +208,7 @@ jobs:
           name: validated-production-binding
           path: |
             courses/TDE_9/planning/lesson_plan_production_plan.json
+            courses/TDE_9/planning/lesson_plan_validation_seal.json
             courses/TDE_10/planning/lesson_plan_production_plan.json
+            courses/TDE_10/planning/lesson_plan_validation_seal.json
           if-no-files-found: error

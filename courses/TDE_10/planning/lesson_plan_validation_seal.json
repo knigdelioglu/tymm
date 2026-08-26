@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "seal_type": "LESSON_PLAN_COURSE_VALIDATION_SEAL",
+  "course_id": "TDE_10",
+  "status": "PASS",
+  "scope": "FULL_GENERATED_LESSON_PLAN_SET",
+  "validated_packages": 88,
+  "validated_instruction_hours": 172,
+  "failure_records": 0,
+  "warning_records": 0,
+  "validation_binding": {
+    "schema_version": "1.0.0",
+    "algorithm": "TYMM_LESSON_PLAN_VALIDATION_SCOPE_V1",
+    "content_fingerprint": "sha256:9744bfbf54a57b7b7731176d5c6cd93bb8ca2e0f67a6a97d1ee29bf5e04dd223",
+    "fingerprinted_files": 221,
+    "commit_sha": "075b6f6491564ad6fe51d88927fcf43a63519b19"
+  },
+  "validation_set_binding": {
+    "schema_version": "1.0.0",
+    "algorithm": "TYMM_LESSON_PLAN_VALIDATION_SCOPE_V1",
+    "content_fingerprint": "sha256:c0b63624ce313c518ec0b278390b4c3c6df584b09bc512cc7e4dcf35208fffde",
+    "fingerprinted_files": 440,
+    "commit_sha": "075b6f6491564ad6fe51d88927fcf43a63519b19"
+  }
+}

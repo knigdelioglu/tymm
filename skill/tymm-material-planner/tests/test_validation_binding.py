@@ -65,14 +65,20 @@ class ValidationBindingTests(unittest.TestCase):
             [self.root], self.schema, commit_sha=commit, repo_root=self.repo
         )
 
-    def report(self, binding: dict) -> Path:
+    def report(self, binding: dict, course_binding: dict | None = None) -> Path:
         path = self.repo / "report.json"
         path.write_text(
             json.dumps(
                 {
                     "status": "PASS",
                     "binding": binding,
-                    "courses": [{"course_id": "TDE_9", "status": "PASS"}],
+                    "courses": [
+                        {
+                            "course_id": "TDE_9",
+                            "status": "PASS",
+                            "binding": course_binding or self.binding(binding["commit_sha"]),
+                        }
+                    ],
                     "summary": {"failure_records": 0, "warning_records": 0},
                 }
             ) + "\n",
@@ -91,6 +97,10 @@ class ValidationBindingTests(unittest.TestCase):
         self.assertEqual(verified["commit_sha"], COMMIT_A)
         self.assertTrue(verified["content_fingerprint"].startswith("sha256:"))
         self.assertTrue(verified["report_sha256"].startswith("sha256:"))
+        self.assertEqual(
+            verified["course_bindings"]["TDE_9"]["content_fingerprint"],
+            self.binding()["content_fingerprint"],
+        )
 
     def test_mutated_validated_content_is_rejected(self) -> None:
         report = self.report(self.binding())
@@ -123,11 +133,27 @@ class ValidationBindingTests(unittest.TestCase):
         finally:
             finalizer.git_head = original_git_head
 
+    def test_course_binding_mismatch_is_rejected(self) -> None:
+        course_binding = self.binding()
+        course_binding["content_fingerprint"] = "sha256:" + "0" * 64
+        report = self.report(self.binding(), course_binding=course_binding)
+        original_git_head = finalizer.git_head
+        finalizer.git_head = lambda: COMMIT_A
+        try:
+            with self.assertRaisesRegex(ValueError, "COURSE_VALIDATION_BINDING_MISMATCH:TDE_9:content_fingerprint"):
+                finalizer.verify_report(report, [self.root], self.schema, COMMIT_A)
+        finally:
+            finalizer.git_head = original_git_head
+
     def test_finalizer_metadata_does_not_invalidate_content_fingerprint(self) -> None:
         before = self.binding()["content_fingerprint"]
         payload = json.loads(self.production_plan.read_text(encoding="utf-8"))
         payload["status"] = "COMPLETED"
-        payload["engineering_validation"] = {"status": "PASS", "validation_binding": {"x": 1}}
+        payload["engineering_validation"] = {
+            "status": "PASS",
+            "validation_binding": {"x": 1},
+            "course_validation_binding": {"y": 2},
+        }
         payload["progress"]["last_completed"]["validation_status"] = "PASS"
         self.production_plan.write_text(json.dumps(payload), encoding="utf-8")
         after = self.binding()["content_fingerprint"]
@@ -138,6 +164,33 @@ class ValidationBindingTests(unittest.TestCase):
         (self.root / "planning/course_timeline.json").write_text("{\"generated\":false}\n", encoding="utf-8")
         after = self.binding()["content_fingerprint"]
         self.assertEqual(before, after)
+
+    def test_validation_seal_is_not_part_of_validation_fingerprint(self) -> None:
+        before = self.binding()["content_fingerprint"]
+        seal = self.root / "planning" / validation_binding.VALIDATION_SEAL_FILENAME
+        seal.write_text("{\"derived\":true}\n", encoding="utf-8")
+        after = self.binding()["content_fingerprint"]
+        self.assertEqual(before, after)
+
+    def test_finalize_persists_course_validation_seal(self) -> None:
+        binding = self.binding()
+        result = finalizer.finalize(self.root, binding, binding)
+        seal_path = self.root / "planning" / validation_binding.VALIDATION_SEAL_FILENAME
+        self.assertTrue(seal_path.exists())
+        seal = json.loads(seal_path.read_text(encoding="utf-8"))
+        self.assertEqual(result["validation_seal"], seal_path.as_posix())
+        self.assertEqual(seal["status"], "PASS")
+        self.assertEqual(seal["course_id"], "TDE_9")
+        self.assertEqual(seal["validated_packages"], 1)
+        self.assertEqual(seal["validated_instruction_hours"], 2)
+        self.assertEqual(
+            seal["validation_binding"]["content_fingerprint"],
+            binding["content_fingerprint"],
+        )
+        self.assertEqual(
+            self.binding()["content_fingerprint"],
+            binding["content_fingerprint"],
+        )
 
 
 if __name__ == "__main__":

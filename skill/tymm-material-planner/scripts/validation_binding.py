@@ -12,6 +12,7 @@ from typing import Any, Iterable
 
 BINDING_SCHEMA_VERSION = "1.0.0"
 FINGERPRINT_ALGORITHM = "TYMM_LESSON_PLAN_VALIDATION_SCOPE_V1"
+VALIDATION_SEAL_FILENAME = "lesson_plan_validation_seal.json"
 
 
 def read_json(path: Path) -> dict[str, Any]:
@@ -64,7 +65,9 @@ def _iter_course_entries(root: Path) -> Iterable[tuple[str, bytes]]:
     planning = root / "planning"
     if planning.exists():
         for path in sorted(p for p in planning.rglob("*") if p.is_file()):
-            if path.name == "course_timeline.json":
+            # Generated calendar output and the validation seal are derived
+            # metadata. Including either would make validation self-referential.
+            if path.name in {"course_timeline.json", VALIDATION_SEAL_FILENAME}:
                 continue
             relative = path.relative_to(root).as_posix()
             if path.name == "lesson_plan_production_plan.json":
