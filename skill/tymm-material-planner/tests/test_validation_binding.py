@@ -165,6 +165,33 @@ class ValidationBindingTests(unittest.TestCase):
         after = self.binding()["content_fingerprint"]
         self.assertEqual(before, after)
 
+    def test_validation_seal_is_not_part_of_validation_fingerprint(self) -> None:
+        before = self.binding()["content_fingerprint"]
+        seal = self.root / "planning" / validation_binding.VALIDATION_SEAL_FILENAME
+        seal.write_text("{\"derived\":true}\n", encoding="utf-8")
+        after = self.binding()["content_fingerprint"]
+        self.assertEqual(before, after)
+
+    def test_finalize_persists_course_validation_seal(self) -> None:
+        binding = self.binding()
+        result = finalizer.finalize(self.root, binding, binding)
+        seal_path = self.root / "planning" / validation_binding.VALIDATION_SEAL_FILENAME
+        self.assertTrue(seal_path.exists())
+        seal = json.loads(seal_path.read_text(encoding="utf-8"))
+        self.assertEqual(result["validation_seal"], seal_path.as_posix())
+        self.assertEqual(seal["status"], "PASS")
+        self.assertEqual(seal["course_id"], "TDE_9")
+        self.assertEqual(seal["validated_packages"], 1)
+        self.assertEqual(seal["validated_instruction_hours"], 2)
+        self.assertEqual(
+            seal["validation_binding"]["content_fingerprint"],
+            binding["content_fingerprint"],
+        )
+        self.assertEqual(
+            self.binding()["content_fingerprint"],
+            binding["content_fingerprint"],
+        )
+
 
 if __name__ == "__main__":
     unittest.main()
