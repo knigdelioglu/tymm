@@ -65,3 +65,15 @@
 | task binding count | PASS | runtime=8, canonical=8 |
 | task-specific criteria payload | PASS | runtime=8, canonical=8 |
 | payload JSON validity | PASS | all projected JSON columns parse |
+
+## Lesson plan payload projection
+
+| Check | Status | Detail |
+|---|---|---|
+| lesson plan validation seal | PASS | verified=sha256:9744bfbf54a57b7b7731176d5c6cd93bb8ca2e0f67a6a97d1ee29bf5e04dd223 |
+| lesson plan package count | PASS | runtime=88, expected=88 |
+| lesson plan instruction hours | PASS | runtime=172, expected=172 |
+| lesson plan block topology | PASS | all blocks match package count and planned hours |
+| lesson plan payload JSON validity | PASS | all payload_json rows parse |
+| lesson plan source payload parity | PASS | all SQLite payloads match source JSON and SHA256 |
+| lesson plan foreign key integrity | PASS | PRAGMA foreign_key_check |
