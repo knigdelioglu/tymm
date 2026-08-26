@@ -16,11 +16,31 @@ import sqlite3
 from pathlib import Path
 from typing import Any
 
-PROJECTION_VERSION = "1.0.0"
+import validation_binding
+
+PROJECTION_VERSION = "1.1.0"
 RUNTIME_SCHEMA_VERSION = "1.2.0"
 RUNTIME_PACKAGE_VERSION = "1.3.0"
 
 PACKAGE_ID_RE = re.compile(r"^(?P<block_id>.+)_P(?P<package_no>\d{2})$")
+VALIDATION_SEAL_FILENAME = "lesson_plan_validation_seal.json"
+LESSON_PLAN_SCHEMA_PATH = (
+    Path(__file__).resolve().parents[1] / "schemas" / "lesson_plan.schema.json"
+)
+REQUIRED_ENGINEERING_CHECKS = {
+    "JSON_SCHEMA_DRAFT_2020_12",
+    "SOURCE_BOUND_GROUNDING",
+    "NESTED_REFERENCE_GROUNDING",
+    "CALENDAR_SCOPE",
+    "DETERMINISTIC_JSON_MARKDOWN_PARITY",
+    "PACKAGE_TOPOLOGY",
+    "PACKAGE_COUNT",
+    "LESSON_HOUR_TOTAL",
+    "FRESH_RUNTIME_CONTEXT",
+    "VALIDATION_REPORT_PASS",
+    "VALIDATED_COMMIT_SHA",
+    "VALIDATED_CONTENT_FINGERPRINT",
+}
 
 TABLE_SQL = """
 CREATE TABLE IF NOT EXISTS lesson_plan_packages (
@@ -139,6 +159,103 @@ def _recompute_runtime_fingerprint(
     return fingerprint
 
 
+def _verify_validation_seal(
+    root: Path,
+    course_id: str,
+    production_plan: dict[str, Any],
+    expected_package_count: int,
+    expected_hours: int,
+) -> tuple[Path, dict[str, Any]]:
+    progress = production_plan.get("progress") or {}
+    if progress.get("completed_packages") != expected_package_count:
+        raise ValueError("RUNTIME_LESSON_PLAN_COMPLETED_PACKAGE_COUNT_MISMATCH")
+    if progress.get("completed_instruction_hours") != expected_hours:
+        raise ValueError("RUNTIME_LESSON_PLAN_COMPLETED_HOURS_MISMATCH")
+    if progress.get("next") is not None:
+        raise ValueError("RUNTIME_LESSON_PLAN_NEXT_PACKAGE_MUST_BE_NULL")
+
+    engineering = production_plan.get("engineering_validation") or {}
+    if engineering.get("status") != "PASS":
+        raise ValueError(
+            "RUNTIME_LESSON_PLAN_ENGINEERING_VALIDATION_NOT_PASS: "
+            f"{engineering.get('status')}"
+        )
+    if engineering.get("scope") != "FULL_GENERATED_LESSON_PLAN_SET":
+        raise ValueError("RUNTIME_LESSON_PLAN_ENGINEERING_SCOPE_INVALID")
+    if engineering.get("validated_packages") != expected_package_count:
+        raise ValueError("RUNTIME_LESSON_PLAN_ENGINEERING_PACKAGE_COUNT_MISMATCH")
+    if engineering.get("validated_instruction_hours") != expected_hours:
+        raise ValueError("RUNTIME_LESSON_PLAN_ENGINEERING_HOURS_MISMATCH")
+    if engineering.get("failure_records") != 0 or engineering.get("warning_records") != 0:
+        raise ValueError("RUNTIME_LESSON_PLAN_ENGINEERING_NOT_CLEAN")
+    checks = engineering.get("checks")
+    if not isinstance(checks, list) or not REQUIRED_ENGINEERING_CHECKS.issubset(set(checks)):
+        missing = sorted(REQUIRED_ENGINEERING_CHECKS - set(checks or []))
+        raise ValueError(
+            "RUNTIME_LESSON_PLAN_ENGINEERING_CHECKS_MISSING:" + ",".join(missing)
+        )
+
+    seal_path = root / "planning" / VALIDATION_SEAL_FILENAME
+    if not seal_path.exists():
+        raise ValueError("RUNTIME_LESSON_PLAN_VALIDATION_SEAL_MISSING")
+    seal = _read_json(seal_path)
+    if seal.get("seal_type") != "LESSON_PLAN_COURSE_VALIDATION_SEAL":
+        raise ValueError("RUNTIME_LESSON_PLAN_VALIDATION_SEAL_TYPE_INVALID")
+    if seal.get("course_id") != course_id:
+        raise ValueError("RUNTIME_LESSON_PLAN_VALIDATION_SEAL_COURSE_MISMATCH")
+    if seal.get("status") != "PASS":
+        raise ValueError("RUNTIME_LESSON_PLAN_VALIDATION_SEAL_NOT_PASS")
+    if seal.get("scope") != "FULL_GENERATED_LESSON_PLAN_SET":
+        raise ValueError("RUNTIME_LESSON_PLAN_VALIDATION_SEAL_SCOPE_INVALID")
+    if seal.get("validated_packages") != expected_package_count:
+        raise ValueError("RUNTIME_LESSON_PLAN_VALIDATION_SEAL_PACKAGE_COUNT_MISMATCH")
+    if seal.get("validated_instruction_hours") != expected_hours:
+        raise ValueError("RUNTIME_LESSON_PLAN_VALIDATION_SEAL_HOURS_MISMATCH")
+    if seal.get("failure_records") != 0 or seal.get("warning_records") != 0:
+        raise ValueError("RUNTIME_LESSON_PLAN_VALIDATION_SEAL_NOT_CLEAN")
+
+    stored_binding = seal.get("validation_binding")
+    if not isinstance(stored_binding, dict):
+        raise ValueError("RUNTIME_LESSON_PLAN_VALIDATION_BINDING_MISSING")
+    current_binding = validation_binding.compute_content_binding(
+        [root],
+        LESSON_PLAN_SCHEMA_PATH,
+    )
+    for key in (
+        "schema_version",
+        "algorithm",
+        "content_fingerprint",
+        "fingerprinted_files",
+    ):
+        if stored_binding.get(key) != current_binding.get(key):
+            raise ValueError(
+                "RUNTIME_LESSON_PLAN_COURSE_VALIDATION_BINDING_MISMATCH:"
+                f"{key}:{stored_binding.get(key)}!={current_binding.get(key)}"
+            )
+    validation_binding.resolve_commit_sha(stored_binding.get("commit_sha"))
+
+    embedded_binding = engineering.get("course_validation_binding")
+    if embedded_binding is not None:
+        if not isinstance(embedded_binding, dict):
+            raise ValueError("RUNTIME_LESSON_PLAN_EMBEDDED_BINDING_INVALID")
+        for key in (
+            "schema_version",
+            "algorithm",
+            "content_fingerprint",
+            "fingerprinted_files",
+        ):
+            if embedded_binding.get(key) != stored_binding.get(key):
+                raise ValueError(
+                    "RUNTIME_LESSON_PLAN_EMBEDDED_BINDING_MISMATCH:"
+                    f"{key}"
+                )
+
+    return seal_path, {
+        **current_binding,
+        "validated_commit_sha": stored_binding.get("commit_sha"),
+    }
+
+
 def project_runtime_lesson_plan_payload(root: Path | str) -> dict[str, Any]:
     root = Path(root).resolve()
     runtime = root / "runtime"
@@ -166,6 +283,7 @@ def project_runtime_lesson_plan_payload(root: Path | str) -> dict[str, Any]:
             "available": False,
             "package_payload_json": False,
             "block_package_navigation": False,
+            "validation_bound": False,
         }
         runtime_manifest.setdefault("row_counts", {})["lesson_plan_packages"] = 0
         manifest_path.write_text(
@@ -196,12 +314,6 @@ def project_runtime_lesson_plan_payload(root: Path | str) -> dict[str, Any]:
             "RUNTIME_LESSON_PLAN_PRODUCTION_NOT_COMPLETED: "
             f"{production_plan.get('status')}"
         )
-    engineering_validation = production_plan.get("engineering_validation") or {}
-    if engineering_validation.get("status") != "PASS":
-        raise ValueError(
-            "RUNTIME_LESSON_PLAN_ENGINEERING_VALIDATION_NOT_PASS: "
-            f"{engineering_validation.get('status')}"
-        )
 
     progress = production_plan.get("progress") or {}
     expected_package_count = progress.get("total_packages")
@@ -211,9 +323,18 @@ def project_runtime_lesson_plan_payload(root: Path | str) -> dict[str, Any]:
     if not isinstance(expected_hours, int) or expected_hours <= 0:
         raise ValueError("RUNTIME_LESSON_PLAN_EXPECTED_HOURS_INVALID")
 
+    validation_seal_path, verified_binding = _verify_validation_seal(
+        root,
+        course_id,
+        production_plan,
+        expected_package_count,
+        expected_hours,
+    )
+
     topology = _production_topology(production_plan)
     additional_hashes = {
-        production_plan_path.relative_to(root).as_posix(): _sha256(production_plan_path)
+        production_plan_path.relative_to(root).as_posix(): _sha256(production_plan_path),
+        validation_seal_path.relative_to(root).as_posix(): _sha256(validation_seal_path),
     }
 
     db = sqlite3.connect(db_path)
@@ -352,15 +473,38 @@ def project_runtime_lesson_plan_payload(root: Path | str) -> dict[str, Any]:
                 )
 
         payload_json_valid = True
+        payload_source_parity = True
+        payload_source_parity_detail = "all SQLite payloads match source JSON and SHA256"
         try:
-            for (payload_json,) in db.execute(
-                "SELECT payload_json FROM lesson_plan_packages"
+            for source_path, payload_sha256, payload_json in db.execute(
+                "SELECT source_path,payload_sha256,payload_json FROM lesson_plan_packages"
             ):
-                json.loads(payload_json)
+                source = root / source_path
+                if not source.exists():
+                    payload_source_parity = False
+                    payload_source_parity_detail = f"missing source: {source_path}"
+                    break
+                source_payload = _read_json(source)
+                if payload_sha256 != _sha256(source):
+                    payload_source_parity = False
+                    payload_source_parity_detail = f"SHA mismatch: {source_path}"
+                    break
+                parsed_payload = json.loads(payload_json)
+                if parsed_payload != source_payload:
+                    payload_source_parity = False
+                    payload_source_parity_detail = f"payload mismatch: {source_path}"
+                    break
         except (TypeError, json.JSONDecodeError):
             payload_json_valid = False
+            payload_source_parity = False
+            payload_source_parity_detail = "payload_json parse failure"
 
         checks = [
+            (
+                "lesson plan validation seal",
+                True,
+                f"verified={verified_binding['content_fingerprint']}",
+            ),
             (
                 "lesson plan package count",
                 projected_count == expected_package_count,
@@ -382,6 +526,11 @@ def project_runtime_lesson_plan_payload(root: Path | str) -> dict[str, Any]:
                 "lesson plan payload JSON validity",
                 payload_json_valid,
                 "all payload_json rows parse",
+            ),
+            (
+                "lesson plan source payload parity",
+                payload_source_parity,
+                payload_source_parity_detail,
             ),
             (
                 "lesson plan foreign key integrity",
@@ -415,11 +564,23 @@ def project_runtime_lesson_plan_payload(root: Path | str) -> dict[str, Any]:
         ).get("output_schema") or "lesson_plan.schema.json"
         runtime_manifest["lesson_plan_package_count"] = projected_count
         runtime_manifest["lesson_plan_instruction_hours"] = projected_hours
+        runtime_manifest["lesson_plan_validation"] = {
+            "status": "VERIFIED",
+            "scope": "COURSE",
+            "binding_schema_version": verified_binding["schema_version"],
+            "binding_algorithm": verified_binding["algorithm"],
+            "content_fingerprint": verified_binding["content_fingerprint"],
+            "fingerprinted_files": verified_binding["fingerprinted_files"],
+            "validated_commit_sha": verified_binding["validated_commit_sha"],
+            "seal_path": validation_seal_path.relative_to(root).as_posix(),
+        }
         runtime_manifest["lesson_plan_capabilities"] = {
             "available": True,
             "package_payload_json": True,
             "block_package_navigation": True,
             "source_hash_per_package": True,
+            "source_payload_parity": True,
+            "validation_bound": True,
             "calendar_neutral": bool(
                 (production_plan.get("calendar_policy") or {}).get("calendar_neutral")
             ),
@@ -439,6 +600,7 @@ def project_runtime_lesson_plan_payload(root: Path | str) -> dict[str, Any]:
             "package_count": projected_count,
             "instruction_hours": projected_hours,
             "canonical_content_fingerprint": fingerprint,
+            "lesson_plan_validation_fingerprint": verified_binding["content_fingerprint"],
             "available": True,
         }
     finally:
