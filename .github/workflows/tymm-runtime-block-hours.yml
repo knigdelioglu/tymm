@@ -187,4 +187,7 @@ jobs:
           fi
           git commit -m 'feat(runtime): publish calendar-neutral lesson-plan payloads'
           git pull --rebase origin main
-          git push origin HEAD:main
+          PUBLISH_BRANCH='automation/tde9-runtime-sync'
+          git fetch origin "$PUBLISH_BRANCH" || true
+          git push --force-with-lease origin HEAD:"$PUBLISH_BRANCH"
+          echo "::notice::TDE9 derived outputs published to $PUBLISH_BRANCH; merge them through a pull request into protected main."

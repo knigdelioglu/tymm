@@ -272,7 +272,10 @@ jobs:
             git rebase origin/main
             python skill/tymm-material-planner/scripts/effective_knowledge_index.py status --knowledge-root courses/TDE_10
             python skill/tymm-material-planner/scripts/build_runtime_course_package.py status --knowledge-root courses/TDE_10
-            git push origin HEAD:main
+            PUBLISH_BRANCH='automation/tde10-runtime-sync'
+            git fetch origin "$PUBLISH_BRANCH" || true
+            git push --force-with-lease origin HEAD:"$PUBLISH_BRANCH"
+            echo "::notice::TDE10 derived outputs published to $PUBLISH_BRANCH; merge them through a pull request into protected main."
           fi
 
       - name: Upload P0 report
