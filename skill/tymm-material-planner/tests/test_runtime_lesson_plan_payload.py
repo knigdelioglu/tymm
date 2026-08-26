@@ -35,35 +35,17 @@ class RuntimeLessonPlanPayloadTests(unittest.TestCase):
         )
         return target
 
-    def _build_and_project(self, course_id: str) -> tuple[Path, dict, dict]:
+    def _build(self, course_id: str) -> tuple[Path, dict]:
         root = self._copy_course(course_id)
-        self.assertEqual(compiler.build(root)["status"], "PASS")
-        before = json.loads(
-            (root / "runtime/runtime_manifest.json").read_text(encoding="utf-8")
-        )
-        result = lesson_payload.project_runtime_lesson_plan_payload(root)
+        result = compiler.build(root)
         self.assertEqual(result["status"], "PASS")
-        after = json.loads(
+        manifest = json.loads(
             (root / "runtime/runtime_manifest.json").read_text(encoding="utf-8")
         )
-        return root, before, after
+        return root, manifest
 
-    def test_01_tde9_projects_88_packages_and_172_hours(self) -> None:
-        root, before, manifest = self._build_and_project("TDE_9")
-        self.assertEqual(
-            before["canonical_content_fingerprint"],
-            manifest["canonical_content_fingerprint"],
-        )
-        self.assertIn(
-            "planning/lesson_plan_production_plan.json",
-            before["canonical_source_hashes"],
-        )
-        self.assertTrue(
-            any(
-                path.startswith("generated/lesson_plans/")
-                for path in before["canonical_source_hashes"]
-            )
-        )
+    def test_01_tde9_build_projects_88_packages_and_172_hours(self) -> None:
+        root, manifest = self._build("TDE_9")
         self.assertEqual(manifest["schema_version"], "1.2.0")
         self.assertEqual(manifest["runtime_package_version"], "1.3.0")
         self.assertEqual(manifest["lesson_plan_package_count"], 88)
@@ -121,8 +103,8 @@ class RuntimeLessonPlanPayloadTests(unittest.TestCase):
         finally:
             db.close()
 
-    def test_02_tde10_projects_same_runtime_contract(self) -> None:
-        root, _, manifest = self._build_and_project("TDE_10")
+    def test_02_tde10_build_projects_same_runtime_contract(self) -> None:
+        root, manifest = self._build("TDE_10")
         self.assertEqual(manifest["lesson_plan_package_count"], 88)
         self.assertEqual(manifest["lesson_plan_instruction_hours"], 172)
         db = sqlite3.connect(root / "runtime/course_runtime.sqlite")
@@ -142,14 +124,26 @@ class RuntimeLessonPlanPayloadTests(unittest.TestCase):
         finally:
             db.close()
 
-    def test_03_missing_generated_package_fails_closed(self) -> None:
+    def test_03_missing_generated_package_fails_compiler_closed(self) -> None:
         root = self._copy_course("TDE_9")
         plans = sorted((root / "generated/lesson_plans").glob("*/*/*.json"))
         self.assertEqual(len(plans), 88)
         plans[-1].unlink()
-        self.assertEqual(compiler.build(root)["status"], "PASS")
         with self.assertRaises(ValueError):
-            lesson_payload.project_runtime_lesson_plan_payload(root)
+            compiler.build(root)
+
+    def test_04_projection_is_idempotent_after_compiler_build(self) -> None:
+        root, before = self._build("TDE_9")
+        result = lesson_payload.project_runtime_lesson_plan_payload(root)
+        self.assertEqual(result["status"], "PASS")
+        after = json.loads(
+            (root / "runtime/runtime_manifest.json").read_text(encoding="utf-8")
+        )
+        self.assertEqual(
+            before["canonical_content_fingerprint"],
+            after["canonical_content_fingerprint"],
+        )
+        self.assertEqual(after["row_counts"]["lesson_plan_packages"], 88)
 
 
 if __name__ == "__main__":
