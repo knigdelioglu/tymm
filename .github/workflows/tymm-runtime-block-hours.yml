@@ -85,15 +85,10 @@ jobs:
           python skill/tymm-material-planner/tests/test_lesson_plan_context.py
           python skill/tymm-material-planner/tests/test_lesson_plan_generator.py
 
-      - name: Build TDE9 and TDE10 runtime packages
+      - name: Build lesson-plan-aware TDE9 and TDE10 runtime packages
         run: |
           python skill/tymm-material-planner/scripts/build_runtime_course_package.py build --knowledge-root courses/TDE_9
           python skill/tymm-material-planner/scripts/build_runtime_course_package.py build --knowledge-root courses/TDE_10
-
-      - name: Project validated lesson-plan payloads
-        run: |
-          python skill/tymm-material-planner/scripts/runtime_lesson_plan_payload.py --knowledge-root courses/TDE_9
-          python skill/tymm-material-planner/scripts/runtime_lesson_plan_payload.py --knowledge-root courses/TDE_10
 
       - name: Verify calendar-neutral block-hour and lesson-plan projection
         run: |
@@ -175,7 +170,7 @@ jobs:
               assert request['mode'] == 'GENERATE', course
               assert request['immutable_identity']['lesson_hours'] == 2, course
               assert request['response_schema']['title'] == 'TYMM AI Lesson Plan V1', course
-              print(f'{course} calendar-neutral runtime + lesson-plan payload: PASS')
+              print(f'{course} compiler-integrated runtime + lesson-plan payload: PASS')
           PY
 
       - name: Publish TDE9 runtime and TDE9/TDE10 timelines
