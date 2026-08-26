@@ -122,6 +122,44 @@ def verify_report(
     }
 
 
+def _write_validation_seal(
+    root: Path,
+    course_id: str,
+    binding: dict[str, Any],
+    course_binding: dict[str, Any],
+    total_packages: int,
+    expected_hours: int,
+) -> Path:
+    seal_path = root / "planning" / validation_binding.VALIDATION_SEAL_FILENAME
+    validation_set_binding = {
+        key: binding[key]
+        for key in (
+            "schema_version",
+            "algorithm",
+            "content_fingerprint",
+            "fingerprinted_files",
+            "commit_sha",
+        )
+    }
+    write_json(
+        seal_path,
+        {
+            "schema_version": "1.0.0",
+            "seal_type": "LESSON_PLAN_COURSE_VALIDATION_SEAL",
+            "course_id": course_id,
+            "status": "PASS",
+            "scope": "FULL_GENERATED_LESSON_PLAN_SET",
+            "validated_packages": total_packages,
+            "validated_instruction_hours": expected_hours,
+            "failure_records": 0,
+            "warning_records": 0,
+            "validation_binding": course_binding,
+            "validation_set_binding": validation_set_binding,
+        },
+    )
+    return seal_path
+
+
 def finalize(
     root: Path,
     binding: dict[str, Any],
@@ -144,6 +182,12 @@ def finalize(
     last_completed = progress.get("last_completed")
     if not isinstance(last_completed, dict):
         raise ValueError("LAST_COMPLETED_MISSING")
+    if not isinstance(total_packages, int) or not isinstance(expected_hours, int):
+        raise ValueError("FINALIZATION_TOTALS_INVALID")
+
+    course_id = str(plan.get("course_id") or "")
+    if not course_id:
+        raise ValueError("FINALIZATION_COURSE_ID_MISSING")
 
     plan["status"] = "COMPLETED"
     last_completed["validation_status"] = "PASS"
@@ -176,14 +220,23 @@ def finalize(
         "course_validation_binding": course_binding,
     }
     write_json(path, plan)
+    seal_path = _write_validation_seal(
+        root,
+        course_id,
+        binding,
+        course_binding,
+        total_packages,
+        expected_hours,
+    )
     return {
-        "course_id": plan.get("course_id"),
+        "course_id": course_id,
         "status": plan.get("status"),
         "validated_packages": total_packages,
         "validated_instruction_hours": expected_hours,
         "validated_commit_sha": binding.get("commit_sha"),
         "content_fingerprint": binding.get("content_fingerprint"),
         "course_content_fingerprint": course_binding.get("content_fingerprint"),
+        "validation_seal": seal_path.as_posix(),
     }
 
 
