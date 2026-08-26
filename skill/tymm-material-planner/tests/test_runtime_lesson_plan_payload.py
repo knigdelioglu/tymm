@@ -56,12 +56,16 @@ class RuntimeLessonPlanPayloadTests(unittest.TestCase):
         self.assertTrue(manifest["lesson_plan_capabilities"]["source_payload_parity"])
         self.assertEqual(manifest["lesson_plan_validation"]["status"], "VERIFIED")
         self.assertEqual(manifest["lesson_plan_validation"]["scope"], "COURSE")
+        self.assertEqual(
+            manifest["lesson_plan_validation"]["seal_path"],
+            "planning/lesson_plan_validation_seal.json",
+        )
         self.assertEqual(manifest["row_counts"]["lesson_plan_packages"], 88)
         self.assertIn(
             "planning/lesson_plan_production_plan.json",
             manifest["canonical_source_hashes"],
         )
-        self.assertIn(
+        self.assertNotIn(
             "planning/lesson_plan_validation_seal.json",
             manifest["canonical_source_hashes"],
         )
