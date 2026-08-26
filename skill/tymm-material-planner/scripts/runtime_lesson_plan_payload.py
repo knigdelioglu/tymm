@@ -148,6 +148,10 @@ def _recompute_runtime_fingerprint(
     additional_hashes: dict[str, str],
 ) -> str:
     hashes = dict(runtime_manifest.get("canonical_source_hashes") or {})
+    # Validation seals are derived proof metadata, not canonical lesson-plan
+    # content. Keep them outside the runtime content fingerprint so freshness
+    # remains equal to compiler_state while the seal is verified separately.
+    hashes.pop(f"planning/{VALIDATION_SEAL_FILENAME}", None)
     hashes.update(additional_hashes)
     canonical = "\n".join(f"{key}:{hashes[key]}" for key in sorted(hashes))
     fingerprint = hashlib.sha256(canonical.encode("utf-8")).hexdigest()
@@ -334,7 +338,6 @@ def project_runtime_lesson_plan_payload(root: Path | str) -> dict[str, Any]:
     topology = _production_topology(production_plan)
     additional_hashes = {
         production_plan_path.relative_to(root).as_posix(): _sha256(production_plan_path),
-        validation_seal_path.relative_to(root).as_posix(): _sha256(validation_seal_path),
     }
 
     db = sqlite3.connect(db_path)
