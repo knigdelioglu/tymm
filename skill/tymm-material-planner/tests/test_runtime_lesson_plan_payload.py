@@ -52,9 +52,17 @@ class RuntimeLessonPlanPayloadTests(unittest.TestCase):
         self.assertEqual(manifest["lesson_plan_instruction_hours"], 172)
         self.assertTrue(manifest["lesson_plan_capabilities"]["available"])
         self.assertTrue(manifest["lesson_plan_capabilities"]["calendar_neutral"])
+        self.assertTrue(manifest["lesson_plan_capabilities"]["validation_bound"])
+        self.assertTrue(manifest["lesson_plan_capabilities"]["source_payload_parity"])
+        self.assertEqual(manifest["lesson_plan_validation"]["status"], "VERIFIED")
+        self.assertEqual(manifest["lesson_plan_validation"]["scope"], "COURSE")
         self.assertEqual(manifest["row_counts"]["lesson_plan_packages"], 88)
         self.assertIn(
             "planning/lesson_plan_production_plan.json",
+            manifest["canonical_source_hashes"],
+        )
+        self.assertIn(
+            "planning/lesson_plan_validation_seal.json",
             manifest["canonical_source_hashes"],
         )
 
@@ -89,6 +97,8 @@ class RuntimeLessonPlanPayloadTests(unittest.TestCase):
                 hashlib.sha256(source.read_bytes()).hexdigest(),
             )
             payload = json.loads(payload_json)
+            source_payload = json.loads(source.read_text(encoding="utf-8"))
+            self.assertEqual(payload, source_payload)
             self.assertEqual(payload["block_id"], block_id)
             self.assertEqual(payload["lesson_hours"], hours)
 
@@ -107,6 +117,7 @@ class RuntimeLessonPlanPayloadTests(unittest.TestCase):
         root, manifest = self._build("TDE_10")
         self.assertEqual(manifest["lesson_plan_package_count"], 88)
         self.assertEqual(manifest["lesson_plan_instruction_hours"], 172)
+        self.assertEqual(manifest["lesson_plan_validation"]["status"], "VERIFIED")
         db = sqlite3.connect(root / "runtime/course_runtime.sqlite")
         try:
             self.assertEqual(
@@ -144,6 +155,45 @@ class RuntimeLessonPlanPayloadTests(unittest.TestCase):
             after["canonical_content_fingerprint"],
         )
         self.assertEqual(after["row_counts"]["lesson_plan_packages"], 88)
+
+    def test_05_source_mutation_without_new_seal_fails_closed(self) -> None:
+        root = self._copy_course("TDE_9")
+        plan_path = sorted((root / "generated/lesson_plans").glob("*/*/*.json"))[0]
+        payload = json.loads(plan_path.read_text(encoding="utf-8"))
+        payload["plan_summary"] = payload["plan_summary"] + " "
+        plan_path.write_text(
+            json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        with self.assertRaisesRegex(
+            ValueError,
+            "RUNTIME_LESSON_PLAN_COURSE_VALIDATION_BINDING_MISMATCH:content_fingerprint",
+        ):
+            compiler.build(root)
+
+    def test_06_engineering_validation_counts_must_match_runtime_contract(self) -> None:
+        root = self._copy_course("TDE_9")
+        production_path = root / "planning/lesson_plan_production_plan.json"
+        production = json.loads(production_path.read_text(encoding="utf-8"))
+        production["engineering_validation"]["validated_packages"] = 87
+        production_path.write_text(
+            json.dumps(production, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        with self.assertRaisesRegex(
+            ValueError,
+            "RUNTIME_LESSON_PLAN_ENGINEERING_PACKAGE_COUNT_MISMATCH",
+        ):
+            compiler.build(root)
+
+    def test_07_missing_validation_seal_fails_closed(self) -> None:
+        root = self._copy_course("TDE_10")
+        (root / "planning/lesson_plan_validation_seal.json").unlink()
+        with self.assertRaisesRegex(
+            ValueError,
+            "RUNTIME_LESSON_PLAN_VALIDATION_SEAL_MISSING",
+        ):
+            compiler.build(root)
 
 
 if __name__ == "__main__":
