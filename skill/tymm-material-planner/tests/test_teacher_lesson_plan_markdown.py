@@ -34,10 +34,14 @@ class TeacherLessonPlanMarkdownTests(unittest.TestCase):
             "TDE_9/generated/lesson_plans/TEMA_01/BLOCK_T1_01_OKUMA/BLOCK_T1_01_OKUMA_P02.json"
         )
         self.assertIn("9. sınıf Türk Dili ve Edebiyatı", markdown)
-        self.assertIn("1. Tema: SÖZÜN İNCELİĞİ", markdown)
+        self.assertIn("1. Tema: Sözün İnceliği", markdown)
         self.assertIn("Güzel Sanatlar", markdown)
         self.assertNotIn("T1_ACT_04_GUZEL_SANATLAR_DISIPLINLER", markdown)
         self.assertNotIn("BLOCK_T1_01_OKUMA", markdown)
+        self.assertNotIn("T1_ACT_01-03", markdown)
+        self.assertNotIn("-03 tekrarlanmaz", markdown)
+        self.assertNotIn("ders saatlerinin boyunca", markdown)
+        self.assertNotIn(")'tür", markdown)
         self.assertNotIn("| Şema |", markdown)
         self.assertNotIn("Canonical referanslar", markdown)
         self.assertNotIn("artefakt", markdown.lower())
@@ -52,8 +56,7 @@ class TeacherLessonPlanMarkdownTests(unittest.TestCase):
         self.assertNotIn("T4_ACT_18_SIIR_DEGERLENDIRME", markdown)
         self.assertEqual(teacher_renderer.visible_technical_references(markdown), [])
 
-    def test_exporter_writes_88_teacher_documents_for_each_course(self) -> None:
-        # Count the canonical source topology without writing into the repository.
+    def test_exporter_source_topology_is_88_documents_per_course(self) -> None:
         for course_id in ("TDE_9", "TDE_10"):
             source_root = COURSES / course_id / "generated/lesson_plans"
             self.assertEqual(len(list(source_root.glob("*/*/*.json"))), 88)
