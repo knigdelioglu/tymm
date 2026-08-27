@@ -12,13 +12,16 @@ if str(SCRIPTS) not in sys.path:
 
 import teacher_facing_text  # noqa: E402
 
-ROOT = Path(__file__).resolve().parents[3] / "courses" / "TDE_9"
+COURSES = Path(__file__).resolve().parents[3] / "courses"
+ROOT9 = COURSES / "TDE_9"
+ROOT10 = COURSES / "TDE_10"
 
 
 class TeacherFacingTextTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
-        cls.catalog = teacher_facing_text.TeacherReferenceCatalog.from_knowledge_root(ROOT)
+        cls.catalog9 = teacher_facing_text.TeacherReferenceCatalog.from_knowledge_root(ROOT9)
+        cls.catalog10 = teacher_facing_text.TeacherReferenceCatalog.from_knowledge_root(ROOT10)
         cls.ranges = {1: (1, 2), 2: (3, 4), 3: (5, 6)}
 
     def fixture_plan(self) -> dict:
@@ -54,11 +57,10 @@ class TeacherFacingTextTests(unittest.TestCase):
         }
 
     def test_catalog_resolves_real_titles_pages_and_package_range(self) -> None:
-        plan = self.fixture_plan()
         text = teacher_facing_text.humanize_teacher_text(
             "P02'de T1_ACT_04, T1_ACT_05 ve BLOCK_T1_01_OKUMA ile devam et.",
-            plan=plan,
-            catalog=self.catalog,
+            plan=self.fixture_plan(),
+            catalog=self.catalog9,
             package_ranges=self.ranges,
         )
         self.assertIn("3–4. ders saatlerinde", text)
@@ -73,12 +75,47 @@ class TeacherFacingTextTests(unittest.TestCase):
         self.assertIn("1. Tema Okuma Bloğu: Şiir ve Deneme Metin Tahlili", text)
         self.assertIsNone(teacher_facing_text.TECHNICAL_REFERENCE_RE.search(text))
 
+    def test_package_range_is_one_readable_lesson_hour_reference(self) -> None:
+        text = teacher_facing_text.humanize_teacher_text(
+            "P01-P02 notlarını karşılaştır.",
+            plan=self.fixture_plan(),
+            catalog=self.catalog9,
+            package_ranges=self.ranges,
+        )
+        self.assertEqual(text, "1–4. ders saatlerindeki notlarını karşılaştır.")
+
+    def test_cross_block_package_reference_resolves_from_generated_catalog(self) -> None:
+        text = teacher_facing_text.humanize_teacher_text(
+            "BLOCK_T1_02_DINLEME_P01 ile devam et.",
+            plan=self.fixture_plan(),
+            catalog=self.catalog9,
+            package_ranges=self.ranges,
+        )
+        self.assertNotIn("BLOCK_", text)
+        self.assertIn("ders saat", text)
+
+    def test_tde10_activity_title_schema_and_canonical_form_registry_are_supported(self) -> None:
+        plan = {
+            "course_id": "TDE_10",
+            "theme_id": "TEMA_01",
+            "block_id": "BLOCK_T1_01_OKUMA",
+        }
+        text = teacher_facing_text.humanize_teacher_text(
+            "T1_ACT_01_KOSUK_HAZIRLIK ve FORM_T10_T1_KONUSMA_DPA_CANONICAL kullanılır.",
+            plan=plan,
+            catalog=self.catalog10,
+            package_ranges=self.ranges,
+        )
+        self.assertIn("Sıra Sizde (ders kitabı s. 13-16)", text)
+        self.assertIn("Şiir Dinletisi değerlendirme formu", text)
+        self.assertIsNone(teacher_facing_text.TECHNICAL_REFERENCE_RE.search(text))
+
     def test_normalization_changes_prose_but_preserves_structured_ids(self) -> None:
         plan = self.fixture_plan()
         original = copy.deepcopy(plan)
         normalized = teacher_facing_text.normalize_teacher_facing_text(
             plan,
-            catalog=self.catalog,
+            catalog=self.catalog9,
             package_ranges=self.ranges,
         )
         self.assertEqual(normalized["course_id"], original["course_id"])
@@ -107,7 +144,7 @@ class TeacherFacingTextTests(unittest.TestCase):
             teacher_facing_text.humanize_teacher_text(
                 "T9_ACT_99_BILINMEYEN etkinliğini uygula.",
                 plan=self.fixture_plan(),
-                catalog=self.catalog,
+                catalog=self.catalog9,
                 package_ranges=self.ranges,
             )
 
