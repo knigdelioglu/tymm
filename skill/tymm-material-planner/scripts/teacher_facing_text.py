@@ -639,23 +639,6 @@ def iter_teacher_facing_strings(plan: dict[str, Any]) -> Iterable[tuple[str, str
             elif isinstance(value, str):
                 yield path, value
 
-    grounding = plan.get("grounded_references")
-    if isinstance(grounding, dict):
-        for group_name in (
-            "form_refs",
-            "assessment_artifact_refs",
-            "resource_refs",
-        ):
-            group = grounding.get(group_name)
-            if not isinstance(group, list):
-                continue
-            for index, item in enumerate(group):
-                if isinstance(item, dict) and isinstance(item.get("usage"), str):
-                    yield (
-                        f"grounded_references.{group_name}[{index}].usage",
-                        item["usage"],
-                    )
-
 
 def teacher_facing_validation_errors(plan: dict[str, Any]) -> list[str]:
     errors: list[str] = []
@@ -750,20 +733,6 @@ def normalize_teacher_facing_text(
             return value
 
         result["classroom_adaptations"] = normalize_nested(adaptations)
-
-    grounding = result.get("grounded_references")
-    if isinstance(grounding, dict):
-        for group_name in (
-            "form_refs",
-            "assessment_artifact_refs",
-            "resource_refs",
-        ):
-            group = grounding.get(group_name)
-            if not isinstance(group, list):
-                continue
-            for item in group:
-                if isinstance(item, dict) and isinstance(item.get("usage"), str):
-                    item["usage"] = humanize(item["usage"])
 
     errors = teacher_facing_validation_errors(result)
     if errors:
