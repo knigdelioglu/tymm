@@ -43,19 +43,26 @@ jobs:
           old = 'PACKAGE_RE = re.compile(r"\\bP(\\d{2})\\b", re.IGNORECASE)\n'
           new = old + 'PACKAGE_RANGE_RE = re.compile(r"\\bP(\\d{2})\\s*[-–—]\\s*P(\\d{2})\\b", re.IGNORECASE)\n'
           if 'PACKAGE_RANGE_RE' not in text:
+              if old not in text:
+                  raise SystemExit('PACKAGE_RANGE_REGEX_ANCHOR_MISSING')
               text = text.replace(old, new, 1)
-          old = '    value = PACKAGE_LOCATIVE_RE.sub(replace_locative, value)\n    value = PACKAGE_RE.sub(replace_package, value)\n'
-          new = '''    def replace_package_range(match: re.Match[str]) -> str:
-              first = package_ranges.get(int(match.group(1)))
-              last = package_ranges.get(int(match.group(2)))
-              if first is None or last is None or first[0] > last[1]:
-                  return match.group(0)
-              return f"{first[0]}–{last[1]}. ders saatleri"
 
-          value = PACKAGE_RANGE_RE.sub(replace_package_range, value)
-          value = PACKAGE_LOCATIVE_RE.sub(replace_locative, value)
-          value = PACKAGE_RE.sub(replace_package, value)
-          '''
+          old = (
+              '    value = PACKAGE_LOCATIVE_RE.sub(replace_locative, value)\n'
+              '    value = PACKAGE_RE.sub(replace_package, value)\n'
+          )
+          new = (
+              '    def replace_package_range(match: re.Match[str]) -> str:\n'
+              '        first = package_ranges.get(int(match.group(1)))\n'
+              '        last = package_ranges.get(int(match.group(2)))\n'
+              '        if first is None or last is None or first[0] > last[1]:\n'
+              '            return match.group(0)\n'
+              '        return f"{first[0]}–{last[1]}. ders saatleri"\n'
+              '\n'
+              '    value = PACKAGE_RANGE_RE.sub(replace_package_range, value)\n'
+              '    value = PACKAGE_LOCATIVE_RE.sub(replace_locative, value)\n'
+              '    value = PACKAGE_RE.sub(replace_package, value)\n'
+          )
           if 'value = PACKAGE_RANGE_RE.sub' not in text:
               if old not in text:
                   raise SystemExit('PACKAGE_RANGE_PATCH_ANCHOR_MISSING')
