@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate all generated TYMM lesson plans for schema, grounding, parity and package completeness."""
+"""Validate all generated TYMM lesson plans for schema, grounding, display projection, parity and package completeness."""
 from __future__ import annotations
 
 import argparse
@@ -34,6 +34,7 @@ def format_schema_error(error: Any) -> str:
 
 
 def validate_course(root: Path, schema_validator: Draft202012Validator) -> dict[str, Any]:
+    root = root.resolve()
     plan_meta_path = root / "planning/lesson_plan_production_plan.json"
     production = read_json(plan_meta_path)
     generated_root = root / "generated/lesson_plans"
@@ -45,6 +46,9 @@ def validate_course(root: Path, schema_validator: Draft202012Validator) -> dict[
     failures: list[dict[str, Any]] = []
     warnings: list[dict[str, Any]] = []
     total_hours = 0
+
+    teacher_catalog = teacher_facing_text.TeacherReferenceCatalog.from_knowledge_root(root)
+    package_range_cache: dict[str, dict[int, teacher_facing_text.PackageRange]] = {}
 
     json_stems = {path.with_suffix("").relative_to(generated_root).as_posix() for path in json_files}
     markdown_stems = {path.with_suffix("").relative_to(generated_root).as_posix() for path in markdown_files}
@@ -77,16 +81,6 @@ def validate_course(root: Path, schema_validator: Draft202012Validator) -> dict[
                 }
             )
 
-        teacher_prose_errors = teacher_facing_text.teacher_facing_validation_errors(plan)
-        if teacher_prose_errors:
-            failures.append(
-                {
-                    "path": relative,
-                    "stage": "teacher_facing_text",
-                    "errors": teacher_prose_errors,
-                }
-            )
-
         block_id = plan.get("block_id")
         lesson_hours = plan.get("lesson_hours")
         if not isinstance(block_id, str) or not isinstance(lesson_hours, int):
@@ -98,6 +92,44 @@ def validate_course(root: Path, schema_validator: Draft202012Validator) -> dict[
                 }
             )
             continue
+
+        # Canonical source prose may contain canonical IDs because those IDs are
+        # useful for grounding and audit. The teacher-facing contract is instead
+        # that every such reference must deterministically resolve before it is
+        # rendered/exported/runtime-projected.
+        try:
+            ranges = package_range_cache.get(block_id)
+            if ranges is None:
+                ranges = teacher_facing_text.package_ranges_for_block(plan_path.parent)
+                package_range_cache[block_id] = ranges
+            teacher_projection = teacher_facing_text.normalize_teacher_facing_text(
+                plan,
+                catalog=teacher_catalog,
+                package_ranges=ranges,
+            )
+            projection_errors = teacher_facing_text.teacher_facing_validation_errors(
+                teacher_projection
+            )
+            if projection_errors:
+                failures.append(
+                    {
+                        "path": relative,
+                        "stage": "teacher_facing_projection",
+                        "errors": projection_errors,
+                    }
+                )
+        except (
+            OSError,
+            json.JSONDecodeError,
+            teacher_facing_text.TeacherFacingTextError,
+        ) as exc:
+            failures.append(
+                {
+                    "path": relative,
+                    "stage": "teacher_facing_projection",
+                    "errors": [str(exc)],
+                }
+            )
 
         try:
             context = lesson_plan_context.assemble(root, block_id, lesson_hours)
@@ -168,6 +200,9 @@ def validate_course(root: Path, schema_validator: Draft202012Validator) -> dict[
         "expected_package_count": expected_packages,
         "lesson_hours": total_hours,
         "expected_lesson_hours": expected_hours,
+        "teacher_facing_projection": "PASS" if not any(
+            failure.get("stage") == "teacher_facing_projection" for failure in failures
+        ) else "FAIL",
         "failures": failures,
         "warnings": warnings,
     }
@@ -208,6 +243,9 @@ def main() -> int:
             "packages": sum(report["package_count"] for report in reports),
             "markdown_packages": sum(report["markdown_package_count"] for report in reports),
             "lesson_hours": sum(report["lesson_hours"] for report in reports),
+            "teacher_facing_projection_pass": all(
+                report["teacher_facing_projection"] == "PASS" for report in reports
+            ),
             "failure_records": sum(len(report["failures"]) for report in reports),
             "warning_records": sum(len(report["warnings"]) for report in reports),
         },
