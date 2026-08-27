@@ -74,6 +74,7 @@ PACKAGE_RE = re.compile(r"\bP(\d{1,2})\b", re.IGNORECASE)
 
 ACTIVITY_SHORT_RE = re.compile(r"^(T\d+_ACT_\d+)(?:_|$)", re.IGNORECASE)
 FORM_SHORT_RE = re.compile(r"^(FORM_[A-Z]+_\d+)(?:_|$)", re.IGNORECASE)
+RESOURCE_SHORT_RE = re.compile(r"^(RES_T\d+_\d+)(?:_|$)", re.IGNORECASE)
 PACKAGE_FILE_RE = re.compile(r"_P(\d{2})\.json$", re.IGNORECASE)
 COURSE_ID_RE = re.compile(r"\bTDE_(\d+)\b", re.IGNORECASE)
 THEME_PREFIX_RE = re.compile(r"^\s*\d+\.\s*TEMA\s*:\s*", re.IGNORECASE)
@@ -88,6 +89,7 @@ ENUM_LABELS = {
     "MEDIA_DEPENDENT": "medya gerektiren",
     "LIVE_PERFORMANCE": "canlı performans",
     "REVIEW_REQUIRED": "öğretmen incelemesi gereken",
+    "REFERENCE_ONLY": "yalnızca başvuru amacıyla",
     "DIGITAL_TOOL": "dijital araç",
     "VIDEO": "video",
 }
@@ -103,6 +105,10 @@ TEACHER_TERM_REPLACEMENTS: tuple[tuple[re.Pattern[str], str], ...] = (
     (re.compile(r"\balignment\b", re.IGNORECASE), "program eşleştirmesi"),
     (re.compile(r"\bcanonical\b", re.IGNORECASE), "tanımlı"),
     (re.compile(r"\bfirst-class\b", re.IGNORECASE), "temel"),
+    (re.compile(r"\bassessment_criteria_table\b", re.IGNORECASE), "değerlendirme ölçütleri tablosu"),
+    (re.compile(r"\banalytic_rubric\b", re.IGNORECASE), "analitik dereceli puanlama anahtarı"),
+    (re.compile(r"\bassessment_gate_audit\b", re.IGNORECASE), "değerlendirme uygunluk denetimi"),
+    (re.compile(r"\bvalidate_lesson_plan\b", re.IGNORECASE), "ders planı doğrulaması"),
     (re.compile(r"\bclosure_time_budgets\.json\b", re.IGNORECASE), "tema kapanışı süre planı"),
     (re.compile(r"\brequired_segments\b", re.IGNORECASE), "zorunlu bölümler"),
     (re.compile(r"\boptional_extensions\b", re.IGNORECASE), "isteğe bağlı genişletmeler"),
@@ -241,6 +247,7 @@ class TeacherReferenceCatalog:
     form_aliases: dict[str, str]
     artifacts: dict[str, str]
     resources: dict[str, str]
+    resource_aliases: dict[str, str]
     sections: dict[str, str]
     texts: dict[str, str]
 
@@ -420,6 +427,7 @@ class TeacherReferenceCatalog:
             form_aliases=_unique_aliases(forms, FORM_SHORT_RE),
             artifacts=artifacts,
             resources=resources,
+            resource_aliases=_unique_aliases(resources, RESOURCE_SHORT_RE),
             sections=sections,
             texts=texts,
         )
@@ -436,6 +444,7 @@ class TeacherReferenceCatalog:
         result.update(self.form_aliases)
         result.update(self.artifacts)
         result.update(self.resources)
+        result.update(self.resource_aliases)
         result.update(self.sections)
         result.update(self.texts)
         result.update(self.blocks)
