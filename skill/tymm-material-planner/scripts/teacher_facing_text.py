@@ -3,7 +3,7 @@
 
 Canonical IDs remain authoritative in structured JSON fields. Only prose is
 humanized, and labels come from verified course metadata rather than a manual
-translation table.
+per-plan translation table.
 """
 from __future__ import annotations
 
@@ -16,31 +16,97 @@ from typing import Any, Iterable
 
 
 TECHNICAL_REFERENCE_RE = re.compile(
-    r"\b(?:"
-    r"TDE_\d+|"
-    r"TEMA_\d+|"
-    r"BLOCK_[A-Z0-9_]+|"
-    r"T\d+_(?:ACT|SEC|TXT)_[A-Z0-9_]+|"
-    r"FORM_[A-Z0-9_]+|"
-    r"P\d{2}"
-    r")\b",
+    r"\b(?:P\d{1,2}|[A-Z][A-Z0-9]+(?:_[A-Z0-9]+)+)\b",
     re.IGNORECASE,
 )
-PACKAGE_RANGE_RE = re.compile(
-    r"\bP(\d{2})\s*[-–—]\s*P(\d{2})\b",
+PACKAGE_RANGE_CORE = r"P(\d{1,2})\s*[-–—/]\s*P(\d{1,2})"
+PACKAGE_RANGE_ATTR_RE = re.compile(
+    rf"\b{PACKAGE_RANGE_CORE}['’]?(?:deki|daki|teki|taki)\b",
+    re.IGNORECASE,
+)
+PACKAGE_RANGE_LOCATIVE_RE = re.compile(
+    rf"\b{PACKAGE_RANGE_CORE}['’]?(?:de|da|te|ta)\b",
+    re.IGNORECASE,
+)
+PACKAGE_RANGE_ABLATIVE_RE = re.compile(
+    rf"\b{PACKAGE_RANGE_CORE}['’]?(?:den|dan|ten|tan)\b",
+    re.IGNORECASE,
+)
+PACKAGE_RANGE_DATIVE_RE = re.compile(
+    rf"\b{PACKAGE_RANGE_CORE}['’]?(?:ye|ya|e|a)\b",
+    re.IGNORECASE,
+)
+PACKAGE_RANGE_GENITIVE_RE = re.compile(
+    rf"\b{PACKAGE_RANGE_CORE}['’]?(?:nin|nın|nun|nün|in|ın|un|ün)\b",
+    re.IGNORECASE,
+)
+PACKAGE_RANGE_ACCUSATIVE_RE = re.compile(
+    rf"\b{PACKAGE_RANGE_CORE}['’]?(?:yi|yı|yu|yü|i|ı|u|ü)\b",
+    re.IGNORECASE,
+)
+PACKAGE_RANGE_RE = re.compile(rf"\b{PACKAGE_RANGE_CORE}\b", re.IGNORECASE)
+
+PACKAGE_ATTR_RE = re.compile(
+    r"\bP(\d{1,2})['’]?(?:deki|daki|teki|taki)\b",
     re.IGNORECASE,
 )
 PACKAGE_LOCATIVE_RE = re.compile(
-    r"\bP(\d{2})['’]?(?:de|da|te|ta)\b",
+    r"\bP(\d{1,2})['’]?(?:de|da|te|ta)\b",
     re.IGNORECASE,
 )
-PACKAGE_RE = re.compile(r"\bP(\d{2})\b", re.IGNORECASE)
+PACKAGE_ABLATIVE_RE = re.compile(
+    r"\bP(\d{1,2})['’]?(?:den|dan|ten|tan)\b",
+    re.IGNORECASE,
+)
+PACKAGE_DATIVE_RE = re.compile(
+    r"\bP(\d{1,2})['’]?(?:ye|ya|e|a)\b",
+    re.IGNORECASE,
+)
+PACKAGE_GENITIVE_RE = re.compile(
+    r"\bP(\d{1,2})['’]?(?:nin|nın|nun|nün|in|ın|un|ün)\b",
+    re.IGNORECASE,
+)
+PACKAGE_ACCUSATIVE_RE = re.compile(
+    r"\bP(\d{1,2})['’]?(?:yi|yı|yu|yü|i|ı|u|ü)\b",
+    re.IGNORECASE,
+)
+PACKAGE_RE = re.compile(r"\bP(\d{1,2})\b", re.IGNORECASE)
+
 ACTIVITY_SHORT_RE = re.compile(r"^(T\d+_ACT_\d+)(?:_|$)", re.IGNORECASE)
 FORM_SHORT_RE = re.compile(r"^(FORM_[A-Z]+_\d+)(?:_|$)", re.IGNORECASE)
 PACKAGE_FILE_RE = re.compile(r"_P(\d{2})\.json$", re.IGNORECASE)
 COURSE_ID_RE = re.compile(r"\bTDE_(\d+)\b", re.IGNORECASE)
 THEME_PREFIX_RE = re.compile(r"^\s*\d+\.\s*TEMA\s*:\s*", re.IGNORECASE)
 REGISTRY_PAGE_RE = re.compile(r"Ders kitabı\s+s\.\s*([^;]+)", re.IGNORECASE)
+DUPLICATE_PAGE_RE = re.compile(
+    r"(\(ders kitabı s\.\s*[^)]+\))\s*[—-]\s*ders kitabı s\.\s*"
+    r"\d+(?:\s*[-–—]\s*\d+)?",
+    re.IGNORECASE,
+)
+
+ENUM_LABELS = {
+    "MEDIA_DEPENDENT": "medya gerektiren",
+    "LIVE_PERFORMANCE": "canlı performans",
+    "REVIEW_REQUIRED": "öğretmen incelemesi gereken",
+    "DIGITAL_TOOL": "dijital araç",
+    "VIDEO": "video",
+}
+
+TEACHER_TERM_REPLACEMENTS: tuple[tuple[re.Pattern[str], str], ...] = (
+    (re.compile(r"\bfresh-read edilmeden\b", re.IGNORECASE), "yeniden okunmadan"),
+    (re.compile(r"\blesson plan\b", re.IGNORECASE), "ders planı"),
+    (re.compile(r"\bteaching block\b", re.IGNORECASE), "öğretim bloğu"),
+    (re.compile(r"\bmaster sıra\b", re.IGNORECASE), "ana üretim sırası"),
+    (re.compile(r"\bcursor\b", re.IGNORECASE), "üretim konumu"),
+    (re.compile(r"\bsummative\b", re.IGNORECASE), "sonuç değerlendirme"),
+    (re.compile(r"\bapproved\b", re.IGNORECASE), "onaylanmış"),
+    (re.compile(r"\balignment\b", re.IGNORECASE), "program eşleştirmesi"),
+    (re.compile(r"\bcanonical\b", re.IGNORECASE), "tanımlı"),
+    (re.compile(r"\bfirst-class\b", re.IGNORECASE), "temel"),
+    (re.compile(r"\bclosure_time_budgets\.json\b", re.IGNORECASE), "tema kapanışı süre planı"),
+    (re.compile(r"\brequired_segments\b", re.IGNORECASE), "zorunlu bölümler"),
+    (re.compile(r"\boptional_extensions\b", re.IGNORECASE), "isteğe bağlı genişletmeler"),
+)
 
 
 class TeacherFacingTextError(ValueError):
@@ -87,7 +153,10 @@ def _theme_label(theme_no: Any, title: str) -> str:
     return cleaned or title
 
 
-def _unique_aliases(values: dict[str, str], pattern: re.Pattern[str]) -> dict[str, str]:
+def _unique_aliases(
+    values: dict[str, str],
+    pattern: re.Pattern[str],
+) -> dict[str, str]:
     candidates: dict[str, set[str]] = {}
     for key, label in values.items():
         match = pattern.match(key)
@@ -103,6 +172,19 @@ def _unique_aliases(values: dict[str, str], pattern: re.Pattern[str]) -> dict[st
 def _registry_page(locator: Any) -> str | None:
     match = REGISTRY_PAGE_RE.search(_string(locator))
     return match.group(1).strip() if match else None
+
+
+def _generic_resource_label(resource: dict[str, Any]) -> str:
+    resource_type = _string(resource.get("resource_type")).lower()
+    if "assessment" in resource_type:
+        return "ilgili değerlendirme desteği"
+    if "differ" in resource_type:
+        return "ilgili farklılaştırma desteği"
+    if "enrich" in resource_type:
+        return "ilgili zenginleştirme materyali"
+    if "guide" in resource_type:
+        return "ilgili öğretmen rehberi"
+    return "ilgili öğretim materyali"
 
 
 PackageRange = tuple[int, int]
@@ -127,10 +209,24 @@ def package_ranges_for_block(block_dir: Path) -> dict[int, PackageRange]:
     return ranges
 
 
-def teacher_lesson_hour_range(start: int, end: int, *, locative: bool = False) -> str:
-    if locative:
-        return f"{start}. ders saatinde" if start == end else f"{start}–{end}. ders saatlerinde"
-    return f"{start}. ders saati" if start == end else f"{start}–{end}. ders saatleri"
+def teacher_lesson_hour_range(
+    start: int,
+    end: int,
+    *,
+    grammatical_case: str = "plain",
+) -> str:
+    singular = start == end
+    prefix = f"{start}." if singular else f"{start}–{end}."
+    forms = {
+        "plain": "ders saati" if singular else "ders saatleri",
+        "locative": "ders saatinde" if singular else "ders saatlerinde",
+        "attributive": "ders saatindeki" if singular else "ders saatlerindeki",
+        "ablative": "ders saatinden" if singular else "ders saatlerinden",
+        "dative": "ders saatine" if singular else "ders saatlerine",
+        "genitive": "ders saatinin" if singular else "ders saatlerinin",
+        "accusative": "ders saatini" if singular else "ders saatlerini",
+    }
+    return f"{prefix} {forms[grammatical_case]}"
 
 
 @dataclass(frozen=True)
@@ -143,6 +239,8 @@ class TeacherReferenceCatalog:
     activity_aliases: dict[str, str]
     forms: dict[str, str]
     form_aliases: dict[str, str]
+    artifacts: dict[str, str]
+    resources: dict[str, str]
     sections: dict[str, str]
     texts: dict[str, str]
 
@@ -152,10 +250,25 @@ class TeacherReferenceCatalog:
         textbook = read_json(root / "textbook_map.json")
         forms_index = read_json(root / "textbook_forms_index.json")
         teaching_blocks = read_json(root / "production/teaching_blocks.json")
-        form_registry = _read_optional_json(root / "production/assessment_form_registry.json")
+        form_registry = _read_optional_json(
+            root / "production/assessment_form_registry.json"
+        )
+        artifact_registry = _read_optional_json(
+            root / "production/assessment_artifact_registry.json"
+        )
+        production_manifest = _read_optional_json(
+            root / "production/production_manifest.json"
+        )
+        resource_plan = _read_optional_json(
+            root / "production/consolidated_resource_plan.json"
+        )
 
         grade = teaching_blocks.get("grade") or textbook.get("grade")
-        course_title = _string(teaching_blocks.get("course_title")) or _string(textbook.get("course_title")) or "Türk Dili ve Edebiyatı"
+        course_title = (
+            _string(teaching_blocks.get("course_title"))
+            or _string(textbook.get("course_title"))
+            or "Türk Dili ve Edebiyatı"
+        )
         course_label = f"{grade}. sınıf {course_title}" if grade else course_title
 
         themes: dict[str, str] = {}
@@ -191,7 +304,10 @@ class TeacherReferenceCatalog:
                     author = _string(text.get("author"))
                     if text_id and title:
                         readable = f"{title} — {author}" if author else title
-                        texts[text_id] = _with_page(readable, text.get("printed_page"))
+                        texts[text_id] = _with_page(
+                            readable,
+                            text.get("printed_page"),
+                        )
 
                 for activity in section.get("activities", []):
                     if not isinstance(activity, dict):
@@ -214,9 +330,14 @@ class TeacherReferenceCatalog:
             if not isinstance(form, dict):
                 continue
             form_id = _string(form.get("form_id"))
-            title = _string(form.get("title")) or _string(form.get("printed_title"))
+            title = _string(form.get("title")) or _string(
+                form.get("printed_title")
+            )
             if form_id and title:
-                forms[form_id] = _with_page(title, form.get("printed_page"))
+                forms[form_id] = _with_page(
+                    title,
+                    form.get("printed_page"),
+                )
 
         for form in form_registry.get("forms", []):
             if not isinstance(form, dict):
@@ -242,16 +363,50 @@ class TeacherReferenceCatalog:
             if block_id and title:
                 blocks[block_id] = title
 
+        artifacts: dict[str, str] = {}
+        resources: dict[str, str] = {}
+        for item in production_manifest.get("production_queue", []):
+            if not isinstance(item, dict):
+                continue
+            artifact_id = _string(item.get("artifact_id"))
+            title = _string(item.get("title"))
+            if artifact_id and title:
+                artifacts[artifact_id] = title
+                for resource_id in item.get("resource_plan_ids", []):
+                    if isinstance(resource_id, str):
+                        resources[resource_id] = title
+
+        for item in artifact_registry.get("annual_artifacts", []):
+            if not isinstance(item, dict):
+                continue
+            artifact_id = _string(item.get("artifact_id"))
+            title = _string(item.get("title"))
+            if artifact_id and title:
+                artifacts.setdefault(artifact_id, title)
+
+        for item in resource_plan.get("resources", []):
+            if not isinstance(item, dict):
+                continue
+            resource_id = _string(item.get("resource_id"))
+            if resource_id:
+                resources.setdefault(resource_id, _generic_resource_label(item))
+            for alias in item.get("resource_plan_ids", []):
+                if isinstance(alias, str) and alias:
+                    resources.setdefault(alias, resources.get(resource_id, "ilgili öğretim materyali"))
+
         package_refs: dict[str, str] = {}
         generated = root / "generated/lesson_plans"
         if generated.exists():
-            for block_dir in sorted(path for path in generated.glob("*/*") if path.is_dir()):
+            for block_dir in sorted(
+                path for path in generated.glob("*/*") if path.is_dir()
+            ):
                 ranges = package_ranges_for_block(block_dir)
                 block_id = block_dir.name
                 block_label = blocks.get(block_id, "Ders planı bölümü")
                 for package_no, (start, end) in ranges.items():
                     package_refs[f"{block_id}_P{package_no:02d}"] = (
-                        f"{block_label} · {teacher_lesson_hour_range(start, end)}"
+                        f"{block_label} · "
+                        f"{teacher_lesson_hour_range(start, end)}"
                     )
 
         return cls(
@@ -263,6 +418,8 @@ class TeacherReferenceCatalog:
             activity_aliases=_unique_aliases(activities, ACTIVITY_SHORT_RE),
             forms=forms,
             form_aliases=_unique_aliases(forms, FORM_SHORT_RE),
+            artifacts=artifacts,
+            resources=resources,
             sections=sections,
             texts=texts,
         )
@@ -277,6 +434,8 @@ class TeacherReferenceCatalog:
         result.update(self.activity_aliases)
         result.update(self.forms)
         result.update(self.form_aliases)
+        result.update(self.artifacts)
+        result.update(self.resources)
         result.update(self.sections)
         result.update(self.texts)
         result.update(self.blocks)
@@ -284,16 +443,43 @@ class TeacherReferenceCatalog:
         return result
 
 
-def _package_label(
+def _package_case_label(
     package_no: int,
     ranges: dict[int, PackageRange],
-    *,
-    locative: bool,
+    grammatical_case: str,
 ) -> str | None:
     value = ranges.get(package_no)
     if value is None:
         return None
-    return teacher_lesson_hour_range(value[0], value[1], locative=locative)
+    return teacher_lesson_hour_range(
+        value[0],
+        value[1],
+        grammatical_case=grammatical_case,
+    )
+
+
+def _range_case_label(
+    match: re.Match[str],
+    ranges: dict[int, PackageRange],
+    grammatical_case: str,
+) -> str | None:
+    first = ranges.get(int(match.group(1)))
+    last = ranges.get(int(match.group(2)))
+    if first is None or last is None or first[0] > last[1]:
+        return None
+    return teacher_lesson_hour_range(
+        first[0],
+        last[1],
+        grammatical_case=grammatical_case,
+    )
+
+
+def _apply_teacher_terms(value: str) -> str:
+    for token, label in ENUM_LABELS.items():
+        value = re.sub(rf"\b{re.escape(token)}\b", label, value)
+    for pattern, replacement in TEACHER_TERM_REPLACEMENTS:
+        value = pattern.sub(replacement, value)
+    return DUPLICATE_PAGE_RE.sub(r"\1", value)
 
 
 def humanize_teacher_text(
@@ -313,33 +499,46 @@ def humanize_teacher_text(
         value,
     )
 
-    def replace_range(match: re.Match[str]) -> str:
-        first = package_ranges.get(int(match.group(1)))
-        last = package_ranges.get(int(match.group(2)))
-        if first is None or last is None or first[0] > last[1]:
-            return "ilgili ders planlarının"
-        return f"{first[0]}–{last[1]}. ders saatlerindeki"
-
-    def replace_locative(match: re.Match[str]) -> str:
-        label = _package_label(
-            int(match.group(1)),
-            package_ranges,
-            locative=True,
+    range_cases: tuple[tuple[re.Pattern[str], str, str], ...] = (
+        (PACKAGE_RANGE_ATTR_RE, "attributive", "ilgili ders planlarındaki"),
+        (PACKAGE_RANGE_LOCATIVE_RE, "locative", "ilgili ders planlarında"),
+        (PACKAGE_RANGE_ABLATIVE_RE, "ablative", "ilgili ders planlarından"),
+        (PACKAGE_RANGE_DATIVE_RE, "dative", "ilgili ders planlarına"),
+        (PACKAGE_RANGE_GENITIVE_RE, "genitive", "ilgili ders planlarının"),
+        (PACKAGE_RANGE_ACCUSATIVE_RE, "accusative", "ilgili ders planlarını"),
+        (PACKAGE_RANGE_RE, "genitive", "ilgili ders planlarının"),
+    )
+    for pattern, grammatical_case, fallback in range_cases:
+        value = pattern.sub(
+            lambda match, case=grammatical_case, default=fallback: (
+                _range_case_label(match, package_ranges, case) or default
+            ),
+            value,
         )
-        return label or "ilgili ders planında"
 
-    def replace_package(match: re.Match[str]) -> str:
-        label = _package_label(
-            int(match.group(1)),
-            package_ranges,
-            locative=False,
+    package_cases: tuple[tuple[re.Pattern[str], str, str], ...] = (
+        (PACKAGE_ATTR_RE, "attributive", "ilgili ders planındaki"),
+        (PACKAGE_LOCATIVE_RE, "locative", "ilgili ders planında"),
+        (PACKAGE_ABLATIVE_RE, "ablative", "ilgili ders planından"),
+        (PACKAGE_DATIVE_RE, "dative", "ilgili ders planına"),
+        (PACKAGE_GENITIVE_RE, "genitive", "ilgili ders planının"),
+        (PACKAGE_ACCUSATIVE_RE, "accusative", "ilgili ders planını"),
+        (PACKAGE_RE, "plain", "ilgili ders planı"),
+    )
+    for pattern, grammatical_case, fallback in package_cases:
+        value = pattern.sub(
+            lambda match, case=grammatical_case, default=fallback: (
+                _package_case_label(
+                    int(match.group(1)),
+                    package_ranges,
+                    case,
+                )
+                or default
+            ),
+            value,
         )
-        return label or "ilgili ders planı"
 
-    value = PACKAGE_RANGE_RE.sub(replace_range, value)
-    value = PACKAGE_LOCATIVE_RE.sub(replace_locative, value)
-    value = PACKAGE_RE.sub(replace_package, value)
-
+    value = _apply_teacher_terms(value)
     unresolved = sorted(
         {match.group(0) for match in TECHNICAL_REFERENCE_RE.finditer(value)}
     )
@@ -371,7 +570,13 @@ def iter_teacher_facing_strings(plan: dict[str, Any]) -> Iterable[tuple[str, str
         for index, lesson in enumerate(lessons):
             if not isinstance(lesson, dict):
                 continue
-            for key in ("title", "objective", "opening", "assessment", "closure"):
+            for key in (
+                "title",
+                "objective",
+                "opening",
+                "assessment",
+                "closure",
+            ):
                 value = lesson.get(key)
                 if isinstance(value, str):
                     yield f"lessons[{index}].{key}", value
@@ -401,7 +606,9 @@ def iter_teacher_facing_strings(plan: dict[str, Any]) -> Iterable[tuple[str, str
             if isinstance(value, str):
                 yield f"large_class_route.{key}", value
         extension = large_class.get("optional_school_based_extension")
-        if isinstance(extension, dict) and isinstance(extension.get("purpose"), str):
+        if isinstance(extension, dict) and isinstance(
+            extension.get("purpose"), str
+        ):
             yield (
                 "large_class_route.optional_school_based_extension.purpose",
                 extension["purpose"],
@@ -476,7 +683,13 @@ def normalize_teacher_facing_text(
         for lesson in lessons:
             if not isinstance(lesson, dict):
                 continue
-            for key in ("title", "objective", "opening", "assessment", "closure"):
+            for key in (
+                "title",
+                "objective",
+                "opening",
+                "assessment",
+                "closure",
+            ):
                 if isinstance(lesson.get(key), str):
                     lesson[key] = humanize(lesson[key])
             for key in ("teacher_actions", "student_actions", "materials"):
@@ -506,7 +719,9 @@ def normalize_teacher_facing_text(
             if isinstance(large_class.get(key), str):
                 large_class[key] = humanize(large_class[key])
         extension = large_class.get("optional_school_based_extension")
-        if isinstance(extension, dict) and isinstance(extension.get("purpose"), str):
+        if isinstance(extension, dict) and isinstance(
+            extension.get("purpose"), str
+        ):
             extension["purpose"] = humanize(extension["purpose"])
 
     adaptations = result.get("classroom_adaptations")
