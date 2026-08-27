@@ -1,0 +1,116 @@
+#!/usr/bin/env python3
+from __future__ import annotations
+
+import copy
+import sys
+import unittest
+from pathlib import Path
+
+SCRIPTS = Path(__file__).resolve().parents[1] / "scripts"
+if str(SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS))
+
+import teacher_facing_text  # noqa: E402
+
+ROOT = Path(__file__).resolve().parents[3] / "courses" / "TDE_9"
+
+
+class TeacherFacingTextTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls) -> None:
+        cls.catalog = teacher_facing_text.TeacherReferenceCatalog.from_knowledge_root(ROOT)
+        cls.ranges = {1: (1, 2), 2: (3, 4), 3: (5, 6)}
+
+    def fixture_plan(self) -> dict:
+        return {
+            "course_id": "TDE_9",
+            "theme_id": "TEMA_01",
+            "block_id": "BLOCK_T1_01_OKUMA",
+            "plan_title": "Okuma çalışması",
+            "plan_summary": "İki derslik okuma çalışması.",
+            "used_activity_ids": ["T1_ACT_04_GUZEL_SANATLAR_DISIPLINLER"],
+            "used_form_ids": [],
+            "lessons": [
+                {
+                    "title": "Ders",
+                    "objective": "Hedef.",
+                    "opening": "Giriş.",
+                    "teacher_actions": ["T1_ACT_04 üzerinden tartışmayı yürüt."],
+                    "student_actions": ["Çalışmayı tamamlar."],
+                    "assessment": "Kanıtı kontrol et.",
+                    "closure": "Dersi kapat.",
+                    "materials": ["Ders kitabı"],
+                    "activity_ids": ["T1_ACT_04_GUZEL_SANATLAR_DISIPLINLER"],
+                    "form_ids": [],
+                    "outcome_codes": ["TDE2.1"],
+                }
+            ],
+            "teacher_notes": "Bu plan BLOCK_T1_01_OKUMA bloğunun bir kesitidir.",
+            "continuation_summary": {
+                "next_step_hint": "P02'de T1_ACT_04 ve T1_ACT_05 ile devam et.",
+                "used_activity_ids": ["T1_ACT_04_GUZEL_SANATLAR_DISIPLINLER"],
+                "covered_outcome_codes": ["TDE2.1"],
+            },
+        }
+
+    def test_catalog_resolves_real_titles_pages_and_package_range(self) -> None:
+        plan = self.fixture_plan()
+        text = teacher_facing_text.humanize_teacher_text(
+            "P02'de T1_ACT_04, T1_ACT_05 ve BLOCK_T1_01_OKUMA ile devam et.",
+            plan=plan,
+            catalog=self.catalog,
+            package_ranges=self.ranges,
+        )
+        self.assertIn("3–4. ders saatlerinde", text)
+        self.assertIn(
+            "Güzel Sanatlar ve Diğer Disiplinlerle İlişki Tahlili (ders kitabı s. 21-26)",
+            text,
+        )
+        self.assertIn(
+            "Dil Bilgisi: Türkçenin Ses Bilgisi ve Ses Olayları (ders kitabı s. 27-36)",
+            text,
+        )
+        self.assertIn("1. Tema Okuma Bloğu: Şiir ve Deneme Metin Tahlili", text)
+        self.assertIsNone(teacher_facing_text.TECHNICAL_REFERENCE_RE.search(text))
+
+    def test_normalization_changes_prose_but_preserves_structured_ids(self) -> None:
+        plan = self.fixture_plan()
+        original = copy.deepcopy(plan)
+        normalized = teacher_facing_text.normalize_teacher_facing_text(
+            plan,
+            catalog=self.catalog,
+            package_ranges=self.ranges,
+        )
+        self.assertEqual(normalized["course_id"], original["course_id"])
+        self.assertEqual(normalized["theme_id"], original["theme_id"])
+        self.assertEqual(normalized["block_id"], original["block_id"])
+        self.assertEqual(normalized["used_activity_ids"], original["used_activity_ids"])
+        self.assertEqual(
+            normalized["lessons"][0]["activity_ids"],
+            original["lessons"][0]["activity_ids"],
+        )
+        self.assertIn("1. Tema Okuma Bloğu", normalized["teacher_notes"])
+        self.assertIn("3–4. ders saatlerinde", normalized["continuation_summary"]["next_step_hint"])
+        self.assertFalse(teacher_facing_text.teacher_facing_validation_errors(normalized))
+
+    def test_validator_reports_raw_id_in_teacher_prose(self) -> None:
+        plan = self.fixture_plan()
+        errors = teacher_facing_text.teacher_facing_validation_errors(plan)
+        self.assertTrue(any("teacher_notes:BLOCK_T1_01_OKUMA" in item for item in errors))
+        self.assertTrue(any("continuation_summary.next_step_hint:P02" in item for item in errors))
+
+    def test_unknown_technical_reference_fails_closed(self) -> None:
+        with self.assertRaisesRegex(
+            teacher_facing_text.TeacherFacingTextError,
+            "UNRESOLVED_TEACHER_REFERENCES",
+        ):
+            teacher_facing_text.humanize_teacher_text(
+                "T9_ACT_99_BILINMEYEN etkinliğini uygula.",
+                plan=self.fixture_plan(),
+                catalog=self.catalog,
+                package_ranges=self.ranges,
+            )
+
+
+if __name__ == "__main__":
+    unittest.main()
