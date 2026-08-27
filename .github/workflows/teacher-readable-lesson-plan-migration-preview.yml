@@ -1,0 +1,110 @@
+name: Teacher-readable lesson-plan migration preview
+
+on:
+  push:
+    branches:
+      - feat/teacher-readable-lesson-plan-text
+    paths:
+      - '.github/workflows/teacher-readable-lesson-plan-migration-preview.yml'
+      - 'skill/tymm-material-planner/scripts/teacher_facing_text.py'
+      - 'skill/tymm-material-planner/scripts/normalize_teacher_facing_lesson_plans.py'
+      - 'skill/tymm-material-planner/tests/test_teacher_facing_text.py'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: teacher-readable-lesson-plan-migration-preview-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout feature branch
+        uses: actions/checkout@v4
+        with:
+          ref: feat/teacher-readable-lesson-plan-text
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Add package-range support in preview workspace
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('skill/tymm-material-planner/scripts/teacher_facing_text.py')
+          text = p.read_text(encoding='utf-8')
+          old = 'PACKAGE_RE = re.compile(r"\\bP(\\d{2})\\b", re.IGNORECASE)\n'
+          new = old + 'PACKAGE_RANGE_RE = re.compile(r"\\bP(\\d{2})\\s*[-–—]\\s*P(\\d{2})\\b", re.IGNORECASE)\n'
+          if 'PACKAGE_RANGE_RE' not in text:
+              text = text.replace(old, new, 1)
+          old = '    value = PACKAGE_LOCATIVE_RE.sub(replace_locative, value)\n    value = PACKAGE_RE.sub(replace_package, value)\n'
+          new = '''    def replace_package_range(match: re.Match[str]) -> str:
+              first = package_ranges.get(int(match.group(1)))
+              last = package_ranges.get(int(match.group(2)))
+              if first is None or last is None or first[0] > last[1]:
+                  return match.group(0)
+              return f"{first[0]}–{last[1]}. ders saatleri"
+
+          value = PACKAGE_RANGE_RE.sub(replace_package_range, value)
+          value = PACKAGE_LOCATIVE_RE.sub(replace_locative, value)
+          value = PACKAGE_RE.sub(replace_package, value)
+          '''
+          if 'value = PACKAGE_RANGE_RE.sub' not in text:
+              if old not in text:
+                  raise SystemExit('PACKAGE_RANGE_PATCH_ANCHOR_MISSING')
+              text = text.replace(old, new, 1)
+          p.write_text(text, encoding='utf-8')
+          PY
+
+      - name: Test teacher-facing resolver
+        run: |
+          python -m py_compile \
+            skill/tymm-material-planner/scripts/teacher_facing_text.py \
+            skill/tymm-material-planner/scripts/normalize_teacher_facing_lesson_plans.py
+          python -m unittest skill/tymm-material-planner/tests/test_teacher_facing_text.py
+
+      - name: Normalize all plans in workspace
+        run: |
+          python skill/tymm-material-planner/scripts/normalize_teacher_facing_lesson_plans.py \
+            --knowledge-root courses/TDE_9 \
+            --knowledge-root courses/TDE_10 \
+            --write | tee /tmp/teacher-facing-migration-report.json
+
+      - name: Verify migration is idempotent
+        run: |
+          python skill/tymm-material-planner/scripts/normalize_teacher_facing_lesson_plans.py \
+            --knowledge-root courses/TDE_9 \
+            --knowledge-root courses/TDE_10
+
+      - name: Build reviewable migration patch
+        run: |
+          git diff --binary -- \
+            skill/tymm-material-planner/scripts/teacher_facing_text.py \
+            courses/TDE_9/generated/lesson_plans \
+            courses/TDE_10/generated/lesson_plans \
+            > /tmp/teacher-facing-migration.patch
+          git diff --stat -- \
+            skill/tymm-material-planner/scripts/teacher_facing_text.py \
+            courses/TDE_9/generated/lesson_plans \
+            courses/TDE_10/generated/lesson_plans \
+            > /tmp/teacher-facing-migration-stat.txt
+
+      - name: Upload migration preview
+        uses: actions/upload-artifact@v4
+        with:
+          name: teacher-facing-migration-preview
+          path: |
+            /tmp/teacher-facing-migration-report.json
+            /tmp/teacher-facing-migration.patch
+            /tmp/teacher-facing-migration-stat.txt
+            skill/tymm-material-planner/scripts/teacher_facing_text.py
+            courses/TDE_9/generated/lesson_plans
+            courses/TDE_10/generated/lesson_plans
+          if-no-files-found: error
