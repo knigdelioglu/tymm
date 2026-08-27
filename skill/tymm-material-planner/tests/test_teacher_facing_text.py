@@ -82,7 +82,7 @@ class TeacherFacingTextTests(unittest.TestCase):
             catalog=self.catalog9,
             package_ranges=self.ranges,
         )
-        self.assertEqual(text, "1–4. ders saatlerindeki notlarını karşılaştır.")
+        self.assertEqual(text, "1–4. ders saatlerinin notlarını karşılaştır.")
 
     def test_cross_block_package_reference_resolves_from_generated_catalog(self) -> None:
         text = teacher_facing_text.humanize_teacher_text(
