@@ -34,42 +34,6 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Add package-range support in preview workspace
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-          p = Path('skill/tymm-material-planner/scripts/teacher_facing_text.py')
-          text = p.read_text(encoding='utf-8')
-          old = 'PACKAGE_RE = re.compile(r"\\bP(\\d{2})\\b", re.IGNORECASE)\n'
-          new = old + 'PACKAGE_RANGE_RE = re.compile(r"\\bP(\\d{2})\\s*[-–—]\\s*P(\\d{2})\\b", re.IGNORECASE)\n'
-          if 'PACKAGE_RANGE_RE' not in text:
-              if old not in text:
-                  raise SystemExit('PACKAGE_RANGE_REGEX_ANCHOR_MISSING')
-              text = text.replace(old, new, 1)
-
-          old = (
-              '    value = PACKAGE_LOCATIVE_RE.sub(replace_locative, value)\n'
-              '    value = PACKAGE_RE.sub(replace_package, value)\n'
-          )
-          new = (
-              '    def replace_package_range(match: re.Match[str]) -> str:\n'
-              '        first = package_ranges.get(int(match.group(1)))\n'
-              '        last = package_ranges.get(int(match.group(2)))\n'
-              '        if first is None or last is None or first[0] > last[1]:\n'
-              '            return match.group(0)\n'
-              '        return f"{first[0]}–{last[1]}. ders saatleri"\n'
-              '\n'
-              '    value = PACKAGE_RANGE_RE.sub(replace_package_range, value)\n'
-              '    value = PACKAGE_LOCATIVE_RE.sub(replace_locative, value)\n'
-              '    value = PACKAGE_RE.sub(replace_package, value)\n'
-          )
-          if 'value = PACKAGE_RANGE_RE.sub' not in text:
-              if old not in text:
-                  raise SystemExit('PACKAGE_RANGE_PATCH_ANCHOR_MISSING')
-              text = text.replace(old, new, 1)
-          p.write_text(text, encoding='utf-8')
-          PY
-
       - name: Test teacher-facing resolver
         run: |
           python -m py_compile \
@@ -93,12 +57,10 @@ jobs:
       - name: Build reviewable migration patch
         run: |
           git diff --binary -- \
-            skill/tymm-material-planner/scripts/teacher_facing_text.py \
             courses/TDE_9/generated/lesson_plans \
             courses/TDE_10/generated/lesson_plans \
             > /tmp/teacher-facing-migration.patch
           git diff --stat -- \
-            skill/tymm-material-planner/scripts/teacher_facing_text.py \
             courses/TDE_9/generated/lesson_plans \
             courses/TDE_10/generated/lesson_plans \
             > /tmp/teacher-facing-migration-stat.txt
@@ -111,7 +73,6 @@ jobs:
             /tmp/teacher-facing-migration-report.json
             /tmp/teacher-facing-migration.patch
             /tmp/teacher-facing-migration-stat.txt
-            skill/tymm-material-planner/scripts/teacher_facing_text.py
             courses/TDE_9/generated/lesson_plans
             courses/TDE_10/generated/lesson_plans
           if-no-files-found: error
