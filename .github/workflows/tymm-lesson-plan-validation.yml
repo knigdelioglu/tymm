@@ -16,6 +16,10 @@ on:
       - 'skill/tymm-material-planner/scripts/lesson_plan_generator.py'
       - 'skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py'
       - 'skill/tymm-material-planner/scripts/build_runtime_course_package.py'
+      - 'skill/tymm-material-planner/scripts/runtime_lesson_plan_payload.py'
+      - 'skill/tymm-material-planner/scripts/teacher_facing_text.py'
+      - 'skill/tymm-material-planner/scripts/render_teacher_lesson_plan_markdown.py'
+      - 'skill/tymm-material-planner/scripts/normalize_teacher_facing_lesson_plans.py'
       - 'skill/tymm-material-planner/scripts/apply_closure_time_budgets.py'
       - 'skill/tymm-material-planner/scripts/validate_closure_time_budgets.py'
       - 'skill/tymm-material-planner/scripts/apply_classroom_adaptations.py'
@@ -35,6 +39,9 @@ on:
       - 'skill/tymm-material-planner/tests/test_lesson_plan_markdown_parity.py'
       - 'skill/tymm-material-planner/tests/test_validation_binding.py'
       - 'skill/tymm-material-planner/tests/test_lesson_plan_context.py'
+      - 'skill/tymm-material-planner/tests/test_teacher_facing_text.py'
+      - 'skill/tymm-material-planner/tests/test_teacher_lesson_plan_markdown.py'
+      - 'skill/tymm-material-planner/tests/test_runtime_lesson_plan_payload.py'
       - 'skill/tymm-material-planner/schemas/lesson_plan.schema.json'
       - 'courses/TDE_9/generated/lesson_plans/**'
       - 'courses/TDE_10/generated/lesson_plans/**'
@@ -67,7 +74,7 @@ jobs:
   validate-all:
     name: Full validation gate
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -94,6 +101,22 @@ jobs:
             --knowledge-root courses/TDE_9 \
             --knowledge-root courses/TDE_10 \
             --report /tmp/lesson-plan-markdown-parity-report.json
+
+      - name: Run teacher-facing projection regression tests
+        run: |
+          python -m unittest \
+            skill/tymm-material-planner/tests/test_teacher_facing_text.py \
+            skill/tymm-material-planner/tests/test_teacher_lesson_plan_markdown.py \
+            skill/tymm-material-planner/tests/test_runtime_lesson_plan_payload.py
+
+      - name: Export and verify 176 distribution-ready teacher plans
+        run: |
+          python skill/tymm-material-planner/scripts/render_teacher_lesson_plan_markdown.py \
+            --knowledge-root courses/TDE_9 \
+            --knowledge-root courses/TDE_10 \
+            --output-root /tmp/teacher-lesson-plans \
+            > /tmp/teacher-markdown-export-report.json
+          test "$(find /tmp/teacher-lesson-plans -name '*.md' | wc -l | tr -d ' ')" = "176"
 
       - name: Run package-topology regression tests
         run: python -m unittest skill/tymm-material-planner/tests/test_package_topology.py
@@ -144,12 +167,12 @@ jobs:
           python skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py --knowledge-root courses/TDE_9
           python skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py --knowledge-root courses/TDE_10
 
-      - name: Build fresh runtime packages
+      - name: Build fresh runtime packages with teacher-facing lesson payloads
         run: |
           python skill/tymm-material-planner/scripts/build_runtime_course_package.py build --knowledge-root courses/TDE_9
           python skill/tymm-material-planner/scripts/build_runtime_course_package.py build --knowledge-root courses/TDE_10
 
-      - name: Validate all 176 lesson-plan packages
+      - name: Validate all 176 lesson-plan packages and teacher projections
         run: |
           python skill/tymm-material-planner/scripts/validate_all_lesson_plans.py \
             --knowledge-root courses/TDE_9 \
@@ -165,6 +188,7 @@ jobs:
           path: |
             /tmp/lesson-plan-validation-report.json
             /tmp/lesson-plan-markdown-parity-report.json
+            /tmp/teacher-markdown-export-report.json
             /tmp/final-mutation-coverage-report.json
           if-no-files-found: warn
 
