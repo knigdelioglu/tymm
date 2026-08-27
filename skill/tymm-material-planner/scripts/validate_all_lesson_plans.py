@@ -18,6 +18,7 @@ if str(SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPT_DIR))
 
 import lesson_plan_context  # noqa: E402
+import teacher_facing_text  # noqa: E402
 import validate_lesson_plan  # noqa: E402
 import validate_lesson_plan_markdown  # noqa: E402
 import validation_binding  # noqa: E402
@@ -73,6 +74,16 @@ def validate_course(root: Path, schema_validator: Draft202012Validator) -> dict[
                     "path": relative,
                     "stage": "schema",
                     "errors": [format_schema_error(error) for error in schema_errors],
+                }
+            )
+
+        teacher_prose_errors = teacher_facing_text.teacher_facing_validation_errors(plan)
+        if teacher_prose_errors:
+            failures.append(
+                {
+                    "path": relative,
+                    "stage": "teacher_facing_text",
+                    "errors": teacher_prose_errors,
                 }
             )
 
