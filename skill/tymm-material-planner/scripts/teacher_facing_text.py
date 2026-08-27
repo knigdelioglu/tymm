@@ -44,6 +44,10 @@ PACKAGE_RANGE_ACCUSATIVE_RE = re.compile(
     rf"\b{PACKAGE_RANGE_CORE}['’]?(?:yi|yı|yu|yü|i|ı|u|ü)\b",
     re.IGNORECASE,
 )
+PACKAGE_RANGE_CONNECTIVE_RE = re.compile(
+    rf"\b{PACKAGE_RANGE_CORE}(?=\s+(?:boyunca|kapsamında|arasında|ile|ve|öncesinde|sonrasında)\b)",
+    re.IGNORECASE,
+)
 PACKAGE_RANGE_RE = re.compile(rf"\b{PACKAGE_RANGE_CORE}\b", re.IGNORECASE)
 
 PACKAGE_ATTR_RE = re.compile(
@@ -72,6 +76,10 @@ PACKAGE_ACCUSATIVE_RE = re.compile(
 )
 PACKAGE_RE = re.compile(r"\bP(\d{1,2})\b", re.IGNORECASE)
 
+ACTIVITY_RANGE_RE = re.compile(
+    r"\b(T\d+_ACT_)(\d{2})\s*[-–—]\s*(\d{2})\b",
+    re.IGNORECASE,
+)
 ACTIVITY_SHORT_RE = re.compile(r"^(T\d+_ACT_\d+)(?:_|$)", re.IGNORECASE)
 FORM_SHORT_RE = re.compile(r"^(FORM_[A-Z]+_\d+)(?:_|$)", re.IGNORECASE)
 RESOURCE_SHORT_RE = re.compile(r"^(RES_T\d+_\d+)(?:_|$)", re.IGNORECASE)
@@ -82,6 +90,10 @@ REGISTRY_PAGE_RE = re.compile(r"Ders kitabı\s+s\.\s*([^;]+)", re.IGNORECASE)
 DUPLICATE_PAGE_RE = re.compile(
     r"(\(ders kitabı s\.\s*[^)]+\))\s*[—-]\s*ders kitabı s\.\s*"
     r"\d+(?:\s*[-–—]\s*\d+)?",
+    re.IGNORECASE,
+)
+COPULA_AFTER_LABEL_RE = re.compile(
+    r"(?<=\))['’](?:dır|dir|dur|dür|tır|tir|tur|tür)\b",
     re.IGNORECASE,
 )
 
@@ -483,12 +495,36 @@ def _range_case_label(
     )
 
 
+def _activity_range_label(
+    match: re.Match[str],
+    catalog: TeacherReferenceCatalog,
+) -> str | None:
+    prefix = match.group(1).upper()
+    start = int(match.group(2))
+    end = int(match.group(3))
+    if end < start:
+        return None
+    labels: list[str] = []
+    for number in range(start, end + 1):
+        alias = f"{prefix}{number:02d}"
+        label = catalog.activity_aliases.get(alias)
+        if label is None:
+            return None
+        labels.append(label)
+    if len(labels) == 1:
+        return labels[0]
+    if len(labels) == 2:
+        return f"{labels[0]} ve {labels[1]}"
+    return ", ".join(labels[:-1]) + f" ve {labels[-1]}"
+
+
 def _apply_teacher_terms(value: str) -> str:
     for token, label in ENUM_LABELS.items():
         value = re.sub(rf"\b{re.escape(token)}\b", label, value)
     for pattern, replacement in TEACHER_TERM_REPLACEMENTS:
         value = pattern.sub(replacement, value)
-    return DUPLICATE_PAGE_RE.sub(r"\1", value)
+    value = DUPLICATE_PAGE_RE.sub(r"\1", value)
+    return COPULA_AFTER_LABEL_RE.sub("", value)
 
 
 def humanize_teacher_text(
@@ -499,6 +535,15 @@ def humanize_teacher_text(
     package_ranges: dict[int, PackageRange],
 ) -> str:
     value = text
+
+    # Shorthand such as T1_ACT_01-03 must be expanded before individual ID
+    # replacement; otherwise the first ID is humanized and a dangling "-03"
+    # leaks into teacher prose.
+    value = ACTIVITY_RANGE_RE.sub(
+        lambda match: _activity_range_label(match, catalog) or match.group(0),
+        value,
+    )
+
     replacements = catalog.replacements(plan)
     for key in sorted(replacements, key=len, reverse=True):
         value = value.replace(key, replacements[key])
@@ -515,7 +560,7 @@ def humanize_teacher_text(
         (PACKAGE_RANGE_DATIVE_RE, "dative", "ilgili ders planlarına"),
         (PACKAGE_RANGE_GENITIVE_RE, "genitive", "ilgili ders planlarının"),
         (PACKAGE_RANGE_ACCUSATIVE_RE, "accusative", "ilgili ders planlarını"),
-        (PACKAGE_RANGE_RE, "genitive", "ilgili ders planlarının"),
+        (PACKAGE_RANGE_CONNECTIVE_RE, "plain", "ilgili ders planları"),
     )
     for pattern, grammatical_case, fallback in range_cases:
         value = pattern.sub(
@@ -524,6 +569,20 @@ def humanize_teacher_text(
             ),
             value,
         )
+
+    # A bare package range usually modifies a following noun ("P01-P02
+    # notları"). "... ders saatlerine ait ..." is robust Turkish for that
+    # construction, while connective contexts above retain the plain form.
+    value = PACKAGE_RANGE_RE.sub(
+        lambda match: (
+            (
+                _range_case_label(match, package_ranges, "dative") + " ait"
+                if _range_case_label(match, package_ranges, "dative")
+                else "ilgili ders planlarına ait"
+            )
+        ),
+        value,
+    )
 
     package_cases: tuple[tuple[re.Pattern[str], str, str], ...] = (
         (PACKAGE_ATTR_RE, "attributive", "ilgili ders planındaki"),
