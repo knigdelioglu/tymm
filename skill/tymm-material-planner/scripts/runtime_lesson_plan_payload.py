@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Project validated TYMM lesson-plan packages into runtime SQLite.
 
-This module intentionally keeps the lesson-plan payload as canonical JSON while
-projecting the fields the app needs for discovery/navigation into relational
-columns. It is safe to run after the base runtime compiler and the assessment
-payload projector.
+Canonical lesson-plan JSON remains the validated source of truth. Runtime
+payload_json is a deterministic teacher-facing projection of that source:
+structured IDs stay canonical while prose is resolved to readable Turkish
+labels from verified course metadata.
 """
 from __future__ import annotations
 
@@ -16,9 +16,10 @@ import sqlite3
 from pathlib import Path
 from typing import Any
 
+import teacher_facing_text
 import validation_binding
 
-PROJECTION_VERSION = "1.1.0"
+PROJECTION_VERSION = "1.2.0"
 RUNTIME_SCHEMA_VERSION = "1.2.0"
 RUNTIME_PACKAGE_VERSION = "1.3.0"
 
@@ -287,6 +288,7 @@ def project_runtime_lesson_plan_payload(root: Path | str) -> dict[str, Any]:
             "available": False,
             "package_payload_json": False,
             "block_package_navigation": False,
+            "teacher_facing_projection": False,
             "validation_bound": False,
         }
         runtime_manifest.setdefault("row_counts", {})["lesson_plan_packages"] = 0
@@ -336,9 +338,23 @@ def project_runtime_lesson_plan_payload(root: Path | str) -> dict[str, Any]:
     )
 
     topology = _production_topology(production_plan)
+    teacher_catalog = teacher_facing_text.TeacherReferenceCatalog.from_knowledge_root(root)
+    package_range_cache: dict[str, dict[int, teacher_facing_text.PackageRange]] = {}
     additional_hashes = {
         production_plan_path.relative_to(root).as_posix(): _sha256(production_plan_path),
     }
+
+    def teacher_projection(source_payload: dict[str, Any], path: Path) -> dict[str, Any]:
+        block_id = str(source_payload.get("block_id") or path.parent.name)
+        ranges = package_range_cache.get(block_id)
+        if ranges is None:
+            ranges = teacher_facing_text.package_ranges_for_block(path.parent)
+            package_range_cache[block_id] = ranges
+        return teacher_facing_text.normalize_teacher_facing_text(
+            source_payload,
+            catalog=teacher_catalog,
+            package_ranges=ranges,
+        )
 
     db = sqlite3.connect(db_path)
     db.execute("PRAGMA foreign_keys=ON")
@@ -406,8 +422,10 @@ def project_runtime_lesson_plan_payload(root: Path | str) -> dict[str, Any]:
                 raise ValueError(
                     f"RUNTIME_LESSON_PLAN_REMAINING_HOURS_INVALID: {source_path}"
                 )
-            plan_title = payload.get("plan_title")
-            plan_summary = payload.get("plan_summary")
+
+            runtime_payload = teacher_projection(payload, path)
+            plan_title = runtime_payload.get("plan_title")
+            plan_summary = runtime_payload.get("plan_summary")
             schema_version = payload.get("schema_version")
             if not isinstance(plan_title, str) or not plan_title.strip():
                 raise ValueError(f"RUNTIME_LESSON_PLAN_TITLE_MISSING: {source_path}")
@@ -443,7 +461,7 @@ def project_runtime_lesson_plan_payload(root: Path | str) -> dict[str, Any]:
                     "PASS",
                     source_path,
                     additional_hashes[source_path],
-                    _compact_json(payload),
+                    _compact_json(runtime_payload),
                 ),
             )
 
@@ -476,31 +494,34 @@ def project_runtime_lesson_plan_payload(root: Path | str) -> dict[str, Any]:
                 )
 
         payload_json_valid = True
-        payload_source_parity = True
-        payload_source_parity_detail = "all SQLite payloads match source JSON and SHA256"
+        teacher_projection_parity = True
+        teacher_projection_parity_detail = (
+            "all SQLite payloads match deterministic teacher-facing projection and source SHA256"
+        )
         try:
             for source_path, payload_sha256, payload_json in db.execute(
                 "SELECT source_path,payload_sha256,payload_json FROM lesson_plan_packages"
             ):
                 source = root / source_path
                 if not source.exists():
-                    payload_source_parity = False
-                    payload_source_parity_detail = f"missing source: {source_path}"
+                    teacher_projection_parity = False
+                    teacher_projection_parity_detail = f"missing source: {source_path}"
                     break
                 source_payload = _read_json(source)
                 if payload_sha256 != _sha256(source):
-                    payload_source_parity = False
-                    payload_source_parity_detail = f"SHA mismatch: {source_path}"
+                    teacher_projection_parity = False
+                    teacher_projection_parity_detail = f"SHA mismatch: {source_path}"
                     break
                 parsed_payload = json.loads(payload_json)
-                if parsed_payload != source_payload:
-                    payload_source_parity = False
-                    payload_source_parity_detail = f"payload mismatch: {source_path}"
+                expected_payload = teacher_projection(source_payload, source)
+                if parsed_payload != expected_payload:
+                    teacher_projection_parity = False
+                    teacher_projection_parity_detail = f"projection mismatch: {source_path}"
                     break
-        except (TypeError, json.JSONDecodeError):
+        except (TypeError, json.JSONDecodeError, teacher_facing_text.TeacherFacingTextError):
             payload_json_valid = False
-            payload_source_parity = False
-            payload_source_parity_detail = "payload_json parse failure"
+            teacher_projection_parity = False
+            teacher_projection_parity_detail = "payload_json/projection failure"
 
         checks = [
             (
@@ -531,9 +552,9 @@ def project_runtime_lesson_plan_payload(root: Path | str) -> dict[str, Any]:
                 "all payload_json rows parse",
             ),
             (
-                "lesson plan source payload parity",
-                payload_source_parity,
-                payload_source_parity_detail,
+                "lesson plan teacher-facing projection parity",
+                teacher_projection_parity,
+                teacher_projection_parity_detail,
             ),
             (
                 "lesson plan foreign key integrity",
@@ -582,7 +603,9 @@ def project_runtime_lesson_plan_payload(root: Path | str) -> dict[str, Any]:
             "package_payload_json": True,
             "block_package_navigation": True,
             "source_hash_per_package": True,
-            "source_payload_parity": True,
+            "source_payload_parity": False,
+            "teacher_facing_projection": True,
+            "teacher_projection_source_bound": True,
             "validation_bound": True,
             "calendar_neutral": bool(
                 (production_plan.get("calendar_policy") or {}).get("calendar_neutral")
@@ -604,6 +627,7 @@ def project_runtime_lesson_plan_payload(root: Path | str) -> dict[str, Any]:
             "instruction_hours": projected_hours,
             "canonical_content_fingerprint": fingerprint,
             "lesson_plan_validation_fingerprint": verified_binding["content_fingerprint"],
+            "teacher_facing_projection": True,
             "available": True,
         }
     finally:
@@ -618,7 +642,12 @@ def main() -> int:
         result = project_runtime_lesson_plan_payload(args.knowledge_root)
         print(json.dumps(result, ensure_ascii=False, indent=2))
         return 0
-    except (ValueError, sqlite3.Error, json.JSONDecodeError) as exc:
+    except (
+        ValueError,
+        sqlite3.Error,
+        json.JSONDecodeError,
+        teacher_facing_text.TeacherFacingTextError,
+    ) as exc:
         print(f"FAIL_CLOSED: {exc}")
         return 2
 
