@@ -75,14 +75,46 @@ class TeacherFacingTextTests(unittest.TestCase):
         self.assertIn("1. Tema Okuma Bloğu: Şiir ve Deneme Metin Tahlili", text)
         self.assertIsNone(teacher_facing_text.TECHNICAL_REFERENCE_RE.search(text))
 
-    def test_package_range_is_one_readable_lesson_hour_reference(self) -> None:
+    def test_package_range_modifying_noun_uses_ait_construction(self) -> None:
         text = teacher_facing_text.humanize_teacher_text(
             "P01-P02 notlarını karşılaştır.",
             plan=self.fixture_plan(),
             catalog=self.catalog9,
             package_ranges=self.ranges,
         )
-        self.assertEqual(text, "1–4. ders saatlerinin notlarını karşılaştır.")
+        self.assertEqual(text, "1–4. ders saatlerine ait notlarını karşılaştır.")
+
+    def test_package_range_before_boyunca_stays_plain(self) -> None:
+        text = teacher_facing_text.humanize_teacher_text(
+            "P01-P02 boyunca geliştirilen zihin haritasını kullan.",
+            plan=self.fixture_plan(),
+            catalog=self.catalog9,
+            package_ranges=self.ranges,
+        )
+        self.assertEqual(text, "1–4. ders saatleri boyunca geliştirilen zihin haritasını kullan.")
+
+    def test_activity_shorthand_range_is_fully_expanded(self) -> None:
+        text = teacher_facing_text.humanize_teacher_text(
+            "T1_ACT_01-03 tekrarlanmaz.",
+            plan=self.fixture_plan(),
+            catalog=self.catalog9,
+            package_ranges=self.ranges,
+        )
+        self.assertNotIn("T1_ACT", text)
+        self.assertNotIn("-03", text)
+        self.assertIn("Okuma Öncesi", text)
+        self.assertIn("Okuma Sırası", text)
+        self.assertIn("Okuma Sonrası", text)
+
+    def test_copula_suffix_after_resolved_label_does_not_leak_apostrophe(self) -> None:
+        text = teacher_facing_text.humanize_teacher_text(
+            "Ana etkinlik T1_ACT_04'tür.",
+            plan=self.fixture_plan(),
+            catalog=self.catalog9,
+            package_ranges=self.ranges,
+        )
+        self.assertNotIn(")'tür", text)
+        self.assertTrue(text.endswith("21-26)."))
 
     def test_cross_block_package_reference_resolves_from_generated_catalog(self) -> None:
         text = teacher_facing_text.humanize_teacher_text(
