@@ -14,6 +14,7 @@ import sys
 sys.path.insert(0, str(Path(__file__).parents[1] / "scripts"))
 import build_runtime_course_package as compiler
 import runtime_lesson_plan_payload as lesson_payload
+import teacher_facing_text
 
 COURSES_ROOT = Path(__file__).parents[3] / "courses"
 
@@ -48,12 +49,17 @@ class RuntimeLessonPlanPayloadTests(unittest.TestCase):
         root, manifest = self._build("TDE_9")
         self.assertEqual(manifest["schema_version"], "1.2.0")
         self.assertEqual(manifest["runtime_package_version"], "1.3.0")
+        self.assertEqual(manifest["lesson_plan_payload_projection_version"], "1.2.0")
         self.assertEqual(manifest["lesson_plan_package_count"], 88)
         self.assertEqual(manifest["lesson_plan_instruction_hours"], 172)
         self.assertTrue(manifest["lesson_plan_capabilities"]["available"])
         self.assertTrue(manifest["lesson_plan_capabilities"]["calendar_neutral"])
         self.assertTrue(manifest["lesson_plan_capabilities"]["validation_bound"])
-        self.assertTrue(manifest["lesson_plan_capabilities"]["source_payload_parity"])
+        self.assertFalse(manifest["lesson_plan_capabilities"]["source_payload_parity"])
+        self.assertTrue(manifest["lesson_plan_capabilities"]["teacher_facing_projection"])
+        self.assertTrue(
+            manifest["lesson_plan_capabilities"]["teacher_projection_source_bound"]
+        )
         self.assertEqual(manifest["lesson_plan_validation"]["status"], "VERIFIED")
         self.assertEqual(manifest["lesson_plan_validation"]["scope"], "COURSE")
         self.assertEqual(
@@ -102,9 +108,13 @@ class RuntimeLessonPlanPayloadTests(unittest.TestCase):
             )
             payload = json.loads(payload_json)
             source_payload = json.loads(source.read_text(encoding="utf-8"))
-            self.assertEqual(payload, source_payload)
-            self.assertEqual(payload["block_id"], block_id)
+            self.assertEqual(payload["block_id"], source_payload["block_id"])
+            self.assertEqual(payload["theme_id"], source_payload["theme_id"])
+            self.assertEqual(payload["course_id"], source_payload["course_id"])
+            self.assertEqual(payload["used_activity_ids"], source_payload["used_activity_ids"])
+            self.assertEqual(payload["used_form_ids"], source_payload["used_form_ids"])
             self.assertEqual(payload["lesson_hours"], hours)
+            self.assertFalse(teacher_facing_text.teacher_facing_validation_errors(payload))
 
             course_row = db.execute(
                 "SELECT schema_version,source_manifest_fingerprint FROM courses LIMIT 1"
@@ -122,6 +132,7 @@ class RuntimeLessonPlanPayloadTests(unittest.TestCase):
         self.assertEqual(manifest["lesson_plan_package_count"], 88)
         self.assertEqual(manifest["lesson_plan_instruction_hours"], 172)
         self.assertEqual(manifest["lesson_plan_validation"]["status"], "VERIFIED")
+        self.assertTrue(manifest["lesson_plan_capabilities"]["teacher_facing_projection"])
         db = sqlite3.connect(root / "runtime/course_runtime.sqlite")
         try:
             self.assertEqual(
@@ -151,6 +162,7 @@ class RuntimeLessonPlanPayloadTests(unittest.TestCase):
         root, before = self._build("TDE_9")
         result = lesson_payload.project_runtime_lesson_plan_payload(root)
         self.assertEqual(result["status"], "PASS")
+        self.assertTrue(result["teacher_facing_projection"])
         after = json.loads(
             (root / "runtime/runtime_manifest.json").read_text(encoding="utf-8")
         )
