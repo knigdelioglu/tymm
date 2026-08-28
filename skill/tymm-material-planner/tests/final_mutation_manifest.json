@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "purpose": "Final fail-closed mutation coverage for lesson-plan production risks P3-P10.",
+  "purpose": "Final fail-closed mutation coverage for lesson-plan production risks P3-P11.",
   "required_risk_families": [
     "P3_ASSESSMENT_SCOPE",
     "P4_LARGE_CLASS",
@@ -9,7 +9,8 @@
     "P7_REFERENCE_GROUNDING",
     "P8_PACKAGE_TOPOLOGY",
     "P9_MARKDOWN_PARITY",
-    "P10_VALIDATION_BINDING"
+    "P10_VALIDATION_BINDING",
+    "P11_EVIDENCE_SPECIFICITY"
   ],
   "mutations": [
     {
@@ -230,6 +231,14 @@
       "test_class": "ValidationBindingTests",
       "test_method": "test_checkout_head_mismatch_is_rejected",
       "expected_detectors": ["CHECKOUT_HEAD_MISMATCH"]
+    },
+    {
+      "id": "P11_VAGUE_PRIOR_EVIDENCE",
+      "risk_family": "P11_EVIDENCE_SPECIFICITY",
+      "test_file": "skill/tymm-material-planner/tests/test_lesson_plan_evidence_quality.py",
+      "test_class": "LessonPlanEvidenceQualityTests",
+      "test_method": "test_generator_quality_gate_detects_vague_prior_products",
+      "expected_detectors": ["VAGUE_PRIOR_EVIDENCE"]
     }
   ]
 }
