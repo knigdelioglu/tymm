@@ -14,6 +14,8 @@ on:
       - 'skill/tymm-material-planner/scripts/run_final_mutation_suite.py'
       - 'skill/tymm-material-planner/scripts/lesson_plan_context.py'
       - 'skill/tymm-material-planner/scripts/lesson_plan_generator.py'
+      - 'skill/tymm-material-planner/scripts/lesson_plan_evidence_quality.py'
+      - 'skill/tymm-material-planner/scripts/apply_specific_evidence_integration.py'
       - 'skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py'
       - 'skill/tymm-material-planner/scripts/build_runtime_course_package.py'
       - 'skill/tymm-material-planner/scripts/runtime_lesson_plan_payload.py'
@@ -40,6 +42,8 @@ on:
       - 'skill/tymm-material-planner/tests/test_validation_binding.py'
       - 'skill/tymm-material-planner/tests/test_lesson_plan_context.py'
       - 'skill/tymm-material-planner/tests/test_teacher_facing_text.py'
+      - 'skill/tymm-material-planner/tests/test_lesson_plan_evidence_quality.py'
+      - 'skill/tymm-material-planner/tests/test_lesson_plan_generator.py'
       - 'skill/tymm-material-planner/tests/test_teacher_lesson_plan_markdown.py'
       - 'skill/tymm-material-planner/tests/test_runtime_lesson_plan_payload.py'
       - 'skill/tymm-material-planner/schemas/lesson_plan.schema.json'
@@ -81,6 +85,9 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Apply specific-evidence integration in validation workspace
+        run: python skill/tymm-material-planner/scripts/apply_specific_evidence_integration.py
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -88,6 +95,12 @@ jobs:
 
       - name: Install schema validator
         run: python -m pip install 'jsonschema==4.23.0'
+
+      - name: Run specific assessment-evidence regression tests
+        run: |
+          python -m unittest \
+            skill/tymm-material-planner/tests/test_lesson_plan_evidence_quality.py \
+            skill/tymm-material-planner/tests/test_lesson_plan_generator.py
 
       - name: Run validation-binding regression tests
         run: python -m unittest skill/tymm-material-planner/tests/test_validation_binding.py
@@ -106,6 +119,7 @@ jobs:
         run: |
           python -m unittest \
             skill/tymm-material-planner/tests/test_teacher_facing_text.py \
+            skill/tymm-material-planner/tests/test_lesson_plan_evidence_quality.py \
             skill/tymm-material-planner/tests/test_teacher_lesson_plan_markdown.py \
             skill/tymm-material-planner/tests/test_runtime_lesson_plan_payload.py
 
@@ -117,6 +131,7 @@ jobs:
             --output-root /tmp/teacher-lesson-plans \
             > /tmp/teacher-markdown-export-report.json
           test "$(find /tmp/teacher-lesson-plans -name '*.md' | wc -l | tr -d ' ')" = "176"
+          ! grep -R -n -E 'P[0-9]{1,2}[-–—/]P[0-9]{1,2} (öğrenci )?(çalışma )?ürün' /tmp/teacher-lesson-plans
 
       - name: Run package-topology regression tests
         run: python -m unittest skill/tymm-material-planner/tests/test_package_topology.py
@@ -180,7 +195,7 @@ jobs:
             --commit-sha "${GITHUB_SHA}" \
             --report /tmp/lesson-plan-validation-report.json
 
-      - name: Upload validation reports
+      - name: Upload validation reports and patched integration files
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -190,6 +205,10 @@ jobs:
             /tmp/lesson-plan-markdown-parity-report.json
             /tmp/teacher-markdown-export-report.json
             /tmp/final-mutation-coverage-report.json
+            skill/tymm-material-planner/scripts/lesson_plan_generator.py
+            skill/tymm-material-planner/scripts/runtime_lesson_plan_payload.py
+            skill/tymm-material-planner/scripts/validate_all_lesson_plans.py
+            skill/tymm-material-planner/scripts/render_teacher_lesson_plan_markdown.py
           if-no-files-found: warn
 
   finalize-main:
