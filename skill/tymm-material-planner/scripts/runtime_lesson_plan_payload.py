@@ -16,6 +16,7 @@ import sqlite3
 from pathlib import Path
 from typing import Any
 
+import lesson_plan_evidence_quality
 import teacher_facing_text
 import validation_binding
 
@@ -350,8 +351,12 @@ def project_runtime_lesson_plan_payload(root: Path | str) -> dict[str, Any]:
         if ranges is None:
             ranges = teacher_facing_text.package_ranges_for_block(path.parent)
             package_range_cache[block_id] = ranges
-        return teacher_facing_text.normalize_teacher_facing_text(
+        evidence_payload = lesson_plan_evidence_quality.project_specific_assessment_evidence(
             source_payload,
+            plan_path=path,
+        )
+        return teacher_facing_text.normalize_teacher_facing_text(
+            evidence_payload,
             catalog=teacher_catalog,
             package_ranges=ranges,
         )
