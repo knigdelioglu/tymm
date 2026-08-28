@@ -75,5 +75,5 @@
 | lesson plan instruction hours | PASS | runtime=172, expected=172 |
 | lesson plan block topology | PASS | all blocks match package count and planned hours |
 | lesson plan payload JSON validity | PASS | all payload_json rows parse |
-| lesson plan source payload parity | PASS | all SQLite payloads match source JSON and SHA256 |
+| lesson plan teacher-facing projection parity | PASS | all SQLite payloads match deterministic teacher-facing projection and source SHA256 |
 | lesson plan foreign key integrity | PASS | PRAGMA foreign_key_check |
