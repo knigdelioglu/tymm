@@ -15,7 +15,6 @@ on:
       - 'skill/tymm-material-planner/scripts/lesson_plan_context.py'
       - 'skill/tymm-material-planner/scripts/lesson_plan_generator.py'
       - 'skill/tymm-material-planner/scripts/lesson_plan_evidence_quality.py'
-      - 'skill/tymm-material-planner/scripts/apply_specific_evidence_integration.py'
       - 'skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py'
       - 'skill/tymm-material-planner/scripts/build_runtime_course_package.py'
       - 'skill/tymm-material-planner/scripts/runtime_lesson_plan_payload.py'
@@ -84,9 +83,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
-      - name: Apply specific-evidence integration in validation workspace
-        run: python skill/tymm-material-planner/scripts/apply_specific_evidence_integration.py
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -195,7 +191,7 @@ jobs:
             --commit-sha "${GITHUB_SHA}" \
             --report /tmp/lesson-plan-validation-report.json
 
-      - name: Upload validation reports and patched integration files
+      - name: Upload validation reports
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -205,10 +201,6 @@ jobs:
             /tmp/lesson-plan-markdown-parity-report.json
             /tmp/teacher-markdown-export-report.json
             /tmp/final-mutation-coverage-report.json
-            skill/tymm-material-planner/scripts/lesson_plan_generator.py
-            skill/tymm-material-planner/scripts/runtime_lesson_plan_payload.py
-            skill/tymm-material-planner/scripts/validate_all_lesson_plans.py
-            skill/tymm-material-planner/scripts/render_teacher_lesson_plan_markdown.py
           if-no-files-found: warn
 
   finalize-main:
