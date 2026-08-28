@@ -91,6 +91,7 @@ class LessonPlanGeneratorTests(unittest.TestCase):
         self.assertEqual(request["immutable_identity"]["lesson_hours"], 2)
         self.assertEqual(request["response_schema"]["title"], "TYMM AI Lesson Plan V1")
         self.assertFalse(request["canonical_context"]["planning_request"]["calendar_binding_used"])
+        self.assertIn("somut kanıt", request["system_instruction"])
 
     def test_preferences_cannot_override_canonical_fields(self):
         with self.assertRaises(generator.LessonPlanGenerationError):
@@ -126,6 +127,32 @@ class LessonPlanGeneratorTests(unittest.TestCase):
         self.assertEqual(result["repair_count"], 1)
         self.assertEqual([x["mode"] for x in calls], ["GENERATE", "REPAIR"])
         self.assertTrue(any("ACT_FAKE" in err for err in result["trace"][0]["errors"]))
+
+    def test_vague_evidence_first_candidate_is_repaired(self):
+        calls = []
+        def model(request):
+            calls.append(request)
+            if request["mode"] == "GENERATE":
+                bad = self.valid_plan()
+                bad["lessons"][1]["materials"].append("P01-P02 öğrenci çalışma ürünleri")
+                return bad
+            self.assertTrue(
+                any(
+                    error.startswith("VAGUE_PRIOR_EVIDENCE:")
+                    for error in request["repair"]["validation_errors"]
+                )
+            )
+            return self.valid_plan()
+        result = generator.generate(self.context, model, max_repairs=2)
+        self.assertEqual(result["status"], "PASS", result)
+        self.assertEqual(result["attempts"], 2)
+        self.assertEqual(result["repair_count"], 1)
+        self.assertTrue(
+            any(
+                error.startswith("VAGUE_PRIOR_EVIDENCE:")
+                for error in result["trace"][0]["errors"]
+            )
+        )
 
     def test_generator_blocks_after_repair_budget(self):
         def model(_request):
