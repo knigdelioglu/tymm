@@ -128,6 +128,7 @@ def validate_course(root: Path, schema_validator: Draft202012Validator) -> dict[
         except (
             OSError,
             json.JSONDecodeError,
+            lesson_plan_evidence_quality.EvidenceResolutionError,
             teacher_facing_text.TeacherFacingTextError,
         ) as exc:
             failures.append(
