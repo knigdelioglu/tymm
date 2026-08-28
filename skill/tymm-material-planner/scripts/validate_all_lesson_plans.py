@@ -18,6 +18,7 @@ if str(SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPT_DIR))
 
 import lesson_plan_context  # noqa: E402
+import lesson_plan_evidence_quality  # noqa: E402
 import teacher_facing_text  # noqa: E402
 import validate_lesson_plan  # noqa: E402
 import validate_lesson_plan_markdown  # noqa: E402
@@ -93,21 +94,27 @@ def validate_course(root: Path, schema_validator: Draft202012Validator) -> dict[
             )
             continue
 
-        # Canonical source prose may contain canonical IDs because those IDs are
-        # useful for grounding and audit. The teacher-facing contract is instead
-        # that every such reference must deterministically resolve before it is
-        # rendered/exported/runtime-projected.
+        # Canonical source prose may retain audit-oriented package references.
+        # Teacher-facing consumers must resolve those references to actual prior
+        # assessment evidence before technical-ID humanization/rendering.
         try:
             ranges = package_range_cache.get(block_id)
             if ranges is None:
                 ranges = teacher_facing_text.package_ranges_for_block(plan_path.parent)
                 package_range_cache[block_id] = ranges
-            teacher_projection = teacher_facing_text.normalize_teacher_facing_text(
+            evidence_projection = lesson_plan_evidence_quality.project_specific_assessment_evidence(
                 plan,
+                plan_path=plan_path,
+            )
+            teacher_projection = teacher_facing_text.normalize_teacher_facing_text(
+                evidence_projection,
                 catalog=teacher_catalog,
                 package_ranges=ranges,
             )
             projection_errors = teacher_facing_text.teacher_facing_validation_errors(
+                teacher_projection
+            )
+            projection_errors += lesson_plan_evidence_quality.vague_evidence_errors(
                 teacher_projection
             )
             if projection_errors:
