@@ -14,34 +14,36 @@ from pathlib import Path
 from typing import Any, Iterable
 
 PACKAGE_FILE_RE = re.compile(r"_P(?P<package_no>\d{2})\.json$", re.IGNORECASE)
+
+# Turkish inflections seen around "ürün" in teacher prose. The stem is kept
+# outside the group so _evidence_phrase can map the grammatical case without
+# carrying implementation/package IDs into the visible replacement.
+EVIDENCE_ENDING = (
+    r"(?P<ending>"
+    r"lerinden|lerine|lerini|leriyle|lerin|lerde|lerden|lere|leri|lerle|"
+    r"ünden|üne|ünü|üyle|ün|ünde|ü|den|de|e|le"
+    r")?"
+)
 PACKAGE_EVIDENCE_RE = re.compile(
     r"\bP(?P<start>\d{1,2})\s*[-–—/]\s*P(?P<end>\d{1,2})\s+"
     r"(?:(?:öğrenci)\s+)?(?:(?:çalışma)\s+)?"
-    r"ürün(?P<ending>leri(?:nden|ne|ni|yle)?)\b",
+    r"ürün" + EVIDENCE_ENDING + r"\b",
     re.IGNORECASE,
 )
-GENERIC_EVIDENCE_RE = re.compile(
-    r"\b(?:"
-    r"(?:önceki|daha\s+önceki|kendi)\s+(?:(?:öğrenci)\s+)?(?:(?:çalışma)\s+)?"
-    r"|(?:öğrenci\s+)?çalışma\s+"
-    r")ürün(?P<ending>leri(?:nden|ne|ni|yle)?)\b",
+GENERIC_PRIOR_EVIDENCE_RE = re.compile(
+    r"\b(?:önceki|daha\s+önceki|kendi)\s+"
+    r"(?:(?:ders(?:ler)?(?:deki|in)?|öğrenci)\s+)*"
+    r"(?:(?:çalışma)\s+)?"
+    r"ürün" + EVIDENCE_ENDING + r"\b",
     re.IGNORECASE,
 )
-
-# Only prose that can reach a teacher is inspected by the generator gate.
-TEACHER_TEXT_KEYS = {
-    "plan_summary",
-    "teacher_notes",
-    "title",
-    "objective",
-    "opening",
-    "teacher_actions",
-    "student_actions",
-    "assessment",
-    "closure",
-    "materials",
-    "next_step_hint",
-}
+# New model output should name the actual evidence even when it does not say
+# "previous". Existing canonical plans are not guessed at: bare generic product
+# prose that cannot be source-bound remains a validation failure.
+BARE_EVIDENCE_RE = re.compile(
+    r"\b(?:öğrenci\s+)?çalışma\s+ürün" + EVIDENCE_ENDING + r"\b",
+    re.IGNORECASE,
+)
 
 CONCRETE_EVIDENCE_TERMS = (
     "tablo",
@@ -59,17 +61,21 @@ CONCRETE_EVIDENCE_TERMS = (
 )
 
 
+class EvidenceResolutionError(ValueError):
+    """Raised when vague teacher prose cannot be resolved from prior plans."""
+
+
 def _read_json(path: Path) -> dict[str, Any]:
     value = json.loads(path.read_text(encoding="utf-8"))
     if not isinstance(value, dict):
-        raise ValueError(f"LESSON_PLAN_JSON_OBJECT_REQUIRED:{path}")
+        raise EvidenceResolutionError(f"LESSON_PLAN_JSON_OBJECT_REQUIRED:{path}")
     return value
 
 
 def _package_no(path: Path) -> int:
     match = PACKAGE_FILE_RE.search(path.name)
     if match is None:
-        raise ValueError(f"LESSON_PLAN_PACKAGE_FILENAME_INVALID:{path}")
+        raise EvidenceResolutionError(f"LESSON_PLAN_PACKAGE_FILENAME_INVALID:{path}")
     return int(match.group("package_no"))
 
 
@@ -124,32 +130,35 @@ def _candidate_score(text: str, *, source: str) -> int:
     return score
 
 
-def _lesson_evidence_label(lesson: dict[str, Any]) -> str | None:
-    candidates: list[tuple[int, str]] = []
+def _lesson_evidence_candidate(lesson: dict[str, Any]) -> tuple[int, str] | None:
+    candidates: list[tuple[int, str, str]] = []
     assessment = lesson.get("assessment")
     if isinstance(assessment, str) and assessment.strip():
-        candidates.append((_candidate_score(assessment, source="assessment"), assessment))
+        candidates.append(
+            (_candidate_score(assessment, source="assessment"), assessment, "assessment")
+        )
     for action in lesson.get("student_actions", []):
         if not isinstance(action, str) or not action.strip():
             continue
         if any(term in action.casefold() for term in CONCRETE_EVIDENCE_TERMS):
-            candidates.append((_candidate_score(action, source="student_action"), action))
+            candidates.append(
+                (_candidate_score(action, source="student_action"), action, "student_action")
+            )
     if not candidates:
         title = lesson.get("title")
         if isinstance(title, str) and title.strip():
-            return f"{title.strip()} kaydı"
+            return 0, f"{title.strip()} kaydı"
         return None
-    _score, chosen = max(candidates, key=lambda item: (item[0], len(item[1])))
+
+    score, chosen, source = max(candidates, key=lambda item: (item[0], len(item[1])))
     label = _clean_evidence_sentence(chosen)
     if not label:
         return None
-    # If the chosen sentence is an action rather than a named artifact, retain
-    # the lesson title so the evidence remains pedagogically identifiable.
-    if chosen in lesson.get("student_actions", []):
+    if source == "student_action":
         title = str(lesson.get("title") or "").strip()
         if title:
-            return f"{title}: {label}"
-    return label
+            label = f"{title}: {label}"
+    return score, label
 
 
 def _best_package_evidence(
@@ -165,11 +174,9 @@ def _best_package_evidence(
     for lesson in allowed:
         if not isinstance(lesson, dict):
             continue
-        label = _lesson_evidence_label(lesson)
-        if not label:
-            continue
-        assessment = str(lesson.get("assessment") or "")
-        candidates.append((_candidate_score(assessment, source="assessment"), label))
+        candidate = _lesson_evidence_candidate(lesson)
+        if candidate is not None:
+            candidates.append(candidate)
     if not candidates:
         return None
     return max(candidates, key=lambda item: (item[0], len(item[1])))[1]
@@ -180,7 +187,7 @@ def _block_plans(block_dir: Path) -> dict[int, dict[str, Any]]:
     for path in sorted(block_dir.glob("*_P*.json")):
         try:
             number = _package_no(path)
-        except ValueError:
+        except EvidenceResolutionError:
             continue
         result[number] = _read_json(path)
     return result
@@ -217,20 +224,28 @@ def _evidence_labels(
     return labels[-max_items:]
 
 
-def _case_phrase(labels: list[str], ending: str) -> str:
+def _evidence_phrase(labels: list[str], ending: str | None, *, source_ref: str) -> str:
+    if not labels:
+        raise EvidenceResolutionError(
+            f"SPECIFIC_ASSESSMENT_EVIDENCE_NOT_FOUND:{source_ref}"
+        )
     joined = "; ".join(labels)
-    suffix = ending.casefold()
-    if suffix == "lerinden":
+    suffix = (ending or "").casefold()
+    if suffix in {"lerinden", "lerden", "ünden", "den"}:
         base = "önceki derslerdeki somut ölçme kanıtlarından"
-    elif suffix == "lerine":
+    elif suffix in {"lerine", "lere", "üne", "e"}:
         base = "önceki derslerdeki somut ölçme kanıtlarına"
-    elif suffix == "lerini":
+    elif suffix in {"lerini", "ünü", "ü"}:
         base = "önceki derslerdeki somut ölçme kanıtlarını"
-    elif suffix == "leriyle":
+    elif suffix in {"leriyle", "lerle", "üyle", "le"}:
         base = "önceki derslerdeki somut ölçme kanıtlarıyla"
+    elif suffix in {"lerin", "ün"}:
+        base = "önceki derslerdeki somut ölçme kanıtlarının"
+    elif suffix in {"lerde", "ünde", "de"}:
+        base = "önceki derslerdeki somut ölçme kanıtlarında"
     else:
         base = "önceki derslerdeki somut ölçme kanıtları"
-    return f"{base} ({joined})" if joined else base
+    return f"{base} ({joined})"
 
 
 def _expand_inline(
@@ -241,14 +256,20 @@ def _expand_inline(
     current_lesson_no: int | None,
 ) -> str:
     def range_replacement(match: re.Match[str]) -> str:
+        start = int(match.group("start"))
+        end = int(match.group("end"))
         labels = _evidence_labels(
             block_plans=block_plans,
-            start=int(match.group("start")),
-            end=int(match.group("end")),
+            start=start,
+            end=end,
             current_package=current_package,
             current_lesson_no=current_lesson_no,
         )
-        return _case_phrase(labels, match.group("ending"))
+        return _evidence_phrase(
+            labels,
+            match.group("ending"),
+            source_ref=f"P{start:02d}-P{end:02d}@P{current_package:02d}",
+        )
 
     value = PACKAGE_EVIDENCE_RE.sub(range_replacement, text)
 
@@ -261,9 +282,13 @@ def _expand_inline(
             current_lesson_no=current_lesson_no,
             max_items=5,
         )
-        return _case_phrase(labels, match.group("ending"))
+        return _evidence_phrase(
+            labels,
+            match.group("ending"),
+            source_ref=f"PRIOR@P{current_package:02d}",
+        )
 
-    return GENERIC_EVIDENCE_RE.sub(generic_replacement, value)
+    return GENERIC_PRIOR_EVIDENCE_RE.sub(generic_replacement, value)
 
 
 def _expand_materials(
@@ -279,14 +304,20 @@ def _expand_materials(
             result.append(item)
             continue
         match = PACKAGE_EVIDENCE_RE.search(item)
-        if match and match.group("ending").casefold() == "leri":
+        if match and (match.group("ending") or "").casefold() in {"", "leri"}:
+            start = int(match.group("start"))
+            end = int(match.group("end"))
             labels = _evidence_labels(
                 block_plans=block_plans,
-                start=int(match.group("start")),
-                end=int(match.group("end")),
+                start=start,
+                end=end,
                 current_package=current_package,
                 current_lesson_no=current_lesson_no,
             )
+            if not labels:
+                raise EvidenceResolutionError(
+                    f"SPECIFIC_ASSESSMENT_EVIDENCE_NOT_FOUND:P{start:02d}-P{end:02d}@P{current_package:02d}"
+                )
             prefix = item[: match.start()].strip(" ,;:-")
             prefix = re.sub(r"\s+(?:ve|ile)$", "", prefix, flags=re.IGNORECASE).strip()
             suffix = item[match.end() :].strip(" ,;:-")
@@ -370,29 +401,42 @@ def project_specific_assessment_evidence(
             current_package=current_package,
             current_lesson_no=None,
         )
+
+    unresolved = vague_evidence_errors(result)
+    if unresolved:
+        raise EvidenceResolutionError(
+            "UNRESOLVED_VAGUE_PRIOR_EVIDENCE:" + ";".join(unresolved[:10])
+        )
     return result
 
 
 def iter_teacher_strings(plan: dict[str, Any]) -> Iterable[tuple[str, str]]:
-    def walk(value: Any, path: str = "", key: str | None = None) -> Iterable[tuple[str, str]]:
+    # The detector is deliberately broader than the projection mutator. If a
+    # newly added teacher-facing field contains vague evidence prose, validation
+    # must fail rather than silently letting it through.
+    def walk(value: Any, path: str = "") -> Iterable[tuple[str, str]]:
         if isinstance(value, dict):
             for child_key, child in value.items():
                 child_path = f"{path}.{child_key}" if path else child_key
-                yield from walk(child, child_path, child_key)
+                yield from walk(child, child_path)
         elif isinstance(value, list):
             for index, child in enumerate(value):
-                yield from walk(child, f"{path}[{index}]", key)
-        elif isinstance(value, str) and key in TEACHER_TEXT_KEYS:
+                yield from walk(child, f"{path}[{index}]")
+        elif isinstance(value, str):
             yield path, value
 
     yield from walk(plan)
 
 
 def vague_evidence_errors(plan: dict[str, Any]) -> list[str]:
-    """Reject generic prior-product prose in newly generated teacher plans."""
+    """Reject generic product prose when an actual evidence name is required."""
     errors: list[str] = []
     for path, text in iter_teacher_strings(plan):
-        match = PACKAGE_EVIDENCE_RE.search(text) or GENERIC_EVIDENCE_RE.search(text)
+        match = (
+            PACKAGE_EVIDENCE_RE.search(text)
+            or GENERIC_PRIOR_EVIDENCE_RE.search(text)
+            or BARE_EVIDENCE_RE.search(text)
+        )
         if match:
             errors.append(f"VAGUE_PRIOR_EVIDENCE:{path}:{match.group(0)}")
     return errors
