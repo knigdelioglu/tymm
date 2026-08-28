@@ -145,14 +145,19 @@ def _contains_vague_evidence(text: str) -> bool:
 def _lesson_evidence_candidate(lesson: dict[str, Any]) -> tuple[int, str] | None:
     candidates: list[tuple[int, str, str]] = []
     assessment = lesson.get("assessment")
-    if (
-        isinstance(assessment, str)
-        and assessment.strip()
-        and not _contains_vague_evidence(assessment)
-    ):
-        candidates.append(
-            (_candidate_score(assessment, source="assessment"), assessment, "assessment")
-        )
+    if isinstance(assessment, str) and assessment.strip():
+        # A later explanatory sentence may mention "previous products" even
+        # when the first sentence already names the real assessment artifact.
+        # Score the first concrete sentence instead of discarding the whole field.
+        assessment_sentence = _first_sentence(assessment)
+        if assessment_sentence and not _contains_vague_evidence(assessment_sentence):
+            candidates.append(
+                (
+                    _candidate_score(assessment_sentence, source="assessment"),
+                    assessment_sentence,
+                    "assessment",
+                )
+            )
     for action in lesson.get("student_actions", []):
         if not isinstance(action, str) or not action.strip():
             continue
@@ -220,6 +225,7 @@ def _evidence_labels(
     current_lesson_no: int | None,
     max_items: int = 7,
 ) -> list[str]:
+    """Evidence that is already available before the current lesson."""
     if end < start:
         return []
     labels: list[str] = []
@@ -231,8 +237,6 @@ def _evidence_labels(
             continue
         lesson_limit: int | None = None
         if package_no == current_package:
-            # Plan-level prose is evaluated before the current package; lesson
-            # prose may use evidence from earlier lessons in the same package.
             lesson_limit = max((current_lesson_no or 1) - 1, 0)
             if lesson_limit == 0:
                 continue
@@ -242,27 +246,104 @@ def _evidence_labels(
     return labels[-max_items:]
 
 
-def _evidence_phrase(labels: list[str], ending: str | None, *, source_ref: str) -> str:
+def _referenced_range_labels(
+    *,
+    block_plans: dict[int, dict[str, Any]],
+    start: int,
+    end: int,
+    current_package: int,
+    current_lesson_no: int | None,
+    max_items: int = 7,
+) -> list[str]:
+    """Resolve an explicit package range, including source-bound future plans."""
+    if end < start:
+        return []
+    labels: list[str] = []
+    for package_no in range(start, end + 1):
+        plan = block_plans.get(package_no)
+        if plan is None:
+            continue
+        lesson_limit: int | None = None
+        if package_no == current_package and current_lesson_no is not None:
+            # For the current package, do not expose a not-yet-produced lesson
+            # as completed evidence. Future packages, however, are canonical
+            # planned evidence and may be described as such.
+            lesson_limit = max(current_lesson_no - 1, 0)
+            if lesson_limit == 0:
+                continue
+        label = _best_package_evidence(plan, lesson_limit=lesson_limit)
+        if label and label not in labels:
+            labels.append(label)
+    return labels[-max_items:]
+
+
+def _scope_for_range(start: int, end: int, current_package: int) -> str:
+    if end < current_package:
+        return "prior"
+    if start > current_package:
+        return "future"
+    return "referenced"
+
+
+def _evidence_phrase(
+    labels: list[str],
+    ending: str | None,
+    *,
+    source_ref: str,
+    scope: str = "prior",
+) -> str:
     if not labels:
         raise EvidenceResolutionError(
             f"SPECIFIC_ASSESSMENT_EVIDENCE_NOT_FOUND:{source_ref}"
         )
     joined = "; ".join(labels)
     suffix = (ending or "").casefold()
-    if suffix in {"lerinden", "lerden", "ünden", "den"}:
-        base = "önceki derslerdeki somut ölçme kanıtlarından"
-    elif suffix in {"lerine", "lere", "üne", "e"}:
-        base = "önceki derslerdeki somut ölçme kanıtlarına"
-    elif suffix in {"lerini", "ünü", "ü"}:
-        base = "önceki derslerdeki somut ölçme kanıtlarını"
-    elif suffix in {"leriyle", "lerle", "üyle", "le"}:
-        base = "önceki derslerdeki somut ölçme kanıtlarıyla"
-    elif suffix in {"lerin", "ün"}:
-        base = "önceki derslerdeki somut ölçme kanıtlarının"
-    elif suffix in {"lerde", "ünde", "de"}:
-        base = "önceki derslerdeki somut ölçme kanıtlarında"
+
+    if scope == "future":
+        forms = {
+            "ablative": "sonraki dersler için planlanan somut ölçme kanıtlarından",
+            "dative": "sonraki dersler için planlanan somut ölçme kanıtlarına",
+            "accusative": "sonraki dersler için planlanan somut ölçme kanıtlarını",
+            "instrumental": "sonraki dersler için planlanan somut ölçme kanıtlarıyla",
+            "genitive": "sonraki dersler için planlanan somut ölçme kanıtlarının",
+            "locative": "sonraki dersler için planlanan somut ölçme kanıtlarında",
+            "nominative": "sonraki dersler için planlanan somut ölçme kanıtları",
+        }
+    elif scope == "referenced":
+        forms = {
+            "ablative": "ilgili derslerdeki somut ölçme kanıtlarından",
+            "dative": "ilgili derslerdeki somut ölçme kanıtlarına",
+            "accusative": "ilgili derslerdeki somut ölçme kanıtlarını",
+            "instrumental": "ilgili derslerdeki somut ölçme kanıtlarıyla",
+            "genitive": "ilgili derslerdeki somut ölçme kanıtlarının",
+            "locative": "ilgili derslerdeki somut ölçme kanıtlarında",
+            "nominative": "ilgili derslerdeki somut ölçme kanıtları",
+        }
     else:
-        base = "önceki derslerdeki somut ölçme kanıtları"
+        forms = {
+            "ablative": "önceki derslerdeki somut ölçme kanıtlarından",
+            "dative": "önceki derslerdeki somut ölçme kanıtlarına",
+            "accusative": "önceki derslerdeki somut ölçme kanıtlarını",
+            "instrumental": "önceki derslerdeki somut ölçme kanıtlarıyla",
+            "genitive": "önceki derslerdeki somut ölçme kanıtlarının",
+            "locative": "önceki derslerdeki somut ölçme kanıtlarında",
+            "nominative": "önceki derslerdeki somut ölçme kanıtları",
+        }
+
+    if suffix in {"lerinden", "lerden", "ünden", "den"}:
+        base = forms["ablative"]
+    elif suffix in {"lerine", "lere", "üne", "e"}:
+        base = forms["dative"]
+    elif suffix in {"lerini", "ünü", "ü"}:
+        base = forms["accusative"]
+    elif suffix in {"leriyle", "lerle", "üyle", "le"}:
+        base = forms["instrumental"]
+    elif suffix in {"lerin", "ün"}:
+        base = forms["genitive"]
+    elif suffix in {"lerde", "ünde", "de"}:
+        base = forms["locative"]
+    else:
+        base = forms["nominative"]
     return f"{base} ({joined})"
 
 
@@ -300,7 +381,7 @@ def _expand_inline(
     def range_replacement(match: re.Match[str]) -> str:
         start = int(match.group("start"))
         end = int(match.group("end"))
-        labels = _evidence_labels(
+        labels = _referenced_range_labels(
             block_plans=block_plans,
             start=start,
             end=end,
@@ -311,6 +392,7 @@ def _expand_inline(
             labels,
             match.group("ending"),
             source_ref=f"P{start:02d}-P{end:02d}@P{current_package:02d}",
+            scope=_scope_for_range(start, end, current_package),
         )
 
     value = PACKAGE_EVIDENCE_RE.sub(range_replacement, text)
@@ -332,10 +414,6 @@ def _expand_inline(
 
     value = GENERIC_PRIOR_EVIDENCE_RE.sub(generic_replacement, value)
 
-    # Bare product prose has no explicit temporal anchor. In a lesson field the
-    # safest source-bound interpretation is the lesson's own named assessment
-    # evidence. Plan-level bare prose can only be resolved from completed prior
-    # lessons; otherwise projection fails closed.
     def bare_replacement(match: re.Match[str]) -> str:
         if current_lesson is not None:
             candidate = _lesson_evidence_candidate(current_lesson)
@@ -379,7 +457,7 @@ def _expand_materials(
         if match and (match.group("ending") or "").casefold() in {"", "ler", "leri"}:
             start = int(match.group("start"))
             end = int(match.group("end"))
-            labels = _evidence_labels(
+            labels = _referenced_range_labels(
                 block_plans=block_plans,
                 start=start,
                 end=end,
