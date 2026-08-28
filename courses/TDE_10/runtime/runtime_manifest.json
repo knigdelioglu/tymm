@@ -3,7 +3,7 @@
   "schema_version": "1.2.0",
   "course_id": "TDE_10",
   "grade": 10,
-  "build_timestamp": "2026-08-26T09:40:14Z",
+  "build_timestamp": "2026-08-28T13:39:25Z",
   "compiler_version": "1.2.0",
   "canonical_source_files": [
     "../TDE_SHARED/curriculum_process_component_catalog.json",
@@ -302,7 +302,7 @@
     "source_equivalence_status": true,
     "binding_key_semantics": true
   },
-  "lesson_plan_payload_projection_version": "1.1.0",
+  "lesson_plan_payload_projection_version": "1.2.0",
   "lesson_plan_schema_version": "skill/tymm-material-planner/schemas/lesson_plan.schema.json",
   "lesson_plan_package_count": 88,
   "lesson_plan_instruction_hours": 172,
@@ -321,7 +321,9 @@
     "package_payload_json": true,
     "block_package_navigation": true,
     "source_hash_per_package": true,
-    "source_payload_parity": true,
+    "source_payload_parity": false,
+    "teacher_facing_projection": true,
+    "teacher_projection_source_bound": true,
     "validation_bound": true,
     "calendar_neutral": true
   }

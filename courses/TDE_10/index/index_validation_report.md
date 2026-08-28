@@ -1,7 +1,7 @@
 # Knowledge Index Validation Report
 
 - **Course ID**: TDE_10
-- **Build Timestamp**: 2026-08-26T09:40:11.843489+00:00
+- **Build Timestamp**: 2026-08-28T13:39:22.816373+00:00
 - **Status**: SUCCESS
 - **Total Indexed Records**: 748
 - **Production Schema**: 1.1
