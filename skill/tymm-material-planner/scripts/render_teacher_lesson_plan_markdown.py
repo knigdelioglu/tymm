@@ -15,6 +15,7 @@ import re
 from pathlib import Path
 from typing import Any
 
+import lesson_plan_evidence_quality
 import render_lesson_plan_markdown as canonical_renderer
 import teacher_facing_text
 
@@ -207,6 +208,7 @@ def render_teacher(
     *,
     catalog: teacher_facing_text.TeacherReferenceCatalog,
     package_ranges: dict[int, teacher_facing_text.PackageRange],
+    source_digest: str | None = None,
 ) -> str:
     display = _teacher_display_plan(
         plan,
@@ -216,7 +218,7 @@ def render_teacher(
     markdown = canonical_renderer.render(display)
     markdown = _polish_markdown(
         markdown,
-        source_digest=canonical_renderer.canonical_digest(plan),
+        source_digest=source_digest or canonical_renderer.canonical_digest(plan),
     )
     unresolved = visible_technical_references(markdown)
     if unresolved:
@@ -237,8 +239,17 @@ def export_course(root: Path, *, output_root: Path | None = None) -> dict[str, A
         relative = json_path.relative_to(source_root)
         destination = destination_root / relative.with_suffix(".md")
         plan = canonical_renderer.read_json(json_path)
+        evidence_plan = lesson_plan_evidence_quality.project_specific_assessment_evidence(
+            plan,
+            plan_path=json_path,
+        )
         ranges = teacher_facing_text.package_ranges_for_block(json_path.parent)
-        markdown = render_teacher(plan, catalog=catalog, package_ranges=ranges)
+        markdown = render_teacher(
+            evidence_plan,
+            catalog=catalog,
+            package_ranges=ranges,
+            source_digest=canonical_renderer.canonical_digest(plan),
+        )
         destination.parent.mkdir(parents=True, exist_ok=True)
         destination.write_text(markdown, encoding="utf-8")
         written += 1

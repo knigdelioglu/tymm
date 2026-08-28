@@ -17,6 +17,7 @@ from pathlib import Path
 from typing import Any, Callable
 
 import lesson_plan_context
+import lesson_plan_evidence_quality
 import validate_lesson_plan
 
 GENERATOR_VERSION = "1.0.0"
@@ -124,6 +125,8 @@ def build_model_request(
         "etkinlik kimliklerini, form kimliklerini ve süreyi kullan. Kitap sayfası veya MEB onayı uydurma. "
         "Takvim, hafta, tarih, ara tatil ve akademik yıl bilgisi üretme. "
         "Öğretim akışını pedagojik öneri olarak tasarla; bunu resmî MEB alt-ders sıralaması gibi sunma. "
+        "Önceki öğrenme veya ölçme kanıtına atıf gerekiyorsa çalışma ürünleri gibi toplu ifadeler kullanma; "
+        "metni ve somut kanıt türünü adıyla belirt. "
         "Yanıt yalnız RESPONSE_SCHEMA ile uyumlu tek bir JSON nesnesi olmalıdır."
     )
     if repair:
@@ -156,6 +159,7 @@ def build_model_request(
             "Mümkün olduğunda kitap etkinliklerini yeni materyal üretmekten önce kullan.",
             "Önceki devam durumunda kullanılmış etkinlikleri pedagojik gerekçe yoksa tekrarlama.",
             "continuation_summary.remaining_block_hours, blok toplamından önceki tamamlanan saatler ve bu plan düşülerek hesaplanmalı.",
+            "Önceki öğrenme/ölçme kanıtlarına atıfta P01-P06 öğrenci çalışma ürünleri, önceki ürünler veya çalışma ürünleri gibi belirsiz toplu ifadeler kullanma; ilgili metni ve kanıtı somut adıyla yaz (ör. anlama/çözümleme cevapları ve zihin haritası, Kontrol Noktası ve düzeltme kaydı, karşılaştırma tablosu).",
             "Takvim alanları üretme.",
         ],
     }
@@ -346,6 +350,7 @@ def validate_generated_plan(
     shape_errors = validate_candidate_shape(plan)
     grounding = validate_lesson_plan.validate(context, plan)
     errors = list(shape_errors) + list(grounding.get("errors", []))
+    errors += lesson_plan_evidence_quality.vague_evidence_errors(plan)
     warnings = list(grounding.get("warnings", []))
 
     allowed = context.get("allowed_references", {})
