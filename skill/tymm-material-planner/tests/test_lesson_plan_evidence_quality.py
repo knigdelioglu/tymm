@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Regression tests for concrete prior assessment-evidence references."""
 import json
+import tempfile
 import sys
 import unittest
 from pathlib import Path
@@ -71,6 +72,28 @@ class LessonPlanEvidenceQualityTests(unittest.TestCase):
             text,
         )
 
+    def test_singular_previous_product_is_also_resolved(self):
+        path, plan = self.read(
+            "generated/lesson_plans/TEMA_01/BLOCK_T1_01_OKUMA/"
+            "BLOCK_T1_01_OKUMA_P04.json"
+        )
+        projected = evidence_quality.project_specific_assessment_evidence(
+            plan,
+            plan_path=path,
+        )
+        lesson = projected["lessons"][0]
+        text = "\n".join(
+            [
+                lesson["objective"],
+                *lesson["teacher_actions"],
+                *lesson["student_actions"],
+                lesson["assessment"],
+            ]
+        )
+        self.assertNotIn("önceki ürün", text.casefold())
+        self.assertNotIn("çalışma ürün", text.casefold())
+        self.assertIn("somut ölçme kanıt", text)
+
     def test_generator_quality_gate_detects_vague_prior_products(self):
         plan = {
             "plan_summary": "Önceki dersin somut kanıtı kullanılır.",
@@ -79,12 +102,47 @@ class LessonPlanEvidenceQualityTests(unittest.TestCase):
                     "title": "Tahlil",
                     "materials": ["P01-P06 öğrenci çalışma ürünleri"],
                     "teacher_actions": ["Önceki çalışma ürünlerinden kanıt seçtir."],
+                    "assessment": "Önceki ürün ile karşılaştır.",
                 }
             ],
         }
         errors = evidence_quality.vague_evidence_errors(plan)
-        self.assertGreaterEqual(len(errors), 2)
+        self.assertGreaterEqual(len(errors), 3)
         self.assertTrue(all(error.startswith("VAGUE_PRIOR_EVIDENCE:") for error in errors))
+
+    def test_bare_work_product_phrase_is_rejected_for_new_teacher_prose(self):
+        plan = {
+            "lessons": [
+                {
+                    "materials": ["Çalışma ürünleri"],
+                }
+            ]
+        }
+        errors = evidence_quality.vague_evidence_errors(plan)
+        self.assertEqual(len(errors), 1)
+        self.assertIn("VAGUE_PRIOR_EVIDENCE", errors[0])
+
+    def test_unresolvable_prior_product_fails_closed(self):
+        plan = {
+            "plan_summary": "Önceki çalışma ürünlerinden bir kanıt seç.",
+            "lessons": [
+                {
+                    "lesson_no": 1,
+                    "assessment": "Bu dersin kanıtı daha sonra oluşur.",
+                }
+            ],
+        }
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "BLOCK_TEST_P01.json"
+            path.write_text(json.dumps(plan, ensure_ascii=False), encoding="utf-8")
+            with self.assertRaisesRegex(
+                evidence_quality.EvidenceResolutionError,
+                "SPECIFIC_ASSESSMENT_EVIDENCE_NOT_FOUND",
+            ):
+                evidence_quality.project_specific_assessment_evidence(
+                    plan,
+                    plan_path=path,
+                )
 
     def test_named_evidence_is_not_rejected(self):
         plan = {
