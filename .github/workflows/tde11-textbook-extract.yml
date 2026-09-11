@@ -11,7 +11,7 @@ permissions:
   contents: write
 
 jobs:
-  extract:
+  analyze:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -19,63 +19,78 @@ jobs:
           ref: work/tde11-textbook-completion-20260911
           fetch-depth: 1
 
-      - name: Install PDF tools
+      - name: Build compact page and marker inventory
         run: |
-          sudo apt-get update
-          sudo apt-get install -y poppler-utils
+          python3 - <<'PY'
+          import json, re, pathlib
+          root = pathlib.Path('courses/TDE_11/.work/textbook_extract')
+          chunks = sorted((root/'chunks').glob('chunk_*.txt'))
+          pages=[]
+          for ch in chunks:
+              m=re.search(r'_p(\d+)-p(\d+)\.txt$', ch.name)
+              start=int(m.group(1))
+              raw=ch.read_text(encoding='utf-8', errors='replace').split('\f')
+              for i,txt in enumerate(raw):
+                  p=start+i
+                  if p>313 or not txt.strip(): continue
+                  lines=[re.sub(r'\s+',' ',x).strip() for x in txt.splitlines() if x.strip()]
+                  pages.append((p, lines))
 
-      - name: Extract textbook text in page chunks
-        shell: bash
-        run: |
-          set -euo pipefail
-          PDF='courses/TDE_11/source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf'
-          OUT='courses/TDE_11/.work/textbook_extract'
-          rm -rf "$OUT"
-          mkdir -p "$OUT/chunks"
+          kw = re.compile(r'(ETKİNLİK|ETKİNLİĞİ|DEĞERLENDİR|ÖLÇME|ÖZ DEĞERLENDİR|AKRAN|DERECELİ|PUANLAMA|RUBRİK|KONTROL LİST|FORMU|FORM |QR|EBA|PERFORMANS|PROJE|YAZMA|KONUŞMA|DİNLEME|OKUMA|TEMA SONU|ÜNİTE SONU|ÖĞRENME GÜNLÜĞ|YANSITMA)', re.I)
+          marker=[]; summary=[]
+          for p,lines in pages:
+              hits=[]
+              for idx,line in enumerate(lines):
+                  if kw.search(line):
+                      rec={'pdf_page':p,'line':idx+1,'text':line[:500],
+                           'before':lines[max(0,idx-2):idx], 'after':lines[idx+1:idx+4]}
+                      marker.append(rec); hits.append(rec)
+              summary.append({'pdf_page':p,'head':[x for x in lines[:18] if len(x)<=140][:10],
+                              'tail':[x for x in lines[-8:] if len(x)<=100][-4:],
+                              'marker_count':len(hits)})
 
-          PDF_PAGES=$(pdfinfo "$PDF" | awk '/^Pages:/ {print $2}')
-          PDF_SHA256=$(sha256sum "$PDF" | awk '{print $1}')
-          PDF_SIZE=$(stat -c '%s' "$PDF")
+          out=root/'analysis'; out.mkdir(exist_ok=True)
+          (out/'page_summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          (out/'marker_inventory.json').write_text(json.dumps(marker,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          marker_pages={x['pdf_page'] for x in marker}
+          with (out/'marker_pages.jsonl').open('w',encoding='utf-8') as f:
+              for p,lines in pages:
+                  if p in marker_pages:
+                      f.write(json.dumps({'pdf_page':p,'lines':lines},ensure_ascii=False)+'\n')
 
-          python3 - "$OUT/manifest.json" "$PDF_PAGES" "$PDF_SHA256" "$PDF_SIZE" <<'PY'
-          import json, sys
-          path, pages, sha, size = sys.argv[1:]
-          with open(path, 'w', encoding='utf-8') as f:
-              json.dump({
-                  'source_path': 'courses/TDE_11/source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf',
-                  'page_count_pdf': int(pages),
-                  'sha256': sha,
-                  'size_bytes': int(size),
-                  'chunk_size_pages': 20,
-                  'extraction_tool': 'pdftotext -layout'
-              }, f, ensure_ascii=False, indent=2)
-              f.write('\n')
+          cm=json.loads(pathlib.Path('courses/TDE_11/curriculum_map.json').read_text(encoding='utf-8'))
+          found=[]
+          def walk(x,path=''):
+              if isinstance(x,dict):
+                  oid=None
+                  for k in ('outcome_id','learning_outcome_id','canonical_key','id','code'):
+                      v=x.get(k)
+                      if isinstance(v,str) and (v.upper().startswith('TDE') or re.search(r'11\.',v)):
+                          oid=v; break
+                  if oid:
+                      found.append({'path':path,'id':oid,'object':x})
+                  for k,v in x.items(): walk(v,path+'/'+str(k))
+              elif isinstance(x,list):
+                  for i,v in enumerate(x): walk(v,path+f'/{i}')
+          walk(cm)
+          seen=set(); uniq=[]
+          for r in found:
+              key=(r['id'],r['path'])
+              if key not in seen:
+                  seen.add(key); uniq.append(r)
+          (out/'curriculum_objects.json').write_text(json.dumps(uniq,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          (out/'stats.json').write_text(json.dumps({'pages':len(pages),'markers':len(marker),'marker_pages':len(marker_pages),'curriculum_objects':len(uniq)},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
           PY
 
-          start=1
-          idx=1
-          while [ "$start" -le "$PDF_PAGES" ]; do
-            end=$((start + 19))
-            if [ "$end" -gt "$PDF_PAGES" ]; then end="$PDF_PAGES"; fi
-            printf -v n '%03d' "$idx"
-            printf -v ps '%03d' "$start"
-            printf -v pe '%03d' "$end"
-            pdftotext -layout -f "$start" -l "$end" "$PDF" "$OUT/chunks/chunk_${n}_p${ps}-p${pe}.txt"
-            start=$((end + 1))
-            idx=$((idx + 1))
-          done
-
-          pdfinfo "$PDF" > "$OUT/pdfinfo.txt"
-
-      - name: Commit extracted working text
+      - name: Commit compact analysis
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add courses/TDE_11/.work/textbook_extract
+          git add courses/TDE_11/.work/textbook_extract/analysis
           if git diff --cached --quiet; then
-            echo 'No extraction changes.'
+            echo 'No analysis changes.'
           else
-            git commit -m 'chore(tde11): extract textbook text for canonical mapping'
+            git commit -m 'chore(tde11): build textbook analysis inventory'
             git push origin HEAD:work/tde11-textbook-completion-20260911
           fi
