@@ -1,0 +1,81 @@
+name: TDE11 textbook extraction
+
+on:
+  push:
+    branches:
+      - work/tde11-textbook-completion-20260911
+    paths:
+      - .github/workflows/tde11-textbook-extract.yml
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: work/tde11-textbook-completion-20260911
+          fetch-depth: 1
+
+      - name: Install PDF tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils
+
+      - name: Extract textbook text in page chunks
+        shell: bash
+        run: |
+          set -euo pipefail
+          PDF='courses/TDE_11/source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf'
+          OUT='courses/TDE_11/.work/textbook_extract'
+          rm -rf "$OUT"
+          mkdir -p "$OUT/chunks"
+
+          PDF_PAGES=$(pdfinfo "$PDF" | awk '/^Pages:/ {print $2}')
+          PDF_SHA256=$(sha256sum "$PDF" | awk '{print $1}')
+          PDF_SIZE=$(stat -c '%s' "$PDF")
+
+          python3 - "$OUT/manifest.json" "$PDF_PAGES" "$PDF_SHA256" "$PDF_SIZE" <<'PY'
+          import json, sys
+          path, pages, sha, size = sys.argv[1:]
+          with open(path, 'w', encoding='utf-8') as f:
+              json.dump({
+                  'source_path': 'courses/TDE_11/source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf',
+                  'page_count_pdf': int(pages),
+                  'sha256': sha,
+                  'size_bytes': int(size),
+                  'chunk_size_pages': 20,
+                  'extraction_tool': 'pdftotext -layout'
+              }, f, ensure_ascii=False, indent=2)
+              f.write('\n')
+          PY
+
+          start=1
+          idx=1
+          while [ "$start" -le "$PDF_PAGES" ]; do
+            end=$((start + 19))
+            if [ "$end" -gt "$PDF_PAGES" ]; then end="$PDF_PAGES"; fi
+            printf -v n '%03d' "$idx"
+            printf -v ps '%03d' "$start"
+            printf -v pe '%03d' "$end"
+            pdftotext -layout -f "$start" -l "$end" "$PDF" "$OUT/chunks/chunk_${n}_p${ps}-p${pe}.txt"
+            start=$((end + 1))
+            idx=$((idx + 1))
+          done
+
+          pdfinfo "$PDF" > "$OUT/pdfinfo.txt"
+
+      - name: Commit extracted working text
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add courses/TDE_11/.work/textbook_extract
+          if git diff --cached --quiet; then
+            echo 'No extraction changes.'
+          else
+            git commit -m 'chore(tde11): extract textbook text for canonical mapping'
+            git push origin HEAD:work/tde11-textbook-completion-20260911
+          fi
