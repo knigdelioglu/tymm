@@ -1,0 +1,113 @@
+{
+  "course_id": "TDE_11",
+  "canonical": {
+    "themes": 4,
+    "outcomes": 64,
+    "status": "PASS",
+    "process_component_inheritance": {
+      "schema_version": "1.2",
+      "course_id": "TDE_11",
+      "catalog_id": "TDE_2024_ROOF_PROCESS_COMPONENTS",
+      "contract_mode": "COMPACT_ALL_OUTCOMES",
+      "contract_status": "MATCHED",
+      "legacy_field_semantics": "THEME_EXPLICIT_ONLY_UNTIL_SCHEMA_RENAME",
+      "counts": {
+        "total_outcomes": 64,
+        "outcomes_with_roof_components": 64,
+        "explicit_component_outcomes": 0,
+        "inherited_component_outcomes": 64,
+        "verified_no_component_outcomes": 0,
+        "unresolved_component_outcomes": 0,
+        "inheritance_missing_count": 0,
+        "structural_error_count": 0
+      },
+      "mismatch_count": 0,
+      "final": "PASS"
+    }
+  },
+  "production_schema": {
+    "schema_version": "1.1",
+    "production_mode": "PARITY_REVIEW_BLOCKED",
+    "verified_resource_gap_count": 0,
+    "unresolved_assessment_target_count": 8,
+    "expected_new_artifact_count": 0,
+    "artifact_ids": [],
+    "gap_aliases": [],
+    "status": "PASS"
+  },
+  "index_rebuild": {
+    "freshness": "INDEX_FRESH",
+    "indexed_record_count": 755,
+    "artifact_rows": [],
+    "duplicate_entity_keys": 0,
+    "process_component_origins": {
+      "roof_inherited": 264
+    },
+    "status": "PASS"
+  },
+  "resolver": {
+    "structured_probes": [
+      {
+        "query": "Tema 1 TDE4.4 için kitapta ne eksik?",
+        "coverage": "PARTIALLY_COVERED"
+      },
+      {
+        "query": "Tema 2 TDE4.4 için kitapta ne eksik?",
+        "coverage": "PARTIALLY_COVERED"
+      },
+      {
+        "query": "Tema 3 TDE4.4 için kitapta ne eksik?",
+        "coverage": "PARTIALLY_COVERED"
+      },
+      {
+        "query": "Tema 4 TDE4.4 için kitapta ne eksik?",
+        "coverage": "PARTIALLY_COVERED"
+      }
+    ],
+    "ambiguity_probe": {
+      "query": "TDE4.4",
+      "status": "PARTIALLY_RESOLVED",
+      "ambiguity_status": "AMBIGUOUS_ENTITY",
+      "block_reason": "AMBIGUOUS_ENTITY"
+    },
+    "generation_probe": {
+      "allowed": false,
+      "block_reason": "UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS"
+    },
+    "status": "PASS"
+  },
+  "stale_gate": {
+    "status": "PASS",
+    "block_reason": "INDEX_STALE"
+  },
+  "conflict_gate": {
+    "status": "PASS",
+    "conflicts": 1
+  },
+  "runtime": {
+    "status": "PASS",
+    "row_counts": {
+      "courses": 1,
+      "themes": 4,
+      "blocks": 16,
+      "block_activities": 84,
+      "outcomes": 64,
+      "block_outcomes": 64,
+      "textbook_sections": 24,
+      "activities": 84,
+      "activity_outcomes": 336,
+      "forms": 43,
+      "activity_forms": 209,
+      "resource_decisions": 64,
+      "assessment_artifacts": 0,
+      "assessment_gap_mappings": 0,
+      "assessment_task_bindings": 0,
+      "timeline_themes": 4,
+      "timeline_blocks": 16,
+      "source_references": 5,
+      "entity_source_references": 4,
+      "lesson_plan_packages": 0
+    }
+  },
+  "final": "PASS"
+}

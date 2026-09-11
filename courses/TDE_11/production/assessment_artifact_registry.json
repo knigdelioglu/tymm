@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.1",
+  "registry_version": "1.0",
+  "course_id": "TDE_11",
+  "registry_mode": "PARITY_REVIEW_BLOCKED",
+  "verified_resource_gap_count": 0,
+  "unresolved_assessment_target_count": 8,
+  "authorized_new_artifact_count": 0,
+  "external_source_equivalence_status": "Eight official QR-linked DPA targets remain structurally unresolved; no rubric content is inferred.",
+  "annual_artifacts": []
+}

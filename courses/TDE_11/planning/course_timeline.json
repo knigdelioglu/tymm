@@ -1,0 +1,360 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_11",
+  "grade": 11,
+  "timeline_resolution": "ORDER_ONLY_BLOCK_HOURS_UNSPECIFIED_BY_SOURCE",
+  "calendar_binding": {
+    "status": "NOT_BOUND",
+    "weekly_lesson_hours": null
+  },
+  "themes": [
+    {
+      "theme_id": "TEMA_01",
+      "theme_order": 1,
+      "official_total_hours": 45,
+      "core_instruction_hours": 43,
+      "school_based_hours": 2,
+      "school_based_hours_status": "USER_CONFIRMED_PLANNING_RULE",
+      "source_locators": [
+        "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/267"
+      ],
+      "blocks": [
+        {
+          "block_id": "BLOCK_T1_01_OKUMA",
+          "block_order": 1,
+          "title": "Metin Tahlili-1 (Anlama): Okuma — Karagöz Oyunu (Yazıcı) / Metin Tahlili-2 (Anlama): Okuma — Mektup (Âli’ye Mektuplar) / Dilekçe",
+          "skill_domain": "Okuma",
+          "learning_area": "Anlama",
+          "outcomes": [
+            "TDE2.1",
+            "TDE2.2",
+            "TDE2.3",
+            "TDE2.4"
+          ],
+          "planned_hours": null,
+          "time_status": "ORDER_ONLY_UNSPECIFIED_BY_SOURCE",
+          "source_locators": [
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.15-35",
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.36-52"
+          ]
+        },
+        {
+          "block_id": "BLOCK_T1_02_KONUSMA",
+          "block_order": 2,
+          "title": "Edebiyat Atölyesi-1 (Anlatma): Konuşma — Sözlü İletişim Engellerini Konu Alan Bir Drama",
+          "skill_domain": "Konuşma",
+          "learning_area": "Anlatma",
+          "outcomes": [
+            "TDE3.1",
+            "TDE3.2",
+            "TDE3.3",
+            "TDE3.4"
+          ],
+          "planned_hours": null,
+          "time_status": "ORDER_ONLY_UNSPECIFIED_BY_SOURCE",
+          "source_locators": [
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.53-58"
+          ]
+        },
+        {
+          "block_id": "BLOCK_T1_03_DINLEME",
+          "block_order": 3,
+          "title": "Metin Tahlili-3 (Anlama): Dinleme / İzleme — Değişen İletişim Araçlarının Hayatımızdaki Yeri",
+          "skill_domain": "Dinleme/İzleme",
+          "learning_area": "Anlama",
+          "outcomes": [
+            "TDE1.1",
+            "TDE1.2",
+            "TDE1.3",
+            "TDE1.4"
+          ],
+          "planned_hours": null,
+          "time_status": "ORDER_ONLY_UNSPECIFIED_BY_SOURCE",
+          "source_locators": [
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.59-73"
+          ]
+        },
+        {
+          "block_id": "BLOCK_T1_04_YAZMA",
+          "block_order": 4,
+          "title": "Edebiyat Atölyesi-2 (Anlatma): Yazma — E-Posta Yazabilme / 1. Tema Ölçme ve Değerlendirme Soruları",
+          "skill_domain": "Yazma",
+          "learning_area": "Anlatma",
+          "outcomes": [
+            "TDE4.1",
+            "TDE4.2",
+            "TDE4.3",
+            "TDE4.4"
+          ],
+          "planned_hours": null,
+          "time_status": "ORDER_ONLY_UNSPECIFIED_BY_SOURCE",
+          "source_locators": [
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.74-78",
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.79-83"
+          ]
+        }
+      ]
+    },
+    {
+      "theme_id": "TEMA_02",
+      "theme_order": 2,
+      "official_total_hours": 45,
+      "core_instruction_hours": 43,
+      "school_based_hours": 2,
+      "school_based_hours_status": "USER_CONFIRMED_PLANNING_RULE",
+      "source_locators": [
+        "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/276"
+      ],
+      "blocks": [
+        {
+          "block_id": "BLOCK_T2_01_OKUMA",
+          "block_order": 1,
+          "title": "Metin Tahlili-1 (Anlama): Okuma — Hikâye / Anı / Metin Tahlili-2 (Anlama): Okuma — Orhun Abideleri / Dîvânu Lugâti’t-Türk",
+          "skill_domain": "Okuma",
+          "learning_area": "Anlama",
+          "outcomes": [
+            "TDE2.1",
+            "TDE2.2",
+            "TDE2.3",
+            "TDE2.4"
+          ],
+          "planned_hours": null,
+          "time_status": "ORDER_ONLY_UNSPECIFIED_BY_SOURCE",
+          "source_locators": [
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.88-112",
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.113-128"
+          ]
+        },
+        {
+          "block_id": "BLOCK_T2_02_KONUSMA",
+          "block_order": 2,
+          "title": "Edebiyat Atölyesi-1 (Anlatma): Konuşma — Türk Kültürünün Özelliklerini Yansıtan Bir Konuşma",
+          "skill_domain": "Konuşma",
+          "learning_area": "Anlatma",
+          "outcomes": [
+            "TDE3.1",
+            "TDE3.2",
+            "TDE3.3",
+            "TDE3.4"
+          ],
+          "planned_hours": null,
+          "time_status": "ORDER_ONLY_UNSPECIFIED_BY_SOURCE",
+          "source_locators": [
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.129-135"
+          ]
+        },
+        {
+          "block_id": "BLOCK_T2_03_DINLEME",
+          "block_order": 3,
+          "title": "Metin Tahlili-3 (Anlama): Dinleme / İzleme — Âşık Atışması",
+          "skill_domain": "Dinleme/İzleme",
+          "learning_area": "Anlama",
+          "outcomes": [
+            "TDE1.1",
+            "TDE1.2",
+            "TDE1.3",
+            "TDE1.4"
+          ],
+          "planned_hours": null,
+          "time_status": "ORDER_ONLY_UNSPECIFIED_BY_SOURCE",
+          "source_locators": [
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.136-147"
+          ]
+        },
+        {
+          "block_id": "BLOCK_T2_04_YAZMA",
+          "block_order": 4,
+          "title": "Edebiyat Atölyesi-2 (Anlatma): Yazma — Çevrim İçi Müze Gezisiyle İlgili İzlenimleri Yazabilme / 2. Tema Ölçme ve Değerlendirme Soruları",
+          "skill_domain": "Yazma",
+          "learning_area": "Anlatma",
+          "outcomes": [
+            "TDE4.1",
+            "TDE4.2",
+            "TDE4.3",
+            "TDE4.4"
+          ],
+          "planned_hours": null,
+          "time_status": "ORDER_ONLY_UNSPECIFIED_BY_SOURCE",
+          "source_locators": [
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.148-154",
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.155-159"
+          ]
+        }
+      ]
+    },
+    {
+      "theme_id": "TEMA_03",
+      "theme_order": 3,
+      "official_total_hours": 45,
+      "core_instruction_hours": 43,
+      "school_based_hours": 2,
+      "school_based_hours_status": "USER_CONFIRMED_PLANNING_RULE",
+      "source_locators": [
+        "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322"
+      ],
+      "blocks": [
+        {
+          "block_id": "BLOCK_T3_01_OKUMA",
+          "block_order": 1,
+          "title": "Metin Tahlili-1 (Anlama): Okuma — Roman / Huzur / Metin Tahlili-2 (Anlama): Okuma — Biyografi / Tezkire",
+          "skill_domain": "Okuma",
+          "learning_area": "Anlama",
+          "outcomes": [
+            "TDE2.1",
+            "TDE2.2",
+            "TDE2.3",
+            "TDE2.4"
+          ],
+          "planned_hours": null,
+          "time_status": "ORDER_ONLY_UNSPECIFIED_BY_SOURCE",
+          "source_locators": [
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.164-193",
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.194-209"
+          ]
+        },
+        {
+          "block_id": "BLOCK_T3_02_KONUSMA",
+          "block_order": 2,
+          "title": "Edebiyat Atölyesi-1 (Anlatma): Konuşma — Hayalî Mülakat",
+          "skill_domain": "Konuşma",
+          "learning_area": "Anlatma",
+          "outcomes": [
+            "TDE3.1",
+            "TDE3.2",
+            "TDE3.3",
+            "TDE3.4"
+          ],
+          "planned_hours": null,
+          "time_status": "ORDER_ONLY_UNSPECIFIED_BY_SOURCE",
+          "source_locators": [
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.210-214"
+          ]
+        },
+        {
+          "block_id": "BLOCK_T3_03_DINLEME",
+          "block_order": 3,
+          "title": "Metin Tahlili-3 (Anlama): Dinleme / İzleme — Radyo Tiyatrosu / Direnişin Ustaları",
+          "skill_domain": "Dinleme/İzleme",
+          "learning_area": "Anlama",
+          "outcomes": [
+            "TDE1.1",
+            "TDE1.2",
+            "TDE1.3",
+            "TDE1.4"
+          ],
+          "planned_hours": null,
+          "time_status": "ORDER_ONLY_UNSPECIFIED_BY_SOURCE",
+          "source_locators": [
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.215-224"
+          ]
+        },
+        {
+          "block_id": "BLOCK_T3_04_YAZMA",
+          "block_order": 4,
+          "title": "Edebiyat Atölyesi-2 (Anlatma): Yazma — Diyaloğu Başka Bir Türe Dönüştürme / 3. Tema Ölçme ve Değerlendirme Soruları",
+          "skill_domain": "Yazma",
+          "learning_area": "Anlatma",
+          "outcomes": [
+            "TDE4.1",
+            "TDE4.2",
+            "TDE4.3",
+            "TDE4.4"
+          ],
+          "planned_hours": null,
+          "time_status": "ORDER_ONLY_UNSPECIFIED_BY_SOURCE",
+          "source_locators": [
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.225-229",
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.230-235"
+          ]
+        }
+      ]
+    },
+    {
+      "theme_id": "TEMA_04",
+      "theme_order": 4,
+      "official_total_hours": 45,
+      "core_instruction_hours": 43,
+      "school_based_hours": 2,
+      "school_based_hours_status": "USER_CONFIRMED_PLANNING_RULE",
+      "source_locators": [
+        "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/332"
+      ],
+      "blocks": [
+        {
+          "block_id": "BLOCK_T4_01_OKUMA",
+          "block_order": 1,
+          "title": "Metin Tahlili-1 (Anlama): Okuma — Tiyatro / Ben, Mimar Sinan / Metin Tahlili-2 (Anlama): Okuma — Küçürek Hikâye / Merdiven",
+          "skill_domain": "Okuma",
+          "learning_area": "Anlama",
+          "outcomes": [
+            "TDE2.1",
+            "TDE2.2",
+            "TDE2.3",
+            "TDE2.4"
+          ],
+          "planned_hours": null,
+          "time_status": "ORDER_ONLY_UNSPECIFIED_BY_SOURCE",
+          "source_locators": [
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.240-262",
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.263-279"
+          ]
+        },
+        {
+          "block_id": "BLOCK_T4_02_KONUSMA",
+          "block_order": 2,
+          "title": "Edebiyat Atölyesi-1 (Anlatma): Konuşma — Tiyatro Metnini Yeniden Kurgulayarak Canlandırma",
+          "skill_domain": "Konuşma",
+          "learning_area": "Anlatma",
+          "outcomes": [
+            "TDE3.1",
+            "TDE3.2",
+            "TDE3.3",
+            "TDE3.4"
+          ],
+          "planned_hours": null,
+          "time_status": "ORDER_ONLY_UNSPECIFIED_BY_SOURCE",
+          "source_locators": [
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.280-283"
+          ]
+        },
+        {
+          "block_id": "BLOCK_T4_03_DINLEME",
+          "block_order": 3,
+          "title": "Metin Tahlili-3 (Anlama): Dinleme / İzleme — Anadolu İnsanı / Fedakârlık",
+          "skill_domain": "Dinleme/İzleme",
+          "learning_area": "Anlama",
+          "outcomes": [
+            "TDE1.1",
+            "TDE1.2",
+            "TDE1.3",
+            "TDE1.4"
+          ],
+          "planned_hours": null,
+          "time_status": "ORDER_ONLY_UNSPECIFIED_BY_SOURCE",
+          "source_locators": [
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.284-297"
+          ]
+        },
+        {
+          "block_id": "BLOCK_T4_04_YAZMA",
+          "block_order": 4,
+          "title": "Edebiyat Atölyesi-2 (Anlatma): Yazma — Özgün Afiş Hazırlama / 4. Tema Ölçme ve Değerlendirme Soruları",
+          "skill_domain": "Yazma",
+          "learning_area": "Anlatma",
+          "outcomes": [
+            "TDE4.1",
+            "TDE4.2",
+            "TDE4.3",
+            "TDE4.4"
+          ],
+          "planned_hours": null,
+          "time_status": "ORDER_ONLY_UNSPECIFIED_BY_SOURCE",
+          "source_locators": [
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.298-302",
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.303-307"
+          ]
+        }
+      ]
+    }
+  ]
+}

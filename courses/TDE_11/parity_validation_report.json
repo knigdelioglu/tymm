@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_11",
+  "validation_status": "PARITY_REVIEW_REQUIRED_EXTERNAL_ASSESSMENT_TARGETS_UNRESOLVED",
+  "parity_certified": false,
+  "runtime_support_ready": false,
+  "counts": {
+    "themes": 4,
+    "outcomes": 64,
+    "sections": 24,
+    "activities": 84,
+    "forms": 43,
+    "covered": 56,
+    "partially_covered": 8,
+    "not_covered": 0,
+    "confirmed_required_gaps": 0,
+    "unresolved_assessment_targets": 8,
+    "authorized_artifacts": 0
+  },
+  "blocking_reason": "Eight official QR-linked Dereceli Puanlama Anahtarı targets remain structurally unresolved.",
+  "production_mode": "PARITY_REVIEW_BLOCKED"
+}

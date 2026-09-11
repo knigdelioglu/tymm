@@ -1,0 +1,626 @@
+{
+  "schema_version": "1.1",
+  "course_id": "TDE_11",
+  "grade": 11,
+  "theme_id": "TEMA_03",
+  "theme_no": 3,
+  "theme_title": "3. TEMA: YAŞAMIN İZİNDE",
+  "analysis_status": "PASS_WITH_UNRESOLVED_ASSESSMENT_TARGETS",
+  "total_outcomes_analyzed": 16,
+  "summary_metrics": {
+    "covered_count": 14,
+    "partially_covered_count": 2,
+    "not_covered_count": 0,
+    "confirmed_required_gap_count": 0,
+    "unresolved_assessment_target_count": 2,
+    "generate_count": 0,
+    "review_required_count": 2
+  },
+  "gap_records": [
+    {
+      "gap_id": "GAP_T11_T3_TDE1_1",
+      "need_id": "NEED_T11_T3_TDE1_1",
+      "resource_plan_id": "PLAN_T11_T3_TDE1_1",
+      "outcome_code": "TDE1.1",
+      "outcome_verbatim": "“Yaşamın İzinde” temasında ele alınan metinlerde dinlemeyi/izlemeyi yönetebilme",
+      "textbook_activity_ids": [
+        "T3_ACT_13_DINLEME_YONETIM"
+      ],
+      "textbook_form_ids": [
+        "FORM_T3_P216_GOZLEM_FORMU_05"
+      ],
+      "textbook_locators": [
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.216"
+      ],
+      "observed_textbook_structure": {
+        "student_action": "Dinleme/izleme amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve tahminde bulunur.",
+        "expected_evidence": "Amaç/strateji kaydı, tahmin ve hazırlık notları.",
+        "assessment_structures": [
+          "observation_form"
+        ]
+      },
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "NONE",
+      "why_existing_resources_are_insufficient": "N/A - textbook path is sufficient.",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "program_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE1.1",
+        "assessment_requirement": {
+          "normative_requirement": "Öğrencinin ilgili öğrenme çıktısını görünür kanıt ve geri bildirim yolu üzerinden gerçekleştirmesi ve değerlendirmesi.",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE1.1"
+        },
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.216"
+        ]
+      }
+    },
+    {
+      "gap_id": "GAP_T11_T3_TDE1_2",
+      "need_id": "NEED_T11_T3_TDE1_2",
+      "resource_plan_id": "PLAN_T11_T3_TDE1_2",
+      "outcome_code": "TDE1.2",
+      "outcome_verbatim": "“Yaşamın İzinde” temasında ele alınan metinlerde anlam oluşturabilme",
+      "textbook_activity_ids": [
+        "T3_ACT_14_DINLEME_ICERIK_ANLAM"
+      ],
+      "textbook_form_ids": [],
+      "textbook_locators": [
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.217-220"
+      ],
+      "observed_textbook_structure": {
+        "student_action": "Dinlenen/izlenen metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur.",
+        "expected_evidence": "Anlama sorularına cevaplar ve yapılandırılmış dinleme/izleme notları.",
+        "assessment_structures": []
+      },
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "NONE",
+      "why_existing_resources_are_insufficient": "N/A - textbook path is sufficient.",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "program_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE1.2",
+        "assessment_requirement": {
+          "normative_requirement": "Öğrencinin ilgili öğrenme çıktısını görünür kanıt ve geri bildirim yolu üzerinden gerçekleştirmesi ve değerlendirmesi.",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE1.2"
+        },
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.217-220"
+        ]
+      }
+    },
+    {
+      "gap_id": "GAP_T11_T3_TDE1_3",
+      "need_id": "NEED_T11_T3_TDE1_3",
+      "resource_plan_id": "PLAN_T11_T3_TDE1_3",
+      "outcome_code": "TDE1.3",
+      "outcome_verbatim": "“Yaşamın İzinde” temasında ele alınan metinleri çözümleyebilme",
+      "textbook_activity_ids": [
+        "T3_ACT_15_DINLEME_UYGULAMA_COZUMLEME"
+      ],
+      "textbook_form_ids": [],
+      "textbook_locators": [
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.221-222"
+      ],
+      "observed_textbook_structure": {
+        "student_action": "Çok modlu metni yapı, tür, dil-anlatım, kişi/olay/ileti ve bağlam yönlerinden çözümler.",
+        "expected_evidence": "Tahlil cevapları, karşılaştırma/şema kayıtları ve gerekçeli çıkarımlar.",
+        "assessment_structures": []
+      },
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "NONE",
+      "why_existing_resources_are_insufficient": "N/A - textbook path is sufficient.",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "program_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE1.3",
+        "assessment_requirement": {
+          "normative_requirement": "Öğrencinin ilgili öğrenme çıktısını görünür kanıt ve geri bildirim yolu üzerinden gerçekleştirmesi ve değerlendirmesi.",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE1.3"
+        },
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.221-222"
+        ]
+      }
+    },
+    {
+      "gap_id": "GAP_T11_T3_TDE1_4",
+      "need_id": "NEED_T11_T3_TDE1_4",
+      "resource_plan_id": "PLAN_T11_T3_TDE1_4",
+      "outcome_code": "TDE1.4",
+      "outcome_verbatim": "“Yaşamın İzinde” temasında ele alınan metinlere ilişkin dinleme/izleme sürecini değerlendirebilme",
+      "textbook_activity_ids": [
+        "T3_ACT_16_DINLEME_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T3_P224_OGRENME_GUNLUGU_06"
+      ],
+      "textbook_locators": [
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.223-224"
+      ],
+      "observed_textbook_structure": {
+        "student_action": "Dinleme/izleme sürecini ve metne ilişkin değerlendirmelerini ölçütlere dayalı biçimde yansıtır.",
+        "expected_evidence": "Öz değerlendirme, gözlem/öğrenme günlüğü veya gerekçeli değerlendirme kaydı.",
+        "assessment_structures": [
+          "learning_journal"
+        ]
+      },
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "NONE",
+      "why_existing_resources_are_insufficient": "N/A - textbook path is sufficient.",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "program_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE1.4",
+        "assessment_requirement": {
+          "normative_requirement": "Öğrencinin ilgili öğrenme çıktısını görünür kanıt ve geri bildirim yolu üzerinden gerçekleştirmesi ve değerlendirmesi.",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE1.4"
+        },
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.223-224"
+        ]
+      }
+    },
+    {
+      "gap_id": "GAP_T11_T3_TDE2_1",
+      "need_id": "NEED_T11_T3_TDE2_1",
+      "resource_plan_id": "PLAN_T11_T3_TDE2_1",
+      "outcome_code": "TDE2.1",
+      "outcome_verbatim": "“Yaşamın İzinde” temasında ele alınan metinlerde okumayı yönetebilme",
+      "textbook_activity_ids": [
+        "T3_ACT_01_OKUMA_YONETIM",
+        "T3_ACT_05_OKUMA_YONETIM"
+      ],
+      "textbook_form_ids": [],
+      "textbook_locators": [
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.165-170",
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.195-197"
+      ],
+      "observed_textbook_structure": {
+        "student_action": "Okuma amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve metne ilişkin tahmin geliştirir. | Okuma amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve metne ilişkin tahmin geliştirir.",
+        "expected_evidence": "Okuma öncesi cevaplar, tahminler ve hazırlık notları. | Okuma öncesi cevaplar, tahminler ve hazırlık notları.",
+        "assessment_structures": []
+      },
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "NONE",
+      "why_existing_resources_are_insufficient": "N/A - textbook path is sufficient.",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "program_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE2.1",
+        "assessment_requirement": {
+          "normative_requirement": "Öğrencinin ilgili öğrenme çıktısını görünür kanıt ve geri bildirim yolu üzerinden gerçekleştirmesi ve değerlendirmesi.",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE2.1"
+        },
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.165-170",
+          "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.195-197"
+        ]
+      }
+    },
+    {
+      "gap_id": "GAP_T11_T3_TDE2_2",
+      "need_id": "NEED_T11_T3_TDE2_2",
+      "resource_plan_id": "PLAN_T11_T3_TDE2_2",
+      "outcome_code": "TDE2.2",
+      "outcome_verbatim": "“Yaşamın İzinde” temasında ele alınan metinlerde anlam oluşturabilme",
+      "textbook_activity_ids": [
+        "T3_ACT_02_OKUMA_ICERIK_ANLAM",
+        "T3_ACT_06_OKUMA_ICERIK_ANLAM"
+      ],
+      "textbook_form_ids": [],
+      "textbook_locators": [
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.171-185",
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.198-204"
+      ],
+      "observed_textbook_structure": {
+        "student_action": "Metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur. | Metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur.",
+        "expected_evidence": "Anlama sorularına cevaplar, işaretlemeler ve anlamlandırma kayıtları. | Anlama sorularına cevaplar, işaretlemeler ve anlamlandırma kayıtları.",
+        "assessment_structures": []
+      },
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "NONE",
+      "why_existing_resources_are_insufficient": "N/A - textbook path is sufficient.",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "program_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE2.2",
+        "assessment_requirement": {
+          "normative_requirement": "Öğrencinin ilgili öğrenme çıktısını görünür kanıt ve geri bildirim yolu üzerinden gerçekleştirmesi ve değerlendirmesi.",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE2.2"
+        },
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.171-185",
+          "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.198-204"
+        ]
+      }
+    },
+    {
+      "gap_id": "GAP_T11_T3_TDE2_3",
+      "need_id": "NEED_T11_T3_TDE2_3",
+      "resource_plan_id": "PLAN_T11_T3_TDE2_3",
+      "outcome_code": "TDE2.3",
+      "outcome_verbatim": "“Yaşamın İzinde” temasında ele alınan metinleri çözümleyebilme",
+      "textbook_activity_ids": [
+        "T3_ACT_03_OKUMA_UYGULAMA_COZUMLEME",
+        "T3_ACT_07_OKUMA_UYGULAMA_COZUMLEME"
+      ],
+      "textbook_form_ids": [],
+      "textbook_locators": [
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.186-191",
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.205-208"
+      ],
+      "observed_textbook_structure": {
+        "student_action": "Metni yapı, tür, dil-anlatım ve dönem/bağlam özellikleri bakımından çözümler ve karşılaştırır. | Metni yapı, tür, dil-anlatım ve dönem/bağlam özellikleri bakımından çözümler ve karşılaştırır.",
+        "expected_evidence": "Tahlil cevapları, tablo/şema ve gerekçeli karşılaştırma kayıtları. | Tahlil cevapları, tablo/şema ve gerekçeli karşılaştırma kayıtları.",
+        "assessment_structures": []
+      },
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "NONE",
+      "why_existing_resources_are_insufficient": "N/A - textbook path is sufficient.",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "program_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE2.3",
+        "assessment_requirement": {
+          "normative_requirement": "Öğrencinin ilgili öğrenme çıktısını görünür kanıt ve geri bildirim yolu üzerinden gerçekleştirmesi ve değerlendirmesi.",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE2.3"
+        },
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.186-191",
+          "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.205-208"
+        ]
+      }
+    },
+    {
+      "gap_id": "GAP_T11_T3_TDE2_4",
+      "need_id": "NEED_T11_T3_TDE2_4",
+      "resource_plan_id": "PLAN_T11_T3_TDE2_4",
+      "outcome_code": "TDE2.4",
+      "outcome_verbatim": "“Yaşamın İzinde” temasında ele alınan metinlerden hareketle günlük yaşamın ve sanatçının hayatının edebiyata yansımasına yönelik süreci değerlendirebilme",
+      "textbook_activity_ids": [
+        "T3_ACT_04_OKUMA_DEGERLENDIRME",
+        "T3_ACT_08_OKUMA_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T3_P193_CIKIS_KARTI_01"
+      ],
+      "textbook_locators": [
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.192-193",
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.209"
+      ],
+      "observed_textbook_structure": {
+        "student_action": "Okuma sürecini ve metne ilişkin yargılarını belirlediği ölçütlerle değerlendirir. | Okuma sürecini ve metne ilişkin yargılarını belirlediği ölçütlerle değerlendirir.",
+        "expected_evidence": "Öz değerlendirme, çıkış kartı, öğrenme günlüğü veya gerekçeli değerlendirme. | Öz değerlendirme, çıkış kartı, öğrenme günlüğü veya gerekçeli değerlendirme.",
+        "assessment_structures": [
+          "exit_ticket"
+        ]
+      },
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "NONE",
+      "why_existing_resources_are_insufficient": "N/A - textbook path is sufficient.",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "program_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE2.4",
+        "assessment_requirement": {
+          "normative_requirement": "Öğrencinin ilgili öğrenme çıktısını görünür kanıt ve geri bildirim yolu üzerinden gerçekleştirmesi ve değerlendirmesi.",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE2.4"
+        },
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.192-193",
+          "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.209"
+        ]
+      }
+    },
+    {
+      "gap_id": "GAP_T11_T3_TDE3_1",
+      "need_id": "NEED_T11_T3_TDE3_1",
+      "resource_plan_id": "PLAN_T11_T3_TDE3_1",
+      "outcome_code": "TDE3.1",
+      "outcome_verbatim": "Edebiyat ve sanatın yaşamdaki yansımalarını etkileşimli bir biçimde ele aldığı konuşmasını yönetebilme",
+      "textbook_activity_ids": [
+        "T3_ACT_09_KONUSMA_YONETIM"
+      ],
+      "textbook_form_ids": [],
+      "textbook_locators": [
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.210-211"
+      ],
+      "observed_textbook_structure": {
+        "student_action": "Konuşmanın amacını, hedef kitlesini, yöntem/stratejisini, hazırlık ve uygulama koşullarını planlar.",
+        "expected_evidence": "Konuşma/canlandırma planı, görev ve hazırlık kayıtları.",
+        "assessment_structures": []
+      },
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "NONE",
+      "why_existing_resources_are_insufficient": "N/A - textbook path is sufficient.",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "program_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE3.1",
+        "assessment_requirement": {
+          "normative_requirement": "Öğrencinin ilgili öğrenme çıktısını görünür kanıt ve geri bildirim yolu üzerinden gerçekleştirmesi ve değerlendirmesi.",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE3.1"
+        },
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.210-211"
+        ]
+      }
+    },
+    {
+      "gap_id": "GAP_T11_T3_TDE3_2",
+      "need_id": "NEED_T11_T3_TDE3_2",
+      "resource_plan_id": "PLAN_T11_T3_TDE3_2",
+      "outcome_code": "TDE3.2",
+      "outcome_verbatim": "Sanatçının ve eserden seçtiği karakterin yaşamındaki izlenimlerini yaratıcılığı ile bütünleştirdiği bir konuşma içeriği oluşturabilme",
+      "textbook_activity_ids": [
+        "T3_ACT_10_KONUSMA_ICERIK_ANLAM"
+      ],
+      "textbook_form_ids": [],
+      "textbook_locators": [
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.212"
+      ],
+      "observed_textbook_structure": {
+        "student_action": "Konuşma için bilgi, örnek, görsel/işitsel destek ve söz varlığını seçerek içeriği yapılandırır.",
+        "expected_evidence": "Konuşma metni/senaryo/akış taslağı ve içerik düzenleme kayıtları.",
+        "assessment_structures": []
+      },
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "NONE",
+      "why_existing_resources_are_insufficient": "N/A - textbook path is sufficient.",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "program_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE3.2",
+        "assessment_requirement": {
+          "normative_requirement": "Öğrencinin ilgili öğrenme çıktısını görünür kanıt ve geri bildirim yolu üzerinden gerçekleştirmesi ve değerlendirmesi.",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE3.2"
+        },
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.212"
+        ]
+      }
+    },
+    {
+      "gap_id": "GAP_T11_T3_TDE3_3",
+      "need_id": "NEED_T11_T3_TDE3_3",
+      "resource_plan_id": "PLAN_T11_T3_TDE3_3",
+      "outcome_code": "TDE3.3",
+      "outcome_verbatim": "Sanatçının ve eserden seçtiği karakterin yaşamındaki izlenimlerini yaratıcılığı ile bütünleştirdiği konuşmasında kural uygulayabilme",
+      "textbook_activity_ids": [
+        "T3_ACT_11_KONUSMA_UYGULAMA_COZUMLEME"
+      ],
+      "textbook_form_ids": [],
+      "textbook_locators": [
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.213"
+      ],
+      "observed_textbook_structure": {
+        "student_action": "Planladığı konuşmayı bağlama uygun dil, beden dili, ses, zaman ve mekân kullanımıyla gerçekleştirir.",
+        "expected_evidence": "Canlı sözlü performans/canlandırma ve performans kaydı.",
+        "assessment_structures": []
+      },
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "NONE",
+      "why_existing_resources_are_insufficient": "N/A - textbook path is sufficient.",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "program_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE3.3",
+        "assessment_requirement": {
+          "normative_requirement": "Öğrencinin ilgili öğrenme çıktısını görünür kanıt ve geri bildirim yolu üzerinden gerçekleştirmesi ve değerlendirmesi.",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE3.3"
+        },
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.213"
+        ]
+      }
+    },
+    {
+      "gap_id": "GAP_T11_T3_TDE3_4",
+      "need_id": "NEED_T11_T3_TDE3_4",
+      "resource_plan_id": "PLAN_T11_T3_TDE3_4",
+      "outcome_code": "TDE3.4",
+      "outcome_verbatim": "Yaşamdan izler taşıyan karakterlerle kurduğu etkileşimi yansıtan konuşmasına yönelik süreci değerlendirebilme",
+      "textbook_activity_ids": [
+        "T3_ACT_12_KONUSMA_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T3_P214_OZ_DEGERLENDIRME_03",
+        "LINK_T3_KONUSMA_DPA",
+        "LINK_T3_P214_AKRAN_QR_04"
+      ],
+      "textbook_locators": [
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.214"
+      ],
+      "observed_textbook_structure": {
+        "student_action": "Konuşma performansını öz/akran/öğretmen değerlendirmesi ve geri bildirimle geliştirir.",
+        "expected_evidence": "Öz/akran değerlendirme, öğretmen puanlama kanıtı ve yansıtma/revizyon kaydı.",
+        "assessment_structures": [
+          "linked_assessment_resource",
+          "self_assessment_form"
+        ]
+      },
+      "primary_coverage": "PARTIALLY_COVERED",
+      "need_tags": [
+        "ASSESSMENT_TARGET_STRUCTURE_UNRESOLVED"
+      ],
+      "remaining_gap": "Official QR-linked Dereceli Puanlama Anahtarı target exists but its criterion×level structure is not visible in the local official textbook PDF and remains unresolved.",
+      "why_existing_resources_are_insufficient": "External teacher assessment target cannot be structurally verified from the local PDF; this is not a confirmed material gap and does not authorize generation.",
+      "production_decision": "NO_ACTION_PENDING_ASSESSMENT_TARGET",
+      "priority": "REVIEW_REQUIRED",
+      "provenance": {
+        "program_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE3.4",
+        "assessment_requirement": {
+          "normative_requirement": "Öğrencinin ilgili öğrenme çıktısını görünür kanıt ve geri bildirim yolu üzerinden gerçekleştirmesi ve değerlendirmesi.",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE3.4"
+        },
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.214"
+        ]
+      }
+    },
+    {
+      "gap_id": "GAP_T11_T3_TDE4_1",
+      "need_id": "NEED_T11_T3_TDE4_1",
+      "resource_plan_id": "PLAN_T11_T3_TDE4_1",
+      "outcome_code": "TDE4.1",
+      "outcome_verbatim": "Edebiyat ve sanatın yaşamdaki yansımalarını kendi kurgusuyla oluşturacağı yazısını yönetebilme",
+      "textbook_activity_ids": [
+        "T3_ACT_17_YAZMA_YONETIM"
+      ],
+      "textbook_form_ids": [],
+      "textbook_locators": [
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.225"
+      ],
+      "observed_textbook_structure": {
+        "student_action": "Yazma amacını, hedef kitlesini, türünü, yöntem/stratejisini ve üretim koşullarını planlar.",
+        "expected_evidence": "Yazma planı, amaç/hedef kitle ve strateji kaydı.",
+        "assessment_structures": []
+      },
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "NONE",
+      "why_existing_resources_are_insufficient": "N/A - textbook path is sufficient.",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "program_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE4.1",
+        "assessment_requirement": {
+          "normative_requirement": "Öğrencinin ilgili öğrenme çıktısını görünür kanıt ve geri bildirim yolu üzerinden gerçekleştirmesi ve değerlendirmesi.",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE4.1"
+        },
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.225"
+        ]
+      }
+    },
+    {
+      "gap_id": "GAP_T11_T3_TDE4_2",
+      "need_id": "NEED_T11_T3_TDE4_2",
+      "resource_plan_id": "PLAN_T11_T3_TDE4_2",
+      "outcome_code": "TDE4.2",
+      "outcome_verbatim": "Kendi yaşamını, ilgi alanını veya beğenilerini bağlama uygun bir şekilde kurguladığı yazısı için içerik oluşturabilme",
+      "textbook_activity_ids": [
+        "T3_ACT_18_YAZMA_ICERIK_ANLAM"
+      ],
+      "textbook_form_ids": [],
+      "textbook_locators": [
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.226"
+      ],
+      "observed_textbook_structure": {
+        "student_action": "Bilgi, örnek, görsel/işitsel öge ve söz varlığını seçerek yazılı/çok modlu içeriği tasarlar.",
+        "expected_evidence": "İçerik taslağı, plan/şema ve kaynak-seçim kayıtları.",
+        "assessment_structures": []
+      },
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "NONE",
+      "why_existing_resources_are_insufficient": "N/A - textbook path is sufficient.",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "program_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE4.2",
+        "assessment_requirement": {
+          "normative_requirement": "Öğrencinin ilgili öğrenme çıktısını görünür kanıt ve geri bildirim yolu üzerinden gerçekleştirmesi ve değerlendirmesi.",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE4.2"
+        },
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.226"
+        ]
+      }
+    },
+    {
+      "gap_id": "GAP_T11_T3_TDE4_3",
+      "need_id": "NEED_T11_T3_TDE4_3",
+      "resource_plan_id": "PLAN_T11_T3_TDE4_3",
+      "outcome_code": "TDE4.3",
+      "outcome_verbatim": "Kendi yaşamını, ilgi alanı veya beğenilerini bağlama uygun bir şekilde kurguladığı yazısı için kural uygulayabilme",
+      "textbook_activity_ids": [
+        "T3_ACT_19_YAZMA_UYGULAMA_COZUMLEME"
+      ],
+      "textbook_form_ids": [],
+      "textbook_locators": [
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.227"
+      ],
+      "observed_textbook_structure": {
+        "student_action": "Taslağını tür, bağlam, Türkçe kullanımı, yazım-noktalama ve bütünlük ilkelerine göre ürüne dönüştürür.",
+        "expected_evidence": "Düzenlenmiş yazılı veya çok modlu ürün.",
+        "assessment_structures": []
+      },
+      "primary_coverage": "COVERED",
+      "need_tags": [],
+      "remaining_gap": "NONE",
+      "why_existing_resources_are_insufficient": "N/A - textbook path is sufficient.",
+      "production_decision": "REUSE_TEXTBOOK",
+      "priority": "NOT_NEEDED",
+      "provenance": {
+        "program_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE4.3",
+        "assessment_requirement": {
+          "normative_requirement": "Öğrencinin ilgili öğrenme çıktısını görünür kanıt ve geri bildirim yolu üzerinden gerçekleştirmesi ve değerlendirmesi.",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE4.3"
+        },
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.227"
+        ]
+      }
+    },
+    {
+      "gap_id": "GAP_T11_T3_TDE4_4",
+      "need_id": "NEED_T11_T3_TDE4_4",
+      "resource_plan_id": "PLAN_T11_T3_TDE4_4",
+      "outcome_code": "TDE4.4",
+      "outcome_verbatim": "Edebiyat ve sanatın yaşamdaki izlerine yönelik görüşlerini anlattığı yazısında yazma sürecini değerlendirebilme",
+      "textbook_activity_ids": [
+        "T3_ACT_20_YAZMA_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T3_P228_OZ_DEGERLENDIRME_08",
+        "LINK_T3_YAZMA_DPA",
+        "FORM_T3_P229_CIKIS_KARTI_10",
+        "FORM_T3_P229_OZ_DEGERLENDIRME_09"
+      ],
+      "textbook_locators": [
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.228-229"
+      ],
+      "observed_textbook_structure": {
+        "student_action": "Yazma sürecini ve ürünü öz/akran/öğretmen değerlendirmesiyle gözden geçirip geliştirir.",
+        "expected_evidence": "Öz/akran değerlendirme, öğretmen puanlama kanıtı ve revize edilmiş nihai ürün.",
+        "assessment_structures": [
+          "exit_ticket",
+          "linked_assessment_resource",
+          "self_assessment_form"
+        ]
+      },
+      "primary_coverage": "PARTIALLY_COVERED",
+      "need_tags": [
+        "ASSESSMENT_TARGET_STRUCTURE_UNRESOLVED"
+      ],
+      "remaining_gap": "Official QR-linked Dereceli Puanlama Anahtarı target exists but its criterion×level structure is not visible in the local official textbook PDF and remains unresolved.",
+      "why_existing_resources_are_insufficient": "External teacher assessment target cannot be structurally verified from the local PDF; this is not a confirmed material gap and does not authorize generation.",
+      "production_decision": "NO_ACTION_PENDING_ASSESSMENT_TARGET",
+      "priority": "REVIEW_REQUIRED",
+      "provenance": {
+        "program_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE4.4",
+        "assessment_requirement": {
+          "normative_requirement": "Öğrencinin ilgili öğrenme çıktısını görünür kanıt ve geri bildirim yolu üzerinden gerçekleştirmesi ve değerlendirmesi.",
+          "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE4.4"
+        },
+        "textbook_locator": [
+          "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.228-229"
+        ]
+      }
+    }
+  ],
+  "gap_rule": "PARTIALLY_COVERED caused only by an unresolved external assessment target is not a confirmed material gap and does not authorize generation."
+}

@@ -1,0 +1,647 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_11",
+  "grade": 11,
+  "summary": {
+    "total_teaching_blocks": 16,
+    "blocks_per_theme": {
+      "TEMA_01": 4,
+      "TEMA_02": 4,
+      "TEMA_03": 4,
+      "TEMA_04": 4
+    },
+    "official_theme_instruction_hours": 43,
+    "school_based_planning_hours_per_theme": 2,
+    "outer_theme_hours": 45,
+    "annual_hours": {
+      "structured_program": 172,
+      "school_based_planning": 8,
+      "planned_total": 180
+    },
+    "block_lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+  },
+  "blocks": [
+    {
+      "block_id": "BLOCK_T1_01_OKUMA",
+      "theme_id": "TEMA_01",
+      "title": "Metin Tahlili-1 (Anlama): Okuma — Karagöz Oyunu (Yazıcı) / Metin Tahlili-2 (Anlama): Okuma — Mektup (Âli’ye Mektuplar) / Dilekçe",
+      "skill_domain": "Okuma",
+      "learning_area": "Anlama",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE2.1",
+        "TDE2.2",
+        "TDE2.3",
+        "TDE2.4"
+      ],
+      "textbook_sections": [
+        "T1_SEC_01_OKUMA_KARAGOZ",
+        "T1_SEC_02_OKUMA_MEKTUP"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_01_OKUMA_YONETIM",
+        "T1_ACT_02_OKUMA_ICERIK_ANLAM",
+        "T1_ACT_03_OKUMA_UYGULAMA_COZUMLEME",
+        "T1_ACT_04_OKUMA_DEGERLENDIRME",
+        "T1_ACT_05_OKUMA_YONETIM",
+        "T1_ACT_06_OKUMA_ICERIK_ANLAM",
+        "T1_ACT_07_OKUMA_UYGULAMA_COZUMLEME",
+        "T1_ACT_08_OKUMA_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T1_P035_OZ_DEGERLENDIRME_01",
+        "LINK_T1_P035_AKRAN_QR_02"
+      ],
+      "expected_student_actions": "Okuma amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve metne ilişkin tahmin geliştirir. Metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur. Metni yapı, tür, dil-anlatım ve dönem/bağlam özellikleri bakımından çözümler ve karşılaştırır. Okuma sürecini ve metne ilişkin yargılarını belirlediği ölçütlerle değerlendirir. Okuma amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve metne ilişkin tahmin geliştirir. Metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur. Metni yapı, tür, dil-anlatım ve dönem/bağlam özellikleri bakımından çözümler ve karşılaştırır. Okuma sürecini ve metne ilişkin yargılarını belirlediği ölçütlerle değerlendirir.",
+      "expected_student_evidence": "Okuma öncesi cevaplar, tahminler ve hazırlık notları. Anlama sorularına cevaplar, işaretlemeler ve anlamlandırma kayıtları. Tahlil cevapları, tablo/şema ve gerekçeli karşılaştırma kayıtları. Öz değerlendirme, çıkış kartı, öğrenme günlüğü veya gerekçeli değerlendirme. Okuma öncesi cevaplar, tahminler ve hazırlık notları. Anlama sorularına cevaplar, işaretlemeler ve anlamlandırma kayıtları. Tahlil cevapları, tablo/şema ve gerekçeli karşılaştırma kayıtları. Öz değerlendirme, çıkış kartı, öğrenme günlüğü veya gerekçeli değerlendirme.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 1,
+      "prerequisite_block_ids": [],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T1_02_KONUSMA",
+      "theme_id": "TEMA_01",
+      "title": "Edebiyat Atölyesi-1 (Anlatma): Konuşma — Sözlü İletişim Engellerini Konu Alan Bir Drama",
+      "skill_domain": "Konuşma",
+      "learning_area": "Anlatma",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE3.1",
+        "TDE3.2",
+        "TDE3.3",
+        "TDE3.4"
+      ],
+      "textbook_sections": [
+        "T1_SEC_03_KONUSMA_DRAMA"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_09_KONUSMA_YONETIM",
+        "T1_ACT_10_KONUSMA_ICERIK_ANLAM",
+        "T1_ACT_11_KONUSMA_UYGULAMA_COZUMLEME",
+        "T1_ACT_12_KONUSMA_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T1_P054_KONTROL_LISTESI_03",
+        "FORM_T1_P058_OZ_DEGERLENDIRME_05",
+        "LINK_T1_KONUSMA_DPA",
+        "LINK_T1_P058_AKRAN_QR_06"
+      ],
+      "expected_student_actions": "Konuşmanın amacını, hedef kitlesini, yöntem/stratejisini, hazırlık ve uygulama koşullarını planlar. Konuşma için bilgi, örnek, görsel/işitsel destek ve söz varlığını seçerek içeriği yapılandırır. Planladığı konuşmayı bağlama uygun dil, beden dili, ses, zaman ve mekân kullanımıyla gerçekleştirir. Konuşma performansını öz/akran/öğretmen değerlendirmesi ve geri bildirimle geliştirir.",
+      "expected_student_evidence": "Konuşma/canlandırma planı, görev ve hazırlık kayıtları. Konuşma metni/senaryo/akış taslağı ve içerik düzenleme kayıtları. Canlı sözlü performans/canlandırma ve performans kaydı. Öz/akran değerlendirme, öğretmen puanlama kanıtı ve yansıtma/revizyon kaydı.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 2,
+      "prerequisite_block_ids": [
+        "BLOCK_T1_01_OKUMA"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T1_03_DINLEME",
+      "theme_id": "TEMA_01",
+      "title": "Metin Tahlili-3 (Anlama): Dinleme / İzleme — Değişen İletişim Araçlarının Hayatımızdaki Yeri",
+      "skill_domain": "Dinleme/İzleme",
+      "learning_area": "Anlama",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE1.1",
+        "TDE1.2",
+        "TDE1.3",
+        "TDE1.4"
+      ],
+      "textbook_sections": [
+        "T1_SEC_04_DINLEME_ILETISIM"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_13_DINLEME_YONETIM",
+        "T1_ACT_14_DINLEME_ICERIK_ANLAM",
+        "T1_ACT_15_DINLEME_UYGULAMA_COZUMLEME",
+        "T1_ACT_16_DINLEME_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T1_P064_GOZLEM_FORMU_07",
+        "FORM_T1_P073_CIKIS_KARTI_08"
+      ],
+      "expected_student_actions": "Dinleme/izleme amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve tahminde bulunur. Dinlenen/izlenen metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur. Çok modlu metni yapı, tür, dil-anlatım, kişi/olay/ileti ve bağlam yönlerinden çözümler. Dinleme/izleme sürecini ve metne ilişkin değerlendirmelerini ölçütlere dayalı biçimde yansıtır.",
+      "expected_student_evidence": "Amaç/strateji kaydı, tahmin ve hazırlık notları. Anlama sorularına cevaplar ve yapılandırılmış dinleme/izleme notları. Tahlil cevapları, karşılaştırma/şema kayıtları ve gerekçeli çıkarımlar. Öz değerlendirme, gözlem/öğrenme günlüğü veya gerekçeli değerlendirme kaydı.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 3,
+      "prerequisite_block_ids": [
+        "BLOCK_T1_02_KONUSMA"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T1_04_YAZMA",
+      "theme_id": "TEMA_01",
+      "title": "Edebiyat Atölyesi-2 (Anlatma): Yazma — E-Posta Yazabilme / 1. Tema Ölçme ve Değerlendirme Soruları",
+      "skill_domain": "Yazma",
+      "learning_area": "Anlatma",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE4.1",
+        "TDE4.2",
+        "TDE4.3",
+        "TDE4.4"
+      ],
+      "textbook_sections": [
+        "T1_SEC_05_YAZMA_EPOSTA",
+        "T1_SEC_06_TEMA_OLCME"
+      ],
+      "textbook_activity_ids": [
+        "T1_ACT_17_YAZMA_YONETIM",
+        "T1_ACT_18_YAZMA_ICERIK_ANLAM",
+        "T1_ACT_19_YAZMA_UYGULAMA_COZUMLEME",
+        "T1_ACT_20_YAZMA_DEGERLENDIRME",
+        "T1_ACT_21_TEMA_OLCME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T1_P078_CIKIS_KARTI_11",
+        "FORM_T1_P078_OZ_DEGERLENDIRME_10",
+        "FORM_T1_P079_TEMA_TEST_12",
+        "LINK_T1_YAZMA_DPA"
+      ],
+      "expected_student_actions": "Yazma amacını, hedef kitlesini, türünü, yöntem/stratejisini ve üretim koşullarını planlar. Bilgi, örnek, görsel/işitsel öge ve söz varlığını seçerek yazılı/çok modlu içeriği tasarlar. Taslağını tür, bağlam, Türkçe kullanımı, yazım-noktalama ve bütünlük ilkelerine göre ürüne dönüştürür. Yazma sürecini ve ürünü öz/akran/öğretmen değerlendirmesiyle gözden geçirip geliştirir. Tema boyunca edinilen bilgi ve becerileri farklı soru ve görev türlerinde kullanır.",
+      "expected_student_evidence": "Yazma planı, amaç/hedef kitle ve strateji kaydı. İçerik taslağı, plan/şema ve kaynak-seçim kayıtları. Düzenlenmiş yazılı veya çok modlu ürün. Öz/akran değerlendirme, öğretmen puanlama kanıtı ve revize edilmiş nihai ürün. Tema ölçme-değerlendirme sorularına verilen cevaplar ve gerekçeli performans kanıtları.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 4,
+      "prerequisite_block_ids": [
+        "BLOCK_T1_03_DINLEME"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T2_01_OKUMA",
+      "theme_id": "TEMA_02",
+      "title": "Metin Tahlili-1 (Anlama): Okuma — Hikâye / Anı / Metin Tahlili-2 (Anlama): Okuma — Orhun Abideleri / Dîvânu Lugâti’t-Türk",
+      "skill_domain": "Okuma",
+      "learning_area": "Anlama",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE2.1",
+        "TDE2.2",
+        "TDE2.3",
+        "TDE2.4"
+      ],
+      "textbook_sections": [
+        "T2_SEC_01_OKUMA_HIKAYE_ANI",
+        "T2_SEC_02_OKUMA_ORHUN_DLT"
+      ],
+      "textbook_activity_ids": [
+        "T2_ACT_01_OKUMA_YONETIM",
+        "T2_ACT_02_OKUMA_ICERIK_ANLAM",
+        "T2_ACT_03_OKUMA_UYGULAMA_COZUMLEME",
+        "T2_ACT_04_OKUMA_DEGERLENDIRME",
+        "T2_ACT_05_OKUMA_YONETIM",
+        "T2_ACT_06_OKUMA_ICERIK_ANLAM",
+        "T2_ACT_07_OKUMA_UYGULAMA_COZUMLEME",
+        "T2_ACT_08_OKUMA_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T2_P097_KONTROL_LISTESI_01",
+        "FORM_T2_P112_CIKIS_KARTI_02"
+      ],
+      "expected_student_actions": "Okuma amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve metne ilişkin tahmin geliştirir. Metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur. Metni yapı, tür, dil-anlatım ve dönem/bağlam özellikleri bakımından çözümler ve karşılaştırır. Okuma sürecini ve metne ilişkin yargılarını belirlediği ölçütlerle değerlendirir. Okuma amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve metne ilişkin tahmin geliştirir. Metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur. Metni yapı, tür, dil-anlatım ve dönem/bağlam özellikleri bakımından çözümler ve karşılaştırır. Okuma sürecini ve metne ilişkin yargılarını belirlediği ölçütlerle değerlendirir.",
+      "expected_student_evidence": "Okuma öncesi cevaplar, tahminler ve hazırlık notları. Anlama sorularına cevaplar, işaretlemeler ve anlamlandırma kayıtları. Tahlil cevapları, tablo/şema ve gerekçeli karşılaştırma kayıtları. Öz değerlendirme, çıkış kartı, öğrenme günlüğü veya gerekçeli değerlendirme. Okuma öncesi cevaplar, tahminler ve hazırlık notları. Anlama sorularına cevaplar, işaretlemeler ve anlamlandırma kayıtları. Tahlil cevapları, tablo/şema ve gerekçeli karşılaştırma kayıtları. Öz değerlendirme, çıkış kartı, öğrenme günlüğü veya gerekçeli değerlendirme.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 1,
+      "prerequisite_block_ids": [],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T2_02_KONUSMA",
+      "theme_id": "TEMA_02",
+      "title": "Edebiyat Atölyesi-1 (Anlatma): Konuşma — Türk Kültürünün Özelliklerini Yansıtan Bir Konuşma",
+      "skill_domain": "Konuşma",
+      "learning_area": "Anlatma",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE3.1",
+        "TDE3.2",
+        "TDE3.3",
+        "TDE3.4"
+      ],
+      "textbook_sections": [
+        "T2_SEC_03_KONUSMA_TURK_KULTURU"
+      ],
+      "textbook_activity_ids": [
+        "T2_ACT_09_KONUSMA_YONETIM",
+        "T2_ACT_10_KONUSMA_ICERIK_ANLAM",
+        "T2_ACT_11_KONUSMA_UYGULAMA_COZUMLEME",
+        "T2_ACT_12_KONUSMA_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T2_P135_OZ_DEGERLENDIRME_04",
+        "LINK_T2_KONUSMA_DPA",
+        "LINK_T2_P135_AKRAN_QR_05"
+      ],
+      "expected_student_actions": "Konuşmanın amacını, hedef kitlesini, yöntem/stratejisini, hazırlık ve uygulama koşullarını planlar. Konuşma için bilgi, örnek, görsel/işitsel destek ve söz varlığını seçerek içeriği yapılandırır. Planladığı konuşmayı bağlama uygun dil, beden dili, ses, zaman ve mekân kullanımıyla gerçekleştirir. Konuşma performansını öz/akran/öğretmen değerlendirmesi ve geri bildirimle geliştirir.",
+      "expected_student_evidence": "Konuşma/canlandırma planı, görev ve hazırlık kayıtları. Konuşma metni/senaryo/akış taslağı ve içerik düzenleme kayıtları. Canlı sözlü performans/canlandırma ve performans kaydı. Öz/akran değerlendirme, öğretmen puanlama kanıtı ve yansıtma/revizyon kaydı.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 2,
+      "prerequisite_block_ids": [
+        "BLOCK_T2_01_OKUMA"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T2_03_DINLEME",
+      "theme_id": "TEMA_02",
+      "title": "Metin Tahlili-3 (Anlama): Dinleme / İzleme — Âşık Atışması",
+      "skill_domain": "Dinleme/İzleme",
+      "learning_area": "Anlama",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE1.1",
+        "TDE1.2",
+        "TDE1.3",
+        "TDE1.4"
+      ],
+      "textbook_sections": [
+        "T2_SEC_04_DINLEME_ASIK_ATISMASI"
+      ],
+      "textbook_activity_ids": [
+        "T2_ACT_13_DINLEME_YONETIM",
+        "T2_ACT_14_DINLEME_ICERIK_ANLAM",
+        "T2_ACT_15_DINLEME_UYGULAMA_COZUMLEME",
+        "T2_ACT_16_DINLEME_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T2_P139_GOZLEM_FORMU_07",
+        "FORM_T2_P139_KONTROL_LISTESI_06",
+        "FORM_T2_P143_KONTROL_LISTESI_08"
+      ],
+      "expected_student_actions": "Dinleme/izleme amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve tahminde bulunur. Dinlenen/izlenen metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur. Çok modlu metni yapı, tür, dil-anlatım, kişi/olay/ileti ve bağlam yönlerinden çözümler. Dinleme/izleme sürecini ve metne ilişkin değerlendirmelerini ölçütlere dayalı biçimde yansıtır.",
+      "expected_student_evidence": "Amaç/strateji kaydı, tahmin ve hazırlık notları. Anlama sorularına cevaplar ve yapılandırılmış dinleme/izleme notları. Tahlil cevapları, karşılaştırma/şema kayıtları ve gerekçeli çıkarımlar. Öz değerlendirme, gözlem/öğrenme günlüğü veya gerekçeli değerlendirme kaydı.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 3,
+      "prerequisite_block_ids": [
+        "BLOCK_T2_02_KONUSMA"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T2_04_YAZMA",
+      "theme_id": "TEMA_02",
+      "title": "Edebiyat Atölyesi-2 (Anlatma): Yazma — Çevrim İçi Müze Gezisiyle İlgili İzlenimleri Yazabilme / 2. Tema Ölçme ve Değerlendirme Soruları",
+      "skill_domain": "Yazma",
+      "learning_area": "Anlatma",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE4.1",
+        "TDE4.2",
+        "TDE4.3",
+        "TDE4.4"
+      ],
+      "textbook_sections": [
+        "T2_SEC_05_YAZMA_MUZE",
+        "T2_SEC_06_TEMA_OLCME"
+      ],
+      "textbook_activity_ids": [
+        "T2_ACT_17_YAZMA_YONETIM",
+        "T2_ACT_18_YAZMA_ICERIK_ANLAM",
+        "T2_ACT_19_YAZMA_UYGULAMA_COZUMLEME",
+        "T2_ACT_20_YAZMA_DEGERLENDIRME",
+        "T2_ACT_21_TEMA_OLCME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T2_P153_OZ_DEGERLENDIRME_10",
+        "FORM_T2_P154_OGRENME_GUNLUGU_12",
+        "FORM_T2_P155_TEMA_TEST_13",
+        "LINK_T2_P153_AKRAN_QR_11",
+        "LINK_T2_YAZMA_DPA"
+      ],
+      "expected_student_actions": "Yazma amacını, hedef kitlesini, türünü, yöntem/stratejisini ve üretim koşullarını planlar. Bilgi, örnek, görsel/işitsel öge ve söz varlığını seçerek yazılı/çok modlu içeriği tasarlar. Taslağını tür, bağlam, Türkçe kullanımı, yazım-noktalama ve bütünlük ilkelerine göre ürüne dönüştürür. Yazma sürecini ve ürünü öz/akran/öğretmen değerlendirmesiyle gözden geçirip geliştirir. Tema boyunca edinilen bilgi ve becerileri farklı soru ve görev türlerinde kullanır.",
+      "expected_student_evidence": "Yazma planı, amaç/hedef kitle ve strateji kaydı. İçerik taslağı, plan/şema ve kaynak-seçim kayıtları. Düzenlenmiş yazılı veya çok modlu ürün. Öz/akran değerlendirme, öğretmen puanlama kanıtı ve revize edilmiş nihai ürün. Tema ölçme-değerlendirme sorularına verilen cevaplar ve gerekçeli performans kanıtları.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 4,
+      "prerequisite_block_ids": [
+        "BLOCK_T2_03_DINLEME"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T3_01_OKUMA",
+      "theme_id": "TEMA_03",
+      "title": "Metin Tahlili-1 (Anlama): Okuma — Roman / Huzur / Metin Tahlili-2 (Anlama): Okuma — Biyografi / Tezkire",
+      "skill_domain": "Okuma",
+      "learning_area": "Anlama",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE2.1",
+        "TDE2.2",
+        "TDE2.3",
+        "TDE2.4"
+      ],
+      "textbook_sections": [
+        "T3_SEC_01_OKUMA_HUZUR",
+        "T3_SEC_02_OKUMA_BIYOGRAFI"
+      ],
+      "textbook_activity_ids": [
+        "T3_ACT_01_OKUMA_YONETIM",
+        "T3_ACT_02_OKUMA_ICERIK_ANLAM",
+        "T3_ACT_03_OKUMA_UYGULAMA_COZUMLEME",
+        "T3_ACT_04_OKUMA_DEGERLENDIRME",
+        "T3_ACT_05_OKUMA_YONETIM",
+        "T3_ACT_06_OKUMA_ICERIK_ANLAM",
+        "T3_ACT_07_OKUMA_UYGULAMA_COZUMLEME",
+        "T3_ACT_08_OKUMA_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T3_P193_CIKIS_KARTI_01"
+      ],
+      "expected_student_actions": "Okuma amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve metne ilişkin tahmin geliştirir. Metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur. Metni yapı, tür, dil-anlatım ve dönem/bağlam özellikleri bakımından çözümler ve karşılaştırır. Okuma sürecini ve metne ilişkin yargılarını belirlediği ölçütlerle değerlendirir. Okuma amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve metne ilişkin tahmin geliştirir. Metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur. Metni yapı, tür, dil-anlatım ve dönem/bağlam özellikleri bakımından çözümler ve karşılaştırır. Okuma sürecini ve metne ilişkin yargılarını belirlediği ölçütlerle değerlendirir.",
+      "expected_student_evidence": "Okuma öncesi cevaplar, tahminler ve hazırlık notları. Anlama sorularına cevaplar, işaretlemeler ve anlamlandırma kayıtları. Tahlil cevapları, tablo/şema ve gerekçeli karşılaştırma kayıtları. Öz değerlendirme, çıkış kartı, öğrenme günlüğü veya gerekçeli değerlendirme. Okuma öncesi cevaplar, tahminler ve hazırlık notları. Anlama sorularına cevaplar, işaretlemeler ve anlamlandırma kayıtları. Tahlil cevapları, tablo/şema ve gerekçeli karşılaştırma kayıtları. Öz değerlendirme, çıkış kartı, öğrenme günlüğü veya gerekçeli değerlendirme.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 1,
+      "prerequisite_block_ids": [],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T3_02_KONUSMA",
+      "theme_id": "TEMA_03",
+      "title": "Edebiyat Atölyesi-1 (Anlatma): Konuşma — Hayalî Mülakat",
+      "skill_domain": "Konuşma",
+      "learning_area": "Anlatma",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE3.1",
+        "TDE3.2",
+        "TDE3.3",
+        "TDE3.4"
+      ],
+      "textbook_sections": [
+        "T3_SEC_03_KONUSMA_MULAKAT"
+      ],
+      "textbook_activity_ids": [
+        "T3_ACT_09_KONUSMA_YONETIM",
+        "T3_ACT_10_KONUSMA_ICERIK_ANLAM",
+        "T3_ACT_11_KONUSMA_UYGULAMA_COZUMLEME",
+        "T3_ACT_12_KONUSMA_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T3_P214_OZ_DEGERLENDIRME_03",
+        "LINK_T3_KONUSMA_DPA",
+        "LINK_T3_P214_AKRAN_QR_04"
+      ],
+      "expected_student_actions": "Konuşmanın amacını, hedef kitlesini, yöntem/stratejisini, hazırlık ve uygulama koşullarını planlar. Konuşma için bilgi, örnek, görsel/işitsel destek ve söz varlığını seçerek içeriği yapılandırır. Planladığı konuşmayı bağlama uygun dil, beden dili, ses, zaman ve mekân kullanımıyla gerçekleştirir. Konuşma performansını öz/akran/öğretmen değerlendirmesi ve geri bildirimle geliştirir.",
+      "expected_student_evidence": "Konuşma/canlandırma planı, görev ve hazırlık kayıtları. Konuşma metni/senaryo/akış taslağı ve içerik düzenleme kayıtları. Canlı sözlü performans/canlandırma ve performans kaydı. Öz/akran değerlendirme, öğretmen puanlama kanıtı ve yansıtma/revizyon kaydı.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 2,
+      "prerequisite_block_ids": [
+        "BLOCK_T3_01_OKUMA"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T3_03_DINLEME",
+      "theme_id": "TEMA_03",
+      "title": "Metin Tahlili-3 (Anlama): Dinleme / İzleme — Radyo Tiyatrosu / Direnişin Ustaları",
+      "skill_domain": "Dinleme/İzleme",
+      "learning_area": "Anlama",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE1.1",
+        "TDE1.2",
+        "TDE1.3",
+        "TDE1.4"
+      ],
+      "textbook_sections": [
+        "T3_SEC_04_DINLEME_RADYO_TIYATROSU"
+      ],
+      "textbook_activity_ids": [
+        "T3_ACT_13_DINLEME_YONETIM",
+        "T3_ACT_14_DINLEME_ICERIK_ANLAM",
+        "T3_ACT_15_DINLEME_UYGULAMA_COZUMLEME",
+        "T3_ACT_16_DINLEME_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T3_P216_GOZLEM_FORMU_05",
+        "FORM_T3_P224_OGRENME_GUNLUGU_06"
+      ],
+      "expected_student_actions": "Dinleme/izleme amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve tahminde bulunur. Dinlenen/izlenen metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur. Çok modlu metni yapı, tür, dil-anlatım, kişi/olay/ileti ve bağlam yönlerinden çözümler. Dinleme/izleme sürecini ve metne ilişkin değerlendirmelerini ölçütlere dayalı biçimde yansıtır.",
+      "expected_student_evidence": "Amaç/strateji kaydı, tahmin ve hazırlık notları. Anlama sorularına cevaplar ve yapılandırılmış dinleme/izleme notları. Tahlil cevapları, karşılaştırma/şema kayıtları ve gerekçeli çıkarımlar. Öz değerlendirme, gözlem/öğrenme günlüğü veya gerekçeli değerlendirme kaydı.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 3,
+      "prerequisite_block_ids": [
+        "BLOCK_T3_02_KONUSMA"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T3_04_YAZMA",
+      "theme_id": "TEMA_03",
+      "title": "Edebiyat Atölyesi-2 (Anlatma): Yazma — Diyaloğu Başka Bir Türe Dönüştürme / 3. Tema Ölçme ve Değerlendirme Soruları",
+      "skill_domain": "Yazma",
+      "learning_area": "Anlatma",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE4.1",
+        "TDE4.2",
+        "TDE4.3",
+        "TDE4.4"
+      ],
+      "textbook_sections": [
+        "T3_SEC_05_YAZMA_DONUSTURME",
+        "T3_SEC_06_TEMA_OLCME"
+      ],
+      "textbook_activity_ids": [
+        "T3_ACT_17_YAZMA_YONETIM",
+        "T3_ACT_18_YAZMA_ICERIK_ANLAM",
+        "T3_ACT_19_YAZMA_UYGULAMA_COZUMLEME",
+        "T3_ACT_20_YAZMA_DEGERLENDIRME",
+        "T3_ACT_21_TEMA_OLCME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T3_P228_OZ_DEGERLENDIRME_08",
+        "FORM_T3_P229_CIKIS_KARTI_10",
+        "FORM_T3_P229_OZ_DEGERLENDIRME_09",
+        "FORM_T3_P230_TEMA_TEST_11",
+        "LINK_T3_YAZMA_DPA"
+      ],
+      "expected_student_actions": "Yazma amacını, hedef kitlesini, türünü, yöntem/stratejisini ve üretim koşullarını planlar. Bilgi, örnek, görsel/işitsel öge ve söz varlığını seçerek yazılı/çok modlu içeriği tasarlar. Taslağını tür, bağlam, Türkçe kullanımı, yazım-noktalama ve bütünlük ilkelerine göre ürüne dönüştürür. Yazma sürecini ve ürünü öz/akran/öğretmen değerlendirmesiyle gözden geçirip geliştirir. Tema boyunca edinilen bilgi ve becerileri farklı soru ve görev türlerinde kullanır.",
+      "expected_student_evidence": "Yazma planı, amaç/hedef kitle ve strateji kaydı. İçerik taslağı, plan/şema ve kaynak-seçim kayıtları. Düzenlenmiş yazılı veya çok modlu ürün. Öz/akran değerlendirme, öğretmen puanlama kanıtı ve revize edilmiş nihai ürün. Tema ölçme-değerlendirme sorularına verilen cevaplar ve gerekçeli performans kanıtları.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 4,
+      "prerequisite_block_ids": [
+        "BLOCK_T3_03_DINLEME"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T4_01_OKUMA",
+      "theme_id": "TEMA_04",
+      "title": "Metin Tahlili-1 (Anlama): Okuma — Tiyatro / Ben, Mimar Sinan / Metin Tahlili-2 (Anlama): Okuma — Küçürek Hikâye / Merdiven",
+      "skill_domain": "Okuma",
+      "learning_area": "Anlama",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE2.1",
+        "TDE2.2",
+        "TDE2.3",
+        "TDE2.4"
+      ],
+      "textbook_sections": [
+        "T4_SEC_01_OKUMA_TIYATRO",
+        "T4_SEC_02_OKUMA_KUCU_REK"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_01_OKUMA_YONETIM",
+        "T4_ACT_02_OKUMA_ICERIK_ANLAM",
+        "T4_ACT_03_OKUMA_UYGULAMA_COZUMLEME",
+        "T4_ACT_04_OKUMA_DEGERLENDIRME",
+        "T4_ACT_05_OKUMA_YONETIM",
+        "T4_ACT_06_OKUMA_ICERIK_ANLAM",
+        "T4_ACT_07_OKUMA_UYGULAMA_COZUMLEME",
+        "T4_ACT_08_OKUMA_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [],
+      "expected_student_actions": "Okuma amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve metne ilişkin tahmin geliştirir. Metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur. Metni yapı, tür, dil-anlatım ve dönem/bağlam özellikleri bakımından çözümler ve karşılaştırır. Okuma sürecini ve metne ilişkin yargılarını belirlediği ölçütlerle değerlendirir. Okuma amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve metne ilişkin tahmin geliştirir. Metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur. Metni yapı, tür, dil-anlatım ve dönem/bağlam özellikleri bakımından çözümler ve karşılaştırır. Okuma sürecini ve metne ilişkin yargılarını belirlediği ölçütlerle değerlendirir.",
+      "expected_student_evidence": "Okuma öncesi cevaplar, tahminler ve hazırlık notları. Anlama sorularına cevaplar, işaretlemeler ve anlamlandırma kayıtları. Tahlil cevapları, tablo/şema ve gerekçeli karşılaştırma kayıtları. Öz değerlendirme, çıkış kartı, öğrenme günlüğü veya gerekçeli değerlendirme. Okuma öncesi cevaplar, tahminler ve hazırlık notları. Anlama sorularına cevaplar, işaretlemeler ve anlamlandırma kayıtları. Tahlil cevapları, tablo/şema ve gerekçeli karşılaştırma kayıtları. Öz değerlendirme, çıkış kartı, öğrenme günlüğü veya gerekçeli değerlendirme.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 1,
+      "prerequisite_block_ids": [],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T4_02_KONUSMA",
+      "theme_id": "TEMA_04",
+      "title": "Edebiyat Atölyesi-1 (Anlatma): Konuşma — Tiyatro Metnini Yeniden Kurgulayarak Canlandırma",
+      "skill_domain": "Konuşma",
+      "learning_area": "Anlatma",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE3.1",
+        "TDE3.2",
+        "TDE3.3",
+        "TDE3.4"
+      ],
+      "textbook_sections": [
+        "T4_SEC_03_KONUSMA_CANLANDIRMA"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_09_KONUSMA_YONETIM",
+        "T4_ACT_10_KONUSMA_ICERIK_ANLAM",
+        "T4_ACT_11_KONUSMA_UYGULAMA_COZUMLEME",
+        "T4_ACT_12_KONUSMA_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T4_P281_KONTROL_LISTESI_01",
+        "LINK_T4_KONUSMA_DPA"
+      ],
+      "expected_student_actions": "Konuşmanın amacını, hedef kitlesini, yöntem/stratejisini, hazırlık ve uygulama koşullarını planlar. Konuşma için bilgi, örnek, görsel/işitsel destek ve söz varlığını seçerek içeriği yapılandırır. Planladığı konuşmayı bağlama uygun dil, beden dili, ses, zaman ve mekân kullanımıyla gerçekleştirir. Konuşma performansını öz/akran/öğretmen değerlendirmesi ve geri bildirimle geliştirir.",
+      "expected_student_evidence": "Konuşma/canlandırma planı, görev ve hazırlık kayıtları. Konuşma metni/senaryo/akış taslağı ve içerik düzenleme kayıtları. Canlı sözlü performans/canlandırma ve performans kaydı. Öz/akran değerlendirme, öğretmen puanlama kanıtı ve yansıtma/revizyon kaydı.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 2,
+      "prerequisite_block_ids": [
+        "BLOCK_T4_01_OKUMA"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T4_03_DINLEME",
+      "theme_id": "TEMA_04",
+      "title": "Metin Tahlili-3 (Anlama): Dinleme / İzleme — Anadolu İnsanı / Fedakârlık",
+      "skill_domain": "Dinleme/İzleme",
+      "learning_area": "Anlama",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE1.1",
+        "TDE1.2",
+        "TDE1.3",
+        "TDE1.4"
+      ],
+      "textbook_sections": [
+        "T4_SEC_04_DINLEME_BELGESEL"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_13_DINLEME_YONETIM",
+        "T4_ACT_14_DINLEME_ICERIK_ANLAM",
+        "T4_ACT_15_DINLEME_UYGULAMA_COZUMLEME",
+        "T4_ACT_16_DINLEME_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T4_P286_KONTROL_LISTESI_03",
+        "FORM_T4_P297_OGRENME_GUNLUGU_04"
+      ],
+      "expected_student_actions": "Dinleme/izleme amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve tahminde bulunur. Dinlenen/izlenen metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur. Çok modlu metni yapı, tür, dil-anlatım, kişi/olay/ileti ve bağlam yönlerinden çözümler. Dinleme/izleme sürecini ve metne ilişkin değerlendirmelerini ölçütlere dayalı biçimde yansıtır.",
+      "expected_student_evidence": "Amaç/strateji kaydı, tahmin ve hazırlık notları. Anlama sorularına cevaplar ve yapılandırılmış dinleme/izleme notları. Tahlil cevapları, karşılaştırma/şema kayıtları ve gerekçeli çıkarımlar. Öz değerlendirme, gözlem/öğrenme günlüğü veya gerekçeli değerlendirme kaydı.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 3,
+      "prerequisite_block_ids": [
+        "BLOCK_T4_02_KONUSMA"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    },
+    {
+      "block_id": "BLOCK_T4_04_YAZMA",
+      "theme_id": "TEMA_04",
+      "title": "Edebiyat Atölyesi-2 (Anlatma): Yazma — Özgün Afiş Hazırlama / 4. Tema Ölçme ve Değerlendirme Soruları",
+      "skill_domain": "Yazma",
+      "learning_area": "Anlatma",
+      "approximate_lesson_hours": null,
+      "curriculum_outcomes": [
+        "TDE4.1",
+        "TDE4.2",
+        "TDE4.3",
+        "TDE4.4"
+      ],
+      "textbook_sections": [
+        "T4_SEC_05_YAZMA_AFIS",
+        "T4_SEC_06_TEMA_OLCME"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_17_YAZMA_YONETIM",
+        "T4_ACT_18_YAZMA_ICERIK_ANLAM",
+        "T4_ACT_19_YAZMA_UYGULAMA_COZUMLEME",
+        "T4_ACT_20_YAZMA_DEGERLENDIRME",
+        "T4_ACT_21_TEMA_OLCME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T4_P302_OGRENME_GUNLUGU_06",
+        "FORM_T4_P303_TEMA_TEST_07",
+        "LINK_T4_YAZMA_DPA"
+      ],
+      "expected_student_actions": "Yazma amacını, hedef kitlesini, türünü, yöntem/stratejisini ve üretim koşullarını planlar. Bilgi, örnek, görsel/işitsel öge ve söz varlığını seçerek yazılı/çok modlu içeriği tasarlar. Taslağını tür, bağlam, Türkçe kullanımı, yazım-noktalama ve bütünlük ilkelerine göre ürüne dönüştürür. Yazma sürecini ve ürünü öz/akran/öğretmen değerlendirmesiyle gözden geçirip geliştirir. Tema boyunca edinilen bilgi ve becerileri farklı soru ve görev türlerinde kullanır.",
+      "expected_student_evidence": "Yazma planı, amaç/hedef kitle ve strateji kaydı. İçerik taslağı, plan/şema ve kaynak-seçim kayıtları. Düzenlenmiş yazılı veya çok modlu ürün. Öz/akran değerlendirme, öğretmen puanlama kanıtı ve revize edilmiş nihai ürün. Tema ölçme-değerlendirme sorularına verilen cevaplar ve gerekçeli performans kanıtları.",
+      "required_resource_ids": [],
+      "recommended_resource_ids": [],
+      "optional_resource_ids": [],
+      "block_sequence": 4,
+      "prerequisite_block_ids": [
+        "BLOCK_T4_03_DINLEME"
+      ],
+      "lesson_hours_status": "UNSPECIFIED_BY_SOURCE"
+    }
+  ]
+}

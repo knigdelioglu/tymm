@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_11",
+  "contract_status": "FAIL_CLOSED_UNTIL_EXTERNAL_ASSESSMENT_TARGETS_RESOLVED",
+  "coverage_enum": [
+    "COVERED",
+    "PARTIALLY_COVERED",
+    "NOT_COVERED"
+  ],
+  "confirmed_gap_rule": "Unresolved external normative assessment target is not a confirmed material gap.",
+  "generation_rule": "PARITY_REVIEW_BLOCKED requires zero queue/artifacts and generation_authorization.allowed=false.",
+  "required_blocker_resolution": "Inspect and classify the eight official QR-linked Dereceli Puanlama Anahtarı targets."
+}

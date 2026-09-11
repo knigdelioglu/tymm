@@ -16,8 +16,3 @@
 - Yeni artifact üretimi: kapalı
 
 Dört temanın her birinde konuşma ve yazma performans görevleri için resmî QR bağlantılı Dereceli Puanlama Anahtarı bulunur. Yerel resmî PDF bu haricî hedeflerin ölçüt×düzey içeriğini göstermediğinden `TDE3.4` ve `TDE4.4` her temada `PARTIALLY_COVERED` tutulmuştur. Bu sekiz kayıt doğrulanmış materyal açığı değildir.
-
-
-## Canonical curriculum preservation
-
-Dondurulmuş 4 tema / 64 öğrenme çıktısı korunmuş; yalnız lifecycle ve textbook-alignment durum alanları güncellenmiştir.
