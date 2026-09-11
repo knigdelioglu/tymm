@@ -66,7 +66,7 @@ jobs:
               'outcomes': 64,
               'sections': 24,
               'pdf_pages': 313,
-              'sha256': '19134224745e420b0739bbd85dbb0720f43673d31bbfe0f0362f649d9061f9da',
+              'sha256': '87248cb5f6940c29b7d152fab5cb1f7b800e4d5ddc46ac4cdeb5542f0361a1ba',
               'dpa': 8,
               'covered': 56,
               'partial': 8,
