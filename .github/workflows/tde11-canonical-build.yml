@@ -43,24 +43,44 @@ jobs:
           f = json.loads((r/'textbook_forms_index.json').read_text())
           p = json.loads((r/'production/production_manifest.json').read_text())
           v = json.loads((r/'parity_validation_report.json').read_text())
-          assert len(c['themes']) == 4
-          assert sum(len(x['learning_outcomes']) for x in c['themes']) == 64
-          assert sum(len(x['sections']) for x in t['themes']) == 24
-          assert t['primary_source']['page_count_pdf'] == 313
-          assert t['primary_source']['sha256'] == '19134224745e420b0739bbd85dbb0720f43673d31bbfe0f0362f649d9061f9da'
-          assert f['summary']['unresolved_dereceli_puanlama_anahtari_targets'] == 8
-          assert v['counts']['covered'] == 56
-          assert v['counts']['partially_covered'] == 8
-          assert v['counts']['not_covered'] == 0
-          assert v['counts']['confirmed_required_gaps'] == 0
-          assert p['production_mode'] == 'PARITY_REVIEW_BLOCKED'
-          assert p['production_queue'] == []
-          assert p['expected_new_artifact_count'] == 0
-          assert p['generation_authorization'] == {
-              'allowed': False,
-              'reason': 'UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS',
-              'blocking_target_count': 8,
+          actual = {
+              'themes': len(c['themes']),
+              'outcomes': sum(len(x['learning_outcomes']) for x in c['themes']),
+              'sections': sum(len(x['sections']) for x in t['themes']),
+              'activities': t['scope_summary']['activity_count'],
+              'forms': f['total_records'],
+              'pdf_pages': t['primary_source']['page_count_pdf'],
+              'sha256': t['primary_source']['sha256'],
+              'dpa': f['summary']['unresolved_dereceli_puanlama_anahtari_targets'],
+              'covered': v['counts']['covered'],
+              'partial': v['counts']['partially_covered'],
+              'not_covered': v['counts']['not_covered'],
+              'gaps': v['counts']['confirmed_required_gaps'],
+              'mode': p['production_mode'],
+              'queue': len(p['production_queue']),
+              'artifacts': p['expected_new_artifact_count'],
+              'generation': p['generation_authorization'],
           }
+          print(json.dumps(actual, ensure_ascii=False, indent=2))
+          expected = {
+              'themes': 4,
+              'outcomes': 64,
+              'sections': 24,
+              'pdf_pages': 313,
+              'sha256': '19134224745e420b0739bbd85dbb0720f43673d31bbfe0f0362f649d9061f9da',
+              'dpa': 8,
+              'covered': 56,
+              'partial': 8,
+              'not_covered': 0,
+              'gaps': 0,
+              'mode': 'PARITY_REVIEW_BLOCKED',
+              'queue': 0,
+              'artifacts': 0,
+              'generation': {'allowed': False, 'reason': 'UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS', 'blocking_target_count': 8},
+          }
+          failures = {k: {'actual': actual[k], 'expected': val} for k, val in expected.items() if actual[k] != val}
+          if failures:
+              raise AssertionError(json.dumps(failures, ensure_ascii=False, indent=2))
           print('canonical assertions: PASS')
           PY
 
