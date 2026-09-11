@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_11",
+  "source_id": "textbook_tde11_local_pdf",
+  "file_path": "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf",
+  "pdf_page_count": 313,
+  "sha256": "87248cb5f6940c29b7d152fab5cb1f7b800e4d5ddc46ac4cdeb5542f0361a1ba",
+  "printed_to_pdf_offset": 1,
+  "toc_theme_ranges_verified": {
+    "TEMA_01": "12-83",
+    "TEMA_02": "84-159",
+    "TEMA_03": "160-235",
+    "TEMA_04": "236-307"
+  },
+  "stage_heading_scan": "PASS_4_STAGES_PER_NON_ASSESSMENT_SECTION",
+  "dpa_target_marker_scan": "PASS_EXACTLY_8",
+  "rights_policy": "No long copyrighted body text; only structure, locators and short paraphrases are stored."
+}

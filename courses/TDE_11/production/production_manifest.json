@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.1",
+  "course_id": "TDE_11",
+  "production_mode": "PARITY_REVIEW_BLOCKED",
+  "production_status": "BLOCKED_UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS",
+  "verified_resource_gap_count": 0,
+  "unresolved_assessment_target_count": 8,
+  "expected_new_artifact_count": 0,
+  "production_queue": [],
+  "gap_instance_provenance_registry": [],
+  "artifact_identity_field": "artifact_id",
+  "legacy_gap_alias_policy": "NONE_NO_CONFIRMED_GAPS",
+  "generation_authorization": {
+    "allowed": false,
+    "reason": "UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS",
+    "blocking_target_count": 8
+  },
+  "canonical_inputs": {
+    "curriculum_map": "curriculum_map.json",
+    "textbook_map": "textbook_map.json",
+    "textbook_forms_index": "textbook_forms_index.json",
+    "cross_theme_audit": "production/cross_theme_audit.json",
+    "consolidated_resource_plan": "production/consolidated_resource_plan.json",
+    "assessment_artifact_registry": "production/assessment_artifact_registry.json"
+  },
+  "parity_interpretation": "The official textbook exposes eight QR-linked Dereceli Puanlama Anahtarı targets for speaking/writing performance evaluation. Their criterion×level payload is not visible in the local PDF, so the eight corresponding process-evaluation outcomes remain PARTIALLY_COVERED. This is not a confirmed material gap and does not authorize artifact generation."
+}

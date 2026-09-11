@@ -5,8 +5,8 @@
   "grade": 11,
   "program_name": "Türkiye Yüzyılı Maarif Modeli Türk Dili ve Edebiyatı Dersi Öğretim Programı",
   "source_mode": "OFFICIAL_REMOTE_TYMM_THEME_BUNDLE_WITH_MAPPED_LOCAL_PDF_SNAPSHOTS",
-  "verification_status": "VERIFIED_OFFICIAL_REMOTE_AND_LOCAL",
-  "canonical_freeze_status": "FROZEN_PENDING_SOURCE_FINGERPRINT_CHANGE",
+  "verification_status": "VERIFIED",
+  "canonical_freeze_status": "FROZEN",
   "lifecycle_status": "CURRICULUM_ONLY_AWAITING_TEXTBOOK",
   "scope_summary": {
     "total_themes": 4,
@@ -32,7 +32,11 @@
     "school_based_planning_hours_per_theme": 2,
     "theme_total_hours_with_school_based_planning": 45,
     "annual_school_based_planning_hours": 8,
-    "annual_total_hours_with_school_based_planning": 180
+    "annual_total_hours_with_school_based_planning": 180,
+    "textbook_used": true,
+    "alignment_performed": true,
+    "gap_analysis_performed": true,
+    "materials_generated": false
   },
   "source_validation": {
     "official_theme_bundle_expected_parts": 4,
@@ -157,9 +161,10 @@
           "theme_scope": "TEMA_01",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_01::TDE1.1",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/267#TDE1.1",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 1. TEMA - BİR DİYECEĞİM VAR!.PDF#page=2",
-          "local_source_sha256": "66d997920f0589cd19f735f1fce820916eafcf26412ab19091811f7248a55482"
+          "local_source_sha256": "66d997920f0589cd19f735f1fce820916eafcf26412ab19091811f7248a55482",
+          "outcome_id": "TDE11_T1_TDE1_1"
         },
         {
           "outcome_code": "TDE1.2",
@@ -168,9 +173,10 @@
           "theme_scope": "TEMA_01",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_01::TDE1.2",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/267#TDE1.2",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 1. TEMA - BİR DİYECEĞİM VAR!.PDF#page=2",
-          "local_source_sha256": "66d997920f0589cd19f735f1fce820916eafcf26412ab19091811f7248a55482"
+          "local_source_sha256": "66d997920f0589cd19f735f1fce820916eafcf26412ab19091811f7248a55482",
+          "outcome_id": "TDE11_T1_TDE1_2"
         },
         {
           "outcome_code": "TDE1.3",
@@ -179,9 +185,10 @@
           "theme_scope": "TEMA_01",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_01::TDE1.3",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/267#TDE1.3",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 1. TEMA - BİR DİYECEĞİM VAR!.PDF#page=2",
-          "local_source_sha256": "66d997920f0589cd19f735f1fce820916eafcf26412ab19091811f7248a55482"
+          "local_source_sha256": "66d997920f0589cd19f735f1fce820916eafcf26412ab19091811f7248a55482",
+          "outcome_id": "TDE11_T1_TDE1_3"
         },
         {
           "outcome_code": "TDE1.4",
@@ -190,9 +197,10 @@
           "theme_scope": "TEMA_01",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_01::TDE1.4",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/267#TDE1.4",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 1. TEMA - BİR DİYECEĞİM VAR!.PDF#page=2",
-          "local_source_sha256": "66d997920f0589cd19f735f1fce820916eafcf26412ab19091811f7248a55482"
+          "local_source_sha256": "66d997920f0589cd19f735f1fce820916eafcf26412ab19091811f7248a55482",
+          "outcome_id": "TDE11_T1_TDE1_4"
         },
         {
           "outcome_code": "TDE2.1",
@@ -201,9 +209,10 @@
           "theme_scope": "TEMA_01",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_01::TDE2.1",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/267#TDE2.1",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 1. TEMA - BİR DİYECEĞİM VAR!.PDF#page=2",
-          "local_source_sha256": "66d997920f0589cd19f735f1fce820916eafcf26412ab19091811f7248a55482"
+          "local_source_sha256": "66d997920f0589cd19f735f1fce820916eafcf26412ab19091811f7248a55482",
+          "outcome_id": "TDE11_T1_TDE2_1"
         },
         {
           "outcome_code": "TDE2.2",
@@ -212,9 +221,10 @@
           "theme_scope": "TEMA_01",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_01::TDE2.2",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/267#TDE2.2",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 1. TEMA - BİR DİYECEĞİM VAR!.PDF#page=2",
-          "local_source_sha256": "66d997920f0589cd19f735f1fce820916eafcf26412ab19091811f7248a55482"
+          "local_source_sha256": "66d997920f0589cd19f735f1fce820916eafcf26412ab19091811f7248a55482",
+          "outcome_id": "TDE11_T1_TDE2_2"
         },
         {
           "outcome_code": "TDE2.3",
@@ -223,9 +233,10 @@
           "theme_scope": "TEMA_01",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_01::TDE2.3",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/267#TDE2.3",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 1. TEMA - BİR DİYECEĞİM VAR!.PDF#page=2",
-          "local_source_sha256": "66d997920f0589cd19f735f1fce820916eafcf26412ab19091811f7248a55482"
+          "local_source_sha256": "66d997920f0589cd19f735f1fce820916eafcf26412ab19091811f7248a55482",
+          "outcome_id": "TDE11_T1_TDE2_3"
         },
         {
           "outcome_code": "TDE2.4",
@@ -234,9 +245,10 @@
           "theme_scope": "TEMA_01",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_01::TDE2.4",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/267#TDE2.4",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 1. TEMA - BİR DİYECEĞİM VAR!.PDF#page=2",
-          "local_source_sha256": "66d997920f0589cd19f735f1fce820916eafcf26412ab19091811f7248a55482"
+          "local_source_sha256": "66d997920f0589cd19f735f1fce820916eafcf26412ab19091811f7248a55482",
+          "outcome_id": "TDE11_T1_TDE2_4"
         },
         {
           "outcome_code": "TDE3.1",
@@ -245,9 +257,10 @@
           "theme_scope": "TEMA_01",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_01::TDE3.1",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/267#TDE3.1",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 1. TEMA - BİR DİYECEĞİM VAR!.PDF#page=2",
-          "local_source_sha256": "66d997920f0589cd19f735f1fce820916eafcf26412ab19091811f7248a55482"
+          "local_source_sha256": "66d997920f0589cd19f735f1fce820916eafcf26412ab19091811f7248a55482",
+          "outcome_id": "TDE11_T1_TDE3_1"
         },
         {
           "outcome_code": "TDE3.2",
@@ -256,9 +269,10 @@
           "theme_scope": "TEMA_01",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_01::TDE3.2",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/267#TDE3.2",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 1. TEMA - BİR DİYECEĞİM VAR!.PDF#page=2",
-          "local_source_sha256": "66d997920f0589cd19f735f1fce820916eafcf26412ab19091811f7248a55482"
+          "local_source_sha256": "66d997920f0589cd19f735f1fce820916eafcf26412ab19091811f7248a55482",
+          "outcome_id": "TDE11_T1_TDE3_2"
         },
         {
           "outcome_code": "TDE3.3",
@@ -267,9 +281,10 @@
           "theme_scope": "TEMA_01",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_01::TDE3.3",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/267#TDE3.3",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 1. TEMA - BİR DİYECEĞİM VAR!.PDF#page=2",
-          "local_source_sha256": "66d997920f0589cd19f735f1fce820916eafcf26412ab19091811f7248a55482"
+          "local_source_sha256": "66d997920f0589cd19f735f1fce820916eafcf26412ab19091811f7248a55482",
+          "outcome_id": "TDE11_T1_TDE3_3"
         },
         {
           "outcome_code": "TDE3.4",
@@ -278,9 +293,10 @@
           "theme_scope": "TEMA_01",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_01::TDE3.4",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/267#TDE3.4",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 1. TEMA - BİR DİYECEĞİM VAR!.PDF#page=3",
-          "local_source_sha256": "66d997920f0589cd19f735f1fce820916eafcf26412ab19091811f7248a55482"
+          "local_source_sha256": "66d997920f0589cd19f735f1fce820916eafcf26412ab19091811f7248a55482",
+          "outcome_id": "TDE11_T1_TDE3_4"
         },
         {
           "outcome_code": "TDE4.1",
@@ -289,9 +305,10 @@
           "theme_scope": "TEMA_01",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_01::TDE4.1",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/267#TDE4.1",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 1. TEMA - BİR DİYECEĞİM VAR!.PDF#page=3",
-          "local_source_sha256": "66d997920f0589cd19f735f1fce820916eafcf26412ab19091811f7248a55482"
+          "local_source_sha256": "66d997920f0589cd19f735f1fce820916eafcf26412ab19091811f7248a55482",
+          "outcome_id": "TDE11_T1_TDE4_1"
         },
         {
           "outcome_code": "TDE4.2",
@@ -300,9 +317,10 @@
           "theme_scope": "TEMA_01",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_01::TDE4.2",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/267#TDE4.2",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 1. TEMA - BİR DİYECEĞİM VAR!.PDF#page=3",
-          "local_source_sha256": "66d997920f0589cd19f735f1fce820916eafcf26412ab19091811f7248a55482"
+          "local_source_sha256": "66d997920f0589cd19f735f1fce820916eafcf26412ab19091811f7248a55482",
+          "outcome_id": "TDE11_T1_TDE4_2"
         },
         {
           "outcome_code": "TDE4.3",
@@ -311,9 +329,10 @@
           "theme_scope": "TEMA_01",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_01::TDE4.3",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/267#TDE4.3",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 1. TEMA - BİR DİYECEĞİM VAR!.PDF#page=3",
-          "local_source_sha256": "66d997920f0589cd19f735f1fce820916eafcf26412ab19091811f7248a55482"
+          "local_source_sha256": "66d997920f0589cd19f735f1fce820916eafcf26412ab19091811f7248a55482",
+          "outcome_id": "TDE11_T1_TDE4_3"
         },
         {
           "outcome_code": "TDE4.4",
@@ -322,9 +341,10 @@
           "theme_scope": "TEMA_01",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_01::TDE4.4",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/267#TDE4.4",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 1. TEMA - BİR DİYECEĞİM VAR!.PDF#page=3",
-          "local_source_sha256": "66d997920f0589cd19f735f1fce820916eafcf26412ab19091811f7248a55482"
+          "local_source_sha256": "66d997920f0589cd19f735f1fce820916eafcf26412ab19091811f7248a55482",
+          "outcome_id": "TDE11_T1_TDE4_4"
         }
       ],
       "content_frame": {
@@ -551,9 +571,10 @@
           "theme_scope": "TEMA_02",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_02::TDE1.1",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/276#TDE1.1",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 2. TEMA - KÜLTÜR YOLCULUĞU.PDF#page=2",
-          "local_source_sha256": "2dd813e521d110d165fa93965189e6ed619ffb4da04b48d6616ab1b9f915cf58"
+          "local_source_sha256": "2dd813e521d110d165fa93965189e6ed619ffb4da04b48d6616ab1b9f915cf58",
+          "outcome_id": "TDE11_T2_TDE1_1"
         },
         {
           "outcome_code": "TDE1.2",
@@ -562,9 +583,10 @@
           "theme_scope": "TEMA_02",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_02::TDE1.2",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/276#TDE1.2",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 2. TEMA - KÜLTÜR YOLCULUĞU.PDF#page=2",
-          "local_source_sha256": "2dd813e521d110d165fa93965189e6ed619ffb4da04b48d6616ab1b9f915cf58"
+          "local_source_sha256": "2dd813e521d110d165fa93965189e6ed619ffb4da04b48d6616ab1b9f915cf58",
+          "outcome_id": "TDE11_T2_TDE1_2"
         },
         {
           "outcome_code": "TDE1.3",
@@ -573,9 +595,10 @@
           "theme_scope": "TEMA_02",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_02::TDE1.3",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/276#TDE1.3",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 2. TEMA - KÜLTÜR YOLCULUĞU.PDF#page=2",
-          "local_source_sha256": "2dd813e521d110d165fa93965189e6ed619ffb4da04b48d6616ab1b9f915cf58"
+          "local_source_sha256": "2dd813e521d110d165fa93965189e6ed619ffb4da04b48d6616ab1b9f915cf58",
+          "outcome_id": "TDE11_T2_TDE1_3"
         },
         {
           "outcome_code": "TDE1.4",
@@ -584,9 +607,10 @@
           "theme_scope": "TEMA_02",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_02::TDE1.4",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/276#TDE1.4",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 2. TEMA - KÜLTÜR YOLCULUĞU.PDF#page=2",
-          "local_source_sha256": "2dd813e521d110d165fa93965189e6ed619ffb4da04b48d6616ab1b9f915cf58"
+          "local_source_sha256": "2dd813e521d110d165fa93965189e6ed619ffb4da04b48d6616ab1b9f915cf58",
+          "outcome_id": "TDE11_T2_TDE1_4"
         },
         {
           "outcome_code": "TDE2.1",
@@ -595,9 +619,10 @@
           "theme_scope": "TEMA_02",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_02::TDE2.1",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/276#TDE2.1",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 2. TEMA - KÜLTÜR YOLCULUĞU.PDF#page=2",
-          "local_source_sha256": "2dd813e521d110d165fa93965189e6ed619ffb4da04b48d6616ab1b9f915cf58"
+          "local_source_sha256": "2dd813e521d110d165fa93965189e6ed619ffb4da04b48d6616ab1b9f915cf58",
+          "outcome_id": "TDE11_T2_TDE2_1"
         },
         {
           "outcome_code": "TDE2.2",
@@ -606,9 +631,10 @@
           "theme_scope": "TEMA_02",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_02::TDE2.2",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/276#TDE2.2",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 2. TEMA - KÜLTÜR YOLCULUĞU.PDF#page=2",
-          "local_source_sha256": "2dd813e521d110d165fa93965189e6ed619ffb4da04b48d6616ab1b9f915cf58"
+          "local_source_sha256": "2dd813e521d110d165fa93965189e6ed619ffb4da04b48d6616ab1b9f915cf58",
+          "outcome_id": "TDE11_T2_TDE2_2"
         },
         {
           "outcome_code": "TDE2.3",
@@ -617,9 +643,10 @@
           "theme_scope": "TEMA_02",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_02::TDE2.3",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/276#TDE2.3",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 2. TEMA - KÜLTÜR YOLCULUĞU.PDF#page=2",
-          "local_source_sha256": "2dd813e521d110d165fa93965189e6ed619ffb4da04b48d6616ab1b9f915cf58"
+          "local_source_sha256": "2dd813e521d110d165fa93965189e6ed619ffb4da04b48d6616ab1b9f915cf58",
+          "outcome_id": "TDE11_T2_TDE2_3"
         },
         {
           "outcome_code": "TDE2.4",
@@ -628,9 +655,10 @@
           "theme_scope": "TEMA_02",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_02::TDE2.4",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/276#TDE2.4",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 2. TEMA - KÜLTÜR YOLCULUĞU.PDF#page=2",
-          "local_source_sha256": "2dd813e521d110d165fa93965189e6ed619ffb4da04b48d6616ab1b9f915cf58"
+          "local_source_sha256": "2dd813e521d110d165fa93965189e6ed619ffb4da04b48d6616ab1b9f915cf58",
+          "outcome_id": "TDE11_T2_TDE2_4"
         },
         {
           "outcome_code": "TDE3.1",
@@ -639,9 +667,10 @@
           "theme_scope": "TEMA_02",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_02::TDE3.1",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/276#TDE3.1",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 2. TEMA - KÜLTÜR YOLCULUĞU.PDF#page=3",
-          "local_source_sha256": "2dd813e521d110d165fa93965189e6ed619ffb4da04b48d6616ab1b9f915cf58"
+          "local_source_sha256": "2dd813e521d110d165fa93965189e6ed619ffb4da04b48d6616ab1b9f915cf58",
+          "outcome_id": "TDE11_T2_TDE3_1"
         },
         {
           "outcome_code": "TDE3.2",
@@ -650,9 +679,10 @@
           "theme_scope": "TEMA_02",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_02::TDE3.2",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/276#TDE3.2",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 2. TEMA - KÜLTÜR YOLCULUĞU.PDF#page=3",
-          "local_source_sha256": "2dd813e521d110d165fa93965189e6ed619ffb4da04b48d6616ab1b9f915cf58"
+          "local_source_sha256": "2dd813e521d110d165fa93965189e6ed619ffb4da04b48d6616ab1b9f915cf58",
+          "outcome_id": "TDE11_T2_TDE3_2"
         },
         {
           "outcome_code": "TDE3.3",
@@ -661,9 +691,10 @@
           "theme_scope": "TEMA_02",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_02::TDE3.3",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/276#TDE3.3",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 2. TEMA - KÜLTÜR YOLCULUĞU.PDF#page=3",
-          "local_source_sha256": "2dd813e521d110d165fa93965189e6ed619ffb4da04b48d6616ab1b9f915cf58"
+          "local_source_sha256": "2dd813e521d110d165fa93965189e6ed619ffb4da04b48d6616ab1b9f915cf58",
+          "outcome_id": "TDE11_T2_TDE3_3"
         },
         {
           "outcome_code": "TDE3.4",
@@ -672,9 +703,10 @@
           "theme_scope": "TEMA_02",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_02::TDE3.4",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/276#TDE3.4",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 2. TEMA - KÜLTÜR YOLCULUĞU.PDF#page=3",
-          "local_source_sha256": "2dd813e521d110d165fa93965189e6ed619ffb4da04b48d6616ab1b9f915cf58"
+          "local_source_sha256": "2dd813e521d110d165fa93965189e6ed619ffb4da04b48d6616ab1b9f915cf58",
+          "outcome_id": "TDE11_T2_TDE3_4"
         },
         {
           "outcome_code": "TDE4.1",
@@ -683,9 +715,10 @@
           "theme_scope": "TEMA_02",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_02::TDE4.1",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/276#TDE4.1",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 2. TEMA - KÜLTÜR YOLCULUĞU.PDF#page=3",
-          "local_source_sha256": "2dd813e521d110d165fa93965189e6ed619ffb4da04b48d6616ab1b9f915cf58"
+          "local_source_sha256": "2dd813e521d110d165fa93965189e6ed619ffb4da04b48d6616ab1b9f915cf58",
+          "outcome_id": "TDE11_T2_TDE4_1"
         },
         {
           "outcome_code": "TDE4.2",
@@ -694,9 +727,10 @@
           "theme_scope": "TEMA_02",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_02::TDE4.2",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/276#TDE4.2",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 2. TEMA - KÜLTÜR YOLCULUĞU.PDF#page=3",
-          "local_source_sha256": "2dd813e521d110d165fa93965189e6ed619ffb4da04b48d6616ab1b9f915cf58"
+          "local_source_sha256": "2dd813e521d110d165fa93965189e6ed619ffb4da04b48d6616ab1b9f915cf58",
+          "outcome_id": "TDE11_T2_TDE4_2"
         },
         {
           "outcome_code": "TDE4.3",
@@ -705,9 +739,10 @@
           "theme_scope": "TEMA_02",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_02::TDE4.3",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/276#TDE4.3",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 2. TEMA - KÜLTÜR YOLCULUĞU.PDF#page=3",
-          "local_source_sha256": "2dd813e521d110d165fa93965189e6ed619ffb4da04b48d6616ab1b9f915cf58"
+          "local_source_sha256": "2dd813e521d110d165fa93965189e6ed619ffb4da04b48d6616ab1b9f915cf58",
+          "outcome_id": "TDE11_T2_TDE4_3"
         },
         {
           "outcome_code": "TDE4.4",
@@ -716,9 +751,10 @@
           "theme_scope": "TEMA_02",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_02::TDE4.4",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/276#TDE4.4",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 2. TEMA - KÜLTÜR YOLCULUĞU.PDF#page=3",
-          "local_source_sha256": "2dd813e521d110d165fa93965189e6ed619ffb4da04b48d6616ab1b9f915cf58"
+          "local_source_sha256": "2dd813e521d110d165fa93965189e6ed619ffb4da04b48d6616ab1b9f915cf58",
+          "outcome_id": "TDE11_T2_TDE4_4"
         }
       ],
       "content_frame": {
@@ -951,9 +987,10 @@
           "theme_scope": "TEMA_03",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_03::TDE1.1",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE1.1",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 3. TEMA - YAŞAMIN İZİNDE.PDF#page=2",
-          "local_source_sha256": "d9d414bd2dc9fdc7852ee7c66a421a8a146c0560d56b4025690ce988458de04e"
+          "local_source_sha256": "d9d414bd2dc9fdc7852ee7c66a421a8a146c0560d56b4025690ce988458de04e",
+          "outcome_id": "TDE11_T3_TDE1_1"
         },
         {
           "outcome_code": "TDE1.2",
@@ -962,9 +999,10 @@
           "theme_scope": "TEMA_03",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_03::TDE1.2",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE1.2",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 3. TEMA - YAŞAMIN İZİNDE.PDF#page=2",
-          "local_source_sha256": "d9d414bd2dc9fdc7852ee7c66a421a8a146c0560d56b4025690ce988458de04e"
+          "local_source_sha256": "d9d414bd2dc9fdc7852ee7c66a421a8a146c0560d56b4025690ce988458de04e",
+          "outcome_id": "TDE11_T3_TDE1_2"
         },
         {
           "outcome_code": "TDE1.3",
@@ -973,9 +1011,10 @@
           "theme_scope": "TEMA_03",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_03::TDE1.3",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE1.3",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 3. TEMA - YAŞAMIN İZİNDE.PDF#page=2",
-          "local_source_sha256": "d9d414bd2dc9fdc7852ee7c66a421a8a146c0560d56b4025690ce988458de04e"
+          "local_source_sha256": "d9d414bd2dc9fdc7852ee7c66a421a8a146c0560d56b4025690ce988458de04e",
+          "outcome_id": "TDE11_T3_TDE1_3"
         },
         {
           "outcome_code": "TDE1.4",
@@ -984,9 +1023,10 @@
           "theme_scope": "TEMA_03",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_03::TDE1.4",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE1.4",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 3. TEMA - YAŞAMIN İZİNDE.PDF#page=2",
-          "local_source_sha256": "d9d414bd2dc9fdc7852ee7c66a421a8a146c0560d56b4025690ce988458de04e"
+          "local_source_sha256": "d9d414bd2dc9fdc7852ee7c66a421a8a146c0560d56b4025690ce988458de04e",
+          "outcome_id": "TDE11_T3_TDE1_4"
         },
         {
           "outcome_code": "TDE2.1",
@@ -995,9 +1035,10 @@
           "theme_scope": "TEMA_03",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_03::TDE2.1",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE2.1",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 3. TEMA - YAŞAMIN İZİNDE.PDF#page=2",
-          "local_source_sha256": "d9d414bd2dc9fdc7852ee7c66a421a8a146c0560d56b4025690ce988458de04e"
+          "local_source_sha256": "d9d414bd2dc9fdc7852ee7c66a421a8a146c0560d56b4025690ce988458de04e",
+          "outcome_id": "TDE11_T3_TDE2_1"
         },
         {
           "outcome_code": "TDE2.2",
@@ -1006,9 +1047,10 @@
           "theme_scope": "TEMA_03",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_03::TDE2.2",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE2.2",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 3. TEMA - YAŞAMIN İZİNDE.PDF#page=2",
-          "local_source_sha256": "d9d414bd2dc9fdc7852ee7c66a421a8a146c0560d56b4025690ce988458de04e"
+          "local_source_sha256": "d9d414bd2dc9fdc7852ee7c66a421a8a146c0560d56b4025690ce988458de04e",
+          "outcome_id": "TDE11_T3_TDE2_2"
         },
         {
           "outcome_code": "TDE2.3",
@@ -1017,9 +1059,10 @@
           "theme_scope": "TEMA_03",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_03::TDE2.3",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE2.3",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 3. TEMA - YAŞAMIN İZİNDE.PDF#page=2",
-          "local_source_sha256": "d9d414bd2dc9fdc7852ee7c66a421a8a146c0560d56b4025690ce988458de04e"
+          "local_source_sha256": "d9d414bd2dc9fdc7852ee7c66a421a8a146c0560d56b4025690ce988458de04e",
+          "outcome_id": "TDE11_T3_TDE2_3"
         },
         {
           "outcome_code": "TDE2.4",
@@ -1028,9 +1071,10 @@
           "theme_scope": "TEMA_03",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_03::TDE2.4",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE2.4",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 3. TEMA - YAŞAMIN İZİNDE.PDF#page=2",
-          "local_source_sha256": "d9d414bd2dc9fdc7852ee7c66a421a8a146c0560d56b4025690ce988458de04e"
+          "local_source_sha256": "d9d414bd2dc9fdc7852ee7c66a421a8a146c0560d56b4025690ce988458de04e",
+          "outcome_id": "TDE11_T3_TDE2_4"
         },
         {
           "outcome_code": "TDE3.1",
@@ -1039,9 +1083,10 @@
           "theme_scope": "TEMA_03",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_03::TDE3.1",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE3.1",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 3. TEMA - YAŞAMIN İZİNDE.PDF#page=3",
-          "local_source_sha256": "d9d414bd2dc9fdc7852ee7c66a421a8a146c0560d56b4025690ce988458de04e"
+          "local_source_sha256": "d9d414bd2dc9fdc7852ee7c66a421a8a146c0560d56b4025690ce988458de04e",
+          "outcome_id": "TDE11_T3_TDE3_1"
         },
         {
           "outcome_code": "TDE3.2",
@@ -1050,9 +1095,10 @@
           "theme_scope": "TEMA_03",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_03::TDE3.2",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE3.2",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 3. TEMA - YAŞAMIN İZİNDE.PDF#page=3",
-          "local_source_sha256": "d9d414bd2dc9fdc7852ee7c66a421a8a146c0560d56b4025690ce988458de04e"
+          "local_source_sha256": "d9d414bd2dc9fdc7852ee7c66a421a8a146c0560d56b4025690ce988458de04e",
+          "outcome_id": "TDE11_T3_TDE3_2"
         },
         {
           "outcome_code": "TDE3.3",
@@ -1061,9 +1107,10 @@
           "theme_scope": "TEMA_03",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_03::TDE3.3",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE3.3",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 3. TEMA - YAŞAMIN İZİNDE.PDF#page=3",
-          "local_source_sha256": "d9d414bd2dc9fdc7852ee7c66a421a8a146c0560d56b4025690ce988458de04e"
+          "local_source_sha256": "d9d414bd2dc9fdc7852ee7c66a421a8a146c0560d56b4025690ce988458de04e",
+          "outcome_id": "TDE11_T3_TDE3_3"
         },
         {
           "outcome_code": "TDE3.4",
@@ -1072,9 +1119,10 @@
           "theme_scope": "TEMA_03",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_03::TDE3.4",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE3.4",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 3. TEMA - YAŞAMIN İZİNDE.PDF#page=3",
-          "local_source_sha256": "d9d414bd2dc9fdc7852ee7c66a421a8a146c0560d56b4025690ce988458de04e"
+          "local_source_sha256": "d9d414bd2dc9fdc7852ee7c66a421a8a146c0560d56b4025690ce988458de04e",
+          "outcome_id": "TDE11_T3_TDE3_4"
         },
         {
           "outcome_code": "TDE4.1",
@@ -1083,9 +1131,10 @@
           "theme_scope": "TEMA_03",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_03::TDE4.1",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE4.1",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 3. TEMA - YAŞAMIN İZİNDE.PDF#page=3",
-          "local_source_sha256": "d9d414bd2dc9fdc7852ee7c66a421a8a146c0560d56b4025690ce988458de04e"
+          "local_source_sha256": "d9d414bd2dc9fdc7852ee7c66a421a8a146c0560d56b4025690ce988458de04e",
+          "outcome_id": "TDE11_T3_TDE4_1"
         },
         {
           "outcome_code": "TDE4.2",
@@ -1094,9 +1143,10 @@
           "theme_scope": "TEMA_03",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_03::TDE4.2",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE4.2",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 3. TEMA - YAŞAMIN İZİNDE.PDF#page=3",
-          "local_source_sha256": "d9d414bd2dc9fdc7852ee7c66a421a8a146c0560d56b4025690ce988458de04e"
+          "local_source_sha256": "d9d414bd2dc9fdc7852ee7c66a421a8a146c0560d56b4025690ce988458de04e",
+          "outcome_id": "TDE11_T3_TDE4_2"
         },
         {
           "outcome_code": "TDE4.3",
@@ -1105,9 +1155,10 @@
           "theme_scope": "TEMA_03",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_03::TDE4.3",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE4.3",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 3. TEMA - YAŞAMIN İZİNDE.PDF#page=3",
-          "local_source_sha256": "d9d414bd2dc9fdc7852ee7c66a421a8a146c0560d56b4025690ce988458de04e"
+          "local_source_sha256": "d9d414bd2dc9fdc7852ee7c66a421a8a146c0560d56b4025690ce988458de04e",
+          "outcome_id": "TDE11_T3_TDE4_3"
         },
         {
           "outcome_code": "TDE4.4",
@@ -1116,9 +1167,10 @@
           "theme_scope": "TEMA_03",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_03::TDE4.4",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322#TDE4.4",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 3. TEMA - YAŞAMIN İZİNDE.PDF#page=3",
-          "local_source_sha256": "d9d414bd2dc9fdc7852ee7c66a421a8a146c0560d56b4025690ce988458de04e"
+          "local_source_sha256": "d9d414bd2dc9fdc7852ee7c66a421a8a146c0560d56b4025690ce988458de04e",
+          "outcome_id": "TDE11_T3_TDE4_4"
         }
       ],
       "content_frame": {
@@ -1349,9 +1401,10 @@
           "theme_scope": "TEMA_04",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_04::TDE1.1",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/332#TDE1.1",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 4. TEMA - HAYATIN AYNASI.PDF#page=2",
-          "local_source_sha256": "14a5e5e17919c801127e9c157ef7bc1c947a0d3bcad0d8654cfc3a514aa147f5"
+          "local_source_sha256": "14a5e5e17919c801127e9c157ef7bc1c947a0d3bcad0d8654cfc3a514aa147f5",
+          "outcome_id": "TDE11_T4_TDE1_1"
         },
         {
           "outcome_code": "TDE1.2",
@@ -1360,9 +1413,10 @@
           "theme_scope": "TEMA_04",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_04::TDE1.2",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/332#TDE1.2",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 4. TEMA - HAYATIN AYNASI.PDF#page=2",
-          "local_source_sha256": "14a5e5e17919c801127e9c157ef7bc1c947a0d3bcad0d8654cfc3a514aa147f5"
+          "local_source_sha256": "14a5e5e17919c801127e9c157ef7bc1c947a0d3bcad0d8654cfc3a514aa147f5",
+          "outcome_id": "TDE11_T4_TDE1_2"
         },
         {
           "outcome_code": "TDE1.3",
@@ -1371,9 +1425,10 @@
           "theme_scope": "TEMA_04",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_04::TDE1.3",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/332#TDE1.3",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 4. TEMA - HAYATIN AYNASI.PDF#page=2",
-          "local_source_sha256": "14a5e5e17919c801127e9c157ef7bc1c947a0d3bcad0d8654cfc3a514aa147f5"
+          "local_source_sha256": "14a5e5e17919c801127e9c157ef7bc1c947a0d3bcad0d8654cfc3a514aa147f5",
+          "outcome_id": "TDE11_T4_TDE1_3"
         },
         {
           "outcome_code": "TDE1.4",
@@ -1382,9 +1437,10 @@
           "theme_scope": "TEMA_04",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_04::TDE1.4",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/332#TDE1.4",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 4. TEMA - HAYATIN AYNASI.PDF#page=2",
-          "local_source_sha256": "14a5e5e17919c801127e9c157ef7bc1c947a0d3bcad0d8654cfc3a514aa147f5"
+          "local_source_sha256": "14a5e5e17919c801127e9c157ef7bc1c947a0d3bcad0d8654cfc3a514aa147f5",
+          "outcome_id": "TDE11_T4_TDE1_4"
         },
         {
           "outcome_code": "TDE2.1",
@@ -1393,9 +1449,10 @@
           "theme_scope": "TEMA_04",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_04::TDE2.1",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/332#TDE2.1",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 4. TEMA - HAYATIN AYNASI.PDF#page=2",
-          "local_source_sha256": "14a5e5e17919c801127e9c157ef7bc1c947a0d3bcad0d8654cfc3a514aa147f5"
+          "local_source_sha256": "14a5e5e17919c801127e9c157ef7bc1c947a0d3bcad0d8654cfc3a514aa147f5",
+          "outcome_id": "TDE11_T4_TDE2_1"
         },
         {
           "outcome_code": "TDE2.2",
@@ -1404,9 +1461,10 @@
           "theme_scope": "TEMA_04",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_04::TDE2.2",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/332#TDE2.2",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 4. TEMA - HAYATIN AYNASI.PDF#page=2",
-          "local_source_sha256": "14a5e5e17919c801127e9c157ef7bc1c947a0d3bcad0d8654cfc3a514aa147f5"
+          "local_source_sha256": "14a5e5e17919c801127e9c157ef7bc1c947a0d3bcad0d8654cfc3a514aa147f5",
+          "outcome_id": "TDE11_T4_TDE2_2"
         },
         {
           "outcome_code": "TDE2.3",
@@ -1415,9 +1473,10 @@
           "theme_scope": "TEMA_04",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_04::TDE2.3",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/332#TDE2.3",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 4. TEMA - HAYATIN AYNASI.PDF#page=2",
-          "local_source_sha256": "14a5e5e17919c801127e9c157ef7bc1c947a0d3bcad0d8654cfc3a514aa147f5"
+          "local_source_sha256": "14a5e5e17919c801127e9c157ef7bc1c947a0d3bcad0d8654cfc3a514aa147f5",
+          "outcome_id": "TDE11_T4_TDE2_3"
         },
         {
           "outcome_code": "TDE2.4",
@@ -1426,9 +1485,10 @@
           "theme_scope": "TEMA_04",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_04::TDE2.4",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/332#TDE2.4",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 4. TEMA - HAYATIN AYNASI.PDF#page=2",
-          "local_source_sha256": "14a5e5e17919c801127e9c157ef7bc1c947a0d3bcad0d8654cfc3a514aa147f5"
+          "local_source_sha256": "14a5e5e17919c801127e9c157ef7bc1c947a0d3bcad0d8654cfc3a514aa147f5",
+          "outcome_id": "TDE11_T4_TDE2_4"
         },
         {
           "outcome_code": "TDE3.1",
@@ -1437,9 +1497,10 @@
           "theme_scope": "TEMA_04",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_04::TDE3.1",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/332#TDE3.1",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 4. TEMA - HAYATIN AYNASI.PDF#page=2",
-          "local_source_sha256": "14a5e5e17919c801127e9c157ef7bc1c947a0d3bcad0d8654cfc3a514aa147f5"
+          "local_source_sha256": "14a5e5e17919c801127e9c157ef7bc1c947a0d3bcad0d8654cfc3a514aa147f5",
+          "outcome_id": "TDE11_T4_TDE3_1"
         },
         {
           "outcome_code": "TDE3.2",
@@ -1448,9 +1509,10 @@
           "theme_scope": "TEMA_04",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_04::TDE3.2",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/332#TDE3.2",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 4. TEMA - HAYATIN AYNASI.PDF#page=2",
-          "local_source_sha256": "14a5e5e17919c801127e9c157ef7bc1c947a0d3bcad0d8654cfc3a514aa147f5"
+          "local_source_sha256": "14a5e5e17919c801127e9c157ef7bc1c947a0d3bcad0d8654cfc3a514aa147f5",
+          "outcome_id": "TDE11_T4_TDE3_2"
         },
         {
           "outcome_code": "TDE3.3",
@@ -1459,9 +1521,10 @@
           "theme_scope": "TEMA_04",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_04::TDE3.3",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/332#TDE3.3",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 4. TEMA - HAYATIN AYNASI.PDF#page=2",
-          "local_source_sha256": "14a5e5e17919c801127e9c157ef7bc1c947a0d3bcad0d8654cfc3a514aa147f5"
+          "local_source_sha256": "14a5e5e17919c801127e9c157ef7bc1c947a0d3bcad0d8654cfc3a514aa147f5",
+          "outcome_id": "TDE11_T4_TDE3_3"
         },
         {
           "outcome_code": "TDE3.4",
@@ -1470,9 +1533,10 @@
           "theme_scope": "TEMA_04",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_04::TDE3.4",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/332#TDE3.4",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 4. TEMA - HAYATIN AYNASI.PDF#page=3",
-          "local_source_sha256": "14a5e5e17919c801127e9c157ef7bc1c947a0d3bcad0d8654cfc3a514aa147f5"
+          "local_source_sha256": "14a5e5e17919c801127e9c157ef7bc1c947a0d3bcad0d8654cfc3a514aa147f5",
+          "outcome_id": "TDE11_T4_TDE3_4"
         },
         {
           "outcome_code": "TDE4.1",
@@ -1481,9 +1545,10 @@
           "theme_scope": "TEMA_04",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_04::TDE4.1",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/332#TDE4.1",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 4. TEMA - HAYATIN AYNASI.PDF#page=3",
-          "local_source_sha256": "14a5e5e17919c801127e9c157ef7bc1c947a0d3bcad0d8654cfc3a514aa147f5"
+          "local_source_sha256": "14a5e5e17919c801127e9c157ef7bc1c947a0d3bcad0d8654cfc3a514aa147f5",
+          "outcome_id": "TDE11_T4_TDE4_1"
         },
         {
           "outcome_code": "TDE4.2",
@@ -1492,9 +1557,10 @@
           "theme_scope": "TEMA_04",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_04::TDE4.2",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/332#TDE4.2",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 4. TEMA - HAYATIN AYNASI.PDF#page=3",
-          "local_source_sha256": "14a5e5e17919c801127e9c157ef7bc1c947a0d3bcad0d8654cfc3a514aa147f5"
+          "local_source_sha256": "14a5e5e17919c801127e9c157ef7bc1c947a0d3bcad0d8654cfc3a514aa147f5",
+          "outcome_id": "TDE11_T4_TDE4_2"
         },
         {
           "outcome_code": "TDE4.3",
@@ -1503,9 +1569,10 @@
           "theme_scope": "TEMA_04",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_04::TDE4.3",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/332#TDE4.3",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 4. TEMA - HAYATIN AYNASI.PDF#page=3",
-          "local_source_sha256": "14a5e5e17919c801127e9c157ef7bc1c947a0d3bcad0d8654cfc3a514aa147f5"
+          "local_source_sha256": "14a5e5e17919c801127e9c157ef7bc1c947a0d3bcad0d8654cfc3a514aa147f5",
+          "outcome_id": "TDE11_T4_TDE4_3"
         },
         {
           "outcome_code": "TDE4.4",
@@ -1514,9 +1581,10 @@
           "theme_scope": "TEMA_04",
           "stable_entity_key": "TDE_11::curriculum_outcome::TEMA_04::TDE4.4",
           "source_locator": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/332#TDE4.4",
-          "verification_status": "VERIFIED_OFFICIAL_WEB_AND_LOCAL_PDF",
+          "verification_status": "VERIFIED",
           "local_source_locator": "source_docs/Türk Dili Ve Edebiyatı Dersi 11.Sınıf 4. TEMA - HAYATIN AYNASI.PDF#page=3",
-          "local_source_sha256": "14a5e5e17919c801127e9c157ef7bc1c947a0d3bcad0d8654cfc3a514aa147f5"
+          "local_source_sha256": "14a5e5e17919c801127e9c157ef7bc1c947a0d3bcad0d8654cfc3a514aa147f5",
+          "outcome_id": "TDE11_T4_TDE4_4"
         }
       ],
       "content_frame": {
@@ -1638,5 +1706,6 @@
         "verbatim_evidence_scope": "FULL_PDF_PAGE_TEXT_PRESERVED"
       }
     }
-  ]
+  ],
+  "lifecycle_state": "TEXTBOOK_ALIGNED_PARITY_REVIEW_BLOCKED"
 }

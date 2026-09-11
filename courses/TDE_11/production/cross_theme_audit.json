@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "course_id": "TDE_11",
+  "audit_status": "PASS_WITH_PARITY_REVIEW_BLOCKER",
+  "theme_count": 4,
+  "outcome_count": 64,
+  "textbook_section_count": 24,
+  "textbook_activity_count": 84,
+  "textbook_form_count": 43,
+  "coverage": {
+    "covered": 56,
+    "partially_covered": 8,
+    "not_covered": 0
+  },
+  "confirmed_required_gap_count": 0,
+  "unresolved_assessment_target_count": 8,
+  "cross_theme_gap_clusters": [],
+  "authorized_artifacts": [],
+  "production_mode": "PARITY_REVIEW_BLOCKED"
+}

@@ -3,8 +3,8 @@
   "course_id": "TDE_11",
   "grade": 11,
   "course_title": "Türk Dili ve Edebiyatı",
-  "last_validated": "2026-08-19",
-  "overall_status": "CURRICULUM_ONLY_AWAITING_TEXTBOOK",
+  "last_validated": "2026-09-11",
+  "overall_status": "TEXTBOOK_ALIGNED_PARITY_REVIEW_BLOCKED",
   "source_mode": "OFFICIAL_REMOTE_TYMM_THEME_BUNDLE_WITH_MAPPED_LOCAL_PDF_SNAPSHOTS",
   "scope": {
     "analysis_target": "11. Sınıf Türk Dili ve Edebiyatı Öğretim Programı",
@@ -170,10 +170,22 @@
     "fingerprint_rule": "Local official PDF snapshots use SHA-256; Git blob SHA is retained only as repository transport identity."
   },
   "textbook": {
-    "status": "NOT_AVAILABLE_AWAITING_OFFICIAL_TEXTBOOK",
-    "coverage_status": "NOT_EVALUATED",
-    "gap_status": "NOT_EVALUATED",
-    "production_status": "NOT_EVALUATED"
+    "status": "VERIFIED_AND_ALIGNED",
+    "source_id": "textbook_tde11_local_pdf",
+    "file_path": "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf",
+    "edition_year": 2026,
+    "isbn": "978-605-06002-7-8",
+    "ttkb_acceptance": {
+      "date": "2026-07-27",
+      "reference_no": "164960037"
+    },
+    "pdf_page_count": 313,
+    "sha256": "87248cb5f6940c29b7d152fab5cb1f7b800e4d5ddc46ac4cdeb5542f0361a1ba",
+    "theme_count": 4,
+    "section_count": 24,
+    "activity_count": 84,
+    "form_record_count": 43,
+    "unresolved_normative_assessment_target_count": 8
   },
   "deferred_stages": [
     "TEXTBOOK_MAP",
@@ -186,5 +198,43 @@
     "FULL_P0_TEXTBOOK_RUNTIME",
     "PRODUCTION_GATE"
   ],
-  "curriculum_source_bundle_sha256": "a931973ce05bfe067cccf6188a4ddc73a2c3e93a843ff0c324325f4ebb55ba93"
+  "curriculum_source_bundle_sha256": "a931973ce05bfe067cccf6188a4ddc73a2c3e93a843ff0c324325f4ebb55ba93",
+  "lifecycle_state": "TEXTBOOK_ALIGNED_PARITY_REVIEW_BLOCKED",
+  "sources": [
+    {
+      "source_id": "textbook_tde11_local_pdf",
+      "source_type": "official_textbook",
+      "authority_rank": 2,
+      "title": "Ortaöğretim Türk Dili ve Edebiyatı 11. Sınıf Ders Kitabı",
+      "file_path": "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf",
+      "edition_year": 2026,
+      "isbn": "978-605-06002-7-8",
+      "ttkb_acceptance": {
+        "date": "2026-07-27",
+        "reference_no": "164960037"
+      },
+      "pdf_page_count": 313,
+      "sha256": "87248cb5f6940c29b7d152fab5cb1f7b800e4d5ddc46ac4cdeb5542f0361a1ba",
+      "verification_status": "VERIFIED_LOCAL_OFFICIAL_PDF"
+    }
+  ],
+  "scope_status": {
+    "curriculum_verified": true,
+    "textbook_verified": true,
+    "textbook_mapped": true,
+    "alignment_performed": true,
+    "gap_analysis_performed": true,
+    "confirmed_required_gap_count": 0,
+    "unresolved_assessment_target_count": 8,
+    "production_mode": "PARITY_REVIEW_BLOCKED",
+    "materials_generated": false
+  },
+  "coverage_summary": {
+    "covered": 56,
+    "partially_covered": 8,
+    "not_covered": 0
+  },
+  "deferred_textbook_stages": [
+    "Resolve/inspect the eight official QR-linked Dereceli Puanlama Anahtarı payloads before any parity certification or assessment artifact generation."
+  ]
 }

@@ -1,0 +1,506 @@
+{
+  "schema_version": "1.1",
+  "course_id": "TDE_11",
+  "grade": 11,
+  "theme_id": "TEMA_04",
+  "theme_no": 4,
+  "theme_title": "4. TEMA: HAYATIN AYNASI",
+  "derivation_rule": "Need first; textbook alignment second; coverage/priority/production decision last.",
+  "summary": {
+    "total_planned_items": 16,
+    "covered_count": 14,
+    "partially_covered_count": 2,
+    "not_covered_count": 0,
+    "review_required_count": 2,
+    "generate_authorized_count": 0
+  },
+  "resources": [
+    {
+      "resource_plan_id": "PLAN_T11_T4_TDE1_1",
+      "need_id": "NEED_T11_T4_TDE1_1",
+      "target_outcomes": [
+        "TDE1.1"
+      ],
+      "resource_type": "reuse_official_textbook_path",
+      "purpose": "Dinleme/izleme amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve tahminde bulunur.",
+      "expected_student_evidence": "Amaç/strateji kaydı, tahmin ve hazırlık notları.",
+      "pre_alignment_state": "PENDING_ALIGNMENT_NO_COVERAGE_ASSUMPTION",
+      "textbook_coverage": "COVERED",
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_04_DINLEME_BELGESEL"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_13_DINLEME_YONETIM"
+      ],
+      "textbook_form_ids": [
+        "FORM_T4_P286_KONTROL_LISTESI_03"
+      ],
+      "textbook_resource_locators": [
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.285-286"
+      ],
+      "textbook_resource_locator": "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.285-286",
+      "external_source_needed": false,
+      "teacher_review_required": false,
+      "decision_rationale": "Official textbook activity/evidence path satisfies the outcome-level need."
+    },
+    {
+      "resource_plan_id": "PLAN_T11_T4_TDE1_2",
+      "need_id": "NEED_T11_T4_TDE1_2",
+      "target_outcomes": [
+        "TDE1.2"
+      ],
+      "resource_type": "reuse_official_textbook_path",
+      "purpose": "Dinlenen/izlenen metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur.",
+      "expected_student_evidence": "Anlama sorularına cevaplar ve yapılandırılmış dinleme/izleme notları.",
+      "pre_alignment_state": "PENDING_ALIGNMENT_NO_COVERAGE_ASSUMPTION",
+      "textbook_coverage": "COVERED",
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_04_DINLEME_BELGESEL"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_14_DINLEME_ICERIK_ANLAM"
+      ],
+      "textbook_form_ids": [],
+      "textbook_resource_locators": [
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.287-293"
+      ],
+      "textbook_resource_locator": "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.287-293",
+      "external_source_needed": false,
+      "teacher_review_required": false,
+      "decision_rationale": "Official textbook activity/evidence path satisfies the outcome-level need."
+    },
+    {
+      "resource_plan_id": "PLAN_T11_T4_TDE1_3",
+      "need_id": "NEED_T11_T4_TDE1_3",
+      "target_outcomes": [
+        "TDE1.3"
+      ],
+      "resource_type": "reuse_official_textbook_path",
+      "purpose": "Çok modlu metni yapı, tür, dil-anlatım, kişi/olay/ileti ve bağlam yönlerinden çözümler.",
+      "expected_student_evidence": "Tahlil cevapları, karşılaştırma/şema kayıtları ve gerekçeli çıkarımlar.",
+      "pre_alignment_state": "PENDING_ALIGNMENT_NO_COVERAGE_ASSUMPTION",
+      "textbook_coverage": "COVERED",
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_04_DINLEME_BELGESEL"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_15_DINLEME_UYGULAMA_COZUMLEME"
+      ],
+      "textbook_form_ids": [],
+      "textbook_resource_locators": [
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.294-296"
+      ],
+      "textbook_resource_locator": "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.294-296",
+      "external_source_needed": false,
+      "teacher_review_required": false,
+      "decision_rationale": "Official textbook activity/evidence path satisfies the outcome-level need."
+    },
+    {
+      "resource_plan_id": "PLAN_T11_T4_TDE1_4",
+      "need_id": "NEED_T11_T4_TDE1_4",
+      "target_outcomes": [
+        "TDE1.4"
+      ],
+      "resource_type": "reuse_official_textbook_path",
+      "purpose": "Dinleme/izleme sürecini ve metne ilişkin değerlendirmelerini ölçütlere dayalı biçimde yansıtır.",
+      "expected_student_evidence": "Öz değerlendirme, gözlem/öğrenme günlüğü veya gerekçeli değerlendirme kaydı.",
+      "pre_alignment_state": "PENDING_ALIGNMENT_NO_COVERAGE_ASSUMPTION",
+      "textbook_coverage": "COVERED",
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_04_DINLEME_BELGESEL"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_16_DINLEME_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T4_P297_OGRENME_GUNLUGU_04"
+      ],
+      "textbook_resource_locators": [
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.297"
+      ],
+      "textbook_resource_locator": "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.297",
+      "external_source_needed": false,
+      "teacher_review_required": false,
+      "decision_rationale": "Official textbook activity/evidence path satisfies the outcome-level need."
+    },
+    {
+      "resource_plan_id": "PLAN_T11_T4_TDE2_1",
+      "need_id": "NEED_T11_T4_TDE2_1",
+      "target_outcomes": [
+        "TDE2.1"
+      ],
+      "resource_type": "reuse_official_textbook_path",
+      "purpose": "Okuma amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve metne ilişkin tahmin geliştirir.",
+      "expected_student_evidence": "Okuma öncesi cevaplar, tahminler ve hazırlık notları.",
+      "pre_alignment_state": "PENDING_ALIGNMENT_NO_COVERAGE_ASSUMPTION",
+      "textbook_coverage": "COVERED",
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_01_OKUMA_TIYATRO",
+        "T4_SEC_02_OKUMA_KUCU_REK"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_01_OKUMA_YONETIM",
+        "T4_ACT_05_OKUMA_YONETIM"
+      ],
+      "textbook_form_ids": [],
+      "textbook_resource_locators": [
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.241-246",
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.264-265"
+      ],
+      "textbook_resource_locator": "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.241-246",
+      "external_source_needed": false,
+      "teacher_review_required": false,
+      "decision_rationale": "Official textbook activity/evidence path satisfies the outcome-level need."
+    },
+    {
+      "resource_plan_id": "PLAN_T11_T4_TDE2_2",
+      "need_id": "NEED_T11_T4_TDE2_2",
+      "target_outcomes": [
+        "TDE2.2"
+      ],
+      "resource_type": "reuse_official_textbook_path",
+      "purpose": "Metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur.",
+      "expected_student_evidence": "Anlama sorularına cevaplar, işaretlemeler ve anlamlandırma kayıtları.",
+      "pre_alignment_state": "PENDING_ALIGNMENT_NO_COVERAGE_ASSUMPTION",
+      "textbook_coverage": "COVERED",
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_01_OKUMA_TIYATRO",
+        "T4_SEC_02_OKUMA_KUCU_REK"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_02_OKUMA_ICERIK_ANLAM",
+        "T4_ACT_06_OKUMA_ICERIK_ANLAM"
+      ],
+      "textbook_form_ids": [],
+      "textbook_resource_locators": [
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.247-255",
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.266-273"
+      ],
+      "textbook_resource_locator": "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.247-255",
+      "external_source_needed": false,
+      "teacher_review_required": false,
+      "decision_rationale": "Official textbook activity/evidence path satisfies the outcome-level need."
+    },
+    {
+      "resource_plan_id": "PLAN_T11_T4_TDE2_3",
+      "need_id": "NEED_T11_T4_TDE2_3",
+      "target_outcomes": [
+        "TDE2.3"
+      ],
+      "resource_type": "reuse_official_textbook_path",
+      "purpose": "Metni yapı, tür, dil-anlatım ve dönem/bağlam özellikleri bakımından çözümler ve karşılaştırır.",
+      "expected_student_evidence": "Tahlil cevapları, tablo/şema ve gerekçeli karşılaştırma kayıtları.",
+      "pre_alignment_state": "PENDING_ALIGNMENT_NO_COVERAGE_ASSUMPTION",
+      "textbook_coverage": "COVERED",
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_01_OKUMA_TIYATRO",
+        "T4_SEC_02_OKUMA_KUCU_REK"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_03_OKUMA_UYGULAMA_COZUMLEME",
+        "T4_ACT_07_OKUMA_UYGULAMA_COZUMLEME"
+      ],
+      "textbook_form_ids": [],
+      "textbook_resource_locators": [
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.256-261",
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.274-278"
+      ],
+      "textbook_resource_locator": "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.256-261",
+      "external_source_needed": false,
+      "teacher_review_required": false,
+      "decision_rationale": "Official textbook activity/evidence path satisfies the outcome-level need."
+    },
+    {
+      "resource_plan_id": "PLAN_T11_T4_TDE2_4",
+      "need_id": "NEED_T11_T4_TDE2_4",
+      "target_outcomes": [
+        "TDE2.4"
+      ],
+      "resource_type": "reuse_official_textbook_path",
+      "purpose": "Okuma sürecini ve metne ilişkin yargılarını belirlediği ölçütlerle değerlendirir.",
+      "expected_student_evidence": "Öz değerlendirme, çıkış kartı, öğrenme günlüğü veya gerekçeli değerlendirme.",
+      "pre_alignment_state": "PENDING_ALIGNMENT_NO_COVERAGE_ASSUMPTION",
+      "textbook_coverage": "COVERED",
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_01_OKUMA_TIYATRO",
+        "T4_SEC_02_OKUMA_KUCU_REK"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_04_OKUMA_DEGERLENDIRME",
+        "T4_ACT_08_OKUMA_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [],
+      "textbook_resource_locators": [
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.262",
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.279"
+      ],
+      "textbook_resource_locator": "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.262",
+      "external_source_needed": false,
+      "teacher_review_required": false,
+      "decision_rationale": "Official textbook activity/evidence path satisfies the outcome-level need."
+    },
+    {
+      "resource_plan_id": "PLAN_T11_T4_TDE3_1",
+      "need_id": "NEED_T11_T4_TDE3_1",
+      "target_outcomes": [
+        "TDE3.1"
+      ],
+      "resource_type": "reuse_official_textbook_path",
+      "purpose": "Konuşmanın amacını, hedef kitlesini, yöntem/stratejisini, hazırlık ve uygulama koşullarını planlar.",
+      "expected_student_evidence": "Konuşma/canlandırma planı, görev ve hazırlık kayıtları.",
+      "pre_alignment_state": "PENDING_ALIGNMENT_NO_COVERAGE_ASSUMPTION",
+      "textbook_coverage": "COVERED",
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_03_KONUSMA_CANLANDIRMA"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_09_KONUSMA_YONETIM"
+      ],
+      "textbook_form_ids": [
+        "FORM_T4_P281_KONTROL_LISTESI_01"
+      ],
+      "textbook_resource_locators": [
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.280-281"
+      ],
+      "textbook_resource_locator": "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.280-281",
+      "external_source_needed": false,
+      "teacher_review_required": false,
+      "decision_rationale": "Official textbook activity/evidence path satisfies the outcome-level need."
+    },
+    {
+      "resource_plan_id": "PLAN_T11_T4_TDE3_2",
+      "need_id": "NEED_T11_T4_TDE3_2",
+      "target_outcomes": [
+        "TDE3.2"
+      ],
+      "resource_type": "reuse_official_textbook_path",
+      "purpose": "Konuşma için bilgi, örnek, görsel/işitsel destek ve söz varlığını seçerek içeriği yapılandırır.",
+      "expected_student_evidence": "Konuşma metni/senaryo/akış taslağı ve içerik düzenleme kayıtları.",
+      "pre_alignment_state": "PENDING_ALIGNMENT_NO_COVERAGE_ASSUMPTION",
+      "textbook_coverage": "COVERED",
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_03_KONUSMA_CANLANDIRMA"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_10_KONUSMA_ICERIK_ANLAM"
+      ],
+      "textbook_form_ids": [],
+      "textbook_resource_locators": [
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.282"
+      ],
+      "textbook_resource_locator": "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.282",
+      "external_source_needed": false,
+      "teacher_review_required": false,
+      "decision_rationale": "Official textbook activity/evidence path satisfies the outcome-level need."
+    },
+    {
+      "resource_plan_id": "PLAN_T11_T4_TDE3_3",
+      "need_id": "NEED_T11_T4_TDE3_3",
+      "target_outcomes": [
+        "TDE3.3"
+      ],
+      "resource_type": "reuse_official_textbook_path",
+      "purpose": "Planladığı konuşmayı bağlama uygun dil, beden dili, ses, zaman ve mekân kullanımıyla gerçekleştirir.",
+      "expected_student_evidence": "Canlı sözlü performans/canlandırma ve performans kaydı.",
+      "pre_alignment_state": "PENDING_ALIGNMENT_NO_COVERAGE_ASSUMPTION",
+      "textbook_coverage": "COVERED",
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_03_KONUSMA_CANLANDIRMA"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_11_KONUSMA_UYGULAMA_COZUMLEME"
+      ],
+      "textbook_form_ids": [],
+      "textbook_resource_locators": [
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.282"
+      ],
+      "textbook_resource_locator": "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.282",
+      "external_source_needed": false,
+      "teacher_review_required": false,
+      "decision_rationale": "Official textbook activity/evidence path satisfies the outcome-level need."
+    },
+    {
+      "resource_plan_id": "PLAN_T11_T4_TDE3_4",
+      "need_id": "NEED_T11_T4_TDE3_4",
+      "target_outcomes": [
+        "TDE3.4"
+      ],
+      "resource_type": "assessment_support_review",
+      "purpose": "Konuşma performansını öz/akran/öğretmen değerlendirmesi ve geri bildirimle geliştirir.",
+      "expected_student_evidence": "Öz/akran değerlendirme, öğretmen puanlama kanıtı ve yansıtma/revizyon kaydı.",
+      "pre_alignment_state": "PENDING_ALIGNMENT_NO_COVERAGE_ASSUMPTION",
+      "textbook_coverage": "PARTIALLY_COVERED",
+      "priority": "REVIEW_REQUIRED",
+      "production_decision": "NO_ACTION_PENDING_ASSESSMENT_TARGET",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_03_KONUSMA_CANLANDIRMA"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_12_KONUSMA_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "LINK_T4_KONUSMA_DPA"
+      ],
+      "textbook_resource_locators": [
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.283"
+      ],
+      "textbook_resource_locator": "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.283",
+      "external_source_needed": true,
+      "teacher_review_required": true,
+      "decision_rationale": "Official QR-linked DPA target must be structurally verified before any additional assessment artifact can be authorized."
+    },
+    {
+      "resource_plan_id": "PLAN_T11_T4_TDE4_1",
+      "need_id": "NEED_T11_T4_TDE4_1",
+      "target_outcomes": [
+        "TDE4.1"
+      ],
+      "resource_type": "reuse_official_textbook_path",
+      "purpose": "Yazma amacını, hedef kitlesini, türünü, yöntem/stratejisini ve üretim koşullarını planlar.",
+      "expected_student_evidence": "Yazma planı, amaç/hedef kitle ve strateji kaydı.",
+      "pre_alignment_state": "PENDING_ALIGNMENT_NO_COVERAGE_ASSUMPTION",
+      "textbook_coverage": "COVERED",
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_05_YAZMA_AFIS"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_17_YAZMA_YONETIM"
+      ],
+      "textbook_form_ids": [],
+      "textbook_resource_locators": [
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.298-299"
+      ],
+      "textbook_resource_locator": "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.298-299",
+      "external_source_needed": false,
+      "teacher_review_required": false,
+      "decision_rationale": "Official textbook activity/evidence path satisfies the outcome-level need."
+    },
+    {
+      "resource_plan_id": "PLAN_T11_T4_TDE4_2",
+      "need_id": "NEED_T11_T4_TDE4_2",
+      "target_outcomes": [
+        "TDE4.2"
+      ],
+      "resource_type": "reuse_official_textbook_path",
+      "purpose": "Bilgi, örnek, görsel/işitsel öge ve söz varlığını seçerek yazılı/çok modlu içeriği tasarlar.",
+      "expected_student_evidence": "İçerik taslağı, plan/şema ve kaynak-seçim kayıtları.",
+      "pre_alignment_state": "PENDING_ALIGNMENT_NO_COVERAGE_ASSUMPTION",
+      "textbook_coverage": "COVERED",
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_05_YAZMA_AFIS"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_18_YAZMA_ICERIK_ANLAM"
+      ],
+      "textbook_form_ids": [],
+      "textbook_resource_locators": [
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.300"
+      ],
+      "textbook_resource_locator": "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.300",
+      "external_source_needed": false,
+      "teacher_review_required": false,
+      "decision_rationale": "Official textbook activity/evidence path satisfies the outcome-level need."
+    },
+    {
+      "resource_plan_id": "PLAN_T11_T4_TDE4_3",
+      "need_id": "NEED_T11_T4_TDE4_3",
+      "target_outcomes": [
+        "TDE4.3"
+      ],
+      "resource_type": "reuse_official_textbook_path",
+      "purpose": "Taslağını tür, bağlam, Türkçe kullanımı, yazım-noktalama ve bütünlük ilkelerine göre ürüne dönüştürür.",
+      "expected_student_evidence": "Düzenlenmiş yazılı veya çok modlu ürün.",
+      "pre_alignment_state": "PENDING_ALIGNMENT_NO_COVERAGE_ASSUMPTION",
+      "textbook_coverage": "COVERED",
+      "priority": "NOT_NEEDED",
+      "production_decision": "REUSE_TEXTBOOK",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_05_YAZMA_AFIS"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_19_YAZMA_UYGULAMA_COZUMLEME"
+      ],
+      "textbook_form_ids": [],
+      "textbook_resource_locators": [
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.301"
+      ],
+      "textbook_resource_locator": "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.301",
+      "external_source_needed": false,
+      "teacher_review_required": false,
+      "decision_rationale": "Official textbook activity/evidence path satisfies the outcome-level need."
+    },
+    {
+      "resource_plan_id": "PLAN_T11_T4_TDE4_4",
+      "need_id": "NEED_T11_T4_TDE4_4",
+      "target_outcomes": [
+        "TDE4.4"
+      ],
+      "resource_type": "assessment_support_review",
+      "purpose": "Yazma sürecini ve ürünü öz/akran/öğretmen değerlendirmesiyle gözden geçirip geliştirir.",
+      "expected_student_evidence": "Öz/akran değerlendirme, öğretmen puanlama kanıtı ve revize edilmiş nihai ürün.",
+      "pre_alignment_state": "PENDING_ALIGNMENT_NO_COVERAGE_ASSUMPTION",
+      "textbook_coverage": "PARTIALLY_COVERED",
+      "priority": "REVIEW_REQUIRED",
+      "production_decision": "NO_ACTION_PENDING_ASSESSMENT_TARGET",
+      "reuse_existing_resource": true,
+      "textbook_section_ids": [
+        "T4_SEC_05_YAZMA_AFIS"
+      ],
+      "textbook_activity_ids": [
+        "T4_ACT_20_YAZMA_DEGERLENDIRME"
+      ],
+      "textbook_form_ids": [
+        "FORM_T4_P302_OGRENME_GUNLUGU_06",
+        "LINK_T4_YAZMA_DPA"
+      ],
+      "textbook_resource_locators": [
+        "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.302"
+      ],
+      "textbook_resource_locator": "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.302",
+      "external_source_needed": true,
+      "teacher_review_required": true,
+      "decision_rationale": "Official QR-linked DPA target must be structurally verified before any additional assessment artifact can be authorized."
+    }
+  ]
+}
