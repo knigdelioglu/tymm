@@ -3,7 +3,7 @@
   "schema_version": "1.1.0",
   "course_id": "TDE_11",
   "grade": 11,
-  "build_timestamp": "2026-09-11T17:42:53Z",
+  "build_timestamp": "2026-09-11T17:49:11Z",
   "compiler_version": "1.2.0",
   "canonical_source_files": [
     "../TDE_SHARED/curriculum_process_component_catalog.json",
@@ -45,7 +45,7 @@
     "production/consolidated_resource_plan.json": "94137b50fdc448e68f2d4b9dadbff1743bb78521e883519fbb31dfd03d54e780",
     "production/production_manifest.json": "e3d13a301ca7d048a9969541dec81e98a848fcf008247517fd107300a2d23f76",
     "production/teaching_blocks.json": "ea0b5349825eac67e26cf2d3f1b0bce44040220096499cbad174d9d819ad98b0",
-    "source_manifest.json": "3b54ed547d2195902978e841bacb3c8c593f646c83623aa6c2e26fea025651f0",
+    "source_manifest.json": "5470cd4de26c722dd2dc3984daadeafe40e921dbaf14a1d8e36f5bb783ae4023",
     "textbook_forms_index.json": "a9ff15aa35cb4b00a1e25537e236458fd2e9d25287a8dc70f4b881b6c9f51a69",
     "textbook_map.json": "f4eee30d238ae5eec28ce7c93fa0c7e8d746dc461331a6374530876cb8208946",
     "themes/tema_01/alignment.json": "74323e1fd1be47497f1a35a41c4954a25ee852301d1f065f7528a80536f20c94",
@@ -65,7 +65,7 @@
     "themes/tema_04/needs.json": "c015ddbb98b901dbe2f7bd760f6d91a4bd1cea90686f491b24c7291fdb358be0",
     "themes/tema_04/resource_plan.json": "be7e59f1f3f78a978d67a8805ddbcd4a89d3f742e7f132215bb2fc1254643fde"
   },
-  "canonical_content_fingerprint": "42104c27d7be94590e5b6e46c115189719872249671eabd39b15d0e38ababa7a",
+  "canonical_content_fingerprint": "4e15d9fd6baf6f9bdfe816d38dc351cd4c2013c02303191c60f340d7a46c2d7c",
   "row_counts": {
     "courses": 1,
     "themes": 4,
@@ -98,7 +98,7 @@
   "block_hour_binding_file": null,
   "assessment_registry_version": "1.0",
   "assessment_contract_version": "1.0",
-  "source_manifest_fingerprint": "3b54ed547d2195902978e841bacb3c8c593f646c83623aa6c2e26fea025651f0",
+  "source_manifest_fingerprint": "5470cd4de26c722dd2dc3984daadeafe40e921dbaf14a1d8e36f5bb783ae4023",
   "process_component_resolution_status": "PASS",
   "process_component_counts": {
     "total_outcomes": 64,

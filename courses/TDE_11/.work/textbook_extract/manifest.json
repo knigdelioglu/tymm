@@ -1,8 +1,0 @@
-{
-  "source_path": "courses/TDE_11/source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf",
-  "page_count_pdf": 313,
-  "sha256": "87248cb5f6940c29b7d152fab5cb1f7b800e4d5ddc46ac4cdeb5542f0361a1ba",
-  "size_bytes": 11915969,
-  "chunk_size_pages": 20,
-  "extraction_tool": "pdftotext -layout"
-}
