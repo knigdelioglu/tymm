@@ -61,7 +61,6 @@ jobs:
               'artifacts': p['expected_new_artifact_count'],
               'generation': p['generation_authorization'],
           }
-          print(json.dumps(actual, ensure_ascii=False, indent=2))
           expected = {
               'themes': 4,
               'outcomes': 64,
@@ -79,10 +78,25 @@ jobs:
               'generation': {'allowed': False, 'reason': 'UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS', 'blocking_target_count': 8},
           }
           failures = {k: {'actual': actual[k], 'expected': val} for k, val in expected.items() if actual[k] != val}
+          (r/'.work/assert_actual.json').write_text(json.dumps({'actual': actual, 'expected': expected, 'failures': failures}, ensure_ascii=False, indent=2) + '\n')
+          print(json.dumps(actual, ensure_ascii=False, indent=2))
           if failures:
               raise AssertionError(json.dumps(failures, ensure_ascii=False, indent=2))
           print('canonical assertions: PASS')
           PY
+
+      - name: Upload canonical assertion diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tde11-canonical-diagnostics
+          path: |
+            courses/TDE_11/.work/assert_actual.json
+            courses/TDE_11/textbook_map.json
+            courses/TDE_11/textbook_forms_index.json
+            courses/TDE_11/parity_validation_report.json
+          if-no-files-found: error
+          retention-days: 1
 
       - name: Install P0 gate dependencies
         run: |
@@ -143,6 +157,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          rm -f courses/TDE_11/.work/assert_actual.json
           git add courses/TDE_11
           if git diff --cached --quiet; then
             echo 'No generated changes to commit.'
