@@ -122,13 +122,29 @@ jobs:
 
       - name: Run production contract tests
         run: |
-          python tests/test_reuse_only_contract.py
-          python tests/test_parity_blocked_contract.py
+          python skill/tymm-material-planner/tests/test_reuse_only_contract.py
+          python skill/tymm-material-planner/tests/test_parity_blocked_contract.py
 
       - name: Run TDE11 generic P0 gate
         env:
           TYMM_KNOWLEDGE_ROOT: courses/TDE_11
-        run: python skill/tymm-material-planner/scripts/generic_p0_course_gate.py
+        run: |
+          set -o pipefail
+          python skill/tymm-material-planner/scripts/generic_p0_course_gate.py 2>&1 | tee courses/TDE_11/.work/p0.log
+
+      - name: Upload P0 diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tde11-p0-diagnostics
+          path: |
+            courses/TDE_11/.work/p0.log
+            courses/TDE_11/index/p0_gate_report.json
+            courses/TDE_11/index/index_manifest.json
+            courses/TDE_11/runtime/runtime_manifest.json
+            courses/TDE_11/runtime/runtime_validation_report.md
+          if-no-files-found: warn
+          retention-days: 1
 
       - name: TDE9 and TDE10 regression assertions
         run: |
@@ -157,7 +173,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          rm -f courses/TDE_11/.work/assert_actual.json
+          rm -f courses/TDE_11/.work/assert_actual.json courses/TDE_11/.work/p0.log
           git add courses/TDE_11
           if git diff --cached --quiet; then
             echo 'No generated changes to commit.'
