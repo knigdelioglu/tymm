@@ -1,12 +1,32 @@
 # TDE_11 — 11. Sınıf Türk Dili ve Edebiyatı
 
-Bu klasör, 11. sınıf Türk Dili ve Edebiyatı için curriculum-only canonical katmandır.
+Bu klasör 11. sınıf Türk Dili ve Edebiyatı için **program + resmî ders kitabı hizalanmış canonical bilgi katmanıdır**.
 
 ## Lifecycle
 
-`CURRICULUM_ONLY_AWAITING_TEXTBOOK`
+`TEXTBOOK_ALIGNED_PARITY_REVIEW_BLOCKED`
 
-Resmî öğretim programı doğrulanmış ve canonical curriculum katmanı kurulmuştur. Resmî 11. sınıf ders kitabı henüz bu çalışma için mevcut olmadığı için textbook, coverage, alignment, gap ve production aşamaları başlatılmamıştır.
+Resmî TYMM öğretim programı ile 2026 MEB 11. sınıf ders kitabı eşlenmiştir. Canonical curriculum **4 tema / 64 parent outcome** olarak korunur. Ders kitabı **24 bölüm, 84 aşama/ölçme etkinliği ve 43 form/değerlendirme kaydı** düzeyinde haritalanmıştır.
+
+Yıllık outcome kapsamı:
+
+- **56 `COVERED`**
+- **8 `PARTIALLY_COVERED`**
+- **0 `NOT_COVERED`**
+- **0 doğrulanmış materyal açığı**
+- **8 çözümlenmemiş normatif değerlendirme hedefi**
+
+Sekiz kısmi kayıt, her temadaki `TDE3.4` ve `TDE4.4` için kitapta bulunan resmî QR bağlantılı **Dereceli Puanlama Anahtarı** hedefleridir. Yerel resmî PDF hedeflerin ölçüt×düzey içeriğini göstermediğinden bunlar fail-closed biçimde çözümlenmemiş tutulur. Bu durum doğrulanmış materyal açığı değildir ve yeni rubrik/artifact üretimini yetkilendirmez.
+
+## Üretim durumu
+
+`PARITY_REVIEW_BLOCKED`
+
+- `verified_resource_gap_count = 0`
+- `unresolved_assessment_target_count = 8`
+- `expected_new_artifact_count = 0`
+- `generation_authorization.allowed = false`
+- blok nedeni: `UNRESOLVED_NORMATIVE_ASSESSMENT_TARGETS`
 
 ## Zaman modeli
 
@@ -16,27 +36,25 @@ Her tema **45 saatlik planlama bloğudur**:
 - **2 saat** okul temelli planlama
 - **45 saat** tema toplamı
 
-Yıllık toplam: **172 saat tema öğretimi + 8 saat okul temelli planlama = 180 saat**.
+Yıllık toplam: **172 saat tema öğretimi + 8 saat okul temelli planlama = 180 saat**. Okul temelli planlama curriculum gap değildir.
 
-Okul temelli planlama ayrı pedagojik katmandır; curriculum gap olarak değerlendirilmez. `curriculum_map.json` içindeki resmî 43 saatlik verbatim kaynak kaydı korunur, 2 saatlik okul temelli planlama `source_manifest.json` zaman modelinde ayrıca tanımlanır.
+## Ana canonical ve türetilmiş katmanlar
 
-## Canonical dosyalar
-
-- `source_manifest.json` — resmî program kaynak kimliği, yerel PDF eşleştirmesi, zaman modeli, bütünlük ve lifecycle bilgisi
-- `curriculum_map.json` — 4 tema, 64 parent outcome, program bileşenleri, ölçme-değerlendirme ve farklılaştırma hükümleri
-- `curriculum_normative_text.json` — yerel resmî program PDF’lerinin sayfa bazlı kaynak-bağlı metin kanıtı
-- `curriculum_validation_report.json` — curriculum-only doğrulama sonucu
-- `validation_report.md` — insan tarafından okunabilir kısa doğrulama raporu
-- `source_docs/` — tema adıyla eşleştirilmiş yerel resmî program PDF snapshotları
-
-## Kaynak politikası
-
-Canonical içerik yalnız 11. sınıf resmî TYMM öğretim programından çıkarılır. TDE_9 ve TDE_10 içerik kaynağı değildir; yalnız mimari/şema davranışı referansı olabilir.
-
-Yerel PDF kimliği, PDF içindeki resmî TYMM `unite/<id>` bağlantısıyla doğrulanmıştır; dosya boyutu veya yükleme sırası üzerinden tahmin yapılmamıştır.
-
-Ders kitabı bulunmadığı için kitap eksikliği `NOT_COVERED`, verified gap veya artifact ihtiyacı olarak yorumlanmaz.
+- `source_manifest.json` — program + kitap kaynak kimliği, fingerprint ve lifecycle
+- `curriculum_map.json` — 4 tema / 64 outcome canonical program katmanı
+- `textbook_map.json` — kitap bölüm/etkinlik/sayfa eşlemesi
+- `textbook_forms_index.json` — gözlenen form ve değerlendirme yapıları
+- `themes/tema_*/needs.json` — curriculum-first ihtiyaçlar
+- `themes/tema_*/alignment.json` — outcome → kitap kanıtı hizalaması
+- `themes/tema_*/gap_analysis.json` — kapsam ve kalan boşluk analizi
+- `themes/tema_*/resource_plan.json` — coverage sonrası kaynak kararı
+- `production/` — cross-theme audit, production contract/manifest ve teaching blocks
+- `planning/course_timeline.json` — sıralı yıllık tema/block zaman katmanı
+- `index/` — canonical bilgi indeksi ve P0 raporu
+- `runtime/course_runtime.sqlite` — canonical JSON/MD'den türetilmiş runtime veritabanı
 
 ## Doğrulama
 
-Curriculum-only paket `skill/tymm-material-planner/scripts/curriculum_only_gate.py` ile fail-closed doğrulanır. Ders kitabı gelene kadar full textbook P0 zorlanmaz.
+Kalıcı doğrulama `.github/workflows/tymm-tde11-p0.yml` üzerinden `generic_p0_course_gate.py` ile fail-closed çalışır. Gate canonical sözleşme, production mode, indeks tazeliği, resolver, tema belirsizliği, stale/conflict korumaları ve runtime SQLite katmanını doğrular. TDE_9 ve TDE_10 regresyon sözleşmeleri de aynı workflow içinde korunur.
+
+Parite sertifikası, sekiz resmî QR bağlantılı değerlendirme hedefinin doğrudan yapısal doğrulaması tamamlanana kadar verilmez.
