@@ -1,0 +1,18 @@
+Creator:         Adobe InDesign 21.4 (Macintosh)
+Producer:        GPL Ghostscript 10.08.0
+CreationDate:    Fri Sep 11 16:51:57 2026 UTC
+ModDate:         Fri Sep 11 16:51:57 2026 UTC
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           313
+Encrypted:       no
+Page size:       1162.2 x 796.53 pts
+Page rot:        0
+File size:       11915969 bytes
+Optimized:       no
+PDF version:     1.5
