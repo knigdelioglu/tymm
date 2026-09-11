@@ -153,8 +153,8 @@ jobs:
           from pathlib import Path
           r9 = Path('courses/TDE_9')
           p9 = json.loads((r9/'production/production_manifest.json').read_text())
-          assert p9['expected_new_artifact_count'] == 3, p9['expected_new_artifact_count']
-          assert p9['verified_resource_gap_count'] == 7, p9['verified_resource_gap_count']
+          assert p9['summary_metrics']['required_unique_artifact_count'] == 3
+          assert p9['summary_metrics']['required_gap_instance_count'] == 7
           assert len(p9['gap_instance_provenance_registry']) == 7
 
           r10 = Path('courses/TDE_10')
