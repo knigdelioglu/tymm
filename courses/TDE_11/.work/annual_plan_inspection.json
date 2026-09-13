@@ -1,0 +1,543 @@
+{
+  "workbook": "docs/Anadolu Liseleri Türk Dili ve Edebiyatı Dersi Taslak Yıllık Plan.xlsx",
+  "sheets": [
+    {
+      "name": "11.SINIF",
+      "path": "xl/worksheets/sheet4.xml",
+      "rows": [
+        {
+          "r": 1,
+          "cells": {
+            "A1": "2026-2027 EĞİTİM ÖĞRETİM YILI 11. SINIF TÜRK DİLİ VE EDEBİYATI DERSİ ÇERÇEVE YILLIK PLANI"
+          }
+        },
+        {
+          "r": 2,
+          "cells": {
+            "A2": "SÜRE",
+            "D2": "ÜNİTE/TEMA - İÇERİK ÇERÇEVESİ",
+            "F2": "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ",
+            "H2": "ÖĞRENME KANITLARI",
+            "I2": "PROGRAMLAR ARASI BİLEŞENLER",
+            "L2": "BELİRLİ GÜN VE HAFTALAR",
+            "M2": "FARKLILAŞTIRMA",
+            "N2": "OKUL TEMELLİ PLANLAMA"
+          }
+        },
+        {
+          "r": 3,
+          "cells": {
+            "A3": "AY",
+            "B3": "HAFTA",
+            "C3": "DERS\nSAATİ",
+            "D3": "ÜNİTE/TEMA",
+            "E3": "KONU (İÇERİK ÇERÇEVESİ)",
+            "F3": "ÖĞRENME ÇIKTILARI ",
+            "G3": "SÜREÇ BİLEŞENLERİ",
+            "H3": "ÖLÇME VE DEĞERLENDİRME",
+            "I3": "SOSYAL - DUYGUSAL ÖĞRENME BECERİLERİ",
+            "J3": "DEĞERLER",
+            "K3": "OKURYAZARLIK BECERİLERİ",
+            "L3": "BELİRLİ GÜN VE HAFTALAR",
+            "M3": "FARKLILAŞTIRMA",
+            "N3": "OKUL TEMELLİ PLANLAMA"
+          }
+        },
+        {
+          "r": 4,
+          "cells": {
+            "A4": "EYLÜL",
+            "B4": "1. Hafta:\n 14-18 Eylül",
+            "C4": "5",
+            "D4": "1.TEMA\nBİR DİYECEĞİM VAR!",
+            "E4": "OKUMA\n• Tema içeriğine\nuygun bir Karagöz\noyunu\n• Tema içeriğine\nuygun bir mektup\n• Ara Metin: Tema\niçeriğine uygun bir\ndilekçe",
+            "F4": "TDE2.1. “Bir Diyeceğim Var!” temasında ele alınan metinlerde okumayı yönetebilme",
+            "G4": "TDE2.1. Okumayı Yönetebilme\na) TDE2.1.1. İnceler ve görüş oluşturur.\n• Metni okumaya başlamadan önce okuma amacını belirler.\n• Okuyacağı metnin başlık ve görsellerinden hareketle metnin içeriğine, türüne veya yazılış amacına yönelik\ntahminde bulunur.\nb) TDE2.1.2. Seçim yapar.\n• Okuyacağı metin için uygun okuma yöntem ve stratejisi seçer.\n• Seçtiği okuma stratejisi ile okumayı sürdürür.",
+            "H4": "Metin Tahlili (Anlama)\nOkuma ve Dinleme/İzleme\n\n• Kısa cevaplı sorular\n• Çalışma kâğıdı\n• Çıkış kartı\n• T diyagramı\n• Balık kılçığı\n• Karşılaştırma tablosu\n• Açık uçlu sorular\nOkuma metinlerine yönelik incelemeler yapılırken T diyagramı, balık kılçığı ve kısa cevaplı\nsorulardan faydalanılabilir, kontrol listesi tutulabilir. Metinler çözümlenirken, değerlendirilirken\nve yansıtma yapılırken açık uçlu sorular kullanılabilir; çalışma yaprakları hazırlanabilir.\nDinleme/izleme metinleri çözümlenirken karşılaştırma tablosu, zihin ve kavram haritaları\nkullanılabilir, çıkış kartlarından yararlanılabilir.\n\nEdebiyat Atölyesi (Anlatma)\nKonuşma ve Yazma\n\n• Sözlü iletişim engellerini konu alan bir canlandırma yapmalarına yönelik bir performans\ngörevi\n• E-posta yazmalarına yönelik bir performans görevi\nÖğrencilerin drama sergileyerek gerçekleştirdikleri performans, dereceli puanlama\nanahtarı ile puanlanır. Puanlama anahtarında içeriğe uygunluk, özgünlük, canlandırma\nbecerisi, sözü ve beden dilini etkili kullanma gibi ölçütler yer alır. Bu görev grup çalışması\nolarak gerçekleştirilebilir.\nE-posta yazmaya yönelik performans görevleri dereceli puanlama anahtarıyla değerlendirilir.\nPuanlama anahtarında Türkçenin doğru kullanımı, üslup, özgünlük, gerekli durumlarda öznel ve nesnel ifadelere yer verme, başlık ve hitap kullanımı, yazım ve noktalama gibi ölçütlere yer verilir. Değerlendirmelerde öz değerlendirme ve akran değerlendirmesi\nyapılarak çeşitlilik sağlanabilir.\nTema sonu değerlendirmede çıkış kartı kullanılır.",
+            "I4": "SDB1.2. Kendini Düzenleme (Öz Düzenleme)\nSDB2.1. İletişim                                  \nSDB2.2. İş Birliği                                                     SDB2.3.Sosyal Farkındalık                       \nSDB3.1. Uyum                                  \nSDB3.2. Esneklik                             \nSDB3.3. Sorumlu Karar Verme",
+            "J4": "D4. Dostluk                D14. Saygı                  \nD16. Sorumluluk   \nD19. Vatanseverlik          ",
+            "K4": "OB1. Bilgi Okuryazarlığı \nOB5. Kültür Okuryazarlığı\nOB9. Sanat Okuryazarlığı",
+            "L4": "15 Temmuz Demokrasi ve Millî Birlik Günü",
+            "M4": "Türkiye Yüzyılı Maarif Modeli Öğretim Programları Ortak Metni'nde “Farklılaştırılmış öğrenme yaşantılarında öğrencilerin ilgi alanları ile öğrenme profilleri önemlidir ve öğrencilere çeşitli öğrenme yaşantıları sunulur. Farklılaştırma kapsamında yapılacak zenginleştirme ve destekleme uygulamalarında öğrencilerin bireysel farklılıkları (öğrenme hızları, öğrenme stilleri, yetenekleri vb.), ilgi ve ihtiyaçları dikkate alınarak gereken planlamalar yapılır.” ifadesi yer almaktadır.  Öğretmenler sınıftaki öğrencilerini gözlemleyerek gerek gördükleri konularda farklılaştırma uygulamalarını ders sürecine dâhil etmelidirler.",
+            "N4": "Okul temelli planlama; zümre öğretmenler kurulu tarafından ders kapsamında gerçekleştirilmesi kararlaştırılan araştırma ve gözlem, sosyal etkinlikler, proje çalışmaları, yerel çalışmalar, okuma çalışmaları vb. çalışmaları kapsamaktadır. Çalışmalar için ayrılan süre eğitim-öğretim yılı içinde planlanır ve yıllık planlarda ifade edilir.\nBu planlamalar kapsamında yürütülecek öğretim faaliyetleri; öğrenci katılımını desteklemeli, yaparak ve yaşayarak öğrenmeye olanak tanımalı, öğrencinin bütüncül gelişimine hizmet etmelidir.   *Bu çerçeve planda belirtilen okul temelli planlama haftaları örnek olarak sunulmuştur. Planlama, zümre öğretmenler kurulunda alınan kararlara göre okul ve ders koşulları göz önünde bulundurularak yapılmalıdır."
+          }
+        },
+        {
+          "r": 5,
+          "cells": {
+            "B5": "2. Hafta:\n21-25 Eylül",
+            "C5": "5",
+            "D5": "1.TEMA\nBİR DİYECEĞİM VAR!",
+            "E5": "OKUMA\n• Tema içeriğine\nuygun bir Karagöz\noyunu\n• Tema içeriğine\nuygun bir mektup\n• Ara Metin: Tema\niçeriğine uygun bir\ndilekçe",
+            "F5": "TDE2.2. “Bir Diyeceğim Var!” temasında ele alınan metinlerde anlam oluşturabilme\nTDE2.3. “Bir Diyeceğim Var!” temasında ele alınan metinleri çözümleyebilme",
+            "G5": "TDE2.2. Anlam Oluşturabilme\na) TDE2.2.1. Ön bilgilerle bağlantı kurar.\n• Okuma metnindeki bilgiler ile ön bilgileri arasında bağlantı kurar.\nb) TDE2.2.2. Tahmin eder.\n• Metindeki söz varlığının anlamını bağlamdan hareketle belirler.\nc) TDE2.2.3. Çıkarım yapar.\n• Metinde açıkça sunulan bilgileri belirler.\n• Metinden hareketle çıkarım yapar.\n• Metinde açıkça ifade edilen neden-sonuç, koşul, varsayım bilgilerini belirler.\n• Metnin konu ve/veya temasını belirler.\n• Metnin yardımcı düşüncelerini belirler.\n• Metnin ana düşüncesini/duygusunu belirler.\n• Yazarın metni yazma amacını belirler.\n• Metinde yer alan iletilerin sunuluş şeklini inceler.\n• Metinde geçen söz sanatlarını belirler.\n• Metindeki karakterlerin davranışlarından duygu ve düşüncelerine yönelik çıkarımlar yapar.\n• Metin ile yazar arasındaki ilişkiyi belirler.\nç) TDE2.2.4. Karşılaştırır.\n• Metin öncesi tahminleri ile okuma içeriğini karşılaştırır.\n• Okuduğu metinleri belirlenen ölçütlere (içerik, tür, şekil, dönem, zihniyet, üslup ve ileti) göre karşılaştırır.\nd) TDE2.2.5. Sınıflandırır.\n• Okuduğu metinleri belirlenen ölçütlere (içerik, tür, şekil, dönem, zihniyet, üslup ve ileti) göre sınıflandırır.\n• Metindeki gerçek ve kurgu arasındaki farkı belirler.\n• Metindeki öznel ve nesnel ifadeleri ayırt eder.\n• Metindeki bilgilerin güvenilir olup olmadığını belirler.\ne) TDE2.2.6. Tepki verir.\n• Metni özetler.\n• Okuduğu metinlere yönelik geri bildirimler sunar.\nTDE2.3. Çözümleyebilme\na) TDE2.3.1. Nesne, olgu ve olaylara ilişkin parçaları belirler.\n• Metindeki karakterlerin özelliklerini ve amaçlarını inceler.\n• Metindeki yapı unsurlarını belirler.\n• Metindeki dil ve anlatım özelliklerini belirler.\n• Metindeki dil işlevlerini belirler.\nb) TDE2.3.2. Parçalar arasındaki ilişkileri belirler.\n• Okuduğu metni oluşturan şekil ve anlama dair birimler arasındaki ilişkileri belirler.\n• Metindeki yapı unsurları arasındaki ilişkileri belirler.\n• Yazarın üslup seçiminin nedenleri ve sonuçlarını açıklar.\n• Metinlerin yazıldığı dönemin özelliklerini açıklar.\n• Metnin içeriğinin, yapı unsurlarının, dil ve anlatım özelliklerinin metnin yazıldığı dönemle ve toplumla ilişkisini\nkurar.\n• Metni millî, manevi ve evrensel değerlerin aktarımı bağlamında değerlendirir.\n• Metnin içeriğinin, yapı unsurlarının, dil ve anlatım özelliklerinin metnin yazarıyla ilişkisini kurar.\n• Metnin diğer disiplinlerle olan ilişkisini değerlendirir."
+          }
+        },
+        {
+          "r": 6,
+          "cells": {
+            "B6": "3. Hafta:\n 28 Eylül-2 Ekim",
+            "C6": "5",
+            "D6": "1.TEMA\nBİR DİYECEĞİM VAR!",
+            "E6": "OKUMA\n• Tema içeriğine\nuygun bir Karagöz\noyunu\n• Tema içeriğine\nuygun bir mektup\n• Ara Metin: Tema\niçeriğine uygun bir\ndilekçe",
+            "F6": "TDE2.4. “Bir Diyeceğim Var!” temasında ele alınan metinlerden hareketle okuma sürecini\ndeğerlendirebilme",
+            "G6": "TDE2.4. Süreci Değerlendirebilme\na) TDE2.4.1. Kendini değerlendirir.\n• Metin hakkında değerlendirmeler yapabilmek için çeşitli ölçütler belirler.\n• Okuduğu metni kendi beğeni ölçütleri doğrultusunda değerlendirir.\n• Metindeki gerçeklik ile gerçek dünya bilgisine dayalı karşılaştırmalar yapar.\nb) TDE2.4.2. Tepki ortaya koyar.\n• Kendini karakterlerin yerine koyarak kahramanın davranışlarını anlamlandırır.\n• Okuduğu metne yönelik beğeni ve eleştirilerini gerekçelendirerek açıklar.\n• Metnin konu ve ana düşüncesinin kendi dünyasıyla ilişkisini belirler.\n• Yazarın amacı ile kendi düşünceleri arasındaki benzerlik ve farklılıkları açıklar.\n• Metindeki olaya, duruma, soruna ya da karakterlerin davranışlarına seçenekler üretir.\n• Kendi belirlediği ölçütlerden hareketle metnin yazılış amacına ulaşma düzeyini değerlendirir."
+          }
+        },
+        {
+          "r": 7,
+          "cells": {
+            "A7": "EKİM",
+            "B7": "4. Hafta:\n 5-9 Ekim",
+            "C7": "5",
+            "D7": "1.TEMA\nBİR DİYECEĞİM VAR!",
+            "E7": "KONUŞMA\n• Sözlü iletişim\nengellerini konu\nalan bir drama\nsergileyebilme",
+            "F7": "TDE3.1. Günlük yaşamda karşılaşabileceği iletişim engellerini konu alan konuşmasını yönetebilme\nTDE3.2. İletişim engellerinin nedenlerini, sonuçlarını ve çözümlerini yansıtacağı konuşması\niçin içerik oluşturabilme",
+            "G7": "TDE3.1. Konuşmayı Yönetebilme\na) TDE3.1.1. Seçim yapar.\n• Konuşmasının amacına (edebî metin oluşturma, ikna etme, bilgilendirme vb.) karar verir.\n• Konuşmasının özelliklerini (hazırlıklı/hazırlıksız), süresini ve hedef kitlesini belirler.\n• Konuşmanın türüne uygun, yöntem ve stratejisini belirler.\nb) TDE3.1.2. İlişkiyi sürdürür.\n• Konuşmasında engelleri ortadan kaldırır.\n• Konuşma amacına uygun olarak seçtiği stratejiyi yapılandırır.\nTDE3.2. İçerik Oluşturabilme\na) TDE3.2.1. Ön bilgilerle bağlantı kurar.\n• Konuşmasında belirlediği amaca yönelik ön bilgileriyle bağlantı kurar.\nb) TDE3.2.2. Tahmin eder.\n• Hedef kitlenin özelliklerine yönelik tahminlerde bulunarak konuşmasının giriş, gelişme ve sonuç bölümlerini\ntasarlar.\nc) TDE3.2.3. Karşılaştırır.\n• Konuşmasının amacına uygun ana düşünceyi belirlerken karşılaştırma içeren iletiler oluşturur.\nç) TDE3.2.4. Sınıflandırır.\n• Dilin kullanım alanına (özel, mesleki, kamusal alan ve eğitim alanı) göre konuşmasının içeriğini belirler.\nd) TDE3.2.5. Yeniden ifade eder.\n• Konuşmasının türüne göre bilgi toplar (Hazırlıklı konuşmada bilgi toplar, hazırlıksız konuşmada not alır.).\n• Söz varlığını kullanarak konuşmasının içeriğini düzenler.\ne) TDE3.2.6. Tepki verir.\n• Konuşmasını planlarken dil işlevlerini kullanır.\nf) TDE3.2.7. Sesle anlam oluşturur.\n• Konuşmasında beden dilini doğru bir şekilde kullanacağını göz önünde bulundurur.\n• Konuşmasını diksiyon ve telaffuzu etkin kullanacak şekilde planlar.\ng) TDE3.2.8. Görsel ögeleri kullanır.\n• Konuşma içeriğini desteklemek için kullanacağı görsel ve işitsel ögelere karar verir.\nğ) TDE3.2.9. Sunar.\n• Yapacağı konuşmanın plan taslağını sunar.\n• Aldığı geri bildirimler ile plan taslağına son şeklini verir."
+          }
+        },
+        {
+          "r": 8,
+          "cells": {
+            "B8": "5. Hafta:\n 12-16 Ekim",
+            "C8": "5",
+            "D8": "1.TEMA\nBİR DİYECEĞİM VAR!",
+            "E8": "KONUŞMA\n• Sözlü iletişim\nengellerini konu\nalan bir drama\nsergileyebilme",
+            "F8": "TDE3.3. Sözlü iletişim engellerine ilişkin farklı bakış açılarını deneyimlediği konuşmasında\nkural uygulayabilme\nTDE3.4. Günlük hayatta karşılaşılan sözlü iletişim engellerine yönelik gerçekleştirdiği\nkonuşmasında süreci değerlendirebilme",
+            "G8": "TDE3.3. Kural Uygulayabilme\na) TDE3.3.1. Plan hazırlar.\n• Konuşmasına planına uygun bir şekilde başlar.\n• Konuşmasını dikkat çekici bir girişle başlatır.\nb) TDE3.3.2. Düşünceyi geliştirme yollarını kullanır.\n• Konuşmasını desteklemek amacıyla düşünceyi geliştirme yollarını kullanır.\n• Duygu, düşünce ve hayallerini kendine özgü bir üslupla ifade eder.\nc) TDE3.3.3. Uygun söz varlığı kullanır.\n• Söz varlığını bağlama uygun şekilde kullanır.\n• Ana düşünce ve destekleyici bilgilerle konuşmasını sürdürür.\n• Konuşmasını hedef kitleye uygun bir söz varlığı ve üslupla sürdürür.\nç) TDE3.3.4. İletileri açık ve örtük biçimde ifade eder.\n• Vermek istediği iletileri açık veya örtük bir şekilde ifade eder.\n• Duygu, düşünce ve hayallerini tutarlı bir şekilde ifade eder.\n• Konuşmayı başlatma, sürdürme ve bitirme ifadelerini etkili kullanır.\n• Millî ve manevi değerlere ve kültürel unsurlara dikkat ederek konuşmasını sürdürür.\n• Konuşmasında toplumsal hassasiyet oluşturacak ögeler (siyaset, din, etnisite vb.) kullanmaktan kaçınır.\n• Konuşmasında olumlu tutum ve değerleri vurgular.\nd) TDE3.3.5. Türkçe dil yapılarını uygular.\n• Konuşmasında Türkçenin dil yapısını ve işlevini amacına uygun kullanır.\ne) TDE3.3.6. Bağdaşıklık ögelerini kullanır.\n• Konuşmasını bağdaşıklık ögelerine dikkat ederek yapar.\nf) TDE3.3.7. Beden dilini ve mekânı kullanır.\n• Konuşmasında beden dilini doğru bir şekilde kullanır.\n• Konuşmasında diksiyon ve telaffuzu etkin bir şekilde kullanır.\n• Konuşmasında mekânı etkin bir şekilde kullanır.\n• Konuşmasında zamanı verimli bir şekilde kullanır.\n• Konuşma sürecinde dinleyici ile etkileşim kurar.\nTDE3.4. Süreci Değerlendirebilme\na) TDE3.4.1. Kendini değerlendirir.\n• Konuşma sürecindeki davranış, duygu ve düşüncelerini değerlendirir.\n• Konuşmasını içerik yönünden değerlendirir.\n• Konuşmasını dil ve anlatım yönünden değerlendirir.\n• Konuşmasını paydaşların görüşlerine göre değerlendirir.\nb) TDE3.4.2. Tepki ortaya koyar.\n• Genel geri bildirimlere bağlı olarak bundan sonra yapacağı konuşmalar için kendisine yeni hedefler belirler.\n• Özgün konuşmacı kimliğini oluşturur.\n• Konuşmasını dijital ortamlar için yeniden düzenleyebilir."
+          }
+        },
+        {
+          "r": 9,
+          "cells": {
+            "B9": "6. Hafta:\n 19-23 Ekim",
+            "C9": "5",
+            "D9": "1.TEMA\nBİR DİYECEĞİM VAR!",
+            "E9": "DİNLEME/İZLEME \n• Tema içeriğine\nuygun çok modlu\nmetin",
+            "F9": "TDE1.1. “Bir Diyeceğim Var!” temasında ele alınan metinlerde dinlemeyi/izlemeyi yönetebilme\nTDE1.2. “Bir Diyeceğim Var!” temasında ele alınan metinlerde anlam oluşturabilme",
+            "G9": "TDE1.1. Dinlemeyi/İzlemeyi Yönetebilme\na) TDE1.1.1. Seçim yapar.\n• Metni dinlemeye/izlemeye başlamadan önce dinleme/izleme amacını belirler.\n• Dinleme/izleme yapmadan önce metnin başlık ve görsellerinden hareketle metnin içeriğine ve türüne yönelik\ntahminde bulunur.\n• Dinleyeceği/izleyeceği metin için uygun dinleme/izleme yöntem ve stratejisi seçer.\nb) TDE1.1.2. İlişkiyi sürdürür.\n• Dinleme/izleme kurallarını uygulayarak dinlemeyi/izlemeyi sürdürür.\nTDE1.2. Anlam Oluşturabilme\na) TDE1.2.1. Ön bilgilerle bağlantı kurar.\n• Dinleme/izleme metnindeki bilgiler ile ön bilgileri arasında bağlantı kurar.\nb) TDE1.2.2. Tahmin eder.\n• Dinlediği/izlediği metindeki söz varlığının anlamını bağlamdan hareketle belirler.\nc) TDE1.2.3. Çıkarım yapar.\n• Dinlediği/izlediği metinde açıkça sunulan bilgileri belirler.\n• Dinlediği/izlediği metinlerden hareketle çıkarımlar yapar.\n• Dinlediği/izlediği metinde açıkça ifade edilen neden-sonuç, koşul, varsayım bilgilerini belirler.\n• Dinlediği/izlediği metnin konu ve/veya temasını belirler.\n• Dinlediği/izlediği metnin yardımcı düşüncelerini belirler.\n• Dinlediği/izlediği metinde ana düşünceyi/duyguyu belirler.\n• Dinlediği/izlediği metnin yazar/şair tarafından yazılma amacını belirler.\n• Dinlediği/izlediği metinde yer alan iletilerin sunuluş şeklini inceler.\n• Dinlediği/izlediği metindeki karakterlerin davranışlarından duygu ve düşüncelerine yönelik çıkarımlar yapar.\n• Dinlediği/izlediği metin ile yazar/şair arasındaki ilişkiyi belirler.\nç) TDE1.2.4. Karşılaştırır.\n• Metni dinleme/izleme sürecinden önce metne ilişkin tahminleri ile dinledikten/izledikten sonraki tespitlerini\nkarşılaştırır.\n• Dinlediği/izlediği metinleri belirlenen ölçütlere (içerik, tür, şekil, dönem, zihniyet, üslup, ileti) göre karşılaştırır.\nd) TDE1.2.5. Sınıflandırır.\n• Dinlediği/izlediği metinleri belirlenen ölçütlere (içerik, tür, şekil, dönem, zihniyet, üslup, ileti) göre sınıflandırır.\n• Dinlediği/izlediği metinde gerçek ve kurgu arasındaki farkı belirler.\n• Dinlediği/izlediği metindeki öznel ve nesnel ifadeleri ayırt eder.\n• Dinlediği/izlediği metindeki bilgilerin güvenilir olup olmadığını belirler.\ne) TDE1.2.6. Tepki verir.\n• Dinlediği/izlediği metni özetler.\n• Dinlediği/izlediği metinlere yönelik geri bildirimler sunar."
+          }
+        },
+        {
+          "r": 10,
+          "cells": {
+            "B10": "7. Hafta:\n 26-30 Ekim",
+            "C10": "3+2",
+            "D10": "1.TEMA\nBİR DİYECEĞİM VAR!",
+            "E10": "DİNLEME/İZLEME     \n• Tema içeriğine\nuygun çok modlu\nmetin\n\nYAZMA\n• e-posta yazabilme",
+            "F10": "TDE1.3. “Bir Diyeceğim Var!” temasında ele alınan metinleri çözümleyebilme\nTDE1.4.“Bir Diyeceğim Var!” temasında ele alınan metinlerde dinleme/izleme sürecini\ndeğerlendirebilme\n\nTDE4.1. Duygu, düşünce ve isteklerini etkili bir şekilde ileteceği yazısını yönetebilme\n\n",
+            "G10": "TDE1.3. Çözümleyebilme\na) TDE1.3.1. Parçaları belirler.\n• Dinlediği/izlediği metindeki karakterlerin özelliklerini ve amaçlarını inceler.\n• Dinlediği/izlediği metindeki yapı unsurlarını belirler.\n• Dinlediği/izlediği metindeki dil ve anlatım özelliklerini belirler.\n• Dinlediği/izlediği metindeki dil işlevlerini belirler.\nb) TDE1.3.2. Parçalar arasındaki ilişkileri belirler.\n• Dinlediği/izlediği metni oluşturan şekil ve anlama dair birimler arasındaki ilişkileri belirler.\n• Dinlediği/izlediği metindeki yapı unsurları arasındaki ilişkileri belirler.\n• Yazarın/şairin üslup seçiminin nedenleri ve sonuçlarını açıklar.\n• Dinlediği/izlediği metinlerin yazıldığı dönemin özelliklerini açıklar.\n• Dinlediği/izlediği metnin içeriğinin, yapı unsurlarının, dil ve anlatım özelliklerinin metnin yazıldığı dönemle ve\ntoplumla ilişkisini kurar.\n• Dinlediği/izlediği metni millî, manevi ve evrensel değerlerin aktarımı bağlamında değerlendirir.\n• Dinlediği/izlediği metnin içeriğinin, yapı unsurlarının, dil ve anlatım özelliklerinin metnin yazarıyla/şairiyle ilişkisini\nkurar.\n• Dinlediği/izlediği metnin diğer disiplinlerle olan ilişkisini değerlendirir.\nTDE1.4. Süreci Değerlendirebilme\na) TDE1.4.1. Kendini değerlendirir.\n• Dinlediği/izlediği metin hakkında değerlendirmeler yapabilmek için çeşitli ölçütler belirler.\n• Dinlediği/izlediği metni kendi beğeni ölçütleri doğrultusunda değerlendirir.\n• Dinlediği/izlediği metindeki gerçeklik ile gerçek dünyayı karşılaştırır.\nb) TDE1.4.2. Tepki ortaya koyar.\n• Kendini dinlediği/izlediği metindeki karakterlerin yerine koyarak kahramanın davranışlarını anlamlandırır.\n• Dinlediği/izlediği metne yönelik beğeni ve eleştirilerini gerekçelendirerek açıklar.\n• Dinlediği/izlediği metnin konu ve ana düşüncesinin kendi dünyasıyla olan ilişkisini belirler.\n• Yazarın/şairin amacı ile kendi düşünceleri arasındaki benzerlik ve farklılıkları açıklar.\n• Dinlediği/izlediği metindeki olaya, duruma, soruna ya da karakterlerin davranışlarına seçenekler üretir.\n• Kendi belirlediği ölçütlerden hareketle dinlediği/izlediği metnin yazılış amacına ulaşma düzeyini değerlendirir.\n\nTDE4.1. Yazmayı Yönetebilme\na) TDE4.1.1. Seçim yapar.\n• Yazma amacına (edebî metin oluşturma, ikna etme, bilgilendirme, resmî yazışma vb.) karar verir.\n• Yazacağı metnin özelliklerini, hedef kitlesini ve yazma süresini belirler.\n• Yazacağı metnin türüne uygun, kullanacağı yöntem ve stratejisini belirler.\nb) TDE4.1.2. İlişkiyi sürdürür.\n• Yazma süreci ile ilgili engelleri ortadan kaldırır.\n• Yazma amacına uygun olarak seçtiği stratejiyi yapılandırır.",
+            "L10": "Cumhuriyet Bayramı (29 Ekim)"
+          }
+        },
+        {
+          "r": 11,
+          "cells": {
+            "A11": "KASIM",
+            "B11": "8. Hafta:\n 2-6 Kasım",
+            "C11": "5",
+            "D11": "1.TEMA\nBİR DİYECEĞİM VAR!",
+            "E11": "YAZMA\n• e-posta yazabilme",
+            "F11": "TDE4.2. Günlük hayatta karşılaşılan durumlara ilişkin duygu ve düşüncelerini etkili kullanacağı\nyazısı için içerik oluşturabilme\nTDE4.3. Günlük hayatta karşılaşılan durumlara ilişkin duygu ve düşüncelerini etkili kullanacağı\nyazısı için kural uygulayabilme",
+            "G11": "TDE4.2. İçerik Oluşturabilme\na) TDE4.2.1. Ön bilgilerle bağlantı kurar.\n• Yazma amacına yönelik ön bilgileriyle bağlantı kurar.\nb) TDE4.2.2. Tahmin eder.\n• Hedef kitlenin özelliklerine yönelik tahminlerde bulunarak yazacağı metnin türünü ve içeriğini belirler.\n• Yazacağı metnin türüne göre kullanacağı yapı unsurlarını belirler.\nc) TDE4.2.3. Karşılaştırır.\n• Yazma amacı ve yazacağı metnin özelliklerine göre ana düşünceye ve vermek istediği iletiye karar verir.\n• Planını oluştururken karşılaştırma içeren iletiler oluşturur.\nç) TDE4.2.4. Sınıflandırır.\n• Yazılı anlatımın kullanım alanına (özel, mesleki, eğitim ve kamusal) göre içeriğini belirler.\nd) TDE4.2.5. Yeniden ifade eder.\n• Söz varlığını kullanarak yazısının içeriğini düzenler.\ne) TDE4.2.6. Tepki verir.\n• Yazma sürecini planlarken dil işlevlerinin kullanımına karar verir.\nf) TDE4.2.7. Görsel ögeleri kullanır.\n• Yazma içeriğini desteklemek için kullanacağı görsel ve işitsel ögelere karar verir.\ng) TDE4.2.8. Sunar.\n• Yazacağı metnin plan taslağını sunar.\n• Aldığı geri bildirimler ile plan taslağına son şeklini verir.\n\nTDE4.3. Kural Uygulayabilme\na) TDE4.3.1. Plan hazırlar.\n• Yazmaya planına uygun bir şekilde başlar.\n• Yazısını dikkat çekici bir girişle başlatır.\nb) TDE4.3.2. Düşünceyi geliştirme yollarını kullanır.\n• Yazısını desteklemek amacıyla anlatım biçimi ve düşünceyi geliştirme yollarından yararlanır.\n• Duygu, düşünce ve hayallerini kendine özgü bir üslupla ifade eder.\nc) TDE4.3.3. Uygun söz varlığı kullanır.\n• Söz varlığını (deyim, atasözü, mecaz ve terim) bağlama uygun şekilde kullanır.\n• Ana düşünce ve destekleyici bilgilerle yazma sürecine devam eder.\n• Yazısını hedef kitleye uygun bir söz varlığı ve üslupla sürdürür.\nç) TDE4.3.4. İletileri açık ve örtük biçimde ifade eder.\n• Vermek istediği iletileri açık veya örtük bir şekilde ifade eder.\n• Duygu, düşünce ve hayallerini tutarlı bir şekilde ifade eder.\n• Yazmayı başlatma, sürdürme ve bitirme ifadelerini etkili kullanır.\n• Millî ve manevi değerler ile kültürel unsurlara dikkat ederek yazma sürecine devam eder.\n• Yazısında toplumsal hassasiyet oluşturacak ögeler (siyaset, din, etnisite vb.) kullanmaktan kaçınır.\n• Yazısının içeriğine uygun başlık belirler.\n• Yazısında olumlu tutum ve değerleri vurgular.\nd) TDE4.3.5. Türkçe dil yapılarını uygular.\n• Yazısında Türkçe dil yapılarını, işlevine uygun kullanır.\n• Türkçeyi bilinçli ve özenli (yabancı kelimelerin yerine Türkçelerini kullanması) kullanır.\ne) TDE4.3.6. Bağdaşıklık ögelerini kullanır.\n• Yazısını bağdaşıklık ögelerine dikkat ederek yazar.\nf) TDE4.3.7. Yazım kurallarını uygular.\n• Yazısında yazım kurallarını etkili bir şekilde kullanır.\ng) TDE4.3.8. Noktalama kurallarını uygular.\n• Yazısında noktalama kurallarını etkili bir şekilde kullanır."
+          }
+        },
+        {
+          "r": 12,
+          "cells": {
+            "B12": "9. Hafta:\n9-13 Kasım",
+            "C12": "3",
+            "D12": "1.TEMA\nBİR DİYECEĞİM VAR!",
+            "E12": "YAZMA\n• e-posta yazabilme",
+            "F12": "TDE4.4. Günlük hayatta duygu, düşünce ve isteklerini ifade ettiği yazısında yazma sürecini\ndeğerlendirebilme",
+            "G12": "TDE4.4. Süreci Değerlendirebilme\na) TDE4.4.1. Kendini değerlendirir.\n• Yazma sürecindeki davranış, duygu ve düşüncelerini değerlendirir.\n• Yazısını içerik yönünden değerlendirir.\n• Yazısını dil ve anlatım yönünden değerlendirir.\n• Yazısını paydaşların görüşlerine göre değerlendirir.\nb) TDE4.4.2. Tepki ortaya koyar.\n• Genel geri bildirimlere bağlı olarak bundan sonra yazacağı metin ile ilgili kendisine yeni hedefler belirler.\n• Özgün yazar kimliğini oluşturur.\n• Yazısını sınıf/okul panolarında ya da okulun resmî çevrim içi ortamlarında paylaşır.",
+            "L12": "Atatürk Haftası (10-16 Kasım)"
+          }
+        },
+        {
+          "r": 13,
+          "cells": {
+            "C13": "2",
+            "D13": "OKUL TEMELLİ PLANLAMA*"
+          }
+        },
+        {
+          "r": 14,
+          "cells": {
+            "A14": "1.  DÖNEM ARA TATİLİ: 16 - 20 Kasım 2026"
+          }
+        },
+        {
+          "r": 15,
+          "cells": {
+            "A15": "KASIM",
+            "B15": "10. Hafta:\n 23-27 Kasım",
+            "C15": "5",
+            "D15": "2.TEMA\nKÜLTÜR YOLCULUĞU",
+            "E15": "OKUMA\n• Tema içeriğine uygun\nbir hikâye (Türk dünyası)\n• Ara Metin: Tema\niçeriğine uygun bir anı\n• Orhun Abideleri\n• Ara Metin:\nDîvânu Lugâti’t-Türk",
+            "F15": "TDE2.1. “Kültür Yolculuğu” temasında ele alınan metinlerde okumayı yönetebilme",
+            "G15": "TDE2.1. Okumayı Yönetebilme\na) TDE2.1.1. İnceler ve görüş oluşturur.\n• Metni okumaya başlamadan önce okuma amacını belirler.\n• Okuyacağı metnin başlık ve görsellerinden hareketle metnin içeriğine, türüne veya yazılış amacına yönelik\ntahminde bulunur.\nb) TDE2.1.2. Seçim yapar.\n• Okuyacağı metin için uygun okuma yöntem ve stratejisi seçer.\n• Seçtiği okuma stratejisi ile okumayı sürdürür.",
+            "H15": "Metin Tahlili (Anlama)\nOkuma ve Dinleme/İzleme\n\n• Açık uçlu sorular\n• Kısa cevaplı sorular\n• Kavram haritası\n• Hikâye haritası\n• T diyagramı\n• Çalışma kâğıdı\n• Çıkış kartları\n• Yansıtıcı yazı\nOkuma metinlerine yönelik inceleme yapılırken açık uçlu sorulardan faydalanılabilir. Metinler\nçözümlenirken kısa cevaplı ve açık uçlu sorular, kelime kartları, hikâye haritası kullanılabilir.\nYansıtma aşamasında çıkış kartlarıyla değerlendirme yapılabilir.\nDinleme/izleme metinlerinde karşılaştırma tablosu, çalışma kâğıdı hazırlanabilir. Zihin\nharitası kullanılabilir. Yansıtma aşamasında yansıtıcı yazı yazdırılabilir. Açık uçlu sorular\nveya kavram haritaları kullanılabilir.\n\nEdebiyat Atölyesi (Anlatma)\nKonuşma ve Yazma\n\n• Türk dünyasına ait görsellerden hareketle Türk kültürünün özelliklerini yansıtan bir\nkonuşma yapmalarına yönelik performans görevi\n• Çevrim içi müze gezisi yapıp izlenimlerini yazmalarına yönelik performans görevi\nSözlü anlatım çalışmalarında Türk dünyasına ait görsellerden hareketle Türk kültürünün\nözelliklerini yansıtan bir konuşma yapılır. Bu performans görevi grup çalışması olarak da\ngerçekleştirilebilir. Konuşma ile ilgili değerlendirme ölçütlerinin (konuya hâkim olma, söz\nvarlığı unsurlarını etkili ve güzel kullanma, beden dili ve sesiyle anlam oluşturabilme, zamanı\nve mekânı konuşmasında uygun şekilde yönetebilme, seyircinin ilgisini çekebilme\nvb.) yer aldığı bir dereceli puanlama anahtarı hazırlanır. Gösterilen performanslara yönelik\nöz değerlendirme ve akran değerlendirmesi yapılabilir. Dereceli puanlama anahtarı ile\nperformans değerlendirilir.\nYazılı anlatım çalışması için çevrim içi bir müze gezisi gerçekleştirilir ve bununla ilgili izlenimleri\nyazmaya yönelik performans görevi yapılır. Yazılacak metinde dikkate alınacak\nunsurları (dil ve üslup, özgünlük, öznel ve nesnel ifadelere yer verme, görsellerden yararlanma,\nyazım ve noktalama vb.) gösteren bir dereceli puanlama anahtarı oluşturulur.\nPerformans görevleri, belirlenen ölçütlere göre dereceli puanlama anahtarı ile değerlendirilir.\nBunun yanında, hazırlanan performanslara yönelik öz değerlendirme ve akran\ndeğerlendirmesi yapılabilir.\nTema sonu değerlendirme öğrenme günlüğü ile yapılır.",
+            "I15": "SDB1.2. Kendini Düzenleme (Öz Düzenleme)\nSDB1.3. Kendine Uyarlama (Öz Yansıtma)\nSDB2.1. İletişim \nSDB2.2. İş Birliği\nSDB2.3. Sosyal Farkındalık \nSDB3.3. Sorumlu Karar Verme",
+            "J15": "D1. Adalet \nD7. Estetik\nD11. Özgürlük \nD14. Saygı\nD19. Vatanseverlik",
+            "K15": "OB1. Bilgi Okuryazarlığı\nOB2. Dijital Okuryazarlık\nOB4. Görsel Okuryazarlık \nOB5. Kültür Okuryazarlığı \nOB9. Sanat Okuryazarlığı",
+            "L15": "Öğretmenler Günü (24 Kasım)"
+          }
+        },
+        {
+          "r": 16,
+          "cells": {
+            "A16": "ARALIK",
+            "B16": "11. Hafta:\n30 Kasım-4 Aralık\n ",
+            "C16": "5",
+            "D16": "2.TEMA\nKÜLTÜR YOLCULUĞU",
+            "E16": "OKUMA\n• Tema içeriğine uygun\nbir hikâye (Türk dünyası)\n• Ara Metin: Tema\niçeriğine uygun bir anı\n• Orhun Abideleri\n• Ara Metin:\nDîvânu Lugâti’t-Türk",
+            "F16": "TDE2.2. “Kültür Yolculuğu” temasında ele alınan metinlerde anlam oluşturabilme\nTDE2.3. “Kültür Yolculuğu” temasında ele alınan metinleri çözümleyebilme",
+            "G16": "TDE2.2. Anlam Oluşturabilme\na) TDE2.2.1. Ön bilgilerle bağlantı kurar.\n• Okuma metnindeki bilgiler ile ön bilgileri arasında bağlantı kurar.\nb) TDE2.2.2. Tahmin eder.\n• Metindeki söz varlığının anlamını bağlamdan hareketle belirler.\nc) TDE2.2.3. Çıkarım yapar.\n• Metinde açıkça sunulan bilgileri belirler.\n• Metinden hareketle çıkarım yapar.\n• Metinde açıkça ifade edilen neden-sonuç, koşul, varsayım bilgilerini belirler.\n• Metnin konu ve/veya temasını belirler.\n• Metnin yardımcı düşüncelerini belirler.\n• Metnin ana düşüncesini/duygusunu belirler.\n• Yazarın metni yazma amacını belirler.\n• Metinde yer alan iletilerin sunuluş şeklini inceler.\n• Metinde geçen söz sanatlarını belirler.\n• Metindeki karakterlerin davranışlarından duygu ve düşüncelerine yönelik çıkarımlar yapar.\n• Metin ile yazar arasındaki ilişkiyi belirler.\nç) TDE2.2.4. Karşılaştırır.\n• Metin öncesi tahminleri ile okuma içeriğini karşılaştırır.\n• Okuduğu metinleri belirlenen ölçütlere (içerik, tür, şekil, dönem, zihniyet, üslup ve ileti) göre karşılaştırır.\nd) TDE2.2.5. Sınıflandırır.\n• Okuduğu metinleri belirlenen ölçütlere (içerik, tür, şekil, dönem, zihniyet, üslup ve ileti) göre sınıflandırır.\n• Metindeki gerçek ve kurgu arasındaki farkı belirler.\n• Metindeki öznel ve nesnel ifadeleri ayırt eder.\n• Metindeki bilgilerin güvenilir olup olmadığını belirler.\ne) TDE2.2.6. Tepki verir.\n• Metni özetler.\n• Okuduğu metinlere yönelik geri bildirimler sunar.\nTDE2.3. Çözümleyebilme\na) TDE2.3.1. Nesne, olgu ve olaylara ilişkin parçaları belirler.\n• Metindeki karakterlerin özelliklerini ve amaçlarını inceler.\n• Metindeki yapı unsurlarını belirler.\n• Metindeki dil ve anlatım özelliklerini belirler.\n• Metindeki dil işlevlerini belirler.\nb) TDE2.3.2. Parçalar arasındaki ilişkileri belirler.\n• Okuduğu metni oluşturan şekil ve anlama dair birimler arasındaki ilişkileri belirler.\n• Metindeki yapı unsurları arasındaki ilişkileri belirler.\n• Yazarın üslup seçiminin nedenleri ve sonuçlarını açıklar.\n• Metinlerin yazıldığı dönemin özelliklerini açıklar.\n• Metnin içeriğinin, yapı unsurlarının, dil ve anlatım özelliklerinin metnin yazıldığı dönemle ve toplumla ilişkisini\nkurar.\n• Metni millî, manevi ve evrensel değerlerin aktarımı bağlamında değerlendirir.\n• Metnin içeriğinin, yapı unsurlarının, dil ve anlatım özelliklerinin metnin yazarıyla ilişkisini kurar.\n• Metnin diğer disiplinlerle olan ilişkisini değerlendirir.",
+            "L16": "Dünya Engelliler Günü (3 Aralık)"
+          }
+        },
+        {
+          "r": 17,
+          "cells": {
+            "B17": "12. Hafta:\n 7-11 Aralık",
+            "C17": "5",
+            "D17": "2.TEMA\nKÜLTÜR YOLCULUĞU",
+            "E17": "OKUMA\n• Tema içeriğine uygun\nbir hikâye (Türk dünyası)\n• Ara Metin: Tema\niçeriğine uygun bir anı\n• Orhun Abideleri\n• Ara Metin:\nDîvânu Lugâti’t-Türk",
+            "F17": "TDE2.4. “Kültür Yolculuğu” temasında ele alınan metinlerde okuma sürecini değerlendirebilme",
+            "G17": "TDE2.4. Süreci Değerlendirebilme\na) TDE2.4.1. Kendini değerlendirir.\n• Metin hakkında değerlendirmeler yapabilmek için çeşitli ölçütler belirler.\n• Okuduğu metni kendi beğeni ölçütleri doğrultusunda değerlendirir.\n• Metindeki gerçeklik ile gerçek dünya bilgisine dayalı karşılaştırmalar yapar.\nb) TDE2.4.2. Tepki ortaya koyar.\n• Kendini karakterlerin yerine koyarak kahramanın davranışlarını anlamlandırır.\n• Okuduğu metne yönelik beğeni ve eleştirilerini gerekçelendirerek açıklar.\n• Metnin konu ve ana düşüncesinin kendi dünyasıyla ilişkisini belirler.\n• Yazarın amacı ile kendi düşünceleri arasındaki benzerlik ve farklılıkları açıklar.\n• Metindeki olaya, duruma, soruna ya da karakterlerin davranışlarına seçenekler üretir.\n• Kendi belirlediği ölçütlerden hareketle metnin yazılış amacına ulaşma düzeyini değerlendirir."
+          }
+        },
+        {
+          "r": 18,
+          "cells": {
+            "B18": "13. Hafta:\n 14-18 Aralık",
+            "C18": "5",
+            "D18": "2.TEMA\nKÜLTÜR YOLCULUĞU",
+            "E18": "KONUŞMA\n• Türk dünyasına ait\ngörsellerden hareketle\nTürk kültürünün\nözelliklerini yansıtan bir\nkonuşma yapabilme",
+            "F18": "TDE3.1. Türk dünyasının ortak kültürünü (dil, din, coğrafya, sanat) yansıtan konuşmasını\nyönetebilme\nTDE3.2. Kültürel çeşitliliği konu edeceği konuşması için içerik oluşturabilme",
+            "G18": "TDE3.1. Konuşmayı Yönetebilme\na) TDE3.1.1. Seçim yapar.\n• Konuşmasının amacına (edebî metin oluşturma, ikna etme, bilgilendirme vb.) karar verir.\n• Konuşmasının özelliklerini (hazırlıklı/hazırlıksız), süresini ve hedef kitlesini belirler.\n• Konuşmanın türüne uygun, yöntem ve stratejisini belirler.\nb) TDE3.1.2. İlişkiyi sürdürür.\n• Konuşmasında engelleri ortadan kaldırır.\n• Konuşma amacına uygun olarak seçtiği stratejiyi yapılandırır.\nTDE3.2. İçerik Oluşturabilme\na) TDE3.2.1. Ön bilgilerle bağlantı kurar.\n• Konuşmasında belirlediği amaca yönelik ön bilgileriyle bağlantı kurar.\nb) TDE3.2.2. Tahmin eder.\n• Hedef kitlenin özelliklerine yönelik tahminlerde bulunarak konuşmasının giriş, gelişme ve sonuç bölümlerini\ntasarlar.\nc) TDE3.2.3. Karşılaştırır.\n• Konuşmasının amacına uygun ana düşünceyi belirlerken karşılaştırma içeren iletiler oluşturur.\nç) TDE3.2.4. Sınıflandırır.\n• Dilin kullanım alanına (özel, mesleki, kamusal alan ve eğitim alanı) göre konuşmasının içeriğini belirler.\nd) TDE3.2.5. Yeniden ifade eder.\n• Konuşmasının türüne göre bilgi toplar (Hazırlıklı konuşmada bilgi toplar, hazırlıksız konuşmada not alır.).\n• Söz varlığını kullanarak konuşmasının içeriğini düzenler.\ne) TDE3.2.6. Tepki verir.\n• Konuşmasını planlarken dil işlevlerini kullanır.\nf) TDE3.2.7. Sesle anlam oluşturur.\n• Konuşmasında beden dilini doğru bir şekilde kullanacağını göz önünde bulundurur.\n• Konuşmasını diksiyon ve telaffuzu etkin kullanacak şekilde planlar.\ng) TDE3.2.8. Görsel ögeleri kullanır.\n• Konuşma içeriğini desteklemek için kullanacağı görsel ve işitsel ögelere karar verir.\nğ) TDE3.2.9. Sunar.\n• Yapacağı konuşmanın plan taslağını sunar.\n• Aldığı geri bildirimler ile plan taslağına son şeklini verir."
+          }
+        },
+        {
+          "r": 19,
+          "cells": {
+            "B19": "14. Hafta:\n 21-25 Aralık",
+            "C19": "5",
+            "D19": "2.TEMA\nKÜLTÜR YOLCULUĞU",
+            "E19": "KONUŞMA\n• Türk dünyasına ait\ngörsellerden hareketle\nTürk kültürünün\nözelliklerini yansıtan bir\nkonuşma yapabilme",
+            "F19": "TDE3.3. Kültürel çeşitliliği konu edeceği konuşması için kural uygulayabilme\nTDE3.4. Türk dünyasının ortak kültürüne (dil, din, coğrafya, sanat) yönelik konuşmasıyla\nilgili süreci değerlendirebilme",
+            "G19": "TDE3.3. Kural Uygulayabilme\na) TDE3.3.1. Plan hazırlar.\n• Konuşmasına planına uygun bir şekilde başlar.\n• Konuşmasını dikkat çekici bir girişle başlatır.\nb) TDE3.3.2. Düşünceyi geliştirme yollarını kullanır.\n• Konuşmasını desteklemek amacıyla düşünceyi geliştirme yollarını kullanır.\n• Duygu, düşünce ve hayallerini kendine özgü bir üslupla ifade eder.\nc) TDE3.3.3. Uygun söz varlığı kullanır.\n• Söz varlığını bağlama uygun şekilde kullanır.\n• Ana düşünce ve destekleyici bilgilerle konuşmasını sürdürür.\n• Konuşmasını hedef kitleye uygun bir söz varlığı ve üslupla sürdürür.\nç) TDE3.3.4. İletileri açık ve örtük biçimde ifade eder.\n• Vermek istediği iletileri açık veya örtük bir şekilde ifade eder.\n• Duygu, düşünce ve hayallerini tutarlı bir şekilde ifade eder.\n• Konuşmayı başlatma, sürdürme ve bitirme ifadelerini etkili kullanır.\n• Millî ve manevi değerlere ve kültürel unsurlara dikkat ederek konuşmasını sürdürür.\n• Konuşmasında toplumsal hassasiyet oluşturacak ögeler (siyaset, din, etnisite vb.) kullanmaktan kaçınır.\n• Konuşmasında olumlu tutum ve değerleri vurgular.\nd) TDE3.3.5. Türkçe dil yapılarını uygular.\n• Konuşmasında Türkçenin dil yapısını ve işlevini amacına uygun kullanır.\ne) TDE3.3.6. Bağdaşıklık ögelerini kullanır.\n• Konuşmasını bağdaşıklık ögelerine dikkat ederek yapar.\nf) TDE3.3.7. Beden dilini ve mekânı kullanır.\n• Konuşmasında beden dilini doğru bir şekilde kullanır.\n• Konuşmasında diksiyon ve telaffuzu etkin bir şekilde kullanır.\n• Konuşmasında mekânı etkin bir şekilde kullanır.\n• Konuşmasında zamanı verimli bir şekilde kullanır.\n• Konuşma sürecinde dinleyici ile etkileşim kurar.\nTDE3.4. Süreci Değerlendirebilme\na) TDE3.4.1. Kendini değerlendirir.\n• Konuşma sürecindeki davranış, duygu ve düşüncelerini değerlendirir.\n• Konuşmasını içerik yönünden değerlendirir.\n• Konuşmasını dil ve anlatım yönünden değerlendirir.\n• Konuşmasını paydaşların görüşlerine göre değerlendirir.\nb) TDE3.4.2. Tepki ortaya koyar.\n• Genel geri bildirimlere bağlı olarak bundan sonra yapacağı konuşmalar için kendisine yeni hedefler belirler.\n• Özgün konuşmacı kimliğini oluşturur.\n• Konuşmasını dijital ortamlar için yeniden düzenleyebilir."
+          }
+        },
+        {
+          "r": 20,
+          "cells": {
+            "B20": "15. Hafta:\n28 Aralık -1Ocak",
+            "C20": "5",
+            "D20": "2.TEMA\nKÜLTÜR YOLCULUĞU",
+            "E20": "DİNLEME/İZLEME\n• Tema içeriğine uygun\nçok modlu metin (Âşık\natışması)",
+            "F20": "TDE1.1. “Kültür Yolculuğu” temasında ele alınan metinlerde dinlemeyi/izlemeyi yönetebilme\nTDE1.2. “Kültür Yolculuğu” temasında ele alınan metinlerde anlam oluşturabilme",
+            "G20": "TDE1.1. Dinlemeyi/İzlemeyi Yönetebilme\na) TDE1.1.1. Seçim yapar.\n• Metni dinlemeye/izlemeye başlamadan önce dinleme/izleme amacını belirler.\n• Dinleme/izleme yapmadan önce metnin başlık ve görsellerinden hareketle metnin içeriğine ve türüne yönelik\ntahminde bulunur.\n• Dinleyeceği/izleyeceği metin için uygun dinleme/izleme yöntem ve stratejisi seçer.\nb) TDE1.1.2. İlişkiyi sürdürür.\n• Dinleme/izleme kurallarını uygulayarak dinlemeyi/izlemeyi sürdürür.\nTDE1.2. Anlam Oluşturabilme\na) TDE1.2.1. Ön bilgilerle bağlantı kurar.\n• Dinleme/izleme metnindeki bilgiler ile ön bilgileri arasında bağlantı kurar.\nb) TDE1.2.2. Tahmin eder.\n• Dinlediği/izlediği metindeki söz varlığının anlamını bağlamdan hareketle belirler.\nc) TDE1.2.3. Çıkarım yapar.\n• Dinlediği/izlediği metinde açıkça sunulan bilgileri belirler.\n• Dinlediği/izlediği metinlerden hareketle çıkarımlar yapar.\n• Dinlediği/izlediği metinde açıkça ifade edilen neden-sonuç, koşul, varsayım bilgilerini belirler.\n• Dinlediği/izlediği metnin konu ve/veya temasını belirler.\n• Dinlediği/izlediği metnin yardımcı düşüncelerini belirler.\n• Dinlediği/izlediği metinde ana düşünceyi/duyguyu belirler.\n• Dinlediği/izlediği metnin yazar/şair tarafından yazılma amacını belirler.\n• Dinlediği/izlediği metinde yer alan iletilerin sunuluş şeklini inceler.\n• Dinlediği/izlediği metindeki karakterlerin davranışlarından duygu ve düşüncelerine yönelik çıkarımlar yapar.\n• Dinlediği/izlediği metin ile yazar/şair arasındaki ilişkiyi belirler.\nç) TDE1.2.4. Karşılaştırır.\n• Metni dinleme/izleme sürecinden önce metne ilişkin tahminleri ile dinledikten/izledikten sonraki tespitlerini\nkarşılaştırır.\n• Dinlediği/izlediği metinleri belirlenen ölçütlere (içerik, tür, şekil, dönem, zihniyet, üslup, ileti) göre karşılaştırır.\nd) TDE1.2.5. Sınıflandırır.\n• Dinlediği/izlediği metinleri belirlenen ölçütlere (içerik, tür, şekil, dönem, zihniyet, üslup, ileti) göre sınıflandırır.\n• Dinlediği/izlediği metinde gerçek ve kurgu arasındaki farkı belirler.\n• Dinlediği/izlediği metindeki öznel ve nesnel ifadeleri ayırt eder.\n• Dinlediği/izlediği metindeki bilgilerin güvenilir olup olmadığını belirler.\ne) TDE1.2.6. Tepki verir.\n• Dinlediği/izlediği metni özetler.\n• Dinlediği/izlediği metinlere yönelik geri bildirimler sunar."
+          }
+        },
+        {
+          "r": 21,
+          "cells": {
+            "A21": "OCAK",
+            "B21": "16. Hafta:\n 4-8 Ocak",
+            "C21": "3+2",
+            "D21": "2.TEMA\nKÜLTÜR YOLCULUĞU",
+            "E21": "DİNLEME/İZLEME\n• Tema içeriğine uygun\nçok modlu metin (Âşık\natışması)\n\nYAZMA\n• Çevrim içi müze gezisi\nyapıp izlenimlerini\nyazabilme",
+            "F21": "TDE1.3. “Kültür Yolculuğu” temasında ele alınan metinleri çözümleyebilme\nTDE1.4. “Kültür Yolculuğu” temasında ele alınan metinlere yönelik dinleme/izleme sürecini\ndeğerlendirebilme\n\nTDE4.1. Kültürel miraslara yönelik gözlemlerini ve incelemelerini yansıtacağı yazısını yönetebilme",
+            "G21": "TDE1.3. Çözümleyebilme\na) TDE1.3.1. Parçaları belirler.\n• Dinlediği/izlediği metindeki karakterlerin özelliklerini ve amaçlarını inceler.\n• Dinlediği/izlediği metindeki yapı unsurlarını belirler.\n• Dinlediği/izlediği metindeki dil ve anlatım özelliklerini belirler.\n• Dinlediği/izlediği metindeki dil işlevlerini belirler.\nb) TDE1.3.2. Parçalar arasındaki ilişkileri belirler.\n• Dinlediği/izlediği metni oluşturan şekil ve anlama dair birimler arasındaki ilişkileri belirler.\n• Dinlediği/izlediği metindeki yapı unsurları arasındaki ilişkileri belirler.\n• Yazarın/şairin üslup seçiminin nedenleri ve sonuçlarını açıklar.\n• Dinlediği/izlediği metinlerin yazıldığı dönemin özelliklerini açıklar.\n• Dinlediği/izlediği metnin içeriğinin, yapı unsurlarının, dil ve anlatım özelliklerinin metnin yazıldığı dönemle ve\ntoplumla ilişkisini kurar.\n• Dinlediği/izlediği metni millî, manevi ve evrensel değerlerin aktarımı bağlamında değerlendirir.\n• Dinlediği/izlediği metnin içeriğinin, yapı unsurlarının, dil ve anlatım özelliklerinin metnin yazarıyla/şairiyle ilişkisini\nkurar.\n• Dinlediği/izlediği metnin diğer disiplinlerle olan ilişkisini değerlendirir.\nTDE1.4. Süreci Değerlendirebilme\na) TDE1.4.1. Kendini değerlendirir.\n• Dinlediği/izlediği metin hakkında değerlendirmeler yapabilmek için çeşitli ölçütler belirler.\n• Dinlediği/izlediği metni kendi beğeni ölçütleri doğrultusunda değerlendirir.\n• Dinlediği/izlediği metindeki gerçeklik ile gerçek dünyayı karşılaştırır.\nb) TDE1.4.2. Tepki ortaya koyar.\n• Kendini dinlediği/izlediği metindeki karakterlerin yerine koyarak kahramanın davranışlarını anlamlandırır.\n• Dinlediği/izlediği metne yönelik beğeni ve eleştirilerini gerekçelendirerek açıklar.\n• Dinlediği/izlediği metnin konu ve ana düşüncesinin kendi dünyasıyla olan ilişkisini belirler.\n• Yazarın/şairin amacı ile kendi düşünceleri arasındaki benzerlik ve farklılıkları açıklar.\n• Dinlediği/izlediği metindeki olaya, duruma, soruna ya da karakterlerin davranışlarına seçenekler üretir.\n• Kendi belirlediği ölçütlerden hareketle dinlediği/izlediği metnin yazılış amacına ulaşma düzeyini değerlendirir.\n\nTDE4.1. Yazmayı Yönetebilme\na) TDE4.1.1. Seçim yapar.\n• Yazma amacına (edebî metin oluşturma, ikna etme, bilgilendirme, resmî yazışma vb.) karar verir.\n• Yazacağı metnin özelliklerini, hedef kitlesini ve yazma süresini belirler.\n• Yazacağı metnin türüne uygun, kullanacağı yöntem ve stratejisini belirler.\nb) TDE4.1.2. İlişkiyi sürdürür.\n• Yazma süreci ile ilgili engelleri ortadan kaldırır.\n• Yazma amacına uygun olarak seçtiği stratejiyi yapılandırır."
+          }
+        },
+        {
+          "r": 22,
+          "cells": {
+            "B22": "17. Hafta:\n 11-15 Ocak",
+            "C22": "5",
+            "D22": "2.TEMA\nKÜLTÜR YOLCULUĞU",
+            "E22": "YAZMA\n• Çevrim içi müze gezisi\nyapıp izlenimlerini\nyazabilme",
+            "F22": "TDE4.2. Kültürel unsurlara ilişkin gözlemlerini benzerlik ve farklılıklarıyla ortaya koyacağı\nyazısı için içerik oluşturabilme\nTDE4.3. Kültürel unsurlara ilişkin gözlemlerini benzerlik ve farklılıklarıyla ortaya koyacağı\nyazısı için kural uygulayabilme",
+            "G22": "TDE4.2. İçerik Oluşturabilme\na) TDE4.2.1. Ön bilgilerle bağlantı kurar.\n• Yazma amacına yönelik ön bilgileriyle bağlantı kurar.\nb) TDE4.2.2. Tahmin eder.\n• Hedef kitlenin özelliklerine yönelik tahminlerde bulunarak yazacağı metnin türünü ve içeriğini belirler.\n• Yazacağı metnin türüne göre kullanacağı yapı unsurlarını belirler.\nc) TDE4.2.3. Karşılaştırır.\n• Yazma amacı ve yazacağı metnin özelliklerine göre ana düşünceye ve vermek istediği iletiye karar verir.\n• Planını oluştururken karşılaştırma içeren iletiler oluşturur.\nç) TDE4.2.4. Sınıflandırır.\n• Yazılı anlatımın kullanım alanına (özel, mesleki, eğitim ve kamusal) göre içeriğini belirler.\nd) TDE4.2.5. Yeniden ifade eder.\n• Söz varlığını kullanarak yazısının içeriğini düzenler.\ne) TDE4.2.6. Tepki verir.\n• Yazma sürecini planlarken dil işlevlerinin kullanımına karar verir.\nf) TDE4.2.7. Görsel ögeleri kullanır.\n• Yazma içeriğini desteklemek için kullanacağı görsel ve işitsel ögelere karar verir.\ng) TDE4.2.8. Sunar.\n• Yazacağı metnin plan taslağını sunar.\n• Aldığı geri bildirimler ile plan taslağına son şeklini verir.\n\nTDE4.3. Kural Uygulayabilme\na) TDE4.3.1. Plan hazırlar.\n• Yazmaya planına uygun bir şekilde başlar.\n• Yazısını dikkat çekici bir girişle başlatır.\nb) TDE4.3.2. Düşünceyi geliştirme yollarını kullanır.\n• Yazısını desteklemek amacıyla anlatım biçimi ve düşünceyi geliştirme yollarından yararlanır.\n• Duygu, düşünce ve hayallerini kendine özgü bir üslupla ifade eder.\nc) TDE4.3.3. Uygun söz varlığı kullanır.\n• Söz varlığını (deyim, atasözü, mecaz ve terim) bağlama uygun şekilde kullanır.\n• Ana düşünce ve destekleyici bilgilerle yazma sürecine devam eder.\n• Yazısını hedef kitleye uygun bir söz varlığı ve üslupla sürdürür.\nç) TDE4.3.4. İletileri açık ve örtük biçimde ifade eder.\n• Vermek istediği iletileri açık veya örtük bir şekilde ifade eder.\n• Duygu, düşünce ve hayallerini tutarlı bir şekilde ifade eder.\n• Yazmayı başlatma, sürdürme ve bitirme ifadelerini etkili kullanır.\n• Millî ve manevi değerler ile kültürel unsurlara dikkat ederek yazma sürecine devam eder.\n• Yazısında toplumsal hassasiyet oluşturacak ögeler (siyaset, din, etnisite vb.) kullanmaktan kaçınır.\n• Yazısının içeriğine uygun başlık belirler.\n• Yazısında olumlu tutum ve değerleri vurgular.\nd) TDE4.3.5. Türkçe dil yapılarını uygular.\n• Yazısında Türkçe dil yapılarını, işlevine uygun kullanır.\n• Türkçeyi bilinçli ve özenli (yabancı kelimelerin yerine Türkçelerini kullanması) kullanır.\ne) TDE4.3.6. Bağdaşıklık ögelerini kullanır.\n• Yazısını bağdaşıklık ögelerine dikkat ederek yazar.\nf) TDE4.3.7. Yazım kurallarını uygular.\n• Yazısında yazım kurallarını etkili bir şekilde kullanır.\ng) TDE4.3.8. Noktalama kurallarını uygular.\n• Yazısında noktalama kurallarını etkili bir şekilde kullanır."
+          }
+        },
+        {
+          "r": 23,
+          "cells": {
+            "B23": "18. Hafta:\n 18-22 Ocak",
+            "C23": "3",
+            "D23": "2.TEMA\nKÜLTÜR YOLCULUĞU",
+            "E23": "YAZMA\n• Çevrim içi müze gezisi\nyapıp izlenimlerini\nyazabilme",
+            "F23": "TDE4.4. Kültürel miraslara yönelik gözlemlerini ve incelemelerini anlattığı yazısıyla ilgili\nyazma sürecini değerlendirebilme",
+            "G23": "TDE4.4. Süreci Değerlendirebilme\na) TDE4.4.1. Kendini değerlendirir.\n• Yazma sürecindeki davranış, duygu ve düşüncelerini değerlendirir.\n• Yazısını içerik yönünden değerlendirir.\n• Yazısını dil ve anlatım yönünden değerlendirir.\n• Yazısını paydaşların görüşlerine göre değerlendirir.\nb) TDE4.4.2. Tepki ortaya koyar.\n• Genel geri bildirimlere bağlı olarak bundan sonra yazacağı metin ile ilgili kendisine yeni hedefler belirler.\n• Özgün yazar kimliğini oluşturur.\n• Yazısını sınıf/okul panolarında ya da okulun resmî çevrim içi ortamlarında paylaşır."
+          }
+        },
+        {
+          "r": 24,
+          "cells": {
+            "C24": "2",
+            "D24": "OKUL TEMELLİ PLANLAMA*"
+          }
+        },
+        {
+          "r": 25,
+          "cells": {
+            "A25": "YARIYIL TATİLİ: 25 Ocak - 5 Şubat 2027"
+          }
+        },
+        {
+          "r": 26,
+          "cells": {
+            "A26": "ŞUBAT",
+            "B26": "19. Hafta:\n 8-12 Şubat",
+            "C26": "5",
+            "D26": "3.TEMA\nYAŞAMIN İZİNDE",
+            "E26": "OKUMA\n• Tema içeriğine uygun\nbir roman\n• Tema içeriğine uygun\nbir biyografi\n• Ara Metin: Tema\niçeriğine uygun bir\ntezkire",
+            "F26": "TDE2.1. “Yaşamın İzinde” temasında ele alınan metinlerde okumayı yönetebilme",
+            "G26": "TDE2.1. Okumayı Yönetebilme\na) TDE2.1.1. İnceler ve görüş oluşturur.\n• Metni okumaya başlamadan önce okuma amacını belirler.\n• Okuyacağı metnin başlık ve görsellerinden hareketle metnin içeriğine, türüne veya yazılış amacına yönelik\ntahminde bulunur.\nb) TDE2.1.2. Seçim yapar.\n• Okuyacağı metin için uygun okuma yöntem ve stratejisi seçer.\n• Seçtiği okuma stratejisi ile okumayı sürdürür.",
+            "H26": "Metin Tahlili (Anlama)\nOkuma ve Dinleme/İzleme\n\n• Kısa cevaplı sorular\n• Gözlem formu\n• Çıkış kartı\n• Öğrenme günlüğü\n• Çalışma kâğıdı\n• Zihin haritası\n• Kavram haritası\n• Balık kılçığı\nBu temada okumayı yönetme sürecinde kısa cevaplı sorular ve çalışma kâğıdı; anlam\noluşturma sürecinde edebiyat halkası (okuma çemberi), kavram haritası; çözümleme\nsürecinde açık uçlu sorular, çalışma kâğıdı; yansıtmada ise çıkış kartları kullanılabilir.\nDinlemeyi/izlemeyi yönetme sürecinde kısa cevaplı sorular, gözlem formları; anlam oluşturma\nsürecinde kısa cevaplı sorular, balık kılçığı ve zihin haritaları çözümleme sürecinde\nkavram haritası; yansıtmada öğrenme günlüğü kullanılabilir.\n\nEdebiyat Atölyesi (Anlatma)\nKonuşma ve Yazma\n\n• Konuşma becerisi için incelenen romanın kişi kadrosundan seçilen bir kişiyle hayalî\nbir mülakat yapmaya yönelik performans görevi\n• Yazma becerisi için dinlediği/izlediği metinden seçtiği bir diyaloğu, metnin bağlamına\nuygun olarak başka bir türe dönüştürmeye yönelik performans görevi\nÖğrencilerin hazırladıkları mülakatlar; içeriğe uygunluk, özgünlük, açıklık, akıcılık, dilin etkili\nkullanımı vb. ölçütler bağlamında dereceli puanlama anahtarı ile değerlendirilir. Diyalog\noluşturmaya yönelik yazılı anlatımlar; içerik, akıcılık, duruluk, yalınlık, beden dili, zamanı ve\nmekânı etkili kullanma gibi ölçütler kullanılarak dereceli puanlama anahtarı ile değerelendirilir.\nÖz değerlendirme, öğretmen ve akran değerlendirmesi yapılarak çeşitlilik sağlanabilir.Dinlediği/izlediği metinden seçilen ve metnin bağlamına uygun yeniden yazılan diyalog,\ndereceli puanlama anahtarı ile puanlanır. Puanlama anahtarında dil ve üslup kullanımı,\nözgünlük, konuya uygunluk, öznel ve nesnel ifadelere yer verme, başlık kullanımı, yazım\nve noktalama gibi ölçütlere yer verilir.\nTema sonu değerlendirmede çıkış kartlarından yararlanılır.",
+            "I26": "SDB1.2. Kendini Düzenleme (Öz Düzenleme)\nSDB1.3. Kendine Uyarlama (Öz Yansıtma),\nSDB2.1. İletişim, \nSDB2.2. İş Birliği\nSDB2.3. Sosyal Farkındalık, \nSDB3.3. Sorumlu Karar Verme",
+            "J26": "D4. Dostluk \nD5. Duyarlılık\nD7. Estetik\nD14. Saygı \nD19. Vatanseverlik",
+            "K26": "OB2. Dijital Okuryazarlık \nOB4. Görsel Okuryazarlık \nOB5. Kültür Okuryazarlığı"
+          }
+        },
+        {
+          "r": 27,
+          "cells": {
+            "B27": "20. Hafta:\n 15-19 Şubat",
+            "C27": "5",
+            "D27": "3.TEMA\nYAŞAMIN İZİNDE",
+            "E27": "OKUMA\n• Tema içeriğine uygun\nbir roman\n• Tema içeriğine uygun\nbir biyografi\n• Ara Metin: Tema\niçeriğine uygun bir\ntezkire",
+            "F27": "TDE2.2. “Yaşamın İzinde” temasında ele alınan metinlerde anlam oluşturabilme\nTDE2.3. “Yaşamın İzinde” temasında ele alınan metinleri çözümleyebilme",
+            "G27": "TDE2.2. Anlam Oluşturabilme\na) TDE2.2.1. Ön bilgilerle bağlantı kurar.\n• Okuma metnindeki bilgiler ile ön bilgileri arasında bağlantı kurar.\nb) TDE2.2.2. Tahmin eder.\n• Metindeki söz varlığının anlamını bağlamdan hareketle belirler.\nc) TDE2.2.3. Çıkarım yapar.\n• Metinde açıkça sunulan bilgileri belirler.\n• Metinden hareketle çıkarım yapar.\n• Metinde açıkça ifade edilen neden-sonuç, koşul, varsayım bilgilerini belirler.\n• Metnin konu ve/veya temasını belirler.\n• Metnin yardımcı düşüncelerini belirler.\n• Metnin ana düşüncesini/duygusunu belirler.\n• Yazarın metni yazma amacını belirler.\n• Metinde yer alan iletilerin sunuluş şeklini inceler.\n• Metinde geçen söz sanatlarını belirler.\n• Metindeki karakterlerin davranışlarından duygu ve düşüncelerine yönelik çıkarımlar yapar.\n• Metin ile yazar arasındaki ilişkiyi belirler.\nç) TDE2.2.4. Karşılaştırır.\n• Metin öncesi tahminleri ile okuma içeriğini karşılaştırır.\n• Okuduğu metinleri belirlenen ölçütlere (içerik, tür, şekil, dönem, zihniyet, üslup ve ileti) göre karşılaştırır.\nd) TDE2.2.5. Sınıflandırır.\n• Okuduğu metinleri belirlenen ölçütlere (içerik, tür, şekil, dönem, zihniyet, üslup ve ileti) göre sınıflandırır.\n• Metindeki gerçek ve kurgu arasındaki farkı belirler.\n• Metindeki öznel ve nesnel ifadeleri ayırt eder.\n• Metindeki bilgilerin güvenilir olup olmadığını belirler.\ne) TDE2.2.6. Tepki verir.\n• Metni özetler.\n• Okuduğu metinlere yönelik geri bildirimler sunar.\nTDE2.3. Çözümleyebilme\na) TDE2.3.1. Nesne, olgu ve olaylara ilişkin parçaları belirler.\n• Metindeki karakterlerin özelliklerini ve amaçlarını inceler.\n• Metindeki yapı unsurlarını belirler.\n• Metindeki dil ve anlatım özelliklerini belirler.\n• Metindeki dil işlevlerini belirler.\nb) TDE2.3.2. Parçalar arasındaki ilişkileri belirler.\n• Okuduğu metni oluşturan şekil ve anlama dair birimler arasındaki ilişkileri belirler.\n• Metindeki yapı unsurları arasındaki ilişkileri belirler.\n• Yazarın üslup seçiminin nedenleri ve sonuçlarını açıklar.\n• Metinlerin yazıldığı dönemin özelliklerini açıklar.\n• Metnin içeriğinin, yapı unsurlarının, dil ve anlatım özelliklerinin metnin yazıldığı dönemle ve toplumla ilişkisini\nkurar.\n• Metni millî, manevi ve evrensel değerlerin aktarımı bağlamında değerlendirir.\n• Metnin içeriğinin, yapı unsurlarının, dil ve anlatım özelliklerinin metnin yazarıyla ilişkisini kurar.\n• Metnin diğer disiplinlerle olan ilişkisini değerlendirir."
+          }
+        },
+        {
+          "r": 28,
+          "cells": {
+            "B28": "21. Hafta:\n 22-26 Şubat",
+            "C28": "5",
+            "D28": "3.TEMA\nYAŞAMIN İZİNDE",
+            "E28": "OKUMA\n• Tema içeriğine uygun\nbir roman\n• Tema içeriğine uygun\nbir biyografi\n• Ara Metin: Tema\niçeriğine uygun bir\ntezkire",
+            "F28": "TDE2.4. “Yaşamın İzinde” temasında ele alınan metinlerden hareketle günlük yaşamın ve\nsanatçının hayatının edebiyata yansımasına yönelik süreci değerlendirebilme",
+            "G28": "TDE2.4. Süreci Değerlendirebilme\na) TDE2.4.1. Kendini değerlendirir.\n• Metin hakkında değerlendirmeler yapabilmek için çeşitli ölçütler belirler.\n• Okuduğu metni kendi beğeni ölçütleri doğrultusunda değerlendirir.\n• Metindeki gerçeklik ile gerçek dünya bilgisine dayalı karşılaştırmalar yapar.\nb) TDE2.4.2. Tepki ortaya koyar.\n• Kendini karakterlerin yerine koyarak kahramanın davranışlarını anlamlandırır.\n• Okuduğu metne yönelik beğeni ve eleştirilerini gerekçelendirerek açıklar.\n• Metnin konu ve ana düşüncesinin kendi dünyasıyla ilişkisini belirler.\n• Yazarın amacı ile kendi düşünceleri arasındaki benzerlik ve farklılıkları açıklar.\n• Metindeki olaya, duruma, soruna ya da karakterlerin davranışlarına seçenekler üretir.\n• Kendi belirlediği ölçütlerden hareketle metnin yazılış amacına ulaşma düzeyini değerlendirir."
+          }
+        },
+        {
+          "r": 29,
+          "cells": {
+            "A29": "MART",
+            "B29": "22. Hafta:\n1-5 Mart",
+            "C29": "5",
+            "D29": "3.TEMA\nYAŞAMIN İZİNDE",
+            "E29": "KONUŞMA\n• Mülakat yapabilme\n(Okunan romandaki\nbir karakterle)",
+            "F29": "TDE3.1. Edebiyat ve sanatın yaşamdaki yansımalarını etkileşimli bir biçimde ele aldığı\nkonuşmasını yönetebilme\nTDE3.2. Sanatçının ve eserden seçtiği karakterin yaşamındaki izlenimlerini yaratıcılığı ile\nbütünleştirdiği bir konuşma içeriği oluşturabilme",
+            "G29": "TDE3.1. Konuşmayı Yönetebilme\na) TDE3.1.1. Seçim yapar.\n• Konuşmasının amacına (edebî metin oluşturma, ikna etme, bilgilendirme vb.) karar verir.\n• Konuşmasının özelliklerini (hazırlıklı/hazırlıksız), süresini ve hedef kitlesini belirler.\n• Konuşmanın türüne uygun, yöntem ve stratejisini belirler.\nb) TDE3.1.2. İlişkiyi sürdürür.\n• Konuşmasında engelleri ortadan kaldırır.\n• Konuşma amacına uygun olarak seçtiği stratejiyi yapılandırır.\nTDE3.2. İçerik Oluşturabilme\na) TDE3.2.1. Ön bilgilerle bağlantı kurar.\n• Konuşmasında belirlediği amaca yönelik ön bilgileriyle bağlantı kurar.\nb) TDE3.2.2. Tahmin eder.\n• Hedef kitlenin özelliklerine yönelik tahminlerde bulunarak konuşmasının giriş, gelişme ve sonuç bölümlerini\ntasarlar.\nc) TDE3.2.3. Karşılaştırır.\n• Konuşmasının amacına uygun ana düşünceyi belirlerken karşılaştırma içeren iletiler oluşturur.\nç) TDE3.2.4. Sınıflandırır.\n• Dilin kullanım alanına (özel, mesleki, kamusal alan ve eğitim alanı) göre konuşmasının içeriğini belirler.\nd) TDE3.2.5. Yeniden ifade eder.\n• Konuşmasının türüne göre bilgi toplar (Hazırlıklı konuşmada bilgi toplar, hazırlıksız konuşmada not alır.).\n• Söz varlığını kullanarak konuşmasının içeriğini düzenler.\ne) TDE3.2.6. Tepki verir.\n• Konuşmasını planlarken dil işlevlerini kullanır.\nf) TDE3.2.7. Sesle anlam oluşturur.\n• Konuşmasında beden dilini doğru bir şekilde kullanacağını göz önünde bulundurur.\n• Konuşmasını diksiyon ve telaffuzu etkin kullanacak şekilde planlar.\ng) TDE3.2.8. Görsel ögeleri kullanır.\n• Konuşma içeriğini desteklemek için kullanacağı görsel ve işitsel ögelere karar verir.\nğ) TDE3.2.9. Sunar.\n• Yapacağı konuşmanın plan taslağını sunar.\n• Aldığı geri bildirimler ile plan taslağına son şeklini verir.",
+            "L29": "İstiklâl Marşı'nın Kabulü ve Mehmet Akif Ersoy'u Anma Günü (12 Mart)    "
+          }
+        },
+        {
+          "r": 30,
+          "cells": {
+            "A30": "2.  DÖNEM ARA TATİLİ: 8-12 Mart 2027"
+          }
+        },
+        {
+          "r": 31,
+          "cells": {
+            "A31": "MART",
+            "B31": "23. Hafta:\n15-19 Mart",
+            "C31": "5",
+            "D31": "3.TEMA\nYAŞAMIN İZİNDE",
+            "E31": "KONUŞMA\n• Mülakat yapabilme\n(Okunan romandaki\nbir karakterle)",
+            "F31": "TDE3.3. Sanatçının ve eserden seçtiği karakterin yaşamındaki izlenimlerini yaratıcılığı ile\nbütünleştirdiği konuşmasında kural uygulayabilme\nTDE3.4. Yaşamdan izler taşıyan karakterlerle kurduğu etkileşimi yansıtan konuşmasına\nyönelik süreci değerlendirebilme",
+            "G31": "TDE3.3. Kural Uygulayabilme\na) TDE3.3.1. Plan hazırlar.\n• Konuşmasına planına uygun bir şekilde başlar.\n• Konuşmasını dikkat çekici bir girişle başlatır.\nb) TDE3.3.2. Düşünceyi geliştirme yollarını kullanır.\n• Konuşmasını desteklemek amacıyla düşünceyi geliştirme yollarını kullanır.\n• Duygu, düşünce ve hayallerini kendine özgü bir üslupla ifade eder.\nc) TDE3.3.3. Uygun söz varlığı kullanır.\n• Söz varlığını bağlama uygun şekilde kullanır.\n• Ana düşünce ve destekleyici bilgilerle konuşmasını sürdürür.\n• Konuşmasını hedef kitleye uygun bir söz varlığı ve üslupla sürdürür.\nç) TDE3.3.4. İletileri açık ve örtük biçimde ifade eder.\n• Vermek istediği iletileri açık veya örtük bir şekilde ifade eder.\n• Duygu, düşünce ve hayallerini tutarlı bir şekilde ifade eder.\n• Konuşmayı başlatma, sürdürme ve bitirme ifadelerini etkili kullanır.\n• Millî ve manevi değerlere ve kültürel unsurlara dikkat ederek konuşmasını sürdürür.\n• Konuşmasında toplumsal hassasiyet oluşturacak ögeler (siyaset, din, etnisite vb.) kullanmaktan kaçınır.\n• Konuşmasında olumlu tutum ve değerleri vurgular.\nd) TDE3.3.5. Türkçe dil yapılarını uygular.\n• Konuşmasında Türkçenin dil yapısını ve işlevini amacına uygun kullanır.\ne) TDE3.3.6. Bağdaşıklık ögelerini kullanır.\n• Konuşmasını bağdaşıklık ögelerine dikkat ederek yapar.\nf) TDE3.3.7. Beden dilini ve mekânı kullanır.\n• Konuşmasında beden dilini doğru bir şekilde kullanır.\n• Konuşmasında diksiyon ve telaffuzu etkin bir şekilde kullanır.\n• Konuşmasında mekânı etkin bir şekilde kullanır.\n• Konuşmasında zamanı verimli bir şekilde kullanır.\n• Konuşma sürecinde dinleyici ile etkileşim kurar.\nTDE3.4. Süreci Değerlendirebilme\na) TDE3.4.1. Kendini değerlendirir.\n• Konuşma sürecindeki davranış, duygu ve düşüncelerini değerlendirir.\n• Konuşmasını içerik yönünden değerlendirir.\n• Konuşmasını dil ve anlatım yönünden değerlendirir.\n• Konuşmasını paydaşların görüşlerine göre değerlendirir.\nb) TDE3.4.2. Tepki ortaya koyar.\n• Genel geri bildirimlere bağlı olarak bundan sonra yapacağı konuşmalar için kendisine yeni hedefler belirler.\n• Özgün konuşmacı kimliğini oluşturur.\n• Konuşmasını dijital ortamlar için yeniden düzenleyebilir.",
+            "H31": "Metin Tahlili (Anlama)\nOkuma ve Dinleme/İzleme\n\n• Kısa cevaplı sorular\n• Gözlem formu\n• Çıkış kartı\n• Öğrenme günlüğü\n• Çalışma kâğıdı\n• Zihin haritası\n• Kavram haritası\n• Balık kılçığı\nBu temada okumayı yönetme sürecinde kısa cevaplı sorular ve çalışma kâğıdı; anlam\noluşturma sürecinde edebiyat halkası (okuma çemberi), kavram haritası; çözümleme\nsürecinde açık uçlu sorular, çalışma kâğıdı; yansıtmada ise çıkış kartları kullanılabilir.\nDinlemeyi/izlemeyi yönetme sürecinde kısa cevaplı sorular, gözlem formları; anlam oluşturma\nsürecinde kısa cevaplı sorular, balık kılçığı ve zihin haritaları çözümleme sürecinde\nkavram haritası; yansıtmada öğrenme günlüğü kullanılabilir.\n\nEdebiyat Atölyesi (Anlatma)\nKonuşma ve Yazma\n\n• Konuşma becerisi için incelenen romanın kişi kadrosundan seçilen bir kişiyle hayalî\nbir mülakat yapmaya yönelik performans görevi\n• Yazma becerisi için dinlediği/izlediği metinden seçtiği bir diyaloğu, metnin bağlamına\nuygun olarak başka bir türe dönüştürmeye yönelik performans görevi\nÖğrencilerin hazırladıkları mülakatlar; içeriğe uygunluk, özgünlük, açıklık, akıcılık, dilin etkili\nkullanımı vb. ölçütler bağlamında dereceli puanlama anahtarı ile değerlendirilir. Diyalog\noluşturmaya yönelik yazılı anlatımlar; içerik, akıcılık, duruluk, yalınlık, beden dili, zamanı ve\nmekânı etkili kullanma gibi ölçütler kullanılarak dereceli puanlama anahtarı ile değerelendirilir.\nÖz değerlendirme, öğretmen ve akran değerlendirmesi yapılarak çeşitlilik sağlanabilir.Dinlediği/izlediği metinden seçilen ve metnin bağlamına uygun yeniden yazılan diyalog,\ndereceli puanlama anahtarı ile puanlanır. Puanlama anahtarında dil ve üslup kullanımı,\nözgünlük, konuya uygunluk, öznel ve nesnel ifadelere yer verme, başlık kullanımı, yazım\nve noktalama gibi ölçütlere yer verilir.\nTema sonu değerlendirmede çıkış kartlarından yararlanılır.",
+            "I31": "SDB1.2. Kendini Düzenleme (Öz Düzenleme)\nSDB1.3. Kendine Uyarlama (Öz Yansıtma)\nSDB2.1. İletişim \nSDB2.2. İş Birliği\nSDB2.3. Sosyal Farkındalık \nSDB3.3. Sorumlu Karar Verme",
+            "J31": "D4. Dostluk \nD5. Duyarlılık\nD7. Estetik\nD14. Saygı \nD19. Vatanseverlik",
+            "K31": "OB2. Dijital Okuryazarlık \nOB4. Görsel Okuryazarlık \nOB5. Kültür Okuryazarlığı",
+            "L31": "\nTürk Dünyası ve Toplulukları Haftası (16-22 Mart)      \n\n\n\nŞehitler Haftası (18 Mart)\n\n      \n\n "
+          }
+        },
+        {
+          "r": 32,
+          "cells": {
+            "B32": "24. Hafta:\n22-26 Mart",
+            "C32": "5",
+            "D32": "3.TEMA\nYAŞAMIN İZİNDE",
+            "E32": "DİNLEME/İZLEME\n• Tema içeriğine uygun\nçok modlu metin\n(Radyo tiyatrosu)",
+            "F32": "TDE1.1. “Yaşamın İzinde” temasında ele alınan metinlerde dinlemeyi/izlemeyi yönetebilme\nTDE1.2. “Yaşamın İzinde” temasında ele alınan metinlerde anlam oluşturabilme",
+            "G32": "TDE1.1. Dinlemeyi/İzlemeyi Yönetebilme\na) TDE1.1.1. Seçim yapar.\n• Metni dinlemeye/izlemeye başlamadan önce dinleme/izleme amacını belirler.\n• Dinleme/izleme yapmadan önce metnin başlık ve görsellerinden hareketle metnin içeriğine ve türüne yönelik\ntahminde bulunur.\n• Dinleyeceği/izleyeceği metin için uygun dinleme/izleme yöntem ve stratejisi seçer.\nb) TDE1.1.2. İlişkiyi sürdürür.\n• Dinleme/izleme kurallarını uygulayarak dinlemeyi/izlemeyi sürdürür.\nTDE1.2. Anlam Oluşturabilme\na) TDE1.2.1. Ön bilgilerle bağlantı kurar.\n• Dinleme/izleme metnindeki bilgiler ile ön bilgileri arasında bağlantı kurar.\nb) TDE1.2.2. Tahmin eder.\n• Dinlediği/izlediği metindeki söz varlığının anlamını bağlamdan hareketle belirler.\nc) TDE1.2.3. Çıkarım yapar.\n• Dinlediği/izlediği metinde açıkça sunulan bilgileri belirler.\n• Dinlediği/izlediği metinlerden hareketle çıkarımlar yapar.\n• Dinlediği/izlediği metinde açıkça ifade edilen neden-sonuç, koşul, varsayım bilgilerini belirler.\n• Dinlediği/izlediği metnin konu ve/veya temasını belirler.\n• Dinlediği/izlediği metnin yardımcı düşüncelerini belirler.\n• Dinlediği/izlediği metinde ana düşünceyi/duyguyu belirler.\n• Dinlediği/izlediği metnin yazar/şair tarafından yazılma amacını belirler.\n• Dinlediği/izlediği metinde yer alan iletilerin sunuluş şeklini inceler.\n• Dinlediği/izlediği metindeki karakterlerin davranışlarından duygu ve düşüncelerine yönelik çıkarımlar yapar.\n• Dinlediği/izlediği metin ile yazar/şair arasındaki ilişkiyi belirler.\nç) TDE1.2.4. Karşılaştırır.\n• Metni dinleme/izleme sürecinden önce metne ilişkin tahminleri ile dinledikten/izledikten sonraki tespitlerini\nkarşılaştırır.\n• Dinlediği/izlediği metinleri belirlenen ölçütlere (içerik, tür, şekil, dönem, zihniyet, üslup, ileti) göre karşılaştırır.\nd) TDE1.2.5. Sınıflandırır.\n• Dinlediği/izlediği metinleri belirlenen ölçütlere (içerik, tür, şekil, dönem, zihniyet, üslup, ileti) göre sınıflandırır.\n• Dinlediği/izlediği metinde gerçek ve kurgu arasındaki farkı belirler.\n• Dinlediği/izlediği metindeki öznel ve nesnel ifadeleri ayırt eder.\n• Dinlediği/izlediği metindeki bilgilerin güvenilir olup olmadığını belirler.\ne) TDE1.2.6. Tepki verir.\n• Dinlediği/izlediği metni özetler.\n• Dinlediği/izlediği metinlere yönelik geri bildirimler sunar."
+          }
+        },
+        {
+          "r": 33,
+          "cells": {
+            "B33": "25. Hafta:\n 29 Mart-2 Nisan",
+            "C33": "3+2",
+            "D33": "3.TEMA\nYAŞAMIN İZİNDE",
+            "E33": "DİNLEME/İZLEME\n• Tema içeriğine uygun\nçok modlu metin\n(Radyo tiyatrosu)\n\nYAZMA\n• Metinde etkilendiği\nbir diyaloğu yeniden\nyazabilme",
+            "F33": "TDE1.3. “Yaşamın İzinde” temasında ele alınan metinleri çözümleyebilme\nTDE1.4. “Yaşamın İzinde” temasında ele alınan metinlere ilişkin dinleme/izleme sürecini\ndeğerlendirebilme\n\nTDE4.1. Edebiyat ve sanatın yaşamdaki yansımalarını kendi kurgusuyla oluşturacağı\nyazısını yönetebilme",
+            "G33": "TDE1.3. Çözümleyebilme\na) TDE1.3.1. Parçaları belirler.\n• Dinlediği/izlediği metindeki karakterlerin özelliklerini ve amaçlarını inceler.\n• Dinlediği/izlediği metindeki yapı unsurlarını belirler.\n• Dinlediği/izlediği metindeki dil ve anlatım özelliklerini belirler.\n• Dinlediği/izlediği metindeki dil işlevlerini belirler.\nb) TDE1.3.2. Parçalar arasındaki ilişkileri belirler.\n• Dinlediği/izlediği metni oluşturan şekil ve anlama dair birimler arasındaki ilişkileri belirler.\n• Dinlediği/izlediği metindeki yapı unsurları arasındaki ilişkileri belirler.\n• Yazarın/şairin üslup seçiminin nedenleri ve sonuçlarını açıklar.\n• Dinlediği/izlediği metinlerin yazıldığı dönemin özelliklerini açıklar.\n• Dinlediği/izlediği metnin içeriğinin, yapı unsurlarının, dil ve anlatım özelliklerinin metnin yazıldığı dönemle ve\ntoplumla ilişkisini kurar.\n• Dinlediği/izlediği metni millî, manevi ve evrensel değerlerin aktarımı bağlamında değerlendirir.\n• Dinlediği/izlediği metnin içeriğinin, yapı unsurlarının, dil ve anlatım özelliklerinin metnin yazarıyla/şairiyle ilişkisini\nkurar.\n• Dinlediği/izlediği metnin diğer disiplinlerle olan ilişkisini değerlendirir.\nTDE1.4. Süreci Değerlendirebilme\na) TDE1.4.1. Kendini değerlendirir.\n• Dinlediği/izlediği metin hakkında değerlendirmeler yapabilmek için çeşitli ölçütler belirler.\n• Dinlediği/izlediği metni kendi beğeni ölçütleri doğrultusunda değerlendirir.\n• Dinlediği/izlediği metindeki gerçeklik ile gerçek dünyayı karşılaştırır.\nb) TDE1.4.2. Tepki ortaya koyar.\n• Kendini dinlediği/izlediği metindeki karakterlerin yerine koyarak kahramanın davranışlarını anlamlandırır.\n• Dinlediği/izlediği metne yönelik beğeni ve eleştirilerini gerekçelendirerek açıklar.\n• Dinlediği/izlediği metnin konu ve ana düşüncesinin kendi dünyasıyla olan ilişkisini belirler.\n• Yazarın/şairin amacı ile kendi düşünceleri arasındaki benzerlik ve farklılıkları açıklar.\n• Dinlediği/izlediği metindeki olaya, duruma, soruna ya da karakterlerin davranışlarına seçenekler üretir.\n• Kendi belirlediği ölçütlerden hareketle dinlediği/izlediği metnin yazılış amacına ulaşma düzeyini değerlendirir.\n\nTDE4.1. Yazmayı Yönetebilme\na) TDE4.1.1. Seçim yapar.\n• Yazma amacına (edebî metin oluşturma, ikna etme, bilgilendirme, resmî yazışma vb.) karar verir.\n• Yazacağı metnin özelliklerini, hedef kitlesini ve yazma süresini belirler.\n• Yazacağı metnin türüne uygun, kullanacağı yöntem ve stratejisini belirler.\nb) TDE4.1.2. İlişkiyi sürdürür.\n• Yazma süreci ile ilgili engelleri ortadan kaldırır.\n• Yazma amacına uygun olarak seçtiği stratejiyi yapılandırır."
+          }
+        },
+        {
+          "r": 34,
+          "cells": {
+            "A34": "NİSAN",
+            "B34": "26. Hafta:\n 5-9 Nisan",
+            "C34": "5",
+            "D34": "3.TEMA\nYAŞAMIN İZİNDE",
+            "E34": "YAZMA\n• Metinde etkilendiği\nbir diyaloğu yeniden\nyazabilme",
+            "F34": "TDE4.2. Kendi yaşamını, ilgi alanını veya beğenilerini bağlama uygun bir şekilde\nkurguladığı yazısı için içerik oluşturabilme\nTDE4.3. Kendi yaşamını, ilgi alanı veya beğenilerini bağlama uygun bir şekilde kurguladığı\nyazısı için kural uygulayabilme",
+            "G34": "TDE4.2. İçerik Oluşturabilme\na) TDE4.2.1. Ön bilgilerle bağlantı kurar.\n• Yazma amacına yönelik ön bilgileriyle bağlantı kurar.\nb) TDE4.2.2. Tahmin eder.\n• Hedef kitlenin özelliklerine yönelik tahminlerde bulunarak yazacağı metnin türünü ve içeriğini belirler.\n• Yazacağı metnin türüne göre kullanacağı yapı unsurlarını belirler.\nc) TDE4.2.3. Karşılaştırır.\n• Yazma amacı ve yazacağı metnin özelliklerine göre ana düşünceye ve vermek istediği iletiye karar verir.\n• Planını oluştururken karşılaştırma içeren iletiler oluşturur.\nç) TDE4.2.4. Sınıflandırır.\n• Yazılı anlatımın kullanım alanına (özel, mesleki, eğitim ve kamusal) göre içeriğini belirler.\nd) TDE4.2.5. Yeniden ifade eder.\n• Söz varlığını kullanarak yazısının içeriğini düzenler.\ne) TDE4.2.6. Tepki verir.\n• Yazma sürecini planlarken dil işlevlerinin kullanımına karar verir.\nf) TDE4.2.7. Görsel ögeleri kullanır.\n• Yazma içeriğini desteklemek için kullanacağı görsel ve işitsel ögelere karar verir.\ng) TDE4.2.8. Sunar.\n• Yazacağı metnin plan taslağını sunar.\n• Aldığı geri bildirimler ile plan taslağına son şeklini verir.\n\nTDE4.3. Kural Uygulayabilme\na) TDE4.3.1. Plan hazırlar.\n• Yazmaya planına uygun bir şekilde başlar.\n• Yazısını dikkat çekici bir girişle başlatır.\nb) TDE4.3.2. Düşünceyi geliştirme yollarını kullanır.\n• Yazısını desteklemek amacıyla anlatım biçimi ve düşünceyi geliştirme yollarından yararlanır.\n• Duygu, düşünce ve hayallerini kendine özgü bir üslupla ifade eder.\nc) TDE4.3.3. Uygun söz varlığı kullanır.\n• Söz varlığını (deyim, atasözü, mecaz ve terim) bağlama uygun şekilde kullanır.\n• Ana düşünce ve destekleyici bilgilerle yazma sürecine devam eder.\n• Yazısını hedef kitleye uygun bir söz varlığı ve üslupla sürdürür.\nç) TDE4.3.4. İletileri açık ve örtük biçimde ifade eder.\n• Vermek istediği iletileri açık veya örtük bir şekilde ifade eder.\n• Duygu, düşünce ve hayallerini tutarlı bir şekilde ifade eder.\n• Yazmayı başlatma, sürdürme ve bitirme ifadelerini etkili kullanır.\n• Millî ve manevi değerler ile kültürel unsurlara dikkat ederek yazma sürecine devam eder.\n• Yazısında toplumsal hassasiyet oluşturacak ögeler (siyaset, din, etnisite vb.) kullanmaktan kaçınır.\n• Yazısının içeriğine uygun başlık belirler.\n• Yazısında olumlu tutum ve değerleri vurgular.\nd) TDE4.3.5. Türkçe dil yapılarını uygular.\n• Yazısında Türkçe dil yapılarını, işlevine uygun kullanır.\n• Türkçeyi bilinçli ve özenli (yabancı kelimelerin yerine Türkçelerini kullanması) kullanır.\ne) TDE4.3.6. Bağdaşıklık ögelerini kullanır.\n• Yazısını bağdaşıklık ögelerine dikkat ederek yazar.\nf) TDE4.3.7. Yazım kurallarını uygular.\n• Yazısında yazım kurallarını etkili bir şekilde kullanır.\ng) TDE4.3.8. Noktalama kurallarını uygular.\n• Yazısında noktalama kurallarını etkili bir şekilde kullanır."
+          }
+        },
+        {
+          "r": 35,
+          "cells": {
+            "B35": "27. Hafta:\n 12-16 Nisan",
+            "C35": "3",
+            "D35": "3.TEMA\nYAŞAMIN İZİNDE",
+            "E35": "YAZMA\n• Metinde etkilendiği\nbir diyaloğu yeniden\nyazabilme",
+            "F35": "TDE4.4. Edebiyat ve sanatın yaşamdaki izlerine yönelik görüşlerini anlattığı yazısında\nyazma sürecini değerlendirebilme",
+            "G35": "TDE4.4. Süreci Değerlendirebilme\na) TDE4.4.1. Kendini değerlendirir.\n• Yazma sürecindeki davranış, duygu ve düşüncelerini değerlendirir.\n• Yazısını içerik yönünden değerlendirir.\n• Yazısını dil ve anlatım yönünden değerlendirir.\n• Yazısını paydaşların görüşlerine göre değerlendirir.\nb) TDE4.4.2. Tepki ortaya koyar.\n• Genel geri bildirimlere bağlı olarak bundan sonra yazacağı metin ile ilgili kendisine yeni hedefler belirler.\n• Özgün yazar kimliğini oluşturur.\n• Yazısını sınıf/okul panolarında ya da okulun resmî çevrim içi ortamlarında paylaşır."
+          }
+        },
+        {
+          "r": 36,
+          "cells": {
+            "C36": "2",
+            "D36": "OKUL TEMELLİ PLANLAMA*"
+          }
+        },
+        {
+          "r": 37,
+          "cells": {
+            "B37": "28. Hafta:\n 19-23 Nisan",
+            "C37": "5",
+            "D37": "4.TEMA\nHAYATIN AYNASI",
+            "E37": "OKUMA\n• Tema içeriğine\nuygun bir tiyatro\n• Küçürek hikâye",
+            "F37": "TDE2.1. “Hayatın Aynası” temasında ele alınan metinlerde okumayı yönetebilme",
+            "G37": "TDE2.1. Okumayı Yönetebilme\na) TDE2.1.1. İnceler ve görüş oluşturur.\n• Metni okumaya başlamadan önce okuma amacını belirler.\n• Okuyacağı metnin başlık ve görsellerinden hareketle metnin içeriğine, türüne veya yazılış amacına yönelik\ntahminde bulunur.\nb) TDE2.1.2. Seçim yapar.\n• Okuyacağı metin için uygun okuma yöntem ve stratejisi seçer.\n• Seçtiği okuma stratejisi ile okumayı sürdürür.",
+            "H37": "Metin Tahlili (Anlama)\nOkuma ve Dinleme/İzleme\n\n• Okuma çemberi\n• Kısa cevaplı sorular\n• Kavram haritası\n• Karşılaştırma tablosu\n• T diyagramı\n• Kontrol listesi\n• Açık uçlu sorular\n• Çalışma kâğıdı\n• Zihin haritası\n• Öğrenme günlüğü\nOkumayı yönetebilmeye yönelik okuma çemberi, anlam oluşturabilmek için balık kılçığı,\nkısa cevaplı sorular, T diyagramı; çözümleme yapabilmek için kavram haritası, açık uçlu\nsorular; yansıtma yapabilmek amacıyla karşılaştırma tablosu uygulanabilir. Dinleme/izlemeyi\nyönetebilmeye yönelik kontrol listesi, anlam oluşturabilmek için açık uçlu sorular,\nzihin haritası, balık kılçığı; çözümleme yapabilmek için kısa cevaplı sorular ve çalışma kâğıdı;\nyansıtma yapabilmek amacıyla öğrenme günlüğü kullanılabilir.\n\nEdebiyat Atölyesi (Anlatma)\nKonuşma ve Yazma\n\n• Okunan ve çözümlenen tiyatro metnini canlandırmaya yönelik performans görevi\n• Dinleme/izleme sürecinde incelenen çok modlu metin için afiş hazırlamaya yönelik\nperformans görevi\nÖğrencilerin drama performansları, dereceli puanlama anahtarı ile puanlanır. Puanlama\nanahtarında içeriğe uygunluk, özgünlük, canlandırma becerisi, sözü ve beden dilini etkili\nkullanma, grupla uyum içinde çalışma gibi ölçütler yer alır. Bu görev, grup çalışması olarak\nda gerçekleştirilebilir.\nAfiş hazırlamaya yönelik performans görevi dereceli puanlama anahtarıyla değerlendirilir. Puanlama anahtarında konuya uygunluk, yaratıcılık, özgünlük, etkileyicilik, görsel ve\nişitsel ögelerin seçimi gibi ölçütlere yer verilir. Değerlendirmelerde öz değerlendirme,\nakran değerlendirme ve öğretmen değerlendirmesi yapılarak çeşitlilik sağlanabilir.\nTema sonu değerlendirmede öğrenme günlüğü kullanılır.",
+            "I37": "SDB1.1. Kendini Tanıma (Öz Farkındalık) \nSDB1.2. Kendini Düzenleme (Öz Düzenleme)\nSDB 2.1. İletişim\nSDB 2.2. İş Birliği \nSDB2.3. Sosyal Farkındalık \nSDB 3.2. Esneklik \nSDB3.3.Sorumlu Karar Verme",
+            "J37": "D1. Adalet\nD3. Çalışkanlık \nD6. Dürüstlük \nD14. Saygı \nD19. Vatanseverlik",
+            "K37": "OB2. Dijital Okuryazarlık \nOB5.Kültür Okuryazarlığı\nOB9. Sanat Okuryazarlığı",
+            "L37": "Ulusal Egemenlik Çocuk Bayramı (23 Nisan)"
+          }
+        },
+        {
+          "r": 38,
+          "cells": {
+            "B38": "29. Hafta:\n 26-30 Nisan\n",
+            "C38": "5",
+            "D38": "4.TEMA\nHAYATIN AYNASI",
+            "E38": "OKUMA\n• Tema içeriğine\nuygun bir tiyatro\n• Küçürek hikâye",
+            "F38": "TDE2.2. “Hayatın Aynası” temasında ele alınan metinlerde anlam oluşturabilme\nTDE2.3. “Hayatın Aynası” temasında ele alınan metinleri çözümleyebilme",
+            "G38": "TDE2.2. Anlam Oluşturabilme\na) TDE2.2.1. Ön bilgilerle bağlantı kurar.\n• Okuma metnindeki bilgiler ile ön bilgileri arasında bağlantı kurar.\nb) TDE2.2.2. Tahmin eder.\n• Metindeki söz varlığının anlamını bağlamdan hareketle belirler.\nc) TDE2.2.3. Çıkarım yapar.\n• Metinde açıkça sunulan bilgileri belirler.\n• Metinden hareketle çıkarım yapar.\n• Metinde açıkça ifade edilen neden-sonuç, koşul, varsayım bilgilerini belirler.\n• Metnin konu ve/veya temasını belirler.\n• Metnin yardımcı düşüncelerini belirler.\n• Metnin ana düşüncesini/duygusunu belirler.\n• Yazarın metni yazma amacını belirler.\n• Metinde yer alan iletilerin sunuluş şeklini inceler.\n• Metinde geçen söz sanatlarını belirler.\n• Metindeki karakterlerin davranışlarından duygu ve düşüncelerine yönelik çıkarımlar yapar.\n• Metin ile yazar arasındaki ilişkiyi belirler.\nç) TDE2.2.4. Karşılaştırır.\n• Metin öncesi tahminleri ile okuma içeriğini karşılaştırır.\n• Okuduğu metinleri belirlenen ölçütlere (içerik, tür, şekil, dönem, zihniyet, üslup ve ileti) göre karşılaştırır.\nd) TDE2.2.5. Sınıflandırır.\n• Okuduğu metinleri belirlenen ölçütlere (içerik, tür, şekil, dönem, zihniyet, üslup ve ileti) göre sınıflandırır.\n• Metindeki gerçek ve kurgu arasındaki farkı belirler.\n• Metindeki öznel ve nesnel ifadeleri ayırt eder.\n• Metindeki bilgilerin güvenilir olup olmadığını belirler.\ne) TDE2.2.6. Tepki verir.\n• Metni özetler.\n• Okuduğu metinlere yönelik geri bildirimler sunar.\nTDE2.3. Çözümleyebilme\na) TDE2.3.1. Nesne, olgu ve olaylara ilişkin parçaları belirler.\n• Metindeki karakterlerin özelliklerini ve amaçlarını inceler.\n• Metindeki yapı unsurlarını belirler.\n• Metindeki dil ve anlatım özelliklerini belirler.\n• Metindeki dil işlevlerini belirler.\nb) TDE2.3.2. Parçalar arasındaki ilişkileri belirler.\n• Okuduğu metni oluşturan şekil ve anlama dair birimler arasındaki ilişkileri belirler.\n• Metindeki yapı unsurları arasındaki ilişkileri belirler.\n• Yazarın üslup seçiminin nedenleri ve sonuçlarını açıklar.\n• Metinlerin yazıldığı dönemin özelliklerini açıklar.\n• Metnin içeriğinin, yapı unsurlarının, dil ve anlatım özelliklerinin metnin yazıldığı dönemle ve toplumla ilişkisini\nkurar.\n• Metni millî, manevi ve evrensel değerlerin aktarımı bağlamında değerlendirir.\n• Metnin içeriğinin, yapı unsurlarının, dil ve anlatım özelliklerinin metnin yazarıyla ilişkisini kurar.\n• Metnin diğer disiplinlerle olan ilişkisini değerlendirir.",
+            "L38": "Kût'ül Amâre Zaferi (29 Nisan)\n\n\n"
+          }
+        },
+        {
+          "r": 39,
+          "cells": {
+            "A39": "MAYIS",
+            "B39": "30. Hafta:\n 3-7 Mayıs",
+            "C39": "5",
+            "D39": "4.TEMA\nHAYATIN AYNASI",
+            "E39": "OKUMA\n• Tema içeriğine\nuygun bir tiyatro\n• Küçürek hikâye",
+            "F39": "TDE2.4. “Hayatın Aynası” temasında ele alınan metinlerde okuma sürecini değerlendirebilme",
+            "G39": "TDE2.4. Süreci Değerlendirebilme\na) TDE2.4.1. Kendini değerlendirir.\n• Metin hakkında değerlendirmeler yapabilmek için çeşitli ölçütler belirler.\n• Okuduğu metni kendi beğeni ölçütleri doğrultusunda değerlendirir.\n• Metindeki gerçeklik ile gerçek dünya bilgisine dayalı karşılaştırmalar yapar.\nb) TDE2.4.2. Tepki ortaya koyar.\n• Kendini karakterlerin yerine koyarak kahramanın davranışlarını anlamlandırır.\n• Okuduğu metne yönelik beğeni ve eleştirilerini gerekçelendirerek açıklar.\n• Metnin konu ve ana düşüncesinin kendi dünyasıyla ilişkisini belirler.\n• Yazarın amacı ile kendi düşünceleri arasındaki benzerlik ve farklılıkları açıklar.\n• Metindeki olaya, duruma, soruna ya da karakterlerin davranışlarına seçenekler üretir.\n• Kendi belirlediği ölçütlerden hareketle metnin yazılış amacına ulaşma düzeyini değerlendirir."
+          }
+        },
+        {
+          "r": 40,
+          "cells": {
+            "B40": "31. Hafta:\n 10-14 Mayıs",
+            "C40": "5",
+            "D40": "4.TEMA\nHAYATIN AYNASI",
+            "E40": "KONUŞMA\n• Okuduğu tiyatroyu\ndramatize edebilme",
+            "F40": "TDE3.1. Sosyal hayata dair gözlemleri yansıtan metinlerden hareketle sergileyeceği konuşmayı\nyönetebilme\nTDE3.2. Günlük hayatta karşılaşılabilecek olay ya da durumu etkileyici ve inandırıcı biçimde\ncanlandırmak için konuşmasının içeriğini oluşturabilme",
+            "G40": "TDE3.1. Konuşmayı Yönetebilme\na) TDE3.1.1. Seçim yapar.\n• Konuşmasının amacına (edebî metin oluşturma, ikna etme, bilgilendirme vb.) karar verir.\n• Konuşmasının özelliklerini (hazırlıklı/hazırlıksız), süresini ve hedef kitlesini belirler.\n• Konuşmanın türüne uygun, yöntem ve stratejisini belirler.\nb) TDE3.1.2. İlişkiyi sürdürür.\n• Konuşmasında engelleri ortadan kaldırır.\n• Konuşma amacına uygun olarak seçtiği stratejiyi yapılandırır.\nTDE3.2. İçerik Oluşturabilme\na) TDE3.2.1. Ön bilgilerle bağlantı kurar.\n• Konuşmasında belirlediği amaca yönelik ön bilgileriyle bağlantı kurar.\nb) TDE3.2.2. Tahmin eder.\n• Hedef kitlenin özelliklerine yönelik tahminlerde bulunarak konuşmasının giriş, gelişme ve sonuç bölümlerini\ntasarlar.\nc) TDE3.2.3. Karşılaştırır.\n• Konuşmasının amacına uygun ana düşünceyi belirlerken karşılaştırma içeren iletiler oluşturur.\nç) TDE3.2.4. Sınıflandırır.\n• Dilin kullanım alanına (özel, mesleki, kamusal alan ve eğitim alanı) göre konuşmasının içeriğini belirler.\nd) TDE3.2.5. Yeniden ifade eder.\n• Konuşmasının türüne göre bilgi toplar (Hazırlıklı konuşmada bilgi toplar, hazırlıksız konuşmada not alır.).\n• Söz varlığını kullanarak konuşmasının içeriğini düzenler.\ne) TDE3.2.6. Tepki verir.\n• Konuşmasını planlarken dil işlevlerini kullanır.\nf) TDE3.2.7. Sesle anlam oluşturur.\n• Konuşmasında beden dilini doğru bir şekilde kullanacağını göz önünde bulundurur.\n• Konuşmasını diksiyon ve telaffuzu etkin kullanacak şekilde planlar.\ng) TDE3.2.8. Görsel ögeleri kullanır.\n• Konuşma içeriğini desteklemek için kullanacağı görsel ve işitsel ögelere karar verir.\nğ) TDE3.2.9. Sunar.\n• Yapacağı konuşmanın plan taslağını sunar.\n• Aldığı geri bildirimler ile plan taslağına son şeklini verir."
+          }
+        },
+        {
+          "r": 41,
+          "cells": {
+            "B41": "32. Hafta:\n 17-21 Mayıs",
+            "C41": "5",
+            "D41": "4.TEMA\nHAYATIN AYNASI",
+            "E41": "KONUŞMA\n• Okuduğu tiyatroyu\ndramatize edebilme",
+            "F41": "TDE3.3. Günlük hayatta karşılaşılabilecek olay ya da durumu etkileyici ve inandırıcı biçimde\ncanlandırmak için konuşmasında kural uygulayabilme\nTDE3.4. Hayata ayna tutan içeriği sahnelediği konuşması için konuşma sürecini değerlendirebilme",
+            "G41": "TDE3.3. Kural Uygulayabilme\na) TDE3.3.1. Plan hazırlar.\n• Konuşmasına planına uygun bir şekilde başlar.\n• Konuşmasını dikkat çekici bir girişle başlatır.\nb) TDE3.3.2. Düşünceyi geliştirme yollarını kullanır.\n• Konuşmasını desteklemek amacıyla düşünceyi geliştirme yollarını kullanır.\n• Duygu, düşünce ve hayallerini kendine özgü bir üslupla ifade eder.\nc) TDE3.3.3. Uygun söz varlığı kullanır.\n• Söz varlığını bağlama uygun şekilde kullanır.\n• Ana düşünce ve destekleyici bilgilerle konuşmasını sürdürür.\n• Konuşmasını hedef kitleye uygun bir söz varlığı ve üslupla sürdürür.\nç) TDE3.3.4. İletileri açık ve örtük biçimde ifade eder.\n• Vermek istediği iletileri açık veya örtük bir şekilde ifade eder.\n• Duygu, düşünce ve hayallerini tutarlı bir şekilde ifade eder.\n• Konuşmayı başlatma, sürdürme ve bitirme ifadelerini etkili kullanır.\n• Millî ve manevi değerlere ve kültürel unsurlara dikkat ederek konuşmasını sürdürür.\n• Konuşmasında toplumsal hassasiyet oluşturacak ögeler (siyaset, din, etnisite vb.) kullanmaktan kaçınır.\n• Konuşmasında olumlu tutum ve değerleri vurgular.\nd) TDE3.3.5. Türkçe dil yapılarını uygular.\n• Konuşmasında Türkçenin dil yapısını ve işlevini amacına uygun kullanır.\ne) TDE3.3.6. Bağdaşıklık ögelerini kullanır.\n• Konuşmasını bağdaşıklık ögelerine dikkat ederek yapar.\nf) TDE3.3.7. Beden dilini ve mekânı kullanır.\n• Konuşmasında beden dilini doğru bir şekilde kullanır.\n• Konuşmasında diksiyon ve telaffuzu etkin bir şekilde kullanır.\n• Konuşmasında mekânı etkin bir şekilde kullanır.\n• Konuşmasında zamanı verimli bir şekilde kullanır.\n• Konuşma sürecinde dinleyici ile etkileşim kurar.\nTDE3.4. Süreci Değerlendirebilme\na) TDE3.4.1. Kendini değerlendirir.\n• Konuşma sürecindeki davranış, duygu ve düşüncelerini değerlendirir.\n• Konuşmasını içerik yönünden değerlendirir.\n• Konuşmasını dil ve anlatım yönünden değerlendirir.\n• Konuşmasını paydaşların görüşlerine göre değerlendirir.\nb) TDE3.4.2. Tepki ortaya koyar.\n• Genel geri bildirimlere bağlı olarak bundan sonra yapacağı konuşmalar için kendisine yeni hedefler belirler.\n• Özgün konuşmacı kimliğini oluşturur.\n• Konuşmasını dijital ortamlar için yeniden düzenleyebilir.",
+            "L41": "Atatürk'ü Anma ve Gençlik ve Spor Bayramı  (19 Mayıs)           "
+          }
+        },
+        {
+          "r": 42,
+          "cells": {
+            "B42": "33. Hafta:\n 24-28 Mayıs",
+            "C42": "5",
+            "D42": "4.TEMA\nHAYATIN AYNASI",
+            "E42": "DİNLEME/İZLEME\n• Tema içeriğine\nuygun çok modlu\nmetin (Belgesel)",
+            "F42": "TDE1.1. “Hayatın Aynası” temasında ele alınan metinlerde dinlemeyi/izlemeyi yönetebilme\nTDE1.2. “Hayatın Aynası” temasında ele alınan metinlerde anlam oluşturabilme",
+            "G42": "TDE1.1. Dinlemeyi/İzlemeyi Yönetebilme\na) TDE1.1.1. Seçim yapar.\n• Metni dinlemeye/izlemeye başlamadan önce dinleme/izleme amacını belirler.\n• Dinleme/izleme yapmadan önce metnin başlık ve görsellerinden hareketle metnin içeriğine ve türüne yönelik\ntahminde bulunur.\n• Dinleyeceği/izleyeceği metin için uygun dinleme/izleme yöntem ve stratejisi seçer.\nb) TDE1.1.2. İlişkiyi sürdürür.\n• Dinleme/izleme kurallarını uygulayarak dinlemeyi/izlemeyi sürdürür.\nTDE1.2. Anlam Oluşturabilme\na) TDE1.2.1. Ön bilgilerle bağlantı kurar.\n• Dinleme/izleme metnindeki bilgiler ile ön bilgileri arasında bağlantı kurar.\nb) TDE1.2.2. Tahmin eder.\n• Dinlediği/izlediği metindeki söz varlığının anlamını bağlamdan hareketle belirler.\nc) TDE1.2.3. Çıkarım yapar.\n• Dinlediği/izlediği metinde açıkça sunulan bilgileri belirler.\n• Dinlediği/izlediği metinlerden hareketle çıkarımlar yapar.\n• Dinlediği/izlediği metinde açıkça ifade edilen neden-sonuç, koşul, varsayım bilgilerini belirler.\n• Dinlediği/izlediği metnin konu ve/veya temasını belirler.\n• Dinlediği/izlediği metnin yardımcı düşüncelerini belirler.\n• Dinlediği/izlediği metinde ana düşünceyi/duyguyu belirler.\n• Dinlediği/izlediği metnin yazar/şair tarafından yazılma amacını belirler.\n• Dinlediği/izlediği metinde yer alan iletilerin sunuluş şeklini inceler.\n• Dinlediği/izlediği metindeki karakterlerin davranışlarından duygu ve düşüncelerine yönelik çıkarımlar yapar.\n• Dinlediği/izlediği metin ile yazar/şair arasındaki ilişkiyi belirler.\nç) TDE1.2.4. Karşılaştırır.\n• Metni dinleme/izleme sürecinden önce metne ilişkin tahminleri ile dinledikten/izledikten sonraki tespitlerini\nkarşılaştırır.\n• Dinlediği/izlediği metinleri belirlenen ölçütlere (içerik, tür, şekil, dönem, zihniyet, üslup, ileti) göre karşılaştırır.\nd) TDE1.2.5. Sınıflandırır.\n• Dinlediği/izlediği metinleri belirlenen ölçütlere (içerik, tür, şekil, dönem, zihniyet, üslup, ileti) göre sınıflandırır.\n• Dinlediği/izlediği metinde gerçek ve kurgu arasındaki farkı belirler.\n• Dinlediği/izlediği metindeki öznel ve nesnel ifadeleri ayırt eder.\n• Dinlediği/izlediği metindeki bilgilerin güvenilir olup olmadığını belirler.\ne) TDE1.2.6. Tepki verir.\n• Dinlediği/izlediği metni özetler.\n• Dinlediği/izlediği metinlere yönelik geri bildirimler sunar.",
+            "L42": "İstanbul'un Fethi (29 Mayıs)       "
+          }
+        },
+        {
+          "r": 43,
+          "cells": {
+            "A43": "HAZİRAN",
+            "B43": "34. Hafta:\n 31 Mayıs-4 Haziran",
+            "C43": "3+2",
+            "D43": "4.TEMA\nHAYATIN AYNASI",
+            "E43": "DİNLEME/İZLEME\n• Tema içeriğine\nuygun çok modlu\nmetin (Belgesel)\n\nYAZMA\n• Dinlenen/izlenen\nbelgesele afiş\nhazırlayabilme",
+            "F43": "TDE1.3. “Hayatın Aynası” temasında ele alınan metinleri çözümleyebilme\nTDE1.4. “Hayatın Aynası” temasında ele alınan metinlerden hareketle günlük hayatta karşılaşabileceği\nolay ve durumlarla ilgili görüşlerini paylaştığı süreci değerlendirebilme\n\nTDE4.1. Günlük hayatta karşılaşılabilecek olay ve durumları etkili bir şekilde aktaracağı\nyazısını yönetebilme",
+            "G43": "TDE1.3. Çözümleyebilme\na) TDE1.3.1. Parçaları belirler.\n• Dinlediği/izlediği metindeki karakterlerin özelliklerini ve amaçlarını inceler.\n• Dinlediği/izlediği metindeki yapı unsurlarını belirler.\n• Dinlediği/izlediği metindeki dil ve anlatım özelliklerini belirler.\n• Dinlediği/izlediği metindeki dil işlevlerini belirler.\nb) TDE1.3.2. Parçalar arasındaki ilişkileri belirler.\n• Dinlediği/izlediği metni oluşturan şekil ve anlama dair birimler arasındaki ilişkileri belirler.\n• Dinlediği/izlediği metindeki yapı unsurları arasındaki ilişkileri belirler.\n• Yazarın/şairin üslup seçiminin nedenleri ve sonuçlarını açıklar.\n• Dinlediği/izlediği metinlerin yazıldığı dönemin özelliklerini açıklar.\n• Dinlediği/izlediği metnin içeriğinin, yapı unsurlarının, dil ve anlatım özelliklerinin metnin yazıldığı dönemle ve\ntoplumla ilişkisini kurar.\n• Dinlediği/izlediği metni millî, manevi ve evrensel değerlerin aktarımı bağlamında değerlendirir.\n• Dinlediği/izlediği metnin içeriğinin, yapı unsurlarının, dil ve anlatım özelliklerinin metnin yazarıyla/şairiyle ilişkisini\nkurar.\n• Dinlediği/izlediği metnin diğer disiplinlerle olan ilişkisini değerlendirir.\nTDE1.4. Süreci Değerlendirebilme\na) TDE1.4.1. Kendini değerlendirir.\n• Dinlediği/izlediği metin hakkında değerlendirmeler yapabilmek için çeşitli ölçütler belirler.\n• Dinlediği/izlediği metni kendi beğeni ölçütleri doğrultusunda değerlendirir.\n• Dinlediği/izlediği metindeki gerçeklik ile gerçek dünyayı karşılaştırır.\nb) TDE1.4.2. Tepki ortaya koyar.\n• Kendini dinlediği/izlediği metindeki karakterlerin yerine koyarak kahramanın davranışlarını anlamlandırır.\n• Dinlediği/izlediği metne yönelik beğeni ve eleştirilerini gerekçelendirerek açıklar.\n• Dinlediği/izlediği metnin konu ve ana düşüncesinin kendi dünyasıyla olan ilişkisini belirler.\n• Yazarın/şairin amacı ile kendi düşünceleri arasındaki benzerlik ve farklılıkları açıklar.\n• Dinlediği/izlediği metindeki olaya, duruma, soruna ya da karakterlerin davranışlarına seçenekler üretir.\n• Kendi belirlediği ölçütlerden hareketle dinlediği/izlediği metnin yazılış amacına ulaşma düzeyini değerlendirir.\n\nTDE4.1. Yazmayı Yönetebilme\na) TDE4.1.1. Seçim yapar.\n• Yazma amacına (edebî metin oluşturma, ikna etme, bilgilendirme, resmî yazışma vb.) karar verir.\n• Yazacağı metnin özelliklerini, hedef kitlesini ve yazma süresini belirler.\n• Yazacağı metnin türüne uygun, kullanacağı yöntem ve stratejisini belirler.\nb) TDE4.1.2. İlişkiyi sürdürür.\n• Yazma süreci ile ilgili engelleri ortadan kaldırır.\n• Yazma amacına uygun olarak seçtiği stratejiyi yapılandırır."
+          }
+        },
+        {
+          "r": 44,
+          "cells": {
+            "B44": "35. Hafta:\n 7-11 Haziran",
+            "C44": "5",
+            "D44": "4.TEMA\nHAYATIN AYNASI",
+            "E44": "YAZMA\n• Dinlenen/izlenen\nbelgesele afiş\nhazırlayabilme",
+            "F44": "TDE4.2. Farklı bakış açılarını, günlük deneyimleri ve sosyal yaşamı yansıttığı yazısı için\niçerik oluşturabilme\nTDE4.3. Farklı bakış açılarını, günlük deneyimleri ve sosyal yaşamı yansıttığı yazısı için\nkural uygulayabilme",
+            "G44": "TDE4.2. İçerik Oluşturabilme\na) TDE4.2.1. Ön bilgilerle bağlantı kurar.\n• Yazma amacına yönelik ön bilgileriyle bağlantı kurar.\nb) TDE4.2.2. Tahmin eder.\n• Hedef kitlenin özelliklerine yönelik tahminlerde bulunarak yazacağı metnin türünü ve içeriğini belirler.\n• Yazacağı metnin türüne göre kullanacağı yapı unsurlarını belirler.\nc) TDE4.2.3. Karşılaştırır.\n• Yazma amacı ve yazacağı metnin özelliklerine göre ana düşünceye ve vermek istediği iletiye karar verir.\n• Planını oluştururken karşılaştırma içeren iletiler oluşturur.\nç) TDE4.2.4. Sınıflandırır.\n• Yazılı anlatımın kullanım alanına (özel, mesleki, eğitim ve kamusal) göre içeriğini belirler.\nd) TDE4.2.5. Yeniden ifade eder.\n• Söz varlığını kullanarak yazısının içeriğini düzenler.\ne) TDE4.2.6. Tepki verir.\n• Yazma sürecini planlarken dil işlevlerinin kullanımına karar verir.\nf) TDE4.2.7. Görsel ögeleri kullanır.\n• Yazma içeriğini desteklemek için kullanacağı görsel ve işitsel ögelere karar verir.\ng) TDE4.2.8. Sunar.\n• Yazacağı metnin plan taslağını sunar.\n• Aldığı geri bildirimler ile plan taslağına son şeklini verir.\n\nTDE4.3. Kural Uygulayabilme\na) TDE4.3.1. Plan hazırlar.\n• Yazmaya planına uygun bir şekilde başlar.\n• Yazısını dikkat çekici bir girişle başlatır.\nb) TDE4.3.2. Düşünceyi geliştirme yollarını kullanır.\n• Yazısını desteklemek amacıyla anlatım biçimi ve düşünceyi geliştirme yollarından yararlanır.\n• Duygu, düşünce ve hayallerini kendine özgü bir üslupla ifade eder.\nc) TDE4.3.3. Uygun söz varlığı kullanır.\n• Söz varlığını (deyim, atasözü, mecaz ve terim) bağlama uygun şekilde kullanır.\n• Ana düşünce ve destekleyici bilgilerle yazma sürecine devam eder.\n• Yazısını hedef kitleye uygun bir söz varlığı ve üslupla sürdürür.\nç) TDE4.3.4. İletileri açık ve örtük biçimde ifade eder.\n• Vermek istediği iletileri açık veya örtük bir şekilde ifade eder.\n• Duygu, düşünce ve hayallerini tutarlı bir şekilde ifade eder.\n• Yazmayı başlatma, sürdürme ve bitirme ifadelerini etkili kullanır.\n• Millî ve manevi değerler ile kültürel unsurlara dikkat ederek yazma sürecine devam eder.\n• Yazısında toplumsal hassasiyet oluşturacak ögeler (siyaset, din, etnisite vb.) kullanmaktan kaçınır.\n• Yazısının içeriğine uygun başlık belirler.\n• Yazısında olumlu tutum ve değerleri vurgular.\nd) TDE4.3.5. Türkçe dil yapılarını uygular.\n• Yazısında Türkçe dil yapılarını, işlevine uygun kullanır.\n• Türkçeyi bilinçli ve özenli (yabancı kelimelerin yerine Türkçelerini kullanması) kullanır.\ne) TDE4.3.6. Bağdaşıklık ögelerini kullanır.\n• Yazısını bağdaşıklık ögelerine dikkat ederek yazar.\nf) TDE4.3.7. Yazım kurallarını uygular.\n• Yazısında yazım kurallarını etkili bir şekilde kullanır.\ng) TDE4.3.8. Noktalama kurallarını uygular.\n• Yazısında noktalama kurallarını etkili bir şekilde kullanır."
+          }
+        },
+        {
+          "r": 45,
+          "cells": {
+            "B45": "36. Hafta:\n 14-18 Haziran",
+            "C45": "3",
+            "D45": "4.TEMA\nHAYATIN AYNASI",
+            "E45": "YAZMA\n• Dinlenen/izlenen\nbelgesele afiş\nhazırlayabilme",
+            "F45": "TDE4.4. Günlük hayatta karşılaşılabilecek olay ve durumları etkili bir şekilde aktardığı\nyazılı anlatımına yönelik yazma sürecini değerlendirebilme",
+            "G45": "TDE4.4. Süreci Değerlendirebilme\na) TDE4.4.1. Kendini değerlendirir.\n• Yazma sürecindeki davranış, duygu ve düşüncelerini değerlendirir.\n• Yazısını içerik yönünden değerlendirir.\n• Yazısını dil ve anlatım yönünden değerlendirir.\n• Yazısını paydaşların görüşlerine göre değerlendirir.\nb) TDE4.4.2. Tepki ortaya koyar.\n• Genel geri bildirimlere bağlı olarak bundan sonra yazacağı metin ile ilgili kendisine yeni hedefler belirler.\n• Özgün yazar kimliğini oluşturur.\n• Yazısını sınıf/okul panolarında ya da okulun resmî çevrim içi ortamlarında paylaşır."
+          }
+        },
+        {
+          "r": 46,
+          "cells": {
+            "C46": "2",
+            "D46": "OKUL TEMELLİ PLANLAMA*"
+          }
+        },
+        {
+          "r": 47,
+          "cells": {
+            "B47": "37. Hafta:\n 21-25 Haziran",
+            "C47": "SOSYAL ETKİNLİK"
+          }
+        }
+      ]
+    }
+  ]
+}
