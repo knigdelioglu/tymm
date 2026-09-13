@@ -1,0 +1,72 @@
+name: TDE11 Teacher-Facing Compatibility Fix
+
+on:
+  push:
+    branches:
+      - feat/tde11-lesson-plans-20260913
+    paths:
+      - '.github/workflows/tde11-teacher-facing-compat-fix.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch-and-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feat/tde11-lesson-plans-20260913
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Patch theme-title compatibility and regression coverage
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          p = Path('skill/tymm-material-planner/scripts/teacher_facing_text.py')
+          s = p.read_text(encoding='utf-8')
+          old = '            theme_title = _string(theme.get("theme_title"))\n'
+          new = '''            theme_title = (\n                _string(theme.get("theme_title"))\n                or _string(theme.get("title"))\n                or _string(theme.get("exact_title"))\n            )\n'''
+          if s.count(old) != 1:
+              raise SystemExit(f'expected exactly one theme_title assignment, got {s.count(old)}')
+          p.write_text(s.replace(old, new, 1), encoding='utf-8')
+
+          t = Path('skill/tymm-material-planner/tests/test_teacher_facing_text.py')
+          s = t.read_text(encoding='utf-8')
+          old = 'ROOT10 = COURSES / "TDE_10"\n'
+          new = 'ROOT10 = COURSES / "TDE_10"\nROOT11 = COURSES / "TDE_11"\n'
+          if s.count(old) != 1:
+              raise SystemExit('ROOT10 anchor mismatch')
+          s = s.replace(old, new, 1)
+          old = '        cls.catalog10 = teacher_facing_text.TeacherReferenceCatalog.from_knowledge_root(ROOT10)\n'
+          new = old + '        cls.catalog11 = teacher_facing_text.TeacherReferenceCatalog.from_knowledge_root(ROOT11)\n'
+          if s.count(old) != 1:
+              raise SystemExit('catalog10 anchor mismatch')
+          s = s.replace(old, new, 1)
+          anchor = '    def test_normalization_changes_prose_but_preserves_structured_ids(self) -> None:\n'
+          test = '''    def test_tde11_theme_title_falls_back_to_title_schema(self) -> None:\n        self.assertEqual(\n            self.catalog11.themes["TEMA_01"],\n            "1. Tema: BİR DİYECEĞİM VAR!",\n        )\n        plan = {\n            "course_id": "TDE_11",\n            "theme_id": "TEMA_01",\n            "block_id": "BLOCK_T1_01_OKUMA",\n        }\n        text = teacher_facing_text.humanize_teacher_text(\n            "TEMA_01 kapsamında çalış.",\n            plan=plan,\n            catalog=self.catalog11,\n            package_ranges=self.ranges,\n        )\n        self.assertEqual(text, "1. Tema: BİR DİYECEĞİM VAR! kapsamında çalış.")\n        self.assertIsNone(teacher_facing_text.TECHNICAL_REFERENCE_RE.search(text))\n\n'''
+          if s.count(anchor) != 1:
+              raise SystemExit('test insertion anchor mismatch')
+          t.write_text(s.replace(anchor, test + anchor, 1), encoding='utf-8')
+          PY
+      - name: Run focused regressions and teacher export
+        run: |
+          python -m unittest skill/tymm-material-planner/tests/test_teacher_facing_text.py
+          rm -rf /tmp/tde11-teacher-plans
+          python skill/tymm-material-planner/scripts/render_teacher_lesson_plan_markdown.py \
+            --knowledge-root courses/TDE_11 \
+            --output-root /tmp/tde11-teacher-plans \
+            > /tmp/tde11-teacher-export.json
+          test "$(find /tmp/tde11-teacher-plans -name '*.md' | wc -l | tr -d ' ')" = "88"
+          ! grep -R -n -E '\\bTEMA_[0-9]+\\b' /tmp/tde11-teacher-plans
+      - name: Commit compatibility fix
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add skill/tymm-material-planner/scripts/teacher_facing_text.py skill/tymm-material-planner/tests/test_teacher_facing_text.py
+          git commit -m 'fix(tde11): resolve teacher-facing theme titles' || exit 0
+          git push origin HEAD:feat/tde11-lesson-plans-20260913
