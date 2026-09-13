@@ -56,6 +56,7 @@ for path in sorted((ROOT/'generated/lesson_plans').rglob('*.json')):
         title=sentence(activity.get('exact_title') or activity.get('activity_title') or activity.get('title'), 'Ders kitabı etkinliği')
         action=sentence(activity.get('student_action'), f'{domain} becerisine ilişkin görevi uygular')
         evidence=sentence(activity.get('expected_product_or_evidence') or activity.get('expected_student_evidence') or activity.get('expected_evidence'), 'tamamlanan görev ve gerekçeli kısa kanıt kaydı')
+        evidence=evidence.replace('öğretmen puanlama kanıtı','öğretmen gözlem/değerlendirme kaydı').replace('Öğretmen puanlama kanıtı','Öğretmen gözlem/değerlendirme kaydı')
         no=int(lesson.get('lesson_no',1))
 
         if lesson.get('assessment_scope')=='THEME':
@@ -91,7 +92,7 @@ for path in sorted((ROOT/'generated/lesson_plans').rglob('*.json')):
             'Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.',
             ('İlk kanıtı ile düzeltilmiş kanıtı karşılaştırıp hangi değişikliğin sonucu iyileştirdiğini açıklar.' if no>1 else 'Kapanışta bir güçlü kanıtını ve bir geliştirme adımını kısa biçimde kaydeder.')
         ]
-        lesson['assessment']=f'Ana ölçme kanıtı “{evidence}”dir. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen {domain} becerisine uygunluğu üzerinden verilir.'
+        lesson['assessment']=f'Ana ölçme kanıtı şudur: “{evidence}”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen {domain} becerisine uygunluğu üzerinden verilir.'
         lesson['closure']=f'Öğrenci “{evidence}” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.'
 
     write(path,plan)
