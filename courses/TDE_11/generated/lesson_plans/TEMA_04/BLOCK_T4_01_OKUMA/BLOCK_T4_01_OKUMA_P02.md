@@ -58,7 +58,7 @@
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı “Anlama sorularına cevaplar, işaretlemeler ve anlamlandırma kayıtları”dir. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen okuma becerisine uygunluğu üzerinden verilir.
+Ana ölçme kanıtı şudur: “Anlama sorularına cevaplar, işaretlemeler ve anlamlandırma kayıtları”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen okuma becerisine uygunluğu üzerinden verilir.
 
 ### Kapanış
 
@@ -103,7 +103,7 @@ Ana ölçme kanıtı “Anlama sorularına cevaplar, işaretlemeler ve anlamland
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı “Anlama sorularına cevaplar, işaretlemeler ve anlamlandırma kayıtları”dir. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen okuma becerisine uygunluğu üzerinden verilir.
+Ana ölçme kanıtı şudur: “Anlama sorularına cevaplar, işaretlemeler ve anlamlandırma kayıtları”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen okuma becerisine uygunluğu üzerinden verilir.
 
 ### Kapanış
 
@@ -128,4 +128,4 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanı
 
 ---
 
-<!-- TYMM_JSON_SHA256:ef36e5536652a4c9a4966d318191a0edd36a871550e46aadf9971f83395ad3ad -->
+<!-- TYMM_JSON_SHA256:20654b2c3d953e0e3991fca0028b9952a04bd9add9195cb6eaab5d872607ef94 -->

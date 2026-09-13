@@ -58,7 +58,7 @@
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı “Öz değerlendirme, çıkış kartı, öğrenme günlüğü veya gerekçeli değerlendirme”dir. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen okuma becerisine uygunluğu üzerinden verilir.
+Ana ölçme kanıtı şudur: “Öz değerlendirme, çıkış kartı, öğrenme günlüğü veya gerekçeli değerlendirme”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen okuma becerisine uygunluğu üzerinden verilir.
 
 ### Kapanış
 
@@ -103,7 +103,7 @@ Ana ölçme kanıtı “Öz değerlendirme, çıkış kartı, öğrenme günlü�
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı “Öz değerlendirme, çıkış kartı, öğrenme günlüğü veya gerekçeli değerlendirme”dir. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen okuma becerisine uygunluğu üzerinden verilir.
+Ana ölçme kanıtı şudur: “Öz değerlendirme, çıkış kartı, öğrenme günlüğü veya gerekçeli değerlendirme”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen okuma becerisine uygunluğu üzerinden verilir.
 
 ### Kapanış
 
@@ -128,4 +128,4 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanı
 
 ---
 
-<!-- TYMM_JSON_SHA256:21b6f2f24218bc3d070ed7708ce195011f28eca7bca924aadd199b203e7cb0ea -->
+<!-- TYMM_JSON_SHA256:cc756222ee378d78456044555c7fb7f33f60504cbfb32738e9ee974f79fbc5b6 -->

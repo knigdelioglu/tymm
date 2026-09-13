@@ -58,7 +58,7 @@
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı “Düzenlenmiş yazılı veya çok modlu ürün”dir. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen yazma becerisine uygunluğu üzerinden verilir.
+Ana ölçme kanıtı şudur: “Düzenlenmiş yazılı veya çok modlu ürün”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen yazma becerisine uygunluğu üzerinden verilir.
 
 ### Kapanış
 
@@ -103,7 +103,7 @@ Ana ölçme kanıtı “Düzenlenmiş yazılı veya çok modlu ürün”dir. Ger
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı “Düzenlenmiş yazılı veya çok modlu ürün”dir. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen yazma becerisine uygunluğu üzerinden verilir.
+Ana ölçme kanıtı şudur: “Düzenlenmiş yazılı veya çok modlu ürün”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen yazma becerisine uygunluğu üzerinden verilir.
 
 ### Kapanış
 
@@ -128,4 +128,4 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanı
 
 ---
 
-<!-- TYMM_JSON_SHA256:1599b572ffd162309ecc50e01364f4bf338b99d71eeb8cc08b75618a66c2d9e4 -->
+<!-- TYMM_JSON_SHA256:b430459f974cc10710cbacea99081d59370f4087421f50798511986b5cfada60 -->

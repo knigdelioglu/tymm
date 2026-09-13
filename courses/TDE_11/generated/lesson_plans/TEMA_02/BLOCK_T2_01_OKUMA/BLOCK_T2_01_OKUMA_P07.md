@@ -58,7 +58,7 @@
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı “Tahlil cevapları, tablo/şema ve gerekçeli karşılaştırma kayıtları”dir. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen okuma becerisine uygunluğu üzerinden verilir.
+Ana ölçme kanıtı şudur: “Tahlil cevapları, tablo/şema ve gerekçeli karşılaştırma kayıtları”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen okuma becerisine uygunluğu üzerinden verilir.
 
 ### Kapanış
 
@@ -103,7 +103,7 @@ Ana ölçme kanıtı “Tahlil cevapları, tablo/şema ve gerekçeli karşılaş
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı “Tahlil cevapları, tablo/şema ve gerekçeli karşılaştırma kayıtları”dir. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen okuma becerisine uygunluğu üzerinden verilir.
+Ana ölçme kanıtı şudur: “Tahlil cevapları, tablo/şema ve gerekçeli karşılaştırma kayıtları”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen okuma becerisine uygunluğu üzerinden verilir.
 
 ### Kapanış
 
@@ -128,4 +128,4 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanı
 
 ---
 
-<!-- TYMM_JSON_SHA256:449c9b789fa61f3ae06f43eefb232eca61a4fa6a6ea322fe7ba135a3d65eacf7 -->
+<!-- TYMM_JSON_SHA256:f35ed191d2124593c02ce2400d6fffff8e42cb8e2f839fd6b4ff78f2fa1f690f -->

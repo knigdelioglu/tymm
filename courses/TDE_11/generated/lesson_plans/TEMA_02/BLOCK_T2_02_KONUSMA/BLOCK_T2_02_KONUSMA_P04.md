@@ -117,7 +117,7 @@
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı “Canlı sözlü performans/canlandırma ve performans kaydı”dir. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen konuşma becerisine uygunluğu üzerinden verilir.
+Ana ölçme kanıtı şudur: “Canlı sözlü performans/canlandırma ve performans kaydı”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen konuşma becerisine uygunluğu üzerinden verilir.
 
 ### Kapanış
 
@@ -162,7 +162,7 @@ Ana ölçme kanıtı “Canlı sözlü performans/canlandırma ve performans kay
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı “Canlı sözlü performans/canlandırma ve performans kaydı”dir. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen konuşma becerisine uygunluğu üzerinden verilir.
+Ana ölçme kanıtı şudur: “Canlı sözlü performans/canlandırma ve performans kaydı”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen konuşma becerisine uygunluğu üzerinden verilir.
 
 ### Kapanış
 
@@ -187,4 +187,4 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanı
 
 ---
 
-<!-- TYMM_JSON_SHA256:5f0a8efc41c52ba1b273314cd7f9d3e827c68e9833b079dfb5c7ee65585cd57d -->
+<!-- TYMM_JSON_SHA256:5563230a72dc98bc304bc188f9b6bac3679271c599a254fa48038c3a19451f26 -->

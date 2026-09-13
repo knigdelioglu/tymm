@@ -58,7 +58,7 @@
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı “Okuma öncesi cevaplar, tahminler ve hazırlık notları”dir. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen okuma becerisine uygunluğu üzerinden verilir.
+Ana ölçme kanıtı şudur: “Okuma öncesi cevaplar, tahminler ve hazırlık notları”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen okuma becerisine uygunluğu üzerinden verilir.
 
 ### Kapanış
 
@@ -103,7 +103,7 @@ Ana ölçme kanıtı “Okuma öncesi cevaplar, tahminler ve hazırlık notları
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı “Okuma öncesi cevaplar, tahminler ve hazırlık notları”dir. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen okuma becerisine uygunluğu üzerinden verilir.
+Ana ölçme kanıtı şudur: “Okuma öncesi cevaplar, tahminler ve hazırlık notları”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen okuma becerisine uygunluğu üzerinden verilir.
 
 ### Kapanış
 
@@ -128,4 +128,4 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanı
 
 ---
 
-<!-- TYMM_JSON_SHA256:f347a8da9c376906533f29b43280a155ec5cb95f8274a65a87a6a9b0bcb4f5c2 -->
+<!-- TYMM_JSON_SHA256:3d270c0222ffc3ff8392205e8f5fc193f1f9fcf672ff2ea74489082be5564655 -->

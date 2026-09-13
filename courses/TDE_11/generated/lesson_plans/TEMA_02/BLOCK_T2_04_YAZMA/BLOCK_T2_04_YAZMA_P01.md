@@ -58,7 +58,7 @@
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı “Yazma planı, amaç/hedef kitle ve strateji kaydı”dir. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen yazma becerisine uygunluğu üzerinden verilir.
+Ana ölçme kanıtı şudur: “Yazma planı, amaç/hedef kitle ve strateji kaydı”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen yazma becerisine uygunluğu üzerinden verilir.
 
 ### Kapanış
 
@@ -103,7 +103,7 @@ Ana ölçme kanıtı “Yazma planı, amaç/hedef kitle ve strateji kaydı”dir
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı “Yazma planı, amaç/hedef kitle ve strateji kaydı”dir. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen yazma becerisine uygunluğu üzerinden verilir.
+Ana ölçme kanıtı şudur: “Yazma planı, amaç/hedef kitle ve strateji kaydı”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen yazma becerisine uygunluğu üzerinden verilir.
 
 ### Kapanış
 
@@ -128,4 +128,4 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanı
 
 ---
 
-<!-- TYMM_JSON_SHA256:78d72ab2f4ffd1ea7c68455c41da36c7b1b6c6c086c439d041b902f8313e2cae -->
+<!-- TYMM_JSON_SHA256:08628bb94f19600301e37d7d18b73ff91b7a034948ca4eb56c5663ca2a7396a1 -->

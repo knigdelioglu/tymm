@@ -120,7 +120,7 @@
 
 1. “Süreci Değerlendirebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
 2. Öğrencinin şu görevi yerine getirmesini sağla: Konuşma performansını öz/akran/öğretmen değerlendirmesi ve geri bildirimle geliştirir. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
-3. “Öz/akran değerlendirme, öğretmen puanlama kanıtı ve yansıtma/revizyon kaydı” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
+3. “Öz/akran değerlendirme, öğretmen gözlem/değerlendirme kaydı ve yansıtma/revizyon kaydı” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
 4. Ders sırasında kısa kontrol noktaları kullan; öğrencinin yanlış veya eksik stratejiyi kanıt oluşmadan önce fark edip düzeltmesine fırsat ver.
 
 ### Öğrencinin yapacakları
@@ -137,11 +137,11 @@
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı “Öz/akran değerlendirme, öğretmen puanlama kanıtı ve yansıtma/revizyon kaydı”dir. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen konuşma becerisine uygunluğu üzerinden verilir.
+Ana ölçme kanıtı şudur: “Öz/akran değerlendirme, öğretmen gözlem/değerlendirme kaydı ve yansıtma/revizyon kaydı”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen konuşma becerisine uygunluğu üzerinden verilir.
 
 ### Kapanış
 
-Öğrenci “Öz/akran değerlendirme, öğretmen puanlama kanıtı ve yansıtma/revizyon kaydı” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
+Öğrenci “Öz/akran değerlendirme, öğretmen gözlem/değerlendirme kaydı ve yansıtma/revizyon kaydı” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
 
 ### Materyaller
 
@@ -165,7 +165,7 @@ Ana ölçme kanıtı “Öz/akran değerlendirme, öğretmen puanlama kanıtı v
 
 1. “Süreci Değerlendirebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
 2. Öğrencinin şu görevi yerine getirmesini sağla: Konuşma performansını öz/akran/öğretmen değerlendirmesi ve geri bildirimle geliştirir. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
-3. “Öz/akran değerlendirme, öğretmen puanlama kanıtı ve yansıtma/revizyon kaydı” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
+3. “Öz/akran değerlendirme, öğretmen gözlem/değerlendirme kaydı ve yansıtma/revizyon kaydı” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
 4. İlk denemeden sonra ortak bir güçlü örneği ve geliştirilmesi gereken bir örneği anonim biçimde karşılaştır; öğrencinin ikinci denemesinde neyi değiştireceğini netleştir.
 
 ### Öğrencinin yapacakları
@@ -182,11 +182,11 @@ Ana ölçme kanıtı “Öz/akran değerlendirme, öğretmen puanlama kanıtı v
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı “Öz/akran değerlendirme, öğretmen puanlama kanıtı ve yansıtma/revizyon kaydı”dir. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen konuşma becerisine uygunluğu üzerinden verilir.
+Ana ölçme kanıtı şudur: “Öz/akran değerlendirme, öğretmen gözlem/değerlendirme kaydı ve yansıtma/revizyon kaydı”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen konuşma becerisine uygunluğu üzerinden verilir.
 
 ### Kapanış
 
-Öğrenci “Öz/akran değerlendirme, öğretmen puanlama kanıtı ve yansıtma/revizyon kaydı” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
+Öğrenci “Öz/akran değerlendirme, öğretmen gözlem/değerlendirme kaydı ve yansıtma/revizyon kaydı” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
 
 ### Materyaller
 
@@ -207,4 +207,4 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanı
 
 ---
 
-<!-- TYMM_JSON_SHA256:37eeeaa5f6d4802f752b5bcddfe3f91cd54607fa5f8e1b9ffdb278a98508078c -->
+<!-- TYMM_JSON_SHA256:25e6baa3f03c5ec58f2972276d70cc1cfd81caeb2900cf5bd7ae228555d9c42b -->

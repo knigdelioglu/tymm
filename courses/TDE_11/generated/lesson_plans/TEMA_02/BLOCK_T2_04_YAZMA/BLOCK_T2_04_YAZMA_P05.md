@@ -65,7 +65,7 @@
 
 1. “Süreci Değerlendirebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
 2. Öğrencinin şu görevi yerine getirmesini sağla: Yazma sürecini ve ürünü öz/akran/öğretmen değerlendirmesiyle gözden geçirip geliştirir. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
-3. “Öz/akran değerlendirme, öğretmen puanlama kanıtı ve revize edilmiş nihai ürün” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
+3. “Öz/akran değerlendirme, öğretmen gözlem/değerlendirme kaydı ve revize edilmiş nihai ürün” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
 4. Ders sırasında kısa kontrol noktaları kullan; öğrencinin yanlış veya eksik stratejiyi kanıt oluşmadan önce fark edip düzeltmesine fırsat ver.
 
 ### Öğrencinin yapacakları
@@ -82,11 +82,11 @@
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı “Öz/akran değerlendirme, öğretmen puanlama kanıtı ve revize edilmiş nihai ürün”dir. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen yazma becerisine uygunluğu üzerinden verilir.
+Ana ölçme kanıtı şudur: “Öz/akran değerlendirme, öğretmen gözlem/değerlendirme kaydı ve revize edilmiş nihai ürün”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen yazma becerisine uygunluğu üzerinden verilir.
 
 ### Kapanış
 
-Öğrenci “Öz/akran değerlendirme, öğretmen puanlama kanıtı ve revize edilmiş nihai ürün” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
+Öğrenci “Öz/akran değerlendirme, öğretmen gözlem/değerlendirme kaydı ve revize edilmiş nihai ürün” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
 
 ### Materyaller
 
@@ -155,4 +155,4 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanı
 
 ---
 
-<!-- TYMM_JSON_SHA256:c6552bf1efecc7ecf7ce1178ff61aa1353411a32dd082d3f0db9da55c99c1cc8 -->
+<!-- TYMM_JSON_SHA256:3d13cc1677cdb1e7e7326a0d9aa6c28bb86a3f1057c731e1f019667fb951a6f4 -->

@@ -58,7 +58,7 @@
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı “İçerik taslağı, plan/şema ve kaynak-seçim kayıtları”dir. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen yazma becerisine uygunluğu üzerinden verilir.
+Ana ölçme kanıtı şudur: “İçerik taslağı, plan/şema ve kaynak-seçim kayıtları”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen yazma becerisine uygunluğu üzerinden verilir.
 
 ### Kapanış
 
@@ -103,7 +103,7 @@ Ana ölçme kanıtı “İçerik taslağı, plan/şema ve kaynak-seçim kayıtla
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı “İçerik taslağı, plan/şema ve kaynak-seçim kayıtları”dir. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen yazma becerisine uygunluğu üzerinden verilir.
+Ana ölçme kanıtı şudur: “İçerik taslağı, plan/şema ve kaynak-seçim kayıtları”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen yazma becerisine uygunluğu üzerinden verilir.
 
 ### Kapanış
 
@@ -128,4 +128,4 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanı
 
 ---
 
-<!-- TYMM_JSON_SHA256:f322828da451387a8bf4f307b8a46daf03dbf38d4de42cbe8a943f7e44677b7f -->
+<!-- TYMM_JSON_SHA256:6e84d49fa919fa13316788789600bf09f74effa9f405c5de183ee784ebfb9628 -->

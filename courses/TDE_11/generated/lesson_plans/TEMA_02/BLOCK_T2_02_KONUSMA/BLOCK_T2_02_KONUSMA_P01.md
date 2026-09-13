@@ -117,7 +117,7 @@
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı “Konuşma/canlandırma planı, görev ve hazırlık kayıtları”dir. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen konuşma becerisine uygunluğu üzerinden verilir.
+Ana ölçme kanıtı şudur: “Konuşma/canlandırma planı, görev ve hazırlık kayıtları”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen konuşma becerisine uygunluğu üzerinden verilir.
 
 ### Kapanış
 
@@ -162,7 +162,7 @@ Ana ölçme kanıtı “Konuşma/canlandırma planı, görev ve hazırlık kayı
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı “Konuşma/canlandırma planı, görev ve hazırlık kayıtları”dir. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen konuşma becerisine uygunluğu üzerinden verilir.
+Ana ölçme kanıtı şudur: “Konuşma/canlandırma planı, görev ve hazırlık kayıtları”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen konuşma becerisine uygunluğu üzerinden verilir.
 
 ### Kapanış
 
@@ -187,4 +187,4 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanı
 
 ---
 
-<!-- TYMM_JSON_SHA256:818dee1964bc98a88de84a4b532b520af5bf6f6cb9f0ce006c8123773d8623b1 -->
+<!-- TYMM_JSON_SHA256:956b479e43df5268d5a145368f51e467f28876e360f7b3d31620da376d7c09f0 -->

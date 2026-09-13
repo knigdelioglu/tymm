@@ -117,7 +117,7 @@
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı “Konuşma metni/senaryo/akış taslağı ve içerik düzenleme kayıtları”dir. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen konuşma becerisine uygunluğu üzerinden verilir.
+Ana ölçme kanıtı şudur: “Konuşma metni/senaryo/akış taslağı ve içerik düzenleme kayıtları”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen konuşma becerisine uygunluğu üzerinden verilir.
 
 ### Kapanış
 
@@ -162,7 +162,7 @@ Ana ölçme kanıtı “Konuşma metni/senaryo/akış taslağı ve içerik düze
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı “Konuşma metni/senaryo/akış taslağı ve içerik düzenleme kayıtları”dir. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen konuşma becerisine uygunluğu üzerinden verilir.
+Ana ölçme kanıtı şudur: “Konuşma metni/senaryo/akış taslağı ve içerik düzenleme kayıtları”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen konuşma becerisine uygunluğu üzerinden verilir.
 
 ### Kapanış
 
@@ -187,4 +187,4 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanı
 
 ---
 
-<!-- TYMM_JSON_SHA256:c44743f2989ecc0143b2954bc508a326f186cf3addae9004124db98a09da2ae3 -->
+<!-- TYMM_JSON_SHA256:ba950b684a89dd85ca2bb5cbe60b0ca2f6675919970b7a3bf7df38e81daf8be2 -->

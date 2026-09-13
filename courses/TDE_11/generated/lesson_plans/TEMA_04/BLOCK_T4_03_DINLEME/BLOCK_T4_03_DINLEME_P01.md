@@ -103,7 +103,7 @@
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı “Amaç/strateji kaydı, tahmin ve hazırlık notları”dir. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen dinleme/izleme becerisine uygunluğu üzerinden verilir.
+Ana ölçme kanıtı şudur: “Amaç/strateji kaydı, tahmin ve hazırlık notları”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen dinleme/izleme becerisine uygunluğu üzerinden verilir.
 
 ### Kapanış
 
@@ -148,7 +148,7 @@ Ana ölçme kanıtı “Amaç/strateji kaydı, tahmin ve hazırlık notları”d
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı “Amaç/strateji kaydı, tahmin ve hazırlık notları”dir. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen dinleme/izleme becerisine uygunluğu üzerinden verilir.
+Ana ölçme kanıtı şudur: “Amaç/strateji kaydı, tahmin ve hazırlık notları”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen dinleme/izleme becerisine uygunluğu üzerinden verilir.
 
 ### Kapanış
 
@@ -173,4 +173,4 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanı
 
 ---
 
-<!-- TYMM_JSON_SHA256:2bd94b25cd1dcd729c955691c81fb34f9e149691b5b4390441c4011021094048 -->
+<!-- TYMM_JSON_SHA256:ce580337521cee536e67c4067401366a3672bffc427c0dcdc04f4150107ac1e0 -->
