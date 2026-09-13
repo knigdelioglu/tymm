@@ -22,13 +22,16 @@ jobs:
         run: |
           python - <<'PY'
           from __future__ import annotations
-          import json, zipfile
+          import hashlib, json, re, zipfile
+          from collections import defaultdict
           from pathlib import Path
           from xml.etree import ElementTree as ET
 
           src = Path('docs/Anadolu Liseleri Türk Dili ve Edebiyatı Dersi Taslak Yıllık Plan.xlsx')
-          out = Path('courses/TDE_11/.work/annual_plan_inspection.json')
-          out.parent.mkdir(parents=True, exist_ok=True)
+          work = Path('courses/TDE_11/.work')
+          work.mkdir(parents=True, exist_ok=True)
+          out = work / 'annual_plan_inspection.json'
+          summary_out = work / 'annual_plan_summary.json'
 
           NS_MAIN='http://schemas.openxmlformats.org/spreadsheetml/2006/main'
           NS_REL='http://schemas.openxmlformats.org/officeDocument/2006/relationships'
@@ -52,7 +55,7 @@ jobs:
                   path='xl/'+target.lstrip('/') if not target.startswith('xl/') else target
                   sheets.append((name,path))
 
-              result={'workbook':str(src),'sheets':[]}
+              result={'workbook':str(src),'sha256':hashlib.sha256(src.read_bytes()).hexdigest(),'sheets':[]}
               for name,path in sheets:
                   if '11' not in name.upper():
                       continue
@@ -72,20 +75,80 @@ jobs:
                               val=''.join(x.text or '' for x in isel.iter(f'{{{NS_MAIN}}}t'))
                           elif v is not None and v.text is not None:
                               val=v.text
-                          if val!='':
-                              vals[ref]=val
+                          if val!='': vals[ref]=val
                       if vals:
                           rows.append({'r':int(row.attrib.get('r','0') or 0),'cells':vals})
                   result['sheets'].append({'name':name,'path':path,'rows':rows})
 
           out.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding='utf-8')
-          print(json.dumps({'output':str(out),'sheet_names':[s['name'] for s in result['sheets']], 'row_counts':{s['name']:len(s['rows']) for s in result['sheets']}}, ensure_ascii=False))
+
+          def norm(s):
+              return re.sub(r'\s+', ' ', (s or '')).strip()
+          def theme_id(text):
+              m=re.search(r'([1-4])\s*\.?(?:\s*TEMA|TEMA)', (text or '').upper())
+              return f'TEMA_0{m.group(1)}' if m else None
+          def domains(text):
+              u=(text or '').upper().replace('İ','I')
+              found=[]
+              if 'OKUMA' in u: found.append('OKUMA')
+              if 'KONUSMA' in u: found.append('KONUSMA')
+              if 'DINLEME' in u or 'IZLEME' in u: found.append('DINLEME_IZLEME')
+              if 'YAZMA' in u: found.append('YAZMA')
+              return found
+
+          compact=[]
+          theme_hours=defaultdict(int)
+          single_domain_hours=defaultdict(int)
+          current_theme=None
+          for sheet in result['sheets']:
+              for row in sheet['rows']:
+                  r=row['r']; c=row['cells']
+                  if r < 4: continue
+                  t=theme_id(c.get(f'D{r}','')) or current_theme
+                  if t: current_theme=t
+                  raw_hours=norm(c.get(f'C{r}',''))
+                  try: hours=int(float(raw_hours))
+                  except: hours=None
+                  topic=norm(c.get(f'E{r}',''))
+                  ds=domains(topic)
+                  rec={
+                      'row':r,
+                      'month':norm(c.get(f'A{r}','')),
+                      'week':norm(c.get(f'B{r}','')),
+                      'hours':hours,
+                      'theme_id':t,
+                      'theme':norm(c.get(f'D{r}','')),
+                      'topic':topic,
+                      'domains':ds,
+                      'outcomes':norm(c.get(f'F{r}','')),
+                      'school_based':norm(c.get(f'N{r}','')),
+                  }
+                  compact.append(rec)
+                  if hours is not None and t:
+                      theme_hours[t]+=hours
+                      if len(ds)==1:
+                          single_domain_hours[(t,ds[0])]+=hours
+
+          summary={
+              'source':str(src),
+              'source_sha256':result['sha256'],
+              'worksheet_names':[s['name'] for s in result['sheets']],
+              'rows':compact,
+              'theme_total_calendar_hours':dict(sorted(theme_hours.items())),
+              'single_domain_week_hours':[
+                  {'theme_id':k[0],'domain':k[1],'hours':v}
+                  for k,v in sorted(single_domain_hours.items())
+              ],
+              'note':'single_domain_week_hours only sums rows whose topic cell names exactly one skill domain; mixed rows are intentionally not split.'
+          }
+          summary_out.write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding='utf-8')
+          print(json.dumps({'inspection':str(out),'summary':str(summary_out),'sha256':result['sha256'],'theme_hours':summary['theme_total_calendar_hours']}, ensure_ascii=False))
           PY
-      - name: Commit inspection artifact
+      - name: Commit inspection artifacts
         shell: bash
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add courses/TDE_11/.work/annual_plan_inspection.json
-          git commit -m 'chore(tde11): inspect 2026-2027 annual plan workbook' || exit 0
+          git add courses/TDE_11/.work/annual_plan_inspection.json courses/TDE_11/.work/annual_plan_summary.json
+          git commit -m 'chore(tde11): summarize 2026-2027 annual plan workbook' || exit 0
           git push origin HEAD:feat/tde11-lesson-plans-20260913
