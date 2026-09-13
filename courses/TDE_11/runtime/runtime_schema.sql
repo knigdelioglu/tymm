@@ -35,3 +35,26 @@ ALTER TABLE assessment_artifacts ADD COLUMN provenance_json TEXT NOT NULL DEFAUL
 ALTER TABLE assessment_task_bindings ADD COLUMN task_specific_criteria_json TEXT NOT NULL DEFAULT '[]';
 ALTER TABLE assessment_task_bindings ADD COLUMN source_equivalence_status TEXT;
 ALTER TABLE assessment_task_bindings ADD COLUMN binding_key_semantics TEXT;
+
+-- lesson-plan-payload-extension-v1
+CREATE TABLE IF NOT EXISTS lesson_plan_packages (
+    package_id TEXT PRIMARY KEY,
+    course_id TEXT NOT NULL REFERENCES courses(course_id),
+    theme_id TEXT NOT NULL REFERENCES themes(theme_id),
+    block_id TEXT NOT NULL REFERENCES blocks(block_id),
+    package_no INTEGER NOT NULL CHECK(package_no > 0),
+    lesson_hours INTEGER NOT NULL CHECK(lesson_hours > 0),
+    plan_title TEXT NOT NULL,
+    plan_summary TEXT NOT NULL,
+    remaining_block_hours INTEGER NOT NULL CHECK(remaining_block_hours >= 0),
+    schema_version TEXT NOT NULL,
+    validation_status TEXT NOT NULL,
+    source_path TEXT NOT NULL,
+    payload_sha256 TEXT NOT NULL,
+    payload_json TEXT NOT NULL,
+    UNIQUE(block_id, package_no)
+);
+CREATE INDEX IF NOT EXISTS idx_lesson_plan_theme_block
+    ON lesson_plan_packages(theme_id, block_id, package_no);
+CREATE INDEX IF NOT EXISTS idx_lesson_plan_block_package
+    ON lesson_plan_packages(block_id, package_no);

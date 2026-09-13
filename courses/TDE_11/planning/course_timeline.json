@@ -2,28 +2,41 @@
   "schema_version": "1.0",
   "course_id": "TDE_11",
   "grade": 11,
-  "timeline_resolution": "ORDER_ONLY_BLOCK_HOURS_UNSPECIFIED_BY_SOURCE",
+  "timeline_resolution": "BLOCK_TIME_RESOLVED",
   "calendar_binding": {
-    "status": "NOT_BOUND",
-    "weekly_lesson_hours": null
+    "status": "UNRESOLVED",
+    "weekly_lesson_hours": null,
+    "academic_year": null,
+    "calendar_specific_fields_ingested": false,
+    "excluded_fields": [
+      "ay",
+      "hafta/tarih aralığı",
+      "ara tatil",
+      "yarıyıl tatili",
+      "belirli gün ve haftalar",
+      "resmî tatil yerleşimi",
+      "haftalık yerleşimden doğan artık ders saati satırları"
+    ]
   },
   "themes": [
     {
       "theme_id": "TEMA_01",
       "theme_order": 1,
-      "official_total_hours": 45,
+      "official_total_hours": 43,
       "core_instruction_hours": 43,
       "school_based_hours": 2,
-      "school_based_hours_status": "USER_CONFIRMED_PLANNING_RULE",
+      "school_based_hours_status": "OFFICIAL_DRAFT_ANNUAL_PLAN_PLANNING_GUIDANCE",
       "source_locators": [
-        "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/267"
+        "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/267",
+        "planning/block_hour_bindings.json#TEMA_01",
+        "planning/official_topic_hour_distribution.json#TEMA_01"
       ],
       "blocks": [
         {
           "block_id": "BLOCK_T1_01_OKUMA",
           "block_order": 1,
           "title": "Metin Tahlili-1 (Anlama): Okuma — Karagöz Oyunu (Yazıcı) / Metin Tahlili-2 (Anlama): Okuma — Mektup (Âli’ye Mektuplar) / Dilekçe",
-          "skill_domain": "Okuma",
+          "skill_domain": "OKUMA",
           "learning_area": "Anlama",
           "outcomes": [
             "TDE2.1",
@@ -31,18 +44,20 @@
             "TDE2.3",
             "TDE2.4"
           ],
-          "planned_hours": null,
-          "time_status": "ORDER_ONLY_UNSPECIFIED_BY_SOURCE",
+          "planned_hours": 15,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
           "source_locators": [
             "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.15-35",
-            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.36-52"
-          ]
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.36-52",
+            "planning/block_hour_bindings.json#TEMA_01.BLOCK_T1_01_OKUMA"
+          ],
+          "hour_resolution": "DIRECT"
         },
         {
           "block_id": "BLOCK_T1_02_KONUSMA",
           "block_order": 2,
           "title": "Edebiyat Atölyesi-1 (Anlatma): Konuşma — Sözlü İletişim Engellerini Konu Alan Bir Drama",
-          "skill_domain": "Konuşma",
+          "skill_domain": "KONUSMA",
           "learning_area": "Anlatma",
           "outcomes": [
             "TDE3.1",
@@ -50,17 +65,19 @@
             "TDE3.3",
             "TDE3.4"
           ],
-          "planned_hours": null,
-          "time_status": "ORDER_ONLY_UNSPECIFIED_BY_SOURCE",
+          "planned_hours": 10,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
           "source_locators": [
-            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.53-58"
-          ]
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.53-58",
+            "planning/block_hour_bindings.json#TEMA_01.BLOCK_T1_02_KONUSMA"
+          ],
+          "hour_resolution": "DIRECT"
         },
         {
           "block_id": "BLOCK_T1_03_DINLEME",
           "block_order": 3,
           "title": "Metin Tahlili-3 (Anlama): Dinleme / İzleme — Değişen İletişim Araçlarının Hayatımızdaki Yeri",
-          "skill_domain": "Dinleme/İzleme",
+          "skill_domain": "DINLEME_IZLEME",
           "learning_area": "Anlama",
           "outcomes": [
             "TDE1.1",
@@ -68,17 +85,19 @@
             "TDE1.3",
             "TDE1.4"
           ],
-          "planned_hours": null,
-          "time_status": "ORDER_ONLY_UNSPECIFIED_BY_SOURCE",
+          "planned_hours": 8,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
           "source_locators": [
-            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.59-73"
-          ]
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.59-73",
+            "planning/block_hour_bindings.json#TEMA_01.BLOCK_T1_03_DINLEME"
+          ],
+          "hour_resolution": "DIRECT_PLUS_COMPOUND_FIRST_COMPONENT"
         },
         {
           "block_id": "BLOCK_T1_04_YAZMA",
           "block_order": 4,
           "title": "Edebiyat Atölyesi-2 (Anlatma): Yazma — E-Posta Yazabilme / 1. Tema Ölçme ve Değerlendirme Soruları",
-          "skill_domain": "Yazma",
+          "skill_domain": "YAZMA",
           "learning_area": "Anlatma",
           "outcomes": [
             "TDE4.1",
@@ -86,31 +105,37 @@
             "TDE4.3",
             "TDE4.4"
           ],
-          "planned_hours": null,
-          "time_status": "ORDER_ONLY_UNSPECIFIED_BY_SOURCE",
+          "planned_hours": 10,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
           "source_locators": [
             "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.74-78",
-            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.79-83"
-          ]
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.79-83",
+            "planning/block_hour_bindings.json#TEMA_01.BLOCK_T1_04_YAZMA"
+          ],
+          "hour_resolution": "COMPOUND_SECOND_COMPONENT_PLUS_DIRECT"
         }
-      ]
+      ],
+      "block_resolution_status": "BLOCK_TIME_RESOLVED",
+      "outer_total_hours": 45
     },
     {
       "theme_id": "TEMA_02",
       "theme_order": 2,
-      "official_total_hours": 45,
+      "official_total_hours": 43,
       "core_instruction_hours": 43,
       "school_based_hours": 2,
-      "school_based_hours_status": "USER_CONFIRMED_PLANNING_RULE",
+      "school_based_hours_status": "OFFICIAL_DRAFT_ANNUAL_PLAN_PLANNING_GUIDANCE",
       "source_locators": [
-        "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/276"
+        "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/276",
+        "planning/block_hour_bindings.json#TEMA_02",
+        "planning/official_topic_hour_distribution.json#TEMA_02"
       ],
       "blocks": [
         {
           "block_id": "BLOCK_T2_01_OKUMA",
           "block_order": 1,
           "title": "Metin Tahlili-1 (Anlama): Okuma — Hikâye / Anı / Metin Tahlili-2 (Anlama): Okuma — Orhun Abideleri / Dîvânu Lugâti’t-Türk",
-          "skill_domain": "Okuma",
+          "skill_domain": "OKUMA",
           "learning_area": "Anlama",
           "outcomes": [
             "TDE2.1",
@@ -118,18 +143,20 @@
             "TDE2.3",
             "TDE2.4"
           ],
-          "planned_hours": null,
-          "time_status": "ORDER_ONLY_UNSPECIFIED_BY_SOURCE",
+          "planned_hours": 15,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
           "source_locators": [
             "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.88-112",
-            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.113-128"
-          ]
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.113-128",
+            "planning/block_hour_bindings.json#TEMA_02.BLOCK_T2_01_OKUMA"
+          ],
+          "hour_resolution": "DIRECT"
         },
         {
           "block_id": "BLOCK_T2_02_KONUSMA",
           "block_order": 2,
           "title": "Edebiyat Atölyesi-1 (Anlatma): Konuşma — Türk Kültürünün Özelliklerini Yansıtan Bir Konuşma",
-          "skill_domain": "Konuşma",
+          "skill_domain": "KONUSMA",
           "learning_area": "Anlatma",
           "outcomes": [
             "TDE3.1",
@@ -137,17 +164,19 @@
             "TDE3.3",
             "TDE3.4"
           ],
-          "planned_hours": null,
-          "time_status": "ORDER_ONLY_UNSPECIFIED_BY_SOURCE",
+          "planned_hours": 10,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
           "source_locators": [
-            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.129-135"
-          ]
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.129-135",
+            "planning/block_hour_bindings.json#TEMA_02.BLOCK_T2_02_KONUSMA"
+          ],
+          "hour_resolution": "DIRECT"
         },
         {
           "block_id": "BLOCK_T2_03_DINLEME",
           "block_order": 3,
           "title": "Metin Tahlili-3 (Anlama): Dinleme / İzleme — Âşık Atışması",
-          "skill_domain": "Dinleme/İzleme",
+          "skill_domain": "DINLEME_IZLEME",
           "learning_area": "Anlama",
           "outcomes": [
             "TDE1.1",
@@ -155,17 +184,19 @@
             "TDE1.3",
             "TDE1.4"
           ],
-          "planned_hours": null,
-          "time_status": "ORDER_ONLY_UNSPECIFIED_BY_SOURCE",
+          "planned_hours": 8,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
           "source_locators": [
-            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.136-147"
-          ]
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.136-147",
+            "planning/block_hour_bindings.json#TEMA_02.BLOCK_T2_03_DINLEME"
+          ],
+          "hour_resolution": "DIRECT_PLUS_COMPOUND_FIRST_COMPONENT"
         },
         {
           "block_id": "BLOCK_T2_04_YAZMA",
           "block_order": 4,
           "title": "Edebiyat Atölyesi-2 (Anlatma): Yazma — Çevrim İçi Müze Gezisiyle İlgili İzlenimleri Yazabilme / 2. Tema Ölçme ve Değerlendirme Soruları",
-          "skill_domain": "Yazma",
+          "skill_domain": "YAZMA",
           "learning_area": "Anlatma",
           "outcomes": [
             "TDE4.1",
@@ -173,31 +204,37 @@
             "TDE4.3",
             "TDE4.4"
           ],
-          "planned_hours": null,
-          "time_status": "ORDER_ONLY_UNSPECIFIED_BY_SOURCE",
+          "planned_hours": 10,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
           "source_locators": [
             "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.148-154",
-            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.155-159"
-          ]
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.155-159",
+            "planning/block_hour_bindings.json#TEMA_02.BLOCK_T2_04_YAZMA"
+          ],
+          "hour_resolution": "COMPOUND_SECOND_COMPONENT_PLUS_DIRECT"
         }
-      ]
+      ],
+      "block_resolution_status": "BLOCK_TIME_RESOLVED",
+      "outer_total_hours": 45
     },
     {
       "theme_id": "TEMA_03",
       "theme_order": 3,
-      "official_total_hours": 45,
+      "official_total_hours": 43,
       "core_instruction_hours": 43,
       "school_based_hours": 2,
-      "school_based_hours_status": "USER_CONFIRMED_PLANNING_RULE",
+      "school_based_hours_status": "OFFICIAL_DRAFT_ANNUAL_PLAN_PLANNING_GUIDANCE",
       "source_locators": [
-        "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322"
+        "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322",
+        "planning/block_hour_bindings.json#TEMA_03",
+        "planning/official_topic_hour_distribution.json#TEMA_03"
       ],
       "blocks": [
         {
           "block_id": "BLOCK_T3_01_OKUMA",
           "block_order": 1,
           "title": "Metin Tahlili-1 (Anlama): Okuma — Roman / Huzur / Metin Tahlili-2 (Anlama): Okuma — Biyografi / Tezkire",
-          "skill_domain": "Okuma",
+          "skill_domain": "OKUMA",
           "learning_area": "Anlama",
           "outcomes": [
             "TDE2.1",
@@ -205,18 +242,20 @@
             "TDE2.3",
             "TDE2.4"
           ],
-          "planned_hours": null,
-          "time_status": "ORDER_ONLY_UNSPECIFIED_BY_SOURCE",
+          "planned_hours": 15,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
           "source_locators": [
             "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.164-193",
-            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.194-209"
-          ]
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.194-209",
+            "planning/block_hour_bindings.json#TEMA_03.BLOCK_T3_01_OKUMA"
+          ],
+          "hour_resolution": "DIRECT"
         },
         {
           "block_id": "BLOCK_T3_02_KONUSMA",
           "block_order": 2,
           "title": "Edebiyat Atölyesi-1 (Anlatma): Konuşma — Hayalî Mülakat",
-          "skill_domain": "Konuşma",
+          "skill_domain": "KONUSMA",
           "learning_area": "Anlatma",
           "outcomes": [
             "TDE3.1",
@@ -224,17 +263,19 @@
             "TDE3.3",
             "TDE3.4"
           ],
-          "planned_hours": null,
-          "time_status": "ORDER_ONLY_UNSPECIFIED_BY_SOURCE",
+          "planned_hours": 10,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
           "source_locators": [
-            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.210-214"
-          ]
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.210-214",
+            "planning/block_hour_bindings.json#TEMA_03.BLOCK_T3_02_KONUSMA"
+          ],
+          "hour_resolution": "DIRECT"
         },
         {
           "block_id": "BLOCK_T3_03_DINLEME",
           "block_order": 3,
           "title": "Metin Tahlili-3 (Anlama): Dinleme / İzleme — Radyo Tiyatrosu / Direnişin Ustaları",
-          "skill_domain": "Dinleme/İzleme",
+          "skill_domain": "DINLEME_IZLEME",
           "learning_area": "Anlama",
           "outcomes": [
             "TDE1.1",
@@ -242,17 +283,19 @@
             "TDE1.3",
             "TDE1.4"
           ],
-          "planned_hours": null,
-          "time_status": "ORDER_ONLY_UNSPECIFIED_BY_SOURCE",
+          "planned_hours": 8,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
           "source_locators": [
-            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.215-224"
-          ]
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.215-224",
+            "planning/block_hour_bindings.json#TEMA_03.BLOCK_T3_03_DINLEME"
+          ],
+          "hour_resolution": "DIRECT_PLUS_COMPOUND_FIRST_COMPONENT"
         },
         {
           "block_id": "BLOCK_T3_04_YAZMA",
           "block_order": 4,
           "title": "Edebiyat Atölyesi-2 (Anlatma): Yazma — Diyaloğu Başka Bir Türe Dönüştürme / 3. Tema Ölçme ve Değerlendirme Soruları",
-          "skill_domain": "Yazma",
+          "skill_domain": "YAZMA",
           "learning_area": "Anlatma",
           "outcomes": [
             "TDE4.1",
@@ -260,31 +303,37 @@
             "TDE4.3",
             "TDE4.4"
           ],
-          "planned_hours": null,
-          "time_status": "ORDER_ONLY_UNSPECIFIED_BY_SOURCE",
+          "planned_hours": 10,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
           "source_locators": [
             "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.225-229",
-            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.230-235"
-          ]
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.230-235",
+            "planning/block_hour_bindings.json#TEMA_03.BLOCK_T3_04_YAZMA"
+          ],
+          "hour_resolution": "COMPOUND_SECOND_COMPONENT_PLUS_DIRECT"
         }
-      ]
+      ],
+      "block_resolution_status": "BLOCK_TIME_RESOLVED",
+      "outer_total_hours": 45
     },
     {
       "theme_id": "TEMA_04",
       "theme_order": 4,
-      "official_total_hours": 45,
+      "official_total_hours": 43,
       "core_instruction_hours": 43,
       "school_based_hours": 2,
-      "school_based_hours_status": "USER_CONFIRMED_PLANNING_RULE",
+      "school_based_hours_status": "OFFICIAL_DRAFT_ANNUAL_PLAN_PLANNING_GUIDANCE",
       "source_locators": [
-        "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/332"
+        "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/332",
+        "planning/block_hour_bindings.json#TEMA_04",
+        "planning/official_topic_hour_distribution.json#TEMA_04"
       ],
       "blocks": [
         {
           "block_id": "BLOCK_T4_01_OKUMA",
           "block_order": 1,
           "title": "Metin Tahlili-1 (Anlama): Okuma — Tiyatro / Ben, Mimar Sinan / Metin Tahlili-2 (Anlama): Okuma — Küçürek Hikâye / Merdiven",
-          "skill_domain": "Okuma",
+          "skill_domain": "OKUMA",
           "learning_area": "Anlama",
           "outcomes": [
             "TDE2.1",
@@ -292,18 +341,20 @@
             "TDE2.3",
             "TDE2.4"
           ],
-          "planned_hours": null,
-          "time_status": "ORDER_ONLY_UNSPECIFIED_BY_SOURCE",
+          "planned_hours": 15,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
           "source_locators": [
             "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.240-262",
-            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.263-279"
-          ]
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.263-279",
+            "planning/block_hour_bindings.json#TEMA_04.BLOCK_T4_01_OKUMA"
+          ],
+          "hour_resolution": "DIRECT"
         },
         {
           "block_id": "BLOCK_T4_02_KONUSMA",
           "block_order": 2,
           "title": "Edebiyat Atölyesi-1 (Anlatma): Konuşma — Tiyatro Metnini Yeniden Kurgulayarak Canlandırma",
-          "skill_domain": "Konuşma",
+          "skill_domain": "KONUSMA",
           "learning_area": "Anlatma",
           "outcomes": [
             "TDE3.1",
@@ -311,17 +362,19 @@
             "TDE3.3",
             "TDE3.4"
           ],
-          "planned_hours": null,
-          "time_status": "ORDER_ONLY_UNSPECIFIED_BY_SOURCE",
+          "planned_hours": 10,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
           "source_locators": [
-            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.280-283"
-          ]
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.280-283",
+            "planning/block_hour_bindings.json#TEMA_04.BLOCK_T4_02_KONUSMA"
+          ],
+          "hour_resolution": "DIRECT"
         },
         {
           "block_id": "BLOCK_T4_03_DINLEME",
           "block_order": 3,
           "title": "Metin Tahlili-3 (Anlama): Dinleme / İzleme — Anadolu İnsanı / Fedakârlık",
-          "skill_domain": "Dinleme/İzleme",
+          "skill_domain": "DINLEME_IZLEME",
           "learning_area": "Anlama",
           "outcomes": [
             "TDE1.1",
@@ -329,17 +382,19 @@
             "TDE1.3",
             "TDE1.4"
           ],
-          "planned_hours": null,
-          "time_status": "ORDER_ONLY_UNSPECIFIED_BY_SOURCE",
+          "planned_hours": 8,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
           "source_locators": [
-            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.284-297"
-          ]
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.284-297",
+            "planning/block_hour_bindings.json#TEMA_04.BLOCK_T4_03_DINLEME"
+          ],
+          "hour_resolution": "DIRECT_PLUS_COMPOUND_FIRST_COMPONENT"
         },
         {
           "block_id": "BLOCK_T4_04_YAZMA",
           "block_order": 4,
           "title": "Edebiyat Atölyesi-2 (Anlatma): Yazma — Özgün Afiş Hazırlama / 4. Tema Ölçme ve Değerlendirme Soruları",
-          "skill_domain": "Yazma",
+          "skill_domain": "YAZMA",
           "learning_area": "Anlatma",
           "outcomes": [
             "TDE4.1",
@@ -347,14 +402,113 @@
             "TDE4.3",
             "TDE4.4"
           ],
-          "planned_hours": null,
-          "time_status": "ORDER_ONLY_UNSPECIFIED_BY_SOURCE",
+          "planned_hours": 10,
+          "time_status": "OFFICIAL_ANNUAL_PLAN_DERIVED",
           "source_locators": [
             "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.298-302",
-            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.303-307"
-          ]
+            "source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf:s.303-307",
+            "planning/block_hour_bindings.json#TEMA_04.BLOCK_T4_04_YAZMA"
+          ],
+          "hour_resolution": "COMPOUND_SECOND_COMPONENT_PLUS_DIRECT"
         }
-      ]
+      ],
+      "block_resolution_status": "BLOCK_TIME_RESOLVED",
+      "outer_total_hours": 45
     }
-  ]
+  ],
+  "timeline_version": "1.1.3",
+  "timeline_semantics": {
+    "calendar_neutral_topic_hour_distribution": true,
+    "calendar_fields_intentionally_excluded": true,
+    "calendar_residual_hours_excluded_before_resolution": true
+  },
+  "source_basis": {
+    "authority_order": [
+      "planning/block_hour_bindings.json",
+      "planning/official_topic_hour_distribution.json"
+    ],
+    "hours_source": "curriculum_map.json + planning/block_hour_bindings.json",
+    "block_hours_source": "planning/block_hour_bindings.json",
+    "calendar_source": null,
+    "provenance_status": "PASS_CALENDAR_NEUTRAL_BLOCK_TIME_RESOLVED",
+    "temporal_fact_audit": {
+      "annual_instructional_hours": {
+        "value": 172,
+        "source": "curriculum_map.json + planning/block_hour_bindings.json",
+        "source_locator": "43 saat x 4 tema",
+        "status": "EXPLICIT_OFFICIAL_AND_RECONCILED"
+      },
+      "annual_school_based_hours": {
+        "value": 8,
+        "source": "planning/official_topic_hour_distribution.json",
+        "source_locator": "Her temadaki okul temelli planlama satırları; takvim alanları hariç",
+        "status": "OFFICIAL_DRAFT_ANNUAL_PLAN_PLANNING_GUIDANCE"
+      },
+      "annual_total_hours": {
+        "value": 180,
+        "source": "curriculum_map.json + planning/official_topic_hour_distribution.json",
+        "source_locator": "172+8",
+        "status": "DETERMINISTIC_RECONCILIATION"
+      },
+      "school_based_hours_per_theme": {
+        "value": 2,
+        "source": "planning/official_topic_hour_distribution.json",
+        "source_locator": "Tema bazlı okul temelli planlama satırları",
+        "status": "OFFICIAL_DRAFT_ANNUAL_PLAN_PLANNING_GUIDANCE"
+      },
+      "outer_theme_total_hours": {
+        "value": 45,
+        "source": "curriculum_map.json + planning/official_topic_hour_distribution.json",
+        "status": "DETERMINISTIC_RECONCILIATION"
+      },
+      "block_specific_official_hours": {
+        "value": {
+          "BLOCK_T1_01_OKUMA": 15,
+          "BLOCK_T1_02_KONUSMA": 10,
+          "BLOCK_T1_03_DINLEME": 8,
+          "BLOCK_T1_04_YAZMA": 10,
+          "BLOCK_T2_01_OKUMA": 15,
+          "BLOCK_T2_02_KONUSMA": 10,
+          "BLOCK_T2_03_DINLEME": 8,
+          "BLOCK_T2_04_YAZMA": 10,
+          "BLOCK_T3_01_OKUMA": 15,
+          "BLOCK_T3_02_KONUSMA": 10,
+          "BLOCK_T3_03_DINLEME": 8,
+          "BLOCK_T3_04_YAZMA": 10,
+          "BLOCK_T4_01_OKUMA": 15,
+          "BLOCK_T4_02_KONUSMA": 10,
+          "BLOCK_T4_03_DINLEME": 8,
+          "BLOCK_T4_04_YAZMA": 10
+        },
+        "source": "planning/block_hour_bindings.json",
+        "source_locator": "MEB taslak yıllık plan konu/saat dağılımı; takvim alanları ve haftalık yerleşim artıkları hariç",
+        "status": "OFFICIAL_DRAFT_ANNUAL_PLAN_DERIVED_CALENDAR_NEUTRAL"
+      },
+      "weekly_lesson_hours": {
+        "value": null,
+        "source": null,
+        "source_locator": null,
+        "status": "UNRESOLVED",
+        "note": "Haftalık/tarihsel takvim yerleşimi bu canonical katmana alınmaz."
+      },
+      "academic_year_week_mapping": {
+        "value": null,
+        "source": null,
+        "source_locator": null,
+        "status": "UNRESOLVED",
+        "note": "Ara tatil, yarıyıl, resmî tatil ve tarih aralıkları bilinçli olarak dışarıda tutulur."
+      }
+    }
+  },
+  "annual_hours": {
+    "core_instruction_hours": 172,
+    "school_based_hours": 8,
+    "official_total_hours": 180,
+    "time_status": "CALENDAR_NEUTRAL_RECONCILED",
+    "source_locators": [
+      "curriculum_map.json",
+      "planning/official_topic_hour_distribution.json",
+      "planning/block_hour_bindings.json"
+    ]
+  }
 }

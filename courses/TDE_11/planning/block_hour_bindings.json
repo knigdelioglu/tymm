@@ -1,0 +1,243 @@
+{
+  "schema_version": "1.0.1",
+  "course_id": "TDE_11",
+  "grade": 11,
+  "status": "BLOCK_TIME_RESOLVED",
+  "source": {
+    "topic_hour_distribution": "planning/official_topic_hour_distribution.json",
+    "annual_plan": "docs/Anadolu Liseleri Türk Dili ve Edebiyatı Dersi Taslak Yıllık Plan.xlsx",
+    "worksheet": "11.SINIF"
+  },
+  "semantics": {
+    "calendar_neutral": true,
+    "normative_instruction_hours_per_theme": 43,
+    "school_based_planning_hours_per_theme": 2,
+    "official_total_hours_per_theme": 45,
+    "domain_hour_template": {
+      "OKUMA": 15,
+      "KONUSMA": 10,
+      "DINLEME_IZLEME": 8,
+      "YAZMA": 10
+    },
+    "compound_notation_rule": "Aynı satırdaki 3+2 gösteriminde 3 saat ilk alana, 2 saat ikinci alana bağlanır.",
+    "calendar_residual_rule": "Takvim/tatil yerleşim artığı block-hour binding içine alınmaz; çekirdek tema toplamı doğrudan 43 saattir.",
+    "calendar_fields_used": false
+  },
+  "themes": [
+    {
+      "theme_id": "TEMA_01",
+      "normative_total_hours": 43,
+      "school_based_planning_hours": 2,
+      "official_total_hours": 45,
+      "bindings": [
+        {
+          "block_id": "BLOCK_T1_01_OKUMA",
+          "domain": "OKUMA",
+          "planned_hours": 15,
+          "source_rows": [
+            4,
+            5,
+            6
+          ],
+          "resolution": "DIRECT"
+        },
+        {
+          "block_id": "BLOCK_T1_02_KONUSMA",
+          "domain": "KONUSMA",
+          "planned_hours": 10,
+          "source_rows": [
+            7,
+            8
+          ],
+          "resolution": "DIRECT"
+        },
+        {
+          "block_id": "BLOCK_T1_03_DINLEME",
+          "domain": "DINLEME_IZLEME",
+          "planned_hours": 8,
+          "source_rows": [
+            9,
+            10
+          ],
+          "resolution": "DIRECT_PLUS_COMPOUND_FIRST_COMPONENT"
+        },
+        {
+          "block_id": "BLOCK_T1_04_YAZMA",
+          "domain": "YAZMA",
+          "planned_hours": 10,
+          "source_rows": [
+            10,
+            11,
+            12
+          ],
+          "resolution": "COMPOUND_SECOND_COMPONENT_PLUS_DIRECT"
+        }
+      ]
+    },
+    {
+      "theme_id": "TEMA_02",
+      "normative_total_hours": 43,
+      "school_based_planning_hours": 2,
+      "official_total_hours": 45,
+      "bindings": [
+        {
+          "block_id": "BLOCK_T2_01_OKUMA",
+          "domain": "OKUMA",
+          "planned_hours": 15,
+          "source_rows": [
+            15,
+            16,
+            17
+          ],
+          "resolution": "DIRECT"
+        },
+        {
+          "block_id": "BLOCK_T2_02_KONUSMA",
+          "domain": "KONUSMA",
+          "planned_hours": 10,
+          "source_rows": [
+            18,
+            19
+          ],
+          "resolution": "DIRECT"
+        },
+        {
+          "block_id": "BLOCK_T2_03_DINLEME",
+          "domain": "DINLEME_IZLEME",
+          "planned_hours": 8,
+          "source_rows": [
+            20,
+            21
+          ],
+          "resolution": "DIRECT_PLUS_COMPOUND_FIRST_COMPONENT"
+        },
+        {
+          "block_id": "BLOCK_T2_04_YAZMA",
+          "domain": "YAZMA",
+          "planned_hours": 10,
+          "source_rows": [
+            21,
+            22,
+            23
+          ],
+          "resolution": "COMPOUND_SECOND_COMPONENT_PLUS_DIRECT"
+        }
+      ]
+    },
+    {
+      "theme_id": "TEMA_03",
+      "normative_total_hours": 43,
+      "school_based_planning_hours": 2,
+      "official_total_hours": 45,
+      "bindings": [
+        {
+          "block_id": "BLOCK_T3_01_OKUMA",
+          "domain": "OKUMA",
+          "planned_hours": 15,
+          "source_rows": [
+            26,
+            27,
+            28
+          ],
+          "resolution": "DIRECT"
+        },
+        {
+          "block_id": "BLOCK_T3_02_KONUSMA",
+          "domain": "KONUSMA",
+          "planned_hours": 10,
+          "source_rows": [
+            29,
+            31
+          ],
+          "resolution": "DIRECT"
+        },
+        {
+          "block_id": "BLOCK_T3_03_DINLEME",
+          "domain": "DINLEME_IZLEME",
+          "planned_hours": 8,
+          "source_rows": [
+            32,
+            33
+          ],
+          "resolution": "DIRECT_PLUS_COMPOUND_FIRST_COMPONENT"
+        },
+        {
+          "block_id": "BLOCK_T3_04_YAZMA",
+          "domain": "YAZMA",
+          "planned_hours": 10,
+          "source_rows": [
+            33,
+            34,
+            35
+          ],
+          "resolution": "COMPOUND_SECOND_COMPONENT_PLUS_DIRECT"
+        }
+      ]
+    },
+    {
+      "theme_id": "TEMA_04",
+      "normative_total_hours": 43,
+      "school_based_planning_hours": 2,
+      "official_total_hours": 45,
+      "bindings": [
+        {
+          "block_id": "BLOCK_T4_01_OKUMA",
+          "domain": "OKUMA",
+          "planned_hours": 15,
+          "source_rows": [
+            37,
+            38,
+            39
+          ],
+          "resolution": "DIRECT"
+        },
+        {
+          "block_id": "BLOCK_T4_02_KONUSMA",
+          "domain": "KONUSMA",
+          "planned_hours": 10,
+          "source_rows": [
+            40,
+            41
+          ],
+          "resolution": "DIRECT"
+        },
+        {
+          "block_id": "BLOCK_T4_03_DINLEME",
+          "domain": "DINLEME_IZLEME",
+          "planned_hours": 8,
+          "source_rows": [
+            42,
+            43
+          ],
+          "resolution": "DIRECT_PLUS_COMPOUND_FIRST_COMPONENT"
+        },
+        {
+          "block_id": "BLOCK_T4_04_YAZMA",
+          "domain": "YAZMA",
+          "planned_hours": 10,
+          "source_rows": [
+            43,
+            44,
+            45
+          ],
+          "resolution": "COMPOUND_SECOND_COMPONENT_PLUS_DIRECT"
+        }
+      ],
+      "calendar_residual_source_rows_excluded": [
+        47
+      ]
+    }
+  ],
+  "validation": {
+    "expected_block_count": 16,
+    "resolved_block_count": 16,
+    "expected_theme_total_hours": 43,
+    "expected_school_based_hours_per_theme": 2,
+    "expected_official_total_hours_per_theme": 45,
+    "all_theme_totals_match": true,
+    "annual_instruction_hours": 172,
+    "annual_school_based_hours": 8,
+    "annual_official_total_hours": 180,
+    "calendar_binding_created": false
+  }
+}
