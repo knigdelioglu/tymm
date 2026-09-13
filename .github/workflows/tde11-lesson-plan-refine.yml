@@ -87,3 +87,5 @@ jobs:
           git add courses/TDE_11
           git commit -m 'refactor(tde11): polish validated lesson-plan prose' || exit 0
           git push origin HEAD:feat/tde11-lesson-plans-20260913
+
+# Final prose pass: avoid inferred rubric wording and Turkish copula edge cases.
