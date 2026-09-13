@@ -1,0 +1,666 @@
+{
+  "source": "docs/Anadolu Liseleri Türk Dili ve Edebiyatı Dersi Taslak Yıllık Plan.xlsx",
+  "source_sha256": "24b7d5de542681bdf3ff60503014342ecbcaeb6bf196532409fc0ce4af883d4f",
+  "worksheet_names": [
+    "11.SINIF"
+  ],
+  "rows": [
+    {
+      "row": 4,
+      "month": "EYLÜL",
+      "week": "1. Hafta: 14-18 Eylül",
+      "hours": 5,
+      "theme_id": "TEMA_01",
+      "theme": "1.TEMA BİR DİYECEĞİM VAR!",
+      "topic": "OKUMA • Tema içeriğine uygun bir Karagöz oyunu • Tema içeriğine uygun bir mektup • Ara Metin: Tema içeriğine uygun bir dilekçe",
+      "domains": [
+        "OKUMA"
+      ],
+      "outcomes": "TDE2.1. “Bir Diyeceğim Var!” temasında ele alınan metinlerde okumayı yönetebilme",
+      "school_based": "Okul temelli planlama; zümre öğretmenler kurulu tarafından ders kapsamında gerçekleştirilmesi kararlaştırılan araştırma ve gözlem, sosyal etkinlikler, proje çalışmaları, yerel çalışmalar, okuma çalışmaları vb. çalışmaları kapsamaktadır. Çalışmalar için ayrılan süre eğitim-öğretim yılı içinde planlanır ve yıllık planlarda ifade edilir. Bu planlamalar kapsamında yürütülecek öğretim faaliyetleri; öğrenci katılımını desteklemeli, yaparak ve yaşayarak öğrenmeye olanak tanımalı, öğrencinin bütüncül gelişimine hizmet etmelidir. *Bu çerçeve planda belirtilen okul temelli planlama haftaları örnek olarak sunulmuştur. Planlama, zümre öğretmenler kurulunda alınan kararlara göre okul ve ders koşulları göz önünde bulundurularak yapılmalıdır."
+    },
+    {
+      "row": 5,
+      "month": "",
+      "week": "2. Hafta: 21-25 Eylül",
+      "hours": 5,
+      "theme_id": "TEMA_01",
+      "theme": "1.TEMA BİR DİYECEĞİM VAR!",
+      "topic": "OKUMA • Tema içeriğine uygun bir Karagöz oyunu • Tema içeriğine uygun bir mektup • Ara Metin: Tema içeriğine uygun bir dilekçe",
+      "domains": [
+        "OKUMA"
+      ],
+      "outcomes": "TDE2.2. “Bir Diyeceğim Var!” temasında ele alınan metinlerde anlam oluşturabilme TDE2.3. “Bir Diyeceğim Var!” temasında ele alınan metinleri çözümleyebilme",
+      "school_based": ""
+    },
+    {
+      "row": 6,
+      "month": "",
+      "week": "3. Hafta: 28 Eylül-2 Ekim",
+      "hours": 5,
+      "theme_id": "TEMA_01",
+      "theme": "1.TEMA BİR DİYECEĞİM VAR!",
+      "topic": "OKUMA • Tema içeriğine uygun bir Karagöz oyunu • Tema içeriğine uygun bir mektup • Ara Metin: Tema içeriğine uygun bir dilekçe",
+      "domains": [
+        "OKUMA"
+      ],
+      "outcomes": "TDE2.4. “Bir Diyeceğim Var!” temasında ele alınan metinlerden hareketle okuma sürecini değerlendirebilme",
+      "school_based": ""
+    },
+    {
+      "row": 7,
+      "month": "EKİM",
+      "week": "4. Hafta: 5-9 Ekim",
+      "hours": 5,
+      "theme_id": "TEMA_01",
+      "theme": "1.TEMA BİR DİYECEĞİM VAR!",
+      "topic": "KONUŞMA • Sözlü iletişim engellerini konu alan bir drama sergileyebilme",
+      "domains": [],
+      "outcomes": "TDE3.1. Günlük yaşamda karşılaşabileceği iletişim engellerini konu alan konuşmasını yönetebilme TDE3.2. İletişim engellerinin nedenlerini, sonuçlarını ve çözümlerini yansıtacağı konuşması için içerik oluşturabilme",
+      "school_based": ""
+    },
+    {
+      "row": 8,
+      "month": "",
+      "week": "5. Hafta: 12-16 Ekim",
+      "hours": 5,
+      "theme_id": "TEMA_01",
+      "theme": "1.TEMA BİR DİYECEĞİM VAR!",
+      "topic": "KONUŞMA • Sözlü iletişim engellerini konu alan bir drama sergileyebilme",
+      "domains": [],
+      "outcomes": "TDE3.3. Sözlü iletişim engellerine ilişkin farklı bakış açılarını deneyimlediği konuşmasında kural uygulayabilme TDE3.4. Günlük hayatta karşılaşılan sözlü iletişim engellerine yönelik gerçekleştirdiği konuşmasında süreci değerlendirebilme",
+      "school_based": ""
+    },
+    {
+      "row": 9,
+      "month": "",
+      "week": "6. Hafta: 19-23 Ekim",
+      "hours": 5,
+      "theme_id": "TEMA_01",
+      "theme": "1.TEMA BİR DİYECEĞİM VAR!",
+      "topic": "DİNLEME/İZLEME • Tema içeriğine uygun çok modlu metin",
+      "domains": [
+        "DINLEME_IZLEME"
+      ],
+      "outcomes": "TDE1.1. “Bir Diyeceğim Var!” temasında ele alınan metinlerde dinlemeyi/izlemeyi yönetebilme TDE1.2. “Bir Diyeceğim Var!” temasında ele alınan metinlerde anlam oluşturabilme",
+      "school_based": ""
+    },
+    {
+      "row": 10,
+      "month": "",
+      "week": "7. Hafta: 26-30 Ekim",
+      "hours": null,
+      "theme_id": "TEMA_01",
+      "theme": "1.TEMA BİR DİYECEĞİM VAR!",
+      "topic": "DİNLEME/İZLEME • Tema içeriğine uygun çok modlu metin YAZMA • e-posta yazabilme",
+      "domains": [
+        "DINLEME_IZLEME",
+        "YAZMA"
+      ],
+      "outcomes": "TDE1.3. “Bir Diyeceğim Var!” temasında ele alınan metinleri çözümleyebilme TDE1.4.“Bir Diyeceğim Var!” temasında ele alınan metinlerde dinleme/izleme sürecini değerlendirebilme TDE4.1. Duygu, düşünce ve isteklerini etkili bir şekilde ileteceği yazısını yönetebilme",
+      "school_based": ""
+    },
+    {
+      "row": 11,
+      "month": "KASIM",
+      "week": "8. Hafta: 2-6 Kasım",
+      "hours": 5,
+      "theme_id": "TEMA_01",
+      "theme": "1.TEMA BİR DİYECEĞİM VAR!",
+      "topic": "YAZMA • e-posta yazabilme",
+      "domains": [
+        "YAZMA"
+      ],
+      "outcomes": "TDE4.2. Günlük hayatta karşılaşılan durumlara ilişkin duygu ve düşüncelerini etkili kullanacağı yazısı için içerik oluşturabilme TDE4.3. Günlük hayatta karşılaşılan durumlara ilişkin duygu ve düşüncelerini etkili kullanacağı yazısı için kural uygulayabilme",
+      "school_based": ""
+    },
+    {
+      "row": 12,
+      "month": "",
+      "week": "9. Hafta: 9-13 Kasım",
+      "hours": 3,
+      "theme_id": "TEMA_01",
+      "theme": "1.TEMA BİR DİYECEĞİM VAR!",
+      "topic": "YAZMA • e-posta yazabilme",
+      "domains": [
+        "YAZMA"
+      ],
+      "outcomes": "TDE4.4. Günlük hayatta duygu, düşünce ve isteklerini ifade ettiği yazısında yazma sürecini değerlendirebilme",
+      "school_based": ""
+    },
+    {
+      "row": 13,
+      "month": "",
+      "week": "",
+      "hours": 2,
+      "theme_id": "TEMA_01",
+      "theme": "OKUL TEMELLİ PLANLAMA*",
+      "topic": "",
+      "domains": [],
+      "outcomes": "",
+      "school_based": ""
+    },
+    {
+      "row": 14,
+      "month": "1. DÖNEM ARA TATİLİ: 16 - 20 Kasım 2026",
+      "week": "",
+      "hours": null,
+      "theme_id": "TEMA_01",
+      "theme": "",
+      "topic": "",
+      "domains": [],
+      "outcomes": "",
+      "school_based": ""
+    },
+    {
+      "row": 15,
+      "month": "KASIM",
+      "week": "10. Hafta: 23-27 Kasım",
+      "hours": 5,
+      "theme_id": "TEMA_02",
+      "theme": "2.TEMA KÜLTÜR YOLCULUĞU",
+      "topic": "OKUMA • Tema içeriğine uygun bir hikâye (Türk dünyası) • Ara Metin: Tema içeriğine uygun bir anı • Orhun Abideleri • Ara Metin: Dîvânu Lugâti’t-Türk",
+      "domains": [
+        "OKUMA"
+      ],
+      "outcomes": "TDE2.1. “Kültür Yolculuğu” temasında ele alınan metinlerde okumayı yönetebilme",
+      "school_based": ""
+    },
+    {
+      "row": 16,
+      "month": "ARALIK",
+      "week": "11. Hafta: 30 Kasım-4 Aralık",
+      "hours": 5,
+      "theme_id": "TEMA_02",
+      "theme": "2.TEMA KÜLTÜR YOLCULUĞU",
+      "topic": "OKUMA • Tema içeriğine uygun bir hikâye (Türk dünyası) • Ara Metin: Tema içeriğine uygun bir anı • Orhun Abideleri • Ara Metin: Dîvânu Lugâti’t-Türk",
+      "domains": [
+        "OKUMA"
+      ],
+      "outcomes": "TDE2.2. “Kültür Yolculuğu” temasında ele alınan metinlerde anlam oluşturabilme TDE2.3. “Kültür Yolculuğu” temasında ele alınan metinleri çözümleyebilme",
+      "school_based": ""
+    },
+    {
+      "row": 17,
+      "month": "",
+      "week": "12. Hafta: 7-11 Aralık",
+      "hours": 5,
+      "theme_id": "TEMA_02",
+      "theme": "2.TEMA KÜLTÜR YOLCULUĞU",
+      "topic": "OKUMA • Tema içeriğine uygun bir hikâye (Türk dünyası) • Ara Metin: Tema içeriğine uygun bir anı • Orhun Abideleri • Ara Metin: Dîvânu Lugâti’t-Türk",
+      "domains": [
+        "OKUMA"
+      ],
+      "outcomes": "TDE2.4. “Kültür Yolculuğu” temasında ele alınan metinlerde okuma sürecini değerlendirebilme",
+      "school_based": ""
+    },
+    {
+      "row": 18,
+      "month": "",
+      "week": "13. Hafta: 14-18 Aralık",
+      "hours": 5,
+      "theme_id": "TEMA_02",
+      "theme": "2.TEMA KÜLTÜR YOLCULUĞU",
+      "topic": "KONUŞMA • Türk dünyasına ait görsellerden hareketle Türk kültürünün özelliklerini yansıtan bir konuşma yapabilme",
+      "domains": [],
+      "outcomes": "TDE3.1. Türk dünyasının ortak kültürünü (dil, din, coğrafya, sanat) yansıtan konuşmasını yönetebilme TDE3.2. Kültürel çeşitliliği konu edeceği konuşması için içerik oluşturabilme",
+      "school_based": ""
+    },
+    {
+      "row": 19,
+      "month": "",
+      "week": "14. Hafta: 21-25 Aralık",
+      "hours": 5,
+      "theme_id": "TEMA_02",
+      "theme": "2.TEMA KÜLTÜR YOLCULUĞU",
+      "topic": "KONUŞMA • Türk dünyasına ait görsellerden hareketle Türk kültürünün özelliklerini yansıtan bir konuşma yapabilme",
+      "domains": [],
+      "outcomes": "TDE3.3. Kültürel çeşitliliği konu edeceği konuşması için kural uygulayabilme TDE3.4. Türk dünyasının ortak kültürüne (dil, din, coğrafya, sanat) yönelik konuşmasıyla ilgili süreci değerlendirebilme",
+      "school_based": ""
+    },
+    {
+      "row": 20,
+      "month": "",
+      "week": "15. Hafta: 28 Aralık -1Ocak",
+      "hours": 5,
+      "theme_id": "TEMA_02",
+      "theme": "2.TEMA KÜLTÜR YOLCULUĞU",
+      "topic": "DİNLEME/İZLEME • Tema içeriğine uygun çok modlu metin (Âşık atışması)",
+      "domains": [
+        "DINLEME_IZLEME"
+      ],
+      "outcomes": "TDE1.1. “Kültür Yolculuğu” temasında ele alınan metinlerde dinlemeyi/izlemeyi yönetebilme TDE1.2. “Kültür Yolculuğu” temasında ele alınan metinlerde anlam oluşturabilme",
+      "school_based": ""
+    },
+    {
+      "row": 21,
+      "month": "OCAK",
+      "week": "16. Hafta: 4-8 Ocak",
+      "hours": null,
+      "theme_id": "TEMA_02",
+      "theme": "2.TEMA KÜLTÜR YOLCULUĞU",
+      "topic": "DİNLEME/İZLEME • Tema içeriğine uygun çok modlu metin (Âşık atışması) YAZMA • Çevrim içi müze gezisi yapıp izlenimlerini yazabilme",
+      "domains": [
+        "DINLEME_IZLEME",
+        "YAZMA"
+      ],
+      "outcomes": "TDE1.3. “Kültür Yolculuğu” temasında ele alınan metinleri çözümleyebilme TDE1.4. “Kültür Yolculuğu” temasında ele alınan metinlere yönelik dinleme/izleme sürecini değerlendirebilme TDE4.1. Kültürel miraslara yönelik gözlemlerini ve incelemelerini yansıtacağı yazısını yönetebilme",
+      "school_based": ""
+    },
+    {
+      "row": 22,
+      "month": "",
+      "week": "17. Hafta: 11-15 Ocak",
+      "hours": 5,
+      "theme_id": "TEMA_02",
+      "theme": "2.TEMA KÜLTÜR YOLCULUĞU",
+      "topic": "YAZMA • Çevrim içi müze gezisi yapıp izlenimlerini yazabilme",
+      "domains": [
+        "YAZMA"
+      ],
+      "outcomes": "TDE4.2. Kültürel unsurlara ilişkin gözlemlerini benzerlik ve farklılıklarıyla ortaya koyacağı yazısı için içerik oluşturabilme TDE4.3. Kültürel unsurlara ilişkin gözlemlerini benzerlik ve farklılıklarıyla ortaya koyacağı yazısı için kural uygulayabilme",
+      "school_based": ""
+    },
+    {
+      "row": 23,
+      "month": "",
+      "week": "18. Hafta: 18-22 Ocak",
+      "hours": 3,
+      "theme_id": "TEMA_02",
+      "theme": "2.TEMA KÜLTÜR YOLCULUĞU",
+      "topic": "YAZMA • Çevrim içi müze gezisi yapıp izlenimlerini yazabilme",
+      "domains": [
+        "YAZMA"
+      ],
+      "outcomes": "TDE4.4. Kültürel miraslara yönelik gözlemlerini ve incelemelerini anlattığı yazısıyla ilgili yazma sürecini değerlendirebilme",
+      "school_based": ""
+    },
+    {
+      "row": 24,
+      "month": "",
+      "week": "",
+      "hours": 2,
+      "theme_id": "TEMA_02",
+      "theme": "OKUL TEMELLİ PLANLAMA*",
+      "topic": "",
+      "domains": [],
+      "outcomes": "",
+      "school_based": ""
+    },
+    {
+      "row": 25,
+      "month": "YARIYIL TATİLİ: 25 Ocak - 5 Şubat 2027",
+      "week": "",
+      "hours": null,
+      "theme_id": "TEMA_02",
+      "theme": "",
+      "topic": "",
+      "domains": [],
+      "outcomes": "",
+      "school_based": ""
+    },
+    {
+      "row": 26,
+      "month": "ŞUBAT",
+      "week": "19. Hafta: 8-12 Şubat",
+      "hours": 5,
+      "theme_id": "TEMA_03",
+      "theme": "3.TEMA YAŞAMIN İZİNDE",
+      "topic": "OKUMA • Tema içeriğine uygun bir roman • Tema içeriğine uygun bir biyografi • Ara Metin: Tema içeriğine uygun bir tezkire",
+      "domains": [
+        "OKUMA"
+      ],
+      "outcomes": "TDE2.1. “Yaşamın İzinde” temasında ele alınan metinlerde okumayı yönetebilme",
+      "school_based": ""
+    },
+    {
+      "row": 27,
+      "month": "",
+      "week": "20. Hafta: 15-19 Şubat",
+      "hours": 5,
+      "theme_id": "TEMA_03",
+      "theme": "3.TEMA YAŞAMIN İZİNDE",
+      "topic": "OKUMA • Tema içeriğine uygun bir roman • Tema içeriğine uygun bir biyografi • Ara Metin: Tema içeriğine uygun bir tezkire",
+      "domains": [
+        "OKUMA"
+      ],
+      "outcomes": "TDE2.2. “Yaşamın İzinde” temasında ele alınan metinlerde anlam oluşturabilme TDE2.3. “Yaşamın İzinde” temasında ele alınan metinleri çözümleyebilme",
+      "school_based": ""
+    },
+    {
+      "row": 28,
+      "month": "",
+      "week": "21. Hafta: 22-26 Şubat",
+      "hours": 5,
+      "theme_id": "TEMA_03",
+      "theme": "3.TEMA YAŞAMIN İZİNDE",
+      "topic": "OKUMA • Tema içeriğine uygun bir roman • Tema içeriğine uygun bir biyografi • Ara Metin: Tema içeriğine uygun bir tezkire",
+      "domains": [
+        "OKUMA"
+      ],
+      "outcomes": "TDE2.4. “Yaşamın İzinde” temasında ele alınan metinlerden hareketle günlük yaşamın ve sanatçının hayatının edebiyata yansımasına yönelik süreci değerlendirebilme",
+      "school_based": ""
+    },
+    {
+      "row": 29,
+      "month": "MART",
+      "week": "22. Hafta: 1-5 Mart",
+      "hours": 5,
+      "theme_id": "TEMA_03",
+      "theme": "3.TEMA YAŞAMIN İZİNDE",
+      "topic": "KONUŞMA • Mülakat yapabilme (Okunan romandaki bir karakterle)",
+      "domains": [],
+      "outcomes": "TDE3.1. Edebiyat ve sanatın yaşamdaki yansımalarını etkileşimli bir biçimde ele aldığı konuşmasını yönetebilme TDE3.2. Sanatçının ve eserden seçtiği karakterin yaşamındaki izlenimlerini yaratıcılığı ile bütünleştirdiği bir konuşma içeriği oluşturabilme",
+      "school_based": ""
+    },
+    {
+      "row": 30,
+      "month": "2. DÖNEM ARA TATİLİ: 8-12 Mart 2027",
+      "week": "",
+      "hours": null,
+      "theme_id": "TEMA_03",
+      "theme": "",
+      "topic": "",
+      "domains": [],
+      "outcomes": "",
+      "school_based": ""
+    },
+    {
+      "row": 31,
+      "month": "MART",
+      "week": "23. Hafta: 15-19 Mart",
+      "hours": 5,
+      "theme_id": "TEMA_03",
+      "theme": "3.TEMA YAŞAMIN İZİNDE",
+      "topic": "KONUŞMA • Mülakat yapabilme (Okunan romandaki bir karakterle)",
+      "domains": [],
+      "outcomes": "TDE3.3. Sanatçının ve eserden seçtiği karakterin yaşamındaki izlenimlerini yaratıcılığı ile bütünleştirdiği konuşmasında kural uygulayabilme TDE3.4. Yaşamdan izler taşıyan karakterlerle kurduğu etkileşimi yansıtan konuşmasına yönelik süreci değerlendirebilme",
+      "school_based": ""
+    },
+    {
+      "row": 32,
+      "month": "",
+      "week": "24. Hafta: 22-26 Mart",
+      "hours": 5,
+      "theme_id": "TEMA_03",
+      "theme": "3.TEMA YAŞAMIN İZİNDE",
+      "topic": "DİNLEME/İZLEME • Tema içeriğine uygun çok modlu metin (Radyo tiyatrosu)",
+      "domains": [
+        "DINLEME_IZLEME"
+      ],
+      "outcomes": "TDE1.1. “Yaşamın İzinde” temasında ele alınan metinlerde dinlemeyi/izlemeyi yönetebilme TDE1.2. “Yaşamın İzinde” temasında ele alınan metinlerde anlam oluşturabilme",
+      "school_based": ""
+    },
+    {
+      "row": 33,
+      "month": "",
+      "week": "25. Hafta: 29 Mart-2 Nisan",
+      "hours": null,
+      "theme_id": "TEMA_03",
+      "theme": "3.TEMA YAŞAMIN İZİNDE",
+      "topic": "DİNLEME/İZLEME • Tema içeriğine uygun çok modlu metin (Radyo tiyatrosu) YAZMA • Metinde etkilendiği bir diyaloğu yeniden yazabilme",
+      "domains": [
+        "DINLEME_IZLEME",
+        "YAZMA"
+      ],
+      "outcomes": "TDE1.3. “Yaşamın İzinde” temasında ele alınan metinleri çözümleyebilme TDE1.4. “Yaşamın İzinde” temasında ele alınan metinlere ilişkin dinleme/izleme sürecini değerlendirebilme TDE4.1. Edebiyat ve sanatın yaşamdaki yansımalarını kendi kurgusuyla oluşturacağı yazısını yönetebilme",
+      "school_based": ""
+    },
+    {
+      "row": 34,
+      "month": "NİSAN",
+      "week": "26. Hafta: 5-9 Nisan",
+      "hours": 5,
+      "theme_id": "TEMA_03",
+      "theme": "3.TEMA YAŞAMIN İZİNDE",
+      "topic": "YAZMA • Metinde etkilendiği bir diyaloğu yeniden yazabilme",
+      "domains": [
+        "YAZMA"
+      ],
+      "outcomes": "TDE4.2. Kendi yaşamını, ilgi alanını veya beğenilerini bağlama uygun bir şekilde kurguladığı yazısı için içerik oluşturabilme TDE4.3. Kendi yaşamını, ilgi alanı veya beğenilerini bağlama uygun bir şekilde kurguladığı yazısı için kural uygulayabilme",
+      "school_based": ""
+    },
+    {
+      "row": 35,
+      "month": "",
+      "week": "27. Hafta: 12-16 Nisan",
+      "hours": 3,
+      "theme_id": "TEMA_03",
+      "theme": "3.TEMA YAŞAMIN İZİNDE",
+      "topic": "YAZMA • Metinde etkilendiği bir diyaloğu yeniden yazabilme",
+      "domains": [
+        "YAZMA"
+      ],
+      "outcomes": "TDE4.4. Edebiyat ve sanatın yaşamdaki izlerine yönelik görüşlerini anlattığı yazısında yazma sürecini değerlendirebilme",
+      "school_based": ""
+    },
+    {
+      "row": 36,
+      "month": "",
+      "week": "",
+      "hours": 2,
+      "theme_id": "TEMA_03",
+      "theme": "OKUL TEMELLİ PLANLAMA*",
+      "topic": "",
+      "domains": [],
+      "outcomes": "",
+      "school_based": ""
+    },
+    {
+      "row": 37,
+      "month": "",
+      "week": "28. Hafta: 19-23 Nisan",
+      "hours": 5,
+      "theme_id": "TEMA_04",
+      "theme": "4.TEMA HAYATIN AYNASI",
+      "topic": "OKUMA • Tema içeriğine uygun bir tiyatro • Küçürek hikâye",
+      "domains": [
+        "OKUMA"
+      ],
+      "outcomes": "TDE2.1. “Hayatın Aynası” temasında ele alınan metinlerde okumayı yönetebilme",
+      "school_based": ""
+    },
+    {
+      "row": 38,
+      "month": "",
+      "week": "29. Hafta: 26-30 Nisan",
+      "hours": 5,
+      "theme_id": "TEMA_04",
+      "theme": "4.TEMA HAYATIN AYNASI",
+      "topic": "OKUMA • Tema içeriğine uygun bir tiyatro • Küçürek hikâye",
+      "domains": [
+        "OKUMA"
+      ],
+      "outcomes": "TDE2.2. “Hayatın Aynası” temasında ele alınan metinlerde anlam oluşturabilme TDE2.3. “Hayatın Aynası” temasında ele alınan metinleri çözümleyebilme",
+      "school_based": ""
+    },
+    {
+      "row": 39,
+      "month": "MAYIS",
+      "week": "30. Hafta: 3-7 Mayıs",
+      "hours": 5,
+      "theme_id": "TEMA_04",
+      "theme": "4.TEMA HAYATIN AYNASI",
+      "topic": "OKUMA • Tema içeriğine uygun bir tiyatro • Küçürek hikâye",
+      "domains": [
+        "OKUMA"
+      ],
+      "outcomes": "TDE2.4. “Hayatın Aynası” temasında ele alınan metinlerde okuma sürecini değerlendirebilme",
+      "school_based": ""
+    },
+    {
+      "row": 40,
+      "month": "",
+      "week": "31. Hafta: 10-14 Mayıs",
+      "hours": 5,
+      "theme_id": "TEMA_04",
+      "theme": "4.TEMA HAYATIN AYNASI",
+      "topic": "KONUŞMA • Okuduğu tiyatroyu dramatize edebilme",
+      "domains": [],
+      "outcomes": "TDE3.1. Sosyal hayata dair gözlemleri yansıtan metinlerden hareketle sergileyeceği konuşmayı yönetebilme TDE3.2. Günlük hayatta karşılaşılabilecek olay ya da durumu etkileyici ve inandırıcı biçimde canlandırmak için konuşmasının içeriğini oluşturabilme",
+      "school_based": ""
+    },
+    {
+      "row": 41,
+      "month": "",
+      "week": "32. Hafta: 17-21 Mayıs",
+      "hours": 5,
+      "theme_id": "TEMA_04",
+      "theme": "4.TEMA HAYATIN AYNASI",
+      "topic": "KONUŞMA • Okuduğu tiyatroyu dramatize edebilme",
+      "domains": [],
+      "outcomes": "TDE3.3. Günlük hayatta karşılaşılabilecek olay ya da durumu etkileyici ve inandırıcı biçimde canlandırmak için konuşmasında kural uygulayabilme TDE3.4. Hayata ayna tutan içeriği sahnelediği konuşması için konuşma sürecini değerlendirebilme",
+      "school_based": ""
+    },
+    {
+      "row": 42,
+      "month": "",
+      "week": "33. Hafta: 24-28 Mayıs",
+      "hours": 5,
+      "theme_id": "TEMA_04",
+      "theme": "4.TEMA HAYATIN AYNASI",
+      "topic": "DİNLEME/İZLEME • Tema içeriğine uygun çok modlu metin (Belgesel)",
+      "domains": [
+        "DINLEME_IZLEME"
+      ],
+      "outcomes": "TDE1.1. “Hayatın Aynası” temasında ele alınan metinlerde dinlemeyi/izlemeyi yönetebilme TDE1.2. “Hayatın Aynası” temasında ele alınan metinlerde anlam oluşturabilme",
+      "school_based": ""
+    },
+    {
+      "row": 43,
+      "month": "HAZİRAN",
+      "week": "34. Hafta: 31 Mayıs-4 Haziran",
+      "hours": null,
+      "theme_id": "TEMA_04",
+      "theme": "4.TEMA HAYATIN AYNASI",
+      "topic": "DİNLEME/İZLEME • Tema içeriğine uygun çok modlu metin (Belgesel) YAZMA • Dinlenen/izlenen belgesele afiş hazırlayabilme",
+      "domains": [
+        "DINLEME_IZLEME",
+        "YAZMA"
+      ],
+      "outcomes": "TDE1.3. “Hayatın Aynası” temasında ele alınan metinleri çözümleyebilme TDE1.4. “Hayatın Aynası” temasında ele alınan metinlerden hareketle günlük hayatta karşılaşabileceği olay ve durumlarla ilgili görüşlerini paylaştığı süreci değerlendirebilme TDE4.1. Günlük hayatta karşılaşılabilecek olay ve durumları etkili bir şekilde aktaracağı yazısını yönetebilme",
+      "school_based": ""
+    },
+    {
+      "row": 44,
+      "month": "",
+      "week": "35. Hafta: 7-11 Haziran",
+      "hours": 5,
+      "theme_id": "TEMA_04",
+      "theme": "4.TEMA HAYATIN AYNASI",
+      "topic": "YAZMA • Dinlenen/izlenen belgesele afiş hazırlayabilme",
+      "domains": [
+        "YAZMA"
+      ],
+      "outcomes": "TDE4.2. Farklı bakış açılarını, günlük deneyimleri ve sosyal yaşamı yansıttığı yazısı için içerik oluşturabilme TDE4.3. Farklı bakış açılarını, günlük deneyimleri ve sosyal yaşamı yansıttığı yazısı için kural uygulayabilme",
+      "school_based": ""
+    },
+    {
+      "row": 45,
+      "month": "",
+      "week": "36. Hafta: 14-18 Haziran",
+      "hours": 3,
+      "theme_id": "TEMA_04",
+      "theme": "4.TEMA HAYATIN AYNASI",
+      "topic": "YAZMA • Dinlenen/izlenen belgesele afiş hazırlayabilme",
+      "domains": [
+        "YAZMA"
+      ],
+      "outcomes": "TDE4.4. Günlük hayatta karşılaşılabilecek olay ve durumları etkili bir şekilde aktardığı yazılı anlatımına yönelik yazma sürecini değerlendirebilme",
+      "school_based": ""
+    },
+    {
+      "row": 46,
+      "month": "",
+      "week": "",
+      "hours": 2,
+      "theme_id": "TEMA_04",
+      "theme": "OKUL TEMELLİ PLANLAMA*",
+      "topic": "",
+      "domains": [],
+      "outcomes": "",
+      "school_based": ""
+    },
+    {
+      "row": 47,
+      "month": "",
+      "week": "37. Hafta: 21-25 Haziran",
+      "hours": null,
+      "theme_id": "TEMA_04",
+      "theme": "",
+      "topic": "",
+      "domains": [],
+      "outcomes": "",
+      "school_based": ""
+    }
+  ],
+  "theme_total_calendar_hours": {
+    "TEMA_01": 40,
+    "TEMA_02": 40,
+    "TEMA_03": 40,
+    "TEMA_04": 40
+  },
+  "single_domain_week_hours": [
+    {
+      "theme_id": "TEMA_01",
+      "domain": "DINLEME_IZLEME",
+      "hours": 5
+    },
+    {
+      "theme_id": "TEMA_01",
+      "domain": "OKUMA",
+      "hours": 15
+    },
+    {
+      "theme_id": "TEMA_01",
+      "domain": "YAZMA",
+      "hours": 8
+    },
+    {
+      "theme_id": "TEMA_02",
+      "domain": "DINLEME_IZLEME",
+      "hours": 5
+    },
+    {
+      "theme_id": "TEMA_02",
+      "domain": "OKUMA",
+      "hours": 15
+    },
+    {
+      "theme_id": "TEMA_02",
+      "domain": "YAZMA",
+      "hours": 8
+    },
+    {
+      "theme_id": "TEMA_03",
+      "domain": "DINLEME_IZLEME",
+      "hours": 5
+    },
+    {
+      "theme_id": "TEMA_03",
+      "domain": "OKUMA",
+      "hours": 15
+    },
+    {
+      "theme_id": "TEMA_03",
+      "domain": "YAZMA",
+      "hours": 8
+    },
+    {
+      "theme_id": "TEMA_04",
+      "domain": "DINLEME_IZLEME",
+      "hours": 5
+    },
+    {
+      "theme_id": "TEMA_04",
+      "domain": "OKUMA",
+      "hours": 15
+    },
+    {
+      "theme_id": "TEMA_04",
+      "domain": "YAZMA",
+      "hours": 8
+    }
+  ],
+  "note": "single_domain_week_hours only sums rows whose topic cell names exactly one skill domain; mixed rows are intentionally not split."
+}
