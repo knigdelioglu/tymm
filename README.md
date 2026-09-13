@@ -61,8 +61,8 @@ FAIL → merge engellenir
 
 Gate başlıca şunları doğrular:
 
-- 176/176 generated ders planı
-- 344 çekirdek ders saati
+- 264/264 generated ders planı
+- 516 çekirdek ders saati
 - JSON ↔ Markdown deterministik parity
 - exact package topology ve gap/overlap kontrolü
 - canonical rubrik/resource/artifact grounding
