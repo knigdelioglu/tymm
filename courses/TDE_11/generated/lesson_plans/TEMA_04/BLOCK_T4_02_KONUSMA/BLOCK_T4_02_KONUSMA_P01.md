@@ -14,7 +14,7 @@
 
 ## Paket özeti
 
-10 saatlik konuşma bloğunun bu 2 saatlik bölümünde ders kitabındaki doğrulanmış etkinlikler kullanılarak TDE3.1 çıktısına yönelik somut öğrenci kanıtı üretilir. Saat içi akış pedagojik öneridir; resmî MEB alt-saat sıralaması olarak sunulmaz.
+10 saatlik konuşma bloğunun bu 2 saatlik bölümünde ders kitabındaki doğrulanmış etkinlikler kullanılarak ilgili öğrenme çıktısına yönelik somut öğrenci kanıtı üretilir. Saat içi akış pedagojik öneridir; resmî MEB alt-saat sıralaması olarak sunulmaz.
 
 ## Öğrenme ve değerlendirme kapsamı
 
@@ -90,25 +90,25 @@
 
 ### Hedef
 
-Öğrencinin konuşmanın amacını, hedef kitlesini, yöntem/stratejisini, hazırlık ve uygulama koşullarını planlar. sürecinde TDE3.1 çıktısına yönelik gözlenebilir ve gerekçeli kanıt üretmesi.
+Öğrenci, “Konuşmayı Yönetebilme” etkinliğinde konuşmanın amacını, hedef kitlesini, yöntem/stratejisini, hazırlık ve uygulama koşullarını planlar; ürettiği kanıtı gerekçelendirerek uygulama ve ilk kanıt sürecini tamamlar.
 
 ### Derse giriş
 
-“Konuşmayı Yönetebilme” görevinin amacı ve beklenen kanıt görünür hâle getirilir; öğrenci neyi göstereceğini kendi cümlesiyle ifade eder.
+“Konuşmayı Yönetebilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi konuşma davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.
 
 ### Öğretmenin yapacakları
 
-1. “Konuşmayı Yönetebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta olmayan ölçüt veya içerik ekleme.
-2. Öğrenciden konuşmanın amacını, hedef kitlesini, yöntem/stratejisini, hazırlık ve uygulama koşullarını planlar. sırasında kararını metin, dinleme/izleme, konuşma ya da yazma ürünündeki somut göstergelerle gerekçelendirmesini iste.
-3. Kanıt olarak konuşma/canlandırma planı, görev ve hazırlık kayıtları. topla; yalnız “katıldı/yaptı” türü genel gözlemi yeterli kabul etme.
-4. Geri bildirimi öğrencinin mevcut kanıtındaki bir güçlü nokta ve geliştirilecek bir nokta üzerinden ver; bir sonraki denemede yapılacak değişikliği netleştir.
+1. “Konuşmayı Yönetebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
+2. Öğrencinin şu görevi yerine getirmesini sağla: Konuşmanın amacını, hedef kitlesini, yöntem/stratejisini, hazırlık ve uygulama koşullarını planlar. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
+3. “Konuşma/canlandırma planı, görev ve hazırlık kayıtları” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
+4. Ders sırasında kısa kontrol noktaları kullan; öğrencinin yanlış veya eksik stratejiyi kanıt oluşmadan önce fark edip düzeltmesine fırsat ver.
 
 ### Öğrencinin yapacakları
 
 - Konuşmanın amacını, hedef kitlesini, yöntem/stratejisini, hazırlık ve uygulama koşullarını planlar.
-- Görev sırasında kullandığı stratejiyi ve kararını somut kaynak/ürün göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder ve gerekli düzeltmeyi yapar.
-- Kapanışta bir güçlü kanıt ile bir geliştirme adımını kısa ve açık biçimde kaydeder.
+- Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.
+- Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.
+- Kapanışta bir güçlü kanıtını ve bir geliştirme adımını kısa biçimde kaydeder.
 
 ### Kaynak bağları
 
@@ -117,11 +117,11 @@
 
 ### Ölçme / öğrenme kanıtı
 
-Bu ders saatinin ana ölçme kanıtı: Konuşma/canlandırma planı, görev ve hazırlık kayıtları.. Öğretmen geri bildirimi kanıtın doğruluğu, gerekçesi ve görevin gerektirdiği beceriye uygunluğu üzerinden verilir.
+Ana ölçme kanıtı “Konuşma/canlandırma planı, görev ve hazırlık kayıtları”dir. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen konuşma becerisine uygunluğu üzerinden verilir.
 
 ### Kapanış
 
-Öğrenci “Bu derste konuşma/canlandırma planı, görev ve hazırlık kayıtları. ile neyi gösterebildim; bir sonraki uygulamada hangi somut değişikliği yapacağım?” sorusuna kısa kanıt notuyla cevap verir.
+Öğrenci “Konuşma/canlandırma planı, görev ve hazırlık kayıtları” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
 
 ### Materyaller
 
@@ -135,25 +135,25 @@ Bu ders saatinin ana ölçme kanıtı: Konuşma/canlandırma planı, görev ve h
 
 ### Hedef
 
-Öğrencinin konuşmanın amacını, hedef kitlesini, yöntem/stratejisini, hazırlık ve uygulama koşullarını planlar. sürecinde TDE3.1 çıktısına yönelik gözlenebilir ve gerekçeli kanıt üretmesi.
+Öğrenci, “Konuşmayı Yönetebilme” etkinliğinde konuşmanın amacını, hedef kitlesini, yöntem/stratejisini, hazırlık ve uygulama koşullarını planlar; ürettiği kanıtı gerekçelendirerek kanıtı geliştirme ve düzeltme sürecini tamamlar.
 
 ### Derse giriş
 
-“Konuşmayı Yönetebilme” görevinin amacı ve beklenen kanıt görünür hâle getirilir; öğrenci neyi göstereceğini kendi cümlesiyle ifade eder.
+“Konuşmayı Yönetebilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi konuşma davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.
 
 ### Öğretmenin yapacakları
 
-1. “Konuşmayı Yönetebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta olmayan ölçüt veya içerik ekleme.
-2. Öğrenciden konuşmanın amacını, hedef kitlesini, yöntem/stratejisini, hazırlık ve uygulama koşullarını planlar. sırasında kararını metin, dinleme/izleme, konuşma ya da yazma ürünündeki somut göstergelerle gerekçelendirmesini iste.
-3. Kanıt olarak konuşma/canlandırma planı, görev ve hazırlık kayıtları. topla; yalnız “katıldı/yaptı” türü genel gözlemi yeterli kabul etme.
-4. Geri bildirimi öğrencinin mevcut kanıtındaki bir güçlü nokta ve geliştirilecek bir nokta üzerinden ver; bir sonraki denemede yapılacak değişikliği netleştir.
+1. “Konuşmayı Yönetebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
+2. Öğrencinin şu görevi yerine getirmesini sağla: Konuşmanın amacını, hedef kitlesini, yöntem/stratejisini, hazırlık ve uygulama koşullarını planlar. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
+3. “Konuşma/canlandırma planı, görev ve hazırlık kayıtları” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
+4. İlk denemeden sonra ortak bir güçlü örneği ve geliştirilmesi gereken bir örneği anonim biçimde karşılaştır; öğrencinin ikinci denemesinde neyi değiştireceğini netleştir.
 
 ### Öğrencinin yapacakları
 
 - Konuşmanın amacını, hedef kitlesini, yöntem/stratejisini, hazırlık ve uygulama koşullarını planlar.
-- Görev sırasında kullandığı stratejiyi ve kararını somut kaynak/ürün göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder ve gerekli düzeltmeyi yapar.
-- Kapanışta bir güçlü kanıt ile bir geliştirme adımını kısa ve açık biçimde kaydeder.
+- Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.
+- Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.
+- İlk kanıtı ile düzeltilmiş kanıtı karşılaştırıp hangi değişikliğin sonucu iyileştirdiğini açıklar.
 
 ### Kaynak bağları
 
@@ -162,11 +162,11 @@ Bu ders saatinin ana ölçme kanıtı: Konuşma/canlandırma planı, görev ve h
 
 ### Ölçme / öğrenme kanıtı
 
-Bu ders saatinin ana ölçme kanıtı: Konuşma/canlandırma planı, görev ve hazırlık kayıtları.. Öğretmen geri bildirimi kanıtın doğruluğu, gerekçesi ve görevin gerektirdiği beceriye uygunluğu üzerinden verilir.
+Ana ölçme kanıtı “Konuşma/canlandırma planı, görev ve hazırlık kayıtları”dir. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen konuşma becerisine uygunluğu üzerinden verilir.
 
 ### Kapanış
 
-Öğrenci “Bu derste konuşma/canlandırma planı, görev ve hazırlık kayıtları. ile neyi gösterebildim; bir sonraki uygulamada hangi somut değişikliği yapacağım?” sorusuna kısa kanıt notuyla cevap verir.
+Öğrenci “Konuşma/canlandırma planı, görev ve hazırlık kayıtları” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
 
 ### Materyaller
 
@@ -175,7 +175,7 @@ Bu ders saatinin ana ölçme kanıtı: Konuşma/canlandırma planı, görev ve h
 
 ## Öğretmen notu
 
-Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve canonical öğrenme çıktılarına dayanır. Dış QR bağlantısındaki doğrulanmamış dereceli puanlama anahtarı ölçüt×düzey içeriği kullanılmaz; pedagojik saat içi sıralama MEB tarafından verilmiş resmî alt-saat sıralaması değildir.
+Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanımlı öğrenme çıktılarına dayanır. Dış QR bağlantısındaki doğrulanmamış dereceli puanlama anahtarı ölçüt×düzey içeriği kullanılmaz; pedagojik saat içi sıralama MEB tarafından verilmiş resmî alt-saat sıralaması değildir.
 
 ## İlerleme ve devam
 
@@ -187,4 +187,4 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve canon
 
 ---
 
-<!-- TYMM_JSON_SHA256:95f1e3b82a05cd6d44df6f345478d2a83a14d70da4b700fe7daff4f78b538bc8 -->
+<!-- TYMM_JSON_SHA256:e0ecd74f7deb5a95aac7e6326fb84ddf084a668f57a48144efff14d50a762d43 -->

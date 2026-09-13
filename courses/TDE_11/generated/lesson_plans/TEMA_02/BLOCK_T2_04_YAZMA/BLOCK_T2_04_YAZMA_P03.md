@@ -14,7 +14,7 @@
 
 ## Paket özeti
 
-10 saatlik yazma bloğunun bu 2 saatlik bölümünde ders kitabındaki doğrulanmış etkinlikler kullanılarak TDE4.3 çıktısına yönelik somut öğrenci kanıtı üretilir. Saat içi akış pedagojik öneridir; resmî MEB alt-saat sıralaması olarak sunulmaz.
+10 saatlik yazma bloğunun bu 2 saatlik bölümünde ders kitabındaki doğrulanmış etkinlikler kullanılarak ilgili öğrenme çıktısına yönelik somut öğrenci kanıtı üretilir. Saat içi akış pedagojik öneridir; resmî MEB alt-saat sıralaması olarak sunulmaz.
 
 ## Öğrenme ve değerlendirme kapsamı
 
@@ -31,25 +31,25 @@
 
 ### Hedef
 
-Öğrencinin taslağını tür, bağlam, türkçe kullanımı, yazım-noktalama ve bütünlük ilkelerine göre ürüne dönüştürür. sürecinde TDE4.3 çıktısına yönelik gözlenebilir ve gerekçeli kanıt üretmesi.
+Öğrenci, “Kural Uygulayabilme” etkinliğinde taslağını tür, bağlam, Türkçe kullanımı, yazım-noktalama ve bütünlük ilkelerine göre ürüne dönüştürür; ürettiği kanıtı gerekçelendirerek uygulama ve ilk kanıt sürecini tamamlar.
 
 ### Derse giriş
 
-“Kural Uygulayabilme” görevinin amacı ve beklenen kanıt görünür hâle getirilir; öğrenci neyi göstereceğini kendi cümlesiyle ifade eder.
+“Kural Uygulayabilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi yazma davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.
 
 ### Öğretmenin yapacakları
 
-1. “Kural Uygulayabilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta olmayan ölçüt veya içerik ekleme.
-2. Öğrenciden taslağını tür, bağlam, türkçe kullanımı, yazım-noktalama ve bütünlük ilkelerine göre ürüne dönüştürür. sırasında kararını metin, dinleme/izleme, konuşma ya da yazma ürünündeki somut göstergelerle gerekçelendirmesini iste.
-3. Kanıt olarak düzenlenmiş yazılı veya çok modlu ürün. topla; yalnız “katıldı/yaptı” türü genel gözlemi yeterli kabul etme.
-4. Geri bildirimi öğrencinin mevcut kanıtındaki bir güçlü nokta ve geliştirilecek bir nokta üzerinden ver; bir sonraki denemede yapılacak değişikliği netleştir.
+1. “Kural Uygulayabilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
+2. Öğrencinin şu görevi yerine getirmesini sağla: Taslağını tür, bağlam, Türkçe kullanımı, yazım-noktalama ve bütünlük ilkelerine göre ürüne dönüştürür. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
+3. “Düzenlenmiş yazılı veya çok modlu ürün” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
+4. Ders sırasında kısa kontrol noktaları kullan; öğrencinin yanlış veya eksik stratejiyi kanıt oluşmadan önce fark edip düzeltmesine fırsat ver.
 
 ### Öğrencinin yapacakları
 
 - Taslağını tür, bağlam, Türkçe kullanımı, yazım-noktalama ve bütünlük ilkelerine göre ürüne dönüştürür.
-- Görev sırasında kullandığı stratejiyi ve kararını somut kaynak/ürün göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder ve gerekli düzeltmeyi yapar.
-- Kapanışta bir güçlü kanıt ile bir geliştirme adımını kısa ve açık biçimde kaydeder.
+- Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.
+- Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.
+- Kapanışta bir güçlü kanıtını ve bir geliştirme adımını kısa biçimde kaydeder.
 
 ### Kaynak bağları
 
@@ -58,11 +58,11 @@
 
 ### Ölçme / öğrenme kanıtı
 
-Bu ders saatinin ana ölçme kanıtı: Düzenlenmiş yazılı veya çok modlu ürün.. Öğretmen geri bildirimi kanıtın doğruluğu, gerekçesi ve görevin gerektirdiği beceriye uygunluğu üzerinden verilir.
+Ana ölçme kanıtı “Düzenlenmiş yazılı veya çok modlu ürün”dir. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen yazma becerisine uygunluğu üzerinden verilir.
 
 ### Kapanış
 
-Öğrenci “Bu derste düzenlenmiş yazılı veya çok modlu ürün. ile neyi gösterebildim; bir sonraki uygulamada hangi somut değişikliği yapacağım?” sorusuna kısa kanıt notuyla cevap verir.
+Öğrenci “Düzenlenmiş yazılı veya çok modlu ürün” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
 
 ### Materyaller
 
@@ -76,25 +76,25 @@ Bu ders saatinin ana ölçme kanıtı: Düzenlenmiş yazılı veya çok modlu ü
 
 ### Hedef
 
-Öğrencinin taslağını tür, bağlam, türkçe kullanımı, yazım-noktalama ve bütünlük ilkelerine göre ürüne dönüştürür. sürecinde TDE4.3 çıktısına yönelik gözlenebilir ve gerekçeli kanıt üretmesi.
+Öğrenci, “Kural Uygulayabilme” etkinliğinde taslağını tür, bağlam, Türkçe kullanımı, yazım-noktalama ve bütünlük ilkelerine göre ürüne dönüştürür; ürettiği kanıtı gerekçelendirerek kanıtı geliştirme ve düzeltme sürecini tamamlar.
 
 ### Derse giriş
 
-“Kural Uygulayabilme” görevinin amacı ve beklenen kanıt görünür hâle getirilir; öğrenci neyi göstereceğini kendi cümlesiyle ifade eder.
+“Kural Uygulayabilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi yazma davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.
 
 ### Öğretmenin yapacakları
 
-1. “Kural Uygulayabilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta olmayan ölçüt veya içerik ekleme.
-2. Öğrenciden taslağını tür, bağlam, türkçe kullanımı, yazım-noktalama ve bütünlük ilkelerine göre ürüne dönüştürür. sırasında kararını metin, dinleme/izleme, konuşma ya da yazma ürünündeki somut göstergelerle gerekçelendirmesini iste.
-3. Kanıt olarak düzenlenmiş yazılı veya çok modlu ürün. topla; yalnız “katıldı/yaptı” türü genel gözlemi yeterli kabul etme.
-4. Geri bildirimi öğrencinin mevcut kanıtındaki bir güçlü nokta ve geliştirilecek bir nokta üzerinden ver; bir sonraki denemede yapılacak değişikliği netleştir.
+1. “Kural Uygulayabilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
+2. Öğrencinin şu görevi yerine getirmesini sağla: Taslağını tür, bağlam, Türkçe kullanımı, yazım-noktalama ve bütünlük ilkelerine göre ürüne dönüştürür. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
+3. “Düzenlenmiş yazılı veya çok modlu ürün” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
+4. İlk denemeden sonra ortak bir güçlü örneği ve geliştirilmesi gereken bir örneği anonim biçimde karşılaştır; öğrencinin ikinci denemesinde neyi değiştireceğini netleştir.
 
 ### Öğrencinin yapacakları
 
 - Taslağını tür, bağlam, Türkçe kullanımı, yazım-noktalama ve bütünlük ilkelerine göre ürüne dönüştürür.
-- Görev sırasında kullandığı stratejiyi ve kararını somut kaynak/ürün göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder ve gerekli düzeltmeyi yapar.
-- Kapanışta bir güçlü kanıt ile bir geliştirme adımını kısa ve açık biçimde kaydeder.
+- Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.
+- Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.
+- İlk kanıtı ile düzeltilmiş kanıtı karşılaştırıp hangi değişikliğin sonucu iyileştirdiğini açıklar.
 
 ### Kaynak bağları
 
@@ -103,11 +103,11 @@ Bu ders saatinin ana ölçme kanıtı: Düzenlenmiş yazılı veya çok modlu ü
 
 ### Ölçme / öğrenme kanıtı
 
-Bu ders saatinin ana ölçme kanıtı: Düzenlenmiş yazılı veya çok modlu ürün.. Öğretmen geri bildirimi kanıtın doğruluğu, gerekçesi ve görevin gerektirdiği beceriye uygunluğu üzerinden verilir.
+Ana ölçme kanıtı “Düzenlenmiş yazılı veya çok modlu ürün”dir. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen yazma becerisine uygunluğu üzerinden verilir.
 
 ### Kapanış
 
-Öğrenci “Bu derste düzenlenmiş yazılı veya çok modlu ürün. ile neyi gösterebildim; bir sonraki uygulamada hangi somut değişikliği yapacağım?” sorusuna kısa kanıt notuyla cevap verir.
+Öğrenci “Düzenlenmiş yazılı veya çok modlu ürün” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
 
 ### Materyaller
 
@@ -116,7 +116,7 @@ Bu ders saatinin ana ölçme kanıtı: Düzenlenmiş yazılı veya çok modlu ü
 
 ## Öğretmen notu
 
-Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve canonical öğrenme çıktılarına dayanır. Dış QR bağlantısındaki doğrulanmamış dereceli puanlama anahtarı ölçüt×düzey içeriği kullanılmaz; pedagojik saat içi sıralama MEB tarafından verilmiş resmî alt-saat sıralaması değildir.
+Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanımlı öğrenme çıktılarına dayanır. Dış QR bağlantısındaki doğrulanmamış dereceli puanlama anahtarı ölçüt×düzey içeriği kullanılmaz; pedagojik saat içi sıralama MEB tarafından verilmiş resmî alt-saat sıralaması değildir.
 
 ## İlerleme ve devam
 
@@ -128,4 +128,4 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve canon
 
 ---
 
-<!-- TYMM_JSON_SHA256:265b9f56d4b9c403598b52c1de296f2c44a0f77b2acfdff7408c7bea77c634e5 -->
+<!-- TYMM_JSON_SHA256:5b6ddf95c027da33e7c35e4ea3f405a64bc52dc5402eb1b14f1982d7a9dbd712 -->

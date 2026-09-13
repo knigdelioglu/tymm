@@ -14,7 +14,7 @@
 
 ## Paket özeti
 
-15 saatlik okuma bloğunun bu 1 saatlik bölümünde ders kitabındaki doğrulanmış etkinlikler kullanılarak TDE2.4 çıktısına yönelik somut öğrenci kanıtı üretilir. Saat içi akış pedagojik öneridir; resmî MEB alt-saat sıralaması olarak sunulmaz.
+15 saatlik okuma bloğunun bu 1 saatlik bölümünde ders kitabındaki doğrulanmış etkinlikler kullanılarak ilgili öğrenme çıktısına yönelik somut öğrenci kanıtı üretilir. Saat içi akış pedagojik öneridir; resmî MEB alt-saat sıralaması olarak sunulmaz.
 
 ## Öğrenme ve değerlendirme kapsamı
 
@@ -51,25 +51,25 @@
 
 ### Hedef
 
-Öğrencinin okuma sürecini ve metne ilişkin yargılarını belirlediği ölçütlerle değerlendirir. sürecinde TDE2.4 çıktısına yönelik gözlenebilir ve gerekçeli kanıt üretmesi.
+Öğrenci, “Süreci Değerlendirebilme” etkinliğinde okuma sürecini ve metne ilişkin yargılarını belirlediği ölçütlerle değerlendirir; ürettiği kanıtı gerekçelendirerek uygulama ve ilk kanıt sürecini tamamlar.
 
 ### Derse giriş
 
-“Süreci Değerlendirebilme” görevinin amacı ve beklenen kanıt görünür hâle getirilir; öğrenci neyi göstereceğini kendi cümlesiyle ifade eder.
+“Süreci Değerlendirebilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi okuma davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.
 
 ### Öğretmenin yapacakları
 
-1. “Süreci Değerlendirebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta olmayan ölçüt veya içerik ekleme.
-2. Öğrenciden okuma sürecini ve metne ilişkin yargılarını belirlediği ölçütlerle değerlendirir. sırasında kararını metin, dinleme/izleme, konuşma ya da yazma ürünündeki somut göstergelerle gerekçelendirmesini iste.
-3. Kanıt olarak öz değerlendirme, çıkış kartı, öğrenme günlüğü veya gerekçeli değerlendirme. topla; yalnız “katıldı/yaptı” türü genel gözlemi yeterli kabul etme.
-4. Geri bildirimi öğrencinin mevcut kanıtındaki bir güçlü nokta ve geliştirilecek bir nokta üzerinden ver; bir sonraki denemede yapılacak değişikliği netleştir.
+1. “Süreci Değerlendirebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
+2. Öğrencinin şu görevi yerine getirmesini sağla: Okuma sürecini ve metne ilişkin yargılarını belirlediği ölçütlerle değerlendirir. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
+3. “Öz değerlendirme, çıkış kartı, öğrenme günlüğü veya gerekçeli değerlendirme” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
+4. Ders sırasında kısa kontrol noktaları kullan; öğrencinin yanlış veya eksik stratejiyi kanıt oluşmadan önce fark edip düzeltmesine fırsat ver.
 
 ### Öğrencinin yapacakları
 
 - Okuma sürecini ve metne ilişkin yargılarını belirlediği ölçütlerle değerlendirir.
-- Görev sırasında kullandığı stratejiyi ve kararını somut kaynak/ürün göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder ve gerekli düzeltmeyi yapar.
-- Kapanışta bir güçlü kanıt ile bir geliştirme adımını kısa ve açık biçimde kaydeder.
+- Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.
+- Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.
+- Kapanışta bir güçlü kanıtını ve bir geliştirme adımını kısa biçimde kaydeder.
 
 ### Kaynak bağları
 
@@ -78,11 +78,11 @@
 
 ### Ölçme / öğrenme kanıtı
 
-Bu ders saatinin ana ölçme kanıtı: Öz değerlendirme, çıkış kartı, öğrenme günlüğü veya gerekçeli değerlendirme.. Öğretmen geri bildirimi kanıtın doğruluğu, gerekçesi ve görevin gerektirdiği beceriye uygunluğu üzerinden verilir.
+Ana ölçme kanıtı “Öz değerlendirme, çıkış kartı, öğrenme günlüğü veya gerekçeli değerlendirme”dir. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen okuma becerisine uygunluğu üzerinden verilir.
 
 ### Kapanış
 
-Öğrenci “Bu derste öz değerlendirme, çıkış kartı, öğrenme günlüğü veya gerekçeli değerlendirme. ile neyi gösterebildim; bir sonraki uygulamada hangi somut değişikliği yapacağım?” sorusuna kısa kanıt notuyla cevap verir.
+Öğrenci “Öz değerlendirme, çıkış kartı, öğrenme günlüğü veya gerekçeli değerlendirme” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
 
 ### Materyaller
 
@@ -91,7 +91,7 @@ Bu ders saatinin ana ölçme kanıtı: Öz değerlendirme, çıkış kartı, ö�
 
 ## Öğretmen notu
 
-Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve canonical öğrenme çıktılarına dayanır. Dış QR bağlantısındaki doğrulanmamış dereceli puanlama anahtarı ölçüt×düzey içeriği kullanılmaz; pedagojik saat içi sıralama MEB tarafından verilmiş resmî alt-saat sıralaması değildir.
+Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanımlı öğrenme çıktılarına dayanır. Dış QR bağlantısındaki doğrulanmamış dereceli puanlama anahtarı ölçüt×düzey içeriği kullanılmaz; pedagojik saat içi sıralama MEB tarafından verilmiş resmî alt-saat sıralaması değildir.
 
 ## İlerleme ve devam
 
@@ -103,4 +103,4 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve canon
 
 ---
 
-<!-- TYMM_JSON_SHA256:5cd83efe3a1bd6151a6e7e6af63e327d359672b017be41e531d03f63d071c22e -->
+<!-- TYMM_JSON_SHA256:6fd4eebb160444d80f70c125b7d5d17403c33e70fadb06f685c662aa9db988f2 -->

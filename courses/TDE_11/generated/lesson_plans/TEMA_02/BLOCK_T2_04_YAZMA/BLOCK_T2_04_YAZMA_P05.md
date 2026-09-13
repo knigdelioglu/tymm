@@ -14,7 +14,7 @@
 
 ## Paket özeti
 
-10 saatlik yazma bloğunun bu 2 saatlik bölümünde ders kitabındaki doğrulanmış etkinlikler kullanılarak TDE4.4 çıktısına yönelik somut öğrenci kanıtı üretilir. Saat içi akış pedagojik öneridir; resmî MEB alt-saat sıralaması olarak sunulmaz.
+10 saatlik yazma bloğunun bu 2 saatlik bölümünde ders kitabındaki doğrulanmış etkinlikler kullanılarak ilgili öğrenme çıktısına yönelik somut öğrenci kanıtı üretilir. Saat içi akış pedagojik öneridir; resmî MEB alt-saat sıralaması olarak sunulmaz.
 
 ## Öğrenme ve değerlendirme kapsamı
 
@@ -55,25 +55,25 @@
 
 ### Hedef
 
-Öğrencinin yazma sürecini ve ürünü öz/akran/öğretmen değerlendirmesiyle gözden geçirip geliştirir. sürecinde TDE4.4 çıktısına yönelik gözlenebilir ve gerekçeli kanıt üretmesi.
+Öğrenci, “Süreci Değerlendirebilme” etkinliğinde yazma sürecini ve ürünü öz/akran/öğretmen değerlendirmesiyle gözden geçirip geliştirir; ürettiği kanıtı gerekçelendirerek uygulama ve ilk kanıt sürecini tamamlar.
 
 ### Derse giriş
 
-“Süreci Değerlendirebilme” görevinin amacı ve beklenen kanıt görünür hâle getirilir; öğrenci neyi göstereceğini kendi cümlesiyle ifade eder.
+“Süreci Değerlendirebilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi yazma davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.
 
 ### Öğretmenin yapacakları
 
-1. “Süreci Değerlendirebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta olmayan ölçüt veya içerik ekleme.
-2. Öğrenciden yazma sürecini ve ürünü öz/akran/öğretmen değerlendirmesiyle gözden geçirip geliştirir. sırasında kararını metin, dinleme/izleme, konuşma ya da yazma ürünündeki somut göstergelerle gerekçelendirmesini iste.
-3. Kanıt olarak öz/akran değerlendirme, öğretmen puanlama kanıtı ve revize edilmiş nihai ürün. topla; yalnız “katıldı/yaptı” türü genel gözlemi yeterli kabul etme.
-4. Geri bildirimi öğrencinin mevcut kanıtındaki bir güçlü nokta ve geliştirilecek bir nokta üzerinden ver; bir sonraki denemede yapılacak değişikliği netleştir.
+1. “Süreci Değerlendirebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
+2. Öğrencinin şu görevi yerine getirmesini sağla: Yazma sürecini ve ürünü öz/akran/öğretmen değerlendirmesiyle gözden geçirip geliştirir. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
+3. “Öz/akran değerlendirme, öğretmen puanlama kanıtı ve revize edilmiş nihai ürün” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
+4. Ders sırasında kısa kontrol noktaları kullan; öğrencinin yanlış veya eksik stratejiyi kanıt oluşmadan önce fark edip düzeltmesine fırsat ver.
 
 ### Öğrencinin yapacakları
 
 - Yazma sürecini ve ürünü öz/akran/öğretmen değerlendirmesiyle gözden geçirip geliştirir.
-- Görev sırasında kullandığı stratejiyi ve kararını somut kaynak/ürün göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder ve gerekli düzeltmeyi yapar.
-- Kapanışta bir güçlü kanıt ile bir geliştirme adımını kısa ve açık biçimde kaydeder.
+- Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.
+- Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.
+- Kapanışta bir güçlü kanıtını ve bir geliştirme adımını kısa biçimde kaydeder.
 
 ### Kaynak bağları
 
@@ -82,11 +82,11 @@
 
 ### Ölçme / öğrenme kanıtı
 
-Bu ders saatinin ana ölçme kanıtı: Öz/akran değerlendirme, öğretmen puanlama kanıtı ve revize edilmiş nihai ürün.. Öğretmen geri bildirimi kanıtın doğruluğu, gerekçesi ve görevin gerektirdiği beceriye uygunluğu üzerinden verilir.
+Ana ölçme kanıtı “Öz/akran değerlendirme, öğretmen puanlama kanıtı ve revize edilmiş nihai ürün”dir. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen yazma becerisine uygunluğu üzerinden verilir.
 
 ### Kapanış
 
-Öğrenci “Bu derste öz/akran değerlendirme, öğretmen puanlama kanıtı ve revize edilmiş nihai ürün. ile neyi gösterebildim; bir sonraki uygulamada hangi somut değişikliği yapacağım?” sorusuna kısa kanıt notuyla cevap verir.
+Öğrenci “Öz/akran değerlendirme, öğretmen puanlama kanıtı ve revize edilmiş nihai ürün” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
 
 ### Materyaller
 
@@ -102,7 +102,7 @@ Bu ders saatinin ana ölçme kanıtı: Öz/akran değerlendirme, öğretmen puan
 
 ### Hedef
 
-Öğrencinin tema sonu doğrulanmış ölçme etkinliğinde dört beceri alanındaki öğrenme çıktılarına ilişkin kanıtını bağımsız olarak ortaya koyması.
+Öğrenci, ders kitabındaki doğrulanmış tema sonu ölçme etkinliğinde dört beceri alanındaki öğrenmesini bağımsız ve gerekçeli yanıtlarla görünür kılar.
 
 ### Derse giriş
 
@@ -111,17 +111,17 @@ Bu ders saatinin ana ölçme kanıtı: Öz/akran değerlendirme, öğretmen puan
 ### Öğretmenin yapacakları
 
 1. Süre bütçesi: 32 dk tema ölçme + 5 dk kısa kapanış + 3 dk tampon. Ayrıntılı yanlış düzeltme çekirdek tamamlanma koşulu değildir; yalnız öğretmen/zümre ihtiyaç görür ve okul-temelli genişletmeyi seçerse yapılır.
-2. “2. Tema Ölçme ve Değerlendirme Soruları” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta olmayan ölçüt veya içerik ekleme.
-3. Öğrenciden tema boyunca edinilen bilgi ve becerileri farklı soru ve görev türlerinde kullanır. sırasında kararını metin, dinleme/izleme, konuşma ya da yazma ürünündeki somut göstergelerle gerekçelendirmesini iste.
-4. Kanıt olarak tema ölçme-değerlendirme sorularına verilen cevaplar ve gerekçeli performans kanıtları. topla; yalnız “katıldı/yaptı” türü genel gözlemi yeterli kabul etme.
-5. Geri bildirimi öğrencinin mevcut kanıtındaki bir güçlü nokta ve geliştirilecek bir nokta üzerinden ver; bir sonraki denemede yapılacak değişikliği netleştir.
+2. Tema sonu ölçme yönergesini ders kitabındaki doğrulanmış biçimiyle uygula; kaynakta bulunmayan ölçüt, puan aralığı veya rubrik açıklaması ekleme.
+3. Öğrencilerin yanıtlarını birbirinden bağımsız üretmesini sağla; gerektiğinde yalnız yönergenin anlaşılmasını destekle, cevabın içeriğini yönlendirme.
+4. Kanıt olarak tema sonu ölçme sorularına verilen gerekçeli yanıtları topla ve hangi beceri alanında güçlü/geliştirilecek kanıt bulunduğunu işaretle.
+5. Doğrulanmamış dış QR dereceli puanlama anahtarının ölçüt×düzey içeriğini puanlama ölçütü olarak kullanma.
 
 ### Öğrencinin yapacakları
 
-- Tema boyunca edinilen bilgi ve becerileri farklı soru ve görev türlerinde kullanır.
-- Görev sırasında kullandığı stratejiyi ve kararını somut kaynak/ürün göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder ve gerekli düzeltmeyi yapar.
-- Kapanışta bir güçlü kanıt ile bir geliştirme adımını kısa ve açık biçimde kaydeder.
+- Tema sonu ölçme sorularını bağımsız biçimde yanıtlar ve gerekli yerlerde gerekçesini yazar.
+- Yanıtını ilgili metin, görev veya tema boyunca ürettiği somut öğrenme kanıtıyla ilişkilendirir.
+- Bir güçlü yanıtını ve düzeltilmesi gereken bir yanıtını belirler.
+- Düzeltme gerektiren yanıt için hangi bilgi veya stratejiye yeniden dönmesi gerektiğini kısa biçimde kaydeder.
 
 ### Kaynak bağları
 
@@ -130,11 +130,11 @@ Bu ders saatinin ana ölçme kanıtı: Öz/akran değerlendirme, öğretmen puan
 
 ### Ölçme / öğrenme kanıtı
 
-Ana kanıt, ders kitabındaki tema sonu ölçme sorularına verilen bağımsız ve gerekçeli yanıtlardır; doğrulanmamış dış QR dereceli puanlama anahtarı ölçütleri kullanılmaz.
+Ana ölçme kanıtı, ders kitabındaki tema sonu ölçme sorularına verilen bağımsız ve gerekçeli yanıtlardır; doğrulanmamış dış QR rubrik içeriği değerlendirme ölçütü değildir.
 
 ### Kapanış
 
-Öğrenci tema sonu yanıtlarından bir güçlü kanıtı ve düzeltilmesi gereken bir yanıtı belirleyerek gerekçesini yazar.
+Öğrenci bir güçlü kanıtını ve geliştireceği bir yanıtını seçer; geliştirme gerekçesini tek cümleyle yazar.
 
 ### Materyaller
 
@@ -143,7 +143,7 @@ Ana kanıt, ders kitabındaki tema sonu ölçme sorularına verilen bağımsız 
 
 ## Öğretmen notu
 
-Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve canonical öğrenme çıktılarına dayanır. Dış QR bağlantısındaki doğrulanmamış dereceli puanlama anahtarı ölçüt×düzey içeriği kullanılmaz; pedagojik saat içi sıralama MEB tarafından verilmiş resmî alt-saat sıralaması değildir. P5 süre sözleşmesi: tema kapanışındaki çekirdek tamamlanma yalnız closure_time_budgets.json içindeki required_segments ile belirlenir; optional_extensions öğretmen/zümre seçimi olmadan zorunlu değildir ve 43 saatlik çekirdek kuyruğu okul-temelli saate bağımlı hâle getirmez.
+Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanımlı öğrenme çıktılarına dayanır. Dış QR bağlantısındaki doğrulanmamış dereceli puanlama anahtarı ölçüt×düzey içeriği kullanılmaz; pedagojik saat içi sıralama MEB tarafından verilmiş resmî alt-saat sıralaması değildir. P5 süre sözleşmesi: tema kapanışındaki çekirdek tamamlanma yalnız closure_time_budgets.json içindeki required_segments ile belirlenir; optional_extensions öğretmen/zümre seçimi olmadan zorunlu değildir ve 43 saatlik çekirdek kuyruğu okul-temelli saate bağımlı hâle getirmez.
 
 ## İlerleme ve devam
 
@@ -155,4 +155,4 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve canon
 
 ---
 
-<!-- TYMM_JSON_SHA256:031d32a7822dfc12bf61206159b4115d2d36bc5a75b9bd858463f9891759b91e -->
+<!-- TYMM_JSON_SHA256:c6552bf1efecc7ecf7ce1178ff61aa1353411a32dd082d3f0db9da55c99c1cc8 -->

@@ -14,7 +14,7 @@
 
 ## Paket özeti
 
-8 saatlik dinleme/izleme bloğunun bu 2 saatlik bölümünde ders kitabındaki doğrulanmış etkinlikler kullanılarak TDE1.4 çıktısına yönelik somut öğrenci kanıtı üretilir. Saat içi akış pedagojik öneridir; resmî MEB alt-saat sıralaması olarak sunulmaz.
+8 saatlik dinleme/izleme bloğunun bu 2 saatlik bölümünde ders kitabındaki doğrulanmış etkinlikler kullanılarak ilgili öğrenme çıktısına yönelik somut öğrenci kanıtı üretilir. Saat içi akış pedagojik öneridir; resmî MEB alt-saat sıralaması olarak sunulmaz.
 
 ## Öğrenme ve değerlendirme kapsamı
 
@@ -97,25 +97,25 @@
 
 ### Hedef
 
-Öğrencinin dinleme/izleme sürecini ve metne ilişkin değerlendirmelerini ölçütlere dayalı biçimde yansıtır. sürecinde TDE1.4 çıktısına yönelik gözlenebilir ve gerekçeli kanıt üretmesi.
+Öğrenci, “Süreci Değerlendirebilme” etkinliğinde dinleme/izleme sürecini ve metne ilişkin değerlendirmelerini ölçütlere dayalı biçimde yansıtır; ürettiği kanıtı gerekçelendirerek uygulama ve ilk kanıt sürecini tamamlar.
 
 ### Derse giriş
 
-“Süreci Değerlendirebilme” görevinin amacı ve beklenen kanıt görünür hâle getirilir; öğrenci neyi göstereceğini kendi cümlesiyle ifade eder.
+“Süreci Değerlendirebilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi dinleme/izleme davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.
 
 ### Öğretmenin yapacakları
 
-1. “Süreci Değerlendirebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta olmayan ölçüt veya içerik ekleme.
-2. Öğrenciden dinleme/izleme sürecini ve metne ilişkin değerlendirmelerini ölçütlere dayalı biçimde yansıtır. sırasında kararını metin, dinleme/izleme, konuşma ya da yazma ürünündeki somut göstergelerle gerekçelendirmesini iste.
-3. Kanıt olarak öz değerlendirme, gözlem/öğrenme günlüğü veya gerekçeli değerlendirme kaydı. topla; yalnız “katıldı/yaptı” türü genel gözlemi yeterli kabul etme.
-4. Geri bildirimi öğrencinin mevcut kanıtındaki bir güçlü nokta ve geliştirilecek bir nokta üzerinden ver; bir sonraki denemede yapılacak değişikliği netleştir.
+1. “Süreci Değerlendirebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
+2. Öğrencinin şu görevi yerine getirmesini sağla: Dinleme/izleme sürecini ve metne ilişkin değerlendirmelerini ölçütlere dayalı biçimde yansıtır. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
+3. “Öz değerlendirme, gözlem/öğrenme günlüğü veya gerekçeli değerlendirme kaydı” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
+4. Ders sırasında kısa kontrol noktaları kullan; öğrencinin yanlış veya eksik stratejiyi kanıt oluşmadan önce fark edip düzeltmesine fırsat ver.
 
 ### Öğrencinin yapacakları
 
 - Dinleme/izleme sürecini ve metne ilişkin değerlendirmelerini ölçütlere dayalı biçimde yansıtır.
-- Görev sırasında kullandığı stratejiyi ve kararını somut kaynak/ürün göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder ve gerekli düzeltmeyi yapar.
-- Kapanışta bir güçlü kanıt ile bir geliştirme adımını kısa ve açık biçimde kaydeder.
+- Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.
+- Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.
+- Kapanışta bir güçlü kanıtını ve bir geliştirme adımını kısa biçimde kaydeder.
 
 ### Kaynak bağları
 
@@ -124,11 +124,11 @@
 
 ### Ölçme / öğrenme kanıtı
 
-Bu ders saatinin ana ölçme kanıtı: Öz değerlendirme, gözlem/öğrenme günlüğü veya gerekçeli değerlendirme kaydı.. Öğretmen geri bildirimi kanıtın doğruluğu, gerekçesi ve görevin gerektirdiği beceriye uygunluğu üzerinden verilir.
+Ana ölçme kanıtı “Öz değerlendirme, gözlem/öğrenme günlüğü veya gerekçeli değerlendirme kaydı”dir. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen dinleme/izleme becerisine uygunluğu üzerinden verilir.
 
 ### Kapanış
 
-Öğrenci “Bu derste öz değerlendirme, gözlem/öğrenme günlüğü veya gerekçeli değerlendirme kaydı. ile neyi gösterebildim; bir sonraki uygulamada hangi somut değişikliği yapacağım?” sorusuna kısa kanıt notuyla cevap verir.
+Öğrenci “Öz değerlendirme, gözlem/öğrenme günlüğü veya gerekçeli değerlendirme kaydı” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
 
 ### Materyaller
 
@@ -142,25 +142,25 @@ Bu ders saatinin ana ölçme kanıtı: Öz değerlendirme, gözlem/öğrenme gü
 
 ### Hedef
 
-Öğrencinin dinleme/izleme sürecini ve metne ilişkin değerlendirmelerini ölçütlere dayalı biçimde yansıtır. sürecinde TDE1.4 çıktısına yönelik gözlenebilir ve gerekçeli kanıt üretmesi.
+Öğrenci, “Süreci Değerlendirebilme” etkinliğinde dinleme/izleme sürecini ve metne ilişkin değerlendirmelerini ölçütlere dayalı biçimde yansıtır; ürettiği kanıtı gerekçelendirerek kanıtı geliştirme ve düzeltme sürecini tamamlar.
 
 ### Derse giriş
 
-“Süreci Değerlendirebilme” görevinin amacı ve beklenen kanıt görünür hâle getirilir; öğrenci neyi göstereceğini kendi cümlesiyle ifade eder.
+“Süreci Değerlendirebilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi dinleme/izleme davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.
 
 ### Öğretmenin yapacakları
 
-1. “Süreci Değerlendirebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta olmayan ölçüt veya içerik ekleme.
-2. Öğrenciden dinleme/izleme sürecini ve metne ilişkin değerlendirmelerini ölçütlere dayalı biçimde yansıtır. sırasında kararını metin, dinleme/izleme, konuşma ya da yazma ürünündeki somut göstergelerle gerekçelendirmesini iste.
-3. Kanıt olarak öz değerlendirme, gözlem/öğrenme günlüğü veya gerekçeli değerlendirme kaydı. topla; yalnız “katıldı/yaptı” türü genel gözlemi yeterli kabul etme.
-4. Geri bildirimi öğrencinin mevcut kanıtındaki bir güçlü nokta ve geliştirilecek bir nokta üzerinden ver; bir sonraki denemede yapılacak değişikliği netleştir.
+1. “Süreci Değerlendirebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
+2. Öğrencinin şu görevi yerine getirmesini sağla: Dinleme/izleme sürecini ve metne ilişkin değerlendirmelerini ölçütlere dayalı biçimde yansıtır. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
+3. “Öz değerlendirme, gözlem/öğrenme günlüğü veya gerekçeli değerlendirme kaydı” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
+4. İlk denemeden sonra ortak bir güçlü örneği ve geliştirilmesi gereken bir örneği anonim biçimde karşılaştır; öğrencinin ikinci denemesinde neyi değiştireceğini netleştir.
 
 ### Öğrencinin yapacakları
 
 - Dinleme/izleme sürecini ve metne ilişkin değerlendirmelerini ölçütlere dayalı biçimde yansıtır.
-- Görev sırasında kullandığı stratejiyi ve kararını somut kaynak/ürün göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder ve gerekli düzeltmeyi yapar.
-- Kapanışta bir güçlü kanıt ile bir geliştirme adımını kısa ve açık biçimde kaydeder.
+- Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.
+- Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.
+- İlk kanıtı ile düzeltilmiş kanıtı karşılaştırıp hangi değişikliğin sonucu iyileştirdiğini açıklar.
 
 ### Kaynak bağları
 
@@ -169,11 +169,11 @@ Bu ders saatinin ana ölçme kanıtı: Öz değerlendirme, gözlem/öğrenme gü
 
 ### Ölçme / öğrenme kanıtı
 
-Bu ders saatinin ana ölçme kanıtı: Öz değerlendirme, gözlem/öğrenme günlüğü veya gerekçeli değerlendirme kaydı.. Öğretmen geri bildirimi kanıtın doğruluğu, gerekçesi ve görevin gerektirdiği beceriye uygunluğu üzerinden verilir.
+Ana ölçme kanıtı “Öz değerlendirme, gözlem/öğrenme günlüğü veya gerekçeli değerlendirme kaydı”dir. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen dinleme/izleme becerisine uygunluğu üzerinden verilir.
 
 ### Kapanış
 
-Öğrenci “Bu derste öz değerlendirme, gözlem/öğrenme günlüğü veya gerekçeli değerlendirme kaydı. ile neyi gösterebildim; bir sonraki uygulamada hangi somut değişikliği yapacağım?” sorusuna kısa kanıt notuyla cevap verir.
+Öğrenci “Öz değerlendirme, gözlem/öğrenme günlüğü veya gerekçeli değerlendirme kaydı” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
 
 ### Materyaller
 
@@ -182,7 +182,7 @@ Bu ders saatinin ana ölçme kanıtı: Öz değerlendirme, gözlem/öğrenme gü
 
 ## Öğretmen notu
 
-Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve canonical öğrenme çıktılarına dayanır. Dış QR bağlantısındaki doğrulanmamış dereceli puanlama anahtarı ölçüt×düzey içeriği kullanılmaz; pedagojik saat içi sıralama MEB tarafından verilmiş resmî alt-saat sıralaması değildir.
+Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanımlı öğrenme çıktılarına dayanır. Dış QR bağlantısındaki doğrulanmamış dereceli puanlama anahtarı ölçüt×düzey içeriği kullanılmaz; pedagojik saat içi sıralama MEB tarafından verilmiş resmî alt-saat sıralaması değildir.
 
 ## İlerleme ve devam
 
@@ -194,4 +194,4 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve canon
 
 ---
 
-<!-- TYMM_JSON_SHA256:01ac85bca25f153b076e42d3c90fe6866dce381496326e70962d467aae9767f3 -->
+<!-- TYMM_JSON_SHA256:912a4b20134a6943ff3bef1a7750db17ffa625607e466fa4f09d804d984652b7 -->
