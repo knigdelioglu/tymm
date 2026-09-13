@@ -1,4 +1,4 @@
-# AI Ders Planı Üretim Planı — 9. ve 10. Sınıf
+# AI Ders Planı Üretim Planı — 9, 10 ve 11. Sınıf
 
 ## Amaç
 
@@ -24,6 +24,7 @@ Varsayılan master sıra:
 
 1. `TDE_9`
 2. `TDE_10`
+3. `TDE_11`
 
 Her sınıf içinde sıra değişmez:
 
@@ -47,7 +48,7 @@ Her sınıfta:
 - Varsayılan ders planı kuyruğu yalnız 172 çekirdek saati kapsar
 - Toplam 88 üretim paketi
 
-İki sınıf birlikte toplam **176 ders planı paketi** üretilecektir.
+Üç sınıf birlikte toplam **264 ders planı paketi** ve **516 çekirdek ders saati** kapsar.
 
 ## Saat otoritesi ve takvim artığı kuralı
 
@@ -87,6 +88,10 @@ Son aktif üretim kuyruğundaki sıradaki paket üretilir.
 
 `TDE_9` üretim planındaki `progress.next` alanı esas alınır.
 
+### `11. sınıf planını uygula`
+
+`TDE_11` içindeki ilk tamamlanmamış paketten başlanır veya mevcut cursor’dan devam edilir. 2026-2027 yıllık planındaki takvimden arındırılmış `15+10+8+10=43` çekirdek saat ve `+2` okul temelli planlama sözleşmesi kullanılır.
+
 ## Her paket nasıl üretilecek?
 
 1. İlgili course production planından sıradaki paket belirlenir.
@@ -114,6 +119,13 @@ courses/TDE_9/generated/lesson_plans/{theme_id}/{block_id}/{package_id}.md
 ```text
 courses/TDE_10/generated/lesson_plans/{theme_id}/{block_id}/{package_id}.json
 courses/TDE_10/generated/lesson_plans/{theme_id}/{block_id}/{package_id}.md
+```
+
+11. sınıf:
+
+```text
+courses/TDE_11/generated/lesson_plans/{theme_id}/{block_id}/{package_id}.json
+courses/TDE_11/generated/lesson_plans/{theme_id}/{block_id}/{package_id}.md
 ```
 
 ## Paket içeriği
@@ -160,6 +172,7 @@ Bu pedagojik alt sıralama **MEB'in resmî saat-saat sıralaması gibi sunulmaz*
 
 - `courses/TDE_9/planning/lesson_plan_production_plan.json`
 - `courses/TDE_10/planning/lesson_plan_production_plan.json`
+- `courses/TDE_11/planning/lesson_plan_production_plan.json`
 
 Bu dosyalardaki `progress.next`, üretime devam edilirken tek kaynak kabul edilir. Üretilmiş dosyalarla progress bilgisi çelişirse üretim durdurulur ve önce progress düzeltilir.
 
