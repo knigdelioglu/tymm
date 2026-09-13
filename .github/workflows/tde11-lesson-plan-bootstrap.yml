@@ -1,0 +1,91 @@
+name: TDE11 Lesson Plan Bootstrap
+
+on:
+  push:
+    branches:
+      - feat/tde11-lesson-plans-20260913
+    paths:
+      - '.github/workflows/tde11-lesson-plan-bootstrap.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  inspect-annual-plan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feat/tde11-lesson-plans-20260913
+      - name: Extract XLSX sheet values without external spreadsheet libraries
+        shell: bash
+        run: |
+          python - <<'PY'
+          from __future__ import annotations
+          import json, zipfile
+          from pathlib import Path
+          from xml.etree import ElementTree as ET
+
+          src = Path('docs/Anadolu Liseleri Türk Dili ve Edebiyatı Dersi Taslak Yıllık Plan.xlsx')
+          out = Path('courses/TDE_11/.work/annual_plan_inspection.json')
+          out.parent.mkdir(parents=True, exist_ok=True)
+
+          NS_MAIN='http://schemas.openxmlformats.org/spreadsheetml/2006/main'
+          NS_REL='http://schemas.openxmlformats.org/officeDocument/2006/relationships'
+          NS_PKG='http://schemas.openxmlformats.org/package/2006/relationships'
+
+          with zipfile.ZipFile(src) as z:
+              shared=[]
+              if 'xl/sharedStrings.xml' in z.namelist():
+                  root=ET.fromstring(z.read('xl/sharedStrings.xml'))
+                  for si in root.findall(f'{{{NS_MAIN}}}si'):
+                      shared.append(''.join(t.text or '' for t in si.iter(f'{{{NS_MAIN}}}t')))
+
+              wb=ET.fromstring(z.read('xl/workbook.xml'))
+              relroot=ET.fromstring(z.read('xl/_rels/workbook.xml.rels'))
+              rels={r.attrib['Id']:r.attrib['Target'] for r in relroot.findall(f'{{{NS_PKG}}}Relationship')}
+              sheets=[]
+              for s in wb.find(f'{{{NS_MAIN}}}sheets'):
+                  name=s.attrib['name']
+                  rid=s.attrib[f'{{{NS_REL}}}id']
+                  target=rels[rid]
+                  path='xl/'+target.lstrip('/') if not target.startswith('xl/') else target
+                  sheets.append((name,path))
+
+              result={'workbook':str(src),'sheets':[]}
+              for name,path in sheets:
+                  if '11' not in name.upper():
+                      continue
+                  root=ET.fromstring(z.read(path))
+                  rows=[]
+                  for row in root.findall(f'.//{{{NS_MAIN}}}row'):
+                      vals={}
+                      for c in row.findall(f'{{{NS_MAIN}}}c'):
+                          ref=c.attrib.get('r','')
+                          t=c.attrib.get('t')
+                          v=c.find(f'{{{NS_MAIN}}}v')
+                          isel=c.find(f'{{{NS_MAIN}}}is')
+                          val=''
+                          if t=='s' and v is not None and v.text:
+                              val=shared[int(v.text)]
+                          elif t=='inlineStr' and isel is not None:
+                              val=''.join(x.text or '' for x in isel.iter(f'{{{NS_MAIN}}}t'))
+                          elif v is not None and v.text is not None:
+                              val=v.text
+                          if val!='':
+                              vals[ref]=val
+                      if vals:
+                          rows.append({'r':int(row.attrib.get('r','0') or 0),'cells':vals})
+                  result['sheets'].append({'name':name,'path':path,'rows':rows})
+
+          out.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding='utf-8')
+          print(json.dumps({'output':str(out),'sheet_names':[s['name'] for s in result['sheets']], 'row_counts':{s['name']:len(s['rows']) for s in result['sheets']}}, ensure_ascii=False))
+          PY
+      - name: Commit inspection artifact
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add courses/TDE_11/.work/annual_plan_inspection.json
+          git commit -m 'chore(tde11): inspect 2026-2027 annual plan workbook' || exit 0
+          git push origin HEAD:feat/tde11-lesson-plans-20260913
