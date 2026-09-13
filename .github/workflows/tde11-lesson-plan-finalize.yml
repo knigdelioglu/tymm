@@ -1,0 +1,133 @@
+name: TDE11 Lesson Plan Finalizer
+
+on:
+  push:
+    branches:
+      - feat/tde11-lesson-plans-20260913
+    paths:
+      - '.github/workflows/tde11-lesson-plan-finalize.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feat/tde11-lesson-plans-20260913
+          fetch-depth: 0
+
+      - name: Extend permanent lesson-plan validation to TDE11
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          p=Path('.github/workflows/tymm-lesson-plan-validation.yml')
+          s=p.read_text(encoding='utf-8')
+
+          def one(old,new):
+              global s
+              n=s.count(old)
+              if n != 1:
+                  raise SystemExit(f'expected one occurrence, got {n}: {old!r}')
+              s=s.replace(old,new,1)
+
+          for old,new in [
+              ("      - 'courses/TDE_10/generated/lesson_plans/**'\n", "      - 'courses/TDE_10/generated/lesson_plans/**'\n      - 'courses/TDE_11/generated/lesson_plans/**'\n"),
+              ("      - 'courses/TDE_10/planning/**'\n", "      - 'courses/TDE_10/planning/**'\n      - 'courses/TDE_11/planning/**'\n"),
+              ("      - 'courses/TDE_10/production/**'\n", "      - 'courses/TDE_10/production/**'\n      - 'courses/TDE_11/production/**'\n"),
+              ("      - 'courses/TDE_10/themes/**'\n", "      - 'courses/TDE_10/themes/**'\n      - 'courses/TDE_11/themes/**'\n"),
+              ("      - 'courses/TDE_10/textbook_map.json'\n", "      - 'courses/TDE_10/textbook_map.json'\n      - 'courses/TDE_11/textbook_map.json'\n"),
+              ("      - 'courses/TDE_10/textbook_forms_index.json'\n", "      - 'courses/TDE_10/textbook_forms_index.json'\n      - 'courses/TDE_11/textbook_forms_index.json'\n"),
+          ]:
+              one(old,new)
+
+          one(
+              "            --knowledge-root courses/TDE_9 \\\n            --knowledge-root courses/TDE_10 \\\n            --report /tmp/lesson-plan-markdown-parity-report.json",
+              "            --knowledge-root courses/TDE_9 \\\n            --knowledge-root courses/TDE_10 \\\n            --knowledge-root courses/TDE_11 \\\n            --report /tmp/lesson-plan-markdown-parity-report.json",
+          )
+          one('      - name: Export and verify 176 distribution-ready teacher plans','      - name: Export and verify 264 distribution-ready teacher plans')
+          one(
+              "            --knowledge-root courses/TDE_9 \\\n            --knowledge-root courses/TDE_10 \\\n            --output-root /tmp/teacher-lesson-plans",
+              "            --knowledge-root courses/TDE_9 \\\n            --knowledge-root courses/TDE_10 \\\n            --knowledge-root courses/TDE_11 \\\n            --output-root /tmp/teacher-lesson-plans",
+          )
+          one('          test "$(find /tmp/teacher-lesson-plans -name \'*.md\' | wc -l | tr -d \' \')" = "176"','          test "$(find /tmp/teacher-lesson-plans -name \'*.md\' | wc -l | tr -d \' \')" = "264"')
+
+          end_pair="            --knowledge-root courses/TDE_9 \\\n            --knowledge-root courses/TDE_10\n"
+          end_triple="            --knowledge-root courses/TDE_9 \\\n            --knowledge-root courses/TDE_10 \\\n            --knowledge-root courses/TDE_11\n"
+          count=s.count(end_pair)
+          if count != 4:
+              raise SystemExit(f'expected four 2-course validator pairs, got {count}')
+          s=s.replace(end_pair,end_triple)
+
+          one(
+              '          python skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py --knowledge-root courses/TDE_9\n          python skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py --knowledge-root courses/TDE_10',
+              '          python skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py --knowledge-root courses/TDE_9\n          python skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py --knowledge-root courses/TDE_10\n          python skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py --knowledge-root courses/TDE_11',
+          )
+          one(
+              '          python skill/tymm-material-planner/scripts/build_runtime_course_package.py build --knowledge-root courses/TDE_9\n          python skill/tymm-material-planner/scripts/build_runtime_course_package.py build --knowledge-root courses/TDE_10',
+              '          python skill/tymm-material-planner/scripts/build_runtime_course_package.py build --knowledge-root courses/TDE_9\n          python skill/tymm-material-planner/scripts/build_runtime_course_package.py build --knowledge-root courses/TDE_10\n          python skill/tymm-material-planner/scripts/build_runtime_course_package.py build --knowledge-root courses/TDE_11',
+          )
+          one('      - name: Validate all 176 lesson-plan packages and teacher projections','      - name: Validate all 264 lesson-plan packages and teacher projections')
+          one(
+              "            --knowledge-root courses/TDE_9 \\\n            --knowledge-root courses/TDE_10 \\\n            --commit-sha \"${GITHUB_SHA}\"",
+              "            --knowledge-root courses/TDE_9 \\\n            --knowledge-root courses/TDE_10 \\\n            --knowledge-root courses/TDE_11 \\\n            --commit-sha \"${GITHUB_SHA}\"",
+          )
+          one(
+              "            --knowledge-root courses/TDE_9 \\\n            --knowledge-root courses/TDE_10 \\\n            --validation-report /tmp/lesson-plan-validation-reports/lesson-plan-validation-report.json",
+              "            --knowledge-root courses/TDE_9 \\\n            --knowledge-root courses/TDE_10 \\\n            --knowledge-root courses/TDE_11 \\\n            --validation-report /tmp/lesson-plan-validation-reports/lesson-plan-validation-report.json",
+          )
+          one(
+              '            courses/TDE_10/planning/lesson_plan_validation_seal.json\n',
+              '            courses/TDE_10/planning/lesson_plan_validation_seal.json\n            courses/TDE_11/planning/lesson_plan_production_plan.json\n            courses/TDE_11/planning/lesson_plan_validation_seal.json\n',
+          )
+          p.write_text(s,encoding='utf-8')
+          PY
+
+      - name: Update current lesson-plan documentation
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          p=Path('README.md'); s=p.read_text(encoding='utf-8')
+          s=s.replace('- 176/176 generated ders planı','- 264/264 generated ders planı')
+          s=s.replace('- 344 çekirdek ders saati','- 516 çekirdek ders saati')
+          p.write_text(s,encoding='utf-8')
+
+          p=Path('docs/ai-ders-plani-uretim-plani.md'); s=p.read_text(encoding='utf-8')
+          s=s.replace('# AI Ders Planı Üretim Planı — 9. ve 10. Sınıf','# AI Ders Planı Üretim Planı — 9, 10 ve 11. Sınıf')
+          s=s.replace('1. `TDE_9`\n2. `TDE_10`','1. `TDE_9`\n2. `TDE_10`\n3. `TDE_11`')
+          s=s.replace('İki sınıf birlikte toplam **176 ders planı paketi** üretilecektir.','Üç sınıf birlikte toplam **264 ders planı paketi** ve **516 çekirdek ders saati** kapsar.')
+          s=s.replace('### `9. sınıfa devam et`\n\n`TDE_9` üretim planındaki `progress.next` alanı esas alınır.','### `9. sınıfa devam et`\n\n`TDE_9` üretim planındaki `progress.next` alanı esas alınır.\n\n### `11. sınıf planını uygula`\n\n`TDE_11` içindeki ilk tamamlanmamış paketten başlanır veya mevcut cursor’dan devam edilir. 2026-2027 yıllık planındaki takvimden arındırılmış `15+10+8+10=43` çekirdek saat ve `+2` okul temelli planlama sözleşmesi kullanılır.')
+          s=s.replace('10. sınıf:\n\n```text\ncourses/TDE_10/generated/lesson_plans/{theme_id}/{block_id}/{package_id}.json\ncourses/TDE_10/generated/lesson_plans/{theme_id}/{block_id}/{package_id}.md\n```','10. sınıf:\n\n```text\ncourses/TDE_10/generated/lesson_plans/{theme_id}/{block_id}/{package_id}.json\ncourses/TDE_10/generated/lesson_plans/{theme_id}/{block_id}/{package_id}.md\n```\n\n11. sınıf:\n\n```text\ncourses/TDE_11/generated/lesson_plans/{theme_id}/{block_id}/{package_id}.json\ncourses/TDE_11/generated/lesson_plans/{theme_id}/{block_id}/{package_id}.md\n```')
+          s=s.replace('- `courses/TDE_10/planning/lesson_plan_production_plan.json`','- `courses/TDE_10/planning/lesson_plan_production_plan.json`\n- `courses/TDE_11/planning/lesson_plan_production_plan.json`')
+          p.write_text(s,encoding='utf-8')
+          PY
+
+      - name: Remove temporary production machinery
+        run: |
+          rm -rf courses/TDE_11/.work
+          rm -f .github/workflows/tde11-lesson-plan-bootstrap.yml
+          rm -f .github/workflows/tde11-lesson-plan-refine.yml
+          rm -f .github/workflows/tde11-lesson-plan-finalize.yml
+
+      - name: Sanity checks
+        run: |
+          test ! -e courses/TDE_11/.work
+          test ! -e .github/workflows/tde11-lesson-plan-bootstrap.yml
+          test ! -e .github/workflows/tde11-lesson-plan-refine.yml
+          grep -q '264/264 generated ders planı' README.md
+          grep -q 'courses/TDE_11/generated/lesson_plans' .github/workflows/tymm-lesson-plan-validation.yml
+          grep -q 'Validate all 264 lesson-plan packages' .github/workflows/tymm-lesson-plan-validation.yml
+          grep -q 'TDE_11' docs/ai-ders-plani-uretim-plani.md
+          git diff --check
+
+      - name: Commit finalized TDE11 lesson-plan package
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m 'feat(tde11): finalize validated lesson-plan package'
+          git push origin HEAD:feat/tde11-lesson-plans-20260913
