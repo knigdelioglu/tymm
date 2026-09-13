@@ -1,0 +1,423 @@
+{
+  "schema_version": "1.0.0",
+  "plan_type": "AI_LESSON_PLAN_PRODUCTION_PLAN",
+  "course_id": "TDE_11",
+  "grade": 11,
+  "status": "COMPLETED",
+  "generation_mode": "CHATGPT_INTERACTIVE_NO_API",
+  "calendar_policy": {
+    "calendar_neutral": true,
+    "week_date_holiday_fields_used": false,
+    "reason": "Ara tatil, yarıyıl, resmî tatil ve tarih yerleşimleri değişken olduğundan üretim sırası takvime bağlanmaz."
+  },
+  "source_contract": {
+    "block_order": "production/teaching_blocks.json",
+    "block_hours": "planning/block_hour_bindings.json",
+    "lesson_context": "runtime/course_runtime.sqlite via lesson_plan_context.py",
+    "output_schema": "skill/tymm-material-planner/schemas/lesson_plan.schema.json",
+    "grounding_validator": "skill/tymm-material-planner/scripts/validate_lesson_plan.py"
+  },
+  "production_policy": {
+    "unit": "BLOCK_INTERNAL_LESSON_PACKAGE",
+    "default_package_hours": 2,
+    "odd_block_remainder_policy": "15 saatlik blokta son paket 1 saattir; süre uydurulmaz.",
+    "execution_per_user_command": 10,
+    "target_instruction_hours_per_user_command": {
+      "min": 15,
+      "max": 20
+    },
+    "trigger": "11. sınıf planını uygula",
+    "continuation_trigger": "11. sınıfa devam et",
+    "order": [
+      "theme_order",
+      "block_sequence",
+      "package_no"
+    ],
+    "school_based_planning": "Varsayılan üretim kuyruğuna dahil değildir; öğretmen ayrıca isterse planlanır.",
+    "stop_after_each_package": false,
+    "validate_after_each_package": true,
+    "quality_stop_policy": "Bir paket kaynak, şema, grounding veya pedagojik kalite kapısını geçmezse sonraki pakete geçilmez."
+  },
+  "output_contract": {
+    "json_path_template": "courses/TDE_11/generated/lesson_plans/{theme_id}/{block_id}/{package_id}.json",
+    "markdown_path_template": "courses/TDE_11/generated/lesson_plans/{theme_id}/{block_id}/{package_id}.md",
+    "required_validation_status": "PASS",
+    "official_subhour_sequence_claim_allowed": false
+  },
+  "progress": {
+    "core_instruction_hours": 172,
+    "school_based_planning_hours": 8,
+    "queued_instruction_hours": 172,
+    "total_packages": 88,
+    "completed_packages": 88,
+    "completed_instruction_hours": 172,
+    "next": null,
+    "last_completed": {
+      "theme_id": "TEMA_04",
+      "block_id": "BLOCK_T4_04_YAZMA",
+      "package_no": 5,
+      "package_id": "BLOCK_T4_04_YAZMA_P05",
+      "lesson_hours": 2,
+      "validation_status": "PASS"
+    }
+  },
+  "themes": [
+    {
+      "theme_id": "TEMA_01",
+      "theme_title": "BİR DİYECEĞİM VAR!",
+      "core_instruction_hours": 43,
+      "school_based_planning_hours": 2,
+      "school_based_planning_in_default_queue": false,
+      "blocks": [
+        {
+          "block_id": "BLOCK_T1_01_OKUMA",
+          "domain": "OKUMA",
+          "planned_hours": 15,
+          "package_hours": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1
+          ],
+          "package_count": 8,
+          "package_id_rule": "BLOCK_T1_01_OKUMA_P{package_no:02d}",
+          "status": "COMPLETED",
+          "completed_packages": 8,
+          "completed_hours": 15
+        },
+        {
+          "block_id": "BLOCK_T1_02_KONUSMA",
+          "domain": "KONUSMA",
+          "planned_hours": 10,
+          "package_hours": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "package_count": 5,
+          "package_id_rule": "BLOCK_T1_02_KONUSMA_P{package_no:02d}",
+          "status": "COMPLETED",
+          "completed_packages": 5,
+          "completed_hours": 10
+        },
+        {
+          "block_id": "BLOCK_T1_03_DINLEME",
+          "domain": "DINLEME_IZLEME",
+          "planned_hours": 8,
+          "package_hours": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "package_count": 4,
+          "package_id_rule": "BLOCK_T1_03_DINLEME_P{package_no:02d}",
+          "status": "COMPLETED",
+          "completed_packages": 4,
+          "completed_hours": 8
+        },
+        {
+          "block_id": "BLOCK_T1_04_YAZMA",
+          "domain": "YAZMA",
+          "planned_hours": 10,
+          "package_hours": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "package_count": 5,
+          "package_id_rule": "BLOCK_T1_04_YAZMA_P{package_no:02d}",
+          "status": "COMPLETED",
+          "completed_packages": 5,
+          "completed_hours": 10
+        }
+      ]
+    },
+    {
+      "theme_id": "TEMA_02",
+      "theme_title": "KÜLTÜR YOLCULUĞU",
+      "core_instruction_hours": 43,
+      "school_based_planning_hours": 2,
+      "school_based_planning_in_default_queue": false,
+      "blocks": [
+        {
+          "block_id": "BLOCK_T2_01_OKUMA",
+          "domain": "OKUMA",
+          "planned_hours": 15,
+          "package_hours": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1
+          ],
+          "package_count": 8,
+          "package_id_rule": "BLOCK_T2_01_OKUMA_P{package_no:02d}",
+          "status": "COMPLETED",
+          "completed_packages": 8,
+          "completed_hours": 15
+        },
+        {
+          "block_id": "BLOCK_T2_02_KONUSMA",
+          "domain": "KONUSMA",
+          "planned_hours": 10,
+          "package_hours": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "package_count": 5,
+          "package_id_rule": "BLOCK_T2_02_KONUSMA_P{package_no:02d}",
+          "status": "COMPLETED",
+          "completed_packages": 5,
+          "completed_hours": 10
+        },
+        {
+          "block_id": "BLOCK_T2_03_DINLEME",
+          "domain": "DINLEME_IZLEME",
+          "planned_hours": 8,
+          "package_hours": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "package_count": 4,
+          "package_id_rule": "BLOCK_T2_03_DINLEME_P{package_no:02d}",
+          "status": "COMPLETED",
+          "completed_packages": 4,
+          "completed_hours": 8
+        },
+        {
+          "block_id": "BLOCK_T2_04_YAZMA",
+          "domain": "YAZMA",
+          "planned_hours": 10,
+          "package_hours": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "package_count": 5,
+          "package_id_rule": "BLOCK_T2_04_YAZMA_P{package_no:02d}",
+          "status": "COMPLETED",
+          "completed_packages": 5,
+          "completed_hours": 10
+        }
+      ]
+    },
+    {
+      "theme_id": "TEMA_03",
+      "theme_title": "YAŞAMIN İZİNDE",
+      "core_instruction_hours": 43,
+      "school_based_planning_hours": 2,
+      "school_based_planning_in_default_queue": false,
+      "blocks": [
+        {
+          "block_id": "BLOCK_T3_01_OKUMA",
+          "domain": "OKUMA",
+          "planned_hours": 15,
+          "package_hours": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1
+          ],
+          "package_count": 8,
+          "package_id_rule": "BLOCK_T3_01_OKUMA_P{package_no:02d}",
+          "status": "COMPLETED",
+          "completed_packages": 8,
+          "completed_hours": 15
+        },
+        {
+          "block_id": "BLOCK_T3_02_KONUSMA",
+          "domain": "KONUSMA",
+          "planned_hours": 10,
+          "package_hours": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "package_count": 5,
+          "package_id_rule": "BLOCK_T3_02_KONUSMA_P{package_no:02d}",
+          "status": "COMPLETED",
+          "completed_packages": 5,
+          "completed_hours": 10
+        },
+        {
+          "block_id": "BLOCK_T3_03_DINLEME",
+          "domain": "DINLEME_IZLEME",
+          "planned_hours": 8,
+          "package_hours": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "package_count": 4,
+          "package_id_rule": "BLOCK_T3_03_DINLEME_P{package_no:02d}",
+          "status": "COMPLETED",
+          "completed_packages": 4,
+          "completed_hours": 8
+        },
+        {
+          "block_id": "BLOCK_T3_04_YAZMA",
+          "domain": "YAZMA",
+          "planned_hours": 10,
+          "package_hours": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "package_count": 5,
+          "package_id_rule": "BLOCK_T3_04_YAZMA_P{package_no:02d}",
+          "status": "COMPLETED",
+          "completed_packages": 5,
+          "completed_hours": 10
+        }
+      ]
+    },
+    {
+      "theme_id": "TEMA_04",
+      "theme_title": "HAYATIN AYNASI",
+      "core_instruction_hours": 43,
+      "school_based_planning_hours": 2,
+      "school_based_planning_in_default_queue": false,
+      "blocks": [
+        {
+          "block_id": "BLOCK_T4_01_OKUMA",
+          "domain": "OKUMA",
+          "planned_hours": 15,
+          "package_hours": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1
+          ],
+          "package_count": 8,
+          "package_id_rule": "BLOCK_T4_01_OKUMA_P{package_no:02d}",
+          "status": "COMPLETED",
+          "completed_packages": 8,
+          "completed_hours": 15
+        },
+        {
+          "block_id": "BLOCK_T4_02_KONUSMA",
+          "domain": "KONUSMA",
+          "planned_hours": 10,
+          "package_hours": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "package_count": 5,
+          "package_id_rule": "BLOCK_T4_02_KONUSMA_P{package_no:02d}",
+          "status": "COMPLETED",
+          "completed_packages": 5,
+          "completed_hours": 10
+        },
+        {
+          "block_id": "BLOCK_T4_03_DINLEME",
+          "domain": "DINLEME_IZLEME",
+          "planned_hours": 8,
+          "package_hours": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "package_count": 4,
+          "package_id_rule": "BLOCK_T4_03_DINLEME_P{package_no:02d}",
+          "status": "COMPLETED",
+          "completed_packages": 4,
+          "completed_hours": 8
+        },
+        {
+          "block_id": "BLOCK_T4_04_YAZMA",
+          "domain": "YAZMA",
+          "planned_hours": 10,
+          "package_hours": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "package_count": 5,
+          "package_id_rule": "BLOCK_T4_04_YAZMA_P{package_no:02d}",
+          "status": "COMPLETED",
+          "completed_packages": 5,
+          "completed_hours": 10
+        }
+      ]
+    }
+  ],
+  "engineering_validation": {
+    "status": "PASS",
+    "scope": "FULL_GENERATED_LESSON_PLAN_SET",
+    "validator": "skill/tymm-material-planner/scripts/validate_all_lesson_plans.py",
+    "grounding_validator": "skill/tymm-material-planner/scripts/validate_lesson_plan.py",
+    "schema": "skill/tymm-material-planner/schemas/lesson_plan.schema.json",
+    "checks": [
+      "JSON_SCHEMA_DRAFT_2020_12",
+      "SOURCE_BOUND_GROUNDING",
+      "NESTED_REFERENCE_GROUNDING",
+      "CALENDAR_SCOPE",
+      "DETERMINISTIC_JSON_MARKDOWN_PARITY",
+      "PACKAGE_TOPOLOGY",
+      "PACKAGE_COUNT",
+      "LESSON_HOUR_TOTAL",
+      "FRESH_RUNTIME_CONTEXT",
+      "VALIDATION_REPORT_PASS",
+      "VALIDATED_COMMIT_SHA",
+      "VALIDATED_CONTENT_FINGERPRINT",
+      "COURSE_SCOPED_CONTENT_FINGERPRINT"
+    ],
+    "validated_packages": 88,
+    "validated_instruction_hours": 172,
+    "failure_records": 0,
+    "warning_records": 0,
+    "validation_binding": {
+      "schema_version": "1.0.0",
+      "algorithm": "TYMM_LESSON_PLAN_VALIDATION_SCOPE_V1",
+      "content_fingerprint": "sha256:493219963a1a70254dc3892059d45fb903eeeb689936391518be7553b9402f03",
+      "fingerprinted_files": 213,
+      "commit_sha": "1c085b1a924057a980664e1c5fbfc4ad6abe76ed",
+      "report_sha256": "sha256:20002d51d1f0acb14b50c4602b9471cf0758b3fcea408cd608f273976d86e999"
+    },
+    "course_validation_binding": {
+      "schema_version": "1.0.0",
+      "algorithm": "TYMM_LESSON_PLAN_VALIDATION_SCOPE_V1",
+      "content_fingerprint": "sha256:493219963a1a70254dc3892059d45fb903eeeb689936391518be7553b9402f03",
+      "fingerprinted_files": 213,
+      "commit_sha": "1c085b1a924057a980664e1c5fbfc4ad6abe76ed"
+    }
+  }
+}

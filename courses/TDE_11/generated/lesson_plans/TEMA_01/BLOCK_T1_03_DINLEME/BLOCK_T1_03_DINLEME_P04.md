@@ -1,0 +1,197 @@
+# BİR DİYECEĞİM VAR! — Dinleme/Izleme 4: Süreci Değerlendirebilme
+
+> Bu Markdown, lesson-plan JSON dosyasından deterministik olarak üretilir. JSON authoritative kaynaktır; bu dosyada elle semantik değişiklik yapılmaz.
+
+## Paket bilgisi
+
+| Alan | Değer |
+|---|---|
+| Ders | `TDE_11` |
+| Tema | `TEMA_01` |
+| Blok | `BLOCK_T1_03_DINLEME` |
+| Süre | 2 ders saati |
+| Şema | `1.0.0` |
+
+## Paket özeti
+
+8 saatlik dinleme/izleme bloğunun bu 2 saatlik bölümünde ders kitabındaki doğrulanmış etkinlikler kullanılarak TDE1.4 çıktısına yönelik somut öğrenci kanıtı üretilir. Saat içi akış pedagojik öneridir; resmî MEB alt-saat sıralaması olarak sunulmaz.
+
+## Öğrenme ve değerlendirme kapsamı
+
+- **Öğrenme çıktıları:** `TDE1.4`
+- **Kullanılan etkinlikler:** `T1_ACT_16_DINLEME_DEGERLENDIRME`
+- **Kullanılan formlar:** `FORM_T1_P064_GOZLEM_FORMU_07`, `FORM_T1_P073_CIKIS_KARTI_08`
+
+## Canonical referanslar
+
+### Form referansları
+
+| Form | Kullanım |
+|---|---|
+| `FORM_T1_P064_GOZLEM_FORMU_07` | `USED` |
+| `FORM_T1_P073_CIKIS_KARTI_08` | `USED` |
+
+### Değerlendirme artefakt referansları
+
+| Artefakt | Binding | Kullanım |
+|---|---|---|
+| — | — | — |
+
+### Kaynak plan referansları
+
+| Kaynak planı | Kullanım |
+|---|---|
+| — | — |
+
+## Sınıf uyarlamaları
+
+- **Tetikleyiciler:** `MEDIA_DEPENDENT`
+- **Gerekçe:** Bu paket MEDIA_DEPENDENT sinyali taşıdığı için farklılaştırma ve erişilebilirlik rotası first-class olarak tutulur; destek, öğrenme çıktısını veya beklenen kanıtı azaltmaz.
+- **Kanıt eşdeğerliği:** Uyarlama yalnız temsil, süreç, ortam veya katılım yolunu değiştirir; canonical öğrenme çıktısı, görevin temel yapısı ve değerlendirmede aranan kanıt aynı kalır.
+
+### Farklılaştırma
+
+**Destek rotası**
+
+- Yönergeyi görünür küçük adımlara böl; model/örnek yalnız süreci görünür kılsın, hedef metin veya performans kanıtını azaltmasın.
+- Hazırlıkta anahtar yönerge ve kısa kontrol sırası kullan; öğrencinin yapacağı işlemleri tek ekranda/sayfada izlenebilir tut.
+
+**Zenginleştirme rotası**
+
+- Çekirdek görevi erken ve yeterli kanıtla tamamlayan öğrenci aynı çıktı üzerinde karşılaştırmalı ikinci kanıt, alternatif bağlam veya daha bağımsız gerekçelendirme üretsin; yeni zorunlu çıktı icat edilmesin.
+
+**Öğrenme çıktıları değişmez:** Evet
+
+### Erişilebilirlik
+
+**Temsil destekleri**
+
+- Yönergeleri sözlü ve yazılı olarak birlikte sun; metni seçilebilir/büyütülebilir tut ve renk tek başına anlam taşımasın.
+- Görsel unsur zorunluysa temel bilgiyi kısa sözel açıklama/alt metin eşdeğeriyle de erişilebilir kıl.
+
+**Katılım destekleri**
+
+- Hazırlık ve geri bildirim aşamalarında ikili/küçük grup veya öğretmen destekli rota kullanılabilir; bireysel kanıt gereken yerde aynı bireysel kanıt korunur.
+
+**Ortam destekleri**
+
+- Gerektiğinde dikkat dağıtıcıları azaltılmış oturma/çalışma konumu, okunabilir çıktı ve erişilebilir cihaz kullanımına izin ver; görev ölçütlerini değiştirme.
+
+**Değerlendirme construct'ı korunur:** Evet
+
+### Medya fallback
+
+- **Zorunlu:** Evet
+- **Çevrimdışı çekirdek rota:** Evet
+- **Aynı/eşdeğer kaynak zorunlu:** Evet
+- **Transkript varsayılan ikame değildir:** Evet
+- **Çevrimdışı rota:** Birincil medya türü (AUDIO) çevrimiçi açılamazsa aynı kaynak dosyanın önceden hazırlanmış yerel/çevrimdışı kopyasını veya aynı kanıtı taşıyan öğretmen-onaylı eşdeğeri kullan; internet erişimini çekirdek dersin ön koşulu yapma.
+- **Erişim desteği:** Altyazı/transkript, yeniden oynatma ve sözel/görsel açıklama erişim desteği olarak kullanılabilir. Dinleme/izleme becerisinin kendisi hedef veya ölçme nesnesiyse transkript varsayılan olarak işitsel/görsel kanıtın yerine geçmez; gerekli bireysel uyarlama öğretmen tarafından aynı construct korunarak belirlenir.
+
+# Ders akışı
+
+## 1. Ders — Süreci Değerlendirebilme: kanıt üretme ve geliştirme
+
+**Süre:** 1 ders saati  
+**Öğrenme çıktıları:** `TDE1.4`
+
+### Hedef
+
+Öğrencinin dinleme/izleme sürecini ve metne ilişkin değerlendirmelerini ölçütlere dayalı biçimde yansıtır. sürecinde TDE1.4 çıktısına yönelik gözlenebilir ve gerekçeli kanıt üretmesi.
+
+### Derse giriş
+
+“Süreci Değerlendirebilme” görevinin amacı ve beklenen kanıt görünür hâle getirilir; öğrenci neyi göstereceğini kendi cümlesiyle ifade eder.
+
+### Öğretmenin yapacakları
+
+1. “Süreci Değerlendirebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta olmayan ölçüt veya içerik ekleme.
+2. Öğrenciden dinleme/izleme sürecini ve metne ilişkin değerlendirmelerini ölçütlere dayalı biçimde yansıtır. sırasında kararını metin, dinleme/izleme, konuşma ya da yazma ürünündeki somut göstergelerle gerekçelendirmesini iste.
+3. Kanıt olarak öz değerlendirme, gözlem/öğrenme günlüğü veya gerekçeli değerlendirme kaydı. topla; yalnız “katıldı/yaptı” türü genel gözlemi yeterli kabul etme.
+4. Geri bildirimi öğrencinin mevcut kanıtındaki bir güçlü nokta ve geliştirilecek bir nokta üzerinden ver; bir sonraki denemede yapılacak değişikliği netleştir.
+
+### Öğrencinin yapacakları
+
+- Dinleme/izleme sürecini ve metne ilişkin değerlendirmelerini ölçütlere dayalı biçimde yansıtır.
+- Görev sırasında kullandığı stratejiyi ve kararını somut kaynak/ürün göstergesiyle gerekçelendirir.
+- Ürettiği kanıtı yönergeye göre kontrol eder ve gerekli düzeltmeyi yapar.
+- Kapanışta bir güçlü kanıt ile bir geliştirme adımını kısa ve açık biçimde kaydeder.
+
+### Kaynak bağları
+
+- **Etkinlikler:** `T1_ACT_16_DINLEME_DEGERLENDIRME`
+- **Formlar:** Yok
+
+### Ölçme / öğrenme kanıtı
+
+Bu ders saatinin ana ölçme kanıtı: Öz değerlendirme, gözlem/öğrenme günlüğü veya gerekçeli değerlendirme kaydı.. Öğretmen geri bildirimi kanıtın doğruluğu, gerekçesi ve görevin gerektirdiği beceriye uygunluğu üzerinden verilir.
+
+### Kapanış
+
+Öğrenci “Bu derste öz değerlendirme, gözlem/öğrenme günlüğü veya gerekçeli değerlendirme kaydı. ile neyi gösterebildim; bir sonraki uygulamada hangi somut değişikliği yapacağım?” sorusuna kısa kanıt notuyla cevap verir.
+
+### Materyaller
+
+- Metin Tahlili-3 (Anlama): Dinleme / İzleme — Değişen İletişim Araçlarının Hayatımızdaki Yeri — ders kitabı s.73
+- Öğrencinin bu ders saatinde oluşturduğu somut kanıt kaydı
+
+## 2. Ders — Süreci Değerlendirebilme: kanıt üretme ve geliştirme
+
+**Süre:** 1 ders saati  
+**Öğrenme çıktıları:** `TDE1.4`
+
+### Hedef
+
+Öğrencinin dinleme/izleme sürecini ve metne ilişkin değerlendirmelerini ölçütlere dayalı biçimde yansıtır. sürecinde TDE1.4 çıktısına yönelik gözlenebilir ve gerekçeli kanıt üretmesi.
+
+### Derse giriş
+
+“Süreci Değerlendirebilme” görevinin amacı ve beklenen kanıt görünür hâle getirilir; öğrenci neyi göstereceğini kendi cümlesiyle ifade eder.
+
+### Öğretmenin yapacakları
+
+1. “Süreci Değerlendirebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta olmayan ölçüt veya içerik ekleme.
+2. Öğrenciden dinleme/izleme sürecini ve metne ilişkin değerlendirmelerini ölçütlere dayalı biçimde yansıtır. sırasında kararını metin, dinleme/izleme, konuşma ya da yazma ürünündeki somut göstergelerle gerekçelendirmesini iste.
+3. Kanıt olarak öz değerlendirme, gözlem/öğrenme günlüğü veya gerekçeli değerlendirme kaydı. topla; yalnız “katıldı/yaptı” türü genel gözlemi yeterli kabul etme.
+4. Geri bildirimi öğrencinin mevcut kanıtındaki bir güçlü nokta ve geliştirilecek bir nokta üzerinden ver; bir sonraki denemede yapılacak değişikliği netleştir.
+
+### Öğrencinin yapacakları
+
+- Dinleme/izleme sürecini ve metne ilişkin değerlendirmelerini ölçütlere dayalı biçimde yansıtır.
+- Görev sırasında kullandığı stratejiyi ve kararını somut kaynak/ürün göstergesiyle gerekçelendirir.
+- Ürettiği kanıtı yönergeye göre kontrol eder ve gerekli düzeltmeyi yapar.
+- Kapanışta bir güçlü kanıt ile bir geliştirme adımını kısa ve açık biçimde kaydeder.
+
+### Kaynak bağları
+
+- **Etkinlikler:** `T1_ACT_16_DINLEME_DEGERLENDIRME`
+- **Formlar:** `FORM_T1_P064_GOZLEM_FORMU_07`, `FORM_T1_P073_CIKIS_KARTI_08`
+
+### Ölçme / öğrenme kanıtı
+
+Bu ders saatinin ana ölçme kanıtı: Öz değerlendirme, gözlem/öğrenme günlüğü veya gerekçeli değerlendirme kaydı.. Öğretmen geri bildirimi kanıtın doğruluğu, gerekçesi ve görevin gerektirdiği beceriye uygunluğu üzerinden verilir.
+
+### Kapanış
+
+Öğrenci “Bu derste öz değerlendirme, gözlem/öğrenme günlüğü veya gerekçeli değerlendirme kaydı. ile neyi gösterebildim; bir sonraki uygulamada hangi somut değişikliği yapacağım?” sorusuna kısa kanıt notuyla cevap verir.
+
+### Materyaller
+
+- Metin Tahlili-3 (Anlama): Dinleme / İzleme — Değişen İletişim Araçlarının Hayatımızdaki Yeri — ders kitabı s.73
+- Öğrencinin bu ders saatinde oluşturduğu somut kanıt kaydı
+
+## Öğretmen notu
+
+Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve canonical öğrenme çıktılarına dayanır. Dış QR bağlantısındaki doğrulanmamış dereceli puanlama anahtarı ölçüt×düzey içeriği kullanılmaz; pedagojik saat içi sıralama MEB tarafından verilmiş resmî alt-saat sıralaması değildir.
+
+## İlerleme ve devam
+
+- **Bu pakette planlanan:** 2 saat
+- **Blokta kalan:** 0 saat
+- **Kapsanan çıktılar:** `TDE1.4`
+- **Kullanılan etkinlikler:** `T1_ACT_16_DINLEME_DEGERLENDIRME`
+- **Sonraki adım:** Blok tamamlandı; sıradaki canonical bloğa geç.
+
+---
+
+<!-- TYMM_JSON_SHA256:d8a4de5797893abd50c1dfc36092c99d604791999900ecb9be27b2ccde9dba4d -->
