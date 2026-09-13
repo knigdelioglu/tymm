@@ -300,7 +300,11 @@ class TeacherReferenceCatalog:
                 continue
             theme_id = _string(theme.get("theme_id"))
             theme_no = theme.get("theme_no")
-            theme_title = _string(theme.get("theme_title"))
+            theme_title = (
+                _string(theme.get("theme_title"))
+                or _string(theme.get("title"))
+                or _string(theme.get("exact_title"))
+            )
             if theme_id and theme_title:
                 themes[theme_id] = _theme_label(theme_no, theme_title)
 

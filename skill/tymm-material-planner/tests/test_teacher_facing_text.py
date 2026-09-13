@@ -15,6 +15,7 @@ import teacher_facing_text  # noqa: E402
 COURSES = Path(__file__).resolve().parents[3] / "courses"
 ROOT9 = COURSES / "TDE_9"
 ROOT10 = COURSES / "TDE_10"
+ROOT11 = COURSES / "TDE_11"
 
 
 class TeacherFacingTextTests(unittest.TestCase):
@@ -22,6 +23,7 @@ class TeacherFacingTextTests(unittest.TestCase):
     def setUpClass(cls) -> None:
         cls.catalog9 = teacher_facing_text.TeacherReferenceCatalog.from_knowledge_root(ROOT9)
         cls.catalog10 = teacher_facing_text.TeacherReferenceCatalog.from_knowledge_root(ROOT10)
+        cls.catalog11 = teacher_facing_text.TeacherReferenceCatalog.from_knowledge_root(ROOT11)
         cls.ranges = {1: (1, 2), 2: (3, 4), 3: (5, 6)}
 
     def fixture_plan(self) -> dict:
@@ -140,6 +142,25 @@ class TeacherFacingTextTests(unittest.TestCase):
         )
         self.assertIn("Sıra Sizde (ders kitabı s. 13-16)", text)
         self.assertIn("Şiir Dinletisi değerlendirme formu", text)
+        self.assertIsNone(teacher_facing_text.TECHNICAL_REFERENCE_RE.search(text))
+
+    def test_tde11_theme_title_falls_back_to_title_schema(self) -> None:
+        self.assertEqual(
+            self.catalog11.themes["TEMA_01"],
+            "1. Tema: BİR DİYECEĞİM VAR!",
+        )
+        plan = {
+            "course_id": "TDE_11",
+            "theme_id": "TEMA_01",
+            "block_id": "BLOCK_T1_01_OKUMA",
+        }
+        text = teacher_facing_text.humanize_teacher_text(
+            "TEMA_01 kapsamında çalış.",
+            plan=plan,
+            catalog=self.catalog11,
+            package_ranges=self.ranges,
+        )
+        self.assertEqual(text, "1. Tema: BİR DİYECEĞİM VAR! kapsamında çalış.")
         self.assertIsNone(teacher_facing_text.TECHNICAL_REFERENCE_RE.search(text))
 
     def test_normalization_changes_prose_but_preserves_structured_ids(self) -> None:
