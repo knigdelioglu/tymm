@@ -48,16 +48,22 @@ on:
       - 'skill/tymm-material-planner/schemas/lesson_plan.schema.json'
       - 'courses/TDE_9/generated/lesson_plans/**'
       - 'courses/TDE_10/generated/lesson_plans/**'
+      - 'courses/TDE_11/generated/lesson_plans/**'
       - 'courses/TDE_9/planning/**'
       - 'courses/TDE_10/planning/**'
+      - 'courses/TDE_11/planning/**'
       - 'courses/TDE_9/production/**'
       - 'courses/TDE_10/production/**'
+      - 'courses/TDE_11/production/**'
       - 'courses/TDE_9/themes/**'
       - 'courses/TDE_10/themes/**'
+      - 'courses/TDE_11/themes/**'
       - 'courses/TDE_9/textbook_map.json'
       - 'courses/TDE_10/textbook_map.json'
+      - 'courses/TDE_11/textbook_map.json'
       - 'courses/TDE_9/textbook_forms_index.json'
       - 'courses/TDE_10/textbook_forms_index.json'
+      - 'courses/TDE_11/textbook_forms_index.json'
   # Required checks must always be emitted for pull requests. Do not add a
   # paths filter here; otherwise GitHub can leave the required check pending
   # when a PR changes only files outside the lesson-plan path set.
@@ -109,6 +115,7 @@ jobs:
           python skill/tymm-material-planner/scripts/validate_lesson_plan_markdown.py \
             --knowledge-root courses/TDE_9 \
             --knowledge-root courses/TDE_10 \
+            --knowledge-root courses/TDE_11 \
             --report /tmp/lesson-plan-markdown-parity-report.json
 
       - name: Run teacher-facing projection regression tests
@@ -119,14 +126,15 @@ jobs:
             skill/tymm-material-planner/tests/test_teacher_lesson_plan_markdown.py \
             skill/tymm-material-planner/tests/test_runtime_lesson_plan_payload.py
 
-      - name: Export and verify 176 distribution-ready teacher plans
+      - name: Export and verify 264 distribution-ready teacher plans
         run: |
           python skill/tymm-material-planner/scripts/render_teacher_lesson_plan_markdown.py \
             --knowledge-root courses/TDE_9 \
             --knowledge-root courses/TDE_10 \
+            --knowledge-root courses/TDE_11 \
             --output-root /tmp/teacher-lesson-plans \
             > /tmp/teacher-markdown-export-report.json
-          test "$(find /tmp/teacher-lesson-plans -name '*.md' | wc -l | tr -d ' ')" = "176"
+          test "$(find /tmp/teacher-lesson-plans -name '*.md' | wc -l | tr -d ' ')" = "264"
           ! grep -R -n -E 'P[0-9]{1,2}[-–—/]P[0-9]{1,2} (öğrenci )?(çalışma )?ürün' /tmp/teacher-lesson-plans
 
       - name: Run package-topology regression tests
@@ -136,7 +144,8 @@ jobs:
         run: |
           python skill/tymm-material-planner/scripts/validate_package_topology.py \
             --knowledge-root courses/TDE_9 \
-            --knowledge-root courses/TDE_10
+            --knowledge-root courses/TDE_10 \
+            --knowledge-root courses/TDE_11
 
       - name: Run grounded-reference regression tests
         run: python -m unittest skill/tymm-material-planner/tests/test_grounded_references.py
@@ -145,7 +154,8 @@ jobs:
         run: |
           python skill/tymm-material-planner/scripts/validate_grounded_references.py \
             --knowledge-root courses/TDE_9 \
-            --knowledge-root courses/TDE_10
+            --knowledge-root courses/TDE_10 \
+            --knowledge-root courses/TDE_11
 
       - name: Run classroom adaptation regression tests
         run: python -m unittest skill/tymm-material-planner/tests/test_classroom_adaptations.py
@@ -154,7 +164,8 @@ jobs:
         run: |
           python skill/tymm-material-planner/scripts/validate_classroom_adaptations.py \
             --knowledge-root courses/TDE_9 \
-            --knowledge-root courses/TDE_10
+            --knowledge-root courses/TDE_10 \
+            --knowledge-root courses/TDE_11
 
       - name: Run closure time-budget regression tests
         run: python -m unittest skill/tymm-material-planner/tests/test_closure_time_budgets.py
@@ -163,7 +174,8 @@ jobs:
         run: |
           python skill/tymm-material-planner/scripts/validate_closure_time_budgets.py \
             --knowledge-root courses/TDE_9 \
-            --knowledge-root courses/TDE_10
+            --knowledge-root courses/TDE_10 \
+            --knowledge-root courses/TDE_11
 
       - name: Run large-class route regression tests
         run: python -m unittest skill/tymm-material-planner/tests/test_large_class_route.py
@@ -177,17 +189,20 @@ jobs:
         run: |
           python skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py --knowledge-root courses/TDE_9
           python skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py --knowledge-root courses/TDE_10
+          python skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py --knowledge-root courses/TDE_11
 
       - name: Build fresh runtime packages with teacher-facing lesson payloads
         run: |
           python skill/tymm-material-planner/scripts/build_runtime_course_package.py build --knowledge-root courses/TDE_9
           python skill/tymm-material-planner/scripts/build_runtime_course_package.py build --knowledge-root courses/TDE_10
+          python skill/tymm-material-planner/scripts/build_runtime_course_package.py build --knowledge-root courses/TDE_11
 
-      - name: Validate all 176 lesson-plan packages and teacher projections
+      - name: Validate all 264 lesson-plan packages and teacher projections
         run: |
           python skill/tymm-material-planner/scripts/validate_all_lesson_plans.py \
             --knowledge-root courses/TDE_9 \
             --knowledge-root courses/TDE_10 \
+            --knowledge-root courses/TDE_11 \
             --commit-sha "${GITHUB_SHA}" \
             --report /tmp/lesson-plan-validation-report.json
 
@@ -234,6 +249,7 @@ jobs:
           python skill/tymm-material-planner/scripts/finalize_lesson_plan_production.py \
             --knowledge-root courses/TDE_9 \
             --knowledge-root courses/TDE_10 \
+            --knowledge-root courses/TDE_11 \
             --validation-report /tmp/lesson-plan-validation-reports/lesson-plan-validation-report.json \
             --expected-head "${GITHUB_SHA}"
 
@@ -246,4 +262,6 @@ jobs:
             courses/TDE_9/planning/lesson_plan_validation_seal.json
             courses/TDE_10/planning/lesson_plan_production_plan.json
             courses/TDE_10/planning/lesson_plan_validation_seal.json
+            courses/TDE_11/planning/lesson_plan_production_plan.json
+            courses/TDE_11/planning/lesson_plan_validation_seal.json
           if-no-files-found: error
