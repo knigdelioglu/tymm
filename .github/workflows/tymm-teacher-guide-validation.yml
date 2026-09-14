@@ -1,0 +1,60 @@
+name: TYMM Teacher Guide Validation
+
+on:
+  push:
+    branches:
+      - main
+    paths: &teacher_guide_paths
+      - '.github/workflows/tymm-teacher-guide-validation.yml'
+      - 'skill/tymm-material-planner/scripts/validate_teacher_guide.py'
+      - 'skill/tymm-material-planner/schemas/teacher_guide.schema.json'
+      - 'skill/tymm-material-planner/schemas/teacher_guide_section.schema.json'
+      - 'courses/TDE_11/teacher_guide/**'
+      - 'courses/TDE_11/textbook_map.json'
+      - 'courses/TDE_11/themes/tema_01/alignment.json'
+      - 'courses/TDE_11/generated/lesson_plans/TEMA_01/**'
+      - 'courses/TDE_11/source_docs/textbook_extraction_audit.json'
+      - 'courses/TDE_11/source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf'
+  pull_request:
+    branches:
+      - main
+    paths: *teacher_guide_paths
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: tymm-teacher-guide-validation-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate-teacher-guide:
+    name: Teacher guide validation
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install schema validator
+        run: python -m pip install 'jsonschema==4.23.0'
+
+      - name: Validate TDE11 Theme 1 teacher guide
+        run: |
+          python skill/tymm-material-planner/scripts/validate_teacher_guide.py \
+            --manifest courses/TDE_11/teacher_guide/TEMA_01/teacher_guide.json \
+            --report /tmp/tde11-theme1-teacher-guide-validation.json
+
+      - name: Upload teacher-guide validation report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tde11-theme1-teacher-guide-validation
+          path: /tmp/tde11-theme1-teacher-guide-validation.json
+          if-no-files-found: warn
