@@ -55,9 +55,9 @@
 - `source_references`: 5
 - `entity_source_references`: 4
 - `lesson_plan_packages`: 88
-- `canonical_entities`: 326
-- `teacher_guides`: 2
-- `teacher_guide_sections`: 14
-- `teacher_guide_units`: 47
-- `teacher_guide_items`: 145
-- `teacher_guide_item_relations`: 1933
+- `canonical_entities`: 328
+- `teacher_guides`: 4
+- `teacher_guide_sections`: 28
+- `teacher_guide_units`: 94
+- `teacher_guide_items`: 283
+- `teacher_guide_item_relations`: 3707
