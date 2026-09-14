@@ -1,0 +1,285 @@
+{
+  "schema_version": "1.1.0",
+  "document_type": "TYMM_TEACHER_GUIDE_SECTION",
+  "course_id": "TDE_11",
+  "theme_id": "TEMA_01",
+  "section_id": "T1_SEC_02_OKUMA_MEKTUP",
+  "title": "Metin Tahlili-2 (Anlama): Okuma — Mektup (Âli’ye Mektuplar) / Dilekçe",
+  "section_type": "READING",
+  "printed_page_range": "36-52",
+  "content_status": "VERIFIED",
+  "outcome_refs": ["TDE2.1", "TDE2.2", "TDE2.3", "TDE2.4"],
+  "activity_refs": ["T1_ACT_05_OKUMA_YONETIM", "T1_ACT_06_OKUMA_ICERIK_ANLAM", "T1_ACT_07_OKUMA_UYGULAMA_COZUMLEME", "T1_ACT_08_OKUMA_DEGERLENDIRME"],
+  "lesson_plan_refs": [
+    "courses/TDE_11/generated/lesson_plans/TEMA_01/BLOCK_T1_01_OKUMA/BLOCK_T1_01_OKUMA_P05.json",
+    "courses/TDE_11/generated/lesson_plans/TEMA_01/BLOCK_T1_01_OKUMA/BLOCK_T1_01_OKUMA_P06.json",
+    "courses/TDE_11/generated/lesson_plans/TEMA_01/BLOCK_T1_01_OKUMA/BLOCK_T1_01_OKUMA_P07.json",
+    "courses/TDE_11/generated/lesson_plans/TEMA_01/BLOCK_T1_01_OKUMA/BLOCK_T1_01_OKUMA_P08.json"
+  ],
+  "guide_units": [
+    {
+      "unit_id": "T1_GUIDE_U05_OKUMA_YONETIM",
+      "title": "Okumayı Yönetebilme",
+      "printed_page_range": "36-38",
+      "activity_refs": ["T1_ACT_05_OKUMA_YONETIM"],
+      "outcome_refs": ["TDE2.1"],
+      "content_status": "VERIFIED",
+      "purpose": "Mektup/dilekçe ön bilgisi; okuma amacı, stratejisi ve tahminleri.",
+      "items": [
+        {
+          "item_id": "T1_G05_P36_PREP",
+          "printed_page_range": "36",
+          "label": "Mektup — Konuya Başlarken",
+          "item_type": "QUESTION",
+          "expected_answer": {"mektup": "Bir kişinin başka kişi veya kuruma duygu, düşünce, haber, istek ya da bilgi iletmek için yazdığı iletişim metnidir; özel mektup kişisel/samimi, resmî mektup kurallı ve amaç odaklıdır.", "sanat_mektup": "Resim, müzik, mimari ve diğer sanat ürünleri üreticisinin duygu, düşünce, dünya görüşü veya çağının özelliklerini alıcıya iletebilir; bu bakımdan bir ileti taşırlar.", "konusur_gibi": "Doğal ve içten anlatım yazıyı canlı kılar; ancak yazılı anlatımda düzen, anlaşılırlık ve türe uygunluk korunur."},
+          "acceptance_criteria": ["Mektubun iletişim işlevini açıklar.", "Sanat ürünü benzetmesinde üretici→ileti→alıcı ilişkisini kurar.", "Doğallık ile yazılı düzen gereğini birlikte belirtir."],
+          "teacher_guidance": ["Özel ve resmî iletişim farkını daha başta görünür kıl."],
+          "common_misconceptions": ["Bütün mektupları aynı dil ve amaçla yazılan metinler saymak."],
+          "assessment_evidence": ["Üç hazırlık sorusuna kavramsal olarak ayrışmış cevap."],
+          "differentiation": {"support": ["Özel mektup / resmî mektup için iki kısa örnek ver."], "enrichment": ["Bir sanat ürününün hangi yönleriyle 'ileti' taşıdığını örneklet."]},
+          "provenance": {"source_ids": ["legacy_teacher_guide"], "source_locators": ["basılı s.36"], "content_class": "MIGRATED_LEGACY_GUIDE"}
+        },
+        {
+          "item_id": "T1_G05_P37_38_READING_STRATEGY",
+          "printed_page_range": "37-38",
+          "label": "Mektup okuma amacı ve işaretleme stratejisi",
+          "item_type": "PROCESS",
+          "expected_answer": {"amac": "Mehmet Kaplan'ın Ali'ye aktardığı duygu, haber ve düşünceleri; özel mektubun yapı/dil özelliklerini ve dönemin yaşamına ilişkin ipuçlarını belirlemek.", "tahmin": "Belirli kişiye yazılmış özel mektupta günlük hayat, okuma, çalışma ve kişisel düşünceler bulunabilir.", "kodlama": {"D": "duygu", "G": "günlük hayat", "E": "edebiyat/okuma", "İ": "ileti/öğüt"}},
+          "acceptance_criteria": ["Okuma amacını ve stratejisini açıklar.", "Mektuptan çıkan bilgi ile biyografi bilgisini ayırır."],
+          "teacher_guidance": ["Sayfa 38'de iki sütun kullan: 'Mektuptan doğrudan öğrendiğim' / 'Biyografiden öğrendiğim'.", "Ders planı P05'teki TDE2.3 kodunu kullanma; resmî kitap haritasındaki TDE2.1 eşleşmesini esas al."],
+          "common_misconceptions": ["Mektup içeriği ile yazar biyografisini birbirine karıştırmak."],
+          "assessment_evidence": ["Kodlanmış okuma notları ve iki kaynak sütunu."],
+          "differentiation": {"support": ["D-G-E-İ kodlarını hazır kart olarak ver."], "enrichment": ["Mektuptan ve biyografiden gelen bilgilerin güvenilirlik/işlev farkını tartıştır."]},
+          "provenance": {"source_ids": ["legacy_teacher_guide", "textbook_map", "lesson_plan_set"], "source_locators": ["basılı s.37-38", "T1_ACT_05_OKUMA_YONETIM", "BLOCK_T1_01_OKUMA_P05"], "content_class": "MIXED", "note": "P05 outcome-code mismatch nedeniyle authoritative eşleşme TDE2.1 olarak korunmuştur."}
+        }
+      ],
+      "provenance": {"source_ids": ["legacy_teacher_guide", "textbook_map"], "source_locators": ["basılı s.36-38", "T1_ACT_05_OKUMA_YONETIM"], "content_class": "MIXED"}
+    },
+    {
+      "unit_id": "T1_GUIDE_U06_OKUMA_ANLAM",
+      "title": "Anlam Oluşturabilme",
+      "printed_page_range": "39-43",
+      "activity_refs": ["T1_ACT_06_OKUMA_ICERIK_ANLAM"],
+      "outcome_refs": ["TDE2.2"],
+      "content_status": "VERIFIED",
+      "purpose": "Mektubun söz varlığı, konu, ana düşünce, tür, öznel/nesnel anlatım ve metinler arası karşılaştırmasını anlamlandırma.",
+      "items": [
+        {
+          "item_id": "T1_G06_P39_VOCAB",
+          "printed_page_range": "39",
+          "label": "Mektubun söz varlığı",
+          "item_type": "VOCABULARY",
+          "expected_answer": {"umumiyetle": "genellikle", "mücerretlik": "soyutluk", "tahlil": "çözümleme, inceleme", "mamafih": "bununla birlikte, yine de", "idealizm": "idealcilik / ülkücülük; bağlama göre", "vaka": "olay", "mütemadi": "sürekli", "müsamahakâr": "hoşgörülü", "mazi": "geçmiş", "alâka": "ilgi", "satıh": "yüzey", "malumat": "bilgi"},
+          "acceptance_criteria": ["Sözcüğü metindeki bağlama uygun günümüz Türkçesiyle yeniden kurar."],
+          "teacher_guidance": ["Yalnız sözlük karşılığını kopyalatma; bağlam cümlesi iste."],
+          "common_misconceptions": ["Bağlamdan bağımsız tek karşılığı yeterli saymak."],
+          "assessment_evidence": ["Sözcük karşılığı + bağlam cümlesi."],
+          "differentiation": {"support": ["Kelimeyi geçtiği düşünce alanıyla eşleştir."], "enrichment": ["Eski karşılık ile güncel karşılık arasındaki üslup farkını açıklat."]},
+          "provenance": {"source_ids": ["legacy_teacher_guide", "textbook_map"], "source_locators": ["basılı s.39", "T1_ACT_06_OKUMA_ICERIK_ANLAM"], "content_class": "MIXED"}
+        },
+        {
+          "item_id": "T1_G06_P40_41_COMPREHENSION",
+          "printed_page_range": "40-41",
+          "label": "Mektubu anlama ve düşünce çözümleme",
+          "item_type": "QUESTION",
+          "expected_answer": {"amac": "Ali ile kişisel bağı sürdürmek; günlük hayat, duygular, fakülte/çalışma, okunan eserler ve edebiyat düşüncelerini paylaşmak; Ali'den haber almak.", "roman_dusunceleri": "Özel mektup haber aktarmanın yanında yazarın zihinsel/kültürel dünyasını da paylaşabilir.", "roman_anlayisi": "Yalnız olay değil insanın iç dünyası ve karakter derinliği önemlidir; kişiler geçmişi, konuşması, davranışı ve tepkileriyle çok yönlü kurulabilir.", "kisi_cozumleme": "Kişi yalnız anlatıcı açıklamasıyla değil; konuşma, davranış, geçmiş ve olaylara tepkilerle tanıtılabilir."},
+          "acceptance_criteria": ["Cevabı mektuptaki bilgi/yorum çizgisinde tutar.", "Özel mektubun kişisel ve kültürel içerikleri birlikte taşıyabileceğini açıklar."],
+          "teacher_guidance": ["Yazar görüşünü genelleştirirken metin kanıtı arat."],
+          "common_misconceptions": ["Özel mektubu yalnız günlük haberlerden oluşan tür saymak."],
+          "assessment_evidence": ["Dört anlama sorusuna kanıta dayalı cevap."],
+          "differentiation": {"support": ["Her cevap için metinden bir anahtar ifade buldur."], "enrichment": ["Roman anlayışını başka bir okuma deneyimiyle karşılaştırmasını iste."]},
+          "provenance": {"source_ids": ["legacy_teacher_guide"], "source_locators": ["basılı s.40-41"], "content_class": "MIGRATED_LEGACY_GUIDE"}
+        },
+        {
+          "item_id": "T1_G06_P40_41_WORKSHEET",
+          "printed_page_range": "40-41",
+          "label": "Mektup çözümleme çalışma kâğıdı",
+          "item_type": "TABLE",
+          "expected_answer": {"konu": "Günlük yaşam, okuma/çalışma hayatı, edebiyat düşünceleri ve kişisel duygular", "ana_dusunce": "Kendini geliştirmek için okuma, düşünme, çalışma ve yazma çabası gerekir.", "yardimci_dusunceler": ["yalnızlık", "okunan yazarlar", "roman karşılaştırmaları", "yazma isteği", "emek-yetenek", "çevre"], "anlatim_bicimleri": ["açıklayıcı", "öyküleyici", "yer yer tartışmacı"], "dusunceyi_gelistirme": ["karşılaştırma", "örnekleme", "benzetme"], "acik_iletiler": ["çalışma yeteneği geliştirir", "düşünmek/yazmak emek ister", "okuma bakışı genişletir"], "ortuk_iletiler": ["gelişim sabır/cesaret ister", "nitelikli eserler bakışı zenginleştirir", "dostluk düşünce paylaşımıdır"]},
+          "acceptance_criteria": ["Konu, ana düşünce ve yardımcı düşünceyi ayırır.", "Açık ve örtük iletiyi birbirinden ayırır."],
+          "teacher_guidance": ["Ana düşünceyi tek ayrıntıya indirgeyen cevaplarda metnin bütününe dön."],
+          "common_misconceptions": ["Konu ile ana düşünceyi aynı şekilde yazmak."],
+          "assessment_evidence": ["Tamamlanmış çözümleme tablosu."],
+          "differentiation": {"support": ["Başlıkları hazır ver; kanıtı öğrenci doldursun."], "enrichment": ["Açık ve örtük iletileri hangi anlatım tercihlerinin taşıdığını açıklat."]},
+          "provenance": {"source_ids": ["legacy_teacher_guide"], "source_locators": ["basılı s.40-41"], "content_class": "MIGRATED_LEGACY_GUIDE"}
+        },
+        {
+          "item_id": "T1_G06_P41_SUBJ_OBJ",
+          "printed_page_range": "41",
+          "label": "Öznel ve nesnel ifadeler",
+          "item_type": "TABLE",
+          "expected_answer": {"oznel": ["bir mektuptan memnun olma", "hayatı tuhaf bulma", "bir roman geleneğini daha derin bulma", "çeviriyi beğenme"], "nesnel": ["fakültede sınavların başlaması", "belirli eserlerin okunması", "belirli bir yere gidilmesi"], "tur_etkisi": "Özel mektupta duygu, beğeni ve kişisel değerlendirmeler doğrudan muhatapla paylaşıldığı için öznel ifadeler güçlüdür."},
+          "acceptance_criteria": ["Öznel/nesnel ayrımını doğrulanabilirlik ve kişisel değerlendirme ölçütleriyle gerekçelendirir."],
+          "teacher_guidance": [],
+          "common_misconceptions": ["Geçmişte yaşanmış her ifadeyi öznel saymak."],
+          "assessment_evidence": ["Sınıflandırma + türle ilişki."],
+          "differentiation": {"support": ["Doğrulanabilir mi? sorusunu kontrol ölçütü olarak ver."], "enrichment": ["Aynı bilgiyi öznel ve nesnel iki farklı cümleyle yazdır."]},
+          "provenance": {"source_ids": ["legacy_teacher_guide"], "source_locators": ["basılı s.41"], "content_class": "MIGRATED_LEGACY_GUIDE"}
+        },
+        {
+          "item_id": "T1_G06_P42_TYPES",
+          "printed_page_range": "42",
+          "label": "Mektup türleri",
+          "item_type": "TABLE",
+          "expected_answer": {"Özel mektup": "tanıdık kişiler arasında kişisel amaç", "Edebî mektup": "edebiyat, sanat ve düşünce çevresi", "İş mektubu": "kurum/iş ilişkisi ve mesleki-ticari amaç", "Resmî mektup": "kamu/kurum iletişiminde resmî usul ve dil", "incelenen_metin": "Mehmet Kaplan'ın metni temel olarak özel mektuptur; edebiyat düşünceleri ona ayrıca kültürel/edebî değer katar."},
+          "acceptance_criteria": ["Türü amaç, muhatap ve dil üzerinden ayırt eder."],
+          "teacher_guidance": ["Edebiyat üzerine konuşulmasının metni otomatik olarak edebî mektup yapmadığını açıklat."],
+          "common_misconceptions": ["İçinde edebiyat konuşulan her mektubu edebî mektup saymak."],
+          "assessment_evidence": ["Tür eşleştirme ve Kaplan mektubunun gerekçeli tür tayini."],
+          "differentiation": {"support": ["Muhatap–amaç–dil üçlüsünü tablo başlığı yap."], "enrichment": ["Aynı konu için özel ve resmî mektup başlangıcı yazdır."]},
+          "provenance": {"source_ids": ["legacy_teacher_guide"], "source_locators": ["basılı s.42"], "content_class": "MIGRATED_LEGACY_GUIDE"}
+        },
+        {
+          "item_id": "T1_G06_P43_COMPARE",
+          "printed_page_range": "43",
+          "label": "“Yazıcı” ile Mehmet Kaplan mektubunu karşılaştırma",
+          "item_type": "TABLE",
+          "expected_answer": {"mektup_turu": "Özel mektup; belirli kişiye yönelik ve samimi; yer/tarih, hitap ve imza unsurları vardır.", "karsilastirma": {"icerik": "Yazıcı: yazıcılık ve komik yanlış anlamalar; mektup: günlük hayat, okuma, çalışma, dostluk, edebiyat", "tur": "Karagöz/dramatik metin ↔ özel mektup", "donem_cevre": "geleneksel şehir ve sosyal tipler ↔ Cumhuriyet dönemi 1940 şehir/üniversite çevresi", "yapi": "mukaddime-muhavere-fasıl-bitiş ↔ yer/tarih-hitap-giriş/gelişme/sonuç-imza", "dil_uslup": "diyalog, söz oyunu, farklı ağızlar ↔ samimi, doğal, birinci kişili anlatım", "ileti": "doğru iletişim/anlama ↔ okuma, çalışma, gelişme ve paylaşma"}},
+          "acceptance_criteria": ["En az üç ölçütte karşılaştırma yapar.", "Tür farkını yapı, dil veya amaçla ilişkilendirir."],
+          "teacher_guidance": [],
+          "common_misconceptions": ["Metinleri yalnız konu bakımından karşılaştırmak."],
+          "assessment_evidence": ["Çok ölçütlü karşılaştırma tablosu."],
+          "differentiation": {"support": ["Karşılaştırma ölçütlerini hazır ver."], "enrichment": ["İki metnin iletişim sorununu ele alış biçimini karşılaştır."]},
+          "provenance": {"source_ids": ["legacy_teacher_guide"], "source_locators": ["basılı s.43"], "content_class": "MIGRATED_LEGACY_GUIDE"}
+        }
+      ],
+      "provenance": {"source_ids": ["legacy_teacher_guide", "textbook_map"], "source_locators": ["basılı s.39-43", "T1_ACT_06_OKUMA_ICERIK_ANLAM"], "content_class": "MIXED"}
+    },
+    {
+      "unit_id": "T1_GUIDE_U07_OKUMA_COZUMLEME",
+      "title": "Çözümleyebilme",
+      "printed_page_range": "44-45",
+      "activity_refs": ["T1_ACT_07_OKUMA_UYGULAMA_COZUMLEME"],
+      "outcome_refs": ["TDE2.3"],
+      "content_status": "VERIFIED",
+      "purpose": "Mektubun yapı, dil, dönem/toplum ve sosyal bilim boyutlarını çözümleme.",
+      "items": [
+        {
+          "item_id": "T1_G07_P44_STRUCTURE",
+          "printed_page_range": "44",
+          "label": "Mektubun yapı unsurları ve bağlam",
+          "item_type": "TABLE",
+          "expected_answer": {"yer": "İstanbul", "tarih": "24 Haziran 1940", "hitap": "Ali'ye doğrudan hitap", "giris": "Ali'nin mektubunun alınması ve ilk haberleşme", "gelisme": "günlük hayat, fakülte, arkadaşlar, kitaplar, edebiyat ve yazma düşünceleri", "sonuc": "Ali'nin hayatını merak etme, haber isteme, yakın çevreye sorular", "imza": "Mehmet Kaplan", "adres": "metin parçasında ayrıca verilmemiştir", "dil": "Yakın ilişkiye uygun doğrudan hitap, sorular, günlük haberler ve kişisel değerlendirmelerle samimi/doğal anlatım", "donem_gunumuz": "Mektup daha yavaş ama ayrıntılı ve düşünülmüş; telefon/mesajlaşma hızlı, çoğu zaman kısa ve anlıktır.", "toplumsal_yapi": "Üniversite, kitaplar, edebî tartışmalar, kahvehane/arkadaş çevresi ve mektuplaşma eğitimli şehir hayatından izler taşır.", "degerler": {"milli": "Türk edebiyatı ve kültürel birikime ilgi", "manevi": ["dostluk", "aile bağı", "vefa", "merak etme", "selamlaşma", "dayanışma"], "evrensel": ["çalışkanlık", "öğrenme isteği", "sabır", "cesaret", "saygı", "dürüstlük", "gelişim"]}},
+          "acceptance_criteria": ["Yapı unsurlarını doğru konumlandırır.", "Dil ile muhatap yakınlığı arasında bağ kurar.", "Dönem iletişim teknolojisi karşılaştırmasını işlev üzerinden yapar."],
+          "teacher_guidance": ["Yapı unsurunu buldurduktan sonra işlevini de sordur."],
+          "common_misconceptions": ["Metin parçasında görülmeyen adres gibi unsurları uydurmak."],
+          "assessment_evidence": ["Yapı tablosu + bağlam ve değer yorumları."],
+          "differentiation": {"support": ["Yer-tarih-hitap-gövde-kapanış şemasını hazır ver."], "enrichment": ["Aynı mektubun günümüz dijital iletişiminde hangi unsurlarının değişeceğini tartıştır."]},
+          "provenance": {"source_ids": ["legacy_teacher_guide", "textbook_map"], "source_locators": ["basılı s.44", "T1_ACT_07_OKUMA_UYGULAMA_COZUMLEME"], "content_class": "MIXED"}
+        },
+        {
+          "item_id": "T1_G07_P45_SOCIAL_SCIENCE",
+          "printed_page_range": "45",
+          "label": "Mektup ve sosyal bilimler",
+          "item_type": "TABLE",
+          "expected_answer": {"Tarih": "günlük hayat, eğitim ortamı, iletişim araçları, kültürel çevre ve okuma alışkanlığı", "Sosyoloji": "arkadaşlık, aile, eğitim çevresi, sosyal ilişkiler ve bireyin toplumdaki konumu", "Psikoloji": "yalnızlık, özlem, kaygı, beklenti, çalışma isteği ve ruh hâli", "degerlendirme": "Mektup yalnız haberleşme aracı değil; tarih, toplum ve bireyin psikolojisi hakkında kişisel tanıklık sunabilir."},
+          "acceptance_criteria": ["Her seçilen disiplin için mektuptan doğrudan kanıt kullanır."],
+          "teacher_guidance": ["Üç grup kur; her grup incelenen mektuptan en az iki kanıt kullansın. Yalnız genel bilgi yeterli değildir."],
+          "common_misconceptions": ["Mektubu tamamen tarafsız resmî belge gibi değerlendirmek."],
+          "assessment_evidence": ["Disiplin başına metin kanıtı + çıkarım."],
+          "differentiation": {"support": ["Her disiplin için bir soru kökü ver."], "enrichment": ["Aynı kanıtın iki disiplin tarafından farklı yorumlanmasını iste."]},
+          "provenance": {"source_ids": ["legacy_teacher_guide"], "source_locators": ["basılı s.45"], "content_class": "MIGRATED_LEGACY_GUIDE"}
+        }
+      ],
+      "provenance": {"source_ids": ["legacy_teacher_guide", "textbook_map"], "source_locators": ["basılı s.44-45", "T1_ACT_07_OKUMA_UYGULAMA_COZUMLEME"], "content_class": "MIXED"}
+    },
+    {
+      "unit_id": "T1_GUIDE_U08_OKUMA_DEGERLENDIRME",
+      "title": "Süreci Değerlendirebilme",
+      "printed_page_range": "46-52",
+      "activity_refs": ["T1_ACT_08_OKUMA_DEGERLENDIRME"],
+      "outcome_refs": ["TDE2.4"],
+      "content_status": "VERIFIED",
+      "purpose": "Mektubu ölçütlerle değerlendirme; gerçeklik/iletişim dönüşümünü ve dilekçe ara metnini uygulama.",
+      "items": [
+        {
+          "item_id": "T1_G08_P46_EVALUATION",
+          "printed_page_range": "46",
+          "label": "Mektubu ölçütlerle değerlendirme",
+          "item_type": "ASSESSMENT",
+          "expected_answer": {"olcutler": ["yalınlık/anlaşılırlık", "samimiyet", "akıcılık", "içerik zenginliği", "tutarlılık", "düşündürücülük"], "metin": "Samimi ve doğal; dönem kelimeleri dışında anlaşılır; günlük hayat ile edebiyat düşüncelerini birlikte taşıdığı için içerik zengindir.", "amac": "Büyük ölçüde ulaşır; duygu, günlük yaşam, okumalar ve düşünceler aktarılır ve Ali'den haber istenir.", "donusturme": "Kaynak şiiri kopyalamadan özlem, sevgi ve kavuşma içeriğini hitap-gelişme-kapanış düzeninde mektuba dönüştürür."},
+          "acceptance_criteria": ["En az iki ölçüt üzerinden gerekçeli değerlendirme yapar.", "Dönüştürme görevinde kaynak duygu/içeriği korur, metni kopyalamaz."],
+          "teacher_guidance": ["Örnek metni tek doğru ürün gibi sunma; tür ölçütlerini koruyan farklı ürünleri kabul et."],
+          "common_misconceptions": ["Beğeniyi gerekçesiz kişisel tercih olarak bırakmak."],
+          "assessment_evidence": ["Ölçüt + yargı + gerekçe; kısa özgün mektup."],
+          "differentiation": {"support": ["İki hazır ölçüt seçtir ve yargıyı kanıtlat."], "enrichment": ["Aynı metni farklı iki ölçüt setiyle değerlendirip sonuçları karşılaştır."]},
+          "provenance": {"source_ids": ["legacy_teacher_guide", "textbook_map"], "source_locators": ["basılı s.46", "T1_ACT_08_OKUMA_DEGERLENDIRME"], "content_class": "MIXED"}
+        },
+        {
+          "item_id": "T1_G08_P47_REALITY",
+          "printed_page_range": "47",
+          "label": "Metinsel gerçeklik ve nesnel gerçeklik",
+          "item_type": "QUESTION",
+          "expected_answer": {"genel": "Yer, tarih, eğitim, okuma ve çevre unsurları gerçek yaşama dayanır; ancak seçme, duygu ve değerlendirmeler nedeniyle öznel gerçeklik de vardır.", "kanitlar": ["yer/tarih → dönem mektuplaşma geleneği", "fakülte/sınav → akademik yaşam", "eser/yazar adları → edebiyat araştırmacısı kimliği", "arkadaşlardan haber isteme → haberleşme işlevi"], "yargi": "Bilgiler gerçek yaşama dayanır fakat tamamen tarafsız bir belge değildir."},
+          "acceptance_criteria": ["Katılıyorum/katılmıyorum cevabına en az bir metin kanıtı ekler."],
+          "teacher_guidance": ["Doğrulanabilir bilgi ile kişisel yorum ayrımını koru."],
+          "common_misconceptions": ["Gerçek kişiye ait mektubu bütünüyle nesnel belge saymak."],
+          "assessment_evidence": ["Yargı + metin kanıtı."],
+          "differentiation": {"support": ["Bilgi / yorum olarak iki sütunlu kanıt tablosu ver."], "enrichment": ["Aynı mektubun tarihçi ve edebiyat araştırmacısı için farklı kaynak değerini tartıştır."]},
+          "provenance": {"source_ids": ["legacy_teacher_guide"], "source_locators": ["basılı s.47"], "content_class": "MIGRATED_LEGACY_GUIDE"}
+        },
+        {
+          "item_id": "T1_G08_P48_50_COMMUNICATION",
+          "printed_page_range": "48-50",
+          "label": "İletişim, zaman, teknoloji ve farklı dönem örnekleri",
+          "item_type": "QUESTION",
+          "expected_answer": {"s48": {"siseye_ileti": "Uzak veya tanımadık birine ulaşma, bağlantı kurma, mesaj bırakma ya da beklenmedik iletişim başlatma.", "gec_ulasma": "Haber güncelliğini kaybedebilir ve cevap gecikebilir; yıllar sonra tarihî veya duygusal belge değeri kazanabilir.", "magara_emoji": "Her ikisi görsel işaretlerle duygu, düşünce veya bilgi iletebilir; bağlam yorum için gereklidir."}, "s50_yazilis_amaclari": ["selam ve hâl/sağlık sorma", "umut, mücadele ve geleceğe güven", "sağlık/tıbbi durum hakkında bilgi, görüş/yardım ve teşekkür/selam", "kişisel duygu, yakınlık ve özlem", "sevgi, özlem ve kavuşma beklentisini şiirsel iletme"], "ortak_islev": "Biçimler değişse de göndericiden alıcıya duygu, düşünce, haber, istek veya bilgi aktarılır.", "gerceklik": "Bazıları somut bilgilerle nesnel gerçekliğe yaklaşır; bazıları özlem, umut ve sevgiyi edebî/şiirsel biçimde dönüştürür.", "tercih": "Seçimin kendisinden çok yakın kişiye iletişimi neden güçlendireceği gerekçelendirilir."},
+          "acceptance_criteria": ["Her örnek için kim→kime / hangi amaçla ilişkisini kurar.", "Gerçekliğin doğrudan mı duygusal/edebî mi aktarıldığını ayırır."],
+          "teacher_guidance": ["Sayfa 49'daki her metnin yanına 'Kim kime/hangi amaçla?' ve 'Gerçekliği nasıl aktarıyor?' notu yazdır."],
+          "common_misconceptions": ["İletişim aracının değişmesini iletişim amacının tamamen değişmesi saymak."],
+          "assessment_evidence": ["İletişim amacı ve gerçeklik biçimi tablosu."],
+          "differentiation": {"support": ["Gönderici-alıcı-amaç üçlüsünü hazır şema olarak ver."], "enrichment": ["Aynı iletinin mektup, mesaj ve görsel simgeyle aktarımını karşılaştır."]},
+          "provenance": {"source_ids": ["legacy_teacher_guide"], "source_locators": ["basılı s.48-50"], "content_class": "MIGRATED_LEGACY_GUIDE"}
+        },
+        {
+          "item_id": "T1_G08_P51_PETITION_RULES",
+          "printed_page_range": "51",
+          "label": "Ara metin: dilekçe kuralları",
+          "item_type": "REFERENCE",
+          "expected_answer": {"kurallar": ["açık, kısa, anlaşılır ve resmî dil", "makam adını doğru yazma", "talebi somut ve tek anlamlı kurma", "uygun bitiriş", "tarih, imza, ad-soyad ve gerekli kimlik/iletişim bilgileri", "ekleri belirtme", "gereksiz duygu, uzun hikâye ve konuşma dilinden kaçınma"], "fark": "Özel mektup samimi/kişisel; dilekçe resmî/amaç odaklıdır."},
+          "acceptance_criteria": ["Dilekçenin resmî dil ve yapı unsurlarını ayırt eder."],
+          "teacher_guidance": ["Dilekçeyi yalnız biçim kalıbı olarak değil amaç ve muhatap uygunluğu üzerinden değerlendir."],
+          "common_misconceptions": ["Dilekçede uzun ve duygusal gerekçenin daha ikna edici olduğunu düşünmek."],
+          "assessment_evidence": ["Kural kontrol listesi."],
+          "differentiation": {"support": ["Makam-talep-gerekçe-bitiriş-bilgi sırasını şema olarak ver."], "enrichment": ["Aynı talebi özel mektup ve dilekçe dilinde iki farklı biçimde yazdır."]},
+          "provenance": {"source_ids": ["legacy_teacher_guide"], "source_locators": ["basılı s.51"], "content_class": "MIGRATED_LEGACY_GUIDE"}
+        },
+        {
+          "item_id": "T1_G08_P52_PETITION_TASK",
+          "printed_page_range": "52",
+          "label": "Dilekçe yazma ve değerlendirme",
+          "item_type": "PERFORMANCE_TASK",
+          "expected_answer": {"ornek_icerik_ozeti": "Okul kütüphanesinin öğle aralarında uygun personel ve okul düzeni çerçevesinde öğrencilerin kullanımına açılması talebi; gerekçe çalışma ve kaynaklardan yararlanma imkânını artırmasıdır.", "olcutler": ["makam doğru", "talep açık ve tek anlamlı", "dil resmî, kısa ve anlaşılır", "gerekçe yeterli ama gereksiz uzun değil", "bitiriş, tarih, imza ve kimlik/iletişim bilgileri tam"]},
+          "acceptance_criteria": ["Talep ve gerekçeyi birbirinden ayırır.", "Biçimsel zorunlulukları tamamlar."],
+          "teacher_guidance": ["Örneği kalıp olarak kullan; öğrencinin farklı ama gerçekçi bir okul ihtiyacına kendi dilekçesini yazmasını sağla."],
+          "common_misconceptions": ["Örnek dilekçeyi aynen kopyalamak."],
+          "assessment_evidence": ["Özgün dilekçe + kontrol listesi."],
+          "differentiation": {"support": ["Boş alanlı dilekçe iskeleti ver."], "enrichment": ["Aynı talep için zayıf ve güçlü iki gerekçeyi karşılaştırmasını iste."]},
+          "provenance": {"source_ids": ["legacy_teacher_guide"], "source_locators": ["basılı s.52"], "content_class": "MIGRATED_LEGACY_GUIDE"}
+        },
+        {
+          "item_id": "T1_G08_P52_FORWARD_READING",
+          "printed_page_range": "52",
+          "label": "İleri okuma: Huzur için hazırlık",
+          "item_type": "TEACHER_NOTE",
+          "expected_answer": ["temel olay örgüsü", "başlıca kişiler ve ilişkileri", "İstanbul ve mekânların işlevi", "zaman/dönem", "temel çatışmalar", "kahramanların iç dünyası", "tema/izlek", "dil/üslup"],
+          "acceptance_criteria": ["Öğrenci ileri okumada başlıklara göre kısa kanıt notları tutar."],
+          "teacher_guidance": ["Bu notların ileride kitabın s.165'teki Okumayı Yönetebilme sorularına hazırlık olduğunu açıkla."],
+          "common_misconceptions": [],
+          "assessment_evidence": ["Sekiz başlık altında okuma notları."],
+          "differentiation": {"support": ["Sekiz başlıklı okuma günlüğü şablonu ver."], "enrichment": ["Mekân ve iç dünya ilişkisine ayrıca kanıt toplat."]},
+          "provenance": {"source_ids": ["legacy_teacher_guide"], "source_locators": ["basılı s.52", "ileri hazırlık"], "content_class": "MIGRATED_LEGACY_GUIDE"}
+        }
+      ],
+      "provenance": {"source_ids": ["legacy_teacher_guide", "textbook_map"], "source_locators": ["basılı s.46-52", "T1_ACT_08_OKUMA_DEGERLENDIRME"], "content_class": "MIXED"}
+    }
+  ],
+  "section_principles": [
+    "Bilgi sorularında doğruluk aranır; yorum sorularında metin kanıtı + gerekçe aranır.",
+    "Kişisel tercih sorularında görüşün kendisi değil gerekçelendirme kalitesi değerlendirilir.",
+    "Eski kelimelerde kitap dipnotu, bağlam ve güncel sözlük karşılığı önceliklidir.",
+    "Mektup-gerçeklik çalışmalarında doğrulanabilir bilgi ile öznel yorum ayrımı korunur.",
+    "Dilekçe örneği öğrencinin yerine üretilmiş nihai cevap değil; tür ölçütlerini görünür kılan modeldir."
+  ],
+  "provenance": {"source_ids": ["legacy_teacher_guide", "textbook_map", "theme_alignment", "lesson_plan_set"], "source_locators": ["basılı s.36-52", "T1_ACT_05_OKUMA_YONETIM", "T1_ACT_06_OKUMA_ICERIK_ANLAM", "T1_ACT_07_OKUMA_UYGULAMA_COZUMLEME", "T1_ACT_08_OKUMA_DEGERLENDIRME"], "content_class": "MIXED", "note": "T1_ACT_05 için lesson-plan P05 kodu değil, textbook_map/alignment eşleşmesi TDE2.1 esas alınmıştır."}
+}
