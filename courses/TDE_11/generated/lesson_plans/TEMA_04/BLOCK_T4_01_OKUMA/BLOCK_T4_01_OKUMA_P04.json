@@ -1,1 +1,94 @@
-{"schema_version":"1.0.0","course_id":"TDE_11","theme_id":"TEMA_04","block_id":"BLOCK_T4_01_OKUMA","lesson_hours":2,"plan_title":"HAYATIN AYNASI — Okuma 4: Süreci Değerlendirebilme","plan_summary":"15 saatlik okuma bloğunun bu 2 saatlik bölümünde ders kitabındaki doğrulanmış etkinlikler kullanılarak ilgili öğrenme çıktısına yönelik somut öğrenci kanıtı üretilir. Saat içi akış pedagojik öneridir; resmî MEB alt-saat sıralaması olarak sunulmaz.","outcome_codes":["TDE2.2"],"used_activity_ids":["T4_ACT_04_OKUMA_DEGERLENDIRME"],"used_form_ids":[],"lessons":[{"lesson_no":1,"duration_lesson_hours":1,"title":"Süreci Değerlendirebilme: kanıt üretme ve geliştirme","objective":"Öğrenci, “Süreci Değerlendirebilme” etkinliğinde okuma sürecini ve metne ilişkin yargılarını belirlediği ölçütlerle değerlendirir; ürettiği kanıtı gerekçelendirerek uygulama ve ilk kanıt sürecini tamamlar.","outcome_codes":["TDE2.2"],"opening":"“Süreci Değerlendirebilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi okuma davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.","teacher_actions":["“Süreci Değerlendirebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.","Öğrencinin şu görevi yerine getirmesini sağla: Okuma sürecini ve metne ilişkin yargılarını belirlediği ölçütlerle değerlendirir. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.","“Öz değerlendirme, çıkış kartı, öğrenme günlüğü veya gerekçeli değerlendirme” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.","Ders sırasında kısa kontrol noktaları kullan; öğrencinin yanlış veya eksik stratejiyi kanıt oluşmadan önce fark edip düzeltmesine fırsat ver."],"student_actions":["Okuma sürecini ve metne ilişkin yargılarını belirlediği ölçütlerle değerlendirir.","Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.","Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.","Kapanışta bir güçlü kanıtını ve bir geliştirme adımını kısa biçimde kaydeder."],"activity_ids":["T4_ACT_04_OKUMA_DEGERLENDIRME"],"form_ids":[],"assessment":"Ana ölçme kanıtı şudur: “Öz değerlendirme, çıkış kartı, öğrenme günlüğü veya gerekçeli değerlendirme”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen okuma becerisine uygunluğu üzerinden verilir.","closure":"Öğrenci “Öz değerlendirme, çıkış kartı, öğrenme günlüğü veya gerekçeli değerlendirme” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.","materials":["Metin Tahlili-1 (Anlama): Okuma — Tiyatro / Ben, Mimar Sinan — ders kitabı s.262","Öğrencinin bu ders saatinde oluşturduğu somut kanıt kaydı"]},{"lesson_no":2,"duration_lesson_hours":1,"title":"Süreci Değerlendirebilme: kanıt üretme ve geliştirme","objective":"Öğrenci, “Süreci Değerlendirebilme” etkinliğinde okuma sürecini ve metne ilişkin yargılarını belirlediği ölçütlerle değerlendirir; ürettiği kanıtı gerekçelendirerek kanıtı geliştirme ve düzeltme sürecini tamamlar.","outcome_codes":["TDE2.2"],"opening":"“Süreci Değerlendirebilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi okuma davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.","teacher_actions":["“Süreci Değerlendirebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.","Öğrencinin şu görevi yerine getirmesini sağla: Okuma sürecini ve metne ilişkin yargılarını belirlediği ölçütlerle değerlendirir. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.","“Öz değerlendirme, çıkış kartı, öğrenme günlüğü veya gerekçeli değerlendirme” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.","İlk denemeden sonra ortak bir güçlü örneği ve geliştirilmesi gereken bir örneği anonim biçimde karşılaştır; öğrencinin ikinci denemesinde neyi değiştireceğini netleştir."],"student_actions":["Okuma sürecini ve metne ilişkin yargılarını belirlediği ölçütlerle değerlendirir.","Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.","Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.","İlk kanıtı ile düzeltilmiş kanıtı karşılaştırıp hangi değişikliğin sonucu iyileştirdiğini açıklar."],"activity_ids":["T4_ACT_04_OKUMA_DEGERLENDIRME"],"form_ids":[],"assessment":"Ana ölçme kanıtı şudur: “Öz değerlendirme, çıkış kartı, öğrenme günlüğü veya gerekçeli değerlendirme”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen okuma becerisine uygunluğu üzerinden verilir.","closure":"Öğrenci “Öz değerlendirme, çıkış kartı, öğrenme günlüğü veya gerekçeli değerlendirme” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.","materials":["Metin Tahlili-1 (Anlama): Okuma — Tiyatro / Ben, Mimar Sinan — ders kitabı s.262","Öğrencinin bu ders saatinde oluşturduğu somut kanıt kaydı"]}],"teacher_notes":"Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanımlı öğrenme çıktılarına dayanır. Dış QR bağlantısındaki doğrulanmamış dereceli puanlama anahtarı ölçüt×düzey içeriği kullanılmaz; pedagojik saat içi sıralama MEB tarafından verilmiş resmî alt-saat sıralaması değildir.","continuation_summary":{"planned_now_hours":2,"remaining_block_hours":7,"covered_outcome_codes":["TDE2.2"],"used_activity_ids":["T4_ACT_04_OKUMA_DEGERLENDIRME"],"next_step_hint":"Aynı okuma bloğunda kalan 7 saatte kullanılmamış veya derinleştirilecek doğrulanmış kitap etkinlikleriyle beceri kanıtını ilerlet."}}
+{
+  "schema_version": "1.0.0",
+  "course_id": "TDE_11",
+  "theme_id": "TEMA_04",
+  "block_id": "BLOCK_T4_01_OKUMA",
+  "lesson_hours": 2,
+  "plan_title": "HAYATIN AYNASI — Okuma 4: Süreci Değerlendirebilme",
+  "plan_summary": "15 saatlik okuma bloğunun bu 2 saatlik bölümünde ders kitabındaki doğrulanmış etkinlikler kullanılarak ilgili öğrenme çıktısına yönelik somut öğrenci kanıtı üretilir. Saat içi akış pedagojik öneridir; resmî MEB alt-saat sıralaması olarak sunulmaz.",
+  "outcome_codes": [
+    "TDE2.4"
+  ],
+  "used_activity_ids": [
+    "T4_ACT_04_OKUMA_DEGERLENDIRME"
+  ],
+  "used_form_ids": [],
+  "lessons": [
+    {
+      "lesson_no": 1,
+      "duration_lesson_hours": 1,
+      "title": "Süreci Değerlendirebilme: kanıt üretme ve geliştirme",
+      "objective": "Öğrenci, “Süreci Değerlendirebilme” etkinliğinde okuma sürecini ve metne ilişkin yargılarını belirlediği ölçütlerle değerlendirir; ürettiği kanıtı gerekçelendirerek uygulama ve ilk kanıt sürecini tamamlar.",
+      "outcome_codes": [
+        "TDE2.4"
+      ],
+      "opening": "“Süreci Değerlendirebilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi okuma davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.",
+      "teacher_actions": [
+        "“Süreci Değerlendirebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.",
+        "Öğrencinin şu görevi yerine getirmesini sağla: Okuma sürecini ve metne ilişkin yargılarını belirlediği ölçütlerle değerlendirir. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.",
+        "“Öz değerlendirme, çıkış kartı, öğrenme günlüğü veya gerekçeli değerlendirme” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.",
+        "Ders sırasında kısa kontrol noktaları kullan; öğrencinin yanlış veya eksik stratejiyi kanıt oluşmadan önce fark edip düzeltmesine fırsat ver."
+      ],
+      "student_actions": [
+        "Okuma sürecini ve metne ilişkin yargılarını belirlediği ölçütlerle değerlendirir.",
+        "Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.",
+        "Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.",
+        "Kapanışta bir güçlü kanıtını ve bir geliştirme adımını kısa biçimde kaydeder."
+      ],
+      "activity_ids": [
+        "T4_ACT_04_OKUMA_DEGERLENDIRME"
+      ],
+      "form_ids": [],
+      "assessment": "Ana ölçme kanıtı şudur: “Öz değerlendirme, çıkış kartı, öğrenme günlüğü veya gerekçeli değerlendirme”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen okuma becerisine uygunluğu üzerinden verilir.",
+      "closure": "Öğrenci “Öz değerlendirme, çıkış kartı, öğrenme günlüğü veya gerekçeli değerlendirme” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.",
+      "materials": [
+        "Metin Tahlili-1 (Anlama): Okuma — Tiyatro / Ben, Mimar Sinan — ders kitabı s.262",
+        "Öğrencinin bu ders saatinde oluşturduğu somut kanıt kaydı"
+      ]
+    },
+    {
+      "lesson_no": 2,
+      "duration_lesson_hours": 1,
+      "title": "Süreci Değerlendirebilme: kanıt üretme ve geliştirme",
+      "objective": "Öğrenci, “Süreci Değerlendirebilme” etkinliğinde okuma sürecini ve metne ilişkin yargılarını belirlediği ölçütlerle değerlendirir; ürettiği kanıtı gerekçelendirerek kanıtı geliştirme ve düzeltme sürecini tamamlar.",
+      "outcome_codes": [
+        "TDE2.4"
+      ],
+      "opening": "“Süreci Değerlendirebilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi okuma davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.",
+      "teacher_actions": [
+        "“Süreci Değerlendirebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.",
+        "Öğrencinin şu görevi yerine getirmesini sağla: Okuma sürecini ve metne ilişkin yargılarını belirlediği ölçütlerle değerlendirir. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.",
+        "“Öz değerlendirme, çıkış kartı, öğrenme günlüğü veya gerekçeli değerlendirme” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.",
+        "İlk denemeden sonra ortak bir güçlü örneği ve geliştirilmesi gereken bir örneği anonim biçimde karşılaştır; öğrencinin ikinci denemesinde neyi değiştireceğini netleştir."
+      ],
+      "student_actions": [
+        "Okuma sürecini ve metne ilişkin yargılarını belirlediği ölçütlerle değerlendirir.",
+        "Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.",
+        "Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.",
+        "İlk kanıtı ile düzeltilmiş kanıtı karşılaştırıp hangi değişikliğin sonucu iyileştirdiğini açıklar."
+      ],
+      "activity_ids": [
+        "T4_ACT_04_OKUMA_DEGERLENDIRME"
+      ],
+      "form_ids": [],
+      "assessment": "Ana ölçme kanıtı şudur: “Öz değerlendirme, çıkış kartı, öğrenme günlüğü veya gerekçeli değerlendirme”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen okuma becerisine uygunluğu üzerinden verilir.",
+      "closure": "Öğrenci “Öz değerlendirme, çıkış kartı, öğrenme günlüğü veya gerekçeli değerlendirme” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.",
+      "materials": [
+        "Metin Tahlili-1 (Anlama): Okuma — Tiyatro / Ben, Mimar Sinan — ders kitabı s.262",
+        "Öğrencinin bu ders saatinde oluşturduğu somut kanıt kaydı"
+      ]
+    }
+  ],
+  "teacher_notes": "Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanımlı öğrenme çıktılarına dayanır. Dış QR bağlantısındaki doğrulanmamış dereceli puanlama anahtarı ölçüt×düzey içeriği kullanılmaz; pedagojik saat içi sıralama MEB tarafından verilmiş resmî alt-saat sıralaması değildir.",
+  "continuation_summary": {
+    "planned_now_hours": 2,
+    "remaining_block_hours": 7,
+    "covered_outcome_codes": [
+      "TDE2.4"
+    ],
+    "used_activity_ids": [
+      "T4_ACT_04_OKUMA_DEGERLENDIRME"
+    ],
+    "next_step_hint": "Aynı okuma bloğunda kalan 7 saatte kullanılmamış veya derinleştirilecek doğrulanmış kitap etkinlikleriyle beceri kanıtını ilerlet."
+  }
+}

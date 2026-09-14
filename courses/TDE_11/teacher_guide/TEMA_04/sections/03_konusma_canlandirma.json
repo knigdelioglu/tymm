@@ -1,0 +1,363 @@
+{
+  "schema_version": "1.1.0",
+  "document_type": "TYMM_TEACHER_GUIDE_SECTION",
+  "course_id": "TDE_11",
+  "theme_id": "TEMA_04",
+  "section_id": "T4_SEC_03_KONUSMA_CANLANDIRMA",
+  "title": "Edebiyat Atölyesi-1 (Anlatma): Konuşma — Tiyatro Metnini Yeniden Kurgulayarak Canlandırma",
+  "section_type": "SPEAKING",
+  "printed_page_range": "280-283",
+  "content_status": "REVIEW_REQUIRED",
+  "outcome_refs": [
+    "TDE3.1",
+    "TDE3.2",
+    "TDE3.3",
+    "TDE3.4"
+  ],
+  "activity_refs": [
+    "T4_ACT_09_KONUSMA_YONETIM",
+    "T4_ACT_10_KONUSMA_ICERIK_ANLAM",
+    "T4_ACT_11_KONUSMA_UYGULAMA_COZUMLEME",
+    "T4_ACT_12_KONUSMA_DEGERLENDIRME"
+  ],
+  "lesson_plan_refs": [
+    "courses/TDE_11/generated/lesson_plans/TEMA_04/BLOCK_T4_02_KONUSMA/BLOCK_T4_02_KONUSMA_P01.json",
+    "courses/TDE_11/generated/lesson_plans/TEMA_04/BLOCK_T4_02_KONUSMA/BLOCK_T4_02_KONUSMA_P02.json",
+    "courses/TDE_11/generated/lesson_plans/TEMA_04/BLOCK_T4_02_KONUSMA/BLOCK_T4_02_KONUSMA_P03.json",
+    "courses/TDE_11/generated/lesson_plans/TEMA_04/BLOCK_T4_02_KONUSMA/BLOCK_T4_02_KONUSMA_P04.json",
+    "courses/TDE_11/generated/lesson_plans/TEMA_04/BLOCK_T4_02_KONUSMA/BLOCK_T4_02_KONUSMA_P05.json"
+  ],
+  "guide_units": [
+    {
+      "unit_id": "T4_GUIDE_U11_KONUSMA_YONETIM",
+      "title": "Canlandırmayı Yönetme — Rol ve Uzam",
+      "printed_page_range": "280-281",
+      "activity_refs": [
+        "T4_ACT_09_KONUSMA_YONETIM"
+      ],
+      "outcome_refs": [
+        "TDE3.1"
+      ],
+      "content_status": "VERIFIED",
+      "purpose": "Rol yaratma, empati, uzam ve konuşma amacını canlandırma öncesinde planlamak.",
+      "items": [
+        {
+          "item_id": "T4_G03_P280_ROL_UZAM",
+          "printed_page_range": "280",
+          "label": "Rol yaratma ve tiyatro hakkında çıkarım",
+          "item_type": "QUESTION",
+          "expected_answer": {
+            "diyalogdan_cikarim": [
+              "karakterler arası ilişki",
+              "çatışma ve amaç",
+              "dil/üslup",
+              "duygu ve güç ilişkisi"
+            ],
+            "rol_hazirligi": [
+              "karakterin dönemini ve koşullarını anlama",
+              "alt metin/amaç",
+              "duygu ve beden kullanımı",
+              "mekân-zaman",
+              "kendi deneyimiyle empati"
+            ]
+          },
+          "acceptance_criteria": [
+            "Rolü yalnız ezberlenecek sözler olarak görmez.",
+            "En az iki boyutu nedenleriyle açıklar."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf",
+              "textbook_map"
+            ],
+            "source_locators": [
+              "basılı s.280 / PDF s.281"
+            ],
+            "content_class": "MIXED"
+          }
+        },
+        {
+          "item_id": "T4_G03_P281_DIL_TIYATRO",
+          "printed_page_range": "281",
+          "label": "Diyalog, doğru dil ve ‘insanı insana insanla anlatma’",
+          "item_type": "QUESTION",
+          "expected_answer": "Diyalog tiyatroda ilişkiyi ve eylemi taşır; doğru/bağlama uygun dil anlamı, karakteri ve iletişimi güçlendirir. ‘İnsanı insana insanla anlatma’ sözü, insan deneyiminin oyuncu/karakter aracılığıyla başka insanlara canlı biçimde sunulmasını vurgular.",
+          "acceptance_criteria": [
+            "Diyalog ile günlük iletişim arasında işlevsel bağ kurar.",
+            "Tiyatro tanımını insan-karakter-izleyici ilişkisiyle açıklar."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf",
+              "textbook_map"
+            ],
+            "source_locators": [
+              "basılı s.281 / PDF s.282"
+            ],
+            "content_class": "MIXED"
+          }
+        }
+      ],
+      "provenance": {
+        "source_ids": [
+          "official_textbook_pdf",
+          "textbook_map"
+        ],
+        "source_locators": [
+          "basılı s.280-281 / PDF s.281-282"
+        ],
+        "content_class": "MIXED"
+      }
+    },
+    {
+      "unit_id": "T4_GUIDE_U12_KONUSMA_ICERIK",
+      "title": "Canlandırma İçeriğini Planlama",
+      "printed_page_range": "281",
+      "activity_refs": [
+        "T4_ACT_10_KONUSMA_ICERIK_ANLAM"
+      ],
+      "outcome_refs": [
+        "TDE3.2"
+      ],
+      "content_status": "VERIFIED",
+      "purpose": "Ben, Mimar Sinan’dan seçilen bölümü hedef kitle, amaç, rol ve iletişim engellerine göre canlandırmaya hazırlamak.",
+      "items": [
+        {
+          "item_id": "T4_G03_P281_PERFORMANS_PLANI",
+          "printed_page_range": "281",
+          "label": "Tiyatro bölümünü yeniden kurgulama performans görevi",
+          "item_type": "PERFORMANCE_TASK",
+          "expected_answer": {
+            "zorunlu_adimlar": [
+              "amaç",
+              "grup ve rol dağılımı",
+              "canlandırılacak bölüm",
+              "hedef kitle/süre",
+              "yöntem-strateji",
+              "iletişim engellerini giderme"
+            ]
+          },
+          "acceptance_criteria": [
+            "Canlandırma amacı açıktır.",
+            "Rol ve sahne bölümü belirlenmiştir.",
+            "Yöntem hedef kitle/süreyle uyumludur.",
+            "İletişim engelleri için önlem alınmıştır."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "Kitaptaki görünür kontrol listesinin tamamlanması."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf",
+              "textbook_map"
+            ],
+            "source_locators": [
+              "basılı s.281 / PDF s.282"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        }
+      ],
+      "provenance": {
+        "source_ids": [
+          "official_textbook_pdf",
+          "textbook_map"
+        ],
+        "source_locators": [
+          "basılı s.281 / PDF s.282"
+        ],
+        "content_class": "MIXED"
+      }
+    },
+    {
+      "unit_id": "T4_GUIDE_U13_KONUSMA_UYGULAMA",
+      "title": "Rolü İçselleştirme ve Canlandırma Kuralları",
+      "printed_page_range": "282",
+      "activity_refs": [
+        "T4_ACT_11_KONUSMA_UYGULAMA_COZUMLEME"
+      ],
+      "outcome_refs": [
+        "TDE3.3"
+      ],
+      "content_status": "VERIFIED",
+      "purpose": "Karakter ilişkisi, jest-mimik, doğaçlama, beden, diksiyon, görsel-işitsel ögeler ve geri bildirimle canlandırmayı gerçekleştirmek.",
+      "items": [
+        {
+          "item_id": "T4_G03_P282_CANLANDIRMA",
+          "printed_page_range": "282",
+          "label": "Canlandırma uygulama ölçütleri",
+          "item_type": "PERFORMANCE_TASK",
+          "expected_answer": [
+            "karakter ilişkilerini çözümleme",
+            "uygun jest ve mimik",
+            "gerektiğinde bağlama uygun doğaçlama",
+            "rolün söz varlığını koruma",
+            "beden dili-diksiyon-telaffuz",
+            "zaman ve mekânı işlevsel kullanma",
+            "duygu/karakter tutarlılığı",
+            "olumlu değerler ve toplumsal hassasiyet"
+          ],
+          "acceptance_criteria": [
+            "Rol tutarlılığını korur.",
+            "Sözlü ve sözsüz iletişimi birlikte kullanır.",
+            "Doğaçlama ana bağlamı bozmaz.",
+            "Türkçeyi anlaşılır ve bağlama uygun kullanır."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf",
+              "textbook_map"
+            ],
+            "source_locators": [
+              "basılı s.282 / PDF s.283"
+            ],
+            "content_class": "MIXED"
+          }
+        }
+      ],
+      "provenance": {
+        "source_ids": [
+          "official_textbook_pdf",
+          "textbook_map"
+        ],
+        "source_locators": [
+          "basılı s.282 / PDF s.283"
+        ],
+        "content_class": "MIXED"
+      }
+    },
+    {
+      "unit_id": "T4_GUIDE_U14_KONUSMA_DEGERLENDIRME",
+      "title": "Canlandırma Sonrası Değerlendirme",
+      "printed_page_range": "283",
+      "activity_refs": [
+        "T4_ACT_12_KONUSMA_DEGERLENDIRME"
+      ],
+      "outcome_refs": [
+        "TDE3.4"
+      ],
+      "content_status": "REVIEW_REQUIRED",
+      "purpose": "Görünür kitap ölçütleriyle performansı değerlendirmek, dış QR rubriğinin sınırını korumak ve yansıtma yapmak.",
+      "items": [
+        {
+          "item_id": "T4_G03_P283_RUBRIK",
+          "printed_page_range": "283",
+          "label": "Dereceli puanlama anahtarı — görünür ölçütler ve dış QR sınırı",
+          "item_type": "ASSESSMENT",
+          "expected_answer": [
+            "kurgulanan içeriğe uygunluk",
+            "özgünlük",
+            "sözü ve beden dilini etkili kullanma",
+            "grupla uyum içinde çalışma"
+          ],
+          "acceptance_criteria": [
+            "PDF’de açıkça görünen ölçütleri kullanır.",
+            "QR içindeki görünmeyen düzey tanımlarını uydurmaz."
+          ],
+          "teacher_guidance": [
+            "Tam ölçüt×düzey matrisi yerel PDF’ye gömülü değildir; dış kaynak elde edilene kadar bu madde REVIEW_REQUIRED kalır."
+          ],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf",
+              "textbook_map"
+            ],
+            "source_locators": [
+              "basılı s.283 / PDF s.284"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK",
+            "note": "QR-linked dereceli puanlama anahtarının tam matrisi yerel PDF’de görünmez."
+          }
+        },
+        {
+          "item_id": "T4_G03_P283_YANSITMA",
+          "printed_page_range": "283",
+          "label": "Yansıtma yazısı, rol arkadaşı geribildirimi ve konuşmacı kimliği",
+          "item_type": "ASSESSMENT",
+          "expected_answer": "Öğrenci rolde yaşadığı duygu/düşünceyi, güçlü ve geliştirilmesi gereken yönlerini, akran geribildiriminden öğrendiklerini ve bir sonraki canlandırmada değiştireceği davranışı somutlaştırmalıdır.",
+          "acceptance_criteria": [
+            "Öz değerlendirme somut performans kanıtına dayanır.",
+            "Akran geribildirimini aynen kabul etmek yerine gerekçeli biçimde değerlendirir.",
+            "Yeni hedef belirler."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf",
+              "textbook_map"
+            ],
+            "source_locators": [
+              "basılı s.283 / PDF s.284"
+            ],
+            "content_class": "MIXED"
+          }
+        }
+      ],
+      "provenance": {
+        "source_ids": [
+          "official_textbook_pdf",
+          "textbook_map"
+        ],
+        "source_locators": [
+          "basılı s.283 / PDF s.284"
+        ],
+        "content_class": "MIXED"
+      }
+    }
+  ],
+  "section_principles": [
+    "Resmî ders kitabı PDF’sindeki görev sırasını ve öğrenciye verilen bağlamı koru.",
+    "Açık uçlu soruları tek doğruya indirgeme; metne/kanıta dayalı gerekçeli alternatifleri kabul et.",
+    "QR ile dışarı açılan video, rubrik veya görsel içeriğini yerel PDF’de görünmüyorsa uydurma.",
+    "Pedagojik öğretmen notlarını resmî kitap yönergesi gibi sunma."
+  ],
+  "provenance": {
+    "source_ids": [
+      "official_textbook_pdf",
+      "textbook_map"
+    ],
+    "source_locators": [
+      "basılı s.280-283 / PDF s.281-284"
+    ],
+    "content_class": "MIXED"
+  }
+}

@@ -1,0 +1,340 @@
+{
+  "schema_version": "1.1.0",
+  "document_type": "TYMM_TEACHER_GUIDE_SECTION",
+  "course_id": "TDE_11",
+  "theme_id": "TEMA_04",
+  "section_id": "T4_SEC_06_TEMA_SONU",
+  "title": "4. Tema Ölçme ve Değerlendirme Soruları",
+  "section_type": "THEME_ASSESSMENT",
+  "printed_page_range": "303-307",
+  "content_status": "REVIEW_REQUIRED",
+  "outcome_refs": [
+    "TDE1.1",
+    "TDE1.2",
+    "TDE1.3",
+    "TDE1.4",
+    "TDE2.1",
+    "TDE2.2",
+    "TDE2.3",
+    "TDE2.4",
+    "TDE3.1",
+    "TDE3.2",
+    "TDE3.3",
+    "TDE3.4",
+    "TDE4.1",
+    "TDE4.2",
+    "TDE4.3",
+    "TDE4.4"
+  ],
+  "activity_refs": [
+    "T4_ACT_21_TEMA_OLCME"
+  ],
+  "lesson_plan_refs": [
+    "courses/TDE_11/generated/lesson_plans/TEMA_04/BLOCK_T4_04_YAZMA/BLOCK_T4_04_YAZMA_P05.json"
+  ],
+  "guide_units": [
+    {
+      "unit_id": "T4_GUIDE_U23_TEMA_OLCME_1_5",
+      "title": "4. Tema Ölçme — 1-5. Sorular",
+      "printed_page_range": "303-305",
+      "activity_refs": [],
+      "outcome_refs": [],
+      "content_status": "VERIFIED",
+      "purpose": "Modern Türk tiyatrosu, küçürek hikâye ve afiş/duygu aktarımını ölçmek.",
+      "items": [
+        {
+          "item_id": "T4_G06_P303_Q1",
+          "printed_page_range": "303",
+          "label": "Soru 1 — Doğu/Batı sentezi ve modern Türk tiyatrosu",
+          "item_type": "QUESTION",
+          "expected_answer": "Parçada; Batı tiyatrosunun modern yazarlık/sahneleme teknikleri ile Meddah, Karagöz ve Ortaoyunu gibi geleneksel biçimlerin bir araya gelmesi; tipleme, söz oyunları, anlatıcı, şarkı/dans ve göstermeci sahneleme gibi Doğulu/geleneksel ögelerin modern yapı içinde kullanılması örneklenebilir.",
+          "acceptance_criteria": [
+            "I. metindeki genel yargıyla tiyatro parçası/II. metin arasında bağ kurar.",
+            "En az iki geleneksel ve bir modern özellik belirtir."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf",
+              "textbook_map"
+            ],
+            "source_locators": [
+              "basılı s.303 / PDF s.304"
+            ],
+            "content_class": "MIXED"
+          }
+        },
+        {
+          "item_id": "T4_G06_P304_Q2_3",
+          "printed_page_range": "304",
+          "label": "Sorular 2-3 — metinler arası ilişki ve küçürek hikâye",
+          "item_type": "ASSESSMENT",
+          "expected_answer": {
+            "2": "A",
+            "3": "E"
+          },
+          "acceptance_criteria": [
+            "Soru 2’de II. metnin I. metindeki durumun somut sonucu/örneklenişi olduğunu fark eder.",
+            "Soru 3’te metnin televizyonu ‘en önemli sebeplerden biri’ diye kesinleştirmediğini ayırt eder."
+          ],
+          "teacher_guidance": [
+            "Q2 için seçeneklerin PDF yerleşiminde iki sütunlu çıkarım sırası metin çıkarımında karışabilir; cevap anahtarı I-II metin anlam ilişkisine göre A olarak kurulmuştur."
+          ],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf",
+              "textbook_map"
+            ],
+            "source_locators": [
+              "basılı s.304 / PDF s.305"
+            ],
+            "content_class": "MIXED"
+          }
+        },
+        {
+          "item_id": "T4_G06_P304_305_Q4_5",
+          "printed_page_range": "304-305",
+          "label": "Sorular 4-5 — duygu ve afiş görseli",
+          "item_type": "QUESTION",
+          "expected_answer": {
+            "4": "Sevgi, umut, güven, merhamet, dayanışma gibi metindeki erdem/kardeşlik/çocukluk atmosferiyle gerekçelendirilebilen duygular kabul edilir.",
+            "5": null
+          },
+          "acceptance_criteria": [
+            "Q4’te duygu seçimini metindeki en az bir ayrıntıyla gerekçelendirir.",
+            "Q5’te seçilen görsel ile metnin iletisi arasında açık ilişki kurar."
+          ],
+          "teacher_guidance": [
+            "Q5 görsel seçenekleri metin çıkarımında güvenilir biçimde temsil edilmediği için tek görsel anahtarı üretme; öğrencinin seçimini gerekçe üzerinden değerlendir."
+          ],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf",
+              "textbook_map"
+            ],
+            "source_locators": [
+              "basılı s.304-305 / PDF s.305-306"
+            ],
+            "content_class": "MIXED",
+            "note": "Q5 görsel seçeneklerinin kendisi PDF görsel katmanına bağlıdır; metin çıkarımından tek doğru görsel üretilmez."
+          }
+        }
+      ],
+      "provenance": {
+        "source_ids": [
+          "official_textbook_pdf",
+          "textbook_map"
+        ],
+        "source_locators": [
+          "basılı s.303-305 / PDF s.304-306"
+        ],
+        "content_class": "MIXED"
+      }
+    },
+    {
+      "unit_id": "T4_GUIDE_U24_TEMA_OLCME_6_14",
+      "title": "4. Tema Ölçme — 6-14. Sorular",
+      "printed_page_range": "305-307",
+      "activity_refs": [],
+      "outcome_refs": [],
+      "content_status": "VERIFIED",
+      "purpose": "Tiyatro sahne unsurları, belgesel-teknoloji-toplumsal bellek ve dış Aidiyet videosu üzerinden temayı değerlendirmek.",
+      "items": [
+        {
+          "item_id": "T4_G06_P305_306_Q6_7",
+          "printed_page_range": "305-306",
+          "label": "Sorular 6-7 — kostüm ve sözsüz iletişim",
+          "item_type": "QUESTION",
+          "expected_answer": {
+            "6": "Kostüm; karakterin yaş, toplumsal konum, dönem, ekonomik durum ve kişilik özellikleriyle tutarlı olmalı; sahne dekoruyla işlevsel bütünlük kurmalıdır.",
+            "7": "Bakış, beden yönelimi, hareket, mesafe ve tekrar eden davranışlar konuşma olmadan gerilim, duygu ve ilişkiyi gösterebilir."
+          },
+          "acceptance_criteria": [
+            "Kostüm önerisini karakter/sahne kanıtıyla gerekçelendirir.",
+            "Sözsüz iletişimin en az iki işlevini açıklar."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf",
+              "textbook_map"
+            ],
+            "source_locators": [
+              "basılı s.305-306 / PDF s.306-307"
+            ],
+            "content_class": "MIXED"
+          }
+        },
+        {
+          "item_id": "T4_G06_P306_Q8",
+          "printed_page_range": "306",
+          "label": "Soru 8 — tiyatro terimleri",
+          "item_type": "ASSESSMENT",
+          "expected_answer": "B",
+          "acceptance_criteria": [
+            "Verilen kesitlerde dekor, jest/hareket ve çatışma iması görülebilir; açık diyalog ve monolog örneği kesin olarak çıkarılamadığı için II ve III seçilir."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf",
+              "textbook_map"
+            ],
+            "source_locators": [
+              "basılı s.306 / PDF s.307"
+            ],
+            "content_class": "MIXED"
+          }
+        },
+        {
+          "item_id": "T4_G06_P306_307_Q9_11",
+          "printed_page_range": "306-307",
+          "label": "Sorular 9-11 — belgesel, teknoloji ve toplumsal bellek",
+          "item_type": "ASSESSMENT",
+          "expected_answer": {
+            "9": "A",
+            "10": "B",
+            "11": "B"
+          },
+          "acceptance_criteria": [
+            "Q9’da metinde sayılan teknolojik dönüşümlerle desteklenmeyen seçeneği ayırır.",
+            "Q10’da toplumsal belleği arşivin koruma işleviyle ilişkilendirir.",
+            "Q11’de tablo oranlarının izleme mecralarının teknolojiyle değiştiğini gösterdiğini okur."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf",
+              "textbook_map"
+            ],
+            "source_locators": [
+              "basılı s.306-307 / PDF s.307-308"
+            ],
+            "content_class": "MIXED"
+          }
+        },
+        {
+          "item_id": "T4_G06_P307_Q12",
+          "printed_page_range": "307",
+          "label": "Soru 12 — teknolojik gelişmeler belgeselin etkisini güçlendirdi mi?",
+          "item_type": "QUESTION",
+          "expected_answer": "Her iki yönde de gerekçeli cevap kabul edilebilir. Güçlendirdi görüşü; erişim, dağıtım, ses/görüntü kalitesi ve kurgu imkânlarına; zayıflattı/karma görüşü ise dikkat dağınıklığı, platform kalabalığı, manipülasyon veya güvenilirlik sorunlarına dayandırılabilir.",
+          "acceptance_criteria": [
+            "En az iki gerekçe sunar.",
+            "Gerekçeler teknoloji-belgesel ilişkisiyle doğrudan bağlantılıdır."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf",
+              "textbook_map"
+            ],
+            "source_locators": [
+              "basılı s.307 / PDF s.308"
+            ],
+            "content_class": "MIXED"
+          }
+        },
+        {
+          "item_id": "T4_G06_P307_Q13_14",
+          "printed_page_range": "307",
+          "label": "Sorular 13-14 — Anadolu İnsanı / Aidiyet",
+          "item_type": "ASSESSMENT",
+          "expected_answer": null,
+          "acceptance_criteria": [
+            "Q13’te belirgin özellikleri Aidiyet videosundaki davranış/olay kanıtına dayandırır.",
+            "Q14’te aidiyetin yer, ilişki, hatıra, kültür, emek, güven veya toplumsal bağ gibi boyutlarını videodan örnekle açıklar."
+          ],
+          "teacher_guidance": [
+            "Aidiyet videosu dış QR içeriğidir. Yerel PDF yalnız soruları verir; videoyu görmeden canonical kişi/olay cevabı üretme."
+          ],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf",
+              "textbook_map"
+            ],
+            "source_locators": [
+              "basılı s.307 / PDF s.308"
+            ],
+            "content_class": "MIXED",
+            "note": "Anadolu İnsanı / Aidiyet video payload’ı yerel PDF’ye gömülü değildir."
+          }
+        }
+      ],
+      "provenance": {
+        "source_ids": [
+          "official_textbook_pdf",
+          "textbook_map"
+        ],
+        "source_locators": [
+          "basılı s.305-307 / PDF s.306-308"
+        ],
+        "content_class": "MIXED"
+      }
+    }
+  ],
+  "section_principles": [
+    "Resmî ders kitabı PDF’sindeki görev sırasını ve öğrenciye verilen bağlamı koru.",
+    "Açık uçlu soruları tek doğruya indirgeme; metne/kanıta dayalı gerekçeli alternatifleri kabul et.",
+    "QR ile dışarı açılan video, rubrik veya görsel içeriğini yerel PDF’de görünmüyorsa uydurma.",
+    "Pedagojik öğretmen notlarını resmî kitap yönergesi gibi sunma."
+  ],
+  "provenance": {
+    "source_ids": [
+      "official_textbook_pdf",
+      "textbook_map"
+    ],
+    "source_locators": [
+      "basılı s.303-307 / PDF s.304-308"
+    ],
+    "content_class": "MIXED"
+  }
+}

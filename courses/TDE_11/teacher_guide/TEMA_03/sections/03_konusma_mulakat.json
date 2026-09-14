@@ -1,0 +1,361 @@
+{
+  "schema_version": "1.1.0",
+  "document_type": "TYMM_TEACHER_GUIDE_SECTION",
+  "course_id": "TDE_11",
+  "theme_id": "TEMA_03",
+  "section_id": "T3_SEC_03_KONUSMA_MULAKAT",
+  "title": "Edebiyat Atölyesi-1 (Anlatma): Konuşma — Huzur Kişisiyle Hayalî Mülakat",
+  "section_type": "SPEAKING",
+  "printed_page_range": "210-214",
+  "content_status": "REVIEW_REQUIRED",
+  "outcome_refs": [
+    "TDE3.1",
+    "TDE3.2",
+    "TDE3.3",
+    "TDE3.4"
+  ],
+  "activity_refs": [
+    "T3_ACT_09_KONUSMA_YONETIM",
+    "T3_ACT_10_KONUSMA_ICERIK_ANLAM",
+    "T3_ACT_11_KONUSMA_UYGULAMA_COZUMLEME",
+    "T3_ACT_12_KONUSMA_DEGERLENDIRME"
+  ],
+  "lesson_plan_refs": [
+    "courses/TDE_11/generated/lesson_plans/TEMA_03/BLOCK_T3_02_KONUSMA/BLOCK_T3_02_KONUSMA_P01.json",
+    "courses/TDE_11/generated/lesson_plans/TEMA_03/BLOCK_T3_02_KONUSMA/BLOCK_T3_02_KONUSMA_P02.json",
+    "courses/TDE_11/generated/lesson_plans/TEMA_03/BLOCK_T3_02_KONUSMA/BLOCK_T3_02_KONUSMA_P03.json",
+    "courses/TDE_11/generated/lesson_plans/TEMA_03/BLOCK_T3_02_KONUSMA/BLOCK_T3_02_KONUSMA_P04.json",
+    "courses/TDE_11/generated/lesson_plans/TEMA_03/BLOCK_T3_02_KONUSMA/BLOCK_T3_02_KONUSMA_P05.json"
+  ],
+  "guide_units": [
+    {
+      "unit_id": "T3_GUIDE_U09_KONUSMA_YONETIM",
+      "title": "Hayalî mülakat — yönetim ve planlama",
+      "printed_page_range": "210-211",
+      "activity_refs": [
+        "T3_ACT_09_KONUSMA_YONETIM"
+      ],
+      "outcome_refs": [
+        "TDE3.1"
+      ],
+      "content_status": "VERIFIED",
+      "purpose": "Mülakatın amaç/kitlesini belirlemek, Huzur kişisini seçmek ve hazırlıklı konuşma stratejisini planlamak.",
+      "items": [
+        {
+          "item_id": "T3_G09_P210_Q1_2",
+          "printed_page_range": "210",
+          "label": "Kemal Tahir mülakatından hareketle amaç ve planlama",
+          "item_type": "QUESTION",
+          "expected_answer": {
+            "1": "Yazarın roman konusunu, kişilerini, çalışma yöntemini ve Türkçe hakkındaki görüşlerini doğrudan kendi sözlerinden öğrenmek.",
+            "2": "Önceden soru/süre/hedef kitle belirlemek konuşmayı odaklar, süre yönetimini kolaylaştırır, soruların niteliğini ve dinleyiciye uygunluğu artırır."
+          },
+          "acceptance_criteria": [
+            "Mülakatın bilgi edinme ve doğrudan kaynak işlevini fark eder."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.210 / PDF s.211"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T3_G09_P211_PERFORMANS",
+          "printed_page_range": "211",
+          "label": "Huzur kişisiyle hayalî mülakat — performans görevi",
+          "item_type": "PERFORMANCE_TASK",
+          "expected_answer": [
+            "Altı grup ve sözcü oluştur.",
+            "Bir Huzur kişisi seç ve seçim nedenini karakter özelliğiyle açıkla.",
+            "Amaç, hedef kitle, tür, içerik, hazırlık süresi ve stratejiyi belirle.",
+            "Roman kişisinin metindeki özelliklerini temel al."
+          ],
+          "acceptance_criteria": [
+            "Seçilen kişinin cevapları roman bağlamıyla tutarlı olur."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.211 / PDF s.212"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        }
+      ],
+      "provenance": {
+        "source_ids": [
+          "official_textbook_pdf",
+          "textbook_map"
+        ],
+        "source_locators": [
+          "basılı s.210-211"
+        ],
+        "content_class": "MIXED"
+      }
+    },
+    {
+      "unit_id": "T3_GUIDE_U10_KONUSMA_ICERIK",
+      "title": "Hayalî mülakat — içerik oluşturma",
+      "printed_page_range": "212",
+      "activity_refs": [
+        "T3_ACT_10_KONUSMA_ICERIK_ANLAM"
+      ],
+      "outcome_refs": [
+        "TDE3.2"
+      ],
+      "content_status": "VERIFIED",
+      "purpose": "Roman kişisine uygun nitelikli soru-cevap içeriği ve hedef kitleye uygun konuşma tasarımı oluşturmak.",
+      "items": [
+        {
+          "item_id": "T3_G10_P212_SORU_CEVAP",
+          "printed_page_range": "212",
+          "label": "Mülakat soru-cevap tasarımı",
+          "item_type": "PROCESS",
+          "expected_answer": [
+            "‘Gerçek hayatta olsaydı nasıl konuşur/davranır/ne işle uğraşırdı?’ benzeri sorular üret.",
+            "Soruları romanın yapı, içerik, dil/anlatım özelliklerine göre derecelendir.",
+            "En nitelikli soruları seç.",
+            "Roman kişisinin dil, beden dili, vurgu/tonlama ve varsa ağız özelliklerini bağlamdan türet.",
+            "Giriş-gelişme-sonuç ve hedef kitle beklentisini planla."
+          ],
+          "acceptance_criteria": [
+            "Sorular roman kişisinin özelliklerini açığa çıkarır.",
+            "Cevaplar roman kanıtlarıyla uyumludur."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.212 / PDF s.213"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        }
+      ],
+      "provenance": {
+        "source_ids": [
+          "official_textbook_pdf",
+          "textbook_map"
+        ],
+        "source_locators": [
+          "basılı s.212"
+        ],
+        "content_class": "MIXED"
+      }
+    },
+    {
+      "unit_id": "T3_GUIDE_U11_KONUSMA_UYGULAMA",
+      "title": "Hayalî mülakat — uygulama",
+      "printed_page_range": "213",
+      "activity_refs": [
+        "T3_ACT_11_KONUSMA_UYGULAMA_COZUMLEME"
+      ],
+      "outcome_refs": [
+        "TDE3.3"
+      ],
+      "content_status": "VERIFIED",
+      "purpose": "Planlanan hayalî mülakatı etkili dil, üslup, beden dili ve yapı kurallarıyla gerçekleştirmek.",
+      "items": [
+        {
+          "item_id": "T3_G11_P213_PERFORMANS",
+          "printed_page_range": "213",
+          "label": "Mülakatı gerçekleştirme",
+          "item_type": "PERFORMANCE_TASK",
+          "expected_answer": [
+            "Dikkat çekici giriş, etkili sürdürme ve bitiriş.",
+            "Roman kişisine özgü, anlaşılır ve tutarlı cevaplar.",
+            "Düşünceyi geliştirme yolları ve açık/örtük iletiler.",
+            "Millî/manevi değerler ve kültürel unsurlara bağlama uygun yaklaşım.",
+            "Toplumsal hassasiyet, görgü kuralları ve dil doğruluğu.",
+            "Beden dili, diksiyon, zaman ve mekânın etkili kullanımı."
+          ],
+          "acceptance_criteria": [
+            "Karakter rolü ile roman bağlamı tutarlı.",
+            "Konuşma amacı ve hedef kitle gözetilir."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.213 / PDF s.214"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        }
+      ],
+      "provenance": {
+        "source_ids": [
+          "official_textbook_pdf",
+          "textbook_map"
+        ],
+        "source_locators": [
+          "basılı s.213"
+        ],
+        "content_class": "MIXED"
+      }
+    },
+    {
+      "unit_id": "T3_GUIDE_U12_KONUSMA_DEGERLENDIRME",
+      "title": "Hayalî mülakat — değerlendirme",
+      "printed_page_range": "214",
+      "activity_refs": [
+        "T3_ACT_12_KONUSMA_DEGERLENDIRME"
+      ],
+      "outcome_refs": [
+        "TDE3.4"
+      ],
+      "content_status": "REVIEW_REQUIRED",
+      "purpose": "Açık/örtük ileti, kanıt, öz değerlendirme ve akran/öğretmen geri bildirimiyle konuşmayı değerlendirmek.",
+      "items": [
+        {
+          "item_id": "T3_G12_P214_Q1_2",
+          "printed_page_range": "214",
+          "label": "Açık/örtük iletiler ve yargıların dayanağı",
+          "item_type": "ASSESSMENT",
+          "expected_answer": "Öğrenci hayalî cevapların romandaki hangi söz, davranış, ilişki veya değerlerden türetildiğini açıklar; açık/örtük iletileri bu dayanaklarla değerlendirir.",
+          "acceptance_criteria": [
+            "Her önemli karakter yargısı için roman kanıtı/gerekçe sunar."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.214 / PDF s.215"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T3_G12_P214_OZ_DEGER",
+          "printed_page_range": "214",
+          "label": "Öz Değerlendirme Formu — görünen 6 ölçüt",
+          "item_type": "ASSESSMENT",
+          "expected_answer": [
+            "özgün ve tutarlı duygu/düşünce/hayal",
+            "dilin kullanım alanına uygunluk",
+            "beden dili-diksiyon-telaffuz",
+            "Türkçenin yapısı/işlevi/bağdaşıklık",
+            "akıcılık-duruluk-yalınlık",
+            "ekleri doğru ve kelimeleri bağlama uygun kullanma"
+          ],
+          "acceptance_criteria": [
+            "Evet/Kısmen/Hayır seçimi sonraki gelişim hedefiyle ilişkilendirilir."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.214 / PDF s.215"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T3_G12_P214_QR_RUBRIK",
+          "printed_page_range": "214",
+          "label": "Dış QR dereceli puanlama anahtarı / akran formu",
+          "item_type": "REFERENCE",
+          "expected_answer": null,
+          "acceptance_criteria": [],
+          "teacher_guidance": [
+            "PDF sayfasında rubrik ve akran formuna QR yönlendirmesi vardır; QR içindeki tam ölçüt×düzey matrisi yerel PDF’ye gömülü değildir. Görünmeyen matrisi üretme/uydurma."
+          ],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.214 / PDF s.215"
+            ],
+            "content_class": "MIXED"
+          }
+        }
+      ],
+      "provenance": {
+        "source_ids": [
+          "official_textbook_pdf",
+          "textbook_map"
+        ],
+        "source_locators": [
+          "basılı s.214"
+        ],
+        "content_class": "MIXED"
+      }
+    }
+  ],
+  "section_principles": [
+    "Resmî ders kitabı PDF’sindeki görev ve soru sırasını koru.",
+    "Beklenen cevapları kanıta dayalı gerekçeli alternatiflere açık tut.",
+    "Pedagojik zenginleştirmeyi resmî kitap yönergesi gibi sunma.",
+    "PDF’ye gömülü olmayan QR/video/rubrik ayrıntılarını uydurma."
+  ],
+  "provenance": {
+    "source_ids": [
+      "official_textbook_pdf",
+      "textbook_map",
+      "theme_alignment"
+    ],
+    "source_locators": [
+      "basılı s.210-214"
+    ],
+    "content_class": "MIXED"
+  }
+}
