@@ -92,12 +92,27 @@ jobs:
           python skill/tymm-material-planner/scripts/render_lesson_plan_markdown.py \
             --knowledge-root courses/TDE_11 --write
 
-      - name: Refresh TDE11 timeline and runtime context
+      - name: Refresh timeline and build provisional canonical runtime
         run: |
           python skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py \
             --knowledge-root courses/TDE_11
-          python skill/tymm-material-planner/scripts/build_runtime_course_package.py build \
-            --knowledge-root courses/TDE_11
+          python - <<'PY'
+          import sys
+          from pathlib import Path
+          scripts = Path('skill/tymm-material-planner/scripts').resolve()
+          sys.path.insert(0, str(scripts))
+          import build_runtime_course_package as runtime
+
+          # The existing lesson-plan seal is necessarily stale while repairing
+          # canonical lesson-plan content. Build only the fresh canonical runtime
+          # context needed by validate_all_lesson_plans; do not project lesson
+          # plans until a new PASS-bound seal has been issued below.
+          runtime.project_runtime_lesson_plan_payload = lambda root: {'status': 'PROVISIONAL_SKIP'}
+          result = runtime.build(Path('courses/TDE_11'))
+          if result.get('status') != 'PASS':
+              raise SystemExit(f'provisional runtime failed: {result}')
+          print('PROVISIONAL_RUNTIME_PASS')
+          PY
 
       - name: Validate repaired lesson plans
         run: |
@@ -106,18 +121,34 @@ jobs:
             --commit-sha "${GITHUB_SHA}" \
             --report /tmp/tde11-plan-validation.json
 
+      - name: Finalize repaired validation binding
+        run: |
+          python skill/tymm-material-planner/scripts/finalize_lesson_plan_production.py \
+            --knowledge-root courses/TDE_11 \
+            --validation-report /tmp/tde11-plan-validation.json \
+            --expected-head "${GITHUB_SHA}"
+
+      - name: Rebuild normal runtime with new validation seal
+        run: |
+          python skill/tymm-material-planner/scripts/build_runtime_course_package.py build \
+            --knowledge-root courses/TDE_11
+
       - name: Validate teacher guide cross-source contract
         run: |
           python skill/tymm-material-planner/scripts/validate_teacher_guide.py \
             --manifest courses/TDE_11/teacher_guide/TEMA_01/teacher_guide.json \
             --report /tmp/tde11-theme1-teacher-guide-validation.json
 
-      - name: Commit repaired sources and remove temporary workflow
+      - name: Commit repaired sources, binding and remove temporary workflow
         run: |
           rm -f .github/workflows/tde11-theme1-plan-repair.yml
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add courses/TDE_11/generated/lesson_plans .github/workflows/tde11-theme1-plan-repair.yml
+          git add \
+            courses/TDE_11/generated/lesson_plans \
+            courses/TDE_11/planning/lesson_plan_production_plan.json \
+            courses/TDE_11/planning/lesson_plan_validation_seal.json \
+            .github/workflows/tde11-theme1-plan-repair.yml
           git diff --cached --stat
           git commit -m 'fix(TDE11): align Theme 1 lesson outcomes with textbook activities'
           git push origin HEAD:feat/tde11-theme1-teacher-guide-json
