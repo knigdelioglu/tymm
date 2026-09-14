@@ -149,10 +149,7 @@ def validate_page_nesting(
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--repo-root", type=Path, default=Path("."))
-    parser.add_argument(
-        "--manifest",
-        default="courses/TDE_11/teacher_guide/TEMA_01/teacher_guide.json",
-    )
+    parser.add_argument("--manifest", required=True)
     parser.add_argument("--report", type=Path)
     args = parser.parse_args()
 
@@ -162,6 +159,7 @@ def main() -> int:
     warnings: list[dict[str, Any]] = []
 
     manifest = read_json(manifest_path)
+    legacy_textbook_contract = "theme_overview" in manifest
     manifest_schema_path = repo_root / "skill/tymm-material-planner/schemas/teacher_guide.schema.json"
     section_schema_path = repo_root / manifest["content_storage"]["section_schema_path"]
     manifest_validator = Draft202012Validator(read_json(manifest_schema_path))
@@ -182,12 +180,13 @@ def main() -> int:
         (source for source in source_manifest if source.get("source_id") == "official_textbook_pdf"),
         None,
     )
-    if not textbook_pdf_source:
-        add_problem(failures, "OFFICIAL_TEXTBOOK_PDF_SOURCE_MISSING", "official_textbook_pdf source is required")
-    else:
-        pdf_path = repo_root / textbook_pdf_source["path"]
-        if not pdf_path.is_file():
-            add_problem(failures, "OFFICIAL_TEXTBOOK_PDF_FILE_MISSING", str(pdf_path.relative_to(repo_root)))
+    if legacy_textbook_contract:
+        if not textbook_pdf_source:
+            add_problem(failures, "OFFICIAL_TEXTBOOK_PDF_SOURCE_MISSING", "official_textbook_pdf source is required")
+        else:
+            pdf_path = repo_root / textbook_pdf_source["path"]
+            if not pdf_path.is_file():
+                add_problem(failures, "OFFICIAL_TEXTBOOK_PDF_FILE_MISSING", str(pdf_path.relative_to(repo_root)))
 
     for source in source_manifest:
         if not isinstance(source, dict):
@@ -207,18 +206,21 @@ def main() -> int:
         (source for source in source_manifest if source.get("source_id") == "textbook_map"),
         None,
     )
-    if not textbook_map_source:
+    if not textbook_map_source and legacy_textbook_contract:
         add_problem(failures, "TEXTBOOK_MAP_SOURCE_MISSING", "textbook_map source is required")
         textbook_activities: dict[str, dict[str, Any]] = {}
-    else:
+    elif textbook_map_source:
         textbook_map = read_json(repo_root / textbook_map_source["path"])
         textbook_activities = collect_textbook_activities(textbook_map)
+    else:
+        textbook_activities = {}
 
-    try:
-        theme_start, theme_end = parse_page_range(manifest["theme_overview"]["printed_page_range"])
-    except (KeyError, ValueError) as exc:
-        add_problem(failures, "INVALID_THEME_PAGE_RANGE", str(exc), path=args.manifest)
-        theme_start, theme_end = 0, 10**9
+    theme_start, theme_end = 0, 10**9
+    if legacy_textbook_contract:
+        try:
+            theme_start, theme_end = parse_page_range(manifest["theme_overview"]["printed_page_range"])
+        except (KeyError, ValueError) as exc:
+            add_problem(failures, "INVALID_THEME_PAGE_RANGE", str(exc), path=args.manifest)
 
     known_issues = manifest.get("known_issues", [])
     registered_conflict_refs: set[str] = set()
@@ -251,7 +253,7 @@ def main() -> int:
             add_problem(failures, "SECTION_SCHEMA", format_schema_error(error), path=content_ref)
 
         for field in ("section_id", "title", "section_type", "printed_page_range", "content_status"):
-            if section.get(field) != section_index.get(field):
+            if field in section_index and section.get(field) != section_index.get(field):
                 add_problem(
                     failures,
                     "SECTION_MANIFEST_MISMATCH",
@@ -268,11 +270,12 @@ def main() -> int:
                 )
 
         validate_provenance_sources(section, source_ids, failures, content_ref)
-        validate_page_nesting(section, failures, content_ref)
+        if "printed_page_range" in section:
+            validate_page_nesting(section, failures, content_ref)
 
         try:
             section_start, section_end = parse_page_range(section["printed_page_range"])
-            if section_start < theme_start or section_end > theme_end:
+            if legacy_textbook_contract and (section_start < theme_start or section_end > theme_end):
                 add_problem(
                     failures,
                     "SECTION_OUTSIDE_THEME_PAGE_RANGE",
@@ -284,19 +287,20 @@ def main() -> int:
 
         section_outcomes = set(normalize_string_list(section.get("outcome_refs")))
         all_outcomes.update(section_outcomes)
-        for activity_id in normalize_string_list(section.get("activity_refs")):
-            official = textbook_activities.get(activity_id)
-            if not official:
-                add_problem(failures, "UNKNOWN_TEXTBOOK_ACTIVITY", activity_id, path=content_ref)
-                continue
-            official_outcomes = set(official["outcomes"])
-            if official_outcomes and not official_outcomes.issubset(section_outcomes):
-                add_problem(
-                    failures,
-                    "SECTION_ACTIVITY_OUTCOME_MISMATCH",
-                    f"{activity_id}: official={sorted(official_outcomes)}, section={sorted(section_outcomes)}",
-                    path=content_ref,
-                )
+        if textbook_activities:
+            for activity_id in normalize_string_list(section.get("activity_refs")):
+                official = textbook_activities.get(activity_id)
+                if not official:
+                    add_problem(failures, "UNKNOWN_TEXTBOOK_ACTIVITY", activity_id, path=content_ref)
+                    continue
+                official_outcomes = set(official["outcomes"])
+                if official_outcomes and not official_outcomes.issubset(section_outcomes):
+                    add_problem(
+                        failures,
+                        "SECTION_ACTIVITY_OUTCOME_MISMATCH",
+                        f"{activity_id}: official={sorted(official_outcomes)}, section={sorted(section_outcomes)}",
+                        path=content_ref,
+                    )
 
         for unit in section.get("guide_units", []):
             unit_id = unit.get("unit_id")
@@ -305,19 +309,20 @@ def main() -> int:
                     add_problem(failures, "DUPLICATE_UNIT_ID", unit_id, path=content_ref)
                 unit_ids.add(unit_id)
             unit_outcomes = set(normalize_string_list(unit.get("outcome_refs")))
-            for activity_id in normalize_string_list(unit.get("activity_refs")):
-                official = textbook_activities.get(activity_id)
-                if not official:
-                    add_problem(failures, "UNKNOWN_UNIT_ACTIVITY", activity_id, path=content_ref)
-                    continue
-                official_outcomes = set(official["outcomes"])
-                if official_outcomes and unit_outcomes and not unit_outcomes.issubset(official_outcomes):
-                    add_problem(
-                        failures,
-                        "UNIT_ACTIVITY_OUTCOME_MISMATCH",
-                        f"{unit_id}/{activity_id}: unit={sorted(unit_outcomes)}, official={sorted(official_outcomes)}",
-                        path=content_ref,
-                    )
+            if textbook_activities:
+                for activity_id in normalize_string_list(unit.get("activity_refs")):
+                    official = textbook_activities.get(activity_id)
+                    if not official:
+                        add_problem(failures, "UNKNOWN_UNIT_ACTIVITY", activity_id, path=content_ref)
+                        continue
+                    official_outcomes = set(official["outcomes"])
+                    if official_outcomes and unit_outcomes and not unit_outcomes.issubset(official_outcomes):
+                        add_problem(
+                            failures,
+                            "UNIT_ACTIVITY_OUTCOME_MISMATCH",
+                            f"{unit_id}/{activity_id}: unit={sorted(unit_outcomes)}, official={sorted(official_outcomes)}",
+                            path=content_ref,
+                        )
             for item in unit.get("items", []):
                 item_id = item.get("item_id")
                 if isinstance(item_id, str):
@@ -327,7 +332,7 @@ def main() -> int:
 
         block_id = section_index.get("block_id")
         hours = section_index.get("block_hours")
-        if isinstance(block_id, str) and isinstance(hours, int):
+        if legacy_textbook_contract and isinstance(block_id, str) and isinstance(hours, int):
             existing = block_hours.get(block_id)
             if existing is not None and existing != hours:
                 add_problem(
@@ -347,6 +352,8 @@ def main() -> int:
                 add_problem(failures, "LESSON_PLAN_REF_MISSING", plan_ref, path=content_ref)
                 continue
             plan = read_json(plan_path)
+            if not legacy_textbook_contract:
+                continue
             plan_outcomes = set(normalize_string_list(plan.get("outcome_codes")))
             for activity_id in normalize_string_list(plan.get("used_activity_ids")):
                 official = textbook_activities.get(activity_id)

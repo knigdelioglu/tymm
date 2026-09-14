@@ -23,6 +23,7 @@
 | assessment mapping status | PASS | runtime=0, canonical=0 |
 | assessment artifact projection status | PASS | runtime=0, canonical=0 |
 | resource decision projection status | PASS |  |
+| teacher guide projection status | PASS | optional capability consistent |
 | application query A | PASS | rows=1 |
 | application query B | PASS | rows=1 |
 | application query C | PASS | rows=16 |
@@ -51,29 +52,12 @@
 - `assessment_task_bindings`: 0
 - `timeline_themes`: 4
 - `timeline_blocks`: 16
-- `source_references`: 1
-- `entity_source_references`: 0
-
-## Assessment rubric payload projection
-
-| Check | Status | Detail |
-|---|---|---|
-| theme source provenance projection | PASS | runtime=4, expected_at_least=4 |
-| artifact identity projection | PASS | runtime=0, canonical=0 |
-| rubric criteria payload | PASS | runtime=0, canonical=0 |
-| rubric level model payload | PASS | runtime=0, canonical=0 |
-| task binding count | PASS | runtime=0, canonical=0 |
-| task-specific criteria payload | PASS | runtime=0, canonical=0 |
-| payload JSON validity | PASS | all projected JSON columns parse |
-
-## Lesson plan payload projection
-
-| Check | Status | Detail |
-|---|---|---|
-| lesson plan validation seal | PASS | verified=sha256:8e90b872a45b545bd1e6e29b68e282c2278342db95046cb4e19a174f39c725d6 |
-| lesson plan package count | PASS | runtime=88, expected=88 |
-| lesson plan instruction hours | PASS | runtime=172, expected=172 |
-| lesson plan block topology | PASS | all blocks match package count and planned hours |
-| lesson plan payload JSON validity | PASS | all payload_json rows parse |
-| lesson plan teacher-facing projection parity | PASS | all SQLite payloads match deterministic teacher-facing projection and source SHA256 |
-| lesson plan foreign key integrity | PASS | PRAGMA foreign_key_check |
+- `source_references`: 5
+- `entity_source_references`: 4
+- `lesson_plan_packages`: 88
+- `canonical_entities`: 328
+- `teacher_guides`: 4
+- `teacher_guide_sections`: 28
+- `teacher_guide_units`: 94
+- `teacher_guide_items`: 283
+- `teacher_guide_item_relations`: 3707

@@ -1,13 +1,17 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://tymm.local/schemas/teacher_guide.schema.json",
-  "title": "TYMM Teacher Guide Manifest V1.1",
+  "title": "Generic TYMM Teacher Guide Manifest V1.1",
   "type": "object",
   "additionalProperties": false,
-  "required": ["schema_version", "document_type", "course_id", "grade", "theme_id", "title", "status", "authority_policy", "source_manifest", "theme_overview", "content_storage", "production_plan", "sections", "known_issues", "validation_contract"],
+  "required": ["schema_version", "document_type", "course_id", "grade", "title", "status", "authority_policy", "source_manifest", "content_storage", "production_plan", "sections", "known_issues", "validation_contract"],
+  "anyOf": [
+    {"required": ["theme_id"]},
+    {"required": ["scope_type", "scope_id"]},
+    {"required": ["scope"]}
+  ],
   "$defs": {
-    "status": {"enum": ["PLANNED", "MIGRATION_READY", "IN_PROGRESS", "REVIEW_REQUIRED", "VERIFIED", "BLOCKED"]},
-    "section_type": {"enum": ["THEME_OPENING", "READING", "SPEAKING", "LISTENING_VIEWING", "WRITING", "THEME_ASSESSMENT"]},
+    "status": {"type": "string", "minLength": 1},
     "source_ref": {
       "type": "object", "additionalProperties": false,
       "required": ["source_id", "role", "path", "authority_rank", "usage"],
@@ -21,11 +25,11 @@
     },
     "section_index": {
       "type": "object", "additionalProperties": false,
-      "required": ["section_id", "title", "section_type", "printed_page_range", "block_id", "block_hours", "outcome_refs", "activity_refs", "lesson_plan_refs", "content_status", "content_ref"],
+      "required": ["section_id", "title", "content_status", "content_ref"],
       "properties": {
         "section_id": {"type": "string", "minLength": 1},
         "title": {"type": "string", "minLength": 1},
-        "section_type": {"$ref": "#/$defs/section_type"},
+        "section_type": {"type": "string", "minLength": 1},
         "printed_page_range": {"type": "string", "minLength": 1},
         "block_id": {"type": ["string", "null"]},
         "block_hours": {"type": ["integer", "null"], "minimum": 1},
@@ -38,15 +42,28 @@
     }
   },
   "properties": {
-    "schema_version": {"const": "1.1.0"},
+    "schema_version": {"type": "string", "minLength": 1},
     "document_type": {"const": "TYMM_TEACHER_GUIDE_MANIFEST"},
     "course_id": {"type": "string", "minLength": 1},
     "grade": {"type": "integer", "minimum": 1, "maximum": 12},
+    "guide_id": {"type": "string", "minLength": 1},
     "theme_id": {"type": "string", "minLength": 1},
+    "scope_type": {"type": "string", "minLength": 1},
+    "scope_id": {"type": "string", "minLength": 1},
+    "scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "id"],
+      "properties": {
+        "type": {"type": "string", "minLength": 1},
+        "id": {"type": "string", "minLength": 1}
+      }
+    },
     "title": {"type": "string", "minLength": 1},
+    "content_status": {"$ref": "#/$defs/status"},
     "status": {"$ref": "#/$defs/status"},
     "authority_policy": {
-      "type": "array", "minItems": 3,
+      "type": "array", "minItems": 1,
       "items": {
         "type": "object", "additionalProperties": false,
         "required": ["rank", "source_role", "rule"],
@@ -57,7 +74,7 @@
         }
       }
     },
-    "source_manifest": {"type": "array", "minItems": 4, "items": {"$ref": "#/$defs/source_ref"}},
+    "source_manifest": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/source_ref"}},
     "theme_overview": {
       "type": "object", "additionalProperties": false,
       "required": ["printed_page_range", "core_instruction_hours", "anlama_hours", "anlatma_hours", "outcome_count", "legacy_guide_coverage", "target_guide_coverage", "target_section_count"],
