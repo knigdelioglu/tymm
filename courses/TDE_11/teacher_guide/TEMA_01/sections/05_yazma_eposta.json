@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.1.0",
+  "document_type": "TYMM_TEACHER_GUIDE_SECTION",
+  "course_id": "TDE_11",
+  "theme_id": "TEMA_01",
+  "section_id": "T1_SEC_05_YAZMA_EPOSTA",
+  "title": "Edebiyat Atölyesi-2 (Anlatma): Yazma — E-Posta Yazabilme",
+  "section_type": "WRITING",
+  "printed_page_range": "74-78",
+  "content_status": "PLANNED",
+  "outcome_refs": ["TDE4.1", "TDE4.2", "TDE4.3", "TDE4.4"],
+  "activity_refs": ["T1_ACT_17_YAZMA_YONETIM", "T1_ACT_18_YAZMA_ICERIK_ANLAM", "T1_ACT_19_YAZMA_UYGULAMA_COZUMLEME", "T1_ACT_20_YAZMA_DEGERLENDIRME"],
+  "lesson_plan_refs": [
+    "courses/TDE_11/generated/lesson_plans/TEMA_01/BLOCK_T1_04_YAZMA/BLOCK_T1_04_YAZMA_P01.json",
+    "courses/TDE_11/generated/lesson_plans/TEMA_01/BLOCK_T1_04_YAZMA/BLOCK_T1_04_YAZMA_P02.json",
+    "courses/TDE_11/generated/lesson_plans/TEMA_01/BLOCK_T1_04_YAZMA/BLOCK_T1_04_YAZMA_P03.json",
+    "courses/TDE_11/generated/lesson_plans/TEMA_01/BLOCK_T1_04_YAZMA/BLOCK_T1_04_YAZMA_P04.json",
+    "courses/TDE_11/generated/lesson_plans/TEMA_01/BLOCK_T1_04_YAZMA/BLOCK_T1_04_YAZMA_P05.json"
+  ],
+  "guide_units": [],
+  "section_principles": ["E-posta ürünü amaç, hedef kitle, içerik, dil, yazım-noktalama ve bütünlük üzerinden değerlendirilecek.", "TDE4.4 için görünmeyen QR rubrik ölçütleri uydurulmayacak; öz değerlendirme ve görünür kitap kanıtları korunacak."],
+  "provenance": {"source_ids": ["textbook_map", "theme_alignment", "lesson_plan_set"], "source_locators": ["basılı s.74-78", "T1_ACT_17_YAZMA_YONETIM", "T1_ACT_18_YAZMA_ICERIK_ANLAM", "T1_ACT_19_YAZMA_UYGULAMA_COZUMLEME", "T1_ACT_20_YAZMA_DEGERLENDIRME"], "content_class": "MIXED"}
+}
