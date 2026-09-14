@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.1.0",
+  "document_type": "TYMM_TEACHER_GUIDE_SECTION",
+  "course_id": "TDE_11",
+  "theme_id": "TEMA_01",
+  "section_id": "T1_GUIDE_SEC_00_TEMA_ACILIS",
+  "title": "Tema Açılışı / Temaya Başlarken",
+  "section_type": "THEME_OPENING",
+  "printed_page_range": "12-14",
+  "content_status": "VERIFIED",
+  "outcome_refs": [],
+  "activity_refs": [],
+  "lesson_plan_refs": [],
+  "guide_units": [
+    {
+      "unit_id": "T1_GUIDE_U00_THEME_OPEN",
+      "title": "Tema odağı ve Temaya Başlarken",
+      "printed_page_range": "12-14",
+      "activity_refs": [],
+      "outcome_refs": [],
+      "content_status": "VERIFIED",
+      "purpose": "İletişim temasını görünür kılmak; edebî gerçeklik ve insan/toplum bilgisini iletişim becerisiyle ilişkilendirmek.",
+      "items": [
+        {
+          "item_id": "T1_G00_P12_13_TEACHER_FOCUS",
+          "printed_page_range": "12-13",
+          "label": "Tema odağı",
+          "item_type": "TEACHER_NOTE",
+          "expected_answer": null,
+          "acceptance_criteria": [],
+          "teacher_guidance": ["Temanın merkezinde iletişim olduğunu sezdir; tema boyunca kim, kime, hangi dille, hangi araçla ve hangi amaçla sesleniyor sorularını izlet."],
+          "common_misconceptions": [],
+          "assessment_evidence": ["Öğrencinin tema başında iletişim bileşenlerine ilişkin kısa ön bilgi notu."],
+          "differentiation": {"support": ["İletişim ögelerini görsel şema ile ver."], "enrichment": ["Aynı mesajın araç veya hedef kitle değişince nasıl değiştiğini tartıştır."]},
+          "provenance": {"source_ids": ["legacy_teacher_guide"], "source_locators": ["basılı s.12-13"], "content_class": "MIGRATED_LEGACY_GUIDE"}
+        },
+        {
+          "item_id": "T1_G00_P14_Q01",
+          "printed_page_range": "14",
+          "label": "Edebî eser ve gerçeklik",
+          "item_type": "QUESTION",
+          "expected_answer": "Edebî eser gerçek hayatın birebir kopyası değildir; yazar gerçeklikten seçtiği kişi, olay, mekân, duygu ve sorunları yorumlayıp kurmaca yapı içinde yeniden düzenler.",
+          "acceptance_criteria": ["Gerçeklikten yararlanma ile kurmaca dönüştürmeyi ayırır."],
+          "teacher_guidance": ["Roman veya hikâyenin tutanak olmadığını vurgula; gerçek bir unsurun sanatsal dönüşümüne örnek iste."],
+          "common_misconceptions": ["Edebî eseri yaşanmış olayın birebir kaydı saymak."],
+          "assessment_evidence": ["Gerçek unsur + sanatsal dönüşüm ilişkisini gerekçelendiren kısa cevap."],
+          "differentiation": {"support": ["Gerçek olay / kurmaca düzenleme için iki sütunlu örnek ver."], "enrichment": ["Aynı gerçek olayı iki farklı anlatıcıyla yeniden düşündür."]},
+          "provenance": {"source_ids": ["legacy_teacher_guide"], "source_locators": ["basılı s.14"], "content_class": "MIGRATED_LEGACY_GUIDE"}
+        },
+        {
+          "item_id": "T1_G00_P14_Q02",
+          "printed_page_range": "14",
+          "label": "Edebî dil, sosyal bilimler ve iletişim",
+          "item_type": "QUESTION",
+          "expected_answer": "Edebî metinler söz varlığını, anlatma ve yorumlama gücünü; tarih, sosyoloji ve psikoloji gibi alanlar insanı ve toplumu anlamayı geliştirir. Bu birikim empatiyi, doğru anlamayı ve etkili ifadeyi destekler.",
+          "acceptance_criteria": ["Dil/söz varlığı ile ifade arasında bağ kurar.", "İnsan/toplum bilgisi ile anlama veya empati arasında bağ kurar."],
+          "teacher_guidance": ["Alan adlarını sıralamakla yetinmeyip iletişime etkisini açıklat."],
+          "common_misconceptions": ["Sosyal bilimleri iletişimden bağımsız görmek."],
+          "assessment_evidence": ["En az iki gerekçeli disiplin-iletişim bağlantısı."],
+          "differentiation": {"support": ["Dil → ifade; insan/toplum bilgisi → empati eşleştirmesini ver."], "enrichment": ["Bir iletişim çatışmasını tarih, sosyoloji ve psikoloji açısından ayrı ayrı yorumlat."]},
+          "provenance": {"source_ids": ["legacy_teacher_guide"], "source_locators": ["basılı s.14"], "content_class": "MIGRATED_LEGACY_GUIDE"}
+        }
+      ],
+      "provenance": {"source_ids": ["legacy_teacher_guide"], "source_locators": ["basılı s.12-14"], "content_class": "MIGRATED_LEGACY_GUIDE"}
+    }
+  ],
+  "section_principles": ["Açık uçlu sorularda tek doğru cevap dayatılmaz; metne dayalı, tutarlı ve gerekçeli alternatif cevap kabul edilir."],
+  "provenance": {"source_ids": ["legacy_teacher_guide", "textbook_map"], "source_locators": ["basılı s.12-14"], "content_class": "MIXED"}
+}
