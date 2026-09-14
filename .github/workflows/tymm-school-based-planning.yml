@@ -7,26 +7,40 @@ on:
     paths:
       - '.github/workflows/tymm-school-based-planning.yml'
       - 'skill/tymm-material-planner/scripts/validate_school_based_planning_placements.py'
+      - 'skill/tymm-material-planner/scripts/validate_annual_teacher_plan_coverage.py'
+      - 'skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py'
       - 'skill/tymm-material-planner/tests/test_school_based_planning_placements.py'
       - 'courses/TDE_9/production/school_based_planning_options.json'
       - 'courses/TDE_10/production/school_based_planning_options.json'
+      - 'courses/TDE_11/production/school_based_planning_options.json'
       - 'courses/TDE_9/production/school_based_planning_placements.json'
       - 'courses/TDE_10/production/school_based_planning_placements.json'
+      - 'courses/TDE_11/production/school_based_planning_placements.json'
       - 'courses/TDE_9/planning/lesson_plan_production_plan.json'
       - 'courses/TDE_10/planning/lesson_plan_production_plan.json'
+      - 'courses/TDE_11/planning/lesson_plan_production_plan.json'
+      - 'courses/TDE_11/planning/annual_teacher_plan.json'
+      - 'courses/TDE_11/planning/course_timeline.json'
   pull_request:
     branches:
       - main
     paths:
       - '.github/workflows/tymm-school-based-planning.yml'
       - 'skill/tymm-material-planner/scripts/validate_school_based_planning_placements.py'
+      - 'skill/tymm-material-planner/scripts/validate_annual_teacher_plan_coverage.py'
+      - 'skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py'
       - 'skill/tymm-material-planner/tests/test_school_based_planning_placements.py'
       - 'courses/TDE_9/production/school_based_planning_options.json'
       - 'courses/TDE_10/production/school_based_planning_options.json'
+      - 'courses/TDE_11/production/school_based_planning_options.json'
       - 'courses/TDE_9/production/school_based_planning_placements.json'
       - 'courses/TDE_10/production/school_based_planning_placements.json'
+      - 'courses/TDE_11/production/school_based_planning_placements.json'
       - 'courses/TDE_9/planning/lesson_plan_production_plan.json'
       - 'courses/TDE_10/planning/lesson_plan_production_plan.json'
+      - 'courses/TDE_11/planning/lesson_plan_production_plan.json'
+      - 'courses/TDE_11/planning/annual_teacher_plan.json'
+      - 'courses/TDE_11/planning/course_timeline.json'
   workflow_dispatch:
 
 permissions:
@@ -45,11 +59,18 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Validate TDE9 and TDE10 placement contracts
+      - name: Resolve TDE11 calendar-neutral 45-hour theme envelopes
+        run: python skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py --knowledge-root courses/TDE_11
+
+      - name: Validate TDE9, TDE10 and TDE11 placement contracts
         run: |
           python skill/tymm-material-planner/scripts/validate_school_based_planning_placements.py \
             --knowledge-root courses/TDE_9 \
-            --knowledge-root courses/TDE_10
+            --knowledge-root courses/TDE_10 \
+            --knowledge-root courses/TDE_11
+
+      - name: Validate TDE11 annual teacher plan coverage
+        run: python skill/tymm-material-planner/scripts/validate_annual_teacher_plan_coverage.py --knowledge-root courses/TDE_11
 
       - name: Run placement regression tests
         run: python skill/tymm-material-planner/tests/test_school_based_planning_placements.py
