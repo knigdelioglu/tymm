@@ -22,7 +22,7 @@
     {
       "theme_id": "TEMA_01",
       "theme_order": 1,
-      "official_total_hours": 43,
+      "official_total_hours": 45,
       "core_instruction_hours": 43,
       "school_based_hours": 2,
       "school_based_hours_status": "OFFICIAL_DRAFT_ANNUAL_PLAN_PLANNING_GUIDANCE",
@@ -121,7 +121,7 @@
     {
       "theme_id": "TEMA_02",
       "theme_order": 2,
-      "official_total_hours": 43,
+      "official_total_hours": 45,
       "core_instruction_hours": 43,
       "school_based_hours": 2,
       "school_based_hours_status": "OFFICIAL_DRAFT_ANNUAL_PLAN_PLANNING_GUIDANCE",
@@ -220,7 +220,7 @@
     {
       "theme_id": "TEMA_03",
       "theme_order": 3,
-      "official_total_hours": 43,
+      "official_total_hours": 45,
       "core_instruction_hours": 43,
       "school_based_hours": 2,
       "school_based_hours_status": "OFFICIAL_DRAFT_ANNUAL_PLAN_PLANNING_GUIDANCE",
@@ -319,7 +319,7 @@
     {
       "theme_id": "TEMA_04",
       "theme_order": 4,
-      "official_total_hours": 43,
+      "official_total_hours": 45,
       "core_instruction_hours": 43,
       "school_based_hours": 2,
       "school_based_hours_status": "OFFICIAL_DRAFT_ANNUAL_PLAN_PLANNING_GUIDANCE",
@@ -416,7 +416,7 @@
       "outer_total_hours": 45
     }
   ],
-  "timeline_version": "1.1.3",
+  "timeline_version": "1.1.4",
   "timeline_semantics": {
     "calendar_neutral_topic_hour_distribution": true,
     "calendar_fields_intentionally_excluded": true,

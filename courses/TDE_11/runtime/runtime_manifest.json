@@ -3,7 +3,7 @@
   "schema_version": "1.2.0",
   "course_id": "TDE_11",
   "grade": 11,
-  "build_timestamp": "2026-09-14T12:27:08Z",
+  "build_timestamp": "2026-09-14T13:44:55Z",
   "compiler_version": "1.2.0",
   "canonical_source_files": [
     "../TDE_SHARED/curriculum_process_component_catalog.json",
@@ -219,8 +219,8 @@
     "generated/lesson_plans/TEMA_04/BLOCK_T4_04_YAZMA/BLOCK_T4_04_YAZMA_P04.json": "eb6db3fa561d3d8d85f8403bde7ee481f5053235b48e6098163337cb8e12f4de",
     "generated/lesson_plans/TEMA_04/BLOCK_T4_04_YAZMA/BLOCK_T4_04_YAZMA_P05.json": "d0ca7885e1653000c2b5b14ff9d0df230c75785c123ce2d1f35a048141c5e5b3",
     "planning/block_hour_bindings.json": "8c72bb62313b6cedf6e87ca80e4256de35fa3b15837eb820c375e4f8431d0572",
-    "planning/course_timeline.json": "1f26786188260081a0145749c3cd36f611326d4f5d95a6bf2d5abcba475dd1b0",
-    "planning/lesson_plan_production_plan.json": "d184877be08c42f0dfbb95a3fa17bebf8c0d67ef8d7f49ba30e209b06321af27",
+    "planning/course_timeline.json": "106724ed83e56ceef28231fb8ec37c9db5caaacbc189558cd0b8ec26cf1a0bb5",
+    "planning/lesson_plan_production_plan.json": "1337c2c23cc497811fba4dd5f7ef6fb553fb53c8c41d728077997a371ac15b13",
     "planning/official_topic_hour_distribution.json": "be7ed3437565e5f28ea83b697618a8793901f065b904f010e8315a1539d4e150",
     "production/assessment_artifact_registry.json": "ca8a9b27cef1e812fb523a934cfd91c50d272e34c38e0247fb586f893eb6acce",
     "production/assessment_design_contract.json": "aedf28438bf1906a4fa9498eeb2bb6eace8be341d538f3d048cbf58f912e46fe",
@@ -247,7 +247,7 @@
     "themes/tema_04/needs.json": "c015ddbb98b901dbe2f7bd760f6d91a4bd1cea90686f491b24c7291fdb358be0",
     "themes/tema_04/resource_plan.json": "be7e59f1f3f78a978d67a8805ddbcd4a89d3f742e7f132215bb2fc1254643fde"
   },
-  "canonical_content_fingerprint": "c5bc659709a25539aff3ea6041be4e448368458b14f5176dc3fce6ff3dbcc17a",
+  "canonical_content_fingerprint": "ced8025957e4c2aa7b9f1faef04931a902b93c67b52c96c3beb87dbb556a12f6",
   "row_counts": {
     "courses": 1,
     "themes": 4,
@@ -311,9 +311,9 @@
     "scope": "COURSE",
     "binding_schema_version": "1.0.0",
     "binding_algorithm": "TYMM_LESSON_PLAN_VALIDATION_SCOPE_V1",
-    "content_fingerprint": "sha256:70373e0b9f7c43353937b580a6b6a8009ee93e89842fde612e636bfaf024537a",
-    "fingerprinted_files": 221,
-    "validated_commit_sha": "db333f76406fa2535e09a840e77b9d8183963f40",
+    "content_fingerprint": "sha256:47b2c5127fe04d80657a10e735c62924038cf080d7820ac5f1cedd2df658451e",
+    "fingerprinted_files": 224,
+    "validated_commit_sha": "6bbb5e5891d9ae88b227ce0b3fccb787d11e5eb2",
     "seal_path": "planning/lesson_plan_validation_seal.json"
   },
   "lesson_plan_capabilities": {
