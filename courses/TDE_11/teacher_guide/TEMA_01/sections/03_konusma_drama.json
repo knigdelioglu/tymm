@@ -7,7 +7,7 @@
   "title": "Edebiyat Atölyesi-1 (Anlatma): Konuşma — Sözlü İletişim Engellerini Konu Alan Bir Drama",
   "section_type": "SPEAKING",
   "printed_page_range": "53-58",
-  "content_status": "PLANNED",
+  "content_status": "VERIFIED",
   "outcome_refs": ["TDE3.1", "TDE3.2", "TDE3.3", "TDE3.4"],
   "activity_refs": ["T1_ACT_09_KONUSMA_YONETIM", "T1_ACT_10_KONUSMA_ICERIK_ANLAM", "T1_ACT_11_KONUSMA_UYGULAMA_COZUMLEME", "T1_ACT_12_KONUSMA_DEGERLENDIRME"],
   "lesson_plan_refs": [
@@ -17,7 +17,128 @@
     "courses/TDE_11/generated/lesson_plans/TEMA_01/BLOCK_T1_02_KONUSMA/BLOCK_T1_02_KONUSMA_P04.json",
     "courses/TDE_11/generated/lesson_plans/TEMA_01/BLOCK_T1_02_KONUSMA/BLOCK_T1_02_KONUSMA_P05.json"
   ],
-  "guide_units": [],
-  "section_principles": ["Drama performansı konuşma becerisinin kanıtı olarak ele alınacak; yalnız yazılı senaryo yeterli sayılmayacak.", "TDE3.4 için görünmeyen QR rubrik ölçütleri uydurulmayacak."],
-  "provenance": {"source_ids": ["textbook_map", "theme_alignment", "lesson_plan_set"], "source_locators": ["basılı s.53-58", "T1_ACT_09_KONUSMA_YONETIM", "T1_ACT_10_KONUSMA_ICERIK_ANLAM", "T1_ACT_11_KONUSMA_UYGULAMA_COZUMLEME", "T1_ACT_12_KONUSMA_DEGERLENDIRME"], "content_class": "MIXED"}
+  "guide_units": [
+    {
+      "unit_id": "T1_GUIDE_U09_KONUSMA_YONETIM",
+      "title": "Konuşmayı Yönetebilme",
+      "printed_page_range": "53-54",
+      "activity_refs": ["T1_ACT_09_KONUSMA_YONETIM"],
+      "outcome_refs": ["TDE3.1"],
+      "content_status": "VERIFIED",
+      "purpose": "Sözlü iletişim engellerini konu alan dramanın amacını, hedef kitlesini, çalışma yöntemini, rolleri ve uygulama koşullarını planlamak.",
+      "items": [
+        {
+          "item_id": "T1_G09_P53_54_DRAMA_PLAN",
+          "printed_page_range": "53-54",
+          "label": "Drama / konuşma planı",
+          "item_type": "PROCESS",
+          "expected_answer": {
+            "beklenen_urun": "Konuşma/canlandırma planı, görev dağılımı ve hazırlık kayıtları.",
+            "plan_bilesenleri": ["iletişim engelinin açık tanımı", "konuşmanın amacı", "hedef kitle", "kişiler/roller", "durum ve bağlam", "yöntem/strateji", "hazırlık gereksinimleri", "uygulama zamanı ve koşulları"],
+            "pedagojik_ornek_engeller": ["etkin dinlememe", "önyargılı veya peşin hükümlü yaklaşım", "belirsiz/kapalı ifade", "söz kesme", "dikkatin dijital araçlarla bölünmesi", "ses tonu veya beden dili ile sözün çelişmesi"]
+          },
+          "acceptance_criteria": ["Drama konusu günlük yaşamda karşılaşılabilecek gerçek bir sözlü iletişim engeline dayanır.", "Amaç ve hedef kitle açıkça belirtilir.", "Rol ve uygulama koşulları somutlaştırılır.", "Plan, yalnız konu adı değil uygulanabilir bir canlandırma akışı içerir."],
+          "teacher_guidance": ["Pedagojik örnekleri resmî kitap cevabı gibi sunma; öğrencinin kendi gerçekçi iletişim durumu seçmesine alan aç.", "Sınıf kalabalıksa dengeli paralel gruplar kur; konuşmacı/oyuncu, gözlemci ve geri bildirim rollerini dönüşümlü yürüt.", "Kontrol listesini hazırlık sürecini görünür kılmak için kullan; dış QR rubriğinde görülmeyen ölçütleri ekleme."],
+          "common_misconceptions": ["İletişim engelini yalnız 'kavga etmek' olarak düşünmek.", "Drama planını yalnız yazılı senaryo metni sanmak.", "Hedef kitleyi belirtmeden genel bir konuşma hazırlamak."],
+          "assessment_evidence": ["Konuşma/canlandırma planı.", "Görev dağılımı ve hazırlık kaydı.", "FORM_T1_P054_KONTROL_LISTESI_03 ile görünür hazırlık kontrolü."],
+          "differentiation": {"support": ["Amaç-hedef kitle-engel-rol-çözüm başlıklı plan şablonu ver.", "Yönergeyi küçük adımlara böl ve hem yazılı hem sözlü sun."], "enrichment": ["Aynı iletişim engelini iki farklı hedef kitle veya bağlam için yeniden planlat.", "Bir engelin neden-sonuç-çözüm zincirini ayrıca kurdur."]},
+          "provenance": {"source_ids": ["textbook_map", "theme_alignment", "lesson_plan_set"], "source_locators": ["basılı s.53-54", "T1_ACT_09_KONUSMA_YONETIM", "FORM_T1_P054_KONTROL_LISTESI_03", "BLOCK_T1_02_KONUSMA_P01"], "content_class": "MIXED", "note": "İletişim engeli örnekleri pedagojik zenginleştirmedir; resmî ders kitabının görünmeyen soru/cevap metni olarak sunulmaz."}
+        }
+      ],
+      "provenance": {"source_ids": ["textbook_map", "theme_alignment", "lesson_plan_set"], "source_locators": ["basılı s.53-54", "T1_ACT_09_KONUSMA_YONETIM", "BLOCK_T1_02_KONUSMA_P01"], "content_class": "MIXED"}
+    },
+    {
+      "unit_id": "T1_GUIDE_U10_KONUSMA_ICERIK",
+      "title": "İçerik Oluşturabilme",
+      "printed_page_range": "55-56",
+      "activity_refs": ["T1_ACT_10_KONUSMA_ICERIK_ANLAM"],
+      "outcome_refs": ["TDE3.2"],
+      "content_status": "VERIFIED",
+      "purpose": "Dramada iletişim engelinin nedenini, sonucunu ve çözüm yolunu görünür kılan konuşma/senaryo içeriği oluşturmak.",
+      "items": [
+        {
+          "item_id": "T1_G10_P55_56_CONTENT_DESIGN",
+          "printed_page_range": "55-56",
+          "label": "Konuşma/senaryo içeriğini yapılandırma",
+          "item_type": "PERFORMANCE_TASK",
+          "expected_answer": {
+            "beklenen_urun": "Konuşma metni, senaryo veya akış taslağı ile içerik düzenleme kayıtları.",
+            "icerik_iskeleti": ["durumun kısa kurulumu", "iletişim engelinin ortaya çıkışı", "kişilerin farklı bakış açıları", "engel nedeniyle oluşan sonuç", "çözüm veya iyileştirme girişimi", "iletişimin nasıl değiştiğini gösteren kapanış"],
+            "icerik_kaynaklari": ["günlük yaşam gözlemi", "uygun örnek", "gerekiyorsa görsel/işitsel destek", "bağlama uygun söz varlığı"]
+          },
+          "acceptance_criteria": ["İletişim engelinin neden-sonuç ilişkisi anlaşılır biçimde görünürdür.", "İçerik, hedef kitle ve konuşma amacına uygundur.", "Kişiler yalnız engeli yaşamaz; farklı bakış açısı veya çözüm yolu da görünür hâle gelir.", "Senaryo/akış, canlı performansa dönüştürülebilir niteliktedir."],
+          "teacher_guidance": ["Öğrencinin içerik seçimini somut durum göstergeleriyle gerekçelendirmesini iste.", "İlk taslaktan sonra güçlü bir örnek ile geliştirilmesi gereken bir örneği anonim karşılaştır ve ikinci taslakta tek somut değişiklik yaptır.", "Görsel/işitsel destek zorunlu değilse süs unsuru hâline getirme; iletişimi açıklama işlevi taşımasını iste."],
+          "common_misconceptions": ["İletişim engelini gösterip nedenini veya çözümünü hiç işlememek.", "Dramayı uzun bir açıklama konuşmasına dönüştürmek.", "Her karakteri aynı dil ve tepkiyle konuşturmak."],
+          "assessment_evidence": ["Senaryo/akış taslağı.", "İlk ve geliştirilmiş içerik sürümü.", "İçerik seçiminin kısa gerekçesi."],
+          "differentiation": {"support": ["Durum-engel-sonuç-çözüm dört adımlı iskelet ver.", "Anahtar sözcük ve rol kartları kullan."], "enrichment": ["Aynı iletişim engeli için iki farklı çözüm yolu yazdır ve etkilerini karşılaştır.", "Karakterlerin farklı sosyal/dil özelliklerini iletişim sonucuna etkisiyle ilişkilendir."]},
+          "provenance": {"source_ids": ["textbook_map", "theme_alignment", "lesson_plan_set"], "source_locators": ["basılı s.55-56", "T1_ACT_10_KONUSMA_ICERIK_ANLAM", "BLOCK_T1_02_KONUSMA_P02"], "content_class": "MIXED"}
+        }
+      ],
+      "provenance": {"source_ids": ["textbook_map", "theme_alignment", "lesson_plan_set"], "source_locators": ["basılı s.55-56", "T1_ACT_10_KONUSMA_ICERIK_ANLAM", "BLOCK_T1_02_KONUSMA_P02"], "content_class": "MIXED"}
+    },
+    {
+      "unit_id": "T1_GUIDE_U11_KONUSMA_UYGULAMA",
+      "title": "Kural Uygulayabilme",
+      "printed_page_range": "57",
+      "activity_refs": ["T1_ACT_11_KONUSMA_UYGULAMA_COZUMLEME"],
+      "outcome_refs": ["TDE3.3"],
+      "content_status": "VERIFIED",
+      "purpose": "Planlanan dramayı bağlama uygun dil, beden dili, ses, zaman ve mekân kullanımıyla canlı sözlü performansa dönüştürmek.",
+      "items": [
+        {
+          "item_id": "T1_G11_P57_LIVE_PERFORMANCE",
+          "printed_page_range": "57",
+          "label": "Canlı drama / sözlü performans",
+          "item_type": "PERFORMANCE_TASK",
+          "expected_answer": {
+            "beklenen_urun": "Canlı sözlü performans/canlandırma ve performans kaydı.",
+            "gozlenebilir_alanlar": ["bağlama uygun sözcük seçimi", "anlaşılır ve işitilebilir ses kullanımı", "vurgu/tonlama", "jest-mimik ve beden dili", "karakterler arası etkileşim", "süreyi yönetme", "mekânı işlevsel kullanma", "iletişim engelini ve çözümünü davranışla görünür kılma"]
+          },
+          "acceptance_criteria": ["Sözlü performans gerçekten gerçekleştirilir; yazılı senaryo tek başına yeterli değildir.", "Dil, beden dili ve ses kullanımı canlandırmanın anlamını destekler.", "İletişim engeli performansta anlaşılabilir biçimde görünürdür.", "Öğrenci/ekip ilk deneme sonrası en az bir unsuru geri bildirimle geliştirir."],
+          "teacher_guidance": ["Sınıf mevcudu yüksekse dört paralel grup ve öğretmen rotasyonu kullanılabilir; her öğrenciden gözlenebilir bireysel konuşma kanıtı toplamaya devam et.", "Akran gözlemcisinin görevi kanıt notu tutmaktır; öğretmen değerlendirmesinin yerini almaz.", "Canlı performansı yapamayan öğrenci için küçük grup canlı veya öğretmen gözlemli canlı seçenek kullan; kayıt ancak izin varsa düşünülebilir."],
+          "common_misconceptions": ["Metni ezberden hızlı söylemenin başarılı konuşma sayılması.", "Beden dilini abartılı hareketle eşitlemek.", "Grup performansında bazı öğrencilerin hiç sözlü kanıt üretmemesi."],
+          "assessment_evidence": ["Öğretmenin doğrudan gözlem notu.", "Canlı bireysel/grup performans kanıtı.", "İlk ve düzeltilmiş performans arasındaki değişikliğin kısa kaydı."],
+          "differentiation": {"support": ["Küçük grup canlı veya öğretmen gözlemli canlı rota kullan.", "Ön prova ve kısa konuşma ipucu kartına izin ver."], "enrichment": ["Aynı sahneyi farklı ton/beden dili seçimleriyle ikinci kez oynat ve anlam etkisini karşılaştır.", "İletişim engelinin çözülmediği ve çözüldüğü iki alternatif son oynat."]},
+          "provenance": {"source_ids": ["textbook_map", "theme_alignment", "lesson_plan_set"], "source_locators": ["basılı s.57", "T1_ACT_11_KONUSMA_UYGULAMA_COZUMLEME", "BLOCK_T1_02_KONUSMA_P03", "BLOCK_T1_02_KONUSMA_P04"], "content_class": "MIXED"}
+        }
+      ],
+      "provenance": {"source_ids": ["textbook_map", "theme_alignment", "lesson_plan_set"], "source_locators": ["basılı s.57", "T1_ACT_11_KONUSMA_UYGULAMA_COZUMLEME", "BLOCK_T1_02_KONUSMA_P03", "BLOCK_T1_02_KONUSMA_P04"], "content_class": "MIXED"}
+    },
+    {
+      "unit_id": "T1_GUIDE_U12_KONUSMA_DEGERLENDIRME",
+      "title": "Süreci Değerlendirebilme",
+      "printed_page_range": "58",
+      "activity_refs": ["T1_ACT_12_KONUSMA_DEGERLENDIRME"],
+      "outcome_refs": ["TDE3.4"],
+      "content_status": "REVIEW_REQUIRED",
+      "purpose": "Konuşma performansını görünür öz/akran/öğretmen kanıtları ve geri bildirimle değerlendirip geliştirmek.",
+      "items": [
+        {
+          "item_id": "T1_G12_P58_REFLECTION",
+          "printed_page_range": "58",
+          "label": "Öz/akran/öğretmen değerlendirmesi ve revizyon",
+          "item_type": "ASSESSMENT",
+          "expected_answer": {
+            "beklenen_urun": "Öz/akran değerlendirme, öğretmen gözlem/değerlendirme kaydı ve yansıtma/revizyon kaydı.",
+            "yansitma_sorulari": ["Performansımda iletişim amacını en iyi gösteren davranış neydi?", "Dinleyici/izleyici açısından belirsiz kalan nokta neydi?", "Dil, ses veya beden dilinden hangisini değiştirmeliyim?", "Geri bildirimden sonra yaptığım tek somut değişiklik neydi ve etkisi ne oldu?"]
+          },
+          "acceptance_criteria": ["Öğrenci en az bir güçlü yönü somut performans kanıtıyla açıklar.", "En az bir geliştirme hedefi belirler.", "Akran geri bildirimi gözlenebilir davranışa dayanır.", "Revizyonun performansa etkisini kısaca açıklar."],
+          "teacher_guidance": ["FORM_T1_P058_OZ_DEGERLENDIRME_05'i öğrencinin yerine doldurma.", "FORM_T1_P054_KONTROL_LISTESI_03 ile hazırlık sürecindeki kanıtları performans sonrası yansıtmayla ilişkilendir.", "QR bağlantılı dereceli puanlama anahtarının görünmeyen ölçüt×düzey yapısını uydurma; rehberde yalnız doğrulanmış/görünür değerlendirme kanıtlarını kullan."],
+          "common_misconceptions": ["Öz değerlendirmeyi 'iyiydim/kötüydüm' gibi gerekçesiz genel yargıya indirgemek.", "Akran değerlendirmesini kişilik veya beğeni yorumuna dönüştürmek."],
+          "assessment_evidence": ["FORM_T1_P058_OZ_DEGERLENDIRME_05.", "FORM_T1_P054_KONTROL_LISTESI_03 ile bağlantılı hazırlık kanıtı.", "Öğretmen gözlem kaydı.", "Revizyon/yansıtma notu."],
+          "differentiation": {"support": ["Bir güçlü yön + bir geliştirme hedefi + bir sonraki adım şablonu ver."], "enrichment": ["İlk ve ikinci performansı aynı gözlenebilir ölçütler üzerinden karşılaştırıp değişimi açıklat."]},
+          "provenance": {"source_ids": ["textbook_map", "theme_alignment", "lesson_plan_set"], "source_locators": ["basılı s.58", "T1_ACT_12_KONUSMA_DEGERLENDIRME", "FORM_T1_P058_OZ_DEGERLENDIRME_05", "FORM_T1_P054_KONTROL_LISTESI_03", "BLOCK_T1_02_KONUSMA_P05"], "content_class": "MIXED", "note": "TDE3.4 ile ilişkili dış QR dereceli puanlama anahtarının kriter×düzey yapısı doğrulanmadığı için bu birim REVIEW_REQUIRED tutulur."}
+        }
+      ],
+      "provenance": {"source_ids": ["textbook_map", "theme_alignment", "lesson_plan_set"], "source_locators": ["basılı s.58", "T1_ACT_12_KONUSMA_DEGERLENDIRME", "BLOCK_T1_02_KONUSMA_P05"], "content_class": "MIXED", "note": "Görünmeyen resmî rubrik ölçütleri eklenmemiştir."}
+    }
+  ],
+  "section_principles": [
+    "Drama performansı konuşma becerisinin kanıtıdır; yalnız yazılı senaryo yeterli değildir.",
+    "Öğretmen rehberi resmî alt-saat sıralaması icat etmez; ders planındaki saat içi düzen pedagojik öneri olarak kullanılır.",
+    "Kalabalık sınıfta paralel grup düzeni kullanılabilir fakat bireysel sözlü kanıt korunur.",
+    "Destek/erişilebilirlik uyarlaması görevin temsil veya katılım yolunu değiştirebilir; hedef öğrenme çıktısı ve temel kanıt değişmez.",
+    "TDE3.4 için görünmeyen QR rubrik ölçütleri uydurulmaz."
+  ],
+  "provenance": {"source_ids": ["textbook_map", "theme_alignment", "lesson_plan_set"], "source_locators": ["basılı s.53-58", "T1_ACT_09_KONUSMA_YONETIM", "T1_ACT_10_KONUSMA_ICERIK_ANLAM", "T1_ACT_11_KONUSMA_UYGULAMA_COZUMLEME", "T1_ACT_12_KONUSMA_DEGERLENDIRME", "BLOCK_T1_02_KONUSMA_P01-P05"], "content_class": "MIXED"}
 }
