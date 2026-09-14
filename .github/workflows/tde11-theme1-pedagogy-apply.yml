@@ -1,5 +1,6 @@
 name: TDE11 Theme1 Pedagogy Apply
 
+# Feature-branch apply gate: generated plans are committed only after both validators pass.
 on:
   push:
     branches:
