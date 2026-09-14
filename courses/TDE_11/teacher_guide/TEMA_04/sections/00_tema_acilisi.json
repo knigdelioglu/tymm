@@ -1,0 +1,258 @@
+{
+  "schema_version": "1.1.0",
+  "document_type": "TYMM_TEACHER_GUIDE_SECTION",
+  "course_id": "TDE_11",
+  "theme_id": "TEMA_04",
+  "section_id": "T4_GUIDE_SEC_00_TEMA_ACILIS",
+  "title": "Tema Açılışı / Temaya Başlarken",
+  "section_type": "THEME_OPENING",
+  "printed_page_range": "236-239",
+  "content_status": "VERIFIED",
+  "outcome_refs": [],
+  "activity_refs": [],
+  "lesson_plan_refs": [],
+  "guide_units": [
+    {
+      "unit_id": "T4_GUIDE_U00_TEMA_CERCEVESI",
+      "title": "Tema Çerçevesi ve Ana Kavramlar",
+      "printed_page_range": "236-237",
+      "activity_refs": [],
+      "outcome_refs": [],
+      "content_status": "VERIFIED",
+      "purpose": "Hayat-edebiyat ilişkisi, tiyatro, küçürek hikâye, belgesel, canlandırma ve afiş üretimini ortak tema çerçevesinde görünür kılmak.",
+      "items": [
+        {
+          "item_id": "T4_G00_P236_TEMA_CERCEVESI",
+          "printed_page_range": "236",
+          "label": "Tema kapsamı ve beklenen öğrenmeler",
+          "item_type": "REFERENCE",
+          "expected_answer": {
+            "anlama": [
+              "tiyatro / Ben, Mimar Sinan",
+              "küçürek hikâye / Merdiven",
+              "belgesel / Anadolu İnsanı-Fedakârlık"
+            ],
+            "anlatma": [
+              "tiyatro bölümünü yeniden kurgulayıp canlandırma",
+              "belgesel içeriğini yansıtan özgün afiş"
+            ]
+          },
+          "acceptance_criteria": [
+            "Temanın hayat-edebiyat ilişkisini ana eksen olarak ifade eder.",
+            "Üç anlama ve iki anlatma odağını ayırt eder."
+          ],
+          "teacher_guidance": [
+            "Bu çerçeveyi ezber listesi değil, tema boyunca dönülecek yol haritası olarak kullan."
+          ],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "Öğrencinin tema sonunda bu beş odağın birbirine nasıl bağlandığını açıklayabilmesi."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf",
+              "textbook_map"
+            ],
+            "source_locators": [
+              "basılı s.236 / PDF s.237"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T4_G00_P236_KAVRAMLAR",
+          "printed_page_range": "236",
+          "label": "Anahtar kavramlar",
+          "item_type": "REFERENCE",
+          "expected_answer": [
+            "dekor",
+            "diyalog",
+            "dramatik örgü",
+            "gösterme tekniği",
+            "kostüm",
+            "küçürek hikâye",
+            "modern Türk tiyatrosu",
+            "monolog",
+            "oyun",
+            "perde",
+            "sahne"
+          ],
+          "acceptance_criteria": [
+            "Kavramları tema içindeki metin ve görevlerle ilişkilendirir."
+          ],
+          "teacher_guidance": [
+            "Kavramları tanım ezberi yerine metin üstünde işlevleriyle ele al."
+          ],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf",
+              "textbook_map"
+            ],
+            "source_locators": [
+              "basılı s.236 / PDF s.237"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T4_G00_P237_YUNUS",
+          "printed_page_range": "237",
+          "label": "Yunus Emre alıntısı — kendini bilme",
+          "item_type": "QUESTION",
+          "expected_answer": "İnsanın kendisini tanıması; bilgisini, sınırlarını, değerlerini ve davranışlarını sorgulaması gerçek öğrenmenin temelidir. Tema boyunca metin kişileri ve öğrencinin kendi deneyimleri arasında kurulacak bağ için bir giriş işlevi görür.",
+          "acceptance_criteria": [
+            "Kendini bilme fikrini öz farkındalıkla ilişkilendirir.",
+            "Alıntıyı tema odağıyla gerekçeli biçimde bağlar."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf",
+              "textbook_map"
+            ],
+            "source_locators": [
+              "basılı s.237 / PDF s.238"
+            ],
+            "content_class": "MIXED"
+          }
+        }
+      ],
+      "provenance": {
+        "source_ids": [
+          "official_textbook_pdf",
+          "textbook_map"
+        ],
+        "source_locators": [
+          "basılı s.236-237 / PDF s.237-238"
+        ],
+        "content_class": "MIXED"
+      }
+    },
+    {
+      "unit_id": "T4_GUIDE_U01_TEMAYA_BASLARKEN",
+      "title": "Temaya Başlarken — Edebiyat, Hayat ve Okur",
+      "printed_page_range": "238-239",
+      "activity_refs": [],
+      "outcome_refs": [],
+      "content_status": "VERIFIED",
+      "purpose": "Edebiyatın sosyal gelişim, kalıcılık, sanatsal dönüştürme ve okur yaşantısıyla ilişkisini tartışmaya açmak.",
+      "items": [
+        {
+          "item_id": "T4_G00_P238_Q1_2",
+          "printed_page_range": "238",
+          "label": "Kitap, sosyal gelişim ve ‘ebedî dostluk’",
+          "item_type": "QUESTION",
+          "expected_answer": {
+            "1": "Kitaplar farklı insanların deneyim, duygu ve düşünceleriyle karşılaşmayı sağladığı için empatiyi, iletişim dilini ve toplumsal bakış açısını geliştirebilir.",
+            "2": "Kitap, yazarı ve ilk okuru ortadan kalksa bile yeniden okunabildiği; farklı zamanlarda okurla düşünsel/duygusal ilişki kurabildiği için kalıcı bir dost gibi görülebilir."
+          },
+          "acceptance_criteria": [
+            "Sosyal gelişimi en az bir somut mekanizmayla açıklar.",
+            "Kalıcılık ve yeniden okuma üzerinden ‘ebedî dost’ benzetmesini gerekçelendirir."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [
+            "Kitap okumanın sosyal gelişimi yalnız kelime hazinesine indirgemek."
+          ],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf",
+              "textbook_map"
+            ],
+            "source_locators": [
+              "basılı s.238 / PDF s.239"
+            ],
+            "content_class": "MIXED"
+          }
+        },
+        {
+          "item_id": "T4_G00_P239_Q3_5",
+          "printed_page_range": "239",
+          "label": "Sanatsal metin, yaşantı ve tür seçimi",
+          "item_type": "QUESTION",
+          "expected_answer": {
+            "3": [
+              "kurmaca veya estetik düzenleme",
+              "çok anlamlılık/çağrışım",
+              "özgün dil ve üslup",
+              "duygu-düşünceyi dönüştürerek aktarma"
+            ],
+            "4": "Okurun yaşadığı bir olay, metindeki duygu, çatışma, kişi veya mekânla benzerlik kurduğunda metnin anlamını kişisel düzeyde derinleştirebilir.",
+            "5": "Tür seçimi serbesttir; kabul için seçilen hayat kesiti ile türün imkânları arasında gerekçeli ilişki kurulmalıdır."
+          },
+          "acceptance_criteria": [
+            "Sanatsal metni yalnız ‘gerçek dışı’ diye tanımlamaz.",
+            "Kişisel deneyim-metinsel anlam bağını açıklar.",
+            "Tür seçimini gerekçelendirir."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": [
+              "Aynı hayat olayının hikâye, tiyatro ve belgeselde nasıl farklı kurulacağını karşılaştırmasını iste."
+            ]
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf",
+              "textbook_map"
+            ],
+            "source_locators": [
+              "basılı s.239 / PDF s.240"
+            ],
+            "content_class": "MIXED"
+          }
+        }
+      ],
+      "provenance": {
+        "source_ids": [
+          "official_textbook_pdf",
+          "textbook_map"
+        ],
+        "source_locators": [
+          "basılı s.238-239 / PDF s.239-240"
+        ],
+        "content_class": "MIXED"
+      }
+    }
+  ],
+  "section_principles": [
+    "Resmî ders kitabı PDF’sindeki görev sırasını ve öğrenciye verilen bağlamı koru.",
+    "Açık uçlu soruları tek doğruya indirgeme; metne/kanıta dayalı gerekçeli alternatifleri kabul et.",
+    "QR ile dışarı açılan video, rubrik veya görsel içeriğini yerel PDF’de görünmüyorsa uydurma.",
+    "Pedagojik öğretmen notlarını resmî kitap yönergesi gibi sunma."
+  ],
+  "provenance": {
+    "source_ids": [
+      "official_textbook_pdf",
+      "textbook_map"
+    ],
+    "source_locators": [
+      "basılı s.236-239 / PDF s.237-240"
+    ],
+    "content_class": "MIXED"
+  }
+}
