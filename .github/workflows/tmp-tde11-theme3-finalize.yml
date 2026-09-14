@@ -11,6 +11,7 @@ on:
 permissions:
   contents: write
 
+# retry: payload transport is length- and SHA-256-verified before extraction
 jobs:
   finalize-theme3:
     runs-on: ubuntu-latest
