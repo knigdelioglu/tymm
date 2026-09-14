@@ -70,7 +70,7 @@
 
 | Check | Status | Detail |
 |---|---|---|
-| lesson plan validation seal | PASS | verified=sha256:327d12f9f502995423077d70b80a99631ac9b323c77e3022c6ee99112ca1fca0 |
+| lesson plan validation seal | PASS | verified=sha256:788419d9599c16100c6927d2c51877014770e40791c44aa65e7aeaac50e73533 |
 | lesson plan package count | PASS | runtime=88, expected=88 |
 | lesson plan instruction hours | PASS | runtime=172, expected=172 |
 | lesson plan block topology | PASS | all blocks match package count and planned hours |

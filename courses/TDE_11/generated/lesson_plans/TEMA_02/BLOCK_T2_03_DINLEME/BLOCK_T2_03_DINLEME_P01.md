@@ -69,32 +69,32 @@
 
 # Ders akışı
 
-## 1. Ders — Dinleme / İzlemeyi Yönetebilme: kanıt üretme ve geliştirme
+## 1. Ders — Âşık Atışmasına Hazırlık: Dinleme Amacı, Strateji ve Tahmin
 
 **Süre:** 1 ders saati  
 **Öğrenme çıktıları:** `TDE1.1`
 
 ### Hedef
 
-Öğrenci, “Dinleme / İzlemeyi Yönetebilme” etkinliğinde dinleme/izleme amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve tahminde bulunur; ürettiği kanıtı gerekçelendirerek uygulama ve ilk kanıt sürecini tamamlar.
+Öğrenci, “Dinleme / İzlemeyi Yönetebilme” etkinliğinde dinleme/izleme amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve tahminde bulunur. Bu ders saatinin pedagojik odağı: âşık atışması için dinleme/izleme amacı, stratejisi ve gerekçeli tahmin oluşturma; somut kanıt: Amaç/strateji kaydı, tahmin ve hazırlık notları.
 
 ### Derse giriş
 
-“Dinleme / İzlemeyi Yönetebilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi dinleme/izleme davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.
+Metin Tahlili-3 (Anlama): Dinleme / İzleme — Âşık Atışması — ders kitabı s.137 üzerinden bu saatin odağı görünür kılınır: Âşık atışması için dinleme/izleme amacı, stratejisi ve gerekçeli tahmin oluşturma. Öğrenci önceki/başlangıç kanıtını kısa biçimde önüne alır ve bu saatin sonunda neyin değişmiş veya derinleşmiş olması gerektiğini kendi cümlesiyle belirtir.
 
 ### Öğretmenin yapacakları
 
 1. “Dinleme / İzlemeyi Yönetebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
-2. Öğrencinin şu görevi yerine getirmesini sağla: Dinleme/izleme amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve tahminde bulunur. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
-3. “Amaç/strateji kaydı, tahmin ve hazırlık notları” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
-4. Ders sırasında kısa kontrol noktaları kullan; öğrencinin yanlış veya eksik stratejiyi kanıt oluşmadan önce fark edip düzeltmesine fırsat ver.
+2. Canonical görevi koru: Dinleme/izleme amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve tahminde bulunur.
+3. İlk kanıtın gerekçesini görünür kıl; tahmin/strateji kaydını kaynak göstergeleriyle ilişkilendir.
+4. Bu saate özgü kanıtı topla: Amaç/strateji kaydı, tahmin ve hazırlık notları. Yalnız katılımı yeterli kanıt sayma; öğrencinin yaptığı bilişsel işlemi ürününde veya kaydında görünür kıl.
 
 ### Öğrencinin yapacakları
 
 - Dinleme/izleme amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve tahminde bulunur.
-- Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.
-- Kapanışta bir güçlü kanıtını ve bir geliştirme adımını kısa biçimde kaydeder.
+- Âşık atışması için dinleme/izleme amacı, stratejisi ve gerekçeli tahmin oluşturma.
+- Kanıt olarak şunu üretir veya günceller: Amaç/strateji kaydı, tahmin ve hazırlık notları.
+- İlk kanıtında ikinci saatte sınayacağı, karşılaştıracağı, geliştireceği veya aktaracağı tek noktayı işaretler.
 
 ### Kaynak bağları
 
@@ -103,43 +103,43 @@
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı şudur: “Amaç/strateji kaydı, tahmin ve hazırlık notları”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen dinleme/izleme becerisine uygunluğu üzerinden verilir.
+Bu ders saatinin birincil ölçme kanıtı “Amaç/strateji kaydı, tahmin ve hazırlık notları”dir. Değerlendirme, öğrencinin “Âşık atışması için dinleme/izleme amacı, stratejisi ve gerekçeli tahmin oluşturma” işlemini görünür ve gerekçeli biçimde yapıp yapmadığına dayanır; kaynakta doğrulanmamış puan aralığı veya rubrik ölçütü eklenmez.
 
 ### Kapanış
 
-Öğrenci “Amaç/strateji kaydı, tahmin ve hazırlık notları” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
+Öğrenci “Amaç/strateji kaydı, tahmin ve hazırlık notları” kanıtında ikinci derse taşıyacağı tek soruyu, varsayımı veya geliştirme noktasını işaretler.
 
 ### Materyaller
 
 - Metin Tahlili-3 (Anlama): Dinleme / İzleme — Âşık Atışması — ders kitabı s.137
 - Öğrencinin bu ders saatinde oluşturduğu somut kanıt kaydı
 
-## 2. Ders — Dinleme / İzlemeyi Yönetebilme: kanıt üretme ve geliştirme
+## 2. Ders — Âşık Atışmasında Tahminleri Dinleme Kanıtıyla Sınama
 
 **Süre:** 1 ders saati  
 **Öğrenme çıktıları:** `TDE1.1`
 
 ### Hedef
 
-Öğrenci, “Dinleme / İzlemeyi Yönetebilme” etkinliğinde dinleme/izleme amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve tahminde bulunur; ürettiği kanıtı gerekçelendirerek kanıtı geliştirme ve düzeltme sürecini tamamlar.
+Öğrenci, “Dinleme / İzlemeyi Yönetebilme” etkinliğinde dinleme/izleme amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve tahminde bulunur. Bu ders saatinin pedagojik odağı: tahmin ve strateji kararını dinleme/izleme kanıtıyla sınayıp güncelleme; somut kanıt: Doğrulanan, değişen veya reddedilen tahmin kaydı.
 
 ### Derse giriş
 
-“Dinleme / İzlemeyi Yönetebilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi dinleme/izleme davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.
+Metin Tahlili-3 (Anlama): Dinleme / İzleme — Âşık Atışması — ders kitabı s.137 üzerinden bu saatin odağı görünür kılınır: Tahmin ve strateji kararını dinleme/izleme kanıtıyla sınayıp güncelleme. Öğrenci önceki/başlangıç kanıtını kısa biçimde önüne alır ve bu saatin sonunda neyin değişmiş veya derinleşmiş olması gerektiğini kendi cümlesiyle belirtir.
 
 ### Öğretmenin yapacakları
 
 1. “Dinleme / İzlemeyi Yönetebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
-2. Öğrencinin şu görevi yerine getirmesini sağla: Dinleme/izleme amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve tahminde bulunur. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
-3. “Amaç/strateji kaydı, tahmin ve hazırlık notları” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
-4. İlk denemeden sonra ortak bir güçlü örneği ve geliştirilmesi gereken bir örneği anonim biçimde karşılaştır; öğrencinin ikinci denemesinde neyi değiştireceğini netleştir.
+2. Canonical görevi koru: Dinleme/izleme amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve tahminde bulunur.
+3. İkinci saatte ilk tahmini veya strateji kararını eldeki kaynak göstergeleriyle sınat; doğrulanan, değişen veya reddedilen kısmı açıkça kaydettir.
+4. Bu saate özgü kanıtı topla: Doğrulanan, değişen veya reddedilen tahmin kaydı. Yalnız katılımı yeterli kanıt sayma; öğrencinin yaptığı bilişsel işlemi ürününde veya kaydında görünür kıl.
 
 ### Öğrencinin yapacakları
 
 - Dinleme/izleme amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve tahminde bulunur.
-- Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.
-- İlk kanıtı ile düzeltilmiş kanıtı karşılaştırıp hangi değişikliğin sonucu iyileştirdiğini açıklar.
+- Tahmin ve strateji kararını dinleme/izleme kanıtıyla sınayıp güncelleme.
+- Kanıt olarak şunu üretir veya günceller: Doğrulanan, değişen veya reddedilen tahmin kaydı.
+- İlk kanıtıyla bu saatin kanıtını karşılaştırır ve değişimi açıklar: Tahmin üretmekten tahmini işitsel/görsel kanıtla sınamaya geçilir.
 
 ### Kaynak bağları
 
@@ -148,11 +148,11 @@ Ana ölçme kanıtı şudur: “Amaç/strateji kaydı, tahmin ve hazırlık notl
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı şudur: “Amaç/strateji kaydı, tahmin ve hazırlık notları”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen dinleme/izleme becerisine uygunluğu üzerinden verilir.
+Bu ders saatinin birincil ölçme kanıtı “Doğrulanan, değişen veya reddedilen tahmin kaydı”dir. Değerlendirme, öğrencinin “Tahmin ve strateji kararını dinleme/izleme kanıtıyla sınayıp güncelleme” işlemini görünür ve gerekçeli biçimde yapıp yapmadığına dayanır; kaynakta doğrulanmamış puan aralığı veya rubrik ölçütü eklenmez.
 
 ### Kapanış
 
-Öğrenci “Amaç/strateji kaydı, tahmin ve hazırlık notları” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
+Öğrenci ilk kanıt ile son kanıt arasındaki farkı tek cümlede açıklar ve şu ilerlemeyi görünür kılar: Tahmin üretmekten tahmini işitsel/görsel kanıtla sınamaya geçilir.
 
 ### Materyaller
 
@@ -173,4 +173,4 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanı
 
 ---
 
-<!-- TYMM_JSON_SHA256:6e5035d146a6bd7ba630e98ef52e2df18297bdec9a3650aa8240b71544f2d3d9 -->
+<!-- TYMM_JSON_SHA256:b5cef98b77f517bef7ca79ab6d7ce5f8c7a327479066df6ba57bc67d9dd98e1f -->
