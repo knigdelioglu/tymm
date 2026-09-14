@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
 from typing import Any
@@ -37,17 +38,29 @@ FORM_LABELS = {
     "FORM_T1_P064_GOZLEM_FORMU_07": "doğrulanmış dinleme/izleme gözlem formu",
     "FORM_T1_P073_CIKIS_KARTI_08": "doğrulanmış dinleme/izleme çıkış kartı",
 }
+FORM_ID_RE = re.compile(r"\bFORM_[A-Z0-9_]+\b", re.IGNORECASE)
 
 
 def replace_ids(value: Any) -> Any:
     if isinstance(value, str):
         result = value
         for form_id, label in FORM_LABELS.items():
-            result = result.replace(form_id, label)
+            result = re.sub(re.escape(form_id), label, result, flags=re.IGNORECASE)
         return result
     if isinstance(value, list):
         return [replace_ids(item) for item in value]
     return value
+
+
+def _assert_no_form_ids(value: Any, *, field: str) -> None:
+    if isinstance(value, str):
+        match = FORM_ID_RE.search(value)
+        if match:
+            raise ValueError(f"TEACHER_FORM_ID_LEAK:{field}:{match.group(0)}")
+        return
+    if isinstance(value, list):
+        for item in value:
+            _assert_no_form_ids(item, field=field)
 
 
 def sanitize_teacher_prose(plan: dict[str, Any]) -> dict[str, Any]:
@@ -57,6 +70,7 @@ def sanitize_teacher_prose(plan: dict[str, Any]) -> dict[str, Any]:
         for field in TEACHER_FIELDS:
             if field in lesson:
                 lesson[field] = replace_ids(lesson[field])
+                _assert_no_form_ids(lesson[field], field=field)
     return plan
 
 
