@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.1.0",
+  "document_type": "TYMM_TEACHER_GUIDE_SECTION",
+  "course_id": "TDE_11",
+  "theme_id": "TEMA_01",
+  "section_id": "T1_SEC_04_DINLEME_ILETISIM",
+  "title": "Metin Tahlili-3 (Anlama): Dinleme / İzleme — Değişen İletişim Araçlarının Hayatımızdaki Yeri",
+  "section_type": "LISTENING_VIEWING",
+  "printed_page_range": "59-73",
+  "content_status": "PLANNED",
+  "outcome_refs": ["TDE1.1", "TDE1.2", "TDE1.3", "TDE1.4"],
+  "activity_refs": ["T1_ACT_13_DINLEME_YONETIM", "T1_ACT_14_DINLEME_ICERIK_ANLAM", "T1_ACT_15_DINLEME_UYGULAMA_COZUMLEME", "T1_ACT_16_DINLEME_DEGERLENDIRME"],
+  "lesson_plan_refs": [
+    "courses/TDE_11/generated/lesson_plans/TEMA_01/BLOCK_T1_03_DINLEME/BLOCK_T1_03_DINLEME_P01.json",
+    "courses/TDE_11/generated/lesson_plans/TEMA_01/BLOCK_T1_03_DINLEME/BLOCK_T1_03_DINLEME_P02.json",
+    "courses/TDE_11/generated/lesson_plans/TEMA_01/BLOCK_T1_03_DINLEME/BLOCK_T1_03_DINLEME_P03.json",
+    "courses/TDE_11/generated/lesson_plans/TEMA_01/BLOCK_T1_03_DINLEME/BLOCK_T1_03_DINLEME_P04.json"
+  ],
+  "guide_units": [],
+  "section_principles": ["Dinleme/izleme metni görülmeden içerik ayrıntısı uydurulmayacak; kitapta görünür görev ve doğrulanmış medya yönlendirmeleri esas alınacak.", "FORM_T1_P064_GOZLEM_FORMU_07 ve FORM_T1_P073_CIKIS_KARTI_08 görünür kanıt olarak bağlanacak."],
+  "provenance": {"source_ids": ["textbook_map", "theme_alignment", "lesson_plan_set"], "source_locators": ["basılı s.59-73", "T1_ACT_13_DINLEME_YONETIM", "T1_ACT_14_DINLEME_ICERIK_ANLAM", "T1_ACT_15_DINLEME_UYGULAMA_COZUMLEME", "T1_ACT_16_DINLEME_DEGERLENDIRME"], "content_class": "MIXED"}
+}
