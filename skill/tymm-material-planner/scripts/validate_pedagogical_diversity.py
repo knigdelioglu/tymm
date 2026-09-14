@@ -38,7 +38,7 @@ DEFAULT_THRESHOLDS: dict[str, float] = {
     "opening_similarity": 0.90,
     "assessment_similarity": 0.94,
     "closure_similarity": 0.94,
-    "action_overlap": 0.75,
+    "action_overlap": 0.60,
     "structural_duplicate_dimensions": 4.0,
     "generic_title_share": 0.20,
 }
