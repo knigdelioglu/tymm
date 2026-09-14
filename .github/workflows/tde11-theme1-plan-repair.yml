@@ -1,0 +1,116 @@
+name: TDE11 Theme 1 Plan Repair
+
+on:
+  push:
+    branches:
+      - feat/tde11-theme1-teacher-guide-json
+    paths:
+      - '.github/workflows/tde11-theme1-plan-repair.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout feature branch
+        uses: actions/checkout@v4
+        with:
+          ref: feat/tde11-theme1-teacher-guide-json
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install schema validator
+        run: python -m pip install 'jsonschema==4.23.0'
+
+      - name: Repair canonical activity to outcome bindings
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          root = Path('courses/TDE_11')
+          textbook = json.loads((root / 'textbook_map.json').read_text(encoding='utf-8'))
+          activity_outcomes = {}
+          for theme in textbook.get('themes', []):
+              if theme.get('theme_id') != 'TEMA_01':
+                  continue
+              for section in theme.get('sections', []):
+                  for activity in section.get('activities', []):
+                      aid = activity.get('activity_id')
+                      outcomes = activity.get('related_outcomes', [])
+                      if aid and outcomes:
+                          activity_outcomes[aid] = outcomes
+
+          targets = [
+              'generated/lesson_plans/TEMA_01/BLOCK_T1_01_OKUMA/BLOCK_T1_01_OKUMA_P02.json',
+              'generated/lesson_plans/TEMA_01/BLOCK_T1_01_OKUMA/BLOCK_T1_01_OKUMA_P03.json',
+              'generated/lesson_plans/TEMA_01/BLOCK_T1_01_OKUMA/BLOCK_T1_01_OKUMA_P04.json',
+              'generated/lesson_plans/TEMA_01/BLOCK_T1_01_OKUMA/BLOCK_T1_01_OKUMA_P05.json',
+              'generated/lesson_plans/TEMA_01/BLOCK_T1_01_OKUMA/BLOCK_T1_01_OKUMA_P06.json',
+              'generated/lesson_plans/TEMA_01/BLOCK_T1_01_OKUMA/BLOCK_T1_01_OKUMA_P07.json',
+              'generated/lesson_plans/TEMA_01/BLOCK_T1_04_YAZMA/BLOCK_T1_04_YAZMA_P04.json',
+          ]
+
+          def canonical_for(activity_ids):
+              merged = []
+              for aid in activity_ids:
+                  for code in activity_outcomes.get(aid, []):
+                      if code not in merged:
+                          merged.append(code)
+              return merged
+
+          changed = []
+          for rel in targets:
+              path = root / rel
+              plan = json.loads(path.read_text(encoding='utf-8'))
+              top = canonical_for(plan.get('used_activity_ids', []))
+              if not top:
+                  raise SystemExit(f'No canonical outcome found for {rel}')
+              plan['outcome_codes'] = top
+              for lesson in plan.get('lessons', []):
+                  mapped = canonical_for(lesson.get('activity_ids', []))
+                  if mapped:
+                      lesson['outcome_codes'] = mapped
+              continuation = plan.get('continuation_summary')
+              if isinstance(continuation, dict):
+                  continuation['covered_outcome_codes'] = top
+              path.write_text(json.dumps(plan, ensure_ascii=False, separators=(',', ':')) + '\n', encoding='utf-8')
+              changed.append((rel, top))
+
+          print(json.dumps({'changed': changed}, ensure_ascii=False, indent=2))
+          PY
+
+      - name: Regenerate deterministic Markdown parity
+        run: |
+          python skill/tymm-material-planner/scripts/render_lesson_plan_markdown.py \
+            --knowledge-root courses/TDE_11 --write
+
+      - name: Validate repaired lesson plans
+        run: |
+          python skill/tymm-material-planner/scripts/validate_all_lesson_plans.py \
+            --knowledge-root courses/TDE_11 \
+            --commit-sha "${GITHUB_SHA}" \
+            --report /tmp/tde11-plan-validation.json
+
+      - name: Validate teacher guide cross-source contract
+        run: |
+          python skill/tymm-material-planner/scripts/validate_teacher_guide.py \
+            --manifest courses/TDE_11/teacher_guide/TEMA_01/teacher_guide.json \
+            --report /tmp/tde11-theme1-teacher-guide-validation.json
+
+      - name: Commit repaired sources and remove temporary workflow
+        run: |
+          rm -f .github/workflows/tde11-theme1-plan-repair.yml
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add courses/TDE_11/generated/lesson_plans .github/workflows/tde11-theme1-plan-repair.yml
+          git diff --cached --stat
+          git commit -m 'fix(TDE11): align Theme 1 lesson outcomes with textbook activities'
+          git push origin HEAD:feat/tde11-theme1-teacher-guide-json
