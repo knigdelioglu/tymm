@@ -8,14 +8,14 @@ on:
       - '.github/workflows/tymm-pedagogical-theme-apply.yml'
       - 'skill/tymm-material-planner/scripts/apply_tde11_theme_pedagogy.py'
       - 'skill/tymm-material-planner/scripts/revise_tde11_theme1_pedagogy.py'
-      - 'courses/TDE_11/planning/pedagogical_package_design_tema_03.json'
-      - 'courses/TDE_11/planning/pedagogical_title_map_tema_03.json'
+      - 'courses/TDE_11/planning/pedagogical_package_design_tema_04.json'
+      - 'courses/TDE_11/planning/pedagogical_title_map_tema_04.json'
 
 permissions:
   contents: write
 
 env:
-  CURRENT_THEME: TEMA_03
+  CURRENT_THEME: TEMA_04
 
 jobs:
   apply-current-theme:
