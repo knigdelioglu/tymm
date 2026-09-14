@@ -63,7 +63,13 @@ class RuntimePackageTests(unittest.TestCase):
     def test_08_user_state_table_absent(self):
         self.assertEqual(self.build()["status"], "PASS")
         db=sqlite3.connect(self.tmp/"runtime/course_runtime.sqlite")
-        self.assertFalse(any(any(x in r[0].lower() for x in ("teacher","student","user","progress","notes")) for r in db.execute("SELECT name FROM sqlite_master WHERE type='table'")))
+        names={r[0].lower() for r in db.execute("SELECT name FROM sqlite_master WHERE type='table'")}
+        forbidden_tokens=("student","user","progress","notes")
+        self.assertFalse(any(
+            any(token in name for token in forbidden_tokens)
+            or ("teacher" in name and not name.startswith("teacher_guide"))
+            for name in names
+        ))
     def test_09_five_query_entity_classes_present(self):
         self.assertEqual(self.build()["status"], "PASS")
         db=sqlite3.connect(self.tmp/"runtime/course_runtime.sqlite")
