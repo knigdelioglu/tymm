@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import base64
+import hashlib
 import json
 import os
 import shutil
@@ -15,6 +16,8 @@ COURSE = ROOT / "courses/TDE_11"
 SCRIPTS = ROOT / "skill/tymm-material-planner/scripts"
 COMMIT_SHA = os.environ["GITHUB_SHA"]
 BRANCH = os.environ["GITHUB_REF_NAME"]
+EXPECTED_PAYLOAD_B64_LEN = 29272
+EXPECTED_PAYLOAD_SHA256 = "7ef00309b34d160a213d25f8c90b64dcbdfe7bbe28cc054f902c7b56c2fe9ff6"
 
 
 def run(*args: str, capture: bool = False) -> str:
@@ -27,13 +30,28 @@ def run(*args: str, capture: bool = False) -> str:
     return ""
 
 
-# Restore the locally prepared, PDF-grounded Theme 3 guide bundle.
+# Restore the locally prepared, PDF-grounded Theme 3 guide bundle. Fail before
+# touching source files if transport is incomplete or corrupted.
 chunks = sorted((ROOT / ".tde11-theme3-payload").glob("payload_*"))
-if not chunks:
-    raise SystemExit("Theme 3 payload is missing")
+if len(chunks) != 8:
+    raise SystemExit(f"Theme 3 payload chunk count mismatch: expected 8, got {len(chunks)}")
 encoded = "".join(p.read_text(encoding="utf-8") for p in chunks)
+if len(encoded) != EXPECTED_PAYLOAD_B64_LEN:
+    raise SystemExit(
+        f"Theme 3 payload length mismatch: expected {EXPECTED_PAYLOAD_B64_LEN}, got {len(encoded)}"
+    )
+try:
+    decoded = base64.b64decode(encoded, validate=True)
+except Exception as exc:
+    raise SystemExit(f"Theme 3 payload base64 validation failed: {exc}") from exc
+digest = hashlib.sha256(decoded).hexdigest()
+if digest != EXPECTED_PAYLOAD_SHA256:
+    raise SystemExit(
+        f"Theme 3 payload SHA-256 mismatch: expected {EXPECTED_PAYLOAD_SHA256}, got {digest}"
+    )
+print(f"PAYLOAD_VERIFIED chunks={len(chunks)} b64_len={len(encoded)} sha256={digest}")
 tar_path = Path("/tmp/t3-guide-payload.tar.gz")
-tar_path.write_bytes(base64.b64decode(encoded))
+tar_path.write_bytes(decoded)
 with tarfile.open(tar_path, "r:gz") as archive:
     archive.extractall(ROOT)
 
