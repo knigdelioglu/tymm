@@ -288,6 +288,15 @@ def _canonical_entity_set(db: sqlite3.Connection, course_id: str) -> set[tuple[s
     entities = {("course", course_id)}
     for table, column, kind in mapping:
         entities.update(_canonical_rows(db, table, column, kind))
+    if db.execute(
+        "SELECT 1 FROM sqlite_master WHERE type='table' AND name='canonical_entities'"
+    ).fetchone():
+        entities.update(
+            (str(row[0]), str(row[1]))
+            for row in db.execute(
+                "SELECT entity_type, entity_id FROM canonical_entities"
+            )
+        )
     return entities
 
 
@@ -752,6 +761,14 @@ def validate_teacher_guide_runtime(
         "teacher_guide_item_relations",
     }
     if not advertised:
+        metadata = runtime_manifest.get("teacher_guide_capabilities")
+        if isinstance(metadata, dict):
+            if metadata.get("available") is not False or metadata.get("source_bound") is not False or metadata.get("validation_status") != "NOT_PRESENT":
+                errors.append("teacher_guide_disabled_metadata_inconsistent")
+        validation = runtime_manifest.get("teacher_guide_validation")
+        if isinstance(validation, dict):
+            if validation.get("status") != "NOT_PRESENT" or validation.get("source_bound") is not False:
+                errors.append("teacher_guide_disabled_validation_inconsistent")
         for table in (present - {"canonical_entities"}) & tables:
             if db.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0] != 0:
                 errors.append(f"teacher_guide_disabled_but_{table}_not_empty")
@@ -764,6 +781,42 @@ def validate_teacher_guide_runtime(
     validation = runtime_manifest.get("teacher_guide_validation", {})
     if validation.get("status") != "PASS" or validation.get("scope") != "COURSE" or validation.get("source_bound") is not True:
         errors.append("teacher_guide_validation_evidence_invalid")
+    if validation.get("canonical_content_fingerprint") != runtime_manifest.get("canonical_content_fingerprint"):
+        errors.append("teacher_guide_validation_canonical_fingerprint_mismatch")
+    metadata = runtime_manifest.get("teacher_guide_capabilities", {})
+    if metadata.get("available") is not True or metadata.get("validation_status") != "PASS" or metadata.get("source_bound") is not True:
+        errors.append("teacher_guide_capability_metadata_inconsistent")
+    expected_counts = runtime_manifest.get("row_counts", {})
+    declared_counts = metadata.get("row_counts", {})
+    for table in present:
+        actual = db.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0]
+        if expected_counts.get(table) != actual:
+            errors.append(f"teacher_guide_manifest_row_count_mismatch:{table}")
+        if declared_counts.get(table) != actual:
+            errors.append(f"teacher_guide_capability_row_count_mismatch:{table}")
+    seal_path = validation.get("seal_path")
+    seal_sha = validation.get("seal_sha256")
+    if not isinstance(seal_path, str) or not seal_path or not isinstance(seal_sha, str) or not seal_sha:
+        errors.append("teacher_guide_seal_evidence_missing")
+    elif course_root is not None:
+        seal_file = (course_root / seal_path).resolve()
+        try:
+            seal_file.relative_to(course_root.resolve())
+        except ValueError:
+            errors.append("teacher_guide_seal_path_outside_course")
+        else:
+            if not seal_file.is_file():
+                errors.append("teacher_guide_seal_file_missing")
+            elif sha256_file(seal_file) != seal_sha:
+                errors.append("teacher_guide_seal_sha256_mismatch")
+            else:
+                try:
+                    seal = json.loads(seal_file.read_text(encoding="utf-8"))
+                except (OSError, json.JSONDecodeError):
+                    errors.append("teacher_guide_seal_json_invalid")
+                else:
+                    if seal.get("canonical_content_fingerprint") != runtime_manifest.get("canonical_content_fingerprint"):
+                        errors.append("teacher_guide_seal_canonical_fingerprint_mismatch")
     if not db.execute("SELECT 1 FROM teacher_guide_items LIMIT 1").fetchone():
         errors.append("teacher_guide_items_empty")
     for table, order_column, parent_column in (

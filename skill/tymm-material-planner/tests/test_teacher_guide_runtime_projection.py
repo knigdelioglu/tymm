@@ -189,6 +189,28 @@ class GenericTeacherGuideProjectionTests(unittest.TestCase):
             self.assertEqual(first[0]["validation"], second[0]["validation"])
             self.assertEqual(first[1], second[1])
 
+    def test_source_change_changes_teacher_guide_fingerprint_and_seal(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self._source(root)
+            first = self._project(root)[0]
+            section_path = root / "teacher_guide" / "force" / "experiments.json"
+            section = json.loads(section_path.read_text(encoding="utf-8"))
+            section["guide_units"][0]["items"][0]["label"] = "Yeni gözlem kaydı"
+            section_path.write_text(
+                json.dumps(section, ensure_ascii=False, indent=2) + "\n",
+                encoding="utf-8",
+            )
+            second = self._project(root)[0]
+            self.assertNotEqual(
+                first["validation"]["content_fingerprint"],
+                second["validation"]["content_fingerprint"],
+            )
+            self.assertNotEqual(
+                first["validation"]["seal_sha256"],
+                second["validation"]["seal_sha256"],
+            )
+
     def test_dangling_relation_fails_closed(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
