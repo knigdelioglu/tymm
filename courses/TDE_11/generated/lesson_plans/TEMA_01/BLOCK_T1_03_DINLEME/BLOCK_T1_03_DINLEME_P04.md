@@ -90,32 +90,32 @@
 
 # Ders akışı
 
-## 1. Ders — Süreci Değerlendirebilme: kanıt üretme ve geliştirme
+## 1. Ders — Dinleme/İzleme Sürecini Değerlendirme: Gözlem Kanıtı
 
 **Süre:** 1 ders saati  
 **Öğrenme çıktıları:** `TDE1.4`
 
 ### Hedef
 
-Öğrenci, “Süreci Değerlendirebilme” etkinliğinde dinleme/izleme sürecini ve metne ilişkin değerlendirmelerini ölçütlere dayalı biçimde yansıtır; ürettiği kanıtı gerekçelendirerek uygulama ve ilk kanıt sürecini tamamlar.
+Öğrenci, “Süreci Değerlendirebilme” etkinliğinde dinleme/izleme sürecini ve metne ilişkin değerlendirmelerini ölçütlere dayalı biçimde yansıtır. Bu ders saatinin pedagojik odağı: dinleme/izleme sürecini ölçüt ve gözlem kanıtıyla değerlendirme; somut kanıt: Gözlem/öz değerlendirme/öğrenme günlüğü kaydı.
 
 ### Derse giriş
 
-“Süreci Değerlendirebilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi dinleme/izleme davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.
+Metin Tahlili-3 (Anlama): Dinleme / İzleme — Değişen İletişim Araçlarının Hayatımızdaki Yeri — ders kitabı s.73 üzerinden bu saatin odağı görünür kılınır: Dinleme/izleme sürecini ölçüt ve gözlem kanıtıyla değerlendirme. Öğrenci önceki/başlangıç kanıtını kısa biçimde önüne alır ve bu saatin sonunda neyin değişmiş veya derinleşmiş olması gerektiğini kendi cümlesiyle belirtir.
 
 ### Öğretmenin yapacakları
 
 1. “Süreci Değerlendirebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
-2. Öğrencinin şu görevi yerine getirmesini sağla: Dinleme/izleme sürecini ve metne ilişkin değerlendirmelerini ölçütlere dayalı biçimde yansıtır. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
-3. “Öz değerlendirme, gözlem/öğrenme günlüğü veya gerekçeli değerlendirme kaydı” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
-4. Ders sırasında kısa kontrol noktaları kullan; öğrencinin yanlış veya eksik stratejiyi kanıt oluşmadan önce fark edip düzeltmesine fırsat ver.
+2. Canonical görevi koru: Dinleme/izleme sürecini ve metne ilişkin değerlendirmelerini ölçütlere dayalı biçimde yansıtır.
+3. İlk saatte mevcut ürün/süreç kanıtını değerlendirme nesnesi yap; güçlü ve geliştirilecek yönü somut kanıtla belirlet.
+4. Bu saate özgü kanıtı topla: Gözlem/öz değerlendirme/öğrenme günlüğü kaydı. Yalnız katılımı yeterli kanıt sayma; öğrencinin yaptığı bilişsel işlemi ürününde veya kaydında görünür kıl.
 
 ### Öğrencinin yapacakları
 
 - Dinleme/izleme sürecini ve metne ilişkin değerlendirmelerini ölçütlere dayalı biçimde yansıtır.
-- Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.
-- Kapanışta bir güçlü kanıtını ve bir geliştirme adımını kısa biçimde kaydeder.
+- Dinleme/izleme sürecini ölçüt ve gözlem kanıtıyla değerlendirme.
+- Kanıt olarak şunu üretir veya günceller: Gözlem/öz değerlendirme/öğrenme günlüğü kaydı.
+- İlk kanıtında ikinci saatte sınayacağı, karşılaştıracağı, geliştireceği veya aktaracağı tek noktayı işaretler.
 
 ### Kaynak bağları
 
@@ -124,43 +124,43 @@
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı şudur: “Öz değerlendirme, gözlem/öğrenme günlüğü veya gerekçeli değerlendirme kaydı”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen dinleme/izleme becerisine uygunluğu üzerinden verilir.
+Bu ders saatinin birincil ölçme kanıtı “Gözlem/öz değerlendirme/öğrenme günlüğü kaydı”dir. Değerlendirme, öğrencinin “Dinleme/izleme sürecini ölçüt ve gözlem kanıtıyla değerlendirme” işlemini görünür ve gerekçeli biçimde yapıp yapmadığına dayanır; kaynakta doğrulanmamış puan aralığı veya rubrik ölçütü eklenmez.
 
 ### Kapanış
 
-Öğrenci “Öz değerlendirme, gözlem/öğrenme günlüğü veya gerekçeli değerlendirme kaydı” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
+Öğrenci “Gözlem/öz değerlendirme/öğrenme günlüğü kaydı” kanıtında ikinci derse taşıyacağı tek soruyu, varsayımı veya geliştirme noktasını işaretler.
 
 ### Materyaller
 
 - Metin Tahlili-3 (Anlama): Dinleme / İzleme — Değişen İletişim Araçlarının Hayatımızdaki Yeri — ders kitabı s.73
 - Öğrencinin bu ders saatinde oluşturduğu somut kanıt kaydı
 
-## 2. Ders — Süreci Değerlendirebilme: kanıt üretme ve geliştirme
+## 2. Ders — Çıkış Kartından Sonraki Dinlemeye: Strateji Kararı
 
 **Süre:** 1 ders saati  
 **Öğrenme çıktıları:** `TDE1.4`
 
 ### Hedef
 
-Öğrenci, “Süreci Değerlendirebilme” etkinliğinde dinleme/izleme sürecini ve metne ilişkin değerlendirmelerini ölçütlere dayalı biçimde yansıtır; ürettiği kanıtı gerekçelendirerek kanıtı geliştirme ve düzeltme sürecini tamamlar.
+Öğrenci, “Süreci Değerlendirebilme” etkinliğinde dinleme/izleme sürecini ve metne ilişkin değerlendirmelerini ölçütlere dayalı biçimde yansıtır. Bu ders saatinin pedagojik odağı: doğrulanmış dinleme/izleme gözlem formu ve doğrulanmış dinleme/izleme çıkış kartı üzerinden sonraki dinleme/izleme için geliştirme stratejisi belirleme; somut kanıt: Çıkış kartı ve somut transfer kararı.
 
 ### Derse giriş
 
-“Süreci Değerlendirebilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi dinleme/izleme davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.
+Metin Tahlili-3 (Anlama): Dinleme / İzleme — Değişen İletişim Araçlarının Hayatımızdaki Yeri — ders kitabı s.73 üzerinden bu saatin odağı görünür kılınır: doğrulanmış dinleme/izleme gözlem formu ve doğrulanmış dinleme/izleme çıkış kartı üzerinden sonraki dinleme/izleme için geliştirme stratejisi belirleme. Öğrenci önceki/başlangıç kanıtını kısa biçimde önüne alır ve bu saatin sonunda neyin değişmiş veya derinleşmiş olması gerektiğini kendi cümlesiyle belirtir.
 
 ### Öğretmenin yapacakları
 
 1. “Süreci Değerlendirebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
-2. Öğrencinin şu görevi yerine getirmesini sağla: Dinleme/izleme sürecini ve metne ilişkin değerlendirmelerini ölçütlere dayalı biçimde yansıtır. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
-3. “Öz değerlendirme, gözlem/öğrenme günlüğü veya gerekçeli değerlendirme kaydı” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
-4. İlk denemeden sonra ortak bir güçlü örneği ve geliştirilmesi gereken bir örneği anonim biçimde karşılaştır; öğrencinin ikinci denemesinde neyi değiştireceğini netleştir.
+2. Canonical görevi koru: Dinleme/izleme sürecini ve metne ilişkin değerlendirmelerini ölçütlere dayalı biçimde yansıtır.
+3. İkinci saatte değerlendirme sonucunu sonraki görevde uygulanabilecek açık bir strateji veya eylem kararına dönüştürt.
+4. Bu saate özgü kanıtı topla: Çıkış kartı ve somut transfer kararı. Yalnız katılımı yeterli kanıt sayma; öğrencinin yaptığı bilişsel işlemi ürününde veya kaydında görünür kıl.
 
 ### Öğrencinin yapacakları
 
 - Dinleme/izleme sürecini ve metne ilişkin değerlendirmelerini ölçütlere dayalı biçimde yansıtır.
-- Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.
-- İlk kanıtı ile düzeltilmiş kanıtı karşılaştırıp hangi değişikliğin sonucu iyileştirdiğini açıklar.
+- doğrulanmış dinleme/izleme gözlem formu ve doğrulanmış dinleme/izleme çıkış kartı üzerinden sonraki dinleme/izleme için geliştirme stratejisi belirleme.
+- Kanıt olarak şunu üretir veya günceller: Çıkış kartı ve somut transfer kararı.
+- İlk kanıtıyla bu saatin kanıtını karşılaştırır ve değişimi açıklar: Değerlendirmeden gelecekte uygulanacak strateji kararına geçilir.
 
 ### Kaynak bağları
 
@@ -169,11 +169,11 @@ Ana ölçme kanıtı şudur: “Öz değerlendirme, gözlem/öğrenme günlüğ�
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı şudur: “Öz değerlendirme, gözlem/öğrenme günlüğü veya gerekçeli değerlendirme kaydı”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen dinleme/izleme becerisine uygunluğu üzerinden verilir.
+Bu ders saatinin birincil ölçme kanıtı “Çıkış kartı ve somut transfer kararı”dir. Değerlendirme, öğrencinin “doğrulanmış dinleme/izleme gözlem formu ve doğrulanmış dinleme/izleme çıkış kartı üzerinden sonraki dinleme/izleme için geliştirme stratejisi belirleme” işlemini görünür ve gerekçeli biçimde yapıp yapmadığına dayanır; kaynakta doğrulanmamış puan aralığı veya rubrik ölçütü eklenmez.
 
 ### Kapanış
 
-Öğrenci “Öz değerlendirme, gözlem/öğrenme günlüğü veya gerekçeli değerlendirme kaydı” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
+Öğrenci ilk kanıt ile son kanıt arasındaki farkı tek cümlede açıklar ve şu ilerlemeyi görünür kılar: Değerlendirmeden gelecekte uygulanacak strateji kararına geçilir.
 
 ### Materyaller
 
@@ -194,4 +194,4 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanı
 
 ---
 
-<!-- TYMM_JSON_SHA256:e1d26c04227a07ac52bd2891a1cc6f7c431348acb97cd3d7ead7cbcd9c4c45fb -->
+<!-- TYMM_JSON_SHA256:6c04de0c750d514e39ea2b85102283c4171dac5cad9d88f4bead7c426bc8ee80 -->

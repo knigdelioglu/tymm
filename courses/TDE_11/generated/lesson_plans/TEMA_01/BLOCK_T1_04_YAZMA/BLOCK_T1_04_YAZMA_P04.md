@@ -24,32 +24,32 @@
 
 # Ders akışı
 
-## 1. Ders — Süreci Değerlendirebilme: kanıt üretme ve geliştirme
+## 1. Ders — E-Posta Ürününü Değerlendirme: Öncelikli Geliştirme Alanı
 
 **Süre:** 1 ders saati  
 **Öğrenme çıktıları:** `TDE4.3`
 
 ### Hedef
 
-Öğrenci, “Süreci Değerlendirebilme” etkinliğinde yazma sürecini ve ürünü öz/akran/öğretmen değerlendirmesiyle gözden geçirip geliştirir; ürettiği kanıtı gerekçelendirerek uygulama ve ilk kanıt sürecini tamamlar.
+Öğrenci, “Süreci Değerlendirebilme” etkinliğinde yazma sürecini ve ürünü öz/akran/öğretmen değerlendirmesiyle gözden geçirip geliştirir. Bu ders saatinin pedagojik odağı: e-posta ürününü öz/akran/öğretmen değerlendirmesiyle gözden geçirip öncelikli geliştirme alanını seçme; somut kanıt: Değerlendirme kaydı ve revizyon kararı.
 
 ### Derse giriş
 
-“Süreci Değerlendirebilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi yazma davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.
+Edebiyat Atölyesi-2 (Anlatma): Yazma — E-Posta Yazabilme — ders kitabı s.78 üzerinden bu saatin odağı görünür kılınır: E-posta ürününü öz/akran/öğretmen değerlendirmesiyle gözden geçirip öncelikli geliştirme alanını seçme. Öğrenci önceki/başlangıç kanıtını kısa biçimde önüne alır ve bu saatin sonunda neyin değişmiş veya derinleşmiş olması gerektiğini kendi cümlesiyle belirtir.
 
 ### Öğretmenin yapacakları
 
 1. “Süreci Değerlendirebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
-2. Öğrencinin şu görevi yerine getirmesini sağla: Yazma sürecini ve ürünü öz/akran/öğretmen değerlendirmesiyle gözden geçirip geliştirir. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
-3. “Öz/akran değerlendirme, öğretmen gözlem/değerlendirme kaydı ve revize edilmiş nihai ürün” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
-4. Ders sırasında kısa kontrol noktaları kullan; öğrencinin yanlış veya eksik stratejiyi kanıt oluşmadan önce fark edip düzeltmesine fırsat ver.
+2. Canonical görevi koru: Yazma sürecini ve ürünü öz/akran/öğretmen değerlendirmesiyle gözden geçirip geliştirir.
+3. İlk saatte bağımsız bir ilk taslak veya ürün üret; taslağı bitmiş ürün gibi değerlendirme.
+4. Bu saate özgü kanıtı topla: Değerlendirme kaydı ve revizyon kararı. Yalnız katılımı yeterli kanıt sayma; öğrencinin yaptığı bilişsel işlemi ürününde veya kaydında görünür kıl.
 
 ### Öğrencinin yapacakları
 
 - Yazma sürecini ve ürünü öz/akran/öğretmen değerlendirmesiyle gözden geçirip geliştirir.
-- Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.
-- Kapanışta bir güçlü kanıtını ve bir geliştirme adımını kısa biçimde kaydeder.
+- E-posta ürününü öz/akran/öğretmen değerlendirmesiyle gözden geçirip öncelikli geliştirme alanını seçme.
+- Kanıt olarak şunu üretir veya günceller: Değerlendirme kaydı ve revizyon kararı.
+- İlk kanıtında ikinci saatte sınayacağı, karşılaştıracağı, geliştireceği veya aktaracağı tek noktayı işaretler.
 
 ### Kaynak bağları
 
@@ -58,43 +58,43 @@
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı şudur: “Öz/akran değerlendirme, öğretmen gözlem/değerlendirme kaydı ve revize edilmiş nihai ürün”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen yazma becerisine uygunluğu üzerinden verilir.
+Bu ders saatinin birincil ölçme kanıtı “Değerlendirme kaydı ve revizyon kararı”dir. Değerlendirme, öğrencinin “E-posta ürününü öz/akran/öğretmen değerlendirmesiyle gözden geçirip öncelikli geliştirme alanını seçme” işlemini görünür ve gerekçeli biçimde yapıp yapmadığına dayanır; kaynakta doğrulanmamış puan aralığı veya rubrik ölçütü eklenmez.
 
 ### Kapanış
 
-Öğrenci “Öz/akran değerlendirme, öğretmen gözlem/değerlendirme kaydı ve revize edilmiş nihai ürün” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
+Öğrenci “Değerlendirme kaydı ve revizyon kararı” kanıtında ikinci derse taşıyacağı tek soruyu, varsayımı veya geliştirme noktasını işaretler.
 
 ### Materyaller
 
 - Edebiyat Atölyesi-2 (Anlatma): Yazma — E-Posta Yazabilme — ders kitabı s.78
 - Öğrencinin bu ders saatinde oluşturduğu somut kanıt kaydı
 
-## 2. Ders — Süreci Değerlendirebilme: kanıt üretme ve geliştirme
+## 2. Ders — E-Postayı Son Kez Revize Etme: Geri Bildirimden Nihai Sürüme
 
 **Süre:** 1 ders saati  
 **Öğrenme çıktıları:** `TDE4.3`
 
 ### Hedef
 
-Öğrenci, “Süreci Değerlendirebilme” etkinliğinde yazma sürecini ve ürünü öz/akran/öğretmen değerlendirmesiyle gözden geçirip geliştirir; ürettiği kanıtı gerekçelendirerek kanıtı geliştirme ve düzeltme sürecini tamamlar.
+Öğrenci, “Süreci Değerlendirebilme” etkinliğinde yazma sürecini ve ürünü öz/akran/öğretmen değerlendirmesiyle gözden geçirip geliştirir. Bu ders saatinin pedagojik odağı: seçilen geri bildirime göre ürünü revize edip nihai sürümde değişikliği görünür kılma; somut kanıt: Geri bildirim izi ve revize edilmiş nihai ürün.
 
 ### Derse giriş
 
-“Süreci Değerlendirebilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi yazma davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.
+Edebiyat Atölyesi-2 (Anlatma): Yazma — E-Posta Yazabilme — ders kitabı s.78 üzerinden bu saatin odağı görünür kılınır: Seçilen geri bildirime göre ürünü revize edip nihai sürümde değişikliği görünür kılma. Öğrenci önceki/başlangıç kanıtını kısa biçimde önüne alır ve bu saatin sonunda neyin değişmiş veya derinleşmiş olması gerektiğini kendi cümlesiyle belirtir.
 
 ### Öğretmenin yapacakları
 
 1. “Süreci Değerlendirebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
-2. Öğrencinin şu görevi yerine getirmesini sağla: Yazma sürecini ve ürünü öz/akran/öğretmen değerlendirmesiyle gözden geçirip geliştirir. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
-3. “Öz/akran değerlendirme, öğretmen gözlem/değerlendirme kaydı ve revize edilmiş nihai ürün” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
-4. İlk denemeden sonra ortak bir güçlü örneği ve geliştirilmesi gereken bir örneği anonim biçimde karşılaştır; öğrencinin ikinci denemesinde neyi değiştireceğini netleştir.
+2. Canonical görevi koru: Yazma sürecini ve ürünü öz/akran/öğretmen değerlendirmesiyle gözden geçirip geliştirir.
+3. İkinci saatte görev beklentisine dayalı akran geri bildirimi izi bırak ve yalnız geri bildirim verilen noktaları gerekçeli biçimde revize ettir.
+4. Bu saate özgü kanıtı topla: Geri bildirim izi ve revize edilmiş nihai ürün. Yalnız katılımı yeterli kanıt sayma; öğrencinin yaptığı bilişsel işlemi ürününde veya kaydında görünür kıl.
 
 ### Öğrencinin yapacakları
 
 - Yazma sürecini ve ürünü öz/akran/öğretmen değerlendirmesiyle gözden geçirip geliştirir.
-- Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.
-- İlk kanıtı ile düzeltilmiş kanıtı karşılaştırıp hangi değişikliğin sonucu iyileştirdiğini açıklar.
+- Seçilen geri bildirime göre ürünü revize edip nihai sürümde değişikliği görünür kılma.
+- Kanıt olarak şunu üretir veya günceller: Geri bildirim izi ve revize edilmiş nihai ürün.
+- İlk kanıtıyla bu saatin kanıtını karşılaştırır ve değişimi açıklar: Değerlendirme kararından uygulanmış ürün revizyonuna geçilir.
 
 ### Kaynak bağları
 
@@ -103,11 +103,11 @@ Ana ölçme kanıtı şudur: “Öz/akran değerlendirme, öğretmen gözlem/de�
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı şudur: “Öz/akran değerlendirme, öğretmen gözlem/değerlendirme kaydı ve revize edilmiş nihai ürün”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen yazma becerisine uygunluğu üzerinden verilir.
+Bu ders saatinin birincil ölçme kanıtı “Geri bildirim izi ve revize edilmiş nihai ürün”dir. Değerlendirme, öğrencinin “Seçilen geri bildirime göre ürünü revize edip nihai sürümde değişikliği görünür kılma” işlemini görünür ve gerekçeli biçimde yapıp yapmadığına dayanır; kaynakta doğrulanmamış puan aralığı veya rubrik ölçütü eklenmez.
 
 ### Kapanış
 
-Öğrenci “Öz/akran değerlendirme, öğretmen gözlem/değerlendirme kaydı ve revize edilmiş nihai ürün” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
+Öğrenci ilk kanıt ile son kanıt arasındaki farkı tek cümlede açıklar ve şu ilerlemeyi görünür kılar: Değerlendirme kararından uygulanmış ürün revizyonuna geçilir.
 
 ### Materyaller
 
@@ -128,4 +128,4 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanı
 
 ---
 
-<!-- TYMM_JSON_SHA256:ee7f841d0bc59c4582f3ced560c7445d4935d8912058f0e1d38d6feace63bd0b -->
+<!-- TYMM_JSON_SHA256:082d5d21a3e1b6684374993c100fb2b2d8258ac160e15d15d7416c5b06616eac -->

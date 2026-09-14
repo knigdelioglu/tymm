@@ -24,32 +24,32 @@
 
 # Ders akışı
 
-## 1. Ders — Kural Uygulayabilme: kanıt üretme ve geliştirme
+## 1. Ders — E-Posta Taslağını Denetleme: Tür, Dil ve Yazım
 
 **Süre:** 1 ders saati  
 **Öğrenme çıktıları:** `TDE4.3`
 
 ### Hedef
 
-Öğrenci, “Kural Uygulayabilme” etkinliğinde taslağını tür, bağlam, Türkçe kullanımı, yazım-noktalama ve bütünlük ilkelerine göre ürüne dönüştürür; ürettiği kanıtı gerekçelendirerek uygulama ve ilk kanıt sürecini tamamlar.
+Öğrenci, “Kural Uygulayabilme” etkinliğinde taslağını tür, bağlam, Türkçe kullanımı, yazım-noktalama ve bütünlük ilkelerine göre ürüne dönüştürür. Bu ders saatinin pedagojik odağı: taslakta tür, bağlam, türkçe kullanımı, yazım-noktalama ve bütünlük açısından geliştirilmesi gereken noktaları belirleme; somut kanıt: İşaretlenmiş taslak ve hata/eksik kaydı.
 
 ### Derse giriş
 
-“Kural Uygulayabilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi yazma davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.
+Edebiyat Atölyesi-2 (Anlatma): Yazma — E-Posta Yazabilme — ders kitabı s.77 üzerinden bu saatin odağı görünür kılınır: Taslakta tür, bağlam, Türkçe kullanımı, yazım-noktalama ve bütünlük açısından geliştirilmesi gereken noktaları belirleme. Öğrenci önceki/başlangıç kanıtını kısa biçimde önüne alır ve bu saatin sonunda neyin değişmiş veya derinleşmiş olması gerektiğini kendi cümlesiyle belirtir.
 
 ### Öğretmenin yapacakları
 
 1. “Kural Uygulayabilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
-2. Öğrencinin şu görevi yerine getirmesini sağla: Taslağını tür, bağlam, Türkçe kullanımı, yazım-noktalama ve bütünlük ilkelerine göre ürüne dönüştürür. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
-3. “Düzenlenmiş yazılı veya çok modlu ürün” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
-4. Ders sırasında kısa kontrol noktaları kullan; öğrencinin yanlış veya eksik stratejiyi kanıt oluşmadan önce fark edip düzeltmesine fırsat ver.
+2. Canonical görevi koru: Taslağını tür, bağlam, Türkçe kullanımı, yazım-noktalama ve bütünlük ilkelerine göre ürüne dönüştürür.
+3. İlk saatte ürün veya çözümlemedeki hata/eksikliği somut göstergeyle işaretlet; düzeltmeye geçmeden sorunu adlandır.
+4. Bu saate özgü kanıtı topla: İşaretlenmiş taslak ve hata/eksik kaydı. Yalnız katılımı yeterli kanıt sayma; öğrencinin yaptığı bilişsel işlemi ürününde veya kaydında görünür kıl.
 
 ### Öğrencinin yapacakları
 
 - Taslağını tür, bağlam, Türkçe kullanımı, yazım-noktalama ve bütünlük ilkelerine göre ürüne dönüştürür.
-- Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.
-- Kapanışta bir güçlü kanıtını ve bir geliştirme adımını kısa biçimde kaydeder.
+- Taslakta tür, bağlam, Türkçe kullanımı, yazım-noktalama ve bütünlük açısından geliştirilmesi gereken noktaları belirleme.
+- Kanıt olarak şunu üretir veya günceller: İşaretlenmiş taslak ve hata/eksik kaydı.
+- İlk kanıtında ikinci saatte sınayacağı, karşılaştıracağı, geliştireceği veya aktaracağı tek noktayı işaretler.
 
 ### Kaynak bağları
 
@@ -58,43 +58,43 @@
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı şudur: “Düzenlenmiş yazılı veya çok modlu ürün”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen yazma becerisine uygunluğu üzerinden verilir.
+Bu ders saatinin birincil ölçme kanıtı “İşaretlenmiş taslak ve hata/eksik kaydı”dir. Değerlendirme, öğrencinin “Taslakta tür, bağlam, Türkçe kullanımı, yazım-noktalama ve bütünlük açısından geliştirilmesi gereken noktaları belirleme” işlemini görünür ve gerekçeli biçimde yapıp yapmadığına dayanır; kaynakta doğrulanmamış puan aralığı veya rubrik ölçütü eklenmez.
 
 ### Kapanış
 
-Öğrenci “Düzenlenmiş yazılı veya çok modlu ürün” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
+Öğrenci “İşaretlenmiş taslak ve hata/eksik kaydı” kanıtında ikinci derse taşıyacağı tek soruyu, varsayımı veya geliştirme noktasını işaretler.
 
 ### Materyaller
 
 - Edebiyat Atölyesi-2 (Anlatma): Yazma — E-Posta Yazabilme — ders kitabı s.77
 - Öğrencinin bu ders saatinde oluşturduğu somut kanıt kaydı
 
-## 2. Ders — Kural Uygulayabilme: kanıt üretme ve geliştirme
+## 2. Ders — E-Postayı Düzenleme: Hatalardan Nihai Ürüne
 
 **Süre:** 1 ders saati  
 **Öğrenme çıktıları:** `TDE4.3`
 
 ### Hedef
 
-Öğrenci, “Kural Uygulayabilme” etkinliğinde taslağını tür, bağlam, Türkçe kullanımı, yazım-noktalama ve bütünlük ilkelerine göre ürüne dönüştürür; ürettiği kanıtı gerekçelendirerek kanıtı geliştirme ve düzeltme sürecini tamamlar.
+Öğrenci, “Kural Uygulayabilme” etkinliğinde taslağını tür, bağlam, Türkçe kullanımı, yazım-noktalama ve bütünlük ilkelerine göre ürüne dönüştürür. Bu ders saatinin pedagojik odağı: belirlenen sorunları düzelterek düzenlenmiş e-posta ürününü oluşturma ve değişikliğin etkisini açıklama; somut kanıt: Düzenlenmiş ürün ve değişiklik gerekçesi.
 
 ### Derse giriş
 
-“Kural Uygulayabilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi yazma davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.
+Edebiyat Atölyesi-2 (Anlatma): Yazma — E-Posta Yazabilme — ders kitabı s.77 üzerinden bu saatin odağı görünür kılınır: Belirlenen sorunları düzelterek düzenlenmiş e-posta ürününü oluşturma ve değişikliğin etkisini açıklama. Öğrenci önceki/başlangıç kanıtını kısa biçimde önüne alır ve bu saatin sonunda neyin değişmiş veya derinleşmiş olması gerektiğini kendi cümlesiyle belirtir.
 
 ### Öğretmenin yapacakları
 
 1. “Kural Uygulayabilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
-2. Öğrencinin şu görevi yerine getirmesini sağla: Taslağını tür, bağlam, Türkçe kullanımı, yazım-noktalama ve bütünlük ilkelerine göre ürüne dönüştürür. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
-3. “Düzenlenmiş yazılı veya çok modlu ürün” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
-4. İlk denemeden sonra ortak bir güçlü örneği ve geliştirilmesi gereken bir örneği anonim biçimde karşılaştır; öğrencinin ikinci denemesinde neyi değiştireceğini netleştir.
+2. Canonical görevi koru: Taslağını tür, bağlam, Türkçe kullanımı, yazım-noktalama ve bütünlük ilkelerine göre ürüne dönüştürür.
+3. İkinci saatte yalnız belirlenen sorunları düzelt; değişikliğin ürün üzerindeki etkisini öğrencinin açıklamasını iste.
+4. Bu saate özgü kanıtı topla: Düzenlenmiş ürün ve değişiklik gerekçesi. Yalnız katılımı yeterli kanıt sayma; öğrencinin yaptığı bilişsel işlemi ürününde veya kaydında görünür kıl.
 
 ### Öğrencinin yapacakları
 
 - Taslağını tür, bağlam, Türkçe kullanımı, yazım-noktalama ve bütünlük ilkelerine göre ürüne dönüştürür.
-- Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.
-- İlk kanıtı ile düzeltilmiş kanıtı karşılaştırıp hangi değişikliğin sonucu iyileştirdiğini açıklar.
+- Belirlenen sorunları düzelterek düzenlenmiş e-posta ürününü oluşturma ve değişikliğin etkisini açıklama.
+- Kanıt olarak şunu üretir veya günceller: Düzenlenmiş ürün ve değişiklik gerekçesi.
+- İlk kanıtıyla bu saatin kanıtını karşılaştırır ve değişimi açıklar: Sorun belirlemeden somut düzeltmeye ve etki açıklamasına geçilir.
 
 ### Kaynak bağları
 
@@ -103,11 +103,11 @@ Ana ölçme kanıtı şudur: “Düzenlenmiş yazılı veya çok modlu ürün”
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı şudur: “Düzenlenmiş yazılı veya çok modlu ürün”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen yazma becerisine uygunluğu üzerinden verilir.
+Bu ders saatinin birincil ölçme kanıtı “Düzenlenmiş ürün ve değişiklik gerekçesi”dir. Değerlendirme, öğrencinin “Belirlenen sorunları düzelterek düzenlenmiş e-posta ürününü oluşturma ve değişikliğin etkisini açıklama” işlemini görünür ve gerekçeli biçimde yapıp yapmadığına dayanır; kaynakta doğrulanmamış puan aralığı veya rubrik ölçütü eklenmez.
 
 ### Kapanış
 
-Öğrenci “Düzenlenmiş yazılı veya çok modlu ürün” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
+Öğrenci ilk kanıt ile son kanıt arasındaki farkı tek cümlede açıklar ve şu ilerlemeyi görünür kılar: Sorun belirlemeden somut düzeltmeye ve etki açıklamasına geçilir.
 
 ### Materyaller
 
@@ -128,4 +128,4 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanı
 
 ---
 
-<!-- TYMM_JSON_SHA256:b430459f974cc10710cbacea99081d59370f4087421f50798511986b5cfada60 -->
+<!-- TYMM_JSON_SHA256:ac269fb4c13c3a830be78acedf72356dfe5ca7716bf3f401f2f1407580b4ae12 -->
