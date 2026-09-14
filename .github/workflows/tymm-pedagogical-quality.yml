@@ -6,6 +6,7 @@ on:
       - 'courses/TDE_11/generated/lesson_plans/**'
       - 'courses/TDE_11/planning/pedagogical_*.json'
       - 'skill/tymm-material-planner/scripts/validate_pedagogical_diversity.py'
+      - 'skill/tymm-material-planner/scripts/revise_tde11_theme1_pedagogy.py'
       - 'skill/tymm-material-planner/schemas/pedagogical_package_design.schema.json'
       - 'skill/tymm-material-planner/tests/test_pedagogical_diversity.py'
       - '.github/workflows/tymm-pedagogical-quality.yml'
@@ -14,9 +15,13 @@ on:
       - 'courses/TDE_11/generated/lesson_plans/**'
       - 'courses/TDE_11/planning/pedagogical_*.json'
       - 'skill/tymm-material-planner/scripts/validate_pedagogical_diversity.py'
+      - 'skill/tymm-material-planner/scripts/revise_tde11_theme1_pedagogy.py'
       - 'skill/tymm-material-planner/schemas/pedagogical_package_design.schema.json'
       - 'skill/tymm-material-planner/tests/test_pedagogical_diversity.py'
       - '.github/workflows/tymm-pedagogical-quality.yml'
+
+permissions:
+  contents: write
 
 jobs:
   pedagogical-quality:
@@ -39,3 +44,35 @@ jobs:
         with:
           name: tde11-pedagogical-quality
           path: artifacts/tde11-pedagogical-quality.json
+
+  apply-theme1:
+    if: github.event_name == 'pull_request' && github.head_ref == 'feat/tde11-pedagojik-cesitlilik'
+    needs: pedagogical-quality
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Apply deterministic Theme 1 revision
+        run: python skill/tymm-material-planner/scripts/revise_tde11_theme1_pedagogy.py --write
+      - name: Prove Theme 1 revision is idempotent
+        run: python skill/tymm-material-planner/scripts/revise_tde11_theme1_pedagogy.py --check
+      - name: Run existing full TDE11 lesson-plan validation
+        run: python skill/tymm-material-planner/scripts/validate_all_lesson_plans.py --knowledge-root courses/TDE_11
+      - name: Re-measure pedagogical quality after revision
+        run: python skill/tymm-material-planner/scripts/validate_pedagogical_diversity.py --knowledge-root courses/TDE_11
+      - name: Commit validated Theme 1 revisions to feature branch
+        run: |
+          if git diff --quiet -- courses/TDE_11/generated/lesson_plans/TEMA_01; then
+            echo 'Theme 1 is already synchronized with the pedagogical overlay.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add courses/TDE_11/generated/lesson_plans/TEMA_01
+          git commit -m 'feat(tde11): diversify theme 1 lesson pedagogy'
+          git push origin HEAD:${{ github.head_ref }}
