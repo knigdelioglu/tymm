@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "TDE_11",
+  "theme_id": "TEMA_04",
+  "titles": {
+    "BLOCK_T4_01_OKUMA_P01": ["Ben, Mimar Sinan’a Hazırlık: Amaç, Strateji ve Tahmin", "Tiyatro Metninde Tahminleri Kaynak İpuçlarıyla Sınama"],
+    "BLOCK_T4_01_OKUMA_P02": ["Ben, Mimar Sinan’da Anlam İzleri: Kanıtları Belirleme", "Konu, Tema ve İleti: Tiyatro Kanıtından Yoruma"],
+    "BLOCK_T4_01_OKUMA_P03": ["Ben, Mimar Sinan’ı Çözümleme: Yapı, Kişi, Olay ve Dil", "Parçalardan Bütüne: Tiyatro Çözümlemesini Sentezleme"],
+    "BLOCK_T4_01_OKUMA_P04": ["Tiyatro Okumasını Değerlendirme: Kanıta Bakış", "Merdiven’e Geçiş: Küçürek Hikâye Okuma Stratejisi"],
+    "BLOCK_T4_01_OKUMA_P05": ["Merdiven’e Hazırlık: Küçürek Hikâye İçin Amaç ve Strateji", "Kısa ve Yoğun Metinde Strateji Seçimini Savunma"],
+    "BLOCK_T4_01_OKUMA_P06": ["Merdiven’de Anlam Kanıtlarını Belirleme", "Küçürek Hikâyede Örtük Anlam: Kanıttan Yoruma"],
+    "BLOCK_T4_01_OKUMA_P07": ["Merdiven’i Sınıflandırma: Yapı, Tür, Dil ve Bağlam", "Küçürek Hikâye Ölçütlerini Metin Kanıtıyla Gerekçelendirme"],
+    "BLOCK_T4_01_OKUMA_P08": ["Tema 4 Okuma Bloğunu Kapatma: Değerlendirme ve Transfer"],
+    "BLOCK_T4_02_KONUSMA_P01": ["Tiyatro Canlandırmasını Planlama: Amaç, Rol ve Strateji", "Canlandırma Planını Savunma: Seçimleri Gerekçelendirme"],
+    "BLOCK_T4_02_KONUSMA_P02": ["Yeniden Kurgulanan Sahne: İlk Konuşma ve Canlandırma Taslağı", "Canlandırma Akışını Geliştirme: Akran Geri Bildirimi"],
+    "BLOCK_T4_02_KONUSMA_P03": ["Tiyatro Canlandırması I: İlk Performans ve Gözlem", "Tiyatro Canlandırması II: Gözlemden Yeniden Performansa"],
+    "BLOCK_T4_02_KONUSMA_P04": ["Canlandırmada Etkili Kullanımlar: Güçlü Örnekleri Ayırma", "Karşı Örnekten İyileştirmeye: Ölçütü Yeni Canlandırmaya Taşıma"],
+    "BLOCK_T4_02_KONUSMA_P05": ["Canlandırma Performansını Değerlendirme: Kanıtları Birleştirme", "Kontrol Listesinden Sonraki Performansa: Geliştirme Kararı"],
+    "BLOCK_T4_03_DINLEME_P01": ["Anadolu İnsanı / Fedakârlık’a Hazırlık: Amaç, Strateji ve Tahmin", "Tahminleri İşitsel ve Görsel Kanıtla Sınama"],
+    "BLOCK_T4_03_DINLEME_P02": ["Anadolu İnsanı / Fedakârlık’ta Anlam Kanıtlarını Toplama", "Konu, Tema ve İleti: Medya Kanıtından Yoruma"],
+    "BLOCK_T4_03_DINLEME_P03": ["Anadolu İnsanı / Fedakârlık’ı Çözümleme: Yapı, Dil ve Bağlam", "Çözümleme Bulgularından Bütüncül Çıkarıma"],
+    "BLOCK_T4_03_DINLEME_P04": ["Dinleme/İzleme Sürecini Değerlendirme: Kontrol Listesi ve Günlük", "Değerlendirmeden Sonraki Dinlemeye: Strateji Kararı"],
+    "BLOCK_T4_04_YAZMA_P01": ["Özgün Afişi Planlama: Amaç, Hedef Kitle ve İleti", "Afiş Planını Gerekçelendirme: Görsel-Sözel Strateji Seçimi"],
+    "BLOCK_T4_04_YAZMA_P02": ["Özgün Afiş: İlk İçerik ve Görsel Taslak", "Afiş Taslağını Geliştirme: Akran Geri Bildirimi ve Revizyon"],
+    "BLOCK_T4_04_YAZMA_P03": ["Afişi Denetleme: Dil, Yazım ve Görsel-Sözel Bütünlük", "Sorundan Onarıma: Afişi Hedefli Düzenleme"],
+    "BLOCK_T4_04_YAZMA_P04": ["Afişi Değerlendirme: Öncelikli Geliştirme Alanı", "Hedefli Revizyon: Değişimi Çıkış Kanıtıyla Gösterme"],
+    "BLOCK_T4_04_YAZMA_P05": ["Afiş Sürecini Kapatma: Öğrenme Günlüğü ve Son Karar", "4. Tema Ölçme ve Değerlendirme: Bağımsız Tema Kanıtı"]
+  },
+  "preserve_body_lessons": [
+    {"package_id": "BLOCK_T4_04_YAZMA_P05", "lesson_no": 2}
+  ]
+}
