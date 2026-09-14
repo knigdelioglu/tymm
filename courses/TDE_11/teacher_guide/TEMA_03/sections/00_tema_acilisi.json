@@ -1,0 +1,185 @@
+{
+  "schema_version": "1.1.0",
+  "document_type": "TYMM_TEACHER_GUIDE_SECTION",
+  "course_id": "TDE_11",
+  "theme_id": "TEMA_03",
+  "section_id": "T3_GUIDE_SEC_00_TEMA_ACILIS",
+  "title": "Tema Açılışı / Temaya Başlarken",
+  "section_type": "THEME_OPENING",
+  "printed_page_range": "160-163",
+  "content_status": "VERIFIED",
+  "outcome_refs": [],
+  "activity_refs": [],
+  "lesson_plan_refs": [],
+  "guide_units": [
+    {
+      "unit_id": "T3_GUIDE_U00_TEMA_ACILIS",
+      "title": "Tema Açılışı ve Edebiyat–Hayat İlişkisi",
+      "printed_page_range": "160-163",
+      "activity_refs": [],
+      "outcome_refs": [],
+      "content_status": "VERIFIED",
+      "purpose": "Temanın yazarın hayatı, gerçeklik-kurmaca, kişisel hayatı konu alan türler ve radyo tiyatrosu eksenini görünür kılmak.",
+      "items": [
+        {
+          "item_id": "T3_G00_P160_TEMA_CERCEVESI",
+          "printed_page_range": "160",
+          "label": "Tema kapsamı ve beklenen öğrenmeler",
+          "item_type": "REFERENCE",
+          "expected_answer": {
+            "anlama": [
+              "Huzur romanı",
+              "Mehmet Akif Ersoy biyografisi",
+              "Usûlî tezkiresi",
+              "Direnişin Ustaları radyo tiyatrosu"
+            ],
+            "anlatma": [
+              "Huzur kişisiyle hayalî mülakat",
+              "radyo tiyatrosu diyaloğunu başka türe dönüştürme"
+            ],
+            "odak": [
+              "edebiyat-hayat ilişkisi",
+              "gerçeklik-kurmaca",
+              "yazar-eser ilişkisi",
+              "kişisel hayatı konu alan metinler"
+            ]
+          },
+          "acceptance_criteria": [],
+          "teacher_guidance": [
+            "Tema çerçevesini bir hedef listesi olarak değil, sonraki görevlerin bağlandığı yol haritası olarak kullan."
+          ],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.160 / PDF s.161"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T3_G00_P162_Q1_4",
+          "printed_page_range": "162",
+          "label": "Temaya Başlarken — görselden yaşam ve roman çağrışımları",
+          "item_type": "QUESTION",
+          "expected_answer": {
+            "1": "Yoldaki kişi; yaşam yolculuğu, arayış, değişim, hedefe ilerleme veya belirsizlik gibi anlamlarla gerekçeli biçimde yorumlanabilir.",
+            "2": "Öğrencinin kendi yaşantısıyla kurduğu çağrışım gerekçeli ve görsel bir ayrıntıya dayalıysa kabul edilir.",
+            "3": "Görselden yalnız kesin olay bilgisi değil; yalnızlık, yolculuk, mücadele, umut, geçicilik gibi olası yaşam durumları çıkarılabilir.",
+            "4": "Roman adı serbesttir; görseldeki yol/kişi/atmosferle gerekçeli bağ kurulmalıdır."
+          },
+          "acceptance_criteria": [
+            "Her yorum görseldeki en az bir unsura dayanır.",
+            "Kesin olmayan çıkarımları olasılık diliyle ifade eder."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.162 / PDF s.163"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T3_G00_P163_Q5",
+          "printed_page_range": "163",
+          "label": "Görsellerin çağrışımı",
+          "item_type": "QUESTION",
+          "expected_answer": "Görseller, kişinin yaşam öyküsü, sanatçı kimliği, dönem, mekân, eser ve biyografik izler hakkında çağrışım oluşturabilir; somut görsel kanıtla gerekçelendirilen farklı cevaplar kabul edilir.",
+          "acceptance_criteria": [
+            "En az bir görsel ayrıntıyı yorumla ilişkilendirir."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.163 / PDF s.164"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T3_G00_P163_Q6",
+          "printed_page_range": "163",
+          "label": "Biyografi ve tezkire ön örneklerini karşılaştırma",
+          "item_type": "QUESTION",
+          "expected_answer": {
+            "ortak": "Her ikisi de gerçek kişiyi, yaşamı/sanat kişiliğini ve belirgin özellikleri tanıtır.",
+            "fark": "Modern biyografi daha açık, belgeleyici ve sistematik anlatıma; tezkire ise döneminin dili, övgü/değerlendirme kalıpları ve şairlik örneklerine yaslanır."
+          },
+          "acceptance_criteria": [
+            "Gerçek kişiyi tanıtma ortaklığını belirtir.",
+            "Dil/dönem/anlatım farklarından en az birini açıklar."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.163 / PDF s.164"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        }
+      ],
+      "provenance": {
+        "source_ids": [
+          "official_textbook_pdf",
+          "textbook_map"
+        ],
+        "source_locators": [
+          "basılı s.160-163"
+        ],
+        "content_class": "MIXED"
+      }
+    }
+  ],
+  "section_principles": [
+    "Resmî ders kitabı PDF’sindeki görev ve soru sırasını koru.",
+    "Beklenen cevapları kanıta dayalı gerekçeli alternatiflere açık tut.",
+    "Pedagojik zenginleştirmeyi resmî kitap yönergesi gibi sunma.",
+    "PDF’ye gömülü olmayan QR/video/rubrik ayrıntılarını uydurma."
+  ],
+  "provenance": {
+    "source_ids": [
+      "official_textbook_pdf",
+      "textbook_map",
+      "theme_alignment"
+    ],
+    "source_locators": [
+      "basılı s.160-163"
+    ],
+    "content_class": "MIXED"
+  }
+}

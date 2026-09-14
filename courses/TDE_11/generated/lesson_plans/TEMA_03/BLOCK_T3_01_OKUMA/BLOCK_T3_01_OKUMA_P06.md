@@ -18,7 +18,7 @@
 
 ## Öğrenme ve değerlendirme kapsamı
 
-- **Öğrenme çıktıları:** `TDE2.3`
+- **Öğrenme çıktıları:** `TDE2.2`
 - **Kullanılan etkinlikler:** `T3_ACT_06_OKUMA_ICERIK_ANLAM`
 - **Kullanılan formlar:** Yok
 
@@ -27,7 +27,7 @@
 ## 1. Ders — Anlam Oluşturabilme: kanıt üretme ve geliştirme
 
 **Süre:** 1 ders saati  
-**Öğrenme çıktıları:** `TDE2.3`
+**Öğrenme çıktıları:** `TDE2.2`
 
 ### Hedef
 
@@ -72,7 +72,7 @@ Ana ölçme kanıtı şudur: “Anlama sorularına cevaplar, işaretlemeler ve a
 ## 2. Ders — Anlam Oluşturabilme: kanıt üretme ve geliştirme
 
 **Süre:** 1 ders saati  
-**Öğrenme çıktıları:** `TDE2.3`
+**Öğrenme çıktıları:** `TDE2.2`
 
 ### Hedef
 
@@ -122,10 +122,10 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanı
 
 - **Bu pakette planlanan:** 2 saat
 - **Blokta kalan:** 3 saat
-- **Kapsanan çıktılar:** `TDE2.3`
+- **Kapsanan çıktılar:** `TDE2.2`
 - **Kullanılan etkinlikler:** `T3_ACT_06_OKUMA_ICERIK_ANLAM`
 - **Sonraki adım:** Aynı okuma bloğunda kalan 3 saatte kullanılmamış veya derinleştirilecek doğrulanmış kitap etkinlikleriyle beceri kanıtını ilerlet.
 
 ---
 
-<!-- TYMM_JSON_SHA256:659a9da9fb50954cff7eb28152dff49a33a75d5d94e084965a4702b3195a9f19 -->
+<!-- TYMM_JSON_SHA256:1e6fec07f16dc444ea320c8272fef3ab48f8baa24b8f357c616bf288df960880 -->

@@ -11,15 +11,15 @@
   "validation_binding": {
     "schema_version": "1.0.0",
     "algorithm": "TYMM_LESSON_PLAN_VALIDATION_SCOPE_V1",
-    "content_fingerprint": "sha256:a9a82e48218226e3caa5d12207489b30d9bd2ae6db7dc6f01f8a4716fcb85ec5",
+    "content_fingerprint": "sha256:2dcfec89dcb1d2299c39f91f6b5ec6acecbd0c6d6220cee66c665d7c70f18d26",
     "fingerprinted_files": 213,
-    "commit_sha": "2a0c672df19640ab2fec579161ea38f8ed66b4b4"
+    "commit_sha": "9ffae6b3fb342dc4a1855950f2c2e0c95908c574"
   },
   "validation_set_binding": {
     "schema_version": "1.0.0",
     "algorithm": "TYMM_LESSON_PLAN_VALIDATION_SCOPE_V1",
-    "content_fingerprint": "sha256:a9a82e48218226e3caa5d12207489b30d9bd2ae6db7dc6f01f8a4716fcb85ec5",
+    "content_fingerprint": "sha256:2dcfec89dcb1d2299c39f91f6b5ec6acecbd0c6d6220cee66c665d7c70f18d26",
     "fingerprinted_files": 213,
-    "commit_sha": "2a0c672df19640ab2fec579161ea38f8ed66b4b4"
+    "commit_sha": "9ffae6b3fb342dc4a1855950f2c2e0c95908c574"
   }
 }

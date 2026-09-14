@@ -1,0 +1,477 @@
+{
+  "schema_version": "1.1.0",
+  "document_type": "TYMM_TEACHER_GUIDE_SECTION",
+  "course_id": "TDE_11",
+  "theme_id": "TEMA_03",
+  "section_id": "T3_SEC_04_DINLEME_RADYO",
+  "title": "Metin Tahlili-3 (Anlama): Dinleme / İzleme — Direnişin Ustaları Radyo Tiyatrosu",
+  "section_type": "LISTENING_VIEWING",
+  "printed_page_range": "215-224",
+  "content_status": "REVIEW_REQUIRED",
+  "outcome_refs": [
+    "TDE1.1",
+    "TDE1.2",
+    "TDE1.3",
+    "TDE1.4"
+  ],
+  "activity_refs": [
+    "T3_ACT_13_DINLEME_YONETIM",
+    "T3_ACT_14_DINLEME_ICERIK_ANLAM",
+    "T3_ACT_15_DINLEME_UYGULAMA_COZUMLEME",
+    "T3_ACT_16_DINLEME_DEGERLENDIRME"
+  ],
+  "lesson_plan_refs": [
+    "courses/TDE_11/generated/lesson_plans/TEMA_03/BLOCK_T3_03_DINLEME/BLOCK_T3_03_DINLEME_P01.json",
+    "courses/TDE_11/generated/lesson_plans/TEMA_03/BLOCK_T3_03_DINLEME/BLOCK_T3_03_DINLEME_P02.json",
+    "courses/TDE_11/generated/lesson_plans/TEMA_03/BLOCK_T3_03_DINLEME/BLOCK_T3_03_DINLEME_P03.json",
+    "courses/TDE_11/generated/lesson_plans/TEMA_03/BLOCK_T3_03_DINLEME/BLOCK_T3_03_DINLEME_P04.json"
+  ],
+  "guide_units": [
+    {
+      "unit_id": "T3_GUIDE_U13_DINLEME_YONETIM",
+      "title": "Direnişin Ustaları — dinleme/izlemeyi yönetme",
+      "printed_page_range": "215-216",
+      "activity_refs": [
+        "T3_ACT_13_DINLEME_YONETIM"
+      ],
+      "outcome_refs": [
+        "TDE1.1"
+      ],
+      "content_status": "REVIEW_REQUIRED",
+      "purpose": "Radyo tiyatrosu ön bilgisini etkinleştirmek ve dinleme amacı/stratejisi/tahminleri belirlemek.",
+      "items": [
+        {
+          "item_id": "T3_G13_P215_Q1_3",
+          "printed_page_range": "215",
+          "label": "Radyo tiyatrosuna giriş",
+          "item_type": "QUESTION",
+          "expected_answer": {
+            "1": "İlginin azalması televizyon/dijital görsel kültür, eğlence odaklı yayın ve üretim koşullarıyla ilişkilendirilebilir; gerekçeli farklı açıklamalar kabul edilir.",
+            "2": "Edebî-estetik kaygının azalması dil/üslup niteliğinin, hayal gücü ve kültürel derinliğin zayıflamasına yol açabilir.",
+            "3": "Radyo tiyatrosu görseli hazır vermediği için ses, söz, müzik ve efekt üzerinden dinleyicinin zihinsel imge üretimine daha fazla alan açabilir; televizyon görselliği doğrudan sunar."
+          },
+          "acceptance_criteria": [
+            "Karşılaştırmada iki aracın özelliklerini gerekçelendirir."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.215 / PDF s.216"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T3_G13_P216_YONETIM",
+          "printed_page_range": "216",
+          "label": "Dinleme amacı, strateji ve tahmin",
+          "item_type": "PROCESS",
+          "expected_answer": [
+            "Dinleme amacını seç ve açıkla.",
+            "Çözümlemeye uygun dinleme stratejisi belirle.",
+            "‘Direnişin Ustaları’ başlığından konu ve amaç için tahminde bulun.",
+            "Gözlem Formu ölçütlerini süreçte dikkate al."
+          ],
+          "acceptance_criteria": [],
+          "teacher_guidance": [
+            "Video/QR medya yerel PDF’ye gömülü değildir; olay/karakter ayrıntısını yalnız gerçekten izlenen içerikten sonra doğrula."
+          ],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.216 / PDF s.217"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        }
+      ],
+      "provenance": {
+        "source_ids": [
+          "official_textbook_pdf",
+          "textbook_map"
+        ],
+        "source_locators": [
+          "basılı s.215-216"
+        ],
+        "content_class": "MIXED"
+      }
+    },
+    {
+      "unit_id": "T3_GUIDE_U14_DINLEME_ANLAM",
+      "title": "Direnişin Ustaları — anlam oluşturma",
+      "printed_page_range": "217-220",
+      "activity_refs": [
+        "T3_ACT_14_DINLEME_ICERIK_ANLAM"
+      ],
+      "outcome_refs": [
+        "TDE1.2"
+      ],
+      "content_status": "REVIEW_REQUIRED",
+      "purpose": "Söz varlığı, konu/tema/amaç, kişi ve radyo tiyatrosunun çok modlu özelliklerini anlamlandırmak.",
+      "items": [
+        {
+          "item_id": "T3_G14_P217_SOZ_VARLIGI",
+          "printed_page_range": "217",
+          "label": "Radyo tiyatrosu söz varlığı",
+          "item_type": "VOCABULARY",
+          "expected_answer": {
+            "direniş": "karşı koyma",
+            "ihbar": "yetkili makama bildirme/haber verme",
+            "torna": "metal/ahşabı döndürerek biçimlendiren tezgâh",
+            "kafa yormak": "üzerinde çok düşünmek",
+            "haber uçurmak": "gizlice/çabucak haber iletmek"
+          },
+          "acceptance_criteria": [
+            "Bağlama uygun eş/alternatif ifade önerir."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.217 / PDF s.218"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T3_G14_P218_RADYO_UNSURLARI",
+          "printed_page_range": "218",
+          "label": "Radyo tiyatrosunda ses, söz, efekt, müzik",
+          "item_type": "REFERENCE",
+          "expected_answer": "Görüntü eksikliğini seslendirme, söz, efekt ve müzik tamamlar. Ses rengi, tonlama ve efektler kişi, mekân, zaman ve atmosferi zihinde kurdurur; küçük bir ses/efekt bile anlamı değiştirebilir.",
+          "acceptance_criteria": [
+            "En az iki ses unsurunun işlevini açıklar."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.218 / PDF s.219"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T3_G14_P218_220_METIN_Q",
+          "printed_page_range": "218-220",
+          "label": "Direnişin Ustaları — konu, tema, kişi, dönem/üslup/tür",
+          "item_type": "QUESTION",
+          "expected_answer": {
+            "cevaplama_kurali": "Konu, tema, amaç, kahraman davranışları, dönem, zihniyet, üslup, ileti ve yazarın sanat anlayışı yalnız izlenen/dinlenen medya kanıtına göre doldurulur.",
+            "tur": "Radyo tiyatrosu/radyo oyunu; ses, söz, müzik ve efekt üzerinden dramatik anlatı.",
+            "karsilastirma": "Sahnelenen tiyatro ile ortak dramatik yapı/diyalog/oyunculuk taşır; radyo tiyatrosunda dekor/görsel sahne yerine ses ve dinleyicinin hayal gücü belirleyicidir."
+          },
+          "acceptance_criteria": [
+            "Medya içeriğini uydurmaz.",
+            "Çıkarımını duyulan/izlenen unsura bağlar."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.218-220"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T3_G14_P220_OSMANCIK",
+          "printed_page_range": "220",
+          "label": "Osmancık sahne tiyatrosu ile karşılaştırma",
+          "item_type": "TABLE",
+          "expected_answer": {
+            "olcutler": [
+              "müzik",
+              "dil kullanımı",
+              "ileti",
+              "maliyet",
+              "duygu değişimleri",
+              "dekor",
+              "ses tonu",
+              "atmosfer",
+              "empati"
+            ],
+            "genel": "Her iki tür dramatik anlatı ve oyuncu sesi kullanabilir; sahne tiyatrosu görsel dekor/beden/mekânı doğrudan gösterirken radyo tiyatrosu bunları ses ve hayal gücüyle kurar."
+          },
+          "acceptance_criteria": [],
+          "teacher_guidance": [
+            "Osmancık videosunun somut ayrıntılarını video izlenmeden cevap anahtarına ekleme."
+          ],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.220 / PDF s.221"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        }
+      ],
+      "provenance": {
+        "source_ids": [
+          "official_textbook_pdf",
+          "textbook_map"
+        ],
+        "source_locators": [
+          "basılı s.217-220"
+        ],
+        "content_class": "MIXED"
+      }
+    },
+    {
+      "unit_id": "T3_GUIDE_U15_DINLEME_COZUMLEME",
+      "title": "Direnişin Ustaları — çözümleme",
+      "printed_page_range": "221-222",
+      "activity_refs": [
+        "T3_ACT_15_DINLEME_UYGULAMA_COZUMLEME"
+      ],
+      "outcome_refs": [
+        "TDE1.3"
+      ],
+      "content_status": "REVIEW_REQUIRED",
+      "purpose": "Dramatik yapı, kişi amaçları, millî/manevi değerler ve iletiler arası ilişkileri çözümlemek.",
+      "items": [
+        {
+          "item_id": "T3_G15_P221_YAPI",
+          "printed_page_range": "221",
+          "label": "Radyo tiyatrosu yapı unsurları",
+          "item_type": "TABLE",
+          "expected_answer": {
+            "alanlar": [
+              "kişi",
+              "yer/mekân",
+              "zaman",
+              "dramatik örgü",
+              "çatışma"
+            ],
+            "cevaplama_kurali": "Her alan dinlenen/izlenen metindeki somut kanıtla doldurulur."
+          },
+          "acceptance_criteria": [
+            "Yapı unsurunun dramatik örgüye katkısını açıklar."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.221 / PDF s.222"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T3_G15_P222_GORUS",
+          "printed_page_range": "222",
+          "label": "Değerlerin iletilere etkisi — görüş geliştirme",
+          "item_type": "PROCESS",
+          "expected_answer": {
+            "odak_gorus": "Millî ve manevi değerleri yansıtan unsurlar arasındaki etkileşim, metnin iletilerinin ortaya çıkarılmasında işlevseldir.",
+            "deger_ornekleri": [
+              "saygı",
+              "vatanseverlik",
+              "duyarlılık",
+              "hoşgörü",
+              "aile bütünlüğü"
+            ]
+          },
+          "acceptance_criteria": [
+            "Katılma derecesini gerekçeyle açıklar.",
+            "Farklı görüşü dinleyip gerekirse görüşünü günceller."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.222 / PDF s.223"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        }
+      ],
+      "provenance": {
+        "source_ids": [
+          "official_textbook_pdf",
+          "textbook_map"
+        ],
+        "source_locators": [
+          "basılı s.221-222"
+        ],
+        "content_class": "MIXED"
+      }
+    },
+    {
+      "unit_id": "T3_GUIDE_U16_DINLEME_DEGERLENDIRME",
+      "title": "Direnişin Ustaları — süreci değerlendirme",
+      "printed_page_range": "223-224",
+      "activity_refs": [
+        "T3_ACT_16_DINLEME_DEGERLENDIRME"
+      ],
+      "outcome_refs": [
+        "TDE1.4"
+      ],
+      "content_status": "REVIEW_REQUIRED",
+      "purpose": "Radyo tiyatrosunu ölçütlerle, tarihsel gerçeklik ve empati üzerinden değerlendirmek; öğrenme günlüğüyle süreci yansıtmak.",
+      "items": [
+        {
+          "item_id": "T3_G16_P223_DEGER",
+          "printed_page_range": "223",
+          "label": "Radyo tiyatrosunu değerlendirme ve sosyal bilimlerle ilişki",
+          "item_type": "ASSESSMENT",
+          "expected_answer": {
+            "olcut_ornegi": "Dil kullanımı: yalın, doğal ve etkileyici olup olmadığı medya kanıtıyla değerlendirilir.",
+            "sosyal_bilim": [
+              "metin-tarih",
+              "metin-sosyoloji",
+              "metin-psikoloji"
+            ],
+            "degerlendirme": [
+              "konuyu tarihî gerçeklerle karşılaştır",
+              "bir kişiyle empati kurup davranışını değerlendir"
+            ]
+          },
+          "acceptance_criteria": [
+            "Değerlendirme ölçütü açık ve gözlenebilir olur."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.223 / PDF s.224"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T3_G16_P224_OGRENME_GUNLUGU",
+          "printed_page_range": "224",
+          "label": "Öğrenme Günlüğü",
+          "item_type": "ASSESSMENT",
+          "expected_answer": [
+            "Bu süreçte öğrendiklerim",
+            "Pekiştirmem gereken konular",
+            "Daha ayrıntılı incelemek istediğim konular",
+            "Kendimi geliştirmek için çaba harcadığım konular",
+            "Gelecekte kullanabileceğim bilgiler"
+          ],
+          "acceptance_criteria": [
+            "Öğrenci beğenisini ve metin-yaşam ilişkisini gerekçelendirir."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.224 / PDF s.225"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        }
+      ],
+      "provenance": {
+        "source_ids": [
+          "official_textbook_pdf",
+          "textbook_map"
+        ],
+        "source_locators": [
+          "basılı s.223-224"
+        ],
+        "content_class": "MIXED"
+      }
+    }
+  ],
+  "section_principles": [
+    "Resmî ders kitabı PDF’sindeki görev ve soru sırasını koru.",
+    "Beklenen cevapları kanıta dayalı gerekçeli alternatiflere açık tut.",
+    "Pedagojik zenginleştirmeyi resmî kitap yönergesi gibi sunma.",
+    "PDF’ye gömülü olmayan QR/video/rubrik ayrıntılarını uydurma."
+  ],
+  "provenance": {
+    "source_ids": [
+      "official_textbook_pdf",
+      "textbook_map",
+      "theme_alignment"
+    ],
+    "source_locators": [
+      "basılı s.215-224"
+    ],
+    "content_class": "MIXED"
+  }
+}
