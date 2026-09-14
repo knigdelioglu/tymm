@@ -15,14 +15,28 @@ jobs:
       - uses: actions/checkout@v4
       - name: Install PDF tools
         run: sudo apt-get update && sudo apt-get install -y poppler-utils
-      - name: Extract Theme 2 pages
+      - name: Extract Theme 2 pages and source bundle
         run: |
           set -euo pipefail
           PDF="courses/TDE_11/source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf"
-          mkdir -p /tmp/tde11-theme2/pages
+          mkdir -p /tmp/tde11-theme2/pages /tmp/tde11-theme2/repo
           pdfinfo "$PDF" > /tmp/tde11-theme2/pdfinfo.txt
           pdftotext -f 85 -l 160 -layout "$PDF" /tmp/tde11-theme2/theme2-pages-85-160.txt
           pdftoppm -f 85 -l 160 -jpeg -r 110 "$PDF" /tmp/tde11-theme2/pages/page >/dev/null 2>&1
+          cp --parents \
+            courses/TDE_11/curriculum_map.json \
+            courses/TDE_11/curriculum_normative_text.json \
+            courses/TDE_11/textbook_map.json \
+            courses/TDE_11/themes/tema_02/alignment.json \
+            courses/TDE_11/themes/tema_02/resource_plan.json \
+            courses/TDE_11/production/teaching_blocks.json \
+            courses/TDE_11/planning/lesson_plan_production_plan.json \
+            skill/tymm-material-planner/schemas/teacher_guide.schema.json \
+            skill/tymm-material-planner/schemas/teacher_guide_section.schema.json \
+            skill/tymm-material-planner/scripts/validate_teacher_guide.py \
+            /tmp/tde11-theme2/repo/
+          cp -R --parents courses/TDE_11/generated/lesson_plans/TEMA_02 /tmp/tde11-theme2/repo/
+          cp -R --parents courses/TDE_11/teacher_guide/TEMA_01 /tmp/tde11-theme2/repo/
       - name: Upload extraction
         uses: actions/upload-artifact@v4
         with:
