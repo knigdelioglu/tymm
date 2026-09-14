@@ -1,0 +1,161 @@
+{
+  "schema_version": "1.1.0",
+  "document_type": "TYMM_TEACHER_GUIDE_SECTION",
+  "course_id": "TDE_11",
+  "theme_id": "TEMA_01",
+  "section_id": "T1_SEC_04_DINLEME_ILETISIM",
+  "title": "Metin Tahlili-3 (Anlama): Dinleme / İzleme — Değişen İletişim Araçlarının Hayatımızdaki Yeri",
+  "section_type": "LISTENING_VIEWING",
+  "printed_page_range": "59-73",
+  "content_status": "VERIFIED",
+  "outcome_refs": ["TDE1.1", "TDE1.2", "TDE1.3", "TDE1.4"],
+  "activity_refs": ["T1_ACT_13_DINLEME_YONETIM", "T1_ACT_14_DINLEME_ICERIK_ANLAM", "T1_ACT_15_DINLEME_UYGULAMA_COZUMLEME", "T1_ACT_16_DINLEME_DEGERLENDIRME"],
+  "lesson_plan_refs": [
+    "courses/TDE_11/generated/lesson_plans/TEMA_01/BLOCK_T1_03_DINLEME/BLOCK_T1_03_DINLEME_P01.json",
+    "courses/TDE_11/generated/lesson_plans/TEMA_01/BLOCK_T1_03_DINLEME/BLOCK_T1_03_DINLEME_P02.json",
+    "courses/TDE_11/generated/lesson_plans/TEMA_01/BLOCK_T1_03_DINLEME/BLOCK_T1_03_DINLEME_P03.json",
+    "courses/TDE_11/generated/lesson_plans/TEMA_01/BLOCK_T1_03_DINLEME/BLOCK_T1_03_DINLEME_P04.json"
+  ],
+  "guide_units": [
+    {
+      "unit_id": "T1_GUIDE_U14_DINLEME_HAZIRLIK",
+      "title": "Konuya hazırlık — iletişim araçlarının değişimi",
+      "printed_page_range": "59",
+      "activity_refs": [],
+      "outcome_refs": ["TDE1.1"],
+      "content_status": "VERIFIED",
+      "purpose": "Öğrencinin geçmiş ve günümüz iletişim araçlarına ilişkin ön bilgisini etkinleştirmek ve çok modlu metne hazırlık yapmak.",
+      "items": [
+        {
+          "item_id": "T1_G14_P59_PREP",
+          "printed_page_range": "59",
+          "label": "Geçmişten günümüze iletişim araçları — ön bilgi",
+          "item_type": "PROCESS",
+          "expected_answer": {"ornek_araclar": ["yüz yüze haberleşme", "mektup/posta", "telgraf", "sabit telefon", "radyo/televizyon", "faks", "cep telefonu", "e-posta", "anlık mesajlaşma", "sosyal medya"], "degisim_olcutleri": ["hız", "erişim", "kalıcılık", "maliyet", "eşzamanlılık", "görsel/işitsel zenginlik"]},
+          "acceptance_criteria": ["En az iki farklı dönemden iletişim aracı örneği verir.", "Araçlardaki değişimi en az bir işlevsel ölçütle açıklar."],
+          "teacher_guidance": ["Bu hazırlığı bir teknoloji sıralama yarışına dönüştürme; araçların iletişim davranışını nasıl değiştirdiğini sorgulat.", "Tema çevresindeki Seksenler/dönemsel iletişim örneklerini geçmiş–bugün karşılaştırmasına hazırlık olarak kullan."],
+          "common_misconceptions": ["Yeni iletişim aracını otomatik olarak her bakımdan daha iyi saymak."],
+          "assessment_evidence": ["Geçmiş–günümüz iletişim aracı karşılaştırma notu."],
+          "differentiation": {"support": ["Hız–erişim–kalıcılık başlıklarını hazır ver."], "enrichment": ["Bir aracın kazandırdığı ve kaybettirdiği iletişim özelliğini birlikte tartıştır."]},
+          "provenance": {"source_ids": ["official_textbook_pdf"], "source_locators": ["basılı s.59 / PDF s.60 — dinleme/izleme hazırlık bölümü"], "content_class": "OFFICIAL_TEXTBOOK"}
+        }
+      ],
+      "provenance": {"source_ids": ["official_textbook_pdf"], "source_locators": ["basılı s.59 / PDF s.60"], "content_class": "OFFICIAL_TEXTBOOK"}
+    },
+    {
+      "unit_id": "T1_GUIDE_U15_DINLEME_YONETIM",
+      "title": "Dinleme / İzlemeyi Yönetebilme",
+      "printed_page_range": "60-64",
+      "activity_refs": ["T1_ACT_13_DINLEME_YONETIM"],
+      "outcome_refs": ["TDE1.1"],
+      "content_status": "VERIFIED",
+      "purpose": "Dinleme/izleme amacını ve stratejisini belirlemek, ön bilgiyi etkinleştirmek, tahmin oluşturmak ve süreci gözlem formuyla izlemek.",
+      "items": [
+        {
+          "item_id": "T1_G15_P60_64_MANAGEMENT",
+          "printed_page_range": "60-64",
+          "label": "Dinleme/izleme amacı, stratejisi, tahmin ve hazırlık notları",
+          "item_type": "PROCESS",
+          "expected_answer": {"amac_ornegi": "İletişim araçlarının zaman içindeki değişimini, günlük yaşama etkilerini ve iletişimde ortaya çıkan kolaylık/sorunları anlamak.", "strateji_ornegi": "Anahtar kavramları not alma; geçmiş/günümüz karşılaştırması yapma; neden-sonuç ilişkilerini işaretleme; görsel ve işitsel unsurların iletiye katkısını birlikte izleme.", "tahmin": "İletişim araçları hız ve erişimi artırırken yüz yüze etkileşim, dil kullanımı, mahremiyet veya dikkat gibi alanlarda yeni sorunlar da oluşturabilir."},
+          "acceptance_criteria": ["Dinleme/izleme amacını kendi cümlesiyle belirtir.", "Amaca uygun en az bir strateji seçer ve nedenini açıklar.", "Tahminini başlık/görsel/ön bilgiye dayandırır.", "İzleme sırasında tahminini yeni kanıta göre günceller."],
+          "teacher_guidance": ["Medya içeriğini açmadan önce amaç–strateji–tahmin kaydını al; sonradan doldurulmuş bir forma dönüşmesini önle.", "Dinleme/izleme becerisi hedef olduğundan transkripti varsayılan olarak medyanın yerine geçirme; erişilebilirlik desteği gerektiğinde construct'u koru."],
+          "common_misconceptions": ["Dinlemek/izlemek ile yalnız içerikte geçen bilgileri hatırlamayı aynı şey saymak.", "Tahmini doğru çıkma zorunluluğu sanmak."],
+          "assessment_evidence": ["Amaç/strateji kaydı, tahmin ve hazırlık notları."],
+          "differentiation": {"support": ["Amaç–strateji–tahmin için üç bölümlü kayıt şablonu ver."], "enrichment": ["Aynı çok modlu metni iki farklı dinleme amacıyla izlemenin notları nasıl değiştireceğini karşılaştır."]},
+          "provenance": {"source_ids": ["official_textbook_pdf", "textbook_map", "lesson_plan_set"], "source_locators": ["basılı s.60-64 / PDF s.61-65", "T1_ACT_13_DINLEME_YONETIM", "BLOCK_T1_03_DINLEME_P01"], "content_class": "MIXED"}
+        },
+        {
+          "item_id": "T1_G15_P64_OBSERVATION",
+          "printed_page_range": "64",
+          "label": "Gözlem Formu",
+          "item_type": "ASSESSMENT",
+          "expected_answer": null,
+          "acceptance_criteria": ["Formu gözlenebilir dinleme/izleme davranışına dayalı doldurur.", "Form sonucu ile sonraki dinleme/izleme davranışı arasında geliştirme hedefi kurar."],
+          "teacher_guidance": ["Gözlem formunu puan vermek için tek başına kullanmak yerine süreç kanıtı olarak değerlendir."],
+          "common_misconceptions": ["Formu öğrencinin yalnız katılım gösterip göstermediğiyle doldurmak."],
+          "assessment_evidence": ["FORM_T1_P064_GOZLEM_FORMU_07."],
+          "differentiation": {"support": ["Gözlenebilir davranışları kısa örneklerle açıkla."], "enrichment": ["Öğrencinin kendi gözlem ölçütünü gerekçeli eklemesine izin ver."]},
+          "provenance": {"source_ids": ["official_textbook_pdf", "textbook_map", "lesson_plan_set"], "source_locators": ["basılı s.64 / PDF s.65", "FORM_T1_P064_GOZLEM_FORMU_07"], "content_class": "MIXED"}
+        }
+      ],
+      "provenance": {"source_ids": ["official_textbook_pdf", "textbook_map", "lesson_plan_set"], "source_locators": ["basılı s.60-64 / PDF s.61-65", "T1_ACT_13_DINLEME_YONETIM"], "content_class": "MIXED"}
+    },
+    {
+      "unit_id": "T1_GUIDE_U16_DINLEME_ANLAM",
+      "title": "Anlam Oluşturabilme",
+      "printed_page_range": "65-71",
+      "activity_refs": ["T1_ACT_14_DINLEME_ICERIK_ANLAM"],
+      "outcome_refs": ["TDE1.2"],
+      "content_status": "VERIFIED",
+      "purpose": "Dinlenen/izlenen çok modlu metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturmak.",
+      "items": [
+        {
+          "item_id": "T1_G16_P65_71_COMPREHENSION",
+          "printed_page_range": "65-71",
+          "label": "Dinleme/izleme notları ve anlama soruları",
+          "item_type": "QUESTION",
+          "expected_answer": {"cevaplama_ilkesi": "Cevaplar dinlenen/izlenen içerikteki açık bilgi, görsel/işitsel kanıt ve bağlamla temellendirilmelidir.", "temel_odaklar": ["konu", "tema", "açık/örtük ileti", "iletişim araçlarının değişimi", "iletişimin günlük yaşama etkisi", "söz varlığı", "bağlam"], "genel_cikarim": "İletişim araçlarının gelişmesi iletişimi daha hızlı ve erişilebilir hâle getirebilir; buna karşılık iletişim kalitesi yalnız araca değil mesajın açıklığına, dinlemeye, geri bildirime, güvene, empatiye ve sözsüz unsurlara da bağlıdır."},
+          "acceptance_criteria": ["Konu ve temayı ayırır.", "En az bir iletiyi çok modlu metinden kanıtla destekler.", "Görsel/işitsel unsurun anlam üzerindeki etkisini açıklar.", "Kendi bilgisi ile metinde verilen bilgiyi ayırır."],
+          "teacher_guidance": ["Bu unitte yalnız doğrulanmış öğrenci eylemi ve kitap sayfa aralığı kesinleştirilmiştir; her alt sorunun metnini ayrıca PDF satır doğrulaması olmadan uydurma.", "Öğrenci cevabını 'videoda geçti' düzeyinden çıkarıp hangi ses/görüntü/söylem kanıtına dayandığını açıklat."],
+          "common_misconceptions": ["Konu ile iletiyi aynı kavram sanmak.", "Görsel öğeyi yalnız süs olarak görmek."],
+          "assessment_evidence": ["Anlama sorularına cevaplar ve yapılandırılmış dinleme/izleme notları."],
+          "differentiation": {"support": ["Konu–ileti–kanıt tablosu kullan."], "enrichment": ["Aynı iletinin yalnız ses veya yalnız görüntüyle verilmesi hâlindeki anlam değişimini tartıştır."]},
+          "provenance": {"source_ids": ["official_textbook_pdf", "textbook_map", "lesson_plan_set"], "source_locators": ["basılı s.65-71 / PDF s.66-72", "T1_ACT_14_DINLEME_ICERIK_ANLAM", "BLOCK_T1_03_DINLEME_P02"], "content_class": "MIXED", "note": "Alt soru metinleri, doğrudan PDF satır doğrulaması tamamlanana kadar genelleştirilmemiştir."}
+        }
+      ],
+      "provenance": {"source_ids": ["official_textbook_pdf", "textbook_map", "lesson_plan_set"], "source_locators": ["basılı s.65-71 / PDF s.66-72", "T1_ACT_14_DINLEME_ICERIK_ANLAM"], "content_class": "MIXED"}
+    },
+    {
+      "unit_id": "T1_GUIDE_U17_DINLEME_COZUMLEME",
+      "title": "Çözümleyebilme",
+      "printed_page_range": "72",
+      "activity_refs": ["T1_ACT_15_DINLEME_UYGULAMA_COZUMLEME"],
+      "outcome_refs": ["TDE1.3"],
+      "content_status": "VERIFIED",
+      "purpose": "Çok modlu metni yapı, tür, dil-anlatım, kişi/olay/ileti ve bağlam yönlerinden çözümlemek.",
+      "items": [
+        {
+          "item_id": "T1_G17_P72_ANALYSIS",
+          "printed_page_range": "72",
+          "label": "Çok modlu metin tahlili",
+          "item_type": "TABLE",
+          "expected_answer": {"cozumleme_basliklari": ["yapı", "çok modlu metin türü", "dil ve anlatım", "kişi/olay veya sunulan durum", "açık ve örtük iletiler", "görsel-işitsel unsurlar", "bağlam", "iletişim davranışları"]},
+          "acceptance_criteria": ["En az üç çözümleme boyutunda somut medya kanıtı gösterir.", "İleti ile kullanılan görsel/işitsel teknik arasında ilişki kurar.", "Gerekçeli çıkarım ile doğrudan gözlemi birbirinden ayırır."],
+          "teacher_guidance": ["Öğrenciden özet değil çözümleme iste: 'ne oldu?' kadar 'bu unsur iletiyi nasıl kurdu?' sorusunu da cevaplat."],
+          "common_misconceptions": ["Çözümlemeyi olay özetiyle sınırlamak."],
+          "assessment_evidence": ["Tahlil cevapları, karşılaştırma/şema kayıtları ve gerekçeli çıkarımlar."],
+          "differentiation": {"support": ["Görsel–ses–söz–ileti sütunlu tablo ver."], "enrichment": ["Bir görsel/işitsel unsuru çıkarınca iletinin etkisinin nasıl değişeceğini tartıştır."]},
+          "provenance": {"source_ids": ["official_textbook_pdf", "textbook_map", "lesson_plan_set"], "source_locators": ["basılı s.72 / PDF s.73", "T1_ACT_15_DINLEME_UYGULAMA_COZUMLEME", "BLOCK_T1_03_DINLEME_P03"], "content_class": "MIXED"}
+        }
+      ],
+      "provenance": {"source_ids": ["official_textbook_pdf", "textbook_map", "lesson_plan_set"], "source_locators": ["basılı s.72 / PDF s.73", "T1_ACT_15_DINLEME_UYGULAMA_COZUMLEME"], "content_class": "MIXED"}
+    },
+    {
+      "unit_id": "T1_GUIDE_U18_DINLEME_DEGERLENDIRME",
+      "title": "Görüşleri Yansıtma / Süreci Değerlendirme",
+      "printed_page_range": "73",
+      "activity_refs": ["T1_ACT_16_DINLEME_DEGERLENDIRME"],
+      "outcome_refs": ["TDE1.4"],
+      "content_status": "VERIFIED",
+      "purpose": "Dinleme/izleme sürecine ve iletişim konusunda öğrenilenlere ilişkin görüşleri ölçüt ve kanıtlarla yansıtmak.",
+      "items": [
+        {
+          "item_id": "T1_G18_P73_EXIT_CARD",
+          "printed_page_range": "73",
+          "label": "3-2-1 Çıkış Kartı",
+          "item_type": "ASSESSMENT",
+          "expected_answer": {"uc_yaz": "Dinleme/izleme çalışmalarında iletişime dair öğrenilen veya önemli bulunan üç bilgi.", "iki_sor": "İlgi çeken ve daha fazla bilgi edinilmek istenen iki soru.", "bir_paylas": "Çalışmalarda öğrenilenlere ilişkin arkadaşlarla paylaşılacak bir görüş."},
+          "acceptance_criteria": ["Üç bilgi birbirinin tekrarı değildir ve bölümdeki çalışmalara dayanır.", "İki soru daha fazla araştırmaya açık gerçek sorulardır.", "Paylaşılan görüş en az bir ders kanıtıyla gerekçelendirilebilir."],
+          "teacher_guidance": ["Çıkış kartını doğru cevap anahtarı gibi puanlama; öğrenme derinliği ve sonraki öğretim ihtiyacını teşhis etmek için kullan."],
+          "common_misconceptions": ["Sorular kısmına zaten cevabı bilinen bilgi cümleleri yazmak."],
+          "assessment_evidence": ["FORM_T1_P073_CIKIS_KARTI_08."],
+          "differentiation": {"support": ["Bilgi/soru/görüş ayrımını birer örnekle göster."], "enrichment": ["Görüşünü bir iletişim kuramı veya güncel iletişim örneğiyle ilişkilendir."]},
+          "provenance": {"source_ids": ["official_textbook_pdf", "textbook_map", "lesson_plan_set"], "source_locators": ["basılı s.73 / PDF s.74", "FORM_T1_P073_CIKIS_KARTI_08", "T1_ACT_16_DINLEME_DEGERLENDIRME", "BLOCK_T1_03_DINLEME_P04"], "content_class": "MIXED"}
+        }
+      ],
+      "provenance": {"source_ids": ["official_textbook_pdf", "textbook_map", "lesson_plan_set"], "source_locators": ["basılı s.73 / PDF s.74", "T1_ACT_16_DINLEME_DEGERLENDIRME"], "content_class": "MIXED"}
+    }
+  ],
+  "section_principles": ["Dinleme/izleme becerisi hedefken transkript varsayılan olarak medyanın yerini almaz; erişilebilirlik desteği construct korunarak sağlanır.", "Alt soru metni doğrudan PDF'de doğrulanmadan uydurulmaz; doğrulanmış öğrenci eylemi, sayfa aralığı ve kanıt yapısı korunur.", "s.64 gözlem formu süreç kanıtıdır; s.73 3-2-1 çıkış kartı bölüm sonu yansıtma kanıtıdır.", "Öğrencinin medya içeriğine ilişkin çıkarımı görsel/işitsel kanıtla gerekçelendirilir."],
+  "provenance": {"source_ids": ["official_textbook_pdf", "textbook_map", "lesson_plan_set", "theme_alignment"], "source_locators": ["basılı s.59-73 / PDF s.60-74", "T1_ACT_13-16"], "content_class": "MIXED"}
+}

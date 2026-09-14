@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.1.0",
+  "document_type": "TYMM_TEACHER_GUIDE_SECTION",
+  "course_id": "TDE_11",
+  "theme_id": "TEMA_01",
+  "section_id": "T1_GUIDE_SEC_00_TEMA_ACILIS",
+  "title": "Tema Açılışı / Temaya Başlarken",
+  "section_type": "THEME_OPENING",
+  "printed_page_range": "12-14",
+  "content_status": "VERIFIED",
+  "outcome_refs": [],
+  "activity_refs": [],
+  "lesson_plan_refs": [],
+  "guide_units": [
+    {
+      "unit_id": "T1_GUIDE_U00_THEME_OPEN",
+      "title": "Tema odağı ve Temaya Başlarken",
+      "printed_page_range": "12-14",
+      "activity_refs": [],
+      "outcome_refs": [],
+      "content_status": "VERIFIED",
+      "purpose": "Kitabın tema açılışındaki iletişim odağını; millî kimlik, kültürel aktarım, edebî gerçeklik ve iletişim becerileriyle ilişkilendirmek.",
+      "items": [
+        {
+          "item_id": "T1_G00_P12_13_TEACHER_FOCUS",
+          "printed_page_range": "12-13",
+          "label": "Tema odağı",
+          "item_type": "TEACHER_NOTE",
+          "expected_answer": null,
+          "acceptance_criteria": [],
+          "teacher_guidance": ["Tema boyunca öğrencinin iletişimde gönderen, alıcı, amaç, bağlam, araç ve dil tercihini izlemesini sağla.", "Bu yönlendirme öğretmen rehberi zenginleştirmesidir; ders kitabındaki ayrı bir öğrenci sorusu olarak sunma."],
+          "common_misconceptions": [],
+          "assessment_evidence": ["Tema başında öğrencinin iletişim kavramlarına ilişkin kısa ön bilgi kaydı."],
+          "differentiation": {"support": ["İletişim ögelerini görsel bir şemayla destekle."], "enrichment": ["Aynı iletinin hedef kitle veya iletişim aracı değiştiğinde nasıl değişeceğini tartıştır."]},
+          "provenance": {"source_ids": ["official_textbook_pdf", "legacy_teacher_guide"], "source_locators": ["basılı s.12-13 / PDF s.13-14"], "content_class": "PEDAGOGICAL_ENRICHMENT", "note": "Kitap tema açılışı esas alınmış, öğretmen kullanımına yönelik izleme çerçevesi eklenmiştir."}
+        },
+        {
+          "item_id": "T1_G00_P14_FRAME",
+          "printed_page_range": "14",
+          "label": "Millî kimlik ve kültürel aktarım çerçevesi",
+          "item_type": "REFERENCE",
+          "expected_answer": "Edebiyat; toplumun dilini, ortak değerlerini, tarihî ve kültürel birikimini eserler aracılığıyla yaşatarak millî kimliğin oluşmasına ve kültürel hafızanın sonraki kuşaklara aktarılmasına katkıda bulunur.",
+          "acceptance_criteria": ["Edebiyatı dil, ortak değer veya kültürel hafıza ile ilişkilendirir.", "Kültürel aktarımın kuşaklar arası yönünü açıklar."],
+          "teacher_guidance": ["Sayfa 14'teki iki soruyu bu üst amaçtan koparmadan ele al."],
+          "common_misconceptions": ["Edebiyatın kültür aktarımını yalnız tarihî bilgi vermek olarak görmek."],
+          "assessment_evidence": ["Edebiyat–millî kimlik–kültürel aktarım ilişkisini kuran kısa sözlü/yazılı açıklama."],
+          "differentiation": {"support": ["Dil–değer–gelenek–hafıza kavramlarını ipucu olarak ver."], "enrichment": ["Bir edebî eserin hangi kültürel unsurları geleceğe taşıyabileceğini örneklet."]},
+          "provenance": {"source_ids": ["official_textbook_pdf"], "source_locators": ["basılı s.14 / PDF s.15 — etkinliğin üst yönergesi"], "content_class": "OFFICIAL_TEXTBOOK"}
+        },
+        {
+          "item_id": "T1_G00_P14_Q01",
+          "printed_page_range": "14",
+          "label": "Edebî eserlerde gerçek hayatın yansıtılması",
+          "item_type": "QUESTION",
+          "expected_answer": "Edebî eser gerçek yaşamdan beslenir fakat hayatı birebir kopyalamaz; sanatçı kişi, olay, mekân ve toplumsal durumları seçer, yorumlar ve hayal gücüyle kurmaca bir yapı içinde yeniden düzenler.",
+          "acceptance_criteria": ["Gerçek yaşamdan yararlanma ile kurmaca dönüşümü ayırır.", "Sanatçının seçme/yorumlama/hayal gücü rolünden en az birini açıklar."],
+          "teacher_guidance": ["Öğrenciden 'gerçeklikten yararlanır ama gerçekliğin aynısı değildir' ilişkisini gerekçelendirmesini iste."],
+          "common_misconceptions": ["Edebî eseri yaşanmış olayın birebir kaydı saymak."],
+          "assessment_evidence": ["Gerçek unsur + sanatsal dönüşüm ilişkisini kuran gerekçeli cevap."],
+          "differentiation": {"support": ["Gerçek olay / edebî dönüşüm şeklinde iki sütunlu örnek kullan."], "enrichment": ["Aynı gerçek olayın iki farklı anlatıcıyla nasıl farklılaşabileceğini tartıştır."]},
+          "provenance": {"source_ids": ["official_textbook_pdf", "legacy_teacher_guide"], "source_locators": ["basılı s.14 / PDF s.15 — soru 1"], "content_class": "MIXED", "note": "Soru kitabın kendisinden; beklenen cevap öğretmen rehberi için örneklenmiştir."}
+        },
+        {
+          "item_id": "T1_G00_P14_Q02",
+          "printed_page_range": "14",
+          "label": "Edebî dil, sosyal bilimler ve günlük iletişim",
+          "item_type": "QUESTION",
+          "expected_answer": "Edebî metinlerin zengin dili söz varlığını ve düşünceyi ifade etme gücünü geliştirir; tarih, sosyoloji, psikoloji ve felsefe gibi alanlarla ilişkili unsurlar insanı ve toplumu farklı yönlerden anlamaya yardım eder. Bu birikim günlük iletişimde dinleme, empati, doğru kelime seçimi ve etkili ifade becerilerini güçlendirebilir.",
+          "acceptance_criteria": ["Dil/söz varlığı ile ifade becerisi arasında bağ kurar.", "Sosyal bilim bilgisi ile insanı/toplumu anlama veya empati arasında bağ kurar."],
+          "teacher_guidance": ["Alan adlarını sıralamakla yetinen cevabı yeterli sayma; iletişime etkisini açıklat."],
+          "common_misconceptions": ["Sosyal bilimleri iletişim becerilerinden bağımsız görmek."],
+          "assessment_evidence": ["En az iki gerekçeli dil/insan/toplum–iletişim bağlantısı."],
+          "differentiation": {"support": ["Dil → ifade; insan/toplum bilgisi → empati eşleştirmesini başlangıç ipucu olarak ver."], "enrichment": ["Bir iletişim çatışmasını tarih, sosyoloji veya psikoloji açısından yorumlat."]},
+          "provenance": {"source_ids": ["official_textbook_pdf", "legacy_teacher_guide"], "source_locators": ["basılı s.14 / PDF s.15 — soru 2"], "content_class": "MIXED", "note": "Soru kitabın kendisinden; beklenen cevap öğretmen rehberi için örneklenmiştir."}
+        }
+      ],
+      "provenance": {"source_ids": ["official_textbook_pdf", "legacy_teacher_guide"], "source_locators": ["basılı s.12-14 / PDF s.13-15"], "content_class": "MIXED"}
+    }
+  ],
+  "section_principles": ["Kitabın soru/yönergesi ile öğretmenin ek açıklaması ayrı provenance sınıflarında tutulur.", "Açık uçlu sorularda örnek cevap tek doğru cevap olarak dayatılmaz; metne ve yönergeye uygun, tutarlı ve gerekçeli alternatifler kabul edilir."],
+  "provenance": {"source_ids": ["official_textbook_pdf", "textbook_map", "legacy_teacher_guide"], "source_locators": ["basılı s.12-14 / PDF s.13-15"], "content_class": "MIXED"}
+}

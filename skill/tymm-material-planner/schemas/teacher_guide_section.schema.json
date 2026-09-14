@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tymm.local/schemas/teacher_guide_section.schema.json",
+  "title": "TYMM Teacher Guide Section V1.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "document_type", "course_id", "theme_id", "section_id", "title", "section_type", "printed_page_range", "content_status", "outcome_refs", "activity_refs", "lesson_plan_refs", "guide_units", "section_principles", "provenance"],
+  "$defs": {
+    "status": {"enum": ["PLANNED", "MIGRATION_READY", "IN_PROGRESS", "REVIEW_REQUIRED", "VERIFIED", "BLOCKED"]},
+    "provenance": {
+      "type": "object", "additionalProperties": false,
+      "required": ["source_ids", "source_locators", "content_class"],
+      "properties": {
+        "source_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+        "source_locators": {"type": "array", "items": {"type": "string", "minLength": 1}},
+        "content_class": {"enum": ["OFFICIAL_NORMATIVE", "OFFICIAL_TEXTBOOK", "LESSON_PLAN_IMPLEMENTATION", "PEDAGOGICAL_ENRICHMENT", "MIGRATED_LEGACY_GUIDE", "MIXED"]},
+        "note": {"type": "string"}
+      }
+    },
+    "differentiation": {
+      "type": "object", "additionalProperties": false,
+      "required": ["support", "enrichment"],
+      "properties": {
+        "support": {"type": "array", "items": {"type": "string", "minLength": 1}},
+        "enrichment": {"type": "array", "items": {"type": "string", "minLength": 1}}
+      }
+    },
+    "guide_item": {
+      "type": "object", "additionalProperties": false,
+      "required": ["item_id", "printed_page_range", "label", "item_type", "expected_answer", "acceptance_criteria", "teacher_guidance", "common_misconceptions", "assessment_evidence", "differentiation", "provenance"],
+      "properties": {
+        "item_id": {"type": "string", "minLength": 1},
+        "printed_page_range": {"type": "string", "minLength": 1},
+        "label": {"type": "string", "minLength": 1},
+        "item_type": {"enum": ["QUESTION", "VOCABULARY", "TABLE", "PROCESS", "TEACHER_NOTE", "ASSESSMENT", "PERFORMANCE_TASK", "REFERENCE"]},
+        "expected_answer": {"type": ["string", "array", "object", "null"]},
+        "acceptance_criteria": {"type": "array", "items": {"type": "string", "minLength": 1}},
+        "teacher_guidance": {"type": "array", "items": {"type": "string", "minLength": 1}},
+        "common_misconceptions": {"type": "array", "items": {"type": "string", "minLength": 1}},
+        "assessment_evidence": {"type": "array", "items": {"type": "string", "minLength": 1}},
+        "differentiation": {"$ref": "#/$defs/differentiation"},
+        "provenance": {"$ref": "#/$defs/provenance"}
+      }
+    },
+    "guide_unit": {
+      "type": "object", "additionalProperties": false,
+      "required": ["unit_id", "title", "printed_page_range", "activity_refs", "outcome_refs", "content_status", "purpose", "items", "provenance"],
+      "properties": {
+        "unit_id": {"type": "string", "minLength": 1},
+        "title": {"type": "string", "minLength": 1},
+        "printed_page_range": {"type": "string", "minLength": 1},
+        "activity_refs": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+        "outcome_refs": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+        "content_status": {"$ref": "#/$defs/status"},
+        "purpose": {"type": "string"},
+        "items": {"type": "array", "items": {"$ref": "#/$defs/guide_item"}},
+        "provenance": {"$ref": "#/$defs/provenance"}
+      }
+    }
+  },
+  "properties": {
+    "schema_version": {"const": "1.1.0"},
+    "document_type": {"const": "TYMM_TEACHER_GUIDE_SECTION"},
+    "course_id": {"type": "string", "minLength": 1},
+    "theme_id": {"type": "string", "minLength": 1},
+    "section_id": {"type": "string", "minLength": 1},
+    "title": {"type": "string", "minLength": 1},
+    "section_type": {"enum": ["THEME_OPENING", "READING", "SPEAKING", "LISTENING_VIEWING", "WRITING", "THEME_ASSESSMENT"]},
+    "printed_page_range": {"type": "string", "minLength": 1},
+    "content_status": {"$ref": "#/$defs/status"},
+    "outcome_refs": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "activity_refs": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "lesson_plan_refs": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "guide_units": {"type": "array", "items": {"$ref": "#/$defs/guide_unit"}},
+    "section_principles": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "provenance": {"$ref": "#/$defs/provenance"}
+  }
+}
