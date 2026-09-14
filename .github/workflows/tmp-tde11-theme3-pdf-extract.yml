@@ -1,0 +1,42 @@
+name: TMP TDE11 Theme 3 PDF Extract
+
+on:
+  push:
+    branches:
+      - feat/tde11-theme3-teacher-guide-json
+    paths:
+      - .github/workflows/tmp-tde11-theme3-pdf-extract.yml
+  workflow_dispatch:
+
+jobs:
+  pages-160-178:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extract printed pages 160-178
+        run: |
+          pdftotext -f 161 -l 179 -layout 'courses/TDE_11/source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf' -
+
+  pages-179-197:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extract printed pages 179-197
+        run: |
+          pdftotext -f 180 -l 198 -layout 'courses/TDE_11/source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf' -
+
+  pages-198-216:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extract printed pages 198-216
+        run: |
+          pdftotext -f 199 -l 217 -layout 'courses/TDE_11/source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf' -
+
+  pages-217-235:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extract printed pages 217-235
+        run: |
+          pdftotext -f 218 -l 236 -layout 'courses/TDE_11/source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf' -
