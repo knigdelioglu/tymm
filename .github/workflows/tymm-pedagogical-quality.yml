@@ -1,0 +1,41 @@
+name: TYMM Pedagogical Quality
+
+on:
+  push:
+    paths:
+      - 'courses/TDE_11/generated/lesson_plans/**'
+      - 'courses/TDE_11/planning/pedagogical_*.json'
+      - 'skill/tymm-material-planner/scripts/validate_pedagogical_diversity.py'
+      - 'skill/tymm-material-planner/schemas/pedagogical_package_design.schema.json'
+      - 'skill/tymm-material-planner/tests/test_pedagogical_diversity.py'
+      - '.github/workflows/tymm-pedagogical-quality.yml'
+  pull_request:
+    paths:
+      - 'courses/TDE_11/generated/lesson_plans/**'
+      - 'courses/TDE_11/planning/pedagogical_*.json'
+      - 'skill/tymm-material-planner/scripts/validate_pedagogical_diversity.py'
+      - 'skill/tymm-material-planner/schemas/pedagogical_package_design.schema.json'
+      - 'skill/tymm-material-planner/tests/test_pedagogical_diversity.py'
+      - '.github/workflows/tymm-pedagogical-quality.yml'
+
+jobs:
+  pedagogical-quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run pedagogical diversity tests
+        run: python -m unittest skill/tymm-material-planner/tests/test_pedagogical_diversity.py
+      - name: Measure TDE11 pedagogical baseline
+        run: |
+          mkdir -p artifacts
+          python skill/tymm-material-planner/scripts/validate_pedagogical_diversity.py \
+            --knowledge-root courses/TDE_11 \
+            --report artifacts/tde11-pedagogical-quality.json
+      - name: Upload pedagogical quality report
+        uses: actions/upload-artifact@v4
+        with:
+          name: tde11-pedagogical-quality
+          path: artifacts/tde11-pedagogical-quality.json
