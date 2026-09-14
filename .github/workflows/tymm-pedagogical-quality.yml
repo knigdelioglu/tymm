@@ -59,6 +59,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Install full-validator dependency
+        run: python -m pip install jsonschema==4.23.0
       - name: Apply deterministic Theme 1 revision
         run: python skill/tymm-material-planner/scripts/revise_tde11_theme1_pedagogy.py --write
       - name: Prove Theme 1 revision is idempotent
