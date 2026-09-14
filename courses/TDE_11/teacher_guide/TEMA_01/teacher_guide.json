@@ -1,81 +1,25 @@
 {
-  "schema_version": "1.0.0",
-  "document_type": "TYMM_TEACHER_GUIDE_SOURCE",
+  "schema_version": "1.1.0",
+  "document_type": "TYMM_TEACHER_GUIDE_MANIFEST",
   "course_id": "TDE_11",
   "grade": 11,
   "theme_id": "TEMA_01",
-  "title": "1. TEMA: BİR DİYECEĞİM VAR! — Öğretmen Rehberi Kaynak Modeli",
+  "title": "1. TEMA: BİR DİYECEĞİM VAR! — Öğretmen Rehberi",
   "status": "IN_PROGRESS",
   "authority_policy": [
-    {
-      "rank": 1,
-      "source_role": "NORMATIVE_PROGRAM",
-      "rule": "Öğrenme çıktısı ve normatif gerekliliklerde belirleyicidir; alt kaynaklar bunu değiştiremez."
-    },
-    {
-      "rank": 2,
-      "source_role": "OFFICIAL_TEXTBOOK_MAP",
-      "rule": "Sayfa, bölüm, etkinlik, form ve öğrenci görevi kimliklerinde belirleyicidir."
-    },
-    {
-      "rank": 3,
-      "source_role": "PROGRAM_TEXTBOOK_ALIGNMENT",
-      "rule": "Program-kitap çapraz eşleştirmesi ve açık durumlarında doğrulama kaynağıdır."
-    },
-    {
-      "rank": 4,
-      "source_role": "IMPLEMENTATION_PLANS",
-      "rule": "Sınıf içi uygulama önerisidir; program veya kitapla çatışırsa üst kaynak kazanır."
-    },
-    {
-      "rank": 5,
-      "source_role": "LEGACY_TEACHER_GUIDE",
-      "rule": "Pedagojik zenginleştirme ve cevap desteğidir; resmî kaynak gibi sunulmaz."
-    }
+    {"rank": 1, "source_role": "NORMATIVE_PROGRAM", "rule": "Öğrenme çıktısı ve normatif gerekliliklerde belirleyicidir; alt kaynaklar bunu değiştiremez."},
+    {"rank": 2, "source_role": "OFFICIAL_TEXTBOOK_MAP", "rule": "Sayfa, bölüm, etkinlik, form ve öğrenci görevi kimliklerinde belirleyicidir."},
+    {"rank": 3, "source_role": "PROGRAM_TEXTBOOK_ALIGNMENT", "rule": "Program-kitap çapraz eşleştirmesi ve açık durumlarında doğrulama kaynağıdır."},
+    {"rank": 4, "source_role": "IMPLEMENTATION_PLANS", "rule": "Sınıf içi uygulama önerisidir; program veya kitapla çatışırsa üst kaynak kazanır."},
+    {"rank": 5, "source_role": "LEGACY_TEACHER_GUIDE", "rule": "Pedagojik zenginleştirme ve cevap desteğidir; resmî kaynak gibi sunulmaz."}
   ],
   "source_manifest": [
-    {
-      "source_id": "curriculum_normative",
-      "role": "NORMATIVE_PROGRAM",
-      "path": "courses/TDE_11/curriculum_normative_text.json",
-      "authority_rank": 1,
-      "usage": "Öğrenme çıktıları, süreç bileşenleri, değerler, eğilimler ve ölçme-değerlendirme için normatif kaynak."
-    },
-    {
-      "source_id": "curriculum_map",
-      "role": "PROGRAM_INDEX",
-      "path": "courses/TDE_11/curriculum_map.json",
-      "authority_rank": 1,
-      "usage": "Tema ve öğrenme çıktısı indeksleme/kimlik çözümleme."
-    },
-    {
-      "source_id": "textbook_map",
-      "role": "OFFICIAL_TEXTBOOK_MAP",
-      "path": "courses/TDE_11/textbook_map.json",
-      "authority_rank": 2,
-      "usage": "Basılı sayfa, bölüm, etkinlik, form ve öğrenci görevi konumlandırması."
-    },
-    {
-      "source_id": "theme_alignment",
-      "role": "PROGRAM_TEXTBOOK_ALIGNMENT",
-      "path": "courses/TDE_11/themes/tema_01/alignment.json",
-      "authority_rank": 3,
-      "usage": "Program-kitap eşleşmesi, kapsam ve açıkların doğrulanması."
-    },
-    {
-      "source_id": "lesson_plan_set",
-      "role": "IMPLEMENTATION_PLANS",
-      "path": "courses/TDE_11/generated/lesson_plans/TEMA_01",
-      "authority_rank": 4,
-      "usage": "Ders içi akış, öğretmen/öğrenci eylemleri ve kanıt toplama yolları."
-    },
-    {
-      "source_id": "legacy_teacher_guide",
-      "role": "LEGACY_TEACHER_GUIDE",
-      "path": "library:tde11_teacher_epub.md",
-      "authority_rank": 5,
-      "usage": "Basılı 12-52 arası örnek/beklenen cevap, kabul ölçütü ve öğretmen yönlendirmelerinin kayıpsız semantik göçü."
-    }
+    {"source_id": "curriculum_normative", "role": "NORMATIVE_PROGRAM", "path": "courses/TDE_11/curriculum_normative_text.json", "authority_rank": 1, "usage": "Öğrenme çıktıları, süreç bileşenleri, değerler, eğilimler ve ölçme-değerlendirme için normatif kaynak."},
+    {"source_id": "curriculum_map", "role": "PROGRAM_INDEX", "path": "courses/TDE_11/curriculum_map.json", "authority_rank": 1, "usage": "Tema ve öğrenme çıktısı indeksleme/kimlik çözümleme."},
+    {"source_id": "textbook_map", "role": "OFFICIAL_TEXTBOOK_MAP", "path": "courses/TDE_11/textbook_map.json", "authority_rank": 2, "usage": "Basılı sayfa, bölüm, etkinlik, form ve öğrenci görevi konumlandırması."},
+    {"source_id": "theme_alignment", "role": "PROGRAM_TEXTBOOK_ALIGNMENT", "path": "courses/TDE_11/themes/tema_01/alignment.json", "authority_rank": 3, "usage": "Program-kitap eşleşmesi, kapsam ve açıkların doğrulanması."},
+    {"source_id": "lesson_plan_set", "role": "IMPLEMENTATION_PLANS", "path": "courses/TDE_11/generated/lesson_plans/TEMA_01", "authority_rank": 4, "usage": "Ders içi akış, öğretmen/öğrenci eylemleri ve kanıt toplama yolları."},
+    {"source_id": "legacy_teacher_guide", "role": "LEGACY_TEACHER_GUIDE", "path": "library:tde11_teacher_epub.md", "authority_rank": 5, "usage": "Basılı 12-52 arası örnek/beklenen cevap, kabul ölçütü ve öğretmen yönlendirmelerinin semantik göç kaynağı."}
   ],
   "theme_overview": {
     "printed_page_range": "12-83",
@@ -87,62 +31,18 @@
     "target_guide_coverage": "12-83",
     "target_section_count": 7
   },
+  "content_storage": {
+    "entrypoint_policy": "MANIFEST_PLUS_SECTION_FILES",
+    "section_directory": "courses/TDE_11/teacher_guide/TEMA_01/sections",
+    "section_schema_path": "skill/tymm-material-planner/schemas/teacher_guide_section.schema.json",
+    "render_order_source": "sections_array_order"
+  },
   "production_plan": [
-    {
-      "phase": 1,
-      "name": "Kaynak ve şema dondurma",
-      "status": "IN_PROGRESS",
-      "deliverables": [
-        "teacher_guide.schema.json",
-        "Tema 1 source manifest",
-        "Kaynak otorite politikası",
-        "Çapraz-kaynak uyuşmazlık kaydı"
-      ]
-    },
-    {
-      "phase": 2,
-      "name": "Mevcut rehberi JSON'a semantik göç",
-      "status": "IN_PROGRESS",
-      "deliverables": [
-        "Basılı s.12-52 içeriğinin soru/cevap/ölçüt/yönlendirme olarak yapılandırılması",
-        "Her öğretmen içeriği birimi için provenance"
-      ]
-    },
-    {
-      "phase": 3,
-      "name": "Eksik Tema 1 bölümlerini tamamlama",
-      "status": "PLANNED",
-      "deliverables": [
-        "s.53-58 konuşma/drama",
-        "s.59-73 dinleme/izleme",
-        "s.74-78 e-posta yazma",
-        "s.79-83 tema ölçme-değerlendirme"
-      ]
-    },
-    {
-      "phase": 4,
-      "name": "Çapraz-kaynak doğrulama",
-      "status": "PLANNED",
-      "deliverables": [
-        "activity→outcome doğrulaması",
-        "sayfa aralığı doğrulaması",
-        "16 çıktı kapsamı",
-        "43 saat blok toplamı",
-        "kaynak referansı varlık kontrolü",
-        "telif kontrolü"
-      ]
-    },
-    {
-      "phase": 5,
-      "name": "Deterministik yayın",
-      "status": "PLANNED",
-      "deliverables": [
-        "JSON→Markdown",
-        "JSON→EPUB",
-        "JSON→HTML",
-        "İsteğe bağlı JSON→PDF"
-      ]
-    }
+    {"phase": 1, "name": "Kaynak ve şema dondurma", "status": "VERIFIED", "deliverables": ["teacher_guide.schema.json", "teacher_guide_section.schema.json", "Tema 1 source manifest", "Kaynak otorite politikası", "Çapraz-kaynak uyuşmazlık kaydı"]},
+    {"phase": 2, "name": "Mevcut rehberi JSON'a semantik göç", "status": "IN_PROGRESS", "deliverables": ["Basılı s.12-52 içeriğini bölüm JSON'larına taşıma", "Her öğretmen içeriği birimi için provenance", "Soru/cevap/ölçüt/yönlendirme ayrımını koruma"]},
+    {"phase": 3, "name": "Eksik Tema 1 bölümlerini tamamlama", "status": "PLANNED", "deliverables": ["s.53-58 konuşma/drama", "s.59-73 dinleme/izleme", "s.74-78 e-posta yazma", "s.79-83 tema ölçme-değerlendirme"]},
+    {"phase": 4, "name": "Çapraz-kaynak doğrulama", "status": "PLANNED", "deliverables": ["activity→outcome doğrulaması", "sayfa aralığı doğrulaması", "16 çıktı kapsamı", "43 saat blok toplamı", "content_ref ve kaynak varlık kontrolü", "telif kontrolü"]},
+    {"phase": 5, "name": "Deterministik yayın", "status": "PLANNED", "deliverables": ["Manifest+section JSON→Markdown", "Manifest+section JSON→EPUB", "Manifest+section JSON→HTML", "İsteğe bağlı PDF"]}
   ],
   "sections": [
     {
@@ -155,104 +55,8 @@
       "outcome_refs": [],
       "activity_refs": [],
       "lesson_plan_refs": [],
-      "content_status": "IN_PROGRESS",
-      "guide_units": [
-        {
-          "unit_id": "T1_GUIDE_U00_THEME_OPEN",
-          "title": "Tema odağı ve Temaya Başlarken",
-          "printed_page_range": "12-14",
-          "activity_refs": [],
-          "outcome_refs": [],
-          "content_status": "IN_PROGRESS",
-          "purpose": "İletişim temasını görünür kılmak; edebî gerçeklik ve disiplinler arası insan/toplum bilgisini iletişim becerisiyle ilişkilendirmek.",
-          "items": [
-            {
-              "item_id": "T1_G00_P12_13_TEACHER_FOCUS",
-              "label": "Tema odağı",
-              "item_type": "TEACHER_NOTE",
-              "expected_answer": null,
-              "acceptance_criteria": [],
-              "teacher_guidance": [
-                "Temanın merkezinde iletişim olduğunu sezdir; öğrencinin tema boyunca kim, kime, hangi dille, hangi araçla ve hangi amaçla sesleniyor sorularını izlemesini sağla."
-              ],
-              "common_misconceptions": [],
-              "assessment_evidence": [
-                "Öğrencinin tema başında iletişim bileşenlerine ilişkin kısa ön bilgi notu."
-              ],
-              "differentiation": {
-                "support": ["Soruları görsel bir iletişim şemasıyla destekle."],
-                "enrichment": ["Aynı mesajın farklı araç ve hedef kitlelerde nasıl değişeceğini örneklendir."]
-              },
-              "provenance": {
-                "source_ids": ["legacy_teacher_guide"],
-                "source_locators": ["basılı s.12-13"],
-                "content_class": "MIGRATED_LEGACY_GUIDE",
-                "note": "Öğretmen yönlendirmesi; ders kitabı metni yeniden üretilmez."
-              }
-            },
-            {
-              "item_id": "T1_G00_P14_Q01",
-              "label": "Edebî eser ve gerçeklik",
-              "item_type": "QUESTION",
-              "expected_answer": "Edebî eser gerçek hayatın birebir kopyası değildir; yazar gerçeklikten seçtiği unsurları bakış açısı ve hayal gücüyle kurmaca bir yapı içinde yeniden düzenler.",
-              "acceptance_criteria": [
-                "Gerçeklikten yararlanma ile kurmaca dönüştürme arasındaki ayrımı kurar."
-              ],
-              "teacher_guidance": [
-                "Roman veya hikâyenin tutanak olmadığını vurgula; gerçek hayattan alınan bir unsurun sanatsal olarak nasıl dönüştürülebileceğine örnek iste."
-              ],
-              "common_misconceptions": [
-                "Edebî eseri yaşanmış olayın birebir kaydı saymak."
-              ],
-              "assessment_evidence": [
-                "Gerçek unsur + sanatsal dönüşüm ilişkisini kuran kısa gerekçe."
-              ],
-              "differentiation": {
-                "support": ["Gerçek olay / kurmaca düzenleme için iki sütunlu örnek ver."],
-                "enrichment": ["Aynı gerçek olayın iki farklı anlatıcıyla nasıl değişebileceğini tartıştır."]
-              },
-              "provenance": {
-                "source_ids": ["legacy_teacher_guide"],
-                "source_locators": ["basılı s.14"],
-                "content_class": "MIGRATED_LEGACY_GUIDE"
-              }
-            },
-            {
-              "item_id": "T1_G00_P14_Q02",
-              "label": "Edebî dil, sosyal bilimler ve iletişim",
-              "item_type": "QUESTION",
-              "expected_answer": "Edebî metinler söz varlığını, anlatma ve yorumlama gücünü; tarih, sosyoloji ve psikoloji gibi alanlar insanı ve toplumu anlama becerisini geliştirir. Bu birikim empatiyi, doğru anlamayı ve etkili ifadeyi destekler.",
-              "acceptance_criteria": [
-                "Dil/söz varlığı ile ifade arasında bağ kurar.",
-                "İnsan/toplum bilgisi ile anlama veya empati arasında bağ kurar."
-              ],
-              "teacher_guidance": [
-                "Cevabı yalnız alan adlarını sıralamaya indirgeme; öğrenciden iletişime etkisini açıklamasını iste."
-              ],
-              "common_misconceptions": [
-                "Sosyal bilimleri iletişimden bağımsız bilgi alanları olarak düşünmek."
-              ],
-              "assessment_evidence": [
-                "En az iki gerekçeli disiplin-iletişim bağlantısı."
-              ],
-              "differentiation": {
-                "support": ["Dil → ifade ve insan/toplum bilgisi → empati eşleştirmesi ver."],
-                "enrichment": ["Bir iletişim çatışmasını tarih/sosyoloji/psikoloji perspektiflerinden ayrı ayrı yorumlat."]
-              },
-              "provenance": {
-                "source_ids": ["legacy_teacher_guide"],
-                "source_locators": ["basılı s.14"],
-                "content_class": "MIGRATED_LEGACY_GUIDE"
-              }
-            }
-          ],
-          "provenance": {
-            "source_ids": ["legacy_teacher_guide"],
-            "source_locators": ["basılı s.12-14"],
-            "content_class": "MIGRATED_LEGACY_GUIDE"
-          }
-        }
-      ]
+      "content_status": "MIGRATION_READY",
+      "content_ref": "courses/TDE_11/teacher_guide/TEMA_01/sections/00_tema_acilisi.json"
     },
     {
       "section_id": "T1_SEC_01_OKUMA_KARAGOZ",
@@ -273,100 +77,8 @@
         "courses/TDE_11/generated/lesson_plans/TEMA_01/BLOCK_T1_01_OKUMA/BLOCK_T1_01_OKUMA_P07.json",
         "courses/TDE_11/generated/lesson_plans/TEMA_01/BLOCK_T1_01_OKUMA/BLOCK_T1_01_OKUMA_P08.json"
       ],
-      "content_status": "IN_PROGRESS",
-      "guide_units": [
-        {
-          "unit_id": "T1_GUIDE_U01_OKUMA_YONETIM",
-          "title": "Okumayı Yönetebilme",
-          "printed_page_range": "16-24",
-          "activity_refs": ["T1_ACT_01_OKUMA_YONETIM"],
-          "outcome_refs": ["TDE2.1"],
-          "content_status": "IN_PROGRESS",
-          "purpose": "Okuma amacı/stratejisi, ön bilgi ve tahminlerin görünür öğrenci kanıtına dönüştürülmesi.",
-          "items": [
-            {
-              "item_id": "T1_G01_P18_24_READING_STRATEGY",
-              "label": "Yazıcı metni için iki okumalı strateji",
-              "item_type": "PROCESS",
-              "expected_answer": null,
-              "acceptance_criteria": [
-                "İlk okumada olay akışı izlenir.",
-                "İkinci okumada yanlış anlama, söz oyunu, ağız/konuşma biçimi ve karaktere özgü kelime seçimi için metinsel kanıt toplanır."
-              ],
-              "teacher_guidance": [
-                "Tahmini doğru/yanlış diye puanlama; okuma sonunda öğrencinin tahmininin hangi noktada değiştiğini gerekçelendirmesini iste.",
-                "Rollere göre okumada karakterlerin sosyal/dil özelliklerini ses tonuyla ilişkilendir."
-              ],
-              "common_misconceptions": [
-                "Tahmini sonuç doğruluğu üzerinden değerlendirmek.",
-                "Ağız veya aksan farklılığını üstünlük/aşağılık göstergesi olarak yorumlamak."
-              ],
-              "assessment_evidence": [
-                "İlk ve ikinci okuma notları; en az bir metinsel kanıtla gerekçelendirilmiş tahmin revizyonu."
-              ],
-              "differentiation": {
-                "support": ["Olay akışı için 3-5 duraklı şema ver."],
-                "enrichment": ["Yanlış anlama ve söz oyununun mizah üretme mekanizmasını açıklat."]
-              },
-              "provenance": {
-                "source_ids": ["legacy_teacher_guide", "textbook_map"],
-                "source_locators": ["basılı s.18-24", "T1_ACT_01_OKUMA_YONETIM"],
-                "content_class": "MIXED"
-              }
-            }
-          ],
-          "provenance": {
-            "source_ids": ["legacy_teacher_guide", "textbook_map"],
-            "source_locators": ["basılı s.16-24", "T1_ACT_01_OKUMA_YONETIM"],
-            "content_class": "MIXED"
-          }
-        },
-        {
-          "unit_id": "T1_GUIDE_U02_OKUMA_ANLAM",
-          "title": "Anlam Oluşturabilme",
-          "printed_page_range": "25-31",
-          "activity_refs": ["T1_ACT_02_OKUMA_ICERIK_ANLAM"],
-          "outcome_refs": ["TDE2.2"],
-          "content_status": "MIGRATION_READY",
-          "purpose": "Söz varlığı, konu/tema/ileti ve bağlam üzerinden anlam oluşturma.",
-          "items": [],
-          "provenance": {
-            "source_ids": ["legacy_teacher_guide", "textbook_map"],
-            "source_locators": ["basılı s.25-31", "T1_ACT_02_OKUMA_ICERIK_ANLAM"],
-            "content_class": "MIXED"
-          }
-        },
-        {
-          "unit_id": "T1_GUIDE_U03_OKUMA_COZUMLEME",
-          "title": "Çözümleyebilme",
-          "printed_page_range": "32-34",
-          "activity_refs": ["T1_ACT_03_OKUMA_UYGULAMA_COZUMLEME"],
-          "outcome_refs": ["TDE2.3"],
-          "content_status": "MIGRATION_READY",
-          "purpose": "Yapı, tür, dil-anlatım ve bağlam çözümlemesi.",
-          "items": [],
-          "provenance": {
-            "source_ids": ["legacy_teacher_guide", "textbook_map"],
-            "source_locators": ["basılı s.32-34", "T1_ACT_03_OKUMA_UYGULAMA_COZUMLEME"],
-            "content_class": "MIXED"
-          }
-        },
-        {
-          "unit_id": "T1_GUIDE_U04_OKUMA_DEGERLENDIRME",
-          "title": "Süreci Değerlendirebilme",
-          "printed_page_range": "35",
-          "activity_refs": ["T1_ACT_04_OKUMA_DEGERLENDIRME"],
-          "outcome_refs": ["TDE2.4"],
-          "content_status": "MIGRATION_READY",
-          "purpose": "Okuma sürecini ve metne ilişkin yargıları ölçütlere dayalı yansıtma.",
-          "items": [],
-          "provenance": {
-            "source_ids": ["legacy_teacher_guide", "textbook_map"],
-            "source_locators": ["basılı s.35", "T1_ACT_04_OKUMA_DEGERLENDIRME"],
-            "content_class": "MIXED"
-          }
-        }
-      ]
+      "content_status": "MIGRATION_READY",
+      "content_ref": "courses/TDE_11/teacher_guide/TEMA_01/sections/01_okuma_karagoz.json"
     },
     {
       "section_id": "T1_SEC_02_OKUMA_MEKTUP",
@@ -388,68 +100,7 @@
         "courses/TDE_11/generated/lesson_plans/TEMA_01/BLOCK_T1_01_OKUMA/BLOCK_T1_01_OKUMA_P08.json"
       ],
       "content_status": "MIGRATION_READY",
-      "guide_units": [
-        {
-          "unit_id": "T1_GUIDE_U05_OKUMA_YONETIM",
-          "title": "Okumayı Yönetebilme",
-          "printed_page_range": "37-38",
-          "activity_refs": ["T1_ACT_05_OKUMA_YONETIM"],
-          "outcome_refs": ["TDE2.1"],
-          "content_status": "MIGRATION_READY",
-          "purpose": "Mektup/dilekçe okuma amacı, stratejisi, ön bilgi ve tahminleri.",
-          "items": [],
-          "provenance": {
-            "source_ids": ["legacy_teacher_guide", "textbook_map"],
-            "source_locators": ["basılı s.37-38", "T1_ACT_05_OKUMA_YONETIM"],
-            "content_class": "MIXED"
-          }
-        },
-        {
-          "unit_id": "T1_GUIDE_U06_OKUMA_ANLAM",
-          "title": "Anlam Oluşturabilme",
-          "printed_page_range": "39-43",
-          "activity_refs": ["T1_ACT_06_OKUMA_ICERIK_ANLAM"],
-          "outcome_refs": ["TDE2.2"],
-          "content_status": "MIGRATION_READY",
-          "purpose": "Mektubun söz varlığı, konu, ana düşünce, tür ve bağlamını anlamlandırma.",
-          "items": [],
-          "provenance": {
-            "source_ids": ["legacy_teacher_guide", "textbook_map"],
-            "source_locators": ["basılı s.39-43", "T1_ACT_06_OKUMA_ICERIK_ANLAM"],
-            "content_class": "MIXED"
-          }
-        },
-        {
-          "unit_id": "T1_GUIDE_U07_OKUMA_COZUMLEME",
-          "title": "Çözümleyebilme",
-          "printed_page_range": "44-45",
-          "activity_refs": ["T1_ACT_07_OKUMA_UYGULAMA_COZUMLEME"],
-          "outcome_refs": ["TDE2.3"],
-          "content_status": "MIGRATION_READY",
-          "purpose": "Mektup/dilekçe yapı, tür, dil-anlatım ve disiplinler arası bağlam çözümlemesi.",
-          "items": [],
-          "provenance": {
-            "source_ids": ["legacy_teacher_guide", "textbook_map"],
-            "source_locators": ["basılı s.44-45", "T1_ACT_07_OKUMA_UYGULAMA_COZUMLEME"],
-            "content_class": "MIXED"
-          }
-        },
-        {
-          "unit_id": "T1_GUIDE_U08_OKUMA_DEGERLENDIRME",
-          "title": "Süreci Değerlendirebilme",
-          "printed_page_range": "46-52",
-          "activity_refs": ["T1_ACT_08_OKUMA_DEGERLENDIRME"],
-          "outcome_refs": ["TDE2.4"],
-          "content_status": "MIGRATION_READY",
-          "purpose": "Mektup/dilekçe okuma sürecini ve iletişim boyutunu değerlendirme.",
-          "items": [],
-          "provenance": {
-            "source_ids": ["legacy_teacher_guide", "textbook_map"],
-            "source_locators": ["basılı s.46-52", "T1_ACT_08_OKUMA_DEGERLENDIRME"],
-            "content_class": "MIXED"
-          }
-        }
-      ]
+      "content_ref": "courses/TDE_11/teacher_guide/TEMA_01/sections/02_okuma_mektup_dilekce.json"
     },
     {
       "section_id": "T1_SEC_03_KONUSMA_DRAMA",
@@ -468,7 +119,7 @@
         "courses/TDE_11/generated/lesson_plans/TEMA_01/BLOCK_T1_02_KONUSMA/BLOCK_T1_02_KONUSMA_P05.json"
       ],
       "content_status": "PLANNED",
-      "guide_units": []
+      "content_ref": "courses/TDE_11/teacher_guide/TEMA_01/sections/03_konusma_drama.json"
     },
     {
       "section_id": "T1_SEC_04_DINLEME_ILETISIM",
@@ -486,7 +137,7 @@
         "courses/TDE_11/generated/lesson_plans/TEMA_01/BLOCK_T1_03_DINLEME/BLOCK_T1_03_DINLEME_P04.json"
       ],
       "content_status": "PLANNED",
-      "guide_units": []
+      "content_ref": "courses/TDE_11/teacher_guide/TEMA_01/sections/04_dinleme_izleme.json"
     },
     {
       "section_id": "T1_SEC_05_YAZMA_EPOSTA",
@@ -505,7 +156,7 @@
         "courses/TDE_11/generated/lesson_plans/TEMA_01/BLOCK_T1_04_YAZMA/BLOCK_T1_04_YAZMA_P05.json"
       ],
       "content_status": "PLANNED",
-      "guide_units": []
+      "content_ref": "courses/TDE_11/teacher_guide/TEMA_01/sections/05_yazma_eposta.json"
     },
     {
       "section_id": "T1_SEC_06_TEMA_OLCME",
@@ -524,7 +175,7 @@
         "courses/TDE_11/generated/lesson_plans/TEMA_01/BLOCK_T1_04_YAZMA/BLOCK_T1_04_YAZMA_P05.json"
       ],
       "content_status": "PLANNED",
-      "guide_units": []
+      "content_ref": "courses/TDE_11/teacher_guide/TEMA_01/sections/06_tema_olcme.json"
     }
   ],
   "known_issues": [
@@ -533,11 +184,7 @@
       "severity": "ERROR",
       "status": "OPEN",
       "description": "BLOCK_T1_01_OKUMA_P05, T1_ACT_05_OKUMA_YONETIM etkinliğini TDE2.3 ile ilişkilendiriyor; textbook_map ve alignment bu etkinliği TDE2.1 ile eşliyor.",
-      "source_refs": [
-        "courses/TDE_11/generated/lesson_plans/TEMA_01/BLOCK_T1_01_OKUMA/BLOCK_T1_01_OKUMA_P05.json",
-        "courses/TDE_11/textbook_map.json",
-        "courses/TDE_11/themes/tema_01/alignment.json"
-      ],
+      "source_refs": ["courses/TDE_11/generated/lesson_plans/TEMA_01/BLOCK_T1_01_OKUMA/BLOCK_T1_01_OKUMA_P05.json", "courses/TDE_11/textbook_map.json", "courses/TDE_11/themes/tema_01/alignment.json"],
       "resolution_rule": "Öğretmen rehberinde TDE2.1 kullanılacak; ders planı ayrı düzeltme gerektiren çelişki olarak tutulacak."
     },
     {
@@ -546,7 +193,7 @@
       "status": "OPEN",
       "description": "TDE3.4 için resmî QR bağlantılı dereceli puanlama anahtarının ölçüt×düzey yapısı yerel resmî PDF'de görünür değil.",
       "source_refs": ["courses/TDE_11/themes/tema_01/alignment.json"],
-      "resolution_rule": "Resmî yapı doğrulanana kadar yeni resmî rubrik uydurulmayacak; öğretmen önerisi varsa pedagojik zenginleştirme olarak etiketlenecek."
+      "resolution_rule": "Görülmeyen resmî rubrik ölçütleri uydurulmayacak; görünür görev ve öz değerlendirme kanıtları kullanılacak."
     },
     {
       "issue_id": "T1_ISSUE_TDE4_4_EXTERNAL_RUBRIC",
@@ -554,24 +201,11 @@
       "status": "OPEN",
       "description": "TDE4.4 için resmî QR bağlantılı dereceli puanlama anahtarının ölçüt×düzey yapısı yerel resmî PDF'de görünür değil.",
       "source_refs": ["courses/TDE_11/themes/tema_01/alignment.json"],
-      "resolution_rule": "Resmî yapı doğrulanana kadar yeni resmî rubrik uydurulmayacak; öğretmen önerisi varsa pedagojik zenginleştirme olarak etiketlenecek."
+      "resolution_rule": "Görülmeyen resmî rubrik ölçütleri uydurulmayacak; görünür görev ve öz değerlendirme kanıtları kullanılacak."
     }
   ],
   "validation_contract": {
-    "required_checks": [
-      "JSON_SCHEMA_DRAFT_2020_12",
-      "SOURCE_REF_EXISTS",
-      "ACTIVITY_REF_EXISTS_IN_TEXTBOOK_MAP",
-      "OUTCOME_REF_EXISTS_IN_CURRICULUM",
-      "ACTIVITY_TO_OUTCOME_CROSS_SOURCE_MATCH",
-      "PRINTED_PAGE_RANGE_WITHIN_THEME",
-      "THEME_OUTCOME_COVERAGE_16",
-      "CORE_HOUR_TOTAL_43",
-      "LESSON_PLAN_REF_EXISTS",
-      "PROVENANCE_REQUIRED_FOR_AUTHORED_CONTENT",
-      "COPYRIGHT_NO_LONG_TEXTBOOK_REPRODUCTION",
-      "DERIVED_OUTPUT_PARITY"
-    ],
+    "required_checks": ["JSON_SCHEMA_DRAFT_2020_12", "SECTION_CONTENT_REF_EXISTENCE", "SECTION_SCHEMA_VALIDATION", "SOURCE_REFERENCE_EXISTENCE", "ACTIVITY_OUTCOME_CROSSCHECK", "TEXTBOOK_PAGE_RANGE_CROSSCHECK", "THEME_16_OUTCOME_COVERAGE", "THEME_43_HOUR_TOTAL", "LESSON_PLAN_CONFLICT_SCAN", "COPYRIGHT_NO_LONG_TEXT_REPRODUCTION", "DETERMINISTIC_RENDER_PARITY"],
     "current_status": "NOT_RUN"
   }
 }
