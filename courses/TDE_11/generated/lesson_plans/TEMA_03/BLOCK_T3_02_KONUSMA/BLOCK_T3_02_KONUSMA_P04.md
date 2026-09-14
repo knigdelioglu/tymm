@@ -83,32 +83,32 @@
 
 # Ders akışı
 
-## 1. Ders — Kural Uygulayabilme: kanıt üretme ve geliştirme
+## 1. Ders — Mülakatta Etkili Kullanımlar: Güçlü Örnekleri Ayırma
 
 **Süre:** 1 ders saati  
 **Öğrenme çıktıları:** `TDE3.3`
 
 ### Hedef
 
-Öğrenci, “Kural Uygulayabilme” etkinliğinde planladığı konuşmayı bağlama uygun dil, beden dili, ses, zaman ve mekân kullanımıyla gerçekleştirir; ürettiği kanıtı gerekçelendirerek uygulama ve ilk kanıt sürecini tamamlar.
+Öğrenci, “Kural Uygulayabilme” etkinliğinde planladığı konuşmayı bağlama uygun dil, beden dili, ses, zaman ve mekân kullanımıyla gerçekleştirir. Bu ders saatinin pedagojik odağı: mülakattaki güçlü soru, cevap, dil, beden dili, ses ve zaman kullanımlarını belirleme; somut kanıt: Güçlü mülakat örnekleri ve kısa gözlem notları.
 
 ### Derse giriş
 
-“Kural Uygulayabilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi konuşma davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.
+Edebiyat Atölyesi-1 (Anlatma): Konuşma — Hayalî Mülakat — ders kitabı s.213 üzerinden bu saatin odağı görünür kılınır: Mülakattaki güçlü soru, cevap, dil, beden dili, ses ve zaman kullanımlarını belirleme. Öğrenci önceki/başlangıç kanıtını kısa biçimde önüne alır ve bu saatin sonunda neyin değişmiş veya derinleşmiş olması gerektiğini kendi cümlesiyle belirtir.
 
 ### Öğretmenin yapacakları
 
 1. “Kural Uygulayabilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
-2. Öğrencinin şu görevi yerine getirmesini sağla: Planladığı konuşmayı bağlama uygun dil, beden dili, ses, zaman ve mekân kullanımıyla gerçekleştirir. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
-3. “Canlı sözlü performans/canlandırma ve performans kaydı” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
-4. Ders sırasında kısa kontrol noktaları kullan; öğrencinin yanlış veya eksik stratejiyi kanıt oluşmadan önce fark edip düzeltmesine fırsat ver.
+2. Canonical görevi koru: Planladığı konuşmayı bağlama uygun dil, beden dili, ses, zaman ve mekân kullanımıyla gerçekleştirir.
+3. İlk saatte hedef davranışı gösteren güçlü örnekleri somut performans/ürün kanıtından seçtir.
+4. Bu saate özgü kanıtı topla: Güçlü mülakat örnekleri ve kısa gözlem notları. Yalnız katılımı yeterli kanıt sayma; öğrencinin yaptığı bilişsel işlemi ürününde veya kaydında görünür kıl.
 
 ### Öğrencinin yapacakları
 
 - Planladığı konuşmayı bağlama uygun dil, beden dili, ses, zaman ve mekân kullanımıyla gerçekleştirir.
-- Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.
-- Kapanışta bir güçlü kanıtını ve bir geliştirme adımını kısa biçimde kaydeder.
+- Mülakattaki güçlü soru, cevap, dil, beden dili, ses ve zaman kullanımlarını belirleme.
+- Kanıt olarak şunu üretir veya günceller: Güçlü mülakat örnekleri ve kısa gözlem notları.
+- İlk kanıtında ikinci saatte sınayacağı, karşılaştıracağı, geliştireceği veya aktaracağı tek noktayı işaretler.
 
 ### Kaynak bağları
 
@@ -117,43 +117,43 @@
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı şudur: “Canlı sözlü performans/canlandırma ve performans kaydı”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen konuşma becerisine uygunluğu üzerinden verilir.
+Bu ders saatinin birincil ölçme kanıtı “Güçlü mülakat örnekleri ve kısa gözlem notları”dir. Değerlendirme, öğrencinin “Mülakattaki güçlü soru, cevap, dil, beden dili, ses ve zaman kullanımlarını belirleme” işlemini görünür ve gerekçeli biçimde yapıp yapmadığına dayanır; kaynakta doğrulanmamış puan aralığı veya rubrik ölçütü eklenmez.
 
 ### Kapanış
 
-Öğrenci “Canlı sözlü performans/canlandırma ve performans kaydı” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
+Öğrenci “Güçlü mülakat örnekleri ve kısa gözlem notları” kanıtında ikinci derse taşıyacağı tek soruyu, varsayımı veya geliştirme noktasını işaretler.
 
 ### Materyaller
 
 - Edebiyat Atölyesi-1 (Anlatma): Konuşma — Hayalî Mülakat — ders kitabı s.213
 - Öğrencinin bu ders saatinde oluşturduğu somut kanıt kaydı
 
-## 2. Ders — Kural Uygulayabilme: kanıt üretme ve geliştirme
+## 2. Ders — Karşı Örnekten İyileştirmeye: Ölçütü Yeni Performansa Taşıma
 
 **Süre:** 1 ders saati  
 **Öğrenme çıktıları:** `TDE3.3`
 
 ### Hedef
 
-Öğrenci, “Kural Uygulayabilme” etkinliğinde planladığı konuşmayı bağlama uygun dil, beden dili, ses, zaman ve mekân kullanımıyla gerçekleştirir; ürettiği kanıtı gerekçelendirerek kanıtı geliştirme ve düzeltme sürecini tamamlar.
+Öğrenci, “Kural Uygulayabilme” etkinliğinde planladığı konuşmayı bağlama uygun dil, beden dili, ses, zaman ve mekân kullanımıyla gerçekleştirir. Bu ders saatinin pedagojik odağı: geliştirilmesi gereken karşı örnekleri güçlü örneklerle karşılaştırıp ölçütü yeni performansta uygulama; somut kanıt: Karşı örnek gerekçesi ve ölçüte göre geliştirilmiş performans.
 
 ### Derse giriş
 
-“Kural Uygulayabilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi konuşma davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.
+Edebiyat Atölyesi-1 (Anlatma): Konuşma — Hayalî Mülakat — ders kitabı s.213 üzerinden bu saatin odağı görünür kılınır: Geliştirilmesi gereken karşı örnekleri güçlü örneklerle karşılaştırıp ölçütü yeni performansta uygulama. Öğrenci önceki/başlangıç kanıtını kısa biçimde önüne alır ve bu saatin sonunda neyin değişmiş veya derinleşmiş olması gerektiğini kendi cümlesiyle belirtir.
 
 ### Öğretmenin yapacakları
 
 1. “Kural Uygulayabilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
-2. Öğrencinin şu görevi yerine getirmesini sağla: Planladığı konuşmayı bağlama uygun dil, beden dili, ses, zaman ve mekân kullanımıyla gerçekleştirir. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
-3. “Canlı sözlü performans/canlandırma ve performans kaydı” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
-4. İlk denemeden sonra ortak bir güçlü örneği ve geliştirilmesi gereken bir örneği anonim biçimde karşılaştır; öğrencinin ikinci denemesinde neyi değiştireceğini netleştir.
+2. Canonical görevi koru: Planladığı konuşmayı bağlama uygun dil, beden dili, ses, zaman ve mekân kullanımıyla gerçekleştirir.
+3. İkinci saatte geliştirilecek karşı örneklerle sınırı görünür kıl; ölçütü yeni performans veya üründe uygulat.
+4. Bu saate özgü kanıtı topla: Karşı örnek gerekçesi ve ölçüte göre geliştirilmiş performans. Yalnız katılımı yeterli kanıt sayma; öğrencinin yaptığı bilişsel işlemi ürününde veya kaydında görünür kıl.
 
 ### Öğrencinin yapacakları
 
 - Planladığı konuşmayı bağlama uygun dil, beden dili, ses, zaman ve mekân kullanımıyla gerçekleştirir.
-- Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.
-- İlk kanıtı ile düzeltilmiş kanıtı karşılaştırıp hangi değişikliğin sonucu iyileştirdiğini açıklar.
+- Geliştirilmesi gereken karşı örnekleri güçlü örneklerle karşılaştırıp ölçütü yeni performansta uygulama.
+- Kanıt olarak şunu üretir veya günceller: Karşı örnek gerekçesi ve ölçüte göre geliştirilmiş performans.
+- İlk kanıtıyla bu saatin kanıtını karşılaştırır ve değişimi açıklar: Örnek tanımadan sınır durumu ayırt etmeye ve ölçütü uygulamaya geçilir.
 
 ### Kaynak bağları
 
@@ -162,11 +162,11 @@ Ana ölçme kanıtı şudur: “Canlı sözlü performans/canlandırma ve perfor
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı şudur: “Canlı sözlü performans/canlandırma ve performans kaydı”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen konuşma becerisine uygunluğu üzerinden verilir.
+Bu ders saatinin birincil ölçme kanıtı “Karşı örnek gerekçesi ve ölçüte göre geliştirilmiş performans”dir. Değerlendirme, öğrencinin “Geliştirilmesi gereken karşı örnekleri güçlü örneklerle karşılaştırıp ölçütü yeni performansta uygulama” işlemini görünür ve gerekçeli biçimde yapıp yapmadığına dayanır; kaynakta doğrulanmamış puan aralığı veya rubrik ölçütü eklenmez.
 
 ### Kapanış
 
-Öğrenci “Canlı sözlü performans/canlandırma ve performans kaydı” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
+Öğrenci ilk kanıt ile son kanıt arasındaki farkı tek cümlede açıklar ve şu ilerlemeyi görünür kılar: Örnek tanımadan sınır durumu ayırt etmeye ve ölçütü uygulamaya geçilir.
 
 ### Materyaller
 
@@ -187,4 +187,4 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanı
 
 ---
 
-<!-- TYMM_JSON_SHA256:55c95eac93a92d36660e8c855278aadcf9db0e2ff85483d09921abdd1371f1ae -->
+<!-- TYMM_JSON_SHA256:c4d527e8f8d76ceb7ca226f220faa3cb78c8f74bf0270711570bfb6a2e84fd96 -->

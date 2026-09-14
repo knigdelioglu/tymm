@@ -83,32 +83,32 @@
 
 # Ders akışı
 
-## 1. Ders — Konuşmayı Yönetebilme: kanıt üretme ve geliştirme
+## 1. Ders — Hayalî Mülakatı Planlama: Amaç, Rol, Hedef Kitle ve Strateji
 
 **Süre:** 1 ders saati  
 **Öğrenme çıktıları:** `TDE3.1`
 
 ### Hedef
 
-Öğrenci, “Konuşmayı Yönetebilme” etkinliğinde konuşmanın amacını, hedef kitlesini, yöntem/stratejisini, hazırlık ve uygulama koşullarını planlar; ürettiği kanıtı gerekçelendirerek uygulama ve ilk kanıt sürecini tamamlar.
+Öğrenci, “Konuşmayı Yönetebilme” etkinliğinde konuşmanın amacını, hedef kitlesini, yöntem/stratejisini, hazırlık ve uygulama koşullarını planlar. Bu ders saatinin pedagojik odağı: hayalî mülakatın amacı, hedef kitlesi, rolü, stratejisi ve uygulama koşullarını planlama; somut kanıt: Mülakat planı, görev ve hazırlık kayıtları.
 
 ### Derse giriş
 
-“Konuşmayı Yönetebilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi konuşma davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.
+Edebiyat Atölyesi-1 (Anlatma): Konuşma — Hayalî Mülakat — ders kitabı s.210 üzerinden bu saatin odağı görünür kılınır: Hayalî mülakatın amacı, hedef kitlesi, rolü, stratejisi ve uygulama koşullarını planlama. Öğrenci önceki/başlangıç kanıtını kısa biçimde önüne alır ve bu saatin sonunda neyin değişmiş veya derinleşmiş olması gerektiğini kendi cümlesiyle belirtir.
 
 ### Öğretmenin yapacakları
 
 1. “Konuşmayı Yönetebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
-2. Öğrencinin şu görevi yerine getirmesini sağla: Konuşmanın amacını, hedef kitlesini, yöntem/stratejisini, hazırlık ve uygulama koşullarını planlar. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
-3. “Konuşma/canlandırma planı, görev ve hazırlık kayıtları” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
-4. Ders sırasında kısa kontrol noktaları kullan; öğrencinin yanlış veya eksik stratejiyi kanıt oluşmadan önce fark edip düzeltmesine fırsat ver.
+2. Canonical görevi koru: Konuşmanın amacını, hedef kitlesini, yöntem/stratejisini, hazırlık ve uygulama koşullarını planlar.
+3. İlk saatte öğrencinin plan/yorum/strateji seçimini açık bir karar ve dayanakla kaydetmesini sağla.
+4. Bu saate özgü kanıtı topla: Mülakat planı, görev ve hazırlık kayıtları. Yalnız katılımı yeterli kanıt sayma; öğrencinin yaptığı bilişsel işlemi ürününde veya kaydında görünür kıl.
 
 ### Öğrencinin yapacakları
 
 - Konuşmanın amacını, hedef kitlesini, yöntem/stratejisini, hazırlık ve uygulama koşullarını planlar.
-- Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.
-- Kapanışta bir güçlü kanıtını ve bir geliştirme adımını kısa biçimde kaydeder.
+- Hayalî mülakatın amacı, hedef kitlesi, rolü, stratejisi ve uygulama koşullarını planlama.
+- Kanıt olarak şunu üretir veya günceller: Mülakat planı, görev ve hazırlık kayıtları.
+- İlk kanıtında ikinci saatte sınayacağı, karşılaştıracağı, geliştireceği veya aktaracağı tek noktayı işaretler.
 
 ### Kaynak bağları
 
@@ -117,43 +117,43 @@
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı şudur: “Konuşma/canlandırma planı, görev ve hazırlık kayıtları”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen konuşma becerisine uygunluğu üzerinden verilir.
+Bu ders saatinin birincil ölçme kanıtı “Mülakat planı, görev ve hazırlık kayıtları”dir. Değerlendirme, öğrencinin “Hayalî mülakatın amacı, hedef kitlesi, rolü, stratejisi ve uygulama koşullarını planlama” işlemini görünür ve gerekçeli biçimde yapıp yapmadığına dayanır; kaynakta doğrulanmamış puan aralığı veya rubrik ölçütü eklenmez.
 
 ### Kapanış
 
-Öğrenci “Konuşma/canlandırma planı, görev ve hazırlık kayıtları” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
+Öğrenci “Mülakat planı, görev ve hazırlık kayıtları” kanıtında ikinci derse taşıyacağı tek soruyu, varsayımı veya geliştirme noktasını işaretler.
 
 ### Materyaller
 
 - Edebiyat Atölyesi-1 (Anlatma): Konuşma — Hayalî Mülakat — ders kitabı s.210
 - Öğrencinin bu ders saatinde oluşturduğu somut kanıt kaydı
 
-## 2. Ders — Konuşmayı Yönetebilme: kanıt üretme ve geliştirme
+## 2. Ders — Mülakat Planını Savunma: Seçimleri Gerekçelendirme
 
 **Süre:** 1 ders saati  
 **Öğrenme çıktıları:** `TDE3.1`
 
 ### Hedef
 
-Öğrenci, “Konuşmayı Yönetebilme” etkinliğinde konuşmanın amacını, hedef kitlesini, yöntem/stratejisini, hazırlık ve uygulama koşullarını planlar; ürettiği kanıtı gerekçelendirerek kanıtı geliştirme ve düzeltme sürecini tamamlar.
+Öğrenci, “Konuşmayı Yönetebilme” etkinliğinde konuşmanın amacını, hedef kitlesini, yöntem/stratejisini, hazırlık ve uygulama koşullarını planlar. Bu ders saatinin pedagojik odağı: plan tercihlerini mülakatın amacı, karakter ve hedef kitleyle gerekçelendirip savunma; somut kanıt: Gerekçelendirilmiş ve gerektiğinde revize edilmiş mülakat planı.
 
 ### Derse giriş
 
-“Konuşmayı Yönetebilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi konuşma davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.
+Edebiyat Atölyesi-1 (Anlatma): Konuşma — Hayalî Mülakat — ders kitabı s.210 üzerinden bu saatin odağı görünür kılınır: Plan tercihlerini mülakatın amacı, karakter ve hedef kitleyle gerekçelendirip savunma. Öğrenci önceki/başlangıç kanıtını kısa biçimde önüne alır ve bu saatin sonunda neyin değişmiş veya derinleşmiş olması gerektiğini kendi cümlesiyle belirtir.
 
 ### Öğretmenin yapacakları
 
 1. “Konuşmayı Yönetebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
-2. Öğrencinin şu görevi yerine getirmesini sağla: Konuşmanın amacını, hedef kitlesini, yöntem/stratejisini, hazırlık ve uygulama koşullarını planlar. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
-3. “Konuşma/canlandırma planı, görev ve hazırlık kayıtları” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
-4. İlk denemeden sonra ortak bir güçlü örneği ve geliştirilmesi gereken bir örneği anonim biçimde karşılaştır; öğrencinin ikinci denemesinde neyi değiştireceğini netleştir.
+2. Canonical görevi koru: Konuşmanın amacını, hedef kitlesini, yöntem/stratejisini, hazırlık ve uygulama koşullarını planlar.
+3. İkinci saatte bu seçimin nedenini görev kanıtıyla savundur; karşı soru veya geri bildirim sonucunda gerekirse kararı revize ettir.
+4. Bu saate özgü kanıtı topla: Gerekçelendirilmiş ve gerektiğinde revize edilmiş mülakat planı. Yalnız katılımı yeterli kanıt sayma; öğrencinin yaptığı bilişsel işlemi ürününde veya kaydında görünür kıl.
 
 ### Öğrencinin yapacakları
 
 - Konuşmanın amacını, hedef kitlesini, yöntem/stratejisini, hazırlık ve uygulama koşullarını planlar.
-- Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.
-- İlk kanıtı ile düzeltilmiş kanıtı karşılaştırıp hangi değişikliğin sonucu iyileştirdiğini açıklar.
+- Plan tercihlerini mülakatın amacı, karakter ve hedef kitleyle gerekçelendirip savunma.
+- Kanıt olarak şunu üretir veya günceller: Gerekçelendirilmiş ve gerektiğinde revize edilmiş mülakat planı.
+- İlk kanıtıyla bu saatin kanıtını karşılaştırır ve değişimi açıklar: Plan yapmaktan plan kararlarını savunmaya ve düzeltmeye geçilir.
 
 ### Kaynak bağları
 
@@ -162,11 +162,11 @@ Ana ölçme kanıtı şudur: “Konuşma/canlandırma planı, görev ve hazırl�
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı şudur: “Konuşma/canlandırma planı, görev ve hazırlık kayıtları”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen konuşma becerisine uygunluğu üzerinden verilir.
+Bu ders saatinin birincil ölçme kanıtı “Gerekçelendirilmiş ve gerektiğinde revize edilmiş mülakat planı”dir. Değerlendirme, öğrencinin “Plan tercihlerini mülakatın amacı, karakter ve hedef kitleyle gerekçelendirip savunma” işlemini görünür ve gerekçeli biçimde yapıp yapmadığına dayanır; kaynakta doğrulanmamış puan aralığı veya rubrik ölçütü eklenmez.
 
 ### Kapanış
 
-Öğrenci “Konuşma/canlandırma planı, görev ve hazırlık kayıtları” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
+Öğrenci ilk kanıt ile son kanıt arasındaki farkı tek cümlede açıklar ve şu ilerlemeyi görünür kılar: Plan yapmaktan plan kararlarını savunmaya ve düzeltmeye geçilir.
 
 ### Materyaller
 
@@ -187,4 +187,4 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanı
 
 ---
 
-<!-- TYMM_JSON_SHA256:fc08f7b0c4110cdbeaf8575992c80c04576456e1a4162b432cebe14fda232b8f -->
+<!-- TYMM_JSON_SHA256:30ce55c23096437d46b47a7320090e568447065e8409725c572562067881ca6c -->
