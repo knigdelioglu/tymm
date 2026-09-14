@@ -92,6 +92,13 @@ jobs:
           python skill/tymm-material-planner/scripts/render_lesson_plan_markdown.py \
             --knowledge-root courses/TDE_11 --write
 
+      - name: Refresh TDE11 timeline and runtime context
+        run: |
+          python skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py \
+            --knowledge-root courses/TDE_11
+          python skill/tymm-material-planner/scripts/build_runtime_course_package.py build \
+            --knowledge-root courses/TDE_11
+
       - name: Validate repaired lesson plans
         run: |
           python skill/tymm-material-planner/scripts/validate_all_lesson_plans.py \
