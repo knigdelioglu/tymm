@@ -1,0 +1,212 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "TDE_11",
+  "policy": {
+    "calendar_neutral": true,
+    "placement_is_recommendation": true,
+    "teacher_selection_required": true,
+    "core_instruction_hours_immutable": 172,
+    "school_based_planning_hours_annual": 8,
+    "core_instruction_hours_per_theme": 43,
+    "school_based_planning_hours_per_theme": 2,
+    "official_total_hours_per_theme": 45,
+    "max_selected_hours_per_theme": 2,
+    "default_queue_includes_school_based_hours": false,
+    "selection_mode": "ONE_2H_OR_TWO_1H",
+    "rule": "Yerleşimler pedagojik öneridir. Öğretmen her tema için ya tek bir 2 saatlik seçeneği ya da iki adet 1 saatlik seçeneği seçebilir. Seçimler varsayılan 172 saatlik çekirdek üretim kuyruğuna otomatik eklenmez."
+  },
+  "placements": [
+    {
+      "option_id": "OPT_T11_T1_SBP_01",
+      "theme_id": "TEMA_01",
+      "duration_hours": 1,
+      "identified_need": "Sözlü iletişim engellerini tanıma ve işlevsel iletişimle yeniden kurma konusunda hedefli telafi ve tekrar ihtiyacı.",
+      "recommended_insertion_point": {
+        "target_block_id": "BLOCK_T1_02_KONUSMA",
+        "relation": "AFTER_PACKAGE",
+        "anchor_package_id": "BLOCK_T1_02_KONUSMA_P05"
+      },
+      "activation_condition": "Konuşma/drama çekirdek performansı tamamlandıktan sonra sınıf kanıtları iletişim engellerini tanıma veya onarma konusunda ek desteğe ihtiyaç gösteriyorsa seçilir.",
+      "impact_evaluation": {
+        "method": "COMMUNICATION_REPAIR_CARD_REVIEW",
+        "success_indicator": "Öğrenci iletişim engelini doğru adlandırır, etkisini açıklar ve daha işlevsel bir yeniden ifade/canlandırma üretir."
+      }
+    },
+    {
+      "option_id": "OPT_T11_T1_SBP_02",
+      "theme_id": "TEMA_01",
+      "duration_hours": 1,
+      "identified_need": "İletinin iletişim ortamı, hedef kitle ve amaç değiştikçe dil ve yapı tercihlerinin nasıl değiştiğini görünür kılma.",
+      "recommended_insertion_point": {
+        "target_block_id": "BLOCK_T1_03_DINLEME",
+        "relation": "AFTER_PACKAGE",
+        "anchor_package_id": "BLOCK_T1_03_DINLEME_P04"
+      },
+      "activation_condition": "Dinleme/izleme bloğundan sonra öğrenciler değişen iletişim araçlarını tanıyor ancak ortam-hedef kitle-ileti ilişkisini karşılaştırmalı kanıtla derinleştirmeye ihtiyaç duyuyorsa seçilir.",
+      "impact_evaluation": {
+        "method": "MEDIA_CONTEXT_MATRIX_REVIEW",
+        "success_indicator": "Öğrenci aynı iletinin en az iki farklı ortamda hedef kitleye göre nasıl değiştiğini gerekçeli biçimde karşılaştırır."
+      }
+    },
+    {
+      "option_id": "OPT_T11_T1_SBP_03",
+      "theme_id": "TEMA_01",
+      "duration_hours": 2,
+      "identified_need": "Tema boyunca geliştirilen konuşma ve yazma becerilerini ortak bir iletişim problemi üzerinde iki farklı ortamda transfer ederek bütünleştirme.",
+      "recommended_insertion_point": {
+        "target_block_id": "BLOCK_T1_04_YAZMA",
+        "relation": "AFTER_PACKAGE",
+        "anchor_package_id": "BLOCK_T1_04_YAZMA_P05"
+      },
+      "activation_condition": "Tema sonu çekirdek çalışmalar tamamlandıktan sonra öğretmen iki okul-temelli saati tek bütünleşik ürün/transfer çalışmasına ayırmayı tercih ederse seçilir.",
+      "impact_evaluation": {
+        "method": "CROSS_MEDIA_TRANSFER_REVIEW",
+        "success_indicator": "Öğrenci aynı iletişim amacını drama ve e-postada korur; iki ürün arasındaki en az iki dil/yapı farkını hedef kitle ve ortamla ilişkilendirir."
+      }
+    },
+    {
+      "option_id": "OPT_T11_T2_SBP_01",
+      "theme_id": "TEMA_02",
+      "duration_hours": 1,
+      "identified_need": "Tarihî söz varlığı ve kültür unsurlarını güncel dil çevresiyle ilişkilendirerek süreklilik/değişim farkındalığını güçlendirme.",
+      "recommended_insertion_point": {
+        "target_block_id": "BLOCK_T2_01_OKUMA",
+        "relation": "AFTER_PACKAGE",
+        "anchor_package_id": "BLOCK_T2_01_OKUMA_P08"
+      },
+      "activation_condition": "Orhun Abideleri ve Dîvânu Lugâti’t-Türk okuma çalışmaları tamamlandıktan sonra sınıf tarihî-güncel söz varlığı köprüsünü genişletmeye hazırsa seçilir.",
+      "impact_evaluation": {
+        "method": "HISTORICAL_VOCABULARY_BRIDGE_REVIEW",
+        "success_indicator": "Öğrenci tarihî bir söz/kültür unsurunu güncel bağlamla eşleştirir ve süreklilik ya da değişimi metin kanıtıyla açıklar."
+      }
+    },
+    {
+      "option_id": "OPT_T11_T2_SBP_02",
+      "theme_id": "TEMA_02",
+      "duration_hours": 1,
+      "identified_need": "Müze izlenimi yazma becerisini kültürel miras bilgisini seçme, kaynaklandırma ve hedef kitleye uygun kısa metne dönüştürme ile genişletme.",
+      "recommended_insertion_point": {
+        "target_block_id": "BLOCK_T2_04_YAZMA",
+        "relation": "AFTER_PACKAGE",
+        "anchor_package_id": "BLOCK_T2_04_YAZMA_P05"
+      },
+      "activation_condition": "Çevrim içi müze izlenimleri çekirdek yazma çalışması tamamlandıktan sonra öğrencilerin bilgilendirici/küratoryal kısa metin üretimini denemesi yararlı görülüyorsa seçilir.",
+      "impact_evaluation": {
+        "method": "MUSEUM_CURATOR_CARD_REVIEW",
+        "success_indicator": "Öğrenci seçtiği kültür varlığı için kaynak notu, temel bilgi, kültürel anlam ve hedef kitleye uygun kısa açıklama içeren bir küratör kartı üretir."
+      }
+    },
+    {
+      "option_id": "OPT_T11_T2_SBP_03",
+      "theme_id": "TEMA_02",
+      "duration_hours": 2,
+      "identified_need": "Tema içindeki tarihî metin, kültür konuşması ve müze yazma çalışmalarını ortak bir kültür ögesi üzerinde sentezleme.",
+      "recommended_insertion_point": {
+        "target_block_id": "BLOCK_T2_04_YAZMA",
+        "relation": "AFTER_PACKAGE",
+        "anchor_package_id": "BLOCK_T2_04_YAZMA_P05"
+      },
+      "activation_condition": "Tema sonunda öğretmen iki okul-temelli saati okuma-konuşma-yazma becerilerini tek bir kültür haritasında bütünleştirmek için kullanmak isterse seçilir.",
+      "impact_evaluation": {
+        "method": "CULTURE_MAP_SYNTHESIS_REVIEW",
+        "success_indicator": "Öğrenci seçilen kültür ögesini tarihî metin, sözlü anlatım ve müze/sergi bağlamlarında ilişkilendirir ve en az bir bağlantıyı kanıtla açıklar."
+      }
+    },
+    {
+      "option_id": "OPT_T11_T3_SBP_01",
+      "theme_id": "TEMA_03",
+      "duration_hours": 1,
+      "identified_need": "Kurmaca kişi ile biyografik/tezkire kişisinin metinde kurulma biçimini karşılaştırarak tür ve gerçeklik ilişkisini derinleştirme.",
+      "recommended_insertion_point": {
+        "target_block_id": "BLOCK_T3_01_OKUMA",
+        "relation": "AFTER_PACKAGE",
+        "anchor_package_id": "BLOCK_T3_01_OKUMA_P08"
+      },
+      "activation_condition": "Huzur ile biyografi/tezkire okuma çalışmaları tamamlandıktan sonra öğrencilerin türler arası kişi sunumu farkını karşılaştırmalı ölçütlerle pekiştirmesi yararlıysa seçilir.",
+      "impact_evaluation": {
+        "method": "FICTION_BIOGRAPHY_PROFILE_REVIEW",
+        "success_indicator": "Öğrenci iki kişi sunumunu ortak ölçütlerle karşılaştırır ve belirleyici bir farkı metin kanıtıyla savunur."
+      }
+    },
+    {
+      "option_id": "OPT_T11_T3_SBP_02",
+      "theme_id": "TEMA_03",
+      "duration_hours": 1,
+      "identified_need": "Hayalî mülakatta soru kalitesi, kaynak türü ve doğrulanabilirlik ilişkisini açık hâle getirerek eleştirel kaynak okuryazarlığını güçlendirme.",
+      "recommended_insertion_point": {
+        "target_block_id": "BLOCK_T3_02_KONUSMA",
+        "relation": "AFTER_PACKAGE",
+        "anchor_package_id": "BLOCK_T3_02_KONUSMA_P05"
+      },
+      "activation_condition": "Hayalî mülakat çekirdek performansı sonrasında öğrencilerin sorularını kaynak ve doğrulanabilirlik açısından yeniden tasarlaması yararlı görülüyorsa seçilir.",
+      "impact_evaluation": {
+        "method": "QUESTION_SOURCE_QUALITY_REVIEW",
+        "success_indicator": "Öğrenci en az üç mülakat sorusunu soru kalitesi ve uygun kaynak türü açısından gerekçeli biçimde düzenler."
+      }
+    },
+    {
+      "option_id": "OPT_T11_T3_SBP_03",
+      "theme_id": "TEMA_03",
+      "duration_hours": 2,
+      "identified_need": "Radyo tiyatrosu dinleme/izleme çözümlemesini yaratıcı tür dönüşümü ile birleştirerek alımlama-üretim transferi sağlama.",
+      "recommended_insertion_point": {
+        "target_block_id": "BLOCK_T3_04_YAZMA",
+        "relation": "AFTER_PACKAGE",
+        "anchor_package_id": "BLOCK_T3_04_YAZMA_P05"
+      },
+      "activation_condition": "Tema sonunda öğretmen iki okul-temelli saati dinleme ve yazma becerilerini ortak bir yaratıcı dönüşüm ürününde bütünleştirmek isterse seçilir.",
+      "impact_evaluation": {
+        "method": "LISTENING_TO_WRITING_TRANSFER_REVIEW",
+        "success_indicator": "Öğrenci radyo tiyatrosundaki ses/diyalog işlevini çözümler, olay çekirdeğini başka bir türde korur ve tür dönüşümü kararını açıklar."
+      }
+    },
+    {
+      "option_id": "OPT_T11_T4_SBP_01",
+      "theme_id": "TEMA_04",
+      "duration_hours": 1,
+      "identified_need": "Küçürek hikâyede yoğunluk ve eksiltme ilkelerini kontrollü yeniden yazma yoluyla somutlaştırma.",
+      "recommended_insertion_point": {
+        "target_block_id": "BLOCK_T4_01_OKUMA",
+        "relation": "AFTER_PACKAGE",
+        "anchor_package_id": "BLOCK_T4_01_OKUMA_P08"
+      },
+      "activation_condition": "Küçürek hikâye okuma/tahlil çalışması tamamlandıktan sonra öğrencilerin seçme-ayıklama ve yoğun anlatım deneyimine ihtiyaç duyduğu görülüyorsa seçilir.",
+      "impact_evaluation": {
+        "method": "MICROFICTION_REDUCTION_REVIEW",
+        "success_indicator": "Öğrenci anlatı çekirdeğini koruyarak metni kısaltır ve çıkardığı/koruduğu unsurların en az üçünü gerekçelendirir."
+      }
+    },
+    {
+      "option_id": "OPT_T11_T4_SBP_02",
+      "theme_id": "TEMA_04",
+      "duration_hours": 1,
+      "identified_need": "Fedakârlık temasındaki dinleme/izleme kanıtını olgu-yorum-değer ayrımı üzerinden afiş mesajına dönüştürme.",
+      "recommended_insertion_point": {
+        "target_block_id": "BLOCK_T4_03_DINLEME",
+        "relation": "AFTER_PACKAGE",
+        "anchor_package_id": "BLOCK_T4_03_DINLEME_P04"
+      },
+      "activation_condition": "Dinleme/izleme bloğundan sonra öğrencilerin değerlendirmelerini kanıta dayalı kısa mesaj tasarımına dönüştürmesi yararlı görülüyorsa seçilir.",
+      "impact_evaluation": {
+        "method": "EVIDENCE_TO_MESSAGE_REVIEW",
+        "success_indicator": "Öğrenci olgu ve yorumu ayırır, seçtiği kanıta dayalı bir slogan/alt metin üretir ve mesaj-kaynak ilişkisini açıklar."
+      }
+    },
+    {
+      "option_id": "OPT_T11_T4_SBP_03",
+      "theme_id": "TEMA_04",
+      "duration_hours": 2,
+      "identified_need": "Tiyatro okuma, yeniden kurgulama/canlandırma ve afiş yazma becerilerini tema sonu küçük yapım sürecinde bütünleştirme.",
+      "recommended_insertion_point": {
+        "target_block_id": "BLOCK_T4_04_YAZMA",
+        "relation": "AFTER_PACKAGE",
+        "anchor_package_id": "BLOCK_T4_04_YAZMA_P05"
+      },
+      "activation_condition": "Tema sonunda öğretmen iki okul-temelli saati tiyatro çözümleme, performans ve hedef kitleye yönelik tanıtım metnini tek üründe birleştirmek isterse seçilir.",
+      "impact_evaluation": {
+        "method": "THEATRE_PRODUCTION_TRANSFER_REVIEW",
+        "success_indicator": "Öğrenci tiyatro çatışmasını koruyan yeniden kurgu üretir, uygun performans/prova kanıtı sunar ve hedef kitleye yönelik afiş mesajı tasarlar."
+      }
+    }
+  ]
+}
