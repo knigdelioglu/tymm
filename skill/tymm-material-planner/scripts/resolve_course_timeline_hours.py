@@ -133,7 +133,7 @@ def resolve(root: Path) -> dict[str, Any]:
     school_based_per_theme = next(iter(school_based_unique)) if len(school_based_unique) == 1 else None
     annual_total = instructional_total + school_based_total
 
-    timeline["timeline_version"] = "1.1.3"
+    timeline["timeline_version"] = "1.1.4"
     timeline["timeline_resolution"] = "BLOCK_TIME_RESOLVED"
     semantics = timeline.setdefault("timeline_semantics", {})
     semantics["calendar_neutral_topic_hour_distribution"] = True
@@ -224,7 +224,7 @@ def resolve(root: Path) -> dict[str, Any]:
         school_based = school_based_by_theme.get(tid)
         if school_based is None:
             raise ValueError(f"TIMELINE_THEME_WITHOUT_SCHOOL_BASED_HOURS: {tid}")
-        theme["official_total_hours"] = expected_total
+        theme["official_total_hours"] = expected_total + school_based
         theme["core_instruction_hours"] = expected_total
         theme["block_resolution_status"] = "BLOCK_TIME_RESOLVED"
         theme["school_based_hours"] = school_based
