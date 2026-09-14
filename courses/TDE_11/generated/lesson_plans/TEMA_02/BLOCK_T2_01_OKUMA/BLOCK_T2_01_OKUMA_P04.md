@@ -18,7 +18,7 @@
 
 ## Öğrenme ve değerlendirme kapsamı
 
-- **Öğrenme çıktıları:** `TDE2.2`
+- **Öğrenme çıktıları:** `TDE2.4`
 - **Kullanılan etkinlikler:** `T2_ACT_04_OKUMA_DEGERLENDIRME`
 - **Kullanılan formlar:** Yok
 
@@ -27,7 +27,7 @@
 ## 1. Ders — Süreci Değerlendirebilme: kanıt üretme ve geliştirme
 
 **Süre:** 1 ders saati  
-**Öğrenme çıktıları:** `TDE2.2`
+**Öğrenme çıktıları:** `TDE2.4`
 
 ### Hedef
 
@@ -72,7 +72,7 @@ Ana ölçme kanıtı şudur: “Öz değerlendirme, çıkış kartı, öğrenme 
 ## 2. Ders — Süreci Değerlendirebilme: kanıt üretme ve geliştirme
 
 **Süre:** 1 ders saati  
-**Öğrenme çıktıları:** `TDE2.2`
+**Öğrenme çıktıları:** `TDE2.4`
 
 ### Hedef
 
@@ -122,10 +122,10 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanı
 
 - **Bu pakette planlanan:** 2 saat
 - **Blokta kalan:** 7 saat
-- **Kapsanan çıktılar:** `TDE2.2`
+- **Kapsanan çıktılar:** `TDE2.4`
 - **Kullanılan etkinlikler:** `T2_ACT_04_OKUMA_DEGERLENDIRME`
 - **Sonraki adım:** Aynı okuma bloğunda kalan 7 saatte kullanılmamış veya derinleştirilecek doğrulanmış kitap etkinlikleriyle beceri kanıtını ilerlet.
 
 ---
 
-<!-- TYMM_JSON_SHA256:cc756222ee378d78456044555c7fb7f33f60504cbfb32738e9ee974f79fbc5b6 -->
+<!-- TYMM_JSON_SHA256:768efbd8aee5a7f1c76f6d3a799678064fe22f449e412312f50f89678d78879d -->

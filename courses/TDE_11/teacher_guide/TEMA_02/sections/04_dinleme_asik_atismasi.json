@@ -1,0 +1,690 @@
+{
+  "schema_version": "1.1.0",
+  "document_type": "TYMM_TEACHER_GUIDE_SECTION",
+  "course_id": "TDE_11",
+  "theme_id": "TEMA_02",
+  "section_id": "T2_SEC_04_DINLEME_ASIK_ATISMASI",
+  "title": "Metin Tahlili-3 (Anlama): Dinleme / İzleme — Âşık Atışması",
+  "section_type": "LISTENING_VIEWING",
+  "printed_page_range": "136-147",
+  "content_status": "VERIFIED",
+  "outcome_refs": [
+    "TDE1.1",
+    "TDE1.2",
+    "TDE1.3",
+    "TDE1.4"
+  ],
+  "activity_refs": [
+    "T2_ACT_13_DINLEME_YONETIM",
+    "T2_ACT_14_DINLEME_ICERIK_ANLAM",
+    "T2_ACT_15_DINLEME_UYGULAMA_COZUMLEME",
+    "T2_ACT_16_DINLEME_DEGERLENDIRME"
+  ],
+  "lesson_plan_refs": [
+    "courses/TDE_11/generated/lesson_plans/TEMA_02/BLOCK_T2_03_DINLEME/BLOCK_T2_03_DINLEME_P01.json",
+    "courses/TDE_11/generated/lesson_plans/TEMA_02/BLOCK_T2_03_DINLEME/BLOCK_T2_03_DINLEME_P02.json",
+    "courses/TDE_11/generated/lesson_plans/TEMA_02/BLOCK_T2_03_DINLEME/BLOCK_T2_03_DINLEME_P03.json",
+    "courses/TDE_11/generated/lesson_plans/TEMA_02/BLOCK_T2_03_DINLEME/BLOCK_T2_03_DINLEME_P04.json"
+  ],
+  "guide_units": [
+    {
+      "unit_id": "T2_GUIDE_U13_DINLEME_YONETIM",
+      "title": "Dinleme / İzlemeyi Yönetebilme",
+      "printed_page_range": "136-139",
+      "activity_refs": [
+        "T2_ACT_13_DINLEME_YONETIM"
+      ],
+      "outcome_refs": [
+        "TDE1.1"
+      ],
+      "content_status": "VERIFIED",
+      "purpose": "Âşıklık geleneği ön bilgilerini etkinleştirip amaç, strateji, tahmin ve etkin dinleme kurallarıyla medya görevine hazırlanmak.",
+      "items": [
+        {
+          "item_id": "T2_G13_P136_KONUYA_BASLARKEN",
+          "printed_page_range": "136",
+          "label": "Âşıklık geleneği ve Sazım — konuya başlarken",
+          "item_type": "QUESTION",
+          "expected_answer": {
+            "odak": "Âşık; saz/şiir, usta-çırak, doğaçlama, halkla ilişki ve kültür aktarımıyla birlikte değerlendirilir; Âşık Veysel’in sazıyla kurduğu bağ sanatçı-eser/araç ilişkisinin duygusal yönünü görünür kılar."
+          },
+          "acceptance_criteria": [
+            "Âşıklığı yalnız “şiir söyleme” değil gelenek ve icra bütünü olarak açıklar."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "Hazırlık cevapları."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.136 / PDF s.137"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T2_G13_P137_AMAC_STRATEJI",
+          "printed_page_range": "137",
+          "label": "Âşık Atışması — amaç, strateji, tahmin ve engeller",
+          "item_type": "PROCESS",
+          "expected_answer": {
+            "amac": "Atışmanın gelenek, dil, mizah, karşılıklı söyleyiş ve performans özelliklerini anlamak.",
+            "strateji": "Not alma, anahtar söz/uyak/mizah işaretleme, konuşmacıları ayırma gibi amaçla uyumlu strateji.",
+            "tahmin": "İki âşığın saz eşliğinde karşılıklı, doğaçlama ve aynı uyak/ayak düzenine cevap verdiği şiirsel performans.",
+            "engeller": "gürültü, dikkat dağıtıcılar, teknik ses/görüntü sorunu, ön yargı, söz kesme vb."
+          },
+          "acceptance_criteria": [
+            "Amaç-strateji tutarlıdır.",
+            "En az bir ortam ve bir dinleyici kaynaklı engeli önler."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "Dinleme planı."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.137 / PDF s.138"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T2_G13_P138_ASIKLIK",
+          "printed_page_range": "138",
+          "label": "Halk şiiri ve âşık geleneği",
+          "item_type": "QUESTION",
+          "expected_answer": {
+            "1": "Dinlenecek atışma âşıklık/halk şiiri geleneğinin ürünüdür; kökleri ozan-baksı/sazlı sözlü icra geleneğine uzanır.",
+            "2": [
+              "şiir/söz ustalığı ve güçlü hafıza",
+              "saz/müzik becerisi",
+              "doğaçlama ve hazırcevaplık",
+              "gelenek bilgisi",
+              "ses/yorum ve seyirciyle etkileşim"
+            ]
+          },
+          "acceptance_criteria": [
+            "Geleneği doğru adlandırır.",
+            "Sanatsal gücü en az iki unsurla açıklar."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "İki cevap."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.138 / PDF s.139"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T2_G13_P138_139_ETKIN_DINLEME",
+          "printed_page_range": "138-139",
+          "label": "Etkin dinleme kuralları, kontrol listesi ve gözlem formu",
+          "item_type": "ASSESSMENT",
+          "expected_answer": {
+            "kurallar": [
+              "dikkat ve anlama",
+              "sabır/saygı/ön yargısızlık",
+              "diğer dinleyicileri rahatsız etmeme",
+              "sözün bitmesini bekleme",
+              "dikkat dağıtıcı davranıştan kaçınma"
+            ]
+          },
+          "acceptance_criteria": [
+            "FORM_T2_P139_KONTROL_LISTESI_06 maddelerini gerçek süreç davranışına göre işaretler."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "Kontrol listesi + FORM_T2_P139_GOZLEM_FORMU_07."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.138-139 / PDF s.139-140"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        }
+      ],
+      "provenance": {
+        "source_ids": [
+          "official_textbook_pdf",
+          "textbook_map"
+        ],
+        "source_locators": [
+          "basılı s.136-139 / PDF s.137-140"
+        ],
+        "content_class": "MIXED"
+      }
+    },
+    {
+      "unit_id": "T2_GUIDE_U14_DINLEME_ANLAM",
+      "title": "Anlam Oluşturabilme",
+      "printed_page_range": "140-143",
+      "activity_refs": [
+        "T2_ACT_14_DINLEME_ICERIK_ANLAM"
+      ],
+      "outcome_refs": [
+        "TDE1.2"
+      ],
+      "content_status": "VERIFIED",
+      "purpose": "Atışmadaki söz varlığı, gelenek, mizah ve dil-estetik özelliklerinden anlam oluşturmak.",
+      "items": [
+        {
+          "item_id": "T2_G14_P140_SOZ_VARLIGI",
+          "printed_page_range": "140",
+          "label": "Söz Varlığımız — çağ, canan, sine, kahır, saban",
+          "item_type": "VOCABULARY",
+          "expected_answer": {
+            "cag": "Dönem/zaman; bağlama göre seslenme değil “zaman” anlamı kontrol edilir.",
+            "canan": "Sevgili, sevilen.",
+            "sine": "Göğüs/bağır; şiirsel kullanımda gönül/kalp çağrışımı olabilir.",
+            "kahir": "Derin üzüntü, sıkıntı, dert.",
+            "saban": "Toprağı sürmeye yarayan tarım aracı."
+          },
+          "acceptance_criteria": [
+            "Anlamı gerçek dinleme bağlamına göre doğrular.",
+            "Yerine önerilen kelime anlamı bozmaz."
+          ],
+          "teacher_guidance": [
+            "Atışmada kullanılan somut bağlam görülmeden çok anlamlı kelimede tek anlam dayatma."
+          ],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "Tahmin + TDK kontrolü + eşdeğer kelime önerisi."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.140 / PDF s.141"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T2_G14_P141_GELENEGIN_KORUNMASI",
+          "printed_page_range": "141",
+          "label": "Âşıklık geleneğinin korunması ve kültür mirası",
+          "item_type": "QUESTION",
+          "expected_answer": {
+            "1": [
+              "usta-çırak ve eğitim programlarını destekleme",
+              "icraları kayıt/dijital arşivleme",
+              "festival/atışma ve okul etkinlikleri",
+              "sanatçılara üretim/yaşam desteği",
+              "araştırma-yayın ve genç kuşak erişimi"
+            ],
+            "2": "Dil, sözlü hafıza, müzik, mizah, değerler ve tarihî tecrübeyi kuşaklar arasında taşıdığı; Türk dünyası içindeki kültürel bağı görünür kıldığı için önemlidir."
+          },
+          "acceptance_criteria": [
+            "Koruma için en az iki uygulanabilir öneri verir.",
+            "Önemi kültür aktarımıyla ilişkilendirir."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "İki gerekçeli cevap."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.141 / PDF s.142"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T2_G14_P142_ATISMA_ANLAMA",
+          "printed_page_range": "142",
+          "label": "Atışmanın yeri, benzetme ve mizah",
+          "item_type": "QUESTION",
+          "expected_answer": {
+            "1": "Atışma, âşıkların karşılıklı söz/şiir ustalığını, doğaçlama ve aynı ayak/uyakla cevap verme becerisini sergileyen rekabetçi fakat gelenek kuralları içindeki icradır.",
+            "2": "Benzetmeler ve başka söz oyunları zekâ/hazırcevaplık etkisini, mizahı ve şiirsel estetiği artırır; somut örnek dinlenen kayıttan seçilmelidir.",
+            "mizah_karsilastirma": "Atışmada uyak, mecaz, taşlama, söz oyunu ve karşılıklı cevap; günlük mizah ise bağlama göre ironi, abartı, kelime oyunu vb. kullanabilir."
+          },
+          "acceptance_criteria": [
+            "Atışma işlevini karşılıklılık/doğaçlamayla açıklar.",
+            "Benzetme örneğini yalnız gerçekten dinlenen metinden seçer."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "Anlama cevapları + mizah karşılaştırma tablosu."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.142 / PDF s.143"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T2_G14_P143_DIL_ESTETIK",
+          "printed_page_range": "143",
+          "label": "Atışma dili, günlük dil ve Münacaat karşılaştırması",
+          "item_type": "TABLE",
+          "expected_answer": {
+            "benzerlik": "Gündelik söz varlığı, hitap ve anlaşılır ifadeler kullanılabilir.",
+            "farklilik": "Atışmada ölçü/uyak, saz-performans bağlamı, doğaçlama, yerel söyleyiş ve söz oyunları belirgindir; Münacaat modern şiirsel kurgu, serbest yapı ve yoğun imge/soyutlama yönüyle ayrılabilir.",
+            "cikarim": "Âşıklar halk dilini estetik düzen, ses, uyak, mecaz ve hazırcevaplıkla dönüştürür."
+          },
+          "acceptance_criteria": [
+            "Benzerlik ve farklılığı dilsel kanıtla yazar.",
+            "İki şiir geleneğini “iyi-kötü” hiyerarşisine sokmaz."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "T diyagramı + sözlü çıkarım."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.143 / PDF s.144"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T2_G14_P143_BEGENI",
+          "printed_page_range": "143",
+          "label": "Beğeni ölçütleriyle bölüm seçme",
+          "item_type": "ASSESSMENT",
+          "expected_answer": {
+            "olcut_ornekleri": [
+              "söz varlığı",
+              "tema/ileti",
+              "mizah ve hazırcevaplık",
+              "söyleyici/yorum",
+              "uyak-ritim",
+              "duygusal/estetik etki"
+            ]
+          },
+          "acceptance_criteria": [
+            "Kendi beğeni ölçütlerini önceden belirler.",
+            "Seçtiği bölümü bu ölçütlerle gerekçelendirir."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "FORM_T2_P143_KONTROL_LISTESI_08."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.143 / PDF s.144"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        }
+      ],
+      "provenance": {
+        "source_ids": [
+          "official_textbook_pdf",
+          "textbook_map"
+        ],
+        "source_locators": [
+          "basılı s.140-143 / PDF s.141-144"
+        ],
+        "content_class": "MIXED"
+      }
+    },
+    {
+      "unit_id": "T2_GUIDE_U15_DINLEME_COZUMLEME",
+      "title": "Çözümleyebilme",
+      "printed_page_range": "144-146",
+      "activity_refs": [
+        "T2_ACT_15_DINLEME_UYGULAMA_COZUMLEME"
+      ],
+      "outcome_refs": [
+        "TDE1.3"
+      ],
+      "content_status": "VERIFIED",
+      "purpose": "Usta-çırak geleneği, çok modlu performans unsurları ve farklı değerlendirme teknikleriyle atışmayı çözümlemek.",
+      "items": [
+        {
+          "item_id": "T2_G15_P144_USTA_CIRAK",
+          "printed_page_range": "144",
+          "label": "Usta-çırak, saygı ve kültürel bellek",
+          "item_type": "QUESTION",
+          "expected_answer": {
+            "1": "Saygı; çırağın ustadan öğrenmesi, geleneğin kurallarına bağlılık, ustanın bilgisini saklamadan aktarması ve ahlâk/terbiye beklentisinde görünür olur.",
+            "2": "Âşıklar söz varlığı, şiir/müzik kalıpları, hikâyeler, değerler ve tarihî hafızayı canlı icrayla yeni kuşaklara aktarır.",
+            "3": "Söz oyunlarındaki ustalık uzun gözlem, ezber, doğaçlama, dil hâkimiyeti ve ustadan çırağa aktarılan icra bilgisiyle gelişir."
+          },
+          "acceptance_criteria": [
+            "Her cevap metindeki usta-çırak özellikleriyle ilişkilidir."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "Üç açıklama."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.144 / PDF s.145"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T2_G15_P144_ZIHIN_HARITASI",
+          "printed_page_range": "144",
+          "label": "Âşık atışmasının çok modlu unsurları",
+          "item_type": "TABLE",
+          "expected_answer": {
+            "beklenen_kategoriler": [
+              "beden dili",
+              "söyleyiş tarzı",
+              "mekân",
+              "estetik",
+              "saz/müzik",
+              "karşılıklı etkileşim; videoda gerçekten gözlenen diğer unsur"
+            ]
+          },
+          "acceptance_criteria": [
+            "En az dört unsuru gerçek medya gözlemine göre doldurur.",
+            "Her unsurun anlama/etkiye katkısını açıklayabilir."
+          ],
+          "teacher_guidance": [
+            "Yerel PDF video içeriğini gömmez; gözlenmemiş sahne ayrıntısı uydurma."
+          ],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "Zihin haritası."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.144 / PDF s.145"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T2_G15_P145_ALTI_SAPKA",
+          "printed_page_range": "145",
+          "label": "Altı şapka ile atışmayı değerlendirme",
+          "item_type": "PROCESS",
+          "expected_answer": {
+            "odaklar": [
+              "ileti",
+              "duygu",
+              "olumsuz iletiler",
+              "iyimser iletiler",
+              "nasıl devam ettirirdim",
+              "genel düşünce"
+            ]
+          },
+          "acceptance_criteria": [
+            "Seçilen şapkanın bakış açısına uygun cevap üretir.",
+            "Geri bildirim sonrası cevabını gerekirse düzenler."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "Grup cevabı + revizyon."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.145 / PDF s.146"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T2_G15_P146_GORUS_GELISTIRME",
+          "printed_page_range": "146",
+          "label": "Atışmanın şiir şeklinde söylenmesi — görüş geliştirme",
+          "item_type": "PROCESS",
+          "expected_answer": {
+            "olasi_gerekceler": [
+              "âşıkların duygu/düşünceyi şiirle ifade geleneği",
+              "şiir ve müziğin birlikte icrası",
+              "ölçü/uyak/ayak yapısının hafıza ve doğaçlamaya çerçeve sağlaması",
+              "şiirsel biçimin dinleyici etkisini artırması"
+            ]
+          },
+          "acceptance_criteria": [
+            "Her yargı için ayrı tutum alır.",
+            "Son görüşünü en az bir gelenek/dil/müzik gerekçesiyle yazar."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "Çalışma kâğıdı."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.146 / PDF s.147"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        }
+      ],
+      "provenance": {
+        "source_ids": [
+          "official_textbook_pdf",
+          "textbook_map"
+        ],
+        "source_locators": [
+          "basılı s.144-146 / PDF s.145-147"
+        ],
+        "content_class": "MIXED"
+      }
+    },
+    {
+      "unit_id": "T2_GUIDE_U16_DINLEME_DEGERLENDIRME",
+      "title": "Süreci Değerlendirebilme",
+      "printed_page_range": "147",
+      "activity_refs": [
+        "T2_ACT_16_DINLEME_DEGERLENDIRME"
+      ],
+      "outcome_refs": [
+        "TDE1.4"
+      ],
+      "content_status": "VERIFIED",
+      "purpose": "Dinleme/izleme deneyimini performans unsurları ve kişisel öğrenme farkındalığı üzerinden değerlendirmek.",
+      "items": [
+        {
+          "item_id": "T2_G16_P147_DEGER_KATAN_UNSURLAR",
+          "printed_page_range": "147",
+          "label": "Atışmaya değer katan unsurlar ve söyleyicinin katkısı",
+          "item_type": "ASSESSMENT",
+          "expected_answer": {
+            "atismaya_deger_katan": [
+              "şiirsel biçim/uyak",
+              "saz ve ritim",
+              "doğaçlama/hazırcevaplık",
+              "mizah/söz oyunları",
+              "gelenek/usta-çırak birikimi"
+            ],
+            "soyleyici_katkisi": [
+              "ses, vurgu, tempo",
+              "beden dili",
+              "hazırcevaplık",
+              "seyirci/diğer âşıkla etkileşim"
+            ]
+          },
+          "acceptance_criteria": [
+            "En az iki unsur + etkisini yazar.",
+            "Söyleyici katkısını gerçek gözleme bağlar."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "İki sütunlu değerlendirme."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.147 / PDF s.148"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T2_G16_P147_YANSITICI_YAZI",
+          "printed_page_range": "147",
+          "label": "Dinleme/izleme üzerine yansıtıcı yazı",
+          "item_type": "PERFORMANCE_TASK",
+          "expected_answer": {
+            "sorular": [
+              "Neleri fark ettim?",
+              "Ne anladım?",
+              "Neyi farklı yapabilirdim?",
+              "Ek öğrenmeye ihtiyacım var mı?",
+              "Bu temada öğrendiklerim hayatıma neler kattı?"
+            ]
+          },
+          "acceptance_criteria": [
+            "En az üç soruya somut öğrenme/strateji kanıtıyla cevap verir.",
+            "Gelecek dinleme için bir geliştirme hedefi belirler."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "Yansıtıcı yazı."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.147 / PDF s.148"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        }
+      ],
+      "provenance": {
+        "source_ids": [
+          "official_textbook_pdf",
+          "textbook_map"
+        ],
+        "source_locators": [
+          "basılı s.147 / PDF s.148"
+        ],
+        "content_class": "MIXED"
+      }
+    }
+  ],
+  "section_principles": [
+    "Resmî ders kitabı PDF’sindeki görev sırasını koru.",
+    "Beklenen cevapları tek doğruya indirgeme; metne/kanıta dayalı gerekçeli alternatifleri kabul et.",
+    "Pedagojik zenginleştirmeyi resmî kitap yönergesi gibi sunma."
+  ],
+  "provenance": {
+    "source_ids": [
+      "official_textbook_pdf",
+      "textbook_map",
+      "theme_alignment"
+    ],
+    "source_locators": [
+      "basılı s.136-147 / PDF s.137-148"
+    ],
+    "content_class": "MIXED"
+  }
+}

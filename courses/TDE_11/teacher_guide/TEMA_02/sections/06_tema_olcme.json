@@ -1,0 +1,378 @@
+{
+  "schema_version": "1.1.0",
+  "document_type": "TYMM_TEACHER_GUIDE_SECTION",
+  "course_id": "TDE_11",
+  "theme_id": "TEMA_02",
+  "section_id": "T2_SEC_06_TEMA_OLCME",
+  "title": "2. Tema Ölçme ve Değerlendirme Soruları",
+  "section_type": "THEME_ASSESSMENT",
+  "printed_page_range": "155-159",
+  "content_status": "REVIEW_REQUIRED",
+  "outcome_refs": [
+    "TDE1.1",
+    "TDE1.2",
+    "TDE1.3",
+    "TDE1.4",
+    "TDE2.1",
+    "TDE2.2",
+    "TDE2.3",
+    "TDE2.4",
+    "TDE3.1",
+    "TDE3.2",
+    "TDE3.3",
+    "TDE3.4",
+    "TDE4.1",
+    "TDE4.2",
+    "TDE4.3",
+    "TDE4.4"
+  ],
+  "activity_refs": [
+    "T2_ACT_21_TEMA_OLCME"
+  ],
+  "lesson_plan_refs": [
+    "courses/TDE_11/generated/lesson_plans/TEMA_02/BLOCK_T2_04_YAZMA/BLOCK_T2_04_YAZMA_P05.json"
+  ],
+  "guide_units": [
+    {
+      "unit_id": "T2_GUIDE_U21_TEMA_OLCME",
+      "title": "2. Tema Ölçme ve Değerlendirme",
+      "printed_page_range": "155-159",
+      "activity_refs": [
+        "T2_ACT_21_TEMA_OLCME"
+      ],
+      "outcome_refs": [
+        "TDE1.1",
+        "TDE1.2",
+        "TDE1.3",
+        "TDE1.4",
+        "TDE2.1",
+        "TDE2.2",
+        "TDE2.3",
+        "TDE2.4",
+        "TDE3.1",
+        "TDE3.2",
+        "TDE3.3",
+        "TDE3.4",
+        "TDE4.1",
+        "TDE4.2",
+        "TDE4.3",
+        "TDE4.4"
+      ],
+      "content_status": "REVIEW_REQUIRED",
+      "purpose": "Tema sonu dokuz soruyu görünür PDF içeriğine göre cevaplamak; dış videoya bağlı 8-9. sorularda gözlenmeyen ayrıntıları uydurmamak.",
+      "items": [
+        {
+          "item_id": "T2_G21_P155_Q1",
+          "printed_page_range": "155",
+          "label": "Soru 1 — Orhun atasözü/deyimleri ve toplum özellikleri",
+          "item_type": "QUESTION",
+          "expected_answer": [
+            "çalışkanlık ve emek",
+            "devlet/töre ve düzen bilinci",
+            "birlik ve dayanışma",
+            "güçlük karşısında mücadele/azim",
+            "bağımsızlık ve devlet sahibi olma"
+          ],
+          "acceptance_criteria": [
+            "Tablodaki en az iki deyim/atasözüyle toplum özelliği ilişkilendirir.",
+            "Günümüz önemini gerekçelendirir."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "Gerekçeli açık uçlu cevap."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.155 / PDF s.156"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T2_G21_P155_Q2",
+          "printed_page_range": "155",
+          "label": "Soru 2 — atasözü ve deyimlerin genel amacı",
+          "item_type": "QUESTION",
+          "expected_answer": "C — Devletin temel değerlerini aktarmak.",
+          "acceptance_criteria": [
+            "C seçeneğini işaretler."
+          ],
+          "teacher_guidance": [
+            "Tablodaki ifadelerin çalışma, töre, il/devlet ve toplumsal düzen odağını hatırlat."
+          ],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "Doğru seçenek."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.155 / PDF s.156"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T2_G21_P156_157_Q3",
+          "printed_page_range": "156-157",
+          "label": "Soru 3 — ulaşılamayan çıkarım",
+          "item_type": "QUESTION",
+          "expected_answer": "A — Üç eserin tamamının sözlü kültürden yazılı kültüre geçiş sürecinde ortaya çıktığı söylenemez; özellikle Kamus-ı Türkî 19. yüzyıl Tanzimat ürünüdür.",
+          "acceptance_criteria": [
+            "A seçeneğini işaretler ve gerekçeyi dönem farkıyla açıklar."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "Doğru seçenek + gerekçe."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.156-157 / PDF s.157-158"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T2_G21_P157_Q4",
+          "printed_page_range": "157",
+          "label": "Soru 4 — Orhun Abideleriyle benzer eser",
+          "item_type": "QUESTION",
+          "expected_answer": {
+            "birincil_ornek": "Kutadgu Bilig — devlet/toplum düzeni, yöneticilik, değerler ve öğüt verici/didaktik yön bakımından Orhun Abideleriyle güçlü benzerlik kurulabilir.",
+            "kabul_edilebilir_alternatif": "Dede Korkut Hikâyeleri — Türk kültürel belleği, değerler ve toplumsal hayatı taşıması gerekçesi güçlü kurulursa kabul edilebilir; tür/amaç farkı belirtilmelidir."
+          },
+          "acceptance_criteria": [
+            "Bir eser seçer.",
+            "En az iki benzerlik gerekçesi verir.",
+            "Tür/çağ farkını göz ardı etmez."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "Gerekçeli açık uçlu cevap."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.157 / PDF s.158"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T2_G21_P157_Q5",
+          "printed_page_range": "157",
+          "label": "Soru 5 — ortak bilgi",
+          "item_type": "QUESTION",
+          "expected_answer": "B — Yalnız II.",
+          "acceptance_criteria": [
+            "B seçeneğini işaretler.",
+            "Üç notta da “ilk olma” niteliğinin bir biçimde verildiğini fark eder."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "Doğru seçenek."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.157 / PDF s.158"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T2_G21_P158_Q6",
+          "printed_page_range": "158",
+          "label": "Soru 6 — ayak uydurarak atışmayı sürdürme",
+          "item_type": "QUESTION",
+          "expected_answer": "D.",
+          "acceptance_criteria": [
+            "D seçeneğini işaretler.",
+            "Aynı ayak/kafiye ve “Ne arıyan olur ... ne soran olur” nakarat yapısını sürdürdüğünü fark eder."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "Doğru seçenek."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.158 / PDF s.159"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T2_G21_P159_Q7",
+          "printed_page_range": "159",
+          "label": "Soru 7 — öğrenci değerlendirmelerindeki yanlışlık",
+          "item_type": "QUESTION",
+          "expected_answer": {
+            "a": "Ahmet’in değerlendirmesi yanlıştır; verilen dörtlüklerden Taşlıova’nın söyleyişinin Çobanoğlu’na göre nesnel olarak “daha sanatlı” olduğu sonucu zorunlu biçimde çıkarılamaz. Her iki âşık da aynı gelenek içinde yerel söyleyiş, biçimsel düzen ve şiirsel/sanatlı anlatım kullanır.",
+            "b": "Örnek değerlendirme: “Her iki âşık da aynı ayak/nakarat düzenini korurken öğüt verici söyleyişi yerel kelimeler ve söz oyunlarıyla canlı tutmaktadır.” Benzer gerekçeli cümleler kabul edilir."
+          },
+          "acceptance_criteria": [
+            "Yanlış değerlendirmeyi Ahmet olarak belirler.",
+            "b şıkkında metin/form/dil özelliğine dayalı özgün değerlendirme verir."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "İki parçalı cevap."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.159 / PDF s.160"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T2_G21_P159_Q8",
+          "printed_page_range": "159",
+          "label": "Soru 8 — Orhun’dan günümüze eserler arası köprü",
+          "item_type": "QUESTION",
+          "expected_answer": {
+            "ornekler": [
+              "Kutadgu Bilig",
+              "Dede Korkut Hikâyeleri",
+              "Dîvânu Lugâti’t-Türk",
+              "daha sonraki dil/kültür/tarih belleğini taşıyan uygun eserler"
+            ],
+            "gerekce": "Orhun’un dil, devlet, töre ve kültürel hafıza kaydını sonraki çağlarda dil, değer, tarih ve ortak kimlik aktarımıyla sürdüren eserler köprünün diğer ayağı olarak düşünülebilir."
+          },
+          "acceptance_criteria": [
+            "En az bir eser seçer.",
+            "Orhun ile süreklilik bağını dil/kültür/tarih/değer boyutunda açıklar.",
+            "Göktürklerin Dirilişi videosuna özgü ayrıntı yalnız izlenmişse kullanılır."
+          ],
+          "teacher_guidance": [
+            "Video payload’ı yerel PDF’de değildir; görünmeyen sahne/anlatı ayrıntısını cevap anahtarına ekleme."
+          ],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "Gerekçeli açık uçlu cevap."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.159 / PDF s.160"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T2_G21_P159_Q9",
+          "printed_page_range": "159",
+          "label": "Soru 9 — taşlara kazınan tarih ve töre için slogan",
+          "item_type": "QUESTION",
+          "expected_answer": "Örnek: “Taşa kazınan söz, bin yıl sonra da millete yol gösterir.” Kısa, özgün ve tarihî hafıza/yol göstericilik bağını kuran farklı sloganlar kabul edilir.",
+          "acceptance_criteria": [
+            "Slogan kısa ve özgündür.",
+            "Tarih/töre/sözün kalıcılığı veya yol göstericilik temasını taşır."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "Özgün slogan."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.159 / PDF s.160"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        }
+      ],
+      "provenance": {
+        "source_ids": [
+          "official_textbook_pdf",
+          "textbook_map"
+        ],
+        "source_locators": [
+          "basılı s.155-159 / PDF s.156-160"
+        ],
+        "content_class": "MIXED"
+      }
+    }
+  ],
+  "section_principles": [
+    "Resmî ders kitabı PDF’sindeki görev sırasını koru.",
+    "Beklenen cevapları tek doğruya indirgeme; metne/kanıta dayalı gerekçeli alternatifleri kabul et.",
+    "Pedagojik zenginleştirmeyi resmî kitap yönergesi gibi sunma."
+  ],
+  "provenance": {
+    "source_ids": [
+      "official_textbook_pdf",
+      "textbook_map",
+      "theme_alignment"
+    ],
+    "source_locators": [
+      "basılı s.155-159 / PDF s.156-160"
+    ],
+    "content_class": "MIXED"
+  }
+}

@@ -18,7 +18,7 @@
 
 ## Öğrenme ve değerlendirme kapsamı
 
-- **Öğrenme çıktıları:** `TDE2.2`
+- **Öğrenme çıktıları:** `TDE2.3`
 - **Kullanılan etkinlikler:** `T2_ACT_03_OKUMA_UYGULAMA_COZUMLEME`
 - **Kullanılan formlar:** Yok
 
@@ -27,7 +27,7 @@
 ## 1. Ders — Çözümleyebilme: kanıt üretme ve geliştirme
 
 **Süre:** 1 ders saati  
-**Öğrenme çıktıları:** `TDE2.2`
+**Öğrenme çıktıları:** `TDE2.3`
 
 ### Hedef
 
@@ -72,7 +72,7 @@ Ana ölçme kanıtı şudur: “Tahlil cevapları, tablo/şema ve gerekçeli kar
 ## 2. Ders — Çözümleyebilme: kanıt üretme ve geliştirme
 
 **Süre:** 1 ders saati  
-**Öğrenme çıktıları:** `TDE2.2`
+**Öğrenme çıktıları:** `TDE2.3`
 
 ### Hedef
 
@@ -122,10 +122,10 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanı
 
 - **Bu pakette planlanan:** 2 saat
 - **Blokta kalan:** 9 saat
-- **Kapsanan çıktılar:** `TDE2.2`
+- **Kapsanan çıktılar:** `TDE2.3`
 - **Kullanılan etkinlikler:** `T2_ACT_03_OKUMA_UYGULAMA_COZUMLEME`
 - **Sonraki adım:** Aynı okuma bloğunda kalan 9 saatte kullanılmamış veya derinleştirilecek doğrulanmış kitap etkinlikleriyle beceri kanıtını ilerlet.
 
 ---
 
-<!-- TYMM_JSON_SHA256:f74c8d3c6d617798f5a80a0924e5ef49766b7addd00d2f04e70cf867a69c65f0 -->
+<!-- TYMM_JSON_SHA256:438b7bea69e2c14270f63bc3c77afc59b0620125a2480e8e8361ab877b025307 -->
