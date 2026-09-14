@@ -24,32 +24,32 @@
 
 # Ders akışı
 
-## 1. Ders — Çözümleyebilme: kanıt üretme ve geliştirme
+## 1. Ders — Merdiven’i Sınıflandırma: Yapı, Tür, Dil ve Bağlam
 
 **Süre:** 1 ders saati  
 **Öğrenme çıktıları:** `TDE2.4`
 
 ### Hedef
 
-Öğrenci, “Çözümleyebilme” etkinliğinde metni yapı, tür, dil-anlatım ve dönem/bağlam özellikleri bakımından çözümler ve karşılaştırır; ürettiği kanıtı gerekçelendirerek uygulama ve ilk kanıt sürecini tamamlar.
+Öğrenci, “Çözümleyebilme” etkinliğinde metni yapı, tür, dil-anlatım ve dönem/bağlam özellikleri bakımından çözümler ve karşılaştırır. Bu ders saatinin pedagojik odağı: yapı, tür, dil-anlatım ve bağlam bulgularını küçürek hikâye ölçütlerine göre sınıflandırma; somut kanıt: Tahlil cevapları ile sınıflandırılmış tablo/şema.
 
 ### Derse giriş
 
-“Çözümleyebilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi okuma davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.
+Metin Tahlili-2 (Anlama): Okuma — Küçürek Hikâye / Merdiven — ders kitabı s.274 üzerinden bu saatin odağı görünür kılınır: Yapı, tür, dil-anlatım ve bağlam bulgularını küçürek hikâye ölçütlerine göre sınıflandırma. Öğrenci önceki/başlangıç kanıtını kısa biçimde önüne alır ve bu saatin sonunda neyin değişmiş veya derinleşmiş olması gerektiğini kendi cümlesiyle belirtir.
 
 ### Öğretmenin yapacakları
 
 1. “Çözümleyebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
-2. Öğrencinin şu görevi yerine getirmesini sağla: Metni yapı, tür, dil-anlatım ve dönem/bağlam özellikleri bakımından çözümler ve karşılaştırır. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
-3. “Tahlil cevapları, tablo/şema ve gerekçeli karşılaştırma kayıtları” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
-4. Ders sırasında kısa kontrol noktaları kullan; öğrencinin yanlış veya eksik stratejiyi kanıt oluşmadan önce fark edip düzeltmesine fırsat ver.
+2. Canonical görevi koru: Metni yapı, tür, dil-anlatım ve dönem/bağlam özellikleri bakımından çözümler ve karşılaştırır.
+3. İlk saatte bulguları görünür ölçütlere göre sınıflandır; kategori ile kanıt arasındaki bağı kaydettir.
+4. Bu saate özgü kanıtı topla: Tahlil cevapları ile sınıflandırılmış tablo/şema. Yalnız katılımı yeterli kanıt sayma; öğrencinin yaptığı bilişsel işlemi ürününde veya kaydında görünür kıl.
 
 ### Öğrencinin yapacakları
 
 - Metni yapı, tür, dil-anlatım ve dönem/bağlam özellikleri bakımından çözümler ve karşılaştırır.
-- Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.
-- Kapanışta bir güçlü kanıtını ve bir geliştirme adımını kısa biçimde kaydeder.
+- Yapı, tür, dil-anlatım ve bağlam bulgularını küçürek hikâye ölçütlerine göre sınıflandırma.
+- Kanıt olarak şunu üretir veya günceller: Tahlil cevapları ile sınıflandırılmış tablo/şema.
+- İlk kanıtında ikinci saatte sınayacağı, karşılaştıracağı, geliştireceği veya aktaracağı tek noktayı işaretler.
 
 ### Kaynak bağları
 
@@ -58,43 +58,43 @@
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı şudur: “Tahlil cevapları, tablo/şema ve gerekçeli karşılaştırma kayıtları”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen okuma becerisine uygunluğu üzerinden verilir.
+Bu ders saatinin birincil ölçme kanıtı “Tahlil cevapları ile sınıflandırılmış tablo/şema”dir. Değerlendirme, öğrencinin “Yapı, tür, dil-anlatım ve bağlam bulgularını küçürek hikâye ölçütlerine göre sınıflandırma” işlemini görünür ve gerekçeli biçimde yapıp yapmadığına dayanır; kaynakta doğrulanmamış puan aralığı veya rubrik ölçütü eklenmez.
 
 ### Kapanış
 
-Öğrenci “Tahlil cevapları, tablo/şema ve gerekçeli karşılaştırma kayıtları” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
+Öğrenci “Tahlil cevapları ile sınıflandırılmış tablo/şema” kanıtında ikinci derse taşıyacağı tek soruyu, varsayımı veya geliştirme noktasını işaretler.
 
 ### Materyaller
 
 - Metin Tahlili-2 (Anlama): Okuma — Küçürek Hikâye / Merdiven — ders kitabı s.274
 - Öğrencinin bu ders saatinde oluşturduğu somut kanıt kaydı
 
-## 2. Ders — Çözümleyebilme: kanıt üretme ve geliştirme
+## 2. Ders — Küçürek Hikâye Ölçütlerini Metin Kanıtıyla Gerekçelendirme
 
 **Süre:** 1 ders saati  
 **Öğrenme çıktıları:** `TDE2.4`
 
 ### Hedef
 
-Öğrenci, “Çözümleyebilme” etkinliğinde metni yapı, tür, dil-anlatım ve dönem/bağlam özellikleri bakımından çözümler ve karşılaştırır; ürettiği kanıtı gerekçelendirerek kanıtı geliştirme ve düzeltme sürecini tamamlar.
+Öğrenci, “Çözümleyebilme” etkinliğinde metni yapı, tür, dil-anlatım ve dönem/bağlam özellikleri bakımından çözümler ve karşılaştırır. Bu ders saatinin pedagojik odağı: küçürek hikâye sınıflandırmasını merdiven’den kanıtla gerekçelendirme; somut kanıt: Gerekçeli tür açıklaması ve karşılaştırma kaydı.
 
 ### Derse giriş
 
-“Çözümleyebilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi okuma davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.
+Metin Tahlili-2 (Anlama): Okuma — Küçürek Hikâye / Merdiven — ders kitabı s.274 üzerinden bu saatin odağı görünür kılınır: Küçürek hikâye sınıflandırmasını Merdiven’den kanıtla gerekçelendirme. Öğrenci önceki/başlangıç kanıtını kısa biçimde önüne alır ve bu saatin sonunda neyin değişmiş veya derinleşmiş olması gerektiğini kendi cümlesiyle belirtir.
 
 ### Öğretmenin yapacakları
 
 1. “Çözümleyebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
-2. Öğrencinin şu görevi yerine getirmesini sağla: Metni yapı, tür, dil-anlatım ve dönem/bağlam özellikleri bakımından çözümler ve karşılaştırır. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
-3. “Tahlil cevapları, tablo/şema ve gerekçeli karşılaştırma kayıtları” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
-4. İlk denemeden sonra ortak bir güçlü örneği ve geliştirilmesi gereken bir örneği anonim biçimde karşılaştır; öğrencinin ikinci denemesinde neyi değiştireceğini netleştir.
+2. Canonical görevi koru: Metni yapı, tür, dil-anlatım ve dönem/bağlam özellikleri bakımından çözümler ve karşılaştırır.
+3. İkinci saatte sınıflandırma ölçütünü ve tartışmalı örnekleri gerekçelendirt; yalnız listelemeyi yeterli sayma.
+4. Bu saate özgü kanıtı topla: Gerekçeli tür açıklaması ve karşılaştırma kaydı. Yalnız katılımı yeterli kanıt sayma; öğrencinin yaptığı bilişsel işlemi ürününde veya kaydında görünür kıl.
 
 ### Öğrencinin yapacakları
 
 - Metni yapı, tür, dil-anlatım ve dönem/bağlam özellikleri bakımından çözümler ve karşılaştırır.
-- Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.
-- İlk kanıtı ile düzeltilmiş kanıtı karşılaştırıp hangi değişikliğin sonucu iyileştirdiğini açıklar.
+- Küçürek hikâye sınıflandırmasını Merdiven’den kanıtla gerekçelendirme.
+- Kanıt olarak şunu üretir veya günceller: Gerekçeli tür açıklaması ve karşılaştırma kaydı.
+- İlk kanıtıyla bu saatin kanıtını karşılaştırır ve değişimi açıklar: Sınıflandırmadan tür ölçütlerini metin kanıtıyla savunmaya geçilir.
 
 ### Kaynak bağları
 
@@ -103,11 +103,11 @@ Ana ölçme kanıtı şudur: “Tahlil cevapları, tablo/şema ve gerekçeli kar
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı şudur: “Tahlil cevapları, tablo/şema ve gerekçeli karşılaştırma kayıtları”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen okuma becerisine uygunluğu üzerinden verilir.
+Bu ders saatinin birincil ölçme kanıtı “Gerekçeli tür açıklaması ve karşılaştırma kaydı”dir. Değerlendirme, öğrencinin “Küçürek hikâye sınıflandırmasını Merdiven’den kanıtla gerekçelendirme” işlemini görünür ve gerekçeli biçimde yapıp yapmadığına dayanır; kaynakta doğrulanmamış puan aralığı veya rubrik ölçütü eklenmez.
 
 ### Kapanış
 
-Öğrenci “Tahlil cevapları, tablo/şema ve gerekçeli karşılaştırma kayıtları” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
+Öğrenci ilk kanıt ile son kanıt arasındaki farkı tek cümlede açıklar ve şu ilerlemeyi görünür kılar: Sınıflandırmadan tür ölçütlerini metin kanıtıyla savunmaya geçilir.
 
 ### Materyaller
 
@@ -128,4 +128,4 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanı
 
 ---
 
-<!-- TYMM_JSON_SHA256:60c896ba0d26259664255dd2d577606d4c5c40d8d9e4a160f401da4bae53f93c -->
+<!-- TYMM_JSON_SHA256:aefbb564554149e701952f7df72e1dba2e0f013ef98a4042d07c9cd1a6d02527 -->

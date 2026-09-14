@@ -24,32 +24,32 @@
 
 # Ders akışı
 
-## 1. Ders — Anlam Oluşturabilme: kanıt üretme ve geliştirme
+## 1. Ders — Ben, Mimar Sinan’da Anlam İzleri: Kanıtları Belirleme
 
 **Süre:** 1 ders saati  
 **Öğrenme çıktıları:** `TDE2.1`
 
 ### Hedef
 
-Öğrenci, “Anlam Oluşturabilme” etkinliğinde metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur; ürettiği kanıtı gerekçelendirerek uygulama ve ilk kanıt sürecini tamamlar.
+Öğrenci, “Anlam Oluşturabilme” etkinliğinde metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur. Bu ders saatinin pedagojik odağı: tiyatro metninde konu, tema, ileti, söz varlığı ve bağlama ilişkin kanıtları seçme; somut kanıt: Anlama cevapları, işaretlemeler ve seçilmiş tiyatro kanıtları.
 
 ### Derse giriş
 
-“Anlam Oluşturabilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi okuma davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.
+Metin Tahlili-1 (Anlama): Okuma — Tiyatro / Ben, Mimar Sinan — ders kitabı s.247 üzerinden bu saatin odağı görünür kılınır: Tiyatro metninde konu, tema, ileti, söz varlığı ve bağlama ilişkin kanıtları seçme. Öğrenci önceki/başlangıç kanıtını kısa biçimde önüne alır ve bu saatin sonunda neyin değişmiş veya derinleşmiş olması gerektiğini kendi cümlesiyle belirtir.
 
 ### Öğretmenin yapacakları
 
 1. “Anlam Oluşturabilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
-2. Öğrencinin şu görevi yerine getirmesini sağla: Metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
-3. “Anlama sorularına cevaplar, işaretlemeler ve anlamlandırma kayıtları” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
-4. Ders sırasında kısa kontrol noktaları kullan; öğrencinin yanlış veya eksik stratejiyi kanıt oluşmadan önce fark edip düzeltmesine fırsat ver.
+2. Canonical görevi koru: Metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur.
+3. Önce öğrencinin hedef beceriye ilişkin somut kanıtı seçmesini ve işaretlemesini sağla.
+4. Bu saate özgü kanıtı topla: Anlama cevapları, işaretlemeler ve seçilmiş tiyatro kanıtları. Yalnız katılımı yeterli kanıt sayma; öğrencinin yaptığı bilişsel işlemi ürününde veya kaydında görünür kıl.
 
 ### Öğrencinin yapacakları
 
 - Metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur.
-- Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.
-- Kapanışta bir güçlü kanıtını ve bir geliştirme adımını kısa biçimde kaydeder.
+- Tiyatro metninde konu, tema, ileti, söz varlığı ve bağlama ilişkin kanıtları seçme.
+- Kanıt olarak şunu üretir veya günceller: Anlama cevapları, işaretlemeler ve seçilmiş tiyatro kanıtları.
+- İlk kanıtında ikinci saatte sınayacağı, karşılaştıracağı, geliştireceği veya aktaracağı tek noktayı işaretler.
 
 ### Kaynak bağları
 
@@ -58,43 +58,43 @@
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı şudur: “Anlama sorularına cevaplar, işaretlemeler ve anlamlandırma kayıtları”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen okuma becerisine uygunluğu üzerinden verilir.
+Bu ders saatinin birincil ölçme kanıtı “Anlama cevapları, işaretlemeler ve seçilmiş tiyatro kanıtları”dir. Değerlendirme, öğrencinin “Tiyatro metninde konu, tema, ileti, söz varlığı ve bağlama ilişkin kanıtları seçme” işlemini görünür ve gerekçeli biçimde yapıp yapmadığına dayanır; kaynakta doğrulanmamış puan aralığı veya rubrik ölçütü eklenmez.
 
 ### Kapanış
 
-Öğrenci “Anlama sorularına cevaplar, işaretlemeler ve anlamlandırma kayıtları” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
+Öğrenci “Anlama cevapları, işaretlemeler ve seçilmiş tiyatro kanıtları” kanıtında ikinci derse taşıyacağı tek soruyu, varsayımı veya geliştirme noktasını işaretler.
 
 ### Materyaller
 
 - Metin Tahlili-1 (Anlama): Okuma — Tiyatro / Ben, Mimar Sinan — ders kitabı s.247
 - Öğrencinin bu ders saatinde oluşturduğu somut kanıt kaydı
 
-## 2. Ders — Anlam Oluşturabilme: kanıt üretme ve geliştirme
+## 2. Ders — Konu, Tema ve İleti: Tiyatro Kanıtından Yoruma
 
 **Süre:** 1 ders saati  
 **Öğrenme çıktıları:** `TDE2.1`
 
 ### Hedef
 
-Öğrenci, “Anlam Oluşturabilme” etkinliğinde metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur; ürettiği kanıtı gerekçelendirerek kanıtı geliştirme ve düzeltme sürecini tamamlar.
+Öğrenci, “Anlam Oluşturabilme” etkinliğinde metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur. Bu ders saatinin pedagojik odağı: seçilen kanıtların tema, ileti ve bağlamla ilişkisini yorumlama; somut kanıt: Kanıt-yorum eşleştirmesi ve gerekçeli anlam kaydı.
 
 ### Derse giriş
 
-“Anlam Oluşturabilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi okuma davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.
+Metin Tahlili-1 (Anlama): Okuma — Tiyatro / Ben, Mimar Sinan — ders kitabı s.247 üzerinden bu saatin odağı görünür kılınır: Seçilen kanıtların tema, ileti ve bağlamla ilişkisini yorumlama. Öğrenci önceki/başlangıç kanıtını kısa biçimde önüne alır ve bu saatin sonunda neyin değişmiş veya derinleşmiş olması gerektiğini kendi cümlesiyle belirtir.
 
 ### Öğretmenin yapacakları
 
 1. “Anlam Oluşturabilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
-2. Öğrencinin şu görevi yerine getirmesini sağla: Metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
-3. “Anlama sorularına cevaplar, işaretlemeler ve anlamlandırma kayıtları” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
-4. İlk denemeden sonra ortak bir güçlü örneği ve geliştirilmesi gereken bir örneği anonim biçimde karşılaştır; öğrencinin ikinci denemesinde neyi değiştireceğini netleştir.
+2. Canonical görevi koru: Metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur.
+3. İkinci saatte seçilen kanıtın ne gösterdiğini, anlam/işlev ilişkisini ve gerekçesini açıklat.
+4. Bu saate özgü kanıtı topla: Kanıt-yorum eşleştirmesi ve gerekçeli anlam kaydı. Yalnız katılımı yeterli kanıt sayma; öğrencinin yaptığı bilişsel işlemi ürününde veya kaydında görünür kıl.
 
 ### Öğrencinin yapacakları
 
 - Metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur.
-- Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.
-- İlk kanıtı ile düzeltilmiş kanıtı karşılaştırıp hangi değişikliğin sonucu iyileştirdiğini açıklar.
+- Seçilen kanıtların tema, ileti ve bağlamla ilişkisini yorumlama.
+- Kanıt olarak şunu üretir veya günceller: Kanıt-yorum eşleştirmesi ve gerekçeli anlam kaydı.
+- İlk kanıtıyla bu saatin kanıtını karşılaştırır ve değişimi açıklar: Kanıt bulmaktan kanıtın tiyatro metninde ne gösterdiğini açıklamaya geçilir.
 
 ### Kaynak bağları
 
@@ -103,11 +103,11 @@ Ana ölçme kanıtı şudur: “Anlama sorularına cevaplar, işaretlemeler ve a
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı şudur: “Anlama sorularına cevaplar, işaretlemeler ve anlamlandırma kayıtları”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen okuma becerisine uygunluğu üzerinden verilir.
+Bu ders saatinin birincil ölçme kanıtı “Kanıt-yorum eşleştirmesi ve gerekçeli anlam kaydı”dir. Değerlendirme, öğrencinin “Seçilen kanıtların tema, ileti ve bağlamla ilişkisini yorumlama” işlemini görünür ve gerekçeli biçimde yapıp yapmadığına dayanır; kaynakta doğrulanmamış puan aralığı veya rubrik ölçütü eklenmez.
 
 ### Kapanış
 
-Öğrenci “Anlama sorularına cevaplar, işaretlemeler ve anlamlandırma kayıtları” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
+Öğrenci ilk kanıt ile son kanıt arasındaki farkı tek cümlede açıklar ve şu ilerlemeyi görünür kılar: Kanıt bulmaktan kanıtın tiyatro metninde ne gösterdiğini açıklamaya geçilir.
 
 ### Materyaller
 
@@ -128,4 +128,4 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanı
 
 ---
 
-<!-- TYMM_JSON_SHA256:20654b2c3d953e0e3991fca0028b9952a04bd9add9195cb6eaab5d872607ef94 -->
+<!-- TYMM_JSON_SHA256:27ac3c900ab3e785c79946303813e812539de1f27e0b7e36d5ff90203470443d -->
