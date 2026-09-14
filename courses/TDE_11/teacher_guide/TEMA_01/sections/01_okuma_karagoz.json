@@ -1,0 +1,267 @@
+{
+  "schema_version": "1.1.0",
+  "document_type": "TYMM_TEACHER_GUIDE_SECTION",
+  "course_id": "TDE_11",
+  "theme_id": "TEMA_01",
+  "section_id": "T1_SEC_01_OKUMA_KARAGOZ",
+  "title": "Metin Tahlili-1 (Anlama): Okuma — Karagöz Oyunu (Yazıcı)",
+  "section_type": "READING",
+  "printed_page_range": "15-35",
+  "content_status": "VERIFIED",
+  "outcome_refs": ["TDE2.1", "TDE2.2", "TDE2.3", "TDE2.4"],
+  "activity_refs": ["T1_ACT_01_OKUMA_YONETIM", "T1_ACT_02_OKUMA_ICERIK_ANLAM", "T1_ACT_03_OKUMA_UYGULAMA_COZUMLEME", "T1_ACT_04_OKUMA_DEGERLENDIRME"],
+  "lesson_plan_refs": [
+    "courses/TDE_11/generated/lesson_plans/TEMA_01/BLOCK_T1_01_OKUMA/BLOCK_T1_01_OKUMA_P01.json",
+    "courses/TDE_11/generated/lesson_plans/TEMA_01/BLOCK_T1_01_OKUMA/BLOCK_T1_01_OKUMA_P02.json",
+    "courses/TDE_11/generated/lesson_plans/TEMA_01/BLOCK_T1_01_OKUMA/BLOCK_T1_01_OKUMA_P03.json",
+    "courses/TDE_11/generated/lesson_plans/TEMA_01/BLOCK_T1_01_OKUMA/BLOCK_T1_01_OKUMA_P04.json"
+  ],
+  "guide_units": [
+    {
+      "unit_id": "T1_GUIDE_U01_OKUMA_YONETIM",
+      "title": "Okumayı Yönetebilme",
+      "printed_page_range": "15-24",
+      "activity_refs": ["T1_ACT_01_OKUMA_YONETIM"],
+      "outcome_refs": ["TDE2.1"],
+      "content_status": "VERIFIED",
+      "purpose": "Ön bilgiyi etkinleştirme; okuma amacı, stratejisi ve tahmini görünür öğrenci kanıtına dönüştürme.",
+      "items": [
+        {
+          "item_id": "T1_G01_P15_PREP",
+          "printed_page_range": "15",
+          "label": "Konuya Başlarken — geleneksel tiyatro ve günlük hayat",
+          "item_type": "QUESTION",
+          "expected_answer": {
+            "dikkat_ceken": "Geleneksel tiyatro kişileri, abartılı tip özellikleri, mizah ve farklı konuşma biçimleri öne çıkabilir.",
+            "gunluk_hayat": "Kişiler, meslekler, ilişkiler, anlaşmazlıklar ve konuşma biçimleri mizah ve tipler üzerinden sahneye taşınabilir.",
+            "yazili_metin": "Karagöz, orta oyunu ve meddah geleneğinde doğaçlama temel olduğu için ayrıntılı sabit metin sınırlıdır.",
+            "guncel_benzerler": "Tiyatro, stand-up, skeç, doğaçlama tiyatro, komedi dizileri veya animasyonlar benzer eğlendirme ve toplumsal eleştiri işlevleri üstlenebilir."
+          },
+          "acceptance_criteria": ["Görsel/gözlem cevabında neden dikkat çektiğini açıklar.", "Güncel benzerlikte mizah, doğaçlama, tip, toplumsal eleştiri veya seyirci etkileşiminden en az biriyle bağ kurar."],
+          "teacher_guidance": ["Gözleme dayalı cevapta seçilen unsurdan çok gerekçeyi değerlendir."],
+          "common_misconceptions": ["Yalnız tür adı verip işlev benzerliğini açıklamamak."],
+          "assessment_evidence": ["Dört hazırlık sorusuna kısa, gerekçeli ön bilgi cevapları."],
+          "differentiation": {"support": ["Her soru için bir anahtar kavram ver."], "enrichment": ["Geleneksel tiyatro ile güncel bir mizah formatını işlev bakımından karşılaştır."]},
+          "provenance": {"source_ids": ["legacy_teacher_guide"], "source_locators": ["basılı s.15"], "content_class": "MIGRATED_LEGACY_GUIDE"}
+        },
+        {
+          "item_id": "T1_G01_P16_17_BACKGROUND",
+          "printed_page_range": "16-17",
+          "label": "Geleneksel tiyatro bilgi kartları, tipler ve dil",
+          "item_type": "TABLE",
+          "expected_answer": {
+            "temel_ozellikler": {"dogaclama": "Ana çerçeve korunurken konuşmalar geliştirilebilir.", "tipler_mizah": "Belirgin sosyal/kültürel tipler; yanlış anlama, söz oyunu ve karşıtlıklarla güldürü.", "gosterim": "Karagöz perde ve tasvirle; orta oyunu oyuncularla açık alanda; meddah tek anlatıcıyla icra edilir."},
+            "tipler": {"Beberuhi": "hareketli, abartılı, komik izlenimi", "Çelebi": "şehirli, zarif ve görgülü izlenimi", "Zenne": "kadın tipini ve sosyal rolü temsil eder"},
+            "dil_sonuclari": ["Dil eğitim, sosyal çevre ve mizacı sezdirir.", "Jest, mimik, ses tonu ve beden dili sözün anlamını tamamlar.", "Döneme özgü sözcükler anlaşılmayı yer yer güçleştirirken atmosfer ve mizahı besler."]
+          },
+          "acceptance_criteria": ["En az bir tür, bir icra ve bir dil/mizah özelliği belirler.", "Görünüşten kişilik çıkarımını kesin hüküm değil gerekçeli izlenim olarak kurar."],
+          "teacher_guidance": ["Önce bireysel not, sonra eşle iki ortak madde, en son sınıfla ortak sonuç oluştur.", "Ağız/konuşma farklılıklarını sosyal bağlam ve karakter oluşturma üzerinden ele al."],
+          "common_misconceptions": ["Görselden karakter hakkında kesin ve genelleyici hüküm vermek.", "Ağız farklılığını değer hiyerarşisi saymak."],
+          "assessment_evidence": ["Bilgi kartı sınıflaması ve gerekçeli tip/dil çıkarımları."],
+          "differentiation": {"support": ["Tür–icra–dil başlıklı üç sütunlu tablo ver."], "enrichment": ["Bir tipin dilinin değişmesi hâlinde mizah etkisinin nasıl değişeceğini tartıştır."]},
+          "provenance": {"source_ids": ["legacy_teacher_guide", "textbook_map"], "source_locators": ["basılı s.16-17", "T1_ACT_01_OKUMA_YONETIM"], "content_class": "MIXED"}
+        },
+        {
+          "item_id": "T1_G01_P18_24_READING_STRATEGY",
+          "printed_page_range": "18-24",
+          "label": "“Yazıcı” için iki okumalı strateji",
+          "item_type": "PROCESS",
+          "expected_answer": {"tahmin": "Karagöz'ün yazıcılık işiyle karşılaşması, işi bilmemesi ve müşterilerin sözlerini yanlış anlaması üzerinden komik durumlar gelişebilir.", "ilk_okuma": "Olay akışını izle.", "ikinci_okuma": "Yanlış anlama, söz oyunu, ağız/konuşma biçimi ve karaktere özgü kelime seçimini işaretle.", "izleme_noktalari": ["Hacivat-Karagöz karşıtlığı", "iş ile bilgi/beceri uyumsuzluğu", "farklı tiplerin dili", "yanlış anlamanın güldürüye dönüşmesi", "oyun bölümleriyle ilişki"]},
+          "acceptance_criteria": ["Tahmini sonuç doğruluğuyla değil okuma sonunda kanıtla revize edebilmesiyle değerlendir.", "İkinci okumada en az iki dil/mizah kanıtı işaretler."],
+          "teacher_guidance": ["Rollere göre okumada sosyal/dil özelliklerini ses tonuyla ilişkilendir.", "Sayfa 31'de 'Tahminim hangi noktada değişti?' sorusunu yeniden sor."],
+          "common_misconceptions": ["Tahmini yanlış/tuttu biçiminde puanlamak."],
+          "assessment_evidence": ["İlk/ikinci okuma notları ve kanıtlı tahmin revizyonu."],
+          "differentiation": {"support": ["Olay akışı için 3-5 duraklı şema ver."], "enrichment": ["Yanlış anlama ve söz oyununun mizah üretme mekanizmasını açıklat."]},
+          "provenance": {"source_ids": ["legacy_teacher_guide", "textbook_map"], "source_locators": ["basılı s.18-24", "T1_ACT_01_OKUMA_YONETIM"], "content_class": "MIXED"}
+        }
+      ],
+      "provenance": {"source_ids": ["legacy_teacher_guide", "textbook_map"], "source_locators": ["basılı s.15-24", "T1_ACT_01_OKUMA_YONETIM"], "content_class": "MIXED"}
+    },
+    {
+      "unit_id": "T1_GUIDE_U02_OKUMA_ANLAM",
+      "title": "Anlam Oluşturabilme",
+      "printed_page_range": "25-31",
+      "activity_refs": ["T1_ACT_02_OKUMA_ICERIK_ANLAM"],
+      "outcome_refs": ["TDE2.2"],
+      "content_status": "VERIFIED",
+      "purpose": "Söz varlığı, konu/tema/ileti, tür ve bağlam üzerinden anlam oluşturma.",
+      "items": [
+        {
+          "item_id": "T1_G02_P25_VOCAB",
+          "printed_page_range": "25",
+          "label": "Söz varlığını güncelleme",
+          "item_type": "VOCABULARY",
+          "expected_answer": {"silsile": "birbirini izleyen dizi; bağlama göre soy zinciri", "dadı": "çocuk bakımıyla ilgilenen kadın", "bendeniz": "ben anlamında nezaketli söyleyiş", "murat": "istek, dilek, amaç", "ispir": "seyis", "esbap": "sebepler, nedenler", "mûcibe": "gerektiren veya sebep olan", "bî-behre": "nasipsiz, yoksun"},
+          "acceptance_criteria": ["Karşılığı bağlama göre seçer.", "Güncellemenin dönem havası ve karakter üslubuna etkisini fark eder."],
+          "teacher_guidance": ["Kitap dipnotu varsa öncelik ondadır.", "Sözlüğü kopyalatmak yerine kelimeyi günümüz Türkçesiyle cümlede yeniden kurdur."],
+          "common_misconceptions": ["Tek sözlük karşılığını bağlamdan bağımsız mutlak doğru saymak."],
+          "assessment_evidence": ["Sözcük→güncel karşılık ve en az bir bağlam cümlesi."],
+          "differentiation": {"support": ["Kelime ve bağlam ipucunu birlikte ver."], "enrichment": ["Sözcüğün güncellenmesinin karakter/dönem etkisini açıklat."]},
+          "provenance": {"source_ids": ["legacy_teacher_guide", "textbook_map"], "source_locators": ["basılı s.25", "T1_ACT_02_OKUMA_ICERIK_ANLAM"], "content_class": "MIXED"}
+        },
+        {
+          "item_id": "T1_G02_P26_STRUCTURE",
+          "printed_page_range": "26",
+          "label": "Karagöz oyununun bölümleri",
+          "item_type": "TABLE",
+          "expected_answer": {"Mukaddime": "Hacivat'ın perdeye gelişi ve açılış", "Muhavere": "Karagöz-Hacivat karşılıklı konuşması", "Fasıl": "asıl olay", "Bitiş": "sonuç ve vedalaşma"},
+          "acceptance_criteria": ["Dört bölümü doğru işlevle eşleştirir.", "“Yazıcı”dan bir olayı bölümlerden birine gerekçeyle yerleştirir."],
+          "teacher_guidance": ["Ezberden çok metindeki olay-bölüm eşleştirmesini kanıtlat."],
+          "common_misconceptions": [],
+          "assessment_evidence": ["Olay + bölüm + gerekçe üçlüsü."],
+          "differentiation": {"support": ["Dört bölümün adını sıralı ver; işlevleri öğrenci eşleştirsin."], "enrichment": ["Seçilen bir sahnenin farklı bölüme taşınmasının yapıyı nasıl değiştireceğini tartıştır."]},
+          "provenance": {"source_ids": ["legacy_teacher_guide", "textbook_map"], "source_locators": ["basılı s.26", "T1_ACT_02_OKUMA_ICERIK_ANLAM"], "content_class": "MIXED"}
+        },
+        {
+          "item_id": "T1_G02_P27_COMPARE",
+          "printed_page_range": "27",
+          "label": "Karagöz ve Hacivat karşılaştırması",
+          "item_type": "TABLE",
+          "expected_answer": {"Karagöz": ["doğal, doğrudan, günlük halk dili", "hazırcevap ve tepkisel", "bilmediği sözleri ses benzerliğiyle yanlış anlayarak mizah üretir"], "Hacivat": ["ölçülü, kibar ve daha süslü dil", "kontrollü ve açıklayıcı", "eski veya ağır kelime ve kalıplara daha açıktır"], "ipuclari": ["kelime seçimi", "hitap", "üslup", "tepki", "yanlış anlamalar", "davranış ve ilişkiler"]},
+          "acceptance_criteria": ["En az iki karşılaştırma ölçütü kullanır.", "Dil özelliğini kişilik/eğitim/sosyal çevre çıkarımıyla gerekçelendirir."],
+          "teacher_guidance": ["Karakteri yalnız eğitim düzeyine indirgemeden dil, davranış ve ilişki kanıtlarını birlikte kullandır."],
+          "common_misconceptions": ["Tek bir dil özelliğinden kesin kişilik hükmü çıkarmak."],
+          "assessment_evidence": ["İki karakter için karşılaştırmalı tablo ve en az bir gerekçe."],
+          "differentiation": {"support": ["Dil, davranış ve sosyal çevre başlıklarını hazır ver."], "enrichment": ["Karakterlerin dilini değiştirerek mizahın etkisini yeniden değerlendirt."]},
+          "provenance": {"source_ids": ["legacy_teacher_guide"], "source_locators": ["basılı s.27"], "content_class": "MIGRATED_LEGACY_GUIDE"}
+        },
+        {
+          "item_id": "T1_G02_P28_29_INTERPRET",
+          "printed_page_range": "28-29",
+          "label": "Dil çeşitliliği, dostluk ve değerler",
+          "item_type": "QUESTION",
+          "expected_answer": {"dil_sosyal": "Eğitim, meslek, yöre ve sosyal çevre dile yansıyabilir; karakter yalnız söz varlığıyla değil davranış, beden dili, meslek ve ilişkilerle tanınır.", "dil_cesitliligi": "Aksan ve yöresel söyleyiş dil çeşitliliğidir; küçümseme yerine anlama ve saygı gerekir.", "dostluk": "Güven, içtenlik, vefa, dayanışma ve zor zamanda destek olmayı; farklılıkları ilişki içinde taşıyabilmeyi içerir."},
+          "acceptance_criteria": ["Yorumunu metinden veya görselden gözlenebilir kanıtla gerekçelendirir.", "Saygı, empati ve kapsayıcılık bağını kurar."],
+          "teacher_guidance": ["Ağız/şiveyi üstünlük-aşağılık göstergesi gibi sunma.", "Dostluk tanımında verilen söz/dörtlük ile öğrencinin kendi tanımı arasında anlam bağı iste."],
+          "common_misconceptions": ["Dil çeşitliliğini karakter değeri veya zekâ ölçüsü saymak."],
+          "assessment_evidence": ["Metin kanıtı + gerekçe; dostluk için anlam bağı."],
+          "differentiation": {"support": ["Kanıt → yorum kalıbı ver."], "enrichment": ["Dil çeşitliliğinin mizah üretimi ile etik temsil arasındaki sınırını tartıştır."]},
+          "provenance": {"source_ids": ["legacy_teacher_guide"], "source_locators": ["basılı s.28-29"], "content_class": "MIGRATED_LEGACY_GUIDE"}
+        },
+        {
+          "item_id": "T1_G02_P30_31_COMPREHENSION",
+          "printed_page_range": "30-31",
+          "label": "Metni Anlayalım — ana cevap kümesi",
+          "item_type": "QUESTION",
+          "expected_answer": {"yasama_nedenleri": "Kültürel miras gücü, toplumsal tipleri mizahla yansıtma, güncel konulara uyarlanabilme, söz oyunları ve görsellik.", "kulturdeki_yeri": "Gündelik hayatı, meslekleri, konuşma biçimlerini ve toplumsal ilişkileri taşıyan geleneksel tiyatro ve kültür mirası unsurudur.", "konu": "Karagöz'ün yazıcılık yapmaya çalışması ve müşterilerle komik yanlış anlamalar yaşaması.", "tema": "İletişim, yanlış anlama ve dil farklılıkları; ikincil olarak bilgi/beceri ile iş arasındaki uyumsuzluk.", "acik_ileti": "Farklı konuşma biçimleri ve yanlış anlamalar iletişimi etkiler.", "ortuk_ileti": "Dikkatle dinlemek, anlamadığını açıklığa kavuşturmak ve bilmediği işi biliyormuş gibi yapmamak gerekir.", "sosyal_iletisim": "Farklı konuşma biçimlerine saygı, dikkatli dinleme, soru sorma ve açıklık.", "tahmin": "İlk tahmin komik yazıcılık olaylarıyken okuma sonunda güldürünün dil, iş bilmezlik ve yanlış anlamalardan doğduğu kanıtlanır."},
+          "acceptance_criteria": ["Konu ile temayı ayırır.", "Açık/örtük iletiyi metin kanıtıyla açıklar.", "Tahmin değişimini kanıtla açıklar."],
+          "teacher_guidance": ["Tahmini tutmayan öğrenciyi yanlış sayma; 'şu kanıt nedeniyle değişti' biçimini hedefle."],
+          "common_misconceptions": ["Konu ve temayı aynı kavram saymak.", "Örtük iletiyi metinde açıkça yazılı bir ifade sanmak."],
+          "assessment_evidence": ["Anlama sorularına gerekçeli cevaplar."],
+          "differentiation": {"support": ["Konu = ne anlatılıyor, tema = hangi temel kavram etrafında sorularıyla destekle."], "enrichment": ["Açık ve örtük iletilerin güncel iletişim sorunlarıyla bağını kurdur."]},
+          "provenance": {"source_ids": ["legacy_teacher_guide", "textbook_map"], "source_locators": ["basılı s.30-31", "T1_ACT_02_OKUMA_ICERIK_ANLAM"], "content_class": "MIXED"}
+        },
+        {
+          "item_id": "T1_G02_P30_31_GENRE_COMPARE",
+          "printed_page_range": "30-31",
+          "label": "Geleneksel türler ve “Yazıcı”–“Eskici Abdi” karşılaştırması",
+          "item_type": "TABLE",
+          "expected_answer": {"turler": {"Köy seyirlik oyunları": "köy yaşamı, tören, mevsim ve gelenek çevresindeki dramatik oyunlar", "Karagöz": "deriden tasvirlerle gölge oyunu", "Orta Oyunu": "açık alan, Kavuklu-Pişekâr, doğaçlama", "Meddah": "tek sanatçıyla taklit ve anlatım", "Kukla": "figürlerin ip, el veya çubukla hareket ettirilmesi"}, "karsilastirma": {"icerik": "Yazıcı: yazıcılık ve yanlış anlamalar; Eskici Abdi: geçim/iş arayışı", "cevre": "Karagöz eski şehir hayatı; orta oyunu şehir-esnaf çevresi", "zihniyet": "dil/eğitim farklarının mizahı; çalışma/geçim/yardımlaşma", "ileti": "doğru iletişim ve işi bilme; emek, çalışma ve yardım", "uslup": "söz oyunları ve farklı ağızlar; günlük dil ve Kavuklu-Pişekâr karşıtlığı"}},
+          "acceptance_criteria": ["Türleri temel icra özelliğiyle ayırt eder.", "İki metni en az üç ölçütle karşılaştırır."],
+          "teacher_guidance": [],
+          "common_misconceptions": ["Türleri yalnız karakter adlarına bakarak ayırmak."],
+          "assessment_evidence": ["Tür eşleştirme ve çok ölçütlü karşılaştırma."],
+          "differentiation": {"support": ["Karşılaştırma ölçütlerini hazır ver."], "enrichment": ["İki türde doğaçlamanın işlevini karşılaştır."]},
+          "provenance": {"source_ids": ["legacy_teacher_guide"], "source_locators": ["basılı s.30-31"], "content_class": "MIGRATED_LEGACY_GUIDE"}
+        }
+      ],
+      "provenance": {"source_ids": ["legacy_teacher_guide", "textbook_map"], "source_locators": ["basılı s.25-31", "T1_ACT_02_OKUMA_ICERIK_ANLAM"], "content_class": "MIXED"}
+    },
+    {
+      "unit_id": "T1_GUIDE_U03_OKUMA_COZUMLEME",
+      "title": "Çözümleyebilme",
+      "printed_page_range": "32-34",
+      "activity_refs": ["T1_ACT_03_OKUMA_UYGULAMA_COZUMLEME"],
+      "outcome_refs": ["TDE2.3"],
+      "content_status": "VERIFIED",
+      "purpose": "Yapı, çatışma, dil-üslup, fiilimsi ve sosyal bilim bağlantılarını çözümleme.",
+      "items": [
+        {
+          "item_id": "T1_G03_P32_33_DRAMATIC_ANALYSIS",
+          "printed_page_range": "32-33",
+          "label": "“Yazıcı” yapı ve çatışma çözümlemesi",
+          "item_type": "TABLE",
+          "expected_answer": {"kisiler": "Karagöz, Hacivat ve dükkâna gelen tipler", "mekan": "ağırlıklı olarak yazıcılık yapılan dükkân", "zaman": "kesin tarih yok; kısa zaman dilimi", "temel_catisma": "yazıcılığı bilmeden yapmaya çalışma ve dili/sözleri yanlış anlama", "dramatik_orgu": "iş/dükkânın ayarlanması → müşteriler → yanlış anlamalar → işin yürümemesi → bitiş", "catisma_kaynagi": "bilgi/beceri eksikliği ve dil farklılıkları", "dili_etkileyen": "özellikle kişiler ve zaman/dönem"},
+          "acceptance_criteria": ["Yapı unsurlarını metinden kanıtla belirler.", "Çatışmanın dil ve beceri farklarıyla ilişkisini açıklar."],
+          "teacher_guidance": ["Dükkânın farklı sosyal tipleri bir araya getirerek çatışmayı çoğalttığını fark ettir."],
+          "common_misconceptions": ["Dramatik örgüyü yalnız olay özeti olarak vermek."],
+          "assessment_evidence": ["Yapı tablosu ve gerekçeli çatışma açıklaması."],
+          "differentiation": {"support": ["Kişi-mekân-zaman-çatışma başlıklarını hazır ver."], "enrichment": ["Mekân değişseydi çatışmanın nasıl değişeceğini tartıştır."]},
+          "provenance": {"source_ids": ["legacy_teacher_guide", "textbook_map"], "source_locators": ["basılı s.32-33", "T1_ACT_03_OKUMA_UYGULAMA_COZUMLEME"], "content_class": "MIXED"}
+        },
+        {
+          "item_id": "T1_G03_P32_33_LANGUAGE_STYLE",
+          "printed_page_range": "32-33",
+          "label": "Karagöz/Hacivat dil-üslup ilişkisi",
+          "item_type": "QUESTION",
+          "expected_answer": "Karagöz günlük, sade, doğrudan ve hazırcevap bir dil kullanır; bilmediği sözcükleri ses benzerliğiyle karıştırması kültür/eğitim farkını görünür kılar. Hacivat daha kibar, ölçülü ve eski/süslü sözcüklere açık bir dil kullanır. Bu fark mizahın ana kaynaklarındandır.",
+          "acceptance_criteria": ["En az bir dil özelliği + kişilik/eğitim çıkarımı bağlantısı kurar."],
+          "teacher_guidance": ["Çıkarımı genelleme değil metne özgü kanıt olarak ele al."],
+          "common_misconceptions": [],
+          "assessment_evidence": ["Dil özelliği + çıkarım + örnek."],
+          "differentiation": {"support": ["Bir dil özelliği örneği verip çıkarımı öğrenciye tamamlattır."], "enrichment": ["Dil farkının çatışma ve mizah üzerindeki çift işlevini açıklat."]},
+          "provenance": {"source_ids": ["legacy_teacher_guide"], "source_locators": ["basılı s.32-33"], "content_class": "MIGRATED_LEGACY_GUIDE"}
+        },
+        {
+          "item_id": "T1_G03_P34_GERUND",
+          "printed_page_range": "34",
+          "label": "Fiilimsiler",
+          "item_type": "TABLE",
+          "expected_answer": {"yazılmış": "sıfat-fiil; adı niteler", "derken": "zarf-fiil; zaman/sıra", "çıkarak": "zarf-fiil; eylemin biçimi", "beklemek": "isim-fiil; fiili adlaştırır", "oturanlar": "adlaşmış sıfat-fiil; kişi/grup adı", "sallandıkça": "zarf-fiil; süreklilik/tekrar", "geçerken": "zarf-fiil; zaman"},
+          "acceptance_criteria": ["Fiilimsiyi tür ve cümledeki işlevle birlikte açıklar."],
+          "teacher_guidance": ["Yalnız eki ezberletmek yerine sözcüğün cümlede üstlendiği görevi sordur."],
+          "common_misconceptions": ["Fiilimsi ekini gördüğü her sözcüğü bağlamdan bağımsız aynı tür saymak."],
+          "assessment_evidence": ["Fiilimsi → tür → işlev tablosu."],
+          "differentiation": {"support": ["Tür adlarını ver; işlevi öğrencinin bulmasını iste."], "enrichment": ["Aynı fiil kökünü üç farklı fiilimsi türünde kullandır."]},
+          "provenance": {"source_ids": ["legacy_teacher_guide"], "source_locators": ["basılı s.34"], "content_class": "MIGRATED_LEGACY_GUIDE"}
+        },
+        {
+          "item_id": "T1_G03_P34_SOCIAL_SCIENCE",
+          "printed_page_range": "34",
+          "label": "Gölge oyunu ve sosyal bilimler",
+          "item_type": "TABLE",
+          "expected_answer": {"Tarih": "gündelik hayat, meslek, gelenek, giyim ve iletişim biçimleri", "Sosyoloji": "toplumsal kesimler ve ilişkileri", "Psikoloji": "davranış, çatışma, yanlış anlama ve tepkiler", "degerlendirme": "Gölge oyunu eğlencenin yanında geçmiş toplumun gündelik hayatı, sosyal yapısı ve insan ilişkileri hakkında veri taşıyabilir."},
+          "acceptance_criteria": ["En az iki disiplin için metinsel veya bağlamsal bağlantı kurar."],
+          "teacher_guidance": ["Eseri doğrudan tarih belgesi saymak yerine sanatsal seçme/dönüştürme payını hatırlat."],
+          "common_misconceptions": ["Edebî/sahne metnini bütünüyle nesnel tarih belgesi saymak."],
+          "assessment_evidence": ["Disiplin + örnek veri + gerekçe."],
+          "differentiation": {"support": ["Her disiplin için bir başlangıç örneği ver."], "enrichment": ["Aynı sahneyi üç disiplinin farklı sorularıyla incelet."]},
+          "provenance": {"source_ids": ["legacy_teacher_guide"], "source_locators": ["basılı s.34"], "content_class": "MIGRATED_LEGACY_GUIDE"}
+        }
+      ],
+      "provenance": {"source_ids": ["legacy_teacher_guide", "textbook_map"], "source_locators": ["basılı s.32-34", "T1_ACT_03_OKUMA_UYGULAMA_COZUMLEME"], "content_class": "MIXED"}
+    },
+    {
+      "unit_id": "T1_GUIDE_U04_OKUMA_DEGERLENDIRME",
+      "title": "Süreci Değerlendirebilme",
+      "printed_page_range": "35",
+      "activity_refs": ["T1_ACT_04_OKUMA_DEGERLENDIRME"],
+      "outcome_refs": ["TDE2.4"],
+      "content_status": "VERIFIED",
+      "purpose": "Okuma sürecini ve metne ilişkin yargıları ölçütlere dayalı yansıtma.",
+      "items": [
+        {
+          "item_id": "T1_G04_P35_REFLECTION",
+          "printed_page_range": "35",
+          "label": "Okuma sürecini değerlendirme",
+          "item_type": "ASSESSMENT",
+          "expected_answer": {"dil_gulduru": "Yanlış anlamalar, söz oyunları, ses benzerlikleri ve farklı konuşma biçimleri güldürü üretir.", "dil_catisma": "Eğitim, kültür ve söz varlığı farkları iletişim kopukluğuna yol açar.", "dil_donem": "Eski kelimeler, ağızlar, meslekler ve sosyal tipler dönemi ve şehir çeşitliliğini yansıtır.", "dramatik_oge": "Kişiler güçlü bir seçimdir; temel çatışma eğitim, kültür, mizaç ve konuşma farklarından doğar. Başka ögeler de gerekçeyle kabul edilebilir.", "diger_dil_unsurlari": ["deyim", "atasözü", "yöresel söyleyiş", "mecaz", "abartma", "ironi", "ses benzerliği", "çift anlam"]},
+          "acceptance_criteria": ["Değerlendirme yargısını gerekçeyle destekler.", "Alternatif dramatik öge seçimini gerekçelendirebilir."],
+          "teacher_guidance": ["Öz değerlendirme formunu öğrencinin yerine doldurma; bir güçlü yön + bir geliştirme hedefi yazdır."],
+          "common_misconceptions": ["Öz değerlendirmeyi doğru/yanlış testine çevirmek."],
+          "assessment_evidence": ["Öz değerlendirme, çıkış notu veya gerekçeli yansıtma."],
+          "differentiation": {"support": ["Güçlü yönüm / geliştireceğim yönüm kalıbını ver."], "enrichment": ["Öğrenciden seçtiği ölçütün metin boyunca değişimini kanıtlamasını iste."]},
+          "provenance": {"source_ids": ["legacy_teacher_guide", "textbook_map"], "source_locators": ["basılı s.35", "T1_ACT_04_OKUMA_DEGERLENDIRME", "FORM_T1_P035_OZ_DEGERLENDIRME_01"], "content_class": "MIXED"}
+        }
+      ],
+      "provenance": {"source_ids": ["legacy_teacher_guide", "textbook_map"], "source_locators": ["basılı s.35", "T1_ACT_04_OKUMA_DEGERLENDIRME"], "content_class": "MIXED"}
+    }
+  ],
+  "section_principles": [
+    "Bilgi sorularında doğruluk; yorum sorularında metin kanıtı + gerekçe aranır.",
+    "Tahmin doğru/yanlış olarak değil kanıtla güncellenebilme becerisi olarak ele alınır.",
+    "Ağız ve konuşma farklılıkları üstünlük-aşağılık değil dil çeşitliliği ve karakter oluşturma işlevi üzerinden işlenir.",
+    "Öz değerlendirme öğrencinin yerine doldurulmaz; güçlü yön ve geliştirme hedefi görünür hâle getirilir."
+  ],
+  "provenance": {"source_ids": ["legacy_teacher_guide", "textbook_map", "theme_alignment", "lesson_plan_set"], "source_locators": ["basılı s.15-35", "T1_ACT_01_OKUMA_YONETIM", "T1_ACT_02_OKUMA_ICERIK_ANLAM", "T1_ACT_03_OKUMA_UYGULAMA_COZUMLEME", "T1_ACT_04_OKUMA_DEGERLENDIRME"], "content_class": "MIXED"}
+}
