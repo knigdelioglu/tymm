@@ -61,33 +61,77 @@ class PedagogicalDiversityTests(unittest.TestCase):
 
     def test_invalid_overlay_fails_in_strict_mode(self):
         overlay = {
+            "course_id": "TDE_11",
             "packages": [
                 {
                     "package_id": "P01",
                     "route_id": "UNKNOWN",
                     "lesson_progression": [],
                 }
-            ]
+            ],
         }
-        failures, warnings = validator.validate_overlay(
+        failures, warnings, designed = validator.validate_overlay(
             overlay,
             known_packages={"P01"},
             valid_routes={"VALID"},
             strict=True,
+            expected_lesson_nos={"P01": {1, 2}},
         )
         self.assertTrue(failures)
         self.assertFalse(warnings)
+        self.assertEqual(designed, {"P01"})
         self.assertIn("ROUTE_ID_UNKNOWN", failures[0]["details"])
         self.assertIn("LESSON_PROGRESSION_MISSING", failures[0]["details"])
+        self.assertTrue(any(detail.startswith("PROGRESSION_LESSON_SET_MISMATCH") for detail in failures[0]["details"]))
 
-    def test_real_tde11_advisory_baseline_is_measurable(self):
-        result = validator.validate_course(ROOT / "courses/TDE_11", strict=False)
+    def test_cross_overlay_duplicate_is_rejected(self):
+        progression = [
+            {
+                "lesson_no": 1,
+                "role": "INITIAL_CONSTRUCTION",
+                "cognitive_operation": "İlk işlem",
+                "student_evidence": "İlk kanıt",
+                "delta_from_previous": "İlk adım",
+            }
+        ]
+        shared_seen: set[str] = set()
+        first = {"packages": [{"package_id": "P01", "route_id": "VALID", "lesson_progression": progression}]}
+        second = {"packages": [{"package_id": "P01", "route_id": "VALID", "lesson_progression": progression}]}
+        failures1, _, _ = validator.validate_overlay(
+            first,
+            known_packages={"P01"},
+            valid_routes={"VALID"},
+            strict=True,
+            expected_lesson_nos={"P01": {1}},
+            global_seen=shared_seen,
+            source_path="first.json",
+        )
+        failures2, _, _ = validator.validate_overlay(
+            second,
+            known_packages={"P01"},
+            valid_routes={"VALID"},
+            strict=True,
+            expected_lesson_nos={"P01": {1}},
+            global_seen=shared_seen,
+            source_path="second.json",
+        )
+        self.assertFalse(failures1)
+        self.assertTrue(failures2)
+        self.assertIn("PACKAGE_ID_DUPLICATE_ACROSS_OVERLAYS", failures2[0]["details"])
+
+    def test_real_tde11_strict_final_state_is_complete_and_clean(self):
+        result = validator.validate_course(ROOT / "courses/TDE_11", strict=True)
         self.assertEqual(result["status"], "PASS")
         self.assertEqual(result["packages"], 88)
-        self.assertGreater(result["adjacent_lesson_pairs"], 0)
-        self.assertGreater(result["insufficient_delta_pairs"], 0)
-        self.assertGreater(result["generic_title_count"], 0)
-        self.assertTrue(any(item["code"] == "GENERIC_TITLE_OVERUSE" for item in result["warnings"]))
+        self.assertEqual(result["design_overlays"], 4)
+        self.assertEqual(result["designed_packages"], 88)
+        self.assertTrue(result["design_coverage_complete"])
+        self.assertEqual(result["adjacent_lesson_pairs"], 84)
+        self.assertEqual(result["insufficient_delta_pairs"], 0)
+        self.assertEqual(result["lesson_titles"], 172)
+        self.assertEqual(result["generic_title_count"], 0)
+        self.assertEqual(result["generic_title_share"], 0.0)
+        self.assertFalse(result["failures"])
 
 
 if __name__ == "__main__":
