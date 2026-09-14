@@ -69,32 +69,32 @@
 
 # Ders akışı
 
-## 1. Ders — Anlam Oluşturabilme: kanıt üretme ve geliştirme
+## 1. Ders — İletişim Araçları Metninde Anlam Kanıtlarını Toplama
 
 **Süre:** 1 ders saati  
 **Öğrenme çıktıları:** `TDE1.2`
 
 ### Hedef
 
-Öğrenci, “Anlam Oluşturabilme” etkinliğinde dinlenen/izlenen metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur; ürettiği kanıtı gerekçelendirerek uygulama ve ilk kanıt sürecini tamamlar.
+Öğrenci, “Anlam Oluşturabilme” etkinliğinde dinlenen/izlenen metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur. Bu ders saatinin pedagojik odağı: dinlenen/izlenen içerikten anlam kurmaya yarayan göstergeleri kaydetme; somut kanıt: Anlama cevapları ve yapılandırılmış dinleme/izleme notları.
 
 ### Derse giriş
 
-“Anlam Oluşturabilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi dinleme/izleme davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.
+Metin Tahlili-3 (Anlama): Dinleme / İzleme — Değişen İletişim Araçlarının Hayatımızdaki Yeri — ders kitabı s.65 üzerinden bu saatin odağı görünür kılınır: Dinlenen/izlenen içerikten anlam kurmaya yarayan göstergeleri kaydetme. Öğrenci önceki/başlangıç kanıtını kısa biçimde önüne alır ve bu saatin sonunda neyin değişmiş veya derinleşmiş olması gerektiğini kendi cümlesiyle belirtir.
 
 ### Öğretmenin yapacakları
 
 1. “Anlam Oluşturabilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
-2. Öğrencinin şu görevi yerine getirmesini sağla: Dinlenen/izlenen metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
-3. “Anlama sorularına cevaplar ve yapılandırılmış dinleme/izleme notları” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
-4. Ders sırasında kısa kontrol noktaları kullan; öğrencinin yanlış veya eksik stratejiyi kanıt oluşmadan önce fark edip düzeltmesine fırsat ver.
+2. Canonical görevi koru: Dinlenen/izlenen metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur.
+3. Önce öğrencinin hedef beceriye ilişkin somut kanıtı seçmesini ve işaretlemesini sağla.
+4. Bu saate özgü kanıtı topla: Anlama cevapları ve yapılandırılmış dinleme/izleme notları. Yalnız katılımı yeterli kanıt sayma; öğrencinin yaptığı bilişsel işlemi ürününde veya kaydında görünür kıl.
 
 ### Öğrencinin yapacakları
 
 - Dinlenen/izlenen metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur.
-- Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.
-- Kapanışta bir güçlü kanıtını ve bir geliştirme adımını kısa biçimde kaydeder.
+- Dinlenen/izlenen içerikten anlam kurmaya yarayan göstergeleri kaydetme.
+- Kanıt olarak şunu üretir veya günceller: Anlama cevapları ve yapılandırılmış dinleme/izleme notları.
+- İlk kanıtında ikinci saatte sınayacağı, karşılaştıracağı, geliştireceği veya aktaracağı tek noktayı işaretler.
 
 ### Kaynak bağları
 
@@ -103,43 +103,43 @@
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı şudur: “Anlama sorularına cevaplar ve yapılandırılmış dinleme/izleme notları”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen dinleme/izleme becerisine uygunluğu üzerinden verilir.
+Bu ders saatinin birincil ölçme kanıtı “Anlama cevapları ve yapılandırılmış dinleme/izleme notları”dir. Değerlendirme, öğrencinin “Dinlenen/izlenen içerikten anlam kurmaya yarayan göstergeleri kaydetme” işlemini görünür ve gerekçeli biçimde yapıp yapmadığına dayanır; kaynakta doğrulanmamış puan aralığı veya rubrik ölçütü eklenmez.
 
 ### Kapanış
 
-Öğrenci “Anlama sorularına cevaplar ve yapılandırılmış dinleme/izleme notları” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
+Öğrenci “Anlama cevapları ve yapılandırılmış dinleme/izleme notları” kanıtında ikinci derse taşıyacağı tek soruyu, varsayımı veya geliştirme noktasını işaretler.
 
 ### Materyaller
 
 - Metin Tahlili-3 (Anlama): Dinleme / İzleme — Değişen İletişim Araçlarının Hayatımızdaki Yeri — ders kitabı s.65
 - Öğrencinin bu ders saatinde oluşturduğu somut kanıt kaydı
 
-## 2. Ders — Anlam Oluşturabilme: kanıt üretme ve geliştirme
+## 2. Ders — Konu, Tema ve İleti: Dinleme Kanıtından Yoruma
 
 **Süre:** 1 ders saati  
 **Öğrenme çıktıları:** `TDE1.2`
 
 ### Hedef
 
-Öğrenci, “Anlam Oluşturabilme” etkinliğinde dinlenen/izlenen metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur; ürettiği kanıtı gerekçelendirerek kanıtı geliştirme ve düzeltme sürecini tamamlar.
+Öğrenci, “Anlam Oluşturabilme” etkinliğinde dinlenen/izlenen metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur. Bu ders saatinin pedagojik odağı: seçilen göstergelerin konu, tema, ileti ve bağlamla ilişkisini yorumlama; somut kanıt: Kanıt-yorum eşleştirmesi ve gerekçeli anlam kaydı.
 
 ### Derse giriş
 
-“Anlam Oluşturabilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi dinleme/izleme davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.
+Metin Tahlili-3 (Anlama): Dinleme / İzleme — Değişen İletişim Araçlarının Hayatımızdaki Yeri — ders kitabı s.65 üzerinden bu saatin odağı görünür kılınır: Seçilen göstergelerin konu, tema, ileti ve bağlamla ilişkisini yorumlama. Öğrenci önceki/başlangıç kanıtını kısa biçimde önüne alır ve bu saatin sonunda neyin değişmiş veya derinleşmiş olması gerektiğini kendi cümlesiyle belirtir.
 
 ### Öğretmenin yapacakları
 
 1. “Anlam Oluşturabilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
-2. Öğrencinin şu görevi yerine getirmesini sağla: Dinlenen/izlenen metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
-3. “Anlama sorularına cevaplar ve yapılandırılmış dinleme/izleme notları” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
-4. İlk denemeden sonra ortak bir güçlü örneği ve geliştirilmesi gereken bir örneği anonim biçimde karşılaştır; öğrencinin ikinci denemesinde neyi değiştireceğini netleştir.
+2. Canonical görevi koru: Dinlenen/izlenen metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur.
+3. İkinci saatte seçilen kanıtın ne gösterdiğini, anlam/işlev ilişkisini ve gerekçesini açıklat.
+4. Bu saate özgü kanıtı topla: Kanıt-yorum eşleştirmesi ve gerekçeli anlam kaydı. Yalnız katılımı yeterli kanıt sayma; öğrencinin yaptığı bilişsel işlemi ürününde veya kaydında görünür kıl.
 
 ### Öğrencinin yapacakları
 
 - Dinlenen/izlenen metnin konu, tema, ileti, söz varlığı ve bağlamından anlam oluşturur.
-- Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.
-- İlk kanıtı ile düzeltilmiş kanıtı karşılaştırıp hangi değişikliğin sonucu iyileştirdiğini açıklar.
+- Seçilen göstergelerin konu, tema, ileti ve bağlamla ilişkisini yorumlama.
+- Kanıt olarak şunu üretir veya günceller: Kanıt-yorum eşleştirmesi ve gerekçeli anlam kaydı.
+- İlk kanıtıyla bu saatin kanıtını karşılaştırır ve değişimi açıklar: Not almaktan kanıtın anlamını açıklamaya geçilir.
 
 ### Kaynak bağları
 
@@ -148,11 +148,11 @@ Ana ölçme kanıtı şudur: “Anlama sorularına cevaplar ve yapılandırılm�
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı şudur: “Anlama sorularına cevaplar ve yapılandırılmış dinleme/izleme notları”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen dinleme/izleme becerisine uygunluğu üzerinden verilir.
+Bu ders saatinin birincil ölçme kanıtı “Kanıt-yorum eşleştirmesi ve gerekçeli anlam kaydı”dir. Değerlendirme, öğrencinin “Seçilen göstergelerin konu, tema, ileti ve bağlamla ilişkisini yorumlama” işlemini görünür ve gerekçeli biçimde yapıp yapmadığına dayanır; kaynakta doğrulanmamış puan aralığı veya rubrik ölçütü eklenmez.
 
 ### Kapanış
 
-Öğrenci “Anlama sorularına cevaplar ve yapılandırılmış dinleme/izleme notları” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
+Öğrenci ilk kanıt ile son kanıt arasındaki farkı tek cümlede açıklar ve şu ilerlemeyi görünür kılar: Not almaktan kanıtın anlamını açıklamaya geçilir.
 
 ### Materyaller
 
@@ -173,4 +173,4 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanı
 
 ---
 
-<!-- TYMM_JSON_SHA256:9835608a6d628bf65f8e6fbf73a7aac3fef45e17af8d314193823445c155a41f -->
+<!-- TYMM_JSON_SHA256:97f8cb5deec7f38eebfdd6af516424a6d6bd22297193666e19f6fea5ade7c6a7 -->

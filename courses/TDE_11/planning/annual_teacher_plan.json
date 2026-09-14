@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "TDE_11",
+  "grade": 11,
+  "view_type": "ANNUAL_TEACHER_PLAN",
+  "calendar_neutral": true,
+  "annual_hours": {
+    "core_instruction_hours": 172,
+    "school_based_planning_capacity_hours": 8,
+    "official_total_hours": 180
+  },
+  "package_accounting": {
+    "core_packages": 88,
+    "core_packages_status": "COMPLETED",
+    "school_based_generated_packages": 0,
+    "school_based_generation_status": "NOT_REQUESTED"
+  },
+  "school_based_policy": {
+    "teacher_selection_required": true,
+    "max_selected_hours_per_theme": 2,
+    "selection_mode": "ONE_2H_OR_TWO_1H",
+    "default_selection": "NONE",
+    "default_generation": false,
+    "default_queue_includes_school_based_hours": false,
+    "option_source": "production/school_based_planning_options.json",
+    "placement_source": "production/school_based_planning_placements.json",
+    "note": "Okul temelli seçenekler öğretmenin sınıf ihtiyacına göre seçtiği ayrı pedagojik katmandır; 88 paketlik 172 saatlik çekirdek üretim kuyruğunu değiştirmez."
+  },
+  "themes": [
+    {
+      "theme_id": "TEMA_01",
+      "theme_title": "BİR DİYECEĞİM VAR!",
+      "core_instruction_hours": 43,
+      "core_packages": 22,
+      "school_based_capacity_hours": 2,
+      "official_total_hours": 45,
+      "selection_status": "TEACHER_SELECTION_PENDING",
+      "selected_hours": 0,
+      "generated_school_based_packages": 0,
+      "option_ids": [
+        "OPT_T11_T1_SBP_01",
+        "OPT_T11_T1_SBP_02",
+        "OPT_T11_T1_SBP_03"
+      ]
+    },
+    {
+      "theme_id": "TEMA_02",
+      "theme_title": "KÜLTÜR YOLCULUĞU",
+      "core_instruction_hours": 43,
+      "core_packages": 22,
+      "school_based_capacity_hours": 2,
+      "official_total_hours": 45,
+      "selection_status": "TEACHER_SELECTION_PENDING",
+      "selected_hours": 0,
+      "generated_school_based_packages": 0,
+      "option_ids": [
+        "OPT_T11_T2_SBP_01",
+        "OPT_T11_T2_SBP_02",
+        "OPT_T11_T2_SBP_03"
+      ]
+    },
+    {
+      "theme_id": "TEMA_03",
+      "theme_title": "YAŞAMIN İZİNDE",
+      "core_instruction_hours": 43,
+      "core_packages": 22,
+      "school_based_capacity_hours": 2,
+      "official_total_hours": 45,
+      "selection_status": "TEACHER_SELECTION_PENDING",
+      "selected_hours": 0,
+      "generated_school_based_packages": 0,
+      "option_ids": [
+        "OPT_T11_T3_SBP_01",
+        "OPT_T11_T3_SBP_02",
+        "OPT_T11_T3_SBP_03"
+      ]
+    },
+    {
+      "theme_id": "TEMA_04",
+      "theme_title": "HAYATIN AYNASI",
+      "core_instruction_hours": 43,
+      "core_packages": 22,
+      "school_based_capacity_hours": 2,
+      "official_total_hours": 45,
+      "selection_status": "TEACHER_SELECTION_PENDING",
+      "selected_hours": 0,
+      "generated_school_based_packages": 0,
+      "option_ids": [
+        "OPT_T11_T4_SBP_01",
+        "OPT_T11_T4_SBP_02",
+        "OPT_T11_T4_SBP_03"
+      ]
+    }
+  ],
+  "totals_check": {
+    "theme_count": 4,
+    "core_package_count": 88,
+    "core_instruction_hours": 172,
+    "school_based_capacity_hours": 8,
+    "official_total_hours": 180
+  }
+}

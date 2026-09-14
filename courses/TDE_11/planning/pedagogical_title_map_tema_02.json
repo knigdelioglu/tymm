@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "TDE_11",
+  "theme_id": "TEMA_02",
+  "titles": {
+    "BLOCK_T2_01_OKUMA_P01": ["Hikâye/Anı Okumasına Hazırlık: Amaç, Strateji ve Tahmin", "Tahminleri Sınama: Metin ve Bağlam İpuçları"],
+    "BLOCK_T2_01_OKUMA_P02": ["Hikâye ve Anıda Anlam İzleri: Kanıtları Belirleme", "Konu, Tema ve İleti: Kanıttan Yoruma"],
+    "BLOCK_T2_01_OKUMA_P03": ["Hikâye/Anıyı Yakından Çözümleme: Yapı, Tür ve Dil", "Parçalardan Bütüne: Karşılaştırmalı Çözümleme Sonucu"],
+    "BLOCK_T2_01_OKUMA_P04": ["Hikâye/Anı Okumasını Değerlendirme: Kanıta Bakış", "Tarihî Metinlere Geçiş: Okuma Stratejisi Kararı"],
+    "BLOCK_T2_01_OKUMA_P05": ["Orhun Abideleri ve Dîvânu Lugâti’t-Türk’e Hazırlık", "Tarihî Metinlerde Strateji Seçimini Kaynakla Savunma"],
+    "BLOCK_T2_01_OKUMA_P06": ["Orhun Abidelerinde Anlam ve Bağlam Kanıtları", "Orhun Abidelerinden Dîvânu Lugâti’t-Türk’e: Karşılaştırmalı Anlam"],
+    "BLOCK_T2_01_OKUMA_P07": ["Tarihî Metinleri Sınıflandırma: Yapı, Tür, Dil ve Bağlam", "Ortak Ölçütlerle Karşılaştırma: Sınıflandırmayı Gerekçelendirme"],
+    "BLOCK_T2_01_OKUMA_P08": ["Okuma Bloğunu Kapatma: Kontrol Listesi, Çıkış Kartı ve Transfer"],
+    "BLOCK_T2_02_KONUSMA_P01": ["Türk Kültürü Konuşmasını Planlama: Amaç, Hedef Kitle ve Strateji", "Konuşma Planını Savunma: Seçimleri Gerekçelendirme"],
+    "BLOCK_T2_02_KONUSMA_P02": ["Türk Kültürü Konuşması: İlk İçerik ve Akış Taslağı", "İçeriği Geliştirme: Akran Geri Bildirimi ve Revizyon"],
+    "BLOCK_T2_02_KONUSMA_P03": ["Türk Kültürü Konuşması I: İlk Performans ve Gözlem", "Türk Kültürü Konuşması II: Gözlemden Yeniden Performansa"],
+    "BLOCK_T2_02_KONUSMA_P04": ["Konuşmada Etkili Kullanımlar: Güçlü Örnekleri Ayırma", "Karşı Örnekten İyileştirmeye: Ölçütü Yeni Performansa Taşıma"],
+    "BLOCK_T2_02_KONUSMA_P05": ["Konuşma Performansını Değerlendirme: Kanıtları Birleştirme", "Öz Değerlendirmeden Sonraki Konuşmaya: Geliştirme Kararı"],
+    "BLOCK_T2_03_DINLEME_P01": ["Âşık Atışmasına Hazırlık: Dinleme Amacı, Strateji ve Tahmin", "Âşık Atışmasında Tahminleri Dinleme Kanıtıyla Sınama"],
+    "BLOCK_T2_03_DINLEME_P02": ["Âşık Atışmasında Anlam Kanıtlarını Toplama", "Konu, Tema ve İleti: Dinleme Kanıtından Yoruma"],
+    "BLOCK_T2_03_DINLEME_P03": ["Âşık Atışmasını Çözümleme: Yapı, Dil ve Bağlam", "Çözümleme Bulgularından Bütüncül Çıkarıma"],
+    "BLOCK_T2_03_DINLEME_P04": ["Âşık Atışması Dinlemesini Değerlendirme: Gözlem Kanıtı", "Kontrol Listesinden Sonraki Dinlemeye: Strateji Kararı"],
+    "BLOCK_T2_04_YAZMA_P01": ["Çevrim İçi Müze İzlenimini Planlama: Amaç, Hedef Kitle ve Tür", "İzlenim Yazısı Planını Gerekçelendirme ve Revize Etme"],
+    "BLOCK_T2_04_YAZMA_P02": ["Müze Gezisi İzlenimleri: İlk İçerik Taslağı", "İçerik Taslağını Geliştirme: Geri Bildirim ve Revizyon"],
+    "BLOCK_T2_04_YAZMA_P03": ["İzlenim Yazısını Denetleme: Tür, Dil, Yazım ve Bütünlük", "Sorundan Onarıma: İzlenim Yazısını Hedefli Düzenleme"],
+    "BLOCK_T2_04_YAZMA_P04": ["İzlenim Yazısını Değerlendirme: Öncelikli Geliştirme Alanı", "Hedefli Revizyon: Değişimi Çıkış Kanıtıyla Gösterme"],
+    "BLOCK_T2_04_YAZMA_P05": ["Yazma Sürecini Kapatma: Güçlü Yön ve Son Geliştirme Kararı", "2. Tema Ölçme ve Değerlendirme: Bağımsız Tema Kanıtı"]
+  },
+  "preserve_body_lessons": [
+    {"package_id": "BLOCK_T2_04_YAZMA_P05", "lesson_no": 2}
+  ]
+}

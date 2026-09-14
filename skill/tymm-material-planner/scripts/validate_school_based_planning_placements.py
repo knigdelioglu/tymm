@@ -4,8 +4,10 @@
 The placement layer is deliberately separate from the 172-hour core lesson-plan
 queue. It may recommend where a teacher could spend the 2 school-based hours in
 each theme, but it must never change canonical core hours or auto-select an
-option. For grade 10, every represented school-based hour must additionally
-carry explicit career-guidance evidence.
+option. Grade 10 additionally requires career-guidance evidence. Grade 11
+requires teacher-adaptable options to remain source-grounded in the verified
+teaching-block/textbook registry and to support both one-2h and two-1h selection
+routes without entering the default queue.
 """
 from __future__ import annotations
 
@@ -31,6 +33,14 @@ def _fail(code: str, detail: str = "") -> None:
 def _require_nonempty(value: Any, code: str) -> None:
     if not isinstance(value, str) or not value.strip():
         _fail(code)
+
+
+def _require_string_list(value: Any, code: str, *, allow_empty: bool = False) -> list[str]:
+    if not isinstance(value, list) or (not value and not allow_empty):
+        _fail(code)
+    if not all(isinstance(item, str) and item.strip() for item in value):
+        _fail(code)
+    return value
 
 
 def _validate_grade10_career_option(option: dict[str, Any], option_id: str) -> None:
@@ -65,10 +75,132 @@ def _validate_grade10_career_option(option: dict[str, Any], option_id: str) -> N
         _require_nonempty(alignment.get(key), f"{code}:{option_id}")
 
 
+def _build_tde11_source_registry(teaching_blocks: dict[str, Any] | None) -> dict[str, Any]:
+    if not isinstance(teaching_blocks, dict):
+        _fail("TDE11_TEACHING_BLOCKS_MISSING")
+    if teaching_blocks.get("course_id") != "TDE_11":
+        _fail("TDE11_TEACHING_BLOCKS_COURSE_MISMATCH", str(teaching_blocks.get("course_id")))
+
+    blocks: dict[str, dict[str, Any]] = {}
+    sections: set[str] = set()
+    activities: set[str] = set()
+    forms: set[str] = set()
+    outcomes: set[str] = set()
+    for raw in teaching_blocks.get("blocks", []):
+        block = raw if isinstance(raw, dict) else {}
+        block_id = block.get("block_id")
+        if not isinstance(block_id, str) or not block_id:
+            _fail("TDE11_TEACHING_BLOCK_ID_MISSING")
+        if block_id in blocks:
+            _fail("TDE11_DUPLICATE_TEACHING_BLOCK_ID", block_id)
+        blocks[block_id] = block
+        sections.update(_require_string_list(block.get("textbook_sections", []), f"TDE11_BLOCK_SECTIONS_INVALID:{block_id}", allow_empty=True))
+        activities.update(_require_string_list(block.get("textbook_activity_ids", []), f"TDE11_BLOCK_ACTIVITIES_INVALID:{block_id}", allow_empty=True))
+        forms.update(_require_string_list(block.get("textbook_form_ids", []), f"TDE11_BLOCK_FORMS_INVALID:{block_id}", allow_empty=True))
+        outcomes.update(_require_string_list(block.get("curriculum_outcomes", []), f"TDE11_BLOCK_OUTCOMES_INVALID:{block_id}", allow_empty=True))
+    if not blocks:
+        _fail("TDE11_TEACHING_BLOCKS_EMPTY")
+    return {
+        "blocks": blocks,
+        "sections": sections,
+        "activities": activities,
+        "forms": forms,
+        "outcomes": outcomes,
+    }
+
+
+def _validate_tde11_option(
+    option: dict[str, Any],
+    option_id: str,
+    *,
+    expected_theme: str,
+    registry: dict[str, Any],
+) -> None:
+    if option.get("origin") != "pedagogical_recommendation":
+        _fail("TDE11_OPTION_ORIGIN_INVALID", option_id)
+    if option.get("teacher_choice_required") is not True:
+        _fail("TDE11_TEACHER_CHOICE_REQUIRED_FALSE", option_id)
+    if option.get("selection_status") != "NOT_SELECTED":
+        _fail("TDE11_OPTION_MUST_START_UNSELECTED", option_id)
+    if option.get("generation_status") != "NOT_REQUESTED":
+        _fail("TDE11_OPTION_MUST_NOT_AUTO_GENERATE", option_id)
+    if option.get("is_curriculum_gap") is not False:
+        _fail("TDE11_OPTION_MUST_NOT_BE_CURRICULUM_GAP", option_id)
+
+    for key, code in {
+        "title": "TDE11_OPTION_TITLE_MISSING",
+        "category": "TDE11_OPTION_CATEGORY_MISSING",
+        "rationale": "TDE11_OPTION_RATIONALE_MISSING",
+        "expected_student_action": "TDE11_EXPECTED_ACTION_MISSING",
+        "expected_student_evidence": "TDE11_EXPECTED_EVIDENCE_MISSING",
+        "pedagogical_function": "TDE11_PEDAGOGICAL_FUNCTION_MISSING",
+        "textbook_relationship": "TDE11_TEXTBOOK_RELATIONSHIP_MISSING",
+        "source_basis": "TDE11_SOURCE_BASIS_MISSING",
+    }.items():
+        _require_nonempty(option.get(key), f"{code}:{option_id}")
+
+    linked_outcomes = set(_require_string_list(option.get("linked_outcomes"), f"TDE11_LINKED_OUTCOMES_MISSING:{option_id}"))
+    unknown_outcomes = sorted(linked_outcomes - registry["outcomes"])
+    if unknown_outcomes:
+        _fail("TDE11_LINKED_OUTCOME_UNKNOWN", f"{option_id}:{','.join(unknown_outcomes)}")
+
+    derived = option.get("derived_from")
+    if not isinstance(derived, dict):
+        _fail("TDE11_DERIVED_FROM_MISSING", option_id)
+    block_ids = _require_string_list(derived.get("teaching_block_ids"), f"TDE11_DERIVED_BLOCKS_MISSING:{option_id}")
+    section_ids = _require_string_list(derived.get("textbook_section_ids"), f"TDE11_DERIVED_SECTIONS_MISSING:{option_id}")
+    activity_ids = _require_string_list(derived.get("textbook_activity_ids"), f"TDE11_DERIVED_ACTIVITIES_MISSING:{option_id}")
+    form_ids = _require_string_list(derived.get("textbook_form_ids", []), f"TDE11_DERIVED_FORMS_INVALID:{option_id}", allow_empty=True)
+    derived_outcomes = set(_require_string_list(derived.get("curriculum_outcomes"), f"TDE11_DERIVED_OUTCOMES_MISSING:{option_id}"))
+
+    for block_id in block_ids:
+        block = registry["blocks"].get(block_id)
+        if block is None:
+            _fail("TDE11_DERIVED_BLOCK_UNKNOWN", f"{option_id}:{block_id}")
+        if block.get("theme_id") != expected_theme:
+            _fail("TDE11_DERIVED_BLOCK_THEME_MISMATCH", f"{option_id}:{block_id}")
+    for entity_id, known, code in (
+        (section_ids, registry["sections"], "TDE11_DERIVED_SECTION_UNKNOWN"),
+        (activity_ids, registry["activities"], "TDE11_DERIVED_ACTIVITY_UNKNOWN"),
+        (form_ids, registry["forms"], "TDE11_DERIVED_FORM_UNKNOWN"),
+    ):
+        unknown = sorted(set(entity_id) - known)
+        if unknown:
+            _fail(code, f"{option_id}:{','.join(unknown)}")
+    unknown_derived_outcomes = sorted(derived_outcomes - registry["outcomes"])
+    if unknown_derived_outcomes:
+        _fail("TDE11_DERIVED_OUTCOME_UNKNOWN", f"{option_id}:{','.join(unknown_derived_outcomes)}")
+
+    # Linked IDs are the teacher-facing projection of the source-grounded derived_from set.
+    linked_sections = set(_require_string_list(option.get("linked_textbook_section_ids"), f"TDE11_LINKED_SECTIONS_MISSING:{option_id}"))
+    linked_activities = set(_require_string_list(option.get("linked_textbook_activity_ids"), f"TDE11_LINKED_ACTIVITIES_MISSING:{option_id}"))
+    linked_forms = set(_require_string_list(option.get("linked_textbook_form_ids", []), f"TDE11_LINKED_FORMS_INVALID:{option_id}", allow_empty=True))
+    if not linked_sections.issubset(set(section_ids)):
+        _fail("TDE11_LINKED_SECTION_NOT_DERIVED", option_id)
+    if not linked_activities.issubset(set(activity_ids)):
+        _fail("TDE11_LINKED_ACTIVITY_NOT_DERIVED", option_id)
+    if not linked_forms.issubset(set(form_ids)):
+        _fail("TDE11_LINKED_FORM_NOT_DERIVED", option_id)
+    if not linked_outcomes.issubset(derived_outcomes):
+        _fail("TDE11_LINKED_OUTCOME_NOT_DERIVED", option_id)
+
+    safeguards = option.get("privacy_safeguards")
+    if not isinstance(safeguards, dict):
+        _fail("TDE11_PRIVACY_SAFEGUARDS_MISSING", option_id)
+    if safeguards.get("no_sensitive_personal_data") is not True:
+        _fail("TDE11_SENSITIVE_DATA_SAFEGUARD_MISSING", option_id)
+    if safeguards.get("audio_video_recording_mandatory") is not False:
+        _fail("TDE11_RECORDING_MUST_NOT_BE_MANDATORY", option_id)
+    if safeguards.get("public_sharing_mandatory") is not False:
+        _fail("TDE11_PUBLIC_SHARING_MUST_NOT_BE_MANDATORY", option_id)
+    _require_nonempty(safeguards.get("alternative_provided"), f"TDE11_SAFE_ALTERNATIVE_MISSING:{option_id}")
+
+
 def validate_payloads(
     options: dict[str, Any],
     placements: dict[str, Any],
     production_plan: dict[str, Any],
+    teaching_blocks: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
     course_id = production_plan.get("course_id")
     if options.get("course_id") != course_id or placements.get("course_id") != course_id:
@@ -97,6 +229,8 @@ def validate_payloads(
     }
     if course_id == "TDE_10":
         expected_policy["career_guidance_required"] = True
+    if course_id == "TDE_11":
+        expected_policy["selection_mode"] = "ONE_2H_OR_TWO_1H"
     for key, expected in expected_policy.items():
         if policy.get(key) != expected:
             _fail("PLACEMENT_POLICY_MISMATCH", f"{key}={policy.get(key)!r},expected={expected!r}")
@@ -116,6 +250,26 @@ def validate_payloads(
         basis = career_policy.get("official_basis")
         if not isinstance(basis, list) or not basis:
             _fail("TDE10_CAREER_POLICY_BASIS_MISSING")
+
+    tde11_registry = _build_tde11_source_registry(teaching_blocks) if course_id == "TDE_11" else None
+    if course_id == "TDE_11":
+        annual = options.get("annual_hours", {})
+        expected_annual = {"structured_program": 172, "school_based_planning": 8, "official_total": 180}
+        for key, expected in expected_annual.items():
+            if annual.get(key) != expected:
+                _fail("TDE11_OPTION_ANNUAL_HOURS_MISMATCH", f"{key}={annual.get(key)!r},expected={expected}")
+        theme_policy = options.get("theme_policy", {})
+        expected_theme_policy = {
+            "official_theme_hours": 45,
+            "structured_program_hours": 43,
+            "school_based_planning_hours": 2,
+            "max_selected_hours_per_theme": 2,
+            "default_selection": "NONE",
+            "default_generation": "NOT_REQUESTED",
+        }
+        for key, expected in expected_theme_policy.items():
+            if theme_policy.get(key) != expected:
+                _fail("TDE11_OPTION_THEME_POLICY_MISMATCH", f"{key}={theme_policy.get(key)!r},expected={expected!r}")
 
     plan_themes: dict[str, dict[str, Any]] = {}
     package_ids: dict[tuple[str, str], set[str]] = {}
@@ -142,13 +296,22 @@ def validate_payloads(
 
     option_index: dict[str, tuple[str, int]] = {}
     theme_option_hours: dict[str, int] = {theme_id: 0 for theme_id in plan_themes}
+    theme_durations: dict[str, list[int]] = {theme_id: [] for theme_id in plan_themes}
+    option_theme_records: set[str] = set()
     career_option_count = 0
+    tde11_option_count = 0
     for theme in options.get("themes", []):
         theme_id = theme.get("theme_id")
         if theme_id not in plan_themes:
             _fail("OPTION_THEME_UNKNOWN", str(theme_id))
-        if course_id == "TDE_10" and theme.get("allocated_hours") != 2:
-            _fail("TDE10_THEME_ALLOCATED_HOURS_MISMATCH", str(theme_id))
+        if theme_id in option_theme_records:
+            _fail("DUPLICATE_OPTION_THEME", str(theme_id))
+        option_theme_records.add(theme_id)
+        if course_id in {"TDE_10", "TDE_11"} and theme.get("allocated_hours") != 2:
+            _fail(f"{course_id}_THEME_ALLOCATED_HOURS_MISMATCH", str(theme_id))
+        if course_id == "TDE_11":
+            if theme.get("structured_program_hours") != 43 or theme.get("school_based_planning_hours") != 2:
+                _fail("TDE11_THEME_HOUR_ENVELOPE_MISMATCH", str(theme_id))
         for option in theme.get("options", []):
             option_id = option.get("option_id")
             duration = option.get("duration_hours")
@@ -156,25 +319,41 @@ def validate_payloads(
                 _fail("OPTION_ID_MISSING", str(theme_id))
             if option_id in option_index:
                 _fail("DUPLICATE_OPTION_ID", option_id)
-            if not isinstance(duration, int) or duration < 1 or duration > 2:
+            if not isinstance(duration, int) or isinstance(duration, bool) or duration < 1 or duration > 2:
                 _fail("OPTION_DURATION_OUT_OF_RANGE", f"{option_id}={duration!r}")
             if option.get("theme_id") != theme_id:
                 _fail("OPTION_THEME_MISMATCH", option_id)
             if course_id == "TDE_10":
                 _validate_grade10_career_option(option, option_id)
                 career_option_count += 1
+            elif course_id == "TDE_11":
+                assert tde11_registry is not None
+                _validate_tde11_option(option, option_id, expected_theme=theme_id, registry=tde11_registry)
+                tde11_option_count += 1
             option_index[option_id] = (theme_id, duration)
             theme_option_hours[theme_id] += duration
+            theme_durations[theme_id].append(duration)
+
+    if option_theme_records != set(plan_themes):
+        _fail("OPTION_THEME_SET_MISMATCH", repr(sorted(option_theme_records)))
 
     for theme_id, available_hours in theme_option_hours.items():
         if course_id == "TDE_10":
             if available_hours != 2:
                 _fail("TDE10_CAREER_OPTION_HOURS_MUST_EQUAL_THEME_ALLOCATION", f"{theme_id}={available_hours}")
+        elif course_id == "TDE_11":
+            if sorted(theme_durations[theme_id]) != [1, 1, 2]:
+                _fail("TDE11_SELECTION_MODES_MUST_BE_ONE_2H_OR_TWO_1H", f"{theme_id}={sorted(theme_durations[theme_id])}")
+            # Capacity is deliberately 4 candidate-hours; selectable capacity remains 2h.
+            if available_hours != 4:
+                _fail("TDE11_OPTION_POOL_CANDIDATE_HOURS_MISMATCH", f"{theme_id}={available_hours}")
         elif available_hours < 2:
             _fail("INSUFFICIENT_SBP_OPTION_CAPACITY", f"{theme_id}={available_hours}")
 
     if course_id == "TDE_10" and sum(theme_option_hours.values()) != 8:
         _fail("TDE10_CAREER_OPTION_ANNUAL_HOURS_MISMATCH", str(sum(theme_option_hours.values())))
+    if course_id == "TDE_11" and (tde11_option_count != 12 or sum(theme_option_hours.values()) != 16):
+        _fail("TDE11_OPTION_POOL_SHAPE_MISMATCH", f"options={tde11_option_count},candidate_hours={sum(theme_option_hours.values())}")
 
     placement_index: dict[str, dict[str, Any]] = {}
     for entry in placements.get("placements", []):
@@ -230,14 +409,22 @@ def validate_payloads(
     if course_id == "TDE_10":
         result["career_guidance_options"] = career_option_count
         result["career_guidance_hours"] = sum(theme_option_hours.values())
+    if course_id == "TDE_11":
+        result["teacher_adaptable_options"] = tde11_option_count
+        result["candidate_option_hours"] = sum(theme_option_hours.values())
+        result["selectable_school_based_hours"] = 8
+        result["selection_mode"] = "ONE_2H_OR_TWO_1H"
     return result
 
 
 def validate_course(root: Path) -> dict[str, Any]:
+    teaching_blocks_path = root / "production/teaching_blocks.json"
+    teaching_blocks = read_json(teaching_blocks_path) if teaching_blocks_path.exists() else None
     return validate_payloads(
         read_json(root / "production/school_based_planning_options.json"),
         read_json(root / "production/school_based_planning_placements.json"),
         read_json(root / "planning/lesson_plan_production_plan.json"),
+        teaching_blocks,
     )
 
 

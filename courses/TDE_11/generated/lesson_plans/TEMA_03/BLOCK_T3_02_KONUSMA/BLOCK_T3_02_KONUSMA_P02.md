@@ -83,32 +83,32 @@
 
 # Ders akışı
 
-## 1. Ders — İçerik Oluşturabilme: kanıt üretme ve geliştirme
+## 1. Ders — Hayalî Mülakat: İlk Soru ve Akış Taslağı
 
 **Süre:** 1 ders saati  
 **Öğrenme çıktıları:** `TDE3.2`
 
 ### Hedef
 
-Öğrenci, “İçerik Oluşturabilme” etkinliğinde konuşma için bilgi, örnek, görsel/işitsel destek ve söz varlığını seçerek içeriği yapılandırır; ürettiği kanıtı gerekçelendirerek uygulama ve ilk kanıt sürecini tamamlar.
+Öğrenci, “İçerik Oluşturabilme” etkinliğinde konuşma için bilgi, örnek, görsel/işitsel destek ve söz varlığını seçerek içeriği yapılandırır. Bu ders saatinin pedagojik odağı: karaktere uygun soru, içerik, söz varlığı ve konuşma akışı taslağı oluşturma; somut kanıt: Hayalî mülakat soru/akış taslağı.
 
 ### Derse giriş
 
-“İçerik Oluşturabilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi konuşma davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.
+Edebiyat Atölyesi-1 (Anlatma): Konuşma — Hayalî Mülakat — ders kitabı s.212 üzerinden bu saatin odağı görünür kılınır: Karaktere uygun soru, içerik, söz varlığı ve konuşma akışı taslağı oluşturma. Öğrenci önceki/başlangıç kanıtını kısa biçimde önüne alır ve bu saatin sonunda neyin değişmiş veya derinleşmiş olması gerektiğini kendi cümlesiyle belirtir.
 
 ### Öğretmenin yapacakları
 
 1. “İçerik Oluşturabilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
-2. Öğrencinin şu görevi yerine getirmesini sağla: Konuşma için bilgi, örnek, görsel/işitsel destek ve söz varlığını seçerek içeriği yapılandırır. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
-3. “Konuşma metni/senaryo/akış taslağı ve içerik düzenleme kayıtları” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
-4. Ders sırasında kısa kontrol noktaları kullan; öğrencinin yanlış veya eksik stratejiyi kanıt oluşmadan önce fark edip düzeltmesine fırsat ver.
+2. Canonical görevi koru: Konuşma için bilgi, örnek, görsel/işitsel destek ve söz varlığını seçerek içeriği yapılandırır.
+3. İlk saatte bağımsız bir ilk taslak veya ürün üret; taslağı bitmiş ürün gibi değerlendirme.
+4. Bu saate özgü kanıtı topla: Hayalî mülakat soru/akış taslağı. Yalnız katılımı yeterli kanıt sayma; öğrencinin yaptığı bilişsel işlemi ürününde veya kaydında görünür kıl.
 
 ### Öğrencinin yapacakları
 
 - Konuşma için bilgi, örnek, görsel/işitsel destek ve söz varlığını seçerek içeriği yapılandırır.
-- Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.
-- Kapanışta bir güçlü kanıtını ve bir geliştirme adımını kısa biçimde kaydeder.
+- Karaktere uygun soru, içerik, söz varlığı ve konuşma akışı taslağı oluşturma.
+- Kanıt olarak şunu üretir veya günceller: Hayalî mülakat soru/akış taslağı.
+- İlk kanıtında ikinci saatte sınayacağı, karşılaştıracağı, geliştireceği veya aktaracağı tek noktayı işaretler.
 
 ### Kaynak bağları
 
@@ -117,43 +117,43 @@
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı şudur: “Konuşma metni/senaryo/akış taslağı ve içerik düzenleme kayıtları”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen konuşma becerisine uygunluğu üzerinden verilir.
+Bu ders saatinin birincil ölçme kanıtı “Hayalî mülakat soru/akış taslağı”dir. Değerlendirme, öğrencinin “Karaktere uygun soru, içerik, söz varlığı ve konuşma akışı taslağı oluşturma” işlemini görünür ve gerekçeli biçimde yapıp yapmadığına dayanır; kaynakta doğrulanmamış puan aralığı veya rubrik ölçütü eklenmez.
 
 ### Kapanış
 
-Öğrenci “Konuşma metni/senaryo/akış taslağı ve içerik düzenleme kayıtları” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
+Öğrenci “Hayalî mülakat soru/akış taslağı” kanıtında ikinci derse taşıyacağı tek soruyu, varsayımı veya geliştirme noktasını işaretler.
 
 ### Materyaller
 
 - Edebiyat Atölyesi-1 (Anlatma): Konuşma — Hayalî Mülakat — ders kitabı s.212
 - Öğrencinin bu ders saatinde oluşturduğu somut kanıt kaydı
 
-## 2. Ders — İçerik Oluşturabilme: kanıt üretme ve geliştirme
+## 2. Ders — Soruları ve Akışı Geliştirme: Akran Geri Bildirimi
 
 **Süre:** 1 ders saati  
 **Öğrenme çıktıları:** `TDE3.2`
 
 ### Hedef
 
-Öğrenci, “İçerik Oluşturabilme” etkinliğinde konuşma için bilgi, örnek, görsel/işitsel destek ve söz varlığını seçerek içeriği yapılandırır; ürettiği kanıtı gerekçelendirerek kanıtı geliştirme ve düzeltme sürecini tamamlar.
+Öğrenci, “İçerik Oluşturabilme” etkinliğinde konuşma için bilgi, örnek, görsel/işitsel destek ve söz varlığını seçerek içeriği yapılandırır. Bu ders saatinin pedagojik odağı: akran geri bildirimi ve görev beklentisiyle soruları ve konuşma akışını revize etme; somut kanıt: Geri bildirim izi ve revize mülakat akışı.
 
 ### Derse giriş
 
-“İçerik Oluşturabilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi konuşma davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.
+Edebiyat Atölyesi-1 (Anlatma): Konuşma — Hayalî Mülakat — ders kitabı s.212 üzerinden bu saatin odağı görünür kılınır: Akran geri bildirimi ve görev beklentisiyle soruları ve konuşma akışını revize etme. Öğrenci önceki/başlangıç kanıtını kısa biçimde önüne alır ve bu saatin sonunda neyin değişmiş veya derinleşmiş olması gerektiğini kendi cümlesiyle belirtir.
 
 ### Öğretmenin yapacakları
 
 1. “İçerik Oluşturabilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
-2. Öğrencinin şu görevi yerine getirmesini sağla: Konuşma için bilgi, örnek, görsel/işitsel destek ve söz varlığını seçerek içeriği yapılandırır. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
-3. “Konuşma metni/senaryo/akış taslağı ve içerik düzenleme kayıtları” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
-4. İlk denemeden sonra ortak bir güçlü örneği ve geliştirilmesi gereken bir örneği anonim biçimde karşılaştır; öğrencinin ikinci denemesinde neyi değiştireceğini netleştir.
+2. Canonical görevi koru: Konuşma için bilgi, örnek, görsel/işitsel destek ve söz varlığını seçerek içeriği yapılandırır.
+3. İkinci saatte görev beklentisine dayalı akran geri bildirimi izi bırak ve yalnız geri bildirim verilen noktaları gerekçeli biçimde revize ettir.
+4. Bu saate özgü kanıtı topla: Geri bildirim izi ve revize mülakat akışı. Yalnız katılımı yeterli kanıt sayma; öğrencinin yaptığı bilişsel işlemi ürününde veya kaydında görünür kıl.
 
 ### Öğrencinin yapacakları
 
 - Konuşma için bilgi, örnek, görsel/işitsel destek ve söz varlığını seçerek içeriği yapılandırır.
-- Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.
-- İlk kanıtı ile düzeltilmiş kanıtı karşılaştırıp hangi değişikliğin sonucu iyileştirdiğini açıklar.
+- Akran geri bildirimi ve görev beklentisiyle soruları ve konuşma akışını revize etme.
+- Kanıt olarak şunu üretir veya günceller: Geri bildirim izi ve revize mülakat akışı.
+- İlk kanıtıyla bu saatin kanıtını karşılaştırır ve değişimi açıklar: İlk taslaktan gerekçeli soru/akış revizyonuna geçilir.
 
 ### Kaynak bağları
 
@@ -162,11 +162,11 @@ Ana ölçme kanıtı şudur: “Konuşma metni/senaryo/akış taslağı ve içer
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı şudur: “Konuşma metni/senaryo/akış taslağı ve içerik düzenleme kayıtları”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen konuşma becerisine uygunluğu üzerinden verilir.
+Bu ders saatinin birincil ölçme kanıtı “Geri bildirim izi ve revize mülakat akışı”dir. Değerlendirme, öğrencinin “Akran geri bildirimi ve görev beklentisiyle soruları ve konuşma akışını revize etme” işlemini görünür ve gerekçeli biçimde yapıp yapmadığına dayanır; kaynakta doğrulanmamış puan aralığı veya rubrik ölçütü eklenmez.
 
 ### Kapanış
 
-Öğrenci “Konuşma metni/senaryo/akış taslağı ve içerik düzenleme kayıtları” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
+Öğrenci ilk kanıt ile son kanıt arasındaki farkı tek cümlede açıklar ve şu ilerlemeyi görünür kılar: İlk taslaktan gerekçeli soru/akış revizyonuna geçilir.
 
 ### Materyaller
 
@@ -187,4 +187,4 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanı
 
 ---
 
-<!-- TYMM_JSON_SHA256:ba950b684a89dd85ca2bb5cbe60b0ca2f6675919970b7a3bf7df38e81daf8be2 -->
+<!-- TYMM_JSON_SHA256:ccb5e3fd3368fe467dc11aded1450d88a78f588806606dd044f4482559009940 -->

@@ -24,32 +24,32 @@
 
 # Ders akışı
 
-## 1. Ders — Yazmayı Yönetebilme: kanıt üretme ve geliştirme
+## 1. Ders — Çevrim İçi Müze İzlenimini Planlama: Amaç, Hedef Kitle ve Tür
 
 **Süre:** 1 ders saati  
 **Öğrenme çıktıları:** `TDE4.1`
 
 ### Hedef
 
-Öğrenci, “Yazmayı Yönetebilme” etkinliğinde yazma amacını, hedef kitlesini, türünü, yöntem/stratejisini ve üretim koşullarını planlar; ürettiği kanıtı gerekçelendirerek uygulama ve ilk kanıt sürecini tamamlar.
+Öğrenci, “Yazmayı Yönetebilme” etkinliğinde yazma amacını, hedef kitlesini, türünü, yöntem/stratejisini ve üretim koşullarını planlar. Bu ders saatinin pedagojik odağı: müze gezisi izlenim yazısının amacı, hedef kitlesi, türü, stratejisi ve üretim koşullarını planlama; somut kanıt: Yazma planı, amaç/hedef kitle ve strateji kaydı.
 
 ### Derse giriş
 
-“Yazmayı Yönetebilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi yazma davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.
+Edebiyat Atölyesi-2 (Anlatma): Yazma — Çevrim İçi Müze Gezisiyle İlgili İzlenimleri Yazabilme — ders kitabı s.148 üzerinden bu saatin odağı görünür kılınır: Müze gezisi izlenim yazısının amacı, hedef kitlesi, türü, stratejisi ve üretim koşullarını planlama. Öğrenci önceki/başlangıç kanıtını kısa biçimde önüne alır ve bu saatin sonunda neyin değişmiş veya derinleşmiş olması gerektiğini kendi cümlesiyle belirtir.
 
 ### Öğretmenin yapacakları
 
 1. “Yazmayı Yönetebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
-2. Öğrencinin şu görevi yerine getirmesini sağla: Yazma amacını, hedef kitlesini, türünü, yöntem/stratejisini ve üretim koşullarını planlar. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
-3. “Yazma planı, amaç/hedef kitle ve strateji kaydı” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
-4. Ders sırasında kısa kontrol noktaları kullan; öğrencinin yanlış veya eksik stratejiyi kanıt oluşmadan önce fark edip düzeltmesine fırsat ver.
+2. Canonical görevi koru: Yazma amacını, hedef kitlesini, türünü, yöntem/stratejisini ve üretim koşullarını planlar.
+3. İlk saatte öğrencinin plan/yorum/strateji seçimini açık bir karar ve dayanakla kaydetmesini sağla.
+4. Bu saate özgü kanıtı topla: Yazma planı, amaç/hedef kitle ve strateji kaydı. Yalnız katılımı yeterli kanıt sayma; öğrencinin yaptığı bilişsel işlemi ürününde veya kaydında görünür kıl.
 
 ### Öğrencinin yapacakları
 
 - Yazma amacını, hedef kitlesini, türünü, yöntem/stratejisini ve üretim koşullarını planlar.
-- Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.
-- Kapanışta bir güçlü kanıtını ve bir geliştirme adımını kısa biçimde kaydeder.
+- Müze gezisi izlenim yazısının amacı, hedef kitlesi, türü, stratejisi ve üretim koşullarını planlama.
+- Kanıt olarak şunu üretir veya günceller: Yazma planı, amaç/hedef kitle ve strateji kaydı.
+- İlk kanıtında ikinci saatte sınayacağı, karşılaştıracağı, geliştireceği veya aktaracağı tek noktayı işaretler.
 
 ### Kaynak bağları
 
@@ -58,43 +58,43 @@
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı şudur: “Yazma planı, amaç/hedef kitle ve strateji kaydı”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen yazma becerisine uygunluğu üzerinden verilir.
+Bu ders saatinin birincil ölçme kanıtı “Yazma planı, amaç/hedef kitle ve strateji kaydı”dir. Değerlendirme, öğrencinin “Müze gezisi izlenim yazısının amacı, hedef kitlesi, türü, stratejisi ve üretim koşullarını planlama” işlemini görünür ve gerekçeli biçimde yapıp yapmadığına dayanır; kaynakta doğrulanmamış puan aralığı veya rubrik ölçütü eklenmez.
 
 ### Kapanış
 
-Öğrenci “Yazma planı, amaç/hedef kitle ve strateji kaydı” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
+Öğrenci “Yazma planı, amaç/hedef kitle ve strateji kaydı” kanıtında ikinci derse taşıyacağı tek soruyu, varsayımı veya geliştirme noktasını işaretler.
 
 ### Materyaller
 
 - Edebiyat Atölyesi-2 (Anlatma): Yazma — Çevrim İçi Müze Gezisiyle İlgili İzlenimleri Yazabilme — ders kitabı s.148
 - Öğrencinin bu ders saatinde oluşturduğu somut kanıt kaydı
 
-## 2. Ders — Yazmayı Yönetebilme: kanıt üretme ve geliştirme
+## 2. Ders — İzlenim Yazısı Planını Gerekçelendirme ve Revize Etme
 
 **Süre:** 1 ders saati  
 **Öğrenme çıktıları:** `TDE4.1`
 
 ### Hedef
 
-Öğrenci, “Yazmayı Yönetebilme” etkinliğinde yazma amacını, hedef kitlesini, türünü, yöntem/stratejisini ve üretim koşullarını planlar; ürettiği kanıtı gerekçelendirerek kanıtı geliştirme ve düzeltme sürecini tamamlar.
+Öğrenci, “Yazmayı Yönetebilme” etkinliğinde yazma amacını, hedef kitlesini, türünü, yöntem/stratejisini ve üretim koşullarını planlar. Bu ders saatinin pedagojik odağı: plan tercihlerini izlenim yazısının amacı ve hedef kitlesiyle gerekçelendirip revize etme; somut kanıt: Gerekçelendirilmiş ve revize edilmiş yazma planı.
 
 ### Derse giriş
 
-“Yazmayı Yönetebilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi yazma davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.
+Edebiyat Atölyesi-2 (Anlatma): Yazma — Çevrim İçi Müze Gezisiyle İlgili İzlenimleri Yazabilme — ders kitabı s.148 üzerinden bu saatin odağı görünür kılınır: Plan tercihlerini izlenim yazısının amacı ve hedef kitlesiyle gerekçelendirip revize etme. Öğrenci önceki/başlangıç kanıtını kısa biçimde önüne alır ve bu saatin sonunda neyin değişmiş veya derinleşmiş olması gerektiğini kendi cümlesiyle belirtir.
 
 ### Öğretmenin yapacakları
 
 1. “Yazmayı Yönetebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
-2. Öğrencinin şu görevi yerine getirmesini sağla: Yazma amacını, hedef kitlesini, türünü, yöntem/stratejisini ve üretim koşullarını planlar. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
-3. “Yazma planı, amaç/hedef kitle ve strateji kaydı” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
-4. İlk denemeden sonra ortak bir güçlü örneği ve geliştirilmesi gereken bir örneği anonim biçimde karşılaştır; öğrencinin ikinci denemesinde neyi değiştireceğini netleştir.
+2. Canonical görevi koru: Yazma amacını, hedef kitlesini, türünü, yöntem/stratejisini ve üretim koşullarını planlar.
+3. İkinci saatte bu seçimin nedenini görev kanıtıyla savundur; karşı soru veya geri bildirim sonucunda gerekirse kararı revize ettir.
+4. Bu saate özgü kanıtı topla: Gerekçelendirilmiş ve revize edilmiş yazma planı. Yalnız katılımı yeterli kanıt sayma; öğrencinin yaptığı bilişsel işlemi ürününde veya kaydında görünür kıl.
 
 ### Öğrencinin yapacakları
 
 - Yazma amacını, hedef kitlesini, türünü, yöntem/stratejisini ve üretim koşullarını planlar.
-- Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.
-- İlk kanıtı ile düzeltilmiş kanıtı karşılaştırıp hangi değişikliğin sonucu iyileştirdiğini açıklar.
+- Plan tercihlerini izlenim yazısının amacı ve hedef kitlesiyle gerekçelendirip revize etme.
+- Kanıt olarak şunu üretir veya günceller: Gerekçelendirilmiş ve revize edilmiş yazma planı.
+- İlk kanıtıyla bu saatin kanıtını karşılaştırır ve değişimi açıklar: Plan yapmaktan plan kararlarını savunmaya ve düzeltmeye geçilir.
 
 ### Kaynak bağları
 
@@ -103,11 +103,11 @@ Ana ölçme kanıtı şudur: “Yazma planı, amaç/hedef kitle ve strateji kayd
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı şudur: “Yazma planı, amaç/hedef kitle ve strateji kaydı”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen yazma becerisine uygunluğu üzerinden verilir.
+Bu ders saatinin birincil ölçme kanıtı “Gerekçelendirilmiş ve revize edilmiş yazma planı”dir. Değerlendirme, öğrencinin “Plan tercihlerini izlenim yazısının amacı ve hedef kitlesiyle gerekçelendirip revize etme” işlemini görünür ve gerekçeli biçimde yapıp yapmadığına dayanır; kaynakta doğrulanmamış puan aralığı veya rubrik ölçütü eklenmez.
 
 ### Kapanış
 
-Öğrenci “Yazma planı, amaç/hedef kitle ve strateji kaydı” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
+Öğrenci ilk kanıt ile son kanıt arasındaki farkı tek cümlede açıklar ve şu ilerlemeyi görünür kılar: Plan yapmaktan plan kararlarını savunmaya ve düzeltmeye geçilir.
 
 ### Materyaller
 
@@ -128,4 +128,4 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanı
 
 ---
 
-<!-- TYMM_JSON_SHA256:08628bb94f19600301e37d7d18b73ff91b7a034948ca4eb56c5663ca2a7396a1 -->
+<!-- TYMM_JSON_SHA256:470d64c777217c8394c21795c270da1c3eca350609aeea9964bb64ba6797f682 -->

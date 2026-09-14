@@ -69,32 +69,32 @@
 
 # Ders akışı
 
-## 1. Ders — Çözümleyebilme: kanıt üretme ve geliştirme
+## 1. Ders — Âşık Atışmasını Çözümleme: Yapı, Dil ve Bağlam
 
 **Süre:** 1 ders saati  
 **Öğrenme çıktıları:** `TDE1.3`
 
 ### Hedef
 
-Öğrenci, “Çözümleyebilme” etkinliğinde çok modlu metni yapı, tür, dil-anlatım, kişi/olay/ileti ve bağlam yönlerinden çözümler; ürettiği kanıtı gerekçelendirerek uygulama ve ilk kanıt sürecini tamamlar.
+Öğrenci, “Çözümleyebilme” etkinliğinde çok modlu metni yapı, tür, dil-anlatım, kişi/olay/ileti ve bağlam yönlerinden çözümler. Bu ders saatinin pedagojik odağı: çok modlu metnin yapı, tür, dil-anlatım, kişi/olay/ileti ve bağlam göstergelerini ayrıntılı çözümleme; somut kanıt: Tahlil cevapları, karşılaştırma/şema kayıtları ve işaretlenmiş bulgular.
 
 ### Derse giriş
 
-“Çözümleyebilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi dinleme/izleme davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.
+Metin Tahlili-3 (Anlama): Dinleme / İzleme — Âşık Atışması — ders kitabı s.144 üzerinden bu saatin odağı görünür kılınır: Çok modlu metnin yapı, tür, dil-anlatım, kişi/olay/ileti ve bağlam göstergelerini ayrıntılı çözümleme. Öğrenci önceki/başlangıç kanıtını kısa biçimde önüne alır ve bu saatin sonunda neyin değişmiş veya derinleşmiş olması gerektiğini kendi cümlesiyle belirtir.
 
 ### Öğretmenin yapacakları
 
 1. “Çözümleyebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
-2. Öğrencinin şu görevi yerine getirmesini sağla: Çok modlu metni yapı, tür, dil-anlatım, kişi/olay/ileti ve bağlam yönlerinden çözümler. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
-3. “Tahlil cevapları, karşılaştırma/şema kayıtları ve gerekçeli çıkarımlar” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
-4. Ders sırasında kısa kontrol noktaları kullan; öğrencinin yanlış veya eksik stratejiyi kanıt oluşmadan önce fark edip düzeltmesine fırsat ver.
+2. Canonical görevi koru: Çok modlu metni yapı, tür, dil-anlatım, kişi/olay/ileti ve bağlam yönlerinden çözümler.
+3. İlk saatte ayrıntılı çözümleme ve işaretleme yaptır; parçalı bulguların kaydını tuttur.
+4. Bu saate özgü kanıtı topla: Tahlil cevapları, karşılaştırma/şema kayıtları ve işaretlenmiş bulgular. Yalnız katılımı yeterli kanıt sayma; öğrencinin yaptığı bilişsel işlemi ürününde veya kaydında görünür kıl.
 
 ### Öğrencinin yapacakları
 
 - Çok modlu metni yapı, tür, dil-anlatım, kişi/olay/ileti ve bağlam yönlerinden çözümler.
-- Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.
-- Kapanışta bir güçlü kanıtını ve bir geliştirme adımını kısa biçimde kaydeder.
+- Çok modlu metnin yapı, tür, dil-anlatım, kişi/olay/ileti ve bağlam göstergelerini ayrıntılı çözümleme.
+- Kanıt olarak şunu üretir veya günceller: Tahlil cevapları, karşılaştırma/şema kayıtları ve işaretlenmiş bulgular.
+- İlk kanıtında ikinci saatte sınayacağı, karşılaştıracağı, geliştireceği veya aktaracağı tek noktayı işaretler.
 
 ### Kaynak bağları
 
@@ -103,43 +103,43 @@
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı şudur: “Tahlil cevapları, karşılaştırma/şema kayıtları ve gerekçeli çıkarımlar”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen dinleme/izleme becerisine uygunluğu üzerinden verilir.
+Bu ders saatinin birincil ölçme kanıtı “Tahlil cevapları, karşılaştırma/şema kayıtları ve işaretlenmiş bulgular”dir. Değerlendirme, öğrencinin “Çok modlu metnin yapı, tür, dil-anlatım, kişi/olay/ileti ve bağlam göstergelerini ayrıntılı çözümleme” işlemini görünür ve gerekçeli biçimde yapıp yapmadığına dayanır; kaynakta doğrulanmamış puan aralığı veya rubrik ölçütü eklenmez.
 
 ### Kapanış
 
-Öğrenci “Tahlil cevapları, karşılaştırma/şema kayıtları ve gerekçeli çıkarımlar” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
+Öğrenci “Tahlil cevapları, karşılaştırma/şema kayıtları ve işaretlenmiş bulgular” kanıtında ikinci derse taşıyacağı tek soruyu, varsayımı veya geliştirme noktasını işaretler.
 
 ### Materyaller
 
 - Metin Tahlili-3 (Anlama): Dinleme / İzleme — Âşık Atışması — ders kitabı s.144
 - Öğrencinin bu ders saatinde oluşturduğu somut kanıt kaydı
 
-## 2. Ders — Çözümleyebilme: kanıt üretme ve geliştirme
+## 2. Ders — Çözümleme Bulgularından Bütüncül Çıkarıma
 
 **Süre:** 1 ders saati  
 **Öğrenme çıktıları:** `TDE1.3`
 
 ### Hedef
 
-Öğrenci, “Çözümleyebilme” etkinliğinde çok modlu metni yapı, tür, dil-anlatım, kişi/olay/ileti ve bağlam yönlerinden çözümler; ürettiği kanıtı gerekçelendirerek kanıtı geliştirme ve düzeltme sürecini tamamlar.
+Öğrenci, “Çözümleyebilme” etkinliğinde çok modlu metni yapı, tür, dil-anlatım, kişi/olay/ileti ve bağlam yönlerinden çözümler. Bu ders saatinin pedagojik odağı: çözümleme bulgularını âşık atışmasının bütünüyle ilişkilendirerek gerekçeli çıkarıma dönüştürme; somut kanıt: Sentezlenmiş şema/karşılaştırma ve gerekçeli çıkarım.
 
 ### Derse giriş
 
-“Çözümleyebilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi dinleme/izleme davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.
+Metin Tahlili-3 (Anlama): Dinleme / İzleme — Âşık Atışması — ders kitabı s.144 üzerinden bu saatin odağı görünür kılınır: Çözümleme bulgularını Âşık atışmasının bütünüyle ilişkilendirerek gerekçeli çıkarıma dönüştürme. Öğrenci önceki/başlangıç kanıtını kısa biçimde önüne alır ve bu saatin sonunda neyin değişmiş veya derinleşmiş olması gerektiğini kendi cümlesiyle belirtir.
 
 ### Öğretmenin yapacakları
 
 1. “Çözümleyebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
-2. Öğrencinin şu görevi yerine getirmesini sağla: Çok modlu metni yapı, tür, dil-anlatım, kişi/olay/ileti ve bağlam yönlerinden çözümler. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
-3. “Tahlil cevapları, karşılaştırma/şema kayıtları ve gerekçeli çıkarımlar” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
-4. İlk denemeden sonra ortak bir güçlü örneği ve geliştirilmesi gereken bir örneği anonim biçimde karşılaştır; öğrencinin ikinci denemesinde neyi değiştireceğini netleştir.
+2. Canonical görevi koru: Çok modlu metni yapı, tür, dil-anlatım, kişi/olay/ileti ve bağlam yönlerinden çözümler.
+3. İkinci saatte bu bulguları tek tek tekrar etmek yerine metnin bütünüyle ilişkilendirip sentez sonucuna dönüştürt.
+4. Bu saate özgü kanıtı topla: Sentezlenmiş şema/karşılaştırma ve gerekçeli çıkarım. Yalnız katılımı yeterli kanıt sayma; öğrencinin yaptığı bilişsel işlemi ürününde veya kaydında görünür kıl.
 
 ### Öğrencinin yapacakları
 
 - Çok modlu metni yapı, tür, dil-anlatım, kişi/olay/ileti ve bağlam yönlerinden çözümler.
-- Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.
-- İlk kanıtı ile düzeltilmiş kanıtı karşılaştırıp hangi değişikliğin sonucu iyileştirdiğini açıklar.
+- Çözümleme bulgularını Âşık atışmasının bütünüyle ilişkilendirerek gerekçeli çıkarıma dönüştürme.
+- Kanıt olarak şunu üretir veya günceller: Sentezlenmiş şema/karşılaştırma ve gerekçeli çıkarım.
+- İlk kanıtıyla bu saatin kanıtını karşılaştırır ve değişimi açıklar: Tek tek bulgulardan bütüncül dinleme/izleme sonucuna geçilir.
 
 ### Kaynak bağları
 
@@ -148,11 +148,11 @@ Ana ölçme kanıtı şudur: “Tahlil cevapları, karşılaştırma/şema kayı
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı şudur: “Tahlil cevapları, karşılaştırma/şema kayıtları ve gerekçeli çıkarımlar”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen dinleme/izleme becerisine uygunluğu üzerinden verilir.
+Bu ders saatinin birincil ölçme kanıtı “Sentezlenmiş şema/karşılaştırma ve gerekçeli çıkarım”dir. Değerlendirme, öğrencinin “Çözümleme bulgularını Âşık atışmasının bütünüyle ilişkilendirerek gerekçeli çıkarıma dönüştürme” işlemini görünür ve gerekçeli biçimde yapıp yapmadığına dayanır; kaynakta doğrulanmamış puan aralığı veya rubrik ölçütü eklenmez.
 
 ### Kapanış
 
-Öğrenci “Tahlil cevapları, karşılaştırma/şema kayıtları ve gerekçeli çıkarımlar” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
+Öğrenci ilk kanıt ile son kanıt arasındaki farkı tek cümlede açıklar ve şu ilerlemeyi görünür kılar: Tek tek bulgulardan bütüncül dinleme/izleme sonucuna geçilir.
 
 ### Materyaller
 
@@ -173,4 +173,4 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanı
 
 ---
 
-<!-- TYMM_JSON_SHA256:170c1990317a1d9faa333d1c720d40b43cd5dcb697f4bae0f04b9bbee141201c -->
+<!-- TYMM_JSON_SHA256:a5651f1907f5cecb03765fd4692ed0d15e123f6113c45c68663161cfd1e15f1b -->

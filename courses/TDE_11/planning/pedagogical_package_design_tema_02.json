@@ -1,0 +1,203 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "TDE_11",
+  "packages": [
+    {
+      "package_id": "BLOCK_T2_01_OKUMA_P01",
+      "route_id": "PREDICT_VERIFY",
+      "route_rationale": "Hikâye/anı okumasına hazırlığı ilk tahmin ile kaynak ipuçlarına dayalı doğrulama arasında ilerletir.",
+      "lesson_progression": [
+        {"lesson_no": 1, "role": "INITIAL_CONSTRUCTION", "cognitive_operation": "Hikâye/anı okuması için amaç, strateji ve gerekçeli tahmin oluşturma", "student_evidence": "Okuma öncesi amaç-strateji-tahmin kaydı", "delta_from_previous": "Başlangıç tahmini ve strateji kararı oluşturulur."},
+        {"lesson_no": 2, "role": "DEEPENING", "cognitive_operation": "Tahmin ve strateji kararını metin/bağlam ipuçlarıyla sınayıp güncelleme", "student_evidence": "Doğrulanan, değişen veya reddedilen tahmin kaydı", "delta_from_previous": "Tahmin üretmekten tahmini kaynak göstergeleriyle sınamaya geçilir."}
+      ]
+    },
+    {
+      "package_id": "BLOCK_T2_01_OKUMA_P02",
+      "route_id": "EVIDENCE_INTERPRET",
+      "route_rationale": "Hikâye/anı metninde anlam kurmayı kanıt seçme ve bu kanıtı yorumlama olarak iki aşamaya ayırır.",
+      "lesson_progression": [
+        {"lesson_no": 1, "role": "INITIAL_CONSTRUCTION", "cognitive_operation": "Konu, tema, ileti, söz varlığı ve bağlama ilişkin metin kanıtlarını seçme", "student_evidence": "Anlama cevapları, işaretlemeler ve seçilmiş metin kanıtları", "delta_from_previous": "İlk anlamlandırma kanıtları seçilir."},
+        {"lesson_no": 2, "role": "DEEPENING", "cognitive_operation": "Seçilen kanıtların tema, ileti ve bağlamla ilişkisini yorumlama", "student_evidence": "Kanıt-yorum eşleştirmesi ve gerekçeli anlam kaydı", "delta_from_previous": "Kanıt bulmaktan kanıtın ne gösterdiğini açıklamaya geçilir."}
+      ]
+    },
+    {
+      "package_id": "BLOCK_T2_01_OKUMA_P03",
+      "route_id": "CLOSE_READ_SYNTHESIZE",
+      "route_rationale": "Hikâye/anı çözümlemesini ayrıntılı bulgulardan bütüncül karşılaştırmalı sonuca taşır.",
+      "lesson_progression": [
+        {"lesson_no": 1, "role": "DEEPENING", "cognitive_operation": "Yapı, tür, dil-anlatım ve dönem/bağlam göstergelerini ayrıntılı çözümleme", "student_evidence": "Tahlil cevapları, tablo/şema ve işaretlenmiş çözümleme kanıtı", "delta_from_previous": "Ayrıntılı çözümleme kanıtları üretilir."},
+        {"lesson_no": 2, "role": "SYNTHESIS", "cognitive_operation": "Parça düzeyindeki bulguları metnin bütünü ve karşılaştırma ölçütleriyle sentezleme", "student_evidence": "Gerekçeli karşılaştırma ve sentez kaydı", "delta_from_previous": "Tek tek bulgulardan bütüncül çözümleme sonucuna geçilir."}
+      ]
+    },
+    {
+      "package_id": "BLOCK_T2_01_OKUMA_P04",
+      "route_id": "REFLECT_TRANSFER",
+      "route_rationale": "Hikâye/anı okuma sürecini sonraki tarihî metin grubuna aktarılacak strateji kararıyla kapatır.",
+      "lesson_progression": [
+        {"lesson_no": 1, "role": "REFLECTION", "cognitive_operation": "Okuma süreci ve metne ilişkin yargıları somut kanıtla değerlendirme", "student_evidence": "Öz değerlendirme, çıkış kartı, öğrenme günlüğü veya gerekçeli değerlendirme", "delta_from_previous": "Süreç kanıtı değerlendirme nesnesine dönüşür."},
+        {"lesson_no": 2, "role": "TRANSFER", "cognitive_operation": "Belirlenen geliştirme ihtiyacını sonraki tarihî metin okumasında uygulanacak stratejiye dönüştürme", "student_evidence": "Sonraki okuma için açık transfer kararı", "delta_from_previous": "Değerlendirmeden uygulanabilir eylem kararına geçilir."}
+      ]
+    },
+    {
+      "package_id": "BLOCK_T2_01_OKUMA_P05",
+      "route_id": "CLAIM_EVIDENCE_DEFEND",
+      "route_rationale": "Orhun Abideleri ve Dîvânu Lugâti’t-Türk öncesindeki amaç/strateji seçimini tarihî metin bağlamıyla gerekçelendirmeye taşır.",
+      "lesson_progression": [
+        {"lesson_no": 1, "role": "INITIAL_CONSTRUCTION", "cognitive_operation": "Orhun Abideleri/Dîvânu Lugâti’t-Türk için amaç, strateji ve tahmin oluşturma", "student_evidence": "Okuma öncesi cevaplar, tahminler ve hazırlık notları", "delta_from_previous": "Yeni metin grubu için ilk strateji ve tahmin kararı oluşturulur."},
+        {"lesson_no": 2, "role": "DEEPENING", "cognitive_operation": "Amaç ve strateji seçimini kaynak göstergeleriyle savunup gerektiğinde revize etme", "student_evidence": "Gerekçelendirilmiş ve revize edilmiş hazırlık kaydı", "delta_from_previous": "Strateji seçmekten seçimin nedenini savunmaya ve kanıta göre değiştirmeye geçilir."}
+      ]
+    },
+    {
+      "package_id": "BLOCK_T2_01_OKUMA_P06",
+      "route_id": "INTERTEXT_COMPARE",
+      "route_rationale": "Orhun Abideleri ile Dîvânu Lugâti’t-Türk’te anlam kurmayı iki kaynağı aynı ölçütlerle karşılaştırmaya taşır.",
+      "lesson_progression": [
+        {"lesson_no": 1, "role": "INITIAL_CONSTRUCTION", "cognitive_operation": "Birinci kaynakta konu, ileti, söz varlığı ve bağlam kanıtlarını belirleme", "student_evidence": "Birinci kaynak için anlama cevapları ve işaretlemeler", "delta_from_previous": "İlk kaynağa ait anlam kanıtı üretilir."},
+        {"lesson_no": 2, "role": "TRANSFER", "cognitive_operation": "İki kaynağı ortak anlam ve bağlam ölçütleriyle karşılaştırma", "student_evidence": "İki kaynağı karşılaştıran gerekçeli anlamlandırma kaydı", "delta_from_previous": "Tek kaynaktan iki kaynak arasında ölçüt temelli ilişki kurmaya geçilir."}
+      ]
+    },
+    {
+      "package_id": "BLOCK_T2_01_OKUMA_P07",
+      "route_id": "CLASSIFY_JUSTIFY",
+      "route_rationale": "Tarihî metinlerin yapı, tür, dil ve bağlam çözümlemesini sınıflandırma ile ölçüt gerekçelendirmesi arasında ilerletir.",
+      "lesson_progression": [
+        {"lesson_no": 1, "role": "INITIAL_CONSTRUCTION", "cognitive_operation": "Yapı, tür, dil-anlatım ve bağlam bulgularını ölçütlere göre sınıflandırma", "student_evidence": "Tahlil cevapları ile sınıflandırılmış tablo/şema", "delta_from_previous": "Çözümleme bulguları görünür kategorilere ayrılır."},
+        {"lesson_no": 2, "role": "DEEPENING", "cognitive_operation": "Sınıflandırma ve karşılaştırma ölçütlerini iki kaynaktan kanıtla gerekçelendirme", "student_evidence": "Gerekçeli karşılaştırma ve ölçüt açıklaması", "delta_from_previous": "Sınıflandırmadan ölçüt temelli gerekçelendirmeye geçilir."}
+      ]
+    },
+    {
+      "package_id": "BLOCK_T2_01_OKUMA_P08",
+      "route_id": "REFLECT_TRANSFER",
+      "route_rationale": "Tek saatlik okuma kapanışında doğrulanmış kontrol listesi ve çıkış kartını sonraki okuma davranışına bağlar.",
+      "lesson_progression": [
+        {"lesson_no": 1, "role": "REFLECTION", "cognitive_operation": "Okuma sürecini doğrulanmış kontrol listesi/çıkış kartı kanıtıyla değerlendirip tek bir transfer kararı belirleme", "student_evidence": "Doğrulanmış kontrol listesi ve çıkış kartına dayalı öz değerlendirme", "delta_from_previous": "Okuma bloğu yansıtma ve transfer kararıyla kapanır."}
+      ]
+    },
+    {
+      "package_id": "BLOCK_T2_02_KONUSMA_P01",
+      "route_id": "CLAIM_EVIDENCE_DEFEND",
+      "route_rationale": "Türk kültürünün özelliklerini yansıtan konuşmanın amaç, hedef kitle ve strateji planını gerekçeli seçimlere dönüştürür.",
+      "lesson_progression": [
+        {"lesson_no": 1, "role": "INITIAL_CONSTRUCTION", "cognitive_operation": "Konuşmanın amacı, hedef kitlesi, stratejisi ve uygulama koşullarını planlama", "student_evidence": "Konuşma planı, görev ve hazırlık kayıtları", "delta_from_previous": "İlk konuşma planı oluşturulur."},
+        {"lesson_no": 2, "role": "DEEPENING", "cognitive_operation": "Plan tercihlerini konuşmanın amacı ve hedef kitlesiyle gerekçelendirip savunma", "student_evidence": "Gerekçelendirilmiş ve gerektiğinde revize edilmiş konuşma planı", "delta_from_previous": "Plan yapmaktan plan kararlarını savunmaya ve düzeltmeye geçilir."}
+      ]
+    },
+    {
+      "package_id": "BLOCK_T2_02_KONUSMA_P02",
+      "route_id": "DRAFT_PEER_REVISE",
+      "route_rationale": "Türk kültürü konuşmasının içerik akışını ilk taslak ve akran geri bildirimi sonrası revizyon olarak iki aşamaya ayırır.",
+      "lesson_progression": [
+        {"lesson_no": 1, "role": "INITIAL_CONSTRUCTION", "cognitive_operation": "Bilgi, örnek, görsel/işitsel destek ve söz varlığı seçerek konuşma akış taslağı oluşturma", "student_evidence": "Konuşma metni/akış taslağı ve içerik seçimleri", "delta_from_previous": "İlk içerik taslağı oluşturulur."},
+        {"lesson_no": 2, "role": "REVISION", "cognitive_operation": "Akran geri bildirimi ve görev beklentisiyle konuşma akışını revize etme", "student_evidence": "Geri bildirim izi ve revize konuşma akışı", "delta_from_previous": "İlk taslaktan gerekçeli revizyona geçilir."}
+      ]
+    },
+    {
+      "package_id": "BLOCK_T2_02_KONUSMA_P03",
+      "route_id": "PERFORM_OBSERVE_REPERFORM",
+      "route_rationale": "Konuşmayı ilk performans, gözlem kanıtı ve hedefli ikinci performans döngüsüne dönüştürür.",
+      "lesson_progression": [
+        {"lesson_no": 1, "role": "PERFORMANCE", "cognitive_operation": "Planlanan konuşmayı bağlama uygun dil, beden dili, ses, zaman ve mekân kullanımıyla gerçekleştirme", "student_evidence": "İlk canlı sözlü performans ve gözlem kaydı", "delta_from_previous": "İlk performans kanıtı üretilir."},
+        {"lesson_no": 2, "role": "REVISION", "cognitive_operation": "Gözlem kanıtından seçilen hedefli değişikliği uygulayarak ikinci performansı gerçekleştirme", "student_evidence": "Geliştirilmiş ikinci performans ve değişiklik açıklaması", "delta_from_previous": "Gözleme dayalı somut değişiklik ikinci performansta görünür hâle gelir."}
+      ]
+    },
+    {
+      "package_id": "BLOCK_T2_02_KONUSMA_P04",
+      "route_id": "EXAMPLE_COUNTEREXAMPLE",
+      "route_rationale": "Aynı sözlü performansı tekrar etmek yerine etkili ve geliştirilecek konuşma davranışlarını karşılaştırarak ölçüt transferi yaptırır.",
+      "lesson_progression": [
+        {"lesson_no": 1, "role": "DEEPENING", "cognitive_operation": "Canlı konuşmadaki güçlü dil, beden dili, ses, zaman ve mekân kullanımlarını belirleme", "student_evidence": "Güçlü performans örnekleri ve kısa gözlem notları", "delta_from_previous": "Performans yapmaktan güçlü örnekleri çözümlemeye geçilir."},
+        {"lesson_no": 2, "role": "TRANSFER", "cognitive_operation": "Geliştirilmesi gereken karşı örnekleri güçlü örneklerle karşılaştırıp ölçütü yeni performansta uygulama", "student_evidence": "Karşı örnek gerekçesi ve ölçüte göre geliştirilmiş performans", "delta_from_previous": "Örnek tanımadan sınır durumu ayırt etmeye ve ölçütü uygulamaya geçilir."}
+      ]
+    },
+    {
+      "package_id": "BLOCK_T2_02_KONUSMA_P05",
+      "route_id": "REFLECT_TRANSFER",
+      "route_rationale": "Doğrulanmış öz-değerlendirme formunu performans kanıtından sonraki sözlü göreve aktarılacak geliştirme kararına bağlar.",
+      "lesson_progression": [
+        {"lesson_no": 1, "role": "REFLECTION", "cognitive_operation": "Konuşma performansını öz/akran/öğretmen kanıtlarıyla değerlendirme", "student_evidence": "Öz/akran değerlendirme, öğretmen gözlem kaydı ve yansıtma kaydı", "delta_from_previous": "Performans kanıtı değerlendirme nesnesine dönüşür."},
+        {"lesson_no": 2, "role": "TRANSFER", "cognitive_operation": "Doğrulanmış öz-değerlendirme kanıtından sonraki konuşmada uygulanacak tek geliştirme kararı çıkarma", "student_evidence": "Doğrulanmış öz-değerlendirme ve somut transfer kararı", "delta_from_previous": "Değerlendirmeden sonraki sözlü göreve uygulanabilir eylem kararına geçilir."}
+      ]
+    },
+    {
+      "package_id": "BLOCK_T2_03_DINLEME_P01",
+      "route_id": "PREDICT_VERIFY",
+      "route_rationale": "Âşık atışmasına hazırlığı ilk tahmin ile dinleme kanıtına dayalı doğrulama arasında ilerletir.",
+      "lesson_progression": [
+        {"lesson_no": 1, "role": "INITIAL_CONSTRUCTION", "cognitive_operation": "Âşık atışması için dinleme/izleme amacı, stratejisi ve gerekçeli tahmin oluşturma", "student_evidence": "Amaç/strateji kaydı, tahmin ve hazırlık notları", "delta_from_previous": "İlk dinleme tahmini ve strateji kararı oluşturulur."},
+        {"lesson_no": 2, "role": "DEEPENING", "cognitive_operation": "Tahmin ve strateji kararını dinleme/izleme kanıtıyla sınayıp güncelleme", "student_evidence": "Doğrulanan, değişen veya reddedilen tahmin kaydı", "delta_from_previous": "Tahmin üretmekten tahmini işitsel/görsel kanıtla sınamaya geçilir."}
+      ]
+    },
+    {
+      "package_id": "BLOCK_T2_03_DINLEME_P02",
+      "route_id": "EVIDENCE_INTERPRET",
+      "route_rationale": "Âşık atışmasında anlam kurmayı kanıt seçme ve seçilen kanıtı konu/tema/ileti bağlamında yorumlama olarak ayırır.",
+      "lesson_progression": [
+        {"lesson_no": 1, "role": "INITIAL_CONSTRUCTION", "cognitive_operation": "Konu, tema, ileti, söz varlığı ve bağlama ilişkin dinleme/izleme kanıtlarını seçme", "student_evidence": "Anlama cevapları ve yapılandırılmış dinleme/izleme notları", "delta_from_previous": "İlk anlamlandırma kanıtları seçilir."},
+        {"lesson_no": 2, "role": "DEEPENING", "cognitive_operation": "Seçilen dinleme kanıtlarının anlam ve iletiyle ilişkisini yorumlama", "student_evidence": "Kanıt-yorum eşleştirmesi ve gerekçeli dinleme kaydı", "delta_from_previous": "Kanıt toplamaktan kanıtın ne gösterdiğini açıklamaya geçilir."}
+      ]
+    },
+    {
+      "package_id": "BLOCK_T2_03_DINLEME_P03",
+      "route_id": "CLOSE_READ_SYNTHESIZE",
+      "route_rationale": "Âşık atışmasının yapı, tür, dil, kişi/olay/ileti ve bağlam çözümlemesini parçalı bulgulardan bütüncül çıkarıma taşır.",
+      "lesson_progression": [
+        {"lesson_no": 1, "role": "DEEPENING", "cognitive_operation": "Çok modlu metnin yapı, tür, dil-anlatım, kişi/olay/ileti ve bağlam göstergelerini ayrıntılı çözümleme", "student_evidence": "Tahlil cevapları, karşılaştırma/şema kayıtları ve işaretlenmiş bulgular", "delta_from_previous": "Ayrıntılı çözümleme kanıtları üretilir."},
+        {"lesson_no": 2, "role": "SYNTHESIS", "cognitive_operation": "Çözümleme bulgularını Âşık atışmasının bütünüyle ilişkilendirerek gerekçeli çıkarıma dönüştürme", "student_evidence": "Sentezlenmiş şema/karşılaştırma ve gerekçeli çıkarım", "delta_from_previous": "Tek tek bulgulardan bütüncül dinleme/izleme sonucuna geçilir."}
+      ]
+    },
+    {
+      "package_id": "BLOCK_T2_03_DINLEME_P04",
+      "route_id": "REFLECT_TRANSFER",
+      "route_rationale": "Doğrulanmış gözlem ve kontrol listelerini dinleme/izleme sürecinin değerlendirilmesinden sonraki dinleme stratejisine taşır.",
+      "lesson_progression": [
+        {"lesson_no": 1, "role": "REFLECTION", "cognitive_operation": "Dinleme/izleme sürecini doğrulanmış gözlem/kontrol listeleri ve kendi kanıtlarıyla değerlendirme", "student_evidence": "Gözlem/kontrol listesi destekli gerekçeli değerlendirme kaydı", "delta_from_previous": "Dinleme kanıtı değerlendirme nesnesine dönüşür."},
+        {"lesson_no": 2, "role": "TRANSFER", "cognitive_operation": "Değerlendirme sonucunu sonraki dinleme/izleme görevinde uygulanacak açık strateji kararına dönüştürme", "student_evidence": "Somut dinleme/izleme transfer kararı", "delta_from_previous": "Değerlendirmeden gelecekte kullanılacak strateji kararına geçilir."}
+      ]
+    },
+    {
+      "package_id": "BLOCK_T2_04_YAZMA_P01",
+      "route_id": "CLAIM_EVIDENCE_DEFEND",
+      "route_rationale": "Çevrim içi müze gezisi izlenimlerini yazma görevinin amaç, hedef kitle, tür ve strateji planını gerekçeli seçimlere dönüştürür.",
+      "lesson_progression": [
+        {"lesson_no": 1, "role": "INITIAL_CONSTRUCTION", "cognitive_operation": "Müze gezisi izlenim yazısının amacı, hedef kitlesi, türü, stratejisi ve üretim koşullarını planlama", "student_evidence": "Yazma planı, amaç/hedef kitle ve strateji kaydı", "delta_from_previous": "İlk yazma planı oluşturulur."},
+        {"lesson_no": 2, "role": "DEEPENING", "cognitive_operation": "Plan tercihlerini izlenim yazısının amacı ve hedef kitlesiyle gerekçelendirip revize etme", "student_evidence": "Gerekçelendirilmiş ve revize edilmiş yazma planı", "delta_from_previous": "Plan yapmaktan plan kararlarını savunmaya ve düzeltmeye geçilir."}
+      ]
+    },
+    {
+      "package_id": "BLOCK_T2_04_YAZMA_P02",
+      "route_id": "DRAFT_PEER_REVISE",
+      "route_rationale": "Müze gezisi izlenimlerinin içeriğini ilk taslak ve akran geri bildirimi sonrası revize taslak olarak ilerletir.",
+      "lesson_progression": [
+        {"lesson_no": 1, "role": "INITIAL_CONSTRUCTION", "cognitive_operation": "Bilgi, örnek, görsel/işitsel öge ve söz varlığı seçerek izlenim yazısı içerik taslağı oluşturma", "student_evidence": "İçerik taslağı, plan/şema ve kaynak-seçim kayıtları", "delta_from_previous": "İlk içerik taslağı oluşturulur."},
+        {"lesson_no": 2, "role": "REVISION", "cognitive_operation": "Akran geri bildirimi ve görev beklentisiyle içerik seçimi ve akışı revize etme", "student_evidence": "Geri bildirim izi ve revize içerik taslağı", "delta_from_previous": "İlk taslaktan gerekçeli içerik revizyonuna geçilir."}
+      ]
+    },
+    {
+      "package_id": "BLOCK_T2_04_YAZMA_P03",
+      "route_id": "ERROR_REPAIR",
+      "route_rationale": "İzlenim yazısını önce hata/eksik tanısı sonra hedefli onarım olarak ilerletir.",
+      "lesson_progression": [
+        {"lesson_no": 1, "role": "DEEPENING", "cognitive_operation": "Taslakta tür, bağlam, Türkçe kullanımı, yazım-noktalama veya bütünlük sorunu olan yerleri işaretleme", "student_evidence": "Sorunları işaretlenmiş yazılı/çok modlu ürün", "delta_from_previous": "Düzeltmeye geçmeden önce somut sorunlar görünür kılınır."},
+        {"lesson_no": 2, "role": "REVISION", "cognitive_operation": "Yalnız belirlenen sorunları hedefli biçimde düzeltip değişikliğin ürüne etkisini açıklama", "student_evidence": "Düzenlenmiş ürün ve değişiklik açıklaması", "delta_from_previous": "Sorun tanısından hedefli onarıma ve etkisini açıklamaya geçilir."}
+      ]
+    },
+    {
+      "package_id": "BLOCK_T2_04_YAZMA_P04",
+      "route_id": "DIAGNOSE_TARGET_EXIT",
+      "route_rationale": "Yazma sürecinin değerlendirmesini öncelikli geliştirme alanı, hedefli revizyon ve çıkış kanıtı döngüsüne dönüştürür.",
+      "lesson_progression": [
+        {"lesson_no": 1, "role": "REFLECTION", "cognitive_operation": "Ürün ve süreç kanıtından bir güçlü yön ile öncelikli geliştirme alanını belirleme", "student_evidence": "Öz/akran/öğretmen değerlendirme kaydı ve hedeflenen geliştirme noktası", "delta_from_previous": "Güçlü ve eksik yön somut kanıtla teşhis edilir."},
+        {"lesson_no": 2, "role": "REVISION", "cognitive_operation": "Belirlenen geliştirme alanına yönelik hedefli revizyon yapıp çıkış kanıtıyla değişimi gösterme", "student_evidence": "Revize edilmiş nihai ürün ve kısa değişim kaydı", "delta_from_previous": "Genel değerlendirmeden hedefli uygulama ve görünür değişime geçilir."}
+      ]
+    },
+    {
+      "package_id": "BLOCK_T2_04_YAZMA_P05",
+      "route_id": "REFLECT_TRANSFER",
+      "route_rationale": "Yazma sürecini öz değerlendirme ile kapatır; ikinci saatteki doğrulanmış 2. Tema ölçme-değerlendirme akışını bağımsız tema kanıtı olarak korur.",
+      "lesson_progression": [
+        {"lesson_no": 1, "role": "REFLECTION", "cognitive_operation": "Müze gezisi izlenim yazısında güçlü yön ve son geliştirme ihtiyacını kanıtla belirleme", "student_evidence": "Öz/akran değerlendirme, yansıtma ve son ürün kanıtı", "delta_from_previous": "Yazma ürünü son kez değerlendirme nesnesine dönüşür."},
+        {"lesson_no": 2, "role": "TRANSFER", "cognitive_operation": "2. Tema ölçme-değerlendirme sorularında dört beceri alanındaki öğrenmeyi bağımsız ve gerekçeli yanıtlarla gösterme", "student_evidence": "Tema sonu ölçme sorularına bağımsız ve gerekçeli yanıtlar", "delta_from_previous": "Ürün değerlendirmesinden tema bütünündeki bağımsız öğrenme kanıtına geçilir."}
+      ]
+    }
+  ]
+}

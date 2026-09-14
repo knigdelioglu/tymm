@@ -24,32 +24,32 @@
 
 # Ders akışı
 
-## 1. Ders — Okumayı Yönetebilme: kanıt üretme ve geliştirme
+## 1. Ders — Merdiven’e Hazırlık: Küçürek Hikâye İçin Amaç ve Strateji
 
 **Süre:** 1 ders saati  
 **Öğrenme çıktıları:** `TDE2.3`
 
 ### Hedef
 
-Öğrenci, “Okumayı Yönetebilme” etkinliğinde okuma amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve metne ilişkin tahmin geliştirir; ürettiği kanıtı gerekçelendirerek uygulama ve ilk kanıt sürecini tamamlar.
+Öğrenci, “Okumayı Yönetebilme” etkinliğinde okuma amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve metne ilişkin tahmin geliştirir. Bu ders saatinin pedagojik odağı: küçürek hikâye için amaç, strateji ve tahmin oluşturma; somut kanıt: Okuma öncesi cevaplar, tahminler ve hazırlık notları.
 
 ### Derse giriş
 
-“Okumayı Yönetebilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi okuma davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.
+Metin Tahlili-2 (Anlama): Okuma — Küçürek Hikâye / Merdiven — ders kitabı s.264 üzerinden bu saatin odağı görünür kılınır: Küçürek hikâye için amaç, strateji ve tahmin oluşturma. Öğrenci önceki/başlangıç kanıtını kısa biçimde önüne alır ve bu saatin sonunda neyin değişmiş veya derinleşmiş olması gerektiğini kendi cümlesiyle belirtir.
 
 ### Öğretmenin yapacakları
 
 1. “Okumayı Yönetebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
-2. Öğrencinin şu görevi yerine getirmesini sağla: Okuma amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve metne ilişkin tahmin geliştirir. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
-3. “Okuma öncesi cevaplar, tahminler ve hazırlık notları” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
-4. Ders sırasında kısa kontrol noktaları kullan; öğrencinin yanlış veya eksik stratejiyi kanıt oluşmadan önce fark edip düzeltmesine fırsat ver.
+2. Canonical görevi koru: Okuma amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve metne ilişkin tahmin geliştirir.
+3. İlk saatte öğrencinin plan/yorum/strateji seçimini açık bir karar ve dayanakla kaydetmesini sağla.
+4. Bu saate özgü kanıtı topla: Okuma öncesi cevaplar, tahminler ve hazırlık notları. Yalnız katılımı yeterli kanıt sayma; öğrencinin yaptığı bilişsel işlemi ürününde veya kaydında görünür kıl.
 
 ### Öğrencinin yapacakları
 
 - Okuma amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve metne ilişkin tahmin geliştirir.
-- Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.
-- Kapanışta bir güçlü kanıtını ve bir geliştirme adımını kısa biçimde kaydeder.
+- Küçürek hikâye için amaç, strateji ve tahmin oluşturma.
+- Kanıt olarak şunu üretir veya günceller: Okuma öncesi cevaplar, tahminler ve hazırlık notları.
+- İlk kanıtında ikinci saatte sınayacağı, karşılaştıracağı, geliştireceği veya aktaracağı tek noktayı işaretler.
 
 ### Kaynak bağları
 
@@ -58,43 +58,43 @@
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı şudur: “Okuma öncesi cevaplar, tahminler ve hazırlık notları”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen okuma becerisine uygunluğu üzerinden verilir.
+Bu ders saatinin birincil ölçme kanıtı “Okuma öncesi cevaplar, tahminler ve hazırlık notları”dir. Değerlendirme, öğrencinin “Küçürek hikâye için amaç, strateji ve tahmin oluşturma” işlemini görünür ve gerekçeli biçimde yapıp yapmadığına dayanır; kaynakta doğrulanmamış puan aralığı veya rubrik ölçütü eklenmez.
 
 ### Kapanış
 
-Öğrenci “Okuma öncesi cevaplar, tahminler ve hazırlık notları” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
+Öğrenci “Okuma öncesi cevaplar, tahminler ve hazırlık notları” kanıtında ikinci derse taşıyacağı tek soruyu, varsayımı veya geliştirme noktasını işaretler.
 
 ### Materyaller
 
 - Metin Tahlili-2 (Anlama): Okuma — Küçürek Hikâye / Merdiven — ders kitabı s.264
 - Öğrencinin bu ders saatinde oluşturduğu somut kanıt kaydı
 
-## 2. Ders — Okumayı Yönetebilme: kanıt üretme ve geliştirme
+## 2. Ders — Kısa ve Yoğun Metinde Strateji Seçimini Savunma
 
 **Süre:** 1 ders saati  
 **Öğrenme çıktıları:** `TDE2.3`
 
 ### Hedef
 
-Öğrenci, “Okumayı Yönetebilme” etkinliğinde okuma amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve metne ilişkin tahmin geliştirir; ürettiği kanıtı gerekçelendirerek kanıtı geliştirme ve düzeltme sürecini tamamlar.
+Öğrenci, “Okumayı Yönetebilme” etkinliğinde okuma amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve metne ilişkin tahmin geliştirir. Bu ders saatinin pedagojik odağı: amaç ve strateji seçimini küçürek hikâye göstergeleriyle savunup gerektiğinde revize etme; somut kanıt: Gerekçelendirilmiş ve revize edilmiş hazırlık kaydı.
 
 ### Derse giriş
 
-“Okumayı Yönetebilme” görevinin amacı ile beklenen kanıt açıklanır. Öğrenci, bu ders saatinde hangi okuma davranışını göstereceğini ve sonunda hangi somut kanıtı bırakacağını kendi cümlesiyle ifade eder.
+Metin Tahlili-2 (Anlama): Okuma — Küçürek Hikâye / Merdiven — ders kitabı s.264 üzerinden bu saatin odağı görünür kılınır: Amaç ve strateji seçimini küçürek hikâye göstergeleriyle savunup gerektiğinde revize etme. Öğrenci önceki/başlangıç kanıtını kısa biçimde önüne alır ve bu saatin sonunda neyin değişmiş veya derinleşmiş olması gerektiğini kendi cümlesiyle belirtir.
 
 ### Öğretmenin yapacakları
 
 1. “Okumayı Yönetebilme” etkinliğinin yönergesini ders kitabındaki doğrulanmış kapsamla uygula; kaynakta bulunmayan içerik veya değerlendirme ölçütü ekleme.
-2. Öğrencinin şu görevi yerine getirmesini sağla: Okuma amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve metne ilişkin tahmin geliştirir. Kararını veya yorumunu somut metin/performans/ürün göstergesiyle gerekçelendirmesini iste.
-3. “Okuma öncesi cevaplar, tahminler ve hazırlık notları” kanıtını topla. Yalnız katılım gözlemini yeterli sayma; öğrencinin neyi nasıl gösterdiğini kaydet.
-4. İlk denemeden sonra ortak bir güçlü örneği ve geliştirilmesi gereken bir örneği anonim biçimde karşılaştır; öğrencinin ikinci denemesinde neyi değiştireceğini netleştir.
+2. Canonical görevi koru: Okuma amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve metne ilişkin tahmin geliştirir.
+3. İkinci saatte bu seçimin nedenini görev kanıtıyla savundur; karşı soru veya geri bildirim sonucunda gerekirse kararı revize ettir.
+4. Bu saate özgü kanıtı topla: Gerekçelendirilmiş ve revize edilmiş hazırlık kaydı. Yalnız katılımı yeterli kanıt sayma; öğrencinin yaptığı bilişsel işlemi ürününde veya kaydında görünür kıl.
 
 ### Öğrencinin yapacakları
 
 - Okuma amacını ve stratejisini belirler, ön bilgilerini etkinleştirir ve metne ilişkin tahmin geliştirir.
-- Kararını, yorumunu veya ürün tercihini somut kaynak göstergesiyle gerekçelendirir.
-- Ürettiği kanıtı yönergeye göre kontrol eder; eksik veya belirsiz kısmı düzeltir.
-- İlk kanıtı ile düzeltilmiş kanıtı karşılaştırıp hangi değişikliğin sonucu iyileştirdiğini açıklar.
+- Amaç ve strateji seçimini küçürek hikâye göstergeleriyle savunup gerektiğinde revize etme.
+- Kanıt olarak şunu üretir veya günceller: Gerekçelendirilmiş ve revize edilmiş hazırlık kaydı.
+- İlk kanıtıyla bu saatin kanıtını karşılaştırır ve değişimi açıklar: Strateji seçmekten seçimin nedenini savunmaya ve kanıta göre değiştirmeye geçilir.
 
 ### Kaynak bağları
 
@@ -103,11 +103,11 @@ Ana ölçme kanıtı şudur: “Okuma öncesi cevaplar, tahminler ve hazırlık 
 
 ### Ölçme / öğrenme kanıtı
 
-Ana ölçme kanıtı şudur: “Okuma öncesi cevaplar, tahminler ve hazırlık notları”. Geri bildirim, bu kanıtın doğruluğu, gerekçesi ve hedeflenen okuma becerisine uygunluğu üzerinden verilir.
+Bu ders saatinin birincil ölçme kanıtı “Gerekçelendirilmiş ve revize edilmiş hazırlık kaydı”dir. Değerlendirme, öğrencinin “Amaç ve strateji seçimini küçürek hikâye göstergeleriyle savunup gerektiğinde revize etme” işlemini görünür ve gerekçeli biçimde yapıp yapmadığına dayanır; kaynakta doğrulanmamış puan aralığı veya rubrik ölçütü eklenmez.
 
 ### Kapanış
 
-Öğrenci “Okuma öncesi cevaplar, tahminler ve hazırlık notları” kanıtına bakarak bir güçlü yönünü ve bir sonraki uygulamada yapacağı tek somut değişikliği yazar.
+Öğrenci ilk kanıt ile son kanıt arasındaki farkı tek cümlede açıklar ve şu ilerlemeyi görünür kılar: Strateji seçmekten seçimin nedenini savunmaya ve kanıta göre değiştirmeye geçilir.
 
 ### Materyaller
 
@@ -128,4 +128,4 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanı
 
 ---
 
-<!-- TYMM_JSON_SHA256:dbfa0006a1657709fdf626b72be2bd5e7c43f2ba480ceb0e341a7bb50c5841fb -->
+<!-- TYMM_JSON_SHA256:e49ec8764551a25e5d3f389370649f0006e805e05c02085aee5da5f644621528 -->

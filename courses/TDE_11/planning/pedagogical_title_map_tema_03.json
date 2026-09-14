@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "TDE_11",
+  "theme_id": "TEMA_03",
+  "titles": {
+    "BLOCK_T3_01_OKUMA_P01": ["Huzur Romanına Hazırlık: Amaç, Strateji ve Tahmin", "Huzur’da Tahminleri Metin ve Bağlam İpuçlarıyla Sınama"],
+    "BLOCK_T3_01_OKUMA_P02": ["Huzur’da Anlam İzleri: Kanıtları Belirleme", "Konu, Tema ve İleti: Roman Kanıtından Yoruma"],
+    "BLOCK_T3_01_OKUMA_P03": ["Huzur’u Yakından Çözümleme: Yapı, Kişi, Dil ve Bağlam", "Parçalardan Bütüne: Roman Çözümlemesini Sentezleme"],
+    "BLOCK_T3_01_OKUMA_P04": ["Roman Okumasını Değerlendirme: Kanıta Bakış", "Biyografi ve Tezkireye Geçiş: Okuma Stratejisi Kararı"],
+    "BLOCK_T3_01_OKUMA_P05": ["Biyografi ve Tezkireye Hazırlık: Amaç, Strateji ve Tahmin", "İki Tür İçin Strateji Seçimini Kaynakla Savunma"],
+    "BLOCK_T3_01_OKUMA_P06": ["Biyografide Anlam ve Bağlam Kanıtları", "Biyografiden Tezkireye: Karşılaştırmalı Anlam"],
+    "BLOCK_T3_01_OKUMA_P07": ["Biyografi ve Tezkireyi Sınıflandırma: Yapı, Tür, Dil ve Bağlam", "Ortak Ölçütlerle Karşılaştırma: Tür Farklarını Gerekçelendirme"],
+    "BLOCK_T3_01_OKUMA_P08": ["Okuma Bloğunu Kapatma: Çıkış Kartı ve Transfer"],
+    "BLOCK_T3_02_KONUSMA_P01": ["Hayalî Mülakatı Planlama: Amaç, Rol, Hedef Kitle ve Strateji", "Mülakat Planını Savunma: Seçimleri Gerekçelendirme"],
+    "BLOCK_T3_02_KONUSMA_P02": ["Hayalî Mülakat: İlk Soru ve Akış Taslağı", "Soruları ve Akışı Geliştirme: Akran Geri Bildirimi"],
+    "BLOCK_T3_02_KONUSMA_P03": ["Hayalî Mülakat I: İlk Performans ve Gözlem", "Hayalî Mülakat II: Gözlemden Yeniden Performansa"],
+    "BLOCK_T3_02_KONUSMA_P04": ["Mülakatta Etkili Kullanımlar: Güçlü Örnekleri Ayırma", "Karşı Örnekten İyileştirmeye: Ölçütü Yeni Performansa Taşıma"],
+    "BLOCK_T3_02_KONUSMA_P05": ["Hayalî Mülakat Performansını Değerlendirme", "Öz Değerlendirmeden Sonraki Konuşmaya: Geliştirme Kararı"],
+    "BLOCK_T3_03_DINLEME_P01": ["Direnişin Ustaları’na Hazırlık: Dinleme Amacı, Strateji ve Tahmin", "Radyo Tiyatrosunda Tahminleri Dinleme Kanıtıyla Sınama"],
+    "BLOCK_T3_03_DINLEME_P02": ["Radyo Tiyatrosunda Anlam Kanıtlarını Toplama", "Konu, Tema ve İleti: İşitsel Kanıttan Yoruma"],
+    "BLOCK_T3_03_DINLEME_P03": ["Direnişin Ustaları’nı Çözümleme: Yapı, Dil, Kişi ve Bağlam", "Çözümleme Bulgularından Bütüncül Çıkarıma"],
+    "BLOCK_T3_03_DINLEME_P04": ["Radyo Tiyatrosu Dinlemesini Değerlendirme: Gözlem ve Günlük Kanıtı", "Değerlendirmeden Sonraki Dinlemeye: Strateji Kararı"],
+    "BLOCK_T3_04_YAZMA_P01": ["Diyaloğu Başka Bir Türe Dönüştürmeyi Planlama", "Tür ve Strateji Seçimini Gerekçelendirme ve Revize Etme"],
+    "BLOCK_T3_04_YAZMA_P02": ["Diyalog Dönüşümü: İlk İçerik Taslağı", "Taslağı Geliştirme: Akran Geri Bildirimi ve Revizyon"],
+    "BLOCK_T3_04_YAZMA_P03": ["Dönüşüm Metnini Denetleme: Tür, Dil, Yazım ve Bütünlük", "Sorundan Onarıma: Dönüşüm Metnini Hedefli Düzenleme"],
+    "BLOCK_T3_04_YAZMA_P04": ["Dönüşüm Ürününü Değerlendirme: Öncelikli Geliştirme Alanı", "Hedefli Revizyon: Değişimi Çıkış Kanıtıyla Gösterme"],
+    "BLOCK_T3_04_YAZMA_P05": ["Yazma Sürecini Kapatma: Güçlü Yön ve Son Geliştirme Kararı", "3. Tema Ölçme ve Değerlendirme: Bağımsız Tema Kanıtı"]
+  },
+  "preserve_body_lessons": [
+    {"package_id": "BLOCK_T3_04_YAZMA_P05", "lesson_no": 2}
+  ]
+}
