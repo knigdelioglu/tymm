@@ -1,0 +1,45 @@
+name: TDE11 Theme1 Pedagogy Apply
+
+on:
+  push:
+    branches:
+      - feat/tde11-pedagojik-cesitlilik
+    paths:
+      - '.github/workflows/tde11-theme1-pedagogy-apply.yml'
+      - 'courses/TDE_11/planning/pedagogical_package_design.json'
+      - 'courses/TDE_11/planning/pedagogical_route_catalog.json'
+      - 'skill/tymm-material-planner/scripts/revise_tde11_theme1_pedagogy.py'
+
+permissions:
+  contents: write
+
+jobs:
+  apply-theme1:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feat/tde11-pedagojik-cesitlilik
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Apply deterministic Theme 1 revision
+        run: python skill/tymm-material-planner/scripts/revise_tde11_theme1_pedagogy.py --write
+      - name: Prove revision is idempotent
+        run: python skill/tymm-material-planner/scripts/revise_tde11_theme1_pedagogy.py --check
+      - name: Run full lesson-plan validation
+        run: python skill/tymm-material-planner/scripts/validate_all_lesson_plans.py --knowledge-root courses/TDE_11
+      - name: Run pedagogical validator in advisory mode
+        run: python skill/tymm-material-planner/scripts/validate_pedagogical_diversity.py --knowledge-root courses/TDE_11
+      - name: Commit generated Theme 1 plan revisions
+        run: |
+          if git diff --quiet -- courses/TDE_11/generated/lesson_plans/TEMA_01; then
+            echo 'No generated Theme 1 changes to commit.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add courses/TDE_11/generated/lesson_plans/TEMA_01
+          git commit -m 'feat(tde11): diversify theme 1 lesson pedagogy'
+          git push origin HEAD:feat/tde11-pedagojik-cesitlilik
