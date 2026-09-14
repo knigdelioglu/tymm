@@ -18,7 +18,7 @@
 
 ## Öğrenme ve değerlendirme kapsamı
 
-- **Öğrenme çıktıları:** `TDE2.3`
+- **Öğrenme çıktıları:** `TDE2.1`
 - **Kullanılan etkinlikler:** `T2_ACT_05_OKUMA_YONETIM`
 - **Kullanılan formlar:** Yok
 
@@ -27,7 +27,7 @@
 ## 1. Ders — Okumayı Yönetebilme: kanıt üretme ve geliştirme
 
 **Süre:** 1 ders saati  
-**Öğrenme çıktıları:** `TDE2.3`
+**Öğrenme çıktıları:** `TDE2.1`
 
 ### Hedef
 
@@ -72,7 +72,7 @@ Ana ölçme kanıtı şudur: “Okuma öncesi cevaplar, tahminler ve hazırlık 
 ## 2. Ders — Okumayı Yönetebilme: kanıt üretme ve geliştirme
 
 **Süre:** 1 ders saati  
-**Öğrenme çıktıları:** `TDE2.3`
+**Öğrenme çıktıları:** `TDE2.1`
 
 ### Hedef
 
@@ -122,10 +122,10 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanı
 
 - **Bu pakette planlanan:** 2 saat
 - **Blokta kalan:** 5 saat
-- **Kapsanan çıktılar:** `TDE2.3`
+- **Kapsanan çıktılar:** `TDE2.1`
 - **Kullanılan etkinlikler:** `T2_ACT_05_OKUMA_YONETIM`
 - **Sonraki adım:** Aynı okuma bloğunda kalan 5 saatte kullanılmamış veya derinleştirilecek doğrulanmış kitap etkinlikleriyle beceri kanıtını ilerlet.
 
 ---
 
-<!-- TYMM_JSON_SHA256:fd640b3fff4b845686054d97900ba925c224d9629100520b0e23b3a0644cac3f -->
+<!-- TYMM_JSON_SHA256:64b4774e1afb987fa3e162ced3a3790658f22a810684f2f65e6f6fa57e1ed742 -->

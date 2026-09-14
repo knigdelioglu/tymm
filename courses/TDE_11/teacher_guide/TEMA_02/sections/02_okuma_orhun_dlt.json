@@ -1,0 +1,676 @@
+{
+  "schema_version": "1.1.0",
+  "document_type": "TYMM_TEACHER_GUIDE_SECTION",
+  "course_id": "TDE_11",
+  "theme_id": "TEMA_02",
+  "section_id": "T2_SEC_02_OKUMA_ORHUN_DLT",
+  "title": "Metin Tahlili-2 (Anlama): Okuma — Orhun Abideleri / Dîvânu Lugâti’t-Türk",
+  "section_type": "READING",
+  "printed_page_range": "113-128",
+  "content_status": "VERIFIED",
+  "outcome_refs": [
+    "TDE2.1",
+    "TDE2.2",
+    "TDE2.3",
+    "TDE2.4"
+  ],
+  "activity_refs": [
+    "T2_ACT_05_OKUMA_YONETIM",
+    "T2_ACT_06_OKUMA_ICERIK_ANLAM",
+    "T2_ACT_07_OKUMA_UYGULAMA_COZUMLEME",
+    "T2_ACT_08_OKUMA_DEGERLENDIRME"
+  ],
+  "lesson_plan_refs": [
+    "courses/TDE_11/generated/lesson_plans/TEMA_02/BLOCK_T2_01_OKUMA/BLOCK_T2_01_OKUMA_P05.json",
+    "courses/TDE_11/generated/lesson_plans/TEMA_02/BLOCK_T2_01_OKUMA/BLOCK_T2_01_OKUMA_P06.json",
+    "courses/TDE_11/generated/lesson_plans/TEMA_02/BLOCK_T2_01_OKUMA/BLOCK_T2_01_OKUMA_P07.json",
+    "courses/TDE_11/generated/lesson_plans/TEMA_02/BLOCK_T2_01_OKUMA/BLOCK_T2_01_OKUMA_P08.json"
+  ],
+  "guide_units": [
+    {
+      "unit_id": "T2_GUIDE_U05_OKUMA_YONETIM",
+      "title": "Okumayı Yönetebilme",
+      "printed_page_range": "113-115",
+      "activity_refs": [
+        "T2_ACT_05_OKUMA_YONETIM"
+      ],
+      "outcome_refs": [
+        "TDE2.1"
+      ],
+      "content_status": "VERIFIED",
+      "purpose": "Orhun Abideleri’nin Türk dili, tarihi ve kültüründeki yerini ön bilgilerle ilişkilendirip amaçlı okumaya geçmek.",
+      "items": [
+        {
+          "item_id": "T2_G05_P113_ORHUN_ONBILGI",
+          "printed_page_range": "113",
+          "label": "Orhun Vadisi — ön bilgi ve kültürel önem",
+          "item_type": "QUESTION",
+          "expected_answer": {
+            "1": "Moğolistan’daki Orhun Vadisi, Göktürk dönemi yazıtları ve eski Türk devlet/kültür mirasıyla ilişkilidir; medya içeriğinde görülen somut ayrıntılar ayrıca eklenmelidir.",
+            "2": "Devlet tecrübesini, başarı/yanlışları, töreyi ve millete öğütleri gelecek kuşaklara kalıcı biçimde aktarmak.",
+            "3": "Türkçenin ilk büyük yazılı belgeleri arasında olmaları; tarih, devlet anlayışı, toplum, kültür ve dil hakkında doğrudan bilgi taşımaları.",
+            "4": "Çince yüz, dönemin diplomatik/kültürel ilişkileri ve metnin karşılaştırmalı okunması bakımından ek tarihî-dilsel veri sağlar.",
+            "5": "Kaplumbağa/kalıcı kaide ve “bengü taş” fikri, sözün ve hatıranın uzun ömürlü olması/ebediyet arzusuyla ilişkilendirilebilir."
+          },
+          "acceptance_criteria": [
+            "Medya sorularında yalnız gerçekten gözlenen unsur iddia edilir.",
+            "Orhun’un dil-tarih-kültür önemini en az iki boyutla açıklar."
+          ],
+          "teacher_guidance": [
+            "Orhun Vadisi videosunun yerel PDF’de gömülü olmayan ayrıntılarını resmî cevap gibi verme."
+          ],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "Beş gerekçeli hazırlık cevabı."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.113 / PDF s.114"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T2_G05_P114_115_OKUMA",
+          "printed_page_range": "114-115",
+          "label": "Kül Tigin Âbidesi — okuma amacı, tahmin ve aktif okuma",
+          "item_type": "PROCESS",
+          "expected_answer": {
+            "amac": "Türk milletine verilen öğütleri, devlet/töre anlayışını ve dil-üslup özelliklerini anlamak.",
+            "tahmin": "Başlık/görsel ve “abide” kavramından tarihî, öğretici, hitabet yönü güçlü bir yazıt beklenebilir.",
+            "strateji": "Anahtar sözleri işaretleme, hitap/öğüt bölümlerini ayırma, olay/mesaj notu çıkarma gibi aktif okuma."
+          },
+          "acceptance_criteria": [
+            "Amaç ve strateji belirtir.",
+            "Tahmini başlık/görsel kanıtına bağlar."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "Okuma planı + kısa notlar."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.114-115 / PDF s.115-116"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        }
+      ],
+      "provenance": {
+        "source_ids": [
+          "official_textbook_pdf",
+          "textbook_map"
+        ],
+        "source_locators": [
+          "basılı s.113-115 / PDF s.114-116"
+        ],
+        "content_class": "MIXED"
+      }
+    },
+    {
+      "unit_id": "T2_GUIDE_U06_OKUMA_ANLAM",
+      "title": "Anlam Oluşturabilme",
+      "printed_page_range": "116-120",
+      "activity_refs": [
+        "T2_ACT_06_OKUMA_ICERIK_ANLAM"
+      ],
+      "outcome_refs": [
+        "TDE2.2"
+      ],
+      "content_status": "VERIFIED",
+      "purpose": "Tarihî söz varlığı, metnin iletileri, söz sanatları ve farklı metinlerle karşılaştırma üzerinden anlam oluşturmak.",
+      "items": [
+        {
+          "item_id": "T2_G06_P116_SOZ_VARLIGI",
+          "printed_page_range": "116",
+          "label": "Orhun söz varlığı — yağız, ecdat, il, töre, şad, kılmak",
+          "item_type": "VOCABULARY",
+          "expected_answer": {
+            "yagiz": "Esmer/kara.",
+            "ecdat": "Geçmişteki büyükler, atalar.",
+            "il": "Yurt/devlet/ülke bağlamı.",
+            "tore": "Toplumda yerleşmiş kural, davranış ve yaşama düzeni.",
+            "sad": "Eski Türklerde kağan ailesinden yönetici/askerî-idarî unvan sahibi kişi.",
+            "kilmak": "Etmek, yapmak."
+          },
+          "acceptance_criteria": [
+            "Eşleştirmeleri bağlama uygun yapar."
+          ],
+          "teacher_guidance": [
+            "“İl” ve “şad” için tarihî bağlamı belirt; yalnız güncel anlamla sınırlama."
+          ],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "Doğru eşleştirme."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.116 / PDF s.117"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T2_G06_P117_METNI_ANLAYALIM",
+          "printed_page_range": "117",
+          "label": "Kül Tigin Âbidesi — 1-3. sorular",
+          "item_type": "QUESTION",
+          "expected_answer": {
+            "1": "Bilge Kağan milleti ve beyleri uyarmak, devletin nasıl korunacağını anlatmak, geçmiş başarı/yanlışları kayda geçirmek ve töre-millî birlik bilincini gelecek kuşaklara aktarmak ister.",
+            "2": "Sözlerini kalıcı taşa kazıtarak geçici konuşmayı gelecek kuşaklara ulaşacak tarihî bir hafızaya dönüştürmeyi ifade eder.",
+            "3": [
+              "birlikten ve töreden ayrılmama",
+              "bağımsızlığı/devleti koruma",
+              "aldatılmama ve yanlışlardan ders çıkarma",
+              "çalışma ve sorumluluk",
+              "uygun merkez/Ötüken etrafında düzen"
+            ]
+          },
+          "acceptance_criteria": [
+            "Amaç ve öğütleri metindeki hitap/iletiyle ilişkilendirir.",
+            "Günümüzde geçerliliği konusunda gerekçe verir."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "Üç metne dayalı cevap."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.117 / PDF s.118"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T2_G06_P117_BILGE_KAGAN",
+          "printed_page_range": "117",
+          "label": "Bilge Kağan — tarihî kişilik çıkarımı",
+          "item_type": "QUESTION",
+          "expected_answer": "Milletini uyaran ve yöneten bir kağan; Kül Tigin’in hatırasını yaşatmak için yazıt/bark yaptıran, devlet, hukuk/töre, toplum dayanışması ve ekonomik refah üzerinde duran bir lider olarak görülebilir.",
+          "acceptance_criteria": [
+            "Parça + yazıttan en az iki ayrıntı çıkarır."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "Tarihî kişilik çıkarım notu."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.117 / PDF s.118"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T2_G06_P118_SOZ_SANATLARI",
+          "printed_page_range": "118",
+          "label": "Deyim ve söz sanatları",
+          "item_type": "TABLE",
+          "expected_answer": {
+            "ornek_turleri": [
+              "benzetme",
+              "zıtlık",
+              "istifham",
+              "nida",
+              "deyim"
+            ],
+            "yorum": "Söz sanatları kısa taş yazıt metninde vurguyu, akılda kalıcılığı, hitabet gücünü ve duygusal/ikna edici etkiyi artırır."
+          },
+          "acceptance_criteria": [
+            "Metinden uygun örnek seçer.",
+            "Söz sanatının anlatım gücüne katkısını açıklar."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "Doldurulmuş söz sanatı tablosu."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.118 / PDF s.119"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T2_G06_P119_120_KARSILASTIRMA",
+          "printed_page_range": "119-120",
+          "label": "Oğulla Buluşma ile Kül Tigin Âbidesi karşılaştırması",
+          "item_type": "TABLE",
+          "expected_answer": {
+            "Oğulla Buluşma": {
+              "tur": "hikâye/kurmaca edebî metin",
+              "icerik": "baba-oğul, savaş, özlem ve yas",
+              "zihniyet": "20. yüzyıl savaş tecrübesi ve aile/toplum değerleri",
+              "uslup": "öyküleyici, duygusal ve betimleyici",
+              "amac": "estetik anlatımla insanî yaşantıyı düşündürmek"
+            },
+            "Kül Tigin Âbidesi": {
+              "tur": "yazıt; hitabet, tarih/anı ve öğretici özellikler",
+              "icerik": "devlet, töre, savaşlar, birlik ve öğüt",
+              "zihniyet": "Göktürk devlet/toplum ve töre anlayışı",
+              "uslup": "doğrudan hitaplı, güçlü, özlü ve öğretici",
+              "amac": "bilgilendirmek, uyarmak, yönlendirmek ve kalıcı tarihî kayıt bırakmak"
+            }
+          },
+          "acceptance_criteria": [
+            "Kurmaca/nesnel-tarihî gerçeklik ayrımını gözetir.",
+            "Tür ve amaç farkını gerekçelendirir."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "Karşılaştırma tablosu."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.119-120 / PDF s.120-121"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T2_G06_P120_DIL_KULTUR_TARIH",
+          "printed_page_range": "120",
+          "label": "Dil-kültür-tarih birliğinin millet hayatındaki önemi",
+          "item_type": "QUESTION",
+          "expected_answer": "Dil ortak hafızayı ve kültürel değerleri taşır; tarih ortak tecrübe ve süreklilik bilinci verir; kültür ortak anlam/değer dünyasını kurar. Birlikte aidiyet ve millet olma bilincini güçlendirir, geçmişten ders aktarımını sağlar.",
+          "acceptance_criteria": [
+            "Dil, kültür ve tarihin her birine ayrı işlev verir.",
+            "Orhun örneğiyle ilişki kurar."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "Gerekçeli açıklama."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.120 / PDF s.121"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        }
+      ],
+      "provenance": {
+        "source_ids": [
+          "official_textbook_pdf",
+          "textbook_map"
+        ],
+        "source_locators": [
+          "basılı s.116-120 / PDF s.117-121"
+        ],
+        "content_class": "MIXED"
+      }
+    },
+    {
+      "unit_id": "T2_GUIDE_U07_OKUMA_COZUMLEME",
+      "title": "Çözümleyebilme",
+      "printed_page_range": "121-127",
+      "activity_refs": [
+        "T2_ACT_07_OKUMA_UYGULAMA_COZUMLEME"
+      ],
+      "outcome_refs": [
+        "TDE2.3"
+      ],
+      "content_status": "VERIFIED",
+      "purpose": "Orhun metninin anlatıcı, yapı, dil-üslup ve dönem ilişkisini; Dîvânu Lugâti’t-Türk’ün dil-kültür işlevini çözümlemek.",
+      "items": [
+        {
+          "item_id": "T2_G07_P121_OTUKEN",
+          "printed_page_range": "121",
+          "label": "Ötüken ve yaşam tarzı — görüş geliştirme",
+          "item_type": "QUESTION",
+          "expected_answer": {
+            "1": "Bilge Kağan, devlet düzeninin ve siyasî merkezin Ötüken’de tutulmasını öğütler. Konargöçer hareketlilik önemli olsa da stratejik merkez, birlik ve güvenlik için sabit bir merkez düşüncesi savunulur.",
+            "2": "Yerleşik hayat üretim, kurum, altyapı ve idare sürekliliğini; konargöçer hayat hareketlilik ve çevreye uyumu destekleyebilir. Devletin uzun ömürlülüğü yaşam tarzından çok kurum, kaynak, güvenlik ve uyumla birlikte değerlendirilmelidir."
+          },
+          "acceptance_criteria": [
+            "Ötüken tavsiyesini devlet/merkez fikriyle açıklar.",
+            "Yaşam tarzı tartışmasında tek yönlü genelleme yapmaz."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "İki gerekçeli görüş."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.121 / PDF s.122"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T2_G07_P121_124_ORHUN_TAHLIL",
+          "printed_page_range": "121-124",
+          "label": "Kül Tigin Âbidesi — anlatıcı, yapı, dil, amaç ve üslup",
+          "item_type": "TABLE",
+          "expected_answer": {
+            "anlatici": "Bilge Kağan’ın birinci kişi/otorite sesi; millete ve beylere doğrudan hitap eden, uyaran ve öğüt veren anlatıcı.",
+            "amaclar": [
+              "bilgi vermek",
+              "uyarmak/yönlendirmek",
+              "ikna etmek",
+              "sorgulatmak",
+              "devlet ve millet bilincini güçlendirmek",
+              "tarihî hafıza bırakmak"
+            ],
+            "yapi": "Hitap ve çerçeve → tarihî olay/başarı/uyarılar → Kül Tigin’in ölümü ve anıtın yazılışı gibi bölümler; ortak amaç etrafında bütünlük.",
+            "dil_uslup": [
+              "sadelik ve açıklık",
+              "tekrar/hitap",
+              "zıtlık ve soru",
+              "deyim/kalıp söz",
+              "etkileyici, coşkulu hitabet"
+            ],
+            "donem_iliskisi": "Göktürklerin devlet/töre, savaş, coğrafya, yas töreni ve sosyal düzenine ait unsurlar metne yansır."
+          },
+          "acceptance_criteria": [
+            "Her başlığı metin örneğiyle gerekçelendirir.",
+            "Hitabet/anı/tarihî belge özelliklerinin üsluba etkisini açıklar."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "Çözümleme tabloları ve yorumlar."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.121-124 / PDF s.122-125"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T2_G07_P124_DEGERLER_DISIPLIN",
+          "printed_page_range": "124-125",
+          "label": "Orhun — değerler ve tarih/coğrafya/sosyoloji ilişkisi",
+          "item_type": "PERFORMANCE_TASK",
+          "expected_answer": {
+            "degerler": {
+              "milli": [
+                "devlet",
+                "bağımsızlık",
+                "töre",
+                "millet birliği"
+              ],
+              "manevi": [
+                "atalara bağlılık",
+                "vefa",
+                "yas/anma"
+              ],
+              "evrensel": [
+                "sorumluluk",
+                "çalışkanlık",
+                "dayanışma",
+                "adalet/iyilik"
+              ]
+            },
+            "tarih": "Göktürk siyasî olayları ve kişileri için birincil kaynak niteliği.",
+            "cografya": "Ötüken ve sefer coğrafyası üzerinden mekân-devlet ilişkisi.",
+            "sosyoloji": "Toplum, bey-millet ilişkisi, töre ve dayanışma anlayışı."
+          },
+          "acceptance_criteria": [
+            "Değerleri metin kanıtıyla sınıflandırır.",
+            "Disiplinlerarası ilişkide abidelerin dil/tarih değerini açıklar."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "Grup sunumu + araştırma."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.124-125 / PDF s.125-126"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T2_G07_P125_127_DLT",
+          "printed_page_range": "125-127",
+          "label": "Dîvânu Lugâti’t-Türk — 1-7. sorular ve kültür hazinesi",
+          "item_type": "QUESTION",
+          "expected_answer": {
+            "1": "Sözlük örneklerinde öğüt, yakınlık/konukseverlik, hediyeleşme, borç-alacak ilişkisi, doğa/bitki bilgisi, dünya-ahiret anlayışı, atasözü ve şiir geleneği gibi ortak kültür değerleri görülür.",
+            "2": "Türk boylarının lehçe/söz varlığını sistemli derlemesi; ses/yazı özellikleri, örnek cümleler, atasözleri ve şiirlerle tarihî dil verisi sunması.",
+            "3": "Hediyeleşme ve misafir/yakın ağırlama karşılıklılık, dayanışma ve değer verme göstergesidir.",
+            "4": "“Erik” eski kullanımda birden çok sert çekirdekli meyvenin genel adı iken günümüzde daha dar bir tür adı olarak kullanılır; anlam daralması örneği olarak yorumlanabilir.",
+            "5": "Baharı/doğayı anlatan dörtlük koşuk geleneğiyle ilişkilendirilebilir.",
+            "6": "Kül Tigin Âbidesi hitabet ve devlet/tarih amacıyla doğrudan-özlü; DLT açıklayıcı/sözlük düzeninde, örnekli ve öğretici. İkisi de Türk dili/kültürü için temel tarihî kaynaklardır.",
+            "7": "Alan taraması, farklı bölge/konuşur örnekleri, ses-yazı kaydı, anlam/örnek cümle, kaynak doğrulama, sınıflandırma ve dijital veri tabanı/sözlük çalışmaları gerekir.",
+            "kaplan_sozu": "DLT yalnız kelime listesi değil, kelimelerin taşıdığı eşya, yaşam, inanç, gelenek ve düşünce dünyasıyla tarihî bir kültür “müzesi”dir."
+          },
+          "acceptance_criteria": [
+            "DLT’nin dil bilimi + kültür belgesi niteliğini birlikte açıklar.",
+            "4. soruda anlam daralmasını gerekçelendirir.",
+            "Karşılaştırmada amaç ve üslup farkını verir."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "Yedi cevap + Kaplan metni yorumları."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.125-127 / PDF s.126-128"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        }
+      ],
+      "provenance": {
+        "source_ids": [
+          "official_textbook_pdf",
+          "textbook_map"
+        ],
+        "source_locators": [
+          "basılı s.121-127 / PDF s.122-128"
+        ],
+        "content_class": "MIXED"
+      }
+    },
+    {
+      "unit_id": "T2_GUIDE_U08_OKUMA_DEGERLENDIRME",
+      "title": "Süreci Değerlendirebilme",
+      "printed_page_range": "128",
+      "activity_refs": [
+        "T2_ACT_08_OKUMA_DEGERLENDIRME"
+      ],
+      "outcome_refs": [
+        "TDE2.4"
+      ],
+      "content_status": "VERIFIED",
+      "purpose": "Kül Tigin Âbidesi ve Türkçenin tarihî-kültürel sürekliliği üzerine gerekçeli değerlendirme yapmak.",
+      "items": [
+        {
+          "item_id": "T2_G08_P128_TURKCE_YAYILMA",
+          "printed_page_range": "128",
+          "label": "Türkçenin geniş coğrafyaya yayılması — neden/sonuç çıkarımı",
+          "item_type": "QUESTION",
+          "expected_answer": {
+            "nedenler": [
+              "Türk topluluklarının göç ve siyasî yayılımı",
+              "devletleşme ve farklı coğrafyalarda yerleşme",
+              "ticaret/kültürel etkileşim"
+            ],
+            "sonuclar": [
+              "geniş kullanım alanı",
+              "lehçe/ağız çeşitlenmesi",
+              "ortak kök ve kültür bağının farklı biçimlerde sürmesi",
+              "ortak iletişim ihtiyacı"
+            ]
+          },
+          "acceptance_criteria": [
+            "En az bir neden ve iki sonuç verir.",
+            "Çeşitlenmeyi bozulma olarak değil tarihî gelişim olarak yorumlar."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "Neden-sonuç çıkarımı."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.128 / PDF s.129"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T2_G08_P128_YANSITMA",
+          "printed_page_range": "128",
+          "label": "Kül Tigin Âbidesi — süreç değerlendirme 1-3",
+          "item_type": "ASSESSMENT",
+          "expected_answer": {
+            "1": "Öğrenci; hitabet gücü, tarihî tanıklık, dilin sadeliği/etkileyiciliği, devlet ve millet öğütleri gibi bir yönü seçip metin kanıtıyla gerekçelendirebilir.",
+            "2": "Metindeki kişi, yer, devlet anlayışı, savaş, töre ve anma unsurları tarihî gerçek dünya verileriyle örtüşür; edebî/hitabet düzenleme yine anlatım seçimi içerir.",
+            "3": "Anlatıcı yerine geçildiğinde birlik, töre, devletin korunması ve gelecek kuşaklara seslenme amacı; öğrencinin kendi bakış açısıyla gerekçeli değerlendirilir."
+          },
+          "acceptance_criteria": [
+            "Üç cevap da metin kanıtı veya tarihî bağlama dayanır."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [
+            "Üç yansıtıcı değerlendirme."
+          ],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.128 / PDF s.129"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        }
+      ],
+      "provenance": {
+        "source_ids": [
+          "official_textbook_pdf",
+          "textbook_map"
+        ],
+        "source_locators": [
+          "basılı s.128 / PDF s.129"
+        ],
+        "content_class": "MIXED"
+      }
+    }
+  ],
+  "section_principles": [
+    "Resmî ders kitabı PDF’sindeki görev sırasını koru.",
+    "Beklenen cevapları tek doğruya indirgeme; metne/kanıta dayalı gerekçeli alternatifleri kabul et.",
+    "Pedagojik zenginleştirmeyi resmî kitap yönergesi gibi sunma."
+  ],
+  "provenance": {
+    "source_ids": [
+      "official_textbook_pdf",
+      "textbook_map",
+      "theme_alignment"
+    ],
+    "source_locators": [
+      "basılı s.113-128 / PDF s.114-129"
+    ],
+    "content_class": "MIXED"
+  }
+}

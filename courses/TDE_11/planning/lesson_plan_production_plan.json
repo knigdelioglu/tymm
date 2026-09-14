@@ -407,17 +407,17 @@
     "validation_binding": {
       "schema_version": "1.0.0",
       "algorithm": "TYMM_LESSON_PLAN_VALIDATION_SCOPE_V1",
-      "content_fingerprint": "sha256:0f64ebc25277b32de0e4d44998eb1b8a5db4ad89da22a23a42fadf85c3a772db",
+      "content_fingerprint": "sha256:a9a82e48218226e3caa5d12207489b30d9bd2ae6db7dc6f01f8a4716fcb85ec5",
       "fingerprinted_files": 213,
-      "commit_sha": "724a3c1fcfdac67f00673dc3ae587d9a09d0f167",
-      "report_sha256": "sha256:940dce65c546e2114ef54b7b274345f5564b4a34ad879014d3b958ef779b9b44"
+      "commit_sha": "2a0c672df19640ab2fec579161ea38f8ed66b4b4",
+      "report_sha256": "sha256:50b7e01a45d0b307dff62d314bc2a38b3e71ec10ac986ecf10b2d6ad4df24365"
     },
     "course_validation_binding": {
       "schema_version": "1.0.0",
       "algorithm": "TYMM_LESSON_PLAN_VALIDATION_SCOPE_V1",
-      "content_fingerprint": "sha256:0f64ebc25277b32de0e4d44998eb1b8a5db4ad89da22a23a42fadf85c3a772db",
+      "content_fingerprint": "sha256:a9a82e48218226e3caa5d12207489b30d9bd2ae6db7dc6f01f8a4716fcb85ec5",
       "fingerprinted_files": 213,
-      "commit_sha": "724a3c1fcfdac67f00673dc3ae587d9a09d0f167"
+      "commit_sha": "2a0c672df19640ab2fec579161ea38f8ed66b4b4"
     }
   }
 }

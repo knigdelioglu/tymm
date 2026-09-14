@@ -18,7 +18,7 @@
 
 ## Öğrenme ve değerlendirme kapsamı
 
-- **Öğrenme çıktıları:** `TDE4.3`
+- **Öğrenme çıktıları:** `TDE4.4`
 - **Kullanılan etkinlikler:** `T2_ACT_20_YAZMA_DEGERLENDIRME`
 - **Kullanılan formlar:** Yok
 
@@ -27,7 +27,7 @@
 ## 1. Ders — Süreci Değerlendirebilme: kanıt üretme ve geliştirme
 
 **Süre:** 1 ders saati  
-**Öğrenme çıktıları:** `TDE4.3`
+**Öğrenme çıktıları:** `TDE4.4`
 
 ### Hedef
 
@@ -72,7 +72,7 @@ Ana ölçme kanıtı şudur: “Öz/akran değerlendirme, öğretmen gözlem/de�
 ## 2. Ders — Süreci Değerlendirebilme: kanıt üretme ve geliştirme
 
 **Süre:** 1 ders saati  
-**Öğrenme çıktıları:** `TDE4.3`
+**Öğrenme çıktıları:** `TDE4.4`
 
 ### Hedef
 
@@ -122,10 +122,10 @@ Bu paket yalnız doğrulanmış ders kitabı etkinlik/form kimliklerine ve tanı
 
 - **Bu pakette planlanan:** 2 saat
 - **Blokta kalan:** 2 saat
-- **Kapsanan çıktılar:** `TDE4.3`
+- **Kapsanan çıktılar:** `TDE4.4`
 - **Kullanılan etkinlikler:** `T2_ACT_20_YAZMA_DEGERLENDIRME`
 - **Sonraki adım:** Aynı yazma bloğunda kalan 2 saatte kullanılmamış veya derinleştirilecek doğrulanmış kitap etkinlikleriyle beceri kanıtını ilerlet.
 
 ---
 
-<!-- TYMM_JSON_SHA256:3fbb1396da6fa2a9f7fb0d214596af4cb46d3cdaf1d292dbfbd6d0ff4f6eb920 -->
+<!-- TYMM_JSON_SHA256:caa678e214d37e87e6163c9213246a7acf813c2990eb901f6a31f46df0556d89 -->
