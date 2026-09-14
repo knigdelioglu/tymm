@@ -7,6 +7,7 @@ on:
       - 'courses/TDE_11/planning/pedagogical_*.json'
       - 'skill/tymm-material-planner/scripts/validate_pedagogical_diversity.py'
       - 'skill/tymm-material-planner/scripts/revise_tde11_theme1_pedagogy.py'
+      - 'skill/tymm-material-planner/scripts/apply_tde11_theme1_pedagogy.py'
       - 'skill/tymm-material-planner/schemas/pedagogical_package_design.schema.json'
       - 'skill/tymm-material-planner/tests/test_pedagogical_diversity.py'
       - '.github/workflows/tymm-pedagogical-quality.yml'
@@ -16,6 +17,7 @@ on:
       - 'courses/TDE_11/planning/pedagogical_*.json'
       - 'skill/tymm-material-planner/scripts/validate_pedagogical_diversity.py'
       - 'skill/tymm-material-planner/scripts/revise_tde11_theme1_pedagogy.py'
+      - 'skill/tymm-material-planner/scripts/apply_tde11_theme1_pedagogy.py'
       - 'skill/tymm-material-planner/schemas/pedagogical_package_design.schema.json'
       - 'skill/tymm-material-planner/tests/test_pedagogical_diversity.py'
       - '.github/workflows/tymm-pedagogical-quality.yml'
@@ -62,11 +64,18 @@ jobs:
       - name: Install full-validator dependency
         run: python -m pip install jsonschema==4.23.0
       - name: Apply deterministic Theme 1 revision
-        run: python skill/tymm-material-planner/scripts/revise_tde11_theme1_pedagogy.py --write
+        run: python skill/tymm-material-planner/scripts/apply_tde11_theme1_pedagogy.py --write
       - name: Prove Theme 1 revision is idempotent
-        run: python skill/tymm-material-planner/scripts/revise_tde11_theme1_pedagogy.py --check
+        run: python skill/tymm-material-planner/scripts/apply_tde11_theme1_pedagogy.py --check
+      - name: Resolve TDE11 calendar-neutral timeline
+        run: python skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py --knowledge-root courses/TDE_11
+      - name: Build fresh TDE11 runtime package
+        run: python skill/tymm-material-planner/scripts/build_runtime_course_package.py build --knowledge-root courses/TDE_11
       - name: Run existing full TDE11 lesson-plan validation
-        run: python skill/tymm-material-planner/scripts/validate_all_lesson_plans.py --knowledge-root courses/TDE_11
+        run: |
+          python skill/tymm-material-planner/scripts/validate_all_lesson_plans.py \
+            --knowledge-root courses/TDE_11 \
+            --commit-sha "${GITHUB_SHA}"
       - name: Re-measure pedagogical quality after revision
         run: python skill/tymm-material-planner/scripts/validate_pedagogical_diversity.py --knowledge-root courses/TDE_11
       - name: Commit validated Theme 1 revisions to feature branch
