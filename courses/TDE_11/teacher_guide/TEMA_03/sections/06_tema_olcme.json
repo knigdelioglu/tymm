@@ -1,0 +1,281 @@
+{
+  "schema_version": "1.1.0",
+  "document_type": "TYMM_TEACHER_GUIDE_SECTION",
+  "course_id": "TDE_11",
+  "theme_id": "TEMA_03",
+  "section_id": "T3_SEC_06_TEMA_OLCME",
+  "title": "3. Tema Ölçme ve Değerlendirme Soruları",
+  "section_type": "THEME_ASSESSMENT",
+  "printed_page_range": "230-235",
+  "content_status": "REVIEW_REQUIRED",
+  "outcome_refs": [
+    "TDE1.1",
+    "TDE1.2",
+    "TDE1.3",
+    "TDE1.4",
+    "TDE2.1",
+    "TDE2.2",
+    "TDE2.3",
+    "TDE2.4",
+    "TDE3.1",
+    "TDE3.2",
+    "TDE3.3",
+    "TDE3.4",
+    "TDE4.1",
+    "TDE4.2",
+    "TDE4.3",
+    "TDE4.4"
+  ],
+  "activity_refs": [
+    "T3_ACT_21_TEMA_OLCME"
+  ],
+  "lesson_plan_refs": [
+    "courses/TDE_11/generated/lesson_plans/TEMA_03/BLOCK_T3_04_YAZMA/BLOCK_T3_04_YAZMA_P05.json"
+  ],
+  "guide_units": [
+    {
+      "unit_id": "T3_GUIDE_U21_TEMA_OLCME",
+      "title": "3. Tema ölçme ve değerlendirme",
+      "printed_page_range": "230-235",
+      "activity_refs": [
+        "T3_ACT_21_TEMA_OLCME"
+      ],
+      "outcome_refs": [],
+      "content_status": "REVIEW_REQUIRED",
+      "purpose": "Tema sonu sorularını cevap anahtarı/kabul ölçütleriyle değerlendirmek; dış medya sorularında yalnız gözlenebilir kanıtı kabul etmek.",
+      "items": [
+        {
+          "item_id": "T3_G21_P230_Q1_2",
+          "printed_page_range": "230",
+          "label": "Soru 1-2 — tez/antitez ve sentez",
+          "item_type": "QUESTION",
+          "expected_answer": {
+            "degerlendirme": "Metinlerin tez/antitez sınıflandırmasında, parçanın yazar hayatıyla doğrulanabilir ilişkisi esas alınmalıdır. PDF metin dilimi tek başına tüm parçaların kaynak başlıklarını görünür kılmadığı için rehber, kaynaksız kesin numara anahtarı üretmez.",
+            "sentez_ornegi": "Edebî metinler sanatçının yaşantı ve gözlemlerinden izler taşıyabilir; ancak bu izler kurmaca ve estetik dönüştürme nedeniyle doğrudan hayat belgesi sayılmaz."
+          },
+          "acceptance_criteria": [
+            "Tez/antitez seçimini kaynak/metin kanıtıyla gerekçelendirir.",
+            "Kesişim cümlesi iki yargıyı uzlaştırır."
+          ],
+          "teacher_guidance": [
+            "Basılı sayfa görselindeki kaynak başlıkları ayrıca doğrulanırsa numara anahtarı güncellenebilir."
+          ],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.230 / PDF s.231"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T3_G21_P231_Q3_6",
+          "printed_page_range": "231",
+          "label": "Soru 3-6 — kurmaca ve gerçeklik",
+          "item_type": "QUESTION",
+          "expected_answer": {
+            "3": "Kurmaca dış gerçeklikten yararlanabilir; değer yalnız ‘gerçeğe uygunluk’tan değil estetik kurgu, çok anlamlılık, inandırıcılık ve özgün anlatımdan doğar.",
+            "4": "E",
+            "5": "C",
+            "6": {
+              "kurmaca": "Yazarın yarattığı anlatı dünyası.",
+              "gerceklik_izlenimi": "Kurmaca dünyanın gerçekmiş gibi inandırıcı algılanmasını sağlayan düzenleme.",
+              "okur_yorumu": "Okurun kültürel birikim, ilgi ve değerleriyle metne anlam vermesi.",
+              "nesnellik": "Dış dünyaya ilişkin doğrulanabilir/kişiden bağımsız olma iddiası.",
+              "cok_anlamlilik": "Metnin farklı okurlarca birden fazla tutarlı biçimde yorumlanabilmesi."
+            }
+          },
+          "acceptance_criteria": [
+            "Q4=E, Q5=C.",
+            "Kavram açıklamaları metnin kurmaca-gerçeklik paragrafıyla uyumludur."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.231 / PDF s.232"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T3_G21_P232_233_Q7_11",
+          "printed_page_range": "232-233",
+          "label": "Soru 7-11 — Orhan Veli ve biyografi yarışması",
+          "item_type": "QUESTION",
+          "expected_answer": {
+            "7": "Gündelik yaşam %40 ile en yüksek temadır; bu, Garip şiirinin sıradan insanı/gündelik hayatı şiire taşıma ve yalınlık anlayışıyla uyumludur.",
+            "8": "C",
+            "9": "Orhan Veli; şair/öykücü kimliği, Garip akımıyla ilişkisi, temaları, sade-akıcı üslubu ve Çehov tarzı öykücülüğü üzerinden tanıtılır.",
+            "10": "II. grup Tablo A’dır: üç doğru (+15) ve ‘tutum’ ifadesi yanlış (-2) → 13 puan.",
+            "11": "I. grubun tam puan için ‘Tarafsızlık’ ve ‘Kronoloji’ açıklamalarını düzeltmesi gerekir: biyografide tarafsızlık göz ardı edilmez; kronolojik sıra yaygın olsa da mutlak zorunluluk değildir."
+          },
+          "acceptance_criteria": [
+            "Q8=C.",
+            "Q10 puan hesabını gösterir.",
+            "Q11 iki yanlış kavramı düzeltir."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.232-233"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T3_G21_P234_Q12_13",
+          "printed_page_range": "234",
+          "label": "Soru 12-13 — Bir Bilim Adamının Romanı",
+          "item_type": "QUESTION",
+          "expected_answer": {
+            "12": "Fuzûlî’ye atıf, Mustafa İnan’ın kalabalık içinde hissedilen yalnızlığını kültürel/edebî bir gönderme ile yoğunlaştırır; karakterin iç durumunu somutlaştırır ve metne çağrışım/intertextüel derinlik katar.",
+            "13": [
+              "Evet",
+              "Evet",
+              "Evet",
+              "Evet",
+              "Hayır",
+              "Hayır",
+              "Hayır",
+              "Hayır"
+            ]
+          },
+          "acceptance_criteria": [
+            "13. soruda sıra: bilgi verme; biyografik roman; açık/anlaşılır dil; yaşantı; kahraman anlatıcı; devrik cümleyle güçlendirme; nesnel anlatım; kronolojik sıra."
+          ],
+          "teacher_guidance": [
+            "6-8. maddelerde öğretmen metin parçasından karşı kanıt kabul edebilir; temel anahtar parçada görülen anlatıcı ve kurgu düzenine göredir."
+          ],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.234 / PDF s.235"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T3_G21_P234_Q14_15",
+          "printed_page_range": "234",
+          "label": "Soru 14-15 — diyalog ve Aile Bağları videosu",
+          "item_type": "QUESTION",
+          "expected_answer": {
+            "14": "Diyalog, kişileri doğrudan konuşturarak anlatımı canlılaştırır; karakter ilişkisi ve düşünce/duygu farklarını aracısız görünür kılar.",
+            "15": "Kişi, mekân ve zamanın dramatik örgüye katkısı yalnız QR’deki Aile Bağları videosu izlenerek; olay/çatışmayı nasıl kurduğu somut medya kanıtıyla açıklanmalıdır."
+          },
+          "acceptance_criteria": [
+            "Q15’te gerçekten gözlenen kişi/mekân/zaman ayrıntılarına dayalı gerekçe aranır."
+          ],
+          "teacher_guidance": [
+            "Aile Bağları videosunun içeriği yerel PDF’ye gömülü olmadığı için karakter/olay ayrıntısı uydurma."
+          ],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.234 / PDF s.235"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        },
+        {
+          "item_id": "T3_G21_P235_Q16",
+          "printed_page_range": "235",
+          "label": "Soru 16 — roman/tezkire ve yazar hayatı",
+          "item_type": "QUESTION",
+          "expected_answer": {
+            "dogru": "C) I, IV, V",
+            "gerekce": "I ve V tezkire üslubuyla sanatçının hayat/mahlasına ilişkin olayı aktarır; IV kişisel yaşam/anı niteliğinde yazarın yaşantı çevresini verir. II ve III ise kurmaca kişinin/olayın iç yaşantısını öne çıkarır."
+          },
+          "acceptance_criteria": [
+            "C seçeneğini metin türü ve yaşam bilgisiyle gerekçelendirir."
+          ],
+          "teacher_guidance": [],
+          "common_misconceptions": [],
+          "assessment_evidence": [],
+          "differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "provenance": {
+            "source_ids": [
+              "official_textbook_pdf"
+            ],
+            "source_locators": [
+              "basılı s.235 / PDF s.236"
+            ],
+            "content_class": "OFFICIAL_TEXTBOOK"
+          }
+        }
+      ],
+      "provenance": {
+        "source_ids": [
+          "official_textbook_pdf",
+          "textbook_map"
+        ],
+        "source_locators": [
+          "basılı s.230-235"
+        ],
+        "content_class": "MIXED"
+      }
+    }
+  ],
+  "section_principles": [
+    "Resmî ders kitabı PDF’sindeki görev ve soru sırasını koru.",
+    "Beklenen cevapları kanıta dayalı gerekçeli alternatiflere açık tut.",
+    "Pedagojik zenginleştirmeyi resmî kitap yönergesi gibi sunma.",
+    "PDF’ye gömülü olmayan QR/video/rubrik ayrıntılarını uydurma."
+  ],
+  "provenance": {
+    "source_ids": [
+      "official_textbook_pdf",
+      "textbook_map",
+      "theme_alignment"
+    ],
+    "source_locators": [
+      "basılı s.230-235"
+    ],
+    "content_class": "MIXED"
+  }
+}
