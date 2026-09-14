@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.1.0",
+  "document_type": "TYMM_TEACHER_GUIDE_SECTION",
+  "course_id": "TDE_11",
+  "theme_id": "TEMA_01",
+  "section_id": "T1_SEC_06_TEMA_OLCME",
+  "title": "1. Tema Ölçme ve Değerlendirme Soruları",
+  "section_type": "THEME_ASSESSMENT",
+  "printed_page_range": "79-83",
+  "content_status": "PLANNED",
+  "outcome_refs": ["TDE1.1", "TDE1.2", "TDE1.3", "TDE1.4", "TDE2.1", "TDE2.2", "TDE2.3", "TDE2.4", "TDE3.1", "TDE3.2", "TDE3.3", "TDE3.4", "TDE4.1", "TDE4.2", "TDE4.3", "TDE4.4"],
+  "activity_refs": ["T1_ACT_21_TEMA_OLCME"],
+  "lesson_plan_refs": ["courses/TDE_11/generated/lesson_plans/TEMA_01/BLOCK_T1_04_YAZMA/BLOCK_T1_04_YAZMA_P05.json"],
+  "guide_units": [],
+  "section_principles": ["Tema ölçme sorularında soru türü, hedeflenen kanıt ve kabul ölçütü ayrı alanlarda tutulacak.", "Cevap anahtarı öğrencinin gerekçeli alternatif doğru cevaplarını dışlamayacak.", "Tema sonu ölçme ile yalnız yazma bloğu değil tema boyunca oluşan öğrenme kanıtları ilişkilendirilecek."],
+  "provenance": {"source_ids": ["textbook_map", "theme_alignment", "lesson_plan_set"], "source_locators": ["basılı s.79-83", "T1_ACT_21_TEMA_OLCME"], "content_class": "MIXED"}
+}
