@@ -11,8 +11,8 @@ on:
       - 'skill/tymm-material-planner/schemas/teacher_guide_section.schema.json'
       - 'courses/TDE_11/teacher_guide/**'
       - 'courses/TDE_11/textbook_map.json'
-      - 'courses/TDE_11/themes/tema_01/alignment.json'
-      - 'courses/TDE_11/generated/lesson_plans/TEMA_01/**'
+      - 'courses/TDE_11/themes/**/alignment.json'
+      - 'courses/TDE_11/generated/lesson_plans/**'
       - 'courses/TDE_11/source_docs/textbook_extraction_audit.json'
       - 'courses/TDE_11/source_docs/turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf'
   pull_request:
@@ -45,16 +45,27 @@ jobs:
       - name: Install schema validator
         run: python -m pip install 'jsonschema==4.23.0'
 
-      - name: Validate TDE11 Theme 1 teacher guide
+      - name: Validate all TDE11 teacher guides
         run: |
-          python skill/tymm-material-planner/scripts/validate_teacher_guide.py \
-            --manifest courses/TDE_11/teacher_guide/TEMA_01/teacher_guide.json \
-            --report /tmp/tde11-theme1-teacher-guide-validation.json
+          set -euo pipefail
+          report_dir=/tmp/tde11-teacher-guide-validation
+          mkdir -p "$report_dir"
+          mapfile -t manifests < <(find courses/TDE_11/teacher_guide -mindepth 2 -maxdepth 2 -name teacher_guide.json -print | sort)
+          if [[ ${#manifests[@]} -eq 0 ]]; then
+            echo 'No TDE11 teacher-guide manifests found.' >&2
+            exit 1
+          fi
+          for manifest in "${manifests[@]}"; do
+            theme="$(basename "$(dirname "$manifest")")"
+            python skill/tymm-material-planner/scripts/validate_teacher_guide.py \
+              --manifest "$manifest" \
+              --report "$report_dir/${theme}.json"
+          done
 
-      - name: Upload teacher-guide validation report
+      - name: Upload teacher-guide validation reports
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: tde11-theme1-teacher-guide-validation
-          path: /tmp/tde11-theme1-teacher-guide-validation.json
+          name: tde11-teacher-guide-validation
+          path: /tmp/tde11-teacher-guide-validation/*.json
           if-no-files-found: warn
