@@ -116,6 +116,26 @@ jobs:
       - name: Refresh TDE11 calendar-neutral timeline
         run: python skill/tymm-material-planner/scripts/resolve_course_timeline_hours.py --knowledge-root courses/TDE_11
 
+      - name: Build provisional canonical runtime without stale lesson-plan projection
+        run: |
+          python - <<'PY'
+          import sys
+          from pathlib import Path
+          scripts = Path('skill/tymm-material-planner/scripts').resolve()
+          sys.path.insert(0, str(scripts))
+          import build_runtime_course_package as runtime
+
+          # Canonical lesson-plan content changed, so the existing validation
+          # seal is necessarily stale. Build the fresh runtime context needed
+          # by the full validator, but do not project lesson plans until the
+          # new PASS-bound seal is issued below.
+          runtime.project_runtime_lesson_plan_payload = lambda root: {'status': 'PROVISIONAL_SKIP'}
+          result = runtime.build(Path('courses/TDE_11'))
+          if result.get('status') != 'PASS':
+              raise SystemExit(f'provisional runtime failed: {result}')
+          print('PROVISIONAL_RUNTIME_PASS')
+          PY
+
       - name: Validate repaired full TDE11 lesson-plan set
         run: |
           python skill/tymm-material-planner/scripts/validate_all_lesson_plans.py \
@@ -185,7 +205,7 @@ jobs:
           git status --short
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add \
+          git add -A -- \
             .tde11-theme2-payload \
             .github/workflows/tymm-teacher-guide-validation.yml \
             courses/TDE_11/teacher_guide/TEMA_02 \
