@@ -10,89 +10,18 @@
     "lesson_2_must_add_new_cognitive_or_evidence_demand": true
   },
   "routes": [
-    {
-      "route_id": "PREDICT_VERIFY",
-      "label": "Tahmin → doğrulama",
-      "lesson_1_pattern": "Ön bilgi ve metin ipuçlarından gerekçeli tahmin üretme.",
-      "lesson_2_delta": "Tahminleri metin kanıtıyla doğrulama, düzeltme veya reddetme.",
-      "student_evidence_pattern": "İlk tahmin kaydı + kanıtla güncellenmiş karar."
-    },
-    {
-      "route_id": "EVIDENCE_INTERPRET",
-      "label": "Metin kanıtı → yorum",
-      "lesson_1_pattern": "Metinden hedef beceriye uygun kanıt seçme ve sınıflandırma.",
-      "lesson_2_delta": "Seçilen kanıtların anlam/işlev ilişkisini yorumlama ve gerekçelendirme.",
-      "student_evidence_pattern": "Kanıt seçimi + gerekçeli yorum."
-    },
-    {
-      "route_id": "INDIVIDUAL_COMPARE",
-      "label": "Bireysel çözümleme → karşılaştırma",
-      "lesson_1_pattern": "Bireysel metin/ürün çözümlemesi yapma.",
-      "lesson_2_delta": "İki çözümü ölçüt veya metin kanıtı üzerinden karşılaştırıp ortak/ayrışan yönleri savunma.",
-      "student_evidence_pattern": "Bireysel çözümleme + karşılaştırma tablosu veya kısa savunma."
-    },
-    {
-      "route_id": "EXAMPLE_COUNTEREXAMPLE",
-      "label": "Örnek → karşı örnek",
-      "lesson_1_pattern": "Hedef özelliği gösteren örnekleri belirleme ve açıklama.",
-      "lesson_2_delta": "Karşı örnek üzerinden sınır durumu ayırt etme ve ölçütü netleştirme.",
-      "student_evidence_pattern": "Örnek açıklaması + karşı örnek gerekçesi."
-    },
-    {
-      "route_id": "ERROR_REPAIR",
-      "label": "Hata bulma → düzeltme",
-      "lesson_1_pattern": "Ürün veya çözümlemede hata/eksikliği kanıtıyla belirleme.",
-      "lesson_2_delta": "Belirlenen sorunu düzeltip değişikliğin etkisini açıklama.",
-      "student_evidence_pattern": "Hata kaydı + düzeltilmiş ürün + değişiklik gerekçesi."
-    },
-    {
-      "route_id": "CLASSIFY_JUSTIFY",
-      "label": "Sınıflandırma → gerekçelendirme",
-      "lesson_1_pattern": "Metin unsurlarını veya dil kullanımlarını uygun kategorilere ayırma.",
-      "lesson_2_delta": "Sınıflandırmanın ölçütünü açıklama ve tartışmalı örnekleri gerekçelendirme.",
-      "student_evidence_pattern": "Sınıflandırılmış örnekler + ölçüt gerekçesi."
-    },
-    {
-      "route_id": "CLOSE_READ_SYNTHESIZE",
-      "label": "Yakın okuma → sentez",
-      "lesson_1_pattern": "Seçili bölüm üzerinde ayrıntılı yakın okuma ve işaretleme.",
-      "lesson_2_delta": "Parça düzeyindeki bulguları metnin bütünüyle ilişkilendirip sentezleme.",
-      "student_evidence_pattern": "İşaretlenmiş metin + sentez paragrafı/şeması."
-    },
-    {
-      "route_id": "INTERTEXT_COMPARE",
-      "label": "Metinler arası karşılaştırma",
-      "lesson_1_pattern": "İlk metnin hedef özelliklerini kanıtlarıyla çıkarma.",
-      "lesson_2_delta": "İkinci metinle benzerlik/farklılıkları ortak ölçüt üzerinden karşılaştırma.",
-      "student_evidence_pattern": "Metin kanıtları + karşılaştırmalı sonuç."
-    },
-    {
-      "route_id": "CLAIM_EVIDENCE_DEFEND",
-      "label": "İddia → dayanak → savunma",
-      "lesson_1_pattern": "Metne/ürüne ilişkin açık bir iddia ve dayanak oluşturma.",
-      "lesson_2_delta": "İddiayı karşı görüş veya soru karşısında savunma ve gerekiyorsa revize etme.",
-      "student_evidence_pattern": "İddia-dayanak kaydı + kısa savunma/revizyon."
-    },
-    {
-      "route_id": "DRAFT_PEER_REVISE",
-      "label": "Taslak → akran geri bildirimi → revizyon",
-      "lesson_1_pattern": "Hedef çıktıya yönelik ilk taslak/performans ürünü oluşturma.",
-      "lesson_2_delta": "Kaynakta doğrulanmış ölçüt veya görev beklentisine göre akran geri bildirimi alıp ürünü revize etme.",
-      "student_evidence_pattern": "İlk taslak + geri bildirim izi + revize ürün."
-    },
-    {
-      "route_id": "PERFORM_OBSERVE_REPERFORM",
-      "label": "Performans → gözlem → ikinci performans",
-      "lesson_1_pattern": "İlk sözlü/canlı performansı gerçekleştirme ve gözlem kanıtı toplama.",
-      "lesson_2_delta": "Gözlem kanıtına dayalı tek veya birkaç hedefli değişiklikle ikinci performansı gerçekleştirme.",
-      "student_evidence_pattern": "İlk performans kanıtı + gözlem + geliştirilmiş ikinci performans."
-    },
-    {
-      "route_id": "DIAGNOSE_TARGET_EXIT",
-      "label": "Tanılayıcı görev → hedefli öğretim → çıkış kanıtı",
-      "lesson_1_pattern": "Kısa tanılayıcı görevle güçlü ve eksik yönleri görünür kılma.",
-      "lesson_2_delta": "Belirlenen ihtiyete göre hedefli uygulama yapıp çıkış kanıtıyla ilerlemeyi gösterme.",
-      "student_evidence_pattern": "Tanılayıcı ilk kanıt + hedefli uygulama + çıkış kanıtı."
-    }
+    {"route_id":"PREDICT_VERIFY","label":"Tahmin → doğrulama","lesson_1_pattern":"Ön bilgi ve metin ipuçlarından gerekçeli tahmin üretme.","lesson_2_delta":"Tahminleri metin kanıtıyla doğrulama, düzeltme veya reddetme.","student_evidence_pattern":"İlk tahmin kaydı + kanıtla güncellenmiş karar."},
+    {"route_id":"EVIDENCE_INTERPRET","label":"Metin kanıtı → yorum","lesson_1_pattern":"Metinden hedef beceriye uygun kanıt seçme ve sınıflandırma.","lesson_2_delta":"Seçilen kanıtların anlam/işlev ilişkisini yorumlama ve gerekçelendirme.","student_evidence_pattern":"Kanıt seçimi + gerekçeli yorum."},
+    {"route_id":"INDIVIDUAL_COMPARE","label":"Bireysel çözümleme → karşılaştırma","lesson_1_pattern":"Bireysel metin/ürün çözümlemesi yapma.","lesson_2_delta":"İki çözümü ölçüt veya metin kanıtı üzerinden karşılaştırıp ortak/ayrışan yönleri savunma.","student_evidence_pattern":"Bireysel çözümleme + karşılaştırma tablosu veya kısa savunma."},
+    {"route_id":"EXAMPLE_COUNTEREXAMPLE","label":"Örnek → karşı örnek","lesson_1_pattern":"Hedef özelliği gösteren örnekleri belirleme ve açıklama.","lesson_2_delta":"Karşı örnek üzerinden sınır durumu ayırt etme ve ölçütü netleştirme.","student_evidence_pattern":"Örnek açıklaması + karşı örnek gerekçesi."},
+    {"route_id":"ERROR_REPAIR","label":"Hata bulma → düzeltme","lesson_1_pattern":"Ürün veya çözümlemede hata/eksikliği kanıtıyla belirleme.","lesson_2_delta":"Belirlenen sorunu düzeltip değişikliğin etkisini açıklama.","student_evidence_pattern":"Hata kaydı + düzeltilmiş ürün + değişiklik gerekçesi."},
+    {"route_id":"CLASSIFY_JUSTIFY","label":"Sınıflandırma → gerekçelendirme","lesson_1_pattern":"Metin unsurlarını veya dil kullanımlarını uygun kategorilere ayırma.","lesson_2_delta":"Sınıflandırmanın ölçütünü açıklama ve tartışmalı örnekleri gerekçelendirme.","student_evidence_pattern":"Sınıflandırılmış örnekler + ölçüt gerekçesi."},
+    {"route_id":"CLOSE_READ_SYNTHESIZE","label":"Yakın okuma → sentez","lesson_1_pattern":"Seçili bölüm üzerinde ayrıntılı yakın okuma ve işaretleme.","lesson_2_delta":"Parça düzeyindeki bulguları metnin bütünüyle ilişkilendirip sentezleme.","student_evidence_pattern":"İşaretlenmiş metin + sentez paragrafı/şeması."},
+    {"route_id":"INTERTEXT_COMPARE","label":"Metinler arası karşılaştırma","lesson_1_pattern":"İlk metnin hedef özelliklerini kanıtlarıyla çıkarma.","lesson_2_delta":"İkinci metinle benzerlik/farklılıkları ortak ölçüt üzerinden karşılaştırma.","student_evidence_pattern":"Metin kanıtları + karşılaştırmalı sonuç."},
+    {"route_id":"CLAIM_EVIDENCE_DEFEND","label":"İddia → dayanak → savunma","lesson_1_pattern":"Metne/ürüne ilişkin açık bir iddia ve dayanak oluşturma.","lesson_2_delta":"İddiayı karşı görüş veya soru karşısında savunma ve gerekiyorsa revize etme.","student_evidence_pattern":"İddia-dayanak kaydı + kısa savunma/revizyon."},
+    {"route_id":"DRAFT_PEER_REVISE","label":"Taslak → akran geri bildirimi → revizyon","lesson_1_pattern":"Hedef çıktıya yönelik ilk taslak/performans ürünü oluşturma.","lesson_2_delta":"Kaynakta doğrulanmış ölçüt veya görev beklentisine göre akran geri bildirimi alıp ürünü revize etme.","student_evidence_pattern":"İlk taslak + geri bildirim izi + revize ürün."},
+    {"route_id":"PERFORM_OBSERVE_REPERFORM","label":"Performans → gözlem → ikinci performans","lesson_1_pattern":"İlk sözlü/canlı performansı gerçekleştirme ve gözlem kanıtı toplama.","lesson_2_delta":"Gözlem kanıtına dayalı tek veya birkaç hedefli değişiklikle ikinci performansı gerçekleştirme.","student_evidence_pattern":"İlk performans kanıtı + gözlem + geliştirilmiş ikinci performans."},
+    {"route_id":"DIAGNOSE_TARGET_EXIT","label":"Tanılayıcı görev → hedefli öğretim → çıkış kanıtı","lesson_1_pattern":"Kısa tanılayıcı görevle güçlü ve eksik yönleri görünür kılma.","lesson_2_delta":"Belirlenen ihtiyete göre hedefli uygulama yapıp çıkış kanıtıyla ilerlemeyi gösterme.","student_evidence_pattern":"Tanılayıcı ilk kanıt + hedefli uygulama + çıkış kanıtı."},
+    {"route_id":"REFLECT_TRANSFER","label":"Yansıtma → sonraki göreve transfer","lesson_1_pattern":"Mevcut ürün veya süreç kanıtını ölçütlere göre değerlendirip güçlü ve geliştirilecek yönü belirleme.","lesson_2_delta":"Belirlenen geliştirme adımını sonraki göreve, yeni ürüne veya bağımsız uygulamaya açık bir eylem planı olarak aktarma.","student_evidence_pattern":"Öz değerlendirme/çıkış kanıtı + açık transfer veya geliştirme kararı."}
   ]
 }
