@@ -1,0 +1,101 @@
+name: TMP Sync a Teacher Guide Runtime
+
+on:
+  push:
+    branches:
+      - a
+    paths:
+      - .github/workflows/tmp-sync-a-teacher-guide-runtime.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-and-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: a
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install validation dependency
+        run: python -m pip install 'jsonschema==4.23.0'
+      - name: Merge current main into a
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git merge --no-edit origin/main
+      - name: Validate projection regressions
+        run: |
+          set -euo pipefail
+          python skill/tymm-material-planner/tests/test_teacher_guide_runtime_projection.py
+          python skill/tymm-material-planner/tests/test_runtime_course_package.py
+      - name: Validate all canonical teacher guides
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/teacher-guides
+          mapfile -t manifests < <(find courses -type f -name teacher_guide.json -print | sort)
+          test ${#manifests[@]} -gt 0
+          for manifest in "${manifests[@]}"; do
+            key="$(echo "$manifest" | tr '/ ' '__')"
+            python skill/tymm-material-planner/scripts/validate_teacher_guide.py \
+              --manifest "$manifest" \
+              --report "/tmp/teacher-guides/${key}.json"
+          done
+      - name: Rebuild TDE11 runtime from merged canonical sources
+        run: |
+          set -euo pipefail
+          python skill/tymm-material-planner/scripts/build_runtime_course_package.py build \
+            --knowledge-root courses/TDE_11
+      - name: Assert all four TDE11 guides are projected
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json, sqlite3
+          from pathlib import Path
+          root = Path('courses/TDE_11/runtime')
+          manifest = json.loads((root/'runtime_manifest.json').read_text(encoding='utf-8'))
+          caps = manifest['teacher_guide_capabilities']
+          expected = {
+              'teacher_guides': 4,
+              'teacher_guide_sections': 28,
+              'teacher_guide_units': 94,
+              'teacher_guide_items': 283,
+          }
+          assert manifest['capabilities']['teacher_guide'] is True, manifest['capabilities']
+          assert caps['available'] is True, caps
+          assert caps['source_bound'] is True, caps
+          for key, value in expected.items():
+              assert caps['row_counts'][key] == value, (key, caps['row_counts'][key], value)
+          sources = manifest['canonical_source_files']
+          for theme in ('TEMA_01','TEMA_02','TEMA_03','TEMA_04'):
+              assert any(f'teacher_guide/{theme}/teacher_guide.json' in src for src in sources), theme
+          db = sqlite3.connect(root/'course_runtime.sqlite')
+          db.execute('PRAGMA foreign_keys=ON')
+          assert db.execute('PRAGMA foreign_key_check').fetchall() == []
+          assert db.execute('SELECT COUNT(*) FROM teacher_guides').fetchone()[0] == 4
+          assert db.execute('SELECT COUNT(*) FROM teacher_guide_sections').fetchone()[0] == 28
+          assert db.execute('SELECT COUNT(*) FROM teacher_guide_units').fetchone()[0] == 94
+          assert db.execute('SELECT COUNT(*) FROM teacher_guide_items').fetchone()[0] == 283
+          db.close()
+          print('TDE11_FOUR_THEME_TEACHER_GUIDE_RUNTIME_PASS')
+          PY
+      - name: Commit merged main and refreshed derived runtime
+        run: |
+          set -euo pipefail
+          git add -A -- \
+            courses/TDE_11/runtime/course_runtime.sqlite \
+            courses/TDE_11/runtime/runtime_manifest.json \
+            courses/TDE_11/runtime/runtime_schema.sql \
+            courses/TDE_11/runtime/runtime_validation_report.md \
+            courses/TDE_11/runtime/teacher_guide_validation_seal.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore(TDE11): refresh four-theme teacher-guide runtime'
+          fi
+          git push origin HEAD:a
