@@ -60,10 +60,12 @@ jobs:
           from pathlib import Path
           report=json.loads(Path('/tmp/tde11-pedagogical-final.json').read_text(encoding='utf-8'))['courses'][0]
           assert report['packages'] == 88, report['packages']
+          assert report['design_overlays'] == 4, report['design_overlays']
+          assert report['designed_packages'] == 88, report['designed_packages']
+          assert report['design_coverage_complete'] is True, report['design_coverage_complete']
           assert report['adjacent_lesson_pairs'] == 84, report['adjacent_lesson_pairs']
           assert report['insufficient_delta_pairs'] == 0, report['insufficient_delta_pairs']
           assert report['generic_title_count'] == 0, report['generic_title_count']
-          assert report.get('overlay_packages') == 88, report.get('overlay_packages')
           print('TDE11 pedagogical quality preserved: PASS')
           PY
 
