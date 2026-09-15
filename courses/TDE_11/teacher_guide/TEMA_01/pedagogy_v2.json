@@ -1,0 +1,610 @@
+{
+  "schema_version": "2.0.0",
+  "document_type": "TYMM_TEACHER_GUIDE_PEDAGOGY_OVERLAY",
+  "course_id": "TDE_11",
+  "theme_id": "TEMA_01",
+  "status": "REFERENCE_QUALITY",
+  "principles": [
+    "Ders kitabındaki gerçek soru ve görev her zaman görünür kalır; öğretmen rehberi kitabın yerine yeni görev uydurmaz.",
+    "Açık uçlu cevaplarda tek kalıp yerine metin kanıtı, gerekçe ve kabul edilebilir alternatifler aranır.",
+    "Öğretmen hamlesi cevabı söylemekten önce öğrenciyi doğru düşünmeye taşıyan soru veya ipucu üretir.",
+    "Tahta notu yalnız kavramı, karşılaştırmayı veya düşünme yolunu görünür kılacağı yerde kullanılır.",
+    "Form, öz değerlendirme ve geri bildirim sonraki davranışa veya ürün revizyonuna bağlanır.",
+    "Farklılaştırma hazır cevabı vermek değil bilişsel yükü düzenlemek; zenginleştirme ise aynı hedefi daha derin kanıt ve karşılaştırmayla sürdürmektir."
+  ],
+  "blocks": [
+    {
+      "block_id": "T1V2_B01_THEME_OPEN",
+      "section_id": "T1_GUIDE_SEC_00_TEMA_ACILIS",
+      "printed_page_range": "12-14",
+      "title": "Tema açılışı: iletişim, edebî gerçeklik ve kültürel aktarım",
+      "source_item_refs": ["T1_G00_P12_13_TEACHER_FOCUS", "T1_G00_P14_FRAME", "T1_G00_P14_Q01", "T1_G00_P14_Q02"],
+      "book_task_summaries": [
+        "Edebî eserlerin gerçek hayatla ilişkisini açıklama.",
+        "Edebî dil ve sosyal bilim birikiminin günlük iletişime katkısını tartışma."
+      ],
+      "pedagogical_intent": "Tema boyunca kullanılacak gönderen-alıcı-amaç-bağlam-araç-dil çerçevesini kurmak ve edebî gerçekliğin hayatın birebir kopyası olmadığını sezdirmek.",
+      "teacher_moves": [
+        "Aynı iletinin arkadaş, okul müdürü ve sosyal medya bağlamında nasıl değişeceğini kısa örnekle aç.",
+        "Edebî gerçeklik sorusunda gerçek yaşamdan yararlanma ile sanatsal dönüştürmeyi aynı cevapta arat.",
+        "Sosyal bilim sorusunda alan adlarını sıralayan cevabı iletişime etkisini açıklamadan tamamlanmış sayma."
+      ],
+      "follow_up_questions": [
+        "Gerçek bir olay iki farklı yazar tarafından anlatılırsa neden aynı metin ortaya çıkmaz?",
+        "Kelime hazinesinin gelişmesi günlük bir iletişim çatışmasında neyi değiştirebilir?"
+      ],
+      "misconception_interventions": [
+        "Edebiyat tamamen hayaldir diyen öğrenciye günlük ile romanın aynı olayı anlatması hâlinde neden farklı metinler olacağını sor.",
+        "Edebiyat gerçeğin aynısıdır diyen öğrenciye yazarın seçme ve anlatıcı tercihini hatırlat."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Gönderen → İleti → Alıcı | Amaç – Bağlam – Araç – Dil tercihi",
+        "Tahtaya yaz: Gerçek hayat → seçme / yorumlama / dönüştürme → edebî gerçeklik",
+        "Tahtaya yaz: Söz varlığı → ifade | İnsan-toplum bilgisi → anlama ve empati"
+      ],
+      "assessment_look_fors": [
+        "Gerçek yaşam ile kurmaca dönüşümü birbirinden ayıran gerekçeli cevap.",
+        "Dil veya sosyal bilim bilgisi ile iletişim davranışı arasında açık bağ."
+      ],
+      "differentiation": {
+        "support": ["Gönderen-ileti-alıcı şemasını somut günlük örnekle doldurt."],
+        "enrichment": ["Aynı gerçek olayı iki farklı anlatıcı bakış açısıyla iki cümlede yeniden kurdur."]
+      }
+    },
+    {
+      "block_id": "T1V2_B02_KARAGOZ_PREP",
+      "section_id": "T1_SEC_01_OKUMA_KARAGOZ",
+      "printed_page_range": "15-18",
+      "title": "Karagöz: ön bilgi, grup çalışması ve okuma stratejisi",
+      "source_item_refs": ["T1_G01_P15_SEYIRLIK", "T1_G01_P16_GROUP_CARDS", "T1_G01_P17_THINK_PAIR_SHARE", "T1_G01_P18_READING_TASKS"],
+      "book_task_summaries": [
+        "Geleneksel seyirlik oyunlarda dikkat çeken unsurları gerekçelendirme.",
+        "Bilgi/düşünce kartları üretip grup içinde ortak ve farklı görüşleri tartışma.",
+        "Karagöz'ün dil, yardımcı tip ve hareket özelliklerini düşün-eşleş-paylaş ile inceleme.",
+        "Başlık/görselden tahmin yapma, rol paylaşma ve okuma stratejisi belirleme."
+      ],
+      "pedagogical_intent": "Öğrenciyi ezber bilgi toplamaya değil gözlem, gerekçe, tahmin ve strateji seçimine hazırlamak.",
+      "teacher_moves": [
+        "s.15'te bütün geleneksel tiyatro bilgisini isteme; seçilen özelliğin neden dikkat çektiğini sor.",
+        "s.16'da önce bireysel kart üretimini, sonra grup paylaşımını uygula.",
+        "s.17'de dil, yardımcı tip ve tasvir/hareket odaklarından en az ikisini gerekçelendirt.",
+        "s.18'de tahmini doğru-yanlış olarak değil ipucuya dayalı çıkarım olarak değerlendir."
+      ],
+      "follow_up_questions": [
+        "Bu özelliklerden hangisi günümüz doğaçlama tiyatrosunda da görülebilir?",
+        "Karagöz oyunundaki mizah yalnız olaydan mı doğuyor?",
+        "Tahminini hangi başlık veya görsel ayrıntısına dayandırdın?"
+      ],
+      "misconception_interventions": [
+        "Grup sözcüsü bütün işi üstlenirse bireysel kartları önce sessizce tamamlat.",
+        "Tahminini gerekçesiz söyleyen öğrenciye tek bir görünür ipucu seçtir."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Özellik + kanıt/gözlem + gerekçe",
+        "Tahtaya yaz: Bilgi = doğrulanabilir yargı | Görüş = gerekçeli değerlendirme",
+        "Tahtaya yaz: Tahmin = ipucu + çıkarım"
+      ],
+      "assessment_look_fors": [
+        "Metin/görsel kaynaklı gerekçe.",
+        "Bireysel kart + grup ortak sonucu.",
+        "Okuma stratejisinin karakter/dil özelliğiyle ilişkilendirilmesi."
+      ],
+      "differentiation": {
+        "support": ["Tür-icra-dil/mizah odak kartları kullan."],
+        "enrichment": ["Aynı repliği nötr ve karaktere uygun iki biçimde okutup etkisini karşılaştır."]
+      }
+    },
+    {
+      "block_id": "T1V2_B03_KARAGOZ_READING",
+      "section_id": "T1_SEC_01_OKUMA_KARAGOZ",
+      "printed_page_range": "19-24",
+      "title": "Yazıcı metninin okunması",
+      "source_item_refs": ["T1_G01_P19_24_TEXT_FLOW", "T1_G01_P18_24_TWO_PASS_ENRICHMENT"],
+      "book_task_summaries": ["Yazıcı metnini rolüne ve konuşma özelliklerine uygun biçimde okuma ve olay akışını izleme."],
+      "pedagogical_intent": "Metni soru bombardımanına dönüştürmeden olay akışını, yanlış anlamayı ve dil kaynaklı mizahı görünür kılmak.",
+      "teacher_moves": [
+        "İlk okumada olay akışını koru; her replikte durup açıklama yapma.",
+        "İkinci kısa dönüşte yanlış anlama, söz oyunu ve karaktere özgü söyleyişleri işaretlet.",
+        "İki okumalı yaklaşımı ders kitabının zorunlu yönergesi gibi sunma."
+      ],
+      "follow_up_questions": ["Yanlış anlama tam olarak hangi sözde başladı?", "Bu sahnenin komik olmasını sağlayan dil unsuru nedir?"],
+      "misconception_interventions": ["Olayı özetleyip dil unsurunu göstermeyen öğrenciye mizahın oluştuğu repliği buldur."],
+      "board_notes": ["Tahtaya yaz: 1. Olay ne oldu? 2. Yanlış anlama nerede doğdu? 3. Mizahı hangi dil unsuru üretti?"],
+      "assessment_look_fors": ["Olay akışı ile dil kaynaklı mizahı birlikte gösteren kısa okuma notu."],
+      "differentiation": {
+        "support": ["Olay akışını 3-5 duraklı çizelgeyle izlet."],
+        "enrichment": ["Yanlış anlamaları ses benzerliği, söz varlığı ve bağlam başlıklarıyla sınıflandır."]
+      }
+    },
+    {
+      "block_id": "T1V2_B04_KARAGOZ_MEANING",
+      "section_id": "T1_SEC_01_OKUMA_KARAGOZ",
+      "printed_page_range": "25-29",
+      "title": "Karagöz: söz varlığı, yapı, dil ve iletişim",
+      "source_item_refs": ["T1_G02_P25_VOCAB", "T1_G02_P26_STRUCTURE_REFERENCE", "T1_G02_P27_T_DIAGRAM", "T1_G02_P28_INTERPRET", "T1_G02_P29_FRIENDSHIP"],
+      "book_task_summaries": [
+        "Kelime duvarında bağlamdan anlam çıkarma.",
+        "Karagöz oyununun bölümlerini sonraki çözümlemelerde kullanma.",
+        "Karagöz ve Hacivat'ın dilinden kişilik/çevre çıkarımı yapma.",
+        "Söz varlığı, karakterleştirme ve dil çeşitliliğini yorumlama.",
+        "Farklılıklara rağmen dostluğun nasıl sürdürülebileceğini tartışma."
+      ],
+      "pedagogical_intent": "Dil özelliklerini değer hiyerarşisine dönüştürmeden bağlam, karakter ve iletişim işlevi üzerinden anlamlandırmak.",
+      "teacher_moves": [
+        "Kelime çalışmasında tahmin-sözlük-bağlam sırasını koru.",
+        "Karagöz/Hacivat çıkarımında her kişilik niteliğinin yanına dil göstergesi iste.",
+        "Ağız ve konuşma farklılıklarını kusur, zekâ veya üstünlük göstergesi olarak ele alma.",
+        "Dostluk sorusunda tek tanım yerine tutarlılık ve gerekçe değerlendir."
+      ],
+      "follow_up_questions": [
+        "Bu kişilik çıkarımını hangi kelime veya hitap biçimi düşündürdü?",
+        "Aynı karakter söz varlığı yerine davranışla nasıl tanıtılabilirdi?",
+        "Farklı düşünmek tek başına iletişim sorunu mudur?"
+      ],
+      "misconception_interventions": [
+        "Sade dili otomatik olarak eğitimsizlikle eşitleyen öğrenciye dilin bağlama ve karakter işlevine dönmesini söyle.",
+        "Sözlükteki ilk anlamı seçen öğrenciye kelimenin metindeki cümlesini yeniden okut."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Kelime anlamı = sözlük anlamı + bağlam kontrolü",
+        "Tahtaya yaz: Mukaddime → giriş | Muhavere → söyleşme | Fasıl → asıl olay | Bitiş → sonuç",
+        "Tahtaya yaz: Dil göstergesi → kişilik/çevre hakkında çıkarım",
+        "Tahtaya yaz: Dostluk = benzer olmak değil, farklılığa rağmen ilişkiyi sürdürebilmek"
+      ],
+      "assessment_look_fors": ["Dil göstergesi ile çıkarım arasında açık bağ.", "Bağlama uygun kelime anlamı.", "Gerekçeli iletişim/dostluk görüşü."],
+      "differentiation": {
+        "support": ["Kelime seçimi-hitabı-tepkiyi ayrı ipucu kartlarıyla ver."],
+        "enrichment": ["Karagöz ve Hacivat'ın dilleri yer değiştirse mizahın nasıl değişeceğini tartıştır."]
+      }
+    },
+    {
+      "block_id": "T1V2_B05_KARAGOZ_COMPREHENSION",
+      "section_id": "T1_SEC_01_OKUMA_KARAGOZ",
+      "printed_page_range": "30-31",
+      "title": "Metni Anlayalım ve karşılaştırma",
+      "source_item_refs": ["T1_G02_P30_31_COMPREHENSION"],
+      "book_task_summaries": [
+        "Geleneksel tiyatro türlerini ayırt etme.",
+        "Yazıcı'nın konu, tema, açık/örtük iletilerini belirleme.",
+        "İletişim davranışlarını yorumlama.",
+        "Yazıcı ile Eskici Abdi'yi ölçütlerle karşılaştırma."
+      ],
+      "pedagogical_intent": "Konu, tema ve iletiyi ayırmak; karşılaştırmayı özet farkından çıkarıp ölçütlü düşünmeye dönüştürmek.",
+      "teacher_moves": [
+        "Konu, tema ve ileti cevaplarını aynı cümleyle geçiştiren öğrenciden her biri için ayrı açıklama iste.",
+        "Geleneksel tiyatro türlerini yalnız isimle değil ayırt edici özellikle eşleştir.",
+        "Yazıcı-Eskici Abdi karşılaştırmasında en az iki ortak ölçüt kullandır."
+      ],
+      "follow_up_questions": ["Bu cevap 'ne anlatılıyor?' sorusuna mı yoksa 'hangi ana kavram?' sorusuna mı cevap veriyor?", "İki metni tür dışında hangi ölçütle karşılaştırabiliriz?"],
+      "misconception_interventions": ["Konu ile temayı karıştıran öğrenciye konu için olay cümlesi, tema için tek/iki kavram yazdır."],
+      "board_notes": ["Tahtaya yaz: Konu = ne anlatılıyor? | Tema = merkezdeki kavram/duygu | İleti = metin ne düşündürüyor/söylüyor?"],
+      "assessment_look_fors": ["Konu-tema-ileti ayrımı.", "En az iki ölçütlü karşılaştırma.", "Metin kanıtıyla desteklenen açık/örtük ileti."],
+      "differentiation": {
+        "support": ["Konu için olay cümlesi, tema için kavram kartı kullan."],
+        "enrichment": ["İki geleneksel türün mizah üretme araçlarını karşılaştır."]
+      }
+    },
+    {
+      "block_id": "T1V2_B06_KARAGOZ_ANALYSIS",
+      "section_id": "T1_SEC_01_OKUMA_KARAGOZ",
+      "printed_page_range": "32-35",
+      "title": "Karagöz: yapı, dil, fiilimsi, sosyal bilim ve değerlendirme",
+      "source_item_refs": ["T1_G03_P32_STRUCTURE", "T1_G03_P33_LANGUAGE_STYLE", "T1_G03_P34_GRAMMAR_SOCSCI", "T1_G04_P35_EVALUATION"],
+      "book_task_summaries": [
+        "Yazıcı'nın yapı unsurlarını çözümleme.",
+        "Dil/üslup ile kişilik/eğitim ve mizah ilişkisini açıklama.",
+        "Fiilimsileri metin içinde belirleme ve sosyal bilim bağlantısı kurma.",
+        "Dil, güldürü, çatışma ve dönem ilişkisini kanıtla değerlendirme."
+      ],
+      "pedagogical_intent": "Çözümlemeyi kavram listesi olmaktan çıkarıp metin kanıtı ve işlev ilişkisine dönüştürmek.",
+      "teacher_moves": [
+        "Dramatik örgüyü başlangıç-gelişme-sonuç kalıbında bırakma; metne özgü olay basamakları iste.",
+        "Dil/üslup yorumunun yanına en az bir replik veya dil göstergesi koydur.",
+        "Fiilimsiyi yalnız ek ezberiyle değil cümledeki göreviyle incelet.",
+        "Öz değerlendirmede bir güçlü yön ve bir geliştirme hedefi yazdır."
+      ],
+      "follow_up_questions": ["Dükkân mekânı çatışmayı neden çoğaltıyor?", "Bu dil özelliği olmasaydı mizah nasıl değişirdi?", "Bu fiilimsi cümlede isim mi, sıfat mı, zarf mı gibi çalışıyor?"],
+      "misconception_interventions": ["Dramatik örgüyü üç soyut başlıkla yazan öğrenciye metindeki dört somut olay basamağını seçtir.", "Adlaşmış sıfat-fiili isim-fiil sanan öğrenciye sözcüğün cümlede kimi/neyi karşıladığını sordur."],
+      "board_notes": [
+        "Tahtaya yaz: Kişi – Mekân – Zaman – Çatışma – Dramatik örgü",
+        "Tahtaya yaz: Dil özelliği → kişilik/çevre çıkarımı → mizaha etkisi",
+        "Tahtaya yaz: Fiilimsi: fiilden türemiştir; yüklem değildir; isim/sıfat/zarf görevi üstlenir.",
+        "Tahtaya yaz: Yargı + kanıt + gerekçe"
+      ],
+      "assessment_look_fors": ["Metne özgü dramatik örgü.", "Dil özelliği + çıkarım + kanıt.", "Fiilimsi türü ve işlevi.", "Gerekçeli öz değerlendirme."],
+      "differentiation": {
+        "support": ["Yapı başlıklarını hazır ver; öğrencinin yalnız kanıtları doldurmasını sağla."],
+        "enrichment": ["Gölge oyununu sosyal tarih kaynağı olarak kullanmanın sınırlılıklarını tartıştır."]
+      }
+    },
+    {
+      "block_id": "T1V2_B07_MEKTUP_PREP",
+      "section_id": "T1_SEC_02_OKUMA_MEKTUP",
+      "printed_page_range": "36-38",
+      "title": "Mektup: hazırlık ve okuma",
+      "source_item_refs": ["T1_G05_P36_PREP", "T1_G05_P37_38_TEXT_READING", "T1_G05_P37_38_DGEI_ENRICHMENT"],
+      "book_task_summaries": [
+        "Mektubun iletişim işlevini tartışma.",
+        "Sanat eserini üreticiden alıcıya gönderilmiş ileti olarak yorumlama.",
+        "Doğal/mektup yazar gibi anlatımın etkisini değerlendirme.",
+        "Âli'ye Mektuplar metnini ve yazar biyografisini kaynaklarına göre ayırarak okuma."
+      ],
+      "pedagogical_intent": "Mektubu yalnız haber verme türü olmaktan çıkarıp gönderen-ileti-alıcı-amaç ilişkisi ve kaynak farkındalığıyla okumak.",
+      "teacher_moves": [
+        "Öğrencinin kişisel mektup/mesaj deneyiminden başla ancak türü yalnız özel kişiler arası iletişime indirgeme.",
+        "Mektuptan çıkan bilgi ile biyografi bilgisini iki ayrı sütunda toplat.",
+        "D-G-E-İ kodunu isteğe bağlı okuma desteği olarak kullan; resmî kitap yönergesi gibi sunma."
+      ],
+      "follow_up_questions": ["Bir resim veya ezgi hangi anlamda mektup gibi çalışabilir?", "Bu bilgi mektupta mı yazıyor, yoksa biyografiden mi biliyoruz?"],
+      "misconception_interventions": ["Mektubu yalnız haberleşme türü sayan öğrenciye duygu, istek, düşünce ve kurum iletişimi örnekleri ver."],
+      "board_notes": ["Tahtaya yaz: Gönderen – İleti – Alıcı – Amaç", "Tahtaya yaz: Mektupta doğrudan var | Biyografiden öğrendik"],
+      "assessment_look_fors": ["Mektubun birden fazla iletişim işlevini açıklama.", "Mektup ve biyografi bilgisini doğru kaynağa yerleştirme."],
+      "differentiation": {
+        "support": ["Gönderen-ileti-alıcı şemasını hazır ver."],
+        "enrichment": ["İki kaynak türünün aynı kişi hakkında sunduğu bilgilerin farkını tartıştır."]
+      }
+    },
+    {
+      "block_id": "T1V2_B08_MEKTUP_MEANING_1",
+      "section_id": "T1_SEC_02_OKUMA_MEKTUP",
+      "printed_page_range": "39-40",
+      "title": "Mektup: söz varlığı ve metni anlama",
+      "source_item_refs": ["T1_G06_P39_VOCAB", "T1_G06_P40_COMPREHENSION", "T1_G06_P40_WORKSHEET"],
+      "book_task_summaries": [
+        "Söz varlığını bağlamdan tahmin edip doğrulama.",
+        "Metni Anlayalım bölümündeki dört soruyu metin kanıtıyla cevaplama.",
+        "Konu, ana düşünce, yardımcı düşünce, anlatım biçimi ve açık/örtük iletileri çözümleme."
+      ],
+      "pedagogical_intent": "Cevapları hazır anahtar olarak ezberletmeden her yorumu mektuptaki ifade ve düşüncelere bağlamak.",
+      "teacher_moves": [
+        "Dört anlama sorusunu tek blokta geçme; amaç, mektubun düşünsel işlevi, roman anlayışı ve kişi çözümleme odağını ayrı işle.",
+        "Her cevaptan sonra 'Bunu mektubun neresinden çıkardın?' sorusunu kullan.",
+        "Çalışma kâğıdında konu, ana düşünce ve yardımcı düşünceyi ayrı tut."
+      ],
+      "follow_up_questions": ["Bu cevap doğrudan bilgi mi, yoksa metinden çıkarım mı?", "Kaplan'ın roman anlayışını hangi ifade düşündürdü?"],
+      "misconception_interventions": ["Mektubu yalnız günlük haberleşme sanan öğrenciye edebiyat/roman düşüncelerinin mektuptaki işlevini sordur."],
+      "board_notes": ["Tahtaya yaz: Tahmin → bağlamı kontrol et → sözlükle doğrula → cümlede dene", "Tahtaya yaz: Cevap → metin kanıtı", "Tahtaya yaz: Konu ≠ Ana düşünce | Açık ileti = doğrudan | Örtük ileti = çıkarım"],
+      "assessment_look_fors": ["Dört soruya ayrı ve metne dayalı cevap.", "Konu-ana düşünce-yardımcı düşünce ayrımı.", "Bağlama uygun söz varlığı."],
+      "differentiation": {
+        "support": ["Her soru için bir anahtar ifade buldur."],
+        "enrichment": ["Kaplan'ın roman anlayışını öğrencinin bildiği başka bir romanla karşılaştır."]
+      }
+    },
+    {
+      "block_id": "T1V2_B09_MEKTUP_MEANING_2",
+      "section_id": "T1_SEC_02_OKUMA_MEKTUP",
+      "printed_page_range": "41-43",
+      "title": "Mektup: öznel-nesnel, türler ve karşılaştırma",
+      "source_item_refs": ["T1_G06_P41_FACTS_AND_SUBJECTIVITY", "T1_G06_P42_43_TYPES_COMPARE"],
+      "book_task_summaries": [
+        "Mektup ve biyografiden elde edilen yaşam/düşünce bilgilerini kaynaklarına göre ayırma.",
+        "Öznel ve nesnel ifadeleri gerekçeyle sınıflandırma.",
+        "Mektup türlerini ayırt etme ve Âli'ye Mektuplar'ı tür bakımından değerlendirme.",
+        "Yazıcı ile mektubu içerik, tür, yapı, dönem/çevre, dil/üslup ve ileti bakımından karşılaştırma."
+      ],
+      "pedagogical_intent": "Kaynak, gerçeklik ve tür ayrımını netleştirerek karşılaştırmalı okuma becerisini geliştirmek.",
+      "teacher_moves": [
+        "Öznel/nesnel ayrımında 'doğrulanabilir mi?' ve 'kişisel değerlendirme içeriyor mu?' sorularını kullan.",
+        "Mehmet Kaplan metnini kitap sınıflandırması bakımından edebî mektup olarak konumlandır; samimi özelliklerinin bunu dışlamadığını açıkla.",
+        "Karşılaştırmada en az üç ortak ölçüt kullandır."
+      ],
+      "follow_up_questions": ["Bu cümle başka bir kaynakla doğrulanabilir mi?", "Kişisel/samimi olması neden edebî mektup niteliğini ortadan kaldırmıyor?"],
+      "misconception_interventions": ["Öznel ifadeyi yalnız 'bence' kelimesiyle tanıyan öğrenciye beğeni ve değerlendirme içeren başka cümleler göster."],
+      "board_notes": ["Tahtaya yaz: Nesnel = doğrulanabilir | Öznel = kişisel değerlendirme/beğeni/duygu", "Tahtaya yaz: Özel mektup → kişisel | Edebî mektup → edebiyat/sanat/düşünce | İş mektubu → mesleki/ticari | Resmî mektup → kurum/kamu"],
+      "assessment_look_fors": ["Öznel-nesnel sınıflamada gerekçe.", "Edebî mektup türünü doğru konumlandırma.", "En az üç ölçütlü Yazıcı-mektup karşılaştırması."],
+      "differentiation": {
+        "support": ["Doğrulanabilir bilgi / kişisel yorum iki sütunlu şema kullan."],
+        "enrichment": ["Bir öznel cümleyi nesnel bilgi cümlesine dönüştürüp anlam kaybını tartıştır."]
+      }
+    },
+    {
+      "block_id": "T1V2_B10_MEKTUP_ANALYSIS",
+      "section_id": "T1_SEC_02_OKUMA_MEKTUP",
+      "printed_page_range": "44-45",
+      "title": "Mektup: yapı, dil, dönem, değer ve sosyal bilim",
+      "source_item_refs": ["T1_G07_P44_STRUCTURE_VALUES", "T1_G07_P45_SOCIAL_SCIENCES"],
+      "book_task_summaries": [
+        "Mektubun yapı, dil, dönem/toplum ve değer özelliklerini çözümleme.",
+        "Mektubu tarih, sosyoloji veya psikoloji alanlarından biriyle kanıtlı biçimde ilişkilendirme."
+      ],
+      "pedagogical_intent": "Metinde görünür olanla öğretmenin varsayımını ayırmak ve değer/sosyal bilim yorumunu metin kanıtına bağlamak.",
+      "teacher_moves": [
+        "Metinde görünmeyen yer/tarih bilgisini varmış gibi yazdırma.",
+        "Değer adı saydırmak yerine her değer için ifade veya davranış kanıtı iste.",
+        "Sosyal bilim araştırmasında genel internet bilgisini mektuptaki en az iki ayrıntıyla ilişkilendir."
+      ],
+      "follow_up_questions": ["Bu yapı unsurunu metinde gerçekten görüyor muyuz?", "Bu değeri hangi ifade düşündürdü?", "Bu sosyal bilim çıkarımı hangi iki metin ayrıntısına dayanıyor?"],
+      "misconception_interventions": ["Mektup şablonunda bulunması beklenen bir ögeyi metinde de var sanan öğrenciye görünür metin kanıtı iste."],
+      "board_notes": ["Tahtaya yaz: Hitap – Giriş – Gelişme – Sonuç – Kapanış/İmza", "Tahtaya yaz: Alan + metinden 2 kanıt + çıkarım"],
+      "assessment_look_fors": ["Yalnız görünür yapı unsurlarını kesin bilgi olarak yazma.", "Değer veya sosyal bilim çıkarımında metin kanıtı."],
+      "differentiation": {
+        "support": ["Yapı başlıklarını hazır ver; öğrencinin metinden örnek doldurmasını sağla."],
+        "enrichment": ["Aynı içeriğin günümüz e-postasında nasıl biçim değiştireceğini tasarlat."]
+      }
+    },
+    {
+      "block_id": "T1V2_B11_MEKTUP_EVALUATION",
+      "section_id": "T1_SEC_02_OKUMA_MEKTUP",
+      "printed_page_range": "46-52",
+      "title": "Mektup: değerlendirme, gerçeklik, iletişim tarihi ve dilekçe",
+      "source_item_refs": ["T1_G08_P46_EVALUATION", "T1_G08_P47_REALITY", "T1_G08_P48_COMMUNICATION_HISTORY", "T1_G08_P49_50_COMMUNICATION_TEXTS", "T1_G08_P51_PETITION_REFERENCE", "T1_G08_P52_PETITION_TASK", "T1_G08_P52_SAMPLE_PETITION"],
+      "book_task_summaries": [
+        "Mektubu belirlenen beğeni/işlev ölçütleriyle değerlendirme.",
+        "Metinsel gerçeklik ile doğrulanabilir yaşam bilgisini ayırma.",
+        "İletişim araçlarını hız, erişim, kalıcılık ve bağlam bakımından yorumlama.",
+        "Farklı dönemlerden iletişim metinlerinde gönderen-alıcı-amaç ilişkisini belirleme.",
+        "Dilekçenin resmî iletişim özelliklerini tanıma ve okul müdürlüğüne uygun bir dilekçe yazma."
+      ],
+      "pedagogical_intent": "Mektuptan resmî iletişime geçerken tür, gerçeklik, araç ve bağlam değiştikçe dilin nasıl değiştiğini görünür kılmak.",
+      "teacher_moves": [
+        "Mektup değerlendirmesinde öğrencinin kendi ölçütlerini açıklamasını ve yargısını en az iki ölçüte dayandırmasını iste.",
+        "İletişim teknolojilerini yalnız eski-yeni sırasına değil işlev değişimine göre karşılaştır.",
+        "Dilekçeyi 'arz ederim' kalıbına indirgeme; makam, açık talep, kısa gerekçe ve biçim bütünlüğünü birlikte değerlendir."
+      ],
+      "follow_up_questions": ["Bu metin tarihî belge olarak kullanılabilir mi; hangi sınırlılıkla?", "Yeni iletişim aracı ne kazandırdı, ne kaybettirdi?", "Bu talep kurum açısından tek anlamlı mı?"],
+      "misconception_interventions": ["Dilekçeyi günlük konuşma diliyle yazan öğrenciye bir cümleyi iki bağlamda karşılaştır.", "Doğru olabilecek ama metinde bulunmayan bilgiyi 'Bilgi var' sayan öğrenciye kaynak sınırını hatırlat."],
+      "board_notes": ["Tahtaya yaz: Doğrulanabilir bilgi + kişisel yorum = mektubun iki katmanı", "Tahtaya yaz: İletişim aracını değerlendir: Hız – Erişim – Kalıcılık – Bağlam", "Tahtaya yaz: Makam – Talep – Kısa gerekçe – Uygun bitiriş – Tarih/İmza/Ad soyad"],
+      "assessment_look_fors": ["Ölçütlü değerlendirme.", "Araçları işlevsel ölçütle karşılaştırma.", "Resmî dil ve açık talep içeren eksiksiz dilekçe."],
+      "differentiation": {
+        "support": ["Dilekçe için boş biçim şablonu ve kontrol listesi ver."],
+        "enrichment": ["Aynı talebin özel mesaj, e-posta ve dilekçe biçimlerini karşılaştır."]
+      }
+    },
+    {
+      "block_id": "T1V2_B12_DRAMA_BARRIERS",
+      "section_id": "T1_SEC_03_KONUSMA_DRAMA",
+      "printed_page_range": "53",
+      "title": "Sözlü iletişim engellerini fark etme",
+      "source_item_refs": ["T1_G09_P53_BARRIERS"],
+      "book_task_summaries": ["Sözlü iletişim engellerini, etkilerini ve daha uygun iletişim davranışlarını belirleme."],
+      "pedagogical_intent": "İletişim engelini soyut etiket değil gözlenebilir davranış ve sonuç ilişkisi olarak kavratmak.",
+      "teacher_moves": ["Her engel için davranış-etki-alternatif davranış üçlüsünü kurdur.", "Farklı fikirde olmayı tek başına iletişim engeli sayma."],
+      "follow_up_questions": ["Hangi davranış hangi sonucu doğurdu?", "Aynı fikirde olmadan da sağlıklı iletişim kurulabilir mi?"],
+      "misconception_interventions": ["İletişim engelini yalnız fiziksel gürültü sanan öğrenciye söz kesme ve yargılayıcı dil örneği ver."],
+      "board_notes": ["Tahtaya yaz: Engel → Etki → Daha uygun davranış"],
+      "assessment_look_fors": ["En az iki engel için neden-sonuç ve uygulanabilir alternatif davranış."],
+      "differentiation": {
+        "support": ["Davranış-etki-alternatif davranış tablosu ver."],
+        "enrichment": ["Aynı davranışın farklı bağlamlarda engel olup olmayacağını tartıştır."]
+      }
+    },
+    {
+      "block_id": "T1V2_B13_DRAMA_PLAN",
+      "section_id": "T1_SEC_03_KONUSMA_DRAMA",
+      "printed_page_range": "54",
+      "title": "Canlandırma planı",
+      "source_item_refs": ["T1_G10_P54_PERFORMANCE_SETUP"],
+      "book_task_summaries": ["Altışar kişilik grupta konu, amaç, hedef kitle, yöntem, araç, süre, ortam ve olası iletişim engellerini planlama."],
+      "pedagogical_intent": "Performansı doğaçlama bir oyun olmaktan çıkarıp amaç-hedef kitle-bağlam kararlarına dayalı sözlü iletişim görevine dönüştürmek.",
+      "teacher_moves": ["Görev dağılımını yazılı hâle getir.", "Kontrol listesini final kontrolü değil hazırlık aracı olarak kullandır.", "En az bir olası iletişim engeli için önleyici tedbir planlat."],
+      "follow_up_questions": ["Bu hedef kitle dil tercihinizi nasıl değiştiriyor?", "Canlandırma sırasında hangi iletişim sorunu çıkabilir?"],
+      "misconception_interventions": ["Canlandırmayı yalnız senaryo yazmak sanan öğrenciye ortam, hedef kitle ve ses/beden kullanımını hatırlat."],
+      "board_notes": ["Tahtaya yaz: Konu – Amaç – Hedef kitle – Yöntem – Araç – Süre – Ortam – Olası engel"],
+      "assessment_look_fors": ["Görünür görev dağılımı ve tüm planlama kararları.", "Olası engel için önleyici tedbir."],
+      "differentiation": {
+        "support": ["Sekiz başlıklı plan şablonu kullan."],
+        "enrichment": ["Aynı engeli özel ve kamusal alan için iki farklı canlandırma olarak planlat."]
+      }
+    },
+    {
+      "block_id": "T1V2_B14_DRAMA_CONTENT",
+      "section_id": "T1_SEC_03_KONUSMA_DRAMA",
+      "printed_page_range": "55-56",
+      "title": "Canlandırma içeriği ve hata-çözüm tablosu",
+      "source_item_refs": ["T1_G11_P55_56_CONTENT_PLAN", "T1_G11_P56_ERROR_SOLUTION_TABLE"],
+      "book_task_summaries": ["İletişim engelinin neden-sonuç-çözümünü görünür kılan içerik taslağı hazırlama.", "İletişim hataları için davranış düzeyinde çözüm önerileri üretme."],
+      "pedagogical_intent": "Senaryonun estetik yönünden önce iletişim probleminin yapısını ve hedef kitleye uygun çözüm davranışını görünür kılmak.",
+      "teacher_moves": ["Her senaryoda sorun-neden-sonuç-çözüm zincirini kontrol et.", "'Daha iyi iletişim kurmalı' gibi soyut çözümleri gözlenebilir davranışa dönüştürt.", "Akran geri bildiriminden sonra en az bir anlamlı revizyon iste."],
+      "follow_up_questions": ["Bu çözüm tam olarak hangi davranışı değiştiriyor?", "Bütün karakterlerin aynı üslupla konuşması gerçekçi mi?"],
+      "misconception_interventions": ["Çözümü karşı tarafın kişiliğini değiştirmeye bağlayan öğrenciden kendi iletişim davranışında değiştirilebilir bir adım bulmasını iste."],
+      "board_notes": ["Tahtaya yaz: Sorun → Neden → Sonuç → Çözüm"],
+      "assessment_look_fors": ["Neden-sonuç-çözüm zinciri.", "Hedef kitleye uygun söz varlığı.", "Akran geri bildirimi sonrası revizyon izi."],
+      "differentiation": {
+        "support": ["Sorun-neden-sonuç-çözüm tablosundan senaryoya geçiş şablonu ver."],
+        "enrichment": ["Aynı sahneyi ikinci bir karakterin bakış açısından yeniden kurdur."]
+      }
+    },
+    {
+      "block_id": "T1V2_B15_DRAMA_PERFORMANCE",
+      "section_id": "T1_SEC_03_KONUSMA_DRAMA",
+      "printed_page_range": "57-58",
+      "title": "Canlandırma ve öz değerlendirme",
+      "source_item_refs": ["T1_G12_P57_LIVE_PERFORMANCE", "T1_G13_P58_SELF_ASSESSMENT", "T1_G13_P58_EXTERNAL_RUBRIC_NOTE"],
+      "book_task_summaries": ["Canlandırmayı plan, dil, beden dili, ses ve dinleyici etkileşimiyle gerçekleştirme.", "Öz değerlendirme formu üzerinden kanıtlı güçlü yön ve geliştirme hedefi belirleme."],
+      "pedagogical_intent": "Performans değerlendirmesini 'iyi oynadı' yargısından çıkarıp iletişim becerisinin gözlenebilir göstergelerine bağlamak.",
+      "teacher_moves": ["İletişim engeli, çözüm davranışı, beden/ses kullanımı ve etkileşimi ayrı gözle.", "Öz değerlendirmede her işaret için kısa kanıt iste.", "Dış QR rubriğinde görünmeyen ölçütleri tahmin ederek resmî ölçüt gibi kullanma."],
+      "follow_up_questions": ["Hangi anda iletişim engeli görünür oldu?", "Bir sonraki performansta tek bir şeyi değiştirecek olsan neyi değiştirirdin?"],
+      "misconception_interventions": ["Öz değerlendirmeyi yalnız form işaretleme sanan öğrenciye bir güçlü kanıt ve bir revizyon hedefi yazdır."],
+      "board_notes": ["Tahtaya yaz: Kanıtım ne? → Güçlü yönüm ne? → Bir sonraki performansta neyi değiştireceğim?"],
+      "assessment_look_fors": ["İletişim engeli ve çözümün performansta görünmesi.", "Kanıta dayalı öz değerlendirme ve somut revizyon hedefi."],
+      "differentiation": {
+        "support": ["Önce üç kritik ölçüt üzerinde kanıt buldur, sonra formu tamamlat."],
+        "enrichment": ["İlk prova ile son performansı iki ölçüte göre karşılaştır."]
+      },
+      "source_limitations": ["Dış QR dereceli puanlama anahtarının ölçüt×düzey içeriği yerel PDF'de görünür değildir; uydurulmaz."]
+    },
+    {
+      "block_id": "T1V2_B16_LISTENING_PREP",
+      "section_id": "T1_SEC_04_DINLEME_ILETISIM",
+      "printed_page_range": "59",
+      "title": "İletişim araçlarının değişimine hazırlık",
+      "source_item_refs": ["T1_G14_P59_PREP"],
+      "book_task_summaries": ["Geçmiş ve günümüz iletişim araçlarını örnekleyip değişimi işlevsel ölçütlerle açıklama."],
+      "pedagogical_intent": "Teknoloji sıralaması yerine iletişim davranışında meydana gelen kazanım ve kayıpları tartıştırmak.",
+      "teacher_moves": ["Araçları hız, erişim, kalıcılık, maliyet, eşzamanlılık ve görsel/işitsel zenginlik gibi ölçütlerle karşılaştır."],
+      "follow_up_questions": ["Bu araç neyi kolaylaştırdı?", "Aynı araç hangi iletişim niteliğini zayıflatmış olabilir?"],
+      "misconception_interventions": ["Yeni olanı otomatik olarak daha iyi sayan öğrenciden bir avantaj ve bir kayıp yazmasını iste."],
+      "board_notes": ["Tahtaya yaz: Araç değiştiğinde ne değişir? Hız – Erişim – Kalıcılık – Mahremiyet – Etkileşim"],
+      "assessment_look_fors": ["En az iki dönemden araç ve en az bir işlevsel karşılaştırma ölçütü."],
+      "differentiation": {
+        "support": ["Hız-erişim-kalıcılık başlıklarını hazır ver."],
+        "enrichment": ["Bir aracın aynı anda kazandırdığı ve kaybettirdiği özellikleri tartıştır."]
+      }
+    },
+    {
+      "block_id": "T1V2_B17_LISTENING_MANAGEMENT",
+      "section_id": "T1_SEC_04_DINLEME_ILETISIM",
+      "printed_page_range": "60-64",
+      "title": "Dinleme/izlemeyi yönetme ve gözlem",
+      "source_item_refs": ["T1_G15_P60_64_MANAGEMENT", "T1_G15_P64_OBSERVATION"],
+      "book_task_summaries": ["Dinleme/izleme amacı ve stratejisi belirleme, ön bilgiye dayalı tahmin yapma ve tahmini kanıta göre güncelleme.", "Gözlem formunu gözlenebilir dinleme/izleme davranışlarına göre kullanma."],
+      "pedagogical_intent": "Dinleme/izlemeyi pasif içerik tüketimi değil amaçlı strateji seçimi, tahmin ve kanıt güncelleme süreci olarak yürütmek.",
+      "teacher_moves": ["İçeriği açmadan önce amaç-strateji-tahmin kaydı al.", "Tahminin doğru çıkmasını değil yeni kanıta göre güncellenmesini değerlendir.", "Gözlem formunu katılım puanına dönüştürme."],
+      "follow_up_questions": ["Bu strateji dinleme amacına nasıl yardım edecek?", "Hangi yeni kanıt tahminini değiştirdi?"],
+      "misconception_interventions": ["Tahmini yanlış çıktığı için başarısız sayan öğrenciye tahminin test edilmek için yapıldığını hatırlat."],
+      "board_notes": ["Tahtaya yaz: Amaç → Strateji → Tahmin → İzlerken güncelle"],
+      "assessment_look_fors": ["Amaçla uyumlu strateji gerekçesi.", "Başlık/görsel/ön bilgiye dayalı tahmin.", "Kanıta göre güncelleme."],
+      "differentiation": {
+        "support": ["Amaç-strateji-tahmin üç bölümlü kayıt şablonu ver."],
+        "enrichment": ["Aynı içeriği iki farklı dinleme amacıyla izlemenin notları nasıl değiştirdiğini karşılaştır."]
+      }
+    },
+    {
+      "block_id": "T1V2_B18_LISTENING_MEANING",
+      "section_id": "T1_SEC_04_DINLEME_ILETISIM",
+      "printed_page_range": "65-71",
+      "title": "Dinleme/izlemede anlam oluşturma",
+      "source_item_refs": ["T1_G16_P65_71_COMPREHENSION"],
+      "book_task_summaries": ["Ders kitabındaki anlama sorularını dinlenen/izlenen içeriğin sözlü, görsel ve işitsel kanıtlarıyla cevaplama."],
+      "pedagogical_intent": "Konu, tema ve iletiyi ayırmak; çok modlu kanıtı yorumun dayanağı hâline getirmek.",
+      "teacher_moves": ["Ders kitabındaki gerçek alt soruları doğrudan kitaptan takip et; doğrulanmamış yeni soru metni üretme.", "'Videoda geçti' cevabından sonra hangi söz, ses veya görüntünün kanıt olduğunu sor.", "Öğrencinin kendi bilgisi ile medyada verilen bilgiyi ayırmasını sağla."],
+      "follow_up_questions": ["Hangi ses/görüntü/söz bu çıkarımı destekliyor?", "Bu söylediğin içerikte mi vardı, yoksa senin ön bilgin mi?"],
+      "misconception_interventions": ["Görseli yalnız süs olarak gören öğrenciye görüntüyü kaldırdığında anlamın değişip değişmeyeceğini sor."],
+      "board_notes": ["Tahtaya yaz: Konu → Ne hakkında? | Tema → Hangi temel kavram? | İleti → Ne düşündürüyor? | Kanıt → Hangi söz/ses/görüntü?"],
+      "assessment_look_fors": ["Konu-tema-ileti ayrımı.", "En az bir sözlü/görsel/işitsel kanıtla gerekçelendirme.", "Ön bilgi ile medya bilgisini ayırma."],
+      "differentiation": {
+        "support": ["Konu-ileti-kanıt tablosu kullan."],
+        "enrichment": ["Aynı iletinin yalnız ses veya yalnız görüntüyle aktarılmasında neyin değişeceğini tartıştır."]
+      },
+      "source_limitations": ["Mevcut canonical guide'da s.65-71 alt sorularının birebir metni ayrı itemler hâlinde doğrulanmış değildir; V2 yeni soru uydurmaz."]
+    },
+    {
+      "block_id": "T1V2_B19_LISTENING_ANALYSIS",
+      "section_id": "T1_SEC_04_DINLEME_ILETISIM",
+      "printed_page_range": "72-73",
+      "title": "Çok modlu çözümleme ve çıkış kartı",
+      "source_item_refs": ["T1_G17_P72_ANALYSIS", "T1_G18_P73_EXIT_CARD"],
+      "book_task_summaries": ["Çok modlu metni yapı, tür, dil, ileti ve görsel-işitsel unsurlar bakımından çözümleme.", "3-2-1 çıkış kartıyla öğrenme ve geliştirme hedefi belirleme."],
+      "pedagogical_intent": "Doğrudan gözlem ile yorum/çıkarımı ayırmak ve öz değerlendirmeyi sonraki dinleme davranışına bağlamak.",
+      "teacher_moves": ["Her yorumdan önce gözlenebilir medya kanıtını yazdır.", "Çıkış kartındaki geliştirme davranışlarından birine sonraki dinleme etkinliğinde geri dön."],
+      "follow_up_questions": ["Bu bir gözlem mi, yoksa çıkarım mı?", "Hangi gözlem bu çıkarımı mümkün kıldı?"],
+      "misconception_interventions": ["Yorumunu gözlem gibi sunan öğrenciye 'Kamerada/seste gerçekten ne oldu?' diye sor."],
+      "board_notes": ["Tahtaya yaz: Gözlem ≠ çıkarım", "Tahtaya yaz: 3 öğrendiğim şey – 2 dikkat edeceğim davranış – 1 merak ettiğim soru"],
+      "assessment_look_fors": ["En az üç çözümleme boyutunda medya kanıtı.", "Gözlem-çıkarım ayrımı.", "Sonraki uygulamaya taşınabilir geliştirme hedefi."],
+      "differentiation": {
+        "support": ["Gözlem ve yorum için iki ayrı sütun kullan."],
+        "enrichment": ["Aynı sahneyi yalnız ses ve yalnız görüntü üzerinden ayrı ayrı yorumlat."]
+      }
+    },
+    {
+      "block_id": "T1V2_B20_EMAIL_PLAN",
+      "section_id": "T1_SEC_05_YAZMA_EPOSTA",
+      "printed_page_range": "74-75",
+      "title": "E-posta yazma planı",
+      "source_item_refs": ["T1_G17_P74_75_WRITING_PLAN"],
+      "book_task_summaries": ["E-postanın amacı, alıcısı/hedef kitlesi, türü, yöntemi/stratejisi ve üretim koşullarını planlama."],
+      "pedagogical_intent": "Öğrencinin doğrudan nihai ürüne geçmesini engelleyip alıcı ve amaç kararının dil/üsluba etkisini görünür kılmak.",
+      "teacher_moves": ["Önce plan kaydı üret; nihai metni daha sonra yazdır.", "Amaç ve alıcı kararını öğrencinin kendi cümlesiyle gerekçelendirmesini iste.", "Aynı iletinin arkadaş ve okul müdürü için nasıl değişeceğini kısa karşılaştırmayla göster."],
+      "follow_up_questions": ["Bu alıcı seçtiğin tonu nasıl değiştiriyor?", "Bu e-posta neden yazılıyor; alıcının ne yapmasını/anlamasını bekliyorsun?"],
+      "misconception_interventions": ["E-postayı kısa mesaj gibi gören öğrenciye konu, hitap, amaç ve kapanış işlevlerini sordur."],
+      "board_notes": ["Tahtaya yaz: Amaç – Alıcı – Tür – Strateji – Kullanılacak bilgi – Ton"],
+      "assessment_look_fors": ["Amaç ve alıcıya dayalı plan.", "Dil/ton tercihi için gerekçe."],
+      "differentiation": {
+        "support": ["Amaç-alıcı-tür-strateji-koşul şablonu kullan."],
+        "enrichment": ["Aynı iletiyi iki farklı hedef kitle için iki ayrı planla karşılaştır."]
+      }
+    },
+    {
+      "block_id": "T1V2_B21_EMAIL_PRODUCT",
+      "section_id": "T1_SEC_05_YAZMA_EPOSTA",
+      "printed_page_range": "76-78",
+      "title": "E-posta içeriği, nihai ürün ve revizyon",
+      "source_item_refs": ["T1_G18_P76_CONTENT_DESIGN", "T1_G19_P77_FINAL_PRODUCT", "T1_G20_P78_SELF_REVIEW"],
+      "book_task_summaries": ["Amaç ve alıcıya uygun içerik taslağı hazırlama.", "Taslağı tür, bağlam, bütünlük ve dil bakımından nihai ürüne dönüştürme.", "Öz/akran/öğretmen geri bildirimiyle ürünü revize etme ve çıkış kartı oluşturma."],
+      "pedagogical_intent": "Yazmayı yalnız imla kontrolü değil plan-içerik-tür-bütünlük-revizyon döngüsü olarak öğretmek.",
+      "teacher_moves": ["İçeriği bilgi miktarıyla değil amaç ve alıcıya uygunlukla değerlendir.", "İlk taslak ile son ürün arasındaki değişikliği görünür kıl.", "Öz değerlendirmeyi mutlaka somut metin revizyonuna bağla.", "Görünmeyen QR rubrik ölçütlerini uydurma."],
+      "follow_up_questions": ["Bu bilgi alıcının ne işine yarıyor?", "İlk taslağa göre en önemli değişikliğin ne ve neden?"],
+      "misconception_interventions": ["Yazma görevini yalnız yazım-noktalama sanan öğrenciye amaç, ton, tür ve bütünlük ölçütlerinden birini seçtirip metni yeniden incelet."],
+      "board_notes": ["Tahtaya yaz: Olmazsa olmaz bilgi | Yararlı destek | Gereksiz ayrıntı", "Tahtaya yaz: 1. Amaç/alıcı 2. Tür ve ton 3. Bütünlük 4. Açıklık 5. Yazım-noktalama", "Tahtaya yaz: Geri bildirim → karar → revizyon"],
+      "assessment_look_fors": ["Amaç/alıcıya uygun içerik seçimi.", "İlk taslak-son ürün arasında anlamlı düzenleme.", "Geri bildirim sonrası somut revizyon ve geliştirme hedefi."],
+      "differentiation": {
+        "support": ["Zorunlu bilgi-yararlı destek-gereksiz ayrıntı sınıflaması ve beş aşamalı kontrol sırası ver."],
+        "enrichment": ["İlk ve son üründeki üç değişikliği gerekçelendiren yansıtma notu yazdır."]
+      },
+      "source_limitations": ["LINK_T1_YAZMA_DPA dış QR rubriğinin ölçüt×düzey matrisi yerel PDF'de görünür değildir; resmî ölçüt olarak tahmin edilmez."]
+    },
+    {
+      "block_id": "T1V2_B22_ASSESSMENT_1_3",
+      "section_id": "T1_SEC_06_TEMA_OLCME",
+      "printed_page_range": "79-80",
+      "title": "Tema ölçme: 1-3. sorular",
+      "source_item_refs": ["T1_G21_P79_Q01", "T1_G21_P80_Q02", "T1_G21_P80_Q03"],
+      "book_task_summaries": ["Karagöz'ün dil kaynaklı yanlış anlama özelliğini güncel duruma uygulama.", "Diyalogdaki Karagöz/Hacivat rollerini belirleme.", "Muamma geleneğine güncel işlevsel karşılıklar üretme."],
+      "pedagogical_intent": "Doğru seçeneği vermekten ziyade tip özelliğini yeni bağlama transfer ettirmek ve geleneksel unsuru işlev üzerinden güncelle ilişkilendirmek.",
+      "teacher_moves": ["Soru 1'de doğru D seçeneğini ses benzerliği-yanlış anlama ilişkisiyle gerekçelendirt.", "Soru 2'de karakter sırasını konuşma işlevleriyle açıklat.", "Soru 3'te tek güncel örnek dayatma; işlevsel benzerliği gerekçelendiren alternatifleri kabul et."],
+      "follow_up_questions": ["Yanlış anlama hangi kelime ilişkisiyle doğuyor?", "Muamma ile güncel örneğin ortak işlevi nedir?"],
+      "misconception_interventions": ["Yalnız 'ikisi de oyun' benzerliği kuran öğrenciden çözme/ipuçları/yarışma işlevini açıklamasını iste."],
+      "board_notes": ["Tahtaya yaz: Ses benzerliği → yanlış anlama → mizah"],
+      "assessment_look_fors": ["S1: D + gerekçe.", "S2: Hacivat-Karagöz-Hacivat-Karagöz + işlev gerekçesi.", "S3: güncel örnek + işlevsel benzerlik."],
+      "differentiation": {
+        "support": ["Karakterler için açıklıyor/yanlış anlıyor ipucu kullan."],
+        "enrichment": ["Geleneksel muamma ile dijital bulmaca etkinliğinin hedef kitle ve ortam farkını karşılaştır."]
+      }
+    },
+    {
+      "block_id": "T1V2_B23_ASSESSMENT_4_7",
+      "section_id": "T1_SEC_06_TEMA_OLCME",
+      "printed_page_range": "81",
+      "title": "Tema ölçme: 4-7. sorular",
+      "source_item_refs": ["T1_G21_P81_Q04", "T1_G21_P81_Q05", "T1_G21_P81_Q06", "T1_G21_P81_Q07"],
+      "book_task_summaries": ["Çelebi'nin geliş amacını belirleme.", "Çelebi ve Karagöz rollerini değiştirerek özgün kısa diyalog yazma.", "Karagöz ile uygun çağdaş mizah/tiyatro sanatçısını karşılaştırma.", "Tanpınar'ın mektup yazma amacını belirleme."],
+      "pedagogical_intent": "Amaç-araç ayrımı, karakter transferi, ölçütlü karşılaştırma ve mektup amacı çözümlemesini değerlendirmek.",
+      "teacher_moves": ["S4'te para verme eylemi ile yarışma düzenleme amacını ayır.", "S5'te yalnız isim değişimini kabul etme; dil ve davranış özellikleri de yer değiştirmeli.", "S6'da sanatçı seçimini tek isimle sınırlandırma.", "S7'de E seçeneğini geçmiş-hatıra-muhatap bağlantısıyla gerekçelendirt."],
+      "follow_up_questions": ["Burada amaç hangisi, amacı gerçekleştiren araç hangisi?", "Rol değişince konuşma biçimi nasıl değişmeli?", "Karşılaştırman 'ikisi de komik' cümlesinin ötesine geçiyor mu?"],
+      "misconception_interventions": ["S5'te yalnız adları değiştiren öğrenciye karakterlerin iki ayırt edici dil davranışını önce tabloya yazdır."],
+      "board_notes": ["Tahtaya yaz: Rol değişimi = isim değişimi değil; konuşma ve davranış değişimi"],
+      "assessment_look_fors": ["S4: C ve amaç gerekçesi.", "S5: özgün, tutarlı ve tip özelliklerini gerçekten yer değiştiren diyalog.", "S6: benzerlik + farklılık + toplumsal etki.", "S7: E ve amaç gerekçesi."],
+      "differentiation": {
+        "support": ["Eski rol/yeni rol tablosu ve benzerlik-farklılık şablonu kullan."],
+        "enrichment": ["Rol değişiminin mizah türünü nasıl değiştirdiğini açıklat."]
+      }
+    },
+    {
+      "block_id": "T1V2_B24_ASSESSMENT_8_10",
+      "section_id": "T1_SEC_06_TEMA_OLCME",
+      "printed_page_range": "82",
+      "title": "Tema ölçme: 8-10. sorular",
+      "source_item_refs": ["T1_G21_P82_Q08", "T1_G21_P82_Q09", "T1_G21_P82_Q10"],
+      "book_task_summaries": ["Mektup kapanışındaki değer ve iletişim biçimini yorumlama.", "Mektup ile romanın yazar-okur iletişimini karşılaştırma.", "Dijitalleşme metninde ulaşılamayan yargıyı belirleme."],
+      "pedagogical_intent": "Değer yorumunu metin kanıtına bağlamak, doğrudan/dolaylı iletişimi ayırmak ve metne bağlı çıkarım disiplinini ölçmek.",
+      "teacher_moves": ["S8'de değer adı saydırmak yerine değeri düşündüren ifadeyi sordur.", "S9'da mektubun belirli muhatap/doğrudan iletişimi ile romanın kurmaca/dolaylı-estetik iletişimini karşılaştır.", "S10'da dış bilgiyi değil metindeki neden-zaman bağını kullanarak C seçeneğini doğrulat."],
+      "follow_up_questions": ["Bu değeri hangi ifade gösteriyor?", "Romanda okur neden daha etkin bir yorumlayıcı olmak zorunda?", "Bu yargı doğru olabilir; peki verilen metinden çıkıyor mu?"],
+      "misconception_interventions": ["Mektup ve romanı yalnız uzunluk veya biçimle karşılaştıran öğrenciye gönderen-muhatap ve doğrudan/dolaylı iletişim ölçütlerini ver."],
+      "board_notes": ["Tahtaya yaz: Mektup → belirli muhatap / doğrudan iletişim | Roman → kurmaca dünya / dolaylı-estetik iletişim / etkin okur"],
+      "assessment_look_fors": ["S8: en az iki değer + ifade kanıtı.", "S9: doğrudan/dolaylı iletişim ayrımı ve ortak bağ.", "S10: C ve metin içi gerekçe."],
+      "differentiation": {
+        "support": ["Doğrudan / dolaylı iletişim iki sütunlu şema kullan."],
+        "enrichment": ["Okurun çıkarım sorumluluğunu kurmacadaki gizli bağlarla ilişkilendir."]
+      }
+    },
+    {
+      "block_id": "T1V2_B25_ASSESSMENT_11_13",
+      "section_id": "T1_SEC_06_TEMA_OLCME",
+      "printed_page_range": "83",
+      "title": "Tema ölçme: 11-13. sorular",
+      "source_item_refs": ["T1_G21_P83_Q11", "T1_G21_P83_Q12", "T1_G21_P83_Q13"],
+      "book_task_summaries": ["İletişim teknolojilerinin tarihsel dönüşümünü işlev değişimi üzerinden yorumlama.", "Metne göre Evet/Hayır/Bilgi yok ayrımı yapma.", "Olvido çok modlu içeriğinde şiir duygusunu aktaran sözlü, işitsel ve görsel unsurları kanıtla açıklama."],
+      "pedagogical_intent": "Kaynakla sınırlı çıkarım, tarihsel işlev değişimi ve çok modlu kanıt kullanımını ölçmek.",
+      "teacher_moves": ["S11'de araç adlarını değil yaygınlık-hız-etkileşim-üretim/paylaşım gibi işlev değişimini öne çıkar.", "S12'de 'dünyada doğru olabilir' ile 'verilen metinde var' ayrımını öğret.", "S13'te yalnız videoda gerçekten gözlenen unsurları kabul et; gözlenmeyen müzik/renk/ışık vb. unsuru varsayma."],
+      "follow_up_questions": ["Bu bilgi doğru olabilir; metin bunu söylüyor mu?", "Bu ses/görsel unsur şiirin duygusunu nasıl değiştiriyor?"],
+      "misconception_interventions": ["Bilgi yok seçeneğini yanlış olarak anlayan öğrenciye doğruluk değil kaynakta bulunma ölçütünü yeniden kur.", "Olvido sorusunda genel video bilgisi veren öğrenciden belirli gözlem ve duygu bağlantısı iste."],
+      "board_notes": ["Tahtaya yaz: Matbaa → yaygınlık | Telefon → hız/mesafe | İnternet → etkileşim | Sosyal medya → üretim/paylaşım", "Tahtaya yaz: Doğru olabilir ≠ metinde var", "Tahtaya yaz: Unsur → duyguya etkisi → kanıt"],
+      "assessment_look_fors": ["S11: tarihsel araç-işlev ilişkisi.", "S12: yalnız metne dayalı Evet/Hayır/Bilgi yok ayrımı.", "S13: en az iki farklı moda ait gerçek gözlem + duyguya etkisi."],
+      "differentiation": {
+        "support": ["Araç-işlev eşleştirmesi ve 'metinde açıkça var mı?' kontrol sorusu kullan."],
+        "enrichment": ["Aynı şiir parçasının yalnız ses veya yalnız görüntüyle sunulması durumunda duygu aktarımını karşılaştır."]
+      },
+      "source_limitations": ["Olvido dış EBA içeriğinin ayrıntıları öğretmen tarafından gerçek oynatım üzerinden doğrulanmalıdır; rehber gözlenmeyen medya unsurunu varsaymaz."]
+    }
+  ]
+}
