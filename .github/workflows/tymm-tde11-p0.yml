@@ -7,6 +7,7 @@ on:
       - 'courses/TDE_SHARED/**'
       - 'skill/tymm-material-planner/scripts/**'
       - 'skill/tymm-material-planner/schemas/**'
+      - 'skill/tymm-material-planner/data/**'
       - 'skill/tymm-material-planner/tests/test_reuse_only_contract.py'
       - 'skill/tymm-material-planner/tests/test_parity_blocked_contract.py'
       - '.github/workflows/tymm-tde11-p0.yml'
@@ -17,6 +18,7 @@ on:
       - 'courses/TDE_SHARED/**'
       - 'skill/tymm-material-planner/scripts/**'
       - 'skill/tymm-material-planner/schemas/**'
+      - 'skill/tymm-material-planner/data/**'
       - 'skill/tymm-material-planner/tests/test_reuse_only_contract.py'
       - 'skill/tymm-material-planner/tests/test_parity_blocked_contract.py'
       - '.github/workflows/tymm-tde11-p0.yml'
@@ -64,12 +66,22 @@ jobs:
           python skill/tymm-material-planner/tests/test_reuse_only_contract.py
           python skill/tymm-material-planner/tests/test_parity_blocked_contract.py
 
-      - name: Validate Tema 1 teacher guide pedagogy V2
+      - name: Build teacher guide pedagogy V2 for Themes 2-4
+        run: |
+          python skill/tymm-material-planner/scripts/build_teacher_guide_pedagogy_v2.py --repo-root .
+
+      - name: Validate teacher guide pedagogy V2
         run: |
           python skill/tymm-material-planner/scripts/validate_teacher_guide_pedagogy_overlay.py \
             --repo-root . \
             --overlay courses/TDE_11/teacher_guide/TEMA_01/pedagogy_v2.json \
             --manifest courses/TDE_11/teacher_guide/TEMA_01/teacher_guide.json
+          for theme in 02 03 04; do
+            python skill/tymm-material-planner/scripts/validate_teacher_guide_pedagogy_overlay.py \
+              --repo-root . \
+              --overlay "courses/TDE_11/teacher_guide/TEMA_${theme}/pedagogy_v2.json" \
+              --manifest "courses/TDE_11/teacher_guide/TEMA_${theme}/teacher_guide.json"
+          done
 
       - name: Run TDE11 generic P0 gate
         env:
