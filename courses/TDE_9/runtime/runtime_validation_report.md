@@ -23,6 +23,7 @@
 | assessment mapping status | PASS | runtime=7, canonical=7 |
 | assessment artifact projection status | PASS | runtime=3, canonical=3 |
 | resource decision projection status | PASS |  |
+| teacher guide projection status | PASS | optional capability consistent |
 | application query A | PASS | rows=1 |
 | application query B | PASS | rows=1 |
 | application query C | PASS | rows=16 |
@@ -53,27 +54,10 @@
 - `timeline_blocks`: 16
 - `source_references`: 2
 - `entity_source_references`: 4
-
-## Assessment rubric payload projection
-
-| Check | Status | Detail |
-|---|---|---|
-| theme source provenance projection | PASS | runtime=4, expected_at_least=4 |
-| artifact identity projection | PASS | runtime=3, canonical=3 |
-| rubric criteria payload | PASS | runtime=2, canonical=2 |
-| rubric level model payload | PASS | runtime=0, canonical=0 |
-| task binding count | PASS | runtime=7, canonical=7 |
-| task-specific criteria payload | PASS | runtime=0, canonical=0 |
-| payload JSON validity | PASS | all projected JSON columns parse |
-
-## Lesson plan payload projection
-
-| Check | Status | Detail |
-|---|---|---|
-| lesson plan validation seal | PASS | verified=sha256:1cc3bcaa185307b31d8b2e4be635ae2d44c24c3f37d5dfca0a7c07a64bd68e63 |
-| lesson plan package count | PASS | runtime=88, expected=88 |
-| lesson plan instruction hours | PASS | runtime=172, expected=172 |
-| lesson plan block topology | PASS | all blocks match package count and planned hours |
-| lesson plan payload JSON validity | PASS | all payload_json rows parse |
-| lesson plan source payload parity | PASS | all SQLite payloads match source JSON and SHA256 |
-| lesson plan foreign key integrity | PASS | PRAGMA foreign_key_check |
+- `lesson_plan_packages`: 88
+- `canonical_entities`: 0
+- `teacher_guides`: 0
+- `teacher_guide_sections`: 0
+- `teacher_guide_units`: 0
+- `teacher_guide_items`: 0
+- `teacher_guide_item_relations`: 0
