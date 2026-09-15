@@ -6,6 +6,7 @@ on:
       - 'courses/TDE_11/**'
       - 'courses/TDE_SHARED/**'
       - 'skill/tymm-material-planner/scripts/**'
+      - 'skill/tymm-material-planner/schemas/**'
       - 'skill/tymm-material-planner/tests/test_reuse_only_contract.py'
       - 'skill/tymm-material-planner/tests/test_parity_blocked_contract.py'
       - '.github/workflows/tymm-tde11-p0.yml'
@@ -15,6 +16,7 @@ on:
       - 'courses/TDE_11/**'
       - 'courses/TDE_SHARED/**'
       - 'skill/tymm-material-planner/scripts/**'
+      - 'skill/tymm-material-planner/schemas/**'
       - 'skill/tymm-material-planner/tests/test_reuse_only_contract.py'
       - 'skill/tymm-material-planner/tests/test_parity_blocked_contract.py'
       - '.github/workflows/tymm-tde11-p0.yml'
@@ -36,7 +38,7 @@ jobs:
 
       - name: Install P0 dependencies
         run: |
-          python -m pip install --disable-pip-version-check 'numpy<3' 'sqlite-vec==0.1.9' onnxruntime tokenizers huggingface_hub hf_xet
+          python -m pip install --disable-pip-version-check 'numpy<3' 'sqlite-vec==0.1.9' 'jsonschema==4.23.0' onnxruntime tokenizers huggingface_hub hf_xet
 
       - name: Restore pinned multilingual-e5-small runtime
         run: |
@@ -61,6 +63,13 @@ jobs:
         run: |
           python skill/tymm-material-planner/tests/test_reuse_only_contract.py
           python skill/tymm-material-planner/tests/test_parity_blocked_contract.py
+
+      - name: Validate Tema 1 teacher guide pedagogy V2
+        run: |
+          python skill/tymm-material-planner/scripts/validate_teacher_guide_pedagogy_overlay.py \
+            --repo-root . \
+            --overlay courses/TDE_11/teacher_guide/TEMA_01/pedagogy_v2.json \
+            --manifest courses/TDE_11/teacher_guide/TEMA_01/teacher_guide.json
 
       - name: Run TDE11 generic P0 gate
         env:
