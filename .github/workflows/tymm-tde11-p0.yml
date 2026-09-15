@@ -25,7 +25,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   p0:
@@ -107,3 +107,22 @@ jobs:
           assert p10['expected_new_artifact_count'] == 2
           print('TDE9/TDE10 regression guards: PASS')
           PY
+
+      - name: Materialize generated Teacher Guide V2 outputs
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            courses/TDE_11/teacher_guide/TEMA_02/pedagogy_v2.json \
+            courses/TDE_11/teacher_guide/TEMA_02/TEACHER_GUIDE_V2.md \
+            courses/TDE_11/teacher_guide/TEMA_03/pedagogy_v2.json \
+            courses/TDE_11/teacher_guide/TEMA_03/TEACHER_GUIDE_V2.md \
+            courses/TDE_11/teacher_guide/TEMA_04/pedagogy_v2.json \
+            courses/TDE_11/teacher_guide/TEMA_04/TEACHER_GUIDE_V2.md
+          if git diff --cached --quiet; then
+            echo "Teacher Guide V2 outputs already materialized."
+          else
+            git commit -m "docs(tde11): materialize Teacher Guide V2 Themes 2-4 [skip ci]"
+            git push origin HEAD:main
+          fi
