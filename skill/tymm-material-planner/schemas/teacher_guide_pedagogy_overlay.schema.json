@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tymm.local/schemas/teacher_guide_pedagogy_overlay.schema.json",
+  "title": "TYMM Teacher Guide Pedagogy Overlay V2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "document_type",
+    "course_id",
+    "theme_id",
+    "status",
+    "principles",
+    "blocks"
+  ],
+  "$defs": {
+    "differentiation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["support", "enrichment"],
+      "properties": {
+        "support": {"type": "array", "items": {"type": "string", "minLength": 1}},
+        "enrichment": {"type": "array", "items": {"type": "string", "minLength": 1}}
+      }
+    },
+    "block": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "block_id",
+        "section_id",
+        "printed_page_range",
+        "title",
+        "source_item_refs",
+        "book_task_summaries",
+        "pedagogical_intent",
+        "teacher_moves",
+        "follow_up_questions",
+        "misconception_interventions",
+        "board_notes",
+        "assessment_look_fors",
+        "differentiation"
+      ],
+      "properties": {
+        "block_id": {"type": "string", "minLength": 1},
+        "section_id": {"type": "string", "minLength": 1},
+        "printed_page_range": {"type": "string", "minLength": 1},
+        "title": {"type": "string", "minLength": 1},
+        "source_item_refs": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1}
+        },
+        "book_task_summaries": {
+          "type": "array",
+          "minItems": 1,
+          "items": {"type": "string", "minLength": 1}
+        },
+        "pedagogical_intent": {"type": "string", "minLength": 1},
+        "teacher_moves": {
+          "type": "array",
+          "minItems": 1,
+          "items": {"type": "string", "minLength": 1}
+        },
+        "follow_up_questions": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1}
+        },
+        "misconception_interventions": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1}
+        },
+        "board_notes": {
+          "type": "array",
+          "items": {"type": "string", "pattern": "^Tahtaya yaz:"}
+        },
+        "assessment_look_fors": {
+          "type": "array",
+          "minItems": 1,
+          "items": {"type": "string", "minLength": 1}
+        },
+        "differentiation": {"$ref": "#/$defs/differentiation"},
+        "source_limitations": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1}
+        }
+      }
+    }
+  },
+  "properties": {
+    "schema_version": {"const": "2.0.0"},
+    "document_type": {"const": "TYMM_TEACHER_GUIDE_PEDAGOGY_OVERLAY"},
+    "course_id": {"type": "string", "minLength": 1},
+    "theme_id": {"type": "string", "minLength": 1},
+    "status": {"enum": ["DRAFT", "REVIEW_REQUIRED", "REFERENCE_QUALITY"]},
+    "principles": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "blocks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/block"}
+    }
+  }
+}
