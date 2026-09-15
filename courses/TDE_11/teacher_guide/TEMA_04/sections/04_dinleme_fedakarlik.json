@@ -105,6 +105,9 @@
           "printed_page_range": "286",
           "label": "Tema kelimeleri ve belgesel iletilerini not etme",
           "item_type": "PROCESS",
+          "relations": [
+            {"target_type": "form", "target_id": "FORM_T4_P286_KONTROL_LISTESI_03", "relation_type": "references"}
+          ],
           "expected_answer": null,
           "acceptance_criteria": [
             "Notlar gerçekten izlenen içerikten alınır.",
@@ -503,6 +506,9 @@
           "printed_page_range": "297",
           "label": "Etkin dinleyici öğrenme günlüğü",
           "item_type": "ASSESSMENT",
+          "relations": [
+            {"target_type": "form", "target_id": "FORM_T4_P297_OGRENME_GUNLUGU_04", "relation_type": "references"}
+          ],
           "expected_answer": {
             "alanlar": [
               "belgeselin kattığı değerler",

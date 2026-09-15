@@ -391,6 +391,9 @@
           "printed_page_range": "135",
           "label": "Konuşma Öz Değerlendirme Formu",
           "item_type": "ASSESSMENT",
+          "relations": [
+            {"target_type": "form", "target_id": "FORM_T2_P135_OZ_DEGERLENDIRME_04", "relation_type": "references"}
+          ],
           "expected_answer": {
             "gorunen_10_olcut": [
               "ortak kültürü uygun görsellerle tanıtma",
@@ -433,6 +436,10 @@
           "printed_page_range": "135",
           "label": "Dış QR dereceli puanlama anahtarı ve akran formu",
           "item_type": "REFERENCE",
+          "relations": [
+            {"target_type": "form", "target_id": "LINK_T2_KONUSMA_DPA", "relation_type": "references"},
+            {"target_type": "form", "target_id": "LINK_T2_P135_AKRAN_QR_05", "relation_type": "references"}
+          ],
           "expected_answer": null,
           "acceptance_criteria": [
             "PDF’de görünen ölçütler kullanılır; QR içindeki görünmeyen düzey tanımları resmî içerik gibi üretilmez."

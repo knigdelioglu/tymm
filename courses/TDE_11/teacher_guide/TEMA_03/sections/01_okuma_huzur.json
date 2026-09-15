@@ -663,6 +663,9 @@
           "printed_page_range": "193",
           "label": "3-2-1 Çıkış Kartı",
           "item_type": "ASSESSMENT",
+          "relations": [
+            {"target_type": "form", "target_id": "FORM_T3_P193_CIKIS_KARTI_01", "relation_type": "references"}
+          ],
           "expected_answer": {
             "uc_yaz": "Çağrışım zenginliği bakımından beğenilen üç yön/ifade özelliği.",
             "iki_sor": "Bu çağrışım zenginliğini açmaya yönelik iki soru.",

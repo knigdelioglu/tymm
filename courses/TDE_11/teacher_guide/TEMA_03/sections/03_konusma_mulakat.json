@@ -274,6 +274,9 @@
           "printed_page_range": "214",
           "label": "Öz Değerlendirme Formu — görünen 6 ölçüt",
           "item_type": "ASSESSMENT",
+          "relations": [
+            {"target_type": "form", "target_id": "FORM_T3_P214_OZ_DEGERLENDIRME_03", "relation_type": "references"}
+          ],
           "expected_answer": [
             "özgün ve tutarlı duygu/düşünce/hayal",
             "dilin kullanım alanına uygunluk",
@@ -307,6 +310,10 @@
           "printed_page_range": "214",
           "label": "Dış QR dereceli puanlama anahtarı / akran formu",
           "item_type": "REFERENCE",
+          "relations": [
+            {"target_type": "form", "target_id": "LINK_T3_KONUSMA_DPA", "relation_type": "references"},
+            {"target_type": "form", "target_id": "LINK_T3_P214_AKRAN_QR_04", "relation_type": "references"}
+          ],
           "expected_answer": null,
           "acceptance_criteria": [],
           "teacher_guidance": [

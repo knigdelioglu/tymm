@@ -26,6 +26,9 @@
           "printed_page_range": "79",
           "label": "Soru 1 — Karagöz/Hacivat özelliklerini günlük iletişim durumuna uygulama",
           "item_type": "QUESTION",
+          "relations": [
+            {"target_type": "form", "target_id": "FORM_T1_P079_TEMA_TEST_12", "relation_type": "references"}
+          ],
           "expected_answer": "D",
           "acceptance_criteria": ["Kasiyerin 'ibraz etmek' sözünün müşteri tarafından ses benzerliğiyle 'itiraz etmek' biçiminde yanlış anlaşılmasını Karagöz'ün dil kaynaklı yanlış anlamalarıyla ilişkilendirir."],
           "teacher_guidance": ["Doğru seçenek D'dir; temel kanıt ses benzerliğine dayalı yanlış anlama ve Karagöz'ün tip özelliğidir."],

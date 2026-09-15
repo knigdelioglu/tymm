@@ -141,6 +141,9 @@
           "printed_page_range": "281",
           "label": "Tiyatro bölümünü yeniden kurgulama performans görevi",
           "item_type": "PERFORMANCE_TASK",
+          "relations": [
+            {"target_type": "form", "target_id": "FORM_T4_P281_KONTROL_LISTESI_01", "relation_type": "references"}
+          ],
           "expected_answer": {
             "zorunlu_adimlar": [
               "amaç",
@@ -271,6 +274,9 @@
           "printed_page_range": "283",
           "label": "Dereceli puanlama anahtarı — görünür ölçütler ve dış QR sınırı",
           "item_type": "ASSESSMENT",
+          "relations": [
+            {"target_type": "form", "target_id": "LINK_T4_KONUSMA_DPA", "relation_type": "references"}
+          ],
           "expected_answer": [
             "kurgulanan içeriğe uygunluk",
             "özgünlük",

@@ -262,6 +262,10 @@
           "printed_page_range": "35",
           "label": "Dil/üslup ve dramatik yapı değerlendirmesi",
           "item_type": "ASSESSMENT",
+          "relations": [
+            {"target_type": "form", "target_id": "FORM_T1_P035_OZ_DEGERLENDIRME_01", "relation_type": "references"},
+            {"target_type": "form", "target_id": "LINK_T1_P035_AKRAN_QR_02", "relation_type": "references"}
+          ],
           "expected_answer": {"dil_uslup": {"gulduru": "yanlış anlamalar, söz oyunları, ses benzerlikleri ve farklı konuşma biçimleri komik durum üretir", "catisma": "eğitim, kültür ve söz varlığı farkları iletişim kopukluğu doğurur", "donem": "eski sözcükler, ağızlar, meslekler ve sosyal tipler dönemin şehir hayatındaki çeşitliliğini yansıtır"}, "dramatik_oge": "Kişiler temel örnektir; eğitim, kültür, mizaç ve konuşma farkları çatışmayı güçlendirir. Mekân veya zaman da gerekçeli olarak kabul edilebilir.", "diger_dil_unsurlari": ["deyim", "atasözü", "yöresel söyleyiş", "mecaz", "abartma", "ironi", "ses benzerliği", "çift anlamlı kelime"]},
           "acceptance_criteria": ["Güldürü, çatışma ve dönem için ayrı gerekçe kurar.", "Seçtiği dramatik ögeyi metinden kanıtla savunur.", "Başka dil unsurlarını metindeki işlevleriyle ilişkilendirir."],
           "teacher_guidance": ["Öz değerlendirme formunu öğrencinin yerine doldurma. Sonunda bir güçlü yön ve bir geliştirme hedefi yazdır."],

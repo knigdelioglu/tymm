@@ -69,6 +69,9 @@
           "printed_page_range": "64",
           "label": "Gözlem Formu",
           "item_type": "ASSESSMENT",
+          "relations": [
+            {"target_type": "form", "target_id": "FORM_T1_P064_GOZLEM_FORMU_07", "relation_type": "references"}
+          ],
           "expected_answer": null,
           "acceptance_criteria": ["Formu gözlenebilir dinleme/izleme davranışına dayalı doldurur.", "Form sonucu ile sonraki dinleme/izleme davranışı arasında geliştirme hedefi kurar."],
           "teacher_guidance": ["Gözlem formunu puan vermek için tek başına kullanmak yerine süreç kanıtı olarak değerlendir."],
@@ -144,6 +147,9 @@
           "printed_page_range": "73",
           "label": "3-2-1 Çıkış Kartı",
           "item_type": "ASSESSMENT",
+          "relations": [
+            {"target_type": "form", "target_id": "FORM_T1_P073_CIKIS_KARTI_08", "relation_type": "references"}
+          ],
           "expected_answer": {"uc_yaz": "Dinleme/izleme çalışmalarında iletişime dair öğrenilen veya önemli bulunan üç bilgi.", "iki_sor": "İlgi çeken ve daha fazla bilgi edinilmek istenen iki soru.", "bir_paylas": "Çalışmalarda öğrenilenlere ilişkin arkadaşlarla paylaşılacak bir görüş."},
           "acceptance_criteria": ["Üç bilgi birbirinin tekrarı değildir ve bölümdeki çalışmalara dayanır.", "İki soru daha fazla araştırmaya açık gerçek sorulardır.", "Paylaşılan görüş en az bir ders kanıtıyla gerekçelendirilebilir."],
           "teacher_guidance": ["Çıkış kartını doğru cevap anahtarı gibi puanlama; öğrenme derinliği ve sonraki öğretim ihtiyacını teşhis etmek için kullan."],

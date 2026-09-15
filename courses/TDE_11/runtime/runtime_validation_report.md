@@ -60,4 +60,4 @@
 - `teacher_guide_sections`: 28
 - `teacher_guide_units`: 94
 - `teacher_guide_items`: 283
-- `teacher_guide_item_relations`: 3707
+- `teacher_guide_item_relations`: 3750

@@ -47,6 +47,9 @@
           "printed_page_range": "303",
           "label": "Soru 1 — Doğu/Batı sentezi ve modern Türk tiyatrosu",
           "item_type": "QUESTION",
+          "relations": [
+            {"target_type": "form", "target_id": "FORM_T4_P303_TEMA_TEST_07", "relation_type": "references"}
+          ],
           "expected_answer": "Parçada; Batı tiyatrosunun modern yazarlık/sahneleme teknikleri ile Meddah, Karagöz ve Ortaoyunu gibi geleneksel biçimlerin bir araya gelmesi; tipleme, söz oyunları, anlatıcı, şarkı/dans ve göstermeci sahneleme gibi Doğulu/geleneksel ögelerin modern yapı içinde kullanılması örneklenebilir.",
           "acceptance_criteria": [
             "I. metindeki genel yargıyla tiyatro parçası/II. metin arasında bağ kurar.",

@@ -66,6 +66,9 @@
           "printed_page_range": "155",
           "label": "Soru 1 — Orhun atasözü/deyimleri ve toplum özellikleri",
           "item_type": "QUESTION",
+          "relations": [
+            {"target_type": "form", "target_id": "FORM_T2_P155_TEMA_TEST_13", "relation_type": "references"}
+          ],
           "expected_answer": [
             "çalışkanlık ve emek",
             "devlet/töre ve düzen bilinci",

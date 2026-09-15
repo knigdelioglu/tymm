@@ -378,6 +378,9 @@
           "printed_page_range": "302",
           "label": "Dereceli puanlama anahtarı — görünür ölçütler ve QR sınırı",
           "item_type": "ASSESSMENT",
+          "relations": [
+            {"target_type": "form", "target_id": "LINK_T4_YAZMA_DPA", "relation_type": "references"}
+          ],
           "expected_answer": [
             "konuya uygunluk",
             "yaratıcılık",
@@ -415,6 +418,9 @@
           "printed_page_range": "302",
           "label": "Tema sonu öğrenme günlüğü",
           "item_type": "ASSESSMENT",
+          "relations": [
+            {"target_type": "form", "target_id": "FORM_T4_P302_OGRENME_GUNLUGU_06", "relation_type": "references"}
+          ],
           "expected_answer": {
             "alanlar": [
               "tema öncesi bildiklerim",

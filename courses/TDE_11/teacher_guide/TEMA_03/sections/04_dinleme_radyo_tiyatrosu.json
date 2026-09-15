@@ -75,6 +75,9 @@
           "printed_page_range": "216",
           "label": "Dinleme amacı, strateji ve tahmin",
           "item_type": "PROCESS",
+          "relations": [
+            {"target_type": "form", "target_id": "FORM_T3_P216_GOZLEM_FORMU_05", "relation_type": "references"}
+          ],
           "expected_answer": [
             "Dinleme amacını seç ve açıkla.",
             "Çözümlemeye uygun dinleme stratejisi belirle.",
@@ -417,6 +420,9 @@
           "printed_page_range": "224",
           "label": "Öğrenme Günlüğü",
           "item_type": "ASSESSMENT",
+          "relations": [
+            {"target_type": "form", "target_id": "FORM_T3_P224_OGRENME_GUNLUGU_06", "relation_type": "references"}
+          ],
           "expected_answer": [
             "Bu süreçte öğrendiklerim",
             "Pekiştirmem gereken konular",

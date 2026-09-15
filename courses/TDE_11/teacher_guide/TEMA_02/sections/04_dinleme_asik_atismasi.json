@@ -147,6 +147,10 @@
           "printed_page_range": "138-139",
           "label": "Etkin dinleme kuralları, kontrol listesi ve gözlem formu",
           "item_type": "ASSESSMENT",
+          "relations": [
+            {"target_type": "form", "target_id": "FORM_T2_P139_GOZLEM_FORMU_07", "relation_type": "references"},
+            {"target_type": "form", "target_id": "FORM_T2_P139_KONTROL_LISTESI_06", "relation_type": "references"}
+          ],
           "expected_answer": {
             "kurallar": [
               "dikkat ve anlama",
@@ -349,6 +353,9 @@
           "printed_page_range": "143",
           "label": "Beğeni ölçütleriyle bölüm seçme",
           "item_type": "ASSESSMENT",
+          "relations": [
+            {"target_type": "form", "target_id": "FORM_T2_P143_KONTROL_LISTESI_08", "relation_type": "references"}
+          ],
           "expected_answer": {
             "olcut_ornekleri": [
               "söz varlığı",

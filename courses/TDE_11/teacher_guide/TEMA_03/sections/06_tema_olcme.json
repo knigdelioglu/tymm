@@ -49,6 +49,9 @@
           "printed_page_range": "230",
           "label": "Soru 1-2 — tez/antitez ve sentez",
           "item_type": "QUESTION",
+          "relations": [
+            {"target_type": "form", "target_id": "FORM_T3_P230_TEMA_TEST_11", "relation_type": "references"}
+          ],
           "expected_answer": {
             "degerlendirme": "Metinlerin tez/antitez sınıflandırmasında, parçanın yazar hayatıyla doğrulanabilir ilişkisi esas alınmalıdır. PDF metin dilimi tek başına tüm parçaların kaynak başlıklarını görünür kılmadığı için rehber, kaynaksız kesin numara anahtarı üretmez.",
             "sentez_ornegi": "Edebî metinler sanatçının yaşantı ve gözlemlerinden izler taşıyabilir; ancak bu izler kurmaca ve estetik dönüştürme nedeniyle doğrudan hayat belgesi sayılmaz."

@@ -248,6 +248,10 @@
           "printed_page_range": "228",
           "label": "Öğretmen değerlendirmesi ve düzeltme",
           "item_type": "ASSESSMENT",
+          "relations": [
+            {"target_type": "form", "target_id": "FORM_T3_P228_OZ_DEGERLENDIRME_08", "relation_type": "references"},
+            {"target_type": "form", "target_id": "LINK_T3_YAZMA_DPA", "relation_type": "references"}
+          ],
           "expected_answer": [
             "bağlama/hedef kitleye uygun söz varlığı",
             "özgün ve tutarlı ifade",
@@ -284,6 +288,9 @@
           "printed_page_range": "229",
           "label": "Öz Değerlendirme Formu — 6 ölçüt",
           "item_type": "ASSESSMENT",
+          "relations": [
+            {"target_type": "form", "target_id": "FORM_T3_P229_OZ_DEGERLENDIRME_09", "relation_type": "references"}
+          ],
           "expected_answer": [
             "uygun başlık",
             "dönüştürülen diyaloğun içeriğini yansıtma",
@@ -317,6 +324,9 @@
           "printed_page_range": "229",
           "label": "Tema 3-2-1 Çıkış Kartı",
           "item_type": "ASSESSMENT",
+          "relations": [
+            {"target_type": "form", "target_id": "FORM_T3_P229_CIKIS_KARTI_10", "relation_type": "references"}
+          ],
           "expected_answer": {
             "uc_yaz": "Temada öğrenilen konu/kavramlarla ilgili üç bilgi.",
             "iki_sor": "Eksik/kavram yanılgısına yönelik iki soru.",

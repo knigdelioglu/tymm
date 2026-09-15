@@ -232,6 +232,9 @@
           "printed_page_range": "96-98",
           "label": "Türkçenin farklı kollarını karşılaştırma",
           "item_type": "TABLE",
+          "relations": [
+            {"target_type": "form", "target_id": "FORM_T2_P097_KONTROL_LISTESI_01", "relation_type": "references"}
+          ],
           "expected_answer": {
             "benzerlikler": [
               "ortak kökler ve temel söz varlığı",
@@ -747,6 +750,9 @@
           "printed_page_range": "112",
           "label": "Çıkış Kartı — Üç Yaz / İki Sor / Bir Paylaş",
           "item_type": "ASSESSMENT",
+          "relations": [
+            {"target_type": "form", "target_id": "FORM_T2_P112_CIKIS_KARTI_02", "relation_type": "references"}
+          ],
           "expected_answer": {
             "uc_yaz": "Seçilen ifadelerin çağrışım, duygu yoğunluğu, imge/benzetme, ses veya bağlam etkisinden üç gerekçeli özellik.",
             "iki_sor": "Bu çağrışım zenginliğini sorgulayan iki açık uçlu soru.",

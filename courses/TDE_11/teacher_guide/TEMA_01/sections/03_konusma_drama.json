@@ -57,6 +57,9 @@
           "printed_page_range": "54",
           "label": "Performans görevi — altışar kişilik grup ve canlandırma planı",
           "item_type": "PERFORMANCE_TASK",
+          "relations": [
+            {"target_type": "form", "target_id": "FORM_T1_P054_KONTROL_LISTESI_03", "relation_type": "references"}
+          ],
           "expected_answer": {"grup": "Öğretmen rehberliğinde altışar kişilik gruplar oluşturulur.", "planlama": ["konu ve amaç belirleme", "gerekli gözlem/inceleme/araştırmayı yapma", "süre ve hedef kitleyi belirleme", "nasıl ve hangi araçlarla gerçekleştirileceğine karar verme", "uygun konuşma yöntem/stratejisini belirleme", "mekân, teknik altyapı, görüntü ve ses uygunluğunu kontrol etme", "canlandırma sırasında ortaya çıkabilecek iletişim engellerini önceden azaltma"]},
           "acceptance_criteria": ["Grup ve görev dağılımını görünür biçimde kaydeder.", "Konu, amaç, hedef kitle, yöntem/strateji ve ortam kararlarını ayrı ayrı belirler.", "En az bir olası iletişim engeli için önleyici tedbir planlar."],
           "teacher_guidance": ["Önceki ders planlarındaki genel 'gruplara ayır' ifadesini kitapta açıkça verilen altı kişilik grup yapısıyla netleştir.", "Kontrol listesini yalnız ders sonunda değil planlama sırasında süreç kontrolü olarak kullandır."],
@@ -145,6 +148,9 @@
           "printed_page_range": "58",
           "label": "Öz Değerlendirme Formu — kitapta görünür ölçütler",
           "item_type": "ASSESSMENT",
+          "relations": [
+            {"target_type": "form", "target_id": "FORM_T1_P058_OZ_DEGERLENDIRME_05", "relation_type": "references"}
+          ],
           "expected_answer": {"olcutler": ["sözlü iletişim engellerine dair araştırma yapıp bilgi toplama", "dilin kullanım alanına göre konuşma içeriğini belirleme", "konuşmayı başlatma-sürdürme-bitirme ifadelerini etkili kullanma", "düşünceyi geliştirme yollarını kullanma", "Türkçenin dil yapısına, işlevine ve bağdaşıklığa dikkat etme", "söz varlığını hedef kitle ve bağlama uygun kullanma", "toplumsal hassasiyet oluşturacak ögelerden kaçınma", "millî ve manevi değerleri, kültürel unsurları ve olumlu tutumları gözetme", "beden dili, diksiyon ve telaffuzu etkili kullanma", "dinleyiciyle etkileşim kurma"]},
           "acceptance_criteria": ["Evet/Kısmen/Hayır seçimini performanstan somut kanıtla gerekçelendirir.", "En az bir güçlü yön ve bir geliştirme hedefi belirler."],
           "teacher_guidance": ["Formu öğrencinin yerine doldurma. 'Hangi performans anı bu seçimini kanıtlıyor?' sorusunu kullan."],
@@ -158,6 +164,10 @@
           "printed_page_range": "58",
           "label": "Akran/öğretmen değerlendirmesi ve QR rubrik sınırı",
           "item_type": "TEACHER_NOTE",
+          "relations": [
+            {"target_type": "form", "target_id": "LINK_T1_KONUSMA_DPA", "relation_type": "references"},
+            {"target_type": "form", "target_id": "LINK_T1_P058_AKRAN_QR_06", "relation_type": "references"}
+          ],
           "expected_answer": null,
           "acceptance_criteria": [],
           "teacher_guidance": ["Kitapta görünür öz değerlendirme ve akran/öğretmen değerlendirme yönlendirmelerini kullan. QR ile erişilen dereceli puanlama anahtarının PDF sayfasında görünmeyen ölçüt×düzey açıklamalarını uydurma."],
