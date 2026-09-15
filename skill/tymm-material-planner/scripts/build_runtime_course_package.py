@@ -10,6 +10,12 @@ from typing import Any
 from process_component_resolver import audit_curriculum, project_effective_components
 from runtime_assessment_payload import project_runtime_assessment_payload
 from runtime_lesson_plan_payload import project_runtime_lesson_plan_payload
+from teacher_guide_runtime_projection import (
+    TEACHER_GUIDE_SCHEMA,
+    project_teacher_guides,
+    teacher_guide_source_files,
+    validate_teacher_guide_runtime,
+)
 
 COMPILER_VERSION = "1.2.0"
 RUNTIME_PACKAGE_VERSION = "1.2.0"
@@ -45,7 +51,7 @@ CREATE INDEX idx_resource_theme ON resource_decisions(theme_id, decision_code);
 CREATE INDEX idx_gap_artifact ON assessment_gap_mappings(artifact_id);
 CREATE INDEX idx_bindings_block ON assessment_task_bindings(block_id);
 CREATE INDEX idx_source_entity ON entity_source_references(entity_type, entity_id);
-'''
+''' + TEACHER_GUIDE_SCHEMA
 
 def read_json(p: Path) -> Any:
     return json.loads(p.read_text(encoding="utf-8"))
@@ -128,6 +134,10 @@ def relevant_files(root: Path) -> list[tuple[str, Path]]:
     for pattern in ("themes/tema_*/alignment.json","themes/tema_*/gap_analysis.json","themes/tema_*/resource_plan.json","themes/tema_*/needs.json"):
         paths += [(p.relative_to(root).as_posix(), p) for p in sorted(root.glob(pattern))]
     paths += [(p.relative_to(root).as_posix(), p) for p in sorted(root.glob("generated/lesson_plans/*/*/*.json"))]
+    paths += [
+        (f"teacher_guide_sources/{rel}", path)
+        for rel, path in teacher_guide_source_files(root)
+    ]
     if (root / "curriculum_process_component_resolution.json").exists():
         shared = process_component_catalog_path(root)
         if shared is None:
@@ -231,17 +241,53 @@ def build(root: Path) -> dict[str, Any]:
         if sid and loc and db.execute("SELECT 1 FROM source_references WHERE source_id=?",(sid,)).fetchone(): ins("INSERT OR IGNORE INTO entity_source_references VALUES (?,?,?,?)",("theme",t["theme_id"],sid,loc))
     db.commit(); db.close()
     count_db=sqlite3.connect(dbpath)
-    counts={table: count_db.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0] for table in ["courses","themes","blocks","block_activities","outcomes","block_outcomes","textbook_sections","activities","activity_outcomes","forms","activity_forms","resource_decisions","assessment_artifacts","assessment_gap_mappings","assessment_task_bindings","timeline_themes","timeline_blocks","source_references","entity_source_references"]}
+    counts={table: count_db.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0] for table in ["courses","themes","blocks","block_activities","outcomes","block_outcomes","textbook_sections","activities","activity_outcomes","forms","activity_forms","resource_decisions","assessment_artifacts","assessment_gap_mappings","assessment_task_bindings","timeline_themes","timeline_blocks","source_references","entity_source_references","canonical_entities","teacher_guides","teacher_guide_sections","teacher_guide_units","teacher_guide_items","teacher_guide_item_relations"]}
     count_db.close()
     now=datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00","Z")
     resolved_block_hours=bool(block_hours_doc and block_hours_doc.get("status") == "BLOCK_TIME_RESOLVED")
     runtime_manifest={"runtime_package_version":RUNTIME_PACKAGE_VERSION,"schema_version":SCHEMA_VERSION,"course_id":course_id,"grade":curriculum.get("grade"),"build_timestamp":now,"compiler_version":COMPILER_VERSION,"canonical_source_files":sorted(files),"canonical_source_hashes":{k:v["sha256"] for k,v in sorted(files.items())},"canonical_content_fingerprint":fingerprint,"row_counts":counts,"timeline_resolution":"BLOCK_TIME_RESOLVED" if resolved_block_hours else timeline.get("timeline_resolution"),"timeline_unresolved_fields":{"weekly_lesson_hours":timeline.get("calendar_binding",{}).get("weekly_lesson_hours"),"calendar_binding":timeline.get("calendar_binding",{}).get("status"),"block_hours":None if resolved_block_hours else "ORDER_ONLY"},"block_hour_binding_status":block_hours_doc.get("status") if block_hours_doc else "NOT_PRESENT","block_hour_binding_file":"planning/block_hour_bindings.json" if block_hours_doc else None,"assessment_registry_version":reg.get("registry_version"),"assessment_contract_version":contract.get("metadata",{}).get("contract_version"),"source_manifest_fingerprint":next((x["sha256"] for k,x in files.items() if k=="source_manifest.json"),None),"process_component_resolution_status":"PASS" if process_audit else "LEGACY_NOT_RESOLVED","process_component_counts":process_audit.get("counts") if process_audit else None,"runtime_database_path":"runtime/course_runtime.sqlite","validation_status":"PENDING"}
     (out/"runtime_schema.sql").write_text(SCHEMA.strip()+"\n",encoding="utf-8"); (out/"runtime_manifest.json").write_text(json.dumps(runtime_manifest,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-    result=validate(root, write_report=True); runtime_manifest["validation_status"]=result["status"]; (out/"runtime_manifest.json").write_text(json.dumps(runtime_manifest,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     project_runtime_assessment_payload(root)
     project_runtime_lesson_plan_payload(root)
-    final_manifest=read_json(out/"runtime_manifest.json")
-    result["row_counts"]=final_manifest.get("row_counts",result.get("row_counts",{}))
+    final_manifest = read_json(out / "runtime_manifest.json")
+    guide_db = sqlite3.connect(out / "course_runtime.sqlite")
+    try:
+        guide_projection = project_teacher_guides(root, guide_db, final_manifest)
+        final_counts = {
+            table: guide_db.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0]
+            for table in [
+                "courses", "themes", "blocks", "block_activities", "outcomes",
+                "block_outcomes", "textbook_sections", "activities",
+                "activity_outcomes", "forms", "activity_forms",
+                "resource_decisions", "assessment_artifacts",
+                "assessment_gap_mappings", "assessment_task_bindings",
+                "timeline_themes", "timeline_blocks", "source_references",
+                "entity_source_references", "lesson_plan_packages",
+                "canonical_entities", "teacher_guides",
+                "teacher_guide_sections", "teacher_guide_units",
+                "teacher_guide_items", "teacher_guide_item_relations",
+            ]
+        }
+    finally:
+        guide_db.close()
+    final_manifest["row_counts"] = final_counts
+    final_manifest.setdefault("capabilities", {})["teacher_guide"] = guide_projection["capability"]["available"]
+    final_manifest["capabilities"]["assessment"] = final_counts["assessment_task_bindings"] > 0
+    final_manifest["capabilities"]["assessment_task_bindings"] = final_counts["assessment_task_bindings"] > 0
+    final_manifest["teacher_guide_capabilities"] = guide_projection["capability"]
+    final_manifest["teacher_guide_validation"] = guide_projection["validation"]
+    (out / "runtime_manifest.json").write_text(
+        json.dumps(final_manifest, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    result = validate(root, write_report=True)
+    final_manifest = read_json(out / "runtime_manifest.json")
+    final_manifest["validation_status"] = result["status"]
+    (out / "runtime_manifest.json").write_text(
+        json.dumps(final_manifest, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    result["row_counts"] = final_manifest.get("row_counts", result.get("row_counts", {}))
     return result
 
 def validate(root: Path, write_report: bool=False) -> dict[str,Any]:
@@ -283,15 +329,17 @@ def validate(root: Path, write_report: bool=False) -> dict[str,Any]:
     expected_artifact_count=production.get("expected_new_artifact_count",len(production.get("production_queue",[])))
     check("assessment artifact projection status", artifact_count==expected_artifact_count, f"runtime={artifact_count}, canonical={expected_artifact_count}")
     check("resource decision projection status", db.execute("SELECT COUNT(*) FROM resource_decisions").fetchone()[0]>0)
+    guide_errors = validate_teacher_guide_runtime(db, mp, root)
+    check("teacher guide projection status", not guide_errors, "; ".join(guide_errors) or "optional capability consistent")
     q=[]
-    q.append(db.execute("SELECT b.block_id,o.outcome_code,a.activity_id,a.printed_page,f.form_id,aa.artifact_id,r.decision_code FROM blocks b LEFT JOIN block_outcomes bo ON bo.block_id=b.block_id LEFT JOIN outcomes o ON o.outcome_id=bo.outcome_id LEFT JOIN block_activities ba ON ba.block_id=b.block_id LEFT JOIN activities a ON a.activity_id=ba.activity_id LEFT JOIN activity_forms af ON af.activity_id=a.activity_id LEFT JOIN forms f ON f.form_id=af.form_id LEFT JOIN assessment_task_bindings tb ON tb.block_id=b.block_id LEFT JOIN assessment_artifacts aa ON aa.artifact_id=tb.artifact_id LEFT JOIN resource_decisions r ON r.theme_id=b.theme_id WHERE b.theme_id='TEMA_02' AND b.block_id LIKE '%KONUSMA%' LIMIT 1").fetchall())
-    q.append(db.execute("SELECT b.block_id,n.block_id FROM blocks b LEFT JOIN blocks n ON n.block_order=b.block_order+1 AND n.theme_id=b.theme_id WHERE b.theme_id='TEMA_02' ORDER BY b.block_order LIMIT 1").fetchall())
+    q.append(db.execute("SELECT b.block_id,o.outcome_code,a.activity_id,a.printed_page,f.form_id,aa.artifact_id,r.decision_code FROM blocks b LEFT JOIN block_outcomes bo ON bo.block_id=b.block_id LEFT JOIN outcomes o ON o.outcome_id=bo.outcome_id LEFT JOIN block_activities ba ON ba.block_id=b.block_id LEFT JOIN activities a ON a.activity_id=ba.activity_id LEFT JOIN activity_forms af ON af.activity_id=a.activity_id LEFT JOIN forms f ON f.form_id=af.form_id LEFT JOIN assessment_task_bindings tb ON tb.block_id=b.block_id LEFT JOIN assessment_artifacts aa ON aa.artifact_id=tb.artifact_id LEFT JOIN resource_decisions r ON r.theme_id=b.theme_id ORDER BY b.theme_id,b.block_order LIMIT 1").fetchall())
+    q.append(db.execute("SELECT b.block_id,n.block_id FROM blocks b LEFT JOIN blocks n ON n.block_order=b.block_order+1 AND n.theme_id=b.theme_id ORDER BY b.theme_id,b.block_order LIMIT 1").fetchall())
     q.append(db.execute("SELECT t.theme_id,b.block_id,t.theme_order,b.block_order,t.school_based_hours FROM timeline_themes t JOIN timeline_blocks b ON b.theme_id=t.theme_id ORDER BY t.theme_order,b.block_order").fetchall())
-    q.append(db.execute("SELECT r.decision_code,s.section_id,a.activity_id,r.app_category FROM resource_decisions r LEFT JOIN activities a ON a.theme_id=r.theme_id LEFT JOIN textbook_sections s ON s.section_id=a.section_id WHERE r.theme_id=? LIMIT 1",("TEMA_02",)).fetchall())
-    q.append(db.execute("SELECT o.outcome_id,b.block_id,a.activity_id,f.form_id,aa.artifact_id,r.resource_plan_id FROM outcomes o LEFT JOIN block_outcomes bo ON bo.outcome_id=o.outcome_id LEFT JOIN blocks b ON b.block_id=bo.block_id LEFT JOIN activities a ON a.theme_id=o.theme_id LEFT JOIN activity_forms af ON af.activity_id=a.activity_id LEFT JOIN forms f ON f.form_id=af.form_id LEFT JOIN assessment_task_bindings tb ON tb.theme_id=o.theme_id LEFT JOIN assessment_artifacts aa ON aa.artifact_id=tb.artifact_id LEFT JOIN resource_decisions r ON r.theme_id=o.theme_id WHERE o.theme_id=? LIMIT 1",("TEMA_02",)).fetchall())
+    q.append(db.execute("SELECT r.decision_code,s.section_id,a.activity_id,r.app_category FROM resource_decisions r LEFT JOIN activities a ON a.theme_id=r.theme_id LEFT JOIN textbook_sections s ON s.section_id=a.section_id ORDER BY r.theme_id LIMIT 1").fetchall())
+    q.append(db.execute("SELECT o.outcome_id,b.block_id,a.activity_id,f.form_id,aa.artifact_id,r.resource_plan_id FROM outcomes o LEFT JOIN block_outcomes bo ON bo.outcome_id=o.outcome_id LEFT JOIN blocks b ON b.block_id=bo.block_id LEFT JOIN activities a ON a.theme_id=o.theme_id LEFT JOIN activity_forms af ON af.activity_id=a.activity_id LEFT JOIN forms f ON f.form_id=af.form_id LEFT JOIN assessment_task_bindings tb ON tb.theme_id=o.theme_id LEFT JOIN assessment_artifacts aa ON aa.artifact_id=tb.artifact_id LEFT JOIN resource_decisions r ON r.theme_id=o.theme_id ORDER BY o.theme_id,o.outcome_id LIMIT 1").fetchall())
     for i,x in enumerate(q,1): check(f"application query {chr(64+i)}",bool(x),f"rows={len(x)}")
     names={x[0] for x in db.execute("SELECT name FROM sqlite_master WHERE type='table'")}; check("copyright payload check", "text_body" not in names and "embeddings" not in names)
-    check("user state excluded", not any(re.search(r"(student|teacher|user|note|preference|progress|app_state)",n,re.I) for n in names))
+    check("user state excluded", not any(re.search(r"(student|user|note|preference|progress|app_state)",n,re.I) for n in names))
     check("vector/model dependency excluded", not any(re.search(r"(vector|embedding|onnx|model)",n,re.I) for n in names))
     db.close(); status="PASS" if all(x[1] for x in checks) else ("REVIEW_REQUIRED" if fresh else "FAIL")
     report=["# Runtime Course Package Validation Report","",f"**Final:** {status}","","| Check | Status | Detail |","|---|---|---|"]+[f"| {n} | {'PASS' if ok else 'FAIL'} | {d} |" for n,ok,d in checks]

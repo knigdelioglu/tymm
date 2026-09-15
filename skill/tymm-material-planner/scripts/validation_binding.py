@@ -60,6 +60,10 @@ def _iter_course_entries(root: Path) -> Iterable[tuple[str, bytes]]:
         if not base.exists():
             continue
         for path in sorted(p for p in base.rglob("*") if p.is_file()):
+            # OS metadata is not canonical course content and must not make a
+            # previously sealed lesson-plan package stale.
+            if path.name == ".DS_Store":
+                continue
             yield path.relative_to(root).as_posix(), path.read_bytes()
 
     planning = root / "planning"
