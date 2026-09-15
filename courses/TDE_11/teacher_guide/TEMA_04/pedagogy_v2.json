@@ -1,0 +1,1528 @@
+{
+  "schema_version": "2.0.0",
+  "document_type": "TYMM_TEACHER_GUIDE_PEDAGOGY_OVERLAY",
+  "course_id": "TDE_11",
+  "theme_id": "TEMA_04",
+  "status": "REFERENCE_QUALITY",
+  "principles": [
+    "Ders kitabındaki gerçek soru ve görev görünür kalır; doğrulanmamış soru metni uydurulmaz.",
+    "Açık uçlu cevaplarda tek kalıp yerine metin veya medya kanıtı, gerekçe ve kabul edilebilir alternatifler aranır.",
+    "Öğretmen hamlesi cevabı vermeden önce öğrenciyi gözlem, karşılaştırma, çıkarım ve kanıta yöneltir.",
+    "Tahta notu yalnız kavramı veya düşünme yolunu görünür kılacağı yerde kullanılır.",
+    "Öz değerlendirme, akran geri bildirimi ve kontrol listeleri sonraki davranışa veya ürün revizyonuna bağlanır.",
+    "Farklılaştırma hazır cevabı vermek değil bilişsel yükü düzenlemek; zenginleştirme aynı hedefi daha derin kanıt ve karşılaştırmayla sürdürmektir.",
+    "Kültür, kimlik, dil ve değer konuları tek tiplik ya da üstünlük hiyerarşisi üretmeden tarihî ve bağlamsal çeşitlilik içinde işlenir."
+  ],
+  "blocks": [
+    {
+      "block_id": "T04V2_T4_GUIDE_U00_TEMA_CERCEVESI",
+      "section_id": "T4_GUIDE_SEC_00_TEMA_ACILIS",
+      "printed_page_range": "236-237",
+      "title": "Tema Çerçevesi ve Ana Kavramlar",
+      "source_item_refs": [
+        "T4_G00_P236_TEMA_CERCEVESI",
+        "T4_G00_P236_KAVRAMLAR",
+        "T4_G00_P237_YUNUS"
+      ],
+      "book_task_summaries": [
+        "Tema kapsamı ve beklenen öğrenmeler [REFERENCE]",
+        "Anahtar kavramlar [REFERENCE]",
+        "Yunus Emre alıntısı — kendini bilme [QUESTION]"
+      ],
+      "pedagogical_intent": "Hayatın sanat ve edebiyatta nasıl yeniden kurulduğunu; gerçeklik, temsil, emek, seçim ve bakış açısı kavramlarıyla tema boyunca izlenecek çerçeveye dönüştür. Hayat-edebiyat ilişkisi, tiyatro, küçürek hikâye, belgesel, canlandırma ve afiş üretimini ortak tema çerçevesinde görünür kılmak.",
+      "teacher_moves": [
+        "Tema hedeflerini ezber listesi olarak vermek yerine öğrencinin ön bilgisini açığa çıkaran iki kısa soru ile başla.",
+        "Tema boyunca geri dönülecek ana kavramları görünür bir yol haritasına dönüştür.",
+        "Gerçek hayat ile sanat eserini birebir eşitlemeden temsil ve dönüştürme fikrini aç.",
+        "Tema kavramlarını tiyatro, küçürek hikâye, belgesel ve afiş görevlerine bağlayan kısa yol haritası oluştur."
+      ],
+      "follow_up_questions": [
+        "Bu düşünceni hangi örnek veya deneyim destekliyor?",
+        "Tema sonunda bu görüşünün değişip değişmediğini nasıl anlayabiliriz?",
+        "Sanat hayatı olduğu gibi mi gösterir, yoksa seçip düzenler mi?",
+        "Aynı yaşam olayını tiyatro, hikâye ve afiş neden farklı biçimde anlatır?"
+      ],
+      "misconception_interventions": [
+        "Genel ve kanıtsız yargıyı doğrudan düzeltmek yerine somut örnek istemekle daralt.",
+        "Sanatı gerçeğin kopyası sayan öğrenciye seçme, yoğunlaştırma ve bakış açısı örnekleri ver."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Ön bilgi → soru → kanıt → tema boyunca yeniden düşün",
+        "Tahtaya yaz: Hayat → seçme / yorumlama / biçim verme → sanat eseri",
+        "Tahtaya yaz: Aynı gerçeklik + farklı tür = farklı anlatım araçları"
+      ],
+      "assessment_look_fors": [
+        "Ön bilgi ile gerekçenin birbirinden ayrılması.",
+        "Tema kavramları arasında ilk anlamlı bağların kurulması.",
+        "Gerçeklik ile sanatsal temsilin ayrılması.",
+        "Türün anlatım biçimine etkisini fark etme."
+      ],
+      "differentiation": {
+        "support": [
+          "Anahtar kavramları kısa kelime kartlarıyla ver ve öğrencinin örnekle eşleştirmesini sağla.",
+          "Gerçek olay / sanatsal dönüşüm şeklinde iki sütunlu örnek kullan."
+        ],
+        "enrichment": [
+          "Tema kavramlarından ikisi arasında öğrencinin kendi örneğiyle ilişki kurmasını iste.",
+          "Aynı gündelik olayı üç farklı türde birer cümleyle yeniden kurdur."
+        ]
+      }
+    },
+    {
+      "block_id": "T04V2_T4_GUIDE_U01_TEMAYA_BASLARKEN",
+      "section_id": "T4_GUIDE_SEC_00_TEMA_ACILIS",
+      "printed_page_range": "238-239",
+      "title": "Temaya Başlarken — Edebiyat, Hayat ve Okur",
+      "source_item_refs": [
+        "T4_G00_P238_Q1_2",
+        "T4_G00_P239_Q3_5"
+      ],
+      "book_task_summaries": [
+        "Kitap, sosyal gelişim ve ‘ebedî dostluk’ [QUESTION]",
+        "Sanatsal metin, yaşantı ve tür seçimi [QUESTION]"
+      ],
+      "pedagogical_intent": "Hayatın sanat ve edebiyatta nasıl yeniden kurulduğunu; gerçeklik, temsil, emek, seçim ve bakış açısı kavramlarıyla tema boyunca izlenecek çerçeveye dönüştür. Edebiyatın sosyal gelişim, kalıcılık, sanatsal dönüştürme ve okur yaşantısıyla ilişkisini tartışmaya açmak.",
+      "teacher_moves": [
+        "Tema hedeflerini ezber listesi olarak vermek yerine öğrencinin ön bilgisini açığa çıkaran iki kısa soru ile başla.",
+        "Tema boyunca geri dönülecek ana kavramları görünür bir yol haritasına dönüştür.",
+        "Gerçek hayat ile sanat eserini birebir eşitlemeden temsil ve dönüştürme fikrini aç.",
+        "Tema kavramlarını tiyatro, küçürek hikâye, belgesel ve afiş görevlerine bağlayan kısa yol haritası oluştur."
+      ],
+      "follow_up_questions": [
+        "Bu düşünceni hangi örnek veya deneyim destekliyor?",
+        "Tema sonunda bu görüşünün değişip değişmediğini nasıl anlayabiliriz?",
+        "Sanat hayatı olduğu gibi mi gösterir, yoksa seçip düzenler mi?",
+        "Aynı yaşam olayını tiyatro, hikâye ve afiş neden farklı biçimde anlatır?"
+      ],
+      "misconception_interventions": [
+        "Genel ve kanıtsız yargıyı doğrudan düzeltmek yerine somut örnek istemekle daralt.",
+        "Sanatı gerçeğin kopyası sayan öğrenciye seçme, yoğunlaştırma ve bakış açısı örnekleri ver."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Ön bilgi → soru → kanıt → tema boyunca yeniden düşün",
+        "Tahtaya yaz: Hayat → seçme / yorumlama / biçim verme → sanat eseri",
+        "Tahtaya yaz: Aynı gerçeklik + farklı tür = farklı anlatım araçları"
+      ],
+      "assessment_look_fors": [
+        "Ön bilgi ile gerekçenin birbirinden ayrılması.",
+        "Tema kavramları arasında ilk anlamlı bağların kurulması.",
+        "Gerçeklik ile sanatsal temsilin ayrılması.",
+        "Türün anlatım biçimine etkisini fark etme."
+      ],
+      "differentiation": {
+        "support": [
+          "Anahtar kavramları kısa kelime kartlarıyla ver ve öğrencinin örnekle eşleştirmesini sağla.",
+          "Gerçek olay / sanatsal dönüşüm şeklinde iki sütunlu örnek kullan."
+        ],
+        "enrichment": [
+          "Tema kavramlarından ikisi arasında öğrencinin kendi örneğiyle ilişki kurmasını iste.",
+          "Aynı gündelik olayı üç farklı türde birer cümleyle yeniden kurdur."
+        ]
+      }
+    },
+    {
+      "block_id": "T04V2_T4_GUIDE_U02_TIYATRO_YONETIM",
+      "section_id": "T4_SEC_01_OKUMA_TIYATRO",
+      "printed_page_range": "240-242",
+      "title": "Okumayı Yönetme — Tiyatroya Hazırlık ve Okuma Çemberi",
+      "source_item_refs": [
+        "T4_G01_P240_TIYATRO_YAZMA",
+        "T4_G01_P241_OKUMA_CEMBERI",
+        "T4_G01_P242_TAHMIN_STRATEJI"
+      ],
+      "book_task_summaries": [
+        "Mimar Sinan bağlamından kısa tiyatro metni üretme [PERFORMANCE_TASK]",
+        "Okuma çemberi rolleri [PROCESS]",
+        "Metin öncesi tahmin ve okuma stratejisi [PROCESS]"
+      ],
+      "pedagogical_intent": "Ben, Mimar Sinan üzerinden tarihî gerçekliğin dramatik kurguya dönüşümünü, tiyatro unsurlarını, emek-estetik ilişkisini ve sahne dilini çözümlet. Tiyatro metnine ön bilgiyi etkinleştirerek, rol temelli okuma çemberiyle amaçlı okuma hazırlığı yapmak.",
+      "teacher_moves": [
+        "Göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir.",
+        "Tahmini doğru-yanlış olarak değil görünür ipucuna dayalı çıkarım olarak değerlendir.",
+        "Tarihî kişi bilgisi ile tiyatro yazarının dramatik düzenlemesini ayrı tut.",
+        "Okuma çemberinde rollerin metin kanıtı üretmesini şart koş.",
+        "Tiyatro işlevini yalnız eğlendirme değil empati, eleştiri, tarihî/toplumsal deneyimi yeniden yorumlama üzerinden aç."
+      ],
+      "follow_up_questions": [
+        "Bu tahmini hangi başlık, görsel, kelime veya ön bilgiye dayandırdın?",
+        "Seçtiğin strateji bu görevde sana tam olarak ne sağlayacak?",
+        "Bu sahne tarihî bilgi mi, dramatik yorum mu; nasıl ayırırsın?",
+        "Bu olay sahnede etkili olsun diye hangi unsur yoğunlaştırılmış?",
+        "Dekor veya sahne yönergesi karakteri anlamamıza nasıl yardım ediyor?"
+      ],
+      "misconception_interventions": [
+        "Gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur.",
+        "Tiyatro metnini gerçek hayatın birebir kaydı sayan öğrenciye dramatik seçme ve sahneleme tercihini buldur.",
+        "Mimar Sinan'ın emeğini tek başına kahramanlık anlatısına indirgeyen öğrenciye tarihî çevre, ekip ve ortak üretim boyutunu düşündür."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Tahmin = ipucu + çıkarım",
+        "Tahtaya yaz: Amaç → uygun strateji → toplanacak kanıt",
+        "Tahtaya yaz: Tarihî gerçeklik → dramatik seçme/düzenleme → tiyatro sahnesi",
+        "Tahtaya yaz: Tiyatro = karakter + çatışma + diyalog/monolog + sahne yönergesi + seyirci",
+        "Tahtaya yaz: Sahne unsuru → işlev → izleyici etkisi"
+      ],
+      "assessment_look_fors": [
+        "Amaç ile strateji arasında açık uyum.",
+        "Tahminin görünür bir kaynağa dayanması.",
+        "Tarihî bilgi ile dramatik yorumun ayrılması.",
+        "Tiyatro unsurunun işlevle açıklanması.",
+        "Emek ve estetik temasının metin kanıtıyla kurulması."
+      ],
+      "differentiation": {
+        "support": [
+          "Amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan.",
+          "Sahne unsuru / metindeki örnek / işlev üç sütunlu tablo kullan."
+        ],
+        "enrichment": [
+          "Aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat.",
+          "Bir tarihî olayın ders kitabı anlatımı ile tiyatro sahnesi olarak anlatımı arasındaki farkı karşılaştır."
+        ]
+      }
+    },
+    {
+      "block_id": "T04V2_T4_GUIDE_U03_TIYATRO_ANLAM",
+      "section_id": "T4_SEC_01_OKUMA_TIYATRO",
+      "printed_page_range": "243-250",
+      "title": "Ben, Mimar Sinan — İçerik ve Anlam Oluşturma",
+      "source_item_refs": [
+        "T4_G01_P243_246_METIN_CERCEVESI",
+        "T4_G01_P247_SOZ_VARLIGI",
+        "T4_G01_P248_TIYATRO_ISLEVI",
+        "T4_G01_P249_250_HAYAT_SAHNE"
+      ],
+      "book_task_summaries": [
+        "Ben, Mimar Sinan — temel anlam çerçevesi [REFERENCE]",
+        "Söz varlığı — bağlamdan anlam [VOCABULARY]",
+        "Tiyatro sanatının işlevi [QUESTION]",
+        "Günlük hayat, sahne atmosferi ve toplumsal ilişkiler [TABLE]"
+      ],
+      "pedagogical_intent": "Ben, Mimar Sinan üzerinden tarihî gerçekliğin dramatik kurguya dönüşümünü, tiyatro unsurlarını, emek-estetik ilişkisini ve sahne dilini çözümlet. Tiyatro metninin tarih, emek, estetik, toplumsal hayat ve dil boyutlarından anlam oluşturmak.",
+      "teacher_moves": [
+        "Cevabın yanına kısa metin, görsel veya dinleme kanıtı istemeyi varsayılan sınıf rutini hâline getir.",
+        "Konu, tema, ileti, yorum ve çıkarım gibi yakın kavramları görev üzerinde birbirinden ayır.",
+        "Tarihî kişi bilgisi ile tiyatro yazarının dramatik düzenlemesini ayrı tut.",
+        "Okuma çemberinde rollerin metin kanıtı üretmesini şart koş.",
+        "Tiyatro işlevini yalnız eğlendirme değil empati, eleştiri, tarihî/toplumsal deneyimi yeniden yorumlama üzerinden aç."
+      ],
+      "follow_up_questions": [
+        "Bu cevabını kaynakta hangi ayrıntı destekliyor?",
+        "Aynı kanıttan başka bir makul yorum çıkar mı?",
+        "Bu sahne tarihî bilgi mi, dramatik yorum mu; nasıl ayırırsın?",
+        "Bu olay sahnede etkili olsun diye hangi unsur yoğunlaştırılmış?",
+        "Dekor veya sahne yönergesi karakteri anlamamıza nasıl yardım ediyor?"
+      ],
+      "misconception_interventions": [
+        "Yorumu kaynakta açıkça söylenmiş bilgi gibi sunan öğrenciye 'metinde var / ben çıkarıyorum' ayrımı yaptır.",
+        "Tiyatro metnini gerçek hayatın birebir kaydı sayan öğrenciye dramatik seçme ve sahneleme tercihini buldur.",
+        "Mimar Sinan'ın emeğini tek başına kahramanlık anlatısına indirgeyen öğrenciye tarihî çevre, ekip ve ortak üretim boyutunu düşündür."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Cevap = yargı + kanıt + gerekçe",
+        "Tahtaya yaz: Açık bilgi ≠ yorum/çıkarım",
+        "Tahtaya yaz: Tarihî gerçeklik → dramatik seçme/düzenleme → tiyatro sahnesi",
+        "Tahtaya yaz: Tiyatro = karakter + çatışma + diyalog/monolog + sahne yönergesi + seyirci",
+        "Tahtaya yaz: Sahne unsuru → işlev → izleyici etkisi"
+      ],
+      "assessment_look_fors": [
+        "Cevabın kaynak kanıtıyla uyumu.",
+        "Açık bilgi ile çıkarımın ayrılması.",
+        "Tarihî bilgi ile dramatik yorumun ayrılması.",
+        "Tiyatro unsurunun işlevle açıklanması.",
+        "Emek ve estetik temasının metin kanıtıyla kurulması."
+      ],
+      "differentiation": {
+        "support": [
+          "Cevabım / kanıtım biçiminde iki sütunlu çalışma alanı ver.",
+          "Sahne unsuru / metindeki örnek / işlev üç sütunlu tablo kullan."
+        ],
+        "enrichment": [
+          "İki olası yorumu kanıt gücü bakımından karşılaştırmasını iste.",
+          "Bir tarihî olayın ders kitabı anlatımı ile tiyatro sahnesi olarak anlatımı arasındaki farkı karşılaştır."
+        ]
+      }
+    },
+    {
+      "block_id": "T04V2_T4_GUIDE_U04_TIYATRO_ANLAYALIM",
+      "section_id": "T4_SEC_01_OKUMA_TIYATRO",
+      "printed_page_range": "251-254",
+      "title": "Metni Anlayalım ve Cimri ile Karşılaştırma",
+      "source_item_refs": [
+        "T4_G01_P251_Q1_4",
+        "T4_G01_P252_TALIHI_YENMEK",
+        "T4_G01_P253_254_CIMRI_KARSILASTIRMA"
+      ],
+      "book_task_summaries": [
+        "Konu, amaç, yazar-metin ilişkisi ve karakter özellikleri [QUESTION]",
+        "‘Bilgim, azmim ve çalışkanlığımla talihimi yenmiştim’ iletisi [QUESTION]",
+        "Ben, Mimar Sinan — Cimri karşılaştırması ve tür [TABLE]"
+      ],
+      "pedagogical_intent": "Ben, Mimar Sinan üzerinden tarihî gerçekliğin dramatik kurguya dönüşümünü, tiyatro unsurlarını, emek-estetik ilişkisini ve sahne dilini çözümlet. Metnin konusu, amacı, karakterleri, temel iletileri ve modern tiyatro türleri üzerinden çıkarım yapmak.",
+      "teacher_moves": [
+        "Cevabın yanına kısa metin, görsel veya dinleme kanıtı istemeyi varsayılan sınıf rutini hâline getir.",
+        "Konu, tema, ileti, yorum ve çıkarım gibi yakın kavramları görev üzerinde birbirinden ayır.",
+        "Tarihî kişi bilgisi ile tiyatro yazarının dramatik düzenlemesini ayrı tut.",
+        "Okuma çemberinde rollerin metin kanıtı üretmesini şart koş.",
+        "Tiyatro işlevini yalnız eğlendirme değil empati, eleştiri, tarihî/toplumsal deneyimi yeniden yorumlama üzerinden aç."
+      ],
+      "follow_up_questions": [
+        "Bu cevabını kaynakta hangi ayrıntı destekliyor?",
+        "Aynı kanıttan başka bir makul yorum çıkar mı?",
+        "Bu sahne tarihî bilgi mi, dramatik yorum mu; nasıl ayırırsın?",
+        "Bu olay sahnede etkili olsun diye hangi unsur yoğunlaştırılmış?",
+        "Dekor veya sahne yönergesi karakteri anlamamıza nasıl yardım ediyor?"
+      ],
+      "misconception_interventions": [
+        "Yorumu kaynakta açıkça söylenmiş bilgi gibi sunan öğrenciye 'metinde var / ben çıkarıyorum' ayrımı yaptır.",
+        "Tiyatro metnini gerçek hayatın birebir kaydı sayan öğrenciye dramatik seçme ve sahneleme tercihini buldur.",
+        "Mimar Sinan'ın emeğini tek başına kahramanlık anlatısına indirgeyen öğrenciye tarihî çevre, ekip ve ortak üretim boyutunu düşündür."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Cevap = yargı + kanıt + gerekçe",
+        "Tahtaya yaz: Açık bilgi ≠ yorum/çıkarım",
+        "Tahtaya yaz: Tarihî gerçeklik → dramatik seçme/düzenleme → tiyatro sahnesi",
+        "Tahtaya yaz: Tiyatro = karakter + çatışma + diyalog/monolog + sahne yönergesi + seyirci",
+        "Tahtaya yaz: Sahne unsuru → işlev → izleyici etkisi"
+      ],
+      "assessment_look_fors": [
+        "Cevabın kaynak kanıtıyla uyumu.",
+        "Açık bilgi ile çıkarımın ayrılması.",
+        "Tarihî bilgi ile dramatik yorumun ayrılması.",
+        "Tiyatro unsurunun işlevle açıklanması.",
+        "Emek ve estetik temasının metin kanıtıyla kurulması."
+      ],
+      "differentiation": {
+        "support": [
+          "Cevabım / kanıtım biçiminde iki sütunlu çalışma alanı ver.",
+          "Sahne unsuru / metindeki örnek / işlev üç sütunlu tablo kullan."
+        ],
+        "enrichment": [
+          "İki olası yorumu kanıt gücü bakımından karşılaştırmasını iste.",
+          "Bir tarihî olayın ders kitabı anlatımı ile tiyatro sahnesi olarak anlatımı arasındaki farkı karşılaştır."
+        ]
+      }
+    },
+    {
+      "block_id": "T04V2_T4_GUIDE_U05_TIYATRO_COZUMLEME",
+      "section_id": "T4_SEC_01_OKUMA_TIYATRO",
+      "printed_page_range": "255-261",
+      "title": "Tiyatro Metnini Çözümleme",
+      "source_item_refs": [
+        "T4_G01_P255_OZET_DEGERLENDIRME",
+        "T4_G01_P256_YAPI",
+        "T4_G01_P257_258_DIL_USLUP",
+        "T4_G01_P259_260_DONEM_DEGER",
+        "T4_G01_P260_261_DISIPLIN_CATISMA"
+      ],
+      "book_task_summaries": [
+        "Özet, amaç-dil ilişkisi, tarihî gerçeklik ve dekor [QUESTION]",
+        "Yapı unsurları ve ilişkileri [TABLE]",
+        "Monolog, diyalog, cümle çeşitliliği ve üslup [QUESTION]",
+        "Cumhuriyet tiyatrosu, tarih-kimlik ve değerler [QUESTION]",
+        "Tiyatro-sosyal bilimler ve çatışmaların işlevi [QUESTION]"
+      ],
+      "pedagogical_intent": "Ben, Mimar Sinan üzerinden tarihî gerçekliğin dramatik kurguya dönüşümünü, tiyatro unsurlarını, emek-estetik ilişkisini ve sahne dilini çözümlet. Özet, yapı, dil-üslup, dönem, değer, disiplinler arası ilişki ve çatışma boyutlarını çözümlemek.",
+      "teacher_moves": [
+        "Kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.",
+        "Ürün görevlerinde ilk taslak ile son ürün arasındaki değişikliği görünür kıl.",
+        "Tarihî kişi bilgisi ile tiyatro yazarının dramatik düzenlemesini ayrı tut.",
+        "Okuma çemberinde rollerin metin kanıtı üretmesini şart koş.",
+        "Tiyatro işlevini yalnız eğlendirme değil empati, eleştiri, tarihî/toplumsal deneyimi yeniden yorumlama üzerinden aç."
+      ],
+      "follow_up_questions": [
+        "Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?",
+        "Yaptığın bu tercihin amaç ve hedef kitleyle ilişkisi nedir?",
+        "Bu sahne tarihî bilgi mi, dramatik yorum mu; nasıl ayırırsın?",
+        "Bu olay sahnede etkili olsun diye hangi unsur yoğunlaştırılmış?",
+        "Dekor veya sahne yönergesi karakteri anlamamıza nasıl yardım ediyor?"
+      ],
+      "misconception_interventions": [
+        "Terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt.",
+        "Tiyatro metnini gerçek hayatın birebir kaydı sayan öğrenciye dramatik seçme ve sahneleme tercihini buldur.",
+        "Mimar Sinan'ın emeğini tek başına kahramanlık anlatısına indirgeyen öğrenciye tarihî çevre, ekip ve ortak üretim boyutunu düşündür."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Unsur → işlev → etki",
+        "Tahtaya yaz: Taslak → geri bildirim → karar → revizyon",
+        "Tahtaya yaz: Tarihî gerçeklik → dramatik seçme/düzenleme → tiyatro sahnesi",
+        "Tahtaya yaz: Tiyatro = karakter + çatışma + diyalog/monolog + sahne yönergesi + seyirci",
+        "Tahtaya yaz: Sahne unsuru → işlev → izleyici etkisi"
+      ],
+      "assessment_look_fors": [
+        "Kavram ile işlev arasında doğru ilişki.",
+        "Ürün kararlarının amaç ve bağlama uygunluğu.",
+        "Tarihî bilgi ile dramatik yorumun ayrılması.",
+        "Tiyatro unsurunun işlevle açıklanması.",
+        "Emek ve estetik temasının metin kanıtıyla kurulması."
+      ],
+      "differentiation": {
+        "support": [
+          "Önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.",
+          "Sahne unsuru / metindeki örnek / işlev üç sütunlu tablo kullan."
+        ],
+        "enrichment": [
+          "Aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.",
+          "Bir tarihî olayın ders kitabı anlatımı ile tiyatro sahnesi olarak anlatımı arasındaki farkı karşılaştır."
+        ]
+      }
+    },
+    {
+      "block_id": "T04V2_T4_GUIDE_U06_TIYATRO_DEGERLENDIRME",
+      "section_id": "T4_SEC_01_OKUMA_TIYATRO",
+      "printed_page_range": "262",
+      "title": "Süreç ve Beğeni Ölçütleriyle Değerlendirme",
+      "source_item_refs": [
+        "T4_G01_P262_HAYAT_DEGERLENDIRME",
+        "T4_G01_P262_BEN_KIMIM"
+      ],
+      "book_task_summaries": [
+        "Günlük insan ilişkileri ve beğeni ölçütleri [ASSESSMENT]",
+        "‘Ben Kimim?’ karakter oyunu ve kısa senaryo [PERFORMANCE_TASK]"
+      ],
+      "pedagogical_intent": "Ben, Mimar Sinan üzerinden tarihî gerçekliğin dramatik kurguya dönüşümünü, tiyatro unsurlarını, emek-estetik ilişkisini ve sahne dilini çözümlet. Metni günlük hayat, karakter, sahneleme ve kişisel beğeni ölçütleri üzerinden değerlendirmek.",
+      "teacher_moves": [
+        "Öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.",
+        "Geri bildirimi sonraki ürün değişikliğine veya öğrenme davranışına bağla.",
+        "Tarihî kişi bilgisi ile tiyatro yazarının dramatik düzenlemesini ayrı tut.",
+        "Okuma çemberinde rollerin metin kanıtı üretmesini şart koş.",
+        "Tiyatro işlevini yalnız eğlendirme değil empati, eleştiri, tarihî/toplumsal deneyimi yeniden yorumlama üzerinden aç."
+      ],
+      "follow_up_questions": [
+        "Bu değerlendirmene hangi ürün veya performans ayrıntısı kanıt?",
+        "Bir sonraki benzer görevde tek bir şeyi değiştirecek olsan neyi değiştirirsin?",
+        "Bu sahne tarihî bilgi mi, dramatik yorum mu; nasıl ayırırsın?",
+        "Bu olay sahnede etkili olsun diye hangi unsur yoğunlaştırılmış?",
+        "Dekor veya sahne yönergesi karakteri anlamamıza nasıl yardım ediyor?"
+      ],
+      "misconception_interventions": [
+        "Formu otomatik olumlu işaretleyen öğrenciye belirli bir örnek göstermeden yargıyı tamamlanmış sayma.",
+        "Tiyatro metnini gerçek hayatın birebir kaydı sayan öğrenciye dramatik seçme ve sahneleme tercihini buldur.",
+        "Mimar Sinan'ın emeğini tek başına kahramanlık anlatısına indirgeyen öğrenciye tarihî çevre, ekip ve ortak üretim boyutunu düşündür."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Öz değerlendirme = yargı + kanıt + yeni hedef",
+        "Tahtaya yaz: Geri bildirim → değerlendir → karar ver → revize et",
+        "Tahtaya yaz: Tarihî gerçeklik → dramatik seçme/düzenleme → tiyatro sahnesi",
+        "Tahtaya yaz: Tiyatro = karakter + çatışma + diyalog/monolog + sahne yönergesi + seyirci",
+        "Tahtaya yaz: Sahne unsuru → işlev → izleyici etkisi"
+      ],
+      "assessment_look_fors": [
+        "Kanıta dayalı öz değerlendirme.",
+        "Uygulanabilir bir sonraki adım veya revizyon.",
+        "Tarihî bilgi ile dramatik yorumun ayrılması.",
+        "Tiyatro unsurunun işlevle açıklanması.",
+        "Emek ve estetik temasının metin kanıtıyla kurulması."
+      ],
+      "differentiation": {
+        "support": [
+          "Bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan.",
+          "Sahne unsuru / metindeki örnek / işlev üç sütunlu tablo kullan."
+        ],
+        "enrichment": [
+          "Bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste.",
+          "Bir tarihî olayın ders kitabı anlatımı ile tiyatro sahnesi olarak anlatımı arasındaki farkı karşılaştır."
+        ]
+      }
+    },
+    {
+      "block_id": "T04V2_T4_GUIDE_U07_KUCU_REK_YONETIM",
+      "section_id": "T4_SEC_02_OKUMA_KUCU_REK",
+      "printed_page_range": "263-265",
+      "title": "Okumayı Yönetme — Yaşam Metaforları ve Küçürek Hikâye",
+      "source_item_refs": [
+        "T4_G02_P263_HAYAT_YOLCULUK",
+        "T4_G02_P264_KUCU_REK_OZELLIK",
+        "T4_G02_P264_265_OKUMA_PLANI"
+      ],
+      "book_task_summaries": [
+        "Yaşam evreleri ve yol/merdiven metaforları [QUESTION]",
+        "Küçürek/minimal hikâyenin özellikleri [REFERENCE]",
+        "Okuma amacı, tahmin ve strateji [PROCESS]"
+      ],
+      "pedagogical_intent": "Merdiven ve küçürek hikâye çalışmalarında kısalığı yüzeysellikle karıştırmadan simge, boşluk, tekrar, karşıtlık ve okur katılımı üzerinden yoğun anlam kurdur. Yaşam-merdiven çağrışımını ve küçürek hikâyenin yoğun anlatım özelliklerini okuma öncesinde etkinleştirmek.",
+      "teacher_moves": [
+        "Göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir.",
+        "Tahmini doğru-yanlış olarak değil görünür ipucuna dayalı çıkarım olarak değerlendir.",
+        "Metinde söylenmeyen fakat güçlü biçimde sezdirilen noktaları kanıtla çıkarttır.",
+        "Merdiven, çıkmak-inmek ve kuşak karşılaşmasını tek zorunlu metafora kapatma; metinle uyumlu alternatif yorumları karşılaştır.",
+        "Küçürek hikâyeyi yalnız kelime sayısıyla tanımlama; yoğunluk ve okur tamamlama işlevini vurgula."
+      ],
+      "follow_up_questions": [
+        "Bu tahmini hangi başlık, görsel, kelime veya ön bilgiye dayandırdın?",
+        "Seçtiğin strateji bu görevde sana tam olarak ne sağlayacak?",
+        "Metin neyi açıkça söylemiyor ama sana düşündürüyor?",
+        "Merdiven yalnız fiziksel bir nesne olsaydı metnin finali aynı etkiyi yaratır mıydı?",
+        "Bu kısa metinde tekrarlar ritmi ve anlamı nasıl kuruyor?"
+      ],
+      "misconception_interventions": [
+        "Gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur.",
+        "'Aşağı inme'yi yalnız fiziksel hareket sayan öğrenciye finaldeki zaman, yaş ve kuşak göstergelerini buldur.",
+        "Küçürek hikâyeyi 'kısa olduğu için kolay' sayan öğrenciye okurun doldurmak zorunda olduğu anlam boşluklarını işaretlet."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Tahmin = ipucu + çıkarım",
+        "Tahtaya yaz: Amaç → uygun strateji → toplanacak kanıt",
+        "Tahtaya yaz: Küçürek hikâye = az söz + yoğun çağrışım + anlam boşluğu + okur katılımı",
+        "Tahtaya yaz: Simge = somut unsur + bağlam + çağrışım",
+        "Tahtaya yaz: Metinde söylenen / sezdirilen"
+      ],
+      "assessment_look_fors": [
+        "Amaç ile strateji arasında açık uyum.",
+        "Tahminin görünür bir kaynağa dayanması.",
+        "Simgesel yorumu metin kanıtıyla destekleme.",
+        "Küçürek hikâyenin en az üç ayırt edici özelliğini işlevle açıklama.",
+        "Alternatif yorumu kanıtla savunma."
+      ],
+      "differentiation": {
+        "support": [
+          "Amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan.",
+          "Söylenen / sezdirilen iki sütunlu okuma tablosu kullan."
+        ],
+        "enrichment": [
+          "Aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat.",
+          "Metindeki bir anlam boşluğunu farklı iki yorumla doldurup hangisinin daha güçlü kanıta dayandığını tartıştır."
+        ]
+      }
+    },
+    {
+      "block_id": "T04V2_T4_GUIDE_U08_KUCU_REK_ANLAM",
+      "section_id": "T4_SEC_02_OKUMA_KUCU_REK",
+      "printed_page_range": "266-270",
+      "title": "Merdiven — Söz Varlığı, İleti ve Simgeler",
+      "source_item_refs": [
+        "T4_G02_P266_267_SOZ_VARLIGI",
+        "T4_G02_P268_BAHTIYAR",
+        "T4_G02_P269_Q1_4",
+        "T4_G02_P269_270_Q5_8"
+      ],
+      "book_task_summaries": [
+        "Söz varlığı ve çok anlamlı kullanım [VOCABULARY]",
+        "‘Bahtiyar ol’ ve kültürel kalıp sözler [QUESTION]",
+        "Metni Anlayalım 1-4 — kişi, öğüt ve merdiven simgesi [QUESTION]",
+        "Metni Anlayalım 5-8 — tür, ritim ve final [QUESTION]"
+      ],
+      "pedagogical_intent": "Merdiven ve küçürek hikâye çalışmalarında kısalığı yüzeysellikle karıştırmadan simge, boşluk, tekrar, karşıtlık ve okur katılımı üzerinden yoğun anlam kurdur. Metindeki söz varlığından, tekrar ve karşıtlıklardan hareketle yaş, zaman, kariyer ve ölüm farkındalığına ilişkin anlam kurmak.",
+      "teacher_moves": [
+        "Cevabın yanına kısa metin, görsel veya dinleme kanıtı istemeyi varsayılan sınıf rutini hâline getir.",
+        "Konu, tema, ileti, yorum ve çıkarım gibi yakın kavramları görev üzerinde birbirinden ayır.",
+        "Metinde söylenmeyen fakat güçlü biçimde sezdirilen noktaları kanıtla çıkarttır.",
+        "Merdiven, çıkmak-inmek ve kuşak karşılaşmasını tek zorunlu metafora kapatma; metinle uyumlu alternatif yorumları karşılaştır.",
+        "Küçürek hikâyeyi yalnız kelime sayısıyla tanımlama; yoğunluk ve okur tamamlama işlevini vurgula."
+      ],
+      "follow_up_questions": [
+        "Bu cevabını kaynakta hangi ayrıntı destekliyor?",
+        "Aynı kanıttan başka bir makul yorum çıkar mı?",
+        "Metin neyi açıkça söylemiyor ama sana düşündürüyor?",
+        "Merdiven yalnız fiziksel bir nesne olsaydı metnin finali aynı etkiyi yaratır mıydı?",
+        "Bu kısa metinde tekrarlar ritmi ve anlamı nasıl kuruyor?"
+      ],
+      "misconception_interventions": [
+        "Yorumu kaynakta açıkça söylenmiş bilgi gibi sunan öğrenciye 'metinde var / ben çıkarıyorum' ayrımı yaptır.",
+        "'Aşağı inme'yi yalnız fiziksel hareket sayan öğrenciye finaldeki zaman, yaş ve kuşak göstergelerini buldur.",
+        "Küçürek hikâyeyi 'kısa olduğu için kolay' sayan öğrenciye okurun doldurmak zorunda olduğu anlam boşluklarını işaretlet."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Cevap = yargı + kanıt + gerekçe",
+        "Tahtaya yaz: Açık bilgi ≠ yorum/çıkarım",
+        "Tahtaya yaz: Küçürek hikâye = az söz + yoğun çağrışım + anlam boşluğu + okur katılımı",
+        "Tahtaya yaz: Simge = somut unsur + bağlam + çağrışım",
+        "Tahtaya yaz: Metinde söylenen / sezdirilen"
+      ],
+      "assessment_look_fors": [
+        "Cevabın kaynak kanıtıyla uyumu.",
+        "Açık bilgi ile çıkarımın ayrılması.",
+        "Simgesel yorumu metin kanıtıyla destekleme.",
+        "Küçürek hikâyenin en az üç ayırt edici özelliğini işlevle açıklama.",
+        "Alternatif yorumu kanıtla savunma."
+      ],
+      "differentiation": {
+        "support": [
+          "Cevabım / kanıtım biçiminde iki sütunlu çalışma alanı ver.",
+          "Söylenen / sezdirilen iki sütunlu okuma tablosu kullan."
+        ],
+        "enrichment": [
+          "İki olası yorumu kanıt gücü bakımından karşılaştırmasını iste.",
+          "Metindeki bir anlam boşluğunu farklı iki yorumla doldurup hangisinin daha güçlü kanıta dayandığını tartıştır."
+        ]
+      }
+    },
+    {
+      "block_id": "T04V2_T4_GUIDE_U09_KUCU_REK_COZUMLEME",
+      "section_id": "T4_SEC_02_OKUMA_KUCU_REK",
+      "printed_page_range": "271-278",
+      "title": "Merdiven — Karşılaştırma, Karakter, Yapı, Çatışma ve Disiplinler",
+      "source_item_refs": [
+        "T4_G02_P271_KUCU_REK_KARSILASTIRMA",
+        "T4_G02_P272_TUR_KARSILASTIRMA",
+        "T4_G02_P273_SAIR_TAVAFI",
+        "T4_G02_P274_275_KARAKTER_YAPI",
+        "T4_G02_P275_278_HAYAT_CATISMA_DEGER"
+      ],
+      "book_task_summaries": [
+        "Az sözle çok duygu ve okur katılımı [QUESTION]",
+        "Ben, Mimar Sinan — Merdiven karşılaştırması [TABLE]",
+        "Şair Tavafî — Merdiven karşılaştırması [TABLE]",
+        "Karakter çözümleme ve yapı unsurları [TABLE]",
+        "Güncelleme, kuşak farkı, çatışma, değer ve disiplinler [QUESTION]"
+      ],
+      "pedagogical_intent": "Merdiven ve küçürek hikâye çalışmalarında kısalığı yüzeysellikle karıştırmadan simge, boşluk, tekrar, karşıtlık ve okur katılımı üzerinden yoğun anlam kurdur. Küçürek hikâyenin yoğunlaştırma tekniğini farklı metinlerle karşılaştırıp karakter-yapı-çatışma-değer-disiplin ilişkilerini çözümlemek.",
+      "teacher_moves": [
+        "Cevabın yanına kısa metin, görsel veya dinleme kanıtı istemeyi varsayılan sınıf rutini hâline getir.",
+        "Konu, tema, ileti, yorum ve çıkarım gibi yakın kavramları görev üzerinde birbirinden ayır.",
+        "Metinde söylenmeyen fakat güçlü biçimde sezdirilen noktaları kanıtla çıkarttır.",
+        "Merdiven, çıkmak-inmek ve kuşak karşılaşmasını tek zorunlu metafora kapatma; metinle uyumlu alternatif yorumları karşılaştır.",
+        "Küçürek hikâyeyi yalnız kelime sayısıyla tanımlama; yoğunluk ve okur tamamlama işlevini vurgula."
+      ],
+      "follow_up_questions": [
+        "Bu cevabını kaynakta hangi ayrıntı destekliyor?",
+        "Aynı kanıttan başka bir makul yorum çıkar mı?",
+        "Metin neyi açıkça söylemiyor ama sana düşündürüyor?",
+        "Merdiven yalnız fiziksel bir nesne olsaydı metnin finali aynı etkiyi yaratır mıydı?",
+        "Bu kısa metinde tekrarlar ritmi ve anlamı nasıl kuruyor?"
+      ],
+      "misconception_interventions": [
+        "Yorumu kaynakta açıkça söylenmiş bilgi gibi sunan öğrenciye 'metinde var / ben çıkarıyorum' ayrımı yaptır.",
+        "'Aşağı inme'yi yalnız fiziksel hareket sayan öğrenciye finaldeki zaman, yaş ve kuşak göstergelerini buldur.",
+        "Küçürek hikâyeyi 'kısa olduğu için kolay' sayan öğrenciye okurun doldurmak zorunda olduğu anlam boşluklarını işaretlet."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Cevap = yargı + kanıt + gerekçe",
+        "Tahtaya yaz: Açık bilgi ≠ yorum/çıkarım",
+        "Tahtaya yaz: Küçürek hikâye = az söz + yoğun çağrışım + anlam boşluğu + okur katılımı",
+        "Tahtaya yaz: Simge = somut unsur + bağlam + çağrışım",
+        "Tahtaya yaz: Metinde söylenen / sezdirilen"
+      ],
+      "assessment_look_fors": [
+        "Cevabın kaynak kanıtıyla uyumu.",
+        "Açık bilgi ile çıkarımın ayrılması.",
+        "Simgesel yorumu metin kanıtıyla destekleme.",
+        "Küçürek hikâyenin en az üç ayırt edici özelliğini işlevle açıklama.",
+        "Alternatif yorumu kanıtla savunma."
+      ],
+      "differentiation": {
+        "support": [
+          "Cevabım / kanıtım biçiminde iki sütunlu çalışma alanı ver.",
+          "Söylenen / sezdirilen iki sütunlu okuma tablosu kullan."
+        ],
+        "enrichment": [
+          "İki olası yorumu kanıt gücü bakımından karşılaştırmasını iste.",
+          "Metindeki bir anlam boşluğunu farklı iki yorumla doldurup hangisinin daha güçlü kanıta dayandığını tartıştır."
+        ]
+      }
+    },
+    {
+      "block_id": "T04V2_T4_GUIDE_U10_KUCU_REK_DEGERLENDIRME",
+      "section_id": "T4_SEC_02_OKUMA_KUCU_REK",
+      "printed_page_range": "279",
+      "title": "Merdiven — Yazar Poetikası ve Okur Değerlendirmesi",
+      "source_item_refs": [
+        "T4_G02_P279_EDGU_POETIKA",
+        "T4_G02_P279_BEGeni",
+        "T4_G02_P279_NE_ISIM_VAR"
+      ],
+      "book_task_summaries": [
+        "Ferit Edgü’nün küçürek hikâye anlayışının Merdiven’e yansıması [QUESTION]",
+        "Ölçüt geliştirerek hikâyeyi değerlendirme [ASSESSMENT]",
+        "‘Ne işim var benim yukarda?’ beyin fırtınası [QUESTION]"
+      ],
+      "pedagogical_intent": "Merdiven ve küçürek hikâye çalışmalarında kısalığı yüzeysellikle karıştırmadan simge, boşluk, tekrar, karşıtlık ve okur katılımı üzerinden yoğun anlam kurdur. Ferit Edgü’nün küçürek hikâye anlayışının metindeki yansımalarını ve öğrencinin gerekçeli beğenisini değerlendirmek.",
+      "teacher_moves": [
+        "Öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.",
+        "Geri bildirimi sonraki ürün değişikliğine veya öğrenme davranışına bağla.",
+        "Metinde söylenmeyen fakat güçlü biçimde sezdirilen noktaları kanıtla çıkarttır.",
+        "Merdiven, çıkmak-inmek ve kuşak karşılaşmasını tek zorunlu metafora kapatma; metinle uyumlu alternatif yorumları karşılaştır.",
+        "Küçürek hikâyeyi yalnız kelime sayısıyla tanımlama; yoğunluk ve okur tamamlama işlevini vurgula."
+      ],
+      "follow_up_questions": [
+        "Bu değerlendirmene hangi ürün veya performans ayrıntısı kanıt?",
+        "Bir sonraki benzer görevde tek bir şeyi değiştirecek olsan neyi değiştirirsin?",
+        "Metin neyi açıkça söylemiyor ama sana düşündürüyor?",
+        "Merdiven yalnız fiziksel bir nesne olsaydı metnin finali aynı etkiyi yaratır mıydı?",
+        "Bu kısa metinde tekrarlar ritmi ve anlamı nasıl kuruyor?"
+      ],
+      "misconception_interventions": [
+        "Formu otomatik olumlu işaretleyen öğrenciye belirli bir örnek göstermeden yargıyı tamamlanmış sayma.",
+        "'Aşağı inme'yi yalnız fiziksel hareket sayan öğrenciye finaldeki zaman, yaş ve kuşak göstergelerini buldur.",
+        "Küçürek hikâyeyi 'kısa olduğu için kolay' sayan öğrenciye okurun doldurmak zorunda olduğu anlam boşluklarını işaretlet."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Öz değerlendirme = yargı + kanıt + yeni hedef",
+        "Tahtaya yaz: Geri bildirim → değerlendir → karar ver → revize et",
+        "Tahtaya yaz: Küçürek hikâye = az söz + yoğun çağrışım + anlam boşluğu + okur katılımı",
+        "Tahtaya yaz: Simge = somut unsur + bağlam + çağrışım",
+        "Tahtaya yaz: Metinde söylenen / sezdirilen"
+      ],
+      "assessment_look_fors": [
+        "Kanıta dayalı öz değerlendirme.",
+        "Uygulanabilir bir sonraki adım veya revizyon.",
+        "Simgesel yorumu metin kanıtıyla destekleme.",
+        "Küçürek hikâyenin en az üç ayırt edici özelliğini işlevle açıklama.",
+        "Alternatif yorumu kanıtla savunma."
+      ],
+      "differentiation": {
+        "support": [
+          "Bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan.",
+          "Söylenen / sezdirilen iki sütunlu okuma tablosu kullan."
+        ],
+        "enrichment": [
+          "Bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste.",
+          "Metindeki bir anlam boşluğunu farklı iki yorumla doldurup hangisinin daha güçlü kanıta dayandığını tartıştır."
+        ]
+      }
+    },
+    {
+      "block_id": "T04V2_T4_GUIDE_U11_KONUSMA_YONETIM",
+      "section_id": "T4_SEC_03_KONUSMA_CANLANDIRMA",
+      "printed_page_range": "280-281",
+      "title": "Canlandırmayı Yönetme — Rol ve Uzam",
+      "source_item_refs": [
+        "T4_G03_P280_ROL_UZAM",
+        "T4_G03_P281_DIL_TIYATRO"
+      ],
+      "book_task_summaries": [
+        "Rol yaratma ve tiyatro hakkında çıkarım [QUESTION]",
+        "Diyalog, doğru dil ve ‘insanı insana insanla anlatma’ [QUESTION]"
+      ],
+      "pedagogical_intent": "Tiyatro metnini yeniden kurgulayıp canlandırırken kaynak metnin çekirdeğini, yeni dramatik tercihi ve sözlü-sözsüz sahne iletişimini birlikte yönet. Rol yaratma, empati, uzam ve konuşma amacını canlandırma öncesinde planlamak.",
+      "teacher_moves": [
+        "Göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir.",
+        "Tahmini doğru-yanlış olarak değil görünür ipucuna dayalı çıkarım olarak değerlendir.",
+        "Yeniden kurgulamada neyin korunacağını ve neyin değişeceğini prova öncesi belirlet.",
+        "Canlandırmada beden, ses, mekân ve nesne kullanımını ana düşünceye hizmet ettiği ölçüde değerlendir.",
+        "Prova geri bildirimini oyunculuk beğenisine değil belirli performans ölçütlerine bağla."
+      ],
+      "follow_up_questions": [
+        "Bu tahmini hangi başlık, görsel, kelime veya ön bilgiye dayandırdın?",
+        "Seçtiğin strateji bu görevde sana tam olarak ne sağlayacak?",
+        "Kaynak metinden hangi çatışmayı veya iletiyi korudun?",
+        "Bu sahneleme tercihi izleyicinin karakteri anlamasını nasıl etkiliyor?"
+      ],
+      "misconception_interventions": [
+        "Gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur.",
+        "Yeniden kurgulamayı yalnız karakter adlarını değiştirmek sanan öğrenciye durum, çatışma, bağlam ve sahne tercihlerini ayrı düşündür.",
+        "Yüksek sesle konuşmayı iyi oyunculuk sayan öğrenciye vurgu, tonlama ve bağlama uygunluğu göster."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Tahmin = ipucu + çıkarım",
+        "Tahtaya yaz: Amaç → uygun strateji → toplanacak kanıt",
+        "Tahtaya yaz: Yeniden kurgu = korunan çekirdek + bilinçli değişiklik",
+        "Tahtaya yaz: Sahne performansı = söz + ses + beden + mekân + etkileşim"
+      ],
+      "assessment_look_fors": [
+        "Amaç ile strateji arasında açık uyum.",
+        "Tahminin görünür bir kaynağa dayanması.",
+        "Kaynak metinle anlamlı bağ.",
+        "Sahne tercihlerinin işlevsel ve tutarlı olması.",
+        "Prova sonrası görünür revizyon."
+      ],
+      "differentiation": {
+        "support": [
+          "Amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan.",
+          "Korunacak / değişecek / sahnede nasıl gösterilecek başlıklı plan ver."
+        ],
+        "enrichment": [
+          "Aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat.",
+          "Aynı sahneyi iki farklı yönetmenlik yaklaşımıyla tasarlayıp etkisini karşılaştır."
+        ]
+      },
+      "source_limitations": [
+        "Dış QR rubrikte yerel PDF'de görünmeyen ölçüt×düzey açıklamaları uydurulmamalı."
+      ]
+    },
+    {
+      "block_id": "T04V2_T4_GUIDE_U12_KONUSMA_ICERIK",
+      "section_id": "T4_SEC_03_KONUSMA_CANLANDIRMA",
+      "printed_page_range": "281",
+      "title": "Canlandırma İçeriğini Planlama",
+      "source_item_refs": [
+        "T4_G03_P281_PERFORMANS_PLANI"
+      ],
+      "book_task_summaries": [
+        "Tiyatro bölümünü yeniden kurgulama performans görevi [PERFORMANCE_TASK]"
+      ],
+      "pedagogical_intent": "Tiyatro metnini yeniden kurgulayıp canlandırırken kaynak metnin çekirdeğini, yeni dramatik tercihi ve sözlü-sözsüz sahne iletişimini birlikte yönet. Ben, Mimar Sinan’dan seçilen bölümü hedef kitle, amaç, rol ve iletişim engellerine göre canlandırmaya hazırlamak.",
+      "teacher_moves": [
+        "Cevabın yanına kısa metin, görsel veya dinleme kanıtı istemeyi varsayılan sınıf rutini hâline getir.",
+        "Konu, tema, ileti, yorum ve çıkarım gibi yakın kavramları görev üzerinde birbirinden ayır.",
+        "Yeniden kurgulamada neyin korunacağını ve neyin değişeceğini prova öncesi belirlet.",
+        "Canlandırmada beden, ses, mekân ve nesne kullanımını ana düşünceye hizmet ettiği ölçüde değerlendir.",
+        "Prova geri bildirimini oyunculuk beğenisine değil belirli performans ölçütlerine bağla."
+      ],
+      "follow_up_questions": [
+        "Bu cevabını kaynakta hangi ayrıntı destekliyor?",
+        "Aynı kanıttan başka bir makul yorum çıkar mı?",
+        "Kaynak metinden hangi çatışmayı veya iletiyi korudun?",
+        "Bu sahneleme tercihi izleyicinin karakteri anlamasını nasıl etkiliyor?"
+      ],
+      "misconception_interventions": [
+        "Yorumu kaynakta açıkça söylenmiş bilgi gibi sunan öğrenciye 'metinde var / ben çıkarıyorum' ayrımı yaptır.",
+        "Yeniden kurgulamayı yalnız karakter adlarını değiştirmek sanan öğrenciye durum, çatışma, bağlam ve sahne tercihlerini ayrı düşündür.",
+        "Yüksek sesle konuşmayı iyi oyunculuk sayan öğrenciye vurgu, tonlama ve bağlama uygunluğu göster."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Cevap = yargı + kanıt + gerekçe",
+        "Tahtaya yaz: Açık bilgi ≠ yorum/çıkarım",
+        "Tahtaya yaz: Yeniden kurgu = korunan çekirdek + bilinçli değişiklik",
+        "Tahtaya yaz: Sahne performansı = söz + ses + beden + mekân + etkileşim"
+      ],
+      "assessment_look_fors": [
+        "Cevabın kaynak kanıtıyla uyumu.",
+        "Açık bilgi ile çıkarımın ayrılması.",
+        "Kaynak metinle anlamlı bağ.",
+        "Sahne tercihlerinin işlevsel ve tutarlı olması.",
+        "Prova sonrası görünür revizyon."
+      ],
+      "differentiation": {
+        "support": [
+          "Cevabım / kanıtım biçiminde iki sütunlu çalışma alanı ver.",
+          "Korunacak / değişecek / sahnede nasıl gösterilecek başlıklı plan ver."
+        ],
+        "enrichment": [
+          "İki olası yorumu kanıt gücü bakımından karşılaştırmasını iste.",
+          "Aynı sahneyi iki farklı yönetmenlik yaklaşımıyla tasarlayıp etkisini karşılaştır."
+        ]
+      },
+      "source_limitations": [
+        "Dış QR rubrikte yerel PDF'de görünmeyen ölçüt×düzey açıklamaları uydurulmamalı."
+      ]
+    },
+    {
+      "block_id": "T04V2_T4_GUIDE_U13_KONUSMA_UYGULAMA",
+      "section_id": "T4_SEC_03_KONUSMA_CANLANDIRMA",
+      "printed_page_range": "282",
+      "title": "Rolü İçselleştirme ve Canlandırma Kuralları",
+      "source_item_refs": [
+        "T4_G03_P282_CANLANDIRMA"
+      ],
+      "book_task_summaries": [
+        "Canlandırma uygulama ölçütleri [PERFORMANCE_TASK]"
+      ],
+      "pedagogical_intent": "Tiyatro metnini yeniden kurgulayıp canlandırırken kaynak metnin çekirdeğini, yeni dramatik tercihi ve sözlü-sözsüz sahne iletişimini birlikte yönet. Karakter ilişkisi, jest-mimik, doğaçlama, beden, diksiyon, görsel-işitsel ögeler ve geri bildirimle canlandırmayı gerçekleştirmek.",
+      "teacher_moves": [
+        "Kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.",
+        "Ürün görevlerinde ilk taslak ile son ürün arasındaki değişikliği görünür kıl.",
+        "Yeniden kurgulamada neyin korunacağını ve neyin değişeceğini prova öncesi belirlet.",
+        "Canlandırmada beden, ses, mekân ve nesne kullanımını ana düşünceye hizmet ettiği ölçüde değerlendir.",
+        "Prova geri bildirimini oyunculuk beğenisine değil belirli performans ölçütlerine bağla."
+      ],
+      "follow_up_questions": [
+        "Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?",
+        "Yaptığın bu tercihin amaç ve hedef kitleyle ilişkisi nedir?",
+        "Kaynak metinden hangi çatışmayı veya iletiyi korudun?",
+        "Bu sahneleme tercihi izleyicinin karakteri anlamasını nasıl etkiliyor?"
+      ],
+      "misconception_interventions": [
+        "Terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt.",
+        "Yeniden kurgulamayı yalnız karakter adlarını değiştirmek sanan öğrenciye durum, çatışma, bağlam ve sahne tercihlerini ayrı düşündür.",
+        "Yüksek sesle konuşmayı iyi oyunculuk sayan öğrenciye vurgu, tonlama ve bağlama uygunluğu göster."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Unsur → işlev → etki",
+        "Tahtaya yaz: Taslak → geri bildirim → karar → revizyon",
+        "Tahtaya yaz: Yeniden kurgu = korunan çekirdek + bilinçli değişiklik",
+        "Tahtaya yaz: Sahne performansı = söz + ses + beden + mekân + etkileşim"
+      ],
+      "assessment_look_fors": [
+        "Kavram ile işlev arasında doğru ilişki.",
+        "Ürün kararlarının amaç ve bağlama uygunluğu.",
+        "Kaynak metinle anlamlı bağ.",
+        "Sahne tercihlerinin işlevsel ve tutarlı olması.",
+        "Prova sonrası görünür revizyon."
+      ],
+      "differentiation": {
+        "support": [
+          "Önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.",
+          "Korunacak / değişecek / sahnede nasıl gösterilecek başlıklı plan ver."
+        ],
+        "enrichment": [
+          "Aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.",
+          "Aynı sahneyi iki farklı yönetmenlik yaklaşımıyla tasarlayıp etkisini karşılaştır."
+        ]
+      },
+      "source_limitations": [
+        "Dış QR rubrikte yerel PDF'de görünmeyen ölçüt×düzey açıklamaları uydurulmamalı."
+      ]
+    },
+    {
+      "block_id": "T04V2_T4_GUIDE_U14_KONUSMA_DEGERLENDIRME",
+      "section_id": "T4_SEC_03_KONUSMA_CANLANDIRMA",
+      "printed_page_range": "283",
+      "title": "Canlandırma Sonrası Değerlendirme",
+      "source_item_refs": [
+        "T4_G03_P283_RUBRIK",
+        "T4_G03_P283_YANSITMA"
+      ],
+      "book_task_summaries": [
+        "Dereceli puanlama anahtarı — görünür ölçütler ve dış QR sınırı [ASSESSMENT]",
+        "Yansıtma yazısı, rol arkadaşı geribildirimi ve konuşmacı kimliği [ASSESSMENT]"
+      ],
+      "pedagogical_intent": "Tiyatro metnini yeniden kurgulayıp canlandırırken kaynak metnin çekirdeğini, yeni dramatik tercihi ve sözlü-sözsüz sahne iletişimini birlikte yönet. Görünür kitap ölçütleriyle performansı değerlendirmek, dış QR rubriğinin sınırını korumak ve yansıtma yapmak.",
+      "teacher_moves": [
+        "Öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.",
+        "Geri bildirimi sonraki ürün değişikliğine veya öğrenme davranışına bağla.",
+        "Yeniden kurgulamada neyin korunacağını ve neyin değişeceğini prova öncesi belirlet.",
+        "Canlandırmada beden, ses, mekân ve nesne kullanımını ana düşünceye hizmet ettiği ölçüde değerlendir.",
+        "Prova geri bildirimini oyunculuk beğenisine değil belirli performans ölçütlerine bağla."
+      ],
+      "follow_up_questions": [
+        "Bu değerlendirmene hangi ürün veya performans ayrıntısı kanıt?",
+        "Bir sonraki benzer görevde tek bir şeyi değiştirecek olsan neyi değiştirirsin?",
+        "Kaynak metinden hangi çatışmayı veya iletiyi korudun?",
+        "Bu sahneleme tercihi izleyicinin karakteri anlamasını nasıl etkiliyor?"
+      ],
+      "misconception_interventions": [
+        "Formu otomatik olumlu işaretleyen öğrenciye belirli bir örnek göstermeden yargıyı tamamlanmış sayma.",
+        "Yeniden kurgulamayı yalnız karakter adlarını değiştirmek sanan öğrenciye durum, çatışma, bağlam ve sahne tercihlerini ayrı düşündür.",
+        "Yüksek sesle konuşmayı iyi oyunculuk sayan öğrenciye vurgu, tonlama ve bağlama uygunluğu göster."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Öz değerlendirme = yargı + kanıt + yeni hedef",
+        "Tahtaya yaz: Geri bildirim → değerlendir → karar ver → revize et",
+        "Tahtaya yaz: Yeniden kurgu = korunan çekirdek + bilinçli değişiklik",
+        "Tahtaya yaz: Sahne performansı = söz + ses + beden + mekân + etkileşim"
+      ],
+      "assessment_look_fors": [
+        "Kanıta dayalı öz değerlendirme.",
+        "Uygulanabilir bir sonraki adım veya revizyon.",
+        "Kaynak metinle anlamlı bağ.",
+        "Sahne tercihlerinin işlevsel ve tutarlı olması.",
+        "Prova sonrası görünür revizyon."
+      ],
+      "differentiation": {
+        "support": [
+          "Bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan.",
+          "Korunacak / değişecek / sahnede nasıl gösterilecek başlıklı plan ver."
+        ],
+        "enrichment": [
+          "Bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste.",
+          "Aynı sahneyi iki farklı yönetmenlik yaklaşımıyla tasarlayıp etkisini karşılaştır."
+        ]
+      },
+      "source_limitations": [
+        "Dış QR rubrikte yerel PDF'de görünmeyen ölçüt×düzey açıklamaları uydurulmamalı."
+      ]
+    },
+    {
+      "block_id": "T04V2_T4_GUIDE_U15_DINLEME_YONETIM",
+      "section_id": "T4_SEC_04_DINLEME_BELGESEL",
+      "printed_page_range": "284-286",
+      "title": "Dinleme/İzlemeyi Yönetme — Hayat, Edebiyat ve Belgesel",
+      "source_item_refs": [
+        "T4_G04_P284_HAYAT_EDEBIYAT",
+        "T4_G04_P285_DINLEME_PLANI",
+        "T4_G04_P286_NOT_ILETI"
+      ],
+      "book_task_summaries": [
+        "Hayat ve edebiyat ilişkisi [QUESTION]",
+        "Fedakârlık belgeseli — amaç, tahmin, engel, strateji [PROCESS]",
+        "Tema kelimeleri ve belgesel iletilerini not etme [PROCESS]"
+      ],
+      "pedagogical_intent": "Anadolu İnsanı / Fedakârlık dinleme-izleme çalışmalarında görüntü, ses, anlatıcı, kişi, olay ve değer temsilini kanıta dayalı çok modlu okuma ile çözümlet. Edebiyat-toplum ilişkisini hatırlayıp belgeseli amaç, tahmin, strateji ve dinleme kurallarıyla izlemeye hazırlamak.",
+      "teacher_moves": [
+        "Göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir.",
+        "Tahmini doğru-yanlış olarak değil görünür ipucuna dayalı çıkarım olarak değerlendir.",
+        "Fedakârlık gibi değer kavramlarını doğrudan etiketlemek yerine davranış ve sonuç üzerinden çıkarttır.",
+        "Görüntü ile sözlü anlatının aynı mesajı mı desteklediğini yoksa farklı bilgi mi eklediğini sordur.",
+        "Dış medya ayrıntısını yalnız gerçekten izlenen içerikten kabul et."
+      ],
+      "follow_up_questions": [
+        "Bu tahmini hangi başlık, görsel, kelime veya ön bilgiye dayandırdın?",
+        "Seçtiğin strateji bu görevde sana tam olarak ne sağlayacak?",
+        "Bu kişinin davranışını fedakârlık olarak nitelemene hangi eylem kanıt?",
+        "Görüntü kapatılsa hangi bilgi veya duygu kaybolur?",
+        "Anlatıcı bu kişiyi nasıl çerçeveliyor; başka bir anlatım mümkün mü?"
+      ],
+      "misconception_interventions": [
+        "Gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur.",
+        "Değeri yalnız sözcük olarak bulup davranış kanıtı göstermeyen öğrenciye eylem→sonuç ilişkisi kurdur.",
+        "Belgeseli tamamen tarafsız gerçekliğin kaydı sayan öğrenciye seçilmiş görüntü, kurgu ve anlatıcı tercihini düşündür."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Tahmin = ipucu + çıkarım",
+        "Tahtaya yaz: Amaç → uygun strateji → toplanacak kanıt",
+        "Tahtaya yaz: Değer → davranış → sonuç → kanıt",
+        "Tahtaya yaz: Belgesel = gerçek malzeme + seçme + kurgu + anlatıcı bakışı",
+        "Tahtaya yaz: Görsel/işitsel unsur → anlam katkısı"
+      ],
+      "assessment_look_fors": [
+        "Amaç ile strateji arasında açık uyum.",
+        "Tahminin görünür bir kaynağa dayanması.",
+        "Değer çıkarımının davranış kanıtına dayanması.",
+        "Görsel ve işitsel unsurların işlevini açıklama.",
+        "Gözlem ile yorumun ayrılması."
+      ],
+      "differentiation": {
+        "support": [
+          "Amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan.",
+          "Gördüm / duydum / çıkardım biçiminde üç sütunlu dinleme-izleme notu ver."
+        ],
+        "enrichment": [
+          "Aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat.",
+          "Aynı kişi veya olay için iki farklı belgesel anlatıcı cümlesi yazdırıp çerçeveleme farkını tartıştır."
+        ]
+      },
+      "source_limitations": [
+        "Dış videolarda yerel PDF'de görünmeyen sahne, kişi veya anlatıcı ayrıntıları resmî cevap gibi üretilmemeli."
+      ]
+    },
+    {
+      "block_id": "T04V2_T4_GUIDE_U16_DINLEME_ANLAM",
+      "section_id": "T4_SEC_04_DINLEME_BELGESEL",
+      "printed_page_range": "287-291",
+      "title": "Fedakârlık — Söz Varlığı, Ana Düşünce ve Güvenilirlik",
+      "source_item_refs": [
+        "T4_G04_P287_SOZ_VARLIGI",
+        "T4_G04_P287_289_VIDEO_ANLAM",
+        "T4_G04_P289_291_BELGESEL_GUVEN"
+      ],
+      "book_task_summaries": [
+        "Belgesel söz varlığı [VOCABULARY]",
+        "Anadolu insanı, konu-tema-ana düşünce ve kişi çıkarımı [QUESTION]",
+        "Belgesel kurgusu, öznel-nesnel ifadeler ve ileti güvenilirliği [ASSESSMENT]"
+      ],
+      "pedagogical_intent": "Anadolu İnsanı / Fedakârlık dinleme-izleme çalışmalarında görüntü, ses, anlatıcı, kişi, olay ve değer temsilini kanıta dayalı çok modlu okuma ile çözümlet. Video içeriğinden söz varlığı, konu/tema, kişi çıkarımı, öznel-nesnel ifade ve açık/örtük ileti üretmek.",
+      "teacher_moves": [
+        "Cevabın yanına kısa metin, görsel veya dinleme kanıtı istemeyi varsayılan sınıf rutini hâline getir.",
+        "Konu, tema, ileti, yorum ve çıkarım gibi yakın kavramları görev üzerinde birbirinden ayır.",
+        "Fedakârlık gibi değer kavramlarını doğrudan etiketlemek yerine davranış ve sonuç üzerinden çıkarttır.",
+        "Görüntü ile sözlü anlatının aynı mesajı mı desteklediğini yoksa farklı bilgi mi eklediğini sordur.",
+        "Dış medya ayrıntısını yalnız gerçekten izlenen içerikten kabul et."
+      ],
+      "follow_up_questions": [
+        "Bu cevabını kaynakta hangi ayrıntı destekliyor?",
+        "Aynı kanıttan başka bir makul yorum çıkar mı?",
+        "Bu kişinin davranışını fedakârlık olarak nitelemene hangi eylem kanıt?",
+        "Görüntü kapatılsa hangi bilgi veya duygu kaybolur?",
+        "Anlatıcı bu kişiyi nasıl çerçeveliyor; başka bir anlatım mümkün mü?"
+      ],
+      "misconception_interventions": [
+        "Yorumu kaynakta açıkça söylenmiş bilgi gibi sunan öğrenciye 'metinde var / ben çıkarıyorum' ayrımı yaptır.",
+        "Değeri yalnız sözcük olarak bulup davranış kanıtı göstermeyen öğrenciye eylem→sonuç ilişkisi kurdur.",
+        "Belgeseli tamamen tarafsız gerçekliğin kaydı sayan öğrenciye seçilmiş görüntü, kurgu ve anlatıcı tercihini düşündür."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Cevap = yargı + kanıt + gerekçe",
+        "Tahtaya yaz: Açık bilgi ≠ yorum/çıkarım",
+        "Tahtaya yaz: Değer → davranış → sonuç → kanıt",
+        "Tahtaya yaz: Belgesel = gerçek malzeme + seçme + kurgu + anlatıcı bakışı",
+        "Tahtaya yaz: Görsel/işitsel unsur → anlam katkısı"
+      ],
+      "assessment_look_fors": [
+        "Cevabın kaynak kanıtıyla uyumu.",
+        "Açık bilgi ile çıkarımın ayrılması.",
+        "Değer çıkarımının davranış kanıtına dayanması.",
+        "Görsel ve işitsel unsurların işlevini açıklama.",
+        "Gözlem ile yorumun ayrılması."
+      ],
+      "differentiation": {
+        "support": [
+          "Cevabım / kanıtım biçiminde iki sütunlu çalışma alanı ver.",
+          "Gördüm / duydum / çıkardım biçiminde üç sütunlu dinleme-izleme notu ver."
+        ],
+        "enrichment": [
+          "İki olası yorumu kanıt gücü bakımından karşılaştırmasını iste.",
+          "Aynı kişi veya olay için iki farklı belgesel anlatıcı cümlesi yazdırıp çerçeveleme farkını tartıştır."
+        ]
+      },
+      "source_limitations": [
+        "Dış videolarda yerel PDF'de görünmeyen sahne, kişi veya anlatıcı ayrıntıları resmî cevap gibi üretilmemeli."
+      ]
+    },
+    {
+      "block_id": "T04V2_T4_GUIDE_U17_DINLEME_COZUMLEME",
+      "section_id": "T4_SEC_04_DINLEME_BELGESEL",
+      "printed_page_range": "292-296",
+      "title": "Belgeseli Çözümleme — Yapı, Dil, Dönem, Ses/Görüntü ve Disiplinler",
+      "source_item_refs": [
+        "T4_G04_P292_IKLIM",
+        "T4_G04_P293_CALISKANLIK",
+        "T4_G04_P294_295_YAPI_DIL",
+        "T4_G04_P295_296_SES_GORUNTU",
+        "T4_G04_P296_DEGER_DISIPLIN"
+      ],
+      "book_task_summaries": [
+        "İklim değişikliği — bireysel sorumluluk [QUESTION]",
+        "Fedakârlık — Çalışkanlık belgesellerini karşılaştırma [TABLE]",
+        "Yapı unsurları, dil ve dönem/toplum ilişkisi [TABLE]",
+        "Ses ve görüntünün çok modlu metne katkısı [QUESTION]",
+        "Değerler ve sosyoloji-psikoloji-coğrafya ilişkisi [QUESTION]"
+      ],
+      "pedagogical_intent": "Anadolu İnsanı / Fedakârlık dinleme-izleme çalışmalarında görüntü, ses, anlatıcı, kişi, olay ve değer temsilini kanıta dayalı çok modlu okuma ile çözümlet. Fedakârlık belgeselini yapı ve çok modluluk açısından çözümlemek; metinler arası/disciplinler arası bağ kurmak.",
+      "teacher_moves": [
+        "Kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.",
+        "Ürün görevlerinde ilk taslak ile son ürün arasındaki değişikliği görünür kıl.",
+        "Fedakârlık gibi değer kavramlarını doğrudan etiketlemek yerine davranış ve sonuç üzerinden çıkarttır.",
+        "Görüntü ile sözlü anlatının aynı mesajı mı desteklediğini yoksa farklı bilgi mi eklediğini sordur.",
+        "Dış medya ayrıntısını yalnız gerçekten izlenen içerikten kabul et."
+      ],
+      "follow_up_questions": [
+        "Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?",
+        "Yaptığın bu tercihin amaç ve hedef kitleyle ilişkisi nedir?",
+        "Bu kişinin davranışını fedakârlık olarak nitelemene hangi eylem kanıt?",
+        "Görüntü kapatılsa hangi bilgi veya duygu kaybolur?",
+        "Anlatıcı bu kişiyi nasıl çerçeveliyor; başka bir anlatım mümkün mü?"
+      ],
+      "misconception_interventions": [
+        "Terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt.",
+        "Değeri yalnız sözcük olarak bulup davranış kanıtı göstermeyen öğrenciye eylem→sonuç ilişkisi kurdur.",
+        "Belgeseli tamamen tarafsız gerçekliğin kaydı sayan öğrenciye seçilmiş görüntü, kurgu ve anlatıcı tercihini düşündür."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Unsur → işlev → etki",
+        "Tahtaya yaz: Taslak → geri bildirim → karar → revizyon",
+        "Tahtaya yaz: Değer → davranış → sonuç → kanıt",
+        "Tahtaya yaz: Belgesel = gerçek malzeme + seçme + kurgu + anlatıcı bakışı",
+        "Tahtaya yaz: Görsel/işitsel unsur → anlam katkısı"
+      ],
+      "assessment_look_fors": [
+        "Kavram ile işlev arasında doğru ilişki.",
+        "Ürün kararlarının amaç ve bağlama uygunluğu.",
+        "Değer çıkarımının davranış kanıtına dayanması.",
+        "Görsel ve işitsel unsurların işlevini açıklama.",
+        "Gözlem ile yorumun ayrılması."
+      ],
+      "differentiation": {
+        "support": [
+          "Önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.",
+          "Gördüm / duydum / çıkardım biçiminde üç sütunlu dinleme-izleme notu ver."
+        ],
+        "enrichment": [
+          "Aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.",
+          "Aynı kişi veya olay için iki farklı belgesel anlatıcı cümlesi yazdırıp çerçeveleme farkını tartıştır."
+        ]
+      },
+      "source_limitations": [
+        "Dış videolarda yerel PDF'de görünmeyen sahne, kişi veya anlatıcı ayrıntıları resmî cevap gibi üretilmemeli."
+      ]
+    },
+    {
+      "block_id": "T04V2_T4_GUIDE_U18_DINLEME_DEGERLENDIRME",
+      "section_id": "T4_SEC_04_DINLEME_BELGESEL",
+      "printed_page_range": "297",
+      "title": "Etkin Dinleyici Kimliği ve Öğrenme Günlüğü",
+      "source_item_refs": [
+        "T4_G04_P297_DEGERLENDIRME",
+        "T4_G04_P297_GUNLUK"
+      ],
+      "book_task_summaries": [
+        "Belgeselin kattığı değer ve davranışları değerlendirme [ASSESSMENT]",
+        "Etkin dinleyici öğrenme günlüğü [ASSESSMENT]"
+      ],
+      "pedagogical_intent": "Anadolu İnsanı / Fedakârlık dinleme-izleme çalışmalarında görüntü, ses, anlatıcı, kişi, olay ve değer temsilini kanıta dayalı çok modlu okuma ile çözümlet. Belgeseli kişisel beğeni, hayat bağlantısı ve dinleme davranışı açısından değerlendirmek.",
+      "teacher_moves": [
+        "Cevabın yanına kısa metin, görsel veya dinleme kanıtı istemeyi varsayılan sınıf rutini hâline getir.",
+        "Konu, tema, ileti, yorum ve çıkarım gibi yakın kavramları görev üzerinde birbirinden ayır.",
+        "Fedakârlık gibi değer kavramlarını doğrudan etiketlemek yerine davranış ve sonuç üzerinden çıkarttır.",
+        "Görüntü ile sözlü anlatının aynı mesajı mı desteklediğini yoksa farklı bilgi mi eklediğini sordur.",
+        "Dış medya ayrıntısını yalnız gerçekten izlenen içerikten kabul et."
+      ],
+      "follow_up_questions": [
+        "Bu cevabını kaynakta hangi ayrıntı destekliyor?",
+        "Aynı kanıttan başka bir makul yorum çıkar mı?",
+        "Bu kişinin davranışını fedakârlık olarak nitelemene hangi eylem kanıt?",
+        "Görüntü kapatılsa hangi bilgi veya duygu kaybolur?",
+        "Anlatıcı bu kişiyi nasıl çerçeveliyor; başka bir anlatım mümkün mü?"
+      ],
+      "misconception_interventions": [
+        "Yorumu kaynakta açıkça söylenmiş bilgi gibi sunan öğrenciye 'metinde var / ben çıkarıyorum' ayrımı yaptır.",
+        "Değeri yalnız sözcük olarak bulup davranış kanıtı göstermeyen öğrenciye eylem→sonuç ilişkisi kurdur.",
+        "Belgeseli tamamen tarafsız gerçekliğin kaydı sayan öğrenciye seçilmiş görüntü, kurgu ve anlatıcı tercihini düşündür."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Cevap = yargı + kanıt + gerekçe",
+        "Tahtaya yaz: Açık bilgi ≠ yorum/çıkarım",
+        "Tahtaya yaz: Değer → davranış → sonuç → kanıt",
+        "Tahtaya yaz: Belgesel = gerçek malzeme + seçme + kurgu + anlatıcı bakışı",
+        "Tahtaya yaz: Görsel/işitsel unsur → anlam katkısı"
+      ],
+      "assessment_look_fors": [
+        "Cevabın kaynak kanıtıyla uyumu.",
+        "Açık bilgi ile çıkarımın ayrılması.",
+        "Değer çıkarımının davranış kanıtına dayanması.",
+        "Görsel ve işitsel unsurların işlevini açıklama.",
+        "Gözlem ile yorumun ayrılması."
+      ],
+      "differentiation": {
+        "support": [
+          "Cevabım / kanıtım biçiminde iki sütunlu çalışma alanı ver.",
+          "Gördüm / duydum / çıkardım biçiminde üç sütunlu dinleme-izleme notu ver."
+        ],
+        "enrichment": [
+          "İki olası yorumu kanıt gücü bakımından karşılaştırmasını iste.",
+          "Aynı kişi veya olay için iki farklı belgesel anlatıcı cümlesi yazdırıp çerçeveleme farkını tartıştır."
+        ]
+      },
+      "source_limitations": [
+        "Dış videolarda yerel PDF'de görünmeyen sahne, kişi veya anlatıcı ayrıntıları resmî cevap gibi üretilmemeli."
+      ]
+    },
+    {
+      "block_id": "T04V2_T4_GUIDE_U19_YAZMA_YONETIM",
+      "section_id": "T4_SEC_05_YAZMA_AFIS",
+      "printed_page_range": "298-299",
+      "title": "Afiş Tasarımını Yönetme — Ölçüt ve Amaç",
+      "source_item_refs": [
+        "T4_G05_P298_AFIS_OLCUT",
+        "T4_G05_P299_AFIS_HAZIRLIK",
+        "T4_G05_P299_PERFORMANS"
+      ],
+      "book_task_summaries": [
+        "Afiş tasarımında temel ölçütler [REFERENCE]",
+        "Afişin dikkat çekme ve etkileme gücü [QUESTION]",
+        "Afiş hazırlama performans görevi — amaç ve strateji [PERFORMANCE_TASK]"
+      ],
+      "pedagogical_intent": "Afiş görevini süsleme etkinliği değil hedef kitle, ana mesaj, görsel hiyerarşi, kısa dil ve etik kaynak kullanımının birleştiği çok modlu yazma görevi olarak yürüt. Afişin iletişim işlevini, tasarım ölçütlerini, hedefi ve yazma stratejisini belirlemek.",
+      "teacher_moves": [
+        "Göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir.",
+        "Tahmini doğru-yanlış olarak değil görünür ipucuna dayalı çıkarım olarak değerlendir.",
+        "Önce tek ana mesajı netleştir; görsel ve metin seçimlerini bu mesaja göre sınırla.",
+        "Öğrenciden görsel hiyerarşiyi hangi sırayla okutmak istediğini açıklamasını iste.",
+        "Kaynak görsel ve alıntılarda telif/atıf sınırını görünür kıl."
+      ],
+      "follow_up_questions": [
+        "Bu tahmini hangi başlık, görsel, kelime veya ön bilgiye dayandırdın?",
+        "Seçtiğin strateji bu görevde sana tam olarak ne sağlayacak?",
+        "Afişe üç saniye bakan biri hangi mesajı almalı?",
+        "Bu görsel metnin hangi düşüncesini destekliyor?",
+        "Bir öğeyi çıkaracak olsan hangisini çıkarırsın ve neden?"
+      ],
+      "misconception_interventions": [
+        "Gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur.",
+        "Afişi uzun bilgilendirme metniyle dolduran öğrenciye ana mesaj ve görsel hiyerarşi ölçütünü uygulat.",
+        "Dekoratif görseli işlevsel görsel sanan öğrenciye mesajla bağını sordur."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Tahmin = ipucu + çıkarım",
+        "Tahtaya yaz: Amaç → uygun strateji → toplanacak kanıt",
+        "Tahtaya yaz: Afiş = tek ana mesaj + kısa metin + görsel hiyerarşi + hedef kitle",
+        "Tahtaya yaz: Her öğe şu soruyu geçmeli: Ana mesaja hizmet ediyor mu?"
+      ],
+      "assessment_look_fors": [
+        "Amaç ile strateji arasında açık uyum.",
+        "Tahminin görünür bir kaynağa dayanması.",
+        "Ana mesajın hızlı ve açık algılanması.",
+        "Metin-görsel bütünlüğü.",
+        "Hedef kitleye uygun dil ve tasarım kararı.",
+        "Revizyon izi ve kaynak sorumluluğu."
+      ],
+      "differentiation": {
+        "support": [
+          "Amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan.",
+          "Başlık / ana görsel / kısa destek metni / çağrı alanı için basit tel kafes şablonu ver."
+        ],
+        "enrichment": [
+          "Aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat.",
+          "Aynı afişin iki farklı hedef kitle için varyantını üretip tasarım kararlarını karşılaştır."
+        ]
+      },
+      "source_limitations": [
+        "Dış QR değerlendirme aracının görünmeyen seviye açıklamaları resmî rubrik gibi üretilmemeli."
+      ]
+    },
+    {
+      "block_id": "T04V2_T4_GUIDE_U20_YAZMA_ICERIK",
+      "section_id": "T4_SEC_05_YAZMA_AFIS",
+      "printed_page_range": "300",
+      "title": "Afiş İçeriğini Oluşturma",
+      "source_item_refs": [
+        "T4_G05_P300_TASARIM_KARAR"
+      ],
+      "book_task_summaries": [
+        "Renk, yazı, görsel ve ileti seçimi [PERFORMANCE_TASK]"
+      ],
+      "pedagogical_intent": "Afiş görevini süsleme etkinliği değil hedef kitle, ana mesaj, görsel hiyerarşi, kısa dil ve etik kaynak kullanımının birleştiği çok modlu yazma görevi olarak yürüt. Renk, yazı, görsel ve seçilen belgesel iletisini tek bir iletişim sistemi içinde planlamak.",
+      "teacher_moves": [
+        "Kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.",
+        "Ürün görevlerinde ilk taslak ile son ürün arasındaki değişikliği görünür kıl.",
+        "Önce tek ana mesajı netleştir; görsel ve metin seçimlerini bu mesaja göre sınırla.",
+        "Öğrenciden görsel hiyerarşiyi hangi sırayla okutmak istediğini açıklamasını iste.",
+        "Kaynak görsel ve alıntılarda telif/atıf sınırını görünür kıl."
+      ],
+      "follow_up_questions": [
+        "Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?",
+        "Yaptığın bu tercihin amaç ve hedef kitleyle ilişkisi nedir?",
+        "Afişe üç saniye bakan biri hangi mesajı almalı?",
+        "Bu görsel metnin hangi düşüncesini destekliyor?",
+        "Bir öğeyi çıkaracak olsan hangisini çıkarırsın ve neden?"
+      ],
+      "misconception_interventions": [
+        "Terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt.",
+        "Afişi uzun bilgilendirme metniyle dolduran öğrenciye ana mesaj ve görsel hiyerarşi ölçütünü uygulat.",
+        "Dekoratif görseli işlevsel görsel sanan öğrenciye mesajla bağını sordur."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Unsur → işlev → etki",
+        "Tahtaya yaz: Taslak → geri bildirim → karar → revizyon",
+        "Tahtaya yaz: Afiş = tek ana mesaj + kısa metin + görsel hiyerarşi + hedef kitle",
+        "Tahtaya yaz: Her öğe şu soruyu geçmeli: Ana mesaja hizmet ediyor mu?"
+      ],
+      "assessment_look_fors": [
+        "Kavram ile işlev arasında doğru ilişki.",
+        "Ürün kararlarının amaç ve bağlama uygunluğu.",
+        "Ana mesajın hızlı ve açık algılanması.",
+        "Metin-görsel bütünlüğü.",
+        "Hedef kitleye uygun dil ve tasarım kararı.",
+        "Revizyon izi ve kaynak sorumluluğu."
+      ],
+      "differentiation": {
+        "support": [
+          "Önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.",
+          "Başlık / ana görsel / kısa destek metni / çağrı alanı için basit tel kafes şablonu ver."
+        ],
+        "enrichment": [
+          "Aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.",
+          "Aynı afişin iki farklı hedef kitle için varyantını üretip tasarım kararlarını karşılaştır."
+        ]
+      },
+      "source_limitations": [
+        "Dış QR değerlendirme aracının görünmeyen seviye açıklamaları resmî rubrik gibi üretilmemeli."
+      ]
+    },
+    {
+      "block_id": "T04V2_T4_GUIDE_U21_YAZMA_UYGULAMA",
+      "section_id": "T4_SEC_05_YAZMA_AFIS",
+      "printed_page_range": "301",
+      "title": "Afişi Oluşturma ve Kural Uygulama",
+      "source_item_refs": [
+        "T4_G05_P301_AFIS_UYGULAMA",
+        "T4_G05_P301_TELIF_ON_HAZIRLIK"
+      ],
+      "book_task_summaries": [
+        "Afiş oluşturma kuralları [PERFORMANCE_TASK]",
+        "Görsel ve bilgi kaynağı seçimi [TEACHER_NOTE]"
+      ],
+      "pedagogical_intent": "Afiş görevini süsleme etkinliği değil hedef kitle, ana mesaj, görsel hiyerarşi, kısa dil ve etik kaynak kullanımının birleştiği çok modlu yazma görevi olarak yürüt. Taslağı geri bildirimle geliştirip Türkçe, tutarlılık, özgünlük, hedef kitle ve toplumsal hassasiyet kurallarıyla afişi tamamlamak.",
+      "teacher_moves": [
+        "Kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.",
+        "Ürün görevlerinde ilk taslak ile son ürün arasındaki değişikliği görünür kıl.",
+        "Önce tek ana mesajı netleştir; görsel ve metin seçimlerini bu mesaja göre sınırla.",
+        "Öğrenciden görsel hiyerarşiyi hangi sırayla okutmak istediğini açıklamasını iste.",
+        "Kaynak görsel ve alıntılarda telif/atıf sınırını görünür kıl."
+      ],
+      "follow_up_questions": [
+        "Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?",
+        "Yaptığın bu tercihin amaç ve hedef kitleyle ilişkisi nedir?",
+        "Afişe üç saniye bakan biri hangi mesajı almalı?",
+        "Bu görsel metnin hangi düşüncesini destekliyor?",
+        "Bir öğeyi çıkaracak olsan hangisini çıkarırsın ve neden?"
+      ],
+      "misconception_interventions": [
+        "Terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt.",
+        "Afişi uzun bilgilendirme metniyle dolduran öğrenciye ana mesaj ve görsel hiyerarşi ölçütünü uygulat.",
+        "Dekoratif görseli işlevsel görsel sanan öğrenciye mesajla bağını sordur."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Unsur → işlev → etki",
+        "Tahtaya yaz: Taslak → geri bildirim → karar → revizyon",
+        "Tahtaya yaz: Afiş = tek ana mesaj + kısa metin + görsel hiyerarşi + hedef kitle",
+        "Tahtaya yaz: Her öğe şu soruyu geçmeli: Ana mesaja hizmet ediyor mu?"
+      ],
+      "assessment_look_fors": [
+        "Kavram ile işlev arasında doğru ilişki.",
+        "Ürün kararlarının amaç ve bağlama uygunluğu.",
+        "Ana mesajın hızlı ve açık algılanması.",
+        "Metin-görsel bütünlüğü.",
+        "Hedef kitleye uygun dil ve tasarım kararı.",
+        "Revizyon izi ve kaynak sorumluluğu."
+      ],
+      "differentiation": {
+        "support": [
+          "Önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.",
+          "Başlık / ana görsel / kısa destek metni / çağrı alanı için basit tel kafes şablonu ver."
+        ],
+        "enrichment": [
+          "Aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.",
+          "Aynı afişin iki farklı hedef kitle için varyantını üretip tasarım kararlarını karşılaştır."
+        ]
+      },
+      "source_limitations": [
+        "Dış QR değerlendirme aracının görünmeyen seviye açıklamaları resmî rubrik gibi üretilmemeli."
+      ]
+    },
+    {
+      "block_id": "T04V2_T4_GUIDE_U22_YAZMA_DEGERLENDIRME",
+      "section_id": "T4_SEC_05_YAZMA_AFIS",
+      "printed_page_range": "302",
+      "title": "Afiş ve Yazma Sürecini Değerlendirme",
+      "source_item_refs": [
+        "T4_G05_P302_AFIS_OZDEGER",
+        "T4_G05_P302_RUBRIK",
+        "T4_G05_P302_TEMA_GUNLUK"
+      ],
+      "book_task_summaries": [
+        "Afiş öz değerlendirmesi ve paylaşım [ASSESSMENT]",
+        "Dereceli puanlama anahtarı — görünür ölçütler ve QR sınırı [ASSESSMENT]",
+        "Tema sonu öğrenme günlüğü [ASSESSMENT]"
+      ],
+      "pedagogical_intent": "Afiş görevini süsleme etkinliği değil hedef kitle, ana mesaj, görsel hiyerarşi, kısa dil ve etik kaynak kullanımının birleştiği çok modlu yazma görevi olarak yürüt. Ürünü içerik/dil/telif yönünden değerlendirmek; dış QR rubriğinin sınırını koruyup tema sonu öğrenme günlüğüyle hedef belirlemek.",
+      "teacher_moves": [
+        "Öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.",
+        "Geri bildirimi sonraki ürün değişikliğine veya öğrenme davranışına bağla.",
+        "Önce tek ana mesajı netleştir; görsel ve metin seçimlerini bu mesaja göre sınırla.",
+        "Öğrenciden görsel hiyerarşiyi hangi sırayla okutmak istediğini açıklamasını iste.",
+        "Kaynak görsel ve alıntılarda telif/atıf sınırını görünür kıl."
+      ],
+      "follow_up_questions": [
+        "Bu değerlendirmene hangi ürün veya performans ayrıntısı kanıt?",
+        "Bir sonraki benzer görevde tek bir şeyi değiştirecek olsan neyi değiştirirsin?",
+        "Afişe üç saniye bakan biri hangi mesajı almalı?",
+        "Bu görsel metnin hangi düşüncesini destekliyor?",
+        "Bir öğeyi çıkaracak olsan hangisini çıkarırsın ve neden?"
+      ],
+      "misconception_interventions": [
+        "Formu otomatik olumlu işaretleyen öğrenciye belirli bir örnek göstermeden yargıyı tamamlanmış sayma.",
+        "Afişi uzun bilgilendirme metniyle dolduran öğrenciye ana mesaj ve görsel hiyerarşi ölçütünü uygulat.",
+        "Dekoratif görseli işlevsel görsel sanan öğrenciye mesajla bağını sordur."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Öz değerlendirme = yargı + kanıt + yeni hedef",
+        "Tahtaya yaz: Geri bildirim → değerlendir → karar ver → revize et",
+        "Tahtaya yaz: Afiş = tek ana mesaj + kısa metin + görsel hiyerarşi + hedef kitle",
+        "Tahtaya yaz: Her öğe şu soruyu geçmeli: Ana mesaja hizmet ediyor mu?"
+      ],
+      "assessment_look_fors": [
+        "Kanıta dayalı öz değerlendirme.",
+        "Uygulanabilir bir sonraki adım veya revizyon.",
+        "Ana mesajın hızlı ve açık algılanması.",
+        "Metin-görsel bütünlüğü.",
+        "Hedef kitleye uygun dil ve tasarım kararı.",
+        "Revizyon izi ve kaynak sorumluluğu."
+      ],
+      "differentiation": {
+        "support": [
+          "Bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan.",
+          "Başlık / ana görsel / kısa destek metni / çağrı alanı için basit tel kafes şablonu ver."
+        ],
+        "enrichment": [
+          "Bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste.",
+          "Aynı afişin iki farklı hedef kitle için varyantını üretip tasarım kararlarını karşılaştır."
+        ]
+      },
+      "source_limitations": [
+        "Dış QR değerlendirme aracının görünmeyen seviye açıklamaları resmî rubrik gibi üretilmemeli."
+      ]
+    },
+    {
+      "block_id": "T04V2_T4_GUIDE_U23_TEMA_OLCME_1_5",
+      "section_id": "T4_SEC_06_TEMA_SONU",
+      "printed_page_range": "303-305",
+      "title": "4. Tema Ölçme — 1-5. Sorular",
+      "source_item_refs": [
+        "T4_G06_P303_Q1",
+        "T4_G06_P304_Q2_3",
+        "T4_G06_P304_305_Q4_5"
+      ],
+      "book_task_summaries": [
+        "Soru 1 — Doğu/Batı sentezi ve modern Türk tiyatrosu [QUESTION]",
+        "Sorular 2-3 — metinler arası ilişki ve küçürek hikâye [ASSESSMENT]",
+        "Sorular 4-5 — duygu ve afiş görseli [QUESTION]"
+      ],
+      "pedagogical_intent": "Tema sonu sorularında tiyatro, küçürek hikâye, çok modlu belgesel ve afiş kazanımlarını yalnız terim ezberiyle değil işlev, kanıt ve tür farklarıyla değerlendir. Modern Türk tiyatrosu, küçürek hikâye ve afiş/duygu aktarımını ölçmek.",
+      "teacher_moves": [
+        "Çoktan seçmeli sorularda yalnız doğru seçeneği değil kısa gerekçeyi de iste.",
+        "Açık uçlu sorularda kabul edilebilir farklı cevapları kullanılan ölçüt ve kanıta göre değerlendir.",
+        "Tiyatro sorularında sahne ve dramatik yapı işlevini; küçürek hikâyede yoğunluk ve simgesel katmanı gerekçelendirt.",
+        "Değer sorularında kavram adının yanında davranış veya metin kanıtı iste.",
+        "Çoktan seçmeli sorularda eleme gerekçesini kısa cümleyle görünür kıl."
+      ],
+      "follow_up_questions": [
+        "Bu seçenek neden doğru; en güçlü kanıtın ne?",
+        "Diğer seçeneklerden biri neden elenir?",
+        "Bu türü tanımanı sağlayan en ayırt edici özellik hangisi?",
+        "Bu simgesel yorumu hangi ayrıntı destekliyor?",
+        "Bu değer hangi davranışta görünür oluyor?"
+      ],
+      "misconception_interventions": [
+        "Doğru cevabı ezberden veren öğrenciden kanıt istemeden tam öğrenme kabul etme.",
+        "Küçürek hikâyeyi yalnız kısa metin olarak tanımlayan öğrenciye anlam yoğunluğu ve okur katılımını sordur.",
+        "Tiyatro metnini yalnız diyalog bulunmasıyla tanımlayan öğrenciye dramatik örgü ve sahne boyutunu eklet."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Doğru cevap + gerekçe = güvenilir öğrenme kanıtı",
+        "Tahtaya yaz: Türü tanı = biçim + yapı + işlev",
+        "Tahtaya yaz: Simge yorumu = unsur + bağlam + kanıt",
+        "Tahtaya yaz: Değer = davranış + sonuç"
+      ],
+      "assessment_look_fors": [
+        "Cevap ile gerekçenin tutarlılığı.",
+        "Açık uçlu cevapta ölçüt ve kanıt kullanımı.",
+        "Tür bilgisinin ayırt edici özellikle gerekçelendirilmesi.",
+        "Simgesel yorumun metin kanıtına dayanması.",
+        "Değer çıkarımında davranış kanıtı."
+      ],
+      "differentiation": {
+        "support": [
+          "Soru kökündeki anahtar kavramları işaretlet ve seçenekleri tek tek kanıtla ele.",
+          "Tiyatro / küçürek hikâye / belgesel / afiş için dört sütunlu ayırt edici özellik özeti ver."
+        ],
+        "enrichment": [
+          "Yanlış bir seçeneği doğru hâle getirecek biçimde yeniden yazdır.",
+          "Yanlış bir seçenek veya zayıf açık uçlu cevabı daha güçlü kanıt kullanarak yeniden yazdır."
+        ]
+      }
+    },
+    {
+      "block_id": "T04V2_T4_GUIDE_U24_TEMA_OLCME_6_14",
+      "section_id": "T4_SEC_06_TEMA_SONU",
+      "printed_page_range": "305-307",
+      "title": "4. Tema Ölçme — 6-14. Sorular",
+      "source_item_refs": [
+        "T4_G06_P305_306_Q6_7",
+        "T4_G06_P306_Q8",
+        "T4_G06_P306_307_Q9_11",
+        "T4_G06_P307_Q12",
+        "T4_G06_P307_Q13_14"
+      ],
+      "book_task_summaries": [
+        "Sorular 6-7 — kostüm ve sözsüz iletişim [QUESTION]",
+        "Soru 8 — tiyatro terimleri [ASSESSMENT]",
+        "Sorular 9-11 — belgesel, teknoloji ve toplumsal bellek [ASSESSMENT]",
+        "Soru 12 — teknolojik gelişmeler belgeselin etkisini güçlendirdi mi? [QUESTION]",
+        "Sorular 13-14 — Anadolu İnsanı / Aidiyet [ASSESSMENT]"
+      ],
+      "pedagogical_intent": "Tema sonu sorularında tiyatro, küçürek hikâye, çok modlu belgesel ve afiş kazanımlarını yalnız terim ezberiyle değil işlev, kanıt ve tür farklarıyla değerlendir. Tiyatro sahne unsurları, belgesel-teknoloji-toplumsal bellek ve dış Aidiyet videosu üzerinden temayı değerlendirmek.",
+      "teacher_moves": [
+        "Çoktan seçmeli sorularda yalnız doğru seçeneği değil kısa gerekçeyi de iste.",
+        "Açık uçlu sorularda kabul edilebilir farklı cevapları kullanılan ölçüt ve kanıta göre değerlendir.",
+        "Tiyatro sorularında sahne ve dramatik yapı işlevini; küçürek hikâyede yoğunluk ve simgesel katmanı gerekçelendirt.",
+        "Değer sorularında kavram adının yanında davranış veya metin kanıtı iste.",
+        "Çoktan seçmeli sorularda eleme gerekçesini kısa cümleyle görünür kıl."
+      ],
+      "follow_up_questions": [
+        "Bu seçenek neden doğru; en güçlü kanıtın ne?",
+        "Diğer seçeneklerden biri neden elenir?",
+        "Bu türü tanımanı sağlayan en ayırt edici özellik hangisi?",
+        "Bu simgesel yorumu hangi ayrıntı destekliyor?",
+        "Bu değer hangi davranışta görünür oluyor?"
+      ],
+      "misconception_interventions": [
+        "Doğru cevabı ezberden veren öğrenciden kanıt istemeden tam öğrenme kabul etme.",
+        "Küçürek hikâyeyi yalnız kısa metin olarak tanımlayan öğrenciye anlam yoğunluğu ve okur katılımını sordur.",
+        "Tiyatro metnini yalnız diyalog bulunmasıyla tanımlayan öğrenciye dramatik örgü ve sahne boyutunu eklet."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Doğru cevap + gerekçe = güvenilir öğrenme kanıtı",
+        "Tahtaya yaz: Türü tanı = biçim + yapı + işlev",
+        "Tahtaya yaz: Simge yorumu = unsur + bağlam + kanıt",
+        "Tahtaya yaz: Değer = davranış + sonuç"
+      ],
+      "assessment_look_fors": [
+        "Cevap ile gerekçenin tutarlılığı.",
+        "Açık uçlu cevapta ölçüt ve kanıt kullanımı.",
+        "Tür bilgisinin ayırt edici özellikle gerekçelendirilmesi.",
+        "Simgesel yorumun metin kanıtına dayanması.",
+        "Değer çıkarımında davranış kanıtı."
+      ],
+      "differentiation": {
+        "support": [
+          "Soru kökündeki anahtar kavramları işaretlet ve seçenekleri tek tek kanıtla ele.",
+          "Tiyatro / küçürek hikâye / belgesel / afiş için dört sütunlu ayırt edici özellik özeti ver."
+        ],
+        "enrichment": [
+          "Yanlış bir seçeneği doğru hâle getirecek biçimde yeniden yazdır.",
+          "Yanlış bir seçenek veya zayıf açık uçlu cevabı daha güçlü kanıt kullanarak yeniden yazdır."
+        ]
+      }
+    }
+  ]
+}

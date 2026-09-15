@@ -1,0 +1,1381 @@
+{
+  "schema_version": "2.0.0",
+  "document_type": "TYMM_TEACHER_GUIDE_PEDAGOGY_OVERLAY",
+  "course_id": "TDE_11",
+  "theme_id": "TEMA_02",
+  "status": "REFERENCE_QUALITY",
+  "principles": [
+    "Ders kitabındaki gerçek soru ve görev görünür kalır; doğrulanmamış soru metni uydurulmaz.",
+    "Açık uçlu cevaplarda tek kalıp yerine metin veya medya kanıtı, gerekçe ve kabul edilebilir alternatifler aranır.",
+    "Öğretmen hamlesi cevabı vermeden önce öğrenciyi gözlem, karşılaştırma, çıkarım ve kanıta yöneltir.",
+    "Tahta notu yalnız kavramı veya düşünme yolunu görünür kılacağı yerde kullanılır.",
+    "Öz değerlendirme, akran geri bildirimi ve kontrol listeleri sonraki davranışa veya ürün revizyonuna bağlanır.",
+    "Farklılaştırma hazır cevabı vermek değil bilişsel yükü düzenlemek; zenginleştirme aynı hedefi daha derin kanıt ve karşılaştırmayla sürdürmektir.",
+    "Kültür, kimlik, dil ve değer konuları tek tiplik ya da üstünlük hiyerarşisi üretmeden tarihî ve bağlamsal çeşitlilik içinde işlenir."
+  ],
+  "blocks": [
+    {
+      "block_id": "T02V2_T2_GUIDE_U00_TEMA_ACILIS",
+      "section_id": "T2_GUIDE_SEC_00_TEMA_ACILIS",
+      "printed_page_range": "84-87",
+      "title": "Tema Açılışı ve Kültür-Dil Çerçevesi",
+      "source_item_refs": [
+        "T2_G00_P84_TEMA_CERCEVESI",
+        "T2_G00_P85_DEDE_KORKUT",
+        "T2_G00_P86_Q1_3",
+        "T2_G00_P87_Q1_3"
+      ],
+      "book_task_summaries": [
+        "Tema kapsamı ve beklenen öğrenmeler [REFERENCE]",
+        "Dede Korkut alıntısı — geçicilik ve kültürel bellek [REFERENCE]",
+        "Temaya Başlarken — edebiyat, millî kimlik ve kültür [QUESTION]",
+        "Düşünelim Paylaşalım — ortak alfabe ve dil birliği [QUESTION]"
+      ],
+      "pedagogical_intent": "Kültürü ortak hafıza, dil, edebî eser ve kuşak aktarımı üzerinden kur; ortaklık ile çeşitliliği birlikte görünür kıl. Temanın millî kimlik, kültür aktarımı, Türk dünyası ve ortak dil/alfabe odağını görünür kılmak.",
+      "teacher_moves": [
+        "Tema hedeflerini ezber listesi olarak vermek yerine öğrencinin ön bilgisini açığa çıkaran iki kısa soru ile başla.",
+        "Tema boyunca geri dönülecek ana kavramları görünür bir yol haritasına dönüştür.",
+        "Ortak alfabe ve dil birliği tartışmasını 'tek dile dönüşme' fikrine indirgeme.",
+        "Dede Korkut alıntısını kültürel belleğin kuşaklar arası kalıcılığına bağla."
+      ],
+      "follow_up_questions": [
+        "Bu düşünceni hangi örnek veya deneyim destekliyor?",
+        "Tema sonunda bu görüşünün değişip değişmediğini nasıl anlayabiliriz?",
+        "Bir toplumun hafızası yalnız tarih kitabıyla mı taşınır?",
+        "Ortak alfabe iletişimi kolaylaştırırken lehçe farklılıkları neden sürebilir?"
+      ],
+      "misconception_interventions": [
+        "Genel ve kanıtsız yargıyı doğrudan düzeltmek yerine somut örnek istemekle daralt.",
+        "Millî kimliği yalnız siyasî kimlik olarak gören öğrenciye dil, ortak hafıza, sanat ve değer örnekleri düşündür.",
+        "Alfabe birliği ile dil birliğini aynı şey sayan öğrenciye yazı sistemi ile dil yapısını ayırttır."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Ön bilgi → soru → kanıt → tema boyunca yeniden düşün",
+        "Tahtaya yaz: Kültürel bellek = dil + eser + değer + kuşak aktarımı",
+        "Tahtaya yaz: Ortaklık ≠ tek tiplilik",
+        "Tahtaya yaz: Alfabe = yazı sistemi | Dil/lehçe = daha geniş iletişim sistemi"
+      ],
+      "assessment_look_fors": [
+        "Ön bilgi ile gerekçenin birbirinden ayrılması.",
+        "Tema kavramları arasında ilk anlamlı bağların kurulması.",
+        "Edebiyat-kimlik-kültür arasında gerekçeli bağ.",
+        "Ortak alfabenin katkı ve sınırlarını birlikte gören cevap."
+      ],
+      "differentiation": {
+        "support": [
+          "Anahtar kavramları kısa kelime kartlarıyla ver ve öğrencinin örnekle eşleştirmesini sağla.",
+          "Dil–değer–hafıza anahtarlarıyla cümle başlatıcıları ver."
+        ],
+        "enrichment": [
+          "Tema kavramlarından ikisi arasında öğrencinin kendi örneğiyle ilişki kurmasını iste.",
+          "Farklı iki Türk coğrafyasındaki ortak bir kültür unsurunu benzerlik ve farklılıklarıyla araştırmasını iste."
+        ]
+      }
+    },
+    {
+      "block_id": "T02V2_T2_GUIDE_U01_OKUMA_YONETIM",
+      "section_id": "T2_SEC_01_OKUMA_HIKAYE_ANI",
+      "printed_page_range": "88-94",
+      "title": "Okumayı Yönetebilme",
+      "source_item_refs": [
+        "T2_G01_P88_KULTUR_ONBILGI",
+        "T2_G01_P89_ORTAK_KELIMELER",
+        "T2_G01_P89_90_OKUMA_STRATEJISI",
+        "T2_G01_P90_94_METIN_AKISI"
+      ],
+      "book_task_summaries": [
+        "Konuya Başlarken — ortak kültür çağrışımları [PROCESS]",
+        "Türk dünyasında ortak kelime kartları ve kelime duvarı [PROCESS]",
+        "Oğulla Buluşma — tahmin ve okuma stratejisi [PROCESS]",
+        "Oğulla Buluşma metninin okunması [REFERENCE]"
+      ],
+      "pedagogical_intent": "Oğulla Buluşma ve anı çalışmalarında olay, duygu, kültür ve dil çeşitliliğini metin kanıtıyla ilişkilendir; Türkçe çeşitliliğini değer hiyerarşisine dönüştürme. Türk dünyası ortak kültürü ve söz varlığı üzerinden Oğulla Buluşma metnine hazırlık yapmak; tahmin ve okuma stratejisini görünür kılmak.",
+      "teacher_moves": [
+        "Göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir.",
+        "Tahmini doğru-yanlış olarak değil görünür ipucuna dayalı çıkarım olarak değerlendir.",
+        "Çordon'un duygu değişimini olay akışıyla eşleştir.",
+        "Türkçenin farklı kollarındaki benzer sözcüklerde ses benzerliği ile anlam benzerliğini ayrı kontrol ettir.",
+        "Hikâye ile anıyı gerçeklik, anlatıcı ve kurmaca ölçütleriyle karşılaştır."
+      ],
+      "follow_up_questions": [
+        "Bu tahmini hangi başlık, görsel, kelime veya ön bilgiye dayandırdın?",
+        "Seçtiğin strateji bu görevde sana tam olarak ne sağlayacak?",
+        "Karakterin duygusunu değiştiren olay hangisi?",
+        "Bu kelimeler sesçe benziyor ama anlamca da aynı mı?",
+        "Anı ile hikâye geçmişi aynı biçimde mi kurar?"
+      ],
+      "misconception_interventions": [
+        "Gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur.",
+        "Lehçe veya şive farkını 'yanlış Türkçe' sayan öğrenciye tarihî-coğrafî çeşitlenme örneği göster.",
+        "Anıyı tamamen nesnel tarih belgesi sayan öğrenciye seçme, hatırlama ve kişisel bakış boyutunu düşündür."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Tahmin = ipucu + çıkarım",
+        "Tahtaya yaz: Amaç → uygun strateji → toplanacak kanıt",
+        "Tahtaya yaz: Olay → duygu değişimi → karakter hakkında çıkarım",
+        "Tahtaya yaz: Dil çeşitliliği = ortak kök + tarihî/coğrafî değişim",
+        "Tahtaya yaz: Hikâye = kurmaca | Anı = yaşantı temelli kişisel anlatım"
+      ],
+      "assessment_look_fors": [
+        "Amaç ile strateji arasında açık uyum.",
+        "Tahminin görünür bir kaynağa dayanması.",
+        "Olay-duygu ilişkisinin kanıtla kurulması.",
+        "Dil farklılığının somut örnekle açıklanması.",
+        "Tür karşılaştırmasında en az iki ölçüt."
+      ],
+      "differentiation": {
+        "support": [
+          "Amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan.",
+          "Olay / duygu / kültür unsuru için üç sütunlu not çizelgesi kullan."
+        ],
+        "enrichment": [
+          "Aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat.",
+          "Aynı olayı hikâye anlatıcısı ve anı yazarı olarak iki kısa paragrafta yeniden kurdur."
+        ]
+      }
+    },
+    {
+      "block_id": "T02V2_T2_GUIDE_U02_OKUMA_ANLAM",
+      "section_id": "T2_SEC_01_OKUMA_HIKAYE_ANI",
+      "printed_page_range": "95-104",
+      "title": "Anlam Oluşturabilme",
+      "source_item_refs": [
+        "T2_G02_P95_96_SOZ_VARLIGI",
+        "T2_G02_P96_98_TURKCE_CESITLILIK",
+        "T2_G02_P98_99_HATIRLAMA_KULTUR",
+        "T2_G02_P100_METNI_ANLAYALIM",
+        "T2_G02_P101_DIL_ANLATIM",
+        "T2_G02_P102_OZET",
+        "T2_G02_P102_104_DIL_BILGISI"
+      ],
+      "book_task_summaries": [
+        "Söz Varlığımız — katar, kampana, hat, toynak [VOCABULARY]",
+        "Türkçenin farklı kollarını karşılaştırma [TABLE]",
+        "Anlatmaya bağlı metin özellikleri ve ortak kültür görselleri [PROCESS]",
+        "Oğulla Buluşma — 1-8. sorular [QUESTION]",
+        "Öznel-nesnel ifadeler ve dil/anlatım tablosu [TABLE]",
+        "Oğulla Buluşma — özetleme [PERFORMANCE_TASK]",
+        "Fiil kipleri, çatı ve noktalama [TABLE]"
+      ],
+      "pedagogical_intent": "Oğulla Buluşma ve anı çalışmalarında olay, duygu, kültür ve dil çeşitliliğini metin kanıtıyla ilişkilendir; Türkçe çeşitliliğini değer hiyerarşisine dönüştürme. Söz varlığı, Türkçe çeşitliliği, hikâye anlama ve dil bilgisi görevlerini metin bağlamında yürütmek.",
+      "teacher_moves": [
+        "Cevabın yanına kısa metin, görsel veya dinleme kanıtı istemeyi varsayılan sınıf rutini hâline getir.",
+        "Konu, tema, ileti, yorum ve çıkarım gibi yakın kavramları görev üzerinde birbirinden ayır.",
+        "Çordon'un duygu değişimini olay akışıyla eşleştir.",
+        "Türkçenin farklı kollarındaki benzer sözcüklerde ses benzerliği ile anlam benzerliğini ayrı kontrol ettir.",
+        "Hikâye ile anıyı gerçeklik, anlatıcı ve kurmaca ölçütleriyle karşılaştır."
+      ],
+      "follow_up_questions": [
+        "Bu cevabını kaynakta hangi ayrıntı destekliyor?",
+        "Aynı kanıttan başka bir makul yorum çıkar mı?",
+        "Karakterin duygusunu değiştiren olay hangisi?",
+        "Bu kelimeler sesçe benziyor ama anlamca da aynı mı?",
+        "Anı ile hikâye geçmişi aynı biçimde mi kurar?"
+      ],
+      "misconception_interventions": [
+        "Yorumu kaynakta açıkça söylenmiş bilgi gibi sunan öğrenciye 'metinde var / ben çıkarıyorum' ayrımı yaptır.",
+        "Lehçe veya şive farkını 'yanlış Türkçe' sayan öğrenciye tarihî-coğrafî çeşitlenme örneği göster.",
+        "Anıyı tamamen nesnel tarih belgesi sayan öğrenciye seçme, hatırlama ve kişisel bakış boyutunu düşündür."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Cevap = yargı + kanıt + gerekçe",
+        "Tahtaya yaz: Açık bilgi ≠ yorum/çıkarım",
+        "Tahtaya yaz: Olay → duygu değişimi → karakter hakkında çıkarım",
+        "Tahtaya yaz: Dil çeşitliliği = ortak kök + tarihî/coğrafî değişim",
+        "Tahtaya yaz: Hikâye = kurmaca | Anı = yaşantı temelli kişisel anlatım"
+      ],
+      "assessment_look_fors": [
+        "Cevabın kaynak kanıtıyla uyumu.",
+        "Açık bilgi ile çıkarımın ayrılması.",
+        "Olay-duygu ilişkisinin kanıtla kurulması.",
+        "Dil farklılığının somut örnekle açıklanması.",
+        "Tür karşılaştırmasında en az iki ölçüt."
+      ],
+      "differentiation": {
+        "support": [
+          "Cevabım / kanıtım biçiminde iki sütunlu çalışma alanı ver.",
+          "Olay / duygu / kültür unsuru için üç sütunlu not çizelgesi kullan."
+        ],
+        "enrichment": [
+          "İki olası yorumu kanıt gücü bakımından karşılaştırmasını iste.",
+          "Aynı olayı hikâye anlatıcısı ve anı yazarı olarak iki kısa paragrafta yeniden kurdur."
+        ]
+      }
+    },
+    {
+      "block_id": "T02V2_T2_GUIDE_U03_OKUMA_COZUMLEME",
+      "section_id": "T2_SEC_01_OKUMA_HIKAYE_ANI",
+      "printed_page_range": "105-111",
+      "title": "Çözümleyebilme",
+      "source_item_refs": [
+        "T2_G03_P105_HIKAYE_HARITASI",
+        "T2_G03_P106_107_CATISMA",
+        "T2_G03_P107_DEGERLER_AYTMATOV",
+        "T2_G03_P108_110_ANI",
+        "T2_G03_P111_KARSILASTIRMA_DISIPLIN"
+      ],
+      "book_task_summaries": [
+        "Oğulla Buluşma — hikâye haritası [TABLE]",
+        "Çatışma ve etkileşim — görüş geliştirme [PROCESS]",
+        "Millî-manevi-evrensel değerler ve Aytmatov’un edebî kişiliği [QUESTION]",
+        "Eski İstanbul’dan Çizgiler — anı metni inceleme [REFERENCE]",
+        "Tahmin-karşılaştırma ve anının sosyal bilimlerle ilişkisi [PERFORMANCE_TASK]"
+      ],
+      "pedagogical_intent": "Oğulla Buluşma ve anı çalışmalarında olay, duygu, kültür ve dil çeşitliliğini metin kanıtıyla ilişkilendir; Türkçe çeşitliliğini değer hiyerarşisine dönüştürme. Hikâye yapısı, çatışma, değerler, yazar-metin ilişkisi ve anı türünün disiplinlerarası yönünü çözümlemek.",
+      "teacher_moves": [
+        "Kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.",
+        "Ürün görevlerinde ilk taslak ile son ürün arasındaki değişikliği görünür kıl.",
+        "Çordon'un duygu değişimini olay akışıyla eşleştir.",
+        "Türkçenin farklı kollarındaki benzer sözcüklerde ses benzerliği ile anlam benzerliğini ayrı kontrol ettir.",
+        "Hikâye ile anıyı gerçeklik, anlatıcı ve kurmaca ölçütleriyle karşılaştır."
+      ],
+      "follow_up_questions": [
+        "Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?",
+        "Yaptığın bu tercihin amaç ve hedef kitleyle ilişkisi nedir?",
+        "Karakterin duygusunu değiştiren olay hangisi?",
+        "Bu kelimeler sesçe benziyor ama anlamca da aynı mı?",
+        "Anı ile hikâye geçmişi aynı biçimde mi kurar?"
+      ],
+      "misconception_interventions": [
+        "Terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt.",
+        "Lehçe veya şive farkını 'yanlış Türkçe' sayan öğrenciye tarihî-coğrafî çeşitlenme örneği göster.",
+        "Anıyı tamamen nesnel tarih belgesi sayan öğrenciye seçme, hatırlama ve kişisel bakış boyutunu düşündür."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Unsur → işlev → etki",
+        "Tahtaya yaz: Taslak → geri bildirim → karar → revizyon",
+        "Tahtaya yaz: Olay → duygu değişimi → karakter hakkında çıkarım",
+        "Tahtaya yaz: Dil çeşitliliği = ortak kök + tarihî/coğrafî değişim",
+        "Tahtaya yaz: Hikâye = kurmaca | Anı = yaşantı temelli kişisel anlatım"
+      ],
+      "assessment_look_fors": [
+        "Kavram ile işlev arasında doğru ilişki.",
+        "Ürün kararlarının amaç ve bağlama uygunluğu.",
+        "Olay-duygu ilişkisinin kanıtla kurulması.",
+        "Dil farklılığının somut örnekle açıklanması.",
+        "Tür karşılaştırmasında en az iki ölçüt."
+      ],
+      "differentiation": {
+        "support": [
+          "Önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.",
+          "Olay / duygu / kültür unsuru için üç sütunlu not çizelgesi kullan."
+        ],
+        "enrichment": [
+          "Aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.",
+          "Aynı olayı hikâye anlatıcısı ve anı yazarı olarak iki kısa paragrafta yeniden kurdur."
+        ]
+      }
+    },
+    {
+      "block_id": "T02V2_T2_GUIDE_U04_OKUMA_DEGERLENDIRME",
+      "section_id": "T2_SEC_01_OKUMA_HIKAYE_ANI",
+      "printed_page_range": "112",
+      "title": "Süreci Değerlendirebilme",
+      "source_item_refs": [
+        "T2_G04_P112_YANSITMA",
+        "T2_G04_P112_CIKIS_KARTI"
+      ],
+      "book_task_summaries": [
+        "Oğulla Buluşma — süreç değerlendirme 1-5 [ASSESSMENT]",
+        "Çıkış Kartı — Üç Yaz / İki Sor / Bir Paylaş [ASSESSMENT]"
+      ],
+      "pedagogical_intent": "Oğulla Buluşma ve anı çalışmalarında olay, duygu, kültür ve dil çeşitliliğini metin kanıtıyla ilişkilendir; Türkçe çeşitliliğini değer hiyerarşisine dönüştürme. Oğulla Buluşma okuma sürecini duygu, kültür ve dil-estetik farkındalığı üzerinden değerlendirmek.",
+      "teacher_moves": [
+        "Öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.",
+        "Geri bildirimi sonraki ürün değişikliğine veya öğrenme davranışına bağla.",
+        "Çordon'un duygu değişimini olay akışıyla eşleştir.",
+        "Türkçenin farklı kollarındaki benzer sözcüklerde ses benzerliği ile anlam benzerliğini ayrı kontrol ettir.",
+        "Hikâye ile anıyı gerçeklik, anlatıcı ve kurmaca ölçütleriyle karşılaştır."
+      ],
+      "follow_up_questions": [
+        "Bu değerlendirmene hangi ürün veya performans ayrıntısı kanıt?",
+        "Bir sonraki benzer görevde tek bir şeyi değiştirecek olsan neyi değiştirirsin?",
+        "Karakterin duygusunu değiştiren olay hangisi?",
+        "Bu kelimeler sesçe benziyor ama anlamca da aynı mı?",
+        "Anı ile hikâye geçmişi aynı biçimde mi kurar?"
+      ],
+      "misconception_interventions": [
+        "Formu otomatik olumlu işaretleyen öğrenciye belirli bir örnek göstermeden yargıyı tamamlanmış sayma.",
+        "Lehçe veya şive farkını 'yanlış Türkçe' sayan öğrenciye tarihî-coğrafî çeşitlenme örneği göster.",
+        "Anıyı tamamen nesnel tarih belgesi sayan öğrenciye seçme, hatırlama ve kişisel bakış boyutunu düşündür."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Öz değerlendirme = yargı + kanıt + yeni hedef",
+        "Tahtaya yaz: Geri bildirim → değerlendir → karar ver → revize et",
+        "Tahtaya yaz: Olay → duygu değişimi → karakter hakkında çıkarım",
+        "Tahtaya yaz: Dil çeşitliliği = ortak kök + tarihî/coğrafî değişim",
+        "Tahtaya yaz: Hikâye = kurmaca | Anı = yaşantı temelli kişisel anlatım"
+      ],
+      "assessment_look_fors": [
+        "Kanıta dayalı öz değerlendirme.",
+        "Uygulanabilir bir sonraki adım veya revizyon.",
+        "Olay-duygu ilişkisinin kanıtla kurulması.",
+        "Dil farklılığının somut örnekle açıklanması.",
+        "Tür karşılaştırmasında en az iki ölçüt."
+      ],
+      "differentiation": {
+        "support": [
+          "Bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan.",
+          "Olay / duygu / kültür unsuru için üç sütunlu not çizelgesi kullan."
+        ],
+        "enrichment": [
+          "Bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste.",
+          "Aynı olayı hikâye anlatıcısı ve anı yazarı olarak iki kısa paragrafta yeniden kurdur."
+        ]
+      }
+    },
+    {
+      "block_id": "T02V2_T2_GUIDE_U05_OKUMA_YONETIM",
+      "section_id": "T2_SEC_02_OKUMA_ORHUN_DLT",
+      "printed_page_range": "113-115",
+      "title": "Okumayı Yönetebilme",
+      "source_item_refs": [
+        "T2_G05_P113_ORHUN_ONBILGI",
+        "T2_G05_P114_115_OKUMA"
+      ],
+      "book_task_summaries": [
+        "Orhun Vadisi — ön bilgi ve kültürel önem [QUESTION]",
+        "Kül Tigin Âbidesi — okuma amacı, tahmin ve aktif okuma [PROCESS]"
+      ],
+      "pedagogical_intent": "Orhun Abideleri ve Dîvânu Lugâti't-Türk'ü yalnız tarihî bilgi kaynağı değil dil, hitabet, devlet anlayışı ve kültürel bellek belgeleri olarak okut. Orhun Abideleri’nin Türk dili, tarihi ve kültüründeki yerini ön bilgilerle ilişkilendirip amaçlı okumaya geçmek.",
+      "teacher_moves": [
+        "Göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir.",
+        "Tahmini doğru-yanlış olarak değil görünür ipucuna dayalı çıkarım olarak değerlendir.",
+        "Orhun'da hitap, tarihî olay, öğüt ve değer bölümlerini ayrı işaretlet.",
+        "Tarihî sözcüklerde güncel anlamla dönem anlamını ayır.",
+        "DLT maddelerinde kelime karşılığının yanında örnek, atasözü, şiir ve kültür bilgisini de fark ettir."
+      ],
+      "follow_up_questions": [
+        "Bu tahmini hangi başlık, görsel, kelime veya ön bilgiye dayandırdın?",
+        "Seçtiğin strateji bu görevde sana tam olarak ne sağlayacak?",
+        "Taşa yazmak sözü nasıl bir kültürel hafızaya dönüştürüyor?",
+        "Bir sözlük maddesi kelimeden başka hangi kültür bilgisini taşıyabilir?",
+        "Bu tarihî kişilik çıkarımını hangi ifade destekliyor?"
+      ],
+      "misconception_interventions": [
+        "Gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur.",
+        "Yazıtı yalnız mezar taşı olarak gören öğrenciye millete hitap ve öğüt işlevini buldur.",
+        "DLT'yi modern sözlükle tamamen aynı sanan öğrenciye kullanım örneklerini ve kültürel malzemeyi göster."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Tahmin = ipucu + çıkarım",
+        "Tahtaya yaz: Amaç → uygun strateji → toplanacak kanıt",
+        "Tahtaya yaz: Yazıt = tarihî kayıt + hitap + öğüt + kültürel hafıza",
+        "Tahtaya yaz: DLT = sözlük + dil örneği + kültür bilgisi",
+        "Tahtaya yaz: Dil ↔ kültür ↔ tarih → ortak hafıza"
+      ],
+      "assessment_look_fors": [
+        "Amaç ile strateji arasında açık uyum.",
+        "Tahminin görünür bir kaynağa dayanması.",
+        "Orhun'un önemini en az iki boyutla açıklama.",
+        "Tarihî kelimeyi dönem ve cümle bağlamında yorumlama.",
+        "DLT'deki kültür bilgisini örnekle gösterme."
+      ],
+      "differentiation": {
+        "support": [
+          "Amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan.",
+          "Hitap / olay / öğüt / değer için renk kodlu okuma şablonu ver."
+        ],
+        "enrichment": [
+          "Aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat.",
+          "Bir DLT maddesini çağdaş sözlük maddesiyle taşıdığı bilgi türleri bakımından karşılaştır."
+        ]
+      },
+      "source_limitations": [
+        "Orhun Vadisi veya dış medya içeriğinde yerel PDF'de görünmeyen ayrıntılar resmî cevap gibi üretilmemeli."
+      ]
+    },
+    {
+      "block_id": "T02V2_T2_GUIDE_U06_OKUMA_ANLAM",
+      "section_id": "T2_SEC_02_OKUMA_ORHUN_DLT",
+      "printed_page_range": "116-120",
+      "title": "Anlam Oluşturabilme",
+      "source_item_refs": [
+        "T2_G06_P116_SOZ_VARLIGI",
+        "T2_G06_P117_METNI_ANLAYALIM",
+        "T2_G06_P117_BILGE_KAGAN",
+        "T2_G06_P118_SOZ_SANATLARI",
+        "T2_G06_P119_120_KARSILASTIRMA",
+        "T2_G06_P120_DIL_KULTUR_TARIH"
+      ],
+      "book_task_summaries": [
+        "Orhun söz varlığı — yağız, ecdat, il, töre, şad, kılmak [VOCABULARY]",
+        "Kül Tigin Âbidesi — 1-3. sorular [QUESTION]",
+        "Bilge Kağan — tarihî kişilik çıkarımı [QUESTION]",
+        "Deyim ve söz sanatları [TABLE]",
+        "Oğulla Buluşma ile Kül Tigin Âbidesi karşılaştırması [TABLE]",
+        "Dil-kültür-tarih birliğinin millet hayatındaki önemi [QUESTION]"
+      ],
+      "pedagogical_intent": "Orhun Abideleri ve Dîvânu Lugâti't-Türk'ü yalnız tarihî bilgi kaynağı değil dil, hitabet, devlet anlayışı ve kültürel bellek belgeleri olarak okut. Tarihî söz varlığı, metnin iletileri, söz sanatları ve farklı metinlerle karşılaştırma üzerinden anlam oluşturmak.",
+      "teacher_moves": [
+        "Cevabın yanına kısa metin, görsel veya dinleme kanıtı istemeyi varsayılan sınıf rutini hâline getir.",
+        "Konu, tema, ileti, yorum ve çıkarım gibi yakın kavramları görev üzerinde birbirinden ayır.",
+        "Orhun'da hitap, tarihî olay, öğüt ve değer bölümlerini ayrı işaretlet.",
+        "Tarihî sözcüklerde güncel anlamla dönem anlamını ayır.",
+        "DLT maddelerinde kelime karşılığının yanında örnek, atasözü, şiir ve kültür bilgisini de fark ettir."
+      ],
+      "follow_up_questions": [
+        "Bu cevabını kaynakta hangi ayrıntı destekliyor?",
+        "Aynı kanıttan başka bir makul yorum çıkar mı?",
+        "Taşa yazmak sözü nasıl bir kültürel hafızaya dönüştürüyor?",
+        "Bir sözlük maddesi kelimeden başka hangi kültür bilgisini taşıyabilir?",
+        "Bu tarihî kişilik çıkarımını hangi ifade destekliyor?"
+      ],
+      "misconception_interventions": [
+        "Yorumu kaynakta açıkça söylenmiş bilgi gibi sunan öğrenciye 'metinde var / ben çıkarıyorum' ayrımı yaptır.",
+        "Yazıtı yalnız mezar taşı olarak gören öğrenciye millete hitap ve öğüt işlevini buldur.",
+        "DLT'yi modern sözlükle tamamen aynı sanan öğrenciye kullanım örneklerini ve kültürel malzemeyi göster."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Cevap = yargı + kanıt + gerekçe",
+        "Tahtaya yaz: Açık bilgi ≠ yorum/çıkarım",
+        "Tahtaya yaz: Yazıt = tarihî kayıt + hitap + öğüt + kültürel hafıza",
+        "Tahtaya yaz: DLT = sözlük + dil örneği + kültür bilgisi",
+        "Tahtaya yaz: Dil ↔ kültür ↔ tarih → ortak hafıza"
+      ],
+      "assessment_look_fors": [
+        "Cevabın kaynak kanıtıyla uyumu.",
+        "Açık bilgi ile çıkarımın ayrılması.",
+        "Orhun'un önemini en az iki boyutla açıklama.",
+        "Tarihî kelimeyi dönem ve cümle bağlamında yorumlama.",
+        "DLT'deki kültür bilgisini örnekle gösterme."
+      ],
+      "differentiation": {
+        "support": [
+          "Cevabım / kanıtım biçiminde iki sütunlu çalışma alanı ver.",
+          "Hitap / olay / öğüt / değer için renk kodlu okuma şablonu ver."
+        ],
+        "enrichment": [
+          "İki olası yorumu kanıt gücü bakımından karşılaştırmasını iste.",
+          "Bir DLT maddesini çağdaş sözlük maddesiyle taşıdığı bilgi türleri bakımından karşılaştır."
+        ]
+      },
+      "source_limitations": [
+        "Orhun Vadisi veya dış medya içeriğinde yerel PDF'de görünmeyen ayrıntılar resmî cevap gibi üretilmemeli."
+      ]
+    },
+    {
+      "block_id": "T02V2_T2_GUIDE_U07_OKUMA_COZUMLEME",
+      "section_id": "T2_SEC_02_OKUMA_ORHUN_DLT",
+      "printed_page_range": "121-127",
+      "title": "Çözümleyebilme",
+      "source_item_refs": [
+        "T2_G07_P121_OTUKEN",
+        "T2_G07_P121_124_ORHUN_TAHLIL",
+        "T2_G07_P124_DEGERLER_DISIPLIN",
+        "T2_G07_P125_127_DLT"
+      ],
+      "book_task_summaries": [
+        "Ötüken ve yaşam tarzı — görüş geliştirme [QUESTION]",
+        "Kül Tigin Âbidesi — anlatıcı, yapı, dil, amaç ve üslup [TABLE]",
+        "Orhun — değerler ve tarih/coğrafya/sosyoloji ilişkisi [PERFORMANCE_TASK]",
+        "Dîvânu Lugâti’t-Türk — 1-7. sorular ve kültür hazinesi [QUESTION]"
+      ],
+      "pedagogical_intent": "Orhun Abideleri ve Dîvânu Lugâti't-Türk'ü yalnız tarihî bilgi kaynağı değil dil, hitabet, devlet anlayışı ve kültürel bellek belgeleri olarak okut. Orhun metninin anlatıcı, yapı, dil-üslup ve dönem ilişkisini; Dîvânu Lugâti’t-Türk’ün dil-kültür işlevini çözümlemek.",
+      "teacher_moves": [
+        "Kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.",
+        "Ürün görevlerinde ilk taslak ile son ürün arasındaki değişikliği görünür kıl.",
+        "Orhun'da hitap, tarihî olay, öğüt ve değer bölümlerini ayrı işaretlet.",
+        "Tarihî sözcüklerde güncel anlamla dönem anlamını ayır.",
+        "DLT maddelerinde kelime karşılığının yanında örnek, atasözü, şiir ve kültür bilgisini de fark ettir."
+      ],
+      "follow_up_questions": [
+        "Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?",
+        "Yaptığın bu tercihin amaç ve hedef kitleyle ilişkisi nedir?",
+        "Taşa yazmak sözü nasıl bir kültürel hafızaya dönüştürüyor?",
+        "Bir sözlük maddesi kelimeden başka hangi kültür bilgisini taşıyabilir?",
+        "Bu tarihî kişilik çıkarımını hangi ifade destekliyor?"
+      ],
+      "misconception_interventions": [
+        "Terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt.",
+        "Yazıtı yalnız mezar taşı olarak gören öğrenciye millete hitap ve öğüt işlevini buldur.",
+        "DLT'yi modern sözlükle tamamen aynı sanan öğrenciye kullanım örneklerini ve kültürel malzemeyi göster."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Unsur → işlev → etki",
+        "Tahtaya yaz: Taslak → geri bildirim → karar → revizyon",
+        "Tahtaya yaz: Yazıt = tarihî kayıt + hitap + öğüt + kültürel hafıza",
+        "Tahtaya yaz: DLT = sözlük + dil örneği + kültür bilgisi",
+        "Tahtaya yaz: Dil ↔ kültür ↔ tarih → ortak hafıza"
+      ],
+      "assessment_look_fors": [
+        "Kavram ile işlev arasında doğru ilişki.",
+        "Ürün kararlarının amaç ve bağlama uygunluğu.",
+        "Orhun'un önemini en az iki boyutla açıklama.",
+        "Tarihî kelimeyi dönem ve cümle bağlamında yorumlama.",
+        "DLT'deki kültür bilgisini örnekle gösterme."
+      ],
+      "differentiation": {
+        "support": [
+          "Önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.",
+          "Hitap / olay / öğüt / değer için renk kodlu okuma şablonu ver."
+        ],
+        "enrichment": [
+          "Aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.",
+          "Bir DLT maddesini çağdaş sözlük maddesiyle taşıdığı bilgi türleri bakımından karşılaştır."
+        ]
+      },
+      "source_limitations": [
+        "Orhun Vadisi veya dış medya içeriğinde yerel PDF'de görünmeyen ayrıntılar resmî cevap gibi üretilmemeli."
+      ]
+    },
+    {
+      "block_id": "T02V2_T2_GUIDE_U08_OKUMA_DEGERLENDIRME",
+      "section_id": "T2_SEC_02_OKUMA_ORHUN_DLT",
+      "printed_page_range": "128",
+      "title": "Süreci Değerlendirebilme",
+      "source_item_refs": [
+        "T2_G08_P128_TURKCE_YAYILMA",
+        "T2_G08_P128_YANSITMA"
+      ],
+      "book_task_summaries": [
+        "Türkçenin geniş coğrafyaya yayılması — neden/sonuç çıkarımı [QUESTION]",
+        "Kül Tigin Âbidesi — süreç değerlendirme 1-3 [ASSESSMENT]"
+      ],
+      "pedagogical_intent": "Orhun Abideleri ve Dîvânu Lugâti't-Türk'ü yalnız tarihî bilgi kaynağı değil dil, hitabet, devlet anlayışı ve kültürel bellek belgeleri olarak okut. Kül Tigin Âbidesi ve Türkçenin tarihî-kültürel sürekliliği üzerine gerekçeli değerlendirme yapmak.",
+      "teacher_moves": [
+        "Öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.",
+        "Geri bildirimi sonraki ürün değişikliğine veya öğrenme davranışına bağla.",
+        "Orhun'da hitap, tarihî olay, öğüt ve değer bölümlerini ayrı işaretlet.",
+        "Tarihî sözcüklerde güncel anlamla dönem anlamını ayır.",
+        "DLT maddelerinde kelime karşılığının yanında örnek, atasözü, şiir ve kültür bilgisini de fark ettir."
+      ],
+      "follow_up_questions": [
+        "Bu değerlendirmene hangi ürün veya performans ayrıntısı kanıt?",
+        "Bir sonraki benzer görevde tek bir şeyi değiştirecek olsan neyi değiştirirsin?",
+        "Taşa yazmak sözü nasıl bir kültürel hafızaya dönüştürüyor?",
+        "Bir sözlük maddesi kelimeden başka hangi kültür bilgisini taşıyabilir?",
+        "Bu tarihî kişilik çıkarımını hangi ifade destekliyor?"
+      ],
+      "misconception_interventions": [
+        "Formu otomatik olumlu işaretleyen öğrenciye belirli bir örnek göstermeden yargıyı tamamlanmış sayma.",
+        "Yazıtı yalnız mezar taşı olarak gören öğrenciye millete hitap ve öğüt işlevini buldur.",
+        "DLT'yi modern sözlükle tamamen aynı sanan öğrenciye kullanım örneklerini ve kültürel malzemeyi göster."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Öz değerlendirme = yargı + kanıt + yeni hedef",
+        "Tahtaya yaz: Geri bildirim → değerlendir → karar ver → revize et",
+        "Tahtaya yaz: Yazıt = tarihî kayıt + hitap + öğüt + kültürel hafıza",
+        "Tahtaya yaz: DLT = sözlük + dil örneği + kültür bilgisi",
+        "Tahtaya yaz: Dil ↔ kültür ↔ tarih → ortak hafıza"
+      ],
+      "assessment_look_fors": [
+        "Kanıta dayalı öz değerlendirme.",
+        "Uygulanabilir bir sonraki adım veya revizyon.",
+        "Orhun'un önemini en az iki boyutla açıklama.",
+        "Tarihî kelimeyi dönem ve cümle bağlamında yorumlama.",
+        "DLT'deki kültür bilgisini örnekle gösterme."
+      ],
+      "differentiation": {
+        "support": [
+          "Bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan.",
+          "Hitap / olay / öğüt / değer için renk kodlu okuma şablonu ver."
+        ],
+        "enrichment": [
+          "Bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste.",
+          "Bir DLT maddesini çağdaş sözlük maddesiyle taşıdığı bilgi türleri bakımından karşılaştır."
+        ]
+      },
+      "source_limitations": [
+        "Orhun Vadisi veya dış medya içeriğinde yerel PDF'de görünmeyen ayrıntılar resmî cevap gibi üretilmemeli."
+      ]
+    },
+    {
+      "block_id": "T02V2_T2_GUIDE_U09_KONUSMA_YONETIM",
+      "section_id": "T2_SEC_03_KONUSMA_TURK_KULTURU",
+      "printed_page_range": "129-130",
+      "title": "Konuşmayı Yönetebilme",
+      "source_item_refs": [
+        "T2_G09_P129_VIDEO_HAZIRLIK",
+        "T2_G09_P130_PERFORMANS_PLAN"
+      ],
+      "book_task_summaries": [
+        "Dünyadaki Türkiye-Türk Dünyası — 1-3. sorular [QUESTION]",
+        "Türk Dünyası Ortak Kültürü — performans görevi planı [PERFORMANCE_TASK]"
+      ],
+      "pedagogical_intent": "Türk dünyası ortak kültürünü kaynaklı, karşılaştırmalı ve hedef kitleye uygun biçimde anlat; kültürü değişmez ve tek tip bir yapı gibi sunma. Türk dünyasının ortak kültürünü tanıtan hazırlıklı konuşmanın amaç, hedef kitle, içerik, ortam ve grup araştırmasını planlamak.",
+      "teacher_moves": [
+        "Göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir.",
+        "Tahmini doğru-yanlış olarak değil görünür ipucuna dayalı çıkarım olarak değerlendir.",
+        "Her geniş kültür genellemesinin yanına somut örnek veya kaynak iste.",
+        "Konuşmada en az bir ortaklık ve bir yerel farklılık görünür olsun.",
+        "Akran geri bildirimini belirli bir konuşma ölçütüne bağla."
+      ],
+      "follow_up_questions": [
+        "Bu tahmini hangi başlık, görsel, kelime veya ön bilgiye dayandırdın?",
+        "Seçtiğin strateji bu görevde sana tam olarak ne sağlayacak?",
+        "Bu kültür bilgisi hangi kaynağa dayanıyor?",
+        "Aynı konuşmayı başka bir hedef kitleye yapsan dilini veya örneklerini nasıl değiştirirdin?"
+      ],
+      "misconception_interventions": [
+        "Gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur.",
+        "'Türk kültürü her yerde aynıdır' genellemesini ortak kök + yerel/tarihî farklılaşma örnekleriyle aç.",
+        "Kültür değişimini otomatik olarak bozulma sayan öğrenciye etkileşim ve işlev değişimi örnekleri ver."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Tahmin = ipucu + çıkarım",
+        "Tahtaya yaz: Amaç → uygun strateji → toplanacak kanıt",
+        "Tahtaya yaz: Kültür anlatımı = ortaklık + çeşitlilik + kaynak",
+        "Tahtaya yaz: Konuşma planı = amaç + hedef kitle + ana düşünce + kanıt + yöntem"
+      ],
+      "assessment_look_fors": [
+        "Amaç ile strateji arasında açık uyum.",
+        "Tahminin görünür bir kaynağa dayanması.",
+        "Kaynaklı kültür örnekleri.",
+        "Amaç-hedef kitle-içerik uyumu.",
+        "Geri bildirim sonrası görünür revizyon."
+      ],
+      "differentiation": {
+        "support": [
+          "Amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan.",
+          "Konuşma planını amaç / kitle / örnek / kaynak / sonuç kutularına böl."
+        ],
+        "enrichment": [
+          "Aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat.",
+          "Bir kültür unsurunun iki coğrafyadaki biçimini kaynaklarıyla karşılaştır."
+        ]
+      },
+      "source_limitations": [
+        "Dış video ve QR rubriklerinin yerel PDF'de görünmeyen ayrıntıları resmî içerik gibi üretilmemeli."
+      ]
+    },
+    {
+      "block_id": "T02V2_T2_GUIDE_U10_KONUSMA_ICERIK",
+      "section_id": "T2_SEC_03_KONUSMA_TURK_KULTURU",
+      "printed_page_range": "131-133",
+      "title": "İçerik Oluşturabilme",
+      "source_item_refs": [
+        "T2_G10_P131_KONUSMA_TASARIM",
+        "T2_G10_P132_KULTUR_FARKLILASMA",
+        "T2_G10_P132_133_KARSILASTIRMA",
+        "T2_G10_P133_KONUSMA_METNI"
+      ],
+      "book_task_summaries": [
+        "Konuşma metni tasarımı [PROCESS]",
+        "Dil-kültür ilişkisi ve kültür unsurlarının değişimi [QUESTION]",
+        "Türk dünyası kültür unsurlarını karşılaştırma [TABLE]",
+        "Konuşma metnini hazırlama ve akran geri bildirimi [PERFORMANCE_TASK]"
+      ],
+      "pedagogical_intent": "Türk dünyası ortak kültürünü kaynaklı, karşılaştırmalı ve hedef kitleye uygun biçimde anlat; kültürü değişmez ve tek tip bir yapı gibi sunma. Hedef kitleye uygun, karşılaştırmalı, kanıta dayalı ve kültür çeşitliliğini görünür kılan konuşma içeriği oluşturmak.",
+      "teacher_moves": [
+        "Kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.",
+        "Ürün görevlerinde ilk taslak ile son ürün arasındaki değişikliği görünür kıl.",
+        "Her geniş kültür genellemesinin yanına somut örnek veya kaynak iste.",
+        "Konuşmada en az bir ortaklık ve bir yerel farklılık görünür olsun.",
+        "Akran geri bildirimini belirli bir konuşma ölçütüne bağla."
+      ],
+      "follow_up_questions": [
+        "Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?",
+        "Yaptığın bu tercihin amaç ve hedef kitleyle ilişkisi nedir?",
+        "Bu kültür bilgisi hangi kaynağa dayanıyor?",
+        "Aynı konuşmayı başka bir hedef kitleye yapsan dilini veya örneklerini nasıl değiştirirdin?"
+      ],
+      "misconception_interventions": [
+        "Terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt.",
+        "'Türk kültürü her yerde aynıdır' genellemesini ortak kök + yerel/tarihî farklılaşma örnekleriyle aç.",
+        "Kültür değişimini otomatik olarak bozulma sayan öğrenciye etkileşim ve işlev değişimi örnekleri ver."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Unsur → işlev → etki",
+        "Tahtaya yaz: Taslak → geri bildirim → karar → revizyon",
+        "Tahtaya yaz: Kültür anlatımı = ortaklık + çeşitlilik + kaynak",
+        "Tahtaya yaz: Konuşma planı = amaç + hedef kitle + ana düşünce + kanıt + yöntem"
+      ],
+      "assessment_look_fors": [
+        "Kavram ile işlev arasında doğru ilişki.",
+        "Ürün kararlarının amaç ve bağlama uygunluğu.",
+        "Kaynaklı kültür örnekleri.",
+        "Amaç-hedef kitle-içerik uyumu.",
+        "Geri bildirim sonrası görünür revizyon."
+      ],
+      "differentiation": {
+        "support": [
+          "Önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.",
+          "Konuşma planını amaç / kitle / örnek / kaynak / sonuç kutularına böl."
+        ],
+        "enrichment": [
+          "Aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.",
+          "Bir kültür unsurunun iki coğrafyadaki biçimini kaynaklarıyla karşılaştır."
+        ]
+      },
+      "source_limitations": [
+        "Dış video ve QR rubriklerinin yerel PDF'de görünmeyen ayrıntıları resmî içerik gibi üretilmemeli."
+      ]
+    },
+    {
+      "block_id": "T02V2_T2_GUIDE_U11_KONUSMA_KURAL",
+      "section_id": "T2_SEC_03_KONUSMA_TURK_KULTURU",
+      "printed_page_range": "134",
+      "title": "Kural Uygulayabilme",
+      "source_item_refs": [
+        "T2_G11_P134_KONUSMA_KRITER"
+      ],
+      "book_task_summaries": [
+        "Konuşma uygulama ölçütleri [ASSESSMENT]"
+      ],
+      "pedagogical_intent": "Türk dünyası ortak kültürünü kaynaklı, karşılaştırmalı ve hedef kitleye uygun biçimde anlat; kültürü değişmez ve tek tip bir yapı gibi sunma. Hazırlanan konuşmayı içerik, dil, beden/ses, kaynak dayanağı ve dinleyici etkileşimi ölçütleriyle uygulamak.",
+      "teacher_moves": [
+        "Kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.",
+        "Ürün görevlerinde ilk taslak ile son ürün arasındaki değişikliği görünür kıl.",
+        "Her geniş kültür genellemesinin yanına somut örnek veya kaynak iste.",
+        "Konuşmada en az bir ortaklık ve bir yerel farklılık görünür olsun.",
+        "Akran geri bildirimini belirli bir konuşma ölçütüne bağla."
+      ],
+      "follow_up_questions": [
+        "Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?",
+        "Yaptığın bu tercihin amaç ve hedef kitleyle ilişkisi nedir?",
+        "Bu kültür bilgisi hangi kaynağa dayanıyor?",
+        "Aynı konuşmayı başka bir hedef kitleye yapsan dilini veya örneklerini nasıl değiştirirdin?"
+      ],
+      "misconception_interventions": [
+        "Terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt.",
+        "'Türk kültürü her yerde aynıdır' genellemesini ortak kök + yerel/tarihî farklılaşma örnekleriyle aç.",
+        "Kültür değişimini otomatik olarak bozulma sayan öğrenciye etkileşim ve işlev değişimi örnekleri ver."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Unsur → işlev → etki",
+        "Tahtaya yaz: Taslak → geri bildirim → karar → revizyon",
+        "Tahtaya yaz: Kültür anlatımı = ortaklık + çeşitlilik + kaynak",
+        "Tahtaya yaz: Konuşma planı = amaç + hedef kitle + ana düşünce + kanıt + yöntem"
+      ],
+      "assessment_look_fors": [
+        "Kavram ile işlev arasında doğru ilişki.",
+        "Ürün kararlarının amaç ve bağlama uygunluğu.",
+        "Kaynaklı kültür örnekleri.",
+        "Amaç-hedef kitle-içerik uyumu.",
+        "Geri bildirim sonrası görünür revizyon."
+      ],
+      "differentiation": {
+        "support": [
+          "Önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.",
+          "Konuşma planını amaç / kitle / örnek / kaynak / sonuç kutularına böl."
+        ],
+        "enrichment": [
+          "Aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.",
+          "Bir kültür unsurunun iki coğrafyadaki biçimini kaynaklarıyla karşılaştır."
+        ]
+      },
+      "source_limitations": [
+        "Dış video ve QR rubriklerinin yerel PDF'de görünmeyen ayrıntıları resmî içerik gibi üretilmemeli."
+      ]
+    },
+    {
+      "block_id": "T02V2_T2_GUIDE_U12_KONUSMA_DEGERLENDIRME",
+      "section_id": "T2_SEC_03_KONUSMA_TURK_KULTURU",
+      "printed_page_range": "135",
+      "title": "Süreci Değerlendirebilme",
+      "source_item_refs": [
+        "T2_G12_P135_OZ_DEGERLENDIRME",
+        "T2_G12_P135_DPA_QR"
+      ],
+      "book_task_summaries": [
+        "Konuşma Öz Değerlendirme Formu [ASSESSMENT]",
+        "Dış QR dereceli puanlama anahtarı ve akran formu [REFERENCE]"
+      ],
+      "pedagogical_intent": "Türk dünyası ortak kültürünü kaynaklı, karşılaştırmalı ve hedef kitleye uygun biçimde anlat; kültürü değişmez ve tek tip bir yapı gibi sunma. Öz/akran/öğretmen değerlendirmesini görünür kitap ölçütleriyle yürütmek; dış QR rubriğinin görünmeyen seviye tanımlarını uydurmamak.",
+      "teacher_moves": [
+        "Öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.",
+        "Geri bildirimi sonraki ürün değişikliğine veya öğrenme davranışına bağla.",
+        "Her geniş kültür genellemesinin yanına somut örnek veya kaynak iste.",
+        "Konuşmada en az bir ortaklık ve bir yerel farklılık görünür olsun.",
+        "Akran geri bildirimini belirli bir konuşma ölçütüne bağla."
+      ],
+      "follow_up_questions": [
+        "Bu değerlendirmene hangi ürün veya performans ayrıntısı kanıt?",
+        "Bir sonraki benzer görevde tek bir şeyi değiştirecek olsan neyi değiştirirsin?",
+        "Bu kültür bilgisi hangi kaynağa dayanıyor?",
+        "Aynı konuşmayı başka bir hedef kitleye yapsan dilini veya örneklerini nasıl değiştirirdin?"
+      ],
+      "misconception_interventions": [
+        "Formu otomatik olumlu işaretleyen öğrenciye belirli bir örnek göstermeden yargıyı tamamlanmış sayma.",
+        "'Türk kültürü her yerde aynıdır' genellemesini ortak kök + yerel/tarihî farklılaşma örnekleriyle aç.",
+        "Kültür değişimini otomatik olarak bozulma sayan öğrenciye etkileşim ve işlev değişimi örnekleri ver."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Öz değerlendirme = yargı + kanıt + yeni hedef",
+        "Tahtaya yaz: Geri bildirim → değerlendir → karar ver → revize et",
+        "Tahtaya yaz: Kültür anlatımı = ortaklık + çeşitlilik + kaynak",
+        "Tahtaya yaz: Konuşma planı = amaç + hedef kitle + ana düşünce + kanıt + yöntem"
+      ],
+      "assessment_look_fors": [
+        "Kanıta dayalı öz değerlendirme.",
+        "Uygulanabilir bir sonraki adım veya revizyon.",
+        "Kaynaklı kültür örnekleri.",
+        "Amaç-hedef kitle-içerik uyumu.",
+        "Geri bildirim sonrası görünür revizyon."
+      ],
+      "differentiation": {
+        "support": [
+          "Bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan.",
+          "Konuşma planını amaç / kitle / örnek / kaynak / sonuç kutularına böl."
+        ],
+        "enrichment": [
+          "Bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste.",
+          "Bir kültür unsurunun iki coğrafyadaki biçimini kaynaklarıyla karşılaştır."
+        ]
+      },
+      "source_limitations": [
+        "Dış video ve QR rubriklerinin yerel PDF'de görünmeyen ayrıntıları resmî içerik gibi üretilmemeli."
+      ]
+    },
+    {
+      "block_id": "T02V2_T2_GUIDE_U13_DINLEME_YONETIM",
+      "section_id": "T2_SEC_04_DINLEME_ASIK_ATISMASI",
+      "printed_page_range": "136-139",
+      "title": "Dinleme / İzlemeyi Yönetebilme",
+      "source_item_refs": [
+        "T2_G13_P136_KONUYA_BASLARKEN",
+        "T2_G13_P137_AMAC_STRATEJI",
+        "T2_G13_P138_ASIKLIK",
+        "T2_G13_P138_139_ETKIN_DINLEME"
+      ],
+      "book_task_summaries": [
+        "Âşıklık geleneği ve Sazım — konuya başlarken [QUESTION]",
+        "Âşık Atışması — amaç, strateji, tahmin ve engeller [PROCESS]",
+        "Halk şiiri ve âşık geleneği [QUESTION]",
+        "Etkin dinleme kuralları, kontrol listesi ve gözlem formu [ASSESSMENT]"
+      ],
+      "pedagogical_intent": "Âşık atışmasını şiir metninden ibaret görmeden söz, saz, doğaçlama, karşılıklılık, mizah, beden ve seyirci boyutlarıyla çok modlu bir kültür icrası olarak çözümlet. Âşıklık geleneği ön bilgilerini etkinleştirip amaç, strateji, tahmin ve etkin dinleme kurallarıyla medya görevine hazırlanmak.",
+      "teacher_moves": [
+        "Göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir.",
+        "Tahmini doğru-yanlış olarak değil görünür ipucuna dayalı çıkarım olarak değerlendir.",
+        "Dinleme öncesinde amaç-strateji kaydı al; sonradan doldurulmuş forma dönüşmesini önle.",
+        "Beğeni ve estetik yargısında dil, ses veya performans kanıtı iste.",
+        "Usta-çırak ilişkisini pasif itaat değil öğrenme, sorumluluk ve aktarım bağlamında ele al."
+      ],
+      "follow_up_questions": [
+        "Bu tahmini hangi başlık, görsel, kelime veya ön bilgiye dayandırdın?",
+        "Seçtiğin strateji bu görevde sana tam olarak ne sağlayacak?",
+        "Şiiri kâğıttan okumak ile âşık icrası arasındaki temel fark nedir?",
+        "Sazı veya tonlamayı çıkarırsak performansın etkisi nasıl değişir?",
+        "Bu bölüm neden komik; içerik mi söyleyiş mi daha etkili?"
+      ],
+      "misconception_interventions": [
+        "Gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur.",
+        "Atışmayı kavga sanan öğrenciye gelenek kuralları içindeki sözlü rekabeti açıklat.",
+        "Çok modluluğu yalnız video bulunması olarak gören öğrenciye söz, ses, müzik, beden ve görsel unsurları ayrı buldur."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Tahmin = ipucu + çıkarım",
+        "Tahtaya yaz: Amaç → uygun strateji → toplanacak kanıt",
+        "Tahtaya yaz: Âşık icrası = söz + saz + doğaçlama + karşılıklılık + seyirci",
+        "Tahtaya yaz: Çok modlu metin = söz + ses + müzik + görsel/beden",
+        "Tahtaya yaz: Beğeni = ölçüt + örnek/kanıt + yargı"
+      ],
+      "assessment_look_fors": [
+        "Amaç ile strateji arasında açık uyum.",
+        "Tahminin görünür bir kaynağa dayanması.",
+        "Âşıklık geleneğinin en az üç bileşenini açıklama.",
+        "Mizah veya estetik yargısının dinleme kanıtına dayanması.",
+        "Performans unsurunu işleviyle eşleştirme."
+      ],
+      "differentiation": {
+        "support": [
+          "Amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan.",
+          "Konuşmacı / ayak-uyak / mizah / saz için simgeli dinleme şablonu kullan."
+        ],
+        "enrichment": [
+          "Aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat.",
+          "Aynı performansı yalnız ses kaydı ve video biçiminde karşılaştırıp kayıp/kazanımları açıklat."
+        ]
+      }
+    },
+    {
+      "block_id": "T02V2_T2_GUIDE_U14_DINLEME_ANLAM",
+      "section_id": "T2_SEC_04_DINLEME_ASIK_ATISMASI",
+      "printed_page_range": "140-143",
+      "title": "Anlam Oluşturabilme",
+      "source_item_refs": [
+        "T2_G14_P140_SOZ_VARLIGI",
+        "T2_G14_P141_GELENEGIN_KORUNMASI",
+        "T2_G14_P142_ATISMA_ANLAMA",
+        "T2_G14_P143_DIL_ESTETIK",
+        "T2_G14_P143_BEGENI"
+      ],
+      "book_task_summaries": [
+        "Söz Varlığımız — çağ, canan, sine, kahır, saban [VOCABULARY]",
+        "Âşıklık geleneğinin korunması ve kültür mirası [QUESTION]",
+        "Atışmanın yeri, benzetme ve mizah [QUESTION]",
+        "Atışma dili, günlük dil ve Münacaat karşılaştırması [TABLE]",
+        "Beğeni ölçütleriyle bölüm seçme [ASSESSMENT]"
+      ],
+      "pedagogical_intent": "Âşık atışmasını şiir metninden ibaret görmeden söz, saz, doğaçlama, karşılıklılık, mizah, beden ve seyirci boyutlarıyla çok modlu bir kültür icrası olarak çözümlet. Atışmadaki söz varlığı, gelenek, mizah ve dil-estetik özelliklerinden anlam oluşturmak.",
+      "teacher_moves": [
+        "Cevabın yanına kısa metin, görsel veya dinleme kanıtı istemeyi varsayılan sınıf rutini hâline getir.",
+        "Konu, tema, ileti, yorum ve çıkarım gibi yakın kavramları görev üzerinde birbirinden ayır.",
+        "Dinleme öncesinde amaç-strateji kaydı al; sonradan doldurulmuş forma dönüşmesini önle.",
+        "Beğeni ve estetik yargısında dil, ses veya performans kanıtı iste.",
+        "Usta-çırak ilişkisini pasif itaat değil öğrenme, sorumluluk ve aktarım bağlamında ele al."
+      ],
+      "follow_up_questions": [
+        "Bu cevabını kaynakta hangi ayrıntı destekliyor?",
+        "Aynı kanıttan başka bir makul yorum çıkar mı?",
+        "Şiiri kâğıttan okumak ile âşık icrası arasındaki temel fark nedir?",
+        "Sazı veya tonlamayı çıkarırsak performansın etkisi nasıl değişir?",
+        "Bu bölüm neden komik; içerik mi söyleyiş mi daha etkili?"
+      ],
+      "misconception_interventions": [
+        "Yorumu kaynakta açıkça söylenmiş bilgi gibi sunan öğrenciye 'metinde var / ben çıkarıyorum' ayrımı yaptır.",
+        "Atışmayı kavga sanan öğrenciye gelenek kuralları içindeki sözlü rekabeti açıklat.",
+        "Çok modluluğu yalnız video bulunması olarak gören öğrenciye söz, ses, müzik, beden ve görsel unsurları ayrı buldur."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Cevap = yargı + kanıt + gerekçe",
+        "Tahtaya yaz: Açık bilgi ≠ yorum/çıkarım",
+        "Tahtaya yaz: Âşık icrası = söz + saz + doğaçlama + karşılıklılık + seyirci",
+        "Tahtaya yaz: Çok modlu metin = söz + ses + müzik + görsel/beden",
+        "Tahtaya yaz: Beğeni = ölçüt + örnek/kanıt + yargı"
+      ],
+      "assessment_look_fors": [
+        "Cevabın kaynak kanıtıyla uyumu.",
+        "Açık bilgi ile çıkarımın ayrılması.",
+        "Âşıklık geleneğinin en az üç bileşenini açıklama.",
+        "Mizah veya estetik yargısının dinleme kanıtına dayanması.",
+        "Performans unsurunu işleviyle eşleştirme."
+      ],
+      "differentiation": {
+        "support": [
+          "Cevabım / kanıtım biçiminde iki sütunlu çalışma alanı ver.",
+          "Konuşmacı / ayak-uyak / mizah / saz için simgeli dinleme şablonu kullan."
+        ],
+        "enrichment": [
+          "İki olası yorumu kanıt gücü bakımından karşılaştırmasını iste.",
+          "Aynı performansı yalnız ses kaydı ve video biçiminde karşılaştırıp kayıp/kazanımları açıklat."
+        ]
+      }
+    },
+    {
+      "block_id": "T02V2_T2_GUIDE_U15_DINLEME_COZUMLEME",
+      "section_id": "T2_SEC_04_DINLEME_ASIK_ATISMASI",
+      "printed_page_range": "144-146",
+      "title": "Çözümleyebilme",
+      "source_item_refs": [
+        "T2_G15_P144_USTA_CIRAK",
+        "T2_G15_P144_ZIHIN_HARITASI",
+        "T2_G15_P145_ALTI_SAPKA",
+        "T2_G15_P146_GORUS_GELISTIRME"
+      ],
+      "book_task_summaries": [
+        "Usta-çırak, saygı ve kültürel bellek [QUESTION]",
+        "Âşık atışmasının çok modlu unsurları [TABLE]",
+        "Altı şapka ile atışmayı değerlendirme [PROCESS]",
+        "Atışmanın şiir şeklinde söylenmesi — görüş geliştirme [PROCESS]"
+      ],
+      "pedagogical_intent": "Âşık atışmasını şiir metninden ibaret görmeden söz, saz, doğaçlama, karşılıklılık, mizah, beden ve seyirci boyutlarıyla çok modlu bir kültür icrası olarak çözümlet. Usta-çırak geleneği, çok modlu performans unsurları ve farklı değerlendirme teknikleriyle atışmayı çözümlemek.",
+      "teacher_moves": [
+        "Kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.",
+        "Ürün görevlerinde ilk taslak ile son ürün arasındaki değişikliği görünür kıl.",
+        "Dinleme öncesinde amaç-strateji kaydı al; sonradan doldurulmuş forma dönüşmesini önle.",
+        "Beğeni ve estetik yargısında dil, ses veya performans kanıtı iste.",
+        "Usta-çırak ilişkisini pasif itaat değil öğrenme, sorumluluk ve aktarım bağlamında ele al."
+      ],
+      "follow_up_questions": [
+        "Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?",
+        "Yaptığın bu tercihin amaç ve hedef kitleyle ilişkisi nedir?",
+        "Şiiri kâğıttan okumak ile âşık icrası arasındaki temel fark nedir?",
+        "Sazı veya tonlamayı çıkarırsak performansın etkisi nasıl değişir?",
+        "Bu bölüm neden komik; içerik mi söyleyiş mi daha etkili?"
+      ],
+      "misconception_interventions": [
+        "Terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt.",
+        "Atışmayı kavga sanan öğrenciye gelenek kuralları içindeki sözlü rekabeti açıklat.",
+        "Çok modluluğu yalnız video bulunması olarak gören öğrenciye söz, ses, müzik, beden ve görsel unsurları ayrı buldur."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Unsur → işlev → etki",
+        "Tahtaya yaz: Taslak → geri bildirim → karar → revizyon",
+        "Tahtaya yaz: Âşık icrası = söz + saz + doğaçlama + karşılıklılık + seyirci",
+        "Tahtaya yaz: Çok modlu metin = söz + ses + müzik + görsel/beden",
+        "Tahtaya yaz: Beğeni = ölçüt + örnek/kanıt + yargı"
+      ],
+      "assessment_look_fors": [
+        "Kavram ile işlev arasında doğru ilişki.",
+        "Ürün kararlarının amaç ve bağlama uygunluğu.",
+        "Âşıklık geleneğinin en az üç bileşenini açıklama.",
+        "Mizah veya estetik yargısının dinleme kanıtına dayanması.",
+        "Performans unsurunu işleviyle eşleştirme."
+      ],
+      "differentiation": {
+        "support": [
+          "Önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.",
+          "Konuşmacı / ayak-uyak / mizah / saz için simgeli dinleme şablonu kullan."
+        ],
+        "enrichment": [
+          "Aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.",
+          "Aynı performansı yalnız ses kaydı ve video biçiminde karşılaştırıp kayıp/kazanımları açıklat."
+        ]
+      }
+    },
+    {
+      "block_id": "T02V2_T2_GUIDE_U16_DINLEME_DEGERLENDIRME",
+      "section_id": "T2_SEC_04_DINLEME_ASIK_ATISMASI",
+      "printed_page_range": "147",
+      "title": "Süreci Değerlendirebilme",
+      "source_item_refs": [
+        "T2_G16_P147_DEGER_KATAN_UNSURLAR",
+        "T2_G16_P147_YANSITICI_YAZI"
+      ],
+      "book_task_summaries": [
+        "Atışmaya değer katan unsurlar ve söyleyicinin katkısı [ASSESSMENT]",
+        "Dinleme/izleme üzerine yansıtıcı yazı [PERFORMANCE_TASK]"
+      ],
+      "pedagogical_intent": "Âşık atışmasını şiir metninden ibaret görmeden söz, saz, doğaçlama, karşılıklılık, mizah, beden ve seyirci boyutlarıyla çok modlu bir kültür icrası olarak çözümlet. Dinleme/izleme deneyimini performans unsurları ve kişisel öğrenme farkındalığı üzerinden değerlendirmek.",
+      "teacher_moves": [
+        "Öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.",
+        "Geri bildirimi sonraki ürün değişikliğine veya öğrenme davranışına bağla.",
+        "Dinleme öncesinde amaç-strateji kaydı al; sonradan doldurulmuş forma dönüşmesini önle.",
+        "Beğeni ve estetik yargısında dil, ses veya performans kanıtı iste.",
+        "Usta-çırak ilişkisini pasif itaat değil öğrenme, sorumluluk ve aktarım bağlamında ele al."
+      ],
+      "follow_up_questions": [
+        "Bu değerlendirmene hangi ürün veya performans ayrıntısı kanıt?",
+        "Bir sonraki benzer görevde tek bir şeyi değiştirecek olsan neyi değiştirirsin?",
+        "Şiiri kâğıttan okumak ile âşık icrası arasındaki temel fark nedir?",
+        "Sazı veya tonlamayı çıkarırsak performansın etkisi nasıl değişir?",
+        "Bu bölüm neden komik; içerik mi söyleyiş mi daha etkili?"
+      ],
+      "misconception_interventions": [
+        "Formu otomatik olumlu işaretleyen öğrenciye belirli bir örnek göstermeden yargıyı tamamlanmış sayma.",
+        "Atışmayı kavga sanan öğrenciye gelenek kuralları içindeki sözlü rekabeti açıklat.",
+        "Çok modluluğu yalnız video bulunması olarak gören öğrenciye söz, ses, müzik, beden ve görsel unsurları ayrı buldur."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Öz değerlendirme = yargı + kanıt + yeni hedef",
+        "Tahtaya yaz: Geri bildirim → değerlendir → karar ver → revize et",
+        "Tahtaya yaz: Âşık icrası = söz + saz + doğaçlama + karşılıklılık + seyirci",
+        "Tahtaya yaz: Çok modlu metin = söz + ses + müzik + görsel/beden",
+        "Tahtaya yaz: Beğeni = ölçüt + örnek/kanıt + yargı"
+      ],
+      "assessment_look_fors": [
+        "Kanıta dayalı öz değerlendirme.",
+        "Uygulanabilir bir sonraki adım veya revizyon.",
+        "Âşıklık geleneğinin en az üç bileşenini açıklama.",
+        "Mizah veya estetik yargısının dinleme kanıtına dayanması.",
+        "Performans unsurunu işleviyle eşleştirme."
+      ],
+      "differentiation": {
+        "support": [
+          "Bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan.",
+          "Konuşmacı / ayak-uyak / mizah / saz için simgeli dinleme şablonu kullan."
+        ],
+        "enrichment": [
+          "Bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste.",
+          "Aynı performansı yalnız ses kaydı ve video biçiminde karşılaştırıp kayıp/kazanımları açıklat."
+        ]
+      }
+    },
+    {
+      "block_id": "T02V2_T2_GUIDE_U17_YAZMA_YONETIM",
+      "section_id": "T2_SEC_05_YAZMA_MUZE",
+      "printed_page_range": "148-149",
+      "title": "Yazmayı Yönetebilme",
+      "source_item_refs": [
+        "T2_G17_P148_SANAL_MUZE",
+        "T2_G17_P149_MUZE_PLAN"
+      ],
+      "book_task_summaries": [
+        "Sanal müzecilik — yazma görevinin bağlamı [REFERENCE]",
+        "Müze seçimi ve yazma planı — 1-7. adımlar [PROCESS]"
+      ],
+      "pedagogical_intent": "Sanal müze izlenim yazısında kurum bilgisini kopyalamak yerine gerçek gözlem, kişisel izlenim ve kültürel yorum arasındaki farkı görünür kıl. Çevrim içi müze gezisine dayalı izlenim yazısı için müze seçimi, amaç, hedef kitle, metin düzeni ve strateji planlamak.",
+      "teacher_moves": [
+        "Göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir.",
+        "Tahmini doğru-yanlış olarak değil görünür ipucuna dayalı çıkarım olarak değerlendir.",
+        "Müze seçimini güvenilir kurum + kişisel ilgi + yazma amacı gerekçesiyle yaptır.",
+        "Notları gördüm / düşündüm-hissettim / kültürle ilişkilendirdim biçiminde ayır.",
+        "Görsel veya alıntının hangi düşünceyi desteklediğini açıklat."
+      ],
+      "follow_up_questions": [
+        "Bu tahmini hangi başlık, görsel, kelime veya ön bilgiye dayandırdın?",
+        "Seçtiğin strateji bu görevde sana tam olarak ne sağlayacak?",
+        "Bu cümle gözlem mi, yorum mu?",
+        "Bu müze nesnesi dönemin yaşamı hakkında ne düşündürüyor?",
+        "Eklediğin görsel olmasa yazında hangi anlam kaybolur?"
+      ],
+      "misconception_interventions": [
+        "Gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur.",
+        "İnternetteki kurum tanıtımını kendi izlenimi sanan öğrenciye gözlem ve kişisel tepki cümlelerini ayrı yazdır.",
+        "Yazma kalitesini yalnız imlaya indirgeyen öğrenciye amaç, yapı ve içerik ölçütlerini yeniden kullandır."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Tahmin = ipucu + çıkarım",
+        "Tahtaya yaz: Amaç → uygun strateji → toplanacak kanıt",
+        "Tahtaya yaz: Gözlem = gördüğüm | İzlenim = düşündüğüm/hissettiğim | Yorum = kültürle kurduğum bağ",
+        "Tahtaya yaz: 1) İçerik/amaç 2) Yapı/tutarlılık 3) Dil/yazım"
+      ],
+      "assessment_look_fors": [
+        "Amaç ile strateji arasında açık uyum.",
+        "Tahminin görünür bir kaynağa dayanması.",
+        "Gerçek sanal gezi kanıtı.",
+        "Gözlem-izlenim-yorum ayrımının korunması.",
+        "Revizyon izinin görünür olması."
+      ],
+      "differentiation": {
+        "support": [
+          "Amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan.",
+          "Gördüm / düşündüm / ilişkilendirdim tablosu kullan."
+        ],
+        "enrichment": [
+          "Aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat.",
+          "Bir müze nesnesini tarihçi, sanatçı ve günlük ziyaretçi bakışından üç cümlede yorumlat."
+        ]
+      },
+      "source_limitations": [
+        "Dış QR dereceli puanlama anahtarının yerel PDF'de görünmeyen düzey açıklamaları uydurulmamalı."
+      ]
+    },
+    {
+      "block_id": "T02V2_T2_GUIDE_U18_YAZMA_ICERIK",
+      "section_id": "T2_SEC_05_YAZMA_MUZE",
+      "printed_page_range": "150-151",
+      "title": "İçerik Oluşturabilme",
+      "source_item_refs": [
+        "T2_G18_P150_PERFORMANS",
+        "T2_G18_P150_151_KULTUR_MIRAS",
+        "T2_G18_P151_ICERIK_ZENGINLESTIRME"
+      ],
+      "book_task_summaries": [
+        "Kültürel Miras ve Müzeler — performans görevi [PERFORMANCE_TASK]",
+        "Müzeler, kültürel unsurlar ve aktarım yolları [TABLE]",
+        "İçeriği özgün ifade, görsel/işitsel öge ve alıntıyla zenginleştirme [PROCESS]"
+      ],
+      "pedagogical_intent": "Sanal müze izlenim yazısında kurum bilgisini kopyalamak yerine gerçek gözlem, kişisel izlenim ve kültürel yorum arasındaki farkı görünür kıl. Müze-kültürel miras ilişkisini karşılaştırma ve sınıflandırmayla zenginleştirerek yazı içeriğini hazırlamak.",
+      "teacher_moves": [
+        "Kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.",
+        "Ürün görevlerinde ilk taslak ile son ürün arasındaki değişikliği görünür kıl.",
+        "Müze seçimini güvenilir kurum + kişisel ilgi + yazma amacı gerekçesiyle yaptır.",
+        "Notları gördüm / düşündüm-hissettim / kültürle ilişkilendirdim biçiminde ayır.",
+        "Görsel veya alıntının hangi düşünceyi desteklediğini açıklat."
+      ],
+      "follow_up_questions": [
+        "Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?",
+        "Yaptığın bu tercihin amaç ve hedef kitleyle ilişkisi nedir?",
+        "Bu cümle gözlem mi, yorum mu?",
+        "Bu müze nesnesi dönemin yaşamı hakkında ne düşündürüyor?",
+        "Eklediğin görsel olmasa yazında hangi anlam kaybolur?"
+      ],
+      "misconception_interventions": [
+        "Terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt.",
+        "İnternetteki kurum tanıtımını kendi izlenimi sanan öğrenciye gözlem ve kişisel tepki cümlelerini ayrı yazdır.",
+        "Yazma kalitesini yalnız imlaya indirgeyen öğrenciye amaç, yapı ve içerik ölçütlerini yeniden kullandır."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Unsur → işlev → etki",
+        "Tahtaya yaz: Taslak → geri bildirim → karar → revizyon",
+        "Tahtaya yaz: Gözlem = gördüğüm | İzlenim = düşündüğüm/hissettiğim | Yorum = kültürle kurduğum bağ",
+        "Tahtaya yaz: 1) İçerik/amaç 2) Yapı/tutarlılık 3) Dil/yazım"
+      ],
+      "assessment_look_fors": [
+        "Kavram ile işlev arasında doğru ilişki.",
+        "Ürün kararlarının amaç ve bağlama uygunluğu.",
+        "Gerçek sanal gezi kanıtı.",
+        "Gözlem-izlenim-yorum ayrımının korunması.",
+        "Revizyon izinin görünür olması."
+      ],
+      "differentiation": {
+        "support": [
+          "Önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.",
+          "Gördüm / düşündüm / ilişkilendirdim tablosu kullan."
+        ],
+        "enrichment": [
+          "Aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.",
+          "Bir müze nesnesini tarihçi, sanatçı ve günlük ziyaretçi bakışından üç cümlede yorumlat."
+        ]
+      },
+      "source_limitations": [
+        "Dış QR dereceli puanlama anahtarının yerel PDF'de görünmeyen düzey açıklamaları uydurulmamalı."
+      ]
+    },
+    {
+      "block_id": "T02V2_T2_GUIDE_U19_YAZMA_KURAL",
+      "section_id": "T2_SEC_05_YAZMA_MUZE",
+      "printed_page_range": "152",
+      "title": "Kural Uygulayabilme",
+      "source_item_refs": [
+        "T2_G19_P152_YAZMA_KRITER"
+      ],
+      "book_task_summaries": [
+        "İzlenim yazısı uygulama ölçütleri [ASSESSMENT]"
+      ],
+      "pedagogical_intent": "Sanal müze izlenim yazısında kurum bilgisini kopyalamak yerine gerçek gözlem, kişisel izlenim ve kültürel yorum arasındaki farkı görünür kıl. Müze izlenim yazısını plan, yapı, söz varlığı, tutarlılık, değer/hassasiyet ve yazım-noktalama ölçütleriyle üretmek.",
+      "teacher_moves": [
+        "Kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.",
+        "Ürün görevlerinde ilk taslak ile son ürün arasındaki değişikliği görünür kıl.",
+        "Müze seçimini güvenilir kurum + kişisel ilgi + yazma amacı gerekçesiyle yaptır.",
+        "Notları gördüm / düşündüm-hissettim / kültürle ilişkilendirdim biçiminde ayır.",
+        "Görsel veya alıntının hangi düşünceyi desteklediğini açıklat."
+      ],
+      "follow_up_questions": [
+        "Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?",
+        "Yaptığın bu tercihin amaç ve hedef kitleyle ilişkisi nedir?",
+        "Bu cümle gözlem mi, yorum mu?",
+        "Bu müze nesnesi dönemin yaşamı hakkında ne düşündürüyor?",
+        "Eklediğin görsel olmasa yazında hangi anlam kaybolur?"
+      ],
+      "misconception_interventions": [
+        "Terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt.",
+        "İnternetteki kurum tanıtımını kendi izlenimi sanan öğrenciye gözlem ve kişisel tepki cümlelerini ayrı yazdır.",
+        "Yazma kalitesini yalnız imlaya indirgeyen öğrenciye amaç, yapı ve içerik ölçütlerini yeniden kullandır."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Unsur → işlev → etki",
+        "Tahtaya yaz: Taslak → geri bildirim → karar → revizyon",
+        "Tahtaya yaz: Gözlem = gördüğüm | İzlenim = düşündüğüm/hissettiğim | Yorum = kültürle kurduğum bağ",
+        "Tahtaya yaz: 1) İçerik/amaç 2) Yapı/tutarlılık 3) Dil/yazım"
+      ],
+      "assessment_look_fors": [
+        "Kavram ile işlev arasında doğru ilişki.",
+        "Ürün kararlarının amaç ve bağlama uygunluğu.",
+        "Gerçek sanal gezi kanıtı.",
+        "Gözlem-izlenim-yorum ayrımının korunması.",
+        "Revizyon izinin görünür olması."
+      ],
+      "differentiation": {
+        "support": [
+          "Önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.",
+          "Gördüm / düşündüm / ilişkilendirdim tablosu kullan."
+        ],
+        "enrichment": [
+          "Aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.",
+          "Bir müze nesnesini tarihçi, sanatçı ve günlük ziyaretçi bakışından üç cümlede yorumlat."
+        ]
+      },
+      "source_limitations": [
+        "Dış QR dereceli puanlama anahtarının yerel PDF'de görünmeyen düzey açıklamaları uydurulmamalı."
+      ]
+    },
+    {
+      "block_id": "T02V2_T2_GUIDE_U20_YAZMA_DEGERLENDIRME",
+      "section_id": "T2_SEC_05_YAZMA_MUZE",
+      "printed_page_range": "153-154",
+      "title": "Süreci Değerlendirebilme",
+      "source_item_refs": [
+        "T2_G20_P153_OZ_DEGERLENDIRME",
+        "T2_G20_P153_DPA_QR",
+        "T2_G20_P154_OGRENME_GUNLUGU"
+      ],
+      "book_task_summaries": [
+        "Yazma Öz Değerlendirme Formu [ASSESSMENT]",
+        "Dış QR dereceli puanlama anahtarı ve akran değerlendirme [REFERENCE]",
+        "Tema Sonu Öğrenme Günlüğü [ASSESSMENT]"
+      ],
+      "pedagogical_intent": "Sanal müze izlenim yazısında kurum bilgisini kopyalamak yerine gerçek gözlem, kişisel izlenim ve kültürel yorum arasındaki farkı görünür kıl. Yazıyı öz/akran/öğretmen geri bildirimiyle değerlendirmek, revize etmek ve öğrenme günlüğüyle tema sonu yansıtma yapmak.",
+      "teacher_moves": [
+        "Öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.",
+        "Geri bildirimi sonraki ürün değişikliğine veya öğrenme davranışına bağla.",
+        "Müze seçimini güvenilir kurum + kişisel ilgi + yazma amacı gerekçesiyle yaptır.",
+        "Notları gördüm / düşündüm-hissettim / kültürle ilişkilendirdim biçiminde ayır.",
+        "Görsel veya alıntının hangi düşünceyi desteklediğini açıklat."
+      ],
+      "follow_up_questions": [
+        "Bu değerlendirmene hangi ürün veya performans ayrıntısı kanıt?",
+        "Bir sonraki benzer görevde tek bir şeyi değiştirecek olsan neyi değiştirirsin?",
+        "Bu cümle gözlem mi, yorum mu?",
+        "Bu müze nesnesi dönemin yaşamı hakkında ne düşündürüyor?",
+        "Eklediğin görsel olmasa yazında hangi anlam kaybolur?"
+      ],
+      "misconception_interventions": [
+        "Formu otomatik olumlu işaretleyen öğrenciye belirli bir örnek göstermeden yargıyı tamamlanmış sayma.",
+        "İnternetteki kurum tanıtımını kendi izlenimi sanan öğrenciye gözlem ve kişisel tepki cümlelerini ayrı yazdır.",
+        "Yazma kalitesini yalnız imlaya indirgeyen öğrenciye amaç, yapı ve içerik ölçütlerini yeniden kullandır."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Öz değerlendirme = yargı + kanıt + yeni hedef",
+        "Tahtaya yaz: Geri bildirim → değerlendir → karar ver → revize et",
+        "Tahtaya yaz: Gözlem = gördüğüm | İzlenim = düşündüğüm/hissettiğim | Yorum = kültürle kurduğum bağ",
+        "Tahtaya yaz: 1) İçerik/amaç 2) Yapı/tutarlılık 3) Dil/yazım"
+      ],
+      "assessment_look_fors": [
+        "Kanıta dayalı öz değerlendirme.",
+        "Uygulanabilir bir sonraki adım veya revizyon.",
+        "Gerçek sanal gezi kanıtı.",
+        "Gözlem-izlenim-yorum ayrımının korunması.",
+        "Revizyon izinin görünür olması."
+      ],
+      "differentiation": {
+        "support": [
+          "Bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan.",
+          "Gördüm / düşündüm / ilişkilendirdim tablosu kullan."
+        ],
+        "enrichment": [
+          "Bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste.",
+          "Bir müze nesnesini tarihçi, sanatçı ve günlük ziyaretçi bakışından üç cümlede yorumlat."
+        ]
+      },
+      "source_limitations": [
+        "Dış QR dereceli puanlama anahtarının yerel PDF'de görünmeyen düzey açıklamaları uydurulmamalı."
+      ]
+    },
+    {
+      "block_id": "T02V2_T2_GUIDE_U21_TEMA_OLCME",
+      "section_id": "T2_SEC_06_TEMA_OLCME",
+      "printed_page_range": "155-159",
+      "title": "2. Tema Ölçme ve Değerlendirme",
+      "source_item_refs": [
+        "T2_G21_P155_Q1",
+        "T2_G21_P155_Q2",
+        "T2_G21_P156_157_Q3",
+        "T2_G21_P157_Q4",
+        "T2_G21_P157_Q5",
+        "T2_G21_P158_Q6",
+        "T2_G21_P159_Q7",
+        "T2_G21_P159_Q8",
+        "T2_G21_P159_Q9"
+      ],
+      "book_task_summaries": [
+        "Soru 1 — Orhun atasözü/deyimleri ve toplum özellikleri [QUESTION]",
+        "Soru 2 — atasözü ve deyimlerin genel amacı [QUESTION]",
+        "Soru 3 — ulaşılamayan çıkarım [QUESTION]",
+        "Soru 4 — Orhun Abideleriyle benzer eser [QUESTION]",
+        "Soru 5 — ortak bilgi [QUESTION]",
+        "Soru 6 — ayak uydurarak atışmayı sürdürme [QUESTION]",
+        "Soru 7 — öğrenci değerlendirmelerindeki yanlışlık [QUESTION]",
+        "Soru 8 — Orhun’dan günümüze eserler arası köprü [QUESTION]",
+        "Soru 9 — taşlara kazınan tarih ve töre için slogan [QUESTION]"
+      ],
+      "pedagogical_intent": "Tema sonu sorularında tarihî metin, kültür, âşıklık ve eserler arası süreklilik bilgilerini doğru seçenekten çok gerekçeyle görünür kıl. Tema sonu dokuz soruyu görünür PDF içeriğine göre cevaplamak; dış videoya bağlı 8-9. sorularda gözlenmeyen ayrıntıları uydurmamak.",
+      "teacher_moves": [
+        "Çoktan seçmeli sorularda yalnız doğru seçeneği değil kısa gerekçeyi de iste.",
+        "Açık uçlu sorularda kabul edilebilir farklı cevapları kullanılan ölçüt ve kanıta göre değerlendir.",
+        "Açık uçlu karşılaştırmada benzerliklerin yanında tür veya dönem farkını da sor.",
+        "Atışma sorularında yalnız son kelimeye değil ayak/nakarat düzenine baktır.",
+        "Slogan görevinde kısalık kadar tarihî hafıza ve töre bağlantısını değerlendir."
+      ],
+      "follow_up_questions": [
+        "Bu seçenek neden doğru; en güçlü kanıtın ne?",
+        "Diğer seçeneklerden biri neden elenir?",
+        "Bu eser Orhun'a hangi iki ölçütte benziyor, hangi ölçütte ayrılıyor?",
+        "'Daha sanatlı' yargısını hangi ölçütle savunabilirsin?"
+      ],
+      "misconception_interventions": [
+        "Doğru cevabı ezberden veren öğrenciden kanıt istemeden tam öğrenme kabul etme.",
+        "Eserleri yalnız aynı kültüre ait oldukları için benzer sayan öğrenciye tür, amaç ve dönem ölçütü ver.",
+        "Kişisel beğeniyi nesnel sanatlılık yargısı gibi sunan öğrenciye somut dil/biçim kanıtı iste."
+      ],
+      "board_notes": [
+        "Tahtaya yaz: Doğru cevap + gerekçe = güvenilir öğrenme kanıtı",
+        "Tahtaya yaz: Karşılaştırma = benzerlik + farklılık + ölçüt",
+        "Tahtaya yaz: Değerlendirme yargısı = ölçüt + kanıt",
+        "Tahtaya yaz: Kültürel süreklilik = geçmiş unsur + sonraki eserdeki karşılık"
+      ],
+      "assessment_look_fors": [
+        "Cevap ile gerekçenin tutarlılığı.",
+        "Açık uçlu cevapta ölçüt ve kanıt kullanımı.",
+        "Doğru cevap ile gerekçenin uyumu.",
+        "Eserler arası sürekliliğin somut ölçütle açıklanması."
+      ],
+      "differentiation": {
+        "support": [
+          "Soru kökündeki anahtar kavramları işaretlet ve seçenekleri tek tek kanıtla ele.",
+          "Dönem / tür / amaç başlıklı küçük karşılaştırma tablosu ver."
+        ],
+        "enrichment": [
+          "Yanlış bir seçeneği doğru hâle getirecek biçimde yeniden yazdır."
+        ]
+      },
+      "source_limitations": [
+        "Göktürklerin Dirilişi gibi dış videolarda yerel PDF'de görünmeyen sahne veya anlatı ayrıntıları cevap anahtarına eklenmemeli."
+      ]
+    }
+  ]
+}
