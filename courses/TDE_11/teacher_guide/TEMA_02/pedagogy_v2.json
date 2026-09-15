@@ -1,9 +1,9 @@
 {
-  "schema_version": "2.0.0",
+  "schema_version": "2.1.0",
   "document_type": "TYMM_TEACHER_GUIDE_PEDAGOGY_OVERLAY",
   "course_id": "TDE_11",
   "theme_id": "TEMA_02",
-  "status": "REFERENCE_QUALITY",
+  "status": "REVIEW_REQUIRED",
   "principles": [
     "Ders kitabındaki gerçek soru ve görev görünür kalır; doğrulanmamış soru metni uydurulmaz.",
     "Açık uçlu cevaplarda tek kalıp yerine metin veya medya kanıtı, gerekçe ve kabul edilebilir alternatifler aranır.",
@@ -28,8 +28,303 @@
       "book_task_summaries": [
         "Tema kapsamı ve beklenen öğrenmeler [REFERENCE]",
         "Dede Korkut alıntısı — geçicilik ve kültürel bellek [REFERENCE]",
-        "Temaya Başlarken — edebiyat, millî kimlik ve kültür [QUESTION]",
-        "Düşünelim Paylaşalım — ortak alfabe ve dil birliği [QUESTION]"
+        "Temaya Başlarken — edebiyat, millî kimlik ve kültür — Soru 1 [QUESTION]",
+        "Temaya Başlarken — edebiyat, millî kimlik ve kültür — Soru 2 [QUESTION]",
+        "Temaya Başlarken — edebiyat, millî kimlik ve kültür — Soru 3 [QUESTION]",
+        "Düşünelim Paylaşalım — ortak alfabe ve dil birliği — Soru 1 [QUESTION]",
+        "Düşünelim Paylaşalım — ortak alfabe ve dil birliği — Soru 2 [QUESTION]",
+        "Düşünelim Paylaşalım — ortak alfabe ve dil birliği — Soru 3 [QUESTION]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T2_G00_P84_TEMA_CERCEVESI",
+          "printed_page_range": "84",
+          "item_type": "REFERENCE",
+          "acceptance_criteria": [],
+          "canonical_teacher_guidance": [
+            "Tema başında bu çerçeveyi öğrenciye hedef listesi olarak ezberletme; sonraki etkinliklerde dönülecek bir yol haritası olarak kullan."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Öğrencinin temanın ana odağını kendi cümlesiyle ifade etmesi."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.84 / PDF s.85"
+          ],
+          "task_id": "T2_G00_P84_TEMA_CERCEVESI",
+          "label": "Tema kapsamı ve beklenen öğrenmeler",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Tema kapsamı ve beklenen öğrenmeler",
+          "expected_answer": {
+            "anlama": [
+              "Türk dünyasında ortak dil ve kültür unsurları",
+              "edebiyatın dil ve kültür aktarımındaki işlevi",
+              "dilin millet olma bilincindeki rolü",
+              "millî kimlik unsurları",
+              "Orhun Abideleri’nin önemi",
+              "âşıklık geleneği"
+            ],
+            "anlatma": [
+              "Türk kültürünü tanıtan konuşma",
+              "çevrim içi müze gezisine dayalı yansıtıcı yazı"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G00_P85_DEDE_KORKUT",
+          "printed_page_range": "85",
+          "item_type": "REFERENCE",
+          "acceptance_criteria": [
+            "Geçicilik/ölümlülük temasını fark eder.",
+            "Dede Korkut’u kültürel bellekle ilişkilendirir."
+          ],
+          "canonical_teacher_guidance": [
+            "Bu sayfada yeni zorunlu soru üretme; tema atmosferi ve kültürel bellek için kısa giriş olarak kullan."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.85 / PDF s.86"
+          ],
+          "task_id": "T2_G00_P85_DEDE_KORKUT",
+          "label": "Dede Korkut alıntısı — geçicilik ve kültürel bellek",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Dede Korkut alıntısı — geçicilik ve kültürel bellek",
+          "expected_answer": "Alıntı, insan hayatının geçiciliğini; sözlü/yazılı kültür ürünlerinin ise toplumsal belleği kuşaklar arasında taşıyabildiğini düşündürür.",
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G00_P86_Q1_3",
+          "printed_page_range": "86",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Edebiyatın kimlik/kültür aktarımı işlevini açıklar.",
+            "İkinci soruda nazariyatçı kavramını fikir üretme/savunmayla ilişkilendirir.",
+            "Üçüncü soruda en az bir eser + işlev gerekçesi verir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [
+            "Millî kimliği yalnız siyasî kimlik olarak görmek.",
+            "Edebiyatın işlevini yalnız eğlendirme ile sınırlamak."
+          ],
+          "canonical_assessment_evidence": [
+            "Üç gerekçeli cevap."
+          ],
+          "canonical_differentiation": {
+            "support": [
+              "Kimlik-dil-değer-hafıza anahtarlarını ver."
+            ],
+            "enrichment": [
+              "Farklı dönemlerden iki eseri işlev bakımından karşılaştırmasını iste."
+            ]
+          },
+          "source_locators": [
+            "basılı s.86 / PDF s.87"
+          ],
+          "task_id": "T2_G00_P86_Q1_3#Q1",
+          "label": "Temaya Başlarken — edebiyat, millî kimlik ve kültür — Soru 1",
+          "question_number": "1",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.86 — 1. soru",
+          "expected_answer": "Edebiyat ortak değerleri, tarihî tecrübeyi, dili ve ideal insan tiplerini görünür kılar; bunları kuşaklara aktararak millî kimliğin oluşmasına ve sürmesine katkı sağlar.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G00_P86_Q1_3",
+          "printed_page_range": "86",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Edebiyatın kimlik/kültür aktarımı işlevini açıklar.",
+            "İkinci soruda nazariyatçı kavramını fikir üretme/savunmayla ilişkilendirir.",
+            "Üçüncü soruda en az bir eser + işlev gerekçesi verir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [
+            "Millî kimliği yalnız siyasî kimlik olarak görmek.",
+            "Edebiyatın işlevini yalnız eğlendirme ile sınırlamak."
+          ],
+          "canonical_assessment_evidence": [
+            "Üç gerekçeli cevap."
+          ],
+          "canonical_differentiation": {
+            "support": [
+              "Kimlik-dil-değer-hafıza anahtarlarını ver."
+            ],
+            "enrichment": [
+              "Farklı dönemlerden iki eseri işlev bakımından karşılaştırmasını iste."
+            ]
+          },
+          "source_locators": [
+            "basılı s.86 / PDF s.87"
+          ],
+          "task_id": "T2_G00_P86_Q1_3#Q2",
+          "label": "Temaya Başlarken — edebiyat, millî kimlik ve kültür — Soru 2",
+          "question_number": "2",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.86 — 2. soru",
+          "expected_answer": "İslâm Bey yalnız vatansever bir kahraman değil, vatan fikrini bilinçli biçimde açıklayan ve savunan bir düşünce taşıyıcısıdır; söz ve eylemleriyle bu fikri temellendirir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G00_P86_Q1_3",
+          "printed_page_range": "86",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Edebiyatın kimlik/kültür aktarımı işlevini açıklar.",
+            "İkinci soruda nazariyatçı kavramını fikir üretme/savunmayla ilişkilendirir.",
+            "Üçüncü soruda en az bir eser + işlev gerekçesi verir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [
+            "Millî kimliği yalnız siyasî kimlik olarak görmek.",
+            "Edebiyatın işlevini yalnız eğlendirme ile sınırlamak."
+          ],
+          "canonical_assessment_evidence": [
+            "Üç gerekçeli cevap."
+          ],
+          "canonical_differentiation": {
+            "support": [
+              "Kimlik-dil-değer-hafıza anahtarlarını ver."
+            ],
+            "enrichment": [
+              "Farklı dönemlerden iki eseri işlev bakımından karşılaştırmasını iste."
+            ]
+          },
+          "source_locators": [
+            "basılı s.86 / PDF s.87"
+          ],
+          "task_id": "T2_G00_P86_Q1_3#Q3",
+          "label": "Temaya Başlarken — edebiyat, millî kimlik ve kültür — Soru 3",
+          "question_number": "3",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.86 — 3. soru",
+          "expected_answer": "Vatan yahut Silistre, Dede Korkut Hikâyeleri, İstiklâl Marşı, Nutuk çevresindeki edebî/retorik metinler veya başka uygun eserler; dil, ortak hafıza, değer ve ideal tipler üzerinden gerekçelendirilebilir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G00_P87_Q1_3",
+          "printed_page_range": "87",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Dil birliğinin iletişim ve kültürel bağ boyutunu açıklar.",
+            "Ortak alfabenin katkısını somutlaştırır.",
+            "En az iki uygulanabilir öneri sunar."
+          ],
+          "canonical_teacher_guidance": [
+            "Ortak alfabe ile bütün Türk lehçelerinin tek dile dönüşeceği gibi aşırı genellemeleri düzelt."
+          ],
+          "canonical_common_misconceptions": [
+            "Alfabe birliğini dil çeşitliliğinin ortadan kalkması sanmak."
+          ],
+          "canonical_assessment_evidence": [
+            "Gerekçeli üç cevap."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.87 / PDF s.88"
+          ],
+          "task_id": "T2_G00_P87_Q1_3#Q1",
+          "label": "Düşünelim Paylaşalım — ortak alfabe ve dil birliği — Soru 1",
+          "question_number": "1",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.87 — 1. soru",
+          "expected_answer": "Ortak yazı dili karşılıklı okunabilirliği, iletişimi, ortak yayın/eğitim materyali üretimini ve kültürel dolaşımı kolaylaştırabilir; yerel ağız ve lehçelerin varlığı korunabilir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G00_P87_Q1_3",
+          "printed_page_range": "87",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Dil birliğinin iletişim ve kültürel bağ boyutunu açıklar.",
+            "Ortak alfabenin katkısını somutlaştırır.",
+            "En az iki uygulanabilir öneri sunar."
+          ],
+          "canonical_teacher_guidance": [
+            "Ortak alfabe ile bütün Türk lehçelerinin tek dile dönüşeceği gibi aşırı genellemeleri düzelt."
+          ],
+          "canonical_common_misconceptions": [
+            "Alfabe birliğini dil çeşitliliğinin ortadan kalkması sanmak."
+          ],
+          "canonical_assessment_evidence": [
+            "Gerekçeli üç cevap."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.87 / PDF s.88"
+          ],
+          "task_id": "T2_G00_P87_Q1_3#Q2",
+          "label": "Düşünelim Paylaşalım — ortak alfabe ve dil birliği — Soru 2",
+          "question_number": "2",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.87 — 2. soru",
+          "expected_answer": "Ortak alfabe seslerin karşılıklı gösterimini standartlaştırabilir, metin alışverişini ve dijital erişimi kolaylaştırabilir, ortak dil mirasının görünürlüğünü artırabilir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G00_P87_Q1_3",
+          "printed_page_range": "87",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Dil birliğinin iletişim ve kültürel bağ boyutunu açıklar.",
+            "Ortak alfabenin katkısını somutlaştırır.",
+            "En az iki uygulanabilir öneri sunar."
+          ],
+          "canonical_teacher_guidance": [
+            "Ortak alfabe ile bütün Türk lehçelerinin tek dile dönüşeceği gibi aşırı genellemeleri düzelt."
+          ],
+          "canonical_common_misconceptions": [
+            "Alfabe birliğini dil çeşitliliğinin ortadan kalkması sanmak."
+          ],
+          "canonical_assessment_evidence": [
+            "Gerekçeli üç cevap."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.87 / PDF s.88"
+          ],
+          "task_id": "T2_G00_P87_Q1_3#Q3",
+          "label": "Düşünelim Paylaşalım — ortak alfabe ve dil birliği — Soru 3",
+          "question_number": "3",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.87 — 3. soru",
+          "expected_answer": [
+            "ortak yayın ve dijital içerik",
+            "karşılıklı çeviri/terim çalışmaları",
+            "öğrenci-öğretmen değişimleri",
+            "ortak kültür-sanat etkinlikleri",
+            "dil öğretimi ve sözlük/korpus projeleri"
+          ],
+          "expected_response": null,
+          "split_from_group": true
+        }
       ],
       "pedagogical_intent": "Kültürü ortak hafıza, dil, edebî eser ve kuşak aktarımı üzerinden kur; ortaklık ile çeşitliliği birlikte görünür kıl. Temanın millî kimlik, kültür aktarımı, Türk dünyası ve ortak dil/alfabe odağını görünür kılmak.",
       "teacher_moves": [
@@ -88,6 +383,134 @@
         "Türk dünyasında ortak kelime kartları ve kelime duvarı [PROCESS]",
         "Oğulla Buluşma — tahmin ve okuma stratejisi [PROCESS]",
         "Oğulla Buluşma metninin okunması [REFERENCE]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T2_G01_P88_KULTUR_ONBILGI",
+          "printed_page_range": "88",
+          "item_type": "PROCESS",
+          "acceptance_criteria": [
+            "En az bir görsel/kültür unsurunu ortak kültürle ilişkilendirir.",
+            "Gönül coğrafyasını yalnız fizikî sınır değil tarihî-kültürel bağ olarak yorumlar."
+          ],
+          "canonical_teacher_guidance": [
+            "Öğrencinin kendi kültürel deneyimini paylaşmasına alan aç; tek tip kültür anlayışı dayatma."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Görsel/kelime üzerinden gerekçeli kültür bağlantısı."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.88 / PDF s.89"
+          ],
+          "task_id": "T2_G01_P88_KULTUR_ONBILGI",
+          "label": "Konuya Başlarken — ortak kültür çağrışımları",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Konuya Başlarken — ortak kültür çağrışımları",
+          "expected_answer": {
+            "odak": "Ortak oyuncak, bayram/şenlik, Nevruz, tarım, gönül coğrafyası ve yaş gibi ortak/çok anlamlı dil-kültür unsurları üzerinden bağlantı kurulur."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G01_P89_ORTAK_KELIMELER",
+          "printed_page_range": "89",
+          "item_type": "PROCESS",
+          "acceptance_criteria": [
+            "Kaynağa dayalı kelime örneği getirir.",
+            "Anlam tahminini bağlam veya karşılaştırmayla gerekçelendirir."
+          ],
+          "canonical_teacher_guidance": [
+            "Benzer sözcükleri “yanlış Türkçe” diye etiketleme; tarihî ve coğrafî çeşitlilik olarak ele al."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Kelime kartları + anlam tahminleri."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.89 / PDF s.90"
+          ],
+          "task_id": "T2_G01_P89_ORTAK_KELIMELER",
+          "label": "Türk dünyasında ortak kelime kartları ve kelime duvarı",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Türk dünyasında ortak kelime kartları ve kelime duvarı",
+          "expected_answer": "Öğrenciler Türk lehçe/şivelerinden ortak ya da benzer kelimeler bulur, anlam tahmini yapar ve sınıf kelime duvarında sınıflandırır.",
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G01_P89_90_OKUMA_STRATEJISI",
+          "printed_page_range": "89-90",
+          "item_type": "PROCESS",
+          "acceptance_criteria": [
+            "Tahmini görünür ipucuna bağlar.",
+            "Okuma amacını ve stratejisini açıklar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Tahmin + strateji notu."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.89-90 / PDF s.90-91"
+          ],
+          "task_id": "T2_G01_P89_90_OKUMA_STRATEJISI",
+          "label": "Oğulla Buluşma — tahmin ve okuma stratejisi",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Oğulla Buluşma — tahmin ve okuma stratejisi",
+          "expected_answer": {
+            "tahmin": "Başlık/görsellerden baba-oğul ilişkisi, ayrılık/özlem ve buluşma ekseninde bir hikâye beklenebilir.",
+            "strateji": "Okuma amacı belirlenir; başlık, görsel ve yazar bilgisiyle tahmin yapılır; vurgu-tonlama ve olay akışını izlemeye uygun aktif okuma stratejisi seçilir."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G01_P90_94_METIN_AKISI",
+          "printed_page_range": "90-94",
+          "item_type": "REFERENCE",
+          "acceptance_criteria": [
+            "Olay akışını ve Çordon’un duygusal değişimini izler."
+          ],
+          "canonical_teacher_guidance": [
+            "Bu sayfalarda metni soru bombardımanına dönüştürme; olay, çatışma ve kültür unsurlarını kısa notlarla izlet."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Olay/duygu akışı notları."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.90-94 / PDF s.91-95"
+          ],
+          "task_id": "T2_G01_P90_94_METIN_AKISI",
+          "label": "Oğulla Buluşma metninin okunması",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Oğulla Buluşma metninin okunması",
+          "expected_answer": null,
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Oğulla Buluşma ve anı çalışmalarında olay, duygu, kültür ve dil çeşitliliğini metin kanıtıyla ilişkilendir; Türkçe çeşitliliğini değer hiyerarşisine dönüştürme. Türk dünyası ortak kültürü ve söz varlığı üzerinden Oğulla Buluşma metnine hazırlık yapmak; tahmin ve okuma stratejisini görünür kılmak.",
       "teacher_moves": [
@@ -152,10 +575,518 @@
         "Söz Varlığımız — katar, kampana, hat, toynak [VOCABULARY]",
         "Türkçenin farklı kollarını karşılaştırma [TABLE]",
         "Anlatmaya bağlı metin özellikleri ve ortak kültür görselleri [PROCESS]",
-        "Oğulla Buluşma — 1-8. sorular [QUESTION]",
+        "Oğulla Buluşma — 1-8. sorular — Soru 1 [QUESTION]",
+        "Oğulla Buluşma — 1-8. sorular — Soru 2 [QUESTION]",
+        "Oğulla Buluşma — 1-8. sorular — Soru 3 [QUESTION]",
+        "Oğulla Buluşma — 1-8. sorular — Soru 4 [QUESTION]",
+        "Oğulla Buluşma — 1-8. sorular — Soru 5 [QUESTION]",
+        "Oğulla Buluşma — 1-8. sorular — Soru 6 [QUESTION]",
+        "Oğulla Buluşma — 1-8. sorular — Soru 7 [QUESTION]",
+        "Oğulla Buluşma — 1-8. sorular — Soru 8 [QUESTION]",
         "Öznel-nesnel ifadeler ve dil/anlatım tablosu [TABLE]",
         "Oğulla Buluşma — özetleme [PERFORMANCE_TASK]",
         "Fiil kipleri, çatı ve noktalama [TABLE]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T2_G02_P95_96_SOZ_VARLIGI",
+          "printed_page_range": "95-96",
+          "item_type": "VOCABULARY",
+          "acceptance_criteria": [
+            "Anlamı metin bağlamıyla ilişkilendirir.",
+            "Kelimeyi yeni bir cümlede anlamına uygun kullanır."
+          ],
+          "canonical_teacher_guidance": [
+            "TDK kontrolünü son aşama yap; önce bağlamdan tahmini koru."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Tahmin + kontrol + örnek cümle."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.95-96 / PDF s.96-97"
+          ],
+          "task_id": "T2_G02_P95_96_SOZ_VARLIGI",
+          "label": "Söz Varlığımız — katar, kampana, hat, toynak",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Söz Varlığımız — katar, kampana, hat, toynak",
+          "expected_answer": {
+            "katar": "Birbiri ardına bağlanmış demiryolu araçları/tren dizisi bağlamı.",
+            "kampana": "Çan/uyarı sesi veren araç.",
+            "hat": "Yüz çizgisi/biçim; bağlama göre “bütün hatlarıyla” = görünüş/çizgiler.",
+            "toynak": "At gibi tek tırnaklı hayvanların ayağındaki sert bölüm."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G02_P96_98_TURKCE_CESITLILIK",
+          "printed_page_range": "96-98",
+          "item_type": "TABLE",
+          "acceptance_criteria": [
+            "En az iki somut kelime/biçim örneğiyle karşılaştırır.",
+            "Farklılığı dil çeşitliliği olarak yorumlar."
+          ],
+          "canonical_teacher_guidance": [
+            "Kazak, Kırgız, Uygur, Azerbaycan vb. örnekleri üstünlük hiyerarşisine sokma.",
+            "p97 kontrol listesini süreç kanıtı olarak kullan."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "T diyagramı + FORM_T2_P097_KONTROL_LISTESI_01."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.96-98 / PDF s.97-99"
+          ],
+          "task_id": "T2_G02_P96_98_TURKCE_CESITLILIK",
+          "label": "Türkçenin farklı kollarını karşılaştırma",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Türkçenin farklı kollarını karşılaştırma",
+          "expected_answer": {
+            "benzerlikler": [
+              "ortak kökler ve temel söz varlığı",
+              "benzer ek/kelime yapıları",
+              "çok sayıda anlamdaş veya sesçe yakın kelime"
+            ],
+            "farkliliklar": [
+              "ses değişmeleri",
+              "bazı ek/kelime biçimleri",
+              "yer yer anlam farklılaşmaları"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G02_P98_99_HATIRLAMA_KULTUR",
+          "printed_page_range": "98-99",
+          "item_type": "PROCESS",
+          "acceptance_criteria": [
+            "Anlatmaya bağlı metnin en az dört temel unsurunu doğru verir.",
+            "Kültür görselini gerekçelendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Kavram haritası + kültür görsel önerileri."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.98-99 / PDF s.99-100"
+          ],
+          "task_id": "T2_G02_P98_99_HATIRLAMA_KULTUR",
+          "label": "Anlatmaya bağlı metin özellikleri ve ortak kültür görselleri",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Anlatmaya bağlı metin özellikleri ve ortak kültür görselleri",
+          "expected_answer": {
+            "anlatmaya_bagli": [
+              "kurmaca yapı",
+              "olay/olay örgüsü",
+              "kişi",
+              "zaman",
+              "mekân",
+              "anlatıcı/bakış açısı",
+              "tema/ileti"
+            ],
+            "kultur_gorselleri": "Öğrenci ortak yemek, müzik, el sanatı, gelenek, mimari, oyun, giyim veya bayramlardan uygun örnekler önerebilir."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G02_P100_METNI_ANLAYALIM",
+          "printed_page_range": "100",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Cevaplarını metindeki olay/kişiye bağlar.",
+            "Psikolojik yorumlarda metin kanıtı kullanır.",
+            "6. soruda tek doğru yerine gerekçeli tutum aranır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [
+            "Çordon’un davranışını yalnız “delilik” diye etiketlemek.",
+            "Sultan’ın gönüllü kararını yok saymak."
+          ],
+          "canonical_assessment_evidence": [
+            "Sekiz metne dayalı cevap."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.100 / PDF s.101"
+          ],
+          "task_id": "T2_G02_P100_METNI_ANLAYALIM#Q1",
+          "label": "Oğulla Buluşma — 1-8. sorular — Soru 1",
+          "question_number": "1",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.100 — 1. soru",
+          "expected_answer": "Çordon, yıllar önce ölen oğlu Sultan’ın çalıştığı/yolunun geçtiği yerlere gitmeye karar verir. Karar; bastırılmış yas, özlem ve oğluyla yeniden bağ kurma ihtiyacının yüzeye çıkmasıyla açıklanabilir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G02_P100_METNI_ANLAYALIM",
+          "printed_page_range": "100",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Cevaplarını metindeki olay/kişiye bağlar.",
+            "Psikolojik yorumlarda metin kanıtı kullanır.",
+            "6. soruda tek doğru yerine gerekçeli tutum aranır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [
+            "Çordon’un davranışını yalnız “delilik” diye etiketlemek.",
+            "Sultan’ın gönüllü kararını yok saymak."
+          ],
+          "canonical_assessment_evidence": [
+            "Sekiz metne dayalı cevap."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.100 / PDF s.101"
+          ],
+          "task_id": "T2_G02_P100_METNI_ANLAYALIM#Q2",
+          "label": "Oğulla Buluşma — 1-8. sorular — Soru 2",
+          "question_number": "2",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.100 — 2. soru",
+          "expected_answer": "Eşi onun acısını ve kararlılığını bilir; karşı çıkmanın işe yaramayacağını, üvey anne oluşu nedeniyle yanlış anlaşılabileceğini düşünür.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G02_P100_METNI_ANLAYALIM",
+          "printed_page_range": "100",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Cevaplarını metindeki olay/kişiye bağlar.",
+            "Psikolojik yorumlarda metin kanıtı kullanır.",
+            "6. soruda tek doğru yerine gerekçeli tutum aranır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [
+            "Çordon’un davranışını yalnız “delilik” diye etiketlemek.",
+            "Sultan’ın gönüllü kararını yok saymak."
+          ],
+          "canonical_assessment_evidence": [
+            "Sekiz metne dayalı cevap."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.100 / PDF s.101"
+          ],
+          "task_id": "T2_G02_P100_METNI_ANLAYALIM#Q3",
+          "label": "Oğulla Buluşma — 1-8. sorular — Soru 3",
+          "question_number": "3",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.100 — 3. soru",
+          "expected_answer": "Karar alışılmış davranışın dışındadır ve geçmiş acıyı yeniden açar; insanlar ani ve riskli kararlara şaşırma, kaygı veya engelleme ile tepki verebilir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G02_P100_METNI_ANLAYALIM",
+          "printed_page_range": "100",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Cevaplarını metindeki olay/kişiye bağlar.",
+            "Psikolojik yorumlarda metin kanıtı kullanır.",
+            "6. soruda tek doğru yerine gerekçeli tutum aranır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [
+            "Çordon’un davranışını yalnız “delilik” diye etiketlemek.",
+            "Sultan’ın gönüllü kararını yok saymak."
+          ],
+          "canonical_assessment_evidence": [
+            "Sekiz metne dayalı cevap."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.100 / PDF s.101"
+          ],
+          "task_id": "T2_G02_P100_METNI_ANLAYALIM#Q4",
+          "label": "Oğulla Buluşma — 1-8. sorular — Soru 4",
+          "question_number": "4",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.100 — 4. soru",
+          "expected_answer": "Yoğun yas, özlem ve geçmişi zihinde canlı tutma; gerçeklikle hatıranın iç içe geçmesi.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G02_P100_METNI_ANLAYALIM",
+          "printed_page_range": "100",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Cevaplarını metindeki olay/kişiye bağlar.",
+            "Psikolojik yorumlarda metin kanıtı kullanır.",
+            "6. soruda tek doğru yerine gerekçeli tutum aranır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [
+            "Çordon’un davranışını yalnız “delilik” diye etiketlemek.",
+            "Sultan’ın gönüllü kararını yok saymak."
+          ],
+          "canonical_assessment_evidence": [
+            "Sekiz metne dayalı cevap."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.100 / PDF s.101"
+          ],
+          "task_id": "T2_G02_P100_METNI_ANLAYALIM#Q5",
+          "label": "Oğulla Buluşma — 1-8. sorular — Soru 5",
+          "question_number": "5",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.100 — 5. soru",
+          "expected_answer": "Travmatik olayları unutma isteği, acıdan korunma ve baş etme çabasıdır; unutmakla iyileşmek aynı şey değildir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G02_P100_METNI_ANLAYALIM",
+          "printed_page_range": "100",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Cevaplarını metindeki olay/kişiye bağlar.",
+            "Psikolojik yorumlarda metin kanıtı kullanır.",
+            "6. soruda tek doğru yerine gerekçeli tutum aranır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [
+            "Çordon’un davranışını yalnız “delilik” diye etiketlemek.",
+            "Sultan’ın gönüllü kararını yok saymak."
+          ],
+          "canonical_assessment_evidence": [
+            "Sekiz metne dayalı cevap."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.100 / PDF s.101"
+          ],
+          "task_id": "T2_G02_P100_METNI_ANLAYALIM#Q6",
+          "label": "Oğulla Buluşma — 1-8. sorular — Soru 6",
+          "question_number": "6",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.100 — 6. soru",
+          "expected_answer": "Kızların kaygısı anlaşılabilir; ancak babayı bütünüyle suçlamaları, onun değer anlayışı ve Sultan’ın gönüllü iradesini hesaba katmadığı için tek yönlüdür. Gerekçeli farklı yorum kabul edilir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G02_P100_METNI_ANLAYALIM",
+          "printed_page_range": "100",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Cevaplarını metindeki olay/kişiye bağlar.",
+            "Psikolojik yorumlarda metin kanıtı kullanır.",
+            "6. soruda tek doğru yerine gerekçeli tutum aranır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [
+            "Çordon’un davranışını yalnız “delilik” diye etiketlemek.",
+            "Sultan’ın gönüllü kararını yok saymak."
+          ],
+          "canonical_assessment_evidence": [
+            "Sekiz metne dayalı cevap."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.100 / PDF s.101"
+          ],
+          "task_id": "T2_G02_P100_METNI_ANLAYALIM#Q7",
+          "label": "Oğulla Buluşma — 1-8. sorular — Soru 7",
+          "question_number": "7",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.100 — 7. soru",
+          "expected_answer": "Çordon, oğlunun seçimini mertlik/fedakârlık değeriyle uyumlu görür ve kendi davranışının onun iradesine saygı olduğuna inanır.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G02_P100_METNI_ANLAYALIM",
+          "printed_page_range": "100",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Cevaplarını metindeki olay/kişiye bağlar.",
+            "Psikolojik yorumlarda metin kanıtı kullanır.",
+            "6. soruda tek doğru yerine gerekçeli tutum aranır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [
+            "Çordon’un davranışını yalnız “delilik” diye etiketlemek.",
+            "Sultan’ın gönüllü kararını yok saymak."
+          ],
+          "canonical_assessment_evidence": [
+            "Sekiz metne dayalı cevap."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.100 / PDF s.101"
+          ],
+          "task_id": "T2_G02_P100_METNI_ANLAYALIM#Q8",
+          "label": "Oğulla Buluşma — 1-8. sorular — Soru 8",
+          "question_number": "8",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.100 — 8. soru",
+          "expected_answer": {
+            "konu": "Çordon’un savaşta ölen oğlu Sultan’a duyduğu özlem ve geçmişle yüzleşmesi.",
+            "amac": "Savaşın aile üzerindeki izlerini; baba sevgisi, fedakârlık, yas, hatıra ve insanî değerler üzerinden düşündürmek."
+          },
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G02_P101_DIL_ANLATIM",
+          "printed_page_range": "101",
+          "item_type": "TABLE",
+          "acceptance_criteria": [
+            "Öznel/nesnel örnekleri metinden seçer.",
+            "Tablo başlıklarını metin kanıtıyla doldurur."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Doldurulmuş dil-anlatım tablosu."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.101 / PDF s.102"
+          ],
+          "task_id": "T2_G02_P101_DIL_ANLATIM",
+          "label": "Öznel-nesnel ifadeler ve dil/anlatım tablosu",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Öznel-nesnel ifadeler ve dil/anlatım tablosu",
+          "expected_answer": {
+            "oznel": "Duygu, değerlendirme ve kişisel algı içeren cümleler.",
+            "nesnel": "Doğrulanabilir olay/yer/zaman bilgisi içeren cümleler.",
+            "anlatim_bicimleri": [
+              "öyküleyici",
+              "betimleyici; yer yer açıklayıcı"
+            ],
+            "teknikler": [
+              "diyalog",
+              "geriye dönüş",
+              "iç çözümleme/iç konuşmaya yaklaşan ruh hâli aktarımı"
+            ],
+            "ileti": "Savaş, ayrılık ve aile sevgisinin insan hayatındaki derin izi; fedakârlık ve hatıranın gücü.",
+            "zihniyet": "II. Dünya Savaşı şartları, aile ve toplumun fedakârlık/erkeklik/kahramanlık değerleri.",
+            "uslup": "Sade, akıcı, duygusal yoğunluğu güçlü ve gözleme dayalı."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G02_P102_OZET",
+          "printed_page_range": "102",
+          "item_type": "PERFORMANCE_TASK",
+          "acceptance_criteria": [
+            "Ana olayları korur.",
+            "Ayrıntı ve yorumla özeti şişirmez.",
+            "Olay sırasını anlaşılır verir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Kısa metin özeti."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.102 / PDF s.103"
+          ],
+          "task_id": "T2_G02_P102_OZET",
+          "label": "Oğulla Buluşma — özetleme",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Oğulla Buluşma — özetleme",
+          "expected_answer": "Özet; Çordon’un yıllar sonra oğlunun izini sürmeye karar vermesini, geçmişte Sultan’ın gönüllü askere gidişini ve baba-oğul vedasını, bu hatıranın Çordon’un yas/özlem duygusuyla bugüne taşınmasını olay sırasını bozmadan kısa biçimde vermelidir.",
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G02_P102_104_DIL_BILGISI",
+          "printed_page_range": "102-104",
+          "item_type": "TABLE",
+          "acceptance_criteria": [
+            "Fiilleri biçim ve cümledeki işlevine göre sınıflandırır.",
+            "Çatı türünü yalnız eke bakarak değil özne/nesne ilişkisiyle açıklar.",
+            "Noktalama işaretinin bağlamdaki işlevini belirtir."
+          ],
+          "canonical_teacher_guidance": [
+            "Tartışmalı örneklerde biçimbirim + cümle işlevini birlikte gerekçelendirmesini iste."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Doldurulmuş tablolar ve noktalama açıklamaları."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.102-104 / PDF s.103-105"
+          ],
+          "task_id": "T2_G02_P102_104_DIL_BILGISI",
+          "label": "Fiil kipleri, çatı ve noktalama",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Fiil kipleri, çatı ve noktalama",
+          "expected_answer": {
+            "odak": [
+              "haber/dilek kipleri ve basit-birleşik çekim",
+              "öznesine göre etken-edilgen-dönüşlü-işteş",
+              "nesnesine göre geçişli-geçişsiz-oldurgan-ettirgen",
+              "noktalama işaretlerinin işlevi"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Oğulla Buluşma ve anı çalışmalarında olay, duygu, kültür ve dil çeşitliliğini metin kanıtıyla ilişkilendir; Türkçe çeşitliliğini değer hiyerarşisine dönüştürme. Söz varlığı, Türkçe çeşitliliği, hikâye anlama ve dil bilgisi görevlerini metin bağlamında yürütmek.",
       "teacher_moves": [
@@ -221,6 +1152,197 @@
         "Eski İstanbul’dan Çizgiler — anı metni inceleme [REFERENCE]",
         "Tahmin-karşılaştırma ve anının sosyal bilimlerle ilişkisi [PERFORMANCE_TASK]"
       ],
+      "task_cards": [
+        {
+          "source_item_ref": "T2_G03_P105_HIKAYE_HARITASI",
+          "printed_page_range": "105",
+          "item_type": "TABLE",
+          "acceptance_criteria": [
+            "Harita öğelerini metinle uyumlu doldurur.",
+            "Tema-olay-kişi bağlantılarını gerekçelendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Hikâye haritası + ilişki açıklamaları."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.105 / PDF s.106"
+          ],
+          "task_id": "T2_G03_P105_HIKAYE_HARITASI",
+          "label": "Oğulla Buluşma — hikâye haritası",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Oğulla Buluşma — hikâye haritası",
+          "expected_answer": {
+            "zaman_mekan": "II. Dünya Savaşı yılları ve yıllar sonrası; Kırgız bozkırı/köy, istasyon, oğlun yaşadığı yerler.",
+            "kisiler": [
+              "Çordon",
+              "Sultan",
+              "Çordon’un eşi/kızları ve yardımcı kişiler"
+            ],
+            "catisma": [
+              "baba-kızlar arasında Sultan’ın askere gidişi üzerine değer çatışması",
+              "Çordon’un yas/özlem ile gerçeklik arasında iç çatışması"
+            ],
+            "anlatici": "Üçüncü kişi anlatıcı; Çordon’un iç dünyasına yaklaşan hâkim/odaklı anlatım.",
+            "tema": "Baba sevgisi, özlem, savaşın acısı, fedakârlık ve hatıra.",
+            "olay_orgusu": "Çordon’un oğlunun izini sürme kararı → geçmişte askere gidiş/istasyon çatışması → baba-oğul vedası → oğlun ölümü ve yıllar sonra hatırayla yüzleşme."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G03_P106_107_CATISMA",
+          "printed_page_range": "106-107",
+          "item_type": "PROCESS",
+          "acceptance_criteria": [
+            "Çatışmanın taraflarını ve değerlerini ayırır.",
+            "Görüşünü gerekçeyle savunur ve karşı görüşü dinledikten sonra yeniden değerlendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Görüş kartı + grup ortak sonucu."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.106-107 / PDF s.107-108"
+          ],
+          "task_id": "T2_G03_P106_107_CATISMA",
+          "label": "Çatışma ve etkileşim — görüş geliştirme",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Çatışma ve etkileşim — görüş geliştirme",
+          "expected_answer": {
+            "yargi": "Dil, çatışmayı görünür kılan ve kişilerin değerlerini/duygularını karşı karşıya getiren önemli bir araçtır; ancak çatışmanın nedeni yalnız dil değildir.",
+            "cordon_kizlar": "Kızlar koruma ve aile kaygısıyla Sultan’ı geri döndürmek ister; Çordon ise Sultan’ın gönüllü iradesi ve mertlik/fedakârlık değerini öne çıkarır.",
+            "cordon_es": "Eşinin söylemek isteyip susması, üvey annelik konumu ve yanlış anlaşılma korkusunun iç/iletişim çatışmasına dönüşmesidir."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G03_P107_DEGERLER_AYTMATOV",
+          "printed_page_range": "107",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Değer sınıflamasını metin örneğiyle destekler.",
+            "Yazarın millîden evrensele yönelişini açıklar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Grup değer listesi + yazar-metin bağlantısı."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.107 / PDF s.108"
+          ],
+          "task_id": "T2_G03_P107_DEGERLER_AYTMATOV",
+          "label": "Millî-manevi-evrensel değerler ve Aytmatov’un edebî kişiliği",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Millî-manevi-evrensel değerler ve Aytmatov’un edebî kişiliği",
+          "expected_answer": {
+            "degerler": {
+              "milli": [
+                "yurt/toplum aidiyeti",
+                "savaş dönemindeki ortak sorumluluk"
+              ],
+              "manevi": [
+                "aile bağı",
+                "vefa",
+                "fedakârlık"
+              ],
+              "evrensel": [
+                "sevgi",
+                "özlem",
+                "acı",
+                "merhamet",
+                "sorumluluk"
+              ]
+            },
+            "aytmatov": "Kırgız coğrafyası, gelenek, savaş tecrübesi ve yerel insanlardan hareket ederek aile, kayıp, sevgi ve fedakârlık gibi evrensel temalara ulaşır."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G03_P108_110_ANI",
+          "printed_page_range": "108-110",
+          "item_type": "REFERENCE",
+          "acceptance_criteria": [
+            "Anının geçmiş yaşantı, kişisel tanıklık ve dönem/kültür bilgisi taşıdığını fark eder."
+          ],
+          "canonical_teacher_guidance": [
+            "Metni hikâye gibi kurmaca kabul etme; hatırlama, öznel bakış ve tarihî-kültürel tanıklığı vurgula."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Anı türü/dönem-kültür notları."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.108-110 / PDF s.109-111"
+          ],
+          "task_id": "T2_G03_P108_110_ANI",
+          "label": "Eski İstanbul’dan Çizgiler — anı metni inceleme",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Eski İstanbul’dan Çizgiler — anı metni inceleme",
+          "expected_answer": null,
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G03_P111_KARSILASTIRMA_DISIPLIN",
+          "printed_page_range": "111",
+          "item_type": "PERFORMANCE_TASK",
+          "acceptance_criteria": [
+            "Tahmini gerçek metin bulgusuyla karşılaştırır.",
+            "Üç sosyal bilim alanından en az bir somut bağlantı kurar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Karşılaştırma tablosu + ders dışı araştırma sonucu."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.111 / PDF s.112"
+          ],
+          "task_id": "T2_G03_P111_KARSILASTIRMA_DISIPLIN",
+          "label": "Tahmin-karşılaştırma ve anının sosyal bilimlerle ilişkisi",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Tahmin-karşılaştırma ve anının sosyal bilimlerle ilişkisi",
+          "expected_answer": {
+            "dil_cikarimi": "Millî kültürü yansıtan söz varlığı; dönem, mekân ve yaşantıya göre seçilir; dil kültürel belleğin taşıyıcısıdır.",
+            "tarih": "Anı geçmiş dönem olay, kurum ve gündelik hayatına tanıklık sağlar.",
+            "cografya": "Mekânların fizikî ve insanî özelliklerini görünür kılar.",
+            "sosyoloji": "Toplumsal ilişkiler, sınıflar, alışkanlıklar ve yaşam biçimleri hakkında veri/izlenim sunar."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        }
+      ],
       "pedagogical_intent": "Oğulla Buluşma ve anı çalışmalarında olay, duygu, kültür ve dil çeşitliliğini metin kanıtıyla ilişkilendir; Türkçe çeşitliliğini değer hiyerarşisine dönüştürme. Hikâye yapısı, çatışma, değerler, yazar-metin ilişkisi ve anı türünün disiplinlerarası yönünü çözümlemek.",
       "teacher_moves": [
         "Kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.",
@@ -279,6 +1401,76 @@
         "Oğulla Buluşma — süreç değerlendirme 1-5 [ASSESSMENT]",
         "Çıkış Kartı — Üç Yaz / İki Sor / Bir Paylaş [ASSESSMENT]"
       ],
+      "task_cards": [
+        {
+          "source_item_ref": "T2_G04_P112_YANSITMA",
+          "printed_page_range": "112",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "Kişisel yargıları metin olaylarıyla ilişkilendirir.",
+            "3-4. sorularda gerekçeyi esas alır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Beş yansıtıcı cevap."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.112 / PDF s.113"
+          ],
+          "task_id": "T2_G04_P112_YANSITMA",
+          "label": "Oğulla Buluşma — süreç değerlendirme 1-5",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Oğulla Buluşma — süreç değerlendirme 1-5",
+          "expected_answer": {
+            "1": "Kırgız/Türk dünyası yaşamına, aile ilişkilerine, savaş dönemine, at/bozkır/istasyon yaşamına veya değer dünyasına bağlı uygun kültür unsurları.",
+            "2": "Kültürel farklılığın insanî ortaklıkları zenginleştirdiğini belirten gerekçeli kişisel değerlendirme.",
+            "3": "Çordon’un yerine geçilerek yas, özlem ve oğlun hatırasıyla yüzleşmeye ilişkin gerekçeli alternatif davranış.",
+            "4": "Sultan’ın gönüllü fedakârlık ve sorumluluk anlayışına katılma/katılmama; gerekçe zorunlu.",
+            "5": "Öğrencinin metinden seçtiği kısa ifadeler; seçim gerekçesi çağrışım/dil etkisiyle açıklanabilir."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G04_P112_CIKIS_KARTI",
+          "printed_page_range": "112",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "3+2+1 yapısını eksiksiz tamamlar.",
+            "Seçimler metne dayanır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "FORM_T2_P112_CIKIS_KARTI_02."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.112 / PDF s.113"
+          ],
+          "task_id": "T2_G04_P112_CIKIS_KARTI",
+          "label": "Çıkış Kartı — Üç Yaz / İki Sor / Bir Paylaş",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Çıkış Kartı — Üç Yaz / İki Sor / Bir Paylaş",
+          "expected_answer": {
+            "uc_yaz": "Seçilen ifadelerin çağrışım, duygu yoğunluğu, imge/benzetme, ses veya bağlam etkisinden üç gerekçeli özellik.",
+            "iki_sor": "Bu çağrışım zenginliğini sorgulayan iki açık uçlu soru.",
+            "bir_paylas": "Öğrenciyi en çok etkileyen kısa ifade + tercihen gerekçe."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        }
+      ],
       "pedagogical_intent": "Oğulla Buluşma ve anı çalışmalarında olay, duygu, kültür ve dil çeşitliliğini metin kanıtıyla ilişkilendir; Türkçe çeşitliliğini değer hiyerarşisine dönüştürme. Oğulla Buluşma okuma sürecini duygu, kültür ve dil-estetik farkındalığı üzerinden değerlendirmek.",
       "teacher_moves": [
         "Öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.",
@@ -334,8 +1526,202 @@
         "T2_G05_P114_115_OKUMA"
       ],
       "book_task_summaries": [
-        "Orhun Vadisi — ön bilgi ve kültürel önem [QUESTION]",
+        "Orhun Vadisi — ön bilgi ve kültürel önem — Soru 1 [QUESTION]",
+        "Orhun Vadisi — ön bilgi ve kültürel önem — Soru 2 [QUESTION]",
+        "Orhun Vadisi — ön bilgi ve kültürel önem — Soru 3 [QUESTION]",
+        "Orhun Vadisi — ön bilgi ve kültürel önem — Soru 4 [QUESTION]",
+        "Orhun Vadisi — ön bilgi ve kültürel önem — Soru 5 [QUESTION]",
         "Kül Tigin Âbidesi — okuma amacı, tahmin ve aktif okuma [PROCESS]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T2_G05_P113_ORHUN_ONBILGI",
+          "printed_page_range": "113",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Medya sorularında yalnız gerçekten gözlenen unsur iddia edilir.",
+            "Orhun’un dil-tarih-kültür önemini en az iki boyutla açıklar."
+          ],
+          "canonical_teacher_guidance": [
+            "Orhun Vadisi videosunun yerel PDF’de gömülü olmayan ayrıntılarını resmî cevap gibi verme."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Beş gerekçeli hazırlık cevabı."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.113 / PDF s.114"
+          ],
+          "task_id": "T2_G05_P113_ORHUN_ONBILGI#Q1",
+          "label": "Orhun Vadisi — ön bilgi ve kültürel önem — Soru 1",
+          "question_number": "1",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.113 — 1. soru",
+          "expected_answer": "Moğolistan’daki Orhun Vadisi, Göktürk dönemi yazıtları ve eski Türk devlet/kültür mirasıyla ilişkilidir; medya içeriğinde görülen somut ayrıntılar ayrıca eklenmelidir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G05_P113_ORHUN_ONBILGI",
+          "printed_page_range": "113",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Medya sorularında yalnız gerçekten gözlenen unsur iddia edilir.",
+            "Orhun’un dil-tarih-kültür önemini en az iki boyutla açıklar."
+          ],
+          "canonical_teacher_guidance": [
+            "Orhun Vadisi videosunun yerel PDF’de gömülü olmayan ayrıntılarını resmî cevap gibi verme."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Beş gerekçeli hazırlık cevabı."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.113 / PDF s.114"
+          ],
+          "task_id": "T2_G05_P113_ORHUN_ONBILGI#Q2",
+          "label": "Orhun Vadisi — ön bilgi ve kültürel önem — Soru 2",
+          "question_number": "2",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.113 — 2. soru",
+          "expected_answer": "Devlet tecrübesini, başarı/yanlışları, töreyi ve millete öğütleri gelecek kuşaklara kalıcı biçimde aktarmak.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G05_P113_ORHUN_ONBILGI",
+          "printed_page_range": "113",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Medya sorularında yalnız gerçekten gözlenen unsur iddia edilir.",
+            "Orhun’un dil-tarih-kültür önemini en az iki boyutla açıklar."
+          ],
+          "canonical_teacher_guidance": [
+            "Orhun Vadisi videosunun yerel PDF’de gömülü olmayan ayrıntılarını resmî cevap gibi verme."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Beş gerekçeli hazırlık cevabı."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.113 / PDF s.114"
+          ],
+          "task_id": "T2_G05_P113_ORHUN_ONBILGI#Q3",
+          "label": "Orhun Vadisi — ön bilgi ve kültürel önem — Soru 3",
+          "question_number": "3",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.113 — 3. soru",
+          "expected_answer": "Türkçenin ilk büyük yazılı belgeleri arasında olmaları; tarih, devlet anlayışı, toplum, kültür ve dil hakkında doğrudan bilgi taşımaları.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G05_P113_ORHUN_ONBILGI",
+          "printed_page_range": "113",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Medya sorularında yalnız gerçekten gözlenen unsur iddia edilir.",
+            "Orhun’un dil-tarih-kültür önemini en az iki boyutla açıklar."
+          ],
+          "canonical_teacher_guidance": [
+            "Orhun Vadisi videosunun yerel PDF’de gömülü olmayan ayrıntılarını resmî cevap gibi verme."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Beş gerekçeli hazırlık cevabı."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.113 / PDF s.114"
+          ],
+          "task_id": "T2_G05_P113_ORHUN_ONBILGI#Q4",
+          "label": "Orhun Vadisi — ön bilgi ve kültürel önem — Soru 4",
+          "question_number": "4",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.113 — 4. soru",
+          "expected_answer": "Çince yüz, dönemin diplomatik/kültürel ilişkileri ve metnin karşılaştırmalı okunması bakımından ek tarihî-dilsel veri sağlar.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G05_P113_ORHUN_ONBILGI",
+          "printed_page_range": "113",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Medya sorularında yalnız gerçekten gözlenen unsur iddia edilir.",
+            "Orhun’un dil-tarih-kültür önemini en az iki boyutla açıklar."
+          ],
+          "canonical_teacher_guidance": [
+            "Orhun Vadisi videosunun yerel PDF’de gömülü olmayan ayrıntılarını resmî cevap gibi verme."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Beş gerekçeli hazırlık cevabı."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.113 / PDF s.114"
+          ],
+          "task_id": "T2_G05_P113_ORHUN_ONBILGI#Q5",
+          "label": "Orhun Vadisi — ön bilgi ve kültürel önem — Soru 5",
+          "question_number": "5",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.113 — 5. soru",
+          "expected_answer": "Kaplumbağa/kalıcı kaide ve “bengü taş” fikri, sözün ve hatıranın uzun ömürlü olması/ebediyet arzusuyla ilişkilendirilebilir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G05_P114_115_OKUMA",
+          "printed_page_range": "114-115",
+          "item_type": "PROCESS",
+          "acceptance_criteria": [
+            "Amaç ve strateji belirtir.",
+            "Tahmini başlık/görsel kanıtına bağlar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Okuma planı + kısa notlar."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.114-115 / PDF s.115-116"
+          ],
+          "task_id": "T2_G05_P114_115_OKUMA",
+          "label": "Kül Tigin Âbidesi — okuma amacı, tahmin ve aktif okuma",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Kül Tigin Âbidesi — okuma amacı, tahmin ve aktif okuma",
+          "expected_answer": {
+            "amac": "Türk milletine verilen öğütleri, devlet/töre anlayışını ve dil-üslup özelliklerini anlamak.",
+            "tahmin": "Başlık/görsel ve “abide” kavramından tarihî, öğretici, hitabet yönü güçlü bir yazıt beklenebilir.",
+            "strateji": "Anahtar sözleri işaretleme, hitap/öğüt bölümlerini ayırma, olay/mesaj notu çıkarma gibi aktif okuma."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Orhun Abideleri ve Dîvânu Lugâti't-Türk'ü yalnız tarihî bilgi kaynağı değil dil, hitabet, devlet anlayışı ve kültürel bellek belgeleri olarak okut. Orhun Abideleri’nin Türk dili, tarihi ve kültüründeki yerini ön bilgilerle ilişkilendirip amaçlı okumaya geçmek.",
       "teacher_moves": [
@@ -400,11 +1786,284 @@
       ],
       "book_task_summaries": [
         "Orhun söz varlığı — yağız, ecdat, il, töre, şad, kılmak [VOCABULARY]",
-        "Kül Tigin Âbidesi — 1-3. sorular [QUESTION]",
+        "Kül Tigin Âbidesi — 1-3. sorular — Soru 1 [QUESTION]",
+        "Kül Tigin Âbidesi — 1-3. sorular — Soru 2 [QUESTION]",
+        "Kül Tigin Âbidesi — 1-3. sorular — Soru 3 [QUESTION]",
         "Bilge Kağan — tarihî kişilik çıkarımı [QUESTION]",
         "Deyim ve söz sanatları [TABLE]",
         "Oğulla Buluşma ile Kül Tigin Âbidesi karşılaştırması [TABLE]",
         "Dil-kültür-tarih birliğinin millet hayatındaki önemi [QUESTION]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T2_G06_P116_SOZ_VARLIGI",
+          "printed_page_range": "116",
+          "item_type": "VOCABULARY",
+          "acceptance_criteria": [
+            "Eşleştirmeleri bağlama uygun yapar."
+          ],
+          "canonical_teacher_guidance": [
+            "“İl” ve “şad” için tarihî bağlamı belirt; yalnız güncel anlamla sınırlama."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Doğru eşleştirme."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.116 / PDF s.117"
+          ],
+          "task_id": "T2_G06_P116_SOZ_VARLIGI",
+          "label": "Orhun söz varlığı — yağız, ecdat, il, töre, şad, kılmak",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Orhun söz varlığı — yağız, ecdat, il, töre, şad, kılmak",
+          "expected_answer": {
+            "yagiz": "Esmer/kara.",
+            "ecdat": "Geçmişteki büyükler, atalar.",
+            "il": "Yurt/devlet/ülke bağlamı.",
+            "tore": "Toplumda yerleşmiş kural, davranış ve yaşama düzeni.",
+            "sad": "Eski Türklerde kağan ailesinden yönetici/askerî-idarî unvan sahibi kişi.",
+            "kilmak": "Etmek, yapmak."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G06_P117_METNI_ANLAYALIM",
+          "printed_page_range": "117",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Amaç ve öğütleri metindeki hitap/iletiyle ilişkilendirir.",
+            "Günümüzde geçerliliği konusunda gerekçe verir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Üç metne dayalı cevap."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.117 / PDF s.118"
+          ],
+          "task_id": "T2_G06_P117_METNI_ANLAYALIM#Q1",
+          "label": "Kül Tigin Âbidesi — 1-3. sorular — Soru 1",
+          "question_number": "1",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.117 — 1. soru",
+          "expected_answer": "Bilge Kağan milleti ve beyleri uyarmak, devletin nasıl korunacağını anlatmak, geçmiş başarı/yanlışları kayda geçirmek ve töre-millî birlik bilincini gelecek kuşaklara aktarmak ister.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G06_P117_METNI_ANLAYALIM",
+          "printed_page_range": "117",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Amaç ve öğütleri metindeki hitap/iletiyle ilişkilendirir.",
+            "Günümüzde geçerliliği konusunda gerekçe verir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Üç metne dayalı cevap."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.117 / PDF s.118"
+          ],
+          "task_id": "T2_G06_P117_METNI_ANLAYALIM#Q2",
+          "label": "Kül Tigin Âbidesi — 1-3. sorular — Soru 2",
+          "question_number": "2",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.117 — 2. soru",
+          "expected_answer": "Sözlerini kalıcı taşa kazıtarak geçici konuşmayı gelecek kuşaklara ulaşacak tarihî bir hafızaya dönüştürmeyi ifade eder.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G06_P117_METNI_ANLAYALIM",
+          "printed_page_range": "117",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Amaç ve öğütleri metindeki hitap/iletiyle ilişkilendirir.",
+            "Günümüzde geçerliliği konusunda gerekçe verir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Üç metne dayalı cevap."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.117 / PDF s.118"
+          ],
+          "task_id": "T2_G06_P117_METNI_ANLAYALIM#Q3",
+          "label": "Kül Tigin Âbidesi — 1-3. sorular — Soru 3",
+          "question_number": "3",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.117 — 3. soru",
+          "expected_answer": [
+            "birlikten ve töreden ayrılmama",
+            "bağımsızlığı/devleti koruma",
+            "aldatılmama ve yanlışlardan ders çıkarma",
+            "çalışma ve sorumluluk",
+            "uygun merkez/Ötüken etrafında düzen"
+          ],
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G06_P117_BILGE_KAGAN",
+          "printed_page_range": "117",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Parça + yazıttan en az iki ayrıntı çıkarır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Tarihî kişilik çıkarım notu."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.117 / PDF s.118"
+          ],
+          "task_id": "T2_G06_P117_BILGE_KAGAN",
+          "label": "Bilge Kağan — tarihî kişilik çıkarımı",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Bilge Kağan — tarihî kişilik çıkarımı",
+          "expected_answer": "Milletini uyaran ve yöneten bir kağan; Kül Tigin’in hatırasını yaşatmak için yazıt/bark yaptıran, devlet, hukuk/töre, toplum dayanışması ve ekonomik refah üzerinde duran bir lider olarak görülebilir.",
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G06_P118_SOZ_SANATLARI",
+          "printed_page_range": "118",
+          "item_type": "TABLE",
+          "acceptance_criteria": [
+            "Metinden uygun örnek seçer.",
+            "Söz sanatının anlatım gücüne katkısını açıklar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Doldurulmuş söz sanatı tablosu."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.118 / PDF s.119"
+          ],
+          "task_id": "T2_G06_P118_SOZ_SANATLARI",
+          "label": "Deyim ve söz sanatları",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Deyim ve söz sanatları",
+          "expected_answer": {
+            "ornek_turleri": [
+              "benzetme",
+              "zıtlık",
+              "istifham",
+              "nida",
+              "deyim"
+            ],
+            "yorum": "Söz sanatları kısa taş yazıt metninde vurguyu, akılda kalıcılığı, hitabet gücünü ve duygusal/ikna edici etkiyi artırır."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G06_P119_120_KARSILASTIRMA",
+          "printed_page_range": "119-120",
+          "item_type": "TABLE",
+          "acceptance_criteria": [
+            "Kurmaca/nesnel-tarihî gerçeklik ayrımını gözetir.",
+            "Tür ve amaç farkını gerekçelendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Karşılaştırma tablosu."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.119-120 / PDF s.120-121"
+          ],
+          "task_id": "T2_G06_P119_120_KARSILASTIRMA",
+          "label": "Oğulla Buluşma ile Kül Tigin Âbidesi karşılaştırması",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Oğulla Buluşma ile Kül Tigin Âbidesi karşılaştırması",
+          "expected_answer": {
+            "Oğulla Buluşma": {
+              "tur": "hikâye/kurmaca edebî metin",
+              "icerik": "baba-oğul, savaş, özlem ve yas",
+              "zihniyet": "20. yüzyıl savaş tecrübesi ve aile/toplum değerleri",
+              "uslup": "öyküleyici, duygusal ve betimleyici",
+              "amac": "estetik anlatımla insanî yaşantıyı düşündürmek"
+            },
+            "Kül Tigin Âbidesi": {
+              "tur": "yazıt; hitabet, tarih/anı ve öğretici özellikler",
+              "icerik": "devlet, töre, savaşlar, birlik ve öğüt",
+              "zihniyet": "Göktürk devlet/toplum ve töre anlayışı",
+              "uslup": "doğrudan hitaplı, güçlü, özlü ve öğretici",
+              "amac": "bilgilendirmek, uyarmak, yönlendirmek ve kalıcı tarihî kayıt bırakmak"
+            }
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G06_P120_DIL_KULTUR_TARIH",
+          "printed_page_range": "120",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Dil, kültür ve tarihin her birine ayrı işlev verir.",
+            "Orhun örneğiyle ilişki kurar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Gerekçeli açıklama."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.120 / PDF s.121"
+          ],
+          "task_id": "T2_G06_P120_DIL_KULTUR_TARIH",
+          "label": "Dil-kültür-tarih birliğinin millet hayatındaki önemi",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Dil-kültür-tarih birliğinin millet hayatındaki önemi",
+          "expected_answer": "Dil ortak hafızayı ve kültürel değerleri taşır; tarih ortak tecrübe ve süreklilik bilinci verir; kültür ortak anlam/değer dünyasını kurar. Birlikte aidiyet ve millet olma bilincini güçlendirir, geçmişten ders aktarımını sağlar.",
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Orhun Abideleri ve Dîvânu Lugâti't-Türk'ü yalnız tarihî bilgi kaynağı değil dil, hitabet, devlet anlayışı ve kültürel bellek belgeleri olarak okut. Tarihî söz varlığı, metnin iletileri, söz sanatları ve farklı metinlerle karşılaştırma üzerinden anlam oluşturmak.",
       "teacher_moves": [
@@ -466,10 +2125,210 @@
         "T2_G07_P125_127_DLT"
       ],
       "book_task_summaries": [
-        "Ötüken ve yaşam tarzı — görüş geliştirme [QUESTION]",
+        "Ötüken ve yaşam tarzı — görüş geliştirme — Soru 1 [QUESTION]",
+        "Ötüken ve yaşam tarzı — görüş geliştirme — Soru 2 [QUESTION]",
         "Kül Tigin Âbidesi — anlatıcı, yapı, dil, amaç ve üslup [TABLE]",
         "Orhun — değerler ve tarih/coğrafya/sosyoloji ilişkisi [PERFORMANCE_TASK]",
         "Dîvânu Lugâti’t-Türk — 1-7. sorular ve kültür hazinesi [QUESTION]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T2_G07_P121_OTUKEN",
+          "printed_page_range": "121",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Ötüken tavsiyesini devlet/merkez fikriyle açıklar.",
+            "Yaşam tarzı tartışmasında tek yönlü genelleme yapmaz."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "İki gerekçeli görüş."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.121 / PDF s.122"
+          ],
+          "task_id": "T2_G07_P121_OTUKEN#Q1",
+          "label": "Ötüken ve yaşam tarzı — görüş geliştirme — Soru 1",
+          "question_number": "1",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.121 — 1. soru",
+          "expected_answer": "Bilge Kağan, devlet düzeninin ve siyasî merkezin Ötüken’de tutulmasını öğütler. Konargöçer hareketlilik önemli olsa da stratejik merkez, birlik ve güvenlik için sabit bir merkez düşüncesi savunulur.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G07_P121_OTUKEN",
+          "printed_page_range": "121",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Ötüken tavsiyesini devlet/merkez fikriyle açıklar.",
+            "Yaşam tarzı tartışmasında tek yönlü genelleme yapmaz."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "İki gerekçeli görüş."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.121 / PDF s.122"
+          ],
+          "task_id": "T2_G07_P121_OTUKEN#Q2",
+          "label": "Ötüken ve yaşam tarzı — görüş geliştirme — Soru 2",
+          "question_number": "2",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.121 — 2. soru",
+          "expected_answer": "Yerleşik hayat üretim, kurum, altyapı ve idare sürekliliğini; konargöçer hayat hareketlilik ve çevreye uyumu destekleyebilir. Devletin uzun ömürlülüğü yaşam tarzından çok kurum, kaynak, güvenlik ve uyumla birlikte değerlendirilmelidir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G07_P121_124_ORHUN_TAHLIL",
+          "printed_page_range": "121-124",
+          "item_type": "TABLE",
+          "acceptance_criteria": [
+            "Her başlığı metin örneğiyle gerekçelendirir.",
+            "Hitabet/anı/tarihî belge özelliklerinin üsluba etkisini açıklar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Çözümleme tabloları ve yorumlar."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.121-124 / PDF s.122-125"
+          ],
+          "task_id": "T2_G07_P121_124_ORHUN_TAHLIL",
+          "label": "Kül Tigin Âbidesi — anlatıcı, yapı, dil, amaç ve üslup",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Kül Tigin Âbidesi — anlatıcı, yapı, dil, amaç ve üslup",
+          "expected_answer": {
+            "anlatici": "Bilge Kağan’ın birinci kişi/otorite sesi; millete ve beylere doğrudan hitap eden, uyaran ve öğüt veren anlatıcı.",
+            "amaclar": [
+              "bilgi vermek",
+              "uyarmak/yönlendirmek",
+              "ikna etmek",
+              "sorgulatmak",
+              "devlet ve millet bilincini güçlendirmek",
+              "tarihî hafıza bırakmak"
+            ],
+            "yapi": "Hitap ve çerçeve → tarihî olay/başarı/uyarılar → Kül Tigin’in ölümü ve anıtın yazılışı gibi bölümler; ortak amaç etrafında bütünlük.",
+            "dil_uslup": [
+              "sadelik ve açıklık",
+              "tekrar/hitap",
+              "zıtlık ve soru",
+              "deyim/kalıp söz",
+              "etkileyici, coşkulu hitabet"
+            ],
+            "donem_iliskisi": "Göktürklerin devlet/töre, savaş, coğrafya, yas töreni ve sosyal düzenine ait unsurlar metne yansır."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G07_P124_DEGERLER_DISIPLIN",
+          "printed_page_range": "124-125",
+          "item_type": "PERFORMANCE_TASK",
+          "acceptance_criteria": [
+            "Değerleri metin kanıtıyla sınıflandırır.",
+            "Disiplinlerarası ilişkide abidelerin dil/tarih değerini açıklar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Grup sunumu + araştırma."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.124-125 / PDF s.125-126"
+          ],
+          "task_id": "T2_G07_P124_DEGERLER_DISIPLIN",
+          "label": "Orhun — değerler ve tarih/coğrafya/sosyoloji ilişkisi",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Orhun — değerler ve tarih/coğrafya/sosyoloji ilişkisi",
+          "expected_answer": {
+            "degerler": {
+              "milli": [
+                "devlet",
+                "bağımsızlık",
+                "töre",
+                "millet birliği"
+              ],
+              "manevi": [
+                "atalara bağlılık",
+                "vefa",
+                "yas/anma"
+              ],
+              "evrensel": [
+                "sorumluluk",
+                "çalışkanlık",
+                "dayanışma",
+                "adalet/iyilik"
+              ]
+            },
+            "tarih": "Göktürk siyasî olayları ve kişileri için birincil kaynak niteliği.",
+            "cografya": "Ötüken ve sefer coğrafyası üzerinden mekân-devlet ilişkisi.",
+            "sosyoloji": "Toplum, bey-millet ilişkisi, töre ve dayanışma anlayışı."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G07_P125_127_DLT",
+          "printed_page_range": "125-127",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "DLT’nin dil bilimi + kültür belgesi niteliğini birlikte açıklar.",
+            "4. soruda anlam daralmasını gerekçelendirir.",
+            "Karşılaştırmada amaç ve üslup farkını verir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Yedi cevap + Kaplan metni yorumları."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.125-127 / PDF s.126-128"
+          ],
+          "task_id": "T2_G07_P125_127_DLT",
+          "label": "Dîvânu Lugâti’t-Türk — 1-7. sorular ve kültür hazinesi",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Dîvânu Lugâti’t-Türk — 1-7. sorular ve kültür hazinesi",
+          "expected_answer": {
+            "1": "Sözlük örneklerinde öğüt, yakınlık/konukseverlik, hediyeleşme, borç-alacak ilişkisi, doğa/bitki bilgisi, dünya-ahiret anlayışı, atasözü ve şiir geleneği gibi ortak kültür değerleri görülür.",
+            "2": "Türk boylarının lehçe/söz varlığını sistemli derlemesi; ses/yazı özellikleri, örnek cümleler, atasözleri ve şiirlerle tarihî dil verisi sunması.",
+            "3": "Hediyeleşme ve misafir/yakın ağırlama karşılıklılık, dayanışma ve değer verme göstergesidir.",
+            "4": "“Erik” eski kullanımda birden çok sert çekirdekli meyvenin genel adı iken günümüzde daha dar bir tür adı olarak kullanılır; anlam daralması örneği olarak yorumlanabilir.",
+            "5": "Baharı/doğayı anlatan dörtlük koşuk geleneğiyle ilişkilendirilebilir.",
+            "6": "Kül Tigin Âbidesi hitabet ve devlet/tarih amacıyla doğrudan-özlü; DLT açıklayıcı/sözlük düzeninde, örnekli ve öğretici. İkisi de Türk dili/kültürü için temel tarihî kaynaklardır.",
+            "7": "Alan taraması, farklı bölge/konuşur örnekleri, ses-yazı kaydı, anlam/örnek cümle, kaynak doğrulama, sınıflandırma ve dijital veri tabanı/sözlük çalışmaları gerekir.",
+            "kaplan_sozu": "DLT yalnız kelime listesi değil, kelimelerin taşıdığı eşya, yaşam, inanç, gelenek ve düşünce dünyasıyla tarihî bir kültür “müzesi”dir."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Orhun Abideleri ve Dîvânu Lugâti't-Türk'ü yalnız tarihî bilgi kaynağı değil dil, hitabet, devlet anlayışı ve kültürel bellek belgeleri olarak okut. Orhun metninin anlatıcı, yapı, dil-üslup ve dönem ilişkisini; Dîvânu Lugâti’t-Türk’ün dil-kültür işlevini çözümlemek.",
       "teacher_moves": [
@@ -532,6 +2391,81 @@
         "Türkçenin geniş coğrafyaya yayılması — neden/sonuç çıkarımı [QUESTION]",
         "Kül Tigin Âbidesi — süreç değerlendirme 1-3 [ASSESSMENT]"
       ],
+      "task_cards": [
+        {
+          "source_item_ref": "T2_G08_P128_TURKCE_YAYILMA",
+          "printed_page_range": "128",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "En az bir neden ve iki sonuç verir.",
+            "Çeşitlenmeyi bozulma olarak değil tarihî gelişim olarak yorumlar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Neden-sonuç çıkarımı."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.128 / PDF s.129"
+          ],
+          "task_id": "T2_G08_P128_TURKCE_YAYILMA",
+          "label": "Türkçenin geniş coğrafyaya yayılması — neden/sonuç çıkarımı",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Türkçenin geniş coğrafyaya yayılması — neden/sonuç çıkarımı",
+          "expected_answer": {
+            "nedenler": [
+              "Türk topluluklarının göç ve siyasî yayılımı",
+              "devletleşme ve farklı coğrafyalarda yerleşme",
+              "ticaret/kültürel etkileşim"
+            ],
+            "sonuclar": [
+              "geniş kullanım alanı",
+              "lehçe/ağız çeşitlenmesi",
+              "ortak kök ve kültür bağının farklı biçimlerde sürmesi",
+              "ortak iletişim ihtiyacı"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G08_P128_YANSITMA",
+          "printed_page_range": "128",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "Üç cevap da metin kanıtı veya tarihî bağlama dayanır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Üç yansıtıcı değerlendirme."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.128 / PDF s.129"
+          ],
+          "task_id": "T2_G08_P128_YANSITMA",
+          "label": "Kül Tigin Âbidesi — süreç değerlendirme 1-3",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Kül Tigin Âbidesi — süreç değerlendirme 1-3",
+          "expected_answer": {
+            "1": "Öğrenci; hitabet gücü, tarihî tanıklık, dilin sadeliği/etkileyiciliği, devlet ve millet öğütleri gibi bir yönü seçip metin kanıtıyla gerekçelendirebilir.",
+            "2": "Metindeki kişi, yer, devlet anlayışı, savaş, töre ve anma unsurları tarihî gerçek dünya verileriyle örtüşür; edebî/hitabet düzenleme yine anlatım seçimi içerir.",
+            "3": "Anlatıcı yerine geçildiğinde birlik, töre, devletin korunması ve gelecek kuşaklara seslenme amacı; öğrencinin kendi bakış açısıyla gerekçeli değerlendirilir."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        }
+      ],
       "pedagogical_intent": "Orhun Abideleri ve Dîvânu Lugâti't-Türk'ü yalnız tarihî bilgi kaynağı değil dil, hitabet, devlet anlayışı ve kültürel bellek belgeleri olarak okut. Kül Tigin Âbidesi ve Türkçenin tarihî-kültürel sürekliliği üzerine gerekçeli değerlendirme yapmak.",
       "teacher_moves": [
         "Öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.",
@@ -590,8 +2524,146 @@
         "T2_G09_P130_PERFORMANS_PLAN"
       ],
       "book_task_summaries": [
-        "Dünyadaki Türkiye-Türk Dünyası — 1-3. sorular [QUESTION]",
+        "Dünyadaki Türkiye-Türk Dünyası — 1-3. sorular — Soru 1 [QUESTION]",
+        "Dünyadaki Türkiye-Türk Dünyası — 1-3. sorular — Soru 2 [QUESTION]",
+        "Dünyadaki Türkiye-Türk Dünyası — 1-3. sorular — Soru 3 [QUESTION]",
         "Türk Dünyası Ortak Kültürü — performans görevi planı [PERFORMANCE_TASK]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T2_G09_P129_VIDEO_HAZIRLIK",
+          "printed_page_range": "129",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Medya ayrıntısı iddiası yalnız gerçekten izlenen içeriğe dayanır.",
+            "Genel yorum en az bir somut tarih/kültür alanıyla desteklenir."
+          ],
+          "canonical_teacher_guidance": [
+            "Videonun yerel PDF’de bulunmayan ayrıntılarını uydurma."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Üç gerekçeli hazırlık cevabı."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.129 / PDF s.130"
+          ],
+          "task_id": "T2_G09_P129_VIDEO_HAZIRLIK#Q1",
+          "label": "Dünyadaki Türkiye-Türk Dünyası — 1-3. sorular — Soru 1",
+          "question_number": "1",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.129 — 1. soru",
+          "expected_answer": "Türk devlet ve topluluklarının devlet yönetimi, bilim/sanat, mimari, dil-edebiyat, ticaret ve kültür aktarımı gibi alanlarda dünya medeniyetine katkıları örneklendirilebilir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G09_P129_VIDEO_HAZIRLIK",
+          "printed_page_range": "129",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Medya ayrıntısı iddiası yalnız gerçekten izlenen içeriğe dayanır.",
+            "Genel yorum en az bir somut tarih/kültür alanıyla desteklenir."
+          ],
+          "canonical_teacher_guidance": [
+            "Videonun yerel PDF’de bulunmayan ayrıntılarını uydurma."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Üç gerekçeli hazırlık cevabı."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.129 / PDF s.130"
+          ],
+          "task_id": "T2_G09_P129_VIDEO_HAZIRLIK#Q2",
+          "label": "Dünyadaki Türkiye-Türk Dünyası — 1-3. sorular — Soru 2",
+          "question_number": "2",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.129 — 2. soru",
+          "expected_answer": "Türk dünyasının farklı siyasî statülerde geniş bir coğrafyada varlık göstermesi, uluslararası ilişkilerde nüfus, coğrafya, enerji, kültür ve iş birliği bakımından dikkate değer bir aktör potansiyeli oluşturur.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G09_P129_VIDEO_HAZIRLIK",
+          "printed_page_range": "129",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Medya ayrıntısı iddiası yalnız gerçekten izlenen içeriğe dayanır.",
+            "Genel yorum en az bir somut tarih/kültür alanıyla desteklenir."
+          ],
+          "canonical_teacher_guidance": [
+            "Videonun yerel PDF’de bulunmayan ayrıntılarını uydurma."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Üç gerekçeli hazırlık cevabı."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.129 / PDF s.130"
+          ],
+          "task_id": "T2_G09_P129_VIDEO_HAZIRLIK#Q3",
+          "label": "Dünyadaki Türkiye-Türk Dünyası — 1-3. sorular — Soru 3",
+          "question_number": "3",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.129 — 3. soru",
+          "expected_answer": "Türklerin farklı dönemlerde geniş coğrafyalarda devlet kurması, göç, ticaret, savaş, kültürel etkileşim ve kurumlaşma yoluyla tarihsel süreçleri etkilemiştir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G09_P130_PERFORMANS_PLAN",
+          "printed_page_range": "130",
+          "item_type": "PERFORMANCE_TASK",
+          "acceptance_criteria": [
+            "Amaç-hedef kitle-yöntem-strateji belirlenir.",
+            "Teknik/ortam engelleri önceden kontrol edilir.",
+            "Her istasyon önceki grubun bilgisini geliştirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Konuşma planı + istasyon notları."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.130 / PDF s.131"
+          ],
+          "task_id": "T2_G09_P130_PERFORMANS_PLAN",
+          "label": "Türk Dünyası Ortak Kültürü — performans görevi planı",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Türk Dünyası Ortak Kültürü — performans görevi planı",
+          "expected_answer": {
+            "amac": "Bilgilendirme/ikna etme amacı öğretmen ve öğrenci tarafından netleştirilir.",
+            "icerik_basliklari": [
+              "önemli eserler",
+              "önde gelen şahsiyetler",
+              "müzik",
+              "mutfak",
+              "millî-manevi değerler",
+              "gelenek-görenekler"
+            ],
+            "organizasyon": "Altı grup/istasyon, sözcü, görsellerin sınıflandırılması, on dakikalık paylaşım ve istasyon rotasyonu."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Türk dünyası ortak kültürünü kaynaklı, karşılaştırmalı ve hedef kitleye uygun biçimde anlat; kültürü değişmez ve tek tip bir yapı gibi sunma. Türk dünyasının ortak kültürünü tanıtan hazırlıklı konuşmanın amaç, hedef kitle, içerik, ortam ve grup araştırmasını planlamak.",
       "teacher_moves": [
@@ -652,9 +2724,217 @@
       ],
       "book_task_summaries": [
         "Konuşma metni tasarımı [PROCESS]",
-        "Dil-kültür ilişkisi ve kültür unsurlarının değişimi [QUESTION]",
+        "Dil-kültür ilişkisi ve kültür unsurlarının değişimi — Soru 1 [QUESTION]",
+        "Dil-kültür ilişkisi ve kültür unsurlarının değişimi — Soru 2 [QUESTION]",
+        "Dil-kültür ilişkisi ve kültür unsurlarının değişimi — Soru 3 [QUESTION]",
         "Türk dünyası kültür unsurlarını karşılaştırma [TABLE]",
         "Konuşma metnini hazırlama ve akran geri bildirimi [PERFORMANCE_TASK]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T2_G10_P131_KONUSMA_TASARIM",
+          "printed_page_range": "131",
+          "item_type": "PROCESS",
+          "acceptance_criteria": [
+            "Giriş-gelişme-sonuç işlevlerini ayırır.",
+            "Hedef kitle beklentisini içerik seçimine yansıtır.",
+            "Dil yapılarını işlevine uygun kullanır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Üç bölümlü konuşma taslağı."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.131 / PDF s.132"
+          ],
+          "task_id": "T2_G10_P131_KONUSMA_TASARIM",
+          "label": "Konuşma metni tasarımı",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Konuşma metni tasarımı",
+          "expected_answer": {
+            "giris": "Konu/amaç ve dinleyici ilgisini kuran dikkat çekici başlangıç.",
+            "gelisme": "Ortak kültür unsurlarını karşılaştırma, örnek, görsel ve grup araştırmasıyla geliştirme.",
+            "sonuc": "Ana düşünceyi toparlama ve ortak dil/kültür bağının önemine bağlama."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G10_P132_KULTUR_FARKLILASMA",
+          "printed_page_range": "132",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Nedenleri tek bir faktöre indirgemez.",
+            "Dil-kültür ilişkisinde karşılıklı etkileşimi açıklar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Üç gerekçeli cevap."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.132 / PDF s.133"
+          ],
+          "task_id": "T2_G10_P132_KULTUR_FARKLILASMA#Q1",
+          "label": "Dil-kültür ilişkisi ve kültür unsurlarının değişimi — Soru 1",
+          "question_number": "1",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.132 — 1. soru",
+          "expected_answer": [
+            "coğrafya/iklim",
+            "tarihî tecrübe ve siyasî sınırlar",
+            "komşu kültürlerle etkileşim",
+            "ekonomik yaşam",
+            "din/şehirleşme/teknoloji gibi toplumsal değişmeler"
+          ],
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G10_P132_KULTUR_FARKLILASMA",
+          "printed_page_range": "132",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Nedenleri tek bir faktöre indirgemez.",
+            "Dil-kültür ilişkisinde karşılıklı etkileşimi açıklar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Üç gerekçeli cevap."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.132 / PDF s.133"
+          ],
+          "task_id": "T2_G10_P132_KULTUR_FARKLILASMA#Q2",
+          "label": "Dil-kültür ilişkisi ve kültür unsurlarının değişimi — Soru 2",
+          "question_number": "2",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.132 — 2. soru",
+          "expected_answer": [
+            "kuşak aktarımının zayıflaması",
+            "yaşam biçimi/teknoloji değişimi",
+            "göç/şehirleşme",
+            "işlevini yitirme veya başka unsurla dönüşme"
+          ],
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G10_P132_KULTUR_FARKLILASMA",
+          "printed_page_range": "132",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Nedenleri tek bir faktöre indirgemez.",
+            "Dil-kültür ilişkisinde karşılıklı etkileşimi açıklar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Üç gerekçeli cevap."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.132 / PDF s.133"
+          ],
+          "task_id": "T2_G10_P132_KULTUR_FARKLILASMA#Q3",
+          "label": "Dil-kültür ilişkisi ve kültür unsurlarının değişimi — Soru 3",
+          "question_number": "3",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.132 — 3. soru",
+          "expected_answer": "Kültür, kelime hazinesi, deyim/atasözü, adlandırma, hitap ve anlatım biçimlerinde iz bırakır; dil de kültürü saklar ve aktarır.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G10_P132_133_KARSILASTIRMA",
+          "printed_page_range": "132-133",
+          "item_type": "TABLE",
+          "acceptance_criteria": [
+            "En az üç kategori için benzerlik/farklılık yazar.",
+            "Kaynağı olmayan genellemeleri kesin bilgi gibi sunmaz."
+          ],
+          "canonical_teacher_guidance": [
+            "“Türk kültürü tektir ve her yerde aynıdır” sonucuna zorlamadan ortaklık + çeşitlilik dengesini koru."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Karşılaştırma tablosu."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.132-133 / PDF s.133-134"
+          ],
+          "task_id": "T2_G10_P132_133_KARSILASTIRMA",
+          "label": "Türk dünyası kültür unsurlarını karşılaştırma",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Türk dünyası kültür unsurlarını karşılaştırma",
+          "expected_answer": {
+            "kategoriler": [
+              "dil",
+              "din",
+              "sanat",
+              "gelenek-görenek",
+              "giyim",
+              "yemek",
+              "millî-manevi değerler"
+            ],
+            "beklenti": "Her coğrafyada hem ortak kök/benzerlik hem de yerel-tarihî farklılıklar kanıta dayalı biçimde gösterilir."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G10_P133_KONUSMA_METNI",
+          "printed_page_range": "133",
+          "item_type": "PERFORMANCE_TASK",
+          "acceptance_criteria": [
+            "Konuşma planına uygun metin yazar.",
+            "Görsel/kaynak dayanağını açıklar.",
+            "Akran geri bildirimiyle en az bir anlamlı revizyon yapar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Konuşma metni + revizyon izi."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.133 / PDF s.134"
+          ],
+          "task_id": "T2_G10_P133_KONUSMA_METNI",
+          "label": "Konuşma metnini hazırlama ve akran geri bildirimi",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Konuşma metnini hazırlama ve akran geri bildirimi",
+          "expected_answer": "Metin; amaç ve dinleyiciye uygun söz varlığı, açıklayıcı/karşılaştırmalı örnekler, görsel dayanaklar, açık ana düşünce ve giriş-gelişme-sonuç örgüsü taşımalıdır; akran geri bildirimi sonrası revize edilir.",
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Türk dünyası ortak kültürünü kaynaklı, karşılaştırmalı ve hedef kitleye uygun biçimde anlat; kültürü değişmez ve tek tip bir yapı gibi sunma. Hedef kitleye uygun, karşılaştırmalı, kanıta dayalı ve kültür çeşitliliğini görünür kılan konuşma içeriği oluşturmak.",
       "teacher_moves": [
@@ -712,6 +2992,52 @@
       ],
       "book_task_summaries": [
         "Konuşma uygulama ölçütleri [ASSESSMENT]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T2_G11_P134_KONUSMA_KRITER",
+          "printed_page_range": "134",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "Konuşma sırasında görünür biçimde ölçütlerin çoğunu uygular.",
+            "Kaynak/görsel dayanağına gerekçeli açıklama ekler."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Canlı konuşma performansı ve öğretmen gözlemi."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.134 / PDF s.135"
+          ],
+          "task_id": "T2_G11_P134_KONUSMA_KRITER",
+          "label": "Konuşma uygulama ölçütleri",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Konuşma uygulama ölçütleri",
+          "expected_answer": {
+            "cekirdek": [
+              "dikkat çekici ve planlı başlangıç",
+              "düşünceyi geliştirme yolları",
+              "açık/örtük iletiler",
+              "özgün-tutarlı üslup",
+              "hedef kitleye uygun söz varlığı",
+              "başlatma-sürdürme-bitirme",
+              "millî/manevi/kültürel olumlu değerler",
+              "toplumsal hassasiyet",
+              "görsel bilginin dayanağını açıklama",
+              "dil yapısı/bağdaşıklık",
+              "akıcılık-duruluk-yalınlık + beden/ses",
+              "göz teması, mekân/süre ve görgü"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Türk dünyası ortak kültürünü kaynaklı, karşılaştırmalı ve hedef kitleye uygun biçimde anlat; kültürü değişmez ve tek tip bir yapı gibi sunma. Hazırlanan konuşmayı içerik, dil, beden/ses, kaynak dayanağı ve dinleyici etkileşimi ölçütleriyle uygulamak.",
       "teacher_moves": [
@@ -771,6 +3097,80 @@
       "book_task_summaries": [
         "Konuşma Öz Değerlendirme Formu [ASSESSMENT]",
         "Dış QR dereceli puanlama anahtarı ve akran formu [REFERENCE]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T2_G12_P135_OZ_DEGERLENDIRME",
+          "printed_page_range": "135",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "Evet/Kısmen/Hayır seçimleri gerçek performans kanıtına dayanır.",
+            "Kısmen/Hayır alanlarından en az biri için yeni hedef belirler."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "FORM_T2_P135_OZ_DEGERLENDIRME_04 + akran/öğretmen geri bildirimi."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.135 / PDF s.136"
+          ],
+          "task_id": "T2_G12_P135_OZ_DEGERLENDIRME",
+          "label": "Konuşma Öz Değerlendirme Formu",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Konuşma Öz Değerlendirme Formu",
+          "expected_answer": {
+            "gorunen_10_olcut": [
+              "ortak kültürü uygun görsellerle tanıtma",
+              "görsel bilginin dayanağını açıklama",
+              "doğru sıralama ve uygun söz varlığı",
+              "düşünceyi geliştirme yolları",
+              "Türkçenin dil yapısı/bağdaşıklık",
+              "hedef kitle/bağlama uygun söz varlığı",
+              "toplumsal hassasiyet",
+              "millî-manevi/kültürel olumlu değerler",
+              "beden dili-diksiyon-telaffuz",
+              "göz teması-mekân-süre-görgü"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G12_P135_DPA_QR",
+          "printed_page_range": "135",
+          "item_type": "REFERENCE",
+          "acceptance_criteria": [
+            "PDF’de görünen ölçütler kullanılır; QR içindeki görünmeyen düzey tanımları resmî içerik gibi üretilmez."
+          ],
+          "canonical_teacher_guidance": [
+            "LINK_T2_KONUSMA_DPA ve LINK_T2_P135_AKRAN_QR_05 dış kaynaktır; tam rubrik matrisi gözlenmeden puan düzeyi descriptor’ı uydurma."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Öğretmen/akran değerlendirme kaydı mevcutsa gerçek dış kaynak üzerinden."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.135 / PDF s.136"
+          ],
+          "task_id": "T2_G12_P135_DPA_QR",
+          "label": "Dış QR dereceli puanlama anahtarı ve akran formu",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Dış QR dereceli puanlama anahtarı ve akran formu",
+          "expected_answer": null,
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Türk dünyası ortak kültürünü kaynaklı, karşılaştırmalı ve hedef kitleye uygun biçimde anlat; kültürü değişmez ve tek tip bir yapı gibi sunma. Öz/akran/öğretmen değerlendirmesini görünür kitap ölçütleriyle yürütmek; dış QR rubriğinin görünmeyen seviye tanımlarını uydurmamak.",
       "teacher_moves": [
@@ -832,8 +3232,175 @@
       "book_task_summaries": [
         "Âşıklık geleneği ve Sazım — konuya başlarken [QUESTION]",
         "Âşık Atışması — amaç, strateji, tahmin ve engeller [PROCESS]",
-        "Halk şiiri ve âşık geleneği [QUESTION]",
+        "Halk şiiri ve âşık geleneği — Soru 1 [QUESTION]",
+        "Halk şiiri ve âşık geleneği — Soru 2 [QUESTION]",
         "Etkin dinleme kuralları, kontrol listesi ve gözlem formu [ASSESSMENT]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T2_G13_P136_KONUYA_BASLARKEN",
+          "printed_page_range": "136",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Âşıklığı yalnız “şiir söyleme” değil gelenek ve icra bütünü olarak açıklar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Hazırlık cevapları."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.136 / PDF s.137"
+          ],
+          "task_id": "T2_G13_P136_KONUYA_BASLARKEN",
+          "label": "Âşıklık geleneği ve Sazım — konuya başlarken",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Âşıklık geleneği ve Sazım — konuya başlarken",
+          "expected_answer": {
+            "odak": "Âşık; saz/şiir, usta-çırak, doğaçlama, halkla ilişki ve kültür aktarımıyla birlikte değerlendirilir; Âşık Veysel’in sazıyla kurduğu bağ sanatçı-eser/araç ilişkisinin duygusal yönünü görünür kılar."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G13_P137_AMAC_STRATEJI",
+          "printed_page_range": "137",
+          "item_type": "PROCESS",
+          "acceptance_criteria": [
+            "Amaç-strateji tutarlıdır.",
+            "En az bir ortam ve bir dinleyici kaynaklı engeli önler."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Dinleme planı."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.137 / PDF s.138"
+          ],
+          "task_id": "T2_G13_P137_AMAC_STRATEJI",
+          "label": "Âşık Atışması — amaç, strateji, tahmin ve engeller",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Âşık Atışması — amaç, strateji, tahmin ve engeller",
+          "expected_answer": {
+            "amac": "Atışmanın gelenek, dil, mizah, karşılıklı söyleyiş ve performans özelliklerini anlamak.",
+            "strateji": "Not alma, anahtar söz/uyak/mizah işaretleme, konuşmacıları ayırma gibi amaçla uyumlu strateji.",
+            "tahmin": "İki âşığın saz eşliğinde karşılıklı, doğaçlama ve aynı uyak/ayak düzenine cevap verdiği şiirsel performans.",
+            "engeller": "gürültü, dikkat dağıtıcılar, teknik ses/görüntü sorunu, ön yargı, söz kesme vb."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G13_P138_ASIKLIK",
+          "printed_page_range": "138",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Geleneği doğru adlandırır.",
+            "Sanatsal gücü en az iki unsurla açıklar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "İki cevap."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.138 / PDF s.139"
+          ],
+          "task_id": "T2_G13_P138_ASIKLIK#Q1",
+          "label": "Halk şiiri ve âşık geleneği — Soru 1",
+          "question_number": "1",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.138 — 1. soru",
+          "expected_answer": "Dinlenecek atışma âşıklık/halk şiiri geleneğinin ürünüdür; kökleri ozan-baksı/sazlı sözlü icra geleneğine uzanır.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G13_P138_ASIKLIK",
+          "printed_page_range": "138",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Geleneği doğru adlandırır.",
+            "Sanatsal gücü en az iki unsurla açıklar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "İki cevap."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.138 / PDF s.139"
+          ],
+          "task_id": "T2_G13_P138_ASIKLIK#Q2",
+          "label": "Halk şiiri ve âşık geleneği — Soru 2",
+          "question_number": "2",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.138 — 2. soru",
+          "expected_answer": [
+            "şiir/söz ustalığı ve güçlü hafıza",
+            "saz/müzik becerisi",
+            "doğaçlama ve hazırcevaplık",
+            "gelenek bilgisi",
+            "ses/yorum ve seyirciyle etkileşim"
+          ],
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G13_P138_139_ETKIN_DINLEME",
+          "printed_page_range": "138-139",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "FORM_T2_P139_KONTROL_LISTESI_06 maddelerini gerçek süreç davranışına göre işaretler."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Kontrol listesi + FORM_T2_P139_GOZLEM_FORMU_07."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.138-139 / PDF s.139-140"
+          ],
+          "task_id": "T2_G13_P138_139_ETKIN_DINLEME",
+          "label": "Etkin dinleme kuralları, kontrol listesi ve gözlem formu",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Etkin dinleme kuralları, kontrol listesi ve gözlem formu",
+          "expected_answer": {
+            "kurallar": [
+              "dikkat ve anlama",
+              "sabır/saygı/ön yargısızlık",
+              "diğer dinleyicileri rahatsız etmeme",
+              "sözün bitmesini bekleme",
+              "dikkat dağıtıcı davranıştan kaçınma"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Âşık atışmasını şiir metninden ibaret görmeden söz, saz, doğaçlama, karşılıklılık, mizah, beden ve seyirci boyutlarıyla çok modlu bir kültür icrası olarak çözümlet. Âşıklık geleneği ön bilgilerini etkinleştirip amaç, strateji, tahmin ve etkin dinleme kurallarıyla medya görevine hazırlanmak.",
       "teacher_moves": [
@@ -894,10 +3461,218 @@
       ],
       "book_task_summaries": [
         "Söz Varlığımız — çağ, canan, sine, kahır, saban [VOCABULARY]",
-        "Âşıklık geleneğinin korunması ve kültür mirası [QUESTION]",
+        "Âşıklık geleneğinin korunması ve kültür mirası — Soru 1 [QUESTION]",
+        "Âşıklık geleneğinin korunması ve kültür mirası — Soru 2 [QUESTION]",
         "Atışmanın yeri, benzetme ve mizah [QUESTION]",
         "Atışma dili, günlük dil ve Münacaat karşılaştırması [TABLE]",
         "Beğeni ölçütleriyle bölüm seçme [ASSESSMENT]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T2_G14_P140_SOZ_VARLIGI",
+          "printed_page_range": "140",
+          "item_type": "VOCABULARY",
+          "acceptance_criteria": [
+            "Anlamı gerçek dinleme bağlamına göre doğrular.",
+            "Yerine önerilen kelime anlamı bozmaz."
+          ],
+          "canonical_teacher_guidance": [
+            "Atışmada kullanılan somut bağlam görülmeden çok anlamlı kelimede tek anlam dayatma."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Tahmin + TDK kontrolü + eşdeğer kelime önerisi."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.140 / PDF s.141"
+          ],
+          "task_id": "T2_G14_P140_SOZ_VARLIGI",
+          "label": "Söz Varlığımız — çağ, canan, sine, kahır, saban",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Söz Varlığımız — çağ, canan, sine, kahır, saban",
+          "expected_answer": {
+            "cag": "Dönem/zaman; bağlama göre seslenme değil “zaman” anlamı kontrol edilir.",
+            "canan": "Sevgili, sevilen.",
+            "sine": "Göğüs/bağır; şiirsel kullanımda gönül/kalp çağrışımı olabilir.",
+            "kahir": "Derin üzüntü, sıkıntı, dert.",
+            "saban": "Toprağı sürmeye yarayan tarım aracı."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G14_P141_GELENEGIN_KORUNMASI",
+          "printed_page_range": "141",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Koruma için en az iki uygulanabilir öneri verir.",
+            "Önemi kültür aktarımıyla ilişkilendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "İki gerekçeli cevap."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.141 / PDF s.142"
+          ],
+          "task_id": "T2_G14_P141_GELENEGIN_KORUNMASI#Q1",
+          "label": "Âşıklık geleneğinin korunması ve kültür mirası — Soru 1",
+          "question_number": "1",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.141 — 1. soru",
+          "expected_answer": [
+            "usta-çırak ve eğitim programlarını destekleme",
+            "icraları kayıt/dijital arşivleme",
+            "festival/atışma ve okul etkinlikleri",
+            "sanatçılara üretim/yaşam desteği",
+            "araştırma-yayın ve genç kuşak erişimi"
+          ],
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G14_P141_GELENEGIN_KORUNMASI",
+          "printed_page_range": "141",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Koruma için en az iki uygulanabilir öneri verir.",
+            "Önemi kültür aktarımıyla ilişkilendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "İki gerekçeli cevap."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.141 / PDF s.142"
+          ],
+          "task_id": "T2_G14_P141_GELENEGIN_KORUNMASI#Q2",
+          "label": "Âşıklık geleneğinin korunması ve kültür mirası — Soru 2",
+          "question_number": "2",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.141 — 2. soru",
+          "expected_answer": "Dil, sözlü hafıza, müzik, mizah, değerler ve tarihî tecrübeyi kuşaklar arasında taşıdığı; Türk dünyası içindeki kültürel bağı görünür kıldığı için önemlidir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G14_P142_ATISMA_ANLAMA",
+          "printed_page_range": "142",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Atışma işlevini karşılıklılık/doğaçlamayla açıklar.",
+            "Benzetme örneğini yalnız gerçekten dinlenen metinden seçer."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Anlama cevapları + mizah karşılaştırma tablosu."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.142 / PDF s.143"
+          ],
+          "task_id": "T2_G14_P142_ATISMA_ANLAMA",
+          "label": "Atışmanın yeri, benzetme ve mizah",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Atışmanın yeri, benzetme ve mizah",
+          "expected_answer": {
+            "1": "Atışma, âşıkların karşılıklı söz/şiir ustalığını, doğaçlama ve aynı ayak/uyakla cevap verme becerisini sergileyen rekabetçi fakat gelenek kuralları içindeki icradır.",
+            "2": "Benzetmeler ve başka söz oyunları zekâ/hazırcevaplık etkisini, mizahı ve şiirsel estetiği artırır; somut örnek dinlenen kayıttan seçilmelidir.",
+            "mizah_karsilastirma": "Atışmada uyak, mecaz, taşlama, söz oyunu ve karşılıklı cevap; günlük mizah ise bağlama göre ironi, abartı, kelime oyunu vb. kullanabilir."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G14_P143_DIL_ESTETIK",
+          "printed_page_range": "143",
+          "item_type": "TABLE",
+          "acceptance_criteria": [
+            "Benzerlik ve farklılığı dilsel kanıtla yazar.",
+            "İki şiir geleneğini “iyi-kötü” hiyerarşisine sokmaz."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "T diyagramı + sözlü çıkarım."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.143 / PDF s.144"
+          ],
+          "task_id": "T2_G14_P143_DIL_ESTETIK",
+          "label": "Atışma dili, günlük dil ve Münacaat karşılaştırması",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Atışma dili, günlük dil ve Münacaat karşılaştırması",
+          "expected_answer": {
+            "benzerlik": "Gündelik söz varlığı, hitap ve anlaşılır ifadeler kullanılabilir.",
+            "farklilik": "Atışmada ölçü/uyak, saz-performans bağlamı, doğaçlama, yerel söyleyiş ve söz oyunları belirgindir; Münacaat modern şiirsel kurgu, serbest yapı ve yoğun imge/soyutlama yönüyle ayrılabilir.",
+            "cikarim": "Âşıklar halk dilini estetik düzen, ses, uyak, mecaz ve hazırcevaplıkla dönüştürür."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G14_P143_BEGENI",
+          "printed_page_range": "143",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "Kendi beğeni ölçütlerini önceden belirler.",
+            "Seçtiği bölümü bu ölçütlerle gerekçelendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "FORM_T2_P143_KONTROL_LISTESI_08."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.143 / PDF s.144"
+          ],
+          "task_id": "T2_G14_P143_BEGENI",
+          "label": "Beğeni ölçütleriyle bölüm seçme",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Beğeni ölçütleriyle bölüm seçme",
+          "expected_answer": {
+            "olcut_ornekleri": [
+              "söz varlığı",
+              "tema/ileti",
+              "mizah ve hazırcevaplık",
+              "söyleyici/yorum",
+              "uyak-ritim",
+              "duygusal/estetik etki"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Âşık atışmasını şiir metninden ibaret görmeden söz, saz, doğaçlama, karşılıklılık, mizah, beden ve seyirci boyutlarıyla çok modlu bir kültür icrası olarak çözümlet. Atışmadaki söz varlığı, gelenek, mizah ve dil-estetik özelliklerinden anlam oluşturmak.",
       "teacher_moves": [
@@ -956,10 +3731,212 @@
         "T2_G15_P146_GORUS_GELISTIRME"
       ],
       "book_task_summaries": [
-        "Usta-çırak, saygı ve kültürel bellek [QUESTION]",
+        "Usta-çırak, saygı ve kültürel bellek — Soru 1 [QUESTION]",
+        "Usta-çırak, saygı ve kültürel bellek — Soru 2 [QUESTION]",
+        "Usta-çırak, saygı ve kültürel bellek — Soru 3 [QUESTION]",
         "Âşık atışmasının çok modlu unsurları [TABLE]",
         "Altı şapka ile atışmayı değerlendirme [PROCESS]",
         "Atışmanın şiir şeklinde söylenmesi — görüş geliştirme [PROCESS]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T2_G15_P144_USTA_CIRAK",
+          "printed_page_range": "144",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Her cevap metindeki usta-çırak özellikleriyle ilişkilidir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Üç açıklama."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.144 / PDF s.145"
+          ],
+          "task_id": "T2_G15_P144_USTA_CIRAK#Q1",
+          "label": "Usta-çırak, saygı ve kültürel bellek — Soru 1",
+          "question_number": "1",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.144 — 1. soru",
+          "expected_answer": "Saygı; çırağın ustadan öğrenmesi, geleneğin kurallarına bağlılık, ustanın bilgisini saklamadan aktarması ve ahlâk/terbiye beklentisinde görünür olur.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G15_P144_USTA_CIRAK",
+          "printed_page_range": "144",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Her cevap metindeki usta-çırak özellikleriyle ilişkilidir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Üç açıklama."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.144 / PDF s.145"
+          ],
+          "task_id": "T2_G15_P144_USTA_CIRAK#Q2",
+          "label": "Usta-çırak, saygı ve kültürel bellek — Soru 2",
+          "question_number": "2",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.144 — 2. soru",
+          "expected_answer": "Âşıklar söz varlığı, şiir/müzik kalıpları, hikâyeler, değerler ve tarihî hafızayı canlı icrayla yeni kuşaklara aktarır.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G15_P144_USTA_CIRAK",
+          "printed_page_range": "144",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Her cevap metindeki usta-çırak özellikleriyle ilişkilidir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Üç açıklama."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.144 / PDF s.145"
+          ],
+          "task_id": "T2_G15_P144_USTA_CIRAK#Q3",
+          "label": "Usta-çırak, saygı ve kültürel bellek — Soru 3",
+          "question_number": "3",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.144 — 3. soru",
+          "expected_answer": "Söz oyunlarındaki ustalık uzun gözlem, ezber, doğaçlama, dil hâkimiyeti ve ustadan çırağa aktarılan icra bilgisiyle gelişir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T2_G15_P144_ZIHIN_HARITASI",
+          "printed_page_range": "144",
+          "item_type": "TABLE",
+          "acceptance_criteria": [
+            "En az dört unsuru gerçek medya gözlemine göre doldurur.",
+            "Her unsurun anlama/etkiye katkısını açıklayabilir."
+          ],
+          "canonical_teacher_guidance": [
+            "Yerel PDF video içeriğini gömmez; gözlenmemiş sahne ayrıntısı uydurma."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Zihin haritası."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.144 / PDF s.145"
+          ],
+          "task_id": "T2_G15_P144_ZIHIN_HARITASI",
+          "label": "Âşık atışmasının çok modlu unsurları",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Âşık atışmasının çok modlu unsurları",
+          "expected_answer": {
+            "beklenen_kategoriler": [
+              "beden dili",
+              "söyleyiş tarzı",
+              "mekân",
+              "estetik",
+              "saz/müzik",
+              "karşılıklı etkileşim; videoda gerçekten gözlenen diğer unsur"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G15_P145_ALTI_SAPKA",
+          "printed_page_range": "145",
+          "item_type": "PROCESS",
+          "acceptance_criteria": [
+            "Seçilen şapkanın bakış açısına uygun cevap üretir.",
+            "Geri bildirim sonrası cevabını gerekirse düzenler."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Grup cevabı + revizyon."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.145 / PDF s.146"
+          ],
+          "task_id": "T2_G15_P145_ALTI_SAPKA",
+          "label": "Altı şapka ile atışmayı değerlendirme",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Altı şapka ile atışmayı değerlendirme",
+          "expected_answer": {
+            "odaklar": [
+              "ileti",
+              "duygu",
+              "olumsuz iletiler",
+              "iyimser iletiler",
+              "nasıl devam ettirirdim",
+              "genel düşünce"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G15_P146_GORUS_GELISTIRME",
+          "printed_page_range": "146",
+          "item_type": "PROCESS",
+          "acceptance_criteria": [
+            "Her yargı için ayrı tutum alır.",
+            "Son görüşünü en az bir gelenek/dil/müzik gerekçesiyle yazar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Çalışma kâğıdı."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.146 / PDF s.147"
+          ],
+          "task_id": "T2_G15_P146_GORUS_GELISTIRME",
+          "label": "Atışmanın şiir şeklinde söylenmesi — görüş geliştirme",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Atışmanın şiir şeklinde söylenmesi — görüş geliştirme",
+          "expected_answer": {
+            "olasi_gerekceler": [
+              "âşıkların duygu/düşünceyi şiirle ifade geleneği",
+              "şiir ve müziğin birlikte icrası",
+              "ölçü/uyak/ayak yapısının hafıza ve doğaçlamaya çerçeve sağlaması",
+              "şiirsel biçimin dinleyici etkisini artırması"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Âşık atışmasını şiir metninden ibaret görmeden söz, saz, doğaçlama, karşılıklılık, mizah, beden ve seyirci boyutlarıyla çok modlu bir kültür icrası olarak çözümlet. Usta-çırak geleneği, çok modlu performans unsurları ve farklı değerlendirme teknikleriyle atışmayı çözümlemek.",
       "teacher_moves": [
@@ -1019,6 +3996,88 @@
         "Atışmaya değer katan unsurlar ve söyleyicinin katkısı [ASSESSMENT]",
         "Dinleme/izleme üzerine yansıtıcı yazı [PERFORMANCE_TASK]"
       ],
+      "task_cards": [
+        {
+          "source_item_ref": "T2_G16_P147_DEGER_KATAN_UNSURLAR",
+          "printed_page_range": "147",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "En az iki unsur + etkisini yazar.",
+            "Söyleyici katkısını gerçek gözleme bağlar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "İki sütunlu değerlendirme."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.147 / PDF s.148"
+          ],
+          "task_id": "T2_G16_P147_DEGER_KATAN_UNSURLAR",
+          "label": "Atışmaya değer katan unsurlar ve söyleyicinin katkısı",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Atışmaya değer katan unsurlar ve söyleyicinin katkısı",
+          "expected_answer": {
+            "atismaya_deger_katan": [
+              "şiirsel biçim/uyak",
+              "saz ve ritim",
+              "doğaçlama/hazırcevaplık",
+              "mizah/söz oyunları",
+              "gelenek/usta-çırak birikimi"
+            ],
+            "soyleyici_katkisi": [
+              "ses, vurgu, tempo",
+              "beden dili",
+              "hazırcevaplık",
+              "seyirci/diğer âşıkla etkileşim"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G16_P147_YANSITICI_YAZI",
+          "printed_page_range": "147",
+          "item_type": "PERFORMANCE_TASK",
+          "acceptance_criteria": [
+            "En az üç soruya somut öğrenme/strateji kanıtıyla cevap verir.",
+            "Gelecek dinleme için bir geliştirme hedefi belirler."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Yansıtıcı yazı."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.147 / PDF s.148"
+          ],
+          "task_id": "T2_G16_P147_YANSITICI_YAZI",
+          "label": "Dinleme/izleme üzerine yansıtıcı yazı",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Dinleme/izleme üzerine yansıtıcı yazı",
+          "expected_answer": {
+            "sorular": [
+              "Neleri fark ettim?",
+              "Ne anladım?",
+              "Neyi farklı yapabilirdim?",
+              "Ek öğrenmeye ihtiyacım var mı?",
+              "Bu temada öğrendiklerim hayatıma neler kattı?"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        }
+      ],
       "pedagogical_intent": "Âşık atışmasını şiir metninden ibaret görmeden söz, saz, doğaçlama, karşılıklılık, mizah, beden ve seyirci boyutlarıyla çok modlu bir kültür icrası olarak çözümlet. Dinleme/izleme deneyimini performans unsurları ve kişisel öğrenme farkındalığı üzerinden değerlendirmek.",
       "teacher_moves": [
         "Öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.",
@@ -1076,6 +4135,75 @@
       "book_task_summaries": [
         "Sanal müzecilik — yazma görevinin bağlamı [REFERENCE]",
         "Müze seçimi ve yazma planı — 1-7. adımlar [PROCESS]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T2_G17_P148_SANAL_MUZE",
+          "printed_page_range": "148",
+          "item_type": "REFERENCE",
+          "acceptance_criteria": [
+            "Yazma görevini sanal müze deneyimi ve kültürel mirasla ilişkilendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Hazırlık notu."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.148 / PDF s.149"
+          ],
+          "task_id": "T2_G17_P148_SANAL_MUZE",
+          "label": "Sanal müzecilik — yazma görevinin bağlamı",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Sanal müzecilik — yazma görevinin bağlamı",
+          "expected_answer": {
+            "ana_fikir": "Sanal müzeler zaman/mekân bağımsız erişim, hızlı güncelleme ve çevrim içi etkileşim gibi imkânlar sunar; kültürel mirasa erişimi genişletebilir."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G17_P149_MUZE_PLAN",
+          "printed_page_range": "149",
+          "item_type": "PROCESS",
+          "acceptance_criteria": [
+            "Müze seçim gerekçesi vardır.",
+            "Amaç-hedef kitle-strateji birbiriyle uyumludur."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Müze listesi + yazma planı."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.149 / PDF s.150"
+          ],
+          "task_id": "T2_G17_P149_MUZE_PLAN",
+          "label": "Müze seçimi ve yazma planı — 1-7. adımlar",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Müze seçimi ve yazma planı — 1-7. adımlar",
+          "expected_answer": {
+            "1": "Çevrim içi gezilebilen müzeler güvenilir kaynak/kurum adresiyle kısa listelenir.",
+            "2": "İlgi alanına uygun bir müze seçilir ve gerekçelendirilir.",
+            "3": "Cümle-paragraf-metin düzeni için yöntem/strateji belirlenir.",
+            "4": "Yazma amacı netleştirilir.",
+            "5": "Hedef kitle, kapsam/süre gibi özellikler belirlenir.",
+            "6": "Dikkat/erişim/teknik engeller azaltılır.",
+            "7": "Seçilen strateji amaca göre yapılandırılır."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Sanal müze izlenim yazısında kurum bilgisini kopyalamak yerine gerçek gözlem, kişisel izlenim ve kültürel yorum arasındaki farkı görünür kıl. Çevrim içi müze gezisine dayalı izlenim yazısı için müze seçimi, amaç, hedef kitle, metin düzeni ve strateji planlamak.",
       "teacher_moves": [
@@ -1139,6 +4267,126 @@
         "Müzeler, kültürel unsurlar ve aktarım yolları [TABLE]",
         "İçeriği özgün ifade, görsel/işitsel öge ve alıntıyla zenginleştirme [PROCESS]"
       ],
+      "task_cards": [
+        {
+          "source_item_ref": "T2_G18_P150_PERFORMANS",
+          "printed_page_range": "150",
+          "item_type": "PERFORMANCE_TASK",
+          "acceptance_criteria": [
+            "Metin gerçek bir çevrim içi müze gezisi deneyimine dayanır.",
+            "İzlenim + kültürel miras bağlantısı kurar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Yazı taslağı/nihai ürün."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.150 / PDF s.151"
+          ],
+          "task_id": "T2_G18_P150_PERFORMANS",
+          "label": "Kültürel Miras ve Müzeler — performans görevi",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Kültürel Miras ve Müzeler — performans görevi",
+          "expected_answer": {
+            "urun": "Çevrim içi gezilen bir müzeye dair izlenimleri kültürel miras bağlamında yansıtan yazı.",
+            "sure": "8 ders saati (kitaptaki performans görevi)."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G18_P150_151_KULTUR_MIRAS",
+          "printed_page_range": "150-151",
+          "item_type": "TABLE",
+          "acceptance_criteria": [
+            "Müze ile kendi hayatı arasında en az iki karşılaştırma yapar.",
+            "Kültür taşıyıcısını işleviyle açıklar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Karşılaştırma + sınıflandırma tabloları."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.150-151 / PDF s.151-152"
+          ],
+          "task_id": "T2_G18_P150_151_KULTUR_MIRAS",
+          "label": "Müzeler, kültürel unsurlar ve aktarım yolları",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Müzeler, kültürel unsurlar ve aktarım yolları",
+          "expected_answer": {
+            "muzede_olasi": [
+              "arkeolojik eserler",
+              "giyim/tekstil",
+              "el sanatları",
+              "müzik araçları",
+              "yazma eserler",
+              "gündelik yaşam eşyaları",
+              "mimari/sanat örnekleri"
+            ],
+            "hayattaki": [
+              "dil",
+              "yemek",
+              "aile gelenekleri",
+              "bayramlar",
+              "müzik",
+              "giyim",
+              "yerel uygulamalar"
+            ],
+            "kultur_tasiyicilari": [
+              "dil",
+              "aile/kuşak aktarımı",
+              "eğitim",
+              "sanat/edebiyat",
+              "müzeler/kurumlar",
+              "medya/dijital ortam",
+              "gelenek ve törenler"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G18_P151_ICERIK_ZENGINLESTIRME",
+          "printed_page_range": "151",
+          "item_type": "PROCESS",
+          "acceptance_criteria": [
+            "Ek materyal ana düşünceyi destekler.",
+            "Kaynak/alıntı kullanımı bağlamı bozmadan ve telif sınırında yapılır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "İçerik taslağı ve kaynak listesi."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.151 / PDF s.152"
+          ],
+          "task_id": "T2_G18_P151_ICERIK_ZENGINLESTIRME",
+          "label": "İçeriği özgün ifade, görsel/işitsel öge ve alıntıyla zenginleştirme",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "İçeriği özgün ifade, görsel/işitsel öge ve alıntıyla zenginleştirme",
+          "expected_answer": "Karşılaştırma ve sınıflandırma sonuçları yazıda özgün cümlelere dönüştürülür; yalnız gerekli ve kaynaklı görsel/işitsel öge veya kısa alıntı kullanılabilir.",
+          "expected_response": null,
+          "split_from_group": false
+        }
+      ],
       "pedagogical_intent": "Sanal müze izlenim yazısında kurum bilgisini kopyalamak yerine gerçek gözlem, kişisel izlenim ve kültürel yorum arasındaki farkı görünür kıl. Müze-kültürel miras ilişkisini karşılaştırma ve sınıflandırmayla zenginleştirerek yazı içeriğini hazırlamak.",
       "teacher_moves": [
         "Kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.",
@@ -1196,6 +4444,52 @@
       ],
       "book_task_summaries": [
         "İzlenim yazısı uygulama ölçütleri [ASSESSMENT]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T2_G19_P152_YAZMA_KRITER",
+          "printed_page_range": "152",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "Nihai taslakta ölçütlerin görünür çoğunluğu uygulanır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Yazı taslağı."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.152 / PDF s.153"
+          ],
+          "task_id": "T2_G19_P152_YAZMA_KRITER",
+          "label": "İzlenim yazısı uygulama ölçütleri",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "İzlenim yazısı uygulama ölçütleri",
+          "expected_answer": {
+            "cekirdek": [
+              "kime-neyi-nasıl-hangi araçla anlatacağını planlama",
+              "ilgi çekici giriş",
+              "uygun başlık",
+              "başlatma-sürdürme-bitirme",
+              "bağlama uygun söz varlığı",
+              "anlatım biçimi ve düşünceyi geliştirme",
+              "özgün-tutarlı üslup",
+              "açık/örtük iletiler",
+              "millî-manevi/kültürel duyarlılık",
+              "toplumsal hassasiyet",
+              "dil bilgisi ve farklı cümle yapıları",
+              "özenli Türkçe",
+              "yazım-noktalama"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Sanal müze izlenim yazısında kurum bilgisini kopyalamak yerine gerçek gözlem, kişisel izlenim ve kültürel yorum arasındaki farkı görünür kıl. Müze izlenim yazısını plan, yapı, söz varlığı, tutarlılık, değer/hassasiyet ve yazım-noktalama ölçütleriyle üretmek.",
       "teacher_moves": [
@@ -1258,6 +4552,117 @@
         "Yazma Öz Değerlendirme Formu [ASSESSMENT]",
         "Dış QR dereceli puanlama anahtarı ve akran değerlendirme [REFERENCE]",
         "Tema Sonu Öğrenme Günlüğü [ASSESSMENT]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T2_G20_P153_OZ_DEGERLENDIRME",
+          "printed_page_range": "153",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "Evet/Kısmen/Hayır gerçek ürüne göre işaretlenir.",
+            "Geri bildirim sonrası somut düzeltme yapılır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "FORM_T2_P153_OZ_DEGERLENDIRME_10 + revize metin."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.153 / PDF s.154"
+          ],
+          "task_id": "T2_G20_P153_OZ_DEGERLENDIRME",
+          "label": "Yazma Öz Değerlendirme Formu",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Yazma Öz Değerlendirme Formu",
+          "expected_answer": {
+            "gorunen_10_olcut": [
+              "plan: kime-neyi-nasıl-hangi araçla",
+              "planlı dikkat çekici giriş",
+              "başlatma-sürdürme-bitirme",
+              "anlatım biçimi/düşünceyi geliştirme",
+              "bağdaşıklık",
+              "hedef kitle/bağlama uygun söz varlığı",
+              "toplumsal hassasiyetten kaçınma",
+              "millî-manevi/kültürel olumlu değerler",
+              "uygun başlık",
+              "özgün ve tutarlı üslup"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G20_P153_DPA_QR",
+          "printed_page_range": "153",
+          "item_type": "REFERENCE",
+          "acceptance_criteria": [
+            "PDF’de görünür ölçütler korunur; QR’daki görünmeyen seviye descriptor’ları uydurulmaz."
+          ],
+          "canonical_teacher_guidance": [
+            "LINK_T2_YAZMA_DPA ve LINK_T2_P153_AKRAN_QR_11 dış kaynaktır. Tam rubrik matrisi gözlenmeden resmî puan anahtarı oluşturma."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Gerçek dış kaynakla yapılmış öğretmen/akran değerlendirmesi varsa."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.153 / PDF s.154"
+          ],
+          "task_id": "T2_G20_P153_DPA_QR",
+          "label": "Dış QR dereceli puanlama anahtarı ve akran değerlendirme",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Dış QR dereceli puanlama anahtarı ve akran değerlendirme",
+          "expected_answer": null,
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G20_P154_OGRENME_GUNLUGU",
+          "printed_page_range": "154",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "Her başlıkta somut tema öğrenmesine/ürününe gönderme yapar.",
+            "Bir eksik/yanılgı için eylem belirler."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "FORM_T2_P154_OGRENME_GUNLUGU_12."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.154 / PDF s.155"
+          ],
+          "task_id": "T2_G20_P154_OGRENME_GUNLUGU",
+          "label": "Tema Sonu Öğrenme Günlüğü",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Tema Sonu Öğrenme Günlüğü",
+          "expected_answer": {
+            "basliklar": [
+              "Bu süreçte öğrendiklerim",
+              "Pekiştirmem gereken konular",
+              "Daha ayrıntılı incelemek istediğim konular",
+              "Kendimi geliştirmek için çaba harcadığım konular",
+              "Öğrendiğim ve gelecekte kullanabileceğim bilgiler"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Sanal müze izlenim yazısında kurum bilgisini kopyalamak yerine gerçek gözlem, kişisel izlenim ve kültürel yorum arasındaki farkı görünür kıl. Yazıyı öz/akran/öğretmen geri bildirimiyle değerlendirmek, revize etmek ve öğrenme günlüğüyle tema sonu yansıtma yapmak.",
       "teacher_moves": [
@@ -1332,6 +4737,293 @@
         "Soru 7 — öğrenci değerlendirmelerindeki yanlışlık [QUESTION]",
         "Soru 8 — Orhun’dan günümüze eserler arası köprü [QUESTION]",
         "Soru 9 — taşlara kazınan tarih ve töre için slogan [QUESTION]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T2_G21_P155_Q1",
+          "printed_page_range": "155",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Tablodaki en az iki deyim/atasözüyle toplum özelliği ilişkilendirir.",
+            "Günümüz önemini gerekçelendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Gerekçeli açık uçlu cevap."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.155 / PDF s.156"
+          ],
+          "task_id": "T2_G21_P155_Q1",
+          "label": "Soru 1 — Orhun atasözü/deyimleri ve toplum özellikleri",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Soru 1 — Orhun atasözü/deyimleri ve toplum özellikleri",
+          "expected_answer": [
+            "çalışkanlık ve emek",
+            "devlet/töre ve düzen bilinci",
+            "birlik ve dayanışma",
+            "güçlük karşısında mücadele/azim",
+            "bağımsızlık ve devlet sahibi olma"
+          ],
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G21_P155_Q2",
+          "printed_page_range": "155",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "C seçeneğini işaretler."
+          ],
+          "canonical_teacher_guidance": [
+            "Tablodaki ifadelerin çalışma, töre, il/devlet ve toplumsal düzen odağını hatırlat."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Doğru seçenek."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.155 / PDF s.156"
+          ],
+          "task_id": "T2_G21_P155_Q2",
+          "label": "Soru 2 — atasözü ve deyimlerin genel amacı",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Soru 2 — atasözü ve deyimlerin genel amacı",
+          "expected_answer": "C — Devletin temel değerlerini aktarmak.",
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G21_P156_157_Q3",
+          "printed_page_range": "156-157",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "A seçeneğini işaretler ve gerekçeyi dönem farkıyla açıklar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Doğru seçenek + gerekçe."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.156-157 / PDF s.157-158"
+          ],
+          "task_id": "T2_G21_P156_157_Q3",
+          "label": "Soru 3 — ulaşılamayan çıkarım",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Soru 3 — ulaşılamayan çıkarım",
+          "expected_answer": "A — Üç eserin tamamının sözlü kültürden yazılı kültüre geçiş sürecinde ortaya çıktığı söylenemez; özellikle Kamus-ı Türkî 19. yüzyıl Tanzimat ürünüdür.",
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G21_P157_Q4",
+          "printed_page_range": "157",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Bir eser seçer.",
+            "En az iki benzerlik gerekçesi verir.",
+            "Tür/çağ farkını göz ardı etmez."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Gerekçeli açık uçlu cevap."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.157 / PDF s.158"
+          ],
+          "task_id": "T2_G21_P157_Q4",
+          "label": "Soru 4 — Orhun Abideleriyle benzer eser",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Soru 4 — Orhun Abideleriyle benzer eser",
+          "expected_answer": {
+            "birincil_ornek": "Kutadgu Bilig — devlet/toplum düzeni, yöneticilik, değerler ve öğüt verici/didaktik yön bakımından Orhun Abideleriyle güçlü benzerlik kurulabilir.",
+            "kabul_edilebilir_alternatif": "Dede Korkut Hikâyeleri — Türk kültürel belleği, değerler ve toplumsal hayatı taşıması gerekçesi güçlü kurulursa kabul edilebilir; tür/amaç farkı belirtilmelidir."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G21_P157_Q5",
+          "printed_page_range": "157",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "B seçeneğini işaretler.",
+            "Üç notta da “ilk olma” niteliğinin bir biçimde verildiğini fark eder."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Doğru seçenek."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.157 / PDF s.158"
+          ],
+          "task_id": "T2_G21_P157_Q5",
+          "label": "Soru 5 — ortak bilgi",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Soru 5 — ortak bilgi",
+          "expected_answer": "B — Yalnız II.",
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G21_P158_Q6",
+          "printed_page_range": "158",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "D seçeneğini işaretler.",
+            "Aynı ayak/kafiye ve “Ne arıyan olur ... ne soran olur” nakarat yapısını sürdürdüğünü fark eder."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Doğru seçenek."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.158 / PDF s.159"
+          ],
+          "task_id": "T2_G21_P158_Q6",
+          "label": "Soru 6 — ayak uydurarak atışmayı sürdürme",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Soru 6 — ayak uydurarak atışmayı sürdürme",
+          "expected_answer": "D.",
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G21_P159_Q7",
+          "printed_page_range": "159",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Yanlış değerlendirmeyi Ahmet olarak belirler.",
+            "b şıkkında metin/form/dil özelliğine dayalı özgün değerlendirme verir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "İki parçalı cevap."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.159 / PDF s.160"
+          ],
+          "task_id": "T2_G21_P159_Q7",
+          "label": "Soru 7 — öğrenci değerlendirmelerindeki yanlışlık",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Soru 7 — öğrenci değerlendirmelerindeki yanlışlık",
+          "expected_answer": {
+            "a": "Ahmet’in değerlendirmesi yanlıştır; verilen dörtlüklerden Taşlıova’nın söyleyişinin Çobanoğlu’na göre nesnel olarak “daha sanatlı” olduğu sonucu zorunlu biçimde çıkarılamaz. Her iki âşık da aynı gelenek içinde yerel söyleyiş, biçimsel düzen ve şiirsel/sanatlı anlatım kullanır.",
+            "b": "Örnek değerlendirme: “Her iki âşık da aynı ayak/nakarat düzenini korurken öğüt verici söyleyişi yerel kelimeler ve söz oyunlarıyla canlı tutmaktadır.” Benzer gerekçeli cümleler kabul edilir."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G21_P159_Q8",
+          "printed_page_range": "159",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "En az bir eser seçer.",
+            "Orhun ile süreklilik bağını dil/kültür/tarih/değer boyutunda açıklar.",
+            "Göktürklerin Dirilişi videosuna özgü ayrıntı yalnız izlenmişse kullanılır."
+          ],
+          "canonical_teacher_guidance": [
+            "Video payload’ı yerel PDF’de değildir; görünmeyen sahne/anlatı ayrıntısını cevap anahtarına ekleme."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Gerekçeli açık uçlu cevap."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.159 / PDF s.160"
+          ],
+          "task_id": "T2_G21_P159_Q8",
+          "label": "Soru 8 — Orhun’dan günümüze eserler arası köprü",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Soru 8 — Orhun’dan günümüze eserler arası köprü",
+          "expected_answer": {
+            "ornekler": [
+              "Kutadgu Bilig",
+              "Dede Korkut Hikâyeleri",
+              "Dîvânu Lugâti’t-Türk",
+              "daha sonraki dil/kültür/tarih belleğini taşıyan uygun eserler"
+            ],
+            "gerekce": "Orhun’un dil, devlet, töre ve kültürel hafıza kaydını sonraki çağlarda dil, değer, tarih ve ortak kimlik aktarımıyla sürdüren eserler köprünün diğer ayağı olarak düşünülebilir."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T2_G21_P159_Q9",
+          "printed_page_range": "159",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Slogan kısa ve özgündür.",
+            "Tarih/töre/sözün kalıcılığı veya yol göstericilik temasını taşır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Özgün slogan."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.159 / PDF s.160"
+          ],
+          "task_id": "T2_G21_P159_Q9",
+          "label": "Soru 9 — taşlara kazınan tarih ve töre için slogan",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Soru 9 — taşlara kazınan tarih ve töre için slogan",
+          "expected_answer": "Örnek: “Taşa kazınan söz, bin yıl sonra da millete yol gösterir.” Kısa, özgün ve tarihî hafıza/yol göstericilik bağını kuran farklı sloganlar kabul edilir.",
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Tema sonu sorularında tarihî metin, kültür, âşıklık ve eserler arası süreklilik bilgilerini doğru seçenekten çok gerekçeyle görünür kıl. Tema sonu dokuz soruyu görünür PDF içeriğine göre cevaplamak; dış videoya bağlı 8-9. sorularda gözlenmeyen ayrıntıları uydurmamak.",
       "teacher_moves": [

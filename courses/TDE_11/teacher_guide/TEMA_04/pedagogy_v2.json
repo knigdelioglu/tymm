@@ -1,9 +1,9 @@
 {
-  "schema_version": "2.0.0",
+  "schema_version": "2.1.0",
   "document_type": "TYMM_TEACHER_GUIDE_PEDAGOGY_OVERLAY",
   "course_id": "TDE_11",
   "theme_id": "TEMA_04",
-  "status": "REFERENCE_QUALITY",
+  "status": "REVIEW_REQUIRED",
   "principles": [
     "Ders kitabındaki gerçek soru ve görev görünür kalır; doğrulanmamış soru metni uydurulmaz.",
     "Açık uçlu cevaplarda tek kalıp yerine metin veya medya kanıtı, gerekçe ve kabul edilebilir alternatifler aranır.",
@@ -28,6 +28,116 @@
         "Tema kapsamı ve beklenen öğrenmeler [REFERENCE]",
         "Anahtar kavramlar [REFERENCE]",
         "Yunus Emre alıntısı — kendini bilme [QUESTION]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T4_G00_P236_TEMA_CERCEVESI",
+          "printed_page_range": "236",
+          "item_type": "REFERENCE",
+          "acceptance_criteria": [
+            "Temanın hayat-edebiyat ilişkisini ana eksen olarak ifade eder.",
+            "Üç anlama ve iki anlatma odağını ayırt eder."
+          ],
+          "canonical_teacher_guidance": [
+            "Bu çerçeveyi ezber listesi değil, tema boyunca dönülecek yol haritası olarak kullan."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Öğrencinin tema sonunda bu beş odağın birbirine nasıl bağlandığını açıklayabilmesi."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.236 / PDF s.237"
+          ],
+          "task_id": "T4_G00_P236_TEMA_CERCEVESI",
+          "label": "Tema kapsamı ve beklenen öğrenmeler",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Tema kapsamı ve beklenen öğrenmeler",
+          "expected_answer": {
+            "anlama": [
+              "tiyatro / Ben, Mimar Sinan",
+              "küçürek hikâye / Merdiven",
+              "belgesel / Anadolu İnsanı-Fedakârlık"
+            ],
+            "anlatma": [
+              "tiyatro bölümünü yeniden kurgulayıp canlandırma",
+              "belgesel içeriğini yansıtan özgün afiş"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G00_P236_KAVRAMLAR",
+          "printed_page_range": "236",
+          "item_type": "REFERENCE",
+          "acceptance_criteria": [
+            "Kavramları tema içindeki metin ve görevlerle ilişkilendirir."
+          ],
+          "canonical_teacher_guidance": [
+            "Kavramları tanım ezberi yerine metin üstünde işlevleriyle ele al."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.236 / PDF s.237"
+          ],
+          "task_id": "T4_G00_P236_KAVRAMLAR",
+          "label": "Anahtar kavramlar",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Anahtar kavramlar",
+          "expected_answer": [
+            "dekor",
+            "diyalog",
+            "dramatik örgü",
+            "gösterme tekniği",
+            "kostüm",
+            "küçürek hikâye",
+            "modern Türk tiyatrosu",
+            "monolog",
+            "oyun",
+            "perde",
+            "sahne"
+          ],
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G00_P237_YUNUS",
+          "printed_page_range": "237",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Kendini bilme fikrini öz farkındalıkla ilişkilendirir.",
+            "Alıntıyı tema odağıyla gerekçeli biçimde bağlar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.237 / PDF s.238"
+          ],
+          "task_id": "T4_G00_P237_YUNUS",
+          "label": "Yunus Emre alıntısı — kendini bilme",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Yunus Emre alıntısı — kendini bilme",
+          "expected_answer": "İnsanın kendisini tanıması; bilgisini, sınırlarını, değerlerini ve davranışlarını sorgulaması gerçek öğrenmenin temelidir. Tema boyunca metin kişileri ve öğrencinin kendi deneyimleri arasında kurulacak bağ için bir giriş işlevi görür.",
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Hayatın sanat ve edebiyatta nasıl yeniden kurulduğunu; gerçeklik, temsil, emek, seçim ve bakış açısı kavramlarıyla tema boyunca izlenecek çerçeveye dönüştür. Hayat-edebiyat ilişkisi, tiyatro, küçürek hikâye, belgesel, canlandırma ve afiş üretimini ortak tema çerçevesinde görünür kılmak.",
       "teacher_moves": [
@@ -78,8 +188,166 @@
         "T4_G00_P239_Q3_5"
       ],
       "book_task_summaries": [
-        "Kitap, sosyal gelişim ve ‘ebedî dostluk’ [QUESTION]",
-        "Sanatsal metin, yaşantı ve tür seçimi [QUESTION]"
+        "Kitap, sosyal gelişim ve ‘ebedî dostluk’ — Soru 1 [QUESTION]",
+        "Kitap, sosyal gelişim ve ‘ebedî dostluk’ — Soru 2 [QUESTION]",
+        "Sanatsal metin, yaşantı ve tür seçimi — Soru 3 [QUESTION]",
+        "Sanatsal metin, yaşantı ve tür seçimi — Soru 4 [QUESTION]",
+        "Sanatsal metin, yaşantı ve tür seçimi — Soru 5 [QUESTION]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T4_G00_P238_Q1_2",
+          "printed_page_range": "238",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Sosyal gelişimi en az bir somut mekanizmayla açıklar.",
+            "Kalıcılık ve yeniden okuma üzerinden ‘ebedî dost’ benzetmesini gerekçelendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [
+            "Kitap okumanın sosyal gelişimi yalnız kelime hazinesine indirgemek."
+          ],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.238 / PDF s.239"
+          ],
+          "task_id": "T4_G00_P238_Q1_2#Q1",
+          "label": "Kitap, sosyal gelişim ve ‘ebedî dostluk’ — Soru 1",
+          "question_number": "1",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.238 — 1. soru",
+          "expected_answer": "Kitaplar farklı insanların deneyim, duygu ve düşünceleriyle karşılaşmayı sağladığı için empatiyi, iletişim dilini ve toplumsal bakış açısını geliştirebilir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T4_G00_P238_Q1_2",
+          "printed_page_range": "238",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Sosyal gelişimi en az bir somut mekanizmayla açıklar.",
+            "Kalıcılık ve yeniden okuma üzerinden ‘ebedî dost’ benzetmesini gerekçelendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [
+            "Kitap okumanın sosyal gelişimi yalnız kelime hazinesine indirgemek."
+          ],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.238 / PDF s.239"
+          ],
+          "task_id": "T4_G00_P238_Q1_2#Q2",
+          "label": "Kitap, sosyal gelişim ve ‘ebedî dostluk’ — Soru 2",
+          "question_number": "2",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.238 — 2. soru",
+          "expected_answer": "Kitap, yazarı ve ilk okuru ortadan kalksa bile yeniden okunabildiği; farklı zamanlarda okurla düşünsel/duygusal ilişki kurabildiği için kalıcı bir dost gibi görülebilir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T4_G00_P239_Q3_5",
+          "printed_page_range": "239",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Sanatsal metni yalnız ‘gerçek dışı’ diye tanımlamaz.",
+            "Kişisel deneyim-metinsel anlam bağını açıklar.",
+            "Tür seçimini gerekçelendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": [
+              "Aynı hayat olayının hikâye, tiyatro ve belgeselde nasıl farklı kurulacağını karşılaştırmasını iste."
+            ]
+          },
+          "source_locators": [
+            "basılı s.239 / PDF s.240"
+          ],
+          "task_id": "T4_G00_P239_Q3_5#Q3",
+          "label": "Sanatsal metin, yaşantı ve tür seçimi — Soru 3",
+          "question_number": "3",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.239 — 3. soru",
+          "expected_answer": [
+            "kurmaca veya estetik düzenleme",
+            "çok anlamlılık/çağrışım",
+            "özgün dil ve üslup",
+            "duygu-düşünceyi dönüştürerek aktarma"
+          ],
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T4_G00_P239_Q3_5",
+          "printed_page_range": "239",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Sanatsal metni yalnız ‘gerçek dışı’ diye tanımlamaz.",
+            "Kişisel deneyim-metinsel anlam bağını açıklar.",
+            "Tür seçimini gerekçelendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": [
+              "Aynı hayat olayının hikâye, tiyatro ve belgeselde nasıl farklı kurulacağını karşılaştırmasını iste."
+            ]
+          },
+          "source_locators": [
+            "basılı s.239 / PDF s.240"
+          ],
+          "task_id": "T4_G00_P239_Q3_5#Q4",
+          "label": "Sanatsal metin, yaşantı ve tür seçimi — Soru 4",
+          "question_number": "4",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.239 — 4. soru",
+          "expected_answer": "Okurun yaşadığı bir olay, metindeki duygu, çatışma, kişi veya mekânla benzerlik kurduğunda metnin anlamını kişisel düzeyde derinleştirebilir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T4_G00_P239_Q3_5",
+          "printed_page_range": "239",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Sanatsal metni yalnız ‘gerçek dışı’ diye tanımlamaz.",
+            "Kişisel deneyim-metinsel anlam bağını açıklar.",
+            "Tür seçimini gerekçelendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": [
+              "Aynı hayat olayının hikâye, tiyatro ve belgeselde nasıl farklı kurulacağını karşılaştırmasını iste."
+            ]
+          },
+          "source_locators": [
+            "basılı s.239 / PDF s.240"
+          ],
+          "task_id": "T4_G00_P239_Q3_5#Q5",
+          "label": "Sanatsal metin, yaşantı ve tür seçimi — Soru 5",
+          "question_number": "5",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.239 — 5. soru",
+          "expected_answer": "Tür seçimi serbesttir; kabul için seçilen hayat kesiti ile türün imkânları arasında gerekçeli ilişki kurulmalıdır.",
+          "expected_response": null,
+          "split_from_group": true
+        }
       ],
       "pedagogical_intent": "Hayatın sanat ve edebiyatta nasıl yeniden kurulduğunu; gerçeklik, temsil, emek, seçim ve bakış açısı kavramlarıyla tema boyunca izlenecek çerçeveye dönüştür. Edebiyatın sosyal gelişim, kalıcılık, sanatsal dönüştürme ve okur yaşantısıyla ilişkisini tartışmaya açmak.",
       "teacher_moves": [
@@ -134,6 +402,111 @@
         "Mimar Sinan bağlamından kısa tiyatro metni üretme [PERFORMANCE_TASK]",
         "Okuma çemberi rolleri [PROCESS]",
         "Metin öncesi tahmin ve okuma stratejisi [PROCESS]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T4_G01_P240_TIYATRO_YAZMA",
+          "printed_page_range": "240",
+          "item_type": "PERFORMANCE_TASK",
+          "acceptance_criteria": [
+            "Tiyatroya özgü en az iki unsur kullanır.",
+            "Verilen bağlamla çelişmeyen kısa bir sahne kurar."
+          ],
+          "canonical_teacher_guidance": [
+            "Öğrenciden ders kitabındaki metni tahmin etmesini değil, tiyatro biçimine dair ön bilgisini görünür kılmasını bekle."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.240 / PDF s.241"
+          ],
+          "task_id": "T4_G01_P240_TIYATRO_YAZMA",
+          "label": "Mimar Sinan bağlamından kısa tiyatro metni üretme",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Mimar Sinan bağlamından kısa tiyatro metni üretme",
+          "expected_answer": {
+            "beklenen_bilesenler": [
+              "karakter",
+              "durum/çatışma",
+              "diyalog veya monolog",
+              "sahne bağlamı",
+              "tarihî bilgiyi kurmacaya dönüştürme"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G01_P241_OKUMA_CEMBERI",
+          "printed_page_range": "241",
+          "item_type": "PROCESS",
+          "acceptance_criteria": [
+            "Öğrenci rolünün görevini yerine getirir.",
+            "Rol çıktısını metin kanıtıyla paylaşır."
+          ],
+          "canonical_teacher_guidance": [
+            "Rolleri öğrenci sayısına göre birleştirebilirsin; ancak sorgulama, karakter, söz varlığı ve sahne hareketi boyutlarını koru."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.241 / PDF s.242"
+          ],
+          "task_id": "T4_G01_P241_OKUMA_CEMBERI",
+          "label": "Okuma çemberi rolleri",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Okuma çemberi rolleri",
+          "expected_answer": [
+            "Bağ Kurucu",
+            "Sorgulayıcı",
+            "Ressam",
+            "Okuma Aydınlatıcısı",
+            "Özetleyici",
+            "Tahmin Edici",
+            "Karakter Çözümleyici",
+            "Kelime Avcısı",
+            "Hareket İzcisi"
+          ],
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G01_P242_TAHMIN_STRATEJI",
+          "printed_page_range": "242",
+          "item_type": "PROCESS",
+          "acceptance_criteria": [
+            "Tahminini en az bir ön ipucuna dayandırır.",
+            "Okuma sonrasında tahminini doğrular veya revize eder."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.242 / PDF s.243"
+          ],
+          "task_id": "T4_G01_P242_TAHMIN_STRATEJI",
+          "label": "Metin öncesi tahmin ve okuma stratejisi",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Metin öncesi tahmin ve okuma stratejisi",
+          "expected_answer": "Başlık, görsel, yazar bilgisi ve tiyatro türüne ilişkin ön bilgilerden hareketle gerekçeli tahmin yapılması; okuma sırasında tahminlerin metinle kontrol edilmesi beklenir.",
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Ben, Mimar Sinan üzerinden tarihî gerçekliğin dramatik kurguya dönüşümünü, tiyatro unsurlarını, emek-estetik ilişkisini ve sahne dilini çözümlet. Tiyatro metnine ön bilgiyi etkinleştirerek, rol temelli okuma çemberiyle amaçlı okuma hazırlığı yapmak.",
       "teacher_moves": [
@@ -197,6 +570,149 @@
         "Tiyatro sanatının işlevi [QUESTION]",
         "Günlük hayat, sahne atmosferi ve toplumsal ilişkiler [TABLE]"
       ],
+      "task_cards": [
+        {
+          "source_item_ref": "T4_G01_P243_246_METIN_CERCEVESI",
+          "printed_page_range": "243-246",
+          "item_type": "REFERENCE",
+          "acceptance_criteria": [
+            "Sinan’ın kişisel emeği ile tarihî/kültürel çevreyi birlikte görür.",
+            "Metni salt biyografi özeti olarak ele almaz; dramatik sunumu fark eder."
+          ],
+          "canonical_teacher_guidance": [
+            "Tarihî ayrıntılarda ders kitabında verilen sınırı aşan kesinlik iddiaları üretme; amaç metnin anlam ve tiyatro işleyişini çözmektir."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.243-246 / PDF s.244-247"
+          ],
+          "task_id": "T4_G01_P243_246_METIN_CERCEVESI",
+          "label": "Ben, Mimar Sinan — temel anlam çerçevesi",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Ben, Mimar Sinan — temel anlam çerçevesi",
+          "expected_answer": "Metin Mimar Sinan’ın meslekî gelişimini, bilgi-azim-çalışkanlıkla ilerleyişini, büyük mimari eserlerin oluşumunu ve bireysel ustalığın tarih/kültür/ortak üretim içindeki yerini dramatik bir anlatımla görünür kılar.",
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G01_P247_SOZ_VARLIGI",
+          "printed_page_range": "247",
+          "item_type": "VOCABULARY",
+          "acceptance_criteria": [
+            "Anlamı önce bağlamdan tahmin eder.",
+            "Sözlük doğrulamasından sonra bağlama en uygun karşılığı seçer."
+          ],
+          "canonical_teacher_guidance": [
+            "Çok anlamlı kelimelerde tek sözlük karşılığını otomatik doğru sayma; cümle bağlamını esas al."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.247 / PDF s.248"
+          ],
+          "task_id": "T4_G01_P247_SOZ_VARLIGI",
+          "label": "Söz varlığı — bağlamdan anlam",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Söz varlığı — bağlamdan anlam",
+          "expected_answer": {
+            "çağdaş": "aynı çağda yaşayan/çağa uygun",
+            "özge": "başka, farklı",
+            "görkemli": "gösterişli ve etkileyici",
+            "şevk": "istek ve coşku",
+            "âvâze": "yüksek ses/sesleniş; bağlama göre ün-seda çağrışımı da taşıyabilir",
+            "sadrazam": "Osmanlı Devleti’nde padişahtan sonra en yetkili devlet görevlisi"
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G01_P248_TIYATRO_ISLEVI",
+          "printed_page_range": "248",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "En az iki işlevi açıklar.",
+            "İşlevi Ben, Mimar Sinan veya kendi tiyatro deneyimiyle örneklendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.248 / PDF s.249"
+          ],
+          "task_id": "T4_G01_P248_TIYATRO_ISLEVI",
+          "label": "Tiyatro sanatının işlevi",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Tiyatro sanatının işlevi",
+          "expected_answer": [
+            "insanı ve toplumu farklı durumlar içinde görünür kılma",
+            "duygu ve düşünce farkındalığı oluşturma",
+            "eleştirel düşünme ve empati geliştirme",
+            "tarihî/toplumsal tecrübeyi sahnede yeniden yorumlama"
+          ],
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G01_P249_250_HAYAT_SAHNE",
+          "printed_page_range": "249-250",
+          "item_type": "TABLE",
+          "acceptance_criteria": [
+            "Gündelik gerçeklikle dramatik kurgu arasındaki hem benzerliği hem farkı açıklar.",
+            "Metindeki en az bir ifadenin sosyal hayatı nasıl yansıttığını gerekçelendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [
+            "Tiyatro metnini gerçek hayatın birebir kopyası saymak."
+          ],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.249-250 / PDF s.250-251"
+          ],
+          "task_id": "T4_G01_P249_250_HAYAT_SAHNE",
+          "label": "Günlük hayat, sahne atmosferi ve toplumsal ilişkiler",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Günlük hayat, sahne atmosferi ve toplumsal ilişkiler",
+          "expected_answer": {
+            "ortakliklar": [
+              "insan ilişkileri",
+              "çatışma",
+              "mekân-zaman",
+              "sözlü/sözsüz iletişim",
+              "değerler"
+            ],
+            "tiyatroya_ozgu_donusturme": [
+              "seçilmiş olay",
+              "dramatik örgü",
+              "sahneleme",
+              "ışık-müzik-dekor",
+              "yoğunlaştırılmış diyalog/monolog"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        }
+      ],
       "pedagogical_intent": "Ben, Mimar Sinan üzerinden tarihî gerçekliğin dramatik kurguya dönüşümünü, tiyatro unsurlarını, emek-estetik ilişkisini ve sahne dilini çözümlet. Tiyatro metninin tarih, emek, estetik, toplumsal hayat ve dil boyutlarından anlam oluşturmak.",
       "teacher_moves": [
         "Cevabın yanına kısa metin, görsel veya dinleme kanıtı istemeyi varsayılan sınıf rutini hâline getir.",
@@ -253,9 +769,205 @@
         "T4_G01_P253_254_CIMRI_KARSILASTIRMA"
       ],
       "book_task_summaries": [
-        "Konu, amaç, yazar-metin ilişkisi ve karakter özellikleri [QUESTION]",
+        "Konu, amaç, yazar-metin ilişkisi ve karakter özellikleri — Soru 1 [QUESTION]",
+        "Konu, amaç, yazar-metin ilişkisi ve karakter özellikleri — Soru 2 [QUESTION]",
+        "Konu, amaç, yazar-metin ilişkisi ve karakter özellikleri — Soru 3 [QUESTION]",
+        "Konu, amaç, yazar-metin ilişkisi ve karakter özellikleri — Soru 4 [QUESTION]",
         "‘Bilgim, azmim ve çalışkanlığımla talihimi yenmiştim’ iletisi [QUESTION]",
         "Ben, Mimar Sinan — Cimri karşılaştırması ve tür [TABLE]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T4_G01_P251_Q1_4",
+          "printed_page_range": "251",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Konu ile amacı ayırır.",
+            "Karakter çıkarımını söz/eylem kanıtına dayandırır.",
+            "Yazarın tarihî malzemeyi dramatikleştirdiğini fark eder."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.251 / PDF s.252"
+          ],
+          "task_id": "T4_G01_P251_Q1_4#Q1",
+          "label": "Konu, amaç, yazar-metin ilişkisi ve karakter özellikleri — Soru 1",
+          "question_number": "1",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.251 — 1. soru",
+          "expected_answer": "Mimar Sinan’ın hayatı ve sanat yolculuğu ekseninde çalışma, üretme, estetik ve tarihî miras.",
+          "expected_response": null,
+          "split_from_group": true,
+          "answer_component_key": "konu"
+        },
+        {
+          "source_item_ref": "T4_G01_P251_Q1_4",
+          "printed_page_range": "251",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Konu ile amacı ayırır.",
+            "Karakter çıkarımını söz/eylem kanıtına dayandırır.",
+            "Yazarın tarihî malzemeyi dramatikleştirdiğini fark eder."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.251 / PDF s.252"
+          ],
+          "task_id": "T4_G01_P251_Q1_4#Q2",
+          "label": "Konu, amaç, yazar-metin ilişkisi ve karakter özellikleri — Soru 2",
+          "question_number": "2",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.251 — 2. soru",
+          "expected_answer": "Tarihî bir kişiliği dramatik biçimde tanıtırken emek, sorumluluk, estetik ve kültür bilinci üzerine düşündürmek.",
+          "expected_response": null,
+          "split_from_group": true,
+          "answer_component_key": "amac"
+        },
+        {
+          "source_item_ref": "T4_G01_P251_Q1_4",
+          "printed_page_range": "251",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Konu ile amacı ayırır.",
+            "Karakter çıkarımını söz/eylem kanıtına dayandırır.",
+            "Yazarın tarihî malzemeyi dramatikleştirdiğini fark eder."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.251 / PDF s.252"
+          ],
+          "task_id": "T4_G01_P251_Q1_4#Q3",
+          "label": "Konu, amaç, yazar-metin ilişkisi ve karakter özellikleri — Soru 3",
+          "question_number": "3",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.251 — 3. soru",
+          "expected_answer": "Yazar tarihî malzemeyi seçip sahne düzenine, diyalog/monologlara ve dramatik akışa dönüştürür.",
+          "expected_response": null,
+          "split_from_group": true,
+          "answer_component_key": "yazar_metin"
+        },
+        {
+          "source_item_ref": "T4_G01_P251_Q1_4",
+          "printed_page_range": "251",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Konu ile amacı ayırır.",
+            "Karakter çıkarımını söz/eylem kanıtına dayandırır.",
+            "Yazarın tarihî malzemeyi dramatikleştirdiğini fark eder."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.251 / PDF s.252"
+          ],
+          "task_id": "T4_G01_P251_Q1_4#Q4",
+          "label": "Konu, amaç, yazar-metin ilişkisi ve karakter özellikleri — Soru 4",
+          "question_number": "4",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.251 — 4. soru",
+          "expected_answer": [
+            "çalışkan",
+            "azimli",
+            "öğrenmeye açık",
+            "sorumluluk sahibi",
+            "estetik kaygı taşıyan"
+          ],
+          "expected_response": null,
+          "split_from_group": true,
+          "answer_component_key": "karakter"
+        },
+        {
+          "source_item_ref": "T4_G01_P252_TALIHI_YENMEK",
+          "printed_page_range": "252",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Bilgi, azim ve çalışkanlığı birlikte yorumlar.",
+            "Sözü kaderi mutlak biçimde kontrol etme iddiasına dönüştürmez."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.252 / PDF s.253"
+          ],
+          "task_id": "T4_G01_P252_TALIHI_YENMEK",
+          "label": "‘Bilgim, azmim ve çalışkanlığımla talihimi yenmiştim’ iletisi",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "‘Bilgim, azmim ve çalışkanlığımla talihimi yenmiştim’ iletisi",
+          "expected_answer": "Kişinin koşullarını tamamen kontrol edemese de bilgi edinme, kararlılık ve düzenli emekle seçeneklerini genişletebileceğini; başarının yalnız şansa bağlanmaması gerektiğini vurgular.",
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G01_P253_254_CIMRI_KARSILASTIRMA",
+          "printed_page_range": "253-254",
+          "item_type": "TABLE",
+          "acceptance_criteria": [
+            "En az içerik, dönem/zihniyet ve üslup boyutlarını karşılaştırır.",
+            "Cimri’yi komedi; Ben, Mimar Sinan’ı dram olarak metin özellikleriyle gerekçelendirir."
+          ],
+          "canonical_teacher_guidance": [
+            "Tür sınıflamasında öğrencinin metinden güçlü gerekçesi varsa kavram yanılgısı ile yorum farkını ayır."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.253-254 / PDF s.254-255"
+          ],
+          "task_id": "T4_G01_P253_254_CIMRI_KARSILASTIRMA",
+          "label": "Ben, Mimar Sinan — Cimri karşılaştırması ve tür",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Ben, Mimar Sinan — Cimri karşılaştırması ve tür",
+          "expected_answer": {
+            "Ben_Mimar_Sinan": {
+              "icerik": "tarihî kişilik, üretim ve kültürel miras",
+              "donem_zihniyet": "Cumhuriyet dönemi modern Türk tiyatrosunun tarih/kültür bilinci",
+              "uslup": "ciddi, dramatik, tarihî malzemeyi sahneleyen",
+              "tur": "dram"
+            },
+            "Cimri": {
+              "icerik": "aile/evlilik/para ilişkileri ve cimrilik",
+              "donem_zihniyet": "Batı/Fransız klasik komedi geleneği",
+              "uslup": "gülünç durum ve karakter kusuru üzerinden eleştirel",
+              "tur": "komedi"
+            }
+          },
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Ben, Mimar Sinan üzerinden tarihî gerçekliğin dramatik kurguya dönüşümünü, tiyatro unsurlarını, emek-estetik ilişkisini ve sahne dilini çözümlet. Metnin konusu, amacı, karakterleri, temel iletileri ve modern tiyatro türleri üzerinden çıkarım yapmak.",
       "teacher_moves": [
@@ -321,6 +1033,182 @@
         "Cumhuriyet tiyatrosu, tarih-kimlik ve değerler [QUESTION]",
         "Tiyatro-sosyal bilimler ve çatışmaların işlevi [QUESTION]"
       ],
+      "task_cards": [
+        {
+          "source_item_ref": "T4_G01_P255_OZET_DEGERLENDIRME",
+          "printed_page_range": "255",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Özette ana çizgiyi korur.",
+            "Dil/üslup ile yazılma amacı arasında bağ kurar.",
+            "Tarihî gerçeklik ile dramatik kurgu ayrımını korur.",
+            "Dekor önerisini sahne işleviyle gerekçelendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.255 / PDF s.256"
+          ],
+          "task_id": "T4_G01_P255_OZET_DEGERLENDIRME",
+          "label": "Özet, amaç-dil ilişkisi, tarihî gerçeklik ve dekor",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Özet, amaç-dil ilişkisi, tarihî gerçeklik ve dekor",
+          "expected_answer": {
+            "ozet": "Özet; Sinan’ın gelişimini, önemli eserlerini ve çalışma/estetik anlayışını ana olay çizgisiyle, ayrıntıya boğmadan aktarmalıdır.",
+            "amac_dil": "Bilgilendirici tarihî malzeme dramatik anlatımla birleşir; açık konuşmalar ve sahne ögeleri tarih bilincini canlı kılar.",
+            "tarih": "Metindeki tarihî ad/yer/eser bilgileri gerçeklik duygusu oluşturur; tiyatro olduğu için seçme, yoğunlaştırma ve dramatikleştirme yapılır.",
+            "dekor": "Tasarımlar sahnenin tarihî atmosferini, çalışma ortamını ve mimari eserleri işlevsel biçimde desteklemelidir."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G01_P256_YAPI",
+          "printed_page_range": "256",
+          "item_type": "TABLE",
+          "acceptance_criteria": [
+            "Yapı unsurlarını metinden ayırt eder.",
+            "Kişi-mekân, kişi-çatışma, mekân-zaman ve çatışma-dramatik örgü ilişkilerinden en az ikisini açıklar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.256 / PDF s.257"
+          ],
+          "task_id": "T4_G01_P256_YAPI",
+          "label": "Yapı unsurları ve ilişkileri",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Yapı unsurları ve ilişkileri",
+          "expected_answer": {
+            "kisiler": "Mimar Sinan ve tarihî çevresindeki kişiler/sesler",
+            "mekan": "mimarlık ve saray/şehir/eser bağlamları",
+            "zaman": "Sinan’ın meslek hayatını kapsayan tarihî süreç",
+            "catismalar": "başarma/engel, eskiyi aşma-yeniyi kurma, bireysel kaygı-sorumluluk gibi gerilimler",
+            "dramatik_orgu": "seçilmiş yaşam kesitlerinin sahne akışı içinde neden-sonuç ve dönüm noktalarıyla düzenlenmesi"
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G01_P257_258_DIL_USLUP",
+          "printed_page_range": "257-258",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Monolog ve diyaloğun işlevini ayırır.",
+            "Cümle türlerini yalnız etiketlemekle kalmaz, üsluba katkısını açıklar."
+          ],
+          "canonical_teacher_guidance": [
+            "Cümle sınıflamasında kitapta verilen örnek sınıflamayı model olarak kullan; farklı cümleler için yüklemin türü/yeri, anlamı ve yapısını ayrı ayrı kontrol et."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.257-258 / PDF s.258-259"
+          ],
+          "task_id": "T4_G01_P257_258_DIL_USLUP",
+          "label": "Monolog, diyalog, cümle çeşitliliği ve üslup",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Monolog, diyalog, cümle çeşitliliği ve üslup",
+          "expected_answer": {
+            "monolog": "karakterin iç düşüncesini, değerlendirmesini veya geçmişe bakışını doğrudan açar",
+            "diyalog": "kişiler arası ilişkiyi, çatışmayı ve sahne hareketini canlılaştırır",
+            "cumle_cesitliligi": "ritim, vurgu, duygu tonu ve karakter seslerini çeşitlendirir",
+            "uslup": "tarihî/bilgilendirici içeriği dramatik ve yer yer coşkulu söyleyişle birleştirir"
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G01_P259_260_DONEM_DEGER",
+          "printed_page_range": "259-260",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Metni tarih bilinci/kültür aktarımıyla ilişkilendirir.",
+            "En az üç değeri somut söz veya eylemle eşleştirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [
+            "Tarihî konulu her tiyatro metnini tarih belgesi saymak."
+          ],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.259-260 / PDF s.260-261"
+          ],
+          "task_id": "T4_G01_P259_260_DONEM_DEGER",
+          "label": "Cumhuriyet tiyatrosu, tarih-kimlik ve değerler",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Cumhuriyet tiyatrosu, tarih-kimlik ve değerler",
+          "expected_answer": {
+            "tarih_bilinci": "Cumhuriyet dönemi tiyatrosu tarihî malzemeyi güncel kültür ve kimlik bilinciyle yeniden ele alabilir; Ben, Mimar Sinan geçmişi öğretici/düşündürücü dramatik malzemeye dönüştürür.",
+            "degerler": [
+              "çalışkanlık",
+              "sorumluluk",
+              "estetik duyarlılık",
+              "azim",
+              "kültürel mirasa bağlılık",
+              "toplumsal yarar"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G01_P260_261_DISIPLIN_CATISMA",
+          "printed_page_range": "260-261",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "En az iki disiplinle metinsel bağ kurar.",
+            "Çatışmanın dramatik örgüdeki işlevini açıklar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.260-261 / PDF s.261-262"
+          ],
+          "task_id": "T4_G01_P260_261_DISIPLIN_CATISMA",
+          "label": "Tiyatro-sosyal bilimler ve çatışmaların işlevi",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Tiyatro-sosyal bilimler ve çatışmaların işlevi",
+          "expected_answer": {
+            "disiplinler": {
+              "tarih": "olay, kişi, dönem ve eser bağlamı",
+              "psikoloji": "kişilerin amaç, kaygı ve iç gerilimleri",
+              "sosyoloji": "toplumsal yapı, meslek, kurum ve değer ilişkileri"
+            },
+            "catismalarin_islevi": "Karakter amaçlarını görünür kılar, dramatik gerilim ve değişimi üretir, iletileri soyut açıklama yerine eylem içinde gösterir."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        }
+      ],
       "pedagogical_intent": "Ben, Mimar Sinan üzerinden tarihî gerçekliğin dramatik kurguya dönüşümünü, tiyatro unsurlarını, emek-estetik ilişkisini ve sahne dilini çözümlet. Özet, yapı, dil-üslup, dönem, değer, disiplinler arası ilişki ve çatışma boyutlarını çözümlemek.",
       "teacher_moves": [
         "Kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.",
@@ -378,6 +1266,63 @@
       "book_task_summaries": [
         "Günlük insan ilişkileri ve beğeni ölçütleri [ASSESSMENT]",
         "‘Ben Kimim?’ karakter oyunu ve kısa senaryo [PERFORMANCE_TASK]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T4_G01_P262_HAYAT_DEGERLENDIRME",
+          "printed_page_range": "262",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "En az bir günlük hayat ilişkisini metin kanıtıyla açıklar.",
+            "Kendi değerlendirme ölçütünü açıkça adlandırır ve gerekçelendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.262 / PDF s.263"
+          ],
+          "task_id": "T4_G01_P262_HAYAT_DEGERLENDIRME",
+          "label": "Günlük insan ilişkileri ve beğeni ölçütleri",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Günlük insan ilişkileri ve beğeni ölçütleri",
+          "expected_answer": "Öğrenci; otorite-sorumluluk, usta-çırak/çalışan ilişkisi, güven, emek, hedef, kuşak ve değer aktarımı gibi metinde dayanak bulabildiği kesitleri belirleyebilir. Beğeni ölçütü olarak etkileyicilik, inandırıcılık, dil, karakter, sahneleme veya ileti gibi ölçütler kullanılabilir.",
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G01_P262_BEN_KIMIM",
+          "printed_page_range": "262",
+          "item_type": "PERFORMANCE_TASK",
+          "acceptance_criteria": [
+            "Tanıtım karaktere özgü en az iki ipucu içerir.",
+            "Senaryo karakter özelliğiyle tutarlıdır.",
+            "Tahminler sonrası kısa öz değerlendirme yapılır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.262 / PDF s.263"
+          ],
+          "task_id": "T4_G01_P262_BEN_KIMIM",
+          "label": "‘Ben Kimim?’ karakter oyunu ve kısa senaryo",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "‘Ben Kimim?’ karakter oyunu ve kısa senaryo",
+          "expected_answer": "Seçilen karakter; adı söylenmeden ayırt edici özellik, amaç, ilişki ve davranışlarıyla tanıtılmalı; güncel kısa senaryoda karakterin temel özellikleri tutarlı biçimde korunmalıdır.",
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Ben, Mimar Sinan üzerinden tarihî gerçekliğin dramatik kurguya dönüşümünü, tiyatro unsurlarını, emek-estetik ilişkisini ve sahne dilini çözümlet. Metni günlük hayat, karakter, sahneleme ve kişisel beğeni ölçütleri üzerinden değerlendirmek.",
       "teacher_moves": [
@@ -439,6 +1384,96 @@
         "Küçürek/minimal hikâyenin özellikleri [REFERENCE]",
         "Okuma amacı, tahmin ve strateji [PROCESS]"
       ],
+      "task_cards": [
+        {
+          "source_item_ref": "T4_G02_P263_HAYAT_YOLCULUK",
+          "printed_page_range": "263",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "En az iki metaforu yaşam evresiyle gerekçeli bağlar.",
+            "Görsel/ifade ile yorum arasında açık ilişki kurar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.263 / PDF s.264"
+          ],
+          "task_id": "T4_G02_P263_HAYAT_YOLCULUK",
+          "label": "Yaşam evreleri ve yol/merdiven metaforları",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Yaşam evreleri ve yol/merdiven metaforları",
+          "expected_answer": "Yol, merdiven, bahar ve diken gibi imgeler; başlangıç, ilerleme, güçlük, yükselme/gerileme, yaşlanma, yenilenme ve sonluluk gibi hayat evrelerini mecazlaştırabilir. Farklı gerekçeli çağrışımlar kabul edilir.",
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G02_P264_KUCU_REK_OZELLIK",
+          "printed_page_range": "264",
+          "item_type": "REFERENCE",
+          "acceptance_criteria": [
+            "Kısalığı tek özellik olarak görmez.",
+            "Yoğunluk ve okur katılımını açıklar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.264 / PDF s.265"
+          ],
+          "task_id": "T4_G02_P264_KUCU_REK_OZELLIK",
+          "label": "Küçürek/minimal hikâyenin özellikleri",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Küçürek/minimal hikâyenin özellikleri",
+          "expected_answer": [
+            "çok kısa ve yoğun anlatım",
+            "az sözle geniş çağrışım",
+            "şiirsel/yoğun dil",
+            "boşlukları okurun tamamlaması",
+            "seçilmiş an veya kırılma noktası"
+          ],
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G02_P264_265_OKUMA_PLANI",
+          "printed_page_range": "264-265",
+          "item_type": "PROCESS",
+          "acceptance_criteria": [
+            "Okuma amacını açıklar.",
+            "Tahminini başlık/tür ipucuna dayandırır.",
+            "Stratejiyi metnin kısalığı ve yoğunluğuyla ilişkilendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.264-265 / PDF s.265-266"
+          ],
+          "task_id": "T4_G02_P264_265_OKUMA_PLANI",
+          "label": "Okuma amacı, tahmin ve strateji",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Okuma amacı, tahmin ve strateji",
+          "expected_answer": "Öğrencinin başlık ve tür bilgisinden içerik tahmini yapması; kısa metinde tekrar, simge, karşıtlık ve dönüşüm noktalarını izlemeye uygun bir strateji seçmesi beklenir.",
+          "expected_response": null,
+          "split_from_group": false
+        }
+      ],
       "pedagogical_intent": "Merdiven ve küçürek hikâye çalışmalarında kısalığı yüzeysellikle karıştırmadan simge, boşluk, tekrar, karşıtlık ve okur katılımı üzerinden yoğun anlam kurdur. Yaşam-merdiven çağrışımını ve küçürek hikâyenin yoğun anlatım özelliklerini okuma öncesinde etkinleştirmek.",
       "teacher_moves": [
         "Göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir.",
@@ -498,8 +1533,334 @@
       "book_task_summaries": [
         "Söz varlığı ve çok anlamlı kullanım [VOCABULARY]",
         "‘Bahtiyar ol’ ve kültürel kalıp sözler [QUESTION]",
-        "Metni Anlayalım 1-4 — kişi, öğüt ve merdiven simgesi [QUESTION]",
-        "Metni Anlayalım 5-8 — tür, ritim ve final [QUESTION]"
+        "Metni Anlayalım 1-4 — kişi, öğüt ve merdiven simgesi — Soru 1 [QUESTION]",
+        "Metni Anlayalım 1-4 — kişi, öğüt ve merdiven simgesi — Soru 2 [QUESTION]",
+        "Metni Anlayalım 1-4 — kişi, öğüt ve merdiven simgesi — Soru 3 [QUESTION]",
+        "Metni Anlayalım 1-4 — kişi, öğüt ve merdiven simgesi — Soru 4 [QUESTION]",
+        "Metni Anlayalım 5-8 — tür, ritim ve final — Soru 5 [QUESTION]",
+        "Metni Anlayalım 5-8 — tür, ritim ve final — Soru 6 [QUESTION]",
+        "Metni Anlayalım 5-8 — tür, ritim ve final — Soru 7 [QUESTION]",
+        "Metni Anlayalım 5-8 — tür, ritim ve final — Soru 8 [QUESTION]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T4_G02_P266_267_SOZ_VARLIGI",
+          "printed_page_range": "266-267",
+          "item_type": "VOCABULARY",
+          "acceptance_criteria": [
+            "Bağlamdaki anlamı belirler.",
+            "Aynı kelimeyi başka anlamda uygun cümlede kullanabilir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.266-267 / PDF s.267-268"
+          ],
+          "task_id": "T4_G02_P266_267_SOZ_VARLIGI",
+          "label": "Söz varlığı ve çok anlamlı kullanım",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Söz varlığı ve çok anlamlı kullanım",
+          "expected_answer": {
+            "daire": "bağlamda kurum içindeki iş bölümü/oda-birim; başka bağlamlarda geometrik şekil veya konut anlamı taşıyabilir",
+            "yeni_yetme": "çok genç/deneyimsiz görülen kişi",
+            "kanimca": "bence, benim görüşüme göre",
+            "yol_vermek": "geçiş önceliği tanımak; mecazen yerini/önceliği başkasına bırakmak",
+            "gereksinme": "ihtiyaç",
+            "duralamak": "kısa süre durup kararsız kalmak"
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G02_P268_BAHTIYAR",
+          "printed_page_range": "268",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Kalıp sözün iyi dilek işlevini açıklar.",
+            "Benzer örnekleri bağlama uygun seçer.",
+            "Söz varlığının gündelik kültürü yansıttığını gerekçelendirir."
+          ],
+          "canonical_teacher_guidance": [
+            "Bölgesel/ailevi farklı kalıp sözleri, anlam ve kullanım bağlamı uygunsa kabul et."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.268 / PDF s.269"
+          ],
+          "task_id": "T4_G02_P268_BAHTIYAR",
+          "label": "‘Bahtiyar ol’ ve kültürel kalıp sözler",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "‘Bahtiyar ol’ ve kültürel kalıp sözler",
+          "expected_answer": {
+            "anlam": "Mutlu ol, bahtın açık olsun, iyilik ve güzel bir gelecek seninle olsun anlamında iyi dilek.",
+            "benzerler": [
+              "Bahtın açık olsun.",
+              "Yolun açık olsun.",
+              "Allah gönlüne göre versin.",
+              "Güle güle kullan/otur.",
+              "Allah zihin açıklığı versin."
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G02_P269_Q1_4",
+          "printed_page_range": "269",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Kişi çıkarımlarını davranış/sözle destekler.",
+            "Merdiveni yalnız fiziksel araç olarak yorumlamaz; simgesel katmanı açıklar.",
+            "Alternatif yorumlarda metin kanıtı arar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.269 / PDF s.270"
+          ],
+          "task_id": "T4_G02_P269_Q1_4#Q1",
+          "label": "Metni Anlayalım 1-4 — kişi, öğüt ve merdiven simgesi — Soru 1",
+          "question_number": "1",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.269 — 1. soru",
+          "expected_answer": "Yaşamın sonuna yaklaşmış, deneyimin verdiği sakinlikle koşuşturmanın değersizleşebileceğini sezen/uyaran figür.",
+          "expected_response": null,
+          "split_from_group": true,
+          "answer_component_key": "ihtiyar"
+        },
+        {
+          "source_item_ref": "T4_G02_P269_Q1_4",
+          "printed_page_range": "269",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Kişi çıkarımlarını davranış/sözle destekler.",
+            "Merdiveni yalnız fiziksel araç olarak yorumlamaz; simgesel katmanı açıklar.",
+            "Alternatif yorumlarda metin kanıtı arar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.269 / PDF s.270"
+          ],
+          "task_id": "T4_G02_P269_Q1_4#Q2",
+          "label": "Metni Anlayalım 1-4 — kişi, öğüt ve merdiven simgesi — Soru 2",
+          "question_number": "2",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.269 — 2. soru",
+          "expected_answer": "Yeni kuşağı ve meslek hayatının devamlılığını çağrıştıran genç figür; anlatıcıya istemeden ayna olur.",
+          "expected_response": null,
+          "split_from_group": true,
+          "answer_component_key": "delikanli"
+        },
+        {
+          "source_item_ref": "T4_G02_P269_Q1_4",
+          "printed_page_range": "269",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Kişi çıkarımlarını davranış/sözle destekler.",
+            "Merdiveni yalnız fiziksel araç olarak yorumlamaz; simgesel katmanı açıklar.",
+            "Alternatif yorumlarda metin kanıtı arar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.269 / PDF s.270"
+          ],
+          "task_id": "T4_G02_P269_Q1_4#Q3",
+          "label": "Metni Anlayalım 1-4 — kişi, öğüt ve merdiven simgesi — Soru 3",
+          "question_number": "3",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.269 — 3. soru",
+          "expected_answer": "Sürekli yükselme/koşuşturma uğruna hayatın kendisini kaçırmama uyarısı olarak yorumlanabilir.",
+          "expected_response": null,
+          "split_from_group": true,
+          "answer_component_key": "ogut"
+        },
+        {
+          "source_item_ref": "T4_G02_P269_Q1_4",
+          "printed_page_range": "269",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Kişi çıkarımlarını davranış/sözle destekler.",
+            "Merdiveni yalnız fiziksel araç olarak yorumlamaz; simgesel katmanı açıklar.",
+            "Alternatif yorumlarda metin kanıtı arar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.269 / PDF s.270"
+          ],
+          "task_id": "T4_G02_P269_Q1_4#Q4",
+          "label": "Metni Anlayalım 1-4 — kişi, öğüt ve merdiven simgesi — Soru 4",
+          "question_number": "4",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.269 — 4. soru",
+          "expected_answer": "Meslekî yükseliş kadar yaş, zaman, kuşak değişimi ve hayat döngüsünü simgeleştirebilir.",
+          "expected_response": null,
+          "split_from_group": true,
+          "answer_component_key": "inmek_cikmak"
+        },
+        {
+          "source_item_ref": "T4_G02_P269_270_Q5_8",
+          "printed_page_range": "269-270",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Tür özelliğini metin yapısıyla ilişkilendirir.",
+            "Ritmi tekrar/karşıtlık örnekleriyle açıklar.",
+            "Final yorumunu ölüm, zaman veya kuşak farkındalığıyla metne dayandırır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [
+            "‘Aşağı inme’yi yalnız fiziksel hareket olarak okumak veya tek zorunlu metafor kabul etmek."
+          ],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.269-270 / PDF s.270-271"
+          ],
+          "task_id": "T4_G02_P269_270_Q5_8#Q5",
+          "label": "Metni Anlayalım 5-8 — tür, ritim ve final — Soru 5",
+          "question_number": "5",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.269-270 — 5. soru",
+          "expected_answer": "Kısa bir karşılaşma üzerinden yaşamın geçiciliği, hırs, yaşlanma ve kuşak değişimi üzerine okuru düşündürmek.",
+          "expected_response": null,
+          "split_from_group": true,
+          "answer_component_key": "yazilma_amaci"
+        },
+        {
+          "source_item_ref": "T4_G02_P269_270_Q5_8",
+          "printed_page_range": "269-270",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Tür özelliğini metin yapısıyla ilişkilendirir.",
+            "Ritmi tekrar/karşıtlık örnekleriyle açıklar.",
+            "Final yorumunu ölüm, zaman veya kuşak farkındalığıyla metne dayandırır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [
+            "‘Aşağı inme’yi yalnız fiziksel hareket olarak okumak veya tek zorunlu metafor kabul etmek."
+          ],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.269-270 / PDF s.270-271"
+          ],
+          "task_id": "T4_G02_P269_270_Q5_8#Q6",
+          "label": "Metni Anlayalım 5-8 — tür, ritim ve final — Soru 6",
+          "question_number": "6",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.269-270 — 6. soru",
+          "expected_answer": "Küçürek hikâyenin yoğunlaştırma ekonomisine uygundur; gereksiz yan olay/karakter yerine kırılma anına odaklanır.",
+          "expected_response": null,
+          "split_from_group": true,
+          "answer_component_key": "az_kisi"
+        },
+        {
+          "source_item_ref": "T4_G02_P269_270_Q5_8",
+          "printed_page_range": "269-270",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Tür özelliğini metin yapısıyla ilişkilendirir.",
+            "Ritmi tekrar/karşıtlık örnekleriyle açıklar.",
+            "Final yorumunu ölüm, zaman veya kuşak farkındalığıyla metne dayandırır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [
+            "‘Aşağı inme’yi yalnız fiziksel hareket olarak okumak veya tek zorunlu metafor kabul etmek."
+          ],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.269-270 / PDF s.270-271"
+          ],
+          "task_id": "T4_G02_P269_270_Q5_8#Q7",
+          "label": "Metni Anlayalım 5-8 — tür, ritim ve final — Soru 7",
+          "question_number": "7",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.269-270 — 7. soru",
+          "expected_answer": [
+            "merdiven",
+            "çıkmak/inmek",
+            "yol vermek",
+            "Bahtiyar ol oğlum"
+          ],
+          "expected_response": null,
+          "split_from_group": true,
+          "answer_component_key": "ritim"
+        },
+        {
+          "source_item_ref": "T4_G02_P269_270_Q5_8",
+          "printed_page_range": "269-270",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Tür özelliğini metin yapısıyla ilişkilendirir.",
+            "Ritmi tekrar/karşıtlık örnekleriyle açıklar.",
+            "Final yorumunu ölüm, zaman veya kuşak farkındalığıyla metne dayandırır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [
+            "‘Aşağı inme’yi yalnız fiziksel hareket olarak okumak veya tek zorunlu metafor kabul etmek."
+          ],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.269-270 / PDF s.270-271"
+          ],
+          "task_id": "T4_G02_P269_270_Q5_8#Q8",
+          "label": "Metni Anlayalım 5-8 — tür, ritim ve final — Soru 8",
+          "question_number": "8",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.269-270 — 8. soru",
+          "expected_answer": "Anlatıcı ölüm ve genç kuşakla yüzleşince ‘yukarı’ yönündeki meslekî/yaşamsal koşuşturmasını sorgular; aşağı inmeyi kabulleniş/farkındalık olarak seçer.",
+          "expected_response": null,
+          "split_from_group": true,
+          "answer_component_key": "final"
+        }
       ],
       "pedagogical_intent": "Merdiven ve küçürek hikâye çalışmalarında kısalığı yüzeysellikle karıştırmadan simge, boşluk, tekrar, karşıtlık ve okur katılımı üzerinden yoğun anlam kurdur. Metindeki söz varlığından, tekrar ve karşıtlıklardan hareketle yaş, zaman, kariyer ve ölüm farkındalığına ilişkin anlam kurmak.",
       "teacher_moves": [
@@ -565,6 +1926,193 @@
         "Karakter çözümleme ve yapı unsurları [TABLE]",
         "Güncelleme, kuşak farkı, çatışma, değer ve disiplinler [QUESTION]"
       ],
+      "task_cards": [
+        {
+          "source_item_ref": "T4_G02_P271_KUCU_REK_KARSILASTIRMA",
+          "printed_page_range": "271",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "En az bir anlatım tekniğini örnekle açıklar.",
+            "Okur katılımını metindeki eksiltme/açıklıkla ilişkilendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.271 / PDF s.272"
+          ],
+          "task_id": "T4_G02_P271_KUCU_REK_KARSILASTIRMA",
+          "label": "Az sözle çok duygu ve okur katılımı",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Az sözle çok duygu ve okur katılımı",
+          "expected_answer": "Uzun açıklamalar yerine seçilmiş ayrıntı, çağrışımlı söz, boşluk, beklenmedik dönüş ve simgesel öge kullanımı okurun eksik bağlantıları kendi deneyimiyle tamamlamasını sağlar. Merdiven’de tekrar eden çıkma-inme/yol verme motifleri bu yoğunluğu destekler.",
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G02_P272_TUR_KARSILASTIRMA",
+          "printed_page_range": "272",
+          "item_type": "TABLE",
+          "acceptance_criteria": [
+            "İçerik, tür, şekil, dönem, yapı, dil/üslup ve ileti ölçütlerinden çoğunu karşılaştırır.",
+            "Hangi türün değeri daha iyi yansıttığı görüşünü gerekçelendirir; tek zorunlu cevap aranmaz."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.272 / PDF s.273"
+          ],
+          "task_id": "T4_G02_P272_TUR_KARSILASTIRMA",
+          "label": "Ben, Mimar Sinan — Merdiven karşılaştırması",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Ben, Mimar Sinan — Merdiven karşılaştırması",
+          "expected_answer": {
+            "tiyatro": "sahnelenmek üzere diyalog/monolog, dramatik örgü, sahne yönergeleri ve tarihî yaşam kesitleri",
+            "kucurek_hikaye": "çok kısa düzyazı, yoğun çağrışım, sınırlı kişi/olay, simgesel ve açık uçlu anlam",
+            "ortak": [
+              "insan ilişkileri",
+              "değerler",
+              "çatışma",
+              "hayatın seçilmiş kesitlerini dönüştürme"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G02_P273_SAIR_TAVAFI",
+          "printed_page_range": "273",
+          "item_type": "TABLE",
+          "acceptance_criteria": [
+            "Dört ölçütte metin kanıtı kullanır.",
+            "Beğeni tercihini gerekçelendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.273 / PDF s.274"
+          ],
+          "task_id": "T4_G02_P273_SAIR_TAVAFI",
+          "label": "Şair Tavafî — Merdiven karşılaştırması",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Şair Tavafî — Merdiven karşılaştırması",
+          "expected_answer": {
+            "şiirsel_dil": "Merdiven daha yoğun tekrar/simge ve kısa cümlelerle şiirsel yoğunluk kurar; Şair Tavafî daha geniş anlatı ayrıntısı taşır.",
+            "icerik": "İkisi de insan ve gündelik yaşam kesitlerine yönelir fakat ölçek ve anlatı genişliği farklıdır.",
+            "cagrisim": "Merdiven sözcük ve eylemleri simgesel katmana daha yoğun açar.",
+            "anlatici": "Her iki parçada da anlatıcı perspektifi önemlidir; işlevleri metnin anlatım biçimine göre karşılaştırılmalıdır."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G02_P274_275_KARAKTER_YAPI",
+          "printed_page_range": "274-275",
+          "item_type": "TABLE",
+          "acceptance_criteria": [
+            "Her karakterin özellik, amaç/niyet ve işlevini ayırır.",
+            "Yapı unsurlarını metindeki yoğunlaştırma ile ilişkilendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.274-275 / PDF s.275-276"
+          ],
+          "task_id": "T4_G02_P274_275_KARAKTER_YAPI",
+          "label": "Karakter çözümleme ve yapı unsurları",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Karakter çözümleme ve yapı unsurları",
+          "expected_answer": {
+            "anlatici": {
+              "baslangic": "aceleci, iş/konum odaklı",
+              "degisim": "ölüm ve genç memurla karşılaşma sonrası kendi yerini/zamanını sorgular"
+            },
+            "ihtiyar": {
+              "islev": "deneyim, fanilik ve yavaşlama uyarısı"
+            },
+            "genc_memur": {
+              "islev": "yeni kuşak/devamlılık ve anlatıcının konum değişimini görünür kılan ayna"
+            },
+            "yapi": {
+              "mekan": "merdiven ve kurum",
+              "zaman": "kısa bir zaman dilimi",
+              "olay": "tekrarlanan karşılaşmalar ve ölüm haberiyle oluşan farkındalık"
+            }
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G02_P275_278_HAYAT_CATISMA_DEGER",
+          "printed_page_range": "275-278",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Güncel kurgu önerisinde tematik çekirdeği korur.",
+            "İç ve kişiler arası çatışmayı ayırır.",
+            "Değer/disiplin eşleşmesini metin ayrıntısıyla gerekçelendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.275-278 / PDF s.276-279"
+          ],
+          "task_id": "T4_G02_P275_278_HAYAT_CATISMA_DEGER",
+          "label": "Güncelleme, kuşak farkı, çatışma, değer ve disiplinler",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Güncelleme, kuşak farkı, çatışma, değer ve disiplinler",
+          "expected_answer": {
+            "guncelleme": "Asansör/dijital iş akışı gibi araçlar fiziksel olay örgüsünü değiştirebilir; fakat yükselme, kuşak değişimi, acele ve fanilik temaları başka simgelerle korunabilir.",
+            "catismalar": [
+              "anlatıcının kendi hırsı/zamanı ile iç çatışması",
+              "kuşak/konum farkından doğan insan-insan gerilimi"
+            ],
+            "degerler": [
+              "saygı",
+              "duyarlılık",
+              "sorumluluk",
+              "nezaket",
+              "empati"
+            ],
+            "disiplinler": {
+              "psikoloji": "ölüm, kaygı, benlik ve farkındalık",
+              "sosyoloji": "kurum, kuşak ve meslek rolleri",
+              "felsefe": "varoluş, fanilik, anlam",
+              "saglik": "yaşlılık ve ani ölüm"
+            }
+          },
+          "expected_response": null,
+          "split_from_group": false
+        }
+      ],
       "pedagogical_intent": "Merdiven ve küçürek hikâye çalışmalarında kısalığı yüzeysellikle karıştırmadan simge, boşluk, tekrar, karşıtlık ve okur katılımı üzerinden yoğun anlam kurdur. Küçürek hikâyenin yoğunlaştırma tekniğini farklı metinlerle karşılaştırıp karakter-yapı-çatışma-değer-disiplin ilişkilerini çözümlemek.",
       "teacher_moves": [
         "Cevabın yanına kısa metin, görsel veya dinleme kanıtı istemeyi varsayılan sınıf rutini hâline getir.",
@@ -625,6 +2173,100 @@
         "Ölçüt geliştirerek hikâyeyi değerlendirme [ASSESSMENT]",
         "‘Ne işim var benim yukarda?’ beyin fırtınası [QUESTION]"
       ],
+      "task_cards": [
+        {
+          "source_item_ref": "T4_G02_P279_EDGU_POETIKA",
+          "printed_page_range": "279",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "En az üç özelliği Merdiven’den kanıtla ilişkilendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.279 / PDF s.280"
+          ],
+          "task_id": "T4_G02_P279_EDGU_POETIKA",
+          "label": "Ferit Edgü’nün küçürek hikâye anlayışının Merdiven’e yansıması",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Ferit Edgü’nün küçürek hikâye anlayışının Merdiven’e yansıması",
+          "expected_answer": [
+            "ayıklama/yoğunlaştırma",
+            "açık yapıt ve okur katılımı",
+            "simgesel göstergeler",
+            "kısa zaman-mekân",
+            "varoluş/yalnızlık/kaygı çağrışımları",
+            "diyalog ve kısa cümlelerle benliği görünür kılma"
+          ],
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G02_P279_BEGeni",
+          "printed_page_range": "279",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "En az iki açık ölçüt belirler.",
+            "Her ölçüt için metinden gerekçe sunar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.279 / PDF s.280"
+          ],
+          "task_id": "T4_G02_P279_BEGeni",
+          "label": "Ölçüt geliştirerek hikâyeyi değerlendirme",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Ölçüt geliştirerek hikâyeyi değerlendirme",
+          "expected_answer": "Konu/ileti, dil, üslup, çağrışım gücü, yoğunluk, final etkisi veya karakter dönüşümü gibi ölçütler seçilebilir. Beğendim/beğenmedim kararı yalnız gerekçesi ve metin kanıtı varsa değerlendirilir.",
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G02_P279_NE_ISIM_VAR",
+          "printed_page_range": "279",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Farklı yorumlara açık kalır.",
+            "Seçtiği yorumu olay dizisiyle destekler."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.279 / PDF s.280"
+          ],
+          "task_id": "T4_G02_P279_NE_ISIM_VAR",
+          "label": "‘Ne işim var benim yukarda?’ beyin fırtınası",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "‘Ne işim var benim yukarda?’ beyin fırtınası",
+          "expected_answer": [
+            "kariyer hırsını sorgulama",
+            "ölümlülük/fanilik farkındalığı",
+            "kuşağa yer açma",
+            "hayatın hızını ve öncelikleri yeniden değerlendirme"
+          ],
+          "expected_response": null,
+          "split_from_group": false
+        }
+      ],
       "pedagogical_intent": "Merdiven ve küçürek hikâye çalışmalarında kısalığı yüzeysellikle karıştırmadan simge, boşluk, tekrar, karşıtlık ve okur katılımı üzerinden yoğun anlam kurdur. Ferit Edgü’nün küçürek hikâye anlayışının metindeki yansımalarını ve öğrencinin gerekçeli beğenisini değerlendirmek.",
       "teacher_moves": [
         "Öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.",
@@ -683,6 +2325,76 @@
         "Rol yaratma ve tiyatro hakkında çıkarım [QUESTION]",
         "Diyalog, doğru dil ve ‘insanı insana insanla anlatma’ [QUESTION]"
       ],
+      "task_cards": [
+        {
+          "source_item_ref": "T4_G03_P280_ROL_UZAM",
+          "printed_page_range": "280",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Rolü yalnız ezberlenecek sözler olarak görmez.",
+            "En az iki boyutu nedenleriyle açıklar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.280 / PDF s.281"
+          ],
+          "task_id": "T4_G03_P280_ROL_UZAM",
+          "label": "Rol yaratma ve tiyatro hakkında çıkarım",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Rol yaratma ve tiyatro hakkında çıkarım",
+          "expected_answer": {
+            "diyalogdan_cikarim": [
+              "karakterler arası ilişki",
+              "çatışma ve amaç",
+              "dil/üslup",
+              "duygu ve güç ilişkisi"
+            ],
+            "rol_hazirligi": [
+              "karakterin dönemini ve koşullarını anlama",
+              "alt metin/amaç",
+              "duygu ve beden kullanımı",
+              "mekân-zaman",
+              "kendi deneyimiyle empati"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G03_P281_DIL_TIYATRO",
+          "printed_page_range": "281",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Diyalog ile günlük iletişim arasında işlevsel bağ kurar.",
+            "Tiyatro tanımını insan-karakter-izleyici ilişkisiyle açıklar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.281 / PDF s.282"
+          ],
+          "task_id": "T4_G03_P281_DIL_TIYATRO",
+          "label": "Diyalog, doğru dil ve ‘insanı insana insanla anlatma’",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Diyalog, doğru dil ve ‘insanı insana insanla anlatma’",
+          "expected_answer": "Diyalog tiyatroda ilişkiyi ve eylemi taşır; doğru/bağlama uygun dil anlamı, karakteri ve iletişimi güçlendirir. ‘İnsanı insana insanla anlatma’ sözü, insan deneyiminin oyuncu/karakter aracılığıyla başka insanlara canlı biçimde sunulmasını vurgular.",
+          "expected_response": null,
+          "split_from_group": false
+        }
+      ],
       "pedagogical_intent": "Tiyatro metnini yeniden kurgulayıp canlandırırken kaynak metnin çekirdeğini, yeni dramatik tercihi ve sözlü-sözsüz sahne iletişimini birlikte yönet. Rol yaratma, empati, uzam ve konuşma amacını canlandırma öncesinde planlamak.",
       "teacher_moves": [
         "Göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir.",
@@ -740,6 +2452,48 @@
       "book_task_summaries": [
         "Tiyatro bölümünü yeniden kurgulama performans görevi [PERFORMANCE_TASK]"
       ],
+      "task_cards": [
+        {
+          "source_item_ref": "T4_G03_P281_PERFORMANS_PLANI",
+          "printed_page_range": "281",
+          "item_type": "PERFORMANCE_TASK",
+          "acceptance_criteria": [
+            "Canlandırma amacı açıktır.",
+            "Rol ve sahne bölümü belirlenmiştir.",
+            "Yöntem hedef kitle/süreyle uyumludur.",
+            "İletişim engelleri için önlem alınmıştır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [
+            "Kitaptaki görünür kontrol listesinin tamamlanması."
+          ],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.281 / PDF s.282"
+          ],
+          "task_id": "T4_G03_P281_PERFORMANS_PLANI",
+          "label": "Tiyatro bölümünü yeniden kurgulama performans görevi",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Tiyatro bölümünü yeniden kurgulama performans görevi",
+          "expected_answer": {
+            "zorunlu_adimlar": [
+              "amaç",
+              "grup ve rol dağılımı",
+              "canlandırılacak bölüm",
+              "hedef kitle/süre",
+              "yöntem-strateji",
+              "iletişim engellerini giderme"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        }
+      ],
       "pedagogical_intent": "Tiyatro metnini yeniden kurgulayıp canlandırırken kaynak metnin çekirdeğini, yeni dramatik tercihi ve sözlü-sözsüz sahne iletişimini birlikte yönet. Ben, Mimar Sinan’dan seçilen bölümü hedef kitle, amaç, rol ve iletişim engellerine göre canlandırmaya hazırlamak.",
       "teacher_moves": [
         "Cevabın yanına kısa metin, görsel veya dinleme kanıtı istemeyi varsayılan sınıf rutini hâline getir.",
@@ -796,6 +2550,46 @@
       ],
       "book_task_summaries": [
         "Canlandırma uygulama ölçütleri [PERFORMANCE_TASK]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T4_G03_P282_CANLANDIRMA",
+          "printed_page_range": "282",
+          "item_type": "PERFORMANCE_TASK",
+          "acceptance_criteria": [
+            "Rol tutarlılığını korur.",
+            "Sözlü ve sözsüz iletişimi birlikte kullanır.",
+            "Doğaçlama ana bağlamı bozmaz.",
+            "Türkçeyi anlaşılır ve bağlama uygun kullanır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.282 / PDF s.283"
+          ],
+          "task_id": "T4_G03_P282_CANLANDIRMA",
+          "label": "Canlandırma uygulama ölçütleri",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Canlandırma uygulama ölçütleri",
+          "expected_answer": [
+            "karakter ilişkilerini çözümleme",
+            "uygun jest ve mimik",
+            "gerektiğinde bağlama uygun doğaçlama",
+            "rolün söz varlığını koruma",
+            "beden dili-diksiyon-telaffuz",
+            "zaman ve mekânı işlevsel kullanma",
+            "duygu/karakter tutarlılığı",
+            "olumlu değerler ve toplumsal hassasiyet"
+          ],
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Tiyatro metnini yeniden kurgulayıp canlandırırken kaynak metnin çekirdeğini, yeni dramatik tercihi ve sözlü-sözsüz sahne iletişimini birlikte yönet. Karakter ilişkisi, jest-mimik, doğaçlama, beden, diksiyon, görsel-işitsel ögeler ve geri bildirimle canlandırmayı gerçekleştirmek.",
       "teacher_moves": [
@@ -855,6 +2649,70 @@
       "book_task_summaries": [
         "Dereceli puanlama anahtarı — görünür ölçütler ve dış QR sınırı [ASSESSMENT]",
         "Yansıtma yazısı, rol arkadaşı geribildirimi ve konuşmacı kimliği [ASSESSMENT]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T4_G03_P283_RUBRIK",
+          "printed_page_range": "283",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "PDF’de açıkça görünen ölçütleri kullanır.",
+            "QR içindeki görünmeyen düzey tanımlarını uydurmaz."
+          ],
+          "canonical_teacher_guidance": [
+            "Tam ölçüt×düzey matrisi yerel PDF’ye gömülü değildir; dış kaynak elde edilene kadar bu madde REVIEW_REQUIRED kalır."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.283 / PDF s.284"
+          ],
+          "task_id": "T4_G03_P283_RUBRIK",
+          "label": "Dereceli puanlama anahtarı — görünür ölçütler ve dış QR sınırı",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Dereceli puanlama anahtarı — görünür ölçütler ve dış QR sınırı",
+          "expected_answer": [
+            "kurgulanan içeriğe uygunluk",
+            "özgünlük",
+            "sözü ve beden dilini etkili kullanma",
+            "grupla uyum içinde çalışma"
+          ],
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G03_P283_YANSITMA",
+          "printed_page_range": "283",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "Öz değerlendirme somut performans kanıtına dayanır.",
+            "Akran geribildirimini aynen kabul etmek yerine gerekçeli biçimde değerlendirir.",
+            "Yeni hedef belirler."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.283 / PDF s.284"
+          ],
+          "task_id": "T4_G03_P283_YANSITMA",
+          "label": "Yansıtma yazısı, rol arkadaşı geribildirimi ve konuşmacı kimliği",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Yansıtma yazısı, rol arkadaşı geribildirimi ve konuşmacı kimliği",
+          "expected_answer": "Öğrenci rolde yaşadığı duygu/düşünceyi, güçlü ve geliştirilmesi gereken yönlerini, akran geribildiriminden öğrendiklerini ve bir sonraki canlandırmada değiştireceği davranışı somutlaştırmalıdır.",
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Tiyatro metnini yeniden kurgulayıp canlandırırken kaynak metnin çekirdeğini, yeni dramatik tercihi ve sözlü-sözsüz sahne iletişimini birlikte yönet. Görünür kitap ölçütleriyle performansı değerlendirmek, dış QR rubriğinin sınırını korumak ve yansıtma yapmak.",
       "teacher_moves": [
@@ -916,6 +2774,94 @@
         "Hayat ve edebiyat ilişkisi [QUESTION]",
         "Fedakârlık belgeseli — amaç, tahmin, engel, strateji [PROCESS]",
         "Tema kelimeleri ve belgesel iletilerini not etme [PROCESS]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T4_G04_P284_HAYAT_EDEBIYAT",
+          "printed_page_range": "284",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Bireysel yaratım ile toplumsal bağın ikisini de açıklar.",
+            "‘Ayna’ benzetmesini birebir kopya olarak yorumlamaz."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.284 / PDF s.285"
+          ],
+          "task_id": "T4_G04_P284_HAYAT_EDEBIYAT",
+          "label": "Hayat ve edebiyat ilişkisi",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Hayat ve edebiyat ilişkisi",
+          "expected_answer": "Edebî eser bireysel yaratım olsa da yazarın yaşadığı zaman, çevre ve toplumsal koşullarla ilişkilidir; hayatı birebir kopyalamaz, seçer ve dönüştürür. Okur da kendi deneyimleriyle bu ilişkiyi yeniden kurar.",
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G04_P285_DINLEME_PLANI",
+          "printed_page_range": "285",
+          "item_type": "PROCESS",
+          "acceptance_criteria": [
+            "Tahminini görünen ön ipucuna dayandırır.",
+            "İletişim engeli için somut önlem önerir.",
+            "Stratejiyi amaca bağlar."
+          ],
+          "canonical_teacher_guidance": [
+            "Video ve jenerik QR içeriği yerel PDF’de gömülü değildir; video izlenmeden içerik sonucu üretme."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.285 / PDF s.286"
+          ],
+          "task_id": "T4_G04_P285_DINLEME_PLANI",
+          "label": "Fedakârlık belgeseli — amaç, tahmin, engel, strateji",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Fedakârlık belgeseli — amaç, tahmin, engel, strateji",
+          "expected_answer": "Başlık/görsel/jenerikten içerik tahmini yapılır; amaç belirlenir; ses/görüntü/ortam kaynaklı iletişim engelleri azaltılır; not alma, anahtar kelime veya seçici dinleme gibi amaca uygun strateji seçilir.",
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G04_P286_NOT_ILETI",
+          "printed_page_range": "286",
+          "item_type": "PROCESS",
+          "acceptance_criteria": [
+            "Notlar gerçekten izlenen içerikten alınır.",
+            "Ana/yardımcı ileti ayrımı için kanıt kaydedilir."
+          ],
+          "canonical_teacher_guidance": [
+            "Yerel PDF yalnız görevi verir; video olmadan örnek olay, kişi veya iletiyi canonical cevap gibi yazma."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.286 / PDF s.287"
+          ],
+          "task_id": "T4_G04_P286_NOT_ILETI",
+          "label": "Tema kelimeleri ve belgesel iletilerini not etme",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Tema kelimeleri ve belgesel iletilerini not etme",
+          "expected_answer": null,
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Anadolu İnsanı / Fedakârlık dinleme-izleme çalışmalarında görüntü, ses, anlatıcı, kişi, olay ve değer temsilini kanıta dayalı çok modlu okuma ile çözümlet. Edebiyat-toplum ilişkisini hatırlayıp belgeseli amaç, tahmin, strateji ve dinleme kurallarıyla izlemeye hazırlamak.",
       "teacher_moves": [
@@ -979,6 +2925,103 @@
         "Belgesel söz varlığı [VOCABULARY]",
         "Anadolu insanı, konu-tema-ana düşünce ve kişi çıkarımı [QUESTION]",
         "Belgesel kurgusu, öznel-nesnel ifadeler ve ileti güvenilirliği [ASSESSMENT]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T4_G04_P287_SOZ_VARLIGI",
+          "printed_page_range": "287",
+          "item_type": "VOCABULARY",
+          "acceptance_criteria": [
+            "Önce bağlam tahmini yapar.",
+            "Sözlük doğrulamasından sonra bağlama uygun anlamı seçer."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.287 / PDF s.288"
+          ],
+          "task_id": "T4_G04_P287_SOZ_VARLIGI",
+          "label": "Belgesel söz varlığı",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Belgesel söz varlığı",
+          "expected_answer": {
+            "fedakârlık": "bir amaç/başkası için kendi çıkar veya rahatlığından vazgeçme",
+            "hemzemin_gecit": "kara yolu ile demir yolunun aynı seviyede kesiştiği geçit",
+            "mesai": "çalışma süresi/iş için ayrılan zaman",
+            "aksaklık": "işleyişi bozan gecikme veya düzensizlik",
+            "tahammül": "dayanma, katlanma"
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G04_P287_289_VIDEO_ANLAM",
+          "printed_page_range": "287-289",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Anadolu insanına ilişkin çıkarım videodaki davranış/olay kanıtına dayanır.",
+            "Konu, tema ve ana düşünce birbirinden ayrılır.",
+            "Kişinin duygu/düşüncesi davranış kanıtıyla gerekçelendirilir.",
+            "Ön tahmin ile son tespit karşılaştırılır."
+          ],
+          "canonical_teacher_guidance": [
+            "Dış videoyu izlemeden kişiye, olaya veya ana düşünceye dair kesin cevap üretme."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.287-289 / PDF s.288-290"
+          ],
+          "task_id": "T4_G04_P287_289_VIDEO_ANLAM",
+          "label": "Anadolu insanı, konu-tema-ana düşünce ve kişi çıkarımı",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Anadolu insanı, konu-tema-ana düşünce ve kişi çıkarımı",
+          "expected_answer": null,
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G04_P289_291_BELGESEL_GUVEN",
+          "printed_page_range": "289-291",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "Belgesel türü değerlendirmesinde gerçeklik iddiası ile seçme/kurgu ayrımını gözetir.",
+            "Öznel ve nesnel ifadeyi kanıtlanabilirlik ölçütüyle ayırır.",
+            "Açık/örtük iletiyi videodan örnekle destekler.",
+            "Güvenilirlik sorgusunda kaynak, kanıt, bağlam ve anlatım tercihlerine değinir."
+          ],
+          "canonical_teacher_guidance": [
+            "Balık kılçığı ve ileti tablolarını yalnız izlenen videodan doldurt."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.289-291 / PDF s.290-292"
+          ],
+          "task_id": "T4_G04_P289_291_BELGESEL_GUVEN",
+          "label": "Belgesel kurgusu, öznel-nesnel ifadeler ve ileti güvenilirliği",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Belgesel kurgusu, öznel-nesnel ifadeler ve ileti güvenilirliği",
+          "expected_answer": null,
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Anadolu İnsanı / Fedakârlık dinleme-izleme çalışmalarında görüntü, ses, anlatıcı, kişi, olay ve değer temsilini kanıta dayalı çok modlu okuma ile çözümlet. Video içeriğinden söz varlığı, konu/tema, kişi çıkarımı, öznel-nesnel ifade ve açık/örtük ileti üretmek.",
       "teacher_moves": [
@@ -1047,6 +3090,161 @@
         "Ses ve görüntünün çok modlu metne katkısı [QUESTION]",
         "Değerler ve sosyoloji-psikoloji-coğrafya ilişkisi [QUESTION]"
       ],
+      "task_cards": [
+        {
+          "source_item_ref": "T4_G04_P292_IKLIM",
+          "printed_page_range": "292",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "En az üç uygulanabilir bireysel davranış verir.",
+            "Bireysel davranışları tek başına yeterli çözüm gibi sunmaz; toplumsal/kurumsal boyutla ilişkilendirebilir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.292 / PDF s.293"
+          ],
+          "task_id": "T4_G04_P292_IKLIM",
+          "label": "İklim değişikliği — bireysel sorumluluk",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "İklim değişikliği — bireysel sorumluluk",
+          "expected_answer": [
+            "enerji ve kaynak tüketimini azaltma",
+            "israfı önleme",
+            "düşük karbonlu ulaşımı tercih etme",
+            "atığı azaltma/yeniden kullanım/geri dönüşüm",
+            "su tasarrufu",
+            "doğru bilgi ve toplumsal farkındalığa katkı"
+          ],
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G04_P293_CALISKANLIK",
+          "printed_page_range": "293",
+          "item_type": "TABLE",
+          "acceptance_criteria": [
+            "Her iki videonun ana düşüncesini izlenen içeriğe göre belirler.",
+            "Dil/üslup, ileti, tür ve içerik ölçütlerinde benzerlik/farklılık verir."
+          ],
+          "canonical_teacher_guidance": [
+            "Çalışkanlık videosu da dış QR’dadır; video erişimi yoksa karşılaştırmayı tamamlandı sayma."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.293 / PDF s.294"
+          ],
+          "task_id": "T4_G04_P293_CALISKANLIK",
+          "label": "Fedakârlık — Çalışkanlık belgesellerini karşılaştırma",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Fedakârlık — Çalışkanlık belgesellerini karşılaştırma",
+          "expected_answer": null,
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G04_P294_295_YAPI_DIL",
+          "printed_page_range": "294-295",
+          "item_type": "TABLE",
+          "acceptance_criteria": [
+            "Ses, görsel, ışık, mekân ve zaman unsurlarını videodan belirler.",
+            "Unsurlar arası en az iki ilişkiyi içerikle açıklar.",
+            "Dil/anlatım ile ileti arasındaki bağı gerekçelendirir.",
+            "Kişi, amaç, dönem ve toplum çıkarımını video kanıtıyla destekler."
+          ],
+          "canonical_teacher_guidance": [
+            "Yerel PDF yapısal soruları sağlar; somut cevapların doğrulanması video izlemeyi gerektirir."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.294-295 / PDF s.295-296"
+          ],
+          "task_id": "T4_G04_P294_295_YAPI_DIL",
+          "label": "Yapı unsurları, dil ve dönem/toplum ilişkisi",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Yapı unsurları, dil ve dönem/toplum ilişkisi",
+          "expected_answer": null,
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G04_P295_296_SES_GORUNTU",
+          "printed_page_range": "295-296",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Ses/görüntünün en az iki işlevini açıklar.",
+            "Kitaptaki ses kuşağı metninden genel ilkeyi kullanır.",
+            "Fedakârlık videosuna dair somut örneği ancak video izlendiyse verir."
+          ],
+          "canonical_teacher_guidance": [
+            "Genel cevap PDF’deki akademik parçadan çıkarılabilir; video-özel örnek dış kaynağa bağlıdır."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.295-296 / PDF s.296-297"
+          ],
+          "task_id": "T4_G04_P295_296_SES_GORUNTU",
+          "label": "Ses ve görüntünün çok modlu metne katkısı",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Ses ve görüntünün çok modlu metne katkısı",
+          "expected_answer": "Ses ve görüntü birbirini yalnız tekrar etmemeli; bağlam, atmosfer, vurgu, duygu ve bilgi katmanları üreterek anlamı genişletebilir. Bir unsur kaldırıldığında bilgi, atmosfer veya yorum katmanının ne ölçüde azaldığı karşılaştırılmalıdır.",
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G04_P296_DEGER_DISIPLIN",
+          "printed_page_range": "296",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Millî/manevî/evrensel değerleri videodan kanıtla belirler.",
+            "Sosyoloji, psikoloji ve coğrafya için ayrı gerekçe verir."
+          ],
+          "canonical_teacher_guidance": [
+            "Değer veya disiplin örneğini videoyu görmeden varsayma; öğrencinin izlenen sahne/olayla bağ kurmasını iste."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.296 / PDF s.297"
+          ],
+          "task_id": "T4_G04_P296_DEGER_DISIPLIN",
+          "label": "Değerler ve sosyoloji-psikoloji-coğrafya ilişkisi",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Değerler ve sosyoloji-psikoloji-coğrafya ilişkisi",
+          "expected_answer": null,
+          "expected_response": null,
+          "split_from_group": false
+        }
+      ],
       "pedagogical_intent": "Anadolu İnsanı / Fedakârlık dinleme-izleme çalışmalarında görüntü, ses, anlatıcı, kişi, olay ve değer temsilini kanıta dayalı çok modlu okuma ile çözümlet. Fedakârlık belgeselini yapı ve çok modluluk açısından çözümlemek; metinler arası/disciplinler arası bağ kurmak.",
       "teacher_moves": [
         "Kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.",
@@ -1107,6 +3305,71 @@
       "book_task_summaries": [
         "Belgeselin kattığı değer ve davranışları değerlendirme [ASSESSMENT]",
         "Etkin dinleyici öğrenme günlüğü [ASSESSMENT]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T4_G04_P297_DEGERLENDIRME",
+          "printed_page_range": "297",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "Beğeni/değer yargısını somut video unsuruyla gerekçelendirir.",
+            "Kendi hayatıyla en az bir gerçekçi bağlantı kurar."
+          ],
+          "canonical_teacher_guidance": [
+            "Öğrenci öznel değerlendirmesini ‘doğru cevap’ kalıbına sokma; gerekçe ve kanıtı değerlendir."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.297 / PDF s.298"
+          ],
+          "task_id": "T4_G04_P297_DEGERLENDIRME",
+          "label": "Belgeselin kattığı değer ve davranışları değerlendirme",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Belgeselin kattığı değer ve davranışları değerlendirme",
+          "expected_answer": null,
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G04_P297_GUNLUK",
+          "printed_page_range": "297",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "Her alanı kişisel ve somut örnekle doldurur.",
+            "Bir sonraki dinleme/izleme için davranış hedefi belirler."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.297 / PDF s.298"
+          ],
+          "task_id": "T4_G04_P297_GUNLUK",
+          "label": "Etkin dinleyici öğrenme günlüğü",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Etkin dinleyici öğrenme günlüğü",
+          "expected_answer": {
+            "alanlar": [
+              "belgeselin kattığı değerler",
+              "uygulanabilir davranışlar",
+              "kendi hayatını yansıtan yaşantılar",
+              "daha etkin izleyici için dikkat edilecek hususlar"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Anadolu İnsanı / Fedakârlık dinleme-izleme çalışmalarında görüntü, ses, anlatıcı, kişi, olay ve değer temsilini kanıta dayalı çok modlu okuma ile çözümlet. Belgeseli kişisel beğeni, hayat bağlantısı ve dinleme davranışı açısından değerlendirmek.",
       "teacher_moves": [
@@ -1171,6 +3434,119 @@
         "Afişin dikkat çekme ve etkileme gücü [QUESTION]",
         "Afiş hazırlama performans görevi — amaç ve strateji [PERFORMANCE_TASK]"
       ],
+      "task_cards": [
+        {
+          "source_item_ref": "T4_G05_P298_AFIS_OLCUT",
+          "printed_page_range": "298",
+          "item_type": "REFERENCE",
+          "acceptance_criteria": [
+            "Dört ana kriteri ayırt eder.",
+            "Tasarım kararını iletişim işleviyle ilişkilendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.298 / PDF s.299"
+          ],
+          "task_id": "T4_G05_P298_AFIS_OLCUT",
+          "label": "Afiş tasarımında temel ölçütler",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Afiş tasarımında temel ölçütler",
+          "expected_answer": {
+            "mesaj": "açık ve hızlı anlaşılır ana ileti",
+            "mesaj_imge": "görsel ile sözel iletinin birbirini desteklemesi",
+            "sozel_hiyerarsi": "başlık/alt başlık/slogan önem sırası",
+            "fark_edilirlik": "yaratıcı ve dikkat çekici düzen",
+            "uygulama": [
+              "az sayıda güçlü imge",
+              "kısa sözel içerik",
+              "okunaklı yazı",
+              "güçlü kontrast",
+              "görsel-söz arasında işlevsel ilişki"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G05_P299_AFIS_HAZIRLIK",
+          "printed_page_range": "299",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Dikkat ile iletiyi ayırır.",
+            "Etkileme gücünü mutlaklaştırmaz; hedef kitle/bağlamla ilişkilendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.299 / PDF s.300"
+          ],
+          "task_id": "T4_G05_P299_AFIS_HAZIRLIK",
+          "label": "Afişin dikkat çekme ve etkileme gücü",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Afişin dikkat çekme ve etkileme gücü",
+          "expected_answer": {
+            "dikkat": [
+              "görsel odak",
+              "kontrast",
+              "başlık/slogan",
+              "yerleşim"
+            ],
+            "etki": "Kısa sürede dikkat çekip bir iletiyi hatırlanabilir kılabilir; etki hedef kitle, bağlam, doğruluk ve tasarım bütünlüğüne bağlıdır.",
+            "eklenebilecek_unsurlar": [
+              "başlık",
+              "slogan",
+              "görsel/illüstrasyon/fotoğraf",
+              "gerekli kısa bilgi",
+              "kaynak/telif bilgisi gerektiğinde"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G05_P299_PERFORMANS",
+          "printed_page_range": "299",
+          "item_type": "PERFORMANCE_TASK",
+          "acceptance_criteria": [
+            "Afişin amacı ve hedef kitlesi bellidir.",
+            "Belgeselden aktarılacak ileti belirlenmiştir.",
+            "Strateji ile afiş özellikleri uyumludur."
+          ],
+          "canonical_teacher_guidance": [
+            "Belgesel içeriğini doğrulamak için dış videonun gerçekten izlenmiş olması gerekir."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.299 / PDF s.300"
+          ],
+          "task_id": "T4_G05_P299_PERFORMANS",
+          "label": "Afiş hazırlama performans görevi — amaç ve strateji",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Afiş hazırlama performans görevi — amaç ve strateji",
+          "expected_answer": "Amaç, Fedakârlık belgeselinin seçilmiş bir iletisini hedef kitleye özgün ve anlaşılır bir afişle aktarmaktır. Öğrenci afiş özelliklerini belirler, uygun yazma/tasarım stratejisi seçer ve sınıf dışı hazırlığını planlar.",
+          "expected_response": null,
+          "split_from_group": false
+        }
+      ],
       "pedagogical_intent": "Afiş görevini süsleme etkinliği değil hedef kitle, ana mesaj, görsel hiyerarşi, kısa dil ve etik kaynak kullanımının birleştiği çok modlu yazma görevi olarak yürüt. Afişin iletişim işlevini, tasarım ölçütlerini, hedefi ve yazma stratejisini belirlemek.",
       "teacher_moves": [
         "Göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir.",
@@ -1229,6 +3605,45 @@
       ],
       "book_task_summaries": [
         "Renk, yazı, görsel ve ileti seçimi [PERFORMANCE_TASK]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T4_G05_P300_TASARIM_KARAR",
+          "printed_page_range": "300",
+          "item_type": "PERFORMANCE_TASK",
+          "acceptance_criteria": [
+            "Seçilen her görsel/renk/yazı kararını iletiyle gerekçelendirir.",
+            "Afişi bilgi kalabalığına dönüştürmez."
+          ],
+          "canonical_teacher_guidance": [
+            "‘Afiş Hazırlama Basamakları’ videosu dış QR’dadır; PDF’deki görünür tasarım ölçütleri tek başına uygulanabilir."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.300 / PDF s.301"
+          ],
+          "task_id": "T4_G05_P300_TASARIM_KARAR",
+          "label": "Renk, yazı, görsel ve ileti seçimi",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Renk, yazı, görsel ve ileti seçimi",
+          "expected_answer": {
+            "beklenen": [
+              "öne çıkarılacak tek/ana ileti",
+              "iletiyi destekleyen az sayıda görsel",
+              "okunaklı tipografi",
+              "hedef kitleye uygun renk/kontrast",
+              "mesaj-imge bütünlüğü"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Afiş görevini süsleme etkinliği değil hedef kitle, ana mesaj, görsel hiyerarşi, kısa dil ve etik kaynak kullanımının birleştiği çok modlu yazma görevi olarak yürüt. Renk, yazı, görsel ve seçilen belgesel iletisini tek bir iletişim sistemi içinde planlamak.",
       "teacher_moves": [
@@ -1290,6 +3705,75 @@
       "book_task_summaries": [
         "Afiş oluşturma kuralları [PERFORMANCE_TASK]",
         "Görsel ve bilgi kaynağı seçimi [TEACHER_NOTE]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T4_G05_P301_AFIS_UYGULAMA",
+          "printed_page_range": "301",
+          "item_type": "PERFORMANCE_TASK",
+          "acceptance_criteria": [
+            "İleti açık ve tasarımla tutarlıdır.",
+            "Dil hataları anlamı bozmaz.",
+            "Görsel-söz ilişkisi açıklayıcı/destekleyicidir.",
+            "Geri bildirim sonrası en az bir bilinçli revizyon yapılır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.301 / PDF s.302"
+          ],
+          "task_id": "T4_G05_P301_AFIS_UYGULAMA",
+          "label": "Afiş oluşturma kuralları",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Afiş oluşturma kuralları",
+          "expected_answer": [
+            "plana bağlılık",
+            "iletinin dikkat çekici ifadesi",
+            "Türkçenin dil yapısı/yazım/noktalama",
+            "özgün duygu ve düşünce",
+            "ifade-ileti tutarlılığı",
+            "hedef kitleye uygun söz varlığı/üslup",
+            "toplumsal hassasiyet",
+            "millî-manevî/kültürel unsurlarda özen"
+          ],
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G05_P301_TELIF_ON_HAZIRLIK",
+          "printed_page_range": "301",
+          "item_type": "TEACHER_NOTE",
+          "acceptance_criteria": [
+            "Kaynağı belirsiz içeriği otomatik kullanmaz.",
+            "Alıntı ile kendi üretimini ayırt eder."
+          ],
+          "canonical_teacher_guidance": [
+            "Telif değerlendirmesini yalnız son sayfada kontrol edilen bir formalite olmaktan çıkar; kaynak seçimi aşamasında hatırlat."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.301 / PDF s.302"
+          ],
+          "task_id": "T4_G05_P301_TELIF_ON_HAZIRLIK",
+          "label": "Görsel ve bilgi kaynağı seçimi",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Görsel ve bilgi kaynağı seçimi",
+          "expected_answer": "Kullanılan görsel/alinti için kaynak ve kullanım hakkı kontrolü, tasarımın dürüstlük ve hakkaniyet ilkelerine uygunluğu daha üretim aşamasında izlenmelidir.",
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Afiş görevini süsleme etkinliği değil hedef kitle, ana mesaj, görsel hiyerarşi, kısa dil ve etik kaynak kullanımının birleştiği çok modlu yazma görevi olarak yürüt. Taslağı geri bildirimle geliştirip Türkçe, tutarlılık, özgünlük, hedef kitle ve toplumsal hassasiyet kurallarıyla afişi tamamlamak.",
       "teacher_moves": [
@@ -1354,6 +3838,113 @@
         "Dereceli puanlama anahtarı — görünür ölçütler ve QR sınırı [ASSESSMENT]",
         "Tema sonu öğrenme günlüğü [ASSESSMENT]"
       ],
+      "task_cards": [
+        {
+          "source_item_ref": "T4_G05_P302_AFIS_OZDEGER",
+          "printed_page_range": "302",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "En az bir güçlü ve bir geliştirilecek yön belirler.",
+            "Telif ve kaynak kullanımını açıkça kontrol eder."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.302 / PDF s.303"
+          ],
+          "task_id": "T4_G05_P302_AFIS_OZDEGER",
+          "label": "Afiş öz değerlendirmesi ve paylaşım",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Afiş öz değerlendirmesi ve paylaşım",
+          "expected_answer": {
+            "boyutlar": [
+              "süreçteki duygu-düşünce-davranış değişimi",
+              "içerik",
+              "dil ve anlatım",
+              "görsel/alinti telif-hakkaniyet-dürüstlük",
+              "uygun resmî paylaşım ortamı"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G05_P302_RUBRIK",
+          "printed_page_range": "302",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "PDF’de görünen ölçütleri kullanır.",
+            "QR içindeki görünmeyen düzey tanımlarını uydurmaz."
+          ],
+          "canonical_teacher_guidance": [
+            "Tam ölçüt×düzey matrisi dış QR kaynağındadır; yerel PDF’den çıkarılamaz."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.302 / PDF s.303"
+          ],
+          "task_id": "T4_G05_P302_RUBRIK",
+          "label": "Dereceli puanlama anahtarı — görünür ölçütler ve QR sınırı",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Dereceli puanlama anahtarı — görünür ölçütler ve QR sınırı",
+          "expected_answer": [
+            "konuya uygunluk",
+            "yaratıcılık",
+            "özgünlük",
+            "etkileyicilik",
+            "görsel/işitsel ögelerin seçimi"
+          ],
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G05_P302_TEMA_GUNLUK",
+          "printed_page_range": "302",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "Önce-sonra değişimini somutlaştırır.",
+            "Gelecekteki konuşma/yazma için en az bir hedef çıkarır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.302 / PDF s.303"
+          ],
+          "task_id": "T4_G05_P302_TEMA_GUNLUK",
+          "label": "Tema sonu öğrenme günlüğü",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Tema sonu öğrenme günlüğü",
+          "expected_answer": {
+            "alanlar": [
+              "tema öncesi bildiklerim",
+              "tema sonunda öğrendiklerim",
+              "hayatın duygu-düşünce-davranışa yansıması",
+              "kelime/anlatım/dil farkındalığı",
+              "konuşmacı ve yazar kimliğine etkisi"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        }
+      ],
       "pedagogical_intent": "Afiş görevini süsleme etkinliği değil hedef kitle, ana mesaj, görsel hiyerarşi, kısa dil ve etik kaynak kullanımının birleştiği çok modlu yazma görevi olarak yürüt. Ürünü içerik/dil/telif yönünden değerlendirmek; dış QR rubriğinin sınırını koruyup tema sonu öğrenme günlüğüyle hedef belirlemek.",
       "teacher_moves": [
         "Öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.",
@@ -1415,7 +4006,127 @@
       "book_task_summaries": [
         "Soru 1 — Doğu/Batı sentezi ve modern Türk tiyatrosu [QUESTION]",
         "Sorular 2-3 — metinler arası ilişki ve küçürek hikâye [ASSESSMENT]",
-        "Sorular 4-5 — duygu ve afiş görseli [QUESTION]"
+        "Sorular 4-5 — duygu ve afiş görseli — Soru 4 [QUESTION]",
+        "Sorular 4-5 — duygu ve afiş görseli — Soru 5 [QUESTION]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T4_G06_P303_Q1",
+          "printed_page_range": "303",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "I. metindeki genel yargıyla tiyatro parçası/II. metin arasında bağ kurar.",
+            "En az iki geleneksel ve bir modern özellik belirtir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.303 / PDF s.304"
+          ],
+          "task_id": "T4_G06_P303_Q1",
+          "label": "Soru 1 — Doğu/Batı sentezi ve modern Türk tiyatrosu",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Soru 1 — Doğu/Batı sentezi ve modern Türk tiyatrosu",
+          "expected_answer": "Parçada; Batı tiyatrosunun modern yazarlık/sahneleme teknikleri ile Meddah, Karagöz ve Ortaoyunu gibi geleneksel biçimlerin bir araya gelmesi; tipleme, söz oyunları, anlatıcı, şarkı/dans ve göstermeci sahneleme gibi Doğulu/geleneksel ögelerin modern yapı içinde kullanılması örneklenebilir.",
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G06_P304_Q2_3",
+          "printed_page_range": "304",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "Soru 2’de II. metnin I. metindeki durumun somut sonucu/örneklenişi olduğunu fark eder.",
+            "Soru 3’te metnin televizyonu ‘en önemli sebeplerden biri’ diye kesinleştirmediğini ayırt eder."
+          ],
+          "canonical_teacher_guidance": [
+            "Q2 için seçeneklerin PDF yerleşiminde iki sütunlu çıkarım sırası metin çıkarımında karışabilir; cevap anahtarı I-II metin anlam ilişkisine göre A olarak kurulmuştur."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.304 / PDF s.305"
+          ],
+          "task_id": "T4_G06_P304_Q2_3",
+          "label": "Sorular 2-3 — metinler arası ilişki ve küçürek hikâye",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Sorular 2-3 — metinler arası ilişki ve küçürek hikâye",
+          "expected_answer": {
+            "2": "A",
+            "3": "E"
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G06_P304_305_Q4_5",
+          "printed_page_range": "304-305",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Q4’te duygu seçimini metindeki en az bir ayrıntıyla gerekçelendirir.",
+            "Q5’te seçilen görsel ile metnin iletisi arasında açık ilişki kurar."
+          ],
+          "canonical_teacher_guidance": [
+            "Q5 görsel seçenekleri metin çıkarımında güvenilir biçimde temsil edilmediği için tek görsel anahtarı üretme; öğrencinin seçimini gerekçe üzerinden değerlendir."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.304-305 / PDF s.305-306"
+          ],
+          "task_id": "T4_G06_P304_305_Q4_5#Q4",
+          "label": "Sorular 4-5 — duygu ve afiş görseli — Soru 4",
+          "question_number": "4",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.304-305 — 4. soru",
+          "expected_answer": "Sevgi, umut, güven, merhamet, dayanışma gibi metindeki erdem/kardeşlik/çocukluk atmosferiyle gerekçelendirilebilen duygular kabul edilir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T4_G06_P304_305_Q4_5",
+          "printed_page_range": "304-305",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Q4’te duygu seçimini metindeki en az bir ayrıntıyla gerekçelendirir.",
+            "Q5’te seçilen görsel ile metnin iletisi arasında açık ilişki kurar."
+          ],
+          "canonical_teacher_guidance": [
+            "Q5 görsel seçenekleri metin çıkarımında güvenilir biçimde temsil edilmediği için tek görsel anahtarı üretme; öğrencinin seçimini gerekçe üzerinden değerlendir."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.304-305 / PDF s.305-306"
+          ],
+          "task_id": "T4_G06_P304_305_Q4_5#Q5",
+          "label": "Sorular 4-5 — duygu ve afiş görseli — Soru 5",
+          "question_number": "5",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.304-305 — 5. soru",
+          "expected_answer": null,
+          "expected_response": null,
+          "split_from_group": true
+        }
       ],
       "pedagogical_intent": "Tema sonu sorularında tiyatro, küçürek hikâye, çok modlu belgesel ve afiş kazanımlarını yalnız terim ezberiyle değil işlev, kanıt ve tür farklarıyla değerlendir. Modern Türk tiyatrosu, küçürek hikâye ve afiş/duygu aktarımını ölçmek.",
       "teacher_moves": [
@@ -1474,11 +4185,182 @@
         "T4_G06_P307_Q13_14"
       ],
       "book_task_summaries": [
-        "Sorular 6-7 — kostüm ve sözsüz iletişim [QUESTION]",
+        "Sorular 6-7 — kostüm ve sözsüz iletişim — Soru 6 [QUESTION]",
+        "Sorular 6-7 — kostüm ve sözsüz iletişim — Soru 7 [QUESTION]",
         "Soru 8 — tiyatro terimleri [ASSESSMENT]",
         "Sorular 9-11 — belgesel, teknoloji ve toplumsal bellek [ASSESSMENT]",
         "Soru 12 — teknolojik gelişmeler belgeselin etkisini güçlendirdi mi? [QUESTION]",
         "Sorular 13-14 — Anadolu İnsanı / Aidiyet [ASSESSMENT]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T4_G06_P305_306_Q6_7",
+          "printed_page_range": "305-306",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Kostüm önerisini karakter/sahne kanıtıyla gerekçelendirir.",
+            "Sözsüz iletişimin en az iki işlevini açıklar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.305-306 / PDF s.306-307"
+          ],
+          "task_id": "T4_G06_P305_306_Q6_7#Q6",
+          "label": "Sorular 6-7 — kostüm ve sözsüz iletişim — Soru 6",
+          "question_number": "6",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.305-306 — 6. soru",
+          "expected_answer": "Kostüm; karakterin yaş, toplumsal konum, dönem, ekonomik durum ve kişilik özellikleriyle tutarlı olmalı; sahne dekoruyla işlevsel bütünlük kurmalıdır.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T4_G06_P305_306_Q6_7",
+          "printed_page_range": "305-306",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Kostüm önerisini karakter/sahne kanıtıyla gerekçelendirir.",
+            "Sözsüz iletişimin en az iki işlevini açıklar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.305-306 / PDF s.306-307"
+          ],
+          "task_id": "T4_G06_P305_306_Q6_7#Q7",
+          "label": "Sorular 6-7 — kostüm ve sözsüz iletişim — Soru 7",
+          "question_number": "7",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.305-306 — 7. soru",
+          "expected_answer": "Bakış, beden yönelimi, hareket, mesafe ve tekrar eden davranışlar konuşma olmadan gerilim, duygu ve ilişkiyi gösterebilir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T4_G06_P306_Q8",
+          "printed_page_range": "306",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "Verilen kesitlerde dekor, jest/hareket ve çatışma iması görülebilir; açık diyalog ve monolog örneği kesin olarak çıkarılamadığı için II ve III seçilir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.306 / PDF s.307"
+          ],
+          "task_id": "T4_G06_P306_Q8",
+          "label": "Soru 8 — tiyatro terimleri",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Soru 8 — tiyatro terimleri",
+          "expected_answer": "B",
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G06_P306_307_Q9_11",
+          "printed_page_range": "306-307",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "Q9’da metinde sayılan teknolojik dönüşümlerle desteklenmeyen seçeneği ayırır.",
+            "Q10’da toplumsal belleği arşivin koruma işleviyle ilişkilendirir.",
+            "Q11’de tablo oranlarının izleme mecralarının teknolojiyle değiştiğini gösterdiğini okur."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.306-307 / PDF s.307-308"
+          ],
+          "task_id": "T4_G06_P306_307_Q9_11",
+          "label": "Sorular 9-11 — belgesel, teknoloji ve toplumsal bellek",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Sorular 9-11 — belgesel, teknoloji ve toplumsal bellek",
+          "expected_answer": {
+            "9": "A",
+            "10": "B",
+            "11": "B"
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G06_P307_Q12",
+          "printed_page_range": "307",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "En az iki gerekçe sunar.",
+            "Gerekçeler teknoloji-belgesel ilişkisiyle doğrudan bağlantılıdır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.307 / PDF s.308"
+          ],
+          "task_id": "T4_G06_P307_Q12",
+          "label": "Soru 12 — teknolojik gelişmeler belgeselin etkisini güçlendirdi mi?",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Soru 12 — teknolojik gelişmeler belgeselin etkisini güçlendirdi mi?",
+          "expected_answer": "Her iki yönde de gerekçeli cevap kabul edilebilir. Güçlendirdi görüşü; erişim, dağıtım, ses/görüntü kalitesi ve kurgu imkânlarına; zayıflattı/karma görüşü ise dikkat dağınıklığı, platform kalabalığı, manipülasyon veya güvenilirlik sorunlarına dayandırılabilir.",
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T4_G06_P307_Q13_14",
+          "printed_page_range": "307",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "Q13’te belirgin özellikleri Aidiyet videosundaki davranış/olay kanıtına dayandırır.",
+            "Q14’te aidiyetin yer, ilişki, hatıra, kültür, emek, güven veya toplumsal bağ gibi boyutlarını videodan örnekle açıklar."
+          ],
+          "canonical_teacher_guidance": [
+            "Aidiyet videosu dış QR içeriğidir. Yerel PDF yalnız soruları verir; videoyu görmeden canonical kişi/olay cevabı üretme."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.307 / PDF s.308"
+          ],
+          "task_id": "T4_G06_P307_Q13_14",
+          "label": "Sorular 13-14 — Anadolu İnsanı / Aidiyet",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Sorular 13-14 — Anadolu İnsanı / Aidiyet",
+          "expected_answer": null,
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Tema sonu sorularında tiyatro, küçürek hikâye, çok modlu belgesel ve afiş kazanımlarını yalnız terim ezberiyle değil işlev, kanıt ve tür farklarıyla değerlendir. Tiyatro sahne unsurları, belgesel-teknoloji-toplumsal bellek ve dış Aidiyet videosu üzerinden temayı değerlendirmek.",
       "teacher_moves": [

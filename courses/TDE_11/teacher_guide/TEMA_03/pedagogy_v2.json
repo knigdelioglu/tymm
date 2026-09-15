@@ -1,9 +1,9 @@
 {
-  "schema_version": "2.0.0",
+  "schema_version": "2.1.0",
   "document_type": "TYMM_TEACHER_GUIDE_PEDAGOGY_OVERLAY",
   "course_id": "TDE_11",
   "theme_id": "TEMA_03",
-  "status": "REFERENCE_QUALITY",
+  "status": "REVIEW_REQUIRED",
   "principles": [
     "Ders kitabındaki gerçek soru ve görev görünür kalır; doğrulanmamış soru metni uydurulmaz.",
     "Açık uçlu cevaplarda tek kalıp yerine metin veya medya kanıtı, gerekçe ve kabul edilebilir alternatifler aranır.",
@@ -27,9 +27,221 @@
       ],
       "book_task_summaries": [
         "Tema kapsamı ve beklenen öğrenmeler [REFERENCE]",
-        "Temaya Başlarken — görselden yaşam ve roman çağrışımları [QUESTION]",
+        "Temaya Başlarken — görselden yaşam ve roman çağrışımları — Soru 1 [QUESTION]",
+        "Temaya Başlarken — görselden yaşam ve roman çağrışımları — Soru 2 [QUESTION]",
+        "Temaya Başlarken — görselden yaşam ve roman çağrışımları — Soru 3 [QUESTION]",
+        "Temaya Başlarken — görselden yaşam ve roman çağrışımları — Soru 4 [QUESTION]",
         "Görsellerin çağrışımı [QUESTION]",
         "Biyografi ve tezkire ön örneklerini karşılaştırma [QUESTION]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T3_G00_P160_TEMA_CERCEVESI",
+          "printed_page_range": "160",
+          "item_type": "REFERENCE",
+          "acceptance_criteria": [],
+          "canonical_teacher_guidance": [
+            "Tema çerçevesini bir hedef listesi olarak değil, sonraki görevlerin bağlandığı yol haritası olarak kullan."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.160 / PDF s.161"
+          ],
+          "task_id": "T3_G00_P160_TEMA_CERCEVESI",
+          "label": "Tema kapsamı ve beklenen öğrenmeler",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Tema kapsamı ve beklenen öğrenmeler",
+          "expected_answer": {
+            "anlama": [
+              "Huzur romanı",
+              "Mehmet Akif Ersoy biyografisi",
+              "Usûlî tezkiresi",
+              "Direnişin Ustaları radyo tiyatrosu"
+            ],
+            "anlatma": [
+              "Huzur kişisiyle hayalî mülakat",
+              "radyo tiyatrosu diyaloğunu başka türe dönüştürme"
+            ],
+            "odak": [
+              "edebiyat-hayat ilişkisi",
+              "gerçeklik-kurmaca",
+              "yazar-eser ilişkisi",
+              "kişisel hayatı konu alan metinler"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T3_G00_P162_Q1_4",
+          "printed_page_range": "162",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Her yorum görseldeki en az bir unsura dayanır.",
+            "Kesin olmayan çıkarımları olasılık diliyle ifade eder."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.162 / PDF s.163"
+          ],
+          "task_id": "T3_G00_P162_Q1_4#Q1",
+          "label": "Temaya Başlarken — görselden yaşam ve roman çağrışımları — Soru 1",
+          "question_number": "1",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.162 — 1. soru",
+          "expected_answer": "Yoldaki kişi; yaşam yolculuğu, arayış, değişim, hedefe ilerleme veya belirsizlik gibi anlamlarla gerekçeli biçimde yorumlanabilir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G00_P162_Q1_4",
+          "printed_page_range": "162",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Her yorum görseldeki en az bir unsura dayanır.",
+            "Kesin olmayan çıkarımları olasılık diliyle ifade eder."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.162 / PDF s.163"
+          ],
+          "task_id": "T3_G00_P162_Q1_4#Q2",
+          "label": "Temaya Başlarken — görselden yaşam ve roman çağrışımları — Soru 2",
+          "question_number": "2",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.162 — 2. soru",
+          "expected_answer": "Öğrencinin kendi yaşantısıyla kurduğu çağrışım gerekçeli ve görsel bir ayrıntıya dayalıysa kabul edilir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G00_P162_Q1_4",
+          "printed_page_range": "162",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Her yorum görseldeki en az bir unsura dayanır.",
+            "Kesin olmayan çıkarımları olasılık diliyle ifade eder."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.162 / PDF s.163"
+          ],
+          "task_id": "T3_G00_P162_Q1_4#Q3",
+          "label": "Temaya Başlarken — görselden yaşam ve roman çağrışımları — Soru 3",
+          "question_number": "3",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.162 — 3. soru",
+          "expected_answer": "Görselden yalnız kesin olay bilgisi değil; yalnızlık, yolculuk, mücadele, umut, geçicilik gibi olası yaşam durumları çıkarılabilir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G00_P162_Q1_4",
+          "printed_page_range": "162",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Her yorum görseldeki en az bir unsura dayanır.",
+            "Kesin olmayan çıkarımları olasılık diliyle ifade eder."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.162 / PDF s.163"
+          ],
+          "task_id": "T3_G00_P162_Q1_4#Q4",
+          "label": "Temaya Başlarken — görselden yaşam ve roman çağrışımları — Soru 4",
+          "question_number": "4",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.162 — 4. soru",
+          "expected_answer": "Roman adı serbesttir; görseldeki yol/kişi/atmosferle gerekçeli bağ kurulmalıdır.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G00_P163_Q5",
+          "printed_page_range": "163",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "En az bir görsel ayrıntıyı yorumla ilişkilendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.163 / PDF s.164"
+          ],
+          "task_id": "T3_G00_P163_Q5",
+          "label": "Görsellerin çağrışımı",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Görsellerin çağrışımı",
+          "expected_answer": "Görseller, kişinin yaşam öyküsü, sanatçı kimliği, dönem, mekân, eser ve biyografik izler hakkında çağrışım oluşturabilir; somut görsel kanıtla gerekçelendirilen farklı cevaplar kabul edilir.",
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T3_G00_P163_Q6",
+          "printed_page_range": "163",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Gerçek kişiyi tanıtma ortaklığını belirtir.",
+            "Dil/dönem/anlatım farklarından en az birini açıklar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.163 / PDF s.164"
+          ],
+          "task_id": "T3_G00_P163_Q6",
+          "label": "Biyografi ve tezkire ön örneklerini karşılaştırma",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Biyografi ve tezkire ön örneklerini karşılaştırma",
+          "expected_answer": {
+            "ortak": "Her ikisi de gerçek kişiyi, yaşamı/sanat kişiliğini ve belirgin özellikleri tanıtır.",
+            "fark": "Modern biyografi daha açık, belgeleyici ve sistematik anlatıma; tezkire ise döneminin dili, övgü/değerlendirme kalıpları ve şairlik örneklerine yaslanır."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Yaşam, insan, şehir, hafıza ve edebiyat ilişkisini öğrencinin gündelik deneyiminden edebî yoruma taşıyan bir tema çerçevesi kur. Temanın yazarın hayatı, gerçeklik-kurmaca, kişisel hayatı konu alan türler ve radyo tiyatrosu eksenini görünür kılmak.",
       "teacher_moves": [
@@ -82,10 +294,187 @@
         "T3_G01_P167_170_METIN_OKUMA"
       ],
       "book_task_summaries": [
-        "Konuya Başlarken — yazar, hayat ve roman [QUESTION]",
+        "Konuya Başlarken — yazar, hayat ve roman — Soru 1 [QUESTION]",
+        "Konuya Başlarken — yazar, hayat ve roman — Soru 2 [QUESTION]",
+        "Konuya Başlarken — yazar, hayat ve roman — Soru 3 [QUESTION]",
         "Huzur’u okuma amacı, tahmin ve yazar araştırması [PROCESS]",
         "Kelime–yaşam çağrışımı ve okuma stratejisi [PROCESS]",
         "Huzur ana metin okuması [REFERENCE]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T3_G01_P164_Q1_3",
+          "printed_page_range": "164",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Hayatın kurmacaya kaynak olabileceğini söyler.",
+            "Kurmacanın dönüştürücü niteliğini korur."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.164 / PDF s.165"
+          ],
+          "task_id": "T3_G01_P164_Q1_3#Q1",
+          "label": "Konuya Başlarken — yazar, hayat ve roman — Soru 1",
+          "question_number": "1",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.164 — 1. soru",
+          "expected_answer": "Yazar yaşantı, gözlem ve kültürel birikiminden beslenebilir; bunları seçer, dönüştürür ve kurmaca yapıda yeniden düzenler.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G01_P164_Q1_3",
+          "printed_page_range": "164",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Hayatın kurmacaya kaynak olabileceğini söyler.",
+            "Kurmacanın dönüştürücü niteliğini korur."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.164 / PDF s.165"
+          ],
+          "task_id": "T3_G01_P164_Q1_3#Q2",
+          "label": "Konuya Başlarken — yazar, hayat ve roman — Soru 2",
+          "question_number": "2",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.164 — 2. soru",
+          "expected_answer": "“Hayatımı yazsam roman olurdu” sözü yaşanmışlıkların anlatı malzemesi olabileceğini vurgular; hayat ile roman aynı şey değildir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G01_P164_Q1_3",
+          "printed_page_range": "164",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Hayatın kurmacaya kaynak olabileceğini söyler.",
+            "Kurmacanın dönüştürücü niteliğini korur."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.164 / PDF s.165"
+          ],
+          "task_id": "T3_G01_P164_Q1_3#Q3",
+          "label": "Konuya Başlarken — yazar, hayat ve roman — Soru 3",
+          "question_number": "3",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.164 — 3. soru",
+          "expected_answer": "Kişisel deneyim ayrıntıları metne inandırıcılık ve psikolojik derinlik katabilir; tek başına doğruluk garantisi değildir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G01_P165_OKUMA_PLANI",
+          "printed_page_range": "165",
+          "item_type": "PROCESS",
+          "acceptance_criteria": [
+            "Tahmin ile doğrulanmış bulguyu ayırır.",
+            "Yazar-eser ilişkisini tek yönlü özdeşlik olarak kurmaz."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.165 / PDF s.166"
+          ],
+          "task_id": "T3_G01_P165_OKUMA_PLANI",
+          "label": "Huzur’u okuma amacı, tahmin ve yazar araştırması",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Huzur’u okuma amacı, tahmin ve yazar araştırması",
+          "expected_answer": [
+            "Metne göz gezdir ve başlık/görsellerden içerik tahmini yap.",
+            "Okuma amacını ve stratejini belirle.",
+            "Tanpınar’ın hayatı, sanat anlayışı, dil/üslubu hakkında güvenilir kaynaklardan kısa not çıkar.",
+            "Okuma sonunda ilk tahminlerini metinle karşılaştır."
+          ],
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T3_G01_P166_SOZ_YASAM",
+          "printed_page_range": "166",
+          "item_type": "PROCESS",
+          "acceptance_criteria": [
+            "Bağlama göre anlam/çağrışım değişimini fark eder."
+          ],
+          "canonical_teacher_guidance": [
+            "Öğrenci cümlelerinden kişisel hayat hakkında kesin yargı üretmeyin."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.166 / PDF s.167"
+          ],
+          "task_id": "T3_G01_P166_SOZ_YASAM",
+          "label": "Kelime–yaşam çağrışımı ve okuma stratejisi",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Kelime–yaşam çağrışımı ve okuma stratejisi",
+          "expected_answer": "Öğrenci verilen kelimeleri farklı bağlamlarda cümleleştirir; çağrışımların kişisel deneyimle değişebileceğini fark eder ve Huzur için uygun okuma stratejisi seçer.",
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T3_G01_P167_170_METIN_OKUMA",
+          "printed_page_range": "167-170",
+          "item_type": "REFERENCE",
+          "acceptance_criteria": [],
+          "canonical_teacher_guidance": [
+            "Bu sayfalar ana metindir; rehberde uzun alıntı üretme, sonraki sorular için kavramsal işaretleyiciler kullan."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.167-170"
+          ],
+          "task_id": "T3_G01_P167_170_METIN_OKUMA",
+          "label": "Huzur ana metin okuması",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Huzur ana metin okuması",
+          "expected_answer": [
+            "Mümtaz–Nuran ilişkisi",
+            "İstanbul/Boğaz’ın kültürel bellek taşıması",
+            "müzik ve estetik duyarlık",
+            "geçmiş–gelecek ve kimlik gerilimi",
+            "toplumsal hayat ile bireysel duyarlığın birlikte verilmesi"
+          ],
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Huzur'da bireysel iç dünya ile İstanbul, musiki, tarih ve kültürel hafızanın nasıl birbirini kurduğunu metin kanıtıyla çözümlet; yazar hayatı ile kurmacayı özdeşleştirme. Okuma amacı/stratejisi, yazar-eser ön araştırması ve metne yönelik tahminleri yönetmek.",
       "teacher_moves": [
@@ -148,10 +537,532 @@
       "book_task_summaries": [
         "Söz Varlığımız [VOCABULARY]",
         "Huzur’un üslup özellikleri kavram haritası [TABLE]",
-        "Metni Anlayalım — Huzur [QUESTION]",
+        "Metni Anlayalım — Huzur — Soru 1 [QUESTION]",
+        "Metni Anlayalım — Huzur — Soru 2 [QUESTION]",
+        "Metni Anlayalım — Huzur — Soru 3 [QUESTION]",
+        "Metni Anlayalım — Huzur — Soru 4 [QUESTION]",
+        "Metni Anlayalım — Huzur — Soru 5 [QUESTION]",
+        "Metni Anlayalım — Huzur — Soru 6 [QUESTION]",
+        "Metni Anlayalım — Huzur — Soru 7 [QUESTION]",
+        "Metni Anlayalım — Huzur — Soru 8 [QUESTION]",
+        "Metni Anlayalım — Huzur — Soru 9 [QUESTION]",
+        "Metni Anlayalım — Huzur — Soru 10 [QUESTION]",
+        "Metni Anlayalım — Huzur — Soru 11 [QUESTION]",
+        "Metni Anlayalım — Huzur — Soru 12 [QUESTION]",
+        "Metni Anlayalım — Huzur — Soru 13 [QUESTION]",
         "Kişiler — söz, davranış, kişilik ve dil [TABLE]",
         "Gerçek hayat ile kurmaca arasındaki ilişki [QUESTION]",
         "Öznel/nesnel anlatım ve duyarlılık değeri [QUESTION]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T3_G02_P172_SOZ_VARLIGI",
+          "printed_page_range": "172",
+          "item_type": "VOCABULARY",
+          "acceptance_criteria": [
+            "Önce bağlamdan tahmin, sonra sözlük doğrulaması yapar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.172 / PDF s.173"
+          ],
+          "task_id": "T3_G02_P172_SOZ_VARLIGI",
+          "label": "Söz Varlığımız",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Söz Varlığımız",
+          "expected_answer": {
+            "cevher": "öz/değerli nitelik",
+            "zarafet": "incelik, estetik nezaket",
+            "hülasa": "özetle",
+            "mahzen": "yer altı depo/bodrum",
+            "yeis": "umutsuzluk",
+            "neşretmek": "yayımlamak/yaymak",
+            "muazzam": "çok büyük, görkemli",
+            "mustarip": "acı/sıkıntı çeken"
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T3_G02_P174_USLUP",
+          "printed_page_range": "174",
+          "item_type": "TABLE",
+          "acceptance_criteria": [
+            "En az üç özellik metin örneği/işleviyle ilişkilendirilir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.174 / PDF s.175"
+          ],
+          "task_id": "T3_G02_P174_USLUP",
+          "label": "Huzur’un üslup özellikleri kavram haritası",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Huzur’un üslup özellikleri kavram haritası",
+          "expected_answer": [
+            "betimleyici ve çağrışımlı anlatım",
+            "kültür, tarih ve musiki göndermeleri",
+            "psikolojik çözümleme/iç dünya",
+            "uzun ve katmanlı cümle yapıları",
+            "mekânı estetik/kültürel anlam taşıyıcısı olarak kullanma"
+          ],
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T3_G02_P175_176_Q1_13",
+          "printed_page_range": "175-176",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Cevaplar metin kanıtına dayanır.",
+            "Yorum sorularında gerekçeli alternatifler kabul edilir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.175-176"
+          ],
+          "task_id": "T3_G02_P175_176_Q1_13#Q1",
+          "label": "Metni Anlayalım — Huzur — Soru 1",
+          "question_number": "1",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.175-176 — 1. soru",
+          "expected_answer": "Başlangıç tahminleri metin kanıtıyla karşılaştırılır.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G02_P175_176_Q1_13",
+          "printed_page_range": "175-176",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Cevaplar metin kanıtına dayanır.",
+            "Yorum sorularında gerekçeli alternatifler kabul edilir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.175-176"
+          ],
+          "task_id": "T3_G02_P175_176_Q1_13#Q2",
+          "label": "Metni Anlayalım — Huzur — Soru 2",
+          "question_number": "2",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.175-176 — 2. soru",
+          "expected_answer": "Konu: Mümtaz’ın çevresi, Nuran’la ilişkisi ve İstanbul üzerinden hayat/kültür; tema: kimlik, geçmiş-gelecek, aşk, kültürel süreklilik ve huzur arayışı. Yazılma amacı yalnız bilgi vermek değil, insan ve toplum deneyimini estetik kurmaca ile düşündürmektir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G02_P175_176_Q1_13",
+          "printed_page_range": "175-176",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Cevaplar metin kanıtına dayanır.",
+            "Yorum sorularında gerekçeli alternatifler kabul edilir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.175-176"
+          ],
+          "task_id": "T3_G02_P175_176_Q1_13#Q3",
+          "label": "Metni Anlayalım — Huzur — Soru 3",
+          "question_number": "3",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.175-176 — 3. soru",
+          "expected_answer": "Psikolojik/tahlil ve sosyal-kültürel yönleri güçlü modern roman olarak gerekçelendirilebilir; sınıflandırma gerekçesi metin özelliklerine dayanmalıdır.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G02_P175_176_Q1_13",
+          "printed_page_range": "175-176",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Cevaplar metin kanıtına dayanır.",
+            "Yorum sorularında gerekçeli alternatifler kabul edilir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.175-176"
+          ],
+          "task_id": "T3_G02_P175_176_Q1_13#Q4",
+          "label": "Metni Anlayalım — Huzur — Soru 4",
+          "question_number": "4",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.175-176 — 4. soru",
+          "expected_answer": "Boğaz/İstanbul yalnız fon değil; karakterlerin hafızası, kimliği ve estetik duyarlığıyla ilişkilidir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G02_P175_176_Q1_13",
+          "printed_page_range": "175-176",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Cevaplar metin kanıtına dayanır.",
+            "Yorum sorularında gerekçeli alternatifler kabul edilir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.175-176"
+          ],
+          "task_id": "T3_G02_P175_176_Q1_13#Q5",
+          "label": "Metni Anlayalım — Huzur — Soru 5",
+          "question_number": "5",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.175-176 — 5. soru",
+          "expected_answer": "Geçmişe kök salarak geleceğe yönelme düşüncesini ifade eder.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G02_P175_176_Q1_13",
+          "printed_page_range": "175-176",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Cevaplar metin kanıtına dayanır.",
+            "Yorum sorularında gerekçeli alternatifler kabul edilir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.175-176"
+          ],
+          "task_id": "T3_G02_P175_176_Q1_13#Q6",
+          "label": "Metni Anlayalım — Huzur — Soru 6",
+          "question_number": "6",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.175-176 — 6. soru",
+          "expected_answer": "‘Kendi hayatımızın kaynakları’ tarih, kültür, sanat, dil, musikî ve ortak hafıza gibi beslenme kaynaklarına işaret eder.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G02_P175_176_Q1_13",
+          "printed_page_range": "175-176",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Cevaplar metin kanıtına dayanır.",
+            "Yorum sorularında gerekçeli alternatifler kabul edilir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.175-176"
+          ],
+          "task_id": "T3_G02_P175_176_Q1_13#Q7",
+          "label": "Metni Anlayalım — Huzur — Soru 7",
+          "question_number": "7",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.175-176 — 7. soru",
+          "expected_answer": "Şehir hayatı, halk, yoksulluk, semtler, gündelik yaşam, kültürel kurumlar ve dönemin toplumsal meseleleri örneklenebilir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G02_P175_176_Q1_13",
+          "printed_page_range": "175-176",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Cevaplar metin kanıtına dayanır.",
+            "Yorum sorularında gerekçeli alternatifler kabul edilir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.175-176"
+          ],
+          "task_id": "T3_G02_P175_176_Q1_13#Q8",
+          "label": "Metni Anlayalım — Huzur — Soru 8",
+          "question_number": "8",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.175-176 — 8. soru",
+          "expected_answer": "Şehir; kalabalık, tarih, yoksulluk ve estetik zenginliğiyle ruh hâlini etkiler.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G02_P175_176_Q1_13",
+          "printed_page_range": "175-176",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Cevaplar metin kanıtına dayanır.",
+            "Yorum sorularında gerekçeli alternatifler kabul edilir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.175-176"
+          ],
+          "task_id": "T3_G02_P175_176_Q1_13#Q9",
+          "label": "Metni Anlayalım — Huzur — Soru 9",
+          "question_number": "9",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.175-176 — 9. soru",
+          "expected_answer": "Mekânlar karakter ilişkileri, yaşam tarzı ve dünya görüşlerini görünür kılar.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G02_P175_176_Q1_13",
+          "printed_page_range": "175-176",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Cevaplar metin kanıtına dayanır.",
+            "Yorum sorularında gerekçeli alternatifler kabul edilir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.175-176"
+          ],
+          "task_id": "T3_G02_P175_176_Q1_13#Q10",
+          "label": "Metni Anlayalım — Huzur — Soru 10",
+          "question_number": "10",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.175-176 — 10. soru",
+          "expected_answer": "Üsküdar gözlemi, kadınların gündelik/sosyal görünürlüğüne dair karakterin değerlendirmesidir; genelleme olarak değil metin bağlamında yorumlanmalıdır.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G02_P175_176_Q1_13",
+          "printed_page_range": "175-176",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Cevaplar metin kanıtına dayanır.",
+            "Yorum sorularında gerekçeli alternatifler kabul edilir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.175-176"
+          ],
+          "task_id": "T3_G02_P175_176_Q1_13#Q11",
+          "label": "Metni Anlayalım — Huzur — Soru 11",
+          "question_number": "11",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.175-176 — 11. soru",
+          "expected_answer": "Şeyh Gâlip’e yöneliş Mümtaz’ın tarih, klasik kültür ve sanat duyarlığını gösterir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G02_P175_176_Q1_13",
+          "printed_page_range": "175-176",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Cevaplar metin kanıtına dayanır.",
+            "Yorum sorularında gerekçeli alternatifler kabul edilir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.175-176"
+          ],
+          "task_id": "T3_G02_P175_176_Q1_13#Q12",
+          "label": "Metni Anlayalım — Huzur — Soru 12",
+          "question_number": "12",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.175-176 — 12. soru",
+          "expected_answer": "Çanakkale, Kurtuluş Savaşı gibi tarihî olayları konu alan marş/türkü/şarkılar uygun gerekçeyle örneklenebilir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G02_P175_176_Q1_13",
+          "printed_page_range": "175-176",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Cevaplar metin kanıtına dayanır.",
+            "Yorum sorularında gerekçeli alternatifler kabul edilir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.175-176"
+          ],
+          "task_id": "T3_G02_P175_176_Q1_13#Q13",
+          "label": "Metni Anlayalım — Huzur — Soru 13",
+          "question_number": "13",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.175-176 — 13. soru",
+          "expected_answer": "Musikî, karakterlerin hafıza, mekân ve duygu dünyasını örgütleyen temel kültürel/estetik unsurdur.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G02_P180_181_KISILER",
+          "printed_page_range": "180-181",
+          "item_type": "TABLE",
+          "acceptance_criteria": [
+            "Kişilik yargısını söz/davranış kanıtıyla destekler."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.180-181"
+          ],
+          "task_id": "T3_G02_P180_181_KISILER",
+          "label": "Kişiler — söz, davranış, kişilik ve dil",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Kişiler — söz, davranış, kişilik ve dil",
+          "expected_answer": {
+            "Mümtaz": "Sanat, tarih, kültür ve tabiat karşısında duyarlı; düşünsel ve çağrışımlı bir dil.",
+            "Nuran": "Dengeli, sorgulayıcı, estetik duyarlığı yüksek; Mümtaz’la diyaloglarında daha ölçülü/pratik tutum.",
+            "İhsan": "Mümtaz’ın düşünsel rehberi; tarih ve toplum üzerine kurucu fikirler taşıyan entelektüel.",
+            "Macide": "Şefkat ve aile sıcaklığıyla ilişkilendirilen destekleyici figür.",
+            "Suat": "Gerilim ve çatışma boyutunu güçlendiren, karamsarlık/uyumsuzlukla ilişkilendirilen figür.",
+            "Fâhir": "Nuran’ın geçmişi ve sosyal ilişkiler ağı içinde çatışma/gerilim kaynağı."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T3_G02_P182_183_GERCEK_KURGU",
+          "printed_page_range": "182-183",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Gerçek kaynak ile kurmaca dönüşümü ayırır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.182-183"
+          ],
+          "task_id": "T3_G02_P182_183_GERCEK_KURGU",
+          "label": "Gerçek hayat ile kurmaca arasındaki ilişki",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Gerçek hayat ile kurmaca arasındaki ilişki",
+          "expected_answer": {
+            "gercek_hayat": "İhsan’ın bazı özelliklerinde Yahya Kemal, Nuran’ın hayattaki örneği ve Tanpınar’ın kendi deneyim/çevresinden izler gibi kaynaklar.",
+            "kurmaca": "Yazar gerçek kişilerden aldığı unsurları değiştirir, yeni ilişkiler ve koşullar kurar; örneğin Yahya Kemal’e dayanan İhsan’ı evli/çocuklu ve Mümtaz’la akraba kılar.",
+            "katki": "Gerçeklik duygusunu ve kültürel/psikolojik derinliği artırırken sanatçıya özgür kurmaca alanı sağlar."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T3_G02_P183_185_OZNEL_DEGER",
+          "printed_page_range": "183-185",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Öznel-nesnel ayrımını işlev üzerinden açıklar.",
+            "Değer yargısını somut davranış/metin parçasıyla ilişkilendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.183-185"
+          ],
+          "task_id": "T3_G02_P183_185_OZNEL_DEGER",
+          "label": "Öznel/nesnel anlatım ve duyarlılık değeri",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Öznel/nesnel anlatım ve duyarlılık değeri",
+          "expected_answer": "Öznel anlatım karakterlerin iç dünyasını, çağrışımlarını ve duygusal gerilimlerini derinleştirir; nesnel/olay bildirici bölümler bağlam ve eylem bilgisini kurar. Duyarlılık; halk, aile, hasta yakına bakım, hayvanlara merhamet, toplumsal sorumluluk ve kültürel köklere ilgi örnekleriyle tartışılabilir.",
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Huzur'da bireysel iç dünya ile İstanbul, musiki, tarih ve kültürel hafızanın nasıl birbirini kurduğunu metin kanıtıyla çözümlet; yazar hayatı ile kurmacayı özdeşleştirme. Söz varlığı, konu/tema/ileti, kişi-mekân-kültür ilişkileri ve gerçeklik-kurmaca bağını anlamlandırmak.",
       "teacher_moves": [
@@ -217,6 +1128,167 @@
         "Dönem dili, cümle ögeleri ve yazım [QUESTION]",
         "Romanın tarih, sosyoloji ve psikolojiyle ilişkisi [PROCESS]"
       ],
+      "task_cards": [
+        {
+          "source_item_ref": "T3_G03_P186_YAPI",
+          "printed_page_range": "186",
+          "item_type": "TABLE",
+          "acceptance_criteria": [
+            "Yapı unsurunu metindeki işleviyle açıklar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.186 / PDF s.187"
+          ],
+          "task_id": "T3_G03_P186_YAPI",
+          "label": "Huzur’un yapı unsurları",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Huzur’un yapı unsurları",
+          "expected_answer": {
+            "olay": "Mümtaz’ın hayatı, İhsan’ın hastalığı ve Nuran’la ilişkisi çevresinde gelişen olaylar; seçili parçaya göre ayrıntılandırılır.",
+            "mekan": "İstanbul başta olmak üzere Boğaz, Üsküdar, Emirgân ve çeşitli semtler.",
+            "kisiler": [
+              "Mümtaz",
+              "Nuran",
+              "İhsan",
+              "Macide",
+              "Suat",
+              "Fâhir"
+            ],
+            "zaman": "Cumhuriyet’in erken dönemine yaklaşan tarihsel/toplumsal atmosfer; metin içi zaman akışı ve geri dönüşler birlikte değerlendirilir."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T3_G03_P187_188_USLUP_YAPI",
+          "printed_page_range": "187-188",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Olay, mekân, kişi ve zamandan en az ikisini üslupla ilişkilendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.187-188"
+          ],
+          "task_id": "T3_G03_P187_188_USLUP_YAPI",
+          "label": "Dil/üslup–yapı ilişkisi",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Dil/üslup–yapı ilişkisi",
+          "expected_answer": "Betimleme ve çağrışımlı dil mekânı kültürel/psikolojik bir unsura dönüştürür; iç çözümleme kişileri derinleştirir; geçmişe dönüş/hatırlama zamanı katmanlaştırır; dönem söz varlığı ve sanat-kültür göndermeleri Tanpınar’ın düşünsel-estetik üslubunu kurar.",
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T3_G03_P189_CATISMA",
+          "printed_page_range": "189",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Çatışma türünü metin kanıtıyla eşler.",
+            "Anlatıcı, iç çözümleme, diyalog veya betimlemenin katkısını açıklar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.189 / PDF s.190"
+          ],
+          "task_id": "T3_G03_P189_CATISMA",
+          "label": "Çatışmalar ve anlatım teknikleri",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Çatışmalar ve anlatım teknikleri",
+          "expected_answer": [
+            "kişinin kendisiyle çatışması: Mümtaz’ın iç sıkıntıları/kararsızlıkları",
+            "kişiler arası çatışma: ilişkiler ve beklentiler",
+            "birey-toplum/tarih gerilimi: geçmiş-modern hayat/kimlik arayışı"
+          ],
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T3_G03_P190_191_DIL_CUMLE",
+          "printed_page_range": "190-191",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Dönem farkını ‘yanlış dil’ şeklinde değerlendirmez."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.190-191"
+          ],
+          "task_id": "T3_G03_P190_191_DIL_CUMLE",
+          "label": "Dönem dili, cümle ögeleri ve yazım",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Dönem dili, cümle ögeleri ve yazım",
+          "expected_answer": {
+            "dil_karsilastirma": "Metindeki bugün daha az kullanılan söz varlığı/yazım biçimleri ile günümüz Türkçesi karşılaştırılır; temel söz dizimi süreklilik de gösterebilir.",
+            "yazim_ornekleri": {
+              "ilân": "ilan",
+              "telâş": "telaş",
+              "eksilmiyen": "eksilmeyen"
+            },
+            "cumle_katkisi": "Uzun, bağlı ve betimleyici cümleler düşünce/çağrışım katmanlarını ve psikolojik ayrıntıyı taşır."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T3_G03_P191_SOSYAL_BILIM",
+          "printed_page_range": "191",
+          "item_type": "PROCESS",
+          "acceptance_criteria": [
+            "Her disiplin için romandan bir bağlantı kurar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.191 / PDF s.192"
+          ],
+          "task_id": "T3_G03_P191_SOSYAL_BILIM",
+          "label": "Romanın tarih, sosyoloji ve psikolojiyle ilişkisi",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Romanın tarih, sosyoloji ve psikolojiyle ilişkisi",
+          "expected_answer": {
+            "tarih": "dönem ve kültürel geçmiş",
+            "sosyoloji": "şehir, halk, sınıfsal/toplumsal yapı",
+            "psikoloji": "karakterlerin iç dünyası, çatışmaları ve ilişkileri"
+          },
+          "expected_response": null,
+          "split_from_group": false
+        }
+      ],
       "pedagogical_intent": "Huzur'da bireysel iç dünya ile İstanbul, musiki, tarih ve kültürel hafızanın nasıl birbirini kurduğunu metin kanıtıyla çözümlet; yazar hayatı ile kurmacayı özdeşleştirme. Yapı unsurları, dil/üslup, çatışma, dönem dili ve disiplinler arası ilişkileri çözümlemek.",
       "teacher_moves": [
         "Kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.",
@@ -277,6 +1349,101 @@
         "Kendi beğeni ölçütleriyle değerlendirme [ASSESSMENT]",
         "3-2-1 Çıkış Kartı [ASSESSMENT]"
       ],
+      "task_cards": [
+        {
+          "source_item_ref": "T3_G04_P192_CALISMA_KAGIDI",
+          "printed_page_range": "192",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "Beğeni/eleştiri gerekçe içerir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.192 / PDF s.193"
+          ],
+          "task_id": "T3_G04_P192_CALISMA_KAGIDI",
+          "label": "Huzur çözümleme çalışma kâğıdı",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Huzur çözümleme çalışma kâğıdı",
+          "expected_answer": {
+            "uslup": "Çağrışımlı, betimleyici, kültür ve iç dünya odaklı üslup; işleviyle gerekçelendirilir.",
+            "donem": "Dil, şehir hayatı, kültürel tartışmalar ve tarih bilinci dönemin izlerini taşır.",
+            "icerik_yapi_dil": "İçerik, yapı ve üslup toplum/dönemle ilişkilidir; kurmaca dönüşüm göz ardı edilmez.",
+            "degerler": [
+              "duyarlılık",
+              "aile bağları",
+              "kültürel mirasa saygı",
+              "sorumluluk",
+              "estetik duyarlık"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T3_G04_P193_OLCUT",
+          "printed_page_range": "193",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "En az iki ölçüt + gerekçeli değerlendirme."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.193 / PDF s.194"
+          ],
+          "task_id": "T3_G04_P193_OLCUT",
+          "label": "Kendi beğeni ölçütleriyle değerlendirme",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Kendi beğeni ölçütleriyle değerlendirme",
+          "expected_answer": "Tutarlılık örneğine ek olarak dil/üslup, karakter derinliği, atmosfer, özgünlük, kurgu bütünlüğü, çağrışım gücü gibi ölçütler belirlenebilir; her yargı metin kanıtıyla açıklanır.",
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T3_G04_P193_CIKIS",
+          "printed_page_range": "193",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "Kişisel beğeni metne dayalı gerekçeyle ifade edilir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.193 / PDF s.194"
+          ],
+          "task_id": "T3_G04_P193_CIKIS",
+          "label": "3-2-1 Çıkış Kartı",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "3-2-1 Çıkış Kartı",
+          "expected_answer": {
+            "uc_yaz": "Çağrışım zenginliği bakımından beğenilen üç yön/ifade özelliği.",
+            "iki_sor": "Bu çağrışım zenginliğini açmaya yönelik iki soru.",
+            "bir_paylas": "En etkileyici ifade ve etkilenme gerekçesi."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        }
+      ],
       "pedagogical_intent": "Huzur'da bireysel iç dünya ile İstanbul, musiki, tarih ve kültürel hafızanın nasıl birbirini kurduğunu metin kanıtıyla çözümlet; yazar hayatı ile kurmacayı özdeşleştirme. Metni ölçütlere göre değerlendirmek, beğeni/eleştiriyi gerekçelendirmek ve çıkış kartıyla öğrenmeyi görünür kılmak.",
       "teacher_moves": [
         "Öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.",
@@ -333,9 +1500,136 @@
         "T3_G05_P195_197_ANA_METIN"
       ],
       "book_task_summaries": [
-        "Biyografide hangi ayrıntılar ve okur için önemi [QUESTION]",
+        "Biyografide hangi ayrıntılar ve okur için önemi — Soru 1 [QUESTION]",
+        "Biyografide hangi ayrıntılar ve okur için önemi — Soru 2 [QUESTION]",
         "Mehmet Akif Ersoy metni — amaç, tahmin, strateji [PROCESS]",
         "Mehmet Akif Ersoy biyografisi — ana bilgi ekseni [REFERENCE]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T3_G05_P194_Q1_2",
+          "printed_page_range": "194",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Yaşam öyküsü ile edebî kişiliği birlikte ele alır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.194 / PDF s.195"
+          ],
+          "task_id": "T3_G05_P194_Q1_2#Q1",
+          "label": "Biyografide hangi ayrıntılar ve okur için önemi — Soru 1",
+          "question_number": "1",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.194 — 1. soru",
+          "expected_answer": [
+            "doğum/ölüm",
+            "aile ve eğitim",
+            "meslek",
+            "eserler",
+            "dönüm noktaları",
+            "kişilik/sanat anlayışı",
+            "toplumsal etkiler"
+          ],
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G05_P194_Q1_2",
+          "printed_page_range": "194",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Yaşam öyküsü ile edebî kişiliği birlikte ele alır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.194 / PDF s.195"
+          ],
+          "task_id": "T3_G05_P194_Q1_2#Q2",
+          "label": "Biyografide hangi ayrıntılar ve okur için önemi — Soru 2",
+          "question_number": "2",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.194 — 2. soru",
+          "expected_answer": "Biyografi, kişinin yaşamını ve eserlerini bağlama yerleştirerek okurun kişi-eser-dönem ilişkisini anlamasına, örnek yaşam deneyimlerinden çıkarım yapmasına ve güvenilir bilgi edinmesine katkı sağlar.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G05_P195_OKUMA",
+          "printed_page_range": "195",
+          "item_type": "PROCESS",
+          "acceptance_criteria": [
+            "Amaç ve strateji arasında ilişki kurar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.195 / PDF s.196"
+          ],
+          "task_id": "T3_G05_P195_OKUMA",
+          "label": "Mehmet Akif Ersoy metni — amaç, tahmin, strateji",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Mehmet Akif Ersoy metni — amaç, tahmin, strateji",
+          "expected_answer": [
+            "Başlık ve görsellerden içerik tahmini yap.",
+            "Okuma amacını belirle.",
+            "Biyografik/bilgilendirici metne uygun okuma stratejisi seç.",
+            "Vurgu ve tonlamayı metnin bilgilendirici niteliğine göre ayarla."
+          ],
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T3_G05_P195_197_ANA_METIN",
+          "printed_page_range": "195-197",
+          "item_type": "REFERENCE",
+          "acceptance_criteria": [],
+          "canonical_teacher_guidance": [
+            "Tarih/olay ezberine indirgeme; sonraki sorularda kişilik-sanat-toplum ilişkisine kanıt oluşturacak bilgileri seçtir."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.195-197"
+          ],
+          "task_id": "T3_G05_P195_197_ANA_METIN",
+          "label": "Mehmet Akif Ersoy biyografisi — ana bilgi ekseni",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Mehmet Akif Ersoy biyografisi — ana bilgi ekseni",
+          "expected_answer": [
+            "eğitim ve meslek hayatı",
+            "şiire yönelişi ve yayın faaliyetleri",
+            "Millî Mücadele’ye katılımı ve İstiklâl Marşı",
+            "Mısır yılları",
+            "Safahat ve sanat anlayışı",
+            "toplum, din ve millî meselelerle ilişkisi"
+          ],
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Biyografi ve tezkireyi kişi hakkında bilgi veren iki farklı tarihî anlatım biçimi olarak karşılaştır; bilgi, yorum, övgü ve dönem üslubunu ayırt ettir. Biyografi türüne ilişkin ön bilgiyi etkinleştirmek ve metnin okuma amacını/stratejisini belirlemek.",
       "teacher_moves": [
@@ -395,11 +1689,249 @@
       ],
       "book_task_summaries": [
         "Biyografi söz varlığı [VOCABULARY]",
-        "Mehmet Akif’in kişiliği ve millî marş tutumu [QUESTION]",
+        "Mehmet Akif’in kişiliği ve millî marş tutumu — Soru 1 [QUESTION]",
+        "Mehmet Akif’in kişiliği ve millî marş tutumu — Soru 2 [QUESTION]",
+        "Mehmet Akif’in kişiliği ve millî marş tutumu — Soru 3 [QUESTION]",
         "Biyografi çalışma kâğıdı [TABLE]",
         "Biyografide öznel ve nesnel anlatım [QUESTION]",
         "Biyografi alt türü ve örneklerle karşılaştırma [QUESTION]",
         "Huzur–Mehmet Akif Ersoy ve siber zorbalık metni karşılaştırması [QUESTION]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T3_G06_P198_SOZ_VARLIGI",
+          "printed_page_range": "198",
+          "item_type": "VOCABULARY",
+          "acceptance_criteria": [
+            "Bağlamdan eşleştirme yapar; sözlükle kontrol eder."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.198 / PDF s.199"
+          ],
+          "task_id": "T3_G06_P198_SOZ_VARLIGI",
+          "label": "Biyografi söz varlığı",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Biyografi söz varlığı",
+          "expected_answer": {
+            "dolaylı": "doğrudan olmayan",
+            "ilham": "esin",
+            "duyarlı": "hassas",
+            "zillet": "hor görülme/aşağılanma durumu",
+            "vesile": "araç/sebep",
+            "tahribat": "yıkıp bozma/zarar",
+            "vurdumduymaz": "umursamaz"
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T3_G06_P199_Q1_3",
+          "printed_page_range": "199",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Yargılar biyografi metnindeki bilgiye dayanır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.199 / PDF s.200"
+          ],
+          "task_id": "T3_G06_P199_Q1_3#Q1",
+          "label": "Mehmet Akif’in kişiliği ve millî marş tutumu — Soru 1",
+          "question_number": "1",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.199 — 1. soru",
+          "expected_answer": "Yoksul, çocuk, kadın, yaşlı ve toplumun kırılgan kesimlerine yönelmesi duyarlılık, vicdan ve toplumsal sorumluluk izlenimi doğurur.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G06_P199_Q1_3",
+          "printed_page_range": "199",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Yargılar biyografi metnindeki bilgiye dayanır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.199 / PDF s.200"
+          ],
+          "task_id": "T3_G06_P199_Q1_3#Q2",
+          "label": "Mehmet Akif’in kişiliği ve millî marş tutumu — Soru 2",
+          "question_number": "2",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.199 — 2. soru",
+          "expected_answer": "Toplum meselelerini İslâmî duyarlık ve değer çerçevesinde işlemesi nedeniyle ‘İslâm şairi’ nitelemesi kullanılır; bu, toplumcu/millî yönleri dışlamaz.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G06_P199_Q1_3",
+          "printed_page_range": "199",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Yargılar biyografi metnindeki bilgiye dayanır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.199 / PDF s.200"
+          ],
+          "task_id": "T3_G06_P199_Q1_3#Q3",
+          "label": "Mehmet Akif’in kişiliği ve millî marş tutumu — Soru 3",
+          "question_number": "3",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.199 — 3. soru",
+          "expected_answer": "Para ödülüne mesafe, millî marşı kişisel kazançtan üstün tutma ve görevi etik/millî sorumluluk olarak görmeyle ilişkilendirilebilir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G06_P201_CALISMA",
+          "printed_page_range": "201",
+          "item_type": "TABLE",
+          "acceptance_criteria": [
+            "Nesnel anlatımın baskınlığını gerekçelendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.201 / PDF s.202"
+          ],
+          "task_id": "T3_G06_P201_CALISMA",
+          "label": "Biyografi çalışma kâğıdı",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Biyografi çalışma kâğıdı",
+          "expected_answer": {
+            "konu": "Mehmet Akif Ersoy’un hayatı, eserleri ve edebî/toplumsal kişiliği.",
+            "amac": "Kişinin yaşamı ve edebî kişiliği hakkında güvenilir bilgi vermek.",
+            "ana_dusunce": "Akif, şiirini millet ve toplum meseleleriyle birleştiren duyarlı, estetik kaygısı güçlü bir sanatçıdır.",
+            "dusunceyi_gelistirme": [
+              "örnekleme",
+              "açıklama",
+              "tanıklık/belge niteliğindeki kronolojik bilgiler"
+            ],
+            "anlatim": "Ağırlıkla açıklayıcı/bilgilendirici ve nesnel; değerlendirme içeren öznel cümleler de vardır."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T3_G06_P202_OZNEL_NESNEL",
+          "printed_page_range": "202",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "En az bir nesnel ve bir öznel örnek türü verir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.202 / PDF s.203"
+          ],
+          "task_id": "T3_G06_P202_OZNEL_NESNEL",
+          "label": "Biyografide öznel ve nesnel anlatım",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Biyografide öznel ve nesnel anlatım",
+          "expected_answer": "Tarih, yer, görev, eser ve kronolojik olay bildiren cümleler nesneldir; ‘duyarlı ve vicdanlı bir aydın’, ‘önemli bir boşluğu doldurmuştur’ gibi değerleme içeren ifadeler öznel nitelik taşır. Biyografide doğrulanabilir nesnel bilgi ön plandadır.",
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T3_G06_P203_BIYOGRAFI_TURU",
+          "printed_page_range": "203",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Alt türleri ayırıcı özellikleriyle açıklar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.203 / PDF s.204"
+          ],
+          "task_id": "T3_G06_P203_BIYOGRAFI_TURU",
+          "label": "Biyografi alt türü ve örneklerle karşılaştırma",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Biyografi alt türü ve örneklerle karşılaştırma",
+          "expected_answer": {
+            "benzerlik": "Mehmet Akif Ersoy metni, bilgi/araştırma temelli biyografik anlatı yönüyle ansiklopedi/monografi tipine yaklaşır.",
+            "tur": "Bilimsel biyografi/monografi niteliği ağır basar; yaşam ve sanat kişiliği belgelere/kronolojiye dayalı bütüncül biçimde ele alınır.",
+            "ayrim": "Nekroloji ölüm vesilesiyle yazılır; biyografik roman gerçek yaşamı kurmaca anlatı teknikleriyle işler."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T3_G06_P204_KARSILASTIR",
+          "printed_page_range": "204",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Kurmaca-gerçeklik ayrımını tür adıyla değil, metnin bilgi/kurgu işleviyle gerekçelendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.204 / PDF s.205"
+          ],
+          "task_id": "T3_G06_P204_KARSILASTIR",
+          "label": "Huzur–Mehmet Akif Ersoy ve siber zorbalık metni karşılaştırması",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Huzur–Mehmet Akif Ersoy ve siber zorbalık metni karşılaştırması",
+          "expected_answer": {
+            "huzur": "kurmaca roman; estetik/çok anlamlı yapı, karakter ve olay örgüsü.",
+            "mehmet_akif": "gerçek kişiyi belgeleyici/bilgilendirici biyografi.",
+            "siber_zorbalik": "kurgu değil, açıklayıcı/bilgilendirici gerçeklik alanına dayandığı için Mehmet Akif Ersoy metnine daha yakındır."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Biyografi ve tezkireyi kişi hakkında bilgi veren iki farklı tarihî anlatım biçimi olarak karşılaştır; bilgi, yorum, övgü ve dönem üslubunu ayırt ettir. Söz varlığı, ana düşünce, biyografi türü, öznel/nesnel anlatım ve kurgu-gerçeklik karşılaştırmasını anlamlandırmak.",
       "teacher_moves": [
@@ -457,7 +1989,241 @@
       "book_task_summaries": [
         "Mehmet Akif Ersoy — yapı, söz varlığı, değerler [QUESTION]",
         "Tezkire ve Usûlî [REFERENCE]",
-        "Usûlî tezkiresini çözümleme [QUESTION]"
+        "Usûlî tezkiresini çözümleme — Soru 1 [QUESTION]",
+        "Usûlî tezkiresini çözümleme — Soru 2 [QUESTION]",
+        "Usûlî tezkiresini çözümleme — Soru 3 [QUESTION]",
+        "Usûlî tezkiresini çözümleme — Soru 4 [QUESTION]",
+        "Usûlî tezkiresini çözümleme — Soru 5 [QUESTION]",
+        "Usûlî tezkiresini çözümleme — Soru 6 [QUESTION]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T3_G07_P205_YAPI_USLUP",
+          "printed_page_range": "205",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Yapı ve üslubu bilgi verme amacıyla ilişkilendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.205 / PDF s.206"
+          ],
+          "task_id": "T3_G07_P205_YAPI_USLUP",
+          "label": "Mehmet Akif Ersoy — yapı, söz varlığı, değerler",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Mehmet Akif Ersoy — yapı, söz varlığı, değerler",
+          "expected_answer": {
+            "yapi": "Kronolojik/tematik yaşam evreleri, eğitim-meslek-eser-toplumsal faaliyet ekseninde düzenlenir.",
+            "soz_uslup": "Alan terimleri, tarih/kurum/eser adları güvenilirlik ve bilgi yoğunluğu sağlar; açıklayıcı dil baskındır.",
+            "degerler": [
+              "vatanseverlik",
+              "sorumluluk",
+              "duyarlılık",
+              "çalışkanlık",
+              "maneviyat",
+              "toplumsal dayanışma"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T3_G07_P206_207_TEZKIRE_BILGI",
+          "printed_page_range": "206-207",
+          "item_type": "REFERENCE",
+          "acceptance_criteria": [
+            "Tezkireyi modern biyografiyle özdeşleştirmez."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.206-207"
+          ],
+          "task_id": "T3_G07_P206_207_TEZKIRE_BILGI",
+          "label": "Tezkire ve Usûlî",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Tezkire ve Usûlî",
+          "expected_answer": {
+            "tezkire": "Belirli alanda ünlenmiş kişilerin yaşam ve sanatından söz eden klasik biyografik tür.",
+            "suara_tezkire": "Şairlerin hayatı/şairliği ve şiir örneklerini içeren tezkire.",
+            "ilkler": {
+              "Türk_edebiyati": "Ali Şîr Nevâî — Mecâlisü’n-Nefâis",
+              "Anadolu": "Sehî Bey — Heşt-Bihişt"
+            },
+            "Usuli": "Bağdatlı Ahdî’nin Gülşen-i Şu’arâ’sından, şairin hayatı/kişiliği ve şiir örneklerini bir arada sunan parça."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T3_G07_P208_Q1_6",
+          "printed_page_range": "208",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Dönem dili ile tür işlevini birlikte değerlendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.208 / PDF s.209"
+          ],
+          "task_id": "T3_G07_P208_Q1_6#Q1",
+          "label": "Usûlî tezkiresini çözümleme — Soru 1",
+          "question_number": "1",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.208 — 1. soru",
+          "expected_answer": "Günümüzde kullanılmayan söz varlığı bağlamdan tahmin edilir; on kelime sınıfça seçilip cümlede kullanılır.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G07_P208_Q1_6",
+          "printed_page_range": "208",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Dönem dili ile tür işlevini birlikte değerlendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.208 / PDF s.209"
+          ],
+          "task_id": "T3_G07_P208_Q1_6#Q2",
+          "label": "Usûlî tezkiresini çözümleme — Soru 2",
+          "question_number": "2",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.208 — 2. soru",
+          "expected_answer": "Metin, dönem dili ve övgü/değerlendirme üslubu nedeniyle tarihî/edebî bir izlenim uyandırabilir; gerekçeli kişisel yanıt kabul edilir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G07_P208_Q1_6",
+          "printed_page_range": "208",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Dönem dili ile tür işlevini birlikte değerlendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.208 / PDF s.209"
+          ],
+          "task_id": "T3_G07_P208_Q1_6#Q3",
+          "label": "Usûlî tezkiresini çözümleme — Soru 3",
+          "question_number": "3",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.208 — 3. soru",
+          "expected_answer": "Osmanlı/Divan kültürü, tasavvuf çevresi, dönem söz varlığı ve sanatçı değerlendirme geleneği metnin içerik/yapı/diline yansır.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G07_P208_Q1_6",
+          "printed_page_range": "208",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Dönem dili ile tür işlevini birlikte değerlendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.208 / PDF s.209"
+          ],
+          "task_id": "T3_G07_P208_Q1_6#Q4",
+          "label": "Usûlî tezkiresini çözümleme — Soru 4",
+          "question_number": "4",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.208 — 4. soru",
+          "expected_answer": "Her ikisi de gerçek kişinin yaşamını, kişiliğini, meslek/sanat yönünü tanıtır.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G07_P208_Q1_6",
+          "printed_page_range": "208",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Dönem dili ile tür işlevini birlikte değerlendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.208 / PDF s.209"
+          ],
+          "task_id": "T3_G07_P208_Q1_6#Q5",
+          "label": "Usûlî tezkiresini çözümleme — Soru 5",
+          "question_number": "5",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.208 — 5. soru",
+          "expected_answer": "Bilgi verme, kişiyi tanıtma, örnek/kanıt sunma gibi öğretici metin özellikleri bulunur; buna karşın tezkire dönemsel edebî üslup ve öznel değerlendirmeler de taşır.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G07_P208_Q1_6",
+          "printed_page_range": "208",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Dönem dili ile tür işlevini birlikte değerlendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.208 / PDF s.209"
+          ],
+          "task_id": "T3_G07_P208_Q1_6#Q6",
+          "label": "Usûlî tezkiresini çözümleme — Soru 6",
+          "question_number": "6",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.208 — 6. soru",
+          "expected_answer": "Kişisel hayat metinleri sanatçının eserlerini, dönemini ve kişilik/üretim ilişkisini anlamayı; kültürel belleği korumayı sağlar.",
+          "expected_response": null,
+          "split_from_group": true
+        }
       ],
       "pedagogical_intent": "Biyografi ve tezkireyi kişi hakkında bilgi veren iki farklı tarihî anlatım biçimi olarak karşılaştır; bilgi, yorum, övgü ve dönem üslubunu ayırt ettir. Biyografi yapı/üslubunu, değerleri ve tezkire ile ortak/farklı yönleri çözümlemek.",
       "teacher_moves": [
@@ -513,6 +2279,45 @@
       "book_task_summaries": [
         "Biyografi metnini ölçütlerle değerlendirme [ASSESSMENT]"
       ],
+      "task_cards": [
+        {
+          "source_item_ref": "T3_G08_P209_Q1_4",
+          "printed_page_range": "209",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "En az iki ölçüt belirler.",
+            "Beğeni/eleştiriyi gerekçelendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.209 / PDF s.210"
+          ],
+          "task_id": "T3_G08_P209_Q1_4",
+          "label": "Biyografi metnini ölçütlerle değerlendirme",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Biyografi metnini ölçütlerle değerlendirme",
+          "expected_answer": {
+            "olcut_ornekleri": [
+              "yalınlık/açıklık",
+              "bilgi güvenilirliği",
+              "düzen/kronoloji",
+              "tarafsızlık",
+              "edebî kişiliği açıklama yeterliliği"
+            ],
+            "degerlendirme": "Her ölçüt için metinden gözlenebilir kanıt ve gerekçe aranır.",
+            "amac": "Metin Mehmet Akif’in yaşam ve sanat kişiliğini kapsamlı biçimde tanıttığı ölçüde bilgi verme amacına ulaşır."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        }
+      ],
       "pedagogical_intent": "Biyografi ve tezkireyi kişi hakkında bilgi veren iki farklı tarihî anlatım biçimi olarak karşılaştır; bilgi, yorum, övgü ve dönem üslubunu ayırt ettir. Metni öğrenci tarafından belirlenen beğeni ölçütleri ve yazılma amacı açısından değerlendirmek.",
       "teacher_moves": [
         "Öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.",
@@ -566,8 +2371,94 @@
         "T3_G09_P211_PERFORMANS"
       ],
       "book_task_summaries": [
-        "Kemal Tahir mülakatından hareketle amaç ve planlama [QUESTION]",
+        "Kemal Tahir mülakatından hareketle amaç ve planlama — Soru 1 [QUESTION]",
+        "Kemal Tahir mülakatından hareketle amaç ve planlama — Soru 2 [QUESTION]",
         "Huzur kişisiyle hayalî mülakat — performans görevi [PERFORMANCE_TASK]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T3_G09_P210_Q1_2",
+          "printed_page_range": "210",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Mülakatın bilgi edinme ve doğrudan kaynak işlevini fark eder."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.210 / PDF s.211"
+          ],
+          "task_id": "T3_G09_P210_Q1_2#Q1",
+          "label": "Kemal Tahir mülakatından hareketle amaç ve planlama — Soru 1",
+          "question_number": "1",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.210 — 1. soru",
+          "expected_answer": "Yazarın roman konusunu, kişilerini, çalışma yöntemini ve Türkçe hakkındaki görüşlerini doğrudan kendi sözlerinden öğrenmek.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G09_P210_Q1_2",
+          "printed_page_range": "210",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Mülakatın bilgi edinme ve doğrudan kaynak işlevini fark eder."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.210 / PDF s.211"
+          ],
+          "task_id": "T3_G09_P210_Q1_2#Q2",
+          "label": "Kemal Tahir mülakatından hareketle amaç ve planlama — Soru 2",
+          "question_number": "2",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.210 — 2. soru",
+          "expected_answer": "Önceden soru/süre/hedef kitle belirlemek konuşmayı odaklar, süre yönetimini kolaylaştırır, soruların niteliğini ve dinleyiciye uygunluğu artırır.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G09_P211_PERFORMANS",
+          "printed_page_range": "211",
+          "item_type": "PERFORMANCE_TASK",
+          "acceptance_criteria": [
+            "Seçilen kişinin cevapları roman bağlamıyla tutarlı olur."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.211 / PDF s.212"
+          ],
+          "task_id": "T3_G09_P211_PERFORMANS",
+          "label": "Huzur kişisiyle hayalî mülakat — performans görevi",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Huzur kişisiyle hayalî mülakat — performans görevi",
+          "expected_answer": [
+            "Altı grup ve sözcü oluştur.",
+            "Bir Huzur kişisi seç ve seçim nedenini karakter özelliğiyle açıkla.",
+            "Amaç, hedef kitle, tür, içerik, hazırlık süresi ve stratejiyi belirle.",
+            "Roman kişisinin metindeki özelliklerini temel al."
+          ],
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Huzur kişisiyle hayalî mülakatı karakter bilgisine dayalı soru-cevap üretimi olarak yürüt; karaktere metinde olmayan kesin bilgiler yükleme. Mülakatın amaç/kitlesini belirlemek, Huzur kişisini seçmek ve hazırlıklı konuşma stratejisini planlamak.",
       "teacher_moves": [
@@ -626,6 +2517,41 @@
       "book_task_summaries": [
         "Mülakat soru-cevap tasarımı [PROCESS]"
       ],
+      "task_cards": [
+        {
+          "source_item_ref": "T3_G10_P212_SORU_CEVAP",
+          "printed_page_range": "212",
+          "item_type": "PROCESS",
+          "acceptance_criteria": [
+            "Sorular roman kişisinin özelliklerini açığa çıkarır.",
+            "Cevaplar roman kanıtlarıyla uyumludur."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.212 / PDF s.213"
+          ],
+          "task_id": "T3_G10_P212_SORU_CEVAP",
+          "label": "Mülakat soru-cevap tasarımı",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Mülakat soru-cevap tasarımı",
+          "expected_answer": [
+            "‘Gerçek hayatta olsaydı nasıl konuşur/davranır/ne işle uğraşırdı?’ benzeri sorular üret.",
+            "Soruları romanın yapı, içerik, dil/anlatım özelliklerine göre derecelendir.",
+            "En nitelikli soruları seç.",
+            "Roman kişisinin dil, beden dili, vurgu/tonlama ve varsa ağız özelliklerini bağlamdan türet.",
+            "Giriş-gelişme-sonuç ve hedef kitle beklentisini planla."
+          ],
+          "expected_response": null,
+          "split_from_group": false
+        }
+      ],
       "pedagogical_intent": "Huzur kişisiyle hayalî mülakatı karakter bilgisine dayalı soru-cevap üretimi olarak yürüt; karaktere metinde olmayan kesin bilgiler yükleme. Roman kişisine uygun nitelikli soru-cevap içeriği ve hedef kitleye uygun konuşma tasarımı oluşturmak.",
       "teacher_moves": [
         "Cevabın yanına kısa metin, görsel veya dinleme kanıtı istemeyi varsayılan sınıf rutini hâline getir.",
@@ -682,6 +2608,42 @@
       ],
       "book_task_summaries": [
         "Mülakatı gerçekleştirme [PERFORMANCE_TASK]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T3_G11_P213_PERFORMANS",
+          "printed_page_range": "213",
+          "item_type": "PERFORMANCE_TASK",
+          "acceptance_criteria": [
+            "Karakter rolü ile roman bağlamı tutarlı.",
+            "Konuşma amacı ve hedef kitle gözetilir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.213 / PDF s.214"
+          ],
+          "task_id": "T3_G11_P213_PERFORMANS",
+          "label": "Mülakatı gerçekleştirme",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Mülakatı gerçekleştirme",
+          "expected_answer": [
+            "Dikkat çekici giriş, etkili sürdürme ve bitiriş.",
+            "Roman kişisine özgü, anlaşılır ve tutarlı cevaplar.",
+            "Düşünceyi geliştirme yolları ve açık/örtük iletiler.",
+            "Millî/manevi değerler ve kültürel unsurlara bağlama uygun yaklaşım.",
+            "Toplumsal hassasiyet, görgü kuralları ve dil doğruluğu.",
+            "Beden dili, diksiyon, zaman ve mekânın etkili kullanımı."
+          ],
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Huzur kişisiyle hayalî mülakatı karakter bilgisine dayalı soru-cevap üretimi olarak yürüt; karaktere metinde olmayan kesin bilgiler yükleme. Planlanan hayalî mülakatı etkili dil, üslup, beden dili ve yapı kurallarıyla gerçekleştirmek.",
       "teacher_moves": [
@@ -744,6 +2706,93 @@
         "Öz Değerlendirme Formu — görünen 6 ölçüt [ASSESSMENT]",
         "Dış QR dereceli puanlama anahtarı / akran formu [REFERENCE]"
       ],
+      "task_cards": [
+        {
+          "source_item_ref": "T3_G12_P214_Q1_2",
+          "printed_page_range": "214",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "Her önemli karakter yargısı için roman kanıtı/gerekçe sunar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.214 / PDF s.215"
+          ],
+          "task_id": "T3_G12_P214_Q1_2",
+          "label": "Açık/örtük iletiler ve yargıların dayanağı",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Açık/örtük iletiler ve yargıların dayanağı",
+          "expected_answer": "Öğrenci hayalî cevapların romandaki hangi söz, davranış, ilişki veya değerlerden türetildiğini açıklar; açık/örtük iletileri bu dayanaklarla değerlendirir.",
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T3_G12_P214_OZ_DEGER",
+          "printed_page_range": "214",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "Evet/Kısmen/Hayır seçimi sonraki gelişim hedefiyle ilişkilendirilir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.214 / PDF s.215"
+          ],
+          "task_id": "T3_G12_P214_OZ_DEGER",
+          "label": "Öz Değerlendirme Formu — görünen 6 ölçüt",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Öz Değerlendirme Formu — görünen 6 ölçüt",
+          "expected_answer": [
+            "özgün ve tutarlı duygu/düşünce/hayal",
+            "dilin kullanım alanına uygunluk",
+            "beden dili-diksiyon-telaffuz",
+            "Türkçenin yapısı/işlevi/bağdaşıklık",
+            "akıcılık-duruluk-yalınlık",
+            "ekleri doğru ve kelimeleri bağlama uygun kullanma"
+          ],
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T3_G12_P214_QR_RUBRIK",
+          "printed_page_range": "214",
+          "item_type": "REFERENCE",
+          "acceptance_criteria": [],
+          "canonical_teacher_guidance": [
+            "PDF sayfasında rubrik ve akran formuna QR yönlendirmesi vardır; QR içindeki tam ölçüt×düzey matrisi yerel PDF’ye gömülü değildir. Görünmeyen matrisi üretme/uydurma."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.214 / PDF s.215"
+          ],
+          "task_id": "T3_G12_P214_QR_RUBRIK",
+          "label": "Dış QR dereceli puanlama anahtarı / akran formu",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Dış QR dereceli puanlama anahtarı / akran formu",
+          "expected_answer": null,
+          "expected_response": null,
+          "split_from_group": false
+        }
+      ],
       "pedagogical_intent": "Huzur kişisiyle hayalî mülakatı karakter bilgisine dayalı soru-cevap üretimi olarak yürüt; karaktere metinde olmayan kesin bilgiler yükleme. Açık/örtük ileti, kanıt, öz değerlendirme ve akran/öğretmen geri bildirimiyle konuşmayı değerlendirmek.",
       "teacher_moves": [
         "Öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.",
@@ -800,8 +2849,121 @@
         "T3_G13_P216_YONETIM"
       ],
       "book_task_summaries": [
-        "Radyo tiyatrosuna giriş [QUESTION]",
+        "Radyo tiyatrosuna giriş — Soru 1 [QUESTION]",
+        "Radyo tiyatrosuna giriş — Soru 2 [QUESTION]",
+        "Radyo tiyatrosuna giriş — Soru 3 [QUESTION]",
         "Dinleme amacı, strateji ve tahmin [PROCESS]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T3_G13_P215_Q1_3",
+          "printed_page_range": "215",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Karşılaştırmada iki aracın özelliklerini gerekçelendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.215 / PDF s.216"
+          ],
+          "task_id": "T3_G13_P215_Q1_3#Q1",
+          "label": "Radyo tiyatrosuna giriş — Soru 1",
+          "question_number": "1",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.215 — 1. soru",
+          "expected_answer": "İlginin azalması televizyon/dijital görsel kültür, eğlence odaklı yayın ve üretim koşullarıyla ilişkilendirilebilir; gerekçeli farklı açıklamalar kabul edilir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G13_P215_Q1_3",
+          "printed_page_range": "215",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Karşılaştırmada iki aracın özelliklerini gerekçelendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.215 / PDF s.216"
+          ],
+          "task_id": "T3_G13_P215_Q1_3#Q2",
+          "label": "Radyo tiyatrosuna giriş — Soru 2",
+          "question_number": "2",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.215 — 2. soru",
+          "expected_answer": "Edebî-estetik kaygının azalması dil/üslup niteliğinin, hayal gücü ve kültürel derinliğin zayıflamasına yol açabilir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G13_P215_Q1_3",
+          "printed_page_range": "215",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Karşılaştırmada iki aracın özelliklerini gerekçelendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.215 / PDF s.216"
+          ],
+          "task_id": "T3_G13_P215_Q1_3#Q3",
+          "label": "Radyo tiyatrosuna giriş — Soru 3",
+          "question_number": "3",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.215 — 3. soru",
+          "expected_answer": "Radyo tiyatrosu görseli hazır vermediği için ses, söz, müzik ve efekt üzerinden dinleyicinin zihinsel imge üretimine daha fazla alan açabilir; televizyon görselliği doğrudan sunar.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G13_P216_YONETIM",
+          "printed_page_range": "216",
+          "item_type": "PROCESS",
+          "acceptance_criteria": [],
+          "canonical_teacher_guidance": [
+            "Video/QR medya yerel PDF’ye gömülü değildir; olay/karakter ayrıntısını yalnız gerçekten izlenen içerikten sonra doğrula."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.216 / PDF s.217"
+          ],
+          "task_id": "T3_G13_P216_YONETIM",
+          "label": "Dinleme amacı, strateji ve tahmin",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Dinleme amacı, strateji ve tahmin",
+          "expected_answer": [
+            "Dinleme amacını seç ve açıkla.",
+            "Çözümlemeye uygun dinleme stratejisi belirle.",
+            "‘Direnişin Ustaları’ başlığından konu ve amaç için tahminde bulun.",
+            "Gözlem Formu ölçütlerini süreçte dikkate al."
+          ],
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Radyo tiyatrosunu ses, diyalog, efekt, müzik, sessizlik ve dinleyici hayal gücünün birlikte kurduğu çok modlu işitsel anlatı olarak çözümlet. Radyo tiyatrosu ön bilgisini etkinleştirmek ve dinleme amacı/stratejisi/tahminleri belirlemek.",
       "teacher_moves": [
@@ -865,6 +3027,136 @@
         "Direnişin Ustaları — konu, tema, kişi, dönem/üslup/tür [QUESTION]",
         "Osmancık sahne tiyatrosu ile karşılaştırma [TABLE]"
       ],
+      "task_cards": [
+        {
+          "source_item_ref": "T3_G14_P217_SOZ_VARLIGI",
+          "printed_page_range": "217",
+          "item_type": "VOCABULARY",
+          "acceptance_criteria": [
+            "Bağlama uygun eş/alternatif ifade önerir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.217 / PDF s.218"
+          ],
+          "task_id": "T3_G14_P217_SOZ_VARLIGI",
+          "label": "Radyo tiyatrosu söz varlığı",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Radyo tiyatrosu söz varlığı",
+          "expected_answer": {
+            "direniş": "karşı koyma",
+            "ihbar": "yetkili makama bildirme/haber verme",
+            "torna": "metal/ahşabı döndürerek biçimlendiren tezgâh",
+            "kafa yormak": "üzerinde çok düşünmek",
+            "haber uçurmak": "gizlice/çabucak haber iletmek"
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T3_G14_P218_RADYO_UNSURLARI",
+          "printed_page_range": "218",
+          "item_type": "REFERENCE",
+          "acceptance_criteria": [
+            "En az iki ses unsurunun işlevini açıklar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.218 / PDF s.219"
+          ],
+          "task_id": "T3_G14_P218_RADYO_UNSURLARI",
+          "label": "Radyo tiyatrosunda ses, söz, efekt, müzik",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Radyo tiyatrosunda ses, söz, efekt, müzik",
+          "expected_answer": "Görüntü eksikliğini seslendirme, söz, efekt ve müzik tamamlar. Ses rengi, tonlama ve efektler kişi, mekân, zaman ve atmosferi zihinde kurdurur; küçük bir ses/efekt bile anlamı değiştirebilir.",
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T3_G14_P218_220_METIN_Q",
+          "printed_page_range": "218-220",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Medya içeriğini uydurmaz.",
+            "Çıkarımını duyulan/izlenen unsura bağlar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.218-220"
+          ],
+          "task_id": "T3_G14_P218_220_METIN_Q",
+          "label": "Direnişin Ustaları — konu, tema, kişi, dönem/üslup/tür",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Direnişin Ustaları — konu, tema, kişi, dönem/üslup/tür",
+          "expected_answer": {
+            "cevaplama_kurali": "Konu, tema, amaç, kahraman davranışları, dönem, zihniyet, üslup, ileti ve yazarın sanat anlayışı yalnız izlenen/dinlenen medya kanıtına göre doldurulur.",
+            "tur": "Radyo tiyatrosu/radyo oyunu; ses, söz, müzik ve efekt üzerinden dramatik anlatı.",
+            "karsilastirma": "Sahnelenen tiyatro ile ortak dramatik yapı/diyalog/oyunculuk taşır; radyo tiyatrosunda dekor/görsel sahne yerine ses ve dinleyicinin hayal gücü belirleyicidir."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T3_G14_P220_OSMANCIK",
+          "printed_page_range": "220",
+          "item_type": "TABLE",
+          "acceptance_criteria": [],
+          "canonical_teacher_guidance": [
+            "Osmancık videosunun somut ayrıntılarını video izlenmeden cevap anahtarına ekleme."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.220 / PDF s.221"
+          ],
+          "task_id": "T3_G14_P220_OSMANCIK",
+          "label": "Osmancık sahne tiyatrosu ile karşılaştırma",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Osmancık sahne tiyatrosu ile karşılaştırma",
+          "expected_answer": {
+            "olcutler": [
+              "müzik",
+              "dil kullanımı",
+              "ileti",
+              "maliyet",
+              "duygu değişimleri",
+              "dekor",
+              "ses tonu",
+              "atmosfer",
+              "empati"
+            ],
+            "genel": "Her iki tür dramatik anlatı ve oyuncu sesi kullanabilir; sahne tiyatrosu görsel dekor/beden/mekânı doğrudan gösterirken radyo tiyatrosu bunları ses ve hayal gücüyle kurar."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        }
+      ],
       "pedagogical_intent": "Radyo tiyatrosunu ses, diyalog, efekt, müzik, sessizlik ve dinleyici hayal gücünün birlikte kurduğu çok modlu işitsel anlatı olarak çözümlet. Söz varlığı, konu/tema/amaç, kişi ve radyo tiyatrosunun çok modlu özelliklerini anlamlandırmak.",
       "teacher_moves": [
         "Cevabın yanına kısa metin, görsel veya dinleme kanıtı istemeyi varsayılan sınıf rutini hâline getir.",
@@ -922,6 +3214,79 @@
       "book_task_summaries": [
         "Radyo tiyatrosu yapı unsurları [TABLE]",
         "Değerlerin iletilere etkisi — görüş geliştirme [PROCESS]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T3_G15_P221_YAPI",
+          "printed_page_range": "221",
+          "item_type": "TABLE",
+          "acceptance_criteria": [
+            "Yapı unsurunun dramatik örgüye katkısını açıklar."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.221 / PDF s.222"
+          ],
+          "task_id": "T3_G15_P221_YAPI",
+          "label": "Radyo tiyatrosu yapı unsurları",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Radyo tiyatrosu yapı unsurları",
+          "expected_answer": {
+            "alanlar": [
+              "kişi",
+              "yer/mekân",
+              "zaman",
+              "dramatik örgü",
+              "çatışma"
+            ],
+            "cevaplama_kurali": "Her alan dinlenen/izlenen metindeki somut kanıtla doldurulur."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T3_G15_P222_GORUS",
+          "printed_page_range": "222",
+          "item_type": "PROCESS",
+          "acceptance_criteria": [
+            "Katılma derecesini gerekçeyle açıklar.",
+            "Farklı görüşü dinleyip gerekirse görüşünü günceller."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.222 / PDF s.223"
+          ],
+          "task_id": "T3_G15_P222_GORUS",
+          "label": "Değerlerin iletilere etkisi — görüş geliştirme",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Değerlerin iletilere etkisi — görüş geliştirme",
+          "expected_answer": {
+            "odak_gorus": "Millî ve manevi değerleri yansıtan unsurlar arasındaki etkileşim, metnin iletilerinin ortaya çıkarılmasında işlevseldir.",
+            "deger_ornekleri": [
+              "saygı",
+              "vatanseverlik",
+              "duyarlılık",
+              "hoşgörü",
+              "aile bütünlüğü"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Radyo tiyatrosunu ses, diyalog, efekt, müzik, sessizlik ve dinleyici hayal gücünün birlikte kurduğu çok modlu işitsel anlatı olarak çözümlet. Dramatik yapı, kişi amaçları, millî/manevi değerler ve iletiler arası ilişkileri çözümlemek.",
       "teacher_moves": [
@@ -981,6 +3346,77 @@
         "Radyo tiyatrosunu değerlendirme ve sosyal bilimlerle ilişki [ASSESSMENT]",
         "Öğrenme Günlüğü [ASSESSMENT]"
       ],
+      "task_cards": [
+        {
+          "source_item_ref": "T3_G16_P223_DEGER",
+          "printed_page_range": "223",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "Değerlendirme ölçütü açık ve gözlenebilir olur."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.223 / PDF s.224"
+          ],
+          "task_id": "T3_G16_P223_DEGER",
+          "label": "Radyo tiyatrosunu değerlendirme ve sosyal bilimlerle ilişki",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Radyo tiyatrosunu değerlendirme ve sosyal bilimlerle ilişki",
+          "expected_answer": {
+            "olcut_ornegi": "Dil kullanımı: yalın, doğal ve etkileyici olup olmadığı medya kanıtıyla değerlendirilir.",
+            "sosyal_bilim": [
+              "metin-tarih",
+              "metin-sosyoloji",
+              "metin-psikoloji"
+            ],
+            "degerlendirme": [
+              "konuyu tarihî gerçeklerle karşılaştır",
+              "bir kişiyle empati kurup davranışını değerlendir"
+            ]
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T3_G16_P224_OGRENME_GUNLUGU",
+          "printed_page_range": "224",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "Öğrenci beğenisini ve metin-yaşam ilişkisini gerekçelendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.224 / PDF s.225"
+          ],
+          "task_id": "T3_G16_P224_OGRENME_GUNLUGU",
+          "label": "Öğrenme Günlüğü",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Öğrenme Günlüğü",
+          "expected_answer": [
+            "Bu süreçte öğrendiklerim",
+            "Pekiştirmem gereken konular",
+            "Daha ayrıntılı incelemek istediğim konular",
+            "Kendimi geliştirmek için çaba harcadığım konular",
+            "Gelecekte kullanabileceğim bilgiler"
+          ],
+          "expected_response": null,
+          "split_from_group": false
+        }
+      ],
       "pedagogical_intent": "Radyo tiyatrosunu ses, diyalog, efekt, müzik, sessizlik ve dinleyici hayal gücünün birlikte kurduğu çok modlu işitsel anlatı olarak çözümlet. Radyo tiyatrosunu ölçütlerle, tarihsel gerçeklik ve empati üzerinden değerlendirmek; öğrenme günlüğüyle süreci yansıtmak.",
       "teacher_moves": [
         "Öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.",
@@ -1039,6 +3475,68 @@
         "Radyo oyununun özellikleri ve dönüşüm görevi [REFERENCE]",
         "Yazma yöntemi ve stratejisi [PROCESS]"
       ],
+      "task_cards": [
+        {
+          "source_item_ref": "T3_G17_P225_RADYO_OYUNU",
+          "printed_page_range": "225",
+          "item_type": "REFERENCE",
+          "acceptance_criteria": [
+            "Diyalog seçme ölçütünü gerekçelendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.225 / PDF s.226"
+          ],
+          "task_id": "T3_G17_P225_RADYO_OYUNU",
+          "label": "Radyo oyununun özellikleri ve dönüşüm görevi",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Radyo oyununun özellikleri ve dönüşüm görevi",
+          "expected_answer": {
+            "ozellikler": [
+              "temel göstergesi ses",
+              "diyalog merkezli dramatik yapı",
+              "müzik/efektle zaman ve mekân kurma",
+              "görülmeyen tiyatro ve dinleyici hayal gücü"
+            ],
+            "gorev": "Direnişin Ustaları’ndan seçilen bir diyaloğu bağlamı koruyarak hikâye, anı vb. başka türe dönüştürmek."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T3_G17_P225_STRATEJI",
+          "printed_page_range": "225",
+          "item_type": "PROCESS",
+          "acceptance_criteria": [
+            "Kaynak metin bağlamı ile hedef tür özellikleri birlikte gözetilir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.225 / PDF s.226"
+          ],
+          "task_id": "T3_G17_P225_STRATEJI",
+          "label": "Yazma yöntemi ve stratejisi",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Yazma yöntemi ve stratejisi",
+          "expected_answer": "Dönüştürülecek diyaloğun olay/kişi/ileti bağlamını koruyacak, hedef türün yapı ve anlatım özelliklerini kullanacak uygun yazma stratejisi belirlenir.",
+          "expected_response": null,
+          "split_from_group": false
+        }
+      ],
       "pedagogical_intent": "Radyo tiyatrosu diyaloğunu başka türe dönüştürürken olayın çekirdeğini koru; yeni türün anlatıcı, yapı, dil ve biçim gerekliliklerini bilinçli uygulat. Direnişin Ustaları’ndan bir diyaloğu seçmek ve bağlama uygun tür dönüşümü için yöntem/strateji belirlemek.",
       "teacher_moves": [
         "Göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir.",
@@ -1093,6 +3591,41 @@
       "book_task_summaries": [
         "Dönüştürme yazısı planı [PERFORMANCE_TASK]"
       ],
+      "task_cards": [
+        {
+          "source_item_ref": "T3_G18_P226_PLAN",
+          "printed_page_range": "226",
+          "item_type": "PERFORMANCE_TASK",
+          "acceptance_criteria": [
+            "Plan, kaynak diyaloğun bağlamını ve hedef türün gerekliliklerini birlikte taşır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.226 / PDF s.227"
+          ],
+          "task_id": "T3_G18_P226_PLAN",
+          "label": "Dönüştürme yazısı planı",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Dönüştürme yazısı planı",
+          "expected_answer": [
+            "Yazma amacını belirle.",
+            "Hedef türün özelliklerini belirle.",
+            "Tür ve stratejiyi seç.",
+            "Diyalogdaki kişileri kendi özelliklerine uygun konuştur/anlat.",
+            "Kişilerle empati kurarak iletiyi tahmin et.",
+            "Bölümleri planla."
+          ],
+          "expected_response": null,
+          "split_from_group": false
+        }
+      ],
       "pedagogical_intent": "Radyo tiyatrosu diyaloğunu başka türe dönüştürürken olayın çekirdeğini koru; yeni türün anlatıcı, yapı, dil ve biçim gerekliliklerini bilinçli uygulat. Amaç, tür, hedef kitle, ileti, kişi ve yapı unsurlarını planlamak.",
       "teacher_moves": [
         "Cevabın yanına kısa metin, görsel veya dinleme kanıtı istemeyi varsayılan sınıf rutini hâline getir.",
@@ -1146,6 +3679,43 @@
       ],
       "book_task_summaries": [
         "Yazma uygulama ölçütleri [PERFORMANCE_TASK]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T3_G19_P227_KURAL",
+          "printed_page_range": "227",
+          "item_type": "PERFORMANCE_TASK",
+          "acceptance_criteria": [
+            "Tür dönüşümü yalnız biçim değişikliği değil; yapı ve anlatıcı/ifade araçları da hedef türe uyarlanır."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.227 / PDF s.228"
+          ],
+          "task_id": "T3_G19_P227_KURAL",
+          "label": "Yazma uygulama ölçütleri",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Yazma uygulama ölçütleri",
+          "expected_answer": [
+            "Kaynak metnin genel dil özelliklerini gerektiği ölçüde koru.",
+            "Hedef kitle/tür/içerik/iletiyi belirle.",
+            "Hedef türe uygun yapı unsurlarını kullan.",
+            "Gerekli bilgi ve görselleri güvenilir kaynaklardan araştır.",
+            "Karşılaştırma cümlesi, anlatım biçimi ve düşünceyi geliştirme yollarından yararlan.",
+            "Söz varlığını ve dil işlevlerini planla.",
+            "Taslağı akran geri bildirimiyle geliştir.",
+            "Dikkat çekici giriş ve karaktere uygun anlatım kullan."
+          ],
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Radyo tiyatrosu diyaloğunu başka türe dönüştürürken olayın çekirdeğini koru; yeni türün anlatıcı, yapı, dil ve biçim gerekliliklerini bilinçli uygulat. Taslağı hedef kitle, söz varlığı, yapı, anlatım biçimi ve dil işlevleriyle zenginleştirip metni üretmek.",
       "teacher_moves": [
@@ -1205,6 +3775,107 @@
         "Öz Değerlendirme Formu — 6 ölçüt [ASSESSMENT]",
         "Tema 3-2-1 Çıkış Kartı [ASSESSMENT]"
       ],
+      "task_cards": [
+        {
+          "source_item_ref": "T3_G20_P228_DEGER",
+          "printed_page_range": "228",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "Geri bildirim sonrası somut düzeltme yapar."
+          ],
+          "canonical_teacher_guidance": [
+            "PDF, dış QR Dereceli Puanlama Anahtarı’na yönlendiriyor; görünmeyen tam ölçüt×düzey matrisini uydurma."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.228 / PDF s.229"
+          ],
+          "task_id": "T3_G20_P228_DEGER",
+          "label": "Öğretmen değerlendirmesi ve düzeltme",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Öğretmen değerlendirmesi ve düzeltme",
+          "expected_answer": [
+            "bağlama/hedef kitleye uygun söz varlığı",
+            "özgün ve tutarlı ifade",
+            "etkili başlatma-sürdürme-bitirme",
+            "açık/örtük ileti",
+            "olumlu değerler ve toplumsal hassasiyet",
+            "dil yapısı/bağdaşıklık/yazım-noktalama",
+            "içeriğe uygun başlık"
+          ],
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T3_G20_P229_OZ_DEGER",
+          "printed_page_range": "229",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "Kısmen/Hayır işaretlenen alanlar için gelişim eylemi belirlenir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.229 / PDF s.230"
+          ],
+          "task_id": "T3_G20_P229_OZ_DEGER",
+          "label": "Öz Değerlendirme Formu — 6 ölçüt",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Öz Değerlendirme Formu — 6 ölçüt",
+          "expected_answer": [
+            "uygun başlık",
+            "dönüştürülen diyaloğun içeriğini yansıtma",
+            "bağlam/hedef kitleye uygun söz varlığı",
+            "anlatım biçimleri ve düşünceyi geliştirme yolları",
+            "dil yapısı/bağdaşıklık/yazım-noktalama",
+            "Türkçeyi bilinçli ve özenli kullanma"
+          ],
+          "expected_response": null,
+          "split_from_group": false
+        },
+        {
+          "source_item_ref": "T3_G20_P229_CIKIS",
+          "printed_page_range": "229",
+          "item_type": "ASSESSMENT",
+          "acceptance_criteria": [
+            "Eksiklerini düzeltmeye dönük sonraki adımı ifade eder."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.229 / PDF s.230"
+          ],
+          "task_id": "T3_G20_P229_CIKIS",
+          "label": "Tema 3-2-1 Çıkış Kartı",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Tema 3-2-1 Çıkış Kartı",
+          "expected_answer": {
+            "uc_yaz": "Temada öğrenilen konu/kavramlarla ilgili üç bilgi.",
+            "iki_sor": "Eksik/kavram yanılgısına yönelik iki soru.",
+            "bir_paylas": "En çok etkileyen konu ve gerekçesi."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        }
+      ],
       "pedagogical_intent": "Radyo tiyatrosu diyaloğunu başka türe dönüştürürken olayın çekirdeğini koru; yeni türün anlatıcı, yapı, dil ve biçim gerekliliklerini bilinçli uygulat. Üretilen metni dil/üslup, özgünlük, bağlam, başlık ve yazım açısından değerlendirip geri bildirimle düzeltmek.",
       "teacher_moves": [
         "Öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.",
@@ -1262,12 +3933,488 @@
         "T3_G21_P235_Q16"
       ],
       "book_task_summaries": [
-        "Soru 1-2 — tez/antitez ve sentez [QUESTION]",
-        "Soru 3-6 — kurmaca ve gerçeklik [QUESTION]",
-        "Soru 7-11 — Orhan Veli ve biyografi yarışması [QUESTION]",
-        "Soru 12-13 — Bir Bilim Adamının Romanı [QUESTION]",
-        "Soru 14-15 — diyalog ve Aile Bağları videosu [QUESTION]",
+        "Soru 1-2 — tez/antitez ve sentez — Soru 1 [QUESTION]",
+        "Soru 1-2 — tez/antitez ve sentez — Soru 2 [QUESTION]",
+        "Soru 3-6 — kurmaca ve gerçeklik — Soru 3 [QUESTION]",
+        "Soru 3-6 — kurmaca ve gerçeklik — Soru 4 [QUESTION]",
+        "Soru 3-6 — kurmaca ve gerçeklik — Soru 5 [QUESTION]",
+        "Soru 3-6 — kurmaca ve gerçeklik — Soru 6 [QUESTION]",
+        "Soru 7-11 — Orhan Veli ve biyografi yarışması — Soru 7 [QUESTION]",
+        "Soru 7-11 — Orhan Veli ve biyografi yarışması — Soru 8 [QUESTION]",
+        "Soru 7-11 — Orhan Veli ve biyografi yarışması — Soru 9 [QUESTION]",
+        "Soru 7-11 — Orhan Veli ve biyografi yarışması — Soru 10 [QUESTION]",
+        "Soru 7-11 — Orhan Veli ve biyografi yarışması — Soru 11 [QUESTION]",
+        "Soru 12-13 — Bir Bilim Adamının Romanı — Soru 12 [QUESTION]",
+        "Soru 12-13 — Bir Bilim Adamının Romanı — Soru 13 [QUESTION]",
+        "Soru 14-15 — diyalog ve Aile Bağları videosu — Soru 14 [QUESTION]",
+        "Soru 14-15 — diyalog ve Aile Bağları videosu — Soru 15 [QUESTION]",
         "Soru 16 — roman/tezkire ve yazar hayatı [QUESTION]"
+      ],
+      "task_cards": [
+        {
+          "source_item_ref": "T3_G21_P230_Q1_2",
+          "printed_page_range": "230",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Tez/antitez seçimini kaynak/metin kanıtıyla gerekçelendirir.",
+            "Kesişim cümlesi iki yargıyı uzlaştırır."
+          ],
+          "canonical_teacher_guidance": [
+            "Basılı sayfa görselindeki kaynak başlıkları ayrıca doğrulanırsa numara anahtarı güncellenebilir."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.230 / PDF s.231"
+          ],
+          "task_id": "T3_G21_P230_Q1_2#Q1",
+          "label": "Soru 1-2 — tez/antitez ve sentez — Soru 1",
+          "question_number": "1",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.230 — 1. soru",
+          "expected_answer": "Metinlerin tez/antitez sınıflandırmasında, parçanın yazar hayatıyla doğrulanabilir ilişkisi esas alınmalıdır. PDF metin dilimi tek başına tüm parçaların kaynak başlıklarını görünür kılmadığı için rehber, kaynaksız kesin numara anahtarı üretmez.",
+          "expected_response": null,
+          "split_from_group": true,
+          "answer_component_key": "degerlendirme"
+        },
+        {
+          "source_item_ref": "T3_G21_P230_Q1_2",
+          "printed_page_range": "230",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Tez/antitez seçimini kaynak/metin kanıtıyla gerekçelendirir.",
+            "Kesişim cümlesi iki yargıyı uzlaştırır."
+          ],
+          "canonical_teacher_guidance": [
+            "Basılı sayfa görselindeki kaynak başlıkları ayrıca doğrulanırsa numara anahtarı güncellenebilir."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.230 / PDF s.231"
+          ],
+          "task_id": "T3_G21_P230_Q1_2#Q2",
+          "label": "Soru 1-2 — tez/antitez ve sentez — Soru 2",
+          "question_number": "2",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.230 — 2. soru",
+          "expected_answer": "Edebî metinler sanatçının yaşantı ve gözlemlerinden izler taşıyabilir; ancak bu izler kurmaca ve estetik dönüştürme nedeniyle doğrudan hayat belgesi sayılmaz.",
+          "expected_response": null,
+          "split_from_group": true,
+          "answer_component_key": "sentez_ornegi"
+        },
+        {
+          "source_item_ref": "T3_G21_P231_Q3_6",
+          "printed_page_range": "231",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Q4=E, Q5=C.",
+            "Kavram açıklamaları metnin kurmaca-gerçeklik paragrafıyla uyumludur."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.231 / PDF s.232"
+          ],
+          "task_id": "T3_G21_P231_Q3_6#Q3",
+          "label": "Soru 3-6 — kurmaca ve gerçeklik — Soru 3",
+          "question_number": "3",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.231 — 3. soru",
+          "expected_answer": "Kurmaca dış gerçeklikten yararlanabilir; değer yalnız ‘gerçeğe uygunluk’tan değil estetik kurgu, çok anlamlılık, inandırıcılık ve özgün anlatımdan doğar.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G21_P231_Q3_6",
+          "printed_page_range": "231",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Q4=E, Q5=C.",
+            "Kavram açıklamaları metnin kurmaca-gerçeklik paragrafıyla uyumludur."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.231 / PDF s.232"
+          ],
+          "task_id": "T3_G21_P231_Q3_6#Q4",
+          "label": "Soru 3-6 — kurmaca ve gerçeklik — Soru 4",
+          "question_number": "4",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.231 — 4. soru",
+          "expected_answer": "E",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G21_P231_Q3_6",
+          "printed_page_range": "231",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Q4=E, Q5=C.",
+            "Kavram açıklamaları metnin kurmaca-gerçeklik paragrafıyla uyumludur."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.231 / PDF s.232"
+          ],
+          "task_id": "T3_G21_P231_Q3_6#Q5",
+          "label": "Soru 3-6 — kurmaca ve gerçeklik — Soru 5",
+          "question_number": "5",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.231 — 5. soru",
+          "expected_answer": "C",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G21_P231_Q3_6",
+          "printed_page_range": "231",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Q4=E, Q5=C.",
+            "Kavram açıklamaları metnin kurmaca-gerçeklik paragrafıyla uyumludur."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.231 / PDF s.232"
+          ],
+          "task_id": "T3_G21_P231_Q3_6#Q6",
+          "label": "Soru 3-6 — kurmaca ve gerçeklik — Soru 6",
+          "question_number": "6",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.231 — 6. soru",
+          "expected_answer": {
+            "kurmaca": "Yazarın yarattığı anlatı dünyası.",
+            "gerceklik_izlenimi": "Kurmaca dünyanın gerçekmiş gibi inandırıcı algılanmasını sağlayan düzenleme.",
+            "okur_yorumu": "Okurun kültürel birikim, ilgi ve değerleriyle metne anlam vermesi.",
+            "nesnellik": "Dış dünyaya ilişkin doğrulanabilir/kişiden bağımsız olma iddiası.",
+            "cok_anlamlilik": "Metnin farklı okurlarca birden fazla tutarlı biçimde yorumlanabilmesi."
+          },
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G21_P232_233_Q7_11",
+          "printed_page_range": "232-233",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Q8=C.",
+            "Q10 puan hesabını gösterir.",
+            "Q11 iki yanlış kavramı düzeltir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.232-233"
+          ],
+          "task_id": "T3_G21_P232_233_Q7_11#Q7",
+          "label": "Soru 7-11 — Orhan Veli ve biyografi yarışması — Soru 7",
+          "question_number": "7",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.232-233 — 7. soru",
+          "expected_answer": "Gündelik yaşam %40 ile en yüksek temadır; bu, Garip şiirinin sıradan insanı/gündelik hayatı şiire taşıma ve yalınlık anlayışıyla uyumludur.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G21_P232_233_Q7_11",
+          "printed_page_range": "232-233",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Q8=C.",
+            "Q10 puan hesabını gösterir.",
+            "Q11 iki yanlış kavramı düzeltir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.232-233"
+          ],
+          "task_id": "T3_G21_P232_233_Q7_11#Q8",
+          "label": "Soru 7-11 — Orhan Veli ve biyografi yarışması — Soru 8",
+          "question_number": "8",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.232-233 — 8. soru",
+          "expected_answer": "C",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G21_P232_233_Q7_11",
+          "printed_page_range": "232-233",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Q8=C.",
+            "Q10 puan hesabını gösterir.",
+            "Q11 iki yanlış kavramı düzeltir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.232-233"
+          ],
+          "task_id": "T3_G21_P232_233_Q7_11#Q9",
+          "label": "Soru 7-11 — Orhan Veli ve biyografi yarışması — Soru 9",
+          "question_number": "9",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.232-233 — 9. soru",
+          "expected_answer": "Orhan Veli; şair/öykücü kimliği, Garip akımıyla ilişkisi, temaları, sade-akıcı üslubu ve Çehov tarzı öykücülüğü üzerinden tanıtılır.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G21_P232_233_Q7_11",
+          "printed_page_range": "232-233",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Q8=C.",
+            "Q10 puan hesabını gösterir.",
+            "Q11 iki yanlış kavramı düzeltir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.232-233"
+          ],
+          "task_id": "T3_G21_P232_233_Q7_11#Q10",
+          "label": "Soru 7-11 — Orhan Veli ve biyografi yarışması — Soru 10",
+          "question_number": "10",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.232-233 — 10. soru",
+          "expected_answer": "II. grup Tablo A’dır: üç doğru (+15) ve ‘tutum’ ifadesi yanlış (-2) → 13 puan.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G21_P232_233_Q7_11",
+          "printed_page_range": "232-233",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Q8=C.",
+            "Q10 puan hesabını gösterir.",
+            "Q11 iki yanlış kavramı düzeltir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.232-233"
+          ],
+          "task_id": "T3_G21_P232_233_Q7_11#Q11",
+          "label": "Soru 7-11 — Orhan Veli ve biyografi yarışması — Soru 11",
+          "question_number": "11",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.232-233 — 11. soru",
+          "expected_answer": "I. grubun tam puan için ‘Tarafsızlık’ ve ‘Kronoloji’ açıklamalarını düzeltmesi gerekir: biyografide tarafsızlık göz ardı edilmez; kronolojik sıra yaygın olsa da mutlak zorunluluk değildir.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G21_P234_Q12_13",
+          "printed_page_range": "234",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "13. soruda sıra: bilgi verme; biyografik roman; açık/anlaşılır dil; yaşantı; kahraman anlatıcı; devrik cümleyle güçlendirme; nesnel anlatım; kronolojik sıra."
+          ],
+          "canonical_teacher_guidance": [
+            "6-8. maddelerde öğretmen metin parçasından karşı kanıt kabul edebilir; temel anahtar parçada görülen anlatıcı ve kurgu düzenine göredir."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.234 / PDF s.235"
+          ],
+          "task_id": "T3_G21_P234_Q12_13#Q12",
+          "label": "Soru 12-13 — Bir Bilim Adamının Romanı — Soru 12",
+          "question_number": "12",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.234 — 12. soru",
+          "expected_answer": "Fuzûlî’ye atıf, Mustafa İnan’ın kalabalık içinde hissedilen yalnızlığını kültürel/edebî bir gönderme ile yoğunlaştırır; karakterin iç durumunu somutlaştırır ve metne çağrışım/intertextüel derinlik katar.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G21_P234_Q12_13",
+          "printed_page_range": "234",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "13. soruda sıra: bilgi verme; biyografik roman; açık/anlaşılır dil; yaşantı; kahraman anlatıcı; devrik cümleyle güçlendirme; nesnel anlatım; kronolojik sıra."
+          ],
+          "canonical_teacher_guidance": [
+            "6-8. maddelerde öğretmen metin parçasından karşı kanıt kabul edebilir; temel anahtar parçada görülen anlatıcı ve kurgu düzenine göredir."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.234 / PDF s.235"
+          ],
+          "task_id": "T3_G21_P234_Q12_13#Q13",
+          "label": "Soru 12-13 — Bir Bilim Adamının Romanı — Soru 13",
+          "question_number": "13",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.234 — 13. soru",
+          "expected_answer": [
+            "Evet",
+            "Evet",
+            "Evet",
+            "Evet",
+            "Hayır",
+            "Hayır",
+            "Hayır",
+            "Hayır"
+          ],
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G21_P234_Q14_15",
+          "printed_page_range": "234",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Q15’te gerçekten gözlenen kişi/mekân/zaman ayrıntılarına dayalı gerekçe aranır."
+          ],
+          "canonical_teacher_guidance": [
+            "Aile Bağları videosunun içeriği yerel PDF’ye gömülü olmadığı için karakter/olay ayrıntısı uydurma."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.234 / PDF s.235"
+          ],
+          "task_id": "T3_G21_P234_Q14_15#Q14",
+          "label": "Soru 14-15 — diyalog ve Aile Bağları videosu — Soru 14",
+          "question_number": "14",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.234 — 14. soru",
+          "expected_answer": "Diyalog, kişileri doğrudan konuşturarak anlatımı canlılaştırır; karakter ilişkisi ve düşünce/duygu farklarını aracısız görünür kılar.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G21_P234_Q14_15",
+          "printed_page_range": "234",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "Q15’te gerçekten gözlenen kişi/mekân/zaman ayrıntılarına dayalı gerekçe aranır."
+          ],
+          "canonical_teacher_guidance": [
+            "Aile Bağları videosunun içeriği yerel PDF’ye gömülü olmadığı için karakter/olay ayrıntısı uydurma."
+          ],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.234 / PDF s.235"
+          ],
+          "task_id": "T3_G21_P234_Q14_15#Q15",
+          "label": "Soru 14-15 — diyalog ve Aile Bağları videosu — Soru 15",
+          "question_number": "15",
+          "prompt_mode": "LOCATOR_ONLY",
+          "book_prompt": "Ders kitabı s.234 — 15. soru",
+          "expected_answer": "Kişi, mekân ve zamanın dramatik örgüye katkısı yalnız QR’deki Aile Bağları videosu izlenerek; olay/çatışmayı nasıl kurduğu somut medya kanıtıyla açıklanmalıdır.",
+          "expected_response": null,
+          "split_from_group": true
+        },
+        {
+          "source_item_ref": "T3_G21_P235_Q16",
+          "printed_page_range": "235",
+          "item_type": "QUESTION",
+          "acceptance_criteria": [
+            "C seçeneğini metin türü ve yaşam bilgisiyle gerekçelendirir."
+          ],
+          "canonical_teacher_guidance": [],
+          "canonical_common_misconceptions": [],
+          "canonical_assessment_evidence": [],
+          "canonical_differentiation": {
+            "support": [],
+            "enrichment": []
+          },
+          "source_locators": [
+            "basılı s.235 / PDF s.236"
+          ],
+          "task_id": "T3_G21_P235_Q16",
+          "label": "Soru 16 — roman/tezkire ve yazar hayatı",
+          "question_number": null,
+          "prompt_mode": "CANONICAL_LABEL",
+          "book_prompt": "Soru 16 — roman/tezkire ve yazar hayatı",
+          "expected_answer": {
+            "dogru": "C) I, IV, V",
+            "gerekce": "I ve V tezkire üslubuyla sanatçının hayat/mahlasına ilişkin olayı aktarır; IV kişisel yaşam/anı niteliğinde yazarın yaşantı çevresini verir. II ve III ise kurmaca kişinin/olayın iç yaşantısını öne çıkarır."
+          },
+          "expected_response": null,
+          "split_from_group": false
+        }
       ],
       "pedagogical_intent": "Tema sonu sorularında roman, biyografi, tezkire ve radyo tiyatrosu bilgisini tür ezberinden çok metin özelliği ve kanıt üzerinden değerlendir. Tema sonu sorularını cevap anahtarı/kabul ölçütleriyle değerlendirmek; dış medya sorularında yalnız gözlenebilir kanıtı kabul etmek.",
       "teacher_moves": [
