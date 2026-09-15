@@ -3,6 +3,7 @@
 > Bu dosya canonical ders kitabı/teacher-guide itemlerini değiştirmez. Pedagojik uygulama katmanıdır.
 > Kitaptaki soru metni canonical kaynakta birebir doğrulanmamışsa burada soru uydurulmaz; görev etiketi ve sayfa konumu kullanılır.
 > Canonical cevap, kabul ölçütü ve item düzeyi öğretmen notları mümkün olduğunda doğrudan bu çıktıda gösterilir.
+> Tahta notu yalnız küratörlü ve o blokta gerçekten işlevsel olduğunda gösterilir.
 
 ## Kullanım ilkeleri
 - Ders kitabındaki gerçek soru ve görev görünür kalır; doğrulanmamış soru metni uydurulmaz.
@@ -16,6 +17,7 @@
 ## s.84-87 — Tema Açılışı ve Kültür-Dil Çerçevesi
 
 **Bölüm:** Tema Açılışı / Temaya Başlarken
+**Pedagojik faz:** opening
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -231,48 +233,38 @@ _Not: Birebir soru metni canonical teacher-guide verisinde tutulmadığı için 
 
 Kültürü ortak hafıza, dil, edebî eser ve kuşak aktarımı üzerinden kur; ortaklık ile çeşitliliği birlikte görünür kıl. Temanın millî kimlik, kültür aktarımı, Türk dünyası ve ortak dil/alfabe odağını görünür kılmak.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Tema hedeflerini ezber listesi olarak vermek yerine öğrencinin ön bilgisini açığa çıkaran iki kısa soru ile başla.
-- Tema boyunca geri dönülecek ana kavramları görünür bir yol haritasına dönüştür.
+### Bu blokta öğretmen hamlesi
 - Ortak alfabe ve dil birliği tartışmasını 'tek dile dönüşme' fikrine indirgeme.
 - Dede Korkut alıntısını kültürel belleğin kuşaklar arası kalıcılığına bağla.
 
 ### Takip soruları
-- Bu düşünceni hangi örnek veya deneyim destekliyor?
-- Tema sonunda bu görüşünün değişip değişmediğini nasıl anlayabiliriz?
 - Bir toplumun hafızası yalnız tarih kitabıyla mı taşınır?
 - Ortak alfabe iletişimi kolaylaştırırken lehçe farklılıkları neden sürebilir?
 
 ### Yanlış/kısmi cevapta müdahale
-- Genel ve kanıtsız yargıyı doğrudan düzeltmek yerine somut örnek istemekle daralt.
 - Millî kimliği yalnız siyasî kimlik olarak gören öğrenciye dil, ortak hafıza, sanat ve değer örnekleri düşündür.
 - Alfabe birliği ile dil birliğini aynı şey sayan öğrenciye yazı sistemi ile dil yapısını ayırttır.
 
 ### Tahta notu
-- **Tahtaya yaz: Ön bilgi → soru → kanıt → tema boyunca yeniden düşün**
 - **Tahtaya yaz: Kültürel bellek = dil + eser + değer + kuşak aktarımı**
 - **Tahtaya yaz: Ortaklık ≠ tek tiplilik**
-- **Tahtaya yaz: Alfabe = yazı sistemi | Dil/lehçe = daha geniş iletişim sistemi**
 
 ### Ölçmede bak
-- Ön bilgi ile gerekçenin birbirinden ayrılması.
-- Tema kavramları arasında ilk anlamlı bağların kurulması.
 - Edebiyat-kimlik-kültür arasında gerekçeli bağ.
 - Ortak alfabenin katkı ve sınırlarını birlikte gören cevap.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Anahtar kavramları kısa kelime kartlarıyla ver ve öğrencinin örnekle eşleştirmesini sağla.
 - Dil–değer–hafıza anahtarlarıyla cümle başlatıcıları ver.
 
 **Zenginleştirme**
-- Tema kavramlarından ikisi arasında öğrencinin kendi örneğiyle ilişki kurmasını iste.
 - Farklı iki Türk coğrafyasındaki ortak bir kültür unsurunu benzerlik ve farklılıklarıyla araştırmasını iste.
 
 ## s.88-94 — Okumayı Yönetebilme
 
 **Bölüm:** Metin Tahlili-1 (Anlama): Okuma — Hikâye / Anı
+**Pedagojik faz:** manage
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -353,52 +345,30 @@ Kültürü ortak hafıza, dil, edebî eser ve kuşak aktarımı üzerinden kur; 
 
 Oğulla Buluşma ve anı çalışmalarında olay, duygu, kültür ve dil çeşitliliğini metin kanıtıyla ilişkilendir; Türkçe çeşitliliğini değer hiyerarşisine dönüştürme. Türk dünyası ortak kültürü ve söz varlığı üzerinden Oğulla Buluşma metnine hazırlık yapmak; tahmin ve okuma stratejisini görünür kılmak.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir.
-- Tahmini doğru-yanlış olarak değil görünür ipucuna dayalı çıkarım olarak değerlendir.
-- Çordon'un duygu değişimini olay akışıyla eşleştir.
-- Türkçenin farklı kollarındaki benzer sözcüklerde ses benzerliği ile anlam benzerliğini ayrı kontrol ettir.
-- Hikâye ile anıyı gerçeklik, anlatıcı ve kurmaca ölçütleriyle karşılaştır.
+### Bu blokta öğretmen hamlesi
+- “Konuya Başlarken — ortak kültür çağrışımları” görevinde göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir.
 
 ### Takip soruları
-- Bu tahmini hangi başlık, görsel, kelime veya ön bilgiye dayandırdın?
-- Seçtiğin strateji bu görevde sana tam olarak ne sağlayacak?
-- Karakterin duygusunu değiştiren olay hangisi?
-- Bu kelimeler sesçe benziyor ama anlamca da aynı mı?
-- Anı ile hikâye geçmişi aynı biçimde mi kurar?
+- “Konuya Başlarken — ortak kültür çağrışımları” için: Bu tahmini hangi başlık, görsel, kelime veya ön bilgiye dayandırdın?
 
 ### Yanlış/kısmi cevapta müdahale
-- Gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur.
-- Lehçe veya şive farkını 'yanlış Türkçe' sayan öğrenciye tarihî-coğrafî çeşitlenme örneği göster.
-- Anıyı tamamen nesnel tarih belgesi sayan öğrenciye seçme, hatırlama ve kişisel bakış boyutunu düşündür.
-
-### Tahta notu
-- **Tahtaya yaz: Tahmin = ipucu + çıkarım**
-- **Tahtaya yaz: Amaç → uygun strateji → toplanacak kanıt**
-- **Tahtaya yaz: Olay → duygu değişimi → karakter hakkında çıkarım**
-- **Tahtaya yaz: Dil çeşitliliği = ortak kök + tarihî/coğrafî değişim**
-- **Tahtaya yaz: Hikâye = kurmaca | Anı = yaşantı temelli kişisel anlatım**
+- “Konuya Başlarken — ortak kültür çağrışımları” sırasında gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur.
 
 ### Ölçmede bak
-- Amaç ile strateji arasında açık uyum.
-- Tahminin görünür bir kaynağa dayanması.
-- Olay-duygu ilişkisinin kanıtla kurulması.
-- Dil farklılığının somut örnekle açıklanması.
-- Tür karşılaştırmasında en az iki ölçüt.
+- “Konuya Başlarken — ortak kültür çağrışımları” için ölçmede: amaç ile strateji arasında açık uyum.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan.
-- Olay / duygu / kültür unsuru için üç sütunlu not çizelgesi kullan.
+- “Konuya Başlarken — ortak kültür çağrışımları” için destek: amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan.
 
 **Zenginleştirme**
-- Aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat.
-- Aynı olayı hikâye anlatıcısı ve anı yazarı olarak iki kısa paragrafta yeniden kurdur.
+- “Konuya Başlarken — ortak kültür çağrışımları” için zenginleştirme: aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat.
 
 ## s.95-104 — Anlam Oluşturabilme
 
 **Bölüm:** Metin Tahlili-1 (Anlama): Okuma — Hikâye / Anı
+**Pedagojik faz:** meaning
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -736,54 +706,40 @@ _Not: Birebir soru metni canonical teacher-guide verisinde tutulmadığı için 
 
 ### Pedagojik amaç
 
-Oğulla Buluşma ve anı çalışmalarında olay, duygu, kültür ve dil çeşitliliğini metin kanıtıyla ilişkilendir; Türkçe çeşitliliğini değer hiyerarşisine dönüştürme. Söz varlığı, Türkçe çeşitliliği, hikâye anlama ve dil bilgisi görevlerini metin bağlamında yürütmek.
+Söz varlığı, Türkçe çeşitliliği, hikâye anlama ve dil bilgisi görevlerini metin bağlamında yürütmek.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Cevabın yanına kısa metin, görsel veya dinleme kanıtı istemeyi varsayılan sınıf rutini hâline getir.
-- Konu, tema, ileti, yorum ve çıkarım gibi yakın kavramları görev üzerinde birbirinden ayır.
-- Çordon'un duygu değişimini olay akışıyla eşleştir.
+### Bu blokta öğretmen hamlesi
 - Türkçenin farklı kollarındaki benzer sözcüklerde ses benzerliği ile anlam benzerliğini ayrı kontrol ettir.
 - Hikâye ile anıyı gerçeklik, anlatıcı ve kurmaca ölçütleriyle karşılaştır.
 
 ### Takip soruları
-- Bu cevabını kaynakta hangi ayrıntı destekliyor?
-- Aynı kanıttan başka bir makul yorum çıkar mı?
 - Karakterin duygusunu değiştiren olay hangisi?
 - Bu kelimeler sesçe benziyor ama anlamca da aynı mı?
-- Anı ile hikâye geçmişi aynı biçimde mi kurar?
 
 ### Yanlış/kısmi cevapta müdahale
-- Yorumu kaynakta açıkça söylenmiş bilgi gibi sunan öğrenciye 'metinde var / ben çıkarıyorum' ayrımı yaptır.
 - Lehçe veya şive farkını 'yanlış Türkçe' sayan öğrenciye tarihî-coğrafî çeşitlenme örneği göster.
 - Anıyı tamamen nesnel tarih belgesi sayan öğrenciye seçme, hatırlama ve kişisel bakış boyutunu düşündür.
 
 ### Tahta notu
-- **Tahtaya yaz: Cevap = yargı + kanıt + gerekçe**
-- **Tahtaya yaz: Açık bilgi ≠ yorum/çıkarım**
-- **Tahtaya yaz: Olay → duygu değişimi → karakter hakkında çıkarım**
 - **Tahtaya yaz: Dil çeşitliliği = ortak kök + tarihî/coğrafî değişim**
 - **Tahtaya yaz: Hikâye = kurmaca | Anı = yaşantı temelli kişisel anlatım**
 
 ### Ölçmede bak
-- Cevabın kaynak kanıtıyla uyumu.
-- Açık bilgi ile çıkarımın ayrılması.
-- Olay-duygu ilişkisinin kanıtla kurulması.
 - Dil farklılığının somut örnekle açıklanması.
 - Tür karşılaştırmasında en az iki ölçüt.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Cevabım / kanıtım biçiminde iki sütunlu çalışma alanı ver.
-- Olay / duygu / kültür unsuru için üç sütunlu not çizelgesi kullan.
+- “Söz Varlığımız — katar, kampana, hat, toynak” için destek: cevabım / kanıtım biçiminde iki sütunlu çalışma alanı ver.
 
 **Zenginleştirme**
-- İki olası yorumu kanıt gücü bakımından karşılaştırmasını iste.
-- Aynı olayı hikâye anlatıcısı ve anı yazarı olarak iki kısa paragrafta yeniden kurdur.
+- “Söz Varlığımız — katar, kampana, hat, toynak” için zenginleştirme: i̇ki olası yorumu kanıt gücü bakımından karşılaştırmasını iste.
 
 ## s.105-111 — Çözümleyebilme
 
 **Bölüm:** Metin Tahlili-1 (Anlama): Okuma — Hikâye / Anı
+**Pedagojik faz:** analyze_apply
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -901,54 +857,32 @@ Oğulla Buluşma ve anı çalışmalarında olay, duygu, kültür ve dil çeşit
 
 ### Pedagojik amaç
 
-Oğulla Buluşma ve anı çalışmalarında olay, duygu, kültür ve dil çeşitliliğini metin kanıtıyla ilişkilendir; Türkçe çeşitliliğini değer hiyerarşisine dönüştürme. Hikâye yapısı, çatışma, değerler, yazar-metin ilişkisi ve anı türünün disiplinlerarası yönünü çözümlemek.
+Hikâye yapısı, çatışma, değerler, yazar-metin ilişkisi ve anı türünün disiplinlerarası yönünü çözümlemek.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.
-- Ürün görevlerinde ilk taslak ile son ürün arasındaki değişikliği görünür kıl.
-- Çordon'un duygu değişimini olay akışıyla eşleştir.
-- Türkçenin farklı kollarındaki benzer sözcüklerde ses benzerliği ile anlam benzerliğini ayrı kontrol ettir.
-- Hikâye ile anıyı gerçeklik, anlatıcı ve kurmaca ölçütleriyle karşılaştır.
+### Bu blokta öğretmen hamlesi
+- “Oğulla Buluşma — hikâye haritası” görevinde kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.
 
 ### Takip soruları
-- Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?
-- Yaptığın bu tercihin amaç ve hedef kitleyle ilişkisi nedir?
-- Karakterin duygusunu değiştiren olay hangisi?
-- Bu kelimeler sesçe benziyor ama anlamca da aynı mı?
 - Anı ile hikâye geçmişi aynı biçimde mi kurar?
 
 ### Yanlış/kısmi cevapta müdahale
-- Terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt.
-- Lehçe veya şive farkını 'yanlış Türkçe' sayan öğrenciye tarihî-coğrafî çeşitlenme örneği göster.
-- Anıyı tamamen nesnel tarih belgesi sayan öğrenciye seçme, hatırlama ve kişisel bakış boyutunu düşündür.
-
-### Tahta notu
-- **Tahtaya yaz: Unsur → işlev → etki**
-- **Tahtaya yaz: Taslak → geri bildirim → karar → revizyon**
-- **Tahtaya yaz: Olay → duygu değişimi → karakter hakkında çıkarım**
-- **Tahtaya yaz: Dil çeşitliliği = ortak kök + tarihî/coğrafî değişim**
-- **Tahtaya yaz: Hikâye = kurmaca | Anı = yaşantı temelli kişisel anlatım**
+- “Oğulla Buluşma — hikâye haritası” sırasında terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt.
 
 ### Ölçmede bak
-- Kavram ile işlev arasında doğru ilişki.
-- Ürün kararlarının amaç ve bağlama uygunluğu.
-- Olay-duygu ilişkisinin kanıtla kurulması.
-- Dil farklılığının somut örnekle açıklanması.
-- Tür karşılaştırmasında en az iki ölçüt.
+- “Oğulla Buluşma — hikâye haritası” için ölçmede: kavram ile işlev arasında doğru ilişki.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.
-- Olay / duygu / kültür unsuru için üç sütunlu not çizelgesi kullan.
+- “Oğulla Buluşma — hikâye haritası” için destek: önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.
 
 **Zenginleştirme**
-- Aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.
 - Aynı olayı hikâye anlatıcısı ve anı yazarı olarak iki kısa paragrafta yeniden kurdur.
 
 ## s.112 — Süreci Değerlendirebilme
 
 **Bölüm:** Metin Tahlili-1 (Anlama): Okuma — Hikâye / Anı
+**Pedagojik faz:** reflect
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -994,54 +928,35 @@ Oğulla Buluşma ve anı çalışmalarında olay, duygu, kültür ve dil çeşit
 
 ### Pedagojik amaç
 
-Oğulla Buluşma ve anı çalışmalarında olay, duygu, kültür ve dil çeşitliliğini metin kanıtıyla ilişkilendir; Türkçe çeşitliliğini değer hiyerarşisine dönüştürme. Oğulla Buluşma okuma sürecini duygu, kültür ve dil-estetik farkındalığı üzerinden değerlendirmek.
+Oğulla Buluşma okuma sürecini duygu, kültür ve dil-estetik farkındalığı üzerinden değerlendirmek.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.
-- Geri bildirimi sonraki ürün değişikliğine veya öğrenme davranışına bağla.
+### Bu blokta öğretmen hamlesi
 - Çordon'un duygu değişimini olay akışıyla eşleştir.
-- Türkçenin farklı kollarındaki benzer sözcüklerde ses benzerliği ile anlam benzerliğini ayrı kontrol ettir.
-- Hikâye ile anıyı gerçeklik, anlatıcı ve kurmaca ölçütleriyle karşılaştır.
 
 ### Takip soruları
-- Bu değerlendirmene hangi ürün veya performans ayrıntısı kanıt?
-- Bir sonraki benzer görevde tek bir şeyi değiştirecek olsan neyi değiştirirsin?
-- Karakterin duygusunu değiştiren olay hangisi?
-- Bu kelimeler sesçe benziyor ama anlamca da aynı mı?
-- Anı ile hikâye geçmişi aynı biçimde mi kurar?
+- “Oğulla Buluşma — süreç değerlendirme 1-5” için: Bu değerlendirmene hangi ürün veya performans ayrıntısı kanıt?
 
 ### Yanlış/kısmi cevapta müdahale
-- Formu otomatik olumlu işaretleyen öğrenciye belirli bir örnek göstermeden yargıyı tamamlanmış sayma.
-- Lehçe veya şive farkını 'yanlış Türkçe' sayan öğrenciye tarihî-coğrafî çeşitlenme örneği göster.
-- Anıyı tamamen nesnel tarih belgesi sayan öğrenciye seçme, hatırlama ve kişisel bakış boyutunu düşündür.
+- “Oğulla Buluşma — süreç değerlendirme 1-5” sırasında formu otomatik olumlu işaretleyen öğrenciye belirli bir örnek göstermeden yargıyı tamamlanmış sayma.
 
 ### Tahta notu
-- **Tahtaya yaz: Öz değerlendirme = yargı + kanıt + yeni hedef**
-- **Tahtaya yaz: Geri bildirim → değerlendir → karar ver → revize et**
 - **Tahtaya yaz: Olay → duygu değişimi → karakter hakkında çıkarım**
-- **Tahtaya yaz: Dil çeşitliliği = ortak kök + tarihî/coğrafî değişim**
-- **Tahtaya yaz: Hikâye = kurmaca | Anı = yaşantı temelli kişisel anlatım**
 
 ### Ölçmede bak
-- Kanıta dayalı öz değerlendirme.
-- Uygulanabilir bir sonraki adım veya revizyon.
 - Olay-duygu ilişkisinin kanıtla kurulması.
-- Dil farklılığının somut örnekle açıklanması.
-- Tür karşılaştırmasında en az iki ölçüt.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan.
 - Olay / duygu / kültür unsuru için üç sütunlu not çizelgesi kullan.
 
 **Zenginleştirme**
-- Bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste.
-- Aynı olayı hikâye anlatıcısı ve anı yazarı olarak iki kısa paragrafta yeniden kurdur.
+- “Oğulla Buluşma — süreç değerlendirme 1-5” için zenginleştirme: bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste.
 
 ## s.113-115 — Okumayı Yönetebilme
 
 **Bölüm:** Metin Tahlili-2 (Anlama): Okuma — Orhun Abideleri / Dîvânu Lugâti’t-Türk
+**Pedagojik faz:** manage
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -1173,47 +1088,24 @@ Kaplumbağa/kalıcı kaide ve “bengü taş” fikri, sözün ve hatıranın uz
 
 Orhun Abideleri ve Dîvânu Lugâti't-Türk'ü yalnız tarihî bilgi kaynağı değil dil, hitabet, devlet anlayışı ve kültürel bellek belgeleri olarak okut. Orhun Abideleri’nin Türk dili, tarihi ve kültüründeki yerini ön bilgilerle ilişkilendirip amaçlı okumaya geçmek.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir.
-- Tahmini doğru-yanlış olarak değil görünür ipucuna dayalı çıkarım olarak değerlendir.
-- Orhun'da hitap, tarihî olay, öğüt ve değer bölümlerini ayrı işaretlet.
-- Tarihî sözcüklerde güncel anlamla dönem anlamını ayır.
-- DLT maddelerinde kelime karşılığının yanında örnek, atasözü, şiir ve kültür bilgisini de fark ettir.
+### Bu blokta öğretmen hamlesi
+- “Orhun Vadisi — ön bilgi ve kültürel önem” görevinde tahmini doğru-yanlış olarak değil görünür ipucuna dayalı çıkarım olarak değerlendir.
 
 ### Takip soruları
-- Bu tahmini hangi başlık, görsel, kelime veya ön bilgiye dayandırdın?
-- Seçtiğin strateji bu görevde sana tam olarak ne sağlayacak?
 - Taşa yazmak sözü nasıl bir kültürel hafızaya dönüştürüyor?
-- Bir sözlük maddesi kelimeden başka hangi kültür bilgisini taşıyabilir?
-- Bu tarihî kişilik çıkarımını hangi ifade destekliyor?
 
 ### Yanlış/kısmi cevapta müdahale
-- Gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur.
-- Yazıtı yalnız mezar taşı olarak gören öğrenciye millete hitap ve öğüt işlevini buldur.
 - DLT'yi modern sözlükle tamamen aynı sanan öğrenciye kullanım örneklerini ve kültürel malzemeyi göster.
 
-### Tahta notu
-- **Tahtaya yaz: Tahmin = ipucu + çıkarım**
-- **Tahtaya yaz: Amaç → uygun strateji → toplanacak kanıt**
-- **Tahtaya yaz: Yazıt = tarihî kayıt + hitap + öğüt + kültürel hafıza**
-- **Tahtaya yaz: DLT = sözlük + dil örneği + kültür bilgisi**
-- **Tahtaya yaz: Dil ↔ kültür ↔ tarih → ortak hafıza**
-
 ### Ölçmede bak
-- Amaç ile strateji arasında açık uyum.
-- Tahminin görünür bir kaynağa dayanması.
-- Orhun'un önemini en az iki boyutla açıklama.
-- Tarihî kelimeyi dönem ve cümle bağlamında yorumlama.
-- DLT'deki kültür bilgisini örnekle gösterme.
+- “Orhun Vadisi — ön bilgi ve kültürel önem” için ölçmede: tahminin görünür bir kaynağa dayanması.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan.
 - Hitap / olay / öğüt / değer için renk kodlu okuma şablonu ver.
 
 **Zenginleştirme**
-- Aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat.
 - Bir DLT maddesini çağdaş sözlük maddesiyle taşıdığı bilgi türleri bakımından karşılaştır.
 
 ### Kaynak sınırı
@@ -1222,6 +1114,7 @@ Orhun Abideleri ve Dîvânu Lugâti't-Türk'ü yalnız tarihî bilgi kaynağı d
 ## s.116-120 — Anlam Oluşturabilme
 
 **Bölüm:** Metin Tahlili-2 (Anlama): Okuma — Orhun Abideleri / Dîvânu Lugâti’t-Türk
+**Pedagojik faz:** meaning
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -1393,57 +1286,39 @@ Dil ortak hafızayı ve kültürel değerleri taşır; tarih ortak tecrübe ve s
 
 ### Pedagojik amaç
 
-Orhun Abideleri ve Dîvânu Lugâti't-Türk'ü yalnız tarihî bilgi kaynağı değil dil, hitabet, devlet anlayışı ve kültürel bellek belgeleri olarak okut. Tarihî söz varlığı, metnin iletileri, söz sanatları ve farklı metinlerle karşılaştırma üzerinden anlam oluşturmak.
+Tarihî söz varlığı, metnin iletileri, söz sanatları ve farklı metinlerle karşılaştırma üzerinden anlam oluşturmak.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Cevabın yanına kısa metin, görsel veya dinleme kanıtı istemeyi varsayılan sınıf rutini hâline getir.
-- Konu, tema, ileti, yorum ve çıkarım gibi yakın kavramları görev üzerinde birbirinden ayır.
+### Bu blokta öğretmen hamlesi
 - Orhun'da hitap, tarihî olay, öğüt ve değer bölümlerini ayrı işaretlet.
-- Tarihî sözcüklerde güncel anlamla dönem anlamını ayır.
 - DLT maddelerinde kelime karşılığının yanında örnek, atasözü, şiir ve kültür bilgisini de fark ettir.
 
 ### Takip soruları
-- Bu cevabını kaynakta hangi ayrıntı destekliyor?
-- Aynı kanıttan başka bir makul yorum çıkar mı?
-- Taşa yazmak sözü nasıl bir kültürel hafızaya dönüştürüyor?
 - Bir sözlük maddesi kelimeden başka hangi kültür bilgisini taşıyabilir?
 - Bu tarihî kişilik çıkarımını hangi ifade destekliyor?
 
 ### Yanlış/kısmi cevapta müdahale
-- Yorumu kaynakta açıkça söylenmiş bilgi gibi sunan öğrenciye 'metinde var / ben çıkarıyorum' ayrımı yaptır.
-- Yazıtı yalnız mezar taşı olarak gören öğrenciye millete hitap ve öğüt işlevini buldur.
-- DLT'yi modern sözlükle tamamen aynı sanan öğrenciye kullanım örneklerini ve kültürel malzemeyi göster.
+- “Orhun söz varlığı — yağız, ecdat, il, töre, şad, kılmak” sırasında yorumu kaynakta açıkça söylenmiş bilgi gibi sunan öğrenciye 'metinde var / ben çıkarıyorum' ayrımı yaptır.
 
 ### Tahta notu
-- **Tahtaya yaz: Cevap = yargı + kanıt + gerekçe**
-- **Tahtaya yaz: Açık bilgi ≠ yorum/çıkarım**
-- **Tahtaya yaz: Yazıt = tarihî kayıt + hitap + öğüt + kültürel hafıza**
 - **Tahtaya yaz: DLT = sözlük + dil örneği + kültür bilgisi**
 - **Tahtaya yaz: Dil ↔ kültür ↔ tarih → ortak hafıza**
 
 ### Ölçmede bak
-- Cevabın kaynak kanıtıyla uyumu.
-- Açık bilgi ile çıkarımın ayrılması.
 - Orhun'un önemini en az iki boyutla açıklama.
-- Tarihî kelimeyi dönem ve cümle bağlamında yorumlama.
 - DLT'deki kültür bilgisini örnekle gösterme.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Cevabım / kanıtım biçiminde iki sütunlu çalışma alanı ver.
-- Hitap / olay / öğüt / değer için renk kodlu okuma şablonu ver.
+- “Orhun söz varlığı — yağız, ecdat, il, töre, şad, kılmak” için destek: cevabım / kanıtım biçiminde iki sütunlu çalışma alanı ver.
 
 **Zenginleştirme**
-- İki olası yorumu kanıt gücü bakımından karşılaştırmasını iste.
-- Bir DLT maddesini çağdaş sözlük maddesiyle taşıdığı bilgi türleri bakımından karşılaştır.
-
-### Kaynak sınırı
-- Orhun Vadisi veya dış medya içeriğinde yerel PDF'de görünmeyen ayrıntılar resmî cevap gibi üretilmemeli.
+- “Orhun söz varlığı — yağız, ecdat, il, töre, şad, kılmak” için zenginleştirme: i̇ki olası yorumu kanıt gücü bakımından karşılaştırmasını iste.
 
 ## s.121-127 — Çözümleyebilme
 
 **Bölüm:** Metin Tahlili-2 (Anlama): Okuma — Orhun Abideleri / Dîvânu Lugâti’t-Türk
+**Pedagojik faz:** analyze_apply
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -1576,57 +1451,32 @@ Yerleşik hayat üretim, kurum, altyapı ve idare sürekliliğini; konargöçer 
 
 ### Pedagojik amaç
 
-Orhun Abideleri ve Dîvânu Lugâti't-Türk'ü yalnız tarihî bilgi kaynağı değil dil, hitabet, devlet anlayışı ve kültürel bellek belgeleri olarak okut. Orhun metninin anlatıcı, yapı, dil-üslup ve dönem ilişkisini; Dîvânu Lugâti’t-Türk’ün dil-kültür işlevini çözümlemek.
+Orhun metninin anlatıcı, yapı, dil-üslup ve dönem ilişkisini; Dîvânu Lugâti’t-Türk’ün dil-kültür işlevini çözümlemek.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.
-- Ürün görevlerinde ilk taslak ile son ürün arasındaki değişikliği görünür kıl.
-- Orhun'da hitap, tarihî olay, öğüt ve değer bölümlerini ayrı işaretlet.
+### Bu blokta öğretmen hamlesi
 - Tarihî sözcüklerde güncel anlamla dönem anlamını ayır.
-- DLT maddelerinde kelime karşılığının yanında örnek, atasözü, şiir ve kültür bilgisini de fark ettir.
 
 ### Takip soruları
-- Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?
-- Yaptığın bu tercihin amaç ve hedef kitleyle ilişkisi nedir?
-- Taşa yazmak sözü nasıl bir kültürel hafızaya dönüştürüyor?
-- Bir sözlük maddesi kelimeden başka hangi kültür bilgisini taşıyabilir?
-- Bu tarihî kişilik çıkarımını hangi ifade destekliyor?
+- “Ötüken ve yaşam tarzı — görüş geliştirme” için: Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?
 
 ### Yanlış/kısmi cevapta müdahale
-- Terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt.
 - Yazıtı yalnız mezar taşı olarak gören öğrenciye millete hitap ve öğüt işlevini buldur.
-- DLT'yi modern sözlükle tamamen aynı sanan öğrenciye kullanım örneklerini ve kültürel malzemeyi göster.
-
-### Tahta notu
-- **Tahtaya yaz: Unsur → işlev → etki**
-- **Tahtaya yaz: Taslak → geri bildirim → karar → revizyon**
-- **Tahtaya yaz: Yazıt = tarihî kayıt + hitap + öğüt + kültürel hafıza**
-- **Tahtaya yaz: DLT = sözlük + dil örneği + kültür bilgisi**
-- **Tahtaya yaz: Dil ↔ kültür ↔ tarih → ortak hafıza**
 
 ### Ölçmede bak
-- Kavram ile işlev arasında doğru ilişki.
-- Ürün kararlarının amaç ve bağlama uygunluğu.
-- Orhun'un önemini en az iki boyutla açıklama.
 - Tarihî kelimeyi dönem ve cümle bağlamında yorumlama.
-- DLT'deki kültür bilgisini örnekle gösterme.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.
-- Hitap / olay / öğüt / değer için renk kodlu okuma şablonu ver.
+- “Ötüken ve yaşam tarzı — görüş geliştirme” için destek: önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.
 
 **Zenginleştirme**
-- Aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.
-- Bir DLT maddesini çağdaş sözlük maddesiyle taşıdığı bilgi türleri bakımından karşılaştır.
-
-### Kaynak sınırı
-- Orhun Vadisi veya dış medya içeriğinde yerel PDF'de görünmeyen ayrıntılar resmî cevap gibi üretilmemeli.
+- “Ötüken ve yaşam tarzı — görüş geliştirme” için zenginleştirme: aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.
 
 ## s.128 — Süreci Değerlendirebilme
 
 **Bölüm:** Metin Tahlili-2 (Anlama): Okuma — Orhun Abideleri / Dîvânu Lugâti’t-Türk
+**Pedagojik faz:** reflect
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -1675,57 +1525,35 @@ Orhun Abideleri ve Dîvânu Lugâti't-Türk'ü yalnız tarihî bilgi kaynağı d
 
 ### Pedagojik amaç
 
-Orhun Abideleri ve Dîvânu Lugâti't-Türk'ü yalnız tarihî bilgi kaynağı değil dil, hitabet, devlet anlayışı ve kültürel bellek belgeleri olarak okut. Kül Tigin Âbidesi ve Türkçenin tarihî-kültürel sürekliliği üzerine gerekçeli değerlendirme yapmak.
+Kül Tigin Âbidesi ve Türkçenin tarihî-kültürel sürekliliği üzerine gerekçeli değerlendirme yapmak.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.
-- Geri bildirimi sonraki ürün değişikliğine veya öğrenme davranışına bağla.
-- Orhun'da hitap, tarihî olay, öğüt ve değer bölümlerini ayrı işaretlet.
-- Tarihî sözcüklerde güncel anlamla dönem anlamını ayır.
-- DLT maddelerinde kelime karşılığının yanında örnek, atasözü, şiir ve kültür bilgisini de fark ettir.
+### Bu blokta öğretmen hamlesi
+- “Türkçenin geniş coğrafyaya yayılması — neden/sonuç çıkarımı” görevinde öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.
 
 ### Takip soruları
-- Bu değerlendirmene hangi ürün veya performans ayrıntısı kanıt?
-- Bir sonraki benzer görevde tek bir şeyi değiştirecek olsan neyi değiştirirsin?
-- Taşa yazmak sözü nasıl bir kültürel hafızaya dönüştürüyor?
-- Bir sözlük maddesi kelimeden başka hangi kültür bilgisini taşıyabilir?
-- Bu tarihî kişilik çıkarımını hangi ifade destekliyor?
+- “Türkçenin geniş coğrafyaya yayılması — neden/sonuç çıkarımı” için: Bir sonraki benzer görevde tek bir şeyi değiştirecek olsan neyi değiştirirsin?
 
 ### Yanlış/kısmi cevapta müdahale
-- Formu otomatik olumlu işaretleyen öğrenciye belirli bir örnek göstermeden yargıyı tamamlanmış sayma.
-- Yazıtı yalnız mezar taşı olarak gören öğrenciye millete hitap ve öğüt işlevini buldur.
-- DLT'yi modern sözlükle tamamen aynı sanan öğrenciye kullanım örneklerini ve kültürel malzemeyi göster.
+- “Türkçenin geniş coğrafyaya yayılması — neden/sonuç çıkarımı” sırasında formu otomatik olumlu işaretleyen öğrenciye belirli bir örnek göstermeden yargıyı tamamlanmış sayma.
 
 ### Tahta notu
-- **Tahtaya yaz: Öz değerlendirme = yargı + kanıt + yeni hedef**
-- **Tahtaya yaz: Geri bildirim → değerlendir → karar ver → revize et**
 - **Tahtaya yaz: Yazıt = tarihî kayıt + hitap + öğüt + kültürel hafıza**
-- **Tahtaya yaz: DLT = sözlük + dil örneği + kültür bilgisi**
-- **Tahtaya yaz: Dil ↔ kültür ↔ tarih → ortak hafıza**
 
 ### Ölçmede bak
-- Kanıta dayalı öz değerlendirme.
-- Uygulanabilir bir sonraki adım veya revizyon.
-- Orhun'un önemini en az iki boyutla açıklama.
-- Tarihî kelimeyi dönem ve cümle bağlamında yorumlama.
-- DLT'deki kültür bilgisini örnekle gösterme.
+- “Türkçenin geniş coğrafyaya yayılması — neden/sonuç çıkarımı” için ölçmede: kanıta dayalı öz değerlendirme.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan.
-- Hitap / olay / öğüt / değer için renk kodlu okuma şablonu ver.
+- “Türkçenin geniş coğrafyaya yayılması — neden/sonuç çıkarımı” için destek: bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan.
 
 **Zenginleştirme**
-- Bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste.
-- Bir DLT maddesini çağdaş sözlük maddesiyle taşıdığı bilgi türleri bakımından karşılaştır.
-
-### Kaynak sınırı
-- Orhun Vadisi veya dış medya içeriğinde yerel PDF'de görünmeyen ayrıntılar resmî cevap gibi üretilmemeli.
+- “Türkçenin geniş coğrafyaya yayılması — neden/sonuç çıkarımı” için zenginleştirme: bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste.
 
 ## s.129-130 — Konuşmayı Yönetebilme
 
 **Bölüm:** Edebiyat Atölyesi-1 (Anlatma): Konuşma — Türk Kültürünün Özelliklerini Yansıtan Bir Konuşma
+**Pedagojik faz:** manage
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -1822,53 +1650,33 @@ Türklerin farklı dönemlerde geniş coğrafyalarda devlet kurması, göç, tic
 
 Türk dünyası ortak kültürünü kaynaklı, karşılaştırmalı ve hedef kitleye uygun biçimde anlat; kültürü değişmez ve tek tip bir yapı gibi sunma. Türk dünyasının ortak kültürünü tanıtan hazırlıklı konuşmanın amaç, hedef kitle, içerik, ortam ve grup araştırmasını planlamak.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir.
-- Tahmini doğru-yanlış olarak değil görünür ipucuna dayalı çıkarım olarak değerlendir.
-- Her geniş kültür genellemesinin yanına somut örnek veya kaynak iste.
-- Konuşmada en az bir ortaklık ve bir yerel farklılık görünür olsun.
-- Akran geri bildirimini belirli bir konuşma ölçütüne bağla.
+### Bu blokta öğretmen hamlesi
+- “Dünyadaki Türkiye-Türk Dünyası — 1-3. sorular” görevinde göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir.
 
 ### Takip soruları
-- Bu tahmini hangi başlık, görsel, kelime veya ön bilgiye dayandırdın?
-- Seçtiğin strateji bu görevde sana tam olarak ne sağlayacak?
-- Bu kültür bilgisi hangi kaynağa dayanıyor?
 - Aynı konuşmayı başka bir hedef kitleye yapsan dilini veya örneklerini nasıl değiştirirdin?
 
 ### Yanlış/kısmi cevapta müdahale
-- Gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur.
 - 'Türk kültürü her yerde aynıdır' genellemesini ortak kök + yerel/tarihî farklılaşma örnekleriyle aç.
-- Kültür değişimini otomatik olarak bozulma sayan öğrenciye etkileşim ve işlev değişimi örnekleri ver.
 
 ### Tahta notu
-- **Tahtaya yaz: Tahmin = ipucu + çıkarım**
-- **Tahtaya yaz: Amaç → uygun strateji → toplanacak kanıt**
-- **Tahtaya yaz: Kültür anlatımı = ortaklık + çeşitlilik + kaynak**
 - **Tahtaya yaz: Konuşma planı = amaç + hedef kitle + ana düşünce + kanıt + yöntem**
 
 ### Ölçmede bak
-- Amaç ile strateji arasında açık uyum.
-- Tahminin görünür bir kaynağa dayanması.
-- Kaynaklı kültür örnekleri.
 - Amaç-hedef kitle-içerik uyumu.
-- Geri bildirim sonrası görünür revizyon.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan.
 - Konuşma planını amaç / kitle / örnek / kaynak / sonuç kutularına böl.
 
 **Zenginleştirme**
-- Aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat.
-- Bir kültür unsurunun iki coğrafyadaki biçimini kaynaklarıyla karşılaştır.
-
-### Kaynak sınırı
-- Dış video ve QR rubriklerinin yerel PDF'de görünmeyen ayrıntıları resmî içerik gibi üretilmemeli.
+- “Dünyadaki Türkiye-Türk Dünyası — 1-3. sorular” için zenginleştirme: aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat.
 
 ## s.131-133 — İçerik Oluşturabilme
 
 **Bölüm:** Edebiyat Atölyesi-1 (Anlatma): Konuşma — Türk Kültürünün Özelliklerini Yansıtan Bir Konuşma
+**Pedagojik faz:** analyze_apply
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -2001,55 +1809,38 @@ Metin; amaç ve dinleyiciye uygun söz varlığı, açıklayıcı/karşılaştı
 
 ### Pedagojik amaç
 
-Türk dünyası ortak kültürünü kaynaklı, karşılaştırmalı ve hedef kitleye uygun biçimde anlat; kültürü değişmez ve tek tip bir yapı gibi sunma. Hedef kitleye uygun, karşılaştırmalı, kanıta dayalı ve kültür çeşitliliğini görünür kılan konuşma içeriği oluşturmak.
+Hedef kitleye uygun, karşılaştırmalı, kanıta dayalı ve kültür çeşitliliğini görünür kılan konuşma içeriği oluşturmak.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.
-- Ürün görevlerinde ilk taslak ile son ürün arasındaki değişikliği görünür kıl.
+### Bu blokta öğretmen hamlesi
 - Her geniş kültür genellemesinin yanına somut örnek veya kaynak iste.
 - Konuşmada en az bir ortaklık ve bir yerel farklılık görünür olsun.
 - Akran geri bildirimini belirli bir konuşma ölçütüne bağla.
 
 ### Takip soruları
-- Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?
-- Yaptığın bu tercihin amaç ve hedef kitleyle ilişkisi nedir?
 - Bu kültür bilgisi hangi kaynağa dayanıyor?
-- Aynı konuşmayı başka bir hedef kitleye yapsan dilini veya örneklerini nasıl değiştirirdin?
 
 ### Yanlış/kısmi cevapta müdahale
-- Terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt.
-- 'Türk kültürü her yerde aynıdır' genellemesini ortak kök + yerel/tarihî farklılaşma örnekleriyle aç.
 - Kültür değişimini otomatik olarak bozulma sayan öğrenciye etkileşim ve işlev değişimi örnekleri ver.
 
 ### Tahta notu
-- **Tahtaya yaz: Unsur → işlev → etki**
-- **Tahtaya yaz: Taslak → geri bildirim → karar → revizyon**
 - **Tahtaya yaz: Kültür anlatımı = ortaklık + çeşitlilik + kaynak**
-- **Tahtaya yaz: Konuşma planı = amaç + hedef kitle + ana düşünce + kanıt + yöntem**
 
 ### Ölçmede bak
-- Kavram ile işlev arasında doğru ilişki.
-- Ürün kararlarının amaç ve bağlama uygunluğu.
 - Kaynaklı kültür örnekleri.
-- Amaç-hedef kitle-içerik uyumu.
 - Geri bildirim sonrası görünür revizyon.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.
-- Konuşma planını amaç / kitle / örnek / kaynak / sonuç kutularına böl.
+- “Konuşma metni tasarımı” için destek: önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.
 
 **Zenginleştirme**
-- Aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.
 - Bir kültür unsurunun iki coğrafyadaki biçimini kaynaklarıyla karşılaştır.
-
-### Kaynak sınırı
-- Dış video ve QR rubriklerinin yerel PDF'de görünmeyen ayrıntıları resmî içerik gibi üretilmemeli.
 
 ## s.134 — Kural Uygulayabilme
 
 **Bölüm:** Edebiyat Atölyesi-1 (Anlatma): Konuşma — Türk Kültürünün Özelliklerini Yansıtan Bir Konuşma
+**Pedagojik faz:** analyze_apply
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -2084,55 +1875,32 @@ Türk dünyası ortak kültürünü kaynaklı, karşılaştırmalı ve hedef kit
 
 ### Pedagojik amaç
 
-Türk dünyası ortak kültürünü kaynaklı, karşılaştırmalı ve hedef kitleye uygun biçimde anlat; kültürü değişmez ve tek tip bir yapı gibi sunma. Hazırlanan konuşmayı içerik, dil, beden/ses, kaynak dayanağı ve dinleyici etkileşimi ölçütleriyle uygulamak.
+Hazırlanan konuşmayı içerik, dil, beden/ses, kaynak dayanağı ve dinleyici etkileşimi ölçütleriyle uygulamak.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.
-- Ürün görevlerinde ilk taslak ile son ürün arasındaki değişikliği görünür kıl.
-- Her geniş kültür genellemesinin yanına somut örnek veya kaynak iste.
-- Konuşmada en az bir ortaklık ve bir yerel farklılık görünür olsun.
-- Akran geri bildirimini belirli bir konuşma ölçütüne bağla.
+### Bu blokta öğretmen hamlesi
+- “Konuşma uygulama ölçütleri” görevinde ürün görevlerinde ilk taslak ile son ürün arasındaki değişikliği görünür kıl.
 
 ### Takip soruları
-- Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?
-- Yaptığın bu tercihin amaç ve hedef kitleyle ilişkisi nedir?
-- Bu kültür bilgisi hangi kaynağa dayanıyor?
-- Aynı konuşmayı başka bir hedef kitleye yapsan dilini veya örneklerini nasıl değiştirirdin?
+- “Konuşma uygulama ölçütleri” için: Yaptığın bu tercihin amaç ve hedef kitleyle ilişkisi nedir?
 
 ### Yanlış/kısmi cevapta müdahale
-- Terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt.
-- 'Türk kültürü her yerde aynıdır' genellemesini ortak kök + yerel/tarihî farklılaşma örnekleriyle aç.
-- Kültür değişimini otomatik olarak bozulma sayan öğrenciye etkileşim ve işlev değişimi örnekleri ver.
-
-### Tahta notu
-- **Tahtaya yaz: Unsur → işlev → etki**
-- **Tahtaya yaz: Taslak → geri bildirim → karar → revizyon**
-- **Tahtaya yaz: Kültür anlatımı = ortaklık + çeşitlilik + kaynak**
-- **Tahtaya yaz: Konuşma planı = amaç + hedef kitle + ana düşünce + kanıt + yöntem**
+- “Konuşma uygulama ölçütleri” sırasında terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt.
 
 ### Ölçmede bak
-- Kavram ile işlev arasında doğru ilişki.
-- Ürün kararlarının amaç ve bağlama uygunluğu.
-- Kaynaklı kültür örnekleri.
-- Amaç-hedef kitle-içerik uyumu.
-- Geri bildirim sonrası görünür revizyon.
+- “Konuşma uygulama ölçütleri” için ölçmede: ürün kararlarının amaç ve bağlama uygunluğu.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.
-- Konuşma planını amaç / kitle / örnek / kaynak / sonuç kutularına böl.
+- “Konuşma uygulama ölçütleri” için destek: önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.
 
 **Zenginleştirme**
-- Aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.
-- Bir kültür unsurunun iki coğrafyadaki biçimini kaynaklarıyla karşılaştır.
-
-### Kaynak sınırı
-- Dış video ve QR rubriklerinin yerel PDF'de görünmeyen ayrıntıları resmî içerik gibi üretilmemeli.
+- “Konuşma uygulama ölçütleri” için zenginleştirme: aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.
 
 ## s.135 — Süreci Değerlendirebilme
 
 **Bölüm:** Edebiyat Atölyesi-1 (Anlatma): Konuşma — Türk Kültürünün Özelliklerini Yansıtan Bir Konuşma
+**Pedagojik faz:** reflect
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -2180,48 +1948,27 @@ Türk dünyası ortak kültürünü kaynaklı, karşılaştırmalı ve hedef kit
 
 ### Pedagojik amaç
 
-Türk dünyası ortak kültürünü kaynaklı, karşılaştırmalı ve hedef kitleye uygun biçimde anlat; kültürü değişmez ve tek tip bir yapı gibi sunma. Öz/akran/öğretmen değerlendirmesini görünür kitap ölçütleriyle yürütmek; dış QR rubriğinin görünmeyen seviye tanımlarını uydurmamak.
+Öz/akran/öğretmen değerlendirmesini görünür kitap ölçütleriyle yürütmek; dış QR rubriğinin görünmeyen seviye tanımlarını uydurmamak.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.
-- Geri bildirimi sonraki ürün değişikliğine veya öğrenme davranışına bağla.
-- Her geniş kültür genellemesinin yanına somut örnek veya kaynak iste.
-- Konuşmada en az bir ortaklık ve bir yerel farklılık görünür olsun.
-- Akran geri bildirimini belirli bir konuşma ölçütüne bağla.
+### Bu blokta öğretmen hamlesi
+- “Konuşma Öz Değerlendirme Formu” görevinde geri bildirimi sonraki ürün değişikliğine veya öğrenme davranışına bağla.
 
 ### Takip soruları
-- Bu değerlendirmene hangi ürün veya performans ayrıntısı kanıt?
-- Bir sonraki benzer görevde tek bir şeyi değiştirecek olsan neyi değiştirirsin?
-- Bu kültür bilgisi hangi kaynağa dayanıyor?
-- Aynı konuşmayı başka bir hedef kitleye yapsan dilini veya örneklerini nasıl değiştirirdin?
+- “Konuşma Öz Değerlendirme Formu” için: Bu değerlendirmene hangi ürün veya performans ayrıntısı kanıt?
 
 ### Yanlış/kısmi cevapta müdahale
-- Formu otomatik olumlu işaretleyen öğrenciye belirli bir örnek göstermeden yargıyı tamamlanmış sayma.
-- 'Türk kültürü her yerde aynıdır' genellemesini ortak kök + yerel/tarihî farklılaşma örnekleriyle aç.
-- Kültür değişimini otomatik olarak bozulma sayan öğrenciye etkileşim ve işlev değişimi örnekleri ver.
-
-### Tahta notu
-- **Tahtaya yaz: Öz değerlendirme = yargı + kanıt + yeni hedef**
-- **Tahtaya yaz: Geri bildirim → değerlendir → karar ver → revize et**
-- **Tahtaya yaz: Kültür anlatımı = ortaklık + çeşitlilik + kaynak**
-- **Tahtaya yaz: Konuşma planı = amaç + hedef kitle + ana düşünce + kanıt + yöntem**
+- “Konuşma Öz Değerlendirme Formu” sırasında formu otomatik olumlu işaretleyen öğrenciye belirli bir örnek göstermeden yargıyı tamamlanmış sayma.
 
 ### Ölçmede bak
-- Kanıta dayalı öz değerlendirme.
-- Uygulanabilir bir sonraki adım veya revizyon.
-- Kaynaklı kültür örnekleri.
-- Amaç-hedef kitle-içerik uyumu.
-- Geri bildirim sonrası görünür revizyon.
+- “Konuşma Öz Değerlendirme Formu” için ölçmede: uygulanabilir bir sonraki adım veya revizyon.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan.
-- Konuşma planını amaç / kitle / örnek / kaynak / sonuç kutularına böl.
+- “Konuşma Öz Değerlendirme Formu” için destek: bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan.
 
 **Zenginleştirme**
-- Bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste.
-- Bir kültür unsurunun iki coğrafyadaki biçimini kaynaklarıyla karşılaştır.
+- “Konuşma Öz Değerlendirme Formu” için zenginleştirme: bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste.
 
 ### Kaynak sınırı
 - Dış video ve QR rubriklerinin yerel PDF'de görünmeyen ayrıntıları resmî içerik gibi üretilmemeli.
@@ -2229,6 +1976,7 @@ Türk dünyası ortak kültürünü kaynaklı, karşılaştırmalı ve hedef kit
 ## s.136-139 — Dinleme / İzlemeyi Yönetebilme
 
 **Bölüm:** Metin Tahlili-3 (Anlama): Dinleme / İzleme — Âşık Atışması
+**Pedagojik faz:** manage
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -2333,52 +2081,30 @@ _Not: Birebir soru metni canonical teacher-guide verisinde tutulmadığı için 
 
 Âşık atışmasını şiir metninden ibaret görmeden söz, saz, doğaçlama, karşılıklılık, mizah, beden ve seyirci boyutlarıyla çok modlu bir kültür icrası olarak çözümlet. Âşıklık geleneği ön bilgilerini etkinleştirip amaç, strateji, tahmin ve etkin dinleme kurallarıyla medya görevine hazırlanmak.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir.
-- Tahmini doğru-yanlış olarak değil görünür ipucuna dayalı çıkarım olarak değerlendir.
+### Bu blokta öğretmen hamlesi
 - Dinleme öncesinde amaç-strateji kaydı al; sonradan doldurulmuş forma dönüşmesini önle.
-- Beğeni ve estetik yargısında dil, ses veya performans kanıtı iste.
-- Usta-çırak ilişkisini pasif itaat değil öğrenme, sorumluluk ve aktarım bağlamında ele al.
 
 ### Takip soruları
-- Bu tahmini hangi başlık, görsel, kelime veya ön bilgiye dayandırdın?
-- Seçtiğin strateji bu görevde sana tam olarak ne sağlayacak?
 - Şiiri kâğıttan okumak ile âşık icrası arasındaki temel fark nedir?
-- Sazı veya tonlamayı çıkarırsak performansın etkisi nasıl değişir?
-- Bu bölüm neden komik; içerik mi söyleyiş mi daha etkili?
 
 ### Yanlış/kısmi cevapta müdahale
-- Gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur.
-- Atışmayı kavga sanan öğrenciye gelenek kuralları içindeki sözlü rekabeti açıklat.
-- Çok modluluğu yalnız video bulunması olarak gören öğrenciye söz, ses, müzik, beden ve görsel unsurları ayrı buldur.
-
-### Tahta notu
-- **Tahtaya yaz: Tahmin = ipucu + çıkarım**
-- **Tahtaya yaz: Amaç → uygun strateji → toplanacak kanıt**
-- **Tahtaya yaz: Âşık icrası = söz + saz + doğaçlama + karşılıklılık + seyirci**
-- **Tahtaya yaz: Çok modlu metin = söz + ses + müzik + görsel/beden**
-- **Tahtaya yaz: Beğeni = ölçüt + örnek/kanıt + yargı**
+- “Âşıklık geleneği ve Sazım — konuya başlarken” sırasında gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur.
 
 ### Ölçmede bak
-- Amaç ile strateji arasında açık uyum.
-- Tahminin görünür bir kaynağa dayanması.
-- Âşıklık geleneğinin en az üç bileşenini açıklama.
-- Mizah veya estetik yargısının dinleme kanıtına dayanması.
-- Performans unsurunu işleviyle eşleştirme.
+- “Âşıklık geleneği ve Sazım — konuya başlarken” için ölçmede: amaç ile strateji arasında açık uyum.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan.
-- Konuşmacı / ayak-uyak / mizah / saz için simgeli dinleme şablonu kullan.
+- “Âşıklık geleneği ve Sazım — konuya başlarken” için destek: amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan.
 
 **Zenginleştirme**
-- Aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat.
-- Aynı performansı yalnız ses kaydı ve video biçiminde karşılaştırıp kayıp/kazanımları açıklat.
+- “Âşıklık geleneği ve Sazım — konuya başlarken” için zenginleştirme: aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat.
 
 ## s.140-143 — Anlam Oluşturabilme
 
 **Bölüm:** Metin Tahlili-3 (Anlama): Dinleme / İzleme — Âşık Atışması
+**Pedagojik faz:** meaning
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -2509,54 +2235,37 @@ Dil, sözlü hafıza, müzik, mizah, değerler ve tarihî tecrübeyi kuşaklar a
 
 ### Pedagojik amaç
 
-Âşık atışmasını şiir metninden ibaret görmeden söz, saz, doğaçlama, karşılıklılık, mizah, beden ve seyirci boyutlarıyla çok modlu bir kültür icrası olarak çözümlet. Atışmadaki söz varlığı, gelenek, mizah ve dil-estetik özelliklerinden anlam oluşturmak.
+Atışmadaki söz varlığı, gelenek, mizah ve dil-estetik özelliklerinden anlam oluşturmak.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Cevabın yanına kısa metin, görsel veya dinleme kanıtı istemeyi varsayılan sınıf rutini hâline getir.
-- Konu, tema, ileti, yorum ve çıkarım gibi yakın kavramları görev üzerinde birbirinden ayır.
-- Dinleme öncesinde amaç-strateji kaydı al; sonradan doldurulmuş forma dönüşmesini önle.
+### Bu blokta öğretmen hamlesi
 - Beğeni ve estetik yargısında dil, ses veya performans kanıtı iste.
-- Usta-çırak ilişkisini pasif itaat değil öğrenme, sorumluluk ve aktarım bağlamında ele al.
 
 ### Takip soruları
-- Bu cevabını kaynakta hangi ayrıntı destekliyor?
-- Aynı kanıttan başka bir makul yorum çıkar mı?
-- Şiiri kâğıttan okumak ile âşık icrası arasındaki temel fark nedir?
-- Sazı veya tonlamayı çıkarırsak performansın etkisi nasıl değişir?
 - Bu bölüm neden komik; içerik mi söyleyiş mi daha etkili?
 
 ### Yanlış/kısmi cevapta müdahale
-- Yorumu kaynakta açıkça söylenmiş bilgi gibi sunan öğrenciye 'metinde var / ben çıkarıyorum' ayrımı yaptır.
 - Atışmayı kavga sanan öğrenciye gelenek kuralları içindeki sözlü rekabeti açıklat.
-- Çok modluluğu yalnız video bulunması olarak gören öğrenciye söz, ses, müzik, beden ve görsel unsurları ayrı buldur.
 
 ### Tahta notu
-- **Tahtaya yaz: Cevap = yargı + kanıt + gerekçe**
-- **Tahtaya yaz: Açık bilgi ≠ yorum/çıkarım**
 - **Tahtaya yaz: Âşık icrası = söz + saz + doğaçlama + karşılıklılık + seyirci**
-- **Tahtaya yaz: Çok modlu metin = söz + ses + müzik + görsel/beden**
 - **Tahtaya yaz: Beğeni = ölçüt + örnek/kanıt + yargı**
 
 ### Ölçmede bak
-- Cevabın kaynak kanıtıyla uyumu.
-- Açık bilgi ile çıkarımın ayrılması.
 - Âşıklık geleneğinin en az üç bileşenini açıklama.
 - Mizah veya estetik yargısının dinleme kanıtına dayanması.
-- Performans unsurunu işleviyle eşleştirme.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Cevabım / kanıtım biçiminde iki sütunlu çalışma alanı ver.
 - Konuşmacı / ayak-uyak / mizah / saz için simgeli dinleme şablonu kullan.
 
 **Zenginleştirme**
-- İki olası yorumu kanıt gücü bakımından karşılaştırmasını iste.
-- Aynı performansı yalnız ses kaydı ve video biçiminde karşılaştırıp kayıp/kazanımları açıklat.
+- “Söz Varlığımız — çağ, canan, sine, kahır, saban” için zenginleştirme: i̇ki olası yorumu kanıt gücü bakımından karşılaştırmasını iste.
 
 ## s.144-146 — Çözümleyebilme
 
 **Bölüm:** Metin Tahlili-3 (Anlama): Dinleme / İzleme — Âşık Atışması
+**Pedagojik faz:** analyze_apply
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -2683,54 +2392,35 @@ Söz oyunlarındaki ustalık uzun gözlem, ezber, doğaçlama, dil hâkimiyeti v
 
 ### Pedagojik amaç
 
-Âşık atışmasını şiir metninden ibaret görmeden söz, saz, doğaçlama, karşılıklılık, mizah, beden ve seyirci boyutlarıyla çok modlu bir kültür icrası olarak çözümlet. Usta-çırak geleneği, çok modlu performans unsurları ve farklı değerlendirme teknikleriyle atışmayı çözümlemek.
+Usta-çırak geleneği, çok modlu performans unsurları ve farklı değerlendirme teknikleriyle atışmayı çözümlemek.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.
-- Ürün görevlerinde ilk taslak ile son ürün arasındaki değişikliği görünür kıl.
-- Dinleme öncesinde amaç-strateji kaydı al; sonradan doldurulmuş forma dönüşmesini önle.
-- Beğeni ve estetik yargısında dil, ses veya performans kanıtı iste.
+### Bu blokta öğretmen hamlesi
 - Usta-çırak ilişkisini pasif itaat değil öğrenme, sorumluluk ve aktarım bağlamında ele al.
 
 ### Takip soruları
-- Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?
-- Yaptığın bu tercihin amaç ve hedef kitleyle ilişkisi nedir?
-- Şiiri kâğıttan okumak ile âşık icrası arasındaki temel fark nedir?
 - Sazı veya tonlamayı çıkarırsak performansın etkisi nasıl değişir?
-- Bu bölüm neden komik; içerik mi söyleyiş mi daha etkili?
 
 ### Yanlış/kısmi cevapta müdahale
-- Terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt.
-- Atışmayı kavga sanan öğrenciye gelenek kuralları içindeki sözlü rekabeti açıklat.
 - Çok modluluğu yalnız video bulunması olarak gören öğrenciye söz, ses, müzik, beden ve görsel unsurları ayrı buldur.
 
 ### Tahta notu
-- **Tahtaya yaz: Unsur → işlev → etki**
-- **Tahtaya yaz: Taslak → geri bildirim → karar → revizyon**
-- **Tahtaya yaz: Âşık icrası = söz + saz + doğaçlama + karşılıklılık + seyirci**
 - **Tahtaya yaz: Çok modlu metin = söz + ses + müzik + görsel/beden**
-- **Tahtaya yaz: Beğeni = ölçüt + örnek/kanıt + yargı**
 
 ### Ölçmede bak
-- Kavram ile işlev arasında doğru ilişki.
-- Ürün kararlarının amaç ve bağlama uygunluğu.
-- Âşıklık geleneğinin en az üç bileşenini açıklama.
-- Mizah veya estetik yargısının dinleme kanıtına dayanması.
 - Performans unsurunu işleviyle eşleştirme.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.
-- Konuşmacı / ayak-uyak / mizah / saz için simgeli dinleme şablonu kullan.
+- “Usta-çırak, saygı ve kültürel bellek” için destek: önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.
 
 **Zenginleştirme**
-- Aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.
 - Aynı performansı yalnız ses kaydı ve video biçiminde karşılaştırıp kayıp/kazanımları açıklat.
 
 ## s.147 — Süreci Değerlendirebilme
 
 **Bölüm:** Metin Tahlili-3 (Anlama): Dinleme / İzleme — Âşık Atışması
+**Pedagojik faz:** reflect
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -2785,54 +2475,32 @@ Söz oyunlarındaki ustalık uzun gözlem, ezber, doğaçlama, dil hâkimiyeti v
 
 ### Pedagojik amaç
 
-Âşık atışmasını şiir metninden ibaret görmeden söz, saz, doğaçlama, karşılıklılık, mizah, beden ve seyirci boyutlarıyla çok modlu bir kültür icrası olarak çözümlet. Dinleme/izleme deneyimini performans unsurları ve kişisel öğrenme farkındalığı üzerinden değerlendirmek.
+Dinleme/izleme deneyimini performans unsurları ve kişisel öğrenme farkındalığı üzerinden değerlendirmek.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.
-- Geri bildirimi sonraki ürün değişikliğine veya öğrenme davranışına bağla.
-- Dinleme öncesinde amaç-strateji kaydı al; sonradan doldurulmuş forma dönüşmesini önle.
-- Beğeni ve estetik yargısında dil, ses veya performans kanıtı iste.
-- Usta-çırak ilişkisini pasif itaat değil öğrenme, sorumluluk ve aktarım bağlamında ele al.
+### Bu blokta öğretmen hamlesi
+- “Atışmaya değer katan unsurlar ve söyleyicinin katkısı” görevinde öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.
 
 ### Takip soruları
-- Bu değerlendirmene hangi ürün veya performans ayrıntısı kanıt?
-- Bir sonraki benzer görevde tek bir şeyi değiştirecek olsan neyi değiştirirsin?
-- Şiiri kâğıttan okumak ile âşık icrası arasındaki temel fark nedir?
-- Sazı veya tonlamayı çıkarırsak performansın etkisi nasıl değişir?
-- Bu bölüm neden komik; içerik mi söyleyiş mi daha etkili?
+- “Atışmaya değer katan unsurlar ve söyleyicinin katkısı” için: Bir sonraki benzer görevde tek bir şeyi değiştirecek olsan neyi değiştirirsin?
 
 ### Yanlış/kısmi cevapta müdahale
-- Formu otomatik olumlu işaretleyen öğrenciye belirli bir örnek göstermeden yargıyı tamamlanmış sayma.
-- Atışmayı kavga sanan öğrenciye gelenek kuralları içindeki sözlü rekabeti açıklat.
-- Çok modluluğu yalnız video bulunması olarak gören öğrenciye söz, ses, müzik, beden ve görsel unsurları ayrı buldur.
-
-### Tahta notu
-- **Tahtaya yaz: Öz değerlendirme = yargı + kanıt + yeni hedef**
-- **Tahtaya yaz: Geri bildirim → değerlendir → karar ver → revize et**
-- **Tahtaya yaz: Âşık icrası = söz + saz + doğaçlama + karşılıklılık + seyirci**
-- **Tahtaya yaz: Çok modlu metin = söz + ses + müzik + görsel/beden**
-- **Tahtaya yaz: Beğeni = ölçüt + örnek/kanıt + yargı**
+- “Atışmaya değer katan unsurlar ve söyleyicinin katkısı” sırasında formu otomatik olumlu işaretleyen öğrenciye belirli bir örnek göstermeden yargıyı tamamlanmış sayma.
 
 ### Ölçmede bak
-- Kanıta dayalı öz değerlendirme.
-- Uygulanabilir bir sonraki adım veya revizyon.
-- Âşıklık geleneğinin en az üç bileşenini açıklama.
-- Mizah veya estetik yargısının dinleme kanıtına dayanması.
-- Performans unsurunu işleviyle eşleştirme.
+- “Atışmaya değer katan unsurlar ve söyleyicinin katkısı” için ölçmede: kanıta dayalı öz değerlendirme.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan.
-- Konuşmacı / ayak-uyak / mizah / saz için simgeli dinleme şablonu kullan.
+- “Atışmaya değer katan unsurlar ve söyleyicinin katkısı” için destek: bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan.
 
 **Zenginleştirme**
-- Bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste.
-- Aynı performansı yalnız ses kaydı ve video biçiminde karşılaştırıp kayıp/kazanımları açıklat.
+- “Atışmaya değer katan unsurlar ve söyleyicinin katkısı” için zenginleştirme: bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste.
 
 ## s.148-149 — Yazmayı Yönetebilme
 
 **Bölüm:** Edebiyat Atölyesi-2 (Anlatma): Yazma — Çevrim İçi Müze Gezisiyle İlgili İzlenimleri Yazabilme
+**Pedagojik faz:** manage
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -2879,54 +2547,31 @@ Söz oyunlarındaki ustalık uzun gözlem, ezber, doğaçlama, dil hâkimiyeti v
 
 Sanal müze izlenim yazısında kurum bilgisini kopyalamak yerine gerçek gözlem, kişisel izlenim ve kültürel yorum arasındaki farkı görünür kıl. Çevrim içi müze gezisine dayalı izlenim yazısı için müze seçimi, amaç, hedef kitle, metin düzeni ve strateji planlamak.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir.
-- Tahmini doğru-yanlış olarak değil görünür ipucuna dayalı çıkarım olarak değerlendir.
+### Bu blokta öğretmen hamlesi
 - Müze seçimini güvenilir kurum + kişisel ilgi + yazma amacı gerekçesiyle yaptır.
-- Notları gördüm / düşündüm-hissettim / kültürle ilişkilendirdim biçiminde ayır.
-- Görsel veya alıntının hangi düşünceyi desteklediğini açıklat.
 
 ### Takip soruları
-- Bu tahmini hangi başlık, görsel, kelime veya ön bilgiye dayandırdın?
-- Seçtiğin strateji bu görevde sana tam olarak ne sağlayacak?
 - Bu cümle gözlem mi, yorum mu?
-- Bu müze nesnesi dönemin yaşamı hakkında ne düşündürüyor?
-- Eklediğin görsel olmasa yazında hangi anlam kaybolur?
 
 ### Yanlış/kısmi cevapta müdahale
-- Gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur.
-- İnternetteki kurum tanıtımını kendi izlenimi sanan öğrenciye gözlem ve kişisel tepki cümlelerini ayrı yazdır.
 - Yazma kalitesini yalnız imlaya indirgeyen öğrenciye amaç, yapı ve içerik ölçütlerini yeniden kullandır.
 
-### Tahta notu
-- **Tahtaya yaz: Tahmin = ipucu + çıkarım**
-- **Tahtaya yaz: Amaç → uygun strateji → toplanacak kanıt**
-- **Tahtaya yaz: Gözlem = gördüğüm | İzlenim = düşündüğüm/hissettiğim | Yorum = kültürle kurduğum bağ**
-- **Tahtaya yaz: 1) İçerik/amaç 2) Yapı/tutarlılık 3) Dil/yazım**
-
 ### Ölçmede bak
-- Amaç ile strateji arasında açık uyum.
-- Tahminin görünür bir kaynağa dayanması.
 - Gerçek sanal gezi kanıtı.
 - Gözlem-izlenim-yorum ayrımının korunması.
-- Revizyon izinin görünür olması.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan.
-- Gördüm / düşündüm / ilişkilendirdim tablosu kullan.
+- “Sanal müzecilik — yazma görevinin bağlamı” için destek: amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan.
 
 **Zenginleştirme**
-- Aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat.
 - Bir müze nesnesini tarihçi, sanatçı ve günlük ziyaretçi bakışından üç cümlede yorumlat.
-
-### Kaynak sınırı
-- Dış QR dereceli puanlama anahtarının yerel PDF'de görünmeyen düzey açıklamaları uydurulmamalı.
 
 ## s.150-151 — İçerik Oluşturabilme
 
 **Bölüm:** Edebiyat Atölyesi-2 (Anlatma): Yazma — Çevrim İçi Müze Gezisiyle İlgili İzlenimleri Yazabilme
+**Pedagojik faz:** analyze_apply
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -3007,56 +2652,34 @@ Karşılaştırma ve sınıflandırma sonuçları yazıda özgün cümlelere dö
 
 ### Pedagojik amaç
 
-Sanal müze izlenim yazısında kurum bilgisini kopyalamak yerine gerçek gözlem, kişisel izlenim ve kültürel yorum arasındaki farkı görünür kıl. Müze-kültürel miras ilişkisini karşılaştırma ve sınıflandırmayla zenginleştirerek yazı içeriğini hazırlamak.
+Müze-kültürel miras ilişkisini karşılaştırma ve sınıflandırmayla zenginleştirerek yazı içeriğini hazırlamak.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.
-- Ürün görevlerinde ilk taslak ile son ürün arasındaki değişikliği görünür kıl.
-- Müze seçimini güvenilir kurum + kişisel ilgi + yazma amacı gerekçesiyle yaptır.
+### Bu blokta öğretmen hamlesi
 - Notları gördüm / düşündüm-hissettim / kültürle ilişkilendirdim biçiminde ayır.
 - Görsel veya alıntının hangi düşünceyi desteklediğini açıklat.
 
 ### Takip soruları
-- Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?
-- Yaptığın bu tercihin amaç ve hedef kitleyle ilişkisi nedir?
-- Bu cümle gözlem mi, yorum mu?
 - Bu müze nesnesi dönemin yaşamı hakkında ne düşündürüyor?
 - Eklediğin görsel olmasa yazında hangi anlam kaybolur?
 
 ### Yanlış/kısmi cevapta müdahale
-- Terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt.
 - İnternetteki kurum tanıtımını kendi izlenimi sanan öğrenciye gözlem ve kişisel tepki cümlelerini ayrı yazdır.
-- Yazma kalitesini yalnız imlaya indirgeyen öğrenciye amaç, yapı ve içerik ölçütlerini yeniden kullandır.
-
-### Tahta notu
-- **Tahtaya yaz: Unsur → işlev → etki**
-- **Tahtaya yaz: Taslak → geri bildirim → karar → revizyon**
-- **Tahtaya yaz: Gözlem = gördüğüm | İzlenim = düşündüğüm/hissettiğim | Yorum = kültürle kurduğum bağ**
-- **Tahtaya yaz: 1) İçerik/amaç 2) Yapı/tutarlılık 3) Dil/yazım**
 
 ### Ölçmede bak
-- Kavram ile işlev arasında doğru ilişki.
-- Ürün kararlarının amaç ve bağlama uygunluğu.
-- Gerçek sanal gezi kanıtı.
-- Gözlem-izlenim-yorum ayrımının korunması.
-- Revizyon izinin görünür olması.
+- “Kültürel Miras ve Müzeler — performans görevi” için ölçmede: kavram ile işlev arasında doğru ilişki.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.
 - Gördüm / düşündüm / ilişkilendirdim tablosu kullan.
 
 **Zenginleştirme**
-- Aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.
-- Bir müze nesnesini tarihçi, sanatçı ve günlük ziyaretçi bakışından üç cümlede yorumlat.
-
-### Kaynak sınırı
-- Dış QR dereceli puanlama anahtarının yerel PDF'de görünmeyen düzey açıklamaları uydurulmamalı.
+- “Kültürel Miras ve Müzeler — performans görevi” için zenginleştirme: aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.
 
 ## s.152 — Kural Uygulayabilme
 
 **Bölüm:** Edebiyat Atölyesi-2 (Anlatma): Yazma — Çevrim İçi Müze Gezisiyle İlgili İzlenimleri Yazabilme
+**Pedagojik faz:** analyze_apply
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -3091,56 +2714,36 @@ Sanal müze izlenim yazısında kurum bilgisini kopyalamak yerine gerçek gözle
 
 ### Pedagojik amaç
 
-Sanal müze izlenim yazısında kurum bilgisini kopyalamak yerine gerçek gözlem, kişisel izlenim ve kültürel yorum arasındaki farkı görünür kıl. Müze izlenim yazısını plan, yapı, söz varlığı, tutarlılık, değer/hassasiyet ve yazım-noktalama ölçütleriyle üretmek.
+Müze izlenim yazısını plan, yapı, söz varlığı, tutarlılık, değer/hassasiyet ve yazım-noktalama ölçütleriyle üretmek.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.
-- Ürün görevlerinde ilk taslak ile son ürün arasındaki değişikliği görünür kıl.
-- Müze seçimini güvenilir kurum + kişisel ilgi + yazma amacı gerekçesiyle yaptır.
-- Notları gördüm / düşündüm-hissettim / kültürle ilişkilendirdim biçiminde ayır.
-- Görsel veya alıntının hangi düşünceyi desteklediğini açıklat.
+### Bu blokta öğretmen hamlesi
+- “İzlenim yazısı uygulama ölçütleri” görevinde kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.
 
 ### Takip soruları
-- Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?
-- Yaptığın bu tercihin amaç ve hedef kitleyle ilişkisi nedir?
-- Bu cümle gözlem mi, yorum mu?
-- Bu müze nesnesi dönemin yaşamı hakkında ne düşündürüyor?
-- Eklediğin görsel olmasa yazında hangi anlam kaybolur?
+- “İzlenim yazısı uygulama ölçütleri” için: Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?
 
 ### Yanlış/kısmi cevapta müdahale
-- Terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt.
-- İnternetteki kurum tanıtımını kendi izlenimi sanan öğrenciye gözlem ve kişisel tepki cümlelerini ayrı yazdır.
-- Yazma kalitesini yalnız imlaya indirgeyen öğrenciye amaç, yapı ve içerik ölçütlerini yeniden kullandır.
+- “İzlenim yazısı uygulama ölçütleri” sırasında terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt.
 
 ### Tahta notu
-- **Tahtaya yaz: Unsur → işlev → etki**
-- **Tahtaya yaz: Taslak → geri bildirim → karar → revizyon**
 - **Tahtaya yaz: Gözlem = gördüğüm | İzlenim = düşündüğüm/hissettiğim | Yorum = kültürle kurduğum bağ**
 - **Tahtaya yaz: 1) İçerik/amaç 2) Yapı/tutarlılık 3) Dil/yazım**
 
 ### Ölçmede bak
-- Kavram ile işlev arasında doğru ilişki.
-- Ürün kararlarının amaç ve bağlama uygunluğu.
-- Gerçek sanal gezi kanıtı.
-- Gözlem-izlenim-yorum ayrımının korunması.
-- Revizyon izinin görünür olması.
+- “İzlenim yazısı uygulama ölçütleri” için ölçmede: ürün kararlarının amaç ve bağlama uygunluğu.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.
-- Gördüm / düşündüm / ilişkilendirdim tablosu kullan.
+- “İzlenim yazısı uygulama ölçütleri” için destek: önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.
 
 **Zenginleştirme**
-- Aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.
-- Bir müze nesnesini tarihçi, sanatçı ve günlük ziyaretçi bakışından üç cümlede yorumlat.
-
-### Kaynak sınırı
-- Dış QR dereceli puanlama anahtarının yerel PDF'de görünmeyen düzey açıklamaları uydurulmamalı.
+- “İzlenim yazısı uygulama ölçütleri” için zenginleştirme: aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.
 
 ## s.153-154 — Süreci Değerlendirebilme
 
 **Bölüm:** Edebiyat Atölyesi-2 (Anlatma): Yazma — Çevrim İçi Müze Gezisiyle İlgili İzlenimleri Yazabilme
+**Pedagojik faz:** reflect
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -3210,49 +2813,27 @@ Sanal müze izlenim yazısında kurum bilgisini kopyalamak yerine gerçek gözle
 
 ### Pedagojik amaç
 
-Sanal müze izlenim yazısında kurum bilgisini kopyalamak yerine gerçek gözlem, kişisel izlenim ve kültürel yorum arasındaki farkı görünür kıl. Yazıyı öz/akran/öğretmen geri bildirimiyle değerlendirmek, revize etmek ve öğrenme günlüğüyle tema sonu yansıtma yapmak.
+Yazıyı öz/akran/öğretmen geri bildirimiyle değerlendirmek, revize etmek ve öğrenme günlüğüyle tema sonu yansıtma yapmak.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.
-- Geri bildirimi sonraki ürün değişikliğine veya öğrenme davranışına bağla.
-- Müze seçimini güvenilir kurum + kişisel ilgi + yazma amacı gerekçesiyle yaptır.
-- Notları gördüm / düşündüm-hissettim / kültürle ilişkilendirdim biçiminde ayır.
-- Görsel veya alıntının hangi düşünceyi desteklediğini açıklat.
+### Bu blokta öğretmen hamlesi
+- “Yazma Öz Değerlendirme Formu” görevinde geri bildirimi sonraki ürün değişikliğine veya öğrenme davranışına bağla.
 
 ### Takip soruları
-- Bu değerlendirmene hangi ürün veya performans ayrıntısı kanıt?
-- Bir sonraki benzer görevde tek bir şeyi değiştirecek olsan neyi değiştirirsin?
-- Bu cümle gözlem mi, yorum mu?
-- Bu müze nesnesi dönemin yaşamı hakkında ne düşündürüyor?
-- Eklediğin görsel olmasa yazında hangi anlam kaybolur?
+- “Yazma Öz Değerlendirme Formu” için: Bu değerlendirmene hangi ürün veya performans ayrıntısı kanıt?
 
 ### Yanlış/kısmi cevapta müdahale
-- Formu otomatik olumlu işaretleyen öğrenciye belirli bir örnek göstermeden yargıyı tamamlanmış sayma.
-- İnternetteki kurum tanıtımını kendi izlenimi sanan öğrenciye gözlem ve kişisel tepki cümlelerini ayrı yazdır.
-- Yazma kalitesini yalnız imlaya indirgeyen öğrenciye amaç, yapı ve içerik ölçütlerini yeniden kullandır.
-
-### Tahta notu
-- **Tahtaya yaz: Öz değerlendirme = yargı + kanıt + yeni hedef**
-- **Tahtaya yaz: Geri bildirim → değerlendir → karar ver → revize et**
-- **Tahtaya yaz: Gözlem = gördüğüm | İzlenim = düşündüğüm/hissettiğim | Yorum = kültürle kurduğum bağ**
-- **Tahtaya yaz: 1) İçerik/amaç 2) Yapı/tutarlılık 3) Dil/yazım**
+- “Yazma Öz Değerlendirme Formu” sırasında formu otomatik olumlu işaretleyen öğrenciye belirli bir örnek göstermeden yargıyı tamamlanmış sayma.
 
 ### Ölçmede bak
-- Kanıta dayalı öz değerlendirme.
-- Uygulanabilir bir sonraki adım veya revizyon.
-- Gerçek sanal gezi kanıtı.
-- Gözlem-izlenim-yorum ayrımının korunması.
 - Revizyon izinin görünür olması.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan.
-- Gördüm / düşündüm / ilişkilendirdim tablosu kullan.
+- “Yazma Öz Değerlendirme Formu” için destek: bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan.
 
 **Zenginleştirme**
-- Bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste.
-- Bir müze nesnesini tarihçi, sanatçı ve günlük ziyaretçi bakışından üç cümlede yorumlat.
+- “Yazma Öz Değerlendirme Formu” için zenginleştirme: bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste.
 
 ### Kaynak sınırı
 - Dış QR dereceli puanlama anahtarının yerel PDF'de görünmeyen düzey açıklamaları uydurulmamalı.
@@ -3260,6 +2841,7 @@ Sanal müze izlenim yazısında kurum bilgisini kopyalamak yerine gerçek gözle
 ## s.155-159 — 2. Tema Ölçme ve Değerlendirme
 
 **Bölüm:** 2. Tema Ölçme ve Değerlendirme Soruları
+**Pedagojik faz:** assessment
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -3437,40 +3019,30 @@ D.
 
 Tema sonu sorularında tarihî metin, kültür, âşıklık ve eserler arası süreklilik bilgilerini doğru seçenekten çok gerekçeyle görünür kıl. Tema sonu dokuz soruyu görünür PDF içeriğine göre cevaplamak; dış videoya bağlı 8-9. sorularda gözlenmeyen ayrıntıları uydurmamak.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Çoktan seçmeli sorularda yalnız doğru seçeneği değil kısa gerekçeyi de iste.
-- Açık uçlu sorularda kabul edilebilir farklı cevapları kullanılan ölçüt ve kanıta göre değerlendir.
+### Bu blokta öğretmen hamlesi
 - Açık uçlu karşılaştırmada benzerliklerin yanında tür veya dönem farkını da sor.
 - Atışma sorularında yalnız son kelimeye değil ayak/nakarat düzenine baktır.
 - Slogan görevinde kısalık kadar tarihî hafıza ve töre bağlantısını değerlendir.
 
 ### Takip soruları
-- Bu seçenek neden doğru; en güçlü kanıtın ne?
-- Diğer seçeneklerden biri neden elenir?
 - Bu eser Orhun'a hangi iki ölçütte benziyor, hangi ölçütte ayrılıyor?
 - 'Daha sanatlı' yargısını hangi ölçütle savunabilirsin?
 
 ### Yanlış/kısmi cevapta müdahale
-- Doğru cevabı ezberden veren öğrenciden kanıt istemeden tam öğrenme kabul etme.
 - Eserleri yalnız aynı kültüre ait oldukları için benzer sayan öğrenciye tür, amaç ve dönem ölçütü ver.
 - Kişisel beğeniyi nesnel sanatlılık yargısı gibi sunan öğrenciye somut dil/biçim kanıtı iste.
 
 ### Tahta notu
-- **Tahtaya yaz: Doğru cevap + gerekçe = güvenilir öğrenme kanıtı**
 - **Tahtaya yaz: Karşılaştırma = benzerlik + farklılık + ölçüt**
 - **Tahtaya yaz: Değerlendirme yargısı = ölçüt + kanıt**
-- **Tahtaya yaz: Kültürel süreklilik = geçmiş unsur + sonraki eserdeki karşılık**
 
 ### Ölçmede bak
-- Cevap ile gerekçenin tutarlılığı.
-- Açık uçlu cevapta ölçüt ve kanıt kullanımı.
 - Doğru cevap ile gerekçenin uyumu.
 - Eserler arası sürekliliğin somut ölçütle açıklanması.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Soru kökündeki anahtar kavramları işaretlet ve seçenekleri tek tek kanıtla ele.
 - Dönem / tür / amaç başlıklı küçük karşılaştırma tablosu ver.
 
 **Zenginleştirme**

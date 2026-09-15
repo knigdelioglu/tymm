@@ -3,6 +3,7 @@
 > Bu dosya canonical ders kitabı/teacher-guide itemlerini değiştirmez. Pedagojik uygulama katmanıdır.
 > Kitaptaki soru metni canonical kaynakta birebir doğrulanmamışsa burada soru uydurulmaz; görev etiketi ve sayfa konumu kullanılır.
 > Canonical cevap, kabul ölçütü ve item düzeyi öğretmen notları mümkün olduğunda doğrudan bu çıktıda gösterilir.
+> Tahta notu yalnız küratörlü ve o blokta gerçekten işlevsel olduğunda gösterilir.
 
 ## Kullanım ilkeleri
 - Ders kitabındaki gerçek soru ve görev görünür kalır; doğrulanmamış soru metni uydurulmaz.
@@ -16,6 +17,7 @@
 ## s.236-237 — Tema Çerçevesi ve Ana Kavramlar
 
 **Bölüm:** Tema Açılışı / Temaya Başlarken
+**Pedagojik faz:** opening
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -89,46 +91,34 @@
 
 Hayatın sanat ve edebiyatta nasıl yeniden kurulduğunu; gerçeklik, temsil, emek, seçim ve bakış açısı kavramlarıyla tema boyunca izlenecek çerçeveye dönüştür. Hayat-edebiyat ilişkisi, tiyatro, küçürek hikâye, belgesel, canlandırma ve afiş üretimini ortak tema çerçevesinde görünür kılmak.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Tema hedeflerini ezber listesi olarak vermek yerine öğrencinin ön bilgisini açığa çıkaran iki kısa soru ile başla.
-- Tema boyunca geri dönülecek ana kavramları görünür bir yol haritasına dönüştür.
-- Gerçek hayat ile sanat eserini birebir eşitlemeden temsil ve dönüştürme fikrini aç.
+### Bu blokta öğretmen hamlesi
 - Tema kavramlarını tiyatro, küçürek hikâye, belgesel ve afiş görevlerine bağlayan kısa yol haritası oluştur.
 
 ### Takip soruları
-- Bu düşünceni hangi örnek veya deneyim destekliyor?
-- Tema sonunda bu görüşünün değişip değişmediğini nasıl anlayabiliriz?
 - Sanat hayatı olduğu gibi mi gösterir, yoksa seçip düzenler mi?
 - Aynı yaşam olayını tiyatro, hikâye ve afiş neden farklı biçimde anlatır?
 
 ### Yanlış/kısmi cevapta müdahale
-- Genel ve kanıtsız yargıyı doğrudan düzeltmek yerine somut örnek istemekle daralt.
 - Sanatı gerçeğin kopyası sayan öğrenciye seçme, yoğunlaştırma ve bakış açısı örnekleri ver.
 
 ### Tahta notu
-- **Tahtaya yaz: Ön bilgi → soru → kanıt → tema boyunca yeniden düşün**
 - **Tahtaya yaz: Hayat → seçme / yorumlama / biçim verme → sanat eseri**
-- **Tahtaya yaz: Aynı gerçeklik + farklı tür = farklı anlatım araçları**
 
 ### Ölçmede bak
-- Ön bilgi ile gerekçenin birbirinden ayrılması.
-- Tema kavramları arasında ilk anlamlı bağların kurulması.
-- Gerçeklik ile sanatsal temsilin ayrılması.
 - Türün anlatım biçimine etkisini fark etme.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Anahtar kavramları kısa kelime kartlarıyla ver ve öğrencinin örnekle eşleştirmesini sağla.
-- Gerçek olay / sanatsal dönüşüm şeklinde iki sütunlu örnek kullan.
+- “Tema kapsamı ve beklenen öğrenmeler” için destek: anahtar kavramları kısa kelime kartlarıyla ver ve öğrencinin örnekle eşleştirmesini sağla.
 
 **Zenginleştirme**
-- Tema kavramlarından ikisi arasında öğrencinin kendi örneğiyle ilişki kurmasını iste.
 - Aynı gündelik olayı üç farklı türde birer cümleyle yeniden kurdur.
 
 ## s.238-239 — Temaya Başlarken — Edebiyat, Hayat ve Okur
 
 **Bölüm:** Tema Açılışı / Temaya Başlarken
+**Pedagojik faz:** opening
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -230,48 +220,35 @@ Tür seçimi serbesttir; kabul için seçilen hayat kesiti ile türün imkânlar
 
 ### Pedagojik amaç
 
-Hayatın sanat ve edebiyatta nasıl yeniden kurulduğunu; gerçeklik, temsil, emek, seçim ve bakış açısı kavramlarıyla tema boyunca izlenecek çerçeveye dönüştür. Edebiyatın sosyal gelişim, kalıcılık, sanatsal dönüştürme ve okur yaşantısıyla ilişkisini tartışmaya açmak.
+Edebiyatın sosyal gelişim, kalıcılık, sanatsal dönüştürme ve okur yaşantısıyla ilişkisini tartışmaya açmak.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Tema hedeflerini ezber listesi olarak vermek yerine öğrencinin ön bilgisini açığa çıkaran iki kısa soru ile başla.
-- Tema boyunca geri dönülecek ana kavramları görünür bir yol haritasına dönüştür.
+### Bu blokta öğretmen hamlesi
 - Gerçek hayat ile sanat eserini birebir eşitlemeden temsil ve dönüştürme fikrini aç.
-- Tema kavramlarını tiyatro, küçürek hikâye, belgesel ve afiş görevlerine bağlayan kısa yol haritası oluştur.
 
 ### Takip soruları
-- Bu düşünceni hangi örnek veya deneyim destekliyor?
-- Tema sonunda bu görüşünün değişip değişmediğini nasıl anlayabiliriz?
-- Sanat hayatı olduğu gibi mi gösterir, yoksa seçip düzenler mi?
-- Aynı yaşam olayını tiyatro, hikâye ve afiş neden farklı biçimde anlatır?
+- “Kitap, sosyal gelişim ve ‘ebedî dostluk’” için: Bu düşünceni hangi örnek veya deneyim destekliyor?
 
 ### Yanlış/kısmi cevapta müdahale
-- Genel ve kanıtsız yargıyı doğrudan düzeltmek yerine somut örnek istemekle daralt.
-- Sanatı gerçeğin kopyası sayan öğrenciye seçme, yoğunlaştırma ve bakış açısı örnekleri ver.
+- “Kitap, sosyal gelişim ve ‘ebedî dostluk’” sırasında genel ve kanıtsız yargıyı doğrudan düzeltmek yerine somut örnek istemekle daralt.
 
 ### Tahta notu
-- **Tahtaya yaz: Ön bilgi → soru → kanıt → tema boyunca yeniden düşün**
-- **Tahtaya yaz: Hayat → seçme / yorumlama / biçim verme → sanat eseri**
 - **Tahtaya yaz: Aynı gerçeklik + farklı tür = farklı anlatım araçları**
 
 ### Ölçmede bak
-- Ön bilgi ile gerekçenin birbirinden ayrılması.
-- Tema kavramları arasında ilk anlamlı bağların kurulması.
 - Gerçeklik ile sanatsal temsilin ayrılması.
-- Türün anlatım biçimine etkisini fark etme.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Anahtar kavramları kısa kelime kartlarıyla ver ve öğrencinin örnekle eşleştirmesini sağla.
 - Gerçek olay / sanatsal dönüşüm şeklinde iki sütunlu örnek kullan.
 
 **Zenginleştirme**
-- Tema kavramlarından ikisi arasında öğrencinin kendi örneğiyle ilişki kurmasını iste.
-- Aynı gündelik olayı üç farklı türde birer cümleyle yeniden kurdur.
+- “Kitap, sosyal gelişim ve ‘ebedî dostluk’” için zenginleştirme: tema kavramlarından ikisi arasında öğrencinin kendi örneğiyle ilişki kurmasını iste.
 
 ## s.240-242 — Okumayı Yönetme — Tiyatroya Hazırlık ve Okuma Çemberi
 
 **Bölüm:** Metin Tahlili-1 (Anlama): Okuma — Tiyatro / Ben, Mimar Sinan
+**Pedagojik faz:** manage
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -340,52 +317,30 @@ Başlık, görsel, yazar bilgisi ve tiyatro türüne ilişkin ön bilgilerden ha
 
 Ben, Mimar Sinan üzerinden tarihî gerçekliğin dramatik kurguya dönüşümünü, tiyatro unsurlarını, emek-estetik ilişkisini ve sahne dilini çözümlet. Tiyatro metnine ön bilgiyi etkinleştirerek, rol temelli okuma çemberiyle amaçlı okuma hazırlığı yapmak.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir.
-- Tahmini doğru-yanlış olarak değil görünür ipucuna dayalı çıkarım olarak değerlendir.
-- Tarihî kişi bilgisi ile tiyatro yazarının dramatik düzenlemesini ayrı tut.
+### Bu blokta öğretmen hamlesi
 - Okuma çemberinde rollerin metin kanıtı üretmesini şart koş.
-- Tiyatro işlevini yalnız eğlendirme değil empati, eleştiri, tarihî/toplumsal deneyimi yeniden yorumlama üzerinden aç.
 
 ### Takip soruları
-- Bu tahmini hangi başlık, görsel, kelime veya ön bilgiye dayandırdın?
-- Seçtiğin strateji bu görevde sana tam olarak ne sağlayacak?
-- Bu sahne tarihî bilgi mi, dramatik yorum mu; nasıl ayırırsın?
-- Bu olay sahnede etkili olsun diye hangi unsur yoğunlaştırılmış?
-- Dekor veya sahne yönergesi karakteri anlamamıza nasıl yardım ediyor?
+- “Mimar Sinan bağlamından kısa tiyatro metni üretme” için: Bu tahmini hangi başlık, görsel, kelime veya ön bilgiye dayandırdın?
 
 ### Yanlış/kısmi cevapta müdahale
-- Gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur.
-- Tiyatro metnini gerçek hayatın birebir kaydı sayan öğrenciye dramatik seçme ve sahneleme tercihini buldur.
-- Mimar Sinan'ın emeğini tek başına kahramanlık anlatısına indirgeyen öğrenciye tarihî çevre, ekip ve ortak üretim boyutunu düşündür.
-
-### Tahta notu
-- **Tahtaya yaz: Tahmin = ipucu + çıkarım**
-- **Tahtaya yaz: Amaç → uygun strateji → toplanacak kanıt**
-- **Tahtaya yaz: Tarihî gerçeklik → dramatik seçme/düzenleme → tiyatro sahnesi**
-- **Tahtaya yaz: Tiyatro = karakter + çatışma + diyalog/monolog + sahne yönergesi + seyirci**
-- **Tahtaya yaz: Sahne unsuru → işlev → izleyici etkisi**
+- “Mimar Sinan bağlamından kısa tiyatro metni üretme” sırasında gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur.
 
 ### Ölçmede bak
-- Amaç ile strateji arasında açık uyum.
-- Tahminin görünür bir kaynağa dayanması.
-- Tarihî bilgi ile dramatik yorumun ayrılması.
-- Tiyatro unsurunun işlevle açıklanması.
-- Emek ve estetik temasının metin kanıtıyla kurulması.
+- “Mimar Sinan bağlamından kısa tiyatro metni üretme” için ölçmede: amaç ile strateji arasında açık uyum.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan.
-- Sahne unsuru / metindeki örnek / işlev üç sütunlu tablo kullan.
+- “Mimar Sinan bağlamından kısa tiyatro metni üretme” için destek: amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan.
 
 **Zenginleştirme**
-- Aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat.
-- Bir tarihî olayın ders kitabı anlatımı ile tiyatro sahnesi olarak anlatımı arasındaki farkı karşılaştır.
+- “Mimar Sinan bağlamından kısa tiyatro metni üretme” için zenginleştirme: aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat.
 
 ## s.243-250 — Ben, Mimar Sinan — İçerik ve Anlam Oluşturma
 
 **Bölüm:** Metin Tahlili-1 (Anlama): Okuma — Tiyatro / Ben, Mimar Sinan
+**Pedagojik faz:** meaning
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -475,54 +430,39 @@ Metin Mimar Sinan’ın meslekî gelişimini, bilgi-azim-çalışkanlıkla ilerl
 
 ### Pedagojik amaç
 
-Ben, Mimar Sinan üzerinden tarihî gerçekliğin dramatik kurguya dönüşümünü, tiyatro unsurlarını, emek-estetik ilişkisini ve sahne dilini çözümlet. Tiyatro metninin tarih, emek, estetik, toplumsal hayat ve dil boyutlarından anlam oluşturmak.
+Tiyatro metninin tarih, emek, estetik, toplumsal hayat ve dil boyutlarından anlam oluşturmak.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Cevabın yanına kısa metin, görsel veya dinleme kanıtı istemeyi varsayılan sınıf rutini hâline getir.
-- Konu, tema, ileti, yorum ve çıkarım gibi yakın kavramları görev üzerinde birbirinden ayır.
+### Bu blokta öğretmen hamlesi
 - Tarihî kişi bilgisi ile tiyatro yazarının dramatik düzenlemesini ayrı tut.
-- Okuma çemberinde rollerin metin kanıtı üretmesini şart koş.
 - Tiyatro işlevini yalnız eğlendirme değil empati, eleştiri, tarihî/toplumsal deneyimi yeniden yorumlama üzerinden aç.
 
 ### Takip soruları
-- Bu cevabını kaynakta hangi ayrıntı destekliyor?
-- Aynı kanıttan başka bir makul yorum çıkar mı?
 - Bu sahne tarihî bilgi mi, dramatik yorum mu; nasıl ayırırsın?
 - Bu olay sahnede etkili olsun diye hangi unsur yoğunlaştırılmış?
 - Dekor veya sahne yönergesi karakteri anlamamıza nasıl yardım ediyor?
 
 ### Yanlış/kısmi cevapta müdahale
-- Yorumu kaynakta açıkça söylenmiş bilgi gibi sunan öğrenciye 'metinde var / ben çıkarıyorum' ayrımı yaptır.
-- Tiyatro metnini gerçek hayatın birebir kaydı sayan öğrenciye dramatik seçme ve sahneleme tercihini buldur.
 - Mimar Sinan'ın emeğini tek başına kahramanlık anlatısına indirgeyen öğrenciye tarihî çevre, ekip ve ortak üretim boyutunu düşündür.
 
 ### Tahta notu
-- **Tahtaya yaz: Cevap = yargı + kanıt + gerekçe**
-- **Tahtaya yaz: Açık bilgi ≠ yorum/çıkarım**
-- **Tahtaya yaz: Tarihî gerçeklik → dramatik seçme/düzenleme → tiyatro sahnesi**
-- **Tahtaya yaz: Tiyatro = karakter + çatışma + diyalog/monolog + sahne yönergesi + seyirci**
 - **Tahtaya yaz: Sahne unsuru → işlev → izleyici etkisi**
 
 ### Ölçmede bak
-- Cevabın kaynak kanıtıyla uyumu.
-- Açık bilgi ile çıkarımın ayrılması.
 - Tarihî bilgi ile dramatik yorumun ayrılması.
-- Tiyatro unsurunun işlevle açıklanması.
 - Emek ve estetik temasının metin kanıtıyla kurulması.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Cevabım / kanıtım biçiminde iki sütunlu çalışma alanı ver.
 - Sahne unsuru / metindeki örnek / işlev üç sütunlu tablo kullan.
 
 **Zenginleştirme**
-- İki olası yorumu kanıt gücü bakımından karşılaştırmasını iste.
 - Bir tarihî olayın ders kitabı anlatımı ile tiyatro sahnesi olarak anlatımı arasındaki farkı karşılaştır.
 
 ## s.251-254 — Metni Anlayalım ve Cimri ile Karşılaştırma
 
 **Bölüm:** Metin Tahlili-1 (Anlama): Okuma — Tiyatro / Ben, Mimar Sinan
+**Pedagojik faz:** meaning
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -636,54 +576,32 @@ Kişinin koşullarını tamamen kontrol edemese de bilgi edinme, kararlılık ve
 
 ### Pedagojik amaç
 
-Ben, Mimar Sinan üzerinden tarihî gerçekliğin dramatik kurguya dönüşümünü, tiyatro unsurlarını, emek-estetik ilişkisini ve sahne dilini çözümlet. Metnin konusu, amacı, karakterleri, temel iletileri ve modern tiyatro türleri üzerinden çıkarım yapmak.
+Metnin konusu, amacı, karakterleri, temel iletileri ve modern tiyatro türleri üzerinden çıkarım yapmak.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Cevabın yanına kısa metin, görsel veya dinleme kanıtı istemeyi varsayılan sınıf rutini hâline getir.
-- Konu, tema, ileti, yorum ve çıkarım gibi yakın kavramları görev üzerinde birbirinden ayır.
-- Tarihî kişi bilgisi ile tiyatro yazarının dramatik düzenlemesini ayrı tut.
-- Okuma çemberinde rollerin metin kanıtı üretmesini şart koş.
-- Tiyatro işlevini yalnız eğlendirme değil empati, eleştiri, tarihî/toplumsal deneyimi yeniden yorumlama üzerinden aç.
+### Bu blokta öğretmen hamlesi
+- “Konu, amaç, yazar-metin ilişkisi ve karakter özellikleri” görevinde cevabın yanına kısa metin, görsel veya dinleme kanıtı istemeyi varsayılan sınıf rutini hâline getir.
 
 ### Takip soruları
-- Bu cevabını kaynakta hangi ayrıntı destekliyor?
-- Aynı kanıttan başka bir makul yorum çıkar mı?
-- Bu sahne tarihî bilgi mi, dramatik yorum mu; nasıl ayırırsın?
-- Bu olay sahnede etkili olsun diye hangi unsur yoğunlaştırılmış?
-- Dekor veya sahne yönergesi karakteri anlamamıza nasıl yardım ediyor?
+- “Konu, amaç, yazar-metin ilişkisi ve karakter özellikleri” için: Bu cevabını kaynakta hangi ayrıntı destekliyor?
 
 ### Yanlış/kısmi cevapta müdahale
-- Yorumu kaynakta açıkça söylenmiş bilgi gibi sunan öğrenciye 'metinde var / ben çıkarıyorum' ayrımı yaptır.
-- Tiyatro metnini gerçek hayatın birebir kaydı sayan öğrenciye dramatik seçme ve sahneleme tercihini buldur.
-- Mimar Sinan'ın emeğini tek başına kahramanlık anlatısına indirgeyen öğrenciye tarihî çevre, ekip ve ortak üretim boyutunu düşündür.
-
-### Tahta notu
-- **Tahtaya yaz: Cevap = yargı + kanıt + gerekçe**
-- **Tahtaya yaz: Açık bilgi ≠ yorum/çıkarım**
-- **Tahtaya yaz: Tarihî gerçeklik → dramatik seçme/düzenleme → tiyatro sahnesi**
-- **Tahtaya yaz: Tiyatro = karakter + çatışma + diyalog/monolog + sahne yönergesi + seyirci**
-- **Tahtaya yaz: Sahne unsuru → işlev → izleyici etkisi**
+- “Konu, amaç, yazar-metin ilişkisi ve karakter özellikleri” sırasında yorumu kaynakta açıkça söylenmiş bilgi gibi sunan öğrenciye 'metinde var / ben çıkarıyorum' ayrımı yaptır.
 
 ### Ölçmede bak
-- Cevabın kaynak kanıtıyla uyumu.
-- Açık bilgi ile çıkarımın ayrılması.
-- Tarihî bilgi ile dramatik yorumun ayrılması.
-- Tiyatro unsurunun işlevle açıklanması.
-- Emek ve estetik temasının metin kanıtıyla kurulması.
+- “Konu, amaç, yazar-metin ilişkisi ve karakter özellikleri” için ölçmede: cevabın kaynak kanıtıyla uyumu.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Cevabım / kanıtım biçiminde iki sütunlu çalışma alanı ver.
-- Sahne unsuru / metindeki örnek / işlev üç sütunlu tablo kullan.
+- “Konu, amaç, yazar-metin ilişkisi ve karakter özellikleri” için destek: cevabım / kanıtım biçiminde iki sütunlu çalışma alanı ver.
 
 **Zenginleştirme**
-- İki olası yorumu kanıt gücü bakımından karşılaştırmasını iste.
-- Bir tarihî olayın ders kitabı anlatımı ile tiyatro sahnesi olarak anlatımı arasındaki farkı karşılaştır.
+- “Konu, amaç, yazar-metin ilişkisi ve karakter özellikleri” için zenginleştirme: i̇ki olası yorumu kanıt gücü bakımından karşılaştırmasını iste.
 
 ## s.255-261 — Tiyatro Metnini Çözümleme
 
 **Bölüm:** Metin Tahlili-1 (Anlama): Okuma — Tiyatro / Ben, Mimar Sinan
+**Pedagojik faz:** analyze_apply
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -788,54 +706,36 @@ Ben, Mimar Sinan üzerinden tarihî gerçekliğin dramatik kurguya dönüşümü
 
 ### Pedagojik amaç
 
-Ben, Mimar Sinan üzerinden tarihî gerçekliğin dramatik kurguya dönüşümünü, tiyatro unsurlarını, emek-estetik ilişkisini ve sahne dilini çözümlet. Özet, yapı, dil-üslup, dönem, değer, disiplinler arası ilişki ve çatışma boyutlarını çözümlemek.
+Özet, yapı, dil-üslup, dönem, değer, disiplinler arası ilişki ve çatışma boyutlarını çözümlemek.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.
-- Ürün görevlerinde ilk taslak ile son ürün arasındaki değişikliği görünür kıl.
-- Tarihî kişi bilgisi ile tiyatro yazarının dramatik düzenlemesini ayrı tut.
-- Okuma çemberinde rollerin metin kanıtı üretmesini şart koş.
-- Tiyatro işlevini yalnız eğlendirme değil empati, eleştiri, tarihî/toplumsal deneyimi yeniden yorumlama üzerinden aç.
+### Bu blokta öğretmen hamlesi
+- “Özet, amaç-dil ilişkisi, tarihî gerçeklik ve dekor” görevinde kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.
 
 ### Takip soruları
-- Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?
-- Yaptığın bu tercihin amaç ve hedef kitleyle ilişkisi nedir?
-- Bu sahne tarihî bilgi mi, dramatik yorum mu; nasıl ayırırsın?
-- Bu olay sahnede etkili olsun diye hangi unsur yoğunlaştırılmış?
-- Dekor veya sahne yönergesi karakteri anlamamıza nasıl yardım ediyor?
+- “Özet, amaç-dil ilişkisi, tarihî gerçeklik ve dekor” için: Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?
 
 ### Yanlış/kısmi cevapta müdahale
-- Terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt.
 - Tiyatro metnini gerçek hayatın birebir kaydı sayan öğrenciye dramatik seçme ve sahneleme tercihini buldur.
-- Mimar Sinan'ın emeğini tek başına kahramanlık anlatısına indirgeyen öğrenciye tarihî çevre, ekip ve ortak üretim boyutunu düşündür.
 
 ### Tahta notu
-- **Tahtaya yaz: Unsur → işlev → etki**
-- **Tahtaya yaz: Taslak → geri bildirim → karar → revizyon**
 - **Tahtaya yaz: Tarihî gerçeklik → dramatik seçme/düzenleme → tiyatro sahnesi**
 - **Tahtaya yaz: Tiyatro = karakter + çatışma + diyalog/monolog + sahne yönergesi + seyirci**
-- **Tahtaya yaz: Sahne unsuru → işlev → izleyici etkisi**
 
 ### Ölçmede bak
-- Kavram ile işlev arasında doğru ilişki.
-- Ürün kararlarının amaç ve bağlama uygunluğu.
-- Tarihî bilgi ile dramatik yorumun ayrılması.
 - Tiyatro unsurunun işlevle açıklanması.
-- Emek ve estetik temasının metin kanıtıyla kurulması.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.
-- Sahne unsuru / metindeki örnek / işlev üç sütunlu tablo kullan.
+- “Özet, amaç-dil ilişkisi, tarihî gerçeklik ve dekor” için destek: önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.
 
 **Zenginleştirme**
-- Aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.
-- Bir tarihî olayın ders kitabı anlatımı ile tiyatro sahnesi olarak anlatımı arasındaki farkı karşılaştır.
+- “Özet, amaç-dil ilişkisi, tarihî gerçeklik ve dekor” için zenginleştirme: aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.
 
 ## s.262 — Süreç ve Beğeni Ölçütleriyle Değerlendirme
 
 **Bölüm:** Metin Tahlili-1 (Anlama): Okuma — Tiyatro / Ben, Mimar Sinan
+**Pedagojik faz:** reflect
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -870,54 +770,32 @@ Seçilen karakter; adı söylenmeden ayırt edici özellik, amaç, ilişki ve da
 
 ### Pedagojik amaç
 
-Ben, Mimar Sinan üzerinden tarihî gerçekliğin dramatik kurguya dönüşümünü, tiyatro unsurlarını, emek-estetik ilişkisini ve sahne dilini çözümlet. Metni günlük hayat, karakter, sahneleme ve kişisel beğeni ölçütleri üzerinden değerlendirmek.
+Metni günlük hayat, karakter, sahneleme ve kişisel beğeni ölçütleri üzerinden değerlendirmek.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.
-- Geri bildirimi sonraki ürün değişikliğine veya öğrenme davranışına bağla.
-- Tarihî kişi bilgisi ile tiyatro yazarının dramatik düzenlemesini ayrı tut.
-- Okuma çemberinde rollerin metin kanıtı üretmesini şart koş.
-- Tiyatro işlevini yalnız eğlendirme değil empati, eleştiri, tarihî/toplumsal deneyimi yeniden yorumlama üzerinden aç.
+### Bu blokta öğretmen hamlesi
+- “Günlük insan ilişkileri ve beğeni ölçütleri” görevinde öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.
 
 ### Takip soruları
-- Bu değerlendirmene hangi ürün veya performans ayrıntısı kanıt?
-- Bir sonraki benzer görevde tek bir şeyi değiştirecek olsan neyi değiştirirsin?
-- Bu sahne tarihî bilgi mi, dramatik yorum mu; nasıl ayırırsın?
-- Bu olay sahnede etkili olsun diye hangi unsur yoğunlaştırılmış?
-- Dekor veya sahne yönergesi karakteri anlamamıza nasıl yardım ediyor?
+- “Günlük insan ilişkileri ve beğeni ölçütleri” için: Bu değerlendirmene hangi ürün veya performans ayrıntısı kanıt?
 
 ### Yanlış/kısmi cevapta müdahale
-- Formu otomatik olumlu işaretleyen öğrenciye belirli bir örnek göstermeden yargıyı tamamlanmış sayma.
-- Tiyatro metnini gerçek hayatın birebir kaydı sayan öğrenciye dramatik seçme ve sahneleme tercihini buldur.
-- Mimar Sinan'ın emeğini tek başına kahramanlık anlatısına indirgeyen öğrenciye tarihî çevre, ekip ve ortak üretim boyutunu düşündür.
-
-### Tahta notu
-- **Tahtaya yaz: Öz değerlendirme = yargı + kanıt + yeni hedef**
-- **Tahtaya yaz: Geri bildirim → değerlendir → karar ver → revize et**
-- **Tahtaya yaz: Tarihî gerçeklik → dramatik seçme/düzenleme → tiyatro sahnesi**
-- **Tahtaya yaz: Tiyatro = karakter + çatışma + diyalog/monolog + sahne yönergesi + seyirci**
-- **Tahtaya yaz: Sahne unsuru → işlev → izleyici etkisi**
+- “Günlük insan ilişkileri ve beğeni ölçütleri” sırasında formu otomatik olumlu işaretleyen öğrenciye belirli bir örnek göstermeden yargıyı tamamlanmış sayma.
 
 ### Ölçmede bak
-- Kanıta dayalı öz değerlendirme.
-- Uygulanabilir bir sonraki adım veya revizyon.
-- Tarihî bilgi ile dramatik yorumun ayrılması.
-- Tiyatro unsurunun işlevle açıklanması.
-- Emek ve estetik temasının metin kanıtıyla kurulması.
+- “Günlük insan ilişkileri ve beğeni ölçütleri” için ölçmede: kanıta dayalı öz değerlendirme.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan.
-- Sahne unsuru / metindeki örnek / işlev üç sütunlu tablo kullan.
+- “Günlük insan ilişkileri ve beğeni ölçütleri” için destek: bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan.
 
 **Zenginleştirme**
-- Bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste.
-- Bir tarihî olayın ders kitabı anlatımı ile tiyatro sahnesi olarak anlatımı arasındaki farkı karşılaştır.
+- “Günlük insan ilişkileri ve beğeni ölçütleri” için zenginleştirme: bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste.
 
 ## s.263-265 — Okumayı Yönetme — Yaşam Metaforları ve Küçürek Hikâye
 
 **Bölüm:** Metin Tahlili-2 (Anlama): Okuma — Küçürek Hikâye / Merdiven
+**Pedagojik faz:** manage
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -972,52 +850,30 @@ Yol, merdiven, bahar ve diken gibi imgeler; başlangıç, ilerleme, güçlük, y
 
 Merdiven ve küçürek hikâye çalışmalarında kısalığı yüzeysellikle karıştırmadan simge, boşluk, tekrar, karşıtlık ve okur katılımı üzerinden yoğun anlam kurdur. Yaşam-merdiven çağrışımını ve küçürek hikâyenin yoğun anlatım özelliklerini okuma öncesinde etkinleştirmek.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir.
-- Tahmini doğru-yanlış olarak değil görünür ipucuna dayalı çıkarım olarak değerlendir.
-- Metinde söylenmeyen fakat güçlü biçimde sezdirilen noktaları kanıtla çıkarttır.
-- Merdiven, çıkmak-inmek ve kuşak karşılaşmasını tek zorunlu metafora kapatma; metinle uyumlu alternatif yorumları karşılaştır.
-- Küçürek hikâyeyi yalnız kelime sayısıyla tanımlama; yoğunluk ve okur tamamlama işlevini vurgula.
+### Bu blokta öğretmen hamlesi
+- “Yaşam evreleri ve yol/merdiven metaforları” görevinde göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir.
 
 ### Takip soruları
-- Bu tahmini hangi başlık, görsel, kelime veya ön bilgiye dayandırdın?
-- Seçtiğin strateji bu görevde sana tam olarak ne sağlayacak?
-- Metin neyi açıkça söylemiyor ama sana düşündürüyor?
-- Merdiven yalnız fiziksel bir nesne olsaydı metnin finali aynı etkiyi yaratır mıydı?
-- Bu kısa metinde tekrarlar ritmi ve anlamı nasıl kuruyor?
+- “Yaşam evreleri ve yol/merdiven metaforları” için: Seçtiğin strateji bu görevde sana tam olarak ne sağlayacak?
 
 ### Yanlış/kısmi cevapta müdahale
-- Gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur.
-- 'Aşağı inme'yi yalnız fiziksel hareket sayan öğrenciye finaldeki zaman, yaş ve kuşak göstergelerini buldur.
-- Küçürek hikâyeyi 'kısa olduğu için kolay' sayan öğrenciye okurun doldurmak zorunda olduğu anlam boşluklarını işaretlet.
-
-### Tahta notu
-- **Tahtaya yaz: Tahmin = ipucu + çıkarım**
-- **Tahtaya yaz: Amaç → uygun strateji → toplanacak kanıt**
-- **Tahtaya yaz: Küçürek hikâye = az söz + yoğun çağrışım + anlam boşluğu + okur katılımı**
-- **Tahtaya yaz: Simge = somut unsur + bağlam + çağrışım**
-- **Tahtaya yaz: Metinde söylenen / sezdirilen**
+- “Yaşam evreleri ve yol/merdiven metaforları” sırasında gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur.
 
 ### Ölçmede bak
-- Amaç ile strateji arasında açık uyum.
-- Tahminin görünür bir kaynağa dayanması.
-- Simgesel yorumu metin kanıtıyla destekleme.
 - Küçürek hikâyenin en az üç ayırt edici özelliğini işlevle açıklama.
-- Alternatif yorumu kanıtla savunma.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan.
 - Söylenen / sezdirilen iki sütunlu okuma tablosu kullan.
 
 **Zenginleştirme**
-- Aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat.
-- Metindeki bir anlam boşluğunu farklı iki yorumla doldurup hangisinin daha güçlü kanıta dayandığını tartıştır.
+- “Yaşam evreleri ve yol/merdiven metaforları” için zenginleştirme: aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat.
 
 ## s.266-270 — Merdiven — Söz Varlığı, İleti ve Simgeler
 
 **Bölüm:** Metin Tahlili-2 (Anlama): Okuma — Küçürek Hikâye / Merdiven
+**Pedagojik faz:** meaning
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -1209,54 +1065,39 @@ Anlatıcı ölüm ve genç kuşakla yüzleşince ‘yukarı’ yönündeki mesle
 
 ### Pedagojik amaç
 
-Merdiven ve küçürek hikâye çalışmalarında kısalığı yüzeysellikle karıştırmadan simge, boşluk, tekrar, karşıtlık ve okur katılımı üzerinden yoğun anlam kurdur. Metindeki söz varlığından, tekrar ve karşıtlıklardan hareketle yaş, zaman, kariyer ve ölüm farkındalığına ilişkin anlam kurmak.
+Metindeki söz varlığından, tekrar ve karşıtlıklardan hareketle yaş, zaman, kariyer ve ölüm farkındalığına ilişkin anlam kurmak.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Cevabın yanına kısa metin, görsel veya dinleme kanıtı istemeyi varsayılan sınıf rutini hâline getir.
-- Konu, tema, ileti, yorum ve çıkarım gibi yakın kavramları görev üzerinde birbirinden ayır.
+### Bu blokta öğretmen hamlesi
 - Metinde söylenmeyen fakat güçlü biçimde sezdirilen noktaları kanıtla çıkarttır.
-- Merdiven, çıkmak-inmek ve kuşak karşılaşmasını tek zorunlu metafora kapatma; metinle uyumlu alternatif yorumları karşılaştır.
-- Küçürek hikâyeyi yalnız kelime sayısıyla tanımlama; yoğunluk ve okur tamamlama işlevini vurgula.
 
 ### Takip soruları
-- Bu cevabını kaynakta hangi ayrıntı destekliyor?
-- Aynı kanıttan başka bir makul yorum çıkar mı?
 - Metin neyi açıkça söylemiyor ama sana düşündürüyor?
 - Merdiven yalnız fiziksel bir nesne olsaydı metnin finali aynı etkiyi yaratır mıydı?
 - Bu kısa metinde tekrarlar ritmi ve anlamı nasıl kuruyor?
 
 ### Yanlış/kısmi cevapta müdahale
-- Yorumu kaynakta açıkça söylenmiş bilgi gibi sunan öğrenciye 'metinde var / ben çıkarıyorum' ayrımı yaptır.
 - 'Aşağı inme'yi yalnız fiziksel hareket sayan öğrenciye finaldeki zaman, yaş ve kuşak göstergelerini buldur.
-- Küçürek hikâyeyi 'kısa olduğu için kolay' sayan öğrenciye okurun doldurmak zorunda olduğu anlam boşluklarını işaretlet.
 
 ### Tahta notu
-- **Tahtaya yaz: Cevap = yargı + kanıt + gerekçe**
-- **Tahtaya yaz: Açık bilgi ≠ yorum/çıkarım**
-- **Tahtaya yaz: Küçürek hikâye = az söz + yoğun çağrışım + anlam boşluğu + okur katılımı**
 - **Tahtaya yaz: Simge = somut unsur + bağlam + çağrışım**
 - **Tahtaya yaz: Metinde söylenen / sezdirilen**
 
 ### Ölçmede bak
-- Cevabın kaynak kanıtıyla uyumu.
-- Açık bilgi ile çıkarımın ayrılması.
 - Simgesel yorumu metin kanıtıyla destekleme.
-- Küçürek hikâyenin en az üç ayırt edici özelliğini işlevle açıklama.
 - Alternatif yorumu kanıtla savunma.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Cevabım / kanıtım biçiminde iki sütunlu çalışma alanı ver.
-- Söylenen / sezdirilen iki sütunlu okuma tablosu kullan.
+- “Söz varlığı ve çok anlamlı kullanım” için destek: cevabım / kanıtım biçiminde iki sütunlu çalışma alanı ver.
 
 **Zenginleştirme**
-- İki olası yorumu kanıt gücü bakımından karşılaştırmasını iste.
 - Metindeki bir anlam boşluğunu farklı iki yorumla doldurup hangisinin daha güçlü kanıta dayandığını tartıştır.
 
 ## s.271-278 — Merdiven — Karşılaştırma, Karakter, Yapı, Çatışma ve Disiplinler
 
 **Bölüm:** Metin Tahlili-2 (Anlama): Okuma — Küçürek Hikâye / Merdiven
+**Pedagojik faz:** meaning
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -1366,54 +1207,35 @@ Uzun açıklamalar yerine seçilmiş ayrıntı, çağrışımlı söz, boşluk, 
 
 ### Pedagojik amaç
 
-Merdiven ve küçürek hikâye çalışmalarında kısalığı yüzeysellikle karıştırmadan simge, boşluk, tekrar, karşıtlık ve okur katılımı üzerinden yoğun anlam kurdur. Küçürek hikâyenin yoğunlaştırma tekniğini farklı metinlerle karşılaştırıp karakter-yapı-çatışma-değer-disiplin ilişkilerini çözümlemek.
+Küçürek hikâyenin yoğunlaştırma tekniğini farklı metinlerle karşılaştırıp karakter-yapı-çatışma-değer-disiplin ilişkilerini çözümlemek.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Cevabın yanına kısa metin, görsel veya dinleme kanıtı istemeyi varsayılan sınıf rutini hâline getir.
-- Konu, tema, ileti, yorum ve çıkarım gibi yakın kavramları görev üzerinde birbirinden ayır.
-- Metinde söylenmeyen fakat güçlü biçimde sezdirilen noktaları kanıtla çıkarttır.
+### Bu blokta öğretmen hamlesi
 - Merdiven, çıkmak-inmek ve kuşak karşılaşmasını tek zorunlu metafora kapatma; metinle uyumlu alternatif yorumları karşılaştır.
-- Küçürek hikâyeyi yalnız kelime sayısıyla tanımlama; yoğunluk ve okur tamamlama işlevini vurgula.
 
 ### Takip soruları
-- Bu cevabını kaynakta hangi ayrıntı destekliyor?
-- Aynı kanıttan başka bir makul yorum çıkar mı?
-- Metin neyi açıkça söylemiyor ama sana düşündürüyor?
-- Merdiven yalnız fiziksel bir nesne olsaydı metnin finali aynı etkiyi yaratır mıydı?
-- Bu kısa metinde tekrarlar ritmi ve anlamı nasıl kuruyor?
+- “Az sözle çok duygu ve okur katılımı” için: Aynı kanıttan başka bir makul yorum çıkar mı?
 
 ### Yanlış/kısmi cevapta müdahale
-- Yorumu kaynakta açıkça söylenmiş bilgi gibi sunan öğrenciye 'metinde var / ben çıkarıyorum' ayrımı yaptır.
-- 'Aşağı inme'yi yalnız fiziksel hareket sayan öğrenciye finaldeki zaman, yaş ve kuşak göstergelerini buldur.
-- Küçürek hikâyeyi 'kısa olduğu için kolay' sayan öğrenciye okurun doldurmak zorunda olduğu anlam boşluklarını işaretlet.
+- “Az sözle çok duygu ve okur katılımı” sırasında yorumu kaynakta açıkça söylenmiş bilgi gibi sunan öğrenciye 'metinde var / ben çıkarıyorum' ayrımı yaptır.
 
 ### Tahta notu
-- **Tahtaya yaz: Cevap = yargı + kanıt + gerekçe**
-- **Tahtaya yaz: Açık bilgi ≠ yorum/çıkarım**
 - **Tahtaya yaz: Küçürek hikâye = az söz + yoğun çağrışım + anlam boşluğu + okur katılımı**
-- **Tahtaya yaz: Simge = somut unsur + bağlam + çağrışım**
-- **Tahtaya yaz: Metinde söylenen / sezdirilen**
 
 ### Ölçmede bak
-- Cevabın kaynak kanıtıyla uyumu.
-- Açık bilgi ile çıkarımın ayrılması.
-- Simgesel yorumu metin kanıtıyla destekleme.
-- Küçürek hikâyenin en az üç ayırt edici özelliğini işlevle açıklama.
-- Alternatif yorumu kanıtla savunma.
+- “Az sözle çok duygu ve okur katılımı” için ölçmede: açık bilgi ile çıkarımın ayrılması.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Cevabım / kanıtım biçiminde iki sütunlu çalışma alanı ver.
-- Söylenen / sezdirilen iki sütunlu okuma tablosu kullan.
+- “Az sözle çok duygu ve okur katılımı” için destek: cevabım / kanıtım biçiminde iki sütunlu çalışma alanı ver.
 
 **Zenginleştirme**
-- İki olası yorumu kanıt gücü bakımından karşılaştırmasını iste.
-- Metindeki bir anlam boşluğunu farklı iki yorumla doldurup hangisinin daha güçlü kanıta dayandığını tartıştır.
+- “Az sözle çok duygu ve okur katılımı” için zenginleştirme: i̇ki olası yorumu kanıt gücü bakımından karşılaştırmasını iste.
 
 ## s.279 — Merdiven — Yazar Poetikası ve Okur Değerlendirmesi
 
 **Bölüm:** Metin Tahlili-2 (Anlama): Okuma — Küçürek Hikâye / Merdiven
+**Pedagojik faz:** reflect
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -1468,54 +1290,32 @@ Konu/ileti, dil, üslup, çağrışım gücü, yoğunluk, final etkisi veya kara
 
 ### Pedagojik amaç
 
-Merdiven ve küçürek hikâye çalışmalarında kısalığı yüzeysellikle karıştırmadan simge, boşluk, tekrar, karşıtlık ve okur katılımı üzerinden yoğun anlam kurdur. Ferit Edgü’nün küçürek hikâye anlayışının metindeki yansımalarını ve öğrencinin gerekçeli beğenisini değerlendirmek.
+Ferit Edgü’nün küçürek hikâye anlayışının metindeki yansımalarını ve öğrencinin gerekçeli beğenisini değerlendirmek.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.
-- Geri bildirimi sonraki ürün değişikliğine veya öğrenme davranışına bağla.
-- Metinde söylenmeyen fakat güçlü biçimde sezdirilen noktaları kanıtla çıkarttır.
-- Merdiven, çıkmak-inmek ve kuşak karşılaşmasını tek zorunlu metafora kapatma; metinle uyumlu alternatif yorumları karşılaştır.
+### Bu blokta öğretmen hamlesi
 - Küçürek hikâyeyi yalnız kelime sayısıyla tanımlama; yoğunluk ve okur tamamlama işlevini vurgula.
 
 ### Takip soruları
-- Bu değerlendirmene hangi ürün veya performans ayrıntısı kanıt?
-- Bir sonraki benzer görevde tek bir şeyi değiştirecek olsan neyi değiştirirsin?
-- Metin neyi açıkça söylemiyor ama sana düşündürüyor?
-- Merdiven yalnız fiziksel bir nesne olsaydı metnin finali aynı etkiyi yaratır mıydı?
-- Bu kısa metinde tekrarlar ritmi ve anlamı nasıl kuruyor?
+- “Ferit Edgü’nün küçürek hikâye anlayışının Merdiven’e yansıması” için: Bir sonraki benzer görevde tek bir şeyi değiştirecek olsan neyi değiştirirsin?
 
 ### Yanlış/kısmi cevapta müdahale
-- Formu otomatik olumlu işaretleyen öğrenciye belirli bir örnek göstermeden yargıyı tamamlanmış sayma.
-- 'Aşağı inme'yi yalnız fiziksel hareket sayan öğrenciye finaldeki zaman, yaş ve kuşak göstergelerini buldur.
 - Küçürek hikâyeyi 'kısa olduğu için kolay' sayan öğrenciye okurun doldurmak zorunda olduğu anlam boşluklarını işaretlet.
 
-### Tahta notu
-- **Tahtaya yaz: Öz değerlendirme = yargı + kanıt + yeni hedef**
-- **Tahtaya yaz: Geri bildirim → değerlendir → karar ver → revize et**
-- **Tahtaya yaz: Küçürek hikâye = az söz + yoğun çağrışım + anlam boşluğu + okur katılımı**
-- **Tahtaya yaz: Simge = somut unsur + bağlam + çağrışım**
-- **Tahtaya yaz: Metinde söylenen / sezdirilen**
-
 ### Ölçmede bak
-- Kanıta dayalı öz değerlendirme.
-- Uygulanabilir bir sonraki adım veya revizyon.
-- Simgesel yorumu metin kanıtıyla destekleme.
-- Küçürek hikâyenin en az üç ayırt edici özelliğini işlevle açıklama.
-- Alternatif yorumu kanıtla savunma.
+- “Ferit Edgü’nün küçürek hikâye anlayışının Merdiven’e yansıması” için ölçmede: uygulanabilir bir sonraki adım veya revizyon.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan.
-- Söylenen / sezdirilen iki sütunlu okuma tablosu kullan.
+- “Ferit Edgü’nün küçürek hikâye anlayışının Merdiven’e yansıması” için destek: bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan.
 
 **Zenginleştirme**
-- Bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste.
-- Metindeki bir anlam boşluğunu farklı iki yorumla doldurup hangisinin daha güçlü kanıta dayandığını tartıştır.
+- “Ferit Edgü’nün küçürek hikâye anlayışının Merdiven’e yansıması” için zenginleştirme: bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste.
 
 ## s.280-281 — Canlandırmayı Yönetme — Rol ve Uzam
 
 **Bölüm:** Edebiyat Atölyesi-1 (Anlatma): Konuşma — Tiyatro Metnini Yeniden Kurgulayarak Canlandırma
+**Pedagojik faz:** manage
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -1561,53 +1361,31 @@ Diyalog tiyatroda ilişkiyi ve eylemi taşır; doğru/bağlama uygun dil anlamı
 
 Tiyatro metnini yeniden kurgulayıp canlandırırken kaynak metnin çekirdeğini, yeni dramatik tercihi ve sözlü-sözsüz sahne iletişimini birlikte yönet. Rol yaratma, empati, uzam ve konuşma amacını canlandırma öncesinde planlamak.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir.
-- Tahmini doğru-yanlış olarak değil görünür ipucuna dayalı çıkarım olarak değerlendir.
-- Yeniden kurgulamada neyin korunacağını ve neyin değişeceğini prova öncesi belirlet.
-- Canlandırmada beden, ses, mekân ve nesne kullanımını ana düşünceye hizmet ettiği ölçüde değerlendir.
-- Prova geri bildirimini oyunculuk beğenisine değil belirli performans ölçütlerine bağla.
+### Bu blokta öğretmen hamlesi
+- “Rol yaratma ve tiyatro hakkında çıkarım” görevinde tahmini doğru-yanlış olarak değil görünür ipucuna dayalı çıkarım olarak değerlendir.
 
 ### Takip soruları
-- Bu tahmini hangi başlık, görsel, kelime veya ön bilgiye dayandırdın?
-- Seçtiğin strateji bu görevde sana tam olarak ne sağlayacak?
 - Kaynak metinden hangi çatışmayı veya iletiyi korudun?
 - Bu sahneleme tercihi izleyicinin karakteri anlamasını nasıl etkiliyor?
 
 ### Yanlış/kısmi cevapta müdahale
-- Gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur.
-- Yeniden kurgulamayı yalnız karakter adlarını değiştirmek sanan öğrenciye durum, çatışma, bağlam ve sahne tercihlerini ayrı düşündür.
 - Yüksek sesle konuşmayı iyi oyunculuk sayan öğrenciye vurgu, tonlama ve bağlama uygunluğu göster.
 
-### Tahta notu
-- **Tahtaya yaz: Tahmin = ipucu + çıkarım**
-- **Tahtaya yaz: Amaç → uygun strateji → toplanacak kanıt**
-- **Tahtaya yaz: Yeniden kurgu = korunan çekirdek + bilinçli değişiklik**
-- **Tahtaya yaz: Sahne performansı = söz + ses + beden + mekân + etkileşim**
-
 ### Ölçmede bak
-- Amaç ile strateji arasında açık uyum.
-- Tahminin görünür bir kaynağa dayanması.
 - Kaynak metinle anlamlı bağ.
-- Sahne tercihlerinin işlevsel ve tutarlı olması.
-- Prova sonrası görünür revizyon.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan.
-- Korunacak / değişecek / sahnede nasıl gösterilecek başlıklı plan ver.
+- “Rol yaratma ve tiyatro hakkında çıkarım” için destek: amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan.
 
 **Zenginleştirme**
-- Aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat.
-- Aynı sahneyi iki farklı yönetmenlik yaklaşımıyla tasarlayıp etkisini karşılaştır.
-
-### Kaynak sınırı
-- Dış QR rubrikte yerel PDF'de görünmeyen ölçüt×düzey açıklamaları uydurulmamalı.
+- “Rol yaratma ve tiyatro hakkında çıkarım” için zenginleştirme: aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat.
 
 ## s.281 — Canlandırma İçeriğini Planlama
 
 **Bölüm:** Edebiyat Atölyesi-1 (Anlatma): Konuşma — Tiyatro Metnini Yeniden Kurgulayarak Canlandırma
+**Pedagojik faz:** manage
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -1638,55 +1416,36 @@ Tiyatro metnini yeniden kurgulayıp canlandırırken kaynak metnin çekirdeğini
 
 ### Pedagojik amaç
 
-Tiyatro metnini yeniden kurgulayıp canlandırırken kaynak metnin çekirdeğini, yeni dramatik tercihi ve sözlü-sözsüz sahne iletişimini birlikte yönet. Ben, Mimar Sinan’dan seçilen bölümü hedef kitle, amaç, rol ve iletişim engellerine göre canlandırmaya hazırlamak.
+Ben, Mimar Sinan’dan seçilen bölümü hedef kitle, amaç, rol ve iletişim engellerine göre canlandırmaya hazırlamak.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Cevabın yanına kısa metin, görsel veya dinleme kanıtı istemeyi varsayılan sınıf rutini hâline getir.
-- Konu, tema, ileti, yorum ve çıkarım gibi yakın kavramları görev üzerinde birbirinden ayır.
+### Bu blokta öğretmen hamlesi
 - Yeniden kurgulamada neyin korunacağını ve neyin değişeceğini prova öncesi belirlet.
-- Canlandırmada beden, ses, mekân ve nesne kullanımını ana düşünceye hizmet ettiği ölçüde değerlendir.
 - Prova geri bildirimini oyunculuk beğenisine değil belirli performans ölçütlerine bağla.
 
 ### Takip soruları
-- Bu cevabını kaynakta hangi ayrıntı destekliyor?
-- Aynı kanıttan başka bir makul yorum çıkar mı?
-- Kaynak metinden hangi çatışmayı veya iletiyi korudun?
-- Bu sahneleme tercihi izleyicinin karakteri anlamasını nasıl etkiliyor?
+- “Tiyatro bölümünü yeniden kurgulama performans görevi” için: Bu tahmini hangi başlık, görsel, kelime veya ön bilgiye dayandırdın?
 
 ### Yanlış/kısmi cevapta müdahale
-- Yorumu kaynakta açıkça söylenmiş bilgi gibi sunan öğrenciye 'metinde var / ben çıkarıyorum' ayrımı yaptır.
-- Yeniden kurgulamayı yalnız karakter adlarını değiştirmek sanan öğrenciye durum, çatışma, bağlam ve sahne tercihlerini ayrı düşündür.
-- Yüksek sesle konuşmayı iyi oyunculuk sayan öğrenciye vurgu, tonlama ve bağlama uygunluğu göster.
+- “Tiyatro bölümünü yeniden kurgulama performans görevi” sırasında gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur.
 
 ### Tahta notu
-- **Tahtaya yaz: Cevap = yargı + kanıt + gerekçe**
-- **Tahtaya yaz: Açık bilgi ≠ yorum/çıkarım**
 - **Tahtaya yaz: Yeniden kurgu = korunan çekirdek + bilinçli değişiklik**
-- **Tahtaya yaz: Sahne performansı = söz + ses + beden + mekân + etkileşim**
 
 ### Ölçmede bak
-- Cevabın kaynak kanıtıyla uyumu.
-- Açık bilgi ile çıkarımın ayrılması.
-- Kaynak metinle anlamlı bağ.
-- Sahne tercihlerinin işlevsel ve tutarlı olması.
-- Prova sonrası görünür revizyon.
+- “Tiyatro bölümünü yeniden kurgulama performans görevi” için ölçmede: tahminin görünür bir kaynağa dayanması.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Cevabım / kanıtım biçiminde iki sütunlu çalışma alanı ver.
-- Korunacak / değişecek / sahnede nasıl gösterilecek başlıklı plan ver.
+- “Tiyatro bölümünü yeniden kurgulama performans görevi” için destek: amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan.
 
 **Zenginleştirme**
-- İki olası yorumu kanıt gücü bakımından karşılaştırmasını iste.
-- Aynı sahneyi iki farklı yönetmenlik yaklaşımıyla tasarlayıp etkisini karşılaştır.
-
-### Kaynak sınırı
-- Dış QR rubrikte yerel PDF'de görünmeyen ölçüt×düzey açıklamaları uydurulmamalı.
+- “Tiyatro bölümünü yeniden kurgulama performans görevi” için zenginleştirme: aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat.
 
 ## s.282 — Rolü İçselleştirme ve Canlandırma Kuralları
 
 **Bölüm:** Edebiyat Atölyesi-1 (Anlatma): Konuşma — Tiyatro Metnini Yeniden Kurgulayarak Canlandırma
+**Pedagojik faz:** analyze_apply
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -1715,55 +1474,35 @@ Tiyatro metnini yeniden kurgulayıp canlandırırken kaynak metnin çekirdeğini
 
 ### Pedagojik amaç
 
-Tiyatro metnini yeniden kurgulayıp canlandırırken kaynak metnin çekirdeğini, yeni dramatik tercihi ve sözlü-sözsüz sahne iletişimini birlikte yönet. Karakter ilişkisi, jest-mimik, doğaçlama, beden, diksiyon, görsel-işitsel ögeler ve geri bildirimle canlandırmayı gerçekleştirmek.
+Karakter ilişkisi, jest-mimik, doğaçlama, beden, diksiyon, görsel-işitsel ögeler ve geri bildirimle canlandırmayı gerçekleştirmek.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.
-- Ürün görevlerinde ilk taslak ile son ürün arasındaki değişikliği görünür kıl.
-- Yeniden kurgulamada neyin korunacağını ve neyin değişeceğini prova öncesi belirlet.
+### Bu blokta öğretmen hamlesi
 - Canlandırmada beden, ses, mekân ve nesne kullanımını ana düşünceye hizmet ettiği ölçüde değerlendir.
-- Prova geri bildirimini oyunculuk beğenisine değil belirli performans ölçütlerine bağla.
 
 ### Takip soruları
-- Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?
-- Yaptığın bu tercihin amaç ve hedef kitleyle ilişkisi nedir?
-- Kaynak metinden hangi çatışmayı veya iletiyi korudun?
-- Bu sahneleme tercihi izleyicinin karakteri anlamasını nasıl etkiliyor?
+- “Canlandırma uygulama ölçütleri” için: Yaptığın bu tercihin amaç ve hedef kitleyle ilişkisi nedir?
 
 ### Yanlış/kısmi cevapta müdahale
-- Terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt.
 - Yeniden kurgulamayı yalnız karakter adlarını değiştirmek sanan öğrenciye durum, çatışma, bağlam ve sahne tercihlerini ayrı düşündür.
-- Yüksek sesle konuşmayı iyi oyunculuk sayan öğrenciye vurgu, tonlama ve bağlama uygunluğu göster.
 
 ### Tahta notu
-- **Tahtaya yaz: Unsur → işlev → etki**
-- **Tahtaya yaz: Taslak → geri bildirim → karar → revizyon**
-- **Tahtaya yaz: Yeniden kurgu = korunan çekirdek + bilinçli değişiklik**
 - **Tahtaya yaz: Sahne performansı = söz + ses + beden + mekân + etkileşim**
 
 ### Ölçmede bak
-- Kavram ile işlev arasında doğru ilişki.
-- Ürün kararlarının amaç ve bağlama uygunluğu.
-- Kaynak metinle anlamlı bağ.
 - Sahne tercihlerinin işlevsel ve tutarlı olması.
-- Prova sonrası görünür revizyon.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.
 - Korunacak / değişecek / sahnede nasıl gösterilecek başlıklı plan ver.
 
 **Zenginleştirme**
-- Aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.
 - Aynı sahneyi iki farklı yönetmenlik yaklaşımıyla tasarlayıp etkisini karşılaştır.
-
-### Kaynak sınırı
-- Dış QR rubrikte yerel PDF'de görünmeyen ölçüt×düzey açıklamaları uydurulmamalı.
 
 ## s.283 — Canlandırma Sonrası Değerlendirme
 
 **Bölüm:** Edebiyat Atölyesi-1 (Anlatma): Konuşma — Tiyatro Metnini Yeniden Kurgulayarak Canlandırma
+**Pedagojik faz:** reflect
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -1804,48 +1543,27 @@ Tiyatro metnini yeniden kurgulayıp canlandırırken kaynak metnin çekirdeğini
 
 ### Pedagojik amaç
 
-Tiyatro metnini yeniden kurgulayıp canlandırırken kaynak metnin çekirdeğini, yeni dramatik tercihi ve sözlü-sözsüz sahne iletişimini birlikte yönet. Görünür kitap ölçütleriyle performansı değerlendirmek, dış QR rubriğinin sınırını korumak ve yansıtma yapmak.
+Görünür kitap ölçütleriyle performansı değerlendirmek, dış QR rubriğinin sınırını korumak ve yansıtma yapmak.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.
-- Geri bildirimi sonraki ürün değişikliğine veya öğrenme davranışına bağla.
-- Yeniden kurgulamada neyin korunacağını ve neyin değişeceğini prova öncesi belirlet.
-- Canlandırmada beden, ses, mekân ve nesne kullanımını ana düşünceye hizmet ettiği ölçüde değerlendir.
-- Prova geri bildirimini oyunculuk beğenisine değil belirli performans ölçütlerine bağla.
+### Bu blokta öğretmen hamlesi
+- “Dereceli puanlama anahtarı — görünür ölçütler ve dış QR sınırı” görevinde geri bildirimi sonraki ürün değişikliğine veya öğrenme davranışına bağla.
 
 ### Takip soruları
-- Bu değerlendirmene hangi ürün veya performans ayrıntısı kanıt?
-- Bir sonraki benzer görevde tek bir şeyi değiştirecek olsan neyi değiştirirsin?
-- Kaynak metinden hangi çatışmayı veya iletiyi korudun?
-- Bu sahneleme tercihi izleyicinin karakteri anlamasını nasıl etkiliyor?
+- “Dereceli puanlama anahtarı — görünür ölçütler ve dış QR sınırı” için: Bu değerlendirmene hangi ürün veya performans ayrıntısı kanıt?
 
 ### Yanlış/kısmi cevapta müdahale
-- Formu otomatik olumlu işaretleyen öğrenciye belirli bir örnek göstermeden yargıyı tamamlanmış sayma.
-- Yeniden kurgulamayı yalnız karakter adlarını değiştirmek sanan öğrenciye durum, çatışma, bağlam ve sahne tercihlerini ayrı düşündür.
-- Yüksek sesle konuşmayı iyi oyunculuk sayan öğrenciye vurgu, tonlama ve bağlama uygunluğu göster.
-
-### Tahta notu
-- **Tahtaya yaz: Öz değerlendirme = yargı + kanıt + yeni hedef**
-- **Tahtaya yaz: Geri bildirim → değerlendir → karar ver → revize et**
-- **Tahtaya yaz: Yeniden kurgu = korunan çekirdek + bilinçli değişiklik**
-- **Tahtaya yaz: Sahne performansı = söz + ses + beden + mekân + etkileşim**
+- “Dereceli puanlama anahtarı — görünür ölçütler ve dış QR sınırı” sırasında formu otomatik olumlu işaretleyen öğrenciye belirli bir örnek göstermeden yargıyı tamamlanmış sayma.
 
 ### Ölçmede bak
-- Kanıta dayalı öz değerlendirme.
-- Uygulanabilir bir sonraki adım veya revizyon.
-- Kaynak metinle anlamlı bağ.
-- Sahne tercihlerinin işlevsel ve tutarlı olması.
 - Prova sonrası görünür revizyon.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan.
-- Korunacak / değişecek / sahnede nasıl gösterilecek başlıklı plan ver.
+- “Dereceli puanlama anahtarı — görünür ölçütler ve dış QR sınırı” için destek: bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan.
 
 **Zenginleştirme**
-- Bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste.
-- Aynı sahneyi iki farklı yönetmenlik yaklaşımıyla tasarlayıp etkisini karşılaştır.
+- “Dereceli puanlama anahtarı — görünür ölçütler ve dış QR sınırı” için zenginleştirme: bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste.
 
 ### Kaynak sınırı
 - Dış QR rubrikte yerel PDF'de görünmeyen ölçüt×düzey açıklamaları uydurulmamalı.
@@ -1853,6 +1571,7 @@ Tiyatro metnini yeniden kurgulayıp canlandırırken kaynak metnin çekirdeğini
 ## s.284-286 — Dinleme/İzlemeyi Yönetme — Hayat, Edebiyat ve Belgesel
 
 **Bölüm:** Metin Tahlili-3 (Anlama): Dinleme / İzleme — Anadolu İnsanı / Fedakârlık
+**Pedagojik faz:** manage
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -1905,55 +1624,30 @@ Başlık/görsel/jenerikten içerik tahmini yapılır; amaç belirlenir; ses/gö
 
 Anadolu İnsanı / Fedakârlık dinleme-izleme çalışmalarında görüntü, ses, anlatıcı, kişi, olay ve değer temsilini kanıta dayalı çok modlu okuma ile çözümlet. Edebiyat-toplum ilişkisini hatırlayıp belgeseli amaç, tahmin, strateji ve dinleme kurallarıyla izlemeye hazırlamak.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir.
-- Tahmini doğru-yanlış olarak değil görünür ipucuna dayalı çıkarım olarak değerlendir.
-- Fedakârlık gibi değer kavramlarını doğrudan etiketlemek yerine davranış ve sonuç üzerinden çıkarttır.
-- Görüntü ile sözlü anlatının aynı mesajı mı desteklediğini yoksa farklı bilgi mi eklediğini sordur.
-- Dış medya ayrıntısını yalnız gerçekten izlenen içerikten kabul et.
+### Bu blokta öğretmen hamlesi
+- “Hayat ve edebiyat ilişkisi” görevinde göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir.
 
 ### Takip soruları
-- Bu tahmini hangi başlık, görsel, kelime veya ön bilgiye dayandırdın?
-- Seçtiğin strateji bu görevde sana tam olarak ne sağlayacak?
-- Bu kişinin davranışını fedakârlık olarak nitelemene hangi eylem kanıt?
-- Görüntü kapatılsa hangi bilgi veya duygu kaybolur?
-- Anlatıcı bu kişiyi nasıl çerçeveliyor; başka bir anlatım mümkün mü?
+- “Hayat ve edebiyat ilişkisi” için: Seçtiğin strateji bu görevde sana tam olarak ne sağlayacak?
 
 ### Yanlış/kısmi cevapta müdahale
-- Gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur.
 - Değeri yalnız sözcük olarak bulup davranış kanıtı göstermeyen öğrenciye eylem→sonuç ilişkisi kurdur.
-- Belgeseli tamamen tarafsız gerçekliğin kaydı sayan öğrenciye seçilmiş görüntü, kurgu ve anlatıcı tercihini düşündür.
-
-### Tahta notu
-- **Tahtaya yaz: Tahmin = ipucu + çıkarım**
-- **Tahtaya yaz: Amaç → uygun strateji → toplanacak kanıt**
-- **Tahtaya yaz: Değer → davranış → sonuç → kanıt**
-- **Tahtaya yaz: Belgesel = gerçek malzeme + seçme + kurgu + anlatıcı bakışı**
-- **Tahtaya yaz: Görsel/işitsel unsur → anlam katkısı**
 
 ### Ölçmede bak
-- Amaç ile strateji arasında açık uyum.
-- Tahminin görünür bir kaynağa dayanması.
-- Değer çıkarımının davranış kanıtına dayanması.
-- Görsel ve işitsel unsurların işlevini açıklama.
-- Gözlem ile yorumun ayrılması.
+- “Hayat ve edebiyat ilişkisi” için ölçmede: amaç ile strateji arasında açık uyum.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan.
-- Gördüm / duydum / çıkardım biçiminde üç sütunlu dinleme-izleme notu ver.
+- “Hayat ve edebiyat ilişkisi” için destek: amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan.
 
 **Zenginleştirme**
-- Aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat.
-- Aynı kişi veya olay için iki farklı belgesel anlatıcı cümlesi yazdırıp çerçeveleme farkını tartıştır.
-
-### Kaynak sınırı
-- Dış videolarda yerel PDF'de görünmeyen sahne, kişi veya anlatıcı ayrıntıları resmî cevap gibi üretilmemeli.
+- “Hayat ve edebiyat ilişkisi” için zenginleştirme: aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat.
 
 ## s.287-291 — Fedakârlık — Söz Varlığı, Ana Düşünce ve Güvenilirlik
 
 **Bölüm:** Metin Tahlili-3 (Anlama): Dinleme / İzleme — Anadolu İnsanı / Fedakârlık
+**Pedagojik faz:** meaning
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -2007,49 +1701,31 @@ Anadolu İnsanı / Fedakârlık dinleme-izleme çalışmalarında görüntü, se
 
 ### Pedagojik amaç
 
-Anadolu İnsanı / Fedakârlık dinleme-izleme çalışmalarında görüntü, ses, anlatıcı, kişi, olay ve değer temsilini kanıta dayalı çok modlu okuma ile çözümlet. Video içeriğinden söz varlığı, konu/tema, kişi çıkarımı, öznel-nesnel ifade ve açık/örtük ileti üretmek.
+Video içeriğinden söz varlığı, konu/tema, kişi çıkarımı, öznel-nesnel ifade ve açık/örtük ileti üretmek.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Cevabın yanına kısa metin, görsel veya dinleme kanıtı istemeyi varsayılan sınıf rutini hâline getir.
-- Konu, tema, ileti, yorum ve çıkarım gibi yakın kavramları görev üzerinde birbirinden ayır.
+### Bu blokta öğretmen hamlesi
 - Fedakârlık gibi değer kavramlarını doğrudan etiketlemek yerine davranış ve sonuç üzerinden çıkarttır.
-- Görüntü ile sözlü anlatının aynı mesajı mı desteklediğini yoksa farklı bilgi mi eklediğini sordur.
 - Dış medya ayrıntısını yalnız gerçekten izlenen içerikten kabul et.
 
 ### Takip soruları
-- Bu cevabını kaynakta hangi ayrıntı destekliyor?
-- Aynı kanıttan başka bir makul yorum çıkar mı?
 - Bu kişinin davranışını fedakârlık olarak nitelemene hangi eylem kanıt?
-- Görüntü kapatılsa hangi bilgi veya duygu kaybolur?
 - Anlatıcı bu kişiyi nasıl çerçeveliyor; başka bir anlatım mümkün mü?
 
 ### Yanlış/kısmi cevapta müdahale
-- Yorumu kaynakta açıkça söylenmiş bilgi gibi sunan öğrenciye 'metinde var / ben çıkarıyorum' ayrımı yaptır.
-- Değeri yalnız sözcük olarak bulup davranış kanıtı göstermeyen öğrenciye eylem→sonuç ilişkisi kurdur.
-- Belgeseli tamamen tarafsız gerçekliğin kaydı sayan öğrenciye seçilmiş görüntü, kurgu ve anlatıcı tercihini düşündür.
+- “Belgesel söz varlığı” sırasında yorumu kaynakta açıkça söylenmiş bilgi gibi sunan öğrenciye 'metinde var / ben çıkarıyorum' ayrımı yaptır.
 
 ### Tahta notu
-- **Tahtaya yaz: Cevap = yargı + kanıt + gerekçe**
-- **Tahtaya yaz: Açık bilgi ≠ yorum/çıkarım**
-- **Tahtaya yaz: Değer → davranış → sonuç → kanıt**
 - **Tahtaya yaz: Belgesel = gerçek malzeme + seçme + kurgu + anlatıcı bakışı**
-- **Tahtaya yaz: Görsel/işitsel unsur → anlam katkısı**
 
 ### Ölçmede bak
-- Cevabın kaynak kanıtıyla uyumu.
-- Açık bilgi ile çıkarımın ayrılması.
-- Değer çıkarımının davranış kanıtına dayanması.
-- Görsel ve işitsel unsurların işlevini açıklama.
 - Gözlem ile yorumun ayrılması.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Cevabım / kanıtım biçiminde iki sütunlu çalışma alanı ver.
-- Gördüm / duydum / çıkardım biçiminde üç sütunlu dinleme-izleme notu ver.
+- “Belgesel söz varlığı” için destek: cevabım / kanıtım biçiminde iki sütunlu çalışma alanı ver.
 
 **Zenginleştirme**
-- İki olası yorumu kanıt gücü bakımından karşılaştırmasını iste.
 - Aynı kişi veya olay için iki farklı belgesel anlatıcı cümlesi yazdırıp çerçeveleme farkını tartıştır.
 
 ### Kaynak sınırı
@@ -2058,6 +1734,7 @@ Anadolu İnsanı / Fedakârlık dinleme-izleme çalışmalarında görüntü, se
 ## s.292-296 — Belgeseli Çözümleme — Yapı, Dil, Dönem, Ses/Görüntü ve Disiplinler
 
 **Bölüm:** Metin Tahlili-3 (Anlama): Dinleme / İzleme — Anadolu İnsanı / Fedakârlık
+**Pedagojik faz:** analyze_apply
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -2141,57 +1818,35 @@ Ses ve görüntü birbirini yalnız tekrar etmemeli; bağlam, atmosfer, vurgu, d
 
 ### Pedagojik amaç
 
-Anadolu İnsanı / Fedakârlık dinleme-izleme çalışmalarında görüntü, ses, anlatıcı, kişi, olay ve değer temsilini kanıta dayalı çok modlu okuma ile çözümlet. Fedakârlık belgeselini yapı ve çok modluluk açısından çözümlemek; metinler arası/disciplinler arası bağ kurmak.
+Fedakârlık belgeselini yapı ve çok modluluk açısından çözümlemek; metinler arası/disciplinler arası bağ kurmak.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.
-- Ürün görevlerinde ilk taslak ile son ürün arasındaki değişikliği görünür kıl.
-- Fedakârlık gibi değer kavramlarını doğrudan etiketlemek yerine davranış ve sonuç üzerinden çıkarttır.
+### Bu blokta öğretmen hamlesi
 - Görüntü ile sözlü anlatının aynı mesajı mı desteklediğini yoksa farklı bilgi mi eklediğini sordur.
-- Dış medya ayrıntısını yalnız gerçekten izlenen içerikten kabul et.
 
 ### Takip soruları
-- Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?
-- Yaptığın bu tercihin amaç ve hedef kitleyle ilişkisi nedir?
-- Bu kişinin davranışını fedakârlık olarak nitelemene hangi eylem kanıt?
 - Görüntü kapatılsa hangi bilgi veya duygu kaybolur?
-- Anlatıcı bu kişiyi nasıl çerçeveliyor; başka bir anlatım mümkün mü?
 
 ### Yanlış/kısmi cevapta müdahale
-- Terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt.
-- Değeri yalnız sözcük olarak bulup davranış kanıtı göstermeyen öğrenciye eylem→sonuç ilişkisi kurdur.
 - Belgeseli tamamen tarafsız gerçekliğin kaydı sayan öğrenciye seçilmiş görüntü, kurgu ve anlatıcı tercihini düşündür.
 
 ### Tahta notu
-- **Tahtaya yaz: Unsur → işlev → etki**
-- **Tahtaya yaz: Taslak → geri bildirim → karar → revizyon**
-- **Tahtaya yaz: Değer → davranış → sonuç → kanıt**
-- **Tahtaya yaz: Belgesel = gerçek malzeme + seçme + kurgu + anlatıcı bakışı**
 - **Tahtaya yaz: Görsel/işitsel unsur → anlam katkısı**
 
 ### Ölçmede bak
-- Kavram ile işlev arasında doğru ilişki.
-- Ürün kararlarının amaç ve bağlama uygunluğu.
-- Değer çıkarımının davranış kanıtına dayanması.
 - Görsel ve işitsel unsurların işlevini açıklama.
-- Gözlem ile yorumun ayrılması.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.
-- Gördüm / duydum / çıkardım biçiminde üç sütunlu dinleme-izleme notu ver.
+- “İklim değişikliği — bireysel sorumluluk” için destek: önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.
 
 **Zenginleştirme**
-- Aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.
-- Aynı kişi veya olay için iki farklı belgesel anlatıcı cümlesi yazdırıp çerçeveleme farkını tartıştır.
-
-### Kaynak sınırı
-- Dış videolarda yerel PDF'de görünmeyen sahne, kişi veya anlatıcı ayrıntıları resmî cevap gibi üretilmemeli.
+- “İklim değişikliği — bireysel sorumluluk” için zenginleştirme: aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.
 
 ## s.297 — Etkin Dinleyici Kimliği ve Öğrenme Günlüğü
 
 **Bölüm:** Metin Tahlili-3 (Anlama): Dinleme / İzleme — Anadolu İnsanı / Fedakârlık
+**Pedagojik faz:** meaning
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -2228,57 +1883,35 @@ Anadolu İnsanı / Fedakârlık dinleme-izleme çalışmalarında görüntü, se
 
 ### Pedagojik amaç
 
-Anadolu İnsanı / Fedakârlık dinleme-izleme çalışmalarında görüntü, ses, anlatıcı, kişi, olay ve değer temsilini kanıta dayalı çok modlu okuma ile çözümlet. Belgeseli kişisel beğeni, hayat bağlantısı ve dinleme davranışı açısından değerlendirmek.
+Belgeseli kişisel beğeni, hayat bağlantısı ve dinleme davranışı açısından değerlendirmek.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Cevabın yanına kısa metin, görsel veya dinleme kanıtı istemeyi varsayılan sınıf rutini hâline getir.
-- Konu, tema, ileti, yorum ve çıkarım gibi yakın kavramları görev üzerinde birbirinden ayır.
-- Fedakârlık gibi değer kavramlarını doğrudan etiketlemek yerine davranış ve sonuç üzerinden çıkarttır.
-- Görüntü ile sözlü anlatının aynı mesajı mı desteklediğini yoksa farklı bilgi mi eklediğini sordur.
-- Dış medya ayrıntısını yalnız gerçekten izlenen içerikten kabul et.
+### Bu blokta öğretmen hamlesi
+- “Belgeselin kattığı değer ve davranışları değerlendirme” görevinde konu, tema, ileti, yorum ve çıkarım gibi yakın kavramları görev üzerinde birbirinden ayır.
 
 ### Takip soruları
-- Bu cevabını kaynakta hangi ayrıntı destekliyor?
-- Aynı kanıttan başka bir makul yorum çıkar mı?
-- Bu kişinin davranışını fedakârlık olarak nitelemene hangi eylem kanıt?
-- Görüntü kapatılsa hangi bilgi veya duygu kaybolur?
-- Anlatıcı bu kişiyi nasıl çerçeveliyor; başka bir anlatım mümkün mü?
+- “Belgeselin kattığı değer ve davranışları değerlendirme” için: Bu cevabını kaynakta hangi ayrıntı destekliyor?
 
 ### Yanlış/kısmi cevapta müdahale
-- Yorumu kaynakta açıkça söylenmiş bilgi gibi sunan öğrenciye 'metinde var / ben çıkarıyorum' ayrımı yaptır.
-- Değeri yalnız sözcük olarak bulup davranış kanıtı göstermeyen öğrenciye eylem→sonuç ilişkisi kurdur.
-- Belgeseli tamamen tarafsız gerçekliğin kaydı sayan öğrenciye seçilmiş görüntü, kurgu ve anlatıcı tercihini düşündür.
+- “Belgeselin kattığı değer ve davranışları değerlendirme” sırasında yorumu kaynakta açıkça söylenmiş bilgi gibi sunan öğrenciye 'metinde var / ben çıkarıyorum' ayrımı yaptır.
 
 ### Tahta notu
-- **Tahtaya yaz: Cevap = yargı + kanıt + gerekçe**
-- **Tahtaya yaz: Açık bilgi ≠ yorum/çıkarım**
 - **Tahtaya yaz: Değer → davranış → sonuç → kanıt**
-- **Tahtaya yaz: Belgesel = gerçek malzeme + seçme + kurgu + anlatıcı bakışı**
-- **Tahtaya yaz: Görsel/işitsel unsur → anlam katkısı**
 
 ### Ölçmede bak
-- Cevabın kaynak kanıtıyla uyumu.
-- Açık bilgi ile çıkarımın ayrılması.
 - Değer çıkarımının davranış kanıtına dayanması.
-- Görsel ve işitsel unsurların işlevini açıklama.
-- Gözlem ile yorumun ayrılması.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Cevabım / kanıtım biçiminde iki sütunlu çalışma alanı ver.
 - Gördüm / duydum / çıkardım biçiminde üç sütunlu dinleme-izleme notu ver.
 
 **Zenginleştirme**
-- İki olası yorumu kanıt gücü bakımından karşılaştırmasını iste.
-- Aynı kişi veya olay için iki farklı belgesel anlatıcı cümlesi yazdırıp çerçeveleme farkını tartıştır.
-
-### Kaynak sınırı
-- Dış videolarda yerel PDF'de görünmeyen sahne, kişi veya anlatıcı ayrıntıları resmî cevap gibi üretilmemeli.
+- “Belgeselin kattığı değer ve davranışları değerlendirme” için zenginleştirme: i̇ki olası yorumu kanıt gücü bakımından karşılaştırmasını iste.
 
 ## s.298-299 — Afiş Tasarımını Yönetme — Ölçüt ve Amaç
 
 **Bölüm:** Edebiyat Atölyesi-2 (Anlatma): Yazma — Özgün Afiş Hazırlama
+**Pedagojik faz:** manage
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -2352,55 +1985,33 @@ Amaç, Fedakârlık belgeselinin seçilmiş bir iletisini hedef kitleye özgün 
 
 Afiş görevini süsleme etkinliği değil hedef kitle, ana mesaj, görsel hiyerarşi, kısa dil ve etik kaynak kullanımının birleştiği çok modlu yazma görevi olarak yürüt. Afişin iletişim işlevini, tasarım ölçütlerini, hedefi ve yazma stratejisini belirlemek.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir.
-- Tahmini doğru-yanlış olarak değil görünür ipucuna dayalı çıkarım olarak değerlendir.
-- Önce tek ana mesajı netleştir; görsel ve metin seçimlerini bu mesaja göre sınırla.
-- Öğrenciden görsel hiyerarşiyi hangi sırayla okutmak istediğini açıklamasını iste.
-- Kaynak görsel ve alıntılarda telif/atıf sınırını görünür kıl.
+### Bu blokta öğretmen hamlesi
+- “Afiş tasarımında temel ölçütler” görevinde tahmini doğru-yanlış olarak değil görünür ipucuna dayalı çıkarım olarak değerlendir.
 
 ### Takip soruları
-- Bu tahmini hangi başlık, görsel, kelime veya ön bilgiye dayandırdın?
-- Seçtiğin strateji bu görevde sana tam olarak ne sağlayacak?
-- Afişe üç saniye bakan biri hangi mesajı almalı?
-- Bu görsel metnin hangi düşüncesini destekliyor?
-- Bir öğeyi çıkaracak olsan hangisini çıkarırsın ve neden?
+- “Afiş tasarımında temel ölçütler” için: Bu tahmini hangi başlık, görsel, kelime veya ön bilgiye dayandırdın?
 
 ### Yanlış/kısmi cevapta müdahale
-- Gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur.
-- Afişi uzun bilgilendirme metniyle dolduran öğrenciye ana mesaj ve görsel hiyerarşi ölçütünü uygulat.
-- Dekoratif görseli işlevsel görsel sanan öğrenciye mesajla bağını sordur.
+- “Afiş tasarımında temel ölçütler” sırasında gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur.
 
 ### Tahta notu
-- **Tahtaya yaz: Tahmin = ipucu + çıkarım**
-- **Tahtaya yaz: Amaç → uygun strateji → toplanacak kanıt**
-- **Tahtaya yaz: Afiş = tek ana mesaj + kısa metin + görsel hiyerarşi + hedef kitle**
 - **Tahtaya yaz: Her öğe şu soruyu geçmeli: Ana mesaja hizmet ediyor mu?**
 
 ### Ölçmede bak
-- Amaç ile strateji arasında açık uyum.
-- Tahminin görünür bir kaynağa dayanması.
-- Ana mesajın hızlı ve açık algılanması.
-- Metin-görsel bütünlüğü.
-- Hedef kitleye uygun dil ve tasarım kararı.
-- Revizyon izi ve kaynak sorumluluğu.
+- “Afiş tasarımında temel ölçütler” için ölçmede: tahminin görünür bir kaynağa dayanması.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan.
-- Başlık / ana görsel / kısa destek metni / çağrı alanı için basit tel kafes şablonu ver.
+- “Afiş tasarımında temel ölçütler” için destek: amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan.
 
 **Zenginleştirme**
-- Aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat.
-- Aynı afişin iki farklı hedef kitle için varyantını üretip tasarım kararlarını karşılaştır.
-
-### Kaynak sınırı
-- Dış QR değerlendirme aracının görünmeyen seviye açıklamaları resmî rubrik gibi üretilmemeli.
+- “Afiş tasarımında temel ölçütler” için zenginleştirme: aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat.
 
 ## s.300 — Afiş İçeriğini Oluşturma
 
 **Bölüm:** Edebiyat Atölyesi-2 (Anlatma): Yazma — Özgün Afiş Hazırlama
+**Pedagojik faz:** analyze_apply
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -2428,57 +2039,36 @@ Afiş görevini süsleme etkinliği değil hedef kitle, ana mesaj, görsel hiyer
 
 ### Pedagojik amaç
 
-Afiş görevini süsleme etkinliği değil hedef kitle, ana mesaj, görsel hiyerarşi, kısa dil ve etik kaynak kullanımının birleştiği çok modlu yazma görevi olarak yürüt. Renk, yazı, görsel ve seçilen belgesel iletisini tek bir iletişim sistemi içinde planlamak.
+Renk, yazı, görsel ve seçilen belgesel iletisini tek bir iletişim sistemi içinde planlamak.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.
-- Ürün görevlerinde ilk taslak ile son ürün arasındaki değişikliği görünür kıl.
+### Bu blokta öğretmen hamlesi
 - Önce tek ana mesajı netleştir; görsel ve metin seçimlerini bu mesaja göre sınırla.
 - Öğrenciden görsel hiyerarşiyi hangi sırayla okutmak istediğini açıklamasını iste.
-- Kaynak görsel ve alıntılarda telif/atıf sınırını görünür kıl.
 
 ### Takip soruları
-- Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?
-- Yaptığın bu tercihin amaç ve hedef kitleyle ilişkisi nedir?
 - Afişe üç saniye bakan biri hangi mesajı almalı?
 - Bu görsel metnin hangi düşüncesini destekliyor?
 - Bir öğeyi çıkaracak olsan hangisini çıkarırsın ve neden?
 
 ### Yanlış/kısmi cevapta müdahale
-- Terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt.
-- Afişi uzun bilgilendirme metniyle dolduran öğrenciye ana mesaj ve görsel hiyerarşi ölçütünü uygulat.
 - Dekoratif görseli işlevsel görsel sanan öğrenciye mesajla bağını sordur.
 
-### Tahta notu
-- **Tahtaya yaz: Unsur → işlev → etki**
-- **Tahtaya yaz: Taslak → geri bildirim → karar → revizyon**
-- **Tahtaya yaz: Afiş = tek ana mesaj + kısa metin + görsel hiyerarşi + hedef kitle**
-- **Tahtaya yaz: Her öğe şu soruyu geçmeli: Ana mesaja hizmet ediyor mu?**
-
 ### Ölçmede bak
-- Kavram ile işlev arasında doğru ilişki.
-- Ürün kararlarının amaç ve bağlama uygunluğu.
 - Ana mesajın hızlı ve açık algılanması.
 - Metin-görsel bütünlüğü.
-- Hedef kitleye uygun dil ve tasarım kararı.
-- Revizyon izi ve kaynak sorumluluğu.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.
 - Başlık / ana görsel / kısa destek metni / çağrı alanı için basit tel kafes şablonu ver.
 
 **Zenginleştirme**
-- Aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.
-- Aynı afişin iki farklı hedef kitle için varyantını üretip tasarım kararlarını karşılaştır.
-
-### Kaynak sınırı
-- Dış QR değerlendirme aracının görünmeyen seviye açıklamaları resmî rubrik gibi üretilmemeli.
+- “Renk, yazı, görsel ve ileti seçimi” için zenginleştirme: aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.
 
 ## s.301 — Afişi Oluşturma ve Kural Uygulama
 
 **Bölüm:** Edebiyat Atölyesi-2 (Anlatma): Yazma — Özgün Afiş Hazırlama
+**Pedagojik faz:** analyze_apply
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -2524,57 +2114,35 @@ Kullanılan görsel/alinti için kaynak ve kullanım hakkı kontrolü, tasarım�
 
 ### Pedagojik amaç
 
-Afiş görevini süsleme etkinliği değil hedef kitle, ana mesaj, görsel hiyerarşi, kısa dil ve etik kaynak kullanımının birleştiği çok modlu yazma görevi olarak yürüt. Taslağı geri bildirimle geliştirip Türkçe, tutarlılık, özgünlük, hedef kitle ve toplumsal hassasiyet kurallarıyla afişi tamamlamak.
+Taslağı geri bildirimle geliştirip Türkçe, tutarlılık, özgünlük, hedef kitle ve toplumsal hassasiyet kurallarıyla afişi tamamlamak.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.
-- Ürün görevlerinde ilk taslak ile son ürün arasındaki değişikliği görünür kıl.
-- Önce tek ana mesajı netleştir; görsel ve metin seçimlerini bu mesaja göre sınırla.
-- Öğrenciden görsel hiyerarşiyi hangi sırayla okutmak istediğini açıklamasını iste.
-- Kaynak görsel ve alıntılarda telif/atıf sınırını görünür kıl.
+### Bu blokta öğretmen hamlesi
+- “Afiş oluşturma kuralları” görevinde ürün görevlerinde ilk taslak ile son ürün arasındaki değişikliği görünür kıl.
 
 ### Takip soruları
-- Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?
-- Yaptığın bu tercihin amaç ve hedef kitleyle ilişkisi nedir?
-- Afişe üç saniye bakan biri hangi mesajı almalı?
-- Bu görsel metnin hangi düşüncesini destekliyor?
-- Bir öğeyi çıkaracak olsan hangisini çıkarırsın ve neden?
+- “Afiş oluşturma kuralları” için: Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?
 
 ### Yanlış/kısmi cevapta müdahale
-- Terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt.
 - Afişi uzun bilgilendirme metniyle dolduran öğrenciye ana mesaj ve görsel hiyerarşi ölçütünü uygulat.
-- Dekoratif görseli işlevsel görsel sanan öğrenciye mesajla bağını sordur.
 
 ### Tahta notu
-- **Tahtaya yaz: Unsur → işlev → etki**
-- **Tahtaya yaz: Taslak → geri bildirim → karar → revizyon**
 - **Tahtaya yaz: Afiş = tek ana mesaj + kısa metin + görsel hiyerarşi + hedef kitle**
-- **Tahtaya yaz: Her öğe şu soruyu geçmeli: Ana mesaja hizmet ediyor mu?**
 
 ### Ölçmede bak
-- Kavram ile işlev arasında doğru ilişki.
-- Ürün kararlarının amaç ve bağlama uygunluğu.
-- Ana mesajın hızlı ve açık algılanması.
-- Metin-görsel bütünlüğü.
-- Hedef kitleye uygun dil ve tasarım kararı.
-- Revizyon izi ve kaynak sorumluluğu.
+- “Afiş oluşturma kuralları” için ölçmede: kavram ile işlev arasında doğru ilişki.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.
-- Başlık / ana görsel / kısa destek metni / çağrı alanı için basit tel kafes şablonu ver.
+- “Afiş oluşturma kuralları” için destek: önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.
 
 **Zenginleştirme**
-- Aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.
 - Aynı afişin iki farklı hedef kitle için varyantını üretip tasarım kararlarını karşılaştır.
-
-### Kaynak sınırı
-- Dış QR değerlendirme aracının görünmeyen seviye açıklamaları resmî rubrik gibi üretilmemeli.
 
 ## s.302 — Afiş ve Yazma Sürecini Değerlendirme
 
 **Bölüm:** Edebiyat Atölyesi-2 (Anlatma): Yazma — Özgün Afiş Hazırlama
+**Pedagojik faz:** reflect
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -2639,50 +2207,28 @@ Afiş görevini süsleme etkinliği değil hedef kitle, ana mesaj, görsel hiyer
 
 ### Pedagojik amaç
 
-Afiş görevini süsleme etkinliği değil hedef kitle, ana mesaj, görsel hiyerarşi, kısa dil ve etik kaynak kullanımının birleştiği çok modlu yazma görevi olarak yürüt. Ürünü içerik/dil/telif yönünden değerlendirmek; dış QR rubriğinin sınırını koruyup tema sonu öğrenme günlüğüyle hedef belirlemek.
+Ürünü içerik/dil/telif yönünden değerlendirmek; dış QR rubriğinin sınırını koruyup tema sonu öğrenme günlüğüyle hedef belirlemek.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.
-- Geri bildirimi sonraki ürün değişikliğine veya öğrenme davranışına bağla.
-- Önce tek ana mesajı netleştir; görsel ve metin seçimlerini bu mesaja göre sınırla.
-- Öğrenciden görsel hiyerarşiyi hangi sırayla okutmak istediğini açıklamasını iste.
+### Bu blokta öğretmen hamlesi
 - Kaynak görsel ve alıntılarda telif/atıf sınırını görünür kıl.
 
 ### Takip soruları
-- Bu değerlendirmene hangi ürün veya performans ayrıntısı kanıt?
-- Bir sonraki benzer görevde tek bir şeyi değiştirecek olsan neyi değiştirirsin?
-- Afişe üç saniye bakan biri hangi mesajı almalı?
-- Bu görsel metnin hangi düşüncesini destekliyor?
-- Bir öğeyi çıkaracak olsan hangisini çıkarırsın ve neden?
+- “Afiş öz değerlendirmesi ve paylaşım” için: Bir sonraki benzer görevde tek bir şeyi değiştirecek olsan neyi değiştirirsin?
 
 ### Yanlış/kısmi cevapta müdahale
-- Formu otomatik olumlu işaretleyen öğrenciye belirli bir örnek göstermeden yargıyı tamamlanmış sayma.
-- Afişi uzun bilgilendirme metniyle dolduran öğrenciye ana mesaj ve görsel hiyerarşi ölçütünü uygulat.
-- Dekoratif görseli işlevsel görsel sanan öğrenciye mesajla bağını sordur.
-
-### Tahta notu
-- **Tahtaya yaz: Öz değerlendirme = yargı + kanıt + yeni hedef**
-- **Tahtaya yaz: Geri bildirim → değerlendir → karar ver → revize et**
-- **Tahtaya yaz: Afiş = tek ana mesaj + kısa metin + görsel hiyerarşi + hedef kitle**
-- **Tahtaya yaz: Her öğe şu soruyu geçmeli: Ana mesaja hizmet ediyor mu?**
+- “Afiş öz değerlendirmesi ve paylaşım” sırasında formu otomatik olumlu işaretleyen öğrenciye belirli bir örnek göstermeden yargıyı tamamlanmış sayma.
 
 ### Ölçmede bak
-- Kanıta dayalı öz değerlendirme.
-- Uygulanabilir bir sonraki adım veya revizyon.
-- Ana mesajın hızlı ve açık algılanması.
-- Metin-görsel bütünlüğü.
 - Hedef kitleye uygun dil ve tasarım kararı.
 - Revizyon izi ve kaynak sorumluluğu.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan.
-- Başlık / ana görsel / kısa destek metni / çağrı alanı için basit tel kafes şablonu ver.
+- “Afiş öz değerlendirmesi ve paylaşım” için destek: bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan.
 
 **Zenginleştirme**
-- Bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste.
-- Aynı afişin iki farklı hedef kitle için varyantını üretip tasarım kararlarını karşılaştır.
+- “Afiş öz değerlendirmesi ve paylaşım” için zenginleştirme: bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste.
 
 ### Kaynak sınırı
 - Dış QR değerlendirme aracının görünmeyen seviye açıklamaları resmî rubrik gibi üretilmemeli.
@@ -2690,6 +2236,7 @@ Afiş görevini süsleme etkinliği değil hedef kitle, ana mesaj, görsel hiyer
 ## s.303-305 — 4. Tema Ölçme — 1-5. Sorular
 
 **Bölüm:** 4. Tema Ölçme ve Değerlendirme Soruları
+**Pedagojik faz:** assessment
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -2761,51 +2308,40 @@ _Not: Birebir soru metni canonical teacher-guide verisinde tutulmadığı için 
 
 Tema sonu sorularında tiyatro, küçürek hikâye, çok modlu belgesel ve afiş kazanımlarını yalnız terim ezberiyle değil işlev, kanıt ve tür farklarıyla değerlendir. Modern Türk tiyatrosu, küçürek hikâye ve afiş/duygu aktarımını ölçmek.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Çoktan seçmeli sorularda yalnız doğru seçeneği değil kısa gerekçeyi de iste.
-- Açık uçlu sorularda kabul edilebilir farklı cevapları kullanılan ölçüt ve kanıta göre değerlendir.
+### Bu blokta öğretmen hamlesi
 - Tiyatro sorularında sahne ve dramatik yapı işlevini; küçürek hikâyede yoğunluk ve simgesel katmanı gerekçelendirt.
 - Değer sorularında kavram adının yanında davranış veya metin kanıtı iste.
 - Çoktan seçmeli sorularda eleme gerekçesini kısa cümleyle görünür kıl.
 
 ### Takip soruları
-- Bu seçenek neden doğru; en güçlü kanıtın ne?
-- Diğer seçeneklerden biri neden elenir?
 - Bu türü tanımanı sağlayan en ayırt edici özellik hangisi?
 - Bu simgesel yorumu hangi ayrıntı destekliyor?
 - Bu değer hangi davranışta görünür oluyor?
 
 ### Yanlış/kısmi cevapta müdahale
-- Doğru cevabı ezberden veren öğrenciden kanıt istemeden tam öğrenme kabul etme.
 - Küçürek hikâyeyi yalnız kısa metin olarak tanımlayan öğrenciye anlam yoğunluğu ve okur katılımını sordur.
-- Tiyatro metnini yalnız diyalog bulunmasıyla tanımlayan öğrenciye dramatik örgü ve sahne boyutunu eklet.
 
 ### Tahta notu
-- **Tahtaya yaz: Doğru cevap + gerekçe = güvenilir öğrenme kanıtı**
 - **Tahtaya yaz: Türü tanı = biçim + yapı + işlev**
 - **Tahtaya yaz: Simge yorumu = unsur + bağlam + kanıt**
-- **Tahtaya yaz: Değer = davranış + sonuç**
 
 ### Ölçmede bak
-- Cevap ile gerekçenin tutarlılığı.
-- Açık uçlu cevapta ölçüt ve kanıt kullanımı.
 - Tür bilgisinin ayırt edici özellikle gerekçelendirilmesi.
 - Simgesel yorumun metin kanıtına dayanması.
 - Değer çıkarımında davranış kanıtı.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Soru kökündeki anahtar kavramları işaretlet ve seçenekleri tek tek kanıtla ele.
 - Tiyatro / küçürek hikâye / belgesel / afiş için dört sütunlu ayırt edici özellik özeti ver.
 
 **Zenginleştirme**
-- Yanlış bir seçeneği doğru hâle getirecek biçimde yeniden yazdır.
 - Yanlış bir seçenek veya zayıf açık uçlu cevabı daha güçlü kanıt kullanarak yeniden yazdır.
 
 ## s.305-307 — 4. Tema Ölçme — 6-14. Sorular
 
 **Bölüm:** 4. Tema Ölçme ve Değerlendirme Soruları
+**Pedagojik faz:** assessment
 
 ### Kitaptaki görevler ve cevap anahtarı
 
@@ -2898,46 +2434,27 @@ Her iki yönde de gerekçeli cevap kabul edilebilir. Güçlendirdi görüşü; e
 
 ### Pedagojik amaç
 
-Tema sonu sorularında tiyatro, küçürek hikâye, çok modlu belgesel ve afiş kazanımlarını yalnız terim ezberiyle değil işlev, kanıt ve tür farklarıyla değerlendir. Tiyatro sahne unsurları, belgesel-teknoloji-toplumsal bellek ve dış Aidiyet videosu üzerinden temayı değerlendirmek.
+Tiyatro sahne unsurları, belgesel-teknoloji-toplumsal bellek ve dış Aidiyet videosu üzerinden temayı değerlendirmek.
 
-### Bölüm düzeyi öğretmen hamlesi
-- Çoktan seçmeli sorularda yalnız doğru seçeneği değil kısa gerekçeyi de iste.
-- Açık uçlu sorularda kabul edilebilir farklı cevapları kullanılan ölçüt ve kanıta göre değerlendir.
-- Tiyatro sorularında sahne ve dramatik yapı işlevini; küçürek hikâyede yoğunluk ve simgesel katmanı gerekçelendirt.
-- Değer sorularında kavram adının yanında davranış veya metin kanıtı iste.
-- Çoktan seçmeli sorularda eleme gerekçesini kısa cümleyle görünür kıl.
+### Bu blokta öğretmen hamlesi
+- “Sorular 6-7 — kostüm ve sözsüz iletişim” görevinde çoktan seçmeli sorularda yalnız doğru seçeneği değil kısa gerekçeyi de iste.
 
 ### Takip soruları
-- Bu seçenek neden doğru; en güçlü kanıtın ne?
-- Diğer seçeneklerden biri neden elenir?
-- Bu türü tanımanı sağlayan en ayırt edici özellik hangisi?
-- Bu simgesel yorumu hangi ayrıntı destekliyor?
-- Bu değer hangi davranışta görünür oluyor?
+- “Sorular 6-7 — kostüm ve sözsüz iletişim” için: Bu seçenek neden doğru; en güçlü kanıtın ne?
 
 ### Yanlış/kısmi cevapta müdahale
-- Doğru cevabı ezberden veren öğrenciden kanıt istemeden tam öğrenme kabul etme.
-- Küçürek hikâyeyi yalnız kısa metin olarak tanımlayan öğrenciye anlam yoğunluğu ve okur katılımını sordur.
 - Tiyatro metnini yalnız diyalog bulunmasıyla tanımlayan öğrenciye dramatik örgü ve sahne boyutunu eklet.
 
 ### Tahta notu
-- **Tahtaya yaz: Doğru cevap + gerekçe = güvenilir öğrenme kanıtı**
-- **Tahtaya yaz: Türü tanı = biçim + yapı + işlev**
-- **Tahtaya yaz: Simge yorumu = unsur + bağlam + kanıt**
 - **Tahtaya yaz: Değer = davranış + sonuç**
 
 ### Ölçmede bak
-- Cevap ile gerekçenin tutarlılığı.
-- Açık uçlu cevapta ölçüt ve kanıt kullanımı.
-- Tür bilgisinin ayırt edici özellikle gerekçelendirilmesi.
-- Simgesel yorumun metin kanıtına dayanması.
-- Değer çıkarımında davranış kanıtı.
+- “Sorular 6-7 — kostüm ve sözsüz iletişim” için ölçmede: cevap ile gerekçenin tutarlılığı.
 
-### Bölüm düzeyi farklılaştırma
+### Bu blokta farklılaştırma
 
 **Destek**
-- Soru kökündeki anahtar kavramları işaretlet ve seçenekleri tek tek kanıtla ele.
-- Tiyatro / küçürek hikâye / belgesel / afiş için dört sütunlu ayırt edici özellik özeti ver.
+- “Sorular 6-7 — kostüm ve sözsüz iletişim” için destek: soru kökündeki anahtar kavramları işaretlet ve seçenekleri tek tek kanıtla ele.
 
 **Zenginleştirme**
-- Yanlış bir seçeneği doğru hâle getirecek biçimde yeniden yazdır.
-- Yanlış bir seçenek veya zayıf açık uçlu cevabı daha güçlü kanıt kullanarak yeniden yazdır.
+- “Sorular 6-7 — kostüm ve sözsüz iletişim” için zenginleştirme: yanlış bir seçeneği doğru hâle getirecek biçimde yeniden yazdır.

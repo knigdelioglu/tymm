@@ -1,9 +1,10 @@
 {
-  "schema_version": "2.1.0",
+  "schema_version": "2.2.0",
   "document_type": "TYMM_TEACHER_GUIDE_PEDAGOGY_OVERLAY",
   "course_id": "TDE_11",
   "theme_id": "TEMA_03",
   "status": "REVIEW_REQUIRED",
+  "quality_review": null,
   "principles": [
     "Ders kitabındaki gerçek soru ve görev görünür kalır; doğrulanmamış soru metni uydurulmaz.",
     "Açık uçlu cevaplarda tek kalıp yerine metin veya medya kanıtı, gerekçe ve kabul edilebilir alternatifler aranır.",
@@ -17,6 +18,7 @@
     {
       "block_id": "T03V2_T3_GUIDE_U00_TEMA_ACILIS",
       "section_id": "T3_GUIDE_SEC_00_TEMA_ACILIS",
+      "phase_name": "opening",
       "printed_page_range": "160-163",
       "title": "Tema Açılışı ve Edebiyat–Hayat İlişkisi",
       "source_item_refs": [
@@ -245,39 +247,29 @@
       ],
       "pedagogical_intent": "Yaşam, insan, şehir, hafıza ve edebiyat ilişkisini öğrencinin gündelik deneyiminden edebî yoruma taşıyan bir tema çerçevesi kur. Temanın yazarın hayatı, gerçeklik-kurmaca, kişisel hayatı konu alan türler ve radyo tiyatrosu eksenini görünür kılmak.",
       "teacher_moves": [
-        "Tema hedeflerini ezber listesi olarak vermek yerine öğrencinin ön bilgisini açığa çıkaran iki kısa soru ile başla.",
-        "Tema boyunca geri dönülecek ana kavramları görünür bir yol haritasına dönüştür.",
         "Yaşam kavramını yalnız biyografik olay listesine indirgeme; duygu, mekân, zaman ve anlam boyutlarını aç.",
         "Kişisel deneyim paylaşımını gönüllülük ve sınırlarla yürüt; öğrenciden özel hayat ifşası isteme."
       ],
       "follow_up_questions": [
-        "Bu düşünceni hangi örnek veya deneyim destekliyor?",
-        "Tema sonunda bu görüşünün değişip değişmediğini nasıl anlayabiliriz?",
         "Bir mekân neden bazı insanlar için yalnız yer değil hatıra taşıyıcısı olabilir?",
         "Yaşanmışlık edebî metne girdiğinde ne değişir?"
       ],
       "misconception_interventions": [
-        "Genel ve kanıtsız yargıyı doğrudan düzeltmek yerine somut örnek istemekle daralt.",
         "Edebî metni yazarın hayatının birebir kaydı sayan öğrenciye seçme, dönüştürme ve kurmaca kavramlarını hatırlat."
       ],
       "board_notes": [
-        "Tahtaya yaz: Ön bilgi → soru → kanıt → tema boyunca yeniden düşün",
         "Tahtaya yaz: Yaşantı → seçme/dönüştürme → edebî gerçeklik",
         "Tahtaya yaz: Mekân = yer + hafıza + duygu + kültür"
       ],
       "assessment_look_fors": [
-        "Ön bilgi ile gerekçenin birbirinden ayrılması.",
-        "Tema kavramları arasında ilk anlamlı bağların kurulması.",
         "Yaşam-edebiyat ilişkisini kurmaca dönüşümüyle açıklama.",
         "Mekân veya hafıza kavramını gerekçeli örnekle ilişkilendirme."
       ],
       "differentiation": {
         "support": [
-          "Anahtar kavramları kısa kelime kartlarıyla ver ve öğrencinin örnekle eşleştirmesini sağla.",
           "Yaşam / mekân / hafıza / duygu kavramlarını örneklerle eşleştir."
         ],
         "enrichment": [
-          "Tema kavramlarından ikisi arasında öğrencinin kendi örneğiyle ilişki kurmasını iste.",
           "Aynı mekânı iki farklı karakterin bakışından iki kısa betimlemeyle kurdur."
         ]
       }
@@ -285,6 +277,7 @@
     {
       "block_id": "T03V2_T3_GUIDE_U01_HUZUR_YONETIM",
       "section_id": "T3_SEC_01_OKUMA_HUZUR",
+      "phase_name": "manage",
       "printed_page_range": "164-170",
       "title": "Huzur — okumayı yönetme",
       "source_item_refs": [
@@ -478,52 +471,33 @@
       ],
       "pedagogical_intent": "Huzur'da bireysel iç dünya ile İstanbul, musiki, tarih ve kültürel hafızanın nasıl birbirini kurduğunu metin kanıtıyla çözümlet; yazar hayatı ile kurmacayı özdeşleştirme. Okuma amacı/stratejisi, yazar-eser ön araştırması ve metne yönelik tahminleri yönetmek.",
       "teacher_moves": [
-        "Göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir.",
-        "Tahmini doğru-yanlış olarak değil görünür ipucuna dayalı çıkarım olarak değerlendir.",
-        "Metni yalnız olay örgüsü üzerinden okutma; mekân, musiki, çağrışım ve psikolojik çözümleme işaretleyicilerini de izlet.",
-        "Metni Anlayalım sorularında 1-13 cevaplarını soru numarası üzerinden ayrı yürüt ve metin dayanağı iste.",
-        "İstanbul'u dekor değil karakterlerin hafıza ve kimliğini kuran anlam alanı olarak incelet."
+        "“Konuya Başlarken — yazar, hayat ve roman” görevinde göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir."
       ],
       "follow_up_questions": [
-        "Bu tahmini hangi başlık, görsel, kelime veya ön bilgiye dayandırdın?",
-        "Seçtiğin strateji bu görevde sana tam olarak ne sağlayacak?",
-        "Boğaz veya İstanbul bu sahnede çıkarılsa karakterin anlam dünyasında ne kaybolur?",
-        "Musiki burada yalnız konu mu, yoksa anlatımın bir parçası mı?",
-        "Tanpınar'ın hayatıyla metin arasında bağ kurmak hangi noktada riskli olur?"
+        "“Konuya Başlarken — yazar, hayat ve roman” için: Bu tahmini hangi başlık, görsel, kelime veya ön bilgiye dayandırdın?"
       ],
       "misconception_interventions": [
-        "Gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur.",
-        "Huzur'u Tanpınar'ın otobiyografisi sayan öğrenciye yaşantının kurmacada dönüşebileceğini göster.",
-        "Tema ile konuyu karıştıran öğrenciye 'ne oluyor?' ve 'metin bunun üzerinden neyi düşündürüyor?' sorularını ayır."
+        "“Konuya Başlarken — yazar, hayat ve roman” sırasında gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur."
       ],
       "board_notes": [
-        "Tahtaya yaz: Tahmin = ipucu + çıkarım",
-        "Tahtaya yaz: Amaç → uygun strateji → toplanacak kanıt",
-        "Tahtaya yaz: Huzur okuması = kişi + mekân + musiki + hafıza + iç dünya",
-        "Tahtaya yaz: Konu = ne anlatılıyor? | Tema = hangi temel mesele? | İleti = ne düşündürüyor?",
         "Tahtaya yaz: Yazar hayatı ≠ kurmaca kişi"
       ],
       "assessment_look_fors": [
-        "Amaç ile strateji arasında açık uyum.",
-        "Tahminin görünür bir kaynağa dayanması.",
-        "Kişi-mekân-kültür ilişkisinin metin kanıtıyla kurulması.",
-        "Konu, tema ve ileti ayrımı.",
-        "Üslup özelliğinin işlevle açıklanması."
+        "“Konuya Başlarken — yazar, hayat ve roman” için ölçmede: amaç ile strateji arasında açık uyum."
       ],
       "differentiation": {
         "support": [
-          "Amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan.",
-          "Kişi / mekân / duygu / kültürel unsur dört sütunlu okuma tablosu ver."
+          "“Konuya Başlarken — yazar, hayat ve roman” için destek: amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan."
         ],
         "enrichment": [
-          "Aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat.",
-          "Bir İstanbul mekânının romandaki işlevini başka bir romandaki mekân kullanımıyla karşılaştır."
+          "“Konuya Başlarken — yazar, hayat ve roman” için zenginleştirme: aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat."
         ]
       }
     },
     {
       "block_id": "T03V2_T3_GUIDE_U02_HUZUR_ANLAM",
       "section_id": "T3_SEC_01_OKUMA_HUZUR",
+      "phase_name": "meaning",
       "printed_page_range": "171-185",
       "title": "Huzur — anlam oluşturma",
       "source_item_refs": [
@@ -1064,47 +1038,34 @@
           "split_from_group": false
         }
       ],
-      "pedagogical_intent": "Huzur'da bireysel iç dünya ile İstanbul, musiki, tarih ve kültürel hafızanın nasıl birbirini kurduğunu metin kanıtıyla çözümlet; yazar hayatı ile kurmacayı özdeşleştirme. Söz varlığı, konu/tema/ileti, kişi-mekân-kültür ilişkileri ve gerçeklik-kurmaca bağını anlamlandırmak.",
+      "pedagogical_intent": "Söz varlığı, konu/tema/ileti, kişi-mekân-kültür ilişkileri ve gerçeklik-kurmaca bağını anlamlandırmak.",
       "teacher_moves": [
-        "Cevabın yanına kısa metin, görsel veya dinleme kanıtı istemeyi varsayılan sınıf rutini hâline getir.",
-        "Konu, tema, ileti, yorum ve çıkarım gibi yakın kavramları görev üzerinde birbirinden ayır.",
         "Metni yalnız olay örgüsü üzerinden okutma; mekân, musiki, çağrışım ve psikolojik çözümleme işaretleyicilerini de izlet.",
         "Metni Anlayalım sorularında 1-13 cevaplarını soru numarası üzerinden ayrı yürüt ve metin dayanağı iste.",
         "İstanbul'u dekor değil karakterlerin hafıza ve kimliğini kuran anlam alanı olarak incelet."
       ],
       "follow_up_questions": [
-        "Bu cevabını kaynakta hangi ayrıntı destekliyor?",
-        "Aynı kanıttan başka bir makul yorum çıkar mı?",
         "Boğaz veya İstanbul bu sahnede çıkarılsa karakterin anlam dünyasında ne kaybolur?",
         "Musiki burada yalnız konu mu, yoksa anlatımın bir parçası mı?",
         "Tanpınar'ın hayatıyla metin arasında bağ kurmak hangi noktada riskli olur?"
       ],
       "misconception_interventions": [
-        "Yorumu kaynakta açıkça söylenmiş bilgi gibi sunan öğrenciye 'metinde var / ben çıkarıyorum' ayrımı yaptır.",
         "Huzur'u Tanpınar'ın otobiyografisi sayan öğrenciye yaşantının kurmacada dönüşebileceğini göster.",
         "Tema ile konuyu karıştıran öğrenciye 'ne oluyor?' ve 'metin bunun üzerinden neyi düşündürüyor?' sorularını ayır."
       ],
       "board_notes": [
-        "Tahtaya yaz: Cevap = yargı + kanıt + gerekçe",
-        "Tahtaya yaz: Açık bilgi ≠ yorum/çıkarım",
         "Tahtaya yaz: Huzur okuması = kişi + mekân + musiki + hafıza + iç dünya",
-        "Tahtaya yaz: Konu = ne anlatılıyor? | Tema = hangi temel mesele? | İleti = ne düşündürüyor?",
-        "Tahtaya yaz: Yazar hayatı ≠ kurmaca kişi"
+        "Tahtaya yaz: Konu = ne anlatılıyor? | Tema = hangi temel mesele? | İleti = ne düşündürüyor?"
       ],
       "assessment_look_fors": [
-        "Cevabın kaynak kanıtıyla uyumu.",
-        "Açık bilgi ile çıkarımın ayrılması.",
         "Kişi-mekân-kültür ilişkisinin metin kanıtıyla kurulması.",
-        "Konu, tema ve ileti ayrımı.",
-        "Üslup özelliğinin işlevle açıklanması."
+        "Konu, tema ve ileti ayrımı."
       ],
       "differentiation": {
         "support": [
-          "Cevabım / kanıtım biçiminde iki sütunlu çalışma alanı ver.",
           "Kişi / mekân / duygu / kültürel unsur dört sütunlu okuma tablosu ver."
         ],
         "enrichment": [
-          "İki olası yorumu kanıt gücü bakımından karşılaştırmasını iste.",
           "Bir İstanbul mekânının romandaki işlevini başka bir romandaki mekân kullanımıyla karşılaştır."
         ]
       }
@@ -1112,6 +1073,7 @@
     {
       "block_id": "T03V2_T3_GUIDE_U03_HUZUR_COZUMLEME",
       "section_id": "T3_SEC_01_OKUMA_HUZUR",
+      "phase_name": "analyze_apply",
       "printed_page_range": "186-191",
       "title": "Huzur — çözümleme",
       "source_item_refs": [
@@ -1289,54 +1251,33 @@
           "split_from_group": false
         }
       ],
-      "pedagogical_intent": "Huzur'da bireysel iç dünya ile İstanbul, musiki, tarih ve kültürel hafızanın nasıl birbirini kurduğunu metin kanıtıyla çözümlet; yazar hayatı ile kurmacayı özdeşleştirme. Yapı unsurları, dil/üslup, çatışma, dönem dili ve disiplinler arası ilişkileri çözümlemek.",
+      "pedagogical_intent": "Yapı unsurları, dil/üslup, çatışma, dönem dili ve disiplinler arası ilişkileri çözümlemek.",
       "teacher_moves": [
-        "Kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.",
-        "Ürün görevlerinde ilk taslak ile son ürün arasındaki değişikliği görünür kıl.",
-        "Metni yalnız olay örgüsü üzerinden okutma; mekân, musiki, çağrışım ve psikolojik çözümleme işaretleyicilerini de izlet.",
-        "Metni Anlayalım sorularında 1-13 cevaplarını soru numarası üzerinden ayrı yürüt ve metin dayanağı iste.",
-        "İstanbul'u dekor değil karakterlerin hafıza ve kimliğini kuran anlam alanı olarak incelet."
+        "“Huzur’un yapı unsurları” görevinde kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste."
       ],
       "follow_up_questions": [
-        "Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?",
-        "Yaptığın bu tercihin amaç ve hedef kitleyle ilişkisi nedir?",
-        "Boğaz veya İstanbul bu sahnede çıkarılsa karakterin anlam dünyasında ne kaybolur?",
-        "Musiki burada yalnız konu mu, yoksa anlatımın bir parçası mı?",
-        "Tanpınar'ın hayatıyla metin arasında bağ kurmak hangi noktada riskli olur?"
+        "“Huzur’un yapı unsurları” için: Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?"
       ],
       "misconception_interventions": [
-        "Terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt.",
-        "Huzur'u Tanpınar'ın otobiyografisi sayan öğrenciye yaşantının kurmacada dönüşebileceğini göster.",
-        "Tema ile konuyu karıştıran öğrenciye 'ne oluyor?' ve 'metin bunun üzerinden neyi düşündürüyor?' sorularını ayır."
+        "“Huzur’un yapı unsurları” sırasında terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt."
       ],
-      "board_notes": [
-        "Tahtaya yaz: Unsur → işlev → etki",
-        "Tahtaya yaz: Taslak → geri bildirim → karar → revizyon",
-        "Tahtaya yaz: Huzur okuması = kişi + mekân + musiki + hafıza + iç dünya",
-        "Tahtaya yaz: Konu = ne anlatılıyor? | Tema = hangi temel mesele? | İleti = ne düşündürüyor?",
-        "Tahtaya yaz: Yazar hayatı ≠ kurmaca kişi"
-      ],
+      "board_notes": [],
       "assessment_look_fors": [
-        "Kavram ile işlev arasında doğru ilişki.",
-        "Ürün kararlarının amaç ve bağlama uygunluğu.",
-        "Kişi-mekân-kültür ilişkisinin metin kanıtıyla kurulması.",
-        "Konu, tema ve ileti ayrımı.",
         "Üslup özelliğinin işlevle açıklanması."
       ],
       "differentiation": {
         "support": [
-          "Önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.",
-          "Kişi / mekân / duygu / kültürel unsur dört sütunlu okuma tablosu ver."
+          "“Huzur’un yapı unsurları” için destek: önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle."
         ],
         "enrichment": [
-          "Aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.",
-          "Bir İstanbul mekânının romandaki işlevini başka bir romandaki mekân kullanımıyla karşılaştır."
+          "“Huzur’un yapı unsurları” için zenginleştirme: aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat."
         ]
       }
     },
     {
       "block_id": "T03V2_T3_GUIDE_U04_HUZUR_DEGERLENDIRME",
       "section_id": "T3_SEC_01_OKUMA_HUZUR",
+      "phase_name": "reflect",
       "printed_page_range": "192-193",
       "title": "Huzur — süreci değerlendirme",
       "source_item_refs": [
@@ -1444,54 +1385,33 @@
           "split_from_group": false
         }
       ],
-      "pedagogical_intent": "Huzur'da bireysel iç dünya ile İstanbul, musiki, tarih ve kültürel hafızanın nasıl birbirini kurduğunu metin kanıtıyla çözümlet; yazar hayatı ile kurmacayı özdeşleştirme. Metni ölçütlere göre değerlendirmek, beğeni/eleştiriyi gerekçelendirmek ve çıkış kartıyla öğrenmeyi görünür kılmak.",
+      "pedagogical_intent": "Metni ölçütlere göre değerlendirmek, beğeni/eleştiriyi gerekçelendirmek ve çıkış kartıyla öğrenmeyi görünür kılmak.",
       "teacher_moves": [
-        "Öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.",
-        "Geri bildirimi sonraki ürün değişikliğine veya öğrenme davranışına bağla.",
-        "Metni yalnız olay örgüsü üzerinden okutma; mekân, musiki, çağrışım ve psikolojik çözümleme işaretleyicilerini de izlet.",
-        "Metni Anlayalım sorularında 1-13 cevaplarını soru numarası üzerinden ayrı yürüt ve metin dayanağı iste.",
-        "İstanbul'u dekor değil karakterlerin hafıza ve kimliğini kuran anlam alanı olarak incelet."
+        "“Huzur çözümleme çalışma kâğıdı” görevinde öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet."
       ],
       "follow_up_questions": [
-        "Bu değerlendirmene hangi ürün veya performans ayrıntısı kanıt?",
-        "Bir sonraki benzer görevde tek bir şeyi değiştirecek olsan neyi değiştirirsin?",
-        "Boğaz veya İstanbul bu sahnede çıkarılsa karakterin anlam dünyasında ne kaybolur?",
-        "Musiki burada yalnız konu mu, yoksa anlatımın bir parçası mı?",
-        "Tanpınar'ın hayatıyla metin arasında bağ kurmak hangi noktada riskli olur?"
+        "“Huzur çözümleme çalışma kâğıdı” için: Bu değerlendirmene hangi ürün veya performans ayrıntısı kanıt?"
       ],
       "misconception_interventions": [
-        "Formu otomatik olumlu işaretleyen öğrenciye belirli bir örnek göstermeden yargıyı tamamlanmış sayma.",
-        "Huzur'u Tanpınar'ın otobiyografisi sayan öğrenciye yaşantının kurmacada dönüşebileceğini göster.",
-        "Tema ile konuyu karıştıran öğrenciye 'ne oluyor?' ve 'metin bunun üzerinden neyi düşündürüyor?' sorularını ayır."
+        "“Huzur çözümleme çalışma kâğıdı” sırasında formu otomatik olumlu işaretleyen öğrenciye belirli bir örnek göstermeden yargıyı tamamlanmış sayma."
       ],
-      "board_notes": [
-        "Tahtaya yaz: Öz değerlendirme = yargı + kanıt + yeni hedef",
-        "Tahtaya yaz: Geri bildirim → değerlendir → karar ver → revize et",
-        "Tahtaya yaz: Huzur okuması = kişi + mekân + musiki + hafıza + iç dünya",
-        "Tahtaya yaz: Konu = ne anlatılıyor? | Tema = hangi temel mesele? | İleti = ne düşündürüyor?",
-        "Tahtaya yaz: Yazar hayatı ≠ kurmaca kişi"
-      ],
+      "board_notes": [],
       "assessment_look_fors": [
-        "Kanıta dayalı öz değerlendirme.",
-        "Uygulanabilir bir sonraki adım veya revizyon.",
-        "Kişi-mekân-kültür ilişkisinin metin kanıtıyla kurulması.",
-        "Konu, tema ve ileti ayrımı.",
-        "Üslup özelliğinin işlevle açıklanması."
+        "“Huzur çözümleme çalışma kâğıdı” için ölçmede: kanıta dayalı öz değerlendirme."
       ],
       "differentiation": {
         "support": [
-          "Bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan.",
-          "Kişi / mekân / duygu / kültürel unsur dört sütunlu okuma tablosu ver."
+          "“Huzur çözümleme çalışma kâğıdı” için destek: bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan."
         ],
         "enrichment": [
-          "Bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste.",
-          "Bir İstanbul mekânının romandaki işlevini başka bir romandaki mekân kullanımıyla karşılaştır."
+          "“Huzur çözümleme çalışma kâğıdı” için zenginleştirme: bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste."
         ]
       }
     },
     {
       "block_id": "T03V2_T3_GUIDE_U05_BIYOGRAFI_YONETIM",
       "section_id": "T3_SEC_02_OKUMA_BIYOGRAFI",
+      "phase_name": "manage",
       "printed_page_range": "194-197",
       "title": "Mehmet Akif Ersoy — okumayı yönetme",
       "source_item_refs": [
@@ -1633,50 +1553,33 @@
       ],
       "pedagogical_intent": "Biyografi ve tezkireyi kişi hakkında bilgi veren iki farklı tarihî anlatım biçimi olarak karşılaştır; bilgi, yorum, övgü ve dönem üslubunu ayırt ettir. Biyografi türüne ilişkin ön bilgiyi etkinleştirmek ve metnin okuma amacını/stratejisini belirlemek.",
       "teacher_moves": [
-        "Göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir.",
-        "Tahmini doğru-yanlış olarak değil görünür ipucuna dayalı çıkarım olarak değerlendir.",
         "Biyografide doğrulanabilir bilgi ile yazarın değerlendirmesini ayrı işaretlet.",
-        "Tezkirede dönem dili, sanatçı değerlendirmesi ve seçme ölçütlerini görünür kıl.",
         "İki türü yalnız eski-yeni ayrımına indirgeme; amaç, yapı, kaynak ve üslup ölçütleriyle karşılaştır."
       ],
       "follow_up_questions": [
-        "Bu tahmini hangi başlık, görsel, kelime veya ön bilgiye dayandırdın?",
-        "Seçtiğin strateji bu görevde sana tam olarak ne sağlayacak?",
         "Bu cümle kişi hakkında bilgi mi veriyor, yoksa onu değerlendiriyor mu?",
         "Tezkire yazarının seçtiği ayrıntılar bize dönem hakkında ne söyler?"
       ],
       "misconception_interventions": [
-        "Gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur.",
-        "Biyografiyi tamamen tarafsız metin sayan öğrenciye seçim, kaynak ve anlatım tercihini düşündür.",
-        "Tezkireyi yalnız günümüz biyografisinin eski dilde yazılmış hâli sayan öğrenciye edebî değerlendirme ve dönem geleneği farkını göster."
+        "“Biyografide hangi ayrıntılar ve okur için önemi” sırasında gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur."
       ],
-      "board_notes": [
-        "Tahtaya yaz: Tahmin = ipucu + çıkarım",
-        "Tahtaya yaz: Amaç → uygun strateji → toplanacak kanıt",
-        "Tahtaya yaz: Biyografi = yaşam bilgisi + kaynak + seçme/düzenleme",
-        "Tahtaya yaz: Tezkire = sanatçı bilgisi + değerlendirme + dönem üslubu",
-        "Tahtaya yaz: Bilgi ≠ değerlendirme"
-      ],
+      "board_notes": [],
       "assessment_look_fors": [
-        "Amaç ile strateji arasında açık uyum.",
-        "Tahminin görünür bir kaynağa dayanması.",
-        "İki türü en az üç ölçütle karşılaştırma.",
-        "Bilgi ve değerlendirme cümlelerini gerekçeyle ayırma."
+        "“Biyografide hangi ayrıntılar ve okur için önemi” için ölçmede: tahminin görünür bir kaynağa dayanması."
       ],
       "differentiation": {
         "support": [
-          "Amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan.",
           "Amaç / kaynak / dil-üslup / değerlendirme başlıklı karşılaştırma tablosu ver."
         ],
         "enrichment": [
-          "Aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat.",
-          "Aynı kişi için kısa biyografi paragrafı ve tezkire üslubuna yaklaşan değerlendirme paragrafı yazdır."
+          "“Biyografide hangi ayrıntılar ve okur için önemi” için zenginleştirme: aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat."
         ]
       }
     },
     {
       "block_id": "T03V2_T3_GUIDE_U06_BIYOGRAFI_ANLAM",
       "section_id": "T3_SEC_02_OKUMA_BIYOGRAFI",
+      "phase_name": "meaning",
       "printed_page_range": "198-204",
       "title": "Mehmet Akif Ersoy — anlam oluşturma",
       "source_item_refs": [
@@ -1933,52 +1836,35 @@
           "split_from_group": false
         }
       ],
-      "pedagogical_intent": "Biyografi ve tezkireyi kişi hakkında bilgi veren iki farklı tarihî anlatım biçimi olarak karşılaştır; bilgi, yorum, övgü ve dönem üslubunu ayırt ettir. Söz varlığı, ana düşünce, biyografi türü, öznel/nesnel anlatım ve kurgu-gerçeklik karşılaştırmasını anlamlandırmak.",
+      "pedagogical_intent": "Söz varlığı, ana düşünce, biyografi türü, öznel/nesnel anlatım ve kurgu-gerçeklik karşılaştırmasını anlamlandırmak.",
       "teacher_moves": [
-        "Cevabın yanına kısa metin, görsel veya dinleme kanıtı istemeyi varsayılan sınıf rutini hâline getir.",
-        "Konu, tema, ileti, yorum ve çıkarım gibi yakın kavramları görev üzerinde birbirinden ayır.",
-        "Biyografide doğrulanabilir bilgi ile yazarın değerlendirmesini ayrı işaretlet.",
-        "Tezkirede dönem dili, sanatçı değerlendirmesi ve seçme ölçütlerini görünür kıl.",
-        "İki türü yalnız eski-yeni ayrımına indirgeme; amaç, yapı, kaynak ve üslup ölçütleriyle karşılaştır."
+        "“Biyografi söz varlığı” görevinde cevabın yanına kısa metin, görsel veya dinleme kanıtı istemeyi varsayılan sınıf rutini hâline getir."
       ],
       "follow_up_questions": [
-        "Bu cevabını kaynakta hangi ayrıntı destekliyor?",
-        "Aynı kanıttan başka bir makul yorum çıkar mı?",
-        "Bu cümle kişi hakkında bilgi mi veriyor, yoksa onu değerlendiriyor mu?",
-        "Tezkire yazarının seçtiği ayrıntılar bize dönem hakkında ne söyler?"
+        "“Biyografi söz varlığı” için: Bu cevabını kaynakta hangi ayrıntı destekliyor?"
       ],
       "misconception_interventions": [
-        "Yorumu kaynakta açıkça söylenmiş bilgi gibi sunan öğrenciye 'metinde var / ben çıkarıyorum' ayrımı yaptır.",
-        "Biyografiyi tamamen tarafsız metin sayan öğrenciye seçim, kaynak ve anlatım tercihini düşündür.",
-        "Tezkireyi yalnız günümüz biyografisinin eski dilde yazılmış hâli sayan öğrenciye edebî değerlendirme ve dönem geleneği farkını göster."
+        "Biyografiyi tamamen tarafsız metin sayan öğrenciye seçim, kaynak ve anlatım tercihini düşündür."
       ],
       "board_notes": [
-        "Tahtaya yaz: Cevap = yargı + kanıt + gerekçe",
-        "Tahtaya yaz: Açık bilgi ≠ yorum/çıkarım",
-        "Tahtaya yaz: Biyografi = yaşam bilgisi + kaynak + seçme/düzenleme",
-        "Tahtaya yaz: Tezkire = sanatçı bilgisi + değerlendirme + dönem üslubu",
-        "Tahtaya yaz: Bilgi ≠ değerlendirme"
+        "Tahtaya yaz: Biyografi = yaşam bilgisi + kaynak + seçme/düzenleme"
       ],
       "assessment_look_fors": [
-        "Cevabın kaynak kanıtıyla uyumu.",
-        "Açık bilgi ile çıkarımın ayrılması.",
-        "İki türü en az üç ölçütle karşılaştırma.",
-        "Bilgi ve değerlendirme cümlelerini gerekçeyle ayırma."
+        "İki türü en az üç ölçütle karşılaştırma."
       ],
       "differentiation": {
         "support": [
-          "Cevabım / kanıtım biçiminde iki sütunlu çalışma alanı ver.",
-          "Amaç / kaynak / dil-üslup / değerlendirme başlıklı karşılaştırma tablosu ver."
+          "“Biyografi söz varlığı” için destek: cevabım / kanıtım biçiminde iki sütunlu çalışma alanı ver."
         ],
         "enrichment": [
-          "İki olası yorumu kanıt gücü bakımından karşılaştırmasını iste.",
-          "Aynı kişi için kısa biyografi paragrafı ve tezkire üslubuna yaklaşan değerlendirme paragrafı yazdır."
+          "“Biyografi söz varlığı” için zenginleştirme: i̇ki olası yorumu kanıt gücü bakımından karşılaştırmasını iste."
         ]
       }
     },
     {
       "block_id": "T03V2_T3_GUIDE_U07_BIYOGRAFI_COZUMLEME",
       "section_id": "T3_SEC_02_OKUMA_BIYOGRAFI",
+      "phase_name": "analyze_apply",
       "printed_page_range": "205-208",
       "title": "Biyografi / tezkire — çözümleme",
       "source_item_refs": [
@@ -2225,52 +2111,33 @@
           "split_from_group": true
         }
       ],
-      "pedagogical_intent": "Biyografi ve tezkireyi kişi hakkında bilgi veren iki farklı tarihî anlatım biçimi olarak karşılaştır; bilgi, yorum, övgü ve dönem üslubunu ayırt ettir. Biyografi yapı/üslubunu, değerleri ve tezkire ile ortak/farklı yönleri çözümlemek.",
+      "pedagogical_intent": "Biyografi yapı/üslubunu, değerleri ve tezkire ile ortak/farklı yönleri çözümlemek.",
       "teacher_moves": [
-        "Kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.",
-        "Ürün görevlerinde ilk taslak ile son ürün arasındaki değişikliği görünür kıl.",
-        "Biyografide doğrulanabilir bilgi ile yazarın değerlendirmesini ayrı işaretlet.",
-        "Tezkirede dönem dili, sanatçı değerlendirmesi ve seçme ölçütlerini görünür kıl.",
-        "İki türü yalnız eski-yeni ayrımına indirgeme; amaç, yapı, kaynak ve üslup ölçütleriyle karşılaştır."
+        "“Mehmet Akif Ersoy — yapı, söz varlığı, değerler” görevinde ürün görevlerinde ilk taslak ile son ürün arasındaki değişikliği görünür kıl."
       ],
       "follow_up_questions": [
-        "Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?",
-        "Yaptığın bu tercihin amaç ve hedef kitleyle ilişkisi nedir?",
-        "Bu cümle kişi hakkında bilgi mi veriyor, yoksa onu değerlendiriyor mu?",
-        "Tezkire yazarının seçtiği ayrıntılar bize dönem hakkında ne söyler?"
+        "“Mehmet Akif Ersoy — yapı, söz varlığı, değerler” için: Yaptığın bu tercihin amaç ve hedef kitleyle ilişkisi nedir?"
       ],
       "misconception_interventions": [
-        "Terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt.",
-        "Biyografiyi tamamen tarafsız metin sayan öğrenciye seçim, kaynak ve anlatım tercihini düşündür.",
-        "Tezkireyi yalnız günümüz biyografisinin eski dilde yazılmış hâli sayan öğrenciye edebî değerlendirme ve dönem geleneği farkını göster."
+        "“Mehmet Akif Ersoy — yapı, söz varlığı, değerler” sırasında terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt."
       ],
-      "board_notes": [
-        "Tahtaya yaz: Unsur → işlev → etki",
-        "Tahtaya yaz: Taslak → geri bildirim → karar → revizyon",
-        "Tahtaya yaz: Biyografi = yaşam bilgisi + kaynak + seçme/düzenleme",
-        "Tahtaya yaz: Tezkire = sanatçı bilgisi + değerlendirme + dönem üslubu",
-        "Tahtaya yaz: Bilgi ≠ değerlendirme"
-      ],
+      "board_notes": [],
       "assessment_look_fors": [
-        "Kavram ile işlev arasında doğru ilişki.",
-        "Ürün kararlarının amaç ve bağlama uygunluğu.",
-        "İki türü en az üç ölçütle karşılaştırma.",
-        "Bilgi ve değerlendirme cümlelerini gerekçeyle ayırma."
+        "“Mehmet Akif Ersoy — yapı, söz varlığı, değerler” için ölçmede: kavram ile işlev arasında doğru ilişki."
       ],
       "differentiation": {
         "support": [
-          "Önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.",
-          "Amaç / kaynak / dil-üslup / değerlendirme başlıklı karşılaştırma tablosu ver."
+          "“Mehmet Akif Ersoy — yapı, söz varlığı, değerler” için destek: önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle."
         ],
         "enrichment": [
-          "Aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.",
-          "Aynı kişi için kısa biyografi paragrafı ve tezkire üslubuna yaklaşan değerlendirme paragrafı yazdır."
+          "“Mehmet Akif Ersoy — yapı, söz varlığı, değerler” için zenginleştirme: aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat."
         ]
       }
     },
     {
       "block_id": "T03V2_T3_GUIDE_U08_BIYOGRAFI_DEGERLENDIRME",
       "section_id": "T3_SEC_02_OKUMA_BIYOGRAFI",
+      "phase_name": "reflect",
       "printed_page_range": "209",
       "title": "Mehmet Akif Ersoy — süreci değerlendirme",
       "source_item_refs": [
@@ -2318,45 +2185,28 @@
           "split_from_group": false
         }
       ],
-      "pedagogical_intent": "Biyografi ve tezkireyi kişi hakkında bilgi veren iki farklı tarihî anlatım biçimi olarak karşılaştır; bilgi, yorum, övgü ve dönem üslubunu ayırt ettir. Metni öğrenci tarafından belirlenen beğeni ölçütleri ve yazılma amacı açısından değerlendirmek.",
+      "pedagogical_intent": "Metni öğrenci tarafından belirlenen beğeni ölçütleri ve yazılma amacı açısından değerlendirmek.",
       "teacher_moves": [
-        "Öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.",
-        "Geri bildirimi sonraki ürün değişikliğine veya öğrenme davranışına bağla.",
-        "Biyografide doğrulanabilir bilgi ile yazarın değerlendirmesini ayrı işaretlet.",
-        "Tezkirede dönem dili, sanatçı değerlendirmesi ve seçme ölçütlerini görünür kıl.",
-        "İki türü yalnız eski-yeni ayrımına indirgeme; amaç, yapı, kaynak ve üslup ölçütleriyle karşılaştır."
+        "Tezkirede dönem dili, sanatçı değerlendirmesi ve seçme ölçütlerini görünür kıl."
       ],
       "follow_up_questions": [
-        "Bu değerlendirmene hangi ürün veya performans ayrıntısı kanıt?",
-        "Bir sonraki benzer görevde tek bir şeyi değiştirecek olsan neyi değiştirirsin?",
-        "Bu cümle kişi hakkında bilgi mi veriyor, yoksa onu değerlendiriyor mu?",
-        "Tezkire yazarının seçtiği ayrıntılar bize dönem hakkında ne söyler?"
+        "“Biyografi metnini ölçütlerle değerlendirme” için: Bir sonraki benzer görevde tek bir şeyi değiştirecek olsan neyi değiştirirsin?"
       ],
       "misconception_interventions": [
-        "Formu otomatik olumlu işaretleyen öğrenciye belirli bir örnek göstermeden yargıyı tamamlanmış sayma.",
-        "Biyografiyi tamamen tarafsız metin sayan öğrenciye seçim, kaynak ve anlatım tercihini düşündür.",
         "Tezkireyi yalnız günümüz biyografisinin eski dilde yazılmış hâli sayan öğrenciye edebî değerlendirme ve dönem geleneği farkını göster."
       ],
       "board_notes": [
-        "Tahtaya yaz: Öz değerlendirme = yargı + kanıt + yeni hedef",
-        "Tahtaya yaz: Geri bildirim → değerlendir → karar ver → revize et",
-        "Tahtaya yaz: Biyografi = yaşam bilgisi + kaynak + seçme/düzenleme",
         "Tahtaya yaz: Tezkire = sanatçı bilgisi + değerlendirme + dönem üslubu",
         "Tahtaya yaz: Bilgi ≠ değerlendirme"
       ],
       "assessment_look_fors": [
-        "Kanıta dayalı öz değerlendirme.",
-        "Uygulanabilir bir sonraki adım veya revizyon.",
-        "İki türü en az üç ölçütle karşılaştırma.",
         "Bilgi ve değerlendirme cümlelerini gerekçeyle ayırma."
       ],
       "differentiation": {
         "support": [
-          "Bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan.",
-          "Amaç / kaynak / dil-üslup / değerlendirme başlıklı karşılaştırma tablosu ver."
+          "“Biyografi metnini ölçütlerle değerlendirme” için destek: bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan."
         ],
         "enrichment": [
-          "Bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste.",
           "Aynı kişi için kısa biyografi paragrafı ve tezkire üslubuna yaklaşan değerlendirme paragrafı yazdır."
         ]
       }
@@ -2364,6 +2214,7 @@
     {
       "block_id": "T03V2_T3_GUIDE_U09_KONUSMA_YONETIM",
       "section_id": "T3_SEC_03_KONUSMA_MULAKAT",
+      "phase_name": "manage",
       "printed_page_range": "210-211",
       "title": "Hayalî mülakat — yönetim ve planlama",
       "source_item_refs": [
@@ -2462,43 +2313,24 @@
       ],
       "pedagogical_intent": "Huzur kişisiyle hayalî mülakatı karakter bilgisine dayalı soru-cevap üretimi olarak yürüt; karaktere metinde olmayan kesin bilgiler yükleme. Mülakatın amaç/kitlesini belirlemek, Huzur kişisini seçmek ve hazırlıklı konuşma stratejisini planlamak.",
       "teacher_moves": [
-        "Göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir.",
-        "Tahmini doğru-yanlış olarak değil görünür ipucuna dayalı çıkarım olarak değerlendir.",
-        "Soruları açık uçlu, karakterin iç dünyasını ve seçimlerini görünür kılacak biçimde yeniden yazdır.",
-        "Her hayalî cevabın hangi karakter özelliği veya metin olayından türetildiğini sordur.",
-        "Mülakatı bilgi yarışmasına dönüştürme; takip sorusu ve aktif dinleme boyutunu koru."
+        "“Kemal Tahir mülakatından hareketle amaç ve planlama” görevinde tahmini doğru-yanlış olarak değil görünür ipucuna dayalı çıkarım olarak değerlendir."
       ],
       "follow_up_questions": [
-        "Bu tahmini hangi başlık, görsel, kelime veya ön bilgiye dayandırdın?",
-        "Seçtiğin strateji bu görevde sana tam olarak ne sağlayacak?",
-        "Bu soruya karakter neden böyle cevap versin; metindeki dayanağın ne?",
-        "Cevap beklediğinden farklı gelirse hangi takip sorusunu sorarsın?"
+        "“Kemal Tahir mülakatından hareketle amaç ve planlama” için: Seçtiğin strateji bu görevde sana tam olarak ne sağlayacak?"
       ],
       "misconception_interventions": [
-        "Gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur.",
-        "Karakter adına keyfî biyografi uyduran öğrenciye açık bilgi / güçlü çıkarım / yaratıcı ekleme ayrımı yaptır.",
-        "Kapalı evet-hayır sorularını daha açıklayıcı açık uçlu sorulara dönüştürt."
+        "“Kemal Tahir mülakatından hareketle amaç ve planlama” sırasında gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur."
       ],
-      "board_notes": [
-        "Tahtaya yaz: Tahmin = ipucu + çıkarım",
-        "Tahtaya yaz: Amaç → uygun strateji → toplanacak kanıt",
-        "Tahtaya yaz: İyi mülakat sorusu = açık uçlu + amaçlı + takip sorusuna uygun",
-        "Tahtaya yaz: Hayalî cevap = karakter kanıtı + tutarlı çıkarım"
-      ],
+      "board_notes": [],
       "assessment_look_fors": [
-        "Amaç ile strateji arasında açık uyum.",
-        "Tahminin görünür bir kaynağa dayanması.",
         "Soruların karakter ve metinle ilişkisi.",
-        "Takip sorularının dinlenen cevaba göre şekillenmesi.",
-        "Hayalî cevapların karakter tutarlılığı."
+        "Takip sorularının dinlenen cevaba göre şekillenmesi."
       ],
       "differentiation": {
         "support": [
-          "Amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan.",
-          "Neden / nasıl / hangi olaydan sonra / bugün olsa gibi soru kökleri ver."
+          "“Kemal Tahir mülakatından hareketle amaç ve planlama” için destek: amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan."
         ],
         "enrichment": [
-          "Aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat.",
           "Aynı karakterle iki farklı gazetecilik yaklaşımında mülakat soruları tasarlat."
         ]
       },
@@ -2509,6 +2341,7 @@
     {
       "block_id": "T03V2_T3_GUIDE_U10_KONUSMA_ICERIK",
       "section_id": "T3_SEC_03_KONUSMA_MULAKAT",
+      "phase_name": "analyze_apply",
       "printed_page_range": "212",
       "title": "Hayalî mülakat — içerik oluşturma",
       "source_item_refs": [
@@ -2552,55 +2385,37 @@
           "split_from_group": false
         }
       ],
-      "pedagogical_intent": "Huzur kişisiyle hayalî mülakatı karakter bilgisine dayalı soru-cevap üretimi olarak yürüt; karaktere metinde olmayan kesin bilgiler yükleme. Roman kişisine uygun nitelikli soru-cevap içeriği ve hedef kitleye uygun konuşma tasarımı oluşturmak.",
+      "pedagogical_intent": "Roman kişisine uygun nitelikli soru-cevap içeriği ve hedef kitleye uygun konuşma tasarımı oluşturmak.",
       "teacher_moves": [
-        "Cevabın yanına kısa metin, görsel veya dinleme kanıtı istemeyi varsayılan sınıf rutini hâline getir.",
-        "Konu, tema, ileti, yorum ve çıkarım gibi yakın kavramları görev üzerinde birbirinden ayır.",
-        "Soruları açık uçlu, karakterin iç dünyasını ve seçimlerini görünür kılacak biçimde yeniden yazdır.",
-        "Her hayalî cevabın hangi karakter özelliği veya metin olayından türetildiğini sordur.",
-        "Mülakatı bilgi yarışmasına dönüştürme; takip sorusu ve aktif dinleme boyutunu koru."
+        "Her hayalî cevabın hangi karakter özelliği veya metin olayından türetildiğini sordur."
       ],
       "follow_up_questions": [
-        "Bu cevabını kaynakta hangi ayrıntı destekliyor?",
-        "Aynı kanıttan başka bir makul yorum çıkar mı?",
         "Bu soruya karakter neden böyle cevap versin; metindeki dayanağın ne?",
         "Cevap beklediğinden farklı gelirse hangi takip sorusunu sorarsın?"
       ],
       "misconception_interventions": [
-        "Yorumu kaynakta açıkça söylenmiş bilgi gibi sunan öğrenciye 'metinde var / ben çıkarıyorum' ayrımı yaptır.",
-        "Karakter adına keyfî biyografi uyduran öğrenciye açık bilgi / güçlü çıkarım / yaratıcı ekleme ayrımı yaptır.",
-        "Kapalı evet-hayır sorularını daha açıklayıcı açık uçlu sorulara dönüştürt."
+        "“Mülakat soru-cevap tasarımı” sırasında terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt."
       ],
       "board_notes": [
-        "Tahtaya yaz: Cevap = yargı + kanıt + gerekçe",
-        "Tahtaya yaz: Açık bilgi ≠ yorum/çıkarım",
         "Tahtaya yaz: İyi mülakat sorusu = açık uçlu + amaçlı + takip sorusuna uygun",
         "Tahtaya yaz: Hayalî cevap = karakter kanıtı + tutarlı çıkarım"
       ],
       "assessment_look_fors": [
-        "Cevabın kaynak kanıtıyla uyumu.",
-        "Açık bilgi ile çıkarımın ayrılması.",
-        "Soruların karakter ve metinle ilişkisi.",
-        "Takip sorularının dinlenen cevaba göre şekillenmesi.",
         "Hayalî cevapların karakter tutarlılığı."
       ],
       "differentiation": {
         "support": [
-          "Cevabım / kanıtım biçiminde iki sütunlu çalışma alanı ver.",
           "Neden / nasıl / hangi olaydan sonra / bugün olsa gibi soru kökleri ver."
         ],
         "enrichment": [
-          "İki olası yorumu kanıt gücü bakımından karşılaştırmasını iste.",
-          "Aynı karakterle iki farklı gazetecilik yaklaşımında mülakat soruları tasarlat."
+          "“Mülakat soru-cevap tasarımı” için zenginleştirme: aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat."
         ]
-      },
-      "source_limitations": [
-        "Karakter hakkında ders kitabı ve Huzur parçasında bulunmayan ayrıntılar kesin bilgi gibi sunulmamalı."
-      ]
+      }
     },
     {
       "block_id": "T03V2_T3_GUIDE_U11_KONUSMA_UYGULAMA",
       "section_id": "T3_SEC_03_KONUSMA_MULAKAT",
+      "phase_name": "analyze_apply",
       "printed_page_range": "213",
       "title": "Hayalî mülakat — uygulama",
       "source_item_refs": [
@@ -2645,55 +2460,33 @@
           "split_from_group": false
         }
       ],
-      "pedagogical_intent": "Huzur kişisiyle hayalî mülakatı karakter bilgisine dayalı soru-cevap üretimi olarak yürüt; karaktere metinde olmayan kesin bilgiler yükleme. Planlanan hayalî mülakatı etkili dil, üslup, beden dili ve yapı kurallarıyla gerçekleştirmek.",
+      "pedagogical_intent": "Planlanan hayalî mülakatı etkili dil, üslup, beden dili ve yapı kurallarıyla gerçekleştirmek.",
       "teacher_moves": [
-        "Kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.",
-        "Ürün görevlerinde ilk taslak ile son ürün arasındaki değişikliği görünür kıl.",
-        "Soruları açık uçlu, karakterin iç dünyasını ve seçimlerini görünür kılacak biçimde yeniden yazdır.",
-        "Her hayalî cevabın hangi karakter özelliği veya metin olayından türetildiğini sordur.",
         "Mülakatı bilgi yarışmasına dönüştürme; takip sorusu ve aktif dinleme boyutunu koru."
       ],
       "follow_up_questions": [
-        "Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?",
-        "Yaptığın bu tercihin amaç ve hedef kitleyle ilişkisi nedir?",
-        "Bu soruya karakter neden böyle cevap versin; metindeki dayanağın ne?",
-        "Cevap beklediğinden farklı gelirse hangi takip sorusunu sorarsın?"
+        "“Mülakatı gerçekleştirme” için: Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?"
       ],
       "misconception_interventions": [
-        "Terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt.",
-        "Karakter adına keyfî biyografi uyduran öğrenciye açık bilgi / güçlü çıkarım / yaratıcı ekleme ayrımı yaptır.",
-        "Kapalı evet-hayır sorularını daha açıklayıcı açık uçlu sorulara dönüştürt."
+        "“Mülakatı gerçekleştirme” sırasında terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt."
       ],
-      "board_notes": [
-        "Tahtaya yaz: Unsur → işlev → etki",
-        "Tahtaya yaz: Taslak → geri bildirim → karar → revizyon",
-        "Tahtaya yaz: İyi mülakat sorusu = açık uçlu + amaçlı + takip sorusuna uygun",
-        "Tahtaya yaz: Hayalî cevap = karakter kanıtı + tutarlı çıkarım"
-      ],
+      "board_notes": [],
       "assessment_look_fors": [
-        "Kavram ile işlev arasında doğru ilişki.",
-        "Ürün kararlarının amaç ve bağlama uygunluğu.",
-        "Soruların karakter ve metinle ilişkisi.",
-        "Takip sorularının dinlenen cevaba göre şekillenmesi.",
-        "Hayalî cevapların karakter tutarlılığı."
+        "“Mülakatı gerçekleştirme” için ölçmede: ürün kararlarının amaç ve bağlama uygunluğu."
       ],
       "differentiation": {
         "support": [
-          "Önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.",
-          "Neden / nasıl / hangi olaydan sonra / bugün olsa gibi soru kökleri ver."
+          "“Mülakatı gerçekleştirme” için destek: önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle."
         ],
         "enrichment": [
-          "Aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.",
-          "Aynı karakterle iki farklı gazetecilik yaklaşımında mülakat soruları tasarlat."
+          "“Mülakatı gerçekleştirme” için zenginleştirme: aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat."
         ]
-      },
-      "source_limitations": [
-        "Karakter hakkında ders kitabı ve Huzur parçasında bulunmayan ayrıntılar kesin bilgi gibi sunulmamalı."
-      ]
+      }
     },
     {
       "block_id": "T03V2_T3_GUIDE_U12_KONUSMA_DEGERLENDIRME",
       "section_id": "T3_SEC_03_KONUSMA_MULAKAT",
+      "phase_name": "reflect",
       "printed_page_range": "214",
       "title": "Hayalî mülakat — değerlendirme",
       "source_item_refs": [
@@ -2793,55 +2586,34 @@
           "split_from_group": false
         }
       ],
-      "pedagogical_intent": "Huzur kişisiyle hayalî mülakatı karakter bilgisine dayalı soru-cevap üretimi olarak yürüt; karaktere metinde olmayan kesin bilgiler yükleme. Açık/örtük ileti, kanıt, öz değerlendirme ve akran/öğretmen geri bildirimiyle konuşmayı değerlendirmek.",
+      "pedagogical_intent": "Açık/örtük ileti, kanıt, öz değerlendirme ve akran/öğretmen geri bildirimiyle konuşmayı değerlendirmek.",
       "teacher_moves": [
-        "Öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.",
-        "Geri bildirimi sonraki ürün değişikliğine veya öğrenme davranışına bağla.",
-        "Soruları açık uçlu, karakterin iç dünyasını ve seçimlerini görünür kılacak biçimde yeniden yazdır.",
-        "Her hayalî cevabın hangi karakter özelliği veya metin olayından türetildiğini sordur.",
-        "Mülakatı bilgi yarışmasına dönüştürme; takip sorusu ve aktif dinleme boyutunu koru."
+        "Soruları açık uçlu, karakterin iç dünyasını ve seçimlerini görünür kılacak biçimde yeniden yazdır."
       ],
       "follow_up_questions": [
-        "Bu değerlendirmene hangi ürün veya performans ayrıntısı kanıt?",
-        "Bir sonraki benzer görevde tek bir şeyi değiştirecek olsan neyi değiştirirsin?",
-        "Bu soruya karakter neden böyle cevap versin; metindeki dayanağın ne?",
-        "Cevap beklediğinden farklı gelirse hangi takip sorusunu sorarsın?"
+        "“Açık/örtük iletiler ve yargıların dayanağı” için: Bu değerlendirmene hangi ürün veya performans ayrıntısı kanıt?"
       ],
       "misconception_interventions": [
-        "Formu otomatik olumlu işaretleyen öğrenciye belirli bir örnek göstermeden yargıyı tamamlanmış sayma.",
         "Karakter adına keyfî biyografi uyduran öğrenciye açık bilgi / güçlü çıkarım / yaratıcı ekleme ayrımı yaptır.",
         "Kapalı evet-hayır sorularını daha açıklayıcı açık uçlu sorulara dönüştürt."
       ],
-      "board_notes": [
-        "Tahtaya yaz: Öz değerlendirme = yargı + kanıt + yeni hedef",
-        "Tahtaya yaz: Geri bildirim → değerlendir → karar ver → revize et",
-        "Tahtaya yaz: İyi mülakat sorusu = açık uçlu + amaçlı + takip sorusuna uygun",
-        "Tahtaya yaz: Hayalî cevap = karakter kanıtı + tutarlı çıkarım"
-      ],
+      "board_notes": [],
       "assessment_look_fors": [
-        "Kanıta dayalı öz değerlendirme.",
-        "Uygulanabilir bir sonraki adım veya revizyon.",
-        "Soruların karakter ve metinle ilişkisi.",
-        "Takip sorularının dinlenen cevaba göre şekillenmesi.",
-        "Hayalî cevapların karakter tutarlılığı."
+        "“Açık/örtük iletiler ve yargıların dayanağı” için ölçmede: uygulanabilir bir sonraki adım veya revizyon."
       ],
       "differentiation": {
         "support": [
-          "Bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan.",
-          "Neden / nasıl / hangi olaydan sonra / bugün olsa gibi soru kökleri ver."
+          "“Açık/örtük iletiler ve yargıların dayanağı” için destek: bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan."
         ],
         "enrichment": [
-          "Bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste.",
-          "Aynı karakterle iki farklı gazetecilik yaklaşımında mülakat soruları tasarlat."
+          "“Açık/örtük iletiler ve yargıların dayanağı” için zenginleştirme: bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste."
         ]
-      },
-      "source_limitations": [
-        "Karakter hakkında ders kitabı ve Huzur parçasında bulunmayan ayrıntılar kesin bilgi gibi sunulmamalı."
-      ]
+      }
     },
     {
       "block_id": "T03V2_T3_GUIDE_U13_DINLEME_YONETIM",
       "section_id": "T3_SEC_04_DINLEME_RADYO",
+      "phase_name": "manage",
       "printed_page_range": "215-216",
       "title": "Direnişin Ustaları — dinleme/izlemeyi yönetme",
       "source_item_refs": [
@@ -2967,52 +2739,31 @@
       ],
       "pedagogical_intent": "Radyo tiyatrosunu ses, diyalog, efekt, müzik, sessizlik ve dinleyici hayal gücünün birlikte kurduğu çok modlu işitsel anlatı olarak çözümlet. Radyo tiyatrosu ön bilgisini etkinleştirmek ve dinleme amacı/stratejisi/tahminleri belirlemek.",
       "teacher_moves": [
-        "Göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir.",
-        "Tahmini doğru-yanlış olarak değil görünür ipucuna dayalı çıkarım olarak değerlendir.",
-        "Öğrenciden yalnız olay özeti değil ses unsurunun işlevini de not etmesini iste.",
-        "Görsel olmayan anlatımın mekân, karakter ve atmosferi sesle nasıl kurduğunu sorgulat.",
-        "Dış medya içeriğinde yalnız gerçekten işitilen ayrıntıyı kanıt kabul et."
+        "“Radyo tiyatrosuna giriş” görevinde göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir."
       ],
       "follow_up_questions": [
-        "Bu tahmini hangi başlık, görsel, kelime veya ön bilgiye dayandırdın?",
-        "Seçtiğin strateji bu görevde sana tam olarak ne sağlayacak?",
-        "Bu sahnede görüntü olmadığı hâlde mekânı nasıl anladın?",
-        "Müzik veya ses efekti çıkarılsa sahnenin duygusu nasıl değişir?",
-        "Sessizlik burada bir anlatım aracı olabilir mi?"
+        "“Radyo tiyatrosuna giriş” için: Bu tahmini hangi başlık, görsel, kelime veya ön bilgiye dayandırdın?"
       ],
       "misconception_interventions": [
-        "Gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur.",
-        "Radyo tiyatrosunu yalnız sesli okunmuş metin sayan öğrenciye efekt, müzik, ses oyunculuğu ve kurgu işlevlerini ayırttır."
+        "“Radyo tiyatrosuna giriş” sırasında gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur."
       ],
-      "board_notes": [
-        "Tahtaya yaz: Tahmin = ipucu + çıkarım",
-        "Tahtaya yaz: Amaç → uygun strateji → toplanacak kanıt",
-        "Tahtaya yaz: Radyo tiyatrosu = söz + ses oyunculuğu + efekt + müzik + sessizlik + hayal gücü",
-        "Tahtaya yaz: İşitsel unsur → atmosfer / mekân / karakter / duygu"
-      ],
+      "board_notes": [],
       "assessment_look_fors": [
-        "Amaç ile strateji arasında açık uyum.",
-        "Tahminin görünür bir kaynağa dayanması.",
-        "En az iki işitsel unsurun işlevini açıklama.",
-        "Olay bilgisi ile ses yoluyla çıkarımın ayrılması."
+        "“Radyo tiyatrosuna giriş” için ölçmede: amaç ile strateji arasında açık uyum."
       ],
       "differentiation": {
         "support": [
-          "Amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan.",
-          "Dinlerken söz / efekt / müzik / sessizlik için dört simge kullan."
+          "“Radyo tiyatrosuna giriş” için destek: amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan."
         ],
         "enrichment": [
-          "Aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat.",
-          "Bir sahneyi görsel tiyatroya dönüştürürken hangi işitsel ipuçlarının dekor veya harekete dönüşeceğini tasarlat."
+          "“Radyo tiyatrosuna giriş” için zenginleştirme: aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat."
         ]
-      },
-      "source_limitations": [
-        "Dış radyo tiyatrosu medyasında yerel kaynakta doğrulanmayan ses veya sahne ayrıntıları resmî cevap gibi üretilmemeli."
-      ]
+      }
     },
     {
       "block_id": "T03V2_T3_GUIDE_U14_DINLEME_ANLAM",
       "section_id": "T3_SEC_04_DINLEME_RADYO",
+      "phase_name": "meaning",
       "printed_page_range": "217-220",
       "title": "Direnişin Ustaları — anlam oluşturma",
       "source_item_refs": [
@@ -3157,44 +2908,32 @@
           "split_from_group": false
         }
       ],
-      "pedagogical_intent": "Radyo tiyatrosunu ses, diyalog, efekt, müzik, sessizlik ve dinleyici hayal gücünün birlikte kurduğu çok modlu işitsel anlatı olarak çözümlet. Söz varlığı, konu/tema/amaç, kişi ve radyo tiyatrosunun çok modlu özelliklerini anlamlandırmak.",
+      "pedagogical_intent": "Söz varlığı, konu/tema/amaç, kişi ve radyo tiyatrosunun çok modlu özelliklerini anlamlandırmak.",
       "teacher_moves": [
-        "Cevabın yanına kısa metin, görsel veya dinleme kanıtı istemeyi varsayılan sınıf rutini hâline getir.",
-        "Konu, tema, ileti, yorum ve çıkarım gibi yakın kavramları görev üzerinde birbirinden ayır.",
         "Öğrenciden yalnız olay özeti değil ses unsurunun işlevini de not etmesini iste.",
         "Görsel olmayan anlatımın mekân, karakter ve atmosferi sesle nasıl kurduğunu sorgulat.",
         "Dış medya içeriğinde yalnız gerçekten işitilen ayrıntıyı kanıt kabul et."
       ],
       "follow_up_questions": [
-        "Bu cevabını kaynakta hangi ayrıntı destekliyor?",
-        "Aynı kanıttan başka bir makul yorum çıkar mı?",
         "Bu sahnede görüntü olmadığı hâlde mekânı nasıl anladın?",
         "Müzik veya ses efekti çıkarılsa sahnenin duygusu nasıl değişir?",
         "Sessizlik burada bir anlatım aracı olabilir mi?"
       ],
       "misconception_interventions": [
-        "Yorumu kaynakta açıkça söylenmiş bilgi gibi sunan öğrenciye 'metinde var / ben çıkarıyorum' ayrımı yaptır.",
         "Radyo tiyatrosunu yalnız sesli okunmuş metin sayan öğrenciye efekt, müzik, ses oyunculuğu ve kurgu işlevlerini ayırttır."
       ],
       "board_notes": [
-        "Tahtaya yaz: Cevap = yargı + kanıt + gerekçe",
-        "Tahtaya yaz: Açık bilgi ≠ yorum/çıkarım",
         "Tahtaya yaz: Radyo tiyatrosu = söz + ses oyunculuğu + efekt + müzik + sessizlik + hayal gücü",
         "Tahtaya yaz: İşitsel unsur → atmosfer / mekân / karakter / duygu"
       ],
       "assessment_look_fors": [
-        "Cevabın kaynak kanıtıyla uyumu.",
-        "Açık bilgi ile çıkarımın ayrılması.",
-        "En az iki işitsel unsurun işlevini açıklama.",
         "Olay bilgisi ile ses yoluyla çıkarımın ayrılması."
       ],
       "differentiation": {
         "support": [
-          "Cevabım / kanıtım biçiminde iki sütunlu çalışma alanı ver.",
           "Dinlerken söz / efekt / müzik / sessizlik için dört simge kullan."
         ],
         "enrichment": [
-          "İki olası yorumu kanıt gücü bakımından karşılaştırmasını iste.",
           "Bir sahneyi görsel tiyatroya dönüştürürken hangi işitsel ipuçlarının dekor veya harekete dönüşeceğini tasarlat."
         ]
       },
@@ -3205,6 +2944,7 @@
     {
       "block_id": "T03V2_T3_GUIDE_U15_DINLEME_COZUMLEME",
       "section_id": "T3_SEC_04_DINLEME_RADYO",
+      "phase_name": "analyze_apply",
       "printed_page_range": "221-222",
       "title": "Direnişin Ustaları — çözümleme",
       "source_item_refs": [
@@ -3288,54 +3028,33 @@
           "split_from_group": false
         }
       ],
-      "pedagogical_intent": "Radyo tiyatrosunu ses, diyalog, efekt, müzik, sessizlik ve dinleyici hayal gücünün birlikte kurduğu çok modlu işitsel anlatı olarak çözümlet. Dramatik yapı, kişi amaçları, millî/manevi değerler ve iletiler arası ilişkileri çözümlemek.",
+      "pedagogical_intent": "Dramatik yapı, kişi amaçları, millî/manevi değerler ve iletiler arası ilişkileri çözümlemek.",
       "teacher_moves": [
-        "Kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.",
-        "Ürün görevlerinde ilk taslak ile son ürün arasındaki değişikliği görünür kıl.",
-        "Öğrenciden yalnız olay özeti değil ses unsurunun işlevini de not etmesini iste.",
-        "Görsel olmayan anlatımın mekân, karakter ve atmosferi sesle nasıl kurduğunu sorgulat.",
-        "Dış medya içeriğinde yalnız gerçekten işitilen ayrıntıyı kanıt kabul et."
+        "“Radyo tiyatrosu yapı unsurları” görevinde kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste."
       ],
       "follow_up_questions": [
-        "Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?",
-        "Yaptığın bu tercihin amaç ve hedef kitleyle ilişkisi nedir?",
-        "Bu sahnede görüntü olmadığı hâlde mekânı nasıl anladın?",
-        "Müzik veya ses efekti çıkarılsa sahnenin duygusu nasıl değişir?",
-        "Sessizlik burada bir anlatım aracı olabilir mi?"
+        "“Radyo tiyatrosu yapı unsurları” için: Yaptığın bu tercihin amaç ve hedef kitleyle ilişkisi nedir?"
       ],
       "misconception_interventions": [
-        "Terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt.",
-        "Radyo tiyatrosunu yalnız sesli okunmuş metin sayan öğrenciye efekt, müzik, ses oyunculuğu ve kurgu işlevlerini ayırttır."
+        "“Radyo tiyatrosu yapı unsurları” sırasında terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt."
       ],
-      "board_notes": [
-        "Tahtaya yaz: Unsur → işlev → etki",
-        "Tahtaya yaz: Taslak → geri bildirim → karar → revizyon",
-        "Tahtaya yaz: Radyo tiyatrosu = söz + ses oyunculuğu + efekt + müzik + sessizlik + hayal gücü",
-        "Tahtaya yaz: İşitsel unsur → atmosfer / mekân / karakter / duygu"
-      ],
+      "board_notes": [],
       "assessment_look_fors": [
-        "Kavram ile işlev arasında doğru ilişki.",
-        "Ürün kararlarının amaç ve bağlama uygunluğu.",
-        "En az iki işitsel unsurun işlevini açıklama.",
-        "Olay bilgisi ile ses yoluyla çıkarımın ayrılması."
+        "En az iki işitsel unsurun işlevini açıklama."
       ],
       "differentiation": {
         "support": [
-          "Önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.",
-          "Dinlerken söz / efekt / müzik / sessizlik için dört simge kullan."
+          "“Radyo tiyatrosu yapı unsurları” için destek: önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle."
         ],
         "enrichment": [
-          "Aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.",
-          "Bir sahneyi görsel tiyatroya dönüştürürken hangi işitsel ipuçlarının dekor veya harekete dönüşeceğini tasarlat."
+          "“Radyo tiyatrosu yapı unsurları” için zenginleştirme: aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat."
         ]
-      },
-      "source_limitations": [
-        "Dış radyo tiyatrosu medyasında yerel kaynakta doğrulanmayan ses veya sahne ayrıntıları resmî cevap gibi üretilmemeli."
-      ]
+      }
     },
     {
       "block_id": "T03V2_T3_GUIDE_U16_DINLEME_DEGERLENDIRME",
       "section_id": "T3_SEC_04_DINLEME_RADYO",
+      "phase_name": "reflect",
       "printed_page_range": "223-224",
       "title": "Direnişin Ustaları — süreci değerlendirme",
       "source_item_refs": [
@@ -3417,54 +3136,33 @@
           "split_from_group": false
         }
       ],
-      "pedagogical_intent": "Radyo tiyatrosunu ses, diyalog, efekt, müzik, sessizlik ve dinleyici hayal gücünün birlikte kurduğu çok modlu işitsel anlatı olarak çözümlet. Radyo tiyatrosunu ölçütlerle, tarihsel gerçeklik ve empati üzerinden değerlendirmek; öğrenme günlüğüyle süreci yansıtmak.",
+      "pedagogical_intent": "Radyo tiyatrosunu ölçütlerle, tarihsel gerçeklik ve empati üzerinden değerlendirmek; öğrenme günlüğüyle süreci yansıtmak.",
       "teacher_moves": [
-        "Öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.",
-        "Geri bildirimi sonraki ürün değişikliğine veya öğrenme davranışına bağla.",
-        "Öğrenciden yalnız olay özeti değil ses unsurunun işlevini de not etmesini iste.",
-        "Görsel olmayan anlatımın mekân, karakter ve atmosferi sesle nasıl kurduğunu sorgulat.",
-        "Dış medya içeriğinde yalnız gerçekten işitilen ayrıntıyı kanıt kabul et."
+        "“Radyo tiyatrosunu değerlendirme ve sosyal bilimlerle ilişki” görevinde geri bildirimi sonraki ürün değişikliğine veya öğrenme davranışına bağla."
       ],
       "follow_up_questions": [
-        "Bu değerlendirmene hangi ürün veya performans ayrıntısı kanıt?",
-        "Bir sonraki benzer görevde tek bir şeyi değiştirecek olsan neyi değiştirirsin?",
-        "Bu sahnede görüntü olmadığı hâlde mekânı nasıl anladın?",
-        "Müzik veya ses efekti çıkarılsa sahnenin duygusu nasıl değişir?",
-        "Sessizlik burada bir anlatım aracı olabilir mi?"
+        "“Radyo tiyatrosunu değerlendirme ve sosyal bilimlerle ilişki” için: Bir sonraki benzer görevde tek bir şeyi değiştirecek olsan neyi değiştirirsin?"
       ],
       "misconception_interventions": [
-        "Formu otomatik olumlu işaretleyen öğrenciye belirli bir örnek göstermeden yargıyı tamamlanmış sayma.",
-        "Radyo tiyatrosunu yalnız sesli okunmuş metin sayan öğrenciye efekt, müzik, ses oyunculuğu ve kurgu işlevlerini ayırttır."
+        "“Radyo tiyatrosunu değerlendirme ve sosyal bilimlerle ilişki” sırasında formu otomatik olumlu işaretleyen öğrenciye belirli bir örnek göstermeden yargıyı tamamlanmış sayma."
       ],
-      "board_notes": [
-        "Tahtaya yaz: Öz değerlendirme = yargı + kanıt + yeni hedef",
-        "Tahtaya yaz: Geri bildirim → değerlendir → karar ver → revize et",
-        "Tahtaya yaz: Radyo tiyatrosu = söz + ses oyunculuğu + efekt + müzik + sessizlik + hayal gücü",
-        "Tahtaya yaz: İşitsel unsur → atmosfer / mekân / karakter / duygu"
-      ],
+      "board_notes": [],
       "assessment_look_fors": [
-        "Kanıta dayalı öz değerlendirme.",
-        "Uygulanabilir bir sonraki adım veya revizyon.",
-        "En az iki işitsel unsurun işlevini açıklama.",
-        "Olay bilgisi ile ses yoluyla çıkarımın ayrılması."
+        "“Radyo tiyatrosunu değerlendirme ve sosyal bilimlerle ilişki” için ölçmede: kanıta dayalı öz değerlendirme."
       ],
       "differentiation": {
         "support": [
-          "Bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan.",
-          "Dinlerken söz / efekt / müzik / sessizlik için dört simge kullan."
+          "“Radyo tiyatrosunu değerlendirme ve sosyal bilimlerle ilişki” için destek: bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan."
         ],
         "enrichment": [
-          "Bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste.",
-          "Bir sahneyi görsel tiyatroya dönüştürürken hangi işitsel ipuçlarının dekor veya harekete dönüşeceğini tasarlat."
+          "“Radyo tiyatrosunu değerlendirme ve sosyal bilimlerle ilişki” için zenginleştirme: bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste."
         ]
-      },
-      "source_limitations": [
-        "Dış radyo tiyatrosu medyasında yerel kaynakta doğrulanmayan ses veya sahne ayrıntıları resmî cevap gibi üretilmemeli."
-      ]
+      }
     },
     {
       "block_id": "T03V2_T3_GUIDE_U17_YAZMA_YONETIM",
       "section_id": "T3_SEC_05_YAZMA_DONUSTURME",
+      "phase_name": "manage",
       "printed_page_range": "225",
       "title": "Diyaloğu başka türe dönüştürme — yönetim",
       "source_item_refs": [
@@ -3539,43 +3237,23 @@
       ],
       "pedagogical_intent": "Radyo tiyatrosu diyaloğunu başka türe dönüştürürken olayın çekirdeğini koru; yeni türün anlatıcı, yapı, dil ve biçim gerekliliklerini bilinçli uygulat. Direnişin Ustaları’ndan bir diyaloğu seçmek ve bağlama uygun tür dönüşümü için yöntem/strateji belirlemek.",
       "teacher_moves": [
-        "Göreve başlamadan önce amaç, strateji ve beklenen kanıtı öğrenciye kendi cümlesiyle söylettir.",
-        "Tahmini doğru-yanlış olarak değil görünür ipucuna dayalı çıkarım olarak değerlendir.",
-        "Dönüşümden önce kaynak metinde korunacak olay, duygu ve temel iletiyi işaretlet.",
-        "Hedef türün zorunlu özelliklerini kısa kontrol listesine dönüştür.",
-        "Dönüştürmeyi yalnız kelime değiştirme değil anlatım sistemi değiştirme olarak göster."
+        "Dönüşümden önce kaynak metinde korunacak olay, duygu ve temel iletiyi işaretlet."
       ],
       "follow_up_questions": [
-        "Bu tahmini hangi başlık, görsel, kelime veya ön bilgiye dayandırdın?",
-        "Seçtiğin strateji bu görevde sana tam olarak ne sağlayacak?",
-        "Kaynak metinden mutlaka korunması gereken çekirdek nedir?",
-        "Yeni türde hangi bilgi artık diyalogla değil anlatıcı veya betimlemeyle verilmeli?"
+        "“Radyo oyununun özellikleri ve dönüşüm görevi” için: Seçtiğin strateji bu görevde sana tam olarak ne sağlayacak?"
       ],
       "misconception_interventions": [
-        "Gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur.",
-        "Tür dönüşümünü metnin başlığını değiştirmek sanan öğrenciye anlatıcı, yapı ve dil farkını örneklet.",
-        "Kaynakla ilgisi kopan üründe olay çekirdeğine geri dönmesini iste."
+        "“Radyo oyununun özellikleri ve dönüşüm görevi” sırasında gerekçesiz tahmini reddetmek yerine tek bir görünür ipucu seçtir ve tahmini yeniden kurdur."
       ],
-      "board_notes": [
-        "Tahtaya yaz: Tahmin = ipucu + çıkarım",
-        "Tahtaya yaz: Amaç → uygun strateji → toplanacak kanıt",
-        "Tahtaya yaz: Tür dönüşümü = korunan çekirdek + değişen anlatım araçları",
-        "Tahtaya yaz: Kaynak olay/ileti → hedef türün yapı ve dili"
-      ],
+      "board_notes": [],
       "assessment_look_fors": [
-        "Amaç ile strateji arasında açık uyum.",
-        "Tahminin görünür bir kaynağa dayanması.",
-        "Kaynak metnin çekirdeğinin korunması.",
-        "Hedef türün belirgin özelliklerinin uygulanması.",
-        "Revizyon sonrası tür tutarlılığı."
+        "“Radyo oyununun özellikleri ve dönüşüm görevi” için ölçmede: tahminin görünür bir kaynağa dayanması."
       ],
       "differentiation": {
         "support": [
-          "Amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan.",
-          "Korunacak / değişecek iki sütunlu dönüşüm planı ver."
+          "“Radyo oyununun özellikleri ve dönüşüm görevi” için destek: amaç / strateji / kanıt başlıklı üç kutulu kısa plan şablonu kullan."
         ],
         "enrichment": [
-          "Aynı görevi farklı bir amaçla yapsaydı stratejisinin nasıl değişeceğini açıklat.",
           "Aynı diyaloğu iki farklı türe dönüştürüp hangi anlam etkilerinin değiştiğini karşılaştır."
         ]
       }
@@ -3583,6 +3261,7 @@
     {
       "block_id": "T03V2_T3_GUIDE_U18_YAZMA_ICERIK",
       "section_id": "T3_SEC_05_YAZMA_DONUSTURME",
+      "phase_name": "analyze_apply",
       "printed_page_range": "226",
       "title": "Tür dönüşümü — içerik oluşturma",
       "source_item_refs": [
@@ -3626,52 +3305,37 @@
           "split_from_group": false
         }
       ],
-      "pedagogical_intent": "Radyo tiyatrosu diyaloğunu başka türe dönüştürürken olayın çekirdeğini koru; yeni türün anlatıcı, yapı, dil ve biçim gerekliliklerini bilinçli uygulat. Amaç, tür, hedef kitle, ileti, kişi ve yapı unsurlarını planlamak.",
+      "pedagogical_intent": "Amaç, tür, hedef kitle, ileti, kişi ve yapı unsurlarını planlamak.",
       "teacher_moves": [
-        "Cevabın yanına kısa metin, görsel veya dinleme kanıtı istemeyi varsayılan sınıf rutini hâline getir.",
-        "Konu, tema, ileti, yorum ve çıkarım gibi yakın kavramları görev üzerinde birbirinden ayır.",
-        "Dönüşümden önce kaynak metinde korunacak olay, duygu ve temel iletiyi işaretlet.",
-        "Hedef türün zorunlu özelliklerini kısa kontrol listesine dönüştür.",
-        "Dönüştürmeyi yalnız kelime değiştirme değil anlatım sistemi değiştirme olarak göster."
+        "Hedef türün zorunlu özelliklerini kısa kontrol listesine dönüştür."
       ],
       "follow_up_questions": [
-        "Bu cevabını kaynakta hangi ayrıntı destekliyor?",
-        "Aynı kanıttan başka bir makul yorum çıkar mı?",
         "Kaynak metinden mutlaka korunması gereken çekirdek nedir?",
         "Yeni türde hangi bilgi artık diyalogla değil anlatıcı veya betimlemeyle verilmeli?"
       ],
       "misconception_interventions": [
-        "Yorumu kaynakta açıkça söylenmiş bilgi gibi sunan öğrenciye 'metinde var / ben çıkarıyorum' ayrımı yaptır.",
-        "Tür dönüşümünü metnin başlığını değiştirmek sanan öğrenciye anlatıcı, yapı ve dil farkını örneklet.",
-        "Kaynakla ilgisi kopan üründe olay çekirdeğine geri dönmesini iste."
+        "“Dönüştürme yazısı planı” sırasında terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt."
       ],
       "board_notes": [
-        "Tahtaya yaz: Cevap = yargı + kanıt + gerekçe",
-        "Tahtaya yaz: Açık bilgi ≠ yorum/çıkarım",
-        "Tahtaya yaz: Tür dönüşümü = korunan çekirdek + değişen anlatım araçları",
         "Tahtaya yaz: Kaynak olay/ileti → hedef türün yapı ve dili"
       ],
       "assessment_look_fors": [
-        "Cevabın kaynak kanıtıyla uyumu.",
-        "Açık bilgi ile çıkarımın ayrılması.",
         "Kaynak metnin çekirdeğinin korunması.",
-        "Hedef türün belirgin özelliklerinin uygulanması.",
-        "Revizyon sonrası tür tutarlılığı."
+        "Hedef türün belirgin özelliklerinin uygulanması."
       ],
       "differentiation": {
         "support": [
-          "Cevabım / kanıtım biçiminde iki sütunlu çalışma alanı ver.",
           "Korunacak / değişecek iki sütunlu dönüşüm planı ver."
         ],
         "enrichment": [
-          "İki olası yorumu kanıt gücü bakımından karşılaştırmasını iste.",
-          "Aynı diyaloğu iki farklı türe dönüştürüp hangi anlam etkilerinin değiştiğini karşılaştır."
+          "“Dönüştürme yazısı planı” için zenginleştirme: aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat."
         ]
       }
     },
     {
       "block_id": "T03V2_T3_GUIDE_U19_YAZMA_UYGULAMA",
       "section_id": "T3_SEC_05_YAZMA_DONUSTURME",
+      "phase_name": "analyze_apply",
       "printed_page_range": "227",
       "title": "Tür dönüşümü — kural uygulama",
       "source_item_refs": [
@@ -3717,52 +3381,35 @@
           "split_from_group": false
         }
       ],
-      "pedagogical_intent": "Radyo tiyatrosu diyaloğunu başka türe dönüştürürken olayın çekirdeğini koru; yeni türün anlatıcı, yapı, dil ve biçim gerekliliklerini bilinçli uygulat. Taslağı hedef kitle, söz varlığı, yapı, anlatım biçimi ve dil işlevleriyle zenginleştirip metni üretmek.",
+      "pedagogical_intent": "Taslağı hedef kitle, söz varlığı, yapı, anlatım biçimi ve dil işlevleriyle zenginleştirip metni üretmek.",
       "teacher_moves": [
-        "Kavramı adlandırmakla yetinme; öğrenciden unsurun metindeki veya üründeki işlevini açıklamasını iste.",
-        "Ürün görevlerinde ilk taslak ile son ürün arasındaki değişikliği görünür kıl.",
-        "Dönüşümden önce kaynak metinde korunacak olay, duygu ve temel iletiyi işaretlet.",
-        "Hedef türün zorunlu özelliklerini kısa kontrol listesine dönüştür.",
         "Dönüştürmeyi yalnız kelime değiştirme değil anlatım sistemi değiştirme olarak göster."
       ],
       "follow_up_questions": [
-        "Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?",
-        "Yaptığın bu tercihin amaç ve hedef kitleyle ilişkisi nedir?",
-        "Kaynak metinden mutlaka korunması gereken çekirdek nedir?",
-        "Yeni türde hangi bilgi artık diyalogla değil anlatıcı veya betimlemeyle verilmeli?"
+        "“Yazma uygulama ölçütleri” için: Bu unsur çıkarılsa metnin veya performansın etkisi nasıl değişir?"
       ],
       "misconception_interventions": [
-        "Terimi doğru söyleyip işlevini açıklayamayan öğrenciye somut örnek üzerinde 'ne işe yarıyor?' sorusunu yönelt.",
-        "Tür dönüşümünü metnin başlığını değiştirmek sanan öğrenciye anlatıcı, yapı ve dil farkını örneklet.",
-        "Kaynakla ilgisi kopan üründe olay çekirdeğine geri dönmesini iste."
+        "Tür dönüşümünü metnin başlığını değiştirmek sanan öğrenciye anlatıcı, yapı ve dil farkını örneklet."
       ],
       "board_notes": [
-        "Tahtaya yaz: Unsur → işlev → etki",
-        "Tahtaya yaz: Taslak → geri bildirim → karar → revizyon",
-        "Tahtaya yaz: Tür dönüşümü = korunan çekirdek + değişen anlatım araçları",
-        "Tahtaya yaz: Kaynak olay/ileti → hedef türün yapı ve dili"
+        "Tahtaya yaz: Tür dönüşümü = korunan çekirdek + değişen anlatım araçları"
       ],
       "assessment_look_fors": [
-        "Kavram ile işlev arasında doğru ilişki.",
-        "Ürün kararlarının amaç ve bağlama uygunluğu.",
-        "Kaynak metnin çekirdeğinin korunması.",
-        "Hedef türün belirgin özelliklerinin uygulanması.",
-        "Revizyon sonrası tür tutarlılığı."
+        "“Yazma uygulama ölçütleri” için ölçmede: kavram ile işlev arasında doğru ilişki."
       ],
       "differentiation": {
         "support": [
-          "Önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle.",
-          "Korunacak / değişecek iki sütunlu dönüşüm planı ver."
+          "“Yazma uygulama ölçütleri” için destek: önce bir örneği birlikte unsur → işlev → etki biçiminde çözümle."
         ],
         "enrichment": [
-          "Aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat.",
-          "Aynı diyaloğu iki farklı türe dönüştürüp hangi anlam etkilerinin değiştiğini karşılaştır."
+          "“Yazma uygulama ölçütleri” için zenginleştirme: aynı içeriği farklı tür, hedef kitle veya ortam için yeniden tasarlat."
         ]
       }
     },
     {
       "block_id": "T03V2_T3_GUIDE_U20_YAZMA_DEGERLENDIRME",
       "section_id": "T3_SEC_05_YAZMA_DONUSTURME",
+      "phase_name": "reflect",
       "printed_page_range": "228-229",
       "title": "Tür dönüşümü — değerlendirme ve düzeltme",
       "source_item_refs": [
@@ -3876,52 +3523,33 @@
           "split_from_group": false
         }
       ],
-      "pedagogical_intent": "Radyo tiyatrosu diyaloğunu başka türe dönüştürürken olayın çekirdeğini koru; yeni türün anlatıcı, yapı, dil ve biçim gerekliliklerini bilinçli uygulat. Üretilen metni dil/üslup, özgünlük, bağlam, başlık ve yazım açısından değerlendirip geri bildirimle düzeltmek.",
+      "pedagogical_intent": "Üretilen metni dil/üslup, özgünlük, bağlam, başlık ve yazım açısından değerlendirip geri bildirimle düzeltmek.",
       "teacher_moves": [
-        "Öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet.",
-        "Geri bildirimi sonraki ürün değişikliğine veya öğrenme davranışına bağla.",
-        "Dönüşümden önce kaynak metinde korunacak olay, duygu ve temel iletiyi işaretlet.",
-        "Hedef türün zorunlu özelliklerini kısa kontrol listesine dönüştür.",
-        "Dönüştürmeyi yalnız kelime değiştirme değil anlatım sistemi değiştirme olarak göster."
+        "“Öğretmen değerlendirmesi ve düzeltme” görevinde öz değerlendirme yargısına mutlaka somut performans veya ürün kanıtı eklet."
       ],
       "follow_up_questions": [
-        "Bu değerlendirmene hangi ürün veya performans ayrıntısı kanıt?",
-        "Bir sonraki benzer görevde tek bir şeyi değiştirecek olsan neyi değiştirirsin?",
-        "Kaynak metinden mutlaka korunması gereken çekirdek nedir?",
-        "Yeni türde hangi bilgi artık diyalogla değil anlatıcı veya betimlemeyle verilmeli?"
+        "“Öğretmen değerlendirmesi ve düzeltme” için: Bu değerlendirmene hangi ürün veya performans ayrıntısı kanıt?"
       ],
       "misconception_interventions": [
-        "Formu otomatik olumlu işaretleyen öğrenciye belirli bir örnek göstermeden yargıyı tamamlanmış sayma.",
-        "Tür dönüşümünü metnin başlığını değiştirmek sanan öğrenciye anlatıcı, yapı ve dil farkını örneklet.",
         "Kaynakla ilgisi kopan üründe olay çekirdeğine geri dönmesini iste."
       ],
-      "board_notes": [
-        "Tahtaya yaz: Öz değerlendirme = yargı + kanıt + yeni hedef",
-        "Tahtaya yaz: Geri bildirim → değerlendir → karar ver → revize et",
-        "Tahtaya yaz: Tür dönüşümü = korunan çekirdek + değişen anlatım araçları",
-        "Tahtaya yaz: Kaynak olay/ileti → hedef türün yapı ve dili"
-      ],
+      "board_notes": [],
       "assessment_look_fors": [
-        "Kanıta dayalı öz değerlendirme.",
-        "Uygulanabilir bir sonraki adım veya revizyon.",
-        "Kaynak metnin çekirdeğinin korunması.",
-        "Hedef türün belirgin özelliklerinin uygulanması.",
         "Revizyon sonrası tür tutarlılığı."
       ],
       "differentiation": {
         "support": [
-          "Bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan.",
-          "Korunacak / değişecek iki sütunlu dönüşüm planı ver."
+          "“Öğretmen değerlendirmesi ve düzeltme” için destek: bir güçlü yön + bir geliştirme alanı + bir sonraki adım kalıbını kullan."
         ],
         "enrichment": [
-          "Bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste.",
-          "Aynı diyaloğu iki farklı türe dönüştürüp hangi anlam etkilerinin değiştiğini karşılaştır."
+          "“Öğretmen değerlendirmesi ve düzeltme” için zenginleştirme: bir geri bildirimi gerekçeyle kabul veya reddedip alternatif çözüm önermesini iste."
         ]
       }
     },
     {
       "block_id": "T03V2_T3_GUIDE_U21_TEMA_OLCME",
       "section_id": "T3_SEC_06_TEMA_OLCME",
+      "phase_name": "assessment",
       "printed_page_range": "230-235",
       "title": "3. Tema ölçme ve değerlendirme",
       "source_item_refs": [
@@ -4418,40 +4046,30 @@
       ],
       "pedagogical_intent": "Tema sonu sorularında roman, biyografi, tezkire ve radyo tiyatrosu bilgisini tür ezberinden çok metin özelliği ve kanıt üzerinden değerlendir. Tema sonu sorularını cevap anahtarı/kabul ölçütleriyle değerlendirmek; dış medya sorularında yalnız gözlenebilir kanıtı kabul etmek.",
       "teacher_moves": [
-        "Çoktan seçmeli sorularda yalnız doğru seçeneği değil kısa gerekçeyi de iste.",
-        "Açık uçlu sorularda kabul edilebilir farklı cevapları kullanılan ölçüt ve kanıta göre değerlendir.",
         "Tür sorularında doğru cevabın yanında ayırt edici özelliği söylettir.",
         "Huzur sorularında karakter, mekân ve kültürel unsur ilişkisini metin kanıtıyla gerekçelendirt.",
         "Açık uçlu cevaplarda aynı kanıta dayanan farklı yorumları kabul et."
       ],
       "follow_up_questions": [
-        "Bu seçenek neden doğru; en güçlü kanıtın ne?",
-        "Diğer seçeneklerden biri neden elenir?",
         "Bu türü diğerinden ayıran en güçlü özellik nedir?",
         "Bu çıkarımın metindeki en güçlü kanıtı hangisi?"
       ],
       "misconception_interventions": [
-        "Doğru cevabı ezberden veren öğrenciden kanıt istemeden tam öğrenme kabul etme.",
         "Türü yalnız uzunluk veya eski-yeni oluşuyla tanımlayan öğrenciye yapı, amaç ve anlatıcı ölçütlerini kullandır."
       ],
       "board_notes": [
-        "Tahtaya yaz: Doğru cevap + gerekçe = güvenilir öğrenme kanıtı",
         "Tahtaya yaz: Türü tanı = yapı + amaç + anlatıcı/ifade aracı",
         "Tahtaya yaz: Yorum = metin kanıtı + gerekçe"
       ],
       "assessment_look_fors": [
-        "Cevap ile gerekçenin tutarlılığı.",
-        "Açık uçlu cevapta ölçüt ve kanıt kullanımı.",
         "Tür ayrımında ayırt edici özellik kullanımı.",
         "Roman yorumlarında metin dayanağı."
       ],
       "differentiation": {
         "support": [
-          "Soru kökündeki anahtar kavramları işaretlet ve seçenekleri tek tek kanıtla ele.",
           "Türler için kısa ayırt edici özellik tablosu ver."
         ],
         "enrichment": [
-          "Yanlış bir seçeneği doğru hâle getirecek biçimde yeniden yazdır.",
           "Bir sorunun yanlış seçeneğini doğru hâle getirecek biçimde yeniden yazdır."
         ]
       }
