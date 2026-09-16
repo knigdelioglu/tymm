@@ -4,16 +4,7 @@
   "title": "TYMM Teacher Guide Book Mirror V2.3",
   "type": "object",
   "additionalProperties": false,
-  "required": [
-    "schema_version",
-    "document_type",
-    "course_id",
-    "theme_id",
-    "scope",
-    "source_policy",
-    "entries",
-    "page_checklist"
-  ],
+  "required": ["schema_version", "document_type", "course_id", "theme_id", "scope", "source_policy", "entries", "page_checklist"],
   "properties": {
     "schema_version": {"const": "2.3.0"},
     "document_type": {"const": "TYMM_TEACHER_GUIDE_BOOK_MIRROR"},
@@ -43,15 +34,8 @@
         "locator_only_policy": {"type": "string", "minLength": 1}
       }
     },
-    "guide_principles": {
-      "type": "array",
-      "items": {"type": "string", "minLength": 1}
-    },
-    "entries": {
-      "type": "array",
-      "minItems": 1,
-      "items": {"$ref": "#/$defs/entry"}
-    },
+    "guide_principles": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "entries": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/entry"}},
     "page_checklist": {
       "type": "array",
       "minItems": 1,
@@ -70,14 +54,7 @@
     "entry": {
       "type": "object",
       "additionalProperties": false,
-      "required": [
-        "mirror_id",
-        "section_id",
-        "printed_page_range",
-        "book_heading",
-        "presentation_type",
-        "canonical_item_refs"
-      ],
+      "required": ["mirror_id", "section_id", "printed_page_range", "book_heading", "presentation_type", "canonical_item_refs"],
       "properties": {
         "mirror_id": {"type": "string", "minLength": 1},
         "section_id": {"type": "string", "minLength": 1},
@@ -93,24 +70,29 @@
           "uniqueItems": true,
           "items": {"type": "string", "minLength": 1}
         },
-        "prompt_display": {"type": ["string", "null"]},
-        "prompt_mode": {
-          "type": ["string", "null"],
-          "enum": ["VERBATIM_SHORT", "VERIFIED_SUMMARY", "LOCATOR_ONLY", null]
+        "answer_keys": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1}
         },
+        "prompt_display": {"type": ["string", "null"]},
+        "prompt_mode": {"type": ["string", "null"], "enum": ["VERBATIM_SHORT", "VERIFIED_SUMMARY", "LOCATOR_ONLY", null]},
         "teacher_note": {"type": ["string", "array", "null"], "items": {"type": "string", "minLength": 1}},
         "show_acceptance": {"type": "boolean", "default": false},
         "show_common_misconceptions": {"type": "boolean", "default": false},
         "show_differentiation": {"type": "boolean", "default": false},
-        "rights_mode": {
-          "enum": ["PAGE_REFERENCE", "DERIVED_ACTIVITY", "LIMITED_QUOTATION"]
-        },
+        "rights_mode": {"enum": ["PAGE_REFERENCE", "DERIVED_ACTIVITY", "LIMITED_QUOTATION"]},
         "source_locator": {"type": ["string", "null"]}
       },
       "allOf": [
         {
           "if": {"properties": {"presentation_type": {"const": "QUESTION"}}},
           "then": {"required": ["prompt_display", "prompt_mode"]}
+        },
+        {
+          "if": {"required": ["answer_keys"]},
+          "then": {"properties": {"canonical_item_refs": {"maxItems": 1}}}
         }
       ]
     }
