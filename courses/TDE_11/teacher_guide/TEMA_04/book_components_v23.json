@@ -30,7 +30,7 @@
           "yazilma_amaci": "Tarihî bir kişiliği dramatik biçimde tanıtırken emek, sorumluluk, estetik ve kültür bilinci üzerine düşündürmek.",
           "metin_yazar_iliskisi": "Turgut Özakman tarihî malzemeyi seçip sahne düzenine, diyalog/monologlara ve dramatik akışa dönüştürür; biyografik/tarihî bilgi kurmacayla bire bir özdeş değildir."
         },
-        "source_locator": "basılı s.251 / PDF s.252 — Metni Anlayalım soru 1"
+        "source_locator": "basılı s.251-252 / PDF s.252-253 — Metni Anlayalım soru 1"
       },
       "source_q2_character": {
         "value": {
@@ -121,6 +121,82 @@
       "p261_conflict_process": {
         "value": "Metindeki çatışmalar; başarma-engel, eskiyi aşma-yeniyi kurma, bireysel kaygı-sorumluluk, zaman/ölümlülük-kalıcı eser bırakma gibi gerilimlerle açıklanabilir. Çatışmalar dramatik örgüyü hareketlendirir, karakterleri görünür kılar ve temel iletileri yoğunlaştırır.",
         "source_locator": "basılı s.261 / PDF s.262 — Birlikte Çalışalım / çatışmaların metne etkisi"
+      }
+    },
+    "T4_G02_P268_BAHTIYAR": {
+      "p268_q3_daily_language": {
+        "value": "“Bahtiyar ol” gibi kalıplaşmış iyi dilekler, metindeki gündelik konuşma doğallığını ve kuşaklar arası hitap biçimini görünür kılar. Kısa diyaloglar, sade söz varlığı ve kültürel kalıp ifadeler günlük hayatla bağı güçlendirir; öğrenci görüşünü metinden örnekle gerekçelendirmelidir.",
+        "source_locator": "basılı s.268 / PDF s.269 — Düşünelim Paylaşalım soru 3"
+      }
+    },
+    "T4_G02_P269_Q1_4": {
+      "p269_q3_memur_author_view": {
+        "value": "Kişilerin özel adlarından çok “ihtiyar memur”, “genç memur” ve anlatıcının meslek konumu üzerinden verilmesi; sıradan çalışma hayatındaki insanları, kuşak değişimini ve bireyin kurumdaki yerinin geçiciliğini öne çıkaran bir bakış olarak yorumlanabilir. Metin kanıtlı farklı çıkarımlar kabul edilir.",
+        "source_locator": "basılı s.269 / PDF s.270 — Metni Anlayalım soru 3"
+      }
+    },
+    "T4_G02_P269_270_Q5_8": {
+      "p270_worksheet": {
+        "value": {
+          "konu": "Çalışma hayatındaki koşuşturma içinde yaşlanma, ölüm ve kuşak değişimiyle yüzleşen bir memurun farkındalık yaşaması.",
+          "catisma": "Anlatıcının yükselme/koşuşturma isteği ile fanilik ve kendi konumunu sorgulaması arasındaki iç çatışma; kuşak/konum farklarından doğan insan-insan gerilimleri.",
+          "acik_iletiler": "Yaşamın yalnız meslekî yükseliş ve koşuşturmadan ibaret olmadığı; insan ilişkilerinde saygı ve duyarlılığın önemli olduğu.",
+          "ortuk_iletiler": "Kariyer hırsı, zamanın geçişi, kuşaklara yer açma, ölüm karşısında öncelikleri yeniden değerlendirme.",
+          "zihniyet": "Modern çalışma/bürokrasi hayatı, kuşak değişimi ve bireyin meslekî konumuyla özdeşleşmesini sorgulayan bakış.",
+          "uslup": "Kısa ve yoğun anlatım; tekrarlar, karşıtlıklar, simgesel merdiven motifi, sade diyaloglar ve açık uçlu final."
+        },
+        "source_locator": "basılı s.270 / PDF s.271 — Çalışma Kâğıdı"
+      }
+    },
+    "T4_G02_P272_TUR_KARSILASTIRMA": {
+      "p272_q1_compare": {
+        "value": {
+          "icerik": "Ben, Mimar Sinan tarihî kişilik, üretim ve kültürel mirası; Merdiven çalışma hayatı, kuşak değişimi, yaşlanma ve fanilik farkındalığını işler.",
+          "tur": "Ben, Mimar Sinan modern tiyatro metnidir; Merdiven küçürek hikâyedir.",
+          "sekil": "Tiyatro sahnelenmeye dönük diyalog/monolog ve dramatik örgüyle; küçürek hikâye kısa düzyazı, yoğun çağrışım ve eksiltmeyle kurulur.",
+          "donem": "Her iki metin Cumhuriyet dönemi Türk edebiyatı içinde değerlendirilir; ancak yazarların dönemsel ve estetik yönelimleri farklıdır.",
+          "yapi_unsurlari": "Tiyatroda sahne, dramatik örgü ve kişiler; Merdiven’de sınırlı kişi, kısa zaman, dar mekân ve tek kırılma anı öne çıkar.",
+          "dil_uslup": "Ben, Mimar Sinan tarihî/bilgilendirici içeriği dramatik söyleyişle; Merdiven sade, kısa, simgesel ve şiirsel yoğunlukla verir.",
+          "ileti": "İki metin de emek, insan ilişkileri ve yaşam tercihlerine değinir; Merdiven fanilik ve öncelikleri sorgulamayı daha yoğun biçimde öne çıkarır."
+        },
+        "source_locator": "basılı s.272 / PDF s.273 — Karşılaştıralım soru 1"
+      },
+      "p272_q2_values_genre": {
+        "value": "Tek zorunlu tercih yoktur. Öğrenci, tiyatronun davranış ve ilişkileri sahnede doğrudan göstermesini ya da hikâyenin iç düşünce/simge yoluyla yoğunlaştırmasını seçebilir; hangi türün insan ilişkilerindeki değerleri daha iyi yansıttığı görüşünü iki metinden kanıtla gerekçelendirmelidir.",
+        "source_locator": "basılı s.272 / PDF s.273 — Karşılaştıralım soru 2"
+      }
+    },
+    "T4_G02_P273_SAIR_TAVAFI": {
+      "p273_q1_compare": {
+        "value": {
+          "siirsel_dil": "Merdiven kısa cümleler, tekrar ve simgelerle daha yoğun şiirsel etki kurar; Şair Tavafî daha geniş anlatı ayrıntısı ve konuşma akışı taşır.",
+          "sozcuk_cagrisimi": "Merdiven’de merdiven, çıkmak/inmek ve yol vermek gibi gündelik sözler simgesel katmana açılır; Şair Tavafî’de sözcükler daha çok olay ve çevreyi somutlaştırır.",
+          "icerik": "Her iki metin gündelik yaşamdan insan ilişkilerini seçer; Merdiven bir kırılma anını yoğunlaştırırken Şair Tavafî yolculuk ve sosyal karşılaşmayı daha ayrıntılı anlatır.",
+          "anlatici": "İki metinde de birinci kişi anlatıcı önemlidir; Merdiven’de anlatıcının iç dönüşümü, Şair Tavafî’de gözlem ve mizahî/ironik değerlendirme belirgindir."
+        },
+        "source_locator": "basılı s.273 / PDF s.274 — Sıra Sizde soru 1"
+      },
+      "p273_q2_preference": {
+        "value": "Tek doğru yoktur. Öğrenci hangi hikâyeden daha çok etkilendiğini seçer; tercihinin nedenini dil, yoğunluk, mizah/ironi, simgesel anlatım, karakter, olay veya final etkisi gibi en az bir metin özelliğine dayandırır.",
+        "source_locator": "basılı s.273 / PDF s.274 — Sıra Sizde soru 2"
+      }
+    },
+    "T4_G02_P275_278_HAYAT_CATISMA_DEGER": {
+      "p275_q1_period": {
+        "value": "Metnin sade ve çağdaş Türkçesi, modern bürokratik çalışma hayatı, memuriyet düzeni ve küçürek hikâye tekniği; eserin Cumhuriyet dönemi modern Türk edebiyatı içinde değerlendirilmesini destekler. Dönem çıkarımı tür, içerik ve dil kanıtıyla gerekçelendirilmelidir.",
+        "source_locator": "basılı s.275 / PDF s.276 — Düşünelim Paylaşalım soru 1"
+      },
+      "p275_q2b_literature_life": {
+        "value": "Edebiyat günlük hayattan kişi, mekân, ilişki ve çatışmaları alabilir; fakat onları seçer, yoğunlaştırır ve estetik bir kurgu içinde yeniden düzenler. Güncel teknoloji olay akışını değiştirse bile kuşak değişimi, hırs, fanilik ve insan ilişkileri gibi çekirdek temalar başka simgelerle sürdürülebilir.",
+        "source_locator": "basılı s.275 / PDF s.276 — Düşünelim Paylaşalım soru 2/b"
+      },
+      "p276_q3_generation": {
+        "value": "Kuşaklar arasında teknoloji kullanımı, çalışma temposu, deneyim, iletişim biçimi ve öncelikler bakımından farklılıklar görülebilir. Bu farklılıklar çatışma üretebildiği gibi deneyim aktarımı, yenilik, karşılıklı öğrenme ve toplumsal değişime uyum açısından yarar da sağlayabilir.",
+        "source_locator": "basılı s.276 / PDF s.277 — Düşünelim Paylaşalım soru 3"
+      },
+      "p277_q2_value_conflict": {
+        "value": "Tek doğru yoktur. Öğrenci değerleriyle çeliştiğini düşündüğü söz veya davranışı metinden gösterir; kendi tepkisini saygı, duyarlılık, nezaket, empati veya sorumluluk gibi bir değerle ilişkilendirerek gerekçelendirir.",
+        "source_locator": "basılı s.277 / PDF s.278 — Sıra Sizde soru 2"
       }
     }
   }
