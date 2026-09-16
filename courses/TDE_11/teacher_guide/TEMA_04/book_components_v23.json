@@ -1,0 +1,127 @@
+{
+  "schema_version": "2.3.0",
+  "document_type": "TYMM_TEACHER_GUIDE_COMPONENT_REGISTRY",
+  "course_id": "TDE_11",
+  "theme_id": "TEMA_04",
+  "policy": "Bu registry yalnız mevcut canonical itemların resmî kitapta doğrulanmış fakat canonical yapıda birleşmiş veya görünmez kalmış alt görevlerini ekler. Var olan canonical cevap anahtarlarını değiştiremez ve her component V2.3 mirror içinde kullanılmalıdır.",
+  "components": {
+    "T4_G01_P249_250_HAYAT_SAHNE": {
+      "p249_q1_compare": {
+        "value": {
+          "gercek_hayat": "Olay/durum, gerçek mekân ve kişiler, doğal söz varlığı ve gündelik ilişkiler kesintisiz yaşam akışı içinde oluşur.",
+          "tiyatro": "Gerçek hayattan seçilen olay/durum, kişi ve mekân; dramatik örgü, sahneleme, yoğunlaştırılmış diyalog/monolog ve estetik seçimlerle yeniden düzenlenir.",
+          "ortak": "Her ikisinde insan ilişkileri, çatışma, mekân-zaman, sözlü/sözsüz iletişim ve değerler bulunabilir."
+        },
+        "source_locator": "basılı s.249 / PDF s.250 — Karşılaştıralım soru 1"
+      },
+      "p249_q2_art_difference": {
+        "value": "Sanat metninin gerçek hayatı seçip yoğunlaştırması; insanın yaşantısına uzaktan bakmasına, alternatif davranışları düşünmesine, empati ve eleştirel farkındalık geliştirmesine katkı sağlayabilir. Gerekçeli farklı çıkarımlar kabul edilir.",
+        "source_locator": "basılı s.249 / PDF s.250 — Karşılaştıralım soru 2"
+      },
+      "p250_social_life_table": {
+        "value": "Her cümledeki kelime/kelime grubunun dönemin eğitim, askerlik, dinî hayat, mimarlık, yönetim, çalışma veya toplumsal ilişki düzenine gönderme yapıp yapmadığı Evet/Hayır + gerekçeyle değerlendirilir; karar yalnız tarihî görünen kelimeye değil cümlenin sosyal işlevine dayanır.",
+        "source_locator": "basılı s.250 / PDF s.251 — Sıra Sizde Evet/Hayır sosyal hayat tablosu"
+      }
+    },
+    "T4_G01_P251_Q1_4": {
+      "source_q1_topic_purpose_author": {
+        "value": {
+          "konu": "Mimar Sinan'ın hayatı ve sanat yolculuğu ekseninde çalışma, üretme, estetik ve tarihî miras.",
+          "yazilma_amaci": "Tarihî bir kişiliği dramatik biçimde tanıtırken emek, sorumluluk, estetik ve kültür bilinci üzerine düşündürmek.",
+          "metin_yazar_iliskisi": "Turgut Özakman tarihî malzemeyi seçip sahne düzenine, diyalog/monologlara ve dramatik akışa dönüştürür; biyografik/tarihî bilgi kurmacayla bire bir özdeş değildir."
+        },
+        "source_locator": "basılı s.251 / PDF s.252 — Metni Anlayalım soru 1"
+      },
+      "source_q2_character": {
+        "value": {
+          "karakter_cikarimi": "Kişilik özelliği verilen söz ve davranıştan çıkarılır; Mimar Sinan için öğrenmeye açıklık, çalışkanlık, azim, sorumluluk, estetik duyarlık ve verdiği sözü tutma gibi özellikler metin kanıtıyla gerekçelendirilebilir.",
+          "etkileyen_ozellik": "Tek doğru yoktur; öğrenci seçtiği karakter özelliğinin kendisini neden etkilediğini metindeki söz/eylemle açıklar.",
+          "kendim_nasil_taninmak_isterdim": "Öğrenci başarı, dürüstlük, üretkenlik, sorumluluk, estetik duyarlık vb. bir özelliği seçip gerekçelendirebilir."
+        },
+        "source_locator": "basılı s.251-252 / PDF s.252-253 — Metni Anlayalım soru 2/a-b-c"
+      },
+      "p262_q1_role_choice": {
+        "value": "Öğrenci canlandırmak istediği kişiyi seçer ve seçimini karakterin metindeki sözleri, davranışları, amaçları veya çatışmadaki konumuyla gerekçelendirir; tek doğru karakter yoktur.",
+        "source_locator": "basılı s.262 / PDF s.263 — Sıra Sizde soru 1"
+      },
+      "p262_q2_daily_scenario": {
+        "value": "Seçilen kişi için oluşturulan kısa senaryo, karakterin metinde gözlenen kişilik özellikleriyle tutarlı olmalı; günlük olay karşısındaki davranış en az bir metin kanıtından türetilmelidir.",
+        "source_locator": "basılı s.262 / PDF s.263 — Sıra Sizde soru 2"
+      }
+    },
+    "T4_G01_P253_254_CIMRI_KARSILASTIRMA": {
+      "source_q1_compare": {
+        "value": {
+          "icerik": "Ben, Mimar Sinan tarihî kişilik, üretim ve kültürel mirası; Cimri aile, para tutkusu ve gündelik insan ilişkilerini işler.",
+          "donem": "Metinler farklı dönem ve tiyatro geleneklerinin ürünüdür; dönem yargısı yazar/eser bilgisi ve metin özellikleriyle gerekçelendirilir.",
+          "zihniyet": "Ben, Mimar Sinan'da tarih-kültür, emek ve üretim bilinci; Cimri'de gündelik toplumsal ilişkiler ve cimrilik eleştirisi öne çıkar.",
+          "uslup": "Ben, Mimar Sinan ciddi, tarihî ve dramatik bir söyleyiş; Cimri mizah, ironi ve hızlı diyaloglarla komik etki kurar."
+        },
+        "source_locator": "basılı s.254 / PDF s.255 — Karşılaştıralım soru 1"
+      },
+      "source_q2_genre": {
+        "value": "Cimri, gündelik insan kusurlarını güldürerek eleştirdiği için komedidir. Ben, Mimar Sinan ise tarihî malzemeyi ciddi çatışma ve insanî yönlerle işler; kitaptaki modern tiyatro türleri ölçütleriyle dram olarak gerekçelendirilmesi uygundur.",
+        "source_locator": "basılı s.254 / PDF s.255 — Karşılaştıralım soru 2"
+      }
+    },
+    "T4_G01_P257_258_DIL_USLUP": {
+      "p257_q1_examples": {
+        "value": "Öğrenci metinden karakterin tek başına konuştuğu bir monolog ve iki kişinin karşılıklı konuştuğu bir diyalog örneğini doğru biçimde seçer; örnek seçiminde metindeki gerçek konuşma düzeni esas alınır.",
+        "source_locator": "basılı s.257 / PDF s.258 — Fark Edelim soru 1"
+      },
+      "p257_q2_purpose": {
+        "value": "Monolog karakterin iç düşüncesini, değerlendirmesini veya geçmişe bakışını açar; diyalog kişiler arası ilişkiyi, çatışmayı ve sahne hareketini canlılaştırır.",
+        "source_locator": "basılı s.258 / PDF s.259 — Fark Edelim soru 2"
+      },
+      "p258_q1_style": {
+        "value": "Yazar tarihî/bilgilendirici içeriği dramatik, sahnelenebilir ve yer yer coşkulu bir söyleyişle birleştirir; bu tercih tarih bilgisini canlılaştırır, karakter seslerini belirginleştirir ve izleyici ilgisini artırır.",
+        "source_locator": "basılı s.258 / PDF s.259 — Sıra Sizde soru 1"
+      },
+      "p258_q2_sentence_variety": {
+        "value": "Cümleler yüklem türü, yüklemin yeri, anlam ve yapı bakımından metindeki gerçek örneğe göre sınıflandırılır. Çeşitlilik; ritim, vurgu, duygu tonu ve karakter seslerini değiştirerek dramatik üslubu güçlendirir.",
+        "source_locator": "basılı s.258 / PDF s.259 — Sıra Sizde soru 2/a-b"
+      }
+    },
+    "T4_G01_P259_260_DONEM_DEGER": {
+      "p259_q1_history_consciousness": {
+        "value": "Evet. Ben, Mimar Sinan tarihî kişiyi, dönem ve eser bilgilerini dramatik yapıya taşıyarak geçmişi görünür kılar; Mimar Sinan'ın üretimi üzerinden tarih ve kültür bilinci kurar. Cevap metinden örnekle desteklenmelidir.",
+        "source_locator": "basılı s.259 / PDF s.260 — Fark Edelim soru 1"
+      },
+      "p259_q2_ozakman_history_identity": {
+        "value": "Özakman'ın tarihî kişilik ve olayları güncel okura taşıması; geçmişi öğrenmeyi, millî kimlik ve üretme fikrini canlı tutan bir kültürel bellek alanı olarak gördüğü yönünde gerekçeli çıkarıma imkân verir.",
+        "source_locator": "basılı s.259 / PDF s.260 — Fark Edelim soru 2"
+      },
+      "p260_q1_values": {
+        "value": ["çalışkanlık", "sorumluluk", "estetik duyarlık", "vatan/kültür bilinci", "azim", "bilgiye ve emeğe değer verme"],
+        "source_locator": "basılı s.260 / PDF s.261 — Sıra Sizde soru 1"
+      },
+      "p260_q2_value_evidence": {
+        "value": "Her değer metindeki bir söz, davranış, çalışma biçimi veya eser tercihiyle eşleştirilir; değer etiketi tek başına cevap sayılmaz.",
+        "source_locator": "basılı s.260 / PDF s.261 — Sıra Sizde soru 2"
+      },
+      "p260_q3_values_daily_life": {
+        "value": "Değerlerin günlük hayattaki önemi; sorumluluk alma, işi özenle yapma, ortak mirası koruma, verilen sözü tutma, öğrenmeye devam etme ve estetik/kalite gözetme gibi somut davranışlarla açıklanabilir.",
+        "source_locator": "basılı s.260 / PDF s.261 — Sıra Sizde soru 3"
+      },
+      "p260_q4_values_sinan": {
+        "value": "Çalışkanlık uzun ve sürekli emeğinde; estetik anlayışı yalnız büyüklük değil güzellik/uyum arayışında; sorumluluk ise verdiği sözü tutma, işi tamamlama ve kalıcı eser üretme tavrında görünür. Metin kanıtlı farklı örnekler kabul edilir.",
+        "source_locator": "basılı s.260 / PDF s.261 — Sıra Sizde soru 4"
+      }
+    },
+    "T4_G01_P260_261_DISIPLIN_CATISMA": {
+      "p260_social_sciences_process": {
+        "value": {
+          "tarih": "tarihî kişi, olay, dönem ve mimari eser bağlamı",
+          "psikoloji": "kişilerin amaçları, kaygıları, başarı isteği ve iç gerilimleri",
+          "sosyoloji": "kurumlar, meslekler, toplumsal yapı, çalışma düzeni ve değer ilişkileri",
+          "degerlendirme": "Bu disiplinleri birlikte kullanma, yazarın tarih, insan ve toplum alanlarında geniş bir kültürel ilgi taşıdığını düşündürebilir; kanıta dayalı alternatif çıkarımlar kabul edilir."
+        },
+        "source_locator": "basılı s.260 / PDF s.261 — Ders Dışı Etkinlik / Tiyatro ve Sosyal Bilimler"
+      },
+      "p261_conflict_process": {
+        "value": "Metindeki çatışmalar; başarma-engel, eskiyi aşma-yeniyi kurma, bireysel kaygı-sorumluluk, zaman/ölümlülük-kalıcı eser bırakma gibi gerilimlerle açıklanabilir. Çatışmalar dramatik örgüyü hareketlendirir, karakterleri görünür kılar ve temel iletileri yoğunlaştırır.",
+        "source_locator": "basılı s.261 / PDF s.262 — Birlikte Çalışalım / çatışmaların metne etkisi"
+      }
+    }
+  }
+}
