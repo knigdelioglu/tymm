@@ -66,14 +66,14 @@ REQUIRED_LISTENING_IDS = {
 EXACT_HEADINGS_74_78 = {
     "Yazmayı Yönetebilme",
     "Performans Görevi — İletişim ve E-posta",
-    "İçerik Oluşturabilme — 1-4. basamaklar",
-    "İçerik Oluşturabilme — 5-9. basamaklar",
-    "İçerik Oluşturabilme — 10-13. basamaklar",
+    "İçerik Oluşturabilme",
+    "İçerik Oluşturabilme — T diyagramı",
+    "İçerik Oluşturabilme — geri bildirim ve revizyon",
     "Kural Uygulayabilme",
     "Süreci Değerlendirebilme — Değerlendirme",
-    "Süreci Değerlendirebilme — Öz Değerlendirme Formu",
-    "Tema Sonu Değerlendirme — Çıkış Kartı",
     "Süreci Değerlendirebilme — Dereceli Puanlama Anahtarı",
+    "Öz Değerlendirme Formu",
+    "Tema Sonu Değerlendirme — Çıkış Kartı",
 }
 
 REQUIRED_WRITING_QUESTION_IDS = {
@@ -81,8 +81,21 @@ REQUIRED_WRITING_QUESTION_IDS = {
     "T1V23_P74_Q02",
     "T1V23_P74_Q03",
     "T1V23_P74_Q04",
-    "T1V23_P74_Q05A",
-    "T1V23_P74_Q05B",
+    "T1V23_P74_Q05",
+}
+
+REQUIRED_WRITING_CONTENT_STEP_IDS = {
+    *(f"T1V23_P76_STEP{index:02d}" for index in range(1, 10)),
+    *(f"T1V23_P77_STEP{index:02d}" for index in range(10, 14)),
+}
+
+REQUIRED_WRITING_OTHER_IDS = {
+    "T1V23_P75_PERFORMANCE_PLAN",
+    "T1V23_P77_RULES",
+    "T1V23_P78_REVIEW",
+    "T1V23_P78_QR_LIMIT",
+    "T1V23_P78_SELF_ASSESS",
+    "T1V23_P78_EXIT",
 }
 
 REQUIRED_THEME_ASSESSMENT_IDS = {
@@ -307,10 +320,7 @@ def main() -> int:
         if missing_stages:
             failures.append("EXACT_SPEAKING_STAGE_HEADINGS_MISSING:" + " | ".join(missing_stages))
 
-        speaking_fragments = [
-            mirror for mirror in mirrors
-            if parse_page_range(mirror["scope"]["printed_page_range"]) == (53, 58)
-        ]
+        speaking_fragments = [mirror for mirror in mirrors if parse_page_range(mirror["scope"]["printed_page_range"]) == (53, 58)]
         if len(speaking_fragments) != 1 or speaking_fragments[0].get("scope", {}).get("status") != "REVIEW_REQUIRED":
             failures.append("SPEAKING_QR_LIMIT_MUST_REMAIN_REVIEW_REQUIRED")
 
@@ -335,10 +345,7 @@ def main() -> int:
         if missing_listening_ids:
             failures.append("LISTENING_FIRST_CLASS_TASKS_MISSING:" + ",".join(missing_listening_ids))
 
-        metni_anlayalim = [
-            entry for entry in entries
-            if entry.get("mirror_id", "").startswith("T1V23_P66_Q") or entry.get("mirror_id", "").startswith("T1V23_P67_Q")
-        ]
+        metni_anlayalim = [entry for entry in entries if entry.get("mirror_id", "").startswith("T1V23_P66_Q") or entry.get("mirror_id", "").startswith("T1V23_P67_Q")]
         if len(metni_anlayalim) != 9:
             failures.append(f"LISTENING_METNI_ANLAYALIM_MUST_HAVE_9_QUESTIONS:{len(metni_anlayalim)}")
         if any(entry.get("presentation_type") != "QUESTION" for entry in metni_anlayalim):
@@ -365,26 +372,37 @@ def main() -> int:
         if missing_writing_headings:
             failures.append("EXACT_WRITING_HEADINGS_MISSING:" + " | ".join(missing_writing_headings))
 
-        missing_writing_ids = sorted(REQUIRED_WRITING_QUESTION_IDS - seen_mirror_ids)
-        if missing_writing_ids:
-            failures.append("WRITING_QUESTIONS_MISSING:" + ",".join(missing_writing_ids))
+        missing_writing_questions = sorted(REQUIRED_WRITING_QUESTION_IDS - seen_mirror_ids)
+        if missing_writing_questions:
+            failures.append("WRITING_QUESTIONS_MISSING:" + ",".join(missing_writing_questions))
 
         writing_questions = [entry for entry in entries if entry.get("mirror_id") in REQUIRED_WRITING_QUESTION_IDS]
-        if len(writing_questions) != 6:
-            failures.append(f"WRITING_P74_MUST_HAVE_6_QUESTION_CARDS:{len(writing_questions)}")
+        if len(writing_questions) != 5:
+            failures.append(f"WRITING_P74_MUST_HAVE_5_QUESTION_CARDS:{len(writing_questions)}")
         if any(entry.get("presentation_type") != "QUESTION" for entry in writing_questions):
             failures.append("WRITING_P74_NOT_ALL_QUESTION_CARDS")
 
-        writing_fragments = [
-            mirror for mirror in mirrors
-            if parse_page_range(mirror["scope"]["printed_page_range"]) == (74, 78)
-        ]
+        q5 = [entry for entry in entries if entry.get("mirror_id") == "T1V23_P74_Q05"]
+        if len(q5) != 1 or len(q5[0].get("answer_keys", [])) != 2:
+            failures.append("WRITING_P74_Q5_MUST_KEEP_A_B_UNDER_ONE_QUESTION")
+
+        missing_content_steps = sorted(REQUIRED_WRITING_CONTENT_STEP_IDS - seen_mirror_ids)
+        if missing_content_steps:
+            failures.append("WRITING_CONTENT_STEPS_MISSING:" + ",".join(missing_content_steps))
+        content_steps = [entry for entry in entries if entry.get("mirror_id") in REQUIRED_WRITING_CONTENT_STEP_IDS]
+        if len(content_steps) != 13:
+            failures.append(f"WRITING_CONTENT_MUST_HAVE_13_VISIBLE_STEPS:{len(content_steps)}")
+        p77_content = [entry for entry in content_steps if str(entry.get("mirror_id", "")).startswith("T1V23_P77_STEP")]
+        if any(not str(entry.get("book_heading", "")).startswith("İçerik Oluşturabilme") for entry in p77_content):
+            failures.append("WRITING_STEPS_10_13_MUST_REMAIN_CONTENT_CREATION")
+
+        missing_other = sorted(REQUIRED_WRITING_OTHER_IDS - seen_mirror_ids)
+        if missing_other:
+            failures.append("WRITING_FIRST_CLASS_TASKS_MISSING:" + ",".join(missing_other))
+
+        writing_fragments = [mirror for mirror in mirrors if parse_page_range(mirror["scope"]["printed_page_range"]) == (74, 78)]
         if len(writing_fragments) != 1 or writing_fragments[0].get("scope", {}).get("status") != "REVIEW_REQUIRED":
             failures.append("WRITING_QR_LIMIT_MUST_REMAIN_REVIEW_REQUIRED")
-
-        continuation = [entry for entry in entries if entry.get("mirror_id") == "T1V23_P77_CONTENT_10_13"]
-        if len(continuation) != 1 or not str(continuation[0].get("book_heading", "")).startswith("İçerik Oluşturabilme"):
-            failures.append("WRITING_STEPS_10_13_MUST_REMAIN_CONTENT_CREATION")
 
         writing_qr = [entry for entry in entries if entry.get("mirror_id") == "T1V23_P78_QR_LIMIT"]
         if len(writing_qr) != 1:
@@ -393,6 +411,12 @@ def main() -> int:
             qr_note = note_text(writing_qr[0]).casefold()
             if "qr" not in qr_note or "uydur" not in qr_note:
                 failures.append("P78_WRITING_QR_LIMIT_NOT_EXPLICIT")
+
+        canonical_writing = canonical.get("T1_G17_P74_75_WRITING_PLAN", {}).get("item", {})
+        writing_provenance = canonical_writing.get("provenance", {}) if isinstance(canonical_writing, dict) else {}
+        writing_note = str(writing_provenance.get("note", "")).casefold() if isinstance(writing_provenance, dict) else ""
+        if "yeniden doğrulan" not in writing_note:
+            failures.append("WRITING_CANONICAL_PDF_REFRESH_NOT_RECORDED")
 
     if max_scope_end >= 83:
         missing_assessment_ids = sorted(REQUIRED_THEME_ASSESSMENT_IDS - seen_mirror_ids)
@@ -405,10 +429,7 @@ def main() -> int:
         if any(entry.get("presentation_type") != "QUESTION" for entry in assessment_questions):
             failures.append("THEME_ASSESSMENT_NOT_ALL_QUESTION_CARDS")
 
-        assessment_fragments = [
-            mirror for mirror in mirrors
-            if parse_page_range(mirror["scope"]["printed_page_range"]) == (79, 83)
-        ]
+        assessment_fragments = [mirror for mirror in mirrors if parse_page_range(mirror["scope"]["printed_page_range"]) == (79, 83)]
         if len(assessment_fragments) != 1 or assessment_fragments[0].get("scope", {}).get("status") != "REVIEW_REQUIRED":
             failures.append("THEME_ASSESSMENT_MEDIA_LIMIT_MUST_REMAIN_REVIEW_REQUIRED")
 
@@ -436,7 +457,8 @@ def main() -> int:
             "teacher_note_density": round(density, 3),
             "review_required_fragments": sum(1 for mirror in mirrors if mirror.get("scope", {}).get("status") == "REVIEW_REQUIRED"),
             "pdf_verified_listening_questions": 9 if max_scope_end >= 73 else 0,
-            "pdf_verified_writing_questions": 6 if max_scope_end >= 78 else 0,
+            "pdf_verified_writing_questions": 5 if max_scope_end >= 78 else 0,
+            "pdf_verified_writing_content_steps": 13 if max_scope_end >= 78 else 0,
             "pdf_verified_theme_assessment_questions": 13 if max_scope_end >= 83 else 0,
         },
         "warnings": warnings,
