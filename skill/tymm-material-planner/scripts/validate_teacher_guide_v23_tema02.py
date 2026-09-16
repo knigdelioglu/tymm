@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Source-parity gate for the Theme 2 Teacher Guide V2.3 checkpoint (s.84-147).
+"""Source-parity gate for the Theme 2 Teacher Guide V2.3 checkpoint (s.84-154).
 
 The generic V2.3 validator owns schema, recognizability, component projection,
 semantic-repeat and book-first Markdown invariants. This module locks only the
@@ -56,6 +56,12 @@ REQUIRED_GROUPS: dict[str, set[str]] = {
         "T2V23_P145_SIX_HATS", "T2V23_P146_OPINION",
         "T2V23_P147_VALUE", "T2V23_P147_REFLECTION",
     },
+    "WRITING": {
+        "T2V23_P148_REFERENCE", "T2V23_P149_PLAN", "T2V23_P150_PERFORMANCE",
+        "T2V23_P150_Q01", "T2V23_P151_Q02", "T2V23_P151_Q03", "T2V23_P151_SHARE_ENRICH",
+        "T2V23_P152_RULES", "T2V23_P153_REVIEW_PROCESS", "T2V23_P153_SELF",
+        "T2V23_P153_QR_LIMIT", "T2V23_P154_JOURNAL",
+    },
     "GRAMMAR": {
         "T2V23_P102_GRAMMAR_01", "T2V23_P103_GRAMMAR_02",
         "T2V23_P104_GRAMMAR_03", "T2V23_P104_GRAMMAR_04",
@@ -76,6 +82,7 @@ LISTENING_QUESTIONS = {
     "T2V23_P142_Q01", "T2V23_P142_Q02",
     "T2V23_P144_Q01", "T2V23_P144_Q02", "T2V23_P144_Q03",
 }
+WRITING_QUESTIONS = {"T2V23_P150_Q01", "T2V23_P151_Q02", "T2V23_P151_Q03"}
 
 REQUIRED_HEADINGS = {
     "Temaya Başlarken — Vatan yahut Silistre",
@@ -113,17 +120,27 @@ REQUIRED_HEADINGS = {
     "Sıra Sizde — Altı Şapka",
     "Sıra Sizde — görüş geliştirme çalışma kâğıdı",
     "Süreci Değerlendirebilme — yansıtıcı yazı",
+    "Yazmayı Yönetebilme — Sanal Müzecilikte Yeni Yaklaşımlar",
+    "Yazmayı Yönetebilme — müze seçimi ve yazma planı",
+    "Performans Görevi — Kültürel Miras ve Müzeler",
+    "İçerik Oluşturabilme — Müzeler ve Toplum",
+    "İçerik Oluşturabilme — kültürel unsurları karşılaştırma",
+    "İçerik Oluşturabilme — kültür taşıyıcıları",
+    "Kural Uygulayabilme — izlenim yazısı ölçütleri",
+    "Süreci Değerlendirebilme — değerlendirme, revizyon ve paylaşma",
+    "Süreci Değerlendirebilme — Öz Değerlendirme Formu",
+    "Tema Sonu — Öğrenme Günlüğü",
 }
 
 EXPECTED_METRICS = {
-    "scope": "84-147",
-    "entries": 137,
-    "questions": 95,
-    "recognizable_questions": 95,
-    "component_registry_entries": 33,
-    "component_registry_used": 33,
-    "component_projected_entries": 125,
-    "shared_canonical_items": 28,
+    "scope": "84-154",
+    "entries": 149,
+    "questions": 98,
+    "recognizable_questions": 98,
+    "component_registry_entries": 35,
+    "component_registry_used": 35,
+    "component_projected_entries": 135,
+    "shared_canonical_items": 30,
 }
 
 
@@ -198,6 +215,7 @@ def main() -> int:
     require_question_cards(failures, entries, "P128", REQUIRED_GROUPS["P128"], 4)
     require_question_cards(failures, entries, "SPEAKING", SPEAKING_QUESTIONS, 6)
     require_question_cards(failures, entries, "LISTENING", LISTENING_QUESTIONS, 11)
+    require_question_cards(failures, entries, "WRITING", WRITING_QUESTIONS, 3)
 
     require_media_boundary(failures, entries, "T2V23_P88_Q01", ("video", "izledi"), "video")
     require_media_boundary(failures, entries, "T2V23_P113_Q01", ("qr", "görül"), "video")
@@ -205,8 +223,9 @@ def main() -> int:
     require_media_boundary(failures, entries, "T2V23_P135_QR_LIMIT", ("görünmeyen", "üretmeyin"), "qr")
     require_media_boundary(failures, entries, "T2V23_P140_VOCAB", ("qr", "gerçek dinleme"), "qr")
     require_media_boundary(failures, entries, "T2V23_P144_MEDIA_MAP", ("qr medyada gerçekten", "gözlediği"), "qr")
+    require_media_boundary(failures, entries, "T2V23_P153_QR_LIMIT", ("görünmeyen", "üretmeyin"), "qr")
 
-    for page_range in ("88-112", "113-128", "129-135", "136-147"):
+    for page_range in ("88-112", "113-128", "129-135", "136-147", "148-154"):
         require_fragment(failures, mirrors, page_range)
 
     result = {
@@ -223,6 +242,7 @@ def main() -> int:
             "pdf_verified_p128_questions": 4,
             "pdf_verified_speaking_questions": 6,
             "pdf_verified_listening_questions": 11,
+            "pdf_verified_writing_questions": 3,
             "pdf_verified_grammar_tasks": 4,
         },
         "warnings": warnings,
