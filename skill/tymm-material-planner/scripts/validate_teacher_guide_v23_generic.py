@@ -10,6 +10,7 @@ import argparse
 import json
 import re
 from collections import Counter, defaultdict
+from copy import deepcopy
 from pathlib import Path
 from typing import Any
 
@@ -18,6 +19,16 @@ from jsonschema import Draft202012Validator
 
 def read_json(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def nonempty(value: Any) -> bool:
+    if value is None:
+        return False
+    if isinstance(value, str):
+        return bool(value.strip())
+    if isinstance(value, (list, dict)):
+        return bool(value)
+    return True
 
 
 def parse_page_range(value: str) -> tuple[int, int]:
@@ -52,6 +63,65 @@ def note_text(entry: dict[str, Any]) -> str:
     if isinstance(note, list):
         return " ".join(str(value) for value in note)
     return ""
+
+
+def load_registry(mirror_path: Path, course_id: str, theme_id: str, failures: list[str]) -> tuple[Path | None, dict[str, Any] | None]:
+    path = mirror_path.parent / "book_components_v23.json"
+    if not path.exists():
+        return None, None
+    registry = read_json(path)
+    if registry.get("document_type") != "TYMM_TEACHER_GUIDE_COMPONENT_REGISTRY":
+        failures.append("COMPONENT_REGISTRY_DOCUMENT_TYPE_INVALID")
+    if registry.get("course_id") != course_id or registry.get("theme_id") != theme_id:
+        failures.append("COMPONENT_REGISTRY_IDENTITY_MISMATCH")
+    if not isinstance(registry.get("components"), dict):
+        failures.append("COMPONENT_REGISTRY_COMPONENTS_NOT_OBJECT")
+    return path, registry
+
+
+def apply_registry(
+    canonical: dict[str, dict[str, Any]],
+    registry: dict[str, Any] | None,
+    failures: list[str],
+) -> set[tuple[str, str]]:
+    registry_keys: set[tuple[str, str]] = set()
+    if not registry or not isinstance(registry.get("components"), dict):
+        return registry_keys
+
+    for item_id, component_map in registry["components"].items():
+        if item_id not in canonical:
+            failures.append(f"COMPONENT_REGISTRY_UNKNOWN_ITEM:{item_id}")
+            continue
+        if not isinstance(component_map, dict) or not component_map:
+            failures.append(f"COMPONENT_REGISTRY_EMPTY_ITEM:{item_id}")
+            continue
+        item = canonical[item_id]["item"]
+        base = item.get("expected_answer")
+        if base is None:
+            base = {}
+        if not isinstance(base, dict):
+            failures.append(f"COMPONENT_REGISTRY_REQUIRES_OBJECT_OR_NULL_ANSWER:{item_id}")
+            continue
+        merged = dict(base)
+        for key, meta in component_map.items():
+            identity = (item_id, str(key))
+            registry_keys.add(identity)
+            if key in merged:
+                failures.append(f"COMPONENT_REGISTRY_COLLIDES_WITH_CANONICAL:{item_id}:{key}")
+                continue
+            if not isinstance(meta, dict):
+                failures.append(f"COMPONENT_REGISTRY_META_NOT_OBJECT:{item_id}:{key}")
+                continue
+            if not nonempty(meta.get("value")):
+                failures.append(f"COMPONENT_REGISTRY_EMPTY_VALUE:{item_id}:{key}")
+                continue
+            locator = meta.get("source_locator")
+            if not isinstance(locator, str) or not locator.strip():
+                failures.append(f"COMPONENT_REGISTRY_SOURCE_LOCATOR_MISSING:{item_id}:{key}")
+                continue
+            merged[key] = meta["value"]
+        item["expected_answer"] = merged
+    return registry_keys
 
 
 def validate(
@@ -98,8 +168,17 @@ def validate(
                 canonical[item["item_id"]] = {
                     "section_id": section["section_id"],
                     "unit_id": unit.get("unit_id"),
-                    "item": item,
+                    "item": deepcopy(item),
                 }
+
+    registry_path, registry = load_registry(
+        mirror_path,
+        str(manifest.get("course_id", "")),
+        str(manifest.get("theme_id", "")),
+        failures,
+    )
+    registry_keys = apply_registry(canonical, registry, failures)
+    used_registry_keys: set[tuple[str, str]] = set()
 
     seen_mirror_ids: set[str] = set()
     projections: dict[str, list[tuple[str, set[str] | None]]] = defaultdict(list)
@@ -142,6 +221,10 @@ def validate(
                     missing_keys = sorted(keys - set(value))
                     if missing_keys:
                         failures.append(f"UNKNOWN_ANSWER_KEYS:{mid}:{ref}:{','.join(missing_keys)}")
+                for key in keys:
+                    identity = (ref, key)
+                    if identity in registry_keys:
+                        used_registry_keys.add(identity)
 
         if entry.get("presentation_type") == "QUESTION":
             questions += 1
@@ -161,6 +244,10 @@ def validate(
         expected_heading = f"## Sayfa {entry['printed_page_range']} — {entry['book_heading']}"
         if expected_heading not in markdown:
             failures.append(f"MISSING_BOOK_FIRST_HEADING:{mid}:{expected_heading}")
+
+    unused_registry_keys = sorted(registry_keys - used_registry_keys)
+    for item_id, key in unused_registry_keys:
+        failures.append(f"UNUSED_COMPONENT_REGISTRY_KEY:{item_id}:{key}")
 
     for ref, rows in projections.items():
         if len(rows) <= 1:
@@ -216,7 +303,10 @@ def validate(
             "shared_canonical_items": sum(1 for rows in projections.values() if len(rows) > 1),
             "teacher_note_density": round(density, 3),
             "review_required_fragments": sum(1 for mirror in mirrors if mirror.get("scope", {}).get("status") == "REVIEW_REQUIRED"),
+            "component_registry_entries": len(registry_keys),
+            "component_registry_used": len(used_registry_keys),
         },
+        "component_registry": str(registry_path.relative_to(root)) if registry_path else None,
         "seen_mirror_ids": sorted(seen_mirror_ids),
         "headings": sorted({str(entry.get("book_heading")) for entry in entries}),
         "warnings": warnings,
