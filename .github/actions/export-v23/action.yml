@@ -1,0 +1,29 @@
+name: Export TDE11 Teacher Guide V2.3
+description: Generate the validated runtime-neutral Teacher Guide V2.3 JSON from this private TYMM source tree.
+inputs:
+  output:
+    description: Destination path in the caller workspace.
+    required: true
+runs:
+  using: composite
+  steps:
+    - name: Generate book-first runtime export
+      shell: bash
+      env:
+        OUTPUT_PATH: ${{ inputs.output }}
+      run: |
+        set -euo pipefail
+        ACTION_ROOT="$(cd "$GITHUB_ACTION_PATH/../../.." && pwd)"
+        TMP_EXPORT="$RUNNER_TEMP/teacher_guide_v23_runtime_export.json"
+        python3 "$ACTION_ROOT/skill/tymm-material-planner/scripts/export_teacher_guide_v23_runtime.py" \
+          --repo-root "$ACTION_ROOT" \
+          --output "$TMP_EXPORT"
+        mkdir -p "$(dirname "$OUTPUT_PATH")"
+        cp "$TMP_EXPORT" "$OUTPUT_PATH"
+        python3 - "$OUTPUT_PATH" <<'PY'
+        import json, sys
+        p = sys.argv[1]
+        data = json.load(open(p, encoding='utf-8'))
+        assert data['totals'] == {'themes': 4, 'entries': 573, 'questions': 404, 'locator_only_questions': 0}
+        print('V2.3 export:', data['export_sha256'])
+        PY
