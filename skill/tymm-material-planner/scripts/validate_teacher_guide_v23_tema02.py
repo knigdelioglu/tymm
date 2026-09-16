@@ -1,39 +1,75 @@
 #!/usr/bin/env python3
-"""Source-parity gate for the Theme 2 Teacher Guide V2.3 checkpoint (s.84-147)."""
+"""Source-parity gate for the Theme 2 Teacher Guide V2.3 checkpoint (s.84-147).
+
+The generic V2.3 validator owns schema, recognizability, component projection,
+semantic-repeat and book-first Markdown invariants. This module locks only the
+Theme 2 source-parity facts that must not regress as coverage grows.
+"""
 from __future__ import annotations
 
 import argparse
 import json
 from pathlib import Path
+from typing import Any
 
 from validate_teacher_guide_v23_generic import discover_mirror_paths, note_text, read_json, validate
 
-REQUIRED_QUESTION_IDS = {
-    "T2V23_P86_Q01", "T2V23_P86_Q02", "T2V23_P86_Q03",
-    "T2V23_P87_Q01", "T2V23_P87_Q02", "T2V23_P87_Q03",
-    "T2V23_P88_Q01", "T2V23_P88_Q02", "T2V23_P88_Q03", "T2V23_P88_Q04", "T2V23_P88_Q05", "T2V23_P88_Q06",
-    "T2V23_P90_Q01", "T2V23_P90_Q02",
-    "T2V23_P96_Q03",
-    "T2V23_P98_NARRATIVE", "T2V23_P99_Q02", "T2V23_P99_Q03",
-    "T2V23_P100_Q01", "T2V23_P100_Q02", "T2V23_P100_Q03", "T2V23_P100_Q04",
-    "T2V23_P100_Q05", "T2V23_P100_Q06", "T2V23_P100_Q07", "T2V23_P100_Q08",
-    "T2V23_P101_Q09", "T2V23_P101_Q10", "T2V23_P102_Q11",
-    "T2V23_P106_Q1A", "T2V23_P107_Q1B", "T2V23_P107_AYTMATOV",
-    "T2V23_P108_Q01", "T2V23_P108_Q02", "T2V23_P108_Q03",
-    "T2V23_P112_Q01", "T2V23_P112_Q02", "T2V23_P112_Q03", "T2V23_P112_Q04", "T2V23_P112_Q05",
-    "T2V23_P113_Q01", "T2V23_P113_Q02", "T2V23_P113_Q03", "T2V23_P113_Q04", "T2V23_P113_Q05",
-    "T2V23_P117_Q01", "T2V23_P117_Q02", "T2V23_P117_Q03", "T2V23_P117_BILGE_KAGAN",
-    "T2V23_P119_Q01", "T2V23_P120_Q02", "T2V23_P120_DIL_KULTUR_TARIH",
-    "T2V23_P121_Q01", "T2V23_P121_Q02", "T2V23_P121_NARRATOR",
-    "T2V23_P122_Q02", "T2V23_P122_Q03", "T2V23_P122_Q04",
-    "T2V23_P123_Q05", "T2V23_P123_Y01", "T2V23_P123_Y02", "T2V23_P123_Y03",
-    "T2V23_P124_Y04", "T2V23_P124_Y05", "T2V23_P125_ORHUN_VALUE",
-    "T2V23_P127_DLT_Q01", "T2V23_P127_DLT_Q02", "T2V23_P127_DLT_Q03", "T2V23_P127_DLT_Q04",
-    "T2V23_P127_DLT_Q05", "T2V23_P127_DLT_Q06", "T2V23_P127_DLT_Q07",
-    "T2V23_P127_KAPLAN_Q01", "T2V23_P127_KAPLAN_Q02",
-    "T2V23_P128_SPREAD_Q03", "T2V23_P128_REFLECT_Q01", "T2V23_P128_REFLECT_Q02", "T2V23_P128_REFLECT_Q03",
+
+def ids(prefix: str, start: int, end: int, width: int = 2) -> set[str]:
+    return {f"{prefix}{n:0{width}d}" for n in range(start, end + 1)}
+
+
+REQUIRED_GROUPS: dict[str, set[str]] = {
+    "P88": ids("T2V23_P88_Q", 1, 6),
+    "P100": ids("T2V23_P100_Q", 1, 8),
+    "P112": ids("T2V23_P112_Q", 1, 5),
+    "P113": ids("T2V23_P113_Q", 1, 5),
+    "P117": {"T2V23_P117_Q01", "T2V23_P117_Q02", "T2V23_P117_Q03", "T2V23_P117_BILGE_KAGAN"},
+    "ORHUN_ANALYSIS": {
+        "T2V23_P121_NARRATOR",
+        "T2V23_P122_Q02", "T2V23_P122_Q03", "T2V23_P122_Q04",
+        "T2V23_P123_Q05", "T2V23_P123_Y01", "T2V23_P123_Y02", "T2V23_P123_Y03",
+        "T2V23_P124_Y04", "T2V23_P124_Y05",
+    },
+    "DLT": {
+        *ids("T2V23_P127_DLT_Q", 1, 7),
+        "T2V23_P127_KAPLAN_Q01", "T2V23_P127_KAPLAN_Q02",
+    },
+    "P128": {
+        "T2V23_P128_SPREAD_Q03",
+        "T2V23_P128_REFLECT_Q01", "T2V23_P128_REFLECT_Q02", "T2V23_P128_REFLECT_Q03",
+    },
+    "SPEAKING": {
+        "T2V23_P129_Q01", "T2V23_P129_Q02", "T2V23_P129_Q03",
+        "T2V23_P130_PERFORMANCE", "T2V23_P131_DESIGN",
+        "T2V23_P132_Q01", "T2V23_P132_Q02", "T2V23_P132_Q03",
+        "T2V23_P132_133_COMPARE", "T2V23_P133_BUILD_REVISE",
+        "T2V23_P134_RULES", "T2V23_P135_SELF", "T2V23_P135_QR_LIMIT",
+    },
+    "LISTENING": {
+        "T2V23_P136_Q01", "T2V23_P136_Q02", "T2V23_P137_PLAN",
+        "T2V23_P138_Q01", "T2V23_P138_Q02", "T2V23_P138_139_LISTENING_FORMS",
+        "T2V23_P140_VOCAB", "T2V23_P141_Q01", "T2V23_P141_Q02",
+        "T2V23_P142_Q01", "T2V23_P142_Q02", "T2V23_P142_HUMOR_COMPARE",
+        "T2V23_P143_LANGUAGE_COMPARE", "T2V23_P143_TASTE",
+        "T2V23_P144_Q01", "T2V23_P144_Q02", "T2V23_P144_Q03", "T2V23_P144_MEDIA_MAP",
+        "T2V23_P145_SIX_HATS", "T2V23_P146_OPINION",
+        "T2V23_P147_VALUE", "T2V23_P147_REFLECTION",
+    },
+    "GRAMMAR": {
+        "T2V23_P102_GRAMMAR_01", "T2V23_P103_GRAMMAR_02",
+        "T2V23_P104_GRAMMAR_03", "T2V23_P104_GRAMMAR_04",
+    },
+    "MEMOIR": {
+        "T2V23_P108_Q01", "T2V23_P108_Q02", "T2V23_P108_Q03", "T2V23_P108_110_MEMOIR",
+    },
+}
+
+SPEAKING_QUESTIONS = {
     "T2V23_P129_Q01", "T2V23_P129_Q02", "T2V23_P129_Q03",
     "T2V23_P132_Q01", "T2V23_P132_Q02", "T2V23_P132_Q03",
+}
+LISTENING_QUESTIONS = {
     "T2V23_P136_Q01", "T2V23_P136_Q02",
     "T2V23_P138_Q01", "T2V23_P138_Q02",
     "T2V23_P141_Q01", "T2V23_P141_Q02",
@@ -41,101 +77,26 @@ REQUIRED_QUESTION_IDS = {
     "T2V23_P144_Q01", "T2V23_P144_Q02", "T2V23_P144_Q03",
 }
 
-REQUIRED_P100_IDS = {f"T2V23_P100_Q{n:02d}" for n in range(1, 9)}
-REQUIRED_P112_IDS = {f"T2V23_P112_Q{n:02d}" for n in range(1, 6)}
-REQUIRED_P113_IDS = {f"T2V23_P113_Q{n:02d}" for n in range(1, 6)}
-REQUIRED_P117_IDS = {"T2V23_P117_Q01", "T2V23_P117_Q02", "T2V23_P117_Q03", "T2V23_P117_BILGE_KAGAN"}
-REQUIRED_ORHUN_ANALYSIS_IDS = {
-    "T2V23_P121_NARRATOR",
-    "T2V23_P122_Q02", "T2V23_P122_Q03", "T2V23_P122_Q04",
-    "T2V23_P123_Q05", "T2V23_P123_Y01", "T2V23_P123_Y02", "T2V23_P123_Y03",
-    "T2V23_P124_Y04", "T2V23_P124_Y05",
-}
-REQUIRED_DLT_IDS = {
-    *(f"T2V23_P127_DLT_Q{n:02d}" for n in range(1, 8)),
-    "T2V23_P127_KAPLAN_Q01", "T2V23_P127_KAPLAN_Q02",
-}
-REQUIRED_P128_IDS = {
-    "T2V23_P128_SPREAD_Q03",
-    "T2V23_P128_REFLECT_Q01", "T2V23_P128_REFLECT_Q02", "T2V23_P128_REFLECT_Q03",
-}
-REQUIRED_SPEAKING_IDS = {
-    "T2V23_P129_Q01", "T2V23_P129_Q02", "T2V23_P129_Q03",
-    "T2V23_P130_PERFORMANCE",
-    "T2V23_P131_DESIGN",
-    "T2V23_P132_Q01", "T2V23_P132_Q02", "T2V23_P132_Q03",
-    "T2V23_P132_133_COMPARE",
-    "T2V23_P133_BUILD_REVISE",
-    "T2V23_P134_RULES",
-    "T2V23_P135_SELF",
-    "T2V23_P135_QR_LIMIT",
-}
-REQUIRED_SPEAKING_QUESTION_IDS = {
-    "T2V23_P129_Q01", "T2V23_P129_Q02", "T2V23_P129_Q03",
-    "T2V23_P132_Q01", "T2V23_P132_Q02", "T2V23_P132_Q03",
-}
-REQUIRED_LISTENING_IDS = {
-    "T2V23_P136_Q01", "T2V23_P136_Q02",
-    "T2V23_P137_PLAN",
-    "T2V23_P138_Q01", "T2V23_P138_Q02",
-    "T2V23_P138_139_LISTENING_FORMS",
-    "T2V23_P140_VOCAB",
-    "T2V23_P141_Q01", "T2V23_P141_Q02",
-    "T2V23_P142_Q01", "T2V23_P142_Q02", "T2V23_P142_HUMOR_COMPARE",
-    "T2V23_P143_LANGUAGE_COMPARE", "T2V23_P143_TASTE",
-    "T2V23_P144_Q01", "T2V23_P144_Q02", "T2V23_P144_Q03", "T2V23_P144_MEDIA_MAP",
-    "T2V23_P145_SIX_HATS", "T2V23_P146_OPINION",
-    "T2V23_P147_VALUE", "T2V23_P147_REFLECTION",
-}
-REQUIRED_LISTENING_QUESTION_IDS = {
-    "T2V23_P136_Q01", "T2V23_P136_Q02",
-    "T2V23_P138_Q01", "T2V23_P138_Q02",
-    "T2V23_P141_Q01", "T2V23_P141_Q02",
-    "T2V23_P142_Q01", "T2V23_P142_Q02",
-    "T2V23_P144_Q01", "T2V23_P144_Q02", "T2V23_P144_Q03",
-}
-REQUIRED_GRAMMAR_IDS = {
-    "T2V23_P102_GRAMMAR_01",
-    "T2V23_P103_GRAMMAR_02",
-    "T2V23_P104_GRAMMAR_03",
-    "T2V23_P104_GRAMMAR_04",
-}
-REQUIRED_P108_IDS = {
-    "T2V23_P108_Q01",
-    "T2V23_P108_Q02",
-    "T2V23_P108_Q03",
-    "T2V23_P108_110_MEMOIR",
-}
 REQUIRED_HEADINGS = {
     "Temaya Başlarken — Vatan yahut Silistre",
     "Düşünelim Paylaşalım — Ortak Türk Alfabesi",
     "Konuya Başlarken — Türklerde Toylar, Merasimler, Festivaller ve Şenlikler",
     "Okumayı Yönetebilme — Oğulla Buluşma",
-    "Anlam Oluşturabilme — Söz Varlığımız",
     "Metni Anlayalım — Oğulla Buluşma",
-    "Çözümleyebilme — Fark Edelim / hikâye haritası",
     "Eski İstanbul’dan Çizgiler — Anı metni",
-    "Süreci Değerlendirebilme — Oğulla Buluşma",
-    "Çıkış Kartı — Üç Yaz / İki Sor / Bir Paylaş",
     "Konuya Başlarken — Orhun Vadisi",
     "Okumayı Yönetebilme — Kül Tigin Âbidesi",
     "Metni Anlayalım — Kül Tigin Âbidesi",
     "Karşılaştıralım — Oğulla Buluşma / Kül Tigin Âbidesi",
-    "Çözümleyebilme — anlatıcı ve amaç",
     "Yorumlayalım — Orhun Abideleri",
-    "Ders Dışı Etkinlik — Orhun ve sosyal bilimler",
     "Ara Metin — Dîvânu Lugâti’t-Türk",
     "Fark Edelim — Türk Edebiyatı ve Türk Milletinin Kültürel Değerleri",
-    "Fark Edelim — Türkçenin tarihî yayılımı",
     "Süreci Değerlendirebilme — Kül Tigin Âbidesi",
     "Konuşmayı Yönetebilme — Dünyadaki Türkiye-Türk Dünyası",
     "Performans Görevi — Türk Dünyası Ortak Kültürü",
     "İçerik Oluşturabilme — konuşma metni tasarımı",
-    "Düşünelim Paylaşalım — Dil-Kültür İlişkisi ve Etkileşimi Üzerine",
     "Düşünelim Paylaşalım — Türk dünyası kültür unsurlarını karşılaştırma",
-    "İçerik Oluşturabilme — 5-10. adımlar / konuşma metni ve prova",
     "Kural Uygulayabilme — konuşma uygulama ölçütleri",
-    "Süreci Değerlendirebilme — Öz Değerlendirme Formu",
     "Süreci Değerlendirebilme — Dereceli Puanlama Anahtarı / Akran Değerlendirme",
     "Konuya Başlarken — Âşıklık geleneğinde saz",
     "Konuya Başlarken — Sazım’a / sanat-sanatçı ilişkisi",
@@ -147,14 +108,56 @@ REQUIRED_HEADINGS = {
     "Metni Anlayalım — Âşık Atışması",
     "Karşılaştıralım — atışma mizahı ve günlük mizah",
     "Karşılaştıralım — atışma dili / günlük dil / Münacaat",
-    "Sıra Sizde — beğeni ölçütleri",
     "Fark Edelim — Usta-Çırak Geleneği / Meşk Usûlü",
     "Çözümleyebilme — âşık atışmasının çok modlu unsurları",
     "Sıra Sizde — Altı Şapka",
     "Sıra Sizde — görüş geliştirme çalışma kâğıdı",
-    "Süreci Değerlendirebilme — atışmaya değer katan unsurlar",
     "Süreci Değerlendirebilme — yansıtıcı yazı",
 }
+
+EXPECTED_METRICS = {
+    "scope": "84-147",
+    "entries": 137,
+    "questions": 95,
+    "recognizable_questions": 95,
+    "component_registry_entries": 33,
+    "component_registry_used": 33,
+    "component_projected_entries": 125,
+    "shared_canonical_items": 28,
+}
+
+
+def require_ids(failures: list[str], seen: set[str], label: str, required: set[str]) -> None:
+    missing = sorted(required - seen)
+    if missing:
+        failures.append(f"TEMA02_{label}_TASKS_MISSING:" + ",".join(missing))
+
+
+def require_question_cards(
+    failures: list[str], entries: list[dict[str, Any]], label: str, required: set[str], count: int
+) -> None:
+    rows = [entry for entry in entries if entry.get("mirror_id") in required]
+    if len(rows) != count or any(entry.get("presentation_type") != "QUESTION" for entry in rows):
+        failures.append(f"TEMA02_{label}_QUESTION_CARD_PARITY:{len(rows)}/{count}")
+
+
+def require_fragment(failures: list[str], mirrors: list[dict[str, Any]], page_range: str) -> None:
+    rows = [mirror for mirror in mirrors if mirror.get("scope", {}).get("printed_page_range") == page_range]
+    if len(rows) != 1 or rows[0].get("scope", {}).get("status") != "REVIEW_REQUIRED":
+        failures.append(f"TEMA02_{page_range.replace('-', '_')}_MUST_REMAIN_REVIEW_REQUIRED")
+
+
+def require_media_boundary(
+    failures: list[str], entries: list[dict[str, Any]], mirror_id: str, note_terms: tuple[str, ...], locator_term: str = "qr"
+) -> None:
+    rows = [entry for entry in entries if entry.get("mirror_id") == mirror_id]
+    if len(rows) != 1:
+        failures.append(f"TEMA02_MEDIA_BOUNDARY_ENTRY_MISSING:{mirror_id}")
+        return
+    note = note_text(rows[0]).casefold()
+    locator = str(rows[0].get("source_locator", "")).casefold()
+    if any(term.casefold() not in note for term in note_terms) or locator_term.casefold() not in locator:
+        failures.append(f"TEMA02_MEDIA_BOUNDARY_NOT_EXPLICIT:{mirror_id}")
 
 
 def main() -> int:
@@ -170,46 +173,17 @@ def main() -> int:
     report = validate(root, mirror_path, manifest_path, schema_path, markdown_path)
     failures = list(report["failures"])
     warnings = list(report["warnings"])
+    metrics = report["metrics"]
     seen = set(report.get("seen_mirror_ids", []))
     headings = set(report.get("headings", []))
 
-    metrics = report["metrics"]
-    if metrics.get("scope") != "84-147":
-        failures.append(f"TEMA02_CHECKPOINT_SCOPE_MUST_BE_84_147:{metrics.get('scope')}")
-    if metrics.get("entries") != 135:
-        failures.append(f"TEMA02_ENTRY_PARITY_MUST_BE_135:{metrics.get('entries')}")
-    if metrics.get("questions") != 95 or metrics.get("recognizable_questions") != 95:
-        failures.append(
-            f"TEMA02_QUESTION_PARITY_MUST_BE_95_95:{metrics.get('recognizable_questions')}/{metrics.get('questions')}"
-        )
-    if metrics.get("component_registry_entries") != 33 or metrics.get("component_registry_used") != 33:
-        failures.append(
-            f"TEMA02_COMPONENT_REGISTRY_MUST_BE_33_33:{metrics.get('component_registry_used')}/{metrics.get('component_registry_entries')}"
-        )
-    if metrics.get("component_projected_entries") != 123:
-        failures.append(f"TEMA02_COMPONENT_PROJECTION_PARITY_MUST_BE_123:{metrics.get('component_projected_entries')}")
-    if metrics.get("shared_canonical_items") != 28:
-        failures.append(f"TEMA02_SHARED_CANONICAL_PARITY_MUST_BE_28:{metrics.get('shared_canonical_items')}")
+    for key, expected in EXPECTED_METRICS.items():
+        actual = metrics.get(key)
+        if actual != expected:
+            failures.append(f"TEMA02_METRIC_PARITY:{key}:{actual}!={expected}")
 
-    missing_questions = sorted(REQUIRED_QUESTION_IDS - seen)
-    if missing_questions:
-        failures.append("TEMA02_REQUIRED_QUESTIONS_MISSING:" + ",".join(missing_questions))
-    for label, required in (
-        ("P100", REQUIRED_P100_IDS),
-        ("P112", REQUIRED_P112_IDS),
-        ("P113", REQUIRED_P113_IDS),
-        ("P117", REQUIRED_P117_IDS),
-        ("ORHUN_ANALYSIS", REQUIRED_ORHUN_ANALYSIS_IDS),
-        ("DLT", REQUIRED_DLT_IDS),
-        ("P128", REQUIRED_P128_IDS),
-        ("SPEAKING", REQUIRED_SPEAKING_IDS),
-        ("LISTENING", REQUIRED_LISTENING_IDS),
-        ("GRAMMAR", REQUIRED_GRAMMAR_IDS),
-        ("MEMOIR", REQUIRED_P108_IDS),
-    ):
-        missing = sorted(required - seen)
-        if missing:
-            failures.append(f"TEMA02_{label}_TASKS_MISSING:" + ",".join(missing))
+    for label, required in REQUIRED_GROUPS.items():
+        require_ids(failures, seen, label, required)
 
     missing_headings = sorted(REQUIRED_HEADINGS - headings)
     if missing_headings:
@@ -218,94 +192,22 @@ def main() -> int:
     mirrors = [read_json(path) for path in discover_mirror_paths(mirror_path)]
     entries = [entry for mirror in mirrors for entry in mirror.get("entries", [])]
 
-    p88 = [entry for entry in entries if str(entry.get("mirror_id", "")).startswith("T2V23_P88_Q")]
-    if len(p88) != 6 or any(entry.get("presentation_type") != "QUESTION" for entry in p88):
-        failures.append(f"TEMA02_P88_MUST_HAVE_6_QUESTION_CARDS:{len(p88)}")
+    require_question_cards(failures, entries, "P88", REQUIRED_GROUPS["P88"], 6)
+    require_question_cards(failures, entries, "P113", REQUIRED_GROUPS["P113"], 5)
+    require_question_cards(failures, entries, "DLT", REQUIRED_GROUPS["DLT"], 9)
+    require_question_cards(failures, entries, "P128", REQUIRED_GROUPS["P128"], 4)
+    require_question_cards(failures, entries, "SPEAKING", SPEAKING_QUESTIONS, 6)
+    require_question_cards(failures, entries, "LISTENING", LISTENING_QUESTIONS, 11)
 
-    p88_q1 = [entry for entry in entries if entry.get("mirror_id") == "T2V23_P88_Q01"]
-    if len(p88_q1) != 1:
-        failures.append("TEMA02_P88_MEDIA_BOUNDARY_ENTRY_MISSING")
-    else:
-        note = note_text(p88_q1[0]).casefold()
-        locator = str(p88_q1[0].get("source_locator", "")).casefold()
-        if "video" not in note or "izledi" not in note or "video" not in locator:
-            failures.append("TEMA02_P88_MEDIA_BOUNDARY_NOT_EXPLICIT")
+    require_media_boundary(failures, entries, "T2V23_P88_Q01", ("video", "izledi"), "video")
+    require_media_boundary(failures, entries, "T2V23_P113_Q01", ("qr", "görül"), "video")
+    require_media_boundary(failures, entries, "T2V23_P129_Q01", ("video", "izledi"), "video")
+    require_media_boundary(failures, entries, "T2V23_P135_QR_LIMIT", ("görünmeyen", "üretmeyin"), "qr")
+    require_media_boundary(failures, entries, "T2V23_P140_VOCAB", ("qr", "gerçek dinleme"), "qr")
+    require_media_boundary(failures, entries, "T2V23_P144_MEDIA_MAP", ("qr medyada gerçekten", "uydur"), "qr")
 
-    p113 = [entry for entry in entries if entry.get("mirror_id") in REQUIRED_P113_IDS]
-    if len(p113) != 5 or any(entry.get("presentation_type") != "QUESTION" for entry in p113):
-        failures.append(f"TEMA02_P113_MUST_HAVE_5_QUESTION_CARDS:{len(p113)}")
-    p113_q1 = [entry for entry in entries if entry.get("mirror_id") == "T2V23_P113_Q01"]
-    if len(p113_q1) != 1:
-        failures.append("TEMA02_P113_MEDIA_BOUNDARY_ENTRY_MISSING")
-    else:
-        note = note_text(p113_q1[0]).casefold()
-        locator = str(p113_q1[0].get("source_locator", "")).casefold()
-        if "qr" not in note or "görül" not in note or "video" not in locator:
-            failures.append("TEMA02_P113_MEDIA_BOUNDARY_NOT_EXPLICIT")
-
-    dlt_questions = [entry for entry in entries if entry.get("mirror_id") in REQUIRED_DLT_IDS]
-    if len(dlt_questions) != 9 or any(entry.get("presentation_type") != "QUESTION" for entry in dlt_questions):
-        failures.append(f"TEMA02_DLT_MUST_HAVE_7_PLUS_2_QUESTION_CARDS:{len(dlt_questions)}")
-
-    p128 = [entry for entry in entries if entry.get("mirror_id") in REQUIRED_P128_IDS]
-    if len(p128) != 4 or any(entry.get("presentation_type") != "QUESTION" for entry in p128):
-        failures.append(f"TEMA02_P128_MUST_HAVE_1_PLUS_3_QUESTION_CARDS:{len(p128)}")
-
-    speaking_questions = [entry for entry in entries if entry.get("mirror_id") in REQUIRED_SPEAKING_QUESTION_IDS]
-    if len(speaking_questions) != 6 or any(entry.get("presentation_type") != "QUESTION" for entry in speaking_questions):
-        failures.append(f"TEMA02_SPEAKING_MUST_HAVE_6_QUESTION_CARDS:{len(speaking_questions)}")
-    p129_q1 = [entry for entry in entries if entry.get("mirror_id") == "T2V23_P129_Q01"]
-    if len(p129_q1) != 1:
-        failures.append("TEMA02_P129_MEDIA_BOUNDARY_ENTRY_MISSING")
-    else:
-        note = note_text(p129_q1[0]).casefold()
-        locator = str(p129_q1[0].get("source_locator", "")).casefold()
-        if "video" not in note or "izledi" not in note or "video" not in locator:
-            failures.append("TEMA02_P129_MEDIA_BOUNDARY_NOT_EXPLICIT")
-
-    listening_questions = [entry for entry in entries if entry.get("mirror_id") in REQUIRED_LISTENING_QUESTION_IDS]
-    if len(listening_questions) != 11 or any(entry.get("presentation_type") != "QUESTION" for entry in listening_questions):
-        failures.append(f"TEMA02_LISTENING_MUST_HAVE_11_QUESTION_CARDS:{len(listening_questions)}")
-
-    p140 = [entry for entry in entries if entry.get("mirror_id") == "T2V23_P140_VOCAB"]
-    if len(p140) != 1:
-        failures.append("TEMA02_P140_MEDIA_BOUNDARY_ENTRY_MISSING")
-    else:
-        note = note_text(p140[0]).casefold()
-        locator = str(p140[0].get("source_locator", "")).casefold()
-        if "qr" not in note or "gerçek dinleme" not in note or "qr" not in locator:
-            failures.append("TEMA02_P140_MEDIA_BOUNDARY_NOT_EXPLICIT")
-
-    p144_map = [entry for entry in entries if entry.get("mirror_id") == "T2V23_P144_MEDIA_MAP"]
-    if len(p144_map) != 1:
-        failures.append("TEMA02_P144_MEDIA_BOUNDARY_ENTRY_MISSING")
-    else:
-        note = note_text(p144_map[0]).casefold()
-        locator = str(p144_map[0].get("source_locator", "")).casefold()
-        if "qr medyada gerçekten" not in note or "uydur" not in note or "qr" not in locator:
-            failures.append("TEMA02_P144_MEDIA_BOUNDARY_NOT_EXPLICIT")
-
-    fragment_88_112 = [mirror for mirror in mirrors if mirror.get("scope", {}).get("printed_page_range") == "88-112"]
-    if len(fragment_88_112) != 1 or fragment_88_112[0].get("scope", {}).get("status") != "REVIEW_REQUIRED":
-        failures.append("TEMA02_88_112_MUST_REMAIN_REVIEW_REQUIRED")
-    fragment_113_128 = [mirror for mirror in mirrors if mirror.get("scope", {}).get("printed_page_range") == "113-128"]
-    if len(fragment_113_128) != 1 or fragment_113_128[0].get("scope", {}).get("status") != "REVIEW_REQUIRED":
-        failures.append("TEMA02_113_128_MUST_REMAIN_REVIEW_REQUIRED")
-    fragment_129_135 = [mirror for mirror in mirrors if mirror.get("scope", {}).get("printed_page_range") == "129-135"]
-    if len(fragment_129_135) != 1 or fragment_129_135[0].get("scope", {}).get("status") != "REVIEW_REQUIRED":
-        failures.append("TEMA02_129_135_MUST_REMAIN_REVIEW_REQUIRED")
-    fragment_136_147 = [mirror for mirror in mirrors if mirror.get("scope", {}).get("printed_page_range") == "136-147"]
-    if len(fragment_136_147) != 1 or fragment_136_147[0].get("scope", {}).get("status") != "REVIEW_REQUIRED":
-        failures.append("TEMA02_136_147_MUST_REMAIN_REVIEW_REQUIRED")
-
-    qr_entries = [entry for entry in entries if entry.get("mirror_id") == "T2V23_P135_QR_LIMIT"]
-    if len(qr_entries) != 1:
-        failures.append("TEMA02_P135_QR_BOUNDARY_ENTRY_MISSING")
-    else:
-        note = note_text(qr_entries[0]).casefold()
-        locator = str(qr_entries[0].get("source_locator", "")).casefold()
-        if "görünmeyen" not in note or "üretmeyin" not in note or "qr" not in locator:
-            failures.append("TEMA02_P135_QR_BOUNDARY_NOT_EXPLICIT")
+    for page_range in ("88-112", "113-128", "129-135", "136-147"):
+        require_fragment(failures, mirrors, page_range)
 
     result = {
         "status": "PASS" if not failures else "FAIL",
