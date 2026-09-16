@@ -1,16 +1,17 @@
 #!/usr/bin/env python3
 """Build the Teacher Guide V2.3 book-first pilot.
 
-V2.3 deliberately reverses the V2.2 projection order:
-  textbook page/heading -> recognisable book task -> canonical answer -> selective teacher note.
+Projection order:
+  textbook page/heading -> recognisable book task -> canonical answer/component -> selective teacher note.
 
-The book mirror is a thin, reviewable UX contract. It never replaces canonical
-teacher-guide data and it never auto-fills pedagogy fields from generic profiles.
+The mirror is a thin, reviewable UX contract. It never replaces canonical
+teacher-guide data and never auto-fills pedagogy from generic profiles.
 """
 from __future__ import annotations
 
 import argparse
 import json
+import re
 from collections import defaultdict
 from pathlib import Path
 from typing import Any
@@ -72,6 +73,62 @@ def render_value(value: Any, indent: int = 0) -> list[str]:
     return [prefix + render_scalar(value)]
 
 
+def parse_page_range(value: str) -> tuple[int, int]:
+    match = re.fullmatch(r"\s*(\d+)\s*(?:[-–—]\s*(\d+)\s*)?", value)
+    if not match:
+        raise ValueError(f"invalid printed page range: {value}")
+    start = int(match.group(1))
+    end = int(match.group(2) or start)
+    if end < start:
+        raise ValueError(f"invalid printed page range: {value}")
+    return start, end
+
+
+def discover_mirror_paths(primary: Path) -> list[Path]:
+    candidates = [primary]
+    for path in primary.parent.glob("book_mirror_v23_*.json"):
+        if path != primary:
+            candidates.append(path)
+    return sorted(candidates, key=lambda p: parse_page_range(read_json(p)["scope"]["printed_page_range"])[0])
+
+
+def merge_mirrors(paths: list[Path]) -> dict[str, Any]:
+    docs = [read_json(path) for path in paths]
+    base = docs[0]
+    course_id = base["course_id"]
+    theme_id = base["theme_id"]
+    principles: list[str] = []
+    entries: list[dict[str, Any]] = []
+    checklist: list[dict[str, Any]] = []
+    starts: list[int] = []
+    ends: list[int] = []
+
+    for doc in docs:
+        if doc["course_id"] != course_id or doc["theme_id"] != theme_id:
+            raise ValueError("mirror fragment identity mismatch")
+        start, end = parse_page_range(doc["scope"]["printed_page_range"])
+        starts.append(start)
+        ends.append(end)
+        for principle in doc.get("guide_principles", []):
+            if principle not in principles:
+                principles.append(principle)
+        entries.extend(doc["entries"])
+        checklist.extend(doc["page_checklist"])
+
+    return {
+        "schema_version": "2.3.0",
+        "document_type": "TYMM_TEACHER_GUIDE_BOOK_MIRROR",
+        "course_id": course_id,
+        "theme_id": theme_id,
+        "scope": {"printed_page_range": f"{min(starts)}-{max(ends)}", "status": "PILOT"},
+        "source_policy": base["source_policy"],
+        "guide_principles": principles,
+        "entries": entries,
+        "page_checklist": checklist,
+        "mirror_files": [str(path) for path in paths],
+    }
+
+
 def index_canonical(root: Path, manifest: dict[str, Any]) -> tuple[dict[str, dict[str, Any]], dict[str, dict[str, Any]]]:
     sections: dict[str, dict[str, Any]] = {}
     items: dict[str, dict[str, Any]] = {}
@@ -84,12 +141,22 @@ def index_canonical(root: Path, manifest: dict[str, Any]) -> tuple[dict[str, dic
                 item_id = item["item_id"]
                 if item_id in items:
                     raise ValueError(f"duplicate canonical item: {item_id}")
-                items[item_id] = {
-                    "section_id": section_id,
-                    "unit_id": unit.get("unit_id"),
-                    "item": item,
-                }
+                items[item_id] = {"section_id": section_id, "unit_id": unit.get("unit_id"), "item": item}
     return sections, items
+
+
+def project_value(entry: dict[str, Any], value: Any) -> Any:
+    keys = entry.get("answer_keys")
+    if not keys:
+        return value
+    if not isinstance(value, dict):
+        raise ValueError(f"answer_keys requires object answer: {entry['mirror_id']}")
+    missing = [key for key in keys if key not in value]
+    if missing:
+        raise ValueError(f"unknown answer_keys for {entry['mirror_id']}: {missing}")
+    if len(keys) == 1:
+        return value[keys[0]]
+    return {key: value[key] for key in keys}
 
 
 def add_teacher_note(lines: list[str], note: Any) -> None:
@@ -134,8 +201,8 @@ def render_entry(lines: list[str], entry: dict[str, Any], canonical: dict[str, d
         if len(refs) > 1:
             lines += ["", f"**{item.get('label', ref)}**"]
 
-        answer = item.get("expected_answer")
-        response = item.get("expected_response")
+        answer = project_value(entry, item.get("expected_answer"))
+        response = project_value(entry, item.get("expected_response")) if nonempty(item.get("expected_response")) else item.get("expected_response")
         if nonempty(answer):
             heading = {
                 "PROCESS": "Uygulama / beklenen süreç",
@@ -189,7 +256,8 @@ def render_markdown(mirror: dict[str, Any], canonical: dict[str, dict[str, Any]]
 
 
 def build(root: Path, mirror_path: Path, manifest_path: Path, output_path: Path) -> dict[str, Any]:
-    mirror = read_json(mirror_path)
+    mirror_paths = discover_mirror_paths(mirror_path)
+    mirror = merge_mirrors(mirror_paths)
     manifest = read_json(manifest_path)
     if mirror["course_id"] != manifest["course_id"] or mirror["theme_id"] != manifest["theme_id"]:
         raise ValueError("mirror/manifest identity mismatch")
@@ -200,10 +268,12 @@ def build(root: Path, mirror_path: Path, manifest_path: Path, output_path: Path)
         raise ValueError("unknown canonical refs: " + ", ".join(missing))
 
     output_path.write_text(render_markdown(mirror, canonical), encoding="utf-8")
-    question_entries = [e for e in mirror["entries"] if e["presentation_type"] == "QUESTION"]
-    locator_only = [e["mirror_id"] for e in question_entries if e.get("prompt_mode") == "LOCATOR_ONLY"]
+    question_entries = [entry for entry in mirror["entries"] if entry["presentation_type"] == "QUESTION"]
+    locator_only = [entry["mirror_id"] for entry in question_entries if entry.get("prompt_mode") == "LOCATOR_ONLY"]
     return {
         "status": "PASS",
+        "mirror_files": len(mirror_paths),
+        "scope": mirror["scope"]["printed_page_range"],
         "entries": len(mirror["entries"]),
         "questions": len(question_entries),
         "locator_only_questions": locator_only,
