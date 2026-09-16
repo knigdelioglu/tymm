@@ -1,0 +1,114 @@
+{
+  "schema_version": "2.3.0",
+  "document_type": "TYMM_TEACHER_GUIDE_COMPONENT_REGISTRY",
+  "course_id": "TDE_11",
+  "theme_id": "TEMA_03",
+  "policy": "Bu registry yalnız mevcut canonical itemların resmî kitapta doğrulanmış fakat canonical yapıda birleşmiş ya da görünmez kalmış alt görevlerini ekler. Var olan canonical cevap anahtarlarını değiştiremez ve her component V2.3 mirror içinde kullanılmalıdır.",
+  "components": {
+    "T3_G02_P172_SOZ_VARLIGI": {
+      "cins": {
+        "value": "Tür, çeşit. Metindeki ‘bu cinsten insanlar’ kullanımında ‘bu tür insanlar’ anlamındadır.",
+        "source_locator": "basılı s.172 / PDF s.173 — Söz Varlığımız"
+      }
+    },
+    "T3_G02_P175_176_Q1_13": {
+      "14": {
+        "value": {
+          "acik_ileti_ornekleri": [
+            "İstanbul’u tanımadıkça kendimizi bulamayız.",
+            "Yeni bir hayat lâzım."
+          ],
+          "ortuk_ileti_ornekleri": [
+            "Bireyin kimlik arayışı geçmiş, kültür ve yaşadığı şehirle ilişkilidir.",
+            "Geçmişi korumak ile yeni bir hayat kurmak birbirini dışlayan değil, birlikte düşünülmesi gereken yönlerdir."
+          ]
+        },
+        "source_locator": "basılı s.177 / PDF s.178 — Metni Anlayalım soru 14"
+      }
+    },
+    "T3_G02_P180_181_KISILER": {
+      "huzur_mescid_compare": {
+        "value": {
+          "icerik": "Huzur; birey, İstanbul, kültürel hafıza ve kimlik arayışını roman bağlamında işler. Mescid-i Aksa şiiri ise kutsal mekân, ayrılık, inanç ve dayanışma duyarlığını öne çıkarır.",
+          "tur": "Huzur’dan verilen bölüm roman nesridir; Mescid-i Aksa şiirdir.",
+          "sekil": "Huzur düzyazı/paragraf düzenindedir; Mescid-i Aksa dizeler ve bentler hâlindedir.",
+          "donem": "Metinler farklı tarihî ve edebî bağlamların ürünüdür; dönem karşılaştırması ders kitabındaki yazar ve eser bilgileriyle gerekçelendirilmelidir.",
+          "zihniyet": "Huzur’da kültürel kimlik, geçmiş-modern hayat gerilimi ve estetik duyarlık; Mescid-i Aksa’da dinî-tarihî duyarlık ve ortak aidiyet belirgindir.",
+          "uslup": "Huzur betimleyici, çağrışımlı ve düşünsel bir nesir kullanır; Mescid-i Aksa yoğun duygu, kişileştirme ve seslenmeye dayalı şiirsel bir söyleyiş kullanır.",
+          "ileti": "Her iki metin de insanın aidiyet kurduğu kültürel/tarihî değerlerin kimlik ve duygu dünyasındaki etkisini farklı tür ve söyleyişlerle görünür kılar."
+        },
+        "source_locator": "basılı s.177-178 / PDF s.178-179 — Karşılaştıralım"
+      },
+      "okuma_cemberi": {
+        "value": [
+          "Dörder kişilik gruplar kurulur; her öğrenci bir temel veya seçimlik rol üstlenir.",
+          "Bağ Kurucu metin ile yaşam/dış dünya arasında ilişki kurar; Ressam görselleştirir; Okuma Aydınlatıcısı tartışılacak bölümü seçer; Sorgulayıcı soru üretir.",
+          "Özetleyici metni özetler; Tahmin Edici sonraki gelişmeleri öngörür; Kelime Avcısı söz varlığını araştırır; Hareket İzcisi mekânı izler; Karakter Çözümleyici kişileri inceler.",
+          "Sonraki okuma çemberinde roller değiştirilir; çıkarımlar metindeki söz, davranış ve olay kanıtlarına bağlanır."
+        ],
+        "source_locator": "basılı s.178-179 / PDF s.179-180 — Okuma Çemberi 1-2. adımlar"
+      }
+    },
+    "T3_G02_P182_183_GERCEK_KURGU": {
+      "q1_oznel_nesnel": {
+        "value": "Öznel anlatım; Mümtaz’ın iç konuşmaları, yorumları, çağrışımları ve ruh hâlini doğrudan hissettirerek karakter derinliği oluşturur. Nesnel/olay bildirici anlatım ise kişinin yaptığı, gördüğü veya yaşadığı durumları daha dışarıdan aktararak olay ve bağlam bilgisini kurar. Cevapta her iki anlatım türü metinden örnekle gösterilmelidir.",
+        "source_locator": "basılı s.183 / PDF s.184 — Sıra Sizde soru 1"
+      },
+      "q2_duyarlilik": {
+        "value": "Duyarlılık; halkın yaşamına ilgi, hasta yakına bakım ve sorumluluk, kültürel köklere bağlılık, insanın toplumsal şartlarını iyileştirme isteği ve hayvanlara merhamet gibi örneklerle tartışılabilir. İnsani çelişki veya ahlaki çatışma yargısı verilen parçada görülen söz ya da davranışla gerekçelendirilmelidir.",
+        "source_locator": "basılı s.184-185 / PDF s.185-186 — Sıra Sizde soru 2"
+      },
+      "q3_dil_karsilastirma": {
+        "value": "Seçilen kahramanın dili; dönem söz varlığı, kültür-sanat göndermeleri, uzun/düşünsel cümleler veya karaktere özgü söyleyiş bakımından öğrencinin günlük diliyle karşılaştırılabilir. Farklılık ‘eski dil yanlış, günümüz dili doğru’ biçiminde değil; dönem, bağlam, amaç ve kişi özelliği üzerinden gerekçelendirilmelidir.",
+        "source_locator": "basılı s.186 / PDF s.187 — Sıra Sizde soru 3"
+      }
+    },
+    "T3_G03_P186_YAPI": {
+      "q3a_tema_uslup": {
+        "value": "Kimlik, kültürel süreklilik, aşk, huzur arayışı ve geçmiş-gelecek gerilimi gibi temalar; çağrışımlı, düşünsel, betimleyici ve iç çözümlemeye açık bir üslubu destekler.",
+        "source_locator": "basılı s.187 / PDF s.188 — soru 3/a"
+      },
+      "q3b_yapi_uslup": {
+        "value": "Mekânın kültürel anlam taşıması, kişilerin iç dünyasının ayrıntılı verilmesi, zamanın hatırlamalarla katmanlaşması ve olayların düşünce/duygu akışıyla birlikte yürütülmesi yazarın betimleyici ve psikolojik üslubunu güçlendirir.",
+        "source_locator": "basılı s.188 / PDF s.189 — soru 3/b"
+      },
+      "q3c_donem_uslup": {
+        "value": "Dönemin şehir hayatı, kültürel değişim tartışmaları, geçmiş-modernleşme gerilimi ve döneme özgü söz varlığı üsluba tarihî ve toplumsal bir katman kazandırır.",
+        "source_locator": "basılı s.188 / PDF s.189 — soru 3/c"
+      },
+      "q3c_sozvarligi_uslup": {
+        "value": "Musiki, mimari, tarih ve eski İstanbul çevresinden gelen zengin söz varlığı; Tanpınar’ın kültürel çağrışımı yüksek, katmanlı ve estetik anlatımını kuran temel araçlardan biridir.",
+        "source_locator": "basılı s.188 / PDF s.189 — soru 3/ç"
+      },
+      "q4_kisiler_amaclar": {
+        "value": {
+          "Mümtaz": "Kültür, sanat, geçmiş ve Nuran’la ilişkisi çevresinde kendini/kimliğini kurmaya çalışan duyarlı ve düşünsel kahraman.",
+          "Nuran": "Mümtaz’la ilişkisini ve kendi hayat tercihlerini dengede tutmaya çalışan; estetik duyarlığı bulunan fakat hayata daha pratik bakabilen kahraman.",
+          "İhsan": "Mümtaz’a düşünsel rehberlik eden; tarih, toplum ve kültür üzerine kurucu fikirler taşıyan entelektüel figür.",
+          "Suat": "Karamsarlık, uyumsuzluk ve ilişki gerilimi üzerinden romanın çatışma alanını büyüten figür."
+        },
+        "source_locator": "basılı s.188 / PDF s.189 — soru 4"
+      }
+    },
+    "T3_G03_P190_191_DIL_CUMLE": {
+      "cumle_ogeleri": {
+        "value": {
+          "a": "Gizli özne: biz; zarf tümleci: ‘ister istemez’; yüklem: ‘onların bir parçasıyız’.",
+          "b": "İki yüklemli yapı: ‘seviyoruz’ ve ‘anlıyoruz’; gizli özne ‘biz’; ‘eski musıkîmizi’ belirtili nesne, ikinci yüklemde bağlamdan ortaklaşır; ‘iyi kötü’ zarf tümlecidir.",
+          "c": "Özne: ‘İstanbul’un bu semtleri’; zaman/zarf tümleci: ‘bu ağustos gününde’; sebep bildiren zarf tümleci: ‘pislikten, tozdan, sıcaktan’; yüklem: ‘bitaptı’.",
+          "ç": "Yer tamlayıcısı: ‘biraz ötede’; özne: ‘kubbesi yıkılmış bir türbe’; zarf tümleci: ‘düzgün ve vakur cephesiyle’; belirtili nesne: ‘kendisini’; yüklem: ‘gösteriyor’.",
+          "d": "Özne: ‘Mümtaz’; ‘...akislerini dinlediği zaman’ bölümü zaman bildiren zarf tümlecidir; ‘...hüznün şifasızlığının hangi pınarlardan toplanıp geldiğini’ yan cümlesi belirtili nesne görevindedir; yüklem: ‘anlardı’.",
+          "e": "Gizli özne: Nuran; zarf tümleci: ‘Bu gezintilerden dönüşlerinde’; belirtili nesne: ‘Mümtaz’ı’; ‘yazmakta olduğu Şeyh Gâlip için’ amaç/ilgi bildiren zarf tümleci; yüklem: ‘sıkıştırıyordu’.",
+          "f": "Özne: ‘Nuran’; ‘...medreselere, harap Tabhane’ye, Hekimoğlu Alipaşa Camii’nin yüzük taşı biçimine’ yönelme bildiren yer tamlayıcılarıdır; yüklem: ‘hayran oldu’."
+        },
+        "source_locator": "basılı s.190-191 / PDF s.191-192 — Sıra Sizde soru 1"
+      }
+    },
+    "T3_G04_P192_CALISMA_KAGIDI": {
+      "q3_kahraman_perspektifi": {
+        "value": "Tek doğru yoktur. Öğrenci seçtiği Huzur kişisini belirtmeli; kişinin romandaki şartlarını, değerlerini ve çatışmalarını dikkate alarak ‘ben olsaydım’ tepkisini gerekçelendirmelidir. Cevap, karakterin bağlamıyla açıkça çelişmediği ve gerekçe içerdiği sürece farklılaşabilir.",
+        "source_locator": "basılı s.193 / PDF s.194 — Süreci Değerlendirebilme soru 3"
+      }
+    }
+  }
+}
