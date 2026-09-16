@@ -37,6 +37,32 @@ EXACT_STAGE_HEADINGS_53_58 = {
     "Süreci Değerlendirebilme",
 }
 
+EXACT_HEADINGS_59_73 = {
+    "Konuya Başlarken — Hatırlayalım",
+    "Dinleme / İzlemeyi Yönetebilme — Sıra Sizde",
+    "Düşünelim Paylaşalım",
+    "Ders Dışı Etkinlik — İletişim ve E-posta",
+    "Metni Dinleyelim / İzleyelim",
+    "Gözlem Formu",
+    "Anlam Oluşturabilme — Söz Varlığımız",
+    "Metni Anlayalım",
+    "Birlikte Çalışalım",
+    "Sıra Sizde — Paydos / iletişim aksaklıkları",
+    "Sıra Sizde — iletişim engelleri kavram haritası",
+    "Sıra Sizde — iletişim engellerine çözüm",
+    "Sıra Sizde — çözüm yollarını karşılaştırma",
+    "Sıra Sizde — iletişim kanalları",
+    "Çözümleyebilme",
+    "Süreci Değerlendirebilme",
+    "Çıkış Kartı",
+}
+
+REQUIRED_LISTENING_IDS = {
+    "T1V23_P66_Q01", "T1V23_P66_Q02", "T1V23_P66_Q03", "T1V23_P66_Q04", "T1V23_P66_Q05",
+    "T1V23_P67_Q06", "T1V23_P67_Q07", "T1V23_P67_Q08", "T1V23_P67_Q09",
+    "T1V23_P72_Q01", "T1V23_P72_Q02", "T1V23_P73_Q01", "T1V23_P73_Q02", "T1V23_P73_EXIT",
+}
+
 
 def read_json(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
@@ -262,6 +288,40 @@ def main() -> int:
         if len(live_entries) != 1 or not live_entries[0].get("show_acceptance"):
             failures.append("P57_LIVE_PERFORMANCE_EVIDENCE_NOT_VISIBLE")
 
+    if max_scope_end >= 73:
+        missing_listening_headings = sorted(EXACT_HEADINGS_59_73 - headings)
+        if missing_listening_headings:
+            failures.append("EXACT_LISTENING_HEADINGS_MISSING:" + " | ".join(missing_listening_headings))
+
+        missing_listening_ids = sorted(REQUIRED_LISTENING_IDS - seen_mirror_ids)
+        if missing_listening_ids:
+            failures.append("LISTENING_FIRST_CLASS_TASKS_MISSING:" + ",".join(missing_listening_ids))
+
+        metni_anlayalim = [
+            entry for entry in entries
+            if entry.get("mirror_id", "").startswith("T1V23_P66_Q") or entry.get("mirror_id", "").startswith("T1V23_P67_Q")
+        ]
+        if len(metni_anlayalim) != 9:
+            failures.append(f"LISTENING_METNI_ANLAYALIM_MUST_HAVE_9_QUESTIONS:{len(metni_anlayalim)}")
+        if any(entry.get("presentation_type") != "QUESTION" for entry in metni_anlayalim):
+            failures.append("LISTENING_METNI_ANLAYALIM_NOT_ALL_QUESTION_CARDS")
+
+        source_sensitive_ids = {"T1V23_P67_Q08", "T1V23_P72_Q01", "T1V23_P73_Q01"}
+        for mid in source_sensitive_ids:
+            matched = [entry for entry in entries if entry.get("mirror_id") == mid]
+            if len(matched) != 1:
+                failures.append(f"SOURCE_SENSITIVE_LISTENING_ENTRY_MISSING:{mid}")
+                continue
+            note = note_text(matched[0]).casefold()
+            if not any(token in note for token in ("medya", "qr", "kanıt")):
+                failures.append(f"SOURCE_SENSITIVE_LISTENING_NOTE_WEAK:{mid}")
+
+        canonical_listening = canonical.get("T1_G16_P65_71_COMPREHENSION", {}).get("item", {})
+        provenance = canonical_listening.get("provenance", {}) if isinstance(canonical_listening, dict) else {}
+        provenance_note = str(provenance.get("note", "")).casefold() if isinstance(provenance, dict) else ""
+        if "yeniden doğrulan" not in provenance_note or "medya" not in provenance_note:
+            failures.append("LISTENING_CANONICAL_PDF_REFRESH_NOT_RECORDED")
+
     result = {
         "status": "PASS" if not failures else "FAIL",
         "metrics": {
@@ -274,6 +334,7 @@ def main() -> int:
             "shared_canonical_items": sum(1 for rows in projections.values() if len(rows) > 1),
             "teacher_note_density": round(density, 3),
             "review_required_fragments": sum(1 for mirror in mirrors if mirror.get("scope", {}).get("status") == "REVIEW_REQUIRED"),
+            "pdf_verified_listening_questions": 9 if max_scope_end >= 73 else 0,
         },
         "warnings": warnings,
         "failures": failures,
