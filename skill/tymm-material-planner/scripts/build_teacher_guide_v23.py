@@ -7,9 +7,9 @@ Projection order:
 The mirror is a thin, reviewable UX contract. It never replaces canonical
 teacher-guide data and never auto-fills pedagogy from generic profiles.
 
-For legacy grouped canonical items, an optional ``book_components_v23.json``
-may add source-verified *new* answer components. The registry is an additive
-projection aid only: it cannot overwrite an existing canonical answer key.
+Legacy grouped canonical items may be supplemented by source-verified additive
+component registries named ``book_components_v23*.json``. Registry fragments
+cannot overwrite canonical answer keys or define the same component twice.
 """
 from __future__ import annotations
 
@@ -150,16 +150,44 @@ def index_canonical(root: Path, manifest: dict[str, Any]) -> tuple[dict[str, dic
     return sections, items
 
 
+def discover_component_registry_paths(mirror_path: Path) -> list[Path]:
+    return sorted(mirror_path.parent.glob("book_components_v23*.json"))
+
+
 def load_component_registry(mirror_path: Path, mirror: dict[str, Any]) -> tuple[Path | None, dict[str, Any] | None]:
-    path = mirror_path.parent / "book_components_v23.json"
-    if not path.exists():
+    paths = discover_component_registry_paths(mirror_path)
+    if not paths:
         return None, None
-    registry = read_json(path)
-    if registry.get("document_type") != "TYMM_TEACHER_GUIDE_COMPONENT_REGISTRY":
-        raise ValueError(f"invalid component registry document_type: {path}")
-    if registry.get("course_id") != mirror.get("course_id") or registry.get("theme_id") != mirror.get("theme_id"):
-        raise ValueError(f"component registry identity mismatch: {path}")
-    return path, registry
+
+    merged: dict[str, Any] = {
+        "document_type": "TYMM_TEACHER_GUIDE_COMPONENT_REGISTRY",
+        "course_id": mirror.get("course_id"),
+        "theme_id": mirror.get("theme_id"),
+        "components": {},
+    }
+    merged_components: dict[str, dict[str, Any]] = merged["components"]
+
+    for path in paths:
+        registry = read_json(path)
+        if registry.get("document_type") != "TYMM_TEACHER_GUIDE_COMPONENT_REGISTRY":
+            raise ValueError(f"invalid component registry document_type: {path}")
+        if registry.get("course_id") != mirror.get("course_id") or registry.get("theme_id") != mirror.get("theme_id"):
+            raise ValueError(f"component registry identity mismatch: {path}")
+        components = registry.get("components")
+        if not isinstance(components, dict):
+            raise ValueError(f"component registry components must be an object: {path}")
+        for item_id, component_map in components.items():
+            if not isinstance(component_map, dict) or not component_map:
+                raise ValueError(f"component registry item must contain components: {path}:{item_id}")
+            target = merged_components.setdefault(item_id, {})
+            overlap = sorted(set(target) & set(component_map))
+            if overlap:
+                raise ValueError(
+                    f"duplicate component registry key across fragments: {item_id}:{','.join(overlap)}"
+                )
+            target.update(component_map)
+
+    return paths[0], merged
 
 
 def apply_component_registry(canonical: dict[str, dict[str, Any]], registry: dict[str, Any] | None) -> int:
