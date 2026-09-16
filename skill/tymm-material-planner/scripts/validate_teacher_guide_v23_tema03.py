@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Source-parity gate for the Theme 3 Teacher Guide V2.3 checkpoint (s.160-214)."""
+"""Source-parity gate for the Theme 3 Teacher Guide V2.3 checkpoint (s.160-224)."""
 from __future__ import annotations
 
 import argparse
@@ -68,6 +68,8 @@ REQUIRED_ENTRIES = {
     *BIOGRAPHY_REQUIRED_NONQUESTIONS,
     *SPEAKING_QUESTIONS,
     *SPEAKING_REQUIRED_NONQUESTIONS,
+    "T3V23_P215_Q01", "T3V23_P215_Q02", "T3V23_P215_Q03",
+    "T3V23_P216_DINLEME_YONETIM", "T3V23_P217_SOZ_VARLIGI",
 }
 REQUIRED_HEADINGS = {
     "3. Tema — Yaşamın İzinde / tema çerçevesi",
@@ -102,17 +104,21 @@ REQUIRED_HEADINGS = {
     "Kural Uygulayabilme — hayalî mülakatı gerçekleştirme",
     "Süreci Değerlendirebilme — açık ve örtük iletiler",
     "Süreci Değerlendirebilme — rubrik, öz değerlendirme, gelişim ve akran geri bildirimi",
+    "Konuya Başlarken — radyo tiyatrosuna ilginin azalması",
+    "Dinleme / İzlemeyi Yönetebilme — amaç, strateji, tahmin ve Gözlem Formu",
+    "Hatırlayalım — radyo tiyatrosunun unsurları",
+    "Metni Anlayalım — Direnişin Ustaları",
 }
 
 EXPECTED = {
-    "scope": "160-214",
-    "entries": 96,
-    "questions": 76,
-    "recognizable_questions": 76,
-    "component_projected_entries": 76,
-    "shared_canonical_items": 18,
-    "component_registry_entries": 27,
-    "component_registry_used": 27,
+    "scope": "160-224",
+    "entries": 123,
+    "questions": 98,
+    "recognizable_questions": 98,
+    "component_projected_entries": 100,
+    "shared_canonical_items": 23,
+    "component_registry_entries": 44,
+    "component_registry_used": 44,
 }
 
 
@@ -174,11 +180,44 @@ def main() -> int:
     require_question_cards(failures, entries, "P208", p208)
     require_question_cards(failures, entries, "P209", p209)
 
+    listening_mirrors = [mirror for mirror in mirrors if mirror.get("scope", {}).get("printed_page_range") == "215-224"]
+    if len(listening_mirrors) != 1:
+        failures.append(f"TEMA03_LISTENING_FRAGMENT_COUNT:{len(listening_mirrors)}")
+        listening_entries: list[dict] = []
+    else:
+        listening_entries = listening_mirrors[0].get("entries", [])
+        if listening_mirrors[0].get("scope", {}).get("status") != "REVIEW_REQUIRED":
+            failures.append("TEMA03_LISTENING_MUST_REMAIN_REVIEW_REQUIRED")
+
+    listening_questions = [entry for entry in listening_entries if entry.get("presentation_type") == "QUESTION"]
+    listening_nonquestions = [entry for entry in listening_entries if entry.get("presentation_type") != "QUESTION"]
+    if len(listening_entries) != 27 or len(listening_questions) != 22 or len(listening_nonquestions) != 5:
+        failures.append(
+            f"TEMA03_LISTENING_NATURAL_GRANULARITY:{len(listening_entries)}/{len(listening_questions)}/{len(listening_nonquestions)}"
+        )
+    p215 = [entry for entry in listening_questions if entry.get("printed_page_range") == "215"]
+    if len(p215) != 3:
+        failures.append(f"TEMA03_P215_MUST_KEEP_3_SOURCE_QUESTIONS:{len(p215)}")
+    p218_hatir = [entry for entry in listening_questions if str(entry.get("mirror_id", "")).startswith("T3V23_P218_HATIR_Q")]
+    if len(p218_hatir) != 2:
+        failures.append(f"TEMA03_P218_MUST_KEEP_2_HATIRLAYALIM_QUESTIONS:{len(p218_hatir)}")
+
+    media_questions = [entry for entry in listening_questions if "QR medya gerekli" in str(entry.get("source_locator", ""))]
+    if len(media_questions) < 10:
+        failures.append(f"TEMA03_MEDIA_BOUND_QUESTION_COVERAGE_TOO_LOW:{len(media_questions)}")
+    for entry in media_questions:
+        combined = " ".join(
+            str(entry.get(key, "")) for key in ("teacher_note", "source_locator", "prompt_display")
+        ).casefold()
+        if not any(token in combined for token in ("medya", "duy", "izle", "kanıt", "hazır")):
+            failures.append(f"TEMA03_MEDIA_EVIDENCE_BOUNDARY_MISSING:{entry.get('mirror_id')}")
+
     expected_fragments = {
         "160-163": "PILOT",
         "164-193": "REFERENCE_QUALITY",
         "194-209": "REFERENCE_QUALITY",
         "210-214": "REVIEW_REQUIRED",
+        "215-224": "REVIEW_REQUIRED",
     }
     for page_range, status in expected_fragments.items():
         rows = [mirror for mirror in mirrors if mirror.get("scope", {}).get("printed_page_range") == page_range]
@@ -194,7 +233,10 @@ def main() -> int:
             "pdf_verified_huzur_metni_anlayalim_questions": 14,
             "pdf_verified_biography_tezkire_questions": len(BIOGRAPHY_QUESTIONS),
             "pdf_verified_speaking_questions": len(SPEAKING_QUESTIONS),
+            "pdf_verified_listening_questions": len(listening_questions),
+            "listening_natural_process_blocks": len(listening_nonquestions),
             "speaking_qr_boundary_preserved": True,
+            "listening_media_boundary_preserved": not any("MEDIA_EVIDENCE_BOUNDARY_MISSING" in failure for failure in failures),
         },
         "warnings": warnings,
         "failures": failures,
