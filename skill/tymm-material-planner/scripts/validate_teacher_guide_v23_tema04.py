@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Source-parity gate for Theme 4 Teacher Guide V2.3 checkpoint (s.236-279)."""
+"""Source-parity gate for the complete Theme 4 Teacher Guide V2.3 (s.236-307)."""
 from __future__ import annotations
 
 import argparse
@@ -8,61 +8,54 @@ from pathlib import Path
 
 from validate_teacher_guide_v23_generic import discover_mirror_paths, read_json, validate
 
-OPENING_QUESTIONS = {
-    "T4V23_P238_Q01": ("1",),
-    "T4V23_P238_Q02": ("2",),
-    "T4V23_P239_Q03": ("3",),
-    "T4V23_P239_Q04": ("4",),
-    "T4V23_P239_Q05": ("5",),
+EXPECTED = {
+    "mirror_files": 7,
+    "scope": "236-307",
+    "entries": 143,
+    "questions": 105,
+    "recognizable_questions": 105,
+    "review_required_fragments": 3,
+    "component_registry_entries": 65,
+    "component_registry_used": 65,
 }
 
+EXPECTED_FRAGMENTS = {
+    "236-239": ("PILOT", 7, 5),
+    "240-262": ("REFERENCE_QUALITY", 32, 22),
+    "263-279": ("REFERENCE_QUALITY", 34, 22),
+    "280-283": ("REVIEW_REQUIRED", 10, 7),
+    "284-297": ("REVIEW_REQUIRED", 33, 29),
+    "298-302": ("REVIEW_REQUIRED", 13, 6),
+    "303-307": ("REFERENCE_QUALITY", 14, 14),
+}
+
+OPENING_IDS = {
+    "T4V23_P238_Q01",
+    "T4V23_P238_Q02",
+    "T4V23_P239_Q03",
+    "T4V23_P239_Q04",
+    "T4V23_P239_Q05",
+}
 THEATRE_Q251 = {
     "T4V23_P251_252_Q01",
     "T4V23_P251_252_Q02",
     "T4V23_P252_Q03",
 }
-THEATRE_Q257_258 = {
-    "T4V23_P257_Q01", "T4V23_P257_258_Q02",
-    "T4V23_P258_Q01", "T4V23_P258_Q02",
-}
-THEATRE_Q259_260 = {
-    "T4V23_P259_Q01", "T4V23_P259_Q02",
-    "T4V23_P260_Q01", "T4V23_P260_Q02", "T4V23_P260_Q03", "T4V23_P260_Q04",
-}
 THEATRE_Q262 = {"T4V23_P262_Q01", "T4V23_P262_Q02"}
-
-MERDIVEN_P268 = {
-    "T4V23_P268_Q01", "T4V23_P268_Q02", "T4V23_P268_Q03",
+SPEAKING_Q = {
+    "T4V23_P280_Q01",
+    "T4V23_P280_Q02",
+    "T4V23_P281_Q03",
+    "T4V23_P281_Q04",
+    "T4V23_P283_Q01",
+    "T4V23_P283_Q02",
+    "T4V23_P283_Q03",
 }
-MERDIVEN_METNI_ANLAYALIM = {
-    *{f"T4V23_P269_Q{n:02d}" for n in range(1, 8)},
-    "T4V23_P270_Q08",
-}
-MERDIVEN_P272 = {"T4V23_P272_Q01", "T4V23_P272_Q02"}
-MERDIVEN_P273 = {"T4V23_P273_Q01", "T4V23_P273_Q02"}
-MERDIVEN_P275_277 = {
-    "T4V23_P275_Q01", "T4V23_P275_Q02A", "T4V23_P275_Q02B",
-    "T4V23_P276_Q03", "T4V23_P277_Q01", "T4V23_P277_Q02",
-}
-
-EXPECTED = {
-    "mirror_files": 3,
-    "scope": "236-279",
-    "entries": 73,
-    "questions": 49,
-    "recognizable_questions": 49,
-    "component_projected_entries": 55,
-    "shared_canonical_items": 16,
-    "review_required_fragments": 0,
-    "component_registry_entries": 32,
-    "component_registry_used": 32,
-}
-
-EXPECTED_FRAGMENTS = {
-    "236-239": "PILOT",
-    "240-262": "REFERENCE_QUALITY",
-    "263-279": "REFERENCE_QUALITY",
-}
+ASSESSMENT_Q = {f"T4V23_P{page}_Q{num:02d}" for page, num in [
+    (303, 1), (304, 2), (304, 3), (304, 4), (305, 5), (305, 6),
+    (306, 7), (306, 8), (306, 9), (307, 10), (307, 11), (307, 12),
+    (307, 13), (307, 14),
+]}
 
 
 def page_span(entry: dict) -> tuple[int, int]:
@@ -71,19 +64,31 @@ def page_span(entry: dict) -> tuple[int, int]:
     return int(parts[0]), int(parts[-1])
 
 
-def entries_in(entries: list[dict], start: int, end: int) -> list[dict]:
-    result = []
-    for entry in entries:
-        left, right = page_span(entry)
-        if left >= start and right <= end:
-            result.append(entry)
-    return result
+def in_range(entry: dict, start: int, end: int) -> bool:
+    left, right = page_span(entry)
+    return left >= start and right <= end
 
 
-def require_questions(failures: list[str], entries: list[dict], label: str, ids: set[str]) -> None:
-    rows = [entry for entry in entries if entry.get("mirror_id") in ids]
-    if len(rows) != len(ids) or any(entry.get("presentation_type") != "QUESTION" for entry in rows):
-        failures.append(f"TEMA04_{label}_QUESTION_PARITY:{len(rows)}/{len(ids)}")
+def rows_in(entries: list[dict], start: int, end: int) -> list[dict]:
+    return [entry for entry in entries if in_range(entry, start, end)]
+
+
+def questions_in(entries: list[dict], start: int, end: int) -> list[dict]:
+    return [
+        entry for entry in entries
+        if in_range(entry, start, end) and entry.get("presentation_type") == "QUESTION"
+    ]
+
+
+def ids(rows: list[dict]) -> set[str]:
+    return {str(row.get("mirror_id")) for row in rows}
+
+
+def require_exact_ids(failures: list[str], label: str, actual: set[str], expected: set[str]) -> None:
+    if actual != expected:
+        failures.append(
+            f"TEMA04_{label}_ID_PARITY:missing={sorted(expected-actual)!r}:extra={sorted(actual-expected)!r}"
+        )
 
 
 def main() -> int:
@@ -102,142 +107,125 @@ def main() -> int:
     warnings = list(report["warnings"])
     metrics = report["metrics"]
 
-    for key, value in EXPECTED.items():
-        if metrics.get(key) != value:
-            failures.append(f"TEMA04_METRIC_PARITY:{key}:{metrics.get(key)}!={value}")
+    for key, expected in EXPECTED.items():
+        if metrics.get(key) != expected:
+            failures.append(f"TEMA04_METRIC_PARITY:{key}:{metrics.get(key)}!={expected}")
 
-    mirrors = [read_json(path) for path in discover_mirror_paths(mirror_path)]
+    mirror_paths = discover_mirror_paths(mirror_path)
+    mirrors = [read_json(path) for path in mirror_paths]
     entries = [entry for mirror in mirrors for entry in mirror.get("entries", [])]
     by_id = {str(entry.get("mirror_id")): entry for entry in entries}
 
-    actual_fragments = {
-        str(mirror.get("scope", {}).get("printed_page_range")): mirror.get("scope", {}).get("status")
-        for mirror in mirrors
-    }
-    if actual_fragments != EXPECTED_FRAGMENTS:
-        failures.append(f"TEMA04_FRAGMENT_PARITY:{actual_fragments!r}")
-
-    opening = entries_in(entries, 236, 239)
-    opening_questions = [entry for entry in opening if entry.get("presentation_type") == "QUESTION"]
-    if len(opening) != 7 or len(opening_questions) != 5:
-        failures.append(f"TEMA04_OPENING_PARITY:{len(opening)}/{len(opening_questions)}")
-
-    yunus = by_id.get("T4V23_P237_YUNUS_REFERENCE", {})
-    if yunus.get("presentation_type") != "REFERENCE":
-        failures.append("TEMA04_P237_YUNUS_MUST_NOT_BECOME_QUESTION")
-    if any(entry.get("presentation_type") == "QUESTION" and entry.get("printed_page_range") == "237" for entry in entries):
-        failures.append("TEMA04_P237_SOURCE_HAS_NO_QUESTION")
-
-    for mirror_id, expected_keys in OPENING_QUESTIONS.items():
-        entry = by_id.get(mirror_id)
-        if not entry or entry.get("presentation_type") != "QUESTION":
-            failures.append(f"TEMA04_OPENING_QUESTION_MISSING:{mirror_id}")
+    # Fragment coverage and natural granularity.
+    for mirror in mirrors:
+        scope = str(mirror.get("scope", {}).get("printed_page_range"))
+        expected = EXPECTED_FRAGMENTS.get(scope)
+        if expected is None:
+            failures.append(f"TEMA04_UNEXPECTED_FRAGMENT:{scope}")
             continue
-        if tuple(entry.get("answer_keys", [])) != expected_keys:
-            failures.append(f"TEMA04_OPENING_ANSWER_KEY_DRIFT:{mirror_id}")
+        status, expected_entries, expected_questions = expected
+        rows = list(mirror.get("entries", []))
+        qrows = [row for row in rows if row.get("presentation_type") == "QUESTION"]
+        if mirror.get("scope", {}).get("status") != status:
+            failures.append(f"TEMA04_FRAGMENT_STATUS:{scope}:{mirror.get('scope', {}).get('status')}!={status}")
+        if len(rows) != expected_entries or len(qrows) != expected_questions:
+            failures.append(
+                f"TEMA04_FRAGMENT_GRANULARITY:{scope}:{len(rows)}/{len(qrows)}"
+                f"!={expected_entries}/{expected_questions}"
+            )
+    if {str(m.get("scope", {}).get("printed_page_range")) for m in mirrors} != set(EXPECTED_FRAGMENTS):
+        failures.append("TEMA04_FRAGMENT_COVERAGE_DRIFT")
 
-    theatre = entries_in(entries, 240, 262)
-    theatre_questions = [entry for entry in theatre if entry.get("presentation_type") == "QUESTION"]
-    theatre_nonquestions = [entry for entry in theatre if entry.get("presentation_type") != "QUESTION"]
-    if len(theatre) != 32 or len(theatre_questions) != 22 or len(theatre_nonquestions) != 10:
-        failures.append(f"TEMA04_THEATRE_NATURAL_GRANULARITY:{len(theatre)}/{len(theatre_questions)}/{len(theatre_nonquestions)}")
+    # Opening: s.237 is a transition/reference, not a fabricated question.
+    require_exact_ids(failures, "OPENING", ids(questions_in(entries, 236, 239)), OPENING_IDS)
+    if by_id.get("T4V23_P237_YUNUS_REFERENCE", {}).get("presentation_type") != "REFERENCE":
+        failures.append("TEMA04_P237_YUNUS_MUST_REMAIN_REFERENCE")
 
-    require_questions(failures, theatre, "P251_252", THEATRE_Q251)
-    require_questions(failures, theatre, "P257_258", THEATRE_Q257_258)
-    require_questions(failures, theatre, "P259_260", THEATRE_Q259_260)
-    require_questions(failures, theatre, "P262", THEATRE_Q262)
-
-    # Source has three real Metni Anlayalım questions here; do not recreate V2's artificial four-card split.
-    source_q251 = [entry for entry in theatre_questions if entry.get("mirror_id") in THEATRE_Q251]
-    if len(source_q251) != 3:
-        failures.append("TEMA04_P251_252_MUST_KEEP_3_SOURCE_QUESTIONS")
-    q1 = by_id.get("T4V23_P251_252_Q01", {})
-    if tuple(q1.get("answer_keys", [])) != ("source_q1_topic_purpose_author",):
-        failures.append("TEMA04_P251_Q1_MUST_KEEP_TOPIC_PURPOSE_AUTHOR_TOGETHER")
-    q2 = by_id.get("T4V23_P251_252_Q02", {})
-    if tuple(q2.get("answer_keys", [])) != ("source_q2_character",):
-        failures.append("TEMA04_P251_Q2_CHARACTER_SUBPARTS_MUST_STAY_TOGETHER")
-
-    theatre_process_ids = {
-        "T4V23_P240_TIYATRO_ONBILGI",
-        "T4V23_P241_242_OKUMA_YONETIM",
-        "T4V23_P248_249_TIYATRO_ISLEVI",
-        "T4V23_P260_SOSYAL_BILIM",
-        "T4V23_P261_CATISMA",
-    }
-    for mid in theatre_process_ids:
-        if by_id.get(mid, {}).get("presentation_type") != "PROCESS":
-            failures.append(f"TEMA04_PROCESS_BOUNDARY_DRIFT:{mid}")
+    # Theatre: the source has three real Metni Anlayalım questions at s.251-252 and two Sıra Sizde at s.262.
+    require_exact_ids(
+        failures,
+        "THEATRE_P251_252",
+        {str(row.get("mirror_id")) for row in questions_in(entries, 251, 252) if row.get("mirror_id") in THEATRE_Q251},
+        THEATRE_Q251,
+    )
+    require_exact_ids(failures, "THEATRE_P262", ids(questions_in(entries, 262, 262)), THEATRE_Q262)
     if by_id.get("T4V23_P256_YAPI", {}).get("presentation_type") != "TABLE":
-        failures.append("TEMA04_P256_STRUCTURE_MUST_REMAIN_TABLE_PROCESS")
-    if {str(e.get("mirror_id")) for e in theatre_questions if e.get("printed_page_range") == "262"} != THEATRE_Q262:
-        failures.append("TEMA04_P262_MUST_KEEP_2_SOURCE_QUESTIONS")
+        failures.append("TEMA04_P256_STRUCTURE_MUST_REMAIN_TABLE")
+    for mid in ("T4V23_P260_SOSYAL_BILIM", "T4V23_P261_CATISMA"):
+        if by_id.get(mid, {}).get("presentation_type") != "PROCESS":
+            failures.append(f"TEMA04_THEATRE_PROCESS_BOUNDARY:{mid}")
 
-    merdiven = entries_in(entries, 263, 279)
-    merdiven_questions = [entry for entry in merdiven if entry.get("presentation_type") == "QUESTION"]
-    merdiven_nonquestions = [entry for entry in merdiven if entry.get("presentation_type") != "QUESTION"]
-    if len(merdiven) != 34 or len(merdiven_questions) != 22 or len(merdiven_nonquestions) != 12:
-        failures.append(f"TEMA04_MERDIVEN_NATURAL_GRANULARITY:{len(merdiven)}/{len(merdiven_questions)}/{len(merdiven_nonquestions)}")
+    # Küçürek hikâye: eight Metni Anlayalım questions are separate; group techniques stay processes.
+    kucurek_metni = questions_in(entries, 269, 270)
+    if len(kucurek_metni) != 8:
+        failures.append(f"TEMA04_KUCU_REK_METNI_ANLAYALIM_1_8:{len(kucurek_metni)}/8")
+    if by_id.get("T4V23_P274_KARAKTER", {}).get("presentation_type") != "PROCESS":
+        failures.append("TEMA04_P274_CHARACTER_GROUP_MUST_REMAIN_PROCESS")
+    if by_id.get("T4V23_P276_277_CATISMA", {}).get("presentation_type") != "PROCESS":
+        failures.append("TEMA04_P276_277_CONFLICT_GROUP_MUST_REMAIN_PROCESS")
 
-    require_questions(failures, merdiven, "MERDIVEN_P268", MERDIVEN_P268)
-    require_questions(failures, merdiven, "MERDIVEN_METNI_ANLAYALIM", MERDIVEN_METNI_ANLAYALIM)
-    require_questions(failures, merdiven, "MERDIVEN_P272", MERDIVEN_P272)
-    require_questions(failures, merdiven, "MERDIVEN_P273", MERDIVEN_P273)
-    require_questions(failures, merdiven, "MERDIVEN_P275_277", MERDIVEN_P275_277)
+    # Speaking: four preparation questions + three reflection questions, with performance/rubric kept separate.
+    require_exact_ids(failures, "SPEAKING_7", ids(questions_in(entries, 280, 283)), SPEAKING_Q)
+    if by_id.get("T4V23_P281_PERFORMANS", {}).get("presentation_type") != "PROCESS":
+        failures.append("TEMA04_SPEAKING_PERFORMANCE_MUST_REMAIN_PROCESS")
+    if by_id.get("T4V23_P283_RUBRIK", {}).get("presentation_type") != "ASSESSMENT":
+        failures.append("TEMA04_SPEAKING_QR_RUBRIC_BOUNDARY")
 
-    # Source Q1 asks about the elderly and young man together. Keep the pair in one card.
-    merdiven_q1 = by_id.get("T4V23_P269_Q01", {})
-    if tuple(merdiven_q1.get("answer_keys", [])) != ("ihtiyar", "delikanli"):
-        failures.append("TEMA04_MERDIVEN_Q1_MUST_KEEP_TWO_CHARACTERS_TOGETHER")
+    # Listening/viewing: 11 Metni Anlayalım + 14 Çözümleyebilme source questions remain individually findable.
+    listening = rows_in(entries, 284, 297)
+    listening_questions = [row for row in listening if row.get("presentation_type") == "QUESTION"]
+    if len(listening) != 33 or len(listening_questions) != 29:
+        failures.append(f"TEMA04_LISTENING_GRANULARITY:{len(listening)}/{len(listening_questions)}")
+    metni_11 = [row for row in listening_questions if "Metni Anlayalım" in str(row.get("book_heading", ""))]
+    if len(metni_11) != 11:
+        failures.append(f"TEMA04_LISTENING_METNI_ANLAYALIM:{len(metni_11)}/11")
+    cozum_14 = [row for row in listening_questions if in_range(row, 294, 296)]
+    if len(cozum_14) != 14:
+        failures.append(f"TEMA04_LISTENING_COZUMLEME:{len(cozum_14)}/14")
+    for row in listening_questions:
+        if row.get("printed_page_range") in {"287", "288", "289", "290", "291", "293", "294", "295", "296", "297"}:
+            note = str(row.get("teacher_note", "")) + " " + str(row.get("source_locator", ""))
+            if any(token in str(row.get("source_locator", "")) for token in ("QR", "video")) and not any(
+                token in note.casefold() for token in ("video", "kanıt", "izlen", "qr")
+            ):
+                failures.append(f"TEMA04_MEDIA_BOUNDARY_MISSING:{row.get('mirror_id')}")
 
-    # The source has eight numbered Metni Anlayalım questions, all of which must remain independently findable.
-    metni_rows = [entry for entry in merdiven_questions if entry.get("mirror_id") in MERDIVEN_METNI_ANLAYALIM]
-    if len(metni_rows) != 8:
-        failures.append(f"TEMA04_MERDIVEN_MUST_KEEP_8_METNI_ANLAYALIM:{len(metni_rows)}")
+    # Writing: only the real 3+3 questions are QUESTIONs; production and sharing remain processes.
+    writing = rows_in(entries, 298, 302)
+    writing_questions = [row for row in writing if row.get("presentation_type") == "QUESTION"]
+    if len(writing) != 13 or len(writing_questions) != 6:
+        failures.append(f"TEMA04_WRITING_GRANULARITY:{len(writing)}/{len(writing_questions)}")
+    if by_id.get("T4V23_P302_PAYLASIM", {}).get("presentation_type") != "PROCESS":
+        failures.append("TEMA04_P302_SHARE_ACTION_MUST_NOT_BECOME_QUESTION")
+    if by_id.get("T4V23_P302_RUBRIK", {}).get("presentation_type") != "ASSESSMENT":
+        failures.append("TEMA04_WRITING_QR_RUBRIC_BOUNDARY")
 
-    # p271 has two source question foci, but they form one natural two-text comparison activity.
-    p271 = by_id.get("T4V23_P271_FARK_EDELIM", {})
-    if p271.get("presentation_type") != "COMPARISON":
-        failures.append("TEMA04_P271_MUST_REMAIN_COMPARISON_BLOCK")
-    p271_heading = str(p271.get("book_heading", ""))
-    if "Soru 1" not in p271_heading or "Soru 2" not in p271_heading:
-        failures.append("TEMA04_P271_MUST_EXPOSE_BOTH_SOURCE_QUESTION_FOCI")
-
-    # Natural process boundaries: source subquestions organize collaborative analysis, not a question bank.
-    merdiven_type_contract = {
-        "T4V23_P263_KONUYA_BASLARKEN": "PROCESS",
-        "T4V23_P264_265_OKUMA_YONETIM": "PROCESS",
-        "T4V23_P270_CALISMA_KAGIDI": "TABLE",
-        "T4V23_P274_KARAKTER_COZUMLEME": "PROCESS",
-        "T4V23_P275_YAPI": "TABLE",
-        "T4V23_P276_277_CATISMA": "PROCESS",
-        "T4V23_P278_DISIPLIN": "TABLE",
-        "T4V23_P279_BEGeni": "ASSESSMENT",
-        "T4V23_P279_BEYIN_FIRTINASI": "PROCESS",
-    }
-    for mid, expected_type in merdiven_type_contract.items():
-        actual = by_id.get(mid, {}).get("presentation_type")
-        if actual != expected_type:
-            failures.append(f"TEMA04_MERDIVEN_PROCESS_BOUNDARY_DRIFT:{mid}:{actual}!={expected_type}")
-
-    edgu = by_id.get("T4V23_P278_279_EDGU_POETIKA", {})
-    if edgu.get("presentation_type") != "QUESTION" or edgu.get("prompt_mode") not in {"VERBATIM_SHORT", "VERIFIED_SUMMARY"}:
-        failures.append("TEMA04_EDGU_POETIKA_QUESTION_MUST_REMAIN_RECOGNIZABLE")
+    # Theme assessment: 14 printed questions = 14 recognizable cards, in source order.
+    assessment_rows = rows_in(entries, 303, 307)
+    assessment_questions = [row for row in assessment_rows if row.get("presentation_type") == "QUESTION"]
+    require_exact_ids(failures, "ASSESSMENT_14", ids(assessment_questions), ASSESSMENT_Q)
+    if len(assessment_rows) != 14 or len(assessment_questions) != 14:
+        failures.append(f"TEMA04_ASSESSMENT_GRANULARITY:{len(assessment_rows)}/{len(assessment_questions)}")
+    q5 = by_id.get("T4V23_P305_Q05", {})
+    if q5.get("rights_mode") != "PAGE_REFERENCE" or "görsel" not in str(q5.get("teacher_note", "")).casefold():
+        failures.append("TEMA04_Q5_VISUAL_LAYER_BOUNDARY")
+    for mid, key in (("T4V23_P307_Q13", "13"), ("T4V23_P307_Q14", "14")):
+        row = by_id.get(mid, {})
+        if tuple(row.get("answer_keys", [])) != (key,):
+            failures.append(f"TEMA04_AIDIYET_COMPONENT_DRIFT:{mid}")
+        note = str(row.get("teacher_note", "")).casefold()
+        if "video" not in note or not any(token in note for token in ("kanıt", "sahne", "olay", "ayrıntı")):
+            failures.append(f"TEMA04_AIDIYET_MEDIA_BOUNDARY:{mid}")
 
     result = {
         "status": "PASS" if not failures else "FAIL",
         "metrics": {
             **metrics,
-            "pdf_verified_opening_questions": len(opening_questions),
-            "pdf_verified_theatre_questions": len(theatre_questions),
-            "theatre_natural_process_blocks": len(theatre_nonquestions),
-            "pdf_verified_merdiven_question_cards": len(merdiven_questions),
-            "merdiven_metni_anlayalim_questions": len(metni_rows),
-            "merdiven_natural_nonquestion_blocks": len(merdiven_nonquestions),
-            "p271_source_question_foci": 2,
-            "p237_nonquestion_boundary_preserved": yunus.get("presentation_type") == "REFERENCE",
-            "p251_source_granularity_preserved": len(source_q251) == 3,
-            "p271_comparison_boundary_preserved": p271.get("presentation_type") == "COMPARISON",
+            "theme4_full_reference": not failures,
+            "fragment_count": len(mirrors),
+            "assessment_source_questions": len(assessment_questions),
+            "listening_source_questions": len(listening_questions),
+            "writing_source_questions": len(writing_questions),
         },
         "warnings": warnings,
         "failures": failures,
