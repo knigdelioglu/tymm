@@ -30,6 +30,13 @@ GOLDEN_HEADINGS_36_52 = {
     "Dilekçe yazma / ileri okuma",
 }
 
+EXACT_STAGE_HEADINGS_53_58 = {
+    "Konuşmayı Yönetebilme",
+    "İçerik Oluşturabilme",
+    "Kural Uygulayabilme",
+    "Süreci Değerlendirebilme",
+}
+
 
 def read_json(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
@@ -70,6 +77,15 @@ def normalize_note(text: str) -> str:
     return text
 
 
+def note_text(entry: dict[str, Any]) -> str:
+    note = entry.get("teacher_note")
+    if isinstance(note, str):
+        return note
+    if isinstance(note, list):
+        return " ".join(str(value) for value in note)
+    return ""
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--repo-root", type=Path, default=Path("."))
@@ -94,7 +110,7 @@ def main() -> int:
         if mirror.get("course_id") != manifest.get("course_id") or mirror.get("theme_id") != manifest.get("theme_id"):
             failures.append(f"MIRROR_MANIFEST_IDENTITY_MISMATCH:{path.name}")
 
-    scopes = []
+    scopes: list[tuple[int, int, str]] = []
     for path, mirror in zip(mirror_paths, mirrors):
         try:
             scopes.append((*parse_page_range(mirror["scope"]["printed_page_range"]), path.name))
@@ -169,7 +185,7 @@ def main() -> int:
         if isinstance(note, str) and note.strip():
             teacher_notes.append(note)
         elif isinstance(note, list):
-            teacher_notes.extend(x for x in note if isinstance(x, str) and x.strip())
+            teacher_notes.extend(value for value in note if isinstance(value, str) and value.strip())
 
         expected_heading = f"## Sayfa {entry['printed_page_range']} — {entry['book_heading']}"
         if expected_heading not in markdown:
@@ -209,26 +225,55 @@ def main() -> int:
     if "## Sayfa indeksli ders kontrol listesi" not in markdown or not checklist:
         failures.append("MISSING_PAGE_CHECKLIST")
 
+    min_scope_start = min((start for start, _, _ in scopes), default=0)
     max_scope_end = max((end for _, end, _ in scopes), default=0)
+    headings = {str(entry.get("book_heading")) for entry in entries}
+
     if max_scope_end >= 52:
-        headings = {str(entry.get("book_heading")) for entry in entries}
         missing_headings = sorted(GOLDEN_HEADINGS_36_52 - headings)
         if missing_headings:
             failures.append("GOLDEN_BOOK_HEADINGS_MISSING:" + " | ".join(missing_headings))
-        if "basılı s.12-52" not in markdown and "basılı s.12–52" not in markdown:
-            failures.append("COMBINED_SCOPE_NOT_RENDERED_AS_12_52")
+
+    expected_scope_text = f"basılı s.{min_scope_start}-{max_scope_end}"
+    if expected_scope_text not in markdown:
+        failures.append(f"COMBINED_SCOPE_NOT_RENDERED:{expected_scope_text}")
+
+    if max_scope_end >= 58:
+        missing_stages = sorted(EXACT_STAGE_HEADINGS_53_58 - headings)
+        if missing_stages:
+            failures.append("EXACT_SPEAKING_STAGE_HEADINGS_MISSING:" + " | ".join(missing_stages))
+
+        speaking_fragments = [
+            mirror for mirror in mirrors
+            if parse_page_range(mirror["scope"]["printed_page_range"]) == (53, 58)
+        ]
+        if len(speaking_fragments) != 1 or speaking_fragments[0].get("scope", {}).get("status") != "REVIEW_REQUIRED":
+            failures.append("SPEAKING_QR_LIMIT_MUST_REMAIN_REVIEW_REQUIRED")
+
+        qr_entries = [entry for entry in entries if entry.get("mirror_id") == "T1V23_P58_QR_LIMIT"]
+        if len(qr_entries) != 1:
+            failures.append("MISSING_P58_QR_SOURCE_LIMIT_ENTRY")
+        else:
+            qr_note = note_text(qr_entries[0]).casefold()
+            if "qr" not in qr_note or "uydur" not in qr_note:
+                failures.append("P58_QR_LIMIT_NOT_EXPLICIT")
+
+        live_entries = [entry for entry in entries if entry.get("mirror_id") == "T1V23_P57_APPLY"]
+        if len(live_entries) != 1 or not live_entries[0].get("show_acceptance"):
+            failures.append("P57_LIVE_PERFORMANCE_EVIDENCE_NOT_VISIBLE")
 
     result = {
         "status": "PASS" if not failures else "FAIL",
         "metrics": {
             "mirror_files": len(mirror_paths),
-            "scope": f"{min((start for start, _, _ in scopes), default=0)}-{max_scope_end}",
+            "scope": f"{min_scope_start}-{max_scope_end}",
             "entries": len(entries),
             "questions": questions,
             "recognizable_questions": recognizable,
             "component_projected_entries": component_projected_entries,
             "shared_canonical_items": sum(1 for rows in projections.values() if len(rows) > 1),
             "teacher_note_density": round(density, 3),
+            "review_required_fragments": sum(1 for mirror in mirrors if mirror.get("scope", {}).get("status") == "REVIEW_REQUIRED"),
         },
         "warnings": warnings,
         "failures": failures,
