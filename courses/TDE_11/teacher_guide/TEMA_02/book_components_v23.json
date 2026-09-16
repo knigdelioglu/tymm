@@ -1,0 +1,95 @@
+{
+  "schema_version": "2.3.0",
+  "document_type": "TYMM_TEACHER_GUIDE_COMPONENT_REGISTRY",
+  "course_id": "TDE_11",
+  "theme_id": "TEMA_02",
+  "policy": "Bu registry yalnız mevcut canonical itemların resmî kitapta doğrulanmış alt görevlerini ekler. Var olan canonical cevap anahtarlarını değiştiremez ve her component mirror içinde kullanılmalıdır.",
+  "components": {
+    "T2_G01_P88_KULTUR_ONBILGI": {
+      "q1_toy_birlik": {
+        "value": "Toylar ortak katılım, paylaşım, karar alma ve eğlence etrafında insanları bir araya getirerek grup aidiyetini ve toplumsal dayanışmayı güçlendirebilir.",
+        "source_locator": "basılı s.88 / PDF s.89 — soru 1"
+      },
+      "q2_nevruz_hasat": {
+        "value": "Hasat ve Nevruz gibi farklı bölgelerde tekrarlanan ortak mevsimsel törenler, benzer ritüel ve değerleri kuşaktan kuşağa taşıyarak Türk dünyasında ortak kültürel belleği güçlendirir.",
+        "source_locator": "basılı s.88 / PDF s.89 — soru 2"
+      },
+      "q3_gonul_cografyasi": {
+        "value": "Gönül coğrafyası yalnız siyasî sınırları değil tarih, dil, kültür ve ortak hafıza bağlarının sürdüğü bölgeleri düşündürür. Türk dünyası, Balkanlar veya tarihî-kültürel bağ kurulan başka bölgeler gerekçeyle örneklenebilir.",
+        "source_locator": "basılı s.88 / PDF s.89 — soru 3"
+      },
+      "q4_yas_yesil": {
+        "value": "Yaş kelimesinin tazelik ve yeşil/yaşıl ile kurduğu anlam ilişkisi; canlılık, tabiat, üretim ve tarımsal hayatın söz varlığındaki izleri üzerinden yorumlanabilir. Metne ve dil ilişkisine dayanan farklı gerekçeler kabul edilebilir.",
+        "source_locator": "basılı s.88 / PDF s.89 — soru 4"
+      },
+      "q5_imece": {
+        "value": "İmece ortak bir işi karşılık beklemeden birlikte yapma, yükü paylaşma, dayanışma ve toplumsal sorumluluk kültürünü görünür kılar.",
+        "source_locator": "basılı s.88 / PDF s.89 — soru 5"
+      },
+      "q6_besmele_kuslar": {
+        "value": "Örnek; inanç, paylaşma, merhamet ve insan dışındaki canlıların hakkını gözetme anlayışının tarımsal hayatla birlikte yaşadığını gösterir.",
+        "source_locator": "basılı s.88 / PDF s.89 — soru 6"
+      }
+    },
+    "T2_G01_P89_90_OKUMA_STRATEJISI": {
+      "q1_soz_varligi": {
+        "value": "Başlık, görsel, yazarın Kırgız kültürüyle ilişkisi ve metin bağlamından hareketle aile, savaş, bozkır/atlı yaşam ve Türk dünyasına özgü söz varlığıyla karşılaşılabileceği öngörülebilir. Tahmin görünür ipucuna bağlanmalıdır.",
+        "source_locator": "basılı s.90 / PDF s.91 — hazırlık sorusu 1"
+      },
+      "q2_konu_tur": {
+        "value": "Başlık ve görsel baba-oğul ilişkisi, ayrılık, özlem ve buluşma ekseninde bir anlatıyı düşündürür; metnin olay ve kişiler çevresinde gelişen hikâye türünde olacağı tahmin edilebilir.",
+        "source_locator": "basılı s.90 / PDF s.91 — hazırlık sorusu 2"
+      }
+    },
+    "T2_G02_P95_96_SOZ_VARLIGI": {
+      "yular": {
+        "value": "At gibi hayvanları başından tutup yönlendirmeye yarayan bağ/kayış; metinde Çordon'un atını çözmesi bağlamındadır.",
+        "source_locator": "basılı s.95 / PDF s.96 — Söz Varlığımız"
+      },
+      "uzengi": {
+        "value": "Binicinin ata binerken ve binerken ayağını bastığı, eyerin iki yanından sarkan ayaklık.",
+        "source_locator": "basılı s.95 / PDF s.96 — Söz Varlığımız"
+      },
+      "kelime_secimi": {
+        "value": "Yular, üzengi, katar, kampana, hat ve toynak gibi kelimeler olayın geçtiği dönem, mekân, ulaşım ve atlı yaşam çevresini somutlaştırır; anlatının gerçeklik ve atmosfer duygusunu güçlendirir.",
+        "source_locator": "basılı s.96 / PDF s.97 — soru 3"
+      }
+    },
+    "T2_G02_P102_104_DIL_BILGISI": {
+      "task1_kip_cekimi": {
+        "value": "Verilen örneklerdeki fiiller haber/dilek kipleri ile basit/birleşik çekim bakımından, fiilin aldığı kip-zaman ve ek-fiil yapısı birlikte dikkate alınarak sınıflandırılır.",
+        "source_locator": "basılı s.102 / PDF s.103 — dil bilgisi görev 1"
+      },
+      "task2_ozne_cati": {
+        "value": "Fiiller özne-fiil ilişkisine göre etken, edilgen, dönüşlü veya işteş olarak sınıflandırılır; yalnız eke değil cümlede işi yapan/işten etkilenen ögeye de bakılır.",
+        "source_locator": "basılı s.103 / PDF s.104 — dil bilgisi görev 2"
+      },
+      "task3_nesne_cati": {
+        "value": "Fiiller nesne alıp almama ve ettirme/oldurma ilişkisine göre geçişli, geçişsiz, oldurgan veya ettirgen olarak sınıflandırılır; karar cümledeki nesne ve yaptırma ilişkisiyle gerekçelendirilir.",
+        "source_locator": "basılı s.104 / PDF s.105 — dil bilgisi görev 3"
+      },
+      "task4_noktalama": {
+        "value": "Parçadaki noktalama işaretleri cümleyi bitirme, alıntı/konuşmayı gösterme, açıklama veya ara sözleri ayırma gibi bağlamdaki gerçek işlevleri üzerinden açıklanır.",
+        "source_locator": "basılı s.104 / PDF s.105 — dil bilgisi görev 4"
+      }
+    },
+    "T2_G03_P108_110_ANI": {
+      "q1_vatan_bagi": {
+        "value": "Vatanla bağı; aile ve hatıralar, ortak tarih, dil, kültür, değerler, yaşanan mekânlar ve toplumsal aidiyet gibi unsurlar oluşturabilir. Öğrenci cevabını gerekçelendirmelidir.",
+        "source_locator": "basılı s.108 / PDF s.109 — soru 1"
+      },
+      "q2_vatan_sevgisi": {
+        "value": "Vatan sevgisi ortak hafıza ve kültüre aidiyet, birlikte yaşama, sorumluluk ve gelecek kuşaklara karşı yükümlülük üzerinden gerekçelendirilebilir; tek kalıp gerekçe aranmaz.",
+        "source_locator": "basılı s.108 / PDF s.109 — soru 2"
+      },
+      "q3_kultur_kelime_tahmini": {
+        "value": "Metne göz gezdirirken Kapalıçarşı, bereket, selamlaşma, haydariye, hat sanatı, ud-keman-kanun, bekçi, sebilci, saka, kına gecesi, âmin alayı, ramazan ve bayram gibi dönem/kültür unsurlarını düşündüren kelime ve ifadeler tahmin edilebilir. Liste örnektir; metne dayalı başka seçimler kabul edilir.",
+        "source_locator": "basılı s.108 / PDF s.109 — soru 3"
+      },
+      "reading_focus": {
+        "value": "Eski İstanbul’dan Çizgiler anı metni kişisel hatırlama üzerinden eski İstanbul'un gündelik hayatı, esnaf ilişkileri, dinî-kültürel pratikleri, sanatları ve toplumsal değişimini görünür kılan dönem tanıklığı olarak okunur.",
+        "source_locator": "basılı s.108-110 / PDF s.109-111 — ana metin"
+      }
+    }
+  }
+}
