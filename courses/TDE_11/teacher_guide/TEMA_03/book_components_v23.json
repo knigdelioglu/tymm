@@ -95,6 +95,52 @@
         "value": "Tek doğru yoktur. Öğrenci seçtiği Huzur kişisini belirtmeli; kişinin romandaki şartlarını, değerlerini ve çatışmalarını dikkate alarak ‘ben olsaydım’ tepkisini gerekçelendirmelidir. Cevap, karakterin bağlamıyla açıkça çelişmediği ve gerekçe içerdiği sürece farklılaşabilir.",
         "source_locator": "basılı s.193 / PDF s.194 — Süreci Değerlendirebilme soru 3"
       }
+    },
+    "T3_G06_P201_CALISMA": {
+      "p200_sehit_duygu": {
+        "value": "Yanıt tek bir duyguya indirgenmez. Öğrenci, ders kitabında verilen kişi/görsel bilgileri ile Mehmet Akif'in vatan ve fedakârlık vurgusu arasında bağ kurarak saygı, minnet, üzüntü, sorumluluk veya vatan sevgisi gibi duygu ve düşüncelerini gerekçeli biçimde ifade edebilir.",
+        "source_locator": "basılı s.200 / PDF s.201 — Fark Edelim"
+      },
+      "yardimci_dusunceler": {
+        "value": ["Eğitim ve meslek hayatı Akif'in geniş gözlem alanı kazanmasına katkı sağlar.", "Şiir ve yayın faaliyetleri edebî kişiliğinin oluşumunu gösterir.", "Millî Mücadele ve İstiklâl Marşı süreci toplumsal/millî sorumluluğunu görünür kılar.", "Safahat ve diğer çalışmaları sanat anlayışı ile toplum meseleleri arasındaki bağı gösterir."],
+        "source_locator": "basılı s.201 / PDF s.202 — Çalışma Kâğıdı / Yardımcı Düşünceler"
+      },
+      "acik_iletiler": {
+        "value": ["Mehmet Akif Millî Mücadele'ye fiilen katılmıştır.", "İstiklâl Marşı'nı para ödülünü almamak şartıyla yazmayı kabul etmiştir."],
+        "source_locator": "basılı s.201 / PDF s.202 — Çalışma Kâğıdı / Açık İletiler"
+      },
+      "ortuk_iletiler": {
+        "value": ["Sanatçının yaşamı, değerleri ve toplumsal sorumlulukları eserlerinin yönünü etkileyebilir.", "Akif için sanat, bireysel ünün yanında toplum ve millet karşısındaki sorumlulukla ilişkilidir."],
+        "source_locator": "basılı s.201 / PDF s.202 — Çalışma Kâğıdı / Örtük İletiler"
+      },
+      "bilgilerin_sunulusu": {
+        "value": "Bilgiler ağırlıkla kronolojik sıra, tarih-yer-kurum-eser adları ve açıklayıcı bağlantılarla sunulur; doğrulanabilir yaşam bilgileri temel eksendir.",
+        "source_locator": "basılı s.201 / PDF s.202 — Çalışma Kâğıdı / Bilgilerin Sunuluş Şekli"
+      },
+      "p202_q2_baskin_anlatim": {
+        "value": "Biyografide nesnel anlatım ön plandadır; çünkü tarih, yer, eğitim, görev, eser ve olay gibi doğrulanabilir bilgiler kişinin yaşam öyküsünü güvenilir biçimde kurar. Öznel değerlendirmeler bulunabilir ancak ana bilgi omurgasının yerini almaz.",
+        "source_locator": "basılı s.202 / PDF s.203 — Sıra Sizde soru 2"
+      }
+    },
+    "T3_G07_P205_YAPI_USLUP": {
+      "q3_yapi_uslup": {
+        "value": "Kronolojik yaşam evreleri, eğitim-meslek-eser-toplumsal faaliyet sıralaması ve bunlar arasındaki nedensel bağlar, açıklayıcı ve bilgi yoğun üslubu destekler; yapı güvenilir bilgi verme amacını düzenli hâle getirir.",
+        "source_locator": "basılı s.205 / PDF s.206 — Çözümleyebilme soru 3"
+      },
+      "sira_q1_asim_guven": {
+        "value": "Görsellerdeki bilim, teknoloji, savunma ve üretim alanındaki çalışmalar üzerinden genç kuşağın ülkenin gelişimine katkı sunma kapasitesinin sürdüğü savunulabilir. Farklı yorumlar, görsel ayrıntı ve günümüz sorumluluklarıyla gerekçelendirilmelidir.",
+        "source_locator": "basılı s.205 / PDF s.206 — Sıra Sizde soru 1"
+      },
+      "sira_q2_asim_gorev": {
+        "value": "Bilim ve teknolojide üretmek, bilgiye dayalı çalışmak, toplumsal sorumluluk üstlenmek, ülkenin ihtiyaçlarına çözüm geliştirmek ve etik/insani değerleri korumak gibi görevler görsellerle ilişkilendirilerek tartışılabilir.",
+        "source_locator": "basılı s.205 / PDF s.206 — Sıra Sizde soru 2"
+      }
+    },
+    "T3_G08_P209_Q1_4": {
+      "q3_begeni_elestiri": {
+        "value": "Örnek değerlendirme: kronolojik düzen ve bilgi yoğunluğu metnin kişiyi tanıma işlevini güçlendirir; buna karşılık ayrıntı yoğunluğu bazı bölümlerde okumayı ağırlaştırabilir. Öğrencinin farklı beğeni/eleştirileri, belirlediği ölçüt ve metin kanıtıyla gerekçelendirilirse kabul edilir.",
+        "source_locator": "basılı s.209 / PDF s.210 — Süreci Değerlendirebilme soru 3"
+      }
     }
   }
 }
