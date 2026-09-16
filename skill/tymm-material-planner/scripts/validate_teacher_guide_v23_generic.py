@@ -65,18 +65,47 @@ def note_text(entry: dict[str, Any]) -> str:
     return ""
 
 
+def discover_registry_paths(mirror_path: Path) -> list[Path]:
+    return sorted(mirror_path.parent.glob("book_components_v23*.json"))
+
+
 def load_registry(mirror_path: Path, course_id: str, theme_id: str, failures: list[str]) -> tuple[Path | None, dict[str, Any] | None]:
-    path = mirror_path.parent / "book_components_v23.json"
-    if not path.exists():
+    paths = discover_registry_paths(mirror_path)
+    if not paths:
         return None, None
-    registry = read_json(path)
-    if registry.get("document_type") != "TYMM_TEACHER_GUIDE_COMPONENT_REGISTRY":
-        failures.append("COMPONENT_REGISTRY_DOCUMENT_TYPE_INVALID")
-    if registry.get("course_id") != course_id or registry.get("theme_id") != theme_id:
-        failures.append("COMPONENT_REGISTRY_IDENTITY_MISMATCH")
-    if not isinstance(registry.get("components"), dict):
-        failures.append("COMPONENT_REGISTRY_COMPONENTS_NOT_OBJECT")
-    return path, registry
+
+    merged: dict[str, Any] = {
+        "document_type": "TYMM_TEACHER_GUIDE_COMPONENT_REGISTRY",
+        "course_id": course_id,
+        "theme_id": theme_id,
+        "components": {},
+    }
+    merged_components: dict[str, dict[str, Any]] = merged["components"]
+
+    for path in paths:
+        registry = read_json(path)
+        if registry.get("document_type") != "TYMM_TEACHER_GUIDE_COMPONENT_REGISTRY":
+            failures.append(f"COMPONENT_REGISTRY_DOCUMENT_TYPE_INVALID:{path.name}")
+        if registry.get("course_id") != course_id or registry.get("theme_id") != theme_id:
+            failures.append(f"COMPONENT_REGISTRY_IDENTITY_MISMATCH:{path.name}")
+        components = registry.get("components")
+        if not isinstance(components, dict):
+            failures.append(f"COMPONENT_REGISTRY_COMPONENTS_NOT_OBJECT:{path.name}")
+            continue
+        for item_id, component_map in components.items():
+            if not isinstance(component_map, dict) or not component_map:
+                failures.append(f"COMPONENT_REGISTRY_EMPTY_ITEM:{path.name}:{item_id}")
+                continue
+            target = merged_components.setdefault(item_id, {})
+            overlap = sorted(set(target) & set(component_map))
+            if overlap:
+                failures.append(
+                    f"COMPONENT_REGISTRY_DUPLICATE_FRAGMENT_KEY:{item_id}:{','.join(overlap)}"
+                )
+                continue
+            target.update(component_map)
+
+    return paths[0], merged
 
 
 def apply_registry(
