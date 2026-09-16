@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Source-parity gate for the Theme 3 Teacher Guide V2.3 checkpoint (s.160-209)."""
+"""Source-parity gate for the Theme 3 Teacher Guide V2.3 checkpoint (s.160-214)."""
 from __future__ import annotations
 
 import argparse
@@ -44,29 +44,30 @@ BIOGRAPHY_QUESTIONS = {
     *{f"T3V23_P209_Q{n:02d}" for n in range(1, 5)},
 }
 BIOGRAPHY_REQUIRED_NONQUESTIONS = {
-    "T3V23_P195_OKUMA_YONETIM",
-    "T3V23_P195_197_AKIF_METNI",
-    "T3V23_P198_SOZ_VARLIGI",
-    "T3V23_P201_CALISMA_KAGIDI",
-    "T3V23_P206_207_USULI",
+    "T3V23_P195_OKUMA_YONETIM", "T3V23_P195_197_AKIF_METNI", "T3V23_P198_SOZ_VARLIGI",
+    "T3V23_P201_CALISMA_KAGIDI", "T3V23_P206_207_USULI",
+}
+
+SPEAKING_QUESTIONS = {
+    "T3V23_P210_Q01", "T3V23_P210_Q02", "T3V23_P214_Q01_ILETI", "T3V23_P214_Q02_DAYANAK",
+}
+SPEAKING_REQUIRED_NONQUESTIONS = {
+    "T3V23_P211_MULAKAT_PLAN", "T3V23_P212_MULAKAT_ICERIK",
+    "T3V23_P213_MULAKAT_UYGULAMA", "T3V23_P214_DEGER_3_7",
 }
 
 REQUIRED_ENTRIES = {
     "T3V23_P160_161_THEME_OPEN",
     *OPENING_QUESTIONS,
     *HUZUR_QUESTIONS,
-    "T3V23_P165_OKUMA_PLANI",
-    "T3V23_P165_166_KELIME_TAHMIN_STRATEJI",
-    "T3V23_P167_171_HUZUR_METNI",
-    "T3V23_P172_SOZ_VARLIGI",
-    "T3V23_P174_USLUP_HARITASI",
-    "T3V23_P177_178_HUZUR_MESCID_COMPARE",
-    "T3V23_P178_179_OKUMA_CEMBERI",
-    "T3V23_P180_181_KISI_TABLOLARI",
-    "T3V23_P191_SOSYAL_BILIM",
+    "T3V23_P165_OKUMA_PLANI", "T3V23_P165_166_KELIME_TAHMIN_STRATEJI", "T3V23_P167_171_HUZUR_METNI",
+    "T3V23_P172_SOZ_VARLIGI", "T3V23_P174_USLUP_HARITASI", "T3V23_P177_178_HUZUR_MESCID_COMPARE",
+    "T3V23_P178_179_OKUMA_CEMBERI", "T3V23_P180_181_KISI_TABLOLARI", "T3V23_P191_SOSYAL_BILIM",
     "T3V23_P193_CIKIS_321",
     *BIOGRAPHY_QUESTIONS,
     *BIOGRAPHY_REQUIRED_NONQUESTIONS,
+    *SPEAKING_QUESTIONS,
+    *SPEAKING_REQUIRED_NONQUESTIONS,
 }
 REQUIRED_HEADINGS = {
     "3. Tema — Yaşamın İzinde / tema çerçevesi",
@@ -95,17 +96,23 @@ REQUIRED_HEADINGS = {
     "Bilgi Köşesi / Ara Metin — Tezkire ve Usûlî",
     "Sıra Sizde — Usûlî tezkiresi",
     "Süreci Değerlendirebilme — beğeni ölçütü belirleme",
+    "Konuşmayı Yönetebilme — Kemal Tahir mülakatı",
+    "Performans Görevi — Huzur kişisiyle hayalî mülakat",
+    "İçerik Oluşturabilme — mülakat soru/cevap ve taslak geliştirme",
+    "Kural Uygulayabilme — hayalî mülakatı gerçekleştirme",
+    "Süreci Değerlendirebilme — açık ve örtük iletiler",
+    "Süreci Değerlendirebilme — rubrik, öz değerlendirme, gelişim ve akran geri bildirimi",
 }
 
 EXPECTED = {
-    "scope": "160-209",
-    "entries": 88,
-    "questions": 72,
-    "recognizable_questions": 72,
-    "component_projected_entries": 72,
-    "shared_canonical_items": 16,
-    "component_registry_entries": 25,
-    "component_registry_used": 25,
+    "scope": "160-214",
+    "entries": 96,
+    "questions": 76,
+    "recognizable_questions": 76,
+    "component_projected_entries": 76,
+    "shared_canonical_items": 18,
+    "component_registry_entries": 27,
+    "component_registry_used": 27,
 }
 
 
@@ -149,6 +156,7 @@ def main() -> int:
     require_question_cards(failures, entries, "HUZUR", HUZUR_QUESTIONS)
     require_question_cards(failures, entries, "HUZUR_METNI_ANLAYALIM", HUZUR_METNI_ANLAYALIM)
     require_question_cards(failures, entries, "BIOGRAPHY_TEZKIRE", BIOGRAPHY_QUESTIONS)
+    require_question_cards(failures, entries, "SPEAKING", SPEAKING_QUESTIONS)
 
     metni = [entry for entry in entries if entry.get("mirror_id") in HUZUR_METNI_ANLAYALIM]
     metni_keys = {tuple(entry.get("answer_keys", [])) for entry in metni}
@@ -156,15 +164,11 @@ def main() -> int:
         failures.append("TEMA03_HUZUR_MUST_KEEP_14_DISTINCT_METNI_ANLAYALIM_QUESTIONS")
 
     grammar = {"T3V23_P190_191_GRAMMAR_Q01", "T3V23_P191_GRAMMAR_Q02", "T3V23_P191_GRAMMAR_Q03"}
-    require_question_cards(failures, entries, "HUZUR_GRAMMAR", grammar)
-
     p199 = {"T3V23_P199_Q01", "T3V23_P199_Q02", "T3V23_P199_Q03"}
-    p205 = {
-        "T3V23_P205_COZUM_Q01", "T3V23_P205_COZUM_Q02", "T3V23_P205_COZUM_Q03", "T3V23_P205_COZUM_Q04",
-        "T3V23_P205_SIRA_Q01_ASIM", "T3V23_P205_SIRA_Q02_ASIM",
-    }
+    p205 = {"T3V23_P205_COZUM_Q01", "T3V23_P205_COZUM_Q02", "T3V23_P205_COZUM_Q03", "T3V23_P205_COZUM_Q04", "T3V23_P205_SIRA_Q01_ASIM", "T3V23_P205_SIRA_Q02_ASIM"}
     p208 = {f"T3V23_P208_Q{n:02d}" for n in range(1, 7)}
     p209 = {f"T3V23_P209_Q{n:02d}" for n in range(1, 5)}
+    require_question_cards(failures, entries, "HUZUR_GRAMMAR", grammar)
     require_question_cards(failures, entries, "P199", p199)
     require_question_cards(failures, entries, "P205", p205)
     require_question_cards(failures, entries, "P208", p208)
@@ -174,6 +178,7 @@ def main() -> int:
         "160-163": "PILOT",
         "164-193": "REFERENCE_QUALITY",
         "194-209": "REFERENCE_QUALITY",
+        "210-214": "REVIEW_REQUIRED",
     }
     for page_range, status in expected_fragments.items():
         rows = [mirror for mirror in mirrors if mirror.get("scope", {}).get("printed_page_range") == page_range]
@@ -188,7 +193,8 @@ def main() -> int:
             "pdf_verified_huzur_questions": len(HUZUR_QUESTIONS),
             "pdf_verified_huzur_metni_anlayalim_questions": 14,
             "pdf_verified_biography_tezkire_questions": len(BIOGRAPHY_QUESTIONS),
-            "biography_tezkire_reference_scope": True,
+            "pdf_verified_speaking_questions": len(SPEAKING_QUESTIONS),
+            "speaking_qr_boundary_preserved": True,
         },
         "warnings": warnings,
         "failures": failures,
