@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Source-parity gate for the Theme 2 Teacher Guide V2.3 checkpoint (s.84-135)."""
+"""Source-parity gate for the Theme 2 Teacher Guide V2.3 checkpoint (s.84-147)."""
 from __future__ import annotations
 
 import argparse
@@ -34,6 +34,11 @@ REQUIRED_QUESTION_IDS = {
     "T2V23_P128_SPREAD_Q03", "T2V23_P128_REFLECT_Q01", "T2V23_P128_REFLECT_Q02", "T2V23_P128_REFLECT_Q03",
     "T2V23_P129_Q01", "T2V23_P129_Q02", "T2V23_P129_Q03",
     "T2V23_P132_Q01", "T2V23_P132_Q02", "T2V23_P132_Q03",
+    "T2V23_P136_Q01", "T2V23_P136_Q02",
+    "T2V23_P138_Q01", "T2V23_P138_Q02",
+    "T2V23_P141_Q01", "T2V23_P141_Q02",
+    "T2V23_P142_Q01", "T2V23_P142_Q02",
+    "T2V23_P144_Q01", "T2V23_P144_Q02", "T2V23_P144_Q03",
 }
 
 REQUIRED_P100_IDS = {f"T2V23_P100_Q{n:02d}" for n in range(1, 9)}
@@ -68,6 +73,26 @@ REQUIRED_SPEAKING_IDS = {
 REQUIRED_SPEAKING_QUESTION_IDS = {
     "T2V23_P129_Q01", "T2V23_P129_Q02", "T2V23_P129_Q03",
     "T2V23_P132_Q01", "T2V23_P132_Q02", "T2V23_P132_Q03",
+}
+REQUIRED_LISTENING_IDS = {
+    "T2V23_P136_Q01", "T2V23_P136_Q02",
+    "T2V23_P137_PLAN",
+    "T2V23_P138_Q01", "T2V23_P138_Q02",
+    "T2V23_P138_139_LISTENING_FORMS",
+    "T2V23_P140_VOCAB",
+    "T2V23_P141_Q01", "T2V23_P141_Q02",
+    "T2V23_P142_Q01", "T2V23_P142_Q02", "T2V23_P142_HUMOR_COMPARE",
+    "T2V23_P143_LANGUAGE_COMPARE", "T2V23_P143_TASTE",
+    "T2V23_P144_Q01", "T2V23_P144_Q02", "T2V23_P144_Q03", "T2V23_P144_MEDIA_MAP",
+    "T2V23_P145_SIX_HATS", "T2V23_P146_OPINION",
+    "T2V23_P147_VALUE", "T2V23_P147_REFLECTION",
+}
+REQUIRED_LISTENING_QUESTION_IDS = {
+    "T2V23_P136_Q01", "T2V23_P136_Q02",
+    "T2V23_P138_Q01", "T2V23_P138_Q02",
+    "T2V23_P141_Q01", "T2V23_P141_Q02",
+    "T2V23_P142_Q01", "T2V23_P142_Q02",
+    "T2V23_P144_Q01", "T2V23_P144_Q02", "T2V23_P144_Q03",
 }
 REQUIRED_GRAMMAR_IDS = {
     "T2V23_P102_GRAMMAR_01",
@@ -112,6 +137,23 @@ REQUIRED_HEADINGS = {
     "Kural Uygulayabilme — konuşma uygulama ölçütleri",
     "Süreci Değerlendirebilme — Öz Değerlendirme Formu",
     "Süreci Değerlendirebilme — Dereceli Puanlama Anahtarı / Akran Değerlendirme",
+    "Konuya Başlarken — Âşıklık geleneğinde saz",
+    "Konuya Başlarken — Sazım’a / sanat-sanatçı ilişkisi",
+    "Dinleme / İzlemeyi Yönetebilme — Âşık Atışması",
+    "Hatırlayalım — Halk Şiiri ve Halk Şairleri",
+    "Fark Edelim — etkin dinleme / Kontrol Listesi / Gözlem Formu",
+    "Anlam Oluşturabilme — Söz Varlığımız",
+    "Sıra Sizde — Âşıklık geleneğinin geleceğe taşınması",
+    "Metni Anlayalım — Âşık Atışması",
+    "Karşılaştıralım — atışma mizahı ve günlük mizah",
+    "Karşılaştıralım — atışma dili / günlük dil / Münacaat",
+    "Sıra Sizde — beğeni ölçütleri",
+    "Fark Edelim — Usta-Çırak Geleneği / Meşk Usûlü",
+    "Çözümleyebilme — âşık atışmasının çok modlu unsurları",
+    "Sıra Sizde — Altı Şapka",
+    "Sıra Sizde — görüş geliştirme çalışma kâğıdı",
+    "Süreci Değerlendirebilme — atışmaya değer katan unsurlar",
+    "Süreci Değerlendirebilme — yansıtıcı yazı",
 }
 
 
@@ -132,22 +174,22 @@ def main() -> int:
     headings = set(report.get("headings", []))
 
     metrics = report["metrics"]
-    if metrics.get("scope") != "84-135":
-        failures.append(f"TEMA02_CHECKPOINT_SCOPE_MUST_BE_84_135:{metrics.get('scope')}")
-    if metrics.get("entries") != 115:
-        failures.append(f"TEMA02_ENTRY_PARITY_MUST_BE_115:{metrics.get('entries')}")
-    if metrics.get("questions") != 84 or metrics.get("recognizable_questions") != 84:
+    if metrics.get("scope") != "84-147":
+        failures.append(f"TEMA02_CHECKPOINT_SCOPE_MUST_BE_84_147:{metrics.get('scope')}")
+    if metrics.get("entries") != 135:
+        failures.append(f"TEMA02_ENTRY_PARITY_MUST_BE_135:{metrics.get('entries')}")
+    if metrics.get("questions") != 95 or metrics.get("recognizable_questions") != 95:
         failures.append(
-            f"TEMA02_QUESTION_PARITY_MUST_BE_84_84:{metrics.get('recognizable_questions')}/{metrics.get('questions')}"
+            f"TEMA02_QUESTION_PARITY_MUST_BE_95_95:{metrics.get('recognizable_questions')}/{metrics.get('questions')}"
         )
-    if metrics.get("component_registry_entries") != 31 or metrics.get("component_registry_used") != 31:
+    if metrics.get("component_registry_entries") != 33 or metrics.get("component_registry_used") != 33:
         failures.append(
-            f"TEMA02_COMPONENT_REGISTRY_MUST_BE_31_31:{metrics.get('component_registry_used')}/{metrics.get('component_registry_entries')}"
+            f"TEMA02_COMPONENT_REGISTRY_MUST_BE_33_33:{metrics.get('component_registry_used')}/{metrics.get('component_registry_entries')}"
         )
-    if metrics.get("component_projected_entries") != 103:
-        failures.append(f"TEMA02_COMPONENT_PROJECTION_PARITY_MUST_BE_103:{metrics.get('component_projected_entries')}")
-    if metrics.get("shared_canonical_items") != 23:
-        failures.append(f"TEMA02_SHARED_CANONICAL_PARITY_MUST_BE_23:{metrics.get('shared_canonical_items')}")
+    if metrics.get("component_projected_entries") != 123:
+        failures.append(f"TEMA02_COMPONENT_PROJECTION_PARITY_MUST_BE_123:{metrics.get('component_projected_entries')}")
+    if metrics.get("shared_canonical_items") != 28:
+        failures.append(f"TEMA02_SHARED_CANONICAL_PARITY_MUST_BE_28:{metrics.get('shared_canonical_items')}")
 
     missing_questions = sorted(REQUIRED_QUESTION_IDS - seen)
     if missing_questions:
@@ -161,6 +203,7 @@ def main() -> int:
         ("DLT", REQUIRED_DLT_IDS),
         ("P128", REQUIRED_P128_IDS),
         ("SPEAKING", REQUIRED_SPEAKING_IDS),
+        ("LISTENING", REQUIRED_LISTENING_IDS),
         ("GRAMMAR", REQUIRED_GRAMMAR_IDS),
         ("MEMOIR", REQUIRED_P108_IDS),
     ):
@@ -220,6 +263,28 @@ def main() -> int:
         if "video" not in note or "izledi" not in note or "video" not in locator:
             failures.append("TEMA02_P129_MEDIA_BOUNDARY_NOT_EXPLICIT")
 
+    listening_questions = [entry for entry in entries if entry.get("mirror_id") in REQUIRED_LISTENING_QUESTION_IDS]
+    if len(listening_questions) != 11 or any(entry.get("presentation_type") != "QUESTION" for entry in listening_questions):
+        failures.append(f"TEMA02_LISTENING_MUST_HAVE_11_QUESTION_CARDS:{len(listening_questions)}")
+
+    p140 = [entry for entry in entries if entry.get("mirror_id") == "T2V23_P140_VOCAB"]
+    if len(p140) != 1:
+        failures.append("TEMA02_P140_MEDIA_BOUNDARY_ENTRY_MISSING")
+    else:
+        note = note_text(p140[0]).casefold()
+        locator = str(p140[0].get("source_locator", "")).casefold()
+        if "qr" not in note or "gerçek dinleme" not in note or "qr" not in locator:
+            failures.append("TEMA02_P140_MEDIA_BOUNDARY_NOT_EXPLICIT")
+
+    p144_map = [entry for entry in entries if entry.get("mirror_id") == "T2V23_P144_MEDIA_MAP"]
+    if len(p144_map) != 1:
+        failures.append("TEMA02_P144_MEDIA_BOUNDARY_ENTRY_MISSING")
+    else:
+        note = note_text(p144_map[0]).casefold()
+        locator = str(p144_map[0].get("source_locator", "")).casefold()
+        if "qr medyada gerçekten" not in note or "uydur" not in note or "qr" not in locator:
+            failures.append("TEMA02_P144_MEDIA_BOUNDARY_NOT_EXPLICIT")
+
     fragment_88_112 = [mirror for mirror in mirrors if mirror.get("scope", {}).get("printed_page_range") == "88-112"]
     if len(fragment_88_112) != 1 or fragment_88_112[0].get("scope", {}).get("status") != "REVIEW_REQUIRED":
         failures.append("TEMA02_88_112_MUST_REMAIN_REVIEW_REQUIRED")
@@ -229,6 +294,9 @@ def main() -> int:
     fragment_129_135 = [mirror for mirror in mirrors if mirror.get("scope", {}).get("printed_page_range") == "129-135"]
     if len(fragment_129_135) != 1 or fragment_129_135[0].get("scope", {}).get("status") != "REVIEW_REQUIRED":
         failures.append("TEMA02_129_135_MUST_REMAIN_REVIEW_REQUIRED")
+    fragment_136_147 = [mirror for mirror in mirrors if mirror.get("scope", {}).get("printed_page_range") == "136-147"]
+    if len(fragment_136_147) != 1 or fragment_136_147[0].get("scope", {}).get("status") != "REVIEW_REQUIRED":
+        failures.append("TEMA02_136_147_MUST_REMAIN_REVIEW_REQUIRED")
 
     qr_entries = [entry for entry in entries if entry.get("mirror_id") == "T2V23_P135_QR_LIMIT"]
     if len(qr_entries) != 1:
@@ -252,6 +320,7 @@ def main() -> int:
             "pdf_verified_dlt_questions": 9,
             "pdf_verified_p128_questions": 4,
             "pdf_verified_speaking_questions": 6,
+            "pdf_verified_listening_questions": 11,
             "pdf_verified_grammar_tasks": 4,
         },
         "warnings": warnings,
