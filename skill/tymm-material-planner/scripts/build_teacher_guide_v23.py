@@ -6,6 +6,10 @@ Projection order:
 
 The mirror is a thin, reviewable UX contract. It never replaces canonical
 teacher-guide data and never auto-fills pedagogy from generic profiles.
+
+For legacy grouped canonical items, an optional ``book_components_v23.json``
+may add source-verified *new* answer components. The registry is an additive
+projection aid only: it cannot overwrite an existing canonical answer key.
 """
 from __future__ import annotations
 
@@ -13,6 +17,7 @@ import argparse
 import json
 import re
 from collections import defaultdict
+from copy import deepcopy
 from pathlib import Path
 from typing import Any
 
@@ -141,8 +146,57 @@ def index_canonical(root: Path, manifest: dict[str, Any]) -> tuple[dict[str, dic
                 item_id = item["item_id"]
                 if item_id in items:
                     raise ValueError(f"duplicate canonical item: {item_id}")
-                items[item_id] = {"section_id": section_id, "unit_id": unit.get("unit_id"), "item": item}
+                items[item_id] = {"section_id": section_id, "unit_id": unit.get("unit_id"), "item": deepcopy(item)}
     return sections, items
+
+
+def load_component_registry(mirror_path: Path, mirror: dict[str, Any]) -> tuple[Path | None, dict[str, Any] | None]:
+    path = mirror_path.parent / "book_components_v23.json"
+    if not path.exists():
+        return None, None
+    registry = read_json(path)
+    if registry.get("document_type") != "TYMM_TEACHER_GUIDE_COMPONENT_REGISTRY":
+        raise ValueError(f"invalid component registry document_type: {path}")
+    if registry.get("course_id") != mirror.get("course_id") or registry.get("theme_id") != mirror.get("theme_id"):
+        raise ValueError(f"component registry identity mismatch: {path}")
+    return path, registry
+
+
+def apply_component_registry(canonical: dict[str, dict[str, Any]], registry: dict[str, Any] | None) -> int:
+    """Merge additive, source-verified component values into projection copies."""
+    if not registry:
+        return 0
+    count = 0
+    components = registry.get("components", {})
+    if not isinstance(components, dict):
+        raise ValueError("component registry components must be an object")
+
+    for item_id, component_map in components.items():
+        if item_id not in canonical:
+            raise ValueError(f"component registry references unknown canonical item: {item_id}")
+        if not isinstance(component_map, dict) or not component_map:
+            raise ValueError(f"component registry item must contain components: {item_id}")
+        item = canonical[item_id]["item"]
+        base = item.get("expected_answer")
+        if base is None:
+            base = {}
+        if not isinstance(base, dict):
+            raise ValueError(f"component registry requires object/null expected_answer: {item_id}")
+        merged = dict(base)
+        for key, meta in component_map.items():
+            if key in merged:
+                raise ValueError(f"component registry cannot overwrite canonical answer key: {item_id}:{key}")
+            if not isinstance(meta, dict) or "value" not in meta:
+                raise ValueError(f"component registry entry requires value: {item_id}:{key}")
+            locator = meta.get("source_locator")
+            if not isinstance(locator, str) or not locator.strip():
+                raise ValueError(f"component registry entry requires source_locator: {item_id}:{key}")
+            if not nonempty(meta.get("value")):
+                raise ValueError(f"component registry entry requires non-empty value: {item_id}:{key}")
+            merged[key] = meta["value"]
+            count += 1
+        item["expected_answer"] = merged
+    return count
 
 
 def project_value(entry: dict[str, Any], value: Any) -> Any:
@@ -263,6 +317,9 @@ def build(root: Path, mirror_path: Path, manifest_path: Path, output_path: Path)
         raise ValueError("mirror/manifest identity mismatch")
 
     _, canonical = index_canonical(root, manifest)
+    registry_path, registry = load_component_registry(mirror_path, mirror)
+    registry_components = apply_component_registry(canonical, registry)
+
     missing = sorted({ref for entry in mirror["entries"] for ref in entry["canonical_item_refs"] if ref not in canonical})
     if missing:
         raise ValueError("unknown canonical refs: " + ", ".join(missing))
@@ -277,6 +334,8 @@ def build(root: Path, mirror_path: Path, manifest_path: Path, output_path: Path)
         "entries": len(mirror["entries"]),
         "questions": len(question_entries),
         "locator_only_questions": locator_only,
+        "component_registry": str(registry_path.relative_to(root)) if registry_path else None,
+        "registry_components": registry_components,
         "output": str(output_path.relative_to(root)),
     }
 
