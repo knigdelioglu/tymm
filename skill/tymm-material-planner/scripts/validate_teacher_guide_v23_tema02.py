@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Source-parity gate for the Theme 2 Teacher Guide V2.3 checkpoint (s.84-154).
+"""Source-parity gate for the complete Theme 2 Teacher Guide V2.3 (s.84-159).
 
-The generic V2.3 validator owns schema, recognizability, component projection,
-semantic-repeat and book-first Markdown invariants. This module locks only the
-Theme 2 source-parity facts that must not regress as coverage grows.
+Generic V2.3 validation owns schema, recognizability, component projection,
+semantic-repeat and book-first Markdown invariants. This gate locks only the
+Theme 2 facts that were re-verified against the 2026 official textbook PDF.
 """
 from __future__ import annotations
 
@@ -19,58 +19,12 @@ def ids(prefix: str, start: int, end: int, width: int = 2) -> set[str]:
     return {f"{prefix}{n:0{width}d}" for n in range(start, end + 1)}
 
 
-REQUIRED_GROUPS: dict[str, set[str]] = {
-    "P88": ids("T2V23_P88_Q", 1, 6),
-    "P100": ids("T2V23_P100_Q", 1, 8),
-    "P112": ids("T2V23_P112_Q", 1, 5),
-    "P113": ids("T2V23_P113_Q", 1, 5),
-    "P117": {"T2V23_P117_Q01", "T2V23_P117_Q02", "T2V23_P117_Q03", "T2V23_P117_BILGE_KAGAN"},
-    "ORHUN_ANALYSIS": {
-        "T2V23_P121_NARRATOR",
-        "T2V23_P122_Q02", "T2V23_P122_Q03", "T2V23_P122_Q04",
-        "T2V23_P123_Q05", "T2V23_P123_Y01", "T2V23_P123_Y02", "T2V23_P123_Y03",
-        "T2V23_P124_Y04", "T2V23_P124_Y05",
-    },
-    "DLT": {
-        *ids("T2V23_P127_DLT_Q", 1, 7),
-        "T2V23_P127_KAPLAN_Q01", "T2V23_P127_KAPLAN_Q02",
-    },
-    "P128": {
-        "T2V23_P128_SPREAD_Q03",
-        "T2V23_P128_REFLECT_Q01", "T2V23_P128_REFLECT_Q02", "T2V23_P128_REFLECT_Q03",
-    },
-    "SPEAKING": {
-        "T2V23_P129_Q01", "T2V23_P129_Q02", "T2V23_P129_Q03",
-        "T2V23_P130_PERFORMANCE", "T2V23_P131_DESIGN",
-        "T2V23_P132_Q01", "T2V23_P132_Q02", "T2V23_P132_Q03",
-        "T2V23_P132_133_COMPARE", "T2V23_P133_BUILD_REVISE",
-        "T2V23_P134_RULES", "T2V23_P135_SELF", "T2V23_P135_QR_LIMIT",
-    },
-    "LISTENING": {
-        "T2V23_P136_Q01", "T2V23_P136_Q02", "T2V23_P137_PLAN",
-        "T2V23_P138_Q01", "T2V23_P138_Q02", "T2V23_P138_139_LISTENING_FORMS",
-        "T2V23_P140_VOCAB", "T2V23_P141_Q01", "T2V23_P141_Q02",
-        "T2V23_P142_Q01", "T2V23_P142_Q02", "T2V23_P142_HUMOR_COMPARE",
-        "T2V23_P143_LANGUAGE_COMPARE", "T2V23_P143_TASTE",
-        "T2V23_P144_Q01", "T2V23_P144_Q02", "T2V23_P144_Q03", "T2V23_P144_MEDIA_MAP",
-        "T2V23_P145_SIX_HATS", "T2V23_P146_OPINION",
-        "T2V23_P147_VALUE", "T2V23_P147_REFLECTION",
-    },
-    "WRITING": {
-        "T2V23_P148_REFERENCE", "T2V23_P149_PLAN", "T2V23_P150_PERFORMANCE",
-        "T2V23_P150_Q01", "T2V23_P151_Q02", "T2V23_P151_Q03", "T2V23_P151_SHARE_ENRICH",
-        "T2V23_P152_RULES", "T2V23_P153_REVIEW_PROCESS", "T2V23_P153_SELF",
-        "T2V23_P153_QR_LIMIT", "T2V23_P154_JOURNAL",
-    },
-    "GRAMMAR": {
-        "T2V23_P102_GRAMMAR_01", "T2V23_P103_GRAMMAR_02",
-        "T2V23_P104_GRAMMAR_03", "T2V23_P104_GRAMMAR_04",
-    },
-    "MEMOIR": {
-        "T2V23_P108_Q01", "T2V23_P108_Q02", "T2V23_P108_Q03", "T2V23_P108_110_MEMOIR",
-    },
-}
-
+P88 = ids("T2V23_P88_Q", 1, 6)
+P100 = ids("T2V23_P100_Q", 1, 8)
+P112 = ids("T2V23_P112_Q", 1, 5)
+P113 = ids("T2V23_P113_Q", 1, 5)
+DLT = {*ids("T2V23_P127_DLT_Q", 1, 7), "T2V23_P127_KAPLAN_Q01", "T2V23_P127_KAPLAN_Q02"}
+P128 = {"T2V23_P128_SPREAD_Q03", "T2V23_P128_REFLECT_Q01", "T2V23_P128_REFLECT_Q02", "T2V23_P128_REFLECT_Q03"}
 SPEAKING_QUESTIONS = {
     "T2V23_P129_Q01", "T2V23_P129_Q02", "T2V23_P129_Q03",
     "T2V23_P132_Q01", "T2V23_P132_Q02", "T2V23_P132_Q03",
@@ -83,6 +37,51 @@ LISTENING_QUESTIONS = {
     "T2V23_P144_Q01", "T2V23_P144_Q02", "T2V23_P144_Q03",
 }
 WRITING_QUESTIONS = {"T2V23_P150_Q01", "T2V23_P151_Q02", "T2V23_P151_Q03"}
+ASSESSMENT_QUESTIONS = {
+    "T2V23_P155_Q01", "T2V23_P155_Q02", "T2V23_P156_157_Q03",
+    "T2V23_P157_Q04", "T2V23_P157_Q05", "T2V23_P158_Q06",
+    "T2V23_P159_Q07", "T2V23_P159_Q08", "T2V23_P159_Q09",
+}
+
+REQUIRED_GROUPS: dict[str, set[str]] = {
+    "P88": P88,
+    "P100": P100,
+    "P112": P112,
+    "P113": P113,
+    "P117": {"T2V23_P117_Q01", "T2V23_P117_Q02", "T2V23_P117_Q03", "T2V23_P117_BILGE_KAGAN"},
+    "ORHUN_ANALYSIS": {
+        "T2V23_P121_NARRATOR",
+        "T2V23_P122_Q02", "T2V23_P122_Q03", "T2V23_P122_Q04",
+        "T2V23_P123_Q05", "T2V23_P123_Y01", "T2V23_P123_Y02", "T2V23_P123_Y03",
+        "T2V23_P124_Y04", "T2V23_P124_Y05",
+    },
+    "DLT": DLT,
+    "P128": P128,
+    "SPEAKING": {
+        *SPEAKING_QUESTIONS,
+        "T2V23_P130_PERFORMANCE", "T2V23_P131_DESIGN", "T2V23_P132_133_COMPARE",
+        "T2V23_P133_BUILD_REVISE", "T2V23_P134_RULES", "T2V23_P135_SELF", "T2V23_P135_QR_LIMIT",
+    },
+    "LISTENING": {
+        *LISTENING_QUESTIONS,
+        "T2V23_P137_PLAN", "T2V23_P138_139_LISTENING_FORMS", "T2V23_P140_VOCAB",
+        "T2V23_P142_HUMOR_COMPARE", "T2V23_P143_LANGUAGE_COMPARE", "T2V23_P143_TASTE",
+        "T2V23_P144_MEDIA_MAP", "T2V23_P145_SIX_HATS", "T2V23_P146_OPINION",
+        "T2V23_P147_VALUE", "T2V23_P147_REFLECTION",
+    },
+    "WRITING": {
+        *WRITING_QUESTIONS,
+        "T2V23_P148_REFERENCE", "T2V23_P149_PLAN", "T2V23_P150_PERFORMANCE",
+        "T2V23_P151_SHARE_ENRICH", "T2V23_P152_RULES", "T2V23_P153_REVIEW_PROCESS",
+        "T2V23_P153_SELF", "T2V23_P153_QR_LIMIT", "T2V23_P154_JOURNAL",
+    },
+    "ASSESSMENT": ASSESSMENT_QUESTIONS,
+    "GRAMMAR": {
+        "T2V23_P102_GRAMMAR_01", "T2V23_P103_GRAMMAR_02",
+        "T2V23_P104_GRAMMAR_03", "T2V23_P104_GRAMMAR_04",
+    },
+    "MEMOIR": {"T2V23_P108_Q01", "T2V23_P108_Q02", "T2V23_P108_Q03", "T2V23_P108_110_MEMOIR"},
+}
 
 REQUIRED_HEADINGS = {
     "Temaya Başlarken — Vatan yahut Silistre",
@@ -101,20 +100,13 @@ REQUIRED_HEADINGS = {
     "Süreci Değerlendirebilme — Kül Tigin Âbidesi",
     "Konuşmayı Yönetebilme — Dünyadaki Türkiye-Türk Dünyası",
     "Performans Görevi — Türk Dünyası Ortak Kültürü",
-    "İçerik Oluşturabilme — konuşma metni tasarımı",
     "Düşünelim Paylaşalım — Türk dünyası kültür unsurlarını karşılaştırma",
     "Kural Uygulayabilme — konuşma uygulama ölçütleri",
     "Süreci Değerlendirebilme — Dereceli Puanlama Anahtarı / Akran Değerlendirme",
     "Konuya Başlarken — Âşıklık geleneğinde saz",
-    "Konuya Başlarken — Sazım’a / sanat-sanatçı ilişkisi",
     "Dinleme / İzlemeyi Yönetebilme — Âşık Atışması",
-    "Hatırlayalım — Halk Şiiri ve Halk Şairleri",
     "Fark Edelim — etkin dinleme / Kontrol Listesi / Gözlem Formu",
-    "Anlam Oluşturabilme — Söz Varlığımız",
-    "Sıra Sizde — Âşıklık geleneğinin geleceğe taşınması",
     "Metni Anlayalım — Âşık Atışması",
-    "Karşılaştıralım — atışma mizahı ve günlük mizah",
-    "Karşılaştıralım — atışma dili / günlük dil / Münacaat",
     "Fark Edelim — Usta-Çırak Geleneği / Meşk Usûlü",
     "Çözümleyebilme — âşık atışmasının çok modlu unsurları",
     "Sıra Sizde — Altı Şapka",
@@ -128,15 +120,21 @@ REQUIRED_HEADINGS = {
     "İçerik Oluşturabilme — kültür taşıyıcıları",
     "Kural Uygulayabilme — izlenim yazısı ölçütleri",
     "Süreci Değerlendirebilme — değerlendirme, revizyon ve paylaşma",
-    "Süreci Değerlendirebilme — Öz Değerlendirme Formu",
     "Tema Sonu — Öğrenme Günlüğü",
+    "2. Tema Ölçme ve Değerlendirme Soruları",
+    "2. Tema Ölçme ve Değerlendirme — Kutadgu Bilig / Dede Korkut / Kamus-ı Türkî",
+    "2. Tema Ölçme ve Değerlendirme — eserler arası ilişki",
+    "2. Tema Ölçme ve Değerlendirme — ortak bilgi",
+    "2. Tema Ölçme ve Değerlendirme — âşık atışması",
+    "2. Tema Ölçme ve Değerlendirme — âşık atışmasını değerlendirme",
+    "2. Tema Ölçme ve Değerlendirme — Göktürklerin Dirilişi",
 }
 
 EXPECTED_METRICS = {
-    "scope": "84-154",
-    "entries": 149,
-    "questions": 98,
-    "recognizable_questions": 98,
+    "scope": "84-159",
+    "entries": 158,
+    "questions": 107,
+    "recognizable_questions": 107,
     "component_registry_entries": 35,
     "component_registry_used": 35,
     "component_projected_entries": 135,
@@ -209,13 +207,14 @@ def main() -> int:
     mirrors = [read_json(path) for path in discover_mirror_paths(mirror_path)]
     entries = [entry for mirror in mirrors for entry in mirror.get("entries", [])]
 
-    require_question_cards(failures, entries, "P88", REQUIRED_GROUPS["P88"], 6)
-    require_question_cards(failures, entries, "P113", REQUIRED_GROUPS["P113"], 5)
-    require_question_cards(failures, entries, "DLT", REQUIRED_GROUPS["DLT"], 9)
-    require_question_cards(failures, entries, "P128", REQUIRED_GROUPS["P128"], 4)
+    require_question_cards(failures, entries, "P88", P88, 6)
+    require_question_cards(failures, entries, "P113", P113, 5)
+    require_question_cards(failures, entries, "DLT", DLT, 9)
+    require_question_cards(failures, entries, "P128", P128, 4)
     require_question_cards(failures, entries, "SPEAKING", SPEAKING_QUESTIONS, 6)
     require_question_cards(failures, entries, "LISTENING", LISTENING_QUESTIONS, 11)
     require_question_cards(failures, entries, "WRITING", WRITING_QUESTIONS, 3)
+    require_question_cards(failures, entries, "ASSESSMENT", ASSESSMENT_QUESTIONS, 9)
 
     require_media_boundary(failures, entries, "T2V23_P88_Q01", ("video", "izledi"), "video")
     require_media_boundary(failures, entries, "T2V23_P113_Q01", ("qr", "görül"), "video")
@@ -224,8 +223,9 @@ def main() -> int:
     require_media_boundary(failures, entries, "T2V23_P140_VOCAB", ("qr", "gerçek dinleme"), "qr")
     require_media_boundary(failures, entries, "T2V23_P144_MEDIA_MAP", ("qr medyada gerçekten", "gözlediği"), "qr")
     require_media_boundary(failures, entries, "T2V23_P153_QR_LIMIT", ("görünmeyen", "üretmeyin"), "qr")
+    require_media_boundary(failures, entries, "T2V23_P159_Q08", ("video", "gerçekten izlediyse"), "video")
 
-    for page_range in ("88-112", "113-128", "129-135", "136-147", "148-154"):
+    for page_range in ("88-112", "113-128", "129-135", "136-147", "148-154", "155-159"):
         require_fragment(failures, mirrors, page_range)
 
     result = {
@@ -243,7 +243,8 @@ def main() -> int:
             "pdf_verified_speaking_questions": 6,
             "pdf_verified_listening_questions": 11,
             "pdf_verified_writing_questions": 3,
-            "pdf_verified_grammar_tasks": 4,
+            "pdf_verified_theme_assessment_questions": 9,
+            "full_theme_scope": True,
         },
         "warnings": warnings,
         "failures": failures,
