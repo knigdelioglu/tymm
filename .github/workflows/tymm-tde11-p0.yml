@@ -103,7 +103,7 @@ jobs:
         run: |
           python skill/tymm-material-planner/scripts/validate_teacher_guide_v23_tema02.py --repo-root .
 
-      - name: Build Teacher Guide V2.3 Theme 3 opening pilot
+      - name: Build Teacher Guide V2.3 Theme 3 full reference
         run: |
           python skill/tymm-material-planner/scripts/build_teacher_guide_v23.py \
             --repo-root . \
@@ -111,9 +111,21 @@ jobs:
             --manifest courses/TDE_11/teacher_guide/TEMA_03/teacher_guide.json \
             --output courses/TDE_11/teacher_guide/TEMA_03/TEACHER_GUIDE_V23_PILOT.md
 
-      - name: Validate Teacher Guide V2.3 Theme 3 opening source parity
+      - name: Validate Teacher Guide V2.3 Theme 3 full source parity
         run: |
           python skill/tymm-material-planner/scripts/validate_teacher_guide_v23_tema03.py --repo-root .
+
+      - name: Build Teacher Guide V2.3 Theme 4 opening pilot
+        run: |
+          python skill/tymm-material-planner/scripts/build_teacher_guide_v23.py \
+            --repo-root . \
+            --mirror courses/TDE_11/teacher_guide/TEMA_04/book_mirror_v23.json \
+            --manifest courses/TDE_11/teacher_guide/TEMA_04/teacher_guide.json \
+            --output courses/TDE_11/teacher_guide/TEMA_04/TEACHER_GUIDE_V23_PILOT.md
+
+      - name: Validate Teacher Guide V2.3 Theme 4 opening source parity
+        run: |
+          python skill/tymm-material-planner/scripts/validate_teacher_guide_v23_tema04.py --repo-root .
 
       - name: Run TDE11 generic P0 gate
         env:
