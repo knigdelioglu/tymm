@@ -204,7 +204,7 @@ def main() -> int:
     require_media_boundary(failures, entries, "T2V23_P129_Q01", ("video", "izledi"), "video")
     require_media_boundary(failures, entries, "T2V23_P135_QR_LIMIT", ("görünmeyen", "üretmeyin"), "qr")
     require_media_boundary(failures, entries, "T2V23_P140_VOCAB", ("qr", "gerçek dinleme"), "qr")
-    require_media_boundary(failures, entries, "T2V23_P144_MEDIA_MAP", ("qr medyada gerçekten", "uydur"), "qr")
+    require_media_boundary(failures, entries, "T2V23_P144_MEDIA_MAP", ("qr medyada gerçekten", "gözlediği"), "qr")
 
     for page_range in ("88-112", "113-128", "129-135", "136-147"):
         require_fragment(failures, mirrors, page_range)
