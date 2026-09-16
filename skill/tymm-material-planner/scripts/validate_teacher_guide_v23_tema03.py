@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Source-parity gate for the Theme 3 Teacher Guide V2.3 checkpoint (s.160-224)."""
+"""Source-parity gate for the Theme 3 Teacher Guide V2.3 checkpoint (s.160-229)."""
 from __future__ import annotations
 
 import argparse
@@ -56,6 +56,16 @@ SPEAKING_REQUIRED_NONQUESTIONS = {
     "T3V23_P213_MULAKAT_UYGULAMA", "T3V23_P214_DEGER_3_7",
 }
 
+WRITING_REQUIRED = {
+    "T3V23_P225_RADYO_OYUNU",
+    "T3V23_P225_YAZMA_STRATEJI",
+    "T3V23_P226_YAZMA_PLAN",
+    "T3V23_P227_228_KURAL",
+    "T3V23_P228_YAZMA_DEGER",
+    "T3V23_P229_YAZMA_OZ_DEGER",
+    "T3V23_P229_TEMA_CIKIS",
+}
+
 REQUIRED_ENTRIES = {
     "T3V23_P160_161_THEME_OPEN",
     *OPENING_QUESTIONS,
@@ -70,6 +80,7 @@ REQUIRED_ENTRIES = {
     *SPEAKING_REQUIRED_NONQUESTIONS,
     "T3V23_P215_Q01", "T3V23_P215_Q02", "T3V23_P215_Q03",
     "T3V23_P216_DINLEME_YONETIM", "T3V23_P217_SOZ_VARLIGI",
+    *WRITING_REQUIRED,
 }
 REQUIRED_HEADINGS = {
     "3. Tema — Yaşamın İzinde / tema çerçevesi",
@@ -108,15 +119,22 @@ REQUIRED_HEADINGS = {
     "Dinleme / İzlemeyi Yönetebilme — amaç, strateji, tahmin ve Gözlem Formu",
     "Hatırlayalım — radyo tiyatrosunun unsurları",
     "Metni Anlayalım — Direnişin Ustaları",
+    "Yazmayı Yönetebilme — Radyo Oyununun Özellikleri ve tür dönüşümü görevi",
+    "Performans Görevi / İçerik Oluşturabilme — dönüşüm yazısını planlama",
+    "İçerik Oluşturabilme / Kural Uygulayabilme — taslaktan son metne",
+    "Süreci Değerlendirebilme — değerlendirme, geri bildirim ve dış QR rubriği",
+    "Tema Sonu Değerlendirme — 3-2-1 Çıkış Kartı",
 }
 
 EXPECTED = {
-    "scope": "160-224",
-    "entries": 123,
+    "mirror_files": 6,
+    "scope": "160-229",
+    "entries": 130,
     "questions": 98,
     "recognizable_questions": 98,
     "component_projected_entries": 100,
     "shared_canonical_items": 23,
+    "review_required_fragments": 3,
     "component_registry_entries": 44,
     "component_registry_used": 44,
 }
@@ -212,12 +230,40 @@ def main() -> int:
         if not any(token in combined for token in ("medya", "duy", "izle", "kanıt", "hazır")):
             failures.append(f"TEMA03_MEDIA_EVIDENCE_BOUNDARY_MISSING:{entry.get('mirror_id')}")
 
+    writing_mirrors = [mirror for mirror in mirrors if mirror.get("scope", {}).get("printed_page_range") == "225-229"]
+    if len(writing_mirrors) != 1:
+        failures.append(f"TEMA03_WRITING_FRAGMENT_COUNT:{len(writing_mirrors)}")
+        writing_entries: list[dict] = []
+    else:
+        writing_entries = writing_mirrors[0].get("entries", [])
+        if writing_mirrors[0].get("scope", {}).get("status") != "REVIEW_REQUIRED":
+            failures.append("TEMA03_WRITING_MUST_REMAIN_REVIEW_REQUIRED")
+
+    writing_ids = {entry.get("mirror_id") for entry in writing_entries}
+    writing_questions = [entry for entry in writing_entries if entry.get("presentation_type") == "QUESTION"]
+    if len(writing_entries) != 7 or writing_ids != WRITING_REQUIRED:
+        failures.append(f"TEMA03_WRITING_NATURAL_GRANULARITY:{len(writing_entries)}/7")
+    if writing_questions:
+        failures.append(f"TEMA03_WRITING_MUST_NOT_INVENT_QUESTION_CARDS:{len(writing_questions)}")
+    p228_rows = [entry for entry in writing_entries if entry.get("mirror_id") == "T3V23_P228_YAZMA_DEGER"]
+    if len(p228_rows) != 1:
+        failures.append("TEMA03_WRITING_QR_BOUNDARY_ENTRY_MISSING")
+        writing_qr_boundary = False
+    else:
+        p228_text = " ".join(
+            str(p228_rows[0].get(key, "")) for key in ("teacher_note", "source_locator")
+        ).casefold()
+        writing_qr_boundary = "qr" in p228_text and "görünmeyen" in p228_text
+        if not writing_qr_boundary:
+            failures.append("TEMA03_WRITING_QR_BOUNDARY_MISSING")
+
     expected_fragments = {
         "160-163": "PILOT",
         "164-193": "REFERENCE_QUALITY",
         "194-209": "REFERENCE_QUALITY",
         "210-214": "REVIEW_REQUIRED",
         "215-224": "REVIEW_REQUIRED",
+        "225-229": "REVIEW_REQUIRED",
     }
     for page_range, status in expected_fragments.items():
         rows = [mirror for mirror in mirrors if mirror.get("scope", {}).get("printed_page_range") == page_range]
@@ -235,8 +281,11 @@ def main() -> int:
             "pdf_verified_speaking_questions": len(SPEAKING_QUESTIONS),
             "pdf_verified_listening_questions": len(listening_questions),
             "listening_natural_process_blocks": len(listening_nonquestions),
+            "pdf_verified_writing_questions": len(writing_questions),
+            "writing_natural_process_blocks": len(writing_entries),
             "speaking_qr_boundary_preserved": True,
             "listening_media_boundary_preserved": not any("MEDIA_EVIDENCE_BOUNDARY_MISSING" in failure for failure in failures),
+            "writing_qr_boundary_preserved": writing_qr_boundary,
         },
         "warnings": warnings,
         "failures": failures,
