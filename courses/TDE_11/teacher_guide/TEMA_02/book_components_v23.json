@@ -55,6 +55,10 @@
     "T2_G07_P125_127_DLT": {
       "reading_reference": {"value": "Dîvânu Lugâti’t-Türk ara metni ve sözlük örnekleri basılı s.125-126'da okunur; dil, söz varlığı ve kültür verileri s.127'deki sorular için kanıt olarak kullanılır.", "source_locator": "basılı s.125-126 / PDF s.126-127 — Dîvânu Lugâti’t-Türk ara metni"},
       "kaplan_q2_dil_arkeoloji": {"value": "Tek zorunlu görüş yoktur. Dil; yalnız nesneleri değil adlandırma biçimlerini, inançları, gelenekleri, ilişkileri ve düşünce dünyasını da taşıdığı için geniş bir kültür hazinesi olarak savunulabilir. Arkeoloji ise maddi kalıntılar üzerinden güçlü kanıt sunar. Öğrenci katılma/katılmama görüşünü gerekçelendirmelidir.", "source_locator": "basılı s.127 / PDF s.128 — Fark Edelim soru 2"}
+    },
+    "T2_G13_P136_KONUYA_BASLARKEN": {
+      "q1_sazin_yeri": {"value": "Saz, âşığa doğaçlama sırasında düşünme ve söyleyişi düzenleme imkânı verir; ölçü, kafiye ve anlam uyumunu kurmaya yardım eder. Aynı zamanda âşığın şiirini müzikle birleştirdiği temel icra aracı ve günlük/sanatsal kimliğinin parçasıdır.", "source_locator": "basılı s.136 / PDF s.137 — soru 1"},
+      "q2_sanat_sanatci": {"value": "Petek–arı benzetmesi, saz ile sanatçının birbirini tamamlayan üretim ilişkisini anlatır: saz üretimin zemini ve aracı, Veysel ise onu işleyerek sanat eserine dönüştüren sanatçıdır; birlikte 'bal' yani sanat ortaya çıkarırlar.", "source_locator": "basılı s.136 / PDF s.137 — soru 2"}
     }
   }
 }
