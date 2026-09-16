@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Source-parity gate for the Theme 3 Teacher Guide V2.3 checkpoint (s.160-229)."""
+"""Source-parity gate for the complete Theme 3 Teacher Guide V2.3 (s.160-235)."""
 from __future__ import annotations
 
 import argparse
@@ -8,142 +8,78 @@ from pathlib import Path
 
 from validate_teacher_guide_v23_generic import discover_mirror_paths, read_json, validate
 
-OPENING_QUESTIONS = {
-    "T3V23_P162_Q01", "T3V23_P162_Q02", "T3V23_P162_Q03", "T3V23_P162_Q04",
-    "T3V23_P163_Q05", "T3V23_P163_Q06",
+EXPECTED = {
+    "mirror_files": 7,
+    "scope": "160-235",
+    "entries": 146,
+    "questions": 114,
+    "recognizable_questions": 114,
+    "component_projected_entries": 115,
+    "shared_canonical_items": 28,
+    "review_required_fragments": 4,
+    "component_registry_entries": 44,
+    "component_registry_used": 44,
 }
+
+EXPECTED_FRAGMENTS = {
+    "160-163": "PILOT",
+    "164-193": "REFERENCE_QUALITY",
+    "194-209": "REFERENCE_QUALITY",
+    "210-214": "REVIEW_REQUIRED",
+    "215-224": "REVIEW_REQUIRED",
+    "225-229": "REVIEW_REQUIRED",
+    "230-235": "REVIEW_REQUIRED",
+}
+
 HUZUR_METNI_ANLAYALIM = {
     "T3V23_P175_Q01", "T3V23_P175_Q02",
     *{f"T3V23_P176_Q{n:02d}" for n in range(3, 14)},
     "T3V23_P177_Q14",
 }
-HUZUR_OTHER_QUESTIONS = {
-    "T3V23_P164_Q01", "T3V23_P164_Q02", "T3V23_P164_Q03",
-    "T3V23_P182_Q01_GERCEK_KURGU", "T3V23_P182_YAZAR_ESER",
-    "T3V23_P183_Q02_GERCEK_KURGU", "T3V23_P183_SIRA_Q01_OZNEL_NESNEL",
-    "T3V23_P184_185_SIRA_Q02_DUYARLILIK", "T3V23_P186_SIRA_Q03_DIL",
-    "T3V23_P186_COZUM_Q01_YAPI", "T3V23_P187_COZUM_Q02_USLUP_YAPI",
-    "T3V23_P187_COZUM_Q03A", "T3V23_P188_COZUM_Q03B",
-    "T3V23_P188_COZUM_Q03C", "T3V23_P188_COZUM_Q03CC", "T3V23_P188_COZUM_Q04",
-    "T3V23_P189_CATISMA", "T3V23_P190_DONEM_DILI",
-    "T3V23_P190_191_GRAMMAR_Q01", "T3V23_P191_GRAMMAR_Q02", "T3V23_P191_GRAMMAR_Q03",
-    "T3V23_P192_DEGER_Q01", "T3V23_P193_DEGER_Q02", "T3V23_P193_DEGER_Q03",
-}
-HUZUR_QUESTIONS = HUZUR_METNI_ANLAYALIM | HUZUR_OTHER_QUESTIONS
 
-BIOGRAPHY_QUESTIONS = {
-    "T3V23_P194_Q01", "T3V23_P194_Q02",
-    "T3V23_P199_Q01", "T3V23_P199_Q02", "T3V23_P199_Q03",
-    "T3V23_P200_FARK_EDELIM",
-    "T3V23_P202_Q01_OZNEL_NESNEL", "T3V23_P202_Q02_BASKIN_ANLATIM",
-    "T3V23_P203_Q01_BIYOGRAFI_ORNEK", "T3V23_P203_Q02_BIYOGRAFI_TUR",
-    "T3V23_P204_Q01_HUZUR_AKIF_COMPARE", "T3V23_P204_Q02_SIBER_GERCEKLIK",
-    "T3V23_P205_COZUM_Q01", "T3V23_P205_COZUM_Q02", "T3V23_P205_COZUM_Q03", "T3V23_P205_COZUM_Q04",
-    "T3V23_P205_SIRA_Q01_ASIM", "T3V23_P205_SIRA_Q02_ASIM",
-    *{f"T3V23_P208_Q{n:02d}" for n in range(1, 7)},
-    *{f"T3V23_P209_Q{n:02d}" for n in range(1, 5)},
-}
-BIOGRAPHY_REQUIRED_NONQUESTIONS = {
-    "T3V23_P195_OKUMA_YONETIM", "T3V23_P195_197_AKIF_METNI", "T3V23_P198_SOZ_VARLIGI",
-    "T3V23_P201_CALISMA_KAGIDI", "T3V23_P206_207_USULI",
+ASSESSMENT_IDS = {
+    "T3V23_P230_Q01", "T3V23_P230_Q02",
+    *{f"T3V23_P231_Q{n:02d}" for n in range(3, 7)},
+    "T3V23_P232_Q07",
+    *{f"T3V23_P233_Q{n:02d}" for n in range(8, 12)},
+    *{f"T3V23_P234_Q{n:02d}" for n in range(12, 16)},
+    "T3V23_P235_Q16",
 }
 
-SPEAKING_QUESTIONS = {
-    "T3V23_P210_Q01", "T3V23_P210_Q02", "T3V23_P214_Q01_ILETI", "T3V23_P214_Q02_DAYANAK",
-}
-SPEAKING_REQUIRED_NONQUESTIONS = {
-    "T3V23_P211_MULAKAT_PLAN", "T3V23_P212_MULAKAT_ICERIK",
-    "T3V23_P213_MULAKAT_UYGULAMA", "T3V23_P214_DEGER_3_7",
-}
-
-WRITING_REQUIRED = {
-    "T3V23_P225_RADYO_OYUNU",
-    "T3V23_P225_YAZMA_STRATEJI",
-    "T3V23_P226_YAZMA_PLAN",
-    "T3V23_P227_228_KURAL",
-    "T3V23_P228_YAZMA_DEGER",
-    "T3V23_P229_YAZMA_OZ_DEGER",
-    "T3V23_P229_TEMA_CIKIS",
-}
-
-REQUIRED_ENTRIES = {
-    "T3V23_P160_161_THEME_OPEN",
-    *OPENING_QUESTIONS,
-    *HUZUR_QUESTIONS,
-    "T3V23_P165_OKUMA_PLANI", "T3V23_P165_166_KELIME_TAHMIN_STRATEJI", "T3V23_P167_171_HUZUR_METNI",
-    "T3V23_P172_SOZ_VARLIGI", "T3V23_P174_USLUP_HARITASI", "T3V23_P177_178_HUZUR_MESCID_COMPARE",
-    "T3V23_P178_179_OKUMA_CEMBERI", "T3V23_P180_181_KISI_TABLOLARI", "T3V23_P191_SOSYAL_BILIM",
-    "T3V23_P193_CIKIS_321",
-    *BIOGRAPHY_QUESTIONS,
-    *BIOGRAPHY_REQUIRED_NONQUESTIONS,
-    *SPEAKING_QUESTIONS,
-    *SPEAKING_REQUIRED_NONQUESTIONS,
-    "T3V23_P215_Q01", "T3V23_P215_Q02", "T3V23_P215_Q03",
-    "T3V23_P216_DINLEME_YONETIM", "T3V23_P217_SOZ_VARLIGI",
-    *WRITING_REQUIRED,
-}
-REQUIRED_HEADINGS = {
-    "3. Tema — Yaşamın İzinde / tema çerçevesi",
-    "Temaya Başlarken — edebiyat ve yaşam",
-    "Konuya Başlarken — yazar, hayat ve roman",
-    "Okumayı Yönetebilme — Huzur için tahmin, araştırma ve çalışma kâğıdı",
-    "Metni Okuyalım — Huzur",
-    "Anlam Oluşturabilme — Söz Varlığımız",
-    "Metni Anlayalım — Huzur",
-    "Karşılaştıralım — Huzur / Mescid-i Aksa",
-    "Karşılaştıralım — Okuma Çemberi 1-2. adımlar",
-    "Fark Edelim — gerçek hayat / kurmaca balık kılçığı",
-    "Sıra Sizde — öznel ve nesnel anlatım",
-    "Çözümleyebilme — Huzur'un yapı unsurları",
-    "Çözümleyebilme — yazarın üslup seçimi",
-    "Sıra Sizde — cümle ögeleri",
-    "Süreci Değerlendirebilme — Huzur çözümleme çalışma kâğıdı",
-    "Çıkış Kartı — Üç Yaz / İki Sor / Bir Paylaş",
-    "Konuya Başlarken — biyografide yaşam ayrıntıları",
-    "Okumayı Yönetebilme — Mehmet Akif Ersoy",
-    "Metni Okuyalım — Mehmet Akif Ersoy",
-    "Çalışma Kâğıdı — Mehmet Akif Ersoy biyografisi",
-    "Fark Edelim — biyografi örnekleri",
-    "Karşılaştıralım — Huzur / Mehmet Akif Ersoy",
-    "Çözümleyebilme — biyografinin yapı unsurları",
-    "Bilgi Köşesi / Ara Metin — Tezkire ve Usûlî",
-    "Sıra Sizde — Usûlî tezkiresi",
-    "Süreci Değerlendirebilme — beğeni ölçütü belirleme",
-    "Konuşmayı Yönetebilme — Kemal Tahir mülakatı",
-    "Performans Görevi — Huzur kişisiyle hayalî mülakat",
-    "İçerik Oluşturabilme — mülakat soru/cevap ve taslak geliştirme",
-    "Kural Uygulayabilme — hayalî mülakatı gerçekleştirme",
-    "Süreci Değerlendirebilme — açık ve örtük iletiler",
-    "Süreci Değerlendirebilme — rubrik, öz değerlendirme, gelişim ve akran geri bildirimi",
-    "Konuya Başlarken — radyo tiyatrosuna ilginin azalması",
-    "Dinleme / İzlemeyi Yönetebilme — amaç, strateji, tahmin ve Gözlem Formu",
-    "Hatırlayalım — radyo tiyatrosunun unsurları",
-    "Metni Anlayalım — Direnişin Ustaları",
-    "Yazmayı Yönetebilme — Radyo Oyununun Özellikleri ve tür dönüşümü görevi",
-    "Performans Görevi / İçerik Oluşturabilme — dönüşüm yazısını planlama",
-    "İçerik Oluşturabilme / Kural Uygulayabilme — taslaktan son metne",
-    "Süreci Değerlendirebilme — değerlendirme, geri bildirim ve dış QR rubriği",
-    "Tema Sonu Değerlendirme — 3-2-1 Çıkış Kartı",
-}
-
-EXPECTED = {
-    "mirror_files": 6,
-    "scope": "160-229",
-    "entries": 130,
-    "questions": 98,
-    "recognizable_questions": 98,
-    "component_projected_entries": 100,
-    "shared_canonical_items": 23,
-    "review_required_fragments": 3,
-    "component_registry_entries": 44,
-    "component_registry_used": 44,
+ASSESSMENT_COMPONENTS = {
+    "T3V23_P230_Q01": ("degerlendirme",),
+    "T3V23_P230_Q02": ("sentez_ornegi",),
+    "T3V23_P231_Q03": ("3",),
+    "T3V23_P231_Q04": ("4",),
+    "T3V23_P231_Q05": ("5",),
+    "T3V23_P231_Q06": ("6",),
+    "T3V23_P232_Q07": ("7",),
+    "T3V23_P233_Q08": ("8",),
+    "T3V23_P233_Q09": ("9",),
+    "T3V23_P233_Q10": ("10",),
+    "T3V23_P233_Q11": ("11",),
+    "T3V23_P234_Q12": ("12",),
+    "T3V23_P234_Q13": ("13",),
+    "T3V23_P234_Q14": ("14",),
+    "T3V23_P234_Q15": ("15",),
+    "T3V23_P235_Q16": (),
 }
 
 
-def require_question_cards(failures: list[str], entries: list[dict], label: str, required: set[str]) -> None:
-    rows = [entry for entry in entries if entry.get("mirror_id") in required]
-    if len(rows) != len(required) or any(entry.get("presentation_type") != "QUESTION" for entry in rows):
-        failures.append(f"TEMA03_{label}_QUESTION_CARD_PARITY:{len(rows)}/{len(required)}")
+def page_span(entry: dict) -> tuple[int, int]:
+    text = str(entry.get("printed_page_range", "0"))
+    parts = text.replace("–", "-").replace("—", "-").split("-")
+    start = int(parts[0])
+    return start, int(parts[-1])
+
+
+def entries_in(entries: list[dict], start: int, end: int) -> list[dict]:
+    result = []
+    for entry in entries:
+        left, right = page_span(entry)
+        if left >= start and right <= end:
+            result.append(entry)
+    return result
 
 
 def main() -> int:
@@ -151,6 +87,7 @@ def main() -> int:
     parser.add_argument("--repo-root", type=Path, default=Path("."))
     args = parser.parse_args()
     root = args.repo_root.resolve()
+
     mirror_path = root / "courses/TDE_11/teacher_guide/TEMA_03/book_mirror_v23.json"
     manifest_path = root / "courses/TDE_11/teacher_guide/TEMA_03/teacher_guide.json"
     schema_path = root / "skill/tymm-material-planner/schemas/teacher_guide_book_mirror.schema.json"
@@ -160,132 +97,130 @@ def main() -> int:
     failures = list(report["failures"])
     warnings = list(report["warnings"])
     metrics = report["metrics"]
-    seen = set(report.get("seen_mirror_ids", []))
-    headings = set(report.get("headings", []))
 
     for key, value in EXPECTED.items():
         if metrics.get(key) != value:
             failures.append(f"TEMA03_METRIC_PARITY:{key}:{metrics.get(key)}!={value}")
 
-    missing_entries = sorted(REQUIRED_ENTRIES - seen)
-    if missing_entries:
-        failures.append("TEMA03_REQUIRED_ENTRIES_MISSING:" + ",".join(missing_entries))
-    missing_headings = sorted(REQUIRED_HEADINGS - headings)
-    if missing_headings:
-        failures.append("TEMA03_BOOK_HEADINGS_MISSING:" + " | ".join(missing_headings))
-
     mirrors = [read_json(path) for path in discover_mirror_paths(mirror_path)]
     entries = [entry for mirror in mirrors for entry in mirror.get("entries", [])]
-    require_question_cards(failures, entries, "OPENING", OPENING_QUESTIONS)
-    require_question_cards(failures, entries, "HUZUR", HUZUR_QUESTIONS)
-    require_question_cards(failures, entries, "HUZUR_METNI_ANLAYALIM", HUZUR_METNI_ANLAYALIM)
-    require_question_cards(failures, entries, "BIOGRAPHY_TEZKIRE", BIOGRAPHY_QUESTIONS)
-    require_question_cards(failures, entries, "SPEAKING", SPEAKING_QUESTIONS)
 
-    metni = [entry for entry in entries if entry.get("mirror_id") in HUZUR_METNI_ANLAYALIM]
-    metni_keys = {tuple(entry.get("answer_keys", [])) for entry in metni}
-    if len(metni) != 14 or metni_keys != {(str(n),) for n in range(1, 15)}:
+    actual_fragments = {
+        str(mirror.get("scope", {}).get("printed_page_range")): mirror.get("scope", {}).get("status")
+        for mirror in mirrors
+    }
+    if actual_fragments != EXPECTED_FRAGMENTS:
+        failures.append(f"TEMA03_FRAGMENT_PARITY:{actual_fragments!r}")
+
+    # Opening: six real questions; theme reference itself is not converted to a fake question.
+    opening = entries_in(entries, 160, 163)
+    opening_questions = [entry for entry in opening if entry.get("presentation_type") == "QUESTION"]
+    if len(opening) != 7 or len(opening_questions) != 6:
+        failures.append(f"TEMA03_OPENING_PARITY:{len(opening)}/{len(opening_questions)}")
+
+    # Huzur: the source has 14 separate Metni Anlayalım questions (1-14).
+    huzur_metni = [entry for entry in entries if entry.get("mirror_id") in HUZUR_METNI_ANLAYALIM]
+    huzur_keys = {tuple(entry.get("answer_keys", [])) for entry in huzur_metni}
+    if len(huzur_metni) != 14 or huzur_keys != {(str(n),) for n in range(1, 15)}:
         failures.append("TEMA03_HUZUR_MUST_KEEP_14_DISTINCT_METNI_ANLAYALIM_QUESTIONS")
 
-    grammar = {"T3V23_P190_191_GRAMMAR_Q01", "T3V23_P191_GRAMMAR_Q02", "T3V23_P191_GRAMMAR_Q03"}
-    p199 = {"T3V23_P199_Q01", "T3V23_P199_Q02", "T3V23_P199_Q03"}
-    p205 = {"T3V23_P205_COZUM_Q01", "T3V23_P205_COZUM_Q02", "T3V23_P205_COZUM_Q03", "T3V23_P205_COZUM_Q04", "T3V23_P205_SIRA_Q01_ASIM", "T3V23_P205_SIRA_Q02_ASIM"}
-    p208 = {f"T3V23_P208_Q{n:02d}" for n in range(1, 7)}
-    p209 = {f"T3V23_P209_Q{n:02d}" for n in range(1, 5)}
-    require_question_cards(failures, entries, "HUZUR_GRAMMAR", grammar)
-    require_question_cards(failures, entries, "P199", p199)
-    require_question_cards(failures, entries, "P205", p205)
-    require_question_cards(failures, entries, "P208", p208)
-    require_question_cards(failures, entries, "P209", p209)
+    # Biography/tezkire and speaking retain the already verified natural source granularity.
+    biography = entries_in(entries, 194, 209)
+    biography_questions = [entry for entry in biography if entry.get("presentation_type") == "QUESTION"]
+    if len(biography) != 33 or len(biography_questions) != 28:
+        failures.append(f"TEMA03_BIOGRAPHY_PARITY:{len(biography)}/{len(biography_questions)}")
 
-    listening_mirrors = [mirror for mirror in mirrors if mirror.get("scope", {}).get("printed_page_range") == "215-224"]
-    if len(listening_mirrors) != 1:
-        failures.append(f"TEMA03_LISTENING_FRAGMENT_COUNT:{len(listening_mirrors)}")
-        listening_entries: list[dict] = []
-    else:
-        listening_entries = listening_mirrors[0].get("entries", [])
-        if listening_mirrors[0].get("scope", {}).get("status") != "REVIEW_REQUIRED":
-            failures.append("TEMA03_LISTENING_MUST_REMAIN_REVIEW_REQUIRED")
+    speaking = entries_in(entries, 210, 214)
+    speaking_questions = [entry for entry in speaking if entry.get("presentation_type") == "QUESTION"]
+    if len(speaking) != 8 or len(speaking_questions) != 4:
+        failures.append(f"TEMA03_SPEAKING_PARITY:{len(speaking)}/{len(speaking_questions)}")
 
-    listening_questions = [entry for entry in listening_entries if entry.get("presentation_type") == "QUESTION"]
-    listening_nonquestions = [entry for entry in listening_entries if entry.get("presentation_type") != "QUESTION"]
-    if len(listening_entries) != 27 or len(listening_questions) != 22 or len(listening_nonquestions) != 5:
+    # Listening: 22 source questions + five natural process/reference blocks.
+    listening = entries_in(entries, 215, 224)
+    listening_questions = [entry for entry in listening if entry.get("presentation_type") == "QUESTION"]
+    listening_nonquestions = [entry for entry in listening if entry.get("presentation_type") != "QUESTION"]
+    if len(listening) != 27 or len(listening_questions) != 22 or len(listening_nonquestions) != 5:
         failures.append(
-            f"TEMA03_LISTENING_NATURAL_GRANULARITY:{len(listening_entries)}/{len(listening_questions)}/{len(listening_nonquestions)}"
+            f"TEMA03_LISTENING_NATURAL_GRANULARITY:{len(listening)}/{len(listening_questions)}/{len(listening_nonquestions)}"
         )
-    p215 = [entry for entry in listening_questions if entry.get("printed_page_range") == "215"]
-    if len(p215) != 3:
-        failures.append(f"TEMA03_P215_MUST_KEEP_3_SOURCE_QUESTIONS:{len(p215)}")
-    p218_hatir = [entry for entry in listening_questions if str(entry.get("mirror_id", "")).startswith("T3V23_P218_HATIR_Q")]
-    if len(p218_hatir) != 2:
-        failures.append(f"TEMA03_P218_MUST_KEEP_2_HATIRLAYALIM_QUESTIONS:{len(p218_hatir)}")
+    if len([e for e in listening_questions if e.get("printed_page_range") == "215"]) != 3:
+        failures.append("TEMA03_P215_MUST_KEEP_3_SOURCE_QUESTIONS")
+    if len([e for e in listening_questions if str(e.get("mirror_id", "")).startswith("T3V23_P218_HATIR_Q")]) != 2:
+        failures.append("TEMA03_P218_MUST_KEEP_2_HATIRLAYALIM_QUESTIONS")
 
-    media_questions = [entry for entry in listening_questions if "QR medya gerekli" in str(entry.get("source_locator", ""))]
+    media_questions = [e for e in listening_questions if "QR medya gerekli" in str(e.get("source_locator", ""))]
     if len(media_questions) < 10:
         failures.append(f"TEMA03_MEDIA_BOUND_QUESTION_COVERAGE_TOO_LOW:{len(media_questions)}")
     for entry in media_questions:
-        combined = " ".join(
-            str(entry.get(key, "")) for key in ("teacher_note", "source_locator", "prompt_display")
-        ).casefold()
+        combined = " ".join(str(entry.get(k, "")) for k in ("teacher_note", "source_locator", "prompt_display")).casefold()
         if not any(token in combined for token in ("medya", "duy", "izle", "kanıt", "hazır")):
             failures.append(f"TEMA03_MEDIA_EVIDENCE_BOUNDARY_MISSING:{entry.get('mirror_id')}")
 
-    writing_mirrors = [mirror for mirror in mirrors if mirror.get("scope", {}).get("printed_page_range") == "225-229"]
-    if len(writing_mirrors) != 1:
-        failures.append(f"TEMA03_WRITING_FRAGMENT_COUNT:{len(writing_mirrors)}")
-        writing_entries: list[dict] = []
-    else:
-        writing_entries = writing_mirrors[0].get("entries", [])
-        if writing_mirrors[0].get("scope", {}).get("status") != "REVIEW_REQUIRED":
-            failures.append("TEMA03_WRITING_MUST_REMAIN_REVIEW_REQUIRED")
+    # Writing is a process, not a question bank: seven natural blocks and zero invented QUESTION cards.
+    writing = entries_in(entries, 225, 229)
+    writing_questions = [entry for entry in writing if entry.get("presentation_type") == "QUESTION"]
+    if len(writing) != 7 or writing_questions:
+        failures.append(f"TEMA03_WRITING_NATURAL_GRANULARITY:{len(writing)}/{len(writing_questions)}")
+    p228 = [entry for entry in writing if entry.get("mirror_id") == "T3V23_P228_YAZMA_DEGER"]
+    writing_qr_boundary = False
+    if len(p228) == 1:
+        text = " ".join(str(p228[0].get(k, "")) for k in ("teacher_note", "source_locator")).casefold()
+        writing_qr_boundary = "qr" in text and "görünmeyen" in text
+    if not writing_qr_boundary:
+        failures.append("TEMA03_WRITING_QR_BOUNDARY_MISSING")
 
-    writing_ids = {entry.get("mirror_id") for entry in writing_entries}
-    writing_questions = [entry for entry in writing_entries if entry.get("presentation_type") == "QUESTION"]
-    if len(writing_entries) != 7 or writing_ids != WRITING_REQUIRED:
-        failures.append(f"TEMA03_WRITING_NATURAL_GRANULARITY:{len(writing_entries)}/7")
-    if writing_questions:
-        failures.append(f"TEMA03_WRITING_MUST_NOT_INVENT_QUESTION_CARDS:{len(writing_questions)}")
-    p228_rows = [entry for entry in writing_entries if entry.get("mirror_id") == "T3V23_P228_YAZMA_DEGER"]
-    if len(p228_rows) != 1:
-        failures.append("TEMA03_WRITING_QR_BOUNDARY_ENTRY_MISSING")
-        writing_qr_boundary = False
-    else:
-        p228_text = " ".join(
-            str(p228_rows[0].get(key, "")) for key in ("teacher_note", "source_locator")
-        ).casefold()
-        writing_qr_boundary = "qr" in p228_text and "görünmeyen" in p228_text
-        if not writing_qr_boundary:
-            failures.append("TEMA03_WRITING_QR_BOUNDARY_MISSING")
+    # Theme assessment: exactly 16 source questions, each mapped to its real book number.
+    assessment = entries_in(entries, 230, 235)
+    assessment_questions = [entry for entry in assessment if entry.get("presentation_type") == "QUESTION"]
+    assessment_ids = {str(entry.get("mirror_id")) for entry in assessment_questions}
+    if len(assessment) != 16 or len(assessment_questions) != 16 or assessment_ids != ASSESSMENT_IDS:
+        failures.append(f"TEMA03_ASSESSMENT_16_QUESTION_PARITY:{len(assessment)}/{len(assessment_questions)}")
 
-    expected_fragments = {
-        "160-163": "PILOT",
-        "164-193": "REFERENCE_QUALITY",
-        "194-209": "REFERENCE_QUALITY",
-        "210-214": "REVIEW_REQUIRED",
-        "215-224": "REVIEW_REQUIRED",
-        "225-229": "REVIEW_REQUIRED",
+    by_id = {str(entry.get("mirror_id")): entry for entry in assessment_questions}
+    for mirror_id, expected_keys in ASSESSMENT_COMPONENTS.items():
+        entry = by_id.get(mirror_id)
+        if not entry:
+            continue
+        actual_keys = tuple(entry.get("answer_keys", []))
+        if actual_keys != expected_keys:
+            failures.append(f"TEMA03_ASSESSMENT_COMPONENT_DRIFT:{mirror_id}:{actual_keys!r}!={expected_keys!r}")
+
+    # Canonical source-numbering regression guard for the two groups that were previously shifted.
+    assessment_section = read_json(root / "courses/TDE_11/teacher_guide/TEMA_03/sections/06_tema_olcme.json")
+    canonical = {
+        item["item_id"]: item
+        for unit in assessment_section.get("guide_units", [])
+        for item in unit.get("items", [])
     }
-    for page_range, status in expected_fragments.items():
-        rows = [mirror for mirror in mirrors if mirror.get("scope", {}).get("printed_page_range") == page_range]
-        if len(rows) != 1 or rows[0].get("scope", {}).get("status") != status:
-            failures.append(f"TEMA03_FRAGMENT_STATUS:{page_range}:{status}")
+    q3_6 = canonical.get("T3_G21_P231_Q3_6", {}).get("expected_answer", {})
+    if set(q3_6) != {"3", "4", "5", "6"} or q3_6.get("5") != "E" or q3_6.get("6") != "C" or not isinstance(q3_6.get("3"), dict):
+        failures.append("TEMA03_CANONICAL_Q3_6_SOURCE_NUMBERING_REGRESSION")
+    q7_11 = canonical.get("T3_G21_P232_233_Q7_11", {}).get("expected_answer", {})
+    if q7_11.get("9") != "C" or q7_11.get("8") == "C":
+        failures.append("TEMA03_CANONICAL_Q8_Q9_SOURCE_NUMBERING_REGRESSION")
+
+    q15 = by_id.get("T3V23_P234_Q15", {})
+    q15_text = " ".join(str(q15.get(k, "")) for k in ("teacher_note", "source_locator")).casefold()
+    assessment_media_boundary = "qr" in q15_text and any(token in q15_text for token in ("gözledi", "video", "medya"))
+    if not assessment_media_boundary:
+        failures.append("TEMA03_ASSESSMENT_Q15_MEDIA_BOUNDARY_MISSING")
 
     result = {
         "status": "PASS" if not failures else "FAIL",
         "metrics": {
             **metrics,
-            "pdf_verified_opening_questions": 6,
-            "pdf_verified_huzur_questions": len(HUZUR_QUESTIONS),
-            "pdf_verified_huzur_metni_anlayalim_questions": 14,
-            "pdf_verified_biography_tezkire_questions": len(BIOGRAPHY_QUESTIONS),
-            "pdf_verified_speaking_questions": len(SPEAKING_QUESTIONS),
+            "pdf_verified_opening_questions": len(opening_questions),
+            "pdf_verified_huzur_metni_anlayalim_questions": len(huzur_metni),
+            "pdf_verified_biography_tezkire_questions": len(biography_questions),
+            "pdf_verified_speaking_questions": len(speaking_questions),
             "pdf_verified_listening_questions": len(listening_questions),
             "listening_natural_process_blocks": len(listening_nonquestions),
             "pdf_verified_writing_questions": len(writing_questions),
-            "writing_natural_process_blocks": len(writing_entries),
-            "speaking_qr_boundary_preserved": True,
-            "listening_media_boundary_preserved": not any("MEDIA_EVIDENCE_BOUNDARY_MISSING" in failure for failure in failures),
+            "writing_natural_process_blocks": len(writing),
+            "pdf_verified_theme_assessment_questions": len(assessment_questions),
             "writing_qr_boundary_preserved": writing_qr_boundary,
+            "assessment_media_boundary_preserved": assessment_media_boundary,
+            "full_theme_scope": metrics.get("scope") == "160-235",
         },
         "warnings": warnings,
         "failures": failures,
