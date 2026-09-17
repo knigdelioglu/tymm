@@ -25,91 +25,128 @@
       "activity_refs": ["T1_ACT_17_YAZMA_YONETIM"],
       "outcome_refs": ["TDE4.1"],
       "content_status": "VERIFIED",
-      "purpose": "E-posta yazma sürecinden önce amaç, hedef kitle, tür, yöntem/strateji ve üretim koşullarını görünür bir plana dönüştürmek.",
+      "purpose": "E-posta yazma sürecinden önce iletişim bağlamını değerlendirmek ve amaç, hedef kitle, yöntem/strateji ile üretim koşullarını görünür bir plana dönüştürmek.",
       "items": [
         {
           "item_id": "T1_G17_P74_75_WRITING_PLAN",
           "printed_page_range": "74-75",
-          "label": "E-posta yazma planı",
+          "label": "İletişim bağlamı soruları ve e-posta yazma planı",
           "item_type": "PERFORMANCE_TASK",
-          "expected_answer": null,
+          "expected_answer": {
+            "p74_q1_zamanlama": "İletişimde zamanlama; mesajın amacına ulaşması, karşı tarafın beklentisinin yönetilmesi ve gecikmeden doğabilecek yanlış anlama veya iş kaybının önlenmesi bakımından önemlidir. Günlük hayatta randevu değişikliğini vaktinde bildirmek, bir başvuruya son tarihten önce cevap vermek veya önemli bir mesaja gecikmeden dönmek uygun örneklerdir.",
+            "p74_q2_guncel_benzer_durum": "Evet. Bir mesajı okuyup zihinde cevap vermek fakat göndermeyi unutmak, taslakta bırakmak veya bildirimi görüp daha sonra yanıtlayacağını düşünüp unutmak günümüzde benzer durumlardır.",
+            "p74_q3_kalici_kulturel_miras": "Tek zorunlu tercih yoktur. Mektup fiziksel arşiv, kişisel el yazısı ve dönem tanıklığı bakımından güçlü olabilir; dijital yazışmalar hızlı çoğaltılabilir ve aranabilir fakat platform, format ve erişim sürekliliğine bağlıdır. Öğrencinin seçtiği iletişim biçimini kalıcılık ve kültürel aktarım ölçütleriyle gerekçelendirmesi beklenir.",
+            "p74_q4_arac_karsilastirma": {
+              "telgraf": "Hızlı fakat kısa ve sınırlı içerikli; tarihsel olarak uzak mesafede etkili, bugün yaygınlığı düşüktür.",
+              "mektup": "Kişisel ve kalıcı kayıt oluşturabilir; iletim hızı düşüktür ve fiziksel dolaşıma bağlıdır.",
+              "konferans": "Canlı/sözlü etki ve geniş kitleye aynı anda ulaşma imkânı sağlar; kalıcılığı kayıt altına alınmasına bağlıdır."
+            },
+            "p74_q5a_yazim_degisim": "Örnekler, Türkçenin yazım/ortografi standartlarının ve kullanım alışkanlıklarının zaman içinde değişebildiğini gösterir; dil değişiminin özellikle yazı dili ve standartlaşma yönü görünür olur.",
+            "p74_q5b_dijital_kisaltmalar": "Araştırmaya dayalı cevap beklenir. Kısaltmalar hızlı ve pratik iletişim sağlayabilir; aşırı veya bağlam dışı kullanım standart yazım, anlaşılabilirlik ve Türkçeyi özenli kullanma alışkanlığı üzerinde olumsuz etki oluşturabilir. Öğrenci olumlu/olumsuz etkileri kaynak ve örnekle gerekçelendirmelidir.",
+            "p75_performans_plani": [
+              "Yazma amacı belirlenir: ikna, bilgilendirme, resmî talep vb.",
+              "Metnin özellikleri ve hedef kitle/alıcı belirlenir.",
+              "Yazma sürecindeki olası engeller azaltılır.",
+              "Amaç, konu ve alıcıya uygun yazma stratejisi seçilir ve yapılandırılır."
+            ]
+          },
           "acceptance_criteria": [
-            "Yazma amacını açıklar.",
-            "Hedef kitleyi/alıcıyı belirler ve dil tercihini bu hedefle ilişkilendirir.",
-            "E-posta türünü ve kullanacağı yazma yöntem/stratejisini belirler.",
-            "Üretim koşullarını ve izleyeceği adımları planlar."
+            "s.74 sorularında iletişim aracı/biçimi ile zamanlama, kalıcılık, yaygınlık veya dil değişimi arasında gerekçeli ilişki kurar.",
+            "Yazma amacını ve hedef kitleyi/alıcıyı belirler.",
+            "Amaç ve alıcıya uygun yazma stratejisini gerekçelendirir.",
+            "Performans görevi için izlenecek temel adımları planlar."
           ],
           "teacher_guidance": [
-            "Öğrenciden doğrudan nihai metne geçmesini isteme; önce plan kaydı üretmesini sağla.",
-            "Amaç ve hedef kitle kararını öğrencinin kendi cümlesiyle gerekçelendirmesini iste.",
+            "s.74'teki açık uçlu sorularda tek cümlelik anahtar cevap arama; gerekçe ve günlük hayat bağlantısını değerlendir.",
+            "s.75'te öğrenciden doğrudan nihai metne geçmesini isteme; önce amaç–alıcı–strateji kararını görünür kıl.",
             "Ders planındaki saat içi sıra pedagojik öneridir; kitapta olmayan resmî alt-saat kuralı gibi sunma."
           ],
           "common_misconceptions": [
-            "E-postayı yalnız kısa mesaj gibi görüp amaç ve hedef kitleyi planlamamak.",
-            "Planlama aşamasını nihai ürünün kendisi sanmak."
+            "Dijital iletişimi otomatik olarak her bakımdan daha kalıcı veya daha etkili saymak.",
+            "E-postayı yalnız kısa mesaj gibi görüp amaç ve hedef kitleyi planlamamak."
           ],
-          "assessment_evidence": ["Yazma planı, amaç/hedef kitle ve strateji kaydı."],
+          "assessment_evidence": ["s.74 gerekçeli cevaplar; amaç, alıcı ve strateji kaydı; s.75 performans planı."],
           "differentiation": {
-            "support": ["Amaç–alıcı–tür–strateji–koşul başlıklı kısa plan şablonu ver."],
-            "enrichment": ["Aynı iletiyi iki farklı hedef kitle için nasıl planlayacağını karşılaştırmasını iste."]
+            "support": ["Zamanlama–kalıcılık–yaygınlık ve amaç–alıcı–strateji başlıklarını hazır ver."],
+            "enrichment": ["Aynı iletiyi mektup ve e-posta olarak planlayıp iletişim etkisindeki değişimi karşılaştırmasını iste."]
           },
           "provenance": {
             "source_ids": ["official_textbook_pdf", "textbook_map", "lesson_plan_set"],
-            "source_locators": ["basılı s.74-75", "T1_ACT_17_YAZMA_YONETIM", "BLOCK_T1_04_YAZMA_P01"],
-            "content_class": "MIXED"
+            "source_locators": ["basılı s.74-75 / PDF s.75-76", "T1_ACT_17_YAZMA_YONETIM", "BLOCK_T1_04_YAZMA_P01"],
+            "content_class": "MIXED",
+            "note": "s.74'teki 1-5. sorular ve s.75 performans planı 2026 MEB ders kitabı PDF'sinden doğrudan yeniden doğrulanmıştır."
           }
         }
       ],
       "provenance": {
         "source_ids": ["official_textbook_pdf", "textbook_map"],
-        "source_locators": ["basılı s.74-75", "T1_ACT_17_YAZMA_YONETIM"],
+        "source_locators": ["basılı s.74-75 / PDF s.75-76", "T1_ACT_17_YAZMA_YONETIM"],
         "content_class": "OFFICIAL_TEXTBOOK"
       }
     },
     {
       "unit_id": "T1_GUIDE_U18_YAZMA_ICERIK",
       "title": "İçerik Oluşturabilme",
-      "printed_page_range": "76",
+      "printed_page_range": "76-77",
       "activity_refs": ["T1_ACT_18_YAZMA_ICERIK_ANLAM"],
       "outcome_refs": ["TDE4.2"],
       "content_status": "VERIFIED",
-      "purpose": "Planlanan e-postanın içeriğini bilgi, örnek, uygun destek unsurları ve söz varlığıyla tasarlamak.",
+      "purpose": "Planlanan e-postanın içeriğini önceki öğrenmeler, ileti, ek belgeler, dil işlevleri ve geri bildirimle yapılandırmak.",
       "items": [
         {
           "item_id": "T1_G18_P76_CONTENT_DESIGN",
-          "printed_page_range": "76",
-          "label": "E-posta içerik taslağı",
+          "printed_page_range": "76-77",
+          "label": "E-posta içerik taslağı — 1-13. adımlar",
           "item_type": "PERFORMANCE_TASK",
-          "expected_answer": null,
+          "expected_answer": {
+            "p76_01_onceki_ogrenme": "Dinleme/izleme bölümünde iletişim ve e-posta hakkında öğrenilen uygun bilgiler yeni e-posta görevine aktarılır.",
+            "p76_02_ek_belgeler": "Alıcı ve amaç dikkate alınarak müzik, video, resim veya metin gibi ekler seçilir; her ekin nerede ve hangi amaçla kullanılacağı açıklanır.",
+            "p76_03_mektup_eposta_karsilastirma": {
+              "benzerlikler": ["Yazılı iletişim kurarlar.", "Gönderici ve alıcı ilişkisi vardır.", "Amaç, konu, hitap ve kapanış seçimleri içerir."],
+              "farkliliklar": ["E-posta elektronik ortamda ve çok daha hızlı iletilir.", "E-posta dijital ek, bağlantı ve çoklu alıcı kullanımını kolaylaştırır.", "Mektup fiziksel taşıyıcı ve el yazısı gibi maddi özellikler taşıyabilir."]
+            },
+            "p76_04_ileti": "Öğrenci, seçtiği amaç ve hedef kitleye uygun temel iletiyi tek ve anlaşılır bir odakta yazar.",
+            "p76_05_icerik_taslagi": "Bilgiler önem ve akış sırasına göre düzenlenerek giriş–gelişme–sonuç/kapanış mantığı taşıyan bir içerik taslağı oluşturulur.",
+            "p76_06_dil_islevleri": "Amaca göre rica, koşul, gerekçelendirme, bilgilendirme veya talep gibi uygun dil işlevleri seçilir.",
+            "p76_07_soz_varligi": "Söz varlığı alıcıya, bağlama ve amaca uygun seçilir; karşılaştırma içeren iletiler açık ve anlaşılır biçimde kurulur.",
+            "p76_08_ek_siniflandirma": "Gönderilecek ekler türüne ve işlevine göre sınıflandırılır; gereksiz ekler çıkarılır.",
+            "p76_09_eposta_alanlari": "Gönderici, alıcı/kime, konu ve içerik alanlarında bulunması gereken bilgiler belirlenir; dil ve üslup alıcıya uygunlaştırılır.",
+            "p77_10_akran_ogretmen_gorusu": "Taslak, sınıf arkadaşı ve gerektiğinde öğretmen geri bildirimiyle gözden geçirilir; eksik bilgi ve kavram karmaşaları giderilir.",
+            "p77_11_gorsel_isitsel_destek": "İçeriği gerçekten destekleyen görsel/işitsel ögeler seçilir; süs niteliğindeki gereksiz ögeler elenir.",
+            "p77_12_akran_kontrolu": "Taslak bir akranla amaca uygunluk ve dilin doğru kullanımı gibi ölçütlerle kontrol edilir.",
+            "p77_13_revize_plan": "Alınan geri bildirim doğrultusunda içerik planı gözden geçirilir ve son hâline getirilir."
+          },
           "acceptance_criteria": [
-            "Amaç ve hedef kitleye uygun bilgileri seçer.",
-            "Gerekli olduğunda örnek veya görsel/işitsel destek unsurunu işlevsel biçimde seçer.",
-            "Söz varlığını bağlama ve hedef kitleye uygunlaştırır.",
-            "İçeriği taslak/plan/şema hâlinde düzenler."
+            "Amaç ve hedef kitleye uygun bilgileri seçer ve düzenler.",
+            "E-posta ile mektubu en az bir benzerlik ve bir farklılıkla karşılaştırır.",
+            "Ek belge, dil işlevi ve söz varlığı seçimlerini işleviyle ilişkilendirir.",
+            "Akran/öğretmen geri bildirimini taslakta somut değişikliğe dönüştürür."
           ],
           "teacher_guidance": [
+            "1-13. adımları tek bir 'taslak yaz' komutuna indirgeme; özellikle amaç–ek–ileti–dil işlevi–geri bildirim kararlarını görünür kıl.",
             "İçerik seçimini 'ne kadar çok bilgi' üzerinden değil, amaç ve alıcıya uygunluk üzerinden değerlendir.",
-            "Öğrencinin seçtiği her önemli içerik unsurunun neden gerekli olduğunu açıklamasını iste."
+            "Görsel/işitsel eki yalnız süsleme amacıyla seçen öğrenciden ekin iletişim işlevini açıklamasını iste."
           ],
           "common_misconceptions": [
             "İlgili-ilgisiz bütün bilgileri e-postaya eklemek.",
-            "Görsel/işitsel desteği yalnız süsleme amacıyla kullanmak."
+            "Akran geri bildirimini almakla yetinip taslağı revize etmemek."
           ],
-          "assessment_evidence": ["İçerik taslağı, plan/şema ve kaynak-seçim kayıtları."],
+          "assessment_evidence": ["Karşılaştırma diyagramı, temel ileti, içerik taslağı, ek/dil işlevi seçimleri ve revize edilmiş plan."],
           "differentiation": {
-            "support": ["Zorunlu bilgi / isteğe bağlı destek / çıkarılacak ayrıntı şeklinde üçlü sınıflama yaptır."],
-            "enrichment": ["Aynı içeriğin daha resmî veya daha gündelik bağlama göre nasıl değişeceğini açıklat."]
+            "support": ["Amaç–ileti–zorunlu bilgi–ek–dil işlevi–geri bildirim başlıklarıyla aşamalı plan ver."],
+            "enrichment": ["Aynı içeriğin resmî ve samimi iki farklı alıcı için nasıl değişeceğini yeniden tasarlat."]
           },
           "provenance": {
             "source_ids": ["official_textbook_pdf", "textbook_map", "lesson_plan_set"],
-            "source_locators": ["basılı s.76", "T1_ACT_18_YAZMA_ICERIK_ANLAM", "BLOCK_T1_04_YAZMA_P02"],
-            "content_class": "MIXED"
+            "source_locators": ["basılı s.76-77 / PDF s.77-78", "T1_ACT_18_YAZMA_ICERIK_ANLAM", "BLOCK_T1_04_YAZMA_P02"],
+            "content_class": "MIXED",
+            "note": "Kitaptaki İçerik Oluşturabilme akışı s.76'daki 1-9. adımlardan s.77'nin üst kısmındaki 10-13. adımlara devam eder."
           }
         }
       ],
       "provenance": {
         "source_ids": ["official_textbook_pdf", "textbook_map"],
-        "source_locators": ["basılı s.76", "T1_ACT_18_YAZMA_ICERIK_ANLAM"],
+        "source_locators": ["basılı s.76-77 / PDF s.77-78", "T1_ACT_18_YAZMA_ICERIK_ANLAM"],
         "content_class": "OFFICIAL_TEXTBOOK"
       }
     },
@@ -125,38 +162,52 @@
         {
           "item_id": "T1_G19_P77_FINAL_PRODUCT",
           "printed_page_range": "77",
-          "label": "E-posta taslağını ürüne dönüştürme",
+          "label": "E-posta yazma — kitap kontrol listesi",
           "item_type": "PERFORMANCE_TASK",
-          "expected_answer": null,
+          "expected_answer": {
+            "kural_a_konu": "İçeriğe uygun ve alıcıya anlamlı bir konu satırı belirlenir.",
+            "kural_b_hitap_giris": "Alıcıya ve bağlama uygun dikkat çekici bir hitap/giriş kullanılır.",
+            "kural_c_baslatma_surdurme_bitirme": "Metnin başlangıç, sürdürme ve bitirme ifadeleri akışı destekler.",
+            "kural_c_dusunceyi_gelistirme": "İletinin doğru ve eksiksiz anlaşılması için uygun düşünceyi geliştirme yolu kullanılır.",
+            "kural_d_ozgun_tutarli_uslup": "Duygu ve düşünceler özgün, tutarlı ve anlaşılır bir üslupla ifade edilir.",
+            "kural_e_amac_konu_alici": "Dil ve üslup metnin amacı, konusu ve alıcısıyla uyumludur.",
+            "kural_f_soz_varligi": "Deyim, terim, mecaz vb. söz varlığı bağlama uygun kullanılır.",
+            "kural_g_acik_ortuk_ileti": "Verilmek istenen iletiler gerekli yerde açık veya örtük biçimde kurulur.",
+            "kural_gg_dogru_ifade": "Anlatılmak istenen içerik anlam kaybı oluşturmadan doğru ifade edilir.",
+            "kural_h_toplumsal_hassasiyet": "Toplumsal hassasiyetlere aykırı ögelerden kaçınılır.",
+            "kural_ii_deger_kultur": "Millî/manevi değer ve kültürel unsurlar bağlama uygunsa olumlu ve ölçülü biçimde gözetilir.",
+            "kural_i_dil_yazim": "Dil yapıları, bağdaşıklık, yazım ve noktalama kuralları ile Türkçeyi bilinçli ve özenli kullanma gözetilir."
+          },
           "acceptance_criteria": [
-            "Metni tür ve bağlama uygun biçimde düzenler.",
-            "Türkçeyi açık ve anlaşılır kullanır.",
-            "Yazım ve noktalama kurallarına dikkat eder.",
-            "Metnin bütünlüğünü ve tutarlılığını korur."
+            "Metni tür, amaç, konu ve alıcıya uygun biçimde düzenler.",
+            "İletiyi açık, tutarlı ve uygun söz varlığıyla kurar.",
+            "Yazım, noktalama ve bağdaşıklık kurallarını gözetir.",
+            "Kitaptaki kontrol listesini mekanik işaretleme yerine kendi metni üzerinde doğrular."
           ],
           "teacher_guidance": [
-            "İlk taslak ile düzenlenmiş ürün arasındaki değişiklikleri görünür kıl.",
-            "Yalnız imla sayımı yapma; tür, bağlam ve bütünlük ölçütlerini de geri bildirimin parçası yap."
+            "Kural Uygulayabilme bölümünü tek bir 'imla kontrolü' olarak göstermeyin; konu satırı, hitap, akış, düşünceyi geliştirme, üslup ve ileti de kontrol edilir.",
+            "İlk taslak ile düzenlenmiş ürün arasındaki değişiklikleri görünür kıl."
           ],
           "common_misconceptions": [
             "Yazma görevini yalnız yazım-noktalama kontrolüne indirgemek.",
-            "Taslağı hiç gözden geçirmeden nihai ürün saymak."
+            "Kitaptaki değer/hassasiyet maddelerini bağlamdan bağımsız hazır cümle ekleme zorunluluğu sanmak."
           ],
-          "assessment_evidence": ["Düzenlenmiş yazılı veya çok modlu e-posta ürünü."],
+          "assessment_evidence": ["Kitaptaki kural listesine göre gözden geçirilmiş ve düzenlenmiş e-posta ürünü."],
           "differentiation": {
-            "support": ["Tür–bağlam–dil–yazım/noktalama–bütünlük kontrol sırası ver."],
-            "enrichment": ["İlk taslak ile son ürün arasındaki en önemli üç değişikliği gerekçelendirmesini iste."]
+            "support": ["Konu–hitap–ileti–akış–üslup–söz varlığı–yazım/noktalama sırasıyla kısa kontrol listesi ver."],
+            "enrichment": ["İlk taslak ile son ürün arasındaki en etkili üç değişikliği gerekçelendirmesini iste."]
           },
           "provenance": {
             "source_ids": ["official_textbook_pdf", "textbook_map", "lesson_plan_set"],
-            "source_locators": ["basılı s.77", "T1_ACT_19_YAZMA_UYGULAMA_COZUMLEME", "BLOCK_T1_04_YAZMA_P03"],
-            "content_class": "MIXED"
+            "source_locators": ["basılı s.77 / PDF s.78", "T1_ACT_19_YAZMA_UYGULAMA_COZUMLEME", "BLOCK_T1_04_YAZMA_P03"],
+            "content_class": "MIXED",
+            "note": "a-i harfli kitap kontrol listesi 2026 MEB ders kitabı PDF'sine karşı doğrudan doğrulanmıştır."
           }
         }
       ],
       "provenance": {
         "source_ids": ["official_textbook_pdf", "textbook_map"],
-        "source_locators": ["basılı s.77", "T1_ACT_19_YAZMA_UYGULAMA_COZUMLEME"],
+        "source_locators": ["basılı s.77 / PDF s.78", "T1_ACT_19_YAZMA_UYGULAMA_COZUMLEME"],
         "content_class": "OFFICIAL_TEXTBOOK"
       }
     },
@@ -167,68 +218,91 @@
       "activity_refs": ["T1_ACT_20_YAZMA_DEGERLENDIRME"],
       "outcome_refs": ["TDE4.4"],
       "content_status": "REVIEW_REQUIRED",
-      "purpose": "E-posta yazma sürecini ve ürünü öz/akran/öğretmen geri bildirimiyle değerlendirip revize etmek.",
+      "purpose": "E-posta ürününü görünür kitap ölçütleri, öz değerlendirme ve çıkış kartıyla değerlendirip sonraki yazma davranışına bağlamak.",
       "items": [
         {
           "item_id": "T1_G20_P78_SELF_REVIEW",
           "printed_page_range": "78",
-          "label": "Öz değerlendirme ve çıkış kartı",
+          "label": "E-posta değerlendirme, öz değerlendirme ve çıkış kartı",
           "item_type": "ASSESSMENT",
           "relations": [
             {"target_type": "form", "target_id": "FORM_T1_P078_CIKIS_KARTI_11", "relation_type": "references"},
             {"target_type": "form", "target_id": "FORM_T1_P078_OZ_DEGERLENDIRME_10", "relation_type": "references"},
             {"target_type": "form", "target_id": "LINK_T1_YAZMA_DPA", "relation_type": "references"}
           ],
-          "expected_answer": null,
+          "expected_answer": {
+            "p78_degerlendirme_1_duzeltme": "Öğrenci kendi e-postasını yeniden okuyup yazım ve noktalama hatalarını düzeltir; yapılan düzeltme ürün üzerinde görünür olmalıdır.",
+            "p78_dpa_gorunen_olcutler": [
+              "Türkçenin doğru kullanımı",
+              "Üslup",
+              "Özgünlük",
+              "Gerekli durumlarda öznel ve nesnel ifadelere yer verme",
+              "Başlık ve hitap kullanımı",
+              "Yazım ve noktalama"
+            ],
+            "p78_oz_degerlendirme": [
+              "İçeriğe uygun taslak oluşturma",
+              "Ek belgeleri sınıflandırma",
+              "Alıcıya uygun dil ve üslup belirleme",
+              "İçeriğe uygun işitsel/görsel öge kullanma",
+              "Söz varlığını hedef kitle ve amaca uygun kullanma",
+              "Düşünceyi geliştirme yollarına başvurma",
+              "İçeriğe uygun başlık belirleme",
+              "Özgün ve tutarlı üslup kullanma"
+            ],
+            "p78_cikis_karti": "Üç Yaz: temayla ilgili öğrenilen üç bilgi; İki Sor: hakkında daha fazla bilgi edinilmek istenen iki soru; Bir Paylaş: öğrenmekte zorlanılan bir konu. Bunlar öğrenciye özgüdür, öğretmen tarafından önceden doldurulmaz."
+          },
           "acceptance_criteria": [
             "Öz değerlendirme formunu kendi ürününe dayanarak doldurur.",
-            "Güçlü yön ile geliştirilmesi gereken yönü birbirinden ayırır.",
-            "Geri bildirim sonrasında üründe somut bir revizyon yapar.",
-            "Çıkış kartında bir sonraki yazma çalışmasına aktaracağı geliştirme adımını belirtir."
+            "'Kısmen/Hayır' işaretlediği beceriyi sonraki geliştirme adımıyla ilişkilendirir.",
+            "Çıkış kartında üç bilgi, iki gerçek soru ve bir güçlük alanını birbirinden ayırır.",
+            "QR dereceli puanlama anahtarında görünmeyen düzey açıklamalarını rehberden uydurmaz."
           ],
           "teacher_guidance": [
             "FORM_T1_P078_OZ_DEGERLENDIRME_10 ve FORM_T1_P078_CIKIS_KARTI_11'i öğrencinin yerine doldurma.",
-            "Öz/akran/öğretmen geri bildirimini nihai ürünün revizyonuna bağla.",
-            "LINK_T1_YAZMA_DPA resmî QR hedefidir ancak ölçüt×düzey yapısı yerel PDF'de görünür değildir; görünmeyen rubrik içeriğini uydurma.",
+            "Kitap sayfasında dereceli puanlama için bazı değerlendirme başlıkları görünür; bunları kullanabilirsin fakat QR içindeki tam ölçüt×düzey tanımlarını görmeden üretme.",
+            "Öz değerlendirmeyi form doldurmayla bitirme; 'Kısmen/Hayır' işaretlenen bir beceriyi araştırma veya öğretmen desteğiyle geliştirme adımına bağla.",
             "BLOCK_T1_04_YAZMA_P04 bu etkinliği TDE4.3 ile kodlamış olsa da resmî kitap eşleştirmesi TDE4.4'tür; rehberde TDE4.4 korunur."
           ],
           "common_misconceptions": [
-            "Öz değerlendirmeyi yalnız form doldurma olarak görmek ve ürünü revize etmemek.",
-            "Görünmeyen QR rubriğinin ölçütlerini tahmin ederek resmî ölçüt gibi kullanmak."
+            "Öz değerlendirmeyi yalnız form doldurma olarak görmek.",
+            "Görünmeyen QR rubriğinin seviye tanımlarını tahmin ederek resmî ölçüt gibi kullanmak."
           ],
           "assessment_evidence": [
+            "Düzeltilmiş e-posta ürünü",
             "FORM_T1_P078_OZ_DEGERLENDIRME_10",
-            "FORM_T1_P078_CIKIS_KARTI_11",
-            "Revize edilmiş nihai e-posta ürünü"
+            "FORM_T1_P078_CIKIS_KARTI_11"
           ],
           "differentiation": {
-            "support": ["Bir güçlü yön + bir geliştirme hedefi + bir somut revizyon kalıbı kullan."],
-            "enrichment": ["İlk ürün, geri bildirim ve revize ürün arasındaki değişimi kısa yansıtma notuyla açıklat."]
+            "support": ["Bir 'Kısmen/Hayır' maddesi seçip bunun için tek somut geliştirme adımı yazdır."],
+            "enrichment": ["İlk ürün, öz değerlendirme ve son ürün arasındaki değişimi kısa yansıtma notuyla açıklat."]
           },
           "provenance": {
             "source_ids": ["official_textbook_pdf", "textbook_map", "theme_alignment", "lesson_plan_set"],
-            "source_locators": ["basılı s.78", "T1_ACT_20_YAZMA_DEGERLENDIRME", "FORM_T1_P078_OZ_DEGERLENDIRME_10", "FORM_T1_P078_CIKIS_KARTI_11", "LINK_T1_YAZMA_DPA", "BLOCK_T1_04_YAZMA_P04", "BLOCK_T1_04_YAZMA_P05"],
+            "source_locators": ["basılı s.78 / PDF s.79", "T1_ACT_20_YAZMA_DEGERLENDIRME", "FORM_T1_P078_OZ_DEGERLENDIRME_10", "FORM_T1_P078_CIKIS_KARTI_11", "LINK_T1_YAZMA_DPA", "BLOCK_T1_04_YAZMA_P04", "BLOCK_T1_04_YAZMA_P05"],
             "content_class": "MIXED",
-            "note": "P04 outcome-code mismatch nedeniyle authoritative eşleşme TDE4.4 olarak korunmuştur; QR DPA yapısı unresolved durumundadır."
+            "note": "Kitapta görünür değerlendirme başlıkları doğrudan doğrulanmıştır; QR içindeki tam dereceli puanlama düzeyleri hâlâ yerel PDF'de görünmediği için REVIEW_REQUIRED korunur."
           }
         }
       ],
       "provenance": {
         "source_ids": ["official_textbook_pdf", "textbook_map", "theme_alignment"],
-        "source_locators": ["basılı s.78", "T1_ACT_20_YAZMA_DEGERLENDIRME", "FORM_T1_P078_OZ_DEGERLENDIRME_10", "FORM_T1_P078_CIKIS_KARTI_11", "LINK_T1_YAZMA_DPA"],
+        "source_locators": ["basılı s.78 / PDF s.79", "T1_ACT_20_YAZMA_DEGERLENDIRME", "FORM_T1_P078_OZ_DEGERLENDIRME_10", "FORM_T1_P078_CIKIS_KARTI_11", "LINK_T1_YAZMA_DPA"],
         "content_class": "MIXED"
       }
     }
   ],
   "section_principles": [
-    "E-posta bölümü bir ürün yazma sürecidir: planlama → içerik tasarımı → ürüne dönüştürme → değerlendirme/revizyon.",
+    "E-posta bölümü kitapta bir ürün yazma sürecidir: iletişim bağlamı → yazma planı → içerik oluşturma → kural uygulama → değerlendirme/öz değerlendirme.",
+    "s.74'teki beş soru, s.76-77'deki 1-13. içerik adımları ve s.77'deki kural kontrol listesi tek bir genel 'e-posta yaz' görevine indirgenmez.",
     "Kitaptaki öğrenci eylemi ve görünür formlar resmî kaynak; sınıf içi örnek, kontrol sırası ve farklılaştırma rehberin pedagojik katmanıdır.",
-    "TDE4.4 için görünmeyen QR dereceli puanlama anahtarı ölçütleri uydurulmayacak.",
-    "Yazma performansı yalnız son üründen değil plan, taslak, revizyon ve değerlendirme kanıtlarından birlikte okunacak."
+    "TDE4.4 için kitap sayfasında görülen değerlendirme başlıkları kullanılabilir; QR içinde görünmeyen dereceli puanlama düzeyleri uydurulmayacak.",
+    "Yazma performansı yalnız son üründen değil plan, taslak, geri bildirim, revizyon ve değerlendirme kanıtlarından birlikte okunacak."
   ],
   "provenance": {
     "source_ids": ["official_textbook_pdf", "textbook_map", "theme_alignment", "lesson_plan_set"],
-    "source_locators": ["basılı s.74-78", "T1_ACT_17_YAZMA_YONETIM", "T1_ACT_18_YAZMA_ICERIK_ANLAM", "T1_ACT_19_YAZMA_UYGULAMA_COZUMLEME", "T1_ACT_20_YAZMA_DEGERLENDIRME", "FORM_T1_P078_OZ_DEGERLENDIRME_10", "FORM_T1_P078_CIKIS_KARTI_11"],
-    "content_class": "MIXED"
+    "source_locators": ["basılı s.74-78 / PDF s.75-79", "T1_ACT_17_YAZMA_YONETIM", "T1_ACT_18_YAZMA_ICERIK_ANLAM", "T1_ACT_19_YAZMA_UYGULAMA_COZUMLEME", "T1_ACT_20_YAZMA_DEGERLENDIRME", "FORM_T1_P078_OZ_DEGERLENDIRME_10", "FORM_T1_P078_CIKIS_KARTI_11"],
+    "content_class": "MIXED",
+    "note": "s.74-78 book task flow 2026 MEB textbook PDF pages 75-79 üzerinden yeniden doğrulandı; canonical item kimlikleri değiştirilmeden alt bileşenler eklendi."
   }
 }
