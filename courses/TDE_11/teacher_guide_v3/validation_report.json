@@ -1,0 +1,63 @@
+{
+  "status": "PASS_WITH_REVIEW",
+  "quality_level": "release",
+  "counts": {
+    "themes": 4,
+    "textbook_questions": 407,
+    "guide_questions": 407,
+    "textbook_activities": 84,
+    "covered_activities": 84,
+    "uncovered_textbook_questions": 0,
+    "uncovered_required_activities": 0,
+    "locator_only_questions": 0,
+    "unresolved_prompt_text": 0,
+    "review_required_items": 8,
+    "generic_fallback_tasks": 2,
+    "total_tasks": 576
+  },
+  "theme_reports": {
+    "TEMA_01": {
+      "tasks": 129,
+      "questions": 81,
+      "review_required": 2,
+      "generic_fallback": 1
+    },
+    "TEMA_02": {
+      "tasks": 158,
+      "questions": 107,
+      "review_required": 2,
+      "generic_fallback": 0
+    },
+    "TEMA_03": {
+      "tasks": 146,
+      "questions": 114,
+      "review_required": 1,
+      "generic_fallback": 1
+    },
+    "TEMA_04": {
+      "tasks": 143,
+      "questions": 105,
+      "review_required": 3,
+      "generic_fallback": 0
+    }
+  },
+  "failures": [],
+  "warnings": [
+    {
+      "code": "GENERIC_FALLBACK_USED",
+      "theme_id": "TEMA_01",
+      "task_id": "TEMA_01::T1V23_P83_Q12",
+      "message": "task-specific router text_analysis fallback kullandı"
+    },
+    {
+      "code": "GENERIC_FALLBACK_USED",
+      "theme_id": "TEMA_03",
+      "task_id": "TEMA_03::T3V23_P160_161_THEME_OPEN",
+      "message": "task-specific router text_analysis fallback kullandı"
+    },
+    {
+      "code": "SCHEMA_VALIDATION_UNAVAILABLE",
+      "message": "Yerel ortamda jsonschema yok; CI'da pinned jsonschema ile tam Draft 2020-12 doğrulaması çalıştırılmalı."
+    }
+  ]
+}

@@ -10,6 +10,7 @@ on:
       - 'skill/tymm-material-planner/data/**'
       - 'skill/tymm-material-planner/tests/test_reuse_only_contract.py'
       - 'skill/tymm-material-planner/tests/test_parity_blocked_contract.py'
+      - 'skill/tymm-material-planner/tests/test_teacher_guide_v3.py'
       - '.github/workflows/tymm-tde11-p0.yml'
   push:
     branches: [main]
@@ -21,6 +22,7 @@ on:
       - 'skill/tymm-material-planner/data/**'
       - 'skill/tymm-material-planner/tests/test_reuse_only_contract.py'
       - 'skill/tymm-material-planner/tests/test_parity_blocked_contract.py'
+      - 'skill/tymm-material-planner/tests/test_teacher_guide_v3.py'
       - '.github/workflows/tymm-tde11-p0.yml'
   workflow_dispatch:
 
@@ -126,6 +128,20 @@ jobs:
       - name: Validate Teacher Guide V2.3 Theme 4 opening source parity
         run: |
           python skill/tymm-material-planner/scripts/validate_teacher_guide_v23_tema04.py --repo-root .
+
+      - name: Build Teacher Guide V3 all themes
+        run: python skill/tymm-material-planner/scripts/build_teacher_guide_v3.py --repo-root .
+
+      - name: Validate Teacher Guide V3 parity and pedagogy
+        run: |
+          python skill/tymm-material-planner/scripts/validate_teacher_guide_v3.py \
+            --repo-root . \
+            --course TDE_11 \
+            --quality-level release \
+            --report courses/TDE_11/teacher_guide_v3/validation_report.json
+
+      - name: Teacher Guide V3 regression tests
+        run: python -m unittest discover -s skill/tymm-material-planner/tests -p 'test_teacher_guide_v3.py'
 
       - name: Run TDE11 generic P0 gate
         env:
