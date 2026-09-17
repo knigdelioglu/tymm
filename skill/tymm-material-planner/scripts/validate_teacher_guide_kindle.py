@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import zipfile
 from collections import Counter
 from pathlib import Path
@@ -15,6 +16,14 @@ DEFAULT_PROFILE = "courses/TDE_11/teacher_guide_kindle/kindle_profile.json"
 XHTML_NS = "http://www.w3.org/1999/xhtml"
 CONTAINER_NS = "urn:oasis:names:tc:opendocument:xmlns:container"
 OPF_NS = "http://www.idpf.org/2007/opf"
+
+VISIBLE_DEBUG_PATTERNS = [
+    ("INTERNAL_ID_VISIBLE", re.compile(r"\b(?:TEMA_\d+::)?T\d+(?:V\d+)?_[A-Z0-9_.:/-]+\b")),
+    ("BLOCK_FORM_ID_VISIBLE", re.compile(r"\b(?:BLOCK|FORM)_[A-Z0-9_.:/-]+\b")),
+    ("CURRICULUM_CODE_VISIBLE", re.compile(r"\bTDE\d+(?:\.\d+)+\b")),
+    ("MACHINE_SUBQUESTION_LABEL_VISIBLE", re.compile(r"\bq\d+\s+[a-z][a-z0-9 _-]{1,40}\s*:", re.IGNORECASE)),
+    ("ENGLISH_TASK_TYPE_VISIBLE", re.compile(r"\b(?:Process|Reference)\b")),
+]
 
 
 def read_json(path: Path):
@@ -28,6 +37,10 @@ def canonical_task_ids(root: Path, themes: list[str]) -> dict[str, list[str]]:
         guide = read_json(path)
         result[theme] = [task["task_id"] for task in guide["tasks"]]
     return result
+
+
+def visible_text(doc: ET.Element) -> str:
+    return re.sub(r"\s+", " ", " ".join(part for part in doc.itertext() if part)).strip()
 
 
 def validate_epub(path: Path, expected_task_ids: list[str]) -> list[str]:
@@ -77,18 +90,38 @@ def validate_epub(path: Path, expected_task_ids: list[str]) -> list[str]:
                 errors.append(f"EPUB_OPF_XML_INVALID: {exc}")
 
         seen_tasks: list[str] = []
+        debug_hits: Counter[tuple[str, str]] = Counter()
         for name in names:
-            if not name.startswith("OEBPS/text/") or not name.endswith(".xhtml"):
+            if not name.endswith(".xhtml"):
                 continue
             try:
                 doc = ET.fromstring(zf.read(name))
             except ET.ParseError as exc:
                 errors.append(f"EPUB_XHTML_INVALID: {name}: {exc}")
                 continue
+
+            text = visible_text(doc)
+            for code, pattern in VISIBLE_DEBUG_PATTERNS:
+                for match in pattern.finditer(text):
+                    debug_hits[(code, match.group(0))] += 1
+
+            # Machine IDs are allowed as invisible data attributes for parity,
+            # but the old visible task-meta paragraph must never return.
+            for node in doc.findall(f".//{{{XHTML_NS}}}p"):
+                classes = set(node.attrib.get("class", "").split())
+                if "task-meta" in classes:
+                    errors.append(f"VISIBLE_TASK_META_PRESENT: {name}")
+                    break
+
+            if not name.startswith("OEBPS/text/"):
+                continue
             for article in doc.findall(f".//{{{XHTML_NS}}}article"):
                 task_id = article.attrib.get("data-task-id")
                 if task_id:
                     seen_tasks.append(task_id)
+
+        for (code, token), count in sorted(debug_hits.items()):
+            errors.append(f"{code}: {token!r} x{count}")
 
         seen_counter = Counter(seen_tasks)
         expected_counter = Counter(expected_task_ids)
