@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tymm.local/schemas/textbook_question_inventory.schema.json",
+  "title": "TYMM Official Textbook Question Inventory",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "document_type",
+    "course_id",
+    "source_pdf",
+    "map_ref",
+    "counts",
+    "questions"
+  ],
+  "$defs": {
+    "stringArray": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "origin",
+        "source_ids",
+        "source_locators",
+        "verbatim",
+        "verification_status"
+      ],
+      "properties": {
+        "item_id": { "type": "string", "minLength": 1 },
+        "origin": { "enum": ["official_textbook", "pedagogical_recommendation"] },
+        "source_ids": { "$ref": "#/$defs/stringArray", "minItems": 1 },
+        "source_locators": { "$ref": "#/$defs/stringArray", "minItems": 1 },
+        "verbatim": { "type": "boolean" },
+        "derived_from": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "transformation": { "type": "string" },
+        "verification_status": {
+          "enum": ["VERIFIED", "REVIEW", "REVIEW_REQUIRED", "UNVERIFIED", "CONFLICTED", "NOT_FOUND"]
+        }
+      }
+    },
+    "inventory_question": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "question_id",
+        "theme_id",
+        "section_id",
+        "printed_page_range",
+        "pdf_page_range",
+        "question_number",
+        "prompt",
+        "prompt_mode",
+        "source_locator",
+        "source_sha256",
+        "provenance"
+      ],
+      "properties": {
+        "question_id": { "type": "string", "minLength": 1 },
+        "theme_id": { "type": "string", "minLength": 1 },
+        "section_id": { "type": "string", "minLength": 1 },
+        "printed_page_range": { "type": "string", "minLength": 1 },
+        "pdf_page_range": { "type": "string", "minLength": 1 },
+        "activity_id": { "type": ["string", "null"] },
+        "question_number": { "type": ["string", "null"] },
+        "prompt": { "type": ["string", "null"] },
+        "prompt_mode": {
+          "enum": [
+            "VERBATIM_SHORT",
+            "VERIFIED_SUMMARY",
+            "LOCATOR_ONLY",
+            "REVIEW_REQUIRED"
+          ]
+        },
+        "source_locator": { "type": "string", "minLength": 1 },
+        "source_sha256": { "type": "string", "minLength": 1 },
+        "group_id": { "type": ["string", "null"] },
+        "parent_prompt_id": { "type": ["string", "null"] },
+        "review_status": { "enum": ["VERIFIED", "REVIEW_REQUIRED"] },
+        "provenance": { "$ref": "#/$defs/provenance" }
+      }
+    }
+  },
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "document_type": { "const": "TYMM_TEXTBOOK_QUESTION_INVENTORY" },
+    "course_id": { "type": "string", "minLength": 1 },
+    "source_pdf": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_id", "path", "sha256", "printed_to_pdf_offset"],
+      "properties": {
+        "source_id": { "type": "string", "minLength": 1 },
+        "path": { "type": "string", "minLength": 1 },
+        "sha256": { "type": "string", "minLength": 1 },
+        "printed_to_pdf_offset": { "type": "integer" }
+      }
+    },
+    "map_ref": { "type": "string", "minLength": 1 },
+    "counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["themes", "questions", "review_required"],
+      "properties": {
+        "themes": { "type": "integer", "minimum": 1 },
+        "questions": { "type": "integer", "minimum": 0 },
+        "review_required": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "questions": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/inventory_question" }
+    }
+  }
+}

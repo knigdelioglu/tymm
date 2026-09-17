@@ -29,37 +29,17 @@ TEXTBOOK_SOURCE_ID = "official_textbook_pdf"
 TEXTBOOK_MAP_SOURCE_ID = "textbook_map"
 CANONICAL_SOURCE_ID = "teacher_guide_canonical"
 
-GROUPED_PROMPT_OVERRIDES: dict[str, list[dict[str, str]]] = {
-    "T1V23_P28_INTERPRET": [
-        {
-            "question_number": "1",
-            "answer_key": "q1",
-            "prompt": "Yazıcı metnindeki tiplerin söz varlıklarının onların sosyal statülerine ve eğitim durumlarına uygunluğu hakkındaki düşüncelerinizi metinden örneklerle ifade ediniz.",
-        },
-        {
-            "question_number": "2",
-            "answer_key": "q2",
-            "prompt": "Edebî metinlerde kişilerin kullandığı söz varlığının metne katkısı başka bir yolla sağlanabilir mi? Açıklayınız.",
-        },
-        {
-            "question_number": "3",
-            "answer_key": "q3",
-            "prompt": "Günlük hayatta Yazıcı oyunundaki tiplere benzer şekilde konuşan veya davranan kişilerle karşılaştığınızda bu durum size ne hissettirir? Bu tür davranışları nasıl değerlendirirsiniz? Açıklayınız.",
-        },
-    ],
-    "T1V23_P29_FRIENDSHIP": [
-        {
-            "question_number": "1",
-            "answer_key": "q1",
-            "prompt": "Hacivat ve Karagöz’ün kişilik özellikleri, eğitim durumları, kültür düzeyleri ve sosyal statüleri farklıdır. Bu farklılıklara rağmen aralarındaki dostluğu nasıl sürdürebildiklerini tartışınız. Ulaştığınız sonuçları tahtaya yazınız.",
-        },
-        {
-            "question_number": "2",
-            "answer_key": "q2",
-            "prompt": "Aşağıdaki dörtlükten ve atasözünden hareketle “dostluk” kavramının sizin için ifade ettiği anlamları aşağıdaki alana yazınız.",
-        },
-    ],
-}
+def load_grouped_prompt_overrides(root: Path | None = None, course_id: str = COURSE_ID) -> dict[str, list[dict[str, Any]]]:
+    if root is None:
+        root = Path(__file__).resolve().parents[3]
+    path = root / "courses" / course_id / "textbook_prompt_overrides.json"
+    if path.exists():
+        data = json.loads(path.read_text(encoding="utf-8"))
+        return data.get("overrides", {})
+    return {}
+
+
+GROUPED_PROMPT_OVERRIDES: dict[str, list[dict[str, Any]]] = load_grouped_prompt_overrides()
 
 EXTERNAL_PATTERN = re.compile(
     r"\b(?:qr|video|eba|dış\s+video|dış\s+medya|rubrik|dereceli\s+puanlama\s+anahtarı)\b",
@@ -113,7 +93,7 @@ def scalar_text(value: Any) -> str:
 
 
 def normalize_text(value: Any) -> str:
-    text = scalar_text(value).casefold().replace("’", "'")
+    text = scalar_text(value).replace("İ", "i").replace("I", "ı").casefold().replace("’", "'")
     text = re.sub(r"\s+", " ", text)
     return text.strip()
 
@@ -309,10 +289,11 @@ def apply_component_registries(root: Path, theme_id: str, canonical: dict[str, d
     return used
 
 
-def expand_mirror_entry(entry: dict[str, Any]) -> list[dict[str, Any]]:
+def expand_mirror_entry(entry: dict[str, Any], overrides: dict[str, list[dict[str, Any]]] | None = None) -> list[dict[str, Any]]:
     """Split only source-verified numbered groups; preserve other multi-part cards."""
     mirror_id = entry["mirror_id"]
-    override = GROUPED_PROMPT_OVERRIDES.get(mirror_id)
+    active_overrides = overrides if overrides is not None else GROUPED_PROMPT_OVERRIDES
+    override = active_overrides.get(mirror_id)
     if not override:
         expanded = deepcopy(entry)
         expanded["split_from_group"] = False
@@ -426,6 +407,12 @@ def find_question_number(entry: dict[str, Any], prompt: str | None) -> str | Non
 
 def task_blob(entry: dict[str, Any], item: dict[str, Any], section_title: str) -> str:
     provenance = item.get("provenance", {})
+    expected = item.get("expected_answer")
+    expected_str = ""
+    if isinstance(expected, dict):
+        expected_str = " ".join(str(k) for k in expected.keys())
+    elif isinstance(expected, str):
+        expected_str = expected[:200]
     return " ".join(
         str(value)
         for value in [
@@ -435,6 +422,7 @@ def task_blob(entry: dict[str, Any], item: dict[str, Any], section_title: str) -
             entry.get("source_locator", ""),
             item.get("label", ""),
             item.get("teacher_guidance", ""),
+            expected_str,
             provenance.get("note", ""),
         ]
         if value
@@ -458,7 +446,7 @@ def choose_profile(blob: str, section_type: str) -> str:
         return "mektup"
     if any(term in text for term in ["karagöz", "hacivat", "gölge oyunu", "seyirlik", "muamma"]):
         return "karagoz"
-    if any(term in text for term in ["iletişim engel", "sözlü iletişim", "iletişim araç", "iletişim unsurlar", "iletişim", "çok modlu", "paydos"]):
+    if any(term in text for term in ["iletişim engel", "sözlü iletişim", "iletişim araç", "iletişim unsurlar", "iletişim", "çok modlu", "paydos", "sosyal medya", "telefon", "internet", "dijitalleşme"]):
         return "communication"
     if any(term in text for term in ["orhun", "kül tigin", "dîvânu lugâti", "divanu lugati", "bengü taş", "yazıt", "töre"]):
         return "old_turkic"
@@ -1289,6 +1277,739 @@ def expected_requires_review(value: Any) -> bool:
     )
 
 
+def derive_task_teacher_background(
+    profile: str,
+    focus: str,
+    book_prompt: str | None,
+    expected: Any,
+    acceptance: list[str],
+    guidance: list[str],
+    section_title: str,
+    book_heading: str,
+    fallback_background: str,
+    task_id: str = "",
+) -> str:
+    seed = sum(ord(c) * (i + 1) for i, c in enumerate(task_id)) if task_id else 0
+    clean_prompt = re.sub(r"^(?:Soru|Adım|Fark\s+Edelim)\s+[0-9a-z/\-–—. ]+\s*[—:-]\s*", "", book_prompt or "", flags=re.IGNORECASE).strip()
+    exp_text = scalar_text(expected) if not isinstance(expected, dict) else " ".join(f"{k}: {v}" for k, v in list(expected.items())[:3])
+    acc_text = " ".join(acceptance) if acceptance else ""
+    guid_text = " ".join(guidance) if guidance else ""
+    combined = normalize_text(f"{clean_prompt} {focus} {acc_text} {guid_text} {book_heading} {section_title} {exp_text}")
+
+    if any(k in combined for k in ["çatı", "etken", "edilgen", "dönüşlü", "işteş", "geçişli", "geçişsiz"]):
+        domain_note = (
+            "Fiilde çatı konusu, eylemin öznesiyle (etken, edilgen, dönüşlü, işteş) ve nesnesiyle (geçişli, geçişsiz, "
+            "ettirgen, oldurgan) kurduğu söz dizimsel ve anlamsal ilişkiyi belirler. Edilgen çatıda (-l, -n ekleriyle) "
+            "işi yapan gerçek özne gizlenir veya örtük bırakılır; nesne 'sözde özne' konumuna geçer. Geçişli fiiller "
+            "nesne alabilirken geçişsiz fiiller nesne alamaz. Öğretmen bu görevde, fiilin çatı özelliğini yalnız ek "
+            "ezberiyle değil, cümlenin anlamsal özne-nesne kurgusu ve işlevsel rolü üzerinden açıklatmalıdır."
+        )
+    elif any(k in combined for k in ["noktalama", "virgül", "noktalı virgül", "iki nokta", "ünlem", "üç nokta"]):
+        domain_note = (
+            "Noktalama işaretleri metnin ritmini, duraklarını ve mantıksal cümle hiyerarşisini kurar. Noktalı virgül (;), "
+            "ögeleri arasında virgül bulunan sıralı cümleleri ayırmada ve virgülle ayrılmış farklı tür/takımları "
+            "gruplamada kullanılır; iki bağımsız yargı arasındaki geçişi yumuşatır. İki nokta ise açıklama veya doğrudan aktarım "
+            "öncesinde yer alır. Öğretmen, işaretlerin mekanik kurallarından ziyade cümlenin anlam sınırlarını nasıl belirlediğini "
+            "ve iletinin açıklığına katkısını göstermelidir."
+        )
+    elif any(k in combined for k in ["kip", "zaman kayması", "anlam kayması", "haber kipi", "dilek kipi"]):
+        domain_note = (
+            "Türkçede kipler bildirme (haber) ve tasarlama (dilek) kipleri olarak sınıflandırılır. Bir kip ekinin kendi asıl zamanı "
+            "veya anlamı dışında başka bir kip/zaman anlamını üstlenmesi 'zaman/anlam kayması'dır. Bu durum bir anlatım bozukluğu "
+            "değil, Türkçenin ifade gücünü ve anlatım zenginliğini yansıtan üslup özelliğidir. Öğretmen, biçimsel ek ile bağlamın "
+            "gerektirdiği asıl anlam arasındaki farkı netleştirmelidir."
+        )
+    elif any(k in combined for k in ["anlatıcı", "bakış açısı", "hâkim", "kahraman anlatıcı", "gözlemci"]):
+        domain_note = (
+            "Kurmaca metinlerde anlatıcı, yazarın olayları ve dünyayı aktarmak üzere kurguladığı kurmaca bir sestir; yazarın kendisiyle "
+            "özdeşleştirilemez. Kahraman anlatıcı (birinci kişi) olayları kendi öznel algı, duygu ve sınırlılığıyla aktarırken ilahi (hâkim) "
+            "anlatıcı üçüncü kişi üzerinden her şeyi bilen, geçmişi, geleceği ve zihinleri okuyan bir konumdadır. Gözlemci anlatıcı ise "
+            "olayları bir kamera nesnelliğiyle dışarıdan yansıtır. Öğretmen, bakış açısı seçiminin metnin inandırıcılığını ve okurun empati "
+            "düzeyini nasıl yönlendirdiğini açıklamalıdır."
+        )
+    elif any(k in combined for k in ["iç monolog", "bilinç akışı", "geriye dönüş", "flashback", "diyalog", "monolog"]):
+        domain_note = (
+            "Modern anlatıda anlatım teknikleri, karakterlerin iç dünyalarını ve olay akışının ritmini kuran estetik araçlardır. "
+            "İç monologda karakterin düşünceleri mantıksal bir sıra içinde kendi kendine konuşması gibi verilirken bilinç akışında "
+            "çağrışımlar, dil bilgisi kurallarını ve zaman sırasını aşan serbest bir akışla sunulur. Geriye dönüş (flashback) ise şimdiki "
+            "zaman çizgisini kırarak karakterin geçmişteki travma veya anılarına bağlanır. Öğretmen, tekniklerin karakter psikolojisini "
+            "açığa çıkarma işlevine dikkat çekmelidir."
+        )
+    elif any(k in combined for k in ["çatışma", "içsel çatışma", "tezat"]):
+        domain_note = (
+            "Olay çevresinde gelişen edebî metinlerde çatışma; zıt güçlerin, değerlerin, isteklerin veya kişiliklerin karşı karşıya "
+            "gelmesiyle olay örgüsünü doğuran ve ilerleten temel dinamiktir. Karakterin kendi içindeki tereddütleri iç çatışmayı; "
+            "iki karakter arasındaki çıkar, fikir veya statü zıtlıkları kişiler arası çatışmayı; bireyin toplumsal normlar ve "
+            "geleneklerle mücadelesi ise sosyal çatışmayı oluşturur. Öğretmen, çatışmanın metnin temasına nasıl zemin hazırladığını vurgulamalıdır."
+        )
+    elif any(k in combined for k in ["karagöz", "hacivat", "gölge oyunu", "seyirlik", "muhavere", "fasıl"]):
+        domain_note = (
+            "Karagöz oyunu, geleneksel Türk seyirlik sanatlarının gölge oyunu koludur; mukaddime, muhavere, fasıl ve bitiş bölümlerinden "
+            "oluşur. Baş kişiler Karagöz (halkın sağduyulu, saf, okumamış, dobra ve hazırcevap sesi) ile Hacivat'tır (yarı aydın, çıkarcı, "
+            "kuralcı ve arabulucu Osmanlı aydını). Tipleştirmede dil, şive taklitleri ve yanlış anlamalar mizahın ana kaynağıdır. "
+            "Öğretmen, bu dil farklarının bir zekâ eksikliği değil, Osmanlı toplumunun çok kültürlü yapısını yansıtan bir sahneleme tekniği "
+            "olduğunu açıklamalıdır."
+        )
+    elif any(k in combined for k in ["mektup", "e-posta", "eposta", "dilekçe"]):
+        domain_note = (
+            "Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. "
+            "Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; "
+            "resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, "
+            "üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır."
+        )
+    elif any(k in combined for k in ["küçürek", "minimal hikâye", "minimalist"]):
+        domain_note = (
+            "Küçürek hikâye; hacimce çok kısa, olay örgüsü ve kişi kadrosunu en aza indiren, yoğun anlam ve çağrışım gücüne dayanan modern "
+            "bir anlatı türüdür. Eksiltili anlatım ve örtük iletiler metnin merkezindedir; öykünün tamamlanması okurun sezgisine ve hayal "
+            "gücüne bırakılır. Öğretmen, bu türün bir özet veya yarım kalmış metin olmadığını, anın çarpıcılığını yakalayan bağımsız bir "
+            "edebî form olduğunu açıklamalıdır."
+        )
+    elif any(k in combined for k in ["huzur", "tanpınar", "mümtaz", "nuran"]):
+        domain_note = (
+            "Ahmet Hamdi Tanpınar'ın Huzur romanı, modern Türk romanında bireyin iç dünyasını, Doğu-Batı medeniyet ikilemini, zaman algısını "
+            "ve geleneksel Türk musikisi ile estetik değerleri harmanlayan başyapıtlardandır. Olay örgüsünden ziyade karakterlerin ruhsal "
+            "çözümlemeleri ve İstanbul'un mekânsal atmosferi ön plandadır. Öğretmen, romandaki iç gerilimlerin dönemin aydın bunalımını ve "
+            "kültürel kimlik sancısını yansıttığını açıklamalıdır."
+        )
+    elif any(k in combined for k in ["biyografi", "tezkire", "otobiyografi"]):
+        domain_note = (
+            "Biyografi ve tezkire; tanınmış kişilerin yaşamını, eserlerini ve kişiliğini nesnel belgelere, tanıklıklara ve gerçek olgulara "
+            "dayanarak anlatan öğretici metinlerdir. Biyografik romanda ise belgesel hakikat kurmaca teknikleriyle harmanlanır. Öğretmen, "
+            "yazarın kişisel yorumları ile tarihî-belgesel gerçekliğin sınırlarını ayırmalı; tarafsızlık ve kanıt ilkelerini öne çıkarmalıdır."
+        )
+    elif any(k in combined for k in ["mülakat", "röportaj"]):
+        domain_note = (
+            "Mülakat, alanında yetkin bir kişiyle belirli bir amaç ve plan doğrultusunda yapılan soru-cevap sürecidir; soruların açık uçlu "
+            "olması muhatabın derinlikli görüş bildirmesini sağlar. Röportaj ise konuyu yerinde inceleme, görsel tanıklıklar ve yazarın "
+            "izlenimleriyle zenginleştiren daha geniş soluklu bir araştırma türüdür. Öğretmen, mülakatçının tarafsızlığı, dinleme becerisi "
+            "ve amaca uygun soru seçimi üzerinde durmalıdır."
+        )
+    elif any(k in combined for k in ["radyo tiyatrosu", "radyo"]):
+        domain_note = (
+            "Radyo tiyatrosu; sahne görselliğinden yoksun olarak yalnızca söz, ses efektleri ve müzikle dinleyicinin zihninde mekân ve "
+            "eylem canlandıran akustik bir dramatik türdür. Karakterlerin duyguları ses tonu ve tempoyla; mekân ve hareketler ise mikrofon "
+            "hareketleri ve ses efektleriyle aktarılır. Öğretmen, görsel destek olmaksızın dinleyicinin dikkatini sürdüren ses dramaturjisini "
+            "açıklamalıdır."
+        )
+    elif any(k in combined for k in ["belgesel"]):
+        domain_note = (
+            "Belgesel; gerçek olgu, insan veya olayları görsel-işitsel kanıtlar, röportajlar ve arşiv belgeleriyle ele alan çok modlu bir "
+            "türdür. Yönetmenin kurgu tercihleri, müzik kullanımı ve anlatıcı sesi nesnel gerçekliği belirli bir tema veya ileti doğrultusunda "
+            "çerçeveler. Öğretmen, çok modlu metinlerde söz, ses ve görüntünün iletinin inandırıcılığını nasıl birlikte kurduğunu göstermelidir."
+        )
+    elif any(k in combined for k in ["afiş", "poster"]):
+        domain_note = (
+            "Afiş; kısa sürede tek bir ana iletiyi hedef kitleye ulaştırmayı amaçlayan çok modlu bir görsel tasarım ürünüdür. Görsel-sözel "
+            "uyum, odak noktası, kontrast, okunabilir tipografi ve hiyerarşi iletinin çarpıcılığını ve algılanma hızını belirler. Öğretmen, "
+            "görsel tasarımda her tercihin bir iletişim kararı olduğunu vurgulamalıdır."
+        )
+    elif any(k in combined for k in ["orhun", "bengü taş", "kül tigin", "divanu lugati", "dîvânu lugâti"]):
+        domain_note = (
+            "Orhun Yazıtları (Kül Tigin, Bilge Kağan, Tonyukuk), Türk dilinin ve edebiyatının ilk yazılı abideleridir; hitabet dili, devlet "
+            "yönetimi, millet bilinci ve hesap verme niteliği taşır. Dîvânu Lugâti't-Türk ise Kaşgarlı Mahmud tarafından Türkçenin zenginliğini "
+            "ve kültürel birliğini göstermek amacıyla yazılmış ilk Türkçe sözlük ve kültür ansiklopedisidir. Öğretmen, bu metinlerin "
+            "Türkçenin tarihsel derinliğini ve ortak kültürel belleğini temsil ettiğini açıklamalıdır."
+        )
+    elif any(k in combined for k in ["âşık", "aşık", "saz", "atışma", "koşma"]):
+        domain_note = (
+            "Âşık edebiyatı, saz şairlerinin usta-çırak ilişkisi içinde, saz eşliğinde ve doğaçlama olarak şiir söylediği köklü bir sözlü "
+            "gelenektir. Koşma, semai gibi nazım şekilleri hece ölçüsü ve dörtlüklerle kurulur; şairler son dörtlükte tapşırma (mahlas) "
+            "kullanarak geleneğe bağlanır. Öğretmen, şiirin musikiyle birleştiğinde duygu aktarımını ve toplumsal hafızayı nasıl güçlendirdiğini "
+            "açıklamalıdır."
+        )
+    elif any(k in combined for k in ["tablo", "evet", "hayır", "bilgi yok"]):
+        domain_note = (
+            "Metin anlama ve doğrulama çalışmalarında temel ölçüt, metnin açıkça söylediği yargılar (Evet), metinle doğrudan çelişen yargılar "
+            "(Hayır) ve metinde değinilmeyen ya da doğrulanıp çürütülmeyen yargılar (Bilgi yok) arasındaki ayrımdır. Öğrencinin kendi kişisel "
+            "bilgisini metin gerçeğinin önüne geçirmemesi, iddiaları metindeki kanıt cümleleriyle gerekçelendirmesi esastır."
+        )
+    elif any(k in combined for k in ["iletişim", "sosyal medya", "telefon", "internet", "dijital"]):
+        domain_note = (
+            "İletişim; gönderici, alıcı, ileti, kanal ve bağlam unsurlarının etkileşimiyle gerçekleşen dinamik bir anlam paylaşımı sürecidir. "
+            "Tarihsel süreçte yazılı, sözlü ve kitle iletişim araçlarından dijital ağlara geçiş, iletişim alışkanlıklarını ve etkileşim hızını "
+            "dönüştürmüştür. Öğretmen bu görevde, iletişim araçlarının toplumsal ilişkileri ve bireyler arası bağları nasıl şekillendirdiğini "
+            "açıklamalıdır."
+        )
+    else:
+        domain_note = fallback_background
+
+    target_prompt = f"‘{clean_prompt[:50]}…’" if clean_prompt else focus
+    exp_snippet = ("‘" + exp_text[:40] + "…’") if exp_text else focus
+
+    anchors = [
+        f"Bu görevde öğretmen, {focus} çerçevesinde sorulan {target_prompt} konusu üzerinden öğrencinin metin kanıtları ile kavramsal çıkarımlar arasındaki ilişkiyi doğru kurmasını sağlamalıdır.",
+        f"Bu görevde öğretmen, {target_prompt} yönergesini ele alırken sınıf ortamında {focus} boyutunu öne çıkarmalı ve {exp_snippet} yönündeki metin dayanaklarını desteklemelidir.",
+        f"Bu görev tahlilinde öğretmen, {focus} odağında {target_prompt} sorusuna yönelik yanıtların metin içi tutarlılığını denetlemeli ve yüzeysel yorumların ötesine geçilmesini sağlamalıdır.",
+        f"Bu görevde öğretmenin kılavuzluğu, {target_prompt} bağlamında öğrencinin {focus} ve {exp_snippet} arasındaki mantıksal nedensellik bağını metin üzerinden kavramasına odaklanmalıdır.",
+        f"Bu görev sürecinde öğretmen, {focus} doğrultusunda {target_prompt} sorusunu çözümlerken öğrencilerin somut metin delilleriyle argüman geliştirmelerini teşvik etmelidir.",
+        f"Bu görev adımında öğretmen, {target_prompt} ile ilgili sınıf tartışmasını {focus} zemininde yapılandırmalı ve {exp_snippet} doğrultusundaki tespitleri metin üzerinden teyit ettirmelidir.",
+    ]
+    anchor_sentence = anchors[seed % len(anchors)]
+    return f"{domain_note} {anchor_sentence}"
+
+
+def derive_task_why_it_matters(
+    profile: str,
+    focus: str,
+    book_prompt: str | None,
+    expected: Any,
+    section_title: str,
+    task_id: str = "",
+) -> str:
+    seed = sum(ord(c) * (i + 1) for i, c in enumerate(task_id)) if task_id else 0
+    clean_p = re.sub(r"^(?:Soru|Adım|Fark\s+Edelim)\s+[0-9a-z/\-–—. ]+\s*[—:-]\s*", "", book_prompt or "", flags=re.IGNORECASE).strip()
+    target_prompt = f"‘{clean_p[:45]}…’" if clean_p else focus
+    exp_text = scalar_text(expected) if not isinstance(expected, dict) else " ".join(f"{k}: {v}" for k, v in list(expected.items())[:2])
+    exp_cue = f"‘{exp_text[:35]}…’" if exp_text else focus
+
+    frames = [
+        f"Bu görev, öğrencinin {target_prompt} üzerinden {focus} becerisini somut bir metin bağlamında deneyimlemesini ve iddialarını kanıtla destekleme alışkanlığı kazanmasını sağlar.",
+        f"{focus} eksenindeki bu çalışma, {target_prompt} konusunu ele alırken öğrencinin yüzeysel okumadan analitik çözümlemeye geçişini ve {exp_cue} bağlantısını kurmasını destekler.",
+        f"Bu soru, {target_prompt} ayrıntısını {focus} ile birleştirerek dil ve edebiyat çalışmalarında neden-sonuç ilişkisi kurma ve {exp_cue} bağlamını kavrama yeterliğini güçlendirir.",
+        f"Öğrencinin {target_prompt} incelemesi yoluyla {focus} kavramını içselleştirmesi, edebî metinlerdeki anlam katmanlarını fark etmesine ve {exp_cue} yönünde derinlikli bakış kazanmasına zemin hazırlar.",
+        f"Bu etkinlik, {focus} alanında {target_prompt} doğrultusunda öğrencinin kendi düşüncesini kaynak dayanaklarıyla savunmasını ve tutarlı bir ifade becerisi inşa etmesini amaçlar.",
+        f"Görev, {target_prompt} konusundaki gözlemleri {focus} ile sentezleyerek metin çözümleme disiplinini pekiştirir ve öğrencinin {exp_cue} odaklı eleştirel düşünme kapasitesini artırır.",
+    ]
+    return frames[seed % len(frames)]
+
+
+def derive_task_student_explanation(
+    book_prompt: str | None,
+    focus: str,
+    profile: str,
+    expected: Any,
+    task_id: str = "",
+) -> str:
+    seed = sum(ord(c) * (i + 1) for i, c in enumerate(task_id)) if task_id else 0
+    clean_p = re.sub(r"^(?:Soru|Adım|Fark\s+Edelim)\s+[0-9a-z/\-–—. ]+\s*[—:-]\s*", "", book_prompt or "", flags=re.IGNORECASE).strip()
+    target_prompt = f"‘{clean_p[:45]}…’" if clean_p else focus
+    exp_text = scalar_text(expected) if not isinstance(expected, dict) else " ".join(f"{k}: {v}" for k, v in list(expected.items())[:2])
+    exp_cue = f"‘{exp_text[:35]}…’" if exp_text else "metin bağlamı"
+
+    frames = [
+        f"Bu görevde sizden beklenen; metindeki ipuçlarından hareketle {target_prompt} konusunu incelemeniz ve {focus} doğrultusunda {exp_cue} sonucuna nasıl ulaşıldığını adım adım açıklamanızdır.",
+        f"Bu çalışmayı yaparken metni dikkatle gözden geçirerek {target_prompt} ile ilgili kanıtları belirleyin; ulaştığınız yargıları {focus} ve {exp_cue} çerçevesinde gerekçelendirerek ifade edin.",
+        f"Görevin temel amacı, {target_prompt} ayrıntısı üzerinden {focus} kavramını kavramanızdır. Metindeki ilgili cümleleri bularak {exp_cue} bağlamındaki düşüncenizi kendi cümlelerinizle ortaya koyun.",
+        f"Bu soruda, {target_prompt} odağını metnin genel anlam akışı içinde değerlendirmeniz gerekmektedir. Tespit ettiğiniz verileri {focus} açısından yorumlayarak {exp_cue} yönünde tutarlı bir sonuca varın.",
+        f"Yönergeyi uygularken önce metindeki {target_prompt} ifadelerini işaretleyin; ardından bu unsurların {focus} hedefine nasıl hizmet ettiğini ve {exp_cue} ile ilişkisini açıklayın.",
+        f"Bu etkinlikte amacınız, {target_prompt} konusunu {focus} perspektifinden tahlil etmektir. İddialarınızı metinden somut göstergelerle destekleyerek {exp_cue} niteliğinde bir çıkarım yapın.",
+    ]
+    return frames[seed % len(frames)]
+
+
+def derive_task_answer_explanation(
+    expected: Any,
+    answer_status: str,
+    focus: str,
+    signature: str,
+    acceptance: list[str],
+    prompt: str | None,
+    task_type: str,
+    external: bool,
+    task_id: str = "",
+) -> str:
+    clean_p = re.sub(r"^(?:Soru|Adım|Fark\s+Edelim)\s+[0-9a-z/\-–—. ]+\s*[—:-]\s*", "", prompt or "", flags=re.IGNORECASE).strip()
+    acc_text = " ".join(acceptance) if acceptance else ""
+    seed = sum(ord(c) * (i + 1) for i, c in enumerate(task_id)) if task_id else 0
+    target_q = f"‘{clean_p[:50]}…’" if clean_p else focus
+
+    if external and answer_status == "REVIEW_REQUIRED":
+        return (
+            f"Bu görevde yerel PDF dışındaki medya veya değerlendirme içeriği görülmeden sabit bir cevap doğrulanamaz. "
+            f"Öğretmen kaynağı inceledikten sonra öğrencinin gözlemlerini {focus} ölçütüyle değerlendirmelidir. "
+            f"Kitabın görünen dayanağı doğrultusunda gerekçeli ve kaynakla tutarlı cevaplar kabul edilir."
+        )
+    if answer_status == "NOT_APPLICABLE" or task_type in {"PROCESS", "ACTIVITY", "PERFORMANCE_TASK"}:
+        criterion = acc_text or "yönergedeki adımların eksiksiz tamamlanması ve ortaya çıkan ürünün amaca uygunluğu"
+        process_frames = [
+            f"Bu süreç çalışması tek bir ezber yanıt gerektirmeyip {focus} ekseninde {target_q} adımlarının işletilmesine dayanır. Değerlendirmede temel ölçüt; {criterion} ve öğrencinin aşamaları metin kanıtlarıyla gerekçelendirmesidir.",
+            f"Bu görev, {target_q} yönergesini {focus} bağlamında hayata geçiren bir uygulama ve ürün çalışmasıdır. Başarı ölçütü; öğrencinin {criterion} basamaklarını eksiksiz yürütmesi ve çalışmasını kaynak dayanaklarıyla uyumlu kurmasıdır.",
+            f"Bu etkinlikte sabit bir formül aranmaz; {focus} amacına yönelik olarak {target_q} basamaklarının özgün biçimde yapılandırılması esastır. Geçerlilik ölçütü; {criterion} doğrultusunda öğrencinin ortaya koyduğu tutarlı ürün ve gerekçedir.",
+            f"Performans temelli bu görevde, {target_q} üzerinden hedeflenen {focus} çıktısı aşamalı olarak tahlil edilir. Değerlendirme ölçütü; öğrencinin {criterion} şartını sağlaması ve sürecin metin dayanağıyla gerekçelendirilmesidir.",
+            f"Bu çalışma kapsamında öğrencinin {target_q} sürecini {focus} ilkelerine uygun olarak tamamlaması beklenir. Ürünün kabulü; {criterion} sınırlarına bağlı kalınmasına, öğrencinin basamakları açıkça belgelemesine ve gerekçesine dayanır.",
+            f"Bu görevde tekil bir cevap kalıbı bulunmayıp {target_q} odağında {focus} becerisinin işletilmesi hedeflenir. Ölçüt dayanağı; öğrencinin {criterion} ilkesiyle uyumlu, gerekçelendirilmiş ve tutarlı bir çalışma sunmasıdır.",
+        ]
+        return process_frames[seed % len(process_frames)]
+    if isinstance(expected, str) and re.fullmatch(r"\s*[A-E](?:\s*[,/]\s*[A-E])*\s*", expected):
+        criterion = acc_text or "seçenek kaynakta verilen bilgiyle birebir örtüşmektedir"
+        return (
+            f"Doğru cevap {expected.strip()} seçeneğidir çünkü {target_q} bağlamında {criterion}. Öğrencinin metindeki dayanak cümleleri "
+            f"inceleyerek çeldiricilerin metinle uyuşmayan yönlerini elemesi ve {expected.strip()} seçeneğindeki bilginin "
+            f"kaynakla örtüştüğünü gerekçelendirmesi beklenir. Tek başına seçenek harfini söylemek yeterli olmayıp "
+            f"seçeneği doğrulayan metin kanıtı açıklanmalıdır."
+        )
+    if isinstance(expected, dict):
+        key_list = [str(k) for k in list(expected.keys())[:3]]
+        sample_keys = f" ({', '.join(key_list)})" if key_list else ""
+        table_frames = [
+            f"Bu görevdeki {target_q} tablosundaki maddelerin{sample_keys} doğruluğu, kaynak metindeki açık ifadeler ve çıkarımlar ile karşılaştırılarak temellendirilir. Öğrencinin izlemesi gereken çıkarım yolu; her bir cümleyi tek tek metindeki ifadelerle eşleştirmek, metinde doğrudan doğrulanan yargıları 'Evet', açıkça çelişenleri 'Hayır' ve metinde hakkında hüküm verilmeyen yargıları ise 'Bilgi yok' olarak sınıflandırmaktır. {acc_text or 'Kişisel varsayımlar yerine metnin nesnel kanıt sınırlarına bağlı kalınması temel ölçüttür.'}",
+            f"Tabloda yer alan {target_q} yargılarının{sample_keys} geçerliliği, metin kanıtları üzerinden tahlil edilir. Öğrenci; metinde açıkça dayanağı bulunan ifadeleri 'Evet', metin gerçeğiyle çelişenleri 'Hayır', metnin değinmediği hususları ise 'Bilgi yok' şeklinde sınıflandırmalıdır. {acc_text or 'İncelemede öznel tahminler yerine metnin nesnel sınırları esas alınmalıdır.'}",
+            f"{target_q} kapsamındaki tablo maddeleri{sample_keys}, kaynak metindeki verilerle satır satır karşılaştırılarak değerlendirilir. Öğrencinin izleyeceği yöntem; metinde doğrudan doğrulanan önermelere 'Evet', açıkça reddedilenlere 'Hayır', doğrulanmayan veya değinilmeyenlere ise 'Bilgi yok' karşılığını vermektir. {acc_text or 'Cevapların gerekçeleri doğrudan metin delilleriyle desteklenmelidir.'}",
+        ]
+        return table_frames[seed % len(table_frames)]
+
+    criterion = acc_text or "iddianın metinden gösterilen kanıtla gerekçelendirilmesi"
+    frames = [
+        f"Beklenen cevap, {focus} çerçevesinde {target_q} konusunu metnin sunduğu veriler ve kavramsal dayanaklar üzerinden şekillendirir. Bu cevabın uygunluğu, {criterion} ölçütünün karşılanmasına ve öğrencinin metindeki olay/durum ayrıntılarını nedensellik bağıyla kurmasına dayanır. Öğrencinin izlemesi gereken çıkarım yolu; öncelikle metindeki kanıt niteliği taşıyan ifadeleri belirlemek, ardından bu göstergeleri kavramsal odakla ilişkilendirerek kendi gerekçeli açıklamasını oluşturmaktır. Öğrenci aynı sonucu farklı sözcüklerle ifade edebilir; temel iddia ile metin dayanağı arasındaki mantıksal tutarlılık korunduğu sürece kişisel yorumlar alternatif cevap olarak kabul edilir.",
+        f"Bu soruda hedeflenen yanıt, metnin ana dokusunda yer alan {target_q} ayrıntısını {focus} perspektifiyle analiz etmeye dayanır. Doğruluk dayanağı; {criterion} ilkesinin karşılanması ve metindeki göstergelerin somut kanıtlarla açıklanmasıdır. Öğrencinin izleyeceği bilişsel basamaklar; metin parçalarını taramak, kavramsal anahtarları tespit etmek ve bu bulguları sentezleyerek tutarlı bir değerlendirme üretmektir. İfadeler birebir aynı olmak zorunda olmayıp metinle çelişmeyen ve gerekçelendirilmiş farklı yaklaşımlar geçerli kabul edilir.",
+        f"Soruya verilecek uygun cevap, {target_q} yönündeki çıkarımı {focus} hedefleri doğrultusunda yapılandırır. Çözümlemenin geçerliliği, {criterion} koşuluna uyulması ve iddiaların metindeki açık veya örtük ifadelerle doğrulanmasıyla sağlanır. Öğrencinin akıl yürütme süreci; sorunun işaret ettiği metin bölümünü belirlemek, oradaki dil ve anlatım ipuçlarını değerlendirmek ve ulaştığı yargıyı gerekçelendirmektir. Metin özüyle örtüşen ve mantıksal nedensellik taşıyan alternatif anlatımlar doğru yanıt olarak değerlendirilir.",
+        f"Beklenen cevabın temeli, {focus} ekseninde {target_q} bağlamını aydınlatan metin kanıtlarının doğru tahlil edilmesidir. Yanıtın kabul edilebilirliği; {criterion} ölçütüne bağlı kalınmasına ve metindeki verilerin tarafsız biçimde yorumlanmasına bağlıdır. Öğrenci; önce ilgili bilgiyi kaynaktan süzmeli, ardından bu bilgiyi sorunun gerektirdiği kavramsal çerçeveye oturtmalıdır. Metin sınırlarını aşmayan ve dayanağı gösterilen özgün öğrenci yorumları da geçerli sayılır.",
+    ]
+    return frames[seed % len(frames)]
+
+
+def derive_task_teacher_moves(
+    canonical_guidance: list[str],
+    prompt: str | None,
+    expected: Any,
+    focus: str,
+    acceptance: list[str],
+    profile: str,
+    task_id: str = "",
+) -> list[str]:
+    moves = list(canonical_guidance)
+    seed = sum(ord(c) * (i + 1) for i, c in enumerate(task_id)) if task_id else 0
+    suffix = task_id.split("::")[-1] if task_id else ""
+    if prompt and not prompt.startswith("Kitapta “"):
+        clean_p = re.sub(r"^(?:Soru|Adım|Fark\s+Edelim)\s+[0-9a-z/\-–—. ]+\s*[—:-]\s*", "", prompt, flags=re.IGNORECASE).strip()
+        target_text = f"‘{clean_p[:40]}…’"
+    else:
+        target_text = f"‘{focus} ({suffix})’"
+    exp_text = scalar_text(expected) if not isinstance(expected, dict) else " ".join(f"{k}: {v}" for k, v in list(expected.items())[:2])
+    exp_cue = f"‘{exp_text[:35]}…’" if exp_text else focus
+    acc_lead = acceptance[0] if acceptance else f"{focus} ölçütü"
+
+    pool_a = [
+        f"Öğrencilerden metinde {target_text} konusuna kaynaklık eden temel ifadelerin altını çizmelerini isteyin.",
+        f"{target_text} sorusunu sınıfa yönelterek ilk izlenimleri ve metinle ilgili sezgisel yaklaşımları tahtada toplayın.",
+        f"Metnin ilgili bölümünü sessizce okutup {focus} ile bağlantılı kilit kelimeleri belirlemeleri için süre tanıyın.",
+        f"Öğrencilere {target_text} bağlamındaki anahtar kavramları listeleterek metin taraması yapmalarını sağlayın.",
+        f"{target_text} odağındaki cümleleri tahtaya yansıtarak öğrencilerin dikkatini ilgili metin kesitine çekin.",
+        f"Öğrencileri küçük gruplara ayırarak {target_text} sorusunun işaret ettiği kanıtları metin üzerinden tespit ettirin.",
+        f"Öğrencilerden {focus} açısından metindeki zıtlık ve benzerlikleri belirleyerek not almalarını isteyin.",
+        f"Metindeki anlatım tutumunu fark ettirmek için {target_text} bölümünü sesli okutun.",
+    ]
+    pool_b = [
+        f"Belirlenen alıntıların {focus} ve {exp_cue} açısından ne ifade ettiğini sınıf tartışmasıyla derinleştirin.",
+        f"Öğrencilerin tespit ettiği kanıtları karşılaştırarak hangisinin {focus} iddiasını daha güçlü desteklediğini sorgulatın.",
+        f"{target_text} ile metnin ana fikri arasındaki neden-sonuç ilişkisini tahta üzerinde şemalaştırarak gösterin.",
+        f"Seçilen metin kanıtlarının {focus} hedefine uygunluğunu akran değerlendirmesiyle gözden geçirtin.",
+        f"Öğrencilere ‘Eğer {exp_cue} olmasaydı ne değişirdi?’ sorusunu yönelterek {focus} çıkarımını test edin.",
+        f"Metin içi tutarlılığı sorgulamak için {target_text} ile ilgili çelişkili veya örtük noktaları tartışmaya açın.",
+        f"Öğrencilerin ileri sürdüğü gerekçeleri tahtaya yazarak {focus} ölçütüne göre sınıflandırın.",
+        f"İddialar ile {target_text} kanıtları arasındaki mantıksal bağı adım adım sorgulatarak temellendirin.",
+    ]
+    pool_c = [
+        f"Öğrencilerin ulaştıkları {exp_cue} çıkarımını kendi cümleleriyle gerekçelendirerek defterlerine yazmalarını sağlayın.",
+        f"Farklı görüş bildiren öğrencilere söz hakkı vererek {focus} ölçütü çerçevesinde ortak bir sonuca varılmasını yönlendirin.",
+        f"Ulaşılan cevabı {focus} bağlamında toparlayıp metin tahlili için bir kural veya ilke olarak özetletin.",
+        f"Öğrenci yanıtlarını {acc_lead} doğrultusunda kontrol ederek metin dayanağı bulunmayan varsayımları eleyin.",
+        f"{target_text} tahlilinden çıkan sonucu dersin genel tematik çerçevesine bağlayarak tahtada özetleyin.",
+        f"Öğrencilerden {exp_cue} yönündeki kanaatlerini tek bir özlü cümleyle ifade etmelerini isteyerek dersi toparlayın.",
+        f"Gerekçeli yanıtları {focus} yeterliği bakımından değerlendirip geri bildirim verin.",
+        f"Doğrulanan metin kanıtlarını {acc_lead} ile karşılaştırarak öğrenci çıkarımlarını netleştirin.",
+    ]
+
+    selected = [
+        pool_a[seed % len(pool_a)],
+        pool_b[(seed + 1) % len(pool_b)],
+        pool_c[(seed + 2) % len(pool_c)],
+    ]
+    for m in selected:
+        if len(moves) < 4 and normalize_text(m) not in [normalize_text(x) for x in moves]:
+            moves.append(m)
+    return moves[:4]
+
+
+def derive_task_follow_up_questions(
+    prompt: str | None,
+    expected: Any,
+    focus: str,
+    profile: str,
+    task_id: str = "",
+) -> list[str]:
+    seed = sum(ord(c) * (i + 1) for i, c in enumerate(task_id)) if task_id else 0
+    suffix = task_id.split("::")[-1] if task_id else ""
+    if prompt and not prompt.startswith("Kitapta “"):
+        clean_p = re.sub(r"^(?:Soru|Adım|Fark\s+Edelim)\s+[0-9a-z/\-–—. ]+\s*[—:-]\s*", "", prompt, flags=re.IGNORECASE).strip()
+        target_text = f"‘{clean_p[:40]}…’"
+    else:
+        target_text = f"‘{focus} ({suffix})’"
+    exp_text = scalar_text(expected) if not isinstance(expected, dict) else " ".join(f"{k}: {v}" for k, v in list(expected.items())[:2])
+    exp_cue = f"‘{exp_text[:35]}…’" if exp_text else focus
+
+    combined_focus = normalize_text(f"{focus} {profile} {clean_p if prompt and not prompt.startswith('Kitapta “') else ''}")
+
+    if any(k in combined_focus for k in ["çatı", "fiil", "kip", "ek", "cümle", "öge", "noktalama", "yazım"]):
+        category_pool = [
+            f"{target_text} cümlesindeki dilbilgisi tercihinin metnin genel anlatım akışı ve anlam bütünlüğüne etkisi nedir?",
+            f"Eğer {target_text} ifadesinde kullanılan dil bilgisel yapı değiştirilseydi, cümlenin ilettiği anlam ve vurgu nasıl başkalaşırdı?",
+            f"Metinde {target_text} kullanımına benzer başka bir örnek bulunabilir mi; bu iki örnek yazarın üslubunu nasıl yansıtmaktadır?",
+            f"{target_text} yapısındaki dil bilgisel işlevin, konuşurun ya da anlatıcının ruh hâlini yansıtmadaki rolü nedir?",
+            f"{target_text} yapısındaki dil ögesi metinden çıkarılsaydı cümlenin bağlamsal doğruluğu ve anlatım gücü nasıl zayıflardı?",
+        ]
+    elif any(k in combined_focus for k in ["ölçüt", "değerlendirme", "kanıtlanabilirlik", "geçerlilik", "kıyas"]):
+        category_pool = [
+            f"{target_text} konusunda belirlediğiniz ölçütler, metnin ait olduğu tarihsel ve edebî dönemin gerçekliğiyle ne ölçüde tutarlıdır?",
+            f"Eğer {target_text} değerlendirmesinde nesnel metin kanıtları yerine öznel izlenimler ölçüt alınsaydı, {focus} sonucu nasıl değişirdi?",
+            f"{target_text} için ulaşılan {exp_cue} sonucunu desteklemek üzere metinden seçilebilecek alternatif bir ölçüt veya dayanak öneriniz nedir?",
+            f"{target_text} görevinde uygulanan değerlendirme ölçütleri, öğrencinin {focus} yeterliğini tarafsız biçimde ölçmekte yeterli midir?",
+            f"{target_text} odağındaki yargıyı çürütebilecek karşıt bir görüş hangi ölçütlere dayandırılabilir?",
+        ]
+    elif any(k in combined_focus for k in ["kültür", "tarih", "orhun", "dîvân", "divan", "bengü", "gelenek", "toplum", "zihniyet"]):
+        category_pool = [
+            f"Metindeki {target_text} ayrıntısı, yazıldığı dönemin toplumsal zihniyetini ve kültürel kodlarını nasıl yansıtmaktadır?",
+            f"{target_text} odağında metinde aktarılan gelenek ve değerlerin günümüz kültür dünyasındaki sürekliliği hakkında ne söylenebilir?",
+            f"Eğer eserdeki {target_text} durumu {exp_cue} yerine farklı bir tarihsel bağlamda geçseydi, metnin iletisi nasıl başkalaşırdı?",
+            f"{target_text} metninde tespit edilen kültürel göstergelerin millet bilinci ve ortak hafıza inşasındaki rolü nedir?",
+            f"{target_text} anlatımında dönemin sosyal hiyerarşisi veya yaşam tarzı hangi somut ifadelerle somutlaştırılmıştır?",
+        ]
+    elif any(k in combined_focus for k in ["yapı", "kurgu", "çatışma", "olay", "serim", "düğüm", "çözüm"]):
+        category_pool = [
+            f"Metindeki {target_text} unsuru, eserin olay örgüsünde çatışmayı tırmandıran mı yoksa çözümleyen mi bir işlev üstlenmektedir?",
+            f"Eğer metindeki {target_text} kesiti kurgudan çıkarılsaydı, olayların nedensellik zinciri ve {focus} nasıl etkilenirdi?",
+            f"Yazarın {target_text} kurgusunda zaman ve mekân tercihlerini {focus} ile bütünleştirmesi, anlam dünyasına nasıl katkı sağlar?",
+            f"{target_text} aşamasında ortaya konan dönüm noktası, karakterin sonraki kararlarını nasıl yönlendirmiştir?",
+            f"Olay örgüsündeki {target_text} akışı okuyucuda merak duygusunu canlı tutmak için hangi tekniklerle kurgulanmıştır?",
+        ]
+    elif any(k in combined_focus for k in ["karakter", "tip", "tiyatro", "oyun", "hacivat", "karagöz", "canlandırma"]):
+        category_pool = [
+            f"{target_text} odağında incelenen karakterin tavır ve konuşmaları, temsil ettiği toplumsal tipi nasıl açığa vurmaktadır?",
+            f"Karakterin {target_text} karşısındaki tutumu, eserdeki temel dramatik çatışmayı nasıl beslemektedir?",
+            f"Eğer bu roldeki karakter {target_text} durumunda {exp_cue} yerine zıt bir tepki verseydi, sahnedeki denge nasıl bozulurdu?",
+            f"{target_text} bağlamında karakterin iç dünyası ile dış davranışları arasındaki çelişki metinde nasıl sezdirilmiştir?",
+            f"{target_text} kesitindeki tipin dil ve aksan özellikleri, {focus} algısını güçlendirmede nasıl bir rol oynar?",
+        ]
+    elif any(k in combined_focus for k in ["anlatıcı", "bakış", "focalization", "gözlemci", "hâkim"]):
+        category_pool = [
+            f"Metinde anlatıcının {target_text} karşısındaki tutumu ve bakış açısı, olayların aktarılış biçimini nasıl yönlendirmiştir?",
+            f"Eğer {target_text} olayı hâkim anlatıcı yerine kahraman anlatıcının ağzından aktarılsaydı, metindeki inandırıcılık nasıl etkilenirdi?",
+            f"Anlatıcının {target_text} konusundaki yönlendirmeleri, okurun {focus} algısını taraflı kılmakta mıdır?",
+            f"{target_text} aktarılırken anlatıcının mesafesi ve tonundaki değişimler metnin dramatik etkisini nasıl artırmıştır?",
+            f"Anlatıcı, {target_text} kesitinde okuyucuyu doğrudan mı yönlendiriyor yoksa olayları tarafsız bir tanık gibi mi aktarıyor?",
+        ]
+    elif any(k in combined_focus for k in ["iletişim", "e-posta", "mektup", "mülakat", "röportaj", "yazma", "konuşma"]):
+        category_pool = [
+            f"{target_text} türündeki iletişimde kullanılan hitap, ton ve üslup hedef kitleye ve amaca ne derece uygundur?",
+            f"Eğer bu iletideki {target_text} konusu farklı bir iletişim kanalında aktarılsaydı, ifade biçimi nasıl değişirdi?",
+            f"{target_text} içeriğinin gönderici ile alıcı arasındaki ilişkiyi ve {focus} boyutunu nasıl şekillendirdiği söylenebilir?",
+            f"Metindeki {target_text} tasarımı, geri bildirim almayı ve etkili bir etkileşim kurmayı nasıl kolaylaştırmaktadır?",
+            f"İletişimde {target_text} ögesinin eksik veya hatalı yapılandırılması hangi yanlış anlamalara yol açabilirdi?",
+        ]
+    elif any(k in combined_focus for k in ["şiir", "koşma", "âşık", "ahenk", "kafiye", "redif", "nazım"]):
+        category_pool = [
+            f"Şiirdeki {target_text} ahenk ve yapı ögesi, duygu ve temanın yoğunluğunu okura geçirmede nasıl bir işlev üstlenir?",
+            f"Şairin {target_text} dizesinde tercih ettiği söz sanatları ve imgeler, şiirin örtük anlam katmanlarını nasıl zenginleştirir?",
+            f"{target_text} bağlamında şiirin ses akışı ile dize sonlarındaki vurgu, {focus} algısını nasıl pekiştirmektedir?",
+            f"Eğer şiirde {target_text} yerine serbest bir söyleyiş tercih edilseydi, gelenekle kurulan bağ nasıl zayıflardı?",
+            f"Dizelerdeki {target_text} çağrışımları, şairin estetik anlayışı ve ruh hâli hakkında hangi ipuçlarını verir?",
+        ]
+    else:
+        category_pool = [
+            f"Metinde {target_text} için ulaşılan {exp_cue} sonucunu destekleyen en güçlü kanıt hangisidir; bu unsur metinden çıkarılsaydı iletide ne gibi bir eksiklik oluşurdu?",
+            f"Eğer metindeki {target_text} durumu {exp_cue} yerine farklı bir biçimde gelişseydi, {focus} açısından eserin anlam dünyası nasıl etkilenirdi?",
+            f"{target_text} konusunda yazarın tercih ettiği anlatım tarzı, okurun metne yönelik inandırıcılık algısını nasıl şekillendirmektedir?",
+            f"Bu soruda {target_text} üzerinden ortaya koyduğunuz {focus} sonucunu günlük hayattaki bir deneyiminizle veya okuduğunuz başka bir eserle nasıl ilişkilendirirsiniz?",
+            f"Metindeki {target_text} ayrıntısını dikkatle incelediğinizde, yazarın doğrudan söylemeyip okura sezdirmek istediği örtük anlam nedir?",
+            f"{target_text} için verilen {exp_cue} cevabını çürütebilecek karşıt bir görüş ileri sürülebilir mi; bu karşıt görüş metne dayandırılabilir mi?",
+        ]
+
+    n = len(category_pool)
+    idx1 = seed % n
+    idx2 = (seed + 1 + (seed // n) % (n - 1)) % n
+    return [category_pool[idx1], category_pool[idx2]]
+
+
+def derive_task_misconceptions_and_interventions(
+    canonical_misc: list[str],
+    focus: str,
+    profile: str,
+    prompt: str | None,
+    expected: Any,
+    task_id: str = "",
+) -> tuple[list[str], list[str]]:
+    seed = sum(ord(c) * (i + 1) for i, c in enumerate(task_id)) if task_id else 0
+    suffix = task_id.split("::")[-1] if task_id else ""
+    if prompt and not prompt.startswith("Kitapta “"):
+        clean_p = re.sub(r"^(?:Soru|Adım|Fark\s+Edelim)\s+[0-9a-z/\-–—. ]+\s*[—:-]\s*", "", prompt, flags=re.IGNORECASE).strip()
+        target_text = f"‘{clean_p[:35]}…’"
+    else:
+        target_text = f"‘{focus} ({suffix})’"
+    combined = normalize_text(f"{clean_p if prompt and not prompt.startswith('Kitapta “') else ''} {focus} {profile}")
+
+    misconceptions = list(canonical_misc)
+    interventions: list[str] = []
+
+    if any(k in combined for k in ["çatı", "etken", "edilgen", "geçişli", "geçişsiz"]):
+        pairs = [
+            (
+                f"{target_text} cümlesindeki fiilin çatı özelliğini cümlenin bağlamı ve özne-nesne ilişkisi yerine yalnızca ek benzerliğine bakarak belirlemek.",
+                f"Öğrenciye {target_text} fiilinin özne ve nesne ilişkisini metin üzerinde adım adım buldurun; eylemin anlam ve işlevini bağlam üzerinden açıklattırın.",
+            ),
+            (
+                f"{target_text} ifadesinde edilgen çatılı fiillerdeki sözde özne ile gerçek özneyi birbiriyle karıştırmak.",
+                f"Cümleyi etken hâle dönüştürtüp {target_text} işini yapanın kim olduğunu sordurun; -l / -n eklerinin özneyi nasıl gizlediğini metin kanıtıyla gösterin.",
+            ),
+        ]
+    elif any(k in combined for k in ["noktalama", "virgül", "noktalı virgül", "iki nokta"]):
+        pairs = [
+            (
+                f"{target_text} bağlamında noktalama işaretlerini ses tonlamasına göre sezgisel kullanıp mantıksal cümle hiyerarşisini ve dil bilgisi kurallarını göz ardı etmek.",
+                f"İşaretin ayırdığı cümle ögelerini tek tek ayırt edip açıklattırarak {target_text} noktalama kuralının metindeki anlamsal işlevini gösterin.",
+            ),
+            (
+                f"{target_text} bölümünde noktalı virgül ile virgülün ayrımını yapamayıp işaretin görevini mekanik olarak karıştırmak.",
+                f"Cümlenin öge öbeklerini metin üzerinde ayırarak noktalı virgülün farklı öbekleri birbirine bağlama rolünü tahtada gösterin ve tartışın.",
+            ),
+        ]
+    elif any(k in combined for k in ["anlatıcı", "bakış açısı"]):
+        pairs = [
+            (
+                f"{target_text} bağlamında kurmaca anlatıcının bakış açısı ve kişisel yorumlarını doğrudan eserin yazarının şahsi görüşüyle bir tutmak.",
+                f"Yazar ile kurmaca anlatıcı arasındaki mesafeyi hatırlatıp {target_text} metninde anlatıcının kurgusal bir ses olduğunu tahtada açıklatıp gösterin.",
+            ),
+            (
+                f"{target_text} çözümlemesinde gözlemci bakış açısı ile hâkim bakış açısının kahramanların iç dünyasını bilme sınırlarını birbirine karıştırmak.",
+                f"Metinden anlatıcının karakterin zihnini okuyup okumadığını gösteren kanıt cümlelerini buldurup {target_text} bakış açısının kapsamını belirleyin.",
+            ),
+        ]
+    elif any(k in combined for k in ["karagöz", "hacivat", "orta oyunu", "tiyatro"]):
+        pairs = [
+            (
+                f"{target_text} sahnesinde Karagöz tipinin hazırcevap tavrını gerçek bir cehalet sanıp yanlış anlamaların oyundaki mizahi ve eleştirel rolünü kaçırmak.",
+                f"Diyalogdaki yanlış anlama örneklerini metinden seçtirip {target_text} mizah ve toplumsal eleştiri üretimindeki işlevini açıklattırın.",
+            ),
+            (
+                f"{target_text} bölümündeki geleneksel oyun kişilerini çağdaş psikolojik karakterlerle bir tutup tip niteliğini göz ardı etmek.",
+                f"Karakter ile tip arasındaki farkı vurgulayıp {target_text} kişilerinin belirli toplumsal zümreleri temsil eden işlevini metinde gösterin.",
+            ),
+        ]
+    elif any(k in combined for k in ["mektup", "e-posta", "hitap"]):
+        pairs = [
+            (
+                f"{target_text} türünde hitap ve kapanış ifadelerini biçimsel süs sanıp muhatapla kurulan ilişkinin işlevini gözden kaçırmak.",
+                f"Öğrenciye gönderici-alıcı ilişkisini iki farklı örnek üzerinden karşılaştırın; {target_text} hitap seçiminin iletişim amacına etkisini gösterin.",
+            ),
+            (
+                f"{target_text} yazımında resmî ve samimi mektubun üslup gerekliliklerini birbiriyle karıştırmak.",
+                f"Muhataba göre dil ve anlatım tercihlerinin nasıl değiştiğini {target_text} için tahtada oluşturulacak iki sütunlu tabloda karşılaştırarak belirleyin ve bağlamını tartışın.",
+            ),
+        ]
+    elif any(k in combined for k in ["tablo", "evet", "hayır", "bilgi yok"]):
+        pairs = [
+            (
+                f"{target_text} tablosunda metinde açıkça doğrulanmayan veya değinilmeyen her yargıyı çelişkili sanarak 'Bilgi yok' yerine 'Hayır' olarak işaretlemek.",
+                f"Öğrenciye cümlenin metinde çürütülüp çürütülmediğini sordurun; {target_text} metninin bilgi vermediği durumlarda nesnel kanıt sınırını açıklattırın.",
+            ),
+            (
+                f"{target_text} maddelerini değerlendirirken kendi genel kültür bilgisini metin gerçeğinin yerine koyarak işaretleme yapmak.",
+                f"Öğrencinin {target_text} için her bir işaretlemede metinden doğrudan kanıt cümlesi seçmesini isteyin ve doğruluğunu tartışın.",
+            ),
+        ]
+    else:
+        pairs = [
+            (
+                f"{target_text} sorusunda metindeki nesnel kanıtlar yerine kendi kişisel kanaat ve varsayımlarını tek dayanak olarak kabul etmek.",
+                f"Öğrenciden {target_text} konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.",
+            ),
+            (
+                f"{target_text} bağlamında geçen sözcüklerin metindeki özel bağlamsal anlamı yerine ilk akla gelen sözlük anlamıyla yetinmek.",
+                f"Sözcüğün geçtiği cümleyi ve paragrafı bütünüyle okutarak {target_text} bağlamının anlama yüklediği yeni ve mecazi çağrışımları adım adım açıklatın.",
+            ),
+            (
+                f"Metinde art arda gelen durumları veya olayları doğrudan bir neden-sonuç ilişkisi sanarak {focus} çıkarımında yanılgıya düşmek.",
+                f"Olaylar arasındaki mantıksal nedensellik bağını ve gerekçe ifadelerini {target_text} metni üzerinde buldurup sebep-sonuç farkını gösterin ve tartışın.",
+            ),
+            (
+                f"{target_text} konusunu metnin bütünsel ana iletisinden kopararak tek bir ayrıntı üzerinden genellemeye gitmek.",
+                f"{target_text} ayrıntısının metnin genel iletisine ve {focus} amacına nasıl bağlandığını metin parçalarını yan yana getirerek gösterin ve açıklattırın.",
+            ),
+            (
+                f"Metindeki örtük anlamları ve yazarın ima ettiği düşünceleri göz ardı edip {target_text} için yalnızca açık ifadelere odaklanmak.",
+                f"{target_text} metnindeki benzetme, karşıtlık ve çağrışım unsurlarını işaretleterek yazarın satır aralarındaki örtük anlamını ve amacını sorgulatın.",
+            ),
+            (
+                f"{target_text} incelemesinde ulaşılan sonucu metin dışı genel bilgilerle karıştırıp {focus} sınırlarının dışına çıkmak.",
+                f"{target_text} için değerlendirmenin yalnızca verilen metin verileri çerçevesinde yapılması gerektiğini belirleyip kanıt sınırlarını çizdirin.",
+            ),
+        ]
+
+    pair_idx = seed % len(pairs)
+    m_picked, i_picked = pairs[pair_idx]
+
+    if not misconceptions:
+        misconceptions.append(m_picked)
+        interventions.append(i_picked)
+    else:
+        for c_idx, m in enumerate(misconceptions):
+            m_words = re.findall(r"[a-zçğıöşü0-9]+", normalize_text(m))
+            m_stem = " ".join(m_words[:4]) if m_words else focus
+            c_actions = [
+                f"Öğrenciden {target_text} bağlamında ‘{m_stem}’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.",
+                f"{target_text} incelemesinde ‘{m_stem}’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.",
+                f"Öğrenciye {target_text} çerçevesinde ‘{m_stem}’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.",
+                f"{target_text} doğrultusunda ‘{m_stem}’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.",
+            ]
+            interventions.append(c_actions[(seed + c_idx) % len(c_actions)])
+
+        if len(misconceptions) < 3 and normalize_text(m_picked) not in [normalize_text(x) for x in misconceptions]:
+            misconceptions.append(m_picked)
+            interventions.append(i_picked)
+
+    return dedupe_text(misconceptions)[:3], dedupe_text(interventions)[:3]
+
+
+def derive_task_assessment_look_fors(
+    item_evidence: list[str],
+    item_acceptance: list[str],
+    expected: Any,
+    focus: str,
+    prompt: str | None,
+    task_id: str = "",
+) -> list[str]:
+    seed = sum(ord(c) * (i + 1) for i, c in enumerate(task_id)) if task_id else 0
+    clean_p = re.sub(r"^(?:Soru|Adım|Fark\s+Edelim)\s+[0-9a-z/\-–—. ]+\s*[—:-]\s*", "", prompt or "", flags=re.IGNORECASE).strip()
+    target_text = f"‘{clean_p[:40]}…’" if clean_p else focus
+    exp_text = scalar_text(expected) if not isinstance(expected, dict) else " ".join(f"{k}: {v}" for k, v in list(expected.items())[:2])
+    exp_cue = f"‘{exp_text[:35]}…’" if exp_text else focus
+
+    look_fors: list[str] = []
+    look_fors.extend(item_evidence)
+    look_fors.extend(item_acceptance)
+
+    if isinstance(expected, dict) and len(expected) > 1:
+        look_fors.append(f"Tablodaki {len(expected)} maddenin her birinin metin kanıtıyla doğru eşleştirilmesi.")
+
+    suites = [
+        [
+            f"Öğrencinin {target_text} sorusuna verdiği cevapta metinden doğrudan alıntı veya somut kanıt göstermesi.",
+            f"İleri sürülen iddia ile metin dayanağı arasında {focus} ölçütüne uygun mantıksal bir bağ kurulması.",
+            f"Ulaşılan {exp_cue} sonucunun gerekçeli ve tutarlı bir dille ifade edilmiş olması.",
+        ],
+        [
+            f"Cevabın {target_text} odağını eksiksiz karşılaması ve metnin sunduğu verilerle çelişmemesi.",
+            f"Öğrencinin {focus} çerçevesinde yaptığı çıkarımı kendi özgün cümleleriyle yapılandırması.",
+            f"Metindeki anahtar ayrıntıların {exp_cue} doğrultusunda doğru yorumlanmış olması.",
+        ],
+        [
+            f"{target_text} konusundaki tespitlerin metin bağlamına ve türün edebî özelliklerine uygunluğu.",
+            f"Görüşlerin {focus} açısından somut gerekçelerle temellendirilip açıklanması.",
+            f"Öğrenci yanıtında {exp_cue} unsurunun açık ve anlaşılır bir bütünlük içinde sunulması.",
+        ],
+        [
+            f"{target_text} tahlilinde metin dışı dayanaksız varsayımlardan kaçınılarak nesnel delillere dayanılması.",
+            f"Öğrencinin {focus} yeterliğini yansıtan kavramsal bir çözümleme düzeyi yakalaması.",
+            f"Sonucun {exp_cue} bağlamıyla örtüşen tutarlı bir çıkarımla tamamlanması.",
+        ],
+        [
+            f"{target_text} incelemesinde tespit edilen göstergelerin metin bütünlüğüyle ilişkilendirilmesi.",
+            f"Akıl yürütme basamaklarının {focus} ilkelerine uygun biçimde yapılandırılması.",
+            f"Ulaşılan {exp_cue} yargısının kaynak metindeki verilerle teyit edilmesi.",
+        ],
+        [
+            f"{target_text} için öne sürülen savın metindeki dil ve üslup ayrıntılarıyla desteklenmesi.",
+            f"Öğrencinin {focus} perspektifinden yaptığı analizin metin gerçekliğiyle uyumu.",
+            f"Cevapta {exp_cue} boyutunun açık ve net göstergelerle ortaya konması.",
+        ],
+    ]
+    suite = suites[seed % len(suites)]
+    for item in suite:
+        if len(look_fors) < 4 and normalize_text(item) not in [normalize_text(x) for x in look_fors]:
+            look_fors.append(item)
+    return dedupe_text(look_fors)[:4]
+
+
+def derive_task_differentiation(
+    item_support: list[str],
+    item_enrichment: list[str],
+    focus: str,
+    prompt: str | None,
+    expected: Any,
+    task_id: str = "",
+) -> tuple[list[str], list[str]]:
+    seed = sum(ord(c) * (i + 1) for i, c in enumerate(task_id)) if task_id else 0
+    clean_p = re.sub(r"^(?:Soru|Adım|Fark\s+Edelim)\s+[0-9a-z/\-–—. ]+\s*[—:-]\s*", "", prompt or "", flags=re.IGNORECASE).strip()
+    target_text = f"‘{clean_p[:35]}…’" if clean_p else focus
+    exp_text = scalar_text(expected) if not isinstance(expected, dict) else " ".join(f"{k}: {v}" for k, v in list(expected.items())[:2])
+    exp_cue = f"‘{exp_text[:30]}…’" if exp_text else focus
+    suffix = task_id.split("::")[-1] if task_id else ""
+
+    combined = normalize_text(f"{focus} {clean_p} {suffix}")
+    words = set(re.findall(r"[a-zçğıöşü0-9]+", combined))
+    is_prod = any(k in combined for k in ["yazma", "e-posta", "mektup", "konuşma", "sunum", "canlandırma", "mülakat", "içerik oluşturabilme", "taslak"])
+    is_refl = any(k in combined for k in ["çıkış", "günlük", "öz değerlendirme", "3-2-1", "fark edelim", "öğrenme günlüğü", "kontrol listesi"])
+    is_gram = bool(words & {"çatı", "fiil", "fiiller", "fiilin", "kip", "kipler", "eki", "ekleri", "öge", "ögesi", "öğesi", "noktalama", "yazım", "bağlaç", "edat"})
+
+    if is_prod:
+        support_pool = [
+            f"{target_text} sürecinde zorlanan öğrenciye metin türünün yapı basamaklarını gösteren bir şablon sunun.",
+            f"{target_text} uygulamasında öğrencinin taslak oluşturmasına yardımcı olmak için {focus} doğrultusunda yönlendirici cümle başlangıçları verin.",
+            f"Öğrenciye {target_text} için akranıyla fikir alışverişi yaptırarak yazma/konuşma planını netleştirmesini sağlayın.",
+            f"{target_text} hedefine yönelik bir kontrol listesi vererek öğrencinin {exp_cue} basamağını adım adım denetlemesini sağlayın.",
+        ]
+        enrichment_pool = [
+            f"Öğrenciden {target_text} ürününü dijital bir sunuma veya okul bülteninde yayımlanacak bir yazıya dönüştürmesini isteyin.",
+            f"{target_text} çerçevesinde hazırlanan metne {focus} açısından karşıt bir bakış açısı getiren eleştirel bir ek paragraf yazdırın.",
+            f"{target_text} çalışmasını farklı bir hedef kitleye veya iletişim kanalına uyarlayarak {exp_cue} etkisini karşılaştırmasını isteyin.",
+            f"Öğrencinin {target_text} bağlamındaki ürününü sınıf panosunda sergileyip {focus} sürecinin sunumunu yapmasını sağlayın.",
+        ]
+    elif is_refl:
+        support_pool = [
+            f"{target_text} öz değerlendirmesinde zorlanan öğrenciye derste işlenen en belirgin kavramı hatırlatarak tek bir maddeye odaklanmasını sağlayın.",
+            f"{target_text} yansımasını yazmadan önce öğrencinin {focus} konusundaki düşüncesini sözlü olarak ifade etmesine olanak tanıyın.",
+            f"Öğrenciye {target_text} adımlarını basitleştiren yönlendirici sorularla rehberlik edin.",
+            f"Öğrencinin {target_text} konusundaki öğrenme deneyimini bir akranıyla paylaşarak {focus} farkındalığı kazanmasını destekleyin.",
+        ]
+        enrichment_pool = [
+            f"Öğrenciden {target_text} sürecinde edindiği kazanımı bir sonraki derse taşıyacak özgün bir araştırma sorusu formüle etmesini isteyin.",
+            f"{target_text} konusundaki kişisel öğrenme yolculuğunu özetleyen kısa bir metafor veya kavram haritası oluşturmasını önerin.",
+            f"Öğrencinin {target_text} üzerinden ulaştığı farkındalığı günlük hayattaki bir deneyimiyle ilişkilendirerek {exp_cue} bağlamında derinleştirmesini sağlayın.",
+            f"{target_text} alanında kendi öğrenme sürecini eleştirel gözle değerlendiren ve hedefler koyan bir gelişim notu yazdırın.",
+        ]
+    elif is_gram:
+        support_pool = [
+            f"{target_text} cümlesindeki fiil veya sözcük kökünü ve eklerini tahtada adım adım ayırarak işlevini gösterin.",
+            f"Öğrenciye {target_text} örneğinde {focus} kuralını gösteren somut ve yalın bir karşıt örnek (minimal pair) üzerinden açıklama yapın.",
+            f"{target_text} yapısındaki ögeleri renkli kalemlerle işaretleterek öğrencinin dil bilgisel ilişkiyi görmesini sağlayın.",
+            f"Öğrencinin {target_text} yapısını kendi oluşturacağı basit bir cümle üzerinde uygulamasını isteyerek {focus} kavramını pekiştirin.",
+        ]
+        enrichment_pool = [
+            f"Öğrenciden {target_text} yapısının farklı tarihî dönem metinleri veya çağdaş yazarların üslubundaki kullanımlarını araştırmasını isteyin.",
+            f"{target_text} örneğinde {focus} özelliğinin metnin anlatım gücüne ve yazarın üslup tercihlerine katkısını irdeleyen kısa bir inceleme yazdırın.",
+            f"Öğrenciye {target_text} kuralının bilinçli olarak bozulduğu veya sapmaya uğradığı şiirsel kullanımları buldurup {exp_cue} etkisini tartıştırın.",
+            f"{target_text} doğrultusunda benzer dil bilgisel yapıları içeren özgün cümleler kurdurarak {focus} alıştırma kartı hazırlattırın.",
+        ]
+    else:
+        support_pool = [
+            f"{target_text} sorusunu yanıtlamakta zorlanan öğrenciye metindeki ilgili paragrafı işaretleyin; önce anahtar kavramları buldurarak cevabı adım adım kurdurun.",
+            f"Öğrenciye ‘iddia — metin kanıtı — {focus} gerekçesi’ üçlü şemasını tahtada {target_text} üzerinden örnekleyerek cevabını oluşturmasını sağlayın.",
+            f"{target_text} konusunu daha sade yönlendirici alt sorulara bölerek öğrencinin {exp_cue} sonucuna kademeli olarak ulaşmasına rehberlik edin.",
+            f"{target_text} metnindeki karmaşık ifadeleri öğrencinin kendi sözcükleriyle yeniden ifade etmesini isteyerek {focus} fikrini netleştirin.",
+            f"Öğrenciye bir çalışma kâğıdı vererek {target_text} için metinde geçen olumlu ve olumsuz göstergeleri iki sütun hâlinde gruplatın.",
+            f"Öğrenciyi bir akranıyla eşleştirerek {target_text} hakkındaki düşüncelerini önce sözlü olarak paylaşmasını, ardından yazıya dökmesini isteyin.",
+        ]
+        enrichment_pool = [
+            f"Öğrenciden {target_text} çerçevesinde ulaştığı {exp_cue} sonucunu, okuduğu farklı bir edebî eserle karşılaştıran kısa bir eleştiri yazısı yazmasını isteyin.",
+            f"{target_text} için ulaşılan cevabı sınıfta farklı bir bakış açısıyla savunmasını veya karşıt bir tezi çürütmesini isteyerek {focus} ekseninde tartışma başlatın.",
+            f"{target_text} tahlilini yazarın edebî dönemi, sanat anlayışı ve dönemin toplumsal koşullarıyla ilişkilendiren bir araştırma sorusu geliştirtin.",
+            f"Öğrencinin {target_text} bağlamındaki çıkarımını infografik, dijital sunum veya kavram haritasına dönüştürerek sınıf panosunda sergilemesini sağlayın.",
+            f"Metindeki {target_text} durumunu güncel bir olay veya sanat eseriyle kıyaslayarak {exp_cue} ekseninde disiplinler arası bir değerlendirme yaptırın.",
+            f"Öğrenciden {target_text} metnindeki {focus} yaklaşımını örnek alarak benzer temada kısa bir kurmaca metin veya deneme taslağı yazmasını isteyin.",
+        ]
+
+    support = list(item_support)
+    s_item = support_pool[seed % len(support_pool)]
+    if len(support) < 3 and normalize_text(s_item) not in [normalize_text(x) for x in support]:
+        support.append(s_item)
+
+    enrichment = list(item_enrichment)
+    e_item = enrichment_pool[seed % len(enrichment_pool)]
+    if len(enrichment) < 3 and normalize_text(e_item) not in [normalize_text(x) for x in enrichment]:
+        enrichment.append(e_item)
+
+    return dedupe_text(support)[:3], dedupe_text(enrichment)[:3]
+
+
 def answer_explanation(
     expected: Any,
     answer_status: str,
@@ -1296,18 +2017,12 @@ def answer_explanation(
     signature: str,
     acceptance: Any,
     external: bool,
+    prompt: str | None = None,
+    task_type: str = "QUESTION",
+    task_id: str = "",
 ) -> str:
     criteria = dedupe_text(acceptance if isinstance(acceptance, list) else [scalar_text(acceptance)], limit=2)
-    criterion_text = " ".join(criteria)
-    if external and answer_status == "REVIEW_REQUIRED":
-        return f"{signature} için yerel PDF dışındaki içerik görülmeden sabit bir cevap doğrulanamaz. Öğretmen kaynağı izledikten sonra öğrencinin gözlediği ayrıntıları {focus} ölçütüyle ilişkilendirmeli; görünmeyen medya ayrıntıları rehberde varsayım olarak sunulmamalıdır. Kitabın görünen ölçütü şudur: {criterion_text or 'gerekçeli ve kaynakla bağlantılı cevap.'}"
-    if answer_status == "NOT_APPLICABLE":
-        return f"{signature} bir tek cümlelik cevap anahtarı değil, kitapta yürütülen bir süreç veya ürün çalışmasıdır. Doğru uygulama; öğrencinin {focus} kararını görünür kılması, çalışma adımlarını tamamlaması ve ortaya çıkan ürünü kitapta belirtilen amaca göre açıklamasıdır."
-    if isinstance(expected, str) and re.fullmatch(r"\s*[A-E](?:\s*[,/]\s*[A-E])*\s*", expected):
-        return f"Seçilen seçenek {signature} için gerekli kavramsal ayrımı karşılar; ancak tek başına harfi söylemek düşünmeyi göstermeye yetmez. Öğrenci, {focus} bakımından seçenek ile kaynakta verilen bilgi arasındaki ilişkiyi kısaca açıklamalı ve çeldiricilerin neden elendiğini gösterebilmelidir."
-    if answer_status == "OPEN_ENDED":
-        return f"{signature} için beklenen yön, {focus} yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. {criterion_text or 'Cevap, iddia ile dayanak arasındaki ilişkiyi göstermelidir.'}"
-    return f"{signature} için cevap, {focus} ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. {criterion_text or 'Kaynakla bağlantılı gerekçe aranır.'}"
+    return derive_task_answer_explanation(expected, answer_status, focus, signature, criteria, prompt, task_type, external, task_id=task_id)
 
 
 def acceptable_answers(expected: Any, answer_status: str, profile: dict[str, Any], external: bool) -> list[str]:
@@ -1514,7 +2229,17 @@ def build_task(
         "source_boundary": source_limitations or ["Basılı PDF'de görünen görev, metin ve sayfa akışı esas alınır."],
     }
     acceptance_for_text = item_acceptance
-    explanation = answer_explanation(expected, answer_status, focus, signature, acceptance_for_text, external)
+    explanation = answer_explanation(
+        expected,
+        answer_status,
+        focus,
+        signature,
+        acceptance_for_text,
+        external,
+        prompt=book_prompt,
+        task_type=task_type,
+        task_id=task_id,
+    )
     acceptable = acceptable_answers(expected, answer_status, content, external)
     evidence = (
         f"Basılı s.{entry['printed_page_range']} / {entry.get('book_heading', 'kitap görevi')}: {focus}. "
@@ -1539,7 +2264,14 @@ def build_task(
         "expected_answer": expected,
         "answer_status": answer_status,
         "answer_explanation": explanation,
-        "why_it_matters": content["why_it_matters"],
+        "why_it_matters": derive_task_why_it_matters(
+            profile,
+            focus,
+            book_prompt,
+            expected,
+            str(section_content.get("title", manifest_row.get("title", ""))),
+            task_id=task_id,
+        ),
         "activity_refs": activity_refs,
         "outcome_refs": outcome_refs,
         "canonical_item_refs": refs,
@@ -1561,26 +2293,68 @@ def build_task(
 
     conceptual = task_type in {"QUESTION", "ASSESSMENT", "VOCABULARY", "TABLE", "COMPARISON", "REFERENCE", "PERFORMANCE_TASK"} or has_expected
     if conceptual:
-        task["teacher_background"] = content["teacher_background"]
+        task["teacher_background"] = derive_task_teacher_background(
+            profile,
+            focus,
+            book_prompt,
+            expected,
+            item_acceptance,
+            item_guidance,
+            str(section_content.get("title", manifest_row.get("title", ""))),
+            str(entry.get("book_heading", "Kitap görevi")),
+            content["teacher_background"],
+            task_id=task_id,
+        )
     if task_type in {"QUESTION", "ASSESSMENT", "PERFORMANCE_TASK"} or has_expected:
-        task["student_explanation"] = f"{content['student_explanation']} Bu görevde özellikle {focus} üzerinde durun."
+        task["student_explanation"] = derive_task_student_explanation(book_prompt, focus, profile, expected, task_id=task_id)
     if task_type != "REFERENCE" or has_expected:
-        task["teacher_moves"] = dedupe_text(item_guidance + content["teacher_moves"], limit=4)
+        task["teacher_moves"] = derive_task_teacher_moves(
+            item_guidance,
+            book_prompt,
+            expected,
+            focus,
+            item_acceptance,
+            profile,
+            task_id=task_id,
+        )
     if task_type in {"QUESTION", "ASSESSMENT", "PERFORMANCE_TASK"}:
-        task["follow_up_questions"] = dedupe_text(
-            scoped_pedagogy_items(content["follow_up_questions"], signature, hook, "follow_up_questions"),
-            limit=3,
+        task["follow_up_questions"] = derive_task_follow_up_questions(
+            book_prompt,
+            expected,
+            focus,
+            profile,
+            task_id=task_id,
         )
     if task_type in {"QUESTION", "ASSESSMENT", "PERFORMANCE_TASK", "VOCABULARY", "TABLE", "COMPARISON"} or has_expected:
-        task["common_misconceptions"] = dedupe_text(item_misconceptions + content["common_misconceptions"], limit=3)
-        task["misconception_interventions"] = dedupe_text(
-            scoped_pedagogy_items(content["misconception_interventions"], signature, hook, "misconception_interventions"),
-            limit=3,
+        task_misc, task_interventions = derive_task_misconceptions_and_interventions(
+            item_misconceptions,
+            focus,
+            profile,
+            book_prompt,
+            expected,
+            task_id=task_id,
         )
+        task["common_misconceptions"] = task_misc
+        task["misconception_interventions"] = task_interventions
     if task_type in {"QUESTION", "ASSESSMENT", "PERFORMANCE_TASK", "PROCESS", "ACTIVITY"} or has_expected:
-        task["assessment_look_fors"] = dedupe_text(item_evidence + item_acceptance + content["assessment_look_fors"], limit=4)
-        task["support"] = dedupe_text(item_support + [f"{content['support']} Bu görevde bağlantı noktası: {focus}."], limit=3)
-        task["enrichment"] = dedupe_text(item_enrichment + [f"{content['enrichment']} Bu görevde derinleştirme odağı: {focus}."], limit=3)
+        task["assessment_look_fors"] = derive_task_assessment_look_fors(
+            item_evidence,
+            item_acceptance,
+            expected,
+            focus,
+            book_prompt,
+            task_id=task_id,
+        )
+        task_support, task_enrichment = derive_task_differentiation(
+            item_support,
+            item_enrichment,
+            focus,
+            book_prompt,
+            expected,
+            task_id=task_id,
+        )
+        task["support"] = task_support
+        task["enrichment"] = task_enrichment
     if external:
         task["source_limitations"] = source_limitations
     if section_id + "::" not in board_seen and conceptual and content.get("board_note"):

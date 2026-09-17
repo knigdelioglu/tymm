@@ -52,15 +52,15 @@ Tek sabit cevap yok; ürün/süreç, aşağıdaki ölçütlerle değerlendirilir
 
 ### Açıklama ve gerekçe
 
-Tema odağı — basılı s.12-13 bir tek cümlelik cevap anahtarı değil, kitapta yürütülen bir süreç veya ürün çalışmasıdır. Doğru uygulama; öğrencinin Tema odağı kararını görünür kılması, çalışma adımlarını tamamlaması ve ortaya çıkan ürünü kitapta belirtilen amaca göre açıklamasıdır.
+Bu çalışma kapsamında öğrencinin ‘Kitapta “Tema açılışı” başlığı altında verilen çal…’ sürecini Tema odağı ilkelerine uygun olarak tamamlaması beklenir. Ürünün kabulü; yönergedeki adımların eksiksiz tamamlanması ve ortaya çıkan ürünün amaca uygunluğu sınırlarına bağlı kalınmasına, öğrencinin basamakları açıkça belgelemesine ve gerekçesine dayanır.
 
 ### Öğretmenin bilmesi gerekenler
 
-Tema odağı — basılı s.12-13 görevinde iletişimi yalnız konuşma veya bilgi aktarımı olarak daraltmayın. Gönderici, alıcı, ileti, kanal, bağlam ve geri bildirim birlikte işler; gürültü fiziksel olabileceği gibi önyargı, dikkatsizlik, belirsiz dil veya uygun olmayan kanal da olabilir. Çok modlu metinde ses, görüntü, yazı ve müzik aynı iletiyi destekleyebilir ya da farklılaştırabilir. Bu görevde özellikle ‘Tema odağı — Tema açılışı’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Türkçede kipler bildirme (haber) ve tasarlama (dilek) kipleri olarak sınıflandırılır. Bir kip ekinin kendi asıl zamanı veya anlamı dışında başka bir kip/zaman anlamını üstlenmesi 'zaman/anlam kayması'dır. Bu durum bir anlatım bozukluğu değil, Türkçenin ifade gücünü ve anlatım zenginliğini yansıtan üslup özelliğidir. Öğretmen, biçimsel ek ile bağlamın gerektirdiği asıl anlam arasındaki farkı netleştirmelidir. Bu görev sürecinde öğretmen, Tema odağı doğrultusunda ‘Kitapta “Tema açılışı” başlığı altında verilen çal…’ sorusunu çözümlerken öğrencilerin somut metin delilleriyle argüman geliştirmelerini teşvik etmelidir.
 
 ### Bu görev neden burada?
 
-Bu görev, Tema odağı üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir.
+Bu etkinlik, Tema odağı alanında ‘Kitapta “Tema açılışı” başlığı altında verile…’ doğrultusunda öğrencinin kendi düşüncesini kaynak dayanaklarıyla savunmasını ve tutarlı bir ifade becerisi inşa etmesini amaçlar.
 
 ### Tahta notu
 
@@ -98,58 +98,57 @@ Edebî eser gerçek yaşamdan beslenir fakat hayatı birebir kopyalamaz; sanatç
 
 ### Açıklama ve gerekçe
 
-Soru 1 — gerçeklik ile sanatsal dönüşüm — basılı s.14 için cevap, gerçeklik ile sanatsal dönüşüm ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Gerçek yaşamdan yararlanma ile kurmaca dönüşümü ayırır. Sanatçının seçme/yorumlama/hayal gücü rolünden en az birini açıklar.
+Bu soruda hedeflenen yanıt, metnin ana dokusunda yer alan ‘Edebî eser gerçek hayatı nasıl yansıtır?…’ ayrıntısını gerçeklik ile sanatsal dönüşüm perspektifiyle analiz etmeye dayanır. Doğruluk dayanağı; Gerçek yaşamdan yararlanma ile kurmaca dönüşümü ayırır. Sanatçının seçme/yorumlama/hayal gücü rolünden en az birini açıklar. ilkesinin karşılanması ve metindeki göstergelerin somut kanıtlarla açıklanmasıdır. Öğrencinin izleyeceği bilişsel basamaklar; metin parçalarını taramak, kavramsal anahtarları tespit etmek ve bu bulguları sentezleyerek tutarlı bir değerlendirme üretmektir. İfadeler birebir aynı olmak zorunda olmayıp metinle çelişmeyen ve gerekçelendirilmiş farklı yaklaşımlar geçerli kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 1 — gerçeklik ile sanatsal dönüşüm — basılı s.14 çalışmasında edebî metnin gerçekliği yansıttığını, fakat tutanak gibi birebir kopyalamadığını açıklayın. Sanatçı gerçek hayattan kişi, olay, duygu veya çevre izleri seçer; bunları kurmaca, dil, bakış açısı ve estetik düzenleme ile dönüştürür. Bu ayrım öğrencinin ‘gerçek’ ile ‘inandırıcı kurmaca’yı, konu ile temayı birbirine karıştırmasını önler. Bu görevde özellikle ‘Edebî eser gerçek hayatı nasıl yansıtır?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Soru 1 — gerçeklik ile sanatsal dönüşüm — basılı s.14 çalışmasında edebî metnin gerçekliği yansıttığını, fakat tutanak gibi birebir kopyalamadığını açıklayın. Sanatçı gerçek hayattan kişi, olay, duygu veya çevre izleri seçer; bunları kurmaca, dil, bakış açısı ve estetik düzenleme ile dönüştürür. Bu ayrım öğrencinin ‘gerçek’ ile ‘inandırıcı kurmaca’yı, konu ile temayı birbirine karıştırmasını önler. Bu görevde özellikle ‘Edebî eser gerçek hayatı nasıl yansıtır?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin. Bu görev adımında öğretmen, ‘Edebî eser gerçek hayatı nasıl yansıtır?…’ ile ilgili sınıf tartışmasını gerçeklik ile sanatsal dönüşüm zemininde yapılandırmalı ve ‘Edebî eser gerçek yaşamdan beslenir faka…’ doğrultusundaki tespitleri metin üzerinden teyit ettirmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Edebî metin gerçek hayattan yararlanabilir; ama onu seçip düzenleyerek okurun anlam kuracağı yeni bir dünya oluşturur. Bu görevde özellikle gerçeklik ile sanatsal dönüşüm üzerinde durun.
+> Bu etkinlikte amacınız, ‘Edebî eser gerçek hayatı nasıl yansıtır?…’ konusunu gerçeklik ile sanatsal dönüşüm perspektifinden tahlil etmektir. İddialarınızı metinden somut göstergelerle destekleyerek ‘Edebî eser gerçek yaşamdan beslenir…’ niteliğinde bir çıkarım yapın.
 
 ### Bu görev neden burada?
 
-Bu görev, gerçeklik ile sanatsal dönüşüm ayrımını somutlaştırarak metin kanıtı ile kişisel yorumu birlikte kullanmayı sağlar.
+Görev, ‘Edebî eser gerçek hayatı nasıl yansıtır?…’ konusundaki gözlemleri gerçeklik ile sanatsal dönüşüm ile sentezleyerek metin çözümleme disiplinini pekiştirir ve öğrencinin ‘Edebî eser gerçek yaşamdan beslenir…’ odaklı eleştirel düşünme kapasitesini artırır.
 
 ### Ders içi uygulama
 
 - Öğrenciden 'gerçeklikten yararlanır ama gerçekliğin aynısı değildir' ilişkisini gerekçelendirmesini iste.
 - “Roman/hikâye = tutanak değildir.” ayrımını vurgulayın; öğrenciden gerçek bir unsurun sanatçı tarafından nasıl dönüştürülebileceğine kısa örnek isteyin.
-- Soru 1 — gerçeklik ile sanatsal dönüşüm — basılı s.14 için öğrenciden gerçek hayattan alınmış olabilecek bir izi ve bu izin metinde nasıl dönüştürüldüğünü ayrı ayrı yazmasını isteyin.
-- Konu, tema ve ileti cevaplarını aynı cümleye sıkıştırmak yerine her birini farklı soruyla kurdurun.
+- Öğrencileri küçük gruplara ayırarak ‘Edebî eser gerçek hayatı nasıl yansıtır?…’ sorusunun işaret ettiği kanıtları metin üzerinden tespit ettirin.
+- Öğrencilerin ileri sürdüğü gerekçeleri tahtaya yazarak gerçeklik ile sanatsal dönüşüm ölçütüne göre sınıflandırın.
 
 ### Takip soruları
 
-- Soru 1 — gerçeklik ile sanatsal dönüşüm — basılı s.14 için düşünme sorusu: Bu unsur gerçekliği mi gösteriyor, yoksa metnin inandırıcılığını mı artırıyor; ikisi arasındaki fark nedir? Özellikle ‘Edebî eser gerçek hayatı nasıl yansıtır?’ ayrıntısını yoklayın.
-- Soru 1 — gerçeklik ile sanatsal dönüşüm — basılı s.14 için seçtiğin ayrıntı daha genel hangi duygu veya insanlık durumuna açılıyor? Özellikle ‘Edebî eser gerçek hayatı nasıl yansıtır?’ ayrıntısını yoklayın.
+- ‘Edebî eser gerçek hayatı nasıl yansıtır?…’ cümlesindeki dilbilgisi tercihinin metnin genel anlatım akışı ve anlam bütünlüğüne etkisi nedir?
+- Metinde ‘Edebî eser gerçek hayatı nasıl yansıtır?…’ kullanımına benzer başka bir örnek bulunabilir mi; bu iki örnek yazarın üslubunu nasıl yansıtmaktadır?
 
 ### Öğrenci cevaplarını değerlendirme
 
 - Gerçek unsur + sanatsal dönüşüm ilişkisini kuran gerekçeli cevap.
 - Gerçek yaşamdan yararlanma ile kurmaca dönüşümü ayırır.
 - Sanatçının seçme/yorumlama/hayal gücü rolünden en az birini açıklar.
-- Gerçeklik izi, kurmaca düzenleme ve inandırıcılık ayrımını doğru kurma.
+- ‘Edebî eser gerçek hayatı nasıl yansıtır?…’ için öne sürülen savın metindeki dil ve üslup ayrıntılarıyla desteklenmesi.
 
 ### Sık yanılgılar
 
 - Edebî eseri yaşanmış olayın birebir kaydı saymak.
-- Edebî metinde geçen her olayın gerçek hayatta aynen yaşandığını sanmak.
-- Olayı veya konuyu tema olarak yazıp soyutlama basamağını atlamak.
+- ‘Edebî eser gerçek hayatı nasıl yans…’ incelemesinde ulaşılan sonucu metin dışı genel bilgilerle karıştırıp gerçeklik ile sanatsal dönüşüm sınırlarının dışına çıkmak.
 
 ### Müdahale
 
-- Soru 1 — gerçeklik ile sanatsal dönüşüm — basılı s.14 için müdahale: Öğrencinin cevabına ‘Bu olay neyi gösteriyor?’ ve ‘Bu olay bizi hangi daha genel duruma düşündürüyor?’ sorularını sırayla uygulatın. Müdahaleyi ‘Edebî eser gerçek hayatı nasıl yansıtır?’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 1 — gerçeklik ile sanatsal dönüşüm — basılı s.14 için müdahale: Metindeki gerçeklik izi ile sanatçının seçme/düzenleme kararını iki farklı renkle işaretletin. Müdahaleyi ‘Edebî eser gerçek hayatı nasıl yansıtır?’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Edebî eser gerçek hayatı nasıl yans…’ incelemesinde ‘edeb eseri yaşanmış olayın’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- ‘Edebî eser gerçek hayatı nasıl yans…’ için değerlendirmenin yalnızca verilen metin verileri çerçevesinde yapılması gerektiğini belirleyip kanıt sınırlarını çizdirin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Gerçek olay / edebî dönüşüm şeklinde iki sütunlu örnek kullan.
-- Cevap çerçevesi verin: ‘Metinde ... görülür; bu ayrıntı ... düşündürür; çünkü ...’. Bu görevde bağlantı noktası: gerçeklik ile sanatsal dönüşüm.
+- Öğrenciyi bir akranıyla eşleştirerek ‘Edebî eser gerçek hayatı nasıl yans…’ hakkındaki düşüncelerini önce sözlü olarak paylaşmasını, ardından yazıya dökmesini isteyin.
 **Zenginleştirme**
 - Aynı gerçek olayın iki farklı anlatıcıyla nasıl farklılaşabileceğini tartıştır.
-- Aynı gerçek yaşam olayını haber, günlük ve hikâye biçiminde tasarlatıp tür değişiminin gerçeklik etkisini tartıştırın. Bu görevde derinleştirme odağı: gerçeklik ile sanatsal dönüşüm.
+- Öğrenciden ‘Edebî eser gerçek hayatı nasıl yans…’ metnindeki gerçeklik ile sanatsal dönüşüm yaklaşımını örnek alarak benzer temada kısa bir kurmaca metin veya deneme taslağı yazmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -183,57 +182,57 @@ Edebî metinlerin zengin dili söz varlığını ve düşünceyi ifade etme güc
 
 ### Açıklama ve gerekçe
 
-Soru 2 — Edebî dil, sosyal bilimler ve günlük iletişim — basılı s.14 için cevap, Edebî dil, sosyal bilimler ve günlük iletişim ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Dil/söz varlığı ile ifade becerisi arasında bağ kurar. Sosyal bilim bilgisi ile insanı/toplumu anlama veya empati arasında bağ kurar.
+Beklenen cevabın temeli, Edebî dil, sosyal bilimler ve günlük iletişim ekseninde ‘Edebî dil ve sosyal bilimler iletişim becerisine n…’ bağlamını aydınlatan metin kanıtlarının doğru tahlil edilmesidir. Yanıtın kabul edilebilirliği; Dil/söz varlığı ile ifade becerisi arasında bağ kurar. Sosyal bilim bilgisi ile insanı/toplumu anlama veya empati arasında bağ kurar. ölçütüne bağlı kalınmasına ve metindeki verilerin tarafsız biçimde yorumlanmasına bağlıdır. Öğrenci; önce ilgili bilgiyi kaynaktan süzmeli, ardından bu bilgiyi sorunun gerektirdiği kavramsal çerçeveye oturtmalıdır. Metin sınırlarını aşmayan ve dayanağı gösterilen özgün öğrenci yorumları da geçerli sayılır.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 2 — Edebî dil, sosyal bilimler ve günlük iletişim — basılı s.14 görevinde iletişimi yalnız konuşma veya bilgi aktarımı olarak daraltmayın. Gönderici, alıcı, ileti, kanal, bağlam ve geri bildirim birlikte işler; gürültü fiziksel olabileceği gibi önyargı, dikkatsizlik, belirsiz dil veya uygun olmayan kanal da olabilir. Çok modlu metinde ses, görüntü, yazı ve müzik aynı iletiyi destekleyebilir ya da farklılaştırabilir. Bu görevde özellikle ‘Edebî dil ve sosyal bilimler iletişim becerisine nasıl katkı sağlar?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+İletişim; gönderici, alıcı, ileti, kanal ve bağlam unsurlarının etkileşimiyle gerçekleşen dinamik bir anlam paylaşımı sürecidir. Tarihsel süreçte yazılı, sözlü ve kitle iletişim araçlarından dijital ağlara geçiş, iletişim alışkanlıklarını ve etkileşim hızını dönüştürmüştür. Öğretmen bu görevde, iletişim araçlarının toplumsal ilişkileri ve bireyler arası bağları nasıl şekillendirdiğini açıklamalıdır. Bu görevde öğretmenin kılavuzluğu, ‘Edebî dil ve sosyal bilimler iletişim becerisine n…’ bağlamında öğrencinin Edebî dil, sosyal bilimler ve günlük iletişim ve ‘Edebî metinlerin zengin dili söz varlığı…’ arasındaki mantıksal nedensellik bağını metin üzerinden kavramasına odaklanmalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> İletişimde anlam, yalnız sözcüklerden değil; kanal, bağlam, ses, görüntü ve karşılıklı tepkiden birlikte oluşur. Bu görevde özellikle Edebî dil, sosyal bilimler ve günlük iletişim üzerinde durun.
+> Bu soruda, ‘Edebî dil ve sosyal bilimler iletişim beceris…’ odağını metnin genel anlam akışı içinde değerlendirmeniz gerekmektedir. Tespit ettiğiniz verileri Edebî dil, sosyal bilimler ve günlük iletişim açısından yorumlayarak ‘Edebî metinlerin zengin dili söz va…’ yönünde tutarlı bir sonuca varın.
 
 ### Bu görev neden burada?
 
-Bu görev, Edebî dil, sosyal bilimler ve günlük iletişim üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir.
+Öğrencinin ‘Edebî dil ve sosyal bilimler iletişim beceris…’ incelemesi yoluyla Edebî dil, sosyal bilimler ve günlük iletişim kavramını içselleştirmesi, edebî metinlerdeki anlam katmanlarını fark etmesine ve ‘Edebî metinlerin zengin dili söz va…’ yönünde derinlikli bakış kazanmasına zemin hazırlar.
 
 ### Ders içi uygulama
 
 - Alan adlarını sıralamakla yetinen cevabı yeterli sayma; iletişime etkisini açıklat.
-- Soru 2 — Edebî dil, sosyal bilimler ve günlük iletişim — basılı s.14 için öğrencinin önce iletişim ögesini, sonra aksamanın nerede oluştuğunu ve son olarak sonucu yazdığı bir neden-sonuç zinciri kurdurun.
-- Aynı mesajı yüz yüze, telefonla ve e-postayla iletme durumlarını karşılaştırarak kanalın dil/beden sesi üzerindeki etkisini tartıştırın.
+- Öğrencilere ‘Edebî dil ve sosyal bilimler iletişim be…’ bağlamındaki anahtar kavramları listeleterek metin taraması yapmalarını sağlayın.
+- Öğrencilere ‘Eğer ‘Edebî metinlerin zengin dili söz va…’ olmasaydı ne değişirdi?’ sorusunu yönelterek Edebî dil, sosyal bilimler ve günlük iletişim çıkarımını test edin.
+- Öğrencilerden ‘Edebî metinlerin zengin dili söz va…’ yönündeki kanaatlerini tek bir özlü cümleyle ifade etmelerini isteyerek dersi toparlayın.
 
 ### Takip soruları
 
-- Soru 2 — Edebî dil, sosyal bilimler ve günlük iletişim — basılı s.14 için düşünme sorusu: Buradaki aksama göndericiden mi, alıcıdan mı, kanaldan mı, bağlamdan mı kaynaklanıyor; hangi kanıt bunu gösteriyor? Özellikle ‘Edebî dil ve sosyal bilimler iletişim becerisine nasıl katkı sağlar?’ ayrıntısını yoklayın.
-- Soru 2 — Edebî dil, sosyal bilimler ve günlük iletişim — basılı s.14 için başka bir kanal seçilse ileti açıklar mıydı, yoksa yeni bir sorun mu doğururdu? Özellikle ‘Edebî dil ve sosyal bilimler iletişim becerisine nasıl katkı sağlar?’ ayrıntısını yoklayın.
+- ‘Edebî dil ve sosyal bilimler iletişim be…’ içeriğinin gönderici ile alıcı arasındaki ilişkiyi ve Edebî dil, sosyal bilimler ve günlük iletişim boyutunu nasıl şekillendirdiği söylenebilir?
+- İletişimde ‘Edebî dil ve sosyal bilimler iletişim be…’ ögesinin eksik veya hatalı yapılandırılması hangi yanlış anlamalara yol açabilirdi?
 
 ### Öğrenci cevaplarını değerlendirme
 
 - En az iki gerekçeli dil/insan/toplum–iletişim bağlantısı.
 - Dil/söz varlığı ile ifade becerisi arasında bağ kurar.
 - Sosyal bilim bilgisi ile insanı/toplumu anlama veya empati arasında bağ kurar.
-- İletişim ögeleri ile aksama/çözüm arasındaki neden-sonuç bağı.
+- ‘Edebî dil ve sosyal bilimler iletişim be…’ tahlilinde metin dışı dayanaksız varsayımlardan kaçınılarak nesnel delillere dayanılması.
 
 ### Sık yanılgılar
 
 - Sosyal bilimleri iletişim becerilerinden bağımsız görmek.
-- İletişim engelini yalnız fiziksel gürültü sanmak.
-- Karşı tarafla aynı fikirde olmamayı tek başına iletişim engeli saymak veya iletişimde geri bildirimi gereksiz görmek.
+- ‘Edebî dil ve sosyal bilimler iletiş…’ konusunu metnin bütünsel ana iletisinden kopararak tek bir ayrıntı üzerinden genellemeye gitmek.
 
 ### Müdahale
 
-- Soru 2 — Edebî dil, sosyal bilimler ve günlük iletişim — basılı s.14 için müdahale: Öğrenciden fiziksel ses olmayan fakat önyargı ya da belirsiz söz nedeniyle bozulan kısa bir örnek kurmasını isteyin; engel türünü adlandırsın. Müdahaleyi ‘Edebî dil ve sosyal bilimler iletişim becerisine nasıl katkı sağlar?’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 2 — Edebî dil, sosyal bilimler ve günlük iletişim — basılı s.14 için müdahale: Mesajı farklı bir kanala taşıtıp hangi bilgi ve duygunun kaybolduğunu iki sütunda karşılaştırın. Müdahaleyi ‘Edebî dil ve sosyal bilimler iletişim becerisine nasıl katkı sağlar?’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Edebî dil ve sosyal bilimler iletiş…’ doğrultusunda ‘sosyal bilimleri iletişim becerilerinden’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- ‘Edebî dil ve sosyal bilimler iletiş…’ ayrıntısının metnin genel iletisine ve Edebî dil, sosyal bilimler ve günlük iletişim amacına nasıl bağlandığını metin parçalarını yan yana getirerek gösterin ve açıklattırın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Dil → ifade; insan/toplum bilgisi → empati eşleştirmesini başlangıç ipucu olarak ver.
-- İletişim zincirini ‘gönderici → ileti → kanal → alıcı → geri bildirim’ biçiminde verip engel noktasını işaretletin. Bu görevde bağlantı noktası: Edebî dil, sosyal bilimler ve günlük iletişim.
+- Öğrencinin ‘Edebî dil ve sosyal bilimler iletiş…’ konusundaki öğrenme deneyimini bir akranıyla paylaşarak Edebî dil, sosyal bilimler ve günlük iletişim farkındalığı kazanmasını destekleyin.
 **Zenginleştirme**
 - Bir iletişim çatışmasını tarih, sosyoloji veya psikoloji açısından yorumlat.
-- Aynı iletiyi iki farklı kanalda tasarlatıp hangi durumda kanal değişikliğinin etik ve işlevsel sonuç doğuracağını tartıştırın. Bu görevde derinleştirme odağı: Edebî dil, sosyal bilimler ve günlük iletişim.
+- ‘Edebî dil ve sosyal bilimler iletiş…’ alanında kendi öğrenme sürecini eleştirel gözle değerlendiren ve hedefler koyan bir gelişim notu yazdırın.
 
 ### Kaynak ve durum
 
@@ -277,58 +276,57 @@ Taklit, doğaçlama, seyirci karşısında icra, farklı sosyal tiplerin canland
 
 ### Açıklama ve gerekçe
 
-Soru 1 — Seyirlik halk oyunları — dikkat çeken unsurlar — basılı s.15 için cevap, Seyirlik halk oyunları — dikkat çeken unsurlar ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Metinde gerçekten yer alan en az bir geleneksel tiyatro özelliğini belirler. Neden dikkatini çektiğini gerekçelendirir.
+Bu soruda hedeflenen yanıt, metnin ana dokusunda yer alan ‘Metin ve görsellerde dikkat çeken seyirlik unsurla…’ ayrıntısını Seyirlik halk oyunları — dikkat çeken unsurlar perspektifiyle analiz etmeye dayanır. Doğruluk dayanağı; Metinde gerçekten yer alan en az bir geleneksel tiyatro özelliğini belirler. Neden dikkatini çektiğini gerekçelendirir. ilkesinin karşılanması ve metindeki göstergelerin somut kanıtlarla açıklanmasıdır. Öğrencinin izleyeceği bilişsel basamaklar; metin parçalarını taramak, kavramsal anahtarları tespit etmek ve bu bulguları sentezleyerek tutarlı bir değerlendirme üretmektir. İfadeler birebir aynı olmak zorunda olmayıp metinle çelişmeyen ve gerekçelendirilmiş farklı yaklaşımlar geçerli kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Karagöz bölümünde Soru 1 — Seyirlik halk oyunları — dikkat çeken unsurlar — basılı s.15 üzerinden geleneksel gölge oyununun seyirlik ve sözlü niteliği ele alınır. Karakterler çoğu zaman yalnız adlarıyla değil, konuşma biçimleri, yanlış anlamaları, toplumsal tipleri ve sahne içindeki işlevleriyle kurulur. Dil farkını bir üstünlük ölçüsü gibi değil, karakterleştirme ve mizahın bağlama bağlı bir aracı olarak açıklayın. Bu görevde özellikle ‘Metin ve görsellerde dikkat çeken seyirlik unsurlar nelerdir?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Karagöz oyunu, geleneksel Türk seyirlik sanatlarının gölge oyunu koludur; mukaddime, muhavere, fasıl ve bitiş bölümlerinden oluşur. Baş kişiler Karagöz (halkın sağduyulu, saf, okumamış, dobra ve hazırcevap sesi) ile Hacivat'tır (yarı aydın, çıkarcı, kuralcı ve arabulucu Osmanlı aydını). Tipleştirmede dil, şive taklitleri ve yanlış anlamalar mizahın ana kaynağıdır. Öğretmen, bu dil farklarının bir zekâ eksikliği değil, Osmanlı toplumunun çok kültürlü yapısını yansıtan bir sahneleme tekniği olduğunu açıklamalıdır. Bu görevde öğretmenin kılavuzluğu, ‘Metin ve görsellerde dikkat çeken seyirlik unsurla…’ bağlamında öğrencinin Seyirlik halk oyunları — dikkat çeken unsurlar ve ‘Taklit, doğaçlama, seyirci karşısında ic…’ arasındaki mantıksal nedensellik bağını metin üzerinden kavramasına odaklanmalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Karagöz’de söylenen söz hem anlam taşır hem de konuşanın kimliğini ve sahnedeki ilişkisini görünür kılar. Bu görevde özellikle Seyirlik halk oyunları — dikkat çeken unsurlar üzerinde durun.
+> Bu soruda, ‘Metin ve görsellerde dikkat çeken seyirlik un…’ odağını metnin genel anlam akışı içinde değerlendirmeniz gerekmektedir. Tespit ettiğiniz verileri Seyirlik halk oyunları — dikkat çeken unsurlar açısından yorumlayarak ‘Taklit, doğaçlama, seyirci karşısın…’ yönünde tutarlı bir sonuca varın.
 
 ### Bu görev neden burada?
 
-Bu görev, Seyirlik halk oyunları — dikkat çeken unsurlar bakımından sözlü kültür ürününün biçimsel özelliğini metin kanıtına dönüştürür.
+Öğrencinin ‘Metin ve görsellerde dikkat çeken seyirlik un…’ incelemesi yoluyla Seyirlik halk oyunları — dikkat çeken unsurlar kavramını içselleştirmesi, edebî metinlerdeki anlam katmanlarını fark etmesine ve ‘Taklit, doğaçlama, seyirci karşısın…’ yönünde derinlikli bakış kazanmasına zemin hazırlar.
 
 ### Ders içi uygulama
 
 - Bu sayfada öğrenciden bütün geleneksel tiyatro bilgisini sıralamasını değil, metinden hareketle dikkat çeken unsurları açıklamasını iste.
 - Bu gözleme dayalı soruda öğrencinin seçtiği unsurdan çok, neden dikkatini çektiğini açıklaması önemlidir.
-- Soru 1 — Seyirlik halk oyunları — dikkat çeken unsurlar — basılı s.15 için öğrencinin seçtiği söz veya sahne ayrıntısını önce aynen işaretletin; ardından bu ayrıntının hangi karakter özelliğini kurduğunu konuşturun.
-- Karagöz-Hacivat farkını ‘biri doğru, biri yanlış’ diye kapatmayın; yanlış anlamanın sahne işlevini ve mizah üretimini görünür kılın.
+- ‘Metin ve görsellerde dikkat çeken seyirl…’ sorusunu sınıfa yönelterek ilk izlenimleri ve metinle ilgili sezgisel yaklaşımları tahtada toplayın.
+- ‘Metin ve görsellerde dikkat çeken seyirl…’ ile metnin ana fikri arasındaki neden-sonuç ilişkisini tahta üzerinde şemalaştırarak gösterin.
 
 ### Takip soruları
 
-- Soru 1 — Seyirlik halk oyunları — dikkat çeken unsurlar — basılı s.15 içinde bu yorumu taşıyan konuşma ayrıntısı hangisi; aynı ayrıntı çıkarılsa karakter ilişkisi nasıl değişirdi? Özellikle ‘Metin ve görsellerde dikkat çeken seyirlik unsurlar nelerdir?’ ayrıntısını yoklayın.
-- Soru 1 — Seyirlik halk oyunları — dikkat çeken unsurlar — basılı s.15 için düşünme sorusu: Bu unsur yalnız bilgi vermiyor, seyirciyi nasıl bir tepkiye yönlendiriyor? Özellikle ‘Metin ve görsellerde dikkat çeken seyirlik unsurlar nelerdir?’ ayrıntısını yoklayın.
+- ‘Metin ve görsellerde dikkat çeken seyirl…’ yapısındaki dil bilgisel işlevin, konuşurun ya da anlatıcının ruh hâlini yansıtmadaki rolü nedir?
+- Eğer ‘Metin ve görsellerde dikkat çeken seyirl…’ ifadesinde kullanılan dil bilgisel yapı değiştirilseydi, cümlenin ilettiği anlam ve vurgu nasıl başkalaşırdı?
 
 ### Öğrenci cevaplarını değerlendirme
 
 - Metne dayalı bir unsur + gerekçe.
 - Metinde gerçekten yer alan en az bir geleneksel tiyatro özelliğini belirler.
 - Neden dikkatini çektiğini gerekçelendirir.
-- Dil/sahne ayrıntısı ile karakter veya ilişki çıkarımı arasında açık bağ.
+- ‘Metin ve görsellerde dikkat çeken seyirl…’ tahlilinde metin dışı dayanaksız varsayımlardan kaçınılarak nesnel delillere dayanılması.
 
 ### Sık yanılgılar
 
 - Yalnız tür adlarını sıralayıp metindeki özelliklerle ilişki kurmamak.
-- Öğrenci, Soru 1 — Seyirlik halk oyunları — dikkat çeken unsurlar — basılı s.15 görevindeki dil farkını karakterin zekâsı veya değeri hakkında değişmez bir yargı sanabilir.
-- Karagöz oyununun bölümlerini yalnız ezberlenecek başlıklar olarak görüp bölümün sahne işlevini gözden kaçırabilir.
+- ‘Metin ve görsellerde dikkat çeken s…’ konusunu metnin bütünsel ana iletisinden kopararak tek bir ayrıntı üzerinden genellemeye gitmek.
 
 ### Müdahale
 
-- Soru 1 — Seyirlik halk oyunları — dikkat çeken unsurlar — basılı s.15 için müdahale: Öğrenciye aynı sözün farklı bir bağlamda başka bir kişiyi de kurup kuramayacağını sordurun; böylece dil göstergesini kişi değeriyle eşitlemesini ayırın. Müdahaleyi ‘Metin ve görsellerde dikkat çeken seyirlik unsurlar nelerdir?’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 1 — Seyirlik halk oyunları — dikkat çeken unsurlar — basılı s.15 için müdahale: Diyalogdan bir cümleyi seçip mukaddime, muhavere, fasıl veya bitişten hangisindeki işleviyle okuduğunu açıklattırın. Müdahaleyi ‘Metin ve görsellerde dikkat çeken seyirlik unsurlar nelerdir?’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Metin ve görsellerde dikkat çeken s…’ incelemesinde ‘yalnız tür adlarını sıralayıp’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- ‘Metin ve görsellerde dikkat çeken s…’ ayrıntısının metnin genel iletisine ve Seyirlik halk oyunları — dikkat çeken unsurlar amacına nasıl bağlandığını metin parçalarını yan yana getirerek gösterin ve açıklattırın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Taklit, doğaçlama, tip, seyirci, mizah anahtar kelimelerini ipucu olarak sun.
-- Öğrenci için ‘Sahnede görülen/söylenen — bunun gösterdiği özellik — seyirci etkisi’ üçlü tablosu kullanın. Bu görevde bağlantı noktası: Seyirlik halk oyunları — dikkat çeken unsurlar.
+- ‘Metin ve görsellerde dikkat çeken s…’ metnindeki karmaşık ifadeleri öğrencinin kendi sözcükleriyle yeniden ifade etmesini isteyerek Seyirlik halk oyunları — dikkat çeken unsurlar fikrini netleştirin.
 **Zenginleştirme**
 - Bu özelliklerden hangisinin günümüz doğaçlama tiyatrosunda sürdüğünü tartıştır.
-- Aynı kısa diyaloğu söz varlığı değişmeden beden dili ve ton değişikliğiyle nasıl farklılaştırabileceğini tasarlatın. Bu görevde derinleştirme odağı: Seyirlik halk oyunları — dikkat çeken unsurlar.
+- Öğrencinin ‘Metin ve görsellerde dikkat çeken s…’ bağlamındaki çıkarımını infografik, dijital sunum veya kavram haritasına dönüştürerek sınıf panosunda sergilemesini sağlayın.
 
 ### Tahta notu
 
@@ -380,53 +378,52 @@ Altı kişilik grup ve üç bilgi/düşünce kartı
 
 ### Açıklama ve gerekçe
 
-Altı kişilik grup ve üç bilgi/düşünce kartı — basılı s.16 için cevap, Altı kişilik grup ve üç bilgi/düşünce kartı ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Her öğrenci üç ayrı bilgi/düşünce kartı üretir. Grup tartışması sonunda ortak sonuç görünür hâle gelir.
+Bu etkinlikte sabit bir formül aranmaz; Altı kişilik grup ve üç bilgi/düşünce kartı amacına yönelik olarak ‘Altı kişilik grup ve üç bilgi/düşünce kartı…’ basamaklarının özgün biçimde yapılandırılması esastır. Geçerlilik ölçütü; Her öğrenci üç ayrı bilgi/düşünce kartı üretir. Grup tartışması sonunda ortak sonuç görünür hâle gelir. doğrultusunda öğrencinin ortaya koyduğu tutarlı ürün ve gerekçedir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Karagöz bölümünde Altı kişilik grup ve üç bilgi/düşünce kartı — basılı s.16 üzerinden geleneksel gölge oyununun seyirlik ve sözlü niteliği ele alınır. Karakterler çoğu zaman yalnız adlarıyla değil, konuşma biçimleri, yanlış anlamaları, toplumsal tipleri ve sahne içindeki işlevleriyle kurulur. Dil farkını bir üstünlük ölçüsü gibi değil, karakterleştirme ve mizahın bağlama bağlı bir aracı olarak açıklayın. Bu görevde özellikle ‘Altı kişilik grup ve üç bilgi/düşünce kartı’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Karagöz oyunu, geleneksel Türk seyirlik sanatlarının gölge oyunu koludur; mukaddime, muhavere, fasıl ve bitiş bölümlerinden oluşur. Baş kişiler Karagöz (halkın sağduyulu, saf, okumamış, dobra ve hazırcevap sesi) ile Hacivat'tır (yarı aydın, çıkarcı, kuralcı ve arabulucu Osmanlı aydını). Tipleştirmede dil, şive taklitleri ve yanlış anlamalar mizahın ana kaynağıdır. Öğretmen, bu dil farklarının bir zekâ eksikliği değil, Osmanlı toplumunun çok kültürlü yapısını yansıtan bir sahneleme tekniği olduğunu açıklamalıdır. Bu görev tahlilinde öğretmen, Altı kişilik grup ve üç bilgi/düşünce kartı odağında ‘Altı kişilik grup ve üç bilgi/düşünce kartı…’ sorusuna yönelik yanıtların metin içi tutarlılığını denetlemeli ve yüzeysel yorumların ötesine geçilmesini sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Karagöz’de söylenen söz hem anlam taşır hem de konuşanın kimliğini ve sahnedeki ilişkisini görünür kılar. Bu görevde özellikle Altı kişilik grup ve üç bilgi/düşünce kartı üzerinde durun.
+> Görevin temel amacı, ‘Altı kişilik grup ve üç bilgi/düşünce kartı…’ ayrıntısı üzerinden Altı kişilik grup ve üç bilgi/düşünce kartı kavramını kavramanızdır. Metindeki ilgili cümleleri bularak ‘organizasyon: Öğretmen rehberliğind…’ bağlamındaki düşüncenizi kendi cümlelerinizle ortaya koyun.
 
 ### Bu görev neden burada?
 
-Bu görev, Altı kişilik grup ve üç bilgi/düşünce kartı bakımından sözlü kültür ürününün biçimsel özelliğini metin kanıtına dönüştürür.
+Bu soru, ‘Altı kişilik grup ve üç bilgi/düşünce kartı…’ ayrıntısını Altı kişilik grup ve üç bilgi/düşünce kartı ile birleştirerek dil ve edebiyat çalışmalarında neden-sonuç ilişkisi kurma ve ‘organizasyon: Öğretmen rehberliğind…’ bağlamını kavrama yeterliğini güçlendirir.
 
 ### Ders içi uygulama
 
 - Önce bireysel üretim, sonra grup tartışması sırasını koru; doğrudan hazır liste vermek yerine kartları öğrencilerin üretmesini sağla.
 - Önce bireysel üretim, sonra grup tartışması sırasını koruyun; hazır listeyi doğrudan vermeyin.
-- Altı kişilik grup ve üç bilgi/düşünce kartı — basılı s.16 için öğrencinin seçtiği söz veya sahne ayrıntısını önce aynen işaretletin; ardından bu ayrıntının hangi karakter özelliğini kurduğunu konuşturun.
-- Karagöz-Hacivat farkını ‘biri doğru, biri yanlış’ diye kapatmayın; yanlış anlamanın sahne işlevini ve mizah üretimini görünür kılın.
+- Metnin ilgili bölümünü sessizce okutup Altı kişilik grup ve üç bilgi/düşünce kartı ile bağlantılı kilit kelimeleri belirlemeleri için süre tanıyın.
+- Seçilen metin kanıtlarının Altı kişilik grup ve üç bilgi/düşünce kartı hedefine uygunluğunu akran değerlendirmesiyle gözden geçirtin.
 
 ### Öğrenci cevaplarını değerlendirme
 
 - Öğrenci kartları ve grup sözcüsünün ortak sonuç kaydı.
 - Her öğrenci üç ayrı bilgi/düşünce kartı üretir.
 - Grup tartışması sonunda ortak sonuç görünür hâle gelir.
-- Dil/sahne ayrıntısı ile karakter veya ilişki çıkarımı arasında açık bağ.
+- Tablodaki 3 maddenin her birinin metin kanıtıyla doğru eşleştirilmesi.
 
 ### Sık yanılgılar
 
 - Grup sözcüsünün bütün işi üstlenmesi.
-- Öğrenci, Altı kişilik grup ve üç bilgi/düşünce kartı — basılı s.16 görevindeki dil farkını karakterin zekâsı veya değeri hakkında değişmez bir yargı sanabilir.
-- Karagöz oyununun bölümlerini yalnız ezberlenecek başlıklar olarak görüp bölümün sahne işlevini gözden kaçırabilir.
+- Metinde art arda gelen durumları veya olayları doğrudan bir neden-sonuç ilişkisi sanarak Altı kişilik grup ve üç bilgi/düşünce kartı çıkarımında yanılgıya düşmek.
 
 ### Müdahale
 
-- Altı kişilik grup ve üç bilgi/düşünce kartı — basılı s.16 için müdahale: Öğrenciye aynı sözün farklı bir bağlamda başka bir kişiyi de kurup kuramayacağını sordurun; böylece dil göstergesini kişi değeriyle eşitlemesini ayırın.
-- Altı kişilik grup ve üç bilgi/düşünce kartı — basılı s.16 için müdahale: Diyalogdan bir cümleyi seçip mukaddime, muhavere, fasıl veya bitişten hangisindeki işleviyle okuduğunu açıklattırın.
+- Öğrenciye ‘Altı kişilik grup ve üç bilgi/düşün…’ çerçevesinde ‘grup sözcüsünün bütün işi’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- Olaylar arasındaki mantıksal nedensellik bağını ve gerekçe ifadelerini ‘Altı kişilik grup ve üç bilgi/düşün…’ metni üzerinde buldurup sebep-sonuç farkını gösterin ve tartışın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Tür–icra–dil/mizah başlıklarından hareketle kart üretmesini kolaylaştır.
-- Öğrenci için ‘Sahnede görülen/söylenen — bunun gösterdiği özellik — seyirci etkisi’ üçlü tablosu kullanın. Bu görevde bağlantı noktası: Altı kişilik grup ve üç bilgi/düşünce kartı.
+- ‘Altı kişilik grup ve üç bilgi/düşün…’ konusunu daha sade yönlendirici alt sorulara bölerek öğrencinin ‘organizasyon: Öğretmen rehberl…’ sonucuna kademeli olarak ulaşmasına rehberlik edin.
 **Zenginleştirme**
 - Kartları bilgi/görüş olarak sınıflandırmasını iste.
-- Aynı kısa diyaloğu söz varlığı değişmeden beden dili ve ton değişikliğiyle nasıl farklılaştırabileceğini tasarlatın. Bu görevde derinleştirme odağı: Altı kişilik grup ve üç bilgi/düşünce kartı.
+- ‘Altı kişilik grup ve üç bilgi/düşün…’ tahlilini yazarın edebî dönemi, sanat anlayışı ve dönemin toplumsal koşullarıyla ilişkilendiren bir araştırma sorusu geliştirtin.
 
 ### Kaynak ve durum
 
@@ -473,53 +470,52 @@ Karagöz — düşün-eşleş-paylaş
 
 ### Açıklama ve gerekçe
 
-Karagöz — düşün-eşleş-paylaş — basılı s.17 için cevap, Karagöz — düşün-eşleş-paylaş ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Önce bireysel düşünce, sonra eşle tartışma, ardından sınıf paylaşımı aşamalarını tamamlar. Dil, yardımcı tip veya beden/hareket başlıklarından en az ikisini gerekçeli açıklar.
+Performans temelli bu görevde, ‘Karagöz — düşün-eşleş-paylaş…’ üzerinden hedeflenen Karagöz — düşün-eşleş-paylaş çıktısı aşamalı olarak tahlil edilir. Değerlendirme ölçütü; öğrencinin Önce bireysel düşünce, sonra eşle tartışma, ardından sınıf paylaşımı aşamalarını tamamlar. Dil, yardımcı tip veya beden/hareket başlıklarından en az ikisini gerekçeli açıklar. şartını sağlaması ve sürecin metin dayanağıyla gerekçelendirilmesidir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Karagöz bölümünde Karagöz — düşün-eşleş-paylaş — basılı s.17 üzerinden geleneksel gölge oyununun seyirlik ve sözlü niteliği ele alınır. Karakterler çoğu zaman yalnız adlarıyla değil, konuşma biçimleri, yanlış anlamaları, toplumsal tipleri ve sahne içindeki işlevleriyle kurulur. Dil farkını bir üstünlük ölçüsü gibi değil, karakterleştirme ve mizahın bağlama bağlı bir aracı olarak açıklayın. Bu görevde özellikle ‘Karagöz — düşün-eşleş-paylaş’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Karagöz oyunu, geleneksel Türk seyirlik sanatlarının gölge oyunu koludur; mukaddime, muhavere, fasıl ve bitiş bölümlerinden oluşur. Baş kişiler Karagöz (halkın sağduyulu, saf, okumamış, dobra ve hazırcevap sesi) ile Hacivat'tır (yarı aydın, çıkarcı, kuralcı ve arabulucu Osmanlı aydını). Tipleştirmede dil, şive taklitleri ve yanlış anlamalar mizahın ana kaynağıdır. Öğretmen, bu dil farklarının bir zekâ eksikliği değil, Osmanlı toplumunun çok kültürlü yapısını yansıtan bir sahneleme tekniği olduğunu açıklamalıdır. Bu görevde öğretmenin kılavuzluğu, ‘Karagöz — düşün-eşleş-paylaş…’ bağlamında öğrencinin Karagöz — düşün-eşleş-paylaş ve ‘odaklar: ['dil ve anlatım özellikleri', …’ arasındaki mantıksal nedensellik bağını metin üzerinden kavramasına odaklanmalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Karagöz’de söylenen söz hem anlam taşır hem de konuşanın kimliğini ve sahnedeki ilişkisini görünür kılar. Bu görevde özellikle Karagöz — düşün-eşleş-paylaş üzerinde durun.
+> Bu soruda, ‘Karagöz — düşün-eşleş-paylaş…’ odağını metnin genel anlam akışı içinde değerlendirmeniz gerekmektedir. Tespit ettiğiniz verileri Karagöz — düşün-eşleş-paylaş açısından yorumlayarak ‘odaklar: ['dil ve anlatım özellikle…’ yönünde tutarlı bir sonuca varın.
 
 ### Bu görev neden burada?
 
-Bu görev, Karagöz — düşün-eşleş-paylaş bakımından sözlü kültür ürününün biçimsel özelliğini metin kanıtına dönüştürür.
+Öğrencinin ‘Karagöz — düşün-eşleş-paylaş…’ incelemesi yoluyla Karagöz — düşün-eşleş-paylaş kavramını içselleştirmesi, edebî metinlerdeki anlam katmanlarını fark etmesine ve ‘odaklar: ['dil ve anlatım özellikle…’ yönünde derinlikli bakış kazanmasına zemin hazırlar.
 
 ### Ders içi uygulama
 
 - Kitabın düşün-eşleş-paylaş yapısını koru; bunu genel bir 'Karagöz bilgisi' sorusuna indirgeme.
 - Önce bireysel not, sonra eşle iki ortak madde, en son sınıfla tek ortak sonuç alın; böylece sözlü katılım somut kanıta dönüşür.
-- Karagöz — düşün-eşleş-paylaş — basılı s.17 için öğrencinin seçtiği söz veya sahne ayrıntısını önce aynen işaretletin; ardından bu ayrıntının hangi karakter özelliğini kurduğunu konuşturun.
-- Karagöz-Hacivat farkını ‘biri doğru, biri yanlış’ diye kapatmayın; yanlış anlamanın sahne işlevini ve mizah üretimini görünür kılın.
+- Öğrencilere ‘Karagöz — düşün-eşleş-paylaş…’ bağlamındaki anahtar kavramları listeleterek metin taraması yapmalarını sağlayın.
+- Öğrencilere ‘Eğer ‘odaklar: ['dil ve anlatım özellikle…’ olmasaydı ne değişirdi?’ sorusunu yönelterek Karagöz — düşün-eşleş-paylaş çıkarımını test edin.
 
 ### Öğrenci cevaplarını değerlendirme
 
 - İkili ortak düşünce kaydı ve sınıf paylaşımı.
 - Önce bireysel düşünce, sonra eşle tartışma, ardından sınıf paylaşımı aşamalarını tamamlar.
 - Dil, yardımcı tip veya beden/hareket başlıklarından en az ikisini gerekçeli açıklar.
-- Dil/sahne ayrıntısı ile karakter veya ilişki çıkarımı arasında açık bağ.
+- Tablodaki 2 maddenin her birinin metin kanıtıyla doğru eşleştirilmesi.
 
 ### Sık yanılgılar
 
 - Tasvir hareketlerini gerçek oyuncu beden diliyle tamamen aynı saymak.
-- Öğrenci, Karagöz — düşün-eşleş-paylaş — basılı s.17 görevindeki dil farkını karakterin zekâsı veya değeri hakkında değişmez bir yargı sanabilir.
-- Karagöz oyununun bölümlerini yalnız ezberlenecek başlıklar olarak görüp bölümün sahne işlevini gözden kaçırabilir.
+- ‘Karagöz — düşün-eşleş-paylaş…’ bölümündeki geleneksel oyun kişilerini çağdaş psikolojik karakterlerle bir tutup tip niteliğini göz ardı etmek.
 
 ### Müdahale
 
-- Karagöz — düşün-eşleş-paylaş — basılı s.17 için müdahale: Öğrenciye aynı sözün farklı bir bağlamda başka bir kişiyi de kurup kuramayacağını sordurun; böylece dil göstergesini kişi değeriyle eşitlemesini ayırın.
-- Karagöz — düşün-eşleş-paylaş — basılı s.17 için müdahale: Diyalogdan bir cümleyi seçip mukaddime, muhavere, fasıl veya bitişten hangisindeki işleviyle okuduğunu açıklattırın.
+- ‘Karagöz — düşün-eşleş-paylaş…’ doğrultusunda ‘tasvir hareketlerini gerçek oyuncu’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Karakter ile tip arasındaki farkı vurgulayıp ‘Karagöz — düşün-eşleş-paylaş…’ kişilerinin belirli toplumsal zümreleri temsil eden işlevini metinde gösterin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Dil / yardımcı tip / hareket şeklinde üç odak kartı ver.
-- Öğrenci için ‘Sahnede görülen/söylenen — bunun gösterdiği özellik — seyirci etkisi’ üçlü tablosu kullanın. Bu görevde bağlantı noktası: Karagöz — düşün-eşleş-paylaş.
+- ‘Karagöz — düşün-eşleş-paylaş…’ metnindeki karmaşık ifadeleri öğrencinin kendi sözcükleriyle yeniden ifade etmesini isteyerek Karagöz — düşün-eşleş-paylaş fikrini netleştirin.
 **Zenginleştirme**
 - Dil unsurunu kaldırınca mizahın nasıl değişeceğini açıklat.
-- Aynı kısa diyaloğu söz varlığı değişmeden beden dili ve ton değişikliğiyle nasıl farklılaştırabileceğini tasarlatın. Bu görevde derinleştirme odağı: Karagöz — düşün-eşleş-paylaş.
+- Öğrencinin ‘Karagöz — düşün-eşleş-paylaş…’ bağlamındaki çıkarımını infografik, dijital sunum veya kavram haritasına dönüştürerek sınıf panosunda sergilemesini sağlayın.
 
 ### Kaynak ve durum
 
@@ -567,19 +563,19 @@ Tahmin, rol paylaşımı ve karaktere uygun sesli okuma
 
 ### Açıklama ve gerekçe
 
-Yazıcı — tahmin, rol paylaşımı ve okuma stratejisi / Yazıcı metninin okunması — basılı s.18-24 için cevap, Yazıcı — tahmin, rol paylaşımı ve okuma stratejisi / Yazıcı metninin okunması ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Tahmini başlık/görsel kanıtına bağlar. Rolünü metindeki konuşma özelliklerine uygun seslendirir.
+Bu süreç çalışması tek bir ezber yanıt gerektirmeyip Yazıcı — tahmin, rol paylaşımı ve okuma stratejisi / Yazıcı metninin okunması ekseninde ‘Tahmin, rol paylaşımı ve karaktere uygun sesli oku…’ adımlarının işletilmesine dayanır. Değerlendirmede temel ölçüt; Tahmini başlık/görsel kanıtına bağlar. Rolünü metindeki konuşma özelliklerine uygun seslendirir. ve öğrencinin aşamaları metin kanıtlarıyla gerekçelendirmesidir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Karagöz bölümünde Yazıcı — tahmin, rol paylaşımı ve okuma stratejisi / Yazıcı metninin okunması — basılı s.18-24 üzerinden geleneksel gölge oyununun seyirlik ve sözlü niteliği ele alınır. Karakterler çoğu zaman yalnız adlarıyla değil, konuşma biçimleri, yanlış anlamaları, toplumsal tipleri ve sahne içindeki işlevleriyle kurulur. Dil farkını bir üstünlük ölçüsü gibi değil, karakterleştirme ve mizahın bağlama bağlı bir aracı olarak açıklayın. Bu görevde özellikle ‘Tahmin, rol paylaşımı ve karaktere uygun sesli okuma’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Karagöz oyunu, geleneksel Türk seyirlik sanatlarının gölge oyunu koludur; mukaddime, muhavere, fasıl ve bitiş bölümlerinden oluşur. Baş kişiler Karagöz (halkın sağduyulu, saf, okumamış, dobra ve hazırcevap sesi) ile Hacivat'tır (yarı aydın, çıkarcı, kuralcı ve arabulucu Osmanlı aydını). Tipleştirmede dil, şive taklitleri ve yanlış anlamalar mizahın ana kaynağıdır. Öğretmen, bu dil farklarının bir zekâ eksikliği değil, Osmanlı toplumunun çok kültürlü yapısını yansıtan bir sahneleme tekniği olduğunu açıklamalıdır. Bu görevde öğretmen, Yazıcı — tahmin, rol paylaşımı ve okuma stratejisi / Yazıcı metninin okunması çerçevesinde sorulan ‘Tahmin, rol paylaşımı ve karaktere uygun sesli oku…’ konusu üzerinden öğrencinin metin kanıtları ile kavramsal çıkarımlar arasındaki ilişkiyi doğru kurmasını sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Karagöz’de söylenen söz hem anlam taşır hem de konuşanın kimliğini ve sahnedeki ilişkisini görünür kılar. Bu görevde özellikle Yazıcı — tahmin, rol paylaşımı ve okuma stratejisi / Yazıcı metninin okunması üzerinde durun.
+> Bu görevde sizden beklenen; metindeki ipuçlarından hareketle ‘Tahmin, rol paylaşımı ve karaktere uygun sesl…’ konusunu incelemeniz ve Yazıcı — tahmin, rol paylaşımı ve okuma stratejisi / Yazıcı metninin okunması doğrultusunda ‘T1_G01_P18_READING_TASKS: {'tahmin'…’ sonucuna nasıl ulaşıldığını adım adım açıklamanızdır.
 
 ### Bu görev neden burada?
 
-Bu görev, Yazıcı — tahmin, rol paylaşımı ve okuma stratejisi / Yazıcı metninin okunması bakımından sözlü kültür ürününün biçimsel özelliğini metin kanıtına dönüştürür.
+Bu görev, öğrencinin ‘Tahmin, rol paylaşımı ve karaktere uygun sesl…’ üzerinden Yazıcı — tahmin, rol paylaşımı ve okuma stratejisi / Yazıcı metninin okunması becerisini somut bir metin bağlamında deneyimlemesini ve iddialarını kanıtla destekleme alışkanlığı kazanmasını sağlar.
 
 ### Ders içi uygulama
 
@@ -599,23 +595,24 @@ Bu görev, Yazıcı — tahmin, rol paylaşımı ve okuma stratejisi / Yazıcı 
 
 - Ağız veya yöresel söyleyişi alay konusu yapmak.
 - Tahmini yalnız doğru/yanlış sonuç olarak değerlendirmek.
-- Öğrenci, Yazıcı — tahmin, rol paylaşımı ve okuma stratejisi / Yazıcı metninin okunması — basılı s.18-24 görevindeki dil farkını karakterin zekâsı veya değeri hakkında değişmez bir yargı sanabilir.
+- ‘Tahmin, rol paylaşımı ve karaktere …’ sorusunda metindeki nesnel kanıtlar yerine kendi kişisel kanaat ve varsayımlarını tek dayanak olarak kabul etmek.
 
 ### Müdahale
 
-- Yazıcı — tahmin, rol paylaşımı ve okuma stratejisi / Yazıcı metninin okunması — basılı s.18-24 için müdahale: Öğrenciye aynı sözün farklı bir bağlamda başka bir kişiyi de kurup kuramayacağını sordurun; böylece dil göstergesini kişi değeriyle eşitlemesini ayırın. Müdahaleyi ‘Tahmin, rol paylaşımı ve karaktere uygun sesli okuma’ ayrıntısını kullandırarak somutlaştırın.
-- Yazıcı — tahmin, rol paylaşımı ve okuma stratejisi / Yazıcı metninin okunması — basılı s.18-24 için müdahale: Diyalogdan bir cümleyi seçip mukaddime, muhavere, fasıl veya bitişten hangisindeki işleviyle okuduğunu açıklattırın. Müdahaleyi ‘Tahmin, rol paylaşımı ve karaktere uygun sesli okuma’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciden ‘Tahmin, rol paylaşımı ve karaktere …’ bağlamında ‘ağız veya yöresel söyleyişi’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- ‘Tahmin, rol paylaşımı ve karaktere …’ incelemesinde ‘tahmini yalnız doğru yanlış’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Öğrenciden ‘Tahmin, rol paylaşımı ve karaktere …’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Karakter kartında vurgu/tonlama için birer ipucu ver.
 - Olay akışını 3-5 duraklı çizelgeyle izlet.
-- Öğrenci için ‘Sahnede görülen/söylenen — bunun gösterdiği özellik — seyirci etkisi’ üçlü tablosu kullanın. Bu görevde bağlantı noktası: Yazıcı — tahmin, rol paylaşımı ve okuma stratejisi / Yazıcı metninin okunması.
+- ‘Tahmin, rol paylaşımı ve karaktere …’ sorusunu yanıtlamakta zorlanan öğrenciye metindeki ilgili paragrafı işaretleyin; önce anahtar kavramları buldurarak cevabı adım adım kurdurun.
 **Zenginleştirme**
 - Aynı repliği nötr ve karaktere uygun iki biçimde okuyup etkisini karşılaştırmasını iste.
 - Muhavere ile fasılın işlev farkını metin üzerinden sezdir.
-- Aynı kısa diyaloğu söz varlığı değişmeden beden dili ve ton değişikliğiyle nasıl farklılaştırabileceğini tasarlatın. Bu görevde derinleştirme odağı: Yazıcı — tahmin, rol paylaşımı ve okuma stratejisi / Yazıcı metninin okunması.
+- Öğrenciden ‘Tahmin, rol paylaşımı ve karaktere …’ çerçevesinde ulaştığı ‘T1_G01_P18_READING_TASKS: {'ta…’ sonucunu, okuduğu farklı bir edebî eserle karşılaştıran kısa bir eleştiri yazısı yazmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -675,26 +672,26 @@ Kitapta “Söz Varlığımız — Kelime Duvarı” başlığı altında verile
 
 ### Açıklama ve gerekçe
 
-söz seçimi ve karakter/bağlam ilişkisi — basılı s.25 için cevap, söz seçimi ve karakter/bağlam ilişkisi ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Kitabın kelime duvarındaki çekirdek sözcükleri bağlama göre açıklar. Önerdiği güncel karşılık metnin anlamını bozmaz.
+Bu görevdeki ‘Kitapta “Söz Varlığımız — Kelime Duvarı” başlığı a…’ tablosundaki maddelerin (cekirdek_hedefler, metne_uygun_guncelleme, ek_arastirma_ornekleri) doğruluğu, kaynak metindeki açık ifadeler ve çıkarımlar ile karşılaştırılarak temellendirilir. Öğrencinin izlemesi gereken çıkarım yolu; her bir cümleyi tek tek metindeki ifadelerle eşleştirmek, metinde doğrudan doğrulanan yargıları 'Evet', açıkça çelişenleri 'Hayır' ve metinde hakkında hüküm verilmeyen yargıları ise 'Bilgi yok' olarak sınıflandırmaktır. Kitabın kelime duvarındaki çekirdek sözcükleri bağlama göre açıklar. Önerdiği güncel karşılık metnin anlamını bozmaz.
 
 ### Öğretmenin bilmesi gerekenler
 
-Karagöz bölümünde söz seçimi ve karakter/bağlam ilişkisi — basılı s.25 üzerinden geleneksel gölge oyununun seyirlik ve sözlü niteliği ele alınır. Karakterler çoğu zaman yalnız adlarıyla değil, konuşma biçimleri, yanlış anlamaları, toplumsal tipleri ve sahne içindeki işlevleriyle kurulur. Dil farkını bir üstünlük ölçüsü gibi değil, karakterleştirme ve mizahın bağlama bağlı bir aracı olarak açıklayın. Bu görevde özellikle ‘Kelime Duvarı — Söz Varlığımız — Kelime Duvarı’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Karagöz oyunu, geleneksel Türk seyirlik sanatlarının gölge oyunu koludur; mukaddime, muhavere, fasıl ve bitiş bölümlerinden oluşur. Baş kişiler Karagöz (halkın sağduyulu, saf, okumamış, dobra ve hazırcevap sesi) ile Hacivat'tır (yarı aydın, çıkarcı, kuralcı ve arabulucu Osmanlı aydını). Tipleştirmede dil, şive taklitleri ve yanlış anlamalar mizahın ana kaynağıdır. Öğretmen, bu dil farklarının bir zekâ eksikliği değil, Osmanlı toplumunun çok kültürlü yapısını yansıtan bir sahneleme tekniği olduğunu açıklamalıdır. Bu görevde öğretmen, söz seçimi ve karakter/bağlam ilişkisi çerçevesinde sorulan ‘Kitapta “Söz Varlığımız — Kelime Duvarı” başlığı a…’ konusu üzerinden öğrencinin metin kanıtları ile kavramsal çıkarımlar arasındaki ilişkiyi doğru kurmasını sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Karagöz’de söylenen söz hem anlam taşır hem de konuşanın kimliğini ve sahnedeki ilişkisini görünür kılar. Bu görevde özellikle söz seçimi ve karakter/bağlam ilişkisi üzerinde durun.
+> Bu görevde sizden beklenen; metindeki ipuçlarından hareketle ‘Kitapta “Söz Varlığımız — Kelime Duvarı” başl…’ konusunu incelemeniz ve söz seçimi ve karakter/bağlam ilişkisi doğrultusunda ‘cekirdek_hedefler: {'silsile': 'bir…’ sonucuna nasıl ulaşıldığını adım adım açıklamanızdır.
 
 ### Bu görev neden burada?
 
-Bu görev, söz seçimi ve karakter/bağlam ilişkisi bakımından sözlü kültür ürününün biçimsel özelliğini metin kanıtına dönüştürür.
+Bu görev, öğrencinin ‘Kitapta “Söz Varlığımız — Kelime Duvarı” başl…’ üzerinden söz seçimi ve karakter/bağlam ilişkisi becerisini somut bir metin bağlamında deneyimlemesini ve iddialarını kanıtla destekleme alışkanlığı kazanmasını sağlar.
 
 ### Ders içi uygulama
 
 - Önceki rehberde çekirdek hedef listesine karışmış ek sözcükleri ayrı tut. Kitap dipnotu ve TDK kontrolü önceliklidir.
 - Öğrenci yalnız sözlük anlamını kopyalamasın; kelimeyi metindeki bağlama uygun günümüz Türkçesiyle yeniden kursun. Kitap dipnotu önceliklidir.
-- söz seçimi ve karakter/bağlam ilişkisi — basılı s.25 için öğrencinin seçtiği söz veya sahne ayrıntısını önce aynen işaretletin; ardından bu ayrıntının hangi karakter özelliğini kurduğunu konuşturun.
-- Karagöz-Hacivat farkını ‘biri doğru, biri yanlış’ diye kapatmayın; yanlış anlamanın sahne işlevini ve mizah üretimini görünür kılın.
+- Metnin ilgili bölümünü sessizce okutup söz seçimi ve karakter/bağlam ilişkisi ile bağlantılı kilit kelimeleri belirlemeleri için süre tanıyın.
+- Seçilen metin kanıtlarının söz seçimi ve karakter/bağlam ilişkisi hedefine uygunluğunu akran değerlendirmesiyle gözden geçirtin.
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -706,22 +703,21 @@ Bu görev, söz seçimi ve karakter/bağlam ilişkisi bakımından sözlü kült
 ### Sık yanılgılar
 
 - Metindeki her eski sözcüğü kitapta altı çizili hedef kelime sanmak.
-- Öğrenci, söz seçimi ve karakter/bağlam ilişkisi — basılı s.25 görevindeki dil farkını karakterin zekâsı veya değeri hakkında değişmez bir yargı sanabilir.
-- Karagöz oyununun bölümlerini yalnız ezberlenecek başlıklar olarak görüp bölümün sahne işlevini gözden kaçırabilir.
+- ‘söz seçimi ve karakter/bağlam ilişkisi (T1V23_P25_VOCAB)’ sorusunda metindeki nesnel kanıtlar yerine kendi kişisel kanaat ve varsayımlarını tek dayanak olarak kabul etmek.
 
 ### Müdahale
 
-- söz seçimi ve karakter/bağlam ilişkisi — basılı s.25 için müdahale: Öğrenciye aynı sözün farklı bir bağlamda başka bir kişiyi de kurup kuramayacağını sordurun; böylece dil göstergesini kişi değeriyle eşitlemesini ayırın. Müdahaleyi ‘Kelime Duvarı — Söz Varlığımız — Kelime Duvarı’ ayrıntısını kullandırarak somutlaştırın.
-- söz seçimi ve karakter/bağlam ilişkisi — basılı s.25 için müdahale: Diyalogdan bir cümleyi seçip mukaddime, muhavere, fasıl veya bitişten hangisindeki işleviyle okuduğunu açıklattırın. Müdahaleyi ‘Kelime Duvarı — Söz Varlığımız — Kelime Duvarı’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciye ‘söz seçimi ve karakter/bağlam ilişkisi (T1V23_P25_VOCAB)’ çerçevesinde ‘metindeki her eski sözcüğü’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- Öğrenciden ‘söz seçimi ve karakter/bağlam ilişkisi (T1V23_P25_VOCAB)’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Bağlam cümlesini kelimeyle birlikte göster.
-- Öğrenci için ‘Sahnede görülen/söylenen — bunun gösterdiği özellik — seyirci etkisi’ üçlü tablosu kullanın. Bu görevde bağlantı noktası: söz seçimi ve karakter/bağlam ilişkisi.
+- ‘Kitapta “Söz Varlığımız — Kelime Du…’ sorusunu yanıtlamakta zorlanan öğrenciye metindeki ilgili paragrafı işaretleyin; önce anahtar kavramları buldurarak cevabı adım adım kurdurun.
 **Zenginleştirme**
 - Eski/güncel karşılıkların üslup ve dönem etkisini karşılaştır.
-- Aynı kısa diyaloğu söz varlığı değişmeden beden dili ve ton değişikliğiyle nasıl farklılaştırabileceğini tasarlatın. Bu görevde derinleştirme odağı: söz seçimi ve karakter/bağlam ilişkisi.
+- Öğrenciden ‘Kitapta “Söz Varlığımız — Kelime Du…’ çerçevesinde ulaştığı ‘cekirdek_hedefler: {'silsile':…’ sonucunu, okuduğu farklı bir edebî eserle karşılaştıran kısa bir eleştiri yazısı yazmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -767,53 +763,52 @@ Kitapta “Bilgi Köşesi — Karagöz oyununun bölümleri” başlığı altı
 
 ### Açıklama ve gerekçe
 
-Bilgi Köşesi — Karagöz oyununun bölümleri — basılı s.26 için cevap, Bilgi Köşesi — Karagöz oyununun bölümleri ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Dört bölümün adını ve temel işlevini ayırt eder.
+Bu görevdeki ‘Kitapta “Bilgi Köşesi — Karagöz oyununun bölümleri…’ tablosundaki maddelerin (Mukaddime, Muhavere, Fasıl) doğruluğu, kaynak metindeki açık ifadeler ve çıkarımlar ile karşılaştırılarak temellendirilir. Öğrencinin izlemesi gereken çıkarım yolu; her bir cümleyi tek tek metindeki ifadelerle eşleştirmek, metinde doğrudan doğrulanan yargıları 'Evet', açıkça çelişenleri 'Hayır' ve metinde hakkında hüküm verilmeyen yargıları ise 'Bilgi yok' olarak sınıflandırmaktır. Dört bölümün adını ve temel işlevini ayırt eder.
 
 ### Öğretmenin bilmesi gerekenler
 
-Karagöz bölümünde Bilgi Köşesi — Karagöz oyununun bölümleri — basılı s.26 üzerinden geleneksel gölge oyununun seyirlik ve sözlü niteliği ele alınır. Karakterler çoğu zaman yalnız adlarıyla değil, konuşma biçimleri, yanlış anlamaları, toplumsal tipleri ve sahne içindeki işlevleriyle kurulur. Dil farkını bir üstünlük ölçüsü gibi değil, karakterleştirme ve mizahın bağlama bağlı bir aracı olarak açıklayın. Bu görevde özellikle ‘Bilgi Köşesi — Karagöz oyununun bölümleri’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Karagöz oyunu, geleneksel Türk seyirlik sanatlarının gölge oyunu koludur; mukaddime, muhavere, fasıl ve bitiş bölümlerinden oluşur. Baş kişiler Karagöz (halkın sağduyulu, saf, okumamış, dobra ve hazırcevap sesi) ile Hacivat'tır (yarı aydın, çıkarcı, kuralcı ve arabulucu Osmanlı aydını). Tipleştirmede dil, şive taklitleri ve yanlış anlamalar mizahın ana kaynağıdır. Öğretmen, bu dil farklarının bir zekâ eksikliği değil, Osmanlı toplumunun çok kültürlü yapısını yansıtan bir sahneleme tekniği olduğunu açıklamalıdır. Bu görevde öğretmenin kılavuzluğu, ‘Kitapta “Bilgi Köşesi — Karagöz oyununun bölümleri…’ bağlamında öğrencinin Bilgi Köşesi — Karagöz oyununun bölümleri ve ‘Mukaddime: giriş Muhavere: Karagöz-Haciv…’ arasındaki mantıksal nedensellik bağını metin üzerinden kavramasına odaklanmalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Karagöz’de söylenen söz hem anlam taşır hem de konuşanın kimliğini ve sahnedeki ilişkisini görünür kılar. Bu görevde özellikle Bilgi Köşesi — Karagöz oyununun bölümleri üzerinde durun.
+> Bu soruda, ‘Kitapta “Bilgi Köşesi — Karagöz oyununun bölü…’ odağını metnin genel anlam akışı içinde değerlendirmeniz gerekmektedir. Tespit ettiğiniz verileri Bilgi Köşesi — Karagöz oyununun bölümleri açısından yorumlayarak ‘Mukaddime: giriş Muhavere: Karagöz-…’ yönünde tutarlı bir sonuca varın.
 
 ### Bu görev neden burada?
 
-Bu görev, Bilgi Köşesi — Karagöz oyununun bölümleri bakımından sözlü kültür ürününün biçimsel özelliğini metin kanıtına dönüştürür.
+Öğrencinin ‘Kitapta “Bilgi Köşesi — Karagöz oyununun bölü…’ incelemesi yoluyla Bilgi Köşesi — Karagöz oyununun bölümleri kavramını içselleştirmesi, edebî metinlerdeki anlam katmanlarını fark etmesine ve ‘Mukaddime: giriş Muhavere: Karagöz-…’ yönünde derinlikli bakış kazanmasına zemin hazırlar.
 
 ### Ders içi uygulama
 
 - Bu sayfada doğrudan cevaplanacak kitap sorusu yoktur; önceki sürümde soru gibi modellenmişti. Bilgi köşesini sonraki çözümlemelere referans olarak kullan.
 - Bu sayfayı yeni bir soru gibi modellemeyin; sonraki çözümlemeler için referans olarak kullanın.
-- Bilgi Köşesi — Karagöz oyununun bölümleri — basılı s.26 için öğrencinin seçtiği söz veya sahne ayrıntısını önce aynen işaretletin; ardından bu ayrıntının hangi karakter özelliğini kurduğunu konuşturun.
-- Karagöz-Hacivat farkını ‘biri doğru, biri yanlış’ diye kapatmayın; yanlış anlamanın sahne işlevini ve mizah üretimini görünür kılın.
+- Metindeki anlatım tutumunu fark ettirmek için ‘Bilgi Köşesi — Karagöz oyununun bölümleri (T1V23_P26_STRUCTURE)’ bölümünü sesli okutun.
+- Belirlenen alıntıların Bilgi Köşesi — Karagöz oyununun bölümleri ve ‘Mukaddime: giriş Muhavere: Karagöz-…’ açısından ne ifade ettiğini sınıf tartışmasıyla derinleştirin.
 
 ### Öğrenci cevaplarını değerlendirme
 
 - Sonraki sorularda doğru bölüm adını kullanması.
 - Dört bölümün adını ve temel işlevini ayırt eder.
-- Dil/sahne ayrıntısı ile karakter veya ilişki çıkarımı arasında açık bağ.
-- Mizahı yalnız ‘komik olması’ ile değil yanlış anlama, söz oyunu veya seyirci etkisiyle açıklama.
+- Tablodaki 4 maddenin her birinin metin kanıtıyla doğru eşleştirilmesi.
+- ‘Kitapta “Bilgi Köşesi — Karagöz oyununun…’ tahlilinde metin dışı dayanaksız varsayımlardan kaçınılarak nesnel delillere dayanılması.
 
 ### Sık yanılgılar
 
 - Bilgi köşesini öğrenciye verilmiş ayrı bir soru sanmak.
-- Öğrenci, Bilgi Köşesi — Karagöz oyununun bölümleri — basılı s.26 görevindeki dil farkını karakterin zekâsı veya değeri hakkında değişmez bir yargı sanabilir.
-- Karagöz oyununun bölümlerini yalnız ezberlenecek başlıklar olarak görüp bölümün sahne işlevini gözden kaçırabilir.
+- ‘Bilgi Köşesi — Karagöz oyununun bölümleri (T1V23_P26_STRUCTURE)’ bölümündeki geleneksel oyun kişilerini çağdaş psikolojik karakterlerle bir tutup tip niteliğini göz ardı etmek.
 
 ### Müdahale
 
-- Bilgi Köşesi — Karagöz oyununun bölümleri — basılı s.26 için müdahale: Öğrenciye aynı sözün farklı bir bağlamda başka bir kişiyi de kurup kuramayacağını sordurun; böylece dil göstergesini kişi değeriyle eşitlemesini ayırın.
-- Bilgi Köşesi — Karagöz oyununun bölümleri — basılı s.26 için müdahale: Diyalogdan bir cümleyi seçip mukaddime, muhavere, fasıl veya bitişten hangisindeki işleviyle okuduğunu açıklattırın.
+- ‘Bilgi Köşesi — Karagöz oyununun bölümleri (T1V23_P26_STRUCTURE)’ doğrultusunda ‘bilgi köşesini öğrenciye verilmiş’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Karakter ile tip arasındaki farkı vurgulayıp ‘Bilgi Köşesi — Karagöz oyununun bölümleri (T1V23_P26_STRUCTURE)’ kişilerinin belirli toplumsal zümreleri temsil eden işlevini metinde gösterin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Dört bölümü sıralı şema hâlinde göster.
-- Öğrenci için ‘Sahnede görülen/söylenen — bunun gösterdiği özellik — seyirci etkisi’ üçlü tablosu kullanın. Bu görevde bağlantı noktası: Bilgi Köşesi — Karagöz oyununun bölümleri.
+- ‘Kitapta “Bilgi Köşesi — Karagöz oyu…’ metnindeki karmaşık ifadeleri öğrencinin kendi sözcükleriyle yeniden ifade etmesini isteyerek Bilgi Köşesi — Karagöz oyununun bölümleri fikrini netleştirin.
 **Zenginleştirme**
 - Yazıcı'dan bir sahneyi ilgili bölüme gerekçeyle yerleştir.
-- Aynı kısa diyaloğu söz varlığı değişmeden beden dili ve ton değişikliğiyle nasıl farklılaştırabileceğini tasarlatın. Bu görevde derinleştirme odağı: Bilgi Köşesi — Karagöz oyununun bölümleri.
+- Öğrencinin ‘Kitapta “Bilgi Köşesi — Karagöz oyu…’ bağlamındaki çıkarımını infografik, dijital sunum veya kavram haritasına dönüştürerek sınıf panosunda sergilemesini sağlayın.
 
 ### Kaynak ve durum
 
@@ -863,53 +858,52 @@ Kitapta “Fark Edelim — Karagöz ve Hacivat'ı karşılaştırma” başlığ
 
 ### Açıklama ve gerekçe
 
-Fark Edelim — Karagöz/Hacivat T diyagramı — basılı s.27 için cevap, Fark Edelim — Karagöz/Hacivat T diyagramı ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Kişilik tahminini doğrudan kullanılan dile dayandırır. Tahmini kesin kişilik hükmü değil metin kanıtına dayalı çıkarım olarak kurar.
+Bu görevdeki ‘Kitapta “Fark Edelim — Karagöz ve Hacivat'ı karşıl…’ tablosundaki maddelerin (Karagöz, Hacivat) doğruluğu, kaynak metindeki açık ifadeler ve çıkarımlar ile karşılaştırılarak temellendirilir. Öğrencinin izlemesi gereken çıkarım yolu; her bir cümleyi tek tek metindeki ifadelerle eşleştirmek, metinde doğrudan doğrulanan yargıları 'Evet', açıkça çelişenleri 'Hayır' ve metinde hakkında hüküm verilmeyen yargıları ise 'Bilgi yok' olarak sınıflandırmaktır. Kişilik tahminini doğrudan kullanılan dile dayandırır. Tahmini kesin kişilik hükmü değil metin kanıtına dayalı çıkarım olarak kurar.
 
 ### Öğretmenin bilmesi gerekenler
 
-Karagöz bölümünde Fark Edelim — Karagöz/Hacivat T diyagramı — basılı s.27 üzerinden geleneksel gölge oyununun seyirlik ve sözlü niteliği ele alınır. Karakterler çoğu zaman yalnız adlarıyla değil, konuşma biçimleri, yanlış anlamaları, toplumsal tipleri ve sahne içindeki işlevleriyle kurulur. Dil farkını bir üstünlük ölçüsü gibi değil, karakterleştirme ve mizahın bağlama bağlı bir aracı olarak açıklayın. Bu görevde özellikle ‘Fark Edelim — Karagöz/Hacivat T diyagramı — Fark Edelim — Karagöz ve…’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Karagöz oyunu, geleneksel Türk seyirlik sanatlarının gölge oyunu koludur; mukaddime, muhavere, fasıl ve bitiş bölümlerinden oluşur. Baş kişiler Karagöz (halkın sağduyulu, saf, okumamış, dobra ve hazırcevap sesi) ile Hacivat'tır (yarı aydın, çıkarcı, kuralcı ve arabulucu Osmanlı aydını). Tipleştirmede dil, şive taklitleri ve yanlış anlamalar mizahın ana kaynağıdır. Öğretmen, bu dil farklarının bir zekâ eksikliği değil, Osmanlı toplumunun çok kültürlü yapısını yansıtan bir sahneleme tekniği olduğunu açıklamalıdır. Bu görevde öğretmenin kılavuzluğu, ‘Kitapta “Fark Edelim — Karagöz ve Hacivat'ı karşıl…’ bağlamında öğrencinin Fark Edelim — Karagöz/Hacivat T diyagramı ve ‘Karagöz: ['günlük ve doğrudan konuşma', …’ arasındaki mantıksal nedensellik bağını metin üzerinden kavramasına odaklanmalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Karagöz’de söylenen söz hem anlam taşır hem de konuşanın kimliğini ve sahnedeki ilişkisini görünür kılar. Bu görevde özellikle Fark Edelim — Karagöz/Hacivat T diyagramı üzerinde durun.
+> Bu soruda, ‘Kitapta “Fark Edelim — Karagöz ve Hacivat'ı k…’ odağını metnin genel anlam akışı içinde değerlendirmeniz gerekmektedir. Tespit ettiğiniz verileri Fark Edelim — Karagöz/Hacivat T diyagramı açısından yorumlayarak ‘Karagöz: ['günlük ve doğrudan konuş…’ yönünde tutarlı bir sonuca varın.
 
 ### Bu görev neden burada?
 
-Bu görev, Fark Edelim — Karagöz/Hacivat T diyagramı bakımından sözlü kültür ürününün biçimsel özelliğini metin kanıtına dönüştürür.
+Öğrencinin ‘Kitapta “Fark Edelim — Karagöz ve Hacivat'ı k…’ incelemesi yoluyla Fark Edelim — Karagöz/Hacivat T diyagramı kavramını içselleştirmesi, edebî metinlerdeki anlam katmanlarını fark etmesine ve ‘Karagöz: ['günlük ve doğrudan konuş…’ yönünde derinlikli bakış kazanmasına zemin hazırlar.
 
 ### Ders içi uygulama
 
 - T diyagramında her kişilik niteliğinin yanına onu düşündüren bir dil göstergesi eklet.
 - Her kişilik çıkarımının yanına onu düşündüren bir dil göstergesi ekletin; konuşma biçiminden değer hiyerarşisi üretmeyin.
-- Fark Edelim — Karagöz/Hacivat T diyagramı — basılı s.27 için öğrencinin seçtiği söz veya sahne ayrıntısını önce aynen işaretletin; ardından bu ayrıntının hangi karakter özelliğini kurduğunu konuşturun.
-- Karagöz-Hacivat farkını ‘biri doğru, biri yanlış’ diye kapatmayın; yanlış anlamanın sahne işlevini ve mizah üretimini görünür kılın.
+- Öğrencilere ‘Fark Edelim — Karagöz/Hacivat T diyagramı (T1V23_P27_COMPARE)’ bağlamındaki anahtar kavramları listeleterek metin taraması yapmalarını sağlayın.
+- Öğrencilere ‘Eğer ‘Karagöz: ['günlük ve doğrudan konuş…’ olmasaydı ne değişirdi?’ sorusunu yönelterek Fark Edelim — Karagöz/Hacivat T diyagramı çıkarımını test edin.
 
 ### Öğrenci cevaplarını değerlendirme
 
 - Dil göstergesi → kişilik çıkarımı eşleşmesi.
 - Kişilik tahminini doğrudan kullanılan dile dayandırır.
 - Tahmini kesin kişilik hükmü değil metin kanıtına dayalı çıkarım olarak kurar.
-- Dil/sahne ayrıntısı ile karakter veya ilişki çıkarımı arasında açık bağ.
+- Tablodaki 2 maddenin her birinin metin kanıtıyla doğru eşleştirilmesi.
 
 ### Sık yanılgılar
 
 - Konuşma biçiminden sosyal/kültürel üstünlük sonucu çıkarmak.
-- Öğrenci, Fark Edelim — Karagöz/Hacivat T diyagramı — basılı s.27 görevindeki dil farkını karakterin zekâsı veya değeri hakkında değişmez bir yargı sanabilir.
-- Karagöz oyununun bölümlerini yalnız ezberlenecek başlıklar olarak görüp bölümün sahne işlevini gözden kaçırabilir.
+- ‘Fark Edelim — Karagöz/Hacivat T diyagramı (T1V23_P27_COMPARE)’ bölümündeki geleneksel oyun kişilerini çağdaş psikolojik karakterlerle bir tutup tip niteliğini göz ardı etmek.
 
 ### Müdahale
 
-- Fark Edelim — Karagöz/Hacivat T diyagramı — basılı s.27 için müdahale: Öğrenciye aynı sözün farklı bir bağlamda başka bir kişiyi de kurup kuramayacağını sordurun; böylece dil göstergesini kişi değeriyle eşitlemesini ayırın. Müdahaleyi ‘Fark Edelim — Karagöz/Hacivat T diyagramı — Fark Edelim — Karagöz ve…’ ayrıntısını kullandırarak somutlaştırın.
-- Fark Edelim — Karagöz/Hacivat T diyagramı — basılı s.27 için müdahale: Diyalogdan bir cümleyi seçip mukaddime, muhavere, fasıl veya bitişten hangisindeki işleviyle okuduğunu açıklattırın. Müdahaleyi ‘Fark Edelim — Karagöz/Hacivat T diyagramı — Fark Edelim — Karagöz ve…’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Fark Edelim — Karagöz/Hacivat T diyagramı (T1V23_P27_COMPARE)’ doğrultusunda ‘konuşma biçiminden sosyal kültürel’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Karakter ile tip arasındaki farkı vurgulayıp ‘Fark Edelim — Karagöz/Hacivat T diyagramı (T1V23_P27_COMPARE)’ kişilerinin belirli toplumsal zümreleri temsil eden işlevini metinde gösterin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Kelime seçimi, hitap, tepki, yanlış anlama ipuçlarını ver.
-- Öğrenci için ‘Sahnede görülen/söylenen — bunun gösterdiği özellik — seyirci etkisi’ üçlü tablosu kullanın. Bu görevde bağlantı noktası: Fark Edelim — Karagöz/Hacivat T diyagramı.
+- Öğrencinin ‘Kitapta “Fark Edelim — Karagöz ve H…’ konusundaki öğrenme deneyimini bir akranıyla paylaşarak Fark Edelim — Karagöz/Hacivat T diyagramı farkındalığı kazanmasını destekleyin.
 **Zenginleştirme**
 - Karagöz ve Hacivat'ın dilleri yer değiştirse mizahın nasıl değişeceğini tartıştır.
-- Aynı kısa diyaloğu söz varlığı değişmeden beden dili ve ton değişikliğiyle nasıl farklılaştırabileceğini tasarlatın. Bu görevde derinleştirme odağı: Fark Edelim — Karagöz/Hacivat T diyagramı.
+- ‘Kitapta “Fark Edelim — Karagöz ve H…’ alanında kendi öğrenme sürecini eleştirel gözle değerlendiren ve hedefler koyan bir gelişim notu yazdırın.
 
 ### Kaynak ve durum
 
@@ -952,19 +946,19 @@ Tiplerin söz varlığı eğitim ve sosyal çevrelerini ayırt etmeye yardım ed
 
 ### Açıklama ve gerekçe
 
-Soru 1 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.28 için beklenen yön, söz seçimi ve karakter/bağlam ilişkisi yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. 1. soruda en az bir metin kanıtı kullanır. 2. soruda söz varlığı dışındaki en az bir karakterleştirme yolunu açıklar.
+Beklenen cevap, söz seçimi ve karakter/bağlam ilişkisi çerçevesinde ‘Yazıcı metnindeki tiplerin söz varlıklarının onlar…’ konusunu metnin sunduğu veriler ve kavramsal dayanaklar üzerinden şekillendirir. Bu cevabın uygunluğu, 1. soruda en az bir metin kanıtı kullanır. 2. soruda söz varlığı dışındaki en az bir karakterleştirme yolunu açıklar. ölçütünün karşılanmasına ve öğrencinin metindeki olay/durum ayrıntılarını nedensellik bağıyla kurmasına dayanır. Öğrencinin izlemesi gereken çıkarım yolu; öncelikle metindeki kanıt niteliği taşıyan ifadeleri belirlemek, ardından bu göstergeleri kavramsal odakla ilişkilendirerek kendi gerekçeli açıklamasını oluşturmaktır. Öğrenci aynı sonucu farklı sözcüklerle ifade edebilir; temel iddia ile metin dayanağı arasındaki mantıksal tutarlılık korunduğu sürece kişisel yorumlar alternatif cevap olarak kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Karagöz bölümünde Soru 1 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.28 üzerinden geleneksel gölge oyununun seyirlik ve sözlü niteliği ele alınır. Karakterler çoğu zaman yalnız adlarıyla değil, konuşma biçimleri, yanlış anlamaları, toplumsal tipleri ve sahne içindeki işlevleriyle kurulur. Dil farkını bir üstünlük ölçüsü gibi değil, karakterleştirme ve mizahın bağlama bağlı bir aracı olarak açıklayın. Bu görevde özellikle ‘Yazıcı metnindeki tiplerin söz varlıklarının onların sosyal statülerine ve eğitim durumlarına uygunluğu…’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Karagöz oyunu, geleneksel Türk seyirlik sanatlarının gölge oyunu koludur; mukaddime, muhavere, fasıl ve bitiş bölümlerinden oluşur. Baş kişiler Karagöz (halkın sağduyulu, saf, okumamış, dobra ve hazırcevap sesi) ile Hacivat'tır (yarı aydın, çıkarcı, kuralcı ve arabulucu Osmanlı aydını). Tipleştirmede dil, şive taklitleri ve yanlış anlamalar mizahın ana kaynağıdır. Öğretmen, bu dil farklarının bir zekâ eksikliği değil, Osmanlı toplumunun çok kültürlü yapısını yansıtan bir sahneleme tekniği olduğunu açıklamalıdır. Bu görev tahlilinde öğretmen, söz seçimi ve karakter/bağlam ilişkisi odağında ‘Yazıcı metnindeki tiplerin söz varlıklarının onlar…’ sorusuna yönelik yanıtların metin içi tutarlılığını denetlemeli ve yüzeysel yorumların ötesine geçilmesini sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Karagöz’de söylenen söz hem anlam taşır hem de konuşanın kimliğini ve sahnedeki ilişkisini görünür kılar. Bu görevde özellikle söz seçimi ve karakter/bağlam ilişkisi üzerinde durun.
+> Görevin temel amacı, ‘Yazıcı metnindeki tiplerin söz varlıklarının …’ ayrıntısı üzerinden söz seçimi ve karakter/bağlam ilişkisi kavramını kavramanızdır. Metindeki ilgili cümleleri bularak ‘Tiplerin söz varlığı eğitim ve sosy…’ bağlamındaki düşüncenizi kendi cümlelerinizle ortaya koyun.
 
 ### Bu görev neden burada?
 
-Bu görev, söz seçimi ve karakter/bağlam ilişkisi bakımından sözlü kültür ürününün biçimsel özelliğini metin kanıtına dönüştürür.
+Bu soru, ‘Yazıcı metnindeki tiplerin söz varlıklarının …’ ayrıntısını söz seçimi ve karakter/bağlam ilişkisi ile birleştirerek dil ve edebiyat çalışmalarında neden-sonuç ilişkisi kurma ve ‘Tiplerin söz varlığı eğitim ve sosy…’ bağlamını kavrama yeterliğini güçlendirir.
 
 ### Kabul edilebilir cevaplar
 
@@ -975,13 +969,13 @@ Bu görev, söz seçimi ve karakter/bağlam ilişkisi bakımından sözlü kült
 
 - Ağız/şive farklılığını üstünlük-aşağılık eksenine taşımadan karakter oluşturma ve kültürel çeşitlilik üzerinden işle.
 - Ağız ve konuşma farklılıklarını üstünlük-aşağılık eksenine taşımadan karakter oluşturma ve kültürel çeşitlilik üzerinden işleyin.
-- Soru 1 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.28 için öğrencinin seçtiği söz veya sahne ayrıntısını önce aynen işaretletin; ardından bu ayrıntının hangi karakter özelliğini kurduğunu konuşturun.
-- Karagöz-Hacivat farkını ‘biri doğru, biri yanlış’ diye kapatmayın; yanlış anlamanın sahne işlevini ve mizah üretimini görünür kılın.
+- Öğrencilerden metinde ‘Yazıcı metnindeki tiplerin söz varlıklar…’ konusuna kaynaklık eden temel ifadelerin altını çizmelerini isteyin.
+- Öğrencilerin tespit ettiği kanıtları karşılaştırarak hangisinin söz seçimi ve karakter/bağlam ilişkisi iddiasını daha güçlü desteklediğini sorgulatın.
 
 ### Takip soruları
 
-- Soru 1 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.28 içinde bu yorumu taşıyan konuşma ayrıntısı hangisi; aynı ayrıntı çıkarılsa karakter ilişkisi nasıl değişirdi? Özellikle ‘Yazıcı metnindeki tiplerin söz varlıklarının onların sosyal statülerine ve eğitim durumlarına uygunluğu…’ ayrıntısını yoklayın.
-- Soru 1 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.28 için düşünme sorusu: Bu unsur yalnız bilgi vermiyor, seyirciyi nasıl bir tepkiye yönlendiriyor? Özellikle ‘Yazıcı metnindeki tiplerin söz varlıklarının onların sosyal statülerine ve eğitim durumlarına uygunluğu…’ ayrıntısını yoklayın.
+- ‘Yazıcı metnindeki tiplerin söz varlıklar…’ cümlesindeki dilbilgisi tercihinin metnin genel anlatım akışı ve anlam bütünlüğüne etkisi nedir?
+- Eğer ‘Yazıcı metnindeki tiplerin söz varlıklar…’ ifadesinde kullanılan dil bilgisel yapı değiştirilseydi, cümlenin ilettiği anlam ve vurgu nasıl başkalaşırdı?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -993,22 +987,21 @@ Bu görev, söz seçimi ve karakter/bağlam ilişkisi bakımından sözlü kült
 ### Sık yanılgılar
 
 - Farklı konuşma biçimlerini kusur veya zekâ göstergesi saymak.
-- Öğrenci, Soru 1 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.28 görevindeki dil farkını karakterin zekâsı veya değeri hakkında değişmez bir yargı sanabilir.
-- Karagöz oyununun bölümlerini yalnız ezberlenecek başlıklar olarak görüp bölümün sahne işlevini gözden kaçırabilir.
+- Metinde art arda gelen durumları veya olayları doğrudan bir neden-sonuç ilişkisi sanarak söz seçimi ve karakter/bağlam ilişkisi çıkarımında yanılgıya düşmek.
 
 ### Müdahale
 
-- Soru 1 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.28 için müdahale: Öğrenciye aynı sözün farklı bir bağlamda başka bir kişiyi de kurup kuramayacağını sordurun; böylece dil göstergesini kişi değeriyle eşitlemesini ayırın. Müdahaleyi ‘Yazıcı metnindeki tiplerin söz varlıklarının onların sosyal statülerine ve eğitim durumlarına uygunluğu…’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 1 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.28 için müdahale: Diyalogdan bir cümleyi seçip mukaddime, muhavere, fasıl veya bitişten hangisindeki işleviyle okuduğunu açıklattırın. Müdahaleyi ‘Yazıcı metnindeki tiplerin söz varlıklarının onların sosyal statülerine ve eğitim durumlarına uygunluğu…’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciden ‘Yazıcı metnindeki tiplerin söz varl…’ bağlamında ‘farklı konuşma biçimlerini kusur’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- Olaylar arasındaki mantıksal nedensellik bağını ve gerekçe ifadelerini ‘Yazıcı metnindeki tiplerin söz varl…’ metni üzerinde buldurup sebep-sonuç farkını gösterin ve tartışın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Dil özelliği → kişi hakkında çıkarım kalıbını kullan.
-- Öğrenci için ‘Sahnede görülen/söylenen — bunun gösterdiği özellik — seyirci etkisi’ üçlü tablosu kullanın. Bu görevde bağlantı noktası: söz seçimi ve karakter/bağlam ilişkisi.
+- ‘Yazıcı metnindeki tiplerin söz varl…’ konusunu daha sade yönlendirici alt sorulara bölerek öğrencinin ‘Tiplerin söz varlığı eğitim ve…’ sonucuna kademeli olarak ulaşmasına rehberlik edin.
 **Zenginleştirme**
 - Aynı kişiyi söz varlığı yerine davranışla karakterleştiren kısa örnek oluştur.
-- Aynı kısa diyaloğu söz varlığı değişmeden beden dili ve ton değişikliğiyle nasıl farklılaştırabileceğini tasarlatın. Bu görevde derinleştirme odağı: söz seçimi ve karakter/bağlam ilişkisi.
+- ‘Yazıcı metnindeki tiplerin söz varl…’ tahlilini yazarın edebî dönemi, sanat anlayışı ve dönemin toplumsal koşullarıyla ilişkilendiren bir araştırma sorusu geliştirtin.
 
 ### Kaynak ve durum
 
@@ -1051,19 +1044,19 @@ Aynı kişileştirme etkisi davranış, kıyafet, meslek, çevre, ilişkiler vey
 
 ### Açıklama ve gerekçe
 
-Soru 2 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.28 için beklenen yön, söz seçimi ve karakter/bağlam ilişkisi yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. 1. soruda en az bir metin kanıtı kullanır. 2. soruda söz varlığı dışındaki en az bir karakterleştirme yolunu açıklar.
+Beklenen cevabın temeli, söz seçimi ve karakter/bağlam ilişkisi ekseninde ‘Edebî metinlerde kişilerin kullandığı söz varlığın…’ bağlamını aydınlatan metin kanıtlarının doğru tahlil edilmesidir. Yanıtın kabul edilebilirliği; 1. soruda en az bir metin kanıtı kullanır. 2. soruda söz varlığı dışındaki en az bir karakterleştirme yolunu açıklar. ölçütüne bağlı kalınmasına ve metindeki verilerin tarafsız biçimde yorumlanmasına bağlıdır. Öğrenci; önce ilgili bilgiyi kaynaktan süzmeli, ardından bu bilgiyi sorunun gerektirdiği kavramsal çerçeveye oturtmalıdır. Metin sınırlarını aşmayan ve dayanağı gösterilen özgün öğrenci yorumları da geçerli sayılır.
 
 ### Öğretmenin bilmesi gerekenler
 
-Karagöz bölümünde Soru 2 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.28 üzerinden geleneksel gölge oyununun seyirlik ve sözlü niteliği ele alınır. Karakterler çoğu zaman yalnız adlarıyla değil, konuşma biçimleri, yanlış anlamaları, toplumsal tipleri ve sahne içindeki işlevleriyle kurulur. Dil farkını bir üstünlük ölçüsü gibi değil, karakterleştirme ve mizahın bağlama bağlı bir aracı olarak açıklayın. Bu görevde özellikle ‘Edebî metinlerde kişilerin kullandığı söz varlığının metne katkısı başka bir yolla sağlanabilir…’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Karagöz oyunu, geleneksel Türk seyirlik sanatlarının gölge oyunu koludur; mukaddime, muhavere, fasıl ve bitiş bölümlerinden oluşur. Baş kişiler Karagöz (halkın sağduyulu, saf, okumamış, dobra ve hazırcevap sesi) ile Hacivat'tır (yarı aydın, çıkarcı, kuralcı ve arabulucu Osmanlı aydını). Tipleştirmede dil, şive taklitleri ve yanlış anlamalar mizahın ana kaynağıdır. Öğretmen, bu dil farklarının bir zekâ eksikliği değil, Osmanlı toplumunun çok kültürlü yapısını yansıtan bir sahneleme tekniği olduğunu açıklamalıdır. Bu görevde öğretmenin kılavuzluğu, ‘Edebî metinlerde kişilerin kullandığı söz varlığın…’ bağlamında öğrencinin söz seçimi ve karakter/bağlam ilişkisi ve ‘Aynı kişileştirme etkisi davranış, kıyaf…’ arasındaki mantıksal nedensellik bağını metin üzerinden kavramasına odaklanmalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Karagöz’de söylenen söz hem anlam taşır hem de konuşanın kimliğini ve sahnedeki ilişkisini görünür kılar. Bu görevde özellikle söz seçimi ve karakter/bağlam ilişkisi üzerinde durun.
+> Bu soruda, ‘Edebî metinlerde kişilerin kullandığı söz var…’ odağını metnin genel anlam akışı içinde değerlendirmeniz gerekmektedir. Tespit ettiğiniz verileri söz seçimi ve karakter/bağlam ilişkisi açısından yorumlayarak ‘Aynı kişileştirme etkisi davranış, …’ yönünde tutarlı bir sonuca varın.
 
 ### Bu görev neden burada?
 
-Bu görev, söz seçimi ve karakter/bağlam ilişkisi bakımından sözlü kültür ürününün biçimsel özelliğini metin kanıtına dönüştürür.
+Öğrencinin ‘Edebî metinlerde kişilerin kullandığı söz var…’ incelemesi yoluyla söz seçimi ve karakter/bağlam ilişkisi kavramını içselleştirmesi, edebî metinlerdeki anlam katmanlarını fark etmesine ve ‘Aynı kişileştirme etkisi davranış, …’ yönünde derinlikli bakış kazanmasına zemin hazırlar.
 
 ### Kabul edilebilir cevaplar
 
@@ -1074,13 +1067,13 @@ Bu görev, söz seçimi ve karakter/bağlam ilişkisi bakımından sözlü kült
 
 - Ağız/şive farklılığını üstünlük-aşağılık eksenine taşımadan karakter oluşturma ve kültürel çeşitlilik üzerinden işle.
 - Ağız ve konuşma farklılıklarını üstünlük-aşağılık eksenine taşımadan karakter oluşturma ve kültürel çeşitlilik üzerinden işleyin.
-- Soru 2 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.28 için öğrencinin seçtiği söz veya sahne ayrıntısını önce aynen işaretletin; ardından bu ayrıntının hangi karakter özelliğini kurduğunu konuşturun.
-- Karagöz-Hacivat farkını ‘biri doğru, biri yanlış’ diye kapatmayın; yanlış anlamanın sahne işlevini ve mizah üretimini görünür kılın.
+- Metindeki anlatım tutumunu fark ettirmek için ‘Edebî metinlerde kişilerin kullandığı sö…’ bölümünü sesli okutun.
+- Belirlenen alıntıların söz seçimi ve karakter/bağlam ilişkisi ve ‘Aynı kişileştirme etkisi davranış, …’ açısından ne ifade ettiğini sınıf tartışmasıyla derinleştirin.
 
 ### Takip soruları
 
-- Soru 2 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.28 içinde bu yorumu taşıyan konuşma ayrıntısı hangisi; aynı ayrıntı çıkarılsa karakter ilişkisi nasıl değişirdi? Özellikle ‘Edebî metinlerde kişilerin kullandığı söz varlığının metne katkısı başka bir yolla sağlanabilir…’ ayrıntısını yoklayın.
-- Soru 2 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.28 için düşünme sorusu: Bu unsur yalnız bilgi vermiyor, seyirciyi nasıl bir tepkiye yönlendiriyor? Özellikle ‘Edebî metinlerde kişilerin kullandığı söz varlığının metne katkısı başka bir yolla sağlanabilir…’ ayrıntısını yoklayın.
+- Karakterin ‘Edebî metinlerde kişilerin kullandığı sö…’ karşısındaki tutumu, eserdeki temel dramatik çatışmayı nasıl beslemektedir?
+- ‘Edebî metinlerde kişilerin kullandığı sö…’ kesitindeki tipin dil ve aksan özellikleri, söz seçimi ve karakter/bağlam ilişkisi algısını güçlendirmede nasıl bir rol oynar?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -1092,22 +1085,21 @@ Bu görev, söz seçimi ve karakter/bağlam ilişkisi bakımından sözlü kült
 ### Sık yanılgılar
 
 - Farklı konuşma biçimlerini kusur veya zekâ göstergesi saymak.
-- Öğrenci, Soru 2 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.28 görevindeki dil farkını karakterin zekâsı veya değeri hakkında değişmez bir yargı sanabilir.
-- Karagöz oyununun bölümlerini yalnız ezberlenecek başlıklar olarak görüp bölümün sahne işlevini gözden kaçırabilir.
+- ‘Edebî metinlerde kişilerin kullandı…’ konusunu metnin bütünsel ana iletisinden kopararak tek bir ayrıntı üzerinden genellemeye gitmek.
 
 ### Müdahale
 
-- Soru 2 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.28 için müdahale: Öğrenciye aynı sözün farklı bir bağlamda başka bir kişiyi de kurup kuramayacağını sordurun; böylece dil göstergesini kişi değeriyle eşitlemesini ayırın. Müdahaleyi ‘Edebî metinlerde kişilerin kullandığı söz varlığının metne katkısı başka bir yolla sağlanabilir…’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 2 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.28 için müdahale: Diyalogdan bir cümleyi seçip mukaddime, muhavere, fasıl veya bitişten hangisindeki işleviyle okuduğunu açıklattırın. Müdahaleyi ‘Edebî metinlerde kişilerin kullandığı söz varlığının metne katkısı başka bir yolla sağlanabilir…’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Edebî metinlerde kişilerin kullandı…’ doğrultusunda ‘farklı konuşma biçimlerini kusur’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- ‘Edebî metinlerde kişilerin kullandı…’ ayrıntısının metnin genel iletisine ve söz seçimi ve karakter/bağlam ilişkisi amacına nasıl bağlandığını metin parçalarını yan yana getirerek gösterin ve açıklattırın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Dil özelliği → kişi hakkında çıkarım kalıbını kullan.
-- Öğrenci için ‘Sahnede görülen/söylenen — bunun gösterdiği özellik — seyirci etkisi’ üçlü tablosu kullanın. Bu görevde bağlantı noktası: söz seçimi ve karakter/bağlam ilişkisi.
+- ‘Edebî metinlerde kişilerin kullandı…’ metnindeki karmaşık ifadeleri öğrencinin kendi sözcükleriyle yeniden ifade etmesini isteyerek söz seçimi ve karakter/bağlam ilişkisi fikrini netleştirin.
 **Zenginleştirme**
 - Aynı kişiyi söz varlığı yerine davranışla karakterleştiren kısa örnek oluştur.
-- Aynı kısa diyaloğu söz varlığı değişmeden beden dili ve ton değişikliğiyle nasıl farklılaştırabileceğini tasarlatın. Bu görevde derinleştirme odağı: söz seçimi ve karakter/bağlam ilişkisi.
+- Öğrencinin ‘Edebî metinlerde kişilerin kullandı…’ bağlamındaki çıkarımını infografik, dijital sunum veya kavram haritasına dönüştürerek sınıf panosunda sergilemesini sağlayın.
 
 ### Kaynak ve durum
 
@@ -1150,19 +1142,19 @@ Günlük hayattaki ağız ve konuşma farklılıkları dilsel/kültürel çeşit
 
 ### Açıklama ve gerekçe
 
-Soru 3 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.28 için beklenen yön, söz seçimi ve karakter/bağlam ilişkisi yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. 1. soruda en az bir metin kanıtı kullanır. 2. soruda söz varlığı dışındaki en az bir karakterleştirme yolunu açıklar.
+Soruya verilecek uygun cevap, ‘Günlük hayatta Yazıcı oyunundaki tiplere benzer şe…’ yönündeki çıkarımı söz seçimi ve karakter/bağlam ilişkisi hedefleri doğrultusunda yapılandırır. Çözümlemenin geçerliliği, 1. soruda en az bir metin kanıtı kullanır. 2. soruda söz varlığı dışındaki en az bir karakterleştirme yolunu açıklar. koşuluna uyulması ve iddiaların metindeki açık veya örtük ifadelerle doğrulanmasıyla sağlanır. Öğrencinin akıl yürütme süreci; sorunun işaret ettiği metin bölümünü belirlemek, oradaki dil ve anlatım ipuçlarını değerlendirmek ve ulaştığı yargıyı gerekçelendirmektir. Metin özüyle örtüşen ve mantıksal nedensellik taşıyan alternatif anlatımlar doğru yanıt olarak değerlendirilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Karagöz bölümünde Soru 3 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.28 üzerinden geleneksel gölge oyununun seyirlik ve sözlü niteliği ele alınır. Karakterler çoğu zaman yalnız adlarıyla değil, konuşma biçimleri, yanlış anlamaları, toplumsal tipleri ve sahne içindeki işlevleriyle kurulur. Dil farkını bir üstünlük ölçüsü gibi değil, karakterleştirme ve mizahın bağlama bağlı bir aracı olarak açıklayın. Bu görevde özellikle ‘Günlük hayatta Yazıcı oyunundaki tiplere benzer şekilde konuşan veya davranan kişilerle karşılaştığınızda…’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Karagöz oyunu, geleneksel Türk seyirlik sanatlarının gölge oyunu koludur; mukaddime, muhavere, fasıl ve bitiş bölümlerinden oluşur. Baş kişiler Karagöz (halkın sağduyulu, saf, okumamış, dobra ve hazırcevap sesi) ile Hacivat'tır (yarı aydın, çıkarcı, kuralcı ve arabulucu Osmanlı aydını). Tipleştirmede dil, şive taklitleri ve yanlış anlamalar mizahın ana kaynağıdır. Öğretmen, bu dil farklarının bir zekâ eksikliği değil, Osmanlı toplumunun çok kültürlü yapısını yansıtan bir sahneleme tekniği olduğunu açıklamalıdır. Bu görev sürecinde öğretmen, söz seçimi ve karakter/bağlam ilişkisi doğrultusunda ‘Günlük hayatta Yazıcı oyunundaki tiplere benzer şe…’ sorusunu çözümlerken öğrencilerin somut metin delilleriyle argüman geliştirmelerini teşvik etmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Karagöz’de söylenen söz hem anlam taşır hem de konuşanın kimliğini ve sahnedeki ilişkisini görünür kılar. Bu görevde özellikle söz seçimi ve karakter/bağlam ilişkisi üzerinde durun.
+> Yönergeyi uygularken önce metindeki ‘Günlük hayatta Yazıcı oyunundaki tiplere benz…’ ifadelerini işaretleyin; ardından bu unsurların söz seçimi ve karakter/bağlam ilişkisi hedefine nasıl hizmet ettiğini ve ‘Günlük hayattaki ağız ve konuşma fa…’ ile ilişkisini açıklayın.
 
 ### Bu görev neden burada?
 
-Bu görev, söz seçimi ve karakter/bağlam ilişkisi bakımından sözlü kültür ürününün biçimsel özelliğini metin kanıtına dönüştürür.
+Bu etkinlik, söz seçimi ve karakter/bağlam ilişkisi alanında ‘Günlük hayatta Yazıcı oyunundaki tiplere benz…’ doğrultusunda öğrencinin kendi düşüncesini kaynak dayanaklarıyla savunmasını ve tutarlı bir ifade becerisi inşa etmesini amaçlar.
 
 ### Kabul edilebilir cevaplar
 
@@ -1173,13 +1165,13 @@ Bu görev, söz seçimi ve karakter/bağlam ilişkisi bakımından sözlü kült
 
 - Ağız/şive farklılığını üstünlük-aşağılık eksenine taşımadan karakter oluşturma ve kültürel çeşitlilik üzerinden işle.
 - Ağız ve konuşma farklılıklarını üstünlük-aşağılık eksenine taşımadan karakter oluşturma ve kültürel çeşitlilik üzerinden işleyin.
-- Soru 3 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.28 için öğrencinin seçtiği söz veya sahne ayrıntısını önce aynen işaretletin; ardından bu ayrıntının hangi karakter özelliğini kurduğunu konuşturun.
-- Karagöz-Hacivat farkını ‘biri doğru, biri yanlış’ diye kapatmayın; yanlış anlamanın sahne işlevini ve mizah üretimini görünür kılın.
+- Öğrencilerden söz seçimi ve karakter/bağlam ilişkisi açısından metindeki zıtlık ve benzerlikleri belirleyerek not almalarını isteyin.
+- İddialar ile ‘Günlük hayatta Yazıcı oyunundaki tiplere…’ kanıtları arasındaki mantıksal bağı adım adım sorgulatarak temellendirin.
 
 ### Takip soruları
 
-- Soru 3 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.28 içinde bu yorumu taşıyan konuşma ayrıntısı hangisi; aynı ayrıntı çıkarılsa karakter ilişkisi nasıl değişirdi? Özellikle ‘Günlük hayatta Yazıcı oyunundaki tiplere benzer şekilde konuşan veya davranan kişilerle karşılaştığınızda…’ ayrıntısını yoklayın.
-- Soru 3 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.28 için düşünme sorusu: Bu unsur yalnız bilgi vermiyor, seyirciyi nasıl bir tepkiye yönlendiriyor? Özellikle ‘Günlük hayatta Yazıcı oyunundaki tiplere benzer şekilde konuşan veya davranan kişilerle karşılaştığınızda…’ ayrıntısını yoklayın.
+- Metinde ‘Günlük hayatta Yazıcı oyunundaki tiplere…’ kullanımına benzer başka bir örnek bulunabilir mi; bu iki örnek yazarın üslubunu nasıl yansıtmaktadır?
+- ‘Günlük hayatta Yazıcı oyunundaki tiplere…’ yapısındaki dil bilgisel işlevin, konuşurun ya da anlatıcının ruh hâlini yansıtmadaki rolü nedir?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -1191,22 +1183,21 @@ Bu görev, söz seçimi ve karakter/bağlam ilişkisi bakımından sözlü kült
 ### Sık yanılgılar
 
 - Farklı konuşma biçimlerini kusur veya zekâ göstergesi saymak.
-- Öğrenci, Soru 3 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.28 görevindeki dil farkını karakterin zekâsı veya değeri hakkında değişmez bir yargı sanabilir.
-- Karagöz oyununun bölümlerini yalnız ezberlenecek başlıklar olarak görüp bölümün sahne işlevini gözden kaçırabilir.
+- Metindeki örtük anlamları ve yazarın ima ettiği düşünceleri göz ardı edip ‘Günlük hayatta Yazıcı oyunundaki ti…’ için yalnızca açık ifadelere odaklanmak.
 
 ### Müdahale
 
-- Soru 3 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.28 için müdahale: Öğrenciye aynı sözün farklı bir bağlamda başka bir kişiyi de kurup kuramayacağını sordurun; böylece dil göstergesini kişi değeriyle eşitlemesini ayırın. Müdahaleyi ‘Günlük hayatta Yazıcı oyunundaki tiplere benzer şekilde konuşan veya davranan kişilerle karşılaştığınızda…’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 3 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.28 için müdahale: Diyalogdan bir cümleyi seçip mukaddime, muhavere, fasıl veya bitişten hangisindeki işleviyle okuduğunu açıklattırın. Müdahaleyi ‘Günlük hayatta Yazıcı oyunundaki tiplere benzer şekilde konuşan veya davranan kişilerle karşılaştığınızda…’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciye ‘Günlük hayatta Yazıcı oyunundaki ti…’ çerçevesinde ‘farklı konuşma biçimlerini kusur’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- ‘Günlük hayatta Yazıcı oyunundaki ti…’ metnindeki benzetme, karşıtlık ve çağrışım unsurlarını işaretleterek yazarın satır aralarındaki örtük anlamını ve amacını sorgulatın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Dil özelliği → kişi hakkında çıkarım kalıbını kullan.
-- Öğrenci için ‘Sahnede görülen/söylenen — bunun gösterdiği özellik — seyirci etkisi’ üçlü tablosu kullanın. Bu görevde bağlantı noktası: söz seçimi ve karakter/bağlam ilişkisi.
+- Öğrenciye ‘Günlük hayatta Yazıcı oyunundaki ti…’ adımlarını basitleştiren yönlendirici sorularla rehberlik edin.
 **Zenginleştirme**
 - Aynı kişiyi söz varlığı yerine davranışla karakterleştiren kısa örnek oluştur.
-- Aynı kısa diyaloğu söz varlığı değişmeden beden dili ve ton değişikliğiyle nasıl farklılaştırabileceğini tasarlatın. Bu görevde derinleştirme odağı: söz seçimi ve karakter/bağlam ilişkisi.
+- Öğrencinin ‘Günlük hayatta Yazıcı oyunundaki ti…’ üzerinden ulaştığı farkındalığı günlük hayattaki bir deneyimiyle ilişkilendirerek ‘Günlük hayattaki ağız ve konuş…’ bağlamında derinleştirmesini sağlayın.
 
 ### Kaynak ve durum
 
@@ -1249,19 +1240,19 @@ Farklılıklara rağmen dostluğun sürdürülebilmesi için karşılıklı sayg
 
 ### Açıklama ve gerekçe
 
-Soru 1 — farklılıklar içinde dostluk ve iletişim — basılı s.29 için beklenen yön, farklılıklar içinde dostluk ve iletişim yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Dostluğun sürdürülmesini en az bir iletişim davranışıyla ilişkilendirir. Kişisel dostluk tanımını gerekçelendirir.
+Beklenen cevap, farklılıklar içinde dostluk ve iletişim çerçevesinde ‘Hacivat ve Karagöz’ün kişilik özellikleri, eğitim …’ konusunu metnin sunduğu veriler ve kavramsal dayanaklar üzerinden şekillendirir. Bu cevabın uygunluğu, Dostluğun sürdürülmesini en az bir iletişim davranışıyla ilişkilendirir. Kişisel dostluk tanımını gerekçelendirir. ölçütünün karşılanmasına ve öğrencinin metindeki olay/durum ayrıntılarını nedensellik bağıyla kurmasına dayanır. Öğrencinin izlemesi gereken çıkarım yolu; öncelikle metindeki kanıt niteliği taşıyan ifadeleri belirlemek, ardından bu göstergeleri kavramsal odakla ilişkilendirerek kendi gerekçeli açıklamasını oluşturmaktır. Öğrenci aynı sonucu farklı sözcüklerle ifade edebilir; temel iddia ile metin dayanağı arasındaki mantıksal tutarlılık korunduğu sürece kişisel yorumlar alternatif cevap olarak kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Karagöz bölümünde Soru 1 — farklılıklar içinde dostluk ve iletişim — basılı s.29 üzerinden geleneksel gölge oyununun seyirlik ve sözlü niteliği ele alınır. Karakterler çoğu zaman yalnız adlarıyla değil, konuşma biçimleri, yanlış anlamaları, toplumsal tipleri ve sahne içindeki işlevleriyle kurulur. Dil farkını bir üstünlük ölçüsü gibi değil, karakterleştirme ve mizahın bağlama bağlı bir aracı olarak açıklayın. Bu görevde özellikle ‘Hacivat ve Karagöz’ün kişilik özellikleri, eğitim durumları, kültür düzeyleri ve sosyal statüleri…’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Karagöz oyunu, geleneksel Türk seyirlik sanatlarının gölge oyunu koludur; mukaddime, muhavere, fasıl ve bitiş bölümlerinden oluşur. Baş kişiler Karagöz (halkın sağduyulu, saf, okumamış, dobra ve hazırcevap sesi) ile Hacivat'tır (yarı aydın, çıkarcı, kuralcı ve arabulucu Osmanlı aydını). Tipleştirmede dil, şive taklitleri ve yanlış anlamalar mizahın ana kaynağıdır. Öğretmen, bu dil farklarının bir zekâ eksikliği değil, Osmanlı toplumunun çok kültürlü yapısını yansıtan bir sahneleme tekniği olduğunu açıklamalıdır. Bu görev sürecinde öğretmen, farklılıklar içinde dostluk ve iletişim doğrultusunda ‘Hacivat ve Karagöz’ün kişilik özellikleri, eğitim …’ sorusunu çözümlerken öğrencilerin somut metin delilleriyle argüman geliştirmelerini teşvik etmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Karagöz’de söylenen söz hem anlam taşır hem de konuşanın kimliğini ve sahnedeki ilişkisini görünür kılar. Bu görevde özellikle farklılıklar içinde dostluk ve iletişim üzerinde durun.
+> Yönergeyi uygularken önce metindeki ‘Hacivat ve Karagöz’ün kişilik özellikleri, eğ…’ ifadelerini işaretleyin; ardından bu unsurların farklılıklar içinde dostluk ve iletişim hedefine nasıl hizmet ettiğini ve ‘Farklılıklara rağmen dostluğun sürd…’ ile ilişkisini açıklayın.
 
 ### Bu görev neden burada?
 
-Bu görev, farklılıklar içinde dostluk ve iletişim bakımından sözlü kültür ürününün biçimsel özelliğini metin kanıtına dönüştürür.
+Bu etkinlik, farklılıklar içinde dostluk ve iletişim alanında ‘Hacivat ve Karagöz’ün kişilik özellikleri, eğ…’ doğrultusunda öğrencinin kendi düşüncesini kaynak dayanaklarıyla savunmasını ve tutarlı bir ifade becerisi inşa etmesini amaçlar.
 
 ### Kabul edilebilir cevaplar
 
@@ -1272,39 +1263,37 @@ Bu görev, farklılıklar içinde dostluk ve iletişim bakımından sözlü kül
 
 - Kişisel tanımda tek kalıp cevap bekleme; tutarlılık ve gerekçe değerlendir.
 - Kişisel dostluk tanımında tek kalıp cevap beklemeyin; tutarlılık ve gerekçeyi değerlendirin.
-- Soru 1 — farklılıklar içinde dostluk ve iletişim — basılı s.29 için öğrencinin seçtiği söz veya sahne ayrıntısını önce aynen işaretletin; ardından bu ayrıntının hangi karakter özelliğini kurduğunu konuşturun.
-- Karagöz-Hacivat farkını ‘biri doğru, biri yanlış’ diye kapatmayın; yanlış anlamanın sahne işlevini ve mizah üretimini görünür kılın.
+- Öğrencilerden metinde ‘Hacivat ve Karagöz’ün kişilik özellikler…’ konusuna kaynaklık eden temel ifadelerin altını çizmelerini isteyin.
+- Öğrencilerin tespit ettiği kanıtları karşılaştırarak hangisinin farklılıklar içinde dostluk ve iletişim iddiasını daha güçlü desteklediğini sorgulatın.
 
 ### Takip soruları
 
-- Soru 1 — farklılıklar içinde dostluk ve iletişim — basılı s.29 içinde bu yorumu taşıyan konuşma ayrıntısı hangisi; aynı ayrıntı çıkarılsa karakter ilişkisi nasıl değişirdi? Özellikle ‘Hacivat ve Karagöz’ün kişilik özellikleri, eğitim durumları, kültür düzeyleri ve sosyal statüleri…’ ayrıntısını yoklayın.
-- Soru 1 — farklılıklar içinde dostluk ve iletişim — basılı s.29 için düşünme sorusu: Bu unsur yalnız bilgi vermiyor, seyirciyi nasıl bir tepkiye yönlendiriyor? Özellikle ‘Hacivat ve Karagöz’ün kişilik özellikleri, eğitim durumları, kültür düzeyleri ve sosyal statüleri…’ ayrıntısını yoklayın.
+- ‘Hacivat ve Karagöz’ün kişilik özellikler…’ metninde tespit edilen kültürel göstergelerin millet bilinci ve ortak hafıza inşasındaki rolü nedir?
+- Metindeki ‘Hacivat ve Karagöz’ün kişilik özellikler…’ ayrıntısı, yazıldığı dönemin toplumsal zihniyetini ve kültürel kodlarını nasıl yansıtmaktadır?
 
 ### Öğrenci cevaplarını değerlendirme
 
 - İki kısa gerekçeli görüş.
 - Dostluğun sürdürülmesini en az bir iletişim davranışıyla ilişkilendirir.
 - Kişisel dostluk tanımını gerekçelendirir.
-- Dil/sahne ayrıntısı ile karakter veya ilişki çıkarımı arasında açık bağ.
+- ‘Hacivat ve Karagöz’ün kişilik özellikler…’ incelemesinde tespit edilen göstergelerin metin bütünlüğüyle ilişkilendirilmesi.
 
 ### Sık yanılgılar
 
-- Öğrenci, Soru 1 — farklılıklar içinde dostluk ve iletişim — basılı s.29 görevindeki dil farkını karakterin zekâsı veya değeri hakkında değişmez bir yargı sanabilir.
-- Karagöz oyununun bölümlerini yalnız ezberlenecek başlıklar olarak görüp bölümün sahne işlevini gözden kaçırabilir.
+- ‘Hacivat ve Karagöz’ün kişilik özell…’ sahnesinde Karagöz tipinin hazırcevap tavrını gerçek bir cehalet sanıp yanlış anlamaların oyundaki mizahi ve eleştirel rolünü kaçırmak.
 
 ### Müdahale
 
-- Soru 1 — farklılıklar içinde dostluk ve iletişim — basılı s.29 için müdahale: Öğrenciye aynı sözün farklı bir bağlamda başka bir kişiyi de kurup kuramayacağını sordurun; böylece dil göstergesini kişi değeriyle eşitlemesini ayırın. Müdahaleyi ‘Hacivat ve Karagöz’ün kişilik özellikleri, eğitim durumları, kültür düzeyleri ve sosyal statüleri…’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 1 — farklılıklar içinde dostluk ve iletişim — basılı s.29 için müdahale: Diyalogdan bir cümleyi seçip mukaddime, muhavere, fasıl veya bitişten hangisindeki işleviyle okuduğunu açıklattırın. Müdahaleyi ‘Hacivat ve Karagöz’ün kişilik özellikleri, eğitim durumları, kültür düzeyleri ve sosyal statüleri…’ ayrıntısını kullandırarak somutlaştırın.
+- Diyalogdaki yanlış anlama örneklerini metinden seçtirip ‘Hacivat ve Karagöz’ün kişilik özell…’ mizah ve toplumsal eleştiri üretimindeki işlevini açıklattırın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Saygı, güven, dinleme, destek kavramlarından seçim yaptır.
-- Öğrenci için ‘Sahnede görülen/söylenen — bunun gösterdiği özellik — seyirci etkisi’ üçlü tablosu kullanın. Bu görevde bağlantı noktası: farklılıklar içinde dostluk ve iletişim.
+- Öğrenciye bir çalışma kâğıdı vererek ‘Hacivat ve Karagöz’ün kişilik özell…’ için metinde geçen olumlu ve olumsuz göstergeleri iki sütun hâlinde gruplatın.
 **Zenginleştirme**
 - Karagöz-Hacivat ilişkisini bu ölçütlerle tartıştır.
-- Aynı kısa diyaloğu söz varlığı değişmeden beden dili ve ton değişikliğiyle nasıl farklılaştırabileceğini tasarlatın. Bu görevde derinleştirme odağı: farklılıklar içinde dostluk ve iletişim.
+- Metindeki ‘Hacivat ve Karagöz’ün kişilik özell…’ durumunu güncel bir olay veya sanat eseriyle kıyaslayarak ‘Farklılıklara rağmen dostluğun…’ ekseninde disiplinler arası bir değerlendirme yaptırın.
 
 ### Kaynak ve durum
 
@@ -1347,19 +1336,19 @@ Dostluk; güven, paylaşma, karşılıklı destek, saygı ve gerektiğinde farkl
 
 ### Açıklama ve gerekçe
 
-Soru 2 — farklılıklar içinde dostluk ve iletişim — basılı s.29 için beklenen yön, farklılıklar içinde dostluk ve iletişim yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Dostluğun sürdürülmesini en az bir iletişim davranışıyla ilişkilendirir. Kişisel dostluk tanımını gerekçelendirir.
+Beklenen cevap, farklılıklar içinde dostluk ve iletişim çerçevesinde ‘Aşağıdaki dörtlükten ve atasözünden hareketle “dos…’ konusunu metnin sunduğu veriler ve kavramsal dayanaklar üzerinden şekillendirir. Bu cevabın uygunluğu, Dostluğun sürdürülmesini en az bir iletişim davranışıyla ilişkilendirir. Kişisel dostluk tanımını gerekçelendirir. ölçütünün karşılanmasına ve öğrencinin metindeki olay/durum ayrıntılarını nedensellik bağıyla kurmasına dayanır. Öğrencinin izlemesi gereken çıkarım yolu; öncelikle metindeki kanıt niteliği taşıyan ifadeleri belirlemek, ardından bu göstergeleri kavramsal odakla ilişkilendirerek kendi gerekçeli açıklamasını oluşturmaktır. Öğrenci aynı sonucu farklı sözcüklerle ifade edebilir; temel iddia ile metin dayanağı arasındaki mantıksal tutarlılık korunduğu sürece kişisel yorumlar alternatif cevap olarak kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Karagöz bölümünde Soru 2 — farklılıklar içinde dostluk ve iletişim — basılı s.29 üzerinden geleneksel gölge oyununun seyirlik ve sözlü niteliği ele alınır. Karakterler çoğu zaman yalnız adlarıyla değil, konuşma biçimleri, yanlış anlamaları, toplumsal tipleri ve sahne içindeki işlevleriyle kurulur. Dil farkını bir üstünlük ölçüsü gibi değil, karakterleştirme ve mizahın bağlama bağlı bir aracı olarak açıklayın. Bu görevde özellikle ‘Aşağıdaki dörtlükten ve atasözünden hareketle “dostluk” kavramının sizin için ifade ettiği anlamları…’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Karagöz oyunu, geleneksel Türk seyirlik sanatlarının gölge oyunu koludur; mukaddime, muhavere, fasıl ve bitiş bölümlerinden oluşur. Baş kişiler Karagöz (halkın sağduyulu, saf, okumamış, dobra ve hazırcevap sesi) ile Hacivat'tır (yarı aydın, çıkarcı, kuralcı ve arabulucu Osmanlı aydını). Tipleştirmede dil, şive taklitleri ve yanlış anlamalar mizahın ana kaynağıdır. Öğretmen, bu dil farklarının bir zekâ eksikliği değil, Osmanlı toplumunun çok kültürlü yapısını yansıtan bir sahneleme tekniği olduğunu açıklamalıdır. Bu görevde öğretmen, farklılıklar içinde dostluk ve iletişim çerçevesinde sorulan ‘Aşağıdaki dörtlükten ve atasözünden hareketle “dos…’ konusu üzerinden öğrencinin metin kanıtları ile kavramsal çıkarımlar arasındaki ilişkiyi doğru kurmasını sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Karagöz’de söylenen söz hem anlam taşır hem de konuşanın kimliğini ve sahnedeki ilişkisini görünür kılar. Bu görevde özellikle farklılıklar içinde dostluk ve iletişim üzerinde durun.
+> Bu görevde sizden beklenen; metindeki ipuçlarından hareketle ‘Aşağıdaki dörtlükten ve atasözünden hareketle…’ konusunu incelemeniz ve farklılıklar içinde dostluk ve iletişim doğrultusunda ‘Dostluk; güven, paylaşma, karşılıkl…’ sonucuna nasıl ulaşıldığını adım adım açıklamanızdır.
 
 ### Bu görev neden burada?
 
-Bu görev, farklılıklar içinde dostluk ve iletişim bakımından sözlü kültür ürününün biçimsel özelliğini metin kanıtına dönüştürür.
+Bu görev, öğrencinin ‘Aşağıdaki dörtlükten ve atasözünden hareketle…’ üzerinden farklılıklar içinde dostluk ve iletişim becerisini somut bir metin bağlamında deneyimlemesini ve iddialarını kanıtla destekleme alışkanlığı kazanmasını sağlar.
 
 ### Kabul edilebilir cevaplar
 
@@ -1370,39 +1359,37 @@ Bu görev, farklılıklar içinde dostluk ve iletişim bakımından sözlü kül
 
 - Kişisel tanımda tek kalıp cevap bekleme; tutarlılık ve gerekçe değerlendir.
 - Kişisel dostluk tanımında tek kalıp cevap beklemeyin; tutarlılık ve gerekçeyi değerlendirin.
-- Soru 2 — farklılıklar içinde dostluk ve iletişim — basılı s.29 için öğrencinin seçtiği söz veya sahne ayrıntısını önce aynen işaretletin; ardından bu ayrıntının hangi karakter özelliğini kurduğunu konuşturun.
-- Karagöz-Hacivat farkını ‘biri doğru, biri yanlış’ diye kapatmayın; yanlış anlamanın sahne işlevini ve mizah üretimini görünür kılın.
+- Öğrencilerden metinde ‘Aşağıdaki dörtlükten ve atasözünden hare…’ konusuna kaynaklık eden temel ifadelerin altını çizmelerini isteyin.
+- Öğrencilerin tespit ettiği kanıtları karşılaştırarak hangisinin farklılıklar içinde dostluk ve iletişim iddiasını daha güçlü desteklediğini sorgulatın.
 
 ### Takip soruları
 
-- Soru 2 — farklılıklar içinde dostluk ve iletişim — basılı s.29 içinde bu yorumu taşıyan konuşma ayrıntısı hangisi; aynı ayrıntı çıkarılsa karakter ilişkisi nasıl değişirdi? Özellikle ‘Aşağıdaki dörtlükten ve atasözünden hareketle “dostluk” kavramının sizin için ifade ettiği anlamları…’ ayrıntısını yoklayın.
-- Soru 2 — farklılıklar içinde dostluk ve iletişim — basılı s.29 için düşünme sorusu: Bu unsur yalnız bilgi vermiyor, seyirciyi nasıl bir tepkiye yönlendiriyor? Özellikle ‘Aşağıdaki dörtlükten ve atasözünden hareketle “dostluk” kavramının sizin için ifade ettiği anlamları…’ ayrıntısını yoklayın.
+- ‘Aşağıdaki dörtlükten ve atasözünden hare…’ cümlesindeki dilbilgisi tercihinin metnin genel anlatım akışı ve anlam bütünlüğüne etkisi nedir?
+- Eğer ‘Aşağıdaki dörtlükten ve atasözünden hare…’ ifadesinde kullanılan dil bilgisel yapı değiştirilseydi, cümlenin ilettiği anlam ve vurgu nasıl başkalaşırdı?
 
 ### Öğrenci cevaplarını değerlendirme
 
 - İki kısa gerekçeli görüş.
 - Dostluğun sürdürülmesini en az bir iletişim davranışıyla ilişkilendirir.
 - Kişisel dostluk tanımını gerekçelendirir.
-- Dil/sahne ayrıntısı ile karakter veya ilişki çıkarımı arasında açık bağ.
+- Öğrencinin ‘Aşağıdaki dörtlükten ve atasözünden hare…’ sorusuna verdiği cevapta metinden doğrudan alıntı veya somut kanıt göstermesi.
 
 ### Sık yanılgılar
 
-- Öğrenci, Soru 2 — farklılıklar içinde dostluk ve iletişim — basılı s.29 görevindeki dil farkını karakterin zekâsı veya değeri hakkında değişmez bir yargı sanabilir.
-- Karagöz oyununun bölümlerini yalnız ezberlenecek başlıklar olarak görüp bölümün sahne işlevini gözden kaçırabilir.
+- ‘Aşağıdaki dörtlükten ve atasözünden…’ sorusunda metindeki nesnel kanıtlar yerine kendi kişisel kanaat ve varsayımlarını tek dayanak olarak kabul etmek.
 
 ### Müdahale
 
-- Soru 2 — farklılıklar içinde dostluk ve iletişim — basılı s.29 için müdahale: Öğrenciye aynı sözün farklı bir bağlamda başka bir kişiyi de kurup kuramayacağını sordurun; böylece dil göstergesini kişi değeriyle eşitlemesini ayırın. Müdahaleyi ‘Aşağıdaki dörtlükten ve atasözünden hareketle “dostluk” kavramının sizin için ifade ettiği anlamları…’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 2 — farklılıklar içinde dostluk ve iletişim — basılı s.29 için müdahale: Diyalogdan bir cümleyi seçip mukaddime, muhavere, fasıl veya bitişten hangisindeki işleviyle okuduğunu açıklattırın. Müdahaleyi ‘Aşağıdaki dörtlükten ve atasözünden hareketle “dostluk” kavramının sizin için ifade ettiği anlamları…’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciden ‘Aşağıdaki dörtlükten ve atasözünden…’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Saygı, güven, dinleme, destek kavramlarından seçim yaptır.
-- Öğrenci için ‘Sahnede görülen/söylenen — bunun gösterdiği özellik — seyirci etkisi’ üçlü tablosu kullanın. Bu görevde bağlantı noktası: farklılıklar içinde dostluk ve iletişim.
+- ‘Aşağıdaki dörtlükten ve atasözünden…’ sorusunu yanıtlamakta zorlanan öğrenciye metindeki ilgili paragrafı işaretleyin; önce anahtar kavramları buldurarak cevabı adım adım kurdurun.
 **Zenginleştirme**
 - Karagöz-Hacivat ilişkisini bu ölçütlerle tartıştır.
-- Aynı kısa diyaloğu söz varlığı değişmeden beden dili ve ton değişikliğiyle nasıl farklılaştırabileceğini tasarlatın. Bu görevde derinleştirme odağı: farklılıklar içinde dostluk ve iletişim.
+- Öğrenciden ‘Aşağıdaki dörtlükten ve atasözünden…’ çerçevesinde ulaştığı ‘Dostluk; güven, paylaşma, karş…’ sonucunu, okuduğu farklı bir edebî eserle karşılaştıran kısa bir eleştiri yazısı yazmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -1462,26 +1449,26 @@ Geleneksel tiyatro eşleştirmesi, metin soruları ve “Yazıcı”–“Eskici
 
 ### Açıklama ve gerekçe
 
-Metni Anlayalım ve karşılaştırma — basılı s.30-31 için cevap, Metni Anlayalım ve karşılaştırma ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Konu, tema ve iletiyi birbirinden ayırır. Karşılaştırmada en az iki ortak/farklı ölçüt kullanır.
+‘Geleneksel tiyatro eşleştirmesi, metin soruları ve…’ kapsamındaki tablo maddeleri (geleneksel_tiyatro_eslestirme, metin_sorulari, yazici_eskici_abdi), kaynak metindeki verilerle satır satır karşılaştırılarak değerlendirilir. Öğrencinin izleyeceği yöntem; metinde doğrudan doğrulanan önermelere 'Evet', açıkça reddedilenlere 'Hayır', doğrulanmayan veya değinilmeyenlere ise 'Bilgi yok' karşılığını vermektir. Konu, tema ve iletiyi birbirinden ayırır. Karşılaştırmada en az iki ortak/farklı ölçüt kullanır.
 
 ### Öğretmenin bilmesi gerekenler
 
-Karagöz bölümünde Metni Anlayalım ve karşılaştırma — basılı s.30-31 üzerinden geleneksel gölge oyununun seyirlik ve sözlü niteliği ele alınır. Karakterler çoğu zaman yalnız adlarıyla değil, konuşma biçimleri, yanlış anlamaları, toplumsal tipleri ve sahne içindeki işlevleriyle kurulur. Dil farkını bir üstünlük ölçüsü gibi değil, karakterleştirme ve mizahın bağlama bağlı bir aracı olarak açıklayın. Bu görevde özellikle ‘Geleneksel tiyatro eşleştirmesi, metin soruları ve “Yazıcı”–“Eskici Abdi” karşılaştırması’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Karagöz oyunu, geleneksel Türk seyirlik sanatlarının gölge oyunu koludur; mukaddime, muhavere, fasıl ve bitiş bölümlerinden oluşur. Baş kişiler Karagöz (halkın sağduyulu, saf, okumamış, dobra ve hazırcevap sesi) ile Hacivat'tır (yarı aydın, çıkarcı, kuralcı ve arabulucu Osmanlı aydını). Tipleştirmede dil, şive taklitleri ve yanlış anlamalar mizahın ana kaynağıdır. Öğretmen, bu dil farklarının bir zekâ eksikliği değil, Osmanlı toplumunun çok kültürlü yapısını yansıtan bir sahneleme tekniği olduğunu açıklamalıdır. Bu görev adımında öğretmen, ‘Geleneksel tiyatro eşleştirmesi, metin soruları ve…’ ile ilgili sınıf tartışmasını Metni Anlayalım ve karşılaştırma zemininde yapılandırmalı ve ‘geleneksel_tiyatro_eslestirme: {'Köy sey…’ doğrultusundaki tespitleri metin üzerinden teyit ettirmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Karagöz’de söylenen söz hem anlam taşır hem de konuşanın kimliğini ve sahnedeki ilişkisini görünür kılar. Bu görevde özellikle Metni Anlayalım ve karşılaştırma üzerinde durun.
+> Bu etkinlikte amacınız, ‘Geleneksel tiyatro eşleştirmesi, metin sorula…’ konusunu Metni Anlayalım ve karşılaştırma perspektifinden tahlil etmektir. İddialarınızı metinden somut göstergelerle destekleyerek ‘geleneksel_tiyatro_eslestirme: {'Kö…’ niteliğinde bir çıkarım yapın.
 
 ### Bu görev neden burada?
 
-Bu görev, Metni Anlayalım ve karşılaştırma bakımından sözlü kültür ürününün biçimsel özelliğini metin kanıtına dönüştürür.
+Görev, ‘Geleneksel tiyatro eşleştirmesi, metin sorula…’ konusundaki gözlemleri Metni Anlayalım ve karşılaştırma ile sentezleyerek metin çözümleme disiplinini pekiştirir ve öğrencinin ‘geleneksel_tiyatro_eslestirme: {'Kö…’ odaklı eleştirel düşünme kapasitesini artırır.
 
 ### Ders içi uygulama
 
 - Açık/örtük ileti sorularında doğrudan metin kanıtı iste.
 - Karşılaştırmayı yalnız özet farkına indirgeme; tür, çevre, dil/üslup ve ileti ölçütlerini kullan.
 - Konu, tema ve iletiyi ayrı kavramlar olarak kontrol edin; karşılaştırmayı yalnız özet farkına indirgemeyip tür, çevre, dil/üslup ve ileti ölçütlerini kullanın.
-- Metni Anlayalım ve karşılaştırma — basılı s.30-31 için öğrencinin seçtiği söz veya sahne ayrıntısını önce aynen işaretletin; ardından bu ayrıntının hangi karakter özelliğini kurduğunu konuşturun.
+- Öğrencileri küçük gruplara ayırarak ‘Geleneksel tiyatro eşleştirmesi, metin s…’ sorusunun işaret ettiği kanıtları metin üzerinden tespit ettirin.
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -1494,21 +1481,22 @@ Bu görev, Metni Anlayalım ve karşılaştırma bakımından sözlü kültür �
 
 - Konu ile temayı aynı cümleyle yazmak.
 - Örtük iletiyi metinde aynen yazılı bir cümle sanmak.
-- Öğrenci, Metni Anlayalım ve karşılaştırma — basılı s.30-31 görevindeki dil farkını karakterin zekâsı veya değeri hakkında değişmez bir yargı sanabilir.
+- ‘Geleneksel tiyatro eşleştirmesi, me…’ bölümündeki geleneksel oyun kişilerini çağdaş psikolojik karakterlerle bir tutup tip niteliğini göz ardı etmek.
 
 ### Müdahale
 
-- Metni Anlayalım ve karşılaştırma — basılı s.30-31 için müdahale: Öğrenciye aynı sözün farklı bir bağlamda başka bir kişiyi de kurup kuramayacağını sordurun; böylece dil göstergesini kişi değeriyle eşitlemesini ayırın. Müdahaleyi ‘Geleneksel tiyatro eşleştirmesi, metin soruları ve “Yazıcı”–“Eskici Abdi” karşılaştırması’ ayrıntısını kullandırarak somutlaştırın.
-- Metni Anlayalım ve karşılaştırma — basılı s.30-31 için müdahale: Diyalogdan bir cümleyi seçip mukaddime, muhavere, fasıl veya bitişten hangisindeki işleviyle okuduğunu açıklattırın. Müdahaleyi ‘Geleneksel tiyatro eşleştirmesi, metin soruları ve “Yazıcı”–“Eskici Abdi” karşılaştırması’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Geleneksel tiyatro eşleştirmesi, me…’ incelemesinde ‘konu ile temayı aynı’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Öğrenciye ‘Geleneksel tiyatro eşleştirmesi, me…’ çerçevesinde ‘örtük iletiyi metinde aynen’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- Karakter ile tip arasındaki farkı vurgulayıp ‘Geleneksel tiyatro eşleştirmesi, me…’ kişilerinin belirli toplumsal zümreleri temsil eden işlevini metinde gösterin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Konu=ne anlatılıyor, tema=hangi ana kavram çevresinde sorularıyla ayır.
-- Öğrenci için ‘Sahnede görülen/söylenen — bunun gösterdiği özellik — seyirci etkisi’ üçlü tablosu kullanın. Bu görevde bağlantı noktası: Metni Anlayalım ve karşılaştırma.
+- Öğrenciyi bir akranıyla eşleştirerek ‘Geleneksel tiyatro eşleştirmesi, me…’ hakkındaki düşüncelerini önce sözlü olarak paylaşmasını, ardından yazıya dökmesini isteyin.
 **Zenginleştirme**
 - İki geleneksel türün mizah üretme araçlarını karşılaştır.
-- Aynı kısa diyaloğu söz varlığı değişmeden beden dili ve ton değişikliğiyle nasıl farklılaştırabileceğini tasarlatın. Bu görevde derinleştirme odağı: Metni Anlayalım ve karşılaştırma.
+- Öğrenciden ‘Geleneksel tiyatro eşleştirmesi, me…’ metnindeki Metni Anlayalım ve karşılaştırma yaklaşımını örnek alarak benzer temada kısa bir kurmaca metin veya deneme taslağı yazmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -1563,52 +1551,52 @@ Kitapta “Çözümleyebilme — “Yazıcı”nın yapı unsurları” başlı�
 
 ### Açıklama ve gerekçe
 
-yapı unsurlarının anlam ve işlevi — basılı s.32 için cevap, yapı unsurlarının anlam ve işlevi ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Kişi, mekân, zaman, çatışma ve dramatik örgüyü ayırır. Çatışmanın bilgi/beceri ve iletişim boyutunu açıklar.
+‘Kitapta “Çözümleyebilme — “Yazıcı”nın yapı unsurla…’ kapsamındaki tablo maddeleri (kisiler, mekan, zaman), kaynak metindeki verilerle satır satır karşılaştırılarak değerlendirilir. Öğrencinin izleyeceği yöntem; metinde doğrudan doğrulanan önermelere 'Evet', açıkça reddedilenlere 'Hayır', doğrulanmayan veya değinilmeyenlere ise 'Bilgi yok' karşılığını vermektir. Kişi, mekân, zaman, çatışma ve dramatik örgüyü ayırır. Çatışmanın bilgi/beceri ve iletişim boyutunu açıklar.
 
 ### Öğretmenin bilmesi gerekenler
 
-Karagöz bölümünde yapı unsurlarının anlam ve işlevi — basılı s.32 üzerinden geleneksel gölge oyununun seyirlik ve sözlü niteliği ele alınır. Karakterler çoğu zaman yalnız adlarıyla değil, konuşma biçimleri, yanlış anlamaları, toplumsal tipleri ve sahne içindeki işlevleriyle kurulur. Dil farkını bir üstünlük ölçüsü gibi değil, karakterleştirme ve mizahın bağlama bağlı bir aracı olarak açıklayın. Bu görevde özellikle ‘Çalışma kâğıdı — Yazıcı'nın yapı unsurları — Çözümleyebilme — “Yazıcı”nın yapı unsurları’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Fiilde çatı konusu, eylemin öznesiyle (etken, edilgen, dönüşlü, işteş) ve nesnesiyle (geçişli, geçişsiz, ettirgen, oldurgan) kurduğu söz dizimsel ve anlamsal ilişkiyi belirler. Edilgen çatıda (-l, -n ekleriyle) işi yapan gerçek özne gizlenir veya örtük bırakılır; nesne 'sözde özne' konumuna geçer. Geçişli fiiller nesne alabilirken geçişsiz fiiller nesne alamaz. Öğretmen bu görevde, fiilin çatı özelliğini yalnız ek ezberiyle değil, cümlenin anlamsal özne-nesne kurgusu ve işlevsel rolü üzerinden açıklatmalıdır. Bu görev tahlilinde öğretmen, yapı unsurlarının anlam ve işlevi odağında ‘Kitapta “Çözümleyebilme — “Yazıcı”nın yapı unsurla…’ sorusuna yönelik yanıtların metin içi tutarlılığını denetlemeli ve yüzeysel yorumların ötesine geçilmesini sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Karagöz’de söylenen söz hem anlam taşır hem de konuşanın kimliğini ve sahnedeki ilişkisini görünür kılar. Bu görevde özellikle yapı unsurlarının anlam ve işlevi üzerinde durun.
+> Görevin temel amacı, ‘Kitapta “Çözümleyebilme — “Yazıcı”nın yapı un…’ ayrıntısı üzerinden yapı unsurlarının anlam ve işlevi kavramını kavramanızdır. Metindeki ilgili cümleleri bularak ‘kisiler: ['Karagöz', 'Hacivat', 'II…’ bağlamındaki düşüncenizi kendi cümlelerinizle ortaya koyun.
 
 ### Bu görev neden burada?
 
-Bu görev, yapı unsurlarının anlam ve işlevi bakımından sözlü kültür ürününün biçimsel özelliğini metin kanıtına dönüştürür.
+Bu soru, ‘Kitapta “Çözümleyebilme — “Yazıcı”nın yapı un…’ ayrıntısını yapı unsurlarının anlam ve işlevi ile birleştirerek dil ve edebiyat çalışmalarında neden-sonuç ilişkisi kurma ve ‘kisiler: ['Karagöz', 'Hacivat', 'II…’ bağlamını kavrama yeterliğini güçlendirir.
 
 ### Ders içi uygulama
 
 - Önceki rehberde kişi listesi fazla geneldi; çalışma kâğıdında metindeki tipleri somutlaştır.
-- yapı unsurlarının anlam ve işlevi — basılı s.32 için öğrencinin seçtiği söz veya sahne ayrıntısını önce aynen işaretletin; ardından bu ayrıntının hangi karakter özelliğini kurduğunu konuşturun.
-- Karagöz-Hacivat farkını ‘biri doğru, biri yanlış’ diye kapatmayın; yanlış anlamanın sahne işlevini ve mizah üretimini görünür kılın.
+- Öğrencilerden metinde ‘yapı unsurlarının anlam ve işlevi (T1V23_P32_STRUCTURE)’ konusuna kaynaklık eden temel ifadelerin altını çizmelerini isteyin.
+- Öğrencilerin tespit ettiği kanıtları karşılaştırarak hangisinin yapı unsurlarının anlam ve işlevi iddiasını daha güçlü desteklediğini sorgulatın.
+- Ulaşılan cevabı yapı unsurlarının anlam ve işlevi bağlamında toparlayıp metin tahlili için bir kural veya ilke olarak özetletin.
 
 ### Öğrenci cevaplarını değerlendirme
 
 - Tamamlanmış yapı çözümleme çalışma kâğıdı.
 - Kişi, mekân, zaman, çatışma ve dramatik örgüyü ayırır.
 - Çatışmanın bilgi/beceri ve iletişim boyutunu açıklar.
-- Dil/sahne ayrıntısı ile karakter veya ilişki çıkarımı arasında açık bağ.
+- Tablodaki 5 maddenin her birinin metin kanıtıyla doğru eşleştirilmesi.
 
 ### Sık yanılgılar
 
 - Dramatik örgüyü yalnız 'başlangıç-gelişme-sonuç' diye soyut bırakmak.
-- Öğrenci, yapı unsurlarının anlam ve işlevi — basılı s.32 görevindeki dil farkını karakterin zekâsı veya değeri hakkında değişmez bir yargı sanabilir.
-- Karagöz oyununun bölümlerini yalnız ezberlenecek başlıklar olarak görüp bölümün sahne işlevini gözden kaçırabilir.
+- Metinde art arda gelen durumları veya olayları doğrudan bir neden-sonuç ilişkisi sanarak yapı unsurlarının anlam ve işlevi çıkarımında yanılgıya düşmek.
 
 ### Müdahale
 
-- yapı unsurlarının anlam ve işlevi — basılı s.32 için müdahale: Öğrenciye aynı sözün farklı bir bağlamda başka bir kişiyi de kurup kuramayacağını sordurun; böylece dil göstergesini kişi değeriyle eşitlemesini ayırın. Müdahaleyi ‘Çalışma kâğıdı — Yazıcı'nın yapı unsurları — Çözümleyebilme — “Yazıcı”nın yapı unsurları’ ayrıntısını kullandırarak somutlaştırın.
-- yapı unsurlarının anlam ve işlevi — basılı s.32 için müdahale: Diyalogdan bir cümleyi seçip mukaddime, muhavere, fasıl veya bitişten hangisindeki işleviyle okuduğunu açıklattırın. Müdahaleyi ‘Çalışma kâğıdı — Yazıcı'nın yapı unsurları — Çözümleyebilme — “Yazıcı”nın yapı unsurları’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciden ‘yapı unsurlarının anlam ve işlevi (T1V23_P32_STRUCTURE)’ bağlamında ‘dramatik örgüyü yalnız başlangıç’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- Olaylar arasındaki mantıksal nedensellik bağını ve gerekçe ifadelerini ‘yapı unsurlarının anlam ve işlevi (T1V23_P32_STRUCTURE)’ metni üzerinde buldurup sebep-sonuç farkını gösterin ve tartışın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Yapı unsuru başlıklarını hazır ver.
-- Öğrenci için ‘Sahnede görülen/söylenen — bunun gösterdiği özellik — seyirci etkisi’ üçlü tablosu kullanın. Bu görevde bağlantı noktası: yapı unsurlarının anlam ve işlevi.
+- ‘Kitapta “Çözümleyebilme — “Yazıcı”n…’ konusunu daha sade yönlendirici alt sorulara bölerek öğrencinin ‘kisiler: ['Karagöz', 'Hacivat'…’ sonucuna kademeli olarak ulaşmasına rehberlik edin.
 **Zenginleştirme**
 - Dükkân mekânının neden çatışmayı çoğalttığını açıklat.
-- Aynı kısa diyaloğu söz varlığı değişmeden beden dili ve ton değişikliğiyle nasıl farklılaştırabileceğini tasarlatın. Bu görevde derinleştirme odağı: yapı unsurlarının anlam ve işlevi.
+- ‘Kitapta “Çözümleyebilme — “Yazıcı”n…’ tahlilini yazarın edebî dönemi, sanat anlayışı ve dönemin toplumsal koşullarıyla ilişkilendiren bir araştırma sorusu geliştirtin.
 
 ### Kaynak ve durum
 
@@ -1651,19 +1639,19 @@ Karagöz daha günlük, sade ve doğrudan bir dil kullanır; bilmediği sözleri
 
 ### Açıklama ve gerekçe
 
-dil tercihi ve üslup etkisi — basılı s.33 için beklenen yön, dil tercihi ve üslup etkisi yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. En az bir dil özelliği ile kişilik/eğitim çıkarımı arasında bağ kurar. Çıkarımı metinden örnekle gerekçelendirir.
+Beklenen cevabın temeli, dil tercihi ve üslup etkisi ekseninde ‘Dil ve üslup özellikleri kişilik/eğitim hakkında n…’ bağlamını aydınlatan metin kanıtlarının doğru tahlil edilmesidir. Yanıtın kabul edilebilirliği; En az bir dil özelliği ile kişilik/eğitim çıkarımı arasında bağ kurar. Çıkarımı metinden örnekle gerekçelendirir. ölçütüne bağlı kalınmasına ve metindeki verilerin tarafsız biçimde yorumlanmasına bağlıdır. Öğrenci; önce ilgili bilgiyi kaynaktan süzmeli, ardından bu bilgiyi sorunun gerektirdiği kavramsal çerçeveye oturtmalıdır. Metin sınırlarını aşmayan ve dayanağı gösterilen özgün öğrenci yorumları da geçerli sayılır.
 
 ### Öğretmenin bilmesi gerekenler
 
-Karagöz bölümünde dil tercihi ve üslup etkisi — basılı s.33 üzerinden geleneksel gölge oyununun seyirlik ve sözlü niteliği ele alınır. Karakterler çoğu zaman yalnız adlarıyla değil, konuşma biçimleri, yanlış anlamaları, toplumsal tipleri ve sahne içindeki işlevleriyle kurulur. Dil farkını bir üstünlük ölçüsü gibi değil, karakterleştirme ve mizahın bağlama bağlı bir aracı olarak açıklayın. Bu görevde özellikle ‘Dil ve üslup özellikleri kişilik/eğitim hakkında ne düşündürüyor?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Karagöz oyunu, geleneksel Türk seyirlik sanatlarının gölge oyunu koludur; mukaddime, muhavere, fasıl ve bitiş bölümlerinden oluşur. Baş kişiler Karagöz (halkın sağduyulu, saf, okumamış, dobra ve hazırcevap sesi) ile Hacivat'tır (yarı aydın, çıkarcı, kuralcı ve arabulucu Osmanlı aydını). Tipleştirmede dil, şive taklitleri ve yanlış anlamalar mizahın ana kaynağıdır. Öğretmen, bu dil farklarının bir zekâ eksikliği değil, Osmanlı toplumunun çok kültürlü yapısını yansıtan bir sahneleme tekniği olduğunu açıklamalıdır. Bu görev adımında öğretmen, ‘Dil ve üslup özellikleri kişilik/eğitim hakkında n…’ ile ilgili sınıf tartışmasını dil tercihi ve üslup etkisi zemininde yapılandırmalı ve ‘Karagöz daha günlük, sade ve doğrudan bi…’ doğrultusundaki tespitleri metin üzerinden teyit ettirmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Karagöz’de söylenen söz hem anlam taşır hem de konuşanın kimliğini ve sahnedeki ilişkisini görünür kılar. Bu görevde özellikle dil tercihi ve üslup etkisi üzerinde durun.
+> Bu etkinlikte amacınız, ‘Dil ve üslup özellikleri kişilik/eğitim hakkı…’ konusunu dil tercihi ve üslup etkisi perspektifinden tahlil etmektir. İddialarınızı metinden somut göstergelerle destekleyerek ‘Karagöz daha günlük, sade ve doğrud…’ niteliğinde bir çıkarım yapın.
 
 ### Bu görev neden burada?
 
-Bu görev, dil tercihi ve üslup etkisi bakımından sözlü kültür ürününün biçimsel özelliğini metin kanıtına dönüştürür.
+Görev, ‘Dil ve üslup özellikleri kişilik/eğitim hakkı…’ konusundaki gözlemleri dil tercihi ve üslup etkisi ile sentezleyerek metin çözümleme disiplinini pekiştirir ve öğrencinin ‘Karagöz daha günlük, sade ve doğrud…’ odaklı eleştirel düşünme kapasitesini artırır.
 
 ### Kabul edilebilir cevaplar
 
@@ -1674,40 +1662,39 @@ Bu görev, dil tercihi ve üslup etkisi bakımından sözlü kültür ürünün�
 
 - Dil farkını değer hiyerarşisine dönüştürmeden işlevsel olarak yorumlat.
 - Dil farkını değer hiyerarşisine dönüştürmeden işlevsel olarak yorumlatın; en az bir dil özelliği + çıkarım + metin kanıtı bağlantısı arayın.
-- dil tercihi ve üslup etkisi — basılı s.33 için öğrencinin seçtiği söz veya sahne ayrıntısını önce aynen işaretletin; ardından bu ayrıntının hangi karakter özelliğini kurduğunu konuşturun.
-- Karagöz-Hacivat farkını ‘biri doğru, biri yanlış’ diye kapatmayın; yanlış anlamanın sahne işlevini ve mizah üretimini görünür kılın.
+- Öğrencilere ‘Dil ve üslup özellikleri kişilik/eğitim …’ bağlamındaki anahtar kavramları listeleterek metin taraması yapmalarını sağlayın.
+- Öğrencilere ‘Eğer ‘Karagöz daha günlük, sade ve doğrud…’ olmasaydı ne değişirdi?’ sorusunu yönelterek dil tercihi ve üslup etkisi çıkarımını test edin.
 
 ### Takip soruları
 
-- dil tercihi ve üslup etkisi — basılı s.33 içinde bu yorumu taşıyan konuşma ayrıntısı hangisi; aynı ayrıntı çıkarılsa karakter ilişkisi nasıl değişirdi? Özellikle ‘Dil ve üslup özellikleri kişilik/eğitim hakkında ne düşündürüyor?’ ayrıntısını yoklayın.
-- dil tercihi ve üslup etkisi — basılı s.33 için düşünme sorusu: Bu unsur yalnız bilgi vermiyor, seyirciyi nasıl bir tepkiye yönlendiriyor? Özellikle ‘Dil ve üslup özellikleri kişilik/eğitim hakkında ne düşündürüyor?’ ayrıntısını yoklayın.
+- ‘Dil ve üslup özellikleri kişilik/eğitim …’ için verilen ‘Karagöz daha günlük, sade ve doğrud…’ cevabını çürütebilecek karşıt bir görüş ileri sürülebilir mi; bu karşıt görüş metne dayandırılabilir mi?
+- Bu soruda ‘Dil ve üslup özellikleri kişilik/eğitim …’ üzerinden ortaya koyduğunuz dil tercihi ve üslup etkisi sonucunu günlük hayattaki bir deneyiminizle veya okuduğunuz başka bir eserle nasıl ilişkilendirirsiniz?
 
 ### Öğrenci cevaplarını değerlendirme
 
 - Dil özelliği + çıkarım + metin kanıtı.
 - En az bir dil özelliği ile kişilik/eğitim çıkarımı arasında bağ kurar.
 - Çıkarımı metinden örnekle gerekçelendirir.
-- Dil/sahne ayrıntısı ile karakter veya ilişki çıkarımı arasında açık bağ.
+- ‘Dil ve üslup özellikleri kişilik/eğitim …’ için öne sürülen savın metindeki dil ve üslup ayrıntılarıyla desteklenmesi.
 
 ### Sık yanılgılar
 
 - Sade dili eğitimsizlik, süslü dili üstünlükle otomatik eşitlemek.
-- Öğrenci, dil tercihi ve üslup etkisi — basılı s.33 görevindeki dil farkını karakterin zekâsı veya değeri hakkında değişmez bir yargı sanabilir.
-- Karagöz oyununun bölümlerini yalnız ezberlenecek başlıklar olarak görüp bölümün sahne işlevini gözden kaçırabilir.
+- ‘Dil ve üslup özellikleri kişilik/eğ…’ incelemesinde ulaşılan sonucu metin dışı genel bilgilerle karıştırıp dil tercihi ve üslup etkisi sınırlarının dışına çıkmak.
 
 ### Müdahale
 
-- dil tercihi ve üslup etkisi — basılı s.33 için müdahale: Öğrenciye aynı sözün farklı bir bağlamda başka bir kişiyi de kurup kuramayacağını sordurun; böylece dil göstergesini kişi değeriyle eşitlemesini ayırın. Müdahaleyi ‘Dil ve üslup özellikleri kişilik/eğitim hakkında ne düşündürüyor?’ ayrıntısını kullandırarak somutlaştırın.
-- dil tercihi ve üslup etkisi — basılı s.33 için müdahale: Diyalogdan bir cümleyi seçip mukaddime, muhavere, fasıl veya bitişten hangisindeki işleviyle okuduğunu açıklattırın. Müdahaleyi ‘Dil ve üslup özellikleri kişilik/eğitim hakkında ne düşündürüyor?’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Dil ve üslup özellikleri kişilik/eğ…’ doğrultusunda ‘sade dili eğitimsizlik süslü’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- ‘Dil ve üslup özellikleri kişilik/eğ…’ için değerlendirmenin yalnızca verilen metin verileri çerçevesinde yapılması gerektiğini belirleyip kanıt sınırlarını çizdirin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Bir Karagöz ve bir Hacivat repliğini yan yana karşılaştır.
-- Öğrenci için ‘Sahnede görülen/söylenen — bunun gösterdiği özellik — seyirci etkisi’ üçlü tablosu kullanın. Bu görevde bağlantı noktası: dil tercihi ve üslup etkisi.
+- Öğrenciyi bir akranıyla eşleştirerek ‘Dil ve üslup özellikleri kişilik/eğ…’ hakkındaki düşüncelerini önce sözlü olarak paylaşmasını, ardından yazıya dökmesini isteyin.
 **Zenginleştirme**
 - Aynı iletiyi iki karakterin üslubuyla yeniden yazdır.
-- Aynı kısa diyaloğu söz varlığı değişmeden beden dili ve ton değişikliğiyle nasıl farklılaştırabileceğini tasarlatın. Bu görevde derinleştirme odağı: dil tercihi ve üslup etkisi.
+- Öğrenciden ‘Dil ve üslup özellikleri kişilik/eğ…’ metnindeki dil tercihi ve üslup etkisi yaklaşımını örnek alarak benzer temada kısa bir kurmaca metin veya deneme taslağı yazmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -1762,53 +1749,52 @@ Kitapta “Fiilimsiler ve gölge oyununun sosyal bilimlerle ilişkisi” başlı
 
 ### Açıklama ve gerekçe
 
-Fiilimsiler ve gölge oyununun sosyal bilimlerle ilişkisi — basılı s.34 için cevap, Fiilimsiler ve gölge oyununun sosyal bilimlerle ilişkisi ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Fiilimsileri türlerine doğru ayırır. En az iki sosyal bilim alanını metinden bir kanıtla ilişkilendirir.
+Tabloda yer alan ‘Kitapta “Fiilimsiler ve gölge oyununun sosyal bili…’ yargılarının (fiilimsiler, sosyal_bilimler, degerlendirme) geçerliliği, metin kanıtları üzerinden tahlil edilir. Öğrenci; metinde açıkça dayanağı bulunan ifadeleri 'Evet', metin gerçeğiyle çelişenleri 'Hayır', metnin değinmediği hususları ise 'Bilgi yok' şeklinde sınıflandırmalıdır. Fiilimsileri türlerine doğru ayırır. En az iki sosyal bilim alanını metinden bir kanıtla ilişkilendirir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Karagöz bölümünde Fiilimsiler ve gölge oyununun sosyal bilimlerle ilişkisi — basılı s.34 üzerinden geleneksel gölge oyununun seyirlik ve sözlü niteliği ele alınır. Karakterler çoğu zaman yalnız adlarıyla değil, konuşma biçimleri, yanlış anlamaları, toplumsal tipleri ve sahne içindeki işlevleriyle kurulur. Dil farkını bir üstünlük ölçüsü gibi değil, karakterleştirme ve mizahın bağlama bağlı bir aracı olarak açıklayın. Bu görevde özellikle ‘Fiilimsiler ve gölge oyununun sosyal bilimlerle ilişkisi’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Fiilde çatı konusu, eylemin öznesiyle (etken, edilgen, dönüşlü, işteş) ve nesnesiyle (geçişli, geçişsiz, ettirgen, oldurgan) kurduğu söz dizimsel ve anlamsal ilişkiyi belirler. Edilgen çatıda (-l, -n ekleriyle) işi yapan gerçek özne gizlenir veya örtük bırakılır; nesne 'sözde özne' konumuna geçer. Geçişli fiiller nesne alabilirken geçişsiz fiiller nesne alamaz. Öğretmen bu görevde, fiilin çatı özelliğini yalnız ek ezberiyle değil, cümlenin anlamsal özne-nesne kurgusu ve işlevsel rolü üzerinden açıklatmalıdır. Bu görevde öğretmen, ‘Kitapta “Fiilimsiler ve gölge oyununun sosyal bili…’ yönergesini ele alırken sınıf ortamında Fiilimsiler ve gölge oyununun sosyal bilimlerle ilişkisi boyutunu öne çıkarmalı ve ‘fiilimsiler: {'yazılmış': 'sıfat-fiil', …’ yönündeki metin dayanaklarını desteklemelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Karagöz’de söylenen söz hem anlam taşır hem de konuşanın kimliğini ve sahnedeki ilişkisini görünür kılar. Bu görevde özellikle Fiilimsiler ve gölge oyununun sosyal bilimlerle ilişkisi üzerinde durun.
+> Bu çalışmayı yaparken metni dikkatle gözden geçirerek ‘Kitapta “Fiilimsiler ve gölge oyununun sosyal…’ ile ilgili kanıtları belirleyin; ulaştığınız yargıları Fiilimsiler ve gölge oyununun sosyal bilimlerle ilişkisi ve ‘fiilimsiler: {'yazılmış': 'sıfat-fi…’ çerçevesinde gerekçelendirerek ifade edin.
 
 ### Bu görev neden burada?
 
-Bu görev, Fiilimsiler ve gölge oyununun sosyal bilimlerle ilişkisi bakımından sözlü kültür ürününün biçimsel özelliğini metin kanıtına dönüştürür.
+Fiilimsiler ve gölge oyununun sosyal bilimlerle ilişkisi eksenindeki bu çalışma, ‘Kitapta “Fiilimsiler ve gölge oyununun sosyal…’ konusunu ele alırken öğrencinin yüzeysel okumadan analitik çözümlemeye geçişini ve ‘fiilimsiler: {'yazılmış': 'sıfat-fi…’ bağlantısını kurmasını destekler.
 
 ### Ders içi uygulama
 
 - Dil bilgisi bölümünü metinden kopuk test hâline getirme; fiilimsilerin cümledeki işlevini de kısaca göster.
 - Dil bilgisi bölümünü metinden kopuk teste dönüştürmeyin; fiilimsinin cümledeki işlevini de kısaca gösterin.
-- Fiilimsiler ve gölge oyununun sosyal bilimlerle ilişkisi — basılı s.34 için öğrencinin seçtiği söz veya sahne ayrıntısını önce aynen işaretletin; ardından bu ayrıntının hangi karakter özelliğini kurduğunu konuşturun.
-- Karagöz-Hacivat farkını ‘biri doğru, biri yanlış’ diye kapatmayın; yanlış anlamanın sahne işlevini ve mizah üretimini görünür kılın.
+- ‘Fiilimsiler ve gölge oyununun sosyal bilimlerle ilişkisi (T1V23_P34_GRAMMAR)’ sorusunu sınıfa yönelterek ilk izlenimleri ve metinle ilgili sezgisel yaklaşımları tahtada toplayın.
+- ‘Fiilimsiler ve gölge oyununun sosyal bilimlerle ilişkisi (T1V23_P34_GRAMMAR)’ ile metnin ana fikri arasındaki neden-sonuç ilişkisini tahta üzerinde şemalaştırarak gösterin.
 
 ### Öğrenci cevaplarını değerlendirme
 
 - Fiilimsi sınıflaması ve tarih/sosyoloji/psikoloji bağlantı tablosu.
 - Fiilimsileri türlerine doğru ayırır.
 - En az iki sosyal bilim alanını metinden bir kanıtla ilişkilendirir.
-- Dil/sahne ayrıntısı ile karakter veya ilişki çıkarımı arasında açık bağ.
+- Tablodaki 3 maddenin her birinin metin kanıtıyla doğru eşleştirilmesi.
 
 ### Sık yanılgılar
 
 - Adlaşmış sıfat-fiili isim-fiil sanmak.
-- Öğrenci, Fiilimsiler ve gölge oyununun sosyal bilimlerle ilişkisi — basılı s.34 görevindeki dil farkını karakterin zekâsı veya değeri hakkında değişmez bir yargı sanabilir.
-- Karagöz oyununun bölümlerini yalnız ezberlenecek başlıklar olarak görüp bölümün sahne işlevini gözden kaçırabilir.
+- ‘Fiilimsiler ve gölge oyununun sosyal bilimlerle ilişkisi (T1V23_P34_GRAMMAR)’ bağlamında geçen sözcüklerin metindeki özel bağlamsal anlamı yerine ilk akla gelen sözlük anlamıyla yetinmek.
 
 ### Müdahale
 
-- Fiilimsiler ve gölge oyununun sosyal bilimlerle ilişkisi — basılı s.34 için müdahale: Öğrenciye aynı sözün farklı bir bağlamda başka bir kişiyi de kurup kuramayacağını sordurun; böylece dil göstergesini kişi değeriyle eşitlemesini ayırın.
-- Fiilimsiler ve gölge oyununun sosyal bilimlerle ilişkisi — basılı s.34 için müdahale: Diyalogdan bir cümleyi seçip mukaddime, muhavere, fasıl veya bitişten hangisindeki işleviyle okuduğunu açıklattırın.
+- ‘Fiilimsiler ve gölge oyununun sosyal bilimlerle ilişkisi (T1V23_P34_GRAMMAR)’ incelemesinde ‘adlaşmış sıfat fiili isim’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Sözcüğün geçtiği cümleyi ve paragrafı bütünüyle okutarak ‘Fiilimsiler ve gölge oyununun sosyal bilimlerle ilişkisi (T1V23_P34_GRAMMAR)’ bağlamının anlama yüklediği yeni ve mecazi çağrışımları adım adım açıklatın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Ekleri renklendirmeden, sözcüğün cümledeki görevini sorarak ilerle.
-- Öğrenci için ‘Sahnede görülen/söylenen — bunun gösterdiği özellik — seyirci etkisi’ üçlü tablosu kullanın. Bu görevde bağlantı noktası: Fiilimsiler ve gölge oyununun sosyal bilimlerle ilişkisi.
+- Öğrenciye ‘iddia — metin kanıtı — Fiilimsiler ve gölge oyununun sosyal bilimlerle ilişkisi gerekçesi’ üçlü şemasını tahtada ‘Kitapta “Fiilimsiler ve gölge oyunu…’ üzerinden örnekleyerek cevabını oluşturmasını sağlayın.
 **Zenginleştirme**
 - Gölge oyununu sosyal tarih kaynağı olarak kullanmanın sınırlılıklarını tartıştır.
-- Aynı kısa diyaloğu söz varlığı değişmeden beden dili ve ton değişikliğiyle nasıl farklılaştırabileceğini tasarlatın. Bu görevde derinleştirme odağı: Fiilimsiler ve gölge oyununun sosyal bilimlerle ilişkisi.
+- ‘Kitapta “Fiilimsiler ve gölge oyunu…’ için ulaşılan cevabı sınıfta farklı bir bakış açısıyla savunmasını veya karşıt bir tezi çürütmesini isteyerek Fiilimsiler ve gölge oyununun sosyal bilimlerle ilişkisi ekseninde tartışma başlatın.
 
 ### Kaynak ve durum
 
@@ -1864,19 +1850,19 @@ Kitapta “Süreci Değerlendirebilme” başlığı altında verilen çalışma
 
 ### Açıklama ve gerekçe
 
-yapı unsurlarının anlam ve işlevi — basılı s.35 için beklenen yön, yapı unsurlarının anlam ve işlevi yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Güldürü, çatışma ve dönem için ayrı gerekçe kurar. Seçtiği dramatik ögeyi metinden kanıtla savunur.
+Bu görevdeki ‘Kitapta “Süreci Değerlendirebilme” başlığı altında…’ tablosundaki maddelerin (dil_uslup, dramatik_oge, diger_dil_unsurlari) doğruluğu, kaynak metindeki açık ifadeler ve çıkarımlar ile karşılaştırılarak temellendirilir. Öğrencinin izlemesi gereken çıkarım yolu; her bir cümleyi tek tek metindeki ifadelerle eşleştirmek, metinde doğrudan doğrulanan yargıları 'Evet', açıkça çelişenleri 'Hayır' ve metinde hakkında hüküm verilmeyen yargıları ise 'Bilgi yok' olarak sınıflandırmaktır. Güldürü, çatışma ve dönem için ayrı gerekçe kurar. Seçtiği dramatik ögeyi metinden kanıtla savunur.
 
 ### Öğretmenin bilmesi gerekenler
 
-Karagöz bölümünde yapı unsurlarının anlam ve işlevi — basılı s.35 üzerinden geleneksel gölge oyununun seyirlik ve sözlü niteliği ele alınır. Karakterler çoğu zaman yalnız adlarıyla değil, konuşma biçimleri, yanlış anlamaları, toplumsal tipleri ve sahne içindeki işlevleriyle kurulur. Dil farkını bir üstünlük ölçüsü gibi değil, karakterleştirme ve mizahın bağlama bağlı bir aracı olarak açıklayın. Bu görevde özellikle ‘Dil/üslup ve dramatik yapı değerlendirmesi — Süreci Değerlendirebilme’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Fiilde çatı konusu, eylemin öznesiyle (etken, edilgen, dönüşlü, işteş) ve nesnesiyle (geçişli, geçişsiz, ettirgen, oldurgan) kurduğu söz dizimsel ve anlamsal ilişkiyi belirler. Edilgen çatıda (-l, -n ekleriyle) işi yapan gerçek özne gizlenir veya örtük bırakılır; nesne 'sözde özne' konumuna geçer. Geçişli fiiller nesne alabilirken geçişsiz fiiller nesne alamaz. Öğretmen bu görevde, fiilin çatı özelliğini yalnız ek ezberiyle değil, cümlenin anlamsal özne-nesne kurgusu ve işlevsel rolü üzerinden açıklatmalıdır. Bu görevde öğretmenin kılavuzluğu, ‘Kitapta “Süreci Değerlendirebilme” başlığı altında…’ bağlamında öğrencinin yapı unsurlarının anlam ve işlevi ve ‘dil_uslup: {'gulduru': 'yanlış anlamalar…’ arasındaki mantıksal nedensellik bağını metin üzerinden kavramasına odaklanmalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Karagöz’de söylenen söz hem anlam taşır hem de konuşanın kimliğini ve sahnedeki ilişkisini görünür kılar. Bu görevde özellikle yapı unsurlarının anlam ve işlevi üzerinde durun.
+> Bu soruda, ‘Kitapta “Süreci Değerlendirebilme” başlığı al…’ odağını metnin genel anlam akışı içinde değerlendirmeniz gerekmektedir. Tespit ettiğiniz verileri yapı unsurlarının anlam ve işlevi açısından yorumlayarak ‘dil_uslup: {'gulduru': 'yanlış anla…’ yönünde tutarlı bir sonuca varın.
 
 ### Bu görev neden burada?
 
-Bu görev, yapı unsurlarının anlam ve işlevi bakımından sözlü kültür ürününün biçimsel özelliğini metin kanıtına dönüştürür.
+Öğrencinin ‘Kitapta “Süreci Değerlendirebilme” başlığı al…’ incelemesi yoluyla yapı unsurlarının anlam ve işlevi kavramını içselleştirmesi, edebî metinlerdeki anlam katmanlarını fark etmesine ve ‘dil_uslup: {'gulduru': 'yanlış anla…’ yönünde derinlikli bakış kazanmasına zemin hazırlar.
 
 ### Kabul edilebilir cevaplar
 
@@ -1887,13 +1873,13 @@ Bu görev, yapı unsurlarının anlam ve işlevi bakımından sözlü kültür �
 
 - Öz değerlendirme formunu öğrencinin yerine doldurma. Sonunda bir güçlü yön ve bir geliştirme hedefi yazdır.
 - Öz değerlendirme formunu öğrencinin yerine doldurmayın. Sonunda bir güçlü yön ve bir geliştirme hedefi yazdırın.
-- yapı unsurlarının anlam ve işlevi — basılı s.35 için öğrencinin seçtiği söz veya sahne ayrıntısını önce aynen işaretletin; ardından bu ayrıntının hangi karakter özelliğini kurduğunu konuşturun.
-- Karagöz-Hacivat farkını ‘biri doğru, biri yanlış’ diye kapatmayın; yanlış anlamanın sahne işlevini ve mizah üretimini görünür kılın.
+- Öğrencilere ‘yapı unsurlarının anlam ve işlevi (T1V23_P35_EVAL)’ bağlamındaki anahtar kavramları listeleterek metin taraması yapmalarını sağlayın.
+- Öğrencilere ‘Eğer ‘dil_uslup: {'gulduru': 'yanlış anla…’ olmasaydı ne değişirdi?’ sorusunu yönelterek yapı unsurlarının anlam ve işlevi çıkarımını test edin.
 
 ### Takip soruları
 
-- yapı unsurlarının anlam ve işlevi — basılı s.35 içinde bu yorumu taşıyan konuşma ayrıntısı hangisi; aynı ayrıntı çıkarılsa karakter ilişkisi nasıl değişirdi? Özellikle ‘Dil/üslup ve dramatik yapı değerlendirmesi — Süreci Değerlendirebilme’ ayrıntısını yoklayın.
-- yapı unsurlarının anlam ve işlevi — basılı s.35 için düşünme sorusu: Bu unsur yalnız bilgi vermiyor, seyirciyi nasıl bir tepkiye yönlendiriyor? Özellikle ‘Dil/üslup ve dramatik yapı değerlendirmesi — Süreci Değerlendirebilme’ ayrıntısını yoklayın.
+- Metindeki ‘yapı unsurlarının anlam ve işlevi (T1V23_P35_EVAL)’ unsuru, eserin olay örgüsünde çatışmayı tırmandıran mı yoksa çözümleyen mi bir işlev üstlenmektedir?
+- Olay örgüsündeki ‘yapı unsurlarının anlam ve işlevi (T1V23_P35_EVAL)’ akışı okuyucuda merak duygusunu canlı tutmak için hangi tekniklerle kurgulanmıştır?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -1905,22 +1891,21 @@ Bu görev, yapı unsurlarının anlam ve işlevi bakımından sözlü kültür �
 ### Sık yanılgılar
 
 - Kişisel görüşü metin kanıtı olmadan yeterli saymak.
-- Öğrenci, yapı unsurlarının anlam ve işlevi — basılı s.35 görevindeki dil farkını karakterin zekâsı veya değeri hakkında değişmez bir yargı sanabilir.
-- Karagöz oyununun bölümlerini yalnız ezberlenecek başlıklar olarak görüp bölümün sahne işlevini gözden kaçırabilir.
+- ‘yapı unsurlarının anlam ve işlevi (T1V23_P35_EVAL)’ konusunu metnin bütünsel ana iletisinden kopararak tek bir ayrıntı üzerinden genellemeye gitmek.
 
 ### Müdahale
 
-- yapı unsurlarının anlam ve işlevi — basılı s.35 için müdahale: Öğrenciye aynı sözün farklı bir bağlamda başka bir kişiyi de kurup kuramayacağını sordurun; böylece dil göstergesini kişi değeriyle eşitlemesini ayırın. Müdahaleyi ‘Dil/üslup ve dramatik yapı değerlendirmesi — Süreci Değerlendirebilme’ ayrıntısını kullandırarak somutlaştırın.
-- yapı unsurlarının anlam ve işlevi — basılı s.35 için müdahale: Diyalogdan bir cümleyi seçip mukaddime, muhavere, fasıl veya bitişten hangisindeki işleviyle okuduğunu açıklattırın. Müdahaleyi ‘Dil/üslup ve dramatik yapı değerlendirmesi — Süreci Değerlendirebilme’ ayrıntısını kullandırarak somutlaştırın.
+- ‘yapı unsurlarının anlam ve işlevi (T1V23_P35_EVAL)’ doğrultusunda ‘kişisel görüşü metin kanıtı’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- ‘yapı unsurlarının anlam ve işlevi (T1V23_P35_EVAL)’ ayrıntısının metnin genel iletisine ve yapı unsurlarının anlam ve işlevi amacına nasıl bağlandığını metin parçalarını yan yana getirerek gösterin ve açıklattırın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - güldürü / çatışma / dönem için üç ayrı kanıt kutusu ver.
-- Öğrenci için ‘Sahnede görülen/söylenen — bunun gösterdiği özellik — seyirci etkisi’ üçlü tablosu kullanın. Bu görevde bağlantı noktası: yapı unsurlarının anlam ve işlevi.
+- ‘Kitapta “Süreci Değerlendirebilme” …’ metnindeki karmaşık ifadeleri öğrencinin kendi sözcükleriyle yeniden ifade etmesini isteyerek yapı unsurlarının anlam ve işlevi fikrini netleştirin.
 **Zenginleştirme**
 - Bir dil unsurunu değiştirerek sahnenin mizah/çatışma etkisini yeniden yorumlat.
-- Aynı kısa diyaloğu söz varlığı değişmeden beden dili ve ton değişikliğiyle nasıl farklılaştırabileceğini tasarlatın. Bu görevde derinleştirme odağı: yapı unsurlarının anlam ve işlevi.
+- Öğrencinin ‘Kitapta “Süreci Değerlendirebilme” …’ bağlamındaki çıkarımını infografik, dijital sunum veya kavram haritasına dönüştürerek sınıf panosunda sergilemesini sağlayın.
 
 ### Kaynak ve durum
 
@@ -1967,31 +1952,31 @@ Mektup, bir kişinin başka bir kişiye veya kuruma duygu, düşünce, haber, is
 
 ### Açıklama ve gerekçe
 
-Soru 1 — Konuya Başlarken — mektup ve iletişim — basılı s.36 için cevap, Konuya Başlarken — mektup ve iletişim ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Mektubun iletişim işlevini açıklar. Sanat ürünü benzetmesinde üretici–ileti–alıcı ilişkisini kurar.
+Beklenen cevabın temeli, Konuya Başlarken — mektup ve iletişim ekseninde ‘Mektup nedir?…’ bağlamını aydınlatan metin kanıtlarının doğru tahlil edilmesidir. Yanıtın kabul edilebilirliği; Mektubun iletişim işlevini açıklar. Sanat ürünü benzetmesinde üretici–ileti–alıcı ilişkisini kurar. ölçütüne bağlı kalınmasına ve metindeki verilerin tarafsız biçimde yorumlanmasına bağlıdır. Öğrenci; önce ilgili bilgiyi kaynaktan süzmeli, ardından bu bilgiyi sorunun gerektirdiği kavramsal çerçeveye oturtmalıdır. Metin sınırlarını aşmayan ve dayanağı gösterilen özgün öğrenci yorumları da geçerli sayılır.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 1 — Konuya Başlarken — mektup ve iletişim — basılı s.36 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Mektup nedir?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görevde öğretmenin kılavuzluğu, ‘Mektup nedir?…’ bağlamında öğrencinin Konuya Başlarken — mektup ve iletişim ve ‘Mektup, bir kişinin başka bir kişiye vey…’ arasındaki mantıksal nedensellik bağını metin üzerinden kavramasına odaklanmalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle Konuya Başlarken — mektup ve iletişim üzerinde durun.
+> Bu soruda, ‘Mektup nedir?…’ odağını metnin genel anlam akışı içinde değerlendirmeniz gerekmektedir. Tespit ettiğiniz verileri Konuya Başlarken — mektup ve iletişim açısından yorumlayarak ‘Mektup, bir kişinin başka bir kişiy…’ yönünde tutarlı bir sonuca varın.
 
 ### Bu görev neden burada?
 
-Bu görev, Konuya Başlarken — mektup ve iletişim ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+Öğrencinin ‘Mektup nedir?…’ incelemesi yoluyla Konuya Başlarken — mektup ve iletişim kavramını içselleştirmesi, edebî metinlerdeki anlam katmanlarını fark etmesine ve ‘Mektup, bir kişinin başka bir kişiy…’ yönünde derinlikli bakış kazanmasına zemin hazırlar.
 
 ### Ders içi uygulama
 
 - Kitaptaki hazırlık sorularını öğrencinin kişisel iletişim deneyimleriyle ilişkilendir; tek kalıp cevap dayatma.
 - Mektubu yalnız haber bildiren bir metin olarak daraltmayın; öğrencinin kendi mektup veya yazılı iletişim deneyiminden örnek alabilirsiniz.
-- Soru 1 — Konuya Başlarken — mektup ve iletişim — basılı s.36 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- Öğrencilere ‘Mektup nedir?…’ bağlamındaki anahtar kavramları listeleterek metin taraması yapmalarını sağlayın.
+- Öğrencilere ‘Eğer ‘Mektup, bir kişinin başka bir kişiy…’ olmasaydı ne değişirdi?’ sorusunu yönelterek Konuya Başlarken — mektup ve iletişim çıkarımını test edin.
 
 ### Takip soruları
 
-- Soru 1 — Konuya Başlarken — mektup ve iletişim — basılı s.36 için düşünme sorusu: Alıcı değişseydi hitap, kelime seçimi veya ayrıntı düzeyi hangi yönde değişirdi? Özellikle ‘Mektup nedir?’ ayrıntısını yoklayın.
-- Soru 1 — Konuya Başlarken — mektup ve iletişim — basılı s.36 içindeki bir ifade mektubun amacına nasıl hizmet ediyor; yalnız bilgi mi veriyor, ilişki de mi kuruyor? Özellikle ‘Mektup nedir?’ ayrıntısını yoklayın.
+- ‘Mektup nedir?…’ cümlesindeki dilbilgisi tercihinin metnin genel anlatım akışı ve anlam bütünlüğüne etkisi nedir?
+- ‘Mektup nedir?…’ yapısındaki dil ögesi metinden çıkarılsaydı cümlenin bağlamsal doğruluğu ve anlatım gücü nasıl zayıflardı?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -2003,22 +1988,21 @@ Bu görev, Konuya Başlarken — mektup ve iletişim ölçütünü gönderici-al
 ### Sık yanılgılar
 
 - Mektubu yalnız haber bildiren ve yalnız özel kişiler arasında yazılan bir tür saymak.
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- Soru 1 — Konuya Başlarken — mektup ve iletişim — basılı s.36 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘Mektup nedir?…’ yazımında resmî ve samimi mektubun üslup gerekliliklerini birbiriyle karıştırmak.
 
 ### Müdahale
 
-- Soru 1 — Konuya Başlarken — mektup ve iletişim — basılı s.36 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Mektup nedir?’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 1 — Konuya Başlarken — mektup ve iletişim — basılı s.36 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Mektup nedir?’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Mektup nedir?…’ doğrultusunda ‘mektubu yalnız haber bildiren’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Muhataba göre dil ve anlatım tercihlerinin nasıl değiştiğini ‘Mektup nedir?…’ için tahtada oluşturulacak iki sütunlu tabloda karşılaştırarak belirleyin ve bağlamını tartışın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Gönderen–ileti–alıcı şemasını kullan.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: Konuya Başlarken — mektup ve iletişim.
+- ‘Mektup nedir?…’ hedefine yönelik bir kontrol listesi vererek öğrencinin ‘Mektup, bir kişinin başka bir …’ basamağını adım adım denetlemesini sağlayın.
 **Zenginleştirme**
 - Bir sanat eserinin hangi yönüyle 'mektup' gibi çalıştığını örneklendir.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: Konuya Başlarken — mektup ve iletişim.
+- Öğrencinin ‘Mektup nedir?…’ bağlamındaki ürününü sınıf panosunda sergileyip Konuya Başlarken — mektup ve iletişim sürecinin sunumunu yapmasını sağlayın.
 
 ### Tahta notu
 
@@ -2066,30 +2050,31 @@ Bir resim, ezgi, yapı ya da başka bir sanat ürünü de üreticisinin duygu, d
 
 ### Açıklama ve gerekçe
 
-Soru 2 — Konuya Başlarken — mektup ve iletişim — basılı s.36 için cevap, Konuya Başlarken — mektup ve iletişim ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Mektubun iletişim işlevini açıklar. Sanat ürünü benzetmesinde üretici–ileti–alıcı ilişkisini kurar.
+Bu soruda hedeflenen yanıt, metnin ana dokusunda yer alan ‘Bir sanat ürünü hangi bakımdan mektuba benzetilebi…’ ayrıntısını Konuya Başlarken — mektup ve iletişim perspektifiyle analiz etmeye dayanır. Doğruluk dayanağı; Mektubun iletişim işlevini açıklar. Sanat ürünü benzetmesinde üretici–ileti–alıcı ilişkisini kurar. ilkesinin karşılanması ve metindeki göstergelerin somut kanıtlarla açıklanmasıdır. Öğrencinin izleyeceği bilişsel basamaklar; metin parçalarını taramak, kavramsal anahtarları tespit etmek ve bu bulguları sentezleyerek tutarlı bir değerlendirme üretmektir. İfadeler birebir aynı olmak zorunda olmayıp metinle çelişmeyen ve gerekçelendirilmiş farklı yaklaşımlar geçerli kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 2 — Konuya Başlarken — mektup ve iletişim — basılı s.36 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Bir sanat ürünü hangi bakımdan mektuba benzetilebilir?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görevde öğretmen, ‘Bir sanat ürünü hangi bakımdan mektuba benzetilebi…’ yönergesini ele alırken sınıf ortamında Konuya Başlarken — mektup ve iletişim boyutunu öne çıkarmalı ve ‘Bir resim, ezgi, yapı ya da başka bir sa…’ yönündeki metin dayanaklarını desteklemelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle Konuya Başlarken — mektup ve iletişim üzerinde durun.
+> Bu çalışmayı yaparken metni dikkatle gözden geçirerek ‘Bir sanat ürünü hangi bakımdan mektuba benzet…’ ile ilgili kanıtları belirleyin; ulaştığınız yargıları Konuya Başlarken — mektup ve iletişim ve ‘Bir resim, ezgi, yapı ya da başka b…’ çerçevesinde gerekçelendirerek ifade edin.
 
 ### Bu görev neden burada?
 
-Bu görev, Konuya Başlarken — mektup ve iletişim ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+Konuya Başlarken — mektup ve iletişim eksenindeki bu çalışma, ‘Bir sanat ürünü hangi bakımdan mektuba benzet…’ konusunu ele alırken öğrencinin yüzeysel okumadan analitik çözümlemeye geçişini ve ‘Bir resim, ezgi, yapı ya da başka b…’ bağlantısını kurmasını destekler.
 
 ### Ders içi uygulama
 
 - Kitaptaki hazırlık sorularını öğrencinin kişisel iletişim deneyimleriyle ilişkilendir; tek kalıp cevap dayatma.
-- Soru 2 — Konuya Başlarken — mektup ve iletişim — basılı s.36 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- ‘Bir sanat ürünü hangi bakımdan mektuba b…’ sorusunu sınıfa yönelterek ilk izlenimleri ve metinle ilgili sezgisel yaklaşımları tahtada toplayın.
+- ‘Bir sanat ürünü hangi bakımdan mektuba b…’ ile metnin ana fikri arasındaki neden-sonuç ilişkisini tahta üzerinde şemalaştırarak gösterin.
+- Öğrenci yanıtlarını Mektubun iletişim işlevini açıklar. doğrultusunda kontrol ederek metin dayanağı bulunmayan varsayımları eleyin.
 
 ### Takip soruları
 
-- Soru 2 — Konuya Başlarken — mektup ve iletişim — basılı s.36 için düşünme sorusu: Alıcı değişseydi hitap, kelime seçimi veya ayrıntı düzeyi hangi yönde değişirdi? Özellikle ‘Bir sanat ürünü hangi bakımdan mektuba benzetilebilir?’ ayrıntısını yoklayın.
-- Soru 2 — Konuya Başlarken — mektup ve iletişim — basılı s.36 içindeki bir ifade mektubun amacına nasıl hizmet ediyor; yalnız bilgi mi veriyor, ilişki de mi kuruyor? Özellikle ‘Bir sanat ürünü hangi bakımdan mektuba benzetilebilir?’ ayrıntısını yoklayın.
+- Metinde ‘Bir sanat ürünü hangi bakımdan mektuba b…’ kullanımına benzer başka bir örnek bulunabilir mi; bu iki örnek yazarın üslubunu nasıl yansıtmaktadır?
+- Eğer ‘Bir sanat ürünü hangi bakımdan mektuba b…’ ifadesinde kullanılan dil bilgisel yapı değiştirilseydi, cümlenin ilettiği anlam ve vurgu nasıl başkalaşırdı?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -2101,22 +2086,21 @@ Bu görev, Konuya Başlarken — mektup ve iletişim ölçütünü gönderici-al
 ### Sık yanılgılar
 
 - Mektubu yalnız haber bildiren ve yalnız özel kişiler arasında yazılan bir tür saymak.
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- Soru 2 — Konuya Başlarken — mektup ve iletişim — basılı s.36 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘Bir sanat ürünü hangi bakımdan mekt…’ yazımında resmî ve samimi mektubun üslup gerekliliklerini birbiriyle karıştırmak.
 
 ### Müdahale
 
-- Soru 2 — Konuya Başlarken — mektup ve iletişim — basılı s.36 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Bir sanat ürünü hangi bakımdan mektuba benzetilebilir?’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 2 — Konuya Başlarken — mektup ve iletişim — basılı s.36 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Bir sanat ürünü hangi bakımdan mektuba benzetilebilir?’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Bir sanat ürünü hangi bakımdan mekt…’ incelemesinde ‘mektubu yalnız haber bildiren’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Muhataba göre dil ve anlatım tercihlerinin nasıl değiştiğini ‘Bir sanat ürünü hangi bakımdan mekt…’ için tahtada oluşturulacak iki sütunlu tabloda karşılaştırarak belirleyin ve bağlamını tartışın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Gönderen–ileti–alıcı şemasını kullan.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: Konuya Başlarken — mektup ve iletişim.
+- ‘Bir sanat ürünü hangi bakımdan mekt…’ uygulamasında öğrencinin taslak oluşturmasına yardımcı olmak için Konuya Başlarken — mektup ve iletişim doğrultusunda yönlendirici cümle başlangıçları verin.
 **Zenginleştirme**
 - Bir sanat eserinin hangi yönüyle 'mektup' gibi çalıştığını örneklendir.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: Konuya Başlarken — mektup ve iletişim.
+- ‘Bir sanat ürünü hangi bakımdan mekt…’ çerçevesinde hazırlanan metne Konuya Başlarken — mektup ve iletişim açısından karşıt bir bakış açısı getiren eleştirel bir ek paragraf yazdırın.
 
 ### Kaynak ve durum
 
@@ -2160,30 +2144,31 @@ Konuşur ya da mektup yazar gibi doğal anlatım metne içtenlik ve canlılık k
 
 ### Açıklama ve gerekçe
 
-Soru 3 — Konuya Başlarken — mektup ve iletişim — basılı s.36 için cevap, Konuya Başlarken — mektup ve iletişim ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Mektubun iletişim işlevini açıklar. Sanat ürünü benzetmesinde üretici–ileti–alıcı ilişkisini kurar.
+Beklenen cevabın temeli, Konuya Başlarken — mektup ve iletişim ekseninde ‘Konuşur ya da mektup yazar gibi yazmanın anlatıma …’ bağlamını aydınlatan metin kanıtlarının doğru tahlil edilmesidir. Yanıtın kabul edilebilirliği; Mektubun iletişim işlevini açıklar. Sanat ürünü benzetmesinde üretici–ileti–alıcı ilişkisini kurar. ölçütüne bağlı kalınmasına ve metindeki verilerin tarafsız biçimde yorumlanmasına bağlıdır. Öğrenci; önce ilgili bilgiyi kaynaktan süzmeli, ardından bu bilgiyi sorunun gerektirdiği kavramsal çerçeveye oturtmalıdır. Metin sınırlarını aşmayan ve dayanağı gösterilen özgün öğrenci yorumları da geçerli sayılır.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 3 — Konuya Başlarken — mektup ve iletişim — basılı s.36 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Konuşur ya da mektup yazar gibi yazmanın anlatıma etkisi nedir?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev adımında öğretmen, ‘Konuşur ya da mektup yazar gibi yazmanın anlatıma …’ ile ilgili sınıf tartışmasını Konuya Başlarken — mektup ve iletişim zemininde yapılandırmalı ve ‘Konuşur ya da mektup yazar gibi doğal an…’ doğrultusundaki tespitleri metin üzerinden teyit ettirmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle Konuya Başlarken — mektup ve iletişim üzerinde durun.
+> Bu etkinlikte amacınız, ‘Konuşur ya da mektup yazar gibi yazmanın anla…’ konusunu Konuya Başlarken — mektup ve iletişim perspektifinden tahlil etmektir. İddialarınızı metinden somut göstergelerle destekleyerek ‘Konuşur ya da mektup yazar gibi doğ…’ niteliğinde bir çıkarım yapın.
 
 ### Bu görev neden burada?
 
-Bu görev, Konuya Başlarken — mektup ve iletişim ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+Görev, ‘Konuşur ya da mektup yazar gibi yazmanın anla…’ konusundaki gözlemleri Konuya Başlarken — mektup ve iletişim ile sentezleyerek metin çözümleme disiplinini pekiştirir ve öğrencinin ‘Konuşur ya da mektup yazar gibi doğ…’ odaklı eleştirel düşünme kapasitesini artırır.
 
 ### Ders içi uygulama
 
 - Kitaptaki hazırlık sorularını öğrencinin kişisel iletişim deneyimleriyle ilişkilendir; tek kalıp cevap dayatma.
-- Soru 3 — Konuya Başlarken — mektup ve iletişim — basılı s.36 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- Metindeki anlatım tutumunu fark ettirmek için ‘Konuşur ya da mektup yazar gibi yazmanın…’ bölümünü sesli okutun.
+- Belirlenen alıntıların Konuya Başlarken — mektup ve iletişim ve ‘Konuşur ya da mektup yazar gibi doğ…’ açısından ne ifade ettiğini sınıf tartışmasıyla derinleştirin.
+- Farklı görüş bildiren öğrencilere söz hakkı vererek Konuya Başlarken — mektup ve iletişim ölçütü çerçevesinde ortak bir sonuca varılmasını yönlendirin.
 
 ### Takip soruları
 
-- Soru 3 — Konuya Başlarken — mektup ve iletişim — basılı s.36 için düşünme sorusu: Alıcı değişseydi hitap, kelime seçimi veya ayrıntı düzeyi hangi yönde değişirdi? Özellikle ‘Konuşur ya da mektup yazar gibi yazmanın anlatıma etkisi nedir?’ ayrıntısını yoklayın.
-- Soru 3 — Konuya Başlarken — mektup ve iletişim — basılı s.36 içindeki bir ifade mektubun amacına nasıl hizmet ediyor; yalnız bilgi mi veriyor, ilişki de mi kuruyor? Özellikle ‘Konuşur ya da mektup yazar gibi yazmanın anlatıma etkisi nedir?’ ayrıntısını yoklayın.
+- ‘Konuşur ya da mektup yazar gibi yazmanın…’ yapısındaki dil ögesi metinden çıkarılsaydı cümlenin bağlamsal doğruluğu ve anlatım gücü nasıl zayıflardı?
+- ‘Konuşur ya da mektup yazar gibi yazmanın…’ yapısındaki dil bilgisel işlevin, konuşurun ya da anlatıcının ruh hâlini yansıtmadaki rolü nedir?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -2195,22 +2180,21 @@ Bu görev, Konuya Başlarken — mektup ve iletişim ölçütünü gönderici-al
 ### Sık yanılgılar
 
 - Mektubu yalnız haber bildiren ve yalnız özel kişiler arasında yazılan bir tür saymak.
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- Soru 3 — Konuya Başlarken — mektup ve iletişim — basılı s.36 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘Konuşur ya da mektup yazar gibi yaz…’ yazımında resmî ve samimi mektubun üslup gerekliliklerini birbiriyle karıştırmak.
 
 ### Müdahale
 
-- Soru 3 — Konuya Başlarken — mektup ve iletişim — basılı s.36 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Konuşur ya da mektup yazar gibi yazmanın anlatıma etkisi nedir?’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 3 — Konuya Başlarken — mektup ve iletişim — basılı s.36 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Konuşur ya da mektup yazar gibi yazmanın anlatıma etkisi nedir?’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Konuşur ya da mektup yazar gibi yaz…’ doğrultusunda ‘mektubu yalnız haber bildiren’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Muhataba göre dil ve anlatım tercihlerinin nasıl değiştiğini ‘Konuşur ya da mektup yazar gibi yaz…’ için tahtada oluşturulacak iki sütunlu tabloda karşılaştırarak belirleyin ve bağlamını tartışın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Gönderen–ileti–alıcı şemasını kullan.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: Konuya Başlarken — mektup ve iletişim.
+- ‘Konuşur ya da mektup yazar gibi yaz…’ hedefine yönelik bir kontrol listesi vererek öğrencinin ‘Konuşur ya da mektup yazar gib…’ basamağını adım adım denetlemesini sağlayın.
 **Zenginleştirme**
 - Bir sanat eserinin hangi yönüyle 'mektup' gibi çalıştığını örneklendir.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: Konuya Başlarken — mektup ve iletişim.
+- Öğrencinin ‘Konuşur ya da mektup yazar gibi yaz…’ bağlamındaki ürününü sınıf panosunda sergileyip Konuya Başlarken — mektup ve iletişim sürecinin sunumunu yapmasını sağlayın.
 
 ### Kaynak ve durum
 
@@ -2254,11 +2238,11 @@ Tek sabit cevap yok; ürün/süreç, aşağıdaki ölçütlerle değerlendirilir
 
 ### Açıklama ve gerekçe
 
-Âli’ye Mektuplar — metne hazırlık ve okuma — basılı s.37-38 bir tek cümlelik cevap anahtarı değil, kitapta yürütülen bir süreç veya ürün çalışmasıdır. Doğru uygulama; öğrencinin Âli’ye Mektuplar — metne hazırlık ve okuma kararını görünür kılması, çalışma adımlarını tamamlaması ve ortaya çıkan ürünü kitapta belirtilen amaca göre açıklamasıdır.
+Bu süreç çalışması tek bir ezber yanıt gerektirmeyip Âli’ye Mektuplar — metne hazırlık ve okuma ekseninde ‘Kitapta “Okumayı Yönetebilme — Âli’ye Mektuplar” b…’ adımlarının işletilmesine dayanır. Değerlendirmede temel ölçüt; Mektuptaki duygu, günlük yaşam, okuma/çalışma hayatı ve edebiyat düşüncelerini ayırt eder. Mektup metninden doğrudan çıkan bilgi ile Mehmet Kaplan biyografisinden gelen bilgiyi karıştırmaz. ve öğrencinin aşamaları metin kanıtlarıyla gerekçelendirmesidir.
 
 ### Bu görev neden burada?
 
-Bu görev, Âli’ye Mektuplar — metne hazırlık ve okuma ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+Bu görev, öğrencinin ‘Kitapta “Okumayı Yönetebilme — Âli’ye Mektupl…’ üzerinden Âli’ye Mektuplar — metne hazırlık ve okuma becerisini somut bir metin bağlamında deneyimlemesini ve iddialarını kanıtla destekleme alışkanlığı kazanmasını sağlar.
 
 ### Ders içi uygulama
 
@@ -2272,16 +2256,16 @@ Bu görev, Âli’ye Mektuplar — metne hazırlık ve okuma ölçütünü gönd
 - Mektuptan doğrudan çıkarım ve biyografi bilgisini ayıran kısa notlar.
 - Mektuptaki duygu, günlük yaşam, okuma/çalışma hayatı ve edebiyat düşüncelerini ayırt eder.
 - Mektup metninden doğrudan çıkan bilgi ile Mehmet Kaplan biyografisinden gelen bilgiyi karıştırmaz.
-- Gönderici-alıcı-amaç ile dil tercihi arasında metinden kanıtlı ilişki.
+- Öğrencinin ‘Kitapta “Okumayı Yönetebilme — Âli’ye Me…’ sorusuna verdiği cevapta metinden doğrudan alıntı veya somut kanıt göstermesi.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - 'Mektupta var' / 'Biyografiden öğrendim' şeklinde iki sütun kullan.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: Âli’ye Mektuplar — metne hazırlık ve okuma.
+- ‘Kitapta “Okumayı Yönetebilme — Âli’…’ sürecinde zorlanan öğrenciye metin türünün yapı basamaklarını gösteren bir şablon sunun.
 **Zenginleştirme**
 - İki kaynak türünün aynı kişi hakkında ne tür farklı bilgiler sunduğunu tartıştır.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: Âli’ye Mektuplar — metne hazırlık ve okuma.
+- Öğrenciden ‘Kitapta “Okumayı Yönetebilme — Âli’…’ ürününü dijital bir sunuma veya okul bülteninde yayımlanacak bir yazıya dönüştürmesini isteyin.
 
 ### Kaynak ve durum
 
@@ -2337,53 +2321,52 @@ Kitapta “Söz Varlığımız” başlığı altında verilen çalışma/yöner
 
 ### Açıklama ve gerekçe
 
-söz seçimi ve karakter/bağlam ilişkisi — basılı s.39 için cevap, söz seçimi ve karakter/bağlam ilişkisi ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Altı çizili çekirdek sözcükleri bağlama uygun güncel karşılıkla açıklar. Metinde bilmediği başka sözcükleri de belirleyebilir.
+‘Kitapta “Söz Varlığımız” başlığı altında verilen ç…’ kapsamındaki tablo maddeleri (umumiyetle, mücerretlik, tahlil), kaynak metindeki verilerle satır satır karşılaştırılarak değerlendirilir. Öğrencinin izleyeceği yöntem; metinde doğrudan doğrulanan önermelere 'Evet', açıkça reddedilenlere 'Hayır', doğrulanmayan veya değinilmeyenlere ise 'Bilgi yok' karşılığını vermektir. Altı çizili çekirdek sözcükleri bağlama uygun güncel karşılıkla açıklar. Metinde bilmediği başka sözcükleri de belirleyebilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-söz seçimi ve karakter/bağlam ilişkisi — basılı s.39 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Söz Varlığımız’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev adımında öğretmen, ‘Kitapta “Söz Varlığımız” başlığı altında verilen ç…’ ile ilgili sınıf tartışmasını söz seçimi ve karakter/bağlam ilişkisi zemininde yapılandırmalı ve ‘umumiyetle: genellikle mücerretlik: soyu…’ doğrultusundaki tespitleri metin üzerinden teyit ettirmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle söz seçimi ve karakter/bağlam ilişkisi üzerinde durun.
+> Bu etkinlikte amacınız, ‘Kitapta “Söz Varlığımız” başlığı altında veri…’ konusunu söz seçimi ve karakter/bağlam ilişkisi perspektifinden tahlil etmektir. İddialarınızı metinden somut göstergelerle destekleyerek ‘umumiyetle: genellikle mücerretlik:…’ niteliğinde bir çıkarım yapın.
 
 ### Bu görev neden burada?
 
-Bu görev, söz seçimi ve karakter/bağlam ilişkisi ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+Görev, ‘Kitapta “Söz Varlığımız” başlığı altında veri…’ konusundaki gözlemleri söz seçimi ve karakter/bağlam ilişkisi ile sentezleyerek metin çözümleme disiplinini pekiştirir ve öğrencinin ‘umumiyetle: genellikle mücerretlik:…’ odaklı eleştirel düşünme kapasitesini artırır.
 
 ### Ders içi uygulama
 
 - Kitabın gerçek üç aşamasını koru: tahmin etme, yerine kullanılabilecek sözcük önerme, başka bilinmeyen sözcükleri bulma.
 - Kitabın üç aşamasını koruyun: önce bağlamdan tahmin, sonra yerine kullanılabilecek güncel karşılık, ardından başka bilinmeyen sözcükleri belirleme.
-- söz seçimi ve karakter/bağlam ilişkisi — basılı s.39 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- Öğrencilere ‘söz seçimi ve karakter/bağlam ilişkisi (T1V23_P39_VOCAB)’ bağlamındaki anahtar kavramları listeleterek metin taraması yapmalarını sağlayın.
+- Öğrencilere ‘Eğer ‘umumiyetle: genellikle mücerretlik:…’ olmasaydı ne değişirdi?’ sorusunu yönelterek söz seçimi ve karakter/bağlam ilişkisi çıkarımını test edin.
 
 ### Öğrenci cevaplarını değerlendirme
 
 - Tahmin + kontrol + güncel karşılık kaydı.
 - Altı çizili çekirdek sözcükleri bağlama uygun güncel karşılıkla açıklar.
 - Metinde bilmediği başka sözcükleri de belirleyebilir.
-- Gönderici-alıcı-amaç ile dil tercihi arasında metinden kanıtlı ilişki.
+- Tablodaki 7 maddenin her birinin metin kanıtıyla doğru eşleştirilmesi.
 
 ### Sık yanılgılar
 
 - Sözlükteki ilk karşılığı bağlama bakmadan doğru kabul etmek.
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- söz seçimi ve karakter/bağlam ilişkisi — basılı s.39 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘söz seçimi ve karakter/bağlam ilişkisi (T1V23_P39_VOCAB)’ yazımında resmî ve samimi mektubun üslup gerekliliklerini birbiriyle karıştırmak.
 
 ### Müdahale
 
-- söz seçimi ve karakter/bağlam ilişkisi — basılı s.39 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Söz Varlığımız’ ayrıntısını kullandırarak somutlaştırın.
-- söz seçimi ve karakter/bağlam ilişkisi — basılı s.39 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Söz Varlığımız’ ayrıntısını kullandırarak somutlaştırın.
+- ‘söz seçimi ve karakter/bağlam ilişkisi (T1V23_P39_VOCAB)’ doğrultusunda ‘sözlükteki ilk karşılığı bağlama’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Muhataba göre dil ve anlatım tercihlerinin nasıl değiştiğini ‘söz seçimi ve karakter/bağlam ilişkisi (T1V23_P39_VOCAB)’ için tahtada oluşturulacak iki sütunlu tabloda karşılaştırarak belirleyin ve bağlamını tartışın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Sözcüğün geçtiği bağlamı birlikte göster.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: söz seçimi ve karakter/bağlam ilişkisi.
+- Öğrenciyi bir akranıyla eşleştirerek ‘Kitapta “Söz Varlığımız” başlığı al…’ hakkındaki düşüncelerini önce sözlü olarak paylaşmasını, ardından yazıya dökmesini isteyin.
 **Zenginleştirme**
 - Eski/güncel karşılığın üslup farkını tartıştır.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: söz seçimi ve karakter/bağlam ilişkisi.
+- Öğrenciden ‘Kitapta “Söz Varlığımız” başlığı al…’ metnindeki söz seçimi ve karakter/bağlam ilişkisi yaklaşımını örnek alarak benzer temada kısa bir kurmaca metin veya deneme taslağı yazmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -2426,57 +2409,57 @@ Ali ile kişisel bağı sürdürmek; günlük hayat, duygular, fakülte/çalış
 
 ### Açıklama ve gerekçe
 
-Soru 1 — Metni Anlayalım — dört temel soru — basılı s.40 için cevap, Metni Anlayalım — dört temel soru ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Her cevabı mektuptaki bilgi veya görüşle ilişkilendirir. Yazarın roman anlayışını tek bir ayrıntıya indirgemez.
+Beklenen cevap, Metni Anlayalım — dört temel soru çerçevesinde ‘Mehmet Kaplan'ın mektubu yazma amacı nedir?…’ konusunu metnin sunduğu veriler ve kavramsal dayanaklar üzerinden şekillendirir. Bu cevabın uygunluğu, Her cevabı mektuptaki bilgi veya görüşle ilişkilendirir. Yazarın roman anlayışını tek bir ayrıntıya indirgemez. ölçütünün karşılanmasına ve öğrencinin metindeki olay/durum ayrıntılarını nedensellik bağıyla kurmasına dayanır. Öğrencinin izlemesi gereken çıkarım yolu; öncelikle metindeki kanıt niteliği taşıyan ifadeleri belirlemek, ardından bu göstergeleri kavramsal odakla ilişkilendirerek kendi gerekçeli açıklamasını oluşturmaktır. Öğrenci aynı sonucu farklı sözcüklerle ifade edebilir; temel iddia ile metin dayanağı arasındaki mantıksal tutarlılık korunduğu sürece kişisel yorumlar alternatif cevap olarak kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 1 — Metni Anlayalım — dört temel soru — basılı s.40 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Mehmet Kaplan'ın mektubu yazma amacı nedir?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev tahlilinde öğretmen, Metni Anlayalım — dört temel soru odağında ‘Mehmet Kaplan'ın mektubu yazma amacı nedir?…’ sorusuna yönelik yanıtların metin içi tutarlılığını denetlemeli ve yüzeysel yorumların ötesine geçilmesini sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle Metni Anlayalım — dört temel soru üzerinde durun.
+> Görevin temel amacı, ‘Mehmet Kaplan'ın mektubu yazma amacı nedir?…’ ayrıntısı üzerinden Metni Anlayalım — dört temel soru kavramını kavramanızdır. Metindeki ilgili cümleleri bularak ‘Ali ile kişisel bağı sürdürmek; gün…’ bağlamındaki düşüncenizi kendi cümlelerinizle ortaya koyun.
 
 ### Bu görev neden burada?
 
-Bu görev, Metni Anlayalım — dört temel soru ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+Bu soru, ‘Mehmet Kaplan'ın mektubu yazma amacı nedir?…’ ayrıntısını Metni Anlayalım — dört temel soru ile birleştirerek dil ve edebiyat çalışmalarında neden-sonuç ilişkisi kurma ve ‘Ali ile kişisel bağı sürdürmek; gün…’ bağlamını kavrama yeterliğini güçlendirir.
 
 ### Ders içi uygulama
 
 - Öğrenciden cevapların yanına kısa metin kanıtı istemek yararlıdır.
-- Soru 1 — Metni Anlayalım — dört temel soru — basılı s.40 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- Öğrencilerden metinde ‘Mehmet Kaplan'ın mektubu yazma amacı ned…’ konusuna kaynaklık eden temel ifadelerin altını çizmelerini isteyin.
+- Öğrencilerin tespit ettiği kanıtları karşılaştırarak hangisinin Metni Anlayalım — dört temel soru iddiasını daha güçlü desteklediğini sorgulatın.
+- Ulaşılan cevabı Metni Anlayalım — dört temel soru bağlamında toparlayıp metin tahlili için bir kural veya ilke olarak özetletin.
 
 ### Takip soruları
 
-- Soru 1 — Metni Anlayalım — dört temel soru — basılı s.40 için düşünme sorusu: Alıcı değişseydi hitap, kelime seçimi veya ayrıntı düzeyi hangi yönde değişirdi? Özellikle ‘Mehmet Kaplan'ın mektubu yazma amacı nedir?’ ayrıntısını yoklayın.
-- Soru 1 — Metni Anlayalım — dört temel soru — basılı s.40 içindeki bir ifade mektubun amacına nasıl hizmet ediyor; yalnız bilgi mi veriyor, ilişki de mi kuruyor? Özellikle ‘Mehmet Kaplan'ın mektubu yazma amacı nedir?’ ayrıntısını yoklayın.
+- ‘Mehmet Kaplan'ın mektubu yazma amacı ned…’ yapısındaki dil ögesi metinden çıkarılsaydı cümlenin bağlamsal doğruluğu ve anlatım gücü nasıl zayıflardı?
+- ‘Mehmet Kaplan'ın mektubu yazma amacı ned…’ cümlesindeki dilbilgisi tercihinin metnin genel anlatım akışı ve anlam bütünlüğüne etkisi nedir?
 
 ### Öğrenci cevaplarını değerlendirme
 
 - Dört anlama sorusuna kanıta dayalı cevap.
 - Her cevabı mektuptaki bilgi veya görüşle ilişkilendirir.
 - Yazarın roman anlayışını tek bir ayrıntıya indirgemez.
-- Gönderici-alıcı-amaç ile dil tercihi arasında metinden kanıtlı ilişki.
+- ‘Mehmet Kaplan'ın mektubu yazma amacı ned…’ konusundaki tespitlerin metin bağlamına ve türün edebî özelliklerine uygunluğu.
 
 ### Sık yanılgılar
 
 - Mektubu yalnız günlük haberleşme metni saymak.
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- Soru 1 — Metni Anlayalım — dört temel soru — basılı s.40 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘Mehmet Kaplan'ın mektubu yazma amac…’ türünde hitap ve kapanış ifadelerini biçimsel süs sanıp muhatapla kurulan ilişkinin işlevini gözden kaçırmak.
 
 ### Müdahale
 
-- Soru 1 — Metni Anlayalım — dört temel soru — basılı s.40 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Mehmet Kaplan'ın mektubu yazma amacı nedir?’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 1 — Metni Anlayalım — dört temel soru — basılı s.40 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Mehmet Kaplan'ın mektubu yazma amacı nedir?’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciden ‘Mehmet Kaplan'ın mektubu yazma amac…’ bağlamında ‘mektubu yalnız günlük haberleşme’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- Öğrenciye gönderici-alıcı ilişkisini iki farklı örnek üzerinden karşılaştırın; ‘Mehmet Kaplan'ın mektubu yazma amac…’ hitap seçiminin iletişim amacına etkisini gösterin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Her soru için metinden anahtar ifade buldur.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: Metni Anlayalım — dört temel soru.
+- ‘Mehmet Kaplan'ın mektubu yazma amac…’ sürecinde zorlanan öğrenciye metin türünün yapı basamaklarını gösteren bir şablon sunun.
 **Zenginleştirme**
 - Kaplan'ın roman anlayışını öğrencinin okuduğu başka bir romanla karşılaştırmasını iste.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: Metni Anlayalım — dört temel soru.
+- Öğrenciden ‘Mehmet Kaplan'ın mektubu yazma amac…’ ürününü dijital bir sunuma veya okul bülteninde yayımlanacak bir yazıya dönüştürmesini isteyin.
 
 ### Kaynak ve durum
 
@@ -2520,19 +2503,19 @@ Soru 2 — Roman hakkındaki düşüncelerin bir mektupta yer alması ne göster
 
 ### Açıklama ve gerekçe
 
-Soru 2 — Metni Anlayalım — dört temel soru — basılı s.40 için beklenen yön, Metni Anlayalım — dört temel soru yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Her cevabı mektuptaki bilgi veya görüşle ilişkilendirir. Yazarın roman anlayışını tek bir ayrıntıya indirgemez.
+Soruya verilecek uygun cevap, ‘Roman hakkındaki düşüncelerin bir mektupta yer alm…’ yönündeki çıkarımı Metni Anlayalım — dört temel soru hedefleri doğrultusunda yapılandırır. Çözümlemenin geçerliliği, Her cevabı mektuptaki bilgi veya görüşle ilişkilendirir. Yazarın roman anlayışını tek bir ayrıntıya indirgemez. koşuluna uyulması ve iddiaların metindeki açık veya örtük ifadelerle doğrulanmasıyla sağlanır. Öğrencinin akıl yürütme süreci; sorunun işaret ettiği metin bölümünü belirlemek, oradaki dil ve anlatım ipuçlarını değerlendirmek ve ulaştığı yargıyı gerekçelendirmektir. Metin özüyle örtüşen ve mantıksal nedensellik taşıyan alternatif anlatımlar doğru yanıt olarak değerlendirilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 2 — Metni Anlayalım — dört temel soru — basılı s.40 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Roman hakkındaki düşüncelerin bir mektupta yer alması ne gösterir?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görevde öğretmen, Metni Anlayalım — dört temel soru çerçevesinde sorulan ‘Roman hakkındaki düşüncelerin bir mektupta yer alm…’ konusu üzerinden öğrencinin metin kanıtları ile kavramsal çıkarımlar arasındaki ilişkiyi doğru kurmasını sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle Metni Anlayalım — dört temel soru üzerinde durun.
+> Bu görevde sizden beklenen; metindeki ipuçlarından hareketle ‘Roman hakkındaki düşüncelerin bir mektupta ye…’ konusunu incelemeniz ve Metni Anlayalım — dört temel soru doğrultusunda ‘Özel/edebî mektup yalnız haber taşı…’ sonucuna nasıl ulaşıldığını adım adım açıklamanızdır.
 
 ### Bu görev neden burada?
 
-Bu görev, Metni Anlayalım — dört temel soru ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+Bu görev, öğrencinin ‘Roman hakkındaki düşüncelerin bir mektupta ye…’ üzerinden Metni Anlayalım — dört temel soru becerisini somut bir metin bağlamında deneyimlemesini ve iddialarını kanıtla destekleme alışkanlığı kazanmasını sağlar.
 
 ### Kabul edilebilir cevaplar
 
@@ -2542,40 +2525,40 @@ Bu görev, Metni Anlayalım — dört temel soru ölçütünü gönderici-alıc�
 ### Ders içi uygulama
 
 - Öğrenciden cevapların yanına kısa metin kanıtı istemek yararlıdır.
-- Soru 2 — Metni Anlayalım — dört temel soru — basılı s.40 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- Öğrencilerden Metni Anlayalım — dört temel soru açısından metindeki zıtlık ve benzerlikleri belirleyerek not almalarını isteyin.
+- İddialar ile ‘Roman hakkındaki düşüncelerin bir mektup…’ kanıtları arasındaki mantıksal bağı adım adım sorgulatarak temellendirin.
+- Öğrencilerin ulaştıkları ‘Özel/edebî mektup yalnız haber taşı…’ çıkarımını kendi cümleleriyle gerekçelendirerek defterlerine yazmalarını sağlayın.
 
 ### Takip soruları
 
-- Soru 2 — Metni Anlayalım — dört temel soru — basılı s.40 için düşünme sorusu: Alıcı değişseydi hitap, kelime seçimi veya ayrıntı düzeyi hangi yönde değişirdi? Özellikle ‘Roman hakkındaki düşüncelerin bir mektupta yer alması ne gösterir?’ ayrıntısını yoklayın.
-- Soru 2 — Metni Anlayalım — dört temel soru — basılı s.40 içindeki bir ifade mektubun amacına nasıl hizmet ediyor; yalnız bilgi mi veriyor, ilişki de mi kuruyor? Özellikle ‘Roman hakkındaki düşüncelerin bir mektupta yer alması ne gösterir?’ ayrıntısını yoklayın.
+- Eğer ‘Roman hakkındaki düşüncelerin bir mektup…’ ifadesinde kullanılan dil bilgisel yapı değiştirilseydi, cümlenin ilettiği anlam ve vurgu nasıl başkalaşırdı?
+- ‘Roman hakkındaki düşüncelerin bir mektup…’ yapısındaki dil bilgisel işlevin, konuşurun ya da anlatıcının ruh hâlini yansıtmadaki rolü nedir?
 
 ### Öğrenci cevaplarını değerlendirme
 
 - Dört anlama sorusuna kanıta dayalı cevap.
 - Her cevabı mektuptaki bilgi veya görüşle ilişkilendirir.
 - Yazarın roman anlayışını tek bir ayrıntıya indirgemez.
-- Gönderici-alıcı-amaç ile dil tercihi arasında metinden kanıtlı ilişki.
+- Öğrencinin ‘Roman hakkındaki düşüncelerin bir mektup…’ sorusuna verdiği cevapta metinden doğrudan alıntı veya somut kanıt göstermesi.
 
 ### Sık yanılgılar
 
 - Mektubu yalnız günlük haberleşme metni saymak.
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- Soru 2 — Metni Anlayalım — dört temel soru — basılı s.40 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘Roman hakkındaki düşüncelerin bir m…’ türünde hitap ve kapanış ifadelerini biçimsel süs sanıp muhatapla kurulan ilişkinin işlevini gözden kaçırmak.
 
 ### Müdahale
 
-- Soru 2 — Metni Anlayalım — dört temel soru — basılı s.40 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Roman hakkındaki düşüncelerin bir mektupta yer alması ne gösterir?’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 2 — Metni Anlayalım — dört temel soru — basılı s.40 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Roman hakkındaki düşüncelerin bir mektupta yer alması ne gösterir?’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciye ‘Roman hakkındaki düşüncelerin bir m…’ çerçevesinde ‘mektubu yalnız günlük haberleşme’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- Öğrenciye gönderici-alıcı ilişkisini iki farklı örnek üzerinden karşılaştırın; ‘Roman hakkındaki düşüncelerin bir m…’ hitap seçiminin iletişim amacına etkisini gösterin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Her soru için metinden anahtar ifade buldur.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: Metni Anlayalım — dört temel soru.
+- Öğrenciye ‘Roman hakkındaki düşüncelerin bir m…’ için akranıyla fikir alışverişi yaptırarak yazma/konuşma planını netleştirmesini sağlayın.
 **Zenginleştirme**
 - Kaplan'ın roman anlayışını öğrencinin okuduğu başka bir romanla karşılaştırmasını iste.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: Metni Anlayalım — dört temel soru.
+- ‘Roman hakkındaki düşüncelerin bir m…’ çalışmasını farklı bir hedef kitleye veya iletişim kanalına uyarlayarak ‘Özel/edebî mektup yalnız haber…’ etkisini karşılaştırmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -2619,57 +2602,57 @@ Kaplan, romanda yalnız olaydan çok insanın iç dünyası ve karakter derinli�
 
 ### Açıklama ve gerekçe
 
-Soru 3 — Metni Anlayalım — dört temel soru — basılı s.40 için cevap, Metni Anlayalım — dört temel soru ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Her cevabı mektuptaki bilgi veya görüşle ilişkilendirir. Yazarın roman anlayışını tek bir ayrıntıya indirgemez.
+Beklenen cevap, Metni Anlayalım — dört temel soru çerçevesinde ‘Mehmet Kaplan'ın roman anlayışında hangi özellikle…’ konusunu metnin sunduğu veriler ve kavramsal dayanaklar üzerinden şekillendirir. Bu cevabın uygunluğu, Her cevabı mektuptaki bilgi veya görüşle ilişkilendirir. Yazarın roman anlayışını tek bir ayrıntıya indirgemez. ölçütünün karşılanmasına ve öğrencinin metindeki olay/durum ayrıntılarını nedensellik bağıyla kurmasına dayanır. Öğrencinin izlemesi gereken çıkarım yolu; öncelikle metindeki kanıt niteliği taşıyan ifadeleri belirlemek, ardından bu göstergeleri kavramsal odakla ilişkilendirerek kendi gerekçeli açıklamasını oluşturmaktır. Öğrenci aynı sonucu farklı sözcüklerle ifade edebilir; temel iddia ile metin dayanağı arasındaki mantıksal tutarlılık korunduğu sürece kişisel yorumlar alternatif cevap olarak kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 3 — Metni Anlayalım — dört temel soru — basılı s.40 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Mehmet Kaplan'ın roman anlayışında hangi özellikler öne çıkar?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev sürecinde öğretmen, Metni Anlayalım — dört temel soru doğrultusunda ‘Mehmet Kaplan'ın roman anlayışında hangi özellikle…’ sorusunu çözümlerken öğrencilerin somut metin delilleriyle argüman geliştirmelerini teşvik etmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle Metni Anlayalım — dört temel soru üzerinde durun.
+> Yönergeyi uygularken önce metindeki ‘Mehmet Kaplan'ın roman anlayışında hangi özel…’ ifadelerini işaretleyin; ardından bu unsurların Metni Anlayalım — dört temel soru hedefine nasıl hizmet ettiğini ve ‘Kaplan, romanda yalnız olaydan çok …’ ile ilişkisini açıklayın.
 
 ### Bu görev neden burada?
 
-Bu görev, Metni Anlayalım — dört temel soru ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+Bu etkinlik, Metni Anlayalım — dört temel soru alanında ‘Mehmet Kaplan'ın roman anlayışında hangi özel…’ doğrultusunda öğrencinin kendi düşüncesini kaynak dayanaklarıyla savunmasını ve tutarlı bir ifade becerisi inşa etmesini amaçlar.
 
 ### Ders içi uygulama
 
 - Öğrenciden cevapların yanına kısa metin kanıtı istemek yararlıdır.
-- Soru 3 — Metni Anlayalım — dört temel soru — basılı s.40 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- ‘Mehmet Kaplan'ın roman anlayışında hangi…’ odağındaki cümleleri tahtaya yansıtarak öğrencilerin dikkatini ilgili metin kesitine çekin.
+- Metin içi tutarlılığı sorgulamak için ‘Mehmet Kaplan'ın roman anlayışında hangi…’ ile ilgili çelişkili veya örtük noktaları tartışmaya açın.
+- Gerekçeli yanıtları Metni Anlayalım — dört temel soru yeterliği bakımından değerlendirip geri bildirim verin.
 
 ### Takip soruları
 
-- Soru 3 — Metni Anlayalım — dört temel soru — basılı s.40 için düşünme sorusu: Alıcı değişseydi hitap, kelime seçimi veya ayrıntı düzeyi hangi yönde değişirdi? Özellikle ‘Mehmet Kaplan'ın roman anlayışında hangi özellikler öne çıkar?’ ayrıntısını yoklayın.
-- Soru 3 — Metni Anlayalım — dört temel soru — basılı s.40 içindeki bir ifade mektubun amacına nasıl hizmet ediyor; yalnız bilgi mi veriyor, ilişki de mi kuruyor? Özellikle ‘Mehmet Kaplan'ın roman anlayışında hangi özellikler öne çıkar?’ ayrıntısını yoklayın.
+- ‘Mehmet Kaplan'ın roman anlayışında hangi…’ yapısındaki dil bilgisel işlevin, konuşurun ya da anlatıcının ruh hâlini yansıtmadaki rolü nedir?
+- ‘Mehmet Kaplan'ın roman anlayışında hangi…’ cümlesindeki dilbilgisi tercihinin metnin genel anlatım akışı ve anlam bütünlüğüne etkisi nedir?
 
 ### Öğrenci cevaplarını değerlendirme
 
 - Dört anlama sorusuna kanıta dayalı cevap.
 - Her cevabı mektuptaki bilgi veya görüşle ilişkilendirir.
 - Yazarın roman anlayışını tek bir ayrıntıya indirgemez.
-- Gönderici-alıcı-amaç ile dil tercihi arasında metinden kanıtlı ilişki.
+- ‘Mehmet Kaplan'ın roman anlayışında hangi…’ incelemesinde tespit edilen göstergelerin metin bütünlüğüyle ilişkilendirilmesi.
 
 ### Sık yanılgılar
 
 - Mektubu yalnız günlük haberleşme metni saymak.
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- Soru 3 — Metni Anlayalım — dört temel soru — basılı s.40 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘Mehmet Kaplan'ın roman anlayışında …’ türünde hitap ve kapanış ifadelerini biçimsel süs sanıp muhatapla kurulan ilişkinin işlevini gözden kaçırmak.
 
 ### Müdahale
 
-- Soru 3 — Metni Anlayalım — dört temel soru — basılı s.40 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Mehmet Kaplan'ın roman anlayışında hangi özellikler öne çıkar?’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 3 — Metni Anlayalım — dört temel soru — basılı s.40 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Mehmet Kaplan'ın roman anlayışında hangi özellikler öne çıkar?’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciden ‘Mehmet Kaplan'ın roman anlayışında …’ bağlamında ‘mektubu yalnız günlük haberleşme’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- Öğrenciye gönderici-alıcı ilişkisini iki farklı örnek üzerinden karşılaştırın; ‘Mehmet Kaplan'ın roman anlayışında …’ hitap seçiminin iletişim amacına etkisini gösterin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Her soru için metinden anahtar ifade buldur.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: Metni Anlayalım — dört temel soru.
+- Öğrenciye bir çalışma kâğıdı vererek ‘Mehmet Kaplan'ın roman anlayışında …’ için metinde geçen olumlu ve olumsuz göstergeleri iki sütun hâlinde gruplatın.
 **Zenginleştirme**
 - Kaplan'ın roman anlayışını öğrencinin okuduğu başka bir romanla karşılaştırmasını iste.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: Metni Anlayalım — dört temel soru.
+- Metindeki ‘Mehmet Kaplan'ın roman anlayışında …’ durumunu güncel bir olay veya sanat eseriyle kıyaslayarak ‘Kaplan, romanda yalnız olaydan…’ ekseninde disiplinler arası bir değerlendirme yaptırın.
 
 ### Kaynak ve durum
 
@@ -2713,19 +2696,19 @@ Kişinin yalnız anlatıcının açıklamasıyla değil; konuşması, davranış
 
 ### Açıklama ve gerekçe
 
-Soru 4 — Metni Anlayalım — dört temel soru — basılı s.40 için beklenen yön, Metni Anlayalım — dört temel soru yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Her cevabı mektuptaki bilgi veya görüşle ilişkilendirir. Yazarın roman anlayışını tek bir ayrıntıya indirgemez.
+Soruya verilecek uygun cevap, ‘Bir kişinin konuşma, davranış, geçmiş ve tepkileri…’ yönündeki çıkarımı Metni Anlayalım — dört temel soru hedefleri doğrultusunda yapılandırır. Çözümlemenin geçerliliği, Her cevabı mektuptaki bilgi veya görüşle ilişkilendirir. Yazarın roman anlayışını tek bir ayrıntıya indirgemez. koşuluna uyulması ve iddiaların metindeki açık veya örtük ifadelerle doğrulanmasıyla sağlanır. Öğrencinin akıl yürütme süreci; sorunun işaret ettiği metin bölümünü belirlemek, oradaki dil ve anlatım ipuçlarını değerlendirmek ve ulaştığı yargıyı gerekçelendirmektir. Metin özüyle örtüşen ve mantıksal nedensellik taşıyan alternatif anlatımlar doğru yanıt olarak değerlendirilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 4 — Metni Anlayalım — dört temel soru — basılı s.40 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Bir kişinin konuşma, davranış, geçmiş ve tepkilerinden hareketle çözümlenmesi nasıl açıklanabilir?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Kurmaca metinlerde anlatıcı, yazarın olayları ve dünyayı aktarmak üzere kurguladığı kurmaca bir sestir; yazarın kendisiyle özdeşleştirilemez. Kahraman anlatıcı (birinci kişi) olayları kendi öznel algı, duygu ve sınırlılığıyla aktarırken ilahi (hâkim) anlatıcı üçüncü kişi üzerinden her şeyi bilen, geçmişi, geleceği ve zihinleri okuyan bir konumdadır. Gözlemci anlatıcı ise olayları bir kamera nesnelliğiyle dışarıdan yansıtır. Öğretmen, bakış açısı seçiminin metnin inandırıcılığını ve okurun empati düzeyini nasıl yönlendirdiğini açıklamalıdır. Bu görev tahlilinde öğretmen, Metni Anlayalım — dört temel soru odağında ‘Bir kişinin konuşma, davranış, geçmiş ve tepkileri…’ sorusuna yönelik yanıtların metin içi tutarlılığını denetlemeli ve yüzeysel yorumların ötesine geçilmesini sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle Metni Anlayalım — dört temel soru üzerinde durun.
+> Görevin temel amacı, ‘Bir kişinin konuşma, davranış, geçmiş ve tepk…’ ayrıntısı üzerinden Metni Anlayalım — dört temel soru kavramını kavramanızdır. Metindeki ilgili cümleleri bularak ‘Kişinin yalnız anlatıcının açıklama…’ bağlamındaki düşüncenizi kendi cümlelerinizle ortaya koyun.
 
 ### Bu görev neden burada?
 
-Bu görev, Metni Anlayalım — dört temel soru ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+Bu soru, ‘Bir kişinin konuşma, davranış, geçmiş ve tepk…’ ayrıntısını Metni Anlayalım — dört temel soru ile birleştirerek dil ve edebiyat çalışmalarında neden-sonuç ilişkisi kurma ve ‘Kişinin yalnız anlatıcının açıklama…’ bağlamını kavrama yeterliğini güçlendirir.
 
 ### Kabul edilebilir cevaplar
 
@@ -2735,40 +2718,40 @@ Bu görev, Metni Anlayalım — dört temel soru ölçütünü gönderici-alıc�
 ### Ders içi uygulama
 
 - Öğrenciden cevapların yanına kısa metin kanıtı istemek yararlıdır.
-- Soru 4 — Metni Anlayalım — dört temel soru — basılı s.40 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- Metnin ilgili bölümünü sessizce okutup Metni Anlayalım — dört temel soru ile bağlantılı kilit kelimeleri belirlemeleri için süre tanıyın.
+- Seçilen metin kanıtlarının Metni Anlayalım — dört temel soru hedefine uygunluğunu akran değerlendirmesiyle gözden geçirtin.
+- ‘Bir kişinin konuşma, davranış, geçmiş ve…’ tahlilinden çıkan sonucu dersin genel tematik çerçevesine bağlayarak tahtada özetleyin.
 
 ### Takip soruları
 
-- Soru 4 — Metni Anlayalım — dört temel soru — basılı s.40 için düşünme sorusu: Alıcı değişseydi hitap, kelime seçimi veya ayrıntı düzeyi hangi yönde değişirdi? Özellikle ‘Bir kişinin konuşma, davranış, geçmiş ve tepkilerinden hareketle çözümlenmesi nasıl açıklanabilir?’ ayrıntısını yoklayın.
-- Soru 4 — Metni Anlayalım — dört temel soru — basılı s.40 içindeki bir ifade mektubun amacına nasıl hizmet ediyor; yalnız bilgi mi veriyor, ilişki de mi kuruyor? Özellikle ‘Bir kişinin konuşma, davranış, geçmiş ve tepkilerinden hareketle çözümlenmesi nasıl açıklanabilir?’ ayrıntısını yoklayın.
+- ‘Bir kişinin konuşma, davranış, geçmiş ve…’ cümlesindeki dilbilgisi tercihinin metnin genel anlatım akışı ve anlam bütünlüğüne etkisi nedir?
+- ‘Bir kişinin konuşma, davranış, geçmiş ve…’ yapısındaki dil bilgisel işlevin, konuşurun ya da anlatıcının ruh hâlini yansıtmadaki rolü nedir?
 
 ### Öğrenci cevaplarını değerlendirme
 
 - Dört anlama sorusuna kanıta dayalı cevap.
 - Her cevabı mektuptaki bilgi veya görüşle ilişkilendirir.
 - Yazarın roman anlayışını tek bir ayrıntıya indirgemez.
-- Gönderici-alıcı-amaç ile dil tercihi arasında metinden kanıtlı ilişki.
+- ‘Bir kişinin konuşma, davranış, geçmiş ve…’ konusundaki tespitlerin metin bağlamına ve türün edebî özelliklerine uygunluğu.
 
 ### Sık yanılgılar
 
 - Mektubu yalnız günlük haberleşme metni saymak.
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- Soru 4 — Metni Anlayalım — dört temel soru — basılı s.40 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘Bir kişinin konuşma, davranış, geçm…’ türünde hitap ve kapanış ifadelerini biçimsel süs sanıp muhatapla kurulan ilişkinin işlevini gözden kaçırmak.
 
 ### Müdahale
 
-- Soru 4 — Metni Anlayalım — dört temel soru — basılı s.40 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Bir kişinin konuşma, davranış, geçmiş ve tepkilerinden hareketle çözümlenmesi nasıl açıklanabilir?’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 4 — Metni Anlayalım — dört temel soru — basılı s.40 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Bir kişinin konuşma, davranış, geçmiş ve tepkilerinden hareketle çözümlenmesi nasıl açıklanabilir?’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciye ‘Bir kişinin konuşma, davranış, geçm…’ çerçevesinde ‘mektubu yalnız günlük haberleşme’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- Öğrenciye gönderici-alıcı ilişkisini iki farklı örnek üzerinden karşılaştırın; ‘Bir kişinin konuşma, davranış, geçm…’ hitap seçiminin iletişim amacına etkisini gösterin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Her soru için metinden anahtar ifade buldur.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: Metni Anlayalım — dört temel soru.
+- Öğrenciye ‘Bir kişinin konuşma, davranış, geçm…’ için akranıyla fikir alışverişi yaptırarak yazma/konuşma planını netleştirmesini sağlayın.
 **Zenginleştirme**
 - Kaplan'ın roman anlayışını öğrencinin okuduğu başka bir romanla karşılaştırmasını iste.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: Metni Anlayalım — dört temel soru.
+- ‘Bir kişinin konuşma, davranış, geçm…’ çalışmasını farklı bir hedef kitleye veya iletişim kanalına uyarlayarak ‘Kişinin yalnız anlatıcının açı…’ etkisini karşılaştırmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -2836,52 +2819,52 @@ Kitapta “Metni Anlayalım — Mektup çözümleme çalışma kâğıdı” ba�
 
 ### Açıklama ve gerekçe
 
-Mektup çözümleme çalışma kâğıdı — basılı s.40 için cevap, Mektup çözümleme çalışma kâğıdı ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Konu, ana düşünce ve yardımcı düşünceyi ayırır. Açık ve örtük ileti arasında fark kurar.
+‘Kitapta “Metni Anlayalım — Mektup çözümleme çalışm…’ kapsamındaki tablo maddeleri (konu, ana_dusunce, yardimci_dusunceler), kaynak metindeki verilerle satır satır karşılaştırılarak değerlendirilir. Öğrencinin izleyeceği yöntem; metinde doğrudan doğrulanan önermelere 'Evet', açıkça reddedilenlere 'Hayır', doğrulanmayan veya değinilmeyenlere ise 'Bilgi yok' karşılığını vermektir. Konu, ana düşünce ve yardımcı düşünceyi ayırır. Açık ve örtük ileti arasında fark kurar.
 
 ### Öğretmenin bilmesi gerekenler
 
-Mektup çözümleme çalışma kâğıdı — basılı s.40 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Mektup çözümleme çalışma kâğıdı — Metni Anlayalım — Mektup çözümleme çalışma kâğıdı’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev adımında öğretmen, ‘Kitapta “Metni Anlayalım — Mektup çözümleme çalışm…’ ile ilgili sınıf tartışmasını Mektup çözümleme çalışma kâğıdı zemininde yapılandırmalı ve ‘konu: Günlük yaşam, okuma/çalışma hayatı…’ doğrultusundaki tespitleri metin üzerinden teyit ettirmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle Mektup çözümleme çalışma kâğıdı üzerinde durun.
+> Bu etkinlikte amacınız, ‘Kitapta “Metni Anlayalım — Mektup çözümleme ç…’ konusunu Mektup çözümleme çalışma kâğıdı perspektifinden tahlil etmektir. İddialarınızı metinden somut göstergelerle destekleyerek ‘konu: Günlük yaşam, okuma/çalışma h…’ niteliğinde bir çıkarım yapın.
 
 ### Bu görev neden burada?
 
-Bu görev, Mektup çözümleme çalışma kâğıdı ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+Görev, ‘Kitapta “Metni Anlayalım — Mektup çözümleme ç…’ konusundaki gözlemleri Mektup çözümleme çalışma kâğıdı ile sentezleyerek metin çözümleme disiplinini pekiştirir ve öğrencinin ‘konu: Günlük yaşam, okuma/çalışma h…’ odaklı eleştirel düşünme kapasitesini artırır.
 
 ### Ders içi uygulama
 
 - Tabloyu bir cevap ezberine dönüştürme; öğrencinin farklı ama kanıtlı ifadelerini kabul et.
-- Mektup çözümleme çalışma kâğıdı — basılı s.40 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- Metindeki anlatım tutumunu fark ettirmek için ‘Mektup çözümleme çalışma kâğıdı (T1V23_P40_WORKSHEET)’ bölümünü sesli okutun.
+- Belirlenen alıntıların Mektup çözümleme çalışma kâğıdı ve ‘konu: Günlük yaşam, okuma/çalışma h…’ açısından ne ifade ettiğini sınıf tartışmasıyla derinleştirin.
+- Farklı görüş bildiren öğrencilere söz hakkı vererek Mektup çözümleme çalışma kâğıdı ölçütü çerçevesinde ortak bir sonuca varılmasını yönlendirin.
 
 ### Öğrenci cevaplarını değerlendirme
 
 - Tamamlanmış çözümleme tablosu.
 - Konu, ana düşünce ve yardımcı düşünceyi ayırır.
 - Açık ve örtük ileti arasında fark kurar.
-- Gönderici-alıcı-amaç ile dil tercihi arasında metinden kanıtlı ilişki.
+- Tablodaki 7 maddenin her birinin metin kanıtıyla doğru eşleştirilmesi.
 
 ### Sık yanılgılar
 
 - Konu ile ana düşünceyi aynı şey sanmak.
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- Mektup çözümleme çalışma kâğıdı — basılı s.40 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘Mektup çözümleme çalışma kâğıdı (T1V23_P40_WORKSHEET)’ yazımında resmî ve samimi mektubun üslup gerekliliklerini birbiriyle karıştırmak.
 
 ### Müdahale
 
-- Mektup çözümleme çalışma kâğıdı — basılı s.40 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Mektup çözümleme çalışma kâğıdı — Metni Anlayalım — Mektup çözümleme çalışma kâğıdı’ ayrıntısını kullandırarak somutlaştırın.
-- Mektup çözümleme çalışma kâğıdı — basılı s.40 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Mektup çözümleme çalışma kâğıdı — Metni Anlayalım — Mektup çözümleme çalışma kâğıdı’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Mektup çözümleme çalışma kâğıdı (T1V23_P40_WORKSHEET)’ doğrultusunda ‘konu ile ana düşünceyi’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Muhataba göre dil ve anlatım tercihlerinin nasıl değiştiğini ‘Mektup çözümleme çalışma kâğıdı (T1V23_P40_WORKSHEET)’ için tahtada oluşturulacak iki sütunlu tabloda karşılaştırarak belirleyin ve bağlamını tartışın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Başlıkları hazır ver, içerikleri öğrenci doldursun.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: Mektup çözümleme çalışma kâğıdı.
+- ‘Kitapta “Metni Anlayalım — Mektup ç…’ hedefine yönelik bir kontrol listesi vererek öğrencinin ‘konu: Günlük yaşam, okuma/çalı…’ basamağını adım adım denetlemesini sağlayın.
 **Zenginleştirme**
 - Açık/örtük iletilerin hangi anlatım tercihiyle oluştuğunu açıklat.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: Mektup çözümleme çalışma kâğıdı.
+- Öğrencinin ‘Kitapta “Metni Anlayalım — Mektup ç…’ bağlamındaki ürününü sınıf panosunda sergileyip Mektup çözümleme çalışma kâğıdı sürecinin sunumunu yapmasını sağlayın.
 
 ### Kaynak ve durum
 
@@ -2925,19 +2908,19 @@ Mektup ile biyografi birlikte okunduğunda Kaplan'ın eğitim çevresi, okuma al
 
 ### Açıklama ve gerekçe
 
-kanıtlanabilirlik ile kişisel değerlendirme — basılı s.41 için beklenen yön, kanıtlanabilirlik ile kişisel değerlendirme yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Mektup ve biyografi bilgisini kaynaklarına göre ayırır. Öznel ve nesnel ifadeleri gerekçeyle sınıflandırır.
+Beklenen cevap, kanıtlanabilirlik ile kişisel değerlendirme çerçevesinde ‘Mektup ve biyografi birlikte okunduğunda Mehmet Ka…’ konusunu metnin sunduğu veriler ve kavramsal dayanaklar üzerinden şekillendirir. Bu cevabın uygunluğu, Mektup ve biyografi bilgisini kaynaklarına göre ayırır. Öznel ve nesnel ifadeleri gerekçeyle sınıflandırır. ölçütünün karşılanmasına ve öğrencinin metindeki olay/durum ayrıntılarını nedensellik bağıyla kurmasına dayanır. Öğrencinin izlemesi gereken çıkarım yolu; öncelikle metindeki kanıt niteliği taşıyan ifadeleri belirlemek, ardından bu göstergeleri kavramsal odakla ilişkilendirerek kendi gerekçeli açıklamasını oluşturmaktır. Öğrenci aynı sonucu farklı sözcüklerle ifade edebilir; temel iddia ile metin dayanağı arasındaki mantıksal tutarlılık korunduğu sürece kişisel yorumlar alternatif cevap olarak kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-kanıtlanabilirlik ile kişisel değerlendirme — basılı s.41 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Mektup ve biyografi birlikte okunduğunda Mehmet Kaplan'ın yaşamı ve düşünce dünyasına ilişkin…’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görevde öğretmen, kanıtlanabilirlik ile kişisel değerlendirme çerçevesinde sorulan ‘Mektup ve biyografi birlikte okunduğunda Mehmet Ka…’ konusu üzerinden öğrencinin metin kanıtları ile kavramsal çıkarımlar arasındaki ilişkiyi doğru kurmasını sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle kanıtlanabilirlik ile kişisel değerlendirme üzerinde durun.
+> Bu görevde sizden beklenen; metindeki ipuçlarından hareketle ‘Mektup ve biyografi birlikte okunduğunda Mehm…’ konusunu incelemeniz ve kanıtlanabilirlik ile kişisel değerlendirme doğrultusunda ‘Mektup ile biyografi birlikte okund…’ sonucuna nasıl ulaşıldığını adım adım açıklamanızdır.
 
 ### Bu görev neden burada?
 
-Bu görev, kanıtlanabilirlik ile kişisel değerlendirme ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+Bu görev, öğrencinin ‘Mektup ve biyografi birlikte okunduğunda Mehm…’ üzerinden kanıtlanabilirlik ile kişisel değerlendirme becerisini somut bir metin bağlamında deneyimlemesini ve iddialarını kanıtla destekleme alışkanlığı kazanmasını sağlar.
 
 ### Kabul edilebilir cevaplar
 
@@ -2947,40 +2930,40 @@ Bu görev, kanıtlanabilirlik ile kişisel değerlendirme ölçütünü gönderi
 ### Ders içi uygulama
 
 - Kitaptaki Fark Edelim ile Sıra Sizde çalışmalarını tek genel soru hâline getirme; kaynak karşılaştırması ve öznel/nesnel ayrımı ayrı kanıtlar üretir.
-- kanıtlanabilirlik ile kişisel değerlendirme — basılı s.41 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- Öğrencilerden metinde ‘Mektup ve biyografi birlikte okunduğunda…’ konusuna kaynaklık eden temel ifadelerin altını çizmelerini isteyin.
+- Öğrencilerin tespit ettiği kanıtları karşılaştırarak hangisinin kanıtlanabilirlik ile kişisel değerlendirme iddiasını daha güçlü desteklediğini sorgulatın.
+- Ulaşılan cevabı kanıtlanabilirlik ile kişisel değerlendirme bağlamında toparlayıp metin tahlili için bir kural veya ilke olarak özetletin.
 
 ### Takip soruları
 
-- kanıtlanabilirlik ile kişisel değerlendirme — basılı s.41 için düşünme sorusu: Alıcı değişseydi hitap, kelime seçimi veya ayrıntı düzeyi hangi yönde değişirdi? Özellikle ‘Mektup ve biyografi birlikte okunduğunda Mehmet Kaplan'ın yaşamı ve düşünce dünyasına ilişkin…’ ayrıntısını yoklayın.
-- kanıtlanabilirlik ile kişisel değerlendirme — basılı s.41 içindeki bir ifade mektubun amacına nasıl hizmet ediyor; yalnız bilgi mi veriyor, ilişki de mi kuruyor? Özellikle ‘Mektup ve biyografi birlikte okunduğunda Mehmet Kaplan'ın yaşamı ve düşünce dünyasına ilişkin…’ ayrıntısını yoklayın.
+- ‘Mektup ve biyografi birlikte okunduğunda…’ cümlesindeki dilbilgisi tercihinin metnin genel anlatım akışı ve anlam bütünlüğüne etkisi nedir?
+- Eğer ‘Mektup ve biyografi birlikte okunduğunda…’ ifadesinde kullanılan dil bilgisel yapı değiştirilseydi, cümlenin ilettiği anlam ve vurgu nasıl başkalaşırdı?
 
 ### Öğrenci cevaplarını değerlendirme
 
 - Kaynak karşılaştırması ve öznel/nesnel örnekler.
 - Mektup ve biyografi bilgisini kaynaklarına göre ayırır.
 - Öznel ve nesnel ifadeleri gerekçeyle sınıflandırır.
-- Gönderici-alıcı-amaç ile dil tercihi arasında metinden kanıtlı ilişki.
+- Öğrencinin ‘Mektup ve biyografi birlikte okunduğunda…’ sorusuna verdiği cevapta metinden doğrudan alıntı veya somut kanıt göstermesi.
 
 ### Sık yanılgılar
 
 - Doğrulanabilir her bilgiyi 'nesnel anlatım' diye yorumlamak; bağlamı gözden kaçırmak.
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- kanıtlanabilirlik ile kişisel değerlendirme — basılı s.41 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘Mektup ve biyografi birlikte okundu…’ türünde hitap ve kapanış ifadelerini biçimsel süs sanıp muhatapla kurulan ilişkinin işlevini gözden kaçırmak.
 
 ### Müdahale
 
-- kanıtlanabilirlik ile kişisel değerlendirme — basılı s.41 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Mektup ve biyografi birlikte okunduğunda Mehmet Kaplan'ın yaşamı ve düşünce dünyasına ilişkin…’ ayrıntısını kullandırarak somutlaştırın.
-- kanıtlanabilirlik ile kişisel değerlendirme — basılı s.41 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Mektup ve biyografi birlikte okunduğunda Mehmet Kaplan'ın yaşamı ve düşünce dünyasına ilişkin…’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciden ‘Mektup ve biyografi birlikte okundu…’ bağlamında ‘doğrulanabilir her bilgiyi nesnel’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- Öğrenciye gönderici-alıcı ilişkisini iki farklı örnek üzerinden karşılaştırın; ‘Mektup ve biyografi birlikte okundu…’ hitap seçiminin iletişim amacına etkisini gösterin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - 'Doğrulanabilir mi?' ve 'kişisel değerlendirme içeriyor mu?' sorularını kullan.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: kanıtlanabilirlik ile kişisel değerlendirme.
+- ‘Mektup ve biyografi birlikte okundu…’ sürecinde zorlanan öğrenciye metin türünün yapı basamaklarını gösteren bir şablon sunun.
 **Zenginleştirme**
 - Bir öznel cümleyi nesnel bilgi cümlesine dönüştürmesini iste.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: kanıtlanabilirlik ile kişisel değerlendirme.
+- Öğrenciden ‘Mektup ve biyografi birlikte okundu…’ ürününü dijital bir sunuma veya okul bülteninde yayımlanacak bir yazıya dönüştürmesini isteyin.
 
 ### Kaynak ve durum
 
@@ -3033,19 +3016,19 @@ Bu görev, kanıtlanabilirlik ile kişisel değerlendirme ölçütünü gönderi
 
 ### Açıklama ve gerekçe
 
-kanıtlanabilirlik ile kişisel değerlendirme — basılı s.41 için beklenen yön, kanıtlanabilirlik ile kişisel değerlendirme yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Mektup ve biyografi bilgisini kaynaklarına göre ayırır. Öznel ve nesnel ifadeleri gerekçeyle sınıflandırır.
+Tabloda yer alan ‘Öznel ve nesnel ifadeleri ayırınız; bu ayrım mektu…’ yargılarının (oznel, nesnel, tur_etkisi) geçerliliği, metin kanıtları üzerinden tahlil edilir. Öğrenci; metinde açıkça dayanağı bulunan ifadeleri 'Evet', metin gerçeğiyle çelişenleri 'Hayır', metnin değinmediği hususları ise 'Bilgi yok' şeklinde sınıflandırmalıdır. Mektup ve biyografi bilgisini kaynaklarına göre ayırır. Öznel ve nesnel ifadeleri gerekçeyle sınıflandırır.
 
 ### Öğretmenin bilmesi gerekenler
 
-kanıtlanabilirlik ile kişisel değerlendirme — basılı s.41 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Öznel ve nesnel ifadeleri ayırınız; bu ayrım mektubun türünü nasıl etkiler?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görevde öğretmen, ‘Öznel ve nesnel ifadeleri ayırınız; bu ayrım mektu…’ yönergesini ele alırken sınıf ortamında kanıtlanabilirlik ile kişisel değerlendirme boyutunu öne çıkarmalı ve ‘oznel: ['bir mektuptan memnun olma', 'ha…’ yönündeki metin dayanaklarını desteklemelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle kanıtlanabilirlik ile kişisel değerlendirme üzerinde durun.
+> Bu çalışmayı yaparken metni dikkatle gözden geçirerek ‘Öznel ve nesnel ifadeleri ayırınız; bu ayrım …’ ile ilgili kanıtları belirleyin; ulaştığınız yargıları kanıtlanabilirlik ile kişisel değerlendirme ve ‘oznel: ['bir mektuptan memnun olma'…’ çerçevesinde gerekçelendirerek ifade edin.
 
 ### Bu görev neden burada?
 
-Bu görev, kanıtlanabilirlik ile kişisel değerlendirme ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+kanıtlanabilirlik ile kişisel değerlendirme eksenindeki bu çalışma, ‘Öznel ve nesnel ifadeleri ayırınız; bu ayrım …’ konusunu ele alırken öğrencinin yüzeysel okumadan analitik çözümlemeye geçişini ve ‘oznel: ['bir mektuptan memnun olma'…’ bağlantısını kurmasını destekler.
 
 ### Kabul edilebilir cevaplar
 
@@ -3056,40 +3039,39 @@ Bu görev, kanıtlanabilirlik ile kişisel değerlendirme ölçütünü gönderi
 
 - Kitaptaki Fark Edelim ile Sıra Sizde çalışmalarını tek genel soru hâline getirme; kaynak karşılaştırması ve öznel/nesnel ayrımı ayrı kanıtlar üretir.
 - Kaynak karşılaştırması ile öznel/nesnel sınıflamayı tek genel soruya indirmeyin; iki çalışma farklı kanıt üretir.
-- kanıtlanabilirlik ile kişisel değerlendirme — basılı s.41 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- ‘Öznel ve nesnel ifadeleri ayırınız; bu a…’ sorusunu sınıfa yönelterek ilk izlenimleri ve metinle ilgili sezgisel yaklaşımları tahtada toplayın.
+- ‘Öznel ve nesnel ifadeleri ayırınız; bu a…’ ile metnin ana fikri arasındaki neden-sonuç ilişkisini tahta üzerinde şemalaştırarak gösterin.
 
 ### Takip soruları
 
-- kanıtlanabilirlik ile kişisel değerlendirme — basılı s.41 için düşünme sorusu: Alıcı değişseydi hitap, kelime seçimi veya ayrıntı düzeyi hangi yönde değişirdi? Özellikle ‘Öznel ve nesnel ifadeleri ayırınız; bu ayrım mektubun türünü nasıl etkiler?’ ayrıntısını yoklayın.
-- kanıtlanabilirlik ile kişisel değerlendirme — basılı s.41 içindeki bir ifade mektubun amacına nasıl hizmet ediyor; yalnız bilgi mi veriyor, ilişki de mi kuruyor? Özellikle ‘Öznel ve nesnel ifadeleri ayırınız; bu ayrım mektubun türünü nasıl etkiler?’ ayrıntısını yoklayın.
+- ‘Öznel ve nesnel ifadeleri ayırınız; bu a…’ cümlesindeki dilbilgisi tercihinin metnin genel anlatım akışı ve anlam bütünlüğüne etkisi nedir?
+- Metinde ‘Öznel ve nesnel ifadeleri ayırınız; bu a…’ kullanımına benzer başka bir örnek bulunabilir mi; bu iki örnek yazarın üslubunu nasıl yansıtmaktadır?
 
 ### Öğrenci cevaplarını değerlendirme
 
 - Kaynak karşılaştırması ve öznel/nesnel örnekler.
 - Mektup ve biyografi bilgisini kaynaklarına göre ayırır.
 - Öznel ve nesnel ifadeleri gerekçeyle sınıflandırır.
-- Gönderici-alıcı-amaç ile dil tercihi arasında metinden kanıtlı ilişki.
+- Tablodaki 3 maddenin her birinin metin kanıtıyla doğru eşleştirilmesi.
 
 ### Sık yanılgılar
 
 - Doğrulanabilir her bilgiyi 'nesnel anlatım' diye yorumlamak; bağlamı gözden kaçırmak.
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- kanıtlanabilirlik ile kişisel değerlendirme — basılı s.41 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘Öznel ve nesnel ifadeleri ayırınız;…’ yazımında resmî ve samimi mektubun üslup gerekliliklerini birbiriyle karıştırmak.
 
 ### Müdahale
 
-- kanıtlanabilirlik ile kişisel değerlendirme — basılı s.41 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Öznel ve nesnel ifadeleri ayırınız; bu ayrım mektubun türünü nasıl etkiler?’ ayrıntısını kullandırarak somutlaştırın.
-- kanıtlanabilirlik ile kişisel değerlendirme — basılı s.41 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Öznel ve nesnel ifadeleri ayırınız; bu ayrım mektubun türünü nasıl etkiler?’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Öznel ve nesnel ifadeleri ayırınız;…’ incelemesinde ‘doğrulanabilir her bilgiyi nesnel’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Muhataba göre dil ve anlatım tercihlerinin nasıl değiştiğini ‘Öznel ve nesnel ifadeleri ayırınız;…’ için tahtada oluşturulacak iki sütunlu tabloda karşılaştırarak belirleyin ve bağlamını tartışın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - 'Doğrulanabilir mi?' ve 'kişisel değerlendirme içeriyor mu?' sorularını kullan.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: kanıtlanabilirlik ile kişisel değerlendirme.
+- Öğrenciye ‘iddia — metin kanıtı — kanıtlanabilirlik ile kişisel değerlendirme gerekçesi’ üçlü şemasını tahtada ‘Öznel ve nesnel ifadeleri ayırınız;…’ üzerinden örnekleyerek cevabını oluşturmasını sağlayın.
 **Zenginleştirme**
 - Bir öznel cümleyi nesnel bilgi cümlesine dönüştürmesini iste.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: kanıtlanabilirlik ile kişisel değerlendirme.
+- ‘Öznel ve nesnel ifadeleri ayırınız;…’ için ulaşılan cevabı sınıfta farklı bir bakış açısıyla savunmasını veya karşıt bir tezi çürütmesini isteyerek kanıtlanabilirlik ile kişisel değerlendirme ekseninde tartışma başlatın.
 
 ### Kaynak ve durum
 
@@ -3138,53 +3120,52 @@ Kitapta “Mektup türleri” başlığı altında verilen çalışma/yönerge.
 
 ### Açıklama ve gerekçe
 
-Mektup türleri ve Yazıcı–mektup karşılaştırması — basılı s.42 için cevap, Mektup türleri ve Yazıcı–mektup karşılaştırması ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Mehmet Kaplan metnini yalnız 'özel mektup' diye etiketlemek yerine kitabın tür sınıflandırmasındaki edebî mektup niteliğini belirtir. Karşılaştırmada en az üç ölçüt kullanır.
+Bu görevdeki ‘Kitapta “Mektup türleri” başlığı altında verilen ç…’ tablosundaki maddelerin (mektup_turleri, kaplan_metni) doğruluğu, kaynak metindeki açık ifadeler ve çıkarımlar ile karşılaştırılarak temellendirilir. Öğrencinin izlemesi gereken çıkarım yolu; her bir cümleyi tek tek metindeki ifadelerle eşleştirmek, metinde doğrudan doğrulanan yargıları 'Evet', açıkça çelişenleri 'Hayır' ve metinde hakkında hüküm verilmeyen yargıları ise 'Bilgi yok' olarak sınıflandırmaktır. Mehmet Kaplan metnini yalnız 'özel mektup' diye etiketlemek yerine kitabın tür sınıflandırmasındaki edebî mektup niteliğini belirtir. Karşılaştırmada en az üç ölçüt kullanır.
 
 ### Öğretmenin bilmesi gerekenler
 
-Mektup türleri ve Yazıcı–mektup karşılaştırması — basılı s.42 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Mektup türleri ve Yazıcı–mektup karşılaştırması — Mektup türleri’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görevde öğretmen, Mektup türleri ve Yazıcı–mektup karşılaştırması çerçevesinde sorulan ‘Kitapta “Mektup türleri” başlığı altında verilen ç…’ konusu üzerinden öğrencinin metin kanıtları ile kavramsal çıkarımlar arasındaki ilişkiyi doğru kurmasını sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle Mektup türleri ve Yazıcı–mektup karşılaştırması üzerinde durun.
+> Bu görevde sizden beklenen; metindeki ipuçlarından hareketle ‘Kitapta “Mektup türleri” başlığı altında veri…’ konusunu incelemeniz ve Mektup türleri ve Yazıcı–mektup karşılaştırması doğrultusunda ‘mektup_turleri: {'Özel mektup': 'ta…’ sonucuna nasıl ulaşıldığını adım adım açıklamanızdır.
 
 ### Bu görev neden burada?
 
-Bu görev, Mektup türleri ve Yazıcı–mektup karşılaştırması ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+Bu görev, öğrencinin ‘Kitapta “Mektup türleri” başlığı altında veri…’ üzerinden Mektup türleri ve Yazıcı–mektup karşılaştırması becerisini somut bir metin bağlamında deneyimlemesini ve iddialarını kanıtla destekleme alışkanlığı kazanmasını sağlar.
 
 ### Ders içi uygulama
 
 - Önceki rehberde 'temel olarak özel mektup' denmişti; PDF-temelli yeniden doğrulamada bu ifade düzeltildi. Kişisel özelliklerini ayrıca açıklayabilirsin fakat kitap sınıflandırmasını edebî mektup olarak koru.
 - Kitabın sınıflandırmasını koruyun: Âli’ye mektup edebî mektup olarak değerlendirilir; özel mektuba özgü kişisel ve samimi özellikleri ayrıca belirtilebilir.
-- Mektup türleri ve Yazıcı–mektup karşılaştırması — basılı s.42 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- Metnin ilgili bölümünü sessizce okutup Mektup türleri ve Yazıcı–mektup karşılaştırması ile bağlantılı kilit kelimeleri belirlemeleri için süre tanıyın.
+- Seçilen metin kanıtlarının Mektup türleri ve Yazıcı–mektup karşılaştırması hedefine uygunluğunu akran değerlendirmesiyle gözden geçirtin.
 
 ### Öğrenci cevaplarını değerlendirme
 
 - Tür belirleme gerekçesi ve ölçütlü karşılaştırma tablosu.
 - Mehmet Kaplan metnini yalnız 'özel mektup' diye etiketlemek yerine kitabın tür sınıflandırmasındaki edebî mektup niteliğini belirtir.
 - Karşılaştırmada en az üç ölçüt kullanır.
-- Gönderici-alıcı-amaç ile dil tercihi arasında metinden kanıtlı ilişki.
+- Tablodaki 2 maddenin her birinin metin kanıtıyla doğru eşleştirilmesi.
 
 ### Sık yanılgılar
 
 - Edebî mektup ile özel mektubu birbirini tamamen dışlayan sınıflar sanmak.
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- Mektup türleri ve Yazıcı–mektup karşılaştırması — basılı s.42 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘Mektup türleri ve Yazıcı–mektup karşılaştırması (T1V23_P42_TYPES)’ türünde hitap ve kapanış ifadelerini biçimsel süs sanıp muhatapla kurulan ilişkinin işlevini gözden kaçırmak.
 
 ### Müdahale
 
-- Mektup türleri ve Yazıcı–mektup karşılaştırması — basılı s.42 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Mektup türleri ve Yazıcı–mektup karşılaştırması — Mektup türleri’ ayrıntısını kullandırarak somutlaştırın.
-- Mektup türleri ve Yazıcı–mektup karşılaştırması — basılı s.42 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Mektup türleri ve Yazıcı–mektup karşılaştırması — Mektup türleri’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciye ‘Mektup türleri ve Yazıcı–mektup karşılaştırması (T1V23_P42_TYPES)’ çerçevesinde ‘edeb mektup ile özel’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- Öğrenciye gönderici-alıcı ilişkisini iki farklı örnek üzerinden karşılaştırın; ‘Mektup türleri ve Yazıcı–mektup karşılaştırması (T1V23_P42_TYPES)’ hitap seçiminin iletişim amacına etkisini gösterin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Tür–amaç–dil–alıcı başlıklarını kullan.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: Mektup türleri ve Yazıcı–mektup karşılaştırması.
+- Öğrenciye ‘Kitapta “Mektup türleri” başlığı al…’ için akranıyla fikir alışverişi yaptırarak yazma/konuşma planını netleştirmesini sağlayın.
 **Zenginleştirme**
 - Özel ve edebî mektubun kesişen özelliklerini Venn şemasında göster.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: Mektup türleri ve Yazıcı–mektup karşılaştırması.
+- ‘Kitapta “Mektup türleri” başlığı al…’ çalışmasını farklı bir hedef kitleye veya iletişim kanalına uyarlayarak ‘mektup_turleri: {'Özel mektup'…’ etkisini karşılaştırmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -3233,52 +3214,52 @@ Bu görev, Mektup türleri ve Yazıcı–mektup karşılaştırması ölçütün
 
 ### Açıklama ve gerekçe
 
-yapı unsurlarının anlam ve işlevi — basılı s.43 için cevap, yapı unsurlarının anlam ve işlevi ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Mehmet Kaplan metnini yalnız 'özel mektup' diye etiketlemek yerine kitabın tür sınıflandırmasındaki edebî mektup niteliğini belirtir. Karşılaştırmada en az üç ölçüt kullanır.
+Tabloda yer alan ‘“Yazıcı” ile Âli’ye Mektuplar'ı içerik, tür, dönem…’ yargılarının (icerik, tur, donem_cevre) geçerliliği, metin kanıtları üzerinden tahlil edilir. Öğrenci; metinde açıkça dayanağı bulunan ifadeleri 'Evet', metin gerçeğiyle çelişenleri 'Hayır', metnin değinmediği hususları ise 'Bilgi yok' şeklinde sınıflandırmalıdır. Mehmet Kaplan metnini yalnız 'özel mektup' diye etiketlemek yerine kitabın tür sınıflandırmasındaki edebî mektup niteliğini belirtir. Karşılaştırmada en az üç ölçüt kullanır.
 
 ### Öğretmenin bilmesi gerekenler
 
-yapı unsurlarının anlam ve işlevi — basılı s.43 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘“Yazıcı” ile Âli’ye Mektuplar'ı içerik, tür, dönem/çevre, yapı, dil/üslup ve ileti bakımından…’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Karagöz oyunu, geleneksel Türk seyirlik sanatlarının gölge oyunu koludur; mukaddime, muhavere, fasıl ve bitiş bölümlerinden oluşur. Baş kişiler Karagöz (halkın sağduyulu, saf, okumamış, dobra ve hazırcevap sesi) ile Hacivat'tır (yarı aydın, çıkarcı, kuralcı ve arabulucu Osmanlı aydını). Tipleştirmede dil, şive taklitleri ve yanlış anlamalar mizahın ana kaynağıdır. Öğretmen, bu dil farklarının bir zekâ eksikliği değil, Osmanlı toplumunun çok kültürlü yapısını yansıtan bir sahneleme tekniği olduğunu açıklamalıdır. Bu görevde öğretmen, ‘“Yazıcı” ile Âli’ye Mektuplar'ı içerik, tür, dönem…’ yönergesini ele alırken sınıf ortamında yapı unsurlarının anlam ve işlevi boyutunu öne çıkarmalı ve ‘icerik: Yazıcı: yazıcılık ve komik yanlı…’ yönündeki metin dayanaklarını desteklemelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle yapı unsurlarının anlam ve işlevi üzerinde durun.
+> Bu çalışmayı yaparken metni dikkatle gözden geçirerek ‘“Yazıcı” ile Âli’ye Mektuplar'ı içerik, tür, …’ ile ilgili kanıtları belirleyin; ulaştığınız yargıları yapı unsurlarının anlam ve işlevi ve ‘icerik: Yazıcı: yazıcılık ve komik …’ çerçevesinde gerekçelendirerek ifade edin.
 
 ### Bu görev neden burada?
 
-Bu görev, yapı unsurlarının anlam ve işlevi ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+yapı unsurlarının anlam ve işlevi eksenindeki bu çalışma, ‘“Yazıcı” ile Âli’ye Mektuplar'ı içerik, tür, …’ konusunu ele alırken öğrencinin yüzeysel okumadan analitik çözümlemeye geçişini ve ‘icerik: Yazıcı: yazıcılık ve komik …’ bağlantısını kurmasını destekler.
 
 ### Ders içi uygulama
 
 - Önceki rehberde 'temel olarak özel mektup' denmişti; PDF-temelli yeniden doğrulamada bu ifade düzeltildi. Kişisel özelliklerini ayrıca açıklayabilirsin fakat kitap sınıflandırmasını edebî mektup olarak koru.
-- yapı unsurlarının anlam ve işlevi — basılı s.43 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- Öğrencileri küçük gruplara ayırarak ‘“Yazıcı” ile Âli’ye Mektuplar'ı içerik, …’ sorusunun işaret ettiği kanıtları metin üzerinden tespit ettirin.
+- Öğrencilerin ileri sürdüğü gerekçeleri tahtaya yazarak yapı unsurlarının anlam ve işlevi ölçütüne göre sınıflandırın.
+- Doğrulanan metin kanıtlarını Mehmet Kaplan metnini yalnız 'özel mektup' diye etiketlemek yerine kitabın tür sınıflandırmasındaki edebî mektup niteliğini belirtir. ile karşılaştırarak öğrenci çıkarımlarını netleştirin.
 
 ### Öğrenci cevaplarını değerlendirme
 
 - Tür belirleme gerekçesi ve ölçütlü karşılaştırma tablosu.
 - Mehmet Kaplan metnini yalnız 'özel mektup' diye etiketlemek yerine kitabın tür sınıflandırmasındaki edebî mektup niteliğini belirtir.
 - Karşılaştırmada en az üç ölçüt kullanır.
-- Gönderici-alıcı-amaç ile dil tercihi arasında metinden kanıtlı ilişki.
+- Tablodaki 6 maddenin her birinin metin kanıtıyla doğru eşleştirilmesi.
 
 ### Sık yanılgılar
 
 - Edebî mektup ile özel mektubu birbirini tamamen dışlayan sınıflar sanmak.
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- yapı unsurlarının anlam ve işlevi — basılı s.43 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘“Yazıcı” ile Âli’ye Mektuplar'ı içe…’ yazımında resmî ve samimi mektubun üslup gerekliliklerini birbiriyle karıştırmak.
 
 ### Müdahale
 
-- yapı unsurlarının anlam ve işlevi — basılı s.43 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘“Yazıcı” ile Âli’ye Mektuplar'ı içerik, tür, dönem/çevre, yapı, dil/üslup ve ileti bakımından…’ ayrıntısını kullandırarak somutlaştırın.
-- yapı unsurlarının anlam ve işlevi — basılı s.43 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘“Yazıcı” ile Âli’ye Mektuplar'ı içerik, tür, dönem/çevre, yapı, dil/üslup ve ileti bakımından…’ ayrıntısını kullandırarak somutlaştırın.
+- ‘“Yazıcı” ile Âli’ye Mektuplar'ı içe…’ incelemesinde ‘edeb mektup ile özel’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Muhataba göre dil ve anlatım tercihlerinin nasıl değiştiğini ‘“Yazıcı” ile Âli’ye Mektuplar'ı içe…’ için tahtada oluşturulacak iki sütunlu tabloda karşılaştırarak belirleyin ve bağlamını tartışın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Tür–amaç–dil–alıcı başlıklarını kullan.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: yapı unsurlarının anlam ve işlevi.
+- ‘“Yazıcı” ile Âli’ye Mektuplar'ı içe…’ uygulamasında öğrencinin taslak oluşturmasına yardımcı olmak için yapı unsurlarının anlam ve işlevi doğrultusunda yönlendirici cümle başlangıçları verin.
 **Zenginleştirme**
 - Özel ve edebî mektubun kesişen özelliklerini Venn şemasında göster.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: yapı unsurlarının anlam ve işlevi.
+- ‘“Yazıcı” ile Âli’ye Mektuplar'ı içe…’ çerçevesinde hazırlanan metne yapı unsurlarının anlam ve işlevi açısından karşıt bir bakış açısı getiren eleştirel bir ek paragraf yazdırın.
 
 ### Kaynak ve durum
 
@@ -3327,26 +3308,26 @@ Kitapta “Çözümleyebilme — Mektubun yapı unsurları” başlığı altın
 
 ### Açıklama ve gerekçe
 
-yapı unsurlarının anlam ve işlevi — basılı s.44 için cevap, yapı unsurlarının anlam ve işlevi ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Yapı unsurlarında yalnız metinde görünür olan öğeleri kesin bilgi olarak yazar. Dil ile muhatap yakınlığı arasında bağ kurar.
+Tabloda yer alan ‘Kitapta “Çözümleyebilme — Mektubun yapı unsurları”…’ yargılarının (hitap, giris, gelisme) geçerliliği, metin kanıtları üzerinden tahlil edilir. Öğrenci; metinde açıkça dayanağı bulunan ifadeleri 'Evet', metin gerçeğiyle çelişenleri 'Hayır', metnin değinmediği hususları ise 'Bilgi yok' şeklinde sınıflandırmalıdır. Yapı unsurlarında yalnız metinde görünür olan öğeleri kesin bilgi olarak yazar. Dil ile muhatap yakınlığı arasında bağ kurar.
 
 ### Öğretmenin bilmesi gerekenler
 
-yapı unsurlarının anlam ve işlevi — basılı s.44 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Mektubun yapı, dil, dönem ve değer çözümlemesi — Çözümleyebilme — Mektubun yapı…’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görevde öğretmen, ‘Kitapta “Çözümleyebilme — Mektubun yapı unsurları”…’ yönergesini ele alırken sınıf ortamında yapı unsurlarının anlam ve işlevi boyutunu öne çıkarmalı ve ‘hitap: Âli'ye doğrudan hitap giris: önce…’ yönündeki metin dayanaklarını desteklemelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle yapı unsurlarının anlam ve işlevi üzerinde durun.
+> Bu çalışmayı yaparken metni dikkatle gözden geçirerek ‘Kitapta “Çözümleyebilme — Mektubun yapı unsur…’ ile ilgili kanıtları belirleyin; ulaştığınız yargıları yapı unsurlarının anlam ve işlevi ve ‘hitap: Âli'ye doğrudan hitap giris:…’ çerçevesinde gerekçelendirerek ifade edin.
 
 ### Bu görev neden burada?
 
-Bu görev, yapı unsurlarının anlam ve işlevi ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+yapı unsurlarının anlam ve işlevi eksenindeki bu çalışma, ‘Kitapta “Çözümleyebilme — Mektubun yapı unsur…’ konusunu ele alırken öğrencinin yüzeysel okumadan analitik çözümlemeye geçişini ve ‘hitap: Âli'ye doğrudan hitap giris:…’ bağlantısını kurmasını destekler.
 
 ### Ders içi uygulama
 
 - Önceki rehberde yer='İstanbul' ve tarih='24 Haziran 1940' kesin yapı öğesi gibi yazılmıştı. PDF-temelli modelde yalnız incelenen parçada görünür olan bilgiyi kesinleştir; biyografik/haricî bilgiyi yapısal unsur yerine geçirme.
 - Yalnız incelenen mektup parçasında görünen yapı öğelerini kesin bilgi olarak yazın; biyografi veya haricî bilgiyi metinde varmış gibi tamamlamayın.
-- yapı unsurlarının anlam ve işlevi — basılı s.44 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- Öğrencileri küçük gruplara ayırarak ‘yapı unsurlarının anlam ve işlevi (T1V23_P44_STRUCTURE)’ sorusunun işaret ettiği kanıtları metin üzerinden tespit ettirin.
+- Öğrencilerin ileri sürdüğü gerekçeleri tahtaya yazarak yapı unsurlarının anlam ve işlevi ölçütüne göre sınıflandırın.
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -3358,22 +3339,21 @@ Bu görev, yapı unsurlarının anlam ve işlevi ölçütünü gönderici-alıc�
 ### Sık yanılgılar
 
 - Yazar hakkındaki dış bilgiyi mektup parçasında açıkça yazılıymış gibi kullanmak.
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- yapı unsurlarının anlam ve işlevi — basılı s.44 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘yapı unsurlarının anlam ve işlevi (T1V23_P44_STRUCTURE)’ yazımında resmî ve samimi mektubun üslup gerekliliklerini birbiriyle karıştırmak.
 
 ### Müdahale
 
-- yapı unsurlarının anlam ve işlevi — basılı s.44 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Mektubun yapı, dil, dönem ve değer çözümlemesi — Çözümleyebilme — Mektubun yapı…’ ayrıntısını kullandırarak somutlaştırın.
-- yapı unsurlarının anlam ve işlevi — basılı s.44 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Mektubun yapı, dil, dönem ve değer çözümlemesi — Çözümleyebilme — Mektubun yapı…’ ayrıntısını kullandırarak somutlaştırın.
+- ‘yapı unsurlarının anlam ve işlevi (T1V23_P44_STRUCTURE)’ incelemesinde ‘yazar hakkındaki dış bilgiyi’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Muhataba göre dil ve anlatım tercihlerinin nasıl değiştiğini ‘yapı unsurlarının anlam ve işlevi (T1V23_P44_STRUCTURE)’ için tahtada oluşturulacak iki sütunlu tabloda karşılaştırarak belirleyin ve bağlamını tartışın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Hitap–giriş–gelişme–sonuç–imza başlıklarını hazır ver.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: yapı unsurlarının anlam ve işlevi.
+- Öğrenciye ‘iddia — metin kanıtı — yapı unsurlarının anlam ve işlevi gerekçesi’ üçlü şemasını tahtada ‘Kitapta “Çözümleyebilme — Mektubun …’ üzerinden örnekleyerek cevabını oluşturmasını sağlayın.
 **Zenginleştirme**
 - Aynı içeriğin günümüz e-postasında nasıl biçim değiştireceğini tasarlat.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: yapı unsurlarının anlam ve işlevi.
+- ‘Kitapta “Çözümleyebilme — Mektubun …’ için ulaşılan cevabı sınıfta farklı bir bakış açısıyla savunmasını veya karşıt bir tezi çürütmesini isteyerek yapı unsurlarının anlam ve işlevi ekseninde tartışma başlatın.
 
 ### Kaynak ve durum
 
@@ -3417,30 +3397,31 @@ Muhatapla yakın ilişki nedeniyle doğrudan hitap, sorular, günlük haberler v
 
 ### Açıklama ve gerekçe
 
-Soru 2 — yapı unsurlarının anlam ve işlevi — basılı s.44 için cevap, yapı unsurlarının anlam ve işlevi ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Yapı unsurlarında yalnız metinde görünür olan öğeleri kesin bilgi olarak yazar. Dil ile muhatap yakınlığı arasında bağ kurar.
+Beklenen cevabın temeli, yapı unsurlarının anlam ve işlevi ekseninde ‘Mektubun dili muhatapla yakınlığa uygun mudur?…’ bağlamını aydınlatan metin kanıtlarının doğru tahlil edilmesidir. Yanıtın kabul edilebilirliği; Yapı unsurlarında yalnız metinde görünür olan öğeleri kesin bilgi olarak yazar. Dil ile muhatap yakınlığı arasında bağ kurar. ölçütüne bağlı kalınmasına ve metindeki verilerin tarafsız biçimde yorumlanmasına bağlıdır. Öğrenci; önce ilgili bilgiyi kaynaktan süzmeli, ardından bu bilgiyi sorunun gerektirdiği kavramsal çerçeveye oturtmalıdır. Metin sınırlarını aşmayan ve dayanağı gösterilen özgün öğrenci yorumları da geçerli sayılır.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 2 — yapı unsurlarının anlam ve işlevi — basılı s.44 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Mektubun dili muhatapla yakınlığa uygun mudur?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev adımında öğretmen, ‘Mektubun dili muhatapla yakınlığa uygun mudur?…’ ile ilgili sınıf tartışmasını yapı unsurlarının anlam ve işlevi zemininde yapılandırmalı ve ‘Muhatapla yakın ilişki nedeniyle doğruda…’ doğrultusundaki tespitleri metin üzerinden teyit ettirmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle yapı unsurlarının anlam ve işlevi üzerinde durun.
+> Bu etkinlikte amacınız, ‘Mektubun dili muhatapla yakınlığa uygun mudur…’ konusunu yapı unsurlarının anlam ve işlevi perspektifinden tahlil etmektir. İddialarınızı metinden somut göstergelerle destekleyerek ‘Muhatapla yakın ilişki nedeniyle do…’ niteliğinde bir çıkarım yapın.
 
 ### Bu görev neden burada?
 
-Bu görev, yapı unsurlarının anlam ve işlevi ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+Görev, ‘Mektubun dili muhatapla yakınlığa uygun mudur…’ konusundaki gözlemleri yapı unsurlarının anlam ve işlevi ile sentezleyerek metin çözümleme disiplinini pekiştirir ve öğrencinin ‘Muhatapla yakın ilişki nedeniyle do…’ odaklı eleştirel düşünme kapasitesini artırır.
 
 ### Ders içi uygulama
 
 - Önceki rehberde yer='İstanbul' ve tarih='24 Haziran 1940' kesin yapı öğesi gibi yazılmıştı. PDF-temelli modelde yalnız incelenen parçada görünür olan bilgiyi kesinleştir; biyografik/haricî bilgiyi yapısal unsur yerine geçirme.
-- Soru 2 — yapı unsurlarının anlam ve işlevi — basılı s.44 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- Metindeki anlatım tutumunu fark ettirmek için ‘Mektubun dili muhatapla yakınlığa uygun …’ bölümünü sesli okutun.
+- Belirlenen alıntıların yapı unsurlarının anlam ve işlevi ve ‘Muhatapla yakın ilişki nedeniyle do…’ açısından ne ifade ettiğini sınıf tartışmasıyla derinleştirin.
+- Farklı görüş bildiren öğrencilere söz hakkı vererek yapı unsurlarının anlam ve işlevi ölçütü çerçevesinde ortak bir sonuca varılmasını yönlendirin.
 
 ### Takip soruları
 
-- Soru 2 — yapı unsurlarının anlam ve işlevi — basılı s.44 için düşünme sorusu: Alıcı değişseydi hitap, kelime seçimi veya ayrıntı düzeyi hangi yönde değişirdi? Özellikle ‘Mektubun dili muhatapla yakınlığa uygun mudur?’ ayrıntısını yoklayın.
-- Soru 2 — yapı unsurlarının anlam ve işlevi — basılı s.44 içindeki bir ifade mektubun amacına nasıl hizmet ediyor; yalnız bilgi mi veriyor, ilişki de mi kuruyor? Özellikle ‘Mektubun dili muhatapla yakınlığa uygun mudur?’ ayrıntısını yoklayın.
+- Eğer ‘Mektubun dili muhatapla yakınlığa uygun …’ ifadesinde kullanılan dil bilgisel yapı değiştirilseydi, cümlenin ilettiği anlam ve vurgu nasıl başkalaşırdı?
+- ‘Mektubun dili muhatapla yakınlığa uygun …’ yapısındaki dil ögesi metinden çıkarılsaydı cümlenin bağlamsal doğruluğu ve anlatım gücü nasıl zayıflardı?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -3452,22 +3433,21 @@ Bu görev, yapı unsurlarının anlam ve işlevi ölçütünü gönderici-alıc�
 ### Sık yanılgılar
 
 - Yazar hakkındaki dış bilgiyi mektup parçasında açıkça yazılıymış gibi kullanmak.
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- Soru 2 — yapı unsurlarının anlam ve işlevi — basılı s.44 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘Mektubun dili muhatapla yakınlığa u…’ yazımında resmî ve samimi mektubun üslup gerekliliklerini birbiriyle karıştırmak.
 
 ### Müdahale
 
-- Soru 2 — yapı unsurlarının anlam ve işlevi — basılı s.44 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Mektubun dili muhatapla yakınlığa uygun mudur?’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 2 — yapı unsurlarının anlam ve işlevi — basılı s.44 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Mektubun dili muhatapla yakınlığa uygun mudur?’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Mektubun dili muhatapla yakınlığa u…’ doğrultusunda ‘yazar hakkındaki dış bilgiyi’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Muhataba göre dil ve anlatım tercihlerinin nasıl değiştiğini ‘Mektubun dili muhatapla yakınlığa u…’ için tahtada oluşturulacak iki sütunlu tabloda karşılaştırarak belirleyin ve bağlamını tartışın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Hitap–giriş–gelişme–sonuç–imza başlıklarını hazır ver.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: yapı unsurlarının anlam ve işlevi.
+- Öğrenciyi bir akranıyla eşleştirerek ‘Mektubun dili muhatapla yakınlığa u…’ hakkındaki düşüncelerini önce sözlü olarak paylaşmasını, ardından yazıya dökmesini isteyin.
 **Zenginleştirme**
 - Aynı içeriğin günümüz e-postasında nasıl biçim değiştireceğini tasarlat.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: yapı unsurlarının anlam ve işlevi.
+- Öğrenciden ‘Mektubun dili muhatapla yakınlığa u…’ metnindeki yapı unsurlarının anlam ve işlevi yaklaşımını örnek alarak benzer temada kısa bir kurmaca metin veya deneme taslağı yazmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -3511,19 +3491,19 @@ Mektup daha yavaş fakat ayrıntılı ve düşünülmüş iletişim kurarken gü
 
 ### Açıklama ve gerekçe
 
-Soru 3 — yapı unsurlarının anlam ve işlevi — basılı s.44 için beklenen yön, yapı unsurlarının anlam ve işlevi yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Yapı unsurlarında yalnız metinde görünür olan öğeleri kesin bilgi olarak yazar. Dil ile muhatap yakınlığı arasında bağ kurar.
+Bu soruda hedeflenen yanıt, metnin ana dokusunda yer alan ‘Mektubun yazıldığı dönem ile günümüz iletişimi nas…’ ayrıntısını yapı unsurlarının anlam ve işlevi perspektifiyle analiz etmeye dayanır. Doğruluk dayanağı; Yapı unsurlarında yalnız metinde görünür olan öğeleri kesin bilgi olarak yazar. Dil ile muhatap yakınlığı arasında bağ kurar. ilkesinin karşılanması ve metindeki göstergelerin somut kanıtlarla açıklanmasıdır. Öğrencinin izleyeceği bilişsel basamaklar; metin parçalarını taramak, kavramsal anahtarları tespit etmek ve bu bulguları sentezleyerek tutarlı bir değerlendirme üretmektir. İfadeler birebir aynı olmak zorunda olmayıp metinle çelişmeyen ve gerekçelendirilmiş farklı yaklaşımlar geçerli kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 3 — yapı unsurlarının anlam ve işlevi — basılı s.44 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Mektubun yazıldığı dönem ile günümüz iletişimi nasıl karşılaştırılabilir?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görevde öğretmenin kılavuzluğu, ‘Mektubun yazıldığı dönem ile günümüz iletişimi nas…’ bağlamında öğrencinin yapı unsurlarının anlam ve işlevi ve ‘Mektup daha yavaş fakat ayrıntılı ve düş…’ arasındaki mantıksal nedensellik bağını metin üzerinden kavramasına odaklanmalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle yapı unsurlarının anlam ve işlevi üzerinde durun.
+> Bu soruda, ‘Mektubun yazıldığı dönem ile günümüz iletişim…’ odağını metnin genel anlam akışı içinde değerlendirmeniz gerekmektedir. Tespit ettiğiniz verileri yapı unsurlarının anlam ve işlevi açısından yorumlayarak ‘Mektup daha yavaş fakat ayrıntılı v…’ yönünde tutarlı bir sonuca varın.
 
 ### Bu görev neden burada?
 
-Bu görev, yapı unsurlarının anlam ve işlevi ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+Öğrencinin ‘Mektubun yazıldığı dönem ile günümüz iletişim…’ incelemesi yoluyla yapı unsurlarının anlam ve işlevi kavramını içselleştirmesi, edebî metinlerdeki anlam katmanlarını fark etmesine ve ‘Mektup daha yavaş fakat ayrıntılı v…’ yönünde derinlikli bakış kazanmasına zemin hazırlar.
 
 ### Kabul edilebilir cevaplar
 
@@ -3533,13 +3513,14 @@ Bu görev, yapı unsurlarının anlam ve işlevi ölçütünü gönderici-alıc�
 ### Ders içi uygulama
 
 - Önceki rehberde yer='İstanbul' ve tarih='24 Haziran 1940' kesin yapı öğesi gibi yazılmıştı. PDF-temelli modelde yalnız incelenen parçada görünür olan bilgiyi kesinleştir; biyografik/haricî bilgiyi yapısal unsur yerine geçirme.
-- Soru 3 — yapı unsurlarının anlam ve işlevi — basılı s.44 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- ‘Mektubun yazıldığı dönem ile günümüz ile…’ sorusunu sınıfa yönelterek ilk izlenimleri ve metinle ilgili sezgisel yaklaşımları tahtada toplayın.
+- ‘Mektubun yazıldığı dönem ile günümüz ile…’ ile metnin ana fikri arasındaki neden-sonuç ilişkisini tahta üzerinde şemalaştırarak gösterin.
+- Öğrenci yanıtlarını Yapı unsurlarında yalnız metinde görünür olan öğeleri kesin bilgi olarak yazar. doğrultusunda kontrol ederek metin dayanağı bulunmayan varsayımları eleyin.
 
 ### Takip soruları
 
-- Soru 3 — yapı unsurlarının anlam ve işlevi — basılı s.44 için düşünme sorusu: Alıcı değişseydi hitap, kelime seçimi veya ayrıntı düzeyi hangi yönde değişirdi? Özellikle ‘Mektubun yazıldığı dönem ile günümüz iletişimi nasıl karşılaştırılabilir?’ ayrıntısını yoklayın.
-- Soru 3 — yapı unsurlarının anlam ve işlevi — basılı s.44 içindeki bir ifade mektubun amacına nasıl hizmet ediyor; yalnız bilgi mi veriyor, ilişki de mi kuruyor? Özellikle ‘Mektubun yazıldığı dönem ile günümüz iletişimi nasıl karşılaştırılabilir?’ ayrıntısını yoklayın.
+- Metinde ‘Mektubun yazıldığı dönem ile günümüz ile…’ kullanımına benzer başka bir örnek bulunabilir mi; bu iki örnek yazarın üslubunu nasıl yansıtmaktadır?
+- Eğer ‘Mektubun yazıldığı dönem ile günümüz ile…’ ifadesinde kullanılan dil bilgisel yapı değiştirilseydi, cümlenin ilettiği anlam ve vurgu nasıl başkalaşırdı?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -3551,22 +3532,21 @@ Bu görev, yapı unsurlarının anlam ve işlevi ölçütünü gönderici-alıc�
 ### Sık yanılgılar
 
 - Yazar hakkındaki dış bilgiyi mektup parçasında açıkça yazılıymış gibi kullanmak.
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- Soru 3 — yapı unsurlarının anlam ve işlevi — basılı s.44 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘Mektubun yazıldığı dönem ile günümü…’ yazımında resmî ve samimi mektubun üslup gerekliliklerini birbiriyle karıştırmak.
 
 ### Müdahale
 
-- Soru 3 — yapı unsurlarının anlam ve işlevi — basılı s.44 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Mektubun yazıldığı dönem ile günümüz iletişimi nasıl karşılaştırılabilir?’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 3 — yapı unsurlarının anlam ve işlevi — basılı s.44 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Mektubun yazıldığı dönem ile günümüz iletişimi nasıl karşılaştırılabilir?’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Mektubun yazıldığı dönem ile günümü…’ incelemesinde ‘yazar hakkındaki dış bilgiyi’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Muhataba göre dil ve anlatım tercihlerinin nasıl değiştiğini ‘Mektubun yazıldığı dönem ile günümü…’ için tahtada oluşturulacak iki sütunlu tabloda karşılaştırarak belirleyin ve bağlamını tartışın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Hitap–giriş–gelişme–sonuç–imza başlıklarını hazır ver.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: yapı unsurlarının anlam ve işlevi.
+- ‘Mektubun yazıldığı dönem ile günümü…’ metnindeki karmaşık ifadeleri öğrencinin kendi sözcükleriyle yeniden ifade etmesini isteyerek yapı unsurlarının anlam ve işlevi fikrini netleştirin.
 **Zenginleştirme**
 - Aynı içeriğin günümüz e-postasında nasıl biçim değiştireceğini tasarlat.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: yapı unsurlarının anlam ve işlevi.
+- Öğrencinin ‘Mektubun yazıldığı dönem ile günümü…’ bağlamındaki çıkarımını infografik, dijital sunum veya kavram haritasına dönüştürerek sınıf panosunda sergilemesini sağlayın.
 
 ### Kaynak ve durum
 
@@ -3610,30 +3590,31 @@ Soru 4 — Mektuptan dönemin toplumsal ve kültürel yapısına ilişkin hangi 
 
 ### Açıklama ve gerekçe
 
-Soru 4 — yapı unsurlarının anlam ve işlevi — basılı s.44 için cevap, yapı unsurlarının anlam ve işlevi ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Yapı unsurlarında yalnız metinde görünür olan öğeleri kesin bilgi olarak yazar. Dil ile muhatap yakınlığı arasında bağ kurar.
+Beklenen cevabın temeli, yapı unsurlarının anlam ve işlevi ekseninde ‘Mektuptan dönemin toplumsal ve kültürel yapısına i…’ bağlamını aydınlatan metin kanıtlarının doğru tahlil edilmesidir. Yanıtın kabul edilebilirliği; Yapı unsurlarında yalnız metinde görünür olan öğeleri kesin bilgi olarak yazar. Dil ile muhatap yakınlığı arasında bağ kurar. ölçütüne bağlı kalınmasına ve metindeki verilerin tarafsız biçimde yorumlanmasına bağlıdır. Öğrenci; önce ilgili bilgiyi kaynaktan süzmeli, ardından bu bilgiyi sorunun gerektirdiği kavramsal çerçeveye oturtmalıdır. Metin sınırlarını aşmayan ve dayanağı gösterilen özgün öğrenci yorumları da geçerli sayılır.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 4 — yapı unsurlarının anlam ve işlevi — basılı s.44 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Mektuptan dönemin toplumsal ve kültürel yapısına ilişkin hangi izler çıkarılabilir?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görevde öğretmen, ‘Mektuptan dönemin toplumsal ve kültürel yapısına i…’ yönergesini ele alırken sınıf ortamında yapı unsurlarının anlam ve işlevi boyutunu öne çıkarmalı ve ‘Üniversite, kitaplar, edebî tartışmalar,…’ yönündeki metin dayanaklarını desteklemelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle yapı unsurlarının anlam ve işlevi üzerinde durun.
+> Bu çalışmayı yaparken metni dikkatle gözden geçirerek ‘Mektuptan dönemin toplumsal ve kültürel yapıs…’ ile ilgili kanıtları belirleyin; ulaştığınız yargıları yapı unsurlarının anlam ve işlevi ve ‘Üniversite, kitaplar, edebî tartışm…’ çerçevesinde gerekçelendirerek ifade edin.
 
 ### Bu görev neden burada?
 
-Bu görev, yapı unsurlarının anlam ve işlevi ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+yapı unsurlarının anlam ve işlevi eksenindeki bu çalışma, ‘Mektuptan dönemin toplumsal ve kültürel yapıs…’ konusunu ele alırken öğrencinin yüzeysel okumadan analitik çözümlemeye geçişini ve ‘Üniversite, kitaplar, edebî tartışm…’ bağlantısını kurmasını destekler.
 
 ### Ders içi uygulama
 
 - Önceki rehberde yer='İstanbul' ve tarih='24 Haziran 1940' kesin yapı öğesi gibi yazılmıştı. PDF-temelli modelde yalnız incelenen parçada görünür olan bilgiyi kesinleştir; biyografik/haricî bilgiyi yapısal unsur yerine geçirme.
-- Soru 4 — yapı unsurlarının anlam ve işlevi — basılı s.44 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- Öğrencilere ‘Mektuptan dönemin toplumsal ve kültürel …’ bağlamındaki anahtar kavramları listeleterek metin taraması yapmalarını sağlayın.
+- Öğrencilere ‘Eğer ‘Üniversite, kitaplar, edebî tartışm…’ olmasaydı ne değişirdi?’ sorusunu yönelterek yapı unsurlarının anlam ve işlevi çıkarımını test edin.
+- Öğrencilerden ‘Üniversite, kitaplar, edebî tartışm…’ yönündeki kanaatlerini tek bir özlü cümleyle ifade etmelerini isteyerek dersi toparlayın.
 
 ### Takip soruları
 
-- Soru 4 — yapı unsurlarının anlam ve işlevi — basılı s.44 için düşünme sorusu: Alıcı değişseydi hitap, kelime seçimi veya ayrıntı düzeyi hangi yönde değişirdi? Özellikle ‘Mektuptan dönemin toplumsal ve kültürel yapısına ilişkin hangi izler çıkarılabilir?’ ayrıntısını yoklayın.
-- Soru 4 — yapı unsurlarının anlam ve işlevi — basılı s.44 içindeki bir ifade mektubun amacına nasıl hizmet ediyor; yalnız bilgi mi veriyor, ilişki de mi kuruyor? Özellikle ‘Mektuptan dönemin toplumsal ve kültürel yapısına ilişkin hangi izler çıkarılabilir?’ ayrıntısını yoklayın.
+- Eğer ‘Mektuptan dönemin toplumsal ve kültürel …’ ifadesinde kullanılan dil bilgisel yapı değiştirilseydi, cümlenin ilettiği anlam ve vurgu nasıl başkalaşırdı?
+- ‘Mektuptan dönemin toplumsal ve kültürel …’ yapısındaki dil ögesi metinden çıkarılsaydı cümlenin bağlamsal doğruluğu ve anlatım gücü nasıl zayıflardı?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -3645,22 +3626,21 @@ Bu görev, yapı unsurlarının anlam ve işlevi ölçütünü gönderici-alıc�
 ### Sık yanılgılar
 
 - Yazar hakkındaki dış bilgiyi mektup parçasında açıkça yazılıymış gibi kullanmak.
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- Soru 4 — yapı unsurlarının anlam ve işlevi — basılı s.44 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘Mektuptan dönemin toplumsal ve kült…’ yazımında resmî ve samimi mektubun üslup gerekliliklerini birbiriyle karıştırmak.
 
 ### Müdahale
 
-- Soru 4 — yapı unsurlarının anlam ve işlevi — basılı s.44 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Mektuptan dönemin toplumsal ve kültürel yapısına ilişkin hangi izler çıkarılabilir?’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 4 — yapı unsurlarının anlam ve işlevi — basılı s.44 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Mektuptan dönemin toplumsal ve kültürel yapısına ilişkin hangi izler çıkarılabilir?’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Mektuptan dönemin toplumsal ve kült…’ doğrultusunda ‘yazar hakkındaki dış bilgiyi’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Muhataba göre dil ve anlatım tercihlerinin nasıl değiştiğini ‘Mektuptan dönemin toplumsal ve kült…’ için tahtada oluşturulacak iki sütunlu tabloda karşılaştırarak belirleyin ve bağlamını tartışın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Hitap–giriş–gelişme–sonuç–imza başlıklarını hazır ver.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: yapı unsurlarının anlam ve işlevi.
+- ‘Mektuptan dönemin toplumsal ve kült…’ hedefine yönelik bir kontrol listesi vererek öğrencinin ‘Üniversite, kitaplar, edebî ta…’ basamağını adım adım denetlemesini sağlayın.
 **Zenginleştirme**
 - Aynı içeriğin günümüz e-postasında nasıl biçim değiştireceğini tasarlat.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: yapı unsurlarının anlam ve işlevi.
+- Öğrencinin ‘Mektuptan dönemin toplumsal ve kült…’ bağlamındaki ürününü sınıf panosunda sergileyip yapı unsurlarının anlam ve işlevi sürecinin sunumunu yapmasını sağlayın.
 
 ### Kaynak ve durum
 
@@ -3717,30 +3697,31 @@ Soru 5 — Mektupta hangi millî, manevi ve evrensel değerler görülebilir?
 
 ### Açıklama ve gerekçe
 
-Soru 5 — yapı unsurlarının anlam ve işlevi — basılı s.44 için cevap, yapı unsurlarının anlam ve işlevi ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Yapı unsurlarında yalnız metinde görünür olan öğeleri kesin bilgi olarak yazar. Dil ile muhatap yakınlığı arasında bağ kurar.
+Bu görevdeki ‘Mektupta hangi millî, manevi ve evrensel değerler …’ tablosundaki maddelerin (milli, manevi, evrensel) doğruluğu, kaynak metindeki açık ifadeler ve çıkarımlar ile karşılaştırılarak temellendirilir. Öğrencinin izlemesi gereken çıkarım yolu; her bir cümleyi tek tek metindeki ifadelerle eşleştirmek, metinde doğrudan doğrulanan yargıları 'Evet', açıkça çelişenleri 'Hayır' ve metinde hakkında hüküm verilmeyen yargıları ise 'Bilgi yok' olarak sınıflandırmaktır. Yapı unsurlarında yalnız metinde görünür olan öğeleri kesin bilgi olarak yazar. Dil ile muhatap yakınlığı arasında bağ kurar.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 5 — yapı unsurlarının anlam ve işlevi — basılı s.44 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Mektupta hangi millî, manevi ve evrensel değerler görülebilir?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görevde öğretmen, yapı unsurlarının anlam ve işlevi çerçevesinde sorulan ‘Mektupta hangi millî, manevi ve evrensel değerler …’ konusu üzerinden öğrencinin metin kanıtları ile kavramsal çıkarımlar arasındaki ilişkiyi doğru kurmasını sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle yapı unsurlarının anlam ve işlevi üzerinde durun.
+> Bu görevde sizden beklenen; metindeki ipuçlarından hareketle ‘Mektupta hangi millî, manevi ve evrensel değe…’ konusunu incelemeniz ve yapı unsurlarının anlam ve işlevi doğrultusunda ‘milli: Türk edebiyatı ve kültürel b…’ sonucuna nasıl ulaşıldığını adım adım açıklamanızdır.
 
 ### Bu görev neden burada?
 
-Bu görev, yapı unsurlarının anlam ve işlevi ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+Bu görev, öğrencinin ‘Mektupta hangi millî, manevi ve evrensel değe…’ üzerinden yapı unsurlarının anlam ve işlevi becerisini somut bir metin bağlamında deneyimlemesini ve iddialarını kanıtla destekleme alışkanlığı kazanmasını sağlar.
 
 ### Ders içi uygulama
 
 - Önceki rehberde yer='İstanbul' ve tarih='24 Haziran 1940' kesin yapı öğesi gibi yazılmıştı. PDF-temelli modelde yalnız incelenen parçada görünür olan bilgiyi kesinleştir; biyografik/haricî bilgiyi yapısal unsur yerine geçirme.
-- Soru 5 — yapı unsurlarının anlam ve işlevi — basılı s.44 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- ‘Mektupta hangi millî, manevi ve evrensel…’ odağındaki cümleleri tahtaya yansıtarak öğrencilerin dikkatini ilgili metin kesitine çekin.
+- Metin içi tutarlılığı sorgulamak için ‘Mektupta hangi millî, manevi ve evrensel…’ ile ilgili çelişkili veya örtük noktaları tartışmaya açın.
+- Gerekçeli yanıtları yapı unsurlarının anlam ve işlevi yeterliği bakımından değerlendirip geri bildirim verin.
 
 ### Takip soruları
 
-- Soru 5 — yapı unsurlarının anlam ve işlevi — basılı s.44 için düşünme sorusu: Alıcı değişseydi hitap, kelime seçimi veya ayrıntı düzeyi hangi yönde değişirdi? Özellikle ‘Mektupta hangi millî, manevi ve evrensel değerler görülebilir?’ ayrıntısını yoklayın.
-- Soru 5 — yapı unsurlarının anlam ve işlevi — basılı s.44 içindeki bir ifade mektubun amacına nasıl hizmet ediyor; yalnız bilgi mi veriyor, ilişki de mi kuruyor? Özellikle ‘Mektupta hangi millî, manevi ve evrensel değerler görülebilir?’ ayrıntısını yoklayın.
+- ‘Mektupta hangi millî, manevi ve evrensel…’ yapısındaki dil bilgisel işlevin, konuşurun ya da anlatıcının ruh hâlini yansıtmadaki rolü nedir?
+- ‘Mektupta hangi millî, manevi ve evrensel…’ cümlesindeki dilbilgisi tercihinin metnin genel anlatım akışı ve anlam bütünlüğüne etkisi nedir?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -3752,22 +3733,21 @@ Bu görev, yapı unsurlarının anlam ve işlevi ölçütünü gönderici-alıc�
 ### Sık yanılgılar
 
 - Yazar hakkındaki dış bilgiyi mektup parçasında açıkça yazılıymış gibi kullanmak.
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- Soru 5 — yapı unsurlarının anlam ve işlevi — basılı s.44 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘Mektupta hangi millî, manevi ve evr…’ türünde hitap ve kapanış ifadelerini biçimsel süs sanıp muhatapla kurulan ilişkinin işlevini gözden kaçırmak.
 
 ### Müdahale
 
-- Soru 5 — yapı unsurlarının anlam ve işlevi — basılı s.44 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Mektupta hangi millî, manevi ve evrensel değerler görülebilir?’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 5 — yapı unsurlarının anlam ve işlevi — basılı s.44 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Mektupta hangi millî, manevi ve evrensel değerler görülebilir?’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciden ‘Mektupta hangi millî, manevi ve evr…’ bağlamında ‘yazar hakkındaki dış bilgiyi’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- Öğrenciye gönderici-alıcı ilişkisini iki farklı örnek üzerinden karşılaştırın; ‘Mektupta hangi millî, manevi ve evr…’ hitap seçiminin iletişim amacına etkisini gösterin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Hitap–giriş–gelişme–sonuç–imza başlıklarını hazır ver.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: yapı unsurlarının anlam ve işlevi.
+- ‘Mektupta hangi millî, manevi ve evr…’ sürecinde zorlanan öğrenciye metin türünün yapı basamaklarını gösteren bir şablon sunun.
 **Zenginleştirme**
 - Aynı içeriğin günümüz e-postasında nasıl biçim değiştireceğini tasarlat.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: yapı unsurlarının anlam ve işlevi.
+- Öğrenciden ‘Mektupta hangi millî, manevi ve evr…’ ürününü dijital bir sunuma veya okul bülteninde yayımlanacak bir yazıya dönüştürmesini isteyin.
 
 ### Kaynak ve durum
 
@@ -3813,53 +3793,52 @@ Kitapta “Mektup ve sosyal bilimler” başlığı altında verilen çalışma/
 
 ### Açıklama ve gerekçe
 
-Sınıf dışı etkinlik — mektup ve sosyal bilimler — basılı s.45 için cevap, Sınıf dışı etkinlik — mektup ve sosyal bilimler ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Grup, seçtiği sosyal bilim alanıyla mektup arasında en az iki metin kanıtı kurar. Araştırma sonucunu yalnız genel bilgiyle değil mektuptaki ayrıntılarla ilişkilendirir.
+Bu görevde tekil bir cevap kalıbı bulunmayıp ‘Kitapta “Mektup ve sosyal bilimler” başlığı altınd…’ odağında Sınıf dışı etkinlik — mektup ve sosyal bilimler becerisinin işletilmesi hedeflenir. Ölçüt dayanağı; öğrencinin Grup, seçtiği sosyal bilim alanıyla mektup arasında en az iki metin kanıtı kurar. Araştırma sonucunu yalnız genel bilgiyle değil mektuptaki ayrıntılarla ilişkilendirir. ilkesiyle uyumlu, gerekçelendirilmiş ve tutarlı bir çalışma sunmasıdır.
 
 ### Öğretmenin bilmesi gerekenler
 
-Sınıf dışı etkinlik — mektup ve sosyal bilimler — basılı s.45 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Sınıf dışı etkinlik — mektup ve sosyal bilimler — Mektup ve sosyal…’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev adımında öğretmen, ‘Kitapta “Mektup ve sosyal bilimler” başlığı altınd…’ ile ilgili sınıf tartışmasını Sınıf dışı etkinlik — mektup ve sosyal bilimler zemininde yapılandırmalı ve ‘Tarih: günlük hayat, eğitim ortamı, ilet…’ doğrultusundaki tespitleri metin üzerinden teyit ettirmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle Sınıf dışı etkinlik — mektup ve sosyal bilimler üzerinde durun.
+> Bu etkinlikte amacınız, ‘Kitapta “Mektup ve sosyal bilimler” başlığı a…’ konusunu Sınıf dışı etkinlik — mektup ve sosyal bilimler perspektifinden tahlil etmektir. İddialarınızı metinden somut göstergelerle destekleyerek ‘Tarih: günlük hayat, eğitim ortamı,…’ niteliğinde bir çıkarım yapın.
 
 ### Bu görev neden burada?
 
-Bu görev, Sınıf dışı etkinlik — mektup ve sosyal bilimler ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+Görev, ‘Kitapta “Mektup ve sosyal bilimler” başlığı a…’ konusundaki gözlemleri Sınıf dışı etkinlik — mektup ve sosyal bilimler ile sentezleyerek metin çözümleme disiplinini pekiştirir ve öğrencinin ‘Tarih: günlük hayat, eğitim ortamı,…’ odaklı eleştirel düşünme kapasitesini artırır.
 
 ### Ders içi uygulama
 
 - Kitaptaki sınıf dışı etkinlik yapısını koru: gruplar tarih/sosyoloji/psikoloji açısından araştırma yapar ve sözcüyle paylaşır.
 - Sınıf dışı etkinliğin yapısını koruyun: gruplar tarih, sosyoloji veya psikoloji açısından araştırma yapıp mektuptan en az iki kanıtla sınıfa sunsun.
-- Sınıf dışı etkinlik — mektup ve sosyal bilimler — basılı s.45 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- Metindeki anlatım tutumunu fark ettirmek için ‘Sınıf dışı etkinlik — mektup ve sosyal bilimler (T1V23_P45_SOCSCI)’ bölümünü sesli okutun.
+- Belirlenen alıntıların Sınıf dışı etkinlik — mektup ve sosyal bilimler ve ‘Tarih: günlük hayat, eğitim ortamı,…’ açısından ne ifade ettiğini sınıf tartışmasıyla derinleştirin.
 
 ### Öğrenci cevaplarını değerlendirme
 
 - Grup araştırma notu, en az iki metin kanıtı ve sözcü sunumu.
 - Grup, seçtiği sosyal bilim alanıyla mektup arasında en az iki metin kanıtı kurar.
 - Araştırma sonucunu yalnız genel bilgiyle değil mektuptaki ayrıntılarla ilişkilendirir.
-- Gönderici-alıcı-amaç ile dil tercihi arasında metinden kanıtlı ilişki.
+- Tablodaki 3 maddenin her birinin metin kanıtıyla doğru eşleştirilmesi.
 
 ### Sık yanılgılar
 
 - Metin kanıtı göstermeden genel sosyal bilim bilgisi anlatmak.
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- Sınıf dışı etkinlik — mektup ve sosyal bilimler — basılı s.45 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘Sınıf dışı etkinlik — mektup ve sosyal bilimler (T1V23_P45_SOCSCI)’ yazımında resmî ve samimi mektubun üslup gerekliliklerini birbiriyle karıştırmak.
 
 ### Müdahale
 
-- Sınıf dışı etkinlik — mektup ve sosyal bilimler — basılı s.45 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Sınıf dışı etkinlik — mektup ve sosyal bilimler — Mektup ve sosyal…’ ayrıntısını kullandırarak somutlaştırın.
-- Sınıf dışı etkinlik — mektup ve sosyal bilimler — basılı s.45 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Sınıf dışı etkinlik — mektup ve sosyal bilimler — Mektup ve sosyal…’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Sınıf dışı etkinlik — mektup ve sosyal bilimler (T1V23_P45_SOCSCI)’ doğrultusunda ‘metin kanıtı göstermeden genel’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Muhataba göre dil ve anlatım tercihlerinin nasıl değiştiğini ‘Sınıf dışı etkinlik — mektup ve sosyal bilimler (T1V23_P45_SOCSCI)’ için tahtada oluşturulacak iki sütunlu tabloda karşılaştırarak belirleyin ve bağlamını tartışın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Her gruba iki araştırma sorusu ver.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: Sınıf dışı etkinlik — mektup ve sosyal bilimler.
+- ‘Kitapta “Mektup ve sosyal bilimler”…’ hedefine yönelik bir kontrol listesi vererek öğrencinin ‘Tarih: günlük hayat, eğitim or…’ basamağını adım adım denetlemesini sağlayın.
 **Zenginleştirme**
 - Aynı mektup ayrıntısının iki farklı sosyal bilim alanında nasıl farklı yorumlandığını karşılaştır.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: Sınıf dışı etkinlik — mektup ve sosyal bilimler.
+- Öğrencinin ‘Kitapta “Mektup ve sosyal bilimler”…’ bağlamındaki ürününü sınıf panosunda sergileyip Sınıf dışı etkinlik — mektup ve sosyal bilimler sürecinin sunumunu yapmasını sağlayın.
 
 ### Kaynak ve durum
 
@@ -3907,25 +3886,26 @@ Kitapta “Süreci Değerlendirebilme — Beğeni ölçütleri” başlığı al
 
 ### Açıklama ve gerekçe
 
-ölçüt kullanarak değerlendirme — basılı s.46 için cevap, ölçüt kullanarak değerlendirme ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Kendi beğeni ölçütlerini açıklar. Değerlendirmeyi bu ölçütlerden en az ikisine dayandırır.
+Bu soruda hedeflenen yanıt, metnin ana dokusunda yer alan ‘Kitapta “Süreci Değerlendirebilme — Beğeni ölçütle…’ ayrıntısını ölçüt kullanarak değerlendirme perspektifiyle analiz etmeye dayanır. Doğruluk dayanağı; Kendi beğeni ölçütlerini açıklar. Değerlendirmeyi bu ölçütlerden en az ikisine dayandırır. ilkesinin karşılanması ve metindeki göstergelerin somut kanıtlarla açıklanmasıdır. Öğrencinin izleyeceği bilişsel basamaklar; metin parçalarını taramak, kavramsal anahtarları tespit etmek ve bu bulguları sentezleyerek tutarlı bir değerlendirme üretmektir. İfadeler birebir aynı olmak zorunda olmayıp metinle çelişmeyen ve gerekçelendirilmiş farklı yaklaşımlar geçerli kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-ölçüt kullanarak değerlendirme — basılı s.46 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Mektubu beğeni ölçütleriyle değerlendirme — Süreci Değerlendirebilme — Beğeni ölçütleri’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görevde öğretmen, ‘Kitapta “Süreci Değerlendirebilme — Beğeni ölçütle…’ yönergesini ele alırken sınıf ortamında ölçüt kullanarak değerlendirme boyutunu öne çıkarmalı ve ‘['yalınlık/anlaşılırlık', 'samimiyet', '…’ yönündeki metin dayanaklarını desteklemelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle ölçüt kullanarak değerlendirme üzerinde durun.
+> Bu çalışmayı yaparken metni dikkatle gözden geçirerek ‘Kitapta “Süreci Değerlendirebilme — Beğeni öl…’ ile ilgili kanıtları belirleyin; ulaştığınız yargıları ölçüt kullanarak değerlendirme ve ‘['yalınlık/anlaşılırlık', 'samimiye…’ çerçevesinde gerekçelendirerek ifade edin.
 
 ### Bu görev neden burada?
 
-Bu görev, ölçüt kullanarak değerlendirme ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+ölçüt kullanarak değerlendirme eksenindeki bu çalışma, ‘Kitapta “Süreci Değerlendirebilme — Beğeni öl…’ konusunu ele alırken öğrencinin yüzeysel okumadan analitik çözümlemeye geçişini ve ‘['yalınlık/anlaşılırlık', 'samimiye…’ bağlantısını kurmasını destekler.
 
 ### Ders içi uygulama
 
 - 'Beğendim/beğenmedim' tek başına yeterli değildir; öğrencinin önce ölçüt üretmesini sonra metni o ölçütlerle değerlendirmesini iste.
-- ölçüt kullanarak değerlendirme — basılı s.46 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- ‘ölçüt kullanarak değerlendirme (T1V23_P46_CRITERIA)’ sorusunu sınıfa yönelterek ilk izlenimleri ve metinle ilgili sezgisel yaklaşımları tahtada toplayın.
+- ‘ölçüt kullanarak değerlendirme (T1V23_P46_CRITERIA)’ ile metnin ana fikri arasındaki neden-sonuç ilişkisini tahta üzerinde şemalaştırarak gösterin.
+- Öğrenci yanıtlarını Kendi beğeni ölçütlerini açıklar. doğrultusunda kontrol ederek metin dayanağı bulunmayan varsayımları eleyin.
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -3937,22 +3917,21 @@ Bu görev, ölçüt kullanarak değerlendirme ölçütünü gönderici-alıcı-a
 ### Sık yanılgılar
 
 - Kişisel beğeniyi gerekçesiz doğru/yanlış yargısına dönüştürmek.
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- ölçüt kullanarak değerlendirme — basılı s.46 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘ölçüt kullanarak değerlendirme (T1V23_P46_CRITERIA)’ yazımında resmî ve samimi mektubun üslup gerekliliklerini birbiriyle karıştırmak.
 
 ### Müdahale
 
-- ölçüt kullanarak değerlendirme — basılı s.46 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Mektubu beğeni ölçütleriyle değerlendirme — Süreci Değerlendirebilme — Beğeni ölçütleri’ ayrıntısını kullandırarak somutlaştırın.
-- ölçüt kullanarak değerlendirme — basılı s.46 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Mektubu beğeni ölçütleriyle değerlendirme — Süreci Değerlendirebilme — Beğeni ölçütleri’ ayrıntısını kullandırarak somutlaştırın.
+- ‘ölçüt kullanarak değerlendirme (T1V23_P46_CRITERIA)’ incelemesinde ‘kişisel beğeniyi gerekçesiz doğru’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Muhataba göre dil ve anlatım tercihlerinin nasıl değiştiğini ‘ölçüt kullanarak değerlendirme (T1V23_P46_CRITERIA)’ için tahtada oluşturulacak iki sütunlu tabloda karşılaştırarak belirleyin ve bağlamını tartışın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - İki temel ölçüt seçtirerek başlat.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: ölçüt kullanarak değerlendirme.
+- Öğrenciye ‘iddia — metin kanıtı — ölçüt kullanarak değerlendirme gerekçesi’ üçlü şemasını tahtada ‘Kitapta “Süreci Değerlendirebilme —…’ üzerinden örnekleyerek cevabını oluşturmasını sağlayın.
 **Zenginleştirme**
 - İki farklı ölçüte göre metin hakkındaki yargının değişip değişmediğini tartıştır.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: ölçüt kullanarak değerlendirme.
+- ‘Kitapta “Süreci Değerlendirebilme —…’ için ulaşılan cevabı sınıfta farklı bir bakış açısıyla savunmasını veya karşıt bir tezi çürütmesini isteyerek ölçüt kullanarak değerlendirme ekseninde tartışma başlatın.
 
 ### Kaynak ve durum
 
@@ -3996,19 +3975,19 @@ Metin samimi ve doğal; dönem söz varlığı dışında anlaşılır; günlük
 
 ### Açıklama ve gerekçe
 
-ölçüt kullanarak değerlendirme — basılı s.46 için beklenen yön, ölçüt kullanarak değerlendirme yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Kendi beğeni ölçütlerini açıklar. Değerlendirmeyi bu ölçütlerden en az ikisine dayandırır.
+Bu soruda hedeflenen yanıt, metnin ana dokusunda yer alan ‘Mektubu belirlediğiniz beğeni ölçütlerine göre değ…’ ayrıntısını ölçüt kullanarak değerlendirme perspektifiyle analiz etmeye dayanır. Doğruluk dayanağı; Kendi beğeni ölçütlerini açıklar. Değerlendirmeyi bu ölçütlerden en az ikisine dayandırır. ilkesinin karşılanması ve metindeki göstergelerin somut kanıtlarla açıklanmasıdır. Öğrencinin izleyeceği bilişsel basamaklar; metin parçalarını taramak, kavramsal anahtarları tespit etmek ve bu bulguları sentezleyerek tutarlı bir değerlendirme üretmektir. İfadeler birebir aynı olmak zorunda olmayıp metinle çelişmeyen ve gerekçelendirilmiş farklı yaklaşımlar geçerli kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-ölçüt kullanarak değerlendirme — basılı s.46 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Mektubu belirlediğiniz beğeni ölçütlerine göre değerlendiriniz’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görevde öğretmenin kılavuzluğu, ‘Mektubu belirlediğiniz beğeni ölçütlerine göre değ…’ bağlamında öğrencinin ölçüt kullanarak değerlendirme ve ‘Metin samimi ve doğal; dönem söz varlığı…’ arasındaki mantıksal nedensellik bağını metin üzerinden kavramasına odaklanmalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle ölçüt kullanarak değerlendirme üzerinde durun.
+> Bu soruda, ‘Mektubu belirlediğiniz beğeni ölçütlerine gör…’ odağını metnin genel anlam akışı içinde değerlendirmeniz gerekmektedir. Tespit ettiğiniz verileri ölçüt kullanarak değerlendirme açısından yorumlayarak ‘Metin samimi ve doğal; dönem söz va…’ yönünde tutarlı bir sonuca varın.
 
 ### Bu görev neden burada?
 
-Bu görev, ölçüt kullanarak değerlendirme ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+Öğrencinin ‘Mektubu belirlediğiniz beğeni ölçütlerine gör…’ incelemesi yoluyla ölçüt kullanarak değerlendirme kavramını içselleştirmesi, edebî metinlerdeki anlam katmanlarını fark etmesine ve ‘Metin samimi ve doğal; dönem söz va…’ yönünde derinlikli bakış kazanmasına zemin hazırlar.
 
 ### Kabul edilebilir cevaplar
 
@@ -4019,13 +3998,13 @@ Bu görev, ölçüt kullanarak değerlendirme ölçütünü gönderici-alıcı-a
 
 - 'Beğendim/beğenmedim' tek başına yeterli değildir; öğrencinin önce ölçüt üretmesini sonra metni o ölçütlerle değerlendirmesini iste.
 - “Beğendim / beğenmedim” tek başına yeterli değildir; önce ölçütü belirletip sonra yargıyı o ölçüte dayandırın.
-- ölçüt kullanarak değerlendirme — basılı s.46 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- Öğrencileri küçük gruplara ayırarak ‘Mektubu belirlediğiniz beğeni ölçütlerin…’ sorusunun işaret ettiği kanıtları metin üzerinden tespit ettirin.
+- Öğrencilerin ileri sürdüğü gerekçeleri tahtaya yazarak ölçüt kullanarak değerlendirme ölçütüne göre sınıflandırın.
 
 ### Takip soruları
 
-- ölçüt kullanarak değerlendirme — basılı s.46 için düşünme sorusu: Alıcı değişseydi hitap, kelime seçimi veya ayrıntı düzeyi hangi yönde değişirdi? Özellikle ‘Mektubu belirlediğiniz beğeni ölçütlerine göre değerlendiriniz’ ayrıntısını yoklayın.
-- ölçüt kullanarak değerlendirme — basılı s.46 içindeki bir ifade mektubun amacına nasıl hizmet ediyor; yalnız bilgi mi veriyor, ilişki de mi kuruyor? Özellikle ‘Mektubu belirlediğiniz beğeni ölçütlerine göre değerlendiriniz’ ayrıntısını yoklayın.
+- Metinde ‘Mektubu belirlediğiniz beğeni ölçütlerin…’ kullanımına benzer başka bir örnek bulunabilir mi; bu iki örnek yazarın üslubunu nasıl yansıtmaktadır?
+- Eğer ‘Mektubu belirlediğiniz beğeni ölçütlerin…’ ifadesinde kullanılan dil bilgisel yapı değiştirilseydi, cümlenin ilettiği anlam ve vurgu nasıl başkalaşırdı?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -4037,22 +4016,21 @@ Bu görev, ölçüt kullanarak değerlendirme ölçütünü gönderici-alıcı-a
 ### Sık yanılgılar
 
 - Kişisel beğeniyi gerekçesiz doğru/yanlış yargısına dönüştürmek.
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- ölçüt kullanarak değerlendirme — basılı s.46 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘Mektubu belirlediğiniz beğeni ölçüt…’ yazımında resmî ve samimi mektubun üslup gerekliliklerini birbiriyle karıştırmak.
 
 ### Müdahale
 
-- ölçüt kullanarak değerlendirme — basılı s.46 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Mektubu belirlediğiniz beğeni ölçütlerine göre değerlendiriniz’ ayrıntısını kullandırarak somutlaştırın.
-- ölçüt kullanarak değerlendirme — basılı s.46 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Mektubu belirlediğiniz beğeni ölçütlerine göre değerlendiriniz’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Mektubu belirlediğiniz beğeni ölçüt…’ incelemesinde ‘kişisel beğeniyi gerekçesiz doğru’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Muhataba göre dil ve anlatım tercihlerinin nasıl değiştiğini ‘Mektubu belirlediğiniz beğeni ölçüt…’ için tahtada oluşturulacak iki sütunlu tabloda karşılaştırarak belirleyin ve bağlamını tartışın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - İki temel ölçüt seçtirerek başlat.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: ölçüt kullanarak değerlendirme.
+- ‘Mektubu belirlediğiniz beğeni ölçüt…’ metnindeki karmaşık ifadeleri öğrencinin kendi sözcükleriyle yeniden ifade etmesini isteyerek ölçüt kullanarak değerlendirme fikrini netleştirin.
 **Zenginleştirme**
 - İki farklı ölçüte göre metin hakkındaki yargının değişip değişmediğini tartıştır.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: ölçüt kullanarak değerlendirme.
+- Öğrencinin ‘Mektubu belirlediğiniz beğeni ölçüt…’ bağlamındaki çıkarımını infografik, dijital sunum veya kavram haritasına dönüştürerek sınıf panosunda sergilemesini sağlayın.
 
 ### Kaynak ve durum
 
@@ -4096,19 +4074,19 @@ Yazar duygu, günlük yaşam, okumalar ve düşüncelerini aktararak ve Ali'den 
 
 ### Açıklama ve gerekçe
 
-ölçüt kullanarak değerlendirme — basılı s.46 için beklenen yön, ölçüt kullanarak değerlendirme yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Kendi beğeni ölçütlerini açıklar. Değerlendirmeyi bu ölçütlerden en az ikisine dayandırır.
+Beklenen cevabın temeli, ölçüt kullanarak değerlendirme ekseninde ‘Yazar mektubu yazma amacına ulaşmış mıdır? Gerekçe…’ bağlamını aydınlatan metin kanıtlarının doğru tahlil edilmesidir. Yanıtın kabul edilebilirliği; Kendi beğeni ölçütlerini açıklar. Değerlendirmeyi bu ölçütlerden en az ikisine dayandırır. ölçütüne bağlı kalınmasına ve metindeki verilerin tarafsız biçimde yorumlanmasına bağlıdır. Öğrenci; önce ilgili bilgiyi kaynaktan süzmeli, ardından bu bilgiyi sorunun gerektirdiği kavramsal çerçeveye oturtmalıdır. Metin sınırlarını aşmayan ve dayanağı gösterilen özgün öğrenci yorumları da geçerli sayılır.
 
 ### Öğretmenin bilmesi gerekenler
 
-ölçüt kullanarak değerlendirme — basılı s.46 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Yazar mektubu yazma amacına ulaşmış mıdır? Gerekçelendiriniz’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görevde öğretmenin kılavuzluğu, ‘Yazar mektubu yazma amacına ulaşmış mıdır? Gerekçe…’ bağlamında öğrencinin ölçüt kullanarak değerlendirme ve ‘Yazar duygu, günlük yaşam, okumalar ve d…’ arasındaki mantıksal nedensellik bağını metin üzerinden kavramasına odaklanmalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle ölçüt kullanarak değerlendirme üzerinde durun.
+> Bu soruda, ‘Yazar mektubu yazma amacına ulaşmış mıdır? Ge…’ odağını metnin genel anlam akışı içinde değerlendirmeniz gerekmektedir. Tespit ettiğiniz verileri ölçüt kullanarak değerlendirme açısından yorumlayarak ‘Yazar duygu, günlük yaşam, okumalar…’ yönünde tutarlı bir sonuca varın.
 
 ### Bu görev neden burada?
 
-Bu görev, ölçüt kullanarak değerlendirme ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+Öğrencinin ‘Yazar mektubu yazma amacına ulaşmış mıdır? Ge…’ incelemesi yoluyla ölçüt kullanarak değerlendirme kavramını içselleştirmesi, edebî metinlerdeki anlam katmanlarını fark etmesine ve ‘Yazar duygu, günlük yaşam, okumalar…’ yönünde derinlikli bakış kazanmasına zemin hazırlar.
 
 ### Kabul edilebilir cevaplar
 
@@ -4118,13 +4096,14 @@ Bu görev, ölçüt kullanarak değerlendirme ölçütünü gönderici-alıcı-a
 ### Ders içi uygulama
 
 - 'Beğendim/beğenmedim' tek başına yeterli değildir; öğrencinin önce ölçüt üretmesini sonra metni o ölçütlerle değerlendirmesini iste.
-- ölçüt kullanarak değerlendirme — basılı s.46 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- Metindeki anlatım tutumunu fark ettirmek için ‘Yazar mektubu yazma amacına ulaşmış mıdı…’ bölümünü sesli okutun.
+- Belirlenen alıntıların ölçüt kullanarak değerlendirme ve ‘Yazar duygu, günlük yaşam, okumalar…’ açısından ne ifade ettiğini sınıf tartışmasıyla derinleştirin.
+- Farklı görüş bildiren öğrencilere söz hakkı vererek ölçüt kullanarak değerlendirme ölçütü çerçevesinde ortak bir sonuca varılmasını yönlendirin.
 
 ### Takip soruları
 
-- ölçüt kullanarak değerlendirme — basılı s.46 için düşünme sorusu: Alıcı değişseydi hitap, kelime seçimi veya ayrıntı düzeyi hangi yönde değişirdi? Özellikle ‘Yazar mektubu yazma amacına ulaşmış mıdır? Gerekçelendiriniz’ ayrıntısını yoklayın.
-- ölçüt kullanarak değerlendirme — basılı s.46 içindeki bir ifade mektubun amacına nasıl hizmet ediyor; yalnız bilgi mi veriyor, ilişki de mi kuruyor? Özellikle ‘Yazar mektubu yazma amacına ulaşmış mıdır? Gerekçelendiriniz’ ayrıntısını yoklayın.
+- Eğer ‘Yazar mektubu yazma amacına ulaşmış mıdı…’ ifadesinde kullanılan dil bilgisel yapı değiştirilseydi, cümlenin ilettiği anlam ve vurgu nasıl başkalaşırdı?
+- ‘Yazar mektubu yazma amacına ulaşmış mıdı…’ yapısındaki dil ögesi metinden çıkarılsaydı cümlenin bağlamsal doğruluğu ve anlatım gücü nasıl zayıflardı?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -4136,22 +4115,21 @@ Bu görev, ölçüt kullanarak değerlendirme ölçütünü gönderici-alıcı-a
 ### Sık yanılgılar
 
 - Kişisel beğeniyi gerekçesiz doğru/yanlış yargısına dönüştürmek.
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- ölçüt kullanarak değerlendirme — basılı s.46 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘Yazar mektubu yazma amacına ulaşmış…’ yazımında resmî ve samimi mektubun üslup gerekliliklerini birbiriyle karıştırmak.
 
 ### Müdahale
 
-- ölçüt kullanarak değerlendirme — basılı s.46 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Yazar mektubu yazma amacına ulaşmış mıdır? Gerekçelendiriniz’ ayrıntısını kullandırarak somutlaştırın.
-- ölçüt kullanarak değerlendirme — basılı s.46 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Yazar mektubu yazma amacına ulaşmış mıdır? Gerekçelendiriniz’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Yazar mektubu yazma amacına ulaşmış…’ doğrultusunda ‘kişisel beğeniyi gerekçesiz doğru’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Muhataba göre dil ve anlatım tercihlerinin nasıl değiştiğini ‘Yazar mektubu yazma amacına ulaşmış…’ için tahtada oluşturulacak iki sütunlu tabloda karşılaştırarak belirleyin ve bağlamını tartışın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - İki temel ölçüt seçtirerek başlat.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: ölçüt kullanarak değerlendirme.
+- ‘Yazar mektubu yazma amacına ulaşmış…’ hedefine yönelik bir kontrol listesi vererek öğrencinin ‘Yazar duygu, günlük yaşam, oku…’ basamağını adım adım denetlemesini sağlayın.
 **Zenginleştirme**
 - İki farklı ölçüte göre metin hakkındaki yargının değişip değişmediğini tartıştır.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: ölçüt kullanarak değerlendirme.
+- Öğrencinin ‘Yazar mektubu yazma amacına ulaşmış…’ bağlamındaki ürününü sınıf panosunda sergileyip ölçüt kullanarak değerlendirme sürecinin sunumunu yapmasını sağlayın.
 
 ### Kaynak ve durum
 
@@ -4195,26 +4173,26 @@ Kaynak şiirdeki duygu/içerik kopyalanmadan hitap–gelişme–kapanış düzen
 
 ### Açıklama ve gerekçe
 
-ölçüt kullanarak değerlendirme — basılı s.46 için cevap, ölçüt kullanarak değerlendirme ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Kendi beğeni ölçütlerini açıklar. Değerlendirmeyi bu ölçütlerden en az ikisine dayandırır.
+Bu etkinlikte sabit bir formül aranmaz; ölçüt kullanarak değerlendirme amacına yönelik olarak ‘Kitapta “Süreci Değerlendirebilme — Şiirden mektub…’ basamaklarının özgün biçimde yapılandırılması esastır. Geçerlilik ölçütü; Kendi beğeni ölçütlerini açıklar. Değerlendirmeyi bu ölçütlerden en az ikisine dayandırır. doğrultusunda öğrencinin ortaya koyduğu tutarlı ürün ve gerekçedir.
 
 ### Öğretmenin bilmesi gerekenler
 
-ölçüt kullanarak değerlendirme — basılı s.46 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Mektubu beğeni ölçütleriyle değerlendirme — Süreci Değerlendirebilme — Şiirden mektuba dönüşüm’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev tahlilinde öğretmen, ölçüt kullanarak değerlendirme odağında ‘Kitapta “Süreci Değerlendirebilme — Şiirden mektub…’ sorusuna yönelik yanıtların metin içi tutarlılığını denetlemeli ve yüzeysel yorumların ötesine geçilmesini sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle ölçüt kullanarak değerlendirme üzerinde durun.
+> Görevin temel amacı, ‘Kitapta “Süreci Değerlendirebilme — Şiirden m…’ ayrıntısı üzerinden ölçüt kullanarak değerlendirme kavramını kavramanızdır. Metindeki ilgili cümleleri bularak ‘Kaynak şiirdeki duygu/içerik kopyal…’ bağlamındaki düşüncenizi kendi cümlelerinizle ortaya koyun.
 
 ### Bu görev neden burada?
 
-Bu görev, ölçüt kullanarak değerlendirme ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+Bu soru, ‘Kitapta “Süreci Değerlendirebilme — Şiirden m…’ ayrıntısını ölçüt kullanarak değerlendirme ile birleştirerek dil ve edebiyat çalışmalarında neden-sonuç ilişkisi kurma ve ‘Kaynak şiirdeki duygu/içerik kopyal…’ bağlamını kavrama yeterliğini güçlendirir.
 
 ### Ders içi uygulama
 
 - 'Beğendim/beğenmedim' tek başına yeterli değildir; öğrencinin önce ölçüt üretmesini sonra metni o ölçütlerle değerlendirmesini iste.
 - Kaynak şiiri kopyalatmayın; duygu ve içeriği hitap–gelişme–kapanış düzeninde yeni bir mektuba dönüştürmesini isteyin.
-- ölçüt kullanarak değerlendirme — basılı s.46 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- Metnin ilgili bölümünü sessizce okutup ölçüt kullanarak değerlendirme ile bağlantılı kilit kelimeleri belirlemeleri için süre tanıyın.
+- Seçilen metin kanıtlarının ölçüt kullanarak değerlendirme hedefine uygunluğunu akran değerlendirmesiyle gözden geçirtin.
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -4226,22 +4204,21 @@ Bu görev, ölçüt kullanarak değerlendirme ölçütünü gönderici-alıcı-a
 ### Sık yanılgılar
 
 - Kişisel beğeniyi gerekçesiz doğru/yanlış yargısına dönüştürmek.
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- ölçüt kullanarak değerlendirme — basılı s.46 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘ölçüt kullanarak değerlendirme (T1V23_P46_TRANSFORM)’ türünde hitap ve kapanış ifadelerini biçimsel süs sanıp muhatapla kurulan ilişkinin işlevini gözden kaçırmak.
 
 ### Müdahale
 
-- ölçüt kullanarak değerlendirme — basılı s.46 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Mektubu beğeni ölçütleriyle değerlendirme — Süreci Değerlendirebilme — Şiirden mektuba dönüşüm’ ayrıntısını kullandırarak somutlaştırın.
-- ölçüt kullanarak değerlendirme — basılı s.46 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Mektubu beğeni ölçütleriyle değerlendirme — Süreci Değerlendirebilme — Şiirden mektuba dönüşüm’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciye ‘ölçüt kullanarak değerlendirme (T1V23_P46_TRANSFORM)’ çerçevesinde ‘kişisel beğeniyi gerekçesiz doğru’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- Öğrenciye gönderici-alıcı ilişkisini iki farklı örnek üzerinden karşılaştırın; ‘ölçüt kullanarak değerlendirme (T1V23_P46_TRANSFORM)’ hitap seçiminin iletişim amacına etkisini gösterin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - İki temel ölçüt seçtirerek başlat.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: ölçüt kullanarak değerlendirme.
+- ‘Kitapta “Süreci Değerlendirebilme —…’ konusunu daha sade yönlendirici alt sorulara bölerek öğrencinin ‘Kaynak şiirdeki duygu/içerik k…’ sonucuna kademeli olarak ulaşmasına rehberlik edin.
 **Zenginleştirme**
 - İki farklı ölçüte göre metin hakkındaki yargının değişip değişmediğini tartıştır.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: ölçüt kullanarak değerlendirme.
+- ‘Kitapta “Süreci Değerlendirebilme —…’ tahlilini yazarın edebî dönemi, sanat anlayışı ve dönemin toplumsal koşullarıyla ilişkilendiren bir araştırma sorusu geliştirtin.
 
 ### Kaynak ve durum
 
@@ -4285,19 +4262,19 @@ Mektuptaki yer, eğitim, okuma ve sosyal çevre ayrıntıları gerçek yaşamla 
 
 ### Açıklama ve gerekçe
 
-Soru 1 — Metin ve Gerçeklik — basılı s.47 için beklenen yön, Metin ve Gerçeklik yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Metinsel gerçeklik ile nesnel gerçekliği ayırır. Katılıyorum/katılmıyorum yargısını en az bir metin kanıtıyla gerekçelendirir.
+Soruya verilecek uygun cevap, ‘Mektuptaki metinsel gerçeklik ile nesnel gerçeklik…’ yönündeki çıkarımı Metin ve Gerçeklik hedefleri doğrultusunda yapılandırır. Çözümlemenin geçerliliği, Metinsel gerçeklik ile nesnel gerçekliği ayırır. Katılıyorum/katılmıyorum yargısını en az bir metin kanıtıyla gerekçelendirir. koşuluna uyulması ve iddiaların metindeki açık veya örtük ifadelerle doğrulanmasıyla sağlanır. Öğrencinin akıl yürütme süreci; sorunun işaret ettiği metin bölümünü belirlemek, oradaki dil ve anlatım ipuçlarını değerlendirmek ve ulaştığı yargıyı gerekçelendirmektir. Metin özüyle örtüşen ve mantıksal nedensellik taşıyan alternatif anlatımlar doğru yanıt olarak değerlendirilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 1 — Metin ve Gerçeklik — basılı s.47 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Mektuptaki metinsel gerçeklik ile nesnel gerçeklik nasıl ilişkilendirilebilir?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev tahlilinde öğretmen, Metin ve Gerçeklik odağında ‘Mektuptaki metinsel gerçeklik ile nesnel gerçeklik…’ sorusuna yönelik yanıtların metin içi tutarlılığını denetlemeli ve yüzeysel yorumların ötesine geçilmesini sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle Metin ve Gerçeklik üzerinde durun.
+> Görevin temel amacı, ‘Mektuptaki metinsel gerçeklik ile nesnel gerç…’ ayrıntısı üzerinden Metin ve Gerçeklik kavramını kavramanızdır. Metindeki ilgili cümleleri bularak ‘Mektuptaki yer, eğitim, okuma ve so…’ bağlamındaki düşüncenizi kendi cümlelerinizle ortaya koyun.
 
 ### Bu görev neden burada?
 
-Bu görev, Metin ve Gerçeklik ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+Bu soru, ‘Mektuptaki metinsel gerçeklik ile nesnel gerç…’ ayrıntısını Metin ve Gerçeklik ile birleştirerek dil ve edebiyat çalışmalarında neden-sonuç ilişkisi kurma ve ‘Mektuptaki yer, eğitim, okuma ve so…’ bağlamını kavrama yeterliğini güçlendirir.
 
 ### Kabul edilebilir cevaplar
 
@@ -4307,40 +4284,40 @@ Bu görev, Metin ve Gerçeklik ölçütünü gönderici-alıcı-amaç ilişkisi 
 ### Ders içi uygulama
 
 - Kitaptaki araştırma ve sınıf görüşü boyutunu koru; cevap anahtarını tek yargıya indirgeme.
-- Soru 1 — Metin ve Gerçeklik — basılı s.47 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- Öğrencilerden Metin ve Gerçeklik açısından metindeki zıtlık ve benzerlikleri belirleyerek not almalarını isteyin.
+- İddialar ile ‘Mektuptaki metinsel gerçeklik ile nesnel…’ kanıtları arasındaki mantıksal bağı adım adım sorgulatarak temellendirin.
+- Öğrencilerin ulaştıkları ‘Mektuptaki yer, eğitim, okuma ve so…’ çıkarımını kendi cümleleriyle gerekçelendirerek defterlerine yazmalarını sağlayın.
 
 ### Takip soruları
 
-- Soru 1 — Metin ve Gerçeklik — basılı s.47 için düşünme sorusu: Alıcı değişseydi hitap, kelime seçimi veya ayrıntı düzeyi hangi yönde değişirdi? Özellikle ‘Mektuptaki metinsel gerçeklik ile nesnel gerçeklik nasıl ilişkilendirilebilir?’ ayrıntısını yoklayın.
-- Soru 1 — Metin ve Gerçeklik — basılı s.47 içindeki bir ifade mektubun amacına nasıl hizmet ediyor; yalnız bilgi mi veriyor, ilişki de mi kuruyor? Özellikle ‘Mektuptaki metinsel gerçeklik ile nesnel gerçeklik nasıl ilişkilendirilebilir?’ ayrıntısını yoklayın.
+- ‘Mektuptaki metinsel gerçeklik ile nesnel…’ cümlesindeki dilbilgisi tercihinin metnin genel anlatım akışı ve anlam bütünlüğüne etkisi nedir?
+- ‘Mektuptaki metinsel gerçeklik ile nesnel…’ yapısındaki dil bilgisel işlevin, konuşurun ya da anlatıcının ruh hâlini yansıtmadaki rolü nedir?
 
 ### Öğrenci cevaplarını değerlendirme
 
 - Gerçeklik karşılaştırması, örnek çiftleri ve gerekçeli görüş.
 - Metinsel gerçeklik ile nesnel gerçekliği ayırır.
 - Katılıyorum/katılmıyorum yargısını en az bir metin kanıtıyla gerekçelendirir.
-- Gönderici-alıcı-amaç ile dil tercihi arasında metinden kanıtlı ilişki.
+- ‘Mektuptaki metinsel gerçeklik ile nesnel…’ konusundaki tespitlerin metin bağlamına ve türün edebî özelliklerine uygunluğu.
 
 ### Sık yanılgılar
 
 - Gerçek kişi tarafından yazılmış her cümleyi tarafsız nesnel belge saymak.
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- Soru 1 — Metin ve Gerçeklik — basılı s.47 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘Mektuptaki metinsel gerçeklik ile n…’ türünde hitap ve kapanış ifadelerini biçimsel süs sanıp muhatapla kurulan ilişkinin işlevini gözden kaçırmak.
 
 ### Müdahale
 
-- Soru 1 — Metin ve Gerçeklik — basılı s.47 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Mektuptaki metinsel gerçeklik ile nesnel gerçeklik nasıl ilişkilendirilebilir?’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 1 — Metin ve Gerçeklik — basılı s.47 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Mektuptaki metinsel gerçeklik ile nesnel gerçeklik nasıl ilişkilendirilebilir?’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciye ‘Mektuptaki metinsel gerçeklik ile n…’ çerçevesinde ‘gerçek kişi tarafından yazılmış’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- Öğrenciye gönderici-alıcı ilişkisini iki farklı örnek üzerinden karşılaştırın; ‘Mektuptaki metinsel gerçeklik ile n…’ hitap seçiminin iletişim amacına etkisini gösterin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Doğrulanabilir bilgi / kişisel yorum şeklinde iki sütun kullan.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: Metin ve Gerçeklik.
+- Öğrenciye ‘Mektuptaki metinsel gerçeklik ile n…’ için akranıyla fikir alışverişi yaptırarak yazma/konuşma planını netleştirmesini sağlayın.
 **Zenginleştirme**
 - Mektubun tarihî belge olarak güçlü ve sınırlı yanlarını tartıştır.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: Metin ve Gerçeklik.
+- ‘Mektuptaki metinsel gerçeklik ile n…’ çalışmasını farklı bir hedef kitleye veya iletişim kanalına uyarlayarak ‘Mektuptaki yer, eğitim, okuma …’ etkisini karşılaştırmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -4386,19 +4363,19 @@ Soru 2 — Mektuptaki hangi ayrıntılar gerçek yaşamla ilişkilendirilebilir?
 
 ### Açıklama ve gerekçe
 
-Soru 2 — Metin ve Gerçeklik — basılı s.47 için beklenen yön, Metin ve Gerçeklik yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Metinsel gerçeklik ile nesnel gerçekliği ayırır. Katılıyorum/katılmıyorum yargısını en az bir metin kanıtıyla gerekçelendirir.
+Beklenen cevap, Metin ve Gerçeklik çerçevesinde ‘Mektuptaki hangi ayrıntılar gerçek yaşamla ilişkil…’ konusunu metnin sunduğu veriler ve kavramsal dayanaklar üzerinden şekillendirir. Bu cevabın uygunluğu, Metinsel gerçeklik ile nesnel gerçekliği ayırır. Katılıyorum/katılmıyorum yargısını en az bir metin kanıtıyla gerekçelendirir. ölçütünün karşılanmasına ve öğrencinin metindeki olay/durum ayrıntılarını nedensellik bağıyla kurmasına dayanır. Öğrencinin izlemesi gereken çıkarım yolu; öncelikle metindeki kanıt niteliği taşıyan ifadeleri belirlemek, ardından bu göstergeleri kavramsal odakla ilişkilendirerek kendi gerekçeli açıklamasını oluşturmaktır. Öğrenci aynı sonucu farklı sözcüklerle ifade edebilir; temel iddia ile metin dayanağı arasındaki mantıksal tutarlılık korunduğu sürece kişisel yorumlar alternatif cevap olarak kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 2 — Metin ve Gerçeklik — basılı s.47 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Mektuptaki hangi ayrıntılar gerçek yaşamla ilişkilendirilebilir?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görevde öğretmen, Metin ve Gerçeklik çerçevesinde sorulan ‘Mektuptaki hangi ayrıntılar gerçek yaşamla ilişkil…’ konusu üzerinden öğrencinin metin kanıtları ile kavramsal çıkarımlar arasındaki ilişkiyi doğru kurmasını sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle Metin ve Gerçeklik üzerinde durun.
+> Bu görevde sizden beklenen; metindeki ipuçlarından hareketle ‘Mektuptaki hangi ayrıntılar gerçek yaşamla il…’ konusunu incelemeniz ve Metin ve Gerçeklik doğrultusunda ‘['eğitim/sınav bilgileri → akademik…’ sonucuna nasıl ulaşıldığını adım adım açıklamanızdır.
 
 ### Bu görev neden burada?
 
-Bu görev, Metin ve Gerçeklik ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+Bu görev, öğrencinin ‘Mektuptaki hangi ayrıntılar gerçek yaşamla il…’ üzerinden Metin ve Gerçeklik becerisini somut bir metin bağlamında deneyimlemesini ve iddialarını kanıtla destekleme alışkanlığı kazanmasını sağlar.
 
 ### Kabul edilebilir cevaplar
 
@@ -4408,40 +4385,40 @@ Bu görev, Metin ve Gerçeklik ölçütünü gönderici-alıcı-amaç ilişkisi 
 ### Ders içi uygulama
 
 - Kitaptaki araştırma ve sınıf görüşü boyutunu koru; cevap anahtarını tek yargıya indirgeme.
-- Soru 2 — Metin ve Gerçeklik — basılı s.47 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- ‘Mektuptaki hangi ayrıntılar gerçek yaşam…’ odağındaki cümleleri tahtaya yansıtarak öğrencilerin dikkatini ilgili metin kesitine çekin.
+- Metin içi tutarlılığı sorgulamak için ‘Mektuptaki hangi ayrıntılar gerçek yaşam…’ ile ilgili çelişkili veya örtük noktaları tartışmaya açın.
+- Gerekçeli yanıtları Metin ve Gerçeklik yeterliği bakımından değerlendirip geri bildirim verin.
 
 ### Takip soruları
 
-- Soru 2 — Metin ve Gerçeklik — basılı s.47 için düşünme sorusu: Alıcı değişseydi hitap, kelime seçimi veya ayrıntı düzeyi hangi yönde değişirdi? Özellikle ‘Mektuptaki hangi ayrıntılar gerçek yaşamla ilişkilendirilebilir?’ ayrıntısını yoklayın.
-- Soru 2 — Metin ve Gerçeklik — basılı s.47 içindeki bir ifade mektubun amacına nasıl hizmet ediyor; yalnız bilgi mi veriyor, ilişki de mi kuruyor? Özellikle ‘Mektuptaki hangi ayrıntılar gerçek yaşamla ilişkilendirilebilir?’ ayrıntısını yoklayın.
+- Metinde ‘Mektuptaki hangi ayrıntılar gerçek yaşam…’ kullanımına benzer başka bir örnek bulunabilir mi; bu iki örnek yazarın üslubunu nasıl yansıtmaktadır?
+- ‘Mektuptaki hangi ayrıntılar gerçek yaşam…’ cümlesindeki dilbilgisi tercihinin metnin genel anlatım akışı ve anlam bütünlüğüne etkisi nedir?
 
 ### Öğrenci cevaplarını değerlendirme
 
 - Gerçeklik karşılaştırması, örnek çiftleri ve gerekçeli görüş.
 - Metinsel gerçeklik ile nesnel gerçekliği ayırır.
 - Katılıyorum/katılmıyorum yargısını en az bir metin kanıtıyla gerekçelendirir.
-- Gönderici-alıcı-amaç ile dil tercihi arasında metinden kanıtlı ilişki.
+- Öğrencinin ‘Mektuptaki hangi ayrıntılar gerçek yaşam…’ sorusuna verdiği cevapta metinden doğrudan alıntı veya somut kanıt göstermesi.
 
 ### Sık yanılgılar
 
 - Gerçek kişi tarafından yazılmış her cümleyi tarafsız nesnel belge saymak.
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- Soru 2 — Metin ve Gerçeklik — basılı s.47 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘Mektuptaki hangi ayrıntılar gerçek …’ türünde hitap ve kapanış ifadelerini biçimsel süs sanıp muhatapla kurulan ilişkinin işlevini gözden kaçırmak.
 
 ### Müdahale
 
-- Soru 2 — Metin ve Gerçeklik — basılı s.47 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Mektuptaki hangi ayrıntılar gerçek yaşamla ilişkilendirilebilir?’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 2 — Metin ve Gerçeklik — basılı s.47 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Mektuptaki hangi ayrıntılar gerçek yaşamla ilişkilendirilebilir?’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciden ‘Mektuptaki hangi ayrıntılar gerçek …’ bağlamında ‘gerçek kişi tarafından yazılmış’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- Öğrenciye gönderici-alıcı ilişkisini iki farklı örnek üzerinden karşılaştırın; ‘Mektuptaki hangi ayrıntılar gerçek …’ hitap seçiminin iletişim amacına etkisini gösterin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Doğrulanabilir bilgi / kişisel yorum şeklinde iki sütun kullan.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: Metin ve Gerçeklik.
+- ‘Mektuptaki hangi ayrıntılar gerçek …’ sürecinde zorlanan öğrenciye metin türünün yapı basamaklarını gösteren bir şablon sunun.
 **Zenginleştirme**
 - Mektubun tarihî belge olarak güçlü ve sınırlı yanlarını tartıştır.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: Metin ve Gerçeklik.
+- Öğrenciden ‘Mektuptaki hangi ayrıntılar gerçek …’ ürününü dijital bir sunuma veya okul bülteninde yayımlanacak bir yazıya dönüştürmesini isteyin.
 
 ### Kaynak ve durum
 
@@ -4485,58 +4462,57 @@ Soru 3 — Mektubun gerçek yaşama dayanması onun tamamen tarafsız bir belge 
 
 ### Açıklama ve gerekçe
 
-Soru 3 — Metin ve Gerçeklik — basılı s.47 için cevap, Metin ve Gerçeklik ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Metinsel gerçeklik ile nesnel gerçekliği ayırır. Katılıyorum/katılmıyorum yargısını en az bir metin kanıtıyla gerekçelendirir.
+Soruya verilecek uygun cevap, ‘Mektubun gerçek yaşama dayanması onun tamamen tara…’ yönündeki çıkarımı Metin ve Gerçeklik hedefleri doğrultusunda yapılandırır. Çözümlemenin geçerliliği, Metinsel gerçeklik ile nesnel gerçekliği ayırır. Katılıyorum/katılmıyorum yargısını en az bir metin kanıtıyla gerekçelendirir. koşuluna uyulması ve iddiaların metindeki açık veya örtük ifadelerle doğrulanmasıyla sağlanır. Öğrencinin akıl yürütme süreci; sorunun işaret ettiği metin bölümünü belirlemek, oradaki dil ve anlatım ipuçlarını değerlendirmek ve ulaştığı yargıyı gerekçelendirmektir. Metin özüyle örtüşen ve mantıksal nedensellik taşıyan alternatif anlatımlar doğru yanıt olarak değerlendirilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 3 — Metin ve Gerçeklik — basılı s.47 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Mektubun gerçek yaşama dayanması onun tamamen tarafsız bir belge olduğu anlamına gelir…’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev sürecinde öğretmen, Metin ve Gerçeklik doğrultusunda ‘Mektubun gerçek yaşama dayanması onun tamamen tara…’ sorusunu çözümlerken öğrencilerin somut metin delilleriyle argüman geliştirmelerini teşvik etmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle Metin ve Gerçeklik üzerinde durun.
+> Yönergeyi uygularken önce metindeki ‘Mektubun gerçek yaşama dayanması onun tamamen…’ ifadelerini işaretleyin; ardından bu unsurların Metin ve Gerçeklik hedefine nasıl hizmet ettiğini ve ‘'Bilgiler gerçek yaşama dayanıyor f…’ ile ilişkisini açıklayın.
 
 ### Bu görev neden burada?
 
-Bu görev, Metin ve Gerçeklik ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+Bu etkinlik, Metin ve Gerçeklik alanında ‘Mektubun gerçek yaşama dayanması onun tamamen…’ doğrultusunda öğrencinin kendi düşüncesini kaynak dayanaklarıyla savunmasını ve tutarlı bir ifade becerisi inşa etmesini amaçlar.
 
 ### Ders içi uygulama
 
 - Kitaptaki araştırma ve sınıf görüşü boyutunu koru; cevap anahtarını tek yargıya indirgeme.
 - Katılıyorum / katılmıyorum cevabını tek başına yeterli saymayın; en az bir doğrulanabilir ayrıntı ve bir kişisel yorum örneğiyle gerekçelendirsin.
-- Soru 3 — Metin ve Gerçeklik — basılı s.47 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- Metnin ilgili bölümünü sessizce okutup Metin ve Gerçeklik ile bağlantılı kilit kelimeleri belirlemeleri için süre tanıyın.
+- Seçilen metin kanıtlarının Metin ve Gerçeklik hedefine uygunluğunu akran değerlendirmesiyle gözden geçirtin.
 
 ### Takip soruları
 
-- Soru 3 — Metin ve Gerçeklik — basılı s.47 için düşünme sorusu: Alıcı değişseydi hitap, kelime seçimi veya ayrıntı düzeyi hangi yönde değişirdi? Özellikle ‘Mektubun gerçek yaşama dayanması onun tamamen tarafsız bir belge olduğu anlamına gelir…’ ayrıntısını yoklayın.
-- Soru 3 — Metin ve Gerçeklik — basılı s.47 içindeki bir ifade mektubun amacına nasıl hizmet ediyor; yalnız bilgi mi veriyor, ilişki de mi kuruyor? Özellikle ‘Mektubun gerçek yaşama dayanması onun tamamen tarafsız bir belge olduğu anlamına gelir…’ ayrıntısını yoklayın.
+- ‘Mektubun gerçek yaşama dayanması onun ta…’ yapısındaki dil ögesi metinden çıkarılsaydı cümlenin bağlamsal doğruluğu ve anlatım gücü nasıl zayıflardı?
+- Metinde ‘Mektubun gerçek yaşama dayanması onun ta…’ kullanımına benzer başka bir örnek bulunabilir mi; bu iki örnek yazarın üslubunu nasıl yansıtmaktadır?
 
 ### Öğrenci cevaplarını değerlendirme
 
 - Gerçeklik karşılaştırması, örnek çiftleri ve gerekçeli görüş.
 - Metinsel gerçeklik ile nesnel gerçekliği ayırır.
 - Katılıyorum/katılmıyorum yargısını en az bir metin kanıtıyla gerekçelendirir.
-- Gönderici-alıcı-amaç ile dil tercihi arasında metinden kanıtlı ilişki.
+- ‘Mektubun gerçek yaşama dayanması onun ta…’ incelemesinde tespit edilen göstergelerin metin bütünlüğüyle ilişkilendirilmesi.
 
 ### Sık yanılgılar
 
 - Gerçek kişi tarafından yazılmış her cümleyi tarafsız nesnel belge saymak.
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- Soru 3 — Metin ve Gerçeklik — basılı s.47 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘Mektubun gerçek yaşama dayanması on…’ türünde hitap ve kapanış ifadelerini biçimsel süs sanıp muhatapla kurulan ilişkinin işlevini gözden kaçırmak.
 
 ### Müdahale
 
-- Soru 3 — Metin ve Gerçeklik — basılı s.47 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Mektubun gerçek yaşama dayanması onun tamamen tarafsız bir belge olduğu anlamına gelir…’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 3 — Metin ve Gerçeklik — basılı s.47 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Mektubun gerçek yaşama dayanması onun tamamen tarafsız bir belge olduğu anlamına gelir…’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciye ‘Mektubun gerçek yaşama dayanması on…’ çerçevesinde ‘gerçek kişi tarafından yazılmış’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- Öğrenciye gönderici-alıcı ilişkisini iki farklı örnek üzerinden karşılaştırın; ‘Mektubun gerçek yaşama dayanması on…’ hitap seçiminin iletişim amacına etkisini gösterin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Doğrulanabilir bilgi / kişisel yorum şeklinde iki sütun kullan.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: Metin ve Gerçeklik.
+- Öğrenciye bir çalışma kâğıdı vererek ‘Mektubun gerçek yaşama dayanması on…’ için metinde geçen olumlu ve olumsuz göstergeleri iki sütun hâlinde gruplatın.
 **Zenginleştirme**
 - Mektubun tarihî belge olarak güçlü ve sınırlı yanlarını tartıştır.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: Metin ve Gerçeklik.
+- Metindeki ‘Mektubun gerçek yaşama dayanması on…’ durumunu güncel bir olay veya sanat eseriyle kıyaslayarak ‘'Bilgiler gerçek yaşama dayanı…’ ekseninde disiplinler arası bir değerlendirme yaptırın.
 
 ### Kaynak ve durum
 
@@ -4580,56 +4556,55 @@ Soru 1 — Şişeye bırakılan bir ileti hangi amaçlarla gönderilebilir?
 
 ### Açıklama ve gerekçe
 
-Soru 1 — İletişim, zaman ve teknoloji — basılı s.48 için cevap, İletişim, zaman ve teknoloji ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. İletişim aracının hız, erişim ve bağlam özelliklerinden en az birini açıklar. Mağara resmi–emoji benzerliğini yalnız 'ikisi de resim' düzeyinde bırakmaz.
+Beklenen cevap, İletişim, zaman ve teknoloji çerçevesinde ‘Şişeye bırakılan bir ileti hangi amaçlarla gönderi…’ konusunu metnin sunduğu veriler ve kavramsal dayanaklar üzerinden şekillendirir. Bu cevabın uygunluğu, İletişim aracının hız, erişim ve bağlam özelliklerinden en az birini açıklar. Mağara resmi–emoji benzerliğini yalnız 'ikisi de resim' düzeyinde bırakmaz. ölçütünün karşılanmasına ve öğrencinin metindeki olay/durum ayrıntılarını nedensellik bağıyla kurmasına dayanır. Öğrencinin izlemesi gereken çıkarım yolu; öncelikle metindeki kanıt niteliği taşıyan ifadeleri belirlemek, ardından bu göstergeleri kavramsal odakla ilişkilendirerek kendi gerekçeli açıklamasını oluşturmaktır. Öğrenci aynı sonucu farklı sözcüklerle ifade edebilir; temel iddia ile metin dayanağı arasındaki mantıksal tutarlılık korunduğu sürece kişisel yorumlar alternatif cevap olarak kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 1 — İletişim, zaman ve teknoloji — basılı s.48 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Şişeye bırakılan bir ileti hangi amaçlarla gönderilebilir?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev tahlilinde öğretmen, İletişim, zaman ve teknoloji odağında ‘Şişeye bırakılan bir ileti hangi amaçlarla gönderi…’ sorusuna yönelik yanıtların metin içi tutarlılığını denetlemeli ve yüzeysel yorumların ötesine geçilmesini sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle İletişim, zaman ve teknoloji üzerinde durun.
+> Görevin temel amacı, ‘Şişeye bırakılan bir ileti hangi amaçlarla gö…’ ayrıntısı üzerinden İletişim, zaman ve teknoloji kavramını kavramanızdır. Metindeki ilgili cümleleri bularak ‘Şişeye bırakılan ileti uzak veya bi…’ bağlamındaki düşüncenizi kendi cümlelerinizle ortaya koyun.
 
 ### Bu görev neden burada?
 
-Bu görev, İletişim, zaman ve teknoloji ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+Bu soru, ‘Şişeye bırakılan bir ileti hangi amaçlarla gö…’ ayrıntısını İletişim, zaman ve teknoloji ile birleştirerek dil ve edebiyat çalışmalarında neden-sonuç ilişkisi kurma ve ‘Şişeye bırakılan ileti uzak veya bi…’ bağlamını kavrama yeterliğini güçlendirir.
 
 ### Ders içi uygulama
 
 - İletişim teknolojisi değişse de temel işlevlerin nasıl sürdüğünü görünür kıl.
-- Soru 1 — İletişim, zaman ve teknoloji — basılı s.48 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- Öğrencilerden metinde ‘Şişeye bırakılan bir ileti hangi amaçlar…’ konusuna kaynaklık eden temel ifadelerin altını çizmelerini isteyin.
+- Öğrencilerin tespit ettiği kanıtları karşılaştırarak hangisinin İletişim, zaman ve teknoloji iddiasını daha güçlü desteklediğini sorgulatın.
+- Ulaşılan cevabı İletişim, zaman ve teknoloji bağlamında toparlayıp metin tahlili için bir kural veya ilke olarak özetletin.
 
 ### Takip soruları
 
-- Soru 1 — İletişim, zaman ve teknoloji — basılı s.48 için düşünme sorusu: Alıcı değişseydi hitap, kelime seçimi veya ayrıntı düzeyi hangi yönde değişirdi? Özellikle ‘Şişeye bırakılan bir ileti hangi amaçlarla gönderilebilir?’ ayrıntısını yoklayın.
-- Soru 1 — İletişim, zaman ve teknoloji — basılı s.48 içindeki bir ifade mektubun amacına nasıl hizmet ediyor; yalnız bilgi mi veriyor, ilişki de mi kuruyor? Özellikle ‘Şişeye bırakılan bir ileti hangi amaçlarla gönderilebilir?’ ayrıntısını yoklayın.
+- ‘Şişeye bırakılan bir ileti hangi amaçlar…’ yapısındaki dil bilgisel işlevin, konuşurun ya da anlatıcının ruh hâlini yansıtmadaki rolü nedir?
+- ‘Şişeye bırakılan bir ileti hangi amaçlar…’ cümlesindeki dilbilgisi tercihinin metnin genel anlatım akışı ve anlam bütünlüğüne etkisi nedir?
 
 ### Öğrenci cevaplarını değerlendirme
 
 - Üç soruya işlev odaklı cevap.
 - İletişim aracının hız, erişim ve bağlam özelliklerinden en az birini açıklar.
 - Mağara resmi–emoji benzerliğini yalnız 'ikisi de resim' düzeyinde bırakmaz.
-- Gönderici-alıcı-amaç ile dil tercihi arasında metinden kanıtlı ilişki.
+- ‘Şişeye bırakılan bir ileti hangi amaçlar…’ konusundaki tespitlerin metin bağlamına ve türün edebî özelliklerine uygunluğu.
 
 ### Sık yanılgılar
 
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- Soru 1 — İletişim, zaman ve teknoloji — basılı s.48 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘Şişeye bırakılan bir ileti hangi am…’ türünde hitap ve kapanış ifadelerini biçimsel süs sanıp muhatapla kurulan ilişkinin işlevini gözden kaçırmak.
 
 ### Müdahale
 
-- Soru 1 — İletişim, zaman ve teknoloji — basılı s.48 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Şişeye bırakılan bir ileti hangi amaçlarla gönderilebilir?’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 1 — İletişim, zaman ve teknoloji — basılı s.48 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Şişeye bırakılan bir ileti hangi amaçlarla gönderilebilir?’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciye gönderici-alıcı ilişkisini iki farklı örnek üzerinden karşılaştırın; ‘Şişeye bırakılan bir ileti hangi am…’ hitap seçiminin iletişim amacına etkisini gösterin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Hız–erişim–kalıcılık başlıklarını ver.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: İletişim, zaman ve teknoloji.
+- ‘Şişeye bırakılan bir ileti hangi am…’ konusunu daha sade yönlendirici alt sorulara bölerek öğrencinin ‘Şişeye bırakılan ileti uzak ve…’ sonucuna kademeli olarak ulaşmasına rehberlik edin.
 **Zenginleştirme**
 - Bir iletişim aracının kazandırdığı ve kaybettirdiği bir özelliği karşılaştır.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: İletişim, zaman ve teknoloji.
+- ‘Şişeye bırakılan bir ileti hangi am…’ tahlilini yazarın edebî dönemi, sanat anlayışı ve dönemin toplumsal koşullarıyla ilişkilendiren bir araştırma sorusu geliştirtin.
 
 ### Kaynak ve durum
 
@@ -4673,56 +4648,55 @@ Geç ulaşan ileti güncelliğini kaybedebilir ve cevabı geciktirir; yıllar so
 
 ### Açıklama ve gerekçe
 
-Soru 2 — değer yargısının metin kanıtı — basılı s.48 için cevap, değer yargısının metin kanıtı ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. İletişim aracının hız, erişim ve bağlam özelliklerinden en az birini açıklar. Mağara resmi–emoji benzerliğini yalnız 'ikisi de resim' düzeyinde bırakmaz.
+Soruya verilecek uygun cevap, ‘Bir iletinin geç ulaşması onun işlevini ve değerin…’ yönündeki çıkarımı değer yargısının metin kanıtı hedefleri doğrultusunda yapılandırır. Çözümlemenin geçerliliği, İletişim aracının hız, erişim ve bağlam özelliklerinden en az birini açıklar. Mağara resmi–emoji benzerliğini yalnız 'ikisi de resim' düzeyinde bırakmaz. koşuluna uyulması ve iddiaların metindeki açık veya örtük ifadelerle doğrulanmasıyla sağlanır. Öğrencinin akıl yürütme süreci; sorunun işaret ettiği metin bölümünü belirlemek, oradaki dil ve anlatım ipuçlarını değerlendirmek ve ulaştığı yargıyı gerekçelendirmektir. Metin özüyle örtüşen ve mantıksal nedensellik taşıyan alternatif anlatımlar doğru yanıt olarak değerlendirilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 2 — değer yargısının metin kanıtı — basılı s.48 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Bir iletinin geç ulaşması onun işlevini ve değerini nasıl değiştirir?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görevde öğretmen, değer yargısının metin kanıtı çerçevesinde sorulan ‘Bir iletinin geç ulaşması onun işlevini ve değerin…’ konusu üzerinden öğrencinin metin kanıtları ile kavramsal çıkarımlar arasındaki ilişkiyi doğru kurmasını sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle değer yargısının metin kanıtı üzerinde durun.
+> Bu görevde sizden beklenen; metindeki ipuçlarından hareketle ‘Bir iletinin geç ulaşması onun işlevini ve de…’ konusunu incelemeniz ve değer yargısının metin kanıtı doğrultusunda ‘Geç ulaşan ileti güncelliğini kaybe…’ sonucuna nasıl ulaşıldığını adım adım açıklamanızdır.
 
 ### Bu görev neden burada?
 
-Bu görev, değer yargısının metin kanıtı ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+Bu görev, öğrencinin ‘Bir iletinin geç ulaşması onun işlevini ve de…’ üzerinden değer yargısının metin kanıtı becerisini somut bir metin bağlamında deneyimlemesini ve iddialarını kanıtla destekleme alışkanlığı kazanmasını sağlar.
 
 ### Ders içi uygulama
 
 - İletişim teknolojisi değişse de temel işlevlerin nasıl sürdüğünü görünür kıl.
-- Soru 2 — değer yargısının metin kanıtı — basılı s.48 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- Öğrencilerden değer yargısının metin kanıtı açısından metindeki zıtlık ve benzerlikleri belirleyerek not almalarını isteyin.
+- İddialar ile ‘Bir iletinin geç ulaşması onun işlevini …’ kanıtları arasındaki mantıksal bağı adım adım sorgulatarak temellendirin.
+- Öğrencilerin ulaştıkları ‘Geç ulaşan ileti güncelliğini kaybe…’ çıkarımını kendi cümleleriyle gerekçelendirerek defterlerine yazmalarını sağlayın.
 
 ### Takip soruları
 
-- Soru 2 — değer yargısının metin kanıtı — basılı s.48 için düşünme sorusu: Alıcı değişseydi hitap, kelime seçimi veya ayrıntı düzeyi hangi yönde değişirdi? Özellikle ‘Bir iletinin geç ulaşması onun işlevini ve değerini nasıl değiştirir?’ ayrıntısını yoklayın.
-- Soru 2 — değer yargısının metin kanıtı — basılı s.48 içindeki bir ifade mektubun amacına nasıl hizmet ediyor; yalnız bilgi mi veriyor, ilişki de mi kuruyor? Özellikle ‘Bir iletinin geç ulaşması onun işlevini ve değerini nasıl değiştirir?’ ayrıntısını yoklayın.
+- ‘Bir iletinin geç ulaşması onun işlevini …’ cümlesindeki dilbilgisi tercihinin metnin genel anlatım akışı ve anlam bütünlüğüne etkisi nedir?
+- ‘Bir iletinin geç ulaşması onun işlevini …’ yapısındaki dil bilgisel işlevin, konuşurun ya da anlatıcının ruh hâlini yansıtmadaki rolü nedir?
 
 ### Öğrenci cevaplarını değerlendirme
 
 - Üç soruya işlev odaklı cevap.
 - İletişim aracının hız, erişim ve bağlam özelliklerinden en az birini açıklar.
 - Mağara resmi–emoji benzerliğini yalnız 'ikisi de resim' düzeyinde bırakmaz.
-- Gönderici-alıcı-amaç ile dil tercihi arasında metinden kanıtlı ilişki.
+- Öğrencinin ‘Bir iletinin geç ulaşması onun işlevini …’ sorusuna verdiği cevapta metinden doğrudan alıntı veya somut kanıt göstermesi.
 
 ### Sık yanılgılar
 
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- Soru 2 — değer yargısının metin kanıtı — basılı s.48 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘Bir iletinin geç ulaşması onun işle…’ türünde hitap ve kapanış ifadelerini biçimsel süs sanıp muhatapla kurulan ilişkinin işlevini gözden kaçırmak.
 
 ### Müdahale
 
-- Soru 2 — değer yargısının metin kanıtı — basılı s.48 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Bir iletinin geç ulaşması onun işlevini ve değerini nasıl değiştirir?’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 2 — değer yargısının metin kanıtı — basılı s.48 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Bir iletinin geç ulaşması onun işlevini ve değerini nasıl değiştirir?’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciye gönderici-alıcı ilişkisini iki farklı örnek üzerinden karşılaştırın; ‘Bir iletinin geç ulaşması onun işle…’ hitap seçiminin iletişim amacına etkisini gösterin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Hız–erişim–kalıcılık başlıklarını ver.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: değer yargısının metin kanıtı.
+- ‘Bir iletinin geç ulaşması onun işle…’ sorusunu yanıtlamakta zorlanan öğrenciye metindeki ilgili paragrafı işaretleyin; önce anahtar kavramları buldurarak cevabı adım adım kurdurun.
 **Zenginleştirme**
 - Bir iletişim aracının kazandırdığı ve kaybettirdiği bir özelliği karşılaştır.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: değer yargısının metin kanıtı.
+- Öğrenciden ‘Bir iletinin geç ulaşması onun işle…’ çerçevesinde ulaştığı ‘Geç ulaşan ileti güncelliğini …’ sonucunu, okuduğu farklı bir edebî eserle karşılaştıran kısa bir eleştiri yazısı yazmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -4766,19 +4740,19 @@ Mağara resmi ile emoji, duygu/düşünce/bilgiyi görsel işaretlerle aktarabil
 
 ### Açıklama ve gerekçe
 
-Soru 3 — İletişim, zaman ve teknoloji — basılı s.48 için beklenen yön, İletişim, zaman ve teknoloji yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. İletişim aracının hız, erişim ve bağlam özelliklerinden en az birini açıklar. Mağara resmi–emoji benzerliğini yalnız 'ikisi de resim' düzeyinde bırakmaz.
+Beklenen cevap, İletişim, zaman ve teknoloji çerçevesinde ‘Mağara resmi ile emoji iletişim bakımından hangi y…’ konusunu metnin sunduğu veriler ve kavramsal dayanaklar üzerinden şekillendirir. Bu cevabın uygunluğu, İletişim aracının hız, erişim ve bağlam özelliklerinden en az birini açıklar. Mağara resmi–emoji benzerliğini yalnız 'ikisi de resim' düzeyinde bırakmaz. ölçütünün karşılanmasına ve öğrencinin metindeki olay/durum ayrıntılarını nedensellik bağıyla kurmasına dayanır. Öğrencinin izlemesi gereken çıkarım yolu; öncelikle metindeki kanıt niteliği taşıyan ifadeleri belirlemek, ardından bu göstergeleri kavramsal odakla ilişkilendirerek kendi gerekçeli açıklamasını oluşturmaktır. Öğrenci aynı sonucu farklı sözcüklerle ifade edebilir; temel iddia ile metin dayanağı arasındaki mantıksal tutarlılık korunduğu sürece kişisel yorumlar alternatif cevap olarak kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 3 — İletişim, zaman ve teknoloji — basılı s.48 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Mağara resmi ile emoji iletişim bakımından hangi yönlerden benzer düşünülebilir?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev sürecinde öğretmen, İletişim, zaman ve teknoloji doğrultusunda ‘Mağara resmi ile emoji iletişim bakımından hangi y…’ sorusunu çözümlerken öğrencilerin somut metin delilleriyle argüman geliştirmelerini teşvik etmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle İletişim, zaman ve teknoloji üzerinde durun.
+> Yönergeyi uygularken önce metindeki ‘Mağara resmi ile emoji iletişim bakımından ha…’ ifadelerini işaretleyin; ardından bu unsurların İletişim, zaman ve teknoloji hedefine nasıl hizmet ettiğini ve ‘Mağara resmi ile emoji, duygu/düşün…’ ile ilişkisini açıklayın.
 
 ### Bu görev neden burada?
 
-Bu görev, İletişim, zaman ve teknoloji ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+Bu etkinlik, İletişim, zaman ve teknoloji alanında ‘Mağara resmi ile emoji iletişim bakımından ha…’ doğrultusunda öğrencinin kendi düşüncesini kaynak dayanaklarıyla savunmasını ve tutarlı bir ifade becerisi inşa etmesini amaçlar.
 
 ### Kabul edilebilir cevaplar
 
@@ -4789,39 +4763,37 @@ Bu görev, İletişim, zaman ve teknoloji ölçütünü gönderici-alıcı-amaç
 
 - İletişim teknolojisi değişse de temel işlevlerin nasıl sürdüğünü görünür kıl.
 - Benzerliği yalnız “ikisi de resim” düzeyinde bırakmayın; işaret, ileti ve bağlam ilişkisini kurdurun.
-- Soru 3 — İletişim, zaman ve teknoloji — basılı s.48 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- ‘Mağara resmi ile emoji iletişim bakımınd…’ odağındaki cümleleri tahtaya yansıtarak öğrencilerin dikkatini ilgili metin kesitine çekin.
+- Metin içi tutarlılığı sorgulamak için ‘Mağara resmi ile emoji iletişim bakımınd…’ ile ilgili çelişkili veya örtük noktaları tartışmaya açın.
 
 ### Takip soruları
 
-- Soru 3 — İletişim, zaman ve teknoloji — basılı s.48 için düşünme sorusu: Alıcı değişseydi hitap, kelime seçimi veya ayrıntı düzeyi hangi yönde değişirdi? Özellikle ‘Mağara resmi ile emoji iletişim bakımından hangi yönlerden benzer düşünülebilir?’ ayrıntısını yoklayın.
-- Soru 3 — İletişim, zaman ve teknoloji — basılı s.48 içindeki bir ifade mektubun amacına nasıl hizmet ediyor; yalnız bilgi mi veriyor, ilişki de mi kuruyor? Özellikle ‘Mağara resmi ile emoji iletişim bakımından hangi yönlerden benzer düşünülebilir?’ ayrıntısını yoklayın.
+- Metinde ‘Mağara resmi ile emoji iletişim bakımınd…’ kullanımına benzer başka bir örnek bulunabilir mi; bu iki örnek yazarın üslubunu nasıl yansıtmaktadır?
+- ‘Mağara resmi ile emoji iletişim bakımınd…’ cümlesindeki dilbilgisi tercihinin metnin genel anlatım akışı ve anlam bütünlüğüne etkisi nedir?
 
 ### Öğrenci cevaplarını değerlendirme
 
 - Üç soruya işlev odaklı cevap.
 - İletişim aracının hız, erişim ve bağlam özelliklerinden en az birini açıklar.
 - Mağara resmi–emoji benzerliğini yalnız 'ikisi de resim' düzeyinde bırakmaz.
-- Gönderici-alıcı-amaç ile dil tercihi arasında metinden kanıtlı ilişki.
+- ‘Mağara resmi ile emoji iletişim bakımınd…’ incelemesinde tespit edilen göstergelerin metin bütünlüğüyle ilişkilendirilmesi.
 
 ### Sık yanılgılar
 
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- Soru 3 — İletişim, zaman ve teknoloji — basılı s.48 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘Mağara resmi ile emoji iletişim bak…’ türünde hitap ve kapanış ifadelerini biçimsel süs sanıp muhatapla kurulan ilişkinin işlevini gözden kaçırmak.
 
 ### Müdahale
 
-- Soru 3 — İletişim, zaman ve teknoloji — basılı s.48 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Mağara resmi ile emoji iletişim bakımından hangi yönlerden benzer düşünülebilir?’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 3 — İletişim, zaman ve teknoloji — basılı s.48 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Mağara resmi ile emoji iletişim bakımından hangi yönlerden benzer düşünülebilir?’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciye gönderici-alıcı ilişkisini iki farklı örnek üzerinden karşılaştırın; ‘Mağara resmi ile emoji iletişim bak…’ hitap seçiminin iletişim amacına etkisini gösterin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Hız–erişim–kalıcılık başlıklarını ver.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: İletişim, zaman ve teknoloji.
+- Öğrenciye bir çalışma kâğıdı vererek ‘Mağara resmi ile emoji iletişim bak…’ için metinde geçen olumlu ve olumsuz göstergeleri iki sütun hâlinde gruplatın.
 **Zenginleştirme**
 - Bir iletişim aracının kazandırdığı ve kaybettirdiği bir özelliği karşılaştır.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: İletişim, zaman ve teknoloji.
+- Metindeki ‘Mağara resmi ile emoji iletişim bak…’ durumunu güncel bir olay veya sanat eseriyle kıyaslayarak ‘Mağara resmi ile emoji, duygu/…’ ekseninde disiplinler arası bir değerlendirme yaptırın.
 
 ### Kaynak ve durum
 
@@ -4869,31 +4841,31 @@ Soru 1 — Beş iletişim örneğinin yazılış amaçları nelerdir?
 
 ### Açıklama ve gerekçe
 
-Soru 1 — Farklı dönemlerden iletişim örnekleri — basılı s.49-50 için cevap, Farklı dönemlerden iletişim örnekleri ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Beş metnin amaçlarını ayrı ayrı belirler. Haberleşme yargısını gönderici–alıcı–ileti ilişkisiyle gerekçelendirir.
+Soruya verilecek uygun cevap, ‘Beş iletişim örneğinin yazılış amaçları nelerdir?…’ yönündeki çıkarımı Farklı dönemlerden iletişim örnekleri hedefleri doğrultusunda yapılandırır. Çözümlemenin geçerliliği, Beş metnin amaçlarını ayrı ayrı belirler. Haberleşme yargısını gönderici–alıcı–ileti ilişkisiyle gerekçelendirir. koşuluna uyulması ve iddiaların metindeki açık veya örtük ifadelerle doğrulanmasıyla sağlanır. Öğrencinin akıl yürütme süreci; sorunun işaret ettiği metin bölümünü belirlemek, oradaki dil ve anlatım ipuçlarını değerlendirmek ve ulaştığı yargıyı gerekçelendirmektir. Metin özüyle örtüşen ve mantıksal nedensellik taşıyan alternatif anlatımlar doğru yanıt olarak değerlendirilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 1 — Farklı dönemlerden iletişim örnekleri — basılı s.49-50 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Beş iletişim örneğinin yazılış amaçları nelerdir?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev tahlilinde öğretmen, Farklı dönemlerden iletişim örnekleri odağında ‘Beş iletişim örneğinin yazılış amaçları nelerdir?…’ sorusuna yönelik yanıtların metin içi tutarlılığını denetlemeli ve yüzeysel yorumların ötesine geçilmesini sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle Farklı dönemlerden iletişim örnekleri üzerinde durun.
+> Görevin temel amacı, ‘Beş iletişim örneğinin yazılış amaçları neler…’ ayrıntısı üzerinden Farklı dönemlerden iletişim örnekleri kavramını kavramanızdır. Metindeki ilgili cümleleri bularak ‘['selam iletmek ve karşıdaki kişini…’ bağlamındaki düşüncenizi kendi cümlelerinizle ortaya koyun.
 
 ### Bu görev neden burada?
 
-Bu görev, Farklı dönemlerden iletişim örnekleri ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+Bu soru, ‘Beş iletişim örneğinin yazılış amaçları neler…’ ayrıntısını Farklı dönemlerden iletişim örnekleri ile birleştirerek dil ve edebiyat çalışmalarında neden-sonuç ilişkisi kurma ve ‘['selam iletmek ve karşıdaki kişini…’ bağlamını kavrama yeterliğini güçlendirir.
 
 ### Ders içi uygulama
 
 - Her metnin yanına 'kim kime/hangi amaçla?' ve 'gerçekliği doğrudan mı edebî mi aktarıyor?' notu aldırmak pedagojik destek olarak kullanılabilir.
 - Her örneğin yanına iki kısa not aldırın: “Kim kime / hangi amaçla?” ve “Gerçekliği doğrudan mı, duygusal-edebî biçimde mi aktarıyor?”
-- Soru 1 — Farklı dönemlerden iletişim örnekleri — basılı s.49-50 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- Öğrencilerden Farklı dönemlerden iletişim örnekleri açısından metindeki zıtlık ve benzerlikleri belirleyerek not almalarını isteyin.
+- İddialar ile ‘Beş iletişim örneğinin yazılış amaçları …’ kanıtları arasındaki mantıksal bağı adım adım sorgulatarak temellendirin.
 
 ### Takip soruları
 
-- Soru 1 — Farklı dönemlerden iletişim örnekleri — basılı s.49-50 için düşünme sorusu: Alıcı değişseydi hitap, kelime seçimi veya ayrıntı düzeyi hangi yönde değişirdi? Özellikle ‘Beş iletişim örneğinin yazılış amaçları nelerdir?’ ayrıntısını yoklayın.
-- Soru 1 — Farklı dönemlerden iletişim örnekleri — basılı s.49-50 içindeki bir ifade mektubun amacına nasıl hizmet ediyor; yalnız bilgi mi veriyor, ilişki de mi kuruyor? Özellikle ‘Beş iletişim örneğinin yazılış amaçları nelerdir?’ ayrıntısını yoklayın.
+- ‘Beş iletişim örneğinin yazılış amaçları …’ yapısındaki dil bilgisel işlevin, konuşurun ya da anlatıcının ruh hâlini yansıtmadaki rolü nedir?
+- Metinde ‘Beş iletişim örneğinin yazılış amaçları …’ kullanımına benzer başka bir örnek bulunabilir mi; bu iki örnek yazarın üslubunu nasıl yansıtmaktadır?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -4905,22 +4877,21 @@ Bu görev, Farklı dönemlerden iletişim örnekleri ölçütünü gönderici-al
 ### Sık yanılgılar
 
 - Bütün metinlerin gerçekliği aynı biçimde yansıttığını varsaymak.
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- Soru 1 — Farklı dönemlerden iletişim örnekleri — basılı s.49-50 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘Beş iletişim örneğinin yazılış amaç…’ türünde hitap ve kapanış ifadelerini biçimsel süs sanıp muhatapla kurulan ilişkinin işlevini gözden kaçırmak.
 
 ### Müdahale
 
-- Soru 1 — Farklı dönemlerden iletişim örnekleri — basılı s.49-50 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Beş iletişim örneğinin yazılış amaçları nelerdir?’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 1 — Farklı dönemlerden iletişim örnekleri — basılı s.49-50 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Beş iletişim örneğinin yazılış amaçları nelerdir?’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciye ‘Beş iletişim örneğinin yazılış amaç…’ çerçevesinde ‘bütün metinlerin gerçekliği aynı’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- Öğrenciye gönderici-alıcı ilişkisini iki farklı örnek üzerinden karşılaştırın; ‘Beş iletişim örneğinin yazılış amaç…’ hitap seçiminin iletişim amacına etkisini gösterin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Gönderici–alıcı–amaç tablosu kullan.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: Farklı dönemlerden iletişim örnekleri.
+- ‘Beş iletişim örneğinin yazılış amaç…’ konusunu daha sade yönlendirici alt sorulara bölerek öğrencinin ‘['selam iletmek ve karşıdaki k…’ sonucuna kademeli olarak ulaşmasına rehberlik edin.
 **Zenginleştirme**
 - Bir örneği günümüz mesajlaşma biçimine dönüştürüp anlam kaybını tartıştır.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: Farklı dönemlerden iletişim örnekleri.
+- ‘Beş iletişim örneğinin yazılış amaç…’ tahlilini yazarın edebî dönemi, sanat anlayışı ve dönemin toplumsal koşullarıyla ilişkilendiren bir araştırma sorusu geliştirtin.
 
 ### Kaynak ve durum
 
@@ -4964,19 +4935,19 @@ Biçimleri değişse de hepsinde göndericiden alıcıya duygu, düşünce, habe
 
 ### Açıklama ve gerekçe
 
-Soru 2 — Farklı dönemlerden iletişim örnekleri — basılı s.49-50 için beklenen yön, Farklı dönemlerden iletişim örnekleri yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Beş metnin amaçlarını ayrı ayrı belirler. Haberleşme yargısını gönderici–alıcı–ileti ilişkisiyle gerekçelendirir.
+Beklenen cevabın temeli, Farklı dönemlerden iletişim örnekleri ekseninde ‘Biçimleri farklı olsa da bu metinler neden haberle…’ bağlamını aydınlatan metin kanıtlarının doğru tahlil edilmesidir. Yanıtın kabul edilebilirliği; Beş metnin amaçlarını ayrı ayrı belirler. Haberleşme yargısını gönderici–alıcı–ileti ilişkisiyle gerekçelendirir. ölçütüne bağlı kalınmasına ve metindeki verilerin tarafsız biçimde yorumlanmasına bağlıdır. Öğrenci; önce ilgili bilgiyi kaynaktan süzmeli, ardından bu bilgiyi sorunun gerektirdiği kavramsal çerçeveye oturtmalıdır. Metin sınırlarını aşmayan ve dayanağı gösterilen özgün öğrenci yorumları da geçerli sayılır.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 2 — Farklı dönemlerden iletişim örnekleri — basılı s.49-50 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Biçimleri farklı olsa da bu metinler neden haberleşme kapsamında düşünülebilir?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görevde öğretmenin kılavuzluğu, ‘Biçimleri farklı olsa da bu metinler neden haberle…’ bağlamında öğrencinin Farklı dönemlerden iletişim örnekleri ve ‘Biçimleri değişse de hepsinde göndericid…’ arasındaki mantıksal nedensellik bağını metin üzerinden kavramasına odaklanmalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle Farklı dönemlerden iletişim örnekleri üzerinde durun.
+> Bu soruda, ‘Biçimleri farklı olsa da bu metinler neden ha…’ odağını metnin genel anlam akışı içinde değerlendirmeniz gerekmektedir. Tespit ettiğiniz verileri Farklı dönemlerden iletişim örnekleri açısından yorumlayarak ‘Biçimleri değişse de hepsinde gönde…’ yönünde tutarlı bir sonuca varın.
 
 ### Bu görev neden burada?
 
-Bu görev, Farklı dönemlerden iletişim örnekleri ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+Öğrencinin ‘Biçimleri farklı olsa da bu metinler neden ha…’ incelemesi yoluyla Farklı dönemlerden iletişim örnekleri kavramını içselleştirmesi, edebî metinlerdeki anlam katmanlarını fark etmesine ve ‘Biçimleri değişse de hepsinde gönde…’ yönünde derinlikli bakış kazanmasına zemin hazırlar.
 
 ### Kabul edilebilir cevaplar
 
@@ -4986,13 +4957,14 @@ Bu görev, Farklı dönemlerden iletişim örnekleri ölçütünü gönderici-al
 ### Ders içi uygulama
 
 - Her metnin yanına 'kim kime/hangi amaçla?' ve 'gerçekliği doğrudan mı edebî mi aktarıyor?' notu aldırmak pedagojik destek olarak kullanılabilir.
-- Soru 2 — Farklı dönemlerden iletişim örnekleri — basılı s.49-50 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- Metindeki anlatım tutumunu fark ettirmek için ‘Biçimleri farklı olsa da bu metinler ned…’ bölümünü sesli okutun.
+- Belirlenen alıntıların Farklı dönemlerden iletişim örnekleri ve ‘Biçimleri değişse de hepsinde gönde…’ açısından ne ifade ettiğini sınıf tartışmasıyla derinleştirin.
+- Farklı görüş bildiren öğrencilere söz hakkı vererek Farklı dönemlerden iletişim örnekleri ölçütü çerçevesinde ortak bir sonuca varılmasını yönlendirin.
 
 ### Takip soruları
 
-- Soru 2 — Farklı dönemlerden iletişim örnekleri — basılı s.49-50 için düşünme sorusu: Alıcı değişseydi hitap, kelime seçimi veya ayrıntı düzeyi hangi yönde değişirdi? Özellikle ‘Biçimleri farklı olsa da bu metinler neden haberleşme kapsamında düşünülebilir?’ ayrıntısını yoklayın.
-- Soru 2 — Farklı dönemlerden iletişim örnekleri — basılı s.49-50 içindeki bir ifade mektubun amacına nasıl hizmet ediyor; yalnız bilgi mi veriyor, ilişki de mi kuruyor? Özellikle ‘Biçimleri farklı olsa da bu metinler neden haberleşme kapsamında düşünülebilir?’ ayrıntısını yoklayın.
+- ‘Biçimleri farklı olsa da bu metinler ned…’ yapısındaki dil bilgisel işlevin, konuşurun ya da anlatıcının ruh hâlini yansıtmadaki rolü nedir?
+- ‘Biçimleri farklı olsa da bu metinler ned…’ yapısındaki dil ögesi metinden çıkarılsaydı cümlenin bağlamsal doğruluğu ve anlatım gücü nasıl zayıflardı?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -5004,22 +4976,21 @@ Bu görev, Farklı dönemlerden iletişim örnekleri ölçütünü gönderici-al
 ### Sık yanılgılar
 
 - Bütün metinlerin gerçekliği aynı biçimde yansıttığını varsaymak.
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- Soru 2 — Farklı dönemlerden iletişim örnekleri — basılı s.49-50 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘Biçimleri farklı olsa da bu metinle…’ yazımında resmî ve samimi mektubun üslup gerekliliklerini birbiriyle karıştırmak.
 
 ### Müdahale
 
-- Soru 2 — Farklı dönemlerden iletişim örnekleri — basılı s.49-50 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Biçimleri farklı olsa da bu metinler neden haberleşme kapsamında düşünülebilir?’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 2 — Farklı dönemlerden iletişim örnekleri — basılı s.49-50 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Biçimleri farklı olsa da bu metinler neden haberleşme kapsamında düşünülebilir?’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Biçimleri farklı olsa da bu metinle…’ doğrultusunda ‘bütün metinlerin gerçekliği aynı’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Muhataba göre dil ve anlatım tercihlerinin nasıl değiştiğini ‘Biçimleri farklı olsa da bu metinle…’ için tahtada oluşturulacak iki sütunlu tabloda karşılaştırarak belirleyin ve bağlamını tartışın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Gönderici–alıcı–amaç tablosu kullan.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: Farklı dönemlerden iletişim örnekleri.
+- ‘Biçimleri farklı olsa da bu metinle…’ metnindeki karmaşık ifadeleri öğrencinin kendi sözcükleriyle yeniden ifade etmesini isteyerek Farklı dönemlerden iletişim örnekleri fikrini netleştirin.
 **Zenginleştirme**
 - Bir örneği günümüz mesajlaşma biçimine dönüştürüp anlam kaybını tartıştır.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: Farklı dönemlerden iletişim örnekleri.
+- Öğrencinin ‘Biçimleri farklı olsa da bu metinle…’ bağlamındaki çıkarımını infografik, dijital sunum veya kavram haritasına dönüştürerek sınıf panosunda sergilemesini sağlayın.
 
 ### Kaynak ve durum
 
@@ -5063,30 +5034,31 @@ Bazı örnekler somut kişi/olay/haber bilgileriyle nesnel gerçekliğe yaklaş�
 
 ### Açıklama ve gerekçe
 
-Soru 3 — Farklı dönemlerden iletişim örnekleri — basılı s.49-50 için cevap, Farklı dönemlerden iletişim örnekleri ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Beş metnin amaçlarını ayrı ayrı belirler. Haberleşme yargısını gönderici–alıcı–ileti ilişkisiyle gerekçelendirir.
+Beklenen cevap, Farklı dönemlerden iletişim örnekleri çerçevesinde ‘Örneklerin gerçekliği yansıtma biçimleri nasıl far…’ konusunu metnin sunduğu veriler ve kavramsal dayanaklar üzerinden şekillendirir. Bu cevabın uygunluğu, Beş metnin amaçlarını ayrı ayrı belirler. Haberleşme yargısını gönderici–alıcı–ileti ilişkisiyle gerekçelendirir. ölçütünün karşılanmasına ve öğrencinin metindeki olay/durum ayrıntılarını nedensellik bağıyla kurmasına dayanır. Öğrencinin izlemesi gereken çıkarım yolu; öncelikle metindeki kanıt niteliği taşıyan ifadeleri belirlemek, ardından bu göstergeleri kavramsal odakla ilişkilendirerek kendi gerekçeli açıklamasını oluşturmaktır. Öğrenci aynı sonucu farklı sözcüklerle ifade edebilir; temel iddia ile metin dayanağı arasındaki mantıksal tutarlılık korunduğu sürece kişisel yorumlar alternatif cevap olarak kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 3 — Farklı dönemlerden iletişim örnekleri — basılı s.49-50 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Örneklerin gerçekliği yansıtma biçimleri nasıl farklılaşır?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev sürecinde öğretmen, Farklı dönemlerden iletişim örnekleri doğrultusunda ‘Örneklerin gerçekliği yansıtma biçimleri nasıl far…’ sorusunu çözümlerken öğrencilerin somut metin delilleriyle argüman geliştirmelerini teşvik etmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle Farklı dönemlerden iletişim örnekleri üzerinde durun.
+> Yönergeyi uygularken önce metindeki ‘Örneklerin gerçekliği yansıtma biçimleri nası…’ ifadelerini işaretleyin; ardından bu unsurların Farklı dönemlerden iletişim örnekleri hedefine nasıl hizmet ettiğini ve ‘Bazı örnekler somut kişi/olay/haber…’ ile ilişkisini açıklayın.
 
 ### Bu görev neden burada?
 
-Bu görev, Farklı dönemlerden iletişim örnekleri ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+Bu etkinlik, Farklı dönemlerden iletişim örnekleri alanında ‘Örneklerin gerçekliği yansıtma biçimleri nası…’ doğrultusunda öğrencinin kendi düşüncesini kaynak dayanaklarıyla savunmasını ve tutarlı bir ifade becerisi inşa etmesini amaçlar.
 
 ### Ders içi uygulama
 
 - Her metnin yanına 'kim kime/hangi amaçla?' ve 'gerçekliği doğrudan mı edebî mi aktarıyor?' notu aldırmak pedagojik destek olarak kullanılabilir.
-- Soru 3 — Farklı dönemlerden iletişim örnekleri — basılı s.49-50 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- Öğrencilerden metinde ‘Örneklerin gerçekliği yansıtma biçimleri…’ konusuna kaynaklık eden temel ifadelerin altını çizmelerini isteyin.
+- Öğrencilerin tespit ettiği kanıtları karşılaştırarak hangisinin Farklı dönemlerden iletişim örnekleri iddiasını daha güçlü desteklediğini sorgulatın.
+- Ulaşılan cevabı Farklı dönemlerden iletişim örnekleri bağlamında toparlayıp metin tahlili için bir kural veya ilke olarak özetletin.
 
 ### Takip soruları
 
-- Soru 3 — Farklı dönemlerden iletişim örnekleri — basılı s.49-50 için düşünme sorusu: Alıcı değişseydi hitap, kelime seçimi veya ayrıntı düzeyi hangi yönde değişirdi? Özellikle ‘Örneklerin gerçekliği yansıtma biçimleri nasıl farklılaşır?’ ayrıntısını yoklayın.
-- Soru 3 — Farklı dönemlerden iletişim örnekleri — basılı s.49-50 içindeki bir ifade mektubun amacına nasıl hizmet ediyor; yalnız bilgi mi veriyor, ilişki de mi kuruyor? Özellikle ‘Örneklerin gerçekliği yansıtma biçimleri nasıl farklılaşır?’ ayrıntısını yoklayın.
+- ‘Örneklerin gerçekliği yansıtma biçimleri…’ yapısındaki dil bilgisel işlevin, konuşurun ya da anlatıcının ruh hâlini yansıtmadaki rolü nedir?
+- ‘Örneklerin gerçekliği yansıtma biçimleri…’ cümlesindeki dilbilgisi tercihinin metnin genel anlatım akışı ve anlam bütünlüğüne etkisi nedir?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -5098,22 +5070,21 @@ Bu görev, Farklı dönemlerden iletişim örnekleri ölçütünü gönderici-al
 ### Sık yanılgılar
 
 - Bütün metinlerin gerçekliği aynı biçimde yansıttığını varsaymak.
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- Soru 3 — Farklı dönemlerden iletişim örnekleri — basılı s.49-50 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘Örneklerin gerçekliği yansıtma biçi…’ türünde hitap ve kapanış ifadelerini biçimsel süs sanıp muhatapla kurulan ilişkinin işlevini gözden kaçırmak.
 
 ### Müdahale
 
-- Soru 3 — Farklı dönemlerden iletişim örnekleri — basılı s.49-50 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Örneklerin gerçekliği yansıtma biçimleri nasıl farklılaşır?’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 3 — Farklı dönemlerden iletişim örnekleri — basılı s.49-50 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Örneklerin gerçekliği yansıtma biçimleri nasıl farklılaşır?’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciden ‘Örneklerin gerçekliği yansıtma biçi…’ bağlamında ‘bütün metinlerin gerçekliği aynı’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- Öğrenciye gönderici-alıcı ilişkisini iki farklı örnek üzerinden karşılaştırın; ‘Örneklerin gerçekliği yansıtma biçi…’ hitap seçiminin iletişim amacına etkisini gösterin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Gönderici–alıcı–amaç tablosu kullan.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: Farklı dönemlerden iletişim örnekleri.
+- Öğrenciye bir çalışma kâğıdı vererek ‘Örneklerin gerçekliği yansıtma biçi…’ için metinde geçen olumlu ve olumsuz göstergeleri iki sütun hâlinde gruplatın.
 **Zenginleştirme**
 - Bir örneği günümüz mesajlaşma biçimine dönüştürüp anlam kaybını tartıştır.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: Farklı dönemlerden iletişim örnekleri.
+- Metindeki ‘Örneklerin gerçekliği yansıtma biçi…’ durumunu güncel bir olay veya sanat eseriyle kıyaslayarak ‘Bazı örnekler somut kişi/olay/…’ ekseninde disiplinler arası bir değerlendirme yaptırın.
 
 ### Kaynak ve durum
 
@@ -5157,30 +5128,31 @@ Seçilen örnekten çok, sevilen kişiye iletişim için neden uygun bulunduğu 
 
 ### Açıklama ve gerekçe
 
-Soru 4 — Farklı dönemlerden iletişim örnekleri — basılı s.49-50 için cevap, Farklı dönemlerden iletişim örnekleri ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Beş metnin amaçlarını ayrı ayrı belirler. Haberleşme yargısını gönderici–alıcı–ileti ilişkisiyle gerekçelendirir.
+Bu soruda hedeflenen yanıt, metnin ana dokusunda yer alan ‘Sevdiğiniz birine yazarken hangi örneğe yakın bir …’ ayrıntısını Farklı dönemlerden iletişim örnekleri perspektifiyle analiz etmeye dayanır. Doğruluk dayanağı; Beş metnin amaçlarını ayrı ayrı belirler. Haberleşme yargısını gönderici–alıcı–ileti ilişkisiyle gerekçelendirir. ilkesinin karşılanması ve metindeki göstergelerin somut kanıtlarla açıklanmasıdır. Öğrencinin izleyeceği bilişsel basamaklar; metin parçalarını taramak, kavramsal anahtarları tespit etmek ve bu bulguları sentezleyerek tutarlı bir değerlendirme üretmektir. İfadeler birebir aynı olmak zorunda olmayıp metinle çelişmeyen ve gerekçelendirilmiş farklı yaklaşımlar geçerli kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 4 — Farklı dönemlerden iletişim örnekleri — basılı s.49-50 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Sevdiğiniz birine yazarken hangi örneğe yakın bir anlatımı seçerdiniz? Neden?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev adımında öğretmen, ‘Sevdiğiniz birine yazarken hangi örneğe yakın bir …’ ile ilgili sınıf tartışmasını Farklı dönemlerden iletişim örnekleri zemininde yapılandırmalı ve ‘Seçilen örnekten çok, sevilen kişiye ile…’ doğrultusundaki tespitleri metin üzerinden teyit ettirmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle Farklı dönemlerden iletişim örnekleri üzerinde durun.
+> Bu etkinlikte amacınız, ‘Sevdiğiniz birine yazarken hangi örneğe yakın…’ konusunu Farklı dönemlerden iletişim örnekleri perspektifinden tahlil etmektir. İddialarınızı metinden somut göstergelerle destekleyerek ‘Seçilen örnekten çok, sevilen kişiy…’ niteliğinde bir çıkarım yapın.
 
 ### Bu görev neden burada?
 
-Bu görev, Farklı dönemlerden iletişim örnekleri ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+Görev, ‘Sevdiğiniz birine yazarken hangi örneğe yakın…’ konusundaki gözlemleri Farklı dönemlerden iletişim örnekleri ile sentezleyerek metin çözümleme disiplinini pekiştirir ve öğrencinin ‘Seçilen örnekten çok, sevilen kişiy…’ odaklı eleştirel düşünme kapasitesini artırır.
 
 ### Ders içi uygulama
 
 - Her metnin yanına 'kim kime/hangi amaçla?' ve 'gerçekliği doğrudan mı edebî mi aktarıyor?' notu aldırmak pedagojik destek olarak kullanılabilir.
-- Soru 4 — Farklı dönemlerden iletişim örnekleri — basılı s.49-50 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- ‘Sevdiğiniz birine yazarken hangi örneğe …’ sorusunu sınıfa yönelterek ilk izlenimleri ve metinle ilgili sezgisel yaklaşımları tahtada toplayın.
+- ‘Sevdiğiniz birine yazarken hangi örneğe …’ ile metnin ana fikri arasındaki neden-sonuç ilişkisini tahta üzerinde şemalaştırarak gösterin.
+- Öğrenci yanıtlarını Beş metnin amaçlarını ayrı ayrı belirler. doğrultusunda kontrol ederek metin dayanağı bulunmayan varsayımları eleyin.
 
 ### Takip soruları
 
-- Soru 4 — Farklı dönemlerden iletişim örnekleri — basılı s.49-50 için düşünme sorusu: Alıcı değişseydi hitap, kelime seçimi veya ayrıntı düzeyi hangi yönde değişirdi? Özellikle ‘Sevdiğiniz birine yazarken hangi örneğe yakın bir anlatımı seçerdiniz? Neden?’ ayrıntısını yoklayın.
-- Soru 4 — Farklı dönemlerden iletişim örnekleri — basılı s.49-50 içindeki bir ifade mektubun amacına nasıl hizmet ediyor; yalnız bilgi mi veriyor, ilişki de mi kuruyor? Özellikle ‘Sevdiğiniz birine yazarken hangi örneğe yakın bir anlatımı seçerdiniz? Neden?’ ayrıntısını yoklayın.
+- ‘Sevdiğiniz birine yazarken hangi örneğe …’ yapısındaki dil bilgisel işlevin, konuşurun ya da anlatıcının ruh hâlini yansıtmadaki rolü nedir?
+- Eğer ‘Sevdiğiniz birine yazarken hangi örneğe …’ ifadesinde kullanılan dil bilgisel yapı değiştirilseydi, cümlenin ilettiği anlam ve vurgu nasıl başkalaşırdı?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -5192,22 +5164,21 @@ Bu görev, Farklı dönemlerden iletişim örnekleri ölçütünü gönderici-al
 ### Sık yanılgılar
 
 - Bütün metinlerin gerçekliği aynı biçimde yansıttığını varsaymak.
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- Soru 4 — Farklı dönemlerden iletişim örnekleri — basılı s.49-50 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘Sevdiğiniz birine yazarken hangi ör…’ yazımında resmî ve samimi mektubun üslup gerekliliklerini birbiriyle karıştırmak.
 
 ### Müdahale
 
-- Soru 4 — Farklı dönemlerden iletişim örnekleri — basılı s.49-50 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Sevdiğiniz birine yazarken hangi örneğe yakın bir anlatımı seçerdiniz? Neden?’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 4 — Farklı dönemlerden iletişim örnekleri — basılı s.49-50 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Sevdiğiniz birine yazarken hangi örneğe yakın bir anlatımı seçerdiniz? Neden?’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Sevdiğiniz birine yazarken hangi ör…’ incelemesinde ‘bütün metinlerin gerçekliği aynı’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Muhataba göre dil ve anlatım tercihlerinin nasıl değiştiğini ‘Sevdiğiniz birine yazarken hangi ör…’ için tahtada oluşturulacak iki sütunlu tabloda karşılaştırarak belirleyin ve bağlamını tartışın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Gönderici–alıcı–amaç tablosu kullan.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: Farklı dönemlerden iletişim örnekleri.
+- Öğrenciyi bir akranıyla eşleştirerek ‘Sevdiğiniz birine yazarken hangi ör…’ hakkındaki düşüncelerini önce sözlü olarak paylaşmasını, ardından yazıya dökmesini isteyin.
 **Zenginleştirme**
 - Bir örneği günümüz mesajlaşma biçimine dönüştürüp anlam kaybını tartıştır.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: Farklı dönemlerden iletişim örnekleri.
+- Öğrenciden ‘Sevdiğiniz birine yazarken hangi ör…’ metnindeki Farklı dönemlerden iletişim örnekleri yaklaşımını örnek alarak benzer temada kısa bir kurmaca metin veya deneme taslağı yazmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -5257,53 +5228,52 @@ Kitapta “Ara metin: Dilekçe” başlığı altında verilen çalışma/yöner
 
 ### Açıklama ve gerekçe
 
-Ara metin: Dilekçe — bilgi bölümü — basılı s.51 için cevap, Ara metin: Dilekçe — bilgi bölümü ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Dilekçenin resmî iletişim türü olduğunu ve biçimsel zorunluluklarını ayırt eder.
+Beklenen cevabın temeli, Ara metin: Dilekçe — bilgi bölümü ekseninde ‘Kitapta “Ara metin: Dilekçe” başlığı altında veril…’ bağlamını aydınlatan metin kanıtlarının doğru tahlil edilmesidir. Yanıtın kabul edilebilirliği; Dilekçenin resmî iletişim türü olduğunu ve biçimsel zorunluluklarını ayırt eder. ölçütüne bağlı kalınmasına ve metindeki verilerin tarafsız biçimde yorumlanmasına bağlıdır. Öğrenci; önce ilgili bilgiyi kaynaktan süzmeli, ardından bu bilgiyi sorunun gerektirdiği kavramsal çerçeveye oturtmalıdır. Metin sınırlarını aşmayan ve dayanağı gösterilen özgün öğrenci yorumları da geçerli sayılır.
 
 ### Öğretmenin bilmesi gerekenler
 
-Ara metin: Dilekçe — bilgi bölümü — basılı s.51 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Ara metin: Dilekçe — bilgi bölümü — Ara metin: Dilekçe’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev adımında öğretmen, ‘Kitapta “Ara metin: Dilekçe” başlığı altında veril…’ ile ilgili sınıf tartışmasını Ara metin: Dilekçe — bilgi bölümü zemininde yapılandırmalı ve ‘['açık, kısa, anlaşılır ve resmî dil', '…’ doğrultusundaki tespitleri metin üzerinden teyit ettirmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle Ara metin: Dilekçe — bilgi bölümü üzerinde durun.
+> Bu etkinlikte amacınız, ‘Kitapta “Ara metin: Dilekçe” başlığı altında …’ konusunu Ara metin: Dilekçe — bilgi bölümü perspektifinden tahlil etmektir. İddialarınızı metinden somut göstergelerle destekleyerek ‘['açık, kısa, anlaşılır ve resmî di…’ niteliğinde bir çıkarım yapın.
 
 ### Bu görev neden burada?
 
-Bu görev, Ara metin: Dilekçe — bilgi bölümü ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+Görev, ‘Kitapta “Ara metin: Dilekçe” başlığı altında …’ konusundaki gözlemleri Ara metin: Dilekçe — bilgi bölümü ile sentezleyerek metin çözümleme disiplinini pekiştirir ve öğrencinin ‘['açık, kısa, anlaşılır ve resmî di…’ odaklı eleştirel düşünme kapasitesini artırır.
 
 ### Ders içi uygulama
 
 - Önemli düzeltme: s.51'de doğrudan cevaplanacak öğrenci sorusu yok; bilgi bölümü vardır. Önceki rehberde bu sayfa etkinlik gibi algılanabiliyordu.
 - Bu sayfada cevaplanacak ayrı bir öğrenci sorusu yoktur. Dilekçe kurallarını s.52'deki yazma görevinin hızlı başvuru kaynağı olarak kullanın.
-- Ara metin: Dilekçe — bilgi bölümü — basılı s.51 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- Öğrencilere ‘Ara metin: Dilekçe — bilgi bölümü (T1V23_P51_PETITION_REFERENCE)’ bağlamındaki anahtar kavramları listeleterek metin taraması yapmalarını sağlayın.
+- Öğrencilere ‘Eğer ‘['açık, kısa, anlaşılır ve resmî di…’ olmasaydı ne değişirdi?’ sorusunu yönelterek Ara metin: Dilekçe — bilgi bölümü çıkarımını test edin.
 
 ### Öğrenci cevaplarını değerlendirme
 
 - s.52 yazma görevinde bu kuralları uygulaması.
 - Dilekçenin resmî iletişim türü olduğunu ve biçimsel zorunluluklarını ayırt eder.
-- Gönderici-alıcı-amaç ile dil tercihi arasında metinden kanıtlı ilişki.
-- Öznel ve nesnel ifadelerin işlevini birbirine karıştırmama.
+- ‘Kitapta “Ara metin: Dilekçe” başlığı alt…’ için öne sürülen savın metindeki dil ve üslup ayrıntılarıyla desteklenmesi.
+- Öğrencinin Ara metin: Dilekçe — bilgi bölümü perspektifinden yaptığı analizin metin gerçekliğiyle uyumu.
 
 ### Sık yanılgılar
 
 - Özel mektubun samimi dilini dilekçeye taşımak.
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- Ara metin: Dilekçe — bilgi bölümü — basılı s.51 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘Ara metin: Dilekçe — bilgi bölümü (T1V23_P51_PETITION_REFERENCE)’ yazımında resmî ve samimi mektubun üslup gerekliliklerini birbiriyle karıştırmak.
 
 ### Müdahale
 
-- Ara metin: Dilekçe — bilgi bölümü — basılı s.51 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Ara metin: Dilekçe — bilgi bölümü — Ara metin: Dilekçe’ ayrıntısını kullandırarak somutlaştırın.
-- Ara metin: Dilekçe — bilgi bölümü — basılı s.51 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Ara metin: Dilekçe — bilgi bölümü — Ara metin: Dilekçe’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Ara metin: Dilekçe — bilgi bölümü (T1V23_P51_PETITION_REFERENCE)’ doğrultusunda ‘özel mektubun samimi dilini’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Muhataba göre dil ve anlatım tercihlerinin nasıl değiştiğini ‘Ara metin: Dilekçe — bilgi bölümü (T1V23_P51_PETITION_REFERENCE)’ için tahtada oluşturulacak iki sütunlu tabloda karşılaştırarak belirleyin ve bağlamını tartışın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Makam–talep–gerekçe–bitiriş–tarih/imza şeklinde şablon ver.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: Ara metin: Dilekçe — bilgi bölümü.
+- Öğrenciyi bir akranıyla eşleştirerek ‘Kitapta “Ara metin: Dilekçe” başlığ…’ hakkındaki düşüncelerini önce sözlü olarak paylaşmasını, ardından yazıya dökmesini isteyin.
 **Zenginleştirme**
 - Aynı talebi özel mesaj ve dilekçe biçiminde karşılaştır.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: Ara metin: Dilekçe — bilgi bölümü.
+- Öğrenciden ‘Kitapta “Ara metin: Dilekçe” başlığ…’ metnindeki Ara metin: Dilekçe — bilgi bölümü yaklaşımını örnek alarak benzer temada kısa bir kurmaca metin veya deneme taslağı yazmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -5353,19 +5323,19 @@ Kitapta “Dilekçe yazma / ileri okuma” başlığı altında verilen çalış
 
 ### Açıklama ve gerekçe
 
-Okul müdürlüğüne dilekçe yazma — basılı s.52 için cevap, Okul müdürlüğüne dilekçe yazma ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Resmî makamı doğru yazar. Talebi ve gerekçeyi açıkça ayırır.
+Bu görev, ‘Kitapta “Dilekçe yazma / ileri okuma” başlığı altı…’ yönergesini Okul müdürlüğüne dilekçe yazma bağlamında hayata geçiren bir uygulama ve ürün çalışmasıdır. Başarı ölçütü; öğrencinin Resmî makamı doğru yazar. Talebi ve gerekçeyi açıkça ayırır. basamaklarını eksiksiz yürütmesi ve çalışmasını kaynak dayanaklarıyla uyumlu kurmasıdır.
 
 ### Öğretmenin bilmesi gerekenler
 
-Okul müdürlüğüne dilekçe yazma — basılı s.52 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Okul müdürlüğüne dilekçe yazma — Dilekçe yazma / ileri okuma’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Fiilde çatı konusu, eylemin öznesiyle (etken, edilgen, dönüşlü, işteş) ve nesnesiyle (geçişli, geçişsiz, ettirgen, oldurgan) kurduğu söz dizimsel ve anlamsal ilişkiyi belirler. Edilgen çatıda (-l, -n ekleriyle) işi yapan gerçek özne gizlenir veya örtük bırakılır; nesne 'sözde özne' konumuna geçer. Geçişli fiiller nesne alabilirken geçişsiz fiiller nesne alamaz. Öğretmen bu görevde, fiilin çatı özelliğini yalnız ek ezberiyle değil, cümlenin anlamsal özne-nesne kurgusu ve işlevsel rolü üzerinden açıklatmalıdır. Bu görevde öğretmen, ‘Kitapta “Dilekçe yazma / ileri okuma” başlığı altı…’ yönergesini ele alırken sınıf ortamında Okul müdürlüğüne dilekçe yazma boyutunu öne çıkarmalı ve ‘urun_niteligi: Öğrenci okul müdürlüğüne …’ yönündeki metin dayanaklarını desteklemelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle Okul müdürlüğüne dilekçe yazma üzerinde durun.
+> Bu çalışmayı yaparken metni dikkatle gözden geçirerek ‘Kitapta “Dilekçe yazma / ileri okuma” başlığı…’ ile ilgili kanıtları belirleyin; ulaştığınız yargıları Okul müdürlüğüne dilekçe yazma ve ‘urun_niteligi: Öğrenci okul müdürlü…’ çerçevesinde gerekçelendirerek ifade edin.
 
 ### Bu görev neden burada?
 
-Bu görev, Okul müdürlüğüne dilekçe yazma ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+Okul müdürlüğüne dilekçe yazma eksenindeki bu çalışma, ‘Kitapta “Dilekçe yazma / ileri okuma” başlığı…’ konusunu ele alırken öğrencinin yüzeysel okumadan analitik çözümlemeye geçişini ve ‘urun_niteligi: Öğrenci okul müdürlü…’ bağlantısını kurmasını destekler.
 
 ### Ders içi uygulama
 
@@ -5385,21 +5355,22 @@ Bu görev, Okul müdürlüğüne dilekçe yazma ölçütünü gönderici-alıcı
 
 - Dilekçeyi uzun bir kişisel hikâyeye çevirmek.
 - Talebi dolaylı ve belirsiz bırakmak.
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
+- ‘Okul müdürlüğüne dilekçe yazma (T1V23_P52_PETITION_TASK)’ yazımında resmî ve samimi mektubun üslup gerekliliklerini birbiriyle karıştırmak.
 
 ### Müdahale
 
-- Okul müdürlüğüne dilekçe yazma — basılı s.52 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Okul müdürlüğüne dilekçe yazma — Dilekçe yazma / ileri okuma’ ayrıntısını kullandırarak somutlaştırın.
-- Okul müdürlüğüne dilekçe yazma — basılı s.52 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Okul müdürlüğüne dilekçe yazma — Dilekçe yazma / ileri okuma’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Okul müdürlüğüne dilekçe yazma (T1V23_P52_PETITION_TASK)’ doğrultusunda ‘dilekçeyi uzun bir kişisel’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Öğrenciden ‘Okul müdürlüğüne dilekçe yazma (T1V23_P52_PETITION_TASK)’ bağlamında ‘talebi dolaylı ve belirsiz’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- Muhataba göre dil ve anlatım tercihlerinin nasıl değiştiğini ‘Okul müdürlüğüne dilekçe yazma (T1V23_P52_PETITION_TASK)’ için tahtada oluşturulacak iki sütunlu tabloda karşılaştırarak belirleyin ve bağlamını tartışın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Boş şablon ve kontrol listesi ver.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: Okul müdürlüğüne dilekçe yazma.
+- ‘Kitapta “Dilekçe yazma / ileri okum…’ hedefine yönelik bir kontrol listesi vererek öğrencinin ‘urun_niteligi: Öğrenci okul mü…’ basamağını adım adım denetlemesini sağlayın.
 **Zenginleştirme**
 - Aynı talebin farklı makamlara gönderilmesi durumunda dil/yapı değişimini tartıştır.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: Okul müdürlüğüne dilekçe yazma.
+- Öğrencinin ‘Kitapta “Dilekçe yazma / ileri okum…’ bağlamındaki ürününü sınıf panosunda sergileyip Okul müdürlüğüne dilekçe yazma sürecinin sunumunu yapmasını sağlayın.
 
 ### Kaynak ve durum
 
@@ -5475,31 +5446,31 @@ Sözlü iletişimi engelleyen davranışlar nelerdir; bu davranışlar iletişim
 
 ### Açıklama ve gerekçe
 
-yapı unsurlarının anlam ve işlevi — basılı s.53 için cevap, yapı unsurlarının anlam ve işlevi ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. En az iki sözlü iletişim engeli belirler. Engelin iletişime etkisini neden-sonuç ilişkisiyle açıklar.
+‘Sözlü iletişimi engelleyen davranışlar nelerdir; b…’ kapsamındaki tablo maddeleri (engel_ornekleri, etki, dogru_iletisim), kaynak metindeki verilerle satır satır karşılaştırılarak değerlendirilir. Öğrencinin izleyeceği yöntem; metinde doğrudan doğrulanan önermelere 'Evet', açıkça reddedilenlere 'Hayır', doğrulanmayan veya değinilmeyenlere ise 'Bilgi yok' karşılığını vermektir. En az iki sözlü iletişim engeli belirler. Engelin iletişime etkisini neden-sonuç ilişkisiyle açıklar.
 
 ### Öğretmenin bilmesi gerekenler
 
-yapı unsurlarının anlam ve işlevi — basılı s.53 görevinde iletişimi yalnız konuşma veya bilgi aktarımı olarak daraltmayın. Gönderici, alıcı, ileti, kanal, bağlam ve geri bildirim birlikte işler; gürültü fiziksel olabileceği gibi önyargı, dikkatsizlik, belirsiz dil veya uygun olmayan kanal da olabilir. Çok modlu metinde ses, görüntü, yazı ve müzik aynı iletiyi destekleyebilir ya da farklılaştırabilir. Bu görevde özellikle ‘Sözlü iletişimi engelleyen davranışlar nelerdir; bu davranışlar iletişimi nasıl etkiler ve doğru…’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Fiilde çatı konusu, eylemin öznesiyle (etken, edilgen, dönüşlü, işteş) ve nesnesiyle (geçişli, geçişsiz, ettirgen, oldurgan) kurduğu söz dizimsel ve anlamsal ilişkiyi belirler. Edilgen çatıda (-l, -n ekleriyle) işi yapan gerçek özne gizlenir veya örtük bırakılır; nesne 'sözde özne' konumuna geçer. Geçişli fiiller nesne alabilirken geçişsiz fiiller nesne alamaz. Öğretmen bu görevde, fiilin çatı özelliğini yalnız ek ezberiyle değil, cümlenin anlamsal özne-nesne kurgusu ve işlevsel rolü üzerinden açıklatmalıdır. Bu görev tahlilinde öğretmen, yapı unsurlarının anlam ve işlevi odağında ‘Sözlü iletişimi engelleyen davranışlar nelerdir; b…’ sorusuna yönelik yanıtların metin içi tutarlılığını denetlemeli ve yüzeysel yorumların ötesine geçilmesini sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> İletişimde anlam, yalnız sözcüklerden değil; kanal, bağlam, ses, görüntü ve karşılıklı tepkiden birlikte oluşur. Bu görevde özellikle yapı unsurlarının anlam ve işlevi üzerinde durun.
+> Görevin temel amacı, ‘Sözlü iletişimi engelleyen davranışlar nelerd…’ ayrıntısı üzerinden yapı unsurlarının anlam ve işlevi kavramını kavramanızdır. Metindeki ilgili cümleleri bularak ‘engel_ornekleri: ['karşıdakini gerç…’ bağlamındaki düşüncenizi kendi cümlelerinizle ortaya koyun.
 
 ### Bu görev neden burada?
 
-Bu görev, yapı unsurlarının anlam ve işlevi üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir.
+Bu soru, ‘Sözlü iletişimi engelleyen davranışlar nelerd…’ ayrıntısını yapı unsurlarının anlam ve işlevi ile birleştirerek dil ve edebiyat çalışmalarında neden-sonuç ilişkisi kurma ve ‘engel_ornekleri: ['karşıdakini gerç…’ bağlamını kavrama yeterliğini güçlendirir.
 
 ### Ders içi uygulama
 
 - Öğrencinin yalnız engel adını söylemesini yeterli görme; 'hangi davranış, hangi sonucu doğurdu?' sorusunu kullan.
 - Tahtadaki ortak engel/çözüm listesini performans görevinin hazırlık havuzu olarak koru.
 - Öğrencinin yalnız engel adını söylemesiyle yetinmeyin; “hangi davranış, hangi sonucu doğurdu ve yerine ne yapılabilir?” zincirini kurdurun.
-- yapı unsurlarının anlam ve işlevi — basılı s.53 için öğrencinin önce iletişim ögesini, sonra aksamanın nerede oluştuğunu ve son olarak sonucu yazdığı bir neden-sonuç zinciri kurdurun.
+- Öğrencilerden yapı unsurlarının anlam ve işlevi açısından metindeki zıtlık ve benzerlikleri belirleyerek not almalarını isteyin.
 
 ### Takip soruları
 
-- yapı unsurlarının anlam ve işlevi — basılı s.53 için düşünme sorusu: Buradaki aksama göndericiden mi, alıcıdan mı, kanaldan mı, bağlamdan mı kaynaklanıyor; hangi kanıt bunu gösteriyor? Özellikle ‘Sözlü iletişimi engelleyen davranışlar nelerdir; bu davranışlar iletişimi nasıl etkiler ve doğru…’ ayrıntısını yoklayın.
-- yapı unsurlarının anlam ve işlevi — basılı s.53 için başka bir kanal seçilse ileti açıklar mıydı, yoksa yeni bir sorun mu doğururdu? Özellikle ‘Sözlü iletişimi engelleyen davranışlar nelerdir; bu davranışlar iletişimi nasıl etkiler ve doğru…’ ayrıntısını yoklayın.
+- Olay örgüsündeki ‘Sözlü iletişimi engelleyen davranışlar n…’ akışı okuyucuda merak duygusunu canlı tutmak için hangi tekniklerle kurgulanmıştır?
+- Yazarın ‘Sözlü iletişimi engelleyen davranışlar n…’ kurgusunda zaman ve mekân tercihlerini yapı unsurlarının anlam ve işlevi ile bütünleştirmesi, anlam dünyasına nasıl katkı sağlar?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -5512,21 +5483,22 @@ Bu görev, yapı unsurlarının anlam ve işlevi üzerinden iletişimde neden-so
 
 - İletişim engelini yalnız fiziksel gürültü sanmak.
 - Karşı tarafla aynı fikirde olmamayı tek başına iletişim engeli saymak.
-- Karşı tarafla aynı fikirde olmamayı tek başına iletişim engeli saymak veya iletişimde geri bildirimi gereksiz görmek.
+- Metinde art arda gelen durumları veya olayları doğrudan bir neden-sonuç ilişkisi sanarak yapı unsurlarının anlam ve işlevi çıkarımında yanılgıya düşmek.
 
 ### Müdahale
 
-- yapı unsurlarının anlam ve işlevi — basılı s.53 için müdahale: Öğrenciden fiziksel ses olmayan fakat önyargı ya da belirsiz söz nedeniyle bozulan kısa bir örnek kurmasını isteyin; engel türünü adlandırsın. Müdahaleyi ‘Sözlü iletişimi engelleyen davranışlar nelerdir; bu davranışlar iletişimi nasıl etkiler ve doğru…’ ayrıntısını kullandırarak somutlaştırın.
-- yapı unsurlarının anlam ve işlevi — basılı s.53 için müdahale: Mesajı farklı bir kanala taşıtıp hangi bilgi ve duygunun kaybolduğunu iki sütunda karşılaştırın. Müdahaleyi ‘Sözlü iletişimi engelleyen davranışlar nelerdir; bu davranışlar iletişimi nasıl etkiler ve doğru…’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciye ‘Sözlü iletişimi engelleyen davranış…’ çerçevesinde ‘iletişim engelini yalnız fiziksel’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- ‘Sözlü iletişimi engelleyen davranış…’ doğrultusunda ‘karşı tarafla aynı fikirde’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Olaylar arasındaki mantıksal nedensellik bağını ve gerekçe ifadelerini ‘Sözlü iletişimi engelleyen davranış…’ metni üzerinde buldurup sebep-sonuç farkını gösterin ve tartışın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Davranış–etki–alternatif davranış şeklinde üç sütunlu şablon kullan.
-- İletişim zincirini ‘gönderici → ileti → kanal → alıcı → geri bildirim’ biçiminde verip engel noktasını işaretletin. Bu görevde bağlantı noktası: yapı unsurlarının anlam ve işlevi.
+- ‘Sözlü iletişimi engelleyen davranış…’ konusunu daha sade yönlendirici alt sorulara bölerek öğrencinin ‘engel_ornekleri: ['karşıdakini…’ sonucuna kademeli olarak ulaşmasına rehberlik edin.
 **Zenginleştirme**
 - Aynı davranışın farklı bağlamlarda engel olup olmayacağını tartıştır.
-- Aynı iletiyi iki farklı kanalda tasarlatıp hangi durumda kanal değişikliğinin etik ve işlevsel sonuç doğuracağını tartıştırın. Bu görevde derinleştirme odağı: yapı unsurlarının anlam ve işlevi.
+- ‘Sözlü iletişimi engelleyen davranış…’ tahlilini yazarın edebî dönemi, sanat anlayışı ve dönemin toplumsal koşullarıyla ilişkilendiren bir araştırma sorusu geliştirtin.
 
 ### Tahta notu
 
@@ -5580,26 +5552,26 @@ Kitapta “Konuşmayı Yönetebilme” başlığı altında verilen çalışma/y
 
 ### Açıklama ve gerekçe
 
-Performans görevi — altışar kişilik grup ve canlandırma planı — basılı s.54 için cevap, Performans görevi — altışar kişilik grup ve canlandırma planı ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Grup ve görev dağılımını görünür biçimde kaydeder. Konu, amaç, hedef kitle, yöntem/strateji ve ortam kararlarını ayrı ayrı belirler.
+Bu etkinlikte sabit bir formül aranmaz; Performans görevi — altışar kişilik grup ve canlandırma planı amacına yönelik olarak ‘Kitapta “Konuşmayı Yönetebilme” başlığı altında ve…’ basamaklarının özgün biçimde yapılandırılması esastır. Geçerlilik ölçütü; Grup ve görev dağılımını görünür biçimde kaydeder. Konu, amaç, hedef kitle, yöntem/strateji ve ortam kararlarını ayrı ayrı belirler. doğrultusunda öğrencinin ortaya koyduğu tutarlı ürün ve gerekçedir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Performans görevi — altışar kişilik grup ve canlandırma planı — basılı s.54 görevinde tiyatro metnini yalnız diyaloglardan ibaret göstermeyin. Karakter amacı, çatışma, diyalog/monolog, sahne ve zaman, dekor-kostüm, beden dili ve ses kullanımı birlikte dramatik örgüyü kurar. Tarihî bir kişiyi sahneye taşırken tarihsel bilgi ile kurmaca konuşma arasındaki sınır korunmalı; sahneleme kararı metnin anlamını değiştirebilir. Bu görevde özellikle ‘Performans görevi — altışar kişilik grup ve canlandırma planı — Konuşmayı Yönetebilme’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+İletişim; gönderici, alıcı, ileti, kanal ve bağlam unsurlarının etkileşimiyle gerçekleşen dinamik bir anlam paylaşımı sürecidir. Tarihsel süreçte yazılı, sözlü ve kitle iletişim araçlarından dijital ağlara geçiş, iletişim alışkanlıklarını ve etkileşim hızını dönüştürmüştür. Öğretmen bu görevde, iletişim araçlarının toplumsal ilişkileri ve bireyler arası bağları nasıl şekillendirdiğini açıklamalıdır. Bu görev tahlilinde öğretmen, Performans görevi — altışar kişilik grup ve canlandırma planı odağında ‘Kitapta “Konuşmayı Yönetebilme” başlığı altında ve…’ sorusuna yönelik yanıtların metin içi tutarlılığını denetlemeli ve yüzeysel yorumların ötesine geçilmesini sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Tiyatroda kişi ve olay, söylenen söz kadar sahnede yapılan ve gösterilen şeylerle de seyirciye ulaşır. Bu görevde özellikle Performans görevi — altışar kişilik grup ve canlandırma planı üzerinde durun.
+> Görevin temel amacı, ‘Kitapta “Konuşmayı Yönetebilme” başlığı altın…’ ayrıntısı üzerinden Performans görevi — altışar kişilik grup ve canlandırma planı kavramını kavramanızdır. Metindeki ilgili cümleleri bularak ‘grup: Öğretmen rehberliğinde altışa…’ bağlamındaki düşüncenizi kendi cümlelerinizle ortaya koyun.
 
 ### Bu görev neden burada?
 
-Bu görev, Performans görevi — altışar kişilik grup ve canlandırma planı üzerinden tiyatronun gösterme, konuşma ve sahneleme araçlarını işlevleriyle ilişkilendirir.
+Bu soru, ‘Kitapta “Konuşmayı Yönetebilme” başlığı altın…’ ayrıntısını Performans görevi — altışar kişilik grup ve canlandırma planı ile birleştirerek dil ve edebiyat çalışmalarında neden-sonuç ilişkisi kurma ve ‘grup: Öğretmen rehberliğinde altışa…’ bağlamını kavrama yeterliğini güçlendirir.
 
 ### Ders içi uygulama
 
 - Önceki ders planlarındaki genel 'gruplara ayır' ifadesini kitapta açıkça verilen altı kişilik grup yapısıyla netleştir.
 - Kontrol listesini yalnız ders sonunda değil planlama sırasında süreç kontrolü olarak kullandır.
 - Altışar kişilik grup yapısını, görev dağılımını, konu–amaç–hedef kitle–yöntem–araç–süre/ortam kararlarını görünür hâle getirin. Kontrol listesini yalnız sonda değil planlama sırasında da kullandırın.
-- Performans görevi — altışar kişilik grup ve canlandırma planı — basılı s.54 için öğrenciden her çıkarımını diyalog, sahne yönergesi, beden davranışı veya dekor ayrıntısından biriyle dayandırmasını isteyin.
+- Öğrencilerden metinde ‘Performans görevi — altışar kişilik grup ve canlandırma planı (T1V23_P54_MANAGE)’ konusuna kaynaklık eden temel ifadelerin altını çizmelerini isteyin.
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -5612,21 +5584,22 @@ Bu görev, Performans görevi — altışar kişilik grup ve canlandırma planı
 
 - Canlandırmanın yalnız senaryo yazmaktan ibaret olduğunu düşünmek.
 - Hedef kitleyi belirlemeden dil/üslup seçmek.
-- Tiyatro metninde yalnız konuşmaların önemli olduğunu, sahne yönergelerinin ve beden dilinin ikincil kaldığını düşünmek.
+- Metinde art arda gelen durumları veya olayları doğrudan bir neden-sonuç ilişkisi sanarak Performans görevi — altışar kişilik grup ve canlandırma planı çıkarımında yanılgıya düşmek.
 
 ### Müdahale
 
-- Performans görevi — altışar kişilik grup ve canlandırma planı — basılı s.54 için müdahale: Bir sahneyi önce yalnız diyalogla, sonra beden/dekor önerisiyle kurdurup seyirci bilgisindeki farkı karşılaştırın. Müdahaleyi ‘Performans görevi — altışar kişilik grup ve canlandırma planı — Konuşmayı Yönetebilme’ ayrıntısını kullandırarak somutlaştırın.
-- Performans görevi — altışar kişilik grup ve canlandırma planı — basılı s.54 için müdahale: Sahneleme önerisindeki her tarihî iddianın kaynağını sordurun; kaynak yoksa onu ‘kurmaca tercih’ diye etiketletin. Müdahaleyi ‘Performans görevi — altışar kişilik grup ve canlandırma planı — Konuşmayı Yönetebilme’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciden ‘Performans görevi — altışar kişilik grup ve canlandırma planı (T1V23_P54_MANAGE)’ bağlamında ‘canlandırmanın yalnız senaryo yazmaktan’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- ‘Performans görevi — altışar kişilik grup ve canlandırma planı (T1V23_P54_MANAGE)’ incelemesinde ‘hedef kitleyi belirlemeden dil’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Olaylar arasındaki mantıksal nedensellik bağını ve gerekçe ifadelerini ‘Performans görevi — altışar kişilik grup ve canlandırma planı (T1V23_P54_MANAGE)’ metni üzerinde buldurup sebep-sonuç farkını gösterin ve tartışın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Planı konu–amaç–hedef kitle–araç–süre–ortam kutularına böl.
-- Öğrenciye ‘karakter amacı — çatışma — söylenen — gösterilen — seyirci etkisi’ çizelgesini verin. Bu görevde bağlantı noktası: Performans görevi — altışar kişilik grup ve canlandırma planı.
+- ‘Kitapta “Konuşmayı Yönetebilme” baş…’ sürecinde zorlanan öğrenciye metin türünün yapı basamaklarını gösteren bir şablon sunun.
 **Zenginleştirme**
 - Aynı iletişim engelini özel alan ve kamusal alan için ayrı canlandırma olarak planlat.
-- Aynı sahneyi farklı bir uzamda yeniden kurgulatıp değişen dekor, beden ve diyalog kararlarını savundurun. Bu görevde derinleştirme odağı: Performans görevi — altışar kişilik grup ve canlandırma planı.
+- Öğrenciden ‘Kitapta “Konuşmayı Yönetebilme” baş…’ ürününü dijital bir sunuma veya okul bülteninde yayımlanacak bir yazıya dönüştürmesini isteyin.
 
 ### Kaynak ve durum
 
@@ -5680,26 +5653,26 @@ Kitapta “İçerik Oluşturabilme” başlığı altında verilen çalışma/y�
 
 ### Açıklama ve gerekçe
 
-Canlandırma metninin içerik taslağı — basılı s.55-56 için cevap, Canlandırma metninin içerik taslağı ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. İçerikte iletişim engelinin nedeni, sonucu ve olası çözümü görünürdür. Giriş-gelişme-sonuç bütünlüğü kurar.
+Bu görevde tekil bir cevap kalıbı bulunmayıp ‘Kitapta “İçerik Oluşturabilme” başlığı altında ver…’ odağında Canlandırma metninin içerik taslağı becerisinin işletilmesi hedeflenir. Ölçüt dayanağı; öğrencinin İçerikte iletişim engelinin nedeni, sonucu ve olası çözümü görünürdür. Giriş-gelişme-sonuç bütünlüğü kurar. ilkesiyle uyumlu, gerekçelendirilmiş ve tutarlı bir çalışma sunmasıdır.
 
 ### Öğretmenin bilmesi gerekenler
 
-Canlandırma metninin içerik taslağı — basılı s.55-56 görevinde tiyatro metnini yalnız diyaloglardan ibaret göstermeyin. Karakter amacı, çatışma, diyalog/monolog, sahne ve zaman, dekor-kostüm, beden dili ve ses kullanımı birlikte dramatik örgüyü kurar. Tarihî bir kişiyi sahneye taşırken tarihsel bilgi ile kurmaca konuşma arasındaki sınır korunmalı; sahneleme kararı metnin anlamını değiştirebilir. Bu görevde özellikle ‘Canlandırma metninin içerik taslağı — İçerik Oluşturabilme’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+İletişim; gönderici, alıcı, ileti, kanal ve bağlam unsurlarının etkileşimiyle gerçekleşen dinamik bir anlam paylaşımı sürecidir. Tarihsel süreçte yazılı, sözlü ve kitle iletişim araçlarından dijital ağlara geçiş, iletişim alışkanlıklarını ve etkileşim hızını dönüştürmüştür. Öğretmen bu görevde, iletişim araçlarının toplumsal ilişkileri ve bireyler arası bağları nasıl şekillendirdiğini açıklamalıdır. Bu görev adımında öğretmen, ‘Kitapta “İçerik Oluşturabilme” başlığı altında ver…’ ile ilgili sınıf tartışmasını Canlandırma metninin içerik taslağı zemininde yapılandırmalı ve ‘adimlar: ['hedef kitlenin özelliklerini …’ doğrultusundaki tespitleri metin üzerinden teyit ettirmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Tiyatroda kişi ve olay, söylenen söz kadar sahnede yapılan ve gösterilen şeylerle de seyirciye ulaşır. Bu görevde özellikle Canlandırma metninin içerik taslağı üzerinde durun.
+> Bu etkinlikte amacınız, ‘Kitapta “İçerik Oluşturabilme” başlığı altınd…’ konusunu Canlandırma metninin içerik taslağı perspektifinden tahlil etmektir. İddialarınızı metinden somut göstergelerle destekleyerek ‘adimlar: ['hedef kitlenin özellikle…’ niteliğinde bir çıkarım yapın.
 
 ### Bu görev neden burada?
 
-Bu görev, Canlandırma metninin içerik taslağı üzerinden tiyatronun gösterme, konuşma ve sahneleme araçlarını işlevleriyle ilişkilendirir.
+Görev, ‘Kitapta “İçerik Oluşturabilme” başlığı altınd…’ konusundaki gözlemleri Canlandırma metninin içerik taslağı ile sentezleyerek metin çözümleme disiplinini pekiştirir ve öğrencinin ‘adimlar: ['hedef kitlenin özellikle…’ odaklı eleştirel düşünme kapasitesini artırır.
 
 ### Ders içi uygulama
 
 - Senaryonun edebî güzelliğinden önce TDE3.2 kanıtına bak: neden–sonuç–çözüm ve hedef kitleye uygun içerik.
 - Kitabın verdiği basamakları ders planı P02'nin içerik taslağı kanıtıyla birleştir.
 - Senaryonun edebî güzelliğinden önce iletişim engelinin neden–sonuç–çözüm zinciri ile hedef kitleye uygun içerik görünürlüğünü kontrol edin; akran geri bildirimi sonrası en az bir gerçek revizyon izi arayın.
-- Canlandırma metninin içerik taslağı — basılı s.55-56 için öğrenciden her çıkarımını diyalog, sahne yönergesi, beden davranışı veya dekor ayrıntısından biriyle dayandırmasını isteyin.
+- Öğrencilere ‘Canlandırma metninin içerik taslağı (T1V23_P55_56_CONTENT)’ bağlamındaki anahtar kavramları listeleterek metin taraması yapmalarını sağlayın.
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -5712,21 +5685,22 @@ Bu görev, Canlandırma metninin içerik taslağı üzerinden tiyatronun göster
 
 - İletişim engelini yalnız olay olarak göstermek, neden ve çözümü görünür kılmamak.
 - Bütün karakterleri aynı dil/üslupla konuşturmak.
-- Tiyatro metninde yalnız konuşmaların önemli olduğunu, sahne yönergelerinin ve beden dilinin ikincil kaldığını düşünmek.
+- ‘Canlandırma metninin içerik taslağı (T1V23_P55_56_CONTENT)’ incelemesinde ulaşılan sonucu metin dışı genel bilgilerle karıştırıp Canlandırma metninin içerik taslağı sınırlarının dışına çıkmak.
 
 ### Müdahale
 
-- Canlandırma metninin içerik taslağı — basılı s.55-56 için müdahale: Bir sahneyi önce yalnız diyalogla, sonra beden/dekor önerisiyle kurdurup seyirci bilgisindeki farkı karşılaştırın. Müdahaleyi ‘Canlandırma metninin içerik taslağı — İçerik Oluşturabilme’ ayrıntısını kullandırarak somutlaştırın.
-- Canlandırma metninin içerik taslağı — basılı s.55-56 için müdahale: Sahneleme önerisindeki her tarihî iddianın kaynağını sordurun; kaynak yoksa onu ‘kurmaca tercih’ diye etiketletin. Müdahaleyi ‘Canlandırma metninin içerik taslağı — İçerik Oluşturabilme’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Canlandırma metninin içerik taslağı (T1V23_P55_56_CONTENT)’ doğrultusunda ‘iletişim engelini yalnız olay’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Öğrenciden ‘Canlandırma metninin içerik taslağı (T1V23_P55_56_CONTENT)’ bağlamında ‘bütün karakterleri aynı dil’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- ‘Canlandırma metninin içerik taslağı (T1V23_P55_56_CONTENT)’ için değerlendirmenin yalnızca verilen metin verileri çerçevesinde yapılması gerektiğini belirleyip kanıt sınırlarını çizdirin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Engel–neden–sonuç–çözüm tablosundan senaryoya geçiş şablonu ver.
-- Öğrenciye ‘karakter amacı — çatışma — söylenen — gösterilen — seyirci etkisi’ çizelgesini verin. Bu görevde bağlantı noktası: Canlandırma metninin içerik taslağı.
+- ‘Kitapta “İçerik Oluşturabilme” başl…’ hedefine yönelik bir kontrol listesi vererek öğrencinin ‘adimlar: ['hedef kitlenin özel…’ basamağını adım adım denetlemesini sağlayın.
 **Zenginleştirme**
 - Aynı sahneye ikinci bir bakış açısı ekleyerek çözümün nasıl değiştiğini göster.
-- Aynı sahneyi farklı bir uzamda yeniden kurgulatıp değişen dekor, beden ve diyalog kararlarını savundurun. Bu görevde derinleştirme odağı: Canlandırma metninin içerik taslağı.
+- Öğrencinin ‘Kitapta “İçerik Oluşturabilme” başl…’ bağlamındaki ürününü sınıf panosunda sergileyip Canlandırma metninin içerik taslağı sürecinin sunumunu yapmasını sağlayın.
 
 ### Kaynak ve durum
 
@@ -5782,53 +5756,52 @@ Kitapta “İletişim hataları ve çözüm önerileri” başlığı altında v
 
 ### Açıklama ve gerekçe
 
-İletişim hataları ve çözüm önerileri — basılı s.56 için cevap, İletişim hataları ve çözüm önerileri ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Her hata için uygulanabilir ve davranış düzeyinde bir çözüm önerir.
+Bu görevdeki ‘Kitapta “İletişim hataları ve çözüm önerileri” baş…’ tablosundaki maddelerin (ornekler) doğruluğu, kaynak metindeki açık ifadeler ve çıkarımlar ile karşılaştırılarak temellendirilir. Öğrencinin izlemesi gereken çıkarım yolu; her bir cümleyi tek tek metindeki ifadelerle eşleştirmek, metinde doğrudan doğrulanan yargıları 'Evet', açıkça çelişenleri 'Hayır' ve metinde hakkında hüküm verilmeyen yargıları ise 'Bilgi yok' olarak sınıflandırmaktır. Her hata için uygulanabilir ve davranış düzeyinde bir çözüm önerir.
 
 ### Öğretmenin bilmesi gerekenler
 
-İletişim hataları ve çözüm önerileri — basılı s.56 görevinde iletişimi yalnız konuşma veya bilgi aktarımı olarak daraltmayın. Gönderici, alıcı, ileti, kanal, bağlam ve geri bildirim birlikte işler; gürültü fiziksel olabileceği gibi önyargı, dikkatsizlik, belirsiz dil veya uygun olmayan kanal da olabilir. Çok modlu metinde ses, görüntü, yazı ve müzik aynı iletiyi destekleyebilir ya da farklılaştırabilir. Bu görevde özellikle ‘İletişim hataları ve çözüm önerileri’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+İletişim; gönderici, alıcı, ileti, kanal ve bağlam unsurlarının etkileşimiyle gerçekleşen dinamik bir anlam paylaşımı sürecidir. Tarihsel süreçte yazılı, sözlü ve kitle iletişim araçlarından dijital ağlara geçiş, iletişim alışkanlıklarını ve etkileşim hızını dönüştürmüştür. Öğretmen bu görevde, iletişim araçlarının toplumsal ilişkileri ve bireyler arası bağları nasıl şekillendirdiğini açıklamalıdır. Bu görevde öğretmen, İletişim hataları ve çözüm önerileri çerçevesinde sorulan ‘Kitapta “İletişim hataları ve çözüm önerileri” baş…’ konusu üzerinden öğrencinin metin kanıtları ile kavramsal çıkarımlar arasındaki ilişkiyi doğru kurmasını sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> İletişimde anlam, yalnız sözcüklerden değil; kanal, bağlam, ses, görüntü ve karşılıklı tepkiden birlikte oluşur. Bu görevde özellikle İletişim hataları ve çözüm önerileri üzerinde durun.
+> Bu görevde sizden beklenen; metindeki ipuçlarından hareketle ‘Kitapta “İletişim hataları ve çözüm önerileri…’ konusunu incelemeniz ve İletişim hataları ve çözüm önerileri doğrultusunda ‘ornekler: [{'hata': 'söz kesme / di…’ sonucuna nasıl ulaşıldığını adım adım açıklamanızdır.
 
 ### Bu görev neden burada?
 
-Bu görev, İletişim hataları ve çözüm önerileri üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir.
+Bu görev, öğrencinin ‘Kitapta “İletişim hataları ve çözüm önerileri…’ üzerinden İletişim hataları ve çözüm önerileri becerisini somut bir metin bağlamında deneyimlemesini ve iddialarını kanıtla destekleme alışkanlığı kazanmasını sağlar.
 
 ### Ders içi uygulama
 
 - 'Daha iyi iletişim kurmalı' gibi soyut çözümleri somut davranışa dönüştürt.
 - “Daha iyi iletişim kurmalı” gibi soyut çözümleri kabul etmek yerine çözümü gözlenebilir davranışa dönüştürtün.
-- İletişim hataları ve çözüm önerileri — basılı s.56 için öğrencinin önce iletişim ögesini, sonra aksamanın nerede oluştuğunu ve son olarak sonucu yazdığı bir neden-sonuç zinciri kurdurun.
-- Aynı mesajı yüz yüze, telefonla ve e-postayla iletme durumlarını karşılaştırarak kanalın dil/beden sesi üzerindeki etkisini tartıştırın.
+- Öğrencilerden İletişim hataları ve çözüm önerileri açısından metindeki zıtlık ve benzerlikleri belirleyerek not almalarını isteyin.
+- İddialar ile ‘İletişim hataları ve çözüm önerileri (T1V23_P56_ERROR_SOLUTION)’ kanıtları arasındaki mantıksal bağı adım adım sorgulatarak temellendirin.
 
 ### Öğrenci cevaplarını değerlendirme
 
 - Hata–çözüm eşleştirme tablosu.
 - Her hata için uygulanabilir ve davranış düzeyinde bir çözüm önerir.
-- İletişim ögeleri ile aksama/çözüm arasındaki neden-sonuç bağı.
-- Ses, görüntü veya dil unsurunun ileti üzerindeki işlevini somut bir ayrıntıyla açıklama.
+- Öğrencinin ‘Kitapta “İletişim hataları ve çözüm öner…’ sorusuna verdiği cevapta metinden doğrudan alıntı veya somut kanıt göstermesi.
+- İleri sürülen iddia ile metin dayanağı arasında İletişim hataları ve çözüm önerileri ölçütüne uygun mantıksal bir bağ kurulması.
 
 ### Sık yanılgılar
 
 - Çözümü karşı tarafın kişiliğini değiştirmeye bağlamak.
-- İletişim engelini yalnız fiziksel gürültü sanmak.
-- Karşı tarafla aynı fikirde olmamayı tek başına iletişim engeli saymak veya iletişimde geri bildirimi gereksiz görmek.
+- ‘İletişim hataları ve çözüm önerileri (T1V23_P56_ERROR_SOLUTION)’ sorusunda metindeki nesnel kanıtlar yerine kendi kişisel kanaat ve varsayımlarını tek dayanak olarak kabul etmek.
 
 ### Müdahale
 
-- İletişim hataları ve çözüm önerileri — basılı s.56 için müdahale: Öğrenciden fiziksel ses olmayan fakat önyargı ya da belirsiz söz nedeniyle bozulan kısa bir örnek kurmasını isteyin; engel türünü adlandırsın.
-- İletişim hataları ve çözüm önerileri — basılı s.56 için müdahale: Mesajı farklı bir kanala taşıtıp hangi bilgi ve duygunun kaybolduğunu iki sütunda karşılaştırın.
+- Öğrenciye ‘İletişim hataları ve çözüm önerileri (T1V23_P56_ERROR_SOLUTION)’ çerçevesinde ‘çözümü karşı tarafın kişiliğini’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- Öğrenciden ‘İletişim hataları ve çözüm önerileri (T1V23_P56_ERROR_SOLUTION)’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Bir örnek satırı birlikte doldur.
-- İletişim zincirini ‘gönderici → ileti → kanal → alıcı → geri bildirim’ biçiminde verip engel noktasını işaretletin. Bu görevde bağlantı noktası: İletişim hataları ve çözüm önerileri.
+- ‘Kitapta “İletişim hataları ve çözüm…’ sorusunu yanıtlamakta zorlanan öğrenciye metindeki ilgili paragrafı işaretleyin; önce anahtar kavramları buldurarak cevabı adım adım kurdurun.
 **Zenginleştirme**
 - Çözümün işe yaramadığı durumda ikinci seçenek üretmesini iste.
-- Aynı iletiyi iki farklı kanalda tasarlatıp hangi durumda kanal değişikliğinin etik ve işlevsel sonuç doğuracağını tartıştırın. Bu görevde derinleştirme odağı: İletişim hataları ve çözüm önerileri.
+- Öğrenciden ‘Kitapta “İletişim hataları ve çözüm…’ çerçevesinde ulaştığı ‘ornekler: [{'hata': 'söz kesme…’ sonucunu, okuduğu farklı bir edebî eserle karşılaştıran kısa bir eleştiri yazısı yazmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -5872,18 +5845,18 @@ Tek sabit cevap yok; ürün/süreç, aşağıdaki ölçütlerle değerlendirilir
 
 ### Açıklama ve gerekçe
 
-Canlandırmayı gerçekleştirme — basılı s.57 bir tek cümlelik cevap anahtarı değil, kitapta yürütülen bir süreç veya ürün çalışmasıdır. Doğru uygulama; öğrencinin Canlandırmayı gerçekleştirme kararını görünür kılması, çalışma adımlarını tamamlaması ve ortaya çıkan ürünü kitapta belirtilen amaca göre açıklamasıdır.
+Bu görevde tekil bir cevap kalıbı bulunmayıp ‘Kitapta “Kural Uygulayabilme” başlığı altında veri…’ odağında Canlandırmayı gerçekleştirme becerisinin işletilmesi hedeflenir. Ölçüt dayanağı; öğrencinin Canlandırmanın kime, nasıl, nerede ve hangi araçlarla yapılacağını plana uygun yürütür. Beden dilini, diksiyonu, telaffuzu, vurgu ve tonlamayı anlaşılır biçimde kullanır. ilkesiyle uyumlu, gerekçelendirilmiş ve tutarlı bir çalışma sunmasıdır.
 
 ### Bu görev neden burada?
 
-Bu görev, Canlandırmayı gerçekleştirme üzerinden tiyatronun gösterme, konuşma ve sahneleme araçlarını işlevleriyle ilişkilendirir.
+Görev, ‘Kitapta “Kural Uygulayabilme” başlığı altında…’ konusundaki gözlemleri Canlandırmayı gerçekleştirme ile sentezleyerek metin çözümleme disiplinini pekiştirir ve öğrencinin Canlandırmayı gerçekleştirme odaklı eleştirel düşünme kapasitesini artırır.
 
 ### Ders içi uygulama
 
 - Yazılı senaryoyu tek başına TDE3.3 kanıtı sayma; kitap ve ders planları canlı sözlü performans/canlandırma kanıtı ister.
 - Kalabalık sınıfta dört paralel grup ve dönüşümlü gözlemci rolü ders planlarında tanımlanan uygulanabilir rotadır; bireysel gözlenebilirlik korunmalıdır.
 - Yazılı senaryoyu tek başına yeterli kanıt saymayın. Canlı performansta beden dili, diksiyon/telaffuz, vurgu-tonlama, dinleyici etkileşimi ve iletişim engelinin görünürlüğünü gözleyin.
-- Canlandırmayı gerçekleştirme — basılı s.57 için öğrenciden her çıkarımını diyalog, sahne yönergesi, beden davranışı veya dekor ayrıntısından biriyle dayandırmasını isteyin.
+- Öğrencileri küçük gruplara ayırarak ‘Canlandırmayı gerçekleştirme (T1V23_P57_APPLY)’ sorusunun işaret ettiği kanıtları metin üzerinden tespit ettirin.
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -5896,10 +5869,10 @@ Bu görev, Canlandırmayı gerçekleştirme üzerinden tiyatronun gösterme, kon
 
 **Destek**
 - Küçük grup canlı performans veya öğretmen gözlemli rota kullan; hedef kanıtı azaltma.
-- Öğrenciye ‘karakter amacı — çatışma — söylenen — gösterilen — seyirci etkisi’ çizelgesini verin. Bu görevde bağlantı noktası: Canlandırmayı gerçekleştirme.
+- ‘Kitapta “Kural Uygulayabilme” başlı…’ uygulamasında öğrencinin taslak oluşturmasına yardımcı olmak için Canlandırmayı gerçekleştirme doğrultusunda yönlendirici cümle başlangıçları verin.
 **Zenginleştirme**
 - Aynı sahnenin iletişim engelli ve engeli aşılmış iki sürümünü canlandır.
-- Aynı sahneyi farklı bir uzamda yeniden kurgulatıp değişen dekor, beden ve diyalog kararlarını savundurun. Bu görevde derinleştirme odağı: Canlandırmayı gerçekleştirme.
+- ‘Kitapta “Kural Uygulayabilme” başlı…’ çerçevesinde hazırlanan metne Canlandırmayı gerçekleştirme açısından karşıt bir bakış açısı getiren eleştirel bir ek paragraf yazdırın.
 
 ### Kaynak ve durum
 
@@ -5954,23 +5927,23 @@ Kitapta “Süreci Değerlendirebilme” başlığı altında verilen çalışma
 
 ### Açıklama ve gerekçe
 
-ölçüt kullanarak değerlendirme — basılı s.58 için beklenen yön, ölçüt kullanarak değerlendirme yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Evet/Kısmen/Hayır seçimini performanstan somut kanıtla gerekçelendirir. En az bir güçlü yön ve bir geliştirme hedefi belirler.
+‘Kitapta “Süreci Değerlendirebilme” başlığı altında…’ kapsamındaki tablo maddeleri (olcutler), kaynak metindeki verilerle satır satır karşılaştırılarak değerlendirilir. Öğrencinin izleyeceği yöntem; metinde doğrudan doğrulanan önermelere 'Evet', açıkça reddedilenlere 'Hayır', doğrulanmayan veya değinilmeyenlere ise 'Bilgi yok' karşılığını vermektir. Evet/Kısmen/Hayır seçimini performanstan somut kanıtla gerekçelendirir. En az bir güçlü yön ve bir geliştirme hedefi belirler.
 
 ### Öğretmenin bilmesi gerekenler
 
-ölçüt kullanarak değerlendirme — basılı s.58 görevinde hikâye ve anıyı yalnız olay sıralamasıyla açıklamayın. Anlatıcı bir olayı, kişiyi, zaman ve mekânı seçer; bu seçimler hatırlama, bakış açısı, amaç ve dil aracılığıyla anlam kazanır. Hikâyede kurmaca düzenleme ağır basabilir; anı yaşanmışlık iddiası taşır fakat o da seçilmiş ve anlatılmış bir geçmiş deneyimdir. Bu görevde özellikle ‘Öz Değerlendirme Formu — kitapta görünür ölçütler — Süreci Değerlendirebilme’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Âşık edebiyatı, saz şairlerinin usta-çırak ilişkisi içinde, saz eşliğinde ve doğaçlama olarak şiir söylediği köklü bir sözlü gelenektir. Koşma, semai gibi nazım şekilleri hece ölçüsü ve dörtlüklerle kurulur; şairler son dörtlükte tapşırma (mahlas) kullanarak geleneğe bağlanır. Öğretmen, şiirin musikiyle birleştiğinde duygu aktarımını ve toplumsal hafızayı nasıl güçlendirdiğini açıklamalıdır. Bu görev adımında öğretmen, ‘Kitapta “Süreci Değerlendirebilme” başlığı altında…’ ile ilgili sınıf tartışmasını ölçüt kullanarak değerlendirme zemininde yapılandırmalı ve ‘olcutler: ['sözlü iletişim engellerine d…’ doğrultusundaki tespitleri metin üzerinden teyit ettirmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir anlatıda olayların nasıl seçildiği ve kimin bakışından aktarıldığı, olayın okurda oluşturduğu anlamı değiştirir. Bu görevde özellikle ölçüt kullanarak değerlendirme üzerinde durun.
+> Bu etkinlikte amacınız, ‘Kitapta “Süreci Değerlendirebilme” başlığı al…’ konusunu ölçüt kullanarak değerlendirme perspektifinden tahlil etmektir. İddialarınızı metinden somut göstergelerle destekleyerek ‘olcutler: ['sözlü iletişim engeller…’ niteliğinde bir çıkarım yapın.
 
 ### Bu görev neden burada?
 
-Bu görev, ölçüt kullanarak değerlendirme üzerinden olay, anlatıcı, kişi ve kültürel bağlamı birlikte okumayı geliştirir.
+Görev, ‘Kitapta “Süreci Değerlendirebilme” başlığı al…’ konusundaki gözlemleri ölçüt kullanarak değerlendirme ile sentezleyerek metin çözümleme disiplinini pekiştirir ve öğrencinin ‘olcutler: ['sözlü iletişim engeller…’ odaklı eleştirel düşünme kapasitesini artırır.
 
 ### Kabul edilebilir cevaplar
 
-- Bu görev, ölçüt kullanarak değerlendirme üzerinden olay, anlatıcı, kişi ve kültürel bağlamı birlikte okumayı geliştirir. Kaynak ayrıntısı ve gerekçesi bulunan farklı ifadeler kabul edilir.
+- Bu görev, ölçüt kullanarak değerlendirme üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir. Kaynak ayrıntısı ve gerekçesi bulunan farklı ifadeler kabul edilir.
 - Kişisel görüş, metin/kaynak dayanağı ve gerekçe birlikte verildiğinde alternatif cevap olarak değerlendirilebilir.
 
 ### Ders içi uygulama
@@ -5978,39 +5951,38 @@ Bu görev, ölçüt kullanarak değerlendirme üzerinden olay, anlatıcı, kişi
 - Formu öğrencinin yerine doldurma. 'Hangi performans anı bu seçimini kanıtlıyor?' sorusunu kullan.
 - Öz değerlendirme formunu öğrencinin yerine doldurmayın; Evet/Kısmen/Hayır seçimini “hangi performans anı bunu kanıtlıyor?” sorusuyla somutlaştırın.
 - Öğrencinin sonunda bir güçlü yön ve bir geliştirme hedefi yazmasını isteyin.
-- ölçüt kullanarak değerlendirme — basılı s.58 için öğrencinin olay çizgisini çıkarmasını, ardından anlatıcının seçtiği ayrıntının kişi veya kültür anlamına etkisini açıklamasını isteyin.
+- Öğrencilere ‘ölçüt kullanarak değerlendirme (T1V23_P58_SELF_ASSESS)’ bağlamındaki anahtar kavramları listeleterek metin taraması yapmalarını sağlayın.
 
 ### Takip soruları
 
-- ölçüt kullanarak değerlendirme — basılı s.58 için düşünme sorusu: Anlatıcı bu ayrıntıyı seçmeseydi okurun kişi veya olay hakkındaki düşüncesi nasıl değişirdi? Özellikle ‘Öz Değerlendirme Formu — kitapta görünür ölçütler — Süreci Değerlendirebilme’ ayrıntısını yoklayın.
-- ölçüt kullanarak değerlendirme — basılı s.58 içinde kültürel unsur olayın yalnız dekoru mu, yoksa kişilerin kararını ve ilişkisini etkileyen bir öge mi? Özellikle ‘Öz Değerlendirme Formu — kitapta görünür ölçütler — Süreci Değerlendirebilme’ ayrıntısını yoklayın.
+- ‘ölçüt kullanarak değerlendirme (T1V23_P58_SELF_ASSESS)’ görevinde uygulanan değerlendirme ölçütleri, öğrencinin ölçüt kullanarak değerlendirme yeterliğini tarafsız biçimde ölçmekte yeterli midir?
+- ‘ölçüt kullanarak değerlendirme (T1V23_P58_SELF_ASSESS)’ odağındaki yargıyı çürütebilecek karşıt bir görüş hangi ölçütlere dayandırılabilir?
 
 ### Öğrenci cevaplarını değerlendirme
 
 - Doldurulmuş öz değerlendirme ve kısa yansıtma/revizyon notu.
 - Evet/Kısmen/Hayır seçimini performanstan somut kanıtla gerekçelendirir.
 - En az bir güçlü yön ve bir geliştirme hedefi belirler.
-- Olay, kişi, zaman, mekân ve anlatıcı arasında metne dayalı ilişki.
+- ‘Kitapta “Süreci Değerlendirebilme” başlı…’ için öne sürülen savın metindeki dil ve üslup ayrıntılarıyla desteklenmesi.
 
 ### Sık yanılgılar
 
 - Öz değerlendirmeyi yalnız olumlu kutucukları işaretleme faaliyeti sanmak.
-- Anlatıcının aktardığı her bilgiyi tarafsız ve eksiksiz geçmiş kaydı saymak.
-- Özet yazmayı olayları yorumlamadan art arda sıralamak sanmak.
+- ‘ölçüt kullanarak değerlendirme (T1V23_P58_SELF_ASSESS)’ incelemesinde ulaşılan sonucu metin dışı genel bilgilerle karıştırıp ölçüt kullanarak değerlendirme sınırlarının dışına çıkmak.
 
 ### Müdahale
 
-- ölçüt kullanarak değerlendirme — basılı s.58 için müdahale: Metindeki olayları ‘oldu’, ‘anlatıcı seçti’, ‘okur çıkarımı’ başlıklarıyla ayırın. Müdahaleyi ‘Öz Değerlendirme Formu — kitapta görünür ölçütler — Süreci Değerlendirebilme’ ayrıntısını kullandırarak somutlaştırın.
-- ölçüt kullanarak değerlendirme — basılı s.58 için müdahale: Bir sahneyi başka bir anlatıcının gözünden kısaca yeniden yazdırıp değişen bilgi ve duygu etkisini gösterin. Müdahaleyi ‘Öz Değerlendirme Formu — kitapta görünür ölçütler — Süreci Değerlendirebilme’ ayrıntısını kullandırarak somutlaştırın.
+- ‘ölçüt kullanarak değerlendirme (T1V23_P58_SELF_ASSESS)’ doğrultusunda ‘öz değerlendirmeyi yalnız olumlu’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- ‘ölçüt kullanarak değerlendirme (T1V23_P58_SELF_ASSESS)’ için değerlendirmenin yalnızca verilen metin verileri çerçevesinde yapılması gerektiğini belirleyip kanıt sınırlarını çizdirin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - On ölçütten önce üç kritik ölçüt üzerinde kanıt buldur, sonra tamamlat.
-- Önce ‘kim-ne zaman-nerede-ne oldu?’ tablosunu, sonra ‘anlatıcı bunu neden seçmiş olabilir?’ sorusunu kullandırın. Bu görevde bağlantı noktası: ölçüt kullanarak değerlendirme.
+- Öğrenciyi bir akranıyla eşleştirerek ‘Kitapta “Süreci Değerlendirebilme” …’ hakkındaki düşüncelerini önce sözlü olarak paylaşmasını, ardından yazıya dökmesini isteyin.
 **Zenginleştirme**
 - İlk prova ile son performansı iki ölçüte göre karşılaştırmasını iste.
-- Aynı olayı anı, haber ve hikâye başlangıcı olarak üç biçimde yazdırıp gerçeklik ve bakış açısı farkını tartıştırın. Bu görevde derinleştirme odağı: ölçüt kullanarak değerlendirme.
+- Öğrenciden ‘Kitapta “Süreci Değerlendirebilme” …’ metnindeki ölçüt kullanarak değerlendirme yaklaşımını örnek alarak benzer temada kısa bir kurmaca metin veya deneme taslağı yazmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -6055,15 +6027,15 @@ Tek sabit cevap yok; ürün/süreç, aşağıdaki ölçütlerle değerlendirilir
 
 ### Açıklama ve gerekçe
 
-ölçüt kullanarak değerlendirme — basılı s.58 bir tek cümlelik cevap anahtarı değil, kitapta yürütülen bir süreç veya ürün çalışmasıdır. Doğru uygulama; öğrencinin ölçüt kullanarak değerlendirme kararını görünür kılması, çalışma adımlarını tamamlaması ve ortaya çıkan ürünü kitapta belirtilen amaca göre açıklamasıdır.
+Bu etkinlikte sabit bir formül aranmaz; ölçüt kullanarak değerlendirme amacına yönelik olarak ‘Kitapta “Süreci Değerlendirebilme — akran/öğretmen…’ basamaklarının özgün biçimde yapılandırılması esastır. Geçerlilik ölçütü; yönergedeki adımların eksiksiz tamamlanması ve ortaya çıkan ürünün amaca uygunluğu doğrultusunda öğrencinin ortaya koyduğu tutarlı ürün ve gerekçedir.
 
 ### Öğretmenin bilmesi gerekenler
 
-ölçüt kullanarak değerlendirme — basılı s.58 görevinde drama çalışmasını yalnız metin yazma etkinliği gibi yürütmeyin. Sözlü iletişim engeli davranış, ton, dinlememe veya yanlış varsayım üzerinden sahnede görünür hâle gelir; çözüm ise etkin dinleme, empati, açık dil ve uygun geri bildirimle davranışa dönüşür. Öğrenci performansı sırasında amaç, hedef kitle, beden/ses kullanımı ve grup iş birliği birlikte izlenmelidir. Bu görevde özellikle ‘Akran/öğretmen değerlendirmesi ve QR rubrik sınırı — Süreci Değerlendirebilme — akran/öğretmen değerlendirmesi’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+İletişim; gönderici, alıcı, ileti, kanal ve bağlam unsurlarının etkileşimiyle gerçekleşen dinamik bir anlam paylaşımı sürecidir. Tarihsel süreçte yazılı, sözlü ve kitle iletişim araçlarından dijital ağlara geçiş, iletişim alışkanlıklarını ve etkileşim hızını dönüştürmüştür. Öğretmen bu görevde, iletişim araçlarının toplumsal ilişkileri ve bireyler arası bağları nasıl şekillendirdiğini açıklamalıdır. Bu görev tahlilinde öğretmen, ölçüt kullanarak değerlendirme odağında ‘Kitapta “Süreci Değerlendirebilme — akran/öğretmen…’ sorusuna yönelik yanıtların metin içi tutarlılığını denetlemeli ve yüzeysel yorumların ötesine geçilmesini sağlamalıdır.
 
 ### Bu görev neden burada?
 
-Bu görev, ölçüt kullanarak değerlendirme üzerinden iletişim bilgisini gözlenebilir sözlü performansa dönüştürür.
+Bu soru, ‘Kitapta “Süreci Değerlendirebilme — akran/öğr…’ ayrıntısını ölçüt kullanarak değerlendirme ile birleştirerek dil ve edebiyat çalışmalarında neden-sonuç ilişkisi kurma ve ölçüt kullanarak değerlendirme bağlamını kavrama yeterliğini güçlendirir.
 
 ### Kaynak ve durum
 
@@ -6129,30 +6101,31 @@ Etkili ve güzel dil; duygu ve düşüncelerin açık, doğru ve karşıdakine u
 
 ### Açıklama ve gerekçe
 
-Soru 1 — Konuya Başlarken — üç hazırlık sorusu — basılı s.59 için cevap, Konuya Başlarken — üç hazırlık sorusu ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Dilin iletişimdeki etkisini en az bir işlevle açıklar. Şiirsel dizeleri sözcüklerin çağrışımından hareketle gerekçeli yorumlar.
+Beklenen cevabın temeli, Konuya Başlarken — üç hazırlık sorusu ekseninde ‘Dilin etkili ve güzel kullanımı iletişimde neden ö…’ bağlamını aydınlatan metin kanıtlarının doğru tahlil edilmesidir. Yanıtın kabul edilebilirliği; Dilin iletişimdeki etkisini en az bir işlevle açıklar. Şiirsel dizeleri sözcüklerin çağrışımından hareketle gerekçeli yorumlar. ölçütüne bağlı kalınmasına ve metindeki verilerin tarafsız biçimde yorumlanmasına bağlıdır. Öğrenci; önce ilgili bilgiyi kaynaktan süzmeli, ardından bu bilgiyi sorunun gerektirdiği kavramsal çerçeveye oturtmalıdır. Metin sınırlarını aşmayan ve dayanağı gösterilen özgün öğrenci yorumları da geçerli sayılır.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 1 — Konuya Başlarken — üç hazırlık sorusu — basılı s.59 görevinde iletişimi yalnız konuşma veya bilgi aktarımı olarak daraltmayın. Gönderici, alıcı, ileti, kanal, bağlam ve geri bildirim birlikte işler; gürültü fiziksel olabileceği gibi önyargı, dikkatsizlik, belirsiz dil veya uygun olmayan kanal da olabilir. Çok modlu metinde ses, görüntü, yazı ve müzik aynı iletiyi destekleyebilir ya da farklılaştırabilir. Bu görevde özellikle ‘Dilin etkili ve güzel kullanımı iletişimde neden önemlidir?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+İletişim; gönderici, alıcı, ileti, kanal ve bağlam unsurlarının etkileşimiyle gerçekleşen dinamik bir anlam paylaşımı sürecidir. Tarihsel süreçte yazılı, sözlü ve kitle iletişim araçlarından dijital ağlara geçiş, iletişim alışkanlıklarını ve etkileşim hızını dönüştürmüştür. Öğretmen bu görevde, iletişim araçlarının toplumsal ilişkileri ve bireyler arası bağları nasıl şekillendirdiğini açıklamalıdır. Bu görevde öğretmen, ‘Dilin etkili ve güzel kullanımı iletişimde neden ö…’ yönergesini ele alırken sınıf ortamında Konuya Başlarken — üç hazırlık sorusu boyutunu öne çıkarmalı ve ‘Etkili ve güzel dil; duygu ve düşünceler…’ yönündeki metin dayanaklarını desteklemelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> İletişimde anlam, yalnız sözcüklerden değil; kanal, bağlam, ses, görüntü ve karşılıklı tepkiden birlikte oluşur. Bu görevde özellikle Konuya Başlarken — üç hazırlık sorusu üzerinde durun.
+> Bu çalışmayı yaparken metni dikkatle gözden geçirerek ‘Dilin etkili ve güzel kullanımı iletişimde ne…’ ile ilgili kanıtları belirleyin; ulaştığınız yargıları Konuya Başlarken — üç hazırlık sorusu ve ‘Etkili ve güzel dil; duygu ve düşün…’ çerçevesinde gerekçelendirerek ifade edin.
 
 ### Bu görev neden burada?
 
-Bu görev, Konuya Başlarken — üç hazırlık sorusu üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir.
+Konuya Başlarken — üç hazırlık sorusu eksenindeki bu çalışma, ‘Dilin etkili ve güzel kullanımı iletişimde ne…’ konusunu ele alırken öğrencinin yüzeysel okumadan analitik çözümlemeye geçişini ve ‘Etkili ve güzel dil; duygu ve düşün…’ bağlantısını kurmasını destekler.
 
 ### Ders içi uygulama
 
 - Üç soruyu tek bir genel 'iletişim nedir?' tartışmasına dönüştürme; dilin etkisi, şiirsel yorum ve iletişim davranışı olmak üzere üç ayrı kanıt üret.
-- Soru 1 — Konuya Başlarken — üç hazırlık sorusu — basılı s.59 için öğrencinin önce iletişim ögesini, sonra aksamanın nerede oluştuğunu ve son olarak sonucu yazdığı bir neden-sonuç zinciri kurdurun.
-- Aynı mesajı yüz yüze, telefonla ve e-postayla iletme durumlarını karşılaştırarak kanalın dil/beden sesi üzerindeki etkisini tartıştırın.
+- Öğrencilere ‘Dilin etkili ve güzel kullanımı iletişim…’ bağlamındaki anahtar kavramları listeleterek metin taraması yapmalarını sağlayın.
+- Öğrencilere ‘Eğer ‘Etkili ve güzel dil; duygu ve düşün…’ olmasaydı ne değişirdi?’ sorusunu yönelterek Konuya Başlarken — üç hazırlık sorusu çıkarımını test edin.
+- Öğrencilerden ‘Etkili ve güzel dil; duygu ve düşün…’ yönündeki kanaatlerini tek bir özlü cümleyle ifade etmelerini isteyerek dersi toparlayın.
 
 ### Takip soruları
 
-- Soru 1 — Konuya Başlarken — üç hazırlık sorusu — basılı s.59 için düşünme sorusu: Buradaki aksama göndericiden mi, alıcıdan mı, kanaldan mı, bağlamdan mı kaynaklanıyor; hangi kanıt bunu gösteriyor? Özellikle ‘Dilin etkili ve güzel kullanımı iletişimde neden önemlidir?’ ayrıntısını yoklayın.
-- Soru 1 — Konuya Başlarken — üç hazırlık sorusu — basılı s.59 için başka bir kanal seçilse ileti açıklar mıydı, yoksa yeni bir sorun mu doğururdu? Özellikle ‘Dilin etkili ve güzel kullanımı iletişimde neden önemlidir?’ ayrıntısını yoklayın.
+- Metindeki ‘Dilin etkili ve güzel kullanımı iletişim…’ tasarımı, geri bildirim almayı ve etkili bir etkileşim kurmayı nasıl kolaylaştırmaktadır?
+- İletişimde ‘Dilin etkili ve güzel kullanımı iletişim…’ ögesinin eksik veya hatalı yapılandırılması hangi yanlış anlamalara yol açabilirdi?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -6165,21 +6138,22 @@ Bu görev, Konuya Başlarken — üç hazırlık sorusu üzerinden iletişimde n
 
 - Şiirsel dizeyi yalnız gerçek anlamıyla açıklamak.
 - Sağlıklı iletişimi yalnız güzel konuşmaya indirgemek.
-- İletişim engelini yalnız fiziksel gürültü sanmak.
+- ‘Dilin etkili ve güzel kullanımı ile…’ bağlamında geçen sözcüklerin metindeki özel bağlamsal anlamı yerine ilk akla gelen sözlük anlamıyla yetinmek.
 
 ### Müdahale
 
-- Soru 1 — Konuya Başlarken — üç hazırlık sorusu — basılı s.59 için müdahale: Öğrenciden fiziksel ses olmayan fakat önyargı ya da belirsiz söz nedeniyle bozulan kısa bir örnek kurmasını isteyin; engel türünü adlandırsın. Müdahaleyi ‘Dilin etkili ve güzel kullanımı iletişimde neden önemlidir?’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 1 — Konuya Başlarken — üç hazırlık sorusu — basılı s.59 için müdahale: Mesajı farklı bir kanala taşıtıp hangi bilgi ve duygunun kaybolduğunu iki sütunda karşılaştırın. Müdahaleyi ‘Dilin etkili ve güzel kullanımı iletişimde neden önemlidir?’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Dilin etkili ve güzel kullanımı ile…’ doğrultusunda ‘şiirsel dizeyi yalnız gerçek’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Öğrenciden ‘Dilin etkili ve güzel kullanımı ile…’ bağlamında ‘sağlıklı iletişimi yalnız güzel’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- Sözcüğün geçtiği cümleyi ve paragrafı bütünüyle okutarak ‘Dilin etkili ve güzel kullanımı ile…’ bağlamının anlama yüklediği yeni ve mecazi çağrışımları adım adım açıklatın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Açıklık–dinleme–saygı–empati anahtar sözcüklerini ipucu olarak ver.
-- İletişim zincirini ‘gönderici → ileti → kanal → alıcı → geri bildirim’ biçiminde verip engel noktasını işaretletin. Bu görevde bağlantı noktası: Konuya Başlarken — üç hazırlık sorusu.
+- Öğrenciye ‘iddia — metin kanıtı — Konuya Başlarken — üç hazırlık sorusu gerekçesi’ üçlü şemasını tahtada ‘Dilin etkili ve güzel kullanımı ile…’ üzerinden örnekleyerek cevabını oluşturmasını sağlayın.
 **Zenginleştirme**
 - Aynı mesajın farklı dil ve tonla iletilmesinin sonucunu karşılaştırmasını iste.
-- Aynı iletiyi iki farklı kanalda tasarlatıp hangi durumda kanal değişikliğinin etik ve işlevsel sonuç doğuracağını tartıştırın. Bu görevde derinleştirme odağı: Konuya Başlarken — üç hazırlık sorusu.
+- ‘Dilin etkili ve güzel kullanımı ile…’ için ulaşılan cevabı sınıfta farklı bir bakış açısıyla savunmasını veya karşıt bir tezi çürütmesini isteyerek Konuya Başlarken — üç hazırlık sorusu ekseninde tartışma başlatın.
 
 ### Tahta notu
 
@@ -6241,19 +6215,19 @@ Dizelerde insanın doğa ve hayatla iç içe, çevresine yarar sağlayan ve geni
 
 ### Açıklama ve gerekçe
 
-Soru 2 — Konuya Başlarken — üç hazırlık sorusu — basılı s.59 için beklenen yön, Konuya Başlarken — üç hazırlık sorusu yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Dilin iletişimdeki etkisini en az bir işlevle açıklar. Şiirsel dizeleri sözcüklerin çağrışımından hareketle gerekçeli yorumlar.
+Bu soruda hedeflenen yanıt, metnin ana dokusunda yer alan ‘“Yıldızlara çobandık, değirmenlere su, / Bozkırlar…’ ayrıntısını Konuya Başlarken — üç hazırlık sorusu perspektifiyle analiz etmeye dayanır. Doğruluk dayanağı; Dilin iletişimdeki etkisini en az bir işlevle açıklar. Şiirsel dizeleri sözcüklerin çağrışımından hareketle gerekçeli yorumlar. ilkesinin karşılanması ve metindeki göstergelerin somut kanıtlarla açıklanmasıdır. Öğrencinin izleyeceği bilişsel basamaklar; metin parçalarını taramak, kavramsal anahtarları tespit etmek ve bu bulguları sentezleyerek tutarlı bir değerlendirme üretmektir. İfadeler birebir aynı olmak zorunda olmayıp metinle çelişmeyen ve gerekçelendirilmiş farklı yaklaşımlar geçerli kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 2 — Konuya Başlarken — üç hazırlık sorusu — basılı s.59 görevinde iletişimi yalnız konuşma veya bilgi aktarımı olarak daraltmayın. Gönderici, alıcı, ileti, kanal, bağlam ve geri bildirim birlikte işler; gürültü fiziksel olabileceği gibi önyargı, dikkatsizlik, belirsiz dil veya uygun olmayan kanal da olabilir. Çok modlu metinde ses, görüntü, yazı ve müzik aynı iletiyi destekleyebilir ya da farklılaştırabilir. Bu görevde özellikle ‘“Yıldızlara çobandık, değirmenlere su, / Bozkırlara bulut gölgesiydik.” dizelerini yorumlayınız’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+İletişim; gönderici, alıcı, ileti, kanal ve bağlam unsurlarının etkileşimiyle gerçekleşen dinamik bir anlam paylaşımı sürecidir. Tarihsel süreçte yazılı, sözlü ve kitle iletişim araçlarından dijital ağlara geçiş, iletişim alışkanlıklarını ve etkileşim hızını dönüştürmüştür. Öğretmen bu görevde, iletişim araçlarının toplumsal ilişkileri ve bireyler arası bağları nasıl şekillendirdiğini açıklamalıdır. Bu görev adımında öğretmen, ‘“Yıldızlara çobandık, değirmenlere su, / Bozkırlar…’ ile ilgili sınıf tartışmasını Konuya Başlarken — üç hazırlık sorusu zemininde yapılandırmalı ve ‘Dizelerde insanın doğa ve hayatla iç içe…’ doğrultusundaki tespitleri metin üzerinden teyit ettirmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> İletişimde anlam, yalnız sözcüklerden değil; kanal, bağlam, ses, görüntü ve karşılıklı tepkiden birlikte oluşur. Bu görevde özellikle Konuya Başlarken — üç hazırlık sorusu üzerinde durun.
+> Bu etkinlikte amacınız, ‘“Yıldızlara çobandık, değirmenlere su, / Bozk…’ konusunu Konuya Başlarken — üç hazırlık sorusu perspektifinden tahlil etmektir. İddialarınızı metinden somut göstergelerle destekleyerek ‘Dizelerde insanın doğa ve hayatla i…’ niteliğinde bir çıkarım yapın.
 
 ### Bu görev neden burada?
 
-Bu görev, Konuya Başlarken — üç hazırlık sorusu üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir.
+Görev, ‘“Yıldızlara çobandık, değirmenlere su, / Bozk…’ konusundaki gözlemleri Konuya Başlarken — üç hazırlık sorusu ile sentezleyerek metin çözümleme disiplinini pekiştirir ve öğrencinin ‘Dizelerde insanın doğa ve hayatla i…’ odaklı eleştirel düşünme kapasitesini artırır.
 
 ### Kabul edilebilir cevaplar
 
@@ -6264,13 +6238,13 @@ Bu görev, Konuya Başlarken — üç hazırlık sorusu üzerinden iletişimde n
 
 - Üç soruyu tek bir genel 'iletişim nedir?' tartışmasına dönüştürme; dilin etkisi, şiirsel yorum ve iletişim davranışı olmak üzere üç ayrı kanıt üret.
 - Tek bir açıklamayı anahtar cevap gibi dayatmayın; öğrencinin yorumunun dizelerdeki imge ve çağrışımla gerekçelendirilmesini arayın.
-- Soru 2 — Konuya Başlarken — üç hazırlık sorusu — basılı s.59 için öğrencinin önce iletişim ögesini, sonra aksamanın nerede oluştuğunu ve son olarak sonucu yazdığı bir neden-sonuç zinciri kurdurun.
-- Aynı mesajı yüz yüze, telefonla ve e-postayla iletme durumlarını karşılaştırarak kanalın dil/beden sesi üzerindeki etkisini tartıştırın.
+- ‘“Yıldızlara çobandık, değirmenlere su, /…’ sorusunu sınıfa yönelterek ilk izlenimleri ve metinle ilgili sezgisel yaklaşımları tahtada toplayın.
+- ‘“Yıldızlara çobandık, değirmenlere su, /…’ ile metnin ana fikri arasındaki neden-sonuç ilişkisini tahta üzerinde şemalaştırarak gösterin.
 
 ### Takip soruları
 
-- Soru 2 — Konuya Başlarken — üç hazırlık sorusu — basılı s.59 için düşünme sorusu: Buradaki aksama göndericiden mi, alıcıdan mı, kanaldan mı, bağlamdan mı kaynaklanıyor; hangi kanıt bunu gösteriyor? Özellikle ‘“Yıldızlara çobandık, değirmenlere su, / Bozkırlara bulut gölgesiydik.” dizelerini yorumlayınız’ ayrıntısını yoklayın.
-- Soru 2 — Konuya Başlarken — üç hazırlık sorusu — basılı s.59 için başka bir kanal seçilse ileti açıklar mıydı, yoksa yeni bir sorun mu doğururdu? Özellikle ‘“Yıldızlara çobandık, değirmenlere su, / Bozkırlara bulut gölgesiydik.” dizelerini yorumlayınız’ ayrıntısını yoklayın.
+- ‘“Yıldızlara çobandık, değirmenlere su, /…’ için verilen ‘Dizelerde insanın doğa ve hayatla i…’ cevabını çürütebilecek karşıt bir görüş ileri sürülebilir mi; bu karşıt görüş metne dayandırılabilir mi?
+- Metinde ‘“Yıldızlara çobandık, değirmenlere su, /…’ için ulaşılan ‘Dizelerde insanın doğa ve hayatla i…’ sonucunu destekleyen en güçlü kanıt hangisidir; bu unsur metinden çıkarılsaydı iletide ne gibi bir eksiklik oluşurdu?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -6283,21 +6257,22 @@ Bu görev, Konuya Başlarken — üç hazırlık sorusu üzerinden iletişimde n
 
 - Şiirsel dizeyi yalnız gerçek anlamıyla açıklamak.
 - Sağlıklı iletişimi yalnız güzel konuşmaya indirgemek.
-- İletişim engelini yalnız fiziksel gürültü sanmak.
+- ‘“Yıldızlara çobandık, değirmenlere …’ incelemesinde ulaşılan sonucu metin dışı genel bilgilerle karıştırıp Konuya Başlarken — üç hazırlık sorusu sınırlarının dışına çıkmak.
 
 ### Müdahale
 
-- Soru 2 — Konuya Başlarken — üç hazırlık sorusu — basılı s.59 için müdahale: Öğrenciden fiziksel ses olmayan fakat önyargı ya da belirsiz söz nedeniyle bozulan kısa bir örnek kurmasını isteyin; engel türünü adlandırsın. Müdahaleyi ‘“Yıldızlara çobandık, değirmenlere su, / Bozkırlara bulut gölgesiydik.” dizelerini yorumlayınız’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 2 — Konuya Başlarken — üç hazırlık sorusu — basılı s.59 için müdahale: Mesajı farklı bir kanala taşıtıp hangi bilgi ve duygunun kaybolduğunu iki sütunda karşılaştırın. Müdahaleyi ‘“Yıldızlara çobandık, değirmenlere su, / Bozkırlara bulut gölgesiydik.” dizelerini yorumlayınız’ ayrıntısını kullandırarak somutlaştırın.
+- ‘“Yıldızlara çobandık, değirmenlere …’ incelemesinde ‘şiirsel dizeyi yalnız gerçek’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Öğrenciye ‘“Yıldızlara çobandık, değirmenlere …’ çerçevesinde ‘sağlıklı iletişimi yalnız güzel’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- ‘“Yıldızlara çobandık, değirmenlere …’ için değerlendirmenin yalnızca verilen metin verileri çerçevesinde yapılması gerektiğini belirleyip kanıt sınırlarını çizdirin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Açıklık–dinleme–saygı–empati anahtar sözcüklerini ipucu olarak ver.
-- İletişim zincirini ‘gönderici → ileti → kanal → alıcı → geri bildirim’ biçiminde verip engel noktasını işaretletin. Bu görevde bağlantı noktası: Konuya Başlarken — üç hazırlık sorusu.
+- Öğrenciyi bir akranıyla eşleştirerek ‘“Yıldızlara çobandık, değirmenlere …’ hakkındaki düşüncelerini önce sözlü olarak paylaşmasını, ardından yazıya dökmesini isteyin.
 **Zenginleştirme**
 - Aynı mesajın farklı dil ve tonla iletilmesinin sonucunu karşılaştırmasını iste.
-- Aynı iletiyi iki farklı kanalda tasarlatıp hangi durumda kanal değişikliğinin etik ve işlevsel sonuç doğuracağını tartıştırın. Bu görevde derinleştirme odağı: Konuya Başlarken — üç hazırlık sorusu.
+- Öğrenciden ‘“Yıldızlara çobandık, değirmenlere …’ metnindeki Konuya Başlarken — üç hazırlık sorusu yaklaşımını örnek alarak benzer temada kısa bir kurmaca metin veya deneme taslağı yazmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -6355,30 +6330,31 @@ Açık ve anlaşılır konuşma, etkin dinleme, uygun hitap ve ses tonu, empati,
 
 ### Açıklama ve gerekçe
 
-Soru 3 — Konuya Başlarken — üç hazırlık sorusu — basılı s.59 için cevap, Konuya Başlarken — üç hazırlık sorusu ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Dilin iletişimdeki etkisini en az bir işlevle açıklar. Şiirsel dizeleri sözcüklerin çağrışımından hareketle gerekçeli yorumlar.
+Beklenen cevabın temeli, Konuya Başlarken — üç hazırlık sorusu ekseninde ‘Sağlıklı bir iletişim kurmanın yolları nelerdir?…’ bağlamını aydınlatan metin kanıtlarının doğru tahlil edilmesidir. Yanıtın kabul edilebilirliği; Dilin iletişimdeki etkisini en az bir işlevle açıklar. Şiirsel dizeleri sözcüklerin çağrışımından hareketle gerekçeli yorumlar. ölçütüne bağlı kalınmasına ve metindeki verilerin tarafsız biçimde yorumlanmasına bağlıdır. Öğrenci; önce ilgili bilgiyi kaynaktan süzmeli, ardından bu bilgiyi sorunun gerektirdiği kavramsal çerçeveye oturtmalıdır. Metin sınırlarını aşmayan ve dayanağı gösterilen özgün öğrenci yorumları da geçerli sayılır.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 3 — Konuya Başlarken — üç hazırlık sorusu — basılı s.59 görevinde iletişimi yalnız konuşma veya bilgi aktarımı olarak daraltmayın. Gönderici, alıcı, ileti, kanal, bağlam ve geri bildirim birlikte işler; gürültü fiziksel olabileceği gibi önyargı, dikkatsizlik, belirsiz dil veya uygun olmayan kanal da olabilir. Çok modlu metinde ses, görüntü, yazı ve müzik aynı iletiyi destekleyebilir ya da farklılaştırabilir. Bu görevde özellikle ‘Sağlıklı bir iletişim kurmanın yolları nelerdir?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+İletişim; gönderici, alıcı, ileti, kanal ve bağlam unsurlarının etkileşimiyle gerçekleşen dinamik bir anlam paylaşımı sürecidir. Tarihsel süreçte yazılı, sözlü ve kitle iletişim araçlarından dijital ağlara geçiş, iletişim alışkanlıklarını ve etkileşim hızını dönüştürmüştür. Öğretmen bu görevde, iletişim araçlarının toplumsal ilişkileri ve bireyler arası bağları nasıl şekillendirdiğini açıklamalıdır. Bu görevde öğretmenin kılavuzluğu, ‘Sağlıklı bir iletişim kurmanın yolları nelerdir?…’ bağlamında öğrencinin Konuya Başlarken — üç hazırlık sorusu ve ‘Açık ve anlaşılır konuşma, etkin dinleme…’ arasındaki mantıksal nedensellik bağını metin üzerinden kavramasına odaklanmalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> İletişimde anlam, yalnız sözcüklerden değil; kanal, bağlam, ses, görüntü ve karşılıklı tepkiden birlikte oluşur. Bu görevde özellikle Konuya Başlarken — üç hazırlık sorusu üzerinde durun.
+> Bu soruda, ‘Sağlıklı bir iletişim kurmanın yolları nelerd…’ odağını metnin genel anlam akışı içinde değerlendirmeniz gerekmektedir. Tespit ettiğiniz verileri Konuya Başlarken — üç hazırlık sorusu açısından yorumlayarak ‘Açık ve anlaşılır konuşma, etkin di…’ yönünde tutarlı bir sonuca varın.
 
 ### Bu görev neden burada?
 
-Bu görev, Konuya Başlarken — üç hazırlık sorusu üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir.
+Öğrencinin ‘Sağlıklı bir iletişim kurmanın yolları nelerd…’ incelemesi yoluyla Konuya Başlarken — üç hazırlık sorusu kavramını içselleştirmesi, edebî metinlerdeki anlam katmanlarını fark etmesine ve ‘Açık ve anlaşılır konuşma, etkin di…’ yönünde derinlikli bakış kazanmasına zemin hazırlar.
 
 ### Ders içi uygulama
 
 - Üç soruyu tek bir genel 'iletişim nedir?' tartışmasına dönüştürme; dilin etkisi, şiirsel yorum ve iletişim davranışı olmak üzere üç ayrı kanıt üret.
-- Soru 3 — Konuya Başlarken — üç hazırlık sorusu — basılı s.59 için öğrencinin önce iletişim ögesini, sonra aksamanın nerede oluştuğunu ve son olarak sonucu yazdığı bir neden-sonuç zinciri kurdurun.
-- Aynı mesajı yüz yüze, telefonla ve e-postayla iletme durumlarını karşılaştırarak kanalın dil/beden sesi üzerindeki etkisini tartıştırın.
+- Metindeki anlatım tutumunu fark ettirmek için ‘Sağlıklı bir iletişim kurmanın yolları n…’ bölümünü sesli okutun.
+- Belirlenen alıntıların Konuya Başlarken — üç hazırlık sorusu ve ‘Açık ve anlaşılır konuşma, etkin di…’ açısından ne ifade ettiğini sınıf tartışmasıyla derinleştirin.
+- Farklı görüş bildiren öğrencilere söz hakkı vererek Konuya Başlarken — üç hazırlık sorusu ölçütü çerçevesinde ortak bir sonuca varılmasını yönlendirin.
 
 ### Takip soruları
 
-- Soru 3 — Konuya Başlarken — üç hazırlık sorusu — basılı s.59 için düşünme sorusu: Buradaki aksama göndericiden mi, alıcıdan mı, kanaldan mı, bağlamdan mı kaynaklanıyor; hangi kanıt bunu gösteriyor? Özellikle ‘Sağlıklı bir iletişim kurmanın yolları nelerdir?’ ayrıntısını yoklayın.
-- Soru 3 — Konuya Başlarken — üç hazırlık sorusu — basılı s.59 için başka bir kanal seçilse ileti açıklar mıydı, yoksa yeni bir sorun mu doğururdu? Özellikle ‘Sağlıklı bir iletişim kurmanın yolları nelerdir?’ ayrıntısını yoklayın.
+- ‘Sağlıklı bir iletişim kurmanın yolları n…’ içeriğinin gönderici ile alıcı arasındaki ilişkiyi ve Konuya Başlarken — üç hazırlık sorusu boyutunu nasıl şekillendirdiği söylenebilir?
+- İletişimde ‘Sağlıklı bir iletişim kurmanın yolları n…’ ögesinin eksik veya hatalı yapılandırılması hangi yanlış anlamalara yol açabilirdi?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -6391,21 +6367,22 @@ Bu görev, Konuya Başlarken — üç hazırlık sorusu üzerinden iletişimde n
 
 - Şiirsel dizeyi yalnız gerçek anlamıyla açıklamak.
 - Sağlıklı iletişimi yalnız güzel konuşmaya indirgemek.
-- İletişim engelini yalnız fiziksel gürültü sanmak.
+- ‘Sağlıklı bir iletişim kurmanın yoll…’ konusunu metnin bütünsel ana iletisinden kopararak tek bir ayrıntı üzerinden genellemeye gitmek.
 
 ### Müdahale
 
-- Soru 3 — Konuya Başlarken — üç hazırlık sorusu — basılı s.59 için müdahale: Öğrenciden fiziksel ses olmayan fakat önyargı ya da belirsiz söz nedeniyle bozulan kısa bir örnek kurmasını isteyin; engel türünü adlandırsın. Müdahaleyi ‘Sağlıklı bir iletişim kurmanın yolları nelerdir?’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 3 — Konuya Başlarken — üç hazırlık sorusu — basılı s.59 için müdahale: Mesajı farklı bir kanala taşıtıp hangi bilgi ve duygunun kaybolduğunu iki sütunda karşılaştırın. Müdahaleyi ‘Sağlıklı bir iletişim kurmanın yolları nelerdir?’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Sağlıklı bir iletişim kurmanın yoll…’ doğrultusunda ‘şiirsel dizeyi yalnız gerçek’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Öğrenciden ‘Sağlıklı bir iletişim kurmanın yoll…’ bağlamında ‘sağlıklı iletişimi yalnız güzel’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- ‘Sağlıklı bir iletişim kurmanın yoll…’ ayrıntısının metnin genel iletisine ve Konuya Başlarken — üç hazırlık sorusu amacına nasıl bağlandığını metin parçalarını yan yana getirerek gösterin ve açıklattırın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Açıklık–dinleme–saygı–empati anahtar sözcüklerini ipucu olarak ver.
-- İletişim zincirini ‘gönderici → ileti → kanal → alıcı → geri bildirim’ biçiminde verip engel noktasını işaretletin. Bu görevde bağlantı noktası: Konuya Başlarken — üç hazırlık sorusu.
+- ‘Sağlıklı bir iletişim kurmanın yoll…’ metnindeki karmaşık ifadeleri öğrencinin kendi sözcükleriyle yeniden ifade etmesini isteyerek Konuya Başlarken — üç hazırlık sorusu fikrini netleştirin.
 **Zenginleştirme**
 - Aynı mesajın farklı dil ve tonla iletilmesinin sonucunu karşılaştırmasını iste.
-- Aynı iletiyi iki farklı kanalda tasarlatıp hangi durumda kanal değişikliğinin etik ve işlevsel sonuç doğuracağını tartıştırın. Bu görevde derinleştirme odağı: Konuya Başlarken — üç hazırlık sorusu.
+- Öğrencinin ‘Sağlıklı bir iletişim kurmanın yoll…’ bağlamındaki çıkarımını infografik, dijital sunum veya kavram haritasına dönüştürerek sınıf panosunda sergilemesini sağlayın.
 
 ### Kaynak ve durum
 
@@ -6448,19 +6425,19 @@ Hitap biçimlerinden alıcı ve içerik hakkında tahmin yapılabilir: 'kardeşi
 
 ### Açıklama ve gerekçe
 
-Soru 1 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.60-61 için beklenen yön, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Hitaplardan ilişki/bağlam çıkarımını somut ifadeye dayandırır. Mektup–e-posta karşılaştırmasında en az bir ortak ve bir farklı yön belirtir.
+Beklenen cevabın temeli, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim ekseninde ‘Hitap örneklerinden mektupların muhatabı ve içeriğ…’ bağlamını aydınlatan metin kanıtlarının doğru tahlil edilmesidir. Yanıtın kabul edilebilirliği; Hitaplardan ilişki/bağlam çıkarımını somut ifadeye dayandırır. Mektup–e-posta karşılaştırmasında en az bir ortak ve bir farklı yön belirtir. ölçütüne bağlı kalınmasına ve metindeki verilerin tarafsız biçimde yorumlanmasına bağlıdır. Öğrenci; önce ilgili bilgiyi kaynaktan süzmeli, ardından bu bilgiyi sorunun gerektirdiği kavramsal çerçeveye oturtmalıdır. Metin sınırlarını aşmayan ve dayanağı gösterilen özgün öğrenci yorumları da geçerli sayılır.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 1 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.60-61 için e-postayı yalnız teknik bir form doldurma işi olarak değil, amacı ve hedef alıcısı belirlenmiş işlevsel bir yazma ürünü olarak açıklayın. Konu satırı, hitap, ana ileti, paragraf düzeni, ekler, gönderim zamanı ve mahremiyet aynı iletişim kararının parçalarıdır. Dijital ortam hız kazandırsa da açıklık, nezaket, güvenlik ve yazım özeni gereksinimini ortadan kaldırmaz. Bu görevde özellikle ‘Hitap örneklerinden mektupların muhatabı ve içeriği hakkında tahminde bulununuz’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev adımında öğretmen, ‘Hitap örneklerinden mektupların muhatabı ve içeriğ…’ ile ilgili sınıf tartışmasını Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim zemininde yapılandırmalı ve ‘Hitap biçimlerinden alıcı ve içerik hakk…’ doğrultusundaki tespitleri metin üzerinden teyit ettirmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> E-postada biçim, alıcıya ve amaca hızlı ve açık ulaşmayı sağlayan bir düzen kurar. Bu görevde özellikle Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim üzerinde durun.
+> Bu etkinlikte amacınız, ‘Hitap örneklerinden mektupların muhatabı ve i…’ konusunu Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim perspektifinden tahlil etmektir. İddialarınızı metinden somut göstergelerle destekleyerek ‘Hitap biçimlerinden alıcı ve içerik…’ niteliğinde bir çıkarım yapın.
 
 ### Bu görev neden burada?
 
-Bu görev, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar.
+Görev, ‘Hitap örneklerinden mektupların muhatabı ve i…’ konusundaki gözlemleri Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim ile sentezleyerek metin çözümleme disiplinini pekiştirir ve öğrencinin ‘Hitap biçimlerinden alıcı ve içerik…’ odaklı eleştirel düşünme kapasitesini artırır.
 
 ### Kabul edilebilir cevaplar
 
@@ -6471,13 +6448,13 @@ Bu görev, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve M
 
 - s.60-64'ü tek bir 'dinleme hazırlığı' kartına sıkıştırma; hitap, mektup/e-posta karşılaştırması, araştırma ve gerçek dinleme/izleme hazırlığı farklı öğrenci eylemleridir.
 - Medya içeriğini açmadan önce amaç–strateji–tahmin kaydını al; sonradan doldurulmuş bir forma dönüşmesini önle.
-- Soru 1 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.60-61 için öğrencinin taslağını göndermeden önce konu satırı, hitap, ana istek ve ek gerekçesini ayrı ayrı kontrol ettirin.
-- Bir cümlenin alıcıda belirsizlik oluşturup oluşturmadığını ‘Bu cümleyi okuyan kişi hangi eylemi anlayacak?’ sorusuyla test ettirin.
+- Metindeki anlatım tutumunu fark ettirmek için ‘Hitap örneklerinden mektupların muhatabı…’ bölümünü sesli okutun.
+- Belirlenen alıntıların Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim ve ‘Hitap biçimlerinden alıcı ve içerik…’ açısından ne ifade ettiğini sınıf tartışmasıyla derinleştirin.
 
 ### Takip soruları
 
-- Soru 1 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.60-61 için düşünme sorusu: Bu ek gerçekten alıcının karar vermesine yardım ediyor mu, yoksa yalnızca metni kalabalıklaştırıyor mu? Özellikle ‘Hitap örneklerinden mektupların muhatabı ve içeriği hakkında tahminde bulununuz’ ayrıntısını yoklayın.
-- Soru 1 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.60-61 için seçtiğin dil, alıcıyla ilişkin ve iletinin aciliyetiyle nasıl uyumlu? Özellikle ‘Hitap örneklerinden mektupların muhatabı ve içeriği hakkında tahminde bulununuz’ ayrıntısını yoklayın.
+- Eğer ‘Hitap örneklerinden mektupların muhatabı…’ ifadesinde kullanılan dil bilgisel yapı değiştirilseydi, cümlenin ilettiği anlam ve vurgu nasıl başkalaşırdı?
+- ‘Hitap örneklerinden mektupların muhatabı…’ yapısındaki dil ögesi metinden çıkarılsaydı cümlenin bağlamsal doğruluğu ve anlatım gücü nasıl zayıflardı?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -6494,17 +6471,18 @@ Bu görev, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve M
 
 ### Müdahale
 
-- Soru 1 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.60-61 için müdahale: Öğrenciye aynı metni konu satırı olmayan ve alıcısı belirtilmeyen biçimde okutun; oluşan belirsizlikleri metinde işaretletin. Müdahaleyi ‘Hitap örneklerinden mektupların muhatabı ve içeriği hakkında tahminde bulununuz’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 1 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.60-61 için müdahale: Resmî ve kişisel iki alıcı seçtirip değişmesi gereken hitap, söz varlığı ve kapanış bölümlerini yeniden yazdırın. Müdahaleyi ‘Hitap örneklerinden mektupların muhatabı ve içeriği hakkında tahminde bulununuz’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Hitap örneklerinden mektupların muh…’ doğrultusunda ‘resm hitabı daha değerli’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Öğrenciden ‘Hitap örneklerinden mektupların muh…’ bağlamında ‘elektronik iletişimin hızlı olmasını’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- ‘Hitap örneklerinden mektupların muh…’ incelemesinde ‘tahmini doğru çıkma zorunluluğu’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Hitap → ilişki; araç → avantaj/dezavantaj; amaç → strateji eşleştirme şablonu kullan.
-- Öğrenciye önce ‘Kime? Neden? Ne istiyorum? Hangi ek gerekli?’ dört sorusunu cevaplatıp sonra e-posta alanlarını doldurtun. Bu görevde bağlantı noktası: Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim.
+- ‘Hitap örneklerinden mektupların muh…’ hedefine yönelik bir kontrol listesi vererek öğrencinin ‘Hitap biçimlerinden alıcı ve i…’ basamağını adım adım denetlemesini sağlayın.
 **Zenginleştirme**
 - Aynı iletinin mektup, e-posta ve yüz yüze iletişimde nasıl değişeceğini karşılaştırmasını iste.
-- Aynı e-postanın daha resmî ve daha yakın iki sürümünü yazdırarak üslup kararlarını gerekçelendirin. Bu görevde derinleştirme odağı: Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim.
+- Öğrencinin ‘Hitap örneklerinden mektupların muh…’ bağlamındaki ürününü sınıf panosunda sergileyip Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim sürecinin sunumunu yapmasını sağlayın.
 
 ### Kaynak ve durum
 
@@ -6548,19 +6526,19 @@ Hitap ifadeleri muhataba verilen değeri ve ilişki düzeyini gösterir. 'Sevgil
 
 ### Açıklama ve gerekçe
 
-Soru 2 — değer yargısının metin kanıtı — basılı s.60-61 için beklenen yön, değer yargısının metin kanıtı yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Hitaplardan ilişki/bağlam çıkarımını somut ifadeye dayandırır. Mektup–e-posta karşılaştırmasında en az bir ortak ve bir farklı yön belirtir.
+Beklenen cevap, değer yargısının metin kanıtı çerçevesinde ‘Hitap ifadeleri saygı, sevgi ve dostluk gibi değer…’ konusunu metnin sunduğu veriler ve kavramsal dayanaklar üzerinden şekillendirir. Bu cevabın uygunluğu, Hitaplardan ilişki/bağlam çıkarımını somut ifadeye dayandırır. Mektup–e-posta karşılaştırmasında en az bir ortak ve bir farklı yön belirtir. ölçütünün karşılanmasına ve öğrencinin metindeki olay/durum ayrıntılarını nedensellik bağıyla kurmasına dayanır. Öğrencinin izlemesi gereken çıkarım yolu; öncelikle metindeki kanıt niteliği taşıyan ifadeleri belirlemek, ardından bu göstergeleri kavramsal odakla ilişkilendirerek kendi gerekçeli açıklamasını oluşturmaktır. Öğrenci aynı sonucu farklı sözcüklerle ifade edebilir; temel iddia ile metin dayanağı arasındaki mantıksal tutarlılık korunduğu sürece kişisel yorumlar alternatif cevap olarak kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 2 — değer yargısının metin kanıtı — basılı s.60-61 için e-postayı yalnız teknik bir form doldurma işi olarak değil, amacı ve hedef alıcısı belirlenmiş işlevsel bir yazma ürünü olarak açıklayın. Konu satırı, hitap, ana ileti, paragraf düzeni, ekler, gönderim zamanı ve mahremiyet aynı iletişim kararının parçalarıdır. Dijital ortam hız kazandırsa da açıklık, nezaket, güvenlik ve yazım özeni gereksinimini ortadan kaldırmaz. Bu görevde özellikle ‘Hitap ifadeleri saygı, sevgi ve dostluk gibi değerleri nasıl yansıtır?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görevde öğretmen, değer yargısının metin kanıtı çerçevesinde sorulan ‘Hitap ifadeleri saygı, sevgi ve dostluk gibi değer…’ konusu üzerinden öğrencinin metin kanıtları ile kavramsal çıkarımlar arasındaki ilişkiyi doğru kurmasını sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> E-postada biçim, alıcıya ve amaca hızlı ve açık ulaşmayı sağlayan bir düzen kurar. Bu görevde özellikle değer yargısının metin kanıtı üzerinde durun.
+> Bu görevde sizden beklenen; metindeki ipuçlarından hareketle ‘Hitap ifadeleri saygı, sevgi ve dostluk gibi …’ konusunu incelemeniz ve değer yargısının metin kanıtı doğrultusunda ‘Hitap ifadeleri muhataba verilen de…’ sonucuna nasıl ulaşıldığını adım adım açıklamanızdır.
 
 ### Bu görev neden burada?
 
-Bu görev, değer yargısının metin kanıtı kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar.
+Bu görev, öğrencinin ‘Hitap ifadeleri saygı, sevgi ve dostluk gibi …’ üzerinden değer yargısının metin kanıtı becerisini somut bir metin bağlamında deneyimlemesini ve iddialarını kanıtla destekleme alışkanlığı kazanmasını sağlar.
 
 ### Kabul edilebilir cevaplar
 
@@ -6572,12 +6550,12 @@ Bu görev, değer yargısının metin kanıtı kararlarını gerçek bir dijital
 - s.60-64'ü tek bir 'dinleme hazırlığı' kartına sıkıştırma; hitap, mektup/e-posta karşılaştırması, araştırma ve gerçek dinleme/izleme hazırlığı farklı öğrenci eylemleridir.
 - Medya içeriğini açmadan önce amaç–strateji–tahmin kaydını al; sonradan doldurulmuş bir forma dönüşmesini önle.
 - Hitapları yalnız resmî/samimi diye sınıflandırmakla kalmayın; seçilen sözcüğün hangi ilişki değerini görünür kıldığını açıklatın.
-- Soru 2 — değer yargısının metin kanıtı — basılı s.60-61 için öğrencinin taslağını göndermeden önce konu satırı, hitap, ana istek ve ek gerekçesini ayrı ayrı kontrol ettirin.
+- Öğrencilerden metinde ‘Hitap ifadeleri saygı, sevgi ve dostluk …’ konusuna kaynaklık eden temel ifadelerin altını çizmelerini isteyin.
 
 ### Takip soruları
 
-- Soru 2 — değer yargısının metin kanıtı — basılı s.60-61 için düşünme sorusu: Bu ek gerçekten alıcının karar vermesine yardım ediyor mu, yoksa yalnızca metni kalabalıklaştırıyor mu? Özellikle ‘Hitap ifadeleri saygı, sevgi ve dostluk gibi değerleri nasıl yansıtır?’ ayrıntısını yoklayın.
-- Soru 2 — değer yargısının metin kanıtı — basılı s.60-61 için seçtiğin dil, alıcıyla ilişkin ve iletinin aciliyetiyle nasıl uyumlu? Özellikle ‘Hitap ifadeleri saygı, sevgi ve dostluk gibi değerleri nasıl yansıtır?’ ayrıntısını yoklayın.
+- Metinde ‘Hitap ifadeleri saygı, sevgi ve dostluk …’ için ulaşılan ‘Hitap ifadeleri muhataba verilen de…’ sonucunu destekleyen en güçlü kanıt hangisidir; bu unsur metinden çıkarılsaydı iletide ne gibi bir eksiklik oluşurdu?
+- ‘Hitap ifadeleri saygı, sevgi ve dostluk …’ konusunda yazarın tercih ettiği anlatım tarzı, okurun metne yönelik inandırıcılık algısını nasıl şekillendirmektedir?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -6594,17 +6572,18 @@ Bu görev, değer yargısının metin kanıtı kararlarını gerçek bir dijital
 
 ### Müdahale
 
-- Soru 2 — değer yargısının metin kanıtı — basılı s.60-61 için müdahale: Öğrenciye aynı metni konu satırı olmayan ve alıcısı belirtilmeyen biçimde okutun; oluşan belirsizlikleri metinde işaretletin. Müdahaleyi ‘Hitap ifadeleri saygı, sevgi ve dostluk gibi değerleri nasıl yansıtır?’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 2 — değer yargısının metin kanıtı — basılı s.60-61 için müdahale: Resmî ve kişisel iki alıcı seçtirip değişmesi gereken hitap, söz varlığı ve kapanış bölümlerini yeniden yazdırın. Müdahaleyi ‘Hitap ifadeleri saygı, sevgi ve dostluk gibi değerleri nasıl yansıtır?’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciden ‘Hitap ifadeleri saygı, sevgi ve dos…’ bağlamında ‘resm hitabı daha değerli’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- ‘Hitap ifadeleri saygı, sevgi ve dos…’ incelemesinde ‘elektronik iletişimin hızlı olmasını’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Öğrenciye ‘Hitap ifadeleri saygı, sevgi ve dos…’ çerçevesinde ‘tahmini doğru çıkma zorunluluğu’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Hitap → ilişki; araç → avantaj/dezavantaj; amaç → strateji eşleştirme şablonu kullan.
-- Öğrenciye önce ‘Kime? Neden? Ne istiyorum? Hangi ek gerekli?’ dört sorusunu cevaplatıp sonra e-posta alanlarını doldurtun. Bu görevde bağlantı noktası: değer yargısının metin kanıtı.
+- ‘Hitap ifadeleri saygı, sevgi ve dos…’ sorusunu yanıtlamakta zorlanan öğrenciye metindeki ilgili paragrafı işaretleyin; önce anahtar kavramları buldurarak cevabı adım adım kurdurun.
 **Zenginleştirme**
 - Aynı iletinin mektup, e-posta ve yüz yüze iletişimde nasıl değişeceğini karşılaştırmasını iste.
-- Aynı e-postanın daha resmî ve daha yakın iki sürümünü yazdırarak üslup kararlarını gerekçelendirin. Bu görevde derinleştirme odağı: değer yargısının metin kanıtı.
+- Öğrenciden ‘Hitap ifadeleri saygı, sevgi ve dos…’ çerçevesinde ulaştığı ‘Hitap ifadeleri muhataba veril…’ sonucunu, okuduğu farklı bir edebî eserle karşılaştıran kısa bir eleştiri yazısı yazmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -6648,31 +6627,31 @@ Mektup ve e-postada hitap muhataba göre seçilir; ikisinde de saygı/yakınlık
 
 ### Açıklama ve gerekçe
 
-Soru 1 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.62-63 için cevap, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Hitaplardan ilişki/bağlam çıkarımını somut ifadeye dayandırır. Mektup–e-posta karşılaştırmasında en az bir ortak ve bir farklı yön belirtir.
+Bu soruda hedeflenen yanıt, metnin ana dokusunda yer alan ‘postalarda kullanılan hitapların benzer ve farklı …’ ayrıntısını Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim perspektifiyle analiz etmeye dayanır. Doğruluk dayanağı; Hitaplardan ilişki/bağlam çıkarımını somut ifadeye dayandırır. Mektup–e-posta karşılaştırmasında en az bir ortak ve bir farklı yön belirtir. ilkesinin karşılanması ve metindeki göstergelerin somut kanıtlarla açıklanmasıdır. Öğrencinin izleyeceği bilişsel basamaklar; metin parçalarını taramak, kavramsal anahtarları tespit etmek ve bu bulguları sentezleyerek tutarlı bir değerlendirme üretmektir. İfadeler birebir aynı olmak zorunda olmayıp metinle çelişmeyen ve gerekçelendirilmiş farklı yaklaşımlar geçerli kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 1 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.62-63 için e-postayı yalnız teknik bir form doldurma işi olarak değil, amacı ve hedef alıcısı belirlenmiş işlevsel bir yazma ürünü olarak açıklayın. Konu satırı, hitap, ana ileti, paragraf düzeni, ekler, gönderim zamanı ve mahremiyet aynı iletişim kararının parçalarıdır. Dijital ortam hız kazandırsa da açıklık, nezaket, güvenlik ve yazım özeni gereksinimini ortadan kaldırmaz. Bu görevde özellikle ‘postalarda kullanılan hitapların benzer ve farklı yönleri nelerdir?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev adımında öğretmen, ‘postalarda kullanılan hitapların benzer ve farklı …’ ile ilgili sınıf tartışmasını Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim zemininde yapılandırmalı ve ‘Mektup ve e-postada hitap muhataba göre …’ doğrultusundaki tespitleri metin üzerinden teyit ettirmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> E-postada biçim, alıcıya ve amaca hızlı ve açık ulaşmayı sağlayan bir düzen kurar. Bu görevde özellikle Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim üzerinde durun.
+> Bu etkinlikte amacınız, ‘postalarda kullanılan hitapların benzer ve fa…’ konusunu Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim perspektifinden tahlil etmektir. İddialarınızı metinden somut göstergelerle destekleyerek ‘Mektup ve e-postada hitap muhataba …’ niteliğinde bir çıkarım yapın.
 
 ### Bu görev neden burada?
 
-Bu görev, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar.
+Görev, ‘postalarda kullanılan hitapların benzer ve fa…’ konusundaki gözlemleri Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim ile sentezleyerek metin çözümleme disiplinini pekiştirir ve öğrencinin ‘Mektup ve e-postada hitap muhataba …’ odaklı eleştirel düşünme kapasitesini artırır.
 
 ### Ders içi uygulama
 
 - s.60-64'ü tek bir 'dinleme hazırlığı' kartına sıkıştırma; hitap, mektup/e-posta karşılaştırması, araştırma ve gerçek dinleme/izleme hazırlığı farklı öğrenci eylemleridir.
 - Medya içeriğini açmadan önce amaç–strateji–tahmin kaydını al; sonradan doldurulmuş bir forma dönüşmesini önle.
-- Soru 1 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.62-63 için öğrencinin taslağını göndermeden önce konu satırı, hitap, ana istek ve ek gerekçesini ayrı ayrı kontrol ettirin.
-- Bir cümlenin alıcıda belirsizlik oluşturup oluşturmadığını ‘Bu cümleyi okuyan kişi hangi eylemi anlayacak?’ sorusuyla test ettirin.
+- Öğrencileri küçük gruplara ayırarak ‘postalarda kullanılan hitapların benzer …’ sorusunun işaret ettiği kanıtları metin üzerinden tespit ettirin.
+- Öğrencilerin ileri sürdüğü gerekçeleri tahtaya yazarak Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim ölçütüne göre sınıflandırın.
 
 ### Takip soruları
 
-- Soru 1 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.62-63 için düşünme sorusu: Bu ek gerçekten alıcının karar vermesine yardım ediyor mu, yoksa yalnızca metni kalabalıklaştırıyor mu? Özellikle ‘postalarda kullanılan hitapların benzer ve farklı yönleri nelerdir?’ ayrıntısını yoklayın.
-- Soru 1 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.62-63 için seçtiğin dil, alıcıyla ilişkin ve iletinin aciliyetiyle nasıl uyumlu? Özellikle ‘postalarda kullanılan hitapların benzer ve farklı yönleri nelerdir?’ ayrıntısını yoklayın.
+- ‘postalarda kullanılan hitapların benzer …’ için verilen ‘Mektup ve e-postada hitap muhataba …’ cevabını çürütebilecek karşıt bir görüş ileri sürülebilir mi; bu karşıt görüş metne dayandırılabilir mi?
+- Metindeki ‘postalarda kullanılan hitapların benzer …’ ayrıntısını dikkatle incelediğinizde, yazarın doğrudan söylemeyip okura sezdirmek istediği örtük anlam nedir?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -6689,17 +6668,18 @@ Bu görev, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve M
 
 ### Müdahale
 
-- Soru 1 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.62-63 için müdahale: Öğrenciye aynı metni konu satırı olmayan ve alıcısı belirtilmeyen biçimde okutun; oluşan belirsizlikleri metinde işaretletin. Müdahaleyi ‘postalarda kullanılan hitapların benzer ve farklı yönleri nelerdir?’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 1 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.62-63 için müdahale: Resmî ve kişisel iki alıcı seçtirip değişmesi gereken hitap, söz varlığı ve kapanış bölümlerini yeniden yazdırın. Müdahaleyi ‘postalarda kullanılan hitapların benzer ve farklı yönleri nelerdir?’ ayrıntısını kullandırarak somutlaştırın.
+- ‘postalarda kullanılan hitapların be…’ incelemesinde ‘resm hitabı daha değerli’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Öğrenciye ‘postalarda kullanılan hitapların be…’ çerçevesinde ‘elektronik iletişimin hızlı olmasını’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- ‘postalarda kullanılan hitapların be…’ doğrultusunda ‘tahmini doğru çıkma zorunluluğu’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Hitap → ilişki; araç → avantaj/dezavantaj; amaç → strateji eşleştirme şablonu kullan.
-- Öğrenciye önce ‘Kime? Neden? Ne istiyorum? Hangi ek gerekli?’ dört sorusunu cevaplatıp sonra e-posta alanlarını doldurtun. Bu görevde bağlantı noktası: Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim.
+- Öğrenciyi bir akranıyla eşleştirerek ‘postalarda kullanılan hitapların be…’ hakkındaki düşüncelerini önce sözlü olarak paylaşmasını, ardından yazıya dökmesini isteyin.
 **Zenginleştirme**
 - Aynı iletinin mektup, e-posta ve yüz yüze iletişimde nasıl değişeceğini karşılaştırmasını iste.
-- Aynı e-postanın daha resmî ve daha yakın iki sürümünü yazdırarak üslup kararlarını gerekçelendirin. Bu görevde derinleştirme odağı: Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim.
+- Öğrenciden ‘postalarda kullanılan hitapların be…’ metnindeki Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim yaklaşımını örnek alarak benzer temada kısa bir kurmaca metin veya deneme taslağı yazmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -6743,31 +6723,31 @@ Elektronik ortam iletiyi çok hızlı ulaştırır; aynı anda çok kişiye gön
 
 ### Açıklama ve gerekçe
 
-Soru 2 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.62-63 için cevap, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Hitaplardan ilişki/bağlam çıkarımını somut ifadeye dayandırır. Mektup–e-posta karşılaştırmasında en az bir ortak ve bir farklı yön belirtir.
+Soruya verilecek uygun cevap, ‘Mektupların elektronik ortamda yazılabilmesi ileti…’ yönündeki çıkarımı Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim hedefleri doğrultusunda yapılandırır. Çözümlemenin geçerliliği, Hitaplardan ilişki/bağlam çıkarımını somut ifadeye dayandırır. Mektup–e-posta karşılaştırmasında en az bir ortak ve bir farklı yön belirtir. koşuluna uyulması ve iddiaların metindeki açık veya örtük ifadelerle doğrulanmasıyla sağlanır. Öğrencinin akıl yürütme süreci; sorunun işaret ettiği metin bölümünü belirlemek, oradaki dil ve anlatım ipuçlarını değerlendirmek ve ulaştığı yargıyı gerekçelendirmektir. Metin özüyle örtüşen ve mantıksal nedensellik taşıyan alternatif anlatımlar doğru yanıt olarak değerlendirilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 2 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.62-63 için e-postayı yalnız teknik bir form doldurma işi olarak değil, amacı ve hedef alıcısı belirlenmiş işlevsel bir yazma ürünü olarak açıklayın. Konu satırı, hitap, ana ileti, paragraf düzeni, ekler, gönderim zamanı ve mahremiyet aynı iletişim kararının parçalarıdır. Dijital ortam hız kazandırsa da açıklık, nezaket, güvenlik ve yazım özeni gereksinimini ortadan kaldırmaz. Bu görevde özellikle ‘Mektupların elektronik ortamda yazılabilmesi iletişim açısından hangi yararları sağlar?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görevde öğretmen, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim çerçevesinde sorulan ‘Mektupların elektronik ortamda yazılabilmesi ileti…’ konusu üzerinden öğrencinin metin kanıtları ile kavramsal çıkarımlar arasındaki ilişkiyi doğru kurmasını sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> E-postada biçim, alıcıya ve amaca hızlı ve açık ulaşmayı sağlayan bir düzen kurar. Bu görevde özellikle Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim üzerinde durun.
+> Bu görevde sizden beklenen; metindeki ipuçlarından hareketle ‘Mektupların elektronik ortamda yazılabilmesi …’ konusunu incelemeniz ve Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim doğrultusunda ‘Elektronik ortam iletiyi çok hızlı …’ sonucuna nasıl ulaşıldığını adım adım açıklamanızdır.
 
 ### Bu görev neden burada?
 
-Bu görev, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar.
+Bu görev, öğrencinin ‘Mektupların elektronik ortamda yazılabilmesi …’ üzerinden Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim becerisini somut bir metin bağlamında deneyimlemesini ve iddialarını kanıtla destekleme alışkanlığı kazanmasını sağlar.
 
 ### Ders içi uygulama
 
 - s.60-64'ü tek bir 'dinleme hazırlığı' kartına sıkıştırma; hitap, mektup/e-posta karşılaştırması, araştırma ve gerçek dinleme/izleme hazırlığı farklı öğrenci eylemleridir.
 - Medya içeriğini açmadan önce amaç–strateji–tahmin kaydını al; sonradan doldurulmuş bir forma dönüşmesini önle.
-- Soru 2 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.62-63 için öğrencinin taslağını göndermeden önce konu satırı, hitap, ana istek ve ek gerekçesini ayrı ayrı kontrol ettirin.
-- Bir cümlenin alıcıda belirsizlik oluşturup oluşturmadığını ‘Bu cümleyi okuyan kişi hangi eylemi anlayacak?’ sorusuyla test ettirin.
+- Öğrencilerden Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim açısından metindeki zıtlık ve benzerlikleri belirleyerek not almalarını isteyin.
+- İddialar ile ‘Mektupların elektronik ortamda yazılabil…’ kanıtları arasındaki mantıksal bağı adım adım sorgulatarak temellendirin.
 
 ### Takip soruları
 
-- Soru 2 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.62-63 için düşünme sorusu: Bu ek gerçekten alıcının karar vermesine yardım ediyor mu, yoksa yalnızca metni kalabalıklaştırıyor mu? Özellikle ‘Mektupların elektronik ortamda yazılabilmesi iletişim açısından hangi yararları sağlar?’ ayrıntısını yoklayın.
-- Soru 2 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.62-63 için seçtiğin dil, alıcıyla ilişkin ve iletinin aciliyetiyle nasıl uyumlu? Özellikle ‘Mektupların elektronik ortamda yazılabilmesi iletişim açısından hangi yararları sağlar?’ ayrıntısını yoklayın.
+- ‘Mektupların elektronik ortamda yazılabil…’ yapısındaki dil ögesi metinden çıkarılsaydı cümlenin bağlamsal doğruluğu ve anlatım gücü nasıl zayıflardı?
+- Metinde ‘Mektupların elektronik ortamda yazılabil…’ kullanımına benzer başka bir örnek bulunabilir mi; bu iki örnek yazarın üslubunu nasıl yansıtmaktadır?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -6784,17 +6764,18 @@ Bu görev, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve M
 
 ### Müdahale
 
-- Soru 2 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.62-63 için müdahale: Öğrenciye aynı metni konu satırı olmayan ve alıcısı belirtilmeyen biçimde okutun; oluşan belirsizlikleri metinde işaretletin. Müdahaleyi ‘Mektupların elektronik ortamda yazılabilmesi iletişim açısından hangi yararları sağlar?’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 2 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.62-63 için müdahale: Resmî ve kişisel iki alıcı seçtirip değişmesi gereken hitap, söz varlığı ve kapanış bölümlerini yeniden yazdırın. Müdahaleyi ‘Mektupların elektronik ortamda yazılabilmesi iletişim açısından hangi yararları sağlar?’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciye ‘Mektupların elektronik ortamda yazı…’ çerçevesinde ‘resm hitabı daha değerli’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- ‘Mektupların elektronik ortamda yazı…’ doğrultusunda ‘elektronik iletişimin hızlı olmasını’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Öğrenciden ‘Mektupların elektronik ortamda yazı…’ bağlamında ‘tahmini doğru çıkma zorunluluğu’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Hitap → ilişki; araç → avantaj/dezavantaj; amaç → strateji eşleştirme şablonu kullan.
-- Öğrenciye önce ‘Kime? Neden? Ne istiyorum? Hangi ek gerekli?’ dört sorusunu cevaplatıp sonra e-posta alanlarını doldurtun. Bu görevde bağlantı noktası: Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim.
+- Öğrenciye ‘Mektupların elektronik ortamda yazı…’ için akranıyla fikir alışverişi yaptırarak yazma/konuşma planını netleştirmesini sağlayın.
 **Zenginleştirme**
 - Aynı iletinin mektup, e-posta ve yüz yüze iletişimde nasıl değişeceğini karşılaştırmasını iste.
-- Aynı e-postanın daha resmî ve daha yakın iki sürümünü yazdırarak üslup kararlarını gerekçelendirin. Bu görevde derinleştirme odağı: Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim.
+- ‘Mektupların elektronik ortamda yazı…’ çalışmasını farklı bir hedef kitleye veya iletişim kanalına uyarlayarak ‘Elektronik ortam iletiyi çok h…’ etkisini karşılaştırmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -6838,19 +6819,19 @@ Kişisel bir yorum sorusudur. Öğrenci I. Metin'den kendisini etkileyen gerçek
 
 ### Açıklama ve gerekçe
 
-Soru 3 — iddia-gerekçe bağı — basılı s.62-63 için beklenen yön, iddia-gerekçe bağı yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Hitaplardan ilişki/bağlam çıkarımını somut ifadeye dayandırır. Mektup–e-posta karşılaştırmasında en az bir ortak ve bir farklı yön belirtir.
+Beklenen cevabın temeli, iddia-gerekçe bağı ekseninde ‘I. Metin'de sizi en çok etkileyen ifadeyi seçip ge…’ bağlamını aydınlatan metin kanıtlarının doğru tahlil edilmesidir. Yanıtın kabul edilebilirliği; Hitaplardan ilişki/bağlam çıkarımını somut ifadeye dayandırır. Mektup–e-posta karşılaştırmasında en az bir ortak ve bir farklı yön belirtir. ölçütüne bağlı kalınmasına ve metindeki verilerin tarafsız biçimde yorumlanmasına bağlıdır. Öğrenci; önce ilgili bilgiyi kaynaktan süzmeli, ardından bu bilgiyi sorunun gerektirdiği kavramsal çerçeveye oturtmalıdır. Metin sınırlarını aşmayan ve dayanağı gösterilen özgün öğrenci yorumları da geçerli sayılır.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 3 — iddia-gerekçe bağı — basılı s.62-63 için e-postayı yalnız teknik bir form doldurma işi olarak değil, amacı ve hedef alıcısı belirlenmiş işlevsel bir yazma ürünü olarak açıklayın. Konu satırı, hitap, ana ileti, paragraf düzeni, ekler, gönderim zamanı ve mahremiyet aynı iletişim kararının parçalarıdır. Dijital ortam hız kazandırsa da açıklık, nezaket, güvenlik ve yazım özeni gereksinimini ortadan kaldırmaz. Bu görevde özellikle ‘I. Metin'de sizi en çok etkileyen ifadeyi seçip gerekçelendiriniz’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görevde öğretmen, ‘I. Metin'de sizi en çok etkileyen ifadeyi seçip ge…’ yönergesini ele alırken sınıf ortamında iddia-gerekçe bağı boyutunu öne çıkarmalı ve ‘Kişisel bir yorum sorusudur. Öğrenci I. …’ yönündeki metin dayanaklarını desteklemelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> E-postada biçim, alıcıya ve amaca hızlı ve açık ulaşmayı sağlayan bir düzen kurar. Bu görevde özellikle iddia-gerekçe bağı üzerinde durun.
+> Bu çalışmayı yaparken metni dikkatle gözden geçirerek ‘I. Metin'de sizi en çok etkileyen ifadeyi seç…’ ile ilgili kanıtları belirleyin; ulaştığınız yargıları iddia-gerekçe bağı ve ‘Kişisel bir yorum sorusudur. Öğrenc…’ çerçevesinde gerekçelendirerek ifade edin.
 
 ### Bu görev neden burada?
 
-Bu görev, iddia-gerekçe bağı kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar.
+iddia-gerekçe bağı eksenindeki bu çalışma, ‘I. Metin'de sizi en çok etkileyen ifadeyi seç…’ konusunu ele alırken öğrencinin yüzeysel okumadan analitik çözümlemeye geçişini ve ‘Kişisel bir yorum sorusudur. Öğrenc…’ bağlantısını kurmasını destekler.
 
 ### Kabul edilebilir cevaplar
 
@@ -6862,12 +6843,12 @@ Bu görev, iddia-gerekçe bağı kararlarını gerçek bir dijital iletişim ür
 - s.60-64'ü tek bir 'dinleme hazırlığı' kartına sıkıştırma; hitap, mektup/e-posta karşılaştırması, araştırma ve gerçek dinleme/izleme hazırlığı farklı öğrenci eylemleridir.
 - Medya içeriğini açmadan önce amaç–strateji–tahmin kaydını al; sonradan doldurulmuş bir forma dönüşmesini önle.
 - Burada öğrencinin seçtiği ifade değil, ifadenin neden etkilediğini metne dayalı açıklayabilmesi değerlendirilir.
-- Soru 3 — iddia-gerekçe bağı — basılı s.62-63 için öğrencinin taslağını göndermeden önce konu satırı, hitap, ana istek ve ek gerekçesini ayrı ayrı kontrol ettirin.
+- Metindeki anlatım tutumunu fark ettirmek için ‘I. Metin'de sizi en çok etkileyen ifadey…’ bölümünü sesli okutun.
 
 ### Takip soruları
 
-- Soru 3 — iddia-gerekçe bağı — basılı s.62-63 için düşünme sorusu: Bu ek gerçekten alıcının karar vermesine yardım ediyor mu, yoksa yalnızca metni kalabalıklaştırıyor mu? Özellikle ‘I. Metin'de sizi en çok etkileyen ifadeyi seçip gerekçelendiriniz’ ayrıntısını yoklayın.
-- Soru 3 — iddia-gerekçe bağı — basılı s.62-63 için seçtiğin dil, alıcıyla ilişkin ve iletinin aciliyetiyle nasıl uyumlu? Özellikle ‘I. Metin'de sizi en çok etkileyen ifadeyi seçip gerekçelendiriniz’ ayrıntısını yoklayın.
+- ‘I. Metin'de sizi en çok etkileyen ifadey…’ yapısındaki dil ögesi metinden çıkarılsaydı cümlenin bağlamsal doğruluğu ve anlatım gücü nasıl zayıflardı?
+- ‘I. Metin'de sizi en çok etkileyen ifadey…’ yapısındaki dil bilgisel işlevin, konuşurun ya da anlatıcının ruh hâlini yansıtmadaki rolü nedir?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -6884,17 +6865,18 @@ Bu görev, iddia-gerekçe bağı kararlarını gerçek bir dijital iletişim ür
 
 ### Müdahale
 
-- Soru 3 — iddia-gerekçe bağı — basılı s.62-63 için müdahale: Öğrenciye aynı metni konu satırı olmayan ve alıcısı belirtilmeyen biçimde okutun; oluşan belirsizlikleri metinde işaretletin. Müdahaleyi ‘I. Metin'de sizi en çok etkileyen ifadeyi seçip gerekçelendiriniz’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 3 — iddia-gerekçe bağı — basılı s.62-63 için müdahale: Resmî ve kişisel iki alıcı seçtirip değişmesi gereken hitap, söz varlığı ve kapanış bölümlerini yeniden yazdırın. Müdahaleyi ‘I. Metin'de sizi en çok etkileyen ifadeyi seçip gerekçelendiriniz’ ayrıntısını kullandırarak somutlaştırın.
+- ‘I. Metin'de sizi en çok etkileyen i…’ doğrultusunda ‘resm hitabı daha değerli’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Öğrenciden ‘I. Metin'de sizi en çok etkileyen i…’ bağlamında ‘elektronik iletişimin hızlı olmasını’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- ‘I. Metin'de sizi en çok etkileyen i…’ incelemesinde ‘tahmini doğru çıkma zorunluluğu’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Hitap → ilişki; araç → avantaj/dezavantaj; amaç → strateji eşleştirme şablonu kullan.
-- Öğrenciye önce ‘Kime? Neden? Ne istiyorum? Hangi ek gerekli?’ dört sorusunu cevaplatıp sonra e-posta alanlarını doldurtun. Bu görevde bağlantı noktası: iddia-gerekçe bağı.
+- Öğrenciye ‘iddia — metin kanıtı — iddia-gerekçe bağı gerekçesi’ üçlü şemasını tahtada ‘I. Metin'de sizi en çok etkileyen i…’ üzerinden örnekleyerek cevabını oluşturmasını sağlayın.
 **Zenginleştirme**
 - Aynı iletinin mektup, e-posta ve yüz yüze iletişimde nasıl değişeceğini karşılaştırmasını iste.
-- Aynı e-postanın daha resmî ve daha yakın iki sürümünü yazdırarak üslup kararlarını gerekçelendirin. Bu görevde derinleştirme odağı: iddia-gerekçe bağı.
+- ‘I. Metin'de sizi en çok etkileyen i…’ için ulaşılan cevabı sınıfta farklı bir bakış açısıyla savunmasını veya karşıt bir tezi çürütmesini isteyerek iddia-gerekçe bağı ekseninde tartışma başlatın.
 
 ### Kaynak ve durum
 
@@ -6938,19 +6920,19 @@ Kardeşlik, sevgi, özlem, bağlılık, paylaşma, yardımlaşma ve aile bağı 
 
 ### Açıklama ve gerekçe
 
-Soru 4 — değer yargısının metin kanıtı — basılı s.62-63 için beklenen yön, değer yargısının metin kanıtı yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Hitaplardan ilişki/bağlam çıkarımını somut ifadeye dayandırır. Mektup–e-posta karşılaştırmasında en az bir ortak ve bir farklı yön belirtir.
+Beklenen cevap, değer yargısının metin kanıtı çerçevesinde ‘I. Metin'de hangi değerlere ulaşılabilir? Gerekçel…’ konusunu metnin sunduğu veriler ve kavramsal dayanaklar üzerinden şekillendirir. Bu cevabın uygunluğu, Hitaplardan ilişki/bağlam çıkarımını somut ifadeye dayandırır. Mektup–e-posta karşılaştırmasında en az bir ortak ve bir farklı yön belirtir. ölçütünün karşılanmasına ve öğrencinin metindeki olay/durum ayrıntılarını nedensellik bağıyla kurmasına dayanır. Öğrencinin izlemesi gereken çıkarım yolu; öncelikle metindeki kanıt niteliği taşıyan ifadeleri belirlemek, ardından bu göstergeleri kavramsal odakla ilişkilendirerek kendi gerekçeli açıklamasını oluşturmaktır. Öğrenci aynı sonucu farklı sözcüklerle ifade edebilir; temel iddia ile metin dayanağı arasındaki mantıksal tutarlılık korunduğu sürece kişisel yorumlar alternatif cevap olarak kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 4 — değer yargısının metin kanıtı — basılı s.62-63 için e-postayı yalnız teknik bir form doldurma işi olarak değil, amacı ve hedef alıcısı belirlenmiş işlevsel bir yazma ürünü olarak açıklayın. Konu satırı, hitap, ana ileti, paragraf düzeni, ekler, gönderim zamanı ve mahremiyet aynı iletişim kararının parçalarıdır. Dijital ortam hız kazandırsa da açıklık, nezaket, güvenlik ve yazım özeni gereksinimini ortadan kaldırmaz. Bu görevde özellikle ‘I. Metin'de hangi değerlere ulaşılabilir? Gerekçelendiriniz’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev tahlilinde öğretmen, değer yargısının metin kanıtı odağında ‘I. Metin'de hangi değerlere ulaşılabilir? Gerekçel…’ sorusuna yönelik yanıtların metin içi tutarlılığını denetlemeli ve yüzeysel yorumların ötesine geçilmesini sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> E-postada biçim, alıcıya ve amaca hızlı ve açık ulaşmayı sağlayan bir düzen kurar. Bu görevde özellikle değer yargısının metin kanıtı üzerinde durun.
+> Görevin temel amacı, ‘I. Metin'de hangi değerlere ulaşılabilir? Ger…’ ayrıntısı üzerinden değer yargısının metin kanıtı kavramını kavramanızdır. Metindeki ilgili cümleleri bularak ‘Kardeşlik, sevgi, özlem, bağlılık, …’ bağlamındaki düşüncenizi kendi cümlelerinizle ortaya koyun.
 
 ### Bu görev neden burada?
 
-Bu görev, değer yargısının metin kanıtı kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar.
+Bu soru, ‘I. Metin'de hangi değerlere ulaşılabilir? Ger…’ ayrıntısını değer yargısının metin kanıtı ile birleştirerek dil ve edebiyat çalışmalarında neden-sonuç ilişkisi kurma ve ‘Kardeşlik, sevgi, özlem, bağlılık, …’ bağlamını kavrama yeterliğini güçlendirir.
 
 ### Kabul edilebilir cevaplar
 
@@ -6961,13 +6943,13 @@ Bu görev, değer yargısının metin kanıtı kararlarını gerçek bir dijital
 
 - s.60-64'ü tek bir 'dinleme hazırlığı' kartına sıkıştırma; hitap, mektup/e-posta karşılaştırması, araştırma ve gerçek dinleme/izleme hazırlığı farklı öğrenci eylemleridir.
 - Medya içeriğini açmadan önce amaç–strateji–tahmin kaydını al; sonradan doldurulmuş bir forma dönüşmesini önle.
-- Soru 4 — değer yargısının metin kanıtı — basılı s.62-63 için öğrencinin taslağını göndermeden önce konu satırı, hitap, ana istek ve ek gerekçesini ayrı ayrı kontrol ettirin.
-- Bir cümlenin alıcıda belirsizlik oluşturup oluşturmadığını ‘Bu cümleyi okuyan kişi hangi eylemi anlayacak?’ sorusuyla test ettirin.
+- Öğrencilerden metinde ‘I. Metin'de hangi değerlere ulaşılabilir…’ konusuna kaynaklık eden temel ifadelerin altını çizmelerini isteyin.
+- Öğrencilerin tespit ettiği kanıtları karşılaştırarak hangisinin değer yargısının metin kanıtı iddiasını daha güçlü desteklediğini sorgulatın.
 
 ### Takip soruları
 
-- Soru 4 — değer yargısının metin kanıtı — basılı s.62-63 için düşünme sorusu: Bu ek gerçekten alıcının karar vermesine yardım ediyor mu, yoksa yalnızca metni kalabalıklaştırıyor mu? Özellikle ‘I. Metin'de hangi değerlere ulaşılabilir? Gerekçelendiriniz’ ayrıntısını yoklayın.
-- Soru 4 — değer yargısının metin kanıtı — basılı s.62-63 için seçtiğin dil, alıcıyla ilişkin ve iletinin aciliyetiyle nasıl uyumlu? Özellikle ‘I. Metin'de hangi değerlere ulaşılabilir? Gerekçelendiriniz’ ayrıntısını yoklayın.
+- ‘I. Metin'de hangi değerlere ulaşılabilir…’ yapısındaki dil ögesi metinden çıkarılsaydı cümlenin bağlamsal doğruluğu ve anlatım gücü nasıl zayıflardı?
+- ‘I. Metin'de hangi değerlere ulaşılabilir…’ cümlesindeki dilbilgisi tercihinin metnin genel anlatım akışı ve anlam bütünlüğüne etkisi nedir?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -6984,17 +6966,18 @@ Bu görev, değer yargısının metin kanıtı kararlarını gerçek bir dijital
 
 ### Müdahale
 
-- Soru 4 — değer yargısının metin kanıtı — basılı s.62-63 için müdahale: Öğrenciye aynı metni konu satırı olmayan ve alıcısı belirtilmeyen biçimde okutun; oluşan belirsizlikleri metinde işaretletin. Müdahaleyi ‘I. Metin'de hangi değerlere ulaşılabilir? Gerekçelendiriniz’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 4 — değer yargısının metin kanıtı — basılı s.62-63 için müdahale: Resmî ve kişisel iki alıcı seçtirip değişmesi gereken hitap, söz varlığı ve kapanış bölümlerini yeniden yazdırın. Müdahaleyi ‘I. Metin'de hangi değerlere ulaşılabilir? Gerekçelendiriniz’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciden ‘I. Metin'de hangi değerlere ulaşıla…’ bağlamında ‘resm hitabı daha değerli’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- ‘I. Metin'de hangi değerlere ulaşıla…’ incelemesinde ‘elektronik iletişimin hızlı olmasını’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Öğrenciye ‘I. Metin'de hangi değerlere ulaşıla…’ çerçevesinde ‘tahmini doğru çıkma zorunluluğu’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Hitap → ilişki; araç → avantaj/dezavantaj; amaç → strateji eşleştirme şablonu kullan.
-- Öğrenciye önce ‘Kime? Neden? Ne istiyorum? Hangi ek gerekli?’ dört sorusunu cevaplatıp sonra e-posta alanlarını doldurtun. Bu görevde bağlantı noktası: değer yargısının metin kanıtı.
+- ‘I. Metin'de hangi değerlere ulaşıla…’ konusunu daha sade yönlendirici alt sorulara bölerek öğrencinin ‘Kardeşlik, sevgi, özlem, bağlı…’ sonucuna kademeli olarak ulaşmasına rehberlik edin.
 **Zenginleştirme**
 - Aynı iletinin mektup, e-posta ve yüz yüze iletişimde nasıl değişeceğini karşılaştırmasını iste.
-- Aynı e-postanın daha resmî ve daha yakın iki sürümünü yazdırarak üslup kararlarını gerekçelendirin. Bu görevde derinleştirme odağı: değer yargısının metin kanıtı.
+- ‘I. Metin'de hangi değerlere ulaşıla…’ tahlilini yazarın edebî dönemi, sanat anlayışı ve dönemin toplumsal koşullarıyla ilişkilendiren bir araştırma sorusu geliştirtin.
 
 ### Kaynak ve durum
 
@@ -7038,26 +7021,26 @@ Kitapta “Ders Dışı Etkinlik — İletişim ve E-posta” başlığı altın
 
 ### Açıklama ve gerekçe
 
-Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.63 için cevap, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Hitaplardan ilişki/bağlam çıkarımını somut ifadeye dayandırır. Mektup–e-posta karşılaştırmasında en az bir ortak ve bir farklı yön belirtir.
+Bu süreç çalışması tek bir ezber yanıt gerektirmeyip Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim ekseninde ‘Kitapta “Ders Dışı Etkinlik — İletişim ve E-posta”…’ adımlarının işletilmesine dayanır. Değerlendirmede temel ölçüt; Hitaplardan ilişki/bağlam çıkarımını somut ifadeye dayandırır. Mektup–e-posta karşılaştırmasında en az bir ortak ve bir farklı yön belirtir. ve öğrencinin aşamaları metin kanıtlarıyla gerekçelendirmesidir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.63 için e-postayı yalnız teknik bir form doldurma işi olarak değil, amacı ve hedef alıcısı belirlenmiş işlevsel bir yazma ürünü olarak açıklayın. Konu satırı, hitap, ana ileti, paragraf düzeni, ekler, gönderim zamanı ve mahremiyet aynı iletişim kararının parçalarıdır. Dijital ortam hız kazandırsa da açıklık, nezaket, güvenlik ve yazım özeni gereksinimini ortadan kaldırmaz. Bu görevde özellikle ‘Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — Ders…’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görevde öğretmen, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim çerçevesinde sorulan ‘Kitapta “Ders Dışı Etkinlik — İletişim ve E-posta”…’ konusu üzerinden öğrencinin metin kanıtları ile kavramsal çıkarımlar arasındaki ilişkiyi doğru kurmasını sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> E-postada biçim, alıcıya ve amaca hızlı ve açık ulaşmayı sağlayan bir düzen kurar. Bu görevde özellikle Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim üzerinde durun.
+> Bu görevde sizden beklenen; metindeki ipuçlarından hareketle ‘Kitapta “Ders Dışı Etkinlik — İletişim ve E-p…’ konusunu incelemeniz ve Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim doğrultusunda ‘Üç grup yazılı, görsel ve işitsel i…’ sonucuna nasıl ulaşıldığını adım adım açıklamanızdır.
 
 ### Bu görev neden burada?
 
-Bu görev, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar.
+Bu görev, öğrencinin ‘Kitapta “Ders Dışı Etkinlik — İletişim ve E-p…’ üzerinden Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim becerisini somut bir metin bağlamında deneyimlemesini ve iddialarını kanıtla destekleme alışkanlığı kazanmasını sağlar.
 
 ### Ders içi uygulama
 
 - s.60-64'ü tek bir 'dinleme hazırlığı' kartına sıkıştırma; hitap, mektup/e-posta karşılaştırması, araştırma ve gerçek dinleme/izleme hazırlığı farklı öğrenci eylemleridir.
 - Medya içeriğini açmadan önce amaç–strateji–tahmin kaydını al; sonradan doldurulmuş bir forma dönüşmesini önle.
 - Araştırmayı yalnız araç listesi toplamaya indirgemeyin; yazılı, görsel ve işitsel araçların değişimini ve hız/pratiklik artışının olumlu–olumsuz sonuçlarını karşılaştırın.
-- Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.63 için öğrencinin taslağını göndermeden önce konu satırı, hitap, ana istek ve ek gerekçesini ayrı ayrı kontrol ettirin.
+- ‘Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim (T1V23_P63_RESEARCH)’ odağındaki cümleleri tahtaya yansıtarak öğrencilerin dikkatini ilgili metin kesitine çekin.
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -7074,17 +7057,18 @@ Bu görev, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve M
 
 ### Müdahale
 
-- Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.63 için müdahale: Öğrenciye aynı metni konu satırı olmayan ve alıcısı belirtilmeyen biçimde okutun; oluşan belirsizlikleri metinde işaretletin. Müdahaleyi ‘Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — Ders…’ ayrıntısını kullandırarak somutlaştırın.
-- Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.63 için müdahale: Resmî ve kişisel iki alıcı seçtirip değişmesi gereken hitap, söz varlığı ve kapanış bölümlerini yeniden yazdırın. Müdahaleyi ‘Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — Ders…’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciden ‘Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim (T1V23_P63_RESEARCH)’ bağlamında ‘resm hitabı daha değerli’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- ‘Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim (T1V23_P63_RESEARCH)’ incelemesinde ‘elektronik iletişimin hızlı olmasını’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Öğrenciye ‘Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim (T1V23_P63_RESEARCH)’ çerçevesinde ‘tahmini doğru çıkma zorunluluğu’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Hitap → ilişki; araç → avantaj/dezavantaj; amaç → strateji eşleştirme şablonu kullan.
-- Öğrenciye önce ‘Kime? Neden? Ne istiyorum? Hangi ek gerekli?’ dört sorusunu cevaplatıp sonra e-posta alanlarını doldurtun. Bu görevde bağlantı noktası: Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim.
+- ‘Kitapta “Ders Dışı Etkinlik — İleti…’ sürecinde zorlanan öğrenciye metin türünün yapı basamaklarını gösteren bir şablon sunun.
 **Zenginleştirme**
 - Aynı iletinin mektup, e-posta ve yüz yüze iletişimde nasıl değişeceğini karşılaştırmasını iste.
-- Aynı e-postanın daha resmî ve daha yakın iki sürümünü yazdırarak üslup kararlarını gerekçelendirin. Bu görevde derinleştirme odağı: Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim.
+- Öğrenciden ‘Kitapta “Ders Dışı Etkinlik — İleti…’ ürününü dijital bir sunuma veya okul bülteninde yayımlanacak bir yazıya dönüştürmesini isteyin.
 
 ### Kaynak ve durum
 
@@ -7128,31 +7112,31 @@ Soru 1 — Çok modlu metni dinleme/izleme amacınızı belirleyiniz.
 
 ### Açıklama ve gerekçe
 
-Soru 1 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.64 için cevap, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Hitaplardan ilişki/bağlam çıkarımını somut ifadeye dayandırır. Mektup–e-posta karşılaştırmasında en az bir ortak ve bir farklı yön belirtir.
+Soruya verilecek uygun cevap, ‘Çok modlu metni dinleme/izleme amacınızı belirleyi…’ yönündeki çıkarımı Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim hedefleri doğrultusunda yapılandırır. Çözümlemenin geçerliliği, Hitaplardan ilişki/bağlam çıkarımını somut ifadeye dayandırır. Mektup–e-posta karşılaştırmasında en az bir ortak ve bir farklı yön belirtir. koşuluna uyulması ve iddiaların metindeki açık veya örtük ifadelerle doğrulanmasıyla sağlanır. Öğrencinin akıl yürütme süreci; sorunun işaret ettiği metin bölümünü belirlemek, oradaki dil ve anlatım ipuçlarını değerlendirmek ve ulaştığı yargıyı gerekçelendirmektir. Metin özüyle örtüşen ve mantıksal nedensellik taşıyan alternatif anlatımlar doğru yanıt olarak değerlendirilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 1 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.64 için e-postayı yalnız teknik bir form doldurma işi olarak değil, amacı ve hedef alıcısı belirlenmiş işlevsel bir yazma ürünü olarak açıklayın. Konu satırı, hitap, ana ileti, paragraf düzeni, ekler, gönderim zamanı ve mahremiyet aynı iletişim kararının parçalarıdır. Dijital ortam hız kazandırsa da açıklık, nezaket, güvenlik ve yazım özeni gereksinimini ortadan kaldırmaz. Bu görevde özellikle ‘Çok modlu metni dinleme/izleme amacınızı belirleyiniz’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görevde öğretmen, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim çerçevesinde sorulan ‘Çok modlu metni dinleme/izleme amacınızı belirleyi…’ konusu üzerinden öğrencinin metin kanıtları ile kavramsal çıkarımlar arasındaki ilişkiyi doğru kurmasını sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> E-postada biçim, alıcıya ve amaca hızlı ve açık ulaşmayı sağlayan bir düzen kurar. Bu görevde özellikle Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim üzerinde durun.
+> Bu görevde sizden beklenen; metindeki ipuçlarından hareketle ‘Çok modlu metni dinleme/izleme amacınızı beli…’ konusunu incelemeniz ve Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim doğrultusunda ‘İletişim araçlarının geçmişten bugü…’ sonucuna nasıl ulaşıldığını adım adım açıklamanızdır.
 
 ### Bu görev neden burada?
 
-Bu görev, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar.
+Bu görev, öğrencinin ‘Çok modlu metni dinleme/izleme amacınızı beli…’ üzerinden Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim becerisini somut bir metin bağlamında deneyimlemesini ve iddialarını kanıtla destekleme alışkanlığı kazanmasını sağlar.
 
 ### Ders içi uygulama
 
 - s.60-64'ü tek bir 'dinleme hazırlığı' kartına sıkıştırma; hitap, mektup/e-posta karşılaştırması, araştırma ve gerçek dinleme/izleme hazırlığı farklı öğrenci eylemleridir.
 - Medya içeriğini açmadan önce amaç–strateji–tahmin kaydını al; sonradan doldurulmuş bir forma dönüşmesini önle.
-- Soru 1 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.64 için öğrencinin taslağını göndermeden önce konu satırı, hitap, ana istek ve ek gerekçesini ayrı ayrı kontrol ettirin.
-- Bir cümlenin alıcıda belirsizlik oluşturup oluşturmadığını ‘Bu cümleyi okuyan kişi hangi eylemi anlayacak?’ sorusuyla test ettirin.
+- Metnin ilgili bölümünü sessizce okutup Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim ile bağlantılı kilit kelimeleri belirlemeleri için süre tanıyın.
+- Seçilen metin kanıtlarının Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim hedefine uygunluğunu akran değerlendirmesiyle gözden geçirtin.
 
 ### Takip soruları
 
-- Soru 1 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.64 için düşünme sorusu: Bu ek gerçekten alıcının karar vermesine yardım ediyor mu, yoksa yalnızca metni kalabalıklaştırıyor mu? Özellikle ‘Çok modlu metni dinleme/izleme amacınızı belirleyiniz’ ayrıntısını yoklayın.
-- Soru 1 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.64 için seçtiğin dil, alıcıyla ilişkin ve iletinin aciliyetiyle nasıl uyumlu? Özellikle ‘Çok modlu metni dinleme/izleme amacınızı belirleyiniz’ ayrıntısını yoklayın.
+- Metinde ‘Çok modlu metni dinleme/izleme amacınızı…’ için ulaşılan ‘İletişim araçlarının geçmişten bugü…’ sonucunu destekleyen en güçlü kanıt hangisidir; bu unsur metinden çıkarılsaydı iletide ne gibi bir eksiklik oluşurdu?
+- Eğer metindeki ‘Çok modlu metni dinleme/izleme amacınızı…’ durumu ‘İletişim araçlarının geçmişten bugü…’ yerine farklı bir biçimde gelişseydi, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim açısından eserin anlam dünyası nasıl etkilenirdi?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -7169,17 +7153,18 @@ Bu görev, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve M
 
 ### Müdahale
 
-- Soru 1 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.64 için müdahale: Öğrenciye aynı metni konu satırı olmayan ve alıcısı belirtilmeyen biçimde okutun; oluşan belirsizlikleri metinde işaretletin. Müdahaleyi ‘Çok modlu metni dinleme/izleme amacınızı belirleyiniz’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 1 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.64 için müdahale: Resmî ve kişisel iki alıcı seçtirip değişmesi gereken hitap, söz varlığı ve kapanış bölümlerini yeniden yazdırın. Müdahaleyi ‘Çok modlu metni dinleme/izleme amacınızı belirleyiniz’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciye ‘Çok modlu metni dinleme/izleme amac…’ çerçevesinde ‘resm hitabı daha değerli’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- ‘Çok modlu metni dinleme/izleme amac…’ doğrultusunda ‘elektronik iletişimin hızlı olmasını’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Öğrenciden ‘Çok modlu metni dinleme/izleme amac…’ bağlamında ‘tahmini doğru çıkma zorunluluğu’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Hitap → ilişki; araç → avantaj/dezavantaj; amaç → strateji eşleştirme şablonu kullan.
-- Öğrenciye önce ‘Kime? Neden? Ne istiyorum? Hangi ek gerekli?’ dört sorusunu cevaplatıp sonra e-posta alanlarını doldurtun. Bu görevde bağlantı noktası: Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim.
+- ‘Çok modlu metni dinleme/izleme amac…’ sorusunu yanıtlamakta zorlanan öğrenciye metindeki ilgili paragrafı işaretleyin; önce anahtar kavramları buldurarak cevabı adım adım kurdurun.
 **Zenginleştirme**
 - Aynı iletinin mektup, e-posta ve yüz yüze iletişimde nasıl değişeceğini karşılaştırmasını iste.
-- Aynı e-postanın daha resmî ve daha yakın iki sürümünü yazdırarak üslup kararlarını gerekçelendirin. Bu görevde derinleştirme odağı: Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim.
+- Öğrenciden ‘Çok modlu metni dinleme/izleme amac…’ çerçevesinde ulaştığı ‘İletişim araçlarının geçmişten…’ sonucunu, okuduğu farklı bir edebî eserle karşılaştıran kısa bir eleştiri yazısı yazmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -7223,19 +7208,19 @@ Başlık ve görselden, iletişim araçlarının değişimi ve bunun günlük ha
 
 ### Açıklama ve gerekçe
 
-Soru 2 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.64 için beklenen yön, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Hitaplardan ilişki/bağlam çıkarımını somut ifadeye dayandırır. Mektup–e-posta karşılaştırmasında en az bir ortak ve bir farklı yön belirtir.
+Beklenen cevap, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim çerçevesinde ‘Başlık ve görselden hareketle içeriğe ve türe yöne…’ konusunu metnin sunduğu veriler ve kavramsal dayanaklar üzerinden şekillendirir. Bu cevabın uygunluğu, Hitaplardan ilişki/bağlam çıkarımını somut ifadeye dayandırır. Mektup–e-posta karşılaştırmasında en az bir ortak ve bir farklı yön belirtir. ölçütünün karşılanmasına ve öğrencinin metindeki olay/durum ayrıntılarını nedensellik bağıyla kurmasına dayanır. Öğrencinin izlemesi gereken çıkarım yolu; öncelikle metindeki kanıt niteliği taşıyan ifadeleri belirlemek, ardından bu göstergeleri kavramsal odakla ilişkilendirerek kendi gerekçeli açıklamasını oluşturmaktır. Öğrenci aynı sonucu farklı sözcüklerle ifade edebilir; temel iddia ile metin dayanağı arasındaki mantıksal tutarlılık korunduğu sürece kişisel yorumlar alternatif cevap olarak kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 2 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.64 için e-postayı yalnız teknik bir form doldurma işi olarak değil, amacı ve hedef alıcısı belirlenmiş işlevsel bir yazma ürünü olarak açıklayın. Konu satırı, hitap, ana ileti, paragraf düzeni, ekler, gönderim zamanı ve mahremiyet aynı iletişim kararının parçalarıdır. Dijital ortam hız kazandırsa da açıklık, nezaket, güvenlik ve yazım özeni gereksinimini ortadan kaldırmaz. Bu görevde özellikle ‘Başlık ve görselden hareketle içeriğe ve türe yönelik tahminde bulununuz’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev sürecinde öğretmen, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim doğrultusunda ‘Başlık ve görselden hareketle içeriğe ve türe yöne…’ sorusunu çözümlerken öğrencilerin somut metin delilleriyle argüman geliştirmelerini teşvik etmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> E-postada biçim, alıcıya ve amaca hızlı ve açık ulaşmayı sağlayan bir düzen kurar. Bu görevde özellikle Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim üzerinde durun.
+> Yönergeyi uygularken önce metindeki ‘Başlık ve görselden hareketle içeriğe ve türe…’ ifadelerini işaretleyin; ardından bu unsurların Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim hedefine nasıl hizmet ettiğini ve ‘Başlık ve görselden, iletişim araçl…’ ile ilişkisini açıklayın.
 
 ### Bu görev neden burada?
 
-Bu görev, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar.
+Bu etkinlik, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim alanında ‘Başlık ve görselden hareketle içeriğe ve türe…’ doğrultusunda öğrencinin kendi düşüncesini kaynak dayanaklarıyla savunmasını ve tutarlı bir ifade becerisi inşa etmesini amaçlar.
 
 ### Kabul edilebilir cevaplar
 
@@ -7246,13 +7231,13 @@ Bu görev, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve M
 
 - s.60-64'ü tek bir 'dinleme hazırlığı' kartına sıkıştırma; hitap, mektup/e-posta karşılaştırması, araştırma ve gerçek dinleme/izleme hazırlığı farklı öğrenci eylemleridir.
 - Medya içeriğini açmadan önce amaç–strateji–tahmin kaydını al; sonradan doldurulmuş bir forma dönüşmesini önle.
-- Soru 2 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.64 için öğrencinin taslağını göndermeden önce konu satırı, hitap, ana istek ve ek gerekçesini ayrı ayrı kontrol ettirin.
-- Bir cümlenin alıcıda belirsizlik oluşturup oluşturmadığını ‘Bu cümleyi okuyan kişi hangi eylemi anlayacak?’ sorusuyla test ettirin.
+- Öğrencilerden metinde ‘Başlık ve görselden hareketle içeriğe ve…’ konusuna kaynaklık eden temel ifadelerin altını çizmelerini isteyin.
+- Öğrencilerin tespit ettiği kanıtları karşılaştırarak hangisinin Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim iddiasını daha güçlü desteklediğini sorgulatın.
 
 ### Takip soruları
 
-- Soru 2 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.64 için düşünme sorusu: Bu ek gerçekten alıcının karar vermesine yardım ediyor mu, yoksa yalnızca metni kalabalıklaştırıyor mu? Özellikle ‘Başlık ve görselden hareketle içeriğe ve türe yönelik tahminde bulununuz’ ayrıntısını yoklayın.
-- Soru 2 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.64 için seçtiğin dil, alıcıyla ilişkin ve iletinin aciliyetiyle nasıl uyumlu? Özellikle ‘Başlık ve görselden hareketle içeriğe ve türe yönelik tahminde bulununuz’ ayrıntısını yoklayın.
+- Metinde ‘Başlık ve görselden hareketle içeriğe ve…’ kullanımına benzer başka bir örnek bulunabilir mi; bu iki örnek yazarın üslubunu nasıl yansıtmaktadır?
+- ‘Başlık ve görselden hareketle içeriğe ve…’ cümlesindeki dilbilgisi tercihinin metnin genel anlatım akışı ve anlam bütünlüğüne etkisi nedir?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -7269,17 +7254,18 @@ Bu görev, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve M
 
 ### Müdahale
 
-- Soru 2 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.64 için müdahale: Öğrenciye aynı metni konu satırı olmayan ve alıcısı belirtilmeyen biçimde okutun; oluşan belirsizlikleri metinde işaretletin. Müdahaleyi ‘Başlık ve görselden hareketle içeriğe ve türe yönelik tahminde bulununuz’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 2 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.64 için müdahale: Resmî ve kişisel iki alıcı seçtirip değişmesi gereken hitap, söz varlığı ve kapanış bölümlerini yeniden yazdırın. Müdahaleyi ‘Başlık ve görselden hareketle içeriğe ve türe yönelik tahminde bulununuz’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciden ‘Başlık ve görselden hareketle içeri…’ bağlamında ‘resm hitabı daha değerli’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- ‘Başlık ve görselden hareketle içeri…’ incelemesinde ‘elektronik iletişimin hızlı olmasını’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Öğrenciye ‘Başlık ve görselden hareketle içeri…’ çerçevesinde ‘tahmini doğru çıkma zorunluluğu’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Hitap → ilişki; araç → avantaj/dezavantaj; amaç → strateji eşleştirme şablonu kullan.
-- Öğrenciye önce ‘Kime? Neden? Ne istiyorum? Hangi ek gerekli?’ dört sorusunu cevaplatıp sonra e-posta alanlarını doldurtun. Bu görevde bağlantı noktası: Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim.
+- Öğrenciye bir çalışma kâğıdı vererek ‘Başlık ve görselden hareketle içeri…’ için metinde geçen olumlu ve olumsuz göstergeleri iki sütun hâlinde gruplatın.
 **Zenginleştirme**
 - Aynı iletinin mektup, e-posta ve yüz yüze iletişimde nasıl değişeceğini karşılaştırmasını iste.
-- Aynı e-postanın daha resmî ve daha yakın iki sürümünü yazdırarak üslup kararlarını gerekçelendirin. Bu görevde derinleştirme odağı: Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim.
+- Metindeki ‘Başlık ve görselden hareketle içeri…’ durumunu güncel bir olay veya sanat eseriyle kıyaslayarak ‘Başlık ve görselden, iletişim …’ ekseninde disiplinler arası bir değerlendirme yaptırın.
 
 ### Kaynak ve durum
 
@@ -7323,26 +7309,26 @@ Gürültü, dikkat dağıtan cihazlar, uygunsuz oturma/görüş koşulları veya
 
 ### Açıklama ve gerekçe
 
-Soru 3 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.64 için cevap, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Hitaplardan ilişki/bağlam çıkarımını somut ifadeye dayandırır. Mektup–e-posta karşılaştırmasında en az bir ortak ve bir farklı yön belirtir.
+Bu etkinlikte sabit bir formül aranmaz; Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim amacına yönelik olarak ‘Etkili dinleme/izlemeyi engelleyen metin ve ortam …’ basamaklarının özgün biçimde yapılandırılması esastır. Geçerlilik ölçütü; Hitaplardan ilişki/bağlam çıkarımını somut ifadeye dayandırır. Mektup–e-posta karşılaştırmasında en az bir ortak ve bir farklı yön belirtir. doğrultusunda öğrencinin ortaya koyduğu tutarlı ürün ve gerekçedir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 3 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.64 için e-postayı yalnız teknik bir form doldurma işi olarak değil, amacı ve hedef alıcısı belirlenmiş işlevsel bir yazma ürünü olarak açıklayın. Konu satırı, hitap, ana ileti, paragraf düzeni, ekler, gönderim zamanı ve mahremiyet aynı iletişim kararının parçalarıdır. Dijital ortam hız kazandırsa da açıklık, nezaket, güvenlik ve yazım özeni gereksinimini ortadan kaldırmaz. Bu görevde özellikle ‘Etkili dinleme/izlemeyi engelleyen metin ve ortam kaynaklı iletişim engellerini azaltınız’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev tahlilinde öğretmen, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim odağında ‘Etkili dinleme/izlemeyi engelleyen metin ve ortam …’ sorusuna yönelik yanıtların metin içi tutarlılığını denetlemeli ve yüzeysel yorumların ötesine geçilmesini sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> E-postada biçim, alıcıya ve amaca hızlı ve açık ulaşmayı sağlayan bir düzen kurar. Bu görevde özellikle Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim üzerinde durun.
+> Görevin temel amacı, ‘Etkili dinleme/izlemeyi engelleyen metin ve o…’ ayrıntısı üzerinden Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim kavramını kavramanızdır. Metindeki ilgili cümleleri bularak ‘Gürültü, dikkat dağıtan cihazlar, u…’ bağlamındaki düşüncenizi kendi cümlelerinizle ortaya koyun.
 
 ### Bu görev neden burada?
 
-Bu görev, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar.
+Bu soru, ‘Etkili dinleme/izlemeyi engelleyen metin ve o…’ ayrıntısını Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim ile birleştirerek dil ve edebiyat çalışmalarında neden-sonuç ilişkisi kurma ve ‘Gürültü, dikkat dağıtan cihazlar, u…’ bağlamını kavrama yeterliğini güçlendirir.
 
 ### Ders içi uygulama
 
 - s.60-64'ü tek bir 'dinleme hazırlığı' kartına sıkıştırma; hitap, mektup/e-posta karşılaştırması, araştırma ve gerçek dinleme/izleme hazırlığı farklı öğrenci eylemleridir.
 - Medya içeriğini açmadan önce amaç–strateji–tahmin kaydını al; sonradan doldurulmuş bir forma dönüşmesini önle.
-- Soru 3 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.64 için öğrencinin taslağını göndermeden önce konu satırı, hitap, ana istek ve ek gerekçesini ayrı ayrı kontrol ettirin.
-- Bir cümlenin alıcıda belirsizlik oluşturup oluşturmadığını ‘Bu cümleyi okuyan kişi hangi eylemi anlayacak?’ sorusuyla test ettirin.
+- Öğrencilerden Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim açısından metindeki zıtlık ve benzerlikleri belirleyerek not almalarını isteyin.
+- İddialar ile ‘Etkili dinleme/izlemeyi engelleyen metin…’ kanıtları arasındaki mantıksal bağı adım adım sorgulatarak temellendirin.
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -7359,17 +7345,18 @@ Bu görev, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve M
 
 ### Müdahale
 
-- Soru 3 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.64 için müdahale: Öğrenciye aynı metni konu satırı olmayan ve alıcısı belirtilmeyen biçimde okutun; oluşan belirsizlikleri metinde işaretletin. Müdahaleyi ‘Etkili dinleme/izlemeyi engelleyen metin ve ortam kaynaklı iletişim engellerini azaltınız’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 3 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.64 için müdahale: Resmî ve kişisel iki alıcı seçtirip değişmesi gereken hitap, söz varlığı ve kapanış bölümlerini yeniden yazdırın. Müdahaleyi ‘Etkili dinleme/izlemeyi engelleyen metin ve ortam kaynaklı iletişim engellerini azaltınız’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciye ‘Etkili dinleme/izlemeyi engelleyen …’ çerçevesinde ‘resm hitabı daha değerli’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- ‘Etkili dinleme/izlemeyi engelleyen …’ doğrultusunda ‘elektronik iletişimin hızlı olmasını’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Öğrenciden ‘Etkili dinleme/izlemeyi engelleyen …’ bağlamında ‘tahmini doğru çıkma zorunluluğu’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Hitap → ilişki; araç → avantaj/dezavantaj; amaç → strateji eşleştirme şablonu kullan.
-- Öğrenciye önce ‘Kime? Neden? Ne istiyorum? Hangi ek gerekli?’ dört sorusunu cevaplatıp sonra e-posta alanlarını doldurtun. Bu görevde bağlantı noktası: Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim.
+- ‘Etkili dinleme/izlemeyi engelleyen …’ konusunu daha sade yönlendirici alt sorulara bölerek öğrencinin ‘Gürültü, dikkat dağıtan cihazl…’ sonucuna kademeli olarak ulaşmasına rehberlik edin.
 **Zenginleştirme**
 - Aynı iletinin mektup, e-posta ve yüz yüze iletişimde nasıl değişeceğini karşılaştırmasını iste.
-- Aynı e-postanın daha resmî ve daha yakın iki sürümünü yazdırarak üslup kararlarını gerekçelendirin. Bu görevde derinleştirme odağı: Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim.
+- ‘Etkili dinleme/izlemeyi engelleyen …’ tahlilini yazarın edebî dönemi, sanat anlayışı ve dönemin toplumsal koşullarıyla ilişkilendiren bir araştırma sorusu geliştirtin.
 
 ### Kaynak ve durum
 
@@ -7413,19 +7400,19 @@ Not alma, anahtar kavramları belirleme, geçmiş–günümüz karşılaştırma
 
 ### Açıklama ve gerekçe
 
-Soru 4 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.64 için beklenen yön, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Hitaplardan ilişki/bağlam çıkarımını somut ifadeye dayandırır. Mektup–e-posta karşılaştırmasında en az bir ortak ve bir farklı yön belirtir.
+Beklenen cevap, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim çerçevesinde ‘Günlük dil kullanımını kendi yaşamınızla ilişkilen…’ konusunu metnin sunduğu veriler ve kavramsal dayanaklar üzerinden şekillendirir. Bu cevabın uygunluğu, Hitaplardan ilişki/bağlam çıkarımını somut ifadeye dayandırır. Mektup–e-posta karşılaştırmasında en az bir ortak ve bir farklı yön belirtir. ölçütünün karşılanmasına ve öğrencinin metindeki olay/durum ayrıntılarını nedensellik bağıyla kurmasına dayanır. Öğrencinin izlemesi gereken çıkarım yolu; öncelikle metindeki kanıt niteliği taşıyan ifadeleri belirlemek, ardından bu göstergeleri kavramsal odakla ilişkilendirerek kendi gerekçeli açıklamasını oluşturmaktır. Öğrenci aynı sonucu farklı sözcüklerle ifade edebilir; temel iddia ile metin dayanağı arasındaki mantıksal tutarlılık korunduğu sürece kişisel yorumlar alternatif cevap olarak kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 4 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.64 için e-postayı yalnız teknik bir form doldurma işi olarak değil, amacı ve hedef alıcısı belirlenmiş işlevsel bir yazma ürünü olarak açıklayın. Konu satırı, hitap, ana ileti, paragraf düzeni, ekler, gönderim zamanı ve mahremiyet aynı iletişim kararının parçalarıdır. Dijital ortam hız kazandırsa da açıklık, nezaket, güvenlik ve yazım özeni gereksinimini ortadan kaldırmaz. Bu görevde özellikle ‘Günlük dil kullanımını kendi yaşamınızla ilişkilendirecek bir dinleme/izleme stratejisi belirleyiniz’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görevde öğretmen, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim çerçevesinde sorulan ‘Günlük dil kullanımını kendi yaşamınızla ilişkilen…’ konusu üzerinden öğrencinin metin kanıtları ile kavramsal çıkarımlar arasındaki ilişkiyi doğru kurmasını sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> E-postada biçim, alıcıya ve amaca hızlı ve açık ulaşmayı sağlayan bir düzen kurar. Bu görevde özellikle Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim üzerinde durun.
+> Bu görevde sizden beklenen; metindeki ipuçlarından hareketle ‘Günlük dil kullanımını kendi yaşamınızla iliş…’ konusunu incelemeniz ve Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim doğrultusunda ‘Not alma, anahtar kavramları belirl…’ sonucuna nasıl ulaşıldığını adım adım açıklamanızdır.
 
 ### Bu görev neden burada?
 
-Bu görev, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar.
+Bu görev, öğrencinin ‘Günlük dil kullanımını kendi yaşamınızla iliş…’ üzerinden Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim becerisini somut bir metin bağlamında deneyimlemesini ve iddialarını kanıtla destekleme alışkanlığı kazanmasını sağlar.
 
 ### Kabul edilebilir cevaplar
 
@@ -7436,13 +7423,13 @@ Bu görev, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve M
 
 - s.60-64'ü tek bir 'dinleme hazırlığı' kartına sıkıştırma; hitap, mektup/e-posta karşılaştırması, araştırma ve gerçek dinleme/izleme hazırlığı farklı öğrenci eylemleridir.
 - Medya içeriğini açmadan önce amaç–strateji–tahmin kaydını al; sonradan doldurulmuş bir forma dönüşmesini önle.
-- Soru 4 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.64 için öğrencinin taslağını göndermeden önce konu satırı, hitap, ana istek ve ek gerekçesini ayrı ayrı kontrol ettirin.
-- Bir cümlenin alıcıda belirsizlik oluşturup oluşturmadığını ‘Bu cümleyi okuyan kişi hangi eylemi anlayacak?’ sorusuyla test ettirin.
+- ‘Günlük dil kullanımını kendi yaşamınızla…’ odağındaki cümleleri tahtaya yansıtarak öğrencilerin dikkatini ilgili metin kesitine çekin.
+- Metin içi tutarlılığı sorgulamak için ‘Günlük dil kullanımını kendi yaşamınızla…’ ile ilgili çelişkili veya örtük noktaları tartışmaya açın.
 
 ### Takip soruları
 
-- Soru 4 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.64 için düşünme sorusu: Bu ek gerçekten alıcının karar vermesine yardım ediyor mu, yoksa yalnızca metni kalabalıklaştırıyor mu? Özellikle ‘Günlük dil kullanımını kendi yaşamınızla ilişkilendirecek bir dinleme/izleme stratejisi belirleyiniz’ ayrıntısını yoklayın.
-- Soru 4 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.64 için seçtiğin dil, alıcıyla ilişkin ve iletinin aciliyetiyle nasıl uyumlu? Özellikle ‘Günlük dil kullanımını kendi yaşamınızla ilişkilendirecek bir dinleme/izleme stratejisi belirleyiniz’ ayrıntısını yoklayın.
+- Eğer ‘Günlük dil kullanımını kendi yaşamınızla…’ ifadesinde kullanılan dil bilgisel yapı değiştirilseydi, cümlenin ilettiği anlam ve vurgu nasıl başkalaşırdı?
+- ‘Günlük dil kullanımını kendi yaşamınızla…’ cümlesindeki dilbilgisi tercihinin metnin genel anlatım akışı ve anlam bütünlüğüne etkisi nedir?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -7459,17 +7446,18 @@ Bu görev, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve M
 
 ### Müdahale
 
-- Soru 4 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.64 için müdahale: Öğrenciye aynı metni konu satırı olmayan ve alıcısı belirtilmeyen biçimde okutun; oluşan belirsizlikleri metinde işaretletin. Müdahaleyi ‘Günlük dil kullanımını kendi yaşamınızla ilişkilendirecek bir dinleme/izleme stratejisi belirleyiniz’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 4 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.64 için müdahale: Resmî ve kişisel iki alıcı seçtirip değişmesi gereken hitap, söz varlığı ve kapanış bölümlerini yeniden yazdırın. Müdahaleyi ‘Günlük dil kullanımını kendi yaşamınızla ilişkilendirecek bir dinleme/izleme stratejisi belirleyiniz’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciden ‘Günlük dil kullanımını kendi yaşamı…’ bağlamında ‘resm hitabı daha değerli’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- ‘Günlük dil kullanımını kendi yaşamı…’ incelemesinde ‘elektronik iletişimin hızlı olmasını’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Öğrenciye ‘Günlük dil kullanımını kendi yaşamı…’ çerçevesinde ‘tahmini doğru çıkma zorunluluğu’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Hitap → ilişki; araç → avantaj/dezavantaj; amaç → strateji eşleştirme şablonu kullan.
-- Öğrenciye önce ‘Kime? Neden? Ne istiyorum? Hangi ek gerekli?’ dört sorusunu cevaplatıp sonra e-posta alanlarını doldurtun. Bu görevde bağlantı noktası: Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim.
+- ‘Günlük dil kullanımını kendi yaşamı…’ öz değerlendirmesinde zorlanan öğrenciye derste işlenen en belirgin kavramı hatırlatarak tek bir maddeye odaklanmasını sağlayın.
 **Zenginleştirme**
 - Aynı iletinin mektup, e-posta ve yüz yüze iletişimde nasıl değişeceğini karşılaştırmasını iste.
-- Aynı e-postanın daha resmî ve daha yakın iki sürümünü yazdırarak üslup kararlarını gerekçelendirin. Bu görevde derinleştirme odağı: Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim.
+- Öğrenciden ‘Günlük dil kullanımını kendi yaşamı…’ sürecinde edindiği kazanımı bir sonraki derse taşıyacak özgün bir araştırma sorusu formüle etmesini isteyin.
 
 ### Kaynak ve durum
 
@@ -7513,26 +7501,26 @@ Adım 5 — QR'daki çok modlu metni not alarak dinleyiniz/izleyiniz.
 
 ### Açıklama ve gerekçe
 
-Soru 5 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.64 için cevap, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Hitaplardan ilişki/bağlam çıkarımını somut ifadeye dayandırır. Mektup–e-posta karşılaştırmasında en az bir ortak ve bir farklı yön belirtir.
+Bu çalışma kapsamında öğrencinin ‘QR'daki çok modlu metni not alarak dinleyiniz/izle…’ sürecini Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim ilkelerine uygun olarak tamamlaması beklenir. Ürünün kabulü; Hitaplardan ilişki/bağlam çıkarımını somut ifadeye dayandırır. Mektup–e-posta karşılaştırmasında en az bir ortak ve bir farklı yön belirtir. sınırlarına bağlı kalınmasına, öğrencinin basamakları açıkça belgelemesine ve gerekçesine dayanır.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 5 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.64 için e-postayı yalnız teknik bir form doldurma işi olarak değil, amacı ve hedef alıcısı belirlenmiş işlevsel bir yazma ürünü olarak açıklayın. Konu satırı, hitap, ana ileti, paragraf düzeni, ekler, gönderim zamanı ve mahremiyet aynı iletişim kararının parçalarıdır. Dijital ortam hız kazandırsa da açıklık, nezaket, güvenlik ve yazım özeni gereksinimini ortadan kaldırmaz. Bu görevde özellikle ‘QR'daki çok modlu metni not alarak dinleyiniz/izleyiniz’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev sürecinde öğretmen, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim doğrultusunda ‘QR'daki çok modlu metni not alarak dinleyiniz/izle…’ sorusunu çözümlerken öğrencilerin somut metin delilleriyle argüman geliştirmelerini teşvik etmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> E-postada biçim, alıcıya ve amaca hızlı ve açık ulaşmayı sağlayan bir düzen kurar. Bu görevde özellikle Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim üzerinde durun.
+> Yönergeyi uygularken önce metindeki ‘QR'daki çok modlu metni not alarak dinleyiniz…’ ifadelerini işaretleyin; ardından bu unsurların Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim hedefine nasıl hizmet ettiğini ve ‘Öğrenci QR'daki çok modlu metni dik…’ ile ilişkisini açıklayın.
 
 ### Bu görev neden burada?
 
-Bu görev, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar.
+Bu etkinlik, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim alanında ‘QR'daki çok modlu metni not alarak dinleyiniz…’ doğrultusunda öğrencinin kendi düşüncesini kaynak dayanaklarıyla savunmasını ve tutarlı bir ifade becerisi inşa etmesini amaçlar.
 
 ### Ders içi uygulama
 
 - s.60-64'ü tek bir 'dinleme hazırlığı' kartına sıkıştırma; hitap, mektup/e-posta karşılaştırması, araştırma ve gerçek dinleme/izleme hazırlığı farklı öğrenci eylemleridir.
 - Medya içeriğini açmadan önce amaç–strateji–tahmin kaydını al; sonradan doldurulmuş bir forma dönüşmesini önle.
 - Hazır özet veya transkripti önce vermeyin; dinleme/izleme sırasında oluşan öğrencinin kendi notu temel süreç kanıtıdır.
-- Soru 5 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.64 için öğrencinin taslağını göndermeden önce konu satırı, hitap, ana istek ve ek gerekçesini ayrı ayrı kontrol ettirin.
+- Metnin ilgili bölümünü sessizce okutup Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim ile bağlantılı kilit kelimeleri belirlemeleri için süre tanıyın.
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -7549,17 +7537,18 @@ Bu görev, Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve M
 
 ### Müdahale
 
-- Soru 5 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.64 için müdahale: Öğrenciye aynı metni konu satırı olmayan ve alıcısı belirtilmeyen biçimde okutun; oluşan belirsizlikleri metinde işaretletin. Müdahaleyi ‘QR'daki çok modlu metni not alarak dinleyiniz/izleyiniz’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 5 — Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim — basılı s.64 için müdahale: Resmî ve kişisel iki alıcı seçtirip değişmesi gereken hitap, söz varlığı ve kapanış bölümlerini yeniden yazdırın. Müdahaleyi ‘QR'daki çok modlu metni not alarak dinleyiniz/izleyiniz’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciye ‘QR'daki çok modlu metni not alarak …’ çerçevesinde ‘resm hitabı daha değerli’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- ‘QR'daki çok modlu metni not alarak …’ doğrultusunda ‘elektronik iletişimin hızlı olmasını’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Öğrenciden ‘QR'daki çok modlu metni not alarak …’ bağlamında ‘tahmini doğru çıkma zorunluluğu’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Hitap → ilişki; araç → avantaj/dezavantaj; amaç → strateji eşleştirme şablonu kullan.
-- Öğrenciye önce ‘Kime? Neden? Ne istiyorum? Hangi ek gerekli?’ dört sorusunu cevaplatıp sonra e-posta alanlarını doldurtun. Bu görevde bağlantı noktası: Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim.
+- Öğrenciye bir çalışma kâğıdı vererek ‘QR'daki çok modlu metni not alarak …’ için metinde geçen olumlu ve olumsuz göstergeleri iki sütun hâlinde gruplatın.
 **Zenginleştirme**
 - Aynı iletinin mektup, e-posta ve yüz yüze iletişimde nasıl değişeceğini karşılaştırmasını iste.
-- Aynı e-postanın daha resmî ve daha yakın iki sürümünü yazdırarak üslup kararlarını gerekçelendirin. Bu görevde derinleştirme odağı: Sıra Sizde, Düşünelim Paylaşalım, ders dışı araştırma ve Metni Dinleyelim/İzleyelim.
+- Metindeki ‘QR'daki çok modlu metni not alarak …’ durumunu güncel bir olay veya sanat eseriyle kıyaslayarak ‘Öğrenci QR'daki çok modlu metn…’ ekseninde disiplinler arası bir değerlendirme yaptırın.
 
 ### Kaynak ve durum
 
@@ -7612,19 +7601,19 @@ Kitapta “Gözlem Formu” başlığı altında verilen çalışma/yönerge.
 
 ### Açıklama ve gerekçe
 
-Gözlem Formu — basılı s.64 için beklenen yön, Gözlem Formu yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Formu gözlenebilir dinleme/izleme davranışına dayalı doldurur. Form sonucu ile sonraki dinleme/izleme davranışı arasında geliştirme hedefi kurar.
+Bu görevdeki ‘Kitapta “Gözlem Formu” başlığı altında verilen çal…’ tablosundaki maddelerin (gorunur_olcutler) doğruluğu, kaynak metindeki açık ifadeler ve çıkarımlar ile karşılaştırılarak temellendirilir. Öğrencinin izlemesi gereken çıkarım yolu; her bir cümleyi tek tek metindeki ifadelerle eşleştirmek, metinde doğrudan doğrulanan yargıları 'Evet', açıkça çelişenleri 'Hayır' ve metinde hakkında hüküm verilmeyen yargıları ise 'Bilgi yok' olarak sınıflandırmaktır. Formu gözlenebilir dinleme/izleme davranışına dayalı doldurur. Form sonucu ile sonraki dinleme/izleme davranışı arasında geliştirme hedefi kurar.
 
 ### Öğretmenin bilmesi gerekenler
 
-Gözlem Formu — basılı s.64 görevinde iletişimi yalnız konuşma veya bilgi aktarımı olarak daraltmayın. Gönderici, alıcı, ileti, kanal, bağlam ve geri bildirim birlikte işler; gürültü fiziksel olabileceği gibi önyargı, dikkatsizlik, belirsiz dil veya uygun olmayan kanal da olabilir. Çok modlu metinde ses, görüntü, yazı ve müzik aynı iletiyi destekleyebilir ya da farklılaştırabilir. Bu görevde özellikle ‘Gözlem Formu’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Metin anlama ve doğrulama çalışmalarında temel ölçüt, metnin açıkça söylediği yargılar (Evet), metinle doğrudan çelişen yargılar (Hayır) ve metinde değinilmeyen ya da doğrulanıp çürütülmeyen yargılar (Bilgi yok) arasındaki ayrımdır. Öğrencinin kendi kişisel bilgisini metin gerçeğinin önüne geçirmemesi, iddiaları metindeki kanıt cümleleriyle gerekçelendirmesi esastır. Bu görevde öğretmen, Gözlem Formu çerçevesinde sorulan ‘Kitapta “Gözlem Formu” başlığı altında verilen çal…’ konusu üzerinden öğrencinin metin kanıtları ile kavramsal çıkarımlar arasındaki ilişkiyi doğru kurmasını sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> İletişimde anlam, yalnız sözcüklerden değil; kanal, bağlam, ses, görüntü ve karşılıklı tepkiden birlikte oluşur. Bu görevde özellikle Gözlem Formu üzerinde durun.
+> Bu görevde sizden beklenen; metindeki ipuçlarından hareketle ‘Kitapta “Gözlem Formu” başlığı altında verile…’ konusunu incelemeniz ve Gözlem Formu doğrultusunda ‘gorunur_olcutler: ['dinleme/izlemey…’ sonucuna nasıl ulaşıldığını adım adım açıklamanızdır.
 
 ### Bu görev neden burada?
 
-Bu görev, Gözlem Formu üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir.
+Bu görev, öğrencinin ‘Kitapta “Gözlem Formu” başlığı altında verile…’ üzerinden Gözlem Formu becerisini somut bir metin bağlamında deneyimlemesini ve iddialarını kanıtla destekleme alışkanlığı kazanmasını sağlar.
 
 ### Kabul edilebilir cevaplar
 
@@ -7635,40 +7624,39 @@ Bu görev, Gözlem Formu üzerinden iletişimde neden-sonuç kurmayı ve kanal s
 
 - Gözlem formunu puan vermek için tek başına kullanmak yerine süreç kanıtı olarak değerlendir; Evet/Kısmen/Hayır kararını gözlenebilir davranışla ilişkilendir.
 - Sekiz görünür ölçütü süreç boyunca gözleyin; formu öğrencinin yalnız derse katılıp katılmadığına indirgemeyin.
-- Gözlem Formu — basılı s.64 için öğrencinin önce iletişim ögesini, sonra aksamanın nerede oluştuğunu ve son olarak sonucu yazdığı bir neden-sonuç zinciri kurdurun.
-- Aynı mesajı yüz yüze, telefonla ve e-postayla iletme durumlarını karşılaştırarak kanalın dil/beden sesi üzerindeki etkisini tartıştırın.
+- Metnin ilgili bölümünü sessizce okutup Gözlem Formu ile bağlantılı kilit kelimeleri belirlemeleri için süre tanıyın.
+- Seçilen metin kanıtlarının Gözlem Formu hedefine uygunluğunu akran değerlendirmesiyle gözden geçirtin.
 
 ### Takip soruları
 
-- Gözlem Formu — basılı s.64 için düşünme sorusu: Buradaki aksama göndericiden mi, alıcıdan mı, kanaldan mı, bağlamdan mı kaynaklanıyor; hangi kanıt bunu gösteriyor?
-- Gözlem Formu — basılı s.64 için başka bir kanal seçilse ileti açıklar mıydı, yoksa yeni bir sorun mu doğururdu?
+- Metinde ‘Gözlem Formu (T1V23_P64_OBSERVATION)’ için ulaşılan ‘gorunur_olcutler: ['dinleme/izlemey…’ sonucunu destekleyen en güçlü kanıt hangisidir; bu unsur metinden çıkarılsaydı iletide ne gibi bir eksiklik oluşurdu?
+- ‘Gözlem Formu (T1V23_P64_OBSERVATION)’ için verilen ‘gorunur_olcutler: ['dinleme/izlemey…’ cevabını çürütebilecek karşıt bir görüş ileri sürülebilir mi; bu karşıt görüş metne dayandırılabilir mi?
 
 ### Öğrenci cevaplarını değerlendirme
 
 - FORM_T1_P064_GOZLEM_FORMU_07.
 - Formu gözlenebilir dinleme/izleme davranışına dayalı doldurur.
 - Form sonucu ile sonraki dinleme/izleme davranışı arasında geliştirme hedefi kurar.
-- İletişim ögeleri ile aksama/çözüm arasındaki neden-sonuç bağı.
+- Öğrencinin ‘Kitapta “Gözlem Formu” başlığı altında v…’ sorusuna verdiği cevapta metinden doğrudan alıntı veya somut kanıt göstermesi.
 
 ### Sık yanılgılar
 
 - Formu öğrencinin yalnız katılım gösterip göstermediğiyle doldurmak.
-- İletişim engelini yalnız fiziksel gürültü sanmak.
-- Karşı tarafla aynı fikirde olmamayı tek başına iletişim engeli saymak veya iletişimde geri bildirimi gereksiz görmek.
+- ‘Gözlem Formu (T1V23_P64_OBSERVATION)’ sorusunda metindeki nesnel kanıtlar yerine kendi kişisel kanaat ve varsayımlarını tek dayanak olarak kabul etmek.
 
 ### Müdahale
 
-- Gözlem Formu — basılı s.64 için müdahale: Öğrenciden fiziksel ses olmayan fakat önyargı ya da belirsiz söz nedeniyle bozulan kısa bir örnek kurmasını isteyin; engel türünü adlandırsın.
-- Gözlem Formu — basılı s.64 için müdahale: Mesajı farklı bir kanala taşıtıp hangi bilgi ve duygunun kaybolduğunu iki sütunda karşılaştırın.
+- Öğrenciye ‘Gözlem Formu (T1V23_P64_OBSERVATION)’ çerçevesinde ‘formu öğrencinin yalnız katılım’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- Öğrenciden ‘Gözlem Formu (T1V23_P64_OBSERVATION)’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Gözlenebilir davranışları kısa örneklerle açıkla.
-- İletişim zincirini ‘gönderici → ileti → kanal → alıcı → geri bildirim’ biçiminde verip engel noktasını işaretletin. Bu görevde bağlantı noktası: Gözlem Formu.
+- ‘Kitapta “Gözlem Formu” başlığı altı…’ sorusunu yanıtlamakta zorlanan öğrenciye metindeki ilgili paragrafı işaretleyin; önce anahtar kavramları buldurarak cevabı adım adım kurdurun.
 **Zenginleştirme**
 - Öğrencinin kendi gözlem ölçütünü gerekçeli eklemesine izin ver.
-- Aynı iletiyi iki farklı kanalda tasarlatıp hangi durumda kanal değişikliğinin etik ve işlevsel sonuç doğuracağını tartıştırın. Bu görevde derinleştirme odağı: Gözlem Formu.
+- Öğrenciden ‘Kitapta “Gözlem Formu” başlığı altı…’ çerçevesinde ulaştığı ‘gorunur_olcutler: ['dinleme/iz…’ sonucunu, okuduğu farklı bir edebî eserle karşılaştıran kısa bir eleştiri yazısı yazmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -7718,19 +7706,19 @@ Kitapta “Anlam Oluşturabilme — Söz Varlığımız” başlığı altında 
 
 ### Açıklama ve gerekçe
 
-söz seçimi ve karakter/bağlam ilişkisi — basılı s.65 için cevap, söz seçimi ve karakter/bağlam ilişkisi ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar. Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır.
+‘Kitapta “Anlam Oluşturabilme — Söz Varlığımız” baş…’ kapsamındaki tablo maddeleri (tasavvur, güdü, sosyal), kaynak metindeki verilerle satır satır karşılaştırılarak değerlendirilir. Öğrencinin izleyeceği yöntem; metinde doğrudan doğrulanan önermelere 'Evet', açıkça reddedilenlere 'Hayır', doğrulanmayan veya değinilmeyenlere ise 'Bilgi yok' karşılığını vermektir. Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar. Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır.
 
 ### Öğretmenin bilmesi gerekenler
 
-söz seçimi ve karakter/bağlam ilişkisi — basılı s.65 görevinde iletişimi yalnız konuşma veya bilgi aktarımı olarak daraltmayın. Gönderici, alıcı, ileti, kanal, bağlam ve geri bildirim birlikte işler; gürültü fiziksel olabileceği gibi önyargı, dikkatsizlik, belirsiz dil veya uygun olmayan kanal da olabilir. Çok modlu metinde ses, görüntü, yazı ve müzik aynı iletiyi destekleyebilir ya da farklılaştırabilir. Bu görevde özellikle ‘Söz Varlığımız, Metni Anlayalım, Birlikte Çalışalım ve Sıra Sizde — Anlam Oluşturabilme…’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+İletişim; gönderici, alıcı, ileti, kanal ve bağlam unsurlarının etkileşimiyle gerçekleşen dinamik bir anlam paylaşımı sürecidir. Tarihsel süreçte yazılı, sözlü ve kitle iletişim araçlarından dijital ağlara geçiş, iletişim alışkanlıklarını ve etkileşim hızını dönüştürmüştür. Öğretmen bu görevde, iletişim araçlarının toplumsal ilişkileri ve bireyler arası bağları nasıl şekillendirdiğini açıklamalıdır. Bu görev tahlilinde öğretmen, söz seçimi ve karakter/bağlam ilişkisi odağında ‘Kitapta “Anlam Oluşturabilme — Söz Varlığımız” baş…’ sorusuna yönelik yanıtların metin içi tutarlılığını denetlemeli ve yüzeysel yorumların ötesine geçilmesini sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> İletişimde anlam, yalnız sözcüklerden değil; kanal, bağlam, ses, görüntü ve karşılıklı tepkiden birlikte oluşur. Bu görevde özellikle söz seçimi ve karakter/bağlam ilişkisi üzerinde durun.
+> Görevin temel amacı, ‘Kitapta “Anlam Oluşturabilme — Söz Varlığımız…’ ayrıntısı üzerinden söz seçimi ve karakter/bağlam ilişkisi kavramını kavramanızdır. Metindeki ilgili cümleleri bularak ‘tasavvur: göz önüne getirme, hayal …’ bağlamındaki düşüncenizi kendi cümlelerinizle ortaya koyun.
 
 ### Bu görev neden burada?
 
-Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir.
+Bu soru, ‘Kitapta “Anlam Oluşturabilme — Söz Varlığımız…’ ayrıntısını söz seçimi ve karakter/bağlam ilişkisi ile birleştirerek dil ve edebiyat çalışmalarında neden-sonuç ilişkisi kurma ve ‘tasavvur: göz önüne getirme, hayal …’ bağlamını kavrama yeterliğini güçlendirir.
 
 ### Ders içi uygulama
 
@@ -7754,17 +7742,18 @@ Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde ned
 
 ### Müdahale
 
-- söz seçimi ve karakter/bağlam ilişkisi — basılı s.65 için müdahale: Öğrenciden fiziksel ses olmayan fakat önyargı ya da belirsiz söz nedeniyle bozulan kısa bir örnek kurmasını isteyin; engel türünü adlandırsın. Müdahaleyi ‘Söz Varlığımız, Metni Anlayalım, Birlikte Çalışalım ve Sıra Sizde — Anlam Oluşturabilme…’ ayrıntısını kullandırarak somutlaştırın.
-- söz seçimi ve karakter/bağlam ilişkisi — basılı s.65 için müdahale: Mesajı farklı bir kanala taşıtıp hangi bilgi ve duygunun kaybolduğunu iki sütunda karşılaştırın. Müdahaleyi ‘Söz Varlığımız, Metni Anlayalım, Birlikte Çalışalım ve Sıra Sizde — Anlam Oluşturabilme…’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciye ‘söz seçimi ve karakter/bağlam ilişkisi (T1V23_P65_VOCAB)’ çerçevesinde ‘konu tema ve ana’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- ‘söz seçimi ve karakter/bağlam ilişkisi (T1V23_P65_VOCAB)’ doğrultusunda ‘öznel ifadeyi yanlış bilgi’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Öğrenciden ‘söz seçimi ve karakter/bağlam ilişkisi (T1V23_P65_VOCAB)’ bağlamında ‘görsel işitsel kanıt gerektiren’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Konu–tema–ana düşünce için ayrı kutular; iletişim engeli → metin kanıtı → çözüm şablonu kullan.
-- İletişim zincirini ‘gönderici → ileti → kanal → alıcı → geri bildirim’ biçiminde verip engel noktasını işaretletin. Bu görevde bağlantı noktası: söz seçimi ve karakter/bağlam ilişkisi.
+- ‘Kitapta “Anlam Oluşturabilme — Söz …’ konusunu daha sade yönlendirici alt sorulara bölerek öğrencinin ‘tasavvur: göz önüne getirme, h…’ sonucuna kademeli olarak ulaşmasına rehberlik edin.
 **Zenginleştirme**
 - Aynı iletişim problemini yüz yüze, telefon ve e-posta kanallarında ayrı çözümlerle yeniden tasarlat.
-- Aynı iletiyi iki farklı kanalda tasarlatıp hangi durumda kanal değişikliğinin etik ve işlevsel sonuç doğuracağını tartıştırın. Bu görevde derinleştirme odağı: söz seçimi ve karakter/bağlam ilişkisi.
+- ‘Kitapta “Anlam Oluşturabilme — Söz …’ tahlilini yazarın edebî dönemi, sanat anlayışı ve dönemin toplumsal koşullarıyla ilişkilendiren bir araştırma sorusu geliştirtin.
 
 ### Kaynak ve durum
 
@@ -7809,23 +7798,23 @@ Araştırma ile medya arasında iletişim araçlarının zamanla hız, erişim v
 
 ### Açıklama ve gerekçe
 
-Soru 1 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.66 için beklenen yön, söz seçimi ve karakter/bağlam ilişkisi yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar. Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır.
+Soruya verilecek uygun cevap, ‘İletişim araçlarının gelişimine ilişkin araştırman…’ yönündeki çıkarımı söz seçimi ve karakter/bağlam ilişkisi hedefleri doğrultusunda yapılandırır. Çözümlemenin geçerliliği, Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar. Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır. koşuluna uyulması ve iddiaların metindeki açık veya örtük ifadelerle doğrulanmasıyla sağlanır. Öğrencinin akıl yürütme süreci; sorunun işaret ettiği metin bölümünü belirlemek, oradaki dil ve anlatım ipuçlarını değerlendirmek ve ulaştığı yargıyı gerekçelendirmektir. Metin özüyle örtüşen ve mantıksal nedensellik taşıyan alternatif anlatımlar doğru yanıt olarak değerlendirilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 1 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.66 görevinde iletişimi yalnız konuşma veya bilgi aktarımı olarak daraltmayın. Gönderici, alıcı, ileti, kanal, bağlam ve geri bildirim birlikte işler; gürültü fiziksel olabileceği gibi önyargı, dikkatsizlik, belirsiz dil veya uygun olmayan kanal da olabilir. Çok modlu metinde ses, görüntü, yazı ve müzik aynı iletiyi destekleyebilir ya da farklılaştırabilir. Bu görevde özellikle ‘İletişim araçlarının gelişimine ilişkin araştırmanızla dinlediğiniz/izlediğiniz metin arasında hangi çıkarımları kurabilirsiniz?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görevde öğretmen, söz seçimi ve karakter/bağlam ilişkisi çerçevesinde sorulan ‘İletişim araçlarının gelişimine ilişkin araştırman…’ konusu üzerinden öğrencinin metin kanıtları ile kavramsal çıkarımlar arasındaki ilişkiyi doğru kurmasını sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> İletişimde anlam, yalnız sözcüklerden değil; kanal, bağlam, ses, görüntü ve karşılıklı tepkiden birlikte oluşur. Bu görevde özellikle söz seçimi ve karakter/bağlam ilişkisi üzerinde durun.
+> Bu görevde sizden beklenen; metindeki ipuçlarından hareketle ‘İletişim araçlarının gelişimine ilişkin araşt…’ konusunu incelemeniz ve söz seçimi ve karakter/bağlam ilişkisi doğrultusunda ‘Araştırma ile medya arasında iletiş…’ sonucuna nasıl ulaşıldığını adım adım açıklamanızdır.
 
 ### Bu görev neden burada?
 
-Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir.
+Bu görev, öğrencinin ‘İletişim araçlarının gelişimine ilişkin araşt…’ üzerinden söz seçimi ve karakter/bağlam ilişkisi becerisini somut bir metin bağlamında deneyimlemesini ve iddialarını kanıtla destekleme alışkanlığı kazanmasını sağlar.
 
 ### Kabul edilebilir cevaplar
 
-- Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir. Kaynak ayrıntısı ve gerekçesi bulunan farklı ifadeler kabul edilir.
+- Bu görev, söz seçimi ve karakter/bağlam ilişkisi kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar. Kaynak ayrıntısı ve gerekçesi bulunan farklı ifadeler kabul edilir.
 - Kişisel görüş, metin/kaynak dayanağı ve gerekçe birlikte verildiğinde alternatif cevap olarak değerlendirilebilir.
 
 ### Ders içi uygulama
@@ -7837,8 +7826,8 @@ Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde ned
 
 ### Takip soruları
 
-- Soru 1 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.66 için düşünme sorusu: Buradaki aksama göndericiden mi, alıcıdan mı, kanaldan mı, bağlamdan mı kaynaklanıyor; hangi kanıt bunu gösteriyor? Özellikle ‘İletişim araçlarının gelişimine ilişkin araştırmanızla dinlediğiniz/izlediğiniz metin arasında hangi çıkarımları kurabilirsiniz?’ ayrıntısını yoklayın.
-- Soru 1 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.66 için başka bir kanal seçilse ileti açıklar mıydı, yoksa yeni bir sorun mu doğururdu? Özellikle ‘İletişim araçlarının gelişimine ilişkin araştırmanızla dinlediğiniz/izlediğiniz metin arasında hangi çıkarımları kurabilirsiniz?’ ayrıntısını yoklayın.
+- Karakterin ‘İletişim araçlarının gelişimine ilişkin …’ karşısındaki tutumu, eserdeki temel dramatik çatışmayı nasıl beslemektedir?
+- ‘İletişim araçlarının gelişimine ilişkin …’ bağlamında karakterin iç dünyası ile dış davranışları arasındaki çelişki metinde nasıl sezdirilmiştir?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -7855,17 +7844,18 @@ Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde ned
 
 ### Müdahale
 
-- Soru 1 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.66 için müdahale: Öğrenciden fiziksel ses olmayan fakat önyargı ya da belirsiz söz nedeniyle bozulan kısa bir örnek kurmasını isteyin; engel türünü adlandırsın. Müdahaleyi ‘İletişim araçlarının gelişimine ilişkin araştırmanızla dinlediğiniz/izlediğiniz metin arasında hangi çıkarımları kurabilirsiniz?’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 1 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.66 için müdahale: Mesajı farklı bir kanala taşıtıp hangi bilgi ve duygunun kaybolduğunu iki sütunda karşılaştırın. Müdahaleyi ‘İletişim araçlarının gelişimine ilişkin araştırmanızla dinlediğiniz/izlediğiniz metin arasında hangi çıkarımları kurabilirsiniz?’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciye ‘İletişim araçlarının gelişimine ili…’ çerçevesinde ‘konu tema ve ana’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- ‘İletişim araçlarının gelişimine ili…’ doğrultusunda ‘öznel ifadeyi yanlış bilgi’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Öğrenciden ‘İletişim araçlarının gelişimine ili…’ bağlamında ‘görsel işitsel kanıt gerektiren’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Konu–tema–ana düşünce için ayrı kutular; iletişim engeli → metin kanıtı → çözüm şablonu kullan.
-- İletişim zincirini ‘gönderici → ileti → kanal → alıcı → geri bildirim’ biçiminde verip engel noktasını işaretletin. Bu görevde bağlantı noktası: söz seçimi ve karakter/bağlam ilişkisi.
+- ‘İletişim araçlarının gelişimine ili…’ sorusunu yanıtlamakta zorlanan öğrenciye metindeki ilgili paragrafı işaretleyin; önce anahtar kavramları buldurarak cevabı adım adım kurdurun.
 **Zenginleştirme**
 - Aynı iletişim problemini yüz yüze, telefon ve e-posta kanallarında ayrı çözümlerle yeniden tasarlat.
-- Aynı iletiyi iki farklı kanalda tasarlatıp hangi durumda kanal değişikliğinin etik ve işlevsel sonuç doğuracağını tartıştırın. Bu görevde derinleştirme odağı: söz seçimi ve karakter/bağlam ilişkisi.
+- Öğrenciden ‘İletişim araçlarının gelişimine ili…’ çerçevesinde ulaştığı ‘Araştırma ile medya arasında i…’ sonucunu, okuduğu farklı bir edebî eserle karşılaştıran kısa bir eleştiri yazısı yazmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -7910,19 +7900,19 @@ E-posta hızlı ve düşük maliyetlidir; uzak mesafelere anında ulaşabilir, d
 
 ### Açıklama ve gerekçe
 
-Soru 2 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.66 için beklenen yön, söz seçimi ve karakter/bağlam ilişkisi yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar. Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır.
+Beklenen cevap, söz seçimi ve karakter/bağlam ilişkisi çerçevesinde ‘posta diğer iletişim araçlarına göre hangi yönlerd…’ konusunu metnin sunduğu veriler ve kavramsal dayanaklar üzerinden şekillendirir. Bu cevabın uygunluğu, Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar. Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır. ölçütünün karşılanmasına ve öğrencinin metindeki olay/durum ayrıntılarını nedensellik bağıyla kurmasına dayanır. Öğrencinin izlemesi gereken çıkarım yolu; öncelikle metindeki kanıt niteliği taşıyan ifadeleri belirlemek, ardından bu göstergeleri kavramsal odakla ilişkilendirerek kendi gerekçeli açıklamasını oluşturmaktır. Öğrenci aynı sonucu farklı sözcüklerle ifade edebilir; temel iddia ile metin dayanağı arasındaki mantıksal tutarlılık korunduğu sürece kişisel yorumlar alternatif cevap olarak kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 2 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.66 için e-postayı yalnız teknik bir form doldurma işi olarak değil, amacı ve hedef alıcısı belirlenmiş işlevsel bir yazma ürünü olarak açıklayın. Konu satırı, hitap, ana ileti, paragraf düzeni, ekler, gönderim zamanı ve mahremiyet aynı iletişim kararının parçalarıdır. Dijital ortam hız kazandırsa da açıklık, nezaket, güvenlik ve yazım özeni gereksinimini ortadan kaldırmaz. Bu görevde özellikle ‘posta diğer iletişim araçlarına göre hangi yönlerden avantajlı olabilir? Gerekçelendiriniz’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev sürecinde öğretmen, söz seçimi ve karakter/bağlam ilişkisi doğrultusunda ‘posta diğer iletişim araçlarına göre hangi yönlerd…’ sorusunu çözümlerken öğrencilerin somut metin delilleriyle argüman geliştirmelerini teşvik etmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> E-postada biçim, alıcıya ve amaca hızlı ve açık ulaşmayı sağlayan bir düzen kurar. Bu görevde özellikle söz seçimi ve karakter/bağlam ilişkisi üzerinde durun.
+> Yönergeyi uygularken önce metindeki ‘posta diğer iletişim araçlarına göre hangi yö…’ ifadelerini işaretleyin; ardından bu unsurların söz seçimi ve karakter/bağlam ilişkisi hedefine nasıl hizmet ettiğini ve ‘E-posta hızlı ve düşük maliyetlidir…’ ile ilişkisini açıklayın.
 
 ### Bu görev neden burada?
 
-Bu görev, söz seçimi ve karakter/bağlam ilişkisi kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar.
+Bu etkinlik, söz seçimi ve karakter/bağlam ilişkisi alanında ‘posta diğer iletişim araçlarına göre hangi yö…’ doğrultusunda öğrencinin kendi düşüncesini kaynak dayanaklarıyla savunmasını ve tutarlı bir ifade becerisi inşa etmesini amaçlar.
 
 ### Kabul edilebilir cevaplar
 
@@ -7934,12 +7924,12 @@ Bu görev, söz seçimi ve karakter/bağlam ilişkisi kararlarını gerçek bir 
 - Alt soru metinleri ve etkinlik akışı resmî 2026 MEB ders kitabı PDF'sinden yeniden doğrulanmıştır; artık 's.65-71 genel anlama soruları' biçiminde tek karta sıkıştırma.
 - Medyanın kendisinden örnek isteyen q1, q8, q9 ve eleştirel değerlendirme görevlerinde öğretmen rehberindeki örneği medya kanıtının yerine geçirme; öğrenciden gerçek ses/görüntü/söylem kanıtı iste.
 - Paydos'taki iletişim engellerini yalnız kategori adıyla değil somut replik/davranışla eşleştir.
-- Soru 2 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.66 için öğrencinin taslağını göndermeden önce konu satırı, hitap, ana istek ve ek gerekçesini ayrı ayrı kontrol ettirin.
+- ‘posta diğer iletişim araçlarına göre han…’ odağındaki cümleleri tahtaya yansıtarak öğrencilerin dikkatini ilgili metin kesitine çekin.
 
 ### Takip soruları
 
-- Soru 2 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.66 için düşünme sorusu: Bu ek gerçekten alıcının karar vermesine yardım ediyor mu, yoksa yalnızca metni kalabalıklaştırıyor mu? Özellikle ‘posta diğer iletişim araçlarına göre hangi yönlerden avantajlı olabilir? Gerekçelendiriniz’ ayrıntısını yoklayın.
-- Soru 2 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.66 için seçtiğin dil, alıcıyla ilişkin ve iletinin aciliyetiyle nasıl uyumlu? Özellikle ‘posta diğer iletişim araçlarına göre hangi yönlerden avantajlı olabilir? Gerekçelendiriniz’ ayrıntısını yoklayın.
+- ‘posta diğer iletişim araçlarına göre han…’ yapısındaki dil bilgisel işlevin, konuşurun ya da anlatıcının ruh hâlini yansıtmadaki rolü nedir?
+- ‘posta diğer iletişim araçlarına göre han…’ cümlesindeki dilbilgisi tercihinin metnin genel anlatım akışı ve anlam bütünlüğüne etkisi nedir?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -7956,17 +7946,18 @@ Bu görev, söz seçimi ve karakter/bağlam ilişkisi kararlarını gerçek bir 
 
 ### Müdahale
 
-- Soru 2 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.66 için müdahale: Öğrenciye aynı metni konu satırı olmayan ve alıcısı belirtilmeyen biçimde okutun; oluşan belirsizlikleri metinde işaretletin. Müdahaleyi ‘posta diğer iletişim araçlarına göre hangi yönlerden avantajlı olabilir? Gerekçelendiriniz’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 2 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.66 için müdahale: Resmî ve kişisel iki alıcı seçtirip değişmesi gereken hitap, söz varlığı ve kapanış bölümlerini yeniden yazdırın. Müdahaleyi ‘posta diğer iletişim araçlarına göre hangi yönlerden avantajlı olabilir? Gerekçelendiriniz’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciden ‘posta diğer iletişim araçlarına gör…’ bağlamında ‘konu tema ve ana’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- ‘posta diğer iletişim araçlarına gör…’ incelemesinde ‘öznel ifadeyi yanlış bilgi’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Öğrenciye ‘posta diğer iletişim araçlarına gör…’ çerçevesinde ‘görsel işitsel kanıt gerektiren’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Konu–tema–ana düşünce için ayrı kutular; iletişim engeli → metin kanıtı → çözüm şablonu kullan.
-- Öğrenciye önce ‘Kime? Neden? Ne istiyorum? Hangi ek gerekli?’ dört sorusunu cevaplatıp sonra e-posta alanlarını doldurtun. Bu görevde bağlantı noktası: söz seçimi ve karakter/bağlam ilişkisi.
+- Öğrenciye bir çalışma kâğıdı vererek ‘posta diğer iletişim araçlarına gör…’ için metinde geçen olumlu ve olumsuz göstergeleri iki sütun hâlinde gruplatın.
 **Zenginleştirme**
 - Aynı iletişim problemini yüz yüze, telefon ve e-posta kanallarında ayrı çözümlerle yeniden tasarlat.
-- Aynı e-postanın daha resmî ve daha yakın iki sürümünü yazdırarak üslup kararlarını gerekçelendirin. Bu görevde derinleştirme odağı: söz seçimi ve karakter/bağlam ilişkisi.
+- Metindeki ‘posta diğer iletişim araçlarına gör…’ durumunu güncel bir olay veya sanat eseriyle kıyaslayarak ‘E-posta hızlı ve düşük maliyet…’ ekseninde disiplinler arası bir değerlendirme yaptırın.
 
 ### Kaynak ve durum
 
@@ -8011,23 +8002,23 @@ Soru 3 — “İletişim, bir medenileşme hareketidir.” sözünü insanın il
 
 ### Açıklama ve gerekçe
 
-Soru 3 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.66 için beklenen yön, söz seçimi ve karakter/bağlam ilişkisi yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar. Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır.
+Soruya verilecek uygun cevap, ‘“İletişim, bir medenileşme hareketidir.” sözünü in…’ yönündeki çıkarımı söz seçimi ve karakter/bağlam ilişkisi hedefleri doğrultusunda yapılandırır. Çözümlemenin geçerliliği, Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar. Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır. koşuluna uyulması ve iddiaların metindeki açık veya örtük ifadelerle doğrulanmasıyla sağlanır. Öğrencinin akıl yürütme süreci; sorunun işaret ettiği metin bölümünü belirlemek, oradaki dil ve anlatım ipuçlarını değerlendirmek ve ulaştığı yargıyı gerekçelendirmektir. Metin özüyle örtüşen ve mantıksal nedensellik taşıyan alternatif anlatımlar doğru yanıt olarak değerlendirilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 3 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.66 görevinde iletişimi yalnız konuşma veya bilgi aktarımı olarak daraltmayın. Gönderici, alıcı, ileti, kanal, bağlam ve geri bildirim birlikte işler; gürültü fiziksel olabileceği gibi önyargı, dikkatsizlik, belirsiz dil veya uygun olmayan kanal da olabilir. Çok modlu metinde ses, görüntü, yazı ve müzik aynı iletiyi destekleyebilir ya da farklılaştırabilir. Bu görevde özellikle ‘“İletişim, bir medenileşme hareketidir.” sözünü insanın iletişim ihtiyacı bağlamında yorumlayınız’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+İletişim; gönderici, alıcı, ileti, kanal ve bağlam unsurlarının etkileşimiyle gerçekleşen dinamik bir anlam paylaşımı sürecidir. Tarihsel süreçte yazılı, sözlü ve kitle iletişim araçlarından dijital ağlara geçiş, iletişim alışkanlıklarını ve etkileşim hızını dönüştürmüştür. Öğretmen bu görevde, iletişim araçlarının toplumsal ilişkileri ve bireyler arası bağları nasıl şekillendirdiğini açıklamalıdır. Bu görev tahlilinde öğretmen, söz seçimi ve karakter/bağlam ilişkisi odağında ‘“İletişim, bir medenileşme hareketidir.” sözünü in…’ sorusuna yönelik yanıtların metin içi tutarlılığını denetlemeli ve yüzeysel yorumların ötesine geçilmesini sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> İletişimde anlam, yalnız sözcüklerden değil; kanal, bağlam, ses, görüntü ve karşılıklı tepkiden birlikte oluşur. Bu görevde özellikle söz seçimi ve karakter/bağlam ilişkisi üzerinde durun.
+> Görevin temel amacı, ‘“İletişim, bir medenileşme hareketidir.” sözü…’ ayrıntısı üzerinden söz seçimi ve karakter/bağlam ilişkisi kavramını kavramanızdır. Metindeki ilgili cümleleri bularak ‘İnsan sosyal bir varlık olarak bilg…’ bağlamındaki düşüncenizi kendi cümlelerinizle ortaya koyun.
 
 ### Bu görev neden burada?
 
-Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir.
+Bu soru, ‘“İletişim, bir medenileşme hareketidir.” sözü…’ ayrıntısını söz seçimi ve karakter/bağlam ilişkisi ile birleştirerek dil ve edebiyat çalışmalarında neden-sonuç ilişkisi kurma ve ‘İnsan sosyal bir varlık olarak bilg…’ bağlamını kavrama yeterliğini güçlendirir.
 
 ### Kabul edilebilir cevaplar
 
-- Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir. Kaynak ayrıntısı ve gerekçesi bulunan farklı ifadeler kabul edilir.
+- Bu görev, söz seçimi ve karakter/bağlam ilişkisi kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar. Kaynak ayrıntısı ve gerekçesi bulunan farklı ifadeler kabul edilir.
 - Kişisel görüş, metin/kaynak dayanağı ve gerekçe birlikte verildiğinde alternatif cevap olarak değerlendirilebilir.
 
 ### Ders içi uygulama
@@ -8035,12 +8026,12 @@ Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde ned
 - Alt soru metinleri ve etkinlik akışı resmî 2026 MEB ders kitabı PDF'sinden yeniden doğrulanmıştır; artık 's.65-71 genel anlama soruları' biçiminde tek karta sıkıştırma.
 - Medyanın kendisinden örnek isteyen q1, q8, q9 ve eleştirel değerlendirme görevlerinde öğretmen rehberindeki örneği medya kanıtının yerine geçirme; öğrenciden gerçek ses/görüntü/söylem kanıtı iste.
 - Paydos'taki iletişim engellerini yalnız kategori adıyla değil somut replik/davranışla eşleştir.
-- Soru 3 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.66 için öğrencinin önce iletişim ögesini, sonra aksamanın nerede oluştuğunu ve son olarak sonucu yazdığı bir neden-sonuç zinciri kurdurun.
+- Metnin ilgili bölümünü sessizce okutup söz seçimi ve karakter/bağlam ilişkisi ile bağlantılı kilit kelimeleri belirlemeleri için süre tanıyın.
 
 ### Takip soruları
 
-- Soru 3 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.66 için düşünme sorusu: Buradaki aksama göndericiden mi, alıcıdan mı, kanaldan mı, bağlamdan mı kaynaklanıyor; hangi kanıt bunu gösteriyor? Özellikle ‘“İletişim, bir medenileşme hareketidir.” sözünü insanın iletişim ihtiyacı bağlamında yorumlayınız’ ayrıntısını yoklayın.
-- Soru 3 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.66 için başka bir kanal seçilse ileti açıklar mıydı, yoksa yeni bir sorun mu doğururdu? Özellikle ‘“İletişim, bir medenileşme hareketidir.” sözünü insanın iletişim ihtiyacı bağlamında yorumlayınız’ ayrıntısını yoklayın.
+- ‘“İletişim, bir medenileşme hareketidir.”…’ cümlesindeki dilbilgisi tercihinin metnin genel anlatım akışı ve anlam bütünlüğüne etkisi nedir?
+- ‘“İletişim, bir medenileşme hareketidir.”…’ yapısındaki dil bilgisel işlevin, konuşurun ya da anlatıcının ruh hâlini yansıtmadaki rolü nedir?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -8057,17 +8048,18 @@ Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde ned
 
 ### Müdahale
 
-- Soru 3 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.66 için müdahale: Öğrenciden fiziksel ses olmayan fakat önyargı ya da belirsiz söz nedeniyle bozulan kısa bir örnek kurmasını isteyin; engel türünü adlandırsın. Müdahaleyi ‘“İletişim, bir medenileşme hareketidir.” sözünü insanın iletişim ihtiyacı bağlamında yorumlayınız’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 3 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.66 için müdahale: Mesajı farklı bir kanala taşıtıp hangi bilgi ve duygunun kaybolduğunu iki sütunda karşılaştırın. Müdahaleyi ‘“İletişim, bir medenileşme hareketidir.” sözünü insanın iletişim ihtiyacı bağlamında yorumlayınız’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciye ‘“İletişim, bir medenileşme hareketi…’ çerçevesinde ‘konu tema ve ana’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- ‘“İletişim, bir medenileşme hareketi…’ doğrultusunda ‘öznel ifadeyi yanlış bilgi’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Öğrenciden ‘“İletişim, bir medenileşme hareketi…’ bağlamında ‘görsel işitsel kanıt gerektiren’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Konu–tema–ana düşünce için ayrı kutular; iletişim engeli → metin kanıtı → çözüm şablonu kullan.
-- İletişim zincirini ‘gönderici → ileti → kanal → alıcı → geri bildirim’ biçiminde verip engel noktasını işaretletin. Bu görevde bağlantı noktası: söz seçimi ve karakter/bağlam ilişkisi.
+- ‘“İletişim, bir medenileşme hareketi…’ konusunu daha sade yönlendirici alt sorulara bölerek öğrencinin ‘İnsan sosyal bir varlık olarak…’ sonucuna kademeli olarak ulaşmasına rehberlik edin.
 **Zenginleştirme**
 - Aynı iletişim problemini yüz yüze, telefon ve e-posta kanallarında ayrı çözümlerle yeniden tasarlat.
-- Aynı iletiyi iki farklı kanalda tasarlatıp hangi durumda kanal değişikliğinin etik ve işlevsel sonuç doğuracağını tartıştırın. Bu görevde derinleştirme odağı: söz seçimi ve karakter/bağlam ilişkisi.
+- ‘“İletişim, bir medenileşme hareketi…’ tahlilini yazarın edebî dönemi, sanat anlayışı ve dönemin toplumsal koşullarıyla ilişkilendiren bir araştırma sorusu geliştirtin.
 
 ### Kaynak ve durum
 
@@ -8113,19 +8105,19 @@ Soru 4 — Metnin konu ve temasını belirleyiniz.
 
 ### Açıklama ve gerekçe
 
-Soru 4 — konu-tema ayrımı ve soyutlama — basılı s.66 için cevap, konu-tema ayrımı ve soyutlama ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar. Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır.
+Bu görevdeki ‘Metnin konu ve temasını belirleyiniz.…’ tablosundaki maddelerin (konu, tema) doğruluğu, kaynak metindeki açık ifadeler ve çıkarımlar ile karşılaştırılarak temellendirilir. Öğrencinin izlemesi gereken çıkarım yolu; her bir cümleyi tek tek metindeki ifadelerle eşleştirmek, metinde doğrudan doğrulanan yargıları 'Evet', açıkça çelişenleri 'Hayır' ve metinde hakkında hüküm verilmeyen yargıları ise 'Bilgi yok' olarak sınıflandırmaktır. Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar. Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 4 — konu-tema ayrımı ve soyutlama — basılı s.66 görevinde iletişimi yalnız konuşma veya bilgi aktarımı olarak daraltmayın. Gönderici, alıcı, ileti, kanal, bağlam ve geri bildirim birlikte işler; gürültü fiziksel olabileceği gibi önyargı, dikkatsizlik, belirsiz dil veya uygun olmayan kanal da olabilir. Çok modlu metinde ses, görüntü, yazı ve müzik aynı iletiyi destekleyebilir ya da farklılaştırabilir. Bu görevde özellikle ‘Metnin konu ve temasını belirleyiniz’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+İletişim; gönderici, alıcı, ileti, kanal ve bağlam unsurlarının etkileşimiyle gerçekleşen dinamik bir anlam paylaşımı sürecidir. Tarihsel süreçte yazılı, sözlü ve kitle iletişim araçlarından dijital ağlara geçiş, iletişim alışkanlıklarını ve etkileşim hızını dönüştürmüştür. Öğretmen bu görevde, iletişim araçlarının toplumsal ilişkileri ve bireyler arası bağları nasıl şekillendirdiğini açıklamalıdır. Bu görevde öğretmen, konu-tema ayrımı ve soyutlama çerçevesinde sorulan ‘Metnin konu ve temasını belirleyiniz.…’ konusu üzerinden öğrencinin metin kanıtları ile kavramsal çıkarımlar arasındaki ilişkiyi doğru kurmasını sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> İletişimde anlam, yalnız sözcüklerden değil; kanal, bağlam, ses, görüntü ve karşılıklı tepkiden birlikte oluşur. Bu görevde özellikle konu-tema ayrımı ve soyutlama üzerinde durun.
+> Bu görevde sizden beklenen; metindeki ipuçlarından hareketle ‘Metnin konu ve temasını belirleyiniz.…’ konusunu incelemeniz ve konu-tema ayrımı ve soyutlama doğrultusunda ‘konu: İletişim araçlarının geçmişte…’ sonucuna nasıl ulaşıldığını adım adım açıklamanızdır.
 
 ### Bu görev neden burada?
 
-Bu görev, konu-tema ayrımı ve soyutlama üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir.
+Bu görev, öğrencinin ‘Metnin konu ve temasını belirleyiniz.…’ üzerinden konu-tema ayrımı ve soyutlama becerisini somut bir metin bağlamında deneyimlemesini ve iddialarını kanıtla destekleme alışkanlığı kazanmasını sağlar.
 
 ### Ders içi uygulama
 
@@ -8136,8 +8128,8 @@ Bu görev, konu-tema ayrımı ve soyutlama üzerinden iletişimde neden-sonuç k
 
 ### Takip soruları
 
-- Soru 4 — konu-tema ayrımı ve soyutlama — basılı s.66 için düşünme sorusu: Buradaki aksama göndericiden mi, alıcıdan mı, kanaldan mı, bağlamdan mı kaynaklanıyor; hangi kanıt bunu gösteriyor? Özellikle ‘Metnin konu ve temasını belirleyiniz’ ayrıntısını yoklayın.
-- Soru 4 — konu-tema ayrımı ve soyutlama — basılı s.66 için başka bir kanal seçilse ileti açıklar mıydı, yoksa yeni bir sorun mu doğururdu? Özellikle ‘Metnin konu ve temasını belirleyiniz’ ayrıntısını yoklayın.
+- Metinde ‘Metnin konu ve temasını belirleyiniz.…’ için ulaşılan ‘konu: İletişim araçlarının geçmişte…’ sonucunu destekleyen en güçlü kanıt hangisidir; bu unsur metinden çıkarılsaydı iletide ne gibi bir eksiklik oluşurdu?
+- Bu soruda ‘Metnin konu ve temasını belirleyiniz.…’ üzerinden ortaya koyduğunuz konu-tema ayrımı ve soyutlama sonucunu günlük hayattaki bir deneyiminizle veya okuduğunuz başka bir eserle nasıl ilişkilendirirsiniz?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -8154,17 +8146,18 @@ Bu görev, konu-tema ayrımı ve soyutlama üzerinden iletişimde neden-sonuç k
 
 ### Müdahale
 
-- Soru 4 — konu-tema ayrımı ve soyutlama — basılı s.66 için müdahale: Öğrenciden fiziksel ses olmayan fakat önyargı ya da belirsiz söz nedeniyle bozulan kısa bir örnek kurmasını isteyin; engel türünü adlandırsın. Müdahaleyi ‘Metnin konu ve temasını belirleyiniz’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 4 — konu-tema ayrımı ve soyutlama — basılı s.66 için müdahale: Mesajı farklı bir kanala taşıtıp hangi bilgi ve duygunun kaybolduğunu iki sütunda karşılaştırın. Müdahaleyi ‘Metnin konu ve temasını belirleyiniz’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciden ‘Metnin konu ve temasını belirleyini…’ bağlamında ‘konu tema ve ana’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- ‘Metnin konu ve temasını belirleyini…’ incelemesinde ‘öznel ifadeyi yanlış bilgi’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Öğrenciye ‘Metnin konu ve temasını belirleyini…’ çerçevesinde ‘görsel işitsel kanıt gerektiren’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Konu–tema–ana düşünce için ayrı kutular; iletişim engeli → metin kanıtı → çözüm şablonu kullan.
-- İletişim zincirini ‘gönderici → ileti → kanal → alıcı → geri bildirim’ biçiminde verip engel noktasını işaretletin. Bu görevde bağlantı noktası: konu-tema ayrımı ve soyutlama.
+- ‘Metnin konu ve temasını belirleyini…’ sorusunu yanıtlamakta zorlanan öğrenciye metindeki ilgili paragrafı işaretleyin; önce anahtar kavramları buldurarak cevabı adım adım kurdurun.
 **Zenginleştirme**
 - Aynı iletişim problemini yüz yüze, telefon ve e-posta kanallarında ayrı çözümlerle yeniden tasarlat.
-- Aynı iletiyi iki farklı kanalda tasarlatıp hangi durumda kanal değişikliğinin etik ve işlevsel sonuç doğuracağını tartıştırın. Bu görevde derinleştirme odağı: konu-tema ayrımı ve soyutlama.
+- Öğrenciden ‘Metnin konu ve temasını belirleyini…’ çerçevesinde ulaştığı ‘konu: İletişim araçlarının geç…’ sonucunu, okuduğu farklı bir edebî eserle karşılaştıran kısa bir eleştiri yazısı yazmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -8215,23 +8208,23 @@ Soru 5 — Metnin ana düşüncesini ve yardımcı düşüncelerini belirleyiniz
 
 ### Açıklama ve gerekçe
 
-Soru 5 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.66 için beklenen yön, söz seçimi ve karakter/bağlam ilişkisi yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar. Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır.
+Tabloda yer alan ‘Metnin ana düşüncesini ve yardımcı düşüncelerini b…’ yargılarının (ana_dusunce, yardimci_dusunceler) geçerliliği, metin kanıtları üzerinden tahlil edilir. Öğrenci; metinde açıkça dayanağı bulunan ifadeleri 'Evet', metin gerçeğiyle çelişenleri 'Hayır', metnin değinmediği hususları ise 'Bilgi yok' şeklinde sınıflandırmalıdır. Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar. Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 5 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.66 görevinde iletişimi yalnız konuşma veya bilgi aktarımı olarak daraltmayın. Gönderici, alıcı, ileti, kanal, bağlam ve geri bildirim birlikte işler; gürültü fiziksel olabileceği gibi önyargı, dikkatsizlik, belirsiz dil veya uygun olmayan kanal da olabilir. Çok modlu metinde ses, görüntü, yazı ve müzik aynı iletiyi destekleyebilir ya da farklılaştırabilir. Bu görevde özellikle ‘Metnin ana düşüncesini ve yardımcı düşüncelerini belirleyiniz’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev sürecinde öğretmen, söz seçimi ve karakter/bağlam ilişkisi doğrultusunda ‘Metnin ana düşüncesini ve yardımcı düşüncelerini b…’ sorusunu çözümlerken öğrencilerin somut metin delilleriyle argüman geliştirmelerini teşvik etmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> İletişimde anlam, yalnız sözcüklerden değil; kanal, bağlam, ses, görüntü ve karşılıklı tepkiden birlikte oluşur. Bu görevde özellikle söz seçimi ve karakter/bağlam ilişkisi üzerinde durun.
+> Yönergeyi uygularken önce metindeki ‘Metnin ana düşüncesini ve yardımcı düşünceler…’ ifadelerini işaretleyin; ardından bu unsurların söz seçimi ve karakter/bağlam ilişkisi hedefine nasıl hizmet ettiğini ve ‘ana_dusunce: İletişim araçları deği…’ ile ilişkisini açıklayın.
 
 ### Bu görev neden burada?
 
-Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir.
+Bu etkinlik, söz seçimi ve karakter/bağlam ilişkisi alanında ‘Metnin ana düşüncesini ve yardımcı düşünceler…’ doğrultusunda öğrencinin kendi düşüncesini kaynak dayanaklarıyla savunmasını ve tutarlı bir ifade becerisi inşa etmesini amaçlar.
 
 ### Kabul edilebilir cevaplar
 
-- Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir. Kaynak ayrıntısı ve gerekçesi bulunan farklı ifadeler kabul edilir.
+- Bu görev, söz seçimi ve karakter/bağlam ilişkisi kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar. Kaynak ayrıntısı ve gerekçesi bulunan farklı ifadeler kabul edilir.
 - Kişisel görüş, metin/kaynak dayanağı ve gerekçe birlikte verildiğinde alternatif cevap olarak değerlendirilebilir.
 
 ### Ders içi uygulama
@@ -8239,12 +8232,12 @@ Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde ned
 - Alt soru metinleri ve etkinlik akışı resmî 2026 MEB ders kitabı PDF'sinden yeniden doğrulanmıştır; artık 's.65-71 genel anlama soruları' biçiminde tek karta sıkıştırma.
 - Medyanın kendisinden örnek isteyen q1, q8, q9 ve eleştirel değerlendirme görevlerinde öğretmen rehberindeki örneği medya kanıtının yerine geçirme; öğrenciden gerçek ses/görüntü/söylem kanıtı iste.
 - Paydos'taki iletişim engellerini yalnız kategori adıyla değil somut replik/davranışla eşleştir.
-- Soru 5 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.66 için öğrencinin önce iletişim ögesini, sonra aksamanın nerede oluştuğunu ve son olarak sonucu yazdığı bir neden-sonuç zinciri kurdurun.
+- Öğrencilerden söz seçimi ve karakter/bağlam ilişkisi açısından metindeki zıtlık ve benzerlikleri belirleyerek not almalarını isteyin.
 
 ### Takip soruları
 
-- Soru 5 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.66 için düşünme sorusu: Buradaki aksama göndericiden mi, alıcıdan mı, kanaldan mı, bağlamdan mı kaynaklanıyor; hangi kanıt bunu gösteriyor? Özellikle ‘Metnin ana düşüncesini ve yardımcı düşüncelerini belirleyiniz’ ayrıntısını yoklayın.
-- Soru 5 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.66 için başka bir kanal seçilse ileti açıklar mıydı, yoksa yeni bir sorun mu doğururdu? Özellikle ‘Metnin ana düşüncesini ve yardımcı düşüncelerini belirleyiniz’ ayrıntısını yoklayın.
+- ‘Metnin ana düşüncesini ve yardımcı düşün…’ kesitindeki tipin dil ve aksan özellikleri, söz seçimi ve karakter/bağlam ilişkisi algısını güçlendirmede nasıl bir rol oynar?
+- Eğer bu roldeki karakter ‘Metnin ana düşüncesini ve yardımcı düşün…’ durumunda ‘ana_dusunce: İletişim araçları deği…’ yerine zıt bir tepki verseydi, sahnedeki denge nasıl bozulurdu?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -8261,17 +8254,18 @@ Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde ned
 
 ### Müdahale
 
-- Soru 5 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.66 için müdahale: Öğrenciden fiziksel ses olmayan fakat önyargı ya da belirsiz söz nedeniyle bozulan kısa bir örnek kurmasını isteyin; engel türünü adlandırsın. Müdahaleyi ‘Metnin ana düşüncesini ve yardımcı düşüncelerini belirleyiniz’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 5 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.66 için müdahale: Mesajı farklı bir kanala taşıtıp hangi bilgi ve duygunun kaybolduğunu iki sütunda karşılaştırın. Müdahaleyi ‘Metnin ana düşüncesini ve yardımcı düşüncelerini belirleyiniz’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciye ‘Metnin ana düşüncesini ve yardımcı …’ çerçevesinde ‘konu tema ve ana’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- ‘Metnin ana düşüncesini ve yardımcı …’ doğrultusunda ‘öznel ifadeyi yanlış bilgi’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Öğrenciden ‘Metnin ana düşüncesini ve yardımcı …’ bağlamında ‘görsel işitsel kanıt gerektiren’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Konu–tema–ana düşünce için ayrı kutular; iletişim engeli → metin kanıtı → çözüm şablonu kullan.
-- İletişim zincirini ‘gönderici → ileti → kanal → alıcı → geri bildirim’ biçiminde verip engel noktasını işaretletin. Bu görevde bağlantı noktası: söz seçimi ve karakter/bağlam ilişkisi.
+- Öğrenciye bir çalışma kâğıdı vererek ‘Metnin ana düşüncesini ve yardımcı …’ için metinde geçen olumlu ve olumsuz göstergeleri iki sütun hâlinde gruplatın.
 **Zenginleştirme**
 - Aynı iletişim problemini yüz yüze, telefon ve e-posta kanallarında ayrı çözümlerle yeniden tasarlat.
-- Aynı iletiyi iki farklı kanalda tasarlatıp hangi durumda kanal değişikliğinin etik ve işlevsel sonuç doğuracağını tartıştırın. Bu görevde derinleştirme odağı: söz seçimi ve karakter/bağlam ilişkisi.
+- Metindeki ‘Metnin ana düşüncesini ve yardımcı …’ durumunu güncel bir olay veya sanat eseriyle kıyaslayarak ‘ana_dusunce: İletişim araçları…’ ekseninde disiplinler arası bir değerlendirme yaptırın.
 
 ### Kaynak ve durum
 
@@ -8316,23 +8310,23 @@ Soru 6 — Dinleme/izleme öncesi tahminleriniz ile sonrasındaki tespitlerinizi
 
 ### Açıklama ve gerekçe
 
-Soru 6 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.67 için beklenen yön, söz seçimi ve karakter/bağlam ilişkisi yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar. Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır.
+Soruya verilecek uygun cevap, ‘Dinleme/izleme öncesi tahminleriniz ile sonrasında…’ yönündeki çıkarımı söz seçimi ve karakter/bağlam ilişkisi hedefleri doğrultusunda yapılandırır. Çözümlemenin geçerliliği, Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar. Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır. koşuluna uyulması ve iddiaların metindeki açık veya örtük ifadelerle doğrulanmasıyla sağlanır. Öğrencinin akıl yürütme süreci; sorunun işaret ettiği metin bölümünü belirlemek, oradaki dil ve anlatım ipuçlarını değerlendirmek ve ulaştığı yargıyı gerekçelendirmektir. Metin özüyle örtüşen ve mantıksal nedensellik taşıyan alternatif anlatımlar doğru yanıt olarak değerlendirilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 6 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.67 görevinde iletişimi yalnız konuşma veya bilgi aktarımı olarak daraltmayın. Gönderici, alıcı, ileti, kanal, bağlam ve geri bildirim birlikte işler; gürültü fiziksel olabileceği gibi önyargı, dikkatsizlik, belirsiz dil veya uygun olmayan kanal da olabilir. Çok modlu metinde ses, görüntü, yazı ve müzik aynı iletiyi destekleyebilir ya da farklılaştırabilir. Bu görevde özellikle ‘Dinleme/izleme öncesi tahminleriniz ile sonrasındaki tespitlerinizi karşılaştırınız’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+İletişim; gönderici, alıcı, ileti, kanal ve bağlam unsurlarının etkileşimiyle gerçekleşen dinamik bir anlam paylaşımı sürecidir. Tarihsel süreçte yazılı, sözlü ve kitle iletişim araçlarından dijital ağlara geçiş, iletişim alışkanlıklarını ve etkileşim hızını dönüştürmüştür. Öğretmen bu görevde, iletişim araçlarının toplumsal ilişkileri ve bireyler arası bağları nasıl şekillendirdiğini açıklamalıdır. Bu görev tahlilinde öğretmen, söz seçimi ve karakter/bağlam ilişkisi odağında ‘Dinleme/izleme öncesi tahminleriniz ile sonrasında…’ sorusuna yönelik yanıtların metin içi tutarlılığını denetlemeli ve yüzeysel yorumların ötesine geçilmesini sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> İletişimde anlam, yalnız sözcüklerden değil; kanal, bağlam, ses, görüntü ve karşılıklı tepkiden birlikte oluşur. Bu görevde özellikle söz seçimi ve karakter/bağlam ilişkisi üzerinde durun.
+> Görevin temel amacı, ‘Dinleme/izleme öncesi tahminleriniz ile sonra…’ ayrıntısı üzerinden söz seçimi ve karakter/bağlam ilişkisi kavramını kavramanızdır. Metindeki ilgili cümleleri bularak ‘Öğrenci dinleme öncesi tahminini di…’ bağlamındaki düşüncenizi kendi cümlelerinizle ortaya koyun.
 
 ### Bu görev neden burada?
 
-Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir.
+Bu soru, ‘Dinleme/izleme öncesi tahminleriniz ile sonra…’ ayrıntısını söz seçimi ve karakter/bağlam ilişkisi ile birleştirerek dil ve edebiyat çalışmalarında neden-sonuç ilişkisi kurma ve ‘Öğrenci dinleme öncesi tahminini di…’ bağlamını kavrama yeterliğini güçlendirir.
 
 ### Kabul edilebilir cevaplar
 
-- Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir. Kaynak ayrıntısı ve gerekçesi bulunan farklı ifadeler kabul edilir.
+- Bu görev, söz seçimi ve karakter/bağlam ilişkisi kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar. Kaynak ayrıntısı ve gerekçesi bulunan farklı ifadeler kabul edilir.
 - Kişisel görüş, metin/kaynak dayanağı ve gerekçe birlikte verildiğinde alternatif cevap olarak değerlendirilebilir.
 
 ### Ders içi uygulama
@@ -8344,8 +8338,8 @@ Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde ned
 
 ### Takip soruları
 
-- Soru 6 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.67 için düşünme sorusu: Buradaki aksama göndericiden mi, alıcıdan mı, kanaldan mı, bağlamdan mı kaynaklanıyor; hangi kanıt bunu gösteriyor? Özellikle ‘Dinleme/izleme öncesi tahminleriniz ile sonrasındaki tespitlerinizi karşılaştırınız’ ayrıntısını yoklayın.
-- Soru 6 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.67 için başka bir kanal seçilse ileti açıklar mıydı, yoksa yeni bir sorun mu doğururdu? Özellikle ‘Dinleme/izleme öncesi tahminleriniz ile sonrasındaki tespitlerinizi karşılaştırınız’ ayrıntısını yoklayın.
+- ‘Dinleme/izleme öncesi tahminleriniz ile …’ kesitindeki tipin dil ve aksan özellikleri, söz seçimi ve karakter/bağlam ilişkisi algısını güçlendirmede nasıl bir rol oynar?
+- Eğer bu roldeki karakter ‘Dinleme/izleme öncesi tahminleriniz ile …’ durumunda ‘Öğrenci dinleme öncesi tahminini di…’ yerine zıt bir tepki verseydi, sahnedeki denge nasıl bozulurdu?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -8362,17 +8356,18 @@ Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde ned
 
 ### Müdahale
 
-- Soru 6 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.67 için müdahale: Öğrenciden fiziksel ses olmayan fakat önyargı ya da belirsiz söz nedeniyle bozulan kısa bir örnek kurmasını isteyin; engel türünü adlandırsın. Müdahaleyi ‘Dinleme/izleme öncesi tahminleriniz ile sonrasındaki tespitlerinizi karşılaştırınız’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 6 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.67 için müdahale: Mesajı farklı bir kanala taşıtıp hangi bilgi ve duygunun kaybolduğunu iki sütunda karşılaştırın. Müdahaleyi ‘Dinleme/izleme öncesi tahminleriniz ile sonrasındaki tespitlerinizi karşılaştırınız’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciye ‘Dinleme/izleme öncesi tahminleriniz…’ çerçevesinde ‘konu tema ve ana’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- ‘Dinleme/izleme öncesi tahminleriniz…’ doğrultusunda ‘öznel ifadeyi yanlış bilgi’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Öğrenciden ‘Dinleme/izleme öncesi tahminleriniz…’ bağlamında ‘görsel işitsel kanıt gerektiren’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Konu–tema–ana düşünce için ayrı kutular; iletişim engeli → metin kanıtı → çözüm şablonu kullan.
-- İletişim zincirini ‘gönderici → ileti → kanal → alıcı → geri bildirim’ biçiminde verip engel noktasını işaretletin. Bu görevde bağlantı noktası: söz seçimi ve karakter/bağlam ilişkisi.
+- ‘Dinleme/izleme öncesi tahminleriniz…’ konusunu daha sade yönlendirici alt sorulara bölerek öğrencinin ‘Öğrenci dinleme öncesi tahmini…’ sonucuna kademeli olarak ulaşmasına rehberlik edin.
 **Zenginleştirme**
 - Aynı iletişim problemini yüz yüze, telefon ve e-posta kanallarında ayrı çözümlerle yeniden tasarlat.
-- Aynı iletiyi iki farklı kanalda tasarlatıp hangi durumda kanal değişikliğinin etik ve işlevsel sonuç doğuracağını tartıştırın. Bu görevde derinleştirme odağı: söz seçimi ve karakter/bağlam ilişkisi.
+- ‘Dinleme/izleme öncesi tahminleriniz…’ tahlilini yazarın edebî dönemi, sanat anlayışı ve dönemin toplumsal koşullarıyla ilişkilendiren bir araştırma sorusu geliştirtin.
 
 ### Kaynak ve durum
 
@@ -8417,23 +8412,23 @@ Soru 7 — Tahmin ve tespitlerinizden hareketle iletişime dair ulaştığınız
 
 ### Açıklama ve gerekçe
 
-Soru 7 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.67 için beklenen yön, söz seçimi ve karakter/bağlam ilişkisi yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar. Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır.
+Beklenen cevap, söz seçimi ve karakter/bağlam ilişkisi çerçevesinde ‘Tahmin ve tespitlerinizden hareketle iletişime dai…’ konusunu metnin sunduğu veriler ve kavramsal dayanaklar üzerinden şekillendirir. Bu cevabın uygunluğu, Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar. Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır. ölçütünün karşılanmasına ve öğrencinin metindeki olay/durum ayrıntılarını nedensellik bağıyla kurmasına dayanır. Öğrencinin izlemesi gereken çıkarım yolu; öncelikle metindeki kanıt niteliği taşıyan ifadeleri belirlemek, ardından bu göstergeleri kavramsal odakla ilişkilendirerek kendi gerekçeli açıklamasını oluşturmaktır. Öğrenci aynı sonucu farklı sözcüklerle ifade edebilir; temel iddia ile metin dayanağı arasındaki mantıksal tutarlılık korunduğu sürece kişisel yorumlar alternatif cevap olarak kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 7 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.67 görevinde iletişimi yalnız konuşma veya bilgi aktarımı olarak daraltmayın. Gönderici, alıcı, ileti, kanal, bağlam ve geri bildirim birlikte işler; gürültü fiziksel olabileceği gibi önyargı, dikkatsizlik, belirsiz dil veya uygun olmayan kanal da olabilir. Çok modlu metinde ses, görüntü, yazı ve müzik aynı iletiyi destekleyebilir ya da farklılaştırabilir. Bu görevde özellikle ‘Tahmin ve tespitlerinizden hareketle iletişime dair ulaştığınız sonuçları yazınız’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+İletişim; gönderici, alıcı, ileti, kanal ve bağlam unsurlarının etkileşimiyle gerçekleşen dinamik bir anlam paylaşımı sürecidir. Tarihsel süreçte yazılı, sözlü ve kitle iletişim araçlarından dijital ağlara geçiş, iletişim alışkanlıklarını ve etkileşim hızını dönüştürmüştür. Öğretmen bu görevde, iletişim araçlarının toplumsal ilişkileri ve bireyler arası bağları nasıl şekillendirdiğini açıklamalıdır. Bu görevde öğretmen, söz seçimi ve karakter/bağlam ilişkisi çerçevesinde sorulan ‘Tahmin ve tespitlerinizden hareketle iletişime dai…’ konusu üzerinden öğrencinin metin kanıtları ile kavramsal çıkarımlar arasındaki ilişkiyi doğru kurmasını sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> İletişimde anlam, yalnız sözcüklerden değil; kanal, bağlam, ses, görüntü ve karşılıklı tepkiden birlikte oluşur. Bu görevde özellikle söz seçimi ve karakter/bağlam ilişkisi üzerinde durun.
+> Bu görevde sizden beklenen; metindeki ipuçlarından hareketle ‘Tahmin ve tespitlerinizden hareketle iletişim…’ konusunu incelemeniz ve söz seçimi ve karakter/bağlam ilişkisi doğrultusunda ‘İletişim araçları değişse de anlaşı…’ sonucuna nasıl ulaşıldığını adım adım açıklamanızdır.
 
 ### Bu görev neden burada?
 
-Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir.
+Bu görev, öğrencinin ‘Tahmin ve tespitlerinizden hareketle iletişim…’ üzerinden söz seçimi ve karakter/bağlam ilişkisi becerisini somut bir metin bağlamında deneyimlemesini ve iddialarını kanıtla destekleme alışkanlığı kazanmasını sağlar.
 
 ### Kabul edilebilir cevaplar
 
-- Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir. Kaynak ayrıntısı ve gerekçesi bulunan farklı ifadeler kabul edilir.
+- Bu görev, söz seçimi ve karakter/bağlam ilişkisi kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar. Kaynak ayrıntısı ve gerekçesi bulunan farklı ifadeler kabul edilir.
 - Kişisel görüş, metin/kaynak dayanağı ve gerekçe birlikte verildiğinde alternatif cevap olarak değerlendirilebilir.
 
 ### Ders içi uygulama
@@ -8441,12 +8436,12 @@ Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde ned
 - Alt soru metinleri ve etkinlik akışı resmî 2026 MEB ders kitabı PDF'sinden yeniden doğrulanmıştır; artık 's.65-71 genel anlama soruları' biçiminde tek karta sıkıştırma.
 - Medyanın kendisinden örnek isteyen q1, q8, q9 ve eleştirel değerlendirme görevlerinde öğretmen rehberindeki örneği medya kanıtının yerine geçirme; öğrenciden gerçek ses/görüntü/söylem kanıtı iste.
 - Paydos'taki iletişim engellerini yalnız kategori adıyla değil somut replik/davranışla eşleştir.
-- Soru 7 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.67 için öğrencinin önce iletişim ögesini, sonra aksamanın nerede oluştuğunu ve son olarak sonucu yazdığı bir neden-sonuç zinciri kurdurun.
+- ‘Tahmin ve tespitlerinizden hareketle ile…’ odağındaki cümleleri tahtaya yansıtarak öğrencilerin dikkatini ilgili metin kesitine çekin.
 
 ### Takip soruları
 
-- Soru 7 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.67 için düşünme sorusu: Buradaki aksama göndericiden mi, alıcıdan mı, kanaldan mı, bağlamdan mı kaynaklanıyor; hangi kanıt bunu gösteriyor? Özellikle ‘Tahmin ve tespitlerinizden hareketle iletişime dair ulaştığınız sonuçları yazınız’ ayrıntısını yoklayın.
-- Soru 7 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.67 için başka bir kanal seçilse ileti açıklar mıydı, yoksa yeni bir sorun mu doğururdu? Özellikle ‘Tahmin ve tespitlerinizden hareketle iletişime dair ulaştığınız sonuçları yazınız’ ayrıntısını yoklayın.
+- Eğer ‘Tahmin ve tespitlerinizden hareketle ile…’ ifadesinde kullanılan dil bilgisel yapı değiştirilseydi, cümlenin ilettiği anlam ve vurgu nasıl başkalaşırdı?
+- ‘Tahmin ve tespitlerinizden hareketle ile…’ cümlesindeki dilbilgisi tercihinin metnin genel anlatım akışı ve anlam bütünlüğüne etkisi nedir?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -8463,17 +8458,18 @@ Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde ned
 
 ### Müdahale
 
-- Soru 7 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.67 için müdahale: Öğrenciden fiziksel ses olmayan fakat önyargı ya da belirsiz söz nedeniyle bozulan kısa bir örnek kurmasını isteyin; engel türünü adlandırsın. Müdahaleyi ‘Tahmin ve tespitlerinizden hareketle iletişime dair ulaştığınız sonuçları yazınız’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 7 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.67 için müdahale: Mesajı farklı bir kanala taşıtıp hangi bilgi ve duygunun kaybolduğunu iki sütunda karşılaştırın. Müdahaleyi ‘Tahmin ve tespitlerinizden hareketle iletişime dair ulaştığınız sonuçları yazınız’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciden ‘Tahmin ve tespitlerinizden hareketl…’ bağlamında ‘konu tema ve ana’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- ‘Tahmin ve tespitlerinizden hareketl…’ incelemesinde ‘öznel ifadeyi yanlış bilgi’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Öğrenciye ‘Tahmin ve tespitlerinizden hareketl…’ çerçevesinde ‘görsel işitsel kanıt gerektiren’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Konu–tema–ana düşünce için ayrı kutular; iletişim engeli → metin kanıtı → çözüm şablonu kullan.
-- İletişim zincirini ‘gönderici → ileti → kanal → alıcı → geri bildirim’ biçiminde verip engel noktasını işaretletin. Bu görevde bağlantı noktası: söz seçimi ve karakter/bağlam ilişkisi.
+- ‘Tahmin ve tespitlerinizden hareketl…’ sorusunu yanıtlamakta zorlanan öğrenciye metindeki ilgili paragrafı işaretleyin; önce anahtar kavramları buldurarak cevabı adım adım kurdurun.
 **Zenginleştirme**
 - Aynı iletişim problemini yüz yüze, telefon ve e-posta kanallarında ayrı çözümlerle yeniden tasarlat.
-- Aynı iletiyi iki farklı kanalda tasarlatıp hangi durumda kanal değişikliğinin etik ve işlevsel sonuç doğuracağını tartıştırın. Bu görevde derinleştirme odağı: söz seçimi ve karakter/bağlam ilişkisi.
+- Öğrenciden ‘Tahmin ve tespitlerinizden hareketl…’ çerçevesinde ulaştığı ‘İletişim araçları değişse de a…’ sonucunu, okuduğu farklı bir edebî eserle karşılaştıran kısa bir eleştiri yazısı yazmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -8520,23 +8516,23 @@ Soru 8 — Metinden öznel ve nesnel ifade örnekleri bulunuz; bunların metne k
 
 ### Açıklama ve gerekçe
 
-Soru 8 — kanıtlanabilirlik ile kişisel değerlendirme — basılı s.67 için beklenen yön, kanıtlanabilirlik ile kişisel değerlendirme yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar. Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır.
+Tabloda yer alan ‘Metinden öznel ve nesnel ifade örnekleri bulunuz; …’ yargılarının (oznel, nesnel, katki) geçerliliği, metin kanıtları üzerinden tahlil edilir. Öğrenci; metinde açıkça dayanağı bulunan ifadeleri 'Evet', metin gerçeğiyle çelişenleri 'Hayır', metnin değinmediği hususları ise 'Bilgi yok' şeklinde sınıflandırmalıdır. Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar. Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 8 — kanıtlanabilirlik ile kişisel değerlendirme — basılı s.67 görevinde iletişimi yalnız konuşma veya bilgi aktarımı olarak daraltmayın. Gönderici, alıcı, ileti, kanal, bağlam ve geri bildirim birlikte işler; gürültü fiziksel olabileceği gibi önyargı, dikkatsizlik, belirsiz dil veya uygun olmayan kanal da olabilir. Çok modlu metinde ses, görüntü, yazı ve müzik aynı iletiyi destekleyebilir ya da farklılaştırabilir. Bu görevde özellikle ‘Metinden öznel ve nesnel ifade örnekleri bulunuz; bunların metne katkısını değerlendiriniz’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Kurmaca metinlerde anlatıcı, yazarın olayları ve dünyayı aktarmak üzere kurguladığı kurmaca bir sestir; yazarın kendisiyle özdeşleştirilemez. Kahraman anlatıcı (birinci kişi) olayları kendi öznel algı, duygu ve sınırlılığıyla aktarırken ilahi (hâkim) anlatıcı üçüncü kişi üzerinden her şeyi bilen, geçmişi, geleceği ve zihinleri okuyan bir konumdadır. Gözlemci anlatıcı ise olayları bir kamera nesnelliğiyle dışarıdan yansıtır. Öğretmen, bakış açısı seçiminin metnin inandırıcılığını ve okurun empati düzeyini nasıl yönlendirdiğini açıklamalıdır. Bu görev sürecinde öğretmen, kanıtlanabilirlik ile kişisel değerlendirme doğrultusunda ‘Metinden öznel ve nesnel ifade örnekleri bulunuz; …’ sorusunu çözümlerken öğrencilerin somut metin delilleriyle argüman geliştirmelerini teşvik etmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> İletişimde anlam, yalnız sözcüklerden değil; kanal, bağlam, ses, görüntü ve karşılıklı tepkiden birlikte oluşur. Bu görevde özellikle kanıtlanabilirlik ile kişisel değerlendirme üzerinde durun.
+> Yönergeyi uygularken önce metindeki ‘Metinden öznel ve nesnel ifade örnekleri bulu…’ ifadelerini işaretleyin; ardından bu unsurların kanıtlanabilirlik ile kişisel değerlendirme hedefine nasıl hizmet ettiğini ve ‘oznel: Kişisel beğeni, değerlendirm…’ ile ilişkisini açıklayın.
 
 ### Bu görev neden burada?
 
-Bu görev, kanıtlanabilirlik ile kişisel değerlendirme üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir.
+Bu etkinlik, kanıtlanabilirlik ile kişisel değerlendirme alanında ‘Metinden öznel ve nesnel ifade örnekleri bulu…’ doğrultusunda öğrencinin kendi düşüncesini kaynak dayanaklarıyla savunmasını ve tutarlı bir ifade becerisi inşa etmesini amaçlar.
 
 ### Kabul edilebilir cevaplar
 
-- Bu görev, kanıtlanabilirlik ile kişisel değerlendirme üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir. Kaynak ayrıntısı ve gerekçesi bulunan farklı ifadeler kabul edilir.
+- Bu görev, kanıtlanabilirlik ile kişisel değerlendirme kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar. Kaynak ayrıntısı ve gerekçesi bulunan farklı ifadeler kabul edilir.
 - Kişisel görüş, metin/kaynak dayanağı ve gerekçe birlikte verildiğinde alternatif cevap olarak değerlendirilebilir.
 
 ### Ders içi uygulama
@@ -8548,8 +8544,8 @@ Bu görev, kanıtlanabilirlik ile kişisel değerlendirme üzerinden iletişimde
 
 ### Takip soruları
 
-- Soru 8 — kanıtlanabilirlik ile kişisel değerlendirme — basılı s.67 için düşünme sorusu: Buradaki aksama göndericiden mi, alıcıdan mı, kanaldan mı, bağlamdan mı kaynaklanıyor; hangi kanıt bunu gösteriyor? Özellikle ‘Metinden öznel ve nesnel ifade örnekleri bulunuz; bunların metne katkısını değerlendiriniz’ ayrıntısını yoklayın.
-- Soru 8 — kanıtlanabilirlik ile kişisel değerlendirme — basılı s.67 için başka bir kanal seçilse ileti açıklar mıydı, yoksa yeni bir sorun mu doğururdu? Özellikle ‘Metinden öznel ve nesnel ifade örnekleri bulunuz; bunların metne katkısını değerlendiriniz’ ayrıntısını yoklayın.
+- ‘Metinden öznel ve nesnel ifade örnekleri…’ yapısındaki dil bilgisel işlevin, konuşurun ya da anlatıcının ruh hâlini yansıtmadaki rolü nedir?
+- Metinde ‘Metinden öznel ve nesnel ifade örnekleri…’ kullanımına benzer başka bir örnek bulunabilir mi; bu iki örnek yazarın üslubunu nasıl yansıtmaktadır?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -8566,17 +8562,18 @@ Bu görev, kanıtlanabilirlik ile kişisel değerlendirme üzerinden iletişimde
 
 ### Müdahale
 
-- Soru 8 — kanıtlanabilirlik ile kişisel değerlendirme — basılı s.67 için müdahale: Öğrenciden fiziksel ses olmayan fakat önyargı ya da belirsiz söz nedeniyle bozulan kısa bir örnek kurmasını isteyin; engel türünü adlandırsın. Müdahaleyi ‘Metinden öznel ve nesnel ifade örnekleri bulunuz; bunların metne katkısını değerlendiriniz’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 8 — kanıtlanabilirlik ile kişisel değerlendirme — basılı s.67 için müdahale: Mesajı farklı bir kanala taşıtıp hangi bilgi ve duygunun kaybolduğunu iki sütunda karşılaştırın. Müdahaleyi ‘Metinden öznel ve nesnel ifade örnekleri bulunuz; bunların metne katkısını değerlendiriniz’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciye ‘Metinden öznel ve nesnel ifade örne…’ çerçevesinde ‘konu tema ve ana’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- ‘Metinden öznel ve nesnel ifade örne…’ doğrultusunda ‘öznel ifadeyi yanlış bilgi’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Öğrenciden ‘Metinden öznel ve nesnel ifade örne…’ bağlamında ‘görsel işitsel kanıt gerektiren’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Konu–tema–ana düşünce için ayrı kutular; iletişim engeli → metin kanıtı → çözüm şablonu kullan.
-- İletişim zincirini ‘gönderici → ileti → kanal → alıcı → geri bildirim’ biçiminde verip engel noktasını işaretletin. Bu görevde bağlantı noktası: kanıtlanabilirlik ile kişisel değerlendirme.
+- Öğrenciye bir çalışma kâğıdı vererek ‘Metinden öznel ve nesnel ifade örne…’ için metinde geçen olumlu ve olumsuz göstergeleri iki sütun hâlinde gruplatın.
 **Zenginleştirme**
 - Aynı iletişim problemini yüz yüze, telefon ve e-posta kanallarında ayrı çözümlerle yeniden tasarlat.
-- Aynı iletiyi iki farklı kanalda tasarlatıp hangi durumda kanal değişikliğinin etik ve işlevsel sonuç doğuracağını tartıştırın. Bu görevde derinleştirme odağı: kanıtlanabilirlik ile kişisel değerlendirme.
+- Metindeki ‘Metinden öznel ve nesnel ifade örne…’ durumunu güncel bir olay veya sanat eseriyle kıyaslayarak ‘oznel: Kişisel beğeni, değerle…’ ekseninde disiplinler arası bir değerlendirme yaptırın.
 
 ### Kaynak ve durum
 
@@ -8621,31 +8618,31 @@ Soru 9 — Dinlediğiniz/izlediğiniz metinden anladıklarınızı özetleyiniz.
 
 ### Açıklama ve gerekçe
 
-Soru 9 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.67 için cevap, söz seçimi ve karakter/bağlam ilişkisi ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar. Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır.
+Beklenen cevap, söz seçimi ve karakter/bağlam ilişkisi çerçevesinde ‘Dinlediğiniz/izlediğiniz metinden anladıklarınızı …’ konusunu metnin sunduğu veriler ve kavramsal dayanaklar üzerinden şekillendirir. Bu cevabın uygunluğu, Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar. Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır. ölçütünün karşılanmasına ve öğrencinin metindeki olay/durum ayrıntılarını nedensellik bağıyla kurmasına dayanır. Öğrencinin izlemesi gereken çıkarım yolu; öncelikle metindeki kanıt niteliği taşıyan ifadeleri belirlemek, ardından bu göstergeleri kavramsal odakla ilişkilendirerek kendi gerekçeli açıklamasını oluşturmaktır. Öğrenci aynı sonucu farklı sözcüklerle ifade edebilir; temel iddia ile metin dayanağı arasındaki mantıksal tutarlılık korunduğu sürece kişisel yorumlar alternatif cevap olarak kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 9 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.67 görevinde iletişimi yalnız konuşma veya bilgi aktarımı olarak daraltmayın. Gönderici, alıcı, ileti, kanal, bağlam ve geri bildirim birlikte işler; gürültü fiziksel olabileceği gibi önyargı, dikkatsizlik, belirsiz dil veya uygun olmayan kanal da olabilir. Çok modlu metinde ses, görüntü, yazı ve müzik aynı iletiyi destekleyebilir ya da farklılaştırabilir. Bu görevde özellikle ‘Dinlediğiniz/izlediğiniz metinden anladıklarınızı özetleyiniz’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev tahlilinde öğretmen, söz seçimi ve karakter/bağlam ilişkisi odağında ‘Dinlediğiniz/izlediğiniz metinden anladıklarınızı …’ sorusuna yönelik yanıtların metin içi tutarlılığını denetlemeli ve yüzeysel yorumların ötesine geçilmesini sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> İletişimde anlam, yalnız sözcüklerden değil; kanal, bağlam, ses, görüntü ve karşılıklı tepkiden birlikte oluşur. Bu görevde özellikle söz seçimi ve karakter/bağlam ilişkisi üzerinde durun.
+> Görevin temel amacı, ‘Dinlediğiniz/izlediğiniz metinden anladıkları…’ ayrıntısı üzerinden söz seçimi ve karakter/bağlam ilişkisi kavramını kavramanızdır. Metindeki ilgili cümleleri bularak ‘Özet; iletişim araçlarının geçmişte…’ bağlamındaki düşüncenizi kendi cümlelerinizle ortaya koyun.
 
 ### Bu görev neden burada?
 
-Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir.
+Bu soru, ‘Dinlediğiniz/izlediğiniz metinden anladıkları…’ ayrıntısını söz seçimi ve karakter/bağlam ilişkisi ile birleştirerek dil ve edebiyat çalışmalarında neden-sonuç ilişkisi kurma ve ‘Özet; iletişim araçlarının geçmişte…’ bağlamını kavrama yeterliğini güçlendirir.
 
 ### Ders içi uygulama
 
 - Alt soru metinleri ve etkinlik akışı resmî 2026 MEB ders kitabı PDF'sinden yeniden doğrulanmıştır; artık 's.65-71 genel anlama soruları' biçiminde tek karta sıkıştırma.
 - Medyanın kendisinden örnek isteyen q1, q8, q9 ve eleştirel değerlendirme görevlerinde öğretmen rehberindeki örneği medya kanıtının yerine geçirme; öğrenciden gerçek ses/görüntü/söylem kanıtı iste.
 - Paydos'taki iletişim engellerini yalnız kategori adıyla değil somut replik/davranışla eşleştir.
-- Soru 9 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.67 için öğrencinin önce iletişim ögesini, sonra aksamanın nerede oluştuğunu ve son olarak sonucu yazdığı bir neden-sonuç zinciri kurdurun.
+- Öğrencilerden metinde ‘Dinlediğiniz/izlediğiniz metinden anladı…’ konusuna kaynaklık eden temel ifadelerin altını çizmelerini isteyin.
 
 ### Takip soruları
 
-- Soru 9 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.67 için düşünme sorusu: Buradaki aksama göndericiden mi, alıcıdan mı, kanaldan mı, bağlamdan mı kaynaklanıyor; hangi kanıt bunu gösteriyor? Özellikle ‘Dinlediğiniz/izlediğiniz metinden anladıklarınızı özetleyiniz’ ayrıntısını yoklayın.
-- Soru 9 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.67 için başka bir kanal seçilse ileti açıklar mıydı, yoksa yeni bir sorun mu doğururdu? Özellikle ‘Dinlediğiniz/izlediğiniz metinden anladıklarınızı özetleyiniz’ ayrıntısını yoklayın.
+- ‘Dinlediğiniz/izlediğiniz metinden anladı…’ odağında incelenen karakterin tavır ve konuşmaları, temsil ettiği toplumsal tipi nasıl açığa vurmaktadır?
+- Karakterin ‘Dinlediğiniz/izlediğiniz metinden anladı…’ karşısındaki tutumu, eserdeki temel dramatik çatışmayı nasıl beslemektedir?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -8662,17 +8659,18 @@ Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde ned
 
 ### Müdahale
 
-- Soru 9 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.67 için müdahale: Öğrenciden fiziksel ses olmayan fakat önyargı ya da belirsiz söz nedeniyle bozulan kısa bir örnek kurmasını isteyin; engel türünü adlandırsın. Müdahaleyi ‘Dinlediğiniz/izlediğiniz metinden anladıklarınızı özetleyiniz’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 9 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.67 için müdahale: Mesajı farklı bir kanala taşıtıp hangi bilgi ve duygunun kaybolduğunu iki sütunda karşılaştırın. Müdahaleyi ‘Dinlediğiniz/izlediğiniz metinden anladıklarınızı özetleyiniz’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciden ‘Dinlediğiniz/izlediğiniz metinden a…’ bağlamında ‘konu tema ve ana’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- ‘Dinlediğiniz/izlediğiniz metinden a…’ incelemesinde ‘öznel ifadeyi yanlış bilgi’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Öğrenciye ‘Dinlediğiniz/izlediğiniz metinden a…’ çerçevesinde ‘görsel işitsel kanıt gerektiren’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Konu–tema–ana düşünce için ayrı kutular; iletişim engeli → metin kanıtı → çözüm şablonu kullan.
-- İletişim zincirini ‘gönderici → ileti → kanal → alıcı → geri bildirim’ biçiminde verip engel noktasını işaretletin. Bu görevde bağlantı noktası: söz seçimi ve karakter/bağlam ilişkisi.
+- ‘Dinlediğiniz/izlediğiniz metinden a…’ konusunu daha sade yönlendirici alt sorulara bölerek öğrencinin ‘Özet; iletişim araçlarının geç…’ sonucuna kademeli olarak ulaşmasına rehberlik edin.
 **Zenginleştirme**
 - Aynı iletişim problemini yüz yüze, telefon ve e-posta kanallarında ayrı çözümlerle yeniden tasarlat.
-- Aynı iletiyi iki farklı kanalda tasarlatıp hangi durumda kanal değişikliğinin etik ve işlevsel sonuç doğuracağını tartıştırın. Bu görevde derinleştirme odağı: söz seçimi ve karakter/bağlam ilişkisi.
+- ‘Dinlediğiniz/izlediğiniz metinden a…’ tahlilini yazarın edebî dönemi, sanat anlayışı ve dönemin toplumsal koşullarıyla ilişkilendiren bir araştırma sorusu geliştirtin.
 
 ### Kaynak ve durum
 
@@ -8717,19 +8715,19 @@ Gelecekte artırılmış/sanal gerçeklik, anlık çeviri, holografik görüşme
 
 ### Açıklama ve gerekçe
 
-söz seçimi ve karakter/bağlam ilişkisi — basılı s.68 için cevap, söz seçimi ve karakter/bağlam ilişkisi ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar. Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır.
+Performans temelli bu görevde, ‘Kitapta “Birlikte Çalışalım” başlığı altında veril…’ üzerinden hedeflenen söz seçimi ve karakter/bağlam ilişkisi çıktısı aşamalı olarak tahlil edilir. Değerlendirme ölçütü; öğrencinin Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar. Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır. şartını sağlaması ve sürecin metin dayanağıyla gerekçelendirilmesidir.
 
 ### Öğretmenin bilmesi gerekenler
 
-söz seçimi ve karakter/bağlam ilişkisi — basılı s.68 görevinde iletişimi yalnız konuşma veya bilgi aktarımı olarak daraltmayın. Gönderici, alıcı, ileti, kanal, bağlam ve geri bildirim birlikte işler; gürültü fiziksel olabileceği gibi önyargı, dikkatsizlik, belirsiz dil veya uygun olmayan kanal da olabilir. Çok modlu metinde ses, görüntü, yazı ve müzik aynı iletiyi destekleyebilir ya da farklılaştırabilir. Bu görevde özellikle ‘Söz Varlığımız, Metni Anlayalım, Birlikte Çalışalım ve Sıra Sizde — Birlikte Çalışalım’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+İletişim; gönderici, alıcı, ileti, kanal ve bağlam unsurlarının etkileşimiyle gerçekleşen dinamik bir anlam paylaşımı sürecidir. Tarihsel süreçte yazılı, sözlü ve kitle iletişim araçlarından dijital ağlara geçiş, iletişim alışkanlıklarını ve etkileşim hızını dönüştürmüştür. Öğretmen bu görevde, iletişim araçlarının toplumsal ilişkileri ve bireyler arası bağları nasıl şekillendirdiğini açıklamalıdır. Bu görevde öğretmenin kılavuzluğu, ‘Kitapta “Birlikte Çalışalım” başlığı altında veril…’ bağlamında öğrencinin söz seçimi ve karakter/bağlam ilişkisi ve ‘Gelecekte artırılmış/sanal gerçeklik, an…’ arasındaki mantıksal nedensellik bağını metin üzerinden kavramasına odaklanmalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> İletişimde anlam, yalnız sözcüklerden değil; kanal, bağlam, ses, görüntü ve karşılıklı tepkiden birlikte oluşur. Bu görevde özellikle söz seçimi ve karakter/bağlam ilişkisi üzerinde durun.
+> Bu soruda, ‘Kitapta “Birlikte Çalışalım” başlığı altında …’ odağını metnin genel anlam akışı içinde değerlendirmeniz gerekmektedir. Tespit ettiğiniz verileri söz seçimi ve karakter/bağlam ilişkisi açısından yorumlayarak ‘Gelecekte artırılmış/sanal gerçekli…’ yönünde tutarlı bir sonuca varın.
 
 ### Bu görev neden burada?
 
-Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir.
+Öğrencinin ‘Kitapta “Birlikte Çalışalım” başlığı altında …’ incelemesi yoluyla söz seçimi ve karakter/bağlam ilişkisi kavramını içselleştirmesi, edebî metinlerdeki anlam katmanlarını fark etmesine ve ‘Gelecekte artırılmış/sanal gerçekli…’ yönünde derinlikli bakış kazanmasına zemin hazırlar.
 
 ### Ders içi uygulama
 
@@ -8753,17 +8751,18 @@ Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde ned
 
 ### Müdahale
 
-- söz seçimi ve karakter/bağlam ilişkisi — basılı s.68 için müdahale: Öğrenciden fiziksel ses olmayan fakat önyargı ya da belirsiz söz nedeniyle bozulan kısa bir örnek kurmasını isteyin; engel türünü adlandırsın. Müdahaleyi ‘Söz Varlığımız, Metni Anlayalım, Birlikte Çalışalım ve Sıra Sizde — Birlikte Çalışalım’ ayrıntısını kullandırarak somutlaştırın.
-- söz seçimi ve karakter/bağlam ilişkisi — basılı s.68 için müdahale: Mesajı farklı bir kanala taşıtıp hangi bilgi ve duygunun kaybolduğunu iki sütunda karşılaştırın. Müdahaleyi ‘Söz Varlığımız, Metni Anlayalım, Birlikte Çalışalım ve Sıra Sizde — Birlikte Çalışalım’ ayrıntısını kullandırarak somutlaştırın.
+- ‘söz seçimi ve karakter/bağlam ilişkisi (T1V23_P68_FUTURE)’ incelemesinde ‘konu tema ve ana’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Öğrenciye ‘söz seçimi ve karakter/bağlam ilişkisi (T1V23_P68_FUTURE)’ çerçevesinde ‘öznel ifadeyi yanlış bilgi’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- ‘söz seçimi ve karakter/bağlam ilişkisi (T1V23_P68_FUTURE)’ doğrultusunda ‘görsel işitsel kanıt gerektiren’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Konu–tema–ana düşünce için ayrı kutular; iletişim engeli → metin kanıtı → çözüm şablonu kullan.
-- İletişim zincirini ‘gönderici → ileti → kanal → alıcı → geri bildirim’ biçiminde verip engel noktasını işaretletin. Bu görevde bağlantı noktası: söz seçimi ve karakter/bağlam ilişkisi.
+- ‘Kitapta “Birlikte Çalışalım” başlığ…’ metnindeki karmaşık ifadeleri öğrencinin kendi sözcükleriyle yeniden ifade etmesini isteyerek söz seçimi ve karakter/bağlam ilişkisi fikrini netleştirin.
 **Zenginleştirme**
 - Aynı iletişim problemini yüz yüze, telefon ve e-posta kanallarında ayrı çözümlerle yeniden tasarlat.
-- Aynı iletiyi iki farklı kanalda tasarlatıp hangi durumda kanal değişikliğinin etik ve işlevsel sonuç doğuracağını tartıştırın. Bu görevde derinleştirme odağı: söz seçimi ve karakter/bağlam ilişkisi.
+- Öğrencinin ‘Kitapta “Birlikte Çalışalım” başlığ…’ bağlamındaki çıkarımını infografik, dijital sunum veya kavram haritasına dönüştürerek sınıf panosunda sergilemesini sağlayın.
 
 ### Kaynak ve durum
 
@@ -8808,19 +8807,19 @@ Paydos parçasında konuşmacının karşıdakini tam dinlememesi, söz kesme/ko
 
 ### Açıklama ve gerekçe
 
-Soru 2 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.68-69 için cevap, söz seçimi ve karakter/bağlam ilişkisi ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar. Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır.
+Bu soruda hedeflenen yanıt, metnin ana dokusunda yer alan ‘Paydos parçasında dilin yanlış kullanımından kayna…’ ayrıntısını söz seçimi ve karakter/bağlam ilişkisi perspektifiyle analiz etmeye dayanır. Doğruluk dayanağı; Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar. Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır. ilkesinin karşılanması ve metindeki göstergelerin somut kanıtlarla açıklanmasıdır. Öğrencinin izleyeceği bilişsel basamaklar; metin parçalarını taramak, kavramsal anahtarları tespit etmek ve bu bulguları sentezleyerek tutarlı bir değerlendirme üretmektir. İfadeler birebir aynı olmak zorunda olmayıp metinle çelişmeyen ve gerekçelendirilmiş farklı yaklaşımlar geçerli kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 2 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.68-69 görevinde iletişimi yalnız konuşma veya bilgi aktarımı olarak daraltmayın. Gönderici, alıcı, ileti, kanal, bağlam ve geri bildirim birlikte işler; gürültü fiziksel olabileceği gibi önyargı, dikkatsizlik, belirsiz dil veya uygun olmayan kanal da olabilir. Çok modlu metinde ses, görüntü, yazı ve müzik aynı iletiyi destekleyebilir ya da farklılaştırabilir. Bu görevde özellikle ‘Paydos parçasında dilin yanlış kullanımından kaynaklanan iletişim aksaklıklarını belirleyiniz’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+İletişim; gönderici, alıcı, ileti, kanal ve bağlam unsurlarının etkileşimiyle gerçekleşen dinamik bir anlam paylaşımı sürecidir. Tarihsel süreçte yazılı, sözlü ve kitle iletişim araçlarından dijital ağlara geçiş, iletişim alışkanlıklarını ve etkileşim hızını dönüştürmüştür. Öğretmen bu görevde, iletişim araçlarının toplumsal ilişkileri ve bireyler arası bağları nasıl şekillendirdiğini açıklamalıdır. Bu görevde öğretmen, ‘Paydos parçasında dilin yanlış kullanımından kayna…’ yönergesini ele alırken sınıf ortamında söz seçimi ve karakter/bağlam ilişkisi boyutunu öne çıkarmalı ve ‘Paydos parçasında konuşmacının karşıdaki…’ yönündeki metin dayanaklarını desteklemelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> İletişimde anlam, yalnız sözcüklerden değil; kanal, bağlam, ses, görüntü ve karşılıklı tepkiden birlikte oluşur. Bu görevde özellikle söz seçimi ve karakter/bağlam ilişkisi üzerinde durun.
+> Bu çalışmayı yaparken metni dikkatle gözden geçirerek ‘Paydos parçasında dilin yanlış kullanımından …’ ile ilgili kanıtları belirleyin; ulaştığınız yargıları söz seçimi ve karakter/bağlam ilişkisi ve ‘Paydos parçasında konuşmacının karş…’ çerçevesinde gerekçelendirerek ifade edin.
 
 ### Bu görev neden burada?
 
-Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir.
+söz seçimi ve karakter/bağlam ilişkisi eksenindeki bu çalışma, ‘Paydos parçasında dilin yanlış kullanımından …’ konusunu ele alırken öğrencinin yüzeysel okumadan analitik çözümlemeye geçişini ve ‘Paydos parçasında konuşmacının karş…’ bağlantısını kurmasını destekler.
 
 ### Ders içi uygulama
 
@@ -8831,8 +8830,8 @@ Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde ned
 
 ### Takip soruları
 
-- Soru 2 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.68-69 için düşünme sorusu: Buradaki aksama göndericiden mi, alıcıdan mı, kanaldan mı, bağlamdan mı kaynaklanıyor; hangi kanıt bunu gösteriyor? Özellikle ‘Paydos parçasında dilin yanlış kullanımından kaynaklanan iletişim aksaklıklarını belirleyiniz’ ayrıntısını yoklayın.
-- Soru 2 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.68-69 için başka bir kanal seçilse ileti açıklar mıydı, yoksa yeni bir sorun mu doğururdu? Özellikle ‘Paydos parçasında dilin yanlış kullanımından kaynaklanan iletişim aksaklıklarını belirleyiniz’ ayrıntısını yoklayın.
+- ‘Paydos parçasında dilin yanlış kullanımı…’ bağlamında karakterin iç dünyası ile dış davranışları arasındaki çelişki metinde nasıl sezdirilmiştir?
+- Karakterin ‘Paydos parçasında dilin yanlış kullanımı…’ karşısındaki tutumu, eserdeki temel dramatik çatışmayı nasıl beslemektedir?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -8849,17 +8848,18 @@ Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde ned
 
 ### Müdahale
 
-- Soru 2 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.68-69 için müdahale: Öğrenciden fiziksel ses olmayan fakat önyargı ya da belirsiz söz nedeniyle bozulan kısa bir örnek kurmasını isteyin; engel türünü adlandırsın. Müdahaleyi ‘Paydos parçasında dilin yanlış kullanımından kaynaklanan iletişim aksaklıklarını belirleyiniz’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 2 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.68-69 için müdahale: Mesajı farklı bir kanala taşıtıp hangi bilgi ve duygunun kaybolduğunu iki sütunda karşılaştırın. Müdahaleyi ‘Paydos parçasında dilin yanlış kullanımından kaynaklanan iletişim aksaklıklarını belirleyiniz’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Paydos parçasında dilin yanlış kull…’ incelemesinde ‘konu tema ve ana’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Öğrenciye ‘Paydos parçasında dilin yanlış kull…’ çerçevesinde ‘öznel ifadeyi yanlış bilgi’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- ‘Paydos parçasında dilin yanlış kull…’ doğrultusunda ‘görsel işitsel kanıt gerektiren’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Konu–tema–ana düşünce için ayrı kutular; iletişim engeli → metin kanıtı → çözüm şablonu kullan.
-- İletişim zincirini ‘gönderici → ileti → kanal → alıcı → geri bildirim’ biçiminde verip engel noktasını işaretletin. Bu görevde bağlantı noktası: söz seçimi ve karakter/bağlam ilişkisi.
+- Öğrenciye ‘iddia — metin kanıtı — söz seçimi ve karakter/bağlam ilişkisi gerekçesi’ üçlü şemasını tahtada ‘Paydos parçasında dilin yanlış kull…’ üzerinden örnekleyerek cevabını oluşturmasını sağlayın.
 **Zenginleştirme**
 - Aynı iletişim problemini yüz yüze, telefon ve e-posta kanallarında ayrı çözümlerle yeniden tasarlat.
-- Aynı iletiyi iki farklı kanalda tasarlatıp hangi durumda kanal değişikliğinin etik ve işlevsel sonuç doğuracağını tartıştırın. Bu görevde derinleştirme odağı: söz seçimi ve karakter/bağlam ilişkisi.
+- ‘Paydos parçasında dilin yanlış kull…’ için ulaşılan cevabı sınıfta farklı bir bakış açısıyla savunmasını veya karşıt bir tezi çürütmesini isteyerek söz seçimi ve karakter/bağlam ilişkisi ekseninde tartışma başlatın.
 
 ### Kaynak ve durum
 
@@ -8920,19 +8920,19 @@ Kitapta “Sıra Sizde — iletişim engelleri kavram haritası” başlığı a
 
 ### Açıklama ve gerekçe
 
-söz seçimi ve karakter/bağlam ilişkisi — basılı s.70 için cevap, söz seçimi ve karakter/bağlam ilişkisi ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar. Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır.
+Bu görevdeki ‘Kitapta “Sıra Sizde — iletişim engelleri kavram ha…’ tablosundaki maddelerin (sosyokulturel, fiziksel_cevre, dil_anlatim) doğruluğu, kaynak metindeki açık ifadeler ve çıkarımlar ile karşılaştırılarak temellendirilir. Öğrencinin izlemesi gereken çıkarım yolu; her bir cümleyi tek tek metindeki ifadelerle eşleştirmek, metinde doğrudan doğrulanan yargıları 'Evet', açıkça çelişenleri 'Hayır' ve metinde hakkında hüküm verilmeyen yargıları ise 'Bilgi yok' olarak sınıflandırmaktır. Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar. Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır.
 
 ### Öğretmenin bilmesi gerekenler
 
-söz seçimi ve karakter/bağlam ilişkisi — basılı s.70 görevinde iletişimi yalnız konuşma veya bilgi aktarımı olarak daraltmayın. Gönderici, alıcı, ileti, kanal, bağlam ve geri bildirim birlikte işler; gürültü fiziksel olabileceği gibi önyargı, dikkatsizlik, belirsiz dil veya uygun olmayan kanal da olabilir. Çok modlu metinde ses, görüntü, yazı ve müzik aynı iletiyi destekleyebilir ya da farklılaştırabilir. Bu görevde özellikle ‘Söz Varlığımız, Metni Anlayalım, Birlikte Çalışalım ve Sıra Sizde — Sıra Sizde…’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Fiilde çatı konusu, eylemin öznesiyle (etken, edilgen, dönüşlü, işteş) ve nesnesiyle (geçişli, geçişsiz, ettirgen, oldurgan) kurduğu söz dizimsel ve anlamsal ilişkiyi belirler. Edilgen çatıda (-l, -n ekleriyle) işi yapan gerçek özne gizlenir veya örtük bırakılır; nesne 'sözde özne' konumuna geçer. Geçişli fiiller nesne alabilirken geçişsiz fiiller nesne alamaz. Öğretmen bu görevde, fiilin çatı özelliğini yalnız ek ezberiyle değil, cümlenin anlamsal özne-nesne kurgusu ve işlevsel rolü üzerinden açıklatmalıdır. Bu görevde öğretmen, söz seçimi ve karakter/bağlam ilişkisi çerçevesinde sorulan ‘Kitapta “Sıra Sizde — iletişim engelleri kavram ha…’ konusu üzerinden öğrencinin metin kanıtları ile kavramsal çıkarımlar arasındaki ilişkiyi doğru kurmasını sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> İletişimde anlam, yalnız sözcüklerden değil; kanal, bağlam, ses, görüntü ve karşılıklı tepkiden birlikte oluşur. Bu görevde özellikle söz seçimi ve karakter/bağlam ilişkisi üzerinde durun.
+> Bu görevde sizden beklenen; metindeki ipuçlarından hareketle ‘Kitapta “Sıra Sizde — iletişim engelleri kavr…’ konusunu incelemeniz ve söz seçimi ve karakter/bağlam ilişkisi doğrultusunda ‘sosyokulturel: ['ön yargılar', 'sta…’ sonucuna nasıl ulaşıldığını adım adım açıklamanızdır.
 
 ### Bu görev neden burada?
 
-Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir.
+Bu görev, öğrencinin ‘Kitapta “Sıra Sizde — iletişim engelleri kavr…’ üzerinden söz seçimi ve karakter/bağlam ilişkisi becerisini somut bir metin bağlamında deneyimlemesini ve iddialarını kanıtla destekleme alışkanlığı kazanmasını sağlar.
 
 ### Ders içi uygulama
 
@@ -8956,17 +8956,18 @@ Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde ned
 
 ### Müdahale
 
-- söz seçimi ve karakter/bağlam ilişkisi — basılı s.70 için müdahale: Öğrenciden fiziksel ses olmayan fakat önyargı ya da belirsiz söz nedeniyle bozulan kısa bir örnek kurmasını isteyin; engel türünü adlandırsın. Müdahaleyi ‘Söz Varlığımız, Metni Anlayalım, Birlikte Çalışalım ve Sıra Sizde — Sıra Sizde…’ ayrıntısını kullandırarak somutlaştırın.
-- söz seçimi ve karakter/bağlam ilişkisi — basılı s.70 için müdahale: Mesajı farklı bir kanala taşıtıp hangi bilgi ve duygunun kaybolduğunu iki sütunda karşılaştırın. Müdahaleyi ‘Söz Varlığımız, Metni Anlayalım, Birlikte Çalışalım ve Sıra Sizde — Sıra Sizde…’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciye ‘söz seçimi ve karakter/bağlam ilişkisi (T1V23_P70_BARRIERS)’ çerçevesinde ‘konu tema ve ana’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- ‘söz seçimi ve karakter/bağlam ilişkisi (T1V23_P70_BARRIERS)’ doğrultusunda ‘öznel ifadeyi yanlış bilgi’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Öğrenciden ‘söz seçimi ve karakter/bağlam ilişkisi (T1V23_P70_BARRIERS)’ bağlamında ‘görsel işitsel kanıt gerektiren’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Konu–tema–ana düşünce için ayrı kutular; iletişim engeli → metin kanıtı → çözüm şablonu kullan.
-- İletişim zincirini ‘gönderici → ileti → kanal → alıcı → geri bildirim’ biçiminde verip engel noktasını işaretletin. Bu görevde bağlantı noktası: söz seçimi ve karakter/bağlam ilişkisi.
+- ‘Kitapta “Sıra Sizde — iletişim enge…’ sorusunu yanıtlamakta zorlanan öğrenciye metindeki ilgili paragrafı işaretleyin; önce anahtar kavramları buldurarak cevabı adım adım kurdurun.
 **Zenginleştirme**
 - Aynı iletişim problemini yüz yüze, telefon ve e-posta kanallarında ayrı çözümlerle yeniden tasarlat.
-- Aynı iletiyi iki farklı kanalda tasarlatıp hangi durumda kanal değişikliğinin etik ve işlevsel sonuç doğuracağını tartıştırın. Bu görevde derinleştirme odağı: söz seçimi ve karakter/bağlam ilişkisi.
+- Öğrenciden ‘Kitapta “Sıra Sizde — iletişim enge…’ çerçevesinde ulaştığı ‘sosyokulturel: ['ön yargılar',…’ sonucunu, okuduğu farklı bir edebî eserle karşılaştıran kısa bir eleştiri yazısı yazmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -9011,31 +9012,31 @@ Etkin dinleme, açıklama isteme, anlaşılır ve muhataba uygun dil kullanma, s
 
 ### Açıklama ve gerekçe
 
-Soru 4 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.70 için cevap, söz seçimi ve karakter/bağlam ilişkisi ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar. Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır.
+Beklenen cevap, söz seçimi ve karakter/bağlam ilişkisi çerçevesinde ‘Belirlediğiniz iletişim engelleri nasıl ortadan ka…’ konusunu metnin sunduğu veriler ve kavramsal dayanaklar üzerinden şekillendirir. Bu cevabın uygunluğu, Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar. Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır. ölçütünün karşılanmasına ve öğrencinin metindeki olay/durum ayrıntılarını nedensellik bağıyla kurmasına dayanır. Öğrencinin izlemesi gereken çıkarım yolu; öncelikle metindeki kanıt niteliği taşıyan ifadeleri belirlemek, ardından bu göstergeleri kavramsal odakla ilişkilendirerek kendi gerekçeli açıklamasını oluşturmaktır. Öğrenci aynı sonucu farklı sözcüklerle ifade edebilir; temel iddia ile metin dayanağı arasındaki mantıksal tutarlılık korunduğu sürece kişisel yorumlar alternatif cevap olarak kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 4 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.70 görevinde iletişimi yalnız konuşma veya bilgi aktarımı olarak daraltmayın. Gönderici, alıcı, ileti, kanal, bağlam ve geri bildirim birlikte işler; gürültü fiziksel olabileceği gibi önyargı, dikkatsizlik, belirsiz dil veya uygun olmayan kanal da olabilir. Çok modlu metinde ses, görüntü, yazı ve müzik aynı iletiyi destekleyebilir ya da farklılaştırabilir. Bu görevde özellikle ‘Belirlediğiniz iletişim engelleri nasıl ortadan kaldırılabilir?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+İletişim; gönderici, alıcı, ileti, kanal ve bağlam unsurlarının etkileşimiyle gerçekleşen dinamik bir anlam paylaşımı sürecidir. Tarihsel süreçte yazılı, sözlü ve kitle iletişim araçlarından dijital ağlara geçiş, iletişim alışkanlıklarını ve etkileşim hızını dönüştürmüştür. Öğretmen bu görevde, iletişim araçlarının toplumsal ilişkileri ve bireyler arası bağları nasıl şekillendirdiğini açıklamalıdır. Bu görev sürecinde öğretmen, söz seçimi ve karakter/bağlam ilişkisi doğrultusunda ‘Belirlediğiniz iletişim engelleri nasıl ortadan ka…’ sorusunu çözümlerken öğrencilerin somut metin delilleriyle argüman geliştirmelerini teşvik etmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> İletişimde anlam, yalnız sözcüklerden değil; kanal, bağlam, ses, görüntü ve karşılıklı tepkiden birlikte oluşur. Bu görevde özellikle söz seçimi ve karakter/bağlam ilişkisi üzerinde durun.
+> Yönergeyi uygularken önce metindeki ‘Belirlediğiniz iletişim engelleri nasıl ortad…’ ifadelerini işaretleyin; ardından bu unsurların söz seçimi ve karakter/bağlam ilişkisi hedefine nasıl hizmet ettiğini ve ‘Etkin dinleme, açıklama isteme, anl…’ ile ilişkisini açıklayın.
 
 ### Bu görev neden burada?
 
-Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir.
+Bu etkinlik, söz seçimi ve karakter/bağlam ilişkisi alanında ‘Belirlediğiniz iletişim engelleri nasıl ortad…’ doğrultusunda öğrencinin kendi düşüncesini kaynak dayanaklarıyla savunmasını ve tutarlı bir ifade becerisi inşa etmesini amaçlar.
 
 ### Ders içi uygulama
 
 - Alt soru metinleri ve etkinlik akışı resmî 2026 MEB ders kitabı PDF'sinden yeniden doğrulanmıştır; artık 's.65-71 genel anlama soruları' biçiminde tek karta sıkıştırma.
 - Medyanın kendisinden örnek isteyen q1, q8, q9 ve eleştirel değerlendirme görevlerinde öğretmen rehberindeki örneği medya kanıtının yerine geçirme; öğrenciden gerçek ses/görüntü/söylem kanıtı iste.
 - Paydos'taki iletişim engellerini yalnız kategori adıyla değil somut replik/davranışla eşleştir.
-- Soru 4 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.70 için öğrencinin önce iletişim ögesini, sonra aksamanın nerede oluştuğunu ve son olarak sonucu yazdığı bir neden-sonuç zinciri kurdurun.
+- Öğrencilerden metinde ‘Belirlediğiniz iletişim engelleri nasıl …’ konusuna kaynaklık eden temel ifadelerin altını çizmelerini isteyin.
 
 ### Takip soruları
 
-- Soru 4 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.70 için düşünme sorusu: Buradaki aksama göndericiden mi, alıcıdan mı, kanaldan mı, bağlamdan mı kaynaklanıyor; hangi kanıt bunu gösteriyor? Özellikle ‘Belirlediğiniz iletişim engelleri nasıl ortadan kaldırılabilir?’ ayrıntısını yoklayın.
-- Soru 4 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.70 için başka bir kanal seçilse ileti açıklar mıydı, yoksa yeni bir sorun mu doğururdu? Özellikle ‘Belirlediğiniz iletişim engelleri nasıl ortadan kaldırılabilir?’ ayrıntısını yoklayın.
+- ‘Belirlediğiniz iletişim engelleri nasıl …’ odağında incelenen karakterin tavır ve konuşmaları, temsil ettiği toplumsal tipi nasıl açığa vurmaktadır?
+- Karakterin ‘Belirlediğiniz iletişim engelleri nasıl …’ karşısındaki tutumu, eserdeki temel dramatik çatışmayı nasıl beslemektedir?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -9052,17 +9053,18 @@ Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde ned
 
 ### Müdahale
 
-- Soru 4 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.70 için müdahale: Öğrenciden fiziksel ses olmayan fakat önyargı ya da belirsiz söz nedeniyle bozulan kısa bir örnek kurmasını isteyin; engel türünü adlandırsın. Müdahaleyi ‘Belirlediğiniz iletişim engelleri nasıl ortadan kaldırılabilir?’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 4 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.70 için müdahale: Mesajı farklı bir kanala taşıtıp hangi bilgi ve duygunun kaybolduğunu iki sütunda karşılaştırın. Müdahaleyi ‘Belirlediğiniz iletişim engelleri nasıl ortadan kaldırılabilir?’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciden ‘Belirlediğiniz iletişim engelleri n…’ bağlamında ‘konu tema ve ana’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- ‘Belirlediğiniz iletişim engelleri n…’ incelemesinde ‘öznel ifadeyi yanlış bilgi’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Öğrenciye ‘Belirlediğiniz iletişim engelleri n…’ çerçevesinde ‘görsel işitsel kanıt gerektiren’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Konu–tema–ana düşünce için ayrı kutular; iletişim engeli → metin kanıtı → çözüm şablonu kullan.
-- İletişim zincirini ‘gönderici → ileti → kanal → alıcı → geri bildirim’ biçiminde verip engel noktasını işaretletin. Bu görevde bağlantı noktası: söz seçimi ve karakter/bağlam ilişkisi.
+- Öğrenciye bir çalışma kâğıdı vererek ‘Belirlediğiniz iletişim engelleri n…’ için metinde geçen olumlu ve olumsuz göstergeleri iki sütun hâlinde gruplatın.
 **Zenginleştirme**
 - Aynı iletişim problemini yüz yüze, telefon ve e-posta kanallarında ayrı çözümlerle yeniden tasarlat.
-- Aynı iletiyi iki farklı kanalda tasarlatıp hangi durumda kanal değişikliğinin etik ve işlevsel sonuç doğuracağını tartıştırın. Bu görevde derinleştirme odağı: söz seçimi ve karakter/bağlam ilişkisi.
+- Metindeki ‘Belirlediğiniz iletişim engelleri n…’ durumunu güncel bir olay veya sanat eseriyle kıyaslayarak ‘Etkin dinleme, açıklama isteme…’ ekseninde disiplinler arası bir değerlendirme yaptırın.
 
 ### Kaynak ve durum
 
@@ -9107,19 +9109,19 @@ Altı kişilik grup, ürettiği çözüm yollarını uygulanabilirlik, sorunun k
 
 ### Açıklama ve gerekçe
 
-söz seçimi ve karakter/bağlam ilişkisi — basılı s.71 için cevap, söz seçimi ve karakter/bağlam ilişkisi ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar. Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır.
+Bu etkinlikte sabit bir formül aranmaz; söz seçimi ve karakter/bağlam ilişkisi amacına yönelik olarak ‘Kitapta “Sıra Sizde — çözüm yollarını karşılaştırm…’ basamaklarının özgün biçimde yapılandırılması esastır. Geçerlilik ölçütü; Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar. Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır. doğrultusunda öğrencinin ortaya koyduğu tutarlı ürün ve gerekçedir.
 
 ### Öğretmenin bilmesi gerekenler
 
-söz seçimi ve karakter/bağlam ilişkisi — basılı s.71 görevinde iletişimi yalnız konuşma veya bilgi aktarımı olarak daraltmayın. Gönderici, alıcı, ileti, kanal, bağlam ve geri bildirim birlikte işler; gürültü fiziksel olabileceği gibi önyargı, dikkatsizlik, belirsiz dil veya uygun olmayan kanal da olabilir. Çok modlu metinde ses, görüntü, yazı ve müzik aynı iletiyi destekleyebilir ya da farklılaştırabilir. Bu görevde özellikle ‘Söz Varlığımız, Metni Anlayalım, Birlikte Çalışalım ve Sıra Sizde — Sıra Sizde…’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Metin anlama ve doğrulama çalışmalarında temel ölçüt, metnin açıkça söylediği yargılar (Evet), metinle doğrudan çelişen yargılar (Hayır) ve metinde değinilmeyen ya da doğrulanıp çürütülmeyen yargılar (Bilgi yok) arasındaki ayrımdır. Öğrencinin kendi kişisel bilgisini metin gerçeğinin önüne geçirmemesi, iddiaları metindeki kanıt cümleleriyle gerekçelendirmesi esastır. Bu görev tahlilinde öğretmen, söz seçimi ve karakter/bağlam ilişkisi odağında ‘Kitapta “Sıra Sizde — çözüm yollarını karşılaştırm…’ sorusuna yönelik yanıtların metin içi tutarlılığını denetlemeli ve yüzeysel yorumların ötesine geçilmesini sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> İletişimde anlam, yalnız sözcüklerden değil; kanal, bağlam, ses, görüntü ve karşılıklı tepkiden birlikte oluşur. Bu görevde özellikle söz seçimi ve karakter/bağlam ilişkisi üzerinde durun.
+> Görevin temel amacı, ‘Kitapta “Sıra Sizde — çözüm yollarını karşıla…’ ayrıntısı üzerinden söz seçimi ve karakter/bağlam ilişkisi kavramını kavramanızdır. Metindeki ilgili cümleleri bularak ‘Altı kişilik grup, ürettiği çözüm y…’ bağlamındaki düşüncenizi kendi cümlelerinizle ortaya koyun.
 
 ### Bu görev neden burada?
 
-Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir.
+Bu soru, ‘Kitapta “Sıra Sizde — çözüm yollarını karşıla…’ ayrıntısını söz seçimi ve karakter/bağlam ilişkisi ile birleştirerek dil ve edebiyat çalışmalarında neden-sonuç ilişkisi kurma ve ‘Altı kişilik grup, ürettiği çözüm y…’ bağlamını kavrama yeterliğini güçlendirir.
 
 ### Ders içi uygulama
 
@@ -9143,17 +9145,18 @@ Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde ned
 
 ### Müdahale
 
-- söz seçimi ve karakter/bağlam ilişkisi — basılı s.71 için müdahale: Öğrenciden fiziksel ses olmayan fakat önyargı ya da belirsiz söz nedeniyle bozulan kısa bir örnek kurmasını isteyin; engel türünü adlandırsın. Müdahaleyi ‘Söz Varlığımız, Metni Anlayalım, Birlikte Çalışalım ve Sıra Sizde — Sıra Sizde…’ ayrıntısını kullandırarak somutlaştırın.
-- söz seçimi ve karakter/bağlam ilişkisi — basılı s.71 için müdahale: Mesajı farklı bir kanala taşıtıp hangi bilgi ve duygunun kaybolduğunu iki sütunda karşılaştırın. Müdahaleyi ‘Söz Varlığımız, Metni Anlayalım, Birlikte Çalışalım ve Sıra Sizde — Sıra Sizde…’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciye ‘söz seçimi ve karakter/bağlam ilişkisi (T1V23_P71_GROUP)’ çerçevesinde ‘konu tema ve ana’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- ‘söz seçimi ve karakter/bağlam ilişkisi (T1V23_P71_GROUP)’ doğrultusunda ‘öznel ifadeyi yanlış bilgi’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Öğrenciden ‘söz seçimi ve karakter/bağlam ilişkisi (T1V23_P71_GROUP)’ bağlamında ‘görsel işitsel kanıt gerektiren’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Konu–tema–ana düşünce için ayrı kutular; iletişim engeli → metin kanıtı → çözüm şablonu kullan.
-- İletişim zincirini ‘gönderici → ileti → kanal → alıcı → geri bildirim’ biçiminde verip engel noktasını işaretletin. Bu görevde bağlantı noktası: söz seçimi ve karakter/bağlam ilişkisi.
+- ‘Kitapta “Sıra Sizde — çözüm yolları…’ konusunu daha sade yönlendirici alt sorulara bölerek öğrencinin ‘Altı kişilik grup, ürettiği çö…’ sonucuna kademeli olarak ulaşmasına rehberlik edin.
 **Zenginleştirme**
 - Aynı iletişim problemini yüz yüze, telefon ve e-posta kanallarında ayrı çözümlerle yeniden tasarlat.
-- Aynı iletiyi iki farklı kanalda tasarlatıp hangi durumda kanal değişikliğinin etik ve işlevsel sonuç doğuracağını tartıştırın. Bu görevde derinleştirme odağı: söz seçimi ve karakter/bağlam ilişkisi.
+- ‘Kitapta “Sıra Sizde — çözüm yolları…’ tahlilini yazarın edebî dönemi, sanat anlayışı ve dönemin toplumsal koşullarıyla ilişkilendiren bir araştırma sorusu geliştirtin.
 
 ### Kaynak ve durum
 
@@ -9200,31 +9203,31 @@ Soru 1 — Yüz yüze iletişim, telefon ve e-postada nasıl bir dil kullanılma
 
 ### Açıklama ve gerekçe
 
-Soru 1 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.71 için cevap, söz seçimi ve karakter/bağlam ilişkisi ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar. Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır.
+Tabloda yer alan ‘Yüz yüze iletişim, telefon ve e-postada nasıl bir …’ yargılarının (yuz_yuze, telefon, eposta) geçerliliği, metin kanıtları üzerinden tahlil edilir. Öğrenci; metinde açıkça dayanağı bulunan ifadeleri 'Evet', metin gerçeğiyle çelişenleri 'Hayır', metnin değinmediği hususları ise 'Bilgi yok' şeklinde sınıflandırmalıdır. Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar. Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 1 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.71 için e-postayı yalnız teknik bir form doldurma işi olarak değil, amacı ve hedef alıcısı belirlenmiş işlevsel bir yazma ürünü olarak açıklayın. Konu satırı, hitap, ana ileti, paragraf düzeni, ekler, gönderim zamanı ve mahremiyet aynı iletişim kararının parçalarıdır. Dijital ortam hız kazandırsa da açıklık, nezaket, güvenlik ve yazım özeni gereksinimini ortadan kaldırmaz. Bu görevde özellikle ‘Yüz yüze iletişim, telefon ve e-postada nasıl bir dil kullanılmalıdır?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev sürecinde öğretmen, söz seçimi ve karakter/bağlam ilişkisi doğrultusunda ‘Yüz yüze iletişim, telefon ve e-postada nasıl bir …’ sorusunu çözümlerken öğrencilerin somut metin delilleriyle argüman geliştirmelerini teşvik etmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> E-postada biçim, alıcıya ve amaca hızlı ve açık ulaşmayı sağlayan bir düzen kurar. Bu görevde özellikle söz seçimi ve karakter/bağlam ilişkisi üzerinde durun.
+> Yönergeyi uygularken önce metindeki ‘Yüz yüze iletişim, telefon ve e-postada nasıl…’ ifadelerini işaretleyin; ardından bu unsurların söz seçimi ve karakter/bağlam ilişkisi hedefine nasıl hizmet ettiğini ve ‘yuz_yuze: Açık, saygılı ve karşılık…’ ile ilişkisini açıklayın.
 
 ### Bu görev neden burada?
 
-Bu görev, söz seçimi ve karakter/bağlam ilişkisi kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar.
+Bu etkinlik, söz seçimi ve karakter/bağlam ilişkisi alanında ‘Yüz yüze iletişim, telefon ve e-postada nasıl…’ doğrultusunda öğrencinin kendi düşüncesini kaynak dayanaklarıyla savunmasını ve tutarlı bir ifade becerisi inşa etmesini amaçlar.
 
 ### Ders içi uygulama
 
 - Alt soru metinleri ve etkinlik akışı resmî 2026 MEB ders kitabı PDF'sinden yeniden doğrulanmıştır; artık 's.65-71 genel anlama soruları' biçiminde tek karta sıkıştırma.
 - Medyanın kendisinden örnek isteyen q1, q8, q9 ve eleştirel değerlendirme görevlerinde öğretmen rehberindeki örneği medya kanıtının yerine geçirme; öğrenciden gerçek ses/görüntü/söylem kanıtı iste.
 - Paydos'taki iletişim engellerini yalnız kategori adıyla değil somut replik/davranışla eşleştir.
-- Soru 1 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.71 için öğrencinin taslağını göndermeden önce konu satırı, hitap, ana istek ve ek gerekçesini ayrı ayrı kontrol ettirin.
+- ‘Yüz yüze iletişim, telefon ve e-postada …’ odağındaki cümleleri tahtaya yansıtarak öğrencilerin dikkatini ilgili metin kesitine çekin.
 
 ### Takip soruları
 
-- Soru 1 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.71 için düşünme sorusu: Bu ek gerçekten alıcının karar vermesine yardım ediyor mu, yoksa yalnızca metni kalabalıklaştırıyor mu? Özellikle ‘Yüz yüze iletişim, telefon ve e-postada nasıl bir dil kullanılmalıdır?’ ayrıntısını yoklayın.
-- Soru 1 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.71 için seçtiğin dil, alıcıyla ilişkin ve iletinin aciliyetiyle nasıl uyumlu? Özellikle ‘Yüz yüze iletişim, telefon ve e-postada nasıl bir dil kullanılmalıdır?’ ayrıntısını yoklayın.
+- Karakterin ‘Yüz yüze iletişim, telefon ve e-postada …’ karşısındaki tutumu, eserdeki temel dramatik çatışmayı nasıl beslemektedir?
+- ‘Yüz yüze iletişim, telefon ve e-postada …’ odağında incelenen karakterin tavır ve konuşmaları, temsil ettiği toplumsal tipi nasıl açığa vurmaktadır?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -9241,17 +9244,18 @@ Bu görev, söz seçimi ve karakter/bağlam ilişkisi kararlarını gerçek bir 
 
 ### Müdahale
 
-- Soru 1 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.71 için müdahale: Öğrenciye aynı metni konu satırı olmayan ve alıcısı belirtilmeyen biçimde okutun; oluşan belirsizlikleri metinde işaretletin. Müdahaleyi ‘Yüz yüze iletişim, telefon ve e-postada nasıl bir dil kullanılmalıdır?’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 1 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.71 için müdahale: Resmî ve kişisel iki alıcı seçtirip değişmesi gereken hitap, söz varlığı ve kapanış bölümlerini yeniden yazdırın. Müdahaleyi ‘Yüz yüze iletişim, telefon ve e-postada nasıl bir dil kullanılmalıdır?’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciden ‘Yüz yüze iletişim, telefon ve e-pos…’ bağlamında ‘konu tema ve ana’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- ‘Yüz yüze iletişim, telefon ve e-pos…’ incelemesinde ‘öznel ifadeyi yanlış bilgi’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Öğrenciye ‘Yüz yüze iletişim, telefon ve e-pos…’ çerçevesinde ‘görsel işitsel kanıt gerektiren’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Konu–tema–ana düşünce için ayrı kutular; iletişim engeli → metin kanıtı → çözüm şablonu kullan.
-- Öğrenciye önce ‘Kime? Neden? Ne istiyorum? Hangi ek gerekli?’ dört sorusunu cevaplatıp sonra e-posta alanlarını doldurtun. Bu görevde bağlantı noktası: söz seçimi ve karakter/bağlam ilişkisi.
+- ‘Yüz yüze iletişim, telefon ve e-pos…’ sürecinde zorlanan öğrenciye metin türünün yapı basamaklarını gösteren bir şablon sunun.
 **Zenginleştirme**
 - Aynı iletişim problemini yüz yüze, telefon ve e-posta kanallarında ayrı çözümlerle yeniden tasarlat.
-- Aynı e-postanın daha resmî ve daha yakın iki sürümünü yazdırarak üslup kararlarını gerekçelendirin. Bu görevde derinleştirme odağı: söz seçimi ve karakter/bağlam ilişkisi.
+- Öğrenciden ‘Yüz yüze iletişim, telefon ve e-pos…’ ürününü dijital bir sunuma veya okul bülteninde yayımlanacak bir yazıya dönüştürmesini isteyin.
 
 ### Kaynak ve durum
 
@@ -9296,23 +9300,23 @@ Soru 2 — Çok modlu metni dilin kullanımı açısından eleştirel biçimde d
 
 ### Açıklama ve gerekçe
 
-Soru 2 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.71 için beklenen yön, söz seçimi ve karakter/bağlam ilişkisi yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar. Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır.
+Bu soruda hedeflenen yanıt, metnin ana dokusunda yer alan ‘Çok modlu metni dilin kullanımı açısından eleştire…’ ayrıntısını söz seçimi ve karakter/bağlam ilişkisi perspektifiyle analiz etmeye dayanır. Doğruluk dayanağı; Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar. Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır. ilkesinin karşılanması ve metindeki göstergelerin somut kanıtlarla açıklanmasıdır. Öğrencinin izleyeceği bilişsel basamaklar; metin parçalarını taramak, kavramsal anahtarları tespit etmek ve bu bulguları sentezleyerek tutarlı bir değerlendirme üretmektir. İfadeler birebir aynı olmak zorunda olmayıp metinle çelişmeyen ve gerekçelendirilmiş farklı yaklaşımlar geçerli kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 2 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.71 görevinde iletişimi yalnız konuşma veya bilgi aktarımı olarak daraltmayın. Gönderici, alıcı, ileti, kanal, bağlam ve geri bildirim birlikte işler; gürültü fiziksel olabileceği gibi önyargı, dikkatsizlik, belirsiz dil veya uygun olmayan kanal da olabilir. Çok modlu metinde ses, görüntü, yazı ve müzik aynı iletiyi destekleyebilir ya da farklılaştırabilir. Bu görevde özellikle ‘Çok modlu metni dilin kullanımı açısından eleştirel biçimde değerlendiriniz’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+İletişim; gönderici, alıcı, ileti, kanal ve bağlam unsurlarının etkileşimiyle gerçekleşen dinamik bir anlam paylaşımı sürecidir. Tarihsel süreçte yazılı, sözlü ve kitle iletişim araçlarından dijital ağlara geçiş, iletişim alışkanlıklarını ve etkileşim hızını dönüştürmüştür. Öğretmen bu görevde, iletişim araçlarının toplumsal ilişkileri ve bireyler arası bağları nasıl şekillendirdiğini açıklamalıdır. Bu görevde öğretmenin kılavuzluğu, ‘Çok modlu metni dilin kullanımı açısından eleştire…’ bağlamında öğrencinin söz seçimi ve karakter/bağlam ilişkisi ve ‘Çok modlu metnin dili açıklık, anlaşılır…’ arasındaki mantıksal nedensellik bağını metin üzerinden kavramasına odaklanmalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> İletişimde anlam, yalnız sözcüklerden değil; kanal, bağlam, ses, görüntü ve karşılıklı tepkiden birlikte oluşur. Bu görevde özellikle söz seçimi ve karakter/bağlam ilişkisi üzerinde durun.
+> Bu soruda, ‘Çok modlu metni dilin kullanımı açısından ele…’ odağını metnin genel anlam akışı içinde değerlendirmeniz gerekmektedir. Tespit ettiğiniz verileri söz seçimi ve karakter/bağlam ilişkisi açısından yorumlayarak ‘Çok modlu metnin dili açıklık, anla…’ yönünde tutarlı bir sonuca varın.
 
 ### Bu görev neden burada?
 
-Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir.
+Öğrencinin ‘Çok modlu metni dilin kullanımı açısından ele…’ incelemesi yoluyla söz seçimi ve karakter/bağlam ilişkisi kavramını içselleştirmesi, edebî metinlerdeki anlam katmanlarını fark etmesine ve ‘Çok modlu metnin dili açıklık, anla…’ yönünde derinlikli bakış kazanmasına zemin hazırlar.
 
 ### Kabul edilebilir cevaplar
 
-- Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir. Kaynak ayrıntısı ve gerekçesi bulunan farklı ifadeler kabul edilir.
+- Bu görev, söz seçimi ve karakter/bağlam ilişkisi kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar. Kaynak ayrıntısı ve gerekçesi bulunan farklı ifadeler kabul edilir.
 - Kişisel görüş, metin/kaynak dayanağı ve gerekçe birlikte verildiğinde alternatif cevap olarak değerlendirilebilir.
 
 ### Ders içi uygulama
@@ -9324,8 +9328,8 @@ Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde ned
 
 ### Takip soruları
 
-- Soru 2 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.71 için düşünme sorusu: Buradaki aksama göndericiden mi, alıcıdan mı, kanaldan mı, bağlamdan mı kaynaklanıyor; hangi kanıt bunu gösteriyor? Özellikle ‘Çok modlu metni dilin kullanımı açısından eleştirel biçimde değerlendiriniz’ ayrıntısını yoklayın.
-- Soru 2 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.71 için başka bir kanal seçilse ileti açıklar mıydı, yoksa yeni bir sorun mu doğururdu? Özellikle ‘Çok modlu metni dilin kullanımı açısından eleştirel biçimde değerlendiriniz’ ayrıntısını yoklayın.
+- Eğer bu roldeki karakter ‘Çok modlu metni dilin kullanımı açısında…’ durumunda ‘Çok modlu metnin dili açıklık, anla…’ yerine zıt bir tepki verseydi, sahnedeki denge nasıl bozulurdu?
+- Karakterin ‘Çok modlu metni dilin kullanımı açısında…’ karşısındaki tutumu, eserdeki temel dramatik çatışmayı nasıl beslemektedir?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -9342,17 +9346,18 @@ Bu görev, söz seçimi ve karakter/bağlam ilişkisi üzerinden iletişimde ned
 
 ### Müdahale
 
-- Soru 2 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.71 için müdahale: Öğrenciden fiziksel ses olmayan fakat önyargı ya da belirsiz söz nedeniyle bozulan kısa bir örnek kurmasını isteyin; engel türünü adlandırsın. Müdahaleyi ‘Çok modlu metni dilin kullanımı açısından eleştirel biçimde değerlendiriniz’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 2 — söz seçimi ve karakter/bağlam ilişkisi — basılı s.71 için müdahale: Mesajı farklı bir kanala taşıtıp hangi bilgi ve duygunun kaybolduğunu iki sütunda karşılaştırın. Müdahaleyi ‘Çok modlu metni dilin kullanımı açısından eleştirel biçimde değerlendiriniz’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Çok modlu metni dilin kullanımı açı…’ incelemesinde ‘konu tema ve ana’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Öğrenciye ‘Çok modlu metni dilin kullanımı açı…’ çerçevesinde ‘öznel ifadeyi yanlış bilgi’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- ‘Çok modlu metni dilin kullanımı açı…’ doğrultusunda ‘görsel işitsel kanıt gerektiren’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Konu–tema–ana düşünce için ayrı kutular; iletişim engeli → metin kanıtı → çözüm şablonu kullan.
-- İletişim zincirini ‘gönderici → ileti → kanal → alıcı → geri bildirim’ biçiminde verip engel noktasını işaretletin. Bu görevde bağlantı noktası: söz seçimi ve karakter/bağlam ilişkisi.
+- ‘Çok modlu metni dilin kullanımı açı…’ metnindeki karmaşık ifadeleri öğrencinin kendi sözcükleriyle yeniden ifade etmesini isteyerek söz seçimi ve karakter/bağlam ilişkisi fikrini netleştirin.
 **Zenginleştirme**
 - Aynı iletişim problemini yüz yüze, telefon ve e-posta kanallarında ayrı çözümlerle yeniden tasarlat.
-- Aynı iletiyi iki farklı kanalda tasarlatıp hangi durumda kanal değişikliğinin etik ve işlevsel sonuç doğuracağını tartıştırın. Bu görevde derinleştirme odağı: söz seçimi ve karakter/bağlam ilişkisi.
+- Öğrencinin ‘Çok modlu metni dilin kullanımı açı…’ bağlamındaki çıkarımını infografik, dijital sunum veya kavram haritasına dönüştürerek sınıf panosunda sergilemesini sağlayın.
 
 ### Kaynak ve durum
 
@@ -9400,26 +9405,26 @@ Adım 1 — Güven, saygı, yapıcılık ve nezaket içeren ifadeleri belirleyin
 
 ### Açıklama ve gerekçe
 
-Soru 1 — yapı unsurlarının anlam ve işlevi — basılı s.72 için cevap, yapı unsurlarının anlam ve işlevi ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Güven, saygı, yapıcılık ve nezaket için medya içeriğinden somut kanıt seçer. En az iki iletişim unsuru arasında gerekçeli ilişki kurar.
+‘Güven, saygı, yapıcılık ve nezaket içeren ifadeler…’ kapsamındaki tablo maddeleri (nezaket, guven, saygi), kaynak metindeki verilerle satır satır karşılaştırılarak değerlendirilir. Öğrencinin izleyeceği yöntem; metinde doğrudan doğrulanan önermelere 'Evet', açıkça reddedilenlere 'Hayır', doğrulanmayan veya değinilmeyenlere ise 'Bilgi yok' karşılığını vermektir. Güven, saygı, yapıcılık ve nezaket için medya içeriğinden somut kanıt seçer. En az iki iletişim unsuru arasında gerekçeli ilişki kurar.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 1 — yapı unsurlarının anlam ve işlevi — basılı s.72 görevinde iletişimi yalnız konuşma veya bilgi aktarımı olarak daraltmayın. Gönderici, alıcı, ileti, kanal, bağlam ve geri bildirim birlikte işler; gürültü fiziksel olabileceği gibi önyargı, dikkatsizlik, belirsiz dil veya uygun olmayan kanal da olabilir. Çok modlu metinde ses, görüntü, yazı ve müzik aynı iletiyi destekleyebilir ya da farklılaştırabilir. Bu görevde özellikle ‘Güven, saygı, yapıcılık ve nezaket içeren ifadeleri belirleyiniz’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+İletişim; gönderici, alıcı, ileti, kanal ve bağlam unsurlarının etkileşimiyle gerçekleşen dinamik bir anlam paylaşımı sürecidir. Tarihsel süreçte yazılı, sözlü ve kitle iletişim araçlarından dijital ağlara geçiş, iletişim alışkanlıklarını ve etkileşim hızını dönüştürmüştür. Öğretmen bu görevde, iletişim araçlarının toplumsal ilişkileri ve bireyler arası bağları nasıl şekillendirdiğini açıklamalıdır. Bu görev adımında öğretmen, ‘Güven, saygı, yapıcılık ve nezaket içeren ifadeler…’ ile ilgili sınıf tartışmasını yapı unsurlarının anlam ve işlevi zemininde yapılandırmalı ve ‘nezaket: Kitapta örnek olarak 'Aklıselim…’ doğrultusundaki tespitleri metin üzerinden teyit ettirmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> İletişimde anlam, yalnız sözcüklerden değil; kanal, bağlam, ses, görüntü ve karşılıklı tepkiden birlikte oluşur. Bu görevde özellikle yapı unsurlarının anlam ve işlevi üzerinde durun.
+> Bu etkinlikte amacınız, ‘Güven, saygı, yapıcılık ve nezaket içeren ifa…’ konusunu yapı unsurlarının anlam ve işlevi perspektifinden tahlil etmektir. İddialarınızı metinden somut göstergelerle destekleyerek ‘nezaket: Kitapta örnek olarak 'Aklı…’ niteliğinde bir çıkarım yapın.
 
 ### Bu görev neden burada?
 
-Bu görev, yapı unsurlarının anlam ve işlevi üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir.
+Görev, ‘Güven, saygı, yapıcılık ve nezaket içeren ifa…’ konusundaki gözlemleri yapı unsurlarının anlam ve işlevi ile sentezleyerek metin çözümleme disiplinini pekiştirir ve öğrencinin ‘nezaket: Kitapta örnek olarak 'Aklı…’ odaklı eleştirel düşünme kapasitesini artırır.
 
 ### Ders içi uygulama
 
 - Kitap yalnız nezaket için hazır örnek verir; güven, saygı ve yapıcılık satırlarını QR medyasını yeniden dinleyerek/izleyerek öğrenciye doldurt. Kaynakta görülmeyen replik uydurma.
 - Kitap yalnız nezaket için hazır bir örnek veriyor. Güven, saygı ve yapıcılık satırlarını QR medyasından gerçek ifadelerle doldurtun; rehber replik uydurmasın.
-- Soru 1 — yapı unsurlarının anlam ve işlevi — basılı s.72 için öğrencinin önce iletişim ögesini, sonra aksamanın nerede oluştuğunu ve son olarak sonucu yazdığı bir neden-sonuç zinciri kurdurun.
-- Aynı mesajı yüz yüze, telefonla ve e-postayla iletme durumlarını karşılaştırarak kanalın dil/beden sesi üzerindeki etkisini tartıştırın.
+- Metindeki anlatım tutumunu fark ettirmek için ‘Güven, saygı, yapıcılık ve nezaket içere…’ bölümünü sesli okutun.
+- Belirlenen alıntıların yapı unsurlarının anlam ve işlevi ve ‘nezaket: Kitapta örnek olarak 'Aklı…’ açısından ne ifade ettiğini sınıf tartışmasıyla derinleştirin.
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -9432,21 +9437,22 @@ Bu görev, yapı unsurlarının anlam ve işlevi üzerinden iletişimde neden-so
 
 - Değer adını kanıt yerine yazmak.
 - Aynı ifadeyi gerekçesiz biçimde bütün kategorilere yerleştirmek.
-- İletişim engelini yalnız fiziksel gürültü sanmak.
+- ‘Güven, saygı, yapıcılık ve nezaket …’ incelemesinde ulaşılan sonucu metin dışı genel bilgilerle karıştırıp yapı unsurlarının anlam ve işlevi sınırlarının dışına çıkmak.
 
 ### Müdahale
 
-- Soru 1 — yapı unsurlarının anlam ve işlevi — basılı s.72 için müdahale: Öğrenciden fiziksel ses olmayan fakat önyargı ya da belirsiz söz nedeniyle bozulan kısa bir örnek kurmasını isteyin; engel türünü adlandırsın. Müdahaleyi ‘Güven, saygı, yapıcılık ve nezaket içeren ifadeleri belirleyiniz’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 1 — yapı unsurlarının anlam ve işlevi — basılı s.72 için müdahale: Mesajı farklı bir kanala taşıtıp hangi bilgi ve duygunun kaybolduğunu iki sütunda karşılaştırın. Müdahaleyi ‘Güven, saygı, yapıcılık ve nezaket içeren ifadeleri belirleyiniz’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Güven, saygı, yapıcılık ve nezaket …’ doğrultusunda ‘değer adını kanıt yerine’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Öğrenciden ‘Güven, saygı, yapıcılık ve nezaket …’ bağlamında ‘aynı ifadeyi gerekçesiz biçimde’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- ‘Güven, saygı, yapıcılık ve nezaket …’ için değerlendirmenin yalnızca verilen metin verileri çerçevesinde yapılması gerektiğini belirleyip kanıt sınırlarını çizdirin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - İfade → hangi unsur? → neden? üçlü tablosu kullan.
-- İletişim zincirini ‘gönderici → ileti → kanal → alıcı → geri bildirim’ biçiminde verip engel noktasını işaretletin. Bu görevde bağlantı noktası: yapı unsurlarının anlam ve işlevi.
+- Öğrenciyi bir akranıyla eşleştirerek ‘Güven, saygı, yapıcılık ve nezaket …’ hakkındaki düşüncelerini önce sözlü olarak paylaşmasını, ardından yazıya dökmesini isteyin.
 **Zenginleştirme**
 - Bir iletişim unsurunun çıkarılması durumunda konuşmanın etkisinin nasıl değişeceğini tartıştır.
-- Aynı iletiyi iki farklı kanalda tasarlatıp hangi durumda kanal değişikliğinin etik ve işlevsel sonuç doğuracağını tartıştırın. Bu görevde derinleştirme odağı: yapı unsurlarının anlam ve işlevi.
+- Öğrenciden ‘Güven, saygı, yapıcılık ve nezaket …’ metnindeki yapı unsurlarının anlam ve işlevi yaklaşımını örnek alarak benzer temada kısa bir kurmaca metin veya deneme taslağı yazmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -9491,30 +9497,31 @@ Adım 2 — Belirlediğiniz iletişim unsurları arasındaki ilişki ve etkileş
 
 ### Açıklama ve gerekçe
 
-Soru 2 — İletişim unsurlarını tespit etme ve ilişkilendirme — basılı s.72 için cevap, İletişim unsurlarını tespit etme ve ilişkilendirme ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Güven, saygı, yapıcılık ve nezaket için medya içeriğinden somut kanıt seçer. En az iki iletişim unsuru arasında gerekçeli ilişki kurar.
+Bu soruda hedeflenen yanıt, metnin ana dokusunda yer alan ‘Belirlediğiniz iletişim unsurları arasındaki ilişk…’ ayrıntısını İletişim unsurlarını tespit etme ve ilişkilendirme perspektifiyle analiz etmeye dayanır. Doğruluk dayanağı; Güven, saygı, yapıcılık ve nezaket için medya içeriğinden somut kanıt seçer. En az iki iletişim unsuru arasında gerekçeli ilişki kurar. ilkesinin karşılanması ve metindeki göstergelerin somut kanıtlarla açıklanmasıdır. Öğrencinin izleyeceği bilişsel basamaklar; metin parçalarını taramak, kavramsal anahtarları tespit etmek ve bu bulguları sentezleyerek tutarlı bir değerlendirme üretmektir. İfadeler birebir aynı olmak zorunda olmayıp metinle çelişmeyen ve gerekçelendirilmiş farklı yaklaşımlar geçerli kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 2 — İletişim unsurlarını tespit etme ve ilişkilendirme — basılı s.72 görevinde iletişimi yalnız konuşma veya bilgi aktarımı olarak daraltmayın. Gönderici, alıcı, ileti, kanal, bağlam ve geri bildirim birlikte işler; gürültü fiziksel olabileceği gibi önyargı, dikkatsizlik, belirsiz dil veya uygun olmayan kanal da olabilir. Çok modlu metinde ses, görüntü, yazı ve müzik aynı iletiyi destekleyebilir ya da farklılaştırabilir. Bu görevde özellikle ‘Belirlediğiniz iletişim unsurları arasındaki ilişki ve etkileşimi gösteriniz’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+İletişim; gönderici, alıcı, ileti, kanal ve bağlam unsurlarının etkileşimiyle gerçekleşen dinamik bir anlam paylaşımı sürecidir. Tarihsel süreçte yazılı, sözlü ve kitle iletişim araçlarından dijital ağlara geçiş, iletişim alışkanlıklarını ve etkileşim hızını dönüştürmüştür. Öğretmen bu görevde, iletişim araçlarının toplumsal ilişkileri ve bireyler arası bağları nasıl şekillendirdiğini açıklamalıdır. Bu görevde öğretmenin kılavuzluğu, ‘Belirlediğiniz iletişim unsurları arasındaki ilişk…’ bağlamında öğrencinin İletişim unsurlarını tespit etme ve ilişkilendirme ve ‘Örneğin saygı ile nezaket birbirini dest…’ arasındaki mantıksal nedensellik bağını metin üzerinden kavramasına odaklanmalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> İletişimde anlam, yalnız sözcüklerden değil; kanal, bağlam, ses, görüntü ve karşılıklı tepkiden birlikte oluşur. Bu görevde özellikle İletişim unsurlarını tespit etme ve ilişkilendirme üzerinde durun.
+> Bu soruda, ‘Belirlediğiniz iletişim unsurları arasındaki …’ odağını metnin genel anlam akışı içinde değerlendirmeniz gerekmektedir. Tespit ettiğiniz verileri İletişim unsurlarını tespit etme ve ilişkilendirme açısından yorumlayarak ‘Örneğin saygı ile nezaket birbirini…’ yönünde tutarlı bir sonuca varın.
 
 ### Bu görev neden burada?
 
-Bu görev, İletişim unsurlarını tespit etme ve ilişkilendirme üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir.
+Öğrencinin ‘Belirlediğiniz iletişim unsurları arasındaki …’ incelemesi yoluyla İletişim unsurlarını tespit etme ve ilişkilendirme kavramını içselleştirmesi, edebî metinlerdeki anlam katmanlarını fark etmesine ve ‘Örneğin saygı ile nezaket birbirini…’ yönünde derinlikli bakış kazanmasına zemin hazırlar.
 
 ### Ders içi uygulama
 
 - Kitap yalnız nezaket için hazır örnek verir; güven, saygı ve yapıcılık satırlarını QR medyasını yeniden dinleyerek/izleyerek öğrenciye doldurt. Kaynakta görülmeyen replik uydurma.
-- Soru 2 — İletişim unsurlarını tespit etme ve ilişkilendirme — basılı s.72 için öğrencinin önce iletişim ögesini, sonra aksamanın nerede oluştuğunu ve son olarak sonucu yazdığı bir neden-sonuç zinciri kurdurun.
-- Aynı mesajı yüz yüze, telefonla ve e-postayla iletme durumlarını karşılaştırarak kanalın dil/beden sesi üzerindeki etkisini tartıştırın.
+- Öğrencileri küçük gruplara ayırarak ‘Belirlediğiniz iletişim unsurları arasın…’ sorusunun işaret ettiği kanıtları metin üzerinden tespit ettirin.
+- Öğrencilerin ileri sürdüğü gerekçeleri tahtaya yazarak İletişim unsurlarını tespit etme ve ilişkilendirme ölçütüne göre sınıflandırın.
+- Doğrulanan metin kanıtlarını Güven, saygı, yapıcılık ve nezaket için medya içeriğinden somut kanıt seçer. ile karşılaştırarak öğrenci çıkarımlarını netleştirin.
 
 ### Takip soruları
 
-- Soru 2 — İletişim unsurlarını tespit etme ve ilişkilendirme — basılı s.72 için düşünme sorusu: Buradaki aksama göndericiden mi, alıcıdan mı, kanaldan mı, bağlamdan mı kaynaklanıyor; hangi kanıt bunu gösteriyor? Özellikle ‘Belirlediğiniz iletişim unsurları arasındaki ilişki ve etkileşimi gösteriniz’ ayrıntısını yoklayın.
-- Soru 2 — İletişim unsurlarını tespit etme ve ilişkilendirme — basılı s.72 için başka bir kanal seçilse ileti açıklar mıydı, yoksa yeni bir sorun mu doğururdu? Özellikle ‘Belirlediğiniz iletişim unsurları arasındaki ilişki ve etkileşimi gösteriniz’ ayrıntısını yoklayın.
+- Metindeki ‘Belirlediğiniz iletişim unsurları arasın…’ tasarımı, geri bildirim almayı ve etkili bir etkileşim kurmayı nasıl kolaylaştırmaktadır?
+- Eğer bu iletideki ‘Belirlediğiniz iletişim unsurları arasın…’ konusu farklı bir iletişim kanalında aktarılsaydı, ifade biçimi nasıl değişirdi?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -9527,21 +9534,22 @@ Bu görev, İletişim unsurlarını tespit etme ve ilişkilendirme üzerinden il
 
 - Değer adını kanıt yerine yazmak.
 - Aynı ifadeyi gerekçesiz biçimde bütün kategorilere yerleştirmek.
-- İletişim engelini yalnız fiziksel gürültü sanmak.
+- ‘Belirlediğiniz iletişim unsurları a…’ konusunu metnin bütünsel ana iletisinden kopararak tek bir ayrıntı üzerinden genellemeye gitmek.
 
 ### Müdahale
 
-- Soru 2 — İletişim unsurlarını tespit etme ve ilişkilendirme — basılı s.72 için müdahale: Öğrenciden fiziksel ses olmayan fakat önyargı ya da belirsiz söz nedeniyle bozulan kısa bir örnek kurmasını isteyin; engel türünü adlandırsın. Müdahaleyi ‘Belirlediğiniz iletişim unsurları arasındaki ilişki ve etkileşimi gösteriniz’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 2 — İletişim unsurlarını tespit etme ve ilişkilendirme — basılı s.72 için müdahale: Mesajı farklı bir kanala taşıtıp hangi bilgi ve duygunun kaybolduğunu iki sütunda karşılaştırın. Müdahaleyi ‘Belirlediğiniz iletişim unsurları arasındaki ilişki ve etkileşimi gösteriniz’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Belirlediğiniz iletişim unsurları a…’ incelemesinde ‘değer adını kanıt yerine’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Öğrenciye ‘Belirlediğiniz iletişim unsurları a…’ çerçevesinde ‘aynı ifadeyi gerekçesiz biçimde’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- ‘Belirlediğiniz iletişim unsurları a…’ ayrıntısının metnin genel iletisine ve İletişim unsurlarını tespit etme ve ilişkilendirme amacına nasıl bağlandığını metin parçalarını yan yana getirerek gösterin ve açıklattırın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - İfade → hangi unsur? → neden? üçlü tablosu kullan.
-- İletişim zincirini ‘gönderici → ileti → kanal → alıcı → geri bildirim’ biçiminde verip engel noktasını işaretletin. Bu görevde bağlantı noktası: İletişim unsurlarını tespit etme ve ilişkilendirme.
+- ‘Belirlediğiniz iletişim unsurları a…’ metnindeki karmaşık ifadeleri öğrencinin kendi sözcükleriyle yeniden ifade etmesini isteyerek İletişim unsurlarını tespit etme ve ilişkilendirme fikrini netleştirin.
 **Zenginleştirme**
 - Bir iletişim unsurunun çıkarılması durumunda konuşmanın etkisinin nasıl değişeceğini tartıştır.
-- Aynı iletiyi iki farklı kanalda tasarlatıp hangi durumda kanal değişikliğinin etik ve işlevsel sonuç doğuracağını tartıştırın. Bu görevde derinleştirme odağı: İletişim unsurlarını tespit etme ve ilişkilendirme.
+- Öğrencinin ‘Belirlediğiniz iletişim unsurları a…’ bağlamındaki çıkarımını infografik, dijital sunum veya kavram haritasına dönüştürerek sınıf panosunda sergilemesini sağlayın.
 
 ### Kaynak ve durum
 
@@ -9586,19 +9594,19 @@ Soru 1 — Metnin dilini değerlendiriniz; beğenilerinizi gerekçelendirin.
 
 ### Açıklama ve gerekçe
 
-Soru 1 — ölçüt kullanarak değerlendirme — basılı s.73 için beklenen yön, ölçüt kullanarak değerlendirme yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Dil değerlendirmesini en az bir açık ölçüte ve medya kanıtına dayandırır. Olumsuz eleştiri ile çözüm önerisi arasında doğrudan ilişki kurar.
+Bu soruda hedeflenen yanıt, metnin ana dokusunda yer alan ‘Metnin dilini değerlendiriniz; beğenilerinizi gere…’ ayrıntısını ölçüt kullanarak değerlendirme perspektifiyle analiz etmeye dayanır. Doğruluk dayanağı; Dil değerlendirmesini en az bir açık ölçüte ve medya kanıtına dayandırır. Olumsuz eleştiri ile çözüm önerisi arasında doğrudan ilişki kurar. ilkesinin karşılanması ve metindeki göstergelerin somut kanıtlarla açıklanmasıdır. Öğrencinin izleyeceği bilişsel basamaklar; metin parçalarını taramak, kavramsal anahtarları tespit etmek ve bu bulguları sentezleyerek tutarlı bir değerlendirme üretmektir. İfadeler birebir aynı olmak zorunda olmayıp metinle çelişmeyen ve gerekçelendirilmiş farklı yaklaşımlar geçerli kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 1 — ölçüt kullanarak değerlendirme — basılı s.73 görevinde iletişimi yalnız konuşma veya bilgi aktarımı olarak daraltmayın. Gönderici, alıcı, ileti, kanal, bağlam ve geri bildirim birlikte işler; gürültü fiziksel olabileceği gibi önyargı, dikkatsizlik, belirsiz dil veya uygun olmayan kanal da olabilir. Çok modlu metinde ses, görüntü, yazı ve müzik aynı iletiyi destekleyebilir ya da farklılaştırabilir. Bu görevde özellikle ‘Metnin dilini değerlendiriniz; beğenilerinizi gerekçelendirin’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Metin anlama ve doğrulama çalışmalarında temel ölçüt, metnin açıkça söylediği yargılar (Evet), metinle doğrudan çelişen yargılar (Hayır) ve metinde değinilmeyen ya da doğrulanıp çürütülmeyen yargılar (Bilgi yok) arasındaki ayrımdır. Öğrencinin kendi kişisel bilgisini metin gerçeğinin önüne geçirmemesi, iddiaları metindeki kanıt cümleleriyle gerekçelendirmesi esastır. Bu görev adımında öğretmen, ‘Metnin dilini değerlendiriniz; beğenilerinizi gere…’ ile ilgili sınıf tartışmasını ölçüt kullanarak değerlendirme zemininde yapılandırmalı ve ‘Öğrenci metnin dilini açıklık, anlaşılır…’ doğrultusundaki tespitleri metin üzerinden teyit ettirmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> İletişimde anlam, yalnız sözcüklerden değil; kanal, bağlam, ses, görüntü ve karşılıklı tepkiden birlikte oluşur. Bu görevde özellikle ölçüt kullanarak değerlendirme üzerinde durun.
+> Bu etkinlikte amacınız, ‘Metnin dilini değerlendiriniz; beğenilerinizi…’ konusunu ölçüt kullanarak değerlendirme perspektifinden tahlil etmektir. İddialarınızı metinden somut göstergelerle destekleyerek ‘Öğrenci metnin dilini açıklık, anla…’ niteliğinde bir çıkarım yapın.
 
 ### Bu görev neden burada?
 
-Bu görev, ölçüt kullanarak değerlendirme üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir.
+Görev, ‘Metnin dilini değerlendiriniz; beğenilerinizi…’ konusundaki gözlemleri ölçüt kullanarak değerlendirme ile sentezleyerek metin çözümleme disiplinini pekiştirir ve öğrencinin ‘Öğrenci metnin dilini açıklık, anla…’ odaklı eleştirel düşünme kapasitesini artırır.
 
 ### Kabul edilebilir cevaplar
 
@@ -9610,12 +9618,12 @@ Bu görev, ölçüt kullanarak değerlendirme üzerinden iletişimde neden-sonu�
 - s.73'ü yalnız çıkış kartı olarak gösterme; önce metnin dili ve eleştiri/çözüm tablosu vardır.
 - Çıkış kartını doğru cevap anahtarı gibi puanlama; öğrenme derinliği ve sonraki öğretim ihtiyacını teşhis etmek için kullan.
 - Beğeniyi ölçüte bağlayın: açıklık, anlaşılır söz varlığı, hitap, nezaket, akıcılık veya konuya uygunluk gibi bir ölçüt seçilip gerçek medya kanıtı gösterilsin.
-- Soru 1 — ölçüt kullanarak değerlendirme — basılı s.73 için öğrencinin önce iletişim ögesini, sonra aksamanın nerede oluştuğunu ve son olarak sonucu yazdığı bir neden-sonuç zinciri kurdurun.
+- ‘Metnin dilini değerlendiriniz; beğeniler…’ sorusunu sınıfa yönelterek ilk izlenimleri ve metinle ilgili sezgisel yaklaşımları tahtada toplayın.
 
 ### Takip soruları
 
-- Soru 1 — ölçüt kullanarak değerlendirme — basılı s.73 için düşünme sorusu: Buradaki aksama göndericiden mi, alıcıdan mı, kanaldan mı, bağlamdan mı kaynaklanıyor; hangi kanıt bunu gösteriyor? Özellikle ‘Metnin dilini değerlendiriniz; beğenilerinizi gerekçelendirin’ ayrıntısını yoklayın.
-- Soru 1 — ölçüt kullanarak değerlendirme — basılı s.73 için başka bir kanal seçilse ileti açıklar mıydı, yoksa yeni bir sorun mu doğururdu? Özellikle ‘Metnin dilini değerlendiriniz; beğenilerinizi gerekçelendirin’ ayrıntısını yoklayın.
+- ‘Metnin dilini değerlendiriniz; beğeniler…’ yapısındaki dil ögesi metinden çıkarılsaydı cümlenin bağlamsal doğruluğu ve anlatım gücü nasıl zayıflardı?
+- Eğer ‘Metnin dilini değerlendiriniz; beğeniler…’ ifadesinde kullanılan dil bilgisel yapı değiştirilseydi, cümlenin ilettiği anlam ve vurgu nasıl başkalaşırdı?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -9632,17 +9640,18 @@ Bu görev, ölçüt kullanarak değerlendirme üzerinden iletişimde neden-sonu�
 
 ### Müdahale
 
-- Soru 1 — ölçüt kullanarak değerlendirme — basılı s.73 için müdahale: Öğrenciden fiziksel ses olmayan fakat önyargı ya da belirsiz söz nedeniyle bozulan kısa bir örnek kurmasını isteyin; engel türünü adlandırsın. Müdahaleyi ‘Metnin dilini değerlendiriniz; beğenilerinizi gerekçelendirin’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 1 — ölçüt kullanarak değerlendirme — basılı s.73 için müdahale: Mesajı farklı bir kanala taşıtıp hangi bilgi ve duygunun kaybolduğunu iki sütunda karşılaştırın. Müdahaleyi ‘Metnin dilini değerlendiriniz; beğenilerinizi gerekçelendirin’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Metnin dilini değerlendiriniz; beğe…’ incelemesinde ‘dil değerlendirmesinde yalnız güzeldi’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Öğrenciye ‘Metnin dilini değerlendiriniz; beğe…’ çerçevesinde ‘eleştiri ile ilgisiz genel’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- ‘Metnin dilini değerlendiriniz; beğe…’ doğrultusunda ‘sorular kısmına zaten cevabı’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - ölçüt → kanıt → yargı ve eleştiri → çözüm şablonları kullan.
-- İletişim zincirini ‘gönderici → ileti → kanal → alıcı → geri bildirim’ biçiminde verip engel noktasını işaretletin. Bu görevde bağlantı noktası: ölçüt kullanarak değerlendirme.
+- Öğrenciyi bir akranıyla eşleştirerek ‘Metnin dilini değerlendiriniz; beğe…’ hakkındaki düşüncelerini önce sözlü olarak paylaşmasını, ardından yazıya dökmesini isteyin.
 **Zenginleştirme**
 - Seçtiği bir iletişim sorununu daha etkili bir konuşma biçimiyle yeniden tasarlat.
-- Aynı iletiyi iki farklı kanalda tasarlatıp hangi durumda kanal değişikliğinin etik ve işlevsel sonuç doğuracağını tartıştırın. Bu görevde derinleştirme odağı: ölçüt kullanarak değerlendirme.
+- Öğrenciden ‘Metnin dilini değerlendiriniz; beğe…’ metnindeki ölçüt kullanarak değerlendirme yaklaşımını örnek alarak benzer temada kısa bir kurmaca metin veya deneme taslağı yazmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -9687,26 +9696,26 @@ Olumsuz eleştirilen her hususun karşısına uygulanabilir bir çözüm yazılm
 
 ### Açıklama ve gerekçe
 
-Soru 2 — ölçüt kullanarak değerlendirme — basılı s.73 için cevap, ölçüt kullanarak değerlendirme ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Dil değerlendirmesini en az bir açık ölçüte ve medya kanıtına dayandırır. Olumsuz eleştiri ile çözüm önerisi arasında doğrudan ilişki kurar.
+Beklenen cevabın temeli, ölçüt kullanarak değerlendirme ekseninde ‘Olumsuz eleştirilerinizi ve bunlara yönelik çözüm …’ bağlamını aydınlatan metin kanıtlarının doğru tahlil edilmesidir. Yanıtın kabul edilebilirliği; Dil değerlendirmesini en az bir açık ölçüte ve medya kanıtına dayandırır. Olumsuz eleştiri ile çözüm önerisi arasında doğrudan ilişki kurar. ölçütüne bağlı kalınmasına ve metindeki verilerin tarafsız biçimde yorumlanmasına bağlıdır. Öğrenci; önce ilgili bilgiyi kaynaktan süzmeli, ardından bu bilgiyi sorunun gerektirdiği kavramsal çerçeveye oturtmalıdır. Metin sınırlarını aşmayan ve dayanağı gösterilen özgün öğrenci yorumları da geçerli sayılır.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 2 — ölçüt kullanarak değerlendirme — basılı s.73 görevinde iletişimi yalnız konuşma veya bilgi aktarımı olarak daraltmayın. Gönderici, alıcı, ileti, kanal, bağlam ve geri bildirim birlikte işler; gürültü fiziksel olabileceği gibi önyargı, dikkatsizlik, belirsiz dil veya uygun olmayan kanal da olabilir. Çok modlu metinde ses, görüntü, yazı ve müzik aynı iletiyi destekleyebilir ya da farklılaştırabilir. Bu görevde özellikle ‘Olumsuz eleştirilerinizi ve bunlara yönelik çözüm önerilerinizi eşleştiriniz’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Metin anlama ve doğrulama çalışmalarında temel ölçüt, metnin açıkça söylediği yargılar (Evet), metinle doğrudan çelişen yargılar (Hayır) ve metinde değinilmeyen ya da doğrulanıp çürütülmeyen yargılar (Bilgi yok) arasındaki ayrımdır. Öğrencinin kendi kişisel bilgisini metin gerçeğinin önüne geçirmemesi, iddiaları metindeki kanıt cümleleriyle gerekçelendirmesi esastır. Bu görevde öğretmenin kılavuzluğu, ‘Olumsuz eleştirilerinizi ve bunlara yönelik çözüm …’ bağlamında öğrencinin ölçüt kullanarak değerlendirme ve ‘Olumsuz eleştirilen her hususun karşısın…’ arasındaki mantıksal nedensellik bağını metin üzerinden kavramasına odaklanmalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> İletişimde anlam, yalnız sözcüklerden değil; kanal, bağlam, ses, görüntü ve karşılıklı tepkiden birlikte oluşur. Bu görevde özellikle ölçüt kullanarak değerlendirme üzerinde durun.
+> Bu soruda, ‘Olumsuz eleştirilerinizi ve bunlara yönelik ç…’ odağını metnin genel anlam akışı içinde değerlendirmeniz gerekmektedir. Tespit ettiğiniz verileri ölçüt kullanarak değerlendirme açısından yorumlayarak ‘Olumsuz eleştirilen her hususun kar…’ yönünde tutarlı bir sonuca varın.
 
 ### Bu görev neden burada?
 
-Bu görev, ölçüt kullanarak değerlendirme üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir.
+Öğrencinin ‘Olumsuz eleştirilerinizi ve bunlara yönelik ç…’ incelemesi yoluyla ölçüt kullanarak değerlendirme kavramını içselleştirmesi, edebî metinlerdeki anlam katmanlarını fark etmesine ve ‘Olumsuz eleştirilen her hususun kar…’ yönünde derinlikli bakış kazanmasına zemin hazırlar.
 
 ### Ders içi uygulama
 
 - s.73'ü yalnız çıkış kartı olarak gösterme; önce metnin dili ve eleştiri/çözüm tablosu vardır.
 - Çıkış kartını doğru cevap anahtarı gibi puanlama; öğrenme derinliği ve sonraki öğretim ihtiyacını teşhis etmek için kullan.
-- Soru 2 — ölçüt kullanarak değerlendirme — basılı s.73 için öğrencinin önce iletişim ögesini, sonra aksamanın nerede oluştuğunu ve son olarak sonucu yazdığı bir neden-sonuç zinciri kurdurun.
-- Aynı mesajı yüz yüze, telefonla ve e-postayla iletme durumlarını karşılaştırarak kanalın dil/beden sesi üzerindeki etkisini tartıştırın.
+- Metindeki anlatım tutumunu fark ettirmek için ‘Olumsuz eleştirilerinizi ve bunlara yöne…’ bölümünü sesli okutun.
+- Belirlenen alıntıların ölçüt kullanarak değerlendirme ve ‘Olumsuz eleştirilen her hususun kar…’ açısından ne ifade ettiğini sınıf tartışmasıyla derinleştirin.
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -9723,17 +9732,18 @@ Bu görev, ölçüt kullanarak değerlendirme üzerinden iletişimde neden-sonu�
 
 ### Müdahale
 
-- Soru 2 — ölçüt kullanarak değerlendirme — basılı s.73 için müdahale: Öğrenciden fiziksel ses olmayan fakat önyargı ya da belirsiz söz nedeniyle bozulan kısa bir örnek kurmasını isteyin; engel türünü adlandırsın. Müdahaleyi ‘Olumsuz eleştirilerinizi ve bunlara yönelik çözüm önerilerinizi eşleştiriniz’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 2 — ölçüt kullanarak değerlendirme — basılı s.73 için müdahale: Mesajı farklı bir kanala taşıtıp hangi bilgi ve duygunun kaybolduğunu iki sütunda karşılaştırın. Müdahaleyi ‘Olumsuz eleştirilerinizi ve bunlara yönelik çözüm önerilerinizi eşleştiriniz’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Olumsuz eleştirilerinizi ve bunlara…’ doğrultusunda ‘dil değerlendirmesinde yalnız güzeldi’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Öğrenciden ‘Olumsuz eleştirilerinizi ve bunlara…’ bağlamında ‘eleştiri ile ilgisiz genel’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- ‘Olumsuz eleştirilerinizi ve bunlara…’ incelemesinde ‘sorular kısmına zaten cevabı’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - ölçüt → kanıt → yargı ve eleştiri → çözüm şablonları kullan.
-- İletişim zincirini ‘gönderici → ileti → kanal → alıcı → geri bildirim’ biçiminde verip engel noktasını işaretletin. Bu görevde bağlantı noktası: ölçüt kullanarak değerlendirme.
+- ‘Olumsuz eleştirilerinizi ve bunlara…’ metnindeki karmaşık ifadeleri öğrencinin kendi sözcükleriyle yeniden ifade etmesini isteyerek ölçüt kullanarak değerlendirme fikrini netleştirin.
 **Zenginleştirme**
 - Seçtiği bir iletişim sorununu daha etkili bir konuşma biçimiyle yeniden tasarlat.
-- Aynı iletiyi iki farklı kanalda tasarlatıp hangi durumda kanal değişikliğinin etik ve işlevsel sonuç doğuracağını tartıştırın. Bu görevde derinleştirme odağı: ölçüt kullanarak değerlendirme.
+- Öğrencinin ‘Olumsuz eleştirilerinizi ve bunlara…’ bağlamındaki çıkarımını infografik, dijital sunum veya kavram haritasına dönüştürerek sınıf panosunda sergilemesini sağlayın.
 
 ### Kaynak ve durum
 
@@ -9780,19 +9790,19 @@ Kitapta “Çıkış Kartı” başlığı altında verilen çalışma/yönerge.
 
 ### Açıklama ve gerekçe
 
-ölçüt kullanarak değerlendirme — basılı s.73 için beklenen yön, ölçüt kullanarak değerlendirme yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Dil değerlendirmesini en az bir açık ölçüte ve medya kanıtına dayandırır. Olumsuz eleştiri ile çözüm önerisi arasında doğrudan ilişki kurar.
+‘Kitapta “Çıkış Kartı” başlığı altında verilen çalı…’ kapsamındaki tablo maddeleri (uc_yaz, iki_sor, bir_paylas), kaynak metindeki verilerle satır satır karşılaştırılarak değerlendirilir. Öğrencinin izleyeceği yöntem; metinde doğrudan doğrulanan önermelere 'Evet', açıkça reddedilenlere 'Hayır', doğrulanmayan veya değinilmeyenlere ise 'Bilgi yok' karşılığını vermektir. Dil değerlendirmesini en az bir açık ölçüte ve medya kanıtına dayandırır. Olumsuz eleştiri ile çözüm önerisi arasında doğrudan ilişki kurar.
 
 ### Öğretmenin bilmesi gerekenler
 
-ölçüt kullanarak değerlendirme — basılı s.73 görevinde iletişimi yalnız konuşma veya bilgi aktarımı olarak daraltmayın. Gönderici, alıcı, ileti, kanal, bağlam ve geri bildirim birlikte işler; gürültü fiziksel olabileceği gibi önyargı, dikkatsizlik, belirsiz dil veya uygun olmayan kanal da olabilir. Çok modlu metinde ses, görüntü, yazı ve müzik aynı iletiyi destekleyebilir ya da farklılaştırabilir. Bu görevde özellikle ‘Süreci değerlendirme ve 3-2-1 Çıkış Kartı — Çıkış Kartı’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Metin anlama ve doğrulama çalışmalarında temel ölçüt, metnin açıkça söylediği yargılar (Evet), metinle doğrudan çelişen yargılar (Hayır) ve metinde değinilmeyen ya da doğrulanıp çürütülmeyen yargılar (Bilgi yok) arasındaki ayrımdır. Öğrencinin kendi kişisel bilgisini metin gerçeğinin önüne geçirmemesi, iddiaları metindeki kanıt cümleleriyle gerekçelendirmesi esastır. Bu görev adımında öğretmen, ‘Kitapta “Çıkış Kartı” başlığı altında verilen çalı…’ ile ilgili sınıf tartışmasını ölçüt kullanarak değerlendirme zemininde yapılandırmalı ve ‘uc_yaz: Dinleme/izleme çalışmalarında il…’ doğrultusundaki tespitleri metin üzerinden teyit ettirmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> İletişimde anlam, yalnız sözcüklerden değil; kanal, bağlam, ses, görüntü ve karşılıklı tepkiden birlikte oluşur. Bu görevde özellikle ölçüt kullanarak değerlendirme üzerinde durun.
+> Bu etkinlikte amacınız, ‘Kitapta “Çıkış Kartı” başlığı altında verilen…’ konusunu ölçüt kullanarak değerlendirme perspektifinden tahlil etmektir. İddialarınızı metinden somut göstergelerle destekleyerek ‘uc_yaz: Dinleme/izleme çalışmaların…’ niteliğinde bir çıkarım yapın.
 
 ### Bu görev neden burada?
 
-Bu görev, ölçüt kullanarak değerlendirme üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir.
+Görev, ‘Kitapta “Çıkış Kartı” başlığı altında verilen…’ konusundaki gözlemleri ölçüt kullanarak değerlendirme ile sentezleyerek metin çözümleme disiplinini pekiştirir ve öğrencinin ‘uc_yaz: Dinleme/izleme çalışmaların…’ odaklı eleştirel düşünme kapasitesini artırır.
 
 ### Kabul edilebilir cevaplar
 
@@ -9804,12 +9814,12 @@ Bu görev, ölçüt kullanarak değerlendirme üzerinden iletişimde neden-sonu�
 - s.73'ü yalnız çıkış kartı olarak gösterme; önce metnin dili ve eleştiri/çözüm tablosu vardır.
 - Çıkış kartını doğru cevap anahtarı gibi puanlama; öğrenme derinliği ve sonraki öğretim ihtiyacını teşhis etmek için kullan.
 - Çıkış kartını cevap anahtarı gibi puanlamayın. Üç bilgi, iki gerçek merak sorusu ve bir gerekçeli görüş; sonraki öğretim ihtiyacını görmek için kullanılsın.
-- ölçüt kullanarak değerlendirme — basılı s.73 için öğrencinin önce iletişim ögesini, sonra aksamanın nerede oluştuğunu ve son olarak sonucu yazdığı bir neden-sonuç zinciri kurdurun.
+- Öğrencileri küçük gruplara ayırarak ‘ölçüt kullanarak değerlendirme (T1V23_P73_EXIT)’ sorusunun işaret ettiği kanıtları metin üzerinden tespit ettirin.
 
 ### Takip soruları
 
-- ölçüt kullanarak değerlendirme — basılı s.73 için düşünme sorusu: Buradaki aksama göndericiden mi, alıcıdan mı, kanaldan mı, bağlamdan mı kaynaklanıyor; hangi kanıt bunu gösteriyor? Özellikle ‘Süreci değerlendirme ve 3-2-1 Çıkış Kartı — Çıkış Kartı’ ayrıntısını yoklayın.
-- ölçüt kullanarak değerlendirme — basılı s.73 için başka bir kanal seçilse ileti açıklar mıydı, yoksa yeni bir sorun mu doğururdu? Özellikle ‘Süreci değerlendirme ve 3-2-1 Çıkış Kartı — Çıkış Kartı’ ayrıntısını yoklayın.
+- ‘ölçüt kullanarak değerlendirme (T1V23_P73_EXIT)’ odağındaki yargıyı çürütebilecek karşıt bir görüş hangi ölçütlere dayandırılabilir?
+- Eğer ‘ölçüt kullanarak değerlendirme (T1V23_P73_EXIT)’ değerlendirmesinde nesnel metin kanıtları yerine öznel izlenimler ölçüt alınsaydı, ölçüt kullanarak değerlendirme sonucu nasıl değişirdi?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -9826,17 +9836,18 @@ Bu görev, ölçüt kullanarak değerlendirme üzerinden iletişimde neden-sonu�
 
 ### Müdahale
 
-- ölçüt kullanarak değerlendirme — basılı s.73 için müdahale: Öğrenciden fiziksel ses olmayan fakat önyargı ya da belirsiz söz nedeniyle bozulan kısa bir örnek kurmasını isteyin; engel türünü adlandırsın. Müdahaleyi ‘Süreci değerlendirme ve 3-2-1 Çıkış Kartı — Çıkış Kartı’ ayrıntısını kullandırarak somutlaştırın.
-- ölçüt kullanarak değerlendirme — basılı s.73 için müdahale: Mesajı farklı bir kanala taşıtıp hangi bilgi ve duygunun kaybolduğunu iki sütunda karşılaştırın. Müdahaleyi ‘Süreci değerlendirme ve 3-2-1 Çıkış Kartı — Çıkış Kartı’ ayrıntısını kullandırarak somutlaştırın.
+- ‘ölçüt kullanarak değerlendirme (T1V23_P73_EXIT)’ incelemesinde ‘dil değerlendirmesinde yalnız güzeldi’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Öğrenciye ‘ölçüt kullanarak değerlendirme (T1V23_P73_EXIT)’ çerçevesinde ‘eleştiri ile ilgisiz genel’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- ‘ölçüt kullanarak değerlendirme (T1V23_P73_EXIT)’ doğrultusunda ‘sorular kısmına zaten cevabı’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - ölçüt → kanıt → yargı ve eleştiri → çözüm şablonları kullan.
-- İletişim zincirini ‘gönderici → ileti → kanal → alıcı → geri bildirim’ biçiminde verip engel noktasını işaretletin. Bu görevde bağlantı noktası: ölçüt kullanarak değerlendirme.
+- ‘Kitapta “Çıkış Kartı” başlığı altın…’ yansımasını yazmadan önce öğrencinin ölçüt kullanarak değerlendirme konusundaki düşüncesini sözlü olarak ifade etmesine olanak tanıyın.
 **Zenginleştirme**
 - Seçtiği bir iletişim sorununu daha etkili bir konuşma biçimiyle yeniden tasarlat.
-- Aynı iletiyi iki farklı kanalda tasarlatıp hangi durumda kanal değişikliğinin etik ve işlevsel sonuç doğuracağını tartıştırın. Bu görevde derinleştirme odağı: ölçüt kullanarak değerlendirme.
+- ‘Kitapta “Çıkış Kartı” başlığı altın…’ konusundaki kişisel öğrenme yolculuğunu özetleyen kısa bir metafor veya kavram haritası oluşturmasını önerin.
 
 ### Kaynak ve durum
 
@@ -9885,19 +9896,19 @@ Soru 1 — İletişimde zamanlamanın önemini günlük hayattan örneklerle aç
 
 ### Açıklama ve gerekçe
 
-Soru 1 — İletişim bağlamı soruları ve e-posta yazma planı — basılı s.74 için beklenen yön, İletişim bağlamı soruları ve e-posta yazma planı yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. s.74 sorularında iletişim aracı/biçimi ile zamanlama, kalıcılık, yaygınlık veya dil değişimi arasında gerekçeli ilişki kurar. Yazma amacını ve hedef kitleyi/alıcıyı belirler.
+Beklenen cevabın temeli, İletişim bağlamı soruları ve e-posta yazma planı ekseninde ‘İletişimde zamanlamanın önemini günlük hayattan ör…’ bağlamını aydınlatan metin kanıtlarının doğru tahlil edilmesidir. Yanıtın kabul edilebilirliği; s.74 sorularında iletişim aracı/biçimi ile zamanlama, kalıcılık, yaygınlık veya dil değişimi arasında gerekçeli ilişki kurar. Yazma amacını ve hedef kitleyi/alıcıyı belirler. ölçütüne bağlı kalınmasına ve metindeki verilerin tarafsız biçimde yorumlanmasına bağlıdır. Öğrenci; önce ilgili bilgiyi kaynaktan süzmeli, ardından bu bilgiyi sorunun gerektirdiği kavramsal çerçeveye oturtmalıdır. Metin sınırlarını aşmayan ve dayanağı gösterilen özgün öğrenci yorumları da geçerli sayılır.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 1 — İletişim bağlamı soruları ve e-posta yazma planı — basılı s.74 için e-postayı yalnız teknik bir form doldurma işi olarak değil, amacı ve hedef alıcısı belirlenmiş işlevsel bir yazma ürünü olarak açıklayın. Konu satırı, hitap, ana ileti, paragraf düzeni, ekler, gönderim zamanı ve mahremiyet aynı iletişim kararının parçalarıdır. Dijital ortam hız kazandırsa da açıklık, nezaket, güvenlik ve yazım özeni gereksinimini ortadan kaldırmaz. Bu görevde özellikle ‘İletişimde zamanlamanın önemini günlük hayattan örneklerle açıklayınız’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev adımında öğretmen, ‘İletişimde zamanlamanın önemini günlük hayattan ör…’ ile ilgili sınıf tartışmasını İletişim bağlamı soruları ve e-posta yazma planı zemininde yapılandırmalı ve ‘İletişimde zamanlama iletinin güncelliği…’ doğrultusundaki tespitleri metin üzerinden teyit ettirmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> E-postada biçim, alıcıya ve amaca hızlı ve açık ulaşmayı sağlayan bir düzen kurar. Bu görevde özellikle İletişim bağlamı soruları ve e-posta yazma planı üzerinde durun.
+> Bu etkinlikte amacınız, ‘İletişimde zamanlamanın önemini günlük hayatt…’ konusunu İletişim bağlamı soruları ve e-posta yazma planı perspektifinden tahlil etmektir. İddialarınızı metinden somut göstergelerle destekleyerek ‘İletişimde zamanlama iletinin günce…’ niteliğinde bir çıkarım yapın.
 
 ### Bu görev neden burada?
 
-Bu görev, İletişim bağlamı soruları ve e-posta yazma planı kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar.
+Görev, ‘İletişimde zamanlamanın önemini günlük hayatt…’ konusundaki gözlemleri İletişim bağlamı soruları ve e-posta yazma planı ile sentezleyerek metin çözümleme disiplinini pekiştirir ve öğrencinin ‘İletişimde zamanlama iletinin günce…’ odaklı eleştirel düşünme kapasitesini artırır.
 
 ### Kabul edilebilir cevaplar
 
@@ -9909,12 +9920,12 @@ Bu görev, İletişim bağlamı soruları ve e-posta yazma planı kararlarını 
 - s.74'teki açık uçlu sorularda tek cümlelik anahtar cevap arama; gerekçe ve günlük hayat bağlantısını değerlendir.
 - s.75'te öğrenciden doğrudan nihai metne geçmesini isteme; önce amaç–alıcı–strateji kararını görünür kıl.
 - Ders planındaki saat içi sıra pedagojik öneridir; kitapta olmayan resmî alt-saat kuralı gibi sunma.
-- Soru 1 — İletişim bağlamı soruları ve e-posta yazma planı — basılı s.74 için öğrencinin taslağını göndermeden önce konu satırı, hitap, ana istek ve ek gerekçesini ayrı ayrı kontrol ettirin.
+- Öğrencilere ‘İletişimde zamanlamanın önemini günlük h…’ bağlamındaki anahtar kavramları listeleterek metin taraması yapmalarını sağlayın.
 
 ### Takip soruları
 
-- Soru 1 — İletişim bağlamı soruları ve e-posta yazma planı — basılı s.74 için düşünme sorusu: Bu ek gerçekten alıcının karar vermesine yardım ediyor mu, yoksa yalnızca metni kalabalıklaştırıyor mu? Özellikle ‘İletişimde zamanlamanın önemini günlük hayattan örneklerle açıklayınız’ ayrıntısını yoklayın.
-- Soru 1 — İletişim bağlamı soruları ve e-posta yazma planı — basılı s.74 için seçtiğin dil, alıcıyla ilişkin ve iletinin aciliyetiyle nasıl uyumlu? Özellikle ‘İletişimde zamanlamanın önemini günlük hayattan örneklerle açıklayınız’ ayrıntısını yoklayın.
+- Metinde ‘İletişimde zamanlamanın önemini günlük h…’ kullanımına benzer başka bir örnek bulunabilir mi; bu iki örnek yazarın üslubunu nasıl yansıtmaktadır?
+- ‘İletişimde zamanlamanın önemini günlük h…’ yapısındaki dil ögesi metinden çıkarılsaydı cümlenin bağlamsal doğruluğu ve anlatım gücü nasıl zayıflardı?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -9927,21 +9938,22 @@ Bu görev, İletişim bağlamı soruları ve e-posta yazma planı kararlarını 
 
 - Dijital iletişimi otomatik olarak her bakımdan daha kalıcı veya daha etkili saymak.
 - E-postayı yalnız kısa mesaj gibi görüp amaç ve hedef kitleyi planlamamak.
-- E-postada konu satırı ve hitabın gereksiz olduğunu, yalnız ana metnin yeterli olacağını düşünmek.
+- ‘İletişimde zamanlamanın önemini gün…’ yazımında resmî ve samimi mektubun üslup gerekliliklerini birbiriyle karıştırmak.
 
 ### Müdahale
 
-- Soru 1 — İletişim bağlamı soruları ve e-posta yazma planı — basılı s.74 için müdahale: Öğrenciye aynı metni konu satırı olmayan ve alıcısı belirtilmeyen biçimde okutun; oluşan belirsizlikleri metinde işaretletin. Müdahaleyi ‘İletişimde zamanlamanın önemini günlük hayattan örneklerle açıklayınız’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 1 — İletişim bağlamı soruları ve e-posta yazma planı — basılı s.74 için müdahale: Resmî ve kişisel iki alıcı seçtirip değişmesi gereken hitap, söz varlığı ve kapanış bölümlerini yeniden yazdırın. Müdahaleyi ‘İletişimde zamanlamanın önemini günlük hayattan örneklerle açıklayınız’ ayrıntısını kullandırarak somutlaştırın.
+- ‘İletişimde zamanlamanın önemini gün…’ doğrultusunda ‘dijital iletişimi otomatik olarak’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Öğrenciden ‘İletişimde zamanlamanın önemini gün…’ bağlamında ‘e postayı yalnız kısa’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- Muhataba göre dil ve anlatım tercihlerinin nasıl değiştiğini ‘İletişimde zamanlamanın önemini gün…’ için tahtada oluşturulacak iki sütunlu tabloda karşılaştırarak belirleyin ve bağlamını tartışın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Zamanlama–kalıcılık–yaygınlık ve amaç–alıcı–strateji başlıklarını hazır ver.
-- Öğrenciye önce ‘Kime? Neden? Ne istiyorum? Hangi ek gerekli?’ dört sorusunu cevaplatıp sonra e-posta alanlarını doldurtun. Bu görevde bağlantı noktası: İletişim bağlamı soruları ve e-posta yazma planı.
+- ‘İletişimde zamanlamanın önemini gün…’ hedefine yönelik bir kontrol listesi vererek öğrencinin ‘İletişimde zamanlama iletinin …’ basamağını adım adım denetlemesini sağlayın.
 **Zenginleştirme**
 - Aynı iletiyi mektup ve e-posta olarak planlayıp iletişim etkisindeki değişimi karşılaştırmasını iste.
-- Aynı e-postanın daha resmî ve daha yakın iki sürümünü yazdırarak üslup kararlarını gerekçelendirin. Bu görevde derinleştirme odağı: İletişim bağlamı soruları ve e-posta yazma planı.
+- Öğrencinin ‘İletişimde zamanlamanın önemini gün…’ bağlamındaki ürününü sınıf panosunda sergileyip İletişim bağlamı soruları ve e-posta yazma planı sürecinin sunumunu yapmasını sağlayın.
 
 ### Tahta notu
 
@@ -9993,31 +10005,31 @@ Evet. Mesajı okuyup zihinde cevaplamak fakat göndermeyi unutmak, taslakta bır
 
 ### Açıklama ve gerekçe
 
-Soru 2 — İletişim bağlamı soruları ve e-posta yazma planı — basılı s.74 için cevap, İletişim bağlamı soruları ve e-posta yazma planı ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. s.74 sorularında iletişim aracı/biçimi ile zamanlama, kalıcılık, yaygınlık veya dil değişimi arasında gerekçeli ilişki kurar. Yazma amacını ve hedef kitleyi/alıcıyı belirler.
+Bu soruda hedeflenen yanıt, metnin ana dokusunda yer alan ‘Bir iletiyi zihinde cevaplayıp göndermeyi unutmaya…’ ayrıntısını İletişim bağlamı soruları ve e-posta yazma planı perspektifiyle analiz etmeye dayanır. Doğruluk dayanağı; s.74 sorularında iletişim aracı/biçimi ile zamanlama, kalıcılık, yaygınlık veya dil değişimi arasında gerekçeli ilişki kurar. Yazma amacını ve hedef kitleyi/alıcıyı belirler. ilkesinin karşılanması ve metindeki göstergelerin somut kanıtlarla açıklanmasıdır. Öğrencinin izleyeceği bilişsel basamaklar; metin parçalarını taramak, kavramsal anahtarları tespit etmek ve bu bulguları sentezleyerek tutarlı bir değerlendirme üretmektir. İfadeler birebir aynı olmak zorunda olmayıp metinle çelişmeyen ve gerekçelendirilmiş farklı yaklaşımlar geçerli kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 2 — İletişim bağlamı soruları ve e-posta yazma planı — basılı s.74 için e-postayı yalnız teknik bir form doldurma işi olarak değil, amacı ve hedef alıcısı belirlenmiş işlevsel bir yazma ürünü olarak açıklayın. Konu satırı, hitap, ana ileti, paragraf düzeni, ekler, gönderim zamanı ve mahremiyet aynı iletişim kararının parçalarıdır. Dijital ortam hız kazandırsa da açıklık, nezaket, güvenlik ve yazım özeni gereksinimini ortadan kaldırmaz. Bu görevde özellikle ‘Bir iletiyi zihinde cevaplayıp göndermeyi unutmaya benzer durumlar günümüzde yaşanabilir mi?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görevde öğretmenin kılavuzluğu, ‘Bir iletiyi zihinde cevaplayıp göndermeyi unutmaya…’ bağlamında öğrencinin İletişim bağlamı soruları ve e-posta yazma planı ve ‘Evet. Mesajı okuyup zihinde cevaplamak f…’ arasındaki mantıksal nedensellik bağını metin üzerinden kavramasına odaklanmalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> E-postada biçim, alıcıya ve amaca hızlı ve açık ulaşmayı sağlayan bir düzen kurar. Bu görevde özellikle İletişim bağlamı soruları ve e-posta yazma planı üzerinde durun.
+> Bu soruda, ‘Bir iletiyi zihinde cevaplayıp göndermeyi unu…’ odağını metnin genel anlam akışı içinde değerlendirmeniz gerekmektedir. Tespit ettiğiniz verileri İletişim bağlamı soruları ve e-posta yazma planı açısından yorumlayarak ‘Evet. Mesajı okuyup zihinde cevapla…’ yönünde tutarlı bir sonuca varın.
 
 ### Bu görev neden burada?
 
-Bu görev, İletişim bağlamı soruları ve e-posta yazma planı kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar.
+Öğrencinin ‘Bir iletiyi zihinde cevaplayıp göndermeyi unu…’ incelemesi yoluyla İletişim bağlamı soruları ve e-posta yazma planı kavramını içselleştirmesi, edebî metinlerdeki anlam katmanlarını fark etmesine ve ‘Evet. Mesajı okuyup zihinde cevapla…’ yönünde derinlikli bakış kazanmasına zemin hazırlar.
 
 ### Ders içi uygulama
 
 - s.74'teki açık uçlu sorularda tek cümlelik anahtar cevap arama; gerekçe ve günlük hayat bağlantısını değerlendir.
 - s.75'te öğrenciden doğrudan nihai metne geçmesini isteme; önce amaç–alıcı–strateji kararını görünür kıl.
 - Ders planındaki saat içi sıra pedagojik öneridir; kitapta olmayan resmî alt-saat kuralı gibi sunma.
-- Soru 2 — İletişim bağlamı soruları ve e-posta yazma planı — basılı s.74 için öğrencinin taslağını göndermeden önce konu satırı, hitap, ana istek ve ek gerekçesini ayrı ayrı kontrol ettirin.
+- ‘Bir iletiyi zihinde cevaplayıp göndermey…’ sorusunu sınıfa yönelterek ilk izlenimleri ve metinle ilgili sezgisel yaklaşımları tahtada toplayın.
 
 ### Takip soruları
 
-- Soru 2 — İletişim bağlamı soruları ve e-posta yazma planı — basılı s.74 için düşünme sorusu: Bu ek gerçekten alıcının karar vermesine yardım ediyor mu, yoksa yalnızca metni kalabalıklaştırıyor mu? Özellikle ‘Bir iletiyi zihinde cevaplayıp göndermeyi unutmaya benzer durumlar günümüzde yaşanabilir mi?’ ayrıntısını yoklayın.
-- Soru 2 — İletişim bağlamı soruları ve e-posta yazma planı — basılı s.74 için seçtiğin dil, alıcıyla ilişkin ve iletinin aciliyetiyle nasıl uyumlu? Özellikle ‘Bir iletiyi zihinde cevaplayıp göndermeyi unutmaya benzer durumlar günümüzde yaşanabilir mi?’ ayrıntısını yoklayın.
+- İletişimde ‘Bir iletiyi zihinde cevaplayıp göndermey…’ ögesinin eksik veya hatalı yapılandırılması hangi yanlış anlamalara yol açabilirdi?
+- Eğer bu iletideki ‘Bir iletiyi zihinde cevaplayıp göndermey…’ konusu farklı bir iletişim kanalında aktarılsaydı, ifade biçimi nasıl değişirdi?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -10030,21 +10042,22 @@ Bu görev, İletişim bağlamı soruları ve e-posta yazma planı kararlarını 
 
 - Dijital iletişimi otomatik olarak her bakımdan daha kalıcı veya daha etkili saymak.
 - E-postayı yalnız kısa mesaj gibi görüp amaç ve hedef kitleyi planlamamak.
-- E-postada konu satırı ve hitabın gereksiz olduğunu, yalnız ana metnin yeterli olacağını düşünmek.
+- ‘Bir iletiyi zihinde cevaplayıp gönd…’ yazımında resmî ve samimi mektubun üslup gerekliliklerini birbiriyle karıştırmak.
 
 ### Müdahale
 
-- Soru 2 — İletişim bağlamı soruları ve e-posta yazma planı — basılı s.74 için müdahale: Öğrenciye aynı metni konu satırı olmayan ve alıcısı belirtilmeyen biçimde okutun; oluşan belirsizlikleri metinde işaretletin. Müdahaleyi ‘Bir iletiyi zihinde cevaplayıp göndermeyi unutmaya benzer durumlar günümüzde yaşanabilir mi?’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 2 — İletişim bağlamı soruları ve e-posta yazma planı — basılı s.74 için müdahale: Resmî ve kişisel iki alıcı seçtirip değişmesi gereken hitap, söz varlığı ve kapanış bölümlerini yeniden yazdırın. Müdahaleyi ‘Bir iletiyi zihinde cevaplayıp göndermeyi unutmaya benzer durumlar günümüzde yaşanabilir mi?’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Bir iletiyi zihinde cevaplayıp gönd…’ incelemesinde ‘dijital iletişimi otomatik olarak’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Öğrenciye ‘Bir iletiyi zihinde cevaplayıp gönd…’ çerçevesinde ‘e postayı yalnız kısa’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- Muhataba göre dil ve anlatım tercihlerinin nasıl değiştiğini ‘Bir iletiyi zihinde cevaplayıp gönd…’ için tahtada oluşturulacak iki sütunlu tabloda karşılaştırarak belirleyin ve bağlamını tartışın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Zamanlama–kalıcılık–yaygınlık ve amaç–alıcı–strateji başlıklarını hazır ver.
-- Öğrenciye önce ‘Kime? Neden? Ne istiyorum? Hangi ek gerekli?’ dört sorusunu cevaplatıp sonra e-posta alanlarını doldurtun. Bu görevde bağlantı noktası: İletişim bağlamı soruları ve e-posta yazma planı.
+- ‘Bir iletiyi zihinde cevaplayıp gönd…’ uygulamasında öğrencinin taslak oluşturmasına yardımcı olmak için İletişim bağlamı soruları ve e-posta yazma planı doğrultusunda yönlendirici cümle başlangıçları verin.
 **Zenginleştirme**
 - Aynı iletiyi mektup ve e-posta olarak planlayıp iletişim etkisindeki değişimi karşılaştırmasını iste.
-- Aynı e-postanın daha resmî ve daha yakın iki sürümünü yazdırarak üslup kararlarını gerekçelendirin. Bu görevde derinleştirme odağı: İletişim bağlamı soruları ve e-posta yazma planı.
+- ‘Bir iletiyi zihinde cevaplayıp gönd…’ çerçevesinde hazırlanan metne İletişim bağlamı soruları ve e-posta yazma planı açısından karşıt bir bakış açısı getiren eleştirel bir ek paragraf yazdırın.
 
 ### Kaynak ve durum
 
@@ -10092,19 +10105,19 @@ Tek zorunlu cevap yoktur. Mektup fiziksel belge ve dönem tanıklığı; dijital
 
 ### Açıklama ve gerekçe
 
-Soru 3 — iddia-gerekçe bağı — basılı s.74 için beklenen yön, iddia-gerekçe bağı yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. s.74 sorularında iletişim aracı/biçimi ile zamanlama, kalıcılık, yaygınlık veya dil değişimi arasında gerekçeli ilişki kurar. Yazma amacını ve hedef kitleyi/alıcıyı belirler.
+Beklenen cevabın temeli, iddia-gerekçe bağı ekseninde ‘Mektup veya dijital iletişimden hangisi gelecek ku…’ bağlamını aydınlatan metin kanıtlarının doğru tahlil edilmesidir. Yanıtın kabul edilebilirliği; s.74 sorularında iletişim aracı/biçimi ile zamanlama, kalıcılık, yaygınlık veya dil değişimi arasında gerekçeli ilişki kurar. Yazma amacını ve hedef kitleyi/alıcıyı belirler. ölçütüne bağlı kalınmasına ve metindeki verilerin tarafsız biçimde yorumlanmasına bağlıdır. Öğrenci; önce ilgili bilgiyi kaynaktan süzmeli, ardından bu bilgiyi sorunun gerektirdiği kavramsal çerçeveye oturtmalıdır. Metin sınırlarını aşmayan ve dayanağı gösterilen özgün öğrenci yorumları da geçerli sayılır.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 3 — iddia-gerekçe bağı — basılı s.74 için e-postayı yalnız teknik bir form doldurma işi olarak değil, amacı ve hedef alıcısı belirlenmiş işlevsel bir yazma ürünü olarak açıklayın. Konu satırı, hitap, ana ileti, paragraf düzeni, ekler, gönderim zamanı ve mahremiyet aynı iletişim kararının parçalarıdır. Dijital ortam hız kazandırsa da açıklık, nezaket, güvenlik ve yazım özeni gereksinimini ortadan kaldırmaz. Bu görevde özellikle ‘Mektup veya dijital iletişimden hangisi gelecek kuşaklara daha kalıcı kültürel miras bırakabilir?…’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görevde öğretmen, ‘Mektup veya dijital iletişimden hangisi gelecek ku…’ yönergesini ele alırken sınıf ortamında iddia-gerekçe bağı boyutunu öne çıkarmalı ve ‘Tek zorunlu cevap yoktur. Mektup fizikse…’ yönündeki metin dayanaklarını desteklemelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> E-postada biçim, alıcıya ve amaca hızlı ve açık ulaşmayı sağlayan bir düzen kurar. Bu görevde özellikle iddia-gerekçe bağı üzerinde durun.
+> Bu çalışmayı yaparken metni dikkatle gözden geçirerek ‘Mektup veya dijital iletişimden hangisi gelec…’ ile ilgili kanıtları belirleyin; ulaştığınız yargıları iddia-gerekçe bağı ve ‘Tek zorunlu cevap yoktur. Mektup fi…’ çerçevesinde gerekçelendirerek ifade edin.
 
 ### Bu görev neden burada?
 
-Bu görev, iddia-gerekçe bağı kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar.
+iddia-gerekçe bağı eksenindeki bu çalışma, ‘Mektup veya dijital iletişimden hangisi gelec…’ konusunu ele alırken öğrencinin yüzeysel okumadan analitik çözümlemeye geçişini ve ‘Tek zorunlu cevap yoktur. Mektup fi…’ bağlantısını kurmasını destekler.
 
 ### Kabul edilebilir cevaplar
 
@@ -10120,8 +10133,8 @@ Bu görev, iddia-gerekçe bağı kararlarını gerçek bir dijital iletişim ür
 
 ### Takip soruları
 
-- Soru 3 — iddia-gerekçe bağı — basılı s.74 için düşünme sorusu: Bu ek gerçekten alıcının karar vermesine yardım ediyor mu, yoksa yalnızca metni kalabalıklaştırıyor mu? Özellikle ‘Mektup veya dijital iletişimden hangisi gelecek kuşaklara daha kalıcı kültürel miras bırakabilir?…’ ayrıntısını yoklayın.
-- Soru 3 — iddia-gerekçe bağı — basılı s.74 için seçtiğin dil, alıcıyla ilişkin ve iletinin aciliyetiyle nasıl uyumlu? Özellikle ‘Mektup veya dijital iletişimden hangisi gelecek kuşaklara daha kalıcı kültürel miras bırakabilir?…’ ayrıntısını yoklayın.
+- Eğer ‘Mektup veya dijital iletişimden hangisi …’ ifadesinde kullanılan dil bilgisel yapı değiştirilseydi, cümlenin ilettiği anlam ve vurgu nasıl başkalaşırdı?
+- ‘Mektup veya dijital iletişimden hangisi …’ yapısındaki dil ögesi metinden çıkarılsaydı cümlenin bağlamsal doğruluğu ve anlatım gücü nasıl zayıflardı?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -10134,21 +10147,22 @@ Bu görev, iddia-gerekçe bağı kararlarını gerçek bir dijital iletişim ür
 
 - Dijital iletişimi otomatik olarak her bakımdan daha kalıcı veya daha etkili saymak.
 - E-postayı yalnız kısa mesaj gibi görüp amaç ve hedef kitleyi planlamamak.
-- E-postada konu satırı ve hitabın gereksiz olduğunu, yalnız ana metnin yeterli olacağını düşünmek.
+- ‘Mektup veya dijital iletişimden han…’ yazımında resmî ve samimi mektubun üslup gerekliliklerini birbiriyle karıştırmak.
 
 ### Müdahale
 
-- Soru 3 — iddia-gerekçe bağı — basılı s.74 için müdahale: Öğrenciye aynı metni konu satırı olmayan ve alıcısı belirtilmeyen biçimde okutun; oluşan belirsizlikleri metinde işaretletin. Müdahaleyi ‘Mektup veya dijital iletişimden hangisi gelecek kuşaklara daha kalıcı kültürel miras bırakabilir?…’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 3 — iddia-gerekçe bağı — basılı s.74 için müdahale: Resmî ve kişisel iki alıcı seçtirip değişmesi gereken hitap, söz varlığı ve kapanış bölümlerini yeniden yazdırın. Müdahaleyi ‘Mektup veya dijital iletişimden hangisi gelecek kuşaklara daha kalıcı kültürel miras bırakabilir?…’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Mektup veya dijital iletişimden han…’ doğrultusunda ‘dijital iletişimi otomatik olarak’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Öğrenciden ‘Mektup veya dijital iletişimden han…’ bağlamında ‘e postayı yalnız kısa’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- Muhataba göre dil ve anlatım tercihlerinin nasıl değiştiğini ‘Mektup veya dijital iletişimden han…’ için tahtada oluşturulacak iki sütunlu tabloda karşılaştırarak belirleyin ve bağlamını tartışın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Zamanlama–kalıcılık–yaygınlık ve amaç–alıcı–strateji başlıklarını hazır ver.
-- Öğrenciye önce ‘Kime? Neden? Ne istiyorum? Hangi ek gerekli?’ dört sorusunu cevaplatıp sonra e-posta alanlarını doldurtun. Bu görevde bağlantı noktası: iddia-gerekçe bağı.
+- ‘Mektup veya dijital iletişimden han…’ hedefine yönelik bir kontrol listesi vererek öğrencinin ‘Tek zorunlu cevap yoktur. Mekt…’ basamağını adım adım denetlemesini sağlayın.
 **Zenginleştirme**
 - Aynı iletiyi mektup ve e-posta olarak planlayıp iletişim etkisindeki değişimi karşılaştırmasını iste.
-- Aynı e-postanın daha resmî ve daha yakın iki sürümünü yazdırarak üslup kararlarını gerekçelendirin. Bu görevde derinleştirme odağı: iddia-gerekçe bağı.
+- Öğrencinin ‘Mektup veya dijital iletişimden han…’ bağlamındaki ürününü sınıf panosunda sergileyip iddia-gerekçe bağı sürecinin sunumunu yapmasını sağlayın.
 
 ### Kaynak ve durum
 
@@ -10198,19 +10212,19 @@ Soru 4 — Telgraf, mektup ve konferansı etkileyicilik, kalıcılık ve yaygın
 
 ### Açıklama ve gerekçe
 
-Soru 4 — ölçüt kullanarak değerlendirme — basılı s.74 için beklenen yön, ölçüt kullanarak değerlendirme yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. s.74 sorularında iletişim aracı/biçimi ile zamanlama, kalıcılık, yaygınlık veya dil değişimi arasında gerekçeli ilişki kurar. Yazma amacını ve hedef kitleyi/alıcıyı belirler.
+‘Telgraf, mektup ve konferansı etkileyicilik, kalıc…’ kapsamındaki tablo maddeleri (telgraf, mektup, konferans), kaynak metindeki verilerle satır satır karşılaştırılarak değerlendirilir. Öğrencinin izleyeceği yöntem; metinde doğrudan doğrulanan önermelere 'Evet', açıkça reddedilenlere 'Hayır', doğrulanmayan veya değinilmeyenlere ise 'Bilgi yok' karşılığını vermektir. s.74 sorularında iletişim aracı/biçimi ile zamanlama, kalıcılık, yaygınlık veya dil değişimi arasında gerekçeli ilişki kurar. Yazma amacını ve hedef kitleyi/alıcıyı belirler.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 4 — ölçüt kullanarak değerlendirme — basılı s.74 için e-postayı yalnız teknik bir form doldurma işi olarak değil, amacı ve hedef alıcısı belirlenmiş işlevsel bir yazma ürünü olarak açıklayın. Konu satırı, hitap, ana ileti, paragraf düzeni, ekler, gönderim zamanı ve mahremiyet aynı iletişim kararının parçalarıdır. Dijital ortam hız kazandırsa da açıklık, nezaket, güvenlik ve yazım özeni gereksinimini ortadan kaldırmaz. Bu görevde özellikle ‘Telgraf, mektup ve konferansı etkileyicilik, kalıcılık ve yaygınlık bakımından değerlendiriniz’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev adımında öğretmen, ‘Telgraf, mektup ve konferansı etkileyicilik, kalıc…’ ile ilgili sınıf tartışmasını ölçüt kullanarak değerlendirme zemininde yapılandırmalı ve ‘telgraf: Dönemi için hızlı ve uzak mesaf…’ doğrultusundaki tespitleri metin üzerinden teyit ettirmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> E-postada biçim, alıcıya ve amaca hızlı ve açık ulaşmayı sağlayan bir düzen kurar. Bu görevde özellikle ölçüt kullanarak değerlendirme üzerinde durun.
+> Bu etkinlikte amacınız, ‘Telgraf, mektup ve konferansı etkileyicilik, …’ konusunu ölçüt kullanarak değerlendirme perspektifinden tahlil etmektir. İddialarınızı metinden somut göstergelerle destekleyerek ‘telgraf: Dönemi için hızlı ve uzak …’ niteliğinde bir çıkarım yapın.
 
 ### Bu görev neden burada?
 
-Bu görev, ölçüt kullanarak değerlendirme kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar.
+Görev, ‘Telgraf, mektup ve konferansı etkileyicilik, …’ konusundaki gözlemleri ölçüt kullanarak değerlendirme ile sentezleyerek metin çözümleme disiplinini pekiştirir ve öğrencinin ‘telgraf: Dönemi için hızlı ve uzak …’ odaklı eleştirel düşünme kapasitesini artırır.
 
 ### Kabul edilebilir cevaplar
 
@@ -10222,12 +10236,12 @@ Bu görev, ölçüt kullanarak değerlendirme kararlarını gerçek bir dijital 
 - s.74'teki açık uçlu sorularda tek cümlelik anahtar cevap arama; gerekçe ve günlük hayat bağlantısını değerlendir.
 - s.75'te öğrenciden doğrudan nihai metne geçmesini isteme; önce amaç–alıcı–strateji kararını görünür kıl.
 - Ders planındaki saat içi sıra pedagojik öneridir; kitapta olmayan resmî alt-saat kuralı gibi sunma.
-- Soru 4 — ölçüt kullanarak değerlendirme — basılı s.74 için öğrencinin taslağını göndermeden önce konu satırı, hitap, ana istek ve ek gerekçesini ayrı ayrı kontrol ettirin.
+- Öğrencileri küçük gruplara ayırarak ‘Telgraf, mektup ve konferansı etkileyici…’ sorusunun işaret ettiği kanıtları metin üzerinden tespit ettirin.
 
 ### Takip soruları
 
-- Soru 4 — ölçüt kullanarak değerlendirme — basılı s.74 için düşünme sorusu: Bu ek gerçekten alıcının karar vermesine yardım ediyor mu, yoksa yalnızca metni kalabalıklaştırıyor mu? Özellikle ‘Telgraf, mektup ve konferansı etkileyicilik, kalıcılık ve yaygınlık bakımından değerlendiriniz’ ayrıntısını yoklayın.
-- Soru 4 — ölçüt kullanarak değerlendirme — basılı s.74 için seçtiğin dil, alıcıyla ilişkin ve iletinin aciliyetiyle nasıl uyumlu? Özellikle ‘Telgraf, mektup ve konferansı etkileyicilik, kalıcılık ve yaygınlık bakımından değerlendiriniz’ ayrıntısını yoklayın.
+- ‘Telgraf, mektup ve konferansı etkileyici…’ yapısındaki dil bilgisel işlevin, konuşurun ya da anlatıcının ruh hâlini yansıtmadaki rolü nedir?
+- Eğer ‘Telgraf, mektup ve konferansı etkileyici…’ ifadesinde kullanılan dil bilgisel yapı değiştirilseydi, cümlenin ilettiği anlam ve vurgu nasıl başkalaşırdı?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -10240,21 +10254,22 @@ Bu görev, ölçüt kullanarak değerlendirme kararlarını gerçek bir dijital 
 
 - Dijital iletişimi otomatik olarak her bakımdan daha kalıcı veya daha etkili saymak.
 - E-postayı yalnız kısa mesaj gibi görüp amaç ve hedef kitleyi planlamamak.
-- E-postada konu satırı ve hitabın gereksiz olduğunu, yalnız ana metnin yeterli olacağını düşünmek.
+- ‘Telgraf, mektup ve konferansı etkil…’ yazımında resmî ve samimi mektubun üslup gerekliliklerini birbiriyle karıştırmak.
 
 ### Müdahale
 
-- Soru 4 — ölçüt kullanarak değerlendirme — basılı s.74 için müdahale: Öğrenciye aynı metni konu satırı olmayan ve alıcısı belirtilmeyen biçimde okutun; oluşan belirsizlikleri metinde işaretletin. Müdahaleyi ‘Telgraf, mektup ve konferansı etkileyicilik, kalıcılık ve yaygınlık bakımından değerlendiriniz’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 4 — ölçüt kullanarak değerlendirme — basılı s.74 için müdahale: Resmî ve kişisel iki alıcı seçtirip değişmesi gereken hitap, söz varlığı ve kapanış bölümlerini yeniden yazdırın. Müdahaleyi ‘Telgraf, mektup ve konferansı etkileyicilik, kalıcılık ve yaygınlık bakımından değerlendiriniz’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Telgraf, mektup ve konferansı etkil…’ incelemesinde ‘dijital iletişimi otomatik olarak’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Öğrenciye ‘Telgraf, mektup ve konferansı etkil…’ çerçevesinde ‘e postayı yalnız kısa’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- Muhataba göre dil ve anlatım tercihlerinin nasıl değiştiğini ‘Telgraf, mektup ve konferansı etkil…’ için tahtada oluşturulacak iki sütunlu tabloda karşılaştırarak belirleyin ve bağlamını tartışın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Zamanlama–kalıcılık–yaygınlık ve amaç–alıcı–strateji başlıklarını hazır ver.
-- Öğrenciye önce ‘Kime? Neden? Ne istiyorum? Hangi ek gerekli?’ dört sorusunu cevaplatıp sonra e-posta alanlarını doldurtun. Bu görevde bağlantı noktası: ölçüt kullanarak değerlendirme.
+- ‘Telgraf, mektup ve konferansı etkil…’ uygulamasında öğrencinin taslak oluşturmasına yardımcı olmak için ölçüt kullanarak değerlendirme doğrultusunda yönlendirici cümle başlangıçları verin.
 **Zenginleştirme**
 - Aynı iletiyi mektup ve e-posta olarak planlayıp iletişim etkisindeki değişimi karşılaştırmasını iste.
-- Aynı e-postanın daha resmî ve daha yakın iki sürümünü yazdırarak üslup kararlarını gerekçelendirin. Bu görevde derinleştirme odağı: ölçüt kullanarak değerlendirme.
+- ‘Telgraf, mektup ve konferansı etkil…’ çerçevesinde hazırlanan metne ölçüt kullanarak değerlendirme açısından karşıt bir bakış açısı getiren eleştirel bir ek paragraf yazdırın.
 
 ### Kaynak ve durum
 
@@ -10302,31 +10317,31 @@ Eski ve güncel yazım farkları Türkçenin yazı dili ve ortografi standartlar
 
 ### Açıklama ve gerekçe
 
-Soru 5 — İletişim bağlamı soruları ve e-posta yazma planı — basılı s.74 için cevap, İletişim bağlamı soruları ve e-posta yazma planı ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. s.74 sorularında iletişim aracı/biçimi ile zamanlama, kalıcılık, yaygınlık veya dil değişimi arasında gerekçeli ilişki kurar. Yazma amacını ve hedef kitleyi/alıcıyı belirler.
+Soruya verilecek uygun cevap, ‘Eski ve güncel yazım farklılıkları dilin zaman içi…’ yönündeki çıkarımı İletişim bağlamı soruları ve e-posta yazma planı hedefleri doğrultusunda yapılandırır. Çözümlemenin geçerliliği, s.74 sorularında iletişim aracı/biçimi ile zamanlama, kalıcılık, yaygınlık veya dil değişimi arasında gerekçeli ilişki kurar. Yazma amacını ve hedef kitleyi/alıcıyı belirler. koşuluna uyulması ve iddiaların metindeki açık veya örtük ifadelerle doğrulanmasıyla sağlanır. Öğrencinin akıl yürütme süreci; sorunun işaret ettiği metin bölümünü belirlemek, oradaki dil ve anlatım ipuçlarını değerlendirmek ve ulaştığı yargıyı gerekçelendirmektir. Metin özüyle örtüşen ve mantıksal nedensellik taşıyan alternatif anlatımlar doğru yanıt olarak değerlendirilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 5 — İletişim bağlamı soruları ve e-posta yazma planı — basılı s.74 için e-postayı yalnız teknik bir form doldurma işi olarak değil, amacı ve hedef alıcısı belirlenmiş işlevsel bir yazma ürünü olarak açıklayın. Konu satırı, hitap, ana ileti, paragraf düzeni, ekler, gönderim zamanı ve mahremiyet aynı iletişim kararının parçalarıdır. Dijital ortam hız kazandırsa da açıklık, nezaket, güvenlik ve yazım özeni gereksinimini ortadan kaldırmaz. Bu görevde özellikle ‘Eski ve güncel yazım farklılıkları dilin zaman içindeki değişiminin hangi yönünü gösterir?’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev sürecinde öğretmen, İletişim bağlamı soruları ve e-posta yazma planı doğrultusunda ‘Eski ve güncel yazım farklılıkları dilin zaman içi…’ sorusunu çözümlerken öğrencilerin somut metin delilleriyle argüman geliştirmelerini teşvik etmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> E-postada biçim, alıcıya ve amaca hızlı ve açık ulaşmayı sağlayan bir düzen kurar. Bu görevde özellikle İletişim bağlamı soruları ve e-posta yazma planı üzerinde durun.
+> Yönergeyi uygularken önce metindeki ‘Eski ve güncel yazım farklılıkları dilin zama…’ ifadelerini işaretleyin; ardından bu unsurların İletişim bağlamı soruları ve e-posta yazma planı hedefine nasıl hizmet ettiğini ve ‘Eski ve güncel yazım farkları Türkç…’ ile ilişkisini açıklayın.
 
 ### Bu görev neden burada?
 
-Bu görev, İletişim bağlamı soruları ve e-posta yazma planı kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar.
+Bu etkinlik, İletişim bağlamı soruları ve e-posta yazma planı alanında ‘Eski ve güncel yazım farklılıkları dilin zama…’ doğrultusunda öğrencinin kendi düşüncesini kaynak dayanaklarıyla savunmasını ve tutarlı bir ifade becerisi inşa etmesini amaçlar.
 
 ### Ders içi uygulama
 
 - s.74'teki açık uçlu sorularda tek cümlelik anahtar cevap arama; gerekçe ve günlük hayat bağlantısını değerlendir.
 - s.75'te öğrenciden doğrudan nihai metne geçmesini isteme; önce amaç–alıcı–strateji kararını görünür kıl.
 - Ders planındaki saat içi sıra pedagojik öneridir; kitapta olmayan resmî alt-saat kuralı gibi sunma.
-- Soru 5 — İletişim bağlamı soruları ve e-posta yazma planı — basılı s.74 için öğrencinin taslağını göndermeden önce konu satırı, hitap, ana istek ve ek gerekçesini ayrı ayrı kontrol ettirin.
+- Metnin ilgili bölümünü sessizce okutup İletişim bağlamı soruları ve e-posta yazma planı ile bağlantılı kilit kelimeleri belirlemeleri için süre tanıyın.
 
 ### Takip soruları
 
-- Soru 5 — İletişim bağlamı soruları ve e-posta yazma planı — basılı s.74 için düşünme sorusu: Bu ek gerçekten alıcının karar vermesine yardım ediyor mu, yoksa yalnızca metni kalabalıklaştırıyor mu? Özellikle ‘Eski ve güncel yazım farklılıkları dilin zaman içindeki değişiminin hangi yönünü gösterir?’ ayrıntısını yoklayın.
-- Soru 5 — İletişim bağlamı soruları ve e-posta yazma planı — basılı s.74 için seçtiğin dil, alıcıyla ilişkin ve iletinin aciliyetiyle nasıl uyumlu? Özellikle ‘Eski ve güncel yazım farklılıkları dilin zaman içindeki değişiminin hangi yönünü gösterir?’ ayrıntısını yoklayın.
+- ‘Eski ve güncel yazım farklılıkları dilin…’ cümlesindeki dilbilgisi tercihinin metnin genel anlatım akışı ve anlam bütünlüğüne etkisi nedir?
+- ‘Eski ve güncel yazım farklılıkları dilin…’ yapısındaki dil bilgisel işlevin, konuşurun ya da anlatıcının ruh hâlini yansıtmadaki rolü nedir?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -10339,21 +10354,22 @@ Bu görev, İletişim bağlamı soruları ve e-posta yazma planı kararlarını 
 
 - Dijital iletişimi otomatik olarak her bakımdan daha kalıcı veya daha etkili saymak.
 - E-postayı yalnız kısa mesaj gibi görüp amaç ve hedef kitleyi planlamamak.
-- E-postada konu satırı ve hitabın gereksiz olduğunu, yalnız ana metnin yeterli olacağını düşünmek.
+- ‘Eski ve güncel yazım farklılıkları …’ türünde hitap ve kapanış ifadelerini biçimsel süs sanıp muhatapla kurulan ilişkinin işlevini gözden kaçırmak.
 
 ### Müdahale
 
-- Soru 5 — İletişim bağlamı soruları ve e-posta yazma planı — basılı s.74 için müdahale: Öğrenciye aynı metni konu satırı olmayan ve alıcısı belirtilmeyen biçimde okutun; oluşan belirsizlikleri metinde işaretletin. Müdahaleyi ‘Eski ve güncel yazım farklılıkları dilin zaman içindeki değişiminin hangi yönünü gösterir?’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 5 — İletişim bağlamı soruları ve e-posta yazma planı — basılı s.74 için müdahale: Resmî ve kişisel iki alıcı seçtirip değişmesi gereken hitap, söz varlığı ve kapanış bölümlerini yeniden yazdırın. Müdahaleyi ‘Eski ve güncel yazım farklılıkları dilin zaman içindeki değişiminin hangi yönünü gösterir?’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciye ‘Eski ve güncel yazım farklılıkları …’ çerçevesinde ‘dijital iletişimi otomatik olarak’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- ‘Eski ve güncel yazım farklılıkları …’ doğrultusunda ‘e postayı yalnız kısa’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Öğrenciye gönderici-alıcı ilişkisini iki farklı örnek üzerinden karşılaştırın; ‘Eski ve güncel yazım farklılıkları …’ hitap seçiminin iletişim amacına etkisini gösterin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Zamanlama–kalıcılık–yaygınlık ve amaç–alıcı–strateji başlıklarını hazır ver.
-- Öğrenciye önce ‘Kime? Neden? Ne istiyorum? Hangi ek gerekli?’ dört sorusunu cevaplatıp sonra e-posta alanlarını doldurtun. Bu görevde bağlantı noktası: İletişim bağlamı soruları ve e-posta yazma planı.
+- Öğrenciye ‘Eski ve güncel yazım farklılıkları …’ için akranıyla fikir alışverişi yaptırarak yazma/konuşma planını netleştirmesini sağlayın.
 **Zenginleştirme**
 - Aynı iletiyi mektup ve e-posta olarak planlayıp iletişim etkisindeki değişimi karşılaştırmasını iste.
-- Aynı e-postanın daha resmî ve daha yakın iki sürümünü yazdırarak üslup kararlarını gerekçelendirin. Bu görevde derinleştirme odağı: İletişim bağlamı soruları ve e-posta yazma planı.
+- ‘Eski ve güncel yazım farklılıkları …’ çalışmasını farklı bir hedef kitleye veya iletişim kanalına uyarlayarak ‘Eski ve güncel yazım farkları …’ etkisini karşılaştırmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -10401,19 +10417,19 @@ Dijital kısaltmalar hızlı iletişimi kolaylaştırabilir; bağlam dışı ve 
 
 ### Açıklama ve gerekçe
 
-Soru 5 — ölçüt kullanarak değerlendirme — basılı s.74 için beklenen yön, ölçüt kullanarak değerlendirme yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. s.74 sorularında iletişim aracı/biçimi ile zamanlama, kalıcılık, yaygınlık veya dil değişimi arasında gerekçeli ilişki kurar. Yazma amacını ve hedef kitleyi/alıcıyı belirler.
+Bu soruda hedeflenen yanıt, metnin ana dokusunda yer alan ‘Dijital iletişimdeki kısaltmaların Türkçe üzerinde…’ ayrıntısını ölçüt kullanarak değerlendirme perspektifiyle analiz etmeye dayanır. Doğruluk dayanağı; s.74 sorularında iletişim aracı/biçimi ile zamanlama, kalıcılık, yaygınlık veya dil değişimi arasında gerekçeli ilişki kurar. Yazma amacını ve hedef kitleyi/alıcıyı belirler. ilkesinin karşılanması ve metindeki göstergelerin somut kanıtlarla açıklanmasıdır. Öğrencinin izleyeceği bilişsel basamaklar; metin parçalarını taramak, kavramsal anahtarları tespit etmek ve bu bulguları sentezleyerek tutarlı bir değerlendirme üretmektir. İfadeler birebir aynı olmak zorunda olmayıp metinle çelişmeyen ve gerekçelendirilmiş farklı yaklaşımlar geçerli kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 5 — ölçüt kullanarak değerlendirme — basılı s.74 için e-postayı yalnız teknik bir form doldurma işi olarak değil, amacı ve hedef alıcısı belirlenmiş işlevsel bir yazma ürünü olarak açıklayın. Konu satırı, hitap, ana ileti, paragraf düzeni, ekler, gönderim zamanı ve mahremiyet aynı iletişim kararının parçalarıdır. Dijital ortam hız kazandırsa da açıklık, nezaket, güvenlik ve yazım özeni gereksinimini ortadan kaldırmaz. Bu görevde özellikle ‘Dijital iletişimdeki kısaltmaların Türkçe üzerindeki etkisini araştırıp değerlendiriniz’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görevde öğretmenin kılavuzluğu, ‘Dijital iletişimdeki kısaltmaların Türkçe üzerinde…’ bağlamında öğrencinin ölçüt kullanarak değerlendirme ve ‘Dijital kısaltmalar hızlı iletişimi kola…’ arasındaki mantıksal nedensellik bağını metin üzerinden kavramasına odaklanmalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> E-postada biçim, alıcıya ve amaca hızlı ve açık ulaşmayı sağlayan bir düzen kurar. Bu görevde özellikle ölçüt kullanarak değerlendirme üzerinde durun.
+> Bu soruda, ‘Dijital iletişimdeki kısaltmaların Türkçe üze…’ odağını metnin genel anlam akışı içinde değerlendirmeniz gerekmektedir. Tespit ettiğiniz verileri ölçüt kullanarak değerlendirme açısından yorumlayarak ‘Dijital kısaltmalar hızlı iletişimi…’ yönünde tutarlı bir sonuca varın.
 
 ### Bu görev neden burada?
 
-Bu görev, ölçüt kullanarak değerlendirme kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar.
+Öğrencinin ‘Dijital iletişimdeki kısaltmaların Türkçe üze…’ incelemesi yoluyla ölçüt kullanarak değerlendirme kavramını içselleştirmesi, edebî metinlerdeki anlam katmanlarını fark etmesine ve ‘Dijital kısaltmalar hızlı iletişimi…’ yönünde derinlikli bakış kazanmasına zemin hazırlar.
 
 ### Kabul edilebilir cevaplar
 
@@ -10425,12 +10441,12 @@ Bu görev, ölçüt kullanarak değerlendirme kararlarını gerçek bir dijital 
 - s.74'teki açık uçlu sorularda tek cümlelik anahtar cevap arama; gerekçe ve günlük hayat bağlantısını değerlendir.
 - s.75'te öğrenciden doğrudan nihai metne geçmesini isteme; önce amaç–alıcı–strateji kararını görünür kıl.
 - Ders planındaki saat içi sıra pedagojik öneridir; kitapta olmayan resmî alt-saat kuralı gibi sunma.
-- Soru 5 — ölçüt kullanarak değerlendirme — basılı s.74 için öğrencinin taslağını göndermeden önce konu satırı, hitap, ana istek ve ek gerekçesini ayrı ayrı kontrol ettirin.
+- ‘Dijital iletişimdeki kısaltmaların Türkç…’ sorusunu sınıfa yönelterek ilk izlenimleri ve metinle ilgili sezgisel yaklaşımları tahtada toplayın.
 
 ### Takip soruları
 
-- Soru 5 — ölçüt kullanarak değerlendirme — basılı s.74 için düşünme sorusu: Bu ek gerçekten alıcının karar vermesine yardım ediyor mu, yoksa yalnızca metni kalabalıklaştırıyor mu? Özellikle ‘Dijital iletişimdeki kısaltmaların Türkçe üzerindeki etkisini araştırıp değerlendiriniz’ ayrıntısını yoklayın.
-- Soru 5 — ölçüt kullanarak değerlendirme — basılı s.74 için seçtiğin dil, alıcıyla ilişkin ve iletinin aciliyetiyle nasıl uyumlu? Özellikle ‘Dijital iletişimdeki kısaltmaların Türkçe üzerindeki etkisini araştırıp değerlendiriniz’ ayrıntısını yoklayın.
+- ‘Dijital iletişimdeki kısaltmaların Türkç…’ yapısındaki dil bilgisel işlevin, konuşurun ya da anlatıcının ruh hâlini yansıtmadaki rolü nedir?
+- Eğer ‘Dijital iletişimdeki kısaltmaların Türkç…’ ifadesinde kullanılan dil bilgisel yapı değiştirilseydi, cümlenin ilettiği anlam ve vurgu nasıl başkalaşırdı?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -10443,21 +10459,22 @@ Bu görev, ölçüt kullanarak değerlendirme kararlarını gerçek bir dijital 
 
 - Dijital iletişimi otomatik olarak her bakımdan daha kalıcı veya daha etkili saymak.
 - E-postayı yalnız kısa mesaj gibi görüp amaç ve hedef kitleyi planlamamak.
-- E-postada konu satırı ve hitabın gereksiz olduğunu, yalnız ana metnin yeterli olacağını düşünmek.
+- ‘Dijital iletişimdeki kısaltmaların …’ konusunu metnin bütünsel ana iletisinden kopararak tek bir ayrıntı üzerinden genellemeye gitmek.
 
 ### Müdahale
 
-- Soru 5 — ölçüt kullanarak değerlendirme — basılı s.74 için müdahale: Öğrenciye aynı metni konu satırı olmayan ve alıcısı belirtilmeyen biçimde okutun; oluşan belirsizlikleri metinde işaretletin. Müdahaleyi ‘Dijital iletişimdeki kısaltmaların Türkçe üzerindeki etkisini araştırıp değerlendiriniz’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 5 — ölçüt kullanarak değerlendirme — basılı s.74 için müdahale: Resmî ve kişisel iki alıcı seçtirip değişmesi gereken hitap, söz varlığı ve kapanış bölümlerini yeniden yazdırın. Müdahaleyi ‘Dijital iletişimdeki kısaltmaların Türkçe üzerindeki etkisini araştırıp değerlendiriniz’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Dijital iletişimdeki kısaltmaların …’ incelemesinde ‘dijital iletişimi otomatik olarak’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Öğrenciye ‘Dijital iletişimdeki kısaltmaların …’ çerçevesinde ‘e postayı yalnız kısa’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- ‘Dijital iletişimdeki kısaltmaların …’ ayrıntısının metnin genel iletisine ve ölçüt kullanarak değerlendirme amacına nasıl bağlandığını metin parçalarını yan yana getirerek gösterin ve açıklattırın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Zamanlama–kalıcılık–yaygınlık ve amaç–alıcı–strateji başlıklarını hazır ver.
-- Öğrenciye önce ‘Kime? Neden? Ne istiyorum? Hangi ek gerekli?’ dört sorusunu cevaplatıp sonra e-posta alanlarını doldurtun. Bu görevde bağlantı noktası: ölçüt kullanarak değerlendirme.
+- ‘Dijital iletişimdeki kısaltmaların …’ metnindeki karmaşık ifadeleri öğrencinin kendi sözcükleriyle yeniden ifade etmesini isteyerek ölçüt kullanarak değerlendirme fikrini netleştirin.
 **Zenginleştirme**
 - Aynı iletiyi mektup ve e-posta olarak planlayıp iletişim etkisindeki değişimi karşılaştırmasını iste.
-- Aynı e-postanın daha resmî ve daha yakın iki sürümünü yazdırarak üslup kararlarını gerekçelendirin. Bu görevde derinleştirme odağı: ölçüt kullanarak değerlendirme.
+- Öğrencinin ‘Dijital iletişimdeki kısaltmaların …’ bağlamındaki çıkarımını infografik, dijital sunum veya kavram haritasına dönüştürerek sınıf panosunda sergilemesini sağlayın.
 
 ### Kaynak ve durum
 
@@ -10509,19 +10526,19 @@ Kitapta “Performans Görevi — İletişim ve E-posta” başlığı altında 
 
 ### Açıklama ve gerekçe
 
-İletişim bağlamı soruları ve e-posta yazma planı — basılı s.75 için cevap, İletişim bağlamı soruları ve e-posta yazma planı ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. s.74 sorularında iletişim aracı/biçimi ile zamanlama, kalıcılık, yaygınlık veya dil değişimi arasında gerekçeli ilişki kurar. Yazma amacını ve hedef kitleyi/alıcıyı belirler.
+Bu görev, ‘Kitapta “Performans Görevi — İletişim ve E-posta” …’ yönergesini İletişim bağlamı soruları ve e-posta yazma planı bağlamında hayata geçiren bir uygulama ve ürün çalışmasıdır. Başarı ölçütü; öğrencinin s.74 sorularında iletişim aracı/biçimi ile zamanlama, kalıcılık, yaygınlık veya dil değişimi arasında gerekçeli ilişki kurar. Yazma amacını ve hedef kitleyi/alıcıyı belirler. basamaklarını eksiksiz yürütmesi ve çalışmasını kaynak dayanaklarıyla uyumlu kurmasıdır.
 
 ### Öğretmenin bilmesi gerekenler
 
-İletişim bağlamı soruları ve e-posta yazma planı — basılı s.75 için e-postayı yalnız teknik bir form doldurma işi olarak değil, amacı ve hedef alıcısı belirlenmiş işlevsel bir yazma ürünü olarak açıklayın. Konu satırı, hitap, ana ileti, paragraf düzeni, ekler, gönderim zamanı ve mahremiyet aynı iletişim kararının parçalarıdır. Dijital ortam hız kazandırsa da açıklık, nezaket, güvenlik ve yazım özeni gereksinimini ortadan kaldırmaz. Bu görevde özellikle ‘İletişim bağlamı soruları ve e-posta yazma planı — Performans Görevi — İletişim…’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görevde öğretmen, ‘Kitapta “Performans Görevi — İletişim ve E-posta” …’ yönergesini ele alırken sınıf ortamında İletişim bağlamı soruları ve e-posta yazma planı boyutunu öne çıkarmalı ve ‘amac: İkna, bilgilendirme veya resmî tal…’ yönündeki metin dayanaklarını desteklemelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> E-postada biçim, alıcıya ve amaca hızlı ve açık ulaşmayı sağlayan bir düzen kurar. Bu görevde özellikle İletişim bağlamı soruları ve e-posta yazma planı üzerinde durun.
+> Bu çalışmayı yaparken metni dikkatle gözden geçirerek ‘Kitapta “Performans Görevi — İletişim ve E-po…’ ile ilgili kanıtları belirleyin; ulaştığınız yargıları İletişim bağlamı soruları ve e-posta yazma planı ve ‘amac: İkna, bilgilendirme veya resm…’ çerçevesinde gerekçelendirerek ifade edin.
 
 ### Bu görev neden burada?
 
-Bu görev, İletişim bağlamı soruları ve e-posta yazma planı kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar.
+İletişim bağlamı soruları ve e-posta yazma planı eksenindeki bu çalışma, ‘Kitapta “Performans Görevi — İletişim ve E-po…’ konusunu ele alırken öğrencinin yüzeysel okumadan analitik çözümlemeye geçişini ve ‘amac: İkna, bilgilendirme veya resm…’ bağlantısını kurmasını destekler.
 
 ### Ders içi uygulama
 
@@ -10541,21 +10558,22 @@ Bu görev, İletişim bağlamı soruları ve e-posta yazma planı kararlarını 
 
 - Dijital iletişimi otomatik olarak her bakımdan daha kalıcı veya daha etkili saymak.
 - E-postayı yalnız kısa mesaj gibi görüp amaç ve hedef kitleyi planlamamak.
-- E-postada konu satırı ve hitabın gereksiz olduğunu, yalnız ana metnin yeterli olacağını düşünmek.
+- ‘İletişim bağlamı soruları ve e-posta yazma planı (T1V23_P75_PLAN)’ yazımında resmî ve samimi mektubun üslup gerekliliklerini birbiriyle karıştırmak.
 
 ### Müdahale
 
-- İletişim bağlamı soruları ve e-posta yazma planı — basılı s.75 için müdahale: Öğrenciye aynı metni konu satırı olmayan ve alıcısı belirtilmeyen biçimde okutun; oluşan belirsizlikleri metinde işaretletin. Müdahaleyi ‘İletişim bağlamı soruları ve e-posta yazma planı — Performans Görevi — İletişim…’ ayrıntısını kullandırarak somutlaştırın.
-- İletişim bağlamı soruları ve e-posta yazma planı — basılı s.75 için müdahale: Resmî ve kişisel iki alıcı seçtirip değişmesi gereken hitap, söz varlığı ve kapanış bölümlerini yeniden yazdırın. Müdahaleyi ‘İletişim bağlamı soruları ve e-posta yazma planı — Performans Görevi — İletişim…’ ayrıntısını kullandırarak somutlaştırın.
+- ‘İletişim bağlamı soruları ve e-posta yazma planı (T1V23_P75_PLAN)’ doğrultusunda ‘dijital iletişimi otomatik olarak’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Öğrenciden ‘İletişim bağlamı soruları ve e-posta yazma planı (T1V23_P75_PLAN)’ bağlamında ‘e postayı yalnız kısa’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- Muhataba göre dil ve anlatım tercihlerinin nasıl değiştiğini ‘İletişim bağlamı soruları ve e-posta yazma planı (T1V23_P75_PLAN)’ için tahtada oluşturulacak iki sütunlu tabloda karşılaştırarak belirleyin ve bağlamını tartışın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Zamanlama–kalıcılık–yaygınlık ve amaç–alıcı–strateji başlıklarını hazır ver.
-- Öğrenciye önce ‘Kime? Neden? Ne istiyorum? Hangi ek gerekli?’ dört sorusunu cevaplatıp sonra e-posta alanlarını doldurtun. Bu görevde bağlantı noktası: İletişim bağlamı soruları ve e-posta yazma planı.
+- ‘Kitapta “Performans Görevi — İletiş…’ hedefine yönelik bir kontrol listesi vererek öğrencinin ‘amac: İkna, bilgilendirme veya…’ basamağını adım adım denetlemesini sağlayın.
 **Zenginleştirme**
 - Aynı iletiyi mektup ve e-posta olarak planlayıp iletişim etkisindeki değişimi karşılaştırmasını iste.
-- Aynı e-postanın daha resmî ve daha yakın iki sürümünü yazdırarak üslup kararlarını gerekçelendirin. Bu görevde derinleştirme odağı: İletişim bağlamı soruları ve e-posta yazma planı.
+- Öğrencinin ‘Kitapta “Performans Görevi — İletiş…’ bağlamındaki ürününü sınıf panosunda sergileyip İletişim bağlamı soruları ve e-posta yazma planı sürecinin sunumunu yapmasını sağlayın.
 
 ### Kaynak ve durum
 
@@ -10612,26 +10630,26 @@ Kitapta “İçerik Oluşturabilme — 1-4. basamaklar” başlığı altında v
 
 ### Açıklama ve gerekçe
 
-E-posta içerik taslağı — 1-13. adımlar — basılı s.76 için cevap, E-posta içerik taslağı — 1-13. adımlar ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Amaç ve hedef kitleye uygun bilgileri seçer ve düzenler. E-posta ile mektubu en az bir benzerlik ve bir farklılıkla karşılaştırır.
+Bu çalışma kapsamında öğrencinin ‘Kitapta “İçerik Oluşturabilme — 1-4. basamaklar” b…’ sürecini E-posta içerik taslağı — 1-13. adımlar ilkelerine uygun olarak tamamlaması beklenir. Ürünün kabulü; Amaç ve hedef kitleye uygun bilgileri seçer ve düzenler. E-posta ile mektubu en az bir benzerlik ve bir farklılıkla karşılaştırır. sınırlarına bağlı kalınmasına, öğrencinin basamakları açıkça belgelemesine ve gerekçesine dayanır.
 
 ### Öğretmenin bilmesi gerekenler
 
-E-posta içerik taslağı — 1-13. adımlar — basılı s.76 için e-postayı yalnız teknik bir form doldurma işi olarak değil, amacı ve hedef alıcısı belirlenmiş işlevsel bir yazma ürünü olarak açıklayın. Konu satırı, hitap, ana ileti, paragraf düzeni, ekler, gönderim zamanı ve mahremiyet aynı iletişim kararının parçalarıdır. Dijital ortam hız kazandırsa da açıklık, nezaket, güvenlik ve yazım özeni gereksinimini ortadan kaldırmaz. Bu görevde özellikle ‘E-posta içerik taslağı — 1-13. adımlar — İçerik Oluşturabilme — 1-4. basamaklar’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev sürecinde öğretmen, E-posta içerik taslağı — 1-13. adımlar doğrultusunda ‘Kitapta “İçerik Oluşturabilme — 1-4. basamaklar” b…’ sorusunu çözümlerken öğrencilerin somut metin delilleriyle argüman geliştirmelerini teşvik etmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> E-postada biçim, alıcıya ve amaca hızlı ve açık ulaşmayı sağlayan bir düzen kurar. Bu görevde özellikle E-posta içerik taslağı — 1-13. adımlar üzerinde durun.
+> Yönergeyi uygularken önce metindeki ‘Kitapta “İçerik Oluşturabilme — 1-4. basamakl…’ ifadelerini işaretleyin; ardından bu unsurların E-posta içerik taslağı — 1-13. adımlar hedefine nasıl hizmet ettiğini ve ‘step01_prior_knowledge: Dinleme/izl…’ ile ilişkisini açıklayın.
 
 ### Bu görev neden burada?
 
-Bu görev, E-posta içerik taslağı — 1-13. adımlar kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar.
+Bu etkinlik, E-posta içerik taslağı — 1-13. adımlar alanında ‘Kitapta “İçerik Oluşturabilme — 1-4. basamakl…’ doğrultusunda öğrencinin kendi düşüncesini kaynak dayanaklarıyla savunmasını ve tutarlı bir ifade becerisi inşa etmesini amaçlar.
 
 ### Ders içi uygulama
 
 - 1-13. adımları tek bir 'taslak yaz' komutuna indirgeme; özellikle amaç–ek–ileti–dil işlevi–geri bildirim kararlarını görünür kıl.
 - İçerik seçimini 'ne kadar çok bilgi' üzerinden değil, amaç ve alıcıya uygunluk üzerinden değerlendir.
 - Görsel/işitsel eki yalnız süsleme amacıyla seçen öğrenciden ekin iletişim işlevini açıklamasını iste.
-- E-posta içerik taslağı — 1-13. adımlar — basılı s.76 için öğrencinin taslağını göndermeden önce konu satırı, hitap, ana istek ve ek gerekçesini ayrı ayrı kontrol ettirin.
+- Öğrencilerden E-posta içerik taslağı — 1-13. adımlar açısından metindeki zıtlık ve benzerlikleri belirleyerek not almalarını isteyin.
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -10644,21 +10662,22 @@ Bu görev, E-posta içerik taslağı — 1-13. adımlar kararlarını gerçek bi
 
 - İlgili-ilgisiz bütün bilgileri e-postaya eklemek.
 - Akran geri bildirimini almakla yetinip taslağı revize etmemek.
-- E-postada konu satırı ve hitabın gereksiz olduğunu, yalnız ana metnin yeterli olacağını düşünmek.
+- ‘E-posta içerik taslağı — 1-13. adımlar (T1V23_P76_CONTENT_01_04)’ türünde hitap ve kapanış ifadelerini biçimsel süs sanıp muhatapla kurulan ilişkinin işlevini gözden kaçırmak.
 
 ### Müdahale
 
-- E-posta içerik taslağı — 1-13. adımlar — basılı s.76 için müdahale: Öğrenciye aynı metni konu satırı olmayan ve alıcısı belirtilmeyen biçimde okutun; oluşan belirsizlikleri metinde işaretletin. Müdahaleyi ‘E-posta içerik taslağı — 1-13. adımlar — İçerik Oluşturabilme — 1-4. basamaklar’ ayrıntısını kullandırarak somutlaştırın.
-- E-posta içerik taslağı — 1-13. adımlar — basılı s.76 için müdahale: Resmî ve kişisel iki alıcı seçtirip değişmesi gereken hitap, söz varlığı ve kapanış bölümlerini yeniden yazdırın. Müdahaleyi ‘E-posta içerik taslağı — 1-13. adımlar — İçerik Oluşturabilme — 1-4. basamaklar’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciye ‘E-posta içerik taslağı — 1-13. adımlar (T1V23_P76_CONTENT_01_04)’ çerçevesinde ‘ilgili ilgisiz bütün bilgileri’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- ‘E-posta içerik taslağı — 1-13. adımlar (T1V23_P76_CONTENT_01_04)’ doğrultusunda ‘akran geri bildirimini almakla’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Öğrenciye gönderici-alıcı ilişkisini iki farklı örnek üzerinden karşılaştırın; ‘E-posta içerik taslağı — 1-13. adımlar (T1V23_P76_CONTENT_01_04)’ hitap seçiminin iletişim amacına etkisini gösterin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Amaç–ileti–zorunlu bilgi–ek–dil işlevi–geri bildirim başlıklarıyla aşamalı plan ver.
-- Öğrenciye önce ‘Kime? Neden? Ne istiyorum? Hangi ek gerekli?’ dört sorusunu cevaplatıp sonra e-posta alanlarını doldurtun. Bu görevde bağlantı noktası: E-posta içerik taslağı — 1-13. adımlar.
+- Öğrenciye ‘Kitapta “İçerik Oluşturabilme — 1-4…’ için akranıyla fikir alışverişi yaptırarak yazma/konuşma planını netleştirmesini sağlayın.
 **Zenginleştirme**
 - Aynı içeriğin resmî ve samimi iki farklı alıcı için nasıl değişeceğini yeniden tasarlat.
-- Aynı e-postanın daha resmî ve daha yakın iki sürümünü yazdırarak üslup kararlarını gerekçelendirin. Bu görevde derinleştirme odağı: E-posta içerik taslağı — 1-13. adımlar.
+- ‘Kitapta “İçerik Oluşturabilme — 1-4…’ çalışmasını farklı bir hedef kitleye veya iletişim kanalına uyarlayarak ‘step01_prior_knowledge: Dinlem…’ etkisini karşılaştırmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -10710,26 +10729,26 @@ Kitapta “İçerik Oluşturabilme — 5-9. basamaklar” başlığı altında v
 
 ### Açıklama ve gerekçe
 
-E-posta içerik taslağı — 1-13. adımlar — basılı s.76 için cevap, E-posta içerik taslağı — 1-13. adımlar ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Amaç ve hedef kitleye uygun bilgileri seçer ve düzenler. E-posta ile mektubu en az bir benzerlik ve bir farklılıkla karşılaştırır.
+Bu çalışma kapsamında öğrencinin ‘Kitapta “İçerik Oluşturabilme — 5-9. basamaklar” b…’ sürecini E-posta içerik taslağı — 1-13. adımlar ilkelerine uygun olarak tamamlaması beklenir. Ürünün kabulü; Amaç ve hedef kitleye uygun bilgileri seçer ve düzenler. E-posta ile mektubu en az bir benzerlik ve bir farklılıkla karşılaştırır. sınırlarına bağlı kalınmasına, öğrencinin basamakları açıkça belgelemesine ve gerekçesine dayanır.
 
 ### Öğretmenin bilmesi gerekenler
 
-E-posta içerik taslağı — 1-13. adımlar — basılı s.76 için e-postayı yalnız teknik bir form doldurma işi olarak değil, amacı ve hedef alıcısı belirlenmiş işlevsel bir yazma ürünü olarak açıklayın. Konu satırı, hitap, ana ileti, paragraf düzeni, ekler, gönderim zamanı ve mahremiyet aynı iletişim kararının parçalarıdır. Dijital ortam hız kazandırsa da açıklık, nezaket, güvenlik ve yazım özeni gereksinimini ortadan kaldırmaz. Bu görevde özellikle ‘E-posta içerik taslağı — 1-13. adımlar — İçerik Oluşturabilme — 5-9. basamaklar’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev sürecinde öğretmen, E-posta içerik taslağı — 1-13. adımlar doğrultusunda ‘Kitapta “İçerik Oluşturabilme — 5-9. basamaklar” b…’ sorusunu çözümlerken öğrencilerin somut metin delilleriyle argüman geliştirmelerini teşvik etmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> E-postada biçim, alıcıya ve amaca hızlı ve açık ulaşmayı sağlayan bir düzen kurar. Bu görevde özellikle E-posta içerik taslağı — 1-13. adımlar üzerinde durun.
+> Yönergeyi uygularken önce metindeki ‘Kitapta “İçerik Oluşturabilme — 5-9. basamakl…’ ifadelerini işaretleyin; ardından bu unsurların E-posta içerik taslağı — 1-13. adımlar hedefine nasıl hizmet ettiğini ve ‘step05_content_outline: Bilgileri ö…’ ile ilişkisini açıklayın.
 
 ### Bu görev neden burada?
 
-Bu görev, E-posta içerik taslağı — 1-13. adımlar kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar.
+Bu etkinlik, E-posta içerik taslağı — 1-13. adımlar alanında ‘Kitapta “İçerik Oluşturabilme — 5-9. basamakl…’ doğrultusunda öğrencinin kendi düşüncesini kaynak dayanaklarıyla savunmasını ve tutarlı bir ifade becerisi inşa etmesini amaçlar.
 
 ### Ders içi uygulama
 
 - 1-13. adımları tek bir 'taslak yaz' komutuna indirgeme; özellikle amaç–ek–ileti–dil işlevi–geri bildirim kararlarını görünür kıl.
 - İçerik seçimini 'ne kadar çok bilgi' üzerinden değil, amaç ve alıcıya uygunluk üzerinden değerlendir.
 - Görsel/işitsel eki yalnız süsleme amacıyla seçen öğrenciden ekin iletişim işlevini açıklamasını iste.
-- E-posta içerik taslağı — 1-13. adımlar — basılı s.76 için öğrencinin taslağını göndermeden önce konu satırı, hitap, ana istek ve ek gerekçesini ayrı ayrı kontrol ettirin.
+- Metnin ilgili bölümünü sessizce okutup E-posta içerik taslağı — 1-13. adımlar ile bağlantılı kilit kelimeleri belirlemeleri için süre tanıyın.
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -10742,21 +10761,22 @@ Bu görev, E-posta içerik taslağı — 1-13. adımlar kararlarını gerçek bi
 
 - İlgili-ilgisiz bütün bilgileri e-postaya eklemek.
 - Akran geri bildirimini almakla yetinip taslağı revize etmemek.
-- E-postada konu satırı ve hitabın gereksiz olduğunu, yalnız ana metnin yeterli olacağını düşünmek.
+- ‘E-posta içerik taslağı — 1-13. adımlar (T1V23_P76_CONTENT_05_09)’ türünde hitap ve kapanış ifadelerini biçimsel süs sanıp muhatapla kurulan ilişkinin işlevini gözden kaçırmak.
 
 ### Müdahale
 
-- E-posta içerik taslağı — 1-13. adımlar — basılı s.76 için müdahale: Öğrenciye aynı metni konu satırı olmayan ve alıcısı belirtilmeyen biçimde okutun; oluşan belirsizlikleri metinde işaretletin. Müdahaleyi ‘E-posta içerik taslağı — 1-13. adımlar — İçerik Oluşturabilme — 5-9. basamaklar’ ayrıntısını kullandırarak somutlaştırın.
-- E-posta içerik taslağı — 1-13. adımlar — basılı s.76 için müdahale: Resmî ve kişisel iki alıcı seçtirip değişmesi gereken hitap, söz varlığı ve kapanış bölümlerini yeniden yazdırın. Müdahaleyi ‘E-posta içerik taslağı — 1-13. adımlar — İçerik Oluşturabilme — 5-9. basamaklar’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciye ‘E-posta içerik taslağı — 1-13. adımlar (T1V23_P76_CONTENT_05_09)’ çerçevesinde ‘ilgili ilgisiz bütün bilgileri’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- ‘E-posta içerik taslağı — 1-13. adımlar (T1V23_P76_CONTENT_05_09)’ doğrultusunda ‘akran geri bildirimini almakla’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Öğrenciye gönderici-alıcı ilişkisini iki farklı örnek üzerinden karşılaştırın; ‘E-posta içerik taslağı — 1-13. adımlar (T1V23_P76_CONTENT_05_09)’ hitap seçiminin iletişim amacına etkisini gösterin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Amaç–ileti–zorunlu bilgi–ek–dil işlevi–geri bildirim başlıklarıyla aşamalı plan ver.
-- Öğrenciye önce ‘Kime? Neden? Ne istiyorum? Hangi ek gerekli?’ dört sorusunu cevaplatıp sonra e-posta alanlarını doldurtun. Bu görevde bağlantı noktası: E-posta içerik taslağı — 1-13. adımlar.
+- Öğrenciye ‘Kitapta “İçerik Oluşturabilme — 5-9…’ için akranıyla fikir alışverişi yaptırarak yazma/konuşma planını netleştirmesini sağlayın.
 **Zenginleştirme**
 - Aynı içeriğin resmî ve samimi iki farklı alıcı için nasıl değişeceğini yeniden tasarlat.
-- Aynı e-postanın daha resmî ve daha yakın iki sürümünü yazdırarak üslup kararlarını gerekçelendirin. Bu görevde derinleştirme odağı: E-posta içerik taslağı — 1-13. adımlar.
+- ‘Kitapta “İçerik Oluşturabilme — 5-9…’ çalışmasını farklı bir hedef kitleye veya iletişim kanalına uyarlayarak ‘step05_content_outline: Bilgil…’ etkisini karşılaştırmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -10807,19 +10827,19 @@ Kitapta “İçerik Oluşturabilme — 10-13. basamaklar” başlığı altında
 
 ### Açıklama ve gerekçe
 
-E-posta içerik taslağı — 1-13. adımlar — basılı s.77 için cevap, E-posta içerik taslağı — 1-13. adımlar ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Amaç ve hedef kitleye uygun bilgileri seçer ve düzenler. E-posta ile mektubu en az bir benzerlik ve bir farklılıkla karşılaştırır.
+Bu etkinlikte sabit bir formül aranmaz; E-posta içerik taslağı — 1-13. adımlar amacına yönelik olarak ‘Kitapta “İçerik Oluşturabilme — 10-13. basamaklar”…’ basamaklarının özgün biçimde yapılandırılması esastır. Geçerlilik ölçütü; Amaç ve hedef kitleye uygun bilgileri seçer ve düzenler. E-posta ile mektubu en az bir benzerlik ve bir farklılıkla karşılaştırır. doğrultusunda öğrencinin ortaya koyduğu tutarlı ürün ve gerekçedir.
 
 ### Öğretmenin bilmesi gerekenler
 
-E-posta içerik taslağı — 1-13. adımlar — basılı s.77 için e-postayı yalnız teknik bir form doldurma işi olarak değil, amacı ve hedef alıcısı belirlenmiş işlevsel bir yazma ürünü olarak açıklayın. Konu satırı, hitap, ana ileti, paragraf düzeni, ekler, gönderim zamanı ve mahremiyet aynı iletişim kararının parçalarıdır. Dijital ortam hız kazandırsa da açıklık, nezaket, güvenlik ve yazım özeni gereksinimini ortadan kaldırmaz. Bu görevde özellikle ‘E-posta içerik taslağı — 1-13. adımlar — İçerik Oluşturabilme — 10-13. basamaklar’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev tahlilinde öğretmen, E-posta içerik taslağı — 1-13. adımlar odağında ‘Kitapta “İçerik Oluşturabilme — 10-13. basamaklar”…’ sorusuna yönelik yanıtların metin içi tutarlılığını denetlemeli ve yüzeysel yorumların ötesine geçilmesini sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> E-postada biçim, alıcıya ve amaca hızlı ve açık ulaşmayı sağlayan bir düzen kurar. Bu görevde özellikle E-posta içerik taslağı — 1-13. adımlar üzerinde durun.
+> Görevin temel amacı, ‘Kitapta “İçerik Oluşturabilme — 10-13. basama…’ ayrıntısı üzerinden E-posta içerik taslağı — 1-13. adımlar kavramını kavramanızdır. Metindeki ilgili cümleleri bularak ‘step10_feedback_for_gaps: Eksik bil…’ bağlamındaki düşüncenizi kendi cümlelerinizle ortaya koyun.
 
 ### Bu görev neden burada?
 
-Bu görev, E-posta içerik taslağı — 1-13. adımlar kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar.
+Bu soru, ‘Kitapta “İçerik Oluşturabilme — 10-13. basama…’ ayrıntısını E-posta içerik taslağı — 1-13. adımlar ile birleştirerek dil ve edebiyat çalışmalarında neden-sonuç ilişkisi kurma ve ‘step10_feedback_for_gaps: Eksik bil…’ bağlamını kavrama yeterliğini güçlendirir.
 
 ### Ders içi uygulama
 
@@ -10839,21 +10859,22 @@ Bu görev, E-posta içerik taslağı — 1-13. adımlar kararlarını gerçek bi
 
 - İlgili-ilgisiz bütün bilgileri e-postaya eklemek.
 - Akran geri bildirimini almakla yetinip taslağı revize etmemek.
-- E-postada konu satırı ve hitabın gereksiz olduğunu, yalnız ana metnin yeterli olacağını düşünmek.
+- ‘E-posta içerik taslağı — 1-13. adımlar (T1V23_P77_CONTENT_10_13)’ türünde hitap ve kapanış ifadelerini biçimsel süs sanıp muhatapla kurulan ilişkinin işlevini gözden kaçırmak.
 
 ### Müdahale
 
-- E-posta içerik taslağı — 1-13. adımlar — basılı s.77 için müdahale: Öğrenciye aynı metni konu satırı olmayan ve alıcısı belirtilmeyen biçimde okutun; oluşan belirsizlikleri metinde işaretletin. Müdahaleyi ‘E-posta içerik taslağı — 1-13. adımlar — İçerik Oluşturabilme — 10-13. basamaklar’ ayrıntısını kullandırarak somutlaştırın.
-- E-posta içerik taslağı — 1-13. adımlar — basılı s.77 için müdahale: Resmî ve kişisel iki alıcı seçtirip değişmesi gereken hitap, söz varlığı ve kapanış bölümlerini yeniden yazdırın. Müdahaleyi ‘E-posta içerik taslağı — 1-13. adımlar — İçerik Oluşturabilme — 10-13. basamaklar’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciye ‘E-posta içerik taslağı — 1-13. adımlar (T1V23_P77_CONTENT_10_13)’ çerçevesinde ‘ilgili ilgisiz bütün bilgileri’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- ‘E-posta içerik taslağı — 1-13. adımlar (T1V23_P77_CONTENT_10_13)’ doğrultusunda ‘akran geri bildirimini almakla’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Öğrenciye gönderici-alıcı ilişkisini iki farklı örnek üzerinden karşılaştırın; ‘E-posta içerik taslağı — 1-13. adımlar (T1V23_P77_CONTENT_10_13)’ hitap seçiminin iletişim amacına etkisini gösterin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Amaç–ileti–zorunlu bilgi–ek–dil işlevi–geri bildirim başlıklarıyla aşamalı plan ver.
-- Öğrenciye önce ‘Kime? Neden? Ne istiyorum? Hangi ek gerekli?’ dört sorusunu cevaplatıp sonra e-posta alanlarını doldurtun. Bu görevde bağlantı noktası: E-posta içerik taslağı — 1-13. adımlar.
+- Öğrenciye ‘Kitapta “İçerik Oluşturabilme — 10-…’ için akranıyla fikir alışverişi yaptırarak yazma/konuşma planını netleştirmesini sağlayın.
 **Zenginleştirme**
 - Aynı içeriğin resmî ve samimi iki farklı alıcı için nasıl değişeceğini yeniden tasarlat.
-- Aynı e-postanın daha resmî ve daha yakın iki sürümünü yazdırarak üslup kararlarını gerekçelendirin. Bu görevde derinleştirme odağı: E-posta içerik taslağı — 1-13. adımlar.
+- ‘Kitapta “İçerik Oluşturabilme — 10-…’ çalışmasını farklı bir hedef kitleye veya iletişim kanalına uyarlayarak ‘step10_feedback_for_gaps: Eksi…’ etkisini karşılaştırmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -10914,26 +10935,26 @@ Kitapta “Kural Uygulayabilme” başlığı altında verilen çalışma/yöner
 
 ### Açıklama ve gerekçe
 
-E-posta yazma — kitap kontrol listesi — basılı s.77 için cevap, E-posta yazma — kitap kontrol listesi ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Metni tür, amaç, konu ve alıcıya uygun biçimde düzenler. İletiyi açık, tutarlı ve uygun söz varlığıyla kurar.
+Bu görev, ‘Kitapta “Kural Uygulayabilme” başlığı altında veri…’ yönergesini E-posta yazma — kitap kontrol listesi bağlamında hayata geçiren bir uygulama ve ürün çalışmasıdır. Başarı ölçütü; öğrencinin Metni tür, amaç, konu ve alıcıya uygun biçimde düzenler. İletiyi açık, tutarlı ve uygun söz varlığıyla kurar. basamaklarını eksiksiz yürütmesi ve çalışmasını kaynak dayanaklarıyla uyumlu kurmasıdır.
 
 ### Öğretmenin bilmesi gerekenler
 
-E-posta yazma — kitap kontrol listesi — basılı s.77 için e-postayı yalnız teknik bir form doldurma işi olarak değil, amacı ve hedef alıcısı belirlenmiş işlevsel bir yazma ürünü olarak açıklayın. Konu satırı, hitap, ana ileti, paragraf düzeni, ekler, gönderim zamanı ve mahremiyet aynı iletişim kararının parçalarıdır. Dijital ortam hız kazandırsa da açıklık, nezaket, güvenlik ve yazım özeni gereksinimini ortadan kaldırmaz. Bu görevde özellikle ‘E-posta yazma — kitap kontrol listesi — Kural Uygulayabilme’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Noktalama işaretleri metnin ritmini, duraklarını ve mantıksal cümle hiyerarşisini kurar. Noktalı virgül (;), ögeleri arasında virgül bulunan sıralı cümleleri ayırmada ve virgülle ayrılmış farklı tür/takımları gruplamada kullanılır; iki bağımsız yargı arasındaki geçişi yumuşatır. İki nokta ise açıklama veya doğrudan aktarım öncesinde yer alır. Öğretmen, işaretlerin mekanik kurallarından ziyade cümlenin anlam sınırlarını nasıl belirlediğini ve iletinin açıklığına katkısını göstermelidir. Bu görevde öğretmen, ‘Kitapta “Kural Uygulayabilme” başlığı altında veri…’ yönergesini ele alırken sınıf ortamında E-posta yazma — kitap kontrol listesi boyutunu öne çıkarmalı ve ‘rule_checklist: ['İçeriğe uygun konu sat…’ yönündeki metin dayanaklarını desteklemelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> E-postada biçim, alıcıya ve amaca hızlı ve açık ulaşmayı sağlayan bir düzen kurar. Bu görevde özellikle E-posta yazma — kitap kontrol listesi üzerinde durun.
+> Bu çalışmayı yaparken metni dikkatle gözden geçirerek ‘Kitapta “Kural Uygulayabilme” başlığı altında…’ ile ilgili kanıtları belirleyin; ulaştığınız yargıları E-posta yazma — kitap kontrol listesi ve ‘rule_checklist: ['İçeriğe uygun kon…’ çerçevesinde gerekçelendirerek ifade edin.
 
 ### Bu görev neden burada?
 
-Bu görev, E-posta yazma — kitap kontrol listesi kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar.
+E-posta yazma — kitap kontrol listesi eksenindeki bu çalışma, ‘Kitapta “Kural Uygulayabilme” başlığı altında…’ konusunu ele alırken öğrencinin yüzeysel okumadan analitik çözümlemeye geçişini ve ‘rule_checklist: ['İçeriğe uygun kon…’ bağlantısını kurmasını destekler.
 
 ### Ders içi uygulama
 
 - Kural Uygulayabilme bölümünü tek bir 'imla kontrolü' olarak göstermeyin; konu satırı, hitap, akış, düşünceyi geliştirme, üslup ve ileti de kontrol edilir.
 - İlk taslak ile düzenlenmiş ürün arasındaki değişiklikleri görünür kıl.
 - Kural listesini yalnız imla kontrolü olarak kullanmayın; alıcı, amaç, hitap, bütünlük ve dil işlevini de ürün üzerinde gözleyin.
-- E-posta yazma — kitap kontrol listesi — basılı s.77 için öğrencinin taslağını göndermeden önce konu satırı, hitap, ana istek ve ek gerekçesini ayrı ayrı kontrol ettirin.
+- Öğrencilere ‘E-posta yazma — kitap kontrol listesi (T1V23_P77_RULES)’ bağlamındaki anahtar kavramları listeleterek metin taraması yapmalarını sağlayın.
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -10946,21 +10967,22 @@ Bu görev, E-posta yazma — kitap kontrol listesi kararlarını gerçek bir dij
 
 - Yazma görevini yalnız yazım-noktalama kontrolüne indirgemek.
 - Kitaptaki değer/hassasiyet maddelerini bağlamdan bağımsız hazır cümle ekleme zorunluluğu sanmak.
-- E-postada konu satırı ve hitabın gereksiz olduğunu, yalnız ana metnin yeterli olacağını düşünmek.
+- ‘E-posta yazma — kitap kontrol listesi (T1V23_P77_RULES)’ yazımında resmî ve samimi mektubun üslup gerekliliklerini birbiriyle karıştırmak.
 
 ### Müdahale
 
-- E-posta yazma — kitap kontrol listesi — basılı s.77 için müdahale: Öğrenciye aynı metni konu satırı olmayan ve alıcısı belirtilmeyen biçimde okutun; oluşan belirsizlikleri metinde işaretletin. Müdahaleyi ‘E-posta yazma — kitap kontrol listesi — Kural Uygulayabilme’ ayrıntısını kullandırarak somutlaştırın.
-- E-posta yazma — kitap kontrol listesi — basılı s.77 için müdahale: Resmî ve kişisel iki alıcı seçtirip değişmesi gereken hitap, söz varlığı ve kapanış bölümlerini yeniden yazdırın. Müdahaleyi ‘E-posta yazma — kitap kontrol listesi — Kural Uygulayabilme’ ayrıntısını kullandırarak somutlaştırın.
+- ‘E-posta yazma — kitap kontrol listesi (T1V23_P77_RULES)’ doğrultusunda ‘yazma görevini yalnız yazım’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Öğrenciden ‘E-posta yazma — kitap kontrol listesi (T1V23_P77_RULES)’ bağlamında ‘kitaptaki değer hassasiyet maddelerini’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- Muhataba göre dil ve anlatım tercihlerinin nasıl değiştiğini ‘E-posta yazma — kitap kontrol listesi (T1V23_P77_RULES)’ için tahtada oluşturulacak iki sütunlu tabloda karşılaştırarak belirleyin ve bağlamını tartışın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Konu–hitap–ileti–akış–üslup–söz varlığı–yazım/noktalama sırasıyla kısa kontrol listesi ver.
-- Öğrenciye önce ‘Kime? Neden? Ne istiyorum? Hangi ek gerekli?’ dört sorusunu cevaplatıp sonra e-posta alanlarını doldurtun. Bu görevde bağlantı noktası: E-posta yazma — kitap kontrol listesi.
+- ‘Kitapta “Kural Uygulayabilme” başlı…’ hedefine yönelik bir kontrol listesi vererek öğrencinin ‘rule_checklist: ['İçeriğe uygu…’ basamağını adım adım denetlemesini sağlayın.
 **Zenginleştirme**
 - İlk taslak ile son ürün arasındaki en etkili üç değişikliği gerekçelendirmesini iste.
-- Aynı e-postanın daha resmî ve daha yakın iki sürümünü yazdırarak üslup kararlarını gerekçelendirin. Bu görevde derinleştirme odağı: E-posta yazma — kitap kontrol listesi.
+- Öğrencinin ‘Kitapta “Kural Uygulayabilme” başlı…’ bağlamındaki ürününü sınıf panosunda sergileyip E-posta yazma — kitap kontrol listesi sürecinin sunumunu yapmasını sağlayın.
 
 ### Kaynak ve durum
 
@@ -11008,19 +11030,19 @@ Kitapta “Süreci Değerlendirebilme — Değerlendirme” başlığı altında
 
 ### Açıklama ve gerekçe
 
-ölçüt kullanarak değerlendirme — basılı s.78 için beklenen yön, ölçüt kullanarak değerlendirme yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Öz değerlendirme formunu kendi ürününe dayanarak doldurur. 'Kısmen/Hayır' işaretlediği beceriyi sonraki geliştirme adımıyla ilişkilendirir.
+Soruya verilecek uygun cevap, ‘Kitapta “Süreci Değerlendirebilme — Değerlendirme”…’ yönündeki çıkarımı ölçüt kullanarak değerlendirme hedefleri doğrultusunda yapılandırır. Çözümlemenin geçerliliği, Öz değerlendirme formunu kendi ürününe dayanarak doldurur. 'Kısmen/Hayır' işaretlediği beceriyi sonraki geliştirme adımıyla ilişkilendirir. koşuluna uyulması ve iddiaların metindeki açık veya örtük ifadelerle doğrulanmasıyla sağlanır. Öğrencinin akıl yürütme süreci; sorunun işaret ettiği metin bölümünü belirlemek, oradaki dil ve anlatım ipuçlarını değerlendirmek ve ulaştığı yargıyı gerekçelendirmektir. Metin özüyle örtüşen ve mantıksal nedensellik taşıyan alternatif anlatımlar doğru yanıt olarak değerlendirilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-ölçüt kullanarak değerlendirme — basılı s.78 için e-postayı yalnız teknik bir form doldurma işi olarak değil, amacı ve hedef alıcısı belirlenmiş işlevsel bir yazma ürünü olarak açıklayın. Konu satırı, hitap, ana ileti, paragraf düzeni, ekler, gönderim zamanı ve mahremiyet aynı iletişim kararının parçalarıdır. Dijital ortam hız kazandırsa da açıklık, nezaket, güvenlik ve yazım özeni gereksinimini ortadan kaldırmaz. Bu görevde özellikle ‘E-posta değerlendirme, öz değerlendirme ve çıkış kartı — Süreci Değerlendirebilme — Değerlendirme’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Noktalama işaretleri metnin ritmini, duraklarını ve mantıksal cümle hiyerarşisini kurar. Noktalı virgül (;), ögeleri arasında virgül bulunan sıralı cümleleri ayırmada ve virgülle ayrılmış farklı tür/takımları gruplamada kullanılır; iki bağımsız yargı arasındaki geçişi yumuşatır. İki nokta ise açıklama veya doğrudan aktarım öncesinde yer alır. Öğretmen, işaretlerin mekanik kurallarından ziyade cümlenin anlam sınırlarını nasıl belirlediğini ve iletinin açıklığına katkısını göstermelidir. Bu görev sürecinde öğretmen, ölçüt kullanarak değerlendirme doğrultusunda ‘Kitapta “Süreci Değerlendirebilme — Değerlendirme”…’ sorusunu çözümlerken öğrencilerin somut metin delilleriyle argüman geliştirmelerini teşvik etmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> E-postada biçim, alıcıya ve amaca hızlı ve açık ulaşmayı sağlayan bir düzen kurar. Bu görevde özellikle ölçüt kullanarak değerlendirme üzerinde durun.
+> Yönergeyi uygularken önce metindeki ‘Kitapta “Süreci Değerlendirebilme — Değerlend…’ ifadelerini işaretleyin; ardından bu unsurların ölçüt kullanarak değerlendirme hedefine nasıl hizmet ettiğini ve ‘Öğrenci e-postasını yeniden okuyup …’ ile ilişkisini açıklayın.
 
 ### Bu görev neden burada?
 
-Bu görev, ölçüt kullanarak değerlendirme kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar.
+Bu etkinlik, ölçüt kullanarak değerlendirme alanında ‘Kitapta “Süreci Değerlendirebilme — Değerlend…’ doğrultusunda öğrencinin kendi düşüncesini kaynak dayanaklarıyla savunmasını ve tutarlı bir ifade becerisi inşa etmesini amaçlar.
 
 ### Kabul edilebilir cevaplar
 
@@ -11036,8 +11058,8 @@ Bu görev, ölçüt kullanarak değerlendirme kararlarını gerçek bir dijital 
 
 ### Takip soruları
 
-- ölçüt kullanarak değerlendirme — basılı s.78 için düşünme sorusu: Bu ek gerçekten alıcının karar vermesine yardım ediyor mu, yoksa yalnızca metni kalabalıklaştırıyor mu? Özellikle ‘E-posta değerlendirme, öz değerlendirme ve çıkış kartı — Süreci Değerlendirebilme — Değerlendirme’ ayrıntısını yoklayın.
-- ölçüt kullanarak değerlendirme — basılı s.78 için seçtiğin dil, alıcıyla ilişkin ve iletinin aciliyetiyle nasıl uyumlu? Özellikle ‘E-posta değerlendirme, öz değerlendirme ve çıkış kartı — Süreci Değerlendirebilme — Değerlendirme’ ayrıntısını yoklayın.
+- ‘ölçüt kullanarak değerlendirme (T1V23_P78_REVISION)’ konusunda belirlediğiniz ölçütler, metnin ait olduğu tarihsel ve edebî dönemin gerçekliğiyle ne ölçüde tutarlıdır?
+- ‘ölçüt kullanarak değerlendirme (T1V23_P78_REVISION)’ görevinde uygulanan değerlendirme ölçütleri, öğrencinin ölçüt kullanarak değerlendirme yeterliğini tarafsız biçimde ölçmekte yeterli midir?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -11050,21 +11072,22 @@ Bu görev, ölçüt kullanarak değerlendirme kararlarını gerçek bir dijital 
 
 - Öz değerlendirmeyi yalnız form doldurma olarak görmek.
 - Görünmeyen QR rubriğinin seviye tanımlarını tahmin ederek resmî ölçüt gibi kullanmak.
-- E-postada konu satırı ve hitabın gereksiz olduğunu, yalnız ana metnin yeterli olacağını düşünmek.
+- Metindeki örtük anlamları ve yazarın ima ettiği düşünceleri göz ardı edip ‘ölçüt kullanarak değerlendirme (T1V23_P78_REVISION)’ için yalnızca açık ifadelere odaklanmak.
 
 ### Müdahale
 
-- ölçüt kullanarak değerlendirme — basılı s.78 için müdahale: Öğrenciye aynı metni konu satırı olmayan ve alıcısı belirtilmeyen biçimde okutun; oluşan belirsizlikleri metinde işaretletin. Müdahaleyi ‘E-posta değerlendirme, öz değerlendirme ve çıkış kartı — Süreci Değerlendirebilme — Değerlendirme’ ayrıntısını kullandırarak somutlaştırın.
-- ölçüt kullanarak değerlendirme — basılı s.78 için müdahale: Resmî ve kişisel iki alıcı seçtirip değişmesi gereken hitap, söz varlığı ve kapanış bölümlerini yeniden yazdırın. Müdahaleyi ‘E-posta değerlendirme, öz değerlendirme ve çıkış kartı — Süreci Değerlendirebilme — Değerlendirme’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciye ‘ölçüt kullanarak değerlendirme (T1V23_P78_REVISION)’ çerçevesinde ‘öz değerlendirmeyi yalnız form’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- ‘ölçüt kullanarak değerlendirme (T1V23_P78_REVISION)’ doğrultusunda ‘görünmeyen qr rubriğinin seviye’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- ‘ölçüt kullanarak değerlendirme (T1V23_P78_REVISION)’ metnindeki benzetme, karşıtlık ve çağrışım unsurlarını işaretleterek yazarın satır aralarındaki örtük anlamını ve amacını sorgulatın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Bir 'Kısmen/Hayır' maddesi seçip bunun için tek somut geliştirme adımı yazdır.
-- Öğrenciye önce ‘Kime? Neden? Ne istiyorum? Hangi ek gerekli?’ dört sorusunu cevaplatıp sonra e-posta alanlarını doldurtun. Bu görevde bağlantı noktası: ölçüt kullanarak değerlendirme.
+- Öğrenciye bir çalışma kâğıdı vererek ‘Kitapta “Süreci Değerlendirebilme —…’ için metinde geçen olumlu ve olumsuz göstergeleri iki sütun hâlinde gruplatın.
 **Zenginleştirme**
 - İlk ürün, öz değerlendirme ve son ürün arasındaki değişimi kısa yansıtma notuyla açıklat.
-- Aynı e-postanın daha resmî ve daha yakın iki sürümünü yazdırarak üslup kararlarını gerekçelendirin. Bu görevde derinleştirme odağı: ölçüt kullanarak değerlendirme.
+- Metindeki ‘Kitapta “Süreci Değerlendirebilme —…’ durumunu güncel bir olay veya sanat eseriyle kıyaslayarak ‘Öğrenci e-postasını yeniden ok…’ ekseninde disiplinler arası bir değerlendirme yaptırın.
 
 ### Kaynak ve durum
 
@@ -11122,19 +11145,19 @@ Kitapta “Süreci Değerlendirebilme — Öz Değerlendirme Formu” başlığ�
 
 ### Açıklama ve gerekçe
 
-ölçüt kullanarak değerlendirme — basılı s.78 için beklenen yön, ölçüt kullanarak değerlendirme yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Öz değerlendirme formunu kendi ürününe dayanarak doldurur. 'Kısmen/Hayır' işaretlediği beceriyi sonraki geliştirme adımıyla ilişkilendirir.
+Beklenen cevap, ölçüt kullanarak değerlendirme çerçevesinde ‘Kitapta “Süreci Değerlendirebilme — Öz Değerlendir…’ konusunu metnin sunduğu veriler ve kavramsal dayanaklar üzerinden şekillendirir. Bu cevabın uygunluğu, Öz değerlendirme formunu kendi ürününe dayanarak doldurur. 'Kısmen/Hayır' işaretlediği beceriyi sonraki geliştirme adımıyla ilişkilendirir. ölçütünün karşılanmasına ve öğrencinin metindeki olay/durum ayrıntılarını nedensellik bağıyla kurmasına dayanır. Öğrencinin izlemesi gereken çıkarım yolu; öncelikle metindeki kanıt niteliği taşıyan ifadeleri belirlemek, ardından bu göstergeleri kavramsal odakla ilişkilendirerek kendi gerekçeli açıklamasını oluşturmaktır. Öğrenci aynı sonucu farklı sözcüklerle ifade edebilir; temel iddia ile metin dayanağı arasındaki mantıksal tutarlılık korunduğu sürece kişisel yorumlar alternatif cevap olarak kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-ölçüt kullanarak değerlendirme — basılı s.78 için e-postayı yalnız teknik bir form doldurma işi olarak değil, amacı ve hedef alıcısı belirlenmiş işlevsel bir yazma ürünü olarak açıklayın. Konu satırı, hitap, ana ileti, paragraf düzeni, ekler, gönderim zamanı ve mahremiyet aynı iletişim kararının parçalarıdır. Dijital ortam hız kazandırsa da açıklık, nezaket, güvenlik ve yazım özeni gereksinimini ortadan kaldırmaz. Bu görevde özellikle ‘E-posta değerlendirme, öz değerlendirme ve çıkış kartı — Süreci Değerlendirebilme — Öz…’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev tahlilinde öğretmen, ölçüt kullanarak değerlendirme odağında ‘Kitapta “Süreci Değerlendirebilme — Öz Değerlendir…’ sorusuna yönelik yanıtların metin içi tutarlılığını denetlemeli ve yüzeysel yorumların ötesine geçilmesini sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> E-postada biçim, alıcıya ve amaca hızlı ve açık ulaşmayı sağlayan bir düzen kurar. Bu görevde özellikle ölçüt kullanarak değerlendirme üzerinde durun.
+> Görevin temel amacı, ‘Kitapta “Süreci Değerlendirebilme — Öz Değerl…’ ayrıntısı üzerinden ölçüt kullanarak değerlendirme kavramını kavramanızdır. Metindeki ilgili cümleleri bularak ‘['İçeriğe uygun taslak oluşturma', …’ bağlamındaki düşüncenizi kendi cümlelerinizle ortaya koyun.
 
 ### Bu görev neden burada?
 
-Bu görev, ölçüt kullanarak değerlendirme kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar.
+Bu soru, ‘Kitapta “Süreci Değerlendirebilme — Öz Değerl…’ ayrıntısını ölçüt kullanarak değerlendirme ile birleştirerek dil ve edebiyat çalışmalarında neden-sonuç ilişkisi kurma ve ‘['İçeriğe uygun taslak oluşturma', …’ bağlamını kavrama yeterliğini güçlendirir.
 
 ### Kabul edilebilir cevaplar
 
@@ -11150,8 +11173,8 @@ Bu görev, ölçüt kullanarak değerlendirme kararlarını gerçek bir dijital 
 
 ### Takip soruları
 
-- ölçüt kullanarak değerlendirme — basılı s.78 için düşünme sorusu: Bu ek gerçekten alıcının karar vermesine yardım ediyor mu, yoksa yalnızca metni kalabalıklaştırıyor mu? Özellikle ‘E-posta değerlendirme, öz değerlendirme ve çıkış kartı — Süreci Değerlendirebilme — Öz…’ ayrıntısını yoklayın.
-- ölçüt kullanarak değerlendirme — basılı s.78 için seçtiğin dil, alıcıyla ilişkin ve iletinin aciliyetiyle nasıl uyumlu? Özellikle ‘E-posta değerlendirme, öz değerlendirme ve çıkış kartı — Süreci Değerlendirebilme — Öz…’ ayrıntısını yoklayın.
+- ‘ölçüt kullanarak değerlendirme (T1V23_P78_SELF)’ odağındaki yargıyı çürütebilecek karşıt bir görüş hangi ölçütlere dayandırılabilir?
+- ‘ölçüt kullanarak değerlendirme (T1V23_P78_SELF)’ konusunda belirlediğiniz ölçütler, metnin ait olduğu tarihsel ve edebî dönemin gerçekliğiyle ne ölçüde tutarlıdır?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -11164,21 +11187,22 @@ Bu görev, ölçüt kullanarak değerlendirme kararlarını gerçek bir dijital 
 
 - Öz değerlendirmeyi yalnız form doldurma olarak görmek.
 - Görünmeyen QR rubriğinin seviye tanımlarını tahmin ederek resmî ölçüt gibi kullanmak.
-- E-postada konu satırı ve hitabın gereksiz olduğunu, yalnız ana metnin yeterli olacağını düşünmek.
+- Metinde art arda gelen durumları veya olayları doğrudan bir neden-sonuç ilişkisi sanarak ölçüt kullanarak değerlendirme çıkarımında yanılgıya düşmek.
 
 ### Müdahale
 
-- ölçüt kullanarak değerlendirme — basılı s.78 için müdahale: Öğrenciye aynı metni konu satırı olmayan ve alıcısı belirtilmeyen biçimde okutun; oluşan belirsizlikleri metinde işaretletin. Müdahaleyi ‘E-posta değerlendirme, öz değerlendirme ve çıkış kartı — Süreci Değerlendirebilme — Öz…’ ayrıntısını kullandırarak somutlaştırın.
-- ölçüt kullanarak değerlendirme — basılı s.78 için müdahale: Resmî ve kişisel iki alıcı seçtirip değişmesi gereken hitap, söz varlığı ve kapanış bölümlerini yeniden yazdırın. Müdahaleyi ‘E-posta değerlendirme, öz değerlendirme ve çıkış kartı — Süreci Değerlendirebilme — Öz…’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciden ‘ölçüt kullanarak değerlendirme (T1V23_P78_SELF)’ bağlamında ‘öz değerlendirmeyi yalnız form’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- ‘ölçüt kullanarak değerlendirme (T1V23_P78_SELF)’ incelemesinde ‘görünmeyen qr rubriğinin seviye’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Olaylar arasındaki mantıksal nedensellik bağını ve gerekçe ifadelerini ‘ölçüt kullanarak değerlendirme (T1V23_P78_SELF)’ metni üzerinde buldurup sebep-sonuç farkını gösterin ve tartışın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Bir 'Kısmen/Hayır' maddesi seçip bunun için tek somut geliştirme adımı yazdır.
-- Öğrenciye önce ‘Kime? Neden? Ne istiyorum? Hangi ek gerekli?’ dört sorusunu cevaplatıp sonra e-posta alanlarını doldurtun. Bu görevde bağlantı noktası: ölçüt kullanarak değerlendirme.
+- ‘Kitapta “Süreci Değerlendirebilme —…’ öz değerlendirmesinde zorlanan öğrenciye derste işlenen en belirgin kavramı hatırlatarak tek bir maddeye odaklanmasını sağlayın.
 **Zenginleştirme**
 - İlk ürün, öz değerlendirme ve son ürün arasındaki değişimi kısa yansıtma notuyla açıklat.
-- Aynı e-postanın daha resmî ve daha yakın iki sürümünü yazdırarak üslup kararlarını gerekçelendirin. Bu görevde derinleştirme odağı: ölçüt kullanarak değerlendirme.
+- Öğrenciden ‘Kitapta “Süreci Değerlendirebilme —…’ sürecinde edindiği kazanımı bir sonraki derse taşıyacak özgün bir araştırma sorusu formüle etmesini isteyin.
 
 ### Kaynak ve durum
 
@@ -11229,19 +11253,19 @@ Kitapta “Tema Sonu Değerlendirme — Çıkış Kartı” başlığı altında
 
 ### Açıklama ve gerekçe
 
-ölçüt kullanarak değerlendirme — basılı s.78 için beklenen yön, ölçüt kullanarak değerlendirme yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Öz değerlendirme formunu kendi ürününe dayanarak doldurur. 'Kısmen/Hayır' işaretlediği beceriyi sonraki geliştirme adımıyla ilişkilendirir.
+Beklenen cevabın temeli, ölçüt kullanarak değerlendirme ekseninde ‘Kitapta “Tema Sonu Değerlendirme — Çıkış Kartı” ba…’ bağlamını aydınlatan metin kanıtlarının doğru tahlil edilmesidir. Yanıtın kabul edilebilirliği; Öz değerlendirme formunu kendi ürününe dayanarak doldurur. 'Kısmen/Hayır' işaretlediği beceriyi sonraki geliştirme adımıyla ilişkilendirir. ölçütüne bağlı kalınmasına ve metindeki verilerin tarafsız biçimde yorumlanmasına bağlıdır. Öğrenci; önce ilgili bilgiyi kaynaktan süzmeli, ardından bu bilgiyi sorunun gerektirdiği kavramsal çerçeveye oturtmalıdır. Metin sınırlarını aşmayan ve dayanağı gösterilen özgün öğrenci yorumları da geçerli sayılır.
 
 ### Öğretmenin bilmesi gerekenler
 
-ölçüt kullanarak değerlendirme — basılı s.78 için e-postayı yalnız teknik bir form doldurma işi olarak değil, amacı ve hedef alıcısı belirlenmiş işlevsel bir yazma ürünü olarak açıklayın. Konu satırı, hitap, ana ileti, paragraf düzeni, ekler, gönderim zamanı ve mahremiyet aynı iletişim kararının parçalarıdır. Dijital ortam hız kazandırsa da açıklık, nezaket, güvenlik ve yazım özeni gereksinimini ortadan kaldırmaz. Bu görevde özellikle ‘E-posta değerlendirme, öz değerlendirme ve çıkış kartı — Tema Sonu Değerlendirme —…’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev adımında öğretmen, ‘Kitapta “Tema Sonu Değerlendirme — Çıkış Kartı” ba…’ ile ilgili sınıf tartışmasını ölçüt kullanarak değerlendirme zemininde yapılandırmalı ve ‘Üç Yaz: temayla ilgili üç öğrenme; İki S…’ doğrultusundaki tespitleri metin üzerinden teyit ettirmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> E-postada biçim, alıcıya ve amaca hızlı ve açık ulaşmayı sağlayan bir düzen kurar. Bu görevde özellikle ölçüt kullanarak değerlendirme üzerinde durun.
+> Bu etkinlikte amacınız, ‘Kitapta “Tema Sonu Değerlendirme — Çıkış Kart…’ konusunu ölçüt kullanarak değerlendirme perspektifinden tahlil etmektir. İddialarınızı metinden somut göstergelerle destekleyerek ‘Üç Yaz: temayla ilgili üç öğrenme; …’ niteliğinde bir çıkarım yapın.
 
 ### Bu görev neden burada?
 
-Bu görev, ölçüt kullanarak değerlendirme kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar.
+Görev, ‘Kitapta “Tema Sonu Değerlendirme — Çıkış Kart…’ konusundaki gözlemleri ölçüt kullanarak değerlendirme ile sentezleyerek metin çözümleme disiplinini pekiştirir ve öğrencinin ‘Üç Yaz: temayla ilgili üç öğrenme; …’ odaklı eleştirel düşünme kapasitesini artırır.
 
 ### Kabul edilebilir cevaplar
 
@@ -11257,8 +11281,8 @@ Bu görev, ölçüt kullanarak değerlendirme kararlarını gerçek bir dijital 
 
 ### Takip soruları
 
-- ölçüt kullanarak değerlendirme — basılı s.78 için düşünme sorusu: Bu ek gerçekten alıcının karar vermesine yardım ediyor mu, yoksa yalnızca metni kalabalıklaştırıyor mu? Özellikle ‘E-posta değerlendirme, öz değerlendirme ve çıkış kartı — Tema Sonu Değerlendirme —…’ ayrıntısını yoklayın.
-- ölçüt kullanarak değerlendirme — basılı s.78 için seçtiğin dil, alıcıyla ilişkin ve iletinin aciliyetiyle nasıl uyumlu? Özellikle ‘E-posta değerlendirme, öz değerlendirme ve çıkış kartı — Tema Sonu Değerlendirme —…’ ayrıntısını yoklayın.
+- ‘ölçüt kullanarak değerlendirme (T1V23_P78_EXIT)’ odağındaki yargıyı çürütebilecek karşıt bir görüş hangi ölçütlere dayandırılabilir?
+- ‘ölçüt kullanarak değerlendirme (T1V23_P78_EXIT)’ görevinde uygulanan değerlendirme ölçütleri, öğrencinin ölçüt kullanarak değerlendirme yeterliğini tarafsız biçimde ölçmekte yeterli midir?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -11271,21 +11295,22 @@ Bu görev, ölçüt kullanarak değerlendirme kararlarını gerçek bir dijital 
 
 - Öz değerlendirmeyi yalnız form doldurma olarak görmek.
 - Görünmeyen QR rubriğinin seviye tanımlarını tahmin ederek resmî ölçüt gibi kullanmak.
-- E-postada konu satırı ve hitabın gereksiz olduğunu, yalnız ana metnin yeterli olacağını düşünmek.
+- ‘ölçüt kullanarak değerlendirme (T1V23_P78_EXIT)’ incelemesinde ulaşılan sonucu metin dışı genel bilgilerle karıştırıp ölçüt kullanarak değerlendirme sınırlarının dışına çıkmak.
 
 ### Müdahale
 
-- ölçüt kullanarak değerlendirme — basılı s.78 için müdahale: Öğrenciye aynı metni konu satırı olmayan ve alıcısı belirtilmeyen biçimde okutun; oluşan belirsizlikleri metinde işaretletin. Müdahaleyi ‘E-posta değerlendirme, öz değerlendirme ve çıkış kartı — Tema Sonu Değerlendirme —…’ ayrıntısını kullandırarak somutlaştırın.
-- ölçüt kullanarak değerlendirme — basılı s.78 için müdahale: Resmî ve kişisel iki alıcı seçtirip değişmesi gereken hitap, söz varlığı ve kapanış bölümlerini yeniden yazdırın. Müdahaleyi ‘E-posta değerlendirme, öz değerlendirme ve çıkış kartı — Tema Sonu Değerlendirme —…’ ayrıntısını kullandırarak somutlaştırın.
+- ‘ölçüt kullanarak değerlendirme (T1V23_P78_EXIT)’ doğrultusunda ‘öz değerlendirmeyi yalnız form’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Öğrenciden ‘ölçüt kullanarak değerlendirme (T1V23_P78_EXIT)’ bağlamında ‘görünmeyen qr rubriğinin seviye’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- ‘ölçüt kullanarak değerlendirme (T1V23_P78_EXIT)’ için değerlendirmenin yalnızca verilen metin verileri çerçevesinde yapılması gerektiğini belirleyip kanıt sınırlarını çizdirin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Bir 'Kısmen/Hayır' maddesi seçip bunun için tek somut geliştirme adımı yazdır.
-- Öğrenciye önce ‘Kime? Neden? Ne istiyorum? Hangi ek gerekli?’ dört sorusunu cevaplatıp sonra e-posta alanlarını doldurtun. Bu görevde bağlantı noktası: ölçüt kullanarak değerlendirme.
+- Öğrencinin ‘Kitapta “Tema Sonu Değerlendirme — …’ konusundaki öğrenme deneyimini bir akranıyla paylaşarak ölçüt kullanarak değerlendirme farkındalığı kazanmasını destekleyin.
 **Zenginleştirme**
 - İlk ürün, öz değerlendirme ve son ürün arasındaki değişimi kısa yansıtma notuyla açıklat.
-- Aynı e-postanın daha resmî ve daha yakın iki sürümünü yazdırarak üslup kararlarını gerekçelendirin. Bu görevde derinleştirme odağı: ölçüt kullanarak değerlendirme.
+- ‘Kitapta “Tema Sonu Değerlendirme — …’ alanında kendi öğrenme sürecini eleştirel gözle değerlendiren ve hedefler koyan bir gelişim notu yazdırın.
 
 ### Kaynak ve durum
 
@@ -11336,19 +11361,19 @@ Kitap sayfasında Türkçenin doğru kullanımı, üslup, özgünlük, gerektiğ
 
 ### Açıklama ve gerekçe
 
-ölçüt kullanarak değerlendirme — basılı s.78 için yerel PDF dışındaki içerik görülmeden sabit bir cevap doğrulanamaz. Öğretmen kaynağı izledikten sonra öğrencinin gözlediği ayrıntıları ölçüt kullanarak değerlendirme ölçütüyle ilişkilendirmeli; görünmeyen medya ayrıntıları rehberde varsayım olarak sunulmamalıdır. Kitabın görünen ölçütü şudur: Öz değerlendirme formunu kendi ürününe dayanarak doldurur. 'Kısmen/Hayır' işaretlediği beceriyi sonraki geliştirme adımıyla ilişkilendirir.
+Bu görevde yerel PDF dışındaki medya veya değerlendirme içeriği görülmeden sabit bir cevap doğrulanamaz. Öğretmen kaynağı inceledikten sonra öğrencinin gözlemlerini ölçüt kullanarak değerlendirme ölçütüyle değerlendirmelidir. Kitabın görünen dayanağı doğrultusunda gerekçeli ve kaynakla tutarlı cevaplar kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-ölçüt kullanarak değerlendirme — basılı s.78 için e-postayı yalnız teknik bir form doldurma işi olarak değil, amacı ve hedef alıcısı belirlenmiş işlevsel bir yazma ürünü olarak açıklayın. Konu satırı, hitap, ana ileti, paragraf düzeni, ekler, gönderim zamanı ve mahremiyet aynı iletişim kararının parçalarıdır. Dijital ortam hız kazandırsa da açıklık, nezaket, güvenlik ve yazım özeni gereksinimini ortadan kaldırmaz. Bu görevde özellikle ‘E-posta değerlendirme, öz değerlendirme ve çıkış kartı — Süreci Değerlendirebilme — Dereceli…’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Noktalama işaretleri metnin ritmini, duraklarını ve mantıksal cümle hiyerarşisini kurar. Noktalı virgül (;), ögeleri arasında virgül bulunan sıralı cümleleri ayırmada ve virgülle ayrılmış farklı tür/takımları gruplamada kullanılır; iki bağımsız yargı arasındaki geçişi yumuşatır. İki nokta ise açıklama veya doğrudan aktarım öncesinde yer alır. Öğretmen, işaretlerin mekanik kurallarından ziyade cümlenin anlam sınırlarını nasıl belirlediğini ve iletinin açıklığına katkısını göstermelidir. Bu görevde öğretmen, ölçüt kullanarak değerlendirme çerçevesinde sorulan ‘Kitapta “Süreci Değerlendirebilme — Dereceli Puanl…’ konusu üzerinden öğrencinin metin kanıtları ile kavramsal çıkarımlar arasındaki ilişkiyi doğru kurmasını sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> E-postada biçim, alıcıya ve amaca hızlı ve açık ulaşmayı sağlayan bir düzen kurar. Bu görevde özellikle ölçüt kullanarak değerlendirme üzerinde durun.
+> Bu görevde sizden beklenen; metindeki ipuçlarından hareketle ‘Kitapta “Süreci Değerlendirebilme — Dereceli …’ konusunu incelemeniz ve ölçüt kullanarak değerlendirme doğrultusunda ‘Kitap sayfasında Türkçenin doğru ku…’ sonucuna nasıl ulaşıldığını adım adım açıklamanızdır.
 
 ### Bu görev neden burada?
 
-Bu görev, ölçüt kullanarak değerlendirme kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar.
+Bu görev, öğrencinin ‘Kitapta “Süreci Değerlendirebilme — Dereceli …’ üzerinden ölçüt kullanarak değerlendirme becerisini somut bir metin bağlamında deneyimlemesini ve iddialarını kanıtla destekleme alışkanlığı kazanmasını sağlar.
 
 ### Kabul edilebilir cevaplar
 
@@ -11363,8 +11388,8 @@ Bu görev, ölçüt kullanarak değerlendirme kararlarını gerçek bir dijital 
 
 ### Takip soruları
 
-- ölçüt kullanarak değerlendirme — basılı s.78 için düşünme sorusu: Bu ek gerçekten alıcının karar vermesine yardım ediyor mu, yoksa yalnızca metni kalabalıklaştırıyor mu? Özellikle ‘E-posta değerlendirme, öz değerlendirme ve çıkış kartı — Süreci Değerlendirebilme — Dereceli…’ ayrıntısını yoklayın.
-- ölçüt kullanarak değerlendirme — basılı s.78 için seçtiğin dil, alıcıyla ilişkin ve iletinin aciliyetiyle nasıl uyumlu? Özellikle ‘E-posta değerlendirme, öz değerlendirme ve çıkış kartı — Süreci Değerlendirebilme — Dereceli…’ ayrıntısını yoklayın.
+- Eğer ‘ölçüt kullanarak değerlendirme (T1V23_P78_QR_LIMIT)’ değerlendirmesinde nesnel metin kanıtları yerine öznel izlenimler ölçüt alınsaydı, ölçüt kullanarak değerlendirme sonucu nasıl değişirdi?
+- ‘ölçüt kullanarak değerlendirme (T1V23_P78_QR_LIMIT)’ konusunda belirlediğiniz ölçütler, metnin ait olduğu tarihsel ve edebî dönemin gerçekliğiyle ne ölçüde tutarlıdır?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -11377,21 +11402,22 @@ Bu görev, ölçüt kullanarak değerlendirme kararlarını gerçek bir dijital 
 
 - Öz değerlendirmeyi yalnız form doldurma olarak görmek.
 - Görünmeyen QR rubriğinin seviye tanımlarını tahmin ederek resmî ölçüt gibi kullanmak.
-- E-postada konu satırı ve hitabın gereksiz olduğunu, yalnız ana metnin yeterli olacağını düşünmek.
+- ‘ölçüt kullanarak değerlendirme (T1V23_P78_QR_LIMIT)’ sorusunda metindeki nesnel kanıtlar yerine kendi kişisel kanaat ve varsayımlarını tek dayanak olarak kabul etmek.
 
 ### Müdahale
 
-- ölçüt kullanarak değerlendirme — basılı s.78 için müdahale: Öğrenciye aynı metni konu satırı olmayan ve alıcısı belirtilmeyen biçimde okutun; oluşan belirsizlikleri metinde işaretletin. Müdahaleyi ‘E-posta değerlendirme, öz değerlendirme ve çıkış kartı — Süreci Değerlendirebilme — Dereceli…’ ayrıntısını kullandırarak somutlaştırın.
-- ölçüt kullanarak değerlendirme — basılı s.78 için müdahale: Resmî ve kişisel iki alıcı seçtirip değişmesi gereken hitap, söz varlığı ve kapanış bölümlerini yeniden yazdırın. Müdahaleyi ‘E-posta değerlendirme, öz değerlendirme ve çıkış kartı — Süreci Değerlendirebilme — Dereceli…’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciden ‘ölçüt kullanarak değerlendirme (T1V23_P78_QR_LIMIT)’ bağlamında ‘öz değerlendirmeyi yalnız form’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- ‘ölçüt kullanarak değerlendirme (T1V23_P78_QR_LIMIT)’ incelemesinde ‘görünmeyen qr rubriğinin seviye’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Öğrenciden ‘ölçüt kullanarak değerlendirme (T1V23_P78_QR_LIMIT)’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Bir 'Kısmen/Hayır' maddesi seçip bunun için tek somut geliştirme adımı yazdır.
-- Öğrenciye önce ‘Kime? Neden? Ne istiyorum? Hangi ek gerekli?’ dört sorusunu cevaplatıp sonra e-posta alanlarını doldurtun. Bu görevde bağlantı noktası: ölçüt kullanarak değerlendirme.
+- ‘Kitapta “Süreci Değerlendirebilme —…’ sorusunu yanıtlamakta zorlanan öğrenciye metindeki ilgili paragrafı işaretleyin; önce anahtar kavramları buldurarak cevabı adım adım kurdurun.
 **Zenginleştirme**
 - İlk ürün, öz değerlendirme ve son ürün arasındaki değişimi kısa yansıtma notuyla açıklat.
-- Aynı e-postanın daha resmî ve daha yakın iki sürümünü yazdırarak üslup kararlarını gerekçelendirin. Bu görevde derinleştirme odağı: ölçüt kullanarak değerlendirme.
+- Öğrenciden ‘Kitapta “Süreci Değerlendirebilme —…’ çerçevesinde ulaştığı ‘Kitap sayfasında Türkçenin doğ…’ sonucunu, okuduğu farklı bir edebî eserle karşılaştıran kısa bir eleştiri yazısı yazmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -11447,57 +11473,57 @@ D
 
 ### Açıklama ve gerekçe
 
-Seçilen seçenek Soru 1 — ölçüt kullanarak değerlendirme — basılı s.79 için gerekli kavramsal ayrımı karşılar; ancak tek başına harfi söylemek düşünmeyi göstermeye yetmez. Öğrenci, ölçüt kullanarak değerlendirme bakımından seçenek ile kaynakta verilen bilgi arasındaki ilişkiyi kısaca açıklamalı ve çeldiricilerin neden elendiğini gösterebilmelidir.
+Doğru cevap D seçeneğidir çünkü ‘Kasiyer ile müşteri diyaloğundaki yanlış anlamanın…’ bağlamında Kasiyerin 'ibraz etmek' sözünün müşteri tarafından ses benzerliğiyle 'itiraz etmek' biçiminde yanlış anlaşılmasını Karagöz'ün dil kaynaklı yanlış anlamalarıyla ilişkilendirir.. Öğrencinin metindeki dayanak cümleleri inceleyerek çeldiricilerin metinle uyuşmayan yönlerini elemesi ve D seçeneğindeki bilginin kaynakla örtüştüğünü gerekçelendirmesi beklenir. Tek başına seçenek harfini söylemek yeterli olmayıp seçeneği doğrulayan metin kanıtı açıklanmalıdır.
 
 ### Öğretmenin bilmesi gerekenler
 
-Karagöz bölümünde Soru 1 — ölçüt kullanarak değerlendirme — basılı s.79 üzerinden geleneksel gölge oyununun seyirlik ve sözlü niteliği ele alınır. Karakterler çoğu zaman yalnız adlarıyla değil, konuşma biçimleri, yanlış anlamaları, toplumsal tipleri ve sahne içindeki işlevleriyle kurulur. Dil farkını bir üstünlük ölçüsü gibi değil, karakterleştirme ve mizahın bağlama bağlı bir aracı olarak açıklayın. Bu görevde özellikle ‘Kasiyer ile müşteri diyaloğundaki yanlış anlamanın Karagöz'ü çağrıştırma nedenini belirleyiniz’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Karagöz oyunu, geleneksel Türk seyirlik sanatlarının gölge oyunu koludur; mukaddime, muhavere, fasıl ve bitiş bölümlerinden oluşur. Baş kişiler Karagöz (halkın sağduyulu, saf, okumamış, dobra ve hazırcevap sesi) ile Hacivat'tır (yarı aydın, çıkarcı, kuralcı ve arabulucu Osmanlı aydını). Tipleştirmede dil, şive taklitleri ve yanlış anlamalar mizahın ana kaynağıdır. Öğretmen, bu dil farklarının bir zekâ eksikliği değil, Osmanlı toplumunun çok kültürlü yapısını yansıtan bir sahneleme tekniği olduğunu açıklamalıdır. Bu görev adımında öğretmen, ‘Kasiyer ile müşteri diyaloğundaki yanlış anlamanın…’ ile ilgili sınıf tartışmasını ölçüt kullanarak değerlendirme zemininde yapılandırmalı ve ‘D…’ doğrultusundaki tespitleri metin üzerinden teyit ettirmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Karagöz’de söylenen söz hem anlam taşır hem de konuşanın kimliğini ve sahnedeki ilişkisini görünür kılar. Bu görevde özellikle ölçüt kullanarak değerlendirme üzerinde durun.
+> Bu etkinlikte amacınız, ‘Kasiyer ile müşteri diyaloğundaki yanlış anla…’ konusunu ölçüt kullanarak değerlendirme perspektifinden tahlil etmektir. İddialarınızı metinden somut göstergelerle destekleyerek ‘D…’ niteliğinde bir çıkarım yapın.
 
 ### Bu görev neden burada?
 
-Bu görev, ölçüt kullanarak değerlendirme bakımından sözlü kültür ürününün biçimsel özelliğini metin kanıtına dönüştürür.
+Görev, ‘Kasiyer ile müşteri diyaloğundaki yanlış anla…’ konusundaki gözlemleri ölçüt kullanarak değerlendirme ile sentezleyerek metin çözümleme disiplinini pekiştirir ve öğrencinin ‘D…’ odaklı eleştirel düşünme kapasitesini artırır.
 
 ### Ders içi uygulama
 
 - Doğru seçenek D'dir; temel kanıt ses benzerliğine dayalı yanlış anlama ve Karagöz'ün tip özelliğidir.
-- Soru 1 — ölçüt kullanarak değerlendirme — basılı s.79 için öğrencinin seçtiği söz veya sahne ayrıntısını önce aynen işaretletin; ardından bu ayrıntının hangi karakter özelliğini kurduğunu konuşturun.
-- Karagöz-Hacivat farkını ‘biri doğru, biri yanlış’ diye kapatmayın; yanlış anlamanın sahne işlevini ve mizah üretimini görünür kılın.
+- Öğrencileri küçük gruplara ayırarak ‘Kasiyer ile müşteri diyaloğundaki yanlış…’ sorusunun işaret ettiği kanıtları metin üzerinden tespit ettirin.
+- Öğrencilerin ileri sürdüğü gerekçeleri tahtaya yazarak ölçüt kullanarak değerlendirme ölçütüne göre sınıflandırın.
+- Doğrulanan metin kanıtlarını Kasiyerin 'ibraz etmek' sözünün müşteri tarafından ses benzerliğiyle 'itiraz etmek' biçiminde yanlış anlaşılmasını Karagöz'ün dil kaynaklı yanlış anlamalarıyla ilişkilendirir. ile karşılaştırarak öğrenci çıkarımlarını netleştirin.
 
 ### Takip soruları
 
-- Soru 1 — ölçüt kullanarak değerlendirme — basılı s.79 içinde bu yorumu taşıyan konuşma ayrıntısı hangisi; aynı ayrıntı çıkarılsa karakter ilişkisi nasıl değişirdi? Özellikle ‘Kasiyer ile müşteri diyaloğundaki yanlış anlamanın Karagöz'ü çağrıştırma nedenini belirleyiniz’ ayrıntısını yoklayın.
-- Soru 1 — ölçüt kullanarak değerlendirme — basılı s.79 için düşünme sorusu: Bu unsur yalnız bilgi vermiyor, seyirciyi nasıl bir tepkiye yönlendiriyor? Özellikle ‘Kasiyer ile müşteri diyaloğundaki yanlış anlamanın Karagöz'ü çağrıştırma nedenini belirleyiniz’ ayrıntısını yoklayın.
+- ‘Kasiyer ile müşteri diyaloğundaki yanlış…’ için ulaşılan ‘D…’ sonucunu desteklemek üzere metinden seçilebilecek alternatif bir ölçüt veya dayanak öneriniz nedir?
+- Eğer ‘Kasiyer ile müşteri diyaloğundaki yanlış…’ değerlendirmesinde nesnel metin kanıtları yerine öznel izlenimler ölçüt alınsaydı, ölçüt kullanarak değerlendirme sonucu nasıl değişirdi?
 
 ### Öğrenci cevaplarını değerlendirme
 
 - D seçeneği ve gerekçe.
 - Kasiyerin 'ibraz etmek' sözünün müşteri tarafından ses benzerliğiyle 'itiraz etmek' biçiminde yanlış anlaşılmasını Karagöz'ün dil kaynaklı yanlış anlamalarıyla ilişkilendirir.
-- Dil/sahne ayrıntısı ile karakter veya ilişki çıkarımı arasında açık bağ.
-- Mizahı yalnız ‘komik olması’ ile değil yanlış anlama, söz oyunu veya seyirci etkisiyle açıklama.
+- ‘Kasiyer ile müşteri diyaloğundaki yanlış…’ için öne sürülen savın metindeki dil ve üslup ayrıntılarıyla desteklenmesi.
+- Öğrencinin ölçüt kullanarak değerlendirme perspektifinden yaptığı analizin metin gerçekliğiyle uyumu.
 
 ### Sık yanılgılar
 
 - Kasiyerin sabırlı ve çözüm odaklı tavrını Karagöz'e bağlamak.
-- Öğrenci, Soru 1 — ölçüt kullanarak değerlendirme — basılı s.79 görevindeki dil farkını karakterin zekâsı veya değeri hakkında değişmez bir yargı sanabilir.
-- Karagöz oyununun bölümlerini yalnız ezberlenecek başlıklar olarak görüp bölümün sahne işlevini gözden kaçırabilir.
+- ‘Kasiyer ile müşteri diyaloğundaki y…’ bölümündeki geleneksel oyun kişilerini çağdaş psikolojik karakterlerle bir tutup tip niteliğini göz ardı etmek.
 
 ### Müdahale
 
-- Soru 1 — ölçüt kullanarak değerlendirme — basılı s.79 için müdahale: Öğrenciye aynı sözün farklı bir bağlamda başka bir kişiyi de kurup kuramayacağını sordurun; böylece dil göstergesini kişi değeriyle eşitlemesini ayırın. Müdahaleyi ‘Kasiyer ile müşteri diyaloğundaki yanlış anlamanın Karagöz'ü çağrıştırma nedenini belirleyiniz’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 1 — ölçüt kullanarak değerlendirme — basılı s.79 için müdahale: Diyalogdan bir cümleyi seçip mukaddime, muhavere, fasıl veya bitişten hangisindeki işleviyle okuduğunu açıklattırın. Müdahaleyi ‘Kasiyer ile müşteri diyaloğundaki yanlış anlamanın Karagöz'ü çağrıştırma nedenini belirleyiniz’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Kasiyer ile müşteri diyaloğundaki y…’ incelemesinde ‘kasiyerin sabırlı ve çözüm’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Karakter ile tip arasındaki farkı vurgulayıp ‘Kasiyer ile müşteri diyaloğundaki y…’ kişilerinin belirli toplumsal zümreleri temsil eden işlevini metinde gösterin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Bilgi görselindeki 'yabancı sözü Türkçe söze benzetme' özelliğini buldur.
-- Öğrenci için ‘Sahnede görülen/söylenen — bunun gösterdiği özellik — seyirci etkisi’ üçlü tablosu kullanın. Bu görevde bağlantı noktası: ölçüt kullanarak değerlendirme.
+- Öğrenciyi bir akranıyla eşleştirerek ‘Kasiyer ile müşteri diyaloğundaki y…’ hakkındaki düşüncelerini önce sözlü olarak paylaşmasını, ardından yazıya dökmesini isteyin.
 **Zenginleştirme**
 - Benzer bir güncel yanlış anlama örneği üretmesini iste.
-- Aynı kısa diyaloğu söz varlığı değişmeden beden dili ve ton değişikliğiyle nasıl farklılaştırabileceğini tasarlatın. Bu görevde derinleştirme odağı: ölçüt kullanarak değerlendirme.
+- Öğrenciden ‘Kasiyer ile müşteri diyaloğundaki y…’ metnindeki ölçüt kullanarak değerlendirme yaklaşımını örnek alarak benzer temada kısa bir kurmaca metin veya deneme taslağı yazmasını isteyin.
 
 ### Tahta notu
 
@@ -11549,57 +11575,57 @@ Soru 2 — Diyalogdaki boşluklara Karagöz ve Hacivat adlarını doğru sırayl
 
 ### Açıklama ve gerekçe
 
-Soru 2 — ölçüt kullanarak değerlendirme — basılı s.80 için cevap, ölçüt kullanarak değerlendirme ölçütünü kaynak bağlamında doğru yere yerleştirir. Cevabın doğruluğu yalnız sonucun kendisinden değil, metin/görsel/tablo ayrıntısının bu sonucu nasıl desteklediğinin açıklanmasından anlaşılır; öğrenci farklı sözcüklerle aynı ilişkiyi kurabilir. Dört boşluğu sırasıyla Hacivat, Karagöz, Hacivat, Karagöz olarak doldurur.
+Soruya verilecek uygun cevap, ‘Diyalogdaki boşluklara Karagöz ve Hacivat adlarını…’ yönündeki çıkarımı ölçüt kullanarak değerlendirme hedefleri doğrultusunda yapılandırır. Çözümlemenin geçerliliği, Dört boşluğu sırasıyla Hacivat, Karagöz, Hacivat, Karagöz olarak doldurur. koşuluna uyulması ve iddiaların metindeki açık veya örtük ifadelerle doğrulanmasıyla sağlanır. Öğrencinin akıl yürütme süreci; sorunun işaret ettiği metin bölümünü belirlemek, oradaki dil ve anlatım ipuçlarını değerlendirmek ve ulaştığı yargıyı gerekçelendirmektir. Metin özüyle örtüşen ve mantıksal nedensellik taşıyan alternatif anlatımlar doğru yanıt olarak değerlendirilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Karagöz bölümünde Soru 2 — ölçüt kullanarak değerlendirme — basılı s.80 üzerinden geleneksel gölge oyununun seyirlik ve sözlü niteliği ele alınır. Karakterler çoğu zaman yalnız adlarıyla değil, konuşma biçimleri, yanlış anlamaları, toplumsal tipleri ve sahne içindeki işlevleriyle kurulur. Dil farkını bir üstünlük ölçüsü gibi değil, karakterleştirme ve mizahın bağlama bağlı bir aracı olarak açıklayın. Bu görevde özellikle ‘Diyalogdaki boşluklara Karagöz ve Hacivat adlarını doğru sırayla yerleştiriniz’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Modern anlatıda anlatım teknikleri, karakterlerin iç dünyalarını ve olay akışının ritmini kuran estetik araçlardır. İç monologda karakterin düşünceleri mantıksal bir sıra içinde kendi kendine konuşması gibi verilirken bilinç akışında çağrışımlar, dil bilgisi kurallarını ve zaman sırasını aşan serbest bir akışla sunulur. Geriye dönüş (flashback) ise şimdiki zaman çizgisini kırarak karakterin geçmişteki travma veya anılarına bağlanır. Öğretmen, tekniklerin karakter psikolojisini açığa çıkarma işlevine dikkat çekmelidir. Bu görev tahlilinde öğretmen, ölçüt kullanarak değerlendirme odağında ‘Diyalogdaki boşluklara Karagöz ve Hacivat adlarını…’ sorusuna yönelik yanıtların metin içi tutarlılığını denetlemeli ve yüzeysel yorumların ötesine geçilmesini sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Karagöz’de söylenen söz hem anlam taşır hem de konuşanın kimliğini ve sahnedeki ilişkisini görünür kılar. Bu görevde özellikle ölçüt kullanarak değerlendirme üzerinde durun.
+> Görevin temel amacı, ‘Diyalogdaki boşluklara Karagöz ve Hacivat adl…’ ayrıntısı üzerinden ölçüt kullanarak değerlendirme kavramını kavramanızdır. Metindeki ilgili cümleleri bularak ‘['Hacivat', 'Karagöz', 'Hacivat', '…’ bağlamındaki düşüncenizi kendi cümlelerinizle ortaya koyun.
 
 ### Bu görev neden burada?
 
-Bu görev, ölçüt kullanarak değerlendirme bakımından sözlü kültür ürününün biçimsel özelliğini metin kanıtına dönüştürür.
+Bu soru, ‘Diyalogdaki boşluklara Karagöz ve Hacivat adl…’ ayrıntısını ölçüt kullanarak değerlendirme ile birleştirerek dil ve edebiyat çalışmalarında neden-sonuç ilişkisi kurma ve ‘['Hacivat', 'Karagöz', 'Hacivat', '…’ bağlamını kavrama yeterliğini güçlendirir.
 
 ### Ders içi uygulama
 
 - Olayı düzenli biçimde anlatan ve yanlış anlaşılmayı açıklayan konuşmacı Hacivat; sözleri komik biçimde yanlış yorumlayan konuşmacı Karagöz'dür.
-- Soru 2 — ölçüt kullanarak değerlendirme — basılı s.80 için öğrencinin seçtiği söz veya sahne ayrıntısını önce aynen işaretletin; ardından bu ayrıntının hangi karakter özelliğini kurduğunu konuşturun.
-- Karagöz-Hacivat farkını ‘biri doğru, biri yanlış’ diye kapatmayın; yanlış anlamanın sahne işlevini ve mizah üretimini görünür kılın.
+- Metnin ilgili bölümünü sessizce okutup ölçüt kullanarak değerlendirme ile bağlantılı kilit kelimeleri belirlemeleri için süre tanıyın.
+- Seçilen metin kanıtlarının ölçüt kullanarak değerlendirme hedefine uygunluğunu akran değerlendirmesiyle gözden geçirtin.
+- ‘Diyalogdaki boşluklara Karagöz ve Haciva…’ tahlilinden çıkan sonucu dersin genel tematik çerçevesine bağlayarak tahtada özetleyin.
 
 ### Takip soruları
 
-- Soru 2 — ölçüt kullanarak değerlendirme — basılı s.80 içinde bu yorumu taşıyan konuşma ayrıntısı hangisi; aynı ayrıntı çıkarılsa karakter ilişkisi nasıl değişirdi? Özellikle ‘Diyalogdaki boşluklara Karagöz ve Hacivat adlarını doğru sırayla yerleştiriniz’ ayrıntısını yoklayın.
-- Soru 2 — ölçüt kullanarak değerlendirme — basılı s.80 için düşünme sorusu: Bu unsur yalnız bilgi vermiyor, seyirciyi nasıl bir tepkiye yönlendiriyor? Özellikle ‘Diyalogdaki boşluklara Karagöz ve Hacivat adlarını doğru sırayla yerleştiriniz’ ayrıntısını yoklayın.
+- ‘Diyalogdaki boşluklara Karagöz ve Haciva…’ odağındaki yargıyı çürütebilecek karşıt bir görüş hangi ölçütlere dayandırılabilir?
+- ‘Diyalogdaki boşluklara Karagöz ve Haciva…’ için ulaşılan ‘['Hacivat', 'Karagöz', 'Hacivat', '…’ sonucunu desteklemek üzere metinden seçilebilecek alternatif bir ölçüt veya dayanak öneriniz nedir?
 
 ### Öğrenci cevaplarını değerlendirme
 
 - Dört doğru karakter adı.
 - Dört boşluğu sırasıyla Hacivat, Karagöz, Hacivat, Karagöz olarak doldurur.
-- Dil/sahne ayrıntısı ile karakter veya ilişki çıkarımı arasında açık bağ.
-- Mizahı yalnız ‘komik olması’ ile değil yanlış anlama, söz oyunu veya seyirci etkisiyle açıklama.
+- ‘Diyalogdaki boşluklara Karagöz ve Haciva…’ konusundaki tespitlerin metin bağlamına ve türün edebî özelliklerine uygunluğu.
+- Görüşlerin ölçüt kullanarak değerlendirme açısından somut gerekçelerle temellendirilip açıklanması.
 
 ### Sık yanılgılar
 
 - Yalnız konuşma sırasına bakıp karakterlerin dil/iletişim özelliklerini kullanmamak.
-- Öğrenci, Soru 2 — ölçüt kullanarak değerlendirme — basılı s.80 görevindeki dil farkını karakterin zekâsı veya değeri hakkında değişmez bir yargı sanabilir.
-- Karagöz oyununun bölümlerini yalnız ezberlenecek başlıklar olarak görüp bölümün sahne işlevini gözden kaçırabilir.
+- ‘Diyalogdaki boşluklara Karagöz ve H…’ sahnesinde Karagöz tipinin hazırcevap tavrını gerçek bir cehalet sanıp yanlış anlamaların oyundaki mizahi ve eleştirel rolünü kaçırmak.
 
 ### Müdahale
 
-- Soru 2 — ölçüt kullanarak değerlendirme — basılı s.80 için müdahale: Öğrenciye aynı sözün farklı bir bağlamda başka bir kişiyi de kurup kuramayacağını sordurun; böylece dil göstergesini kişi değeriyle eşitlemesini ayırın. Müdahaleyi ‘Diyalogdaki boşluklara Karagöz ve Hacivat adlarını doğru sırayla yerleştiriniz’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 2 — ölçüt kullanarak değerlendirme — basılı s.80 için müdahale: Diyalogdan bir cümleyi seçip mukaddime, muhavere, fasıl veya bitişten hangisindeki işleviyle okuduğunu açıklattırın. Müdahaleyi ‘Diyalogdaki boşluklara Karagöz ve Hacivat adlarını doğru sırayla yerleştiriniz’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciye ‘Diyalogdaki boşluklara Karagöz ve H…’ çerçevesinde ‘yalnız konuşma sırasına bakıp’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- Diyalogdaki yanlış anlama örneklerini metinden seçtirip ‘Diyalogdaki boşluklara Karagöz ve H…’ mizah ve toplumsal eleştiri üretimindeki işlevini açıklattırın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Her repliğin yanına 'anlatıyor/açıklıyor' ve 'yanlış anlıyor' notu koydur.
-- Öğrenci için ‘Sahnede görülen/söylenen — bunun gösterdiği özellik — seyirci etkisi’ üçlü tablosu kullanın. Bu görevde bağlantı noktası: ölçüt kullanarak değerlendirme.
+- ‘Diyalogdaki boşluklara Karagöz ve H…’ konusunu daha sade yönlendirici alt sorulara bölerek öğrencinin ‘['Hacivat', 'Karagöz', 'Haciva…’ sonucuna kademeli olarak ulaşmasına rehberlik edin.
 **Zenginleştirme**
 - Karagöz'ün yanlış anlamasının mizahı nasıl ürettiğini açıklat.
-- Aynı kısa diyaloğu söz varlığı değişmeden beden dili ve ton değişikliğiyle nasıl farklılaştırabileceğini tasarlatın. Bu görevde derinleştirme odağı: ölçüt kullanarak değerlendirme.
+- ‘Diyalogdaki boşluklara Karagöz ve H…’ tahlilini yazarın edebî dönemi, sanat anlayışı ve dönemin toplumsal koşullarıyla ilişkilendiren bir araştırma sorusu geliştirtin.
 
 ### Kaynak ve durum
 
@@ -11644,19 +11670,19 @@ Muamma geleneği günümüzde bilmece ve bulmaca yarışmaları, kelime/zekâ oy
 
 ### Açıklama ve gerekçe
 
-Soru 3 — ölçüt kullanarak değerlendirme — basılı s.80 için beklenen yön, ölçüt kullanarak değerlendirme yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. En az bir güncel karşılık verir. Muamma ile verdiği örnek arasındaki bilmece/çözme/yarışma ilişkisini açıklar.
+Beklenen cevap, ölçüt kullanarak değerlendirme çerçevesinde ‘Muamma geleneğinin günümüzdeki karşılıklarına örne…’ konusunu metnin sunduğu veriler ve kavramsal dayanaklar üzerinden şekillendirir. Bu cevabın uygunluğu, En az bir güncel karşılık verir. Muamma ile verdiği örnek arasındaki bilmece/çözme/yarışma ilişkisini açıklar. ölçütünün karşılanmasına ve öğrencinin metindeki olay/durum ayrıntılarını nedensellik bağıyla kurmasına dayanır. Öğrencinin izlemesi gereken çıkarım yolu; öncelikle metindeki kanıt niteliği taşıyan ifadeleri belirlemek, ardından bu göstergeleri kavramsal odakla ilişkilendirerek kendi gerekçeli açıklamasını oluşturmaktır. Öğrenci aynı sonucu farklı sözcüklerle ifade edebilir; temel iddia ile metin dayanağı arasındaki mantıksal tutarlılık korunduğu sürece kişisel yorumlar alternatif cevap olarak kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Karagöz bölümünde Soru 3 — ölçüt kullanarak değerlendirme — basılı s.80 üzerinden geleneksel gölge oyununun seyirlik ve sözlü niteliği ele alınır. Karakterler çoğu zaman yalnız adlarıyla değil, konuşma biçimleri, yanlış anlamaları, toplumsal tipleri ve sahne içindeki işlevleriyle kurulur. Dil farkını bir üstünlük ölçüsü gibi değil, karakterleştirme ve mizahın bağlama bağlı bir aracı olarak açıklayın. Bu görevde özellikle ‘Muamma geleneğinin günümüzdeki karşılıklarına örnek verip benzerliği açıklayınız’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Karagöz bölümünde Soru 3 — ölçüt kullanarak değerlendirme — basılı s.80 üzerinden geleneksel gölge oyununun seyirlik ve sözlü niteliği ele alınır. Karakterler çoğu zaman yalnız adlarıyla değil, konuşma biçimleri, yanlış anlamaları, toplumsal tipleri ve sahne içindeki işlevleriyle kurulur. Dil farkını bir üstünlük ölçüsü gibi değil, karakterleştirme ve mizahın bağlama bağlı bir aracı olarak açıklayın. Bu görevde özellikle ‘Muamma geleneğinin günümüzdeki karşılıklarına örnek verip benzerliği açıklayınız’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin. Bu görevde öğretmen, ölçüt kullanarak değerlendirme çerçevesinde sorulan ‘Muamma geleneğinin günümüzdeki karşılıklarına örne…’ konusu üzerinden öğrencinin metin kanıtları ile kavramsal çıkarımlar arasındaki ilişkiyi doğru kurmasını sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Karagöz’de söylenen söz hem anlam taşır hem de konuşanın kimliğini ve sahnedeki ilişkisini görünür kılar. Bu görevde özellikle ölçüt kullanarak değerlendirme üzerinde durun.
+> Bu görevde sizden beklenen; metindeki ipuçlarından hareketle ‘Muamma geleneğinin günümüzdeki karşılıklarına…’ konusunu incelemeniz ve ölçüt kullanarak değerlendirme doğrultusunda ‘Muamma geleneği günümüzde bilmece v…’ sonucuna nasıl ulaşıldığını adım adım açıklamanızdır.
 
 ### Bu görev neden burada?
 
-Bu görev, ölçüt kullanarak değerlendirme bakımından sözlü kültür ürününün biçimsel özelliğini metin kanıtına dönüştürür.
+Bu görev, öğrencinin ‘Muamma geleneğinin günümüzdeki karşılıklarına…’ üzerinden ölçüt kullanarak değerlendirme becerisini somut bir metin bağlamında deneyimlemesini ve iddialarını kanıtla destekleme alışkanlığı kazanmasını sağlar.
 
 ### Kabul edilebilir cevaplar
 
@@ -11666,40 +11692,40 @@ Bu görev, ölçüt kullanarak değerlendirme bakımından sözlü kültür ür�
 ### Ders içi uygulama
 
 - Tek bir güncel örneği zorunlu tutma; gerekçeli ve işlevsel benzerliği olan alternatifleri kabul et.
-- Soru 3 — ölçüt kullanarak değerlendirme — basılı s.80 için öğrencinin seçtiği söz veya sahne ayrıntısını önce aynen işaretletin; ardından bu ayrıntının hangi karakter özelliğini kurduğunu konuşturun.
-- Karagöz-Hacivat farkını ‘biri doğru, biri yanlış’ diye kapatmayın; yanlış anlamanın sahne işlevini ve mizah üretimini görünür kılın.
+- Öğrencilerden metinde ‘Muamma geleneğinin günümüzdeki karşılıkl…’ konusuna kaynaklık eden temel ifadelerin altını çizmelerini isteyin.
+- Öğrencilerin tespit ettiği kanıtları karşılaştırarak hangisinin ölçüt kullanarak değerlendirme iddiasını daha güçlü desteklediğini sorgulatın.
+- Ulaşılan cevabı ölçüt kullanarak değerlendirme bağlamında toparlayıp metin tahlili için bir kural veya ilke olarak özetletin.
 
 ### Takip soruları
 
-- Soru 3 — ölçüt kullanarak değerlendirme — basılı s.80 içinde bu yorumu taşıyan konuşma ayrıntısı hangisi; aynı ayrıntı çıkarılsa karakter ilişkisi nasıl değişirdi? Özellikle ‘Muamma geleneğinin günümüzdeki karşılıklarına örnek verip benzerliği açıklayınız’ ayrıntısını yoklayın.
-- Soru 3 — ölçüt kullanarak değerlendirme — basılı s.80 için düşünme sorusu: Bu unsur yalnız bilgi vermiyor, seyirciyi nasıl bir tepkiye yönlendiriyor? Özellikle ‘Muamma geleneğinin günümüzdeki karşılıklarına örnek verip benzerliği açıklayınız’ ayrıntısını yoklayın.
+- Eğer ‘Muamma geleneğinin günümüzdeki karşılıkl…’ ifadesinde kullanılan dil bilgisel yapı değiştirilseydi, cümlenin ilettiği anlam ve vurgu nasıl başkalaşırdı?
+- ‘Muamma geleneğinin günümüzdeki karşılıkl…’ cümlesindeki dilbilgisi tercihinin metnin genel anlatım akışı ve anlam bütünlüğüne etkisi nedir?
 
 ### Öğrenci cevaplarını değerlendirme
 
 - Güncel örnek + benzerlik gerekçesi.
 - En az bir güncel karşılık verir.
 - Muamma ile verdiği örnek arasındaki bilmece/çözme/yarışma ilişkisini açıklar.
-- Dil/sahne ayrıntısı ile karakter veya ilişki çıkarımı arasında açık bağ.
+- Öğrencinin ‘Muamma geleneğinin günümüzdeki karşılıkl…’ sorusuna verdiği cevapta metinden doğrudan alıntı veya somut kanıt göstermesi.
 
 ### Sık yanılgılar
 
 - Muammayı yalnız sıradan şiir yazma etkinliği olarak tanımlamak.
-- Öğrenci, Soru 3 — ölçüt kullanarak değerlendirme — basılı s.80 görevindeki dil farkını karakterin zekâsı veya değeri hakkında değişmez bir yargı sanabilir.
-- Karagöz oyununun bölümlerini yalnız ezberlenecek başlıklar olarak görüp bölümün sahne işlevini gözden kaçırabilir.
+- ‘Muamma geleneğinin günümüzdeki karş…’ sorusunda metindeki nesnel kanıtlar yerine kendi kişisel kanaat ve varsayımlarını tek dayanak olarak kabul etmek.
 
 ### Müdahale
 
-- Soru 3 — ölçüt kullanarak değerlendirme — basılı s.80 için müdahale: Öğrenciye aynı sözün farklı bir bağlamda başka bir kişiyi de kurup kuramayacağını sordurun; böylece dil göstergesini kişi değeriyle eşitlemesini ayırın. Müdahaleyi ‘Muamma geleneğinin günümüzdeki karşılıklarına örnek verip benzerliği açıklayınız’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 3 — ölçüt kullanarak değerlendirme — basılı s.80 için müdahale: Diyalogdan bir cümleyi seçip mukaddime, muhavere, fasıl veya bitişten hangisindeki işleviyle okuduğunu açıklattırın. Müdahaleyi ‘Muamma geleneğinin günümüzdeki karşılıklarına örnek verip benzerliği açıklayınız’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciden ‘Muamma geleneğinin günümüzdeki karş…’ bağlamında ‘muammayı yalnız sıradan şiir’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- Öğrenciden ‘Muamma geleneğinin günümüzdeki karş…’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Bilmece, kelime oyunu ve yarışma kavramlarından hareket ettir.
-- Öğrenci için ‘Sahnede görülen/söylenen — bunun gösterdiği özellik — seyirci etkisi’ üçlü tablosu kullanın. Bu görevde bağlantı noktası: ölçüt kullanarak değerlendirme.
+- ‘Muamma geleneğinin günümüzdeki karş…’ sorusunu yanıtlamakta zorlanan öğrenciye metindeki ilgili paragrafı işaretleyin; önce anahtar kavramları buldurarak cevabı adım adım kurdurun.
 **Zenginleştirme**
 - Geleneksel muamma ile dijital bir bulmaca etkinliğinin hedef kitle ve ortam farkını karşılaştır.
-- Aynı kısa diyaloğu söz varlığı değişmeden beden dili ve ton değişikliğiyle nasıl farklılaştırabileceğini tasarlatın. Bu görevde derinleştirme odağı: ölçüt kullanarak değerlendirme.
+- Öğrenciden ‘Muamma geleneğinin günümüzdeki karş…’ çerçevesinde ulaştığı ‘Muamma geleneği günümüzde bilm…’ sonucunu, okuduğu farklı bir edebî eserle karşılaştıran kısa bir eleştiri yazısı yazmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -11744,57 +11770,57 @@ C
 
 ### Açıklama ve gerekçe
 
-Seçilen seçenek Soru 4 — ölçüt kullanarak değerlendirme — basılı s.81 için gerekli kavramsal ayrımı karşılar; ancak tek başına harfi söylemek düşünmeyi göstermeye yetmez. Öğrenci, ölçüt kullanarak değerlendirme bakımından seçenek ile kaynakta verilen bilgi arasındaki ilişkiyi kısaca açıklamalı ve çeldiricilerin neden elendiğini gösterebilmelidir.
+Doğru cevap C seçeneğidir çünkü ‘Çelebi'nin Hacivat'ın yanına geliş amacını belirle…’ bağlamında Çelebi'nin mahallede âşıkları muamma yoluyla sınamak istemesini bir şiir/âşık yarışması düzenleme amacıyla ilişkilendirir.. Öğrencinin metindeki dayanak cümleleri inceleyerek çeldiricilerin metinle uyuşmayan yönlerini elemesi ve C seçeneğindeki bilginin kaynakla örtüştüğünü gerekçelendirmesi beklenir. Tek başına seçenek harfini söylemek yeterli olmayıp seçeneği doğrulayan metin kanıtı açıklanmalıdır.
 
 ### Öğretmenin bilmesi gerekenler
 
-Karagöz bölümünde Soru 4 — ölçüt kullanarak değerlendirme — basılı s.81 üzerinden geleneksel gölge oyununun seyirlik ve sözlü niteliği ele alınır. Karakterler çoğu zaman yalnız adlarıyla değil, konuşma biçimleri, yanlış anlamaları, toplumsal tipleri ve sahne içindeki işlevleriyle kurulur. Dil farkını bir üstünlük ölçüsü gibi değil, karakterleştirme ve mizahın bağlama bağlı bir aracı olarak açıklayın. Bu görevde özellikle ‘Çelebi'nin Hacivat'ın yanına geliş amacını belirleyiniz’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Karagöz oyunu, geleneksel Türk seyirlik sanatlarının gölge oyunu koludur; mukaddime, muhavere, fasıl ve bitiş bölümlerinden oluşur. Baş kişiler Karagöz (halkın sağduyulu, saf, okumamış, dobra ve hazırcevap sesi) ile Hacivat'tır (yarı aydın, çıkarcı, kuralcı ve arabulucu Osmanlı aydını). Tipleştirmede dil, şive taklitleri ve yanlış anlamalar mizahın ana kaynağıdır. Öğretmen, bu dil farklarının bir zekâ eksikliği değil, Osmanlı toplumunun çok kültürlü yapısını yansıtan bir sahneleme tekniği olduğunu açıklamalıdır. Bu görev sürecinde öğretmen, ölçüt kullanarak değerlendirme doğrultusunda ‘Çelebi'nin Hacivat'ın yanına geliş amacını belirle…’ sorusunu çözümlerken öğrencilerin somut metin delilleriyle argüman geliştirmelerini teşvik etmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Karagöz’de söylenen söz hem anlam taşır hem de konuşanın kimliğini ve sahnedeki ilişkisini görünür kılar. Bu görevde özellikle ölçüt kullanarak değerlendirme üzerinde durun.
+> Yönergeyi uygularken önce metindeki ‘Çelebi'nin Hacivat'ın yanına geliş amacını be…’ ifadelerini işaretleyin; ardından bu unsurların ölçüt kullanarak değerlendirme hedefine nasıl hizmet ettiğini ve ‘C…’ ile ilişkisini açıklayın.
 
 ### Bu görev neden burada?
 
-Bu görev, ölçüt kullanarak değerlendirme bakımından sözlü kültür ürününün biçimsel özelliğini metin kanıtına dönüştürür.
+Bu etkinlik, ölçüt kullanarak değerlendirme alanında ‘Çelebi'nin Hacivat'ın yanına geliş amacını be…’ doğrultusunda öğrencinin kendi düşüncesini kaynak dayanaklarıyla savunmasını ve tutarlı bir ifade becerisi inşa etmesini amaçlar.
 
 ### Ders içi uygulama
 
 - Doğru seçenek C'dir.
-- Soru 4 — ölçüt kullanarak değerlendirme — basılı s.81 için öğrencinin seçtiği söz veya sahne ayrıntısını önce aynen işaretletin; ardından bu ayrıntının hangi karakter özelliğini kurduğunu konuşturun.
-- Karagöz-Hacivat farkını ‘biri doğru, biri yanlış’ diye kapatmayın; yanlış anlamanın sahne işlevini ve mizah üretimini görünür kılın.
+- Öğrencilerden metinde ‘Çelebi'nin Hacivat'ın yanına geliş amacı…’ konusuna kaynaklık eden temel ifadelerin altını çizmelerini isteyin.
+- Öğrencilerin tespit ettiği kanıtları karşılaştırarak hangisinin ölçüt kullanarak değerlendirme iddiasını daha güçlü desteklediğini sorgulatın.
+- Ulaşılan cevabı ölçüt kullanarak değerlendirme bağlamında toparlayıp metin tahlili için bir kural veya ilke olarak özetletin.
 
 ### Takip soruları
 
-- Soru 4 — ölçüt kullanarak değerlendirme — basılı s.81 içinde bu yorumu taşıyan konuşma ayrıntısı hangisi; aynı ayrıntı çıkarılsa karakter ilişkisi nasıl değişirdi? Özellikle ‘Çelebi'nin Hacivat'ın yanına geliş amacını belirleyiniz’ ayrıntısını yoklayın.
-- Soru 4 — ölçüt kullanarak değerlendirme — basılı s.81 için düşünme sorusu: Bu unsur yalnız bilgi vermiyor, seyirciyi nasıl bir tepkiye yönlendiriyor? Özellikle ‘Çelebi'nin Hacivat'ın yanına geliş amacını belirleyiniz’ ayrıntısını yoklayın.
+- Eğer ‘Çelebi'nin Hacivat'ın yanına geliş amacı…’ değerlendirmesinde nesnel metin kanıtları yerine öznel izlenimler ölçüt alınsaydı, ölçüt kullanarak değerlendirme sonucu nasıl değişirdi?
+- ‘Çelebi'nin Hacivat'ın yanına geliş amacı…’ konusunda belirlediğiniz ölçütler, metnin ait olduğu tarihsel ve edebî dönemin gerçekliğiyle ne ölçüde tutarlıdır?
 
 ### Öğrenci cevaplarını değerlendirme
 
 - C seçeneği.
 - Çelebi'nin mahallede âşıkları muamma yoluyla sınamak istemesini bir şiir/âşık yarışması düzenleme amacıyla ilişkilendirir.
-- Dil/sahne ayrıntısı ile karakter veya ilişki çıkarımı arasında açık bağ.
-- Mizahı yalnız ‘komik olması’ ile değil yanlış anlama, söz oyunu veya seyirci etkisiyle açıklama.
+- ‘Çelebi'nin Hacivat'ın yanına geliş amacı…’ incelemesinde tespit edilen göstergelerin metin bütünlüğüyle ilişkilendirilmesi.
+- Akıl yürütme basamaklarının ölçüt kullanarak değerlendirme ilkelerine uygun biçimde yapılandırılması.
 
 ### Sık yanılgılar
 
 - Çelebi'nin Hacivat'a para vermesini asıl amaç sanmak; para yarışmanın düzenlenmesi için araçtır.
-- Öğrenci, Soru 4 — ölçüt kullanarak değerlendirme — basılı s.81 görevindeki dil farkını karakterin zekâsı veya değeri hakkında değişmez bir yargı sanabilir.
-- Karagöz oyununun bölümlerini yalnız ezberlenecek başlıklar olarak görüp bölümün sahne işlevini gözden kaçırabilir.
+- ‘Çelebi'nin Hacivat'ın yanına geliş …’ sahnesinde Karagöz tipinin hazırcevap tavrını gerçek bir cehalet sanıp yanlış anlamaların oyundaki mizahi ve eleştirel rolünü kaçırmak.
 
 ### Müdahale
 
-- Soru 4 — ölçüt kullanarak değerlendirme — basılı s.81 için müdahale: Öğrenciye aynı sözün farklı bir bağlamda başka bir kişiyi de kurup kuramayacağını sordurun; böylece dil göstergesini kişi değeriyle eşitlemesini ayırın. Müdahaleyi ‘Çelebi'nin Hacivat'ın yanına geliş amacını belirleyiniz’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 4 — ölçüt kullanarak değerlendirme — basılı s.81 için müdahale: Diyalogdan bir cümleyi seçip mukaddime, muhavere, fasıl veya bitişten hangisindeki işleviyle okuduğunu açıklattırın. Müdahaleyi ‘Çelebi'nin Hacivat'ın yanına geliş amacını belirleyiniz’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciden ‘Çelebi'nin Hacivat'ın yanına geliş …’ bağlamında ‘çelebi nin hacivat a’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- Diyalogdaki yanlış anlama örneklerini metinden seçtirip ‘Çelebi'nin Hacivat'ın yanına geliş …’ mizah ve toplumsal eleştiri üretimindeki işlevini açıklattırın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Çelebi'nin geliş sebebini söylediği bölüme döndür.
-- Öğrenci için ‘Sahnede görülen/söylenen — bunun gösterdiği özellik — seyirci etkisi’ üçlü tablosu kullanın. Bu görevde bağlantı noktası: ölçüt kullanarak değerlendirme.
+- Öğrenciye bir çalışma kâğıdı vererek ‘Çelebi'nin Hacivat'ın yanına geliş …’ için metinde geçen olumlu ve olumsuz göstergeleri iki sütun hâlinde gruplatın.
 **Zenginleştirme**
 - Amaç ile bu amacı gerçekleştirmek için yaptığı eylemleri ayırt ettir.
-- Aynı kısa diyaloğu söz varlığı değişmeden beden dili ve ton değişikliğiyle nasıl farklılaştırabileceğini tasarlatın. Bu görevde derinleştirme odağı: ölçüt kullanarak değerlendirme.
+- Metindeki ‘Çelebi'nin Hacivat'ın yanına geliş …’ durumunu güncel bir olay veya sanat eseriyle kıyaslayarak ‘C…’ ekseninde disiplinler arası bir değerlendirme yaptırın.
 
 ### Kaynak ve durum
 
@@ -11839,19 +11865,19 @@ Soru 5 — Çelebi ile Karagöz'ün rollerini değiştirerek kısa bir diyalog o
 
 ### Açıklama ve gerekçe
 
-Soru 5 — ölçüt kullanarak değerlendirme — basılı s.81 için beklenen yön, ölçüt kullanarak değerlendirme yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Çelebi ve Karagöz'ün tip özelliklerini bilinçli biçimde yer değiştirir. Kısa metin diyalog biçimindedir.
+Soruya verilecek uygun cevap, ‘Çelebi ile Karagöz'ün rollerini değiştirerek kısa …’ yönündeki çıkarımı ölçüt kullanarak değerlendirme hedefleri doğrultusunda yapılandırır. Çözümlemenin geçerliliği, Çelebi ve Karagöz'ün tip özelliklerini bilinçli biçimde yer değiştirir. Kısa metin diyalog biçimindedir. koşuluna uyulması ve iddiaların metindeki açık veya örtük ifadelerle doğrulanmasıyla sağlanır. Öğrencinin akıl yürütme süreci; sorunun işaret ettiği metin bölümünü belirlemek, oradaki dil ve anlatım ipuçlarını değerlendirmek ve ulaştığı yargıyı gerekçelendirmektir. Metin özüyle örtüşen ve mantıksal nedensellik taşıyan alternatif anlatımlar doğru yanıt olarak değerlendirilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Karagöz bölümünde Soru 5 — ölçüt kullanarak değerlendirme — basılı s.81 üzerinden geleneksel gölge oyununun seyirlik ve sözlü niteliği ele alınır. Karakterler çoğu zaman yalnız adlarıyla değil, konuşma biçimleri, yanlış anlamaları, toplumsal tipleri ve sahne içindeki işlevleriyle kurulur. Dil farkını bir üstünlük ölçüsü gibi değil, karakterleştirme ve mizahın bağlama bağlı bir aracı olarak açıklayın. Bu görevde özellikle ‘Çelebi ile Karagöz'ün rollerini değiştirerek kısa bir diyalog oluşturunuz’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Modern anlatıda anlatım teknikleri, karakterlerin iç dünyalarını ve olay akışının ritmini kuran estetik araçlardır. İç monologda karakterin düşünceleri mantıksal bir sıra içinde kendi kendine konuşması gibi verilirken bilinç akışında çağrışımlar, dil bilgisi kurallarını ve zaman sırasını aşan serbest bir akışla sunulur. Geriye dönüş (flashback) ise şimdiki zaman çizgisini kırarak karakterin geçmişteki travma veya anılarına bağlanır. Öğretmen, tekniklerin karakter psikolojisini açığa çıkarma işlevine dikkat çekmelidir. Bu görev tahlilinde öğretmen, ölçüt kullanarak değerlendirme odağında ‘Çelebi ile Karagöz'ün rollerini değiştirerek kısa …’ sorusuna yönelik yanıtların metin içi tutarlılığını denetlemeli ve yüzeysel yorumların ötesine geçilmesini sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Karagöz’de söylenen söz hem anlam taşır hem de konuşanın kimliğini ve sahnedeki ilişkisini görünür kılar. Bu görevde özellikle ölçüt kullanarak değerlendirme üzerinde durun.
+> Görevin temel amacı, ‘Çelebi ile Karagöz'ün rollerini değiştirerek …’ ayrıntısı üzerinden ölçüt kullanarak değerlendirme kavramını kavramanızdır. Metindeki ilgili cümleleri bularak ‘Örnek: Karagöz, Çelebi'nin rolünü ü…’ bağlamındaki düşüncenizi kendi cümlelerinizle ortaya koyun.
 
 ### Bu görev neden burada?
 
-Bu görev, ölçüt kullanarak değerlendirme bakımından sözlü kültür ürününün biçimsel özelliğini metin kanıtına dönüştürür.
+Bu soru, ‘Çelebi ile Karagöz'ün rollerini değiştirerek …’ ayrıntısını ölçüt kullanarak değerlendirme ile birleştirerek dil ve edebiyat çalışmalarında neden-sonuç ilişkisi kurma ve ‘Örnek: Karagöz, Çelebi'nin rolünü ü…’ bağlamını kavrama yeterliğini güçlendirir.
 
 ### Kabul edilebilir cevaplar
 
@@ -11862,13 +11888,13 @@ Bu görev, ölçüt kullanarak değerlendirme bakımından sözlü kültür ür�
 
 - Örnek metni ezberletme; farklı ama rol değişimini açıkça gösteren özgün diyalogları kabul et.
 - Rehberdeki örnek yalnız modeldir; isimleri değiştirmek yetmez, karakterlerin dil ve davranış özelliklerinin de rol değişimine uyarlanmasını arayın.
-- Soru 5 — ölçüt kullanarak değerlendirme — basılı s.81 için öğrencinin seçtiği söz veya sahne ayrıntısını önce aynen işaretletin; ardından bu ayrıntının hangi karakter özelliğini kurduğunu konuşturun.
-- Karagöz-Hacivat farkını ‘biri doğru, biri yanlış’ diye kapatmayın; yanlış anlamanın sahne işlevini ve mizah üretimini görünür kılın.
+- Öğrencilerden ölçüt kullanarak değerlendirme açısından metindeki zıtlık ve benzerlikleri belirleyerek not almalarını isteyin.
+- İddialar ile ‘Çelebi ile Karagöz'ün rollerini değiştir…’ kanıtları arasındaki mantıksal bağı adım adım sorgulatarak temellendirin.
 
 ### Takip soruları
 
-- Soru 5 — ölçüt kullanarak değerlendirme — basılı s.81 içinde bu yorumu taşıyan konuşma ayrıntısı hangisi; aynı ayrıntı çıkarılsa karakter ilişkisi nasıl değişirdi? Özellikle ‘Çelebi ile Karagöz'ün rollerini değiştirerek kısa bir diyalog oluşturunuz’ ayrıntısını yoklayın.
-- Soru 5 — ölçüt kullanarak değerlendirme — basılı s.81 için düşünme sorusu: Bu unsur yalnız bilgi vermiyor, seyirciyi nasıl bir tepkiye yönlendiriyor? Özellikle ‘Çelebi ile Karagöz'ün rollerini değiştirerek kısa bir diyalog oluşturunuz’ ayrıntısını yoklayın.
+- ‘Çelebi ile Karagöz'ün rollerini değiştir…’ yapısındaki dil bilgisel işlevin, konuşurun ya da anlatıcının ruh hâlini yansıtmadaki rolü nedir?
+- Metinde ‘Çelebi ile Karagöz'ün rollerini değiştir…’ kullanımına benzer başka bir örnek bulunabilir mi; bu iki örnek yazarın üslubunu nasıl yansıtmaktadır?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -11880,22 +11906,21 @@ Bu görev, ölçüt kullanarak değerlendirme bakımından sözlü kültür ür�
 ### Sık yanılgılar
 
 - Yalnız isimleri değiştirip karakterlerin konuşma ve davranış özelliklerini değiştirmemek.
-- Öğrenci, Soru 5 — ölçüt kullanarak değerlendirme — basılı s.81 görevindeki dil farkını karakterin zekâsı veya değeri hakkında değişmez bir yargı sanabilir.
-- Karagöz oyununun bölümlerini yalnız ezberlenecek başlıklar olarak görüp bölümün sahne işlevini gözden kaçırabilir.
+- ‘Çelebi ile Karagöz'ün rollerini değ…’ sahnesinde Karagöz tipinin hazırcevap tavrını gerçek bir cehalet sanıp yanlış anlamaların oyundaki mizahi ve eleştirel rolünü kaçırmak.
 
 ### Müdahale
 
-- Soru 5 — ölçüt kullanarak değerlendirme — basılı s.81 için müdahale: Öğrenciye aynı sözün farklı bir bağlamda başka bir kişiyi de kurup kuramayacağını sordurun; böylece dil göstergesini kişi değeriyle eşitlemesini ayırın. Müdahaleyi ‘Çelebi ile Karagöz'ün rollerini değiştirerek kısa bir diyalog oluşturunuz’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 5 — ölçüt kullanarak değerlendirme — basılı s.81 için müdahale: Diyalogdan bir cümleyi seçip mukaddime, muhavere, fasıl veya bitişten hangisindeki işleviyle okuduğunu açıklattırın. Müdahaleyi ‘Çelebi ile Karagöz'ün rollerini değiştirerek kısa bir diyalog oluşturunuz’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciye ‘Çelebi ile Karagöz'ün rollerini değ…’ çerçevesinde ‘yalnız isimleri değiştirip karakterlerin’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- Diyalogdaki yanlış anlama örneklerini metinden seçtirip ‘Çelebi ile Karagöz'ün rollerini değ…’ mizah ve toplumsal eleştiri üretimindeki işlevini açıklattırın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Önce iki karakter için 'eski rol/yeni rol' tablosu yaptır.
-- Öğrenci için ‘Sahnede görülen/söylenen — bunun gösterdiği özellik — seyirci etkisi’ üçlü tablosu kullanın. Bu görevde bağlantı noktası: ölçüt kullanarak değerlendirme.
+- ‘Çelebi ile Karagöz'ün rollerini değ…’ konusunu daha sade yönlendirici alt sorulara bölerek öğrencinin ‘Örnek: Karagöz, Çelebi'nin rol…’ sonucuna kademeli olarak ulaşmasına rehberlik edin.
 **Zenginleştirme**
 - Rol değişiminin mizah türünü nasıl değiştirdiğini açıklat.
-- Aynı kısa diyaloğu söz varlığı değişmeden beden dili ve ton değişikliğiyle nasıl farklılaştırabileceğini tasarlatın. Bu görevde derinleştirme odağı: ölçüt kullanarak değerlendirme.
+- ‘Çelebi ile Karagöz'ün rollerini değ…’ tahlilini yazarın edebî dönemi, sanat anlayışı ve dönemin toplumsal koşullarıyla ilişkilendiren bir araştırma sorusu geliştirtin.
 
 ### Kaynak ve durum
 
@@ -11940,19 +11965,19 @@ Soru 6 — Karagöz'ü günümüzden bir mizah/tiyatro sanatçısıyla benzerlik
 
 ### Açıklama ve gerekçe
 
-Soru 6 — ölçüt kullanarak değerlendirme — basılı s.81 için beklenen yön, ölçüt kullanarak değerlendirme yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. En az bir benzerlik ve bir farklılık belirtir. Karşılaştırmasını mizah/tiyatro özelliklerine dayandırır.
+Beklenen cevap, ölçüt kullanarak değerlendirme çerçevesinde ‘Karagöz'ü günümüzden bir mizah/tiyatro sanatçısıyl…’ konusunu metnin sunduğu veriler ve kavramsal dayanaklar üzerinden şekillendirir. Bu cevabın uygunluğu, En az bir benzerlik ve bir farklılık belirtir. Karşılaştırmasını mizah/tiyatro özelliklerine dayandırır. ölçütünün karşılanmasına ve öğrencinin metindeki olay/durum ayrıntılarını nedensellik bağıyla kurmasına dayanır. Öğrencinin izlemesi gereken çıkarım yolu; öncelikle metindeki kanıt niteliği taşıyan ifadeleri belirlemek, ardından bu göstergeleri kavramsal odakla ilişkilendirerek kendi gerekçeli açıklamasını oluşturmaktır. Öğrenci aynı sonucu farklı sözcüklerle ifade edebilir; temel iddia ile metin dayanağı arasındaki mantıksal tutarlılık korunduğu sürece kişisel yorumlar alternatif cevap olarak kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Karagöz bölümünde Soru 6 — ölçüt kullanarak değerlendirme — basılı s.81 üzerinden geleneksel gölge oyununun seyirlik ve sözlü niteliği ele alınır. Karakterler çoğu zaman yalnız adlarıyla değil, konuşma biçimleri, yanlış anlamaları, toplumsal tipleri ve sahne içindeki işlevleriyle kurulur. Dil farkını bir üstünlük ölçüsü gibi değil, karakterleştirme ve mizahın bağlama bağlı bir aracı olarak açıklayın. Bu görevde özellikle ‘Karagöz'ü günümüzden bir mizah/tiyatro sanatçısıyla benzerlik, farklılık ve toplumsal etki bakımından karşılaştırınız’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Karagöz oyunu, geleneksel Türk seyirlik sanatlarının gölge oyunu koludur; mukaddime, muhavere, fasıl ve bitiş bölümlerinden oluşur. Baş kişiler Karagöz (halkın sağduyulu, saf, okumamış, dobra ve hazırcevap sesi) ile Hacivat'tır (yarı aydın, çıkarcı, kuralcı ve arabulucu Osmanlı aydını). Tipleştirmede dil, şive taklitleri ve yanlış anlamalar mizahın ana kaynağıdır. Öğretmen, bu dil farklarının bir zekâ eksikliği değil, Osmanlı toplumunun çok kültürlü yapısını yansıtan bir sahneleme tekniği olduğunu açıklamalıdır. Bu görevde öğretmen, ölçüt kullanarak değerlendirme çerçevesinde sorulan ‘Karagöz'ü günümüzden bir mizah/tiyatro sanatçısıyl…’ konusu üzerinden öğrencinin metin kanıtları ile kavramsal çıkarımlar arasındaki ilişkiyi doğru kurmasını sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Karagöz’de söylenen söz hem anlam taşır hem de konuşanın kimliğini ve sahnedeki ilişkisini görünür kılar. Bu görevde özellikle ölçüt kullanarak değerlendirme üzerinde durun.
+> Bu görevde sizden beklenen; metindeki ipuçlarından hareketle ‘Karagöz'ü günümüzden bir mizah/tiyatro sanatç…’ konusunu incelemeniz ve ölçüt kullanarak değerlendirme doğrultusunda ‘Örnek karşılaştırma: Karagöz ile do…’ sonucuna nasıl ulaşıldığını adım adım açıklamanızdır.
 
 ### Bu görev neden burada?
 
-Bu görev, ölçüt kullanarak değerlendirme bakımından sözlü kültür ürününün biçimsel özelliğini metin kanıtına dönüştürür.
+Bu görev, öğrencinin ‘Karagöz'ü günümüzden bir mizah/tiyatro sanatç…’ üzerinden ölçüt kullanarak değerlendirme becerisini somut bir metin bağlamında deneyimlemesini ve iddialarını kanıtla destekleme alışkanlığı kazanmasını sağlar.
 
 ### Kabul edilebilir cevaplar
 
@@ -11963,13 +11988,13 @@ Bu görev, ölçüt kullanarak değerlendirme bakımından sözlü kültür ür�
 
 - Sanatçı seçimini tek bir isimle sınırlandırma; öğrencinin tanıdığı uygun bir mizah/tiyatro sanatçısını gerekçeyle seçmesine izin ver.
 - Sanatçı seçimini tek isme sabitlemeyin; seçimin mizah/tiyatro özellikleriyle gerekçelendirilmesini değerlendirin.
-- Soru 6 — ölçüt kullanarak değerlendirme — basılı s.81 için öğrencinin seçtiği söz veya sahne ayrıntısını önce aynen işaretletin; ardından bu ayrıntının hangi karakter özelliğini kurduğunu konuşturun.
-- Karagöz-Hacivat farkını ‘biri doğru, biri yanlış’ diye kapatmayın; yanlış anlamanın sahne işlevini ve mizah üretimini görünür kılın.
+- ‘Karagöz'ü günümüzden bir mizah/tiyatro s…’ odağındaki cümleleri tahtaya yansıtarak öğrencilerin dikkatini ilgili metin kesitine çekin.
+- Metin içi tutarlılığı sorgulamak için ‘Karagöz'ü günümüzden bir mizah/tiyatro s…’ ile ilgili çelişkili veya örtük noktaları tartışmaya açın.
 
 ### Takip soruları
 
-- Soru 6 — ölçüt kullanarak değerlendirme — basılı s.81 içinde bu yorumu taşıyan konuşma ayrıntısı hangisi; aynı ayrıntı çıkarılsa karakter ilişkisi nasıl değişirdi? Özellikle ‘Karagöz'ü günümüzden bir mizah/tiyatro sanatçısıyla benzerlik, farklılık ve toplumsal etki bakımından karşılaştırınız’ ayrıntısını yoklayın.
-- Soru 6 — ölçüt kullanarak değerlendirme — basılı s.81 için düşünme sorusu: Bu unsur yalnız bilgi vermiyor, seyirciyi nasıl bir tepkiye yönlendiriyor? Özellikle ‘Karagöz'ü günümüzden bir mizah/tiyatro sanatçısıyla benzerlik, farklılık ve toplumsal etki bakımından karşılaştırınız’ ayrıntısını yoklayın.
+- ‘Karagöz'ü günümüzden bir mizah/tiyatro s…’ konusunda belirlediğiniz ölçütler, metnin ait olduğu tarihsel ve edebî dönemin gerçekliğiyle ne ölçüde tutarlıdır?
+- Eğer ‘Karagöz'ü günümüzden bir mizah/tiyatro s…’ değerlendirmesinde nesnel metin kanıtları yerine öznel izlenimler ölçüt alınsaydı, ölçüt kullanarak değerlendirme sonucu nasıl değişirdi?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -11981,22 +12006,21 @@ Bu görev, ölçüt kullanarak değerlendirme bakımından sözlü kültür ür�
 ### Sık yanılgılar
 
 - Yalnız 'ikisi de komik' diyerek karşılaştırmayı gerekçesiz bırakmak.
-- Öğrenci, Soru 6 — ölçüt kullanarak değerlendirme — basılı s.81 görevindeki dil farkını karakterin zekâsı veya değeri hakkında değişmez bir yargı sanabilir.
-- Karagöz oyununun bölümlerini yalnız ezberlenecek başlıklar olarak görüp bölümün sahne işlevini gözden kaçırabilir.
+- ‘Karagöz'ü günümüzden bir mizah/tiya…’ sahnesinde Karagöz tipinin hazırcevap tavrını gerçek bir cehalet sanıp yanlış anlamaların oyundaki mizahi ve eleştirel rolünü kaçırmak.
 
 ### Müdahale
 
-- Soru 6 — ölçüt kullanarak değerlendirme — basılı s.81 için müdahale: Öğrenciye aynı sözün farklı bir bağlamda başka bir kişiyi de kurup kuramayacağını sordurun; böylece dil göstergesini kişi değeriyle eşitlemesini ayırın. Müdahaleyi ‘Karagöz'ü günümüzden bir mizah/tiyatro sanatçısıyla benzerlik, farklılık ve toplumsal etki bakımından karşılaştırınız’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 6 — ölçüt kullanarak değerlendirme — basılı s.81 için müdahale: Diyalogdan bir cümleyi seçip mukaddime, muhavere, fasıl veya bitişten hangisindeki işleviyle okuduğunu açıklattırın. Müdahaleyi ‘Karagöz'ü günümüzden bir mizah/tiyatro sanatçısıyla benzerlik, farklılık ve toplumsal etki bakımından karşılaştırınız’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciden ‘Karagöz'ü günümüzden bir mizah/tiya…’ bağlamında ‘yalnız ikisi de komik’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- Diyalogdaki yanlış anlama örneklerini metinden seçtirip ‘Karagöz'ü günümüzden bir mizah/tiya…’ mizah ve toplumsal eleştiri üretimindeki işlevini açıklattırın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Benzerlik–farklılık–toplumsal etki başlıklı üç sütun ver.
-- Öğrenci için ‘Sahnede görülen/söylenen — bunun gösterdiği özellik — seyirci etkisi’ üçlü tablosu kullanın. Bu görevde bağlantı noktası: ölçüt kullanarak değerlendirme.
+- ‘Karagöz'ü günümüzden bir mizah/tiya…’ sorusunu yanıtlamakta zorlanan öğrenciye metindeki ilgili paragrafı işaretleyin; önce anahtar kavramları buldurarak cevabı adım adım kurdurun.
 **Zenginleştirme**
 - Geleneksel ve çağdaş mizahın kullandığı medya/sahne imkânlarını da karşılaştır.
-- Aynı kısa diyaloğu söz varlığı değişmeden beden dili ve ton değişikliğiyle nasıl farklılaştırabileceğini tasarlatın. Bu görevde derinleştirme odağı: ölçüt kullanarak değerlendirme.
+- Öğrenciden ‘Karagöz'ü günümüzden bir mizah/tiya…’ çerçevesinde ulaştığı ‘Örnek karşılaştırma: Karagöz i…’ sonucunu, okuduğu farklı bir edebî eserle karşılaştıran kısa bir eleştiri yazısı yazmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -12041,57 +12065,57 @@ E
 
 ### Açıklama ve gerekçe
 
-Seçilen seçenek Soru 7 — ölçüt kullanarak değerlendirme — basılı s.81 için gerekli kavramsal ayrımı karşılar; ancak tek başına harfi söylemek düşünmeyi göstermeye yetmez. Öğrenci, ölçüt kullanarak değerlendirme bakımından seçenek ile kaynakta verilen bilgi arasındaki ilişkiyi kısaca açıklamalı ve çeldiricilerin neden elendiğini gösterebilmelidir.
+Doğru cevap E seçeneğidir çünkü ‘Tanpınar'ın Antalyalı genç kıza mektup yazma amacı…’ bağlamında Tanpınar'ın Antalya ve gençlik hatıralarını zihninde canlandırarak mektubun muhatabıyla kişisel iletişim kurduğunu fark eder.. Öğrencinin metindeki dayanak cümleleri inceleyerek çeldiricilerin metinle uyuşmayan yönlerini elemesi ve E seçeneğindeki bilginin kaynakla örtüştüğünü gerekçelendirmesi beklenir. Tek başına seçenek harfini söylemek yeterli olmayıp seçeneği doğrulayan metin kanıtı açıklanmalıdır.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 7 — ölçüt kullanarak değerlendirme — basılı s.81 çalışılırken mektubu yalnız haberleşme aracı olarak değil, belirli bir gönderici, alıcı, amaç ve ilişki düzeyi olan yazılı iletişim olarak çerçeveleyin. Mektubun dili muhataba göre değişebilir; kişisel izlenim içermesi onu bütünüyle nesnel belge yapmaz. Metindeki bilgi ile yazarın değerlendirmesini ayırmak bu görevde temel açıklama noktasıdır. Bu görevde özellikle ‘Tanpınar'ın Antalyalı genç kıza mektup yazma amacını en kapsamlı biçimde açıklayan seçeneği…’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görev sürecinde öğretmen, ölçüt kullanarak değerlendirme doğrultusunda ‘Tanpınar'ın Antalyalı genç kıza mektup yazma amacı…’ sorusunu çözümlerken öğrencilerin somut metin delilleriyle argüman geliştirmelerini teşvik etmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Bir mektubu anlamak için ne söylendiği kadar kime, hangi amaçla ve hangi yakınlıkla söylendiğine de bakarız. Bu görevde özellikle ölçüt kullanarak değerlendirme üzerinde durun.
+> Yönergeyi uygularken önce metindeki ‘Tanpınar'ın Antalyalı genç kıza mektup yazma …’ ifadelerini işaretleyin; ardından bu unsurların ölçüt kullanarak değerlendirme hedefine nasıl hizmet ettiğini ve ‘E…’ ile ilişkisini açıklayın.
 
 ### Bu görev neden burada?
 
-Bu görev, ölçüt kullanarak değerlendirme ölçütünü gönderici-alıcı-amaç ilişkisi içinde somutlaştırır.
+Bu etkinlik, ölçüt kullanarak değerlendirme alanında ‘Tanpınar'ın Antalyalı genç kıza mektup yazma …’ doğrultusunda öğrencinin kendi düşüncesini kaynak dayanaklarıyla savunmasını ve tutarlı bir ifade becerisi inşa etmesini amaçlar.
 
 ### Ders içi uygulama
 
 - Doğru seçenek E'dir; diğer seçenekler metnin bazı ayrıntılarına değinse de yazma amacını en kapsamlı biçimde açıklamaz.
-- Soru 7 — ölçüt kullanarak değerlendirme — basılı s.81 için öğrenciden önce göndericiyi, alıcıyı ve amacı üç ayrı kutuya yazmasını; sonra seçtiği dil göstergelerini bu kutularla ilişkilendirmesini isteyin.
-- Öznel değerlendirme ile metinde aktarılan doğrulanabilir bilgiyi iki farklı renkle işaretletin.
+- Metnin ilgili bölümünü sessizce okutup ölçüt kullanarak değerlendirme ile bağlantılı kilit kelimeleri belirlemeleri için süre tanıyın.
+- Seçilen metin kanıtlarının ölçüt kullanarak değerlendirme hedefine uygunluğunu akran değerlendirmesiyle gözden geçirtin.
+- ‘Tanpınar'ın Antalyalı genç kıza mektup y…’ tahlilinden çıkan sonucu dersin genel tematik çerçevesine bağlayarak tahtada özetleyin.
 
 ### Takip soruları
 
-- Soru 7 — ölçüt kullanarak değerlendirme — basılı s.81 için düşünme sorusu: Alıcı değişseydi hitap, kelime seçimi veya ayrıntı düzeyi hangi yönde değişirdi? Özellikle ‘Tanpınar'ın Antalyalı genç kıza mektup yazma amacını en kapsamlı biçimde açıklayan seçeneği…’ ayrıntısını yoklayın.
-- Soru 7 — ölçüt kullanarak değerlendirme — basılı s.81 içindeki bir ifade mektubun amacına nasıl hizmet ediyor; yalnız bilgi mi veriyor, ilişki de mi kuruyor? Özellikle ‘Tanpınar'ın Antalyalı genç kıza mektup yazma amacını en kapsamlı biçimde açıklayan seçeneği…’ ayrıntısını yoklayın.
+- Metinde ‘Tanpınar'ın Antalyalı genç kıza mektup y…’ kullanımına benzer başka bir örnek bulunabilir mi; bu iki örnek yazarın üslubunu nasıl yansıtmaktadır?
+- ‘Tanpınar'ın Antalyalı genç kıza mektup y…’ yapısındaki dil bilgisel işlevin, konuşurun ya da anlatıcının ruh hâlini yansıtmadaki rolü nedir?
 
 ### Öğrenci cevaplarını değerlendirme
 
 - E seçeneği ve gerekçe.
 - Tanpınar'ın Antalya ve gençlik hatıralarını zihninde canlandırarak mektubun muhatabıyla kişisel iletişim kurduğunu fark eder.
-- Gönderici-alıcı-amaç ile dil tercihi arasında metinden kanıtlı ilişki.
-- Öznel ve nesnel ifadelerin işlevini birbirine karıştırmama.
+- ‘Tanpınar'ın Antalyalı genç kıza mektup y…’ incelemesinde tespit edilen göstergelerin metin bütünlüğüyle ilişkilendirilmesi.
+- Akıl yürütme basamaklarının ölçüt kullanarak değerlendirme ilkelerine uygun biçimde yapılandırılması.
 
 ### Sık yanılgılar
 
 - Mektuptaki meslek veya edebiyat ayrıntılarını asıl amaç sanmak.
-- Mektubu tarih ve kişi bilgisi içerdiği için otomatik olarak tarafsız belge saymak.
-- Soru 7 — ölçüt kullanarak değerlendirme — basılı s.81 görevinde hitap ve kapanış ifadelerini biçimsel süs sanıp iletişimdeki ilişki işlevini gözden kaçırmak.
+- ‘Tanpınar'ın Antalyalı genç kıza mek…’ türünde hitap ve kapanış ifadelerini biçimsel süs sanıp muhatapla kurulan ilişkinin işlevini gözden kaçırmak.
 
 ### Müdahale
 
-- Soru 7 — ölçüt kullanarak değerlendirme — basılı s.81 için müdahale: Metindeki bir olguyu ve bir değerlendirmeyi yan yana seçtirin; ikisinin doğrulanma biçimini ayrı ayrı açıklattırın. Müdahaleyi ‘Tanpınar'ın Antalyalı genç kıza mektup yazma amacını en kapsamlı biçimde açıklayan seçeneği…’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 7 — ölçüt kullanarak değerlendirme — basılı s.81 için müdahale: Aynı içeriği yakın arkadaşa ve resmî kuruma yazdırıp değişen hitap/üslup kararlarını karşılaştırın. Müdahaleyi ‘Tanpınar'ın Antalyalı genç kıza mektup yazma amacını en kapsamlı biçimde açıklayan seçeneği…’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciye ‘Tanpınar'ın Antalyalı genç kıza mek…’ çerçevesinde ‘mektuptaki meslek veya edebiyat’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- Öğrenciye gönderici-alıcı ilişkisini iki farklı örnek üzerinden karşılaştırın; ‘Tanpınar'ın Antalyalı genç kıza mek…’ hitap seçiminin iletişim amacına etkisini gösterin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Mektubun son paragrafındaki geçmiş–muhatap bağlantısını buldur.
-- Gönderici | alıcı | amaç | ilişki düzeyi | bunu gösteren ifade başlıklarından oluşan beş kutulu bir şema verin. Bu görevde bağlantı noktası: ölçüt kullanarak değerlendirme.
+- Öğrenciye ‘Tanpınar'ın Antalyalı genç kıza mek…’ için akranıyla fikir alışverişi yaptırarak yazma/konuşma planını netleştirmesini sağlayın.
 **Zenginleştirme**
 - Kişisel hatıranın iletişimde yakınlık kurma işlevini açıklat.
-- Aynı iletiyi mektup ve e-posta biçiminde yeniden yazdırarak kalıcılık, hız ve üslup farklarını tartıştırın. Bu görevde derinleştirme odağı: ölçüt kullanarak değerlendirme.
+- ‘Tanpınar'ın Antalyalı genç kıza mek…’ çalışmasını farklı bir hedef kitleye veya iletişim kanalına uyarlayarak ‘E…’ etkisini karşılaştırmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -12136,19 +12160,19 @@ Kapanış, gencin mutlu ve çalışkan olmasını isteyen sıcak ve destekleyici
 
 ### Açıklama ve gerekçe
 
-Soru 8 — ölçüt kullanarak değerlendirme — basılı s.82 için beklenen yön, ölçüt kullanarak değerlendirme yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. En az iki değeri metindeki kapanış ifadesiyle ilişkilendirir. İletişimin sıcak, teşvik edici ve samimi niteliğini açıklar.
+Soruya verilecek uygun cevap, ‘Mektubun kapanışındaki sözlerin gençlerle hangi de…’ yönündeki çıkarımı ölçüt kullanarak değerlendirme hedefleri doğrultusunda yapılandırır. Çözümlemenin geçerliliği, En az iki değeri metindeki kapanış ifadesiyle ilişkilendirir. İletişimin sıcak, teşvik edici ve samimi niteliğini açıklar. koşuluna uyulması ve iddiaların metindeki açık veya örtük ifadelerle doğrulanmasıyla sağlanır. Öğrencinin akıl yürütme süreci; sorunun işaret ettiği metin bölümünü belirlemek, oradaki dil ve anlatım ipuçlarını değerlendirmek ve ulaştığı yargıyı gerekçelendirmektir. Metin özüyle örtüşen ve mantıksal nedensellik taşıyan alternatif anlatımlar doğru yanıt olarak değerlendirilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 8 — ölçüt kullanarak değerlendirme — basılı s.82 görevinde iletişimi yalnız konuşma veya bilgi aktarımı olarak daraltmayın. Gönderici, alıcı, ileti, kanal, bağlam ve geri bildirim birlikte işler; gürültü fiziksel olabileceği gibi önyargı, dikkatsizlik, belirsiz dil veya uygun olmayan kanal da olabilir. Çok modlu metinde ses, görüntü, yazı ve müzik aynı iletiyi destekleyebilir ya da farklılaştırabilir. Bu görevde özellikle ‘Mektubun kapanışındaki sözlerin gençlerle hangi değerler üzerinden nasıl bir iletişim kurduğunu açıklayınız’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+İletişim; gönderici, alıcı, ileti, kanal ve bağlam unsurlarının etkileşimiyle gerçekleşen dinamik bir anlam paylaşımı sürecidir. Tarihsel süreçte yazılı, sözlü ve kitle iletişim araçlarından dijital ağlara geçiş, iletişim alışkanlıklarını ve etkileşim hızını dönüştürmüştür. Öğretmen bu görevde, iletişim araçlarının toplumsal ilişkileri ve bireyler arası bağları nasıl şekillendirdiğini açıklamalıdır. Bu görev tahlilinde öğretmen, ölçüt kullanarak değerlendirme odağında ‘Mektubun kapanışındaki sözlerin gençlerle hangi de…’ sorusuna yönelik yanıtların metin içi tutarlılığını denetlemeli ve yüzeysel yorumların ötesine geçilmesini sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> İletişimde anlam, yalnız sözcüklerden değil; kanal, bağlam, ses, görüntü ve karşılıklı tepkiden birlikte oluşur. Bu görevde özellikle ölçüt kullanarak değerlendirme üzerinde durun.
+> Görevin temel amacı, ‘Mektubun kapanışındaki sözlerin gençlerle han…’ ayrıntısı üzerinden ölçüt kullanarak değerlendirme kavramını kavramanızdır. Metindeki ilgili cümleleri bularak ‘Kapanış, gencin mutlu ve çalışkan o…’ bağlamındaki düşüncenizi kendi cümlelerinizle ortaya koyun.
 
 ### Bu görev neden burada?
 
-Bu görev, ölçüt kullanarak değerlendirme üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir.
+Bu soru, ‘Mektubun kapanışındaki sözlerin gençlerle han…’ ayrıntısını ölçüt kullanarak değerlendirme ile birleştirerek dil ve edebiyat çalışmalarında neden-sonuç ilişkisi kurma ve ‘Kapanış, gencin mutlu ve çalışkan o…’ bağlamını kavrama yeterliğini güçlendirir.
 
 ### Kabul edilebilir cevaplar
 
@@ -12158,40 +12182,40 @@ Bu görev, ölçüt kullanarak değerlendirme üzerinden iletişimde neden-sonu�
 ### Ders içi uygulama
 
 - Değer listesini ezberletmek yerine söz seçiminin muhatap üzerindeki etkisini açıklat.
-- Soru 8 — ölçüt kullanarak değerlendirme — basılı s.82 için öğrencinin önce iletişim ögesini, sonra aksamanın nerede oluştuğunu ve son olarak sonucu yazdığı bir neden-sonuç zinciri kurdurun.
-- Aynı mesajı yüz yüze, telefonla ve e-postayla iletme durumlarını karşılaştırarak kanalın dil/beden sesi üzerindeki etkisini tartıştırın.
+- Metnin ilgili bölümünü sessizce okutup ölçüt kullanarak değerlendirme ile bağlantılı kilit kelimeleri belirlemeleri için süre tanıyın.
+- Seçilen metin kanıtlarının ölçüt kullanarak değerlendirme hedefine uygunluğunu akran değerlendirmesiyle gözden geçirtin.
+- ‘Mektubun kapanışındaki sözlerin gençlerl…’ tahlilinden çıkan sonucu dersin genel tematik çerçevesine bağlayarak tahtada özetleyin.
 
 ### Takip soruları
 
-- Soru 8 — ölçüt kullanarak değerlendirme — basılı s.82 için düşünme sorusu: Buradaki aksama göndericiden mi, alıcıdan mı, kanaldan mı, bağlamdan mı kaynaklanıyor; hangi kanıt bunu gösteriyor? Özellikle ‘Mektubun kapanışındaki sözlerin gençlerle hangi değerler üzerinden nasıl bir iletişim kurduğunu açıklayınız’ ayrıntısını yoklayın.
-- Soru 8 — ölçüt kullanarak değerlendirme — basılı s.82 için başka bir kanal seçilse ileti açıklar mıydı, yoksa yeni bir sorun mu doğururdu? Özellikle ‘Mektubun kapanışındaki sözlerin gençlerle hangi değerler üzerinden nasıl bir iletişim kurduğunu açıklayınız’ ayrıntısını yoklayın.
+- Metinde ‘Mektubun kapanışındaki sözlerin gençlerl…’ kullanımına benzer başka bir örnek bulunabilir mi; bu iki örnek yazarın üslubunu nasıl yansıtmaktadır?
+- ‘Mektubun kapanışındaki sözlerin gençlerl…’ yapısındaki dil bilgisel işlevin, konuşurun ya da anlatıcının ruh hâlini yansıtmadaki rolü nedir?
 
 ### Öğrenci cevaplarını değerlendirme
 
 - Sözlü, gerekçeli açıklama.
 - En az iki değeri metindeki kapanış ifadesiyle ilişkilendirir.
 - İletişimin sıcak, teşvik edici ve samimi niteliğini açıklar.
-- İletişim ögeleri ile aksama/çözüm arasındaki neden-sonuç bağı.
+- ‘Mektubun kapanışındaki sözlerin gençlerl…’ konusundaki tespitlerin metin bağlamına ve türün edebî özelliklerine uygunluğu.
 
 ### Sık yanılgılar
 
 - Yalnız 'çalışkanlık' deyip hitap biçiminin iletişim tonunu göz ardı etmek.
-- İletişim engelini yalnız fiziksel gürültü sanmak.
-- Karşı tarafla aynı fikirde olmamayı tek başına iletişim engeli saymak veya iletişimde geri bildirimi gereksiz görmek.
+- Metinde art arda gelen durumları veya olayları doğrudan bir neden-sonuç ilişkisi sanarak ölçüt kullanarak değerlendirme çıkarımında yanılgıya düşmek.
 
 ### Müdahale
 
-- Soru 8 — ölçüt kullanarak değerlendirme — basılı s.82 için müdahale: Öğrenciden fiziksel ses olmayan fakat önyargı ya da belirsiz söz nedeniyle bozulan kısa bir örnek kurmasını isteyin; engel türünü adlandırsın. Müdahaleyi ‘Mektubun kapanışındaki sözlerin gençlerle hangi değerler üzerinden nasıl bir iletişim kurduğunu açıklayınız’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 8 — ölçüt kullanarak değerlendirme — basılı s.82 için müdahale: Mesajı farklı bir kanala taşıtıp hangi bilgi ve duygunun kaybolduğunu iki sütunda karşılaştırın. Müdahaleyi ‘Mektubun kapanışındaki sözlerin gençlerle hangi değerler üzerinden nasıl bir iletişim kurduğunu açıklayınız’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciye ‘Mektubun kapanışındaki sözlerin gen…’ çerçevesinde ‘yalnız çalışkanlık deyip hitap’ yanılgısını aşması için metindeki dayanakları adım adım buldurup kanıt sınırlarını belirleyin.
+- Olaylar arasındaki mantıksal nedensellik bağını ve gerekçe ifadelerini ‘Mektubun kapanışındaki sözlerin gen…’ metni üzerinde buldurup sebep-sonuç farkını gösterin ve tartışın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - 'Mesut', 'çalışkan' ve 'aziz yavrum' ifadelerini ayrı ayrı yorumlat.
-- İletişim zincirini ‘gönderici → ileti → kanal → alıcı → geri bildirim’ biçiminde verip engel noktasını işaretletin. Bu görevde bağlantı noktası: ölçüt kullanarak değerlendirme.
+- ‘Mektubun kapanışındaki sözlerin gen…’ konusunu daha sade yönlendirici alt sorulara bölerek öğrencinin ‘Kapanış, gencin mutlu ve çalış…’ sonucuna kademeli olarak ulaşmasına rehberlik edin.
 **Zenginleştirme**
 - Aynı iyi dileğin resmî bir mektupta nasıl değişeceğini tartıştır.
-- Aynı iletiyi iki farklı kanalda tasarlatıp hangi durumda kanal değişikliğinin etik ve işlevsel sonuç doğuracağını tartıştırın. Bu görevde derinleştirme odağı: ölçüt kullanarak değerlendirme.
+- ‘Mektubun kapanışındaki sözlerin gen…’ tahlilini yazarın edebî dönemi, sanat anlayışı ve dönemin toplumsal koşullarıyla ilişkilendiren bir araştırma sorusu geliştirtin.
 
 ### Kaynak ve durum
 
@@ -12236,19 +12260,19 @@ Mektupta yazar belirli bir muhataba doğrudan, kişisel ve samimi biçimde sesle
 
 ### Açıklama ve gerekçe
 
-Soru 9 — ölçüt kullanarak değerlendirme — basılı s.82 için beklenen yön, ölçüt kullanarak değerlendirme yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Mektuptaki doğrudan iletişim ile romandaki dolaylı/kurmaca iletişimi ayırır. Okurun romanda daha etkin yorumlayıcı rol üstlendiğini gerekçelendirebilir.
+Beklenen cevap, ölçüt kullanarak değerlendirme çerçevesinde ‘Mektup ve Huzur örneğinden hareketle yazarın okuyu…’ konusunu metnin sunduğu veriler ve kavramsal dayanaklar üzerinden şekillendirir. Bu cevabın uygunluğu, Mektuptaki doğrudan iletişim ile romandaki dolaylı/kurmaca iletişimi ayırır. Okurun romanda daha etkin yorumlayıcı rol üstlendiğini gerekçelendirebilir. ölçütünün karşılanmasına ve öğrencinin metindeki olay/durum ayrıntılarını nedensellik bağıyla kurmasına dayanır. Öğrencinin izlemesi gereken çıkarım yolu; öncelikle metindeki kanıt niteliği taşıyan ifadeleri belirlemek, ardından bu göstergeleri kavramsal odakla ilişkilendirerek kendi gerekçeli açıklamasını oluşturmaktır. Öğrenci aynı sonucu farklı sözcüklerle ifade edebilir; temel iddia ile metin dayanağı arasındaki mantıksal tutarlılık korunduğu sürece kişisel yorumlar alternatif cevap olarak kabul edilir.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 9 — ölçüt kullanarak değerlendirme — basılı s.82 görevinde iletişimi yalnız konuşma veya bilgi aktarımı olarak daraltmayın. Gönderici, alıcı, ileti, kanal, bağlam ve geri bildirim birlikte işler; gürültü fiziksel olabileceği gibi önyargı, dikkatsizlik, belirsiz dil veya uygun olmayan kanal da olabilir. Çok modlu metinde ses, görüntü, yazı ve müzik aynı iletiyi destekleyebilir ya da farklılaştırabilir. Bu görevde özellikle ‘Mektup ve Huzur örneğinden hareketle yazarın okuyucuya yaklaşımını ve metinle kurduğu iletişimi…’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görevde öğretmen, ölçüt kullanarak değerlendirme çerçevesinde sorulan ‘Mektup ve Huzur örneğinden hareketle yazarın okuyu…’ konusu üzerinden öğrencinin metin kanıtları ile kavramsal çıkarımlar arasındaki ilişkiyi doğru kurmasını sağlamalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> İletişimde anlam, yalnız sözcüklerden değil; kanal, bağlam, ses, görüntü ve karşılıklı tepkiden birlikte oluşur. Bu görevde özellikle ölçüt kullanarak değerlendirme üzerinde durun.
+> Bu görevde sizden beklenen; metindeki ipuçlarından hareketle ‘Mektup ve Huzur örneğinden hareketle yazarın …’ konusunu incelemeniz ve ölçüt kullanarak değerlendirme doğrultusunda ‘Mektupta yazar belirli bir muhataba…’ sonucuna nasıl ulaşıldığını adım adım açıklamanızdır.
 
 ### Bu görev neden burada?
 
-Bu görev, ölçüt kullanarak değerlendirme üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir.
+Bu görev, öğrencinin ‘Mektup ve Huzur örneğinden hareketle yazarın …’ üzerinden ölçüt kullanarak değerlendirme becerisini somut bir metin bağlamında deneyimlemesini ve iddialarını kanıtla destekleme alışkanlığı kazanmasını sağlar.
 
 ### Kabul edilebilir cevaplar
 
@@ -12258,13 +12282,14 @@ Bu görev, ölçüt kullanarak değerlendirme üzerinden iletişimde neden-sonu�
 ### Ders içi uygulama
 
 - Tek doğru cümle arama; iki metnin iletişim biçimini karşılaştıran metne dayalı farklı yorumları kabul et.
-- Soru 9 — ölçüt kullanarak değerlendirme — basılı s.82 için öğrencinin önce iletişim ögesini, sonra aksamanın nerede oluştuğunu ve son olarak sonucu yazdığı bir neden-sonuç zinciri kurdurun.
-- Aynı mesajı yüz yüze, telefonla ve e-postayla iletme durumlarını karşılaştırarak kanalın dil/beden sesi üzerindeki etkisini tartıştırın.
+- Öğrencilerden metinde ‘Mektup ve Huzur örneğinden hareketle yaz…’ konusuna kaynaklık eden temel ifadelerin altını çizmelerini isteyin.
+- Öğrencilerin tespit ettiği kanıtları karşılaştırarak hangisinin ölçüt kullanarak değerlendirme iddiasını daha güçlü desteklediğini sorgulatın.
+- Ulaşılan cevabı ölçüt kullanarak değerlendirme bağlamında toparlayıp metin tahlili için bir kural veya ilke olarak özetletin.
 
 ### Takip soruları
 
-- Soru 9 — ölçüt kullanarak değerlendirme — basılı s.82 için düşünme sorusu: Buradaki aksama göndericiden mi, alıcıdan mı, kanaldan mı, bağlamdan mı kaynaklanıyor; hangi kanıt bunu gösteriyor? Özellikle ‘Mektup ve Huzur örneğinden hareketle yazarın okuyucuya yaklaşımını ve metinle kurduğu iletişimi…’ ayrıntısını yoklayın.
-- Soru 9 — ölçüt kullanarak değerlendirme — basılı s.82 için başka bir kanal seçilse ileti açıklar mıydı, yoksa yeni bir sorun mu doğururdu? Özellikle ‘Mektup ve Huzur örneğinden hareketle yazarın okuyucuya yaklaşımını ve metinle kurduğu iletişimi…’ ayrıntısını yoklayın.
+- ‘Mektup ve Huzur örneğinden hareketle yaz…’ yapısındaki dil ögesi metinden çıkarılsaydı cümlenin bağlamsal doğruluğu ve anlatım gücü nasıl zayıflardı?
+- ‘Mektup ve Huzur örneğinden hareketle yaz…’ cümlesindeki dilbilgisi tercihinin metnin genel anlatım akışı ve anlam bütünlüğüne etkisi nedir?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -12276,22 +12301,21 @@ Bu görev, ölçüt kullanarak değerlendirme üzerinden iletişimde neden-sonu�
 ### Sık yanılgılar
 
 - Romanı yazarın okurla hiçbir iletişim kurmadığı bir metin olarak görmek.
-- İletişim engelini yalnız fiziksel gürültü sanmak.
-- Karşı tarafla aynı fikirde olmamayı tek başına iletişim engeli saymak veya iletişimde geri bildirimi gereksiz görmek.
+- ‘Mektup ve Huzur örneğinden hareketl…’ türünde hitap ve kapanış ifadelerini biçimsel süs sanıp muhatapla kurulan ilişkinin işlevini gözden kaçırmak.
 
 ### Müdahale
 
-- Soru 9 — ölçüt kullanarak değerlendirme — basılı s.82 için müdahale: Öğrenciden fiziksel ses olmayan fakat önyargı ya da belirsiz söz nedeniyle bozulan kısa bir örnek kurmasını isteyin; engel türünü adlandırsın. Müdahaleyi ‘Mektup ve Huzur örneğinden hareketle yazarın okuyucuya yaklaşımını ve metinle kurduğu iletişimi…’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 9 — ölçüt kullanarak değerlendirme — basılı s.82 için müdahale: Mesajı farklı bir kanala taşıtıp hangi bilgi ve duygunun kaybolduğunu iki sütunda karşılaştırın. Müdahaleyi ‘Mektup ve Huzur örneğinden hareketle yazarın okuyucuya yaklaşımını ve metinle kurduğu iletişimi…’ ayrıntısını kullandırarak somutlaştırın.
+- Öğrenciden ‘Mektup ve Huzur örneğinden hareketl…’ bağlamında ‘romanı yazarın okurla hiçbir’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- Öğrenciye gönderici-alıcı ilişkisini iki farklı örnek üzerinden karşılaştırın; ‘Mektup ve Huzur örneğinden hareketl…’ hitap seçiminin iletişim amacına etkisini gösterin.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Doğrudan / dolaylı iletişim başlıklı iki sütun ver.
-- İletişim zincirini ‘gönderici → ileti → kanal → alıcı → geri bildirim’ biçiminde verip engel noktasını işaretletin. Bu görevde bağlantı noktası: ölçüt kullanarak değerlendirme.
+- ‘Mektup ve Huzur örneğinden hareketl…’ sürecinde zorlanan öğrenciye metin türünün yapı basamaklarını gösteren bir şablon sunun.
 **Zenginleştirme**
 - Okurun çıkarım yapma sorumluluğunu 'gizli bağları bulmak' düşüncesiyle ilişkilendir.
-- Aynı iletiyi iki farklı kanalda tasarlatıp hangi durumda kanal değişikliğinin etik ve işlevsel sonuç doğuracağını tartıştırın. Bu görevde derinleştirme odağı: ölçüt kullanarak değerlendirme.
+- Öğrenciden ‘Mektup ve Huzur örneğinden hareketl…’ ürününü dijital bir sunuma veya okul bülteninde yayımlanacak bir yazıya dönüştürmesini isteyin.
 
 ### Kaynak ve durum
 
@@ -12336,57 +12360,57 @@ C
 
 ### Açıklama ve gerekçe
 
-Seçilen seçenek Soru 10 — ölçüt kullanarak değerlendirme — basılı s.82 için gerekli kavramsal ayrımı karşılar; ancak tek başına harfi söylemek düşünmeyi göstermeye yetmez. Öğrenci, ölçüt kullanarak değerlendirme bakımından seçenek ile kaynakta verilen bilgi arasındaki ilişkiyi kısaca açıklamalı ve çeldiricilerin neden elendiğini gösterebilmelidir.
+Doğru cevap C seçeneğidir çünkü ‘Dijitalleşmenin iletişim üzerindeki etkileriyle il…’ bağlamında Metnin içerik üretme ve paylaşma yeteneğindeki artışı internetin yaygınlaşmasına değil, 2000'lerin başında sosyal medya platformlarının ortaya çıkmasına bağladığını fark eder.. Öğrencinin metindeki dayanak cümleleri inceleyerek çeldiricilerin metinle uyuşmayan yönlerini elemesi ve C seçeneğindeki bilginin kaynakla örtüştüğünü gerekçelendirmesi beklenir. Tek başına seçenek harfini söylemek yeterli olmayıp seçeneği doğrulayan metin kanıtı açıklanmalıdır.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 10 — ölçüt kullanarak değerlendirme — basılı s.82 için e-postayı yalnız teknik bir form doldurma işi olarak değil, amacı ve hedef alıcısı belirlenmiş işlevsel bir yazma ürünü olarak açıklayın. Konu satırı, hitap, ana ileti, paragraf düzeni, ekler, gönderim zamanı ve mahremiyet aynı iletişim kararının parçalarıdır. Dijital ortam hız kazandırsa da açıklık, nezaket, güvenlik ve yazım özeni gereksinimini ortadan kaldırmaz. Bu görevde özellikle ‘Dijitalleşmenin iletişim üzerindeki etkileriyle ilgili metinden ulaşılamayan yargıyı belirleyiniz’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Mektup ve e-posta; gönderici, alıcı, iletişim amacı ve bağlam arasındaki ilişki düzeyiyle belirlenen yazılı iletişim türleridir. Özel mektupta samimi ve öznel bir anlatım hâkimken edebî mektupta sanat ve düşünce meseleleri estetik bir dille tartışılır; resmî mektup ve e-postada ise kurumsal nezaket, netlik ve konu satırı tutarlılığı esastır. Öğretmen, muhataba göre hitap, üslup ve dil tercihlerinin nasıl farklılaştığını vurgulamalıdır. Bu görevde öğretmenin kılavuzluğu, ‘Dijitalleşmenin iletişim üzerindeki etkileriyle il…’ bağlamında öğrencinin ölçüt kullanarak değerlendirme ve ‘C…’ arasındaki mantıksal nedensellik bağını metin üzerinden kavramasına odaklanmalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> E-postada biçim, alıcıya ve amaca hızlı ve açık ulaşmayı sağlayan bir düzen kurar. Bu görevde özellikle ölçüt kullanarak değerlendirme üzerinde durun.
+> Bu soruda, ‘Dijitalleşmenin iletişim üzerindeki etkileriy…’ odağını metnin genel anlam akışı içinde değerlendirmeniz gerekmektedir. Tespit ettiğiniz verileri ölçüt kullanarak değerlendirme açısından yorumlayarak ‘C…’ yönünde tutarlı bir sonuca varın.
 
 ### Bu görev neden burada?
 
-Bu görev, ölçüt kullanarak değerlendirme kararlarını gerçek bir dijital iletişim ürünü üzerinde görünür kılar.
+Öğrencinin ‘Dijitalleşmenin iletişim üzerindeki etkileriy…’ incelemesi yoluyla ölçüt kullanarak değerlendirme kavramını içselleştirmesi, edebî metinlerdeki anlam katmanlarını fark etmesine ve ‘C…’ yönünde derinlikli bakış kazanmasına zemin hazırlar.
 
 ### Ders içi uygulama
 
 - Doğru seçenek C olarak değerlendirilmelidir. Metinde internetin yaygınlaşması anlık mesajlaşma, e-posta ve forumlarla etkileşim kurmaya; içerik üretme/paylaşma artışı ise sosyal medyanın ortaya çıkmasına bağlanır.
-- Soru 10 — ölçüt kullanarak değerlendirme — basılı s.82 için öğrencinin taslağını göndermeden önce konu satırı, hitap, ana istek ve ek gerekçesini ayrı ayrı kontrol ettirin.
-- Bir cümlenin alıcıda belirsizlik oluşturup oluşturmadığını ‘Bu cümleyi okuyan kişi hangi eylemi anlayacak?’ sorusuyla test ettirin.
+- Metindeki anlatım tutumunu fark ettirmek için ‘Dijitalleşmenin iletişim üzerindeki etki…’ bölümünü sesli okutun.
+- Belirlenen alıntıların ölçüt kullanarak değerlendirme ve ‘C…’ açısından ne ifade ettiğini sınıf tartışmasıyla derinleştirin.
+- Farklı görüş bildiren öğrencilere söz hakkı vererek ölçüt kullanarak değerlendirme ölçütü çerçevesinde ortak bir sonuca varılmasını yönlendirin.
 
 ### Takip soruları
 
-- Soru 10 — ölçüt kullanarak değerlendirme — basılı s.82 için düşünme sorusu: Bu ek gerçekten alıcının karar vermesine yardım ediyor mu, yoksa yalnızca metni kalabalıklaştırıyor mu? Özellikle ‘Dijitalleşmenin iletişim üzerindeki etkileriyle ilgili metinden ulaşılamayan yargıyı belirleyiniz’ ayrıntısını yoklayın.
-- Soru 10 — ölçüt kullanarak değerlendirme — basılı s.82 için seçtiğin dil, alıcıyla ilişkin ve iletinin aciliyetiyle nasıl uyumlu? Özellikle ‘Dijitalleşmenin iletişim üzerindeki etkileriyle ilgili metinden ulaşılamayan yargıyı belirleyiniz’ ayrıntısını yoklayın.
+- Metinde ‘Dijitalleşmenin iletişim üzerindeki etki…’ kullanımına benzer başka bir örnek bulunabilir mi; bu iki örnek yazarın üslubunu nasıl yansıtmaktadır?
+- ‘Dijitalleşmenin iletişim üzerindeki etki…’ yapısındaki dil ögesi metinden çıkarılsaydı cümlenin bağlamsal doğruluğu ve anlatım gücü nasıl zayıflardı?
 
 ### Öğrenci cevaplarını değerlendirme
 
 - C seçeneği + nedensellik gerekçesi.
 - Metnin içerik üretme ve paylaşma yeteneğindeki artışı internetin yaygınlaşmasına değil, 2000'lerin başında sosyal medya platformlarının ortaya çıkmasına bağladığını fark eder.
-- Amaç, hedef kitle, konu satırı, hitap ve ana iletinin birbiriyle tutarlı olması.
-- Ek, dil, yazım ve görsel/işitsel destek kararlarının iletiyi gerçekten desteklemesi.
+- ‘Dijitalleşmenin iletişim üzerindeki etki…’ tahlilinde metin dışı dayanaksız varsayımlardan kaçınılarak nesnel delillere dayanılması.
+- Öğrencinin ölçüt kullanarak değerlendirme yeterliğini yansıtan kavramsal bir çözümleme düzeyi yakalaması.
 
 ### Sık yanılgılar
 
 - İnternet ve sosyal medya gelişmelerini aynı nedensel ifade olarak okumak.
-- E-postada konu satırı ve hitabın gereksiz olduğunu, yalnız ana metnin yeterli olacağını düşünmek.
-- Dijital iletişimde kısaltma ve gündelik dilin her alıcı ve amaç için uygun olduğunu sanmak.
+- ‘Dijitalleşmenin iletişim üzerindeki…’ konusunu metnin bütünsel ana iletisinden kopararak tek bir ayrıntı üzerinden genellemeye gitmek.
 
 ### Müdahale
 
-- Soru 10 — ölçüt kullanarak değerlendirme — basılı s.82 için müdahale: Öğrenciye aynı metni konu satırı olmayan ve alıcısı belirtilmeyen biçimde okutun; oluşan belirsizlikleri metinde işaretletin. Müdahaleyi ‘Dijitalleşmenin iletişim üzerindeki etkileriyle ilgili metinden ulaşılamayan yargıyı belirleyiniz’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 10 — ölçüt kullanarak değerlendirme — basılı s.82 için müdahale: Resmî ve kişisel iki alıcı seçtirip değişmesi gereken hitap, söz varlığı ve kapanış bölümlerini yeniden yazdırın. Müdahaleyi ‘Dijitalleşmenin iletişim üzerindeki etkileriyle ilgili metinden ulaşılamayan yargıyı belirleyiniz’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Dijitalleşmenin iletişim üzerindeki…’ doğrultusunda ‘internet ve sosyal medya’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- ‘Dijitalleşmenin iletişim üzerindeki…’ ayrıntısının metnin genel iletisine ve ölçüt kullanarak değerlendirme amacına nasıl bağlandığını metin parçalarını yan yana getirerek gösterin ve açıklattırın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - 1980-1990 internet cümlesi ile 2000'ler sosyal medya cümlesini yan yana okut.
-- Öğrenciye önce ‘Kime? Neden? Ne istiyorum? Hangi ek gerekli?’ dört sorusunu cevaplatıp sonra e-posta alanlarını doldurtun. Bu görevde bağlantı noktası: ölçüt kullanarak değerlendirme.
+- ‘Dijitalleşmenin iletişim üzerindeki…’ metnindeki karmaşık ifadeleri öğrencinin kendi sözcükleriyle yeniden ifade etmesini isteyerek ölçüt kullanarak değerlendirme fikrini netleştirin.
 **Zenginleştirme**
 - Metindeki teknoloji→etki ilişkilerini zaman çizelgesine dönüştür.
-- Aynı e-postanın daha resmî ve daha yakın iki sürümünü yazdırarak üslup kararlarını gerekçelendirin. Bu görevde derinleştirme odağı: ölçüt kullanarak değerlendirme.
+- Öğrencinin ‘Dijitalleşmenin iletişim üzerindeki…’ bağlamındaki çıkarımını infografik, dijital sunum veya kavram haritasına dönüştürerek sınıf panosunda sergilemesini sağlayın.
 
 ### Kaynak ve durum
 
@@ -12431,19 +12455,19 @@ Başlıca unsurlar teknolojik gelişmeler ve yeni iletişim araçlarının yayg�
 
 ### Açıklama ve gerekçe
 
-Soru 11 — ölçüt kullanarak değerlendirme — basılı s.83 için beklenen yön, ölçüt kullanarak değerlendirme yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. En az üç değişim unsurunu metinden örnekler. Araç ile iletişim alışkanlığındaki değişim arasında neden-sonuç ilişkisi kurar.
+Beklenen cevabın temeli, ölçüt kullanarak değerlendirme ekseninde ‘Toplumun iletişim alışkanlıklarını değiştiren unsu…’ bağlamını aydınlatan metin kanıtlarının doğru tahlil edilmesidir. Yanıtın kabul edilebilirliği; En az üç değişim unsurunu metinden örnekler. Araç ile iletişim alışkanlığındaki değişim arasında neden-sonuç ilişkisi kurar. ölçütüne bağlı kalınmasına ve metindeki verilerin tarafsız biçimde yorumlanmasına bağlıdır. Öğrenci; önce ilgili bilgiyi kaynaktan süzmeli, ardından bu bilgiyi sorunun gerektirdiği kavramsal çerçeveye oturtmalıdır. Metin sınırlarını aşmayan ve dayanağı gösterilen özgün öğrenci yorumları da geçerli sayılır.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 11 — ölçüt kullanarak değerlendirme — basılı s.83 görevinde iletişimi yalnız konuşma veya bilgi aktarımı olarak daraltmayın. Gönderici, alıcı, ileti, kanal, bağlam ve geri bildirim birlikte işler; gürültü fiziksel olabileceği gibi önyargı, dikkatsizlik, belirsiz dil veya uygun olmayan kanal da olabilir. Çok modlu metinde ses, görüntü, yazı ve müzik aynı iletiyi destekleyebilir ya da farklılaştırabilir. Bu görevde özellikle ‘Toplumun iletişim alışkanlıklarını değiştiren unsurları metinden örneklerle açıklayınız’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Radyo tiyatrosu; sahne görselliğinden yoksun olarak yalnızca söz, ses efektleri ve müzikle dinleyicinin zihninde mekân ve eylem canlandıran akustik bir dramatik türdür. Karakterlerin duyguları ses tonu ve tempoyla; mekân ve hareketler ise mikrofon hareketleri ve ses efektleriyle aktarılır. Öğretmen, görsel destek olmaksızın dinleyicinin dikkatini sürdüren ses dramaturjisini açıklamalıdır. Bu görevde öğretmen, ‘Toplumun iletişim alışkanlıklarını değiştiren unsu…’ yönergesini ele alırken sınıf ortamında ölçüt kullanarak değerlendirme boyutunu öne çıkarmalı ve ‘Başlıca unsurlar teknolojik gelişmeler v…’ yönündeki metin dayanaklarını desteklemelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> İletişimde anlam, yalnız sözcüklerden değil; kanal, bağlam, ses, görüntü ve karşılıklı tepkiden birlikte oluşur. Bu görevde özellikle ölçüt kullanarak değerlendirme üzerinde durun.
+> Bu çalışmayı yaparken metni dikkatle gözden geçirerek ‘Toplumun iletişim alışkanlıklarını değiştiren…’ ile ilgili kanıtları belirleyin; ulaştığınız yargıları ölçüt kullanarak değerlendirme ve ‘Başlıca unsurlar teknolojik gelişme…’ çerçevesinde gerekçelendirerek ifade edin.
 
 ### Bu görev neden burada?
 
-Bu görev, ölçüt kullanarak değerlendirme üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir.
+ölçüt kullanarak değerlendirme eksenindeki bu çalışma, ‘Toplumun iletişim alışkanlıklarını değiştiren…’ konusunu ele alırken öğrencinin yüzeysel okumadan analitik çözümlemeye geçişini ve ‘Başlıca unsurlar teknolojik gelişme…’ bağlantısını kurmasını destekler.
 
 ### Kabul edilebilir cevaplar
 
@@ -12453,40 +12477,40 @@ Bu görev, ölçüt kullanarak değerlendirme üzerinden iletişimde neden-sonu�
 ### Ders içi uygulama
 
 - Araçları yalnız sıralamayı yeterli sayma; her aracın iletişim biçimine etkisini açıklat.
-- Soru 11 — ölçüt kullanarak değerlendirme — basılı s.83 için öğrencinin önce iletişim ögesini, sonra aksamanın nerede oluştuğunu ve son olarak sonucu yazdığı bir neden-sonuç zinciri kurdurun.
-- Aynı mesajı yüz yüze, telefonla ve e-postayla iletme durumlarını karşılaştırarak kanalın dil/beden sesi üzerindeki etkisini tartıştırın.
+- Metindeki anlatım tutumunu fark ettirmek için ‘Toplumun iletişim alışkanlıklarını değiş…’ bölümünü sesli okutun.
+- Belirlenen alıntıların ölçüt kullanarak değerlendirme ve ‘Başlıca unsurlar teknolojik gelişme…’ açısından ne ifade ettiğini sınıf tartışmasıyla derinleştirin.
+- Farklı görüş bildiren öğrencilere söz hakkı vererek ölçüt kullanarak değerlendirme ölçütü çerçevesinde ortak bir sonuca varılmasını yönlendirin.
 
 ### Takip soruları
 
-- Soru 11 — ölçüt kullanarak değerlendirme — basılı s.83 için düşünme sorusu: Buradaki aksama göndericiden mi, alıcıdan mı, kanaldan mı, bağlamdan mı kaynaklanıyor; hangi kanıt bunu gösteriyor? Özellikle ‘Toplumun iletişim alışkanlıklarını değiştiren unsurları metinden örneklerle açıklayınız’ ayrıntısını yoklayın.
-- Soru 11 — ölçüt kullanarak değerlendirme — basılı s.83 için başka bir kanal seçilse ileti açıklar mıydı, yoksa yeni bir sorun mu doğururdu? Özellikle ‘Toplumun iletişim alışkanlıklarını değiştiren unsurları metinden örneklerle açıklayınız’ ayrıntısını yoklayın.
+- Metinde ‘Toplumun iletişim alışkanlıklarını değiş…’ kullanımına benzer başka bir örnek bulunabilir mi; bu iki örnek yazarın üslubunu nasıl yansıtmaktadır?
+- ‘Toplumun iletişim alışkanlıklarını değiş…’ yapısındaki dil ögesi metinden çıkarılsaydı cümlenin bağlamsal doğruluğu ve anlatım gücü nasıl zayıflardı?
 
 ### Öğrenci cevaplarını değerlendirme
 
 - Metinden örneklerle gerekçeli açıklama.
 - En az üç değişim unsurunu metinden örnekler.
 - Araç ile iletişim alışkanlığındaki değişim arasında neden-sonuç ilişkisi kurar.
-- İletişim ögeleri ile aksama/çözüm arasındaki neden-sonuç bağı.
+- Cevabın ‘Toplumun iletişim alışkanlıklarını değiş…’ odağını eksiksiz karşılaması ve metnin sunduğu verilerle çelişmemesi.
 
 ### Sık yanılgılar
 
 - Bütün değişimi yalnız sosyal medyaya bağlamak.
-- İletişim engelini yalnız fiziksel gürültü sanmak.
-- Karşı tarafla aynı fikirde olmamayı tek başına iletişim engeli saymak veya iletişimde geri bildirimi gereksiz görmek.
+- ‘Toplumun iletişim alışkanlıklarını …’ bağlamında geçen sözcüklerin metindeki özel bağlamsal anlamı yerine ilk akla gelen sözlük anlamıyla yetinmek.
 
 ### Müdahale
 
-- Soru 11 — ölçüt kullanarak değerlendirme — basılı s.83 için müdahale: Öğrenciden fiziksel ses olmayan fakat önyargı ya da belirsiz söz nedeniyle bozulan kısa bir örnek kurmasını isteyin; engel türünü adlandırsın. Müdahaleyi ‘Toplumun iletişim alışkanlıklarını değiştiren unsurları metinden örneklerle açıklayınız’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 11 — ölçüt kullanarak değerlendirme — basılı s.83 için müdahale: Mesajı farklı bir kanala taşıtıp hangi bilgi ve duygunun kaybolduğunu iki sütunda karşılaştırın. Müdahaleyi ‘Toplumun iletişim alışkanlıklarını değiştiren unsurları metinden örneklerle açıklayınız’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Toplumun iletişim alışkanlıklarını …’ doğrultusunda ‘bütün değişimi yalnız sosyal’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Sözcüğün geçtiği cümleyi ve paragrafı bütünüyle okutarak ‘Toplumun iletişim alışkanlıklarını …’ bağlamının anlama yüklediği yeni ve mecazi çağrışımları adım adım açıklatın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Matbaa→yaygın bilgi, telefon→hız/mesafe, internet→etkileşim, sosyal medya→üretim/paylaşım eşleştirmesi ver.
-- İletişim zincirini ‘gönderici → ileti → kanal → alıcı → geri bildirim’ biçiminde verip engel noktasını işaretletin. Bu görevde bağlantı noktası: ölçüt kullanarak değerlendirme.
+- Öğrenciye ‘iddia — metin kanıtı — ölçüt kullanarak değerlendirme gerekçesi’ üçlü şemasını tahtada ‘Toplumun iletişim alışkanlıklarını …’ üzerinden örnekleyerek cevabını oluşturmasını sağlayın.
 **Zenginleştirme**
 - Tek yönlü iletişimden etkileşimli iletişime geçişi tarihsel sırayla özetlet.
-- Aynı iletiyi iki farklı kanalda tasarlatıp hangi durumda kanal değişikliğinin etik ve işlevsel sonuç doğuracağını tartıştırın. Bu görevde derinleştirme odağı: ölçüt kullanarak değerlendirme.
+- ‘Toplumun iletişim alışkanlıklarını …’ için ulaşılan cevabı sınıfta farklı bir bakış açısıyla savunmasını veya karşıt bir tezi çürütmesini isteyerek ölçüt kullanarak değerlendirme ekseninde tartışma başlatın.
 
 ### Kaynak ve durum
 
@@ -12538,63 +12562,62 @@ Soru 12 — Sekiz cümleyi metne göre Evet, Hayır veya Bilgi yok biçiminde de
 
 ### Açıklama ve gerekçe
 
-Soru 12 — ölçüt kullanarak değerlendirme — basılı s.83 için beklenen yön, ölçüt kullanarak değerlendirme yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. Sekiz cümleyi metinde açıkça doğrulanan, açıkça çelişen veya hakkında bilgi bulunmayan ifade olarak ayırır.
+‘Sekiz cümleyi metne göre Evet, Hayır veya Bilgi yo…’ kapsamındaki tablo maddeleri (1_telgraf_telefon_mesafe, 2_radyo_televizyon_20yy, 3_2000lerde_hala_tek_yonlu), kaynak metindeki verilerle satır satır karşılaştırılarak değerlendirilir. Öğrencinin izleyeceği yöntem; metinde doğrudan doğrulanan önermelere 'Evet', açıkça reddedilenlere 'Hayır', doğrulanmayan veya değinilmeyenlere ise 'Bilgi yok' karşılığını vermektir. Sekiz cümleyi metinde açıkça doğrulanan, açıkça çelişen veya hakkında bilgi bulunmayan ifade olarak ayırır.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 12 — ölçüt kullanarak değerlendirme — basılı s.83 görevinde temel kavramı yalnız tanım olarak vermek yerine metindeki, görseldeki veya tabloda bulunan belirtiyle ilişkilendirin. Öğrenci önce kaynağın ne söylediğini ayırmalı, sonra bundan çıkardığı yorumu ve gerekçesini kurmalıdır. Böylece cevap, başlığı tekrar eden bir cümle değil, dayanaklı bir anlamlandırma olur. Bu görevde özellikle ‘Sekiz cümleyi metne göre Evet, Hayır veya Bilgi yok biçiminde değerlendiriniz’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Radyo tiyatrosu; sahne görselliğinden yoksun olarak yalnızca söz, ses efektleri ve müzikle dinleyicinin zihninde mekân ve eylem canlandıran akustik bir dramatik türdür. Karakterlerin duyguları ses tonu ve tempoyla; mekân ve hareketler ise mikrofon hareketleri ve ses efektleriyle aktarılır. Öğretmen, görsel destek olmaksızın dinleyicinin dikkatini sürdüren ses dramaturjisini açıklamalıdır. Bu görev adımında öğretmen, ‘Sekiz cümleyi metne göre Evet, Hayır veya Bilgi yo…’ ile ilgili sınıf tartışmasını ölçüt kullanarak değerlendirme zemininde yapılandırmalı ve ‘1_telgraf_telefon_mesafe: Evet 2_radyo_t…’ doğrultusundaki tespitleri metin üzerinden teyit ettirmelidir.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> Önce kaynakta gördüğümüz ayrıntıyı belirler, sonra bu ayrıntının ne anlama geldiğini gerekçesiyle açıklarız. Bu görevde özellikle ölçüt kullanarak değerlendirme üzerinde durun.
+> Bu etkinlikte amacınız, ‘Sekiz cümleyi metne göre Evet, Hayır veya Bil…’ konusunu ölçüt kullanarak değerlendirme perspektifinden tahlil etmektir. İddialarınızı metinden somut göstergelerle destekleyerek ‘1_telgraf_telefon_mesafe: Evet 2_ra…’ niteliğinde bir çıkarım yapın.
 
 ### Bu görev neden burada?
 
-Bu görev, ölçüt kullanarak değerlendirme doğrultusunda kaynaktan anlam çıkarma ve bu anlamı gerekçeli biçimde ifade etme becerisini geliştirir.
+Görev, ‘Sekiz cümleyi metne göre Evet, Hayır veya Bil…’ konusundaki gözlemleri ölçüt kullanarak değerlendirme ile sentezleyerek metin çözümleme disiplinini pekiştirir ve öğrencinin ‘1_telgraf_telefon_mesafe: Evet 2_ra…’ odaklı eleştirel düşünme kapasitesini artırır.
 
 ### Kabul edilebilir cevaplar
 
-- Bu görev, ölçüt kullanarak değerlendirme doğrultusunda kaynaktan anlam çıkarma ve bu anlamı gerekçeli biçimde ifade etme becerisini geliştirir. Kaynak ayrıntısı ve gerekçesi bulunan farklı ifadeler kabul edilir.
+- Bu görev, ölçüt kullanarak değerlendirme üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir. Kaynak ayrıntısı ve gerekçesi bulunan farklı ifadeler kabul edilir.
 - Kişisel görüş, metin/kaynak dayanağı ve gerekçe birlikte verildiğinde alternatif cevap olarak değerlendirilebilir.
 
 ### Ders içi uygulama
 
 - 'Bilgi yok' seçeneğini kişisel olarak yanlış görülen ifadeler için değil, metnin doğrulamadığı/çürütmediği yargılar için kullandır.
 - “Bilgi yok” seçeneğini yanlışlıkla “Hayır” yerine kullanmayın: metin yargıyı ne doğruluyor ne de çürütüyorsa Bilgi yoktur.
-- Soru 12 — ölçüt kullanarak değerlendirme — basılı s.83 için öğrenciden cevabındaki iddia ile onu destekleyen kaynak ayrıntısını iki ayrı bölümde göstermesini isteyin.
-- Farklı bir cevap geldiğinde önce kavramın ölçütünü, sonra cevabın kaynakla bağını birlikte kontrol edin.
+- Öğrencileri küçük gruplara ayırarak ‘Sekiz cümleyi metne göre Evet, Hayır vey…’ sorusunun işaret ettiği kanıtları metin üzerinden tespit ettirin.
+- Öğrencilerin ileri sürdüğü gerekçeleri tahtaya yazarak ölçüt kullanarak değerlendirme ölçütüne göre sınıflandırın.
 
 ### Takip soruları
 
-- Soru 12 — ölçüt kullanarak değerlendirme — basılı s.83 cevabındaki hangi ayrıntı bu yorumu destekliyor; başka hangi ayrıntı farklı bir yoruma yol açabilir? Özellikle ‘Sekiz cümleyi metne göre Evet, Hayır veya Bilgi yok biçiminde değerlendiriniz’ ayrıntısını yoklayın.
-- Soru 12 — ölçüt kullanarak değerlendirme — basılı s.83 için düşünme sorusu: Cevabın kavramı mı açıklıyor, yoksa yalnız metni yeniden mi söylüyor? Özellikle ‘Sekiz cümleyi metne göre Evet, Hayır veya Bilgi yok biçiminde değerlendiriniz’ ayrıntısını yoklayın.
+- ‘Sekiz cümleyi metne göre Evet, Hayır vey…’ yapısındaki dil ögesi metinden çıkarılsaydı cümlenin bağlamsal doğruluğu ve anlatım gücü nasıl zayıflardı?
+- Eğer ‘Sekiz cümleyi metne göre Evet, Hayır vey…’ ifadesinde kullanılan dil bilgisel yapı değiştirilseydi, cümlenin ilettiği anlam ve vurgu nasıl başkalaşırdı?
 
 ### Öğrenci cevaplarını değerlendirme
 
 - Sırasıyla: Evet, Evet, Hayır, Bilgi yok, Bilgi yok, Evet, Hayır, Bilgi yok.
 - Sekiz cümleyi metinde açıkça doğrulanan, açıkça çelişen veya hakkında bilgi bulunmayan ifade olarak ayırır.
-- Kaynak ayrıntısı, kavram ve gerekçe arasında açık bağ.
-- Bilgi, çıkarım ve kişisel değerlendirme düzeylerini ayırma.
+- Tablodaki 8 maddenin her birinin metin kanıtıyla doğru eşleştirilmesi.
+- ‘Sekiz cümleyi metne göre Evet, Hayır vey…’ için öne sürülen savın metindeki dil ve üslup ayrıntılarıyla desteklenmesi.
 
 ### Sık yanılgılar
 
 - Metinde geçmeyen her ifadeyi otomatik olarak 'Hayır' işaretlemek.
-- Öğrenci, Soru 12 — ölçüt kullanarak değerlendirme — basılı s.83 görevinde kavramın adını söylemeyi kavramı açıklamakla eşitleyebilir.
-- Kaynakta açıkça bulunan bilgi ile öğrencinin kendi çıkarımını aynı kesinlikte sunabilir.
+- ‘Sekiz cümleyi metne göre Evet, Hayı…’ maddelerini değerlendirirken kendi genel kültür bilgisini metin gerçeğinin yerine koyarak işaretleme yapmak.
 
 ### Müdahale
 
-- Soru 12 — ölçüt kullanarak değerlendirme — basılı s.83 için müdahale: Cevabı ‘kaynak ayrıntısı — kavram/çıkarım — gerekçe’ biçiminde üç parçaya böldürün; eksik parçayı birlikte tamamlayın. Müdahaleyi ‘Sekiz cümleyi metne göre Evet, Hayır veya Bilgi yok biçiminde değerlendiriniz’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 12 — ölçüt kullanarak değerlendirme — basılı s.83 için müdahale: Öğrenciden cümlesindeki kesinlik ifadesini kanıtına göre ‘metinde görülür’, ‘çıkarılabilir’ veya ‘kişisel yorumum’ diye yeniden seçmesini isteyin. Müdahaleyi ‘Sekiz cümleyi metne göre Evet, Hayır veya Bilgi yok biçiminde değerlendiriniz’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Sekiz cümleyi metne göre Evet, Hayı…’ incelemesinde ‘metinde geçmeyen her ifadeyi’ ile ilgili metin bölümlerini karşılaştırıp kavramsal işlevini ve anlamını tahtada gösterin ve açıklattırın.
+- Öğrencinin ‘Sekiz cümleyi metne göre Evet, Hayı…’ için her bir işaretlemede metinden doğrudan kanıt cümlesi seçmesini isteyin ve doğruluğunu tartışın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Her satır için metinde kanıt cümlesi arat; kanıt yoksa 'Bilgi yok' seçeneğini düşünmesini sağla.
-- Cevabı ‘Gördüğüm/duyduğum ayrıntı — bundan çıkardığım — nedenim’ cümle kalıbıyla başlatın. Bu görevde bağlantı noktası: ölçüt kullanarak değerlendirme.
+- Öğrenciyi bir akranıyla eşleştirerek ‘Sekiz cümleyi metne göre Evet, Hayı…’ hakkındaki düşüncelerini önce sözlü olarak paylaşmasını, ardından yazıya dökmesini isteyin.
 **Zenginleştirme**
 - Her kararın yanına bir satırlık metin kanıtı yazdır.
-- Aynı ayrıntıdan iki farklı fakat kanıtlı yorum üretip yorumların hangi varsayımla ayrıldığını açıklatın. Bu görevde derinleştirme odağı: ölçüt kullanarak değerlendirme.
+- Öğrenciden ‘Sekiz cümleyi metne göre Evet, Hayı…’ metnindeki ölçüt kullanarak değerlendirme yaklaşımını örnek alarak benzer temada kısa bir kurmaca metin veya deneme taslağı yazmasını isteyin.
 
 ### Kaynak ve durum
 
@@ -12639,19 +12662,19 @@ Soru 13 — Olvido çok modlu metninde şiirin duygusunun aktarılmasında etkil
 
 ### Açıklama ve gerekçe
 
-Soru 13 — ölçüt kullanarak değerlendirme — basılı s.83 için beklenen yön, ölçüt kullanarak değerlendirme yorumunu kaynakta görülen bir ayrıntı ve açık bir gerekçeyle kurmaktır. Tek bir kalıp cümle aranmaz; farklı cevaplar aynı kavramsal ölçütü ve tutarlı bir kanıt zincirini karşılıyorsa kabul edilebilir. İzlenen içerikten en az iki farklı moda ait unsur belirler; örneğin seslendirme + müzik veya ses + görsel. Belirlediği unsurun şiirin duygusunu nasıl güçlendirdiğini açıklar.
+Beklenen cevabın temeli, ölçüt kullanarak değerlendirme ekseninde ‘Olvido çok modlu metninde şiirin duygusunun aktarı…’ bağlamını aydınlatan metin kanıtlarının doğru tahlil edilmesidir. Yanıtın kabul edilebilirliği; İzlenen içerikten en az iki farklı moda ait unsur belirler; örneğin seslendirme + müzik veya ses + görsel. Belirlediği unsurun şiirin duygusunu nasıl güçlendirdiğini açıklar. ölçütüne bağlı kalınmasına ve metindeki verilerin tarafsız biçimde yorumlanmasına bağlıdır. Öğrenci; önce ilgili bilgiyi kaynaktan süzmeli, ardından bu bilgiyi sorunun gerektirdiği kavramsal çerçeveye oturtmalıdır. Metin sınırlarını aşmayan ve dayanağı gösterilen özgün öğrenci yorumları da geçerli sayılır.
 
 ### Öğretmenin bilmesi gerekenler
 
-Soru 13 — ölçüt kullanarak değerlendirme — basılı s.83 görevinde iletişimi yalnız konuşma veya bilgi aktarımı olarak daraltmayın. Gönderici, alıcı, ileti, kanal, bağlam ve geri bildirim birlikte işler; gürültü fiziksel olabileceği gibi önyargı, dikkatsizlik, belirsiz dil veya uygun olmayan kanal da olabilir. Çok modlu metinde ses, görüntü, yazı ve müzik aynı iletiyi destekleyebilir ya da farklılaştırabilir. Bu görevde özellikle ‘Olvido çok modlu metninde şiirin duygusunun aktarılmasında etkili olan unsurları açıklayınız’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin.
+Soru 13 — ölçüt kullanarak değerlendirme — basılı s.83 görevinde iletişimi yalnız konuşma veya bilgi aktarımı olarak daraltmayın. Gönderici, alıcı, ileti, kanal, bağlam ve geri bildirim birlikte işler; gürültü fiziksel olabileceği gibi önyargı, dikkatsizlik, belirsiz dil veya uygun olmayan kanal da olabilir. Çok modlu metinde ses, görüntü, yazı ve müzik aynı iletiyi destekleyebilir ya da farklılaştırabilir. Bu görevde özellikle ‘Olvido çok modlu metninde şiirin duygusunun aktarılmasında etkili olan unsurları açıklayınız’ ayrıntısının hangi kavramı veya iletişim kararını görünür kıldığına dikkat edin. Bu görevde öğretmenin kılavuzluğu, ‘Olvido çok modlu metninde şiirin duygusunun aktarı…’ bağlamında öğrencinin ölçüt kullanarak değerlendirme ve ‘Örnek kabul edilebilir cevap: Şiirin duy…’ arasındaki mantıksal nedensellik bağını metin üzerinden kavramasına odaklanmalıdır.
 
 ### Sınıfta nasıl açıklanabilir?
 
-> İletişimde anlam, yalnız sözcüklerden değil; kanal, bağlam, ses, görüntü ve karşılıklı tepkiden birlikte oluşur. Bu görevde özellikle ölçüt kullanarak değerlendirme üzerinde durun.
+> Bu soruda, ‘Olvido çok modlu metninde şiirin duygusunun a…’ odağını metnin genel anlam akışı içinde değerlendirmeniz gerekmektedir. Tespit ettiğiniz verileri ölçüt kullanarak değerlendirme açısından yorumlayarak ‘Örnek kabul edilebilir cevap: Şiiri…’ yönünde tutarlı bir sonuca varın.
 
 ### Bu görev neden burada?
 
-Bu görev, ölçüt kullanarak değerlendirme üzerinden iletişimde neden-sonuç kurmayı ve kanal seçimini bilinçli hâle getirir.
+Öğrencinin ‘Olvido çok modlu metninde şiirin duygusunun a…’ incelemesi yoluyla ölçüt kullanarak değerlendirme kavramını içselleştirmesi, edebî metinlerdeki anlam katmanlarını fark etmesine ve ‘Örnek kabul edilebilir cevap: Şiiri…’ yönünde derinlikli bakış kazanmasına zemin hazırlar.
 
 ### Kabul edilebilir cevaplar
 
@@ -12667,8 +12690,8 @@ Bu görev, ölçüt kullanarak değerlendirme üzerinden iletişimde neden-sonu�
 
 ### Takip soruları
 
-- Soru 13 — ölçüt kullanarak değerlendirme — basılı s.83 için düşünme sorusu: Buradaki aksama göndericiden mi, alıcıdan mı, kanaldan mı, bağlamdan mı kaynaklanıyor; hangi kanıt bunu gösteriyor? Özellikle ‘Olvido çok modlu metninde şiirin duygusunun aktarılmasında etkili olan unsurları açıklayınız’ ayrıntısını yoklayın.
-- Soru 13 — ölçüt kullanarak değerlendirme — basılı s.83 için başka bir kanal seçilse ileti açıklar mıydı, yoksa yeni bir sorun mu doğururdu? Özellikle ‘Olvido çok modlu metninde şiirin duygusunun aktarılmasında etkili olan unsurları açıklayınız’ ayrıntısını yoklayın.
+- Eğer ‘Olvido çok modlu metninde şiirin duygusu…’ değerlendirmesinde nesnel metin kanıtları yerine öznel izlenimler ölçüt alınsaydı, ölçüt kullanarak değerlendirme sonucu nasıl değişirdi?
+- ‘Olvido çok modlu metninde şiirin duygusu…’ odağındaki yargıyı çürütebilecek karşıt bir görüş hangi ölçütlere dayandırılabilir?
 
 ### Öğrenci cevaplarını değerlendirme
 
@@ -12681,21 +12704,22 @@ Bu görev, ölçüt kullanarak değerlendirme üzerinden iletişimde neden-sonu�
 
 - Şiirin yalnız sözcüklerinin duygu oluşturduğunu söyleyip ses/görsel/işitsel katmanları göz ardı etmek.
 - Videoda bulunup bulunmadığı doğrulanmadan belirli bir görsel veya müzik unsurunu cevap anahtarı saymak.
-- İletişim engelini yalnız fiziksel gürültü sanmak.
+- ‘Olvido çok modlu metninde şiirin du…’ konusunu metnin bütünsel ana iletisinden kopararak tek bir ayrıntı üzerinden genellemeye gitmek.
 
 ### Müdahale
 
-- Soru 13 — ölçüt kullanarak değerlendirme — basılı s.83 için müdahale: Öğrenciden fiziksel ses olmayan fakat önyargı ya da belirsiz söz nedeniyle bozulan kısa bir örnek kurmasını isteyin; engel türünü adlandırsın. Müdahaleyi ‘Olvido çok modlu metninde şiirin duygusunun aktarılmasında etkili olan unsurları açıklayınız’ ayrıntısını kullandırarak somutlaştırın.
-- Soru 13 — ölçüt kullanarak değerlendirme — basılı s.83 için müdahale: Mesajı farklı bir kanala taşıtıp hangi bilgi ve duygunun kaybolduğunu iki sütunda karşılaştırın. Müdahaleyi ‘Olvido çok modlu metninde şiirin duygusunun aktarılmasında etkili olan unsurları açıklayınız’ ayrıntısını kullandırarak somutlaştırın.
+- ‘Olvido çok modlu metninde şiirin du…’ doğrultusunda ‘şiirin yalnız sözcüklerinin duygu’ ayrıntısını metnin genel iletisi ve bağlamıyla ilişkilendirerek öğrencilere sorgulatın.
+- Öğrenciden ‘Olvido çok modlu metninde şiirin du…’ bağlamında ‘videoda bulunup bulunmadığı doğrulanmadan’ konusundaki iddiasını metinden göstereceği doğrudan bir kanıt cümlesiyle desteklemesini isteyin; kanıtsız varsayımları tartışarak eleyin.
+- ‘Olvido çok modlu metninde şiirin du…’ ayrıntısının metnin genel iletisine ve ölçüt kullanarak değerlendirme amacına nasıl bağlandığını metin parçalarını yan yana getirerek gösterin ve açıklattırın.
 
 ### Destek / zenginleştirme
 
 **Destek**
 - Seslendirme–müzik/ses–görsel/renk–tempo başlıklarından gözlenenleri seçtir.
-- İletişim zincirini ‘gönderici → ileti → kanal → alıcı → geri bildirim’ biçiminde verip engel noktasını işaretletin. Bu görevde bağlantı noktası: ölçüt kullanarak değerlendirme.
+- ‘Olvido çok modlu metninde şiirin du…’ metnindeki karmaşık ifadeleri öğrencinin kendi sözcükleriyle yeniden ifade etmesini isteyerek ölçüt kullanarak değerlendirme fikrini netleştirin.
 **Zenginleştirme**
 - Aynı şiirin yalnız yazılı biçimde okunmasıyla çok modlu sunumu arasındaki duygu etkisini karşılaştırmasını iste.
-- Aynı iletiyi iki farklı kanalda tasarlatıp hangi durumda kanal değişikliğinin etik ve işlevsel sonuç doğuracağını tartıştırın. Bu görevde derinleştirme odağı: ölçüt kullanarak değerlendirme.
+- Öğrencinin ‘Olvido çok modlu metninde şiirin du…’ bağlamındaki çıkarımını infografik, dijital sunum veya kavram haritasına dönüştürerek sınıf panosunda sergilemesini sağlayın.
 
 ### Kaynak ve durum
 
