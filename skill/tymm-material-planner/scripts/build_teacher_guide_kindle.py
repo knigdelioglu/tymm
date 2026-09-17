@@ -2,7 +2,9 @@
 """Build Kindle-friendly EPUB 3 books from TDE 11 Teacher Guide V3 JSON.
 
 The V3 JSON remains the canonical source. This renderer only projects that data
-into a reading-first layout optimized for Kindle/e-ink use.
+into a reading-first layout optimized for Kindle/e-ink use. Internal task IDs,
+provenance IDs and machine-oriented labels remain in the canonical data but are
+not exposed in the teacher-facing reading surface.
 """
 from __future__ import annotations
 
@@ -23,6 +25,52 @@ FIXED_ZIP_TIME = (1980, 1, 1, 0, 0, 0)
 XHTML_NS = "http://www.w3.org/1999/xhtml"
 EPUB_NS = "http://www.idpf.org/2007/ops"
 
+TASK_TYPE_LABELS = {
+    "QUESTION": "",
+    "PROCESS": "Süreç görevi",
+    "REFERENCE": "Başvuru",
+    "ACTIVITY": "Etkinlik",
+    "PERFORMANCE": "Performans görevi",
+    "PERFORMANCE_TASK": "Performans görevi",
+    "TEACHER_NOTE": "Öğretmen notu",
+}
+
+KEY_LABELS = {
+    "organization": "Organizasyon",
+    "organisation": "Organizasyon",
+    "kart_ornekleri": "Kart örnekleri",
+    "card_examples": "Kart örnekleri",
+    "paylasim": "Paylaşım",
+    "sharing": "Paylaşım",
+    "adimlar": "Adımlar",
+    "steps": "Adımlar",
+    "amac": "Amaç",
+    "purpose": "Amaç",
+    "hedef_kitle": "Hedef kitle",
+    "audience": "Hedef kitle",
+    "icerik": "İçerik",
+    "content": "İçerik",
+    "kanit": "Kanıt",
+    "evidence": "Kanıt",
+    "gerekce": "Gerekçe",
+    "reasoning": "Gerekçe",
+    "degerlendirme": "Değerlendirme",
+    "assessment": "Değerlendirme",
+    "timing": "Zamanlama",
+    "mental_reply": "Zihinde cevaplayıp göndermeme",
+    "reply": "Yanıt",
+    "example": "Örnek",
+    "examples": "Örnekler",
+    "result": "Sonuç",
+    "results": "Sonuçlar",
+}
+
+INTERNAL_LOCATOR_PATTERNS = [
+    re.compile(r"^(?:TEMA_\d+::)?T\d+(?:V\d+)?_[A-Z0-9_.:/-]+$", re.IGNORECASE),
+    re.compile(r"^(?:BLOCK|FORM)_[A-Z0-9_.:/-]+$", re.IGNORECASE),
+    re.compile(r"^[A-Z][A-Z0-9-]*(?:_[A-Z0-9.-]+){2,}$"),
+]
+
 
 def read_json(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
@@ -36,6 +84,36 @@ def compact_ws(value: Any) -> str:
     return re.sub(r"\s+", " ", "" if value is None else str(value)).strip()
 
 
+def clean_visible_text(value: Any) -> str:
+    """Remove machine-facing notation without changing the substantive content."""
+    text = compact_ws(value)
+    if not text:
+        return ""
+
+    # Curriculum/internal codes are useful in JSON provenance, not in a Kindle book.
+    text = re.sub(r"\bTDE\d+(?:\.\d+)+\b", "ilgili öğrenme çıktısı", text)
+    text = re.sub(r"\b(?:TEMA_\d+::)?T\d+(?:V\d+)?_[A-Z0-9_.:/-]+\b", "", text)
+    text = re.sub(r"\b(?:BLOCK|FORM)_[A-Z0-9_.:/-]+\b", "", text)
+
+    # Machine-generated answer-component labels such as “q1 timing:” are not
+    # useful to a teacher. Keep the sub-question identity, discard the debug key.
+    text = re.sub(
+        r"\bq(\d+)\s+[a-z][a-z0-9 _-]{1,40}\s*:",
+        lambda match: f"Alt soru {match.group(1)}:",
+        text,
+        flags=re.IGNORECASE,
+    )
+    text = re.sub(r"\bq(\d+)\b", lambda match: f"{match.group(1)}. alt soru", text, flags=re.IGNORECASE)
+    text = re.sub(r"\badimlar\s*:", "Adımlar:", text, flags=re.IGNORECASE)
+
+    # Tidy punctuation left behind after removing internal tokens.
+    text = re.sub(r"\(\s*[,;:·\-–—]*\s*\)", "", text)
+    text = re.sub(r"\s+([,.;:!?])", r"\1", text)
+    text = re.sub(r"([,;:])\s*([,;:])", r"\1 ", text)
+    text = re.sub(r"\s{2,}", " ", text)
+    return text.strip()
+
+
 def slug(value: str) -> str:
     result = re.sub(r"[^a-zA-Z0-9_-]+", "-", value).strip("-").lower()
     return result or "item"
@@ -46,19 +124,56 @@ def task_anchor(task_id: str) -> str:
     return f"task-{slug(task_id)[:54]}-{digest}"
 
 
+def humanize_key(key: str) -> str:
+    normalized = key.strip().lower()
+    if normalized in KEY_LABELS:
+        return KEY_LABELS[normalized]
+
+    match = re.fullmatch(r"q(\d+)_(.+)", normalized)
+    if match:
+        number, remainder = match.groups()
+        remainder_label = KEY_LABELS.get(remainder, remainder.replace("_", " "))
+        return f"Alt soru {number} — {remainder_label}"
+
+    replacements = {
+        "ornek": "örnek",
+        "ornekleri": "örnekleri",
+        "paylasim": "paylaşım",
+        "adim": "adım",
+        "adimlar": "adımlar",
+        "icerik": "içerik",
+        "degerlendirme": "değerlendirme",
+        "gerekce": "gerekçe",
+        "kanit": "kanıt",
+        "cikti": "çıktı",
+        "amac": "amaç",
+        "olcut": "ölçüt",
+        "olcutler": "ölçütler",
+    }
+    words = [replacements.get(word, word) for word in normalized.replace("-", "_").split("_") if word]
+    label = " ".join(words).strip()
+    return label[:1].upper() + label[1:] if label else key
+
+
 def render_value(value: Any) -> str:
     if value is None or value == "" or value == [] or value == {}:
         return ""
     if isinstance(value, bool):
         return "Evet" if value else "Hayır"
     if isinstance(value, str):
-        paragraphs = [compact_ws(part) for part in re.split(r"\n\s*\n", value) if compact_ws(part)]
+        paragraphs = [clean_visible_text(part) for part in re.split(r"\n\s*\n", value)]
+        paragraphs = [part for part in paragraphs if part]
         return "".join(f"<p>{escape(part)}</p>" for part in paragraphs)
     if isinstance(value, (int, float)):
         return f"<p>{escape(value)}</p>"
     if isinstance(value, list):
         parts = []
         for entry in value:
+            if isinstance(entry, str):
+                cleaned = clean_visible_text(entry)
+                if cleaned:
+                    parts.append(f"<li>{escape(cleaned)}</li>")
+                continue
             rendered = render_value(entry)
             if rendered:
                 parts.append(f"<li>{rendered}</li>")
@@ -68,10 +183,10 @@ def render_value(value: Any) -> str:
         for key, entry in value.items():
             rendered = render_value(entry)
             if rendered:
-                label = str(key).replace("_", " ").strip().capitalize()
-                rows.append(f"<dt>{escape(label)}</dt><dd>{rendered}</dd>")
+                rows.append(f"<dt>{escape(humanize_key(str(key)))}</dt><dd>{rendered}</dd>")
         return f"<dl>{''.join(rows)}</dl>" if rows else ""
-    return f"<p>{escape(value)}</p>"
+    cleaned = clean_visible_text(value)
+    return f"<p>{escape(cleaned)}</p>" if cleaned else ""
 
 
 def section_block(title: str, value: Any, css_class: str = "detail") -> str:
@@ -94,8 +209,8 @@ def paired_misconceptions(task: dict[str, Any]) -> str:
     rows: list[str] = []
     count = max(len(misconceptions), len(interventions))
     for index in range(count):
-        misconception = misconceptions[index] if index < len(misconceptions) else ""
-        intervention = interventions[index] if index < len(interventions) else ""
+        misconception = clean_visible_text(misconceptions[index]) if index < len(misconceptions) else ""
+        intervention = clean_visible_text(interventions[index]) if index < len(interventions) else ""
         row = '<div class="misconception-pair">'
         if misconception:
             row += f'<p><strong>Yanılgı:</strong> {escape(misconception)}</p>'
@@ -106,17 +221,58 @@ def paired_misconceptions(task: dict[str, Any]) -> str:
     return '<section class="detail warning"><h4>Sık yanılgılar ve müdahale</h4>' + "".join(rows) + "</section>"
 
 
+def task_type_label(task_type: Any) -> str:
+    raw = compact_ws(task_type)
+    if not raw:
+        return ""
+    return TASK_TYPE_LABELS.get(raw.upper(), raw.replace("_", " ").strip().capitalize())
+
+
 def task_label(task: dict[str, Any]) -> str:
-    bits = [f"s. {task.get('printed_page_range', '?')}"]
-    heading = compact_ws(task.get("book_heading"))
+    bits: list[str] = []
+    page_range = compact_ws(task.get("printed_page_range"))
+    if page_range:
+        bits.append(f"s. {page_range}")
+    heading = clean_visible_text(task.get("book_heading"))
     if heading:
         bits.append(heading)
     question = compact_ws(task.get("question_number"))
     if question:
         bits.append(f"Soru {question}")
-    elif task.get("task_type") and task.get("task_type") != "QUESTION":
-        bits.append(str(task["task_type"]).replace("_", " ").title())
-    return " · ".join(bits)
+    else:
+        type_label = task_type_label(task.get("task_type"))
+        if type_label:
+            bits.append(type_label)
+    return " · ".join(bits) or "Görev"
+
+
+def is_internal_locator(value: Any) -> bool:
+    raw = compact_ws(value)
+    if not raw:
+        return True
+    if raw.startswith(("courses/", "skill/")) or raw.endswith((".json", ".md")):
+        return True
+    return any(pattern.fullmatch(raw) for pattern in INTERNAL_LOCATOR_PATTERNS)
+
+
+def public_source_lines(task: dict[str, Any]) -> list[str]:
+    lines: list[str] = []
+    seen: set[str] = set()
+    for locator in task.get("source_locators") or []:
+        if is_internal_locator(locator):
+            continue
+        cleaned = clean_visible_text(locator)
+        if not cleaned:
+            continue
+        key = cleaned.casefold()
+        if key not in seen:
+            seen.add(key)
+            lines.append(cleaned)
+    if task.get("content_status") == "REVIEW_REQUIRED":
+        note = "Bu kart dış medya, QR veya kaynak sınırı nedeniyle öğretmen kontrolü gerektiriyor."
+        if note.casefold() not in seen:
+            lines.append(note)
+    return lines
 
 
 def render_task(task: dict[str, Any], profile: dict[str, Any]) -> str:
@@ -153,15 +309,12 @@ def render_task(task: dict[str, Any], profile: dict[str, Any]) -> str:
         list_block(detailed_fields.get("board_notes", "Tahta notu"), task.get("board_notes")),
     ]
 
-    source_lines = list(task.get("source_locators") or [])
-    if task.get("content_status") == "REVIEW_REQUIRED":
-        source_lines.extend(task.get("review_reasons") or [])
-    source_block = list_block("Kaynak / durum", source_lines, "source") if source_lines else ""
+    source_lines = public_source_lines(task)
+    source_block = list_block("Kaynak", source_lines, "source") if source_lines else ""
 
     return (
         f'<article class="task" id="{anchor}" data-task-id="{escape(task["task_id"])}">'
         f'<h3>{escape(task_label(task))}</h3>'
-        f'<p class="task-meta">{escape(task.get("task_id", ""))}</p>'
         f'{"".join(quick)}'
         '<div class="details">'
         f'{"".join(part for part in details if part)}'
@@ -187,6 +340,13 @@ def xhtml_document(title: str, body: str, css_href: str = "../css/kindle.css") -
 '''
 
 
+def theme_label(theme_id: str) -> str:
+    try:
+        return f"{int(theme_id.split('_')[-1])}. Tema"
+    except (TypeError, ValueError):
+        return theme_id.replace("_", " ")
+
+
 def render_title_page(book_title: str, subtitle: str, scope: str) -> str:
     body = f'''
 <section class="title-page" epub:type="titlepage">
@@ -194,7 +354,7 @@ def render_title_page(book_title: str, subtitle: str, scope: str) -> str:
   <h1>{escape(book_title)}</h1>
   <h2>{escape(subtitle)}</h2>
   <p>{escape(scope)}</p>
-  <p class="small">Kaynak: Teacher Guide V3 canonical JSON. Bu EPUB yalnızca okuma/başvuru katmanıdır.</p>
+  <p class="small">Kaynak: 11. sınıf Öğretmen Rehberi V3. Bu EPUB öğretmenin hızlı başvuru ve ders içi kullanımına göre düzenlenmiştir.</p>
 </section>
 '''
     return xhtml_document(book_title, body, "css/kindle.css")
@@ -204,13 +364,13 @@ def render_section_page(theme: dict[str, Any], section: dict[str, Any], tasks: l
     task_html = "".join(render_task(task, profile) for task in tasks)
     body = f'''
 <header class="section-header">
-  <p class="theme-label">{escape(theme['theme_id'].replace('_', ' '))}</p>
-  <h1>{escape(section['title'])}</h1>
+  <p class="theme-label">{escape(theme_label(theme['theme_id']))}</p>
+  <h1>{escape(clean_visible_text(section['title']))}</h1>
   <p class="section-meta">Ders kitabı s. {escape(section['printed_page_range'])} · {len(tasks)} görev kartı</p>
 </header>
 {task_html}
 '''
-    return xhtml_document(section["title"], body)
+    return xhtml_document(clean_visible_text(section["title"]), body)
 
 
 def render_nav(book_title: str, themes: list[dict[str, Any]], section_files: dict[str, str]) -> str:
@@ -219,15 +379,18 @@ def render_nav(book_title: str, themes: list[dict[str, Any]], section_files: dic
         sections = []
         for section in theme["sections"]:
             href = section_files[f"{theme['theme_id']}::{section['section_id']}"]
-            sections.append(f'<li><a href="{escape(href)}">{escape(section["title"])} <span class="toc-page">s. {escape(section["printed_page_range"])}</span></a></li>')
-        theme_items.append(
-            f'<li><span>{escape(theme["theme_id"].replace("_", " "))} — {escape(theme.get("title", ""))}</span><ol>{"".join(sections)}</ol></li>'
-        )
+            sections.append(
+                f'<li><a href="{escape(href)}">{escape(clean_visible_text(section["title"]))} '
+                f'<span class="toc-page">s. {escape(section["printed_page_range"])}</span></a></li>'
+            )
+        title = clean_visible_text(theme.get("title", ""))
+        theme_heading = f"{theme_label(theme['theme_id'])} — {title}" if title else theme_label(theme["theme_id"])
+        theme_items.append(f'<li><span>{escape(theme_heading)}</span><ol>{"".join(sections)}</ol></li>')
     body = f'''
 <nav epub:type="toc" id="toc">
   <h1>{escape(book_title)}</h1>
   <ol>
-    <li><a href="title.xhtml">Kapak / başlangıç</a></li>
+    <li><a href="title.xhtml">Başlangıç</a></li>
     {''.join(theme_items)}
   </ol>
 </nav>
@@ -240,32 +403,31 @@ def render_nav(book_title: str, themes: list[dict[str, Any]], section_files: dic
 
 def stylesheet() -> str:
     return """@charset \"UTF-8\";
-body { font-family: serif; line-height: 1.42; margin: 5%; }
-h1, h2, h3, h4 { font-family: sans-serif; line-height: 1.2; }
+body { font-family: serif; line-height: 1.45; margin: 5%; }
+h1, h2, h3, h4 { font-family: sans-serif; line-height: 1.22; page-break-after: avoid; break-after: avoid; }
 h1 { font-size: 1.55em; }
 h2 { font-size: 1.18em; font-weight: normal; }
-h3 { font-size: 1.12em; margin-top: 1.8em; border-top: 0.08em solid currentColor; padding-top: 0.65em; }
-h4 { font-size: 0.98em; margin-bottom: 0.3em; }
-p { margin: 0.45em 0; }
-ul, ol { margin-top: 0.35em; }
-li { margin: 0.25em 0; }
+h3 { font-size: 1.12em; margin-top: 1.9em; border-top: 0.08em solid currentColor; padding-top: 0.72em; }
+h4 { font-size: 0.98em; margin: 0 0 0.35em; }
+p { margin: 0.48em 0; orphans: 2; widows: 2; }
+ul, ol { margin: 0.35em 0 0.65em; padding-left: 1.35em; }
+li { margin: 0.3em 0; }
 dl { margin: 0.4em 0; }
-dt { font-weight: bold; margin-top: 0.4em; }
-dd { margin-left: 1em; }
+dt { font-weight: bold; margin-top: 0.55em; }
+dd { margin-left: 0.8em; }
 .title-page { margin-top: 20%; text-align: center; }
 .eyebrow, .theme-label { font-family: sans-serif; font-weight: bold; letter-spacing: 0.04em; }
-.small, .task-meta, .section-meta, .source { font-size: 0.82em; }
-.task-meta { font-family: monospace; margin-top: -0.55em; }
-.section-header { page-break-before: always; margin-bottom: 1.5em; }
-.task { margin-bottom: 2.2em; }
-.quick { border-left: 0.2em solid currentColor; padding-left: 0.75em; margin: 0.85em 0; }
-.quick h4 { text-transform: uppercase; letter-spacing: 0.03em; }
+.small, .section-meta, .source { font-size: 0.84em; }
+.section-header { page-break-before: always; break-before: page; margin-bottom: 1.5em; }
+.task { margin-bottom: 2.4em; }
+.quick { border-left: 0.18em solid currentColor; padding: 0.15em 0 0.15em 0.75em; margin: 0.9em 0; page-break-inside: avoid; break-inside: avoid; }
+.quick h4 { text-transform: uppercase; letter-spacing: 0.025em; }
 .student { font-style: italic; }
-.details { margin-top: 1.2em; }
-.detail { margin-top: 1em; }
-.warning { border: 0.08em solid currentColor; padding: 0.7em; }
-.misconception-pair + .misconception-pair { border-top: 0.05em dotted currentColor; margin-top: 0.55em; padding-top: 0.55em; }
-.source { border-top: 0.05em solid currentColor; margin-top: 1.2em; padding-top: 0.5em; }
+.details { margin-top: 1.25em; }
+.detail { margin-top: 1.05em; }
+.warning { border: 0.06em solid currentColor; padding: 0.7em; }
+.misconception-pair + .misconception-pair { border-top: 0.05em dotted currentColor; margin-top: 0.6em; padding-top: 0.6em; }
+.source { border-top: 0.05em solid currentColor; margin-top: 1.25em; padding-top: 0.55em; }
 .toc-page { font-size: 0.85em; }
 a { color: inherit; text-decoration: none; }
 """
@@ -298,7 +460,7 @@ def render_opf(book_title: str, identifier: str, modified: str, section_files: l
     <dc:identifier id="pub-id">{escape(identifier)}</dc:identifier>
     <dc:title>{escape(book_title)}</dc:title>
     <dc:language>tr</dc:language>
-    <dc:creator>TYMM Teacher Guide V3</dc:creator>
+    <dc:creator>TYMM Öğretmen Rehberi V3</dc:creator>
     <meta property="dcterms:modified">{escape(modified)}</meta>
   </metadata>
   <manifest>{''.join(manifest)}</manifest>
@@ -385,7 +547,7 @@ def build_all(root: Path, profile_path: Path, output_dir: Path | None = None) ->
         build_epub(
             outputs / combined_name,
             metadata.get("title", "11. Sınıf Türk Dili ve Edebiyatı — Öğretmen Rehberi"),
-            metadata.get("subtitle", "Teacher Guide V3 · Kindle Sürümü"),
+            metadata.get("subtitle", "Öğretmen Rehberi V3 · Kindle Sürümü"),
             themes,
             profile,
         )
@@ -398,7 +560,7 @@ def build_all(root: Path, profile_path: Path, output_dir: Path | None = None) ->
                 build_epub(
                     outputs / f"TDE_11_TEMA_{number}_OGRETMEN_REHBERI_V3.epub",
                     f'{metadata.get("title", "11. Sınıf Türk Dili ve Edebiyatı — Öğretmen Rehberi")} · Tema {int(number)}',
-                    theme.get("title", metadata.get("subtitle", "Teacher Guide V3 · Kindle Sürümü")),
+                    clean_visible_text(theme.get("title")) or metadata.get("subtitle", "Öğretmen Rehberi V3 · Kindle Sürümü"),
                     [theme],
                     profile,
                 )
