@@ -315,6 +315,27 @@ class TeacherGuideV3ContractTests(unittest.TestCase):
         )
         self.assertEqual(warnings, [])
 
+    def test_short_exact_repetition_below_semantic_token_floor_fails(self) -> None:
+        value = "Metin kanıtını gerekçesiyle açıklar."
+        self.assertLess(len(validator.semantic_tokens(value)), 6)
+        tasks = [
+            self.semantic_task("TEMA_01::Q01", "teacher_background", value, profile="text_analysis", heading=""),
+            self.semantic_task("TEMA_01::Q02", "teacher_background", value, profile="text_analysis", heading=""),
+        ]
+        failures: list[dict] = []
+        warnings: list[dict] = []
+        validator.validate_repetition(tasks, failures, warnings)
+        self.assertTrue(
+            any(
+                item.get("code") == "SEMANTIC_BOILERPLATE_REPETITION"
+                and item.get("field") == "teacher_background"
+                and item.get("similarity") == 1.0
+                for item in failures
+            ),
+            f"Short exact repetition must bypass the token-floor optimization and fail: {failures}",
+        )
+        self.assertEqual(warnings, [])
+
     def test_same_profile_theme_similarity_warning_range(self) -> None:
         shared = (
             "karagöz hacivat tiyatro oyun sahne perde diyalog çatışma mizah güldürü hiciv "
