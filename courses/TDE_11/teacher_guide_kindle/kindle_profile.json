@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "profile_id": "TDE_11_TEACHER_GUIDE_KINDLE_V1",
+  "source_document_type": "TYMM_TEACHER_GUIDE_V3",
+  "themes": [
+    "TEMA_01",
+    "TEMA_02",
+    "TEMA_03",
+    "TEMA_04"
+  ],
+  "output_dir": "courses/TDE_11/teacher_guide_kindle/output",
+  "combined_filename": "TDE_11_OGRETMEN_REHBERI_V3.epub",
+  "build_theme_books": true,
+  "metadata": {
+    "title": "11. Sınıf Türk Dili ve Edebiyatı — Öğretmen Rehberi",
+    "subtitle": "Teacher Guide V3 · Kindle Sürümü",
+    "language": "tr",
+    "modified": "2026-09-17T00:00:00Z"
+  },
+  "compact_fields": {
+    "prompt_title": "Soru / görev",
+    "answer_title": "Kısa cevap",
+    "student_title": "Sınıfta nasıl açıklarım?",
+    "move_title": "Öğretmen hamlesi"
+  },
+  "detailed_fields": {
+    "answer_explanation": "Açıklama ve gerekçe",
+    "teacher_background": "Öğretmenin bilmesi gerekenler",
+    "why_it_matters": "Bu görev neden burada?",
+    "follow_up_questions": "Takip soruları",
+    "assessment_look_fors": "Cevapta ne arayacağım?",
+    "support": "Destek",
+    "enrichment": "Zenginleştirme",
+    "board_notes": "Tahta notu"
+  }
+}
