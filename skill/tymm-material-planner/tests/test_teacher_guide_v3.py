@@ -28,15 +28,146 @@ class TeacherGuideV3ContractTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
         cls.index = read_json(COURSE_DIR / "teacher_guide_v3" / "textbook_task_index.json")
+        cls.inventory = read_json(COURSE_DIR / "textbook_question_inventory.json")
+        cls.inventory_records = {row["question_id"]: row for row in cls.inventory["questions"]}
+        cls.textbook_map = read_json(COURSE_DIR / "textbook_map.json")
+        cls.validation = validator.validate_course(REPO_ROOT)
+
+    @classmethod
+    def guide_questions(cls) -> dict[str, dict]:
+        return {
+            task["task_id"]: task
+            for theme_id in THEMES
+            for task in read_json(COURSE_DIR / "teacher_guide" / theme_id / "teacher_guide_v3.json")["tasks"]
+            if task["task_type"] == "QUESTION"
+        }
+
+    @classmethod
+    def index_questions(cls) -> dict[str, dict]:
+        return {
+            question["task_id"]: question
+            for theme in cls.index["themes"]
+            for question in theme["questions"]
+        }
+
+    @classmethod
+    def map_activity_ids(cls) -> set[str]:
+        return {
+            activity["activity_id"]
+            for theme in cls.textbook_map["themes"]
+            for section in theme["sections"]
+            for activity in section["activities"]
+        }
+
+    @staticmethod
+    def semantic_task(task_id: str, field: str, value: str, profile: str = "text_analysis", heading: str = "Karagöz çatışması") -> dict:
+        return {
+            "task_id": task_id,
+            "generation_profile": profile,
+            "book_heading": heading,
+            field: value,
+        }
+
+    def assert_semantic_failure(self, field: str) -> None:
+        value = (
+            "Karagöz ve Hacivat arasındaki çatışma, tip, diyalog, söz varlığı, "
+            "anlatıcı, imge, tema, iletişim, mektup ve kanıt ilişkisini görünür kılar."
+        )
+        tasks = [
+            self.semantic_task("TEMA_01::Q01", field, value, heading="Karagöz çatışması"),
+            self.semantic_task("TEMA_02::Q02", field, value, heading="Karagöz çatışması"),
+        ]
+        failures: list[dict] = []
+        warnings: list[dict] = []
+        validator.validate_repetition(tasks, failures, warnings)
+        self.assertTrue(
+            any(item.get("code") == "SEMANTIC_BOILERPLATE_REPETITION" and item.get("field") == field for item in failures),
+            f"{field} anchor-only repetition was not detected: {failures}",
+        )
 
     def test_index_has_all_textbook_questions_and_activities(self) -> None:
-        self.assertEqual(self.index["counts"], {"themes": 4, "questions": 407, "activities": 84})
+        self.assertEqual(self.index["counts"]["themes"], self.inventory["counts"]["themes"])
+        self.assertEqual(self.index["counts"]["questions"], self.inventory["counts"]["questions"])
+        self.assertEqual(self.index["counts"]["activities"], len(self.map_activity_ids()))
         self.assertEqual(set(THEMES), {theme["theme_id"] for theme in self.index["themes"]})
         for theme_id in THEMES:
             guide = read_json(COURSE_DIR / "teacher_guide" / theme_id / "teacher_guide_v3.json")
             indexed = next(theme for theme in self.index["themes"] if theme["theme_id"] == theme_id)
             self.assertEqual(len(indexed["questions"]), sum(task["task_type"] == "QUESTION" for task in guide["tasks"]))
             self.assertEqual(len(indexed["activities"]), len(indexed["activity_ids"]))
+
+    def test_inventory_schema_is_valid(self) -> None:
+        errors = validator.schema_errors(
+            self.inventory,
+            SCRIPTS / "../schemas/textbook_question_inventory.schema.json",
+        )
+        if validator.SCHEMA_VALIDATOR_AVAILABLE is False:
+            self.skipTest("jsonschema is installed in CI but unavailable in this local environment")
+        self.assertEqual(errors, [])
+
+    def test_inventory_pdf_sha_is_exact(self) -> None:
+        pdf = COURSE_DIR / "source_docs" / "turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf"
+        self.assertEqual(self.inventory["source_pdf"]["sha256"], builder.sha256_file(pdf))
+        self.assertEqual(self.inventory["source_pdf"]["sha256"], self.textbook_map["primary_source"]["sha256"])
+
+    def test_inventory_question_ids_are_unique(self) -> None:
+        question_ids = [row["question_id"] for row in self.inventory["questions"]]
+        self.assertEqual(len(question_ids), len(set(question_ids)))
+
+    def test_inventory_counts_are_internally_consistent(self) -> None:
+        self.assertEqual(self.inventory["counts"]["questions"], len(self.inventory["questions"]))
+        self.assertEqual(self.inventory["counts"]["themes"], len({row["theme_id"] for row in self.inventory["questions"]}))
+        self.assertEqual(
+            self.inventory["counts"]["review_required"],
+            sum(row["review_status"] == "REVIEW_REQUIRED" for row in self.inventory["questions"]),
+        )
+
+    def test_inventory_mirror_exact_question_set_parity(self) -> None:
+        mirror_ids: set[str] = set()
+        for theme_id in THEMES:
+            mirror_ids.update(validator.mirror_question_records(REPO_ROOT, theme_id)[0])
+        self.assertEqual(mirror_ids, set(self.inventory_records))
+
+    def test_inventory_guide_exact_question_set_parity(self) -> None:
+        self.assertEqual(set(self.guide_questions()), set(self.inventory_records))
+
+    def test_inventory_index_exact_question_set_parity(self) -> None:
+        self.assertEqual(set(self.index_questions()), set(self.inventory_records))
+
+    def test_inventory_projection_page_and_source_locator_parity(self) -> None:
+        projection_failures = [
+            item
+            for item in self.validation["failures"]
+            if "PAGE" in item.get("code", "") or "SOURCE" in item.get("code", "") or "DRIFT" in item.get("code", "")
+        ]
+        self.assertEqual(projection_failures, [])
+
+    def test_no_locator_only_questions(self) -> None:
+        questions = self.guide_questions().values()
+        self.assertEqual([task["task_id"] for task in questions if task["prompt_mode"] == "LOCATOR_ONLY"], [])
+
+    def test_no_unresolved_question_prompts(self) -> None:
+        questions = self.guide_questions().values()
+        self.assertEqual(
+            [task["task_id"] for task in questions if not task.get("book_prompt") or task.get("prompt_status") == "REVIEW_REQUIRED"],
+            [],
+        )
+
+    def test_activity_coverage_matches_textbook_map(self) -> None:
+        index_activity_ids = {activity["activity_id"] for theme in self.index["themes"] for activity in theme["activities"]}
+        guide_activity_refs = {
+            ref
+            for theme_id in THEMES
+            for task in read_json(COURSE_DIR / "teacher_guide" / theme_id / "teacher_guide_v3.json")["tasks"]
+            for ref in task.get("activity_refs", [])
+        }
+        self.assertEqual(index_activity_ids, self.map_activity_ids())
+        self.assertEqual(guide_activity_refs & self.map_activity_ids(), self.map_activity_ids())
+
+    def test_v3_validation_has_no_failures_and_reports_fallbacks(self) -> None:
+        self.assertEqual(self.validation["failures"], [])
+        self.assertEqual(self.validation["counts"]["generic_fallback_tasks"], 0)
+        self.assertEqual(self.validation["generic_fallback_details"], [])
 
     def test_grouped_prompts_are_split_with_faithful_short_text(self) -> None:
         mirror_path = COURSE_DIR / "teacher_guide" / "TEMA_01" / "book_mirror_v23.json"
@@ -128,6 +259,54 @@ class TeacherGuideV3ContractTests(unittest.TestCase):
                 if task["task_type"] == "QUESTION":
                     for field in ["teacher_background", "student_explanation", "teacher_moves", "assessment_look_fors"]:
                         self.assertTrue(task.get(field), f"{task['task_id']}: {field}")
+
+    def test_prompt_overrides_data_file_is_consumed(self) -> None:
+        override_document = read_json(COURSE_DIR / "textbook_prompt_overrides.json")
+        self.assertEqual(builder.load_grouped_prompt_overrides(REPO_ROOT), override_document["overrides"])
+        mirror_path = COURSE_DIR / "teacher_guide" / "TEMA_01" / "book_mirror_v23.json"
+        mirror = builder.merge_mirrors(builder.discover_mirror_paths(mirror_path))
+        source = next(entry for entry in mirror["entries"] if entry["mirror_id"] == "T1V23_P28_INTERPRET")
+        expanded = builder.expand_mirror_entry(source, override_document["overrides"])
+        self.assertEqual(expanded[0]["prompt_mode"], "VERBATIM_SHORT")
+        self.assertEqual(expanded[0]["prompt_display"], "Soru 1 — " + override_document["overrides"]["T1V23_P28_INTERPRET"][0]["prompt"])
+
+    def test_builder_contains_no_textbook_prompt_literals(self) -> None:
+        source = (SCRIPTS / "build_teacher_guide_v3.py").read_text(encoding="utf-8")
+        override_document = read_json(COURSE_DIR / "textbook_prompt_overrides.json")
+        for parts in override_document["overrides"].values():
+            for part in parts:
+                self.assertNotIn(part["prompt"], source)
+
+    def test_anchor_only_changes_do_not_evade_semantic_guard(self) -> None:
+        self.assert_semantic_failure("follow_up_questions")
+
+    def test_different_pedagogical_explanations_do_not_false_positive(self) -> None:
+        left = self.semantic_task(
+            "TEMA_01::Q01",
+            "teacher_background",
+            "Karagöz Hacivat ortaoyunu tip diyalog çatışma söz varlığı sahne mizahı.",
+        )
+        right = self.semantic_task(
+            "TEMA_01::Q02",
+            "teacher_background",
+            "Anlatıcı imge tema mektup alıcı iletişim biçim üslup kanıtı.",
+        )
+        failures: list[dict] = []
+        warnings: list[dict] = []
+        validator.validate_repetition([left, right], failures, warnings)
+        self.assertFalse(any(item.get("code") == "SEMANTIC_BOILERPLATE_REPETITION" for item in failures))
+
+    def test_teacher_background_similarity_guard(self) -> None:
+        self.assert_semantic_failure("teacher_background")
+
+    def test_student_explanation_similarity_guard(self) -> None:
+        self.assert_semantic_failure("student_explanation")
+
+    def test_teacher_moves_similarity_guard(self) -> None:
+        self.assert_semantic_failure("teacher_moves")
+
+    def test_answer_explanation_similarity_guard(self) -> None:
+        self.assert_semantic_failure("answer_explanation")
 
 
 if __name__ == "__main__":

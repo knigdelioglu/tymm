@@ -44,6 +44,73 @@ jobs:
         run: |
           python -m pip install --disable-pip-version-check 'numpy<3' 'sqlite-vec==0.1.9' 'jsonschema==4.23.0' onnxruntime tokenizers huggingface_hub hf_xet
 
+      - name: Validate TDE11 textbook inventory schema and source identity
+        run: |
+          python skill/tymm-material-planner/scripts/validate_teacher_guide_v3.py \
+            --repo-root . \
+            --course TDE_11 \
+            --inventory-only \
+            --report courses/TDE_11/teacher_guide_v3/inventory_validation_report.json
+
+      - name: Build Teacher Guide V3 all themes
+        run: python skill/tymm-material-planner/scripts/build_teacher_guide_v3.py --repo-root .
+
+      - name: Validate Teacher Guide V3 inventory mirror guide index parity
+        run: |
+          python skill/tymm-material-planner/scripts/validate_teacher_guide_v3.py \
+            --repo-root . \
+            --course TDE_11 \
+            --quality-level release \
+            --report courses/TDE_11/teacher_guide_v3/validation_report.json
+
+      - name: Validate Teacher Guide V3 pedagogy quality
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          report = json.loads(Path('courses/TDE_11/teacher_guide_v3/validation_report.json').read_text())
+          assert report['status'] in {'PASS', 'PASS_WITH_REVIEW'}, report
+          assert not report['failures'], report['failures']
+          semantic_failures = [
+              item for item in report['failures']
+              if item.get('code') == 'SEMANTIC_BOILERPLATE_REPETITION'
+          ]
+          assert not semantic_failures, semantic_failures
+          assert report['counts']['generic_fallback_tasks'] == 0, report['counts']
+          print('V3 pedagogy quality: PASS')
+          PY
+
+      - name: Teacher Guide V3 regression tests
+        run: python -m unittest discover -s skill/tymm-material-planner/tests -p 'test_teacher_guide_v3.py'
+
+      - name: Verify Teacher Guide V3 renderer and regeneration determinism
+        run: |
+          python skill/tymm-material-planner/scripts/build_teacher_guide_v3.py --repo-root .
+          git diff --exit-code -- \
+            courses/TDE_11/teacher_guide/TEMA_01/teacher_guide_v3.json \
+            courses/TDE_11/teacher_guide/TEMA_01/TEACHER_GUIDE_V3.md \
+            courses/TDE_11/teacher_guide/TEMA_02/teacher_guide_v3.json \
+            courses/TDE_11/teacher_guide/TEMA_02/TEACHER_GUIDE_V3.md \
+            courses/TDE_11/teacher_guide/TEMA_03/teacher_guide_v3.json \
+            courses/TDE_11/teacher_guide/TEMA_03/TEACHER_GUIDE_V3.md \
+            courses/TDE_11/teacher_guide/TEMA_04/teacher_guide_v3.json \
+            courses/TDE_11/teacher_guide/TEMA_04/TEACHER_GUIDE_V3.md \
+            courses/TDE_11/teacher_guide_v3/textbook_task_index.json \
+            courses/TDE_11/teacher_guide_v3/validation_report.json
+          python skill/tymm-material-planner/scripts/build_teacher_guide_v3.py --repo-root .
+          git diff --exit-code -- \
+            courses/TDE_11/teacher_guide/TEMA_01/teacher_guide_v3.json \
+            courses/TDE_11/teacher_guide/TEMA_01/TEACHER_GUIDE_V3.md \
+            courses/TDE_11/teacher_guide/TEMA_02/teacher_guide_v3.json \
+            courses/TDE_11/teacher_guide/TEMA_02/TEACHER_GUIDE_V3.md \
+            courses/TDE_11/teacher_guide/TEMA_03/teacher_guide_v3.json \
+            courses/TDE_11/teacher_guide/TEMA_03/TEACHER_GUIDE_V3.md \
+            courses/TDE_11/teacher_guide/TEMA_04/teacher_guide_v3.json \
+            courses/TDE_11/teacher_guide/TEMA_04/TEACHER_GUIDE_V3.md \
+            courses/TDE_11/teacher_guide_v3/textbook_task_index.json \
+            courses/TDE_11/teacher_guide_v3/validation_report.json
+
       - name: Restore pinned multilingual-e5-small runtime
         run: |
           python - <<'PY'
@@ -128,20 +195,6 @@ jobs:
       - name: Validate Teacher Guide V2.3 Theme 4 opening source parity
         run: |
           python skill/tymm-material-planner/scripts/validate_teacher_guide_v23_tema04.py --repo-root .
-
-      - name: Build Teacher Guide V3 all themes
-        run: python skill/tymm-material-planner/scripts/build_teacher_guide_v3.py --repo-root .
-
-      - name: Validate Teacher Guide V3 parity and pedagogy
-        run: |
-          python skill/tymm-material-planner/scripts/validate_teacher_guide_v3.py \
-            --repo-root . \
-            --course TDE_11 \
-            --quality-level release \
-            --report courses/TDE_11/teacher_guide_v3/validation_report.json
-
-      - name: Teacher Guide V3 regression tests
-        run: python -m unittest discover -s skill/tymm-material-planner/tests -p 'test_teacher_guide_v3.py'
 
       - name: Run TDE11 generic P0 gate
         env:

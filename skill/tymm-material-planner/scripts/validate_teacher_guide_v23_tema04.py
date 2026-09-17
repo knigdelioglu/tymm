@@ -159,7 +159,7 @@ def main() -> int:
     kucurek_metni = questions_in(entries, 269, 270)
     if len(kucurek_metni) != 8:
         failures.append(f"TEMA04_KUCU_REK_METNI_ANLAYALIM_1_8:{len(kucurek_metni)}/8")
-    if by_id.get("T4V23_P274_KARAKTER", {}).get("presentation_type") != "PROCESS":
+    if by_id.get("T4V23_P274_KARAKTER_COZUMLEME", {}).get("presentation_type") != "PROCESS":
         failures.append("TEMA04_P274_CHARACTER_GROUP_MUST_REMAIN_PROCESS")
     if by_id.get("T4V23_P276_277_CATISMA", {}).get("presentation_type") != "PROCESS":
         failures.append("TEMA04_P276_277_CONFLICT_GROUP_MUST_REMAIN_PROCESS")

@@ -12,7 +12,7 @@
     "locator_only_questions": 0,
     "unresolved_prompt_text": 0,
     "review_required_items": 8,
-    "generic_fallback_tasks": 2,
+    "generic_fallback_tasks": 0,
     "total_tasks": 576
   },
   "theme_reports": {
@@ -20,7 +20,7 @@
       "tasks": 129,
       "questions": 81,
       "review_required": 2,
-      "generic_fallback": 1
+      "generic_fallback": 0
     },
     "TEMA_02": {
       "tasks": 158,
@@ -32,7 +32,7 @@
       "tasks": 146,
       "questions": 114,
       "review_required": 1,
-      "generic_fallback": 1
+      "generic_fallback": 0
     },
     "TEMA_04": {
       "tasks": 143,
@@ -44,20 +44,77 @@
   "failures": [],
   "warnings": [
     {
-      "code": "GENERIC_FALLBACK_USED",
-      "theme_id": "TEMA_01",
-      "task_id": "TEMA_01::T1V23_P83_Q12",
-      "message": "task-specific router text_analysis fallback kullandı"
+      "code": "SEMANTIC_COMMON_DOMAIN_DEFINITION",
+      "field": "teacher_background",
+      "similarity": 0.901,
+      "left_task_id": "TEMA_04::T4V23_P304_Q02",
+      "right_task_id": "TEMA_04::T4V23_P304_Q03",
+      "normalized_excerpts": {
+        "left": "sorular 2-3 — metinler arası ilişki ve küçürek hikâye görevi (‘ı ve ıı. metin arasındaki anlam ilişkisini belirleyiniz'), azaltılmış anlatım, simge ve okur katılımının yoğun anlam üretmesi üzerinden ölçüt kullanarak değerlendirme odağını somutlaştırır. bu görevde cevap bir iddia ",
+        "right": "sorular 2-3 — metinler arası ilişki ve küçürek hikâye görevi (‘küçürek hikâyeye ilişkin parçadan çıkarılamayan yargıyı belirleyiniz'), azaltılmış anlatım, simge ve okur katılımının yoğun anlam üretmesi üzerinden ölçüt kullanarak değerlendirme odağını somutlaştırır. bu görevde cev"
+      },
+      "message": "teacher_background aynı domain profile içinde ortak kavramsal tanımı paylaşıyor"
     },
     {
-      "code": "GENERIC_FALLBACK_USED",
-      "theme_id": "TEMA_03",
-      "task_id": "TEMA_03::T3V23_P160_161_THEME_OPEN",
-      "message": "task-specific router text_analysis fallback kullandı"
+      "code": "SEMANTIC_COMMON_DOMAIN_DEFINITION",
+      "field": "teacher_background",
+      "similarity": 0.9,
+      "left_task_id": "TEMA_04::T4V23_P306_Q09",
+      "right_task_id": "TEMA_04::T4V23_P307_Q10",
+      "normalized_excerpts": {
+        "left": "sorular 9-11 — belgesel, teknoloji ve toplumsal bellek görevi (‘belgesel ve teknolojik dönüşümlerle ilgili parçadan desteklenmeyen yargıyı belirleyiniz'), görüntü, ses, söz ve kurgu tercihlerinin belgesel kanıtla değerlendirilmesi üzerinden ölçüt kullanarak değerlendirme odağını ",
+        "right": "sorular 9-11 — belgesel, teknoloji ve toplumsal bellek görevi (‘belgesel arşivlerinin toplumsal belleğe katkısıyla ilgili doğru yargıyı belirleyiniz'), görüntü, ses, söz ve kurgu tercihlerinin belgesel kanıtla değerlendirilmesi üzerinden ölçüt kullanarak değerlendirme odağını som"
+      },
+      "message": "teacher_background aynı domain profile içinde ortak kavramsal tanımı paylaşıyor"
     },
     {
-      "code": "SCHEMA_VALIDATION_UNAVAILABLE",
-      "message": "Yerel ortamda jsonschema yok; CI'da pinned jsonschema ile tam Draft 2020-12 doğrulaması çalıştırılmalı."
+      "code": "SEMANTIC_COMMON_DOMAIN_DEFINITION",
+      "field": "student_explanation",
+      "similarity": 0.86,
+      "left_task_id": "TEMA_04::T4V23_P304_Q02",
+      "right_task_id": "TEMA_04::T4V23_P304_Q03",
+      "normalized_excerpts": {
+        "left": "sorular 2-3 — metinler arası ilişki ve küçürek hikâye (‘ı ve ıı. metin arasındaki anlam ilişkisini belirleyiniz') için önce metin, görsel, tablo veya dinleme-izleme kanıtı dayanağını bulun. sonra 2: a içinden görevle ilgili olanları seçip aralarındaki ilişkiyi açıklayın; cevabını",
+        "right": "sorular 2-3 — metinler arası ilişki ve küçürek hikâye (‘küçürek hikâyeye ilişkin parçadan çıkarılamayan yargıyı belirleyiniz') için önce metin, görsel, tablo veya dinleme-izleme kanıtı dayanağını bulun. sonra 3: e içinden görevle ilgili olanları seçip aralarındaki ilişkiyi açıkla"
+      },
+      "message": "student_explanation aynı domain profile içinde ortak kavramsal tanımı paylaşıyor"
+    },
+    {
+      "code": "SEMANTIC_COMMON_DOMAIN_DEFINITION",
+      "field": "student_explanation",
+      "similarity": 0.875,
+      "left_task_id": "TEMA_04::T4V23_P306_Q09",
+      "right_task_id": "TEMA_04::T4V23_P307_Q10",
+      "normalized_excerpts": {
+        "left": "sorular 9-11 — belgesel, teknoloji ve toplumsal bellek (‘belgesel ve teknolojik dönüşümlerle ilgili parçadan desteklenmeyen yargıyı belirleyiniz') için önce metin, görsel, tablo veya dinleme-izleme kanıtı dayanağını bulun. sonra 9: a içinden görevle ilgili olanları seçip araların",
+        "right": "sorular 9-11 — belgesel, teknoloji ve toplumsal bellek (‘belgesel arşivlerinin toplumsal belleğe katkısıyla ilgili doğru yargıyı belirleyiniz') için önce metin, görsel, tablo veya dinleme-izleme kanıtı dayanağını bulun. sonra 10: b içinden görevle ilgili olanları seçip aralarında"
+      },
+      "message": "student_explanation aynı domain profile içinde ortak kavramsal tanımı paylaşıyor"
+    },
+    {
+      "code": "SEMANTIC_COMMON_DOMAIN_DEFINITION",
+      "field": "why_it_matters",
+      "similarity": 0.867,
+      "left_task_id": "TEMA_04::T4V23_P304_Q02",
+      "right_task_id": "TEMA_04::T4V23_P304_Q03",
+      "normalized_excerpts": {
+        "left": "sorular 2-3 — metinler arası ilişki ve küçürek hikâye çalışması (‘ı ve ıı. metin arasındaki anlam ilişkisini belirleyiniz'), öğrencinin bir iddia ile onu taşıyan kanıt ve gerekçeyi birleştiren açıklama kurmasını ve 2: a gibi göreve özgü unsurları ayırt etmesini sağlar. öğrenci te",
+        "right": "sorular 2-3 — metinler arası ilişki ve küçürek hikâye çalışması (‘küçürek hikâyeye ilişkin parçadan çıkarılamayan yargıyı belirleyiniz'), öğrencinin bir iddia ile onu taşıyan kanıt ve gerekçeyi birleştiren açıklama kurmasını ve 3: e gibi göreve özgü unsurları ayırt etmesini sağla"
+      },
+      "message": "why_it_matters aynı domain profile içinde ortak kavramsal tanımı paylaşıyor"
+    },
+    {
+      "code": "SEMANTIC_COMMON_DOMAIN_DEFINITION",
+      "field": "why_it_matters",
+      "similarity": 0.883,
+      "left_task_id": "TEMA_04::T4V23_P306_Q09",
+      "right_task_id": "TEMA_04::T4V23_P307_Q10",
+      "normalized_excerpts": {
+        "left": "sorular 9-11 — belgesel, teknoloji ve toplumsal bellek çalışması (‘belgesel ve teknolojik dönüşümlerle ilgili parçadan desteklenmeyen yargıyı belirleyiniz'), öğrencinin bir iddia ile onu taşıyan kanıt ve gerekçeyi birleştiren açıklama kurmasını ve 9: a gibi göreve özgü unsurları ",
+        "right": "sorular 9-11 — belgesel, teknoloji ve toplumsal bellek çalışması (‘belgesel arşivlerinin toplumsal belleğe katkısıyla ilgili doğru yargıyı belirleyiniz'), öğrencinin bir iddia ile onu taşıyan kanıt ve gerekçeyi birleştiren açıklama kurmasını ve 10: b gibi göreve özgü unsurları ay"
+      },
+      "message": "why_it_matters aynı domain profile içinde ortak kavramsal tanımı paylaşıyor"
     }
-  ]
+  ],
+  "generic_fallback_details": []
 }

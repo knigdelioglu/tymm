@@ -8,6 +8,12 @@
     "sha256": "87248cb5f6940c29b7d152fab5cb1f7b800e4d5ddc46ac4cdeb5542f0361a1ba",
     "verification_status": "VERIFIED"
   },
+  "inventory_source": {
+    "source_id": "textbook_question_inventory",
+    "path": "courses/TDE_11/textbook_question_inventory.json",
+    "sha256": "5c72422e50941fe9fc30c590f3a598c830694139fc0ca0d3fc2206e68c411f98",
+    "verification_status": "VERIFIED"
+  },
   "map_ref": "courses/TDE_11/textbook_map.json",
   "themes": [
     {

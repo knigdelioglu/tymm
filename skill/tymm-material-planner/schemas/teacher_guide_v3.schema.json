@@ -199,6 +199,7 @@
         "curriculum_map": {"type": "object", "additionalProperties": true},
         "curriculum_normative_text": {"type": "object", "additionalProperties": true},
         "teacher_guide_canonical": {"type": "object", "additionalProperties": true},
+        "textbook_question_inventory": {"type": "object", "additionalProperties": true},
         "textbook_task_index": {"type": "object", "additionalProperties": true}
       }
     },

@@ -59,6 +59,37 @@ def read_json(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def load_question_inventory(root: Path, course_id: str = COURSE_ID) -> tuple[dict[str, Any], dict[str, dict[str, Any]]]:
+    """Load the independent textbook question inventory.
+
+    The inventory is the canonical question identity/prompt layer.  Mirror
+    records still provide the teacher-guide/canonical links, but a build must
+    fail when a mirror question is not represented by the inventory or when
+    the mirror projection drifts from it.
+    """
+    path = root / "courses" / course_id / "textbook_question_inventory.json"
+    if not path.exists():
+        raise ValueError(f"textbook question inventory missing: {path}")
+    document = read_json(path)
+    if document.get("course_id") != course_id:
+        raise ValueError(f"textbook question inventory course mismatch: {path}")
+    records: dict[str, dict[str, Any]] = {}
+    duplicates: list[str] = []
+    for question in document.get("questions", []):
+        question_id = question.get("question_id")
+        if not isinstance(question_id, str) or not question_id.strip():
+            raise ValueError("textbook question inventory contains a question without question_id")
+        if question_id in records:
+            duplicates.append(question_id)
+        records[question_id] = question
+    if duplicates:
+        raise ValueError(f"duplicate inventory question_id(s): {sorted(set(duplicates))}")
+    counts = document.get("counts", {})
+    if counts.get("questions") != len(records):
+        raise ValueError("textbook question inventory counts.questions is stale")
+    return document, records
+
+
 def write_json(path: Path, value: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -312,6 +343,45 @@ def expand_mirror_entry(entry: dict[str, Any], overrides: dict[str, list[dict[st
     return result
 
 
+def project_inventory_question(entry: dict[str, Any], theme_id: str, inventory: dict[str, dict[str, Any]]) -> dict[str, Any]:
+    """Assert and apply the inventory-owned question projection fields.
+
+    A stale mirror must not be silently repaired here.  It is a projection and
+    therefore has to agree with the independent inventory before generation.
+    """
+    if entry.get("presentation_type") != "QUESTION":
+        return entry
+    question_id = f"{theme_id}::{entry['mirror_id']}"
+    record = inventory.get(question_id)
+    if record is None:
+        raise ValueError(f"mirror question is not in textbook inventory: {question_id}")
+    projection = {
+        "section_id": record.get("section_id"),
+        "printed_page_range": record.get("printed_page_range"),
+        "prompt_display": record.get("prompt"),
+        "prompt_mode": record.get("prompt_mode"),
+        "source_locator": record.get("source_locator"),
+        "question_number": record.get("question_number"),
+    }
+    mirror_values = {
+        "section_id": entry.get("section_id"),
+        "printed_page_range": entry.get("printed_page_range"),
+        "prompt_display": entry.get("prompt_display"),
+        "prompt_mode": entry.get("prompt_mode"),
+        "source_locator": entry.get("source_locator"),
+        "question_number": find_question_number(entry, entry.get("prompt_display")),
+    }
+    for field, expected in projection.items():
+        if mirror_values.get(field) != expected:
+            raise ValueError(
+                f"mirror/inventory projection drift for {question_id}:{field}: "
+                f"mirror={mirror_values.get(field)!r} inventory={expected!r}"
+            )
+    projected = deepcopy(entry)
+    projected.update(projection)
+    return projected
+
+
 def project_answer(canonical: dict[str, dict[str, Any]], refs: list[str], keys: list[str]) -> tuple[Any, list[str]]:
     missing: list[str] = []
     if not refs:
@@ -444,6 +514,24 @@ def choose_profile(blob: str, section_type: str) -> str:
         if section_type.lower() in {"yazma", "writing"} or "e-posta" in text or "eposta" in text:
             return "writing_email"
         return "mektup"
+    if any(
+        term in text
+        for term in [
+            "cümle öge",
+            "cümle öğe",
+            "yüklem",
+            "özne",
+            "nesne",
+            "fiil",
+            "çatı",
+            "kip",
+            "noktalama",
+            "yazım kural",
+            "bağlaç",
+            "edat",
+        ]
+    ):
+        return "language_grammar"
     if any(term in text for term in ["karagöz", "hacivat", "gölge oyunu", "seyirlik", "muamma"]):
         return "karagoz"
     if any(term in text for term in ["iletişim engel", "sözlü iletişim", "iletişim araç", "iletişim unsurlar", "iletişim", "çok modlu", "paydos", "sosyal medya", "telefon", "internet", "dijitalleşme"]):
@@ -1277,6 +1365,190 @@ def expected_requires_review(value: Any) -> bool:
     )
 
 
+def clean_task_prompt(value: Any) -> str:
+    """Remove only the printed locator prefix, keeping real prompt language."""
+    text = re.sub(r"\s+", " ", scalar_text(value).strip())
+    text = re.sub(
+        r"^(?:Soru|Adım|Fark\s+Edelim)\s+[0-9a-z/\-–—. ]+\s*[—:-]\s*",
+        "",
+        text,
+        flags=re.IGNORECASE,
+    )
+    return text.strip(" .:;—–-")
+
+
+def short_task_value(value: Any, limit: int = 150) -> str:
+    text = re.sub(r"\s+", " ", scalar_text(value).strip())
+    if len(text) <= limit:
+        return text
+    clipped = text[:limit].rsplit(" ", 1)[0].rstrip(" ,;:—–-")
+    return f"{clipped}…"
+
+
+def humanize_answer_key(value: Any) -> str:
+    text = re.sub(r"[_-]+", " ", scalar_text(value)).strip()
+    text = re.sub(r"(?<=[a-zçğıöşü])(?=[A-ZÇĞİÖŞÜ])", " ", text)
+    return text
+
+
+def answer_value_signal(value: Any, limit: int = 95) -> str:
+    if isinstance(value, dict):
+        chunks = [f"{humanize_answer_key(key)}: {answer_value_signal(item, 45)}" for key, item in list(value.items())[:3]]
+        return short_task_value("; ".join(chunks), limit)
+    if isinstance(value, list):
+        return short_task_value(", ".join(answer_value_signal(item, 35) for item in value[:4]), limit)
+    return short_task_value(value, limit)
+
+
+def answer_signal_parts(expected: Any, answer_keys: list[str]) -> tuple[list[str], str]:
+    """Return source-derived answer components and their instructional shape."""
+    keys = [humanize_answer_key(key) for key in answer_keys if key]
+    parts: list[str] = []
+    if isinstance(expected, dict):
+        for key, value in list(expected.items())[:5]:
+            label = humanize_answer_key(key)
+            value_text = answer_value_signal(value, 75)
+            parts.append(f"{label}: {value_text}" if value_text else label)
+        shape = "bileşenleri ayrı ayrı gerekçelendirilmiş yapılandırılmış bir cevap"
+    elif isinstance(expected, list):
+        for index, value in enumerate(expected[:5]):
+            label = humanize_answer_key(answer_keys[index]) if index < len(answer_keys) else ""
+            value_text = answer_value_signal(value, 65)
+            parts.append(f"{label}: {value_text}" if label and value_text else value_text or label)
+        shape = "birden fazla kanıt/örneği ilişkilendiren sıralı bir cevap"
+    elif nonempty(expected):
+        raw = re.sub(r"\s+", " ", scalar_text(expected).strip())
+        clauses = [part.strip() for part in re.split(r";\s*|(?<=[.!?])\s+", raw) if part.strip()]
+        if len(clauses) == 1 and len(clauses[0]) > 120:
+            clauses = [part.strip() for part in re.split(r",\s*", clauses[0]) if part.strip()]
+        parts = [answer_value_signal(part, 70) for part in clauses[:3] if part.strip()]
+        if not parts:
+            parts = [answer_value_signal(raw, 70)]
+        if answer_keys:
+            parts = [f"{humanize_answer_key(answer_keys[0])}: {parts[0]}", *parts[1:]]
+        shape = "bir iddia ile onu taşıyan kanıt ve gerekçeyi birleştiren açıklama"
+    else:
+        parts = []
+        shape = "kaynakta gözlenen ürün veya süreç kanıtı"
+    if keys and not parts:
+        parts = keys[:4]
+    return parts[:5], shape
+
+
+def build_task_signals(
+    *,
+    prompt: str | None,
+    heading: str,
+    label: str,
+    focus: str,
+    profile: str,
+    task_type: str,
+    expected: Any,
+    answer_keys: list[str],
+    acceptance: list[str],
+    guidance: list[str],
+    evidence: list[str],
+    linked_context: list[dict[str, Any]],
+) -> dict[str, Any]:
+    """Build a deterministic, source-bounded signal bundle for all pedagogy.
+
+    Profile data remains a vocabulary/fallback source, but this bundle is the
+    contract that makes the rendered prose depend on the actual textbook task,
+    answer structure, evidence requirement, and linked activity.
+    """
+    prompt_core = clean_task_prompt(prompt)
+    answer_parts, answer_shape = answer_signal_parts(expected, answer_keys)
+    prompt_numbers = {
+        value
+        for value in re.findall(r"(?:soru|q)\s*([0-9]+)", prompt_core, flags=re.IGNORECASE)
+    }
+    prompt_numbers.update(value for value in re.findall(r"\b([0-9]+)\s*[.)]", prompt_core))
+    answer_numbers = {value for value in answer_keys if re.fullmatch(r"\d+", value)}
+    relevant_numbers = prompt_numbers | answer_numbers
+
+    def relevant_values(values: list[str]) -> list[str]:
+        selected: list[str] = []
+        for value in values:
+            text = scalar_text(value)
+            references = set(re.findall(r"(?:soru|q)\s*([0-9]+)", text, flags=re.IGNORECASE))
+            if references and relevant_numbers and not references.intersection(relevant_numbers):
+                continue
+            selected.append(text)
+        return selected
+
+    relevant_evidence = relevant_values(evidence)
+    relevant_acceptance = relevant_values(acceptance)
+    relevant_guidance = relevant_values(guidance)
+    activity = linked_context[0] if linked_context else {}
+    action = short_task_value(activity.get("student_action"), 180)
+    product = short_task_value(activity.get("expected_product_or_evidence"), 180)
+    if not action:
+        action = {
+            "QUESTION": "soruyu kaynak kanıtıyla yanıtlamak",
+            "ASSESSMENT": "ölçütlere dayalı bir değerlendirme yapmak",
+            "PERFORMANCE_TASK": "gözlenebilir bir ürün veya performans ortaya koymak",
+            "PROCESS": "öğrenme sürecini adımlarıyla kaydetmek",
+            "ACTIVITY": "yönergede istenen çalışmayı yürütmek",
+        }.get(task_type, "kaynakla ilişkilendirilmiş bir cevap oluşturmak")
+    if not product:
+        product = "gerekçeli cevap ve seçilmiş kaynak kanıtı"
+    concept = short_task_value(label or prompt_core or heading or focus, 145)
+    component_text = short_task_value("; ".join(answer_parts), 210) if answer_parts else "cevapta gözlenecek kaynak ayrıntıları"
+    evidence_text = short_task_value(relevant_evidence[0] if relevant_evidence else "", 145)
+    if not evidence_text:
+        evidence_text = (
+            "metin, görsel, tablo veya dinleme-izleme kanıtı"
+        )
+    choice_match = re.fullmatch(r"\s*[A-E](?:\s*[,/]\s*[A-E])*\s*", scalar_text(expected)) if expected is not None else None
+    is_choice_answer = isinstance(expected, str) and re.fullmatch(r"\s*[A-E](?:\s*[,/]\s*[A-E])*\s*", expected)
+    if is_choice_answer and prompt_core and answer_parts:
+        criterion_text = short_task_value(
+            f"{prompt_core} için {answer_parts[0]} seçeneğini kaynak kanıtıyla gerekçelendirme",
+            150,
+        )
+    elif relevant_acceptance:
+        criterion_text = short_task_value(relevant_acceptance[0], 150)
+    elif answer_parts and prompt_core:
+        criterion_text = short_task_value(f"{prompt_core} için {answer_parts[0]} cevabını kaynak kanıtıyla gerekçelendirme", 150)
+    else:
+        criterion_text = evidence_text
+    guidance_text = short_task_value(relevant_guidance[0] if relevant_guidance else "", 170)
+    domain_terms = dedupe_text(
+        [
+            concept,
+            focus,
+            *[humanize_answer_key(key) for key in answer_keys],
+            *answer_parts,
+            evidence_text,
+            activity.get("title", ""),
+        ],
+        limit=8,
+    )
+    return {
+        "prompt": prompt_core,
+        "heading": short_task_value(heading, 120),
+        "concept": concept,
+        "focus": focus,
+        "profile": profile,
+        "task_type": task_type,
+        "answer_parts": answer_parts,
+        "answer_shape": answer_shape,
+        "choice": choice_match.group(0).strip() if choice_match else "",
+        "components": component_text,
+        "evidence": evidence_text,
+        "criterion": criterion_text,
+        "guidance": guidance_text,
+        "action": action,
+        "product": product,
+        "activity_title": short_task_value(activity.get("title", ""), 110),
+        "domain_terms": domain_terms,
+    }
+
+
+def signal_phrase(signals: dict[str, Any], key: str, limit: int = 170) -> str:
+    return short_task_value(signals.get(key, ""), limit)
+
+
 def derive_task_teacher_background(
     profile: str,
     focus: str,
@@ -1288,7 +1560,36 @@ def derive_task_teacher_background(
     book_heading: str,
     fallback_background: str,
     task_id: str = "",
+    signals: dict[str, Any] | None = None,
 ) -> str:
+    if signals:
+        concept = signal_phrase(signals, "concept", 135)
+        prompt_text = signal_phrase(signals, "prompt", 155)
+        focus_text = signal_phrase(signals, "focus", 105)
+        components = signal_phrase(signals, "components", 220)
+        evidence = signal_phrase(signals, "evidence", 190)
+        action = signal_phrase(signals, "action", 170)
+        criterion = signal_phrase(signals, "criterion", 180)
+        profile_lens = {
+            "karagoz": "söz varlığı ile tip, yanlış anlama ve sahne işlevi arasındaki bağ",
+            "mektup": "muhatap, iletişim amacı ve yazılı anlatım üslubu arasındaki bağ",
+            "writing_email": "iletişim kanalı, hitap biçimi ve açıklık arasındaki bağ",
+            "communication": "gönderici, alıcı, kanal ve bağlamın anlamı nasıl değiştirdiği",
+            "language_grammar": "dil bilgisel biçimin cümle anlamı ve anlatım işleviyle ilişkisi",
+            "old_turkic": "tarihî dil malzemesinin kültürel bellek ve toplumsal değerleri taşıması",
+            "cultural_memory": "dil, ortak hafıza ve kültürel değerlerin metin kanıtıyla ilişkilendirilmesi",
+            "theatre": "diyalog, karakter, sahne eylemi ve dramatik çatışmanın birlikte kurulması",
+            "documentary": "görüntü, ses, söz ve kurgu tercihlerinin belgesel kanıtla değerlendirilmesi",
+            "poster": "görsel-sözel tasarım kararlarının hedef kitle ve iletiyle ilişkilendirilmesi",
+            "kucurek": "azaltılmış anlatım, simge ve okur katılımının yoğun anlam üretmesi",
+        }.get(signals.get("profile"), "kaynak ayrıntısının kavram ve gerekçeyle ilişkilendirilmesi")
+        return (
+            f"{concept} görevi (‘{prompt_text}’), {profile_lens} üzerinden {focus_text} odağını somutlaştırır. "
+            f"Bu görevde cevap {signals['answer_shape']} olmalıdır; özellikle {components} unsurları, "
+            f"{evidence} kanıtıyla ilişkilendirilmelidir. Öğretmen, öğrenciyi {action} sürecinde önce "
+            f"bu unsurları ayırmaya, ardından {criterion} ölçütüyle gerekçelendirmeye yönlendirir. "
+            f"Böylece {concept} için verilen yanıt yalnızca kavram adını değil, kaynakta görülen ayrıntının işlevini de açıklar."
+        )
     seed = sum(ord(c) * (i + 1) for i, c in enumerate(task_id)) if task_id else 0
     clean_prompt = re.sub(r"^(?:Soru|Adım|Fark\s+Edelim)\s+[0-9a-z/\-–—. ]+\s*[—:-]\s*", "", book_prompt or "", flags=re.IGNORECASE).strip()
     exp_text = scalar_text(expected) if not isinstance(expected, dict) else " ".join(f"{k}: {v}" for k, v in list(expected.items())[:3])
@@ -1455,7 +1756,21 @@ def derive_task_why_it_matters(
     expected: Any,
     section_title: str,
     task_id: str = "",
+    signals: dict[str, Any] | None = None,
 ) -> str:
+    if signals:
+        concept = signal_phrase(signals, "concept", 135)
+        prompt_text = signal_phrase(signals, "prompt", 150)
+        components = signal_phrase(signals, "components", 210)
+        action = signal_phrase(signals, "action", 170)
+        product = signal_phrase(signals, "product", 170)
+        evidence = signal_phrase(signals, "evidence", 180)
+        return (
+            f"{concept} çalışması (‘{prompt_text}’), öğrencinin {signals['answer_shape']} kurmasını ve {components} gibi "
+            f"göreve özgü unsurları ayırt etmesini sağlar. Öğrenci {action} yoluyla {product} üretirken "
+            f"{evidence} dayanağını kullanır; bu nedenle görev, kaynak kanıtını kavramsal yorumla birleştirme "
+            f"becerisini görünür kılar."
+        )
     seed = sum(ord(c) * (i + 1) for i, c in enumerate(task_id)) if task_id else 0
     clean_p = re.sub(r"^(?:Soru|Adım|Fark\s+Edelim)\s+[0-9a-z/\-–—. ]+\s*[—:-]\s*", "", book_prompt or "", flags=re.IGNORECASE).strip()
     target_prompt = f"‘{clean_p[:45]}…’" if clean_p else focus
@@ -1479,7 +1794,20 @@ def derive_task_student_explanation(
     profile: str,
     expected: Any,
     task_id: str = "",
+    signals: dict[str, Any] | None = None,
 ) -> str:
+    if signals:
+        concept = signal_phrase(signals, "concept", 135)
+        prompt_text = signal_phrase(signals, "prompt", 150)
+        components = signal_phrase(signals, "components", 210)
+        evidence = signal_phrase(signals, "evidence", 180)
+        criterion = signal_phrase(signals, "criterion", 180)
+        product = signal_phrase(signals, "product", 170)
+        return (
+            f"{concept} (‘{prompt_text}’) için önce {evidence} dayanağını bulun. Sonra {components} içinden görevle ilgili olanları "
+            f"seçip aralarındaki ilişkiyi açıklayın; cevabınızı {criterion} ölçütüyle kontrol edin. "
+            f"Son ürününüz {product} olmalı ve kaynakta olmayan bir ayrıntıyı kesin bilgi gibi eklememelidir."
+        )
     seed = sum(ord(c) * (i + 1) for i, c in enumerate(task_id)) if task_id else 0
     clean_p = re.sub(r"^(?:Soru|Adım|Fark\s+Edelim)\s+[0-9a-z/\-–—. ]+\s*[—:-]\s*", "", book_prompt or "", flags=re.IGNORECASE).strip()
     target_prompt = f"‘{clean_p[:45]}…’" if clean_p else focus
@@ -1507,7 +1835,60 @@ def derive_task_answer_explanation(
     task_type: str,
     external: bool,
     task_id: str = "",
+    signals: dict[str, Any] | None = None,
 ) -> str:
+    if signals:
+        concept = signal_phrase(signals, "concept", 135)
+        prompt_text = signal_phrase(signals, "prompt", 150)
+        components = signal_phrase(signals, "components", 230)
+        evidence = signal_phrase(signals, "evidence", 185)
+        criterion = signal_phrase(signals, "criterion", 185)
+        action = signal_phrase(signals, "action", 170)
+        product = signal_phrase(signals, "product", 170)
+        if external and answer_status == "REVIEW_REQUIRED":
+            return (
+                f"{concept} (‘{prompt_text}’) için yerel PDF dışındaki içerik görülmeden kesin sonuç kurulamaz. Öğretmen, {action} "
+                f"sonrasında {evidence} kanıtını {signals['focus']} ölçütüyle kaydettirmeli; {product} içindeki "
+                "gözlemler kaynakta gerçekten görülen unsurlarla sınırlandırılmalıdır."
+            )
+        if signals.get("choice"):
+            choice = signals["choice"]
+            return (
+                f"{prompt_text} sorusunda canonical cevap {choice} seçeneğidir. Bu seçenek, sorunun istediği "
+                f"kaynak yargısıyla eşleştirilerek gerekçelendirilmelidir; öğrenci {choice} seçeneğini doğrulayan "
+                f"metin ayrıntısını göstermeli ve çeldiricilerin neden elendiğini açıklamalıdır."
+            )
+        if answer_status == "NOT_APPLICABLE" or task_type in {"PROCESS", "ACTIVITY", "PERFORMANCE_TASK"}:
+            return (
+                f"{concept} (‘{prompt_text}’) görevi tek bir ezber yanıt değil, {signals['answer_shape']} gerektirir. "
+                f"Öğrenci {action} adımlarını izleyerek {product} içinde {components} bileşenlerini görünür kılar; değerlendirmede {criterion} "
+                f"ve {evidence} dayanağı birlikte aranır."
+            )
+        if isinstance(expected, str) and re.fullmatch(r"\s*[A-E](?:\s*[,/]\s*[A-E])*\s*", expected):
+            return (
+                f"{concept} (‘{prompt_text}’) için doğru seçenek {expected.strip()} olarak belirlenir; ancak harf tek başına yeterli değildir. "
+                f"Öğrenci {evidence} dayanağını göstererek seçeneği {criterion} ölçütüyle gerekçelendirmelidir. "
+                f"Çeldiriciler, kaynakta bulunmayan veya sorunun istediği {signals['focus']} bağlantısını kurmayan yönleriyle elenir."
+            )
+        if isinstance(expected, dict):
+            values = [str(value).strip().casefold() for value in expected.values()]
+            is_truth_table = bool(values) and set(values) <= {"evet", "hayır", "bilgi yok"}
+            if is_truth_table:
+                return (
+                    f"{concept} (‘{prompt_text}’) tablosunda her önerme {evidence} ile satır satır karşılaştırılır: açıkça doğrulananlar "
+                    "‘Evet’, çelişenler ‘Hayır’, kaynakta hüküm bulunmayanlar ‘Bilgi yok’ olur. Öğrenci bu sınıflandırmayı "
+                    f"{criterion} ölçütüyle gerekçelendirmelidir."
+                )
+            return (
+                f"{concept} (‘{prompt_text}’) için cevap {components} bileşenlerinden oluşur. Her bileşen {evidence} dayanağıyla "
+                f"açıklanmalı ve {criterion} koşuluyla sınanmalıdır; öğrenci yalnız anahtar sözcükleri sıralamak yerine "
+                f"{action} sırasında bileşenlerin {signals['focus']} ile ilişkisini kurmalıdır."
+            )
+        return (
+            f"{concept} (‘{prompt_text}’) için beklenen açıklama {components} içeriğini {signals['focus']} açısından anlamlandırır. "
+            f"Geçerli cevap {evidence} kanıtını kullanır ve {criterion} ölçütünü karşılar. Öğrenci önce "
+            f"{action} yoluyla dayanağı seçmeli, ardından {product} içinde iddia ile gerekçe arasındaki bağı açıkça kurmalıdır."
+        )
     clean_p = re.sub(r"^(?:Soru|Adım|Fark\s+Edelim)\s+[0-9a-z/\-–—. ]+\s*[—:-]\s*", "", prompt or "", flags=re.IGNORECASE).strip()
     acc_text = " ".join(acceptance) if acceptance else ""
     seed = sum(ord(c) * (i + 1) for i, c in enumerate(task_id)) if task_id else 0
@@ -1566,7 +1947,30 @@ def derive_task_teacher_moves(
     acceptance: list[str],
     profile: str,
     task_id: str = "",
+    signals: dict[str, Any] | None = None,
 ) -> list[str]:
+    if signals:
+        concept = signal_phrase(signals, "concept", 125)
+        prompt_text = signal_phrase(signals, "prompt", 145)
+        components = signal_phrase(signals, "components", 210)
+        evidence = signal_phrase(signals, "evidence", 180)
+        criterion = signal_phrase(signals, "criterion", 175)
+        action = signal_phrase(signals, "action", 160)
+        if signals.get("choice"):
+            choice = signals["choice"]
+            return [
+                f"{prompt_text} sorusundaki seçenekleri metinle karşılaştırın; öğrenciden {choice} seçeneğini doğrulayan ayrıntıyı işaretlemesini isteyin.",
+                f"{prompt_text} için {choice} seçeneğinin dayandığı yargıyı çeldiricilerden ayırması ve nedenini söylemesi için seçenek–kanıt tablosu kullandırın.",
+                f"Öğrencinin {choice} cevabını {prompt_text} bağlamında {criterion} ölçütüyle gerekçelendirmesini, yalnız harf yazmamasını sağlayın.",
+            ]
+        moves = [
+            f"{concept} (‘{prompt_text}’) için öğrenciden {evidence} dayanağını bulup işaretlemesini ve bu dayanağın {signals['focus']} ile bağını sözlü olarak açıklamasını isteyin.",
+            f"{prompt_text} yanıtını {components} bileşenlerine ayırın; her bileşen için öğrencinin hangi kaynak ayrıntısına dayandığını ayrı ayrı sorgulayın.",
+            f"Öğrencileri {action} sürecinde akran kontrolüne yönlendirin; {prompt_text} için iddia, kanıt ve gerekçeyi {criterion} ölçütüne göre karşılaştırmalarını sağlayın.",
+        ]
+        if signals.get("guidance"):
+            moves.append(f"Kaynak rehberliğini ({signal_phrase(signals, 'guidance', 150)}) {concept} bağlamında uygulayın ve öğrenciden sonucu kanıtla göstermesini isteyin.")
+        return dedupe_text(moves)[:4]
     moves = list(canonical_guidance)
     seed = sum(ord(c) * (i + 1) for i, c in enumerate(task_id)) if task_id else 0
     suffix = task_id.split("::")[-1] if task_id else ""
@@ -1627,7 +2031,26 @@ def derive_task_follow_up_questions(
     focus: str,
     profile: str,
     task_id: str = "",
+    signals: dict[str, Any] | None = None,
 ) -> list[str]:
+    if signals:
+        concept = signal_phrase(signals, "concept", 125)
+        prompt_text = signal_phrase(signals, "prompt", 145)
+        components = signal_phrase(signals, "components", 190)
+        evidence = signal_phrase(signals, "evidence", 175)
+        product = signal_phrase(signals, "product", 155)
+        if signals.get("choice"):
+            choice = signals["choice"]
+            return [
+                f"{prompt_text} sorusunda {choice} seçeneğini doğrulayan somut metin ayrıntısı hangisidir?",
+                f"{prompt_text} için {choice} seçeneği ile en yakın çeldiriciyi ayıran kanıtı nasıl gösterirsin?",
+                f"{concept} değerlendirmesinde {choice} cevabını değiştirsen hangi kaynak yargısı artık açıklanamaz?",
+            ]
+        return [
+            f"{concept} (‘{prompt_text}’) görevinde {components} içinden hangi unsur {evidence} ile en doğrudan destekleniyor?",
+            f"{prompt_text} için seçtiğin kanıtı değiştirirsen {signals['focus']} bakımından hangi yorumun değişir; neden?",
+            f"{prompt_text} çalışmasında {product} içinde iddia ile kaynak dayanağı arasındaki bağı bir cümlede nasıl gösterebilirsin?",
+        ]
     seed = sum(ord(c) * (i + 1) for i, c in enumerate(task_id)) if task_id else 0
     suffix = task_id.split("::")[-1] if task_id else ""
     if prompt and not prompt.startswith("Kitapta “"):
@@ -1727,7 +2150,43 @@ def derive_task_misconceptions_and_interventions(
     prompt: str | None,
     expected: Any,
     task_id: str = "",
+    signals: dict[str, Any] | None = None,
 ) -> tuple[list[str], list[str]]:
+    if signals:
+        concept = signal_phrase(signals, "concept", 125)
+        prompt_text = signal_phrase(signals, "prompt", 145)
+        components = signal_phrase(signals, "components", 200)
+        evidence = signal_phrase(signals, "evidence", 175)
+        criterion = signal_phrase(signals, "criterion", 170)
+        if signals.get("choice"):
+            choice = signals["choice"]
+            misconceptions = [
+                f"{prompt_text} sorusunda {choice} seçeneğini yalnız harfine bakarak, metin dayanağı aramadan işaretlemek.",
+                f"{prompt_text} için {choice} seçeneğini destekleyen yargıyla çeldirici bir bilgiyi aynı kanıt düzeyinde görmek.",
+            ]
+            interventions = [
+                f"{prompt_text} için seçenekleri metindeki cümlelerle eşleştirin; öğrenciden {choice} seçeneğini doğrulayan kanıtı işaretlemesini ve gerekçesini yazmasını isteyin.",
+                f"{prompt_text} çalışmasında {choice} ile çeldiriciyi karşılaştırmasını isteyin; {criterion} ölçütüne göre hangi yargının kaynakta bulunmadığını gösterdirin.",
+            ]
+            return misconceptions, interventions
+        misconceptions = []
+        interventions = []
+        for misconception in canonical_misc[:2]:
+            scoped = f"{concept} (‘{prompt_text}’) görevinde {misconception.strip()} Özellikle {components} bileşenini yanıtta göstermemek bu yanılgıyı görünür kılar."
+            misconceptions.append(scoped)
+            interventions.append(
+                f"{concept} (‘{prompt_text}’) için öğrenciden {evidence} dayanağını işaretleyip {components} bileşenini bu kanıtla karşılaştırmasını isteyin; {criterion} ölçütüne göre eksik bağı yeniden kurdurun."
+            )
+        if not misconceptions:
+            misconceptions = [
+                f"{concept} (‘{prompt_text}’) yanıtında {components} unsurlarından birini kaynak dayanağı olmadan genellemek.",
+                f"{concept} (‘{prompt_text}’) görevinde {evidence} ile öğrencinin kendi varsayımını birbirine karıştırmak.",
+            ]
+            interventions = [
+                f"{concept} (‘{prompt_text}’) için {evidence} kanıtını iki renkle işaretletin; öğrenciden {components} unsurunu yalnızca işaretli dayanakla ilişkilendirmesini isteyin.",
+                f"{prompt_text} çalışmasında öğrencinin {components} açıklamasını {criterion} ölçütüyle karşılaştırın, metin dışı varsayımı ayıklatın ve gerekçeyi yeniden yazdırın.",
+            ]
+        return dedupe_text(misconceptions)[:3], dedupe_text(interventions)[:3]
     seed = sum(ord(c) * (i + 1) for i, c in enumerate(task_id)) if task_id else 0
     suffix = task_id.split("::")[-1] if task_id else ""
     if prompt and not prompt.startswith("Kitapta “"):
@@ -1866,7 +2325,28 @@ def derive_task_assessment_look_fors(
     focus: str,
     prompt: str | None,
     task_id: str = "",
+    signals: dict[str, Any] | None = None,
 ) -> list[str]:
+    if signals:
+        concept = signal_phrase(signals, "concept", 125)
+        prompt_text = signal_phrase(signals, "prompt", 145)
+        components = signal_phrase(signals, "components", 205)
+        evidence = signal_phrase(signals, "evidence", 175)
+        criterion = signal_phrase(signals, "criterion", 175)
+        if signals.get("choice"):
+            choice = signals["choice"]
+            return [
+                f"{prompt_text} için {choice} seçeneği doğru işaretlenmiş ve metindeki dayanakla eşleştirilmiş olmalı.",
+                f"Öğrenci {prompt_text} sorusunda {choice} seçeneğini çeldiricilerden ayıran kanıtı gösterebilmeli.",
+                f"{prompt_text} cevabı {criterion} ölçütüne göre gerekçelendirilmiş olmalı; yalnız seçenek harfi yeterli sayılmamalı.",
+            ]
+        return dedupe_text(
+            [
+                *[f"{concept} (‘{prompt_text}’) için {short_task_value(item, 160)}" for item in item_evidence[:2]],
+                f"{concept} (‘{prompt_text}’) yanıtında {components} bileşenlerinin her biri {evidence} dayanağıyla ilişkilendirilmiş olmalı.",
+                f"{prompt_text} için öğrenci iddiasını {criterion} ölçütüne göre gerekçelendiriyor; kanıt ile yorum arasındaki sınırı koruyor olmalı.",
+            ]
+        )[:4]
     seed = sum(ord(c) * (i + 1) for i, c in enumerate(task_id)) if task_id else 0
     clean_p = re.sub(r"^(?:Soru|Adım|Fark\s+Edelim)\s+[0-9a-z/\-–—. ]+\s*[—:-]\s*", "", prompt or "", flags=re.IGNORECASE).strip()
     target_text = f"‘{clean_p[:40]}…’" if clean_p else focus
@@ -1926,7 +2406,24 @@ def derive_task_differentiation(
     prompt: str | None,
     expected: Any,
     task_id: str = "",
+    signals: dict[str, Any] | None = None,
 ) -> tuple[list[str], list[str]]:
+    if signals:
+        concept = signal_phrase(signals, "concept", 125)
+        prompt_text = signal_phrase(signals, "prompt", 145)
+        components = signal_phrase(signals, "components", 185)
+        action = signal_phrase(signals, "action", 155)
+        product = signal_phrase(signals, "product", 155)
+        focus_text = signal_phrase(signals, "focus", 100)
+        support = [
+            *[f"{concept} (‘{prompt_text}’) için destek: {short_task_value(item, 155)}" for item in item_support[:2]],
+            f"{concept} (‘{prompt_text}’) görevini {components} parçalarına bölün; öğrenciye önce {action} için örnek bir kanıt seçtirilip sonra cevap cümlesi kurdurulsun.",
+        ]
+        enrichment = [
+            *[f"{concept} (‘{prompt_text}’) için zenginleştirme: {short_task_value(item, 155)}" for item in item_enrichment[:2]],
+            f"{prompt_text} çalışmasında öğrenciden {product} çıktısını {components} bileşenlerini koruyarak {focus_text} bakımından farklı bir kanıtla yeniden kurmasını ve hangi unsurun değiştiğini açıklamasını isteyin.",
+        ]
+        return dedupe_text(support)[:3], dedupe_text(enrichment)[:3]
     seed = sum(ord(c) * (i + 1) for i, c in enumerate(task_id)) if task_id else 0
     clean_p = re.sub(r"^(?:Soru|Adım|Fark\s+Edelim)\s+[0-9a-z/\-–—. ]+\s*[—:-]\s*", "", prompt or "", flags=re.IGNORECASE).strip()
     target_text = f"‘{clean_p[:35]}…’" if clean_p else focus
@@ -2020,9 +2517,21 @@ def answer_explanation(
     prompt: str | None = None,
     task_type: str = "QUESTION",
     task_id: str = "",
+    signals: dict[str, Any] | None = None,
 ) -> str:
     criteria = dedupe_text(acceptance if isinstance(acceptance, list) else [scalar_text(acceptance)], limit=2)
-    return derive_task_answer_explanation(expected, answer_status, focus, signature, criteria, prompt, task_type, external, task_id=task_id)
+    return derive_task_answer_explanation(
+        expected,
+        answer_status,
+        focus,
+        signature,
+        criteria,
+        prompt,
+        task_type,
+        external,
+        task_id=task_id,
+        signals=signals,
+    )
 
 
 def acceptable_answers(expected: Any, answer_status: str, profile: dict[str, Any], external: bool) -> list[str]:
@@ -2228,6 +2737,20 @@ def build_task(
         ),
         "source_boundary": source_limitations or ["Basılı PDF'de görünen görev, metin ve sayfa akışı esas alınır."],
     }
+    signals = build_task_signals(
+        prompt=book_prompt,
+        heading=str(entry.get("book_heading", "Kitap görevi")),
+        label=label,
+        focus=focus,
+        profile=profile,
+        task_type=task_type,
+        expected=expected,
+        answer_keys=keys,
+        acceptance=item_acceptance,
+        guidance=item_guidance,
+        evidence=item_evidence,
+        linked_context=linked_context,
+    )
     acceptance_for_text = item_acceptance
     explanation = answer_explanation(
         expected,
@@ -2239,6 +2762,7 @@ def build_task(
         prompt=book_prompt,
         task_type=task_type,
         task_id=task_id,
+        signals=signals,
     )
     acceptable = acceptable_answers(expected, answer_status, content, external)
     evidence = (
@@ -2271,6 +2795,7 @@ def build_task(
             expected,
             str(section_content.get("title", manifest_row.get("title", ""))),
             task_id=task_id,
+            signals=signals,
         ),
         "activity_refs": activity_refs,
         "outcome_refs": outcome_refs,
@@ -2304,9 +2829,10 @@ def build_task(
             str(entry.get("book_heading", "Kitap görevi")),
             content["teacher_background"],
             task_id=task_id,
+            signals=signals,
         )
     if task_type in {"QUESTION", "ASSESSMENT", "PERFORMANCE_TASK"} or has_expected:
-        task["student_explanation"] = derive_task_student_explanation(book_prompt, focus, profile, expected, task_id=task_id)
+        task["student_explanation"] = derive_task_student_explanation(book_prompt, focus, profile, expected, task_id=task_id, signals=signals)
     if task_type != "REFERENCE" or has_expected:
         task["teacher_moves"] = derive_task_teacher_moves(
             item_guidance,
@@ -2316,6 +2842,7 @@ def build_task(
             item_acceptance,
             profile,
             task_id=task_id,
+            signals=signals,
         )
     if task_type in {"QUESTION", "ASSESSMENT", "PERFORMANCE_TASK"}:
         task["follow_up_questions"] = derive_task_follow_up_questions(
@@ -2324,6 +2851,7 @@ def build_task(
             focus,
             profile,
             task_id=task_id,
+            signals=signals,
         )
     if task_type in {"QUESTION", "ASSESSMENT", "PERFORMANCE_TASK", "VOCABULARY", "TABLE", "COMPARISON"} or has_expected:
         task_misc, task_interventions = derive_task_misconceptions_and_interventions(
@@ -2333,6 +2861,7 @@ def build_task(
             book_prompt,
             expected,
             task_id=task_id,
+            signals=signals,
         )
         task["common_misconceptions"] = task_misc
         task["misconception_interventions"] = task_interventions
@@ -2344,6 +2873,7 @@ def build_task(
             focus,
             book_prompt,
             task_id=task_id,
+            signals=signals,
         )
         task_support, task_enrichment = derive_task_differentiation(
             item_support,
@@ -2352,6 +2882,7 @@ def build_task(
             book_prompt,
             expected,
             task_id=task_id,
+            signals=signals,
         )
         task["support"] = task_support
         task["enrichment"] = task_enrichment
@@ -2468,6 +2999,7 @@ def build_activity_index_document(
     task_records: dict[str, list[dict[str, Any]]],
     activity_index: dict[str, dict[str, Any]],
     activity_sections: dict[str, dict[str, Any]],
+    inventory_path: Path,
 ) -> dict[str, Any]:
     pdf_path = root / "courses" / COURSE_ID / "source_docs" / "turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf"
     map_path = root / "courses" / COURSE_ID / "textbook_map.json"
@@ -2533,6 +3065,7 @@ def build_activity_index_document(
         "document_type": "TYMM_TEXTBOOK_TASK_INDEX",
         "course_id": COURSE_ID,
         "source": source_meta(root, pdf_path, "textbook_tde11_local_pdf"),
+        "inventory_source": source_meta(root, inventory_path, "textbook_question_inventory"),
         "map_ref": relative_path(root, map_path),
         "themes": themes,
         "counts": {"themes": len(themes), "questions": total_questions, "activities": total_activities},
@@ -2558,9 +3091,11 @@ def guide_source_metadata(
     normative_path: Path,
     pdf_path: Path,
     task_index_path: Path,
+    inventory_path: Path,
 ) -> dict[str, Any]:
     return {
         "textbook_pdf": source_meta(root, pdf_path, TEXTBOOK_SOURCE_ID),
+        "textbook_question_inventory": source_meta(root, inventory_path, "textbook_question_inventory"),
         "textbook_map": source_meta(root, textbook_map_path, TEXTBOOK_MAP_SOURCE_ID),
         "curriculum_map": source_meta(root, curriculum_map_path, "curriculum_map"),
         "curriculum_normative_text": source_meta(root, normative_path, "curriculum_normative"),
@@ -2702,6 +3237,7 @@ def build_theme(
     textbook_map: dict[str, Any],
     activity_index: dict[str, dict[str, Any]],
     activity_sections: dict[str, dict[str, Any]],
+    inventory: dict[str, dict[str, Any]],
 ) -> tuple[dict[str, Any], list[dict[str, Any]], dict[str, Any]]:
     theme_id = theme["theme_id"]
     theme_dir = root / "courses" / COURSE_ID / "teacher_guide" / theme_id
@@ -2714,7 +3250,8 @@ def build_theme(
     manifest_sections = {row["section_id"]: row for row in manifest["sections"]}
     expanded_entries: list[dict[str, Any]] = []
     for entry in mirror["entries"]:
-        expanded_entries.extend(expand_mirror_entry(entry))
+        for expanded in expand_mirror_entry(entry):
+            expanded_entries.append(project_inventory_question(expanded, theme_id, inventory))
     board_seen: set[str] = set()
     tasks: list[dict[str, Any]] = []
     for entry in expanded_entries:
@@ -2795,7 +3332,9 @@ def build_theme(
             "primary_source": TEXTBOOK_SOURCE_ID,
             "authority_chain": [
                 "official_textbook_pdf",
+                "textbook_question_inventory",
                 "textbook_map",
+                "book_mirror_v23_projection",
                 "teacher_guide_canonical",
                 "curriculum_map",
                 "task_specific_pedagogical_derivation",
@@ -2832,20 +3371,33 @@ def build_course(root: Path) -> dict[str, Any]:
     textbook_map_path = course_dir / "textbook_map.json"
     curriculum_map_path = course_dir / "curriculum_map.json"
     normative_path = course_dir / "curriculum_normative_text.json"
+    inventory_path = course_dir / "textbook_question_inventory.json"
     textbook_map = read_json(textbook_map_path)
+    _inventory_document, inventory = load_question_inventory(root)
     activity_index, activity_sections = activity_index_from_map(textbook_map)
     guides: dict[str, dict[str, Any]] = {}
     task_records: dict[str, list[dict[str, Any]]] = {}
     theme_metadata: dict[str, dict[str, Any]] = {}
     for theme in textbook_map["themes"]:
-        guide, tasks, metadata = build_theme(root, theme, textbook_map, activity_index, activity_sections)
+        guide, tasks, metadata = build_theme(root, theme, textbook_map, activity_index, activity_sections, inventory)
         guides[theme["theme_id"]] = guide
         task_records[theme["theme_id"]] = tasks
         theme_metadata[theme["theme_id"]] = {**metadata, **guide["_build_meta"]}
 
     index_dir = course_dir / "teacher_guide_v3"
     index_path = index_dir / "textbook_task_index.json"
-    task_index = build_activity_index_document(root, textbook_map, task_records, activity_index, activity_sections)
+    built_question_ids = {
+        task["task_id"]
+        for tasks in task_records.values()
+        for task in tasks
+        if task.get("task_type") == "QUESTION"
+    }
+    inventory_question_ids = set(inventory)
+    if built_question_ids != inventory_question_ids:
+        missing = sorted(inventory_question_ids - built_question_ids)
+        extra = sorted(built_question_ids - inventory_question_ids)
+        raise ValueError(f"generated question set differs from inventory: missing={missing[:8]} extra={extra[:8]}")
+    task_index = build_activity_index_document(root, textbook_map, task_records, activity_index, activity_sections, inventory_path)
     write_json(index_path, task_index)
     index_meta = source_meta(root, index_path, "textbook_task_index")
     pdf_path = course_dir / "source_docs" / "turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf"
@@ -2864,6 +3416,7 @@ def build_course(root: Path) -> dict[str, Any]:
             normative_path,
             pdf_path,
             index_path,
+            inventory_path,
         )
         guide["canonical_sources"]["textbook_task_index"] = index_meta
         guide.pop("_build_meta", None)

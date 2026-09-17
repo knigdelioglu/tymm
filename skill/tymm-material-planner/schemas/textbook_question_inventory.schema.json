@@ -23,6 +23,7 @@
       "type": "object",
       "additionalProperties": false,
       "required": [
+        "item_id",
         "origin",
         "source_ids",
         "source_locators",
@@ -59,6 +60,7 @@
         "prompt_mode",
         "source_locator",
         "source_sha256",
+        "review_status",
         "provenance"
       ],
       "properties": {
@@ -69,7 +71,7 @@
         "pdf_page_range": { "type": "string", "minLength": 1 },
         "activity_id": { "type": ["string", "null"] },
         "question_number": { "type": ["string", "null"] },
-        "prompt": { "type": ["string", "null"] },
+        "prompt": { "type": "string", "minLength": 1 },
         "prompt_mode": {
           "enum": [
             "VERBATIM_SHORT",
@@ -79,7 +81,7 @@
           ]
         },
         "source_locator": { "type": "string", "minLength": 1 },
-        "source_sha256": { "type": "string", "minLength": 1 },
+        "source_sha256": { "type": "string", "pattern": "^[0-9a-fA-F]{64}$" },
         "group_id": { "type": ["string", "null"] },
         "parent_prompt_id": { "type": ["string", "null"] },
         "review_status": { "enum": ["VERIFIED", "REVIEW_REQUIRED"] },
@@ -98,7 +100,7 @@
       "properties": {
         "source_id": { "type": "string", "minLength": 1 },
         "path": { "type": "string", "minLength": 1 },
-        "sha256": { "type": "string", "minLength": 1 },
+        "sha256": { "type": "string", "pattern": "^[0-9a-fA-F]{64}$" },
         "printed_to_pdf_offset": { "type": "integer" }
       }
     },

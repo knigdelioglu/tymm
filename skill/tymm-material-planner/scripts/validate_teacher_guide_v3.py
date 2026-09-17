@@ -50,6 +50,41 @@ PEDAGOGICAL_FIELDS = {
     "enrichment",
     "board_notes",
 }
+SEMANTIC_PEDAGOGY_FIELDS = (
+    "teacher_background",
+    "student_explanation",
+    "why_it_matters",
+    "teacher_moves",
+    "follow_up_questions",
+    "common_misconceptions",
+    "misconception_interventions",
+    "assessment_look_fors",
+    "support",
+    "enrichment",
+    "answer_explanation",
+)
+GENERIC_PEDAGOGY_STEMS = (
+    "süreç",
+    "değerlendir",
+    "görev",
+    "öğrenci",
+    "öğretmen",
+    "açıkl",
+    "ilişkilendir",
+    "çalış",
+    "yanıt",
+    "cevap",
+    "beklen",
+    "kullan",
+    "sağla",
+    "iste",
+    "gerek",
+    "uygun",
+    "temel",
+    "doğru",
+    "ayrıntı",
+    "konu",
+)
 REASONING_CUES = [
     "çünkü",
     "bu nedenle",
@@ -194,6 +229,59 @@ def token_similarity(left: Any, right: Any) -> float:
     return len(left_set & right_set) / len(left_set | right_set)
 
 
+def _semantic_value(value: Any) -> str:
+    if isinstance(value, list):
+        return " ".join(str(item) for item in value if isinstance(item, str))
+    if isinstance(value, dict):
+        return " ".join(f"{key} {item}" for key, item in value.items())
+    return str(value or "")
+
+
+def strip_surface_anchors(value: Any, task: dict[str, Any] | None = None) -> str:
+    """Remove locators and labels without deleting quoted domain concepts."""
+    text = builder.normalize_text(_semantic_value(value))
+    text = re.sub(r"\btema_\d+::[a-z0-9_#-]+\b", " ", text)
+    text = re.sub(r"\bbasılı\s+s\.?\s*\d+(?:\s*[-–—]\s*\d+)?", " ", text)
+    text = re.sub(r"\bpdf\s+s\.?\s*\d+(?:\s*[-–—]\s*\d+)?", " ", text)
+    text = re.sub(r"\b(?:soru|adım|fark\s+edelim)\s+[0-9a-z/ -]+\s*[—:-]", " ", text)
+    if task:
+        task_id = str(task.get("task_id") or "").casefold()
+        if task_id:
+            text = text.replace(task_id, " ")
+        heading = builder.normalize_text(task.get("book_heading"))
+        if heading:
+            # The heading is a surface anchor, but preserve non-generic terms
+            # from it as protected concepts in semantic_tokens below.
+            text = text.replace(heading, " ")
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def semantic_tokens(value: Any, task: dict[str, Any] | None = None) -> set[str]:
+    raw = strip_surface_anchors(value, task)
+    tokens = set(re.findall(r"[a-zçğıöşü0-9]+", raw))
+    tokens = {
+        token
+        for token in tokens
+        if len(token) > 2 and not any(token.startswith(stem) for stem in GENERIC_PEDAGOGY_STEMS)
+    }
+    if task:
+        heading_tokens = set(re.findall(r"[a-zçğıöşü0-9]+", builder.normalize_text(task.get("book_heading"))))
+        tokens.update(
+            token
+            for token in heading_tokens
+            if len(token) > 2 and not any(token.startswith(stem) for stem in GENERIC_PEDAGOGY_STEMS)
+        )
+    return tokens
+
+
+def semantic_similarity(left: Any, right: Any, left_task: dict[str, Any] | None = None, right_task: dict[str, Any] | None = None) -> float:
+    left_set = semantic_tokens(left, left_task)
+    right_set = semantic_tokens(right, right_task)
+    if not left_set or not right_set:
+        return 0.0
+    return len(left_set & right_set) / len(left_set | right_set)
+
+
 def parse_page_range(value: str) -> tuple[int, int]:
     return builder.parse_page_range(value)
 
@@ -235,6 +323,194 @@ def schema_errors(document: Any, schema_path: Path) -> list[str]:
         path = ".".join(str(part) for part in error.path) or "$"
         errors.append(f"{path}: {error.message}")
     return errors
+
+
+def _inventory_locator_range(value: Any, pattern: re.Pattern[str]) -> tuple[int, int] | None:
+    return locator_range(str(value or ""), pattern)
+
+
+def validate_inventory_contract(
+    root: Path,
+    course_id: str = builder.COURSE_ID,
+) -> tuple[dict[str, Any], list[dict[str, Any]], dict[str, dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
+    """Validate the independent textbook inventory before any projection.
+
+    Returns ``(document, rows, records, failures, warnings)``.  ``records``
+    intentionally keeps the first row for duplicate IDs so later projection
+    checks remain deterministic while the duplicate itself is reported.
+    """
+    course_dir = root / "courses" / course_id
+    schema_dir = root / "skill" / "tymm-material-planner" / "schemas"
+    inventory_path = course_dir / "textbook_question_inventory.json"
+    map_path = course_dir / "textbook_map.json"
+    pdf_path = course_dir / "source_docs" / "turk-dili-ve-edebiyati-11sinif-ders-kitabi_compressed.pdf"
+    document: dict[str, Any] = {}
+    rows: list[dict[str, Any]] = []
+    records: dict[str, dict[str, Any]] = {}
+    failures: list[dict[str, Any]] = []
+    warnings: list[dict[str, Any]] = []
+
+    def fail(code: str, message: str, question_id: str | None = None) -> None:
+        item: dict[str, Any] = {"code": code, "message": message}
+        if question_id:
+            item["task_id"] = question_id
+        failures.append(item)
+
+    if not inventory_path.exists():
+        fail("INVENTORY_MISSING", str(inventory_path))
+        return document, rows, records, failures, warnings
+    document = read_json(inventory_path)
+    for error in schema_errors(document, schema_dir / "textbook_question_inventory.schema.json"):
+        fail("INVENTORY_SCHEMA_INVALID", error)
+    if document.get("course_id") != course_id:
+        fail("INVENTORY_COURSE_ID_MISMATCH", f"inventory course_id={document.get('course_id')!r}, expected={course_id!r}")
+
+    textbook_map: dict[str, Any] = {}
+    if not map_path.exists():
+        fail("TEXTBOOK_MAP_MISSING", str(map_path))
+    else:
+        textbook_map = read_json(map_path)
+    map_primary = textbook_map.get("primary_source", {})
+    expected_pdf_path = builder.relative_path(root, pdf_path)
+    expected_pdf_sha = str(map_primary.get("sha256") or "")
+    map_offset = int(map_primary.get("printed_to_pdf_offset", 1))
+    inventory_source = document.get("source_pdf", {})
+    if inventory_source.get("source_id") != TEXTBOOK_SOURCE_ID:
+        fail("INVENTORY_SOURCE_ID_MISMATCH", "source_pdf.source_id official_textbook_pdf olmalı")
+    if inventory_source.get("path") != expected_pdf_path:
+        fail("INVENTORY_PDF_PATH_MISMATCH", f"source_pdf.path={inventory_source.get('path')!r}, expected={expected_pdf_path!r}")
+    if expected_pdf_sha and inventory_source.get("sha256") != expected_pdf_sha:
+        fail("INVENTORY_PDF_SHA_MISMATCH", "inventory source_pdf.sha256 textbook_map primary_source.sha256 ile uyuşmuyor")
+    if pdf_path.exists():
+        actual_pdf_sha = builder.sha256_file(pdf_path)
+        if inventory_source.get("sha256") != actual_pdf_sha:
+            fail("INVENTORY_PDF_SHA_MISMATCH", "inventory source_pdf.sha256 yerel resmî PDF ile uyuşmuyor")
+    else:
+        fail("TEXTBOOK_PDF_MISSING", str(pdf_path))
+    if inventory_source.get("printed_to_pdf_offset") != map_offset:
+        fail("INVENTORY_PAGE_OFFSET_MISMATCH", "inventory printed_to_pdf_offset textbook_map ile uyuşmuyor")
+    expected_map_ref = builder.relative_path(root, map_path)
+    if document.get("map_ref") != expected_map_ref:
+        fail("INVENTORY_MAP_REF_MISMATCH", f"map_ref={document.get('map_ref')!r}, expected={expected_map_ref!r}")
+    if not map_path.exists():
+        return document, rows, records, failures, warnings
+
+    themes = {theme.get("theme_id"): theme for theme in textbook_map.get("themes", [])}
+    manifest_sections_by_theme: dict[str, dict[str, dict[str, Any]]] = {}
+    for theme_id in themes:
+        manifest_path = course_dir / "teacher_guide" / theme_id / "teacher_guide.json"
+        if not manifest_path.exists():
+            fail("TEACHER_GUIDE_MANIFEST_MISSING", str(manifest_path))
+            manifest_sections_by_theme[theme_id] = {}
+            continue
+        manifest = read_json(manifest_path)
+        manifest_sections_by_theme[theme_id] = {row.get("section_id"): row for row in manifest.get("sections", [])}
+    counts = document.get("counts", {})
+    rows = [row for row in document.get("questions", []) if isinstance(row, dict)]
+    if counts.get("themes") != len(themes):
+        fail("INVENTORY_COUNTS_MISMATCH", f"counts.themes={counts.get('themes')!r}, map themes={len(themes)}")
+    if counts.get("questions") != len(rows):
+        fail("INVENTORY_COUNTS_MISMATCH", f"counts.questions={counts.get('questions')!r}, rows={len(rows)}")
+    actual_review_count = sum(row.get("review_status") == "REVIEW_REQUIRED" for row in rows)
+    if counts.get("review_required") != actual_review_count:
+        fail("INVENTORY_COUNTS_MISMATCH", f"counts.review_required={counts.get('review_required')!r}, rows={actual_review_count}")
+
+    for row in rows:
+        question_id = row.get("question_id")
+        if isinstance(question_id, str) and question_id not in records:
+            records[question_id] = row
+        elif isinstance(question_id, str):
+            fail("INVENTORY_DUPLICATE_QUESTION_ID", "question_id inventory içinde birden fazla kez bulunuyor", question_id)
+        else:
+            fail("INVENTORY_QUESTION_ID_MISSING", "question_id boş veya string değil")
+            continue
+        theme_id = row.get("theme_id")
+        theme = themes.get(theme_id)
+        if theme is None:
+            fail("INVENTORY_THEME_ID_INVALID", f"theme_id={theme_id!r} textbook_map içinde yok", question_id)
+            continue
+        if not question_id.startswith(f"{theme_id}::"):
+            fail("INVENTORY_QUESTION_ID_THEME_MISMATCH", "question_id theme prefix ile uyuşmuyor", question_id)
+        provenance = row.get("provenance") if isinstance(row.get("provenance"), dict) else {}
+        if provenance.get("item_id") != question_id:
+            fail("INVENTORY_PROVENANCE_INCOMPLETE", "provenance.item_id question_id ile aynı olmalı", question_id)
+        if provenance.get("origin") != "official_textbook":
+            fail("INVENTORY_PROVENANCE_INCOMPLETE", "provenance.origin official_textbook olmalı", question_id)
+        if TEXTBOOK_SOURCE_ID not in provenance.get("source_ids", []) or TEXTBOOK_MAP_SOURCE_ID not in provenance.get("source_ids", []):
+            fail("INVENTORY_PROVENANCE_INCOMPLETE", "provenance.source_ids textbook PDF + textbook_map içermeli", question_id)
+        if provenance.get("verification_status") != "VERIFIED":
+            fail("INVENTORY_PROVENANCE_UNVERIFIED", "provenance.verification_status VERIFIED olmalı", question_id)
+        source_locator = row.get("source_locator")
+        if not isinstance(source_locator, str) or not source_locator.strip():
+            fail("INVENTORY_SOURCE_LOCATOR_MISSING", "source_locator boş", question_id)
+        elif source_locator not in provenance.get("source_locators", []):
+            fail("INVENTORY_PROVENANCE_INCOMPLETE", "provenance.source_locators canonical source_locator içermeli", question_id)
+        if row.get("source_sha256") != inventory_source.get("sha256"):
+            fail("INVENTORY_SOURCE_SHA_MISMATCH", "question source_sha256 inventory PDF SHA ile uyuşmuyor", question_id)
+        if not nonempty(row.get("prompt")):
+            fail("INVENTORY_UNRESOLVED_PROMPT", "question prompt boş", question_id)
+        if row.get("prompt_mode") in {"LOCATOR_ONLY", "REVIEW_REQUIRED"}:
+            fail("INVENTORY_UNRESOLVED_PROMPT", f"prompt_mode={row.get('prompt_mode')}", question_id)
+        if row.get("review_status") not in {"VERIFIED", "REVIEW_REQUIRED"}:
+            fail("INVENTORY_REVIEW_STATUS_INVALID", "review_status geçersiz", question_id)
+        if row.get("prompt_mode") == "VERBATIM_SHORT" and provenance.get("verbatim") is not True:
+            fail("INVENTORY_VERBATIM_PROVENANCE_INVALID", "VERBATIM_SHORT prompt provenance.verbatim=true olmalı", question_id)
+        if row.get("review_status") == "VERIFIED" and row.get("prompt_mode") in {"LOCATOR_ONLY", "REVIEW_REQUIRED"}:
+            fail("INVENTORY_REVIEW_STATUS_MISMATCH", "çözümlenmemiş prompt VERIFIED olamaz", question_id)
+        try:
+            printed = parse_page_range(str(row.get("printed_page_range")))
+            pdf = parse_page_range(str(row.get("pdf_page_range")))
+        except (TypeError, ValueError) as exc:
+            fail("INVENTORY_PAGE_RANGE_INVALID", str(exc), question_id)
+            continue
+        try:
+            theme_printed = parse_page_range(str(theme["printed_page_range"]))
+            theme_pdf = parse_page_range(str(theme["pdf_page_range"]))
+            if printed[0] < theme_printed[0] or printed[1] > theme_printed[1]:
+                fail("INVENTORY_PAGE_OUTSIDE_THEME", f"printed page {printed} theme {theme_printed} dışında", question_id)
+            if pdf[0] < theme_pdf[0] or pdf[1] > theme_pdf[1]:
+                fail("INVENTORY_PDF_PAGE_OUTSIDE_THEME", f"PDF page {pdf} theme {theme_pdf} dışında", question_id)
+        except (KeyError, TypeError, ValueError) as exc:
+            fail("INVENTORY_THEME_PAGE_METADATA_INVALID", str(exc), question_id)
+        if pdf[0] - printed[0] != map_offset or pdf[1] - printed[1] != map_offset:
+            fail("INVENTORY_PDF_PAGE_OFFSET_MISMATCH", f"printed={printed}, pdf={pdf}, offset={map_offset}", question_id)
+        locator_printed = _inventory_locator_range(source_locator, PRINTED_LOCATOR_RE)
+        locator_pdf = _inventory_locator_range(source_locator, PDF_LOCATOR_RE)
+        if locator_printed is None or not ranges_overlap(locator_printed, printed):
+            fail("INVENTORY_SOURCE_LOCATOR_PAGE_MISMATCH", f"source_locator printed={locator_printed}, row={printed}", question_id)
+        if locator_pdf is None or not ranges_overlap(locator_pdf, pdf):
+            fail("INVENTORY_SOURCE_LOCATOR_PAGE_MISMATCH", f"source_locator PDF={locator_pdf}, row={pdf}", question_id)
+        if locator_printed and locator_pdf and locator_pdf[0] - locator_printed[0] != map_offset:
+            fail("INVENTORY_SOURCE_LOCATOR_OFFSET_MISMATCH", f"source_locator printed={locator_printed}, PDF={locator_pdf}, offset={map_offset}", question_id)
+        section = manifest_sections_by_theme.get(theme_id, {}).get(row.get("section_id"))
+        if section is None:
+            fail("INVENTORY_SECTION_ID_INVALID", f"section_id={row.get('section_id')!r} theme içinde yok", question_id)
+        else:
+            section_printed = parse_page_range(str(section["printed_page_range"]))
+            if printed[0] < section_printed[0] or printed[1] > section_printed[1]:
+                fail("INVENTORY_PAGE_OUTSIDE_SECTION", f"printed page {printed} section {section_printed} dışında", question_id)
+        activity_id = row.get("activity_id")
+        activity_ids = {activity.get("activity_id") for item in theme.get("sections", []) for activity in item.get("activities", [])}
+        if activity_id is not None and activity_id not in activity_ids:
+            fail("INVENTORY_ACTIVITY_ID_INVALID", f"activity_id={activity_id!r} theme textbook_map içinde yok", question_id)
+
+    return document, rows, records, failures, warnings
+
+
+def inventory_report(root: Path, course_id: str = builder.COURSE_ID) -> dict[str, Any]:
+    document, rows, _records, failures, warnings = validate_inventory_contract(root, course_id)
+    counts = document.get("counts", {}) if document else {}
+    return {
+        "status": "FAIL" if failures else "PASS",
+        "course_id": course_id,
+        "counts": {
+            "themes": counts.get("themes", 0),
+            "questions": counts.get("questions", len(rows)),
+            "review_required": counts.get("review_required", 0),
+        },
+        "failures": failures,
+        "warnings": warnings,
+    }
 
 
 def mirror_question_records(root: Path, theme_id: str) -> tuple[dict[str, dict[str, Any]], list[str]]:
@@ -469,43 +745,142 @@ def validate_repetition(
                     }
                 )
 
-    similarity_fields = ["follow_up_questions", "misconception_interventions"]
-    for field in similarity_fields:
-        entries: list[tuple[str, str, str]] = []
+    for field in SEMANTIC_PEDAGOGY_FIELDS:
+        entries: list[tuple[dict[str, Any], str, set[str], str]] = []
         for task in tasks:
-            for value in task.get(field, []) if isinstance(task.get(field), list) else []:
-                if isinstance(value, str) and value.strip():
-                    entries.append((task["task_id"], task.get("focus", ""), value))
-        high_similarity: list[dict[str, Any]] = []
-        for index, (left_id, left_focus, left_value) in enumerate(entries):
-            for right_id, right_focus, right_value in entries[index + 1 :]:
-                if left_id == right_id or left_focus == right_focus:
+            value = task.get(field)
+            if not nonempty(value):
+                continue
+            value_text = _semantic_value(value)
+            token_set = semantic_tokens(value_text, task)
+            if len(token_set) < 6:
+                continue
+            entries.append((task, value_text, token_set, strip_surface_anchors(value_text, task)[:280]))
+        findings: list[dict[str, Any]] = []
+        for index, (left_task, left_value, left_tokens, left_excerpt) in enumerate(entries):
+            for right_task, right_value, right_tokens, right_excerpt in entries[index + 1 :]:
+                if left_task["task_id"] == right_task["task_id"]:
                     continue
-                similarity = token_similarity(left_value, right_value)
-                if similarity >= 0.94:
-                    high_similarity.append({"left": left_id, "right": right_id, "similarity": round(similarity, 3)})
-                    if len(high_similarity) >= 4:
-                        break
-            if len(high_similarity) >= 4:
-                break
-        if high_similarity:
-            failures.append(
-                {
-                    "code": "SEMANTIC_BOILERPLATE_REPETITION",
-                    "message": f"{field} farklı odaklarda neredeyse aynı pedagojik cümleyi kullanıyor",
-                    "examples": high_similarity,
+                similarity = len(left_tokens & right_tokens) / len(left_tokens | right_tokens)
+                if similarity < 0.85:
+                    continue
+                same_profile = left_task.get("generation_profile") == right_task.get("generation_profile")
+                same_theme = left_task.get("task_id", "").split("::", 1)[0] == right_task.get("task_id", "").split("::", 1)[0]
+                finding = {
+                    "field": field,
+                    "similarity": round(similarity, 3),
+                    "left_task_id": left_task["task_id"],
+                    "right_task_id": right_task["task_id"],
+                    "normalized_excerpts": {
+                        "left": left_excerpt,
+                        "right": right_excerpt,
+                    },
                 }
-            )
+                findings.append(finding)
+                if len(findings) >= 12:
+                    break
+            if len(findings) >= 12:
+                break
+        for finding in findings:
+            left_task = next(task for task, _value, _tokens, _excerpt in entries if task["task_id"] == finding["left_task_id"])
+            right_task = next(task for task, _value, _tokens, _excerpt in entries if task["task_id"] == finding["right_task_id"])
+            same_profile = left_task.get("generation_profile") == right_task.get("generation_profile")
+            same_theme = left_task.get("task_id", "").split("::", 1)[0] == right_task.get("task_id", "").split("::", 1)[0]
+            if same_profile and same_theme and field in {"teacher_background", "student_explanation", "why_it_matters"}:
+                warnings.append({"code": "SEMANTIC_COMMON_DOMAIN_DEFINITION", **finding, "message": f"{field} aynı domain profile içinde ortak kavramsal tanımı paylaşıyor"})
+            else:
+                failures.append({"code": "SEMANTIC_BOILERPLATE_REPETITION", **finding, "message": f"{field} anchor/page/heading çıkarıldıktan sonra benzerlik eşiğini aşıyor"})
 
     board_count = sum(1 for task in tasks if task.get("board_notes"))
     if tasks and board_count / len(tasks) > 0.65:
         failures.append({"code": "BOARD_NOTE_OVERUSE", "message": f"board_notes görevlerin %{round(100 * board_count / len(tasks))}'ında kullanılmış"})
 
 
+def projection_fields(theme_id: str, record: dict[str, Any], projection: str) -> dict[str, Any]:
+    if projection == "mirror":
+        return {
+            "theme_id": theme_id,
+            "section_id": record.get("section_id"),
+            "printed_page_range": record.get("printed_page_range"),
+            "pdf_page_range": locator_range(str(record.get("source_locator", "")), PDF_LOCATOR_RE),
+            "question_number": builder.find_question_number(record, record.get("prompt_display")),
+            "prompt": record.get("prompt_display"),
+            "prompt_mode": record.get("prompt_mode"),
+            "source_locator": record.get("source_locator"),
+        }
+    return {
+        "theme_id": theme_id,
+        "section_id": record.get("section_id"),
+        "printed_page_range": record.get("printed_page_range"),
+        "pdf_page_range": locator_range(str(record.get("source_locator", "")), PDF_LOCATOR_RE),
+        "question_number": record.get("question_number"),
+        "prompt": record.get("book_prompt"),
+        "prompt_mode": record.get("prompt_mode"),
+        "source_locator": record.get("source_locator"),
+    }
+
+
+def validate_inventory_projection_fields(
+    inventory_records: dict[str, dict[str, Any]],
+    mirror_records: dict[str, dict[str, dict[str, Any]]],
+    guides: dict[str, dict[str, Any]],
+    index: dict[str, Any],
+    failures: list[dict[str, Any]],
+) -> None:
+    projections: dict[str, dict[str, dict[str, Any]]] = {
+        "mirror": {task_id: record for records in mirror_records.values() for task_id, record in records.items()},
+        "guide": {task["task_id"]: task for guide in guides.values() for task in guide.get("tasks", []) if task.get("task_type") == "QUESTION"},
+        "index": {question["task_id"]: question for theme in index.get("themes", []) for question in theme.get("questions", [])},
+    }
+    field_names = ["theme_id", "section_id", "printed_page_range", "pdf_page_range", "question_number", "prompt", "prompt_mode", "source_locator"]
+    for projection_name, projected in projections.items():
+        for question_id, inventory in inventory_records.items():
+            if question_id not in projected:
+                continue
+            theme_id = question_id.split("::", 1)[0]
+            expected = {
+                "theme_id": theme_id,
+                "section_id": inventory.get("section_id"),
+                "printed_page_range": inventory.get("printed_page_range"),
+                "pdf_page_range": parse_page_range(str(inventory.get("pdf_page_range"))) if inventory.get("pdf_page_range") else None,
+                "question_number": inventory.get("question_number"),
+                "prompt": inventory.get("prompt"),
+                "prompt_mode": inventory.get("prompt_mode"),
+                "source_locator": inventory.get("source_locator"),
+            }
+            actual = projection_fields(theme_id, projected[question_id], projection_name)
+            for field in field_names:
+                left = expected.get(field)
+                right = actual.get(field)
+                if field == "pdf_page_range" and isinstance(left, tuple) and isinstance(right, tuple):
+                    # Inventory rows describe the full task span; a mirror or
+                    # guide locator may point at only the page containing the
+                    # printed prompt.  The source contract already verifies
+                    # the printed→PDF offset, so projection parity here is
+                    # overlap plus offset rather than false exact equality.
+                    if ranges_overlap(left, right):
+                        continue
+                if left == right:
+                    continue
+                code = f"INVENTORY_{projection_name.upper()}_FIELD_DRIFT"
+                message: dict[str, Any] = {
+                    "code": code,
+                    "task_id": question_id,
+                    "field": field,
+                    "expected": left,
+                    "actual": right,
+                    "message": f"inventory/{projection_name} {field} uyuşmuyor",
+                }
+                if field == "prompt" and inventory.get("prompt_mode") == "VERBATIM_SHORT":
+                    message["code"] = "INVENTORY_VERBATIM_PROMPT_DRIFT"
+                failures.append(message)
+
+
 def validate_index_alignment(
     index: dict[str, Any],
     guides: dict[str, dict[str, Any]],
     mirror_records: dict[str, dict[str, dict[str, Any]]],
+    inventory_records: dict[str, dict[str, Any]],
     activity_index: dict[str, dict[str, Any]],
     failures: list[dict[str, Any]],
 ) -> tuple[int, int, int, int, list[str], list[str]]:
@@ -524,15 +899,18 @@ def validate_index_alignment(
             index_activities[activity_id] = activity
 
     guide_questions = {task["task_id"]: task for guide in guides.values() for task in guide.get("tasks", []) if task.get("task_type") == "QUESTION"}
-    expected_questions = {task_id for records in mirror_records.values() for task_id in records}
-    uncovered_questions = sorted(expected_questions - set(guide_questions))
-    extra_questions = sorted(set(guide_questions) - expected_questions)
-    for task_id in uncovered_questions:
-        failures.append({"code": "UNCOVERED_TEXTBOOK_QUESTION", "task_id": task_id, "message": "mirror'daki soru canonical teacher guide V3'te yok"})
-    for task_id in extra_questions:
-        failures.append({"code": "UNEXPECTED_GUIDE_QUESTION", "task_id": task_id, "message": "teacher guide sorusu textbook task index/mirror kaynağında yok"})
-    if set(index_questions) != expected_questions:
-        failures.append({"code": "INDEX_QUESTION_PARITY", "message": "textbook_task_index questions mirror soru kümesiyle eşleşmiyor"})
+    expected_questions = set(inventory_records)
+    mirror_questions = {task_id for records in mirror_records.values() for task_id in records}
+
+    def report_set_parity(actual: set[str], missing_code: str, extra_code: str, label: str) -> None:
+        for task_id in sorted(expected_questions - actual):
+            failures.append({"code": missing_code, "task_id": task_id, "message": f"inventory sorusu {label} projectionında yok"})
+        for task_id in sorted(actual - expected_questions):
+            failures.append({"code": extra_code, "task_id": task_id, "message": f"{label} sorusu inventory içinde yok"})
+
+    report_set_parity(mirror_questions, "INVENTORY_QUESTION_MISSING_FROM_MIRROR", "MIRROR_QUESTION_NOT_IN_INVENTORY", "mirror")
+    report_set_parity(set(guide_questions), "INVENTORY_QUESTION_MISSING_FROM_GUIDE", "GUIDE_QUESTION_NOT_IN_INVENTORY", "guide")
+    report_set_parity(set(index_questions), "INVENTORY_QUESTION_MISSING_FROM_INDEX", "INDEX_QUESTION_NOT_IN_INVENTORY", "index")
     if set(index_questions) != set(guide_questions):
         failures.append({"code": "INDEX_GUIDE_QUESTION_PARITY", "message": "textbook_task_index questions guide soru kümesiyle eşleşmiyor"})
     for task_id, question in index_questions.items():
@@ -564,6 +942,7 @@ def validate_index_alignment(
         for field, source_field in [("section_id", "section_id"), ("printed_page_range", "printed_page_range"), ("source_locator", "source_locator")]:
             if activity.get(field) != source.get(source_field):
                 failures.append({"code": "INDEX_ACTIVITY_FIELD_MISMATCH", "task_id": activity_id, "message": f"activity {field} textbook_map ile uyuşmuyor"})
+    uncovered_questions = sorted(expected_questions - set(guide_questions))
     return len(expected_questions), len(guide_questions), len(map_activity_ids), len(guide_activity_refs & map_activity_ids), uncovered_questions, uncovered_guide_activities
 
 
@@ -574,8 +953,11 @@ def validate_course(root: Path, course_id: str = builder.COURSE_ID, quality_leve
     warnings: list[dict[str, Any]] = []
     guides: dict[str, dict[str, Any]] = {}
     mirror_records: dict[str, dict[str, dict[str, Any]]] = {}
+    inventory_document, inventory_rows, inventory_records, inventory_failures, inventory_warnings = validate_inventory_contract(root, course_id)
     canonical_by_theme: dict[str, tuple[dict[str, dict[str, Any]], dict[str, dict[str, Any]], dict[str, dict[str, Any]]]] = {}
     all_tasks: list[dict[str, Any]] = []
+    failures.extend(inventory_failures)
+    warnings.extend(inventory_warnings)
 
     map_path = course_dir / "textbook_map.json"
     index_path = course_dir / "teacher_guide_v3" / "textbook_task_index.json"
@@ -606,6 +988,15 @@ def validate_course(root: Path, course_id: str = builder.COURSE_ID, quality_leve
             failures.append({"code": "INDEX_SOURCE_HASH_MISMATCH", "message": "index source.sha256 textbook_map ile uyuşmuyor"})
         if index.get("map_ref") != builder.relative_path(root, map_path):
             failures.append({"code": "INDEX_MAP_REF_MISMATCH", "message": "index map_ref textbook_map yolu ile uyuşmuyor"})
+        inventory_source = index.get("inventory_source", {})
+        inventory_path = course_dir / "textbook_question_inventory.json"
+        if inventory_source.get("path") != builder.relative_path(root, inventory_path):
+            failures.append({"code": "INDEX_INVENTORY_REF_MISMATCH", "message": "index inventory_source.path inventory yolu ile uyuşmuyor"})
+        inventory_hash_mismatch = True
+        if inventory_path.exists():
+            inventory_hash_mismatch = inventory_source.get("sha256") != builder.sha256_file(inventory_path)
+        if inventory_hash_mismatch:
+            failures.append({"code": "INDEX_INVENTORY_HASH_MISMATCH", "message": "index inventory_source.sha256 inventory ile uyuşmuyor"})
 
     theme_map_by_id = {theme["theme_id"]: theme for theme in textbook_map.get("themes", [])}
     for theme_id, theme in sorted(theme_map_by_id.items()):
@@ -619,6 +1010,15 @@ def validate_course(root: Path, course_id: str = builder.COURSE_ID, quality_leve
             failures.append({"code": "GUIDE_SCHEMA_INVALID", "theme_id": theme_id, "message": error})
         if guide.get("theme_id") != theme_id or guide.get("generator") != "TEXTBOOK_FIRST_TEACHER_GUIDE_V3":
             failures.append({"code": "GUIDE_IDENTITY_INVALID", "theme_id": theme_id, "message": "guide theme_id/generator V3 contractını karşılamıyor"})
+        authority_chain = guide.get("source_policy", {}).get("authority_chain", [])
+        if "textbook_question_inventory" not in authority_chain or "book_mirror_v23_projection" not in authority_chain:
+            failures.append({"code": "GUIDE_AUTHORITY_CHAIN_INVALID", "theme_id": theme_id, "message": "guide source_policy authority_chain inventory ve mirror projection katmanlarını içermiyor"})
+        guide_inventory_source = guide.get("canonical_sources", {}).get("textbook_question_inventory", {})
+        inventory_path = course_dir / "textbook_question_inventory.json"
+        if guide_inventory_source.get("path") != builder.relative_path(root, inventory_path):
+            failures.append({"code": "GUIDE_INVENTORY_REF_MISMATCH", "theme_id": theme_id, "message": "guide canonical_sources inventory yolu ile uyuşmuyor"})
+        if inventory_path.exists() and guide_inventory_source.get("sha256") != builder.sha256_file(inventory_path):
+            failures.append({"code": "GUIDE_INVENTORY_HASH_MISMATCH", "theme_id": theme_id, "message": "guide canonical_sources inventory SHA-256 ile uyuşmuyor"})
         if guide.get("status") == "REFERENCE_QUALITY" and any(task.get("content_status") == "REVIEW_REQUIRED" for task in guide.get("tasks", [])):
             failures.append({"code": "GUIDE_STATUS_MISMATCH", "theme_id": theme_id, "message": "REVIEW_REQUIRED task varken guide status REFERENCE_QUALITY"})
         mirror_records[theme_id], mirror_duplicates = mirror_question_records(root, theme_id)
@@ -772,17 +1172,23 @@ def validate_course(root: Path, course_id: str = builder.COURSE_ID, quality_leve
             failures.append({"code": "DUPLICATE_SOURCE_TASK", "message": "aynı sayfa/prompt/canonical key birden çok task olarak temsil edilmiş", "owners": owners})
     validate_repetition(all_tasks, failures, warnings)
 
-    if index:
-        textbook_questions, guide_questions, textbook_activities, covered_activities, uncovered_questions, uncovered_guide_activities = validate_index_alignment(index, guides, mirror_records, activity_index, failures)
-    else:
-        textbook_questions = guide_questions = textbook_activities = covered_activities = 0
-        uncovered_questions = []
-        uncovered_guide_activities = []
+    validate_inventory_projection_fields(inventory_records, mirror_records, guides, index, failures)
+
+    textbook_questions, guide_questions, textbook_activities, covered_activities, uncovered_questions, uncovered_guide_activities = validate_index_alignment(index, guides, mirror_records, inventory_records, activity_index, failures)
 
     review_items = sorted(task["task_id"] for task in all_tasks if task.get("content_status") == "REVIEW_REQUIRED")
     locator_only = sorted(task["task_id"] for task in all_tasks if task.get("task_type") == "QUESTION" and task.get("prompt_mode") == "LOCATOR_ONLY")
     unresolved_prompts = sorted(task["task_id"] for task in all_tasks if task.get("task_type") == "QUESTION" and (not nonempty(task.get("book_prompt")) or task.get("prompt_status") == "REVIEW_REQUIRED"))
     fallback_count = sum(1 for task in all_tasks if task.get("generation_profile") == "text_analysis")
+    fallback_details = [
+        {
+            "task_id": task.get("task_id"),
+            "reason": "domain router için yeterli eşleşen kavram bulunamadı; text_analysis fallback kullanıldı",
+            "focus": task.get("focus"),
+        }
+        for task in all_tasks
+        if task.get("generation_profile") == "text_analysis"
+    ]
     if all_tasks and fallback_count / len(all_tasks) > 0.10:
         failures.append({"code": "GENERIC_FALLBACK_OVERUSE", "message": f"text_analysis fallback {fallback_count}/{len(all_tasks)} taskta kullanılmış"})
     for theme_id, guide in guides.items():
@@ -832,6 +1238,7 @@ def validate_course(root: Path, course_id: str = builder.COURSE_ID, quality_leve
         },
         "failures": failures,
         "warnings": warnings,
+        "generic_fallback_details": fallback_details,
     }
 
 
@@ -841,8 +1248,12 @@ def main() -> int:
     parser.add_argument("--course", default=builder.COURSE_ID)
     parser.add_argument("--quality-level", choices=["release", "strict-review"], default="release")
     parser.add_argument("--report", type=Path)
+    parser.add_argument("--inventory-only", action="store_true", help="only validate the independent textbook question inventory")
     args = parser.parse_args()
-    report = validate_course(args.repo_root.resolve(), args.course, args.quality_level)
+    if args.inventory_only:
+        report = inventory_report(args.repo_root.resolve(), args.course)
+    else:
+        report = validate_course(args.repo_root.resolve(), args.course, args.quality_level)
     if args.report:
         args.report.parent.mkdir(parents=True, exist_ok=True)
         args.report.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
