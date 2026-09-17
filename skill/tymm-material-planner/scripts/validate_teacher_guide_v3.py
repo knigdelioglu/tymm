@@ -756,16 +756,19 @@ def validate_repetition(
             if not nonempty(value):
                 continue
             value_text = _semantic_value(value)
-            token_set = semantic_tokens(value_text, task)
-            if len(token_set) < 6:
+            stripped = strip_surface_anchors(value_text, task)
+            if not stripped:
                 continue
-            entries.append((task, value_text, token_set, strip_surface_anchors(value_text, task)))
+            token_set = semantic_tokens(value_text, task)
+            entries.append((task, value_text, token_set, stripped))
         findings: list[dict[str, Any]] = []
         for index, (left_task, left_value, left_tokens, left_stripped) in enumerate(entries):
             for right_task, right_value, right_tokens, right_stripped in entries[index + 1 :]:
                 if left_task["task_id"] == right_task["task_id"]:
                     continue
                 exact_match = bool(left_stripped and left_stripped == right_stripped)
+                if not exact_match and (len(left_tokens) < 6 or len(right_tokens) < 6):
+                    continue
                 token_union = left_tokens | right_tokens
                 token_similarity = (len(left_tokens & right_tokens) / len(token_union)) if token_union else 0.0
                 similarity = 1.0 if exact_match else round(token_similarity, 3)
