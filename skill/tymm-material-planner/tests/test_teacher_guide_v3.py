@@ -295,6 +295,105 @@ class TeacherGuideV3ContractTests(unittest.TestCase):
         warnings: list[dict] = []
         validator.validate_repetition([left, right], failures, warnings)
         self.assertFalse(any(item.get("code") == "SEMANTIC_BOILERPLATE_REPETITION" for item in failures))
+        self.assertEqual(warnings, [])
+
+    def test_exact_repetition_same_profile_theme_fails(self) -> None:
+        value = (
+            "Karagöz ve Hacivat arasındaki çatışma, tip, diyalog, söz varlığı, "
+            "anlatıcı, imge, tema, iletişim, mektup ve kanıt ilişkisini görünür kılar."
+        )
+        tasks = [
+            self.semantic_task("TEMA_01::Q01", "teacher_background", value, profile="text_analysis", heading="Karagöz çatışması"),
+            self.semantic_task("TEMA_01::Q02", "teacher_background", value, profile="text_analysis", heading="Karagöz çatışması"),
+        ]
+        failures: list[dict] = []
+        warnings: list[dict] = []
+        validator.validate_repetition(tasks, failures, warnings)
+        self.assertTrue(
+            any(item.get("code") == "SEMANTIC_BOILERPLATE_REPETITION" and item.get("field") == "teacher_background" for item in failures),
+            f"Expected SEMANTIC_BOILERPLATE_REPETITION failure for exact repetition: {failures}",
+        )
+        self.assertEqual(warnings, [])
+
+    def test_same_profile_theme_similarity_warning_range(self) -> None:
+        shared = (
+            "karagöz hacivat tiyatro oyun sahne perde diyalog çatışma mizah güldürü hiciv "
+            "geleneksel temsil kostüm dekor kukla musiki tasvir"
+        )
+        tasks = [
+            self.semantic_task("TEMA_01::Q01", "teacher_background", shared + " ustalık", profile="text_analysis"),
+            self.semantic_task("TEMA_01::Q02", "teacher_background", shared + " çıraklık", profile="text_analysis"),
+        ]
+        failures: list[dict] = []
+        warnings: list[dict] = []
+        validator.validate_repetition(tasks, failures, warnings)
+        self.assertEqual(failures, [])
+        self.assertEqual(len(warnings), 1)
+        self.assertGreaterEqual(warnings[0]["similarity"], 0.88)
+        self.assertLessEqual(warnings[0]["similarity"], 0.92)
+
+    def test_same_profile_theme_similarity_ge_095_fails(self) -> None:
+        shared = (
+            "karagöz hacivat tiyatro oyun sahne perde diyalog çatışma mizah güldürü hiciv "
+            "geleneksel temsil kostüm dekor kukla musiki tasvir ahenk"
+        )
+        tasks = [
+            self.semantic_task("TEMA_01::Q01", "teacher_background", shared + " ustalık", profile="text_analysis"),
+            self.semantic_task("TEMA_01::Q02", "teacher_background", shared, profile="text_analysis"),
+        ]
+        failures: list[dict] = []
+        warnings: list[dict] = []
+        validator.validate_repetition(tasks, failures, warnings)
+        self.assertEqual(warnings, [])
+        self.assertTrue(
+            any(item.get("code") == "SEMANTIC_BOILERPLATE_REPETITION" and item.get("similarity", 0) >= 0.95 for item in failures),
+            f"Expected SEMANTIC_BOILERPLATE_REPETITION for similarity >= 0.95: {failures}",
+        )
+
+    def test_cross_theme_similarity_ge_085_fails(self) -> None:
+        shared = (
+            "karagöz hacivat tiyatro oyun sahne perde diyalog çatışma mizah güldürü hiciv "
+            "geleneksel temsil kostüm dekor kukla musiki tasvir"
+        )
+        tasks = [
+            self.semantic_task("TEMA_01::Q01", "teacher_background", shared + " ustalık", profile="text_analysis"),
+            self.semantic_task("TEMA_02::Q02", "teacher_background", shared + " çıraklık", profile="text_analysis"),
+        ]
+        failures: list[dict] = []
+        warnings: list[dict] = []
+        validator.validate_repetition(tasks, failures, warnings)
+        self.assertEqual(warnings, [])
+        self.assertTrue(
+            any(item.get("code") == "SEMANTIC_BOILERPLATE_REPETITION" for item in failures),
+            f"Expected cross-theme 0.85+ similarity failure: {failures}",
+        )
+
+    def test_teacher_moves_same_profile_no_exception_fails(self) -> None:
+        shared = (
+            "karagöz hacivat tiyatro oyun sahne perde diyalog çatışma mizah güldürü hiciv "
+            "geleneksel temsil kostüm dekor kukla musiki tasvir"
+        )
+        tasks = [
+            self.semantic_task("TEMA_01::Q01", "teacher_moves", shared + " ustalık", profile="text_analysis"),
+            self.semantic_task("TEMA_01::Q02", "teacher_moves", shared + " çıraklık", profile="text_analysis"),
+        ]
+        failures: list[dict] = []
+        warnings: list[dict] = []
+        validator.validate_repetition(tasks, failures, warnings)
+        self.assertEqual(warnings, [])
+        self.assertTrue(
+            any(item.get("code") == "SEMANTIC_BOILERPLATE_REPETITION" and item.get("field") == "teacher_moves" for item in failures),
+            f"Expected teacher_moves similarity failure: {failures}",
+        )
+
+    def test_real_v3_validation_repetition_warnings_below_095(self) -> None:
+        self.assertEqual(self.validation["status"], "PASS_WITH_REVIEW")
+        self.assertEqual(self.validation["failures"], [])
+        self.assertEqual(len(self.validation["warnings"]), 6)
+        for warning in self.validation["warnings"]:
+            self.assertEqual(warning["code"], "SEMANTIC_COMMON_DOMAIN_DEFINITION")
+            self.assertGreaterEqual(warning["similarity"], 0.85)
+            self.assertLess(warning["similarity"], 0.95)
 
     def test_teacher_background_similarity_guard(self) -> None:
         self.assert_semantic_failure("teacher_background")

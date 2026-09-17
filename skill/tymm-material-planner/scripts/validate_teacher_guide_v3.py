@@ -275,6 +275,10 @@ def semantic_tokens(value: Any, task: dict[str, Any] | None = None) -> set[str]:
 
 
 def semantic_similarity(left: Any, right: Any, left_task: dict[str, Any] | None = None, right_task: dict[str, Any] | None = None) -> float:
+    left_stripped = strip_surface_anchors(left, left_task)
+    right_stripped = strip_surface_anchors(right, right_task)
+    if left_stripped and left_stripped == right_stripped:
+        return 1.0
     left_set = semantic_tokens(left, left_task)
     right_set = semantic_tokens(right, right_task)
     if not left_set or not right_set:
@@ -755,41 +759,53 @@ def validate_repetition(
             token_set = semantic_tokens(value_text, task)
             if len(token_set) < 6:
                 continue
-            entries.append((task, value_text, token_set, strip_surface_anchors(value_text, task)[:280]))
+            entries.append((task, value_text, token_set, strip_surface_anchors(value_text, task)))
         findings: list[dict[str, Any]] = []
-        for index, (left_task, left_value, left_tokens, left_excerpt) in enumerate(entries):
-            for right_task, right_value, right_tokens, right_excerpt in entries[index + 1 :]:
+        for index, (left_task, left_value, left_tokens, left_stripped) in enumerate(entries):
+            for right_task, right_value, right_tokens, right_stripped in entries[index + 1 :]:
                 if left_task["task_id"] == right_task["task_id"]:
                     continue
-                similarity = len(left_tokens & right_tokens) / len(left_tokens | right_tokens)
-                if similarity < 0.85:
+                exact_match = bool(left_stripped and left_stripped == right_stripped)
+                token_union = left_tokens | right_tokens
+                token_similarity = (len(left_tokens & right_tokens) / len(token_union)) if token_union else 0.0
+                similarity = 1.0 if exact_match else round(token_similarity, 3)
+                if not exact_match and similarity < 0.85:
                     continue
-                same_profile = left_task.get("generation_profile") == right_task.get("generation_profile")
-                same_theme = left_task.get("task_id", "").split("::", 1)[0] == right_task.get("task_id", "").split("::", 1)[0]
+                same_profile = bool(left_task.get("generation_profile")) and left_task.get("generation_profile") == right_task.get("generation_profile")
+                same_theme = bool(left_task.get("task_id")) and left_task.get("task_id", "").split("::", 1)[0] == right_task.get("task_id", "").split("::", 1)[0]
+                is_common_field = field in {"teacher_background", "student_explanation", "why_it_matters"}
+
                 finding = {
                     "field": field,
-                    "similarity": round(similarity, 3),
+                    "similarity": similarity,
                     "left_task_id": left_task["task_id"],
                     "right_task_id": right_task["task_id"],
                     "normalized_excerpts": {
-                        "left": left_excerpt,
-                        "right": right_excerpt,
+                        "left": left_stripped[:280],
+                        "right": right_stripped[:280],
                     },
                 }
+                if not exact_match and same_profile and same_theme and is_common_field and similarity < 0.95:
+                    warnings.append(
+                        {
+                            "code": "SEMANTIC_COMMON_DOMAIN_DEFINITION",
+                            **finding,
+                            "message": f"{field} aynı domain profile içinde ortak kavramsal tanımı paylaşıyor",
+                        }
+                    )
+                else:
+                    failures.append(
+                        {
+                            "code": "SEMANTIC_BOILERPLATE_REPETITION",
+                            **finding,
+                            "message": f"{field} anchor/page/heading çıkarıldıktan sonra benzerlik eşiğini aşıyor",
+                        }
+                    )
                 findings.append(finding)
                 if len(findings) >= 12:
                     break
             if len(findings) >= 12:
                 break
-        for finding in findings:
-            left_task = next(task for task, _value, _tokens, _excerpt in entries if task["task_id"] == finding["left_task_id"])
-            right_task = next(task for task, _value, _tokens, _excerpt in entries if task["task_id"] == finding["right_task_id"])
-            same_profile = left_task.get("generation_profile") == right_task.get("generation_profile")
-            same_theme = left_task.get("task_id", "").split("::", 1)[0] == right_task.get("task_id", "").split("::", 1)[0]
-            if same_profile and same_theme and field in {"teacher_background", "student_explanation", "why_it_matters"}:
-                warnings.append({"code": "SEMANTIC_COMMON_DOMAIN_DEFINITION", **finding, "message": f"{field} aynı domain profile içinde ortak kavramsal tanımı paylaşıyor"})
-            else:
-                failures.append({"code": "SEMANTIC_BOILERPLATE_REPETITION", **finding, "message": f"{field} anchor/page/heading çıkarıldıktan sonra benzerlik eşiğini aşıyor"})
 
     board_count = sum(1 for task in tasks if task.get("board_notes"))
     if tasks and board_count / len(tasks) > 0.65:
