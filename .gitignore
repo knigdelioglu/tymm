@@ -26,7 +26,3 @@ local_materials/
 .env
 .env.*
 *.log
-
-# Generated Kindle Teacher Guide EPUBs
-courses/TDE_11/teacher_guide_kindle/output/*.epub
-!courses/TDE_11/teacher_guide_kindle/output/.gitkeep

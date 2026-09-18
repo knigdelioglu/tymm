@@ -1,0 +1,138 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tymm.local/schemas/teacher_book_source.schema.json",
+  "title": "TYMM Teacher Book Source Index",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "document_type",
+    "course_id",
+    "theme_id",
+    "authority",
+    "policy",
+    "counts",
+    "records"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "document_type": {
+      "const": "TYMM_TEACHER_BOOK_SOURCE_INDEX"
+    },
+    "course_id": {
+      "const": "TDE_11"
+    },
+    "theme_id": {
+      "pattern": "^TEMA_0[1-4]$"
+    },
+    "authority": {
+      "const": "OFFICIAL_TEXTBOOK_DERIVED"
+    },
+    "policy": {
+      "type": "string",
+      "minLength": 1
+    },
+    "counts": {
+      "type": "object",
+      "required": [
+        "records",
+        "linked_answers"
+      ],
+      "properties": {
+        "records": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "linked_answers": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/record"
+      }
+    }
+  },
+  "$defs": {
+    "record": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_record_id",
+        "theme_id",
+        "printed_page_range",
+        "book_heading",
+        "task_type",
+        "source_status"
+      ],
+      "properties": {
+        "source_record_id": {
+          "pattern": "^T0[1-4]-S[0-9]{4}$"
+        },
+        "theme_id": {
+          "pattern": "^TEMA_0[1-4]$"
+        },
+        "printed_page_range": {
+          "type": "string",
+          "minLength": 1
+        },
+        "book_heading": {
+          "type": "string",
+          "minLength": 1
+        },
+        "task_type": {
+          "enum": [
+            "QUESTION",
+            "PROCESS",
+            "REFERENCE",
+            "VOCABULARY",
+            "TABLE",
+            "COMPARISON",
+            "ASSESSMENT"
+          ]
+        },
+        "prompt": {
+          "type": "string",
+          "minLength": 1
+        },
+        "prompt_mode": {
+          "enum": [
+            "VERBATIM_SHORT",
+            "VERIFIED_SUMMARY",
+            "LOCATOR_ONLY"
+          ]
+        },
+        "rights_mode": {
+          "enum": [
+            "PAGE_REFERENCE",
+            "DERIVED_ACTIVITY",
+            "LIMITED_QUOTATION"
+          ]
+        },
+        "source_locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_status": {
+          "enum": [
+            "VERIFIED",
+            "REVIEW_REQUIRED"
+          ]
+        },
+        "answer_refs": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "pattern": "^T0[1-4]-A[0-9]{4}$"
+          }
+        }
+      }
+    }
+  }
+}

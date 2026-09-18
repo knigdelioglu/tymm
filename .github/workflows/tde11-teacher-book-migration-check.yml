@@ -1,0 +1,64 @@
+name: TDE11 Teacher Book Migration Check
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tde11-teacher-book-migration-check.yml'
+      - 'courses/TDE_11/teacher_book/**'
+      - 'skill/tymm-material-planner/scripts/validate_teacher_book_source.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Validate neutral teacher-book source
+        run: python skill/tymm-material-planner/scripts/validate_teacher_book_source.py --repo-root .
+
+      - name: Remove stale legacy teacher-guide runtime seal
+        run: rm -f courses/TDE_11/runtime/teacher_guide_validation_seal.json
+
+      - name: Rebuild TDE11 runtime without legacy teacher guide
+        run: python skill/tymm-material-planner/scripts/build_runtime_course_package.py build --knowledge-root courses/TDE_11
+
+      - name: Validate rebuilt runtime
+        run: python skill/tymm-material-planner/scripts/build_runtime_course_package.py validate --knowledge-root courses/TDE_11
+
+      - name: Assert legacy teacher-guide capability is disabled
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          manifest = json.loads(Path('courses/TDE_11/runtime/runtime_manifest.json').read_text())
+          capability = manifest.get('teacher_guide_capabilities', {})
+          assert manifest.get('capabilities', {}).get('teacher_guide') is False, manifest.get('capabilities')
+          assert capability.get('available') is False, capability
+          raw = Path('courses/TDE_11/runtime/runtime_manifest.json').read_text()
+          assert 'teacher_guide_sources/' not in raw, 'legacy teacher_guide_sources still present in runtime manifest'
+          print('Legacy teacher-guide runtime capability: DISABLED')
+          PY
+
+      - name: Commit refreshed runtime
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A courses/TDE_11/runtime
+          if git diff --cached --quiet; then
+            echo 'TDE11 runtime already reflects teacher-book reset.'
+          else
+            git commit -m "chore(tde11): refresh runtime after teacher-book reset"
+            git push origin HEAD:main
+          fi

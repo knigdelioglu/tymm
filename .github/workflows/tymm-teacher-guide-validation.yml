@@ -2,21 +2,15 @@ name: TYMM Teacher Guide Validation
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
     paths: &teacher_guide_paths
       - '.github/workflows/tymm-teacher-guide-validation.yml'
       - 'skill/tymm-material-planner/scripts/validate_teacher_guide.py'
       - 'skill/tymm-material-planner/schemas/teacher_guide.schema.json'
       - 'skill/tymm-material-planner/schemas/teacher_guide_section.schema.json'
       - 'courses/**/teacher_guide/**'
-      - 'courses/**/textbook_map.json'
-      - 'courses/**/themes/**/alignment.json'
-      - 'courses/**/generated/lesson_plans/**'
-      - 'courses/**/source_docs/**'
   pull_request:
-    branches:
-      - main
+    branches: [main]
     paths: *teacher_guide_paths
   workflow_dispatch:
 
@@ -29,43 +23,37 @@ concurrency:
 
 jobs:
   validate-teacher-guide:
-    name: Teacher guide validation
+    name: Legacy teacher-guide validation
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
       - name: Install schema validator
         run: python -m pip install 'jsonschema==4.23.0'
-
-      - name: Validate all teacher guides
+      - name: Validate remaining legacy teacher guides when present
         run: |
           set -euo pipefail
           report_dir=/tmp/teacher-guide-validation
           mkdir -p "$report_dir"
           mapfile -t manifests < <(find courses -type f -name teacher_guide.json -print | sort)
           if [[ ${#manifests[@]} -eq 0 ]]; then
-            echo 'No teacher-guide manifests found.' >&2
-            exit 1
+            echo 'No legacy teacher-guide manifests remain; nothing to validate.'
+            exit 0
           fi
           for manifest in "${manifests[@]}"; do
             course="$(basename "$(dirname "$(dirname "$(dirname "$manifest")")")")"
             scope="$(basename "$(dirname "$manifest")")"
-            python skill/tymm-material-planner/scripts/validate_teacher_guide.py \
-              --manifest "$manifest" \
-              --report "$report_dir/${course}_${scope}.json"
+            python skill/tymm-material-planner/scripts/validate_teacher_guide.py               --manifest "$manifest"               --report "$report_dir/${course}_${scope}.json"
           done
-
       - name: Upload teacher-guide validation reports
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: teacher-guide-validation
           path: /tmp/teacher-guide-validation/*.json
-          if-no-files-found: warn
+          if-no-files-found: ignore

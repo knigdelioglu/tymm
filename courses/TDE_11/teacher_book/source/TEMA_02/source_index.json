@@ -4,7 +4,7 @@
   "course_id": "TDE_11",
   "theme_id": "TEMA_02",
   "authority": "OFFICIAL_TEXTBOOK_DERIVED",
-  "policy": "Contains only textbook-facing source facts migrated from source-verified mappings. Legacy pedagogical notes and legacy identifiers are intentionally excluded.",
+  "policy": "Textbook-facing source facts only. Legacy pedagogical notes, legacy identifiers and legacy authoring structures are intentionally excluded.",
   "counts": {
     "records": 158,
     "linked_answers": 151
@@ -18,7 +18,7 @@
       "task_type": "REFERENCE",
       "rights_mode": "PAGE_REFERENCE",
       "source_locator": "basılı s.84 / PDF s.85 — tema çerçevesi",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T02-A0001"
       ]
@@ -31,7 +31,7 @@
       "task_type": "REFERENCE",
       "rights_mode": "PAGE_REFERENCE",
       "source_locator": "basılı s.85 / PDF s.86 — tema sunusu",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T02-A0002"
       ]
@@ -46,7 +46,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.86 / PDF s.87 — soru 1",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T02-A0003"
       ]
@@ -61,7 +61,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.86 / PDF s.87 — soru 2",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T02-A0003"
       ]
@@ -76,7 +76,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.86 / PDF s.87 — soru 3",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T02-A0003"
       ]
@@ -91,7 +91,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.87 / PDF s.88 — soru 1",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T02-A0004"
       ]
@@ -106,7 +106,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.87 / PDF s.88 — soru 2",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T02-A0004"
       ]
@@ -121,7 +121,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.87 / PDF s.88 — soru 3",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T02-A0004"
       ]

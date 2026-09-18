@@ -1,0 +1,129 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tymm.local/schemas/teacher_book_answer_bank.schema.json",
+  "title": "TYMM Teacher Book Answer Bank",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "document_type",
+    "course_id",
+    "theme_id",
+    "authority",
+    "policy",
+    "counts",
+    "answers"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "document_type": {
+      "const": "TYMM_TEACHER_BOOK_ANSWER_BANK"
+    },
+    "course_id": {
+      "const": "TDE_11"
+    },
+    "theme_id": {
+      "pattern": "^TEMA_0[1-4]$"
+    },
+    "authority": {
+      "const": "SOURCE_FILTERED_CANONICAL_ANSWERS"
+    },
+    "policy": {
+      "type": "string",
+      "minLength": 1
+    },
+    "counts": {
+      "type": "object",
+      "required": [
+        "answers",
+        "excluded_legacy_or_pedagogical",
+        "excluded_without_answer"
+      ],
+      "properties": {
+        "answers": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "excluded_legacy_or_pedagogical": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "excluded_without_answer": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "answers": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/answer"
+      }
+    }
+  },
+  "$defs": {
+    "answer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "answer_id",
+        "theme_id",
+        "item_type",
+        "expected_answer",
+        "acceptance_criteria",
+        "source_ids",
+        "source_locators",
+        "verification_status"
+      ],
+      "properties": {
+        "answer_id": {
+          "pattern": "^T0[1-4]-A[0-9]{4}$"
+        },
+        "theme_id": {
+          "pattern": "^TEMA_0[1-4]$"
+        },
+        "printed_page_range": {
+          "type": "string",
+          "minLength": 1
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "item_type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "expected_answer": {},
+        "acceptance_criteria": {
+          "type": [
+            "array",
+            "string",
+            "object"
+          ]
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "source_locators": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "verification_status": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

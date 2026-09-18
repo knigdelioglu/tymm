@@ -1,0 +1,143 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tymm.local/schemas/teacher_book.schema.json",
+  "title": "TYMM Teacher Book",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "document_type",
+    "course_id",
+    "grade",
+    "theme_id",
+    "title",
+    "sections"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "document_type": {
+      "const": "TYMM_TEACHER_BOOK"
+    },
+    "course_id": {
+      "const": "TDE_11"
+    },
+    "grade": {
+      "const": 11
+    },
+    "theme_id": {
+      "pattern": "^TEMA_0[1-4]$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/section"
+      }
+    }
+  },
+  "$defs": {
+    "section": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "section_id",
+        "title",
+        "printed_page_range",
+        "items"
+      ],
+      "properties": {
+        "section_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "printed_page_range": {
+          "type": "string",
+          "minLength": 1
+        },
+        "purpose": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 600
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/item"
+          }
+        }
+      }
+    },
+    "item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "item_id",
+        "source_record_id",
+        "prompt",
+        "answer"
+      ],
+      "properties": {
+        "item_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_record_id": {
+          "pattern": "^T0[1-4]-S[0-9]{4}$"
+        },
+        "prompt": {
+          "type": "string",
+          "minLength": 1
+        },
+        "answer": {
+          "type": [
+            "string",
+            "array",
+            "object"
+          ],
+          "minLength": 1
+        },
+        "explanation": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1200
+        },
+        "classroom_moves": {
+          "type": "array",
+          "maxItems": 3,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 400
+          }
+        },
+        "caution": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 600
+        },
+        "teacher_note": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 800
+        },
+        "alternative_answers": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "maxItems": 5
+        }
+      }
+    }
+  }
+}

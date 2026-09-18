@@ -4,7 +4,7 @@
   "course_id": "TDE_11",
   "theme_id": "TEMA_01",
   "authority": "OFFICIAL_TEXTBOOK_DERIVED",
-  "policy": "Contains only textbook-facing source facts migrated from source-verified mappings. Legacy pedagogical notes and legacy identifiers are intentionally excluded.",
+  "policy": "Textbook-facing source facts only. Legacy pedagogical notes, legacy identifiers and legacy authoring structures are intentionally excluded.",
   "counts": {
     "records": 126,
     "linked_answers": 74
@@ -18,7 +18,7 @@
       "task_type": "REFERENCE",
       "rights_mode": "PAGE_REFERENCE",
       "source_locator": "basılı s.12-13 / PDF s.13-14",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0002",
@@ -30,7 +30,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.14 / PDF s.15 — soru 1",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0003",
@@ -42,7 +42,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.14 / PDF s.15 — soru 2",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0004",
@@ -54,7 +54,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.15 / PDF s.16",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0005",
@@ -65,7 +65,7 @@
       "prompt": "Altı kişilik grup ve üç bilgi/düşünce kartı",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.16 / PDF s.17",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0002"
       ]
@@ -79,7 +79,7 @@
       "prompt": "Karagöz — düşün-eşleş-paylaş",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.17 / PDF s.18",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0003"
       ]
@@ -93,7 +93,7 @@
       "prompt": "Tahmin, rol paylaşımı ve karaktere uygun sesli okuma",
       "rights_mode": "PAGE_REFERENCE",
       "source_locator": "basılı s.18-24 / PDF s.19-25",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0004"
       ]
@@ -106,7 +106,7 @@
       "task_type": "VOCABULARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.25 / PDF s.26",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0009",
@@ -116,7 +116,7 @@
       "task_type": "REFERENCE",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.26 / PDF s.27",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0005"
       ]
@@ -129,7 +129,7 @@
       "task_type": "COMPARISON",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.27 / PDF s.28",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0011",
@@ -141,7 +141,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.28 / PDF s.29",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0012",
@@ -153,7 +153,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.29 / PDF s.30",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0013",
@@ -164,7 +164,7 @@
       "prompt": "Geleneksel tiyatro eşleştirmesi, metin soruları ve “Yazıcı”–“Eskici Abdi” karşılaştırması",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.30-31 / PDF s.31-32",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0014",
@@ -174,7 +174,7 @@
       "task_type": "TABLE",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.32 / PDF s.33",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0015",
@@ -186,7 +186,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.33 / PDF s.34",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0016",
@@ -196,7 +196,7 @@
       "task_type": "TABLE",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.34 / PDF s.35",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0017",
@@ -206,7 +206,7 @@
       "task_type": "ASSESSMENT",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.35 / PDF s.36",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0018",
@@ -218,7 +218,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.36 / PDF s.37 — Konuya Başlarken soru 1",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0019",
@@ -230,7 +230,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.36 / PDF s.37 — Konuya Başlarken soru 2",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0020",
@@ -242,7 +242,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.36 / PDF s.37 — Konuya Başlarken soru 3",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0021",
@@ -252,7 +252,7 @@
       "task_type": "PROCESS",
       "rights_mode": "PAGE_REFERENCE",
       "source_locator": "basılı s.37-38 / PDF s.38-39",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0022",
@@ -262,7 +262,7 @@
       "task_type": "VOCABULARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.39 / PDF s.40",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0023",
@@ -274,7 +274,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.40 / PDF s.41 — Metni Anlayalım soru 1",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0024",
@@ -286,7 +286,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.40 / PDF s.41 — Metni Anlayalım soru 2",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0025",
@@ -298,7 +298,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.40 / PDF s.41 — Metni Anlayalım soru 3",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0026",
@@ -310,7 +310,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.40 / PDF s.41 — Metni Anlayalım soru 4",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0027",
@@ -320,7 +320,7 @@
       "task_type": "TABLE",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.40 / PDF s.41 — çözümleme çalışma kâğıdı",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0028",
@@ -332,7 +332,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.41 / PDF s.42 — Fark Edelim",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0029",
@@ -344,7 +344,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.41 / PDF s.42 — Sıra Sizde",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0030",
@@ -354,7 +354,7 @@
       "task_type": "TABLE",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.42 / PDF s.43",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0031",
@@ -365,7 +365,7 @@
       "prompt": "“Yazıcı” ile Âli’ye Mektuplar'ı içerik, tür, dönem/çevre, yapı, dil/üslup ve ileti bakımından karşılaştırma",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.43 / PDF s.44",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0032",
@@ -375,7 +375,7 @@
       "task_type": "TABLE",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.44 / PDF s.45 — yapı unsurları",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0033",
@@ -387,7 +387,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.44 / PDF s.45 — soru 2",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0034",
@@ -399,7 +399,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.44 / PDF s.45 — soru 3",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0035",
@@ -411,7 +411,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.44 / PDF s.45 — soru 4",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0036",
@@ -423,7 +423,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.44 / PDF s.45 — soru 5",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0037",
@@ -433,7 +433,7 @@
       "task_type": "PROCESS",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.45 / PDF s.46",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0038",
@@ -443,7 +443,7 @@
       "task_type": "REFERENCE",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.46 / PDF s.47 — değerlendirme ölçütleri",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0039",
@@ -455,7 +455,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.46 / PDF s.47 — değerlendirme",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0040",
@@ -467,7 +467,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.46 / PDF s.47 — yazarın amacı",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0041",
@@ -477,7 +477,7 @@
       "task_type": "PROCESS",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.46 / PDF s.47 — dönüştürme görevi",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0042",
@@ -489,7 +489,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.47 / PDF s.48 — soru 1",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0043",
@@ -501,7 +501,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.47 / PDF s.48 — soru 2",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0044",
@@ -513,7 +513,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.47 / PDF s.48 — soru 3",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0045",
@@ -525,7 +525,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.48 / PDF s.49 — soru 1",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0046",
@@ -537,7 +537,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.48 / PDF s.49 — soru 2",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0047",
@@ -549,7 +549,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.48 / PDF s.49 — soru 3",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0048",
@@ -561,7 +561,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.49-50 / PDF s.50-51 — soru 1",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0049",
@@ -573,7 +573,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.49-50 / PDF s.50-51 — soru 2",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0050",
@@ -585,7 +585,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.49-50 / PDF s.50-51 — soru 3",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0051",
@@ -597,7 +597,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.49-50 / PDF s.50-51 — soru 4",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0052",
@@ -607,7 +607,7 @@
       "task_type": "REFERENCE",
       "rights_mode": "PAGE_REFERENCE",
       "source_locator": "basılı s.51 / PDF s.52 — Dilekçe bilgi bölümü",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0006"
       ]
@@ -620,7 +620,7 @@
       "task_type": "PROCESS",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.52 / PDF s.53 — dilekçe yazma görevi ve ileri okuma hazırlığı",
-      "source_status": "PILOT"
+      "source_status": "VERIFIED"
     },
     {
       "source_record_id": "T01-S0054",
@@ -719,7 +719,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.59 / PDF s.60 — soru 1",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0012"
       ]
@@ -734,7 +734,7 @@
       "prompt_mode": "VERBATIM_SHORT",
       "rights_mode": "LIMITED_QUOTATION",
       "source_locator": "basılı s.59 / PDF s.60 — soru 2",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0012"
       ]
@@ -749,7 +749,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.59 / PDF s.60 — soru 3",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0012"
       ]
@@ -764,7 +764,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.60-61 / PDF s.61-62 — Sıra Sizde soru 1",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0013"
       ]
@@ -779,7 +779,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.60-61 / PDF s.61-62 — Sıra Sizde soru 2",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0013"
       ]
@@ -794,7 +794,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.62-63 / PDF s.63-64 — Düşünelim Paylaşalım soru 1",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0013"
       ]
@@ -809,7 +809,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.62-63 / PDF s.63-64 — Düşünelim Paylaşalım soru 2",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0013"
       ]
@@ -824,7 +824,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.62-63 / PDF s.63-64 — Düşünelim Paylaşalım soru 3",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0013"
       ]
@@ -839,7 +839,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.62-63 / PDF s.63-64 — Düşünelim Paylaşalım soru 4",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0013"
       ]
@@ -852,7 +852,7 @@
       "task_type": "PROCESS",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.63 / PDF s.64 — Ders Dışı Etkinlik",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0013"
       ]
@@ -867,7 +867,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.64 / PDF s.65 — adım 1",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0013"
       ]
@@ -882,7 +882,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.64 / PDF s.65 — adım 2",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0013"
       ]
@@ -896,7 +896,7 @@
       "prompt": "Adım 3 — Etkili dinleme/izlemeyi engelleyen metin ve ortam kaynaklı iletişim engellerini azaltınız.",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.64 / PDF s.65 — adım 3",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0013"
       ]
@@ -911,7 +911,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.64 / PDF s.65 — adım 4",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0013"
       ]
@@ -925,7 +925,7 @@
       "prompt": "Adım 5 — QR'daki çok modlu metni not alarak dinleyiniz/izleyiniz.",
       "rights_mode": "PAGE_REFERENCE",
       "source_locator": "basılı s.64 / PDF s.65 — adım 5",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0013"
       ]
@@ -938,7 +938,7 @@
       "task_type": "ASSESSMENT",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.64 / PDF s.65 — Gözlem Formu",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0014"
       ]
@@ -951,7 +951,7 @@
       "task_type": "VOCABULARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.65 / PDF s.66 — Söz Varlığımız",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0015"
       ]
@@ -966,7 +966,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.66 / PDF s.67 — Metni Anlayalım soru 1",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0015"
       ]
@@ -981,7 +981,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.66 / PDF s.67 — Metni Anlayalım soru 2",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0015"
       ]
@@ -996,7 +996,7 @@
       "prompt_mode": "VERBATIM_SHORT",
       "rights_mode": "LIMITED_QUOTATION",
       "source_locator": "basılı s.66 / PDF s.67 — Metni Anlayalım soru 3",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0015"
       ]
@@ -1011,7 +1011,7 @@
       "prompt_mode": "VERBATIM_SHORT",
       "rights_mode": "LIMITED_QUOTATION",
       "source_locator": "basılı s.66 / PDF s.67 — Metni Anlayalım soru 4",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0015"
       ]
@@ -1026,7 +1026,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.66 / PDF s.67 — Metni Anlayalım soru 5",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0015"
       ]
@@ -1041,7 +1041,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.67 / PDF s.68 — Metni Anlayalım soru 6",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0015"
       ]
@@ -1056,7 +1056,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.67 / PDF s.68 — Metni Anlayalım soru 7",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0015"
       ]
@@ -1071,7 +1071,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.67 / PDF s.68 — Metni Anlayalım soru 8",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0015"
       ]
@@ -1086,7 +1086,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.67 / PDF s.68 — Metni Anlayalım soru 9",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0015"
       ]
@@ -1099,7 +1099,7 @@
       "task_type": "PROCESS",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.68 / PDF s.69 — Birlikte Çalışalım",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0015"
       ]
@@ -1114,7 +1114,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.68-69 / PDF s.69-70 — Sıra Sizde adım 1-2",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0015"
       ]
@@ -1127,7 +1127,7 @@
       "task_type": "TABLE",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.70 / PDF s.71 — Sıra Sizde adım 3",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0015"
       ]
@@ -1142,7 +1142,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.70 / PDF s.71 — Sıra Sizde adım 4",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0015"
       ]
@@ -1155,7 +1155,7 @@
       "task_type": "PROCESS",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.71 / PDF s.72 — Sıra Sizde adım 5-6",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0015"
       ]
@@ -1170,7 +1170,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.71 / PDF s.72 — ikinci Sıra Sizde soru 1",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0015"
       ]
@@ -1185,7 +1185,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.71 / PDF s.72 — ikinci Sıra Sizde soru 2",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0015"
       ]
@@ -1199,7 +1199,7 @@
       "prompt": "Adım 1 — Güven, saygı, yapıcılık ve nezaket içeren ifadeleri belirleyiniz.",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.72 / PDF s.73 — Çözümleyebilme adım 1",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0016"
       ]
@@ -1214,7 +1214,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.72 / PDF s.73 — Çözümleyebilme adım 2",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0016"
       ]
@@ -1229,7 +1229,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.73 / PDF s.74 — Süreci Değerlendirebilme soru 1",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0017"
       ]
@@ -1243,7 +1243,7 @@
       "prompt": "Soru 2 — Olumsuz eleştirilerinizi ve bunlara yönelik çözüm önerilerinizi eşleştiriniz.",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.73 / PDF s.74 — Süreci Değerlendirebilme soru 2",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0017"
       ]
@@ -1256,7 +1256,7 @@
       "task_type": "ASSESSMENT",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.73 / PDF s.74 — 3-2-1 Çıkış Kartı",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T01-A0017"
       ]

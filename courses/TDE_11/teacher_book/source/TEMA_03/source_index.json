@@ -4,7 +4,7 @@
   "course_id": "TDE_11",
   "theme_id": "TEMA_03",
   "authority": "OFFICIAL_TEXTBOOK_DERIVED",
-  "policy": "Contains only textbook-facing source facts migrated from source-verified mappings. Legacy pedagogical notes and legacy identifiers are intentionally excluded.",
+  "policy": "Textbook-facing source facts only. Legacy pedagogical notes, legacy identifiers and legacy authoring structures are intentionally excluded.",
   "counts": {
     "records": 146,
     "linked_answers": 144
@@ -18,7 +18,7 @@
       "task_type": "REFERENCE",
       "rights_mode": "PAGE_REFERENCE",
       "source_locator": "basılı s.160-161 / PDF s.161-162 — tema açılışı ve tema sunusu",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0001"
       ]
@@ -33,7 +33,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.162 / PDF s.163 — soru 1",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0002"
       ]
@@ -48,7 +48,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.162 / PDF s.163 — soru 2",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0002"
       ]
@@ -63,7 +63,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.162 / PDF s.163 — soru 3",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0002"
       ]
@@ -78,7 +78,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.162 / PDF s.163 — soru 4",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0002"
       ]
@@ -93,7 +93,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.163 / PDF s.164 — soru 5",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0003"
       ]
@@ -108,7 +108,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.163 / PDF s.164 — soru 6",
-      "source_status": "PILOT",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0004"
       ]
@@ -123,7 +123,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.164 / PDF s.165 — soru 1",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0005"
       ]
@@ -138,7 +138,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.164 / PDF s.165 — soru 2",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0005"
       ]
@@ -153,7 +153,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.164 / PDF s.165 — soru 3",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0005"
       ]
@@ -166,7 +166,7 @@
       "task_type": "PROCESS",
       "rights_mode": "PAGE_REFERENCE",
       "source_locator": "basılı s.165 / PDF s.166 — Okumayı Yönetebilme 1-5. adımlar",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0006"
       ]
@@ -179,7 +179,7 @@
       "task_type": "PROCESS",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.165-166 / PDF s.166-167 — Fark Edelim, Sıra Sizde ve Metni Okuyalım",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0007"
       ]
@@ -192,7 +192,7 @@
       "task_type": "REFERENCE",
       "rights_mode": "PAGE_REFERENCE",
       "source_locator": "basılı s.167-171 / PDF s.168-172 — Huzur ana metni",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0008"
       ]
@@ -205,7 +205,7 @@
       "task_type": "VOCABULARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.172 / PDF s.173 — Söz Varlığımız 1-3",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0009"
       ]
@@ -218,7 +218,7 @@
       "task_type": "TABLE",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.174 / PDF s.175 — Huzur Romanının Üslup Özellikleri",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0010"
       ]
@@ -233,7 +233,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.175 / PDF s.176 — soru 1",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0011"
       ]
@@ -248,7 +248,7 @@
       "prompt_mode": "VERBATIM_SHORT",
       "rights_mode": "LIMITED_QUOTATION",
       "source_locator": "basılı s.175 / PDF s.176 — soru 2",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0011"
       ]
@@ -263,7 +263,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.176 / PDF s.177 — soru 3",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0011"
       ]
@@ -278,7 +278,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.176 / PDF s.177 — soru 4",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0011"
       ]
@@ -293,7 +293,7 @@
       "prompt_mode": "VERBATIM_SHORT",
       "rights_mode": "LIMITED_QUOTATION",
       "source_locator": "basılı s.176 / PDF s.177 — soru 5",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0011"
       ]
@@ -308,7 +308,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.176 / PDF s.177 — soru 6",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0011"
       ]
@@ -323,7 +323,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.176 / PDF s.177 — soru 7",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0011"
       ]
@@ -338,7 +338,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.176 / PDF s.177 — soru 8",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0011"
       ]
@@ -353,7 +353,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.176 / PDF s.177 — soru 9",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0011"
       ]
@@ -368,7 +368,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.176 / PDF s.177 — soru 10",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0011"
       ]
@@ -383,7 +383,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.176 / PDF s.177 — soru 11",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0011"
       ]
@@ -398,7 +398,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.176 / PDF s.177 — soru 12",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0011"
       ]
@@ -413,7 +413,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.176 / PDF s.177 — soru 13",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0011"
       ]
@@ -428,7 +428,7 @@
       "prompt_mode": "VERBATIM_SHORT",
       "rights_mode": "LIMITED_QUOTATION",
       "source_locator": "basılı s.177 / PDF s.178 — soru 14",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0011"
       ]
@@ -442,7 +442,7 @@
       "prompt": "Huzur ile Mescid-i Aksa'yı içerik, tür, şekil, dönem, zihniyet, üslup ve ileti bakımından karşılaştırınız.",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.177-178 / PDF s.178-179 — Karşılaştıralım",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0012"
       ]
@@ -455,7 +455,7 @@
       "task_type": "PROCESS",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.178-179 / PDF s.179-180 — Okuma Çemberi",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0012"
       ]
@@ -468,7 +468,7 @@
       "task_type": "TABLE",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.180-181 / PDF s.181-182 — Okuma Çemberi 3-4. adımlar",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0012"
       ]
@@ -483,7 +483,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.182 / PDF s.183 — Fark Edelim soru 1",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0013"
       ]
@@ -498,7 +498,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.182 / PDF s.183 — Sıra Sizde",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0013"
       ]
@@ -513,7 +513,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.183 / PDF s.184 — soru 2",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0013"
       ]
@@ -528,7 +528,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.183 / PDF s.184 — Sıra Sizde soru 1",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0013"
       ]
@@ -543,7 +543,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.184-185 / PDF s.185-186 — Sıra Sizde soru 2",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0013"
       ]
@@ -558,7 +558,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.186 / PDF s.187 — Sıra Sizde soru 3",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0013"
       ]
@@ -573,7 +573,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.186 / PDF s.187 — Çözümleyebilme soru 1",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0015"
       ]
@@ -588,7 +588,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.187 / PDF s.188 — soru 2",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0016"
       ]
@@ -603,7 +603,7 @@
       "prompt_mode": "VERBATIM_SHORT",
       "rights_mode": "LIMITED_QUOTATION",
       "source_locator": "basılı s.187 / PDF s.188 — soru 3/a",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0015"
       ]
@@ -618,7 +618,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.188 / PDF s.189 — soru 3/b",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0015"
       ]
@@ -633,7 +633,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.188 / PDF s.189 — soru 3/c",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0015"
       ]
@@ -648,7 +648,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.188 / PDF s.189 — soru 3/ç",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0015"
       ]
@@ -663,7 +663,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.188 / PDF s.189 — soru 4",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0015"
       ]
@@ -678,7 +678,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.189 / PDF s.190 — Düşünelim Paylaşalım",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0017"
       ]
@@ -693,7 +693,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.190 / PDF s.191 — Fark Edelim",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0018"
       ]
@@ -708,7 +708,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.190-191 / PDF s.191-192 — Sıra Sizde soru 1",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0018"
       ]
@@ -723,7 +723,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.191 / PDF s.192 — Sıra Sizde soru 2",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0018"
       ]
@@ -738,7 +738,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.191 / PDF s.192 — Sıra Sizde soru 3",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0018"
       ]
@@ -751,7 +751,7 @@
       "task_type": "PROCESS",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.191 / PDF s.192 — Ders Dışı Etkinlik",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0019"
       ]
@@ -766,7 +766,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.192 / PDF s.193 — Süreci Değerlendirebilme soru 1 ve çalışma kâğıdı",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0020"
       ]
@@ -781,7 +781,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.193 / PDF s.194 — soru 2",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0021"
       ]
@@ -796,7 +796,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.193 / PDF s.194 — soru 3",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0020"
       ]
@@ -809,7 +809,7 @@
       "task_type": "ASSESSMENT",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.193 / PDF s.194 — Çıkış Kartı",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0022"
       ]
@@ -824,7 +824,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.194 / PDF s.195 — soru 1",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0023"
       ]
@@ -839,7 +839,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.194 / PDF s.195 — soru 2",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0023"
       ]
@@ -852,7 +852,7 @@
       "task_type": "PROCESS",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.195 / PDF s.196 — Okumayı Yönetebilme / Metni Okuyalım",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0024"
       ]
@@ -865,7 +865,7 @@
       "task_type": "REFERENCE",
       "rights_mode": "PAGE_REFERENCE",
       "source_locator": "basılı s.195-197 / PDF s.196-198 — ana metin",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0025"
       ]
@@ -878,7 +878,7 @@
       "task_type": "VOCABULARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.198 / PDF s.199 — Söz Varlığımız",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0026"
       ]
@@ -893,7 +893,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.199 / PDF s.200 — soru 1",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0027"
       ]
@@ -908,7 +908,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.199 / PDF s.200 — soru 2",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0027"
       ]
@@ -923,7 +923,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.199 / PDF s.200 — soru 3",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0027"
       ]
@@ -938,7 +938,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.200 / PDF s.201 — Fark Edelim",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0028"
       ]
@@ -951,7 +951,7 @@
       "task_type": "TABLE",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.201 / PDF s.202 — Çalışma Kâğıdı",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0028"
       ]
@@ -966,7 +966,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.202 / PDF s.203 — Sıra Sizde soru 1",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0029"
       ]
@@ -981,7 +981,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.202 / PDF s.203 — Sıra Sizde soru 2",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0028"
       ]
@@ -996,7 +996,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.203 / PDF s.204 — Fark Edelim soru 1",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0030"
       ]
@@ -1011,7 +1011,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.203 / PDF s.204 — Fark Edelim soru 2",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0030"
       ]
@@ -1026,7 +1026,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.204 / PDF s.205 — Karşılaştıralım soru 1",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0031"
       ]
@@ -1041,7 +1041,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.204 / PDF s.205 — Karşılaştıralım soru 2",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0031"
       ]
@@ -1056,7 +1056,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.205 / PDF s.206 — Çözümleyebilme soru 1",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0032"
       ]
@@ -1071,7 +1071,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.205 / PDF s.206 — Çözümleyebilme soru 2",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0032"
       ]
@@ -1086,7 +1086,7 @@
       "prompt_mode": "VERBATIM_SHORT",
       "rights_mode": "LIMITED_QUOTATION",
       "source_locator": "basılı s.205 / PDF s.206 — Çözümleyebilme soru 3",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0032"
       ]
@@ -1101,7 +1101,7 @@
       "prompt_mode": "VERBATIM_SHORT",
       "rights_mode": "LIMITED_QUOTATION",
       "source_locator": "basılı s.205 / PDF s.206 — Çözümleyebilme soru 4",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0032"
       ]
@@ -1116,7 +1116,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.205 / PDF s.206 — Sıra Sizde soru 1",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0032"
       ]
@@ -1131,7 +1131,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.205 / PDF s.206 — Sıra Sizde soru 2",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0032"
       ]
@@ -1144,7 +1144,7 @@
       "task_type": "REFERENCE",
       "rights_mode": "PAGE_REFERENCE",
       "source_locator": "basılı s.206-207 / PDF s.207-208 — Bilgi Köşesi ve Usûlî ara metni",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0033"
       ]
@@ -1159,7 +1159,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.208 / PDF s.209 — soru 1/a-c",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0034"
       ]
@@ -1174,7 +1174,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.208 / PDF s.209 — soru 2",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0034"
       ]
@@ -1189,7 +1189,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.208 / PDF s.209 — soru 3",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0034"
       ]
@@ -1204,7 +1204,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.208 / PDF s.209 — soru 4",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0034"
       ]
@@ -1219,7 +1219,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.208 / PDF s.209 — soru 5",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0034"
       ]
@@ -1234,7 +1234,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.208 / PDF s.209 — soru 6",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0034"
       ]
@@ -1249,7 +1249,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.209 / PDF s.210 — soru 1",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0035"
       ]
@@ -1264,7 +1264,7 @@
       "prompt_mode": "VERIFIED_SUMMARY",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.209 / PDF s.210 — soru 2",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0035"
       ]
@@ -1279,7 +1279,7 @@
       "prompt_mode": "VERBATIM_SHORT",
       "rights_mode": "LIMITED_QUOTATION",
       "source_locator": "basılı s.209 / PDF s.210 — soru 3",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0035"
       ]
@@ -1294,7 +1294,7 @@
       "prompt_mode": "VERBATIM_SHORT",
       "rights_mode": "LIMITED_QUOTATION",
       "source_locator": "basılı s.209 / PDF s.210 — soru 4",
-      "source_status": "REFERENCE_QUALITY",
+      "source_status": "VERIFIED",
       "answer_refs": [
         "T03-A0035"
       ]
