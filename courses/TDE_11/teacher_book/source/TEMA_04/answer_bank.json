@@ -4,7 +4,7 @@
   "course_id": "TDE_11",
   "theme_id": "TEMA_04",
   "authority": "SOURCE_FILTERED_CANONICAL_ANSWERS",
-  "policy": "Only answers whose provenance does not depend on legacy_teacher_guide and is not PEDAGOGICAL_ENRICHMENT are retained. This is a factual answer bank, not a pedagogy template.",
+  "policy": "Only answers with source provenance independent of retired teacher-guide content and not classified as PEDAGOGICAL_ENRICHMENT are retained. This is a factual answer bank, not a pedagogy template.",
   "counts": {
     "answers": 64,
     "excluded_legacy_or_pedagogical": 1,

@@ -6,7 +6,7 @@
   "authority": "OFFICIAL_TEXTBOOK_DERIVED",
   "policy": "Textbook-facing source facts only. Legacy pedagogical notes, legacy identifiers and legacy authoring structures are intentionally excluded.",
   "counts": {
-    "records": 126,
+    "records": 129,
     "linked_answers": 74
   },
   "records": [
@@ -137,8 +137,8 @@
       "printed_page_range": "28",
       "book_heading": "Yorumlayalım",
       "task_type": "QUESTION",
-      "prompt": "Söz varlığı, sosyal durum ve dil çeşitliliğini yorumlama — 3 soru",
-      "prompt_mode": "VERIFIED_SUMMARY",
+      "prompt": "Soru 1 — Yazıcı metnindeki tiplerin söz varlıklarının onların sosyal statülerine ve eğitim durumlarına uygunluğu hakkındaki düşüncelerinizi metinden örneklerle ifade ediniz.",
+      "prompt_mode": "VERBATIM_SHORT",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.28 / PDF s.29",
       "source_status": "VERIFIED"
@@ -146,17 +146,53 @@
     {
       "source_record_id": "T01-S0012",
       "theme_id": "TEMA_01",
+      "printed_page_range": "28",
+      "book_heading": "Yorumlayalım",
+      "task_type": "QUESTION",
+      "prompt": "Soru 2 — Edebî metinlerde kişilerin kullandığı söz varlığının metne katkısı başka bir yolla sağlanabilir mi? Açıklayınız.",
+      "prompt_mode": "VERBATIM_SHORT",
+      "rights_mode": "DERIVED_ACTIVITY",
+      "source_locator": "basılı s.28 / PDF s.29",
+      "source_status": "VERIFIED"
+    },
+    {
+      "source_record_id": "T01-S0013",
+      "theme_id": "TEMA_01",
+      "printed_page_range": "28",
+      "book_heading": "Yorumlayalım",
+      "task_type": "QUESTION",
+      "prompt": "Soru 3 — Günlük hayatta Yazıcı oyunundaki tiplere benzer şekilde konuşan veya davranan kişilerle karşılaştığınızda bu durum size ne hissettirir? Bu tür davranışları nasıl değerlendirirsiniz? Açıklayınız.",
+      "prompt_mode": "VERBATIM_SHORT",
+      "rights_mode": "DERIVED_ACTIVITY",
+      "source_locator": "basılı s.28 / PDF s.29",
+      "source_status": "VERIFIED"
+    },
+    {
+      "source_record_id": "T01-S0014",
+      "theme_id": "TEMA_01",
       "printed_page_range": "29",
       "book_heading": "Düşünelim / Paylaşalım",
       "task_type": "QUESTION",
-      "prompt": "Farklılıklar ve dostluk — 2 soru",
-      "prompt_mode": "VERIFIED_SUMMARY",
+      "prompt": "Soru 1 — Hacivat ve Karagöz’ün kişilik özellikleri, eğitim durumları, kültür düzeyleri ve sosyal statüleri farklıdır. Bu farklılıklara rağmen aralarındaki dostluğu nasıl sürdürebildiklerini tartışınız. Ulaştığınız sonuçları tahtaya yazınız.",
+      "prompt_mode": "VERBATIM_SHORT",
       "rights_mode": "DERIVED_ACTIVITY",
       "source_locator": "basılı s.29 / PDF s.30",
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0013",
+      "source_record_id": "T01-S0015",
+      "theme_id": "TEMA_01",
+      "printed_page_range": "29",
+      "book_heading": "Düşünelim / Paylaşalım",
+      "task_type": "QUESTION",
+      "prompt": "Soru 2 — Aşağıdaki dörtlükten ve atasözünden hareketle “dostluk” kavramının sizin için ifade ettiği anlamları aşağıdaki alana yazınız.",
+      "prompt_mode": "VERBATIM_SHORT",
+      "rights_mode": "DERIVED_ACTIVITY",
+      "source_locator": "basılı s.29 / PDF s.30",
+      "source_status": "VERIFIED"
+    },
+    {
+      "source_record_id": "T01-S0016",
       "theme_id": "TEMA_01",
       "printed_page_range": "30-31",
       "book_heading": "Metni Anlayalım",
@@ -167,7 +203,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0014",
+      "source_record_id": "T01-S0017",
       "theme_id": "TEMA_01",
       "printed_page_range": "32",
       "book_heading": "Çözümleyebilme — “Yazıcı”nın yapı unsurları",
@@ -177,7 +213,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0015",
+      "source_record_id": "T01-S0018",
       "theme_id": "TEMA_01",
       "printed_page_range": "33",
       "book_heading": "Çözümleyebilme — Karagöz/Hacivat dil-üslup ilişkisi",
@@ -189,7 +225,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0016",
+      "source_record_id": "T01-S0019",
       "theme_id": "TEMA_01",
       "printed_page_range": "34",
       "book_heading": "Fiilimsiler ve gölge oyununun sosyal bilimlerle ilişkisi",
@@ -199,7 +235,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0017",
+      "source_record_id": "T01-S0020",
       "theme_id": "TEMA_01",
       "printed_page_range": "35",
       "book_heading": "Süreci Değerlendirebilme",
@@ -209,7 +245,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0018",
+      "source_record_id": "T01-S0021",
       "theme_id": "TEMA_01",
       "printed_page_range": "36",
       "book_heading": "Konuya Başlarken",
@@ -221,7 +257,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0019",
+      "source_record_id": "T01-S0022",
       "theme_id": "TEMA_01",
       "printed_page_range": "36",
       "book_heading": "Konuya Başlarken",
@@ -233,7 +269,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0020",
+      "source_record_id": "T01-S0023",
       "theme_id": "TEMA_01",
       "printed_page_range": "36",
       "book_heading": "Konuya Başlarken",
@@ -245,7 +281,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0021",
+      "source_record_id": "T01-S0024",
       "theme_id": "TEMA_01",
       "printed_page_range": "37-38",
       "book_heading": "Okumayı Yönetebilme — Âli’ye Mektuplar",
@@ -255,7 +291,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0022",
+      "source_record_id": "T01-S0025",
       "theme_id": "TEMA_01",
       "printed_page_range": "39",
       "book_heading": "Söz Varlığımız",
@@ -265,7 +301,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0023",
+      "source_record_id": "T01-S0026",
       "theme_id": "TEMA_01",
       "printed_page_range": "40",
       "book_heading": "Metni Anlayalım",
@@ -277,7 +313,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0024",
+      "source_record_id": "T01-S0027",
       "theme_id": "TEMA_01",
       "printed_page_range": "40",
       "book_heading": "Metni Anlayalım",
@@ -289,7 +325,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0025",
+      "source_record_id": "T01-S0028",
       "theme_id": "TEMA_01",
       "printed_page_range": "40",
       "book_heading": "Metni Anlayalım",
@@ -301,7 +337,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0026",
+      "source_record_id": "T01-S0029",
       "theme_id": "TEMA_01",
       "printed_page_range": "40",
       "book_heading": "Metni Anlayalım",
@@ -313,7 +349,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0027",
+      "source_record_id": "T01-S0030",
       "theme_id": "TEMA_01",
       "printed_page_range": "40",
       "book_heading": "Metni Anlayalım — Mektup çözümleme çalışma kâğıdı",
@@ -323,7 +359,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0028",
+      "source_record_id": "T01-S0031",
       "theme_id": "TEMA_01",
       "printed_page_range": "41",
       "book_heading": "Fark Edelim",
@@ -335,7 +371,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0029",
+      "source_record_id": "T01-S0032",
       "theme_id": "TEMA_01",
       "printed_page_range": "41",
       "book_heading": "Sıra Sizde — Öznel ve nesnel ifadeler",
@@ -347,7 +383,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0030",
+      "source_record_id": "T01-S0033",
       "theme_id": "TEMA_01",
       "printed_page_range": "42",
       "book_heading": "Mektup türleri",
@@ -357,7 +393,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0031",
+      "source_record_id": "T01-S0034",
       "theme_id": "TEMA_01",
       "printed_page_range": "43",
       "book_heading": "Fark Edelim / Karşılaştıralım",
@@ -368,7 +404,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0032",
+      "source_record_id": "T01-S0035",
       "theme_id": "TEMA_01",
       "printed_page_range": "44",
       "book_heading": "Çözümleyebilme — Mektubun yapı unsurları",
@@ -378,7 +414,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0033",
+      "source_record_id": "T01-S0036",
       "theme_id": "TEMA_01",
       "printed_page_range": "44",
       "book_heading": "Çözümleyebilme",
@@ -390,7 +426,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0034",
+      "source_record_id": "T01-S0037",
       "theme_id": "TEMA_01",
       "printed_page_range": "44",
       "book_heading": "Çözümleyebilme",
@@ -402,7 +438,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0035",
+      "source_record_id": "T01-S0038",
       "theme_id": "TEMA_01",
       "printed_page_range": "44",
       "book_heading": "Çözümleyebilme",
@@ -414,7 +450,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0036",
+      "source_record_id": "T01-S0039",
       "theme_id": "TEMA_01",
       "printed_page_range": "44",
       "book_heading": "Çözümleyebilme",
@@ -426,7 +462,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0037",
+      "source_record_id": "T01-S0040",
       "theme_id": "TEMA_01",
       "printed_page_range": "45",
       "book_heading": "Mektup ve sosyal bilimler",
@@ -436,7 +472,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0038",
+      "source_record_id": "T01-S0041",
       "theme_id": "TEMA_01",
       "printed_page_range": "46",
       "book_heading": "Süreci Değerlendirebilme — Beğeni ölçütleri",
@@ -446,7 +482,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0039",
+      "source_record_id": "T01-S0042",
       "theme_id": "TEMA_01",
       "printed_page_range": "46",
       "book_heading": "Süreci Değerlendirebilme",
@@ -458,7 +494,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0040",
+      "source_record_id": "T01-S0043",
       "theme_id": "TEMA_01",
       "printed_page_range": "46",
       "book_heading": "Süreci Değerlendirebilme",
@@ -470,7 +506,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0041",
+      "source_record_id": "T01-S0044",
       "theme_id": "TEMA_01",
       "printed_page_range": "46",
       "book_heading": "Süreci Değerlendirebilme — Şiirden mektuba dönüşüm",
@@ -480,7 +516,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0042",
+      "source_record_id": "T01-S0045",
       "theme_id": "TEMA_01",
       "printed_page_range": "47",
       "book_heading": "Metin ve Gerçeklik",
@@ -492,7 +528,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0043",
+      "source_record_id": "T01-S0046",
       "theme_id": "TEMA_01",
       "printed_page_range": "47",
       "book_heading": "Metin ve Gerçeklik",
@@ -504,7 +540,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0044",
+      "source_record_id": "T01-S0047",
       "theme_id": "TEMA_01",
       "printed_page_range": "47",
       "book_heading": "Metin ve Gerçeklik",
@@ -516,7 +552,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0045",
+      "source_record_id": "T01-S0048",
       "theme_id": "TEMA_01",
       "printed_page_range": "48",
       "book_heading": "İletişim, zaman ve teknoloji",
@@ -528,7 +564,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0046",
+      "source_record_id": "T01-S0049",
       "theme_id": "TEMA_01",
       "printed_page_range": "48",
       "book_heading": "İletişim, zaman ve teknoloji",
@@ -540,7 +576,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0047",
+      "source_record_id": "T01-S0050",
       "theme_id": "TEMA_01",
       "printed_page_range": "48",
       "book_heading": "İletişim, zaman ve teknoloji",
@@ -552,7 +588,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0048",
+      "source_record_id": "T01-S0051",
       "theme_id": "TEMA_01",
       "printed_page_range": "49-50",
       "book_heading": "Farklı dönemlerden iletişim örnekleri",
@@ -564,7 +600,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0049",
+      "source_record_id": "T01-S0052",
       "theme_id": "TEMA_01",
       "printed_page_range": "49-50",
       "book_heading": "Farklı dönemlerden iletişim örnekleri",
@@ -576,7 +612,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0050",
+      "source_record_id": "T01-S0053",
       "theme_id": "TEMA_01",
       "printed_page_range": "49-50",
       "book_heading": "Farklı dönemlerden iletişim örnekleri",
@@ -588,7 +624,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0051",
+      "source_record_id": "T01-S0054",
       "theme_id": "TEMA_01",
       "printed_page_range": "49-50",
       "book_heading": "Farklı dönemlerden iletişim örnekleri",
@@ -600,7 +636,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0052",
+      "source_record_id": "T01-S0055",
       "theme_id": "TEMA_01",
       "printed_page_range": "51",
       "book_heading": "Ara metin: Dilekçe",
@@ -613,7 +649,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0053",
+      "source_record_id": "T01-S0056",
       "theme_id": "TEMA_01",
       "printed_page_range": "52",
       "book_heading": "Dilekçe yazma / ileri okuma",
@@ -623,7 +659,7 @@
       "source_status": "VERIFIED"
     },
     {
-      "source_record_id": "T01-S0054",
+      "source_record_id": "T01-S0057",
       "theme_id": "TEMA_01",
       "printed_page_range": "53",
       "book_heading": "Edebiyat Atölyesi-1 — Drama hazırlığı",
@@ -638,7 +674,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0055",
+      "source_record_id": "T01-S0058",
       "theme_id": "TEMA_01",
       "printed_page_range": "54",
       "book_heading": "Konuşmayı Yönetebilme",
@@ -651,7 +687,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0056",
+      "source_record_id": "T01-S0059",
       "theme_id": "TEMA_01",
       "printed_page_range": "55-56",
       "book_heading": "İçerik Oluşturabilme",
@@ -664,7 +700,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0057",
+      "source_record_id": "T01-S0060",
       "theme_id": "TEMA_01",
       "printed_page_range": "56",
       "book_heading": "İletişim hataları ve çözüm önerileri",
@@ -677,7 +713,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0058",
+      "source_record_id": "T01-S0061",
       "theme_id": "TEMA_01",
       "printed_page_range": "57",
       "book_heading": "Kural Uygulayabilme",
@@ -687,7 +723,7 @@
       "source_status": "REVIEW_REQUIRED"
     },
     {
-      "source_record_id": "T01-S0059",
+      "source_record_id": "T01-S0062",
       "theme_id": "TEMA_01",
       "printed_page_range": "58",
       "book_heading": "Süreci Değerlendirebilme",
@@ -700,7 +736,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0060",
+      "source_record_id": "T01-S0063",
       "theme_id": "TEMA_01",
       "printed_page_range": "58",
       "book_heading": "Süreci Değerlendirebilme — akran/öğretmen değerlendirmesi",
@@ -710,7 +746,7 @@
       "source_status": "REVIEW_REQUIRED"
     },
     {
-      "source_record_id": "T01-S0061",
+      "source_record_id": "T01-S0064",
       "theme_id": "TEMA_01",
       "printed_page_range": "59",
       "book_heading": "Konuya Başlarken — Hatırlayalım",
@@ -725,7 +761,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0062",
+      "source_record_id": "T01-S0065",
       "theme_id": "TEMA_01",
       "printed_page_range": "59",
       "book_heading": "Konuya Başlarken — Hatırlayalım",
@@ -740,7 +776,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0063",
+      "source_record_id": "T01-S0066",
       "theme_id": "TEMA_01",
       "printed_page_range": "59",
       "book_heading": "Konuya Başlarken — Hatırlayalım",
@@ -755,7 +791,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0064",
+      "source_record_id": "T01-S0067",
       "theme_id": "TEMA_01",
       "printed_page_range": "60-61",
       "book_heading": "Dinleme / İzlemeyi Yönetebilme — Sıra Sizde",
@@ -770,7 +806,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0065",
+      "source_record_id": "T01-S0068",
       "theme_id": "TEMA_01",
       "printed_page_range": "60-61",
       "book_heading": "Dinleme / İzlemeyi Yönetebilme — Sıra Sizde",
@@ -785,7 +821,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0066",
+      "source_record_id": "T01-S0069",
       "theme_id": "TEMA_01",
       "printed_page_range": "62-63",
       "book_heading": "Düşünelim Paylaşalım",
@@ -800,7 +836,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0067",
+      "source_record_id": "T01-S0070",
       "theme_id": "TEMA_01",
       "printed_page_range": "62-63",
       "book_heading": "Düşünelim Paylaşalım",
@@ -815,7 +851,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0068",
+      "source_record_id": "T01-S0071",
       "theme_id": "TEMA_01",
       "printed_page_range": "62-63",
       "book_heading": "Düşünelim Paylaşalım",
@@ -830,7 +866,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0069",
+      "source_record_id": "T01-S0072",
       "theme_id": "TEMA_01",
       "printed_page_range": "62-63",
       "book_heading": "Düşünelim Paylaşalım",
@@ -845,7 +881,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0070",
+      "source_record_id": "T01-S0073",
       "theme_id": "TEMA_01",
       "printed_page_range": "63",
       "book_heading": "Ders Dışı Etkinlik — İletişim ve E-posta",
@@ -858,7 +894,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0071",
+      "source_record_id": "T01-S0074",
       "theme_id": "TEMA_01",
       "printed_page_range": "64",
       "book_heading": "Metni Dinleyelim / İzleyelim",
@@ -873,7 +909,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0072",
+      "source_record_id": "T01-S0075",
       "theme_id": "TEMA_01",
       "printed_page_range": "64",
       "book_heading": "Metni Dinleyelim / İzleyelim",
@@ -888,7 +924,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0073",
+      "source_record_id": "T01-S0076",
       "theme_id": "TEMA_01",
       "printed_page_range": "64",
       "book_heading": "Metni Dinleyelim / İzleyelim",
@@ -902,7 +938,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0074",
+      "source_record_id": "T01-S0077",
       "theme_id": "TEMA_01",
       "printed_page_range": "64",
       "book_heading": "Metni Dinleyelim / İzleyelim",
@@ -917,7 +953,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0075",
+      "source_record_id": "T01-S0078",
       "theme_id": "TEMA_01",
       "printed_page_range": "64",
       "book_heading": "Metni Dinleyelim / İzleyelim",
@@ -931,7 +967,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0076",
+      "source_record_id": "T01-S0079",
       "theme_id": "TEMA_01",
       "printed_page_range": "64",
       "book_heading": "Gözlem Formu",
@@ -944,7 +980,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0077",
+      "source_record_id": "T01-S0080",
       "theme_id": "TEMA_01",
       "printed_page_range": "65",
       "book_heading": "Anlam Oluşturabilme — Söz Varlığımız",
@@ -957,7 +993,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0078",
+      "source_record_id": "T01-S0081",
       "theme_id": "TEMA_01",
       "printed_page_range": "66",
       "book_heading": "Metni Anlayalım",
@@ -972,7 +1008,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0079",
+      "source_record_id": "T01-S0082",
       "theme_id": "TEMA_01",
       "printed_page_range": "66",
       "book_heading": "Metni Anlayalım",
@@ -987,7 +1023,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0080",
+      "source_record_id": "T01-S0083",
       "theme_id": "TEMA_01",
       "printed_page_range": "66",
       "book_heading": "Metni Anlayalım",
@@ -1002,7 +1038,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0081",
+      "source_record_id": "T01-S0084",
       "theme_id": "TEMA_01",
       "printed_page_range": "66",
       "book_heading": "Metni Anlayalım",
@@ -1017,7 +1053,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0082",
+      "source_record_id": "T01-S0085",
       "theme_id": "TEMA_01",
       "printed_page_range": "66",
       "book_heading": "Metni Anlayalım",
@@ -1032,7 +1068,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0083",
+      "source_record_id": "T01-S0086",
       "theme_id": "TEMA_01",
       "printed_page_range": "67",
       "book_heading": "Metni Anlayalım",
@@ -1047,7 +1083,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0084",
+      "source_record_id": "T01-S0087",
       "theme_id": "TEMA_01",
       "printed_page_range": "67",
       "book_heading": "Metni Anlayalım",
@@ -1062,7 +1098,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0085",
+      "source_record_id": "T01-S0088",
       "theme_id": "TEMA_01",
       "printed_page_range": "67",
       "book_heading": "Metni Anlayalım",
@@ -1077,7 +1113,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0086",
+      "source_record_id": "T01-S0089",
       "theme_id": "TEMA_01",
       "printed_page_range": "67",
       "book_heading": "Metni Anlayalım",
@@ -1092,7 +1128,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0087",
+      "source_record_id": "T01-S0090",
       "theme_id": "TEMA_01",
       "printed_page_range": "68",
       "book_heading": "Birlikte Çalışalım",
@@ -1105,7 +1141,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0088",
+      "source_record_id": "T01-S0091",
       "theme_id": "TEMA_01",
       "printed_page_range": "68-69",
       "book_heading": "Sıra Sizde — Paydos / iletişim aksaklıkları",
@@ -1120,7 +1156,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0089",
+      "source_record_id": "T01-S0092",
       "theme_id": "TEMA_01",
       "printed_page_range": "70",
       "book_heading": "Sıra Sizde — iletişim engelleri kavram haritası",
@@ -1133,7 +1169,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0090",
+      "source_record_id": "T01-S0093",
       "theme_id": "TEMA_01",
       "printed_page_range": "70",
       "book_heading": "Sıra Sizde — iletişim engellerine çözüm",
@@ -1148,7 +1184,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0091",
+      "source_record_id": "T01-S0094",
       "theme_id": "TEMA_01",
       "printed_page_range": "71",
       "book_heading": "Sıra Sizde — çözüm yollarını karşılaştırma",
@@ -1161,7 +1197,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0092",
+      "source_record_id": "T01-S0095",
       "theme_id": "TEMA_01",
       "printed_page_range": "71",
       "book_heading": "Sıra Sizde — iletişim kanalları",
@@ -1176,7 +1212,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0093",
+      "source_record_id": "T01-S0096",
       "theme_id": "TEMA_01",
       "printed_page_range": "71",
       "book_heading": "Sıra Sizde — iletişim kanalları",
@@ -1191,7 +1227,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0094",
+      "source_record_id": "T01-S0097",
       "theme_id": "TEMA_01",
       "printed_page_range": "72",
       "book_heading": "Çözümleyebilme",
@@ -1205,7 +1241,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0095",
+      "source_record_id": "T01-S0098",
       "theme_id": "TEMA_01",
       "printed_page_range": "72",
       "book_heading": "Çözümleyebilme",
@@ -1220,7 +1256,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0096",
+      "source_record_id": "T01-S0099",
       "theme_id": "TEMA_01",
       "printed_page_range": "73",
       "book_heading": "Süreci Değerlendirebilme",
@@ -1235,7 +1271,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0097",
+      "source_record_id": "T01-S0100",
       "theme_id": "TEMA_01",
       "printed_page_range": "73",
       "book_heading": "Süreci Değerlendirebilme",
@@ -1249,7 +1285,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0098",
+      "source_record_id": "T01-S0101",
       "theme_id": "TEMA_01",
       "printed_page_range": "73",
       "book_heading": "Çıkış Kartı",
@@ -1262,7 +1298,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0099",
+      "source_record_id": "T01-S0102",
       "theme_id": "TEMA_01",
       "printed_page_range": "74",
       "book_heading": "Yazmayı Yönetebilme",
@@ -1277,7 +1313,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0100",
+      "source_record_id": "T01-S0103",
       "theme_id": "TEMA_01",
       "printed_page_range": "74",
       "book_heading": "Yazmayı Yönetebilme",
@@ -1292,7 +1328,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0101",
+      "source_record_id": "T01-S0104",
       "theme_id": "TEMA_01",
       "printed_page_range": "74",
       "book_heading": "Yazmayı Yönetebilme",
@@ -1307,7 +1343,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0102",
+      "source_record_id": "T01-S0105",
       "theme_id": "TEMA_01",
       "printed_page_range": "74",
       "book_heading": "Yazmayı Yönetebilme",
@@ -1322,7 +1358,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0103",
+      "source_record_id": "T01-S0106",
       "theme_id": "TEMA_01",
       "printed_page_range": "74",
       "book_heading": "Yazmayı Yönetebilme",
@@ -1337,7 +1373,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0104",
+      "source_record_id": "T01-S0107",
       "theme_id": "TEMA_01",
       "printed_page_range": "74",
       "book_heading": "Yazmayı Yönetebilme",
@@ -1352,7 +1388,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0105",
+      "source_record_id": "T01-S0108",
       "theme_id": "TEMA_01",
       "printed_page_range": "75",
       "book_heading": "Performans Görevi — İletişim ve E-posta",
@@ -1365,7 +1401,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0106",
+      "source_record_id": "T01-S0109",
       "theme_id": "TEMA_01",
       "printed_page_range": "76",
       "book_heading": "İçerik Oluşturabilme — 1-4. basamaklar",
@@ -1378,7 +1414,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0107",
+      "source_record_id": "T01-S0110",
       "theme_id": "TEMA_01",
       "printed_page_range": "76",
       "book_heading": "İçerik Oluşturabilme — 5-9. basamaklar",
@@ -1391,7 +1427,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0108",
+      "source_record_id": "T01-S0111",
       "theme_id": "TEMA_01",
       "printed_page_range": "77",
       "book_heading": "İçerik Oluşturabilme — 10-13. basamaklar",
@@ -1404,7 +1440,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0109",
+      "source_record_id": "T01-S0112",
       "theme_id": "TEMA_01",
       "printed_page_range": "77",
       "book_heading": "Kural Uygulayabilme",
@@ -1417,7 +1453,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0110",
+      "source_record_id": "T01-S0113",
       "theme_id": "TEMA_01",
       "printed_page_range": "78",
       "book_heading": "Süreci Değerlendirebilme — Değerlendirme",
@@ -1430,7 +1466,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0111",
+      "source_record_id": "T01-S0114",
       "theme_id": "TEMA_01",
       "printed_page_range": "78",
       "book_heading": "Süreci Değerlendirebilme — Öz Değerlendirme Formu",
@@ -1443,7 +1479,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0112",
+      "source_record_id": "T01-S0115",
       "theme_id": "TEMA_01",
       "printed_page_range": "78",
       "book_heading": "Tema Sonu Değerlendirme — Çıkış Kartı",
@@ -1456,7 +1492,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0113",
+      "source_record_id": "T01-S0116",
       "theme_id": "TEMA_01",
       "printed_page_range": "78",
       "book_heading": "Süreci Değerlendirebilme — Dereceli Puanlama Anahtarı",
@@ -1469,7 +1505,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0114",
+      "source_record_id": "T01-S0117",
       "theme_id": "TEMA_01",
       "printed_page_range": "79",
       "book_heading": "1. Tema Ölçme ve Değerlendirme Soruları",
@@ -1484,7 +1520,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0115",
+      "source_record_id": "T01-S0118",
       "theme_id": "TEMA_01",
       "printed_page_range": "80",
       "book_heading": "1. Tema Ölçme ve Değerlendirme Soruları",
@@ -1499,7 +1535,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0116",
+      "source_record_id": "T01-S0119",
       "theme_id": "TEMA_01",
       "printed_page_range": "80",
       "book_heading": "1. Tema Ölçme ve Değerlendirme Soruları",
@@ -1514,7 +1550,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0117",
+      "source_record_id": "T01-S0120",
       "theme_id": "TEMA_01",
       "printed_page_range": "81",
       "book_heading": "1. Tema Ölçme ve Değerlendirme Soruları",
@@ -1529,7 +1565,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0118",
+      "source_record_id": "T01-S0121",
       "theme_id": "TEMA_01",
       "printed_page_range": "81",
       "book_heading": "1. Tema Ölçme ve Değerlendirme Soruları",
@@ -1541,7 +1577,7 @@
       "source_status": "REVIEW_REQUIRED"
     },
     {
-      "source_record_id": "T01-S0119",
+      "source_record_id": "T01-S0122",
       "theme_id": "TEMA_01",
       "printed_page_range": "81",
       "book_heading": "1. Tema Ölçme ve Değerlendirme Soruları",
@@ -1553,7 +1589,7 @@
       "source_status": "REVIEW_REQUIRED"
     },
     {
-      "source_record_id": "T01-S0120",
+      "source_record_id": "T01-S0123",
       "theme_id": "TEMA_01",
       "printed_page_range": "81",
       "book_heading": "1. Tema Ölçme ve Değerlendirme Soruları",
@@ -1568,7 +1604,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0121",
+      "source_record_id": "T01-S0124",
       "theme_id": "TEMA_01",
       "printed_page_range": "82",
       "book_heading": "1. Tema Ölçme ve Değerlendirme Soruları",
@@ -1583,7 +1619,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0122",
+      "source_record_id": "T01-S0125",
       "theme_id": "TEMA_01",
       "printed_page_range": "82",
       "book_heading": "1. Tema Ölçme ve Değerlendirme Soruları",
@@ -1598,7 +1634,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0123",
+      "source_record_id": "T01-S0126",
       "theme_id": "TEMA_01",
       "printed_page_range": "82",
       "book_heading": "1. Tema Ölçme ve Değerlendirme Soruları",
@@ -1613,7 +1649,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0124",
+      "source_record_id": "T01-S0127",
       "theme_id": "TEMA_01",
       "printed_page_range": "83",
       "book_heading": "1. Tema Ölçme ve Değerlendirme Soruları",
@@ -1628,7 +1664,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0125",
+      "source_record_id": "T01-S0128",
       "theme_id": "TEMA_01",
       "printed_page_range": "83",
       "book_heading": "1. Tema Ölçme ve Değerlendirme Soruları",
@@ -1643,7 +1679,7 @@
       ]
     },
     {
-      "source_record_id": "T01-S0126",
+      "source_record_id": "T01-S0129",
       "theme_id": "TEMA_01",
       "printed_page_range": "83",
       "book_heading": "1. Tema Ölçme ve Değerlendirme Soruları — Olvido çok modlu metni",
