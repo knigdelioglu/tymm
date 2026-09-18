@@ -3588,7 +3588,7 @@
             "Kesişim cümlesi iki yargıyı uzlaştırır."
           ],
           "canonical_teacher_guidance": [
-            "Basılı sayfa görselindeki kaynak başlıkları ayrıca doğrulanırsa numara anahtarı güncellenebilir."
+            "Parçaların kaynak/yazar bilgileri ayrı bir doğrulanmış kaynakta görülmeden kesin numara anahtarı üretmeyin."
           ],
           "canonical_common_misconceptions": [],
           "canonical_assessment_evidence": [],
@@ -3604,7 +3604,7 @@
           "question_number": "1",
           "prompt_mode": "LOCATOR_ONLY",
           "book_prompt": "Ders kitabı s.230 — 1. soru",
-          "expected_answer": "Metinlerin tez/antitez sınıflandırmasında, parçanın yazar hayatıyla doğrulanabilir ilişkisi esas alınmalıdır. PDF metin dilimi tek başına tüm parçaların kaynak başlıklarını görünür kılmadığı için rehber, kaynaksız kesin numara anahtarı üretmez.",
+          "expected_answer": "Metinlerin tez/antitez sınıflandırmasında, parçanın yazar hayatıyla doğrulanabilir ilişkisi esas alınmalıdır. PDF sayfasında parçaların kaynak/yazar bilgileri görünmediği için rehber kaynaksız kesin numara anahtarı üretmez.",
           "expected_response": null,
           "split_from_group": true,
           "answer_component_key": "degerlendirme"
@@ -3618,7 +3618,7 @@
             "Kesişim cümlesi iki yargıyı uzlaştırır."
           ],
           "canonical_teacher_guidance": [
-            "Basılı sayfa görselindeki kaynak başlıkları ayrıca doğrulanırsa numara anahtarı güncellenebilir."
+            "Parçaların kaynak/yazar bilgileri ayrı bir doğrulanmış kaynakta görülmeden kesin numara anahtarı üretmeyin."
           ],
           "canonical_common_misconceptions": [],
           "canonical_assessment_evidence": [],
@@ -3644,8 +3644,9 @@
           "printed_page_range": "231",
           "item_type": "QUESTION",
           "acceptance_criteria": [
-            "Q4=E, Q5=C.",
-            "Kavram açıklamaları metnin kurmaca-gerçeklik paragrafıyla uyumludur."
+            "Q5=E, Q6=C.",
+            "Q3 kavram açıklamaları metnin kurmaca-gerçeklik paragrafıyla uyumludur.",
+            "Q4 görüşü metindeki kurmaca/gerçeklik ayrımıyla gerekçelendirilir."
           ],
           "canonical_teacher_guidance": [],
           "canonical_common_misconceptions": [],
@@ -3662,7 +3663,13 @@
           "question_number": "3",
           "prompt_mode": "LOCATOR_ONLY",
           "book_prompt": "Ders kitabı s.231 — 3. soru",
-          "expected_answer": "Kurmaca dış gerçeklikten yararlanabilir; değer yalnız ‘gerçeğe uygunluk’tan değil estetik kurgu, çok anlamlılık, inandırıcılık ve özgün anlatımdan doğar.",
+          "expected_answer": {
+            "kurmaca": "Yazarın yarattığı anlatı dünyası.",
+            "gerceklik_izlenimi": "Kurmaca dünyanın gerçekmiş gibi inandırıcı algılanmasını sağlayan düzenleme.",
+            "okur_yorumu": "Okurun kültürel birikim, ilgi ve değerleriyle metne anlam vermesi.",
+            "nesnellik": "Dış dünyaya ilişkin doğrulanabilir/kişiden bağımsız olma iddiası.",
+            "cok_anlamlilik": "Metnin farklı okurlarca birden fazla tutarlı biçimde yorumlanabilmesi."
+          },
           "expected_response": null,
           "split_from_group": true
         },
@@ -3671,8 +3678,9 @@
           "printed_page_range": "231",
           "item_type": "QUESTION",
           "acceptance_criteria": [
-            "Q4=E, Q5=C.",
-            "Kavram açıklamaları metnin kurmaca-gerçeklik paragrafıyla uyumludur."
+            "Q5=E, Q6=C.",
+            "Q3 kavram açıklamaları metnin kurmaca-gerçeklik paragrafıyla uyumludur.",
+            "Q4 görüşü metindeki kurmaca/gerçeklik ayrımıyla gerekçelendirilir."
           ],
           "canonical_teacher_guidance": [],
           "canonical_common_misconceptions": [],
@@ -3689,7 +3697,7 @@
           "question_number": "4",
           "prompt_mode": "LOCATOR_ONLY",
           "book_prompt": "Ders kitabı s.231 — 4. soru",
-          "expected_answer": "E",
+          "expected_answer": "Kurmaca dış gerçeklikten yararlanabilir; değer yalnız ‘gerçeğe uygunluk’tan değil estetik kurgu, çok anlamlılık, inandırıcılık ve özgün anlatımdan doğar.",
           "expected_response": null,
           "split_from_group": true
         },
@@ -3698,8 +3706,9 @@
           "printed_page_range": "231",
           "item_type": "QUESTION",
           "acceptance_criteria": [
-            "Q4=E, Q5=C.",
-            "Kavram açıklamaları metnin kurmaca-gerçeklik paragrafıyla uyumludur."
+            "Q5=E, Q6=C.",
+            "Q3 kavram açıklamaları metnin kurmaca-gerçeklik paragrafıyla uyumludur.",
+            "Q4 görüşü metindeki kurmaca/gerçeklik ayrımıyla gerekçelendirilir."
           ],
           "canonical_teacher_guidance": [],
           "canonical_common_misconceptions": [],
@@ -3716,7 +3725,7 @@
           "question_number": "5",
           "prompt_mode": "LOCATOR_ONLY",
           "book_prompt": "Ders kitabı s.231 — 5. soru",
-          "expected_answer": "C",
+          "expected_answer": "E",
           "expected_response": null,
           "split_from_group": true
         },
@@ -3725,8 +3734,9 @@
           "printed_page_range": "231",
           "item_type": "QUESTION",
           "acceptance_criteria": [
-            "Q4=E, Q5=C.",
-            "Kavram açıklamaları metnin kurmaca-gerçeklik paragrafıyla uyumludur."
+            "Q5=E, Q6=C.",
+            "Q3 kavram açıklamaları metnin kurmaca-gerçeklik paragrafıyla uyumludur.",
+            "Q4 görüşü metindeki kurmaca/gerçeklik ayrımıyla gerekçelendirilir."
           ],
           "canonical_teacher_guidance": [],
           "canonical_common_misconceptions": [],
@@ -3743,13 +3753,7 @@
           "question_number": "6",
           "prompt_mode": "LOCATOR_ONLY",
           "book_prompt": "Ders kitabı s.231 — 6. soru",
-          "expected_answer": {
-            "kurmaca": "Yazarın yarattığı anlatı dünyası.",
-            "gerceklik_izlenimi": "Kurmaca dünyanın gerçekmiş gibi inandırıcı algılanmasını sağlayan düzenleme.",
-            "okur_yorumu": "Okurun kültürel birikim, ilgi ve değerleriyle metne anlam vermesi.",
-            "nesnellik": "Dış dünyaya ilişkin doğrulanabilir/kişiden bağımsız olma iddiası.",
-            "cok_anlamlilik": "Metnin farklı okurlarca birden fazla tutarlı biçimde yorumlanabilmesi."
-          },
+          "expected_answer": "C",
           "expected_response": null,
           "split_from_group": true
         },
@@ -3758,7 +3762,8 @@
           "printed_page_range": "232-233",
           "item_type": "QUESTION",
           "acceptance_criteria": [
-            "Q8=C.",
+            "Q9=C.",
+            "Q8 tanıtılan yönleri metin ayrıntılarıyla gerekçelendirir.",
             "Q10 puan hesabını gösterir.",
             "Q11 iki yanlış kavramı düzeltir."
           ],
@@ -3786,7 +3791,8 @@
           "printed_page_range": "232-233",
           "item_type": "QUESTION",
           "acceptance_criteria": [
-            "Q8=C.",
+            "Q9=C.",
+            "Q8 tanıtılan yönleri metin ayrıntılarıyla gerekçelendirir.",
             "Q10 puan hesabını gösterir.",
             "Q11 iki yanlış kavramı düzeltir."
           ],
@@ -3805,7 +3811,7 @@
           "question_number": "8",
           "prompt_mode": "LOCATOR_ONLY",
           "book_prompt": "Ders kitabı s.232-233 — 8. soru",
-          "expected_answer": "C",
+          "expected_answer": "Orhan Veli; şair ve öykücü kimliği, Garip akımıyla ilişkisi, şiir ve öykülerindeki temaları, sade-akıcı üslubu ve Çehov tarzı öykücülüğü üzerinden tanıtılır.",
           "expected_response": null,
           "split_from_group": true
         },
@@ -3814,7 +3820,8 @@
           "printed_page_range": "232-233",
           "item_type": "QUESTION",
           "acceptance_criteria": [
-            "Q8=C.",
+            "Q9=C.",
+            "Q8 tanıtılan yönleri metin ayrıntılarıyla gerekçelendirir.",
             "Q10 puan hesabını gösterir.",
             "Q11 iki yanlış kavramı düzeltir."
           ],
@@ -3833,7 +3840,7 @@
           "question_number": "9",
           "prompt_mode": "LOCATOR_ONLY",
           "book_prompt": "Ders kitabı s.232-233 — 9. soru",
-          "expected_answer": "Orhan Veli; şair/öykücü kimliği, Garip akımıyla ilişkisi, temaları, sade-akıcı üslubu ve Çehov tarzı öykücülüğü üzerinden tanıtılır.",
+          "expected_answer": "C",
           "expected_response": null,
           "split_from_group": true
         },
@@ -3842,7 +3849,8 @@
           "printed_page_range": "232-233",
           "item_type": "QUESTION",
           "acceptance_criteria": [
-            "Q8=C.",
+            "Q9=C.",
+            "Q8 tanıtılan yönleri metin ayrıntılarıyla gerekçelendirir.",
             "Q10 puan hesabını gösterir.",
             "Q11 iki yanlış kavramı düzeltir."
           ],
@@ -3870,7 +3878,8 @@
           "printed_page_range": "232-233",
           "item_type": "QUESTION",
           "acceptance_criteria": [
-            "Q8=C.",
+            "Q9=C.",
+            "Q8 tanıtılan yönleri metin ayrıntılarıyla gerekçelendirir.",
             "Q10 puan hesabını gösterir.",
             "Q11 iki yanlış kavramı düzeltir."
           ],

@@ -2188,14 +2188,17 @@
             "enrichment": []
           },
           "source_locators": [
-            "basılı s.281 / PDF s.282"
+            "basılı s.281 / PDF s.282 — Konuşmayı Yönetebilme sorular 3-4"
           ],
           "task_id": "T4_G03_P281_DIL_TIYATRO",
           "label": "Diyalog, doğru dil ve ‘insanı insana insanla anlatma’",
           "question_number": null,
           "prompt_mode": "CANONICAL_LABEL",
           "book_prompt": "Diyalog, doğru dil ve ‘insanı insana insanla anlatma’",
-          "expected_answer": "Diyalog tiyatroda ilişkiyi ve eylemi taşır; doğru/bağlama uygun dil anlamı, karakteri ve iletişimi güçlendirir. ‘İnsanı insana insanla anlatma’ sözü, insan deneyiminin oyuncu/karakter aracılığıyla başka insanlara canlı biçimde sunulmasını vurgular.",
+          "expected_answer": {
+            "q3_diyalog_dil": "Diyalog tiyatroda ilişkiyi ve eylemi taşır; doğru ve bağlama uygun dil anlamı, karakteri ve iletişimi güçlendirir. Günlük hayatta da sözcük seçimi, ton ve açıklık iletişimin doğru kurulmasını etkiler.",
+            "q4_tiyatro_tanimi": "‘İnsanı, insana, insanla anlatma’ sözü; insan deneyiminin oyuncu ve karakter aracılığıyla başka insanlara canlı, eyleme dayalı ve sahnelenmiş biçimde sunulmasını vurgular."
+          },
           "expected_response": null,
           "split_from_group": false
         }
@@ -2447,14 +2450,18 @@
             "enrichment": []
           },
           "source_locators": [
-            "basılı s.283 / PDF s.284"
+            "basılı s.283 / PDF s.284 — Sıra Sizde sorular 1-3"
           ],
           "task_id": "T4_G03_P283_YANSITMA",
           "label": "Yansıtma yazısı, rol arkadaşı geribildirimi ve konuşmacı kimliği",
           "question_number": null,
           "prompt_mode": "CANONICAL_LABEL",
           "book_prompt": "Yansıtma yazısı, rol arkadaşı geribildirimi ve konuşmacı kimliği",
-          "expected_answer": "Öğrenci rolde yaşadığı duygu/düşünceyi, güçlü ve geliştirilmesi gereken yönlerini, akran geribildiriminden öğrendiklerini ve bir sonraki canlandırmada değiştireceği davranışı somutlaştırmalıdır.",
+          "expected_answer": {
+            "q1_yansitma": "Öğrenci canlandırdığı rolün kendisinde oluşturduğu duygu ve düşünceleri somut performans deneyimiyle ilişkilendirerek yansıtma yazısında değerlendirir.",
+            "q2_rol_arkadasi": "Rol arkadaşlarının görüşlerini toplar; geri bildirimleri güçlü ve geliştirilmesi gereken yönler bakımından değerlendirir ve gerekçeli olarak kabul eder, sınırlar veya reddeder.",
+            "q3_konusmaci_kimligi": "Aldığı eleştiriler ve edindiği tecrübelerden hareketle diksiyon, beden dili, özgünlük, rol tutarlılığı veya izleyiciyle iletişim gibi alanlarda kendi konuşmacı kimliğine ilişkin somut bir gelişim hedefi belirler."
+          },
           "expected_response": null,
           "split_from_group": false
         }

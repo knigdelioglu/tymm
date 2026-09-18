@@ -1351,7 +1351,8 @@ Ferit Edgü’nün küçürek hikâye anlayışının metindeki yansımalarını
 
 <!-- answer:T4_G03_P281_DIL_TIYATRO -->
 **Beklenen cevap / cevap odağı:**
-Diyalog tiyatroda ilişkiyi ve eylemi taşır; doğru/bağlama uygun dil anlamı, karakteri ve iletişimi güçlendirir. ‘İnsanı insana insanla anlatma’ sözü, insan deneyiminin oyuncu/karakter aracılığıyla başka insanlara canlı biçimde sunulmasını vurgular.
+- **q3_diyalog_dil:** Diyalog tiyatroda ilişkiyi ve eylemi taşır; doğru ve bağlama uygun dil anlamı, karakteri ve iletişimi güçlendirir. Günlük hayatta da sözcük seçimi, ton ve açıklık iletişimin doğru kurulmasını etkiler.
+- **q4_tiyatro_tanimi:** ‘İnsanı, insana, insanla anlatma’ sözü; insan deneyiminin oyuncu ve karakter aracılığıyla başka insanlara canlı, eyleme dayalı ve sahnelenmiş biçimde sunulmasını vurgular.
 
 **Kabul ölçütleri:**
 - Diyalog ile günlük iletişim arasında işlevsel bağ kurar.
@@ -1534,7 +1535,9 @@ Karakter ilişkisi, jest-mimik, doğaçlama, beden, diksiyon, görsel-işitsel �
 
 <!-- answer:T4_G03_P283_YANSITMA -->
 **Beklenen cevap / cevap odağı:**
-Öğrenci rolde yaşadığı duygu/düşünceyi, güçlü ve geliştirilmesi gereken yönlerini, akran geribildiriminden öğrendiklerini ve bir sonraki canlandırmada değiştireceği davranışı somutlaştırmalıdır.
+- **q1_yansitma:** Öğrenci canlandırdığı rolün kendisinde oluşturduğu duygu ve düşünceleri somut performans deneyimiyle ilişkilendirerek yansıtma yazısında değerlendirir.
+- **q2_rol_arkadasi:** Rol arkadaşlarının görüşlerini toplar; geri bildirimleri güçlü ve geliştirilmesi gereken yönler bakımından değerlendirir ve gerekçeli olarak kabul eder, sınırlar veya reddeder.
+- **q3_konusmaci_kimligi:** Aldığı eleştiriler ve edindiği tecrübelerden hareketle diksiyon, beden dili, özgünlük, rol tutarlılığı veya izleyiciyle iletişim gibi alanlarda kendi konuşmacı kimliğine ilişkin somut bir gelişim hedefi belirler.
 
 **Kabul ölçütleri:**
 - Öz değerlendirme somut performans kanıtına dayanır.

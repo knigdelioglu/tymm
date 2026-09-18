@@ -2143,14 +2143,14 @@ _Not: Birebir soru metni canonical teacher-guide verisinde tutulmadığı için 
 
 <!-- answer:T3_G21_P230_Q1_2#Q1 -->
 **Beklenen cevap / cevap odağı:**
-Metinlerin tez/antitez sınıflandırmasında, parçanın yazar hayatıyla doğrulanabilir ilişkisi esas alınmalıdır. PDF metin dilimi tek başına tüm parçaların kaynak başlıklarını görünür kılmadığı için rehber, kaynaksız kesin numara anahtarı üretmez.
+Metinlerin tez/antitez sınıflandırmasında, parçanın yazar hayatıyla doğrulanabilir ilişkisi esas alınmalıdır. PDF sayfasında parçaların kaynak/yazar bilgileri görünmediği için rehber kaynaksız kesin numara anahtarı üretmez.
 
 **Kabul ölçütleri:**
 - Tez/antitez seçimini kaynak/metin kanıtıyla gerekçelendirir.
 - Kesişim cümlesi iki yargıyı uzlaştırır.
 
 **Canonical öğretmen notu:**
-- Basılı sayfa görselindeki kaynak başlıkları ayrıca doğrulanırsa numara anahtarı güncellenebilir.
+- Parçaların kaynak/yazar bilgileri ayrı bir doğrulanmış kaynakta görülmeden kesin numara anahtarı üretmeyin.
 
 #### Soru 2
 <!-- task:T3_G21_P230_Q1_2#Q2 -->
@@ -2168,7 +2168,7 @@ Edebî metinler sanatçının yaşantı ve gözlemlerinden izler taşıyabilir; 
 - Kesişim cümlesi iki yargıyı uzlaştırır.
 
 **Canonical öğretmen notu:**
-- Basılı sayfa görselindeki kaynak başlıkları ayrıca doğrulanırsa numara anahtarı güncellenebilir.
+- Parçaların kaynak/yazar bilgileri ayrı bir doğrulanmış kaynakta görülmeden kesin numara anahtarı üretmeyin.
 
 #### Soru 3
 <!-- task:T3_G21_P231_Q3_6#Q3 -->
@@ -2179,11 +2179,16 @@ _Not: Birebir soru metni canonical teacher-guide verisinde tutulmadığı için 
 
 <!-- answer:T3_G21_P231_Q3_6#Q3 -->
 **Beklenen cevap / cevap odağı:**
-Kurmaca dış gerçeklikten yararlanabilir; değer yalnız ‘gerçeğe uygunluk’tan değil estetik kurgu, çok anlamlılık, inandırıcılık ve özgün anlatımdan doğar.
+- **kurmaca:** Yazarın yarattığı anlatı dünyası.
+- **gerceklik_izlenimi:** Kurmaca dünyanın gerçekmiş gibi inandırıcı algılanmasını sağlayan düzenleme.
+- **okur_yorumu:** Okurun kültürel birikim, ilgi ve değerleriyle metne anlam vermesi.
+- **nesnellik:** Dış dünyaya ilişkin doğrulanabilir/kişiden bağımsız olma iddiası.
+- **cok_anlamlilik:** Metnin farklı okurlarca birden fazla tutarlı biçimde yorumlanabilmesi.
 
 **Kabul ölçütleri:**
-- Q4=E, Q5=C.
-- Kavram açıklamaları metnin kurmaca-gerçeklik paragrafıyla uyumludur.
+- Q5=E, Q6=C.
+- Q3 kavram açıklamaları metnin kurmaca-gerçeklik paragrafıyla uyumludur.
+- Q4 görüşü metindeki kurmaca/gerçeklik ayrımıyla gerekçelendirilir.
 
 #### Soru 4
 <!-- task:T3_G21_P231_Q3_6#Q4 -->
@@ -2194,11 +2199,12 @@ _Not: Birebir soru metni canonical teacher-guide verisinde tutulmadığı için 
 
 <!-- answer:T3_G21_P231_Q3_6#Q4 -->
 **Beklenen cevap / cevap odağı:**
-E
+Kurmaca dış gerçeklikten yararlanabilir; değer yalnız ‘gerçeğe uygunluk’tan değil estetik kurgu, çok anlamlılık, inandırıcılık ve özgün anlatımdan doğar.
 
 **Kabul ölçütleri:**
-- Q4=E, Q5=C.
-- Kavram açıklamaları metnin kurmaca-gerçeklik paragrafıyla uyumludur.
+- Q5=E, Q6=C.
+- Q3 kavram açıklamaları metnin kurmaca-gerçeklik paragrafıyla uyumludur.
+- Q4 görüşü metindeki kurmaca/gerçeklik ayrımıyla gerekçelendirilir.
 
 #### Soru 5
 <!-- task:T3_G21_P231_Q3_6#Q5 -->
@@ -2209,11 +2215,12 @@ _Not: Birebir soru metni canonical teacher-guide verisinde tutulmadığı için 
 
 <!-- answer:T3_G21_P231_Q3_6#Q5 -->
 **Beklenen cevap / cevap odağı:**
-C
+E
 
 **Kabul ölçütleri:**
-- Q4=E, Q5=C.
-- Kavram açıklamaları metnin kurmaca-gerçeklik paragrafıyla uyumludur.
+- Q5=E, Q6=C.
+- Q3 kavram açıklamaları metnin kurmaca-gerçeklik paragrafıyla uyumludur.
+- Q4 görüşü metindeki kurmaca/gerçeklik ayrımıyla gerekçelendirilir.
 
 #### Soru 6
 <!-- task:T3_G21_P231_Q3_6#Q6 -->
@@ -2224,15 +2231,12 @@ _Not: Birebir soru metni canonical teacher-guide verisinde tutulmadığı için 
 
 <!-- answer:T3_G21_P231_Q3_6#Q6 -->
 **Beklenen cevap / cevap odağı:**
-- **kurmaca:** Yazarın yarattığı anlatı dünyası.
-- **gerceklik_izlenimi:** Kurmaca dünyanın gerçekmiş gibi inandırıcı algılanmasını sağlayan düzenleme.
-- **okur_yorumu:** Okurun kültürel birikim, ilgi ve değerleriyle metne anlam vermesi.
-- **nesnellik:** Dış dünyaya ilişkin doğrulanabilir/kişiden bağımsız olma iddiası.
-- **cok_anlamlilik:** Metnin farklı okurlarca birden fazla tutarlı biçimde yorumlanabilmesi.
+C
 
 **Kabul ölçütleri:**
-- Q4=E, Q5=C.
-- Kavram açıklamaları metnin kurmaca-gerçeklik paragrafıyla uyumludur.
+- Q5=E, Q6=C.
+- Q3 kavram açıklamaları metnin kurmaca-gerçeklik paragrafıyla uyumludur.
+- Q4 görüşü metindeki kurmaca/gerçeklik ayrımıyla gerekçelendirilir.
 
 #### Soru 7
 <!-- task:T3_G21_P232_233_Q7_11#Q7 -->
@@ -2246,7 +2250,8 @@ _Not: Birebir soru metni canonical teacher-guide verisinde tutulmadığı için 
 Gündelik yaşam %40 ile en yüksek temadır; bu, Garip şiirinin sıradan insanı/gündelik hayatı şiire taşıma ve yalınlık anlayışıyla uyumludur.
 
 **Kabul ölçütleri:**
-- Q8=C.
+- Q9=C.
+- Q8 tanıtılan yönleri metin ayrıntılarıyla gerekçelendirir.
 - Q10 puan hesabını gösterir.
 - Q11 iki yanlış kavramı düzeltir.
 
@@ -2259,10 +2264,11 @@ _Not: Birebir soru metni canonical teacher-guide verisinde tutulmadığı için 
 
 <!-- answer:T3_G21_P232_233_Q7_11#Q8 -->
 **Beklenen cevap / cevap odağı:**
-C
+Orhan Veli; şair ve öykücü kimliği, Garip akımıyla ilişkisi, şiir ve öykülerindeki temaları, sade-akıcı üslubu ve Çehov tarzı öykücülüğü üzerinden tanıtılır.
 
 **Kabul ölçütleri:**
-- Q8=C.
+- Q9=C.
+- Q8 tanıtılan yönleri metin ayrıntılarıyla gerekçelendirir.
 - Q10 puan hesabını gösterir.
 - Q11 iki yanlış kavramı düzeltir.
 
@@ -2275,10 +2281,11 @@ _Not: Birebir soru metni canonical teacher-guide verisinde tutulmadığı için 
 
 <!-- answer:T3_G21_P232_233_Q7_11#Q9 -->
 **Beklenen cevap / cevap odağı:**
-Orhan Veli; şair/öykücü kimliği, Garip akımıyla ilişkisi, temaları, sade-akıcı üslubu ve Çehov tarzı öykücülüğü üzerinden tanıtılır.
+C
 
 **Kabul ölçütleri:**
-- Q8=C.
+- Q9=C.
+- Q8 tanıtılan yönleri metin ayrıntılarıyla gerekçelendirir.
 - Q10 puan hesabını gösterir.
 - Q11 iki yanlış kavramı düzeltir.
 
@@ -2294,7 +2301,8 @@ _Not: Birebir soru metni canonical teacher-guide verisinde tutulmadığı için 
 II. grup Tablo A’dır: üç doğru (+15) ve ‘tutum’ ifadesi yanlış (-2) → 13 puan.
 
 **Kabul ölçütleri:**
-- Q8=C.
+- Q9=C.
+- Q8 tanıtılan yönleri metin ayrıntılarıyla gerekçelendirir.
 - Q10 puan hesabını gösterir.
 - Q11 iki yanlış kavramı düzeltir.
 
@@ -2310,7 +2318,8 @@ _Not: Birebir soru metni canonical teacher-guide verisinde tutulmadığı için 
 I. grubun tam puan için ‘Tarafsızlık’ ve ‘Kronoloji’ açıklamalarını düzeltmesi gerekir: biyografide tarafsızlık göz ardı edilmez; kronolojik sıra yaygın olsa da mutlak zorunluluk değildir.
 
 **Kabul ölçütleri:**
-- Q8=C.
+- Q9=C.
+- Q8 tanıtılan yönleri metin ayrıntılarıyla gerekçelendirir.
 - Q10 puan hesabını gösterir.
 - Q11 iki yanlış kavramı düzeltir.
 
