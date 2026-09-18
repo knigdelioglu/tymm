@@ -44,3 +44,9 @@ Her temada:
 - `answer_bank.json`: legacy teacher-guide kaynağına dayanmayan temiz cevap kayıtları.
 
 Bu kaynaklar öğretmen kitabının üslubunu belirlemez; yalnız içerik doğrulama ve kaynak bağlama için kullanılır.
+
+## Geçiş durumu
+
+Legacy Teacher Guide V2/V2.2, V2.3 ve V3 authoring ağaçları aktif repodan kaldırılmıştır. Yeni öğretmen kitabı bu geçmiş modelleri çalışma zamanında veya üretimde kaynak olarak kullanmaz. Eski sürümler yalnız Git geçmişinde bulunur.
+
+Nötr kaynak katmanı 4 tema için toplam **576** ders kitabı görev/kayıt konumu ve **234** legacy bağı olmayan temiz cevap kaydı içerir.
