@@ -115,7 +115,13 @@
       "timeline_blocks": 16,
       "source_references": 8,
       "entity_source_references": 4,
-      "lesson_plan_packages": 88
+      "lesson_plan_packages": 88,
+      "canonical_entities": 0,
+      "teacher_guides": 0,
+      "teacher_guide_sections": 0,
+      "teacher_guide_units": 0,
+      "teacher_guide_items": 0,
+      "teacher_guide_item_relations": 0
     }
   },
   "final": "PASS"
