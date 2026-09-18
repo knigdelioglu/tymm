@@ -73,7 +73,6 @@
         "theme_id",
         "item_type",
         "expected_answer",
-        "acceptance_criteria",
         "source_ids",
         "source_locators",
         "verification_status"
@@ -98,13 +97,6 @@
           "minLength": 1
         },
         "expected_answer": {},
-        "acceptance_criteria": {
-          "type": [
-            "array",
-            "string",
-            "object"
-          ]
-        },
         "source_ids": {
           "type": "array",
           "items": {

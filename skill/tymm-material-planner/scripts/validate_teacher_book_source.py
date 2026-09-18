@@ -32,6 +32,7 @@ FORBIDDEN_KEYS = {
     "teacher_moves",
     "follow_up_questions",
     "board_notes",
+    "acceptance_criteria",
 }
 SOURCE_ID_RE = re.compile(r"^T0[1-4]-S\d{4}$")
 ANSWER_ID_RE = re.compile(r"^T0[1-4]-A\d{4}$")
@@ -110,7 +111,6 @@ def main() -> int:
                 failures.append(f"LEGACY_TEXT_LEAK:{theme}:{token}")
         if LEGACY_ID_RE.search(raw):
             failures.append(f"LEGACY_ID_LEAK:{theme}")
-        leaked_keys = sorted(set(walk_keys(source)) | set(walk_keys(bank)) & FORBIDDEN_KEYS)
         actually_leaked = sorted((set(walk_keys(source)) | set(walk_keys(bank))) & FORBIDDEN_KEYS)
         for key in actually_leaked:
             failures.append(f"LEGACY_FIELD_LEAK:{theme}:{key}")

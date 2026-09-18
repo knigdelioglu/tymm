@@ -4,7 +4,7 @@
   "course_id": "TDE_11",
   "theme_id": "TEMA_02",
   "authority": "SOURCE_FILTERED_CANONICAL_ANSWERS",
-  "policy": "Only answers with source provenance independent of retired teacher-guide content and not classified as PEDAGOGICAL_ENRICHMENT are retained. This is a factual answer bank, not a pedagogy template.",
+  "policy": "Retains source-bound answer content only. Retired guide prose, pedagogical criteria and authoring templates are excluded; this bank is for factual answer support, not style imitation.",
   "counts": {
     "answers": 74,
     "excluded_legacy_or_pedagogical": 0,
@@ -31,7 +31,6 @@
           "çevrim içi müze gezisine dayalı yansıtıcı yazı"
         ]
       },
-      "acceptance_criteria": [],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -47,10 +46,6 @@
       "label": "Dede Korkut alıntısı — geçicilik ve kültürel bellek",
       "item_type": "REFERENCE",
       "expected_answer": "Alıntı, insan hayatının geçiciliğini; sözlü/yazılı kültür ürünlerinin ise toplumsal belleği kuşaklar arasında taşıyabildiğini düşündürür.",
-      "acceptance_criteria": [
-        "Geçicilik/ölümlülük temasını fark eder.",
-        "Dede Korkut’u kültürel bellekle ilişkilendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -70,11 +65,6 @@
         "2": "İslâm Bey yalnız vatansever bir kahraman değil, vatan fikrini bilinçli biçimde açıklayan ve savunan bir düşünce taşıyıcısıdır; söz ve eylemleriyle bu fikri temellendirir.",
         "3": "Vatan yahut Silistre, Dede Korkut Hikâyeleri, İstiklâl Marşı, Nutuk çevresindeki edebî/retorik metinler veya başka uygun eserler; dil, ortak hafıza, değer ve ideal tipler üzerinden gerekçelendirilebilir."
       },
-      "acceptance_criteria": [
-        "Edebiyatın kimlik/kültür aktarımı işlevini açıklar.",
-        "İkinci soruda nazariyatçı kavramını fikir üretme/savunmayla ilişkilendirir.",
-        "Üçüncü soruda en az bir eser + işlev gerekçesi verir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -100,11 +90,6 @@
           "dil öğretimi ve sözlük/korpus projeleri"
         ]
       },
-      "acceptance_criteria": [
-        "Dil birliğinin iletişim ve kültürel bağ boyutunu açıklar.",
-        "Ortak alfabenin katkısını somutlaştırır.",
-        "En az iki uygulanabilir öneri sunar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -122,10 +107,6 @@
       "expected_answer": {
         "odak": "Ortak oyuncak, bayram/şenlik, Nevruz, tarım, gönül coğrafyası ve yaş gibi ortak/çok anlamlı dil-kültür unsurları üzerinden bağlantı kurulur."
       },
-      "acceptance_criteria": [
-        "En az bir görsel/kültür unsurunu ortak kültürle ilişkilendirir.",
-        "Gönül coğrafyasını yalnız fizikî sınır değil tarihî-kültürel bağ olarak yorumlar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -141,10 +122,6 @@
       "label": "Türk dünyasında ortak kelime kartları ve kelime duvarı",
       "item_type": "PROCESS",
       "expected_answer": "Öğrenciler Türk lehçe/şivelerinden ortak ya da benzer kelimeler bulur, anlam tahmini yapar ve sınıf kelime duvarında sınıflandırır.",
-      "acceptance_criteria": [
-        "Kaynağa dayalı kelime örneği getirir.",
-        "Anlam tahminini bağlam veya karşılaştırmayla gerekçelendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -163,10 +140,6 @@
         "tahmin": "Başlık/görsellerden baba-oğul ilişkisi, ayrılık/özlem ve buluşma ekseninde bir hikâye beklenebilir.",
         "strateji": "Okuma amacı belirlenir; başlık, görsel ve yazar bilgisiyle tahmin yapılır; vurgu-tonlama ve olay akışını izlemeye uygun aktif okuma stratejisi seçilir."
       },
-      "acceptance_criteria": [
-        "Tahmini görünür ipucuna bağlar.",
-        "Okuma amacını ve stratejisini açıklar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -187,10 +160,6 @@
         "hat": "Yüz çizgisi/biçim; bağlama göre “bütün hatlarıyla” = görünüş/çizgiler.",
         "toynak": "At gibi tek tırnaklı hayvanların ayağındaki sert bölüm."
       },
-      "acceptance_criteria": [
-        "Anlamı metin bağlamıyla ilişkilendirir.",
-        "Kelimeyi yeni bir cümlede anlamına uygun kullanır."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -217,10 +186,6 @@
           "yer yer anlam farklılaşmaları"
         ]
       },
-      "acceptance_criteria": [
-        "En az iki somut kelime/biçim örneğiyle karşılaştırır.",
-        "Farklılığı dil çeşitliliği olarak yorumlar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -247,10 +212,6 @@
         ],
         "kultur_gorselleri": "Öğrenci ortak yemek, müzik, el sanatı, gelenek, mimari, oyun, giyim veya bayramlardan uygun örnekler önerebilir."
       },
-      "acceptance_criteria": [
-        "Anlatmaya bağlı metnin en az dört temel unsurunu doğru verir.",
-        "Kültür görselini gerekçelendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -278,11 +239,6 @@
           "amac": "Savaşın aile üzerindeki izlerini; baba sevgisi, fedakârlık, yas, hatıra ve insanî değerler üzerinden düşündürmek."
         }
       },
-      "acceptance_criteria": [
-        "Cevaplarını metindeki olay/kişiye bağlar.",
-        "Psikolojik yorumlarda metin kanıtı kullanır.",
-        "6. soruda tek doğru yerine gerekçeli tutum aranır."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -313,10 +269,6 @@
         "zihniyet": "II. Dünya Savaşı şartları, aile ve toplumun fedakârlık/erkeklik/kahramanlık değerleri.",
         "uslup": "Sade, akıcı, duygusal yoğunluğu güçlü ve gözleme dayalı."
       },
-      "acceptance_criteria": [
-        "Öznel/nesnel örnekleri metinden seçer.",
-        "Tablo başlıklarını metin kanıtıyla doldurur."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -332,11 +284,6 @@
       "label": "Oğulla Buluşma — özetleme",
       "item_type": "PERFORMANCE_TASK",
       "expected_answer": "Özet; Çordon’un yıllar sonra oğlunun izini sürmeye karar vermesini, geçmişte Sultan’ın gönüllü askere gidişini ve baba-oğul vedasını, bu hatıranın Çordon’un yas/özlem duygusuyla bugüne taşınmasını olay sırasını bozmadan kısa biçimde vermelidir.",
-      "acceptance_criteria": [
-        "Ana olayları korur.",
-        "Ayrıntı ve yorumla özeti şişirmez.",
-        "Olay sırasını anlaşılır verir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -359,11 +306,6 @@
           "noktalama işaretlerinin işlevi"
         ]
       },
-      "acceptance_criteria": [
-        "Fiilleri biçim ve cümledeki işlevine göre sınıflandırır.",
-        "Çatı türünü yalnız eke bakarak değil özne/nesne ilişkisiyle açıklar.",
-        "Noktalama işaretinin bağlamdaki işlevini belirtir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -393,10 +335,6 @@
         "tema": "Baba sevgisi, özlem, savaşın acısı, fedakârlık ve hatıra.",
         "olay_orgusu": "Çordon’un oğlunun izini sürme kararı → geçmişte askere gidiş/istasyon çatışması → baba-oğul vedası → oğlun ölümü ve yıllar sonra hatırayla yüzleşme."
       },
-      "acceptance_criteria": [
-        "Harita öğelerini metinle uyumlu doldurur.",
-        "Tema-olay-kişi bağlantılarını gerekçelendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -416,10 +354,6 @@
         "cordon_kizlar": "Kızlar koruma ve aile kaygısıyla Sultan’ı geri döndürmek ister; Çordon ise Sultan’ın gönüllü iradesi ve mertlik/fedakârlık değerini öne çıkarır.",
         "cordon_es": "Eşinin söylemek isteyip susması, üvey annelik konumu ve yanlış anlaşılma korkusunun iç/iletişim çatışmasına dönüşmesidir."
       },
-      "acceptance_criteria": [
-        "Çatışmanın taraflarını ve değerlerini ayırır.",
-        "Görüşünü gerekçeyle savunur ve karşı görüşü dinledikten sonra yeniden değerlendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -455,10 +389,6 @@
         },
         "aytmatov": "Kırgız coğrafyası, gelenek, savaş tecrübesi ve yerel insanlardan hareket ederek aile, kayıp, sevgi ve fedakârlık gibi evrensel temalara ulaşır."
       },
-      "acceptance_criteria": [
-        "Değer sınıflamasını metin örneğiyle destekler.",
-        "Yazarın millîden evrensele yönelişini açıklar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -479,10 +409,6 @@
         "cografya": "Mekânların fizikî ve insanî özelliklerini görünür kılar.",
         "sosyoloji": "Toplumsal ilişkiler, sınıflar, alışkanlıklar ve yaşam biçimleri hakkında veri/izlenim sunar."
       },
-      "acceptance_criteria": [
-        "Tahmini gerçek metin bulgusuyla karşılaştırır.",
-        "Üç sosyal bilim alanından en az bir somut bağlantı kurar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -504,10 +430,6 @@
         "4": "Sultan’ın gönüllü fedakârlık ve sorumluluk anlayışına katılma/katılmama; gerekçe zorunlu.",
         "5": "Öğrencinin metinden seçtiği kısa ifadeler; seçim gerekçesi çağrışım/dil etkisiyle açıklanabilir."
       },
-      "acceptance_criteria": [
-        "Kişisel yargıları metin olaylarıyla ilişkilendirir.",
-        "3-4. sorularda gerekçeyi esas alır."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -527,10 +449,6 @@
         "iki_sor": "Bu çağrışım zenginliğini sorgulayan iki açık uçlu soru.",
         "bir_paylas": "Öğrenciyi en çok etkileyen kısa ifade + tercihen gerekçe."
       },
-      "acceptance_criteria": [
-        "3+2+1 yapısını eksiksiz tamamlar.",
-        "Seçimler metne dayanır."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -552,10 +470,6 @@
         "4": "Çince yüz, dönemin diplomatik/kültürel ilişkileri ve metnin karşılaştırmalı okunması bakımından ek tarihî-dilsel veri sağlar.",
         "5": "Kaplumbağa/kalıcı kaide ve “bengü taş” fikri, sözün ve hatıranın uzun ömürlü olması/ebediyet arzusuyla ilişkilendirilebilir."
       },
-      "acceptance_criteria": [
-        "Medya sorularında yalnız gerçekten gözlenen unsur iddia edilir.",
-        "Orhun’un dil-tarih-kültür önemini en az iki boyutla açıklar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -575,10 +489,6 @@
         "tahmin": "Başlık/görsel ve “abide” kavramından tarihî, öğretici, hitabet yönü güçlü bir yazıt beklenebilir.",
         "strateji": "Anahtar sözleri işaretleme, hitap/öğüt bölümlerini ayırma, olay/mesaj notu çıkarma gibi aktif okuma."
       },
-      "acceptance_criteria": [
-        "Amaç ve strateji belirtir.",
-        "Tahmini başlık/görsel kanıtına bağlar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -601,9 +511,6 @@
         "sad": "Eski Türklerde kağan ailesinden yönetici/askerî-idarî unvan sahibi kişi.",
         "kilmak": "Etmek, yapmak."
       },
-      "acceptance_criteria": [
-        "Eşleştirmeleri bağlama uygun yapar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -629,10 +536,6 @@
           "uygun merkez/Ötüken etrafında düzen"
         ]
       },
-      "acceptance_criteria": [
-        "Amaç ve öğütleri metindeki hitap/iletiyle ilişkilendirir.",
-        "Günümüzde geçerliliği konusunda gerekçe verir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -648,9 +551,6 @@
       "label": "Bilge Kağan — tarihî kişilik çıkarımı",
       "item_type": "QUESTION",
       "expected_answer": "Milletini uyaran ve yöneten bir kağan; Kül Tigin’in hatırasını yaşatmak için yazıt/bark yaptıran, devlet, hukuk/töre, toplum dayanışması ve ekonomik refah üzerinde duran bir lider olarak görülebilir.",
-      "acceptance_criteria": [
-        "Parça + yazıttan en az iki ayrıntı çıkarır."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -675,10 +575,6 @@
         ],
         "yorum": "Söz sanatları kısa taş yazıt metninde vurguyu, akılda kalıcılığı, hitabet gücünü ve duygusal/ikna edici etkiyi artırır."
       },
-      "acceptance_criteria": [
-        "Metinden uygun örnek seçer.",
-        "Söz sanatının anlatım gücüne katkısını açıklar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -709,10 +605,6 @@
           "amac": "bilgilendirmek, uyarmak, yönlendirmek ve kalıcı tarihî kayıt bırakmak"
         }
       },
-      "acceptance_criteria": [
-        "Kurmaca/nesnel-tarihî gerçeklik ayrımını gözetir.",
-        "Tür ve amaç farkını gerekçelendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -728,10 +620,6 @@
       "label": "Dil-kültür-tarih birliğinin millet hayatındaki önemi",
       "item_type": "QUESTION",
       "expected_answer": "Dil ortak hafızayı ve kültürel değerleri taşır; tarih ortak tecrübe ve süreklilik bilinci verir; kültür ortak anlam/değer dünyasını kurar. Birlikte aidiyet ve millet olma bilincini güçlendirir, geçmişten ders aktarımını sağlar.",
-      "acceptance_criteria": [
-        "Dil, kültür ve tarihin her birine ayrı işlev verir.",
-        "Orhun örneğiyle ilişki kurar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -750,10 +638,6 @@
         "1": "Bilge Kağan, devlet düzeninin ve siyasî merkezin Ötüken’de tutulmasını öğütler. Konargöçer hareketlilik önemli olsa da stratejik merkez, birlik ve güvenlik için sabit bir merkez düşüncesi savunulur.",
         "2": "Yerleşik hayat üretim, kurum, altyapı ve idare sürekliliğini; konargöçer hayat hareketlilik ve çevreye uyumu destekleyebilir. Devletin uzun ömürlülüğü yaşam tarzından çok kurum, kaynak, güvenlik ve uyumla birlikte değerlendirilmelidir."
       },
-      "acceptance_criteria": [
-        "Ötüken tavsiyesini devlet/merkez fikriyle açıklar.",
-        "Yaşam tarzı tartışmasında tek yönlü genelleme yapmaz."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -788,10 +672,6 @@
         ],
         "donem_iliskisi": "Göktürklerin devlet/töre, savaş, coğrafya, yas töreni ve sosyal düzenine ait unsurlar metne yansır."
       },
-      "acceptance_criteria": [
-        "Her başlığı metin örneğiyle gerekçelendirir.",
-        "Hitabet/anı/tarihî belge özelliklerinin üsluba etkisini açıklar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -830,10 +710,6 @@
         "cografya": "Ötüken ve sefer coğrafyası üzerinden mekân-devlet ilişkisi.",
         "sosyoloji": "Toplum, bey-millet ilişkisi, töre ve dayanışma anlayışı."
       },
-      "acceptance_criteria": [
-        "Değerleri metin kanıtıyla sınıflandırır.",
-        "Disiplinlerarası ilişkide abidelerin dil/tarih değerini açıklar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -858,11 +734,6 @@
         "7": "Alan taraması, farklı bölge/konuşur örnekleri, ses-yazı kaydı, anlam/örnek cümle, kaynak doğrulama, sınıflandırma ve dijital veri tabanı/sözlük çalışmaları gerekir.",
         "kaplan_sozu": "DLT yalnız kelime listesi değil, kelimelerin taşıdığı eşya, yaşam, inanç, gelenek ve düşünce dünyasıyla tarihî bir kültür “müzesi”dir."
       },
-      "acceptance_criteria": [
-        "DLT’nin dil bilimi + kültür belgesi niteliğini birlikte açıklar.",
-        "4. soruda anlam daralmasını gerekçelendirir.",
-        "Karşılaştırmada amaç ve üslup farkını verir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -890,10 +761,6 @@
           "ortak iletişim ihtiyacı"
         ]
       },
-      "acceptance_criteria": [
-        "En az bir neden ve iki sonuç verir.",
-        "Çeşitlenmeyi bozulma olarak değil tarihî gelişim olarak yorumlar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -913,9 +780,6 @@
         "2": "Metindeki kişi, yer, devlet anlayışı, savaş, töre ve anma unsurları tarihî gerçek dünya verileriyle örtüşür; edebî/hitabet düzenleme yine anlatım seçimi içerir.",
         "3": "Anlatıcı yerine geçildiğinde birlik, töre, devletin korunması ve gelecek kuşaklara seslenme amacı; öğrencinin kendi bakış açısıyla gerekçeli değerlendirilir."
       },
-      "acceptance_criteria": [
-        "Üç cevap da metin kanıtı veya tarihî bağlama dayanır."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -935,10 +799,6 @@
         "2": "Türk dünyasının farklı siyasî statülerde geniş bir coğrafyada varlık göstermesi, uluslararası ilişkilerde nüfus, coğrafya, enerji, kültür ve iş birliği bakımından dikkate değer bir aktör potansiyeli oluşturur.",
         "3": "Türklerin farklı dönemlerde geniş coğrafyalarda devlet kurması, göç, ticaret, savaş, kültürel etkileşim ve kurumlaşma yoluyla tarihsel süreçleri etkilemiştir."
       },
-      "acceptance_criteria": [
-        "Medya ayrıntısı iddiası yalnız gerçekten izlenen içeriğe dayanır.",
-        "Genel yorum en az bir somut tarih/kültür alanıyla desteklenir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -965,11 +825,6 @@
         ],
         "organizasyon": "Altı grup/istasyon, sözcü, görsellerin sınıflandırılması, on dakikalık paylaşım ve istasyon rotasyonu."
       },
-      "acceptance_criteria": [
-        "Amaç-hedef kitle-yöntem-strateji belirlenir.",
-        "Teknik/ortam engelleri önceden kontrol edilir.",
-        "Her istasyon önceki grubun bilgisini geliştirir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -989,11 +844,6 @@
         "gelisme": "Ortak kültür unsurlarını karşılaştırma, örnek, görsel ve grup araştırmasıyla geliştirme.",
         "sonuc": "Ana düşünceyi toparlama ve ortak dil/kültür bağının önemine bağlama."
       },
-      "acceptance_criteria": [
-        "Giriş-gelişme-sonuç işlevlerini ayırır.",
-        "Hedef kitle beklentisini içerik seçimine yansıtır.",
-        "Dil yapılarını işlevine uygun kullanır."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1024,10 +874,6 @@
         ],
         "3": "Kültür, kelime hazinesi, deyim/atasözü, adlandırma, hitap ve anlatım biçimlerinde iz bırakır; dil de kültürü saklar ve aktarır."
       },
-      "acceptance_criteria": [
-        "Nedenleri tek bir faktöre indirgemez.",
-        "Dil-kültür ilişkisinde karşılıklı etkileşimi açıklar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1054,10 +900,6 @@
         ],
         "beklenti": "Her coğrafyada hem ortak kök/benzerlik hem de yerel-tarihî farklılıklar kanıta dayalı biçimde gösterilir."
       },
-      "acceptance_criteria": [
-        "En az üç kategori için benzerlik/farklılık yazar.",
-        "Kaynağı olmayan genellemeleri kesin bilgi gibi sunmaz."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1073,11 +915,6 @@
       "label": "Konuşma metnini hazırlama ve akran geri bildirimi",
       "item_type": "PERFORMANCE_TASK",
       "expected_answer": "Metin; amaç ve dinleyiciye uygun söz varlığı, açıklayıcı/karşılaştırmalı örnekler, görsel dayanaklar, açık ana düşünce ve giriş-gelişme-sonuç örgüsü taşımalıdır; akran geri bildirimi sonrası revize edilir.",
-      "acceptance_criteria": [
-        "Konuşma planına uygun metin yazar.",
-        "Görsel/kaynak dayanağını açıklar.",
-        "Akran geri bildirimiyle en az bir anlamlı revizyon yapar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1108,10 +945,6 @@
           "göz teması, mekân/süre ve görgü"
         ]
       },
-      "acceptance_criteria": [
-        "Konuşma sırasında görünür biçimde ölçütlerin çoğunu uygular.",
-        "Kaynak/görsel dayanağına gerekçeli açıklama ekler."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1140,10 +973,6 @@
           "göz teması-mekân-süre-görgü"
         ]
       },
-      "acceptance_criteria": [
-        "Evet/Kısmen/Hayır seçimleri gerçek performans kanıtına dayanır.",
-        "Kısmen/Hayır alanlarından en az biri için yeni hedef belirler."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1161,9 +990,6 @@
       "expected_answer": {
         "odak": "Âşık; saz/şiir, usta-çırak, doğaçlama, halkla ilişki ve kültür aktarımıyla birlikte değerlendirilir; Âşık Veysel’in sazıyla kurduğu bağ sanatçı-eser/araç ilişkisinin duygusal yönünü görünür kılar."
       },
-      "acceptance_criteria": [
-        "Âşıklığı yalnız “şiir söyleme” değil gelenek ve icra bütünü olarak açıklar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1184,10 +1010,6 @@
         "tahmin": "İki âşığın saz eşliğinde karşılıklı, doğaçlama ve aynı uyak/ayak düzenine cevap verdiği şiirsel performans.",
         "engeller": "gürültü, dikkat dağıtıcılar, teknik ses/görüntü sorunu, ön yargı, söz kesme vb."
       },
-      "acceptance_criteria": [
-        "Amaç-strateji tutarlıdır.",
-        "En az bir ortam ve bir dinleyici kaynaklı engeli önler."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1212,10 +1034,6 @@
           "ses/yorum ve seyirciyle etkileşim"
         ]
       },
-      "acceptance_criteria": [
-        "Geleneği doğru adlandırır.",
-        "Sanatsal gücü en az iki unsurla açıklar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1239,9 +1057,6 @@
           "dikkat dağıtıcı davranıştan kaçınma"
         ]
       },
-      "acceptance_criteria": [
-        "FORM_T2_P139_KONTROL_LISTESI_06 maddelerini gerçek süreç davranışına göre işaretler."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1263,10 +1078,6 @@
         "kahir": "Derin üzüntü, sıkıntı, dert.",
         "saban": "Toprağı sürmeye yarayan tarım aracı."
       },
-      "acceptance_criteria": [
-        "Anlamı gerçek dinleme bağlamına göre doğrular.",
-        "Yerine önerilen kelime anlamı bozmaz."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1291,10 +1102,6 @@
         ],
         "2": "Dil, sözlü hafıza, müzik, mizah, değerler ve tarihî tecrübeyi kuşaklar arasında taşıdığı; Türk dünyası içindeki kültürel bağı görünür kıldığı için önemlidir."
       },
-      "acceptance_criteria": [
-        "Koruma için en az iki uygulanabilir öneri verir.",
-        "Önemi kültür aktarımıyla ilişkilendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1314,10 +1121,6 @@
         "2": "Benzetmeler ve başka söz oyunları zekâ/hazırcevaplık etkisini, mizahı ve şiirsel estetiği artırır; somut örnek dinlenen kayıttan seçilmelidir.",
         "mizah_karsilastirma": "Atışmada uyak, mecaz, taşlama, söz oyunu ve karşılıklı cevap; günlük mizah ise bağlama göre ironi, abartı, kelime oyunu vb. kullanabilir."
       },
-      "acceptance_criteria": [
-        "Atışma işlevini karşılıklılık/doğaçlamayla açıklar.",
-        "Benzetme örneğini yalnız gerçekten dinlenen metinden seçer."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1337,10 +1140,6 @@
         "farklilik": "Atışmada ölçü/uyak, saz-performans bağlamı, doğaçlama, yerel söyleyiş ve söz oyunları belirgindir; Münacaat modern şiirsel kurgu, serbest yapı ve yoğun imge/soyutlama yönüyle ayrılabilir.",
         "cikarim": "Âşıklar halk dilini estetik düzen, ses, uyak, mecaz ve hazırcevaplıkla dönüştürür."
       },
-      "acceptance_criteria": [
-        "Benzerlik ve farklılığı dilsel kanıtla yazar.",
-        "İki şiir geleneğini “iyi-kötü” hiyerarşisine sokmaz."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1365,10 +1164,6 @@
           "duygusal/estetik etki"
         ]
       },
-      "acceptance_criteria": [
-        "Kendi beğeni ölçütlerini önceden belirler.",
-        "Seçtiği bölümü bu ölçütlerle gerekçelendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1388,9 +1183,6 @@
         "2": "Âşıklar söz varlığı, şiir/müzik kalıpları, hikâyeler, değerler ve tarihî hafızayı canlı icrayla yeni kuşaklara aktarır.",
         "3": "Söz oyunlarındaki ustalık uzun gözlem, ezber, doğaçlama, dil hâkimiyeti ve ustadan çırağa aktarılan icra bilgisiyle gelişir."
       },
-      "acceptance_criteria": [
-        "Her cevap metindeki usta-çırak özellikleriyle ilişkilidir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1415,10 +1207,6 @@
           "karşılıklı etkileşim; videoda gerçekten gözlenen diğer unsur"
         ]
       },
-      "acceptance_criteria": [
-        "En az dört unsuru gerçek medya gözlemine göre doldurur.",
-        "Her unsurun anlama/etkiye katkısını açıklayabilir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1443,10 +1231,6 @@
           "genel düşünce"
         ]
       },
-      "acceptance_criteria": [
-        "Seçilen şapkanın bakış açısına uygun cevap üretir.",
-        "Geri bildirim sonrası cevabını gerekirse düzenler."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1469,10 +1253,6 @@
           "şiirsel biçimin dinleyici etkisini artırması"
         ]
       },
-      "acceptance_criteria": [
-        "Her yargı için ayrı tutum alır.",
-        "Son görüşünü en az bir gelenek/dil/müzik gerekçesiyle yazar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1502,10 +1282,6 @@
           "seyirci/diğer âşıkla etkileşim"
         ]
       },
-      "acceptance_criteria": [
-        "En az iki unsur + etkisini yazar.",
-        "Söyleyici katkısını gerçek gözleme bağlar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1529,10 +1305,6 @@
           "Bu temada öğrendiklerim hayatıma neler kattı?"
         ]
       },
-      "acceptance_criteria": [
-        "En az üç soruya somut öğrenme/strateji kanıtıyla cevap verir.",
-        "Gelecek dinleme için bir geliştirme hedefi belirler."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1550,9 +1322,6 @@
       "expected_answer": {
         "ana_fikir": "Sanal müzeler zaman/mekân bağımsız erişim, hızlı güncelleme ve çevrim içi etkileşim gibi imkânlar sunar; kültürel mirasa erişimi genişletebilir."
       },
-      "acceptance_criteria": [
-        "Yazma görevini sanal müze deneyimi ve kültürel mirasla ilişkilendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1576,10 +1345,6 @@
         "6": "Dikkat/erişim/teknik engeller azaltılır.",
         "7": "Seçilen strateji amaca göre yapılandırılır."
       },
-      "acceptance_criteria": [
-        "Müze seçim gerekçesi vardır.",
-        "Amaç-hedef kitle-strateji birbiriyle uyumludur."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1598,10 +1363,6 @@
         "urun": "Çevrim içi gezilen bir müzeye dair izlenimleri kültürel miras bağlamında yansıtan yazı.",
         "sure": "8 ders saati (kitaptaki performans görevi)."
       },
-      "acceptance_criteria": [
-        "Metin gerçek bir çevrim içi müze gezisi deneyimine dayanır.",
-        "İzlenim + kültürel miras bağlantısı kurar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1645,10 +1406,6 @@
           "gelenek ve törenler"
         ]
       },
-      "acceptance_criteria": [
-        "Müze ile kendi hayatı arasında en az iki karşılaştırma yapar.",
-        "Kültür taşıyıcısını işleviyle açıklar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1664,10 +1421,6 @@
       "label": "İçeriği özgün ifade, görsel/işitsel öge ve alıntıyla zenginleştirme",
       "item_type": "PROCESS",
       "expected_answer": "Karşılaştırma ve sınıflandırma sonuçları yazıda özgün cümlelere dönüştürülür; yalnız gerekli ve kaynaklı görsel/işitsel öge veya kısa alıntı kullanılabilir.",
-      "acceptance_criteria": [
-        "Ek materyal ana düşünceyi destekler.",
-        "Kaynak/alıntı kullanımı bağlamı bozmadan ve telif sınırında yapılır."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1699,9 +1452,6 @@
           "yazım-noktalama"
         ]
       },
-      "acceptance_criteria": [
-        "Nihai taslakta ölçütlerin görünür çoğunluğu uygulanır."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1730,10 +1480,6 @@
           "özgün ve tutarlı üslup"
         ]
       },
-      "acceptance_criteria": [
-        "Evet/Kısmen/Hayır gerçek ürüne göre işaretlenir.",
-        "Geri bildirim sonrası somut düzeltme yapılır."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1757,10 +1503,6 @@
           "Öğrendiğim ve gelecekte kullanabileceğim bilgiler"
         ]
       },
-      "acceptance_criteria": [
-        "Her başlıkta somut tema öğrenmesine/ürününe gönderme yapar.",
-        "Bir eksik/yanılgı için eylem belirler."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1782,10 +1524,6 @@
         "güçlük karşısında mücadele/azim",
         "bağımsızlık ve devlet sahibi olma"
       ],
-      "acceptance_criteria": [
-        "Tablodaki en az iki deyim/atasözüyle toplum özelliği ilişkilendirir.",
-        "Günümüz önemini gerekçelendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1801,9 +1539,6 @@
       "label": "Soru 2 — atasözü ve deyimlerin genel amacı",
       "item_type": "QUESTION",
       "expected_answer": "C — Devletin temel değerlerini aktarmak.",
-      "acceptance_criteria": [
-        "C seçeneğini işaretler."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1819,9 +1554,6 @@
       "label": "Soru 3 — ulaşılamayan çıkarım",
       "item_type": "QUESTION",
       "expected_answer": "A — Üç eserin tamamının sözlü kültürden yazılı kültüre geçiş sürecinde ortaya çıktığı söylenemez; özellikle Kamus-ı Türkî 19. yüzyıl Tanzimat ürünüdür.",
-      "acceptance_criteria": [
-        "A seçeneğini işaretler ve gerekçeyi dönem farkıyla açıklar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1840,11 +1572,6 @@
         "birincil_ornek": "Kutadgu Bilig — devlet/toplum düzeni, yöneticilik, değerler ve öğüt verici/didaktik yön bakımından Orhun Abideleriyle güçlü benzerlik kurulabilir.",
         "kabul_edilebilir_alternatif": "Dede Korkut Hikâyeleri — Türk kültürel belleği, değerler ve toplumsal hayatı taşıması gerekçesi güçlü kurulursa kabul edilebilir; tür/amaç farkı belirtilmelidir."
       },
-      "acceptance_criteria": [
-        "Bir eser seçer.",
-        "En az iki benzerlik gerekçesi verir.",
-        "Tür/çağ farkını göz ardı etmez."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1860,10 +1587,6 @@
       "label": "Soru 5 — ortak bilgi",
       "item_type": "QUESTION",
       "expected_answer": "B — Yalnız II.",
-      "acceptance_criteria": [
-        "B seçeneğini işaretler.",
-        "Üç notta da “ilk olma” niteliğinin bir biçimde verildiğini fark eder."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1879,10 +1602,6 @@
       "label": "Soru 6 — ayak uydurarak atışmayı sürdürme",
       "item_type": "QUESTION",
       "expected_answer": "D.",
-      "acceptance_criteria": [
-        "D seçeneğini işaretler.",
-        "Aynı ayak/kafiye ve “Ne arıyan olur ... ne soran olur” nakarat yapısını sürdürdüğünü fark eder."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1901,10 +1620,6 @@
         "a": "Ahmet’in değerlendirmesi yanlıştır; verilen dörtlüklerden Taşlıova’nın söyleyişinin Çobanoğlu’na göre nesnel olarak “daha sanatlı” olduğu sonucu zorunlu biçimde çıkarılamaz. Her iki âşık da aynı gelenek içinde yerel söyleyiş, biçimsel düzen ve şiirsel/sanatlı anlatım kullanır.",
         "b": "Örnek değerlendirme: “Her iki âşık da aynı ayak/nakarat düzenini korurken öğüt verici söyleyişi yerel kelimeler ve söz oyunlarıyla canlı tutmaktadır.” Benzer gerekçeli cümleler kabul edilir."
       },
-      "acceptance_criteria": [
-        "Yanlış değerlendirmeyi Ahmet olarak belirler.",
-        "b şıkkında metin/form/dil özelliğine dayalı özgün değerlendirme verir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1928,11 +1643,6 @@
         ],
         "gerekce": "Orhun’un dil, devlet, töre ve kültürel hafıza kaydını sonraki çağlarda dil, değer, tarih ve ortak kimlik aktarımıyla sürdüren eserler köprünün diğer ayağı olarak düşünülebilir."
       },
-      "acceptance_criteria": [
-        "En az bir eser seçer.",
-        "Orhun ile süreklilik bağını dil/kültür/tarih/değer boyutunda açıklar.",
-        "Göktürklerin Dirilişi videosuna özgü ayrıntı yalnız izlenmişse kullanılır."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1948,10 +1658,6 @@
       "label": "Soru 9 — taşlara kazınan tarih ve töre için slogan",
       "item_type": "QUESTION",
       "expected_answer": "Örnek: “Taşa kazınan söz, bin yıl sonra da millete yol gösterir.” Kısa, özgün ve tarihî hafıza/yol göstericilik bağını kuran farklı sloganlar kabul edilir.",
-      "acceptance_criteria": [
-        "Slogan kısa ve özgündür.",
-        "Tarih/töre/sözün kalıcılığı veya yol göstericilik temasını taşır."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],

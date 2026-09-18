@@ -21,7 +21,7 @@ Bu artefaktlar Git geçmişinden gerektiğinde incelenebilir; aktif working tree
 
 ## Cevap bankası kuralı
 
-Yeni cevap bankasına yalnız provenance'ı `legacy_teacher_guide` içermeyen ve `PEDAGOGICAL_ENRICHMENT` sınıfında olmayan cevaplar taşınır.
+Yeni cevap bankası yalnız kaynakla ilişkilendirilmiş **cevap içeriğini** taşır. Geçmiş rehberlerden gelen öğretmen yönlendirmeleri, kabul/değerlendirme ölçütleri, yanlış-anlama paketleri, farklılaştırma metinleri ve authoring şablonları taşınmaz.
 
 Cevap bankası:
 - üslup şablonu değildir,

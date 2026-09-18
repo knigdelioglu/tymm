@@ -4,7 +4,7 @@
   "course_id": "TDE_11",
   "theme_id": "TEMA_04",
   "authority": "SOURCE_FILTERED_CANONICAL_ANSWERS",
-  "policy": "Only answers with source provenance independent of retired teacher-guide content and not classified as PEDAGOGICAL_ENRICHMENT are retained. This is a factual answer bank, not a pedagogy template.",
+  "policy": "Retains source-bound answer content only. Retired guide prose, pedagogical criteria and authoring templates are excluded; this bank is for factual answer support, not style imitation.",
   "counts": {
     "answers": 64,
     "excluded_legacy_or_pedagogical": 1,
@@ -28,10 +28,6 @@
           "belgesel içeriğini yansıtan özgün afiş"
         ]
       },
-      "acceptance_criteria": [
-        "Temanın hayat-edebiyat ilişkisini ana eksen olarak ifade eder.",
-        "Üç anlama ve iki anlatma odağını ayırt eder."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -60,9 +56,6 @@
         "perde",
         "sahne"
       ],
-      "acceptance_criteria": [
-        "Kavramları tema içindeki metin ve görevlerle ilişkilendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -79,10 +72,6 @@
       "label": "Yunus Emre alıntısı — kendini bilme",
       "item_type": "QUESTION",
       "expected_answer": "İnsanın kendisini tanıması; bilgisini, sınırlarını, değerlerini ve davranışlarını sorgulaması gerçek öğrenmenin temelidir. Tema boyunca metin kişileri ve öğrencinin kendi deneyimleri arasında kurulacak bağ için bir giriş işlevi görür.",
-      "acceptance_criteria": [
-        "Kendini bilme fikrini öz farkındalıkla ilişkilendirir.",
-        "Alıntıyı tema odağıyla gerekçeli biçimde bağlar."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -102,10 +91,6 @@
         "1": "Kitaplar farklı insanların deneyim, duygu ve düşünceleriyle karşılaşmayı sağladığı için empatiyi, iletişim dilini ve toplumsal bakış açısını geliştirebilir.",
         "2": "Kitap, yazarı ve ilk okuru ortadan kalksa bile yeniden okunabildiği; farklı zamanlarda okurla düşünsel/duygusal ilişki kurabildiği için kalıcı bir dost gibi görülebilir."
       },
-      "acceptance_criteria": [
-        "Sosyal gelişimi en az bir somut mekanizmayla açıklar.",
-        "Kalıcılık ve yeniden okuma üzerinden ‘ebedî dost’ benzetmesini gerekçelendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -131,11 +116,6 @@
         "4": "Okurun yaşadığı bir olay, metindeki duygu, çatışma, kişi veya mekânla benzerlik kurduğunda metnin anlamını kişisel düzeyde derinleştirebilir.",
         "5": "Tür seçimi serbesttir; kabul için seçilen hayat kesiti ile türün imkânları arasında gerekçeli ilişki kurulmalıdır."
       },
-      "acceptance_criteria": [
-        "Sanatsal metni yalnız ‘gerçek dışı’ diye tanımlamaz.",
-        "Kişisel deneyim-metinsel anlam bağını açıklar.",
-        "Tür seçimini gerekçelendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -160,10 +140,6 @@
           "tarihî bilgiyi kurmacaya dönüştürme"
         ]
       },
-      "acceptance_criteria": [
-        "Tiyatroya özgü en az iki unsur kullanır.",
-        "Verilen bağlamla çelişmeyen kısa bir sahne kurar."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -190,10 +166,6 @@
         "Kelime Avcısı",
         "Hareket İzcisi"
       ],
-      "acceptance_criteria": [
-        "Öğrenci rolünün görevini yerine getirir.",
-        "Rol çıktısını metin kanıtıyla paylaşır."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -210,10 +182,6 @@
       "label": "Metin öncesi tahmin ve okuma stratejisi",
       "item_type": "PROCESS",
       "expected_answer": "Başlık, görsel, yazar bilgisi ve tiyatro türüne ilişkin ön bilgilerden hareketle gerekçeli tahmin yapılması; okuma sırasında tahminlerin metinle kontrol edilmesi beklenir.",
-      "acceptance_criteria": [
-        "Tahminini en az bir ön ipucuna dayandırır.",
-        "Okuma sonrasında tahminini doğrular veya revize eder."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -230,10 +198,6 @@
       "label": "Ben, Mimar Sinan — temel anlam çerçevesi",
       "item_type": "REFERENCE",
       "expected_answer": "Metin Mimar Sinan’ın meslekî gelişimini, bilgi-azim-çalışkanlıkla ilerleyişini, büyük mimari eserlerin oluşumunu ve bireysel ustalığın tarih/kültür/ortak üretim içindeki yerini dramatik bir anlatımla görünür kılar.",
-      "acceptance_criteria": [
-        "Sinan’ın kişisel emeği ile tarihî/kültürel çevreyi birlikte görür.",
-        "Metni salt biyografi özeti olarak ele almaz; dramatik sunumu fark eder."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -257,10 +221,6 @@
         "âvâze": "yüksek ses/sesleniş; bağlama göre ün-seda çağrışımı da taşıyabilir",
         "sadrazam": "Osmanlı Devleti’nde padişahtan sonra en yetkili devlet görevlisi"
       },
-      "acceptance_criteria": [
-        "Anlamı önce bağlamdan tahmin eder.",
-        "Sözlük doğrulamasından sonra bağlama en uygun karşılığı seçer."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -281,10 +241,6 @@
         "duygu ve düşünce farkındalığı oluşturma",
         "eleştirel düşünme ve empati geliştirme",
         "tarihî/toplumsal tecrübeyi sahnede yeniden yorumlama"
-      ],
-      "acceptance_criteria": [
-        "En az iki işlevi açıklar.",
-        "İşlevi Ben, Mimar Sinan veya kendi tiyatro deneyimiyle örneklendirir."
       ],
       "source_ids": [
         "official_textbook_pdf",
@@ -317,10 +273,6 @@
           "yoğunlaştırılmış diyalog/monolog"
         ]
       },
-      "acceptance_criteria": [
-        "Gündelik gerçeklikle dramatik kurgu arasındaki hem benzerliği hem farkı açıklar.",
-        "Metindeki en az bir ifadenin sosyal hayatı nasıl yansıttığını gerekçelendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -348,11 +300,6 @@
           "estetik kaygı taşıyan"
         ]
       },
-      "acceptance_criteria": [
-        "Konu ile amacı ayırır.",
-        "Karakter çıkarımını söz/eylem kanıtına dayandırır.",
-        "Yazarın tarihî malzemeyi dramatikleştirdiğini fark eder."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -369,10 +316,6 @@
       "label": "‘Bilgim, azmim ve çalışkanlığımla talihimi yenmiştim’ iletisi",
       "item_type": "QUESTION",
       "expected_answer": "Kişinin koşullarını tamamen kontrol edemese de bilgi edinme, kararlılık ve düzenli emekle seçeneklerini genişletebileceğini; başarının yalnız şansa bağlanmaması gerektiğini vurgular.",
-      "acceptance_criteria": [
-        "Bilgi, azim ve çalışkanlığı birlikte yorumlar.",
-        "Sözü kaderi mutlak biçimde kontrol etme iddiasına dönüştürmez."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -402,10 +345,6 @@
           "tur": "komedi"
         }
       },
-      "acceptance_criteria": [
-        "En az içerik, dönem/zihniyet ve üslup boyutlarını karşılaştırır.",
-        "Cimri’yi komedi; Ben, Mimar Sinan’ı dram olarak metin özellikleriyle gerekçelendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -427,12 +366,6 @@
         "tarih": "Metindeki tarihî ad/yer/eser bilgileri gerçeklik duygusu oluşturur; tiyatro olduğu için seçme, yoğunlaştırma ve dramatikleştirme yapılır.",
         "dekor": "Tasarımlar sahnenin tarihî atmosferini, çalışma ortamını ve mimari eserleri işlevsel biçimde desteklemelidir."
       },
-      "acceptance_criteria": [
-        "Özette ana çizgiyi korur.",
-        "Dil/üslup ile yazılma amacı arasında bağ kurar.",
-        "Tarihî gerçeklik ile dramatik kurgu ayrımını korur.",
-        "Dekor önerisini sahne işleviyle gerekçelendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -455,10 +388,6 @@
         "catismalar": "başarma/engel, eskiyi aşma-yeniyi kurma, bireysel kaygı-sorumluluk gibi gerilimler",
         "dramatik_orgu": "seçilmiş yaşam kesitlerinin sahne akışı içinde neden-sonuç ve dönüm noktalarıyla düzenlenmesi"
       },
-      "acceptance_criteria": [
-        "Yapı unsurlarını metinden ayırt eder.",
-        "Kişi-mekân, kişi-çatışma, mekân-zaman ve çatışma-dramatik örgü ilişkilerinden en az ikisini açıklar."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -480,10 +409,6 @@
         "cumle_cesitliligi": "ritim, vurgu, duygu tonu ve karakter seslerini çeşitlendirir",
         "uslup": "tarihî/bilgilendirici içeriği dramatik ve yer yer coşkulu söyleyişle birleştirir"
       },
-      "acceptance_criteria": [
-        "Monolog ve diyaloğun işlevini ayırır.",
-        "Cümle türlerini yalnız etiketlemekle kalmaz, üsluba katkısını açıklar."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -510,10 +435,6 @@
           "toplumsal yarar"
         ]
       },
-      "acceptance_criteria": [
-        "Metni tarih bilinci/kültür aktarımıyla ilişkilendirir.",
-        "En az üç değeri somut söz veya eylemle eşleştirir."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -537,10 +458,6 @@
         },
         "catismalarin_islevi": "Karakter amaçlarını görünür kılar, dramatik gerilim ve değişimi üretir, iletileri soyut açıklama yerine eylem içinde gösterir."
       },
-      "acceptance_criteria": [
-        "En az iki disiplinle metinsel bağ kurar.",
-        "Çatışmanın dramatik örgüdeki işlevini açıklar."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -557,10 +474,6 @@
       "label": "Günlük insan ilişkileri ve beğeni ölçütleri",
       "item_type": "ASSESSMENT",
       "expected_answer": "Öğrenci; otorite-sorumluluk, usta-çırak/çalışan ilişkisi, güven, emek, hedef, kuşak ve değer aktarımı gibi metinde dayanak bulabildiği kesitleri belirleyebilir. Beğeni ölçütü olarak etkileyicilik, inandırıcılık, dil, karakter, sahneleme veya ileti gibi ölçütler kullanılabilir.",
-      "acceptance_criteria": [
-        "En az bir günlük hayat ilişkisini metin kanıtıyla açıklar.",
-        "Kendi değerlendirme ölçütünü açıkça adlandırır ve gerekçelendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -577,11 +490,6 @@
       "label": "‘Ben Kimim?’ karakter oyunu ve kısa senaryo",
       "item_type": "PERFORMANCE_TASK",
       "expected_answer": "Seçilen karakter; adı söylenmeden ayırt edici özellik, amaç, ilişki ve davranışlarıyla tanıtılmalı; güncel kısa senaryoda karakterin temel özellikleri tutarlı biçimde korunmalıdır.",
-      "acceptance_criteria": [
-        "Tanıtım karaktere özgü en az iki ipucu içerir.",
-        "Senaryo karakter özelliğiyle tutarlıdır.",
-        "Tahminler sonrası kısa öz değerlendirme yapılır."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -598,10 +506,6 @@
       "label": "Yaşam evreleri ve yol/merdiven metaforları",
       "item_type": "QUESTION",
       "expected_answer": "Yol, merdiven, bahar ve diken gibi imgeler; başlangıç, ilerleme, güçlük, yükselme/gerileme, yaşlanma, yenilenme ve sonluluk gibi hayat evrelerini mecazlaştırabilir. Farklı gerekçeli çağrışımlar kabul edilir.",
-      "acceptance_criteria": [
-        "En az iki metaforu yaşam evresiyle gerekçeli bağlar.",
-        "Görsel/ifade ile yorum arasında açık ilişki kurar."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -624,10 +528,6 @@
         "boşlukları okurun tamamlaması",
         "seçilmiş an veya kırılma noktası"
       ],
-      "acceptance_criteria": [
-        "Kısalığı tek özellik olarak görmez.",
-        "Yoğunluk ve okur katılımını açıklar."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -644,11 +544,6 @@
       "label": "Okuma amacı, tahmin ve strateji",
       "item_type": "PROCESS",
       "expected_answer": "Öğrencinin başlık ve tür bilgisinden içerik tahmini yapması; kısa metinde tekrar, simge, karşıtlık ve dönüşüm noktalarını izlemeye uygun bir strateji seçmesi beklenir.",
-      "acceptance_criteria": [
-        "Okuma amacını açıklar.",
-        "Tahminini başlık/tür ipucuna dayandırır.",
-        "Stratejiyi metnin kısalığı ve yoğunluğuyla ilişkilendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -672,10 +567,6 @@
         "gereksinme": "ihtiyaç",
         "duralamak": "kısa süre durup kararsız kalmak"
       },
-      "acceptance_criteria": [
-        "Bağlamdaki anlamı belirler.",
-        "Aynı kelimeyi başka anlamda uygun cümlede kullanabilir."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -701,11 +592,6 @@
           "Allah zihin açıklığı versin."
         ]
       },
-      "acceptance_criteria": [
-        "Kalıp sözün iyi dilek işlevini açıklar.",
-        "Benzer örnekleri bağlama uygun seçer.",
-        "Söz varlığının gündelik kültürü yansıttığını gerekçelendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -727,11 +613,6 @@
         "ogut": "Sürekli yükselme/koşuşturma uğruna hayatın kendisini kaçırmama uyarısı olarak yorumlanabilir.",
         "inmek_cikmak": "Meslekî yükseliş kadar yaş, zaman, kuşak değişimi ve hayat döngüsünü simgeleştirebilir."
       },
-      "acceptance_criteria": [
-        "Kişi çıkarımlarını davranış/sözle destekler.",
-        "Merdiveni yalnız fiziksel araç olarak yorumlamaz; simgesel katmanı açıklar.",
-        "Alternatif yorumlarda metin kanıtı arar."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -758,11 +639,6 @@
         ],
         "final": "Anlatıcı ölüm ve genç kuşakla yüzleşince ‘yukarı’ yönündeki meslekî/yaşamsal koşuşturmasını sorgular; aşağı inmeyi kabulleniş/farkındalık olarak seçer."
       },
-      "acceptance_criteria": [
-        "Tür özelliğini metin yapısıyla ilişkilendirir.",
-        "Ritmi tekrar/karşıtlık örnekleriyle açıklar.",
-        "Final yorumunu ölüm, zaman veya kuşak farkındalığıyla metne dayandırır."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -779,10 +655,6 @@
       "label": "Az sözle çok duygu ve okur katılımı",
       "item_type": "QUESTION",
       "expected_answer": "Uzun açıklamalar yerine seçilmiş ayrıntı, çağrışımlı söz, boşluk, beklenmedik dönüş ve simgesel öge kullanımı okurun eksik bağlantıları kendi deneyimiyle tamamlamasını sağlar. Merdiven’de tekrar eden çıkma-inme/yol verme motifleri bu yoğunluğu destekler.",
-      "acceptance_criteria": [
-        "En az bir anlatım tekniğini örnekle açıklar.",
-        "Okur katılımını metindeki eksiltme/açıklıkla ilişkilendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -808,10 +680,6 @@
           "hayatın seçilmiş kesitlerini dönüştürme"
         ]
       },
-      "acceptance_criteria": [
-        "İçerik, tür, şekil, dönem, yapı, dil/üslup ve ileti ölçütlerinden çoğunu karşılaştırır.",
-        "Hangi türün değeri daha iyi yansıttığı görüşünü gerekçelendirir; tek zorunlu cevap aranmaz."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -833,10 +701,6 @@
         "cagrisim": "Merdiven sözcük ve eylemleri simgesel katmana daha yoğun açar.",
         "anlatici": "Her iki parçada da anlatıcı perspektifi önemlidir; işlevleri metnin anlatım biçimine göre karşılaştırılmalıdır."
       },
-      "acceptance_criteria": [
-        "Dört ölçütte metin kanıtı kullanır.",
-        "Beğeni tercihini gerekçelendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -869,10 +733,6 @@
           "olay": "tekrarlanan karşılaşmalar ve ölüm haberiyle oluşan farkındalık"
         }
       },
-      "acceptance_criteria": [
-        "Her karakterin özellik, amaç/niyet ve işlevini ayırır.",
-        "Yapı unsurlarını metindeki yoğunlaştırma ile ilişkilendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -908,11 +768,6 @@
           "saglik": "yaşlılık ve ani ölüm"
         }
       },
-      "acceptance_criteria": [
-        "Güncel kurgu önerisinde tematik çekirdeği korur.",
-        "İç ve kişiler arası çatışmayı ayırır.",
-        "Değer/disiplin eşleşmesini metin ayrıntısıyla gerekçelendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -936,9 +791,6 @@
         "varoluş/yalnızlık/kaygı çağrışımları",
         "diyalog ve kısa cümlelerle benliği görünür kılma"
       ],
-      "acceptance_criteria": [
-        "En az üç özelliği Merdiven’den kanıtla ilişkilendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -955,10 +807,6 @@
       "label": "Ölçüt geliştirerek hikâyeyi değerlendirme",
       "item_type": "ASSESSMENT",
       "expected_answer": "Konu/ileti, dil, üslup, çağrışım gücü, yoğunluk, final etkisi veya karakter dönüşümü gibi ölçütler seçilebilir. Beğendim/beğenmedim kararı yalnız gerekçesi ve metin kanıtı varsa değerlendirilir.",
-      "acceptance_criteria": [
-        "En az iki açık ölçüt belirler.",
-        "Her ölçüt için metinden gerekçe sunar."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -979,10 +827,6 @@
         "ölümlülük/fanilik farkındalığı",
         "kuşağa yer açma",
         "hayatın hızını ve öncelikleri yeniden değerlendirme"
-      ],
-      "acceptance_criteria": [
-        "Farklı yorumlara açık kalır.",
-        "Seçtiği yorumu olay dizisiyle destekler."
       ],
       "source_ids": [
         "official_textbook_pdf",
@@ -1014,10 +858,6 @@
           "kendi deneyimiyle empati"
         ]
       },
-      "acceptance_criteria": [
-        "Rolü yalnız ezberlenecek sözler olarak görmez.",
-        "En az iki boyutu nedenleriyle açıklar."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -1037,10 +877,6 @@
         "q3_diyalog_dil": "Diyalog tiyatroda ilişkiyi ve eylemi taşır; doğru ve bağlama uygun dil anlamı, karakteri ve iletişimi güçlendirir. Günlük hayatta da sözcük seçimi, ton ve açıklık iletişimin doğru kurulmasını etkiler.",
         "q4_tiyatro_tanimi": "‘İnsanı, insana, insanla anlatma’ sözü; insan deneyiminin oyuncu ve karakter aracılığıyla başka insanlara canlı, eyleme dayalı ve sahnelenmiş biçimde sunulmasını vurgular."
       },
-      "acceptance_criteria": [
-        "Diyalog ile günlük iletişim arasında işlevsel bağ kurar.",
-        "Tiyatro tanımını insan-karakter-izleyici ilişkisiyle açıklar."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -1066,12 +902,6 @@
           "iletişim engellerini giderme"
         ]
       },
-      "acceptance_criteria": [
-        "Canlandırma amacı açıktır.",
-        "Rol ve sahne bölümü belirlenmiştir.",
-        "Yöntem hedef kitle/süreyle uyumludur.",
-        "İletişim engelleri için önlem alınmıştır."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1096,12 +926,6 @@
         "duygu/karakter tutarlılığı",
         "olumlu değerler ve toplumsal hassasiyet"
       ],
-      "acceptance_criteria": [
-        "Rol tutarlılığını korur.",
-        "Sözlü ve sözsüz iletişimi birlikte kullanır.",
-        "Doğaçlama ana bağlamı bozmaz.",
-        "Türkçeyi anlaşılır ve bağlama uygun kullanır."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -1123,10 +947,6 @@
         "sözü ve beden dilini etkili kullanma",
         "grupla uyum içinde çalışma"
       ],
-      "acceptance_criteria": [
-        "PDF’de açıkça görünen ölçütleri kullanır.",
-        "QR içindeki görünmeyen düzey tanımlarını uydurmaz."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1146,11 +966,6 @@
         "q2_rol_arkadasi": "Rol arkadaşlarının görüşlerini toplar; geri bildirimleri güçlü ve geliştirilmesi gereken yönler bakımından değerlendirir ve gerekçeli olarak kabul eder, sınırlar veya reddeder.",
         "q3_konusmaci_kimligi": "Aldığı eleştiriler ve edindiği tecrübelerden hareketle diksiyon, beden dili, özgünlük, rol tutarlılığı veya izleyiciyle iletişim gibi alanlarda kendi konuşmacı kimliğine ilişkin somut bir gelişim hedefi belirler."
       },
-      "acceptance_criteria": [
-        "Öz değerlendirme somut performans kanıtına dayanır.",
-        "Akran geribildirimini aynen kabul etmek yerine gerekçeli biçimde değerlendirir.",
-        "Yeni hedef belirler."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -1167,10 +982,6 @@
       "label": "Hayat ve edebiyat ilişkisi",
       "item_type": "QUESTION",
       "expected_answer": "Edebî eser bireysel yaratım olsa da yazarın yaşadığı zaman, çevre ve toplumsal koşullarla ilişkilidir; hayatı birebir kopyalamaz, seçer ve dönüştürür. Okur da kendi deneyimleriyle bu ilişkiyi yeniden kurar.",
-      "acceptance_criteria": [
-        "Bireysel yaratım ile toplumsal bağın ikisini de açıklar.",
-        "‘Ayna’ benzetmesini birebir kopya olarak yorumlamaz."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -1187,11 +998,6 @@
       "label": "Fedakârlık belgeseli — amaç, tahmin, engel, strateji",
       "item_type": "PROCESS",
       "expected_answer": "Başlık/görsel/jenerikten içerik tahmini yapılır; amaç belirlenir; ses/görüntü/ortam kaynaklı iletişim engelleri azaltılır; not alma, anahtar kelime veya seçici dinleme gibi amaca uygun strateji seçilir.",
-      "acceptance_criteria": [
-        "Tahminini görünen ön ipucuna dayandırır.",
-        "İletişim engeli için somut önlem önerir.",
-        "Stratejiyi amaca bağlar."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -1214,10 +1020,6 @@
         "aksaklık": "işleyişi bozan gecikme veya düzensizlik",
         "tahammül": "dayanma, katlanma"
       },
-      "acceptance_criteria": [
-        "Önce bağlam tahmini yapar.",
-        "Sözlük doğrulamasından sonra bağlama uygun anlamı seçer."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -1241,10 +1043,6 @@
         "su tasarrufu",
         "doğru bilgi ve toplumsal farkındalığa katkı"
       ],
-      "acceptance_criteria": [
-        "En az üç uygulanabilir bireysel davranış verir.",
-        "Bireysel davranışları tek başına yeterli çözüm gibi sunmaz; toplumsal/kurumsal boyutla ilişkilendirebilir."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -1261,11 +1059,6 @@
       "label": "Ses ve görüntünün çok modlu metne katkısı",
       "item_type": "QUESTION",
       "expected_answer": "Ses ve görüntü birbirini yalnız tekrar etmemeli; bağlam, atmosfer, vurgu, duygu ve bilgi katmanları üreterek anlamı genişletebilir. Bir unsur kaldırıldığında bilgi, atmosfer veya yorum katmanının ne ölçüde azaldığı karşılaştırılmalıdır.",
-      "acceptance_criteria": [
-        "Ses/görüntünün en az iki işlevini açıklar.",
-        "Kitaptaki ses kuşağı metninden genel ilkeyi kullanır.",
-        "Fedakârlık videosuna dair somut örneği ancak video izlendiyse verir."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -1289,10 +1082,6 @@
           "daha etkin izleyici için dikkat edilecek hususlar"
         ]
       },
-      "acceptance_criteria": [
-        "Her alanı kişisel ve somut örnekle doldurur.",
-        "Bir sonraki dinleme/izleme için davranış hedefi belirler."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -1321,10 +1110,6 @@
           "görsel-söz arasında işlevsel ilişki"
         ]
       },
-      "acceptance_criteria": [
-        "Dört ana kriteri ayırt eder.",
-        "Tasarım kararını iletişim işleviyle ilişkilendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -1356,10 +1141,6 @@
           "kaynak/telif bilgisi gerektiğinde"
         ]
       },
-      "acceptance_criteria": [
-        "Dikkat ile iletiyi ayırır.",
-        "Etkileme gücünü mutlaklaştırmaz; hedef kitle/bağlamla ilişkilendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -1376,11 +1157,6 @@
       "label": "Afiş hazırlama performans görevi — amaç ve strateji",
       "item_type": "PERFORMANCE_TASK",
       "expected_answer": "Amaç, Fedakârlık belgeselinin seçilmiş bir iletisini hedef kitleye özgün ve anlaşılır bir afişle aktarmaktır. Öğrenci afiş özelliklerini belirler, uygun yazma/tasarım stratejisi seçer ve sınıf dışı hazırlığını planlar.",
-      "acceptance_criteria": [
-        "Afişin amacı ve hedef kitlesi bellidir.",
-        "Belgeselden aktarılacak ileti belirlenmiştir.",
-        "Strateji ile afiş özellikleri uyumludur."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -1405,10 +1181,6 @@
           "mesaj-imge bütünlüğü"
         ]
       },
-      "acceptance_criteria": [
-        "Seçilen her görsel/renk/yazı kararını iletiyle gerekçelendirir.",
-        "Afişi bilgi kalabalığına dönüştürmez."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -1434,12 +1206,6 @@
         "toplumsal hassasiyet",
         "millî-manevî/kültürel unsurlarda özen"
       ],
-      "acceptance_criteria": [
-        "İleti açık ve tasarımla tutarlıdır.",
-        "Dil hataları anlamı bozmaz.",
-        "Görsel-söz ilişkisi açıklayıcı/destekleyicidir.",
-        "Geri bildirim sonrası en az bir bilinçli revizyon yapılır."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -1464,10 +1230,6 @@
           "uygun resmî paylaşım ortamı"
         ]
       },
-      "acceptance_criteria": [
-        "En az bir güçlü ve bir geliştirilecek yön belirler.",
-        "Telif ve kaynak kullanımını açıkça kontrol eder."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -1489,10 +1251,6 @@
         "özgünlük",
         "etkileyicilik",
         "görsel/işitsel ögelerin seçimi"
-      ],
-      "acceptance_criteria": [
-        "PDF’de görünen ölçütleri kullanır.",
-        "QR içindeki görünmeyen düzey tanımlarını uydurmaz."
       ],
       "source_ids": [
         "official_textbook_pdf",
@@ -1518,10 +1276,6 @@
           "konuşmacı ve yazar kimliğine etkisi"
         ]
       },
-      "acceptance_criteria": [
-        "Önce-sonra değişimini somutlaştırır.",
-        "Gelecekteki konuşma/yazma için en az bir hedef çıkarır."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -1538,10 +1292,6 @@
       "label": "Soru 1 — Doğu/Batı sentezi ve modern Türk tiyatrosu",
       "item_type": "QUESTION",
       "expected_answer": "Parçada; Batı tiyatrosunun modern yazarlık/sahneleme teknikleri ile Meddah, Karagöz ve Ortaoyunu gibi geleneksel biçimlerin bir araya gelmesi; tipleme, söz oyunları, anlatıcı, şarkı/dans ve göstermeci sahneleme gibi Doğulu/geleneksel ögelerin modern yapı içinde kullanılması örneklenebilir.",
-      "acceptance_criteria": [
-        "I. metindeki genel yargıyla tiyatro parçası/II. metin arasında bağ kurar.",
-        "En az iki geleneksel ve bir modern özellik belirtir."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -1561,10 +1311,6 @@
         "2": "A",
         "3": "E"
       },
-      "acceptance_criteria": [
-        "Soru 2’de II. metnin I. metindeki durumun somut sonucu/örneklenişi olduğunu fark eder.",
-        "Soru 3’te metnin televizyonu ‘en önemli sebeplerden biri’ diye kesinleştirmediğini ayırt eder."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -1584,10 +1330,6 @@
         "4": "Sevgi, umut, güven, merhamet, dayanışma gibi metindeki erdem/kardeşlik/çocukluk atmosferiyle gerekçelendirilebilen duygular kabul edilir.",
         "5": null
       },
-      "acceptance_criteria": [
-        "Q4’te duygu seçimini metindeki en az bir ayrıntıyla gerekçelendirir.",
-        "Q5’te seçilen görsel ile metnin iletisi arasında açık ilişki kurar."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -1607,10 +1349,6 @@
         "6": "Kostüm; karakterin yaş, toplumsal konum, dönem, ekonomik durum ve kişilik özellikleriyle tutarlı olmalı; sahne dekoruyla işlevsel bütünlük kurmalıdır.",
         "7": "Bakış, beden yönelimi, hareket, mesafe ve tekrar eden davranışlar konuşma olmadan gerilim, duygu ve ilişkiyi gösterebilir."
       },
-      "acceptance_criteria": [
-        "Kostüm önerisini karakter/sahne kanıtıyla gerekçelendirir.",
-        "Sözsüz iletişimin en az iki işlevini açıklar."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -1627,9 +1365,6 @@
       "label": "Soru 8 — tiyatro terimleri",
       "item_type": "ASSESSMENT",
       "expected_answer": "B",
-      "acceptance_criteria": [
-        "Verilen kesitlerde dekor, jest/hareket ve çatışma iması görülebilir; açık diyalog ve monolog örneği kesin olarak çıkarılamadığı için II ve III seçilir."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -1650,11 +1385,6 @@
         "10": "B",
         "11": "B"
       },
-      "acceptance_criteria": [
-        "Q9’da metinde sayılan teknolojik dönüşümlerle desteklenmeyen seçeneği ayırır.",
-        "Q10’da toplumsal belleği arşivin koruma işleviyle ilişkilendirir.",
-        "Q11’de tablo oranlarının izleme mecralarının teknolojiyle değiştiğini gösterdiğini okur."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -1671,10 +1401,6 @@
       "label": "Soru 12 — teknolojik gelişmeler belgeselin etkisini güçlendirdi mi?",
       "item_type": "QUESTION",
       "expected_answer": "Her iki yönde de gerekçeli cevap kabul edilebilir. Güçlendirdi görüşü; erişim, dağıtım, ses/görüntü kalitesi ve kurgu imkânlarına; zayıflattı/karma görüşü ise dikkat dağınıklığı, platform kalabalığı, manipülasyon veya güvenilirlik sorunlarına dayandırılabilir.",
-      "acceptance_criteria": [
-        "En az iki gerekçe sunar.",
-        "Gerekçeler teknoloji-belgesel ilişkisiyle doğrudan bağlantılıdır."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"

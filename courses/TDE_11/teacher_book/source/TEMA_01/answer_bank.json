@@ -4,7 +4,7 @@
   "course_id": "TDE_11",
   "theme_id": "TEMA_01",
   "authority": "SOURCE_FILTERED_CANONICAL_ANSWERS",
-  "policy": "Only answers with source provenance independent of retired teacher-guide content and not classified as PEDAGOGICAL_ENRICHMENT are retained. This is a factual answer bank, not a pedagogy template.",
+  "policy": "Retains source-bound answer content only. Retired guide prose, pedagogical criteria and authoring templates are excluded; this bank is for factual answer support, not style imitation.",
   "counts": {
     "answers": 32,
     "excluded_legacy_or_pedagogical": 29,
@@ -18,10 +18,6 @@
       "label": "Millî kimlik ve kültürel aktarım çerçevesi",
       "item_type": "REFERENCE",
       "expected_answer": "Edebiyat; toplumun dilini, ortak değerlerini, tarihî ve kültürel birikimini eserler aracılığıyla yaşatarak millî kimliğin oluşmasına ve kültürel hafızanın sonraki kuşaklara aktarılmasına katkıda bulunur.",
-      "acceptance_criteria": [
-        "Edebiyatı dil, ortak değer veya kültürel hafıza ile ilişkilendirir.",
-        "Kültürel aktarımın kuşaklar arası yönünü açıklar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -45,10 +41,6 @@
         ],
         "paylasim": "Sözcü kartları okur; grup ortak ve farklı görüşleri tartışır."
       },
-      "acceptance_criteria": [
-        "Her öğrenci üç ayrı bilgi/düşünce kartı üretir.",
-        "Grup tartışması sonunda ortak sonuç görünür hâle gelir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -71,10 +63,6 @@
         ],
         "ornek_ortak_sonuc": "Karagöz oyununda söz oyunları, yanlış anlamalar, yöresel söyleyişler ve taklit mizahı kurar; yardımcı tipler toplumsal çeşitliliği gösterir; hareketler sözlü anlatımı destekler."
       },
-      "acceptance_criteria": [
-        "Önce bireysel düşünce, sonra eşle tartışma, ardından sınıf paylaşımı aşamalarını tamamlar.",
-        "Dil, yardımcı tip veya beden/hareket başlıklarından en az ikisini gerekçeli açıklar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -94,11 +82,6 @@
         "rol_paylasimi": "Karagöz, Hacivat ve diğer tipler sınıf içinde paylaştırılır.",
         "strateji": "Vurgu, tonlama, metindeki ağız/konuşma özellikleri ve yanlış anlamalar görünür kılınarak rolüne uygun sesli okuma yapılır."
       },
-      "acceptance_criteria": [
-        "Tahmini başlık/görsel kanıtına bağlar.",
-        "Rolünü metindeki konuşma özelliklerine uygun seslendirir.",
-        "Okuma stratejisinde vurgu/tonlama veya karaktere özgü dil özelliğini açıkça belirtir."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map"
@@ -121,9 +104,6 @@
         "Fasıl": "asıl olay",
         "Bitiş": "oyunun sonuçlanması"
       },
-      "acceptance_criteria": [
-        "Dört bölümün adını ve temel işlevini ayırt eder."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -149,9 +129,6 @@
           "gereksiz duygu ve konuşma dilinden kaçınma"
         ]
       },
-      "acceptance_criteria": [
-        "Dilekçenin resmî iletişim türü olduğunu ve biçimsel zorunluluklarını ayırt eder."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -185,11 +162,6 @@
           "beden dili ve ses kullanımını bağlama göre ayarlama"
         ]
       },
-      "acceptance_criteria": [
-        "En az iki sözlü iletişim engeli belirler.",
-        "Engelin iletişime etkisini neden-sonuç ilişkisiyle açıklar.",
-        "Günlük yaşam deneyiminden doğru iletişime ilişkin en az bir somut davranış örneği verir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -216,11 +188,6 @@
           "canlandırma sırasında ortaya çıkabilecek iletişim engellerini önceden azaltma"
         ]
       },
-      "acceptance_criteria": [
-        "Grup ve görev dağılımını görünür biçimde kaydeder.",
-        "Konu, amaç, hedef kitle, yöntem/strateji ve ortam kararlarını ayrı ayrı belirler.",
-        "En az bir olası iletişim engeli için önleyici tedbir planlar."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "lesson_plan_set",
@@ -253,12 +220,6 @@
           "taslağı arkadaşlara sunup geri bildirimle son şeklini verme"
         ]
       },
-      "acceptance_criteria": [
-        "İçerikte iletişim engelinin nedeni, sonucu ve olası çözümü görünürdür.",
-        "Giriş-gelişme-sonuç bütünlüğü kurar.",
-        "Dil ve söz varlığını seçilen kullanım alanı ve hedef kitleye uygunlaştırır.",
-        "Akran geri bildirimi sonrası en az bir anlamlı revizyon yapar."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "lesson_plan_set",
@@ -297,9 +258,6 @@
           }
         ]
       },
-      "acceptance_criteria": [
-        "Her hata için uygulanabilir ve davranış düzeyinde bir çözüm önerir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -328,10 +286,6 @@
           "dinleyiciyle etkileşim kurma"
         ]
       },
-      "acceptance_criteria": [
-        "Evet/Kısmen/Hayır seçimini performanstan somut kanıtla gerekçelendirir.",
-        "En az bir güçlü yön ve bir geliştirme hedefi belirler."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map",
@@ -356,11 +310,6 @@
         "q2_dize_yorumu": "Dizelerde insanın doğa ve hayatla iç içe, çevresine yarar sağlayan ve geniş bir dünyaya açılan varlığı imgelerle anlatılır. Yıldızlara çoban, değirmenlere su ve bozkırlara gölge olma; yön verme, hayat verme ve koruyuculuk çağrışımları oluşturabilir. Metne dayalı farklı gerekçeli yorumlar kabul edilebilir.",
         "q3_saglikli_iletisim": "Açık ve anlaşılır konuşma, etkin dinleme, uygun hitap ve ses tonu, empati, saygı, geri bildirim verme, söz kesmeme ve yanlış anlaşılınca açıklama isteme sağlıklı iletişimi destekler. Öğrencinin verdiği örnek bu davranışlardan biriyle ilişkilendirilmelidir."
       },
-      "acceptance_criteria": [
-        "Dilin iletişimdeki etkisini en az bir işlevle açıklar.",
-        "Şiirsel dizeleri sözcüklerin çağrışımından hareketle gerekçeli yorumlar.",
-        "Sağlıklı iletişim için en az iki davranış ve bunlardan birine ilişkin örnek verir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -389,13 +338,6 @@
         "p64_q4_strateji": "Not alma, anahtar kavramları belirleme, geçmiş–günümüz karşılaştırması yapma ve metindeki dil/iletişim örneklerini kendi yaşamıyla ilişkilendirme stratejileri kullanılabilir.",
         "p64_q5_dinleme": "Öğrenci QR'daki çok modlu metni dikkatini yoğunlaştırarak dinler/izler ve önemli gördüğü noktaları not eder; bu görevde ürün, medyanın yerine geçen hazır transkript değil dinleme/izleme sırasında oluşan nottur."
       },
-      "acceptance_criteria": [
-        "Hitaplardan ilişki/bağlam çıkarımını somut ifadeye dayandırır.",
-        "Mektup–e-posta karşılaştırmasında en az bir ortak ve bir farklı yön belirtir.",
-        "Ders dışı araştırmada iletişim araçlarını kaynak kullanarak sınıflandırır.",
-        "Dinleme/izleme amacını, tahminini ve stratejisini medya açılmadan önce görünür hâle getirir.",
-        "Dinleme/izleme sırasında not üretir."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map",
@@ -426,10 +368,6 @@
           "önemli yerler hakkında not alma"
         ]
       },
-      "acceptance_criteria": [
-        "Formu gözlenebilir dinleme/izleme davranışına dayalı doldurur.",
-        "Form sonucu ile sonraki dinleme/izleme davranışı arasında geliştirme hedefi kurar."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map",
@@ -516,14 +454,6 @@
         },
         "p71_elestirel_dil": "Çok modlu metnin dili açıklık, anlaşılır söz varlığı, muhataba uygunluk, nezaket, konuşma akışı ve öznel/nesnel denge bakımından değerlendirilebilir. Öğrenci olumlu veya olumsuz yargısını medyadan somut bir ifade/davranışla gerekçelendirmelidir."
       },
-      "acceptance_criteria": [
-        "Söz varlığı eşleştirmelerini bağlama ve sözlük kontrolüne göre yapar.",
-        "Dokuz Metni Anlayalım sorusunun her birinde ilgili medya/ön bilgi kanıtını kullanır.",
-        "Konu, tema, ana düşünce ve yardımcı düşünceleri birbirinden ayırır.",
-        "Öznel/nesnel örnekleri doğrudan medya içeriğinden seçer.",
-        "Paydos çalışmasında iletişim engelini metindeki davranış veya ifadeyle kanıtlar.",
-        "İletişim kanalı ile kullanılacak dil arasındaki ilişkiyi gerekçelendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map",
@@ -551,11 +481,6 @@
         },
         "q2_iliskiler": "Örneğin saygı ile nezaket birbirini destekler; güven açık ve yapıcı iletişimi kolaylaştırır. Kavram haritasındaki her bağ kısa bir gerekçeyle açıklanmalı ve mümkünse q1'de seçilen medya kanıtına dayanmalıdır."
       },
-      "acceptance_criteria": [
-        "Güven, saygı, yapıcılık ve nezaket için medya içeriğinden somut kanıt seçer.",
-        "En az iki iletişim unsuru arasında gerekçeli ilişki kurar.",
-        "Kitabın verdiği nezaket örneğini diğer kategorilere otomatik kopyalamaz."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map",
@@ -581,13 +506,6 @@
         "iki_sor": "İlgi çeken ve daha fazla bilgi edinilmek istenen iki gerçek soru.",
         "bir_paylas": "Çalışmalarda öğrenilenlere ilişkin arkadaşlarla paylaşılacak, gerekçelendirilebilir bir görüş."
       },
-      "acceptance_criteria": [
-        "Dil değerlendirmesini en az bir açık ölçüte ve medya kanıtına dayandırır.",
-        "Olumsuz eleştiri ile çözüm önerisi arasında doğrudan ilişki kurar.",
-        "Üç bilgi birbirinin tekrarı değildir ve bölümdeki çalışmalara dayanır.",
-        "İki soru daha fazla araştırmaya açıktır.",
-        "Paylaşılan görüş en az bir ders kanıtıyla gerekçelendirilebilir."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map",
@@ -625,12 +543,6 @@
           "Amaç, konu ve alıcıya uygun yazma stratejisi seçilir ve yapılandırılır."
         ]
       },
-      "acceptance_criteria": [
-        "s.74 sorularında iletişim aracı/biçimi ile zamanlama, kalıcılık, yaygınlık veya dil değişimi arasında gerekçeli ilişki kurar.",
-        "Yazma amacını ve hedef kitleyi/alıcıyı belirler.",
-        "Amaç ve alıcıya uygun yazma stratejisini gerekçelendirir.",
-        "Performans görevi için izlenecek temel adımları planlar."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map",
@@ -675,12 +587,6 @@
         "p77_12_akran_kontrolu": "Taslak bir akranla amaca uygunluk ve dilin doğru kullanımı gibi ölçütlerle kontrol edilir.",
         "p77_13_revize_plan": "Alınan geri bildirim doğrultusunda içerik planı gözden geçirilir ve son hâline getirilir."
       },
-      "acceptance_criteria": [
-        "Amaç ve hedef kitleye uygun bilgileri seçer ve düzenler.",
-        "E-posta ile mektubu en az bir benzerlik ve bir farklılıkla karşılaştırır.",
-        "Ek belge, dil işlevi ve söz varlığı seçimlerini işleviyle ilişkilendirir.",
-        "Akran/öğretmen geri bildirimini taslakta somut değişikliğe dönüştürür."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map",
@@ -713,12 +619,6 @@
         "kural_ii_deger_kultur": "Millî/manevi değer ve kültürel unsurlar bağlama uygunsa olumlu ve ölçülü biçimde gözetilir.",
         "kural_i_dil_yazim": "Dil yapıları, bağdaşıklık, yazım ve noktalama kuralları ile Türkçeyi bilinçli ve özenli kullanma gözetilir."
       },
-      "acceptance_criteria": [
-        "Metni tür, amaç, konu ve alıcıya uygun biçimde düzenler.",
-        "İletiyi açık, tutarlı ve uygun söz varlığıyla kurar.",
-        "Yazım, noktalama ve bağdaşıklık kurallarını gözetir.",
-        "Kitaptaki kontrol listesini mekanik işaretleme yerine kendi metni üzerinde doğrular."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map",
@@ -759,12 +659,6 @@
         ],
         "p78_cikis_karti": "Üç Yaz: temayla ilgili öğrenilen üç bilgi; İki Sor: hakkında daha fazla bilgi edinilmek istenen iki soru; Bir Paylaş: öğrenmekte zorlanılan bir konu. Bunlar öğrenciye özgüdür, öğretmen tarafından önceden doldurulmaz."
       },
-      "acceptance_criteria": [
-        "Öz değerlendirme formunu kendi ürününe dayanarak doldurur.",
-        "'Kısmen/Hayır' işaretlediği beceriyi sonraki geliştirme adımıyla ilişkilendirir.",
-        "Çıkış kartında üç bilgi, iki gerçek soru ve bir güçlük alanını birbirinden ayırır.",
-        "QR dereceli puanlama anahtarında görünmeyen düzey açıklamalarını rehberden uydurmaz."
-      ],
       "source_ids": [
         "official_textbook_pdf",
         "textbook_map",
@@ -789,9 +683,6 @@
       "label": "Soru 1 — Karagöz/Hacivat özelliklerini günlük iletişim durumuna uygulama",
       "item_type": "QUESTION",
       "expected_answer": "D",
-      "acceptance_criteria": [
-        "Kasiyerin 'ibraz etmek' sözünün müşteri tarafından ses benzerliğiyle 'itiraz etmek' biçiminde yanlış anlaşılmasını Karagöz'ün dil kaynaklı yanlış anlamalarıyla ilişkilendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -812,9 +703,6 @@
         "Hacivat",
         "Karagöz"
       ],
-      "acceptance_criteria": [
-        "Dört boşluğu sırasıyla Hacivat, Karagöz, Hacivat, Karagöz olarak doldurur."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -830,10 +718,6 @@
       "label": "Soru 3 — Muamma geleneğinin günümüzdeki karşılıkları",
       "item_type": "QUESTION",
       "expected_answer": "Muamma geleneği günümüzde bilmece ve bulmaca yarışmaları, kelime/zekâ oyunları, şiirsel bilmece etkinlikleri veya çevrim içi soru-bulmaca yarışmaları gibi biçimlerde karşılık bulabilir. Ortak yön, ipuçlarından hareketle bir cevaba ulaşma ve bunu bir yarışma/etkileşim ortamında paylaşmadır.",
-      "acceptance_criteria": [
-        "En az bir güncel karşılık verir.",
-        "Muamma ile verdiği örnek arasındaki bilmece/çözme/yarışma ilişkisini açıklar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -849,9 +733,6 @@
       "label": "Soru 4 — Çelebi'nin geliş amacı",
       "item_type": "QUESTION",
       "expected_answer": "C",
-      "acceptance_criteria": [
-        "Çelebi'nin mahallede âşıkları muamma yoluyla sınamak istemesini bir şiir/âşık yarışması düzenleme amacıyla ilişkilendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -867,9 +748,6 @@
       "label": "Soru 7 — Tanpınar'ın mektup yazma amacı",
       "item_type": "QUESTION",
       "expected_answer": "E",
-      "acceptance_criteria": [
-        "Tanpınar'ın Antalya ve gençlik hatıralarını zihninde canlandırarak mektubun muhatabıyla kişisel iletişim kurduğunu fark eder."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -885,10 +763,6 @@
       "label": "Soru 8 — Mektup kapanışındaki değerler ve iletişim biçimi",
       "item_type": "QUESTION",
       "expected_answer": "Kapanış, gencin mutlu ve çalışkan olmasını isteyen sıcak ve destekleyici bir iletişim kurar. Sevgi/şefkat, iyi dilek, çalışkanlık, sorumluluk ve başarıya teşvik gibi değerler öne çıkar; 'aziz yavrum' hitabı samimiyet ve koruyucu yakınlık oluşturur.",
-      "acceptance_criteria": [
-        "En az iki değeri metindeki kapanış ifadesiyle ilişkilendirir.",
-        "İletişimin sıcak, teşvik edici ve samimi niteliğini açıklar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -904,11 +778,6 @@
       "label": "Soru 9 — Mektup ve roman üzerinden yazar-okur iletişimi",
       "item_type": "QUESTION",
       "expected_answer": "Mektupta yazar belirli bir muhataba doğrudan, kişisel ve samimi biçimde seslenir. Romanda ise okurla kurmaca kişiler, mekân, imgeler ve karakterlerin iç dünyası üzerinden dolaylı ve estetik bir iletişim kurar. Mektup iletiyi daha açık verirken roman okurun gizli bağları kurmasını ve yorum yapmasını ister. Her iki durumda da yazar, yaşantı ve duygu dünyasını okurla paylaşarak ilişki kurar.",
-      "acceptance_criteria": [
-        "Mektuptaki doğrudan iletişim ile romandaki dolaylı/kurmaca iletişimi ayırır.",
-        "Okurun romanda daha etkin yorumlayıcı rol üstlendiğini gerekçelendirebilir.",
-        "İki metin arasında ortak bir iletişim amacı veya duygu/yaşantı aktarımı bağı kurar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -924,9 +793,6 @@
       "label": "Soru 10 — Dijitalleşme metninden ulaşılamayan yargı",
       "item_type": "QUESTION",
       "expected_answer": "C",
-      "acceptance_criteria": [
-        "Metnin içerik üretme ve paylaşma yeteneğindeki artışı internetin yaygınlaşmasına değil, 2000'lerin başında sosyal medya platformlarının ortaya çıkmasına bağladığını fark eder."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -942,10 +808,6 @@
       "label": "Soru 11 — İletişim alışkanlıklarının değişmesini etkileyen unsurlar",
       "item_type": "QUESTION",
       "expected_answer": "Başlıca unsurlar teknolojik gelişmeler ve yeni iletişim araçlarının yaygınlaşmasıdır: matbaa yazılı bilginin daha geniş kitlelere ulaşmasını, telgraf ve telefon uzaklık engelinin azalmasını, radyo ve televizyon kitlesel iletişimin güçlenmesini, internet anlık etkileşimi; sosyal medya ise bireyin içerik üretip paylaşabilmesini sağlamıştır. Bu değişimler toplumun iletişim alışkanlıklarını hız, erişim, etkileşim ve üretici katılımı yönlerinden dönüştürmüştür.",
-      "acceptance_criteria": [
-        "En az üç değişim unsurunu metinden örnekler.",
-        "Araç ile iletişim alışkanlığındaki değişim arasında neden-sonuç ilişkisi kurar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -970,9 +832,6 @@
         "7_2_dunya_savasi_sonrasi_uzun_kesinti": "Hayır",
         "8_dijitallesme_arac_kullanim_sikligini_artirdi": "Bilgi yok"
       },
-      "acceptance_criteria": [
-        "Sekiz cümleyi metinde açıkça doğrulanan, açıkça çelişen veya hakkında bilgi bulunmayan ifade olarak ayırır."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -988,11 +847,6 @@
       "label": "Soru 13 — Çok modlu metinde şiir duygusunu aktaran unsurlar",
       "item_type": "QUESTION",
       "expected_answer": "Örnek kabul edilebilir cevap: Şiirin duygusunu seslendiren kişinin ses tonu, vurgu ve duraklamaları; kullanılan fon müziği/sesler; görseller, renkler, ışık, görüntü geçişleri ve gösterim temposu birlikte güçlendirebilir. Öğrenci, izlediği Olvido içeriğinde gerçekten gözlediği unsurları şiirin hüzün, özlem, yalnızlık veya hatırlama/unutma duygusuyla ilişkilendirerek açıklamalıdır.",
-      "acceptance_criteria": [
-        "İzlenen içerikten en az iki farklı moda ait unsur belirler; örneğin seslendirme + müzik veya ses + görsel.",
-        "Belirlediği unsurun şiirin duygusunu nasıl güçlendirdiğini açıklar.",
-        "Cevabını gerçekten izlenen/işitilen içeriğe dayandırır; videoda bulunmayan bir unsuru varsaymaz."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],

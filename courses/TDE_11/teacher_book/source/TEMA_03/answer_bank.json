@@ -4,7 +4,7 @@
   "course_id": "TDE_11",
   "theme_id": "TEMA_03",
   "authority": "SOURCE_FILTERED_CANONICAL_ANSWERS",
-  "policy": "Only answers with source provenance independent of retired teacher-guide content and not classified as PEDAGOGICAL_ENRICHMENT are retained. This is a factual answer bank, not a pedagogy template.",
+  "policy": "Retains source-bound answer content only. Retired guide prose, pedagogical criteria and authoring templates are excluded; this bank is for factual answer support, not style imitation.",
   "counts": {
     "answers": 64,
     "excluded_legacy_or_pedagogical": 0,
@@ -35,7 +35,6 @@
           "kişisel hayatı konu alan metinler"
         ]
       },
-      "acceptance_criteria": [],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -56,10 +55,6 @@
         "3": "Görselden yalnız kesin olay bilgisi değil; yalnızlık, yolculuk, mücadele, umut, geçicilik gibi olası yaşam durumları çıkarılabilir.",
         "4": "Roman adı serbesttir; görseldeki yol/kişi/atmosferle gerekçeli bağ kurulmalıdır."
       },
-      "acceptance_criteria": [
-        "Her yorum görseldeki en az bir unsura dayanır.",
-        "Kesin olmayan çıkarımları olasılık diliyle ifade eder."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -75,9 +70,6 @@
       "label": "Görsellerin çağrışımı",
       "item_type": "QUESTION",
       "expected_answer": "Görseller, kişinin yaşam öyküsü, sanatçı kimliği, dönem, mekân, eser ve biyografik izler hakkında çağrışım oluşturabilir; somut görsel kanıtla gerekçelendirilen farklı cevaplar kabul edilir.",
-      "acceptance_criteria": [
-        "En az bir görsel ayrıntıyı yorumla ilişkilendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -96,10 +88,6 @@
         "ortak": "Her ikisi de gerçek kişiyi, yaşamı/sanat kişiliğini ve belirgin özellikleri tanıtır.",
         "fark": "Modern biyografi daha açık, belgeleyici ve sistematik anlatıma; tezkire ise döneminin dili, övgü/değerlendirme kalıpları ve şairlik örneklerine yaslanır."
       },
-      "acceptance_criteria": [
-        "Gerçek kişiyi tanıtma ortaklığını belirtir.",
-        "Dil/dönem/anlatım farklarından en az birini açıklar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -119,10 +107,6 @@
         "2": "“Hayatımı yazsam roman olurdu” sözü yaşanmışlıkların anlatı malzemesi olabileceğini vurgular; hayat ile roman aynı şey değildir.",
         "3": "Kişisel deneyim ayrıntıları metne inandırıcılık ve psikolojik derinlik katabilir; tek başına doğruluk garantisi değildir."
       },
-      "acceptance_criteria": [
-        "Hayatın kurmacaya kaynak olabileceğini söyler.",
-        "Kurmacanın dönüştürücü niteliğini korur."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -143,10 +127,6 @@
         "Tanpınar’ın hayatı, sanat anlayışı, dil/üslubu hakkında güvenilir kaynaklardan kısa not çıkar.",
         "Okuma sonunda ilk tahminlerini metinle karşılaştır."
       ],
-      "acceptance_criteria": [
-        "Tahmin ile doğrulanmış bulguyu ayırır.",
-        "Yazar-eser ilişkisini tek yönlü özdeşlik olarak kurmaz."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -162,9 +142,6 @@
       "label": "Kelime–yaşam çağrışımı ve okuma stratejisi",
       "item_type": "PROCESS",
       "expected_answer": "Öğrenci verilen kelimeleri farklı bağlamlarda cümleleştirir; çağrışımların kişisel deneyimle değişebileceğini fark eder ve Huzur için uygun okuma stratejisi seçer.",
-      "acceptance_criteria": [
-        "Bağlama göre anlam/çağrışım değişimini fark eder."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -186,7 +163,6 @@
         "geçmiş–gelecek ve kimlik gerilimi",
         "toplumsal hayat ile bireysel duyarlığın birlikte verilmesi"
       ],
-      "acceptance_criteria": [],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -211,9 +187,6 @@
         "muazzam": "çok büyük, görkemli",
         "mustarip": "acı/sıkıntı çeken"
       },
-      "acceptance_criteria": [
-        "Önce bağlamdan tahmin, sonra sözlük doğrulaması yapar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -234,9 +207,6 @@
         "psikolojik çözümleme/iç dünya",
         "uzun ve katmanlı cümle yapıları",
         "mekânı estetik/kültürel anlam taşıyıcısı olarak kullanma"
-      ],
-      "acceptance_criteria": [
-        "En az üç özellik metin örneği/işleviyle ilişkilendirilir."
       ],
       "source_ids": [
         "official_textbook_pdf"
@@ -267,10 +237,6 @@
         "12": "Çanakkale, Kurtuluş Savaşı gibi tarihî olayları konu alan marş/türkü/şarkılar uygun gerekçeyle örneklenebilir.",
         "13": "Musikî, karakterlerin hafıza, mekân ve duygu dünyasını örgütleyen temel kültürel/estetik unsurdur."
       },
-      "acceptance_criteria": [
-        "Cevaplar metin kanıtına dayanır.",
-        "Yorum sorularında gerekçeli alternatifler kabul edilir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -293,9 +259,6 @@
         "Suat": "Gerilim ve çatışma boyutunu güçlendiren, karamsarlık/uyumsuzlukla ilişkilendirilen figür.",
         "Fâhir": "Nuran’ın geçmişi ve sosyal ilişkiler ağı içinde çatışma/gerilim kaynağı."
       },
-      "acceptance_criteria": [
-        "Kişilik yargısını söz/davranış kanıtıyla destekler."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -315,9 +278,6 @@
         "kurmaca": "Yazar gerçek kişilerden aldığı unsurları değiştirir, yeni ilişkiler ve koşullar kurar; örneğin Yahya Kemal’e dayanan İhsan’ı evli/çocuklu ve Mümtaz’la akraba kılar.",
         "katki": "Gerçeklik duygusunu ve kültürel/psikolojik derinliği artırırken sanatçıya özgür kurmaca alanı sağlar."
       },
-      "acceptance_criteria": [
-        "Gerçek kaynak ile kurmaca dönüşümü ayırır."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -333,10 +293,6 @@
       "label": "Öznel/nesnel anlatım ve duyarlılık değeri",
       "item_type": "QUESTION",
       "expected_answer": "Öznel anlatım karakterlerin iç dünyasını, çağrışımlarını ve duygusal gerilimlerini derinleştirir; nesnel/olay bildirici bölümler bağlam ve eylem bilgisini kurar. Duyarlılık; halk, aile, hasta yakına bakım, hayvanlara merhamet, toplumsal sorumluluk ve kültürel köklere ilgi örnekleriyle tartışılabilir.",
-      "acceptance_criteria": [
-        "Öznel-nesnel ayrımını işlev üzerinden açıklar.",
-        "Değer yargısını somut davranış/metin parçasıyla ilişkilendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -364,9 +320,6 @@
         ],
         "zaman": "Cumhuriyet’in erken dönemine yaklaşan tarihsel/toplumsal atmosfer; metin içi zaman akışı ve geri dönüşler birlikte değerlendirilir."
       },
-      "acceptance_criteria": [
-        "Yapı unsurunu metindeki işleviyle açıklar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -382,9 +335,6 @@
       "label": "Dil/üslup–yapı ilişkisi",
       "item_type": "QUESTION",
       "expected_answer": "Betimleme ve çağrışımlı dil mekânı kültürel/psikolojik bir unsura dönüştürür; iç çözümleme kişileri derinleştirir; geçmişe dönüş/hatırlama zamanı katmanlaştırır; dönem söz varlığı ve sanat-kültür göndermeleri Tanpınar’ın düşünsel-estetik üslubunu kurar.",
-      "acceptance_criteria": [
-        "Olay, mekân, kişi ve zamandan en az ikisini üslupla ilişkilendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -403,10 +353,6 @@
         "kişinin kendisiyle çatışması: Mümtaz’ın iç sıkıntıları/kararsızlıkları",
         "kişiler arası çatışma: ilişkiler ve beklentiler",
         "birey-toplum/tarih gerilimi: geçmiş-modern hayat/kimlik arayışı"
-      ],
-      "acceptance_criteria": [
-        "Çatışma türünü metin kanıtıyla eşler.",
-        "Anlatıcı, iç çözümleme, diyalog veya betimlemenin katkısını açıklar."
       ],
       "source_ids": [
         "official_textbook_pdf"
@@ -431,9 +377,6 @@
         },
         "cumle_katkisi": "Uzun, bağlı ve betimleyici cümleler düşünce/çağrışım katmanlarını ve psikolojik ayrıntıyı taşır."
       },
-      "acceptance_criteria": [
-        "Dönem farkını ‘yanlış dil’ şeklinde değerlendirmez."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -453,9 +396,6 @@
         "sosyoloji": "şehir, halk, sınıfsal/toplumsal yapı",
         "psikoloji": "karakterlerin iç dünyası, çatışmaları ve ilişkileri"
       },
-      "acceptance_criteria": [
-        "Her disiplin için romandan bir bağlantı kurar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -482,9 +422,6 @@
           "estetik duyarlık"
         ]
       },
-      "acceptance_criteria": [
-        "Beğeni/eleştiri gerekçe içerir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -500,9 +437,6 @@
       "label": "Kendi beğeni ölçütleriyle değerlendirme",
       "item_type": "ASSESSMENT",
       "expected_answer": "Tutarlılık örneğine ek olarak dil/üslup, karakter derinliği, atmosfer, özgünlük, kurgu bütünlüğü, çağrışım gücü gibi ölçütler belirlenebilir; her yargı metin kanıtıyla açıklanır.",
-      "acceptance_criteria": [
-        "En az iki ölçüt + gerekçeli değerlendirme."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -522,9 +456,6 @@
         "iki_sor": "Bu çağrışım zenginliğini açmaya yönelik iki soru.",
         "bir_paylas": "En etkileyici ifade ve etkilenme gerekçesi."
       },
-      "acceptance_criteria": [
-        "Kişisel beğeni metne dayalı gerekçeyle ifade edilir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -551,9 +482,6 @@
         ],
         "2": "Biyografi, kişinin yaşamını ve eserlerini bağlama yerleştirerek okurun kişi-eser-dönem ilişkisini anlamasına, örnek yaşam deneyimlerinden çıkarım yapmasına ve güvenilir bilgi edinmesine katkı sağlar."
       },
-      "acceptance_criteria": [
-        "Yaşam öyküsü ile edebî kişiliği birlikte ele alır."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -573,9 +501,6 @@
         "Okuma amacını belirle.",
         "Biyografik/bilgilendirici metne uygun okuma stratejisi seç.",
         "Vurgu ve tonlamayı metnin bilgilendirici niteliğine göre ayarla."
-      ],
-      "acceptance_criteria": [
-        "Amaç ve strateji arasında ilişki kurar."
       ],
       "source_ids": [
         "official_textbook_pdf"
@@ -599,7 +524,6 @@
         "Safahat ve sanat anlayışı",
         "toplum, din ve millî meselelerle ilişkisi"
       ],
-      "acceptance_criteria": [],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -623,9 +547,6 @@
         "tahribat": "yıkıp bozma/zarar",
         "vurdumduymaz": "umursamaz"
       },
-      "acceptance_criteria": [
-        "Bağlamdan eşleştirme yapar; sözlükle kontrol eder."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -645,9 +566,6 @@
         "2": "Toplum meselelerini İslâmî duyarlık ve değer çerçevesinde işlemesi nedeniyle ‘İslâm şairi’ nitelemesi kullanılır; bu, toplumcu/millî yönleri dışlamaz.",
         "3": "Para ödülüne mesafe, millî marşı kişisel kazançtan üstün tutma ve görevi etik/millî sorumluluk olarak görmeyle ilişkilendirilebilir."
       },
-      "acceptance_criteria": [
-        "Yargılar biyografi metnindeki bilgiye dayanır."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -673,9 +591,6 @@
         ],
         "anlatim": "Ağırlıkla açıklayıcı/bilgilendirici ve nesnel; değerlendirme içeren öznel cümleler de vardır."
       },
-      "acceptance_criteria": [
-        "Nesnel anlatımın baskınlığını gerekçelendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -691,9 +606,6 @@
       "label": "Biyografide öznel ve nesnel anlatım",
       "item_type": "QUESTION",
       "expected_answer": "Tarih, yer, görev, eser ve kronolojik olay bildiren cümleler nesneldir; ‘duyarlı ve vicdanlı bir aydın’, ‘önemli bir boşluğu doldurmuştur’ gibi değerleme içeren ifadeler öznel nitelik taşır. Biyografide doğrulanabilir nesnel bilgi ön plandadır.",
-      "acceptance_criteria": [
-        "En az bir nesnel ve bir öznel örnek türü verir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -713,9 +625,6 @@
         "tur": "Bilimsel biyografi/monografi niteliği ağır basar; yaşam ve sanat kişiliği belgelere/kronolojiye dayalı bütüncül biçimde ele alınır.",
         "ayrim": "Nekroloji ölüm vesilesiyle yazılır; biyografik roman gerçek yaşamı kurmaca anlatı teknikleriyle işler."
       },
-      "acceptance_criteria": [
-        "Alt türleri ayırıcı özellikleriyle açıklar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -735,9 +644,6 @@
         "mehmet_akif": "gerçek kişiyi belgeleyici/bilgilendirici biyografi.",
         "siber_zorbalik": "kurgu değil, açıklayıcı/bilgilendirici gerçeklik alanına dayandığı için Mehmet Akif Ersoy metnine daha yakındır."
       },
-      "acceptance_criteria": [
-        "Kurmaca-gerçeklik ayrımını tür adıyla değil, metnin bilgi/kurgu işleviyle gerekçelendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -764,9 +670,6 @@
           "toplumsal dayanışma"
         ]
       },
-      "acceptance_criteria": [
-        "Yapı ve üslubu bilgi verme amacıyla ilişkilendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -790,9 +693,6 @@
         },
         "Usuli": "Bağdatlı Ahdî’nin Gülşen-i Şu’arâ’sından, şairin hayatı/kişiliği ve şiir örneklerini bir arada sunan parça."
       },
-      "acceptance_criteria": [
-        "Tezkireyi modern biyografiyle özdeşleştirmez."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -815,9 +715,6 @@
         "5": "Bilgi verme, kişiyi tanıtma, örnek/kanıt sunma gibi öğretici metin özellikleri bulunur; buna karşın tezkire dönemsel edebî üslup ve öznel değerlendirmeler de taşır.",
         "6": "Kişisel hayat metinleri sanatçının eserlerini, dönemini ve kişilik/üretim ilişkisini anlamayı; kültürel belleği korumayı sağlar."
       },
-      "acceptance_criteria": [
-        "Dönem dili ile tür işlevini birlikte değerlendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -843,10 +740,6 @@
         "degerlendirme": "Her ölçüt için metinden gözlenebilir kanıt ve gerekçe aranır.",
         "amac": "Metin Mehmet Akif’in yaşam ve sanat kişiliğini kapsamlı biçimde tanıttığı ölçüde bilgi verme amacına ulaşır."
       },
-      "acceptance_criteria": [
-        "En az iki ölçüt belirler.",
-        "Beğeni/eleştiriyi gerekçelendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -865,9 +758,6 @@
         "1": "Yazarın roman konusunu, kişilerini, çalışma yöntemini ve Türkçe hakkındaki görüşlerini doğrudan kendi sözlerinden öğrenmek.",
         "2": "Önceden soru/süre/hedef kitle belirlemek konuşmayı odaklar, süre yönetimini kolaylaştırır, soruların niteliğini ve dinleyiciye uygunluğu artırır."
       },
-      "acceptance_criteria": [
-        "Mülakatın bilgi edinme ve doğrudan kaynak işlevini fark eder."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -887,9 +777,6 @@
         "Bir Huzur kişisi seç ve seçim nedenini karakter özelliğiyle açıkla.",
         "Amaç, hedef kitle, tür, içerik, hazırlık süresi ve stratejiyi belirle.",
         "Roman kişisinin metindeki özelliklerini temel al."
-      ],
-      "acceptance_criteria": [
-        "Seçilen kişinin cevapları roman bağlamıyla tutarlı olur."
       ],
       "source_ids": [
         "official_textbook_pdf"
@@ -911,10 +798,6 @@
         "En nitelikli soruları seç.",
         "Roman kişisinin dil, beden dili, vurgu/tonlama ve varsa ağız özelliklerini bağlamdan türet.",
         "Giriş-gelişme-sonuç ve hedef kitle beklentisini planla."
-      ],
-      "acceptance_criteria": [
-        "Sorular roman kişisinin özelliklerini açığa çıkarır.",
-        "Cevaplar roman kanıtlarıyla uyumludur."
       ],
       "source_ids": [
         "official_textbook_pdf"
@@ -938,10 +821,6 @@
         "Toplumsal hassasiyet, görgü kuralları ve dil doğruluğu.",
         "Beden dili, diksiyon, zaman ve mekânın etkili kullanımı."
       ],
-      "acceptance_criteria": [
-        "Karakter rolü ile roman bağlamı tutarlı.",
-        "Konuşma amacı ve hedef kitle gözetilir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -957,9 +836,6 @@
       "label": "Açık/örtük iletiler ve yargıların dayanağı",
       "item_type": "ASSESSMENT",
       "expected_answer": "Öğrenci hayalî cevapların romandaki hangi söz, davranış, ilişki veya değerlerden türetildiğini açıklar; açık/örtük iletileri bu dayanaklarla değerlendirir.",
-      "acceptance_criteria": [
-        "Her önemli karakter yargısı için roman kanıtı/gerekçe sunar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -982,9 +858,6 @@
         "akıcılık-duruluk-yalınlık",
         "ekleri doğru ve kelimeleri bağlama uygun kullanma"
       ],
-      "acceptance_criteria": [
-        "Evet/Kısmen/Hayır seçimi sonraki gelişim hedefiyle ilişkilendirilir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1004,9 +877,6 @@
         "2": "Edebî-estetik kaygının azalması dil/üslup niteliğinin, hayal gücü ve kültürel derinliğin zayıflamasına yol açabilir.",
         "3": "Radyo tiyatrosu görseli hazır vermediği için ses, söz, müzik ve efekt üzerinden dinleyicinin zihinsel imge üretimine daha fazla alan açabilir; televizyon görselliği doğrudan sunar."
       },
-      "acceptance_criteria": [
-        "Karşılaştırmada iki aracın özelliklerini gerekçelendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1027,7 +897,6 @@
         "‘Direnişin Ustaları’ başlığından konu ve amaç için tahminde bulun.",
         "Gözlem Formu ölçütlerini süreçte dikkate al."
       ],
-      "acceptance_criteria": [],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1049,9 +918,6 @@
         "kafa yormak": "üzerinde çok düşünmek",
         "haber uçurmak": "gizlice/çabucak haber iletmek"
       },
-      "acceptance_criteria": [
-        "Bağlama uygun eş/alternatif ifade önerir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1067,9 +933,6 @@
       "label": "Radyo tiyatrosunda ses, söz, efekt, müzik",
       "item_type": "REFERENCE",
       "expected_answer": "Görüntü eksikliğini seslendirme, söz, efekt ve müzik tamamlar. Ses rengi, tonlama ve efektler kişi, mekân, zaman ve atmosferi zihinde kurdurur; küçük bir ses/efekt bile anlamı değiştirebilir.",
-      "acceptance_criteria": [
-        "En az iki ses unsurunun işlevini açıklar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1089,10 +952,6 @@
         "tur": "Radyo tiyatrosu/radyo oyunu; ses, söz, müzik ve efekt üzerinden dramatik anlatı.",
         "karsilastirma": "Sahnelenen tiyatro ile ortak dramatik yapı/diyalog/oyunculuk taşır; radyo tiyatrosunda dekor/görsel sahne yerine ses ve dinleyicinin hayal gücü belirleyicidir."
       },
-      "acceptance_criteria": [
-        "Medya içeriğini uydurmaz.",
-        "Çıkarımını duyulan/izlenen unsura bağlar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1121,7 +980,6 @@
         ],
         "genel": "Her iki tür dramatik anlatı ve oyuncu sesi kullanabilir; sahne tiyatrosu görsel dekor/beden/mekânı doğrudan gösterirken radyo tiyatrosu bunları ses ve hayal gücüyle kurar."
       },
-      "acceptance_criteria": [],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1146,9 +1004,6 @@
         ],
         "cevaplama_kurali": "Her alan dinlenen/izlenen metindeki somut kanıtla doldurulur."
       },
-      "acceptance_criteria": [
-        "Yapı unsurunun dramatik örgüye katkısını açıklar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1173,10 +1028,6 @@
           "aile bütünlüğü"
         ]
       },
-      "acceptance_criteria": [
-        "Katılma derecesini gerekçeyle açıklar.",
-        "Farklı görüşü dinleyip gerekirse görüşünü günceller."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1203,9 +1054,6 @@
           "bir kişiyle empati kurup davranışını değerlendir"
         ]
       },
-      "acceptance_criteria": [
-        "Değerlendirme ölçütü açık ve gözlenebilir olur."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1226,9 +1074,6 @@
         "Daha ayrıntılı incelemek istediğim konular",
         "Kendimi geliştirmek için çaba harcadığım konular",
         "Gelecekte kullanabileceğim bilgiler"
-      ],
-      "acceptance_criteria": [
-        "Öğrenci beğenisini ve metin-yaşam ilişkisini gerekçelendirir."
       ],
       "source_ids": [
         "official_textbook_pdf"
@@ -1253,9 +1098,6 @@
         ],
         "gorev": "Direnişin Ustaları’ndan seçilen bir diyaloğu bağlamı koruyarak hikâye, anı vb. başka türe dönüştürmek."
       },
-      "acceptance_criteria": [
-        "Diyalog seçme ölçütünü gerekçelendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1271,9 +1113,6 @@
       "label": "Yazma yöntemi ve stratejisi",
       "item_type": "PROCESS",
       "expected_answer": "Dönüştürülecek diyaloğun olay/kişi/ileti bağlamını koruyacak, hedef türün yapı ve anlatım özelliklerini kullanacak uygun yazma stratejisi belirlenir.",
-      "acceptance_criteria": [
-        "Kaynak metin bağlamı ile hedef tür özellikleri birlikte gözetilir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1295,9 +1134,6 @@
         "Diyalogdaki kişileri kendi özelliklerine uygun konuştur/anlat.",
         "Kişilerle empati kurarak iletiyi tahmin et.",
         "Bölümleri planla."
-      ],
-      "acceptance_criteria": [
-        "Plan, kaynak diyaloğun bağlamını ve hedef türün gerekliliklerini birlikte taşır."
       ],
       "source_ids": [
         "official_textbook_pdf"
@@ -1323,9 +1159,6 @@
         "Taslağı akran geri bildirimiyle geliştir.",
         "Dikkat çekici giriş ve karaktere uygun anlatım kullan."
       ],
-      "acceptance_criteria": [
-        "Tür dönüşümü yalnız biçim değişikliği değil; yapı ve anlatıcı/ifade araçları da hedef türe uyarlanır."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1349,9 +1182,6 @@
         "dil yapısı/bağdaşıklık/yazım-noktalama",
         "içeriğe uygun başlık"
       ],
-      "acceptance_criteria": [
-        "Geri bildirim sonrası somut düzeltme yapar."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1374,9 +1204,6 @@
         "dil yapısı/bağdaşıklık/yazım-noktalama",
         "Türkçeyi bilinçli ve özenli kullanma"
       ],
-      "acceptance_criteria": [
-        "Kısmen/Hayır işaretlenen alanlar için gelişim eylemi belirlenir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1396,9 +1223,6 @@
         "iki_sor": "Eksik/kavram yanılgısına yönelik iki soru.",
         "bir_paylas": "En çok etkileyen konu ve gerekçesi."
       },
-      "acceptance_criteria": [
-        "Eksiklerini düzeltmeye dönük sonraki adımı ifade eder."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1417,10 +1241,6 @@
         "degerlendirme": "Metinlerin tez/antitez sınıflandırmasında, parçanın yazar hayatıyla doğrulanabilir ilişkisi esas alınmalıdır. PDF sayfasında parçaların kaynak/yazar bilgileri görünmediği için rehber kaynaksız kesin numara anahtarı üretmez.",
         "sentez_ornegi": "Edebî metinler sanatçının yaşantı ve gözlemlerinden izler taşıyabilir; ancak bu izler kurmaca ve estetik dönüştürme nedeniyle doğrudan hayat belgesi sayılmaz."
       },
-      "acceptance_criteria": [
-        "Tez/antitez seçimini kaynak/metin kanıtıyla gerekçelendirir.",
-        "Kesişim cümlesi iki yargıyı uzlaştırır."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1447,11 +1267,6 @@
         "5": "E",
         "6": "C"
       },
-      "acceptance_criteria": [
-        "Q5=E, Q6=C.",
-        "Q3 kavram açıklamaları metnin kurmaca-gerçeklik paragrafıyla uyumludur.",
-        "Q4 görüşü metindeki kurmaca/gerçeklik ayrımıyla gerekçelendirilir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1473,12 +1288,6 @@
         "10": "II. grup Tablo A’dır: üç doğru (+15) ve ‘tutum’ ifadesi yanlış (-2) → 13 puan.",
         "11": "I. grubun tam puan için ‘Tarafsızlık’ ve ‘Kronoloji’ açıklamalarını düzeltmesi gerekir: biyografide tarafsızlık göz ardı edilmez; kronolojik sıra yaygın olsa da mutlak zorunluluk değildir."
       },
-      "acceptance_criteria": [
-        "Q9=C.",
-        "Q8 tanıtılan yönleri metin ayrıntılarıyla gerekçelendirir.",
-        "Q10 puan hesabını gösterir.",
-        "Q11 iki yanlış kavramı düzeltir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1506,9 +1315,6 @@
           "Hayır"
         ]
       },
-      "acceptance_criteria": [
-        "13. soruda sıra: bilgi verme; biyografik roman; açık/anlaşılır dil; yaşantı; kahraman anlatıcı; devrik cümleyle güçlendirme; nesnel anlatım; kronolojik sıra."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1527,9 +1333,6 @@
         "14": "Diyalog, kişileri doğrudan konuşturarak anlatımı canlılaştırır; karakter ilişkisi ve düşünce/duygu farklarını aracısız görünür kılar.",
         "15": "Kişi, mekân ve zamanın dramatik örgüye katkısı yalnız QR’deki Aile Bağları videosu izlenerek; olay/çatışmayı nasıl kurduğu somut medya kanıtıyla açıklanmalıdır."
       },
-      "acceptance_criteria": [
-        "Q15’te gerçekten gözlenen kişi/mekân/zaman ayrıntılarına dayalı gerekçe aranır."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
@@ -1548,9 +1351,6 @@
         "dogru": "C) I, IV, V",
         "gerekce": "I ve V tezkire üslubuyla sanatçının hayat/mahlasına ilişkin olayı aktarır; IV kişisel yaşam/anı niteliğinde yazarın yaşantı çevresini verir. II ve III ise kurmaca kişinin/olayın iç yaşantısını öne çıkarır."
       },
-      "acceptance_criteria": [
-        "C seçeneğini metin türü ve yaşam bilgisiyle gerekçelendirir."
-      ],
       "source_ids": [
         "official_textbook_pdf"
       ],
